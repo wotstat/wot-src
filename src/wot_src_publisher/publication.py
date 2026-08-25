@@ -24,7 +24,7 @@ GIT_OBJECT_ID_RE = re.compile(r"^(?:[a-f0-9]{40}|[a-f0-9]{64})$")
 SNAPSHOT_ID_RE = re.compile(r"^sha256:[a-f0-9]{64}$")
 LANGUAGE_RE = re.compile(r"^[A-Z]{2}(?:_[A-Z]{2})?$")
 VERSION_XML_COMMIT_RE = re.compile(r"^v\.[0-9]+(?:\.[0-9]+){3} #[0-9]+$")
-SOURCE_SUFFIXES = frozenset({".po", ".py", ".xml"})
+SOURCE_SUFFIXES = frozenset({".po", ".py", ".txt", ".xml"})
 GAMEFACE_PREFIX = "res/gui/gameface/"
 MANIFEST_NAMES = ("files", "actionscript", "stubs", "packages", "conflicts")
 REPOSITORY_URL = "https://github.com/wotstat/wot-src"
@@ -1125,8 +1125,7 @@ def _verify_snapshot(
 
 
 def _is_source(path: str) -> bool:
-    pure = PurePosixPath(path)
-    return pure.name.casefold() == "licenses.txt" or pure.suffix.casefold() in SOURCE_SUFFIXES
+    return PurePosixPath(path).suffix.casefold() in SOURCE_SUFFIXES
 
 
 def _copy(item: PayloadFile, root: Path, relative_path: str) -> None:
@@ -1202,7 +1201,7 @@ git clone --depth 1 --no-single-branch {REPOSITORY_URL}.git
 README.md
 .version_name
 .publication.json
-sources/             # base + default locale overlay; .py, .xml, .po, Licenses.txt
+sources/             # base + default locale overlay; .py, .xml, .po, .txt
 locales/<LANG>/      # все locale overlays WG, включая default locale
 sources-as3/         # декомпилированные .as
 sources-gameface/    # содержимое base/res/gui/gameface без исходного префикса
