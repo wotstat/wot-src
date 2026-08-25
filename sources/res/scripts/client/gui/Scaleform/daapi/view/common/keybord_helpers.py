@@ -1,0 +1,28 @@
+from __future__ import absolute_import
+import typing
+from collections import namedtuple
+import BigWorld, CommandMapping
+from gui.Scaleform.locale.READABLE_KEY_NAMES import READABLE_KEY_NAMES
+from helpers.i18n import makeString
+
+class _HotKeysInfo(namedtuple(b'_HotKeysInfo', (b'vKey', b'keyName'))):
+
+    def asDict(self):
+        return {b'vKey': (self.vKey), 
+           b'keyName': (self.keyName)}
+
+
+def getHotKeyList(command):
+    keys = [makeString(READABLE_KEY_NAMES.key(vKey)) for vKey in _getHotKeyVkList(command)]
+    return keys
+
+
+def getHotKeysInfo(command):
+    return [_HotKeysInfo(vKey, makeString(READABLE_KEY_NAMES.key(vKey))) for vKey in _getHotKeyVkList(command)]
+
+
+def _getHotKeyVkList(command):
+    key, satelliteKeys = CommandMapping.g_instance.getCommandKeys(command)
+    keys = [BigWorld.keyToString(satelliteKey) for satelliteKey in satelliteKeys]
+    keys.append(BigWorld.keyToString(key))
+    return keys

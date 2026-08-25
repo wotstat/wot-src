@@ -1,0 +1,3 @@
+from __future__ import absolute_import
+from cgf_components_common.vehicle_mechanics.stationary_reload_sequence_params_component import StationaryReloadSequenceParamsComponent
+__all__ = (b'StationaryReloadSequenceParamsComponent',)

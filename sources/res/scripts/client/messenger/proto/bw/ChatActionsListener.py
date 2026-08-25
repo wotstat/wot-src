@@ -1,0 +1,35 @@
+from ChatManager import chatManager
+from debug_utils import LOG_ERROR
+
+class ChatActionsListener(object):
+
+    def __init__(self, responseHandlers=None):
+        super(ChatActionsListener, self).__init__()
+        if responseHandlers is not None:
+            self._responseHandlers = responseHandlers
+        else:
+            self._responseHandlers = {}
+        return
+
+    def addListener(self, callback, action, cid=None):
+        chatManager.subscribeChatAction(callback, action, cid)
+        return
+
+    def removeListener(self, callback, action, cid=None):
+        chatManager.unsubscribeChatAction(callback, action, cid)
+        return
+
+    def removeAllListeners(self):
+        chatManager.unsubcribeAllChatActions()
+        return
+
+    def handleChatActionFailureEvent(self, actionResponse, chatAction):
+        handler = self._responseHandlers.get(actionResponse)
+        if handler is None:
+            return False
+        else:
+            if hasattr(self, handler):
+                return getattr(self, handler)(actionResponse, chatAction)
+            LOG_ERROR(b'handleChatActionFailureEvent: response handler for response %s(%s) not registered' % (
+             actionResponse, actionResponse.index()))
+            return False

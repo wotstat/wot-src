@@ -1,0 +1,25 @@
+from __future__ import absolute_import
+from BWUtil import AsyncReturn
+from gui.impl.gen import R
+from gui.impl.lobby.hangar.dialogs import showTypeParamConfirmDialog
+from wg_async import wg_async, wg_await
+EMPTY_DIALOG_PARAMS = b'{}'
+
+class VehPlaylistsDialogType(object):
+    IMPORT = b'import'
+    DELETE = b'delete'
+    SAVE_BEFORE_LEAVE = b'save'
+
+
+@wg_async
+def showTypeParamPlaylistDialog(dialogType, dialogParams):
+    result = yield wg_await(showTypeParamConfirmDialog(layoutID=R.views.mono.hangar.overlays.playlist(), dialogType=dialogType, dialogParams=dialogParams))
+    raise AsyncReturn(result)
+    return
+
+
+@wg_async
+def showSaveBeforeLeavePlaylistDialog(dialogParams=None):
+    result = yield wg_await(showTypeParamPlaylistDialog(VehPlaylistsDialogType.SAVE_BEFORE_LEAVE, dialogParams or EMPTY_DIALOG_PARAMS))
+    raise AsyncReturn(result)
+    return

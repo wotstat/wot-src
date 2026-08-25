@@ -1,0 +1,37 @@
+from comp7.gui.impl.gen.view_models.views.lobby.enums import SeasonName
+from frameworks.wulf import ViewModel
+
+class RankCompatibilityTooltipModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(RankCompatibilityTooltipModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getSeasonName(self):
+        return SeasonName(self._getString(0))
+
+    def setSeasonName(self, value):
+        self._setString(0, value.value)
+        return
+
+    def getSquadSize(self):
+        return self._getNumber(1)
+
+    def setSquadSize(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getRankRangeRestriction(self):
+        return self._getNumber(2)
+
+    def setRankRangeRestriction(self, value):
+        self._setNumber(2, value)
+        return
+
+    def _initialize(self):
+        super(RankCompatibilityTooltipModel, self)._initialize()
+        self._addStringProperty(b'seasonName')
+        self._addNumberProperty(b'squadSize', 0)
+        self._addNumberProperty(b'rankRangeRestriction', 0)
+        return

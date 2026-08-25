@@ -1,0 +1,38 @@
+from frameworks.wulf import ViewModel
+from gui.impl.gen.view_models.views.lobby.exchange.exchange_rate_model import ExchangeRateModel
+
+class DiscountPresentation(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(DiscountPresentation, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def exchangeRate(self):
+        return self._getViewModel(0)
+
+    @staticmethod
+    def getExchangeRateType():
+        return ExchangeRateModel
+
+    def getSelectedAmountOfDiscount(self):
+        return self._getNumber(1)
+
+    def setSelectedAmountOfDiscount(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getWholeAmountOfDiscount(self):
+        return self._getNumber(2)
+
+    def setWholeAmountOfDiscount(self, value):
+        self._setNumber(2, value)
+        return
+
+    def _initialize(self):
+        super(DiscountPresentation, self)._initialize()
+        self._addViewModelProperty(b'exchangeRate', ExchangeRateModel())
+        self._addNumberProperty(b'selectedAmountOfDiscount', 0)
+        self._addNumberProperty(b'wholeAmountOfDiscount', 0)
+        return

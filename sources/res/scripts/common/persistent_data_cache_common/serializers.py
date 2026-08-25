@@ -1,0 +1,35 @@
+from __future__ import absolute_import
+import typing, wg_pickle
+if typing.TYPE_CHECKING:
+    from persistent_data_cache_common.types import TData
+
+class ISerializer(object):
+    __slots__ = ()
+
+    def deserialize(self, serializedData):
+        raise NotImplementedError
+        return
+
+    def serialize(self, rawData):
+        raise NotImplementedError
+        return
+
+    def rollbackSideEffects(self):
+        raise NotImplementedError
+        return
+
+
+class WGPickleSerializer(ISerializer):
+    __slots__ = ()
+
+    def deserialize(self, serializedData):
+        return wg_pickle.loads(serializedData)
+
+    def serialize(self, rawData):
+        return wg_pickle.dumps(rawData)
+
+    def rollbackSideEffects(self):
+        return
+
+
+defaultSerializer = WGPickleSerializer()

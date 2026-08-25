@@ -1,0 +1,36 @@
+from frameworks.wulf import ViewModel
+
+class ModuleDescription(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(ModuleDescription, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getModuleType(self):
+        return self._getString(0)
+
+    def setModuleType(self, value):
+        self._setString(0, value)
+        return
+
+    def getModuleName(self):
+        return self._getString(1)
+
+    def setModuleName(self, value):
+        self._setString(1, value)
+        return
+
+    def getModuleXpCost(self):
+        return self._getNumber(2)
+
+    def setModuleXpCost(self, value):
+        self._setNumber(2, value)
+        return
+
+    def _initialize(self):
+        super(ModuleDescription, self)._initialize()
+        self._addStringProperty(b'moduleType', b'')
+        self._addStringProperty(b'moduleName', b'')
+        self._addNumberProperty(b'moduleXpCost', 0)
+        return

@@ -1,0 +1,34 @@
+from frameworks.wulf import Array, ViewModel
+from gui.impl.gen.view_models.views.lobby.crew.help_slide_view_model import HelpSlideViewModel
+
+class HelpViewModel(ViewModel):
+    __slots__ = (b'onClose',)
+
+    def __init__(self, properties=2, commands=1):
+        super(HelpViewModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getSelectedSlideIndex(self):
+        return self._getNumber(0)
+
+    def setSelectedSlideIndex(self, value):
+        self._setNumber(0, value)
+        return
+
+    def getSlides(self):
+        return self._getArray(1)
+
+    def setSlides(self, value):
+        self._setArray(1, value)
+        return
+
+    @staticmethod
+    def getSlidesType():
+        return HelpSlideViewModel
+
+    def _initialize(self):
+        super(HelpViewModel, self)._initialize()
+        self._addNumberProperty(b'selectedSlideIndex', 0)
+        self._addArrayProperty(b'slides', Array())
+        self.onClose = self._addCommand(b'onClose')
+        return

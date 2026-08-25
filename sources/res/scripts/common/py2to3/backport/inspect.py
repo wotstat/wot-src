@@ -1,0 +1,47 @@
+from __future__ import absolute_import
+import inspect
+from future.utils import lmap
+from py2to3.utils import PY3
+
+def _joinseq(seq):
+    if len(seq) == 1:
+        return b'(' + seq[0] + b',)'
+    else:
+        return b'(' + (b', ').join(seq) + b')'
+
+    return
+
+
+def _strseq(obj, convert, join=_joinseq):
+    if isinstance(obj, (list, tuple)):
+        return join(lmap((lambda o, c=convert, j=join: _strseq(o, c, j)), obj))
+    else:
+        return convert(obj)
+
+    return
+
+
+def getargspec(func):
+    if PY3:
+        return inspect.getfullargspec(func)
+    else:
+        return inspect.getargspec(func)
+
+    return
+
+
+def formatargspec(args, varargs=None, varkw=None, defaults=None, kwonlyargs=(), kwonlydefaults={}, annotations={}, formatarg=str, formatvarargs=(lambda name: b'*' + name), formatvarkw=(lambda name: b'**' + name), formatvalue=(lambda value: b'=' + repr(value)), join=_joinseq):
+    specs = []
+    if defaults:
+        firstdefault = len(args) - len(defaults)
+    for i, arg in enumerate(args):
+        spec = _strseq(arg, formatarg, join)
+        if defaults and i >= firstdefault:
+            spec = spec + formatvalue(defaults[i - firstdefault])
+        specs.append(spec)
+
+    if varargs is not None:
+        specs.append(formatvarargs(varargs))
+    if varkw is not None:
+        specs.append(formatvarkw(varkw))
+    return b'(' + (b', ').join(specs) + b')'

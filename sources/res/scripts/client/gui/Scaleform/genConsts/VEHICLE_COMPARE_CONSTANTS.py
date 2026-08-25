@@ -1,0 +1,12 @@
+class VEHICLE_COMPARE_CONSTANTS(object):
+    VEHICLE_CMP_ADD_VEHICLE_POPOVER = b'VehicleCompareAddVehiclePopover'
+    VEHICLE_MODULES_VIEW = b'VehicleModulesView'
+    VEHICLE_CONFIGURATOR_VIEW = b'VehicleCompareConfiguratorView'
+    VEHICLE_COMPARE_CART_POPOVER = b'VehicleCompareCartPopover'
+    VEHICLE_COMPARE_PARAMS = b'VehicleCompareParams'
+    VEHICLE_MODULES_VIEW_LINKAGE = b'VehicleModulesViewUI'
+    VEHICLE_CONFIGURATOR_VIEW_LINKAGE = b'VehicleCompareConfiguratorViewUI'
+    VEHICLE_CONFIGURATOR_PARAM_RENDERER_LINKAGE = b'VehConfParamRendererUI'
+    VEHICLE_CONFIGURATOR_SKILLS_WIDGET = b'skillsWidget'
+    VEHICLE_CONFIGURATOR_EQUIPMENT_WIDGET = b'equipmentWidget'
+    VEHICLE_CONFIGURATOR_MODIFICATIONS_WIDGET = b'modificationsWidget'

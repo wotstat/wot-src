@@ -1,0 +1,18 @@
+from gui.Scaleform.daapi.view.battle.shared.stats_exchange.stats_ctrl import BattleStatisticsDataController
+
+class FrontlineBattleStatisticDataControllerMeta(BattleStatisticsDataController):
+
+    def as_updateEpicPlayerStatsS(self, data):
+        if self._isDAAPIInited():
+            return self.flashObject.as_updateEpicPlayerStats(data)
+        return
+
+    def as_setEpicVehiclesStatsS(self, data):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setEpicVehiclesStats(data)
+        return
+
+    def as_updateEpicVehiclesStatsS(self, data):
+        if self._isDAAPIInited():
+            return self.flashObject.as_updateEpicVehiclesStats(data)
+        return

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<messenger.xml>
+	<htmlTemplates>
+		<DailyReward>
+			<priority>medium</priority>
+			<groupID>info</groupID>
+			<gfViewName>DailyReward</gfViewName>
+			<linkage>GamefaceNotification</linkage>
+		</DailyReward>
+	</htmlTemplates>
+</messenger.xml>

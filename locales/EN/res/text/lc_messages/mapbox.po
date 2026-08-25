@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Affirmative!"
+
+msgid "awardsView/subTitle"
+msgstr "BATTLES FOUGHT: {number}"
+
+msgid "awardsView/title"
+msgstr "RECON MISSION"
+
+msgid "buttonDisable/tooltip"
+msgstr "Unavailable"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Schedule"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Unable to Enter Battle"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Battles have ended"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Unable to Enter Battle"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Ceasefire is in effect on this server. Please select another server."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "You can only enter battle in %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Incompatible Vehicle Tier"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "Tier %(levels)s vehicles"
+
+msgid "intro/button"
+msgstr "Affirmative!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Your feedback helps us improve the battlefields. Leave your thoughts on the new map mechanics, and we will add the best ideas to the game."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Crucial Feedback"
+
+msgid "intro/modeInfoDescription"
+msgstr "Fight in Tier VIII–X vehicles on maps with new mechanics, complete surveys, and receive rewards. In a week, the progression will be reset, and you can start earning rewards again."
+
+msgid "intro/modeInfoTitle"
+msgstr "Help Us Develop New Mechanics!"
+
+msgid "intro/startEvent"
+msgstr "Event starts in: "
+
+msgid "intro/taskInfoDescription"
+msgstr "When fighting in Recon Mission, you can complete daily and Battle Pass missions, and fulfill the conditions of progressive decals."
+
+msgid "intro/taskInfoTitle"
+msgstr "Fight Under Random Battles Rules"
+
+msgid "intro/time/period/day"
+msgstr "{day} d"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} d {hours} h"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} h {min} min"
+
+msgid "intro/time/period/minute"
+msgstr "{min} min"
+
+msgid "intro/title"
+msgstr "RECON MISSION"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s cannot fight in Recon Mission."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Incompatible Vehicle Type"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Select a %(levelSubStr)s to participate in Recon Mission."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Incompatible Vehicle Tier"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Tier %(levels)s vehicle"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "The %(forbiddenType)s cannot fight in Recon Mission."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Incompatible Vehicle"
+
+msgid "mapboxTab"
+msgstr "Recon Mission"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "The Stage on the %(server)s server has finished"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s server\nBattles will be available for another %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s server\nBattles will be available in %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Ceasefire is in effect on all servers"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "This mode is not available on the %(server)s server"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Battles on the %(server)s server will be available for another %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Battles will start on the %(server)s server in %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Battles in this mode are unavailable: Season has finished."
+
+msgid "primeTimeView/status/untill"
+msgstr "Ceasefire is in effect on the %(server)s server until %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "RECON MISSION"
+
+msgid "primeTimes/availableServer"
+msgstr "Available server:"
+
+msgid "primeTimes/availableServers"
+msgstr "Available servers:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Battles have ended"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "This mode is not available on the %(serverName)s server"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Fight battles"
+
+msgid "progression/cardTitle/rating"
+msgstr "Be among the top {rating} players by XP earned"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Be among the top {rating} players by XP earned on map with fire"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Be among the top {rating} players by XP earned on maps with fog"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Be among the top {rating} players by XP earned on maps with heavy rain"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Be among the top {rating} players by XP earned on map with sandstorms"
+
+msgid "progression/changeAnswer"
+msgstr "Change Answer"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Fight in Tier VIII–X vehicles on maps with new mechanics, complete surveys, and receive rewards."
+
+msgid "progression/info/restart"
+msgstr "The progress with rewards will be reset in %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Be among the top %(rating) players by XP earned: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "ABOUT THE EVENT"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "GAME\nMECHANICS"
+
+msgid "progression/map_fire"
+msgstr "FIRE"
+
+msgid "progression/map_fog"
+msgstr "FOG"
+
+msgid "progression/map_heavy_rain"
+msgstr "HEAVY RAIN"
+
+msgid "progression/map_sandstorm"
+msgstr "SANDSTORM"
+
+msgid "progression/redirect"
+msgstr "Go to Mode"
+
+msgid "progression/startInterview"
+msgstr "Take Survey"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Fulfill the condition above to take a survey."
+
+msgid "progression/startSpecialInterview"
+msgstr "Take Survey"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Fulfill the condition above to take a survey."
+
+msgid "progression/subtitle"
+msgstr "Here you can take a survey on new mechanics"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "progression/title"
+msgstr "RECON MISSION"
+
+msgid "progressionError/description/line1"
+msgstr "Your progress is saved. You can continue playing."
+
+msgid "progressionError/description/line2"
+msgstr "You will be able to see your progress and take a survey soon."
+
+msgid "progressionError/title"
+msgstr "Recon Mission details are temporarily unavailable"
+
+msgid "questFlag/complete"
+msgstr "All rewards received"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Fight in %(highlightedText)s, complete surveys, and receive rewards."
+
+msgid "questFlag/frozen/header"
+msgstr "Recon Mission Unavailable"
+
+msgid "questFlag/frozen/text"
+msgstr "Recon Mission battles are unavailable for technical reasons."
+
+msgid "questFlag/highlightedText"
+msgstr "Tier VIII–X vehicles on maps with new mechanics"
+
+msgid "questFlag/incomplete"
+msgstr "Battles to be fought to receive the next reward: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Battles fought:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Surveys taken: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "The exploration of maps with new mechanics will start on %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "The exploration of maps with new mechanics will last until %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Schedule"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Season ends in:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Battle Schedule"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Today"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Tomorrow"
+
+msgid "serverAlertMessage/button"
+msgstr "Select Another Server"
+
+msgid "survey/backBtn"
+msgstr "Back"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "SPGs"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "HTs"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "LTs"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "MTs"
+
+msgid "survey/fire/question/q1"
+msgstr "Did you enjoy playing on the Murovanka map with the fire mechanic?"
+
+msgid "survey/fire/question/q2"
+msgstr "What is your opinion on the fire visual design on the Murovanka map?"
+
+msgid "survey/fire/question/q3"
+msgstr "Would you like to adjust the influence of fire on the Murovanka map gameplay?"
+
+msgid "survey/fire/question/q4"
+msgstr "How exactly would you like to adjust the influence of fire on the Murovanka map gameplay?"
+
+msgid "survey/fire/question/q5"
+msgstr "Which types of vehicles did you play on the Murovanka map?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "How did the {value} gameplay change on the Murovanka map?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "How did the {value} gameplay change on the Murovanka map?"
+
+msgid "survey/fire/question/q7"
+msgstr "Would you like to see fire on the maps in Random Battles?"
+
+msgid "survey/fire/question/q8"
+msgstr "What didn't you like about the fire mechanic on the Murovanka map?"
+
+msgid "survey/fire/question/q9"
+msgstr "Specify any necessary improvements."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Yes, I did"
+
+msgid "survey/fire/response/q1_2"
+msgstr "No, I didn't"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Not sure"
+
+msgid "survey/fire/response/q2_1"
+msgstr "I liked it"
+
+msgid "survey/fire/response/q2_2"
+msgstr "It's okay"
+
+msgid "survey/fire/response/q2_3"
+msgstr "I disliked it"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Not sure"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Yes, I would"
+
+msgid "survey/fire/response/q3_2"
+msgstr "No, I wouldn't"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Not sure"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Make it stronger"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Make it weaker"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "SPGs"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "HTs"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "LTs"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "MTs"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Can't remember"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "It got better"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "It got worse"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "It didn't change"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Not sure"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "It got better"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "It got worse"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "It didn't change"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Not sure"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Yes, I would"
+
+msgid "survey/fire/response/q7_2"
+msgstr "No, I wouldn't"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Not sure"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Fire severely decreases the number of available positions"
+
+msgid "survey/fire/response/q8_10"
+msgstr "One of the teams gains an advantage"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Technical issues"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Other"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Fire causes too much damage"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Opponents outside the zone cannot see my vehicle, but I can't see theirs either"
+
+msgid "survey/fire/response/q8_4"
+msgstr "The fire location on the map"
+
+msgid "survey/fire/response/q8_5"
+msgstr "The way fire looks"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Too much influence on the map gameplay"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Too little influence on the map gameplay"
+
+msgid "survey/fire/response/q8_8"
+msgstr "The fire visuals interfere with combat"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Fire forces playing close-range combat"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "SPGs"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "HTs"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "LTs"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "MTs"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "SPGs"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "HTs"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "LTs"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "MTs"
+
+msgid "survey/fog/question/q1"
+msgstr "Did you enjoy playing on the following maps with the fog mechanic?"
+
+msgid "survey/fog/question/q10"
+msgstr "Would you like to see fog on the maps in Random Battles?"
+
+msgid "survey/fog/question/q11"
+msgstr "What didn't you like about the fog mechanic on the Fjords map?"
+
+msgid "survey/fog/question/q12"
+msgstr "What didn't you like about the fog mechanic on the Outpost map?"
+
+msgid "survey/fog/question/q13"
+msgstr "Specify any necessary improvements."
+
+msgid "survey/fog/question/q2"
+msgstr "What is your opinion on the fog visual design on the following maps?"
+
+msgid "survey/fog/question/q3"
+msgstr "Would you like to adjust the influence of fog on the map gameplay?"
+
+msgid "survey/fog/question/q4"
+msgstr "How exactly would you like to adjust the influence of fog on the Fjords map gameplay?"
+
+msgid "survey/fog/question/q5"
+msgstr "How exactly would you like to adjust the influence of fog on the Outpost map gameplay?"
+
+msgid "survey/fog/question/q6"
+msgstr "Which types of vehicles did you play on the Fjords map?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "How did the {value} gameplay change on the Fjords map?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "How did the {value} gameplay change on the Fjords map?"
+
+msgid "survey/fog/question/q8"
+msgstr "Which types of vehicles did you play on the Outpost map?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "How did the {value} gameplay change on the Outpost map?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "How did the {value} gameplay change on the Outpost map?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Yes, I would"
+
+msgid "survey/fog/response/q10_2"
+msgstr "No, I wouldn't"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Not sure"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Opponents outside the zone cannot see my vehicle, but I can't see theirs either"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Other"
+
+msgid "survey/fog/response/q11_2"
+msgstr "The fog location on the map"
+
+msgid "survey/fog/response/q11_3"
+msgstr "The way the fog looks"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Too much influence on the map gameplay"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Too little influence on the map gameplay"
+
+msgid "survey/fog/response/q11_6"
+msgstr "The fog visuals interfere with combat"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Fog forces playing close-range combat"
+
+msgid "survey/fog/response/q11_8"
+msgstr "One of the teams gains an advantage"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Technical issues"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Opponents outside the zone cannot see my vehicle, but I can't see theirs either"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Other"
+
+msgid "survey/fog/response/q12_2"
+msgstr "The fog location on the map"
+
+msgid "survey/fog/response/q12_3"
+msgstr "The way the fog looks"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Too much influence on the map gameplay"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Too little influence on the map gameplay"
+
+msgid "survey/fog/response/q12_6"
+msgstr "The fog visuals interfere with combat"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Fog forces playing close-range combat"
+
+msgid "survey/fog/response/q12_8"
+msgstr "One of the teams gains an advantage"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Technical issues"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Yes, I did"
+
+msgid "survey/fog/response/q1_2"
+msgstr "No, I didn't"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Not sure"
+
+msgid "survey/fog/response/q2_1"
+msgstr "I liked it"
+
+msgid "survey/fog/response/q2_2"
+msgstr "It's okay"
+
+msgid "survey/fog/response/q2_3"
+msgstr "I disliked it"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Not sure"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Yes, I would"
+
+msgid "survey/fog/response/q3_2"
+msgstr "No, I wouldn't"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Not sure"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Make it stronger"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Make it weaker"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Make it stronger"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Make it weaker"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "SPGs"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "HTs"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "LTs"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "MTs"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Can't remember"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "It got better"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "It got worse"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "It didn't change"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Not sure"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "It got better"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "It got worse"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "It didn't change"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Not sure"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "SPGs"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "HTs"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "LTs"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "MTs"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Can't remember"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "It got better"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "It got worse"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "It didn't change"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Not sure"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "It got better"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "It got worse"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "It didn't change"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Not sure"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "SPGs"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "HTs"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "LTs"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "MTs"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "SPGs"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "HTs"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "LTs"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "MTs"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Did you enjoy playing on the following maps with the heavy rain mechanic?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Would you like to see heavy rain on the maps in Random Battles?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "What didn't you like about the heavy rain mechanic on the Westfield map?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "What didn't you like about the heavy rain mechanic on the Fisherman's Bay map?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Specify any necessary improvements."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "What is your opinion on the heavy rain visual design on the following maps?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Would you like to adjust the impact of the heavy rain on the map gameplay?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "How exactly would you like to adjust the influence of heavy rain on the Westfield map gameplay?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "How exactly would you like to adjust the influence of heavy rain on the Fisherman's Bay map gameplay?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Which types of vehicles did you play on the Westfield map?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "How did the {value} gameplay change on the Westfield map?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "How did the {value} gameplay change on the Westfield map?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Which types of vehicles did you play on the Fisherman's Bay map?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "How did the {value} gameplay change on the Fisherman's Bay map?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "How did the {value} gameplay change on the Fisherman's Bay map?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Yes, I would"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "No, I wouldn't"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Not sure"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "It's too slippery in the heavy rain zone"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Technical issues"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Other"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Opponents outside the zone cannot see my vehicle, but I can't see theirs either"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "The heavy rain location on the map"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "The way heavy rain looks"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Too much influence on the map gameplay"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Too little influence on the map gameplay"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "The heavy rain visuals interfere with combat"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Heavy rain forces playing close-range combat"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "One of the teams gains an advantage"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "It's too slippery in the heavy rain zone"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Technical issues"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Other"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Opponents outside the zone cannot see my vehicle, but I can't see theirs either"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "The heavy rain location on the map"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "The way heavy rain looks"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Too much influence on the map gameplay"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Too little influence on the map gameplay"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "The heavy rain visuals interfere with combat"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Heavy rain forces playing close-range combat"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "One of the teams gains an advantage"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Yes, I did"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "No, I didn't"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Not sure"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "I liked it"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "It's okay"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "I disliked it"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Not sure"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Yes, I would"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "No, I wouldn't"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Not sure"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Make it stronger"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Make it weaker"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Make it stronger"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Make it weaker"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "SPGs"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "HTs"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "LTs"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "MTs"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Can't remember"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "It got better"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "It got worse"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "It didn't change"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Not sure"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "It got better"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "It got worse"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "It didn't change"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Not sure"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "SPGs"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "HTs"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "LTs"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "MTs"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Can't remember"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "It got better"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "It got worse"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "It didn't change"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Not sure"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "It got better"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "It got worse"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "It didn't change"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Not sure"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Next"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Affirmative!"
+
+msgid "survey/required"
+msgstr "Answer the question to continue."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "SPGs"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "HTs"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "LTs"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "MTs"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Did you enjoy playing on the Sand River map with the sandstorm mechanic?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "What is your opinion on the sandstorm visual design on the Sand River map?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Would you like to adjust the influence of sandstorms on the Sand River map gameplay?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "How exactly would you like to adjust the influence of sandstorms on the Sand River map gameplay?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Which types of vehicles did you play on the Sand River map?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "How did the {value} gameplay change on the Sand River map?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "How did the {value} gameplay change on the Sand River map?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Would you like to see sandstorms on the maps in Random Battles?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "What didn't you like about the sandstorm mechanic on the Sand River map?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Specify any necessary improvements."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Yes, I did"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "No, I didn't"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Not sure"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "I liked it"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "It's okay"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "I disliked it"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Not sure"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Yes, I would"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "No, I wouldn't"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Not sure"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Make it stronger"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Make it weaker"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "TDs"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "SPGs"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "HTs"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "LTs"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "MTs"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Can't remember"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "It got better"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "It got worse"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "It didn't change"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Not sure"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "It got better"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "It got worse"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "It didn't change"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Not sure"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Yes, I would"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "No, I wouldn't"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Not sure"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Opponents outside the zone cannot see my vehicle, but I can't see theirs either"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Other"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "The sandstorm location on the map"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "The way sandstorms look"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Too much influence on the map gameplay"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Too little influence on the map gameplay"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "The sandstorm visuals interfere with combat"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Sandstorms force playing close-range combat"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "One of the teams gains an advantage"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Technical issues"
+
+msgid "survey/subTitle"
+msgstr "Thank you for taking the time to participate in this survey! It will take about two minutes. Your answers will be processed only for the purposes of conducting this survey, and any personal data will be deleted according to our Privacy Policy."
+
+msgid "survey/template/final/title"
+msgstr "Thank you for taking the time to participate in this survey!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "CLICK THE MAP TO SELECT A POSITION"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "YOU CAN SELECT UP TO THREE POSITIONS ON THE MAP"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Detailed description (up to %(maxLength)s characters)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Position"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Remove position"
+
+msgid "survey/template/opened/description"
+msgstr "Detailed description of the issue (up to %(maxLength)s characters)"
+
+msgid "survey/title/common"
+msgstr "Please rate the new features"
+
+msgid "survey/title/map"
+msgstr "Evaluation of the %(map)s Map"

@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, duration: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Regular Difficulty"
+
+msgid "info/difficult/2"
+msgstr "Advanced Difficulty"
+
+msgid "info/difficult/3"
+msgstr "Brutal Difficulty"
+
+msgid "info/mapName"
+msgstr "Last Stand • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Respawn times: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "All allied vehicles have been destroyed."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "You failed to stop the Zero."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Time's up."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "All allies have left the battle."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Well done! Ready for a tougher mission?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "All enemies on Regular difficulty eliminated."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Outstanding performance! Few reach this level."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "All enemies on Brutal difficulty eliminated."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Impressive work! Now time for the real challenge."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "All enemies on Advanced difficulty eliminated."
+
+msgid "ribbon/ban"
+msgstr "Unacceptable performance: inaction/desertion.\nReward not received."
+
+msgid "ribbon/banRecord"
+msgstr "Unacceptable performance: inaction/desertion.\nReward not received. Your wave destruction record was not updated."
+
+msgid "ribbon/noReward"
+msgstr "Your team failed to hold off the first wave.\nReward not received."
+
+msgid "status/lose"
+msgstr "BATTLE ENDED"
+
+msgid "status/win"
+msgstr "VICTORY"
+
+msgid "subtitle/lose"
+msgstr "Attack not held off"
+
+msgid "subtitle/win"
+msgstr "Well done! New data gathered."
+
+msgid "teamList/actions"
+msgstr "Quick Actions"
+
+msgid "teamList/teammates"
+msgstr "Allies"
+
+msgid "time/record"
+msgstr "NEW\nRECORD!"
+
+msgid "title/lose/noWaves"
+msgstr "BATTLE ENDED"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s WAVE COMPLETED"
+msgstr[1] "%(phaseNumber)s WAVES COMPLETED"
+msgstr[2] "%(phaseNumber)s WAVES COMPLETED"
+
+msgid "title/win"
+msgstr "ALL WAVES COMPLETED"
+
+msgid "tooltip/ban"
+msgstr "Unacceptable performance: inaction/desertion. Your personal wave destruction record was not updated."

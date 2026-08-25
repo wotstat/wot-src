@@ -1,0 +1,12 @@
+from gui.Scaleform.framework.entities.abstract.AbstractWindowView import AbstractWindowView
+
+class BoosterInfoMeta(AbstractWindowView):
+
+    def onCancelClick(self):
+        self._printOverrideError(b'onCancelClick')
+        return
+
+    def as_setBoosterInfoS(self, moduleInfo):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setBoosterInfo(moduleInfo)
+        return

@@ -1,0 +1,17 @@
+from __future__ import absolute_import
+from gui.shared.utils.decorators import ReprInjector
+from vehicles.components.vehicle_component import VehicleDynamicComponent
+from vehicles.mechanics.common import IMechanicComponent
+from vehicles.mechanics.mechanic_constants import VehicleMechanic
+
+@ReprInjector.withParent()
+class ImprovedRammingController(VehicleDynamicComponent, IMechanicComponent):
+
+    def __init__(self):
+        super(ImprovedRammingController, self).__init__()
+        self._initComponent()
+        return
+
+    @property
+    def vehicleMechanic(self):
+        return VehicleMechanic.IMPROVED_RAMMING

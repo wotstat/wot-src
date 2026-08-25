@@ -1,0 +1,118 @@
+from __future__ import absolute_import
+import operator
+from future.utils import viewitems
+from gui.Scaleform.daapi import LobbySubView
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.daapi.view.lobby.missions import missions_helper
+from gui.Scaleform.daapi.view.meta.PersonalMissionOperationsMeta import PersonalMissionOperationsMeta
+from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
+from gui.Scaleform.genConsts.PERSONAL_MISSIONS_ALIASES import PERSONAL_MISSIONS_ALIASES
+from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS
+from gui.Scaleform.locale.PERSONAL_MISSIONS import PERSONAL_MISSIONS
+from gui.Scaleform.locale.RES_ICONS import RES_ICONS
+from gui.server_events.personal_missions_navigation import PersonalMissionsNavigation
+from gui.server_events.pm_constants import SOUNDS, PERSONAL_MISSIONS_SOUND_SPACE, DISABLED_PM_OPERATIONS, DISABLED_PM_MISSIONS, IS_PM2_QUEST_ENABLED, IS_REGULAR_QUEST_ENABLED
+from gui.shared import g_eventBus, events, EVENT_BUS_SCOPE
+from gui.shared.event_dispatcher import showHangar
+from personal_missions import PM_BRANCH
+
+class PersonalMissionOperations(LobbySubView, PersonalMissionOperationsMeta, PersonalMissionsNavigation):
+    _COMMON_SOUND_SPACE = PERSONAL_MISSIONS_SOUND_SPACE
+
+    def __init__(self, ctx):
+        super(PersonalMissionOperations, self).__init__(ctx)
+        self.__backAlias = ctx.get(b'previewAlias', VIEW_ALIAS.LOBBY_HANGAR)
+        return
+
+    def showInfo(self):
+        return
+
+    def onOperationClick(self, pmType, operationID):
+        self.setBranch(pmType)
+        self.setOperationID(operationID)
+        g_eventBus.handleEvent(events.LoadViewEvent(SFViewLoadParams(PERSONAL_MISSIONS_ALIASES.PERSONAL_MISSIONS_PAGE_ALIAS), ctx={b'previewAlias': (self.getAlias())}), scope=EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    def closeView(self):
+        showHangar()
+        return
+
+    def _populate(self):
+        super(PersonalMissionOperations, self)._populate()
+        self._eventsCache.onPersonalQuestsVisited()
+        self._eventsCache.onPMSyncCompleted += self.__onQuestsUpdated
+        self._eventsCache.onProgressUpdated += self.__onQuestsUpdated
+        self.__setTitle()
+        self.__update()
+        return
+
+    def _dispose(self):
+        self._eventsCache.onPMSyncCompleted -= self.__onQuestsUpdated
+        self._eventsCache.onProgressUpdated -= self.__onQuestsUpdated
+        super(PersonalMissionOperations, self)._dispose()
+        return
+
+    def __update(self):
+        operations = []
+        timeIconAlreadySet = False
+        for branch in PM_BRANCH.V1_BRANCHES:
+            for oID, o in sorted(viewitems(self._eventsCache.getPersonalMissions().getOperationsForBranch(branch)), key=operator.itemgetter(0)):
+                state = PERSONAL_MISSIONS_ALIASES.OPERATION_LOCKED_STATE
+                tooltipAlias = TOOLTIPS_CONSTANTS.OPERATION
+                postponedTime = b''
+                enabled = True
+                if o.isDisabled():
+                    state, postponedTime = missions_helper.getPostponedOperationState(oID)
+                    if postponedTime:
+                        tooltipAlias = TOOLTIPS_CONSTANTS.OPERATION_POSTPONED
+                    enabled = False
+                elif o.isFullCompleted():
+                    state = PERSONAL_MISSIONS_ALIASES.OPERATION_COMPLETE_FULL_STATE
+                elif o.isAwardAchieved():
+                    state = PERSONAL_MISSIONS_ALIASES.OPERATION_COMPLETE_STATE
+                elif o.isInProgress():
+                    state = PERSONAL_MISSIONS_ALIASES.OPERATION_CURRENT_STATE
+                elif o.isUnlocked():
+                    state = PERSONAL_MISSIONS_ALIASES.OPERATION_UNLOCKED_STATE
+                operationVO = {b'id': oID, 
+                   b'pmType': branch, 
+                   b'state': state, 
+                   b'icon': (RES_ICONS.getPersonalMissionOperation(str(oID), self.__formatImageState(state))), 
+                   b'postponedTime': (postponedTime if not timeIconAlreadySet else b''), 
+                   b'enabled': enabled, 
+                   b'tooltipAlias': tooltipAlias}
+                if postponedTime:
+                    timeIconAlreadySet = True
+                operations.append(operationVO)
+
+        self.as_setOperationsS(operations)
+        for branch in SOUNDS.RTCP_MISSION_BRANCH.values():
+            self.soundManager.setRTPC(branch, SOUNDS.BRANCH_DEFAULT)
+
+        self.soundManager.setRTPC(SOUNDS.RTCP_MISSIONS_ZOOM, SOUNDS.MAX_MISSIONS_ZOOM)
+        self.soundManager.setRTPC(SOUNDS.RTCP_DEBRIS_CONTROL, SOUNDS.MAX_MISSIONS_ZOOM)
+        return
+
+    def __onQuestsUpdated(self, *args):
+        self.__update()
+        return
+
+    def __setTitle(self):
+        titleVO = {b'title': (PERSONAL_MISSIONS.OPERATIONINFO_TITLE), 
+           b'tooltip': {b'tooltip': b'', 
+                        b'specialArgs': [], b'specialAlias': None, 
+                        b'isSpecial': False}}
+        self.as_setTitleS(titleVO)
+        return
+
+    def __formatImageState(self, state):
+        if state == PERSONAL_MISSIONS_ALIASES.OPERATION_DISABLED_STATE:
+            return PERSONAL_MISSIONS_ALIASES.OPERATION_LOCKED_STATE
+        if state == PERSONAL_MISSIONS_ALIASES.OPERATION_COMPLETE_FULL_STATE:
+            return PERSONAL_MISSIONS_ALIASES.OPERATION_COMPLETE_STATE
+        return state
+
+    def _onSettingsChanged(self, diff):
+        if IS_REGULAR_QUEST_ENABLED in diff and not diff[IS_REGULAR_QUEST_ENABLED] or IS_PM2_QUEST_ENABLED in diff and not diff[IS_PM2_QUEST_ENABLED] or DISABLED_PM_OPERATIONS in diff and diff[DISABLED_PM_OPERATIONS] or DISABLED_PM_MISSIONS in diff and diff[DISABLED_PM_MISSIONS]:
+            self.__update()
+        return

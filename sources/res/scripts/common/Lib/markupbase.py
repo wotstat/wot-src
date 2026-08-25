@@ -1,0 +1,323 @@
+import re
+_declname_match = re.compile(b'[a-zA-Z][-_.a-zA-Z0-9]*\\s*').match
+_declstringlit_match = re.compile(b'(\\\'[^\\\']*\\\'|"[^"]*")\\s*').match
+_commentclose = re.compile(b'--\\s*>')
+_markedsectionclose = re.compile(b']\\s*]\\s*>')
+_msmarkedsectionclose = re.compile(b']\\s*>')
+del re
+
+class ParserBase:
+
+    def __init__(self):
+        if self.__class__ is ParserBase:
+            raise RuntimeError(b'markupbase.ParserBase must be subclassed')
+        return
+
+    def error(self, message):
+        raise NotImplementedError(b'subclasses of ParserBase must override error()')
+        return
+
+    def reset(self):
+        self.lineno = 1
+        self.offset = 0
+        return
+
+    def getpos(self):
+        return (
+         self.lineno, self.offset)
+
+    def updatepos(self, i, j):
+        if i >= j:
+            return j
+        rawdata = self.rawdata
+        nlines = rawdata.count(b'\n', i, j)
+        if nlines:
+            self.lineno = self.lineno + nlines
+            pos = rawdata.rindex(b'\n', i, j)
+            self.offset = j - (pos + 1)
+        else:
+            self.offset = self.offset + j - i
+        return j
+
+    _decl_otherchars = b''
+
+    def parse_declaration(self, i):
+        rawdata = self.rawdata
+        j = i + 2
+        if rawdata[j:j + 1] == b'>':
+            return j + 1
+        if rawdata[j:j + 1] in (b'-', b''):
+            return -1
+        n = len(rawdata)
+        if rawdata[j:j + 2] == b'--':
+            return self.parse_comment(i)
+        if rawdata[j] == b'[':
+            return self.parse_marked_section(i)
+        decltype, j = self._scan_name(j, i)
+        if j < 0:
+            return j
+        if decltype == b'doctype':
+            self._decl_otherchars = b''
+        while j < n:
+            c = rawdata[j]
+            if c == b'>':
+                data = rawdata[i + 2:j]
+                if decltype == b'doctype':
+                    self.handle_decl(data)
+                else:
+                    self.unknown_decl(data)
+                return j + 1
+            if c in b'"\'':
+                m = _declstringlit_match(rawdata, j)
+                if not m:
+                    return -1
+                j = m.end()
+            elif c in b'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ':
+                name, j = self._scan_name(j, i)
+            elif c in self._decl_otherchars:
+                j = j + 1
+            elif c == b'[':
+                if decltype == b'doctype':
+                    j = self._parse_doctype_subset(j + 1, i)
+                elif decltype in (b'attlist', b'linktype', b'link', b'element'):
+                    self.error(b"unsupported '[' char in %s declaration" % decltype)
+                else:
+                    self.error(b"unexpected '[' char in declaration")
+            else:
+                self.error(b'unexpected %r char in declaration' % rawdata[j])
+            if j < 0:
+                return j
+
+        return -1
+
+    def parse_marked_section(self, i, report=1):
+        rawdata = self.rawdata
+        sectName, j = self._scan_name(i + 3, i)
+        if j < 0:
+            return j
+        if sectName in (b'temp', b'cdata', b'ignore', b'include', b'rcdata'):
+            match = _markedsectionclose.search(rawdata, i + 3)
+        elif sectName in (b'if', b'else', b'endif'):
+            match = _msmarkedsectionclose.search(rawdata, i + 3)
+        else:
+            self.error(b'unknown status keyword %r in marked section' % rawdata[i + 3:j])
+        if not match:
+            return -1
+        if report:
+            j = match.start(0)
+            self.unknown_decl(rawdata[i + 3:j])
+        return match.end(0)
+
+    def parse_comment(self, i, report=1):
+        rawdata = self.rawdata
+        if rawdata[i:i + 4] != b'<!--':
+            self.error(b'unexpected call to parse_comment()')
+        match = _commentclose.search(rawdata, i + 4)
+        if not match:
+            return -1
+        if report:
+            j = match.start(0)
+            self.handle_comment(rawdata[i + 4:j])
+        return match.end(0)
+
+    def _parse_doctype_subset(self, i, declstartpos):
+        rawdata = self.rawdata
+        n = len(rawdata)
+        j = i
+        while j < n:
+            c = rawdata[j]
+            if c == b'<':
+                s = rawdata[j:j + 2]
+                if s == b'<':
+                    return -1
+                if s != b'<!':
+                    self.updatepos(declstartpos, j + 1)
+                    self.error(b'unexpected char in internal subset (in %r)' % s)
+                if j + 2 == n:
+                    return -1
+                if j + 4 > n:
+                    return -1
+                if rawdata[j:j + 4] == b'<!--':
+                    j = self.parse_comment(j, report=0)
+                    if j < 0:
+                        return j
+                    continue
+                name, j = self._scan_name(j + 2, declstartpos)
+                if j == -1:
+                    return -1
+                if name not in (b'attlist', b'element', b'entity', b'notation'):
+                    self.updatepos(declstartpos, j + 2)
+                    self.error(b'unknown declaration %r in internal subset' % name)
+                meth = getattr(self, b'_parse_doctype_' + name)
+                j = meth(j, declstartpos)
+                if j < 0:
+                    return j
+            elif c == b'%':
+                if j + 1 == n:
+                    return -1
+                s, j = self._scan_name(j + 1, declstartpos)
+                if j < 0:
+                    return j
+                if rawdata[j] == b';':
+                    j = j + 1
+            elif c == b']':
+                j = j + 1
+                while j < n and rawdata[j].isspace():
+                    j = j + 1
+
+                if j < n:
+                    if rawdata[j] == b'>':
+                        return j
+                    self.updatepos(declstartpos, j)
+                    self.error(b'unexpected char after internal subset')
+                else:
+                    return -1
+            elif c.isspace():
+                j = j + 1
+            else:
+                self.updatepos(declstartpos, j)
+                self.error(b'unexpected char %r in internal subset' % c)
+
+        return -1
+
+    def _parse_doctype_element(self, i, declstartpos):
+        name, j = self._scan_name(i, declstartpos)
+        if j == -1:
+            return -1
+        rawdata = self.rawdata
+        if b'>' in rawdata[j:]:
+            return rawdata.find(b'>', j) + 1
+        return -1
+
+    def _parse_doctype_attlist(self, i, declstartpos):
+        rawdata = self.rawdata
+        name, j = self._scan_name(i, declstartpos)
+        c = rawdata[j:j + 1]
+        if c == b'':
+            return -1
+        if c == b'>':
+            return j + 1
+        while 1:
+            name, j = self._scan_name(j, declstartpos)
+            if j < 0:
+                return j
+            c = rawdata[j:j + 1]
+            if c == b'':
+                return -1
+            if c == b'(':
+                if b')' in rawdata[j:]:
+                    j = rawdata.find(b')', j) + 1
+                else:
+                    return -1
+                while rawdata[j:j + 1].isspace():
+                    j = j + 1
+
+                if not rawdata[j:]:
+                    return -1
+            else:
+                name, j = self._scan_name(j, declstartpos)
+            c = rawdata[j:j + 1]
+            if not c:
+                return -1
+            if c in b'\'"':
+                m = _declstringlit_match(rawdata, j)
+                if m:
+                    j = m.end()
+                else:
+                    return -1
+                c = rawdata[j:j + 1]
+                if not c:
+                    return -1
+            if c == b'#':
+                if rawdata[j:] == b'#':
+                    return -1
+                name, j = self._scan_name(j + 1, declstartpos)
+                if j < 0:
+                    return j
+                c = rawdata[j:j + 1]
+                if not c:
+                    return -1
+            if c == b'>':
+                return j + 1
+
+        return
+
+    def _parse_doctype_notation(self, i, declstartpos):
+        name, j = self._scan_name(i, declstartpos)
+        if j < 0:
+            return j
+        rawdata = self.rawdata
+        while 1:
+            c = rawdata[j:j + 1]
+            if not c:
+                return -1
+            if c == b'>':
+                return j + 1
+            if c in b'\'"':
+                m = _declstringlit_match(rawdata, j)
+                if not m:
+                    return -1
+                j = m.end()
+            else:
+                name, j = self._scan_name(j, declstartpos)
+                if j < 0:
+                    return j
+
+        return
+
+    def _parse_doctype_entity(self, i, declstartpos):
+        rawdata = self.rawdata
+        if rawdata[i:i + 1] == b'%':
+            j = i + 1
+            while 1:
+                c = rawdata[j:j + 1]
+                if not c:
+                    return -1
+                if c.isspace():
+                    j = j + 1
+                else:
+                    break
+
+        else:
+            j = i
+        name, j = self._scan_name(j, declstartpos)
+        if j < 0:
+            return j
+        while 1:
+            c = self.rawdata[j:j + 1]
+            if not c:
+                return -1
+            if c in b'\'"':
+                m = _declstringlit_match(rawdata, j)
+                if m:
+                    j = m.end()
+                else:
+                    return -1
+            else:
+                if c == b'>':
+                    return j + 1
+                name, j = self._scan_name(j, declstartpos)
+                if j < 0:
+                    return j
+
+        return
+
+    def _scan_name(self, i, declstartpos):
+        rawdata = self.rawdata
+        n = len(rawdata)
+        if i == n:
+            return (None, -1)
+        else:
+            m = _declname_match(rawdata, i)
+            if m:
+                s = m.group()
+                name = s.strip()
+                if i + len(s) == n:
+                    return (None, -1)
+                return (name.lower(), m.end())
+            self.updatepos(declstartpos, i)
+            self.error(b'expected name token at %r' % rawdata[declstartpos:declstartpos + 20])
+            return
+
+    def unknown_decl(self, data):
+        return

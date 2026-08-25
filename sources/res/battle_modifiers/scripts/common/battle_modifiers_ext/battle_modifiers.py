@@ -1,0 +1,443 @@
+from __future__ import absolute_import
+from future.utils import listvalues, lfilter, iteritems, viewvalues, itervalues
+from extension_utils import ResMgr
+from battle_modifiers_common import battle_modifiers
+from battle_modifiers_common.battle_modifiers import BattleParams, ModifierScope
+from battle_modifiers_ext import battle_params
+from battle_modifiers_ext.battle_params import BaseBattleParam, BattleParam, FakeBattleParam
+from battle_modifiers_ext.battle_modifier import modifier_readers, modifier_appliers
+from battle_modifiers_ext.battle_modifier.modifier_filters import ModificationTree
+from battle_modifiers_ext.battle_modifier.modifier_helpers import Serializable
+from battle_modifiers_ext.constants_ext import BATTLE_MODIFIERS_DIR, BATTLE_MODIFIERS_XML, FAKE_PARAM_NAME, UseType, GameplayImpact, ModifierDomain, ModifierRestriction, NodeType
+from battle_modifiers_ext.modification_cache import vehicle_modifications, constants_modifications
+from typing import TYPE_CHECKING, Optional, Any, Tuple, Union, List
+from soft_exception import SoftException
+from debug_utils import LOG_WARNING, LOG_DEBUG
+from constants import IS_DEVELOPMENT, IS_BASEAPP, IS_CLIENT
+from ResMgr import DataSection
+from collections import OrderedDict
+if TYPE_CHECKING:
+    from battle_modifiers_common import ModifiersContext
+    from items.vehicles import VehicleType
+    from battle_modifiers_common.battle_modifiers import ConstantsSet
+    from battle_modifiers_ext.modification_cache.constants_modifications import ConstantsModification
+g_cache = None
+
+class ModifierBase(Serializable):
+    __slots__ = (b'param', b'useType', b'value', b'gameplayImpact', b'minValue', b'maxValue', b'_descr', b'_id')
+
+    def __init__(self, source):
+        self.param = None
+        self.useType = UseType.UNDEFINED
+        self.value = 0.0
+        self.minValue = None
+        self.maxValue = None
+        self._descr = None
+        self._id = None
+        super(ModifierBase, self).__init__(source)
+        return
+
+    def hasUniqueID(self):
+        return False
+
+    def descr(self):
+        if self._descr is None:
+            self._descr = self._makeDescr()
+        return self._descr
+
+    def id(self):
+        if self._id is None:
+            self._id = self._makeId()
+        return self._id
+
+    def _initFromConfig(self, config, *args):
+        self.param = self._configureParam(config)
+        self.gameplayImpact = self._configureGameplayImpact(config)
+        return
+
+    def _configureGameplayImpact(self, config):
+        if not config.has_key(b'gameplayImpact'):
+            return GameplayImpact.UNDEFINED
+        gameplayImpactName = config[b'gameplayImpact'].asString
+        if gameplayImpactName not in GameplayImpact.NAMES:
+            raise SoftException((b"[BattleModifiers] Unknown gameplay impact '{}'").format(gameplayImpactName))
+        return GameplayImpact.NAME_TO_ID[gameplayImpactName]
+
+    def _configureParam(self, config):
+        raise NotImplementedError
+        return
+
+    def _makeDescr(self):
+        raise NotImplementedError
+        return
+
+    def _makeId(self):
+        raise NotImplementedError
+        return
+
+
+class BattleModifier(ModifierBase):
+    __slots__ = (b'__modificationTree',)
+
+    def __init__(self, source):
+        self.__modificationTree = None
+        super(BattleModifier, self).__init__(source)
+        rootNode = self.__modificationTree.nodes.get(NodeType.ROOT)
+        if rootNode:
+            self.useType = rootNode.useType
+            self.value = rootNode.value
+            self.minValue = rootNode.minValue
+            self.maxValue = rootNode.maxValue
+        return
+
+    def __call__(self, value, ctx=None):
+        return self.__modificationTree(value, ctx)
+
+    def __hash__(self):
+        return self.id()
+
+    def __repr__(self):
+        return (b'BattleModifier(paramId = {}, gameplayImpactName = {}, modificationTree = {})').format(self.param.id, GameplayImpact.ID_TO_NAME[self.gameplayImpact], self.__modificationTree)
+
+    def hasUniqueID(self):
+        return self.param.isHashable()
+
+    def _initFromDescr(self, descr):
+        paramId, gameplayImpact, treeDescr = descr
+        self.param = battle_params.g_cache[paramId]
+        self.gameplayImpact = gameplayImpact
+        self.__modificationTree = ModificationTree(treeDescr, self.param)
+        self._descr = descr
+        return
+
+    def _initFromConfig(self, config, *args):
+        super(BattleModifier, self)._initFromConfig(config)
+        self.__modificationTree = ModificationTree(config, self.param)
+        return
+
+    def _configureParam(self, config):
+        paramId = config.name
+        if paramId not in BattleParams.ALL:
+            raise SoftException((b'[BattleModifiers] Unknown param {}').format(paramId))
+        return battle_params.g_cache[paramId]
+
+    def _makeDescr(self):
+        return (
+         self.param.id, self.gameplayImpact, self.__modificationTree.descr())
+
+    def _makeId(self):
+        return hash((self.param.id, self.__modificationTree.id()))
+
+
+class FakeBattleModifier(ModifierBase):
+    __slots__ = ()
+
+    def __repr__(self):
+        return (b'FakeBattleModifier(descr = {})').format(self.descr())
+
+    def _initFromDescr(self, descr):
+        limitsIdx = 4
+        _, packed, value, paramDescr = descr[:limitsIdx]
+        self.param = FakeBattleParam(paramDescr)
+        self.useType = packed >> 4 & 3
+        self.gameplayImpact = packed >> 2 & 3
+        self.value = value
+        if packed & 2:
+            self.minValue = descr[limitsIdx]
+            limitsIdx += 1
+        if packed & 1:
+            self.maxValue = descr[limitsIdx]
+        self._descr = descr
+        return
+
+    def _initFromConfig(self, config, *args):
+        super(FakeBattleModifier, self)._initFromConfig(config)
+        self.value = self.__readValue(config)
+        self.useType = self.__readUseType(config)
+        self.minValue, self.maxValue = self.__readRestrictions(config)
+        return
+
+    def _configureParam(self, config):
+        if not config.has_key(FAKE_PARAM_NAME):
+            raise SoftException(b'Missing fakeParam section in FakeBattleModifier')
+        return FakeBattleParam(config[FAKE_PARAM_NAME])
+
+    def _makeDescr(self):
+        packed = self.useType << 4 | self.gameplayImpact << 2
+        descr = [self.param.id, packed, self.value, self.param.descr()]
+        if self.minValue is not None:
+            descr[1] |= 2
+            descr.append(self.minValue)
+        if self.maxValue is not None:
+            descr[1] |= 1
+            descr.append(self.maxValue)
+        return tuple(descr)
+
+    def _makeId(self):
+        return 0
+
+    def __readValue(self, config):
+        if not config.has_key(b'value'):
+            return 0.0
+        return config[b'value'].asFloat
+
+    def __readUseType(self, config):
+        useType = UseType.UNDEFINED
+        if config.has_key(b'useType'):
+            useTypeName = config[b'useType'].asString
+            if useTypeName not in UseType.NAMES:
+                raise SoftException((b"[BattleModifiers] Unknown use type '{}'").format(useTypeName))
+            useType = UseType.NAME_TO_ID[useTypeName]
+        return useType
+
+    def __readRestrictions(self, config):
+        minValue = None
+        maxValue = None
+        if not config.has_key(b'restrictions'):
+            return (minValue, maxValue)
+        else:
+            restrictionSection = config[b'restrictions']
+            minLabel = ModifierRestriction.ID_TO_NAME[ModifierRestriction.MIN]
+            maxLabel = ModifierRestriction.ID_TO_NAME[ModifierRestriction.MAX]
+            if restrictionSection.has_key(minLabel):
+                minValue = restrictionSection[minLabel].asFloat
+            if restrictionSection.has_key(maxLabel):
+                maxValue = restrictionSection[maxLabel].asFloat
+            if minValue is not None and maxValue is not None and minValue > maxValue:
+                raise SoftException((b'[BattleParams] Incorrect limits: min - {}, max - {}').format(minValue, maxValue))
+            return (minValue, maxValue)
+
+
+class VSEBattleModifier(ModifierBase):
+    __slots__ = ()
+
+    def __repr__(self):
+        return (b'VSEBattleModifier(descr = {})').format(self.descr())
+
+    def __call__(self, aspect, ctx=None):
+        return modifier_appliers.g_cache[self.param.id][self.useType](aspect, self.value, ctx)
+
+    def _initFromDescr(self, descr):
+        _, value = descr
+        self.value = value
+        self.param = self._configureParam()
+        self.gameplayImpact = self._configureGameplayImpact()
+        self._descr = descr
+        return
+
+    def _initFromConfig(self, config, *args):
+        super(VSEBattleModifier, self)._initFromConfig(config)
+        self.value = modifier_readers.g_cache[self.param.id][self.useType](config[b'value'])
+        return
+
+    def _configureGameplayImpact(self, config=None):
+        return GameplayImpact.HIDDEN
+
+    def _configureParam(self, config=None):
+        return battle_params.g_cache[BattleParams.VSE_MODIFIER]
+
+    def _makeDescr(self):
+        return (
+         self.param.id, self.value)
+
+    def _makeId(self):
+        return 0
+
+
+class BattleModifiers(Serializable, battle_modifiers.BattleModifiers):
+    __slots__ = (b'__modifiers', b'__scope', b'__domain', b'__id')
+
+    def __init__(self, source=None):
+        self.__modifiers = OrderedDict()
+        self.__scope = 0
+        self.__domain = 0
+        self.__id = None
+        super(BattleModifiers, self).__init__(source)
+        return
+
+    def __call__(self, paramId, value, ctx=None):
+        if paramId in self.__modifiers:
+            return self.__modifiers[paramId](value, ctx)
+        return value
+
+    def __iter__(self):
+        return iter(iteritems(self.__modifiers))
+
+    def __getitem__(self, paramId):
+        return self.__modifiers[paramId]
+
+    def __len__(self):
+        return len(self.__modifiers)
+
+    def __contains__(self, paramId):
+        return paramId in self.__modifiers
+
+    def __bool__(self):
+        return self.__domain
+
+    __nonzero__ = __bool__
+
+    def __hash__(self):
+        return self.id()
+
+    def __eq__(self, other):
+        return self.id() == other.id()
+
+    def __repr__(self):
+        return (b'BattleModifiers({})').format(listvalues(self.__modifiers))
+
+    @staticmethod
+    def retrieveDescr(descr, scope=ModifierScope.FULL):
+        if not descr:
+            return descr
+        res = []
+        for modifierDescr in descr:
+            if battle_params.g_cache[modifierDescr[0]].scope & scope:
+                res.append(modifierDescr)
+
+        return tuple(res)
+
+    @staticmethod
+    def getConstantsOriginal():
+        return constants_modifications.g_cache.get()
+
+    @staticmethod
+    def clearVehicleModifications():
+        vehicle_modifications.g_cache.clear()
+        return
+
+    @staticmethod
+    def clearConstantsModifications():
+        constants_modifications.g_cache.clear()
+        return
+
+    def get(self, paramId):
+        return self.__modifiers.get(paramId)
+
+    def descr(self, scope=ModifierScope.FULL):
+        return tuple(modifier.descr() for modifier in itervalues(self.__modifiers) if modifier.param.scope & scope)
+
+    def domain(self):
+        return self.__domain
+
+    def haveDomain(self, domain):
+        return bool(self.__domain & domain)
+
+    def scope(self):
+        return self.__scope
+
+    def haveScope(self, scope):
+        return bool(self.__scope & scope)
+
+    def id(self):
+        if self.__id is None:
+            self.__id = self.__makeId()
+        return self.__id
+
+    def getVehicleModification(self, vehType):
+        return vehicle_modifications.g_cache.get(vehType, self)
+
+    def getConstantsModification(self):
+        return constants_modifications.g_cache.get(self)
+
+    def getVsePlansByAspect(self, aspect):
+        return lfilter(None, [m(aspect) for m in itervalues(self.__modifiers) if m.param.domain & ModifierDomain.VSE])
+
+    def _initFromConfig(self, config, *_):
+        modifiers = self.__modifiers
+        scope = 0
+        domain = 0
+        fakeModifierIdx = 0
+        vseModifierIdx = 0
+        for modifierName, modifierSection in config.items():
+            if modifierName == b'xmlns:xmlref':
+                continue
+            if modifierName == BattleParams.FAKE_MODIFIER:
+                modifier = FakeBattleModifier(modifierSection)
+                modifiers[BattleParams.FAKE_MODIFIER + str(fakeModifierIdx)] = modifier
+                scope |= modifier.param.scope
+                domain |= modifier.param.domain
+                fakeModifierIdx = fakeModifierIdx + 1
+                continue
+            if modifierName == BattleParams.VSE_MODIFIER:
+                modifier = VSEBattleModifier(modifierSection)
+                modifiers[BattleParams.VSE_MODIFIER + str(vseModifierIdx)] = modifier
+                scope |= modifier.param.scope
+                domain |= modifier.param.domain
+                vseModifierIdx = vseModifierIdx + 1
+                continue
+            modifier = BattleModifier(modifierSection)
+            if modifier.param.id in modifiers:
+                LOG_WARNING((b'[BattleModifiers] Ignore multiple modifiers for param {}').format(modifier.param.id))
+                continue
+            modifiers[modifier.param.id] = modifier
+            scope |= modifier.param.scope
+            domain |= modifier.param.domain
+
+        self.__scope = scope
+        self.__domain = domain
+        return
+
+    def _initFromDescr(self, descr):
+        modifiers = self.__modifiers
+        scope = 0
+        domain = 0
+        fakeModifierIdx = 0
+        vseModifierIdx = 0
+        for modifierDescr in descr:
+            paramId = modifierDescr[0]
+            if paramId == BattleParams.FAKE_MODIFIER:
+                modifier = FakeBattleModifier(modifierDescr)
+                modifiers[BattleParams.FAKE_MODIFIER + str(fakeModifierIdx)] = modifier
+                scope |= modifier.param.scope
+                domain |= modifier.param.domain
+                fakeModifierIdx = fakeModifierIdx + 1
+                continue
+            if paramId == BattleParams.VSE_MODIFIER:
+                modifier = VSEBattleModifier(modifierDescr)
+                modifiers[BattleParams.VSE_MODIFIER + str(vseModifierIdx)] = modifier
+                scope |= modifier.param.scope
+                domain |= modifier.param.domain
+                vseModifierIdx = vseModifierIdx + 1
+                continue
+            modifier = BattleModifier(modifierDescr)
+            modifiers[modifier.param.id] = modifier
+            scope |= modifier.param.scope
+            domain |= modifier.param.domain
+
+        self.__scope = scope
+        self.__domain = domain
+        return
+
+    def __makeId(self):
+        ids = [modifier.id() for modifier in viewvalues(self.__modifiers) if modifier.hasUniqueID()]
+        return hash(tuple(sorted(ids)))
+
+
+def getGlobalModifiers():
+    global g_cache
+    if g_cache is None:
+        g_cache = _readGlobalBattleModifiers()
+    return g_cache
+
+
+def _readGlobalBattleModifiers():
+    hasGlobalSupport = IS_DEVELOPMENT and (IS_CLIENT or IS_BASEAPP)
+    if not hasGlobalSupport:
+        return BattleModifiers()
+    modifiersSection = _readModifiersSection()
+    if not modifiersSection:
+        return BattleModifiers()
+    modifiers = BattleModifiers(modifiersSection)
+    LOG_DEBUG((b'[BattleModifiers] Use global battle modifiers: {}').format(modifiers))
+    return modifiers
+
+
+def _readModifiersSection():
+    config = ResMgr.openSection(BATTLE_MODIFIERS_DIR + BATTLE_MODIFIERS_XML)
+    if config is None:
+        return
+    else:
+        if config.has_key(b'config') and config[b'config'].asString:
+            return ResMgr.openSection(BATTLE_MODIFIERS_DIR + config[b'config'].asString)
+        return config[b'modifiers']

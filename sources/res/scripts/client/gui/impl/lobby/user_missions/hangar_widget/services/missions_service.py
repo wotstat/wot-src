@@ -1,0 +1,47 @@
+from PlayerEvents import g_playerEvents
+from config_schemas.umg_config import umgConfigSchema
+from gui.impl.lobby.user_missions.hangar_widget.services import IMissionsService
+from gui.impl.lobby.user_missions.hangar_widget.services.service_events import ServiceEvents
+from helpers import dependency
+from skeletons.gui.game_control import IHangarGuiController
+
+class MissionsService(IMissionsService, ServiceEvents):
+    __hangarGuiCtrl = dependency.descriptor(IHangarGuiController)
+
+    def __init__(self):
+        super(MissionsService, self).__init__()
+        self.startServiceEvents()
+        return
+
+    def onPrbEntitySwitched(self):
+        self._onMissionsChangedEvent()
+        return
+
+    def isVisible(self):
+        helper = self.__hangarGuiCtrl.currentGuiProvider.getMissionsHelper()
+        return umgConfigSchema.getModel().enableAllDaily and helper is not None and helper.isDailyMissionsSupported()
+
+    def startListening(self):
+        self.startGlobalListening()
+        g_playerEvents.onConfigModelUpdated += self.__onConfigModelUpdated
+        return
+
+    def stopListening(self):
+        self.stopGlobalListening()
+        g_playerEvents.onConfigModelUpdated -= self.__onConfigModelUpdated
+        return
+
+    def finalize(self):
+        self.stopListening()
+        self.stopServiceEvents()
+        self.stopListening()
+        return
+
+    def __onConfigModelUpdated(self, gpKey):
+        if umgConfigSchema.gpKey == gpKey:
+            self._onMissionsChangedEvent()
+        return
+
+    def _onMissionsChangedEvent(self, *_):
+        self.onMissionsChanged()
+        return

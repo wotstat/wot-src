@@ -1,0 +1,100 @@
+import logging, adisp
+from gui import DialogsInterface
+from gui.Scaleform.daapi.view.dialogs.ExchangeDialogMeta import ExchangeCreditsWebProductMeta
+from gui.impl.dialogs.dialogs import showExchangeToBuyItemsDialog
+from gui.shared import event_dispatcher as shared_events
+from gui.shared.event_dispatcher import showCrystalWindow
+from gui.shared.gui_items import GUI_ITEM_TYPE
+from gui.shared.gui_items.items_actions import factory as ActionsFactory
+from helpers import dependency
+from skeletons.gui.game_control import IBrowserController
+from skeletons.gui.shared import IItemsCache
+from web.web_client_api import Field, W2CSchema, w2c
+from wg_async import wg_async, wg_await
+_logger = logging.getLogger(__name__)
+
+class _OpenHangarTabSchema(W2CSchema):
+    vehicle_id = Field(required=False, type=int)
+
+
+_EXCHANGE_WINDOW_SIMPLE = b'simple'
+_EXCHANGE_WINDOW_PLATFORM = b'platform'
+_EXCHANGE_WINDOW_TYPES = frozenset([_EXCHANGE_WINDOW_SIMPLE, _EXCHANGE_WINDOW_PLATFORM])
+
+class _ExchangeWindowSchema(W2CSchema):
+    id = Field(required=False, type=int, default=None)
+    amount = Field(required=False, type=int, default=1)
+    price = Field(required=False, type=int, default=0)
+    name = Field(required=False, type=basestring, default=b'')
+    type = Field(required=False, type=basestring, default=_EXCHANGE_WINDOW_SIMPLE)
+    windowLayerTop = Field(required=False, type=bool, default=False)
+
+
+class HangarTabWebApiMixin(object):
+
+    @w2c(_OpenHangarTabSchema, b'hangar')
+    def openHangar(self, cmd):
+        if cmd.vehicle_id:
+            shared_events.selectVehicleInHangar(cmd.vehicle_id)
+        else:
+            shared_events.showHangar()
+        return
+
+
+class HangarWindowsWebApiMixin(object):
+    itemsCache = dependency.descriptor(IItemsCache)
+    __browserController = dependency.descriptor(IBrowserController)
+
+    @w2c(_ExchangeWindowSchema, b'currency_exchange')
+    def openCurrencyExchangeWindow(self, cmd):
+        if cmd.id is not None:
+            if not self.validateItems(cmd.id):
+                return
+            result = yield self.__showExchangeItemDialog(cmd.id, cmd.amount)
+            if not result.busy:
+                yield {b'completed': (result.result)}
+        elif cmd.type == _EXCHANGE_WINDOW_PLATFORM:
+            isOk, _ = yield DialogsInterface.showDialog(ExchangeCreditsWebProductMeta(name=cmd.name, count=cmd.amount, price=cmd.price, isModal=cmd.windowLayerTop))
+            yield {b'completed': isOk}
+        else:
+            shared_events.showExchangeCurrencyWindow()
+            yield
+        return
+
+    @w2c(W2CSchema, b'show_xp_exchange_window')
+    def openXPExchangeWindow(self, _):
+        shared_events.showExchangeXPWindow()
+        return
+
+    @w2c(W2CSchema, b'show_buy_slot_window')
+    def openBuySlotWindow(self, _):
+        ActionsFactory.doAction(ActionsFactory.BUY_VEHICLE_SLOT)
+        return
+
+    @w2c(W2CSchema, b'show_buy_berth_window')
+    def openBuyBerthWindow(self, _):
+        ActionsFactory.doAction(ActionsFactory.BUY_BERTHS)
+        return
+
+    @w2c(W2CSchema, b'show_crystal_info_window')
+    def openCrystalInfoWindow(self, _):
+        showCrystalWindow()
+        return
+
+    def validateItems(self, itemCD):
+        item = self.itemsCache.items.getItemByCD(itemCD)
+        if item is None or item.itemTypeID == GUI_ITEM_TYPE.FUEL_TANK:
+            _logger.error(b'Incorrect item is given, intCD: %s', itemCD)
+            return False
+        else:
+            return True
+
+    @adisp.adisp_async
+    @wg_async
+    def __showExchangeItemDialog(self, itemCD, count, callback):
+        for browser in self.__browserController.getAllBrowsers().values():
+            browser.unfocus()
+
+        result = yield wg_await(showExchangeToBuyItemsDialog(itemsCountMap={itemCD: count}))
+        callback(result)
+        return

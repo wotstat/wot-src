@@ -1,0 +1,20 @@
+from __future__ import absolute_import
+import BigWorld
+from debug_utils import LOG_DEBUG_DEV
+from helpers import dependency
+from skeletons.gui.battle_session import IBattleSessionProvider
+
+class ArenaObserverInfo(BigWorld.Entity):
+    sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def onEnterWorld(self, prereqs):
+        BigWorld.player().arena.registerArenaObserverInfo(self)
+        return
+
+    def onLeaveWorld(self):
+        BigWorld.player().arena.unregisterArenaObserverInfo(self)
+        return
+
+    def onDynamicComponentCreated(self, component):
+        LOG_DEBUG_DEV(b'Component created', component)
+        return

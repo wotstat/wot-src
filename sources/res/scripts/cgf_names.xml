@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cgf_names.xml>
+	<attributes></attributes>
+	<variables>
+		<name>vehicle/gun/caliber</name>
+		<name>vehicle/gun/gunLength</name>
+		<name>vehicle/gun/shellType</name>
+		<name>vehicle/gun/muzzleBrake</name>
+		<name>vehicle/gun/timeBetweenShots</name>
+		<name>vehicle/gun/temperature</name>
+		<name>vehicle/gun/intervalBetweenShots</name>
+		<name>vehicle/gun/shotsPerSecond</name>
+		<name>vehicle/gun/lowChargeShot/quickShot</name>
+		<name>vehicle/gun/lowChargeShot/fullShot</name>
+		<name>vehicle/gun/lowChargeShot/fullShotChangeTime</name>
+		<name>vehicle/gun/lastSingleShotTimeServer</name>
+		<name>vehicle/gun/lastShotPropellantProgress</name>
+		<name>vehicle/gun/lastShotEvent</name>
+		<name>hit/projectile/caliber</name>
+		<name>hit/projectile/speed</name>
+		<name>hit/projectile/shellType</name>
+		<name>hit/projectile/direction</name>
+		<name>hit/damage</name>
+		<name>hit/type</name>
+		<name>hit/armorPlacement</name>
+		<name>hit/matKind</name>
+		<name>hit/obstacleType</name>
+		<name>groundwave/distanceToTerrain</name>
+		<name>groundwave/terrainMatKind</name>
+		<name>damageSticker/isActive</name>
+		<name>damageSticker/rotation</name>
+		<name>damageSticker/angled</name>
+		<name>aux/energy</name>
+		<name>aux/energyCoef</name>
+		<name>aux/emissionSize</name>
+		<name>aux/hitCaliberRatio</name>
+		<name>aux/hitSpeedShellRatio</name>
+		<name>aux/hitSmokeScale</name>
+		<name>aux/hitSparksEmissionRateScale</name>
+		<name>aux/hitSparksStartSpeedScale</name>
+		<name>system/particleQuality</name>
+	</variables>
+</cgf_names.xml>

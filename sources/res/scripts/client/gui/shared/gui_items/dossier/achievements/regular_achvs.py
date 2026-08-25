@@ -1,0 +1,75 @@
+from __future__ import absolute_import
+from dossiers2.ui.achievements import ACHIEVEMENT_BLOCK as _AB
+from gui.shared.gui_items.dossier.achievements import validators
+from gui.shared.gui_items.dossier.achievements.abstract import RegularAchievement
+from gui.shared.gui_items.dossier.achievements.abstract.mixins import NoProgressBar
+
+class Achieved(RegularAchievement):
+    __slots__ = ()
+
+    @classmethod
+    def checkIsValid(cls, block, name, dossier):
+        return validators.alreadyAchieved(cls, name, block, dossier)
+
+
+class HonoredRankAchievement(RegularAchievement):
+    __slots__ = ()
+
+    def __init__(self, dossier, value=None):
+        super(HonoredRankAchievement, self).__init__(b'honoredRank', _AB.CLIENT, dossier, value)
+        return
+
+    def getIcons(self):
+        iconName = self.getIconName()
+        return {(self.ICON_TYPE.IT_180X180): (b'%s/%s.png' % (self.ICON_PATH_180X180, iconName)), 
+           (self.ICON_TYPE.IT_67X71): (b'%s/%s.png' % (self.ICON_PATH_67X71, iconName))}
+
+    @classmethod
+    def checkIsInDossier(cls, block, name, dossier):
+        if dossier is not None:
+            return bool(cls.__getCount(dossier))
+        else:
+            return False
+
+    @classmethod
+    def checkIsValid(cls, block, name, dossier):
+        return True
+
+    def _readValue(self, dossier):
+        return self.__getCount(dossier)
+
+    @classmethod
+    def __getCount(cls, dossier):
+        return dossier.getRankedStats().getTotalRanksCount()
+
+
+class MoonSphereAchievement(RegularAchievement, NoProgressBar):
+    __slots__ = ()
+
+    def __init__(self, dossier, value=None):
+        super(MoonSphereAchievement, self).__init__(b'moonSphere', _AB.SINGLE, dossier, value)
+        return
+
+    @classmethod
+    def checkIsValid(cls, block, name, dossier):
+        return validators.alreadyAchieved(cls, name, block, dossier)
+
+
+class LumberjackAchievement(RegularAchievement, NoProgressBar):
+    __slots__ = ()
+
+    def __init__(self, dossier, value=None):
+        super(LumberjackAchievement, self).__init__(b'lumberjack', _AB.TOTAL, dossier, value)
+        return
+
+    @classmethod
+    def checkIsValid(cls, block, name, dossier):
+        return validators.alreadyAchieved(cls, name, block, dossier)
+
+
+class ReferralProgramSingleAchievement(RegularAchievement):
+    __slots__ = ()
+
+    @classmethod
+    def checkIsValid(cls, block, name, dossier):
+        return validators.requiresReferralProgram() or validators.alreadyAchieved(cls, name, block, dossier)

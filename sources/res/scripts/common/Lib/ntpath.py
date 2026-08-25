@@ -1,0 +1,380 @@
+import os, sys, stat, genericpath, warnings
+from genericpath import *
+from genericpath import _unicode
+__all__ = [
+ 4, 5, 6, 7, 8, 9, 
+ 10, 11, 12, 13, 14, 
+ 15, 16, 17, 18, 19, 
+ 20, 21, 
+ 22, 23, 24, 25, 26, 27, 
+ 28, 29, 30, 31, 32, 33, 34, 
+ 35, 
+ 36, 37, 38, 39]
+curdir = b'.'
+pardir = b'..'
+extsep = b'.'
+sep = b'\\'
+pathsep = b';'
+altsep = b'/'
+defpath = b'.;C:\\bin'
+if b'ce' in sys.builtin_module_names:
+    defpath = b'\\Windows'
+elif b'os2' in sys.builtin_module_names:
+    altsep = b'/'
+devnull = b'nul'
+
+def normcase(s):
+    return s.replace(b'/', b'\\').lower()
+
+
+def isabs(s):
+    s = splitdrive(s)[1]
+    return s != b'' and s[:1] in b'/\\'
+
+
+def join(path, *paths):
+    result_drive, result_path = splitdrive(path)
+    for p in paths:
+        p_drive, p_path = splitdrive(p)
+        if p_path and p_path[0] in b'\\/':
+            if p_drive or not result_drive:
+                result_drive = p_drive
+            result_path = p_path
+            continue
+        elif p_drive and p_drive != result_drive:
+            if p_drive.lower() != result_drive.lower():
+                result_drive = p_drive
+                result_path = p_path
+                continue
+            result_drive = p_drive
+        if result_path and result_path[-1] not in b'\\/':
+            result_path = result_path + b'\\'
+        result_path = result_path + p_path
+
+    if result_path and result_path[0] not in b'\\/' and result_drive and result_drive[-1:] != b':':
+        return result_drive + sep + result_path
+    return result_drive + result_path
+
+
+def splitdrive(p):
+    if len(p) > 1:
+        normp = p.replace(altsep, sep)
+        if normp[0:2] == sep * 2 and normp[2:3] != sep:
+            index = normp.find(sep, 2)
+            if index == -1:
+                return (b'', p)
+            index2 = normp.find(sep, index + 1)
+            if index2 == index + 1:
+                return (b'', p)
+            if index2 == -1:
+                index2 = len(p)
+            return (p[:index2], p[index2:])
+        if normp[1] == b':':
+            return (p[:2], p[2:])
+    return (
+     b'', p)
+
+
+def splitunc(p):
+    if p[1:2] == b':':
+        return (b'', p)
+    firstTwo = p[0:2]
+    if firstTwo == b'//' or firstTwo == b'\\\\':
+        normp = p.replace(b'\\', b'/')
+        index = normp.find(b'/', 2)
+        if index <= 2:
+            return (b'', p)
+        index2 = normp.find(b'/', index + 1)
+        if index2 == index + 1:
+            return (b'', p)
+        if index2 == -1:
+            index2 = len(p)
+        return (p[:index2], p[index2:])
+    return (
+     b'', p)
+
+
+def split(p):
+    d, p = splitdrive(p)
+    i = len(p)
+    while i and p[i - 1] not in b'/\\':
+        i = i - 1
+
+    head, tail = p[:i], p[i:]
+    head2 = head
+    while head2 and head2[-1] in b'/\\':
+        head2 = head2[:-1]
+
+    head = head2 or head
+    return (d + head, tail)
+
+
+def splitext(p):
+    return genericpath._splitext(p, sep, altsep, extsep)
+
+
+splitext.__doc__ = genericpath._splitext.__doc__
+
+def basename(p):
+    return split(p)[1]
+
+
+def dirname(p):
+    return split(p)[0]
+
+
+def islink(path):
+    return False
+
+
+lexists = exists
+
+def ismount(path):
+    unc, rest = splitunc(path)
+    if unc:
+        return rest in (b'', b'/', b'\\')
+    p = splitdrive(path)[1]
+    return len(p) == 1 and p[0] in b'/\\'
+
+
+def walk(top, func, arg):
+    warnings.warnpy3k(b'In 3.x, os.path.walk is removed in favor of os.walk.', stacklevel=2)
+    try:
+        names = os.listdir(top)
+    except os.error:
+        return
+
+    func(arg, top, names)
+    for name in names:
+        name = join(top, name)
+        if isdir(name):
+            walk(name, func, arg)
+
+    return
+
+
+def expanduser(path):
+    if path[:1] != b'~':
+        return path
+    i, n = 1, len(path)
+    while i < n and path[i] not in b'/\\':
+        i = i + 1
+
+    if b'HOME' in os.environ:
+        userhome = os.environ[b'HOME']
+    elif b'USERPROFILE' in os.environ:
+        userhome = os.environ[b'USERPROFILE']
+    elif b'HOMEPATH' not in os.environ:
+        return path
+    try:
+        drive = os.environ[b'HOMEDRIVE']
+    except KeyError:
+        drive = b''
+
+    userhome = join(drive, os.environ[b'HOMEPATH'])
+    if i != 1:
+        userhome = join(dirname(userhome), path[1:i])
+    return userhome + path[i:]
+
+
+def expandvars(path):
+    if b'$' not in path and b'%' not in path:
+        return path
+    import string
+    varchars = string.ascii_letters + string.digits + b'_-'
+    if isinstance(path, _unicode):
+        encoding = sys.getfilesystemencoding()
+
+        def getenv(var):
+            return os.environ[var.encode(encoding)].decode(encoding)
+
+    else:
+
+        def getenv(var):
+            return os.environ[var]
+
+    res = b''
+    index = 0
+    pathlen = len(path)
+    while index < pathlen:
+        c = path[index]
+        if c == b"'":
+            path = path[index + 1:]
+            pathlen = len(path)
+            try:
+                index = path.index(b"'")
+                res = res + b"'" + path[:index + 1]
+            except ValueError:
+                res = res + c + path
+                index = pathlen - 1
+
+        elif c == b'%':
+            if path[index + 1:index + 2] == b'%':
+                res = res + c
+                index = index + 1
+            else:
+                path = path[index + 1:]
+                pathlen = len(path)
+                try:
+                    index = path.index(b'%')
+                except ValueError:
+                    res = res + b'%' + path
+                    index = pathlen - 1
+                else:
+                    var = path[:index]
+                    try:
+                        res = res + getenv(var)
+                    except KeyError:
+                        res = res + b'%' + var + b'%'
+
+        elif c == b'$':
+            if path[index + 1:index + 2] == b'$':
+                res = res + c
+                index = index + 1
+            elif path[index + 1:index + 2] == b'{':
+                path = path[index + 2:]
+                pathlen = len(path)
+                try:
+                    index = path.index(b'}')
+                    var = path[:index]
+                    try:
+                        res = res + getenv(var)
+                    except KeyError:
+                        res = res + b'${' + var + b'}'
+
+                except ValueError:
+                    res = res + b'${' + path
+                    index = pathlen - 1
+
+            else:
+                var = b''
+                index = index + 1
+                c = path[index:index + 1]
+                while c != b'' and c in varchars:
+                    var = var + c
+                    index = index + 1
+                    c = path[index:index + 1]
+
+                try:
+                    res = res + getenv(var)
+                except KeyError:
+                    res = res + b'$' + var
+
+                if c != b'':
+                    index = index - 1
+        else:
+            res = res + c
+        index = index + 1
+
+    return res
+
+
+def normpath(path):
+    backslash, dot = (u'\\', u'.') if isinstance(path, _unicode) else (b'\\', b'.')
+    if path.startswith((b'\\\\.\\', b'\\\\?\\')):
+        return path
+    path = path.replace(b'/', b'\\')
+    prefix, path = splitdrive(path)
+    if prefix == b'':
+        while path[:1] == b'\\':
+            prefix = prefix + backslash
+            path = path[1:]
+
+    elif path.startswith(b'\\'):
+        prefix = prefix + backslash
+        path = path.lstrip(b'\\')
+    comps = path.split(b'\\')
+    i = 0
+    while i < len(comps):
+        if comps[i] in (b'.', b''):
+            del comps[i]
+        elif comps[i] == b'..':
+            if i > 0 and comps[i - 1] != b'..':
+                del comps[i - 1:i + 1]
+                i -= 1
+            elif i == 0 and prefix.endswith(b'\\'):
+                del comps[i]
+            else:
+                i += 1
+        else:
+            i += 1
+
+    if not prefix and not comps:
+        comps.append(dot)
+    return prefix + backslash.join(comps)
+
+
+try:
+    from nt import _getfullpathname
+except ImportError:
+
+    def abspath(path):
+        if not isabs(path):
+            if isinstance(path, _unicode):
+                cwd = os.getcwdu()
+            else:
+                cwd = os.getcwd()
+            path = join(cwd, path)
+        return normpath(path)
+
+
+else:
+
+    def abspath(path):
+        if path:
+            try:
+                path = _getfullpathname(path)
+            except WindowsError:
+                pass
+
+        elif isinstance(path, _unicode):
+            path = os.getcwdu()
+        else:
+            path = os.getcwd()
+        return normpath(path)
+
+
+realpath = abspath
+supports_unicode_filenames = hasattr(sys, b'getwindowsversion') and sys.getwindowsversion()[3] >= 2
+
+def _abspath_split(path):
+    abs = abspath(normpath(path))
+    prefix, rest = splitunc(abs)
+    is_unc = bool(prefix)
+    if not is_unc:
+        prefix, rest = splitdrive(abs)
+    return (
+     is_unc, prefix, [x for x in rest.split(sep) if x])
+
+
+def relpath(path, start=curdir):
+    if not path:
+        raise ValueError(b'no path specified')
+    start_is_unc, start_prefix, start_list = _abspath_split(start)
+    path_is_unc, path_prefix, path_list = _abspath_split(path)
+    if path_is_unc ^ start_is_unc:
+        raise ValueError(b'Cannot mix UNC and non-UNC paths (%s and %s)' % (
+         path, start))
+    if path_prefix.lower() != start_prefix.lower():
+        if path_is_unc:
+            raise ValueError(b'path is on UNC root %s, start on UNC root %s' % (
+             path_prefix, start_prefix))
+        else:
+            raise ValueError(b'path is on drive %s, start on drive %s' % (
+             path_prefix, start_prefix))
+    i = 0
+    for e1, e2 in zip(start_list, path_list):
+        if e1.lower() != e2.lower():
+            break
+        i += 1
+
+    rel_list = [pardir] * (len(start_list) - i) + path_list[i:]
+    if not rel_list:
+        return curdir
+    return join(*rel_list)
+
+
+try:
+    from nt import _isdir as isdir
+except ImportError:
+    pass

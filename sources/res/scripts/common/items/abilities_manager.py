@@ -1,0 +1,123 @@
+from __future__ import absolute_import
+import typing
+from collections import defaultdict, namedtuple
+from operator import add
+from future.utils import viewitems
+from items import perks
+from debug_utils import LOG_DEBUG_DEV
+_AbilityRecord = namedtuple(b'_AbilityRecord', (b'name', b'perks'))
+
+class AbilitiesManager(object):
+    DEFAULT_PRIORITY = 99
+
+    def __init__(self):
+        self._scopes = defaultdict(list)
+        return
+
+    def destroy(self):
+        self.reset()
+        return
+
+    def addBuild(self, vehInvID, scopeName, perksDict, priority=DEFAULT_PRIORITY):
+        validPerks = {perkID: perkLevel for perkID, perkLevel in viewitems(perksDict) if perks.g_cache.perks.validatePerk(perkID) and perkLevel > 0}
+        if len(validPerks) != len(perksDict):
+            LOG_DEBUG_DEV((b'AbilitiesManager.addBuild: build is empty or holds not valid perks: {}, {}, {}, {}').format(vehInvID, scopeName, priority, perksDict))
+        if validPerks:
+            LOG_DEBUG_DEV((b'AbilitiesManager.addBuild:{}, {}, {}, {}').format(vehInvID, scopeName, priority, validPerks))
+            del_index = None
+            for i, (_, rec) in enumerate(self._scopes[vehInvID]):
+                if rec.name == scopeName:
+                    del_index = i
+                    break
+
+            if del_index is not None:
+                del self._scopes[vehInvID][del_index]
+            self._scopes[vehInvID].append((priority, _AbilityRecord(scopeName, validPerks)))
+            return True
+        else:
+            return False
+
+    def modifyBuild(self, vehInvID, scopeName, modDict, operator=add):
+        build = None
+        for _, rec in self._scopes[vehInvID]:
+            if rec.name == scopeName:
+                build = rec.perks
+                break
+
+        if build is None:
+            LOG_DEBUG_DEV((b'AbilitiesManager.modifyBuild: could not find build {} for vehicle {} to modify. Creating a new one').format(scopeName, vehInvID))
+            self.addBuild(vehInvID, scopeName, modDict)
+            return
+        else:
+            for perkID, mod in viewitems(modDict):
+                buildValue = build.get(perkID)
+                if buildValue is None:
+                    build[perkID] = mod
+                else:
+                    build[perkID] = operator(buildValue, mod)
+
+            return
+
+    def getPerksByVehicle(self, vehInvID, perksMaxLevelConfig=None):
+        vehiclePerks = self._scopes.get(vehInvID)
+        if vehiclePerks is None:
+            return {}
+        else:
+            vehBuilds = sorted(vehiclePerks, key=(lambda e: e[0]))
+            if perksMaxLevelConfig is not None:
+                return {vehBuild[1].name: tuple((perkID, min(perksMaxLevelConfig.getMaxPerkLevel(perkID, level), level)) for perkID, level in viewitems(vehBuild[1].perks)) for vehBuild in vehBuilds}
+            return {vehBuild[1].name: tuple(viewitems(vehBuild[1].perks)) for vehBuild in vehBuilds}
+
+    def getPerksListByVehicle(self, vehInvID):
+        vehiclePerks = self._scopes.get(vehInvID)
+        if vehiclePerks is None:
+            return {}
+        else:
+            vehBuilds = sorted(vehiclePerks, key=(lambda e: e[0]))
+            return {vehBuild[1].name: vehBuild[1].perks.keys() for vehBuild in vehBuilds}
+
+    def getPerkLevelByVehicle(self, vehInvID, scopeName, perkID):
+        for _, rec in self._scopes[vehInvID]:
+            if rec.name == scopeName:
+                return rec.perks.get(perkID, 0)
+
+        return 0
+
+    def getScopesNames(self, vehInvID):
+        vehiclePerks = self._scopes.get(vehInvID)
+        if vehiclePerks is None:
+            return {}
+        else:
+            vehBuilds = sorted(vehiclePerks, key=(lambda e: e[0]))
+            return {i: build[1].name for i, build in enumerate(vehBuilds)}
+
+    def removePerksByVehicle(self, vehInvID):
+        self._scopes.pop(vehInvID, None)
+        return
+
+    def reset(self):
+        self._scopes.clear()
+        return
+
+
+class PerksMaxLevelConfig(object):
+
+    def __init__(self, config, bonusType=None):
+        super(PerksMaxLevelConfig, self).__init__()
+        self._config = config
+        self._bonusType = bonusType
+        return
+
+    def getMaxPerkLevel(self, perkID, default=None):
+        maxLevel = None
+        if self._bonusType in self._config[b'overrides']:
+            maxLevel = self._getMaxPerkLevelFromConfig(self._config[b'overrides'][self._bonusType], perkID)
+        if maxLevel is None:
+            maxLevel = self._getMaxPerkLevelFromConfig(self._config[b'default'], perkID)
+        if maxLevel is not None:
+            return maxLevel
+        else:
+            return default
+
+    def _getMaxPerkLevelFromConfig(self, config, perkID):
+        return config[b'maxPerkLevels'].get(perkID, config[b'maxLevel'])

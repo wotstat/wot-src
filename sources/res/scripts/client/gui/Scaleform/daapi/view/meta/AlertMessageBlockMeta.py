@@ -1,0 +1,16 @@
+from gui.Scaleform.framework.entities.BaseDAAPIComponent import BaseDAAPIComponent
+
+class AlertMessageBlockMeta(BaseDAAPIComponent):
+
+    def onBlockClick(self):
+        self._printOverrideError(b'onBlockClick')
+        return
+
+    def onButtonClick(self):
+        self._printOverrideError(b'onButtonClick')
+        return
+
+    def as_setDataS(self, data):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setData(data)
+        return

@@ -1,0 +1,12 @@
+from gui.Scaleform.framework.entities.View import View
+
+class ProfileMeta(View):
+
+    def onCloseProfile(self):
+        self._printOverrideError(b'onCloseProfile')
+        return
+
+    def as_updateS(self, data):
+        if self._isDAAPIInited():
+            return self.flashObject.as_update(data)
+        return
