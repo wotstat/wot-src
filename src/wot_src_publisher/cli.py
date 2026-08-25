@@ -102,7 +102,3 @@ def main(argv: Sequence[str] | None = None) -> int:
         _write_failure(error)
         print(f"error: {error}", file=sys.stderr)
         return 1
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
