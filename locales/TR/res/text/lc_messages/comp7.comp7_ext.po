@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Savaşlar sunucularda %(primeDelta)s içinde açılacaktır"
+
+msgid "alertMessage/allNotSet"
+msgstr "Bu kip tüm sunucularda devre dışıdır"
+
+msgid "alertMessage/ban"
+msgstr "Bu kipten geçici olarak yasaklandınız. Kalan süre: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Sunucu değiştir"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaylar"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Bu kip mevcut sunucunuzda devre dışıdır %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Bu kip tüm sunucularda devre dışıdır."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Kip için en az %(count)s uygun araca sahip olmalısınız. Ayrıntılar için Hücum Hakkında sayfasına bakın."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Yeterli uygun araç yok"
+
+msgid "alertMessage/modeOffline"
+msgstr "Veritabanı hatası. Oyun kipi devre dışı."
+
+msgid "alertMessage/noVehicles"
+msgstr "Garajda uygun Seviye %(levels)s araç yok %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Savaşlar %(serverName)s sunucusunda devre dışıdır"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Savaşlar %(serverName)s sunucusunda devre dışıdır"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Yeterli uygun araç yok %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Bu kip %(serverName)s sunucusunda devre dışıdır"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Azur Ejderha Sezonu başlangıcı: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Kızıl Ejderha Sezonu başlangıcı: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Yeşim Ejderha Sezonu başlangıcı: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Kademenizin belirlenmesi için Eleme sonuçları bekleniyor"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Azur Ejderha Sezonu sona erdi"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Kızıl Ejderha Sezonu sona erdi"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Yeşim Ejderha Sezonu sona erdi"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Savaşlar bu sunucuda %(primeDelta)s içinde açılacaktır"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Bu kip %(serverName)s sunucusunda devre dışıdır"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s gün"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s sa. %(min)s dk."
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 dk."
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s dk."
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Garajda uygun Seviye %(levels)s araç yok"
+
+msgid "awardsWidget/description/award"
+msgstr "Ödüllerinizi seçip almak için tıklayın."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Son Ödüller geçici olarak devre dışıdır. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "ÖDÜLÜ\nALIN"
+msgstr[1] "ÖDÜLLERİ\nALIN"
+msgstr[2] "ÖDÜLLERİ\nALIN"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Oy Ver"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "%(vehicleName)s için zaten oy verdiniz"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Yasaklama"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Yasaklanacak bir araç önerin"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Yalnızda yasaklama aşaması\nsırasında oy verebilirsiniz"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Şu aracı yasaklamak istiyorsunuz:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Ekibinizden biri yasaklamak\nistediğiniz aracı seçti"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Yasaklama oyu aşamasının bitmesini bekleyin"
+
+msgid "banView/button/back"
+msgstr "GERİ DÖN"
+
+msgid "banView/button/ban"
+msgstr "Yasak Seçimine Git"
+
+msgid "banView/button/description"
+msgstr "ARAÇ SEÇİMİNE GİT"
+
+msgid "banView/description/prepick"
+msgstr "Bu harita ve ekip kompozisyonunuz için en uygun aracı seçin"
+
+msgid "banView/description/voting"
+msgstr "Bu savaşta yasaklamak istediğiniz bir araç seçin"
+
+msgid "banView/factory/candidate"
+msgstr "Yasak önerisi: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Ekibin yasak önerileri"
+
+msgid "banView/factory/noCandidates"
+msgstr "Yasak önerisi yok"
+
+msgid "banView/factory/pick"
+msgstr "Sizin öneriniz: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Yasaklanmasın"
+
+msgid "banView/title/prepick"
+msgstr "Araç Ön Seçimi Aşaması"
+
+msgid "banView/title/voting"
+msgstr "Yasaklama Oy Aşaması"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Oy onaylandı"
+
+msgid "banView/tooltip/noAction"
+msgstr "Herhangi Bir İşlem Yapılmadı"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Bu oyuncu henüz yasaklanacak bir araç önermedi."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Önerilen"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Tank avcıları"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Ağır tanklar"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Hafif tanklar"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Orta tanklar"
+
+msgid "banView/withoutBan"
+msgstr "Yasaklanmasın"
+
+msgid "banWidget/allies"
+msgstr "Müttefik oyları"
+
+msgid "banWidget/enemies"
+msgstr "Düşman oyları"
+
+msgid "banWidget/tooltip"
+msgstr "Ekip yasaklanacak bir araç üzerinde anlaşamadı, bu nedenle en çok oyu alan araçlardan rastgele biri yasaklandı."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Araçların gösterimini türlerine, rollerine ve ülkelerine göre düzenleyin."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Parametrelere Göre Filtreleme"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Burada sadece kipte kullanılabilen araçlar gösterilmektedir."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Seçili parametrelere uyan araç yok"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Ekip oluşturuldu. Aracınızı seçin ve savaşa atılın!\nSesli sohbete katılın (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Ekip oluşturuldu. Aracınızı seçin ve savaşa atılın!\nSesli sohbete hızlıca katılmak için bir kısayol tuşu atayın."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Ekip oluşturuldu. Aracınızı seçin ve savaşa atılın!\nSesli sohbete katılmak için bu işlevi oyun ayarlarınızdan etkinleştirin."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Kip Detayları (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Araç görüş mesafesi artırıldı"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Mürettebat nitelikleri iyileştirildi"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Can puanı yenileniyor"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Can puanı yenileniyor"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Mürettebat nitelikleri iyileştirildi"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Mürettebat nitelikleri iyileştirildi"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Top yükleme hızı artırıldı"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Araç nitelikleri iyileştirildi"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Can puanı yenileniyor"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Araç nitelikleri iyileştirildi"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Araç nitelikleri iyileştirildi"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Hareket Kabiliyeti iyileştirildi"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Can puanı yenileniyor"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Top dağılımı azaltıldı"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Araç nitelikleri iyileştirildi"
+
+msgid "battleResult/header/deserter"
+msgstr "Reyting Puanınıza ceza aldınız"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Ceza aldınız. Elemeleri tamamladıktan sonra reytinginiz düşürülecek"
+
+msgid "battleResult/label/deserter"
+msgstr "Firar"
+
+msgid "battleResult/message/deserter"
+msgstr "Ceza aldınız:\nReyting Puanı kaybı: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Savaş alanından firar ettiniz.\nElemeleri tamamladıktan sonra reytinginiz düşürülecek."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Sportmenliğe Aykırı Davranış"
+
+msgid "battleResult/personal/label"
+msgstr "Reyting Puanı"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Bir oyuncunun Kademe Sistemi içindeki mevcut gelişimini yansıtır. Reyting Puanları kip içindeki başarınız doğrultusunda kazanılıp kaybedilebilir."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Kip savaşlarındaki yenilgiler/beraberlikler\n• Ceza alma\n• Kademe faaliyetsizliği."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Reyting Puanı kaybetme sebebi:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Reyting Puanı"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Eleme savaşı"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Elemeler"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Reyting Puanı alındı. Efsane kademenizi korumak için Skor Tahtasındaki oyuncularda ilk %%%(topPercentage)d içinde kalın."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Reyting Puanı alındı. Efsane kademesine ulaşmak için Skor Tahtasındaki oyuncularda ilk %%%(topPercentage)d arasına girin."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Reyting Puanı alındı"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Reyting Puanı kaybedildi. Efsane kademenizi korumak için Skor Tahtasındaki oyuncularda ilk %%%(topPercentage)d içinde kalın."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Reyting Puanı kaybedildi. Efsane kademesine ulaşmak için Skor Tahtasındaki oyuncularda ilk %%%(topPercentage)d arasına girin."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Reyting Puanı kaybedildi"
+
+msgid "battleResult/subTask/rating"
+msgstr "Reyting Puanı: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "%(division)s. %(rank)s klasmanına düşürüldünüz"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "%(division)s. %(rank)s klasmanına yükseldiniz!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Yapılan savaşlar (gün): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Dahil olanlar:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Yapılan savaşlar (sezon): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Tek Başına/Takımla: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Süper Takımla: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s-%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Azur Ejderha Sezonu %(days)d gün sürecek"
+msgstr[1] "Azur Ejderha Sezonu %(days)d gün sürecek"
+msgstr[2] "Azur Ejderha Sezonu %(days)d gün sürecek"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Kızıl Ejderha Sezonu %(days)d gün sürecek"
+msgstr[1] "Kızıl Ejderha Sezonu %(days)d gün sürecek"
+msgstr[2] "Kızıl Ejderha Sezonu %(days)d gün sürecek"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Yeşim Ejderha Sezonu %(days)d gün sürecek"
+msgstr[1] "Yeşim Ejderha Sezonu %(days)d gün sürecek"
+msgstr[2] "Yeşim Ejderha Sezonu %(days)d gün sürecek"
+
+msgid "calendarDay/title"
+msgstr "Program"
+
+msgid "carousel/banned"
+msgstr "Yasaklandı"
+
+msgid "claimRewards/button"
+msgstr "Ödülü Alın"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Bu işlem teknik nedenlerle geçici olarak yapılamamaktadır. Sorunu düzeltmek için çalışıyoruz."
+
+msgid "closeButtonLabel"
+msgstr "KAPAT"
+
+msgid "controls/compare"
+msgstr "Karşılaştırmaya Ekle"
+
+msgid "controls/preview"
+msgstr "Ön izleme"
+
+msgid "countDown/text"
+msgstr "Etkinliğin başlangıcı:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 dk."
+
+msgid "crewMembersTooltip/description"
+msgstr "Bu özel mürettebat, Komutanlarının liderliğinde birleşen, dünya genelindeki tankçılardan oluşuyor. Hepsi sıfırıncı yetenek olarak Silah Arkadaşlığı ve iki yetenek daha eğitecek kadar Mürettebat DP'sine sahip. Böylece aracın performansını iyileştirmenin yanı sıra savaş alanına kendi havalarını katıyorlar."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Yetenekler"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Hücum. Ejderha Yılı"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Sıfırıncı yetenekler"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Ortalama hasar (gün): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Verilen toplam hasar miktarının yapılan savaş sayısına oranı."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Ortalama hasar (sezon): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Günlük hasar rekoru: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "%(vehicleName)s ile savaşta verilen maksimum hasar."
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Sezon hasar rekoru: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "Verdiğimiz geçici rahatsızlıktan dolayı özür dileriz. Lütfen sayfayı güncellemeyi daha sonra tekrar deneyin."
+
+msgid "dataError/title"
+msgstr "Veri Yüklenirken Hata"
+
+msgid "dayTooltip/day"
+msgstr "%(index)s. Gün"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "%(index)s. Gün: Hiç savaş yapılmadı."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Kademede faaliyetsizlik: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s Reyting Puanı"
+msgstr[1] "%(pointsCount)s Reyting Puanı"
+msgstr[2] "%(pointsCount)s Reyting Puanı"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Reyting Puanı değişikliği: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "%(index)s. Gün (bugün)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "%(index)s. Gün: Bugün hiç savaş yapılmadı."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Klasman"
+
+msgid "division/text"
+msgstr "Klasman %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Bu Klasman {eeede9e6_Open}%(fromScore)&nbsp;ile&nbsp;%(toScore){eeede9e6_Close}&nbsp;arası Reyting Puanına sahip oyuncular içindir."
+
+msgid "divisionTooltip/heading"
+msgstr "Klasman %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Reyting Puanı"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Yapılan savaşlar"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sSonuçlar geliyor..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sSonuçlar geliyor..."
+
+msgid "entryPointTooltip/description"
+msgstr "Seviye %(levels)s araçlarla 7x7 savaşlar içeren rekabetçi bir kip. Kademelerde yükselerek özgün özelleştirme ögeleri, araçlar, tahvil ve başka değerli ödüller kazanın."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "KİP"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s - Oyun kipi. Keşfetmek için tıklayın"
+
+msgid "entryPointTooltip/status/active"
+msgstr "%(timer)s için daha geçerli"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Ateşkes%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Geçerlilik:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Hücum"
+
+msgid "featureNameCapitalized"
+msgstr "HÜCUM"
+
+msgid "fifthRankTooltip/description"
+msgstr "{eeede9e6_Open}Şampiyon{eeede9e6_Close} kademesi en az {eeede9e6_Open}%(fromScore){eeede9e6_Close} Reyting Puanı kazanmış oyunculara verilir."
+
+msgid "forVehicle"
+msgstr "İlgili araç: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "{eeede9e6_Open}Demir{eeede9e6_Close} kademesi {eeede9e6_Open}%(fromScore) ila %(toScore){eeede9e6_Close} Reyting Puanı kazanmış oyunculara verilir."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "{eeede9e6_Open}Altın{eeede9e6_Close} kademesi {eeede9e6_Open}%(fromScore) ila %(toScore){eeede9e6_Close} Reyting Puanı kazanmış oyunculara verilir."
+
+msgid "generalRankTooltip/body/second"
+msgstr "{eeede9e6_Open}Bronz{eeede9e6_Close} kademesi {eeede9e6_Open}%(fromScore) ila %(toScore){eeede9e6_Close} Reyting Puanı kazanmış oyunculara verilir."
+
+msgid "generalRankTooltip/body/third"
+msgstr "{eeede9e6_Open}Gümüş{eeede9e6_Close} kademesi {eeede9e6_Open}%(fromScore) ila %(toScore){eeede9e6_Close} Reyting Puanı kazanmış oyunculara verilir."
+
+msgid "generalRankTooltip/subheading"
+msgstr "İçeriği Klasmanlar: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "ETKİNLİK HAKKINDA"
+
+msgid "intro/confirmButton"
+msgstr "Olumlu!"
+
+msgid "intro/description/banPhase"
+msgstr "Her ekip bir aracı savaştan tamamen yasaklayabilir. En çok çekindiğiniz aracı yasaklamak veya düşmanlar için beklenmedik bir kadro hazırlamak için müttefiklerinizle oylarınızı koordine edin. Aracınız yasaklanırsa, önceden yapılandırılmış birkaç kiralık araç arasından seçim yapabilirsiniz."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Kipte aracın can puanı, sarf malzemeleri soğuma süresi, görünür kalma süresi, vb. gibi araç parametrelerini farklılaştıran değiştiriciler bulunur."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Haritada belli alanları ele geçirdikten sonra Taktik Becerilerinizi kullanabilmeye başlayacaksınız. İki tür İlgi Noktası bulunuyor: Topçu Karargâhı belli bir pozisyona topçu saldırısı yönlendirmenizi sağlarken Muhabere Merkezi de tüm düşman araçlarını tespit ediyor. Bu noktaların mevcudiyeti ve yerleşimi haritaya bağlı olarak değişebiliyor."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Beceri seviyenizi ve kademenizi belirlemek için %(count)s Eleme savaşı yapın. Tamamladığınızda, eriştiğiniz kademe ve önceki tüm kademelerin ödüllerini alacaksınız.\n\nElemede firar veya beraberlik yenilgi olarak sayılacaktır."
+msgstr[1] "Beceri seviyenizi ve kademenizi belirlemek için %(count)s Eleme savaşı yapın. Tamamladığınızda, eriştiğiniz kademe ve önceki tüm kademelerin ödüllerini alacaksınız.\n\nElemede firar veya beraberlik yenilgi olarak sayılacaktır."
+msgstr[2] "Beceri seviyenizi ve kademenizi belirlemek için %(count)s Eleme savaşı yapın. Tamamladığınızda, eriştiğiniz kademe ve önceki tüm kademelerin ödüllerini alacaksınız.\n\nElemede firar veya beraberlik yenilgi olarak sayılacaktır."
+
+msgid "intro/description/ranks"
+msgstr "Oyuncunun becerisini yansıtan bir sistem. Demir'den Efsane'ye uzanan kademelerde ilerleyin ve değerli ödüller kazanın. Ejderha Yılı boyunca savaşarak özgün Yıllık Ödüller alın."
+
+msgid "intro/description/roleSkills"
+msgstr "Tüm araçların rolüne bağlı olan üç şarj seviyeli bir özel becerisi bulunmaktadır. Şarj seviyesi ne kadar yüksekse becerinin etkisi de o kadar güçlü olur. Şarj seviyesi Prestij Puanlarının sayısına bağlıdır ve bu puanlar savaşta etkileyici performans sergileme, İlgi Noktalarını ele geçirme, Taktik Becerileri kullanma ve benzeri eylemler gerçekleştirme karşılığında kazanılır.\n\nKip mevzuatına göz atarak Prestij Puanı kazanmanın farklı yöntemleri hakkında daha fazlasını öğrenebilirsiniz."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Savaşa KMT'ler hariç Seviye %(levels)s araştırılabilir araçların yanı sıra Koleksiyon araçlarıyla ve bazı özel araçlarla girebilirsiniz. Garajda araçlarınızı hazırlayın, ardından savaşa girdikten sonra çıkan haritanın özelliklerine dayanarak en uygununu seçin. Aracınızı seçerken müttefiklerinizin de hangi araçları seçtiğini dikkate alın."
+
+msgid "intro/title/banPhase"
+msgstr "ARAÇ YASAKLAMALARI"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "HÜCUM DEĞİŞTİRİCİLERİ"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "İLGİ NOKTALARI"
+
+msgid "intro/title/qualification"
+msgstr "ELEMELER"
+
+msgid "intro/title/ranks"
+msgstr "KADEMELİ SİSTEM"
+
+msgid "intro/title/roleSkills"
+msgstr "ROL BECERİLERİ"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "BELLİ BİR HARİTAYA ÖZEL BİR ARAÇ SEÇİN"
+
+msgid "lastUpdateNote/info"
+msgstr "Güncellendi: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Efsane kademesinde yer alan en alt sıradaki oyuncunun Reyting Puanı\nher %(count)s dakikada bir güncellenir."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Veri güncelleniyor..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Skor Tahtası her %(count)s dakikada bir güncellenir."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Son güncelleme: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Konumum"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Skor Tahtasına girebilmek için Şampiyon ya da Efsane kademesine yükselin."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Güncelle"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Şampiyon ve Efsane kademelerinin oyuncuları Skor Tahtasında yer alacaktır. {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} Reyting Puanı kazanın ve listenin en tepesine yükselin!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Mevcut Sezonun Skor Tahtasında yer alan oyuncu bulunmuyor"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Savaşlar"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Oyuncunun İsmi"
+
+msgid "leaderboard/table/header/score"
+msgstr "Reyting Puanı"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Hücum kipinin mevcut Sezonunda oyuncunun yaptığı savaş sayısı."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Savaşlar"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Oyuncunun reytinglerdeki konumu."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Konum"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Reytinglerde bir konuma sahip oyuncunun ismi."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Oyuncunun İsmi"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Mevcut Sezonda kazanılmış Reyting Puanı sayısı."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Reyting Puanı"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Takımdaki oyuncular"
+
+msgid "noVehicles/howTo/premium"
+msgstr "WoT Premium Hesabı Kullanın"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Kişisel Yedekleri Etkinleştirin"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Görevleri Tamamlayın"
+
+msgid "noVehicles/howTo/title"
+msgstr "Seviye %(levels)s araçlara erişmenin en hızlı yolu nedir?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Hücuma katılmak için Garajınızda bu kipe uygun en az bir Seviye %(levels)s araç mevcut olmalıdır.\nHenüz almadığınız bir araştırılmış Seviye %(levels)s araç bulunuyor."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Hücuma katılmak için Garajınızda bu kipe uygun en az bir Seviye %(levels)s araç mevcut olmalıdır.\nKurtarmaya açık bir Seviye %(levels)s aracınız bulunuyor."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Hücuma katılmak için Garajınızda bu kipe uygun en az bir Seviye %(levels)s araç mevcut olmalıdır."
+
+msgid "noVehicles/title"
+msgstr "Garajınızda uygun araç yok"
+
+msgid "page/heading/leaderboard"
+msgstr "SKOR TAHTASI"
+
+msgid "page/heading/progression"
+msgstr "KADEMELİ SİSTEM"
+
+msgid "page/heading/qualification"
+msgstr "ELEMELER"
+
+msgid "page/heading/rankRewards"
+msgstr "KADEME ÖDÜLLERİ"
+
+msgid "page/heading/shop"
+msgstr "HÜCUM MAĞAZASI"
+
+msgid "page/heading/weeklyQuests"
+msgstr "HAFTALIK GÖREVLER"
+
+msgid "page/heading/yearlyRewards"
+msgstr "YILLIK ÖDÜLLER"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "YILLIK İSTATİSTİKLER"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "İleri"
+
+msgid "pagination/prev"
+msgstr "Geri"
+
+msgid "pbs/bans/title"
+msgstr "YASAKLI ARAÇLAR"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "2B HÜCUM STİLİ"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "2B STİL GÖREVİ TAMAMLANDI!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "HAFTALIK GÖREV #%(count)s TAMAMLANDI!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "HAFTALIK GÖREV TAMAMLANDI!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "HÜCUM HAFTALIK"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "YENİLDİNİZ ÇÜNKÜ"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "BERABERLİK ÇÜNKÜ"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "KAZANDINIZ AMA"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "%(rank)s kademesine terfi ettiniz"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "%(rank)s, %(division)s kademesine düştünüz"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "%(rank)s, %(division)s kademesine terfi ettiniz"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Yapılan savaşlar"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Eleme"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Bir disiplin cezası aldınız: Reyting Puanı cezası"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Disiplin cezası aldınız: Eleme tamamlandıktan sonra reytinginiz düşürülecek."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "Efsane kademesine erişmek için Skor Tahtasındaki oyuncularda {ede6d9e5_Open}ilk %(topPercentage)%{ede6d9e5_Close} arasına girin."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "Efsane kademesinde kalmak için Skor Tahtasındaki oyuncularda {ede6d9e5_Open}ilk %(topPercentage)%{ede6d9e5_Close} arasına girin."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Ayrıntılar için Hücum Hakkında sayfasına bakın."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestij Puanı"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Zarar verme\nGözcülük desteği\nPalet kırma\nKritik isabet verme\nDüşman araçlarını yok etme\nVe fazlası"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Bu özel kaynak, savaşta kazanılan ve kaybedilen Reyting Puanı miktarını etkiler. Şu savaş faaliyetlerini gerçekleştirerek Prestij Puanı kazanabilirsiniz:"
+
+msgid "percentage"
+msgstr "% %(percentageValue)s"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Ortalama Prestij Puanı (gün): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Kazanılan toplam Prestij Puanının yapılan savaş sayısına oranı."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Ortalama Prestij Puanı (sezon): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Günlük Prestij Puanı rekoru: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "%(vehicleName)s ile savaşta kazanılan maksimum Prestij Puanı"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Sezonluk Prestij Puanı rekoru: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Azur Ejderha Sezonu %(server)s sunucusunda sona erdi."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Kızıl Ejderha Sezonu %(server)s sunucusunda sona erdi."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Yeşim Ejderha Sezonu %(server)s sunucusunda sona erdi."
+
+msgid "products/actions/buy"
+msgstr "Satın Al"
+
+msgid "products/actions/restore"
+msgstr "Depoya Git"
+
+msgid "products/actions/toCustomization"
+msgstr "Stile Git"
+
+msgid "products/actions/toHangar"
+msgstr "Garajda Bak"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Stile gidilemiyor. Şu nedenle olabilir: Henüz araca sahip değilsiniz, araç taktik birlikte, araç savaşta veya onarım gerekiyor."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Geçersiz"
+
+msgid "products/discount"
+msgstr "-%%(discountPercentage)s"
+
+msgid "products/discountDescription"
+msgstr "Bir sonraki Sezonun başlangıcına kadar {eeede9e6_Open}ulaştığınız{eeede9e6_Close} {eeede9e6_Open}en yüksek{eeede9e6_Close} {eeede9e6_Open}kademeye{eeede9e6_Close} göre ürünlere ve indirime erişim hakkınız olacak."
+
+msgid "products/discountSectionName"
+msgstr "ERİŞİM KOŞULLARI VE İNDİRİMLER"
+
+msgid "products/inProgress"
+msgstr "Lütfen bekleyin, alışverişiniz işleniyor..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Sezon başına şu kadar satın alınabilir: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Alışveriş için yeterli para yok."
+
+msgid "products/message/rankAccess"
+msgstr "Satın alma koşulu\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "YENİ"
+
+msgid "products/priceSectionName"
+msgstr "FİYAT"
+
+msgid "products/productAccess"
+msgstr "Erişim\nKademesi"
+
+msgid "products/purchased"
+msgstr "Satın alındı"
+
+msgid "products/rankAccess"
+msgstr "Erişim Kademesi: %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Kurtarma yapılabilir"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Depoda kurtarılmaya hazır"
+
+msgid "products/style3d"
+msgstr "%(name)s 3B Stili"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "SEZON İSTATİSTİKLERİ"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "SEZON İSTATİSTİKLERİ"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "%(day)s. GÜN İSTATİSTİKLERİ"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "BUGÜNÜN İSTATİSTİKLERİ"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Her sütun seçili günün Altın Saatleri ile ertesi günün Altın Saatleri arasındaki dönemin verilerini gösterir. Bazı durumlarda iki takvim gününden savaşları içerebilir."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Her sütun seçili günün Altın Saatleri ile ertesi günün Altın Saatleri arasındaki dönemin verilerini gösterir. Bazı durumlarda iki takvim gününden savaşları içerebilir."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Bu bölüm sadece yeni veri olduğunda güncellenir. Tazele tuşuna basarak güncelleme talep edebilirsiniz."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Güncelleme: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Tebrikler!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Tüm 2B stil görevlerini tamamladınız."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Mevcut sezonun kademeli 2B stili için yeni ögeler açmanızı sağlayan görev serisi."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "2B STİL GÖREVİ: %(taskNumber)s"
+msgstr[1] "2B STİL GÖREVLERİ: %(taskNumber)s"
+msgstr[2] "2B STİL GÖREVLERİ: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2B STİL GÖREVLERİ"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Stile Git"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Tüm stiller halihazırda bulunmayan araçlara uygulanıyor"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Stilin uygulanabileceği araç yok"
+
+msgid "progressionPage/error/refresh"
+msgstr "Yenile"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Yenileniyor..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Ortalama hasar"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Ortalama Prestij"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Reyting değişikliği %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Rekor %(seasonRecordDescriptionDay)s gerçekleşti"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "%(day)s. gün"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Tüm İstatistikler"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "İçindekiler:\n • Tespitiniz sayesinde hasar (yetenekler yardımıyla verilen hasar dâhil)\n • Palet kırmanız veya düşman aracını hareketsiz bırakmanız sayesinde verilen hasar (yetenekler yardımıyla verilen hasar dâhil)\n • Yeteneklerinizin yardımıyla müttefikler tarafından verilen hasar\n • Şoka sokulmuş bir düşmana müttefikler tarafından verilen hasar (yeteneklerinizin yardımıyla gelen şoklar dâhil)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Yapılan toplam savaş sayısı"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Verilen toplam hasarın savaş sayısına oranı"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Yok edilen düşman aracı sayısının oyuncunun aracının yok edilme sayısına oranı"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "'Verilen hasarın' 'Alınan hasara' oranı"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Kazanılan toplam Prestij Puanının yapılan savaş sayısına oranı"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "En fazla savaş yapılan araçlar"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Zaferlerin toplam oranı"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Yardımınız sayesinde verilen ortalama hasar"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Savaşlar"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Verilen ortalama hasar"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Yok etme oranı"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Hasar oranı"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Savaş başına ortalama Prestij Puanı miktarı"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Araç ismi"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Zaferler"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "ARAÇ İSTATİSTİKLERİ"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Reyting düşüşüne kalan gün sayısı: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Hücum kipinde savaşmamak size {eeede9e6_Open}%(count)s{eeede9e6_Close} Reyting Puanı kaybettirecek."
+msgstr[1] "Hücum kipinde savaşmamak size {eeede9e6_Open}%(count)s{eeede9e6_Close} Reyting Puanı kaybettirecek."
+msgstr[2] "Hücum kipinde savaşmamak size {eeede9e6_Open}%(count)s{eeede9e6_Close} Reyting Puanı kaybettirecek."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;savaş&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivite puanı)"
+msgstr[1] "(1&nbsp;savaş&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivite puanı)"
+msgstr[2] "(1&nbsp;savaş&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivite puanı)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Mevcut kademenizde kipte oynamama karşılığında Reyting Puanı kaybetmeyeceksiniz ancak şu kademelere ulaşırsanız kaybedebilirsiniz: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Kademeniz faaliyetsizlikten etkilenir"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Kademeniz faaliyetsizlikten etkilenmez"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Kademe"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Skor Tahtasındaki oyuncuların ilk %%(topPercentage)s kısmı"
+
+msgid "progressionTooltip/division"
+msgstr "Klasman %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Bu Klasman {eeede9e6_Open}%(fromScore) ila %(toScore){eeede9e6_Close} Reyting Puanına sahip oyuncular içindir."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Şampiyon kademesi en az {eeede9e6_Open}%(fromScore){eeede9e6_Close} Reyting Puanı kazanmış oyunculara verilir."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Efsane kademesi, Skor Tahtasındaki {eeede9e6_Open}ilk %(topPercentage)%{eeede9e6_Close} oyuncuya verilir."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Beceri seviyenizi ve kademenizi belirlemek için kipte %(maxBattlesCount)s savaş yapın."
+msgstr[1] "Beceri seviyenizi ve kademenizi belirlemek için kipte %(maxBattlesCount)s savaş yapın."
+msgstr[2] "Beceri seviyenizi ve kademenizi belirlemek için kipte %(maxBattlesCount)s savaş yapın."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Elemeler"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Reyting düşüşüne kalan gün sayısı: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Hücum kipinde savaşmamak size {eeede9e6_Open}%(count)s{eeede9e6_Close} Reyting Puanı kaybettirecek."
+msgstr[1] "Hücum kipinde savaşmamak size {eeede9e6_Open}%(count)s{eeede9e6_Close} Reyting Puanı kaybettirecek."
+msgstr[2] "Hücum kipinde savaşmamak size {eeede9e6_Open}%(count)s{eeede9e6_Close} Reyting Puanı kaybettirecek."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Kademeniz faaliyetsizlikten etkilenir."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Kademenizi korumak için gün sonuna kadar oynayın."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Reyting Puanı"
+
+msgid "purchase/affirmative"
+msgstr "Olumlu!"
+
+msgid "purchase/cancelButton"
+msgstr "Geri"
+
+msgid "purchase/confirmButton"
+msgstr "Satın Al"
+
+msgid "purchase/error/description"
+msgstr "Alışveriş tamamlanamıyor. Lütfen daha sonra tekrar deneyin."
+
+msgid "purchase/error/title"
+msgstr "Hata"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sGarajda bu stile uygun bir aracınız yok"
+
+msgid "purchase/price"
+msgstr "Satın alma fiyatı:"
+
+msgid "purchase/success/heading"
+msgstr "Alışverişiniz için teşekkür ederiz!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sAlışverişiniz oyun hesabınıza yakın bir gelecekte kaydedilecek"
+
+msgid "purchase/success/style3d"
+msgstr "%(vehicleName)s için %(name)s 3B stili"
+
+msgid "purchase/title/style3d"
+msgstr "%(name)s 3B stili satın alınsın mı?"
+
+msgid "purchase/title/vehicle"
+msgstr "%(name)s satın alınsın mı?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Beceri seviyenizi ve kademenizi belirlemek için kipte {eeede9_Open}%(maxBattlesCount)s savaş{eeede9_Close} yapın."
+msgstr[1] "Beceri seviyenizi ve kademenizi belirlemek için kipte {eeede9_Open}%(maxBattlesCount)s savaş{eeede9_Close} yapın."
+msgstr[2] "Beceri seviyenizi ve kademenizi belirlemek için kipte {eeede9_Open}%(maxBattlesCount)s savaş{eeede9_Close} yapın."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "Elemeleri geçmek için %(maxBattlesCount)s savaş yapın ve reytingin hesaplanmasını bekleyin. Elemeler sırasındaki savaş performansınız alacağınız nihai kademeyi etkiler.\nElemelerden firar etmek en ağır yenilgiden daha kötü bir sonuç doğurur."
+msgstr[1] "Elemeleri geçmek için %(maxBattlesCount)s savaş yapın ve reytingin hesaplanmasını bekleyin. Elemeler sırasındaki savaş performansınız alacağınız nihai kademeyi etkiler.\nElemelerden firar etmek en ağır yenilgiden daha kötü bir sonuç doğurur."
+msgstr[2] "Elemeleri geçmek için %(maxBattlesCount)s savaş yapın ve reytingin hesaplanmasını bekleyin. Elemeler sırasındaki savaş performansınız alacağınız nihai kademeyi etkiler.\nElemelerden firar etmek en ağır yenilgiden daha kötü bir sonuç doğurur."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Eleme Kuralları"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Yapılan savaşlar"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Kademenizin belirlenmesi için Eleme sonuçları bekleniyor"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Elemelerin sonuçlarına dayanarak reytinginizin hesaplanması beş dakikaya kadar sürebilir. Ardından kademenizi alacaksınız ve Hücum'da oynamaya devam edebileceksiniz."
+
+msgid "qualification/rewardsButton"
+msgstr "Ödüllere Git"
+
+msgid "qualification/rewardsDescription"
+msgstr "Elemeleri tamamladığınızda eriştiğiniz kademenin ve önceki tüm kademelerin ödüllerini alacaksınız."
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "Erişilen"
+
+msgid "rank/current"
+msgstr "Güncel"
+
+msgid "rank/fifth"
+msgstr "Şampiyon"
+
+msgid "rank/first"
+msgstr "Demir"
+
+msgid "rank/fourth"
+msgstr "Altın"
+
+msgid "rank/qualification"
+msgstr "Elemeler"
+
+msgid "rank/second"
+msgstr "Bronz"
+
+msgid "rank/sixth"
+msgstr "Efsane"
+
+msgid "rank/text"
+msgstr "%(rank)s Kademesi"
+
+msgid "rank/third"
+msgstr "Gümüş"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Oyuncu kademesi"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Takım arkadaş(lar)ı kademesi"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Takımlar ancak benzer kademelerdeki oyunculardan oluşabilir."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "%(count)s oyunculu Takımlar için kademe sınırlamaları"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Kipte oynamazsanız Reyting Puanı kaybedersiniz."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Kademe Faaliyetsizliği"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Reyting düşüşü yaşamanıza kalan gün: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Günlük reyting"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Reyting Puanı değişikliği: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Seçili gün ve bir önceki gün arasındaki Reyting Puanı farkı."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Günlük reyting rekoru: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Seçili günde maksimum reytinge ulaşıldı."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "%(day)s. gün"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Sezonluk reyting rekoru %(dayOfRecord)s. gün kırıldı"
+
+msgid "rankInfo/current/fifth"
+msgstr "Şampiyon kademesi en az {eeede9e6_Open}%(fromScore){eeede9e6_Close} Reyting Puanı kazanmış oyunculara verilir."
+
+msgid "rankInfo/current/sixth"
+msgstr "Efsane kademesi, Skor Tahtasındaki {eeede9e6_Open}ilk %(topPercentage)%{eeede9e6_Close} oyuncuya verilir."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "Efsane kademesine erişmek için Reyting Puanı açısından Skor Tahtasındaki oyuncularda {eeede9e6_Open}ilk %(topPercentage)%{eeede9e6_Close} arasına girin."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "Efsane kademenizi korumak için Reyting Puanı açısından Skor Tahtasındaki oyuncularda {eeede9e6_Open}ilk %(topPercentage)%{eeede9e6_Close} içinde kalın."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "Efsane kademesine erişmek için Reyting Puanı açısından Skor Tahtasındaki oyuncularda {eeede9e6_Open}ilk %(topPercentage)%{eeede9e6_Close} arasına girin.&nbsp;Efsane&nbsp;kademesinde yer alan en alt sıradaki oyuncunun kazandığı Reyting Puanı: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "Efsane kademenizi savunmak için Reyting Puanı açısından Skor Tahtasındaki oyuncularda {eeede9e6_Open}ilk %(topPercentage)%{eeede9e6_Close} arasında kalın.&nbsp;Efsane&nbsp;kademesinde yer alan en alt sıradaki oyuncunun kazandığı Reyting Puanı: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "ŞAMPİYON"
+
+msgid "rankUpper/first"
+msgstr "DEMİR"
+
+msgid "rankUpper/fourth"
+msgstr "ALTIN"
+
+msgid "rankUpper/second"
+msgstr "BRONZ"
+
+msgid "rankUpper/sixth"
+msgstr "EFSANE"
+
+msgid "rankUpper/text"
+msgstr "%(rank)s KADEMESİ"
+
+msgid "rankUpper/third"
+msgstr "GÜMÜŞ"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Aşağıdaki listeden bir parça İyileştirilmiş Donanım seçebilirsiniz:\n\n• Gizli Egzoz Birimi\n• Yenilikçi Nişan Alma\n• İyileştirilmiş Son Dişli\n• İyileştirilmiş Kompresör\n• Artırılmış Mermi Mukavemeti\n• İyileştirilmiş Yapılandırma\n• Deneysel Optikler\n• Yenilikçi Yükleme Sistemi\n• Hava Tahliye Sistemi\n• Aşınmaya Dayanıklı Top Yöneltme Sistemi\n• Stabilizasyon Donanım Sistemi\n• Teleskopik Gözetleme Sistemi\n• Taktik Gizlenme Ağı"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Aşağıdaki listeden bir parça Deneysel Donanım seçebilirsiniz:\n\n• Atış Kontrol Sistemi T3\n• Dayanıklılık Artırma Seti T3\n• Hareket Kabiliyeti İyileştirme Sistemi T3\n• İsabetlilik İyileştirme Sistemi T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "%(name)s kamuflajı"
+
+msgid "rewards/preview"
+msgstr "Ön izleme"
+
+msgid "rewards/status/achieved"
+msgstr "Ödül alındı"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}Seviye %(vehicleLevel)s araçlar için{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}%(progressionStyleName)s stili için {b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "Seviye %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Ayrıca şunları aldınız:"
+
+msgid "rewardsScreen/button"
+msgstr "Olumlu!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Ödüllere Git"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Ödül Seçin"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Satın Almaya Git"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "HÜCUM. ELEME TAMAMLANDI"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "HÜCUM. AZUR EJDERHA SEZONU"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "HÜCUM. KIZIL EJDERHA SEZONU"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "HÜCUM. YEŞİM EJDERHA SEZONU"
+
+msgid "rewardsScreen/description/year"
+msgstr "HÜCUM. EJDERHA YILI"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Ashbringer'ım Nerede?"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Kademe yok"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Bu kademeye ulaştıktan sonra Hücum kipinde oynamayı keserseniz Reyting Puanı kaybedebilirsiniz."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Kademe Faaliyetsizliği"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Toplam Hücum\nRengi"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Donanım Seçin"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Ödülleri seçin"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Hücum Mağazasında yeni indirimler var!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Hücum Mağazasında yeni ürünler var!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Bir sonraki Sezonun başlangıcına kadar ulaştığınız en yüksek kademeye göre ürünlere ve indirime erişim hakkınız olacak."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Bir sonraki Sezonun başlangıcına kadar ulaştığınız en yüksek kademeye göre ürünlere ve indirime erişim hakkınız olacak."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}%(rank)s Kademe{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Elemelerin sonuçlarına göre şu kademelerin ödüllerini aldınız: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "{ffe4c0_Open}%(rank)s{ffe4c0_Close} kademesine yükselmenin ödüllerini aldınız"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "{ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} haftalık görev tamamlama ödülü"
+msgstr[1] "{ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} haftalık görev tamamlama ödülü"
+msgstr[2] "{ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} haftalık görev tamamlama ödülü"
+
+msgid "rewardsScreen/title/division"
+msgstr "%(division)s KLASMANINA ERİŞİLDİ"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} KADEMESİNE ULAŞILDI"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "ERİŞİLEN KADEMELERİN ÖDÜLÜ"
+
+msgid "rewardsScreen/title/rank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} KADEMESİNE ULAŞILDI"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "YENİ KADEMENİZİN ÖDÜLÜ"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "ALINAN ÖDÜL"
+msgstr[1] "ALINAN ÖDÜLLER"
+msgstr[2] "ALINAN ÖDÜLLER"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "HAFTALIK GÖREV ÖDÜLLERİ"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "YILLIK ÖDÜLLER"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Şunlarla geliyor:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "HÜCUM"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "ÖDÜLÜ SEÇİN"
+msgstr[1] "ÖDÜLLERİ SEÇİN"
+msgstr[2] "ÖDÜLLERİ SEÇİN"
+
+msgid "scoreTooltip/body"
+msgstr "Kazandığınız Reyting Puanları, Hücum kipindeki kademenizi ve Klasmanınızı belirler. En iyi olmak için savaşları kazanın!"
+
+msgid "scoreTooltip/header"
+msgstr "Reyting Puanı"
+
+msgid "season/daysLeft"
+msgstr "%(totalDays)s g. içinde sona erer"
+
+msgid "season/hoursLeft"
+msgstr "%(hours)s sa. içinde sona erer"
+
+msgid "season/minutesLeft"
+msgstr "%(minutes)s dk. içinde sona erer"
+
+msgid "season/over"
+msgstr "%(seasonName)s sona erdi"
+
+msgid "season/range"
+msgstr "%(startDate)s-%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "%(seconds)s sn. içinde sona erer"
+
+msgid "seasonName/first"
+msgstr "Azur Ejderha Sezonu"
+
+msgid "seasonName/second"
+msgstr "Kızıl Ejderha Sezonu"
+
+msgid "seasonName/third"
+msgstr "Yeşim Ejderha Sezonu"
+
+msgid "seasonPointTooltip/header"
+msgstr "Hücum Renkleri"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Alındı"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Alınmadı"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Hücum Renkleri alma yarışındasınız"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Kullanılmamış Hücum Renkleri şu orandan tahvile dönüştürülür: {bond_Open}1 Hücum Rengi{bond_Close} : {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Her Sezonun sonunda, ulaştığınız kademenize uygun olarak Hücum Renkleri alacaksınız."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Her 3 Hücum Rengi, yılın sonunda alacağınız ödülün kalitesini iyileştirir."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Kupam Nerede?"
+
+msgid "seasonStatistics/button/first"
+msgstr "Sorun Yok"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Kıymetlim!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Olumlu!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Efsanevi!"
+
+msgid "seasonStatistics/button/third"
+msgstr "Geri Döneceğim"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Final sezon reytingi"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Skor Tahtasındaki konum: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "HÜCUM: %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "%(points)s Hücum Rengi Alındı"
+msgstr[1] "%(points)s Hücum Rengi Alındı"
+msgstr[2] "%(points)s Hücum Rengi Alındı"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "SEZON I. AZUR EJDERHA"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "SEZON II. KIZIL EJDERHA"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "SEZON III. YEŞİM EJDERHA"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Zaferler: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Yapılan\nsavaşlar"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Ortalama: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Hasar\nrekoru"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "İmha Oranı: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Bir savaşta yok edilen\nen çok araç"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Ortalama: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Prestij Puanı\nrekoru"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "SEZON İSTATİSTİKLERİ"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "Süper Takımda: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Galibiyet serisi\n(yalnız/Takım)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Savaşlar"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Araç Yok"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "BAŞ TERCİH ARAÇLAR"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Zaferler"
+
+msgid "seasonStatistics/title"
+msgstr "%(name)s SEZONU İSTATİSTİKLERİ"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Sezonun bitişi:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "-"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s-%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Maç Programı"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Bugün"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Yarın"
+
+msgid "selectorTooltip/desc"
+msgstr "Rekabetçi kip. 7'ye 7 | Seviye X"
+
+msgid "selectorTooltip/title"
+msgstr "Hücum"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Oyun portalındaki son haberleri takip ederek yeni Sezonun başlangıcı hakkında en güncel bilgilere sahip olun."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Bu kip teknik sorunlar sebebiyle geçici olarak devre dışıdır."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Bu kip %(time)s tarihinde açılacaktır"
+
+msgid "shortSeasonName/first"
+msgstr "Azur Ejderha"
+
+msgid "shortSeasonName/second"
+msgstr "Kızıl Ejderha"
+
+msgid "shortSeasonName/third"
+msgstr "Yeşim Ejderha"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Bu bölüm, Hücum kipinin mevcut Sezonundaki en iyi oyuncularla ilgili bilgileri içerir."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Bu bölüm Elemelerin yanı sıra tamamladıktan sonra kademeniz, Klasmanınız ve Reyting Puanınız hakkında bilgi içerir."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Bu bölüm, Hücum kipinde daha yüksek kademelere ulaşmanın mevcut ödülleriyle ilgili bilgileri içerir."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Bu bölüm, Hücum Mağazasında sunulan ürünler hakkında bilgi içerir."
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Bu bölüm, Hücum kipindeki haftalık görevler hakkında bilgi içerir."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Bu bölümde Hücum Renkleri kazanarak alabileceğiniz Yıllık Ödüller hakkında detaylar bulunuyor."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Bu bölüm mevcut Hücum yılının her Sezonundaki başarılarınız hakkında bilgi içerir."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Skor Tahtası"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Kademeli Sistem"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Kademe Ödülleri"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Hücum Mağazasi"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Haftalık Görevler"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Yıllık Ödüller"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Yıllık İstatistikler"
+
+msgid "sixthRankTooltip/description"
+msgstr "{eeede9e6_Open}Efsane{eeede9e6_Close} kademesi, Skor Tahtasında Reyting Puanı açısından {eeede9e6_Open}ilk %(topPercentage)%{eeede9e6_Close} oyuncuya verilir."
+
+msgid "style3dTooltip/954"
+msgstr "Gümüş Dikenler"
+
+msgid "style3dTooltip/955"
+msgstr "Altın Pençeler"
+
+msgid "style3dTooltip/956"
+msgstr "Şampiyonun Kanatları"
+
+msgid "style3dTooltip/957"
+msgstr "Efsanevi Yaratık"
+
+msgid "style3dTooltip/description"
+msgstr "Aslan kadar güçlü, ejderha kadar ateşli ve akrep kadar öldürücü olan bu canavar, kadim zamanlardan beri korkulan bir yaratığın metale bürünmüş hâlidir."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Nasıl Alınır"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Hücum kipinde Mantikor Yılında en az 9 Hücum Rengi toplama karşılığında verilir."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Hücum kipinde Mantikor Yılında en az 12 Hücum Rengi toplama karşılığında verilir. Önceki stilin yerine geçer."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Hücum kipinde Mantikor Yılında en az 15 Hücum Rengi toplama karşılığında verilir. Önceki stilin yerine geçer."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Hücum kipinde Mantikor Yılında en az 18 Hücum Rengi toplama karşılığında verilir. Önceki stilin yerine geçer."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Uygun Araçlar"
+
+msgid "system_messages/periodicReward/body"
+msgstr "%(rank)s kademenizi korumanın günlük ödülünü aldınız.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Günlük Ödül"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Ateşkes var. Hücum savaşları geçici olarak devre dışı."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Ateşkes"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Ateşkes kalktı. Hücum savaşları yeniden açık."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Ateşkes"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Tebrikler! %(maxRank)s kademesine eriştiniz.\nŞu kademeler için ödüller aldınız: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Elemeler Tamamlandı"
+
+msgid "system_messages/regularReward/body"
+msgstr "Tarih: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Makbuz"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Dükkâna Git"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Hücum Mağazasında yeni indirimler var!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "İndirimler arttı"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Hücum Mağazasında şimdi yeni ürünler var!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Yeni ürünler var"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Ödeme hatası. Lütfen daha sonra tekrar deneyin."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Tarih: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Haftalık görevleri tamamlama ödülleri"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Tarih: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Haftalık Görev Ödülü"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Hücum Hakkında"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Sezon Güncellemeleri"
+
+msgid "tournament/LBFinals"
+msgstr "ALT GRUP FİNALLERİ"
+
+msgid "tournament/LBRound1"
+msgstr "ALT GRUP 1. TUR"
+
+msgid "tournament/LBRound2"
+msgstr "ALT GRUP 2. TUR"
+
+msgid "tournament/LBSemifinals"
+msgstr "ALT GRUP YARI FİNALLERİ"
+
+msgid "tournament/UBFinals"
+msgstr "ÜST GRUP FİNALLERİ"
+
+msgid "tournament/UBSemifinals"
+msgstr "ÜST GRUP YARI FİNALLERİ"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "Bir Turnuvada Reyting Puanı kazanılamaz veya kaybedilemez."
+
+msgid "tournament/bestOf"
+msgstr "%(number)s SAVAŞIN EN İYİSİ"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "¥%(amount)s"
+
+msgid "tournament/comeBack"
+msgstr "Lütfen daha sonra tekrar deneyin"
+
+msgid "tournament/comingSoon"
+msgstr "ÇOK YAKINDA %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "ZAMANLAR MAÇ SÜRESİNE BAĞLI DEĞİŞİR."
+
+msgid "tournament/completed"
+msgstr "TAMAMLANDI"
+
+msgid "tournament/douyin"
+msgstr "Douyin'de İzleyin"
+
+msgid "tournament/drops/huya"
+msgstr "Huya'da izleyin ve seçkin\nHuya Ganimetleri kazanın!"
+
+msgid "tournament/drops/twitch"
+msgstr "Twitch'te izleyin ve seçkin\nTwitch Ganimetleri kazanın!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "Seçkin Huya Ganimetleri kazanın!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "Seçkin Twitch Ganimetleri kazanın!"
+
+msgid "tournament/error"
+msgstr "VERİLER YÜKLENİRKEN HATA"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "KAZANAN"
+
+msgid "tournament/fundDistribution"
+msgstr "ÖDÜL HAVUZU DAĞILIMI"
+
+msgid "tournament/grandFinals"
+msgstr "BÜYÜK FİNAL"
+
+msgid "tournament/huya"
+msgstr "Huya'da İzleyin"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Ödül havuzu, oyuncuların paket alışverişlerinden oluşur. Son güncelleme: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "PROGRAMDA BAŞKA MAÇ YOK"
+
+msgid "tournament/ols/roundRobin"
+msgstr "%(phase)s. EVRE %(round)s. TUR"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "ÖDÜL HAVUZU %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "VE SONSUZ ŞAN KAZANMA ŞANSI"
+
+msgid "tournament/refresh"
+msgstr "Yenile"
+
+msgid "tournament/refreshing"
+msgstr "Yenileniyor..."
+
+msgid "tournament/roundOf"
+msgstr "%(number)sLİ SIRA"
+
+msgid "tournament/separator"
+msgstr "YA DA"
+
+msgid "tournament/tab/overview"
+msgstr "GENEL BAKIŞ"
+
+msgid "tournament/tab/schedule"
+msgstr "PROGRAM"
+
+msgid "tournament/teamPlaceholder"
+msgstr "SONRA AÇIKLANACAK"
+
+msgid "tournament/toShop"
+msgstr "Dükkâna Gidin"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Takas"
+
+msgid "tournament/tokenStore/ols"
+msgstr "HES JETONLARI"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Açılış:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "Turnuva hakkında"
+
+msgid "tournament/twitch"
+msgstr "Twitch'te İzleyin"
+
+msgid "tournament/viewFull"
+msgstr "Tümüne Bakın"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Turnuva paketleriyle ödül havuzunu büyüterek Hücum Efsaneleri Serisini destekleyin!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Seçkin temalı özelleştirme ögeleri ve özgün tanklarla e-spor ruhunuzu gösterin!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "ÖDÜL HAVUZUNU COŞTURUN"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI PAKETLERİ"
+
+msgid "tournament/vsBestOf"
+msgstr "X\n%(number)s MAÇIN EN İYİSİ"
+
+msgid "tournament/wci/roundRobin"
+msgstr "SIRALI KARŞILAŞMA"
+
+msgid "tournament/winner"
+msgstr "Kazanan"
+
+msgid "tournament/youtube"
+msgstr "Youtube'da İzleyin"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "En iyi Avrupalı ekipler Hücum Efsaneleri Serisi şampiyonluğu için kapışıyor! Heyecanlı 7v7 Hücum maçlarını izleyin, Twitch Ganimetleri kazanın, seçkin özelleştirme paketleri yoluyla ödül havuzunu takviye ederek favori ekiplerinizi destekleyin."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Çin'in Suzhou kentinde düzenlenecek olan World of Tanks Dünya Şampiyonası'nda destansı bir çatışma olacak. Dünyanın dört bir yanından en çetin ekipler Hücum kipi kurallarına göre karşı karşıya gelecek ve hepsi de prestijli dünya şampiyonu unvanı için yarışacak. Savaş alanında efsanelerin doğuşunun heyecanını yaşayın!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "HES 6. Sezon"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Canlı yayınlar %(timer)s boyunca olacak"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "%(timer)s içinde başka maçlar olacak"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Hücum Eğitiminde Reyting Puanı kazanamazsınız."
+
+msgid "unit/message/modeOffline"
+msgstr "Savaşa girilemiyor: Veri tabanı hatası."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Kademe farkı sınırlamaları aşıldı"
+
+msgid "voiceChat/active"
+msgstr "Sesli sohbetten çık"
+
+msgid "voiceChat/inactive"
+msgstr "Sesi sohbete katıl"
+
+msgid "waitingSpinner/message"
+msgstr "İçerik yükleniyor..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Hücum Görevleri tamamlandı"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Çok iyi! Tüm haftalık görevleri tamamladınız. Ödülünüzü almayı unutmayın. Bir sonraki sezonda görüşmek üzere!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "{eeede9e5_Open}%(questsList)s{eeede9e5_Close} ve {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} görevlerini tamamlama karşılığında ek ödüller alacaksınız."
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Hücum Haftalık Görevi"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Tamamlanan: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s yeni göreve:"
+msgstr[1] "%(value)s yeni göreve:"
+msgstr[2] "%(value)s yeni göreve:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Ödül:"
+msgstr[1] "Ödüller:"
+msgstr[2] "Ödüller:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s YENİ GÖREV %(countdown)s İÇİNDE"
+msgstr[1] "%(value)s YENİ GÖREV %(countdown)s İÇİNDE"
+msgstr[2] "%(value)s YENİ GÖREV %(countdown)s İÇİNDE"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "GELECEK SEZONDA YENİ GÖREVLER!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Tamamlanan görevler: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Her hafta %(value)s yeni görev alacaksınız. Tamamlanan her görev ödülünüze sayılır!"
+msgstr[1] "Her hafta %(value)s yeni görev alacaksınız. Tamamlanan her görev ödülünüze sayılır!"
+msgstr[2] "Her hafta %(value)s yeni görev alacaksınız. Tamamlanan her görev ödülünüze sayılır!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Devam Ediyor"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Tamamlandı"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Geçersiz"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Tamamlanamaz: Kip aktif değil."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Açmak için bir Seviye X aracı araştırın ve satın alın."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Bu görevi açmak için önceki görevi tamamlayın."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Görev Geçersiz"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Ödülünüzü alın!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Tamamlanan: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Görev %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s yeni göreve:"
+msgstr[1] "%(value)s yeni göreve:"
+msgstr[2] "%(value)s yeni göreve:"
+
+msgid "whatsNewButtonLabel"
+msgstr "SEZON GÜNCELLEMELERİ"
+
+msgid "whatsNewView/banner/description"
+msgstr "Bu sezon, seçkin Ashbringer Seviye X ağır tankı ve bunun için kazandığınız tüm özgün 3B stiller ve Silah Arkadaşlığı sıfırıncı yeteneği olan korkusuz bir mürettebat artı seçimlik iyileştirilmiş ve Deneysel Donanım, göz alıcı bir 2B stil vb. gibi değerli ödüller almak için son fırsatınız. Kaçırmayın. Zaferiniz savaş alanında sizi bekliyor!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Ejderha Yılının son anlarını yakalayın!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "YEŞİM EJDERHA SEZONU"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "HÜCUM. YENİLİKLER NELER?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Yasak-tastik!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Geliştirilmiş sonrası savaş sonuç ekranı, yeni 2.0 Güncellemesi tasarımı ile artık her savaştan sonra size modla ilgili ek bilgiler verecek."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Ayrıntılı Savaş Sonuçları"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "En sevdiğiniz araç yasaklanırsa endişelenmeyin. Kiralık araçlar artık önceden yapılandırılmış mürettebat, donanım, mermi ve sarf malzemeleriyle geliyor."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Hazır Kiralık Araçlar %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Bu sezon, her ekip bir aracı savaştan tamamen yasaklayabilir. Müttefiklerinizle oylarınızı koordine edin, en çok çekindiğiniz aracı yasaklayın veya düşmanlar için beklenmedik bir kadro hazırlayın."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Araç Yasakları %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Haritalar"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Hücumda Yeni Araçlar Var"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Kiralık Araçlar"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Yeni çıkan Ares 90 Seviye X Amerikan orta tankı, ayarlanmış Rol Becerisi ile artık kipte kullanılabilir."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Rol Becerisi Güncellemesi %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "114 SP2, artık Hücum Mağazasında Gümüş kademesinde satışa sunuluyor."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Mağaza Güncellemeleri %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "HARİÇ"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "GELİŞTİRME AŞAMASINDA"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Dikkat"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Değişenler"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Deneysel"
+
+msgid "whatsNewView/tag/new"
+msgstr "Yeni"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Döndü"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Yenilendi"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Sezon Güncellemesi"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Videoyu İzleyin"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Zafer oranı (gün): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Yenilgiler: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Beraberlikler: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Zafer oranı (sezon): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Toplam zafer sayısının yapılan savaş sayısına oranı.\nSonuçlara göre savaşlar:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Zaferler: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Ödüller üçüncü sezonun sonunda teslim edilir."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Ödüller yakında teslim edilecek. Lütfen bekleyin."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Yıllık Ödül alındı. Gelecek yıl görüşmek üzere!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Seçimlik donanımınız var"
+
+msgid "yearlyRewards/claim"
+msgstr "Alın"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Ödülü Alın"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Sezonun sonunda her kademe için 1%(seasonPointIcon)s aldınız."
+
+msgid "yearlyRewards/description/current"
+msgstr "Sezonun sonunda her kademe için 1%(seasonPointIcon)s alacaksınız."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nÖzgün 3B stillerle birlikte"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "YILLIK ÖDÜLLERE GİT"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "2B stilini inceleyin"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "3B stili inceleyin"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Erişilen kademe: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Mevcut kademe: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Dört Özgün Mürettebat Üyesi"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Ödül alındı"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Ödül garantilendi"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Aşama ödülleri almak için toplam %(count)s Renk kazanın"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Potansiyel ödül"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Yılın sonunda bu ödülü almanız garantilendi."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Yılın sonunda ödülünüzü almak için gereken sayıda Hücum Rengi kazanın."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Mevcut kademenizi koruyabilirseniz veya Sezonun sonundan önce yükseltebilirseniz yılın sonunda bu ödülü alacaksınız."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Aktif aşama"
+
+msgid "yearlyStatistics/battles"
+msgstr "Savaşlar (Tek/Takım)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Sezon istatistikleri hesaplanıyor..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sSezon İstatistiklerine Git"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Kademe yok"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "%(rank)s Kademesi"
+
+msgid "yearlyStatistics/rating"
+msgstr "Reyting Puanı"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Güz 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Kış 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Bahar 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "Sezon I. Azur Ejderha"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "Sezon II. Kızıl Ejderha"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "Sezon III. Yeşim Ejderha"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Güncel"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Bitti"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Savaşlar (Süper Takım)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Zafer Oranı"

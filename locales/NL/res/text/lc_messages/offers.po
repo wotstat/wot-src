@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Selecteer beloningen"
+
+msgid "banner/giftsAvailable"
+msgstr "Spullen afgeleverd!"
+
+msgid "banner/giftsForOffer"
+msgstr "Beloningen voor deelname aan \"%(name)s\"."
+
+msgid "banner/selectNowOrLater"
+msgstr "Kies je beloningen nu of later in het depot."
+
+msgid "banner/title"
+msgstr "Thuisfrontspullen"
+
+msgid "description/rentValue/battles"
+msgstr "%(value)s gevechten"
+
+msgid "description/rentValue/days"
+msgstr "%(value)s dagen"
+
+msgid "description/rentValue/wins"
+msgstr "%(value)s overwinningen"
+
+msgid "giftDescription/tank/base"
+msgstr "Naast het geselecteerde voertuig ontvang je gratis een %(items)s."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}bemanning{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}bemanning{neutralClose} en {neutralOpen}garageplek{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}Garageplek{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Annuleren"
+
+msgid "giftDialog/description/newRent"
+msgstr "De %(tankName)s zal voor %(rentValue)s worden gehuurd"
+
+msgid "giftDialog/description/noRent"
+msgstr "De %(tankName)s zal naar de garage worden gestuurd"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "De %(tankName)s-huur zal met %(rentValue)s worden verlengd"
+
+msgid "giftDialog/submit"
+msgstr "Bevestigen"
+
+msgid "giftDialog/title/common"
+msgstr "Ontvangstbevestiging van\n\"%(name)s\""
+
+msgid "giftDialog/title/tank"
+msgstr "Voertuigontvangst"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Voertuighuur"
+
+msgid "giftsWindow/availableCount"
+msgstr "Beschikbaar: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Beschikbaar tot: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Beschikbare beloningen: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "In de garage"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Beschikbaar voor"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Voorvertoning"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) gevechten"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) d"
+
+msgid "giftsWindow/rent/title"
+msgstr "Huur voor: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) overwinningen"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Claimen"
+
+msgid "giftsWindow/tokens"
+msgstr "Beschikbaar: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Beschikbare tokens: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Onbeschikbaar"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Begrepen!"
+
+msgid "rewardWindow/title"
+msgstr "Beloning ontvangen"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Claim!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Verleng de huur!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Gratis %(tankName)s-huur voor %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s met bemanning"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s met bemanning en garageplek"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s met garageplek"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Verleng de %(tankName)s-huur met %(rentValue)s"

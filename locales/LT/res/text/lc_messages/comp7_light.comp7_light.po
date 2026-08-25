@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Serverio keitimas"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaliau"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Šis režimas jūsų serveryje nepasiekiamas %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Režimas nepasiekiamas visuose serveriuose"
+
+msgid "alertMessage/modeOffline"
+msgstr "Duomenų bazės klaida. Režimas nepasiekiamas."
+
+msgid "alertMessage/noVehicles"
+msgstr "Garaže nėra tinkamų mašinų %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Tikrai taip!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "PRASIVERŽIMO ŠVIESA"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ĮVYKDYTAS FINALINIS ETAPAS!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "%(level)s ETAPAS UŽBAIGTAS!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Visos misijos įvykdytos!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Įvykdyta"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Pradingsta po %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Prasiveržimo šviesos misija"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nauja Prasiveržimo šviesos misija po: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Apdovanojimas:"
+msgstr[1] "Apdovanojimai:"
+msgstr[2] "Apdovanojimai:"
+
+msgid "battleResult/header/deserter"
+msgstr "Jūs gavote nuobaudą"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "PRASIVERŽIMO ŠVIESOS SEKA"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Prasiveržimo šviesa vyks dar %(days)d dieną"
+msgstr[1] "Prasiveržimo šviesa vyks dar %(days)d dienas"
+msgstr[2] "Prasiveržimo šviesa vyks dar %(days)d dienų"
+
+msgid "calendarDay/title"
+msgstr "Tvarkaraštis"
+
+msgid "closeButtonLabel"
+msgstr "UŽDARYTI"
+
+msgid "countDown/text"
+msgstr "Iki renginio pradžios liko:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Didelės įtampos 7 prieš 7 žaidimo režimas su %(levels)s lygio mašinomis. Mėgaukitės originaliu Prasiveržimu be kvalifikacijos, rangų ar pasiekimų, tačiau vis tiek uždirbkite apdovanojimų vykdydami kasdienes misijas."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — žaidimo režimas. Paspauskite iš pažinkite"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Prasiveržimo šviesa"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Režimas bus pasiekiamas dar %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Paliaubos%(timer)s"
+
+msgid "featureName"
+msgstr "Prasiveržimo šviesa"
+
+msgid "featureNameCapitalized"
+msgstr "PRASIVERŽIMO ŠVIESA"
+
+msgid "intro/confirmButton"
+msgstr "Tikrai taip!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Mėgaukitės originaliu Prasiveržimu be kvalifikacijos, rangų ar kitų pasiekimų."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Režimas turi modifikatorius, kurie gali pakeisti tam tikrus mašinos parametrus, tokius kaip mašinos patvarumas, ekipuotės atstatymo laikas, laikas, per kurį išliekate matomu, ir daugiau."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Užėmus specialias žemėlapio zonas, galėsite pasinaudoti taktiniais įgūdžiais. Yra dviejų tipų svarbūs taškai: artilerijų štabas leis jums paleisti tiesioginį artilerijos smūgį konkrečioje žemėlapio vietoje, bei komunikacijų centras pastebės visas priešų mašinas. Priklausomai nuo žemėlapio, svarbių taškų buvimas ir jų vieta gali keistis."
+
+msgid "intro/description/roleSkills"
+msgstr "Priklausomai nuo rolės, kiekviena mašina turi specialų įgūdį su trejais užkrovos lygiais. Kuo didesnė užkrova, tuo stipresnis bus įgūdžio efektas. Užkrovos lygis priklausys nuo surinktų prestižo taškų, kuriuos galima gauti už nuostabų pasirodymą, svarbių taškų užėmimą, taktinių įgūdžių naudojimą ir ne tik.\n\nPeržiūrėkite renginio taisykles ir sužinokite daugiau apie įvairius būdus gauti prestižo taškų."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Šiame režime galite naudoti tik %(levels)s mašinas (negalite naudoti savaeigių artilerijų ir kai kurių kitų mašinų). Paruoškite savo mašinas garaže, tada pasirinkite geriausią iš jų patekę į mūšį ir pamatę žemėlapį. Rinkdamiesi mažiną taip pat įvertinkite, kokias mašinas renkasi jūsų komandos nariai."
+
+msgid "intro/title/lightGameplay"
+msgstr "APSIRAMINKITE, VADE"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "PRASIVERŽIMO MODIFIKATORIAI"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "SVARBŪS TAŠKAI"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLĖS ĮGŪDŽIAI"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "PASIRINKITE MAŠINĄ KONKREČIAM ŽEMĖLAPIUI"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Pergalė"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Pralaimėjimas/Lygiosios"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Gerai padirbėjote, vade, taip ir toliau!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Vykdykite misijas ir užimkite geriausias pozicijas Prasiveržimo šviesos mūšiuose ir padidinkite savo lygį sekoje."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Uždirbtų progresijos taškų skaičius priklauso nuo jūsų pozicijos mūšyje pagal prestižo taškus."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Iki režimo pabaigos liko %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Pagrindinė seka įvykdyta"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Prasiveržimo šviesa"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Top 2 pagal prestižo taškus"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Top 5 pagal prestižo taškus"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Top 7 pagal prestižo taškus"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Naudokite WoT Premium paskyrą"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktyvuokite asmeninius rezervus"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Vykdykite misijas"
+
+msgid "noVehicles/howTo/title"
+msgstr "Kaip greičiausiai gauti %(levels)s lygio mašinas?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Prasiveržimo šviesoje dalyvauti galite tik jei turite bent vieną režimui tinkamą %(levels)s lygio mašiną garaže.\nJūs galite nusipirkti %(levels)s lygio Premium mašinų technologijų medyje ar žaidimo parduotuvėje."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Norėdami dalyvauti Prasiveržimo šviesoje turite turėti bent vieną režimui tinkančią %(levels)s lygio mašiną garaže.\nJūs turite, bet nesate sutaisę %(levels)s lygio mašinos."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Norėdami dalyvauti Prasiveržimo šviesoje turite turėti bent vieną režimui tinkančią %(levels)s lygio mašiną garaže."
+
+msgid "noVehicles/title"
+msgstr "Garaže nėra tinkamų mašinų."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Daugiau informacijos rasite skiltyje Apie Prasiveržimo šviesą."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestižo taškai"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Padarytą žalą\nAptikimo žalą\nSugadintus vikšrus\nKritinius pataikymus\nSunaikintas priešų mašinas\nIr daugiau"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Prestižo taškų uždirbsite už veiksmus mūšiuose, pavyzdžiui:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Sezonas baigėsi %(server)s serveryje."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sezonas baigėsi %(server)s serveryje."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Sezonas baigėsi %(server)s serveryje."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Pagrindinė seka įvykdyta!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Etapas %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s arba %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Iki naujų misijų liko:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Renginys baigsis po:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Misijos bus atnaujintos po"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Visos kasdienės misijos įvykdytos."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Seka įvykdyta. Daugiau apdovanojimų gaukite žaisdami Prasiveržimo šviesoje."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Vykdydami misijas užimkite geriausias pozicijas Prasiveržimo\nšviesos mūšiuose ir taip padidinkite savo sekos lygį. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Suteikiami dalyvavus mūšiuose ir įvykdžius specialias Prasiveržimo šviesos misijas. Leidžia progresuoti sekoje."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Prasiveržimo šviesos sekos taškai"
+
+msgid "selectorTooltip/desc"
+msgstr "Nereitinguojamas režimas. 7 prieš 7 | %(tier)s lygis"
+
+msgid "selectorTooltip/title"
+msgstr "Prasiveržimo šviesa"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Sekite naujausias žinias žaidimo portale ir laiku sužinokite visas naujo sezono naujienas."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Režimas laikinai nepasiekiamas dėl techninių problemų."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Režimas bus pasiekiamas %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Gauta sekos taškų"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Prasiveržimo šviesa"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Gauti apdovanojimai:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Jūs įvykdėte %(stage)s sekos etapą režime \"%(progressionName)s\"."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Sveikiname!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Galioja paliaubos. Prasiveržimo šviesos mūšiai laikinai nepasiekiami."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Paliaubos"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Paliaubos baigėsi. Prasiveržimo šviesos mūšiai vėl pasiekiami."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Paliaubos"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Apie Prasiveržimo šviesą"

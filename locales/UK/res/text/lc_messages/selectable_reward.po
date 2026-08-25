@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "error/button"
+msgstr "Так!"
+
+msgid "error/description"
+msgstr "Інформація тимчасово недоступна. Вибачте за незручності, спробуйте повторити пізніше."
+
+msgid "error/title"
+msgstr "Не вдалося відкрити вікно вибору нагороди"
+
+msgid "footer/closeBtn/label"
+msgstr "Вибрати пізніше"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Виберіть нагороду з представлених категорій."
+msgstr[1] "Виберіть нагороди з представлених категорій."
+msgstr[2] "Виберіть нагороди з представлених категорій."
+
+msgid "footer/okBtn/label"
+msgstr "Забрати"
+
+msgid "footer/rewardsSelected"
+msgstr "Вибрано нагород:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Виберіть нагороду з представленої категорії."
+msgstr[1] "Виберіть нагороди з представленої категорії."
+msgstr[2] "Виберіть нагороди з представленої категорії."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Досягнуто максимум"
+
+msgid "reward/state_received"
+msgstr "Уже отримано"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Ліміт вибраних предметів у цій категорії досягнуто. Ви можете скасувати вибір однієї з одиниць, щоб додати іншу."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Досягнуто максимум"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Настанови\nдо обладнання"
+
+msgid "tabs/items/battle_booster"
+msgstr "Настанови до обладнання"
+
+msgid "tabs/items/blueprint"
+msgstr "Фрагменти креслень"
+
+msgid "tabs/items/brochure"
+msgstr "Навчальна брошура"
+
+msgid "tabs/items/crewbook"
+msgstr "Навчальний посібник"
+
+msgid "tabs/items/deluxe"
+msgstr "Удосконалене обладнання"
+
+msgid "tabs/items/expequipments"
+msgstr "Експериментальне\nобладнання"
+
+msgid "tabs/items/guide"
+msgstr "Довідник"
+
+msgid "tabs/items/modernized_device"
+msgstr "Експериментальне обладнання"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Експериментальне обладнання T1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Експериментальне обладнання T2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Експериментальне обладнання T3"
+
+msgid "tabs/items/new_device"
+msgstr "Загальне обладнання"
+
+msgid "tabs/items/trophy"
+msgstr "Трофейне обладнання"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Натисніть «Забрати», щоб отримати вибрані нагороди."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Вибрано нагород: %(white_open)s%(count)s%(white_close)s"

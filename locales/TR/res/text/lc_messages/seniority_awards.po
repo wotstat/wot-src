@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "notifications/count"
+msgstr "×{count}"
+
+msgid "notifications/manualClaim/button"
+msgstr "Ödülleri Alın"
+
+msgid "notifications/manualClaim/title"
+msgstr "Hizmet Yıllarınızın Karşılığı Ödüller Sizi Bekliyor!"
+
+msgid "notifications/selectVehicles/button"
+msgstr "Seç"
+
+msgid "notifications/selectVehicles/title"
+msgstr "Hizmet Yılları Karşılığı\nAraç Hazır"
+
+msgid "notifications/tokens/button"
+msgstr "Dükkâna Git"
+
+msgid "notifications/tokens/title"
+msgstr "Hizmet Karşılığı Jetonlarınızı Ödüllerle Takas Edin!"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "İstediğiniz aracı seçin!"
+
+msgid "rewardsView/applyBtn"
+msgstr "Anlaşıldı!"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "Jetonlarınızı Dükkânda ödüllerle takas edin."
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "Garajda Bak"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "Dükkâna Git"
+
+msgid "rewardsView/info"
+msgstr "Kademeler hakkında bilgi"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "Daha Çok Ödül!"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "Daha Çok Ödül! ({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "Hizmet yılları karşılığında {{count}} araç var"
+
+msgid "rewardsView/selection/received"
+msgstr "ÖDÜL ALINDI"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "Ayrıca şunları aldınız:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "ÜYE ALIMI"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "SAVAŞÇI"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "KOMUTAN"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "SUBAY"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "KIDEMLİ"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "EFSANE"
+
+msgid "rewardsView/subTitle/text"
+msgstr "{rank} KADEMESİNE ULAŞILDI"
+
+msgid "rewardsView/textButton/select"
+msgstr "Seç"
+
+msgid "rewardsView/title"
+msgstr "TEBRİKLER!"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "×%(count)s"
+
+msgid "specialItem/body"
+msgstr "Savaş liyakati için verilir. Etkinlik bittiğinde kalan tüm Jetonlar kaldırılacak."
+
+msgid "specialItem/header"
+msgstr "Hizmet Yılları Karşılığı Jeton: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "Acemi kademesine ulaşmanızı tebrik ederiz"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "Savaşçı kademesine ulaşmanızı tebrik ederiz"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "Komutan kademesine ulaşmanızı tebrik ederiz"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "Subay kademesine ulaşmanızı tebrik ederiz"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "Kıdemli kademesine ulaşmanızı tebrik ederiz"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "Efsane kademesine ulaşmanızı tebrik ederiz"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel} ve {yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "Alfa Teste katılım için"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "Beta Teste katılım için"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "{{count}} yıllık hizmet"
+msgstr[1] "{{count}} yıllık hizmet"
+msgstr[2] "{{count}} yıllık hizmet"
+
+msgid "tooltip/rank/ctg1"
+msgstr "Acemi"
+
+msgid "tooltip/rank/ctg2"
+msgstr "Savaşçı"
+
+msgid "tooltip/rank/ctg3"
+msgstr "Komutan"
+
+msgid "tooltip/rank/ctg4"
+msgstr "Subay"
+
+msgid "tooltip/rank/ctg5"
+msgstr "Kıdemli"
+
+msgid "tooltip/rank/ctg6"
+msgstr "Efsane"
+
+msgid "tooltip/segment/ctg1"
+msgstr "Bir yıldan az"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1-3 yıl"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4-6 yıl"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7-9 yıl"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10-14 yıl"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15 yıl"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "Harika manevra kabiliyeti olan efsanevi bir hafif tank. Araç dakika başına hatırı sayılır miktarda hasar verir, iyi top eğim ve kaldırma açılarına sahiptir ve bu sayede savaşta arazi engebelerinden faydalanabilir."
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "Bu araç yüksek kalibreli bir topla donatılmıştır ve iyi zırha sahiptir. Ancak bu, dinamiklerini ve manevra kabiliyetini etkiler. Tank biraz ağırdır, bu sayede hafif zırhlı araçlara çarpmada son derece etkilidir."
+
+msgid "vehicle/R160_T_50_2"
+msgstr "Savaşın her aşamasında aktif keşif için mükemmel bir hafif tank. Küçük silüeti ve yüksek hızı vurulmaktan kaçınmasını sağlar. Mütevazi ateş gücü göz önüne alındığında, bu son derece önemlidir."
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "Bu araç, seviyesinde ters otomatik yeniden yüklemeye sahip tek araçtır. En yüksek etkiyi düşman araçlarına seri atış hasarı verirken veya müttefiklerine ateş desteği sağlarken gösterir."

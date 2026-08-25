@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "%(leftDetailedSeasonName)s savaşları sona erdi"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Ateşkes tüm sunucularda etkin. Savaşlar %(primeDelta)s içinde açılacak"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s savaşları sona erdi"
+
+msgid "alertMessage/allNotSet"
+msgstr "Bu kip %(serverName)s sunucusunda geçerli değildir"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Başka Bir Sunucu Seçin"
+
+msgid "alertMessage/notAvailable"
+msgstr "%(serverName)s sunucusunda ateşkes var"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "%(serverName)s sunucusunda ateşkes var"
+
+msgid "alertMessage/notSet"
+msgstr "Bu kip %(serverName)s sunucusunda geçerli değildir"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Bu sunucuda ateşkes etkin. Savaşlar %(primeDelta)s içinde açılacak"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s savaşları sona erdi"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Bu kip %(serverName)s sunucusunda geçerli değildir"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s gün"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s sa. %(min)s dk."
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 dk."
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s dk."
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Uygun araç yok"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Program"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "KİP"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} - başka bir oyun kipine geçiliyor"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Kipin başlangıcına kalan süre:"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Ateşkes {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Savaşlar sona erdi"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Kip artık geçerli değil"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Kip {{timer}} daha açık olacak"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s, %(modeName)s savaşlarına katılamaz."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Uygun Olmayan Araç Türü"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "%(modeName)s kipine katılmak için %(levelSubStr)s bir araç seçin."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Uygun Olmayan Araç Seviyesi"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Seviye %(levels)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s, %(modeName)s kipinde savaşamaz."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Uygun Olmayan Araç"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Bu sunucuda Ateşkes devrededir. Lütfen başka bir sunucu seçin."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Savaşa Girilemiyor"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Bu kip seçili sunucuda geçerli değil."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Savaşa Girilemiyor"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "%(subModeName)s savaşları sona erdi"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Savaşa Girilemiyor"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Kipi değiştirin veya gereksinimlere uygun bir araç seçin."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Araç Kip İçin Uygun Değil"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "%(modeName)s savaşlarında iş birliği yapmak için 2 veya 3 oyunculu bir taktik birim oluşturun."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Takım"
+
+msgid "invite/text/detailedTitle"
+msgstr "\"%(detailedModeName)s\" Takımına Katılma Daveti"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Garajınızda en az bir araç bulunması gerekiyor."
+
+msgid "lootboxTooltip/chance"
+msgstr "Çıkma olasılığı: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Aşağıdaki listeden bir oyun içi ürün:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "TÜM AŞAMALAR TAMAMLANDI"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "MEVCUT GÖREVİN TÜM\nAŞAMALARI TAMAMLANDI"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Sonraki Aşama Ödülleri - %(stagePoints)s Puanda Açılır"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Sonraki Aşama Ödülü"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "Aktif evrenin bitişine %(time)s"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "Bir sonraki sürüme %(time)s"
+
+msgid "modeSelector/notStarted"
+msgstr "Bu kip yakında başlayacak"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s gün"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s sa."
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 dk."
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s dk."
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "KİPLERE GİT"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Teknik nedenlerle devre dışı"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Mevcut görevin tüm Aşamalarını tamamladınız"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Ödüller: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Savaşlar sona erdi"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Çok Yakında"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Şu zamanda başlayacak:"
+
+msgid "modeSubSelector/subtitle"
+msgstr "ALT KİP SEÇİN"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Tüm Aşamalar tamamlandı"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Gelişim güncellemesi"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Aksiyona katılın!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Çatışmaya dalın!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Oyun Makinesi etkinlikleri, farklı bir deneyim sunan, sınırlı süreli ve özgün etkinliklerdir! Oyunun kurallarını değiştiren seçkin kiplerde savaşın, görevleri tamamlayın ve nadir ödüller kazanın."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev Yüksek risk tanımlaması."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Düşük Performans"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Orta risk tanımlaması."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Azaltılmış Performans"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev Yüksek risk tanımlaması."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Düşük Performans"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Düşük Performans"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Orta risk tanımlaması."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Azaltılmış Performans"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon)Dev Azaltılmış Performans"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Gelişimi tamamladınız"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Mümkün olduğunca çok ödül alın:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Kazanılan Dev Puanı: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Tamamlandı:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Tekrarlanabilir"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Tamamlama karşılığında:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Yenilgi karşılığında:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Zafer karşılığında:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Puan:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Alındı:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Şu anda geçerli tüm görevler tamamlandı"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Görevler, Gelişim başladığında belirecektir"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Şimdilik geçerli tüm görevleri tamamladınız. Başka görevler bir sonraki döngüde belirecek."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "{{timeLeft}} için geçerli"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "{{timeLeft}} için geçerli"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Yeni görevler {{timeLeft}} içinde geçerli olacak"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} Statüsü"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} Görevi"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Tüm aşamalar tamamlandı."
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Gelişim Güncellemesi"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEON DEPAR"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Bitiş çizgisi sizi bekliyor!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Yarışmaya hazır mısınız?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neon Depar, farklı bir şey sunan, özgün, sınırlı süreli bir etkinliktir! Tehlikeli parkurlarda yarışın ve dövüşün, görevleri tamamlayın ve ödüller kazanın."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi seçerek deneyin."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Düşük Performans Olasılığı"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi seçerek deneyin."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Olası Düşürülmüş Performans"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Destansı rastgele ödül"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Efsane rastgele ödül"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Normal rastgele ödül"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Nadir rastgele ödül"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Sıra dışı rastgele ödül"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Neon Depar Görevi - Aşama: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Gelişiminiz herhangi bir Neon Depar yarışında sayılır."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Neon Depar Görevi"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Gelişiminiz her Oyun Makinesi alt kipinde sayılır."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "içinde yeni bir Oyun Makinesi görevi açılacak"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15-30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Bu herkesin herkese karşı olduğu yarış kipinde bitiş çizgisine kadar mücadele edin."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Tüm Seviyeler"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Düşük grafik ayarlarında görsel kalıntılar ve sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Kip, yüksek bilgisayar performansı gerektirir. FPS hızı yoğun çatışmalar sırasında düşebilir."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "En yüksek grafik ayarı önerilir"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) En yüksek grafik ayarı önerilir"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Düşük grafik ayarlarında görsel kalıntılar ve sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Kip, yüksek bilgisayar performansı gerektirir. FPS hızı yoğun çatışmalar sırasında düşebilir."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "En yüksek grafik ayarı önerilir"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) En yüksek grafik ayarı önerilir"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Yeni bir Neon Depar görevi şu zamanda açılacak:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "%(subModeName)s alt kipi sona erdi. Gelişim sıfırlandı."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "%(subModeName)s alt kipi sona erdi."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Yeni ödüller ve %(subModeName)s alt kipi var."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Yeni bir alt kip var: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "%(subModeName)s alt kipi bakım nedeniyle devre dışı."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "%(subModeName)s alt kipi tekrar açıldı."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Ödül Listesi"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Tebrikler!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Gelişimi tamamladınız"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Tebrikler!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Sonsu Gelişim Sonrası Evre"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Ana gelişimi tamamladınız"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Bu aşamayi istediğiniz kadar çok kere tamamlayabilirsiniz."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Kazanılan puan: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Kazanılan puan:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "NEON DEPAR GÖREVLERİ"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Tamamlandı:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Tekrarlanabilir"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Tamamlama karşılığında:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Yenilgi karşılığında:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Zafer karşılığında:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Puan:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Alındı:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Şu anda geçerli tüm görevler tamamlandı"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Görevler, Gelişim başladığında belirecektir"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Şimdilik geçerli tüm görevleri tamamladınız. Başka görevler bir sonraki döngüde belirecek."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "{{timeLeft}} için geçerli"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "{{timeLeft}} için geçerli"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Yeni görevler {{timeLeft}} içinde geçerli olacak"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} Statüsü"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} Görevi"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "EFSANEVİ ÖDÜL ALINDI"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s tekrar açıldı."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Pit Molası"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s sona erdi."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Pit Molası"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Pit Molası zamanı! %(subModeName)s yarışları geçici olarak devre dışı."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Pit Molası"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Her rastgele ödül, aşağıdaki listeden belirli bir olasılıkla verilebilecek bir üründür."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "İçindekiler:"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Tüm araçlar Neon Deparda kullanılabilir."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Neon Depar Araçları"
+
+msgid "modes/fall_tanks/userName"
+msgstr "Neon Depar"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Tüm Aşamalar tamamlandı"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Gelişim güncellemesi"
+
+msgid "modes/undefined/capsUserName"
+msgstr "OYUN MAKİNESİ"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Aksiyona katılın!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Çatışmaya dalın!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Oyun Makinesi etkinlikleri, farklı bir deneyim sunan, sınırlı süreli ve özgün etkinliklerdir! Oyunun kurallarını değiştiren seçkin kiplerde savaşın, görevleri tamamlayın ve nadir ödüller kazanın."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi kullanmayı deneyin."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Olası Düşük Performans"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi kullanmayı deneyin."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Olası Düşük Performans"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Destansı rastgele ödül"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Efsane rastgele ödül"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Normal rastgele ödül"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Nadir rastgele ödül"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Sıra dışı rastgele ödül"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Oyun Makinesi Görevi - Aşama: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Gelişiminiz her Oyun Makinesi alt kipinde sayılır."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Oyun Makinesi Görevi"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Gelişiminiz her Oyun Makinesi alt kipinde sayılır."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "içinde yeni bir Oyun Makinesi görevi açılacak"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15'e 15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Standart dışı kuralları olan deneysel savaşlar."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}|{parSecondary_close} Seviyeler&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Düşük grafik ayarlarında görsel kalıntılar ve sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Kip, yüksek bilgisayar performansı gerektirir. FPS hızı yoğun çatışmalar sırasında düşebilir."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "En yüksek grafik ayarı önerilir"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) En yüksek grafik ayarı önerilir"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Düşük grafik ayarlarında görsel kalıntılar ve sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Kip, yüksek bilgisayar performansı gerektirir. FPS hızı yoğun çatışmalar sırasında düşebilir."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "En yüksek grafik ayarı önerilir"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) En yüksek grafik ayarı önerilir"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Yeni bir Oyun Makinesi görevi şu zamanda açılacak:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "%(subModeName)s alt kipi sona erdi. Gelişim sıfırlandı."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "%(subModeName)s alt kipi sona erdi."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Yeni ödüller ve %(subModeName)s alt kipi var."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Yeni bir alt kip var: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "%(subModeName)s alt kipi bakım nedeniyle devre dışı."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "%(subModeName)s alt kipi tekrar açıldı."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Ödül Listesi"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Tebrikler!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Gelişimi tamamladınız"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Tebrikler!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Tekrarlanabilir Aşama"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Ana Gelişimi tamamladınız"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Mümkün olduğunca çok ödül alın:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Kazanılan puan: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Kazanılan puan:"
+
+msgid "modes/undefined/progression/title"
+msgstr "OYUN MAKİNESİ GÖREVLERİ"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Tamamlandı:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Tekrarlanabilir"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Tamamlama karşılığında:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Yenilgi karşılığında:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Zafer karşılığında:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Puan:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Alındı:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Şu anda geçerli tüm görevler tamamlandı"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Görevler, Gelişim başladığında belirecektir"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Şimdilik geçerli tüm görevleri tamamladınız. Başka görevler bir sonraki döngüde belirecek."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "{{timeLeft}} için geçerli"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "{{timeLeft}} için geçerli"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Yeni görevler {{timeLeft}} içinde geçerli olacak"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} Statüsü"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} Görevi"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "EFSANEVİ ÖDÜL ALINDI"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "%(subModeName)s savaşları tekrar açıldı."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Ateşkes"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s savaşları sona erdi"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Ateşkes"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Ateşkes devrede. %(subModeName)s savaşları geçici olarak devre dışı."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Ateşkes"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Her rastgele ödül, aşağıdaki listeden belirli bir olasılıkla alabileceğiniz bir üründür."
+
+msgid "modes/undefined/tierList/title"
+msgstr "İçindekiler:"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Oyun Makinesi kipine uygun araçları göster/gizle."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Oyun Makinesi Araçları"
+
+msgid "modes/undefined/userName"
+msgstr "Oyun Makinesi"
+
+msgid "notification/congratulation"
+msgstr "Tebrikler!"
+
+msgid "notification/finishSubModes"
+msgstr "\"%(modeName)s\" etkinliği sona erdi."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "%(subModesNames)s alt kipleri sona erdi. Gelişim sıfırlandı."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "%(subModesNames)s alt kipleri sona erdi."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Rastgele ödül"
+
+msgid "notification/newProgression"
+msgstr "Etkinlik gelişimi sıfırlandı. Tekrar ödül alabilirsiniz!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Etkinlik gelişimi sıfırlandı. Yeni alt kipler var: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Yeni alt kipler var: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Tüm mevcut \"%(modeName)s\" görevlerini tamamladınız. Aldığınız ödül:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Tüm mevcut \"%(modeName)s\" görevlerini tamamladınız. Tekrarlanabilir Aşama açıldı. Aldığınız ödül:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Gelişim 1 günden kısa sürede sıfırlanacak. Ardından görevleri tekrar tamamlayabileceksiniz."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Gelişim %(days)d gün içinde sıfırlanacak. Ardından görevleri tekrar tamamlayabileceksiniz."
+
+msgid "notification/progressionStageComplete"
+msgstr "\"%(modeName)s\" aşamasını tamamladınız: %(stage)s. Aldığınız ödül:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "%(subModesNames)s alt kipleri bakım nedeniyle devre dışı."
+
+msgid "notification/switchOnSubModes"
+msgstr "%(subModesNames)s alt kipleri tekrar açıldı."
+
+msgid "platoonView/title"
+msgstr "Takım: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Geçerli sunucu: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Geçerli sunucular:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "%(serverName)s sunucusu\nSavaşlar %(primeDelta)s içinde açılacak"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "%(serverName)s Sunucusu\n\"%(leftDetailedSeasonName)s\" savaşları sona erdi."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "%(serverName)s sunucusu\nSavaşlar %(primeDelta)s daha açık olacak"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "%(serverName)s sunucusu\nSavaşlar %(primeDelta)s içinde açılacak"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "%(serverName)s Sunucusu\n\"%(leftDetailedSeasonName)s\" savaşları sona erdi."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "%(serverName)s sunucusu\nSavaşlar %(primeDelta)s içinde açılacak"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "%(serverName)s Sunucusu\n\"%(leftDetailedSeasonName)s\" savaşları sona erdi."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s gün"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s sa. %(min)s dk."
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 dk."
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s dk."
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Ateşkes tüm sunucularda etkin.\nSavaşlar %(primeDelta)s içinde açılacak"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" savaşları sona erdi"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Bu kip %(serverName)s sunucusunda geçerli değildir"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "%(serverName)s sunucusunda %(primeDeltaDate)s%(primeDeltaTime)s zamanına kadar ateşkes var"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "%(serverName)s sunucusunda ateşkes var"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Bu kip %(serverName)s sunucusunda geçerli değildir"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "%(serverName)s sunucusunda ateşkes var.\nSavaşlar %(primeDelta)s içinde açılacak."
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" savaşları sona erdi"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Bu kip %(serverName)s sunucusunda geçerli değildir"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "%(serverName)s sunucusundaki savaşlar %(primeDelta)s içinde başlayacak"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "%(serverName)s sunucusundaki \"%(leftDetailedSeasonName)s\" savaşları sona erdi."
+
+msgid "primeTimes/timeText/available"
+msgstr "%(serverName)s sunucusundaki savaşlar %(primeDelta)s daha açık olacak"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "%(serverName)s sunucusundaki savaşlar %(primeDelta)s içinde başlayacak"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "%(serverName)s sunucusundaki \"%(leftDetailedSeasonName)s\" savaşları sona erdi."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "%(serverName)s sunucusundaki savaşlar %(primeDelta)s içinde başlayacak"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "%(serverName)s sunucusundaki \"%(leftDetailedSeasonName)s\" savaşları sona erdi."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "puan"
+
+msgid "progression/complete/affirmative"
+msgstr "Olumlu!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Puan kazanın ve Gelişimde ilerleyin."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Kazanılan puan:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Aktif evre sona erdi. Savaşlar bitti"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Tamamlandı:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Tekrarlanabilir"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "Tamamlama karşılığında:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "Yenilgi karşılığında:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "Zafer karşılığında:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Alındı:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Aktif evrenin bitişine: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Aktif evrenin bitişine:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Bir sonraki sürüm:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Sonraki Aşama Ödülleri - %(count)d Puanda Açılır"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Ayrıca şunları aldınız:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Olumlu!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Takım Komutanı %(subModeName)s alt kipine geçti."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Alt Kip Değiştirme"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}|{parSecondary_close} Seviye&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev Yüksek risk tanımlaması."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Düşük Performans"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Düşük Performans"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Orta risk tanımlaması."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Azaltılmış Performans"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon)Dev Azaltılmış Performans"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEON DEPAR"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Bitiş çizgisine doğru yarışın ve diğerlerinin ulaşmasını engelleyin. Ekstra kargaşa çıkarmak için Fırlama ve Kalkan yeteneklerini kullanın!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Dikkat: Hareketli Platformlar"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Lazerlerden kaçın, zıplamalarınızın zamanını doğru ayarların ve hızla bitiş çizgisine ulaşın!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Dikkat: Lazerler ve Zıplamalar"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "bu kip hakkında daha fazla bilgi alın"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Şu tuşa basarak:"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "Neon Depar"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15-30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Bitiş çizgisine kadar\nsavaşarak yolunuzu açın"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Tüm Seviyeler"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Düşük grafik ayarlarında görsel kalıntılar ve başka sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Bu kip, yüksek performans gerektirir ve FPS hızı çetin anlarda sırasında düşebilir."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "En Yüksek Grafik Ayarı Önerilir"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) En yüksek grafik ayarı önerilir"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Düşük grafik ayarlarında görsel kalıntılar ve başka sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Bu kip, yüksek performans gerektirir. FPS hızınız çetin anlarda sırasında düşebilir."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "En Yüksek Grafik Ayarı Önerilir"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) En yüksek grafik ayarı önerilir"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "Neon Depar"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "Neon Depar"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "\"Neon Depar\""
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}|{parSecondary_close} Seviye&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Düşük grafik ayarlarında görsel kalıntılar ve sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Kip, yüksek bilgisayar performansı gerektirir. FPS hızı yoğun çatışmalar sırasında düşebilir."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "En yüksek grafik ayarı önerilir"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) En yüksek grafik ayarı önerilir"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Düşük grafik ayarlarında görsel kalıntılar ve sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Kip, yüksek bilgisayar performansı gerektirir. FPS hızı yoğun çatışmalar sırasında düşebilir."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "En yüksek grafik ayarı önerilir"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) En yüksek grafik ayarı önerilir"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

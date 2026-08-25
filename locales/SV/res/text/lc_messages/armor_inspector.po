@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Huvudpansar"
+
+msgid "armorValues/title/no_damage"
+msgstr "Ingen skada"
+
+msgid "armorValues/title/other"
+msgstr "Annat"
+
+msgid "armorValues/title/penetration"
+msgstr "Genomslagschans"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Rikoschett"
+
+msgid "armorValues/title/spaced"
+msgstr "Yttre pansar"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Anfallarutförande"
+
+msgid "attackerTooltip/body"
+msgstr "Klicka för att ändra anfallande vagn"
+
+msgid "attackerTooltip/header"
+msgstr "Anfallande vagn"
+
+msgid "menu/header"
+msgstr "Överläggningstyp"
+
+msgid "menu/no_armor"
+msgstr "Ingen överläggning"
+
+msgid "menu/nominal"
+msgstr "Nominellt pansar"
+
+msgid "menu/penetration"
+msgstr "Genomslagschans"
+
+msgid "modules/current"
+msgstr "Aktuellt utförande"
+
+msgid "modules/custom"
+msgstr "Anpassat utförande"
+
+msgid "modules/standard"
+msgstr "Standardutförande"
+
+msgid "modules/title"
+msgstr "Vagnsmoduler"
+
+msgid "modules/top"
+msgstr "Bästa utförande"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} {{count}}×)"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Chassi"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Kanon"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Kanonmantel"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Skrov"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Skärm"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Observationsenhet"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Torn"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Hjul"
+
+msgid "tooltip/armor/reduction"
+msgstr "×{{value}}"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Ingen skada"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Pansargenomslag"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Rikoschett"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Vinkeln mellan granatbanan och en linje i rät vinkel från pansarplåten vid träffpunkten.\n\nGranatbanan beräknas som att granater rör sig i en rät linje från mitten av skärmen."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Anslagsvinkel"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Chansen att slå igenom pansaret och skada vagnen."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Genomslagschans"
+
+msgid "tooltip/minor/effective/description"
+msgstr "För ett enda laget pansar är det effektiva pansaret lika med den nominella pansartjockleken modifierat med anslagsvinkeln och granatnormalisering.\n\nOm det finns flera laget pansar under träffpunkten är resultatet summan av de effektiva pansarvärdena för varje lager."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Effektivt pansar"
+
+msgid "tooltip/minor/header"
+msgstr "Kartnyckel"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Att träffa yttre pansarplåtar skadar inte vagnen om inte granaten sen fortsätter och slår igenom huvudpansaret."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Ingen skada"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Den faktiska tjockleken på huvudpansaret eller andra pansarlager."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nominellt pansar"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Granater som träffar pansaret och studsar (rikoschett) kan fortfarande träffa och skada andra vagnar, eller samma vagn igen."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Rikoschett"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Påverkar beräkningen av det effektiva pansaret och granatens genomslagschans.\n\nAlla värden beräknas med ett nominellt avstånd av 100m (genomslagsförmågan för pansarprojektiler och tungstensprojektiler minskar med avståndet).\n\nDen anfallande vagnens uppgraderingar och besättningsförmågor påverkar inte beräkningen."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Anfallarutförande"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Chansen att slå igenom pansaret och skada vagnen.\n\nAtt träffa yttre pansarplåtar skadar inte vagnen om inte granaten sen fortsätter och slår igenom huvudpansaret."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Genomslagschans"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Vagnen skadas bara om granaten träffar och slår igenom huvudpansaret. Spränggranater kan dock åsamka begränsad skada även utan genomslag, men sprängverkan måste fortfarande nå huvudpansaret."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Huvudpansar"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Att träffa yttre pansarplåtar skadar inte vagnen om inte granaten sen fortsätter och slår igenom huvudpansaret.\n\nOm du träffar och slår igenom externa moduler skadar du modulen direkt: träffar du bandet immobiliserar du vagnen, träffar du kanonen går den sönder och träffar du en observationsenhet så minskar vagnen siktsträcka."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Ingen skada"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Rikoschettvinkeln är 70 grader för pansarprojektil och tungstensprojektil, och 85 grader för pansarspränggranater.\n\nSpränggranater studsar aldrig medan pansarprojektiler och tungstensprojektiler förlorar 25% genomslagsförmåga efter en rikoschett.\n\nGranater vars kaliber överstiger tre gånger den nominella pansartjockleken vid träffpunkten studsar aldrig (detta gäller endast pansarproj. och tungstensproj.)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Rikoschett"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Att träffa yttre pansarplåtar skadar inte vagnen om inte granaten sen fortsätter och slår igenom huvudpansaret.\n\nOm du träffar och slår igenom externa moduler skadar du modulen direkt: träffar du bandet immobiliserar du vagnen, träffar du kanonen går den sönder och träffar du en observationsenhet så minskar vagnen siktsträcka.\n\nAnslagsvinkeln räknas inte vid träffar på externa moduler (t.ex band och kanon), det effektiva pansaret är lika med nominell pansartjocklek."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Yttre pansar"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Se en video om hur pansargenomslag fungerar"

@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Taktiskt verktyg"
+
+msgid "open_artefact/server_error"
+msgstr "Funktionen ej tillgänglig för närvarande. Försök senare."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Kunde inte fylla på taktiska verktyg för %s. Tekniskt fel."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Kunde inte fylla på taktiska verktyg för %s. Tillgångar saknas."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Taktiska verktyg för %s har fyllts på. Du har spenderat "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Du kan dekryptera handlingar"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Stridsläge: Sista striden: Terra nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Sista striden: Terra nord (Normal)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Sista striden: Terra nord (Avancerad)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Sista striden: Terra nord (Brutal)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Svårighetsgrad"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Normal"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Avancerad"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutal"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Data"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Uppdragsmål slutfört!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Uppdragsmål slutförda!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vagn"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Slutförda vågor: %(curPhase)s av %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Spenderat: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finanstransaktion"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Du kan välja svårighetsgrad garaget för Sista striden."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Avancerad svårighetsgrad upplåst"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Du kan välja svårighetsgrad garaget för Sista striden."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Brutal svårighet upplåst"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Du kan välja stridsvariant i garaget för Sista striden: Operation Pandora."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Sista striden upplåst"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Mottagna Kodnycklar: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Kvitto"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Kodnycklar borttagna: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Dekryptering slutförd"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Strider i Sista striden är tillfälligt ej tillgängliga.\nFörsök igen senare."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Strider på %(difficulty)s svårighetsgrad är tillfälligt ej tillgängliga. Försök igen senare."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Sista striden är tillfälligt ej tillgängligt. Se spelportalen för mer information."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Plutonsbefälhavaren har ändrat svårighetsgrad till: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Spelaren %(userName)s har inte låst upp en av svårighetsgraderna."

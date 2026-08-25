@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Pamiera režīms ir spēkā visos pieejamajos serveros."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Pamiers ir spēkā šajā serverī."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Nomainīt serveri"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Režīms Tērauda Mednieks ir beidzies"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Režīms šajā serverī nav pieejams"
+
+msgid "banner/info/disabled"
+msgstr "Pamiers"
+
+msgid "banner/info/seasonActive"
+msgstr "Otrā iespēja un balvas"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Līdz %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Karaliskā kauja ar vērtīgām balvām"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s h"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s h %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "TĒRAUDA MEDNIEKS"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Kauja turpināsies no jaunas pozīcijas."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Jūs Drīz Atdzimsiet"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Atdzimst"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Nebūs otrā iespēja."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Atdzimšana Vairs Nav Pieejama"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Atdzimšana Drīz Būs Nepieejama!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Šoreiz esiet uzmanīgāks."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Jūs Tanks Ir Gatavs Kaujai!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Atgriešanās uz Kauju"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Notiek aktīva cīnīšanās."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Atdzimšana Nav Pieejama"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Atrodiet Atdzimšanas lādiņu, lai atgrieztu to cīņā."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Sabiedroto Tanks Iznīcināts"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Atdzimst"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Divi tanki ir labāk nekā viens!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Sabiedroto Tanks Atdzimis"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Palieciet ārpus kaujas!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Atdzīvina Sabiedroto"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonuss aktivizēts!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Balva par pirmo vietu"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Savākts kaujā"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "UZVARA"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Nodaļa nav izvēlēta. Neiztērēti Kaujas Caurlaides Punkti: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Visas Nodaļas pabeigtas. Turpiniet spēlēs un uzkrāt Kaujas Caurlaides Punktus."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Iet uz Kaujas Caurlaidi"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Kaujas Caurlaide"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Izvēlieties Nodaļu"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Iet uz aktīvās Nodaļas progresiju"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Iet uz Kaujas Caurlaidi"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Misijas izpildītas kaujā: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Misijas"
+
+msgid "battleResult/battleReward/title"
+msgstr "SAŅEMTS PAR KAUJU"
+
+msgid "battleResult/button/hangar"
+msgstr "Uz Garāžu"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Punkti un balvas tiks izdalīti pēc tam, kad visi spēlētāji pabeigs šo kauju. Misijas arī tiks izvērtētas balstoties uz kaujas rezultātiem."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Nospiediet %(esc) lai izlaistu animāciju"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Uzaicināt Vadā"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Sabiedrotais"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Nejaušs Sabiedrotais"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Kaujas Veids"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "SOLO KAUJA"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Ar WoT Premium Kontu jūs varētu saņemt:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Kopējās vērtības ar WoT Premium Kontu"
+
+msgid "battleResult/progressStage"
+msgstr "{stage} Stadijas progress"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Spēlētāja īstais segvārds un klana nozīmīte netiek rādīti citiem spēlētājiem kaujā."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Spēlētāja īstais segvārds: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Spēlētāja īstais segvārds tika mainīts uz {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Jūsu tanka bruņu bloķēto bojājumu skaits."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Jūsu izraisīto bojājumu skaits."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Jūsu iznīcināto tanku skaits."
+
+msgid "battleResult/stats/body/place"
+msgstr "Jūsu pozīcija balstīta uz kaujas rezultātiem."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Jūsu vai jūsu vada iznīcināto pretinieku tanku skaits."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Bloķēti bojājumi"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Izraisīti bojājumi"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Jūsu iznīcināts"
+
+msgid "battleResult/stats/header/place"
+msgstr "Pozīcija"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Vada iznīcināts"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Bloķēti bojājumi"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Izraisīti bojājumi"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Jūsu iznīcināts"
+
+msgid "battleResult/stats/title/place"
+msgstr "Pozīcija"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Vada iznīcināts"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Līderu saraksts"
+
+msgid "battleResult/tab/result"
+msgstr "Kaujas Rezultāti"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "VADS IZNĪCINĀTS"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "TANKS IZNĪCINĀTS"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "UZVARA"
+
+msgid "battleResult/title/victoryOther"
+msgstr "GODA VIETA"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Izvēlieties vienu no īpašiem tankiem priekš Tērauda Mednieka."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Nesaderīgs Tanks"
+
+msgid "button/modules"
+msgstr "IZPĒTES KOKS"
+
+msgid "button/repair"
+msgstr "Remontēt"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Kaujās īslaicīgi nav pieejamas"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Kaujās īslaicīgi nav pieejamas"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Režīms nav pieejams"
+
+msgid "ceasefire/header/schedule"
+msgstr "Kauju Grafiks"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Pamiera režīms darbojas visos pieejamajos serveros. Grafiku var apskatīt zemāk."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Pamiera režīms darbojas šajā serverī. Lai piekļūtu režīmam, vari pārslēgties uz citu serveri."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Režīms Tērauda Mednieks šajā serverī nav pieejams. Lai piekļūtu, vari pārslēgties uz citu serveri."
+
+msgid "commanderInfo/commonRank"
+msgstr "Komandieris"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Es jau esmu uzvarējis. Tu to drīz sapratīsi.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Es esmu likums!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Šī ir lieliska diena, kas ieies vēsturē.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Nav laika manierēm.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Viss notiek pēc plāna.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Lai kas tu būtu, esi labākais.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Cirvis ir izrakts, svaigi nopulēts un uzasināts.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Uzvarētājs iegūst visu!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Iemaņas"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nĪpašs tanks priekš Tērauda Mednieka"
+
+msgid "fragPanel/squadsCount"
+msgstr "Vadi: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Līderu saraksts"
+
+msgid "hangarResults/btns/summary"
+msgstr "Kaujas Rezultāti"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "AIZVĒRT"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Moduļi var tikt uzlaboti tikai kaujā. Lai atvērtu Uzlabošanas izvēlni, nospiediet %(key)s kaujā."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s un %(highlight2)s, lai saņemtu pieredzi. Katrs sasniegtais līmenis ļauj spēlētājam uzlabot moduli no Uzlabošanas izvēlnes un ievērojami uzlabo tanka īpašības."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Izdariet bojājumus pretinieku tankiem"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "savāciet kara trofejas kartē"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Tanka uzlabošana kaujā"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Jūs sāciet kauju I līmeņa tankā."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Moduļi var tikt uzlaboti no Uzlabošanas izvēlnes kaujas laikā (%(treeKey)s poga pēc noklusējuma) un nospiežot %(leftModuleKey)s un %(rightModuleKey)s pogu kombināciju.\n\nModuļus uzlabot tikai kaujā."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "Kaujā:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Jūsu Tērauda Mednieks saņem pieredzi kaujā par bojājumu izdarīšanu un Kara Trofeju savākšanu. Kad nepieciešamais skaits pieredzes tiek savākts, jūs variet sasniegt nākamo līmeni un izvēlēties uzlabojumu vienam modulim."
+
+msgid "levelUp/severalTitles"
+msgstr "SAŅEMTI LĪMEŅI: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "LĪMENIS %(level)s SAŅEMTS!"
+
+msgid "levelUp/twoTitles"
+msgstr "SAŅEMTI LĪMEŅI: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Izpildiet misijas un saņemiet vērtīgas balvas."
+
+msgid "level_up/max_level_info/title"
+msgstr "Jaunas ikdienas misijas ir pieejamas"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Sezona\nsāksies drīzumā"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Sezona sāksies %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Bloķēts"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Bojājumi"
+
+msgid "playerStats/killsStat/name"
+msgstr "Iznīcināti"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Iznīcināti"
+
+msgid "playerStats/placeStat/name"
+msgstr "Pozīcija"
+
+msgid "playerStats/title"
+msgstr "Personālie Rezultāti"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Radio atklāšana nav pieejama: notiek sagatavošanās"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Tanks ir pilnībā operatīvs. Atjaunošana nav nepieciešama."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Kaujas Lauka Robots iznīcināts"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s iznīcināja pretinieku %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Ugunsbumba iznīcināta"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Mīnu laiks beidzās"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Mīnas izvietotas"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Radio atklāšana ir gatava izmantošanai"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Tanks ir sasniedzis maksimālo līmeni"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "%(level)s līmenis sasniegts"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Uzstādīts: %(moduleType)s. Uzlabots: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Korpuss"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Balstiekārta"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Dzinējs"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Lielgabals"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Radio Atklāšana"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Tornis"
+
+msgid "playersPanel/title"
+msgstr "KOMANDA"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Pārslēdzieties starp Vada tankiem."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Skatītāja Režīms"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Atpakaļ uz Garāžu.\nSāciet kauju ar citu tanku."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Atpakaļ uz Garāžu"
+
+msgid "preBattle/buttonTitle"
+msgstr "KAUJĀ!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Izvēlēties karti"
+
+msgid "preBattle/listTitle"
+msgstr "SPĒLĒTĀJA GATAVĪBA"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Zona 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Nejauša karte"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "VADA TANKI"
+
+msgid "preBattle/title"
+msgstr "LIELĀS MEDĪBAS"
+
+msgid "preBattle/userFooterTitle"
+msgstr "IZVĒLĒTIE TANKI"
+
+msgid "preBattle/userNotReady"
+msgstr "Nav gatavs"
+
+msgid "preBattle/userReady"
+msgstr "Gatavs"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Sezona %(cycleNo)s %(server)s serverī ir beigusies"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Sezona %(server)s serverī ir beigusies."
+
+msgid "proxyPanel/button"
+msgstr "Veikals"
+
+msgid "proxyPanel/label"
+msgstr "Tērauda\nŽetoni"
+
+msgid "proxyPanel/store"
+msgstr "VIEKALS"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Sezona beidzas pēc %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Radio atklāšanai nav piešķirta poga"
+
+msgid "radar/hint/press"
+msgstr "Nospiediet"
+
+msgid "radar/hint/text"
+msgstr "lai aktivizētu Radio atklāšanu"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Nosēsties"
+
+msgid "selectRespawn/button/land"
+msgstr "Nosēsties"
+
+msgid "selectRespawn/description"
+msgstr "Noklikšķiniet uz vienu no ieteiktajiem punktiem. Ja nav izvēlēts punkts, jūs nolaidīsities jebkurā no ieteiktajiem punktiem."
+
+msgid "selectRespawn/header"
+msgstr "Izvēlieties nolaišanās punktu"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Noklikšķiniet uz vienu no ieteiktajiem punktiem. Ja nav izvēlēts punkts, jūs nolaidīsities jebkurā no ieteiktajiem punktiem."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Jūsu kauja sāksies šeit"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Izvēlieties nolaišanās punktu"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "PLOSĪŠANĀS!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Skābe saēd bruņas!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Zona ir slēgta! Pametiet zonu vai jūsu tanks tiks iznīcināts!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Zona drīz pārvērtīsies sarkana"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Mobilitāte samazināta!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Atpakaļ uz ķēdēm..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Atjauno dzīvības punktus"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Atjauno dzīvības punktus"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Konvertē bojājumus"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Tehniskās īpašības uzlabotas"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Čaulītes un Atjaunošanās"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Airdrops"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Remonta Komplekts vai Spējas Lādiņš"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Kara trofejas"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Apvienotas Kara Trofejas: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Vāc: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Remonta Zona"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Spēcīga degsme!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Dūmos"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Mūsu bruņas rūsē!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Mobilitāte samazināta!"
+
+msgid "techParams/type/damage"
+msgstr "Bojājumi"
+
+msgid "techParams/type/difficulty"
+msgstr "Grūtības Pakāpe"
+
+msgid "techParams/type/mobility"
+msgstr "Mobilitāte"
+
+msgid "techParams/type/spotting"
+msgstr "Atklāšana"
+
+msgid "techParams/type/survivability"
+msgstr "Izdzīvošana"
+
+msgid "techtree/body_armor"
+msgstr "Bruņas"
+
+msgid "techtree/body_health"
+msgstr "Dzīvības Punkti"
+
+msgid "techtree/body_mobility"
+msgstr "Mobilitāte"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dinamika"
+
+msgid "techtree/engine_speed"
+msgstr "Maksimālais ātrums"
+
+msgid "techtree/gun_alpha"
+msgstr "Bojājumi par šāvienu"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Autolādētājs"
+
+msgid "techtree/gun_clip"
+msgstr "Aptveres pārlāde"
+
+msgid "techtree/gun_dpm"
+msgstr "Lādēšanas ātrums"
+
+msgid "techtree/gun_dualgun"
+msgstr "Dubults ierocis"
+
+msgid "techtree/gun_he"
+msgstr "Sprāgstošo čaulīšu bojājumi"
+
+msgid "techtree/gun_machinegun"
+msgstr "Prettanku ložmetējs"
+
+msgid "techtree/gun_piercing"
+msgstr "Cauršaušana"
+
+msgid "techtree/radar_cooldown"
+msgstr "Radio atklāšanas atjaunošanās laiks"
+
+msgid "techtree/radar_distance"
+msgstr "Atklāšanas diapazons"
+
+msgid "techtree/turret_armor"
+msgstr "Bruņas"
+
+msgid "techtree/turret_health"
+msgstr "Dzīvības punkti"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Rotācijas ātrums"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Līdz {{credits}} kredītiem"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Līdz {{experience}} XP"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Vada kaujas bonuss"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Kaujas Vadā ar nejaušu sabiedroto. Spēlējiet kā komanda pret deviņiem pretinieku Vadiem. Vada misijas var izpildīt šajā režīmā. Vads tiks automātiski izjaukts pēc kaujas."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klasisks Tērauda Mednieks. Katrs spēlētājs cīnās par sevi. Vāciet resursus, uzlabojiet jūsu tanku un izmantojiet tā unikālās spējas, lai būtu pēdējais izdzīvojušais!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Kaujas Vadā ar draugu. Spēlējiet kā komanda pret deviņiem pretinieku Vadiem. Vada misijas var izpildīt šajā režīmā."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Nejaušs Vads"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Solo režīms"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Vads ar draugu"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Vads"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Noteikumi Punkti pelnīšanai"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s vieta"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s vietas"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medaļa"
+
+msgid "tooltips/awards/badge"
+msgstr "Žetons"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Ļauj jums tikt atpakaļ uz kauju pēc jūsu tanka iznīcināšanas. Kad tas notiek, tanka uzlabošanas līmenis netiek zaudēts. To var izmantot tikai ierobežotu reižu skaitu katrā kaujā."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Atdzimšanas lādiņus var saņemt no Airdropiem."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Lai atdzīvinātu sabiedroto, palieciet ārpus kaujas {brown_Open}%(timeToResurrect)s s{brown_Close}. Šī mehānika strādā pirmajās {brown_Open}%(duration)s min{brown_Close} no kaujas. Atdzimšanas lādiņi tiek dalīti starp Vada locekļiem."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Spēlējot Vadā"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Pēc iznīcināšanas, jūsu tanks atdzimst automātiski. Šī mehānika strādā pirmajās {brown_Open}%(duration)s min{brown_Close} no kaujas."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Spēlējot Solo"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Vienreizēja lietošana"
+
+msgid "tooltips/respawn/title"
+msgstr "Atdzimšana"
+
+msgid "tooltips/vehicle/description"
+msgstr "Tanks priekš Tērauda Mednieka režīma"
+
+msgid "tournament/description"
+msgstr "LIELĀS MEDĪBAS"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Nav gatavs"
+
+msgid "tournament/fightButton/ready"
+msgstr "Gatavs!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Nevar iestāties turnīrā. Kļūdas kods: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Lielās Medības turnīra kļūda. Kļūdas kods: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "LIELĀS MEDĪBAS"
+
+msgid "tournament/type/solo"
+msgstr "Tips: Solo"
+
+msgid "tournament/type/squad"
+msgstr "Tips: Vads"
+
+msgid "upgradePanel/alert/0"
+msgstr "Jūs nevariet uzlabot jūsu tanku!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Jūs nevariet uzlabot tanku aktīvas cīņas laikā!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Jūs nevariet uzlabot jūsu tanku. Tanks slīkst!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Jūs nevariet uzlabot jūsu tanku. Tanks ir apgāzts!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Nospiediet %(key)s, lai atvērtu Uzlabošanas izvēlni"
+
+msgid "upgradePanel/title/default"
+msgstr "Pieejams jauns modulis"
+
+msgid "upgradePanel/title/hull"
+msgstr "Pieejams jauns korpuss"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Pieejama jauna balstiekārta"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Pieejams jauns dzinējs"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Pieejams jauns lielgabals"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Pieejams jauns radio"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Pieejams jauns tornis"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "VAI"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Bruņas"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Bojājumi par šāvienu"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Lādēšanas ātrums"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Dzīvības punkti"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Cauršaušana"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Radio atklāšanas operācija"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Magazīna Lādēšanas Sistēma"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Ātrums"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Tanka īpašības"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Priekšrocības"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Trūkumi"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Visos serveros ir spēkā Pamiers. Kaujas būs pieejamas pēc %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Izvēlieties Citu Serveri"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Epizode %(cycle)s ir beigusies"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Epizode beigusies"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Šajā serverī ir spēkā Pamiers. Kaujas būs pieejamas pēc %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "%(serverName)s serverī ir spēkā Pamiers"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Epizode %(cycle)s sāksies pēc %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Pirmā Epizode sāksies pēc %(time)s"

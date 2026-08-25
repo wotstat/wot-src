@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Nazad na škrinje"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "SMARAGDNA ŠKRINJA"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDNA ŠKRINJA"
+
+msgid "common/getButton/lowerCase"
+msgstr "UZMITE ŠKRINJE"
+
+msgid "common/getButton/upperCase"
+msgstr "UZMITE ŠKRINJE"
+
+msgid "common/loader"
+msgstr "Otvaranje škrinje..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otvorite škrinje za pregled statistike."
+
+msgid "common/statistics/header"
+msgstr "Otvoreno škrinja: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Sve informacije o otvorenim škrinjama će biti izbrisane."
+
+msgid "entryPoint/boxes"
+msgstr "NA ŠKRINJE"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ovo su posebne škrinje koje sadrže premium vozila, 3D privitke, kredite i ostale vrijedne predmete u igri.\nMožete ih uzeti u prodavaonici u igri."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Škrinje se trenutno ne mogu otvoriti niti kupiti iz tehničkih razloga. Ispričavamo se zbog privremenih neugodnosti."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Škrinje privremeno nedostupne"
+
+msgid "eventName/lowerCase"
+msgstr "Slavno u zelenom"
+
+msgid "eventName/upperCase"
+msgstr "SLAVNO U ZELENOM"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Zajamčena nagrada u sljedećoj škrinji!"
+
+msgid "guaranteedTitle/text"
+msgstr "Najviše škrinja prije zajamčene nagrade: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ako ne otvorite škrinje prije kraja akcije, one će biti automatski otvorene."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ako već imate sva vozila sa spiska mogućeg sadržaja škrinje, sva slijedeća vozila koja dobijete iz škrinja će biti kompenzirana zlatom jednakom njihovoj vrijednosti."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Svaka %(guaranteed0)s škrinja jamačno sadrži vozilo razine VIII-IX. Ako ih otvorite bez primitka takvog vozila, tada će vozilo razine VIII-IX koje još nemate biti primljeno kada otvorite %(guaranteed0)s&zwnbsp;. škrinju. Kada primite, brojač se poništava."
+
+msgid "infoPage/header/description"
+msgstr "Otvorite škrinju za priliku primitka vrijednih predmeta u igri! Pogledajte više detalja ispod."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Od %(name) (otvoreno %(boxesCount) škrinja)"
+
+msgid "noBoxesView/description/"
+msgstr "Nemate nijednu škrinju. \nMožete ih uzeti u prodavaonici u igri."
+
+msgid "preview/backLabel"
+msgstr "NA ŠKRINJE"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Dostupno škrinja: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nema dostupnih škrinja"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ako već imate sva vozila razine sa spiska mogućeg sadržaja škrinje, sva slijedeća vozila koja dobijete iz škrinja će biti kompenzirana zlatom."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) škrinja"
+msgstr[1] "%(remainingCount) škrinje"
+msgstr[2] "%(remainingCount) škrinja"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Zajamčena nagrada je vozilo sa spiska mogućeg sadržaja škrinje.\nAko otvorite %(remainingCount) bez primitka takvog vozila, dobit ćete ga kada otvorite %(count) škrinju. Kada ga dobijete, brojač se poništava."

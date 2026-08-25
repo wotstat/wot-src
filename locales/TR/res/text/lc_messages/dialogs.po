@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Takımı <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Kabul Et"
+
+msgid "EULA/labels/agree"
+msgstr "Kabul ediyorum."
+
+msgid "EULA/title"
+msgstr "Son Kullanıcı Lisans Anlaşması"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Bu e-posta adresi zaten hesabınıza bağlı."
+
+msgid "accountCompletion/activate/button"
+msgstr "Kod Gönder/E-posta Değiştir"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "%(timer) sn. sonra yeniden kod gönderin veya e-postanızı değiştirin"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "E-postanızı tekrar girin"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Kodun süresi geçti. E-postanızı tekrar girin."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Geçersiz kod"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "E-postayı bulamazsanız lütfen e-posta adresinizi kontrol edin, yazım hatası olabilir."
+
+msgid "accountCompletion/activate/text"
+msgstr "Wargaming.net'ten, onay kodu içeren bir e-posta {whiteSpanish_Open}%(email){whiteSpanish_Close} adresine gönderili. E-postanızı doğrulayıp hesabınızı tamamlamak için 4 rakamlı kodu girin."
+
+msgid "accountCompletion/activate/title"
+msgstr "E-posta adresini doğrulayın"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Çok fazla kere hatalı bir kod girdiniz."
+
+msgid "accountCompletion/add"
+msgstr "Ekle"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Bu e-posta adresi zaten hesabınıza bağlı."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "E-posta Zaten Bağlı"
+
+msgid "accountCompletion/cancel"
+msgstr "Daha Sonra"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "E-postanız"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "E-posta"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Ödülü almak ve tüm oyun etkinliklerine tam erişim elde etmek için e-postanızı ekleyin."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "OYUNA TAM ERİŞİM ELDE EDİN"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Bir ödül alıp yeni özellikler açmak için e-posta adresinizi ekleyip onaylayın. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Hesabı Tamamlayın"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Bu e-posta adresi ile bir hesap zaten kayıtlı."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Bu e-posta adresi yasak."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "E-posta en fazla %(amount)s karakter içermelidir."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "E-posta en az %(amount)s karakter içermelidir."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "E-postanız zaten onaylı."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "E-posta Onaylandı"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Talep sayısını aştınız. %(timer) içinde e-posta adresinizi değiştirebilir veya e-postayı yeniden gönderebilirsiniz"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Bu e-posta servisi ülkenizde engellenmiştir."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Bu e-posta servisi ülkenizde yasaklanmıştır."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "E-posta Adresi Bağlanamıyor"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "E-posta sadece Latin harfleri, rakamlar, @ simgesi, noktalar ve alt çizgiler içerebilir."
+
+msgid "accountCompletion/later"
+msgstr "Daha Sonra"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "E-posta Adresini Onaylama Ödülü"
+
+msgid "accountCompletion/submit"
+msgstr "Onaylayın"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Sunucuda kuyrukta bekleniyor.\nBu biraz zaman alabilir."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Hizmet geçici olarak devre dışıdır. Lütfen daha sonra tekrar deneyin."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Hizmet geçici olarak devre dışıdır.\nLütfen %(time)s sonra tekrar deneyin."
+
+msgid "barracksExpand/cancel"
+msgstr "İptal"
+
+msgid "barracksExpand/message"
+msgstr "Ranza ekleyerek %(price)s altına Kışla büyütülsün mü: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "Büyüt"
+
+msgid "barracksExpand/title"
+msgstr "Kışla Büyüt"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "Tamam"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Yeterli altın yok."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "Tamam"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Kışla Büyüt"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "İptal"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Tüm oyuncular savaşa hazır değil veya sayıları gerekenden az."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Savaşa Başlayın"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Eksik"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "İptal"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "%(newBoosterName)s bonusunu etkinleştirin"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Onayla"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Aktivasyonu Onayla"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "İptal"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Kişisel Yedek %(newBoosterName)s etkinleştirilirse hâlihazırda aktif olan Kişisel Yedek %(curBoosterName)s iptal edilecek ve yok edilecektir."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Evet"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Aktivasyonu Onayla"
+
+msgid "buyConfirmation/cancel"
+msgstr "İptal"
+
+msgid "buyConfirmation/message"
+msgstr "%(product)sni %(price)s karşılığında satın alacak mısınız?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "{%count} adet \"{%name}\" satın alacak mısınız?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "'%(equipment)s' donanımını satın alacak mısınız?"
+
+msgid "buyConfirmation/submit"
+msgstr "Satın Al"
+
+msgid "buyConfirmation/title"
+msgstr "Satın Almayı Onayla"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "İptal"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "yeni parçaya"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " uyumsuzluk."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "\"%(conflicted)s\" sarf malzemesi şu nedenle Depoya gönderilecek: "
+
+msgid "buyInstallConfirmation/message"
+msgstr "%(price)s%(creditsIcon)s karşılığında %(kind)s \"%(name)s\" satın alıp mevcut araca takacak mısınız? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "%(price)s kredi karşılığında %(kind)s \"%(name)s\" satın alıp mevcut araca takacak mısınız?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Satın Al"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Satın Almayı Onayla"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "İptal"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "%(gold)s ile %(days)s günlük Premium Hesap satın alıyor musunuz?\n %(alertIcon)s %(alertColorTagOpen)s Teknik sorunlar sebebiyle ek deneyim veya kredi almayacaksınız. Farklı bir savaş seçmeyi deneyin veya Premium Hesap Satın Al menüsü yoluyla Premium Hesap satın almayı deneyin.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Satın Al"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Satın Almayı Onayla"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Garaj Yuvası"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "İptal"
+
+msgid "buySlotConfirmation/message"
+msgstr "Garaja %(goldCost)s karşılığında ek bir yuva satın alacak mısınız?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Satın Al"
+
+msgid "buySlotConfirmation/title"
+msgstr "Satın Almayı Onayla"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "TAMAM"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Yuva satın almak için yeterli kredi yok."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "TAMAM"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Yeterli Kredi Yok"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "TAMAM"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Yuva satın almak için yeterli altın yok."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "TAMAM"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Yetersiz altın."
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "İptal"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Garajda boş yuva yok. {%d} kredi karşılığında ek bir yuva satın almak ister misiniz?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Satın Al"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Satın Almayı Onayla"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Standart mühimmat yükle"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "İptal"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Bu araç için mürettebatınız var."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Araç kiralaması süresince bir ücretsiz yuva alacaksınız."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Mühimmat yüklenemiyor: seçili araç zaten tam mühimmat yüküne sahip."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Mühimmat yüklenemiyor: Seçili araçta hâlâ biraz mühimmat var."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Fiyat: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Garajda ekstra yuva satın al"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Satın Al"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Satın Al"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Takas"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Mürettebatsız satın al"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Mürettebatın Eğitimi"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Mürettebat Üyeleri: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Satın al: %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Toplam:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Hatalı bilgi girdiniz."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "\"Toplam\" sütunundaki altın miktarını girin"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "İşlemi Onaylayın:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Takas için \nuygun aracınız yok"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Tahmini değeri %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Mürettebatı eğitin: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Toplam:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Araç Seçin"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Takasa uygun bir \nPremium araç seçin"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "İptal"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "%(vehiclename)s için ek ücret:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Takas"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Mürettebatsız satın al"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "%(vehiclename)s Takası"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Aşağıdaki Takas tuşuna tıkladığınızda satın alınmış donanım ve sarf malzemeleri altın ile ödenmeyecektir. Lütfen tüm detayları inceleyin."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Aşağıdaki \"Satın al\" tuşuna tıkladıktan sonra satın alınan ürün(ler) altın olarak iade edilmez. Lütfen ürünleri dikkatle kontrol edin."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "İptal"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Etkinleştir"
+
+msgid "challenge_missions/activation/description"
+msgstr "Bir Pota görev serisi etkinleştirildiğinde {{@ style (color #FFE4C0)}}tamamlanabilir, başarısız olabilir veya terk edilebilir{{/}}. Serideki bir görevde başarısız olursanız bir kalkan kaybedeceksiniz."
+
+msgid "challenge_missions/activation/title"
+msgstr "Pota: {{challengeName}} etkinleştirilsin mi?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "İptal"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Yeniden başlat"
+
+msgid "challenge_missions/restart/description"
+msgstr "Görev gelişiminiz sıfırlanacak, kalkanlarınız geri gelecek ve tekrar ödül kazanmaya başlayabileceksiniz. Görev serisi yeniden başlatmanın hemen ardından aktif hale gelecektir."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Pota: {{challengeName}} ücretsiz olarak yeniden başlatılsın mı?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Pota: {{challengeName}} {{cost}} karşılığında başlatılsın mı?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "İptal"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Terk Et"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Terk etmek bu Pota görev serisini sonlandıracak, tüm gelişim ve kalkanları sıfırlayacak. İstediğiniz zaman tekrar başlatabilirsiniz."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Pota: {{challengeName}} terk edilsin mi?"
+
+msgid "changeGraphics/cancel"
+msgstr "İptal"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s Bu güncellemede grafikler büyük ölçüde yeniden işlendi. Grafik ayarlarını otomatik seçebilirsiniz veya otomatik seçimi iptal edip ayarları elle değiştirebilirsiniz."
+
+msgid "changeGraphics/submit"
+msgstr "Otomatik seç"
+
+msgid "changeGraphics/title"
+msgstr "Grafik Ayarlarının Otomatik Seçimi"
+
+msgid "changePeriphery/cancel"
+msgstr "İptal"
+
+msgid "changePeriphery/message"
+msgstr "Başka bir sunucuya transfer edilsin mi?"
+
+msgid "changePeriphery/submit"
+msgstr "Devam Et"
+
+msgid "changePeriphery/title"
+msgstr "Transferi onaylayın"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "İptal"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Sunucu değişiklikleri şimdi kaydedilecek. Ayarlardan otomatik girişi açabilir veya kapayabilirsiniz."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Devam et"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Başka bir sunucuya geçecek misiniz?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "İptal"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Başka bir sunucuya transfer olacak mısınız?\n\nSunucuyu değiştirmeniz durumunda şu sınırlamalarla karşılaşacaksınız:\n\t• Bazı araçlar geçerli olmayacak.\n\t• Amblemler ve Yazılar gösterilmeyecek.\n\t• Görevler, Kişisel Yedekler ve Tecrübe Sahası kipi geçerli olmayacak.\n\nHatalar ve bağlantı kalitesi problemleri ile karşılaşabilirsiniz. Lütfen diğer bölgelerin oyuncularına saygı gösterin."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Devam Et"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Transferi onaylayın"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "İptal"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Başka bir sunucuya transfer olacak mısınız?\n\nSunucuyu değiştirmeniz durumunda şu sınırlamalarla karşılaşacaksınız:\n\t• Bazı araçlar mevcut olmayacak.\n\t• Amblemler ve Yazılar gösterilmeyecek.\n\t• Görevler, Kişisel Yedekler ve Tecrübe Sahası kipi geçerli olmayacak.\n\nHatalar ve bağlantı kalitesi problemleri ile karşılaşabilirsiniz. Lütfen diğer bölgelerin oyuncularına saygı gösterin.\n\n\nSunucu değişiklikleri kaydedilecek.\nOtomatik girişi açmak veya kapamak için Ayarlara gidin."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Devam et"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Transferi onaylayın"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "İptal"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sKlana katılmak üzeresiniz:\n%(clanName)s\n\nKlana katılma niyetinizi onaylayarak otomatik olarak kurallarını ve yönetmeliklerini ve klanın aktivitelerinde ve gelişiminde aktif olarak katılmayı kabul ediyorsunuz.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Bir klandan ayrıldıktan sonra başka bir klana katılmanıza geçici bir engel konacaktır."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Onayla"
+
+msgid "clanConfirmJoining/title"
+msgstr "Klana Katılımı Onaylayın"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Kapat"
+
+msgid "clan_data_not_available/message"
+msgstr "Bu oyuncunun klanının profili geçici olarak devre dışı. Daha sonra tekrar deneyin."
+
+msgid "clan_data_not_available/title"
+msgstr "Dikkat!"
+
+msgid "common/cancel"
+msgstr "İptal"
+
+msgid "common/confirm/cancel"
+msgstr "Hayır"
+
+msgid "common/confirm/submit"
+msgstr "Evet"
+
+msgid "common/cost"
+msgstr "Ücreti:"
+
+msgid "common/error/cancel"
+msgstr "Kapat"
+
+msgid "common/submit"
+msgstr "Devam Et"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "İptal"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Satın Al"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Yönerge Satın Alın ve Takın"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "İptal"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Dikkat! %(devices)s takılı değil. Yönerge %(font_tag_open)sÇALIŞMAYACAK.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Tak"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Yönergeyi Takın"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "İptal"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Dikkat! Seçili yönerge ile uyumlu donanımınız yok. Yönerge %(font_tag_open)sÇALIŞMAYACAK.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Tak"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Yönergeyi Takın"
+
+msgid "confirmBuy/title"
+msgstr "%(moduleName)s satın alacak mısınız?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "İptal"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Parça Depoya gönderilecek."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Satın almak için gereken tutar:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Krediyi savaşta kazanın, deponuzdan fazla malzemeyi satın veya daha fazla edinmek için altın dönüştürün."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Yeterli Kredi Yok"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Parçanın ücreti:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Değiştirilen %(previousModuleName) parçasını %(previousModulePrice) karşılığında satacak mısınız"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Bu parça şunlarla uyumludur:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Parçayı şimdi satabilirsiniz veya Depoya gönderip daha sonra satabilir ya da tekrar takabilirsiniz."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Satın Al"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "%(moduleName)s parçasını satın alıp takacak mısınız?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "'%(equipment)s' donanımını satın alıp takacak mısınız?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Tak"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "İptal"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Takas gerekmiyor.\nYeterli krediniz var."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Satın alınamıyor: takas başarısız.\nTakas için ek %(gold)s gerekli."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Gerekli kredi miktarı için %(gold)s takas edilsin mi?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Gerekli kredi:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Satın alma için gerekli miktar: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Takas Et"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Satın Alma için Takas Onayı"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "İptal"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Dönüştürme gerekmiyor.\nYeterli deneyiminiz var."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Araştırılamıyor: dönüştürme başarısız.\nDönüştürme için ek %(gold)s gerekiyor."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Gerekli deneyim %(gold)s'a dönüştürülsün mü?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Gerekli deneyim:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Araştırma için gerekli miktar: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Araç Seçin"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Aşartırma İçin Takas Onayı"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Toplam:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "İptal"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Kurtarma için takas gerekmiyor.\nYeterli krediniz var."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Kurtarma için takas yapılamıyor.\nTakas için %(gold)s gerekiyor."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Eksik kredi miktarı için %(gold)s takas edilsin mi?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Gerekli kredi:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Kurtarma için gerekli miktar: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Takas"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Kurtarma İçin Takas Onayı"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Sayı:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Sayı"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Toplam"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Fiyat:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Fiyatı"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Toplam:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Toplam"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Toplam:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Hayır"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} ({{freeXP}} dâhil) karşılığında araştırılsın mı?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "{{items}} "
+
+msgid "confirmUnlock/item/message"
+msgstr "%(typeString)s %(userString)s %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)sa (%(color_tag_open)s%(freeXP)s%(color_tag_close)s %(freeXPIcon)s dahil) araştırılsın mı?"
+
+msgid "confirmUnlock/submit"
+msgstr "Evet"
+
+msgid "confirmUnlock/title"
+msgstr "Araştırmayı Onayla"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "%(userString)s %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (%(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s dâhil) karşılığında araştırılsın mı?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "İptal"
+
+msgid "controlsWrongNotification/message"
+msgstr "Bir ya da daha fazla eyleme tuş atanmamış. Kumanda Değerlerini kaydetmek istediğinize eminmisiniz?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Kaydet"
+
+msgid "controlsWrongNotification/title"
+msgstr "Hata"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "İptal"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Seçilen bildirim sesi dosyaları hasarlı veya kayıp, bildirim sesi varsayılan olarak belirlenecek.\nBir veya birkaç tuş atanmadı. Ayarlar kaydedilsin mi?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Kaydet"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Hata"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "İptal"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Onayla"
+
+msgid "createOrderConfirmation/title"
+msgstr "Yedek Hazırlığını Onaylayın"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Alışverişi gerçekleştirmek için yeterli para yok."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Tüm mürettebata uygulanır. %(book)s çalışıldığında her mürettebat üyesine %(exp)s sağlar."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Seçili mürettebat üyesine uygulanır. %(book)s çalışıldığında bu mürettebat üyesine %(exp)s sağlar."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Satın Al"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "%(book)s satın alınsın mı?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "İptal"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "{season} haritaları için uygulanmış tüm çıkartmalar aracınızdan {removed},\nçünkü bu yuva {this} için geçerli olmayacak."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Onayla"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "bu haritalar"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "bu harita"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Bu çıkartmayı bu yuvaya tüm haritalar için uygulayacak mısınız?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Ögeler satın alındıklarında mevcut araca uygulanacaktır. Yıldız ile işaretli ögeler diğer araçlarda kullanıma kapalı olacaktır."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Satın Alınan Ögelerin Onayı"
+
+msgid "customization/change_install_bound/message"
+msgstr "Ögeler seçildiklerinde mevcut araca uygulanacaktır. Yıldız ile işaretli ögeler diğer araçlarda kullanıma kapalı olacaktır."
+
+msgid "customization/change_install_bound/title"
+msgstr "Değiştirilen Ögelerin Onayı"
+
+msgid "customization/close/cancel"
+msgstr "İptal"
+
+msgid "customization/close/submit"
+msgstr "Ayrıl"
+
+msgid "customization/close/title"
+msgstr "Değişiklikleri kaydetmeden Garaja dön?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "İptal"
+
+msgid "customization/exitToShop/submit"
+msgstr "İlerle"
+
+msgid "customization/exitToShop/title"
+msgstr "Değişiklikleri kaydetmeden Dükkâna ilerleyecek misiniz?"
+
+msgid "customization/filter/cancel"
+msgstr "İptal"
+
+msgid "customization/filter/message"
+msgstr "Tüm ögeler kaldırılacak. Devam edecek misiniz?"
+
+msgid "customization/filter/submit"
+msgstr "Hepsini Kaldır"
+
+msgid "customization/filter/title"
+msgstr "Ögeleri Kaldır"
+
+msgid "customization/install_bound/cancel"
+msgstr "İptal"
+
+msgid "customization/install_bound/submit"
+msgstr "Devam et"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "İptal"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Dikkat! (%(cTypeName)s \"%(itemName)s\") mevcut araca uyguladıktan sonra bu ögeyi sadece %(numberLeft)s araca daha uygulayabileceksiniz. Öge uygulansın mı?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Uygula"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Ögeyi Uygula"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "İptal"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Dikkat! (%(cTypeName)s \"%(itemName)s\") mevcut araca uyguladıktan sonra bu ögeyi başka araçlara uygulayamayacaksınız. Öge uygulansın mı?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Uygula"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Ögeyi Uygula"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "İptal"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Dikkat! (%(cTypeName)s \"%(itemName)s\") mevcut araca uyguladıktan sonra bu ögeyi başka araçlara uygulayamayacaksınız. Öge kaldırılırsa %(willBeDeleted)s. Öge uygulansın mı?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Uygula"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Ögeyi Uygula"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "silinecek"
+
+msgid "customization/remove_element/cancel"
+msgstr "İptal"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Kaldır"
+
+msgid "customization/remove_element/title"
+msgstr "Ögeyi Kaldır"
+
+msgid "customizationConfirmSell/message"
+msgstr "%(name)s %(price)s%(creditsIcon)s fiyatına satılsın mı?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Satışı Onayla"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "her %(days)s gün"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "her %(days)s gün %(hours)s sa."
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "her %(hours)s sa."
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "her %(hours)s sa. %(mins)s dk."
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "her %(mins)s dk."
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Görev Yenilemesi {timeLimitMsg} yapılabilir"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Yenile"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Görevi Yenileyecek misiniz?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Bazı araçlarınız savaşta. Görevi yeniledikten sonra gelişiminizi kaybedebilirsiniz. Görev Yenileme {timeLimitMsg} yapılabilir"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Yenile"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Görevi Yenileyecek misiniz?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Dikkat!"
+
+msgid "dedication/headline"
+msgstr "Dönemimizin Kahramanı Ödülü Alındı"
+
+msgid "dedication/sub-headline"
+msgstr "Yapılan {battlesNum} savaş karşılığında"
+
+msgid "dialogTemplates/cancel"
+msgstr "İptal"
+
+msgid "dialogTemplates/confirm"
+msgstr "Onayla"
+
+msgid "dialogTemplates/ok"
+msgstr "Tamam!"
+
+msgid "disconnect/cancel"
+msgstr "Hayır"
+
+msgid "disconnect/message"
+msgstr "Sunucuyla bağlantınızı kesmek istediğinizden emin misiniz?"
+
+msgid "disconnect/submit"
+msgstr "Evet"
+
+msgid "disconnect/title"
+msgstr "Sunucuyla bağlantıyı kes"
+
+msgid "disconnected/cancel"
+msgstr "Tamam"
+
+msgid "disconnected/message"
+msgstr "Sunucuyla bağlantınız kesildi. Yeniden bağlanmak için OK'a basın."
+
+msgid "disconnected/messageBan"
+msgstr "Hesabınız askıya alınmış. %(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Hesabınız %(expiryTime)s zamanına kadar askıya alınmış.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Sunucuyla bağlantı kesintiye uğradı.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nSebep: %s"
+
+msgid "disconnected/title"
+msgstr "Bağlantı Koptu"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Emekli Et"
+
+msgid "dismissTankman/description/perk"
+msgstr "Bu işlem için yetenek eğitim seviyesini girin: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Bu işlem için eğitilen en son yeteneğin seviyesini girin ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Seçili mürettebat üyeleri emekli edilecek. Bu üyeleri {whiteOrange_Open}%(time)s gün{whiteOrange_Close} içinde kurtarabilirsiniz."
+
+msgid "dismissTankman/header"
+msgstr "Mürettebat Üyesi Emekliliği"
+
+msgid "dismissTankman/limited"
+msgstr "Emeklilik sınırına ulaşıldı. Emekli edilen mürettebat üyesi %(name)s (%(role)s, %(vehicle)s) yerine geçecek."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Kurtarma mümkün olmayacaktır"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "İptal"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Dikkat! %(dismissedName)s emekli edildiğinde %(deletedStr)s yerine geçecektir. Değişikliği onaylıyor musunuz?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Onayla"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Değişikliği Onaylayın"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "İptal"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Dikkat! Mürettebatı emekli ettiğinizde %(deletedStr)s ve %(extraCount)s mürettebat üyesinin yerine geçecek. Değişikliği onaylıyor musunuz?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Onayla"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Emekli Mürettebat Üyesi Arabelleği Dolu"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Değiştir"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Ad"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Soyad"
+
+msgid "documentChangeDialog/title"
+msgstr "Ad ve görünüşü değiştirecek misiniz?"
+
+msgid "dropSkill/cancel"
+msgstr "İptal"
+
+msgid "dropSkill/message"
+msgstr "Tüm yetenekler sıfırlansın mı?"
+
+msgid "dropSkill/submit"
+msgstr "Sıfırla"
+
+msgid "dropSkill/title"
+msgstr "Sıfırlamayı Onayla"
+
+msgid "elementType/chassis"
+msgstr "süspansiyon"
+
+msgid "elementType/engine"
+msgstr "motor"
+
+msgid "elementType/gun"
+msgstr "top"
+
+msgid "elementType/radiostation"
+msgstr "telsiz"
+
+msgid "elementType/turret"
+msgstr "kule"
+
+msgid "elenDisabled/cancel"
+msgstr "Kapat"
+
+msgid "elenDisabled/message"
+msgstr "Yarışmalar planlı bakım sebebiyle geçici olarak devre dışıdır."
+
+msgid "elenDisabled/title"
+msgstr "Dikkat!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "İptal"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Bu uyarıyı bir daha gösterme"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Donanım yapılandırmanız sebebiyle bu kipte düşük FPS oranı ve grafik bozulmalarla karşılaşacaksınız. Savaşların yüklenmesi daha uzun sürecek ve istemcinin çökmesi ile sonuçlanabilir. Yine de savaşa girecek misiniz?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Savaş!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Performans Uyarısı"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Satın alma fiyatı:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "%(equipment)s donanımı demonte edilsin mi?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "İptal"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Demonte Et ve Yükselt"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Demonte Et"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Sökülen bu donanım {white_Open}yok edilecek{white_Close}.\nParça tahvil karşılığında güvenle sökülebilir."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Sökülen bu donanım {white_Open}yok edilecek{white_Close}.\nParça altın karşılığında veya bir Sökme Kiti kullanarak güvenle sökülebilir."
+
+msgid "equipmentDestroy/conformation"
+msgstr "'%(equipment)s' donanımını yok edecek misiniz?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "'%(equipment)s' donanımını takacak mısınız?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "'%(equipment)s' donanımını satacak mısınız?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "İptal"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Yükselt"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Demonte Etmeye Git"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Demonte edilebilecek Deneysel Donanım yok."
+
+msgid "eula/p1"
+msgstr "Lütfen devam etmeden önce <BR/><A HREF='event:%(eulaURL)s'><U>Son Kullanıcı Lisans Anlaşması'nı</U></A> okuyun."
+
+msgid "eula/p2"
+msgstr "\"KABUL ET\"E TIKLAYARAK SON KULLANICI LİSANS SÖZLEŞMESİNİ OKUDUĞUNUZU, ANLADIĞINIZI VE SÖZLEŞME ŞARTLARINA BAĞLI KALACAĞINIZI VE UYACAĞINIZI VE İHLALİNDEN SORUMLU OLACAĞINIZI KABUL EDİYORSUNUZ. SKLS VE HER TÜRLÜ DEĞİŞİKLİK PROJE ÜYELERİNİN TÜMÜ İÇİN GEÇERLİ VE BAĞLAYICIDIR."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "İptal"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "%(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)sa bozdurulsun mu?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Takas"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Altın Takası"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "%(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s DP'nin Serbest Deneyime dönüştürülmesinde indirim uygulanacak. Bir dahaki sefere deneyim altın karşılığında dönüştürülecektir."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "İptal"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "%(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s Deneyimi %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s karşışığında Serbest Deneyim'e dönüştürülsün mü?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Transfer et"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Serbest Deneyime dönüştür"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Dönüştürmek için yeterli Savaş Deneyimi yok"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Dönüştürmek için yeterli Savaş Deneyimi yok"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "İptal"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Otomatik seç"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Kışlada mürettebatlar için yetenekleri otomatik seçin"
+
+msgid "fillAllPerks/description"
+msgstr "Algoritma, açık yetenek yuvası olan mürettebat üyelerine ana uzmanlıklarına bağlı olarak aşağıdaki tablodan ilk yeteneği seçer. Mürettebat üyesi ilk yeteneğe zaten sahipse algoritma ikincisini seçer, tüm boş yetenek yuvaları dolana kadar devam eder. İşlem biraz zaman alabilir."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Yetenekler sadece bir araçta bulunan mürettebat üyeleri için otomatik seçilir."
+
+msgid "fillAllPerks/title"
+msgstr "Tüm Mürettebat Üyeleri İçin Eğitilmemiş Yetenekler Otomatik Seçilsin mi?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "İptal"
+
+msgid "finance_dialog/header"
+msgstr "Onayla"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Lütfen bu işlemi doğrulamak için finansal şifrenizi girin."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Geçersiz şifre."
+
+msgid "finance_dialog/results/limit"
+msgstr "Şifrenizi çok fazla yanlış girdiniz. Lütfen 24 saat sonra tekrar deneyin. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Şifremi unuttum</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Şifre en az 6 karakterden oluşmalı ve Latin harfleri, sayılar, '_' içermelidir."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Onayla"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "İptal"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "%(product)s %(price)s karşılığında elde edilsin mi?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Al"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Doğrula"
+
+msgid "fortDisabled/cancel"
+msgstr "Kapat"
+
+msgid "fortDisabled/message"
+msgstr "Klanlar hakkında bilgi planlı bakım sebebiyle şu anda devre dışıdır."
+
+msgid "fortDisabled/title"
+msgstr "Dikkat!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "Tamam"
+
+msgid "fortTurnedOff/message"
+msgstr "Kale geçici olarak devre dışıdır. Daha sonra tekrar deneyin."
+
+msgid "fortTurnedOff/title"
+msgstr "Dikkat!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Hayır"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Evet"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "İptal"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Mevcut %(oldBuilding)s binası garnizonundan ayrılacaksınız. %(newBuilding)s binasına bağlanacaksınız."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Onayla"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Yapıya Bağlan"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "İptal"
+
+msgid "freeObtainConfirmation/message"
+msgstr "%(product)s %(price)s karşılığında elde edilsin mi?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Al"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Doğrula"
+
+msgid "freeSkillsLearning/message"
+msgstr "Sıfırıncı yeteneğin DP kullanarak eğitilmesi gerekmez. Mürettebat üyesinin daha sonraki eğitimi için gereken DP miktarını oldukça azaltarak avantaj sağlar."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Sıfırıncı yetenek olarak %(skillName)s yeteneği seçilsin mi?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Sıfırıncı yetenek olarak %(skillName)s yeteneği yeniden eğitilsin mi?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "İptal"
+
+msgid "freeSlotConfirmation/message"
+msgstr "%100 indirimi kullanarak Garaja ücretsiz ek bir yuva ekleyecek misiniz?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Ekle"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Yuva Ekle"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Kapat"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Bedava araçları satın alma sınırına eriştiniz. Yarın tekrar deneyin."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Kapat"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Satın Alma Sınırı"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sDeneyim%(orangeText_close)s%(simpleText_open)s savaşlarda kazanılan bir oyun içi kaynaktır.\n\nŞunları içerir:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sSavaş Deneyimi%(orangeText_close)s%(simpleText_open)s belirli bir aracın yeni parçalarını araştırmanın yanı sıra deneyimin kazanıldığı Wargaming evreni oyunu içerisinde ilerlemek için kullanılır.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sSerbest Deneyim%(orangeText_close)s%(simpleText_open)s her türlü parça ve aracın araştırılmasının yanı sıra mürettebat eğitimini hızlandırmada kullanılır. Lütfen Serbest Deneyimi dikkatle harcayın.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Devam Et"
+
+msgid "freeXPInfo/title"
+msgstr "Deneyim"
+
+msgid "gammaDialog/cancel"
+msgstr "Başlat"
+
+msgid "gammaDialog/message/description"
+msgstr "Komutan! Renk gammasını düzeltmek ve ekranınızın görüntü kalitesini artırmak için monitörünüzü ayarlayın.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Monitörünüzü hemen ayarlayın!"
+
+msgid "gammaDialog/title"
+msgstr "Gamma Ayarları"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Dönüştürdükten sonra:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Dönüştürmeden önce:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "İptal"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Dönüştür"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Toplam:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Mürettebat"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Araç"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Deneyim"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Tüm Araçlar"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Seçili araçlara göre sırala."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Araç isimlerine göre sırala"
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Araçlar"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Kazanılan deneyime göre sırala."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Deneyim"
+
+msgid "gatheringXPForm/title"
+msgstr "Serbest Deneyime dönüştür"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Deneyim çevir:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Mürettebat eğitimi hızlandırıldı."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Mürettebat eğitimi normal."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Toplam:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Toplam:"
+
+msgid "graphics/message/alert"
+msgstr "Dikkat!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "İptal"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Ekran kipi değiştirildi. %(time)s saniye sonra önceki ayarlara dönülecek. Seçili ayarlar kaydedilsin mi?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Kaydet"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Ekran Kipi Ayarlarını Kaydet"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Hayır"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Dikkat! Bütün değişiklikler kaybedilecek. Yine de devam etmek istiyor musunuz?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Evet"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Grafik Kalitesini Otomatik Olarak Sapta"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Hayır"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Dikkat! Bazı grafik ayarlarını değiştirmek biraz zaman alabilir. Devam et?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Evet"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Ayarları Değiştirin"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Kapat"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Parametreler maksimuma ayarlanamadı. Yerine kullanıcı tarafından tanımlanan grafik kalitesi kullanılacak."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Dikkat"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Kapat"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Yüksek doku kalitesi yalnızca 64 bit sistemler için mevcut."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Doku Kalitesi Mevcut Değil"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "İptal"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Sonra Başlat"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Bazı ayarlara yapılan değişiklikler oyun yeniden başlatıldığında uygulanacak."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Yeniden başlat"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Ayarları Değiştirin"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "Tamam"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Garajda yer kalmadı. Almak istediğiniz araç için bir park yuvası satın alın ya da ona yer açmak için bir araç satın."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "Tamam"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Hata"
+
+msgid "hof/excludeRating/cancel"
+msgstr "İptal"
+
+msgid "hof/excludeRating/message"
+msgstr "Diğer oyuncular artık başarımlarınızı görmeyecek ancak Şeref Salonu ana sayfasından görünebilir hale getirebilirsiniz."
+
+msgid "hof/excludeRating/submit"
+msgstr "Sonuçları Gizle"
+
+msgid "hof/excludeRating/title"
+msgstr "Reytinglerdeki Sonuçları Göster"
+
+msgid "hofDisabled/cancel"
+msgstr "Kapat"
+
+msgid "hofDisabled/message"
+msgstr "Şeref Salonu geçici olarak devre dışı. Lütfen daha sonra tekrar deneyin."
+
+msgid "hofDisabled/title"
+msgstr "Dikkat!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "İptal"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Eksik mürettebat{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Bir veya daha fazla mürettebat üyesi uygun değil{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Seçili araç şu nedenlerle uygun değil:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Bonusu sadece bir mürettebat alabilir. Şu araçtan:"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "şu araca aktarılacak:"
+
+msgid "idleCrewBonus/submit"
+msgstr "Onayla"
+
+msgid "idleCrewBonus/title"
+msgstr "Yoğun Mürettebat Programı açılsın mı?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Ayarlardan (Grafikler sekmesi) Tarayıcıda Donanımsal Hızlandırmayı kapatmayı deneyin."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Yükleme Hatası"
+
+msgid "interviewQuit/cancel"
+msgstr "Geri"
+
+msgid "interviewQuit/message"
+msgstr "Anketi şimdi reddedip daha sonra Bildirim Merkezindeki davet mesajını açarak tekrar katılabilirsiniz. Mesaj bir oyun-içi oturum süresince geçerlidir."
+
+msgid "interviewQuit/submit"
+msgstr "Reddet"
+
+msgid "interviewQuit/title"
+msgstr "Anketi Reddet"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Olumlu!"
+
+msgid "koreaParentNotification/message"
+msgstr "Çocuklarda ve gençlerde oyun bağımlılığını engellemek için savaşa %(preBlockTime)s sonrasında girmek yasaklanmıştır. Sunucudan %(blockTime)s itibarıyla çıkarılacaksınız."
+
+msgid "koreaParentNotification/submit"
+msgstr "Olumlu!"
+
+msgid "koreaParentNotification/title"
+msgstr "Oynama Sınırlaması"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Olumlu!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Zaman sınırı geçildi. Yeni bir savaşa giremezsiniz."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Olumlu!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Ebeveyn Kontrolu"
+
+msgid "leaveEvent/cancel"
+msgstr "İptal"
+
+msgid "leaveEvent/message"
+msgstr "Yarışmadaki savaşlarınızın sonuçları reytingler güncellendikten sonra sıfırlanacak. Reytinglerde yer alamayacaksınız ve ödülü alamayacaksınız.\n\nYarışmadan bir kere çıktığınızda %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "TEKRAR GİREMEZSİNİZ."
+
+msgid "leaveEvent/submit"
+msgstr "Yarışmadan Çık"
+
+msgid "leaveEvent/title"
+msgstr "Yarışmadan Çık"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "İptal"
+
+msgid "leaveStartedEvent/message"
+msgstr "Savaşlarınızın sonuçları bu yarışmada sayılmayacak. Reytinglerde yer alamayacaksınız ve ödülü almayacaksınız.\n\nYarışmadan bir kere çıktığınızda %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Yarışmadan Çık"
+
+msgid "leaveStartedEvent/title"
+msgstr "Yarışmadan Çık"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "İptal"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Şu anda Savaş Öncesi Lobisi'nde bulunuyorsunuz. Daveti kabul etmek için buradan çıkmak istiyor musunuz?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "Tamam"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Davet"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "İptal"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Şu anda Takımda yer alıyorsunuz. Daveti kabul etmek için bulunduğunuz Takımdan ayrılmak istediğinizden emin misiniz?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "Tamam"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Davet"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "İptal"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Şu anda eğitim odasında bulunuyorsunuz. Buradan çıkıp daveti kabul etmek istediğinizden emin misiniz?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "Tamam"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Davet"
+
+msgid "legalInfoWindow/title"
+msgstr "Hukuki Bilgiler"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "İptal"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Garajda gizli arayüz ögelerinin yavaş yavaş ortaya çıkmasını kapatmak istediğinizden emin misiniz?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Bu seçeneği kapattıktan sonra tekrar açamayacaksınız."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Kapat"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Ayarları Değiştirin"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "İptal"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Sunucu değişiklikleri şimdi kaydedilecek. Ayarlardan otomatik girişi açabilir veya kapayabilirsiniz."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Devam et"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Sunucu değişikliğini kaydedecek misiniz?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Alternatif Yapılandırmanın mühimmat kısmında yeterli mermi yok. Yine de savaşa girecek misiniz?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Mühimmat Eksik"
+
+msgid "lowAmmo/cancel"
+msgstr "İptal"
+
+msgid "lowAmmo/message"
+msgstr "Seçili aracın cephaneliğinde yeterli mühimmat yok. Mühimmat savaşın başlamasından önce otomatik olarak ikmal edilecektir."
+
+msgid "lowAmmo/submit"
+msgstr "İkmal"
+
+msgid "lowAmmo/title"
+msgstr "Mühimmat Otomatik İkmali"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "İptal"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Seçili aracın cephaneliğinde yeterli mermi yok. Yine de savaşa girecek misiniz?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Savaş!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Mühimmat Eksik"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Hayır"
+
+msgid "lowFpsWarning/message"
+msgstr "Mevcut oyun ayarları düşük oyun performansına yol açıyor. Daha düşük grafik ayarlarına geçmek istiyor musunuz?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Evet"
+
+msgid "lowFpsWarning/title"
+msgstr "Düşük Oyun Performansı"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "Tamam"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "%(userName)s için oyuncu detayları kilitlendi."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "Tamam"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Oyuncu Detayları Kilitlendi"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "Tamam"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Kullanıcı %(userName)s için veriler şu anda mevcut değil."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "Tamam"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Veri Şu Anda Mevcut Değil"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "İptal"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Bu ayarı etkinleştirmek savaşta bilgisayar performansınızı düşürecektir."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Dikkat!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "AÇIK"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Mini Harita Şeffaflığı"
+
+msgid "moduleSale/conformation/header"
+msgstr "'%(moduleName)s' %(moduleType)s parçasını satacak mısınız?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "İptal"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Klan:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "kredi"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "altın"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Ücret:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Transfer et:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Normal:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "kredi"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "altın"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Kime:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Toplam:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(klan üyesi değil)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Gönder"
+
+msgid "moneyTransfer/title"
+msgstr "Altın Transfer Et"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "İptal"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Oyuncu {player}a {gold} <img src='icon_gold' /> gönderilsin mi? Sizden {fee} <img src='icon_gold' /> masraf alınacaktır."
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Transfer et"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Transferi Doğrula"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Finansal şifre belirleyin</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "Tamam"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Altın transferine izin verilemiyor. Sebep: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Transfer sınırlaması %s 'da bitiyor."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "Tamam"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Altın transferine izin verilemiyor."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Hayır"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Bazı ayarlarda yapılan değişiklikler bir sonraki savaşta uygulanacak. Devam edecek misiniz?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Evet"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Ayarları Değiştirin"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Eğitim sonrası yetenek seviyesi: {yellow_Open}%%%(level)s{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Eğit"
+
+msgid "perkLearnConfirm/title"
+msgstr "%(skillName)s yeteneği eğitilsin mi?"
+
+msgid "perksReset/after"
+msgstr "Sıfırladıktan sonra:"
+
+msgid "perksReset/before"
+msgstr "Sıfırlamadan önce:"
+
+msgid "perksReset/cancel"
+msgstr "İptal"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Bu mürettebat üyesi için Tank Akademisinde yetenek sıfırlamada zaten %100 indiriminizin olması sebebiyle bu seçenek geçerli değil."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Geçersiz"
+
+msgid "perksReset/free/description"
+msgstr "{yellow_Open}%1{yellow_Close} adede kadar yetenek ücretsiz sıfırlanabilir."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Bu mürettebat üyesi ücretsiz ilk yetenek sıfırlama hakkına sahip"
+
+msgid "perksReset/graceLabel"
+msgstr "Ücretsiz yetenek sıfırlamak şu süre için geçerli olacak:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Toplam yetenek DP'si miktarı azalacak. Daha az yetenek eğitilebilecek."
+
+msgid "perksReset/noNewPerks"
+msgstr "Eğitilmiş yeteneklerin tüm deneyimi ana uzmanlık seviyesine eklenecek."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "toplam yetenek DP'sinden"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Alay Okulu"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "toplam yetenek DP'sinden"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Hızlı Kurslar"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "DP kaybetmeden\nyetenekleri sıfırlayın"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "DP kaybetmeden yetenekleri sıfırlamak için kredi kullanın"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Tank Akademisi"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "DP kaybetmeden\nyetenekleri sıfırlayın"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Sıfırla"
+
+msgid "perksReset/title"
+msgstr "Tüm Mürettebat Üyelerinin Yetenekleri Sıfırlansın mı?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "İptal"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Seçilen Ses Fiziği Kalitesi, oyun istemcisi tarafından otomatik olarak algılanan ayardan farklıdır. Bu seçeneği etkinleştirmek performansı etkileyebilir. Onaylamadan önce performansı test etmenizi öneririz. Bu değişiklikleri uygulamak istiyor musunuz?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Onaylayın"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Ses Fiziği Kalitesi Uyumsuzluğu"
+
+msgid "postmortem/cancel"
+msgstr "Ayrıl"
+
+msgid "postmortem/message"
+msgstr "Araç yok edildi. Savaşta kalmayı mı, garaja çıkmayı mı istiyorsunuz?"
+
+msgid "postmortem/submit"
+msgstr "Savaşta Kal"
+
+msgid "postmortem/title"
+msgstr "Araç Yok Edildi"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "İptal"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "%(days)s gün için %(gold)s altın karşılığında Premium Hesap alınsın mı?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Satın Al"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Satın Almayı Onayla"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "İptal"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "%(gold)s altın karşılığında Premium Hesap %(days)s gün uzatılsın mı?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Uzat"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Doğrula"
+
+msgid "priceCard/credits/title"
+msgstr "Alay Okulu"
+
+msgid "priceCard/free/title"
+msgstr "Hızlı Kurslar"
+
+msgid "priceCard/gold/title"
+msgstr "Tank Akademisi"
+
+msgid "priceCard/price/free"
+msgstr "Ücretsiz"
+
+msgid "priceCard/recertification/title"
+msgstr "Yeniden Eğitim Emri"
+
+msgid "punishmentWindow/cancel"
+msgstr "Kabul Edildi"
+
+msgid "punishmentWindow/header/ban"
+msgstr "%(time)s Boyunca Engellendiniz"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Ceza Aldınız"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Sportmenliğe Aykırı Davranış"
+
+msgid "punishmentWindow/info"
+msgstr "Durumunuz bağlantı sorunları veya başka teknik sorunlardan kaynaklandıysa\nlütfen Oyuncu Desteğine başvurun."
+
+msgid "punishmentWindow/message/ban"
+msgstr "{whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} haritasında {whiteSpanish_Open}%(time)s{whiteSpanish_Close} tarihinde Oyun Kurallarını ihlal ettiniz.\n{whiteSpanish_Open}%(mode)s{whiteSpanish_Close} kipinde savaşlardan geçici olarak engellendiniz."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "{whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} haritasında {whiteSpanish_Open}%(time)s{whiteSpanish_Close} tarihinde Oyun Kurallarını ihlal ettiniz.\nSavaşta kazandığınız kredi, DP ve ödüller kaldırıldı."
+
+msgid "punishmentWindow/message/warning"
+msgstr "{whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} haritasında {whiteSpanish_Open}%(time)s{whiteSpanish_Close} tarihinde Oyun Kurallarını ihlal ettiniz.\nTekrarlı ihlal durumunda savaşta kazanacağınız tüm kredi, deneyim ve ödüllerden yoksun kalacaksınız."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Savaşta eylemsizlik"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Savaş tamamlanmadan veya araç yok edilmeden savaştan ayrılmak"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Savaşta faaliyetsizlik/savaştan erken ayrılma"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Bilinçli kendini yok etme"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s gün %(hour)ssa."
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s sa. %(min)s dk."
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 dk."
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s dk."
+
+msgid "questsConfirmDialog/cancel"
+msgstr "İptal"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Bir daha sorma"
+
+msgid "questsConfirmDialog/message"
+msgstr "\"%(newQuest)s\" görevini seçerseniz \"%(oldQuest)s\" görevi iptal olacak."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Onayla"
+
+msgid "questsConfirmDialog/title"
+msgstr "Görev Seçimini Onayla"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "İptal"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "%(curQuest)s görevindeki tüm gelişim sıfırlanacak.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Dikkat! Mevcut görevdeki tüm gelişim kaybedilecek."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Onayla"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "İlerlemeyi Sıfırla"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "İptal"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "%(newQuest)s görevini seçerseniz %(oldQuest)s görevindeki gelişiminiz sıfırlanacak.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Dikkat! Mevcut görevdeki tüm gelişim kaybedilecek."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Evet"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Görev Seçimini Onayla"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "İptal"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "%(quest)s görevi iptal edilecek.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Dikkat! Mevcut görevdeki tüm gelişim kaybedilecek."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Evet"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Görevin iptalini onaylayın"
+
+msgid "quit/cancel"
+msgstr "Kal"
+
+msgid "quit/submit"
+msgstr "Ayrıl"
+
+msgid "quit/title"
+msgstr "Oyundan Çık?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "İptal"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Ekibinizin size ihtiyacı var! Savaş sona ermeden ya da aracınız yok edilmeden savaşı terk etmek firar sayılır. Bu bir cezayla ve IGR'de oynanan savaşın tüm bonuslarının kaybıyla sonuçlanabilir."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Firar Et"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Savaş meydanından firar edilsin mi?"
+
+msgid "quitBattle/cancel"
+msgstr "İptal"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "İptal"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Ekibinizin size ihtiyacı var! Savaş sona ermeden ya da aracınız yok edilmeden savaşı terk etmek firar sayılır. Bu, cezaya yol açabilir."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Firar Et"
+
+msgid "quitBattle/leaver/title"
+msgstr "Savaş meydanından firar edilsin mi?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "İptal"
+
+msgid "quitBattle/replay/submit"
+msgstr "Çık"
+
+msgid "quitBattle/replay/title"
+msgstr "Seyirci kipinden çıkacak mısınız?"
+
+msgid "quitBattle/submit"
+msgstr "Ayrıl"
+
+msgid "quitBattle/title"
+msgstr "Savaştan ayrıl?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Hayır"
+
+msgid "quitPreBattle/message"
+msgstr "Savaş Öncesi Lobisi'nden çıkmak istediğinizden emin misiniz?"
+
+msgid "quitPreBattle/submit"
+msgstr "Evet"
+
+msgid "quitPreBattle/title"
+msgstr "Savaş Öncesi Lobisi'nden Çık"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Hayır"
+
+msgid "rally/autoSearch/message"
+msgstr "Otomatik olarak boş yuva aransın mı?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Evet"
+
+msgid "rally/autoSearch/title"
+msgstr "Otomatik Arama"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "İptal"
+
+msgid "rally/changePeriphery/message"
+msgstr "Başka bir sunucuya (%(host)s) otomatik olarak transfer edileceksiniz. Yine de devam edecek misiniz?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Devam Et"
+
+msgid "rally/changePeriphery/title"
+msgstr "Başka Bir Sunucuya Transfer"
+
+msgid "rally/goToAnother/cancel"
+msgstr "İptal"
+
+msgid "rally/goToAnother/message"
+msgstr "Savaş kipini değiştirirseniz taktik birlikten otomatik olarak ayrılırsınız."
+
+msgid "rally/goToAnother/submit"
+msgstr "Devam Et"
+
+msgid "rally/goToAnother/title"
+msgstr "Kipi Değiştir"
+
+msgid "rally/goToIntro/cancel"
+msgstr "İptal"
+
+msgid "rally/goToIntro/message"
+msgstr "Taktik birimden ayrılmak istediğinizden emin misiniz?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Onayla"
+
+msgid "rally/goToIntro/title"
+msgstr "Çıkışı Onayla"
+
+msgid "rally/goToSquad/cancel"
+msgstr "İptal"
+
+msgid "rally/goToSquad/message"
+msgstr "Takım oluşturursanız mevcut savaş kipinden otomatik olarak çıkarsınız."
+
+msgid "rally/goToSquad/submit"
+msgstr "Oluştur"
+
+msgid "rally/goToSquad/title"
+msgstr "Takım Oluştur"
+
+msgid "rally/leave/cancel"
+msgstr "İptal"
+
+msgid "rally/leave/message"
+msgstr "Taktik birlikten ayrılmak ve kipten çıkmak istediğinize emin misiniz?"
+
+msgid "rally/leave/submit"
+msgstr "Onayla"
+
+msgid "rally/leave/title"
+msgstr "Çıkışı Onayla"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Devam Et"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Kipten çıkılamıyor. Aracınız listede savaşa hazır duruyor."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Dikkat"
+
+msgid "rally/startBattle/cancel"
+msgstr "Hayır"
+
+msgid "rally/startBattle/message"
+msgstr "Düşman aransın mı?"
+
+msgid "rally/startBattle/submit"
+msgstr "Evet"
+
+msgid "rally/startBattle/title"
+msgstr "Düşman Ara"
+
+msgid "recruit/cancel"
+msgstr "İptal"
+
+msgid "recruit/submit"
+msgstr "Acemi"
+
+msgid "recruit/title"
+msgstr "%(vehicleName)s için yeni bir %(role)s alınsın mı?"
+
+msgid "recruit/voiceoverText"
+msgstr "Mürettebat üyesinin özgün seslendirmesi ancak Komutan uzmanlığı ile geçerlidir."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Premium araçlar için mürettebat üyeleri almanız gerekmez. Mürettebatı aynı türden bir Premium araca herhangi bir ceza olmadan aktarabilirsiniz."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Bu mürettebat üyesi seçili araç için alınamaz ve Kışlaya gönderilecek."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Mürettebat üyesi, DP kaybetmeden otomatik olarak sıfırlanacak eski yeteneklere sahip."
+
+msgid "recruitDialog/name/title"
+msgstr "Yeni mürettebat üyesi alınsın mı (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Yeni mürettebat üyesi alınsın mı?"
+
+msgid "recruitWindow/cancel"
+msgstr "İptal"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Seçilmedi"
+
+msgid "recruitWindow/nation"
+msgstr "Ülke"
+
+msgid "recruitWindow/specialization"
+msgstr "Uzmanlık"
+
+msgid "recruitWindow/submit"
+msgstr "Yeni Üye Al"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Araç Türü"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Araç"
+
+msgid "referralReward/cancel"
+msgstr "İptal"
+
+msgid "referralReward/message"
+msgstr "%(product)s alacak mısınız?"
+
+msgid "referralReward/submit"
+msgstr "Onayla"
+
+msgid "referralReward/title"
+msgstr "Alındı Onayı"
+
+msgid "refuseTraining/cancel"
+msgstr "Hayır"
+
+msgid "refuseTraining/message"
+msgstr "Eğitimden çık?"
+
+msgid "refuseTraining/submit"
+msgstr "Evet"
+
+msgid "refuseTraining/title"
+msgstr "Doğrula"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Yok Etme"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "İptal"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "\"%(name)s\" sarf malzemesi mevcut parça ile %(reason)s dolayı Depoya aktarılacak."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "uyumsuzluğundan"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Sök"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Sökmeyi Onayla"
+
+msgid "rentConfirmation/cancel"
+msgstr "İptal"
+
+msgid "rentConfirmation/event"
+msgstr "%(eventName)s kipi için"
+
+msgid "rentConfirmation/message"
+msgstr "%(name)s aracını %(price)s karşılığında %(event)s kiralayacak mısınız?"
+
+msgid "rentConfirmation/submit"
+msgstr "Onayla"
+
+msgid "rentConfirmation/title"
+msgstr "Kiralamayı Onayla"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "İptal"
+
+msgid "rentConfirmationRenew/message"
+msgstr "%(name)s aracının kiralama dönemini %(price)s karşılığında %(event)s uzatacak mısınız?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Onayla"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Kiralamayı Onayla"
+
+msgid "replacePassport/unique/cancel"
+msgstr "İptal"
+
+msgid "replacePassport/unique/message"
+msgstr "Bu özel bir mürettebat üyesidir ve Kişisel Verileri daha sonra sıfırlanamaz. Kişisel Verilerini %(gold)s karşılığında değiştirmek istediğinizden emin misiniz?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Değiştir"
+
+msgid "replacePassport/unique/title"
+msgstr "Değişikliği Onayla"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "İptal"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Mürettebat üyesinin Kişisel Verileri %(gold)s karşılığında değiştirilsin mi?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Değiştir"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Kişisel Verileri Değiştir"
+
+msgid "replayNotification/cancel"
+msgstr "Hayır"
+
+msgid "replayNotification/message"
+msgstr "World of Tanks şu anda ki sürümü kaydedilen savaşı oynatmaya müsait değil. Bu kayıdı oynatırken problemlere sebep olabilir. Sürüm uyumsuzluğu göz ardı edilsin ve kayıt oynatılsın mı?"
+
+msgid "replayNotification/submit"
+msgstr "Evet"
+
+msgid "replayNotification/title"
+msgstr "Uyarı"
+
+msgid "replayStopped/cancel"
+msgstr "İptal"
+
+msgid "replayStopped/message"
+msgstr "Yeniden oynatma bitti. Oyundan çıkmak için Bitir tuşuna tıklayın."
+
+msgid "replayStopped/submit"
+msgstr "Bitir"
+
+msgid "replayStopped/title"
+msgstr "Yeniden Oynatma Bitti"
+
+msgid "reportBug/cancel"
+msgstr "İptal"
+
+msgid "reportBug/message"
+msgstr "Buraya tıkladığınızda varsayılan tarayıcınız açılacak ve hata bildirmek üzere World of Tanks Oyuncu Desteğine gidecek. Devam etmek istiyor musunuz?"
+
+msgid "reportBug/submit"
+msgstr "Devam Et"
+
+msgid "reportBug/title"
+msgstr "Oyuncu Desteğine Git"
+
+msgid "resetAllPerks/cancel"
+msgstr "İptal"
+
+msgid "resetAllPerks/submit"
+msgstr "Sıfırla"
+
+msgid "resetAllPerks/title"
+msgstr "Tüm Mürettebat Üyeleri İçin Tüm Yetenekler Sıfırlansın mı?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Hesabınızdaki tüm mürettebat üyeleri için tüm yetenekler sıfırlanacak.{orangeEnd}\n{orangeStart} Bu işlem geri alınamaz.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Devam Et"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Grafik ayarları en uygun görüntü kalitesini vermek üzere otomatik olarak seçildi.\nPerformansı artırmak için Ayarlar'dan daha düşük bir görüntü kalitesi seçin."
+
+msgid "resetGraphics/submit"
+msgstr "Ayarlar"
+
+msgid "resetGraphics/title"
+msgstr "Grafik Ayarlarını Değiştir"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Kurtar"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s kurtarılacak."
+
+msgid "restoreTankman/free"
+msgstr "Fiyatı: Ücretsiz"
+
+msgid "restoreTankman/header"
+msgstr "Bu mürettebat üyesini kurtarmak istiyor musunuz?"
+
+msgid "restoreTankman/price"
+msgstr "Fiyatı:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "İptal"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "%(vehiclename)s aracını kurtar"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Kurtar"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Mürettebatsız"
+
+msgid "restoreVehicleDialog/title"
+msgstr "%(vehiclename)s aracını kurtar"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Kurtar'a tıkladıktan sonra satın alınmış Donanım ve Sarf Malzemelerini altınla takas edemeyeceksiniz. Lütfen tüm detayları iyice kontrol edin."
+
+msgid "retrain/cancel"
+msgstr "İptal"
+
+msgid "retrain/changeRole"
+msgstr "Uzmanlık değiştir"
+
+msgid "retrain/discountLabel"
+msgstr "Bu indirim ilk yetenek %100 seviyesinde eğitilmemiş olduğu için sunuluyor."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Tank Akademisinde yeniden eğitim için zaten %100 indiriminizin olması sebebiyle bu seçenek geçerli değil."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Geçersiz"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Yeniden eğitilecek mürettebat üyeleri: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Premium araçlar için mürettebat üyelerini yeniden eğitmeniz gerekmez.\nMürettebatı aynı türden bir Premium araca herhangi bir ceza olmadan aktarabilirsiniz."
+
+msgid "retrain/price"
+msgstr "Fiyatı:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Yeniden eğitim sonrası\nyetenek etkinliği: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Alay Okulu"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Yeniden eğitim sonrası\nyetenek etkinliği: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Hızlı Kurslar"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Yeniden eğitim sonrası\nyetenek etkinliği: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Tank Akademisi"
+
+msgid "retrain/submit"
+msgstr "Yeniden Eğit"
+
+msgid "retrain/title/massive"
+msgstr "Mürettebat %(vehicleName)s&zwnbsp; için yeniden eğitilsin mi?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "%(vehicleName)s için yeniden eğitip\nuzmanlık %(role) olarak değiştirilsin mi?"
+
+msgid "retrain/title/single/simple"
+msgstr "%(vehicleName)s için yeniden eğit"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Uygun olmayan uzmanlığın yetenekleri devre dışı kalacak. Bunları manuel olarak sıfırlayın."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Mürettebat, eğitim gerektirmeden veya ceza almadan aynı türdeki bir Premium araca aktarılabilir ama uygun olmayan yeteneklerin manuel olarak sıfırlanması gerekir."
+
+msgid "rudyInfo/message"
+msgstr "Ölümsüz Klasikler Şimdiden Oyunda! \"Dört Tankçı Adam ve bir Köpek\" (Polonyaca \"Czterej pancerni i pies\") Janusz Przymanowski'nin aynı isimli romanına dayanan siyah beyaz bir Polonyaca TV serisiydi. 9 Mayıs 1966'da gösterime giren bu TV serisi, Rudy (Kızıl) lakaplı bir T-34-85 tankı mürettebatıyla, köpekleri Szarik'in II. Dünya Savaşı sırasındaki maceralarını anlatır."
+
+msgid "rudyInfo/submit"
+msgstr "Olumlu!"
+
+msgid "rudyInfo/title"
+msgstr "Dört Tankçı Adam ve bir Köpek"
+
+msgid "selectVehicle/counter"
+msgstr "Gösterilen araçlar:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Saldıran Aracı Seçin"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Bu aracı seçin"
+
+msgid "sellConfirmation/cancel"
+msgstr "İptal"
+
+msgid "sellConfirmation/submit"
+msgstr "Sat"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "İptal"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Sat"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Satışı Onayla"
+
+msgid "sellShellConfirmation/submit"
+msgstr "'%(shellName)s' mermisini satacak mısınız?"
+
+msgid "sendInvites/common/title"
+msgstr "Taktik Birliğe Davet Et"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "İptal"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Oturum istatistikleri otomatik olarak sıfırlanacak{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Sıfırla"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s sa. %(minutes)s dk."
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Oturum istatistiklerini sıfırlayacak mısınız?"
+
+msgid "shopSyncError/cancel"
+msgstr "Devam Et"
+
+msgid "shopSyncError/message"
+msgstr "Uygulamayı güncelleyin. Eğer hata devam ederse sunucuyu güncelleyin."
+
+msgid "shopSyncError/title"
+msgstr "Eşleştirmeme"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "İptal"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Seçili Yetenek(ler) Eğitilsin mi?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Eğit"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Uygula"
+
+msgid "soundModeInvalid/cancel"
+msgstr "İptal"
+
+msgid "soundModeInvalid/message"
+msgstr "Seçilen bildirim sesi dosyaları hasarlı veya kayıp, bildirim sesi varsayılan olarak belirlenecek."
+
+msgid "soundModeInvalid/submit"
+msgstr "Kaydet"
+
+msgid "soundModeInvalid/title"
+msgstr "Hata"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "İptal"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Seçili ses sistemi, oyun istemcisi tarafından otomatik olarak belirlenenden farklı. Bazı sesler geçerli olmayabilir. Ses farkını test etmenizi öneririz. Değişikliği onaylıyor musunuz?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Onayla"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Ses Sistemi Uyumsuzluğu"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Hayır"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Seçili ses sistemi oyun istemcisi tarafından otomatik olarak belirlenenden farklı. Bazı sesler geçerli olmayabilir. Optimal ses ayarları uygulansın mı?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Evet"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Ses Sistemi Uyumsuzluğu"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Tamam!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Etkinlik devre dışı. Takım dağıtılacak."
+
+msgid "squad/eventDisabled/title"
+msgstr "Etkinlik Sona Erdi"
+
+msgid "squad/goToAnother/cancel"
+msgstr "İptal"
+
+msgid "squad/goToAnother/message"
+msgstr "Takımdasınız. Kip değiştirirseniz Takımdan çıkarılacaksınız."
+
+msgid "squad/goToAnother/submit"
+msgstr "Devam Et"
+
+msgid "squad/goToAnother/title"
+msgstr "Kipi Değiştir"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "İptal"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "Oyun kipini değiştirdiğinizde mevcut Takımınız dağıtılacak. Savaş türünü gerçekten değiştirmek istiyor musunuz?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Onayla"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Oyun Kipini Değiştirme"
+
+msgid "squad/goToSquad/cancel"
+msgstr "İptal"
+
+msgid "squad/goToSquad/message"
+msgstr "Taktik birlikten çıkıp oyuncu ile Takım oluşturacak mısınız?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Oluştur"
+
+msgid "squad/goToSquad/title"
+msgstr "Takım Oluştur"
+
+msgid "squad/leave/cancel"
+msgstr "İptal"
+
+msgid "squad/leave/message"
+msgstr "Takımdan ayrılmak istediğinizden emin misiniz?"
+
+msgid "squad/leave/submit"
+msgstr "Onayla"
+
+msgid "squad/leave/title"
+msgstr "Çıkışı Onayla"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Devam Et"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Takımdan ayrılamazsınız. Takım üyesisiniz ve savaşa hazırsınız."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Dikkat"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "İptal"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Takım eksik. Bir oyuncu daha otomatik olarak eklenecek. Savaşa katıl?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Savaş!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Takım Hazır Değil"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "İptal"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Takım dolu değil. Yine de savaşa katılacak mısınız?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Savaş!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Takım Hazır Değil"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "İptal"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Takım eksik. Otomatik olarak oyuncu ekle ve savaşa katıl?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Savaş!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Takım Hazır Değil"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "İptal"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Takım üyelerinden biri hazır değil. Yine de savaşa katılacak mısınız?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Savaş!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Takım Hazır Değil"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "İptal"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Hazır olduğunu onaylamayan oyuncu taktik birimde çıkarılacak. Otomatik olarak bir oyuncu daha eklenecek. Savaşa katılacak mısınız?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Savaş!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Takım Hazır Değil"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "İptal"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Takım üyelerinin ikisi de hazır değil. Yine de savaşa girecek misiniz?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Savaş!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Takım Hazır Değil"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "İptal"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Hazır olduğunu onaylamayan oyuncular taktik birlikten çıkarılacak. Otomatik olarak oyuncu ekle ve savaşa katıl?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Savaş!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Takım Hazır Değil"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Yeni savaşa katılınamıyor: bir çok oyuncu geri gelmedi. Gerçekleşmekte olan savaşın bitmesini bekleyin."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Olumlu!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Takım Hazır Değil"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "Tamam"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Sadece Premium Hesap kullanıcıları bir Takım oluşturabilir. \nTakım oluşturan kullanıcı, hesap türü ne olursa olsun başka bir kullanıcıyı davet edebilir."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Yalnızca Premium Hesap"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Oyunu Kapatın"
+
+msgid "steamStartNeeded/message"
+msgstr "Doğru şekilde giriş yapabilmek için oyunun Steam üzerinden başlatılması gereklidir."
+
+msgid "steamStartNeeded/title"
+msgstr "Giriş Yapılamıyor"
+
+msgid "stronghold/leave/cancel"
+msgstr "İptal"
+
+msgid "stronghold/leave/message"
+msgstr "Müfrezeden ayrılmak istediğinizden emin misiniz?"
+
+msgid "stronghold/leave/submit"
+msgstr "Onayla"
+
+msgid "stronghold/leave/title"
+msgstr "Çıkışı Onayla"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Çıktığınızda müfreze dağıtılacak.\nKlan savaşa girmediği için ceza alacak.\nMüfrezeden çıkmak istediğinizden emin misiniz?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Çıkışı Onayla"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "İptal"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Devam Et"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Başka Bir Sunucuya Transfer"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "İptal"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s takas için verilecek ve kurtarma için geçerli olmayacaktır.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Ek olarak, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "mürettebat Kışlaya gönderilecek"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "sarf malzemeleri depoya gönderilecek"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "donanım ücretsiz olarak sökülecek"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "satın alınmış tüm Çift Modifikasyonlar iptal edilecek ancak Standart Modifikasyon gelişimi saklanacak"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "mühimmat Depoya gönderilecek"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Takas Et"
+
+msgid "tradeInConfirmation/title"
+msgstr "Araç Takası"
+
+msgid "tradeInPopover/descr"
+msgstr "Garajdaki Premium araçlar"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Seçili araçların ülkelerini gösterir."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Ülke"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Seçili araçlar takas edildiğinde ne kadar tasarruf edeceğinizi gösterir"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Araç\ndeğerlendirmesi"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Araç Değerlendirmesi"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Seçili araçların Seviyelerini gösterir."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Seviye"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Seçili araçların isimlerini gösterir."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "İsim"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Seçili araçların türlerini gösterir."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Tür"
+
+msgid "tradeInPopover/title"
+msgstr "Takas Edilecek Aracı Seçin"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Araç Seçin"
+
+msgid "updateNeeded/cancel"
+msgstr "Sonra Başlat"
+
+msgid "updateNeeded/message"
+msgstr "Lütfen uygulamayı güncelleyin."
+
+msgid "updateNeeded/submit"
+msgstr "Güncelle"
+
+msgid "updateNeeded/title"
+msgstr "Güncelleme Gerekiyor"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "İptal"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "{%d} altın karşılığında mürettebat üyesi eğitilsin mi?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Eğitim"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Eğitimi Onayla"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "Tamam"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Eğitim için yeterli altın yok."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "Tamam"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Yetersiz altın."
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "İptal"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "{%d} kredi karşılığında mürettebat üyesi eğitilsin mi?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Eğitim"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Eğitimi Onayla"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "Tamam"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Eğitim için yeterli kredi yok."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "Tamam"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Yeterli kredi yok."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "İptal"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Değişiklikler kaydedilmeyecek. Araç yapılandırma menüsünden çıkacak mısınız?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Onayla"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Değişiklikleri İptal Et"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Garajdan çıkar %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "İptal"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Dikkat! Bu özel bir araçtır. Eğer satarsanız kurtarmak için %(cooldown)s gün beklemeniz gerekecektir. Aracı satacak mısınız?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Onayla"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Satışı Onayla"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "İptal"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Dikkat! Bu özel bir araçtır. Ancak, satarsanız, kurtarabilirsiniz. Aracı satacak mısınız?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Onayla"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Satışı Onayla"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "İptal"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "İptal"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "DİKKAT! Bu tank özeldir ve kurtarılamaz. Mürettebat da ayrıca temelli terhis edilecektir."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Onayla"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Satışı Onayla"
+
+msgid "vehicleSell/unique/message"
+msgstr "Dikkat! Bu özel bir araçtır. Dükkândan satın alınamaz. Devam edecek misiniz?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Evet"
+
+msgid "vehicleSell/unique/title"
+msgstr "Satışı Onayla"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "Satın Almayı Onayla"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Onaylamak için \"Toplam\" sütunundaki satış maliyetini girin (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Hatalı bilgi girdiniz."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "MÜHİMMAT:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "YÖNERGELER:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "İptal"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "TOPLAM:"
+
+msgid "vehicleSellDialog/count"
+msgstr "adet"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Emekli Et"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Kışlaya Gönder"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "MÜRETTEBAT:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "DIŞ GÖRÜNÜM:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Demonte Et"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "SARF MALZEMELERİ:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Detaylar"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "DEPO:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Harcanan:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Aracın tüm ulusal yapılandırmaları dâhil!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Parçalar"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "DONANIM:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Araç satıldığında mevcut Saha Geliştirmeleri Seviyesi kalacak ama tüm Çift Modifikasyonlar iptal edilecek."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Alındı:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Kaldır"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Sat"
+
+msgid "vehicleSellDialog/title"
+msgstr "Sat: %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Depoya Gönder"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Elit"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Maliyet"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Seviye. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Rol: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Tank Avcısı"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "KMT"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Ağır Tank"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Hafif Tank"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Orta Tank"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Olumlu!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Sesli sohbet başlatılırken hata: servis şu anda devre dışı."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Sesli Sohbet Başlatılıyor"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "Tamam"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Sesli sohbet başarı ile başlatıldı."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Sesli Sohbet Başlatılıyor"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Kapat"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Yüksek Kalitede Su yalnızca 'Ekstra Temizleme' seçeneği açılırsa kullanılabilir."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Su Kalitesi Mevcut Değil"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "İptal"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Araçların Garajda olup olmadığını kontrol edin"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Fiyatı: %(price)s %(icon)s (Mevcut: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Oyuncu: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Seçili araçlar: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Göreve Hazır Hale Getir"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Göreve hazır hale getirilsin mi?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Yardımcı"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Devamlılık Ödülleri"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Savaş Bonusu"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Savaş Kartı Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Harita Engelleme"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Özel Araç"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Özel Araçlar"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Ücretsiz Donanım Sökme"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Altın Yedeği"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Yoğun Mürettebat Programı"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Yönetilebilir DP Çarpanı"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro Takviye"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Hizmet Kaydı Özelleştirmesi"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Tankçı Sancağı"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS AKTİF"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Hazırım!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "{{date}} tarihinde uzatılır"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS CORE AKTİF"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Detaylar"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360 günlük plan"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180 günlük plan"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, {{date}} tarihinde uzatılır"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO AKTİF"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Etkinleştir"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}} {{@ style (color #fff)}}{{boostInterval}} saat{{/}} boyunca başka bir araca takviye sağlayamayacaksınız.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Pro Takviyeyi etkinleştirmek bu aracın {{@ style (color #fff)}}{{bonusPercent}} daha fazla Kredi ve DP{{/}} kazanmasını sağlar. Sadece bir araca uygulanır."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "{{vehicle}} için Pro Takviye etkinleştirilsin mi?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Değiştir"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Sadece bir araç takviye alabilir. {{@ style (color #fff)}}{{boostInterval}} saat{{/}} boyunca başka bir araca takviye sağlayamayacaksınız.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Pro Takviyeyi etkinleştirmek bu aracın {{@ style (color #fff)}}{{bonusPercent}} daha fazla Kredi ve DP{{/}} kazanmasını sağlar. Sadece bir araca uygulanır."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Pro Takviye {{vehicle}} aracına değiştirilsin mi?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "İptal"
+
+msgid "wotPlusRental/description"
+msgstr "Bir sonraki araç kiralama {white_Open}%s{white_Close} tarihinde mümkün olacak"
+
+msgid "wotPlusRental/submit"
+msgstr "Kirala"
+
+msgid "wotPlusRental/title"
+msgstr "{cream_Open}%s{cream_Close} kiralansın mı?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Kaydet"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Hizmet Kaydı özelleştirmenizi kaydetmek istiyor musunuz?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "İptal"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Bu araçta kazanılan bütün deneyimi mürettebat eğitimine harcayın. En deneyimsiz mürettebat üyesi iki katı hızda eğitilir."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "AÇIK"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Mürettebat Eğitimi Hızlandırılsın mı?"

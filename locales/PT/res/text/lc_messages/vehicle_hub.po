@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Permite que uma série de projéteis seja disparada do carregador, um a um, sendo que cada projétil é recarregado automaticamente ao longo do tempo."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Permite que uma série de projéteis seja disparada do carregador, um a um, sendo que cada projétil é recarregado automaticamente ao longo do tempo. Providencia um bónus na velocidade de carregamento do próximo projétil durante a recarregamento."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Dispara rajadas rápidas de cartuchos para causar dano elevado num curto espaço de tempo, à custa da penetração e da precisão. Mais eficaz em combate a curta distância."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Dispara projéteis em estrela, causando dano máximo num raio de 50 m. Os danos dos projéteis diminuem com a distância, tornando-os mais eficazes em combate próximo."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Um sistema de arrefecimento único que permite a dupla mira: esperar depois de recarregar permite que a arma dispare com mais precisão. A precisão melhorada é demonstrada por um segundo círculo de mira mais pequeno."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Um sistema de arma dupla com a capacidade de disparar ambos os canos separadamente ou em simultâneo. Os disparos duplos causam grande dano de rajada, mas têm um recarregamento mais longo."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Permite que o chassis do veículo altere os ângulos de elevação, oferecendo oportunidades de tiro a partir de mais posições em batalha. A ativação depende de várias condições."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Altera a posição das rodas adicionais para aumentar significativamente a velocidade, mas à custa da capacidade de manobra. É melhor utilizado para percorrer longas distâncias e para ataques rápidos."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Permite disparar uma série de projéteis do carregador antes de necessitar de um recarregamento completo. Causa danos elevados em rajada, mas deixa o veículo vulnerável durante o recarregamento. Só é possível recarregar o carregador inteiro de uma só vez."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "A arma pode disparar continuamente sem necessidade de recarregar. Cada tiro gera calor: quanto maior for a temperatura, mais alguns dos seus parâmetros se alteram. Disparar continuamente fará com que a arma sobreaqueça, impedindo novos disparos até que arrefeça."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Aumenta a potência do motor e a velocidade máxima para um movimento rápido no campo de batalha. Quando ativados, os jatos reduzem a capacidade de manobra e não podem ser desativados manualmente."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Quando ativado, este modo especial aumenta e/ou altera determinados parâmetros de batalha. Melhor ativado quando em posição e pronto para enfrentar o inimigo."
+
+msgid "abilities/common/description/stun"
+msgstr "Atordoa os veículos inimigos dentro de um certo raio de explosão, mesmo sem um golpe direto, piorando brevemente a sua mobilidade, precisão e tempo de recarregamento. Os inimigos atordoados são marcados com um indicador de atordoamento."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Permite ao veículo mover-se a uma velocidade reduzida quando a lagarta principal é destruída. A perda de uma lagarta exterior adicional reduz ainda mais a mobilidade, mas o veículo ainda pode virar e mover-se."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Permite que o veículo viaje significativamente mais rápido, ao mesmo tempo que diminui consideravelmente os parâmetros de manuseamento da arma."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Quando ativado, este modo especial oferece dano a dobrar e aumenta e/ou altera certos parâmetros de batalha. Melhor utilizado em combates a curta distância."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Recarregamento Automático"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Recarregador Automático Melhorado"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Canhão Automático"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Arma de Estrias Profundas"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Arrefecimento da Arma"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Arma Dupla"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Suspensão Hidropneumática"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Modo Rápido"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Carregador Automático"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Canhão Automático com Controle Térmico de Sobreaquecimento"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Propulsores a Jacto"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Modo de Cerco"
+
+msgid "abilities/common/name/stun"
+msgstr "Atordoar"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Lagarta de Reserva"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Modo Turbo"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Modo Tiro de Salva"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Ao permanecer imóvel ou ao mover-se lentamente, aumenta os níveis de precisão para melhorar a precisão do seu próximo tiro.\nNo nível mais elevado de precisão, obtém um manuseamento da arma decente, com uma dispersão reduzida, mesmo durante o movimento ou a rotação da torre/chassis."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Sempre que atingir um inimigo com um projétil, ganha um nível de eficiência de recarregamento, aumentando temporariamente a velocidade de recarregamento da sua arma. Os níveis acumulam com cada tiro. \nDestruir um veículo inimigo com um projétil concede níveis de eficiência de recarregamento adicionais."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Se a sua arma estiver carregada, pode começar a aquecer o seu próximo tiro para aumentar o dano: quanto maior o nível de aquecimento, maior o efeito.\nNo aquecimento máximo, tem vários segundos para disparar; caso contrário, ficará temporariamente impossibilitado de disparar."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Acertar dois tiros penetrantes em veículos inimigos ativa o modo Rajada, carregando um cartucho de tiro em rajada que permite disparar dois projéteis em rápida sucessão no próximo tiro, causando danos enormes."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "O Giro-Estabilizador Pneumático garante a máxima estabilização durante o movimento, a deslocação do chassis e deslocação da torre, permitindo disparos mais precisos, bem como uma resposta rápida a ameaças súbitas e um combate eficaz a partir de cobertura."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "O sistema começa a carregar automaticamente um novo cartucho quando apenas resta um cartucho no cartucho atual, mantendo-o pronto para o combate. Ainda pode disparar o último cartucho durante este processo, mas isto acrescenta vários segundos ao tempo restante de carregamento."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "O sistema mantém a arma arrefecida, permitindo disparos de alta precisão. A arma aquece ao ser disparada, mas começa a arrefecer e regressa aos parâmetros otimizados durante o recarregamento. Quanto mais elevada for a temperatura, mais alguns dos seus parâmetros se alteram."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Com base na experiência de design dos modelos anteriores, este veículo foi especialmente configurado para ataques mortais de abalroamento. Os reforços estruturais permitem-lhe causar mais dano ao abalroar veículos inimigos, dando-lhe uma vantagem em confrontos a curta distância."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "A arma deste veículo pode disparar antecipadamente: os disparos de carga única, efetuados durante o recarregamento, têm eficácia reduzida, enquanto os disparos regulares de carga total após o recarregamento possuem parâmetros balísticos otimizados."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "A arma pode disparar continuamente sem necessidade de recarregar. Cada tiro gera calor: quanto maior for a temperatura, mais alguns dos seus parâmetros se alteram. Disparar continuamente fará com que a arma sobreaqueça, impedindo novos disparos até que arrefeça."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Permaneça imóvel ou mova-se lentamente para acumular pré-aquecimento, aumentando o dano e a precisão do seu próximo tiro. No pré-aquecimento máximo, penetrar um inimigo com menos HP do que o seu dano médio causa uma explosão no suporte de munições, destruindo o veículo."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Este modo transforma o seu veículo numa plataforma de armas fortificada, garantindo uma precisão superior e um tempo de recarga mais rápido. Em troca deste poder de fogo melhorado, a mobilidade do veículo — velocidade para a frente/marcha-atrás e deslocamento vertical/horizontal — é severamente limitada."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Este modo proporciona um aumento significativo da potência do motor e da velocidade máxima. Quanto mais conduz, mais velocidade acumula, permitindo-lhe avançar pelo campo de batalha e percorrer grandes distâncias com facilidade."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "O sistema acumula uma carga ao longo do tempo, e uma carga maior concede mais bónus de dano. A carga é limitada por um limitador, que pode ser desativado para um bónus de dano ainda maior à custa de um manuseamento de arma reduzido."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Ative os Propulsores de Combustível Líquido a qualquer momento para um impulso de velocidade quando mais precisa. Os propulsores aquecem e têm de arrefecer antes de poderem ser reutilizados, ao passo que exceder o nível crítico de aquecimento irá desativá-los por completo temporariamente."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Propulsores de combustível sólido que melhoram a aceleração, a mobilidade e a manobrabilidade do veículo durante alguns segundos. Ao contrário dos propulsores a jato convencionais, os propulsores esquerdo e direito podem funcionar independentemente um do outro para uma rotação mais rápida do chassis e não restringem a capacidade de marcha-atrás."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Dependendo do modo ativo e do nível de carga, o veículo pode ativar uma de duas habilidades:\nPós-Combustor de Descarga de Iões: Aumenta a potência e a velocidade do motor.\nMira Eletromecânica de Coincidência: Reduz a dispersão e o tempo de recarregamento e melhora a precisão."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Este módulo mantém-no na luta, permitindo-lhe interromper o recarregamento a qualquer momento se pelo menos uma munição estiver carregada. Pressione a tecla de atalho para interromper o recarregamento, dispare após um curto período de tempo, depois recomece o recarregamento manualmente ou deixe o carregador recarregar-se automaticamente quando estiver vazio."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Premir o botão de ativação dispara as armas auxiliares do veículo contra o alvo. Este poder de fogo adicional tem o seu próprio ciclo de recarregamento, independente da arma principal."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "O seu próximo tiro aplica um efeito baseado no estado de deteção do inimigo. Atingir um inimigo detetado irá marcá-lo - ele permanecerá detetado por mais tempo e receberá mais dano. Atingir um inimigo não detetado irá destacar a sua localização com um marcador especial."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Oferece o dobro do dano e uma estabilização melhorada à custa da mobilidade, precisão, velocidade de rotação da torre e tempo de mira. Melhor utilizado em combate próximo."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Esta modificação mecânica aumenta significativamente a aceleração, a potência do motor e a velocidade máxima para a frente e para trás do veículo durante um curto período de tempo, permitindo-lhe reagir rapidamente aos ataques inimigos e surpreender os adversários com manobras dinâmicas."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Dispositivo Analógico de Cálculo Balístico"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Depósito de Munições Semi-automático"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Sobrecarga Termo-Balística"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Modo Rajada"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Giro-Estabilizador Pneumático"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Sistema de Carregamento de Cassete"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Arrefecimento Ativo da Arma"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Configuração de Abalroamento"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Sistema de Carga Múltipla"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Canhão Automático com Controle Térmico de Sobreaquecimento"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Sistema de Controlo Térmico do Combustível"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Modo Casamata"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Transmissão Direta"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Pós-Combustor de Propelente por Indução"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Propulsores de Combustível Líquido"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Propulsores de Foguetes Sequenciais"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Pacote de Potência Tático"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Módulo Externo de Abastecimento de Munições"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Armas Auxiliares"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Designador de Alvo a Laser"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Modo Tiro de Salva"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Assistência do Turbocompressor de Alta Pressão"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Aumenta a precisão do seu próximo tiro, com uma decente estabilização na calibração completa."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Cada tiro certeiro num veículo inimigo aumenta a velocidade de recarregamento da arma por um tempo limitado."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Aumenta os níveis de aquecimento para causar mais dano aos veículos inimigos no seu próximo tiro."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Um cartucho de tiros em rajada que permite disparar dois projéteis em rápida sucessão."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maximiza a estabilização durante o movimento e a rotação para tiros mais precisos."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Inicia o carregamento automaticamente no último projétil, que ainda pode ser disparado durante o recarregamento."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Um sistema de arrefecimento ativo da arma que melhora a precisão à medida que a arma arrefece."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Aumenta o dano causado por abalroamento a veículos inimigos."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Uma mecânica especial de arma que permite disparar mais cedo à custa da eficácia do disparo."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "O sistema permite disparos contínuos sem recarregamento e controla a forma como a arma gera calor durante o disparo."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Ficar parado ou mover-se lentamente aumenta o dano e a precisão do próximo disparo."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Aumenta drasticamente a precisão da arma e a velocidade de carregamento, mas limita severamente a mobilidade."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Aumenta a potência do motor, aumentando a velocidade máxima quanto mais tempo o veículo permanecer em movimento."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "O sistema carrega para aumentar o dano. Quanto maior a carga, maior o dano."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Os jatos que podem ser ativados a qualquer momento para proporcionar uma explosão de velocidade."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Propulsores de combustível sólido que aumentam a aceleração, a mobilidade e a capacidade de manobra."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Carrega uma de duas habilidades exclusivas: aumento da velocidade ou melhoramento da precisão da arma."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Permite interromper o carregamento e voltar a disparar em momentos cruciais."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Algumas armas adicionais para fornecer maior poder de fogo juntamente com a arma principal."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Aumenta o tempo que os inimigos permanecem detetados e o dano sofrido ou destaca-os com um marcador especial."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Permite disparar de ambas as armas em simultâneo à custa de um aumento do tempo de recarregamento."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Uma mecânica especial que aumenta a potência do motor, a aceleração e a velocidade máxima durante um curto período de tempo."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Permanecer estacionário ou mover-se abaixo de uma determinada velocidade permite ao seu veículo calibrar o Dispositivo Analógico de Cálculo Balístico e construir níveis de precisão, aumentando a precisão do seu próximo disparo. Se exceder o limite de velocidade, o seu progresso na construção dos níveis de precisão será pausado até abrandar. No nível de precisão mais elevado, o seu veículo ganha uma estabilização da arma decente, com dispersão reduzida do movimento ou rotação da torre/chassis. O efeito é removido ao disparar."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Sempre que atingir um inimigo visível com um projétil, ganha um nível de eficiência de recarregamento, aumentando temporariamente a velocidade de recarregamento da sua arma. Os níveis acumulam com cada tiro e destruir um veículo inimigo com um projétil concede níveis de eficiência de recarregamento adicionais."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Se a sua arma estiver carregada, pode começar a aquecer o seu próximo disparo. Quanto maior o nível de aquecimento que atingir, maior será o bónus do dano médio. Durante o processo de aquecimento, não pode trocar de munições. Quando atingir o nível máximo de aquecimento, inicia-se uma contagem decrescente. Se não disparar antes que termine, não poderá disparar durante vários segundos."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Acertar dois tiros que penetrem a blindagem em veículos inimigos, ativa o modo Rajada, carregando uma cassete de tiro de rajada que permite disparar dois projéteis em sucessão rápida com o próximo tiro."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "O Giro-Estabilizador Pneumático garante a máxima estabilização durante a deslocação do chassis e da torre durante um curto período de tempo, permitindo disparos mais precisos em movimento e uma reação rápida a ameaças súbitas."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "O sistema começa automaticamente a carregar um novo carregador quando resta apenas um projétil no atual. Disparar o projétil final enquanto o novo carregador está a ser carregado acrescenta vários segundos ao tempo de recarregamento restante. Premir o atalho de Recarregar Contentor de Projéteis descarta todos os projéteis restantes exceto o último. Prima o atalho duas vezes para repor um carregador completamente carregado."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "O sistema mantém a arma arrefecida, permitindo disparos de alta precisão. A arma aquece ao ser disparada, mas começa a arrefecer e regressa aos parâmetros otimizados durante o recarregamento. Quanto mais elevada for a temperatura, mais alguns dos seus parâmetros se alteram."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Este veículo está especialmente configurado para ataques de abalroamento, com uma série de modificações de design que o ajudam a causar mais dano ao abalroar veículos inimigos."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "A arma deste veículo pode disparar antecipadamente: os disparos de carga única, efetuados durante o recarregamento, têm eficácia reduzida, enquanto os disparos regulares de carga total após o recarregamento possuem parâmetros balísticos otimizados."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "A arma pode disparar continuamente sem necessidade de recarregar. Cada tiro gera calor: quanto maior for a temperatura, mais alguns dos seus parâmetros se alteram. Disparar continuamente fará com que a arma sobreaqueça, impedindo novos disparos até que arrefeça."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Permanecer estacionário ou mover-se abaixo de uma determinada velocidade gera pré-aquecimento, que aumenta o dano médio e a precisão do seu próximo disparo. Exceder o limite de velocidade reduz gradualmente o bónus, enquanto disparar ou trocar de munições o repõe instantaneamente. No nível máximo de pré-aquecimento, penetrar a blindagem de um veículo inimigo com menos pontos de vida do que o seu dano médio — incluindo o seu bónus de pré-aquecimento acumulado — fará com que o seu depósito de munições exploda, destruindo o veículo instantaneamente."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "Neste modo, a precisão da arma, a velocidade de recarregamento e os ângulos de elevação/depressão são drasticamente aumentados, mas a mobilidade (velocidade para a frente/para trás e velocidade de rotação vertical/horizontal) é severamente limitada. Os valores percentuais são dados em comparação com o modo Cerco."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "O modo Transmissão Direta proporciona um aumento significativo na potência do motor e na velocidade máxima para a frente. Quanto mais tempo conduzir para a frente, mais velocidade ganha, permitindo-lhe atravessar o campo de batalha com facilidade."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Com o tempo, o sistema acumula automaticamente uma carga, que é parcialmente consumida para aumentar o dano ao disparar. Quanto maior a carga, maior o bónus de dano. Por defeito, o sistema armazena a carga apenas até um determinado limite. Desativar o limitador permite acumular uma carga ainda maior, concedendo um bónus de dano muito maior, mas reduzindo o manuseamento da arma."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Os Propulsores de Combustível Líquido concedem um impulso de potência do motor, permitindo-lhe ganhar uma vantagem posicional no campo de batalha, mas limitando a velocidade de marcha-atrás e de rotação do seu veículo. Podem ser ativados ou desativados a qualquer altura, exceto depois de atingir o limite de reativação. Os propulsores aquecem enquanto estão ativos e ficam indisponíveis até arrefecerem, o que significa que não podem ser usados sem parar - ao passo que exceder o nível crítico de aquecimento irá desativá-los por completo temporariamente. Planeie os seus movimentos cuidadosamente para não ser apanhado desprevenido."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Propulsores de combustível sólido que melhoram a aceleração, mobilidade e manobrabilidade do veículo durante vários segundos. Ao contrário dos propulsores a jato regulares, os propulsores esquerdo e direito podem funcionar de forma independente para uma rotação do chassis mais rápida, e não restringem a capacidade de marcha-atrás. Podem ser utilizados várias vezes por batalha, mas requerem um período de cooldown antes de serem reativados."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Dependendo do modo ativo e do nível de carga, o veículo pode ativar uma de duas habilidades: Pós-Combustor de Descarga de Iões ou Mira Eletromecânica de Coincidência.\nO Pós-Combustor de Descarga de Iões aumenta temporariamente a potência do motor, a velocidade máxima para a frente e a velocidade de marcha-atrás. A Mira Eletromecânica de Coincidência melhora temporariamente a precisão e reduz o tempo de recarregamento."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "O Módulo Externo de Abastecimento de Munições permite-lhe interromper o recarregamento e começar a disparar a qualquer momento, desde que ainda tenha um projétil carregado. Durante o recarregamento, o módulo bloqueia a torre do veículo e os depósitos de munições externos, impedindo-o temporariamente de mirar ou disparar a menos que o interrompa."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Este veículo está equipado com um conjunto de armas auxiliares cujo ciclo de recarregamento é independente da arma principal, permitindo causar dano adicional em momentos decisivos."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "O Designador de Alvo a Laser adiciona um efeito especial ao seu próximo disparo, aplicado a qualquer inimigo que atinja. O efeito varia consoante o inimigo tenha sido detetado no momento do impacto. Atingir um veículo inimigo detetado irá marcá-lo, prolongando o tempo em que permanece detetado e aumentando o dano que recebe dos projéteis, enquanto atingir um veículo inimigo não detetado irá destacar a sua localização com um marcador especial."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Oferece o dobro do dano e uma estabilização melhorada à custa da mobilidade, precisão, velocidade de rotação da torre e tempo de mira. Melhor utilizado em combate próximo."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Esta modificação mecânica aumenta significativamente a aceleração, a potência do motor e a velocidade máxima para a frente e para trás do veículo durante um curto período de tempo, permitindo-lhe reagir rapidamente aos ataques inimigos e surpreender os adversários com manobras dinâmicas. Manter uma velocidade de movimento elevada acelera o cooldown da mecânica."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Todos os valores apresentados são o máximo possível para o veículo. Equipamento, diretivas e consumíveis podem alterar estes valores, mas essas alterações não estão refletidas aqui."
+
+msgid "characteristics/templates/upTo"
+msgstr "Até %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Adquirir e Montar"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Modificação de Campo"
+
+msgid "modules/controls/button/mount"
+msgstr "Montar"
+
+msgid "modules/controls/button/research"
+msgstr "Pesquisar"
+
+msgid "modules/controls/button/sell"
+msgstr "Vender do Armazém"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Este veículo está em combate. Pode modificar os seus módulos quando a batalha terminar."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Este veículo está danificado. Repare-o para poder modificar os seus módulos."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Não foi possível montar o módulo. {{module}} incompatível."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Este veículo está numa unidade tática."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Adquira este veículo para poder modificar os seus módulos."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Pesquise os módulos anteriores para poder pesquisar este módulo."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Pesquise este veículo para poder pesquisar os seus módulos."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Todos os módulos foram pesquisados."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Este módulo já está montado."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Selecione um módulo ou veículo para pesquisar."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Este veículo está em combate. Pode modificar os seus módulos quando a batalha terminar."
+
+msgid "modules/controls/name"
+msgstr "Selecionado: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Chassis"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Motor"
+
+msgid "modules/name/vehicleGun"
+msgstr "Arma"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Rádio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Torre"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Rodas"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Veículos de Colecionador"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Habilidade de ganhar"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "créditos por cada batalha"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "transferência da tripulação sem penalidade"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "EXP de Combate e EXP de Tripulação"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Títulos"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Mais"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Grátis"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Mais"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Ganhar títulos"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Mais créditos"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Transferência gratuita"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Mais experiência"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Caixa de Reparação Grátis"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Habilidade de ganhar"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "créditos por cada batalha"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "transferência da tripulação de qualquer classe de veículo sem penalidade"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "Experiência de Combate e Experiência de Tripulação"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Títulos"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Mais"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Grátis"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Mais"
+
+msgid "overview/crew/name"
+msgstr "Tripulação {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Ver mecânica"
+
+msgid "overview/title/generalDescription"
+msgstr "Descrição do Veículo"
+
+msgid "overview/title/historicalReference"
+msgstr "Referência Histórica"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Até {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Recuperação disponível até {{date}}"
+
+msgid "tabs/armor"
+msgstr "Blindagem"
+
+msgid "tabs/modules"
+msgstr "Módulos"
+
+msgid "tabs/overview"
+msgstr "Visão Geral"
+
+msgid "tabs/stats"
+msgstr "Características"
+
+msgid "tabs/vehSkillTree"
+msgstr "Melhoramentos"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "O aluguer terminou"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Subscrição Suspensa"

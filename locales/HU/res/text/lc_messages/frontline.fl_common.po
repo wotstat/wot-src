@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Szűrők visszaállítása"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Nincs a kiválasztott paramétereknek megfelelő jármű.\nÁllítsd vissza a szűrőt a megfelelő járművek megjelenítéséhez"
+
+msgid "battleType/description/fast"
+msgstr "Egy forgatókönyv csökkentett harci tartalék újratöltési idővel."
+
+msgid "battleType/description/random"
+msgstr "Egy forgatókönyv, amelyben a játékosok véletlenszerű tartalékok közül választhatnak, és lehetőségük van IV-es szintre fejleszteniük azokat."
+
+msgid "battleType/description/standard"
+msgstr "Egy forgatókönyv normál Frontvonal szabályokkal."
+
+msgid "battleType/postBattle/title"
+msgstr "Csataforgatókönyv: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Csökkentett tartalék újratöltési idő."
+
+msgid "battleType/shortDescription/random"
+msgstr "A harci tartalékokat véletlenszerűen kapod."
+
+msgid "battleType/shortDescription/standard"
+msgstr "A normál szabályok érvényesek."
+
+msgid "battleType/title/fast"
+msgstr "Műveleti támogatás"
+
+msgid "battleType/title/random"
+msgstr "Sorsfordulat"
+
+msgid "battleType/title/standard"
+msgstr "Normál csata"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "VISSZA"
+
+msgid "button/close"
+msgstr "BEZÁRÁS"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} nap"
+msgstr[1] "{duration} nap"
+msgstr[2] "{duration} nap"
+
+msgid "filterPopover/note"
+msgstr "Itt csak a módban használható járművek jelennek meg."
+
+msgid "levelReservesTooltip/desc"
+msgstr "A harci tartalékok szintje minden elért új ranggal nő."
+
+msgid "levelReservesTooltip/info"
+msgstr "A {whiteSpanish_Start}Sorsfordulat{whiteSpanish_End} szituáció során vásárolt harci tartalékok szintje 1-gyel nő, és lehetőség van a {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}. szintre való fejlesztésükre."
+
+msgid "levelReservesTooltip/level"
+msgstr "A következő rang elérésekor megnő: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "A következő ranggal érhető el: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "{whiteSpanish_Start}%(lvl)s{whiteSpanish_End}. szint"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "A {whiteSpanish_Start}Sorsfordulat{whiteSpanish_End} szituáció során {whiteSpanish_Start}vásárolt harci tartalékokért{whiteSpanish_End}&zwnbsp;."
+
+msgid "levelReservesTooltip/title"
+msgstr "Harci tartalék szintek"
+
+msgid "loading"
+msgstr "Betöltés..."
+
+msgid "widget/eventStartSoon"
+msgstr "Az esemény hamarosan elkezdődik!"
+
+msgid "widget/maxTier"
+msgstr "Elérted a legmagasabb szintet!"

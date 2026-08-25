@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Екипаж и обучение"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Персонализация"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Оборудване и директиви"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Други"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Машини"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Тъй вярно!"
+
+msgid "autoOpenView/title"
+msgstr "ПОЛУЧЕНИ НАГРАДИ"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Тъй вярно!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Директива"
+
+msgid "bonuses/description/booster"
+msgstr "Личен резерв"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Облик на екипажа"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Стандартно оборудване"
+
+msgid "bonuses/description/style"
+msgstr "Двуизмерен стил"
+
+msgid "bonuses/description/style3D"
+msgstr "Триизмерен стил"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Фрагмент от чертеж (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Универсален фрагмент от чертеж"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Жетон за Боен пропуск"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Когато се отвори, може да се паднат машини, икономически ресурси и други ценни предмети.\nКутиите са налични в Магазина в играта."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "оставащи отваряния до гарантираната награда, ако не се падне по-рано."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Кутиите са налични в Магазина в играта."
+
+msgid "common/backButton"
+msgstr "НАЗАД"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Тактическа кутия"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "ТАКТИЧЕСКА КУТИЯ"
+
+msgid "common/closeButton"
+msgstr "ЗАТВОРИ"
+
+msgid "common/footer/checkbox"
+msgstr "Анимация за отваряне"
+
+msgid "common/getButton/lowerCase"
+msgstr "Вземи още"
+
+msgid "common/getButton/upperCase"
+msgstr "ВЗЕМИ ОЩЕ"
+
+msgid "common/infoButton"
+msgstr "Какво има вътре?"
+
+msgid "common/loader"
+msgstr "Отваряне на кутия..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) бр."
+msgstr[1] "%(count) бр."
+msgstr[2] "%(count) бр."
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "ден"
+msgstr[1] "дни"
+msgstr[2] "дни"
+
+msgid "common/selectTooltip"
+msgstr "Няма достатъчно кутии, за да се отворят {{count}} наведнъж"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Отворете кутии, за да видите статистиките."
+
+msgid "common/statistics/header"
+msgstr "Отворени кутии: %(count)"
+
+msgid "common/statsButton"
+msgstr "Статистика"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Отмени"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Историята на вашите награди ще бъде изтрита."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Нулирай"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Нулирай статистиката?"
+
+msgid "entryPoint/boxes"
+msgstr "КЪМ КУТИИТЕ"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Това са специални кутии, съдържащи нови и уникални предмети. Те могат да бъдат получени от Магазина в играта."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Събитието ще завърши след"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Сблъскахме се с технически проблем и временно спряхме събитието, докато го отстраним."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Временно недостъпни"
+
+msgid "eventName/lowerCase"
+msgstr "Припаси за бойното поле"
+
+msgid "eventName/upperCase"
+msgstr "ПРИПАСИ ЗА БОЙНОТО ПОЛЕ"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)ви"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)ти"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)ри"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)ти"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "всяко %(count)-о отваряне"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "машина"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(item) е гарантирано %(count). Броячът се нулира, ако даденото количество се падне по-рано."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Ако вече притежавате всички машини, вместо такава получавате злато."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) в %(count) отваряния"
+
+msgid "guaranteedTitle/textName"
+msgstr "Гарантирана награда"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Отвори"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Събитието приключва след %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ако не отворите всички кутии преди края на събитието, те ще бъдат отворени автоматично по-късно."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на кутията, тогава всички следващи машини, които получавате от кутии, ще бъдат компенсирани в злато, равно на пълната им стойност."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Всеки %(guaranteed0)s кутии гарантирано съдържат машина ниво VIII–X. Ако ги отворите без да се падне такава машина, тогава машина ниво VIII–X, която още не притежавате, ще се падне, когато отворите %(guaranteed0)s&zwnbsp;-ата кутия (в зависимост от вида на кутията). Когато това се случи, броячът се нулира."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Автоматично отваряне"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Компенсация"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Гарантирана награда"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Вижте списък с елементи в портала на играта"
+
+msgid "infoPage/header/probability/description"
+msgstr "Вероятност да се падне"
+
+msgid "infoPage/header/probability/title"
+msgstr "Група"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Не може да се падне повече от една награда на група"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Награди"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Отворете още"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "От %(name) (%(boxesCount) отворени кутии)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "ПОЛУЧЕНИ НАГРАДИ"
+
+msgid "noBoxesView/description/"
+msgstr "Кутиите са налични в Магазина в играта"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Към Магазина"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Към наличните кутии"
+
+msgid "preview/backLabel"
+msgstr "КЪМ КУТИИТЕ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Налични: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Няма повече кутии"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Продължи"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "за %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "триизмерен стил %(style)"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "Събитието \"%(eventName)s\" приключи"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Всички получени кутии ще бъдат отворени. Съдържанието им ще бъде добавено към акаунта ви."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Виж наградите"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Наградите са получени"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Добавихме артикулите, които не сте получили по време на събитието."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Събитието е временно недостъпно поради профилактика."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Събитието отново е достъпно. Извиняваме се за неудобството."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s броя)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Получени награди:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Грешка"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Моля изчакайте, докато предходната операция бъде завършена."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Действието е временно недостъпно. Опитайте отново по-късно."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Отиди на събитието"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "Събитието \"%(eventName)s\" започна"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Само до %(date)s: Премиум машини и ценно игрово имущество!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Неуспешно нулиране на статистиките. Опитайте пак по-късно."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "И също"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Отворете още"
+
+msgid "singleRewardView/header/title/"
+msgstr "ПОЛУЧЕНИ НАГРАДИ"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Уникален член на екипажа"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "Триизмерни приставки"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Мисии за х5 опит на битка"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Директиви"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Фрагменти от чертежи"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Брошури"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Обучителни брошури"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Снаряжение"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Кредити"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Инструкции"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Обучителни инструкции"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Мисии за х3 опит на екипажа"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Бонове"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Персонализация"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Усъвършенствано оборудване"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Компоненти"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Експериментално оборудване"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Свободен опит"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Злато"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Упътвания"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Обучителни съветници"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Лиценз за менторство"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Стандартно оборудване"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Лични резерви"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "Танков премиум акаунт"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Дажби"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Заповеди за преобучение"
+
+msgid "statisticsRewards/label/style"
+msgstr "Двуизмерни стилове"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "Триизмерни стилове"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Членове на екипажа"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Наградно оборудване"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Машини"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Статистика на нулиранията"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Щракнете, за да нулирате статистиката."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "И още %(count) награда."
+msgstr[1] "И още %(count) награди."
+msgstr[2] "И още %(count) награди."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "\"%(label)\""
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Национален фрагмент от чертеж"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). \"%(label)\" за %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Компенсирани стилове: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Компенсирани машини: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Компенсация за машината, която вече е в Парка ви."

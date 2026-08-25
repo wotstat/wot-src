@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Verander van server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Details"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "De modus is onbeschikbaar op deze server %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "De modus is op alle servers onbeschikbaar"
+
+msgid "alertMessage/modeOffline"
+msgstr "Databasefout. Spelmodus onbeschikbaar."
+
+msgid "alertMessage/noVehicles"
+msgstr "Geen geschikte voertuigen in je garage %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Begrepen!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "BESTORMING LIGHT"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "LAATSTE STADIUM VOLTOOID!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "STADIUM %(level)s VOLTOOID!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Alle missies zijn voltooid!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Voltooid"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Vervalt over: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Bestorming Light-missie"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nieuwe Bestorming Light-missie over: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Beloning:"
+msgstr[1] "Beloningen:"
+msgstr[2] "Beloningen:"
+
+msgid "battleResult/header/deserter"
+msgstr "Je hebt een straf ontvangen"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "BESTORMING LIGHT PROGRESSIE"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Bestorming Light duurt %(days)d dag"
+msgstr[1] "Bestorming Light duurt %(days)d dagen"
+msgstr[2] "Bestorming Light duurt %(days)d dagen"
+
+msgid "calendarDay/title"
+msgstr "Schema"
+
+msgid "closeButtonLabel"
+msgstr "SLUITEN"
+
+msgid "countDown/text"
+msgstr "Evenement begint over:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Een snelle modus met 7v7-gevechten in niveau %(levels)s voertuigen. Geniet van de gameplay van de originele Bestorming-modus zonder kwalificatie, rangen en statistieken, en verdien beloningen via dagelijkse missies."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODUS"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – spelmodus. Klik en ontdek"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Bestorming Light"
+
+msgid "entryPointTooltip/status/active"
+msgstr "De modus is beschikbaar voor %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Staakt-het-vuren%(timer)s"
+
+msgid "featureName"
+msgstr "Bestorming Light"
+
+msgid "featureNameCapitalized"
+msgstr "BESTORMING LIGHT"
+
+msgid "intro/confirmButton"
+msgstr "Begrepen!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Geniet van de gameplay van de originele Bestorming-modus zonder kwalificatie, rangen en statistieken."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "De modus heeft aanpassers die bepaalde parameters van het voertuig veranderen, zoals het aantal levenspunten, de herlaadtijd van verbruiksartikelen, tijd dat je gespot blijft, en meer."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Nadat je bepaalde gebieden op de kaart hebt veroverd, kun je tactische vaardigheden gebruiken. Er zijn twee belangrijke locaties: het Artilleriehoofdkwartier, dat je in staat stelt om een artillerieaanval op een bepaalde positie uit te voeren, en het Communicatiecentrum, dat alle vijandelijke voertuigen verkent. Afhankelijk van de kaart, kunnen de aanwezigheid en plek van deze belangrijke locaties veranderen."
+
+msgid "intro/description/roleSkills"
+msgstr "Afhankelijk van de rol, beschikt elk voertuig over een speciale vaardigheid met drie ladingslevels. Hoe hoger het ladingslevel wanneer de vaardigheid wordt geactiveerd, hoe sterker het effect ervan zal zijn. Het ladingslevel hangt af van het aantal prestigepunten dat wordt verdiend door indrukwekkende gevechtsprestaties, verovering van belangrijke locaties, gebruik van tactische vaardigheden, etc.\n\nLees de regels van de modus om meer te weten te komen over de verschillende manieren waarop je prestigepunten kunt verdienen."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "In de modus kunnen alleen %(levels)s voertuigen worden gebruikt (artillerie en sommige tanks zijn niet beschikbaar). Maak je voertuigen in de garage gevechtsklaar, en kies daarna in het gevecht het beste voertuig op basis van de kaart. Wanneer je een voertuig selecteert, moet je ook rekening houden met welke voertuigen je teamgenoten hebben gekozen."
+
+msgid "intro/title/lightGameplay"
+msgstr "RELAX, COMMANDANT"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "BESTORMING-AANPASSERS"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "BELANGRIJKE LOCATIES"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLVAARDIGHEDEN"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "KIES EEN VOERTUIG VOOR EEN BEPAALDE KAART"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Overwinning"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Nederlaag/gelijkspel"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Goed gedaan, commandant. Ga zo door!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Voltooi missies en eindig hoog in Bestorming Light-gevechten om je progressielevel te verhogen."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Het aantal verdiende progressiepunten hangt af van je plek in het gevecht op basis van prestigepunten."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "De modus eindigt over %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Hoofdprogressie voltooid"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Bestorming Light"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Top 2 met prestigepunten"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Top 5 met prestigepunten"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Top 7 met prestigepunten"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Gebruik WoT Premium account"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Activeer persoonlijke reserves"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Voltooi missies"
+
+msgid "noVehicles/howTo/title"
+msgstr "Hoe kun je het snelst niveau %(levels)s voertuigen onderzoeken?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Om deel te nemen aan Bestorming Light, moet er minstens één niveau %(levels)s voertuig in je garage staan dat geschikt is voor de modus.\nJe kunt niveau %(levels)s Premium voertuigen kopen bij Onderzoek of in de in-game winkel."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Je kunt pas aan Bestorming Light deelnemen wanneer je minstens één niveau %(levels)s voertuig in je garage hebt staan dat voor deze modus geschikt is.\nJe hebt een niveau %(levels)s voertuig dat kan worden hersteld."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Je kunt pas aan Bestorming Light deelnemen wanneer je minstens één niveau %(levels)s voertuig in je garage hebt staan dat voor deze modus geschikt is."
+
+msgid "noVehicles/title"
+msgstr "Geen geschikte voertuigen in je garage"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Bekijk de 'Over Bestorming Light' pagina voor meer details."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestigepunten"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Schade veroorzaken\nAssistentie door verkenning\nRupsbanden vernietigen\nKritische treffers veroorzaken\nVijandelijke voertuigen vernietigen\nEn meer"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Prestigepunten worden verdiend voor specifieke handelingen in gevechten, zoals:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Het seizoen is op de %(server)s-server afgelopen."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Het seizoen is op de %(server)s-server afgelopen."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Het seizoen is op de %(server)s-server afgelopen."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Hoofdprogressie voltooid!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Stadium %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s of %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nieuwe missies over:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Evenement eindigt over:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Missies worden geüpdatet over"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Alle dagelijkse missies zijn voltooid."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progressie voltooid. Speel Bestorming Light om meer beloningen te verdienen."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Voltooi missies en eindig hoog in Bestorming Light-\ngevechten om je progressielevel te verhogen. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Uitgereikt voor het voltooien van speciale missies en spelen van gevechten in Bestorming Light. Deze punten heb je nodig om progressie te boeken."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Bestorming Light progressiepunten"
+
+msgid "selectorTooltip/desc"
+msgstr "Ongeklasseerde modus. 7v7 | niveau %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Bestorming Light"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Volg het nieuws op de spelwebsite om op de hoogte te blijven van de start van het nieuwe seizoen."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Deze modus is wegens technische problemen tijdelijk onbeschikbaar."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Deze modus komt beschikbaar op %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Progressiepunten ontvangen"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Details"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Bestorming Light"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Ontvangen beloningen:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Je hebt progressiestadium %(stage)s in de %(progressionName)s-modus voltooid."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Gefeliciteerd!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Er is een staakt-het-vuren. Bestorming Light-gevechten zijn tijdelijk onbeschikbaar."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Staakt-het-vuren"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Staakt-het-vuren afgelopen. Bestorming Light-gevechten zijn weer beschikbaar."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Staakt-het-vuren"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Over Bestorming Light"

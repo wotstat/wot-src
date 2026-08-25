@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Εκεχειρία {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Η διοργάνωση θα είναι διαθέσιμη από"
+
+msgid "bannerTooltip/description"
+msgstr "Μεγάλες μάχες 30v30 με οχήματα της Βαθμίδας {{vehicleTier}} στους χάρτες Normandie, Kraftwerk και Fata Morgana. Οι επιτιθέμενοι θα πρέπει να καταστρέψουν 3 από τα 5 πυροβόλα μεγάλου διαμετρήματος, ενώ οι αμυνόμενοι θα πρέπει να τα προστατέψουν."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Δείξτε την αξία σας στο πεδίο της μάχης, ανελιχθείτε στους υψηλότερους βαθμούς της διοργάνωσης και διεκδικήστε φήμη, αλλά και πολύτιμα έπαθλα."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Η διοργάνωση τελείωσε, αλλά Υπάρχουν έπαθλα για να παραλάβετε από την επίτευξη Βαθμίδων Πρώτης Γραμμής"
+
+msgid "bannerTooltip/header"
+msgstr "Πρώτη Γραμμή"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Πρώτη Γραμμή | Βαθμίδες {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} - Είδος μαχών. Κλικ για περισσότερες πληροφορίες"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Αυτή η λειτουργία απαιτεί υπολογιστή υψηλών επιδόσεων. Θα έχετε προβλήματα με τη φόρτωση του χάρτη, τα γραφικά και την κίνηση των οχημάτων. Σε περίπτωση ανεπάρκειας, χαμηλώστε την ποιότητα των γραφικών από τις Ρυθμίσεις."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Πιθανώς Μειωμένες Επιδόσεις"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Επιλέξτε έπαθλα για τις ολοκληρωμένες Βαθμίδες ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Ανεπαρκείς πόροι για πραγματοποίηση αγοράς."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Οι αλλαγές θα εφαρμοστούν σε όλα τα αντιαρματικά."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Οι αλλαγές θα εφαρμοστούν σε όλα τα Α/Κ Πυροβόλα."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Οι αλλαγές θα εφαρμοστούν σε όλα τα βαρέα άρματα."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Οι αλλαγές θα εφαρμοστούν σε όλα τα ελαφρά άρματα."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Οι αλλαγές θα εφαρμοστούν σε όλα τα μέσα άρματα."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Ασύμβατο όχημα"
+
+msgid "battleAbilities/points/body"
+msgstr "Μαζέψτε τους απαιτούμενους Πόντους και ενεργοποιήστε τις Εφεδρείες της Πρώτης Γραμμής."
+
+msgid "battleAbilities/points/header"
+msgstr "Πόντοι Εφεδρείας"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Προβολή Εφεδρειών Επίθεσης"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Εφεδρείες Επίθεσης"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Προβολή Εφεδρειών Ανίχνευσης"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Εφεδρείες Ανίχνευσης"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Προβολή Εφεδρειών Στρατηγικής"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Εφεδρείες Στρατηγικής"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Η Εφεδρεία αναβαθμίζεται αφότου φτάσετε στον βαθμό του Λοχαγού και του Ταγματάρχη μέσα στη μάχη. Το μέγιστο επίπεδο καθορίζεται από το σενάριο μάχης."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Πρόσθετες πληροφορίες"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Εφεδρείες Επίθεσης"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Εφεδρείες Ανίχνευσης"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Στρατηγικά Αποθέματα"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Μόνιμα χαρακτηριστικά:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Η τοποθέτηση μιας Εφεδρείας στη θέση αυτή αυξάνει την πιθανότητά της για το σενάριο {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}} κατά {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Επίπεδο Εφεδρείας:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Δεν έχει αγοραστεί!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Η διοργάνωση τελείωσε."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Η διοργάνωση θα ξεκινήσει προσεχώς!"
+
+msgid "infoButton/body"
+msgstr "Κλικ για περισσότερες πληροφορίες."
+
+msgid "infoButton/header"
+msgstr "Σχετικά Με Τη Διοργάνωση"
+
+msgid "levelReserves/desc"
+msgstr "Το Επίπεδο των Εφεδρειών αυξάνεται καθώς φτάνετε σε υψηλότερους βαθμούς:"
+
+msgid "levelReserves/info"
+msgstr "Στο σενάριο {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}}, αγοράζοντας μία Εφεδρεία, θα αυξάνεται το επίπεδό της κατά 1, ενώ θα παρέχεται η δυνατότητα να αναβαθμιστεί στο Επίπεδο {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Αυξάνεται με την προαγωγή στον βαθμό: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Διαθέσιμη στον βαθμό: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Επίπεδο - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Για τις {{@ colorLegacy 'FFE4C0'}}αγορασμένες Εφεδρείες{{/}} στο σενάριο {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Επίπεδα Εφεδρειών"
+
+msgid "playlist/warning/body"
+msgstr "Η συγκεκριμένη λίστα περιλαμβάνει οχήματα μη κατάλληλα για τις μάχες αυτές ή οχήματα που δεν κατέχετε."
+
+msgid "playlist/warning/header"
+msgstr "Μη διαθέσιμα οχήματα (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Αναβάθμιση χαρακτηριστικών Εφεδρείας"
+
+msgid "randomReserve/disable"
+msgstr "Η θέση Εφεδρείας χρησιμοποιείται."
+
+msgid "randomReserve/notPurchased"
+msgstr "Δεν αγοράσθηκαν Εφεδρείες"
+
+msgid "randomReserve/purchased"
+msgstr "Αγοράσθηκαν Εφεδρείες"
+
+msgid "skillOrderTooltip/body"
+msgstr "Η σειρά που ξεκλειδώνονται οι Εφεδρείες διαφέρει ανάλογα με το όχημα:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Σειρά Ξεκλειδώματος Εφεδρειών"
+
+msgid "skillOrderTooltip/info"
+msgstr "Στο σενάριο {{@ colorLegacy 'whiteSpanish'}}Twist of Fate{{/}}, η σειρά με την οποία ξεκλειδώνονται οι Εφεδρείες δεν εξαρτάται από τον τύπο του οχήματος."

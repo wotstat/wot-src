@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Reimposta filtri"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Nessun veicolo corrisponde ai parametri selezionati.\nÈ necessario reimpostare le impostazioni del filtro per vedere i veicoli corrispondenti."
+
+msgid "battleType/description/fast"
+msgstr "Uno scenario con tempo di ricarica delle Riserve di combattimento ridotto."
+
+msgid "battleType/description/random"
+msgstr "Uno scenario in cui i giocatori scelgono tra set di Riserve casuali con la possibilità di migliorarle al livello IV."
+
+msgid "battleType/description/standard"
+msgstr "Uno scenario con regole standard di Prima Linea."
+
+msgid "battleType/postBattle/title"
+msgstr "Scenario di battaglia: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Ricarica delle Riserve ridotta."
+
+msgid "battleType/shortDescription/random"
+msgstr "Riserve di combattimento fornite casualmente."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Regole standard applicate."
+
+msgid "battleType/title/fast"
+msgstr "Supporto operativo"
+
+msgid "battleType/title/random"
+msgstr "Scherzo del destino"
+
+msgid "battleType/title/standard"
+msgstr "Battaglia Standard"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "INDIETRO"
+
+msgid "button/close"
+msgstr "CHIUDI"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} giorno"
+msgstr[1] "{duration} giorni"
+msgstr[2] "{duration} giorni"
+
+msgid "filterPopover/note"
+msgstr "Qui sono visualizzati solo i veicoli utilizzabili nella modalità."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Il livello delle Riserve di combattimento può essere aumentato raggiungendo nuovi ranghi."
+
+msgid "levelReservesTooltip/info"
+msgstr "Nello scenario {whiteSpanish_Start}Scherzo del destino{whiteSpanish_End}, acquistare una Riserva di combattimento ne aumenta il livello di uno e fornisce l'opportunità di migliorarla fino al livello {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Aumenta raggiungendo il seguente rango: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Disponibile con il seguente rango: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Livello {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Per le {whiteSpanish_Start}Riserve di combattimento acquistate{whiteSpanish_End} nello scenario {whiteSpanish_Start}Scherzo del destino{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Livelli delle Riserve di combattimento"
+
+msgid "loading"
+msgstr "Caricamento…"
+
+msgid "widget/eventStartSoon"
+msgstr "L'evento inizierà a breve!"
+
+msgid "widget/maxTier"
+msgstr "Hai raggiunto il livello massimo!"

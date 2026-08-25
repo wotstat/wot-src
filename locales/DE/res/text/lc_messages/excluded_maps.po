@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "backButton/label"
+msgstr "ZURÜCK"
+
+msgid "backButton/to"
+msgstr "ZUM KONTOSTATUS"
+
+msgid "filteredMapsDisplayed"
+msgstr "Angezeigte Karten: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Karten dieses Typs ein-/ausblenden"
+
+msgid "filtersTooltip/header/desert"
+msgstr "Wüstenkarten"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Sommerkarten"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Winterkarten"
+
+msgid "header/cooldown"
+msgstr "Sie können in %(cooldownEndTime) erneut eine Karte ersetzen."
+
+msgid "header/title"
+msgstr "Ausgeschlossene Karten"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Sie können diese Karte nach der Abklingzeit erneut ersetzen."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Ersetzen der Karte nicht verfügbar"
+
+msgid "mapTile/hoverExclude"
+msgstr "Die Karte „%(mapName)“ ausschließen?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Ausschließen"
+
+msgid "mapTile/hoverInclude"
+msgstr "Karte „%(mapName)“ in Zufallsgefechten einschließen?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Einschließen"
+
+msgid "mapsFilterLabel"
+msgstr "Kartentypen:"
+
+msgid "notSelected"
+msgstr "Nicht ausgewählt"
+
+msgid "premium"
+msgstr "WoT-Premium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Ein zusätzlicher Platz ist nur mit einem aktiven WoT-Premiumkonto oder aktivem Abonnement von WoT Plus verfügbar."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Kann mit WoT-Premium-Spielzeit freigeschaltet werden."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Kann mit aktivem Abonnement von WoT Plus freigeschaltet werden."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Wählen Sie eine Karte zum Ersetzen aus der folgenden Liste aus, die Sie aus der Rotation für Zufallsgefechte ausschließen wollen."
+
+msgid "slot/selectTooltipBody"
+msgstr "Wählen Sie eine Karte aus der folgenden Liste aus, die Sie für Zufallsgefechte ausschließen wollen."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Platz verfügbar"
+
+msgid "totalMapsDisplayed"
+msgstr "Angezeigte Karten: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Mit %(linkPremium) können Sie 1 Karte ausschließen, mit %(linkWotPlus) %(mapCount)s weitere."
+msgstr[1] "Mit %(linkPremium) können Sie 1 weitere Karte ausschließen, mit %(linkWotPlus) %(mapCount)s weitere."
+
+msgid "unlock/premium"
+msgstr "Schließen Sie mit %(linkPremium) 1 weitere Karte aus."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Schließen Sie mit %(linkWotPlus) %(mapCount)s weitere Karte aus."
+msgstr[1] "Schließen Sie mit %(linkWotPlus) %(mapCount)s weitere Karten aus."
+
+msgid "wotplus"
+msgstr "WoT Plus"

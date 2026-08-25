@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Překladatel WoT <noreply@wargaming.net>\nLanguage-Team: WoT Tým <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Obecný"
+
+msgid "channels/battle/team"
+msgstr "Tým"
+
+msgid "channels/clan"
+msgstr "Klan"
+
+msgid "channels/common"
+msgstr "Obecný"
+
+msgid "channels/epic_training"
+msgstr "Výcvik – Frontová linie"
+
+msgid "channels/nubs"
+msgstr "Rekruti"
+
+msgid "channels/prebattle"
+msgstr "Před bitvou"
+
+msgid "channels/special_battles"
+msgstr "Speciální bitva"
+
+msgid "channels/squad"
+msgstr "Četa"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Četa byla založena. Počkejte, než se hráči připraví."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Četa"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Četa byla založena. Všichni hráči jsou připraveni."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Četa"
+
+msgid "channels/system"
+msgstr "Systém"
+
+msgid "channels/tournament"
+msgstr "Turnaj"
+
+msgid "channels/trading"
+msgstr "Obchod"
+
+msgid "channels/training"
+msgstr "Výcvik"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Administrátor chatu je zároveň moderátorem kanálu."
+
+msgid "errors/addmoderatorowner"
+msgstr "Majitel kanálu je zároveň jeho moderátorem."
+
+msgid "errors/banchannelowner"
+msgstr "Majitel kanálu nemůže být zabanován."
+
+msgid "errors/banchatadmin"
+msgstr "Administrátor chatu nemůže být zabanován."
+
+msgid "errors/banned"
+msgstr "Zabanoval vás uživatel %(banOwnerNick)s do %(banEndTime)s. Důvod: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Zabanoval vás uživatel %(banOwnerNick)s. Důvod: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Byl jste zabanován do %(banEndTime)s. Důvod: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Byl jste zabanován. Důvod: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Příkaz %(command)s byl zablokován na %(cooldownPeriod)s s."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Administrátorovi chatu nelze odebrat moderátorská práva."
+
+msgid "errors/delmoderatorowner"
+msgstr "Majiteli kanálu nelze odebrat moderátorská práva."
+
+msgid "errors/timeincorrect"
+msgstr "Parametr ‘time’ musí obsahovat kladnou hodnotu minut v rozsahu [1-1440] nebo ‘permanent’"
+
+msgid "errors/toomanyargs"
+msgstr "Příliš mnoho parametrů."
+
+msgid "errors/toosmallargs"
+msgstr "Nedostatek parametrů."
+
+msgid "errors/userbanhimself"
+msgstr "Nemůžete zabanovat sám sebe."
+
+msgid "messages/userbanned"
+msgstr "Uživatel %(banedUser)s byl zabanován uživatelem %(banOwnerNick)s do %(banEndTime)s. Důvod: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Uživatel %(banedUser)s byl navždy zabanován uživatelem %(banOwnerNick)s. Důvod: %(banReason)s"

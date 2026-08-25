@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Tüm {{icon}} {{type}} için uygulayın"
+
+msgid "header/points"
+msgstr "Savaş Yedeği Puanı: {{value}}"
+
+msgid "header/title"
+msgstr "SAVAŞ YEDEKLERİ"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Saldırı Yedekleri"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Keşif Yedekleri"
+
+msgid "infoPanel/category/tactics"
+msgstr "Taktik Yedekler"
+
+msgid "infoPanel/category/title"
+msgstr "Kategori: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Kaderin Cilvesi{{/}} senaryosunda bir Savaş Yedeği satın almak Yedeğin seviyesini bir yükseltip Seviyesini {{@ colorLegacy 'FFE4C0'}}IV{{/}}'e çıkarma imkânı sunacak."
+
+msgid "infoPanel/description/unlocked"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Kaderin Cilvesi{{/}} senaryosunda, savaştan önce yuvaya yerleştirilen her Savaş Yedeğinin önerilme olasılığı {{@ colorLegacy 'FFE4C0'}}%10{{/}} artar."
+
+msgid "infoPanel/level"
+msgstr "Seviye:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}} m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}%{{value}}"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}%{{value}}/sn."
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}} sn."
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Savaş Yedeği satın alınmadı"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Savaş Yedeği satın alındı"

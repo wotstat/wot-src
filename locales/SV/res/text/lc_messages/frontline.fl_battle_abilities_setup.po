@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Använd på alla {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Stridsreservpoäng: {{value}}"
+
+msgid "header/title"
+msgstr "STRIDSRESERVER"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Anfallsreserver"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Spaningsreserver"
+
+msgid "infoPanel/category/tactics"
+msgstr "Taktiska reserver"
+
+msgid "infoPanel/category/title"
+msgstr "Kategori: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "Under scenariot {{@ colorLegacy 'FFE4C0'}}Ödets Nyck{{/}} höjs nivån på stridsreserver ett steg när du köper den, och ger dessutom möjlighet att höja den till nivå {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "infoPanel/description/unlocked"
+msgstr "Under scenariot {{@ colorLegacy 'FFE4C0'}}Ödets Nyck{{/}} ökar chansen att under strid kunna välja stridsreserven som anges på platsen innan striden med {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Nivå:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Stridsreserven saknas"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Stridsreserver köpta"

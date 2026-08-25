@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "De \"%(leftDetailedSeasonName)s\" gevechten zijn afgelopen"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Staakt-het-vuren op alle servers. Gevechten beschikbaar over %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "De \"%(leftDetailedSeasonName)s\" gevechten zijn afgelopen"
+
+msgid "alertMessage/allNotSet"
+msgstr "Deze modus is op %(serverName)s niet beschikbaar"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Andere server selecteren"
+
+msgid "alertMessage/notAvailable"
+msgstr "Er is een staakt-het-vuren op de %(serverName)s-server"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Er is een staakt-het-vuren op de %(serverName)s-server"
+
+msgid "alertMessage/notSet"
+msgstr "Deze modus is op %(serverName)s niet beschikbaar"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Er is een staakt-het-vuren op deze server. Gevechten komen over %(primeDelta)s beschikbaar."
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "De \"%(leftDetailedSeasonName)s\" gevechten zijn afgelopen"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Deze modus is op %(serverName)s niet beschikbaar"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s u %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Geen geschikte voertuigen"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Planning"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "MODUS"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} – wisselen naar een andere spelmodus"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Modus zal beschikbaar zijn"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Staakt-het-vuren {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Gevechten zijn afgelopen"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Modus is niet meer beschikbaar"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Modus zal beschikbaar zijn voor {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s kunnen niet aan de gevechten van %(modeName)s deelnemen."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Ongeschikt voertuigtype"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Selecteer een %(levelSubStr)s voertuig om deel te nemen aan de \"%(modeName)s\" modus."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Ongeschikt voertuigniveau"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "niveau %(levels)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "De %(forbiddenType)s kan niet vechten in de \"%(modeName)s\" modus."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Ongeschikt voertuig"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Er is een staakt-het-vuren op deze server. Selecteer alsjeblieft een andere server."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Gevecht betreden niet mogelijk"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Deze modus is op de geselecteerde server niet beschikbaar."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Gevecht betreden niet mogelijk"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "De \"%(subModeName)s\" gevechten zijn afgelopen"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Gevecht betreden niet mogelijk"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Verander de modus of kies een voertuig dat aan de eisen voldoet."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Voertuig niet geschikt voor de modus"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Creëer een tactische eenheid van 2 of 3 spelers om samen te werken in \"%(modeName)s\" gevechten."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Peloton"
+
+msgid "invite/text/detailedTitle"
+msgstr "Uitnodiging om het \"%(detailedModeName)s\" peloton te betreden"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Er moet minstens één voertuig in je garage staan."
+
+msgid "lootboxTooltip/chance"
+msgstr "Dropkans: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Eén in-game item uit de onderstaande lijst:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "ALLE STADIA ZIJN VOLTOOID"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "ALLE STADIA VAN DE HUIDIGE\nMISSIE ZIJN VOLTOOID"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Volgende stadiumbeloningen – ontgrendeld bij %(stagePoints)s punten"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Volgende stadiumbeloning"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s tot de actieve fase eindigt"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s tot de volgende ronde"
+
+msgid "modeSelector/notStarted"
+msgstr "Deze modus zal binnenkort beginnen"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s u"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "NAAR MODI"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Wegens technische redenen onbeschikbaar"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Je hebt alle stadia van de huidige missie voltooid"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Beloningen: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Gevechten zijn afgelopen"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Binnenkort beschikbaar"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Het begint over"
+
+msgid "modeSubSelector/subtitle"
+msgstr "SELECTEER SUBMODUS"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Alle stadia voltooid"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Progressie-update"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Doe mee!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Betreed de strijd!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Arcadekast-evenementen zijn unieke, tijdelijke activiteiten die iets volledig anders bieden! Vecht in exclusieve modi met baanbrekende regels, voltooi missies en verdien zeldzame beloningen."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Je hebt de progressie voltooid"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Pak zoveel beloningen als je kan:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Dev-punten verdiend: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Voltooid:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Herhaalbaar"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Voor voltooiing:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Bij nederlaag:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Bij winst:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Punten:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Ontvangen:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Alle op dit moment beschikbare missies zijn voltooid"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Er zullen missies verschijnen wanneer de progressie begint"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Je hebt voor nu alle beschikbare missies voltooid. In de volgende ronde komen er meer beschikbaar."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Beschikbaar voor {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Beschikbaar voor {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Nieuwe missies komen beschikbaar over {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} status"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} missie"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Alle stadia zijn voltooid"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Progressie-update"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEONSPRINT"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "De finishlijn wacht op jou!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Klaar om te racen?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neonsprint is een uniek, tijdelijk evenement dat iets compleet anders biedt! Race en vecht op gevaarlijke banen, voltooi missies en verdien beloningen."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Deze modus vereist een hoge computerprestatie. Je zult problemen ervaren met de graphics, voertuigbeweging en het laden van de kaart. Probeer in het geval van een onvoldoende prestatie om in de instellingen de graphics te verlagen."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Mogelijk verminderde prestatie"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Deze modus vereist een hoge computerprestatie. Je zult problemen ervaren met de graphics, voertuigbeweging en het laden van de kaart. Probeer in het geval van een onvoldoende prestatie om in de instellingen de graphics te verlagen."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Mogelijk verminderde prestatie"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Epische willekeurige beloning"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Legendarische willekeurige beloning"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Gewone willekeurige beloning"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Zeldzame willekeurige beloning"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Ongewone willekeurige beloning"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Neonsprint-missie – stadium %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Je voortgang wordt tijdens alle races van Neonsprint bijgehouden."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Neonsprint-missie"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Je voortgang wordt tijdens alle submodi van Arcadekast bijgehouden."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "tot er een nieuwe Arcadekast-missie beschikbaar komt"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Vecht je een weg naar de finishlijn in deze ieder-voor-zich-racemodus."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} alle niveaus"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Bij lage grafische instellingen kunnen er problemen en visuele artefacten ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. De modus vergt een hoge computerprestatie. De hoeveelheid FPS kan tijdens intensieve strijd afnemen."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Hoogste grafische instellingen aanbevolen"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Bij lage grafische instellingen kunnen er problemen en visuele artefacten ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. De modus vergt een hoge computerprestatie. De hoeveelheid FPS kan tijdens intensieve strijd afnemen."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Hoogste grafische instellingen aanbevolen"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Een nieuwe Neonsprint-missie komt beschikbaar over:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "De %(subModeName)s submodus is afgelopen. Voortgang is gereset."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "De %(subModeName)s submodus is afgelopen."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Nieuwe beloningen en de %(subModeName)s submodus zijn beschikbaar."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Er is een nieuwe submodus beschikbaar: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "De %(subModeName)s submodus is wegens onderhoud niet beschikbaar."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "De %(subModeName)s submodus is weer beschikbaar."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Lijst met beloningen"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Gefeliciteerd!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Je hebt de progressie voltooid"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Gefeliciteerd!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Oneindige post-progressie"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Je hebt de hoofdprogressie voltooid"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Voltooi dit stadium zo vaak als je kan."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Punten verdiend: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Punten verdiend:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "NEONSPRINT-MISSIES"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Voltooid:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Herhaalbaar"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Voor voltooiing:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Bij nederlaag:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Bij winst:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Punten:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Ontvangen:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Alle op dit moment beschikbare missies zijn voltooid"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Er zullen missies verschijnen wanneer de progressie begint"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Je hebt voor nu alle beschikbare missies voltooid. In de volgende ronde komen er meer beschikbaar."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Beschikbaar voor {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Beschikbaar voor {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Nieuwe missies komen beschikbaar over {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} status"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} missie"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "LEGENDARISCHE BELONING ONTVANGEN"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s is weer beschikbaar."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Pit Stop"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s is afgelopen."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Pit Stop"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Het is tijd voor een pitstop! %(subModeName)s-races zijn tijdelijk onbeschikbaar."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Pit Stop"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Elke willekeurige beloning is een item uit de onderstaande lijst dat een bepaalde kans heeft om aan je te worden uitgereikt."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Wat zit erin?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Alle voertuigen zijn beschikbaar voor Neonsprint."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Neonsprint-voertuigen"
+
+msgid "modes/fall_tanks/userName"
+msgstr "Neonsprint"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Alle stadia voltooid"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Progressie-update"
+
+msgid "modes/undefined/capsUserName"
+msgstr "ARCADEKAST"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Doe mee!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Betreed de strijd!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Arcadekast-evenementen zijn unieke, tijdelijke activiteiten die iets volledig anders bieden! Vecht in exclusieve modi met baanbrekende regels, voltooi missies en verdien zeldzame beloningen."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Deze modus vereist een hoge computerprestatie. Je zult problemen ervaren met de graphics, voertuigbeweging en het laden van de kaart. Probeer in het geval van een onvoldoende prestatie om in de instellingen de graphics te verlagen."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Mogelijk verminderde prestatie"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Deze modus vereist een hoge computerprestatie. Je zult problemen ervaren met de graphics, voertuigbeweging en het laden van de kaart. Probeer in het geval van een onvoldoende prestatie om in de instellingen de graphics te verlagen."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Mogelijk verminderde prestatie"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Epische willekeurige beloning"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Legendarische willekeurige beloning"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Gewone willekeurige beloning"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Zeldzame willekeurige beloning"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Ongewone willekeurige beloning"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Arcadekast-missie – stadium %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Je voortgang wordt tijdens alle submodi van Arcadekast bijgehouden."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Arcadekast-missie"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Je voortgang wordt tijdens alle submodi van Arcadekast bijgehouden."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "tot er een nieuwe Arcadekast-missie beschikbaar komt"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15v15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Experimentele gevechten onder non-standaard regels."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} niveau&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Bij lage grafische instellingen kunnen er problemen en visuele artefacten ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. De modus vergt een hoge computerprestatie. De hoeveelheid FPS kan tijdens intensieve strijd afnemen."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Hoogste grafische instellingen aanbevolen"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Bij lage grafische instellingen kunnen er problemen en visuele artefacten ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. De modus vergt een hoge computerprestatie. De hoeveelheid FPS kan tijdens intensieve strijd afnemen."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Hoogste grafische instellingen aanbevolen"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Er komt een nieuwe Arcadekast-missie beschikbaar over:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "De %(subModeName)s submodus is afgelopen. Voortgang is gereset."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "De %(subModeName)s submodus is afgelopen."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Nieuwe beloningen en de %(subModeName)s submodus zijn beschikbaar."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Er is een nieuwe submodus beschikbaar: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "De %(subModeName)s submodus is wegens onderhoud niet beschikbaar."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "De %(subModeName)s submodus is weer beschikbaar."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Lijst met beloningen"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Gefeliciteerd!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Je hebt de progressie voltooid"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Gefeliciteerd!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Herhaalbaar stadium"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Je hebt de hoofdprogressie voltooid"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Pak zoveel beloningen als je kan:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Punten verdiend: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Punten verdiend:"
+
+msgid "modes/undefined/progression/title"
+msgstr "ARCADEKAST-MISSIES"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Voltooid:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Herhaalbaar"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Voor voltooiing:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Bij nederlaag:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Bij winst:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Punten:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Ontvangen:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Alle op dit moment beschikbare missies zijn voltooid"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Er zullen missies verschijnen wanneer de progressie begint"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Je hebt voor nu alle beschikbare missies voltooid. In de volgende ronde komen er meer beschikbaar."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Beschikbaar voor {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Beschikbaar voor {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Nieuwe missies komen beschikbaar over {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} status"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} missie"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "LEGENDARISCHE BELONING ONTVANGEN"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "De %(subModeName)s-gevechten zijn weer beschikbaar."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Staakt-het-vuren"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "De \"%(subModeName)s\" gevechten zijn afgelopen"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Staakt-het-vuren"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Er is een staakt-het-vuren. De %(subModeName)s-gevechten zijn tijdelijk onbeschikbaar."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Staakt-het-vuren"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Elke willekeurige beloning is een item uit de onderstaande lijst dat een bepaalde kans heeft om aan je te worden uitgereikt."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Wat zit erin?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Toon/verberg voertuigen geschikt voor de Arcadekast-modus."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Arcadekast-voertuigen"
+
+msgid "modes/undefined/userName"
+msgstr "Arcadekast"
+
+msgid "notification/congratulation"
+msgstr "Gefeliciteerd!"
+
+msgid "notification/finishSubModes"
+msgstr "Het \"%(modeName)s\" evenement is afgelopen."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "De %(subModesNames)s submodi zijn afgelopen. Voortgang is gereset."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "De %(subModesNames)s submodi zijn afgelopen."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Willekeurige beloning"
+
+msgid "notification/newProgression"
+msgstr "De voortgang in het evenement is gereset – je kunt weer beloningen ontvangen!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "De voortgang in het evenement is gereset. Er zijn nieuwe submodi beschikbaar: %(subModesNames)s"
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Er zijn nieuwe submodi beschikbaar: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Je hebt alle beschikbare \"%(modeName)s\" missies voltooid. Ontvangen beloning:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Je hebt alle beschikbare \"%(modeName)s\" missies voltooid. Herhaalbaar stadium beschikbaar. Ontvangen beloning:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "De voortgang zal over minder dan 1 dag worden gereset. Daarna kun je weer missies voltooien."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "De voortgang zal over %(days)d dagen worden gereset. Daarna kun je weer missies voltooien."
+
+msgid "notification/progressionStageComplete"
+msgstr "Je hebt stadium %(stage)s van \"%(modeName)s\" voltooid. Ontvangen beloning:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "De %(subModesNames)s submodi zijn wegens onderhoud niet beschikbaar."
+
+msgid "notification/switchOnSubModes"
+msgstr "De %(subModesNames)s submodi zijn weer beschikbaar."
+
+msgid "platoonView/title"
+msgstr "Peloton: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Beschikbare server: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Beschikbare servers:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Server %(serverName)s\nGevechten komen beschikbaar over %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Server %(serverName)s\nDe \"%(leftDetailedSeasonName)s\" gevechten zijn afgelopen."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Server %(serverName)s\nGevechten zullen nog %(primeDelta)s beschikbaar zijn"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Server %(serverName)s\nGevechten komen beschikbaar over %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Server %(serverName)s\nDe \"%(leftDetailedSeasonName)s\" gevechten zijn afgelopen."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Server %(serverName)s\nGevechten komen beschikbaar over %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Server %(serverName)s\nDe \"%(leftDetailedSeasonName)s\" gevechten zijn afgelopen."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s u %(min)s min"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Er is een staakt-het-vuren op alle servers.\nGevechten komen over %(primeDelta)s beschikbaar."
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "De \"%(leftDetailedSeasonName)s\" gevechten zijn afgelopen"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Deze modus is op %(serverName)s niet beschikbaar"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Er is op de %(serverName)s-server tot %(primeDeltaDate)s%(primeDeltaTime)s een staakt-het-vuren"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Er is een staakt-het-vuren op de %(serverName)s-server"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Deze modus is op %(serverName)s niet beschikbaar"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Er is een staakt-het-vuren op de %(serverName)s-server.\nGevechten komen beschikbaar over %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "De \"%(leftDetailedSeasonName)s\" gevechten zijn afgelopen"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Deze modus is op %(serverName)s niet beschikbaar"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Gevechten op de %(serverName)s-server zullen over %(primeDelta)s beginnen"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "De \"%(leftDetailedSeasonName)s\" gevechten op de %(serverName)s-server zijn afgelopen."
+
+msgid "primeTimes/timeText/available"
+msgstr "Gevechten op de %(serverName)s-server zullen nog %(primeDelta)s beschikbaar zijn"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Gevechten op de %(serverName)s-server zullen over %(primeDelta)s beginnen"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "De \"%(leftDetailedSeasonName)s\" gevechten op de %(serverName)s-server zijn afgelopen."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Gevechten op de %(serverName)s-server zullen over %(primeDelta)s beginnen"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "De \"%(leftDetailedSeasonName)s\" gevechten op de %(serverName)s-server zijn afgelopen."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "punten"
+
+msgid "progression/complete/affirmative"
+msgstr "Begrepen!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Verdien punten en vorder door de progressie."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Punten verdiend:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Actieve fase geëindigd. Gevechten zijn voorbij"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Voltooid:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Herhaalbaar"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "Voor voltooiing:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "Bij nederlaag:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "Bij winst:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Ontvangen:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "De actieve fase eindigt over: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "De actieve fase eindigt over:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Volgende ronde over:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Volgende stadiumbeloningen – ontgrendeld bij %(count)d punten"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Je hebt ook ontvangen:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Begrepen!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "De pelotoncommandant heeft gewisseld naar de %(subModeName)s submodus."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Submoduswissel"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} niveau&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEONSPRINT"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Race naar de finish en zorg dat de rest die niet bereikt. Gebruik de Sprint- en Schild-bekwaamheden om extra chaos te veroorzaken!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Let op: bewegende platforms"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Ontwijk de lasers en time je sprongen om naar de finish te snellen!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Let op: lasers en sprongen"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "Leer meer over deze modus"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Druk op"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "Neonsprint"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Vecht je een weg\nnaar de finishlijn"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} alle niveaus"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Bij lage grafische instellingen kunnen er visuele artefacten en andere problemen ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. Deze modus vergt een hoge prestatie. De hoeveelheid FPS kan op intensieve momenten afnemen."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Hoogste grafische instellingen aanbevolen"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Bij lage grafische instellingen kunnen er visuele artefacten en andere problemen ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. Deze modus vergt een hoge computerprestatie. De hoeveelheid FPS kan op intensieve momenten afnemen."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Hoogste grafische instellingen aanbevolen"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "Neonsprint"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "Neonsprint"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "\"Neonsprint\""
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} niveau&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Bij lage grafische instellingen kunnen er problemen en visuele artefacten ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. De modus vergt een hoge computerprestatie. De hoeveelheid FPS kan tijdens intensieve strijd afnemen."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Hoogste grafische instellingen aanbevolen"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Bij lage grafische instellingen kunnen er problemen en visuele artefacten ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. De modus vergt een hoge computerprestatie. De hoeveelheid FPS kan tijdens intensieve strijd afnemen."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Hoogste grafische instellingen aanbevolen"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

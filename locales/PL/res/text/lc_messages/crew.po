@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Powiększ"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Zwolnij niedoszkolonych"
+
+msgid "barracks/bunks/title"
+msgstr "Łóżka:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Podaj liczbę łóżek do zakupu. Łóżka dostępne w koszarach: %(freeBunksCount)s/%(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Obniżony koszt"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Nowy koszt: %(currency)s za %(bunksCount)s łóżek"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Poprzedni koszt: %(currency)s za %(bunksCount)s łóżek"
+
+msgid "barracks/enlarge/header"
+msgstr "Powiększyć koszary?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Niedoszkoleni członkowie załogi w koszarach, którzy mają mniej niż {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} PD wymaganych do wyszkolenia swojego pierwszego atutu na {whiteSpanish_Open}100%{whiteSpanish_Close}, mogą zostać zwolnieni."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Niedoszkoleni członkowie załogi"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Nie masz niedoszkolonych członków załogi"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Nie otrzymasz żadnej rekompensaty za zwolnienie niedoszkolonych członków załogi. Po ich zwolnieniu nie można ich odzyskać, a wszystkie ich PD zostaną utracone."
+
+msgid "barracks/title"
+msgstr "KOSZARY"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Kliknij, aby powiększyć koszary."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Powiększ koszary"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Lokalizacja"
+
+msgid "common/imageNotAvailable"
+msgstr "Obrazek niedostępny"
+
+msgid "common/inBarracks"
+msgstr "W koszarach"
+
+msgid "common/inBattle"
+msgstr "W bitwie"
+
+msgid "common/inPrebattle"
+msgstr "W jednostce taktycznej"
+
+msgid "common/navigation/aboutCrew"
+msgstr "O ZAŁODZE"
+
+msgid "common/navigation/toBarracks"
+msgstr "DO KOSZAR"
+
+msgid "common/navigation/toGarage"
+msgstr "DO GARAŻU"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "DO PROFILU"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Tak jest!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Członkowie załogi zostali wymienieni na podręczniki dla załogi."
+
+msgid "conversionAwards/title"
+msgstr "WYMIANA UDANA"
+
+msgid "conversionAwards/underTitle"
+msgstr "Następujące przedmioty zostały dodane do Twojego konta."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Anuluj"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Zwolnij"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Członkowie załogi do zwolnienia: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Czy zwolnić niedoszkolonych członków załogi?"
+
+msgid "conversionConfirm/warning"
+msgstr "Nie otrzymasz żadnej rekompensaty za zwolnienie niedoszkolonych członków załogi. Po ich zwolnieniu nie można ich odzyskać, a wszystkie ich PD zostaną utracone."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Automatycznie wybierz atuty"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Nie ma członków załogi z niewyszkolonymi atutami."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Nie można automatycznie wybrać autów"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Wszystkie niewyszkolone atuty oznaczone znakiem plusa zostaną zastąpione atutami wybranymi automatycznie za pomocą specjalnej logiki dla wszystkich załóg."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Automatycznie wybierz niewyszkolone atuty dla wszystkich"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Zresetuj atuty dla wszystkich"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Nie ma członków załogi z wyszkolonymi atutami."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Nie można zresetować autów"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Wszystkie atuty zostaną zresetowane dla wszystkich członków załogi na Twoim koncie. Tej operacji nie można cofnąć."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Zresetuj atuty dla wszystkich"
+
+msgid "crewBanner/infoText"
+msgstr "Darmowy reset atutów lub automatyczny wybór niewyszkolonych atutów dla wszystkich członków załogi na Twoim koncie"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Przyspieszone szkolenie załogi jest włączone"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Premia do skuteczności: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Skuteczność atutów"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Atuty są niedostępne, bo ten członek załogi nie jest przeszkolony do tego pojazdu."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specjalizacja:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Atuty niedostępne"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonusowe atuty:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Atuty głównej kwalifikacji:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Chiny)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Czechosłowacja)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Francja)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Niemcy)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Włochy)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japonia)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polska)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Szwecja)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Wielka Brytania)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(USA)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(ZSRR)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Wszystkie niszczyciele czołgów premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Wszystkie działa samobieżne premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Wszystkie czołgi ciężkie premium\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Wszystkie czołgi lekkie premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Wszystkie czołgi średnie premium\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Szczegóły"
+
+msgid "filter/group/details/title"
+msgstr "Szczegóły"
+
+msgid "filter/group/nation/title"
+msgstr "Kraj"
+
+msgid "filter/group/other/title"
+msgstr "Inne"
+
+msgid "filter/group/special/title"
+msgstr "Specjalne"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Kwalifikacja"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Poziom"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Poziom"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specjalizacja"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Typ pojazdu"
+
+msgid "filter/popup/button/title"
+msgstr "Filtr"
+
+msgid "filter/popup/default/title"
+msgstr "Filtr"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtruj wg kraju"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtruj wg pojazdów"
+
+msgid "filter/reset"
+msgstr "Zresetuj filtr"
+
+msgid "filter/search/placeholder"
+msgstr "Wyszukaj po nazwie"
+
+msgid "filter/search/tooltip/header"
+msgstr "Wyszukaj po nazwie"
+
+msgid "filter/title"
+msgstr "Wyświetlane:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Pokaż/ukryj członków załogi w pojazdach, dla których zbadano wszystkie moduły i gałęzie drzewa badań."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Pojazdy elitarne"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Pokaż/ukryj członków załogi wyszkolonych do pojazdów premium."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Pojazdy premium"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Pokaż/ukryj członków załogi w pojazdach podstawowych."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Pojazdy podstawowe"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Pokaż/ukryj członków załogi dla tego typu pojazdów."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Pokaż/ukryj członków załogi tego kraju."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Pokaż/ukryj skórki załogi dla tego kraju."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Pokaż/ukryj pojazdy tego kraju."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Pokaż/ukryj zwolnionych."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Zwolnieni"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Pokaż rekrutów."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Rekruci"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Pokaż członków załogi."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Członkowie załogi"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Pokaż/ukryj członków załogi z tą kwalifikacją."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Pokaż/ukryj pojazdy premium."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Pojazdy premium"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Pokaż/ukryj pojazdy tego typu."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Niszczyciele czołgów"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Działa samobieżne"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Czołgi ciężkie"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Czołgi lekkie"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Czołgi średnie"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nie znaleziono pojazdów\nspełniających kryteria wyszukiwania"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sortuj wg nazw pojazdów."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nazwa"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sortuj wg poziomu pojazdów."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Poziom"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sortuj według typu pojazdów."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Typ"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nazwa"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Kliknij, by wyczyścić ustawienia filtra."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Wyczyść wszystkie filtry"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Tak jest!"
+
+msgid "junkTankmen/description"
+msgstr "Następujący członkowie załogi mają mniej niż {bond_Open}210 060{bond_Close}{icon} PD wymaganych do wyszkolenia ich pierwszego atutu na {whiteSpanish_Open}100%{whiteSpanish_Close}.\nZostaną oni usunięci z Twojego konta."
+
+msgid "junkTankmen/title"
+msgstr "Czy zwolnić niedoszkolonych członków załogi?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Na każdą dodatkową kwalifikację przypada limit {whiteSpanish_Open}trzech{whiteSpanish_Close} atutów. Dostęp do nowego atutu bonusowego zostanie otwarty po osiągnięciu {whiteSpanish_Open}pierwszego{whiteSpanish_Close}, {whiteSpanish_Open}trzeciego{whiteSpanish_Close} i {whiteSpanish_Open}piątego{whiteSpanish_Close} atutu głównej kwalifikacji."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Atuty bonusowe"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Podczas przekwalifikowania członka załogi do innego pojazdu z innym zestawem kwalifikacji będziesz mógł ponownie wybrać atuty dla jego nowej dodatkowej kwalifikacji."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Atuty bonusowe są szkolone dwa razy wolniej od atutów głównej kwalifikacji."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Do szkolenia atutów bonusowych nie potrzeba PD."
+
+msgid "matrix/freeResetButton"
+msgstr "Zresetuj za darmo"
+
+msgid "matrix/increaseButton"
+msgstr "Przyspiesz szkolenie"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Ten członek załogi osiągnął limit szkolenia."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Nie można przyspieszyć szkolenia"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Wyszkol atuty, używając wolnych PD i podręczników dla załogi."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Szybki trening"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Niekompatybilna kwalifikacja"
+
+msgid "matrix/qualification/1"
+msgstr "Główna kwalifikacja"
+
+msgid "matrix/qualification/2"
+msgstr "Druga kwalifikacja"
+
+msgid "matrix/qualification/3"
+msgstr "Trzecia kwalifikacja"
+
+msgid "matrix/qualification/4"
+msgstr "Czwarta kwalifikacja"
+
+msgid "matrix/qualification/5"
+msgstr "Piąta kwalifikacja"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Atuty zerowe są niedostępne dla drugiej kwalifikacji"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Atuty zerowe są niedostępne dla trzeciej kwalifikacji"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Atuty zerowe są niedostępne dla czwartej kwalifikacji"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Druga kwalifikacja jest niedostępna dla tego pojazdu"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Trzecia kwalifikacja jest niedostępna dla tego pojazdu"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Czwarta kwalifikacja jest niedostępna dla tego pojazdu"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Piąta kwalifikacja jest niedostępna dla tego pojazdu"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Dla każdej dodatkowej kwalifikacji obowiązuje limit {whiteSpanish_Open}trzech{whiteSpanish_Close} atutów bonusowych. Jako bonusowe można wybrać tylko atuty właściwe dla tej kwalifikacji."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Obowiązuje limit {whiteSpanish_Open}sześciu{whiteSpanish_Close} atutów głównej kwalifikacji (wliczając atuty zerowe)."
+
+msgid "matrix/resetButton"
+msgstr "Zresetuj"
+
+msgid "matrix/resetButtonHint"
+msgstr "KLIKNIJ, ABY ZRESETOWAĆ ATUTY"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Nie masz wyszkolonych atutów."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Nie można zresetować autów"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Kliknij, by zresetować atuty."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Zresetować atuty"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Atut bonusowy jest dostępny do wyszkolenia"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Do szkolenia atutów bonusowych nie potrzeba PD załogi."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Niedostępne"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Odblokowywany podczas szkolenia trzeciego atutu głównej kwalifikacji. Nie wymaga PD."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Odblokowywany podczas szkolenia piątego atutu głównej kwalifikacji. Nie wymaga PD."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Poziom wyszkolenia"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Całkowita wymagana liczba PD jest obniżona, ponieważ członek załogi ma jeden zerowy atut."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Całkowita wymagana liczba PD jest obniżona, ponieważ członek załogi ma dwa zerowe atuty."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Atut dostępny do wyszkolenia"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Niedostępne"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Poprzedni atut musi być wyszkolony w 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Zerowy atut dostępny do wyszkolenia"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Zerowe auty są zawsze szkolone jako pierwsze, nawet jeśli wybrano kilka atutów jednocześnie. Do ich wyszkolenia nie potrzeba PD załogi."
+
+msgid "matrix/skills/allSkills"
+msgstr "Wszystkie dodatkowe atuty wyszkolone dla tego pojazdu"
+
+msgid "matrix/skills/available"
+msgstr "Atuty dostępne do wyszkolenia:"
+
+msgid "matrix/skills/bonus"
+msgstr "Atuty bonusowe"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Atuty są niedostępne"
+
+msgid "matrix/skills/locked"
+msgstr "Atuty są niedostępne"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Dla tego pojazdu wszystkie atuty są wyłączone"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Atuty głównej kwalifikacji"
+
+msgid "matrix/skills/reduced"
+msgstr "Zmniejszona skuteczność atutów"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Atuty dowódcy"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Atuty kierowcy"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Atuty dowódcy"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Atuty kierowcy"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Atuty strzelca"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Atuty ładowniczego"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Atuty radiooperatora"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Atuty strzelca"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Atuty ładowniczego"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Atuty radiooperatora"
+
+msgid "matrix/skills/training"
+msgstr "Szkolenie atutów"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Zerowe atuty dostępne do wyszkolenia:"
+
+msgid "memberChange/action/recruit"
+msgstr "Rekrut {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% ZNIŻKA NA ZMIANĘ KWALIFIKACJI"
+
+msgid "memberChange/title"
+msgstr "WYBIERZ {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}W magazynie{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Po potwierdzeniu członek załogi, który przeniósł swoje PD, zostanie usunięty z Twojego konta."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Licencja mentora umożliwia przeniesienie PD załogi z jednego członka załogi na innego członka załogi z tego samego kraju."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Licencja mentora"
+
+msgid "personalData/card/edit"
+msgstr "Edytuj"
+
+msgid "personalData/card/remove"
+msgstr "Usuń"
+
+msgid "personalData/card/restrictions"
+msgstr "Ograniczenia: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Kliknij, aby zmienić dane i wygląd członka załogi."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Wygląd"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Ten członek załogi ma już unikalne dane i wygląd."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Nie można zmienić danych i wyglądu"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Nic nie znaleziono. Zmień ustawienia lub wyczyść filtry."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Konfiguruj wyświetlanie wyglądów załogi według kraju."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtruj wg parametrów"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Pokaż dokumenty."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokumenty"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Pokaż pasujące skórki załogi."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Pasujące skórki załogi"
+
+msgid "personalData/filter/type/title"
+msgstr "Typ"
+
+msgid "personalData/title"
+msgstr "ZMIEŃ DANE I WYGLĄD"
+
+msgid "personalFile/changeVehicle"
+msgstr "Zmień"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Nie można przeszkolić tego członka załogi do innego pojazdu."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operacja niedostępna"
+
+msgid "personalFile/discount/full"
+msgstr "Dostępna zniżka na przekwalifikowanie załogi"
+
+msgid "personalFile/discount/short"
+msgstr "Dostępna zniżka"
+
+msgid "personalFile/inVehicle"
+msgstr "W pojeździe: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Zwiększ"
+
+msgid "personalFile/isUntrained"
+msgstr "Nie przeszkolono do tego pojazdu"
+
+msgid "personalFile/premiumVehicle"
+msgstr "{icon} Pojazdy premium"
+
+msgid "personalFile/retrain"
+msgstr "Przekwalifikuj"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Skuteczność atutów:"
+
+msgid "personalFile/specialization"
+msgstr "Specjalizacja:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specjalizacja"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Kliknij, by wysłuchać próbki głosu tego dowódcy"
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Unikalna ścieżka głosowa"
+
+msgid "postProgression/button/claim"
+msgstr "Odbierz nagrodę"
+
+msgid "postProgression/description"
+msgstr "Wszyscy członkowie załogi mający wyszkolone wszystkie sześć atutów głównej kwalifikacji otrzymują dostęp do wspólnych post-postępów. Za każde 100 000 PD zdobyte w post-postępach otrzymasz przewodnik uniwersalny, który możesz wykorzystać do szkolenia innych załóg."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Na post-postępy składa się ujednolicona skala dla wszystkich członków załogi z sześcioma w pełni wyszkolonymi atutami głównej kwalifikacji na koncie gracza."
+
+msgid "postProgression/tips/2"
+msgstr "Do post-postępów liczą się tylko PD bojowego. Połowa PD bojowego zdobytych przez członka załogi w bitwie jest dzielona przez całkowitą liczbę członków załogi pojazdu i dodawana do skali post-postępów."
+
+msgid "postProgression/tips/3"
+msgstr "Utrata PD z puli skuteczności i atutów nie wpływa na post-postępy."
+
+msgid "postProgression/title"
+msgstr "POST-POSTĘPY ZAŁOGI"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Wszyscy członkowie załogi, którzy mieli dostęp do post-postępów, mają niską skuteczność atutów."
+
+msgid "postProgression/warning/retire"
+msgstr "Wszyscy członkowie załogi, którzy mieli dostęp do post-postępów, zostali zwolnieni lub utracili PD ze swojego ostatniego atutu (atutów)."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Wszystkie niszczyciele czołgów premium"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Wszystkie działa samobieżne premium"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Niszczyciele czołgów premium"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Działa samobieżne premium"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Czołgi ciężkie premium"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Czołgi lekkie premium"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Czołgi średnie premium"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Wszystkie czołgi ciężkie premium"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Wszystkie czołgi lekkie premium"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Wszystkie czołgi średnie premium"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "NAGRODY"
+
+msgid "serviceRecord/averageXP"
+msgstr "Średnie PD za bitwę"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Stoczone bitwy"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Brak osiągnięć i odznaczeń zdobytych w bitwie."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Stosunek łącznej liczby zdobytych punktów doświadczenia do liczby bitew rozegranych w pojeździe, do którego przypisany jest członek załogi."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Średnie PD za bitwę"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Stopień członka załogi zależy od jego doświadczenia i liczby wyszkolonych atutów."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Stopień"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Członek załogi wyszkolił wszystkie atuty dla tego pojazdu"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Atuty dostępne do wyszkolenia"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Dla tego pojazdu wszystkie atuty są wyłączone"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Do szkolenia atutów dodatkowych kwalifikacji nie potrzeba PD, ale są one szkolone dwa razy wolniej od atutów głównej kwalifikacji."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Anuluj"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Wyszkol"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUSOWA KWALIFIKACJA"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "GŁÓWNA KWALIFIKACJA"
+
+msgid "tankChange/title"
+msgstr "WYSZKOL DLA POJAZDU"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Pokaż pojazdy w garażu."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "W garażu"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Konfiguruj wyświetlanie pojazdów według typu i poziomu."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtruj wg parametrów"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Nie trzeba szkolić członków załogi do pojazdów premium. Można przenieść załogę do pojazdu premium tego samego typu bez kar."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Pojazd premium"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Nazwa pojazdu może składać się maksymalnie z %(maxLength)s znaków."
+
+msgid "tankman/action/dismiss/title"
+msgstr "ZWOLNIJ"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Zwolnij tego członka załogi."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Nie można zwolnić tego członka załogi."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operacja niedostępna"
+
+msgid "tankman/action/recruit/title"
+msgstr "REKRUTUJ"
+
+msgid "tankman/action/restore/title"
+msgstr "ODZYSKAJ"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Odzyskaj tego członka załogi."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Kliknij, by wysłuchać próbki głosu tego dowódcy."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Unikalna ścieżka głosowa"
+
+msgid "tankman/recruit"
+msgstr "Rekrut"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Wygląd"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Przebieg służby"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Rekrutuj"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Zresetuj filtr"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Nic nie znaleziono. Zmień ustawienia lub wyczyść filtry."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Nic nie znaleziono. Werbuj członka załogi."
+
+msgid "tankmanList/filter/title"
+msgstr "Członkowie załogi:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Za mało łóżek w koszarach."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Pokaż/ukryj tylko zwolnionych członków załogi."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Zwolnieni"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Pokaż członków załogi w koszarach."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "W koszarach"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Pokaż członków załogi w pojazdach."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "W pojazdach"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Pokaż/ukryj skórki załogi dla tego kraju."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Konfiguruj wyświetlanie członków załogi wg kwalifikacji, specjalizacji i innych parametrów."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtruj wg parametrów"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Zwerbuj nowego członka załogi."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Nazwa może mieć co najwyżej %(maxLength)s znaków."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Najechanie kursorem na atut pokazuje, jak wpływa on na odpowiednie charakterystyki, gdy jest wyszkolony w 100% przy bieżącym poziomie skuteczności atutów."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Tak jest!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Dodano dwa nowe atuty dla każdej kwalifikacji, Pewne rozmieszczenie uległo zmianie, a nowa opcja pozwala ukryć atuty w wyświetlaczu HUD."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Nowa, wygodna operacja pozwala zwolnić niedoszkolonych członków załogi jednym kliknięciem."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Atuty można teraz resetować za pomocą samych kredytów, bez utraty PD."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Dodano nowe atuty i funkcje, a istniejący atut zaktualizowano."
+
+msgid "welcomeScreen/title"
+msgstr "AKTUALIZACJE ZAŁOGI"

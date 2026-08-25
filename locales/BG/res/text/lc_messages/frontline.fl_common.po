@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Нулирай филтрите"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Няма машини, съответстващи на избраните параметри.\nНеобходимо е да нулирате настройките на филтъра, за да видите подходящите машини"
+
+msgid "battleType/description/fast"
+msgstr "Сценарий с намалена подготовка на бойния резерв."
+
+msgid "battleType/description/random"
+msgstr "Сценарий, при който играчите избират между комплекти произволни резерви с възможност да ги подобрят до ниво IV."
+
+msgid "battleType/description/standard"
+msgstr "Сценарий със стандартни правила на Фронтова линия."
+
+msgid "battleType/postBattle/title"
+msgstr "Боен сценарий: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Намалено време за подготовка на резерва."
+
+msgid "battleType/shortDescription/random"
+msgstr "Бойните резерви се дават на случаен принцип."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Прилагат се стандартни правила."
+
+msgid "battleType/title/fast"
+msgstr "Оперативна поддръжка"
+
+msgid "battleType/title/random"
+msgstr "Обрат на съдбата"
+
+msgid "battleType/title/standard"
+msgstr "Стандартна битка"
+
+msgid "battleType/title/wrapper"
+msgstr "\"%(name)s\""
+
+msgid "button/back"
+msgstr "НАЗАД"
+
+msgid "button/close"
+msgstr "ЗАТВОРИ"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} ден"
+msgstr[1] "{duration} дни"
+msgstr[2] "{duration} дни"
+
+msgid "filterPopover/note"
+msgstr "Тук се показват само машини, които могат да се използват в този режим."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Нивата на бойния резерв се увеличават при достигане на нови рангове."
+
+msgid "levelReservesTooltip/info"
+msgstr "В сценария {whiteSpanish_Start}Обрат на съдбата{whiteSpanish_End}, закупуването на Боен резерв ще повиши нивото му с едно и ще предостави възможност за подобряването му до ниво {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Увеличава се при достигане на следния ранг: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Предлага се със следния ранг: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Ниво {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "За {whiteSpanish_Start}закупени бойни резерви{whiteSpanish_End} в сценария {whiteSpanish_Start}Обрат на съдбата{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Нива на бойни резерви"
+
+msgid "loading"
+msgstr "Зареждане..."
+
+msgid "widget/eventStartSoon"
+msgstr "Събитието ще започне скоро!"
+
+msgid "widget/maxTier"
+msgstr "Достигнахте максималното ниво!"

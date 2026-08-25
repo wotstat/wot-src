@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: Překladatel WoT <<noreply@wargaming.net>\nLanguage-Team: WoT Tým <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Zobrazit nové zprávy"
+
+msgid "battle/history/header"
+msgstr "Nepřítel"
+
+msgid "battle/history/latestMessage"
+msgstr "Zobrazit poslední zprávu"
+
+msgid "battle/history/title"
+msgstr "Historie chatu:"
+
+msgid "battle/history/upMessage"
+msgstr "Zobrazit staré zprávy"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sCHAT VYPNUT%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Chat v bitvě není pro hráče z vaší země dostupný."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Chat v bitvě není pro váš účet dostupný."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Chat v bitvě je zakázán rodičovskou kontrolou."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Chat v bitvě může být zapnut v nastavení hry."
+
+msgid "battle/receivers/common"
+msgstr "VŠEM"
+
+msgid "battle/receivers/squad"
+msgstr "ČETĚ"
+
+msgid "battle/receivers/team"
+msgstr "TÝMU"
+
+msgid "battle/toolTips/cancel"
+msgstr "storno"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "změnit příjemce"
+
+msgid "battle/toolTips/default"
+msgstr "s předchozím příjemcem"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Během chatu:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Zprávy od vybraného hráče můžete zablokovat tím, že kliknete na tlačítko poblíž zprávy hráče v chatu."
+
+msgid "battle/toolTips/send"
+msgstr "odeslat"
+
+msgid "battle/toolTips/startChat"
+msgstr "Zahájit chat:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Zprávu můžete nahlásit tím, ze na ni kliknete a vyberete důvod pro podání stížnosti. Tato možnost vám také umožňuje vypnutí chatu, nebo nastavení chatu pouze pro spojence. Chat v četě bude po celou dobu stále k dispozici."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Chat"
+
+msgid "battle/toolTips/withSquad"
+msgstr "s vaší četou"
+
+msgid "battle/unknown/ally"
+msgstr "Spojenec"
+
+msgid "battle/unknown/enemy"
+msgstr "Nepřítel"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Od serveru budete odpojeni v %(curfewTime)s. Relace skončí za %(timeLeft)s min."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Dosáhli jste denního limitu doby hraní. Vaše relace skončí za %(timeLeft)s min."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Dosáhli jste týdenního limitu doby hraní. Vaše relace skončí za %(timeLeft)s min."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Dosáhli jste svého herního limitu. Vaše relace skončí za %(timeLeft)s min."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Zprávy od neznámých hráčů mohou obsahovat škodlivé odkazy. Neklikejte na odkazy a s nikým nesdílejte své heslo."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Pozor!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Výsledky bitvy"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Zpráva od hráče %(playerName)s byla zablokována."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Poslat zprávu"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Poslat zprávu"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Vyhledat hráče"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Nastavení hlasové komunikace"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "nemůžete zabanovat sami sebe"
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Chyba při provádění \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Server je přetížený."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "nedostatečná oprávnění k provedení operace."
+
+msgid "chat_error/NOT_READY"
+msgstr "Akce \"%(actionName)s\" není k dispozici."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "uživatel neexistuje."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "neplatný parametr."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Hlasová komunikace vypnuta. Chcete-li komunikovat se členy své čety, zapněte hlasovou komunikaci stisknutím klávesy %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Hlasová komunikace vypnuta. Chcete-li komunikovat se členy své čety, zapněte hlasovou komunikaci (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Vy a %(player)s jste se navzájem pochválili."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s vás pochválil."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s byl pochválen."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Vaši spojenci založili četu %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Četa %(squadNum)s byla založena nepřátelským týmem."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Četa %(squadNum)s byla založena. Chat v četě a hlasová komunikace jsou nyní k dispozici. (Chcete-li vypnout hlasovou komunikaci, stiskněte %(keyName)s)."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Četa %(squadNum)s byla založena. Chat v četě a hlasová komunikace jsou nyní k dispozici. (Chcete-li zapnout hlasovou komunikaci, stiskněte %(keyName)s)."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Četa %(squadNum)s byla založena. Chat v četě a hlasová komunikace jsou nyní k dispozici. Přiřaďte klávesu pro zapnutí/vypnutí hlasové komunikace."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Četa %(squadNum)s založena. Chat v četě je nyní k dispozici."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Připojili jste se k četě %(squadNum)s. Chat v četě a hlasová komunikace jsou nyní k dispozici. (Chcete-li vypnout hlasovou komunikaci, stiskněte %(keyName)s)."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Připojili jste se k četě %(squadNum)s. Chat v četě a hlasová komunikace jsou nyní k dispozici. (Chcete-li zapnout hlasovou komunikaci, stiskněte %(keyName)s)."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Připojili jste se k četě %(squadNum)s. Chat v četě a hlasová komunikace jsou nyní k dispozici. Přiřaďte klávesu pro zapnutí/vypnutí hlasové komunikace."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Připojili jste se k četě %(squadNum)s. Chat v četě je nyní k dispozici."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Hlasová komunikace vypnuta. Chcete-li komunikovat se členy své čety, zapněte hlasovou komunikaci (stisknutím klávesy %(keyName)s)."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Hlasová komunikace zapnuta."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Připojili jste se k četě %(squadNum)s. Chat v četě a hlasová komunikace jsou nyní k dispozici. (Chcete-li vypnout hlasovou komunikaci, stiskněte %(keyName)s)."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Připojili jste se k četě %(squadNum)s. Chat v četě a hlasová komunikace jsou nyní k dispozici. (Chcete-li zapnout hlasovou komunikaci, stiskněte %(keyName)s)."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Připojili jste se k četě %(squadNum)s. Chat v četě a hlasová komunikace jsou nyní k dispozici. Přiřaďte klávesu pro zapnutí/vypnutí hlasové komunikace."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Připojili jste se k četě %(squadNum)s. Chat v četě je nyní k dispozici."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s se připojil k četě %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s vás pozval do čety."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s vás pozval do čety.\nPozor! Vaše aktuální přezdívka a značka klanu se zobrazí členům čety."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s byl pozván do čety."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Na %s sekund vám bylo znemožněno posílat další zprávy."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Příkaz \"%s\" byl pozastaven na %s sekund."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Příkaz %s byl pozastaven."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Zpráva pozastavena. Počkejte prosím %s s."
+
+msgid "client/information/addToFriends/message"
+msgstr "Žádost o přidání hráče %s do vašeho seznamu přátel uložena."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Požadavek na přidání hráče %s na vaši černou listinu byl uložen. Chat s hráčem byl zablokován a jeho zprávy skryty."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Chat s hráčem %s je zablokovaný a jeho zprávy skryté."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Nenalezeno nic odpovídajícího zadání."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Žádost o odstranění hráče %s z vašeho seznamu přátel uložena."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Požadavek na odebrání hráče %s z vaší černé listiny byl uložen. Chat s hráčem byl plně obnoven."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Chat s hráčem %s je opět k dispozici."
+
+msgid "client/information/setMuted/message"
+msgstr "%s nemá povoleno vést s vámi hlasovou komunikaci."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s má povoleno vést s vámi hlasovou komunikaci."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Nečinnost bude potrestána!\nPro vítězství je vyžadována týmová práce!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Prázdný dotaz"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Hledat uživatele"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Nesprávná délka nebo neplatný znak v poli pro vyhledávání. Povolený počet znaků je %d až %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Hledat uživatele"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Přidat hráče do seznamu přátel"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Založit skupinu"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Přidat hráče na černou listinu"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Potvrdit žádost o přátelství"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Odmítnout žádost o přátelství"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Upravit skupinu"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Založit kanál hráče"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Hledání hráče"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Připojit se do kanálu hráče"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Opustit kanál hráče"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Odstranit hráče ze seznamu přátel"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Odstranit hráče z černé listiny"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Odstranit poznámku"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Poslat žádost o přátelství"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Podívat se na přechozí zprávy"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Hledat kanály hráče"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Poslat zprávu"
+
+msgid "client_action/SET_MUTE"
+msgstr "Vypnout hlasové zprávy"
+
+msgid "client_action/SET_NOTE"
+msgstr "Vytvořit/upravit poznámku"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Zapnout hlasové zprávy"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Akce \"%(actionName)s\" je pozastavena na %(floatArg1)s s."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Akce \"%(actionName)s\" je dočasně nedostupná. Zkuste to později."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Překročili jste maximální povolený počet kanálů. Zavřete prosím nepotřebné kanály a zkuste to znovu."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Kanál „%(strArg1)s“ už existuje."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Název kanálu není uveden."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Neplatný název kanálu „%(strArg1)s“."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Ověření hesla se neshoduje se zadaným heslem."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Heslo kanálu není uvedeno."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Neplatné heslo kanálu."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Ověření hesla není uvedeno."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Neplatné ověření hesla."
+
+msgid "client_error/command/generic_error"
+msgstr "Chyba při spuštění příkazu \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "příkaz je zmrazen na %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "příkaz %(strArg1)s není podporovaný klientem."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "neplatná doba trváni banu %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "neplatný typ banu %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "neplatné jméno hráče %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Hráč \"%(strArg1)s\" je na vaší černé listině."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Hráč \"%(strArg1)s\" není na vaší černé listině."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Hráč nebyl nalezen."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Už jste potvrdili žádost o přátelství od \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Už jste odmítli žádost o přátelství od \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Vaše odpověď na žádost o přátelství od \"%(strArg1)s\" se zpracovává."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Název skupiny není zadán."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Skupina \"%(strArg1)s\" už existuje."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Neplatný název skupiny \"%(strArg1)s\""
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Skupina \"%(strArg1)s\" nebyla nalezena."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Hlasové zprávy pro hráče \"%(strArg1)s\" zapnuty."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Text poznámky není zadán."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Žádné poznámky pro hráče \"%(strArg1)s\""
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Hráč \"%(strArg1)s\" je vaším přítelem."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Hráč \"%(strArg1)s\" nebyl ve vašem seznamu přátel nalezen."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Název kanálu musí obsahovat %(int32Arg1)s–%(int32Arg2)s znaků."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Název skupiny by neměl přesahovat %(int32Arg2)s symbolů."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Maximální počet hráčů na černé listině %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Maximální počet založených skupin %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Bohužel nemůžete mít na svém seznamu kontaktů více než %(int32Arg2)s hráčů. Odstraňte hráče, se kterými nehrajete."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Text v poznámce by neměl přesahovat %(int32Arg2)s symbolů."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Heslo musí obsahovat %(int32Arg1)s–%(int32Arg2)s znaků."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Neplatné ID hráče"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Chyba při provádění \"%(actionName)s\""
+
+msgid "client_error/shared/LOCKED"
+msgstr "Akce \"%(actionName)s\" je dočasně nedostupná. Zkuste to později."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Jméno hráče není zadáno."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Neplatné jméno hráče %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Nelze se připojit k serveru chatu. Zkuste to později."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Akce \"%(actionName)s\" není podporována herním klientem."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Došlo k chybě. Zkuste to později."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Některé funkce jsou do zahájení odpočítávání vypnuté."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Zadány neplatné údaje."
+
+msgid "command/acceptInvite"
+msgstr "Akceptovat pozvánku"
+
+msgid "command/addFriend"
+msgstr "Přidat hráče do seznamu přátel"
+
+msgid "command/addIgnored"
+msgstr "Přidat hráče na vaší černou listinu"
+
+msgid "command/broadcast"
+msgstr "Poslat zprávu"
+
+msgid "command/createChatChannel"
+msgstr "Založit kanál"
+
+msgid "command/createInvite"
+msgstr "Vytvořit pozvánku"
+
+msgid "command/createPrivate"
+msgstr "Založit soukromý kanál"
+
+msgid "command/findChatChannels"
+msgstr "Hledat kanály"
+
+msgid "command/findUser"
+msgstr "Hledat hráče"
+
+msgid "command/getActiveInvites"
+msgstr "Získat seznam pozvánek"
+
+msgid "command/getArchiveInvites"
+msgstr "Získat seznam archivovaných pozvánek"
+
+msgid "command/getMembersCount"
+msgstr "Získat počet hráčů v kanálu"
+
+msgid "command/leaveChatChannel"
+msgstr "Opustit kanál"
+
+msgid "command/rejectInvite"
+msgstr "Odmítnout pozvánku"
+
+msgid "command/removeFriend"
+msgstr "Odstranit tohoto hráče ze seznamu přátel"
+
+msgid "command/removeIgnored"
+msgstr "Odstranit hráče z vaší černé listiny"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Získat seznam členů klanu"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Získat seznam servisních kanálů"
+
+msgid "command/setMuted"
+msgstr "Zakázat hlasovou komunikaci"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s je zabanován."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s není nadále zabanován."
+
+msgid "command/unsetMuted"
+msgstr "Povolit hlasovou komunikaci"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Klikněte pro uložení založené skupiny kontaktů."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Založit"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Klikněte pro zrušení založení a návrat do vašeho seznamu kontaktů."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Zavřít"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Klikněte pro odstranění vaší skupiny kontaktů."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Odstranit"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Klikněte pro zrušení odstranění a návrat do vašeho seznamu kontaktů."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Storno"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Klikněte pro uložení skupiny kontaktů pod novým názvem."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Uložit"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Klikněte pro zrušení úprav a návrat do vašeho seznamu kontaktů."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Zavřít"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Název by neměl přesahovat %(maxChars)s symbolů."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Klikněte pro přidání hráče do vašeho seznamu kontaktů."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Přidat"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Klikněte pro zrušení hledání hráče a návrat do svého seznamu kontaktů."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Zavřít"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Klikněte pro vyhledání hráče podle jména."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Hledat"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Jméno musí obsahovat %(minChars)s až %(maxChars)s znaků nebo číslic."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Za příliš časté odesílání dotazů je vyhledávání zmrazeno na %(time)s sekund."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Klikněte pro uložení vybraných nastavení."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Použít"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Klikněte pro zrušení změn a návrat do vašeho seznamu kontaktů."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Storno"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Klikněte, abyste založili skupinu."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Založit skupinu"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Klikněte pro vyhledání hráče, který není ve vašem seznamu kontaktů, podle jména."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Hledat mimo kontakty"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Klikněte pro nalezení a přidání hráče do vašeho seznamu kontaktů."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Hledání hráče"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Klikněte pro změnu nastavení seznamu kontaktů."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Nastavení"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Jméno musí obsahovat maximálně %(maxChars)s znaků."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Poslat příkaz"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Vyloučit z týmu"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Zavřít"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Založit kanál"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Najít a připojit se"
+
+msgid "dialogs/channels/title"
+msgstr "Kanály"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Zavřít"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Připojit se"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Heslo musí obsahovat 3 až 12 znaků."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Neplatné heslo."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Chystáte se připojit na zabezpečený kanál %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Zadejte heslo:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Varování"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Připojování ke kanálu"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Pozvat do klanu"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Přidat do seznamu přátel"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Přidat na černou listinu"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Kopírovat do schránky"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Založit soukromý kanál"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Převést zlaťáky"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Odstranit ze seznamu přátel"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Odstranit z černé listiny"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Zobrazit podrobnosti"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Řadit podle jména."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Řadit podle stavu."
+
+msgid "dialogs/contacts/title"
+msgstr "Seznam kontaktů"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Klan"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Přátelé"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Žádosti o přátelství"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Černá listina"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Hlasová komunikace zakázána"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Zavřít"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Založit"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Bude vytvořen automaticky"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Zadat heslo"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Název kanálu"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Heslo"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Potvrdit heslo"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Požadovat heslo"
+
+msgid "dialogs/createChannel/title"
+msgstr "Založení kanálu"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Vyberte %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Vyberte vozidlo %(level)s. úrovně"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Vybrat vozidla"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Vyberte vozidlo %(level)s. úrovně"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Vozidlo: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Zavřít"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Připojit se"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Hledat"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Výsledky hledání (prvních %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Hledat"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Hledání kanálů"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Přidat do přátel"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Černá listina"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Zavřít"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Hledat"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Detaily uživatele"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Výsledky hledání:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Hledat"
+
+msgid "dialogs/searchContact/title"
+msgstr "Hledání hráčů"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Servisní kanál"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Vyberte vozidlo VIII. úrovně"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Hlavním cílem je být poslední přeživší četou."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "Režim Frontové linie je dostupný\njen pro vozidla VIII. úrovně."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ akce +++\n+++ akce +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Další zkušenosti za bitvu\npro vozidla IV. či vyšší úrovně"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Hrajte s vozidly stejné úrovně\npočínaje IV. úrovní, a získejte další zkušenosti navíc"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Jakmile hráči přijmou pozvánku, zobrazí se jim po dobu trvání bitvy vaše skutečná přezdívka a značka klanu."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Kanál chatu"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Experimentální moduly namontované na vozidlech: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Stav: Odpočívá"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Stav: V bitvě"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Stav: Nepřipraven"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Stav: Odpojen"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Stav: Připraven"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Rozpustit"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Pozvat"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "vinen"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "podezřelý"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Zničeno spojenců: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Zakázat hlasovou komunikaci"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Přidat do přátel"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Přidat na černou listinu"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Zavřít"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Založit soukromý kanál"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Povolit hlasovou komunikaci"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Celkem"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Založen"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Poslední bitva"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Stav:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s — detaily hráče"
+
+msgid "events/enterChannel"
+msgstr "[%s] se připojil do kanálu"
+
+msgid "events/leaveChannel"
+msgstr "[%s] opustil kanál"
+
+msgid "keyboardChat"
+msgstr "Chat"
+
+msgid "listView/emptyList/info"
+msgstr "oznámení"
+
+msgid "listView/emptyList/invite"
+msgstr "pozvánky"
+
+msgid "listView/emptyList/offer"
+msgstr "speciály"
+
+msgid "listView/emptyList/template"
+msgstr "Zatím žádné %(listType)s."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Na novinky"
+
+msgid "listView/news/header"
+msgstr "CO JE NOVÉHO?"
+
+msgid "listView/title"
+msgstr "Centrum oznámení"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Čas bitvy: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Odeslat"
+
+msgid "lobby/buttons/channels"
+msgstr "Kanály"
+
+msgid "lobby/buttons/contacts"
+msgstr "Kontakty"
+
+msgid "lobby/buttons/send"
+msgstr "Odeslat"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Zavřít kanál"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Zobrazit ve zprávách datum"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Zobrazit ve zprávách čas"
+
+msgid "lobby/faq/close"
+msgstr "Zavřít"
+
+msgid "lobby/faq/title"
+msgstr "FAQ"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Přidat tohoto hráče mezi přátele"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Přidat hráče na černou listinu"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Kopírovat do schránky"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Založit soukromý kanál"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Zobrazit detaily o hráči"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Hledat mimo kontakty"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Storno"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Upravit skupinu"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Odstranit ze skupiny"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Odstranit skupinu"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Klikněte pro zrušení vytvoření a návrat do vašeho seznamu kontaktů."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Zavřít"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Klikněte pro uložení vytvořené poznámky o hráči."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Založit"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Přetáhněte kontakty sem"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Klikněte pro zrušení úprav a návrat do vašeho seznamu kontaktů."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Zavřít"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Klikněte pro uložení úprav v poznámce o hráči."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Uložit"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Nic, co by odpovídalo vašemu dotazu, nebylo nalezeno."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Trvalé taktické jednotky"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Přátelé"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Ostatní"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Černá listina"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Žádosti o přátelství"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Najít hráče v seznamu"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Žádní hráči ještě nebyli přidáni."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Seznam kontaktů je prázdný"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Žádné kontakty teď nejsou připojeny"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Zkuste hledat mimo seznam kontaktů"
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Žádné shody"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Zadejte jméno hráče"
+
+msgid "messenger/contacts/title"
+msgstr "Kontakty"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Zavřít"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Přidat"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Skupina už existuje"
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Hledání hráče"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Zavřít"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Vytvořit"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Vytvořit poznámku"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Zavřít"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Uložit"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Název by neměl přesahovat %(maxChars)s symbolů."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Upravit poznámku"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "na "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Zavřít"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Založit"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Založit skupinu"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Zadejte název (až %(symbols)s symbolů)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Včetně kontaktů ve skupině"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Storno"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Odstranit"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Odstranit skupinu"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Zavřít"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Uložit"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Upravit skupinu"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Zadejte název (až %(symbols)s symbolů)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Zadejte popis (až %(symbols)s symbolů)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Popis by neměl přesahovat %(maxChars)s symbolů."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Hledání hráče"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Přijmout jako skupinu v jednom okně"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Ukázat odpojené hráče"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Ukázat kategorii „Ostatní“"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Zprávy od hráčů, kteří nejsou ve vašem seznamu kontaktů:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Přijmout v samostatném okně"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Storno"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Použít"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Nastavení"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Součást přidána"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Body Battle Passu odstraněny"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Mince odstraněny"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Odebrány žetony Manévrů"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Součásti odebrány"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Osobní body slávy odstraněny"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Odepsáno volných zkušeností"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Body turnusu odstraněny"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Odebrány žetony za roky služby"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Body Battle Passu přidány"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Mince přidány"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Připsány žetony Manévrů"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Součásti přidány"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Osobní body slávy přidány"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Volných zkušeností obdrženo"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Body turnusu přidány"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Přidány žetony za roky služby"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Přidat všechny kontakty na seznam příjemců."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Přidat vybraný kontakt."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Odstranit všechny kontakty ze seznamu příjemců."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Odstranit vybraný kontakt ze seznamu příjemců."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Akce %(action)s byla pozastavena na %(cooldownPeriod)s sekund."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Dosáhli jste limitu počtu otevřených kanálů. Zavřete prosím nepoužívané kanály."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Chyba"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Chyba při přidávání uživatele mezi přátele."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Chyba"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Chyba při přidávání uživatele na vaší černou listinu."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Chyba"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Kanál tohoto názvu již existuje."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Chyba při zakládání kanálu."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Kanál byl odstraněn."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Chyba při vstupu na kanál."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Chyba při použití příkazu chatu: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Příkaz %(command)s byl zablokován na %(cooldownPeriod)s s."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Zpráva pozastavena. Příliš mnoho zpráv."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Připojení na kanál vypršelo."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Nelze založit soukromý kanál: uživatel je aktuálně odpojen."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Neplatný znak"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Chyba"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Neplatný parametr %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Chyba"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Neplatné heslo pro zabezpečený kanál."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Chyba při vstupu na kanál."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Inicializace chatu se nepovedla."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/internalError/message"
+msgstr "Interní chyba, zkuste to později."
+
+msgid "server/errors/internalError/title"
+msgstr "Chyba při zakládání kanálu"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Neplatný název kanálu."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Chyba při zasílání pozvánky."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Chyba"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "Uživatel %(user)s už byl zabanován."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "Uživatel %(user)s už je moderátorem kanálu."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Uživatel je odpojen"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "Uživatel %(user)s není moderátorem kanálu."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Dosažen limit počtu uživatelů na tomto kanálu."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Chyba při vstupu na kanál"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Nedostatečná oprávnění pro tuto operaci."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Chyba chatu"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Pro vstup na zabezpečený kanál zadejte heslo."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Chyba při vstupu na kanál"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Změna tohoto nastavení není v současné době k dispozici."
+
+msgid "server/errors/sqlError/message"
+msgstr "Chyba při volání DB."
+
+msgid "server/errors/sqlError/title"
+msgstr "Chyba"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Tento uživatel si vás přidal na svou černou listinu."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Chyba"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Uživatel neexistuje."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Chyba"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Dosáhl(a) jste limitu uživatelů v seznamu."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Chyba"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Překročili jste maximální povolený počet kanálů."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Překročili jste maximální povolený počet znaků pro název kanálu."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Překročili jste maximální povolený počet znaků pro heslo."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Kanál „%(strArg1)s“ už existuje."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Neplatné znaky v názvu kanálu."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Urážlivá slova v názvu kanálu."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Ocelový lovec"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Toto jsou speciální vozidla pro režim „Ocelový lovec“. Vstupte do režimu „Ocelový lovec“ a zjistěte, co tato vozidla dokážou."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Vozidlo zničeno"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Úroveň dosažena"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Získány body"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Vítězství"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Přidáno"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Potvrzuji!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Přejít na operaci"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Služební záznam"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Kampaň"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Kampaň skončila."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "Kontrolovatelný bonus k ZK WoT Plus je dostupný"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "Kontrolovatelný bonus k ZK WoT Plus není dostupný"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Nepodařilo se doplnit spotřební doplňky pro %s. Všechny vaše zlaťáky budou k dispozici po automatickém obnovení funkčnosti Peněženky WG."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Nepodařilo se doplnit směrnice pro vozidlo %s. Kvůli údržbě je operace dočasně nedostupná."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Nepodařilo se doplnit směrnici pro %s. Nedostatek prostředků."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Nepodařilo se automaticky doplnit směrnici pro %s. Nainstalujte ji prosím ručně."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Směrnice pro vozidlo %s byla úspěšně doplněna. Utratili jste "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Nepodařilo se doplnit spotřební doplňky na %s. Zvažte jejich nákup za zlaťáky."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nepodařilo se naložit spotřební doplňky na vozidlo %s. Nedostatek kreditů."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Nepodařilo se doplnit spotřební doplňky pro %s. Všechny vaše zlaťáky budou k dispozici po automatickém obnovení funkčnosti Peněženky WG."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Nepodařilo se automaticky naložit doplňky na vozidlo %s. Naložte doplňky manuálně."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Spotřební doplňky pro vozidlo %s byly úspěšně doplněny. Utratili jste "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Nepodařilo se doplnit munici pro %s. Zvažte nákup granátů za zlaťáky."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Nepodařilo se doplnit munici pro %s. Nedostatek kreditů."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Nepodařilo se doplnit munici pro %s. Všechny vaše zlaťáky budou k dispozici po automatickém obnovení funkčnosti Peněženky WG."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Nepodařilo se automaticky doplnit munici pro %s. Naložte munici manuálně."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Munice pro vozidlo %s úspěšně doplněna. Stálo vás to "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Prodloužení pronájmu stylu za %s se nezdařilo. Kupte si styl za zlaťáky."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Prodloužení pronájmu stylu za %s se nezdařilo. Nedostatek prostředků."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Prodloužení pronájmu stylu za %s se nezdařilo. Všechny vaše zlaťáky budou k dispozici po automatickém obnovení funkčnosti Peněženky WG."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Prodloužit dobu pronájmu"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "Pronajatý styl „%s“ použitý na vozidlo %s brzy vyprší: zbývají 3 bitvy."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "Pronájem stylu „%s“ pro %s bude po 3 bitvách automaticky prodloužen na dalších %s bitev."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Na vnější vzhled"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "Pronajatý styl „%s“ použitý na vozidle %s vypršel. Pronájem stylu můžete prodloužit na obrazovce vnějšího vzhledu."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Automatické prodloužení pronájmu stylu za %s se nezdařilo. Kupte si styl ručně."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Pronájem stylu za %s byl úspěšně prodloužen. Utraceno "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Nepodařilo se opravit vozidlo %s."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Nepodařilo se opravit vozidlo %s. Nedostatek kreditů."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Nepodařilo se opravit %s. Všechny vaše zlaťáky budou k dispozici po automatickém obnovení funkčnosti Peněženky WG."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Nepodařilo se automaticky opravit vozidlo %s. Opravte své vozidlo manuálně."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Vozidlo %s bylo úspěšně opraveno. Stálo vás to "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "Korouhev tankisty WoT Plus je dostupná"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "Korouhev tankisty WoT Plus není dostupná"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Odznaků přidáno"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "Bojový bonus WoT Plus je dostupný"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "Bojový bonus WoT Plus není dostupný"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Mise splněna: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Dokončili jste sérii misí Tankové akademie."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Žetony lze vyměnit za jakékoliv vyzkoumatelné vozidlo VI. úrovně."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Na výběr vozidla"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Blahopřejeme!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Dokončené mise Tankové akademie: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Odměna získána:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Žeton akademie použit."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Odměna získána:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Stání v garáži: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Nájemní vozidla: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Za splnění výcvikových misí získejte vozidla a užitečné zdroje."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Na Tankovou akademii"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "VŠE, CO POTŘEBUJETE\nDO ZAČÁTKU"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Žeton akademie"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Body využity"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Nevyužité body použité při aktivaci Elitního okruhu: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Neutracené body využity: %(points)s za kapitolu „%(chapter)s“."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Standardní vybavení na výběr"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Elitní okruh aktivován"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Elitní okruh je pozastaven."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Dosaženo limitu bodů"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Získali jste maximální počet bodů s %(vehName)s.\nOdměna za dosažení limitu bodů: %(bonusPoints)s.\nBojujte s jiným vozidlem a pokračujte v získávání bodů."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Blahopřejeme!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "Získali jste styl „%(name)s“. Můžete ho okamžitě nanést na vozidlo a během postupu Battle Passem dále vylepšovat."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Trofejní vybavení na výběr"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Dokončili jste kapitolu Battle Passu „%(chapter)s“!\nZískány odměny:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Dokončili jste kapitolu Battle Passu „%(chapter)s“!\nZískány odměny:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Dokončili jste %(newLevel)s. fázi postupu Battle Passem.\n\nZískána odměna:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Fáze přidané v kapitole „%(chapter)s“: %(levelCount)s\nZdolali jste %(currentLevel)s. fázi.\nZískány odměny:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Dostali jste odměny za dříve dokončené fáze Battle Passu:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Nyní budete získávat odměny jak z panelu základních, tak vylepšených odměn."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Získali jste odměny za dokončené fáze pomocí nevyužitých bodů:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Dokončili jste kapitolu „%(chapter)s“.\nZískána odměna:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Pokračujte v boji a získávejte body!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Dokončili jste všechny kapitoly %(season)s. sezóny Battle Passu.\nZískané odměny:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Dokončili jste postup %(newLevel)s. fází kapitoly „%(chapter)s“.\nZískaná odměna:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Utraceno volných zkušeností:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Zlaťáků utraceno:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Zakoupili jste Vylepšený Pass a všechny fáze pro kapitolu „%(chapter)s“.\nZískané odměny za všechny fáze kapitoly:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Po zakoupení Vylepšených Passů jste získali bonus:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Nyní získáte základní i vylepšené odměny za všechny kapitoly v této sezóně."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Fáze přidané v kapitole „%(chapter)s“.: %(levelCount)s\nZdolali jste %(currentLevel)s. fázi.\nZískány odměny:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Po zakoupení Vylepšeného Passu jste získali bonus:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Tento Vylepšený Pass platí jen pro kapitolu „%(chapter)s“."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Dostali jste odměny za dříve dokončené fáze Battle Passu:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Tento Vylepšený Pass funguje jen pro kapitolu „%(chapter)s“."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Nyní budete získávat odměny jak z panelu základních, tak vylepšených odměn kapitoly „%(chapter)s“."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Výchozí odměna přidána:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Vylepšený Pass zakoupen"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Vylepšený Pass zakoupen"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Fáze zakoupeny"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Blahopřejeme!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Odměna udělena"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Dokončena fáze Elitního okruhu.\nZískané odměny:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Fází Elitního okruhu dokončeno: %(amount)s\nZískané odměny:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Člen posádky:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Úspěchy v bitvě"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Získáno %s za speciál '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Získáno %s za speciál '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s žetonů"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s kreditů"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s bonů"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s narozeninových mincí"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s volných zkušeností"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s zlaťáků"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Bitva"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Bodů Battle Passu získáno: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Získány žetony"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "kompenzace za poškození způsobené spojenci: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Získáno kreditů: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Získány bony"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Porážka"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d za první vítězství každý den"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Remíza"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Bitva skončila"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Body bojových záloh"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Součásti získány"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Získány narozeninové mince"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Získáno zkušeností: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Ofenzíva"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Budova"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Průmyslových zdrojů získáno"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "podle klanu"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "podle hráče"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Volných zkušeností obdrženo"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Získány zlaťáky"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "Za připojení se k řadám %(campaignName)s jste byli oceněni medailí „%(nameMedal)s“."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Blahopřejeme!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Za úspěšné splnění 45 misí v sérii „%(categoryName)s“ v kampani „%(campaignName)s“ jste získali medaili „%(nameMedal)s“."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Za úspěšné splnění 30 misí v sérii „%(categoryName)s“ v kampani „%(campaignName)s“ jste získali medaili „%(nameMedal)s“."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Za úspěšné splnění 15 misí v sérii „%(categoryName)s“ v kampani „%(campaignName)s“ jste získali medaili „%(nameMedal)s“."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "pokuta za poškození spojenců: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Gratulujeme!\nZa úspěšné dokončení osobních misí získáváte následující odměny"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Blahopřejeme!\nZa úspěšné dokončení osobních misí kampaně „Dlouho očekávaná podpora“ získáváte následující odměny"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Blahopřejeme!\nZa úspěšné dokončení osobních misí kampaně „Druhá fronta“ získáváte následující odměny"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Blahopřejeme!\nZa úspěšné dokončení osobních misí obou kampaní získáváte následující odměny"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Přidáno do kreditní rezervy"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Mise splněna! Odměna"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Služební záznam"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Bodů Battle Passu získáno: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Postele přidány do kasáren"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Připsány žetony"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Kredity přidány"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Připsány bony"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Součásti přidány"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Připsány narozeninové mince"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Přidány volné zkušenosti"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Přidány zlaťáky"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Přidáno"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Body kampaně: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Mazlíčci získáni"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Připsány dny prémiového účtu Wargaming"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Připsány dny prémiového účtu WoT"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Přidány bonusové bitvy: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s denní"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s standardních"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Stání přidána"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Přidány bonusové bitvy"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nStandardní, za vaše výkony v dokončené fázi: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nZa plnění misí: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nDenní, za počet prýmků získaných v kvalifikaci: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nStandardní, za počet prýmků získaných v kvalifikaci: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Změny v hodnostech"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nPrýmky získány"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nPrýmky získány"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nPřesun do divize: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nPřesun do lig"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nPrýmek uchován"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nZískali jste hodnost %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nZtratili jste hodnost %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nZáštita hodnosti oslabena"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nŽádné změny"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nZáštita hodnosti prolomena"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nPrýmek uchován"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nPrýmek získán"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nPrýmek ztracen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nPrýmky získány"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Body hodnocení"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Za roky své služby jste získali následující odměny"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Blahopřejeme!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Rekrut"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Vozidla"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Ženský člen posádky"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Technická porážka"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Technické vítězství"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Vítězství"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Jedna pozice pro vyloučené mapy byla odstraněna. Mapa „%(mapName)s“ je zpět v rotaci."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "Vyloučená mapa „%(mapNames)s“ byla odstraněna ze hry. Můžete vyloučit novou mapu."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Jedna pozice pro vyloučené mapy byla odstraněna. Mapa „%(mapNames)s“ je zpět v rotaci."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Speciální akce začala!\nPouze po dobu 10 dní můžete své plány vyměnit za jiné hodnotné předměty."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Speciál skončil"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Vyměňte své plány"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Konverze plánů je kvůli údržbě vypnuta."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Konverze plánů byla obnovena."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Nezapomeňte si vyzvednout svou odměnu!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Přejít na výběr"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Bonusy pro probíhající bitvy nejsou započítány."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Osobní záloha „%(boosterName)s“ byla z technických důvodů vypnuta."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: osobní záloha plně využita"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Zálohy ztraceny:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Zálohy vypršely"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "kredity"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "Volné ZK"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "ZK posádky"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "Bojové ZK"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Celkový bonus k %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Zavřít"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Opustili jste, nebo jste byli vyloučeni z klanu:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "Přidán odznak „%(element_name)s“"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "Přidána medaile „%(element_name)s“"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "Přidána korouhev „%(element_name)s“"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Odměna získána"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Obdržené pochvaly"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Označení známkami je momentálně nedostupné"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "V bitvě je dostupné označení známkami"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Pochvaly jsou momentálně nedostupné"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "V bitvě jsou dostupné pochvaly"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Bylo vám darováno %(gold)s zlaťáků a %(credits)s kreditů."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Bylo vám darováno %(credits)s kreditů."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Posádkový pomocník je dostupný"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Posádkový pomocník je nedostupný"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Kreditní a zlaťáková rezerva otevřeny!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Aukce"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Battle Pass"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Datum"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Odebrány žetony"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Odečteno kreditů"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Odstraněno bonů"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Součásti odebrány"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Odebrány narozeninové mince"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Odepsáno volných zkušeností"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Odečteno zlaťáků"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Finanční transakce"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Aukce"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Získány žetony"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Získáno kreditů"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Získáno bonů"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Součásti získány"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Získány narozeninové mince"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Volných zkušeností obdrženo"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Získáno zlaťáků"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Ocenění „Hrdina naší doby“"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "Získána medaile „%(medalName)s“ za %(battlesCount)s odehraných bitev\nZískány obtisky za %(battlesCount)s odehraných bitev (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Kvůli údržbě jsou operace s demontážními sadami dočasně nedostupné."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Operace s demontážními sadami jsou opět dostupné. Omlouváme se za nepříjemnosti."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Podklad vojenské známky odemčen: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Gravírování vojenské známky odemčeno: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "Vojenská známka %(name)s"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "dosáhlo úrovně"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Nová úroveň"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Odemčeno"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Podklad"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Gravírování"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Prémiový účet Wargaming vyprší %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Potvrdit email"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "Email není potvrzen"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Experimentální modul použit"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Všechny experimentální moduly odebrány"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Experimentální moduly byly odmontovány z následujících vozidel"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Scénář"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Směrnice vybavení na výběr"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Body Battle Passu"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Univerzální brožura"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Bony"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Body bojových záloh"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Experimentální vybavení na výběr"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Školící oprávnění"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Příkazy k přeškolení"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Univerzální manuál"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Byly vám uděleny narozeninové mince: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Byla odemčena další pozice pro vyloučené mapy"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Nepodařilo se vyloučit mapy s WoT Plus"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Důvod"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Předplatné Boosteroid skončilo."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Předplatné skončilo."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Vozidlo je vyřazeno"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Vozidlo"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Vozidlo je k dispozici"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Vozidlo"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Postup vynulován"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Přejít na misi"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Pozor! Postup v misi „%(missionShortName)s“ byl vynulován. Splnění podmínky bude restartováno."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Mise: „%(missionName)s“"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operace: „%(operation)s“"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Dočasně jste byli zablokováni v bitvách režimu „%(mode)s“. Zablokování skončí %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Vaše dočasné zablokování skončilo. Můžete znovu hrát v režimu „%(mode)s“."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Kvůli %(reason)s v režimu „%(mode)s“ byly vaše kredity, ZK a odměny získané v bitvě odstraněny."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Za %(reason)s v režimu „%(mode)s“ jste dostali varování."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Zablokování"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Konec zablokování"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Byli jste potrestáni"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Nesportovní chování"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Válka klanu %(clan)s je vyhlášena!\nOfenzíva začíná %(date)s v %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Obrana prolomena!\nVšechny útoky zrušeny. Naplňte panel výdrže velitelského centra, aby opevnění začalo fungovat."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Naplánovaná bitva s klanem %(clan)s byla zrušena."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "Ofenzíva naplánovaná na %(date)s v %(time)s proti klanu %(clan)s je zrušena: rozdíl mezi úrovněmi opevnění je větší než 1 úroveň."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Budova %(building)s je poškozena! Naplňte panel výdrže budovy, aby začala fungovat."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Velitelské centrum je poškozeno! Naplňte panel výdrže, aby opevnění začalo fungovat. Pokud bude vaše velitelské centrum ještě více poškozeno, pak bude obrana prolomena."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Klan %(clan)s vám vyhlásil válku!\nOfenzíva začíná %(date)s v %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Čas obrany nastaven: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Čas obrany byl upraven. Nový Čas obrany: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Obrana vašeho opevnění je vypnuta. Úroveň všech budov a záloh je snížena na úroveň IV."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Gratulujeme! Vyvinuli jste své opevnění na úroveň VIII."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Gratulujeme! Opevnění je plně funkční ve prospěch klanu."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Den příměří byl změněn. Nový den příměří není nastaven."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Den příměří nastaven: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Úroveň budovy %(building)s se zvýšila.\nPříprava zálohy %(order)s byla převedena na průmyslové zdroje a přidána do skladiště budovy."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Záloha %(orderTypeName)s je kompenzována a připravena k aktivaci."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Domovský server byl změněn na %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Průmyslové zdroje připsány: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Průmyslové zdroje odečteny: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Jste přiděleni k budově %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Zálohy přidány: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Zálohy odečteny: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Záloha %(order)s je aktivní. Zbývající čas: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Záloha aktivována"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Záloha %(order)s je plně využita."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "Příprava %(count)s záloh(y) %(order)s dokončena."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Trvání zálohy „Evakuace“ skončilo.\n\n%(additional)s\nCelkem pro náš klan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Nepřítel aktivoval zálohu „Rekvizice“ a vyplenil navíc: %(resDec)s\nNáš klan navíc zachránil: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "Trvání zálohy „Rekvizice“ skončilo.\n\n%(additional)s\nCelkem pro náš klan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Nepřítel použil zálohu „Evakuace“ a zachránil navíc: %(resDec)s\nNáš klan navíc vyplenil: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Skladiště budovy %(building)s je plné.\nPoužijte průmyslové zdroje k přípravě záloh, nebo je přepravte do jiné budovy."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Období neutrality vašeho opevnění skončilo.\nOstatní klany vás nyní mohou napadnout — buďte připraveni!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Vaše opevnění vyhlásilo neutralitu.\nOstatní klany vás nyní nemohou napadnout. Období neutrality končí: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s jednotek průmyslových zdrojů bylo přidáno do skladiště ve velitelském centru."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Přejít na akci"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Na postup"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Bylo vám darováno %(gold)s zlaťáků."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Aukce: Vaše nabídka je nižší než konkurenční nabídka."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Vaše šance na výhru současné aukce se snížily: Vaše nabídka je v současnosti nižší než konkurenční nabídka."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Na akci"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Vaše nabídka prohrála. Bude vráceno:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Převýšili vás ostatní hráči. Vaše nabídka se vám brzy vrátí na účet."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Chyba"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Chyba při podávání nabídky. Nedošlo k odečtení prostředků. Zkuste to prosím znovu."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Fáze nabídek brzy skončí."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Pospěšte si a podejte nabídku!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Pospěšte si a podejte nabídku. Množství je omezené."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Podávání nabídek na novou draženou položku právě začalo!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Lůžka přidána do kasáren"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Lůžka odstraněna z kasáren"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Osobní zálohy"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Osobní zálohy odstraněny"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Připsány žetony"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Odebrány žetony"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Náhrada za"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "v žetonech"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Kamufláž"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "kredity"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "za bony"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Emblém"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "v podobě narozeninových mincí"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "zlaťáky"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Nápis"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Efekt"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Nátěr"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Jednomístné číslo"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Dvoumístné číslo"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Třímístné číslo"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Obtisk"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Styl"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Kredity přidány"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Kredity byly strženy z vašeho účtu"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Přidány knihy posádky"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "posádka poslána do kasáren"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "posádka %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Přidány vzhledy posádky"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Odstraněny vzhledy posádky"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "posádka %d%% posádka poslána do kasáren"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "posádka odstraněna"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Získány bony"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Odstraněny bony"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Osobní slevy"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Ocenění přidána"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Ocenění odstraněna"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Experimentální moduly přidány"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Experimentální moduly odebrány"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Přidáno"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Odebráno"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Součásti přidány"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Součásti odebrány"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Spotřební doplňky"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Odepsán spotřební doplněk"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Připsány narozeninové mince"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Odebrány narozeninové mince"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Osobní zálohy s omezenou dobou trvanlivosti"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Rozkazy připsány"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Rozkazy odepsány"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Volné zkušenosti"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Volné zkušeností přidány"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Odepsáno volných zkušeností"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Zlaťáky přidány"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Zlaťáky strženy"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Přidány univerzální fragmenty"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Odstraněny univerzální fragmenty"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Účtenka"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Přidáno do skladu"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Odepsán spotřební doplněk"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Na vozidlech"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Přidány fragmenty plánů vozidel %(nationName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Odstraněny fragmenty plánů vozidel %(nationName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Přidáno"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Odstraněno"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "kusů"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Připsány dny prémiového účtu Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Odepsány dny prémiového účtu Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Prémiový účet Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s získalo %(xpCount)s elitních bodů."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s dosáhlo %(level)s. elitní úrovně a získalo %(xpCount)s elitních bodů."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s dosáhlo %(level)s. elitní úrovně."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Předměty z"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "DLC Steam"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Inventáře Steam"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Přidány bonusové bitvy"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Odebrány bonusové bitvy"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "dny pronájmu: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Stání přidána"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Odebrána stání"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "Prémiový účet WoT"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Připsány dny prémiového účtu WoT"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Odepsány dny prémiového účtu WoT"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Rekruti"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Připsány nerozdělené zkušenosti pro členy posádky"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Odebrány nerozdělené zkušenosti pro členy posádky"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Propuštění"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "všechny moduly vyzkoumány"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Přidány fragmenty plánu %(vehicleName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Odstraněny fragmenty plánu %(vehicleName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Vozidla přidána"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Vozidla odstraněna"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Pronajatá vozidla přidána"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Bylo vám uděleny spotřební doplňky: %(typeName)s „%(itemName)s“ – %(amount)d ks."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Na krabičky"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Kliknutím na tlačítko se podíváte na obsah."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Obdrželi jste balíček:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "„%(name)s“ %(colorTagOpen)s%(count)sx%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Ukázat"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "%(count)sx"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Aktivovány portály: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Aktivace portálů"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Získány předměty:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Aktivovali jsme všechny vaše portály a jejich obsah připsali k vašemu účtu:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Odměny získány"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Otevřeli jsme všechny vaše krabičky a připsali jsme vám odměny za Sváteční operaci"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Odměny získány"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Obtisky přidány: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Obtisk přidán: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Na dotazník"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Blahopřejeme!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Průzkumná mise skončila. Děkujeme za váš přínos k vývoji nových map!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Průzkumná mise skončila.\n\nDěkujeme za váš přínos k vývoji nových map!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Průzkumná mise začala.\n\nBojujte na mapách ve vývoji s vozidly VIII.–X. úrovně, podělte se v dotaznících o své názory a získejte odměny!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Finální odměna:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Odehráli jste %(battles)s bitev v Průzkumné misi."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Odměna získána:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Můžete vyplnit dotazník ohledně mechanik režimu v Průzkumné misi."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Dotazník je k dispozici"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Můžete vyplnit dotazník ohledně mapy %(mapName)s v Průzkumné misi."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Přejít do kasáren"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Členové posádky odstraněni: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Zásoby z domácí fronty"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Výbavový pomocník je dostupný"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Výbavový pomocník je nedostupný"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Máte nové zálohy:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Upozornění o přidání"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Zálohy, které vyprší:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Zálohy s omezenou dobou trvanlivosti, které brzy vyprší"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Získáno kreditů: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Datum: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Finanční transakce:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Přidáno do skladu: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Účtenka"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Začal nový cyklus střádání."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Začal nový cyklus střádání. K získání kreditů aktivujte prémiový účet WoT."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Začal nový cyklus střádání. K získání zlaťáků si předplaťte WoT Plus."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Střádání kreditů v kreditní rezervě bylo pozastaveno."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Kreditní rezerva otevřena!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Vyzvednout odměnu"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Po-postup dokončen"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Na postup"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Po-postup"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Získali jste přístup ke speciální odměně."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Klanové války"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Výsledek bitvy"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Turnaj"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Porážka"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Remíza"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Výsledky nejsou definovány"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Vítězství!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Smazáno zakladatelem"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Technická závada"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Byli jste vyloučeni"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Technická porážka"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Technická remíza"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Výsledky nejsou definovány"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Technické vítězství!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Časový limit vypršel"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Dokončeno"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(bitva %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Částečný výsledek"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Výsledek"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Získán prémiový účet Wargaming. Vyprší %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Prémiový účet Wargaming se změnil. Vyprší %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Prémiový účet Wargaming vypršel."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Prémiový účet Wargaming prodloužen. Vyprší %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "Získán prémiový účet WoT. Vyprší %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "Prémiový účet WoT se změnil. Vyprší %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "Prémiový účet WoT vypršel."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "Prémiový účet WoT prodloužen. Vyprší %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Byl vám udělen prémiový účet Wargaming na %(days)d den/dní."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Na elitní systém"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Získány elitní úrovně a elitní značky."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Elitní systém"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Na vozidla"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Dosažena elitní úroveň"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Při vyzvedávání elitní odměny došlo k chybě."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "%(rewardName)s %(typeReward)s získána za dosažení %(lvl)s. elitní úrovně."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Elitní odměna získána"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Upozornění!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Kamufláž"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "obtisk"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "emblém"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Nápis"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(typeName)s %(name)s%(level)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "A ještě %(count)s"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr " %(level)s. úroveň"
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "nátěr"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "obtisk"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Získáno:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "Styl „%(name)s“"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Blahopřejeme!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Odměna za zásluhy"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Bojujte v bitvách a získávejte odměny. Čím více bojujete, tím blíže jste k odměnám."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "„%(text)s“"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Získána pokročilá odměna:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s Žeton(y) hodnosti zkonvertovány na %(count)s bonů."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Blahopřejeme!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Získána maximální odměna:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Získána standardní odměna:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Získána malá odměna:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "V období 2021–2022 jste získali %(points)s hodnocený(ch) žeton(ů)."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Roční odměna"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Dorazily posily!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Získali jste posádku za akci „%(event)s“."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Máte nenaverbované členy posádky: %(count)s. Další odstranění %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Máte nenaverbované členy posádky: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Odznaky odstraněny"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Kompenzace"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Přidány kredity za nevyužitý čas pronájmu %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Přidány zlaťáky za nevyužitý čas pronájmu %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "Období pronájmu %(vehicleName)s skončilo."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Fragmenty plánů: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Kredity: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Bony: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Volné ZK: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Zlaťáky: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "univerzální fragmenty"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Aktuální postup: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Utracené zdroje v Montovně:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Utracené zdroje"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Utratit zdroje"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Zdroje navrácené Montovnou:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Vracení zdrojů"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Výcvikové brožury na výběr"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Průvodci výcvikem na výběr"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Kamufláž"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "Operace %s je prodloužena kvůli prováděné údržbě."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Emblémy"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Nápisy"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Prémiového účtu Wargaming"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "Prémiového účtu WoT"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Pronájem"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Herní server bude odpojen v %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Odpojení serveru zrušeno, bylo plánováno na %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Je dostupná úprava služebního záznamu"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Tento prvek byl pozastaven."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Úprava služebního záznamu je momentálně nedostupná"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Univerzální fragment (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Národní fragment (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Speciální odměna"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Fragment plánu na %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Získaná odměna za potvrzení e-mailu:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Blahopřejeme!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Získána kompenzace za fragmenty plánů již vyzkoumaných vozidel:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Změněna kamufláž"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Získáno kreditů: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Odečteno kreditů: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Bony: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Bony: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Prvky vnějšího vzhledu změněny."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Prvky úpravy vzhledu změněny. Prvků zakoupeno: %(count)s. Utratili jste %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Emblémy změněny"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Připsány narozeninové mince: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Odebrány narozeninové mince: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Získáno volných zkušeností: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Odečteno volných zkušeností: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Získáno zlaťáků: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Odečteno zlaťáků: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Nápisy změněny"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Univerzální fragmenty"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "Národní fragmenty %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Po aktualizaci byly všechny obtisky odstraněny z vozidel a poslány do skladu v sekci „Vnější vzhled“."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Stání přidáno: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Odstraněno pozic: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Pozor!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Přidána vozidla: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Vozidel odstraněno: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "Byly zakoupeny následující prvky úpravy vzhledu:\n%(items)s\nUtraceno %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "Prvek %(itemType)s „%(itemName)s“ úspěšně zakoupen.\nUtraceno %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "%(level)s. úroveň stylu „%(name)s“ úspěšně zakoupena.\nUtraceno %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Prvky úpravy vzhledu vozidla se změnily."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s „%(itemName)s“ (%(count)s kus(ů))"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "%(level)s. úroveň stylu „%(styleName)s“"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Prvky úpravy vzhledu byly odstraněny z vozidla."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Blahopřejeme!\nProgresivní obtisky vám umožňují upravit hotové styly pro %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Blahopřejeme!\nZískali jste obtisk „%(itemName)s“ I. úrovně pro %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Blahopřejeme!\nZískali jste obtisk „%(itemName)s“ I. úrovně."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "Dosaženo obtisku „%(itemName)s“ %(level)s. úrovně pro %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Na vnější vzhled"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Dosaženo obtisku „%(itemName)s“ %(level)s. úrovně."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s „%(itemName)s“ x%(count)s. Utraceno: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s „%(itemName)s“ (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Pouštní mapa: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Letní mapa: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Zimní mapa: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s „%(itemName)s“ x%(count)s. Získáno: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Vybavení rozloženo"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (%(count)sx)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Na vnější vzhled"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Kvůli nahrazení modulů byly z %(vehicle)s odstraněny následující prvky úpravy vzhledu."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Úprava vzhledu:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Vybavení rozloženo"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Demontováno:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Chyba:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Finanční transakce:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Prodej položek ze skladu:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "Způsob platby „%(method)s“ byl přidán"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "Způsob platby „%(method)s“ byl odebrán"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Vyzkoumáno:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Zakoupeno:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Odstranění z garáže"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Opraveno:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Obnoveno:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Prodáno:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Vylepšení vybavení"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Byl vám udělen prémiový účet WoT na %(days)d den/dní."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Na zálohy"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Smyta opotřebená kamufláž z vozidla %(vehicleName)s."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Smyt opotřebený emblém z vozidla %(vehicleName)s."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Smyt opotřebený nápis z vozidla %(vehicleName)s."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Sbírka je k dispozici"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Blahopřejeme!\nVyzkoumali jste vozidlo %(nation)s %(level)s. úrovně. Nyní si můžete v obchodě koupit sběratelská vozidla stejné úrovně a národa."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Vozidlo zničeno. %(vehicleName)s je nedostupné pro klanové bitvy do %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Opraveno. %(vehicleName)s je možné využít v klanových válkách."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Všechny duální modifikace pro %(vehicle)s byly zrušeny."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Modifikace zrušena"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "vypnuto"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "zapnuto"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Přepínání mezi sadami vybavení a směrnic během odpočtu před bitvou pro %(tankName)s je %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Přepínání mezi sadami granátů a spotřebních doplňků během odpočtu před bitvou pro %(tankName)s je %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Bylo vám uděleno prémiové vozidlo: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Vozidlo nelze pronajmout. Nedostatek prostředků."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Vozidlo %(vehicleName)s pronajato. Období pronájmu končí: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Uzamčení uvolněno. Vozidla jsou k dispozici pro klanové bitvy."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Hráč %(srcName)s převedl na váš účet %(srcWares)s zlaťáků."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s zlaťáků bylo převedeno na účet hráče %(dstName)s. Poplatek: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Sleva na vozidlo %(level)s. úrovně"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Získány odměny za dokončení postupu \"Zpět v akci\":"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Vybrat odměnu"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Sleva na vozidlo %(level)s. úrovně"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% a %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Přidány slevy na nákup a výzkum: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Blahopřejeme!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "vozidlo %(level)s. úrovně"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Vyberte si odměny z dostupných kategorií."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Vybrat"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Odměny získány!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Výhody Battle Passu Plus byly pozastaveny."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Battle Pass Plus je momentálně nedostupný"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Battle Pass Plus je dostupný"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Pokračujte v přihlašování se do hry a získejte další odměny!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Byla získána speciální odměna za přihlášení!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Cyklus dokončen"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Přihlaste se do hry a získejte odměny."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Cyklus zahájen!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Odměna za přihlášení"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Vraťte se další den pro novou odměnu!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Přihlášení zaznamenáno!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Prvek odměn za přihlášení byl pozastaven."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Odměny za přihlášení nejsou dostupné"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Odměny za přihlášení jsou dostupné"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Je dostupné exkluzivní vozidlo<font color='#E9E2BF'>%(vehicleType)s %(vehicleName)s</font>."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "%(vehicleType)s <font color='#E9E2BF'>%(vehicleName)s</font> exkluzivně pro WoT Plus není momentálně dostupný."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Plus Core vypršel %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Odmontování vybavení zdarma není dostupné"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Pro opětovné získání všech výhod si prodlužte WoT Plus."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus vypršelo v %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus Pro vypršelo %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Střádání zlaťáků bylo pozastaveno."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Zlaťáková rezerva není momentálně dostupná"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Zlaťáková rezerva je dostupná"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Zlaťáková rezerva je plná: Nemůžete střádat žádné další zlaťáky"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Zlaťáková rezerva otevřena!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Všechny výhody jsou nyní dostupné.\nBude prodlouženo: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Opět bude prodloužen: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "Váš 180denní plán je nyní aktivní. Užijte si ho!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "Váš 360denní plán je nyní aktivní. Užijte si ho!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "Váš 180denní plán je nyní aktivní. Užijte si ho!\nProdlouží se: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "Váš 360denní plán je nyní aktivní. Užijte si ho!\nProdlouží se: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "U vozidla <font color='#E9E2BF'>%(vehicleName)s</font> přestal fungovat Intenzivní výcvikový režim. Zkontrolujte posádku vozidla."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Jeden nebo více členů posádky <font color='#E9E2BF'>%(vehicleName)s</font> nemají kvalifikaci pro Intenzivní výcvikový režim posádky a nestřádají ZK posádky."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Intenzivní výcvikový režim posádky"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Intenzivní výcvikový režim posádky je pro členy posádky %(vehicleName)s aktivní."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Intenzivní výcvikový režim posádky je pro členy posádky %(vehicleName)s neaktivní."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Střádání ZK posádky bylo pozastaveno."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Intenzivní výcvikový režim posádky není momentálně dostupný"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Intenzivní výcvikový režim posádky je dostupný"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Vyberte vozidlo, které zdarma získá bonus ke ZK posádky."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Intenzivní výcvikový režim posádky byl přesunut z <font color='#E9E2BF'>%(oldVehName)s</font> na <font color='#E9E2BF'>%(newVehName)s</font>. Posádka z <font color='#E9E2BF'>%(oldVehName)s</font> přestala střádat ZK."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Intenzivní výcvikový režim přesunut"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Na jednoho nebo více členů posádky nelze aplikovat bonus ZK posádky."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Přicházíte o cenné ZK posádky!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Svou volbu můžete znovu změnit za %(cooldown)s hodin."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Posílení Pro pro %(vehicleName)s aktivováno"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Namísto toho můžete posílit jiné vozidlo."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Posílení Pro pro %(vehicleName)s deaktivováno"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Vylepšené výdělky z posílení Pro pozastaveny."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Posílení Pro je momentálně nedostupné"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Posílení Pro je dostupné"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s už není posílené. Svou volbu můžete znovu změnit za %(cooldown)s hodin."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Posílení Pro nyní platí na vozidlo %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "Změnilo se datum prodloužení WoT Plus"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Ze seznamu vyberte vozidlo k pronájmu."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Není vybrané žádné nájemní vozidlo"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "Stroj %(vehicle)s bude brzy připsán na váš účet."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Pronajato!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Tyto výhody jsou deaktivovány."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus není dostupné"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WoT Plus Core aktivován"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Je dostupné odmontování vybavení zdarma"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WoT Plus aktivován"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus vylepšeno na Pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Prodloužit"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Bylo vám darováno %(freeXP)s volných zkušeností."
+
+msgid "status/offline"
+msgstr "Odpojen"
+
+msgid "status/online"
+msgstr "Připojen"
+
+msgid "xmpp_error/action"
+msgstr "„%(actionName)s“ nelze provést. Zkuste to později."
+
+msgid "xmpp_error/simple"
+msgstr "Zkuste to později."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Nelze založit kanál hráče %(strArg1)s."

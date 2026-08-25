@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Ritning"
+
+msgid "animations/crew_close"
+msgstr "STÄNG"
+
+msgid "animations/shop"
+msgstr "Gå till kassan"
+
+msgid "battleMattersTab"
+msgstr "Stridsvagnsskolan"
+
+msgid "battleResults/descr"
+msgstr "Stridsvagnsskolan: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Till Stridsvagnsskoleuppdrag"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Framsteg i denna strid"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Avbryt"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "STÄNG"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Bekräfta"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Du får en {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} med en besättning och en garageplats."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Växla in din Examensmarker mot %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "EN SERIE\nTRÄNINGSUPPDRAG"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Slutförda uppdrag: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Stridsvagnsskolan"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Belöning för slutförande:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Uppdragen är tillfälligt ej tillgängliga på grund av tekniska problem. Slutförda uppdrag sparas."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Alla uppdrag slutförda"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Uppdrag tillfälligt ej tillgängliga"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Villkor:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Växla in en marker för en valfri forskningsbar vagn klass VI."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "TILLBAKA"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "TILL STRIDSVAGNSSKOLEUPPDRAG"
+
+msgid "mainRewardsScreen/done"
+msgstr "I garaget"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Förhandsvisa"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Hyrtid: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Slutför en serie träningsuppdrag för att få hyra tre Premiumvagnar klass VIII i {cream_Open}14{cream_Close} dagar som huvudbelöning."
+
+msgid "mainRewardsScreen/title"
+msgstr "STRIDSVAGNSSKOLAN"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Välj"
+
+msgid "mainScreen/infoButton"
+msgstr "NYBÖRJARGUIDE"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "GUIDE"
+
+msgid "mainScreen/list/arrow"
+msgstr "Klicka för att gå till aktuellt uppdrag."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Huvudbelöning mottagen"
+
+msgid "mainScreen/progress"
+msgstr "Slutförda uppdrag: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Uppdragsmål"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Slutför föregående uppdrag"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Ej tillgängligt"
+
+msgid "mainScreen/showMainReward"
+msgstr "Se huvudbelöning"
+
+msgid "mainScreen/target"
+msgstr "Slutför alla uppdragen och få tre hyrvagnar klass VIII."
+
+msgid "mainScreen/title"
+msgstr "STRIDSVAGNSSKOLAN"
+
+msgid "pausedScreen/buttonText"
+msgstr "Till garaget"
+
+msgid "pausedScreen/description"
+msgstr "Stridsvagnsskolan är tillfälligt ej tillgänglig på grund av tekniska problem. Alla framsteg sparas. Vi ber om ursäkt för besväret."
+
+msgid "pausedScreen/title"
+msgstr "Ej tillgänglig för tillfället"
+
+msgid "rewards/additionalTitle"
+msgstr "Du har även fått:"
+
+msgid "rewards/footer/confirm"
+msgstr "Uppfattat!"
+
+msgid "rewards/footer/more"
+msgstr "Ytterligare: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Till nästa uppdrag"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Visa i garaget"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Uppdragsvillkoren har uppfyllts tidigare"
+
+msgid "rewards/rent"
+msgstr "Hyrtid: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "SISTA UPPDRAGET SLUTFÖRT"
+
+msgid "rewards/subTitle/regular"
+msgstr "UPPDRAG %(questNumber)s SLUTFÖRT"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "VAGN MOTTAGEN FÖR EXAMENSMARKER"
+
+msgid "rewards/title"
+msgstr "STRIDSVAGNSSKOLAN"
+
+msgid "rewards/token/action"
+msgstr "Välj en vagn"
+
+msgid "rewards/token/description"
+msgstr "Använd en marker för att omedelbart få en valfri vagn klass VI."
+
+msgid "rewards/token/title"
+msgstr "Växla in en Examensmarker mot en vagn"
+
+msgid "tokenTooltip/condition"
+msgstr "När du går igenom Stridsvagnsskolan och slutför en serie övningsuppdrag tilldelas du Examensmarker."
+
+msgid "tokenTooltip/description"
+msgstr "Examensmarker kan växlas in mot en valfri forskningsbar vagn klass VI. Vagnen kommer med en besättning och en garageplats."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Marker tillgänglig: {cream_open}%(days)s d{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Marker tillgänglig till: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Marker tillgänglig: {cream_open}%(hours)s h{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Marker tillgänglig: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Examensmarker"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Du får en {cream_Open}%(crewIcon)sbesättning{cream_Close} och en {cream_Open}%(hangarIcon)s garageplats{cream_Close} med din vagn{cream_Open}{cream_Close}."
+
+msgid "vehicleSelection/back"
+msgstr "TILLBAKA"
+
+msgid "vehicleSelection/backTo"
+msgstr "TILL STRIDSVAGNSSKOLEUPPDRAG"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Lägg till i jämförelselista"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Anpassa visningen av vagnar baserat på typ och nationalitet."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filtrera efter parameter"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Klicka för att återställa filterinställningarna."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Grundinställning"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nation"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filtrera efter parameter"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Vagnstyp"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Inga sökresultat. Ändra sökfiltret eller återställ grundinställningarna."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Återställ filter"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Du har forskat fram alla vagnar klass VI som du kan få för en Examensmarker."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Inga vagnar kan väljas"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Sök efter namn"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Vagnsnamnet kan inte innehålla fler än %(maxLength)s tecken."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Sök efter namn"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Visas:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Examensmarker kan växlas in mot en valfri forskningsbar vagn klass VI.\nVagnen kommer med besättning och en garageplats."
+
+msgid "vehicleSelection/title"
+msgstr "Välj en forskningsbar vagn klass VI"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(name)s %(type)s {cream_Open}%(level)s{cream_Close}"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "pansarvärnskanonvagn"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "artillerivagn"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "tung stridsvagn"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "lätt stridsvagn"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "medeltung stridsvagn"

@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Чертеж"
+
+msgid "animations/crew_close"
+msgstr "ЗАТВОРИ"
+
+msgid "animations/shop"
+msgstr "Към покупка"
+
+msgid "battleMattersTab"
+msgstr "Танкова академия"
+
+msgid "battleResults/descr"
+msgstr "Танкова академия: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Към мисиите от Танкова академия"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Напредък в тази битка"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Отмени"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "ЗАТВОРИ"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Потвърдете"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Ще получите {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} с екипаж и слот в Парка."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Обмени жетона от академията за %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "ПОРЕДИЦА ОТ\nОБУЧИТЕЛНИ МИСИИ"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Изпълнени мисии: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Танкова академия"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Награда за изпълнение:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "В момента мисиите са недостъпни поради технически проблеми. Напредъкът ви по изпълнените мисии е запазен."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Всички мисии са изпълнени"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Мисиите са временно недостъпни"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Условия:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Обменете жетон за която и да е машина ниво VI за изследване."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "НАЗАД"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "КЪМ МИСИИТЕ ОТ ТАНКОВА АКАДЕМИЯ"
+
+msgid "mainRewardsScreen/done"
+msgstr "В Парка"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Преглед"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Дни наем: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Изпълнете поредица от обучителни мисии, за да вземете три Премиум машини ниво VIII под наем за {cream_Open}14 дни{cream_Close} като основна награда."
+
+msgid "mainRewardsScreen/title"
+msgstr "ТАНКОВА АКАДЕМИЯ"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Избери"
+
+msgid "mainScreen/infoButton"
+msgstr "РЪКОВОДСТВО ЗА НАЧИНАЕЩИ"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "РЪКОВОДСТВО"
+
+msgid "mainScreen/list/arrow"
+msgstr "Натиснете, за да отидете на текущата мисия."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Основната награда е получена"
+
+msgid "mainScreen/progress"
+msgstr "Изпълнени мисии: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Как се изпълнява"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Изпълнете предходната мисия"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Недостъпно"
+
+msgid "mainScreen/showMainReward"
+msgstr "Виж основната награда"
+
+msgid "mainScreen/target"
+msgstr "Изпълнете всички мисии и вземете три машини ниво VIII под наем."
+
+msgid "mainScreen/title"
+msgstr "ТАНКОВА АКАДЕМИЯ"
+
+msgid "pausedScreen/buttonText"
+msgstr "Към Парка"
+
+msgid "pausedScreen/description"
+msgstr "Танковата академия е временно недостъпна поради технически проблеми. Всичкият напредък ще бъде запазен. Извиняваме се за неудобството."
+
+msgid "pausedScreen/title"
+msgstr "Временно недостъпно"
+
+msgid "rewards/additionalTitle"
+msgstr "Получихте и:"
+
+msgid "rewards/footer/confirm"
+msgstr "Тъй вярно!"
+
+msgid "rewards/footer/more"
+msgstr "Повече: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Към следващата мисия"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Покажи в Парка"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Условията на мисията са изпълнени по-рано"
+
+msgid "rewards/rent"
+msgstr "Дни наем: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "ФИНАЛНАТА МИСИЯ Е ИЗПЪЛНЕНА"
+
+msgid "rewards/subTitle/regular"
+msgstr "МИСИЯ %(questNumber)s Е ИЗПЪЛНЕНА"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "ПОЛУЧЕНА Е МАШИНА ЗА ЖЕТОН ОТ ТАНКОВА АКАДЕМИЯ"
+
+msgid "rewards/title"
+msgstr "ТАНКОВА АКАДЕМИЯ"
+
+msgid "rewards/token/action"
+msgstr "Изберете машина"
+
+msgid "rewards/token/description"
+msgstr "Използвайте жетон, за да получите веднага която и да е машина ниво VI."
+
+msgid "rewards/token/title"
+msgstr "Обменете жетон от Танковата академия за машина"
+
+msgid "tokenTooltip/condition"
+msgstr "Жетоните се дават за успешно изпълнение на поредица от обучителни мисии и извършване на необходимия напредък в Танковата академия."
+
+msgid "tokenTooltip/description"
+msgstr "Жетоните могат да се обменят за която и да е машина ниво VI за изследване. Машината идва с екипаж и слот в Парка."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Жетонът е достъпен: {cream_open}%(days)s д.{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Жетонът е достъпен до: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Жетонът е достъпен: {cream_open}%(hours)s ч.{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Жетонът е достъпен: {cream_open}%(minutes)s мин.{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Жетон от Академията"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Ще получите {cream_Open}%(crewIcon)s екипаж{cream_Close} и {cream_Open}%(hangarIcon)s слот{cream_Close} в {cream_Open}Парка{cream_Close} в допълнение към машината си."
+
+msgid "vehicleSelection/back"
+msgstr "НАЗАД"
+
+msgid "vehicleSelection/backTo"
+msgstr "КЪМ МИСИИТЕ ОТ ТАНКОВА АКАДЕМИЯ"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Добави за сравнение"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Настройте показването на машини по техния вид и нация."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Филтър по параметри"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Натиснете, за да върнете настройките на филтъра по подразбиране."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Задай по подразбиране"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Нация"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Филтър по параметри"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Вид машина"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Нищо не е намерено. Променете настройките или махнете филтрите."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Махни филтъра"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Изследвали сте всички машини ниво VI, които могат да бъдат обменени за жетон от Танковата академия."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Няма машина за избиране"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Търси по име"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Името на машина не може да съдържа повече от %(maxLength)s знака."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Търси по име"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Показано:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Обменете жетон за която и да е машина ниво VI за изследване. Машината идва с\nекипаж и слот в Парка."
+
+msgid "vehicleSelection/title"
+msgstr "Изберете която и да е машина ниво VI за изследване"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "САУ"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Тежък танк"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Лек танк"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Среден танк"

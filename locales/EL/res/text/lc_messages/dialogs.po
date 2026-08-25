@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Αποδοχή"
+
+msgid "EULA/labels/agree"
+msgstr "Αποδέχομαι"
+
+msgid "EULA/title"
+msgstr "Όροι Χρήσης"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Αυτό το email είναι ήδη συνδεδεμένο με τον λογαριασμό σας."
+
+msgid "accountCompletion/activate/button"
+msgstr "Νέος Κωδικός/Αλλαγή Email"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Επαναποστολή κωδικού ή αλλαγή του email σας σε %(timer) sec"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Εισάγετε το email σας ξανά"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Λήξη κωδικού. Εισάγετε το email σας ακόμη μία φορά."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Μη έγκυρος κωδικός"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Εάν δεν μπορείτε να βρείτε το email, ελέγξτε τη διεύθυνση του email σας για ορθογραφικά λάθη."
+
+msgid "accountCompletion/activate/text"
+msgstr "Ένα email με τον κωδικό επιβεβαίωσης έχει σταλεί από τη Wargaming.net στη διεύθυνση {whiteSpanish_Open}%(email){whiteSpanish_Close}. Εισάγετε τον 4-ψήφιο κωδικό για να επικυρώσετε το email σας και να ολοκληρώσετε τη δημιουργία του λογαριασμού σας."
+
+msgid "accountCompletion/activate/title"
+msgstr "Επιβεβαίωση Email"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Έχετε εισάγει λανθασμένο κωδικό πολλές φορές."
+
+msgid "accountCompletion/add"
+msgstr "Προσθήκη"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Αυτό το email είναι ήδη συνδεδεμένο με τον λογαριασμό σας."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "Email Ήδη Συνδεδεμένο"
+
+msgid "accountCompletion/cancel"
+msgstr "Αργότερα"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Το Email Σας"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "Email"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Προσθέστε το email σας για να λάβετε το δώρο σας και να αποκτήσετε πλήρη πρόσβαση σε όλες τις διοργανώσεις του παιχνιδιού."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "ΑΠΟΚΤΗΣΤΕ ΠΛΗΡΗ ΠΡΟΣΒΑΣΗ ΣΤΟ ΠΑΙΧΝΙΔΙ"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Προσθέστε και επικυρώστε το email σας για να λάβετε ένα έπαθλο και να ξεκλειδώσετε νέες δυνατότητες. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Ολοκλήρωση Λογαριασμού"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Υπάρχει ήδη καταχωρημένος λογαριασμός με αυτό το email."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Το συγκεκριμένο email είναι απαγορευμένο."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "Το email σας δεν μπορεί να υπερβαίνει τους %(amount)s χαρακτήρες."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "Το email σας θα πρέπει να περιέχει τουλάχιστον %(amount)s χαρακτήρες."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Έχει γίνει ήδη επικύρωση του email σας."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "Επικύρωση Email"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Έχετε υπερβεί το όριο αιτημάτων. Μπορείτε να αλλάξετε τη διεύθυνση του email σας ή να γίνει ξανά αποστολή του email σε %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Η συγκεκριμένη υπηρεσία email δεν λειτουργεί στη χώρα σας."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Η συγκεκριμένη υπηρεσία email δεν λειτουργεί στη χώρα σας."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Αδύνατη η Σύνδεση Με Email"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "Το email σας πρέπει να περιέχει μόνο Λατινικά γράμματα, αριθμούς, το σύμβολο @, τελείες και κάτω-παύλες."
+
+msgid "accountCompletion/later"
+msgstr "Αργότερα"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Δώρο Για Επικύρωση Του Email"
+
+msgid "accountCompletion/submit"
+msgstr "Επικύρωση"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Αναμονή στον server.\nΜπορεί να χρειαστεί πρόσθετος χρόνος."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Η υπηρεσία είναι προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Η υπηρεσία είναι προσωρινά μη διαθέσιμη.\nΠροσπαθήστε ξανά σε %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Άκυρο"
+
+msgid "barracksExpand/message"
+msgstr "Επέκταση του Στρατώνα για %(price)s gold προσθέτοντας κλίνες: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "Επέκταση"
+
+msgid "barracksExpand/title"
+msgstr "Επέκταση Στρατώνα"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Όχι αρκετό gold."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Επέκταση Στρατώνα"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Άκυρο"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Δεν είναι σε ετοιμότητα όλοι οι παίκτες ή είναι λιγότεροι απ' όσοι απαιτούνται."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Έναρξη Μάχης"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Ελλιπής"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Ενεργοποίηση %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Επικύρωση"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Επικύρωση Ενεργοποίησης"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Εάν το Προσωπικό Απόθεμα %(newBoosterName)s ενεργοποιηθεί, το τρέχον Προσωπικό Απόθεμα %(curBoosterName)s θα ακυρωθεί και θα καταστραφεί."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Ναι"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Επικύρωση Ενεργοποίησης"
+
+msgid "buyConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "buyConfirmation/message"
+msgstr "Αγορά του %(product)s για %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Αγορά του στοιχείου \"{%name}\" {%count} τεμάχια?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Αγορά του εξοπλισμού '%(equipment)s'?"
+
+msgid "buyConfirmation/submit"
+msgstr "Αγορά"
+
+msgid "buyConfirmation/title"
+msgstr "Επικύρωση Αγοράς"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "ασυμβατότητα"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " με το τρέχον εξάρτημα."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Το αναλώσιμο \"%(conflicted)s\" θα σταλεί στην Αποθήκη, "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\" στο επιλεγμένο όχημα για %(price)s%(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\" στο επιλεγμένο όχημα για %(price)s credits?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Αγορά"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Επικύρωση Αγοράς"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Αγορά Προνομιακού Λογαριασμού για %(days)s με %(gold)s?\n %(alertIcon)s %(alertColorTagOpen)s Εξαιτίας τεχνικών προβλημάτων δεν θα λαμβάνετε επιπλέον experience ή credits. Επιλέξτε άλλο είδος μάχης ή αγοράστε προνομιακό Λογαριασμό από το αντίστοιχο μενού.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Αγορά"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Επικύρωση Αγοράς"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Θέση Γκαράζ"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "buySlotConfirmation/message"
+msgstr "Αγορά μίας πρόσθετης θέσης στο Γκαράζ για %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Αγορά"
+
+msgid "buySlotConfirmation/title"
+msgstr "Επικύρωση Αγοράς"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Όχι αρκετά credits για αγορά θέσης."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Δεν Επαρκούν Τα Credits"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Όχι αρκετό gold για αγορά θέσης."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Όχι αρκετό gold"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Μη διαθέσιμες θέσεις στο Γκαράζ. Αγορά μιας επιπλέον θέσης για {%d} credits?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Αγορά"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Επικύρωση Αγοράς"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Φόρτωση βασικών πυρομαχικών"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Άκυρο"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Έχετε ήδη πλήρωμα γι αυτό το όχημα."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Κατά την περίοδο εκμίσθωσης του οχήματος λαμβάνετε μία επιπλέον θέση δωρεάν."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Αδύνατος ο ανεφοδιασμός: το επιλεγμένο όχημα είναι πλήρες σε πυρομαχικά."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Αδύνατος ο ανεφοδιασμός: το επιλεγμένο όχημα διαθέτει πυρομαχικά."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Κόστος: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Αγορά επιπλέον θέσης στο Γκαράζ"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Αγορά"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Αγορά"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Ανταλλαγή"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Αγορά χωρίς πλήρωμα"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Εκπαίδευση Πληρώματος"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Μέλη Πληρώματος: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Αγορά %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Σύνολο:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Έχετε εισάγει λανθασμένες πληροφορίες."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Εισάγεται τον αριθμό του gold από τη στήλη \"Σύνολο\""
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Επικύρωση Λειτουργίας:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Δεν έχετε κατάλληλα οχήματα\nγια ανταλλαγή"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Το εκτιμώμενο κόστος είναι %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Εκπαίδευση του πληρώματος: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Σύνολο:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Επιλογή Οχήματος"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Επιλέξτε Προνομιακό όχημα\nδιαθέσιμο για ανταλλαγή"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Άκυρο"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Πρόσθετο κόστος για το %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Ανταλλαγή"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Αγορά χωρίς πλήρωμα"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Ανταλλαγή του %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Δεν θα επιστραφεί gold για αγορασμένο εξοπλισμό και αναλώσιμα μόλις κάνετε κλικ στο κουμπί Ανταλλαγή. Ελέγξτε όλες τις λεπτομέρειες προσεκτικά."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Αντικείμενα που έχουν αγοραστεί δεν μπορούν να επιστραφούν για gold από τη στιγμή που κάνετε κλικ στο κουμπί “Αγορά” από κάτω. Παρακαλούμε ελέγξτε τα αντικείμενα προσεκτικά."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Άκυρο"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Ενεργοποίηση"
+
+msgid "challenge_missions/activation/description"
+msgstr "Μόλις ενεργοποιήσετε μία σειρά αποστολών Crucible, μπορείτε να την {{@ style (color #FFE4C0)}}ολοκληρώσετε επιτυχώς, ανεπιτυχώς, ή να την εγκαταλείψετε{{/}}. Όταν αποτυγχάνετε να ολοκληρώσετε κάποια αποστολή, θα χάνετε 1 ασπίδα."
+
+msgid "challenge_missions/activation/title"
+msgstr "Ενεργοποίηση της αποστολής Crucible: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Άκυρο"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Επανεκκίνηση"
+
+msgid "challenge_missions/restart/description"
+msgstr "Η πρόοδος των αποστολών θα μηδενιστεί, οι ασπίδες σας θα αποκατασταθούν και θα μπορείτε εκ νέου να διεκδικήσετε τα έπαθλα. Η σειρά των αποστολών θα ενεργοποιηθεί άμεσα μετά την επανεκκίνηση."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Επανεκκίνηση της αποστολής Crucible: {{challengeName}}?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Επανεκκίνηση της αποστολής Crucible: {{challengeName}} για {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Άκυρο"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Εγκατάλειψη"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Με την εγκατάλειψη της σειράς αποστολών του Crucible θα μηδενιστεί όλη η πρόοδος σε αυτήν και θα αποκατασταθούν οι ασπίδες σας. Μπορείτε να την ξεκινήσετε ξανά ανά πάσα στιγμή."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Εγκατάλειψη της αποστολής Crucible: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Άκυρο"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s Έχει γίνει σημαντική αλλαγή των γραφικών σε αυτήν την ενημέρωση του παιχνιδιού. Μπορείτε να επιλέξετε αυτόματα τα γραφικά ή να ακυρώσετε την αυτόματη επιλογή και να αλλάξετε εσείς τις ρυθμίσεις των γραφικών."
+
+msgid "changeGraphics/submit"
+msgstr "Αυτόματα"
+
+msgid "changeGraphics/title"
+msgstr "Αυτόματη Επιλογή Γραφικών"
+
+msgid "changePeriphery/cancel"
+msgstr "Ακύρωση"
+
+msgid "changePeriphery/message"
+msgstr "Μεταφορά σε άλλον server?"
+
+msgid "changePeriphery/submit"
+msgstr "Μεταφορά"
+
+msgid "changePeriphery/title"
+msgstr "Επικύρωση μεταφοράς"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Άκυρο"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Οι αλλαγές του server θα αποθηκευτούν. Μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την αυτόματη σύνδεση από τις Ρυθμίσεις."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Συνέχεια"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Αλλαγή σε άλλον server?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Ακύρωση"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Μεταφορά σε άλλον server?\n\nΕάν αλλάξετε server, θα έχετε τους ακόλουθους περιορισμούς:\n\t• Μερικά οχήματα δεν θα είναι διαθέσιμα.\n\t• Εμβλήματα και επιγραφές δεν θα εμφανίζονται.\n\t• Αποστολές, Προσωπικά Αποθέματα και τα Κέντρα Δοκιμών δεν θα είναι διαθέσιμα.\n\nΜπορεί να υπάρχουν σφάλματα και προβλήματα στη σύνδεσή σας. Παρακαλούμε σεβαστείτε τους παίκτες στις άλλες περιοχές."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Μεταφορά"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Επικύρωση μεταφοράς"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Άκυρο"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Μεταφορά σε άλλον server?\n\nΕάν αλλάξετε server, θα έχετε τους ακόλουθους περιορισμούς:\n\t• Μερικά οχήματα δεν θα είναι διαθέσιμα.\n\t• Εμβλήματα και επιγραφές δεν θα εμφανίζονται.\n\t• Αποστολές, Προσωπικά Αποθέματα και τα Κέντρα Δοκιμών δεν θα είναι διαθέσιμα.\n\nΜπορεί να υπάρχουν σφάλματα και προβλήματα στη σύνδεσή σας. Παρακαλούμε σεβαστείτε τους παίκτες στις άλλες περιοχές.\n\n\nΟι αλλαγές στον server θα αποθηκευτούν.\nΜπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την αυτόματη σύνδεση από τις Ρυθμίσεις."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Συνέχεια"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Επικύρωση μεταφοράς"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Άκυρο"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sΠρόκειται να ενταχθείτε στο clan:\n%(clanName)s\n\nΜε την επικύρωση της ένταξή σας στο clan, αυτομάτως αποδέχεστε τους κανόνες του και συμφωνείτε να μετέχετε ενεργά στις δραστηριότητες του clan και στην πρόοδό του.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Μετά την αποχώρησή σας από το clan, θα υπάρχει για εσάς ένας προσωρινός περιορισμός για ένταξη σε άλλο clan."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Επικύρωση"
+
+msgid "clanConfirmJoining/title"
+msgstr "Επικύρωση ένταξης στο Clan"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Κλείσιμο"
+
+msgid "clan_data_not_available/message"
+msgstr "Το μητρώο του clan αυτού του παίκτη είναι προσωρινά μη διαθέσιμο. Προσπαθήστε ξανά αργότερα."
+
+msgid "clan_data_not_available/title"
+msgstr "Προσοχή!"
+
+msgid "common/cancel"
+msgstr "Άκυρο"
+
+msgid "common/confirm/cancel"
+msgstr "Όχι"
+
+msgid "common/confirm/submit"
+msgstr "Ναι"
+
+msgid "common/cost"
+msgstr "Κόστος:"
+
+msgid "common/error/cancel"
+msgstr "Κλείσιμο"
+
+msgid "common/submit"
+msgstr "Συνέχεια"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Άκυρο"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Αγορά"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Αγορά και Τοποθέτηση Οδηγιών"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Άκυρο"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Προσοχή! Ο εξοπλισμός %(devices)s δεν έχει τοποθετηθεί. Η οδηγία %(font_tag_open)sΔΕΝ ΘΑ ΕΝΕΡΓΟΠΟΙΗΘΕΙ.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Τοποθέτηση"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Τοποθέτηση Οδηγίας"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Άκυρο"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Προσοχή! Δεν έχετε συμβατό εξοπλισμό με την επιλεγμένη οδηγία. Η οδηγία %(font_tag_open)sΔΕΝ ΘΑ ΕΝΕΡΓΟΠΟΙΗΘΕΙ.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Τοποθέτηση"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Τοποθέτηση Οδηγίας"
+
+msgid "confirmBuy/title"
+msgstr "Αγορά του εξαρτήματος %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Άκυρο"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Το εξάρτημα θα σταλεί στην Αποθήκη."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Απαιτούμενο ποσό για αγορά:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Κερδίστε credits από μάχες, από ανταλλαγή gold, ή πουλήστε τυχόν πλεόνασμα από την Αποθήκη."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Δεν Επαρκούν Τα Credits"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Κόστος εξαρτήματος:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Πώληση του εξαρτήματος %(previousModuleName) που αντικαταστάθηκε, για %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Το εξάρτημα αυτό είναι συμβατό με:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Μπορείτε να πουλήστε το εξάρτημα τώρα ή να το στείλετε στην Αποθήκη για να το πουλήσετε αργότερα ή να το χρησιμοποιήσετε ξανά."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Αγορά"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Αγορά και τοποθέτηση του εξαρτήματος %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Αγορά και τοποθέτηση του εξοπλισμού '%(equipment)s'?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Τοποθέτηση"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Ακύρωση"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Δεν απαιτείται ανταλλαγή.\nΈχετε αρκετά credits."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Αδύνατη η αγορά: η ανταλλαγή απέτυχε.\nΓια την ανταλλαγή απαιτούνται επιπλέον %(gold)s."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Ανταλλαγή %(gold)s για τα απαιτούμενα credits?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Απαιτούμενα credits:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Απαιτούμενο ποσό για αγορά: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Ανταλλαγή"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Επικύρωση της Ανταλλαγής για Αγορά"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Ακύρωση"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Δεν απαιτείται μετατροπή.\nΈχετε αρκετό experience."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Αδύνατη η ανακάλυψη: η μετατροπή απέτυχε.\nΓια την μετατροπή απαιτούνται επιπλέον %(gold)s."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Μετατροπή του απαιτούμενου experience για %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Απαιτούμενο experience:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Απαιτούμενο ποσό για ανακάλυψη: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Επιλογή Οχήματος"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Επικύρωση της Ανταλλαγής για Ανακάλυψη"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Σύνολο:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Άκυρο"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Δεν απαιτείται ανταλλαγή για την ανάκτηση.\nΈχετε ήδη αρκετά credits."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Αδύνατη η ανταλλαγή για την ανάκτηση.\nΑπαιτούνται %(gold)s για την ανταλλαγή."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Ανταλλαγή %(gold)s για το υπολειπόμενο ποσό credits?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Απαιτούμενα credits:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Απαιτούμενο ποσό για ανάκτηση: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Ανταλλαγή"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Επικύρωση Ανταλλαγής Για Ανάκτηση"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Σύνολο:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Αριθμός"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Σύνολο"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Κόστος:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Κόστος"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Σύνολο:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Σύνολο"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Σύνολο:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Όχι"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (συμπεριλαμβανομένων {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Ανακάλυψη του στοιχείου {{items}} για το"
+
+msgid "confirmUnlock/item/message"
+msgstr "Ανακάλυψη του στοιχείου %(typeString)s %(userString)s για %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (συμπεριλαμβάνοντας %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Ναι"
+
+msgid "confirmUnlock/title"
+msgstr "Επικύρωση Ανακάλυψης"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Ανακάλυψη του στοιχείου %(userString)s για %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (συμπεριλαμβάνοντας %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Άκυρο"
+
+msgid "controlsWrongNotification/message"
+msgstr "Ένα ή περισσότερα κουμπιά δεν έχουν ορισθεί. Αποθήκευση ρυθμίσεων Ελέγχου?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Αποθήκευση"
+
+msgid "controlsWrongNotification/title"
+msgstr "Σφάλμα"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Άκυρο"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Αρχεία για την επιλεγμένη φωνητική ειδοποίηση είναι κατεστραμμένα ή απουσιάζουν, η φωνητική ειδοποίηση θα καθοριστεί στην προεπιλεγμένη.\nΈνα ή περισσότερα κουμπιά δεν έχουν ορισθεί. Αποθήκευση ρυθμίσεων?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Αποθήκευση"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Σφάλμα"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Επικύρωση"
+
+msgid "createOrderConfirmation/title"
+msgstr "Επικύρωση Προετοιμασίας Αποθέματος"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Ανεπαρκείς πόροι για πραγματοποίηση αγοράς."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Εφαρμογή σε ολόκληρο το πλήρωμα. Όταν μελετηθεί, ο τόμος πληρώματος %(book)s παρέχει σε κάθε μέλος του πληρώματος %(exp)s."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Εφαρμογή σε επιλεγμένο μέλος του πληρώματος. Όταν μελετηθεί, τόμος πληρώματος %(book)s παρέχει σε αυτό το μέλος %(exp)s."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Αγορά"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Αγορά του τόμου %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Ακύρωση"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Θα γίνει {removed} όλων των χαλκομανιών για χάρτες {season} από το όχημα\nκαθώς αυτή η θέση δεν είναι διαθέσιμη για {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Επικύρωση"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "αυτούς τους χάρτες."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "αυτόν τον χάρτη."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Εφαρμογή της χαλκομανίας σε αυτήν τη θέση για όλους τους χάρτες?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Μετά την αγορά, θα γίνει εφαρμογή των στοιχείων στο επιλεγμένο όχημα. Τα στοιχεία με τον αστερίσκο δεν θα είναι διαθέσιμα για άλλα οχήματα."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Επικύρωση Αγοράς Στοιχείων"
+
+msgid "customization/change_install_bound/message"
+msgstr "Μετά την επιλογή, θα γίνει εφαρμογή των στοιχείων στο επιλεγμένο όχημα. Τα στοιχεία με τον αστερίσκο δεν θα είναι διαθέσιμα για άλλα οχήματα."
+
+msgid "customization/change_install_bound/title"
+msgstr "Επικύρωση Αλλαγής Στοιχείων"
+
+msgid "customization/close/cancel"
+msgstr "Άκυρο"
+
+msgid "customization/close/submit"
+msgstr "Έξοδος"
+
+msgid "customization/close/title"
+msgstr "Έξοδος χωρίς εφαρμογή των αλλαγών?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Άκυρο"
+
+msgid "customization/exitToShop/submit"
+msgstr "Συνέχεια"
+
+msgid "customization/exitToShop/title"
+msgstr "Συνέχεια χωρίς εφαρμογή των αλλαγών?"
+
+msgid "customization/filter/cancel"
+msgstr "Άκυρο"
+
+msgid "customization/filter/message"
+msgstr "Όλα τα στοιχεία θα αφαιρεθούν. Συνέχεια?"
+
+msgid "customization/filter/submit"
+msgstr "Αφαίρεση Όλων"
+
+msgid "customization/filter/title"
+msgstr "Αφαίρεση Στοιχείων"
+
+msgid "customization/install_bound/cancel"
+msgstr "Ακύρωση"
+
+msgid "customization/install_bound/submit"
+msgstr "Συνέχεια"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Άκυρο"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Προσοχή! Μετά την εφαρμογή του στοιχείου (%(cTypeName)s \"%(itemName)s\") στο επιλεγμένο όχημα, θα μπορεί να γίνει εφαρμογή του μόνο σε ακόμη %(numberLeft)s οχήματα. Εφαρμογή του στοιχείου?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Εφαρμογή"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Εφαρμογή Στοιχείου"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Άκυρο"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Προσοχή! Μετά την εφαρμογή του στοιχείου (%(cTypeName)s \"%(itemName)s\") στο επιλεγμένο όχημα, δεν θα μπορεί να γίνει εφαρμογή του σε άλλα οχήματα. Εφαρμογή του στοιχείου?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Εφαρμογή"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Εφαρμογή Στοιχείου"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Άκυρο"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Προσοχή! Μετά την εφαρμογή του στοιχείου (%(cTypeName)s \"%(itemName)s\") στο επιλεγμένο όχημα, δεν θα μπορεί να γίνει εφαρμογή του σε άλλα οχήματα. Εάν αφαιρεθεί το στοιχείο %(willBeDeleted)s. Εφαρμογή του στοιχείου?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Εφαρμογή"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Εφαρμογή Στοιχείου"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "θα γίνει διαγραφή"
+
+msgid "customization/remove_element/cancel"
+msgstr "Άκυρο"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Αφαίρεση"
+
+msgid "customization/remove_element/title"
+msgstr "Αφαίρεση Στοιχείου"
+
+msgid "customizationConfirmSell/message"
+msgstr "Πώληση %(name)s για %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Επικύρωση Πώλησης"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "κάθε %(days)s d"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "κάθε %(days)s d %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "κάθε %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "κάθε %(hours)s h %(mins)s min"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "κάθε %(mins)s min"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Αλλαγή αποστολής διαθέσιμη {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Αλλαγή"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Αλλαγή Αποστολής?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Κάποια από τα οχήματά σας είναι ακόμη σε μάχη. Μπορεί να χαθεί η πρόοδός σας μετά την αλλαγή της αποστολής. Αλλαγή αποστολής διαθέσιμη {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Αλλαγή"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Αλλαγή Αποστολής?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Προσοχή!"
+
+msgid "dedication/headline"
+msgstr "Το Βραβείο Hero of Our Time Απονεμήθηκε"
+
+msgid "dedication/sub-headline"
+msgstr "Για τη συμμετοχή σε {battlesNum} μάχες"
+
+msgid "dialogTemplates/cancel"
+msgstr "Άκυρο"
+
+msgid "dialogTemplates/confirm"
+msgstr "Επικύρωση"
+
+msgid "dialogTemplates/ok"
+msgstr "Θετικόν!"
+
+msgid "disconnect/cancel"
+msgstr "Όχι"
+
+msgid "disconnect/message"
+msgstr "Αποσύνδεση από τον server?"
+
+msgid "disconnect/submit"
+msgstr "Ναι"
+
+msgid "disconnect/title"
+msgstr "Αποσύνδεση από server"
+
+msgid "disconnected/cancel"
+msgstr "ΟΚ"
+
+msgid "disconnected/message"
+msgstr "Έχετε αποσυνδεθεί από τον server. Πιέστε OK για επανασύνδεση."
+
+msgid "disconnected/messageBan"
+msgstr "Η λειτουργία του λογαριασμού σας έχει ανασταλεί.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Η λειτουργία του λογαριασμού σας έχει ανασταλεί μέχρι %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Η σύνδεση με τον server έχει διακοπεί.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nΑιτία: %s"
+
+msgid "disconnected/title"
+msgstr "Διακοπή Σύνδεσης"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Αποστράτευση"
+
+msgid "dismissTankman/description/perk"
+msgstr "Για την ολοκλήρωση της λειτουργίας αυτής, εισάγετε το επίπεδο εκπαίδευσης της ικανότητας: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Γι αυτήν τη λειτουργία εισάγετε την τιμή του επιπέδου εκπαίδευσης της πιο πρόσφατης ικανότητας ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Τα επιλεγμένα μέλη θα αποστρατευτούν. Μπορείτε να τα ανακτήσετε εντός {whiteOrange_Open}%(time)s ημερών{whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "Αποστράτευση Μελών Πληρώματος"
+
+msgid "dismissTankman/limited"
+msgstr "Φτάσατε στο ανώτατο όριο αποστρατεύσεων. Το αποστρατευμένο μέλος θα αντικαταστήσει το μέλος %(name)s (%(role)s στο %(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Η ανάκτηση δεν θα είναι δυνατή"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Άκυρο"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Προσοχή! Όταν αποστρατευτεί το μέλος πληρώματος %(dismissedName)s, θα αντικαταστήσει το μέλος πληρώματος %(deletedStr)s. Επικύρωση αντικατάστασης?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Επικύρωση"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Επικύρωση "
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Άκυρο"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Προσοχή! Όταν αποστρατευτεί το πλήρωμα, το μέλος πληρώματος %(deletedStr)s και ακόμη %(extraCount)s θα αντικατασταθούν. Επικύρωση αντικατάστασης?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Επικύρωση"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Γέμισε Η Προσωρινή Αποθήκευση Αποστρατευμένων Μελών"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Αντικατάσταση"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Όνομα"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Επίθετο"
+
+msgid "documentChangeDialog/title"
+msgstr "Αντικατάσταση ονόματος και εμφάνισης?"
+
+msgid "dropSkill/cancel"
+msgstr "Άκυρο"
+
+msgid "dropSkill/message"
+msgstr "Επαναφορά όλων των ικανοτήτων?"
+
+msgid "dropSkill/submit"
+msgstr "Επαναφορά"
+
+msgid "dropSkill/title"
+msgstr "Επικύρωση Επαναφοράς"
+
+msgid "elementType/chassis"
+msgstr "ανάρτηση"
+
+msgid "elementType/engine"
+msgstr "κινητήρας"
+
+msgid "elementType/gun"
+msgstr "πυροβόλο"
+
+msgid "elementType/radiostation"
+msgstr "ασύρματος"
+
+msgid "elementType/turret"
+msgstr "πυργίσκος"
+
+msgid "elenDisabled/cancel"
+msgstr "Κλείσιμο"
+
+msgid "elenDisabled/message"
+msgstr "Οι διαγωνισμοί είναι προσωρινά μη διαθέσιμοι εξαιτίας προγραμματισμένης συντήρησης."
+
+msgid "elenDisabled/title"
+msgstr "Προσοχή!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Άκυρο"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Να μην εμφανιστεί ξανά η ειδοποίηση"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Θα έχετε χαμηλά FPS και διαστρεβλώσεις των γραφικών σε αυτήν την λειτουργία, εξαιτίας του hardware που έχετε. Η φόρτωση της μάχης θα διαρκέσει περισσότερο και μπορεί να οδηγήσει σε κλείσιμο του client. Είσοδος στη μάχη?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Στη Μάχη!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Προειδοποίηση Απόδοσης"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Τιμή αγοράς:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Αποσυναρμολόγηση του εξοπλισμού %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Άκυρο"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Αποσυναρμολόγηση & Αναβάθμιση"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Αποσυναρμολόγηση"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Ο εξοπλισμός που αποσυνδέθηκε θα {white_Open}καταστραφεί{white_Close}.\nΜπορείτε να τον αποσυνδέσετε με ασφάλεια χρησιμοποιώντας bonds."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Ο εξοπλισμός που αποσυνδέθηκε θα {white_Open}καταστραφεί{white_Close}.\nΜπορείτε να τον αποσυνδέσετε με ασφάλεια χρησιμοποιώντας gold ή Κυτίο Αποσύνδεσης."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Καταστροφή του εξοπλισμού '%(equipment)s'?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Τοποθέτηση του εξοπλισμού '%(equipment)s'?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Πώληση του εξοπλισμού '%(equipment)s'?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Άκυρο"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Αναβάθμιση"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Αποσυναρμολόγηση"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Κανένα τεμάχιο Πειραματικού Εξοπλισμού διαθέσιμο για αποσυναρμολόγηση."
+
+msgid "eula/p1"
+msgstr "Παρακαλούμε διαβάστε τους <BR/><A HREF='event:%(eulaURL)s'><U>Όρους Χρήσης</U></A> πριν συνεχίσετε."
+
+msgid "eula/p2"
+msgstr "ΚΑΝΟΝΤΑΣ ΚΛΙΚ ΣΤΟ «Αποδοχή», ΒΕΒΑΙΩΝΕΤΕ ΟΤΙ ΕΧΕΤΕ ΔΙΑΒΑΣΕΙ, ΚΑΤΑΝΟΗΣΕΙ ΚΑΙ ΣΥΜΦΩΝΕΙΤΕ ΟΤΙ ΔΕΣΜΕΥΕΣΤΕ ΑΠΟ ΚΑΙ ΘΑ ΑΚΟΛΟΥΘΕΙΤΕ ΤΟΥΣ ΟΡΟΥΣ ΧΡΗΣΗΣ ΚΑΙ ΩΣ ΕΚ ΤΟΥΤΟΥ ΘΑ ΕΙΣΤΕ Ο ΥΠΑΙΤΙΟΣ ΓΙΑ ΚΑΘΕ ΠΑΡΑΒΙΑΣΗ ΑΥΤΩΝ. ΟΙ ΟΡΟΙ ΧΡΗΣΗΣ ΚΑΙ ΟΙ ΟΠΟΙΕΣ ΤΡΟΠΟΠΟΙΗΣΕΙΣ ΕΙΝΑΙ ΟΥΣΙΩΔΕΙΣ ΚΑΙ ΔΕΣΜΕΥΤΙΚΕΣ ΓΙΑ ΟΛΑ ΤΑ ΜΕΡΗ."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Ανταλλαγή %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s για %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Ανταλλαγή"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Ανταλλαγή Gold"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Η έκπτωση θα ισχύσει για τη μετατροπή μέχρι και %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s ΧΡ σε Free Experience. Από την επόμενη φορά, το experience θα μετατρέπεται με gold."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Μετατροπή %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s XP σε Free Experience για %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Μετατροπή"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Μετατροπή σε Free Experience"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Όχι αρκετό Combat Experience για μετατροπή"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Όχι αρκετό Combat Experience για μετατροπή"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Άκυρο"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Αυτόματα"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Αυτόματη επιλογή ικανοτήτων για μέλη πληρώματος στον Στρατώνα"
+
+msgid "fillAllPerks/description"
+msgstr "Ανάλογα με την ειδικότητα των μελών πληρώματος που έχουν διαθέσιμες ικανότητες προς εκπαίδευση, ένας αλγόριθμος θα επιλέξει την πρώτη ικανότητα από την ακόλουθη λίστα. Εάν ένα μέλος πληρώματος κατέχει ήδη την πρώτη ικανότητα, ο αλγόριθμος επιλέξει τη δεύτερη, κοκ, έως ότου επιλεχθούν όλες οι διαθέσιμες ικανότητες. Η λειτουργία αυτή μπορεί να χρειαστεί επιπλέον χρόνο."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Αυτόματη επιλογή ικανοτήτων μόνο για μέλη πληρώματος σε οχήματα."
+
+msgid "fillAllPerks/title"
+msgstr "Αυτόματη επιλογή ικανοτήτων για όλα τα μέλη πληρώματος?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Άκυρο"
+
+msgid "finance_dialog/header"
+msgstr "Επικύρωση Λειτουργίας"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Εισάγετε τον οικονομικό κωδικό για επικύρωση αυτής της λειτουργίας."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Μη έγκυρος κωδικός."
+
+msgid "finance_dialog/results/limit"
+msgstr "Έχετε εισάγει πάρα πολλές φορές λανθασμένο κωδικό. Προσπαθήστε ξανά σε 24 ώρες. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Ξεχάσατε τον κωδικό?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Ο κωδικός πρέπει να είναι τουλάχιστον 6 χαρακτήρες και να περιέχει Λατινικά γράμματα, αριθμούς και '_'."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Επικύρωση"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Απόκτηση του στοιχείου %(product)s για %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Απόκτηση"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Επικύρωση"
+
+msgid "fortDisabled/cancel"
+msgstr "Κλείσιμο"
+
+msgid "fortDisabled/message"
+msgstr "Οι πληροφορίες για τα clans είναι προσωρινά μη διαθέσιμες εξαιτίας προγραμματισμένης συντήρησης."
+
+msgid "fortDisabled/title"
+msgstr "Προσοχή!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "ΟΚ"
+
+msgid "fortTurnedOff/message"
+msgstr "Τα Οχυρά είναι προσωρινά μη διαθέσιμα. Προσπαθήστε ξανά αργότερα."
+
+msgid "fortTurnedOff/title"
+msgstr "Προσοχή!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Όχι"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Ναι"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Άκυρο"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Θα αποχωρήσετε από τη φρουρά της τρέχουσας δομής %(oldBuilding)s. Θα συσχετιστείτε με την δομή %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Επικύρωση"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Συσχέτιση με τη Δομή"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Απόκτηση του στοιχείου %(product)s για %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Απόκτηση"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Επικύρωση"
+
+msgid "freeSkillsLearning/message"
+msgstr "Η εκπαίδευση μίας προκαθορισμένης ικανότητας δεν απαιτεί XP και παρέχει πλεονέκτημα καθώς η εκπαίδευση των επόμενων ικανοτήτων για το συγκεκριμένο μέλος πληρώματος απαιτεί σημαντικά λιγότερα XP."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Επιλογή της ικανότητας %(skillName)s ως προκαθορισμένης?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Αλλαγή της ικανότητας %(skillName)s ως προκαθορισμένης?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Χρήση της έκπτωσης του 100% για προσθήκη μίας επιπλέον θέσης στο γκαράζ δωρεάν?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Προσθήκη"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Προσθήκη Θέσης"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Κλείσιμο"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Έχετε φτάσει το όριο για αγορά δωρεάν οχημάτων. Προσπαθήστε ξανά αύριο."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Κλείσιμο"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Όριο Αγορών"
+
+msgid "freeXPInfo/message"
+msgstr "Το %(orangeText_open)sExperience%(orangeText_close)s%(simpleText_open)s είναι ένα είδος πόρων στο παιχνίδι που κερδίζεται στις μάχες.\n\nΠεριλαμβάνει:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sCombat Experience%(orangeText_close)s%(simpleText_open)s που χρησιμοποιείται για ανακάλυψη νέων εξαρτημάτων ενός οχήματος, καθώς και για την περαιτέρω πρόοδο στο παιχνίδι της Wargaming στο οποίο αποκτήθηκε.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sFree Experience%(orangeText_close)s%(simpleText_open)s που χρησιμοποιείται για ανακάλυψη οποιουδήποτε εξαρτήματος ή οχήματος, καθώς και για την επιτάχυνση της εκπαίδευσης του πληρώματος. Χρησιμοποιήστε το Free Experience προσεκτικά.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Συνέχεια"
+
+msgid "freeXPInfo/title"
+msgstr "Experience"
+
+msgid "gammaDialog/cancel"
+msgstr "Εκκίνηση"
+
+msgid "gammaDialog/message/description"
+msgstr "Ρυθμίστε την οθόνη σας ώστε να διορθώσετε τη φωτεινότητα gamma και να βελτιώσετε την ποιότητα της εικόνας.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Ρυθμίστε τώρα την οθόνη σας!"
+
+msgid "gammaDialog/title"
+msgstr "Ρυθμίσεις Gamma"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Μετά τη μετατροπή:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Πριν τη μετατροπή:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Άκυρο"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Μετατροπή"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Σύνολο:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Πλήρωμα"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Όχημα"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "XP"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Όλα τα οχήματα"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Ταξινόμηση βάσει επιλεγμένου οχήματος."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Ταξινόμηση βάσει ονόματος του οχήματος."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Όχημα"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Ταξινόμηση βάσει των κερδισμένων ΧΡ."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "ΧΡ"
+
+msgid "gatheringXPForm/title"
+msgstr "Μετατροπή σε Free Experience"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Μετατροπή XP:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Η εκπαίδευση του πληρώματος έχει επιταχυνθεί."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Η εκπαίδευση του πληρώματος είναι κανονική."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Σύνολο:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Σύνολο:"
+
+msgid "graphics/message/alert"
+msgstr "Προσοχή!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Η λειτουργία της Οθόνης άλλαξε. Επιστροφή στις προηγούμενες ρυθμίσεις σε %(time)s sec. Αποθήκευση των επιλεγμένων ρυθμίσεων?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Αποθήκευση"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Αποθήκευση Ρυθμίσεων Λειτουργίας Οθόνης"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Όχι"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Προσοχή! Όλες οι αλλαγές θα χαθούν. Επιθυμείτε να συνεχίσετε?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Ναι"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Αυτόματη Ανίχνευση Ποιότητας Γραφικών"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Όχι"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Προσοχή! Αλλαγή συγκεκριμένων ρυθμίσεων των γραφικών μπορεί να πάρει μερική ώρα. Συνέχεια?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Ναι"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Αλλαγή Ρυθμίσεων"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Κλείσιμο"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Αδύνατη η ρύθμιση των παραμέτρων στο μέγιστο. Θα γίνει εφαρμογή των γραφικών που καθόρισε ο χρήστης."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Προσοχή"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Κλείσιμο"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Η υψηλή ποιότητα της υφής των γραφικών είναι διαθέσιμη μόνο για 64-bit συστήματα."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Ποιότητα Γραφικών Μη Διαθέσιμη."
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Επανεκκίνηση Αργότερα"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Οι αλλαγές σε κάποιες ρυθμίσεις θα γίνουν μετά από επανεκκίνηση του παιχνιδιού."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Επανεκκίνηση"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Αλλαγή Ρυθμίσεων"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "ΟΚ"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Δεν υπάρχει διαθέσιμος χώρος στο Γκαράζ. Αγοράστε μια θέση ή πουλήστε ένα όχημα ώστε να αδειάσει χώρος για αυτό που θέλετε να αγοράσετε."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Σφάλμα"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Άκυρο"
+
+msgid "hof/excludeRating/message"
+msgstr "Οι άλλοι παίκτες δεν θα βλέπουν πλέον τα επιτεύγματά σας, αλλά μπορείτε να τα κάνετε και πάλι διαθέσιμα από την κεντρική σελίδα του Hall of Fame."
+
+msgid "hof/excludeRating/submit"
+msgstr "Απόκρυψη Αποτελεσμάτων"
+
+msgid "hof/excludeRating/title"
+msgstr "Προβολή Αποτελεσμάτων στη Βαθμολογία"
+
+msgid "hofDisabled/cancel"
+msgstr "Κλείσιμο"
+
+msgid "hofDisabled/message"
+msgstr "Το Hall of Fame είναι προσωρινά μη διαθέσιμο. Προσπαθήστε ξανά αργότερα."
+
+msgid "hofDisabled/title"
+msgstr "Προσοχή!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Άκυρο"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Ημιτελές πλήρωμα{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Ένα ή περισσότερα μέλη του πληρώματος δεν είναι κατάλληλα{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Το επιλεγμένο όχημα δεν είναι κατάλληλο για τους ακόλουθους λόγους:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Μόνο 1 μέλος του πληρώματος μπορεί να λάβει το μπόνους. Το μπόνους θα μεταφερθεί από το"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "στο"
+
+msgid "idleCrewBonus/submit"
+msgstr "Επικύρωση"
+
+msgid "idleCrewBonus/title"
+msgstr "Ενεργοποίηση Διαρκούς Επιμελητείας Πληρώματος?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Προσπαθήστε να απενεργοποιήσετε από τις Ρυθμίσεις την επιλογή Hardware Acceleration του Browser (στην καρτέλα Γραφικά)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Σφάλμα Φόρτωσης"
+
+msgid "interviewQuit/cancel"
+msgstr "Πίσω"
+
+msgid "interviewQuit/message"
+msgstr "Μπορείτε να αρνηθείτε τη συμμετοχή στην έρευνα και να τη συνεχίσετε αργότερα ανοίγοντας το μήνυμα με την πρόσκληση στις Ειδοποιήσεις. Το μήνυμα θα είναι ενεργό για μία συνεδρία στο παιχνίδι."
+
+msgid "interviewQuit/submit"
+msgstr "Απόρριψη"
+
+msgid "interviewQuit/title"
+msgstr "Απόρριψη Έρευνας"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Θετικόν!"
+
+msgid "koreaParentNotification/message"
+msgstr "Για την αποτροπή του εθισμού στο παιχνίδι από παιδιά και εφήβους, απαγορεύεται η είσοδος σε μάχη μετά τις %(preBlockTime)s. Θα αποσυνδεθείτε από τον server στις %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Θετικόν!"
+
+msgid "koreaParentNotification/title"
+msgstr "Περιορισμός Παιχνιδιού"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Θετικόν!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Ο διαθέσιμος χρόνος έληξε. Δεν μπορείτε να μπείτε σε νέα μάχη."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Θετικόν!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Γονικός Έλεγχος"
+
+msgid "leaveEvent/cancel"
+msgstr "Άκυρο"
+
+msgid "leaveEvent/message"
+msgstr "Τα στατιστικά σας στον διαγωνισμό θα μηδενισθούν μετά την ενημέρωση των βαθμολογιών. Δεν θα καταλάβετε θέση στην βαθμολογία και δεν θα κερδίσετε έπαθλο.\n\nΜετά την απόσυρσή σας από τον διαγωνισμό %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "ΔΕΝ ΜΠΟΡΕΙΤΕ ΝΑ ΜΕΤΕΧΕΤΕ ΣΕ ΑΥΤΟΝ ΞΑΝΑ."
+
+msgid "leaveEvent/submit"
+msgstr "Απόσυρση"
+
+msgid "leaveEvent/title"
+msgstr "Απόσυρση Από Τον Διαγωνισμό"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Άκυρο"
+
+msgid "leaveStartedEvent/message"
+msgstr "Τα αποτελέσματα των μαχών σας δεν θα ληφθούν υπ' όψη σε αυτόν τον διαγωνισμό. Δεν θα καταλάβετε θέση στην βαθμολογία και δεν θα κερδίσετε έπαθλο.\n\nΜετά την απόσυρσή σας από τον διαγωνισμό %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Απόσυρση"
+
+msgid "leaveStartedEvent/title"
+msgstr "Απόσυρση Από Τον Διαγωνισμό"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Άκυρο"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Είστε ήδη στον Χώρο Αναμονής Μάχης. Έξοδος και αποδοχή της πρόσκλησης?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "ΟΚ"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Πρόσκληση"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Άκυρο"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Συμμετέχετε ήδη σε έναν Ουλαμό Αρμάτων. Αποχώρηση από τον τρέχοντα Ουλαμό Αρμάτων και αποδοχή της πρόσκλησης?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Πρόσκληση"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Άκυρο"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Είστε ήδη σε ένα χώρο εκπαίδευσης. Έξοδο από τον χώρο εκπαίδευσης και αποδοχή της πρόσκλησης?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "ΟΚ"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Πρόσκληση"
+
+msgid "legalInfoWindow/title"
+msgstr "Νομικές Πληροφορίες"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Άκυρο"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Είστε σίγουροι ότι θέλετε να απενεργοποιήσετε τη σταδιακή εμφάνιση των κρυφών στοιχείων στο Γκαράζ?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Εάν απενεργοποιήσετε αυτήν την επιλογή, δεν θα μπορείτε να την ενεργοποιήσετε ξανά."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Απενεργοποίηση"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Αλλαγή Ρυθμίσεων"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Άκυρο"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Οι αλλαγές του server θα αποθηκευτούν. Μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την αυτόματη σύνδεση από τις Ρυθμίσεις."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Συνέχεια"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Αποθήκευση της αλλαγής server?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Δεν υπάρχουν αρκετά βλήματα στα πυρομαχικά της Εναλλασσόμενης Διαμόρφωσης. Είσοδος στη μάχη?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Ημιτελή Πυρομαχικά"
+
+msgid "lowAmmo/cancel"
+msgstr "Άκυρο"
+
+msgid "lowAmmo/message"
+msgstr "Δεν υπάρχουν αρκετά βλήματα στα πυρομαχικά του επιλεγμένου οχήματος. Θα γίνει αυτόματος ανεφοδιασμός πριν την είσοδο στη μάχη."
+
+msgid "lowAmmo/submit"
+msgstr "Ανεφοδιασμός"
+
+msgid "lowAmmo/title"
+msgstr "Αυτόματος Ανεφοδιασμός Πυρομαχικών"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Άκυρο"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Δεν υπάρχουν αρκετά βλήματα στα πυρομαχικά του επιλεγμένου οχήματος. Είσοδος στη μάχη?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Μάχη!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Ημιτελή Πυρομαχικά"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Όχι"
+
+msgid "lowFpsWarning/message"
+msgstr "Οι τρέχουσες ρυθμίσεις έχουν ως αποτέλεσμα χαμηλή απόδοση του συστήματος. Θέλετε να αλλάξετε σε χαμηλότερη ποιότητα γραφικών?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Ναι"
+
+msgid "lowFpsWarning/title"
+msgstr "Χαμηλή Απόδοση Συστήματος"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "ΟΚ"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Οι λεπτομέρειες για τον παίκτη %(userName)s είναι κλειδωμένες."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "ΟΚ"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Λεπτομέρειες Παίκτη Κλειδωμένες"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "ΟΚ"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Τα δεδομένα για τον χρήστη %(userName)s είναι αυτή τη στιγμή μη διαθέσιμα."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "ΟΚ"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Δεδομένα Αυτήν Την Στιγμή Μη Διαθέσιμα"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Άκυρο"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Η ενεργοποίηση αυτής της ρύθμισης θα μειώσει την απόδοση του συστήματός σας στη μάχη."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Προσοχή!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "ΕΝΕΡΓΟΠΟΙΗΣΗ"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Διαφάνεια Χάρτη"
+
+msgid "moduleSale/conformation/header"
+msgstr "Πώληση του στοιχείου %(moduleType)s '%(moduleName)s'?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Άκυρο"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Clan:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "credits"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "gold"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Αμοιβή:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Μεταφορά:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Κανονική:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "credits"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "gold"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Προς:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Σύνολο:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(όχι μέλος clan)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Αποστολή"
+
+msgid "moneyTransfer/title"
+msgstr "Μεταφορά Gold"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Μεταφορά {gold} <img src='icon_gold' /> στον παίκτη {player}? Θα χρεωθείτε {fee} <img src='icon_gold' /> αμοιβή."
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Μεταφορά"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Επικύρωση Μεταφοράς"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Ορισμός οικονομικού κωδικού</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "ΟΚ"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Η μεταφορά Gold δεν επιτρέπεται. Αιτία: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Ο περιορισμός μεταφοράς λήγει %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "ΟΚ"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Η μεταφορά Gold δεν επιτρέπεται."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Όχι"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Οι αλλαγές σε κάποιες ρυθμίσεις θα εφαρμοστούν από την επόμενη μάχη. Συνέχεια?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Ναι"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Αλλαγή Ρυθμίσεων"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Επίπεδο ικανότητας μετά την εκπαίδευση: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Εκπαίδευση"
+
+msgid "perkLearnConfirm/title"
+msgstr "Εκπαίδευση της ικανότητας %(skillName)s?"
+
+msgid "perksReset/after"
+msgstr "Μετά την επαναφορά:"
+
+msgid "perksReset/before"
+msgstr "Πριν την επαναφορά:"
+
+msgid "perksReset/cancel"
+msgstr "Άκυρο"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Η επιλογή αυτή δεν είναι διαθέσιμη καθώς έχετε ήδη 100% έκπτωση στην επαναφορά ικανοτήτων μέσω της Ακαδημίας Αρμάτων."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Μη Διαθέσιμη"
+
+msgid "perksReset/free/description"
+msgstr "Η επαναφορά για ικανότητες μέχρι {yellow_Open}1%{yellow_Close} είναι δωρεάν."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Η πρώτη επαναφορά ικανοτήτων γι αυτό το μέλος είναι δωρεάν"
+
+msgid "perksReset/graceLabel"
+msgstr "Πρώτη επαναφορά ικανοτήτων δωρεάν για:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Τα συνολικά XP των ικανοτήτων θα μειωθούν και θα είναι διαθέσιμες για εκπαίδευση λιγότερες ικανότητες."
+
+msgid "perksReset/noNewPerks"
+msgstr "Όλο το experience από τις εκπαιδευμένες ικανότητες θα μεταφερθεί στην κύρια ειδικότητα."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "από τα XP της ικανότητας"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Βασική Εκπαίδευση"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "από τα XP της ικανότητας"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Ταχύρυθμη Εκπαίδευση"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Επαναφορά ικανοτήτων\n χωρίς απώλεια XP"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Επαναφορά των ικανοτήτων για credits χωρίς να χάνονται XP"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Ακαδημία Αρμάτων"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Επαναφορά ικανοτήτων\n χωρίς απώλεια XP"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Επαναφορά"
+
+msgid "perksReset/title"
+msgstr "Επαναφορά όλων των ικανοτήτων?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Άκυρο"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Η επιλεγμένη Ποιότητα Ήχου είναι διαφορετική από αυτήν που ορίστηκε αυτόματα από το παιχνίδι. Κάποιοι ήχοι μπορεί να μην είναι διαθέσιμοι. Σας προτείνουμε να τεστάρετε και εσείς τη διαφορά στον ήχο. Εφαρμογή των αλλαγών?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Επικύρωση"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Ασυμφωνία Ποιότητας Ήχου"
+
+msgid "postmortem/cancel"
+msgstr "Έξοδος"
+
+msgid "postmortem/message"
+msgstr "Το όχημα καταστράφηκε. Παραμονή στη μάχη ή έξοδος στο Γκαράζ?"
+
+msgid "postmortem/submit"
+msgstr "Παραμονή"
+
+msgid "postmortem/title"
+msgstr "Το Όχημα Καταστράφηκε"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Αγορά Προνομιακού Λογαριασμού για %(days)s days για %(gold)s gold?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Αγορά"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Επικύρωση Αγοράς"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Επέκταση Προνομιακού Λογαριασμού κατά %(days)s ημέρες για %(gold)s gold?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Επέκταση"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Επικύρωση"
+
+msgid "priceCard/credits/title"
+msgstr "Βασική Εκπαίδευση"
+
+msgid "priceCard/free/title"
+msgstr "Ταχύρυθμη Εκπαίδευση"
+
+msgid "priceCard/gold/title"
+msgstr "Ακαδημία Αρμάτων"
+
+msgid "priceCard/price/free"
+msgstr "Δωρεάν"
+
+msgid "priceCard/recertification/title"
+msgstr "Εντολή Επανεκπαίδευσης"
+
+msgid "punishmentWindow/cancel"
+msgstr "Έλαβα γνώση"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Έχετε Αποκλειστεί Για %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Σας Έχει Επιβληθεί Ποινή"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Αθέμιτη Συμπεριφορά"
+
+msgid "punishmentWindow/info"
+msgstr "Εάν η όποια κατάσταση προκλήθηκε από διακοπή σύνδεσης ή από κάποιο άλλο τεχνικό πρόβλημα,\nεπικοινωνήστε με την Υποστήριξη Παικτών."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Παραβιάσατε τους κανόνες του παιχνιδιού στον χάρτη {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} στις {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nΈχετε προσωρινά αποκλειστεί από τις μάχες του είδους {whiteSpanish_Open}%(mode)s{whiteSpanish_Close}."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Παραβιάσατε τους κανόνες του παιχνιδιού στον χάρτη {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} στις {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nΣας έχουν αφαιρεθεί τα credits, τα XP και τα έπαθλα που κερδίσατε στη μάχη."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Παραβιάσατε τους κανόνες του παιχνιδιού στον χάρτη {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} στις {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nΕάν επαναληφθεί η παραβίαση των κανόνων θα σας επιβληθεί ποινή αφαίρεσης όλων των credits, των XP και των επάθλων που κερδίσατε στη μάχη."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Αδράνεια στη μάχη"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Εγκατάλειψη της μάχης πριν από το τέλος της ή πριν καταστραφεί το όχημα"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Αδράνεια στη μάχη / Λιποταξία"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Εσκεμμένη αυτοκαταστροφή"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s d %(hour)s h"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Άκυρο"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Να μην ερωτηθώ ξανά"
+
+msgid "questsConfirmDialog/message"
+msgstr "Εάν επιλέξετε την αποστολή \"%(newQuest)s\", η αποστολή \"%(oldQuest)s\" θα ακυρωθεί."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Επικύρωση"
+
+msgid "questsConfirmDialog/title"
+msgstr "Επικύρωση Επιλογής Αποστολής"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Άκυρο"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Όλη η πρόοδος της αποστολής %(curQuest)s θα μηδενιστεί.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Προσοχή! Όλη η πρόοδος της τρέχουσας αποστολής θα χαθεί."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Επικύρωση"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Μηδενισμός Προόδου"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Άκυρο"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Εάν επιλέξετε την αποστολή %(newQuest)s, η πρόοδος της αποστολής %(oldQuest)s θα μηδενιστεί.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Προσοχή! Όλη η πρόοδος της τρέχουσας αποστολής θα χαθεί."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Ναι"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Επικύρωση Επιλογής Αποστολής"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Άκυρο"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "Η αποστολή %(quest)s θα ακυρωθεί.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Προσοχή! Όλη η πρόοδος της τρέχουσας αποστολής θα χαθεί."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Ναι"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Επικύρωση ακύρωσης της αποστολής"
+
+msgid "quit/cancel"
+msgstr "Παραμονή"
+
+msgid "quit/submit"
+msgstr "Έξοδος"
+
+msgid "quit/title"
+msgstr "Έξοδος από το Παιχνίδι?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Άκυρο"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Η ομάδα σας χρειάζεται! Εγκατάλειψη της μάχης πριν από το τέλος της ή πριν καταστραφεί το όχημά σας θεωρείται λιποταξία. Μπορεί να σας επιβληθεί ποινή και αφαίρεση όλων των κεκτημένων από τη μάχη στο IGR."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Λιποταξία"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Αποχώρηση από το πεδίο της μάχης?"
+
+msgid "quitBattle/cancel"
+msgstr "Άκυρο"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Άκυρο"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Η ομάδα σας χρειάζεται! Εγκατάλειψη της μάχης πριν από το τέλος της ή πριν καταστραφεί το όχημά σας θεωρείται λιποταξία και μπορεί να σας επιβληθεί ποινή."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Λιποταξία"
+
+msgid "quitBattle/leaver/title"
+msgstr "Αποχώρηση από το πεδίο της μάχης?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Άκυρο"
+
+msgid "quitBattle/replay/submit"
+msgstr "Αποχώρηση"
+
+msgid "quitBattle/replay/title"
+msgstr "Έξοδος από τη Λειτουργία Θεατή?"
+
+msgid "quitBattle/submit"
+msgstr "Αποχώρηση"
+
+msgid "quitBattle/title"
+msgstr "Αποχώρηση από τη μάχη?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Όχι"
+
+msgid "quitPreBattle/message"
+msgstr "Σίγουρα έξοδος από τον Χώρο Αναμονής Μάχης?"
+
+msgid "quitPreBattle/submit"
+msgstr "Ναι"
+
+msgid "quitPreBattle/title"
+msgstr "Έξοδος από τον Χώρο Αναμονής Μάχης"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Όχι"
+
+msgid "rally/autoSearch/message"
+msgstr "Αναζήτηση για διαθέσιμες θέσεις αυτόματα?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Ναι"
+
+msgid "rally/autoSearch/title"
+msgstr "Αυτόματη Αναζήτηση"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Ακύρωση"
+
+msgid "rally/changePeriphery/message"
+msgstr "Θα μεταφερθείτε αυτόματα στον server (%(host)s). Επιθυμείτε να συνεχίσετε?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Μεταφορά"
+
+msgid "rally/changePeriphery/title"
+msgstr "Μεταφορά σε άλλον server"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Άκυρο"
+
+msgid "rally/goToAnother/message"
+msgstr "Εάν αλλάξετε είδος μάχης, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα."
+
+msgid "rally/goToAnother/submit"
+msgstr "Αλλαγή"
+
+msgid "rally/goToAnother/title"
+msgstr "Αλλαγή Είδους Μάχης"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Άκυρο"
+
+msgid "rally/goToIntro/message"
+msgstr "Θέλετε σίγουρα να αποχωρήσετε από την επιχειρησιακή μονάδα?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Επικύρωση"
+
+msgid "rally/goToIntro/title"
+msgstr "Επικύρωση Αποχώρησης"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Άκυρο"
+
+msgid "rally/goToSquad/message"
+msgstr "Εάν δημιουργήσετε Ουλαμό, θα βγείτε αυτόματα από το τρέχον είδος μάχης."
+
+msgid "rally/goToSquad/submit"
+msgstr "Δημιουργία"
+
+msgid "rally/goToSquad/title"
+msgstr "Δημιουργία Ουλαμού"
+
+msgid "rally/leave/cancel"
+msgstr "Άκυρο"
+
+msgid "rally/leave/message"
+msgstr "Αποχώρηση από την επιχειρησιακή μονάδα και έξοδος από αυτόν τον τύπο μάχης?"
+
+msgid "rally/leave/submit"
+msgstr "Επικύρωση"
+
+msgid "rally/leave/title"
+msgstr "Επικύρωση Αποχώρησης"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Συνέχεια"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Αδύνατη η έξοδος. Το όχημά σας είναι σε θέση έτοιμο για μάχη."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Προσοχή"
+
+msgid "rally/startBattle/cancel"
+msgstr "Όχι"
+
+msgid "rally/startBattle/message"
+msgstr "Αναζήτηση για αντίπαλο?"
+
+msgid "rally/startBattle/submit"
+msgstr "Ναι"
+
+msgid "rally/startBattle/title"
+msgstr "Αναζήτηση Αντιπάλων"
+
+msgid "recruit/cancel"
+msgstr "Άκυρο"
+
+msgid "recruit/submit"
+msgstr "Στρατολόγηση"
+
+msgid "recruit/title"
+msgstr "Στρατολόγηση νέου μέλους για %(role)s του %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "Η μοναδική φωνή του κάθε μέλους ακούγεται μόνο όταν έχει την ειδικότητα του Αρχηγού Πληρώματος."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Δεν χρειάζεται να στρατολογήσετε πληρώματα για τα Προνομιακά οχήματα. Η μεταφορά πληρώματος από ένα κανονικό όχημα σε ένα Προνομιακό του ίδιου τύπου γίνεται χωρίς ποινή."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Το συγκεκριμένο μέλος πληρώματος δεν μπορεί να στρατολογηθεί για το επιλεγμένο όχημα και θα τοποθετηθεί στον Στρατώνα."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Το συγκεκριμένο μέλος κατέχει παλιές ικανότητες, οι οποίες θα αντικατασταθούν χωρίς απώλεια XP."
+
+msgid "recruitDialog/name/title"
+msgstr "Στρατολόγηση του νέου μέλους πληρώματος (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Στρατολόγηση νέου μέλους πληρώματος?"
+
+msgid "recruitWindow/cancel"
+msgstr "Άκυρο"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Χωρίς επιλογή"
+
+msgid "recruitWindow/nation"
+msgstr "Έθνος"
+
+msgid "recruitWindow/specialization"
+msgstr "Ειδικότητα"
+
+msgid "recruitWindow/submit"
+msgstr "Στρατολόγηση"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Τύπος Οχήματος"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Όχημα"
+
+msgid "referralReward/cancel"
+msgstr "Ακύρωση"
+
+msgid "referralReward/message"
+msgstr "Διεκδίκηση %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Επικύρωση"
+
+msgid "referralReward/title"
+msgstr "Επικύρωση Παραλαβής"
+
+msgid "refuseTraining/cancel"
+msgstr "Όχι"
+
+msgid "refuseTraining/message"
+msgstr "Σταμάτημα της εκπαίδευσης?"
+
+msgid "refuseTraining/submit"
+msgstr "Ναι"
+
+msgid "refuseTraining/title"
+msgstr "Επικύρωση"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Καταστροφή"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Άκυρο"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "Το αναλώσιμο \"%(name)s\" θα μετακινηθεί στην Αποθήκη γιατί υπάρχει %(reason)s με το τρέχον εξάρτημα."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "ασυμβατότητα"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Αποσύνδεση"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Επικύρωση Αποσύνδεσης"
+
+msgid "rentConfirmation/cancel"
+msgstr "Ακύρωση"
+
+msgid "rentConfirmation/event"
+msgstr "είδος μάχης %(eventName)s"
+
+msgid "rentConfirmation/message"
+msgstr "Μίσθωση του %(name)s για το %(event)s με κόστος %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Επικύρωση"
+
+msgid "rentConfirmation/title"
+msgstr "Επικύρωση Μίσθωσης"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Ακύρωση"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Επέκταση της μίσθωσης του %(name)s για το %(event)s με κόστος %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Επικύρωση"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Επικύρωση Μίσθωσης"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Άκυρο"
+
+msgid "replacePassport/unique/message"
+msgstr "Αυτό είναι ένα μοναδικό μέλος πληρώματος και δεν μπορεί να γίνει επαναφορά των Προσωπικών Δεδομένων του αργότερα. Είστε σίγουρος για την αντικατάσταση των Προσωπικών Δεδομένων για %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Αντικατάσταση"
+
+msgid "replacePassport/unique/title"
+msgstr "Επικύρωση Αντικατάστασης"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Αντικατάσταση των Προσωπικών Δεδομένων του μέλους του πληρώματος για %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Αντικατάσταση"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Αλλαγή Προσωπικών Δεδομένων"
+
+msgid "replayNotification/cancel"
+msgstr "Όχι"
+
+msgid "replayNotification/message"
+msgstr "Η παρούσα έκδοση του World of Tanks είναι μη συμβατή με την εγγραφή της μάχης. Αυτό μπορεί να προκαλέσει προβλήματα στην αναπαραγωγή. Παράβλεψη της διαφοράς και αναπαραγωγή σε κάθε περίπτωση?"
+
+msgid "replayNotification/submit"
+msgstr "Ναι"
+
+msgid "replayNotification/title"
+msgstr "Προειδοποίηση"
+
+msgid "replayStopped/cancel"
+msgstr "Άκυρο"
+
+msgid "replayStopped/message"
+msgstr "Η αναπαραγωγή ολοκληρώθηκε. Κλικ στο Έξοδος για κλείσιμο του παιχνιδιού."
+
+msgid "replayStopped/submit"
+msgstr "Τέλος"
+
+msgid "replayStopped/title"
+msgstr "Η αναπαραγωγή ολοκληρώθηκε"
+
+msgid "reportBug/cancel"
+msgstr "Άκυρο"
+
+msgid "reportBug/message"
+msgstr "Κάνοντας κλικ εδώ θα ανοίξετε στον προκαθορισμένο σας browser την ιστοσελίδα της Υποστήριξης Παικτών του World of Tanks. Συνέχεια?"
+
+msgid "reportBug/submit"
+msgstr "Συνέχεια"
+
+msgid "reportBug/title"
+msgstr "Υποστήριξη Παικτών"
+
+msgid "resetAllPerks/cancel"
+msgstr "Άκυρο"
+
+msgid "resetAllPerks/submit"
+msgstr "Επαναφορά"
+
+msgid "resetAllPerks/title"
+msgstr "Επαναφορά ικανοτήτων για όλα τα μέλη πληρώματος?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Θα γίνει επαναφορά όλων των ικανοτήτων σε όλα τα μέλη πληρώματος του λογαριασμού σας.{orangeEnd}\n{orangeStart}Δεν θα μπορεί να γίνει αναστροφή της λειτουργίας αυτής.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Συνέχεια"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Οι ρυθμίσεις των γραφικών έχουν επιλεγεί αυτόματα για να διασφαλίσουν βέλτιστη ποιότητα εικόνας.\nΓια μεγαλύτερη απόδοση, επιλέξτε χαμηλότερη ποιότητα γραφικών στις Ρυθμίσεις."
+
+msgid "resetGraphics/submit"
+msgstr "Ρυθμίσεις"
+
+msgid "resetGraphics/title"
+msgstr "Αλλαγή Ρυθμίσεων Γραφικών"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Ανάκτηση"
+
+msgid "restoreTankman/description"
+msgstr "Ο %(name)s θα ανακτηθεί."
+
+msgid "restoreTankman/free"
+msgstr "Κόστος: Δωρεάν"
+
+msgid "restoreTankman/header"
+msgstr "Ανάκτηση αυτού του μέλους πληρώματος?"
+
+msgid "restoreTankman/price"
+msgstr "Κόστος:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Ακύρωση"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Ανάκτηση του %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Ανάκτηση"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Χωρίς πλήρωμα"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Ανάκτηση του %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Μετά το κλικ στο \"Ανάκτηση\" δεν θα μπορεί να γίνει ανταλλαγή αγορασμένου Εξοπλισμού και Αναλώσιμων για gold. Παρακαλούμε ελέγξτε προσεκτικά όλες τις λεπτομέρειες."
+
+msgid "retrain/cancel"
+msgstr "Άκυρο"
+
+msgid "retrain/changeRole"
+msgstr "Αλλαγή ειδικότητας"
+
+msgid "retrain/discountLabel"
+msgstr "Η έκπτωση είναι διαθέσιμη καθώς η 1η ικανότητα δεν είναι στο 100%."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Η επιλογή αυτή δεν είναι διαθέσιμη καθώς έχετε ήδη 100% έκπτωση στην αλλαγή ικανοτήτων μέσω της Ακαδημίας Αρμάτων."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Μη Διαθέσιμη"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Μέλη πληρώματος για επανεκπαίδευση: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Δεν χρειάζεται να εκπαιδεύετε πληρώματα για τα Προνομιακά Οχήματα.\nΗ μεταφορά πληρώματος από ένα κανονικό όχημα σε ένα Προνομιακό του ίδιου τύπου γίνεται χωρίς ποινή."
+
+msgid "retrain/price"
+msgstr "Κόστος:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Επίδραση ικανοτήτων\nμετά την επανεκπαίδευση: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Βασική Εκπαίδευση"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Επίδραση ικανοτήτων\nμετά την επανεκπαίδευση: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Ταχύρυθμη Εκπαίδευση"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Επίδραση ικανοτήτων\nμετά την επανεκπαίδευση: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Ακαδημία Αρμάτων"
+
+msgid "retrain/submit"
+msgstr "Επανεκπαίδευση"
+
+msgid "retrain/title/massive"
+msgstr "Επανεκπαίδευση πληρώματος για το %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Επανεκπαίδευση για το %(vehicleName)s\nκαι αλλαγή ειδικότητας σε %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Επανεκπαίδευση για το %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Οι ικανότητες μιας ακατάλληλης ειδικότητας θα απενεργοποιηθούν. Αλλάξτε τις χειροκίνητα."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Ένα πλήρωμα μπορεί να μετακινηθεί σε όλα τα Προνομιακά Οχήματα του ιδίου τύπου χωρίς ποινή, αλλά οι ακατάλληλες ειδικότητες θα πρέπει να αλλαχθούν χειροκίνητα."
+
+msgid "rudyInfo/message"
+msgstr "Αθάνατες Κλασσικές Ιστορίες τώρα στο Παιχνίδι! Το \"Four Tank-Men and a Dog\" (στα Πολωνικά \"Czterej pancerni i pies\") ήταν μία ασπρόμαυρη σειρά της Πολωνικής Τηλεόρασης βασισμένη στο ομώνυμο μυθιστόρημα του Janusz Przymanowski. Η τηλεοπτική σειρά έκανε πρεμιέρα στις 9 Μαΐου 1966, προβάλλοντας τις περιπέτειες του πληρώματος ενός άρματος μάχης T-34-85 με το προσωνύμιο Rudy (Ginger) και του σκύλου τους Szarik στον Β’ Παγκόσμιο Πόλεμο."
+
+msgid "rudyInfo/submit"
+msgstr "Θετικόν!"
+
+msgid "rudyInfo/title"
+msgstr "Four Tank-Men and a Dog"
+
+msgid "selectVehicle/counter"
+msgstr "Εμφανιζόμενα οχήματα:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Επιλέξτε Επιτιθέμενο Όχημα"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Επιλέξτε αυτό το όχημα"
+
+msgid "sellConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "sellConfirmation/submit"
+msgstr "Πώληση"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Πώληση"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Επικύρωση Πώλησης"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Πώληση των βλημάτων '%(shellName)s'?"
+
+msgid "sendInvites/common/title"
+msgstr "Πρόσκληση σε Επιχειρησιακή Μονάδα"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Ακύρωση"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Θα γίνει αυτόματη επαναφορά των στατιστικών της συνεδρίας σε{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Επαναφορά"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s h %(minutes)s min"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Επαναφορά των στατιστικών της συνεδρίας?"
+
+msgid "shopSyncError/cancel"
+msgstr "Συνέχεια"
+
+msgid "shopSyncError/message"
+msgstr "Ενημερώστε την εφαρμογή. Εάν το σφάλμα επαναληφθεί, ενημερώστε τον server."
+
+msgid "shopSyncError/title"
+msgstr "Αποσυγχρονισμός"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Άκυρο"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Εκπαίδευση Επιλεγμένων Ικανοτήτων?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Εκπαίδευση"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Εφαρμογή"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Άκυρο"
+
+msgid "soundModeInvalid/message"
+msgstr "Αρχεία για την επιλεγμένη φωνητική ειδοποίηση είναι κατεστραμμένα ή απουσιάζουν, η φωνητική ειδοποίηση θα καθοριστεί στην προεπιλεγμένη."
+
+msgid "soundModeInvalid/submit"
+msgstr "Αποθήκευση"
+
+msgid "soundModeInvalid/title"
+msgstr "Σφάλμα"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Άκυρο"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Το επιλεγμένο σύστημα ήχου είναι διαφορετικό από αυτό που ορίστηκε αυτόματα από το παιχνίδι. Κάποιοι ήχοι μπορεί να μην είναι διαθέσιμοι. Μπορείτε να τεστάρετε και εσείς τη διαφορά στον ήχο. Επικύρωση αλλαγών?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Επικύρωση"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Ασυμφωνία Συστήματος Ήχου"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Όχι"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Το επιλεγμένο σύστημα ήχου είναι διαφορετικό από αυτό που ορίστηκε αυτόματα από το παιχνίδι. Κάποιοι ήχοι μπορεί να μην είναι διαθέσιμοι. Εφαρμογή του βέλτιστου συστήματος ήχου?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Ναι"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Ασυμφωνία Συστήματος Ήχου"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Θετικόν!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Η διοργάνωση δεν είναι διαθέσιμη. Ο Ουλαμός θα διαλυθεί."
+
+msgid "squad/eventDisabled/title"
+msgstr "Λήξη Διοργάνωσης"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Άκυρο"
+
+msgid "squad/goToAnother/message"
+msgstr "Είστε μέλος Ουλαμού. Εάν αλλάξετε τύπο μάχης, θα εξαιρεθείτε από τον Ουλαμό."
+
+msgid "squad/goToAnother/submit"
+msgstr "Αλλαγή"
+
+msgid "squad/goToAnother/title"
+msgstr "Αλλαγή Είδους Μάχης"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Άκυρο"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "Εάν αλλάξετε είδος μάχης, ο Ουλαμός σας θα διαλυθεί. Αλλαγή είδους μάχης?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Επικύρωση"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Αλλαγή Είδους Μάχης"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Άκυρο"
+
+msgid "squad/goToSquad/message"
+msgstr "Εγκατάλειψη επιχειρησιακής μονάδας και δημιουργία Ουλαμού με τον παίκτη?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Δημιουργία"
+
+msgid "squad/goToSquad/title"
+msgstr "Δημιουργία Ουλαμού"
+
+msgid "squad/leave/cancel"
+msgstr "Άκυρο"
+
+msgid "squad/leave/message"
+msgstr "Σίγουρα θέλετε να αποχωρήσετε από τον Ουλαμό?"
+
+msgid "squad/leave/submit"
+msgstr "Επικύρωση"
+
+msgid "squad/leave/title"
+msgstr "Επικύρωση Αποχώρησης"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Συνέχεια"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Δεν μπορείτε να αποχωρήσετε από τον Ουλαμό. Είστε μέλος του Ουλαμού και έτοιμος για μάχη."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Προσοχή"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Άκυρο"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Ο Ουλαμός είναι ημιτελής. Ένας ή περισσότεροι παίκτες θα προστεθούν αυτόματα. Είσοδος στη μάχη?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Μάχη!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Ο Ουλαμός Δεν Είναι Έτοιμος"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Άκυρο"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Ο Ουλαμός δεν είναι πλήρης. Είσοδος στη μάχη?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Μάχη!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Ο Ουλαμός Δεν Είναι Έτοιμος"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Άκυρο"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Ο Ουλαμός είναι ημιτελής. Αυτόματη προσθήκη παικτών και είσοδος στη μάχη?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Μάχη!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Ο Ουλαμός Δεν Είναι Έτοιμος"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Άκυρο"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Ένα από τα μέλη του Ουλαμού δεν είναι έτοιμο. Είσοδος στη μάχη?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Μάχη!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Ο Ουλαμός Δεν Είναι Έτοιμος"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Άκυρο"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Όποιος παίκτες δεν επιβεβαίωσε την ετοιμότητά του θα εξαιρεθεί από την επιχειρησιακή μονάδα. Θα προστεθεί άλλος παίκτης αυτόματα. Είσοδος στη μάχη?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Μάχη!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Ο Ουλαμός Δεν Είναι Έτοιμος"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Άκυρο"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Κανένα από τα μέλη του Ουλαμού δεν είναι έτοιμο. Επιθυμείτε να λάβετε μέρος στη μάχη?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Μάχη!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Ο Ουλαμός Δεν Είναι Έτοιμος"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Άκυρο"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Ο Ουλαμός είναι ημιτελής. Οι παίκτες που δεν επιβεβαίωσαν την ετοιμότητά τους θα αφαιρεθούν από την επιχειρησιακή μονάδα. Αυτόματη προσθήκη παικτών και είσοδος στη μάχη?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Μάχη!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Ο Ουλαμός Δεν Είναι Έτοιμος"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Αποτυχία σύνδεσης σε νέα μάχη: αρκετοί παίκτες δεν έχουν επιστρέψει. Περιμένετε να τελειώσει η τρέχουσα μάχη."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Θετικό!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Ο Ουλαμός Δεν Είναι Έτοιμος"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "ΟΚ"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Μόνο χρήστες με Προνομιακό Λογαριασμό μπορούν να δημιουργήσουν έναν Ουλαμό.\nΟ χρήστης που δημιουργεί τον Ουλαμό μπορεί να προσκαλέσει παίκτη με λογαριασμό οποιουδήποτε τύπου."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Μόνο Προνομιακός Λογαριασμός"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Κλείσιμο Παιχνιδιού"
+
+msgid "steamStartNeeded/message"
+msgstr "Πρέπει να ξεκινήσετε το παιχνίδι μέσω Steam για να συνδεθείτε με τα σωστά στοιχεία."
+
+msgid "steamStartNeeded/title"
+msgstr "Αδύνατη η Σύνδεση"
+
+msgid "stronghold/leave/cancel"
+msgstr "Άκυρο"
+
+msgid "stronghold/leave/message"
+msgstr "Θέλετε σίγουρα να αποχωρήσετε από το απόσπασμα?"
+
+msgid "stronghold/leave/submit"
+msgstr "Επικύρωση"
+
+msgid "stronghold/leave/title"
+msgstr "Επικύρωση Αποχώρησης"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Εάν αποχωρήσετε, το απόσπασμα θα διαλυθεί.\nΘα επιβληθεί ποινή στο clan για μη συμμετοχή σε μάχη.\nΘέλετε σίγουρα να αποχωρήσετε από το απόσπασμα?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Επικύρωση Αποχώρησης"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Άκυρο"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Μεταφορά"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Μεταφορά σε Άλλο Server"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "tradeInConfirmation/message"
+msgstr "Το %(vehName)s θα δοθεί και δεν θα μπορεί να ανακτηθεί.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Επιπλέον, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "το πλήρωμα θα σταλεί στον Στρατώνα"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "τα αναλώσιμα θα σταλούν στην Αποθήκη"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "ο εξοπλισμός θα αφαιρεθεί δωρεάν"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "όλες οι Αμφίδρομες Τροποποιήσεις θα ακυρωθούν, αλλά το τρέχον Επίπεδο Διαμόρφωσης θα διατηρηθεί"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "τα πυρομαχικά θα σταλούν στην Αποθήκη"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Ανταλλαγή"
+
+msgid "tradeInConfirmation/title"
+msgstr "Ανταλλαγή Οχήματος"
+
+msgid "tradeInPopover/descr"
+msgstr "Προνομιακά οχήματα στο Γκαράζ"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Προβολή του έθνους των επιλεγμένων οχημάτων."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Έθνος"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Εμφανίζεται η εξοικονόμηση που κάνετε όταν γίνει ανταλλαγή των επιλεγμένων οχημάτων"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Αποτίμηση\nΟχήματος"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Αποτίμηση Οχήματος"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Προβολή της Βαθμίδας των επιλεγμένων οχημάτων."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Βαθμίδα"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Προβολή της ονομασίας των επιλεγμένων οχημάτων."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Όνομα"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Προβολή του τύπου των επιλεγμένων οχημάτων."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Τύπος"
+
+msgid "tradeInPopover/title"
+msgstr "Επιλογή Οχήματος προς Ανταλλαγή"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Επιλογή Οχήματος"
+
+msgid "updateNeeded/cancel"
+msgstr "Όχι Τώρα"
+
+msgid "updateNeeded/message"
+msgstr "Παρακαλούμε ενημερώστε την εφαρμογή σας."
+
+msgid "updateNeeded/submit"
+msgstr "Ενημέρωση"
+
+msgid "updateNeeded/title"
+msgstr "Απαιτείται Ενημέρωση"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Εκπαίδευση του μέλους πληρώματος για {%d} gold?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Εκπαίδευση"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Επικύρωση Εκπαίδευσης"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "ΟΚ"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Όχι αρκετό gold για εκπαίδευση."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "ΟΚ"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Όχι αρκετό gold"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Εκπαίδευση του μέλους πληρώματος για {%d} credits?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Εκπαίδευση"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Επικύρωση Εκπαίδευσης"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "ΟΚ"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Όχι αρκετά credits για εκπαίδευση."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "ΟΚ"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Όχι αρκετά credits."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Άκυρο"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Οι τροποποιήσεις δεν θα αποθηκευθούν. Αποχώρηση από το μενού διαμόρφωσης?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Επικύρωση"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Ακύρωση Αλλαγών"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Αφαίρεση από το Γκαράζ του %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Άκυρο"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Προσοχή! Αυτό είναι ένα ειδικό όχημα. Εάν το πωλήσετε, θα πρέπει να περιμένετε %(cooldown)s ημέρες για να το ανακτήσετε. Πώληση του οχήματος?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Επικύρωση"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Επικύρωση Πώλησης"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Ακύρωση"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Προσοχή! Αυτό είναι ένα ειδικό όχημα. Εάν το πωλήσετε, θα υπάρχει η δυνατότητα για να το ανακτήσετε. Πώληση του οχήματος?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Επικύρωση"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Επικύρωση Πώλησης"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Άκυρο"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Άκυρο"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "ΠΡΟΣΟΧΗ! Το συγκεκριμένο άρμα μάχης είναι μοναδικό και δεν μπορεί να ανακτηθεί. Το πλήρωμα επίσης θα αποστρατευτεί για πάντα."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Επικύρωση"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Επικύρωση Πώλησης"
+
+msgid "vehicleSell/unique/message"
+msgstr "Προσοχή! Αυτό είναι ένα ειδικό όχημα. Δεν είναι διαθέσιμο για αγορά από τον Εφοδιασμό. Θέλετε να συνεχίσετε?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Ναι"
+
+msgid "vehicleSell/unique/title"
+msgstr "Επικύρωση Πώλησης"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "ΕΠΙΚΥΡΩΣΗ ΠΩΛΗΣΗΣ"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Για επικύρωση εισάγετε την τιμή της πώλησης από τη στήλη \"Σύνολο\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Έχετε εισάγει λανθασμένες πληροφορίες."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "ΠΥΡΟΜΑΧΙΚΑ:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "ΟΔΗΓΙΕΣ:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Άκυρο"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "ΣΥΝΟΛΟ:"
+
+msgid "vehicleSellDialog/count"
+msgstr "τεμάχια"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Αποστράτευση"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Στον Στρατώνα"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "ΠΛΗΡΩΜΑ:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "ΕΞΩΤΕΡΙΚΗ ΟΨΗ:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Αποσυναρμολόγηση"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "ΑΝΑΛΩΣΙΜΑ:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Λεπτομέρειες"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "ΑΠΟΘΗΚΗ:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Έξοδα:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Συμπεριλαμβανομένων όλων των διαμορφώσεων για τα διάφορα έθνη!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Εξαρτήματα"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "ΕΞΟΠΛΙΣΜΟΣ:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Εάν πουλήσετε το όχημα, το τρέχον Επίπεδο Διαμόρφωσης Μάχης θα διατηρηθεί, αλλά όλες οι Αμφίδρομες Τροποποιήσεις θα ακυρωθούν."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Έσοδα:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Αφαίρεση"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Πώληση"
+
+msgid "vehicleSellDialog/title"
+msgstr "Πώληση %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Στην Αποθήκη"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Επίλεκτο"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Τιμή"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Βαθμίδα. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Ρόλος: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Αντιαρματικό"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Α/Κ Πυροβόλα"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Βαρύ Άρμα"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Ελαφρύ Άρμα"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Μέσο Άρμα"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Θετικό!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Σφάλμα στον συγχρονισμό της φωνητικής συνομιλίας: η υπηρεσία είναι προσωρινά μη διαθέσιμη."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Εκκίνηση Φωνητικής Συνομιλίας"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "ΟΚ"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Η φωνητική συνομιλία ξεκίνησε επιτυχώς."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Εκκίνηση Φωνητικής Συνομιλίας"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Κλείσιμο"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Η Υψηλή Ποιότητα στα Γραφικά του Νερού είναι διαθέσιμη μόνο με την επιλογή 'Post-Processing' ενεργοποιημένη."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Υψηλή Ποιότητα στα Γραφικά του Νερού Διαθέσιμη"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Άκυρο"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Τσεκάρετε αν υπάρχουν διαθέσιμα οχήματα στο Γκαράζ"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Κόστος: %(price)s %(icon)s (διαθέσιμα: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Παίκτης: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Επιλεγμένα οχήματα: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Επαναφορά Στη Δράση"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Επαναφορά στη δράση?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Οδηγός"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Έπαθλα Παρουσίας"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Μπόνους Μάχης"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Battle Pass Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Αποκλεισμένος Χάρτης"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Αποκλειστικό Όχημα"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Αποκλειστικά Οχήματα"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Δωρεάν Αποσύνδεση Εξοπλισμού"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Ταμιευτήριο Gold"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Διαρκής Επιμελητεία Πληρώματος"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Διαχειρίσιμο Μπόνους XP"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro Boost"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Προσαρμογή Μητρώου Υπηρεσίας"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Λάβαρο"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "ΤΟ WOT PLUS ΕΝΕΡΓΟΠΟΙΗΘΗΚΕ"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Όλα ΟΚ!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Επέκταση στις {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "ΤΟ WOT PLUS CORE ΕΝΕΡΓΟΠΟΙΗΘΗΚΕ"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Λεπτομέρειες"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "Πρόγραμμα 360 ημερών"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "Πρόγραμμα 180 ημερών"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, επέκταση στις {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "ΤΟ WOT PLUS PRO ΕΝΕΡΓΟΠΟΙΗΘΗΚΕ"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Ενεργοποίηση"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Δεν θα μπορείτε να ενεργοποιήσετε το boost σε άλλο όχημα για {{@ style (color #fff)}}{{boostInterval}} ώρες{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Με την ενεργοποίηση του Pro Boost το όχημα αυτό θα κερδίζει {{@ style (color #fff)}}{{bonusPercent}} περισσότερα Credits & XP{{/}}. Μπορεί να ενεργοποιηθεί σε μόνο ένα όχημα."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Ενεργοποίηση του Pro Boost για το {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Αλλαγή"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Μπορεί να ενεργοποιηθεί σε μόνο ένα όχημα. Δεν θα μπορείτε να ενεργοποιήσετε το boost σε άλλο όχημα για {{@ style (color #fff)}}{{boostInterval}} ώρες{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Με την ενεργοποίηση του Pro Boost το όχημα αυτό θα κερδίζει {{@ style (color #fff)}}{{bonusPercent}} περισσότερα Credits & XP{{/}}. Μπορεί να ενεργοποιηθεί σε μόνο ένα όχημα."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Αλλαγή του Pro Boost για το {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Άκυρο"
+
+msgid "wotPlusRental/description"
+msgstr "Το επόμενο όχημα προς μίσθωση θα είναι διαθέσιμο στις {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Μίσθωση"
+
+msgid "wotPlusRental/title"
+msgstr "Μίσθωση {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Αποθήκευση"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Θέλετε να αποθηκεύσετε τις επιλογές προσαρμογής στο Μητρώο Υπηρεσίας?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Άκυρο"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Κατανάλωση όλου του experience αυτού του οχήματος στην εκπαίδευση του πληρώματος. Το λιγότερο εκπαιδευμένο μέλος πληρώματος εκπαιδεύεται με διπλάσιο ρυθμό."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "ΕΝΕΡΓΟΠΟΙΗΣΗ"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Επιτάχυνση Εκπαίδευσης Πληρώματος?"

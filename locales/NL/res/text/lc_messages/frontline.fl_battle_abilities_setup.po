@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Toepassen op alle {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Gevechtsreservepunten: {{value}}"
+
+msgid "header/title"
+msgstr "GEVECHTSRESERVES"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Aanvalsreserves"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Verkenningsreserves"
+
+msgid "infoPanel/category/tactics"
+msgstr "Tactische reserves"
+
+msgid "infoPanel/category/title"
+msgstr "Categorie: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "In het {{@ colorLegacy 'FFE4C0'}}Wending van het lot{{/}} scenario verhoogt het kopen van een gevechtsreserve het niveau ervan met één, en geeft dat je de mogelijkheid om de reserve naar niveau {{@ colorLegacy 'FFE4C0'}}IV{{/}} te verbeteren."
+
+msgid "infoPanel/description/unlocked"
+msgstr "In het {{@ colorLegacy 'FFE4C0'}}Wending van het lot{{/}} scenario, wordt de kans dat elke (voor het gevecht) in de plek geplaatste gevechtsreserve wordt aangeboden, met {{@ colorLegacy 'FFE4C0'}}10%{{/}} verhoogd."
+
+msgid "infoPanel/level"
+msgstr "Niveau:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Gevechtsreserve niet gekocht"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Gevechtsreserve gekocht"

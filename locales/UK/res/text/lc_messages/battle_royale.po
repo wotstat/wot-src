@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Режим припинення вогню на всіх серверах."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "На цьому сервері триває режим припинення вогню."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Зміна сервера"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Подію «Сталевий мисливець» завершено"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "На цьому сервері режим недоступний"
+
+msgid "banner/info/disabled"
+msgstr "Режим припинення вогню"
+
+msgid "banner/info/seasonActive"
+msgstr "Другий шанс і нагороди"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "До %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Королівська битва з цінними нагородами"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s год"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s год %(minutes)s хв"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s хв"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "СТАЛЕВИЙ МИСЛИВЕЦЬ"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Бій продовжиться з нової позиції."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Ви скоро відродитесь"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Йде Відродження"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Другого шансу не буде."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Відродження більше недоступне"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Відродження незабаром стане недоступним!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Цього разу будьте обережнішими."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Машина готова до бою!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Повернення в бій"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Йдуть активні бойові дії."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Відродження неможливе"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Знайдіть заряд Відродження, щоб повернути її до ладу."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Машину союзника знищено"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Йде Відродження"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Одна машина добре, а дві — краще!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Союзника відроджено"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Не вступайте в бій."
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Відродження союзника"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Бонус застосовано!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Нагорода за перше місце"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Зібрано за бій"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "ПЕРЕМОГА"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Главу не вибрано. Нерозподілених очок Бойової перепустки: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Всі глави пройдені. Продовжуйте грати та накопичувати очки Бойової перепустки."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Перейти до Бойової перепустки"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Бойова перепустка"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Вибрати главу"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Відкрити прогресію активної глави"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Перейти до Бойової перепустки"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Виконано завдань за бій: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Бойові завдання"
+
+msgid "battleResult/battleReward/title"
+msgstr "ЗДОБУТО ЗА БІЙ"
+
+msgid "battleResult/button/hangar"
+msgstr "У Гараж"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Очки та нагороди розподілять після того, як усі гравці закінчать цей бій. Бойові завдання також зарахують за результатами бою."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Натисніть %(esc), щоб пропустити анімацію"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Запросити до взводу"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Союзник"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Випадковий союзник"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Тип бою"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "ОДИНОЧНИЙ БІЙ"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Було б отримано з Танковим преміум акаунтом:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Підсумкове значення з Танковим преміум акаунтом"
+
+msgid "battleResult/progressStage"
+msgstr "Прогрес {stage}-го етапу"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Інші гравці в бою не побачать справжнє ігрове ім'я й тег клану гравця."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Справжнє ім’я гравця: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Справжнє ім'я гравця змінено на {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Кількість одиниць шкоди, заблокованої бронею вашої машини."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Кількість завданої вами шкоди."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Кількість машин супротивника, знищених вами."
+
+msgid "battleResult/stats/body/place"
+msgstr "Ваше місце за результатами бою."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Сумарна кількість машин супротивника, знищених вашим взводом."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Заблоковано шкоди"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Завдано шкоди"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Знищено вами"
+
+msgid "battleResult/stats/header/place"
+msgstr "Позиція"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Знищено взводом"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Заблоковано шкоди"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Завдано шкоди"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Знищено вами"
+
+msgid "battleResult/stats/title/place"
+msgstr "Позиція"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Знищено взводом"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Таблиця лідерів"
+
+msgid "battleResult/tab/result"
+msgstr "Результати бою"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "ВЗВОД ЗНИЩЕНО"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "МАШИНУ ЗНИЩЕНО"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "ПЕРЕМОГА"
+
+msgid "battleResult/title/victoryOther"
+msgstr "ПОЧЕСНЕ МІСЦЕ"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Виберіть одну зі спеціальних машин режиму «Сталевий мисливець»."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Непридатна машина"
+
+msgid "button/modules"
+msgstr "ДЕРЕВО ДОСЛІДЖЕНЬ"
+
+msgid "button/repair"
+msgstr "Ремонт"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Бої тимчасово недоступні"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Бої тимчасово недоступні"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Режим недоступний"
+
+msgid "ceasefire/header/schedule"
+msgstr "Розклад боїв"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "На всіх доступних серверах діє припинення вогню. Нижче ви можете переглянути розклад."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "На цьому сервері діє припинення вогню. Ви можете змінити сервер, щоб отримати доступ до режиму."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "«Сталевий мисливець» недоступний на цьому сервері. Ви можете перейти на інший, щоб отримати доступ."
+
+msgid "commanderInfo/commonRank"
+msgstr "Командир"
+
+msgid "commanderInfo/description/china"
+msgstr "«Я вже переміг. Незабаром ви це усвідомите»."
+
+msgid "commanderInfo/description/france"
+msgstr "«Я тут закон!»"
+
+msgid "commanderInfo/description/germany"
+msgstr "«Сьогодні день мого тріумфу. Сьогодні день нашої слави»."
+
+msgid "commanderInfo/description/poland"
+msgstr "«Цього разу не до ввічливості»."
+
+msgid "commanderInfo/description/sweden"
+msgstr "«Все йде так, як і задумано»."
+
+msgid "commanderInfo/description/uk"
+msgstr "«У цій виставі в мене головна роль!»"
+
+msgid "commanderInfo/description/usa"
+msgstr "«Сокиру війни вже відкопали, перекували та наточили»."
+
+msgid "commanderInfo/description/ussr"
+msgstr "«У цих перегонах не можна посісти почесне друге місце!»"
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Петро Лопахін"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Навички"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nСпеціальна машина події «Сталевий мисливець»"
+
+msgid "fragPanel/squadsCount"
+msgstr "Взводів: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Таблиця лідерів"
+
+msgid "hangarResults/btns/summary"
+msgstr "Результати бою"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "ЗАКРИТИ"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Модулі можна досліджувати тільки в бою. Щоб відкрити дерево досліджень, під час бою натисніть клавішу %(key)s."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "Для здобуття досвіду %(highlight1)s та %(highlight2)s. Із кожним новим рівнем ви можете поліпшити модуль із дерева досліджень — це значно поліпшить ТТХ вашої машини."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "завдавайте шкоди супротивнику"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "підбирайте трофеї на мапі"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Поліпшення машини в бою"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Ви вступаєте в бій на машині I рівня."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Модулі можна поліпшувати як у дереві досліджень під час бою (за замовчуванням клавіша %(treeKey)s), так і за допомогою сполучень клавіш: %(leftModuleKey)s і %(rightModuleKey)s.\n\nМодулі можна досліджувати тільки в бою."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "У бою:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Ваш Сталевий мисливець отримує досвід у бою, завдаючи шкоди та збираючи здобич. Набравши достатньої кількості досвіду, ви перейдете на новий рівень та зможете обрати поліпшення одного з модулів."
+
+msgid "levelUp/severalTitles"
+msgstr "ЗДОБУТО РІВНІ: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "ЗДОБУТО %(level)s РІВЕНЬ!"
+
+msgid "levelUp/twoTitles"
+msgstr "ЗДОБУТО РІВНІ: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Виконуйте завдання й отримуйте цінні нагороди."
+
+msgid "level_up/max_level_info/title"
+msgstr "Доступні нові щоденні завдання"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Сезон\nнезабаром стартує"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Сезон розпочнеться %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Заблоковано"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Шкода"
+
+msgid "playerStats/killsStat/name"
+msgstr "Знищено"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Знищено"
+
+msgid "playerStats/placeStat/name"
+msgstr "Місце"
+
+msgid "playerStats/title"
+msgstr "Особистий результат"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Радар недоступний: триває підготування"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Машина повністю справна. Відновлення не потрібно."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Бойового робота знищено"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s знищив %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s знищив супротивника %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Брандер підірвали"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Міни зникли"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Міни встановлено"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Радар готовий до роботи"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Машина досягла максимального рівня"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Рівень %(level)s отримано"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Встановлено: %(moduleType)s. Поліпшено: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Корпус"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Шасі"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Двигун"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Гармата"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Радар"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Башта"
+
+msgid "playersPanel/title"
+msgstr "КОМАНДА"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Перемикайте між машинами взводу."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Режим спостерігача"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Вийти в Гараж.\nПочніть бій на іншій машині."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Вийти в Гараж"
+
+msgid "preBattle/buttonTitle"
+msgstr "ДО БОЮ!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Виберіть мапу"
+
+msgid "preBattle/listTitle"
+msgstr "ГОТОВНІСТЬ УЧАСНИКІВ"
+
+msgid "preBattle/mapArzagir"
+msgstr "Арзагир 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Зона 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Випадкова мапа"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "ТЕХНІКА ВЗВОДУ"
+
+msgid "preBattle/title"
+msgstr "ВЕЛИКЕ ПОЛЮВАННЯ"
+
+msgid "preBattle/userFooterTitle"
+msgstr "ВИБРАНА ТЕХНІКА"
+
+msgid "preBattle/userNotReady"
+msgstr "Не готовий"
+
+msgid "preBattle/userReady"
+msgstr "Готовий"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Сезон %(cycleNo)s на сервері %(server)s добіг кінця"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Сезон на сервері %(server)s добіг кінця."
+
+msgid "proxyPanel/button"
+msgstr "Магазин"
+
+msgid "proxyPanel/label"
+msgstr "Сталеві\nпечатки"
+
+msgid "proxyPanel/store"
+msgstr "МАГАЗИН"
+
+msgid "questsTooltip/timeLeft"
+msgstr "До кінця сезону: %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "На радар не призначена клавіша"
+
+msgid "radar/hint/press"
+msgstr "Натисніть"
+
+msgid "radar/hint/text"
+msgstr "для активації радара"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Висадитися"
+
+msgid "selectRespawn/button/land"
+msgstr "Висадитися"
+
+msgid "selectRespawn/description"
+msgstr "Натисніть на одну із запропонованих точок. Якщо ви не вкажете точку, то вас висадять у випадковій."
+
+msgid "selectRespawn/header"
+msgstr "Виберіть точку висадження"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Натисніть на одну із запропонованих точок. Якщо ви не вкажете точку, то вас висадять у випадковій."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Ви почнете бій тут"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Виберіть точку висадження"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s д"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 хв"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s хв"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "У ЛЮТІ!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Броню роз'їдає кислота!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Зону закрито — негайно покиньте її, або вам кінець!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Зона незабаром стане червоною"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Мобільність знижена!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Машина повертається на гусениці..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Відновлення міцності машини"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Відновлення міцності машини"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Конвертація шкоди"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Поліпшено ТТХ"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Снаряди та Відновлення"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Повітряний вантаж"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Ремкоплект або заряд уміння"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Трофеї"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Комбінована здобич: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Підбір: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Дільниця ремонту"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Щораз більший азарт!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "В димах"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Броню з’їдає корозія!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Рухливість знижена!"
+
+msgid "techParams/type/damage"
+msgstr "Шкода"
+
+msgid "techParams/type/difficulty"
+msgstr "Складність"
+
+msgid "techParams/type/mobility"
+msgstr "Рухливість"
+
+msgid "techParams/type/spotting"
+msgstr "Виявлення"
+
+msgid "techParams/type/survivability"
+msgstr "Живучість"
+
+msgid "techtree/body_armor"
+msgstr "Бронювання"
+
+msgid "techtree/body_health"
+msgstr "Запас міцності"
+
+msgid "techtree/body_mobility"
+msgstr "Рухливість"
+
+msgid "techtree/engine_acceleration"
+msgstr "Динаміка"
+
+msgid "techtree/engine_speed"
+msgstr "Максимальна швидкість"
+
+msgid "techtree/gun_alpha"
+msgstr "Разова шкода"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Дозаряджання магазину"
+
+msgid "techtree/gun_clip"
+msgstr "Магазин заряджання"
+
+msgid "techtree/gun_dpm"
+msgstr "Швидкість перезаряджання"
+
+msgid "techtree/gun_dualgun"
+msgstr "Двогарматна установка"
+
+msgid "techtree/gun_he"
+msgstr "Осколково-фугасна шкода"
+
+msgid "techtree/gun_machinegun"
+msgstr "Протитанковий кулемет"
+
+msgid "techtree/gun_piercing"
+msgstr "Пробивання броні"
+
+msgid "techtree/radar_cooldown"
+msgstr "Перезаряджання радара"
+
+msgid "techtree/radar_distance"
+msgstr "Дистанція покриття"
+
+msgid "techtree/turret_armor"
+msgstr "Бронювання"
+
+msgid "techtree/turret_health"
+msgstr "Запас міцності"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Швидкість обертання"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "До {{credits}} кредитів"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "До {{experience}} досвіду"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Взводний бонус"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Бій взводом із випадковим союзником. Грайте командою проти дев'яти інших взводів. У режимі доступні взводні завдання. Після бою взвод буде автоматично розформовано."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Класичний Сталевий мисливець. Кожен гравець сам за себе. Збирайте ресурси, поліпшуйте техніку й використовуйте її унікальні здібності, щоб вистояти до кінця!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Бій взводом із другом. Грайте командою проти дев'яти інших взводів. У режимі доступні взводні завдання."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Випадковий взвод"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Соло-режим"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Взвод із другом"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Наодинці"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Взвод"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Правила нарахування очок"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s місце"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s місця"
+
+msgid "tooltips/awards/achievement"
+msgstr "Медаль"
+
+msgid "tooltips/awards/badge"
+msgstr "Нашивка"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: «%(userName)s»"
+
+msgid "tooltips/respawn/common/description"
+msgstr "Дає змогу повернутися в бій після того, як ваша машина була знищена, водночас зберігши її рівень поліпшень. Можна використовувати обмежену кількість разів."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Заряд Відродження можна отримати, підібравши Повітряний вантаж."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Щоб відродити союзника, не вступайте в бій протягом {brown_Open}%(timeToResurrect)s с{brown_Close}. Механіка діє протягом перших {brown_Open}%(duration)s хв{brown_Close} битви. Для взводу заряди Відродження спільні."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Під час гри у взводі"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Відродження техніки відбувається автоматично одразу після знищення. Механіка діє протягом перших {brown_Open}%(duration)s хв{brown_Close} битви."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Під час гри поодинці"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Одноразове використання"
+
+msgid "tooltips/respawn/title"
+msgstr "Відродження"
+
+msgid "tooltips/vehicle/description"
+msgstr "Машина режиму «Сталевий мисливець»"
+
+msgid "tournament/description"
+msgstr "ВЕЛИКЕ ПОЛЮВАННЯ"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Не готовий"
+
+msgid "tournament/fightButton/ready"
+msgstr "Готовий!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Неможливо зайти в турнір. Код помилки: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Помилка турніру «Велике полювання». Код помилки: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "ВЕЛИКЕ ПОЛЮВАННЯ"
+
+msgid "tournament/type/solo"
+msgstr "Тип: самостійний"
+
+msgid "tournament/type/squad"
+msgstr "Тип: взводний"
+
+msgid "upgradePanel/alert/0"
+msgstr "Ви не можете поліпшувати машину!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Ви не можете поліпшувати машину — тривають активні бойові дії!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Ви не можете поліпшувати машину — машина у воді!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Ви не можете поліпшувати машину — машину перекинуто!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Натисніть %(key)s, щоб побачити дерево досліджень"
+
+msgid "upgradePanel/title/default"
+msgstr "Доступний новий модуль"
+
+msgid "upgradePanel/title/hull"
+msgstr "Доступний новий корпус"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Доступне нове шасі"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Доступний новий двигун"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Доступна нова гармата"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Доступний новий радар"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Доступна нова башта"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "АБО"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Бронювання"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Разова шкода"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Швидкість перезаряджання"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Міцність"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Пробивання"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Якість радара"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Магазин заряджання"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Швидкість"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Особливості машини"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Переваги"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Недоліки"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Режим припинення вогню на всіх серверах. Бої почнуться через %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Змінити сервер"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Епізод %(cycle)s добіг кінця"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Епізод добіг кінця"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Режим припинення вогню на сервері. Бої почнуться через %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Режим припинення вогню на %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Епізод %(cycle)s розпочнеться через %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Перший епізод розпочнеться через %(time)s"

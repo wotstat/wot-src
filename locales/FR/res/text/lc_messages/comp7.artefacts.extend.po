@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "La portée de vue sera augmentée de {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s %%{colorTagClose} pendant {colorTagOpen}%(duration)s s{colorTagClose}.\n\nLa durée se réinitialisera lorsqu'un véhicule ennemi sera détruit grâce à votre détection."
+
+msgid "comp7_aggressive_detection/name"
+msgstr "Reconnaissance active"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "Pendant {colorTagOpen}%(duration)s s{colorTagClose}, votre équipage reçoit un bonus de {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s %%{colorTagClose} à l'efficacité de l'équipage pour chaque véhicule de votre équipe ayant un rôle différent.\n\nVotre véhicule sera toujours inclus dans le calcul de ce bonus."
+
+msgid "comp7_ally_support/name"
+msgstr "Un pour tous"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "Pendant {colorTagOpen}%(duration)s s{colorTagClose}, une zone d'un rayon de {colorTagOpen}%(radius)s m{colorTagClose} est créée autour de votre véhicule qui restaure {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} points de structure à votre véhicule et ceux de vos alliés."
+
+msgid "comp7_aoe_heal/name"
+msgstr "Réparations sur le terrain"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "Pendant {colorTagOpen}%(duration)s s{colorTagClose}, votre équipage et les équipages alliés reçoivent un bonus de {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s %%{colorTagClose} à l'efficacité."
+
+msgid "comp7_aoe_inspire/name"
+msgstr "Inspirer"
+
+msgid "comp7_berserk/descr/active"
+msgstr "Pendant {colorTagOpen}%(duration)s s{colorTagClose}, le temps de rechargement du canon est réduit de {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s %%{colorTagClose}. En outre, la dispersion du canon après avoir tiré, en mouvement ainsi que lors de la rotation de la caisse et de la tourelle est réduite de {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s %%{colorTagClose}.\n\nLa durée est réinitialisée lorsque vous infligez des dégâts par collision ou en tirant à une distance de moins de {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_berserk/name"
+msgstr "Furie"
+
+msgid "comp7_concentration/descr/active"
+msgstr "Pendant {colorTagOpen}%(duration)s s{colorTagClose}, le temps de visée et la dispersion du canon en mouvement, durant la rotation de la caisse ainsi que durant la rotation de la tourelle sont réduits de {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s %%{colorTagClose}.\n\nTant que cette Compétence de rôle est active, le temps de rechargement entre les tirs est réduit de {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_concentration/name"
+msgstr "Concentration sur la cible"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• Pour un système de chargement à barillet :\nLe temps de rechargement restant du barillet est réduit de : {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s %%{colorTagClose}\n\n• Pour un système de rechargement automatique :\nTous les obus tirés dans le cycle actuel se rechargeront {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s % plus vite%{colorTagClose}\n\nLa compétence ne peut être activée que durant le processus de rechargement.\n\n• Pour les canons automatiques avec gestion de la surchauffe :\nLa chaleur du canon est réduite de {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s %%{colorTagClose} de son maximum possible.\n\nLa compétence ne peut être activée que si le canon est brûlant."
+
+msgid "comp7_fast_recharge/name"
+msgstr "Tour de passe-passe"
+
+msgid "comp7_hunter/descr/active"
+msgstr "Réinitialise le nombre de véhicules ennemis endommagés par tir.\n\nPendant {colorTagOpen}%(duration)s s{colorTagClose}, votre véhicule restaurera {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} points de structure pour chaque véhicule ennemi endommagé par tir au moment de l'activation."
+
+msgid "comp7_hunter/descr/passive"
+msgstr "Le temps de rechargement du canon est réduit de {colorTagOpen}%(gunReloadTimeBuff)s %%{colorTagClose} pour chaque véhicule ennemi endommagé par tir."
+
+msgid "comp7_hunter/name"
+msgstr "Chasseur de prime"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "Pendant {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} :\n• Les dégâts subis sont réduits de {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s %%{colorTagClose}\n• La vitesse maximale en marche avant est augmentée de {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• La vitesse maximale en marche arrière est augmentée de {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• La puissance moteur est augmentée de {colorTagOpen}%(enginePowerBuff)s %%{colorTagClose}\n• Les dégâts par collision infligés aux véhicules ennemis sont augmentés de {colorTagOpen}%(rammingDamageBuff)s %%{colorTagClose}\n\nLorsque cette Compétence de rôle est active, vos chenilles se détruisent en un seul tir."
+
+msgid "comp7_juggernaut/name"
+msgstr "Mastodonte"
+
+msgid "comp7_march/descr/active"
+msgstr "Pendant {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, la puissance du moteur de votre véhicule augmentera de {colorTagOpen}%(enginePowerBuff)s %%{colorTagClose}, sa vitesse maximale en marche avant augmentera de {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h et sa valeur de dissimulation augmentera de {colorTagOpen}%(invisibilityFactor)s %%{colorTagClose}."
+
+msgid "comp7_march/name"
+msgstr "Marche forcée"
+
+msgid "comp7_recon/descr/active"
+msgstr "Un avion de reconnaissance survolera la zone sélectionnée dans {colorTagOpen}%(delay)s s{colorTagClose}. Les véhicules ennemis détectés dans un rayon de {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} resteront visibles pendant {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose}. Une icône spécifique sera affichée pour le joueur lorsqu'il est détecté par cette compétence après un délai de {colorTagOpen}%(lampDelay)s s{colorTagClose}.\n\nCette compétence peut être utilisée {colorTagOpen}%(startupDelay)s s{colorTagClose} après le début de la bataille."
+
+msgid "comp7_recon/name"
+msgstr "Vol de reconnaissance"
+
+msgid "comp7_redline/descr/active"
+msgstr "La zone sélectionnée sera touchée par une frappe d'artillerie dans {colorTagOpen}%(delay)s s{colorTagClose}.\n\nLes cibles endommagées dans un rayon de {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} subiront {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} PS de dégâts et seront étourdies pendant {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_redline/name"
+msgstr "Tirs de couverture"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "Accélération\n\nPendant {colorTagOpen}%(duration)s s{colorTagClose}, la puissance du moteur augmente de {colorTagOpen}%(enginePowerBuff)s %%{colorTagClose}, la vitesse maximale en marche avant augmente de {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h et la vitesse en marche arrière augmente de {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nRécupération\n\nPendant {colorTagOpen}%(healDuration)s s{colorTagClose}, votre véhicule restaure {colorTagOpen}%(baseHeal)s{colorTagClose} points de structure {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s %%{colorTagClose} des points de structure perdus alors qu'Accélération est active."
+
+msgid "comp7_risky_attack/name"
+msgstr "Second souffle"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\nAu début de la bataille, le niveau de charge de la Compétence de rôle est de{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_sniper/descr/active"
+msgstr "Pendant {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, la dispersion à 100 m est égale à {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nSi votre véhicule n'a pas été repéré au moment du tir, les dégâts infligés avec votre obus augmenteront de {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s %%{colorTagClose}. \n\nLa durée sera réinitialisée en infligeant des dégâts en tirant à une distance de plus de {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_sniper/name"
+msgstr "Dans le mille"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "Pendant {colorTagOpen}%(duration)s s{colorTagClose}, la dispersion du canon en mouvement, durant la rotation de la caisse et durant la rotation de la tourelle est réduite de {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s %%{colorTagClose}.\n\nTant que cette compétence est active, les dégâts infligés par tir réduisent le temps de rechargement du canon de {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s %%{colorTagClose} du pourcentage de points de structure retirés au véhicule ennemi.\n\nDétruire un véhicule ennemi réduit le temps de rechargement du canon de {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s %%{colorTagClose}."
+
+msgid "comp7_sure_shot/name"
+msgstr "Tir propre"

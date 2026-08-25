@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d à %(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "ESPACE"
+
+msgid "hints/camera_flow/pause"
+msgstr "Mode avancé (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Pause (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Reprise (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Véhicule détruit"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Dégâts par zone d'explosion"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Dégâts par éclats"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Dégâts superficiels"
+
+msgid "hints/death_reason/penetration"
+msgstr "Coup direct"
+
+msgid "hints/follow_pt1"
+msgstr "Clic gauche"
+
+msgid "hints/follow_pt2"
+msgstr "pour suivre ce véhicule"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Cliquez droit pour retourner au véhicule précédent"
+
+msgid "hints/height/label"
+msgstr "Hauteur"
+
+msgid "hints/height/text"
+msgstr "Ajuste la hauteur de la caméra."
+
+msgid "hints/movement/label"
+msgstr "Mouvement"
+
+msgid "hints/movement/text"
+msgstr "Pour déplacer la caméra, utilisez les touches %(forward)s, %(left)s, %(backward)s et %(right)s."
+
+msgid "hints/skip/buttonText"
+msgstr "ÉCHAP"
+
+msgid "hints/skip/label"
+msgstr "Passer"
+
+msgid "hints/spectatorDown"
+msgstr "MAJ"
+
+msgid "hints/spectatorUp"
+msgstr "ESPACE"
+
+msgid "hints/speed/label"
+msgstr "Vitesse"
+
+msgid "hints/speed/text"
+msgstr "Ajuste la vitesse de la caméra."
+
+msgid "hints/spotted_status/spotted"
+msgstr "Repéré"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Tir à l'aveugle"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Angle non pénétrant"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Angle pénétrant"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Angle de ricochet"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Blindage nominal {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Blindage {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Modificateur de distance {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Équipage blessé !"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Le râtelier de munitions a explosé !"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "En feu !"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "Règle des 2 calibres"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "Règle des 3 calibres"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Aucun blindage"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Gain du blindage par l'inclinaison {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Calibre {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Dégâts moyens {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Potentiel de dégâts {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Dégâts par zone d'explosion infligés {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Dégâts par éclats infligés {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Dégâts superficiels infligés {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Dégâts infligés {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Réduction avec la distance {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Blocage par le blindage {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Réduction par l'équipement {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Valeur aléatoire des dégâts {colorTagOpen}(PS){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Pénétration moyenne {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Pénétration {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Vélocité de l'obus {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Distance {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Ennemi non repéré"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Appliqué"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Aucun"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Non repéré"

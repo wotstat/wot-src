@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, stridslängd: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "STÄNG"
+
+msgid "battleResult/continueButton"
+msgstr "Fortsätt"
+
+msgid "battleResult/damageAssisted"
+msgstr "Assistans-\nskada"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Blockerad\nskada"
+
+msgid "battleResult/damageDealt"
+msgstr "Åsamkad\nskada"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s När du slutför uppdrag med strikt svårighetsgrad\nslutför du dem samtidigt med normal svårighetsgrad.\nDet betyder att du får belöningar för båda svårighetsgraderna."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s När du slutför uppdrag med strikt svårighetsgrad slutför du dem samtidigt med normal svårighetsgrad.\nDet betyder att du får belöningar för båda svårighetsgraderna."
+
+msgid "battleResult/kills"
+msgstr "Förstörda\nfiender"
+
+msgid "battleResult/lose/title"
+msgstr "STRIDEN ÄR ÖVER"
+
+msgid "battleResult/missionName/1"
+msgstr "TIGERJÄGARE: Operation Stållavin"
+
+msgid "battleResult/missionName/2"
+msgstr "TIGERJÄGARE: Operation Tigersnara"
+
+msgid "battleResult/missionName/3"
+msgstr "TIGERJÄGARE: Operation Hammare och städ"
+
+msgid "battleResult/missionName/4"
+msgstr "TIGERJÄGARE: Operation Katt i musfällan"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERATION OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERATION BREVBÄRARE"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERATION KOKPUNKT"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Inga aktiva\nuppdrag"
+
+msgid "battleResult/rewards/other"
+msgstr "Övrigt mottaget:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Uppdrag\nslutförda"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Överlevde{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Överlevde inte{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "SEGER!"
+
+msgid "countdown/days"
+msgstr "{days} d"
+
+msgid "countdown/daysHours"
+msgstr "{days} d {hours} t"
+
+msgid "countdown/endsSoon"
+msgstr "Mindre än {minutes} minuter"
+
+msgid "countdown/hours"
+msgstr "{hours} t"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} t {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} t {minutes} min"
+
+msgid "countdown/lessThanMinute"
+msgstr "Mindre än 1 minut"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} m"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Avbryt"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Du får ingen belöning för slutförande av den här operationen.\nVill du fortfarande spela operationen utan aktiva uppdrag?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Bekräfta"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Inga uppdrag aktiva under operationen"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Identifiera det den okända fienden, stoppa robotavskjutningen och se till att den nya teknologin faller i rätta händer."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Spela själv och kämpa mot AI-styrda motståndare i den här episka berättelsen med hjältar från Sektion 3!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Slutför uppdrag för att få ett minnesmärke, en medalj, 2D-stilar och andra värdefulla belöningar."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "En ny era gryr"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Soloberättelse"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Belöningar"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERATION KOKPUNKT"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Berättelser"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Strikt"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Normal"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Minfält\nStrikt"
+
+msgid "missionSelection/exitButton"
+msgstr "LÄMNA STRIDSLÄGET"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "TIGERJÄGARE\nOPERATION STÅLLAVIN"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "TIGERJÄGARE\nOPERATION TIGERSNARA"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERATION\nHAMMARE OCH STÄD"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERATION\nKATT I MUSFÄLLAN"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERATION\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERATION\nBREVBÄRARE"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERATION\nKOKPUNKT"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: \"Hallå, hur gick det? Är du vaken? Du får komma till sjukan senare. Nu räknas varenda kanon. Anfallet har redan börjat och eftersom vi är sena så har fienden fokuserat allt på andra flanken. Det här är vår chans. Vi anfaller bums. Slå dig fram till stan och pressa dem från båda sidor.\nFölj oss – se upp för draktänderna. De har flera rader av betonggaddar på gärdet därborta. Ingen fara, vi tar oss fram ändå. Allt du behöver göra är att lyssna och verkställa mina order snabbt och rätt. MacLeod och jag täcker dig.\nOch strunta i hans skämt. Alla har sitt eget sätt att handskas med stressen... Utgå!\""
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: \"Ah, Tigrar – det är nog det värsta vi möter på slagfältet. Om befälet säger att vi kan stöta på problem betyder det oftast Tigrar. Vi har tappat kontakt med första anfallsvågen, andra rullade precis ut och här kommer vi, utskickade efter dem.\nOm de skickar in oss kan de bara betyda en sak: Tigrar. Det så staben säger: \"Skicka Tigerexperterna!\" Nio vagnar för två. Inte så illa pinkat för ett halvår. Du leder 5‑4. Men jag kommer nog ikapp och tar hem den där jäkla medaljen!\nKom igen – Brooks gillar inte att vänta. Nu går vi på jakt.\""
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: \"Okej allihop, det är Operation Hammare och städ. Ett enkelt namn för ett svårt uppdrag. Vi beger oss in i staden för att rensa ut fiendestyrkorna. Det kommer inte att bli lätt - kommer möta tungt pansar. Men vi har intelligens, styrka och lagsamverkan på vår sida, eller hur Lucky? Och låt oss göra det kvickt, folk. Jag har en träff med en liten kopp \"te\" klockan fem, om ni förstår vad jag menar!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: \"Fråga inte, Lucky. Jag vet inte mer än du.Jag är inte förtjust i allt hemlighetsmakeri. Jag gillar när det är rakt på sak. Bara hitta fienden och slå dem. Men det här? Det är en salig röra.\n\nDet kommer att finnas allierade stridsvagnar i staden också. Brooks bad oss vara ta det försiktigt. Hur ska det gå till?\nVi har en speciell uppgift. Vi ska hitta någon form av Wunderwaffe - något stort på band. Det är bara vi som kan ta det just nu, Lucky.\n\nRedo? Då rullar vi.\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Kapten John McCormick: \"Okej grabbar, dagen är här. Det är dags att avsluta det här kriget, och det är precis vad vi ska göra. Allihop tillsammans, amerikaner, britter, fransmän, kanadensare, australiensare, belgare, tjeckoslovaker, greker, holländare, kiwis, norrmän, polacker. Tillsammans ska vi sätta stopp för den här ondskan en gång för alla.\n\nVi ska slå oss genom Atlantvallen och erövra ett brohuvud.\n\nGör er redo för landstigning!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Kapten Smith: \"Lystring. För några timmar sedan skrev Tyskland under kapitulationen. Kriget är över i morgon. Våra grabbar uppe i bergen har tappat radiokontakt – de vet inte att det är över. De står redo att attackera den förbannade fästningen i gryningen, och tyskarna där inne vet inte heller något om kapitulationen. Det blir ett helt meningslöst blodbad.\n\nVi är de enda som kan stoppa det. Vårt uppdrag: Smyga genom fiendens linjer och leverera ordern om eldupphör. Det är ett självmordsuppdrag, men varje liv vi räddar är värt det.\n\nVi har en tillfångatagen tysk signalist med oss – han känner terrängen och har lika mycket anledning som vi att stoppa blodbadet. \n\nRulla ut.\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: \"Situationen är kritisk. Vi har förlorat kontakten med vår missilbas i Norska havet. Spaningsflyget återvände aldrig och den första landningsstyrkan med stridsvagnar utplånades av en okänd fiende.\n\nUnderrättelser tyder på att de förbereder sig för att avfyra en ballistisk missil. Vi känner inte till målet, men i det här politiska klimatet kan en enda avfyrning utlösa en global konflikt.\n\nDet känns som förr i tiden, eller hur? Ännu ett omöjligt uppdrag bakom fiendens linjer. Rulla ut!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERATION STÅLLAVIN"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERATION TIGERSNARA"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERATION HAMMARE OCH STÄD"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERATION KATT I MUSFÄLLAN"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERATION OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERATION BREVBÄRARE"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERATION KOKPUNKT"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Specialvagn"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERATION KOKPUNKT"
+
+msgid "missionSelection/tab/newbies"
+msgstr "TRÄNINGSBERÄTTELSER"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Anfall staden och förstör fiendevagnar."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Anfall staden och förstör fiendevagnar."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Anfall staden och förstör fiendevagnar."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Slutför uppdragets huvuduppgifter utan att skadas av fiendens minor."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Slutför uppdragets huvuduppgifter utan att förlora en enda vagn."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Anfall staden och erövra fiendens Wunderwaffe."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Slutför uppdragets huvuduppgifter på under %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Slutför uppdragets huvuduppgifter och förstör %(kill_enemies)s med hjälp av flyget."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Slå igenom försvaret, förstör kustbatteriet och etablera ett brohuvud."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Slutför uppdragets huvuduppgifter på under %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Slutför uppdragets huvuduppgifter utan att förlora en enda vagn."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Leverera order om eldupphör till dina allierade."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Slutför uppdragsmålen och förstör färre än %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Slutför uppdragets huvuduppgifter utan att förlora en enda vagn."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Nå kommandocentralen och stoppa robotavskjutningen."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Slutför uppdragets huvuduppgifter på under %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Slutför uppdragets huvuduppgifter utan att förlora en enda vagn."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s fiendevagn"
+msgstr[1] "%(value)s fiendevagnar"
+msgstr[2] "%(value)s fiendevagnar"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Uppdraget är låst: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minut"
+msgstr[1] "%(value)s minuter"
+msgstr[2] "%(value)s minuter"
+
+msgid "missionSelection/taskRewards"
+msgstr "Belöning:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Vagnen är bara tillgänglig i berättelser."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Slutför ytterligare %(numBattles)s slumpvis matchade strider\nför att låsa upp operationen."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Nybörjarscenarion"
+
+msgid "mode/story_mode/description"
+msgstr "Slutför skriptade operationer mot AI-styrda motståndare"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operation Kokpunkt tillgänglig"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Du hittar ditt aktuella spelläge i toppen av huvudmenyn i garaget. Klicka på namnet på stridsläget för att se andra tillgängliga strider."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Klicka på &zwnbsp;{whiteSpanish_Open}Berättelser{whiteSpanish_Close}&zwnbsp; för att välja den stridsvarianten."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "I Berättelser får du ta dig an narrativa PvE-scenarion, kämpa mot AI-styrda fiender, uppleva heroiska pansarslag och tjäna värdefulla belöningar!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Gå till stridsvalet"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Välj Berättelser"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Delta i PvE-strider"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "BERÄTTELSER"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Berättelsestrider väntar"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Starta Om"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "STRIDEN ÄR ÖVER"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Hoppa över"
+
+msgid "onboardingQueue/skipText"
+msgstr "Alla servrar är upptagna. Vänligen vänta, eller hoppa över berättelsen."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Vi förbereder servern åt dig. Vänligen vänta..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Skada blockerad av pansar {parSecondary_Start}(träffpoäng){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Blockerad skada"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Träffar av spräng- (HE) och sprängpansargranater (HESH) räknas ej."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Räknas:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Rikoschetter"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Träffar utan genomslag"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Skada med din assistans"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Följande skada åsamkad av allierade med din assistans räknas:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Skada under observation"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Skada åsamkad då du förstört ett band och immobiliserat fienden"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Total skada åsamkad av allierade\n{parSecondary_Start}(träffpoäng){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Skada åsamkad fienden"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Räknas:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Skada från granat"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Skada från ramning"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Skada genom brand"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Skada från fall åsamkat av dig."
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Total skada {parSecondary_Start}(enheter){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Förstörda fiender"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Räknas:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Förstörd av en granat"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Förstörd av brand"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Förstörd av rammning"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Förstörd genom drunkning"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Förstörd av fall åsamkat av dig"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Förstörd av vältning."
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Slutförda uppdrag"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Antalet slutförda uppdrag och alla tillgängliga uppdrag just nu.\nUppdrag slutförda med strikt svårighetsgrad\nslutför även automatiskt uppdraget med\nnormal svårighetsgrad."
+
+msgid "tooltips/difficulty/available"
+msgstr "Tillgänglig"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Fiendens reaktionsförmåga och träffsäkerhet har ökats och de anfaller mer aggressivt. Som kompensation får du extra uppdragsbelöningar för slutförandet."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "När du slutför uppdrag med svårighetsgrad {whiteSpanish_Open}Strikt{whiteSpanish_Close} slutför du dem samtidigt även med {whiteSpanish_Open}Normal{whiteSpanish_Close} svårighetsgrad. Du får belöningarna för båda svårighetsgraderna."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Extra uppdragsvillkor"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Strikt"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Visa vad du kan i stridsläget genom att slutföra operationen med Normal svårighetsgrad för att låsa upp Strikt svårighetsgrad."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Låst"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Motståndarna är långsammare och inte lika träffsäkra. När du slutför uppdraget får du standardbelöningar."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Normal"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Vald"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "En mer utmanande version av momentet Minfält – vågar du ta dig an den här dödliga labyrinten?\nGer bättre belöningar."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Minfält, Strikt"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Identifiera det den okända fienden, stoppa robotavskjutningen och se till att den nya teknologin faller i rätta händer."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operation Kokpunkt"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "LÄGE"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "- Stridsläge. Klicka för att utforska"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Spela själv och kämpa mot AI-styrda motståndare i den här episka berättelsen med hjältar från Sektion 3!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Evenemanget är tillgängligt i {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "BERÄTTELSER"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "LÄGE"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "- Stridsläge. Klicka för att utforska"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Speciella skriptade scenarion. Rulla ut i ett pansaräventyr och visa vad du går för i strid mot AI-styrda fiender."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Berättelser"
+
+msgid "tooltips/task/active"
+msgstr "Aktivt"
+
+msgid "tooltips/task/completed"
+msgstr "Slutfört"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Okända villkor"
+
+msgid "tooltips/task/locked"
+msgstr "Låst: %(timer)s"

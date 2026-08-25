@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Vaihe {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Erikoisluku"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Suoritettu"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Näytä uusi edistyminen"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Valitse luku"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Väliakaisesti pois käytöstä"
+
+msgid "battle_pass_widget/title"
+msgstr "Taistelupassi"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Tulikoe: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} – {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} p"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} p {{hours}} t"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} t"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} t {{minutes}} min"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} min"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Bonustehtävä\nSuorita avataksesi kolme tavallista tehtävää"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Aikaa jäljellä bonustehtävän suorittamiseen"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Uusien päivittäisten tehtävien saapumiseen"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Siinä kaikki tällä erää. Uudet päivittäiset tehtävät tulevat tarjolle pian."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Suorita edellinen tehtävä avataksesi tämä"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Premium-tehtävät eivät väliaikaisesti ole saatavilla"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Osta premium-tiliä"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Vaatii WoT Premium-tilin"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Premium-tehtävät"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Päivittäiset tehtävät eivät väliaikaisesti ole saatavilla"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Arvo uusiksi"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "PÄIVITTÄISET"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Kampanjoihin"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Paranna tulosta"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Operaatioon"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Todellinen haaste kokeneille taistelijoille, joka tarjoaa palkinnoksi ainutlaatuisia vaunuja."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Olet suorittanut \"{{currentOperationName}}\" operaation! Voit jatkaa tuloksiesi parantamista suorittaaksesi sen ansiokkaasti tai ryhtyä uuteen haasteeseen \"{{nextOperationName}}\" operaatiossa."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Voit yhä parantaa tulostasi \"{{nextOperationName}}\" operaatiossa."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Olet suorittanut \"{{currentOperationName}}\" operaation ansiokkaasti. \"{{nextOperationName}}\" operaatio on nyt saatavilla."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Kampanjapisteitä voi ansaita suorittamalla henkilökohtaisia, päivittäisiä ja viikoittaisia tehtäviä."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Suorita kaikki {{totalProgress}} tehtävää suorittaaksesi operaation ansiokkaasti ja ansaitaksesi lisäpalkintoja."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Asenna kaikki osat saadaksesi palkintosi – {{vehicleName}} vaunun. Kerätäksesi vaunun osia sinun tulee ansaita kampanjapisteitä suorittamalla henkilökohtaisia tehtäviä sekä päivittäisiä ja viikoittaisia tehtäviä."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Asenna kaikki osat saadaksesi palkintosi – {{vehicleName}} vaunun. Kerätäksesi vaunun osia sinun tulee ansaita kampanjapisteitä suorittamalla henkilökohtaisia tehtäviä sekä päivittäisiä ja viikoittaisia tehtäviä."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Tehtäviä suoritettu: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Uusi \"Sektori 3\" kampanja on saatavilla!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operaatio: \"{{nextOperationName}}\" saatavilla!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operaatio: \"{{currentOperationName}}\" suoritettu ansiokkaasti!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operaatio: \"{{nextOperationName}}\" saatavilla!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operaatio: \"{{currentOperationName}}\" | Vaihe {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Suoritetaan \"{{currentOperationName}}\" operaatiota ansiokkaasti"
+
+msgid "hub/basic_missions/title"
+msgstr "TAVALLISET TEHTÄVÄT"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "VIIKOTTAINEN"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Päivittyy joka {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktiivinen tehtävä"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "TAI"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Uusia tehtäviä tulossa pian..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "TAISTELIJA"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ÄSSÄ"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELIITTI"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Tehtäviä on kolmesta kategoriasta: taistelija, eliitti ja ässä. Kukin kategoria tuo ainutlaatuisia haasteita ja arvokkaita palkintoja."
+
+msgid "hub/challenge_missions/header"
+msgstr "TULIKOE"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Aktivoi"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Aloita uudelleen ilmaiseksi"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Aloita uudelleen"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Hylkää"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Tehtäviin"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Tulikokeen tehtävää suoritettu"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "kilpeä jäljellä"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "ilmaista uudelleen aloitusta"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Suorita aktiiviset Tulikokeen tehtävät"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Päättymiseen %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Ei saatavilla: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Vaaditaan tason VI tai sitä suuremman tason vaunu"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTIIVINEN"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Suoritettu"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} tehtävää"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Haastetehtävä"
+
+msgid "hub/challenge_missions/new"
+msgstr "UUSI"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Tulikokeeseen"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Tulikokeeseen"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "TULIKOE: {{ challengeName }} SUORITETTU!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Tulikokeeseen"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Tulikoetta: {{ challenge }} ei suoritettu. Aloita se uudelleen ja hae taas palkintoja!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Tulikokeeseen"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "TEHTÄVÄ {{ mission }} SUORITETTU!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Tulikokeeseen"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Tehtävä {{ mission }} epäonnistui"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "KILPEÄ JÄLJELLÄ"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Tulikokeeseen"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Lähde Tulikokeeseen ja ryhdy suorittamaan joukkoa vaativia tehtäviä, joiden suorittajat saavat arvokkaita palkintoja."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "UUSIA TULIKOKEEN TEHTÄVIÄ SAATAVILLA!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Raivaa tiesi kunniaan Tulikokeessa: ryhdy suorittamaan joukkoa vaativia tehtäviä, joiden suorittajat saavat arvokkaita palkintoja."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "LÄHDE TULIKOKEESEEN"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Suoritettu"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Kolmiulotteisten lisävarusteiden lajitelma"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Paranneltu varuste"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "x{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "Kaksiulotteinen tyyli"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Miehistön jäsen"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Vaunu"
+
+msgid "hub/challenge_missions/title"
+msgstr "TULIKOKEEN TEHTÄVÄT"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Tulikokeesta"
+
+msgid "hub/common_missions/title"
+msgstr "LISÄTEHTÄVÄT"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Ota vastaan palkinnot"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Eeppinen palkinto ei ole väliaikaisesti saatavilla"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Jokainen suoritettu tavallinen, premium- tai bonustehtävä lasketaan edistymiseesi."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Saatavilla"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Suorita päivittäisiä tehtäviä ansaitaksesi eeppisiä palkintoja"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Ota vastaan palkinto"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Ota vastaan palkinnot"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Jokainen suoritettu tavallinen, premium- tai bonustehtävä lasketaan edistymiseesi."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Saatavilla"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Taas täällä! Suorita päivittäisiä tehtäviä eeppiin palkintoihin: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Suoritettuasi kolme tavallista tehtävää saataville tulee vielä arvokkaampia palkintoja tarjoava bonustehtävä. Bonustehtävä pitää suorittaa päivään loppuun mennessä tai se vanhenee."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Bonustehtävä"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Jotkut tehtävät tulee suorittaa yhdessä taistelussa, kun toiset ovat kertyviä ja ne voidaan suorittaa minkä hyvänsä taistelumäärän kuluessa. Kertyvillä tehtävillä on etenemispalkki. Voit suorittaa tehtäviä satunnaistaisteluissa."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Ehdot"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Voit arpoa uusiksi tavallisen tehtävät, jota et halua, saadaksesi uuden. Sen jälkeen uusiksi arpominen ei ole mahdollista {{time}} ajan. Tehtävän uudelleen arpominen voi aiheuttaa edistymisen menettämistä, jos yksi tai useampi vaunuistasi on taistelussa."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Tehtävän uudelleen arpominen"
+
+msgid "info_page/additional/reward/description"
+msgstr "Eeppinen palkinto on maratonin kaltainen sykli, jossa jokainen suoritettu tavallinen, premium- ja bonustehtävä edistävät sitä. Kun sykli on valmis, se alkaa taas alusta. Eeppisen palkinnon syklillä ei ole aikarajaa ja sen voi suorittaa koska vain."
+
+msgid "info_page/additional/reward/title"
+msgstr "Eeppinen palkinto"
+
+msgid "info_page/header"
+msgstr "TEHTÄVISTÄ"
+
+msgid "info_page/main/premium/description"
+msgstr "WoT Premium-tilillä saat pääsyn kolmeen peräkkäiseen premium-tehtävään. Nämä voi suorittaa satunnaistaisteluissa ja Rynnistyksessä ja niissä edistyminen päivittyy kunkin taistelun jälkeen. Pelitapahtumien aikana premium-tehtävät tarjoavat tapahtumiin liittyviä palkintoja."
+
+msgid "info_page/main/premium/title"
+msgstr "Premium-tehtävät"
+
+msgid "info_page/main/standard/description"
+msgstr "Tavalliset tehtävät ovat satunnaisia päivittäisiä ehtoja, joissa edistyminen päivitetään kunkin taistelun jälkeen. Suosittelemme niiden suorittamista päivänä, jona saat ne, sillä keskeneräiset tehtävät jatkuvat seuraavana päivänä, etkä saa sen tilalle uutta. Tavalliset tehtävät tarjoavat Taistelupassin pisteitä Taistelupassin aikana ja tapahtumiin liittyviä palkintoja muiden tapahtumien aikana."
+
+msgid "info_page/main/standard/title"
+msgstr "Tavalliset tehtävät"
+
+msgid "info_page/main/weekly/description"
+msgstr "Viikoittaiset tehtävät ovat lajitelma tehtäviä, jotka ovat saatavilla joka viikko. Edistyminen päivitetään kunkin taistelun jälkeen ja suoritetut tehtävät korvataan uusilla, kun seuraavan viikon sykli alkaa. Voit suorittaa viikoittaisia tehtäviä satunnaistaisteluissa ja Rynnistyksessä saadaksesi lisäbonuksia."
+
+msgid "info_page/main/weekly/title"
+msgstr "Viikoittaiset tehtävät"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Kaikki tämän päivän tavalliset tehtävät suoritettu"
+
+msgid "quests/daily_quests/completed"
+msgstr "Kaikki päivittäiset tehtävät suoritettu"
+
+msgid "tooltip/common/timer"
+msgstr "Saataville tuloon {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Kaikki tavalliset tehtävät suoritettu! Voit löytää lisää \"Lisätehtävät\" -välilehdeltä."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Bonustehtävä"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Suoritettu"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Päivittäinen tehtävä"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Vanhenemiseen: {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Uusien päivittäisten tehtävien saapumiseen: {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Premium-tehtävä"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Palkinnot:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Voit arpoa tehtävän, jota et halua \nuudeksi aina {time} tunnin välein."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Tehtävän uudelleen arpominen"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Tehtävä suoritettu, palkinto saatu."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Suorita edeltävä tehtävä avataksesi tämän. Kaikki sarjassa olevat tehtävät tulee suorittaa järjestyksessä."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Klikkaa saadaksesi lisätietoa"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Tehtävistä"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Tämän tehtäväsarjan voi pelata suorittamisen jälkeen uudestaan. Edistymisesi nollautuu, kilvet palautetaan ja voit ansaita palkinnot uudestaan."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Pelaa tehtävät uudelleen"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Voit aloittaa tehtäväsarjan alusta menetettyäsi kaikki kilpesi. Edistymisesi nollautuu, kilvet palautetaan ja voit ansaita palkinnot uudestaan."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Seuraavan uudelleen aloittamisen hinta: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Ilmaisia uudelleen aloittamisia saatavilla: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Kunkin uudelleen aloittamisen hinta: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Uudelleen aloittamiset"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Kilvet suojaavat edistymistäsi. Kukin epäonnistunut tehtävä maksaa yhden kilven ja, kun kaikki kilvet on menetetty, tehtäväsarja epäonnistuu. Jos aloitat sen uudestaan, kilpesi palautetaan."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Kilvet"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Vaunurajoitukset:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Viikottainen tehtävä"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Voit arpoa tämän viikottaisen tehtävän uusiksi aina{{time}} välein."
+
+msgid "welcome/button"
+msgstr "Selvä!"

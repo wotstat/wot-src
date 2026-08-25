@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Et sett med parametere som viser den generelle effektiviteten ved å skyte på fienden."
+
+msgid "domain/accuracy/name"
+msgstr "Skuddeffektivitet"
+
+msgid "domain/armorPiercing/description"
+msgstr "Et sett med parametere som viser kjøretøys evne til å penetrere fiendtlig pansring."
+
+msgid "domain/armorPiercing/name"
+msgstr "Penetrasjon"
+
+msgid "domain/battleParams/description"
+msgstr "Et sett med parametere som viser kjernemekanikkene i spillet."
+
+msgid "domain/battleParams/name"
+msgstr "Kamp parametere"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Modus-spesifikke modifikatorer som endrer parameterne til kjøretøyet."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Onslaught Light modifikatorer"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Modus-spesifikke modifikatorer som endrer parameterne til kjøretøyet."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Onslaught modifikatorer"
+
+msgid "domain/concealment/description"
+msgstr "Et sett med parametere som viser kjøretøys evne til å forbli uoppdaget."
+
+msgid "domain/concealment/name"
+msgstr "Kamuflasje"
+
+msgid "domain/damageDealing/description"
+msgstr "Et sett med parametere som viser kjøretøys evne til å forårsake skade."
+
+msgid "domain/damageDealing/name"
+msgstr "Forårsake skade"
+
+msgid "domain/mobility/description"
+msgstr "Et sett parametere som viser farten og de dynamiske karakteristika for ditt kjøretøy."
+
+msgid "domain/mobility/name"
+msgstr "Manøvrerbarhet og dynamikk"
+
+msgid "domain/randomization/description"
+msgstr "Et sett med parametere som viser størrelse på potensiell skade og penetrasjon."
+
+msgid "domain/randomization/name"
+msgstr "Tilfeldige verdier"
+
+msgid "domain/sustaining/description"
+msgstr "Et sett med parametere som viser reparasjonen av skadde moduler og helbredelsen av skadd besetning."
+
+msgid "domain/sustaining/name"
+msgstr "Reparerbarhet"
+
+msgid "domain/visibility/description"
+msgstr "Et sett med parametere som viser et kjøretøys evne til å oppdage fiender."
+
+msgid "domain/visibility/name"
+msgstr "Synsrekkevidde"
+
+msgid "domain/vitality/description"
+msgstr "Et sett parametere som viser ditt kjøretøys evne til å overleve i kamp."
+
+msgid "domain/vitality/name"
+msgstr "Motstandsdyktighet"
+
+msgid "modifier/name/aimingTime"
+msgstr "Siktetid"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Motstandsdyktighet for ammunisjonsstativ"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Ladetid for kjøretøy med autoladere"
+
+msgid "modifier/name/battleLength"
+msgstr "Kamptid"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Største reversfart"
+
+msgid "modifier/name/burstInterval"
+msgstr "Tiden det tar å lade granater i magasinet"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Motstandsdyktighet for understell"
+
+msgid "modifier/name/clipInterval"
+msgstr "Tiden det tar å lade mellom skudd i magasinet"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Rekkevidde på potensiell skade"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Skade på indre modul"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Spredning etter avfyrt skudd"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Spredning i bevegelse"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Spredning under skrogdreining"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Spredning ved tårndreining"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Spredning med delvis ødelagt kanon"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Sjanse for motorbrann"
+
+msgid "modifier/name/engineHealth"
+msgstr "Motstandsdyktighet for motor"
+
+msgid "modifier/name/enginePower"
+msgstr "Motorkraft"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Skade på oppheng ved sammenstøt"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Skade på skrog ved sammenstøt"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Skade på andre moduler ved sammenstøt"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Besetningsskader ved sammenstøt"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Nedkjølingstiden på forbruksmateriell"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Motstandsdyktighet for drivstofftank"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Høyeste fart fremover"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Kjøretøyets gravitasjonsfaktor"
+
+msgid "modifier/name/gunHealth"
+msgstr "Motstandsdyktighet for kanon"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Dreiningsfart på kanon i en stasjonær kabin"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Skjuleevne under bevegelse"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Skjuleevnen for et stasjonært kjøretøy"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Granatnormalisering"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Rekkevidde for potensiell penetrasjon"
+
+msgid "modifier/name/radioDistance"
+msgstr "Signalrekkevidde"
+
+msgid "modifier/name/reloadTime"
+msgstr "Ladetid"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Reparasjonshastighet"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Vinkel på granatrikosjett. Jo skarpere vinkel, og større er sjansen for rikosjetter"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Skrogets dreiningshastighet"
+
+msgid "modifier/name/shellGravity"
+msgstr "Gravitasjonsfaktor på granat"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Granathastighet"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Spredning ved 100 m"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Motstandsdyktighet for observasjonutstyr"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Skade fra trykket fra en tårn som sprenges av"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Skade fra et tårn som sprenges av"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Tårnets dreiehastighet"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Motstandsdyktighet for tårndreiningsmekanisme"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Kanonlading i modusen for salveskudd"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Opptegningsavstand"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Kjøretøyets helse"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Skade fra trykkbølge"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Skade fra kollisjon"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Oppdagelsesradius"
+
+msgid "modifier/name/visionRadius"
+msgstr "Synsrekkevidde"
+
+msgid "modifier/name/visionTime"
+msgstr "Tiden du er synlig"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Skade forårsaket av skudd og kollisjoner"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "Ressurser brukt og tjent i moduskamper"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "ikke&nbsp;mer enn&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "ikke&nbsp;mindre enn&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(men {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(men {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Modifikatorene påvirker følgende parametere:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "Modifikatorene påvirker følgende parameter:"

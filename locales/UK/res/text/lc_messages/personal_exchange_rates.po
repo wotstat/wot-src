@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Обмежений курс"
+msgstr[1] "Обмежений курс %(index)s"
+msgstr[2] "Обмежений курс %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Перевищено щонайменше один ліміт. Частина вартості купівлі буде здійснена за наступним курсом."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Базовий курс обміну"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Наступний курс обміну"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Кількість активних обмежених курсів: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Загальна кількість валюти для обміну за обмеженим курсом: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Після обміну:"
+
+msgid "common/cancel"
+msgstr "Скасувати"
+
+msgid "common/combinedDiscount"
+msgstr "Комбінована знижка"
+
+msgid "common/exchange"
+msgstr "Обміняти"
+
+msgid "common/exchangeRate"
+msgstr "Курс обміну"
+
+msgid "common/limitExceeded"
+msgstr "Ліміт перевищено. Обмін буде здійснено із застосуванням комбінованої знижки."
+
+msgid "common/limitOverExceeded"
+msgstr "Ліміт перевищено. Буде застосована комбінована знижка."
+
+msgid "common/limitRestrictions"
+msgstr "ДОКЛАДНІШЕ"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Базовий курс обміну: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Загальний курс обміну: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "Здійснено обмін %(gold)s золота. Отримано кредитів: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Індивідуальний курс обміну: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Індивідуальний курс обміну: %(rateFrom)s = %(rateTo)s. Ліміт перевищено"
+
+msgid "exchangeXP/information"
+msgstr "Здійснено обмін %(res)s досвіду на вільний. Витрачено золота: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Доступно досвіду:"
+
+msgid "experienceExchange/paid"
+msgstr "Витрачено"
+
+msgid "experienceExchange/received"
+msgstr "Отримано"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Упорядкувати за рівнем техніки"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Упорядкувати за рівнем Польової модернізації"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Упорядкувати за назвою машин"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Упорядкувати за нацією"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Упорядкувати за типом техніки"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Упорядкувати за вибраною технікою"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Упорядкувати за кількістю здобутого досвіду"
+
+msgid "goldExchange/paid"
+msgstr "З"
+
+msgid "goldExchange/received"
+msgstr "У"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s золота = %(resourceRate)s кредитів"
+
+msgid "notification/discountDescription/message"
+msgstr "Індивідуальний курс обміну"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "До обміну"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Доступний новий курс обміну!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Базовий курс обміну"
+
+msgid "tooltip/common/generalRate"
+msgstr "Загальний курс обміну"
+
+msgid "tooltip/common/personalRate"
+msgstr "Індивідуальний курс обміну"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Вигідний курс обміну"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Тимчасовий курс обміну"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Актуальну кількість золота буде показано лише після того, як докупите його."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Золото після конвертації"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s золота = %(resourceRate)s од. вільного досвіду"

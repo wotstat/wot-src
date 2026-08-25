@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktivál"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Vásárlás és aktiválás"
+
+msgid "activation/activateBonus"
+msgstr "Tartalék aktiválása: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Tartalék aktiválása"
+
+msgid "activation/activateButtonClan"
+msgstr "Az erődítményhez"
+
+msgid "activation/battleXPDescription"
+msgstr "Bónusz a harci XP-hez 1 órán át"
+
+msgid "activation/battleXPTitle"
+msgstr "Harci XP"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Megvásárolod és aktiválod a fejlesztett személyes tartalékot, amely a következőt biztosítja: %(boosterBonus)s ehhez: %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Arany vásárlása"
+
+msgid "activation/buyGoldTitle"
+msgstr "Megvásárolod a szükséges aranyat a fejlesztett személyes tartalékhoz, amely a következőt biztosítja: %(boosterBonus)s ehhez: %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}A fejlesztett személyes tartalék megvásárlásához szükséges arany:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Kredit és harci XP"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Legénységi XP és szabad XP"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Klán tartalékok"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Tartalék aktiválása az erődítményben"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Megtekintés az erődítményben"
+
+msgid "activation/comboXPDescription"
+msgstr "Bónusz a szabad és legénységi XP-hez 1 órán át"
+
+msgid "activation/comboXPTitle"
+msgstr "Kombó XP"
+
+msgid "activation/creditsDescription"
+msgstr "Bónusz a kredithez 1 órán át"
+
+msgid "activation/creditsTitle"
+msgstr "Kredit"
+
+msgid "activation/footer"
+msgstr "Aktiváld a lejáró tartalékokat: %(expirableAmount), ennyi időn belül: %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bónusz a Frontvonal XP-hez 1 órán át"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Frontvonal XP"
+
+msgid "activation/informationButton"
+msgstr "INFORMÁCIÓ"
+
+msgid "activation/price"
+msgstr "Ár:"
+
+msgid "activation/subFooter/depot"
+msgstr "Depó"
+
+msgid "activation/subFooter/main"
+msgstr "A lejárathoz legközelebb álló tartalékokat aktiváljuk először. Az elérhető összes tartalékodat megtalálod itt: %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktiválj {whiteSpanish_Open}akár 3 személyes tartalékot{whiteSpanish_Close}, hogy több kreditet és tapasztalatot szerezz a csatákban. Vásárolj további személyes tartalékokat a %(store)sban."
+
+msgid "activation/subTitle/store"
+msgstr "Bolt"
+
+msgid "activation/terms/booster_credits"
+msgstr "kredit"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Frontvonal XP"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Szabad- és legénységi XP"
+
+msgid "activation/terms/booster_xp"
+msgstr "Harci XP"
+
+msgid "activation/title"
+msgstr "SZEMÉLYES TARTALÉKOK"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Az aktivált normál személyes tartalék, amely a következőket biztosítja, el fog veszni: %(previousBoosterBonus)s ehhez: %(previousBoosterTerm)s.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Szeretnéd az aktivált normál személyes tartalék helyett aktiválni a fejlesztett személyes tartalékot, amely a következőket biztosítja: %(boosterBonus)s ehhez: %(boosterTerm)s?"
+
+msgid "battleView/notice"
+msgstr "A személyes tartalékok bármikor aktiválhatók a csatában. A bónuszt akkor is megkapod, ha a tartalék a csata során lejár."
+
+msgid "battleView/title"
+msgstr "Személyes tartalékok aktiválása"
+
+msgid "depot/buyButton"
+msgstr "A vásárláshoz"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Már aktív egy másik tartalék ebből a típusból."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Ez a személyes tartalék a csata során lejárt. A személyes tartalékból származó bónusz erre a csatára még érvényes."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)perc"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Az aktivált személyes tartalékok nem érvényesek ebben a módban."
+
+msgid "intro/buttons/close"
+msgstr "Értettem!"
+
+msgid "intro/buttons/details"
+msgstr "Részletek"
+
+msgid "intro/description"
+msgstr "A lejáró személyes tartalékok a megszerzésük után korlátozott ideig használhatók fel. Ha ez idő alatt nem aktiválod őket, elvesznek. A korlátlan idejű személyes tartalékokat nem használhatod fel addig, amíg van lejáró tartalékod ugyanabból a típusból."
+
+msgid "intro/title"
+msgstr "LEJÁRÓ SZEMÉLYES TARTALÉKOK"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Nincs ilyen típusú személyes tartalék a depóban. Később megvásárolhatod és aktiválhatod őket a garázsban."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Teljesíts küldetéseket és vegyél részt játékeseményeken, hogy személyes tartalékokat szerezz."
+
+msgid "noReserveTooltip/text"
+msgstr "Nincs ilyen típusú személyes tartalék a depóban."

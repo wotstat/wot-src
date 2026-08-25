@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Režim bitvy:"
+
+msgid "profile/dropdown/existence"
+msgstr "K dispozici:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Náhodné, roty"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Ocelový lovec, sólo"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Ocelový lovec, v četě"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Globální mapa"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Nápor"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Rok Gryfa"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Rok Mantikory"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Rok Pegase"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "Sezóna azurového Draka"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Sezóna karmínového Draka"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Sezóna nefritového Draka"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Velká bitva"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Běsnění"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Opevnění: Bitvy"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Ofenzíva"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Šarvátky"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Historická"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Náhodná bitva"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Hodnocená bitva 15 proti 15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Hodnocená bitva"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Týmová bitva: hodnocená"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Tým: Hodnocené bitvy"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Týmová bitva"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Ocenění získaná v kategorii Bojiště"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Ocenění"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Poměr poškození zastaveného pancířem od granátů typu AP, HEAT a APCR, které neprostřelily, nebo se odrazily a obdrženého poškození od těchto typů granátů. Potenciální poškození od granátů typu HE a HESH se nepočítá.\n• Průměrné poškození od těchto typů granátů, zastavené pancířem: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Účinnost využití pancíře"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Celkové množství poškození způsobeného ochromeným nepřátelským vozidlům"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Poškození nepřátelských vozidel ochromených hráčem"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Celkové množství poškození způsobeného ochromeným nepřátelským vozidlům"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Poškození nepřátelských vozidel, která jste ochromili"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Zahrnuto je:\n• Poškození způsobené díky vašemu odhalování\n• Poškození způsobené vámi znehybněnému nepřátelskému vozidlu po zničení pásu."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Průměrné poškození způsobené díky vaší asistenci"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Zahrnuto je:\n• Poškození způsobené díky hráčovu odhalování\n• Poškození způsobené vámi znehybněnému nepřátelskému vozidlu po zničení pásu."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Poškození způsobené s hráčovou asistencí"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Zahrnuto je:\n• Poškození způsobené díky vašemu odhalování\n• Poškození způsobené vámi znehybněnému nepřátelskému vozidlu po zničení pásu."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Zahrnuje: \n• Poškození díky vašemu odhalování (včetně poškození pomocí schopností)\n• Poškození díky vašemu ničení pásu a znehybnění nepřátelského vozidla (včetně poškození pomocí schopností)\n• Poškození způsobené spojenci pomocí vašich schopností."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Poškození způsobené s vaší asistencí"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Průměrné poškození způsobené s vaší asistencí"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "Poměr celkového poškození ochromeného nepřítele (včetně ochromení pomocí schopností) a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Poškození nepřátelských vozidel ochromených hráčem"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "Poměr celkového poškození ochromeného nepřítele (včetně ochromení pomocí schopností) a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Poškození vámi ochromených nepřátel"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Poměr celkového poškození způsobeného ochromeným nepřátelským vozidlům a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Poškození nepřátelských vozidel ochromených hráčem"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Poměr celkového poškození způsobeného ochromeným nepřátelským vozidlům a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Poškození nepřátelských vozidel, která jste ochromili"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Poměr celkového způsobeného poškození a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Průměrné poškození za bitvu"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Poměr celkového počtu zničených nepřátelských vozidel a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "Poměr celkového počtu zničených nepřátelských vozidel (včetně vozidel zničených pomocí schopností) a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Zničená nepřátelská vozidla"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Nepřátelských vozidel zničeno"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Poměr celkového počtu detekovaných nepřátelských vozidel a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "Poměr celkového počtu odhalených nepřátelských vozidel (včetně vozidel odhalených pomocí schopností) a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Nepřátelských vozidel odhaleno"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Nepřátelských vozidel detekováno"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Poměr celkového způsobeného poškození a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Poškození"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Poměr celkem získaných zkušeností a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Zkušenosti"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Poměr celkem získaných zkušeností a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "Průměrně zkušeností za bitvu"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "Poměr celkového počtu obnovených bodů výdrže a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "Bodů výdrže obnoveno"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "Poměr počtu obsazených bodů zájmu a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Obsazené body zájmu"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "Poměr celkového počtu získaných bodů prestiže a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Průměrný počet bodů prestiže za bitvu"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Poměr celkového obdrženého poškození a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Obdržené poškození"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "Poměr celkového počtu použitých úlohových schopností a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Použité úlohové schopnosti"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Poměr celkového počtu zásahů, které ochromily nepřátelskou posádku, a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "Poměr celkového počtu zásahů (včetně zásahů pomocí schopností) s ochromením nepřátelské posádky a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Počet ochromení"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Počet ochromení"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Poměr celkového počtu získaných vítězných bodů a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Průměrný počet vítězných bodů"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Celkový počet odehraných bitev. To zahrnuje\n• Vítězství: %(value_0)s\n• Porážky: %(value_1)s\n• Remízy: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Bitev"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "Poměr součtu všech dosažených úrovní a počtu odehraných bitev."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Průměrná úroveň"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "Poměr součtu všech umístění ve výsledcích bitvy a počtu odehraných bitev."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Průměrné umístění"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "Poměr celkového způsobeného poškození a počtu odehraných bitev."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Způsobené poškození"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Celkový počet odehraných bitev."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Bitvy"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Maximální poškození způsobené nepřátelským vozidlům v bitvě.\nRekord dosažen s %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Maximální poškození za bitvu"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "Maximální počet zkušeností získaných za bitvu s prémiovým účtem WoT.\nRekord dosažen s %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Maximum zkušeností za bitvu"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Maximální počet nepřátelských vozidel, která jste osobně zničili v bitvě.\nRekord dosažen s %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Maximum zničených v bitvě"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Celkový počet vítězství."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Vítězství"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Počet získaných bodů za obsazování nepřátelské základny"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Bodů za obsazování základny"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "Poměr „způsobeného poškození“ a „obdrženého poškození“ pro všechny úrovně bitvy, bereme-li v úvahu, že:\n• Způsobené poškození: %(value_0)s\n• Obdržené poškození: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Průměrný poměr poškození"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "Poměr „způsobeného poškození\" a „obdrženého poškození\". Tedy:\n• Způsobené poškození: %(value_0)s\n• Obdržené poškození: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Poměr poškození"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Poměr zničených nepřátelských vozidel a počtu zničení hráčova vozidla. Tedy:\n• Nepřátelských vozidel zničeno: %(value_0)s\n• Hráčovo vozidlo zničeno: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Poměr zničení"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Poměr poškození zastaveného pancířem od granátů typu AP, HEAT a APCR, které neprostřelily, nebo se odrazily a obdrženého poškození od těchto typů granátů. Poškození z bojových záloh a granátů typu HE a HESH se nepočítá.\n• Průměrné poškození od těchto typů granátů, zastavené pancířem: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Účinnost využití pancíře"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Poměr celkem způsobeného poškození (včetně poškození pomocí bojových záloh) a počtu odehraných bitev."
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Průměrné poškození za bitvu"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Poměr celkového počtu zničených nepřátelských vozidel (včetně vozidel zničených pomocí bojových záloh) a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Nepřátelských vozidel zničeno"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Poměr celkového počtu zničených nepřátelských vozidel (vyjma vozidel zničených pomocí bojových záloh) a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Nepřátelských vozidel zničeno"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Poměr celkem způsobeného poškození (včetně poškození pomocí bojových záloh) a počtu odehraných bitev."
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Způsobené poškození"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Poměr celkem způsobeného poškození (vyjma poškození pomocí bojových záloh) a počtu odehraných bitev."
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Způsobené poškození"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Poměr celkem obdrženého poškození (včetně poškození pomocí bojových záloh) a počtu odehraných bitev"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Obdržené poškození"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Celkový počet odehraných bitev. To zahrnuje: \n• Vítězství: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Bitvy"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "Poměr „způsobeného poškození“ a „obdrženého poškození“ (včetně poškození pomocí bojových záloh). Tedy: \n• Poškození způsobené vašimi vozidly: %(value_0)s\n• Poškození způsobené bojovými zálohami: %(value_2)s\n• Poškození obdržené od nepřátelských vozidel a bojových záloh: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Poměr poškození"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "Poměr „způsobeného poškození“ a „obdrženého poškození“ (včetně poškození pomocí bojových záloh). Tedy:\n• Způsobené poškození: %(value_0)s\n• Obdržené poškození: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Poměr poškození"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Poměr zničených nepřátelských vozidel a počtu zničení hráčova vozidla (včetně zničení pomocí bojových záloh). Tedy:\n• Nepřátelská vozidla zničená vašimi vozidly: %(value_0)s\n• Nepřátelská vozidla zničená vašimi bojovými zálohami: %(value_2)s\n• Hráčova vozidla zničená nepřátelskými vozidly a bojovými zálohami: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Poměr zničení"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Poměr zničených nepřátelských vozidel a počtu zničení hráčova vozidla (vyjma zničení pomocí bojových záloh). Tedy:\n• Nepřátelských vozidel zničeno: %(value_0)s\n• Hráčových vozidel zničeno: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Poměr zničení"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Přesnost palby na nepřátelská vozidla (vyjma palby pomocí bojových záloh)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Zásahů"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Dosažený rekord zahrnuje bojové zálohy."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Nejvíce poškození v bitvě"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Dosažený rekord nezahrnuje bojově zálohy."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Nejvíce poškození v bitvě"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Dosažený rekord zahrnuje bojové zálohy."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Nejvíce vozidel zničených za bitvu"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Dosažený rekord nezahrnuje bojově zálohy."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Nejvíce vozidel zničených za bitvu"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Celkový počet vítězství"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Vítězství"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Počet bodů získaných za obranu spojenecké základny"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Bodů za obranu základny"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Celkový počet zničených vlajek"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Vlajek zničeno"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Počet vlajek doručených do vaší základny"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Vlajek doručeno"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Celkem ofenzív. To zahrnuje:\n• Vítězství: %(value_0)s\n• Porážky: %(value_1)s\n• Remízy: %(value_2)s."
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Ofenzívy"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Celková míra vítězství v ofenzívách"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Vítězství v ofenzívách"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Celkový počet úspěšně vyrabovaných nepřátelských opevnění"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Rabování"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Poměr celkem získaných průmyslových zdrojů a počtu odehraných šarvátek"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Průměrná kořist za šarvátku"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Celkový počet odehraných šarvátek. To zahrnuje:\n• Vítězství: %(value_0)s\n• Porážky: %(value_1)s\n• Remízy: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Šarvátky"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Celková míra vítězství v šarvátkách"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Vítězství v šarvátkách"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Celkový počet útoků na nepřátelská opevnění.\nPočítá se pouze tehdy, pokud jste během útoku odehráli alespoň jeden souboj."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Útoky"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Celkový počet obranných akcí ve vašem opevnění.\nPočítá se pouze tehdy, pokud jste během Času obrany odehráli alespoň jeden souboj."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Obranné akce"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Celková míra vítězství v ofenzívách"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Vítězství v ofenzívách"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Celková míra vítězství v ofenzívách"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Vítězství v ofenzívách"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Poměr celkem získaných průmyslových zdrojů a počtu odehraných šarvátek"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Průměrné množství kořisti za šarvátku"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Celkové množství průmyslových zdrojů, získaných ve všech šarvátkách"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Celkové množství kořisti, získané ve všech šarvátkách"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Přesnost střelby na nepřátelská vozidla"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Přesnost střelby"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Poměr zničených nepřátelských vozidel a počtu zničení hráčova vozidla (včetně zničení pomocí bojových záloh). Tedy:\n• Nepřátelská vozidla zničená vašimi vozidly: %(value_0)s\n• Nepřátelská vozidla zničená bojovými zálohami: %(value_1)s\n• Hráčova vozidla zničená nepřátelskými vozidly a bojovými zálohami: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Poměr zničení"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Získaná ocenění vzorný tankista: Hrdina ve všech příslušných režimech bitvy / Počet vozidel, která bojovala alespoň v jedné náhodné bitvě"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Vzorný tankista: Hrdina"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "Odznaky vzorného tankisty se v tomto režimu bitvy neudělují."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Vzorný tankista: Hrdina"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Rekord dosažen s %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Maximální poškození za bitvu"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Nejvíce poškození způsobeného nepřátelským vozidlům v bitvě."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Nejvíce poškození"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Rekord dosažen s %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Maximum zničených v bitvě"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Nejvíce nepřátelských vozidel zničených v bitvě."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Nejvíce zničených vozidel"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Maximální poškození způsobené oběma úlohovými a taktickými schopnostmi v jedné bitvě."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Maximální poškození za bitvu způsobené schopnostmi"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "Je započteno poškození způsobené jak úlohovými, tak taktickými schopnostmi.\nRekordu dosaženo s %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Maximální poškození za bitvu způsobené schopnostmi"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Rekord dosažen s %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "Maximum zkušeností za bitvu"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Nejvíce zkušeností získaných v bitvě, včetně prémiového účtu."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Nejvíce zkušeností"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "Maximum zkušeností se v tomto režimu bitvy nezobrazuje."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "Maximum zkušeností za bitvu"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Maximální počet obnovených bodů výdrže vašeho vozidla a spojeneckých vozidel v jedné bitvě."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "Maximální počet obnovených bodů výdrže za bitvu"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Maximální počet obnovených bodů výdrže vašeho vozidla a spojeneckých vozidel v jedné bitvě.\nRekordu dosaženo s %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "Maximální počet obnovených bodů výdrže za bitvu"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Maximální počet získaných bodů prestiže v jedné bitvě."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Maximální počet získaných bodů prestiže za bitvu"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Rekordu dosaženo s %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Maximální počet získaných bodů prestiže za bitvu"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Nejvíce vítězných bodů získaných za bitvu ve všech odehraných bitvách"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Nejvíce vítězných bodů získaných za bitvu"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Nejvíce vítězných bodů získaných za bitvu ve všech odehraných bitvách"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Nejvíce vítězných bodů získaných za bitvu"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "Nejvíce po sobě jdoucích vítězství dosažených při hře sólo a v četě/četě o sedmi hráčích."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Nejvíce po sobě jdoucích vítězství (sólo a v četě/superčetě)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Počet obsazených bodů zájmu"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Obsazené body zájmu"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Průměrný počet nepřátelských vozidel zničených v bitvě"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Průměrný počet zničených vozidel"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Procentní poměr získaných prýmků a celkového počtu bitev odehraných v režimu hodnocených bitev.\n• Celkem prýmků: %(value_0)s\n• Celkem bitev: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Výkony v hodnocených bitvách"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Celkový počet získaných bodů"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Body hodnosti"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Celkový počet zásahů, které ochromily nepřátelskou posádku"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Počet ochromení"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Procento bitev, ve kterých nebylo hráčovo vozidlo zničeno"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Přežito bitev"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Celkový počet různých použitých vozidel"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Použitá vozidla"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Celkový počet ofenzív.\n\nParametr není v současné aktualizaci k dispozici."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Ofenzívy"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Celkové procento vítězství v ofenzívách.\n\nParametr není v současné aktualizaci k dispozici."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Vítězství v ofenzívách"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Žádné bitvy od zavedení parametru"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Údaje jsou nedostupné"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Vozidla, která odehrála minimálně jednu historickou bitvu"
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Používaná vozidla"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Celkový poměr vítězství"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Vítězství"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "1. sezóna, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "2. sezóna, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "3. sezóna, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Archivované údaje"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Všechny Seasons"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Aktuální Season"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Season %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "Maximální počet obnovených bodů výdrže za bitvu"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Profil klanu"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "Datum připojení:"
+
+msgid "profile/summary/clan/post"
+msgstr "Pozice:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Profil týmu"
+
+msgid "profile/summary/club/ladder"
+msgstr "Žebříček:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Ladder %(league)s, Division %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Pozice:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Blížící se ocenění jsou připnuta ke stuze."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Další ocenění"
+
+msgid "profile/summary/noGroups"
+msgstr "Hráč nemá žádné stálé taktické jednotky."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "Hráčova nejvýznamnější ocenění jsou připnuta ke stuze."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Hodnotná ocenění"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Zobrazit katalog úspěchů."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Úspěchy"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Zobrazit ocenění a jejich popis."
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Ocenění"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Zobrazit sbírky"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Sbírky"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Ukázat detaily taktických jednotek, kterých jste členem."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Taktické jednotky"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Podívat se na hodnocení v Síni slávy"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Síň slávy"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "Síň slávy je dočasně nedostupná. Zkuste to prosím později."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Pozor"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Zobrazit bitevní statistiky na vozidlech všech typů."
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Statistiky"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Zobrazit výkon v bitvě."
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Shrnutí"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Zobrazit bitevní statistiky pro každé vozidlo."
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Vozidla"
+
+msgid "profile/title"
+msgstr "Statistiky hráče %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "Rok/sezóna:"
+
+msgid "seasons/dropdown_label"
+msgstr "Sezóna:"
+
+msgid "section/advancedAchievements/title"
+msgstr "Úspěchy"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Všechna"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Získaná"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Nezískaná"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Zapnout filtr pro zobrazení buď všech ocenění, získaných ocenění nebo nezískaných ocenění"
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Třídění ocenění"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Hrdinové bitvy"
+
+msgid "section/awards/labels/epic"
+msgstr "Epické medaile"
+
+msgid "section/awards/labels/group"
+msgstr "Skupinová ocenění"
+
+msgid "section/awards/labels/honorary"
+msgstr "Čestné hodnosti"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Vítězné znaky"
+
+msgid "section/awards/labels/memory"
+msgstr "Pamětní žetony"
+
+msgid "section/awards/labels/special"
+msgstr "Speciální"
+
+msgid "section/awards/labels/stage"
+msgstr "Postupná ocenění"
+
+msgid "section/awards/title"
+msgstr "Ocenění"
+
+msgid "section/collections/title"
+msgstr "Sbírky"
+
+msgid "section/formations/clan/none"
+msgstr "Nejste členem žádného klanu."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "Hráč není členem žádného klanu."
+
+msgid "section/formations/clan/type"
+msgstr "Klan"
+
+msgid "section/formations/fort/battles"
+msgstr "Ofenzívy"
+
+msgid "section/formations/fort/create"
+msgstr "Založit opevnění"
+
+msgid "section/formations/fort/level"
+msgstr "Úroveň opevnění: %s"
+
+msgid "section/formations/fort/link"
+msgstr "Úspěchy opevnění"
+
+msgid "section/formations/fort/none"
+msgstr "Opevnění není založeno"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Hráčův klan nemá opevnění."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Hodnocení lovce zdrojů"
+
+msgid "section/formations/fort/sorties"
+msgstr "Šarvátky"
+
+msgid "section/formations/history/battles"
+msgstr "Bitev jako člen"
+
+msgid "section/formations/history/dates"
+msgstr "Datum vstupu/opuštění"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s – %(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Tým"
+
+msgid "section/formations/history/title"
+msgstr "Záznam hráčova týmu"
+
+msgid "section/formations/joinDate"
+msgstr "Datum vstupu: %s"
+
+msgid "section/formations/rank"
+msgstr "Hráčova pozice: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Season %s (skončila)"
+
+msgid "section/formations/team/find"
+msgstr "Přejít na vyhledávání stálých týmů"
+
+msgid "section/formations/team/league"
+msgstr "Ladder: %(league)s. Division: %(division)s. Místo: %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Nemáte žádné stálé týmy."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "Hráč nemá žádné stálé týmy."
+
+msgid "section/formations/team/season"
+msgstr "Season %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Hodnocené bitvy"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Vítězství v Season"
+
+msgid "section/formations/team/title"
+msgstr "Tým \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "Tým"
+
+msgid "section/formations/title"
+msgstr "Taktické jednotky"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Celkový počet ofenzív. To zahrnuje:\n• Vítězství: %(wins)s\n• Porážky: %(losses)s\n• Remízy: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Ofenzívy"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Úroveň opevnění je rovna úrovni jeho velitelského centra."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Úroveň opevnění"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Klikněte, abyste viděli úspěchy klanového opevnění."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Úspěchy opevnění"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Vaše místo"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Hodnocení lovce zdrojů"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Celkový počet odehraných šarvátek. To zahrnuje:\n• Vítězství: %(wins)s\n• Porážky: %(losses)s\n• Remízy: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Šarvátky"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Klikněte, abyste si prohlédli profil týmu."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Profil týmu"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Celkový počet hodnocených bitev, které jste odehráli jako členové tohoto týmu. To zahrnuje:\n• Vítězství: %(wins)s\n• Porážky: %(losses)s\n• Remízy: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Hodnocené bitvy"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Celková míra vítězství v hodnocených bitvách"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Vítězství"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "ZAVŘÍT"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Přejít na hodnocení"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Hodnocení podle úspěchů\nv náhodných bitvách"
+
+msgid "section/hof/betaBtn"
+msgstr "BETA"
+
+msgid "section/hof/betaTooltip"
+msgstr "Síň slávy a hodnocení World of Tanks\njsou v BETA-testu"
+
+msgid "section/hof/mainDescription"
+msgstr "Prohlédněte si své výkony v bitvách a pozici v hodnocení mezi ostatními hráči za vybraná období."
+
+msgid "section/hof/mainTitle"
+msgstr "Síň slávy"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "Síň slávy je dočasně nedostupná. Zkuste to prosím později."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Pozor"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Ukázat výsledky"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Skrýt výsledky"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "Žádost o skrytí vašich výsledků v hodnocení byla odeslána a bude zpracována během další úpravy výsledků."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Vaše výsledky v hodnocení jsou nyní před ostatními hráči skryty."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "Žádost byla odeslána a bude zpracována během další úpravy pozic v hodnocení. Vaše výsledky v hodnocení se nyní zobrazují ostatním hráčům."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Vaše výsledky v hodnocení se zobrazují všem hráčům, přátelům a členům klanu."
+
+msgid "section/hof/title"
+msgstr "Síň slávy"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Přejít na hodnocení"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Hodnocení podle vozidel\nv náhodných bitvách"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Infografika"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "X. úroveň"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "VI. úroveň"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "VIII. úroveň"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Statistiky"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Podrobnosti o ofenzívách"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Podrobnosti o šarvátkách"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Speciální"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Průměrné skóre za bitvu"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Obecné parametry"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Ofenzívy"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Šarvátky"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Rekordní skóre"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Průmyslové zdroje"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Celkový počet bitev s vozidly této třídy"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Třída vozidla: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Počet bitev s vozidly této úrovně"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Úroveň vozidla: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "V tomto režimu bitvy mohou bojovat pouze vozidla VI - VIII úrovně."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Úroveň vozidla: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "V tomto režimu bitvy mohou bojovat pouze vozidla VIII. - X. úrovně."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Úroveň vozidla: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Počet bitev s vozidly tohoto národa"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Národ vozidla: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Celkový počet bitev s tímto umístěním"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Umístění: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Počet bitev s vozidly tohoto typu"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Typ vozidla: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "Podle třídy"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Podle úrovně"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "Podle národa"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "Podle umístění"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "Podle typu"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Poškození nepřátelských vozidel ochromených hráčem"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Poškození nepřátelských vozidel, která jste ochromili"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Poškození způsobené nepřátelským vozidlům"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Nepřátelských vozidel zničeno"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Nepřátelských vozidel detekováno"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "Bodů výdrže obnoveno"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Obsazené body zájmu"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Body prestiže"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Obdržené poškození"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Použité úlohové schopnosti"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Poměr poškození"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Poškození"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Zničen"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Poměr zničení"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Nepřátel zničeno"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Maximum zničených v bitvě"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Obdržené poškození"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Počet ochromení"
+
+msgid "section/statistics/headerText/all"
+msgstr "Náhodné a roty"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Ocelový lovec"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Ocelový lovec"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Globální mapa"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Nápor"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Velká bitva"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Běsnění"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Opevnění: Bitvy"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Historické bitvy"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Hodnocená bitva"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Hodnocená bitva 15 proti 15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Tým: Hodnocené bitvy"
+
+msgid "section/statistics/headerText/team"
+msgstr "Tým: Nehodnocené bitvy"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Bitev odehráno s vozidly"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Ocenění"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Účinnost využití pancíře"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Průměrné poškození způsobené díky vaší asistenci"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Poškození způsobené s hráčovou asistencí"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Poškození způsobené s vaší asistencí"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Průměrné poškození za bitvu"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "Průměrně zkušeností za bitvu"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Zkušenosti"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Průměrný počet bodů prestiže za bitvu"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Průměrný počet vítězných bodů"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Bodů za obsazování základny"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Průměrný koeficient poškození"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Vzorný tankista: Hrdina"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Bodů za obranu základny"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Vlajek zničeno"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Vlajek doručeno"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Ofenzívy"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Vítězství"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Průměrné množství kořisti za šarvátku"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Šarvátky"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Vítězství v šarvátkách"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Útoky"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Obranné akce"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Vítězství v ofenzívách"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Šarvátky"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Vítězství v ofenzívách"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Průměrné množství kořisti za šarvátku"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Celkové množství kořisti, získané v šarvátkách"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Ofenzívy"
+
+msgid "section/statistics/scores/hits"
+msgstr "Zásahů"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Poměr zničení"
+
+msgid "section/statistics/scores/looting"
+msgstr "Rabování"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Maximální poškození za bitvu"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Maximální poškození za bitvu způsobené schopnostmi"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "Maximum zkušeností za bitvu"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Maximální počet získaných bodů prestiže za bitvu"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Nejvíce vítězných bodů získaných za bitvu"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Nejvíce po sobě jdoucích vítězství (sólo a v četě/superčetě)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Obsazené body zájmu"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Průměrný počet zničených vozidel"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Výkony v hodnocených bitvách"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Body hodnosti"
+
+msgid "section/statistics/scores/survival"
+msgstr "Přežito bitev"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Bitev"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Vozidla"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Vítězství"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Používaná vozidla"
+
+msgid "section/statistics/title"
+msgstr "Statistiky"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Žádná další ocenění"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Žádná hodnotná ocenění"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Další ocenění"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Hodnotná ocenění"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Průměrná úroveň"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Průměrné umístění"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Průměrné poškození za bitvu"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "Průměrně zkušeností za bitvu"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Vzorný tankista: Hrdina"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Způsobené poškození"
+
+msgid "section/summary/scores/hits"
+msgstr "Zásahů"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Maximum zničených v bitvě"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "Maximum zkušeností za bitvu"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Osobní hodnocení"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Bitev"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Vítězství"
+
+msgid "section/summary/title"
+msgstr "Shrnutí"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Žádná ocenění nebyla získána"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "Průměrné\nZk za bitvu"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Mistrovství"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Bitev"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Vítězství"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Název"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Zobrazit vozidla v garáži"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "K dispozici v garáži"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "V garáži nejsou žádná vozidla, která bojovala v náhodných bitvách a bitvách v rotě."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "V garáži nejsou žádná vozidla, která bojovala v režimu „Ocelový lovec“."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "V garáži nejsou žádná vozidla, která bojovala v režimu „Ocelový lovec“."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Nejsou žádná vozidla, která bojovala v režimu „Nápor“."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "V režimu velké bitvy nebojovala žádná vozidla v garáži"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "Žádná vozidla ve vaší garáži nebojovala v režimu „Běsnění“"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "V garáži nejsou žádná vozidla, která bojovala v ofenzívách"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "V garáži nejsou žádná vozidla, která se zapojila do šarvátek"
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "V garáži nejsou žádná vozidla, která bojovala na globální mapě."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "V garáži nejsou žádná vozidla, která bojovala v historických bitvách."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "V garáži nejsou žádná vozidla, která bojovala v hodnocených bitvách"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "V garáži nejsou žádná vozidla, která bojovala v hodnocených bitvách."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "V garáži nejsou žádná vozidla, která bojovala v týmových bitvách."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Řadit podle průměrného poškození za bitvu."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Průměrné poškození"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Řadit podle počtu zničených nepřátelských vozidel v bitvě."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Zničená nepřátelská vozidla"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Řadit podle průměrných zkušeností za bitvu."
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Průměrné zkušenosti"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Řadit podle počtu bitev."
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Bitev"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Řadit podle třídy vozidla"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Třída"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Řadit podle úrovně vozidla."
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Úroveň"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Řadit podle ocenění vzorný tankista."
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Mistrovství"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Řadit podle názvů vozidel."
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Název"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Řadit podle národa."
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Národ"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Seřadit podle elitní úrovně"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Elitní systém"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Řadit podle průměrného počtu bodů prestiže za bitvu"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Průměrný počet bodů prestiže za bitvu"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Řadit podle typu vozidla."
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Typ"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Řadit podle míry vítězství."
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Vítězství"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Řadit podle počtu vítězství."
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Vítězství"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Zásahů"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Poškození nepřátelských vozidel ochromených hráčem"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Poškození nepřátelských vozidel, která jste ochromili"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Poškození vámi ochromených nepřátel"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Poškození způsobené nepřátelům"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Nepřátelských vozidel zničeno"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Nepřátelských vozidel detekováno"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Zkušenosti"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Obdržené poškození"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Poškození způsobené díky hráčově asistenci"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Průměrné skóre za bitvu"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Počet ochromení"
+
+msgid "section/technique/statistics/common"
+msgstr "Obecné parametry"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Poměr poškození"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Poměr zničení"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Maximální poškození za bitvu"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Maximum zničených v bitvě"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "Maximum zkušeností za bitvu"
+
+msgid "section/technique/statistics/records"
+msgstr "Rekordní skóre"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Počet ochromení"
+
+msgid "section/technique/statistics/survival"
+msgstr "Přežito bitev"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Účinnost využití pancíře"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Bitev"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Vítězství"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Ocenění"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Zobrazit ocenění pro vybrané vozidlo."
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Ocenění"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Statistiky"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Zobrazit statistiky pro vybrané vozidlo."
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Statistiky"
+
+msgid "section/technique/title"
+msgstr "Vozidla"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "K dispozici v garáži"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Zapněte filtr, abyste se podívali na statistiky jednotlivých režimů bitvy."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Řadit podle režimů bitvy"

@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) оставащ модул"
+msgstr[1] "%(count) оставащи модули"
+msgstr[2] "%(count) оставащи модули"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Обратно към модули"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Когато бъдат отворени, тези модули може да ви осигурят Премиум машини, валути в играта и други ценни награди."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Модулите \"Парадокс\" могат да бъдат получени от Магазина в играта или от Премиум магазина."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Модул \"Парадокс\""
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "МОДУЛ \"ПАРАДОКС\""
+
+msgid "common/getButton/lowerCase"
+msgstr "Вземете модули"
+
+msgid "common/getButton/upperCase"
+msgstr "ВЗЕМЕТЕ МОДУЛИ"
+
+msgid "common/loader"
+msgstr "Отваряне на модул..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Отворете модули, за да видите статистиките."
+
+msgid "common/statistics/header"
+msgstr "Отворени модули: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Цялата информация за отворените модули ще бъде изтрита."
+
+msgid "entryPoint/boxes"
+msgstr "КЪМ МОДУЛИ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Това са специални модули, съдържащи нови и уникални предмети, включително Премиум машини, елементи за персонализация, валути в играта и други ценни награди.\nМодулите могат да бъдат получени от Магазина в играта или от Премиум магазина."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "В момента модулите не могат да бъдат отворени или получени поради технически причини. Извиняваме се за временното неудобство."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Модулите са временно недостъпни"
+
+msgid "eventName/lowerCase"
+msgstr "Пробийте парадокса"
+
+msgid "eventName/upperCase"
+msgstr "ПРОБИЙТЕ ПАРАДОКСА"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Гарантирана награда в следващия модул!"
+
+msgid "guaranteedTitle/text"
+msgstr "Максимум модули до гарантирана награда: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ако не отворите модулите преди края на събитието, те ще бъдат отворени автоматично."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на модула, тогава всички следващи машини, които получавате от модули, ще бъдат компенсирани в злато, равно на пълната им стойност."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Всеки %(guaranteed0)s модула гарантирано съдържат Премиум машина. Ако ги отворите без да се падне такава машина, тогава Премиум машина, която още не притежавате, ще се падне, когато отворите %(guaranteed0)s-ия модул. Когато това се случи, броячът се нулира."
+
+msgid "infoPage/header/description"
+msgstr "Отворете модула за шанс да получите ценни предмети в играта! Вижте повече подробности по-долу."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "От %(name) (%(boxesCount) отворени модула)"
+
+msgid "noBoxesView/description/"
+msgstr "Нямате никакви модули. Можете да ги вземете\nв Магазина в играта или Премиум магазина."
+
+msgid "preview/backLabel"
+msgstr "КЪМ МОДУЛИ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Налични модули: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Няма налични модули"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на модула, тогава всички следващи машини, които получавате от модули, ще бъдат компенсирани в злато."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) модул"
+msgstr[1] "%(remainingCount) модула"
+msgstr[2] "%(remainingCount) модула"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Гарантираната награда е машина от списъка с възможно съдържание на модул.\nАко отворите %(remainingCount), без да се падне такава машина, то ще се падне, когато отворите %(count)-ия модул. Когато това стане, броячът се нулира."

@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "SATIN AL"
+
+msgid "buttons/cancel"
+msgstr "İptal"
+
+msgid "buttons/learn"
+msgstr "Çalış"
+
+msgid "buttons/postProgression/claim"
+msgstr "ALIN"
+
+msgid "buttons/postProgression/hint"
+msgstr "GELİŞİM SONRASINA GİT"
+
+msgid "buttons/postProgression/howTo"
+msgstr "NASIL ALINIR"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Dönüşüm oranı:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-% %(discount)"
+
+msgid "card/freeExp/mainText"
+msgstr "Seçili mürettebat üyesine uygulanır.\nSerbest DP kullanarak mevcut yeteneğin eğitimini hızlandırır."
+
+msgid "card/freeExp/title"
+msgstr "SERBEST DENEYİM"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Yetenek etkinliği: %100\n• İhtisas: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Tüm mürettebata uygulanır.\nHer mürettebat üyesine %(xp) verir"
+
+msgid "card/nationBook/title/brochure"
+msgstr "EĞİTİM BROŞÜRÜ (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "EĞİTİM KILAVUZU (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "EĞİTİM EL KİTABI (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Sınırlama olmaksızın uygulanır."
+
+msgid "card/personalBook/mainText"
+msgstr "Seçili mürettebat üyesine uygulanır.\nBu mürettebat üyesine %(xp) verir"
+
+msgid "card/personalBook/title"
+msgstr "KİŞİSEL EĞİTİM KILAVUZU"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Yetenek etkinliği: %100\n• İhtisas: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Tüm mürettebata uygulanır.\nHer mürettebat üyesine %(xp) verir"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "GENEL KILAVUZ"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "GENEL BROŞÜR"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "GENEL EL KİTABI"
+
+msgid "confirm/crewLabel"
+msgstr "Her mürettebat üyesi %(xpValue) alacak"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Her mürettebat üyesi %(xpValue) alacak, "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) ek olarak %(xpValue) alacak"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) %(xpValue) alacak"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Bazı mürettebat üyeleri %(xpValue) alacak"
+
+msgid "items/brochure/Name"
+msgstr "Eğitim Broşürü (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Eğitim Broşürü"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "EĞİTİM BROŞÜRÜ"
+
+msgid "items/crewBook/Descr"
+msgstr "Her mürettebat üyesine {expTagOpen}+%(exp)s{expTagClose} Mürettebat DP'si."
+
+msgid "items/crewBook/Name"
+msgstr "Eğitim Kılavuzu (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Eğitim Kılavuzu"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "EĞİTİM KILAVUZU"
+
+msgid "items/guide/Name"
+msgstr "Eğitim El Kitabı (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Eğitim El Kitabı"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "EĞİTİM EL KİTABI"
+
+msgid "items/personalBook/Descr"
+msgstr "Seçili mürettebat üyesine {expTagOpen}+%(exp)s{expTagClose} deneyim"
+
+msgid "items/personalBook/Name"
+msgstr "Kişisel Eğitim Kılavuzu"
+
+msgid "items/universalBook/Descr"
+msgstr "Her mürettebat üyesine {expTagOpen}+%(exp)s{expTagClose} Mürettebat DP'si."
+
+msgid "items/universalBook/Name"
+msgstr "Genel Kılavuz"
+
+msgid "items/universalBrochure/Descr"
+msgstr "Her mürettebat üyesine {expTagOpen}+%(exp)s{expTagClose} deneyim."
+
+msgid "items/universalBrochure/Name"
+msgstr "Genel Broşür"
+
+msgid "items/universalGuide/Descr"
+msgstr "Her mürettebat üyesine {expTagOpen}+%(exp)s{expTagClose} deneyim."
+
+msgid "items/universalGuide/Name"
+msgstr "Genel El Kitabı"
+
+msgid "page/mentoringLicense/hint"
+msgstr "AKIL HOCALIĞI RUHSATINA GİDİN"
+
+msgid "page/mentoringLicense/title"
+msgstr "AKIL HOCALIĞI RUHSATI"
+
+msgid "page/title"
+msgstr "HIZLI EĞİTİM"
+
+msgid "tooltip/buyManual"
+msgstr "Eğitim Kılavuzu Satın Alın"
+
+msgid "tooltip/mouseWheel"
+msgstr "Mürettebat Kitabı sayısını artırmak / azaltmak için {mouseIcon} kaydırın."
+
+msgid "tooltip/outOfStock"
+msgstr "Hiç Mürettebat Kitabı kalmadı"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Hiç Mürettebat Kitabı kalmadı. Bu Mürettebat Kitaplarını Dükkândan satın alabilirsiniz."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Seçili mürettebat üyesine uygulanır. Bu mürettebat üyesine %(xp)s deneyim verir."
+
+msgid "tooltip/postProgression"
+msgstr "Gelişim Sonrasına Gidin"
+
+msgid "tooltip/sale/header"
+msgstr "Kârlı Dönüşüm Oranı"
+
+msgid "tooltip/sale/newRate"
+msgstr "Yeni dönüşüm oranı: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Önceki dönüşüm oranı: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Yetenek eğitim seviyesini %1 artırmak / azaltmak için %(controlsImg) tuşuna tıklayın."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Yetenek eğitim seviyesini %100'e&nbsp;artırmak / önceki&nbsp;yeteneğe dönmek için %(pgupImg) / %(pgdownImg) tuşlarına basın."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Tüm mürettebata uygulanır. Her mürettebat üyesine %(xp)s deneyim verir."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Tüm mürettebata uygulanır. Her mürettebat üyesine %(xp)s deneyim verir."

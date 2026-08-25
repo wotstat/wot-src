@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) pozostały moduł"
+msgstr[1] "%(count) pozostałe moduły"
+msgstr[2] "%(count) pozostałych modułów"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Powrót do modułów"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Po otwarciu tych modułów można otrzymać pojazdy premium, waluty w grze i inne cenne nagrody."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Paradoksmoduły można zdobyć w Sklepie w grze lub Sklepie premium."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoksmoduł"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOKSMODUŁ"
+
+msgid "common/getButton/lowerCase"
+msgstr "Zdobądź moduły"
+
+msgid "common/getButton/upperCase"
+msgstr "ZDOBĄDŹ MODUŁY"
+
+msgid "common/loader"
+msgstr "Moduł otwiera się…"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otwórz moduły, aby zobaczyć statystyki."
+
+msgid "common/statistics/header"
+msgstr "Otwarte moduły: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Wszystkie informacje dotyczące otwartych modułów zostaną usunięte."
+
+msgid "entryPoint/boxes"
+msgstr "DO MODUŁÓW"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Są to specjalne moduły zawierające nowe i unikalne przedmioty, w tym pojazdy premium, elementy personalizacji, waluty gry i inne cenne nagrody.\nModuły można zdobyć w Sklepie w grze i Sklepie premium."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Z przyczyn technicznych nie można obecnie otwierać ani zdobywać modułów. Przepraszamy za chwilowe niedogodności."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Moduły tymczasowo niedostępne"
+
+msgid "eventName/lowerCase"
+msgstr "Przełam paradoks"
+
+msgid "eventName/upperCase"
+msgstr "PRZEŁAM PARADOKS"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Nagroda gwarantowana w następnym module!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maksymalna liczba modułów przed nagrodą gwarantowaną: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Jeśli nie otworzysz wszystkich modułów przed końcem wydarzenia, zostaną one otwarte automatycznie."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Jeśli masz już wszystkie pojazdy z listy możliwej zawartości modułów, to za wszystkie kolejne pojazdy otrzymane z modułów dostaniesz rekompensatę w złocie w wysokości ich pełnej wartości."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Każde %(guaranteed0)s modułów na pewno zawiera pojazd premium. Jeśli je otworzysz, a pojazd się nie pojawi, to pojazd premium, którego jeszcze nie masz, pojawi się przy otwarciu %(guaranteed0)s. modułu. Wtedy licznik zostanie zresetowany."
+
+msgid "infoPage/header/description"
+msgstr "Otwórz moduł, aby mieć szansę na cenne przedmioty w grze! Więcej szczegółów poniżej."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Z %(name) (otwarte moduły: %(boxesCount))"
+
+msgid "noBoxesView/description/"
+msgstr "Nie masz żadnych modułów. Możesz je zdobyć\nw Sklepie w grze lub w Sklepie premium."
+
+msgid "preview/backLabel"
+msgstr "DO MODUŁÓW"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Dostępne moduły: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nie ma dostępnych modułów"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Jeśli masz już wszystkie pojazdy z listy możliwej zawartości modułów, to za wszystkie kolejne pojazdy otrzymane z modułów dostaniesz rekompensatę w złocie."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) moduł"
+msgstr[1] "%(remainingCount) moduły"
+msgstr[2] "%(remainingCount) modułów"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Gwarantowana nagroda to pojazd z listy możliwej zawartości modułów.\nJeśli otworzysz ich %(remainingCount) bez wylosowania takiego pojazdu, to wylosujesz pojazd, gdy otworzysz %(count). moduł. Kiedy to nastąpi, licznik zostanie wyzerowany."

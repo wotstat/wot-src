@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Skapa en taktisk enhet med 2 till 5 spelare för samarbete\ni Sista striden."
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Pluton"
+
+msgid "members/header/last_stand"
+msgstr ": Sista striden: Terra Nord"
+
+msgid "members/header/tooltip/last_stand/body"
+msgstr "För att delta i en evenemangsstrid måste alla plutonsmedlemmar ha tillgång till svårighetsgraden plutonsbefälhavaren valt."
+
+msgid "members/header/tooltip/last_stand/header"
+msgstr "Regler för plutonsskapande"
+
+msgid "platoon/commander/difficulty_body"
+msgstr "Du kan välja mellan de tillgängliga svårighetsgraderna."
+
+msgid "platoon/difficulty/error_body_1"
+msgstr "Tillgängliga svårighetsgrader: Normal."
+
+msgid "platoon/difficulty/error_body_2"
+msgstr "Tillgängliga svårighetsgrader: Normal, Avancerad."
+
+msgid "platoon/difficulty/error_header"
+msgstr "Svårighetsgrad ej tillgänglig."
+
+msgid "platoon/difficulty/level_1"
+msgstr "Svårighetsgrad: Normal"
+
+msgid "platoon/difficulty/level_2"
+msgstr "Svårighetsgrad: Avancerad"
+
+msgid "platoon/difficulty/level_3"
+msgstr "Svårighet: Brutal"
+
+msgid "platoon/difficulty/level_4"
+msgstr "Svårighet: Sista striden"
+
+msgid "platoon/difficulty/lock_header"
+msgstr "Svårighetsgrad låst"
+
+msgid "platoon/difficulty/maxAvailable"
+msgstr "Tillgänglig svårighetsgrad {%(icon)s}"
+
+msgid "platoon/difficulty/warning_body"
+msgstr "En eller fler plutonsmedlemmar har inte låst upp den här svårighetsgraden."
+
+msgid "platoon/difficulty/warning_header"
+msgstr "Ej kompatibel svårighetsgrad"
+
+msgid "platoon/dropdown/difficulty_1"
+msgstr "Normal %(icon)s"
+
+msgid "platoon/dropdown/difficulty_2"
+msgstr "Avancerad %(icon)s"
+
+msgid "platoon/dropdown/difficulty_3"
+msgstr "Brutal %(icon)s"
+
+msgid "platoon/dropdown/header/difficulty"
+msgstr "{whiteSpanish_Open}Svårighetsgrad: {whiteSpanish_Close}%(difficulty)s"
+
+msgid "platoon/player/difficulty_body"
+msgstr "Endast plutonsbefälhavaren kan ändra svårighetsgrad."
+
+msgid "platoon/simpleState/difficultyDisabled"
+msgstr "Ej tillgänglig av tekniska skäl"
+
+msgid "platoon/simpleState/lockVehicle"
+msgstr "Vagnen är inte tillgänglig."
+
+msgid "platoon/simpleState/notAvailableLevel"
+msgstr "Den här svårighetsgraden är inte kompatibel med plutonen."

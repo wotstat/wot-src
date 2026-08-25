@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "Näkökyky paranee {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} {colorTagOpen}%(duration)s s{colorTagClose} ajaksi.\n\nAjastin alkaa alusta, jos havaitsemasi vihollisvaunu tuhoutuu."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Aktiivinen tiedustelu"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "Miehistösi saa {colorTagOpen}%(duration)s s{colorTagClose} ajaksi {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonuksen tehokkuuteen jokaisesta eri roolissa joukkueessasi olevasta vaunusta.\n\nVaunusi otetaan aina huomioon tätä bonusta laskettaessa."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Yksi kaikkien puolesta"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "Vaunusi ympärille luodaan {colorTagOpen}%(duration)s s{colorTagClose} ajaksi säteeltään {colorTagOpen}%(radius)s m{colorTagClose} alue, joka palauttaa vaunullesi ja liittolaisvaunuille {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} kestopistettä."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Kenttäkorjaukset"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "Miehistösi ja liittolaismiehistöt saavat {colorTagOpen}%(duration)s s{colorTagClose} ajaksi {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonuksen tehokkuuteen."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Motivointi"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "Tykin latausaika pienenee {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} {colorTagOpen}%(duration)s s{colorTagClose} ajaksi. Lisäksi tykin hajonta ampumisen jälkeen, liikkuessa ja runkoa sekä tornia kääntäessä pienenee {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nAjastin nollautuu, kun aiheutat vahinkoa törmäämällä tai ampumalla alle {colorTagOpen}%(damageDistance)s m{colorTagClose} etäisyydeltä."
+
+msgid "comp7_light_berserk/name"
+msgstr "Raivo"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} ajan tähtäysaika ja tykin hajonta liikkuessa sekä runkoa ja tornia kääntäessä pienenevät {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nTämän roolitaidon ollessa aktiivinen latausaika laukausten välillä lyhenee {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_light_concentration/name"
+msgstr "Keskity kohteeseen"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• Lipasta käyttäville automaattilataajille:\nJäljellä olevan lippaan latausaika lyhenee {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}.\n\n• Automaattilataajille:\nKaikki nykyisen syklin ammutut ammukset ladataan uudelleen {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} nopeammin.\n\nTämä taito voidaan aktivoida vain latausprosessin aikana.\n\n• Ylikuumenemisella hallinnoitavalle konetykille:\nTykin lämpö vähenee {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} sen potentiaalisesta maksimista.\n\nTaito voidaan aktivoida vain, jos tykillä on lämpöä."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Silmänkääntötemppu"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Nollaa ampumalla vahingoitettujen vihollisvaunujen määrän.\n\n{colorTagOpen}%(duration)s s{colorTagClose} ajan vaunusi saa takaisin {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} kestopistettä jokaisesta vihollisvaunusta, jota on vahingoitettu ampumalla aktivointihetkeen mennessä."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "Tykin latausaika lyhenee {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} jokaisesta ampumalla vahingoitetusta vihollisesta."
+
+msgid "comp7_light_hunter/name"
+msgstr "Palkkionmetsästäjä"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} ajan:\n• Kärsitty vahinko vähenee {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Huippunopeus eteenpäin ajaessa paranee{colorTagOpen}%(fwMaxSpeedBonus)s km/t{colorTagClose}\n• Huippunopeus peruuttaessa paranee {colorTagOpen}%(bkMaxSpeedBonus)s km/t{colorTagClose}\n• Moottoriteho kasvaa {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Vihollisvaunuihin törmäämällä aiheutettu vahinko kasvaa {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nRoolitaidon ollessa aktiivinen vaunusi telat tuhoutuvat yhdellä laukauksella."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Juggernautti"
+
+msgid "comp7_light_march/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} ajan vaunusi moottoriteho kasvaa {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, sen huippunopeus eteenpäin paranee {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/t ja sen naamioitumiskyky paranee {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_light_march/name"
+msgstr "Pakkomarssi"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "Tiedustelulentokone lentää valitun alueen yli {colorTagOpen}%(delay)s s{colorTagClose} kuluessa. {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} säteellä havaitut vihollisvaunut pysyvät havaittuna {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose} ajan. Tällä taidolla havaitulle pelaajalle näytetään erillinen kuvake {colorTagOpen}%(lampDelay)s s{colorTagClose} viiveellä.\n\nTämä taito tulee saataville käytettäväksi {colorTagOpen}%(startupDelay)s s{colorTagClose} kuluttua taistelun alkamisesta."
+
+msgid "comp7_light_recon/name"
+msgstr "Tiedustelulento"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "Valitulle alueelle isketään tykistöiskulla {colorTagOpen}%(delay)s s{colorTagClose} sisään.\n\n{colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} säteen alueella vahingoittuneet kohteet saavat {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} pistettä vahinkoa ja lamautuvat {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose} ajaksi."
+
+msgid "comp7_light_redline/name"
+msgstr "Suojatuli"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Kiihdytys\n\n {colorTagOpen}%(duration)s s{colorTagClose} ajan moottoriteho paranee {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, huippunopeus eteenpäin paranee {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/t ja huippunopeus taaksepäin {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/t.\n\nPalautuminen\n\n{colorTagOpen}%(healDuration)s s{colorTagClose} ajan vaunusi saa takaisin {colorTagOpen}%(baseHeal)s{colorTagClose} kestopistettä {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} kiihdytyksen aktiivisena ollessa menetetyistä kestopisteistä."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Toinen yritys"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nTaistelun alkaessa roolitaidon lataustaso on{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "Hajonta  100 m on {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} ajan {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nJos vaunuasi ei ole havaittu ammuttaessa, kasvaa laukauksesi aiheuttama vahinko {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nAjastin nollautuu aiheuttamalla vahinkoa yli {colorTagOpen}%(damageDistance)s m{colorTagClose} etäisyydeltä."
+
+msgid "comp7_light_sniper/name"
+msgstr "Häränsilmä"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} ajan tykin hajonta liikkuessa sekä runkoa ja tornia kääntäessä pienenee {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nTaidon ollessa aktiivinen ampumalla aiheutettu vahinko lyhentää tykin latausaikaa {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} siitä prosenttiosuudesta, jonka vihollinen kestopisteistään menetti.\n\nVihollisen tuhoaminen lyhentää tykin latausaikaa {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Siisti laukaus"

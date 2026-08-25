@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Csapat <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Felhasználói fiókod sikeresen visszaállítottuk"
+
+msgid "achievements/server_error"
+msgstr "Az értékes kitüntetések szalag változtatásai nem lettek elmentve."
+
+msgid "actionAchievement/title"
+msgstr "Akciók során megszerezhető medál"
+
+msgid "actionAchievements/title"
+msgstr "Akciók alatt elérhető medálok"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Hiba a készség elsajátítása során. Nem megfelelő jármű."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Nem lehet kiképezni az új készséget.\nA szerver nem érhető el. Próbáld újra később!"
+
+msgid "add_tankman_skill/success"
+msgstr "Új készség elsajátítva: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "A készség elsajátítása nem sikerült. A jármű zárolva van."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "A készség elsajátítása nem sikerült. Javítsd meg a járművet."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Nem lehet kiképezni új készségeket.\nA szerver nem érhető el. Próbáld újra később!"
+
+msgid "add_tankman_skills/success"
+msgstr "Új készségek elsajátítva: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Már be vagy jelentkezve egy másik szerveren."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Hiba történt a csatába való belépés során: már egy másik csapat tagja vagy."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Hiba történt a csatába való belépés során: Nem megfelelő csapat szám."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Hiba a kapcsolódás közben. Ez a művelet ideiglenesen le van tiltva. Próbáld meg később."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Ez az esemény jelenleg nem elérhető. Kövesd a legfrissebb híreket a játék portálon."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Hiba történt a csatába való belépés során: a meghívás lejárt."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Hiba a kapcsolódás közben, nincs megfelelő jogosultságod."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Nem lehet csatlakozni a csatához. A várólista jelenleg nem elérhető. Kérjük, próbáld meg később újra."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "A művelet nem elérhető. A várólista jelenleg megtelt. Kérjük, próbáld újra később."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Hiba történt a csatába való belépés során: A csapat már elkészült."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Hiba történt a csatába való belépés során. A csatlakozás túllépte a megengedett időkeretet."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Hiba a kapcsolódás közben. Ez a művelet nem elérhető ezzel a típusú Felhasználói Fiókkal."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Hiba a csatához csatlakozás közben."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Hiba a kapcsolódás közben, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Csatlakozási hiba: a kiválasztott történelmi csata nem elérhető."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Csatlakozási hiba. Kérlek, válaszd a(z) %s szervert."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Csatlakozási hiba. Kérlek, válassz másik szervert."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Hiba történt a csatába való belépés során: a jelenlegi jármű nem áll készen."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Hiba: ilyen szintű járművek nem vehetnek részt ebben a csata módban."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Nem sikerült csatlakozni a csatához: a jármű nem áll készen."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Vásárolj egy járművet, hogy csatlakozhass a csatához."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Hiba a csatába való belépés során (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Hiba a csatába való belépés során (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Hiba a csatába való belépés során (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Hiba a csatába való belépés során (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Hiba a csatába való belépés során (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Hiba a csatába való belépés során (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Hiba a csatába való belépés során (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Hiba a csatába való belépés során (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Hiba a csatába való belépés során (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Hiba a csatába való belépés során (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Hiba a csatába való belépés során (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "A sorban állásra megszabott maximális idő lejárt. Válassz másik járművet vagy próbáld később."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" nem jó ehhez a járműhöz."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Rossz jármű. %(kind)s \"%(name)s\" nincs felszerelve."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" leszerelve a járművedről. Elköltöttél: %(money)s."
+
+msgid "artefact_apply/server_error"
+msgstr "%(kind)s \"%(name)s\" felszerelése során szerverhiba lépett fel. Próbáld újra később."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" felszerelve a járműre."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Jármű használatban. %(kind)s \"%(name)s\" nincs felszerelve."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Jármű sérült. %(kind)s \"%(name)s\" nincs felszerelve. Javítsd meg a járművet és próbáld újra."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "\"%(name)s\" (%(kind)s) nem kompatibilis ezzel a járművel."
+
+msgid "artefact_buy/invalid_module"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Rossz modul."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Rossz jármű. \"%(name)s\" (%(kind)s) modult nem lehet megvenni és felszerelni."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Nincs elég kredited."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Nincs elég kötvényed."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Nincs elég évfordulós érméd."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Nincs elég aranyad."
+
+msgid "artefact_buy/server_error"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Próbáld újra később."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. A szerver pillanatnyilag nem elérhető."
+
+msgid "artefact_buy/success"
+msgstr "\"%(name)s\" (%(kind)s) modul (%(count)s darab) sikeresen megvásárolva. Elköltve: %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Jármű zárolva. \"%(name)s\" (%(kind)s) modult nem lehet megvenni és felszerelni."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "\"%(name)s\" (%(kind)s) modult nem lehet megvenni és felszerelni. Javítsd meg a járműved és próbálkozz újra."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "%(name)s szétszerelése sikertelen. Rossz modul."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "%(name)s szétszerelése sikertelen. Próbáld újra később."
+
+msgid "artefact_deconstructing/success"
+msgstr "Felszerelés szétszerelve: %(name)s (x%(count)s). Kaptál: %(money)s."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Felszerelés szétszerelve: %(names)s. Kaptál: %(money)s."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "'%(equipment)s' nem lett leszerelve. Nincs elég pénzed."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Rossz jármű. %(kind)s \"%(name)s\" nincs megsemmisítve."
+
+msgid "artefact_destroy/server_error"
+msgstr "%(kind)s \"%(name)s\" megsemmisítésekor szerverhiba lépett fel. Próbáld újra később."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" megsemmisítve a leszereléssel."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Jármű használatban. %(kind)s \"%(name)s\" nincs megsemmisítve."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Jármű sérült. %(kind)s \"%(name)s\" nincs megsemmisítve. Javítsd meg a járművet és próbáld újra később."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" leszerelve a járműről. Felhasználtál egy leszerelő készletet."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "Fogyóeszköz \"%s\" visszaküldve a depóba mert nem kompatibilis a jelenlegi modullal."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Rossz jármű. %(kind)s \"%(name)s\" nincs leszerelve."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" leszerelve a járművedről. Elköltöttél: %(money)s."
+
+msgid "artefact_remove/server_error"
+msgstr "%(kind)s \"%(name)s\" leszerelésekor szerverhiba lépett fel. Próbáld újra később."
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s \"%(name)s\" leszerelve a járműről."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Jármű használatban. %(kind)s \"%(name)s\" nincs leszerelve."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Jármű sérült. %(kind)s \"%(name)s\" nincs leszerelve. Javítsd meg a járművet és próbáld újra."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "A(z) „%(name)s” %(kind)s ingyenesen leszerelésre került a járműről az aktív WoT plusz előfizetésednek köszönhetően."
+
+msgid "artefact_sell/invalid_module"
+msgstr "%(kind)s \"%(name)s\" eladása sikertelen. Rossz modul."
+
+msgid "artefact_sell/server_error"
+msgstr "%(kind)s \"%(name)s\" eladása sikertelen. Próbáld újra később."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s darab). Kaptál: %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Hiba a felszerelés fejlesztése során. Kérjük, próbálkozz újra később."
+
+msgid "artefact_upgrade/success"
+msgstr "\"%(name)s\" (%(kind)s) sikeresen fejlesztve. A felszerelés jellemzői javultak. Elköltve: %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "A(z) %(name)s%(kind)s sikeresen fejlesztve, a karakterisztikái javultak. Elköltve: %(money)s.\n\nAz alternatív készlet hasonló felszerelése a depóba került."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Jármű sérült. \"%(name)s\" (%(kind)s) nincs fejlesztve. Javítsd meg a járművet és próbáld újra később."
+
+msgid "badges/select/server_error"
+msgstr "Szerver hiba"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "A művelet nem elérhető. Kérlek várj, amíg a jelenlegi művelet befejeződik."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Meghívók küldése"
+
+msgid "battleAbilities_apply/error"
+msgstr "Harci tartalék konfigurációs hiba. Kérjük, próbáld meg újra később."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "%(kind)s \"%(name)s\" megvásárlása sikertelen. Nincs elég kredited."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "%(kind)s \"%(name)s\" megvásárlása sikertelen. Nincs elég kötvényed."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" nem jó ehhez a járműhöz."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Nincs elég évfordulós érméd."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "%(kind)s \"%(name)s\" megvásárlása sikertelen. Nincs elég aranyad."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "%(kind)s \"%(name)s megvásárlása sikertelen. Rossz modul."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "%(kind)s \"%(name)s megvásárlása és felszerelése sikertelen. Rossz jármű."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "%(kind)s \"%(name)s megvásárlása sikertelen. Nincs elég kredited."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "%(kind)s \"%(name)s megvásárlása sikertelen. Nincs elég kötvényed."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Nincs elég évfordulós érméd."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "%(kind)s \"%(name)s megvásárlása sikertelen. Nincs elég aranyad."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Karbantartás miatt átmenetileg nem elérhetőek a direktívákkal kapcsolatos műveletek."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "%(kind)s \"%(name)s megvásárlása sikertelen. A szerver átmenetileg nem elérhető."
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s \"%(name)s\" sikeresen megvásárolva (%(count)s árucikk). Ennyit költöttél:%(money)s."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "A járművet zároltuk. %(kind)s \"%(name)s\" megvásárlása és felszerelése sikertelen."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "%(kind)s \"%(name)s megvásárlása és felszerelése sikertelen. Javítsd meg a járművet, majd próbáld újra."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Karbantartás miatt átmenetileg nem elérhetőek a direktívákkal kapcsolatos műveletek."
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s: '%(name)s' (%(count)s darab) eladva. Kaptál: %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Direktíva műveleti hiba. Kérjük, próbáld meg újra később."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Direktíva műveleti hiba. Nincs fedezet a vásárláshoz."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "A művelet nem elérhető. Az aranyad elérhető lesz, amint a WG Wallet működése helyreállt."
+
+msgid "battlePass/activateChapter/success"
+msgstr "Aktiváltad a(z) %(chapter)s fejezetet"
+
+msgid "battlePass/extraFinish/body"
+msgstr "%(name)s esemény véget ért. Köszönjük a részvételt!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Battle Pass: \"%(name)s\" fejezet"
+
+msgid "battlePass/extraStarted/body"
+msgstr "Parancsnok! Elindult a Battle Passon belüli %(name)s esemény, mely során különleges jutalmat szerezhetsz!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Battle Pass: Új fejezet érhető el!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Parancsnok! Már csak rövid idő van hátra a(z) \"%(name)s\" fejezet végéig. Siess!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Battle Pass: \"%(name)s\" fejezet"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Parancsnokok! Ne felejtsétek, hogy rangsorolt csatákban Battle Pass pontokat szerezhettek!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Parancsnokok! Ne felejtsétek, hogy Frontvonal módban Battle Pass pontokat szerezhettek!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Parancsnokok! Ne felejtsétek, hogy Felderítő küldetés csatákban Battle Pass pontokat szerezhettek!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Parancsnokok! Ne felejtsétek, hogy a Roham módban Battle Pass pontokat szerezhettek!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Battle Pass %(seasonNum)d. szezon"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Hiba a jutalmak kiválasztásakor. Kérjük, próbáld meg újra."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "A Battle Pass szezon véget ért. Minden olyan jutalmat, amelyet nem választottál ki a szezon alatt, automatikusan megkaptál:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Hiba a fejezet kiválasztásakor. Kérjük, próbáld meg újra."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Válassz egy fejezetet. Bármikor átválthatsz másik fejezetekre."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Másik fejezetre váltottál. Mostantól a(z) %(chapter)s fejezet aktív."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "A Battle Pass átmenetileg nem elérhető az Acélvadász módban, karbantartás miatt. Elnézést kérünk a kellemetlenségért."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Jelenleg karbantartás miatt nem szerezhetsz Battle Pass pontokat a Roham módban."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Jelenleg karbantartás miatt nem szerezhetsz Battle Pass-pontokat a Roham Light módban."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "A Battle Pass karbantartás miatt átmenetileg nem elérhető Frontvonal módban."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "A Battle Pass átmenetileg nem elérhető a Rangsorolt csatákban, karbantartás miatt."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "A Battle Pass ismét elérhető. Elnézést kérünk a kellemetlenségért.\nA szezont meghosszabbítottuk a következő időpontig: %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Újra szerezhetsz Battle Pass pontokat Roham módban. Elnézést kérünk a kellemetlenségekért."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Újra szerezhetsz Battle Pass-pontokat Roham Light módban. Elnézést kérünk a kellemetlenségekért."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "A Battle Pass ismét elérhető Frontvonal módban. Elnézést kérünk a kellemetlenségért."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "A Battle Pass ismét elérhető a Rangsorolt csatákban. Elnézést kérünk a kellemetlenségért."
+
+msgid "battlePass/switch_pause/body"
+msgstr "A Battle Pass karbantartás miatt átmenetileg nem elérhető."
+
+msgid "battlePass/switch_started/body"
+msgstr "Parancsnok! Ismét eljött az idő, hogy harcba szállj az egyedi Battle Pass-jutalmakért!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Battle Pass %(seasonNum)d. szezon"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Battle Pass: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "A Battle Pass véget ért. Minden olyan jutalmat, amelyet nem választottál ki, automatikusan megkaptál:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "A fejezet véget ért. A legközelebbi viszontlátásra!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Battle Pass: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "A Battle Pass ismét elérhető. Elnézést kérünk a kellemetlenségért."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Parancsnok! Ahogyan azt hamarosan látni fogod, ez egy különleges Battle Pass.\n\nAz előrehaladás teljesítéséért egy egyedi 3D-stílusba öltöztetett prémium járművet, testreszabási elemeket és megannyi más jutalmat kaphatsz!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Battle Pass: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Hiba az előrehaladási szakaszok vásárlása során. Kérjük, próbáld újra."
+
+msgid "battlePass_buy/server_error"
+msgstr "Hiba az Improved Pass megvásárlásakor. Kérjük, próbáld újra."
+
+msgid "battleResults/sharing/success"
+msgstr "Link a vágólapra másolva. Be tudod illeszteni a chat-be a Ctrl+V lenyomásával vagy használhatod a játék kliensen kívül."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Speciális csata számára nem található ellenség. Rendezd át a csapatod."
+
+msgid "battleSession/memberJoined"
+msgstr "%s csatlakozott a csapathoz."
+
+msgid "battleSession/memberLeave"
+msgstr "%s elhagyta a csapatot."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s nem áll készen a csatára."
+
+msgid "battleSession/memberOffline"
+msgstr "Csatlakozás megszakítva %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s készen áll a csatára."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Egy csapatban lévő megfigyelők maximális száma: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Egy csapatban lévő játékosok maximális száma: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Nincs elegendő jogosultság a többi játékos áthelyezéséhez."
+
+msgid "battlesession/error/Limits"
+msgstr "Az egy csapatban lévő játékosok maximális száma elérve."
+
+msgid "blueprints/conversion/disable"
+msgstr "Nincs elég töredék az átváltáshoz."
+
+msgid "blueprints/conversion/error"
+msgstr "Nem sikerült leszerelni: a szerver nem érhető el. Kérjük, próbáld meg újra később."
+
+msgid "blueprints/switch_off"
+msgstr "Jármű tervrajzok: ez a funkció átmenetileg nem elérhető. Elnézést kérünk a kellemetlenségért."
+
+msgid "blueprints/switch_on"
+msgstr "A jármű tervrajzok újra elérhetőek."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Művelet nem elérhető. Már használatban van személyes tartalék."
+
+msgid "booster_activate/DISABLED"
+msgstr "Nem sikerült aktiválni a személyes tartalékot. Művelet nem elérhető."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Nem sikerült aktiválni a személyes tartalékot. Művelet nem elérhető."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Művelet nem elérhető. Személyes tartalék nem elérhető vagy nincs kiválasztva."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Nem sikerült aktiválni a személyes tartalékot. Művelet nem elérhető."
+
+msgid "booster_activate/server_error"
+msgstr "Személyes tartalék nem aktiválható. Próbáld később."
+
+msgid "booster_activate/success"
+msgstr "\"%(boosterName)s\" személyes tartalék aktiválva. Hátralévő idő: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "\"%(boosterName)s\" személyes tartalék megvásárlása sikertelen. Nincs elegendő kredit."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "\"%(boosterName)s\" személyes tartalék megvásárlása sikertelen. Nincs elegendő arany."
+
+msgid "booster_buy/server_error"
+msgstr "\"%(boosterName)s\" személyes tartalék megvásárlása sikertelen."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "\"%(boosterName)s\" személyes tartalék megvásárlása sikertelen. A szerver átmenetileg nem elérhető."
+
+msgid "booster_buy/success"
+msgstr "%(boosterName)s személyes tartalék sikeresen megvásárolva (%(count)s darab). Elköltve: %(money)s."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "booster_sell/server_error"
+msgstr "%(boosterName)s személyes tartalék eladása sikertelen. Próbáld később."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "%(boosterName)s személyes tartalék eladása sikertelen. Próbáld később."
+
+msgid "booster_sell/success"
+msgstr "%(boosterName)s személyes tartalék sikeresen eladva (%(count)s darab). Kapott összeg: %(money)s."
+
+msgid "buttons/goToPoll"
+msgstr "Tovább a szavazásra"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Legénységi tagot nem lehet toborozni és áthelyezni: a tanknak egyedi, állandó legénysége van."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Elérted a ma ingyen besorozható harckocsizók maximális mennyiségét."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Nem lehet toborozni és elhelyezni egy harckocsizót. Rossz jármű."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Nem lehet toborozni és elhelyezni a legénységet. Nincs elegendő kredit."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Nem lehet toborozni és elhelyezni a legénységet. Nincs elegendő arany."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Nem lehet toborozni és elhelyezni a legénységet. Próbáld később."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Nem lehet toborozni és elhelyezni a harckocsizókat. Jármű nem elérhető."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Legénységi tagot nem lehet toborozni és áthelyezni: a tanknak egyedi, állandó legénysége van."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Elérted a ma ingyen besorozható harckocsizók maximális mennyiségét."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Nem lehet toborozni és kicserélni egy harckocsizót. Rossz jármű."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Nem lehet toborozni és kicserélni a legénységet. Nincs elegendő kredit."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Nem lehet toborozni és kicserélni a legénységet. Nincs elegendő arany."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Harckocsizó toborzása és lecserélése nem lehetséges. Harckocsizó toborzásához szabad helyre van szükség. Szabadíts fel vagy vásárolj további férőhelyet a Barakkban."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Nem lehet toborozni és kicserélni a legénységet. Próbáld később."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Nem lehet toborozni és kicserélni a harckocsizókat. Jármű nem elérhető."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Elérted az ingyen vásárolható járművek limitjét. Próbáld meg holnap."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Barakk bővítése sikertelen. Nincs elég kredited."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Barakk bővítése sikertelen. Nincs elég aranyad."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "A Barakk bővítése nem sikerült. Próbálkozz újra később."
+
+msgid "buy_tankmen_berths/success"
+msgstr "A Barakk kibővítve.\nElköltött arany: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "buy_vehicle_slot_error"
+msgstr "\"%s\" megvásárlása sikertelen. Nincs szabad hely a garázsban. Eladhatsz egy járművet, hogy helyet szabadíts fel vagy vegyél új helyet."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "\"%s\" megvásárlása sikertelen. Nincs szabad hely a garázsban. Kérlek, szabadíts fel helyet."
+
+msgid "challenges/activate/serverError"
+msgstr "Nem lehet aktiválni a Próbatétel küldetéseket. Próbáld meg újra később."
+
+msgid "challenges/activate/success/text"
+msgstr "A sorozat első küldetése már teljesíthető. Lépj be a csatába, és vállald a kihívást!"
+
+msgid "challenges/activate/success/title"
+msgstr "Próbatétel: %(challengeName)s aktiválva!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Tovább a Próbatételhez"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Teljesítsd most, és szerezd meg a jutalmadat."
+
+msgid "challenges/challengeEnd/title"
+msgstr "A Próbatétel küldetések nemsokára véget érnek!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Gratulálunk!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Teljesítetted a Próbatétel: %(challengeName)s kihívást! A jutalmad:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Elköltött kredit:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Elköltött kötvények:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Elköltött arany:"
+
+msgid "challenges/restart/free/text"
+msgstr "Egy ingyenes újraindítás felhasználásra került, és visszaállt a küldetés előrehaladása."
+
+msgid "challenges/restart/free/title"
+msgstr "Próbatétel: %(challengeName)s újraindítva ingyen"
+
+msgid "challenges/restart/paid/title"
+msgstr "Próbatétel: %(challengeName)s újraindítva"
+
+msgid "challenges/restart/serverError"
+msgstr "Nem lehet újraindítani a Próbatétel küldetéseket. Próbáld meg újra később."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "A művelet nem érhető el. Várj, amíg a jelenlegi művelet befejeződik."
+
+msgid "challenges/surrender/serverError"
+msgstr "Nem lehet feladni a Próbatétel küldetéseket. Próbáld meg újra később."
+
+msgid "challenges/surrender/success/text"
+msgstr "Feladtad a Próbatétel: %(challengeName)s kihívást. A küldetéssorozat nem járt sikerrel."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "A legénységi tag képzettségét nem lehet megváltoztatni: a tanknak egyedi, állandó legénysége van."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Képesítés változtatása sikertelen. Próbáld később."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Képesítés változtatása sikertelen. Rossz jármű."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "A jármű nincs a garázsban. Az átminősített legénységi tag a barakkba lesz küldve."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Nem lehet megváltoztatni a legénységi tag képesítését. Nincs elég arany."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Nem lehet megváltoztatni a legénységi tag képesítését. Nincs elég arany."
+
+msgid "change_tankman_role/server_error"
+msgstr "Nem sikerült megváltoztatni a képesítést.\nPróbálkozz újra később!"
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "Már van egy %(role)s %(vehicle)s járműben. Az átminősített legénységi tag a barakkba lesz küldve."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Képesítés változtatása sikertelen. Próbáld később."
+
+msgid "charge/credits_error"
+msgstr "%s kredit és %s arany szükséges. Töltsd fel a lőszerkészletet manuálisan."
+
+msgid "charge/credits_error_credits"
+msgstr "%s további kredit szükséges. Töltsd fel a lőszerkészletet manuálisan."
+
+msgid "charge/credits_error_gold"
+msgstr "%s további arany szükséges. Töltsd fel a lőszerkészletet manuálisan."
+
+msgid "charge/inventory_error"
+msgstr "A %(vehicle)s lőszerkészlete nincs feltöltve. Töltsd fel a muníciót manuálisan."
+
+msgid "charge/money_spent"
+msgstr "A lőszerre költöttél: %s."
+
+msgid "charge/server_error"
+msgstr "Hiba a lőszerkészlet betöltése közben. Próbáld később."
+
+msgid "charge/server_error_save"
+msgstr "Hiba a lőszerkészlet mentése közben. Próbáld később."
+
+msgid "charge/success"
+msgstr "A lőszerkészlet sikeresen feltöltve."
+
+msgid "charge/success_save"
+msgstr "A lőszerkészlet sikeresen elmentve."
+
+msgid "checkout_error"
+msgstr "Hiba a felhasználó adatainak fogadásakor. Kérlek, próbálkozz újra."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/notifications/accept"
+msgstr "Elfogad"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Klán meghívó már elküldve %(userName)s felhasználónak."
+
+msgid "clans/notifications/decline"
+msgstr "Elutasít"
+
+msgid "clans/notifications/from"
+msgstr "%(user)s felhasználótól"
+
+msgid "clans/notifications/info"
+msgstr "Klán adatok megtekintése"
+
+msgid "clans/notifications/invite"
+msgstr "Klánba való meghívás"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Klánba való meghívás elfogadva."
+
+msgid "clans/notifications/invite/declined"
+msgstr "Klánba való meghívás elutasítva."
+
+msgid "clans/notifications/invite/expired"
+msgstr "Klánba való meghívás érvénytelen."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s elfogadta a klán meghívóját."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s elutasította a klán meghívóját."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Nem sikerült klán meghívást küldeni a(z) %(userName)s játékosnak."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Klán meghívó elküldve %(userName)s felhasználónak."
+
+msgid "clans/notifications/invites"
+msgstr "Klán meghívók: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Értesítések letiltása"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Meghívások megtekintése"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Klán meghívók nem kerültek kiküldésre %(userCount)d játékosnak."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Meghívók kiküldésre kerültek %(userCount)d játékosnak."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Felvettek a\n%(nameStartTag)s%(name)s%(nameEndTag)s klánba."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "Jelentkezésedet a\n%(nameStartTag)s%(name)s%(nameEndTag)s klánba elutasították."
+
+msgid "clans/notifications/request"
+msgstr "Jelentkezés klánba"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Jelentkezés elfogadva."
+
+msgid "clans/notifications/request/declined"
+msgstr "Jelentkezés elutasítva."
+
+msgid "clans/notifications/requestSent"
+msgstr "A jelentkezés elküldve a következő klánnak:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Meghívók játékosoktól: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Jelentkezések megtekintése"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s már meg lett hívva a klánodba."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Művelet nem elérhető. A játékos nem felel meg a toborzási feltételeknek."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "Az előző klánod elhagyásáért kirótt egy napos eltiltás még nem járt le."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Művelet nem elérhető. Helytelen fiók."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Művelet nem elérhető. Fiók letiltva."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Ez a játékos már más klán tagja."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Művelet nem elérhető. A játékos nem klántag."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Művelet nem elérhető. Jelentkezés nem létezik."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "A művelet nem elérhető. A jelentkezés lejárt."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Nincs jogosultságod jelentkezést küldeni a klánnak."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Klán toborzás lezárva."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "A klán létszáma teljes."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Művelet nem elérhető. Klán nem létezik."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Művelet nem elérhető. A klán tele van."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Művelet nem elérhető. Klán feloszlatva."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Művelet nem elérhető. Klán inaktív."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Ez a művelet nem elérhető az ilyen típusú fiókokon."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Művelet nem elérhető. Nincs megfelelő jogköröd."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Művelet nem elérhető. Meghívó nem létezik."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Művelet nem elérhető. Meghívó lejárt."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Művelet nem elérhető. Erődítmény nem elérhető."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Művelet nem elérhető. Elérted a maximálisan elküldhető jelentkezések számát."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Művelet nem elérhető. Elérted a maximálisan elküldhető meghívások számát."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Művelet nem elérhető. Próbáld később."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s már tagja egy klánnak."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" nem kompatibilis ezzel a járművel."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" nem kompatibilis ezzel a toronnyal. Cseréld le a tornyot."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" rossz típusú."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" rossz nemzetiségű."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" nem kompatibilis ezzel a járművel."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" rossz típusú."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" rossz nemzetiségű."
+
+msgid "client_inactive"
+msgstr "Kliens inaktív"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "A gyűjtemények karbantartás miatt átmenetileg nem elérhetőek."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "A gyűjtemények nem elérhetőek"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Gyűjtemények javítva. Elnézésedet kérjük a kellemetlenségekért."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "A gyűjtemények ismét elérhetőek"
+
+msgid "connected"
+msgstr "Üdvözlünk a World of Tanks %s szerverén!"
+
+msgid "consumables_apply/error"
+msgstr "Fogyócikk konfigurációs hiba. Kérjük, próbáld meg újra később."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Fogyócikk műveleti hiba. Nincs elegendő fedezet a vásárláshoz."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "A művelet nem elérhető. Az aranyad elérhető lesz, amint a WG Wallet működése helyreállt."
+
+msgid "conversion/error"
+msgstr "Nem sikerült leszerelni: a szerver nem érhető el. Kérjük, próbáld meg újra később."
+
+msgid "conversion/header"
+msgstr "Dátum: %(at)s\nHozzáadva:"
+
+msgid "conversion/success"
+msgstr "Leszerelésre váró alulképzett legénység: %(number)s"
+
+msgid "conversion/title"
+msgstr "Nyugta"
+
+msgid "conversionPerks/header"
+msgstr "Időpont: %(at)s\nAz XP átváltása a legénységi készségekből átlépi a határértéket. Megszerezve:"
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "A privát csevegés nem érhető el az országod játékosai számára."
+
+msgid "crewBooks/failed"
+msgstr "Nem sikerült kiképezni a legénységet.\nPróbálkozz újra később."
+
+msgid "crewBooks/server_error"
+msgstr "A harckocsizó kiképzése szerverhiba miatt nem sikerült. Próbálkozz újra később."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (%(count)sx)"
+
+msgid "crewBooksNotification/success"
+msgstr "Legénység kiképezve.\nElköltve:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Szerverhiba miatt nem lehet megvásárolni a legénységi könyvet. Próbáld újra később."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s darab).\nElköltött kredit: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Szerverhiba miatt nem lehet eladni a legénységi könyvet. Próbáld újra később."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s darab).\nSzerzett kredit: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Legénység kinézet megváltozott."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Legénység kinézet hozzáadva:%(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "A jelenlegi jármű leváltása a(z) %s járműre."
+
+msgid "customization/added/attachment"
+msgstr "%s 3D-kiegészítő hozzáadva"
+
+msgid "customization/added/attachmentValue"
+msgstr "%s 3D-kiegészítő hozzáadva: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "%s álcafestés hozzáadva"
+
+msgid "customization/added/camouflageValue"
+msgstr "%s álcafestés hozzáadva: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "%s matrica hozzáadva"
+
+msgid "customization/added/decalValue"
+msgstr "%s matrica hozzáadva: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "%s embléma hozzáadva"
+
+msgid "customization/added/emblemValue"
+msgstr "%s embléma hozzáadva: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "%s felirat hozzáadva"
+
+msgid "customization/added/inscriptionValue"
+msgstr "%s felirat hozzáadva: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "%s hatás hozzáadva"
+
+msgid "customization/added/modificationValue"
+msgstr "%s hatás hozzáadva: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "%s festés hozzáadva"
+
+msgid "customization/added/paintValue"
+msgstr "%s festés hozzáadva: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "%s egyjegyű szám hozzáadva"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "%s egyjegyű szám hozzáadva: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "%s kétjegyű szám hozzáadva"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "%s kétjegyű szám hozzáadva: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "%s három számjegyű szám hozzáadva"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "%s három számjegyű szám hozzáadva: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "%s matrica hozzáadva"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "%s matrica hozzáadva: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "Stat nyomkövető: %s hozzáadva"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Stat nyomkövető: %s hozzáadva: (x%s)"
+
+msgid "customization/added/style"
+msgstr "%s stílus hozzáadva"
+
+msgid "customization/added/styleValue"
+msgstr "%s stílus hozzáadva: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Testreszabás nem lehetséges. Nincs elég kredited és aranyad."
+
+msgid "customization/credits_not_enough"
+msgstr "Testreszabás nem lehetséges. Nincs elég kredited."
+
+msgid "customization/currency_not_enough"
+msgstr "Nincs elegendő fizetőeszköz a tárgy megvásárlásához."
+
+msgid "customization/gold_not_enough"
+msgstr "Testreszabás nem lehetséges. Nincs elég arany."
+
+msgid "customization/igr_type_changed_error"
+msgstr "IGR státusz változás. Az aktuális művelet megszakítva."
+
+msgid "customization/invalidVehicle"
+msgstr "Nem lehet alkalmazni: nem megfelelő jármű"
+
+msgid "customization/personal_number_prohibited"
+msgstr "%(value)s szám nem elérhető.\nA(z) %(itemType)s%(itemName)s el lett távolítva a(z)%(seasonName)s pályákra."
+
+msgid "customization/progression/down/style"
+msgstr "%s stílus %s. szintre csökkentve"
+
+msgid "customization/progression/up/style"
+msgstr "%s stílus %s. szintre fejlesztve"
+
+msgid "customization/prohibited"
+msgstr "Nem alkalmazható: %(itemName)s nincs a leltárban."
+
+msgid "customization/removed/attachment"
+msgstr "%s 3D-kiegészítő eltávolítva"
+
+msgid "customization/removed/attachmentValue"
+msgstr "%s 3D-kiegészítő eltávolítva: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "%s álcafestés eltávolítva"
+
+msgid "customization/removed/camouflageValue"
+msgstr "%s álcafestés eltávolítva: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "%s matrica eltávolítva"
+
+msgid "customization/removed/decalValue"
+msgstr "%s matrica eltávolítva: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "%s embléma eltávolítva"
+
+msgid "customization/removed/emblemValue"
+msgstr "%s embléma eltávolítva: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "%s felirat eltávolítva"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "%s felirat eltávolítva: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "%s hatás eltávolítva"
+
+msgid "customization/removed/modificationValue"
+msgstr "%s hatás eltávolítva: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "%s festés eltávolítva"
+
+msgid "customization/removed/paintValue"
+msgstr "%s festés eltávolítva: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "%s egyjegyű szám eltávolítva"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "%s egyjegyű szám eltávolítva: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "%s kétjegyű szám eltávolítva"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "%s kétjegyű szám eltávolítva: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "%s három számjegyű szám eltávolítva"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "%s három számjegyű szám eltávolítva: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "%s matrica eltávolítva"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "%s matrica eltávolítva: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Stat nyomkövető: %s eltávolítva"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Stat nyomkövető: %s eltávolítva: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "%s stílus eltávolítva"
+
+msgid "customization/removed/styleValue"
+msgstr "%s stílus eltávolítva: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Nem lehet testre szabni."
+
+msgid "customization/unavailable"
+msgstr "A jármű testreszabás lehetősége technikai problémák miatt, átmenetileg ki van kapcsolva."
+
+msgid "customization/vehicle_damaged"
+msgstr "Testreszabás nem lehetséges. Jármű sérült. Javítás szükséges."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Testreszabás nem lehetséges. Jármű kilőve. Javítás szükséges."
+
+msgid "customization/vehicle_exploded"
+msgstr "Testreszabás nem lehetséges. Jármű megsemmisítve. Javítás szükséges."
+
+msgid "customization/vehicle_locked"
+msgstr "Testreszabás nem lehetséges. Jármű zárolva van."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Általános küldetés újrapörgetése nem lehetséges: küldetést már teljesítetted."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Általános küldetés újrapörgetése nem lehetséges: művelet blokkolva."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Általános küldetés újrapörgetése nem lehetséges: művelet felfüggesztve."
+
+msgid "daily_quests/reroll/success"
+msgstr "Általános küldetés sikeresen újrapörgetve."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Általános küldetés újrapörgetése nem lehetséges. Próbáld újra később."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Ez a lehetőség technikai okok miatt átmenetileg nem elérhető.\nElnézést kérünk a kellemetlenségért."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Az általános küldetések átmenetileg nem elérhetőek"
+
+msgid "daily_quests/switch_on/body"
+msgstr "A technikai problémákat megoldottuk. Elnézésedet kérjük a kellemetlenségekért."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Az általános küldetések újra elérhetőek"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Ez a lehetőség technikai okok miatt átmenetileg nem elérhető.\nElnézést a kellemetlenségért."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "A kiosztható XP bónusz átmenetileg nem elérhető"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "A technikai problémákat megoldottuk. Elnézésedet kérjük a kellemetlenségekért."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "A kiosztható XP bónusz ismét elérhető"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Karbantartás miatt átmenetileg nem érhetőek el a leszerelő készlettel kapcsolatos műveletek."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "A leszerelő készlettel kapcsolatos műveletek újra elérhetőek. Elnézést kérünk a kellemetlenségért."
+
+msgid "denunciation/success"
+msgstr "%(name)s felhasználó feljelentése \"%(topic)s\" témában elfogadva."
+
+msgid "disconnected"
+msgstr "A kliens elvesztette a kapcsolatot a szerverrel."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "A legénységi tagot nem lehet elbocsájtani: a tanknak egyedig, állandó legénysége van."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Hiba egy harckocsizó elbocsátása közben. Nem megfelelő jármű."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Nem sikerült leszerelni ezt a harckocsizót.\nPróbálkozz újra később."
+
+msgid "dismiss_tankman/success"
+msgstr "A harckocsizó leszerelt."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Hiba a harckocsizó elbocsátása közben. A jármű zárolva."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Hiba a harckocsizó elbocsátása közben. Javítsd meg a járművet."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Ez a lehetőség technikai okok miatt átmenetileg nem elérhető.\nElnézést kérünk a kellemetlenségért."
+
+msgid "dog_tags/switch_off/title"
+msgstr "A dögcédulák átmenetileg nem elérhetőek"
+
+msgid "dog_tags/switch_on/body"
+msgstr "A technikai problémákat megoldottuk. Elnézésedet kérjük a kellemetlenségekért."
+
+msgid "dog_tags/switch_on/title"
+msgstr "A dögcédulák ismét elérhetőek"
+
+msgid "dossiers_unavailable"
+msgstr "Fiók nincs kész (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Az összes készséget visszaállítottad.\nElköltött kredit: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Az összes készséget visszaállítottad.\nElköltött arany: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Hiba a készségek visszaállítása közben. Nem megfelelő jármű."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Nem sikerült visszaállítani a készségeket. Próbálkozz újra később."
+
+msgid "drop_tankman_skill/success"
+msgstr "Az összes készséget visszaállítottuk."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Hiba a készségek visszaállítása közben. A jármű zárolva."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Hiba a készségek visszaállítása közben. Javítsd meg a járművet."
+
+msgid "drr_scale/step_down"
+msgstr "Dinamikus felbontás csökkentve: %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Dinamikus felbontás megnövelve: %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "A kitüntetésekhez"
+
+msgid "earning/button/single"
+msgstr "A kitüntetéshez"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s kitüntetés feloldva!"
+
+msgid "earning/common/single"
+msgstr "%(value)s kitüntetés feloldva!"
+
+msgid "earning/title"
+msgstr "Gratulálunk!"
+
+msgid "earning/trophy/multiple"
+msgstr "%(value)s trófea megszerezve!"
+
+msgid "earning/trophy/single"
+msgstr "%(value)s trófea megszerezve!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "A Gyors szerviz újra elérhető. Elnézést kérünk az esetleges kellemetlenségekért."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "A Gyors szerviz karbantartás miatt átmenetileg nem érhető el."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Hiba a Gyors szerviz konfigurációjának alkalmazásakor. Kérjük, próbáld újra később."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Hiba a Gyors szerviz konfigurációjának alkalmazásakor. Nincs elegendő fedezeted a vásárláshoz."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "A Gyors szerviz művelet nem érhető el. Az aranyad elérhető lesz, amint a WG Wallet működése helyreállt."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Megszerzett jutalom:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Elérted a Frontvonal folyamat <font color='#E9E2BF'>%(tier)s</font> szintjét."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Gratulálunk!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "A Frontvonal nem elérhető. Kövesd a frissítéseket a játék weboldalán."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Hiba a jutalmak kiválasztásakor. Kérjük, próbáld meg újra."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "%(name)s megszerezve"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Felszerelés direktívák megszerezve: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Kísérleti felszerelést kaptál: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "A Frontvonal szezon véget ért.<br/>Azokat a jutalmakat, amelyeket nem választottál ki a szezon alatt, megkaptad alapértelmezettként:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Frontvonal"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "A legénységi tagot nem lehet áthelyezni: a tanknak egyedi, állandó legénysége van."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Hiba egy harckocsizó áthelyezése közben. Nem megfelelő jármű."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Nem sikerült a Barakkba küldeni a legénységet. Nincs elég férőhely a Barakkban."
+
+msgid "equip_tankman/server_error"
+msgstr "Nem sikerült áthelyezni a harckocsizót a járműbe. Próbálkozz újra később."
+
+msgid "equip_tankman/success"
+msgstr "A harckocsizót áthelyezted a(z) %(vehName)s járműbe."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Hiba a harckocsizó áthelyezése közben. A jármű zárolva."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Hiba a harckocsizó áthelyezése közben. Javítsd meg a járművet."
+
+msgid "exchange/not_enough_gold"
+msgstr "Nincs elég arany az átváltáshoz."
+
+msgid "exchange/server_error"
+msgstr "Hiba a(z) %(gold)s arany átváltása közben. Próbáld később."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Nincs elég arany %(xp)s XP átváltásához."
+
+msgid "exchangeXP/server_error"
+msgstr "Hiba a(z) %(xp)s XP átváltása közben. Próbáld később."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Nem lehet kiképezni új készségeket.\nA szerver nem érhető el. Próbáld újra később!"
+
+msgid "filling_untrained_perks/success"
+msgstr "Új készségeket képeztél ki minden harckocsizó számára."
+
+msgid "fortification/addOrder"
+msgstr "%(count)s tartalék(ok) felkészítése megkezdődött. Hátralévő idő: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "%(buildingName)s építése megkezdődött. A zavartalan építkezéshez szállítsd át a szükséges nyersanyagot."
+
+msgid "fortification/created"
+msgstr "Szép munka!\nAz erőd létrehozva."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Az erődítmény védelme ki lesz kapcsolva 48 óra múlva. Ez idő alatt vissza tudod kapcsolni a védelmet az erődítmény beállításokban."
+
+msgid "fortification/defenceHourSet"
+msgstr "A védekezési időszak beállításai 14 nap múlva megváltoznak. A védelem új ideje: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "A tűzszüneti nap, 14 nap múlva megváltozik. A tűzszünet új napja—nincs beállítva."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "A tűzszüneti nap, 14 nap múlva megváltozik. A tűzszünet új napja—%(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "%(buildingName)s lerombolva."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "A művelet nem hajtható végre. Már hozzárendeltek az épülethez."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "A művelet nem hajtható végre. Az erőd már elkészült."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "A művelet nem elérhető. A klán már könyvjelzőben van."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "A művelet nem elérhető. Ugyanaz a klán ellen nem tudsz egynél több támadást tervezni."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "A művelet nem elérhető. A támadás adata nem lett betöltve."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "A művelet nem elérhető. Ugyanaz a klán ellen egy hétnek el kell telnie a legutóbbi támadás óta."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "A művelet nem elérhető. Másik osztag birtokolja a hídfőállást."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "A művelet nem elérhető. Támadás nincs tervbe véve."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "A művelet nem elérhető. Csak akkor tervezheted meg a támadást, ha az 15 percen belül elkezdődik."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Nem lehet csatát beütemezni a kiválasztott napra."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "A művelet nem elérhető. Helytelen klán ID."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "A művelet nem elérhető. Helytelen érték a tűzszüneti napra."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "A művelet nem elérhető. Helytelen dátum."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "A művelet nem elérhető. Az előrenyomulás ID-je helytelen."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "A művelet nem elérhető. Helytelen érték a védekezési időszakra."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Nem lehet megtámadni a kiválasztott klánt: az erődítmények szintje közti különbség több, mint egy. Válassz másik klánt."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "A művelet nem elérhető. Helytelen számú tartalék."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "A művelet nem elérhető. Érvénytelen mennyiségű nyersanyag átszállítva."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "A művelet nem elérhető. Helytelen divízió."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "A művelet nem hajtható végre. A csatározások részletei nem elérhetőek."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "Ezen a szerveren jelenleg korlátozva vannak a csaták."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "A művelet nem elérhető. Érvénytelen semlegességi időszak."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "A művelet nem elérhető. Helytelen semlegességi nap."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "A művelet nem elérhető. Javítsd meg a parancsnoki központot."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "A művelet nem elérhető. Parancsnoki központ megsemmisült."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "A művelet nem elérhető. Parancsnoki központ nem sérült meg."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "A művelet nem elérhető. A csata nem létezik."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Sajnálom. A csata eredménye nem elérhető."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Eltávolítás nem lehetséges. Az erőd épületeket tartalmaz."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "A művelet nem elérhető. Épület megsérült."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "A művelet nem elérhető. Az épület nem készült el."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "A művelet nem elérhető. Nem lehet a klán adatait visszaállítani."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "A művelet nem elérhető. Nem lehet klánt találni."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "A művelet nem elérhető. Szállítás nem elérhető."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "A művelet nem elérhető. Az épület nem fejleszthető."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Művelet visszautasítva. A szerver átmenetileg nem elérhető."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "A művelet nem elérhető. A klán aktiválta a tűzszüneti napot."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "A művelet nem elérhető. A klán aktiválta a semlegességet."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "A művelet nem elérhető. A védelmi periódus nem állítható be a megadott időre."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "A művelet nem elérhető. Másik osztag birtokolja a hídfőállást."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "A művelet nem elérhető. Védekezés nincs tervbe véve."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "A művelet nem elérhető. Érvénytelen adat."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "A művelet nem elérhető. Védelem nincs engedélyezve."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Az erődítmény átmenetileg nem elérhető."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "A művelet nem elérhető. Az épület már elkészült."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "A művelet nem elérhető. Kérlek várj, amíg a jelenlegi művelet befejeződik."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "A művelet nem elérhető. Abban az időpontban már más klánt támadsz."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "A kért időpontban nem tervezhetsz támadást ez ellen a klán ellen."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Hiba. Az erődítmény átmenetileg nem elérhető."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "A művelet nem elérhető. Az erődítmény szintje túl alacsony."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "A művelet nem elérhető. Az összes épület építése szüneteltetve van."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Művelet nem elérhető. Nincs megfelelő jogköröd."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "A művelet nem lehetséges. Nem lehet a taktikai egységhez csatlakozni."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "A művelet ideiglenesen nem elérhető."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "A művelet nem elérhető. Az idő nincs szinkronizálva."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "A művelet nem elérhető. Nem vagy az épülethez rendelve."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "A művelet nem elérhető. A játékos nem klán tag."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "A művelet nem elérhető. Nincs elegendő klán tag."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "A művelet nem elérhető. Nincs elegendő ipari nyersanyag az épület raktárában."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "A művelet nem elérhető. Klán nincs a könyvjelző listában."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "A művelet nem elérhető. Az épület nem készült el."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "A művelet nem elérhető. Nem vagy tagja egy klánnak sem."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "A művelet nem elérhető. A tartalékot jelenleg nem lehet aktiválni."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "A művelet nem elérhető. Rossz épület."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "A művelet nem elérhető. Tartalék nem áll rendelkezésre vagy nincs kijelölve."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "A művelet nem elérhető. Rossz tartalék."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "A művelet nem elérhető. Rossz tartalék."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "A művelet nem elérhető. Az épület már megépült."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "A művelet nem elérhető. Támadás nem létezik."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "A művelet nem elérhető. A tartalék már használatban van."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "A művelet nem elérhető. A tartalék előkészítése már folyamatban van."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "A művelet nem elérhető. Építés már szüneteltetve van."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "A művelet nem elérhető. Tartalék nem elérhető."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "A művelet nem elérhető. Építés nincs szüneteltetve."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "A művelet nem elérhető. Szerver offline."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "A művelet nem elérhető. Hely már elfoglalva."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "A művelet nem elérhető. Védelem már ki van kapcsolva."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "A művelet nem elérhető. Védelem még nincs kikapcsolva."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "A művelet nem elérhető. Tréning nincs befejezve."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "A művelet nem elérhető. A raktár megtelt."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "A művelet nem elérhető. Erre a napra már tervbe van véve a védekezés."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "A könyvjelzőzött klánok maximális száma elérve."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "A művelet nem elérhető. Az előkészíthető tartalék maximális szintje elérve."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "A művelet nem elérhető. Az épület helyőrsége megtelt."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "A művelet nem elérhető. Csatározás limit elérve."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "A művelet nem elérhető. Szállítás átmenetileg nem elérhető."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "A művelet nem elérhető. Szállítás limit elérve."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "A művelet nem elérhető. Játékos még nem áll készen."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "A művelet nem elérhető. Nem lehet megsemmisíteni a parancsnoki központot."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Művelet nem elérhető. Helytelen klán."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "A művelet nem elérhető. Helytelen szerver."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "A művelet nem elérhető. Nem építhető épület erre a területre."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Csatlakoztál az épülethez %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "Az Előrenyomulás a szervert érintő technikai problémák miatt meg lett állítva."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Fejlesztés sikeres. %(buildingName)s épület szintje %(buildingLevel)s szintre nőtt."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Az erőd átmenetileg nem érhető el. Próbálkozz újra később."
+
+msgid "fortification/notification/turnedOn"
+msgstr "Az Erőd: Csaták játékmód ismét elérhető."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Tartalék aktiválása"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Épület építése"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Klán hozzáadása a könyvjelzőhöz"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Tartalék aktiválása"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Játékos hozzáadása helyőrséghez"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Védekezési időszak engedélyezése"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Védekezési időszak beállítása"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Tűzszünet beállítása"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Szerver váltása"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Beállítások megváltoztatása"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Semlegesség beállítása"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Erődítmény létrehozása"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Osztag létrehozása"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Épület eltávolítása"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Erődítmény eltávolítása"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Támadás ütemezése"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Könyvjelzőzött klán eltávolítása"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Klán részleteinek megtekintése"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Klánok részleteinek megtekintése"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Osztag részletek lekérdezése"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Védekezési időszak kikapcsolása"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Szállítás"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Épület fejlesztés"
+
+msgid "fortification/transport"
+msgstr "Szállítás sikeresen bejeződött. %(res)s ipari nyersanyag átszállítva %(fromBuilding)s épületből %(toBuilding)s épületbe."
+
+msgid "fortification/vacationSet"
+msgstr "Az erődítmény semleges marad %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Művelet nem elérhető."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Hiba a harckocsizó képzése közben. Nincs elég szabad tapasztalat."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Hiba a harckocsizó képzése közben. Ez a harckocsizó nem létezik."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Hiba a harckocsizó képzése közben. Próbáld újra később."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Hiba a harckocsizó képzése közben. Próbáld újra később."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Nem sikerült kiképezni a harckocsizót szabad XP-vel.\n Próbálkozz újra később."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Harckocsizó kiképezve.\nElköltött szabad XP: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "A gyermekek és kamaszok játékfüggőségének megelőzése érdekében a csatába való belépést letiltottuk. %(blockTime)s -kor lecsatlakoztatunk a szerverről."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Játékból hátralévő idő: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "Az időkorlát lejár, ezért nem tudsz új csatába belépni. Le leszel csatlakoztatva a szerverről a következő időpontban: %s."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Játék időtartalma: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Éjfélig hátralévő idő: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "A játékidőd véget ért. Nem léphetsz be új csatába. A szerverrel való kapcsolat megszakad ekkor: %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "A játékidő-korlátot eltávolítottuk a fiókodról"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "A szülői felügyeleti beállítások megváltoztak."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Ki leszel jelentkeztetve a szerverről a következő időpontban: %(timeLimit)s."
+
+msgid "graficsOptionsFail"
+msgstr "A videokártya nem kompatibilis. Nem lehet alkalmazni a következő beállításokat: %s."
+
+msgid "graficsPresetFail"
+msgstr "A videokártya nem kompatibilis. Nem lehet alkalmazni a kiválasztott grafikai minőséget."
+
+msgid "igr/customization/begin"
+msgstr "Ingyenes álcafestések, feliratok és emblémák elérhetők %(igrIcon)s."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s lejárt. Az ingyenes álcafestések, feliratok és emblémák eltávolításra kerülnek a járművedről."
+
+msgid "info/noAvailable"
+msgstr "Részletes leírás nem elérhető."
+
+msgid "install_component"
+msgstr "%s \"%s\" modul felszerelve a járműre."
+
+msgid "install_vehicle_broken"
+msgstr "%s \"%s\" modul felszerelése nem lehetséges: a jármű sérült. Javítsd meg a járművet és próbáld újra."
+
+msgid "install_vehicle_locked"
+msgstr "A jármű zárolva van; %s \"%s\" modul felszerelése nem lehetséges."
+
+msgid "inventory/item/already_exists"
+msgstr "%(typeString)s \"%(userString)s\" modul már megtalálható a depóban."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Kérés küldése a felszereléshez. Várakozás a szerver válaszára."
+
+msgid "inventory/item/not_found"
+msgstr "%(typeString)s \"%(userString)s\" modul nem található a depóban."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "%(userString)s jármű már elérhető a depóban."
+
+msgid "inventory/vehicle/not_found"
+msgstr "%(userString)s nem található a depóban."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "Nem küldhető meghívás %(name)s légiósnak."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "Nem küldhető meghívás %(name)s játékosnak: hibás klán."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nem sikerült feltölteni a fogyócikkeket. Próbáld újra később."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nem sikerült feltölteni a fogyócikkeket. Próbáld újra később."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nem sikerült feltölteni a fogyócikkeket. Próbáld újra később."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nem sikerült feltölteni a lőszereket. Próbáld újra később."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nem sikerült feltölteni a lőszereket. Maximális lőszeradag már betöltve."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nem sikerült feltölteni a fogyócikkeket. Próbáld újra később."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nincs elég kredited a fogyócikkek megvásárlásához. Próbáld újra később."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nincs elég kötvényed a fogyócikkek megvásárlásához."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nincs elég aranyad a fogyócikkek megvásárlásához. Próbáld újra később."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nem sikerült feltölteni a fogyócikkeket. Próbáld újra később."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "\"%(vehName)s\" szervizelési hiba. Hibás jármű."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nincs elég kredited lőszer vásárlásához."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "\"%(vehName)s\" szervizelési hiba. Nincs elég aranyad lőszer vásárláshoz."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "\"%(vehName)s\" szervizelési hiba. Jármű zárolva."
+
+msgid "layout_apply/error"
+msgstr "\"%(vehName)s\" szervizelési hiba. Próbáld újra később."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "\"%(vehName)s\" szervizelési hiba. Hibás jármű."
+
+msgid "layout_apply/success_money_spent"
+msgstr "%(money)s elköltve lőszerre."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "\"%(vehName)s\" szervizelési hiba. Jármű zárolva."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "limitedUI/switchOff"
+msgstr "A rejtett kezelőfelület-elemek fokozatos megjelenítése átmenetileg ki van kapcsolva."
+
+msgid "limitedUI/switchOn"
+msgstr "A rejtett kezelőfelület-elemek fokozatos megjelenítése ismét engedélyezve van. Kikapcsolhatod a beállításokban."
+
+msgid "locked_vehicle_error"
+msgstr "Ez a művelet nem érhető el előre konfigurált járművekkel."
+
+msgid "login_to_other_game_unknown"
+msgstr "az aktuális játékmenet megszakadt. A Wargaming.net&nbsp;ID-d másik játékba van bejelentkezve"
+
+msgid "login_to_other_game_web"
+msgstr "az aktuális játékmenet megszakadt. Kiléptél a szerverről a játék főoldalán."
+
+msgid "login_to_other_game_wot"
+msgstr "az aktuális játékmenet megszakadt. A Wargaming.net&nbsp;ID-d a World&nbsp;of&nbsp;Tanks-ba van bejelentkezve"
+
+msgid "login_to_other_game_wotb"
+msgstr "az aktuális játékmenet megszakadt. A Wargaming.net&nbsp;ID-d a World&nbsp;of&nbsp;Tanks&nbsp;Blitz-be van bejelentkezve"
+
+msgid "login_to_other_game_wotg"
+msgstr "az aktuális játékmenet megszakadt. A Wargaming.net&nbsp;ID-d a World&nbsp;of&nbsp;Tanks&nbsp;Generals-ba van bejelentkezve"
+
+msgid "login_to_other_game_wowp"
+msgstr "az aktuális játékmenet megszakadt. A Wargaming.net&nbsp;ID-d a World&nbsp;of&nbsp;Warplanes-be van bejelentkezve"
+
+msgid "login_to_other_game_wows"
+msgstr "az aktuális játékmenet megszakadt. A Wargaming.net&nbsp;ID-d a World&nbsp;of&nbsp;Warships-be van bejelentkezve"
+
+msgid "lootboxes/open/server_error"
+msgstr "Hiba az ajándék átvételekor: szerverhiba."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Hiba az ajándék átvételekor. Kérjük, várd meg, amíg az előző művelet befejeződik."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "A művelet átmenetileg nem érhető el. Próbálkozz újra később."
+
+msgid "mapbox/notification/primeTime"
+msgstr "A Felderítő küldetés nem elérhető a tűzszünet végéig."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Tűzszünet"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Szerver hiba"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "A művelet nem elérhető. Kérlek várj, amíg a jelenlegi művelet befejeződik."
+
+msgid "maps_black_list/select/success"
+msgstr "Ezt a pályát kizártad a Normál csatákból: %(mapName)s. A választásodat %(time)s múlva módosíthatod."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "Ezt a pályát kizártad a Normál csatákból: %(mapName)s. %(time)s múlva módosíthatod a választásodat, vagy megnyithatsz egy további helyet WoT prémium fiók aktiválásával, illetve WoT plusz előfizetéssel."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "Ezt a pályát kizártad a Normál csatákból: %(mapName)s. %(time)s múlva módosíthatod a választásodat, vagy megnyithatsz egy további helyet WoT plusz előfizetéssel."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "Ezt a pályát kizártad a Normál csatákból: %(mapName)s. %(time)s múlva módosíthatod a választásodat, vagy megnyithatsz egy további helyet WoT prémium fiók aktiválásával."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Ez a lehetőség technikai okok miatt átmenetileg nem elérhető.\nElnézést a kellemetlenségért."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "A pálya kizárás átmenetileg nem elérhető"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "A technikai problémákat megoldottuk. Elnézésedet kérjük a kellemetlenségekért."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "A pálya kizárás újra elérhető"
+
+msgid "maps_training/switch/title"
+msgstr "Térképészet"
+
+msgid "maps_training/switch_off/body"
+msgstr "Ez a mód ki van kapcsolva."
+
+msgid "maps_training/switch_on/body"
+msgstr "Ez a mód be van kapcsolva."
+
+msgid "memberRosterChangedMain"
+msgstr "%s áthelyezte %s játékost a fő csapatba."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s áthelyezte %s játékost a tartalék csapatba."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Nincs elég memória. Indítsd újra a játékot."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Nincs elég memória. Alacsony textúra minőség."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Nincs elég memória. Közepes textúra minőség."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Nincs elég memória. A textúra minőség lecsökkentve. Indítsd újra a játékot."
+
+msgid "missingEvents/button"
+msgstr "Kinyitás"
+
+msgid "missingEvents/header"
+msgstr "Események"
+
+msgid "missingEvents/text"
+msgstr "Fontos események, amikről lemaradtál: "
+
+msgid "module_apply/error_is_current"
+msgstr "%(kind)s \"%(name)s\" modul már fel van szerelve."
+
+msgid "module_apply/error_need_gun"
+msgstr "%(kind)s \"%(name)s\" nem szerelhető fel a járműre a jelenlegi löveggel."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" nem kompatibilis a jelenlegi toronnyal. Cseréld le a tornyot."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" nincs felszerelve. Nincs kompatibilis löveg a depóban."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" nem kompatibilis a jelenlegi toronnyal. Cseréld le a tornyot."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" nem jó ehhez a járműhöz."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "%(kind)s \"%(name)s\" modul nem kompatibilis a következő fogyócikkekkel \"%s\"."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" rossz típusú."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" rossz nemzetiségű."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "\"%(items)s\" fogyócikk a Depóba lett küldve a jelenlegi modullal való inkompatibilitás miatt."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Rossz jármű. %(kind)s \"%(name)s\" modul felszerelése nem lehetséges."
+
+msgid "module_apply/server_error"
+msgstr "%(kind)s \"%(name)s\" modul felszerelésekor szerver hiba lépett fel. Próbáld újra később."
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" felszerelve a járműre."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\" felszerelve a járműre \"%(gun)s\" löveggel."
+
+msgid "module_apply/vehicle_locked"
+msgstr "A jármű zárolva, ezért nem lehet a %(kind)s \"%(name)s\" modult felszerelni."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "%(kind)s \"%(name)s\" modul felszerelése sikertelen: jármű sérült. Javítsd meg a járművet."
+
+msgid "module_buy/error_is_current"
+msgstr "\"%(name)s\" (%(kind)s) modul már fel van szerelve."
+
+msgid "module_buy/error_need_gun"
+msgstr "\"%(name)s\" (%(kind)s) nem szerelhető fel a járműre a jelenlegi löveggel."
+
+msgid "module_buy/error_need_turret"
+msgstr "\"%(name)s\" (%(kind)s) nem kompatibilis a jelenlegi toronnyal. Cseréld le a tornyot."
+
+msgid "module_buy/error_no_gun"
+msgstr "\"%(name)s\" (%(kind)s) nincs felszerelve. Nincs kompatibilis löveg a depóban."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "\"%(name)s\" (%(kind)s) nem kompatibilis ezzel a toronnyal. Cseréld le a tornyot."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "\"%(name)s\" (%(kind)s) nem kompatibilis ezzel a járművel."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "\"%(name)s\" (%(kind)s) modul nem kompatibilis a következő fogyócikkekkel \"%s\"."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "\"%(name)s\" (%(kind)s) nem megfelelő típusú."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "\"%(name)s\" (%(kind)s) nem megfelelő nemzetiségű."
+
+msgid "module_buy/invalid_module"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Rossz modul."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Rossz jármű. \"%(name)s\" (%(kind)s) modult nem lehet megvenni és felszerelni."
+
+msgid "module_buy/not_enough_credits"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Nincs elég kredited."
+
+msgid "module_buy/not_enough_gold"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Nincs elég aranyad."
+
+msgid "module_buy/server_error"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. Próbáld újra később."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "\"%(name)s\" (%(kind)s) megvásárlása sikertelen. A szerver pillanatnyilag nem elérhető."
+
+msgid "module_buy/success"
+msgstr "\"%(name)s\" (%(kind)s ) modul sikeresen megvásárolva (%(count)s darab). Elköltve: %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Jármű zárolva. \"%(name)s\" (%(kind)s) modult nem lehet megvenni és felszerelni."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "\"%(name)s\" (%(kind)s) modult nem lehet megvenni és felszerelni. Javítsd meg a járműved és próbálkozz újra."
+
+msgid "module_buy/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "module_sell/invalid_module"
+msgstr "%(kind)s \"%(name)s\" eladása sikertelen. Rossz modul."
+
+msgid "module_sell/server_error"
+msgstr "%(kind)s \"%(name)s\" eladása sikertelen. Próbáld újra később."
+
+msgid "module_sell/success"
+msgstr "%(kind)s \"%(name)s\" modul (%(count)s darab). Kaptál: %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "Kaptál: %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Hiba a konfigurációváltás közben"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Hiba a konfigurációváltás közben"
+
+msgid "nation_change/error"
+msgstr "Hiba a konfigurációváltás közben"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: nemzeti konfiguráció átváltva"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Technikai okok miatt a napi küldetések frissültek. A küldetésekben elért előrehaladást mentettük."
+
+msgid "notrecruit_window/success"
+msgstr "Harckocsizó toborozva.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "A művelet átmenetileg nem elérhető. Próbáld meg később."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Hiba az ajándék megszerzésekor: szerverhiba"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Hiba az ajándék megszerzésekor: néhány jutalom késik - próbáld meg később igényelni őket."
+
+msgid "offers/switch_off/body"
+msgstr "Homefront utánpótlás szolgáltatás jelenleg nem elérhető."
+
+msgid "offers/unavailable_many"
+msgstr "Nem elérhető akciók: %(count)s tárgy."
+
+msgid "offers/unavailable_one"
+msgstr "Akció nem elérhető."
+
+msgid "optionalDevices_apply/error"
+msgstr "Felszerelés konfigurációs hiba. Kérjük, próbáld meg újra később."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Felszerelés műveleti hiba. Nincs elegendő fedezet a vásárláshoz."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "A művelet nem elérhető. Az aranyad elérhető lesz, amint a WG Wallet működése helyreállt."
+
+msgid "optionalDevices_remove/error"
+msgstr "Felszerelés konfigurációs hiba. Kérjük, próbáld meg újra később."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "A kapcsolatlistádon nem szereplő játékosokkal történő privát csevegés nem érhető el számodra."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "A privát csevegés nem érhető el számodra."
+
+msgid "parentControl/linkText"
+msgstr "Dátum megadása"
+
+msgid "parentControl/mainText"
+msgstr "Kérjük, add meg a születési dátumodat."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "A kapcsolatlistádon nem szereplő játékosokkal történő privát csevegés nem érhető el a szülői felügyelet beállításai miatt."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "A privát csevegés nem érhető el a szülői felügyelet beállításai miatt."
+
+msgid "parentControl/title"
+msgstr "Életkor megerősítése"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Transzfer nem elérhető. Nem lehet meghatározni a szervert."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Megszerzett jutalom:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Tovább a hadművelethez"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Küldetés teljesítve"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Válts járművet a küldetés teljesítésének folytatásához."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Hadművelet: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Teljesítve: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "%(campaignName)s kampány kitüntetéssel teljesítve!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "%(operationName)s hadművelet teljesítve!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "%(operationName)s hadművelet kitüntetéssel teljesítve!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "A kampányok karbantartás miatt átmenetileg nem érhetők el."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "A kampányok újra elérhetők. Elnézést a kellemetlenségekért."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "A következő kampány karbantartás miatt átmenetileg nem érhető el: %(campaignName)s."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "A következő kampány újra elérhető: %(campaignName)s. Elnézést a kellemetlenségekért."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "%(operationName)s hadművelet %(missionName)s küldetése karbantartás miatt átmenetileg nem érhető el."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "%(operationName)s hadművelet %(missionName)s küldetése újra elérhető. Elnézést a kellemetlenségekért."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "%(campaignName)s kampány %(operationName)s hadművelete karbantartás miatt átmenetileg nem érhető el."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "%(campaignName)s kampány %(operationName)s hadművelete újra elérhető. Elnézést a kellemetlenségekért."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Hiba a kampányok közötti váltás során. Kérjük, próbálkozz újra később."
+
+msgid "personalMissions/badge"
+msgstr "%(name)s jelvény megszerezve."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Egyedi álcafestés %(vehicleName)s járműhöz megszerezve."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "A(z) %(vehicleName)s jármű egyedi álcafestése, elérhető a következő nemzet minden járművére: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Az elért előrehaladásodat elmentettük. Bármikor folytathatod a kampányokat."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "%(campaignName1)s és %(campaignName2)s kampány szünetel"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "A szüneteltetett hadműveletek és azok küldetései folytatódnak."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "%(campaignName1)s és %(campaignName2)s kampány folytatódik"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Az elért előrehaladásodat elmentettük. Bármikor folytathatod a kampányt."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "%(campaignName)s kampány szünetel"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "A szüneteltetett hadműveletek folytatódnak."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "%(campaignName)s kampány folytatódik"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "Sikeresen felszerelted ezt: %(detailName)s."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Hadművelet: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "A küldetés visszaállítása nem lehetséges. Próbáld újra később."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "A művelet nem elérhető. Küldetések átmenetileg ki vannak kapcsolva."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "A küldetés visszaállítása jelenleg nem lehetséges. Próbáld újra később."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "A küldetés visszaállítása jelenleg nem lehetséges. Kérlek, várj, amíg ez a típusú jármű nem lesz csatában."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "A küldetés visszaállítása jelenleg nem lehetséges. Kérlek, várj, amíg ez a jármű csoport nem lesz csatában."
+
+msgid "personalMissions/discard/success"
+msgstr "A %(quest)s küldetés sikeresen visszaállítva."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Megszerzett parancsok: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Kiváltott parancsok: %(count)s\nEzeket újra felhasználhatod."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "Minden küldetéssorozat első küldetése aktiválásra került."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "%(operationName)s hadművelet aktiválva!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Jutalom megszerezve: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "%(name)s hadművelet teljesítve!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Az elért előrehaladásodat elmentettük. Bármikor folytathatod a hadműveletet."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "%(operationName)s hadművelet szünetel"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "A szüneteltetett küldetések folytatódnak."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "%(operationName)s hadművelet folytatódik"
+
+msgid "personalMissions/pause/server_error"
+msgstr "A küldetés nem lett szüneteltetve. Próbáld újra később."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "A művelet nem elérhető. Küldetések átmenetileg ki vannak kapcsolva."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "A küldetést jelenleg nem lehet szüneteltetni. Próbáld újra később."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "A küldetést jelenleg nem lehet szüneteltetni. Kérlek, várj, amíg ez a típusú jármű nem lesz csatában."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "A %(quest)s küldetés sikeresen szüneteltetve."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "A %(quest)s küldetés teljesítése sikeresen folytatva."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Hiba. Jelenleg nem lehet parancsot beváltani."
+
+msgid "personalMissions/pawn/success"
+msgstr "A %(questName)s küldetésre beváltott parancsok száma: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Hiba a jutalmak fogadásakor. Kérjük, próbálkozz újra később."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "Sikeresen felszerelted ezt: %(detail_name)s."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Nem lehet a jutalmat átvenni. Kérlek, próbálkozz újra később."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "A művelet nem elérhető. Küldetések átmenetileg ki vannak kapcsolva."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Nem lehet a jutalmat átvenni. Jutalom nem elérhető."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Nem lehet a jutalmat átvenni. Jutalom nem elérhető."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Nem lehet a jutalmat átvenni. Helytelen adat."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Nem lehet a jutalmat átvenni. Kérlek, próbálkozz újra később."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "A művelet nem elérhető. Küldetések átmenetileg ki vannak kapcsolva."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Nem lehet a jutalmat átvenni. Jutalom nem elérhető."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Nem lehet a jutalmat átvenni. Jutalom nem elérhető."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Nem lehet a jutalmat átvenni. Helytelen adat."
+
+msgid "personalMissions/select/server_error"
+msgstr "Küldetések kiválasztása sikertelen: %(questNames)s. Kérlek, próbálkozz újra később."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "A művelet nem elérhető. Küldetések átmenetileg ki vannak kapcsolva."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "A küldetések nincsenek kiválasztva: %(questNames)s. Kérlek, próbálkozz újra később."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Figyelem! A küldetés megváltoztatásához várj, amíg az aktív küldetésben részt vevő összes jármű visszatér a garázsba."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Küldetések kiválasztása sikertelen: %(questNames)s. Teljesítsd az előző hadműveletet."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Küldetések kiválasztása sikertelen: %(questNames)s. nincs elég hely."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Ki nem választott küldetések: %(questNames)s. Kérlek, válassz jutalmat."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Küldetések kiválasztása sikertelen: %(questNames)s. Küldetés nem elérhető."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Küldetések kiválasztása sikertelen: %(questNames)s. Küldetés már teljesítve."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Küldetések kiválasztása sikertelen: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Küldetések kiválasztása sikertelen: %(questNames)s. Már kiválasztottál egy küldetés ebben a sorozatban."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Küldetések kiválasztása sikertelen: %(questNames)s. helytelen adat."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Küldetések kiválasztása sikertelen: %(questNames)s. helytelen adat."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "A küldetés kiválasztása jelenleg nem lehetséges. Kérlek, várj, míg a járműcsoport visszatér a csatából."
+
+msgid "personalMissions/select/success"
+msgstr "Küldetések sikeresen kiválasztva. Kiválasztott küldetések: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Hozzáadva: női harckocsizó"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Hiba a hadművelet aktiválásakor. Kérjük, próbálkozz újra később."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "A kredit tartalék megtelt, de megnyílik %(timeValue)s múlva"
+
+msgid "piggybank/switch_off/body"
+msgstr "Ez a lehetőség technikai okok miatt átmenetileg nem elérhető.\nElnézést a kellemetlenségért."
+
+msgid "piggybank/switch_off/title"
+msgstr "A kredit tartalék átmenetileg nem elérhető"
+
+msgid "piggybank/switch_on/body"
+msgstr "A technikai problémákat megoldottuk. Elnézésedet kérjük a kellemetlenségekért."
+
+msgid "piggybank/switch_on/title"
+msgstr "A kredit tartalék ismét elérhető"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Ez a lehetőség technikai okok miatt átmenetileg nem elérhető.\nElnézést kérünk a kellemetlenségért."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "A játékos előfizetések már nem elérhetőek!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "A technikai problémákat megoldottuk. Elnézésedet kérjük a kellemetlenségekért."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "A játékos előfizetések már elérhetőek"
+
+msgid "post_progression/server_error"
+msgstr "Már megkaptad a jutalmat\na legénység utólagos előrehaladásáért"
+
+msgid "post_progression/success"
+msgstr "Időpont: %(at)s\nHozzáadva a Depóhoz: %(book_name)s (%(amount)sx).\nUtólagos előrehaladási XP átváltva."
+
+msgid "post_progression/success/title"
+msgstr "Nyugta"
+
+msgid "prebattle/hasLockedState"
+msgstr "Nem tudod elfogadni a meghívást, mert éppen csatára vársz. Lépj ki a várakozásból vagy fejezd be a csatát és próbáld újra."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Meghívó elküldve a játékosnak."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Meghívó elküldve a következőnek: %(name)s."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Hiba ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Hiba AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Hiba BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Hiba CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "A parancsnok elhagyta a csapatot."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "A csapat fel lett oszlatva."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "A mód ideiglenesen nem érhető el"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Leszerelés."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Hiba PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Lejárt az idő."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Ismeretlen hiba."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Hiba VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Kizártak a szakaszból."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Kizártak a csapatból."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "A játékmódhoz legalább 3 megfelelő járműre van szükséged. A részleteket a Tudnivalók a Roham módról oldalon olvashatod el."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Autokeresés"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Hang kommunikáció felcserélése"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Divízió váltás"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Mód választás"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Almód váltás"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Mód választás"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Beállítások megváltoztatása"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Csapat szerkesztése"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Néző mód megváltoztatása"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Hely lezárása"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Keresés"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Meghívás a csapatba"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Készenlét megerősítése"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "A csapat készen áll"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Jármű választás"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Csapatok felcserélése"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Keresés"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Csapat tankjainak száma minimum: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Csapat együttes szintjeinek %(minTotalLevel)d és %(maxTotalLevel)d között kell lennie a csatába való csatlakozáshoz."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Tank szintek %(minLevel)d és %(maxLevel)d engedett."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Csatához nem megfelelő a jármű."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Az összes csapattag nem lehet néző."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "A kiválasztott jármű csak frontvonal módhoz megfelelő."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "A választott jármű csak a Dühöngés módhoz megfelelő."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "A kijelölt járműben a betöltött lőszerek és a felszerelések nem megfelelőek a csata körülményeihez."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Nem megfelelő a jármű szintje a csatához. Minimum szint ehhez a típushoz: %s. Maximum szint ehhez a típushoz: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Nem megfelelő a tank típusa a csatához. Engedélyezett típusok: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "A kijelölt járműben a felszerelt alkatrészek nem megfelelőek a csata körülményeihez."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Nem megfelelő a jármű szintje a csatához. Minimális szint: %s. Maximális szint : %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Ennek a nemzetnek a tankjai nem léphetnek be ebbe a csatába. Válassz közölűk: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Nem kompatibilis jármű."
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "A kijelölt járműben a betöltött lőszerek nem megfelelőek a csata körülményeihez."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Nem kompatibilis jármű."
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Csatához nem megfelelő a jármű."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "A kijelölt jármű nem áll készen."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "A művelet nem elérhető. Előbb válassz ki egy járművet."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Nem lehet csatlakozni a csapathoz."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Nem kompatibilis jármű."
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "A kiválasztott jármű a csata során lesz feloldva."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Nem található megfelelő ellenség. Csináld újra a csapatot."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Nem sikerült ellenfelet találni a jelenlegi szakasznak, megfontolandó lenne újra szervezni a csapatot."
+
+msgid "premium/buyingSuccess"
+msgstr "Prémium fiókot vettél %(period)d napra. %(money)s elköltve."
+
+msgid "premium/continueSuccess"
+msgstr "Prémium fiók meghosszabbítva %(period)d nappal. %(money)s elköltve."
+
+msgid "premium/not_enough_gold"
+msgstr "%(period)d napnyi prémium fiók megvásárlásához nincs elég aranyad."
+
+msgid "premium/post_battle_premium"
+msgstr "A prémium fiók megvásárlásával %(xpDiff)d XP-t szerzel és %(creditDiff)d kreditet."
+
+msgid "premium/server_error"
+msgstr "%(period)d napnyi prémium fiók megvásárlása sikertelen. Próbáld újra később."
+
+msgid "premium/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "A művelet nem érhető el. Próbálkozz újra később."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "A művelet nem elérhető. Kérlek várj, amíg a jelenlegi művelet befejeződik."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Ez a lehetőség technikai okok miatt átmenetileg nem elérhető.\nElnézést a kellemetlenségért."
+
+msgid "premium_quests/switch_off/title"
+msgstr "A prémium küldetések átmenetileg nem elérhetőek"
+
+msgid "premium_quests/switch_on/body"
+msgstr "A technikai problémákat megoldottuk. Elnézésedet kérjük a kellemetlenségekért."
+
+msgid "premium_quests/switch_on/title"
+msgstr "A prémium küldetések újra elérhetőek"
+
+msgid "progressiveReward/error"
+msgstr "A művelet jelenleg nem elérhető. Próbáld újra később."
+
+msgid "progressiveReward/switch_off"
+msgstr "Jutalom az érdemeidért: ez a funkció átmenetileg nem elérhető. Elnézést kérünk a kellemetlenségért."
+
+msgid "progressiveReward/switch_on"
+msgstr "A Jutalom az érdemeidért újra elérhető."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "A küldetés lejárt. Részletes leírás nem elérhető."
+
+msgid "queue/isInQueue"
+msgstr "A művelet jelenleg nem elérhető. Próbáld újra később."
+
+msgid "rally/leaveDisabled"
+msgstr "A művelet nem lehetséges.\nNem léphetsz ki. A taktikai egység tagja vagy és készen állsz a csatára."
+
+msgid "ranked/notification/available"
+msgstr "Tűzszünet vége: a rangsorolt csaták mód újból elérhető."
+
+msgid "ranked/notification/available/title"
+msgstr "A rangsorolt csaták elérhetőek"
+
+msgid "ranked/notification/congratulations"
+msgstr "Gratulálunk!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "A rangsorolt csaták nem elérhetőek. Kövesd az állapotfrissítéseket a játékportálon."
+
+msgid "ranked/notification/notSet"
+msgstr "Ez a mód nem elérhető a kiválasztott szerveren."
+
+msgid "ranked/notification/notSet/title"
+msgstr "A rangsorolt csaták nem elérhetőek"
+
+msgid "ranked/notification/primeTime"
+msgstr "A rangsorolt csaták nem elérhetőek a tűzszünet végéig."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Tűzszünet"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Kimagasló eredményeket értél el a rangsorolt csaták 2020/2021-es szezonjai alatt, így helyezést értél el a legjobb játékosok között!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Gratulálunk!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Kimagasló eredményeket értél el a rangsorolt csaták 2020/2021-es szezonjai alatt, így %(playerPosition)s. helyezést értél el a legjobb játékosok között!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Gratulálunk!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Megszerzett jelvény:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Megszerzett jelvények:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Kredit hozzáadva:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Megszerzett kötvények:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Évfordulós érméket kaptál:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Arany hozzáadva:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Fejleszthető felszerelések hozzáadva a válaszható listához: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Megszerzett stílus:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Megszerzett stílusok:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Rang tokeneket kaptál: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Wargaming Prémium fiók nap"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Wargaming Prémium fiók napok: (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "WoT Prémium fiók nap"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "WoT Prémium fiók napok: (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Szakasz %(number)s eredmények"
+
+msgid "ranked/notifications/league"
+msgstr "Liga: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "Arany"
+
+msgid "ranked/notifications/league2"
+msgstr "Ezüst"
+
+msgid "ranked/notifications/league3"
+msgstr "Bronz"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Rang tokeneket kaptál az Arany ligáért: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Maximális rang: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Helyezés a ranglistán: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Teljesítetted a kvalifikációt"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Rang tokeneket kaptál a szezonért: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Rangsorolt csaták eredménye, %(seasonNumber)s szezon"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Elérted a(z) %(rankName)s rangot (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Sprinter jelet szereztél. A jutalmak nőttek."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Sprinter jelet szereztél"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Nem lehet új legénységi tagot toborozni: a tanknak egyedi, állandó legénysége van."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "A legénységi tag visszaállítása nem lehetséges. A szolgáltatás átmenetileg nem elérhető."
+
+msgid "recruit_window/financial_success"
+msgstr "Harckocsizó toborozva a(z) %(vehName)s járműbe. Elköltött kredit: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Harckocsizó toborozva a(z) %(vehName)s járműbe.\nElköltött kredit: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Harckocsizó toborozva a(z) %(vehName)s járműbe.\nElköltött arany: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Elérted a ma ingyen besorozható harckocsizók maximális mennyiségét."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Hiba a harckocsizó képzésének során. Nincs elég kredited."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Hiba a harckocsizó képzésének során. Nincs elég aranyad."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Hiba a harckocsizó besorozása és járműbe átvezényelése közben. Nincs elég hely a barakkban. Szabadíts fel vagy vegyél több férőhelyet."
+
+msgid "recruit_window/server_error"
+msgstr "Nem sikerült toborozni egy harckocsizót. Próbálkozz újra később."
+
+msgid "recruit_window/success"
+msgstr "Ingyenesen toboroztál egy harckocsizót a(z) %(vehName)s járműre."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "A legénységi tagot nem lehet áthelyezni: a tanknak egyedi, állandó legénysége van."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Hiba a harckocsizó lecserélése során. Nem megfelelő jármű."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Nem sikerült a Barakkba küldeni a legénységet. Nincs elég férőhely a Barakkban."
+
+msgid "reequip_tankman/server_error"
+msgstr "Nem lehet a harckocsizót kicserélni. Próbálkozz később."
+
+msgid "reequip_tankman/success"
+msgstr "Lecserélted a harckocsizót."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Hiba a harckocsizó áthelyezése során. Jármű használatban."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Hiba a harckocsizó áthelyezése során. Javítsd meg a járműved."
+
+msgid "remove_component"
+msgstr "%s \"%s\" leszerelve a járműről."
+
+msgid "remove_vehicle_broken"
+msgstr "%s \"%s\" modul eltávolítása nem lehetséges: a jármű sérült. Javítsd meg a járművet és próbáld újra."
+
+msgid "remove_vehicle_locked"
+msgstr "%s \"%s\" eltávolítása nem lehetséges: jármű zárolva."
+
+msgid "repair/credits_error"
+msgstr "%s kredit még szükséges a következő tank javításához: '%s'."
+
+msgid "repair/server_error"
+msgstr "Hiba a(z) %s javítása során. Próbáld újra később."
+
+msgid "repair/success"
+msgstr "%s megjavítva. Elköltöttél: %s."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "A legénységi tag személyes adatait nem lehet megváltoztatni: a tanknak egyedi, állandó legénysége van."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Hiba a személyi adatok lecserélése közben. Nem megfelelő jármű."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Hiba a személyi adatok lecserélése közben. Nincs elég kredited."
+
+msgid "replace_tankman/server_error"
+msgstr "Nem sikerült cserélni a személyes adatot. Próbáld meg később."
+
+msgid "replace_tankman/success"
+msgstr "Sikeresen megváltoztattad a megjelenést."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Személyes adat cseréje sikertelen. A jármű zárolva van."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Személyes adat cseréje sikertelen. Javítsd meg a járműved."
+
+msgid "request/isInCoolDown"
+msgstr "\"%(request)s\" hadművelet befagyasztva %(coolDown)s másodpercre."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Nem lehet visszaállítani a készségeket.\nA szerver nem érhető el. Próbáld újra később!"
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Az összes harckocsizó minden készségét\ningyenesen visszaállítottad."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Hiba a nyersanyagok elköltése során. Kérjük, próbáld újra."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Hiba történt a nyersanyagok visszaküldése során. Kérjük, próbáld újra."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Még van visszaállítható járműved. Menj a Boltba az ilyen járművek visszaküldéséhez a Garázsba."
+
+msgid "restore_tankman/DISABLED"
+msgstr "A legénységi tag visszaállítása átmenetileg nem lehetséges. Próbáld újra később."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Nem lehet visszaállítani a legénységi tagot."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Nincs elegendő arany a legénységi tag visszaállításához."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "A legénységi tag visszaállítása nem lehetséges. Lejárt a művelet időlimitje."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "A legénységi tag visszaállítása nem lehetséges. Próbáld újra később."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "A legénységi tag visszaállítása nem lehetséges. Az opció átmenetileg nem elérhető."
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s harckocsizót többé nem tudod visszaállítani."
+
+msgid "restore_tankman/financial_success"
+msgstr "Harckocsizó visszaállítva.\nElköltött kredit: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "A legénységi tag visszaállítása nem lehetséges. Nincs elég hely a barakkban."
+
+msgid "restore_tankman/server_error"
+msgstr "Nem sikerült visszaállítani a harckocsizót. Próbálkozz újra később."
+
+msgid "restore_tankman/success"
+msgstr "Visszaállítottad a harckocsizót."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "A harckocsizó képesítése megváltozott."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "A legénységet nem lehet újraképezni: a tanknak egyedi, állandó legénysége van."
+
+msgid "retraining_crew/empty_list"
+msgstr "Hiba a harckocsizók átképzése során. Harckocsizó nincs kiválasztva."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Elköltött kredit: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Ingyenesen átképezted a legénységet a(z) %(vehName)s járműre."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Elköltött arany: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Hiba a legénység átképzése során. Művelet nem elérhető."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Hiba a harckocsizók átképzése során. Nem megfelelő jármű."
+
+msgid "retraining_crew/server_error"
+msgstr "Nem sikerült átképezni a legénységet. Próbálkozz újra később."
+
+msgid "retraining_crew/success"
+msgstr "Átképezted a legénységet a(z) %(vehName)s járműre."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Hiba a harckocsizók átképzése során. A jármű zárolva."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Hiba a harckocsizók átképzése során. Javítsd meg a járművet."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "A legénységi tagot nem lehet újraképezni: a tanknak egyedi, állandó legénysége van."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Elköltött kredit: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Ingyenesen átképezted a harckocsizót a(z) %(vehName)s járműre."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Elköltött arany: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Hiba a harckocsizó átképzése során. Művelet nem elérhető."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Hiba egy harckocsizó átképzése során. Nem megfelelő jármű."
+
+msgid "retraining_tankman/server_error"
+msgstr "Nem sikerült átképezni a harckocsizót.\nPróbálkozz újra később!"
+
+msgid "retraining_tankman/success"
+msgstr "Átképezted a harckocsizót a(z) %(vehName)s járműre."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Hiba történt a harckocsizó újraképzése közben. A jármű zárolva van."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Hiba történt a harckocsizó átképzése közben. Javítsd meg a járművet."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "A legénységet nem lehet visszahelyezni: a tanknak egyedig, állandó legénysége van."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Hiba a harckocsizók visszahelyezése során. Nem megfelelő jármű."
+
+msgid "return_crew/not_enough_space"
+msgstr "Nem sikerült a legénységet a Barakkba küldeni. Nincs elég hely a Barakkban."
+
+msgid "return_crew/return_unavailable"
+msgstr "Néhány harckocsizó nem tud visszatérni a járműhöz."
+
+msgid "return_crew/server_error"
+msgstr "Legénység visszahelyezése nem lehetséges. Próbáld újra később."
+
+msgid "return_crew/success"
+msgstr "Legénység sikeresen áthelyezve."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Hiba a harckocsizók visszahelyezése során. Jármű zárolva."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Hiba a harckocsizók visszahelyezése során. Javítsd meg a járművet."
+
+msgid "rotation/lock"
+msgstr "A következő csoportok zárolva vannak és nem érhetők el csatára: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "A következő csoportok feloldva és elérhetők csatára: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "A járművet zároltuk és nem elérhető csatában."
+
+msgid "royale/notification/congratulations"
+msgstr "Gratulálunk!"
+
+msgid "royale/notification/primeTime"
+msgstr "Acélvadász csaták nem érhetők el a tűzszünet végéig. Ellenőrizd az időbeosztást a naptárban."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Tűzszünet"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Szint elérve: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "A stratégia művészete esemény csatái ismét elérhetők ezen a szerveren."
+
+msgid "rts/notification/available/title"
+msgstr "Csaták elérhetők"
+
+msgid "rts/notification/notAvailable"
+msgstr "A stratégia művészete esemény nem elérhető. Kövesd a híreket a játék portálon."
+
+msgid "rts/notification/notSet"
+msgstr "A stratégia művészete csaták nem érhetők el a kiválasztott szerveren."
+
+msgid "rts/notification/notSet/title"
+msgstr "A csaták nem elérhetőek"
+
+msgid "rts/notification/primeTime"
+msgstr "Tűzszünet van érvényben. A stratégia művészete csatái átmenetileg nem elérhetőek."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Tűzszünet"
+
+msgid "securityMessage/bad_email"
+msgstr "Nem megbízható szolgáltatónál regisztráltad az email címed. Biztonsági okokból kérlek változtasd meg az email címed. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Biztonsági beállítások megváltoztatása"
+
+msgid "securityMessage/no_phone"
+msgstr "Biztonsági okokból kérlek adj meg telefonszámot a felhasználói fiókodban. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Jelszó visszaállításhoz kérlek adj meg biztonsági kérdést a felhasználói fiókodban. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "30 napja nem változtattad meg a jelszavad. Biztonsági okokból kérlek változtasd meg. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "A fiókod létrehozásakor megadott jelszó nem elég erős. Kérjük változtasd meg a jelszavad. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "%s eladása nem lehetséges: a jármű sérült. Javítsd meg a járműved és próbáld újra."
+
+msgid "sell_vehicle_locked"
+msgstr "%s eladása nem lehetséges: jármű zárolva."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Folytatódik a Jól megérdemelt jutalom esemény. Elnézést kérünk a kellemetlenségekért."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "A Jól megérdemelt jutalom esemény karbantartás miatt átmenetileg szünetel."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Hiba a jutalmak átvételekor. A művelet átmenetileg nem érhető el."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Hiba a jutalom megszerzése során. Kérjük, lépj kapcsolatba az Ügyfélszolgálattal."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "A szolgálatban eltöltött évekért járó jutalmaid késnek. Próbálkozz újra később."
+
+msgid "serverInstallError"
+msgstr "Szerverhiba a(z) %s \"%s\" modul felszerelése során. Próbáld újra később."
+
+msgid "serverRemoveError"
+msgstr "Hiba a(z) %s \"%s\" modul eltávolítása során. Próbáld újra később."
+
+msgid "server_shut_down"
+msgstr "A játékszerver újraindul"
+
+msgid "session_tracker_kick"
+msgstr "A Wargaming.net&nbsp;ID-d másik játékban használatban van. Az aktuális játékmenet megszakítva."
+
+msgid "shell_buy/invalid_module"
+msgstr "%(name)s megvásárlása sikertelen. Rossz lőszer."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "%(name)s megvásárlása sikertelen. Nincs elég kredited."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "%(name)s megvásárlása sikertelen. Nincs elég aranyad."
+
+msgid "shell_buy/server_error"
+msgstr "%(name)s megvásárlása sikertelen. Próbáld újra később."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "%(name)s lőszer megvásárlása sikertelen. Szerver pillanatnyilag nem elérhető."
+
+msgid "shell_buy/success"
+msgstr "%(name)s lőszer sikeresen megvásárolva (%(count)s darab). Elköltve: %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "shell_sell/invalid_module"
+msgstr "\"%(name)s\" eladása sikertelen. Rossz lőszer."
+
+msgid "shell_sell/server_error"
+msgstr "\"%(name)s\" eladása sikertelen. Próbáld újra később."
+
+msgid "shell_sell/success"
+msgstr "\"%(name)s\" lőszer sikeresen eladva (%(count)s darab). Kaptál: %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Lőszer konfigurációs hiba. Kérjük, próbáld meg újra később."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Lőszer műveleti hiba. Nincs elegendő forrás a vásárláshoz."
+
+msgid "shells_apply/success_money_spent"
+msgstr "%(money)s elköltve lőszerre."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "A művelet nem elérhető. Az aranyad elérhető lesz, amint a WG Wallet működése helyreállt."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "A kérés a vásárláshoz és a felszereléshez elküldve. Szerver válaszra várunk."
+
+msgid "shop/item/buy_server_error"
+msgstr "%(typeString)s \"%(userString)s\" megvásárlása sikertelen. Kérlek, próbáld újra később."
+
+msgid "shop/item/buy_success"
+msgstr "%(typeString)s \"%(userString)s\" modul sikeresen megvásárolva (%(count)d). Elköltöttél: %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Hadművelet jelenleg nem elérhető."
+
+msgid "shop/item/not_enough_money"
+msgstr "%(typeString)s \"%(userString)s\" megvásárlásához még %(price)s kell."
+
+msgid "shop/item/not_found"
+msgstr "%(typeString)s \"%(userString)s\" nem található a boltban. Próbáld újra később."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Hadművelet jelenleg nem elérhető."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "%(userString)s megvásárlásához még %(price)s kell."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "%(userString)s bérléséhez, ennyivel több szükséges:%(price)s."
+
+msgid "shop/vehicle/not_found"
+msgstr "%(userString)s Jármű nem található a boltban. Kérlek próbáld meg később."
+
+msgid "shop_resync"
+msgstr "Kezelőfelület frissítve %(date)s nap %(time)s órakor a szerver változások miatt."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "A következő: <font color='#E9E2BF'>„{oldName}”</font> ({amount}) át lett váltva erre: <font color='#E9E2BF'>„{newName}”</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Időpont: %(date)s\nDirektívák átváltva: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Nyugta"
+
+msgid "squad/createError"
+msgstr "Csak prémium felhasználói fiókkal rendelkező felhasználók készíthetnek szakaszt."
+
+msgid "squad/kickedFromQueue"
+msgstr "Nem sikerült ellenfelet találni a jelenlegi szakasznak, megfontolandó lenne újra szervezni a csapatot."
+
+msgid "squad/leaveDisabled"
+msgstr "A művelet nem elérhető.\nNem tudod elhagyni a szakaszt. A szakasz tagja vagy és készen állsz a csatára."
+
+msgid "squad/memberJoined"
+msgstr "%s csatlakozott a taktikai egységhez."
+
+msgid "squad/memberLeave"
+msgstr "%s elhagyta a taktikai egységet."
+
+msgid "squad/memberNotReady"
+msgstr "%s nem áll készen."
+
+msgid "squad/memberOffline"
+msgstr "Csatlakozás a következővel: %s megszakadt."
+
+msgid "squad/memberReady"
+msgstr "%s készen áll a harcra."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Nem sikerült csatlakozni a csatához a szakasszal."
+
+msgid "squad/notValidDeleted"
+msgstr "%(vehName)s jármű kizárásra került a szakaszból, mert a szintje nem egyezik a parancsnok járművének szintjével. Válassz ugyanolyan szintű járművet."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s ki lett zárva a szakaszból, mert a parancsnok megváltoztatta a feltételeket."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Kizártak a szakaszból, mert megváltoztak a parancsnok követelményei vagy nem tudsz csatlakozni, mert a járműved nem felel meg a követelményeknek. Kérlek, válassz másik járművet."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "%(vehName)s eltávolításra került a szakaszonként engedélyezett ilyen járművek számának korlátozása miatt. Válassz másik járművet. "
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Ez a lehetőség technikai okok miatt átmenetileg nem elérhető.\nElnézést a kellemetlenségért."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "A szakasz bónusz átmenetileg nem elérhető"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "A technikai problémákat megoldottuk. Elnézésedet kérjük a kellemetlenségekért."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "A szakasz bónusz újra elérhető"
+
+msgid "ssr/unavailable"
+msgstr "Nem lehet letölteni a visszajátszást"
+
+msgid "steam_login_not_allowed"
+msgstr "Nem használhatod ezt az alkalmazást a játékhoz: a Steam fiókod már hozzá van rendelve a Wargaming.net fiókodhoz. Tudj meg többet az Ügyfélszolgálattól."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Elbocsátottad a harckocsizót."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s n"
+
+msgid "techtree/action/header"
+msgstr "Akció \"%(actionName)s\""
+
+msgid "techtree/action/text"
+msgstr "Az akció végéig "
+
+msgid "techtree/action/text/closest"
+msgstr "A következő akció véget ér: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Indoklás: ez a jármű csak Prime Gaming tagok számára érhető el. Kérlek, ellenőrizd a Prime Gaming előfizetésed állapotát."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Jármű nem elérhető"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Dátum: %(datetime)s\nJármű hozzáadva: %(vehicles)s\nHozzáadva: férőhely a garázsban,%(crew)s 3D stílus."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Dátum: %(datetime)s\nHozzáadott járművek: %(vehicles)s\nHozzáadva: egy férőhely a garázsban,%(crew)s egy egyedi álcafestés."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " egy 100%%-os legénység%(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Hozzáadott járművek"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Dátum: %(datetime)s\nEltávolítva: %(vehicles)s, egy férőhely a garázsban."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Indoklás: ez a jármű csak Prime Gaming tagok számára érhető el. Kérlek, ellenőrizd a Prime Gaming előfizetésed állapotát."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Eltávolított járművek"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "A jármű újra elérhető"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "A T-44-100 Igrovoy tank hozzáadva. Eltávolítva: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Mostantól küldetéseket teljesíthetsz a T-44-100 Igrovoy tankkal."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " és "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s kredit"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "%(tanks)s összes legénységi tagja átképezve a T-44-100 Igrovoy tankra."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Felszerelés leszerelve és a depóba küldve.\nTestreszabási elemek a depóba küldve.\nLőszerek és direktívák a depóba küldve."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Kiosztás, testreszabási elemek, harci tapasztalat, statisztikák és jutalmak áthelyezve %(mergedTank)s tankról a T-44-100 Igrovoy tankra."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s szabad XP"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Kompenzáció a harctéri módosítás tapasztalatért: %(compensation)s hozzáadva."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Kompenzáció a megvásárolt progresszív matricákért: %(value)s arany hozzáadva."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "A játék statisztikák és jutalmak át lettek helyezve %(mergedTank)s tankról a T-44-100 Igrovoy tankra."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "A harci tapasztalat összegezve lett és áthelyezésre került a T-44-100 Igrovoy tankra."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Sok szerencsét a harcmezőn!"
+
+msgid "telecomMergeResults/title"
+msgstr "Változások az \"Igrovoy\" előfizetésben"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "A járműválasztás és bérlés fel lett függesztve."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "A járműbérlés jelenleg nem elérhető"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "A járműbérlés elérhető"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Gratulálunk! Kaptál %(count)s tokent."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Arany átutalása sikertelen. A fogadó fél megtagadta a tranzakciót."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Az arany átutalás nem elérhető."
+
+msgid "tradingError/NO_WARES"
+msgstr "Nem lehet aranyat átutalni. Nincs elég arany."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Elérted az átutalási limitet. Kérlek próbáld holnap."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Nem lehet aranyat átutalni. Próbálja meg később."
+
+msgid "training/error/AddPlayer"
+msgstr "Gyakorló szoba hiba. Az egy csapatban lévő játékosok maximális száma elérve."
+
+msgid "training/error/doAction"
+msgstr "Gyakorló csata hiba. Próbáld újra később."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Gyakorlószoba-hiba. A csapat maximális mérete Roham módban: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Gyakorló szoba hiba. Egy csapatban lévő játékosok maximális száma: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Szerver hiba a csapatok felcserélése közben. Próbáld meg később!"
+
+msgid "transferXP/server_error"
+msgstr "A művelet nem érhető el. Kérjük, próbáld újra később."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "A művelet nem érhető el. Nincs megfelelő jogosultságod."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "A művelet nem elérhető. Nem vagy tagja egy klánnak sem."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Hiba: Nem sikerült visszaállítani a kiválasztott járművet."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Hiba: Nincs elegendő alkatrész a jármű visszaállításához."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Hiba: A kiválasztott jármű visszaállítási ára megváltozott."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Hiba: Nem lehet befejezni a műveletet."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Hiba a szakaszhoz történő csatlakozás során: fiókod átmenetileg ki van tiltva ebből a játékmódból."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Művelet nem elérhető. Fiók visszaállítva."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "A játékos nem tud csatlakozni a csapathoz."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "A művelet nem elérhető. A hely már foglalt."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "A játékos már csatlakozott a csapathoz."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Nem sikerült a parancsnok jogosultságait átvinni."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Művelet nem elérhető. Helytelen fiók típus."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Művelet nem elérhető. Helytelen klán."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Nem tudsz csatlakozni a csapathoz."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "A járművek maximális szintje túllépve."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Művelet nem elérhető. Helytelen az osztagban lévő tagok listája."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Helytelen férőhelyszám"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Művelet nem elérhető. Rossz jármű típus a szakaszban való csatázáshoz."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Hiba a csapathoz való csatlakozás során. Nem megfelelő jármű szint."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Divízió váltása nem lehetséges a megadott időben."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Csapat nem található."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Meghívás küldése nem lehetséges."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Hiba a szakaszhoz való csatlakozás során: A kvalifikáció befejezéséig nem játszhatsz szakaszban."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "A művelet átmenetileg nem végrehajtható."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Az utolsó művelet az osztaggal hibával ért véget."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "A jármű nem áll készen a csatára vagy nincs jármű a garázsban."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Nem sikerült berakni a járművet a férőhelybe."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Művelet nem elérhető. Az osztagban lévők közül páran még csatában vannak."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Nincs jogosultságod ehhez a művelethez."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Account zárolva."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "A csapat sorban áll vagy megjelenik a keresésben."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Csatlakozás a csapathoz nem lehetséges. Hozzáférés megtagadva."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "A csapat nem áll sorban."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "A csapat ne jelenjen meg a keresési eredményében."
+
+msgid "unit/errors/NOT_READY"
+msgstr "A csapat nem áll készen."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Hiba a szakaszhoz történő csatlakozás során: nincs megfelelő járműved a kiválasztott játékmódhoz."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "A játékos hozzáadása a csapathoz nem lehetséges."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "A művelet nem elérhető. Játékos nem található."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "A csapat nem található."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "A csapat nem létezik."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "A művelet nem elérhető. Hiba a járművek listájának megjelenítésekor."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Művelet nem elérhető. Játékos offline."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "A parancsnok feketelistáján vagy."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Művelet nem elérhető. Az előző csata még nem ért véget."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Játékos kizárása a csapatból nem lehetséges."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "A művelet nem elérhető. Egy vagy több játékos nem fogadta el a meghívást."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "A művelet nem elérhető légiósok számára."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "A művelet nem elérhető. A hely nincs zárva."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "A művelet nem elérhető. A hely már foglalt."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "A művelet nem elérhető erre a helyre."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Csatározás nem elérhető a megadott időpontban."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Nem válthatsz másik játékmódra. A szakasz létszáma túllépi a megengedettet."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Művelet nem elérhető. Lejárt az idő."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "A művelet nem elérhető. Maximális hely zárva van."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "A művelet nem elérhető. Légiósok elérték a maximális mennyiséget."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Csapat indítása vagy csapathoz való csatlakozás nem lehetséges."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Csapat indítása nem lehetséges."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Művelet nem elérhető. Az osztag visszaállt."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "A művelet nem elérhető. A járművek nem felelnek meg a követelményeknek."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "A művelet nem elérhető. Előbb válassz ki egy járművet."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "A csapat nem létezik."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Művelet nem elérhető. A jármű nem áll készen vagy nem felel meg a követelményeknek."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Hozzáférést szereztél a harci tartalékokhoz."
+
+msgid "unit/notification/changeDivision"
+msgstr "%(name)s parancsnok kiválasztotta a(z) %(division)s divíziót."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Abszolút"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Bajnok"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Közepes"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s játékos kinevezve csapat parancsnoknak."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s csatlakozott az osztaghoz."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s csatlakozott a szakaszhoz, hogy %(tierRange)s. szintű járművel harcoljon."
+
+msgid "unit/notification/playerOffline"
+msgstr "Megszakadt a kapcsolat %(userName)s játékossal."
+
+msgid "unit/notification/playerOnline"
+msgstr "Helyreállt a kapcsolat %(userName)s játékossal."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s elhagyta az osztagot."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "A meghívó már el lett küldve."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "A parancsnoki jogkörök át lettek ruházva egy másik játékosra."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "A parancsnok jogosultságai és a harci tartalékok feletti irányítás átkerült egy másik játékoshoz."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "A harci tartalékok kezelésének jogosultsága másik játékoshoz került."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Kizártak az osztagból: osztag feloszlatva."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Ki lettél zárva az osztagból. A klán megváltozott."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "A játékidőd véget ért. Nem léphetsz be új csatába. A szerverrel való kapcsolat megszakad ekkor: %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Az egyik játékosnak már nem maradt elég játékideje a csatához. A szakasz jelenleg előkészületi állapotban van."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Légiósok hozzáadása felfüggesztve."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Művelet nem elérhető. Várakozási idő letelt."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Hiba a csapathoz való csatlakozás közben. Kizártak a csapatból."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Automatikusan kizártak a jelentkezők közül."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "A parancsnok kizárt a csapatból."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Kizártak az osztagból: osztag feloszlatva."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Osztag parancsnok lettél."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Osztag parancsnok lettél.\nTe rendelkezel a harci tartalékok felett."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Másik hídfő kiválasztva az előrenyomuláshoz."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Másik csata típus kiválasztva."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "A keresés átmenetileg nem elérhető: túl sok szakasz van a szerveren."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Szerverhiba miatt a játékosok keresése nem lehetséges. Próbáld újra később."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Keresés leállítva: a szakasz legalább egyik tagjának nincs megfelelő járműve a kiválasztott játékmódhoz."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Keresési idő lejárt. Nincsenek megfelelő játékosok."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Játékosok csatlakozása folyamatban. Kérlek várj."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Visszaállított jármű: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Nem állsz készen a csapathoz történő csatlakozásra."
+
+msgid "unload/button"
+msgstr "Tovább a Barakkba"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "A legénységet nem lehet barakkba küldeni: a tanknak egyedig, állandó legénysége van."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Hiba a harckocsizók barakkba küldése során. Nem megfelelő jármű."
+
+msgid "unload_crew/server_error"
+msgstr "Nem lehet a legénységet a barakkba küldeni. Próbálkozz később."
+
+msgid "unload_crew/success"
+msgstr "A legénységet a Barakkba küldted."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Hiba a harckocsizók barakkba küldése során. Jármű zárolva."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Hiba a harckocsizók barakkba küldése során. Javítsd meg a járműved."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "A legénységi tagot nem lehet barakkba küldeni: a tanknak egyedig, állandó legénysége van."
+
+msgid "unload_tankman/button"
+msgstr "Tovább a Barakkba"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Hiba egy harckocsizó barakkba küldése során. Nem megfelelő jármű."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Nem sikerült a Barakkba küldeni ezt a harckocsizót. Nincs elég hely a Barakkban."
+
+msgid "unload_tankman/server_error"
+msgstr "Nem sikerült a Barakkba küldeni a harckocsizót. Próbálkozz újra később."
+
+msgid "unload_tankman/success"
+msgstr "A harckocsizót a Barakkba küldted."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Hiba a harckocsizó barakkba küldése során. A jármű zárolva van."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Hiba a harckocsizó barakkba küldése során. Javítsd meg a járműved."
+
+msgid "unlocks/drawFailed"
+msgstr "Hibás beállítások. Fejlesztési fa zárolva."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "%(typeString)s \"%(userString)s\" modul kifejlesztve."
+
+msgid "unlocks/item/in_processing"
+msgstr "A fejlesztési kérelem elküldve. Várakozás a szerver válaszára."
+
+msgid "unlocks/item/server_error"
+msgstr "Szerver hiba a(z) %(typeString)s \"%(userString)s\" modul kifejlesztése során. Próbáld később."
+
+msgid "unlocks/item/unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" modul kifejlesztve. Elköltött tapasztalat: %(vehXP)s. Elköltött szabad tapasztalat: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "A jármű %(userString)s kifejlesztve."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "A fejlesztési kérelem elküldve. Várakozás a szerver válaszára."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Szerver hiba %(userString)s jármű kifejlesztése közben. Próbáld később!"
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "%(userString)s jármű kifejlesztve. Elköltött tapasztalat: %(vehXP)s. Elköltött szabad tapasztalat: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Hiba történt a harckocsizó kiképzése közben. Próbálkozz újra később."
+
+msgid "upgradeTankman/success"
+msgstr "A kiképzés sikeresen befejeződött."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "A jutalom felszerelés fejlesztése átmenetileg nem elérhető, technikai okok miatt. Kérjük, próbáld újra később."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "A jutalom felszerelés fejlesztése ismét elérhető. Elnézést kérünk a kellemetlenségért."
+
+msgid "vehicle/restore/finished"
+msgstr "A %(vehicleName)s jármű nem kivonható: lejárt a művelet időlimitje."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Vissza tudod állítani a járművet a boltban további %(time)s napig."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Vissza tudod állítani a járművet a boltban további %(time)s óráig."
+
+msgid "vehicleCompare/disabled"
+msgstr "A művelet átmenetileg nem elérhető. Próbáld meg később."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s előnézete csak a teljes kliens letöltése után lesz elérhető."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Kérés küldése a felszereléshez. Várakozás a szerver válaszára."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "%(typeString)s \"%(userString)s\" megvásárlása sikertelen. Kérlek, próbáld újra később."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "%(typeString)s \"%(userString)s\" modul sikeresen megvásárolva (%(count)d). Elköltöttél: %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "%(typeString)s \"%(userString)s\" modul már megtalálható a depóban."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "%(typeString)s \"%(userString)s\" modul kifejlesztve."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "%(typeString)s \"%(userString)s\" megvásárlásához még %(price)s kell."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "%(typeString)s \"%(userString)s\" modul nem található a depóban."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "%(typeString)s \"%(userString)s\" nem található a boltban. Próbáld újra később."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" modul kifejlesztve. Elköltött kiosztatlan XP: %(unspentXP)s. Elköltött szabad XP: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "A fejlesztési kérelem elküldve. Várakozás a szerver válaszára."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "%(userString)s jármű már elérhető a depóban."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "A jármű %(userString)s kifejlesztve."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "%(userString)s megvásárlásához még %(price)s kell."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "%(userString)s nem található a depóban."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "%(userString)s Jármű nem található a boltban. Kérlek próbáld meg később."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "A következő tank kifejlesztve: %(userString)s. Elköltött XP: %(unspentXP)s. Elköltött szabad XP: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "Az elit jutalmak rendszere most elérhető a(z) %(vehicle)s járműhöz"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Elit jutalmak"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "Sikeresen megvásároltad a(z) %(modification)s módosítást a(z) %(vehicle)s tankra."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Módosítás megvásárolva"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "A(z) %(category)s kategória a(z) %(vehicle)s jármű második férőhelyére sikeresen hozzárendelve."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Férőhely kategória hozzárendelés"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Kredit elköltve: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "A(z) %(vehicle)s jármű minden kettős módosítása törölve."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "A(z) %(modification)s módosítás a(z) %(vehicle)s tankon törölve."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Módosítás törölve"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "A(z) %(modifications)s módosítások a(z) %(vehicle)s tankon törölve."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Harci tapasztalat elköltve: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Szabad tapasztalat elköltve: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Módosítási fa hiba. Kérlek, próbáld újra később."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Hiba"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "Normál módosítás %(level)s szint a(z) %(vehicle)s járműre sikeresen kifejlesztve és megvásárolva."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "Normál módosítás %(levels)s szintek a(z) %(vehicle)s járműre sikeresen kifejlesztve és megvásárolva."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Módosítás kifejlesztve"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "A(z) %(category)s kategória a(z) %(vehicle)s jármű második férőhelyére sikeresen hozzárendelve."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Férőhely kategória hozzárendelés"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "A kiegészítő kiosztás elérhető a(z) %(vehicle)s járműhöz."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Kiegészítő kiosztás"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "A második férőhely kategória hozzárendelése a(z) %(vehicle)s járműhöz most elérhető."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Férőhely kategória elérhetőség"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Az alapvető kiosztás most elérhető a(z) %(vehicle)s járműhöz."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Alapvető kiosztás"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "A módosítási fa most elérhető a(z) %(vehicle)s járműhöz."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Harctéri Módosítás"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Jármű módosítási fa elérhető. Járműveidet a szerepeik szerint konfigurálhatod a különböző módosítások segítségével, megváltoztatva a járművek karakterisztikáit."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Fejlesztési hiba. Kérjük, próbáld újra később."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Hiba"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "Sikeresen kifejlesztetted a(z) „%(perk)s” nóduszt a(z) %(vehicle)s járműhöz."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Nódusz kifejlesztve"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "Sikeresen kifejlesztetted a(z) „%(perk)s” nóduszokat a(z) %(vehicle)s járműhöz."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Nóduszok kifejlesztve"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "A művelet nem érhető el. Kérjük, próbáld újra később."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "%(vehName)s megvásárlása sikertelen. Rossz jármű."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "%(vehName)s megvásárlása sikertelen. Nincs elég kredited."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "%(vehName)s megvásárlása sikertelen. Nincs elég aranyad."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "A művelet nem hajtható végre. Nincsenek kifejlesztve ilyen nemzetiségű járművek."
+
+msgid "vehicle_buy/server_error"
+msgstr "%(vehName)s megvásárlása sikertelen, szerverhiba miatt. Próbálkozz újra később."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "%(vehName)s megvásárlása sikertelen. A szerver átmenetileg nem elérhető."
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s sikeresen megvásárolva. Elköltve: %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "%(vehName)s eltávolítása sikertelen. Próbáld újra később."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "%(vehName)s eltávolítása sikertelen. Rossz jármű."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "%(vehName)s eltávolítása sikertelen. Nincs elég kredited."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "%(vehName)s eltávolítása sikertelen. Nincs elég aranyad."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "%(vehName)s eltávolítása sikertelen. Nincs elég hely a barakkban."
+
+msgid "vehicle_remove/server_error"
+msgstr "%(vehName)s eladása sikertelen. Győződj meg róla, hogy ez a jármű nincs-e benne valamilyen taktikai egységben vagy próbáld újra később."
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s sikeresen eltávolítva.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s sikeresen eltávolítva."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "A(z) %(vehName)s sikeresen eltávolítva.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "%(vehName)s eltávolítása sikertelen. A jármű automatikusan eltávolításra kerül."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "%(vehName)s eltávolítása sikertelen. A jármű blokkolva van."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "%(vehName)s eltávolítása sikertelen. A járművet meg kell javítani."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "%(vehName)s eltávolítása sikertelen. Elérted a járművek napi limitjét."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Figyelem! Ha úgy döntesz, hogy később vásárolod meg, a jármű kedvezményesen lesz elérhető számodra."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "%(vehName)s bérlése sikertelen. Rossz jármű."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "%(vehName)s bérlése sikertelen. Nincs elég kredited."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "%(vehName)s bérlése sikertelen. Nincs elég aranyad."
+
+msgid "vehicle_rent/server_error"
+msgstr "Szerverhiba miatt a(z) %(vehName)s bérlése sikertelen. Próbáld újra később."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "%(vehName)s bérlése sikertelen. A járműbérlés lehetőség átmenetileg nem elérhető."
+
+msgid "vehicle_rent/success"
+msgstr "Kibérelted: %(vehName)s%(rentPackageName)s. Elköltve: %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "%(days)d napig"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(needed)s szükséges a(z) %(vehName)s javításához."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(needed)s szükséges a(z) %(vehName)s javításához."
+
+msgid "vehicle_repair/server_error"
+msgstr "Hiba a(z) %(vehName)s javítása során. Próbáld újra később."
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s megjavítva. Elköltve: %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "A jármű visszaállítása átmenetileg nem lehetséges. Próbáld újra később."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "%(vehName)s visszaállítása nem lehetséges. A jármű-visszaállítás átmenetileg nem elérhető."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "%(vehName)s visszaállítása nem lehetséges. Nem megfelelő jármű."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "%(vehName)s visszaállítása nem lehetséges. Nincs elég kredited."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "%(vehName)s visszaállítása nem lehetséges. Nincs elég aranyad."
+
+msgid "vehicle_restore/server_error"
+msgstr "Szerverhiba miatt a(z) %(vehName)s visszaállítása nem lehetséges. Próbáld újra később."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "%(vehName)s visszaállítása nem lehetséges. A jármű-visszaállítás átmenetileg nem elérhető."
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)s jármű sikeresen visszaállítva. Elköltve: %(price)s."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Leszerelő készlet felhasználva (%(countDK)sx)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "%(vehName)s eladása sikertelen. Próbáld újra később."
+
+msgid "vehicle_sell/disabledService"
+msgstr "%(vehName)s eladása sikertelen. Próbáld újra később."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "%(vehName)s eladása sikertelen. Nincs elég komponensed a felszerelés leszereléséhez."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "%(vehName)s eladása sikertelen. Nem megfelelő jármű."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "%(vehName)s eladása sikertelen. Nincs elég kredited."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "%(vehName)s eladása sikertelen. Nincs elég aranyad."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "%(vehName)s eladása sikertelen. Nincs elég férőhely a barakkban."
+
+msgid "vehicle_sell/server_error"
+msgstr "%(vehName)s eladása sikertelen. Győződj meg róla, hogy ez a jármű nincs-e benne valamilyen taktikai egységben vagy próbáld újra később."
+
+msgid "vehicle_sell/success"
+msgstr "A(z) %(vehName)s sikeresen eladva.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "A(z) %(vehName)s sikeresen eladva.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "%(vehName)s eladása sikertelen. A jármű automatikusan eltávolításra kerül."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "%(vehName)s eladása sikertelen. Jármű zárolva."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "%(vehName)s eladása sikertelen. Javítsd meg a járműved."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "%(vehName)s eladása sikertelen. Elérted a járművek napi limitjét."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Hiba a férőhely vásárlása során. Nincs elég kredited."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Férőhely vásárlása sikertelen. Nincs elég arany."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Hiba a hely vásárlása közben. Próbáld később."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Garázs sikeresen kibővítve. Elköltve %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Hiba a(z) %(vehName)s jármű legénysége gyorsított képzésének megváltoztatása során. Rossz jármű."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "Nem sikerült megváltoztatni a gyorsított legénységi kiképzést a(z) %(vehName)s járművön. Próbálkozz újra később."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "Kikapcsoltad a gyorsított legénységi kiképzést a(z) %(vehName)s járművön."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "Bekapcsoltad a gyorsított legénységi kiképzést a(z) %(vehName)s járművön."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Hiba a(z) %(vehName)s jármű legénysége gyorsított képzésének megváltoztatása során. Jármű zárolva."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Hiba a(z) %(vehName)s jármű legénysége gyorsított képzésének megváltoztatása során. Javítsd meg a járművet."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Becserélés a(z) %(vehName)s járműre sikertelen. A kiválasztott jármű nem felel meg."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "Becserélés a(z) %(vehName)s járműre sikertelen. Nincs elég kredited."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "Becserélés a(z) %(vehName)s járműre sikertelen. Nincs elég aranyad."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "A(z) %(tradeOffVehName)s jármű becserélése sikertelen. Nincs elég hely a barakkodban."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Becserélési ajánlat érhető el!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Sajnáljuk, de ez a becserélési ajánlat már nem elérhető!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Becserélés a(z) %(vehName)s járműre sikertelen. Szerver hiba. Kérlek, próbáld újra később."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Becserélés a(z) %(vehName)s járműre sikertelen. A vásárlás/becserélés szolgáltatás átmenetileg nem elérhető."
+
+msgid "vehicle_trade_in/success"
+msgstr "A(z) %(tradeOffVehName)s jármű eltávolítva. A(z) %(vehName)s jármű megvásárolva %(price)s áron."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "A(z) %(tradeOffVehName)s jármű becserélése sikertelen. A járművet automatikusan eltávolítjuk."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Becserélés a(z) %(vehName)s járműre sikertelen. A jármű nem vehető meg becseréléssel."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "A(z) %(tradeOffVehName)s jármű becserélése sikertelen. A járművet nem lehet becserélni."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "A(z) %(tradeOffVehName)s jármű becserélése sikertelen. A jármű nem elérhető."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "A(z) %(tradeOffVehName)s jármű becserélése sikertelen. Javítsd meg a járművet."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "A(z) %(tradeOffVehName)s jármű becserélése sikertelen. A jármű nincs a depóban."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "A művelet nem elérhető. A teljes arany mennyiséged automatikusan elérhető lesz, miután a WG Wallet működése automatikusan helyreállt."
+
+msgid "video/error"
+msgstr "Visszajátszási hiba. Hibakód: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "A kistérkép harci zónái átmenetileg nem érhetők el."
+
+msgid "w2gt/switchOff/header"
+msgstr "Technikai problémák"
+
+msgid "w2gt/switchOn/description"
+msgstr "Most már elérhetők a kistérkép harci zónái. Csatázz tovább!"
+
+msgid "w2gt/switchOn/header"
+msgstr "A működést visszaállítottuk"
+
+msgid "wallet/available"
+msgstr "A WG Wallet szolgáltatás sikeresen szinkronizálva. Az összes aranyad, kötvényed, kredited és szabad tapasztalatod elérhető."
+
+msgid "wallet/available_freexp"
+msgstr "A WG Wallet szolgáltatás sikeresen szinkronizálva. Az összes szabad tapasztalati pontod most már elérhető."
+
+msgid "wallet/available_gold"
+msgstr "A WG Wallet szolgáltatás sikeresen szinkronizálva. Az aranyad most már elérhető."
+
+msgid "wallet/not_available"
+msgstr "Egyenleg lekérdezése folyamatban. Az aranyad, kötvényeid, kredited és szabad tapasztalatod nemsokára elérhető lesz."
+
+msgid "wallet/not_available_freexp"
+msgstr "Egyenleg adatok lekérdezése. A szabad tapasztalati pontjaid hamarosan elérhetővé válnak."
+
+msgid "wallet/not_available_gold"
+msgstr "Egyenleg lekérdezése folyamatban. Az aranyad nemsokára elérhető lesz."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "A heti küldetés újrapörgetése nem lehetséges: művelet blokkolva."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "A heti küldetés újrapörgetése nem lehetséges: érvénytelen küldetés."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "A heti küldetés újrapörgetése nem lehetséges: a küldetést már teljesítetted."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "A heti küldetés újrapörgetése nem lehetséges: művelet felfüggesztve."
+
+msgid "weekly_quests/reroll/success"
+msgstr "A heti küldetés sikeresen újrapörgetve."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "A heti küldetés újrapörgetése nem lehetséges. Próbálkozz újra később."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "A heti küldetések átmenetileg nem érhetők el. Elnézést a kellemetlenségekért."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "A heti küldetések újra elérhetők. Elnézést a kellemetlenségekért."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Nem lehet kilépni a Bemelegítésből. Kérjük, próbáld újra később."
+
+msgid "window/buttons/close"
+msgstr "Bezárás"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" modul nem megfelelő erre a helyre: %s."

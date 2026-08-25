@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Auch erhalten:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Diese Auftragsreihe kann mehrfach abgeschlossen werden."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Verstanden!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Schließen"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "In der Garage anzeigen"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Erneut spielen"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Zur Feuerprobe"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT-Premiumkonto"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Premiumfahrzeug"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Mietfahrzeug"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "und Stil „{{styleName}}“"
+
+msgid "awards_view/reward/multi"
+msgstr "{{count}}×"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) Tag"
+msgstr[1] "%(day) Tage"
+msgstr[2] "%(day) Tage"
+
+msgid "awards_view/title"
+msgstr "FEUERPROBE ABGESCHLOSSEN!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Auftrag für 5× EP pro Gefecht"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Blaupausenfragment: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Universelles Blaupausenfragment"
+
+msgid "bonuses/bpcoin"
+msgstr "Marke für den Battle Pass"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Auftrag für 3× Besatzungs-EP"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Satz mit 3D-Aufsätzen"
+
+msgid "bonuses/description/booster"
+msgstr "Persönliche Reserve"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Erbeutetes Zubehör"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Besatzungsskin"
+
+msgid "bonuses/description/directive"
+msgstr "Direktive"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Experimentelles Zubehör"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Verbessertes Zubehör"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "und Stil „%(styleName)s“"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standardzubehör"
+
+msgid "bonuses/description/style"
+msgstr "2D-Stil"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D-Stil"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Weibliches Besatzungsmitglied"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Rekrutieren"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Besatzungsmitglied"
+
+msgid "condition/achievement"
+msgstr "Verdienen Sie sich die Auszeichnung „%(achievement)s“"
+
+msgid "condition/achievement/title"
+msgstr "Besondere Leistungen im Gefecht"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Verursachen oder ermöglichen Sie insgesamt %(goal)s Schadenspunkte"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Verursachen, erhalten und wehren Sie insgesamt %(goal)s Schadenspunkte ab"
+
+msgid "condition/aggregated/title"
+msgstr "Komplexe Bedingung"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "condition/classes/SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "condition/classes/heavyTank"
+msgstr "schwere Panzer"
+
+msgid "condition/classes/lightTank"
+msgstr "leichte Panzer"
+
+msgid "condition/classes/mediumTank"
+msgstr "mittlere Panzer"
+
+msgid "condition/critsCount"
+msgstr "Verursachen Sie %(goal)s kritische Treffer an internen oder externen Modulen gegnerischer Fahrzeuge"
+
+msgid "condition/critsCount/title"
+msgstr "Bewegungsunfähig machen"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Wehren Sie %(goal)s Schadenspunkte ab"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Wehren Sie %(goal)s Mal mehr Schaden ab, als Ihr Fahrzeug SP besitzt"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Abwehren"
+
+msgid "condition/damageDealt"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Verursachen Sie %(goal)s Mal mehr Schaden, als Ihr Fahrzeug SP besitzt"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Treffen Sie %(goal)s Mal ein gegnerisches Fahrzeug auf eine Distanz von höchstens %(distance)s m"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Treffen Sie %(goal)s Mal ein gegnerisches Fahrzeug auf eine Distanz von mindestens %(distance)s m"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Verursachen Sie %(goal)s Mal Schaden durch Rammen an gegnerischen Fahrzeugen"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Treffen Sie %(goal)s Mal gegnerische Fahrzeuge innerhalb der Sichtweite Ihres Fahrzeugs"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte innerhalb der ersten %(timeLimit)s Minuten des Gefechts"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen aus höchstens %(distance)s m Distanz"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen aus mindestens %(distance)s m Distanz"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte durch Rammen"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Rammen"
+
+msgid "condition/damageDealt/title"
+msgstr "Schaden"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an nicht aufgeklärten gegnerischen Fahrzeugen"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen innerhalb der Sichtweite Ihres Fahrzeugs"
+
+msgid "condition/kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge"
+
+msgid "condition/kills/classes"
+msgstr "Zerstören Sie %(goal)s gegnerische %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge %(classCount)s verschiedener Typen"
+
+msgid "condition/kills/title"
+msgstr "Zerstören"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge, ohne selbst Schaden zu nehmen"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge, ohne aufgeklärt zu werden"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Verursachen Sie %(goal)s %% des insgesamt von Ihrem Team verursachten Schadens"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Schaden"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Durchschlagen Sie %(goal)s Mal die Panzerung von gegnerischen Fahrzeugen"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Durchschlag"
+
+msgid "condition/spotted"
+msgstr "Klären Sie %(goal)s gegnerische Fahrzeuge auf"
+
+msgid "condition/spotted/title"
+msgstr "Aufklären"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Klären Sie %(goal)s gegnerische Fahrzeuge auf, ohne aufgeklärt zu werden"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Aufklären"
+
+msgid "condition/top/damageDealt"
+msgstr "Erreichen Sie mindestens Platz %(rank)s Ihres Teams nach verursachtem Schaden"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Erreichen Sie mindestens Platz %(rank)s beider Teams nach verursachtem Schaden"
+
+msgid "condition/top/title"
+msgstr "Bester Spieler"
+
+msgid "condition/top/xp"
+msgstr "Erreichen Sie mindestens Platz %(rank)s Ihres Teams nach verdienter Erfahrung"
+
+msgid "condition/unknown"
+msgstr "Am besten geeigneter Auftrag wird gesucht ..."
+
+msgid "condition/unknown/title"
+msgstr "Bitte warten"
+
+msgid "postbattle/name"
+msgstr "FEUERPROBE: "

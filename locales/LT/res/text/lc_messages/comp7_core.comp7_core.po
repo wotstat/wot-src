@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Pasirinkite, kurio mašinos nenorite matyti šiame mūšyje"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Uždraudimo etapas"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Patvirtinkite pasirinkimą"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "Po patvirtinimo nebegalėsite pasirinkti kitos mašinos."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Patvirtinimo etapas"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Pasirinkite šiam žemėlapiui ir jūsų komandos kompozicijai tinkamiausią mašiną"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Mašinų išankstinis pasirinkimas"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Pasirinkite geriausią mašiną jūsų komandai ir žemėlapiui."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Laukiame žaidėjų..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Pasirinkite mašiną"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Etapas serveryje %(server)s baigėsi"
+
+msgid "primeTimeView/server"
+msgstr "Pasiekiamas serveris: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Serveris %(server)s\nMūšiai bus pasiekiami dar %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Serveris %(server)s\nMūšiai bus pasiekiami po %(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "Pasiekiami serveriai:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Mūšiai nepasiekiami visuose serveriuose"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Režimas nepasiekiamas serveryje %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Serveryje %(server)s mūšiai bus pasiekiami dar %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Mūšiai prasidės serveryje %(server)s po %(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "Mūšiai nebus pasiekiami iki %(startTime)s serveryje %(server)s"

@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Al recibir daño, se interrumpe la restauración de PV.\n\nLa tasa de restauración de PV y el límite máximo de recuperación están determinados por los PV totales del vehículo con todos los modificadores incluidos."
+
+msgid "armorPatching/alt/info"
+msgstr "Para las cualificaciones de grupo, se tiene en cuenta el nivel de entrenamiento medio de todos los tripulantes. Surten efecto cuando están entrenadas al 1 % como mínimo. Su efectividad mejora a medida que se entrenan."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "El Kit de reparación restaura %(hpRecover)s de los {yellow_Start}PV{yellow_End} del vehículo en 5 s, hasta un máximo del 20 % por batalla. Permite el uso del Kit de reparación sin daño crítico."
+
+msgid "armorPatching/hudDescription"
+msgstr "Puntos de vida restaurados."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, restaura %(hpRecover)s de los {yellow_Start}PV{yellow_End} del vehículo en 5 s tras usar un Kit de reparación, hasta un máximo del 20 % por batalla. Permite el uso del Kit de reparación sin daño crítico."
+
+msgid "armorPatching/name"
+msgstr "Reparación del blindaje"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Aumenta la ocultación base del vehículo."
+
+msgid "brotherhood/alt/description"
+msgstr "La bonificación de la eficacia de la tripulación mejora la eficacia del tripulante en combate, así como la eficacia de todas sus cualificaciones aprendidas excepto esta. Este parámetro se puede aumentar aún más con equipamiento o consumibles con un efecto similar o usando la directiva «Purga de gases». La cualificación «Emergencia» del comandante y las cualificaciones «Codo a codo» y «Experto en comunicaciones» del operador de radio pueden aumentar el parámetro."
+
+msgid "brotherhood/alt/info"
+msgstr "Para las cualificaciones de grupo, se tiene en cuenta el nivel de entrenamiento medio de todos los tripulantes. Surten efecto cuando están entrenadas al 1 % como mínimo. Su efectividad mejora a medida que se entrenan."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "La {greenBright_Start}bonificación de eficacia{greenBright_End} para toda la tripulación aumenta en %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo por todos los tripulantes, aumenta la {greenBright_Start}bonificación de eficacia{greenBright_End} de toda la tripulación en %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Hermanos de armas"
+
+msgid "brotherhood/shortDescription"
+msgstr "Aumenta el rendimiento general de tripulación."
+
+msgid "camouflage/alt/description"
+msgstr "Esta cualificación afecta la ocultación del vehículo. Se puede mejorar aún más con la directiva «Cobertura natural».\n\nAdemás, la ocultación del vehículo se puede aumentar aplicando un patrón de camuflaje o un estilo, así como montando equipamiento con un efecto similar."
+
+msgid "camouflage/alt/info"
+msgstr "Para las cualificaciones de grupo, se tiene en cuenta el nivel de entrenamiento medio de todos los tripulantes. Surten efecto cuando están entrenadas al 1 % como mínimo. Su efectividad mejora a medida que se entrenan."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Aumenta la {greenBright_Start}ocultación{greenBright_End} del vehículo en %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo por todos los tripulantes, aumenta la {greenBright_Start}ocultación del vehículo{greenBright_End} en %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Ocultación"
+
+msgid "camouflage/shortDescription"
+msgstr "Aumenta la ocultación base del vehículo."
+
+msgid "commander_coordination/alt/description"
+msgstr "El efecto se activa cada vez que se detecta un vehículo enemigo y no se acumula por detectar varios de ellos.\n\nEl cierre de la retícula se puede aumentar aún más entrenando la cualificación «Apuntamiento rápido» del artillero o con equipamiento con un efecto similar."
+
+msgid "commander_coordination/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "La {yellow_Start}velocidad de apuntamiento{yellow_End} aumentará en %(vehicleGunAimSpeed)s durante 15 s al detectar un vehículo enemigo."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Aumenta la velocidad de apuntamiento."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la{yellow_Start}velocidad de apuntamiento{yellow_End} en %(vehicleGunAimSpeed)s durante 15 s una vez que hayas detectado un vehículo enemigo.\t"
+
+msgid "commander_coordination/name"
+msgstr "Coordinación"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Aumenta la velocidad de apuntamiento."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "El alcance de visión se puede aumentar aún más entrenando la cualificación «Conciencia situacional» del operador de radio o montando equipamiento con un efecto similar. Usar la directiva «Calibración de ópticas» mejora el efecto."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "El {greenBright_Start}alcance de visión{greenBright_End} aumenta en %(circularVisionRadius)s&zwnbsp;. La {greenBright_Start}penalización por dispositivos de observación dañados{greenBright_End} se reduce en %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Se reduce la penalización por dispositivos de observación dañados."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta el {greenBright_Start}alcance de visión{greenBright_End} en %(circularVisionRadius)s&zwnbsp; y reduce la {greenBright_Start}penalización por los dispositivos de observación{greenBright_End} en %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Reconocimiento"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Aumenta el alcance de visión, sobre todo cuando los dispositivos de observación resultan dañados."
+
+msgid "commander_emergency/alt/description"
+msgstr "Al recibir daño de un enemigo repetidamente, el efecto no se acumula. La bonificación de eficacia de la tripulación mejora la eficacia del tripulante en combate. Este parámetro se puede aumentar aún más con equipamiento o consumibles con un efecto similar o usando la directiva «Purga de gases». La cualificación de grupo «Hermanos de armas» y las cualificaciones «Codo a codo» y «Experto en comunicaciones» del operador de radio también permiten aumentar el parámetro."
+
+msgid "commander_emergency/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} aumentará en %(crewLevelIncrease)s durante 15 s al recibir daño de un enemigo."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Aumenta la bonificación de eficacia de la tripulación."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} en %(crewLevelIncrease)s durante 15 s al recibir daño de un enemigo."
+
+msgid "commander_emergency/name"
+msgstr "Emergencia"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Aumenta la bonificación de eficacia de la tripulación."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Se activa un aviso sobre fuego de AAP enemigas al poco de que se efectúe un disparo.\n\nLa cualificación se puede mejorar con la directiva «Vigilancia aumentada»."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "Se emite una {yellow_Start}alerta sobre los disparos de AAP enemigas{yellow_End} y la dirección del disparo con %(artNotificationDelayFactor)s de retardo. El {greenBright_Start}efecto negativo del aturdimiento{greenBright_End} se reduce en %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, lanza un {yellow_Start}aviso sobre fuego de AAP enemigas{yellow_End} con un retardo de %(artNotificationDelayFactor)s y determina la dirección del disparo. También reduce el {greenBright_Start}efecto negativo del aturdimiento{greenBright_End} en %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Detección de sonido"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Indica un disparo de AAP enemiga."
+
+msgid "commander_holdLine/alt/description"
+msgstr "La bonificación de eficacia de la tripulación mejora la eficiencia de un tripulante en batalla.\n\nEl parámetro puede mejorarse más con equipamiento o consumibles que tengan un efecto similar o con la directiva «Purga de gases». También hay otras cualificaciones de la tripulación que aumentan el parámetro."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} aumenta en %(crewLevelIncrease)s cuando el equipo enemigo tiene al menos tres vehículos más en batalla que el equipo aliado&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Aumenta la bonificación de eficacia de la tripulación (mayoría enemiga)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, la {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} aumenta en %(crewLevelIncrease)s cuando el equipo enemigo tiene al menos tres vehículos más en batalla que el equipo aliado&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Mantente firme"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Aumenta la bonificación de eficacia de la tripulación."
+
+msgid "commander_practical/alt/description"
+msgstr "La cualificación funciona con todos los tipos de consumibles montados en el vehículo.\n\nEl efecto se puede aumentar aún más con la directiva «Preparativos riguroso»."
+
+msgid "commander_practical/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "Se reduce el {greenBright_Start}tiempo de enfriamiento de los consumibles{greenBright_End} en %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce el {greenBright_Start}enfriamiento del consumible{greenBright_End} en %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Practicidad"
+
+msgid "commander_practical/shortDescription"
+msgstr "Reduce el enfriamiento del consumible."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "La habilidad «Sexto sentido» se desactiva si el comandante está herido. Su tiempo de activación se puede reducir con la cualificación «Interceptación de señal» del operador de radio."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Es una función especial del comandante que no requiere entrenamiento y está disponible por defecto."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Permite que el comandante determine si el enemigo ha detectado tu vehículo. Se activa %(delay)s después de que el vehículo haya sido detectado."
+
+msgid "commander_sixthSense/name"
+msgstr "Sexto sentido"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Permite que el comandante determine si tu vehículo ha sido detectado por el enemigo."
+
+msgid "commander_staySharp/alt/description"
+msgstr "La bonificación de eficacia de la tripulación mejora la eficiencia de un tripulante en batalla.\n\nEl parámetro puede mejorarse más con equipamiento o consumibles que tengan un efecto similar o con la directiva «Purga de gases». También hay otras cualificaciones de la tripulación que aumentan el parámetro."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} aumenta en %(crewLevelIncrease)s durante 15&nbsp; s tras usar un Botiquín de primeros auxilios. Permite usar un Botiquín de primeros auxilios aunque no haya tripulantes heridos&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Aumenta la bonificación de eficacia de la tripulación (uso de Botiquín de primeros auxilios)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} en %(crewLevelIncrease)s durante 15 s al recibir daño de un enemigo. Permite usar un Botiquín de primeros auxilios aunque no haya tripulantes heridos&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Ojo avizor"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Aumenta la bonificación de eficacia de la tripulación."
+
+msgid "commander_tutor/alt/description"
+msgstr "Un comandante herido no puede reemplazar a otro tripulante. La bonificación se aplica solo a la cantidad base de EXP de la tripulación ganada en batalla.\n\nSe puede recibir EXP de la tripulación adicional usando libros de la tripulación o convirtiendo EXP libre en EXP de la tripulación."
+
+msgid "commander_tutor/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "La cantidad de {greenBright_Start}EXP{greenBright_End} obtenida aumenta en %(xpBonusFactorPerLevel)s para todos los tripulantes. Permite que el comandante {greenBright_Start}reemplace a los tripulantes fuera de combate{greenBright_End} con un %(woundedCrewEfficiency)s de eficacia."
+
+msgid "commander_tutor/hudDescription"
+msgstr "El comandante reemplaza a los tripulantes inconscientes."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la cantidad de {greenBright_Start}EXP{greenBright_End} obtenida en %(xpBonusFactorPerLevel)s para todos los tripulantes. Permite que el comandante {greenBright_Start}reemplace a los tripulantes fuera de combate{greenBright_End} con un %(woundedCrewEfficiency)s de eficacia."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "El comandante reemplaza a los tripulantes inconscientes."
+
+msgid "commander_universalist/alt/description"
+msgstr "El comandante solo puede reemplazar la acreditación principal de un tripulante inconsciente. El efecto de reemplazo se reduce con cada tripulante inconsciente."
+
+msgid "commander_universalist/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "El comandante puede {greenBright_Start}reemplazar tripulantes inconscientes{greenBright_End} con una eficacia del %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/hudDescription"
+msgstr "El comandante lleva a cabo funciones de tripulantes inconscientes."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, permite que el comandante {greenBright_Start}reemplace tripulantes inconscientes{greenBright_End} con una eficacia del %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/name"
+msgstr "Comodín"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Permite que el comandante reemplace tripulantes inconscientes."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Reduce las penalizaciones de maniobrabilidad y aceleración del vehículo al conducir por terreno moderadamente blando. Reduce mucho estas penalizaciones al conducir por terreno blando, lo que las equipara a las del terreno moderadamente blando.\nLa maniobrabilidad en terreno moderadamente blando y blando no puede exceder la maniobrabilidad en terreno duro."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "La {greenBright_Start}pérdida de velocidad en terreno moderadamente blando{greenBright_End} se reduce en %(mediumGroundFactor)s&zwnbsp;, y la {greenBright_Start}pérdida de velocidad en terreno blando{greenBright_End}, a un %(softGroundFactor)s del valor resultante sobre terreno moderadamente blando."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce la {greenBright_Start}pérdida de velocidad en terreno moderadamente blando{greenBright_End} en %(mediumGroundFactor)s&zwnbsp;, reduce la {greenBright_Start}pérdida de velocidad en terreno blando{greenBright_End} a un %(softGroundFactor)s del valor resultante sobre terreno moderadamente blando."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Conducción todoterreno"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "La bonificación de eficacia de la tripulación mejora la eficiencia de un tripulante en batalla.\n\nEl parámetro puede mejorarse más con equipamiento o consumibles que tengan un efecto similar o con la directiva «Purga de gases». También hay otras cualificaciones de la tripulación que aumentan el parámetro."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} aumentará en %(crewLevelIncrease)s si la cantidad de daño bloqueado supera los puntos de vida iniciales de tu vehículo."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Aumenta la bonificación de eficacia de la tripulación (se ha bloqueado suficiente daño)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} en %(crewLevelIncrease)s si la cantidad de daño bloqueado supera los puntos de vida iniciales de tu vehículo."
+
+msgid "driver_bulletproof/name"
+msgstr "Impenetrable"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "La velocidad punta del vehículo se puede aumentar aún más y la penalización por motor dañado se puede reducir aún más con equipamiento con un efecto similar."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad punta hacia delante{greenBright_End} y {greenBright_Start}marcha atrás{greenBright_End} de tu vehículo aumentan en %(vehicleForwardMaxSpeed)s. Reduce la {greenBright_Start}penalización por motor dañado{greenBright_End} en %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Se reduce la penalización por motor dañado."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {greenBright_Start}velocidad punta hacia delante{greenBright_End} y {greenBright_Start}marcha atrás{greenBright_End} de tu vehículo en %(vehicleForwardMaxSpeed)s. Reduce la {greenBright_Start}penalización por motor dañado{greenBright_End} en %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Ingeniero"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Se reduce la penalización por motor dañado."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "La habilidad no tiene efecto cuando dos vehículos aliados colisionan.\n\nEl daño por embestida que recibe tu vehículo se puede reducir aún más montando equipamiento con un efecto similar."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "El {greenBright_Start}daño por embestida infligido a vehículos enemigos{greenBright_End} aumenta en %(damageEnemiesByRamming)s&zwnbsp;. El {greenBright_Start}daño por embestida que recibe tu vehículo{greenBright_End} se reduce en %(vehicleRamDamageResistance)s&zwnbsp;, y el daño que recibe {greenBright_Start}tu suspensión{greenBright_End}, en %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta el {greenBright_Start}daño por embestida infligido a los vehículos enemigos{greenBright_End} en %(damageEnemiesByRamming)s&zwnbsp;. Reduce el {greenBright_Start}daño por embestida que recibe tu vehículo{greenBright_End} en %(vehicleRamDamageResistance)s&zwnbsp;, y el daño que recibe {greenBright_Start}tu suspensión{greenBright_End}, en %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Impacto controlado"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Reduce el daño por embestida que sufre tu vehículo y aumenta el que infliges a los vehículos enemigos."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "El daño recibido por proyectiles AE se puede reducir aún más con equipamiento de efecto similar."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "Aumenta la {greenBright_Start}absorción del daño de los proyectiles AE{greenBright_End} en %(vehicleHEShellDamageResistance)s&zwnbsp;. Reduce la &nbsp;{greenBright_Start}probabilidad de incendio del motor{greenBright_End} en %(vehicleFireChance)s y el {greenBright_Start}daño a la suspensión{greenBright_End} en %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {greenBright_Start}absorción del daño de los proyectiles AE{greenBright_End} en %(vehicleHEShellDamageResistance)s&zwnbsp;. Reduce la {greenBright_Start}probabilidad de incendio del motor{greenBright_End} en %(vehicleFireChance)s y el {greenBright_Start}daño a la suspensión{greenBright_End} en %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Posicionamiento fiable"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "No afecta a la precisión de un vehículo parado ni mientras el casco gira.\n\nLa cualificación se puede mejorar usando la directiva «Caja de cambios compleja». La precisión al disparar en movimiento se puede aumentar aún más montando equipamiento con un efecto similar o usando la directiva «Estabilizador engrasado»."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "La {greenBright_Start}dispersión del cañón{greenBright_End} al disparar en movimiento se reduce en %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce la {greenBright_Start}dispersión del cañón{greenBright_End} al disparar en movimiento en %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Viaje suave"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Mejora la precisión al disparar en movimiento."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Esta cualificación afecta la velocidad a la que se repara una suspensión del estado rojo al amarillo mientras se está a distancias inferiores a 50 m de un vehículo aliado."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "La {yellow_Start}velocidad de reparación de la suspensión{yellow_End} aumenta en %(suspensionRepairSpeed)s a distancias inferiores a 50 m de un vehículo aliado."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Aumenta la velocidad de reparación de la suspensión (hay un aliado cerca)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {yellow_Start}velocidad de reparación de la suspensión{yellow_End} en %(suspensionRepairSpeed)s a distancias inferiores a 50 m de un vehículo aliado."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Apoyo de campo"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "La resistencia a incendios del vehículo se puede aumentar aún más montando equipamiento o consumibles con efectos similares. La cualificación «Extinción de incendios» aumenta la velocidad a la que se apaga el fuego."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "{greenBright_Start}Probabilidad de incendio del motor{greenBright_End} reducida en %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce la {greenBright_Start}probabilidad de incendio del motor{greenBright_End} en %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Mantenimiento preventivo"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Disminuye la probabilidad de incendio del motor."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "La velocidad de giro del casco se puede aumentar aún más montando equipamiento o consumibles con un efecto similar."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad de giro del casco{greenBright_End} aumenta en %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {greenBright_Start}velocidad de giro del casco{greenBright_End} en %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Frenado con embrague"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Aumenta la velocidad de giro del casco."
+
+msgid "fireFighting/alt/description"
+msgstr "Esta cualificación afecta al daño recibido por incendios y a su duración.\n\nSi dos operadores de radio tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nLa cualificación se puede mejorar con la directiva «Expertos en extinción de incendios»."
+
+msgid "fireFighting/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad de extinción de incendios{greenBright_End} aumenta en %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta {greenBright_Start}la velocidad de extinción de incendios en{greenBright_End} en %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Extinción de incendios"
+
+msgid "fireFighting/shortDescription"
+msgstr "Mejora la capacidad de apagar incendios."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Por defecto, la oscilación de daño potencial y de penetración es de un ±25 % de los valores base. Por ejemplo, si un proyectil penetra un blindaje de hasta 100 mm e inflige 100 puntos de daño, al impactar en un objetivo, la penetración real de este único disparo puede oscilar entre 75 y 125 mm, y el daño real puede oscilar entre 75 y 125 puntos. Si se reduce este modificador, los resultados de disparo serán más predecibles.\n\nSi dos artilleros tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "La oscilación de {greenBright_Start}daño potencial{greenBright_End} y {greenBright_Start}penetración potencial{greenBright_End} se reducen en {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. La {greenBright_Start}dispersión del cañón{greenBright_End} se reduce en %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce la oscilación de {greenBright_Start}daño potencial{greenBright_End} y {greenBright_Start}penetración potencial{greenBright_End} en {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Reduce la {greenBright_Start}dispersión del cañón{greenBright_End} en %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Armero"
+
+msgid "gunner_focus/alt/description"
+msgstr "El efecto empieza 3 s después de que el vehículo se detenga y se restablece al moverse.\n\nSi dos artilleros tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento."
+
+msgid "gunner_focus/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "La {yellow_Start}dispersión del cañón{yellow_End} de un vehículo parado se reduce en %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Se reduce la dispersión del cañón."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce la {yellow_Start}dispersión del cañón{yellow_End} de un vehículo parado en %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Concentración"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Reduce la dispersión del cañón de un vehículo estacionario."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "La dispersión del cañón y la velocidad de apuntamiento se pueden mejorar aún más entrenando cualificaciones o con equipamiento con un efecto similar.\n\nSi dos artilleros tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento"
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "La {yellow_Start}dispersión del cañón{yellow_End} disminuye en %(vehicleGunAimSpeed)s y la {yellow_Start}velocidad de apuntamiento{yellow_End} aumenta en %(vehicleGunAimSpeed)s cuando no hay aliados en un radio de 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Aumenta la dispersión del cañón y la velocidad de apuntamiento (no hay aliados cerca)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce la {yellow_Start}dispersión del cañón{yellow_End} y aumenta la {yellow_Start}velocidad de apuntamiento{yellow_End} en %(vehicleGunAimSpeed)s cuando no hay aliados en un radio de 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Lobo solitario"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Reduce la dispersión del cañón. Aumenta la velocidad de apuntamiento."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Por defecto, el potencial de penetración máximo es de +25 % del valor base. Por ejemplo, si un proyectil penetra un blindaje de un grosor máximo de 100 m al impactar en un objetivo, el valor potencial de penetración máximo de este disparo puede ser de 125 mm. Si aumentas este modificador, la penetración resultará más efectiva.\n\nSi dos artilleros tienen la cualificación, se aplica el valor medio de su nivel de entrenamiento."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "El {yellow_Start}potencial de penetración máximo{yellow_End} de tus proyectiles aumenta en %(piercingHEShellsDistributionUpperBound)s al disparar a vehículos enemigos a distancias inferiores a 50 m."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta el {yellow_Start}potencial de penetración máximo{yellow_End} en %(piercingHEShellsDistributionUpperBound)s al disparar a vehículos enemigos a distancias inferiores a 50 m."
+
+msgid "gunner_pointBlast/name"
+msgstr "A quemarropa"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Aumenta el potencial de penetración máximo de tus proyectiles."
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Si dos artilleros tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nEl cierre de la retícula se puede aumentar más entrenando la cualificación «Coordinación» del comandante o con equipamiento con un efecto similar.\n\nLa velocidad de giro de la torreta se puede incrementar aún más con equipamiento o consumibles con un efecto similar."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad de apuntamiento{greenBright_End} y la {greenBright_Start}velocidad de giro de la torreta{greenBright_End} aumentan en %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {greenBright_Start}velocidad de apuntamiento{greenBright_End} y la {greenBright_Start}velocidad de giro de la torreta{greenBright_End} en %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Apuntamiento rápido"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Aumenta la velocidad de apuntamiento."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identifica módulos con daños críticos en vehículos objetivo que estén dentro del alcance de visión del artillero, tanto en modo de fuego indirecto como directo.\nEl área de visión del artillero se define por el sector de ±10° (20° en total) delante del cañón del vehículo y su alcance de visión.\nSi dos artilleros tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento.\nLa cualificación se puede mejorar más con la directiva «Enfoque en el objetivo». Usar el Equipo de radio mejorado aumentará aún más el tiempo antes de que el vehículo enemigo deje de ser visible."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "El {greenBright_Start}tiempo{greenBright_End} antes de que un vehículo enemigo {greenBright_Start}deje de ser visible{greenBright_End} dentro del área de visión del artillero aumenta en %(vehicleEnemySpottingTime)s. El tiempo para {yellow_Start}identificar módulos dañados{yellow_End} se reduce en%(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta el {greenBright_Start}tiempo{greenBright_End} antes de que un vehículo enemigo {greenBright_Start}deje de ser visible{greenBright_End} dentro del área de visión del artillero en %(vehicleEnemySpottingTime)s. Permite {yellow_Start}identificar módulos dañados{yellow_End} con un %(damageMonitoringDelay)s de retardo."
+
+msgid "gunner_rancorous/name"
+msgstr "Objetivo designado"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Aumenta el tiempo antes de que un vehículo enemigo deje de ser visible dentro del área de visión del artillero. Permite identificar módulos dañados."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Si dos artilleros tienen la cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nLa cualificación se puede mejorar con la directiva «Mano firme». La dispersión al rotar la torreta se puede reducir aún más montando equipamiento con un efecto similar o usando la directiva «Estabilizador engrasado»."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Dispersión del cañón{greenBright_End} mientras gira la torreta reducida en %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce la {greenBright_Start}dispersión del cañón{greenBright_End} mientras gira la torreta en %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Ajuste de disparo"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Reduce la dispersión del cañón mientras la torreta gira."
+
+msgid "gunner_sniper/alt/description"
+msgstr "El efecto funciona para todos los tipos de proyectiles salvo en vehículos con cañones automáticos.\n\nSi dos artilleros tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "La {greenBright_Start}probabilidad de infligir daño crítico{greenBright_End} a los {greenBright_Start}módulos de los vehículos enemigos{greenBright_End} y herir a los {greenBright_Start}tripulantes enemigos{greenBright_End} con todos los tipos de proyectiles aumenta en %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {greenBright_Start}probabilidad de infligir daño crítico{greenBright_End} a los {greenBright_Start}módulos de los vehículos enemigos{greenBright_End} y herir a los {greenBright_Start}tripulantes enemigos{greenBright_End} con todos los tipos de proyectiles en %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Francotirador"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Por defecto, los rangos de daño potencial mínimo y de penetración son -25 % de los valores base. Por ejemplo, si un proyectil penetra un blindaje de hasta 100 mm y causa 100 puntos de daño, al impactar en un objetivo, la penetración mínima posible de este único disparo puede ser de 75 mm y el daño mínimo posible puede ser de 75 puntos. Si se aumenta este modificador, los resultados de disparo serán más efectivos.\n\nSi dos cargadores tienen esta cualificación, se aplicará el valor medio de su nivel de entrenamiento."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "El {greenBright_Start}daño potencial mínimo{greenBright_End} y la {greenBright_Start}penetración potencial mínima{greenBright_End} aumentan en %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta el {greenBright_Start}daño potencial mínimo{greenBright_End} y la {greenBright_Start}penetración potencial mínima{greenBright_End} en %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Ajuste de munición"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Aumenta el daño y el valor de penetración medios."
+
+msgid "loader_desperado/alt/description"
+msgstr "Si dos cargadores tienen la cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nEl tiempo de carga del cañón se puede acelerar más entrenando la cualificación «Combate a corta distancia» o montando equipamiento con un efecto similar. Usar la directiva «Depósito de munición ordenado» mejora el efecto."
+
+msgid "loader_desperado/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Recarga del cañón{yellow_End} acelerada en %(vehicleGunReloadTime)s si a tu vehículo le queda menos del 25 % de los PV."
+
+msgid "loader_desperado/hudDescription"
+msgstr "El tiempo de carga del cañón se acelera (baja durabilidad del vehículo)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, acelera el {yellow_Start}tiempo de carga del cañón{yellow_End} en %(vehicleGunReloadTime)s si al vehículo le queda menos del 25 % de los PV."
+
+msgid "loader_desperado/name"
+msgstr "Subidón de adrenalina"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Acelera la recarga del cañón si al vehículo le queda menos del 25 % de los PV."
+
+msgid "loader_intuition/alt/description"
+msgstr "Para activar la cualificación, el cañón, ambos cañones o la recámara deben estar completamente cargados. El tiempo mínimo para cambiar de tipo de proyectil para cañones estándar es de 1 s, y para cañones dobles y cañones con recámara, de 2,5 s.\n\nSi dos cargadores tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento."
+
+msgid "loader_intuition/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad al cambiar el tipo de proyectil{greenBright_End} en un cañón cargado aumenta en %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Reduce el tiempo de cambio del tipo de proyectil en un cañón cargado.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce la {greenBright_Start}velocidad al cambiar el tipo de proyectil{greenBright_End} en un cañón cargado en %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuición"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Aumenta significativamente la velocidad para cambiar el tipo de proyectil en un cañón cargado."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Esta cualificación solo reduce el tiempo de recarga de los cañones con cargador. No afecta a otros sistemas de cañón.\n\nSi dos cargadores tienen la cualificación, se aplica el valor medio de su nivel de entrenamiento"
+
+msgid "loader_magMastery/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "El {greenBright_Start}tiempo de recarga{greenBright_End} del cargador se reduce en %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce el {greenBright_Start}tiempo de recarga{greenBright_End} del cargador en %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "As de cargadores"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Reduce el tiempo de recarga de tus cargadores."
+
+msgid "loader_melee/alt/description"
+msgstr "Si dos operadores de radio tienen la cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nEl tiempo de carga del cañón se puede acelerar más entrenando la cualificación «Subidón de adrenalina» del cargador o montando equipamiento con un efecto similar. Usar la directiva «Depósito de munición ordenado» mejora el efecto."
+
+msgid "loader_melee/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "El {yellow_Start}tiempo de carga del cañón{yellow_End} se reduce en %(vehicleGunReloadTime)s a distancias inferiores a 50 m del vehículo enemigo."
+
+msgid "loader_melee/hudDescription"
+msgstr "Se reduce el tiempo de carga del cañón (el enemigo está cerca).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce el {yellow_Start}tiempo de carga del cañón{yellow_End} en %(vehicleGunReloadTime)s a distancias inferiores a 50 m del vehículo enemigo."
+
+msgid "loader_melee/name"
+msgstr "Combate a corta distancia"
+
+msgid "loader_melee/shortDescription"
+msgstr "Acelera la recarga del cañón en combate cercano."
+
+msgid "loader_pedant/alt/description"
+msgstr "La eficacia de la cualificación no se ve afectada si un cargador resulta herido.\n\nSi dos cargadores tienen la cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nLa cualificación se puede mejorar usando la directiva «Organizador de proyectiles». La durabilidad del compartimento de munición se puede aumentar aún más montando equipamiento con un efecto similar."
+
+msgid "loader_pedant/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "Aumenta la {greenBright_Start}durabilidad del compartimento de munición{greenBright_End} en %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {greenBright_Start}durabilidad del compartimento de munición{greenBright_End} en %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Almacenamiento seguro"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Aumenta la durabilidad del compartimento de munición."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "El efecto funciona para todos los tipos de proyectiles.\n\nTener un cargador herido no afecta a la eficacia de la cualificación.\n\nSi dos cargadores tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "Aumenta la {greenBright_Start}velocidad del proyectil{greenBright_End} en %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {greenBright_Start}velocidad del proyectil{greenBright_End} en %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Carga perfecta"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Esta cualificación no surte efecto en cañones con cargador o automáticos y no se acumula para cañones dobles.\n\nEn el caso de los que tienen sistema de carga selectivos, si se disparan ambos cañones pero ninguno causa daño, la reducción al tiempo de recarga se aplica a los dos cañones.\n\nSi dos cargadores tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nEl tiempo de recarga se puede disminuir aún más entrenando las cualificaciones de cargador «Subidón de adrenalina» o «Combate a corta distancia» o usando equipamiento que tenga un efecto similar. La directiva «Depósito de munición ordenado» mejora el efecto."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "El {yellow_Start}tiempo de recarga del cañón{yellow_End} se reduce en %(vehicleGunReloadTime)s para el siguiente proyectil si el disparo anterior no ha dañado un vehículo enemigo."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Reduce el tiempo de recarga del cañón (disparo fallido)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, el {yellow_Start}tiempo de recarga del cañón{yellow_End} se reduce en %(vehicleGunReloadTime)s para el siguiente proyectil si el disparo anterior no ha dañado un vehículo enemigo."
+
+msgid "loader_secondChance/name"
+msgstr "Segunda oportunidad"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Reduce el tiempo de recarga del cañón."
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s %%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Banda de hermanos"
+
+msgid "perkRole/commander"
+msgstr "Comandante"
+
+msgid "perkRole/common"
+msgstr "Grupo"
+
+msgid "perkRole/driver"
+msgstr "Conductor"
+
+msgid "perkRole/gunner"
+msgstr "Artillero"
+
+msgid "perkRole/loader"
+msgstr "Cargador"
+
+msgid "perkRole/radioman"
+msgstr "Operador de radio"
+
+msgid "popularity/tooltip/common"
+msgstr "de los jugadores"
+
+msgid "popularity/tooltip/header"
+msgstr "Para este vehículo, preferido por el"
+
+msgid "popularity/tooltip/legendary"
+msgstr "de jugadores de nivel WTR legendario"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Si dos operadores de radio tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nEl efecto se puede mejorar más con la cualificación de comandante «Detección de sonido»."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Si la tripulación queda aturdida, el {greenBright_Start}efecto negativo del aturdimiento{greenBright_End} se reduce en %(stunResistanceEffectFactor)s, hasta un máximo del 30 %."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, si la tripulación queda aturdida, el {greenBright_Start}efecto negativo del aturdimiento{greenBright_End} se reduce en %(stunResistanceEffectFactor)s&nbsp;, hasta un máximo del 30 %."
+
+msgid "radioman_battleTempered/name"
+msgstr "Veteranía en combate"
+
+msgid "radioman_expert/alt/description"
+msgstr "La bonificación de la eficacia de la tripulación mejora la eficacia del tripulante en combate. Si dos operadores de radio tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento. Este parámetro se puede aumentar aún más con equipamiento o consumibles con un efecto similar o usando la directiva «Purga de gases». La cualificación de grupo «Hermanos de armas», así como la cualificación «Emergencia» del comandante o «Codo a codo» del operador de radio también pueden aumentar el parámetro."
+
+msgid "radioman_expert/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} aumentará en %(crewLevelIncrease)s si la cantidad de daño por asistencia infligido supera los puntos de vida iniciales de tu vehículo&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Aumenta la bonificación de eficacia de la tripulación (se han traducido suficientes datos de reconocimiento)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} en %(crewLevelIncrease)s si la cantidad de daño por asistencia infligido supera los puntos de vida iniciales de tu vehículo&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Experto en comunicaciones"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Rendimiento de la tripulación mejorado."
+
+msgid "radioman_finder/alt/description"
+msgstr "Si dos operadores de radio tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nEl alcance de visión se puede aumentar aún más entrenando la cualificación «Reconocimiento» o montando equipamiento con un efecto similar. Usar la directiva «Calibración de ópticas» mejora el efecto."
+
+msgid "radioman_finder/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "El {greenBright_Start}alcance de visión{greenBright_End} aumenta en %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta el {greenBright_Start}alcance de visión{greenBright_End} en %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Conciencia situacional"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Aumenta el alcance de visión."
+
+msgid "radioman_interference/alt/description"
+msgstr "Si dos operadores de radio tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nEl tiempo que tu vehículo permanece detectado se puede reducir más montando equipamiento con un efecto similar."
+
+msgid "radioman_interference/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "El {greenBright_Start}tiempo que tu vehículo permanece detectado{greenBright_End} por el enemigo se reduce en %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce el {greenBright_Start}tiempo que tu vehículo permanece detectado{greenBright_End} por el enemigo en %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Interferencia"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Reduce el tiempo que tu vehículo es visible para el enemigo."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Si dos operadores de radio tienen la cualificación, solo se aplica la de valor más alto. El efecto solo está activo si el operador de radio no queda herido cuando el vehículo es destruido.\n\nLa cualificación se puede mejorar aún más con la directiva «El deber ante todo»."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "El operador de radio puede {yellow_Start}informar de las posiciones enemigas{yellow_End} otros %(radiomanDurationPerLevel)s después de que tu vehículo haya sido destruido."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Informa de posiciones enemigas."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, el operador de radio puede {yellow_Start}informar de las posiciones enemigas{yellow_End} otros %(radiomanDurationPerLevel)s después de que tu vehículo haya sido destruido."
+
+msgid "radioman_lastEffort/name"
+msgstr "Llamada a la venganza"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Durante un tiempo breve después de que tu vehículo haya sido destruido, el operador de radio informa de las posiciones enemigas."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "La bonificación de la eficacia de la tripulación mejora la eficacia del tripulante en combate. Si dos operadores de radio tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento. Este parámetro se puede aumentar aún más montando equipamiento o consumibles con un efecto similar o usando la directiva «Purga de gases». La cualificación de grupo «Hermanos de armas», así como la cualificación «Emergencia» del comandante o «Experto en comunicaciones» del operador de radio también pueden aumentar el parámetro."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de la eficacia de la tripulación{yellow_End} aumentará un %(crewLevelIncrease)s a distancias inferiores a 50 m de un vehículo aliado del mismo tipo&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Aumenta la bonificación de la eficacia de la tripulación (aliado del mismo tipo cerca)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta la {yellow_Start}bonificación de eficacia de la tripulación{yellow_End} en %(crewLevelIncrease)s a distancias inferiores a 50 m de un vehículo aliado del mismo tipo&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Codo a codo"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Rendimiento de la tripulación mejorado."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "El efecto mejora la función especial «Sexto sentido» del comandante, lo que acelera su activación.\n\nSi dos operadores de radio tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Una cualificación surte efecto cuando está entrenada al 1 % como mínimo. Su efectividad mejora a medida que se entrena."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "Reduce el {greenBright_Start}tiempo para determinar{greenBright_End} si el enemigo {greenBright_Start}ha detectado tu vehículo{greenBright_End} en %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, reduce el {greenBright_Start}tiempo para determinar {greenBright_End} si el enemigo {greenBright_Start}ha detectado tu vehículo{greenBright_End} en %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Interceptación de señal"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Esta cualificación se activa cuando la alerta de Sexto sentido indica que alguien ha detectado tu vehículo.\n\nSi dos operadores de radio tienen esta cualificación, se aplica el valor medio de su nivel de entrenamiento.\n\nEl alcance de visión se puede aumentar aún más entrenando las cualificaciones «Reconocimiento» o «Conciencia situacional» y con equipamiento con un efecto similar. La directiva «Calibración de ópticas» mejora el efecto."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Una cualificación con un efecto circunstancial surte efecto cuando está entrenada al 1 % como mínimo. El efecto circunstancial se activa cuando se cumplen ciertas condiciones en batalla."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "El {yellow_Start}alcance de visión{yellow_End} aumenta en %(vehicleCircularVisionRadius)s durante 5 s tras recibir la alerta de Sexto sentido."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Aumenta el alcance de visión."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo, aumenta el {yellow_Start}alcance de visión{yellow_End} en %(vehicleCircularVisionRadius)s durante 5 s tras recibir la alerta de Sexto sentido."
+
+msgid "radioman_threatSearch/name"
+msgstr "Búsqueda de amenazas"
+
+msgid "repair/alt/description"
+msgstr "Esta cualificación afecta la velocidad de las reparaciones de módulos internos y externos del estado «rojo» al «amarillo».\n\nEste parámetro se puede aumentar aún más montando equipamiento o consumibles con un efecto similar."
+
+msgid "repair/alt/info"
+msgstr "Para las cualificaciones de grupo, se tiene en cuenta el nivel de entrenamiento medio de todos los tripulantes. Surten efecto cuando están entrenadas al 1 % como mínimo. Su efectividad mejora a medida que se entrenan."
+
+msgid "repair/currentLvlDescription"
+msgstr "{greenBright_Start}Velocidad de reparación{greenBright_End} de los módulos dañados del vehículo aumentada en %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Cuando está entrenada al máximo para todos los tripulantes, aumenta la {greenBright_Start}velocidad de reparación{greenBright_End} de los módulos dañados del vehículo en %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Reparaciones"
+
+msgid "repair/shortDescription"
+msgstr "Aumenta la velocidad de reparación de los módulos dañados."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Banda de hermanos"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Popular"
+
+msgid "sorting/fallback"
+msgstr "Estándar"
+
+msgid "sorting/legendary"
+msgstr "Legendario"
+
+msgid "sorting/title"
+msgstr "Ordenar por:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopular.%(whiteSpanish_Close)s Se basa en las tendencias actuales de las tripulaciones entre todos los jugadores de World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Beneficio de WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Recibe datos precisos de tripulaciones basados en millones de partidas y sácale el mayor partido a cada batalla."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLeyenda.%(whiteSpanish_Close)s Según las cualificaciones de preferencia entre los jugadores del nivel WTR legendario"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Clasificación de cualificaciones desactivada"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "No hay datos disponibles"
+
+msgid "sorting/tooltip/title"
+msgstr "Asistente de la tripulación"
+
+msgid "sorting/tooltip/types"
+msgstr "Ordenar por tipo de cualificación"
+
+msgid "sorting/tooltip/warning"
+msgstr "Orden de cualificaciones no disponible"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Los datos completos de cualificación no están disponibles para este vehículo, por lo que se ha aplicado la clasificación de cualificación predeterminada."
+
+msgid "witches_brotherhood/name"
+msgstr "Aquelarre"
+
+msgid "yha_brotherhood/name"
+msgstr "Hermandad de liebres"

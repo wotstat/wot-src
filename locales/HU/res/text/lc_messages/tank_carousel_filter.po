@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "checkbox/inventory"
+msgstr "Garázsban"
+
+msgid "infotip/counter"
+msgstr "Alkalmas járművek száma %(count)d / %(total)d"
+
+msgid "infotip/event"
+msgstr "A speciális járművek nincsenek megjelenítve"
+
+msgid "infotip/header/description"
+msgstr "Megjeleníti a választott feltételeknek megfelelő járműveket."
+
+msgid "infotip/header/title"
+msgstr "Jármű szűrő"
+
+msgid "infotip/levels"
+msgstr "Szintek:"
+
+msgid "infotip/nations"
+msgstr "Nemzetek:"
+
+msgid "infotip/only"
+msgstr "Csak a következő járművek:"
+
+msgid "infotip/only/elite"
+msgstr "Elit"
+
+msgid "infotip/only/favorite"
+msgstr "Elsődleges"
+
+msgid "infotip/only/premium"
+msgstr "Prémium"
+
+msgid "infotip/rent"
+msgstr "A bérelt járművek nincsenek megjelenítve"
+
+msgid "infotip/searchNameVehicle"
+msgstr "Név szerinti keresés:"
+
+msgid "infotip/vehicleTypes"
+msgstr "Típusok:"
+
+msgid "popover/checkbox/battleRoyale"
+msgstr "Nem kompatibilis járművek elrejtése"
+
+msgid "popover/checkbox/elite"
+msgstr "Elit"
+
+msgid "popover/checkbox/event"
+msgstr "Akció"
+
+msgid "popover/checkbox/favorite"
+msgstr "Elsődleges"
+
+msgid "popover/checkbox/premium"
+msgstr "Prémium"
+
+msgid "popover/checkbox/rented"
+msgstr "Bérelt"
+
+msgid "popover/checkbox/unlock_available"
+msgstr "Csak kifejlesztéssel szerezhető meg"
+
+msgid "popover/counter"
+msgstr "Megjelenített járművek: %(count)s"
+
+msgid "popover/label/customization"
+msgstr "Testreszabás"
+
+msgid "popover/label/hidden"
+msgstr "Tovább"
+
+msgid "popover/label/levels"
+msgstr "Szint"
+
+msgid "popover/label/nations"
+msgstr "Nemzet"
+
+msgid "popover/label/progressions"
+msgstr "Battle Pass"
+
+msgid "popover/label/roles/AT-SPG"
+msgstr "Páncélvadász %(levels)s szerepek"
+
+msgid "popover/label/roles/heavyTank"
+msgstr "Nehéz harckocsi %(levels)s szerepek"
+
+msgid "popover/label/roles/lightTank"
+msgstr "Könnyű harckocsi %(levels)s szerepek"
+
+msgid "popover/label/roles/mediumTank"
+msgstr "Közepes harckocsi %(levels)s szerepek"
+
+msgid "popover/label/searchNameVehicle"
+msgstr "Név szerinti keresés"
+
+msgid "popover/label/specials"
+msgstr "Speciális"
+
+msgid "popover/label/vehicleRole"
+msgstr "Szerep"
+
+msgid "popover/label/vehicleTypes"
+msgstr "Típus"
+
+msgid "popover/title"
+msgstr "Szűrés param. szerint"
+
+msgid "tooltip/battleRoyale/body"
+msgstr "Acélvadász módra alkalmatlan járművek megjelenítése/elrejtése."
+
+msgid "tooltip/battleRoyale/header"
+msgstr "Nem kompatibilis járművek elrejtése"
+
+msgid "tooltip/bonus/body"
+msgstr "Aktív XP-szorzóval rendelkező járművek megjelenítése/elrejtése."
+
+msgid "tooltip/bonus/header"
+msgstr "Bónusz Tapasztalat"
+
+msgid "tooltip/clanRented/body"
+msgstr "Globális térkép és erődítmény csatákra bérelhető járművek megjelenítése/elrejtése."
+
+msgid "tooltip/clanRented/header"
+msgstr "Kláncsatákra bérelhető járművek"
+
+msgid "tooltip/crystals/body"
+msgstr "Kötvények szerzésére alkalmas járművek megjelenítése/elrejtése."
+
+msgid "tooltip/crystals/header"
+msgstr "Kötvények szerzésére alkalmas járművek"
+
+msgid "tooltip/customization/canInstallAttachments/body"
+msgstr "A 3D-kiegészítők felszereléséhez alkalmas járművek megjelenítése/elrejtése."
+
+msgid "tooltip/customization/own3DStyle/body"
+msgstr "Járművek megjelenítése/elrejtése, amelyekhez rendelkezel 3D-stílusokkal."
+
+msgid "tooltip/elite/body"
+msgstr "Azoknak a járműveknek a megjelenítése/elrejtése, amelyekhez minden elérhető modul, fejlesztés és technikai ág ki van fejlesztve, beleértve a következő szinten lévő jármű(vek)et is."
+
+msgid "tooltip/elite/header"
+msgstr "Elit járművek"
+
+msgid "tooltip/event/body"
+msgstr "Speciális játékesemény járműveinek megjelenítése/elrejtése."
+
+msgid "tooltip/event/header"
+msgstr "Speciális járművek"
+
+msgid "tooltip/favorite/body"
+msgstr "Csak elsődleges járművek megjelenítése/elrejtése."
+
+msgid "tooltip/favorite/header"
+msgstr "Elsődleges járművek"
+
+msgid "tooltip/gameMode/body"
+msgstr "Jelöld be a négyzetet a %(battleType)s módhoz alkalmas járművek mutatásához."
+
+msgid "tooltip/gameMode/header"
+msgstr "Dühöngés"
+
+msgid "tooltip/igr/body"
+msgstr "IGR járművek megjelenítése/elrejtése."
+
+msgid "tooltip/igr/header"
+msgstr "IGR Járművek"
+
+msgid "tooltip/inventory/body"
+msgstr "?empty?"
+
+msgid "tooltip/inventory/header"
+msgstr "?empty?"
+
+msgid "tooltip/isCommonProgression/body"
+msgstr "Az előrehaladási pontok gyűjtésére vagy az előrehaladási pontokat biztosító küldetések teljesítésére alkalmas járművek megjelenítése."
+
+msgid "tooltip/isCommonProgression/header"
+msgstr "Battle Pass járművek"
+
+msgid "tooltip/isCompetitiveProgression/body"
+msgstr "tooltip/isCompetitiveProgression/body"
+
+msgid "tooltip/isCompetitiveProgression/header"
+msgstr "tooltip/isCompetitiveProgression/header"
+
+msgid "tooltip/nations/body"
+msgstr "Ilyen nemzetiségű járművek megjelenítése/elrejtése."
+
+msgid "tooltip/params/body"
+msgstr "Beállítja a járművek megjelenítését típus, nemzet, szint és egyéb paraméterek alapján."
+
+msgid "tooltip/params/header"
+msgstr "Szűrés param. szerint"
+
+msgid "tooltip/premium/body"
+msgstr "Csak prémium és jutalom járművek megjelenítése/elrejtése."
+
+msgid "tooltip/premium/header"
+msgstr "Prémium járművek"
+
+msgid "tooltip/ranked/body"
+msgstr "A rangsorolt csatákhoz alkalmas járművek megjelenítése/elrejtése."
+
+msgid "tooltip/ranked/header"
+msgstr "Rangsorolt csata járművek"
+
+msgid "tooltip/rented/body"
+msgstr "Bérelt járművek megjelenítése/elrejtése."
+
+msgid "tooltip/rented/header"
+msgstr "Bérelt járművek"
+
+msgid "tooltip/role/body"
+msgstr "Ilyen szerepű járművek megjelenítése/elrejtése."
+
+msgid "tooltip/rtsBattles/body"
+msgstr "A stratégia művészete eseményre alkalmas járművek megjelenítése/elrejtése."
+
+msgid "tooltip/rtsBattles/header"
+msgstr "Nem kompatibilis járművek elrejtése"
+
+msgid "tooltip/searchInput/body"
+msgstr "A jármű neve legfeljebb %(count)d karakterből állhat."
+
+msgid "tooltip/searchInput/header"
+msgstr "Név szerinti keresés"
+
+msgid "tooltip/toggleSwitchCarousel/body"
+msgstr "Váltás az egy és két szintű jármű panelek között."
+
+msgid "tooltip/toggleSwitchCarousel/header"
+msgstr "Jármű panel"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Ilyen típusú járművek megjelenítése/elrejtése."

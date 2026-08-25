@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Gå i kamp alligevel"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Udstyr!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Taktisk grej ufuldstændigt"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Dit valgte køretøj mangler et eller flere stykker taktisk grej. Dette kan påvirke din kamppræstation markant. Vil du alligevel gå i kamp?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Du kan tilpasse de forudindstillede event-genvejstaster for granater og taktisk grej.\nDenne ændring gælder kun i eventkampe og vil ikke påvirke andre kamptyper.\nDu kan stadig modificere individuelle genvejstaster i Menu — Indstillinger — Kontrol (under forbrugsvarer)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Ændring af forbrugsvare-event-genvejstaster"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s t"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Fuldfør denne mission for at modtage et unikt Sidste slag: Operation Pandora-badge:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Episk bedrift-mission"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Ved udforskning reduceres {EDCB9E_Start}prisen i Mirium{EDCB9E_End} af alle stykker taktisk grej med {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Mirium-effektivitet"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Ved udforskning forøges {EDCB9E_Start}effektvarigheden af taktisk grej{EDCB9E_End} med {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Effektvarighed af grej"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Ved udforskning forøges {EDCB9E_Start}effektradiussen af taktisk grej{EDCB9E_End} med {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Effektradius af grej"
+
+msgid "booster/booster_heal/description"
+msgstr "Ved udforskning forøges alle {EDCB9E_Start}helbredelseseffekter{EDCB9E_End} påført køretøjet med {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Helbredseffekter"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Ved udforskning forøges mængden af {EDCB9E_Start}skade overført fra Obelisker{EDCB9E_End} til fjendtlige køretøjer med {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Overført Obelisk-skade"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Ved udforskning forøges {EDCB9E_Start}opsamlingsradiussen af Mirium {EDCB9E_End} fra fjender med {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Opsamlingsradius af Mirium"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Ved udforskning forøges {EDCB9E_Start}mængden af indsamlet Mirium{EDCB9E_End} fra ødelagte køretøjer med {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Indsamling af Mirium"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Ved udforskning forøges {EDCB9E_Start}mængden af Mirium{EDCB9E_End} tildelt for at ødelægge en bølge med {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium per bølge"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Ved udforskning forøges {EDCB9E_Start}mængden af Mirium{EDCB9E_End} der er gendannet ved respawn med {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium ved respawn"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Ved udforskning forøges {EDCB9E_Start}køretøjets maksimale Mirium-kapacitet{EDCB9E_End} med {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Mirium-kapacitet"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "FORSVARER-PAKKE"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Nøgler købt"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Muligheden for at optjene ×5 xp, startende fra den anden sejr på dagen i ethvert køretøj."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Mission for ×5 xp optjent i kamp"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Konfigurer visningen af køretøjer efter type, nation og andre parametre."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filtrer efter parametre"
+
+msgid "common/back"
+msgstr "TILBAGE"
+
+msgid "common/close"
+msgstr "LUK"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "TIL EVENT"
+
+msgid "common/toRewardPath"
+msgstr "TIL FREMSKRIDT"
+
+msgid "common/yes"
+msgstr "Bekræftet!"
+
+msgid "difficult/daily"
+msgstr "MISSION FOR DAGLIGE NØGLER ÅBNET"
+
+msgid "difficult/disabled/body"
+msgstr "Du er i en deling. Kun kommandøren kan ændre sværhedsgraden."
+
+msgid "difficult/disabled/header"
+msgstr "Valg af sværhedsgrad utilgængelig"
+
+msgid "difficult/level_1"
+msgstr "Regulær"
+
+msgid "difficult/level_2"
+msgstr "Avanceret"
+
+msgid "difficult/level_3"
+msgstr "Brutal"
+
+msgid "difficult/new"
+msgstr "NY"
+
+msgid "difficult/searching/body"
+msgstr "Utilgængelig under søgning."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Fjender er mindre holdbare og har svagere panser. Standard mængde data per kamp."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Fjender har stærkere panser. Data per kamp er forøget med {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Der er flere fjender med stærkere panser. Data per kamp er forøget med {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Belønninger for at ødelægge den sidste bølge for første gang:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Regulær sværhedsgrad"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Avanceret sværhedsgrad"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Brutal sværhedsgrad"
+
+msgid "difficult/tooltip/locked"
+msgstr "Sværhedsgrad låst"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "For at åbne op for denne sværhedsgrad, fuldfør regulær sværhedsgrad."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "For at åbne op for denne sværhedsgrad, fuldfør avanceret sværhedsgrad."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Sværhedsgrad tilgængelig"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Sværhedsgrad valgt"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Bølger ødelagt: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "REGULÆR"
+
+msgid "difficult/uppercase/level_2"
+msgstr "AVANCERET"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTAL"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Fjender har stærkere panser. Yderligere credits og x{{modifier}} data per kamp."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Flere fjender med stærkere panser. Yderligere credits og x{{modifier}} data per kamp."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Nedkæmp bølger af fjender, og vis dit fremskridt ved at nå toppen af ranglisten. Unikke belønninger og meget mere venter dig."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "AVANCERET SVÆRHEDSGRAD"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "BRUTAL SVÆRHEDSGRAD"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "SIDSTE SLAG-KAMPTYPE"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "AVANCERET"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTAL"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "'SIDSTE SLAG'"
+
+msgid "difficultyWindow/rewards"
+msgstr "Belønninger for fuldførelse:"
+
+msgid "difficultyWindow/title"
+msgstr "TILGÆNGELIG"
+
+msgid "hangar/exit"
+msgstr "FORLAD EVENT"
+
+msgid "hangar/narration"
+msgstr "Historie"
+
+msgid "hangar/tooltip/about"
+msgstr "Få mere at vide om Sidste slag: Terra Nord-eventet."
+
+msgid "hangar/tooltip/narration"
+msgstr "Få mere at vide om eventets baggrundshistorie."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TAKTISK GREJ"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "UDSTYRSSÆT"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Sidste slag"
+
+msgid "iconButton/comparison/default"
+msgstr "Køretøjssammenligning"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Køretøjssammenligning er utilgængelig"
+
+msgid "iconButton/preview/default"
+msgstr "Vis køretøj"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Køretøjsvisning er utilgængelig"
+
+msgid "keyCard/name"
+msgstr "Dekrypteringsnøgler"
+
+msgid "meta/btn/decrypt"
+msgstr "DEKRYPTER"
+
+msgid "meta/btn/skip"
+msgstr "SKIP"
+
+msgid "meta/btn/view"
+msgstr "SE"
+
+msgid "meta/receive/description"
+msgstr "Indsaml %(keys) / %(decrypt) %(icon) \nfor at dekryptere dette dokument"
+
+msgid "metaIntro/description/fight"
+msgstr "Deltag i eventkampe og optjen data til at avancere gennem fremskridtet."
+
+msgid "metaIntro/description/progress"
+msgstr "Indsaml data for at udforske køretøjsopgraderinger og prøve kræfter med større udfordringer."
+
+msgid "metaIntro/description/reward"
+msgstr "Fuldfør fremskridtsstadier for at modtage særlige eventbelønninger. Se belønningsstien for flere detaljer."
+
+msgid "metaIntro/header/fight"
+msgstr "Eventkampe"
+
+msgid "metaIntro/header/progress"
+msgstr "Opgraderinger"
+
+msgid "metaIntro/header/reward"
+msgstr "Unikke belønninger"
+
+msgid "metaIntro/title"
+msgstr "FREMSKRIDT"
+
+msgid "missionWidget/complete"
+msgstr "Mission fuldført.\nKom tilbage i morgen."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Fuldfør nuværende daglig mission, som er tilgængelig hver 24 timer for at modtage belønningen. Dagens mission:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Daglig mission"
+
+msgid "narration/actions/voiceover"
+msgstr "Voiceover"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}TOPHEMMELIGT{{/}}{{titleParagraph}}{{@ class $highlightText}}SEKTOR: N-07 (\"Aurora\"-området){{/}}{{pargraphStart}}Vores forudsigelse var korrekt. Observatører på stationen optog anomaliens bevægelser 11 dage forud for hændelsen. For første gang så vi den komme.{{pargraphStart}}I løbet af stilheden før stormen blev produktionen af ATLAS-komplekser standardiseret. Nye moduler er samlet hurtigere og kalibreret mere præcist. Vi har trænet, afprøvet formationer og klargjort reservedelinger. Rød alarm.{{pargraphStart}}Men anomalien havde sine egne planer.{{pargraphStart}}Tragten åbnede ikke i den forudsagte sektor. Den opstod her, i en fjern nordlig region, langt fra den indsatte infrastruktur. Det er uklart hvorfor denne placering blev valgt. Intet i modellerne havde vist dette område. Nødindsættelse blev straks igangsat, men terrænet og afstanden er ikke i vores favør. Visse køretøjer og delinger vil ankomme sent.{{pargraphStart}}Hvert ATLAS-kompleks vi har formået at levere er nu kritisk nødvendigt.{{pargraphStart}}Denne gang var vi klar til kamp. Men en kamp et andet sted.{{pargraphStart}}UNDERSKRIFT: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Analytisk memo 27/C \"VALG AF INVASIONSSTED\"{{/}}{{titleParagraph}}For intern brug. Stemplet \"Begrænset adgang\".{{pargraphStart}}Jeg spørger om noget, jeg er forpligtet til at svare, men ikke kan: Hvorfor her?{{pargraphStart}}Denne region har ingen strategisk værdi for Tragten. Der er intet her. Ingen infrastruktur, ingen bebyggelser. Kun en nedlagt militærbase på øen. Ekko-kampvogne kan ikke krydse havet. Så hvorfor erobre et sted de ikke kan angribe fra?{{pargraphStart}}Jeg har anmodet om regionens fulde operationelle historie. Svaret var kraftigt censureret. Hele afsnit var blevet streget over. En anden anmodning blev sendt tilbage med bemærkningen \"adgang begrænset efter ordre fra {{@ class $highlightSecondaryText}}[DATA FJERNET]{{/}}. \"Jeg, lederen af forskningsafdelingen, hvis anbefalinger afgjorde denne sektors forsvarsstrategi, er blevet nægtet information om dette område!{{pargraphStart}}Her er hvad jeg kan udlede af data fra felten: Tragtens opførsel svarer ikke til det, vi observerede i sektor R-22. Nye typer ekko-kampvogne, som vi ikke tidligere har mødt, er dukket op. De svarer i funktion til vores kampvognsjægere til skarpskydning fra distancen, og er ekstremt effektive på denne type terræn. Modstanderen har lært fra vores taktik og har taget sine forholdsregler. Nu er det vores tur til at tilpasse os.{{pargraphStart}}Måske har den brug for dette sted. Eller hvad der nu måtte ligge under det.{{pargraphStart}}Jeg ved det ikke. Og det bekymrer mig, at nogen ved det, men ikke vil udtale sig.{{pargraphStart}}UNDERSKRIFT: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}KURATORS PERSONLIGE OPTEGNELSE{{/}}{{pargraphStart}}Jeg har undersøgt mine egne hypoteser. Alle tre.{{pargraphStart}}1.  Anomalien forsøger at udslette os. {{pargraphStart}}  2. Anomalien eksperimenterer. Den undersøger vores taktikker, studerer vores modtræk, justerer, lærer.{{pargraphStart}}  3. Anomalien træner. Hver bølge er en test af dens nye taktikker; hver kamp er træning i felten.{{pargraphStart}}Alle tre hypoteser deler den formodning, at vi er målet for denne invasion.{{pargraphStart}}Men hvad hvis vi ikke er?{{pargraphStart}}Hvad hvis anomalien gør noget andet, og vi bare står i vejen for den? Som en myretue, der er blevet oversvømmet, mens en vej er under konstruktion. Bygmesteren er ikke i krig med myrerne. Den er bare ikke opmærksom på deres eksistens.{{pargraphStart}}Du kan stoppe en fjende, der søger at bekæmpe dig. Du kan forhandle med den. Men du kan ikke skræmme noget, der ikke anerkender din eksistens; du kan ikke narre den. Den kan ikke stoppes. Du var aldrig en del af dens beregninger.{{pargraphStart}}Jeg tror vi har stillet det forkerte spørgsmål. Vi skal ikke spørge, hvorfor den angriber os, men om den overhovedet ved vi eksisterer.{{pargraphStart}}UNDERSKRIFT: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}ENDELIG RAPPORT{{/}}{{titleParagraph}}{{@ class $highlightText}}STATUS: DEKLASSIFICERET (DELVIST){{/}}{{pargraphStart}}Kl. 03:47 kollapsede Tragten. Anomaliens aktiviteter stoppede. Sektoren er klar.{{pargraphStart}}I de sidste sekunder inden kollapset, registrerede ATLAS-målere en energiudladning, der oversteg alle tidligere målte værdier. Mandskaberne observerede en kortlivet fysisk manifestation i midten af anomalien, der ikke varede mere end 12 sekunder. Efter det lukkede Tragten. {{pargraphStart}}Officiel melding: Hændelsen er forbi. Områdets forsvar holdt stand. Karantænen er blevet løftet i sektoren.{{pargraphStart}}{{@ class $highlightText}}KURATORS PERSONLIGE NOTAT (kun til særlige reserver){{/}}{{pargraphStart}}Vi vandt ikke. Den blev færdig.{{pargraphStart}}Dette var ikke en invasion. Det var en dækningsmanøvre. Et beskyttelsesområde omkring det, der stod frem i Tragtens midte, få sekunder før den kollapsede.{{pargraphStart}}Dusinvis af obelisker dukkede samtidig op. Vi ved stadig ikke, hvad de foretog sig. ATLAS optog alle parametrene, men det vil tage noget tid at prøve at afkode dem. Vi ved én ting nærmest med sikkerhed: anomalien gennemførte en slags proces.{{pargraphStart}}Uanset hvad den lavede, skal vi gøre klar til det næste angreb. Vi har nok data nu. Vores ingeniører gennemgår allerede nu optagelserne, og, for at være ærlig, jeg har aldrig set dem være så spændte før. De tror vi markant kan styrke vores køretøjer. Vi bliver absolut nødt til at gøre det, inden Tragten vender tilbage. {{pargraphStart}}Jeg kan ikke slippe tanken om én ting: Hvis dette skete her, og varede i så kort tid, hvor mange gange er det sket før? De steder, hvor der ikke var et ATLAS, var der ikke nogen, der så det ske...{{pargraphStart}}UNDERSKRIFT: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Vi var klar"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Hvorfor her?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Det forkerte spørgsmål"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Den er færdig"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Fuldfør regulær sværhedsgrad for at fortsætte til næste del af historien."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Fuldfør avanceret sværhedsgrad for at fortsætte til næste del af historien."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Fuldfør brutal sværhedsgrad for at fortsætte til sidste del af historien."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Næste historie"
+
+msgid "preBattle/leave"
+msgstr "Forlad kampen"
+
+msgid "preBattle/searching"
+msgstr "SØGER EFTER ALLIEREDE..."
+
+msgid "preBattle/tip"
+msgstr "Tager det for lang tid at finde en operationel styrke? Prøv at justere sværhedsgraden."
+
+msgid "preBattle/uppercase/leave"
+msgstr "FORLAD KAMPEN"
+
+msgid "promoWindow/header"
+msgstr "SPIL SIDSTE SLAG"
+
+msgid "promoWindow/subheader"
+msgstr "Udforsk et nyt kapitel i PvE-kamptypen Sidste slag fra {dateRange}.\nOptjen et sæt tematisk {cream_open}3D-tilbehør{cream_close}, eksperimentelt udstyr og flere eksklusive belønninger."
+
+msgid "questCard/allCompleted"
+msgstr "Alle daglige missioner fuldført"
+
+msgid "questCard/completed"
+msgstr "Daglig mission fuldført.\nKom tilbage i morgen."
+
+msgid "reward/rest"
+msgstr "Og %(count)s mere"
+
+msgid "rewardPath/about"
+msgstr "OM MÅL"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Få mere at vide om eventfremskridtet."
+
+msgid "rewardPath/boostTitle"
+msgstr "Sæt skub i dit fremskridt og optjen mere data {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Se i butik"
+
+msgid "rewardPath/completed"
+msgstr "Al data og alle belønninger modtaget"
+
+msgid "rewardPath/completedTitle"
+msgstr "Besøg butikken for unikke tematiske tilpasningselementer"
+
+msgid "rewardPath/intro"
+msgstr "INTRODUKTION"
+
+msgid "rewardPath/introTooltip"
+msgstr "Se introduktionsvideoen."
+
+msgid "rewardPath/progress"
+msgstr "Data modtaget på STADIE {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "FREMSKRIDT"
+
+msgid "rewardPathCard/completed"
+msgstr "Fuldført"
+
+msgid "rewardPathCard/name"
+msgstr "Belønningssti"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Eventpakker"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Afbryd"
+
+msgid "squad/goToAnother/message"
+msgstr "Delingen vil blive opløst."
+
+msgid "squad/goToAnother/submit"
+msgstr "Forlad"
+
+msgid "squad/goToAnother/title"
+msgstr "Forlad Sidste slag: Terra Nord-eventet?"
+
+msgid "squad/leave/cancel"
+msgstr "Afbryd"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Delingen vil blive opløst."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Bekræftet!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Sidste slag: Terra Nord-eventet er slut"
+
+msgid "squad/leave/message"
+msgstr "Delingen vil blive opløst."
+
+msgid "squad/leave/submit"
+msgstr "Forlad"
+
+msgid "squad/leave/title"
+msgstr "Forlad Sidste slag: Terra Nord-delingen?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Fortsæt"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Du er i delingen og klar til kamp."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Du kan ikke forlade delingen!"
+
+msgid "stageReward/rewards/received"
+msgstr "Modtog også:"
+
+msgid "stageReward/special/header"
+msgstr "BRUTAL SVÆRHEDSGRAD FULDFØRT!"
+
+msgid "stageReward/special/subheader"
+msgstr "Særlig belønning modtaget"
+
+msgid "stageReward/stage/header"
+msgstr "BELØNNINGER MODTAGET"
+
+msgid "stageReward/stage/subheader"
+msgstr "Sidste slag: Stadie {{number}} fuldført"
+
+msgid "stageReward/stageFinal/header"
+msgstr "ALLE BELØNNINGER MODTAGET"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Sidste slag: Sidste stadie fuldført"

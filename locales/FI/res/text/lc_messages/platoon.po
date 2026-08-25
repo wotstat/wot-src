@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Peruuta haku"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Klikkaa peruuttaaksesi osaston jäsenien haun."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Uusi osasto"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Luo osasto kutsuaksesi ystäviä pelaamaan yhdessä."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Uusi superosasto"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Etsi pelaajia"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Etsi saman tasoisia pelaajia samanlaisilla vaunuilla käyttämällä hakusuotimia."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Kaikki kutsut ystäville peruutetaan, jos alat etsimään pelaajia verkosta."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Etsi pelaajia"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Et voi etsiä pelaajia: palvelimella on liian monta osastoa."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Et voi etsiä pelaajia osastoon: ei sopivia vaunuja."
+
+msgid "buttons/invite/player/caption"
+msgstr "Kutsu pelaaja"
+
+msgid "buttons/invite/player/description"
+msgstr "Klikkaa kutsuaksesi pelaaja osastoon."
+
+msgid "buttons/invite/players/caption"
+msgstr "Kutsu pelaajia"
+
+msgid "buttons/invite/players/description"
+msgstr "Klikkaa kutsuaksesi pelaajia osastoon."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Poistu osastosta"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Klikkaa poistuaksesi osastosta."
+
+msgid "buttons/mute/caption"
+msgstr "Poista osaston äänikeskustelu käytöstä"
+
+msgid "buttons/mute/description"
+msgstr "Klikkaa poistaaksesi osaston äänikeskustelu käytöstä."
+
+msgid "buttons/notReady/caption"
+msgstr "Ei valmis"
+
+msgid "buttons/notReady/description"
+msgstr "Klikkaa, jos et ole valmis liittymään taisteluun."
+
+msgid "buttons/ready/caption"
+msgstr "Valmis!"
+
+msgid "buttons/ready/description"
+msgstr "Klikkaa, jos olet valmis liittymään taisteluun."
+
+msgid "buttons/reset/caption"
+msgstr "Nollaa hakuasetukset"
+
+msgid "buttons/reset/description"
+msgstr "Klikkaa palauttaaksesi hakuasetukset oletusasetuksiin."
+
+msgid "buttons/settings/caption"
+msgstr "Aseta hakuasetukset"
+
+msgid "buttons/settings/description"
+msgstr "Etsi asetuksiisi sopivia pelaajia. Mitä kauemmin pelaajien löytäminen vie aikaa, sitä enemmän hakua laajennetaan."
+
+msgid "buttons/unMute/caption"
+msgstr "Aktivoi osaston äänikeskustelu"
+
+msgid "buttons/unMute/description"
+msgstr "Klikkaa aktivoidaksesi osaston äänikeskustelu."
+
+msgid "headerButton/inSquad"
+msgstr "Osastossa"
+
+msgid "headerButton/onboarding"
+msgstr "VOIT NYT ETSIÄ PELAAJIA\nMUODOSTAMAAN OSASTON"
+
+msgid "headerButton/searching"
+msgstr "Etsitään..."
+
+msgid "headerButton/squad"
+msgstr "Luo osasto"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Taistele osastossa kaverin kanssa. Pelatkaa joukkueena yhdeksää vihollisosastoa vastaan."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Osasto"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Et voi luoda tai liittyä osastoihin, koska sinut on väliaikaisesti estetty tästä pelimuodosta."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Et voi luoda tai liittyä osastoihin, koska tarvitset vähintään yhden tason %(level)s vaunun talliisi, joka on sopiva tähän pelimuotoon."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "Osaston luominen ei ole väliaikaisesti saatavilla."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Osastot eivät ole saatavilla"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Voit luoda osaston tai liittyä jo olemassa olevaan. Kevyt-rynnistyksessä osastot voivat koostua kahdesta tai seitsemästä pelaajasta."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Osasto"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Et voi luoda tai liittyä osastoihin, koska sinulla ei ole soveltuvaa tason %(level)s vaunua tallissasi."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "Karsintojen valmistuttua kahden ja seitsemän pelaajan osastot tulevat saataville."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Et voi luoda osastoa."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Osastot eivät ole saatavilla"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Luo osasto tai liity jo olemassa olevaan. Rynnistyksessä osastot voivat koostua kahdesta tai seitsemästä pelaajasta."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Osasto"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Luo kahden tai kolmen pelaajan taktinen yksikkö yhdessä pelaamiseen.\n• Pelimuoto: teräsmyrsky.\n• Taistelutyypit: teräsjahti, ylivalta."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Osasto"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Luo taktinen 2 tai 3 pelaajan osasto, jolla osallistutte Suureen kilpailuun."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Suuren kilpailun osasto"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Klikkaa avataksesi osastovalikko."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Tiedustelutehtävä: osasto"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Klikkaa avataksesi osastovalikko."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Osasto"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Luo 2 tai 3 pelaajan osasto osallistuaksesi tiedustelutehtävään."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Tiedustelutehtävä: osasto"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "Taktiset yksiköt eivät ole sallittuja luokitetuissa taisteluissa."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Luo osasto"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "Etsitään pelaajia..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Etsitään"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Luo 2–3 pelaajan taktinen osasto tehdäksesi yhteistyötä satunnaistaisteluissa tai etulinjalla (sen ollessa saatavilla)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Osasto"
+
+msgid "members/card/connectionLost"
+msgstr "Yhteys katkesi"
+
+msgid "members/card/disabled"
+msgstr "Tämä pelimuoto tukee vain kahden pelaajan osastoja"
+
+msgid "members/card/disabledVertical"
+msgstr "Ei saatavilla tässä pelimuodossa"
+
+msgid "members/card/empty"
+msgstr "Tyhjä paikka"
+
+msgid "members/card/inBattle"
+msgstr "Taistelussa"
+
+msgid "members/card/muted/caption"
+msgstr "Pelaaja mykistetty"
+
+msgid "members/card/muted/description"
+msgstr "Klikkaa oikealla poistaaksesi tämän pelaajan mykistyksen."
+
+msgid "members/card/notReady"
+msgstr "Ei valmis"
+
+msgid "members/card/searching"
+msgstr "Etsitään pelaajaa..."
+
+msgid "members/card/selectVehicle"
+msgstr "Valitse tason %(level)s vaunu"
+
+msgid "members/chat/chatName"
+msgstr "Chat-kanava:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Klikkaa lähettääksesi viestin chat-kanavalle."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Lähetä viesti"
+
+msgid "members/footer/comp7Invite"
+msgstr "Kutsu"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Osastorajoitukset"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Paras luokitus"
+
+msgid "members/footer/getNotReady"
+msgstr "Klikkaa osoittaaksesi, että et ole valmis."
+
+msgid "members/footer/getReady"
+msgstr "Vahvista valmius liittyä taisteluun."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Yhteensopimaton taso"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Sakko kokemukseen osaston virheellisestä kokoonpanosta!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Vaunuraja saavutettu"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "Osastossa on jo maksimimäärä PST-vaunuja"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "Osastossa on jo maksimimäärä telatykkejä"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "Osastossa on jo maksimimäärä raskaita vaunuja"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "Osastossa on jo maksimimäärä keskiraskaita vaunuja"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "Osastossa on jo maksimimäärä kevyitä vaunuja"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "Osastossa on jo maksimimäärä pyörällisiä ajoneuvoja"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "Osastossa on jo maksimimäärä kevyitä vaunuja"
+
+msgid "members/header/battle_royal"
+msgstr ": Teräksen metsästäjä"
+
+msgid "members/header/epic"
+msgstr ": Etulinja"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: Projekt Hyperion"
+
+msgid "members/header/mapbox"
+msgstr ": tiedustelutehtävä"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Satunnaistaistelu"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "Etulinja on saatavilla\nvain tason VIII vaunuille."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Säännöt osaston luomiseen"
+
+msgid "members/header/tooltip/event/body"
+msgstr "Osaston tulee koostua kolmesta pelimuodon erikoisvaunusta."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Säännöt osaston luomiseen"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "Osaston tulisi koostua saman tason vaunuista."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Säännöt osaston luomiseen"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Osaston pelaajat"
+
+msgid "searching/estimated/caption"
+msgstr "Arvioitu aika"
+
+msgid "searching/estimated/lessThan"
+msgstr "alle %(seconds)d s"
+
+msgid "searching/estimated/moreThan"
+msgstr "yli %(seconds)d s"
+
+msgid "searching/expanded/body"
+msgstr "Yksikään pelaaja ei vastannut alkuperäisiä hakuehtoja.\nHakua laajennettiin käsittämään muita vaunutasoja."
+
+msgid "searching/expanded/header"
+msgstr "Hakuehtoja laajennettiin"
+
+msgid "searching/lookingFor"
+msgstr "Haetaan:"
+
+msgid "searching/playersInQueue"
+msgstr "Pelaajia jonossa"
+
+msgid "searching/state"
+msgstr "Haetaan:"
+
+msgid "settings/tiers"
+msgstr "Suosittu vaunutaso"
+
+msgid "settings/voice"
+msgstr "Suosi äänikeskustelua käyttäviä pelaajia"
+
+msgid "squad"
+msgstr "Osasto"

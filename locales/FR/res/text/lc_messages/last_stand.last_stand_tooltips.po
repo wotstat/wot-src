@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Évènement disponible pendant %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — mode de jeu. Cliquez pour le découvrir"
+
+msgid "bannerTooltip/description"
+msgstr "Un mode JcE spécial qui vous met face à des vagues de forces ennemies. Choisissez votre véhicule préféré, détruisez des chars échos et repoussez l'assaut. Des récompenses exclusives et bien plus encore vous attendent !"
+
+msgid "bannerTooltip/header"
+msgstr "Ultime combat : Grand Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Les performances de votre ordinateur sont insuffisantes pour ce mode. Vous risquez de subir des problèmes avec les graphismes et le déplacement du véhicule. Des plantages du client du jeu sont également probables."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Ce mode nécessite des performances élevées de l'ordinateur. Vous risquez de subir des problèmes avec le chargement des cartes, les graphismes et le déplacement du véhicule. Si les performances ne sont pas suffisantes, essayez de diminuer la qualité graphique dans les paramètres."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Faibles performances"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Possible réduction des performances"
+
+msgid "battlePass/playGame"
+msgstr "Gagnez des Points dans Ultime combat en progressant dans l'évènement (véhicules de rang VIII requis)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Vous êtes déjà amis."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "En attente de confirmation de la demande d'ajout aux amis."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Retirer ce joueur des ignorés."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Ajouter aux amis."
+
+msgid "battleResult/interaction/menu"
+msgstr "Cliquez pour ouvrir le menu d'interaction avec ce joueur."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Ajouter au peloton."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Joueur déjà dans le peloton."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Invitation déjà envoyée."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Seul le chef du peloton peut inviter des joueurs à rejoindre le peloton."
+
+msgid "booster/activated"
+msgstr "Activé"
+
+msgid "booster/howItWorks"
+msgstr "Comment ça fonctionne"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Temps de rechargement : %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Coût en Mirium : %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Temps restant pour terminer la mission quotidienne"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Temps avant la prochaine mission quotidienne"
+
+msgid "dailyQuests/completed"
+msgstr "Accomplie"
+
+msgid "dailyQuests/completedAll"
+msgstr "Vous avez terminé toutes les missions quotidiennes de cet évènement."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Vous avez terminé cette mission quotidienne. Une nouvelle sera disponible demain."
+
+msgid "dailyQuests/rewards"
+msgstr "Récompenses :"
+
+msgid "dailyQuests/status"
+msgstr "Nouvelle mission quotidienne dans %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Évènement disponible pendant %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Sélectionnez un véhicule disponible pour entrer en bataille."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Indisponible"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Les batailles dans le mode/difficulté sélectionné(e) sont temporairement indisponibles pour des raisons techniques."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Indisponible"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Attendez que le peloton revienne de la bataille précédente pour en lancer une nouvelle."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Indisponible"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Niveau de difficulté incompatible pour le peloton."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Indisponible"
+
+msgid "points/accrued"
+msgstr "Reçus"
+
+msgid "points/battles"
+msgstr "• Livrez des batailles de l'évènement"
+
+msgid "points/body"
+msgstr "Les données sont utilisées pour progresser dans Ultime combat afin d'obtenir de précieuses ressources. Elles peuvent être gagnées en livrant des batailles de l'évènement, en accomplissant des missions quotidiennes ou en achetant {{bundle_name}}."
+
+msgid "points/bottom"
+msgstr "Fin de l'évènement : (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Accomplissez de nouvelles missions quotidiennes chaque jour"
+
+msgid "points/effective"
+msgstr "• Efficacité en bataille :"
+
+msgid "points/gold"
+msgstr "• Achetez {{bundle_name}} dans le Magasin"
+
+msgid "points/header"
+msgstr "Données"
+
+msgid "points/howToEarn"
+msgstr "Comment en obtenir"
+
+msgid "points/missionDaily"
+msgstr "• Mission quotidienne accomplie :"
+
+msgid "points/obelisk"
+msgstr "• Obélisque détruit :"
+
+msgid "points/vehicleDaily"
+msgstr "• Bonus quotidien du véhicule reçu :"
+
+msgid "rewardPath/info/first"
+msgstr "Vous pouvez gagner davantage de données en accomplissant des missions quotidiennes, lesquelles sont actualisées chaque jour tout au long de l'évènement."
+
+msgid "rewardPath/info/header"
+msgstr "Données supplémentaires"
+
+msgid "rewardPath/info/second"
+msgstr "Un lot d'évènement spécial, disponible dans le Magasin, contient également des données pour booster votre progression."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Bonus du véhicule :"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Autres récompenses :"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Bonus du véhicule{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Toutes les données et récompenses ont été reçues"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Données reçues {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Rassemblez des données en bataille et progressez dans Ultime combat. Chaque Étape vous récompense par de précieux objets et un bonus de véhicule pour vous aider à vaincre d'autres ennemis formidables."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Étape finale"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Étape actuelle"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Évènement disponible pendant {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Progression"
+
+msgid "shopWidget/body"
+msgstr "Cliquez pour ouvrir une section spéciale du Magasin en jeu avec des objets de l'évènement exclusif."
+
+msgid "shopWidget/header"
+msgstr "Lots de l'évènement"
+
+msgid "teamList/actions/body"
+msgstr "Actions rapides pour créer un peloton et ajouter/retirer des amis."
+
+msgid "teamList/actions/header"
+msgstr "Actions rapides"
+
+msgid "teamList/damage/body"
+msgstr "Classer par dégâts infligés."
+
+msgid "teamList/damage/header"
+msgstr "Dégâts infligés"
+
+msgid "teamList/keys/body"
+msgstr "Classer par données obtenues. La valeur affichée ne prend pas en compte les données supplémentaires reçues pour l'accomplissement de missions quotidiennes ou par les bonus quotidiens des véhicules."
+
+msgid "teamList/keys/header"
+msgstr "Données"
+
+msgid "teamList/kills/body"
+msgstr "Classer par véhicules ennemis détruits."
+
+msgid "teamList/kills/header"
+msgstr "Véhicules ennemis détruits"
+
+msgid "teamList/name/header"
+msgstr "Nom du joueur"
+
+msgid "teamList/place/body"
+msgstr "Classer par position dans l'équipe."
+
+msgid "teamList/place/header"
+msgstr "Position dans l'équipe"
+
+msgid "teamList/squad/header"
+msgstr "Un peloton est une unité tactique permettant aux joueurs de coopérer en bataille."
+
+msgid "teamList/vehicle/body"
+msgstr "Classer par type et nom des véhicules."
+
+msgid "teamList/vehicle/header"
+msgstr "Véhicules"
+
+msgid "teamList/warned/body"
+msgstr "Ce joueur a été sanctionné pour inaction/désertion et il n'a reçu aucune récompense pour cette bataille."
+
+msgid "teamList/warned/header"
+msgstr "Avertissement"
+
+msgid "teamList/warned/self/body"
+msgstr "Vous avez été sanctionné pour inaction/désertion et vous n'avez reçu aucune récompense pour cette bataille."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Faible efficacité de l'équipage"
+
+msgid "vehicle/rentState"
+msgstr "Verrouillé"
+
+msgid "vehicleDaily/header"
+msgstr "Bonus quotidien du véhicule"

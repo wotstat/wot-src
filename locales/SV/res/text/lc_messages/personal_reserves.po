@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktivera"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Köp och aktivera"
+
+msgid "activation/activateBonus"
+msgstr "Aktivera reserv: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Aktivera reserv"
+
+msgid "activation/activateButtonClan"
+msgstr "Till Befästning"
+
+msgid "activation/battleXPDescription"
+msgstr "Extra stridserfarenhet under 1 t"
+
+msgid "activation/battleXPTitle"
+msgstr "Stridserfarenhet"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Köp och aktivera den uppgraderade personliga reserven som ger %(boosterBonus)s %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Köp guld"
+
+msgid "activation/buyGoldTitle"
+msgstr "Köp guld som krävs för att aktivera den uppgraderade personliga reserven som ger %(boosterBonus)s %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Guld krävs för att köpa den uppgraderade personliga reserven:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "krediter och stridserfarenhet"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "besättningserfarenhet och Fri erfarenhet"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Klanreserver"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Aktivera reserven i Befästningen"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Visa i Befästning"
+
+msgid "activation/comboXPDescription"
+msgstr "Extra Fri- och besättningserfarenhet under 1 t"
+
+msgid "activation/comboXPTitle"
+msgstr "Samlad erfarenhet"
+
+msgid "activation/creditsDescription"
+msgstr "Extra krediter under 1 t"
+
+msgid "activation/creditsTitle"
+msgstr "Krediter"
+
+msgid "activation/footer"
+msgstr "Tidsbegränsade reserver behöver aktiveras: %(expirableAmount) om %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Extra Frontstridserfarenhet under 1 t"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Frontstridserfarenhet"
+
+msgid "activation/informationButton"
+msgstr "INFORMATION"
+
+msgid "activation/price"
+msgstr "Pris:"
+
+msgid "activation/subFooter/depot"
+msgstr "Förråd"
+
+msgid "activation/subFooter/main"
+msgstr "Reserverna närmast sitt utgångsdatum aktiveras först. Du kan se alla dina tillgängliga reserver i ditt %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktivera {whiteSpanish_Open}upp till 3 personliga reserver{whiteSpanish_Close} för att tjäna mer krediter och erfarenhet i strid. Köp fler personliga reserver i %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "affären"
+
+msgid "activation/terms/booster_credits"
+msgstr "krediter"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "frontstridserfarenhet"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "samlad erfarenhet"
+
+msgid "activation/terms/booster_xp"
+msgstr "stridserfarenhet"
+
+msgid "activation/title"
+msgstr "PERSONLIGA RESERVER"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Den aktiverade standardreserven som ger %(previousBoosterBonus)s %(previousBoosterTerm)s går förlorad.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Vill du aktivera den uppgraderade personliga reserven som ger %(boosterBonus)s %(boosterTerm)s istället för den aktiverade standardreserven?"
+
+msgid "battleView/notice"
+msgstr "Personliga reserver kan aktiveras när du vill i strid. Du får din bonus även om reserven upphör innan striden är över."
+
+msgid "battleView/title"
+msgstr "Aktivering av personliga reserver"
+
+msgid "depot/buyButton"
+msgstr "Till köp"
+
+msgid "disabledReserveTooltip/text"
+msgstr "En annan reserv av samma typ är redan aktiverad."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Den här personliga reserven gick ut under striden. Bonusen från den personliga reserven gäller fortfarande för den här striden."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Aktiverade personliga reserver gäller inte för dessa strider."
+
+msgid "intro/buttons/close"
+msgstr "Uppfattat!"
+
+msgid "intro/buttons/details"
+msgstr "Information"
+
+msgid "intro/description"
+msgstr "Tidsbegränsade reserver är tillgängliga under en begränsad tid efter mottagandet. Om de inte aktiveras i tid går de förlorade. Icke-tidsbegränsade reserver kan inte användas så länge du har tidsbegränsade reserver av samma typ tillgängliga."
+
+msgid "intro/title"
+msgstr "TIDSBEGRÄNSADE RESERVER"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Inga personliga reserver av denna typ i förrådet. Du kan köpa dem senare eller aktivera dem i garaget."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Slutför uppdrag och delta i spelevenemang för att erhålla personliga reserver."
+
+msgid "noReserveTooltip/text"
+msgstr "Inga personliga reserver av denna typ i förrådet."

@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "collection/error/description"
+msgstr "Koleksiyonunuzun tozunu alıyoruz. Bu arada siz de savaşa girin."
+
+msgid "collection/error/title"
+msgstr "Koleksiyon Restore Ediliyor"
+
+msgid "collection/tooltip/completed"
+msgstr "\"%(name)s, %(season)s / %(year)s\" Koleksiyonu tamamlandı."
+
+msgid "collection/tooltip/progress"
+msgstr "Toplanan \"%(name)s, %(season)s / %(year)s\" Koleksiyonu Ögesi sayısı."
+
+msgid "footer/buttonText"
+msgstr "Koleksiyona Git"
+
+msgid "footer/collectionCompleted"
+msgstr "Koleksiyon tamamlandı!"
+
+msgid "footer/progressbar/activeState/receivedElements/text"
+msgstr "Toplanan ögeler: %(received)s / %(total)s"
+
+msgid "footer/progressbar/tooltip/body"
+msgstr "Etkinlik sırasında veya mümkünse sonrasında ilgili Ögeleri elde ederek Koleksiyon gelişiminizi ilerletin. İmlecinizi bir Koleksiyon Ögesinin üzerine getirerek nasıl elde edebileceğinizi öğrenebilirsiniz."
+
+msgid "footer/progressbar/tooltip/note"
+msgstr "Koleksiyonda, bu Koleksiyonun Ögelerini toplama karşılığında ödül olarak verilen Ögeler bulunabilir. Bunlar Öge sayacına eklenmez ve Koleksiyon gelişimini ilerletmez ancak hikayenin detaylarını içerir."
+
+msgid "footer/progressbar/tooltip/title"
+msgstr "Koleksiyon Ögeleri Toplama"
+
+msgid "header/overhead"
+msgstr "KOLEKSİYON"
+
+msgid "header/seasonText/defaultConfig"
+msgstr "SEZON ADI"
+
+msgid "header/subtitle"
+msgstr "KOLEKSİYON TAMAMLANDI!"
+
+msgid "header/title/defaultConfig"
+msgstr "ŞABLON KOLEKSİYONU"
+
+msgid "intro/buttonClose/text"
+msgstr "Koleksiyonlara Git"
+
+msgid "intro/content/description/text"
+msgstr "Koleksiyonlar, çeşitli etkinliklerde elde edilen özgün ögeler setleridir. Ögeler; özel stiller, çıkartmalar ve standart oyun kapsamında alınamayacak başka ürünlerdir."
+
+msgid "intro/header/text"
+msgstr "World of Tanks Koleksiyonları"
+
+msgid "main/backText"
+msgstr "KOLEKSİYONLARA GİT"
+
+msgid "mainLayout/header/title"
+msgstr "World of Tanks Koleksiyonları"
+
+msgid "mainLayout/header/tooltip/body"
+msgstr "Koleksiyonlar, çeşitli etkinliklerde elde edilen özgün ögeler setleridir. Ögeler; özel stiller, çıkartmalar ve standart oyun kapsamında alınamayacak başka ürünlerdir."
+
+msgid "mainLayout/header/tooltip/header"
+msgstr "World of Tanks Koleksiyonları"
+
+msgid "navigation/pageCounter"
+msgstr " / %(pageCount)s"
+
+msgid "notifications/button/goToCollection"
+msgstr "Koleksiyona Git"
+
+msgid "notifications/button/goToCollections"
+msgstr "Koleksiyonlara Git"
+
+msgid "notifications/button/goToReward"
+msgstr "Ödüle Git"
+
+msgid "notifications/eventDisabled/text"
+msgstr "Koleksiyonlar geçici olarak devre dışı"
+
+msgid "notifications/eventEnabled/text"
+msgstr "Koleksiyonlar tekrar açıldı. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "notifications/eventStart/text"
+msgstr "Komutanlar, sizin için yeni bir şey hazırladık! \"%(feature)s\" Koleksiyon Ögelerini toplayarak özgün ödüller alın."
+
+msgid "notifications/eventStart/title"
+msgstr "\"%(feature)s\" Koleksiyonu Açıldı!"
+
+msgid "notifications/feature/battle_pass_10"
+msgstr "SAVAŞ KARTI"
+
+msgid "notifications/feature/battle_pass_11"
+msgstr "SAVAŞ KARTI"
+
+msgid "notifications/feature/battle_pass_12"
+msgstr "SAVAŞ KARTI"
+
+msgid "notifications/finalReceived/text"
+msgstr "\"%(feature)s: %(season)s\" Koleksiyonunu tamamladınız"
+
+msgid "notifications/newItemsReceived/text"
+msgstr "Yeni Koleksiyon Ögeleri alındı:\n\n%(items)s"
+
+msgid "notifications/newRewardsReceived/text"
+msgstr "Koleksiyon Ögeleri toplama ödülü alındı:\n\n%(items)s"
+
+msgid "notifications/renew/text"
+msgstr "Koleksiyon Açık"
+
+msgid "notifications/renew/title"
+msgstr "%(feature)s, %(season)s"
+
+msgid "notifications/season/battle_pass_10"
+msgstr "SEZON X"
+
+msgid "notifications/season/battle_pass_11"
+msgstr "SEZON XI"
+
+msgid "notifications/season/battle_pass_12"
+msgstr "SEZON XII"
+
+msgid "notifications/title/collectionName"
+msgstr "\"%(feature)s: %(season)s\" Koleksiyonu"
+
+msgid "notifications/title/congratulation"
+msgstr "Tebrikler!"
+
+msgid "notifications/updatedEntry/text"
+msgstr "World of Tanks Koleksiyonları"
+
+msgid "notifications/updatedEntry/title"
+msgstr "Hizmet Kaydı Güncelleniyor"
+
+msgid "overlays/preview/previewButton/text"
+msgstr "Ön İzleme"
+
+msgid "overlays/preview/style/title/text"
+msgstr "%(vehicleInfo) için %(styleName)s"
+
+msgid "tooltips/item/achievement"
+msgstr "%(name)s madalyası"
+
+msgid "tooltips/receivedStatus"
+msgstr "Alındı"
+
+msgid "tooltips/title"
+msgstr "Koleksiyon Ögesi"
+
+msgid "tooltips/unreceivedStatus"
+msgstr "Alınmadı"

@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "notifications/count"
+msgstr "×{count}"
+
+msgid "notifications/manualClaim/button"
+msgstr "Παραλαβή Επάθλων"
+
+msgid "notifications/manualClaim/title"
+msgstr "Σας Περιμένουν Δώρα Για Τα Χρόνια Υπηρεσίας Σας!"
+
+msgid "notifications/selectVehicles/button"
+msgstr "Επιλογή"
+
+msgid "notifications/selectVehicles/title"
+msgstr "Όχημα Για Τα Χρόνια\nΥπηρεσίας Σας"
+
+msgid "notifications/tokens/button"
+msgstr "Εφοδιασμός"
+
+msgid "notifications/tokens/title"
+msgstr "Ανταλλάξτε Με Έπαθλα Τα Tokens Για Τα Χρόνια Υπηρεσίας Σας!"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "Επιλέξτε το όχημα που επιθυμείτε!"
+
+msgid "rewardsView/applyBtn"
+msgstr "Έλαβα Γνώση!"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "Ανταλλάξτε τα Tokens σας για έπαθλα από τον Εφοδιασμό."
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "Προβολή στο Γκαράζ"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "Εφοδιασμός"
+
+msgid "rewardsView/info"
+msgstr "Περισσότερες πληροφορίες"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "Περισσότερα Έπαθλα!"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "Επιπλέον Έπαθλα! ({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "{{count}} διαθέσιμο όχημα με βάση τα έτη υπηρεσίας σας"
+
+msgid "rewardsView/selection/received"
+msgstr "ΤΟ ΕΠΑΘΛΟ ΑΠΟΝΕΜΗΘΗΚΕ"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "Λάβατε επίσης:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "ΣΤΡΑΤΟΛΟΓΗΣΗ"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "ΣΤΡΑΤΙΩΤΗΣ"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "ΑΡΧΗΓΟΣ"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "ΑΞΙΩΜΑΤΙΚΟΣ"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "ΒΕΤΕΡΑΝΟΣ"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "ΘΡΥΛΟΣ"
+
+msgid "rewardsView/subTitle/text"
+msgstr "ΕΠΙΤΕΥΞΗ ΤΟΥ ΒΑΘΜΟΥ {rank}"
+
+msgid "rewardsView/textButton/select"
+msgstr "Επιλογή"
+
+msgid "rewardsView/title"
+msgstr "ΣΥΓΧΑΡΗΤΗΡΙΑ!"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "×%(count)s"
+
+msgid "specialItem/body"
+msgstr "Απονέμονται ως επιβράβευση για τις μάχες σας. Μόλις λήξει η διοργάνωση, όλα τα εναπομείναντα Tokens θα διαγραφούν."
+
+msgid "specialItem/header"
+msgstr "Token Ετών Υπηρεσίας: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "Συγχαρητήρια για την απονομή του βαθμού Νεοσύλλεκτος"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "Συγχαρητήρια για την απονομή του βαθμού Στρατιώτης"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "Συγχαρητήρια για την απονομή του βαθμού Διοικητής"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "Συγχαρητήρια για την απονομή του βαθμού Αξιωματικός"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "Συγχαρητήρια για την απονομή του βαθμού Βετεράνος"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "Συγχαρητήρια για την απονομή του βαθμού Θρύλος"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel} και {yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "Για τη συμμετοχή στη φάση δοκιμών Alpha"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "Για τη συμμετοχή στη φάση δοκιμών Beta"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "{{count}} έτος υπηρεσίας"
+msgstr[1] "{{count}} έτη υπηρεσίας"
+msgstr[2] "{{count}} έτη υπηρεσίας"
+
+msgid "tooltip/rank/ctg1"
+msgstr "Νεοσύλλεκτος"
+
+msgid "tooltip/rank/ctg2"
+msgstr "Στρατιώτης"
+
+msgid "tooltip/rank/ctg3"
+msgstr "Διοικητής"
+
+msgid "tooltip/rank/ctg4"
+msgstr "Αξιωματικός"
+
+msgid "tooltip/rank/ctg5"
+msgstr "Βετεράνος"
+
+msgid "tooltip/rank/ctg6"
+msgstr "Θρύλος"
+
+msgid "tooltip/segment/ctg1"
+msgstr "Λιγότερο από 1 έτος"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1–3 έτη"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4–6 έτη"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7–9 έτη"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10–14 έτη"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15 έτη"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "Θρυλικό ελαφρύ άρμα με εξαιρετική ευκινησία. Προκαλεί ικανοποιητική φθορά ανά λεπτό, ενώ το πυροβόλου του έχει καλές γωνίας ανόδου/καθόδου για να μπορεί να εκμεταλλεύεται τη μορφολογία του πεδίου της μάχης."
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "Ελαφρύ άρμα μάχης, εξοπλισμένο με πυροβόλο μεγάλου διαμετρήματος και σχετικά καλή θωράκιση, η οποία όμως επηρεάζει αρνητικά την ευκινησία του. Μπορεί να είναι λίγο δυσκίνητο, είναι όμως άκρως αποτελεσματικό όταν διεμβολίζει εχθρικά οχήματα με ελαφριά θωράκιση."
+
+msgid "vehicle/R160_T_50_2"
+msgstr "Ελαφρύ άρμα μάχης, ιδανικό για εντοπισμό εχθρικών οχημάτων σε κάθε φάση της μάχης. Το μικρό του μέγεθος και η μεγάλη του ταχύτητα το βοηθούν να αποφεύγει τις εχθρικές βολές και να επιβιώνει στη μάχη."
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "Το μοναδικό όχημα στη βαθμίδα του που φέρει πυροβόλο με αντίστροφο μηχανισμό αυτόματης επαναγέμισης. Το μοναδικό αυτό χαρακτηριστικό του δίνει τη δυνατότητα να προκαλεί πολύ μεγάλη φθορά σε μικρό χρονικό διάστημα."

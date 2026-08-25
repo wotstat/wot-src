@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "backButton/label"
+msgstr "ATPAKAĻ"
+
+msgid "backButton/to"
+msgstr "UZ KONTA STATUSU"
+
+msgid "filteredMapsDisplayed"
+msgstr "Rādītās kartes: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Rādīt/slēpt šī tipa kartes."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Tuksnešu Kartes"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Vasaras kartes"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Ziemas Kartes"
+
+msgid "header/cooldown"
+msgstr "Jūs variet atkal aizstāt karti pēc %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Neiekļautās Kartes"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Jūs variet atkal aizstāt karti pēc laika."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Kartes Aizvietošana Nav Pieejama"
+
+msgid "mapTile/hoverExclude"
+msgstr "Neiekļaut %(mapName) karti?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Neiekļaut"
+
+msgid "mapTile/hoverInclude"
+msgstr "Iekļaut %(mapName) karti Nejaušajās Kaujās?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Iekļaut"
+
+msgid "mapsFilterLabel"
+msgstr "Karšu tipi:"
+
+msgid "notSelected"
+msgstr "Nav Izvēlēts"
+
+msgid "premium"
+msgstr "WoT Premium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Papildus vieta ir pieejama tikai ar aktīvu WoT Premium kontu vai WoT Plus abonementu."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Atbloķē ar WoT Premium Kontu."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Atbloķē ar aktīvu WoT Plus abonementu."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Izvēlies karti no saraksta zemāk, lai to aizstātu un izslēgtu no Nejaušajām Kaujām."
+
+msgid "slot/selectTooltipBody"
+msgstr "Izvēlies karti no saraksta zemāk, lai to izslēgtu no Nejaušajām Kaujām."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Pieejama Vieta"
+
+msgid "totalMapsDisplayed"
+msgstr "Rādītās kartes: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Izslēdz vēl 1 karti ar %(linkPremium) un vēl %(mapCount)s ar %(linkWotPlus)."
+msgstr[1] "Izslēdz vēl 1 karti ar %(linkPremium) un vēl %(mapCount)s ar %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Izslēdz vēl 1 karti ar %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Izslēdz vēl %(mapCount)s kartes ar %(linkWotPlus)."
+msgstr[1] "Izslēdz vēl %(mapCount)s kartes ar %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WoT Plus"

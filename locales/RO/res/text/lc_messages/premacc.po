@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} al clanului"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "LA STARE CONT"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "ÎNAPOI"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Vei putea înlocui o hartă în {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Arată/ascunde hărți de acest tip."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Hărți deșert"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Hărți de vară"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Hărți de iarnă"
+
+msgid "mapsBlacklist/header"
+msgstr "Hărți excluse"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Exclude din rotație o hartă nedorită. Exclude încă o hartă cu WoT Premium și încă %(mapCount)s cu WoT Plus. Dacă oricare dintre abonamente expiră, hărțile excluse revin în rotație, începând cu cea mai din dreapta."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Hărți excluse"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Aceste hărți sunt excluse doar din luptele standard."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Poți schimba o hartă exclusă cu alta la fiecare %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Caracteristica este disponibilă vehiculelor de generația IV sau mai mare."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "În plutoane, sunt excluse doar hărțile selectate de comandantul plutonului."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Hărți afișate: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Hărți afișate: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Tipuri de hartă:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Anulează"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Închide"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Harta aleasă va fi înlocuită cu harta {mapNameStr}. Poți să îți schimbi selecția în {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Ce hartă vrei să înlocuiești?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Exclude"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Alege o hartă pe care vrei să o înlocuiești"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Anulează"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Închide"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Poți să îți schimbi selecția în {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Excluzi harta {mapNameStr} din luptele standard?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Exclude"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Exclude"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Excluzi harta {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Include"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Incluzi harta {mapNameStr} în Luptele standard?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Poți înlocui această hartă în {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Înlocuirea hărții indisponibilă"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Poți înlocui această hartă în {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Înlocuirea hărții indisponibilă"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Ne-selectată"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Clic pentru a alege o hartă care să fie exclusă din luptele standard."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Harta nu este selectată"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Harta exclusă {mapName} poate fi înlocuită cu alta."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Înlocuirea de hărți disponibilă"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Poți înlocui harta {mapName} în {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Înlocuirea hărții indisponibilă"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Un spațiu adițional este disponibil doar cu Contul Premium WoT."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Spațiu indisponibil"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Alege o hartă din lista de mai jos pentru a o exclude din luptele standard."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Harta nu este selectată"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Alege o hartă din lista de mai jos pentru a o exclude din luptele standard."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Înlocuirea de hărți disponibilă"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Poți înlocui această hartă în {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Înlocuirea hărții indisponibilă"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Un spațiu pentru excluderea unui hărți adiționale este disponibil doar cu Contul Premium WoT."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Spațiu indisponibil"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Anulează"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Poți să îți schimbi selecția în {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Înlocuiește"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Exclude"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Excluzi harta %(mapName)s din luptele standard?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Harta aleasă va fi înlocuită cu harta {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Poți să îți schimbi selecția în %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Ce hartă vrei să înlocuiești?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Această hartă va fi înlocuită cu harta {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. You can change your selection in %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Vrei să înlocuiești această hartă?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Controlul parental a fost activat pentru acest cont.\nPoți afla {link} mai multe despre restricțiile controlului parental."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Control parental"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "de pe portalul jocului"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Rezerva de credite"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s z"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

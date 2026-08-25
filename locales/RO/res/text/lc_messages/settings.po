@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT prevodilac <noreply@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Antialiasing"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Determină gradul de procesare suplimentară a liniilor subțiri și contururilor obiectelor din joc. Micșorează evenimentul de antialiasing.\n\n• Mare—FXAA\n• Maxim—Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Ajustare dinamică"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Activează sau dezactivează ajustarea automată a rezoluției de randare 3D în funcție de încărcarea plăcii video.\n\nActivarea acestui parametru poate îmbunătăți performanța jocului. Rezoluția de randare în Garaj rămâne mereu aceeași."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Calitate efecte adiţionale"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Stabileşte nivelul de detaliere pentru scânteile din ricoşeuri, explozii, fum şi alte efecte vizuale.\n\nReducerea valorii acestui parametru poate îmbunătăţi performanţa grafică."
+
+msgid "FAR_PLANE"
+msgstr "Distanţa de afişare"
+
+msgid "FAR_PLANE/description"
+msgstr "Stabileşte distanţa de afişare pentru relief, clădiri, vehicule inamice şi alte obiecte."
+
+msgid "FLORA_QUALITY"
+msgstr "Densitatea ierbii"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Stabileşte densitatea ierbii afișate în modurile arcade și lunetist."
+
+msgid "HAVOK_ENABLED"
+msgstr "Fizică îmbunătățită distrugeri"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "NU"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "DA"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Permite o modelare mai realistă și detaliată a distrugerii obiectelor de pe hărți.\n\nDezactivarea acestui parametru poate spori performațele jocului."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Setarea va fi aplicată în următoarea luptă, dacă este inactivă în lupta curentă."
+
+msgid "LANGUAGE_CODE"
+msgstr "ro"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Calitatea iluminării"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Stabileşte acurateţea razelor solare, a iluminării şi a efectelor optice.\n\nReducerea valorii acestui parametru poate îmbunătăţi semnificativ performanţa grafică."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Efect motion blur"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Stabileşte calitatea efectului motion blur când vehiculul se mişcă şi camera se roteşte."
+
+msgid "MSAA_QUALITY"
+msgstr "Antialiasing"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Determină cantitatea de procesare adițională pentru liniile fine și conturul obiectelor din joc. Reduce efectul de franjurare.\n\n• Redus—MSAA 2x\n• Mediu—MSAA 4x\n• Mare—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Detalierea obiectelor"
+
+msgid "OBJECT_LOD/description"
+msgstr "Stabileşte numărul de obiecte afişate şi nivelul de detaliu al acestora."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Postprocesare"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Stabileşte calitatea efectelor visuale post-procesare: distorsiunea căldurii și undele de șoc, aberația cromatică, vignieta, granulația de film, etc.\n\nReducerea valorii acestui parametru poate îmbunătăţi performanţa grafică."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Grafică"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Îmbunătăţită: permite calitatea maximă a imaginii.\n\nSimplificat: permite performanţă grafică maximă prin simplificarea sau dezactivarea unor efecte vizuale."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Grafică:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Modificările acestui parametru vor avea efect după restartarea jocului."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Transparenţa vegetaţiei"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Stabileşte modul de afişare a frunzelor copacilor şi tufişurilor din vecinătate.\n\nDezactivarea acestui parametru face complet invizibile frunzele copacilor şi tufişurilor din vecinătate, ceea ce poate îmbunătăţi performanţa grafică."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Versiune shader"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Calitatea umbrelor"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Stabileşte calitatea umbrelor dinamice pentru întreaga distanţă de afişare.\n\nReducerea valorii acestui parametru poate îmbunătăţi performanţa grafică."
+
+msgid "SMOKE_ENABLED"
+msgstr "Fum"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Calitate efecte în modul \"lunetist\""
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Stabileşte nivelul de detaliere pentru scânteile din ricoşeuri, explozii, fum şi alte efecte speciale în mod \"lunetist\".\n\nReducerea valorii acestui parametru poate îmbunătăţi performanţa grafică."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Iarbă în modul \"lunetist\""
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Afişează iarba în mod \"lunetist\".\n\nDezactivarea acestui parametru poate îmbunătăţi performanţa grafică."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Terrain tesselation în modul lunetist"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Crește calitatea terenului pe o rază de 50 metri în jurul vehiculului în modul lunetist. Disponibil doar când opțiunea Terrain tesselation este activată.\n\nDezactivarea acestui parametru poate spori performațele jocului."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Calitate vegetaţie"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Stabileşte nivelul de calitate pentru copaci, tufișuri și iarbă."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Calitatea terenului"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Stabileşte nivelul de detaliere pentru elementele de relief.\n\nUtilizează calitatea minimă a terenului doar în cazul în care computerul are performanţe reduse.\n\nReducerea valorii acestui parametru poate duce la desincronizări în afişarea peisajului între server şi client."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Activarea nivelului selectat s-ar putea să dureze un timp."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Terrain Tessellation"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Proces accelerat hardware de adăugare a unor noi triunghiuri în mesh-ul de poligoane, pentru a spori detalierea mesh-ului.\n\nAceastă funcție funcționează doar împreună cu:\n• Grafică îmbunătățită\n• Calitate teren mare, maximă sau ultra\n• DirectX 11 instalat\n\nModificările setărilor sunt indisponibile cu variante mai vechi decât DirectX 11.\n\nDezactivarea acestui parametru poate crește performanța jocului."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Calitatea texturilor"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Stabileşte nivelul de detaliu pentru suprafeţele obiectelor din joc, în special la vederea de aproape.\n\nReducerea valorii acestui parametru poate îmbunătăţi performanţa grafică."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Activarea nivelului selectat s-ar putea să dureze un timp."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Fizica șenilelor"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Determină calitatea fizicii simulate pentru șenile avariate și operaționale, precum și detaliile șenilelor.\n\nReducerea sau dezactivarea acestui parametru poate îmbunătăți performanța jocului."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Activează efectele de la şenile și roți"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Afişează praful, zăpada şi stropii de apă produşi de şenile și roți.\n\nDezactivarea acestui parametru poate îmbunătăţi performanţa grafică."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Activează urmele de şenile și roți"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Afișează pe teren urmele de șenile și roți.\n\nIndisponibilă în Grafica Simplificată și Calitatea Redusă a afișării."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Ascunde atașamentele 3D în modul țintaș"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Ascunde temporar Atașamentele 3D în reticulul tunului în modul țintaș.\n\nReduce aglomerarea vizuală și îmbunătățește precizia țintirii."
+
+msgid "WATER_QUALITY"
+msgstr "Calitatea apei"
+
+msgid "WATER_QUALITY/description"
+msgstr "Stabileşte nivelul de detaliere pentru suprafeţele lichide."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Doar blindajul slab"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Atunci când este activ, indicatorul evidențiază doar blindajul slab al țintei.\n\nBlindajul cu șansă mare de penetrare este evidențiat cu verde solid, iar blindajul cu șanse moderate de penetrare este evidențiat cu verde semitransparent. Culorile pot fi diferite în modul „daltonist”."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Evidențiază doar blindajul slab"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Doar blindajul rezistent"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Atunci când este activ, indicatorul evidențiază doar blindajul rezistent al țintei.\n\nBlindajul cu șansă de penetrare minimă spre zero este evidențiat cu roșu solid, iar blindajul cu șanse moderate de penetrare este evidențiat cu roșu semitransparent. Culorile pot fi diferite în modul „daltonist”."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Evidențiază doar blindajul rezistent"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Tot blindajul"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Atunci când este activ, indicatorul evidențiază întreg blindajul țintei.\n\nBlindajul cu șansă de penetrare minimă spre zero este evidențiat cu roșu, Blindajul cu șansă mare de penetrare este evidențiat cu verde, iar blindajul cu șanse moderate de penetrare este evidențiat cu galben. Culorile pot fi diferite în modul „daltonist”."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Evidențiază tot blindajul"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Evidențierea blindajului"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Activează la începutul luptei"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Starea implicită a indicatorului la începutul luptei. Poți activa sau dezactiva indicatorul în orice moment, utilizând tasta dedicată.\n\nAtunci când este activat, indicatorul funcționează doar în modul țintire.\n\nModurile de joc suportate:\n• Lupte standard și Antrenamentul de echipă;\n• Front;\n• Lupte din Mașina de jocuri;\n• Violență;\n• Anumite moduri și evenimente. \n\nÎn viitor, pot fi suportate și moduri și evenimente ulterioare."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Activează la începutul luptei"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Textura indicatorului"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Solidă"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Model rar"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Model des"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Opacitatea"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Avertisment performanță"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Mare"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Mică"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Medie"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Rezoluția indicatorului"
+
+msgid "aim/cassette"
+msgstr "Casete"
+
+msgid "aim/centralTag"
+msgstr "Indicator central"
+
+msgid "aim/centralTag/type0"
+msgstr "Formă-A I"
+
+msgid "aim/centralTag/type1"
+msgstr "Formă-A II"
+
+msgid "aim/centralTag/type10"
+msgstr "Formă-O I"
+
+msgid "aim/centralTag/type11"
+msgstr "Formă-O II"
+
+msgid "aim/centralTag/type12"
+msgstr "Formă-A IV"
+
+msgid "aim/centralTag/type13"
+msgstr "Formă-A V"
+
+msgid "aim/centralTag/type2"
+msgstr "Formă-A III"
+
+msgid "aim/centralTag/type3"
+msgstr "Formă-V"
+
+msgid "aim/centralTag/type4"
+msgstr "Cruce I"
+
+msgid "aim/centralTag/type5"
+msgstr "Cruce II"
+
+msgid "aim/centralTag/type6"
+msgstr "Formă-T"
+
+msgid "aim/centralTag/type7"
+msgstr "Formă-I"
+
+msgid "aim/centralTag/type8"
+msgstr "Punct I"
+
+msgid "aim/centralTag/type9"
+msgstr "Punct II"
+
+msgid "aim/condition"
+msgstr "Stare"
+
+msgid "aim/gunTag"
+msgstr "Indicator tun"
+
+msgid "aim/gunTag/type0"
+msgstr "Formă-A I (cu indicator de penetrare blindaj)"
+
+msgid "aim/gunTag/type1"
+msgstr "Formă-A II (cu indicator de încărcare)"
+
+msgid "aim/gunTag/type10"
+msgstr "Formă-O II (cu indicator de încărcare)"
+
+msgid "aim/gunTag/type11"
+msgstr "Formă-O III"
+
+msgid "aim/gunTag/type12"
+msgstr "Formă-A IV (cu indicator de penetrare blindaj)"
+
+msgid "aim/gunTag/type13"
+msgstr "Formă-A V (cu indicator de încărcare)"
+
+msgid "aim/gunTag/type14"
+msgstr "Formă-A VI"
+
+msgid "aim/gunTag/type2"
+msgstr "Formă-A III"
+
+msgid "aim/gunTag/type3"
+msgstr "Cruce I (cu indicator de penetrare blindaj)"
+
+msgid "aim/gunTag/type4"
+msgstr "Cruce II (cu indicator de încărcare)"
+
+msgid "aim/gunTag/type5"
+msgstr "Cruce III"
+
+msgid "aim/gunTag/type6"
+msgstr "Punct I (cu indicator de penetrare blindaj)"
+
+msgid "aim/gunTag/type7"
+msgstr "Punct II (cu indicator de încărcare)"
+
+msgid "aim/gunTag/type8"
+msgstr "Punct III"
+
+msgid "aim/gunTag/type9"
+msgstr "Formă-O I (cu indicator de penetrare blindaj)"
+
+msgid "aim/mixing"
+msgstr "Ochire"
+
+msgid "aim/mixing/type0"
+msgstr "Cerc I (cu indicator de încărcare) "
+
+msgid "aim/mixing/type1"
+msgstr "Cerc II (cu indicator de încărcare mobil)"
+
+msgid "aim/mixing/type2"
+msgstr "Cerc III (fără indicator de încărcare)"
+
+msgid "aim/mixing/type3"
+msgstr "Cerc IV (solid)"
+
+msgid "aim/mixing/type4"
+msgstr "Cruce (cu indicator de încărcare mobil)"
+
+msgid "aim/mixing/type5"
+msgstr "Cruce II"
+
+msgid "aim/mixing/type6"
+msgstr "Test"
+
+msgid "aim/net"
+msgstr "Indicator"
+
+msgid "aim/net/type0"
+msgstr "Diagonal"
+
+msgid "aim/net/type1"
+msgstr "Orizontal"
+
+msgid "aim/net/type2"
+msgstr "Radial"
+
+msgid "aim/net/type3"
+msgstr "Linii întrerupte"
+
+msgid "aim/reloader"
+msgstr "Încărcare"
+
+msgid "aim/reloaderTimer"
+msgstr "Timer încărcare"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Schimbarea la modul artilerie"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Ultimul folosit"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Vedere de sus"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Vedere traiectorie"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Comutator automat de mod țintire"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "La scroll cu mouse-ul și atingerea unei anumite valori de micșorare, ținta va comuta pe modul vedere de sus sau vedere traiectorie."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Comutator automat de mod țintire"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Zoom lin al camerei"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Afișează indicatorii liniei de foc"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Arată/ascunde indicatorii care afișează dacă proiectilul selectat va atinge punctul de țintire. Aceștia afișează și timpul de zbor al proiectilului."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Indicatorii liniei de tragere"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Arată indicatorul poziției camerei"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Arată/ascunde indicatorul care afișează nivelul de mărire al camerei de țintire în mod artilerie."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Indicatorul poziției camerei"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Controalele camerei"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternativ"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Standard"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "În modul standard de control al camerei, camera se mișcă în sus, jos, stânga și dreapta. În modul alternativ, camera se mișcă înainte, înapoi și în jurul poziției artileriei."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Controalele camerei"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Indicator zoom"
+
+msgid "alternativeVoices/labels"
+msgstr "Mesaje vocale în luptă"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Mesaje vocale în luptă"
+
+msgid "apply_button"
+msgstr "Aplică"
+
+msgid "autodetectButton"
+msgstr "Recomandate"
+
+msgid "autodetectButton/description"
+msgstr "Se determină setările grafice optime pentru computerul tău.\n\nE posibil să ia ceva timp."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Obține aprecieri în luptă"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Afișează comenzile personale"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Afișează comunicațiile pe panoul echipelor"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Arată indicatorii de locație pe hartă"
+
+msgid "battlecomm/showMarkers"
+msgstr "Afișează marcajele bazelor în lupte standard"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Afișează marcajele permanente"
+
+msgid "borderlessSize"
+msgstr "În fereastra (fără margini)"
+
+msgid "borderlessSize/description"
+msgstr "În fereastra (fără margini)"
+
+msgid "cancel_button"
+msgstr "Anulare"
+
+msgid "chat/censorshipMessages"
+msgstr "Filtrează cuvintele ofensatoare din mesaje"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Permite mesaje doar de la lista de Contacte"
+
+msgid "chat/disableBattleChat"
+msgstr "Dezactivează chat-ul cu aliaţii"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Reţine poziţia camerei şi a ferestrelor canalelor"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Reţine poziţia camerei şi a altor ferestre"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Acceptă invitaţii de la jucători din lista de prieteni în Garaj"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Acceptă notificări de la clan"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Acceptă cerere prietenie"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Acceptă invitaţii în pluton în luptă"
+
+msgid "chat/removeSpam"
+msgstr "Ascunde spam"
+
+msgid "chat/showDateMessage"
+msgstr "Afişează data în mesaje"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Anunţă când jucătorii se conectează/deconectează"
+
+msgid "chat/showTimeMessage"
+msgstr "Afişează ora în mesaje"
+
+msgid "colorCorrection"
+msgstr "Ajustarea culorii"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Configurează"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Setări personalizate"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Luminozitate"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Contrast"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Saturație"
+
+msgid "colorSettings/tab/default"
+msgstr "Implicit"
+
+msgid "colorSettings/tab/filters"
+msgstr "Filtre presetate"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Intensitatea filtrului"
+
+msgid "colorSettings/view/after"
+msgstr "După"
+
+msgid "colorSettings/view/before"
+msgstr "Înainte"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "ÎNCHIDE"
+
+msgid "colorSettings/view/description"
+msgstr "Selectează o opțiune de ajustare a imaginii"
+
+msgid "colorSettings/view/header"
+msgstr "Ajustarea culorii"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Resetare"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Opțiunile ajustării imaginii"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Arcade"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Indicatorul de blindaj"
+
+msgid "cursor/ArtyTitle"
+msgstr "Artilerie"
+
+msgid "cursor/ContourTitle"
+msgstr "Contur"
+
+msgid "cursor/ServerAim"
+msgstr "Activează reticulul de server"
+
+msgid "cursor/SnipperTitle"
+msgstr "Lunetist"
+
+msgid "cursor/contour/type0"
+msgstr "Standard"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "La țintirea vehiculului inamic, întregul său profil este conturat, inclusiv elementele care nu interacționează cu proiectilele."
+
+msgid "cursor/contour/type1"
+msgstr "Simplificat"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "La țintirea vehiculului inamic, doar o parte a profilului este conturată, incluzând doar elementele care interacționează cu proiectilele."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Zona impenetrabilă"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Nu"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Umple"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Texturează"
+
+msgid "cursor/contourLabel"
+msgstr "Tipul conturării"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Zona penetrabilă"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Nu"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Umple"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Texturează"
+
+msgid "cursor/overlapContour"
+msgstr "Desenarea obstacolelor"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Activarea desenării poate reduce performanța."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Afișarea de obstacole pentru proiectile la țintirea vehiculului inamic.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Desenarea obstacolelor"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Desenarea obstacolelor"
+
+msgid "cursorTitle"
+msgstr "Reticul"
+
+msgid "defaultBtn"
+msgstr "Standard"
+
+msgid "defaultNamePrefix"
+msgstr "Jucător"
+
+msgid "dynamicCamera"
+msgstr "Activează camera dinamică"
+
+msgid "dynamicFov"
+msgstr "Câmp vizual dinamic"
+
+msgid "dynamicFov/description"
+msgstr "Câmpul vizual dinamic permite stabilirea unghiurilor de vedere minime şi maxime pentru vedere în mod \"arcade\".\n\nUnghiul minim este utilizat când camera este îndepărtată de vehicul.\n\nUnghiul maxim este utilizat când camera este apropiată de vehicul."
+
+msgid "dynamicRenderer"
+msgstr "Rezoluţia de renderizare 3D"
+
+msgid "dynamicRenderer/description"
+msgstr "Stabileşte calitatea şi nivelul de detaliu ale peisajului.\n\nRezoluţia de renderizare 3D poate fi modificată şi în luptă folosind [Shift dreapta +] şi [Shift dreapta -]. Nu influenţează interfaţa.\n\nReducerea valorii acestui parametru poate îmbunătăţi performanţa grafică pentru calculatoarele cu placă video slabă."
+
+msgid "edgeDetectAA"
+msgstr "Edge detect AA"
+
+msgid "feedBack"
+msgstr "Notificări din luptă"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Margine hartă"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Daune în urma șocului tău"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Puncte de cucerire a bazei"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Puncte de apărare a bazei"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Daune blocate"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Vehicul inamic incendiat"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Daune critice"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Descoperire"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Daune după descoperire"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Daune prin lovitură"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Vehicul inamic distrus"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Daune prin coliziune"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Şenilă distrusă"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Nume eveniment"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Daune critice"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Daune"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Afişează în luptă"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Detalii vehicul"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Daune prin impact"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Toate talentele situaționale"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "Cele mai recente trei evenimente\nsunt afişate în luptă"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Evenimentele luptei"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Notificări"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Evenimente"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Talentele de echipaj"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Daune suferite"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Realizări în luptă"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Daune suferite"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Ascunderea mărginii hărții poate duce la dezorientarea în luptă."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "La apăsarea Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Mereu afișată"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Nu afișa"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "La proximitate"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Afișare adițională"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Linie punctată"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Nu afișa"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Tip margine"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Zid"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Indicator direcţie tragere"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Daune asupra coechipierilor"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Cantitate de daune"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Lovitură blocată"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Lovitură critică\nasupra vehiculului tău"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "3x"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Daune primite"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Modul lovit"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Informații"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Afişează animaţia"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Cantitate de daune"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Indicatori dinamici"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Detalii vehicul"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Afişează în luptă"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Toate"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Daune asupra coechipierilor"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Lovituri critice"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Exceptând criticele"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Avansat"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Standard"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Tip"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Listă de mesaje"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Provocate în urma șocului tău"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Blocat de blindaj"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Daune la descoperirea ta"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Daune provocate de tine"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Afişează mereu"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Apasă Alt pentru a afişa"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Nu se afişează"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Panou daune"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Toate evenimentele în partea de jos"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Daune suferite în partea de sus"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Poziţia evenimentelor"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Toate evenimentele"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Tip eveniment"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Daune suferite"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Realizări în luptă"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Activarea acestei setări nu este recomandată\npentru ecranele cu rezoluţie scăzută"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Sumar daune"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Zonă pentru informaţii detaliate legate de daune. Afişează informaţii complete legate de eficienţa ta în luptă."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Evenimentele luptei"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Sumarul luptei și misiuni"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Scorul luptei"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Detaliile misiunii"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Afișează iconițele vehiculelor\nper generație"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Afișează bara de HP\na echipelor"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Afișează diferența de HP\na echipelor"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Afișează cantitatea de HP\na echipelor"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Afișează tot"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Afișează doar progresul"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternativ"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Nu afișa"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Standard"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Afișează misiunile"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Câmpul vizual (FoV)"
+
+msgid "fov/description"
+msgstr "Stabileşte câmpul vizual (FoV) al camerei.\n\nValoarea normală este 95°. Cu cât unghiul este mai mic, cu atât obiectele par mai apropiate şi vederea periferică este mai redusă.\n\nNu influenţează performanţa grafică."
+
+msgid "game/anonymizer"
+msgstr "Anonimizează-ți porecla în lupte"
+
+msgid "game/battleLoadingInfo"
+msgstr "Sfaturi pe ecranul de încărcare a luptei"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Mini-harta"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Doar text"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Sfaturi ilustrate"
+
+msgid "game/battlePanelSettings"
+msgstr "Interfaţa luptei"
+
+msgid "game/carouselType"
+msgstr "Panou vehicul"
+
+msgid "game/carouselType/double"
+msgstr "Două nivele"
+
+msgid "game/carouselType/single"
+msgstr "Un nivel"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Afişează statisticile la plutirea peste un loc în Garaj"
+
+msgid "game/commanderCamEnabled"
+msgstr "Activează vederea tactică"
+
+msgid "game/customizationDisplayType"
+msgstr "Afișarea elementelor de personalizare în luptă"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Istorice, neistorice și ficționale"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Istorice"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Istorice și neistorice"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Afișează vehiculele membrilor de pluton în Garaj"
+
+msgid "game/doubleCarousel/label"
+msgstr "Panou vehicule pe două niveluri"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Adaptiv"
+
+msgid "game/doubleCarouselType/small"
+msgstr "minimalist"
+
+msgid "game/dynamicCamera"
+msgstr "Activează camera dinamică"
+
+msgid "game/enableBattleNotifier"
+msgstr "Afișează în chat rezultatul luptei anterioare"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Activează post-efect în postmortem"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Efecte optice în mod \"lunetist\""
+
+msgid "game/enableRepairTimer"
+msgstr "Afișează timpul de reparație pentru modulele avariate"
+
+msgid "game/enableSpeedometer"
+msgstr "Afișează ceasul de accelerație al vehiculelor cu roți"
+
+msgid "game/enableVoIP"
+msgstr "Chat voce"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Comunicațiile în luptă"
+
+msgid "game/fieldset/headerChat"
+msgstr "Chat"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Mini-harta"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Marcatoarele vehiculului"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Animația camerei din garaj la mișcarea cursorului"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Rotație cameră Garaj la inactivitate în"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Animație cameră garaj"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Niciodată"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 secunde"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 secunde"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 secunde"
+
+msgid "game/horStabilizationSnp"
+msgstr "Stabilizare orizontală în modul \"lunetist\""
+
+msgid "game/hullLockEnabled"
+msgstr "Blocaj automat carenă în modul țintire"
+
+msgid "game/increasedZoom/base"
+msgstr "Activează %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " și "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Afișează selectorul de servere la lansare"
+
+msgid "game/minimapDrawRange"
+msgstr "Afișează cercul"
+
+msgid "game/minimapGroupTitle"
+msgstr "Miniharta"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Arată cercul de vizualizare maximă"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Afișează cercul de descoperire de proximitate"
+
+msgid "game/minimapViewRange"
+msgstr "Arată cercul de vizualizare"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Informaţii suplimentare"
+
+msgid "game/newbieBattleHints"
+msgstr "Activează sfaturile pentru începători în luptele standard"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Activează sfaturile pentru începători în ecranul de încărcare a luptei"
+
+msgid "game/optimizeGraphics"
+msgstr "Optimizează grafica interfeței"
+
+msgid "game/playersPanelState/large"
+msgstr "Panou complet"
+
+msgid "game/playersPanelState/medium"
+msgstr "Panou mediu"
+
+msgid "game/playersPanelState/none"
+msgstr "Fară panouri"
+
+msgid "game/playersPanelState/short"
+msgstr "Panou minimimal"
+
+msgid "game/postmortemMode"
+msgstr "Modul Postmortem"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Afișează momentul în care vehiculul tău a fost distrus (în detaliu)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Afișează vehiculul inamic care ți-a distrus vehiculul"
+
+msgid "game/postmortemMode/self"
+msgstr "Afișează vehiculul propriu"
+
+msgid "game/postmortemMode/simple"
+msgstr "Afișează momentul în care vehiculul tău a fost distrus (pe scurt)"
+
+msgid "game/ppShowLevels"
+msgstr "Afişează generaţia tancului"
+
+msgid "game/ppShowTypes"
+msgstr "Afişează tipul vehiculului"
+
+msgid "game/ppStartStateLabel"
+msgstr "Tip"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Activează camera comandantului"
+
+msgid "game/replayEnabled"
+msgstr "Activează înregistrarea luptei"
+
+msgid "game/replayEnabled/all"
+msgstr "Toate"
+
+msgid "game/replayEnabled/last"
+msgstr "Ultima"
+
+msgid "game/replayEnabled/none"
+msgstr "Nu"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Afișare a zonei în care vor lovi artileriile"
+
+msgid "game/showDamageIcon"
+msgstr "Afișează notificări când nu provoci daune"
+
+msgid "game/showDogTag"
+msgstr "Afișează plăcuța de identificare"
+
+msgid "game/showDogTagToKiller"
+msgstr "Afișează Plăcuța de identificare personalizată"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Afişează informaţii despre vehiculul distrus"
+
+msgid "game/showKillersDogTag"
+msgstr "Afișează Plăcuța de identificare a jucătorului care te-a distrus"
+
+msgid "game/showLanguageBar"
+msgstr "Afişează panoul de selecţie a limbii"
+
+msgid "game/showMarksOnGun"
+msgstr "Afişează însemnele de excelenţă"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Afișează Plăcuța de identificare animată"
+
+msgid "game/showSectorOnMap"
+msgstr "Afişează sectorul de tir pentru artilerie"
+
+msgid "game/showVectorOnMap"
+msgstr "Afișează raza de direcție a camerei"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Activează funcțiile extinse ale mini-hărții"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Când apeşi tasta Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Întotdeauna"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Niciodată"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Afișează HP-ul vehiculelor pe minihartă"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Când apeşi tasta Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Întotdeauna"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Niciodată"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Afișează HP-ul vehiculelor în panourile echipelor"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Când apeşi tasta Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Întotdeauna"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Niciodată"
+
+msgid "game/showVehicleIcon"
+msgstr "Afişează pictograma tancului"
+
+msgid "game/showVehicleLevel"
+msgstr "Afişează generaţia tancului"
+
+msgid "game/showVehiclesCounter"
+msgstr "Afişează indicatoarele vehiculelor în tabelul de scor"
+
+msgid "game/showVictimsDogTag"
+msgstr "Afișează plăcuțele inamicilor distruși"
+
+msgid "game/sniperModeByShift"
+msgstr "Restricționează activarea modulului Lunetist la tasta Shift"
+
+msgid "game/sniperZoom"
+msgstr "Nivelul de mărire preferat în modul țintă"
+
+msgid "game/sniperZoom/double"
+msgstr "2x"
+
+msgid "game/sniperZoom/octuple"
+msgstr "8x"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "4x"
+
+msgid "game/sniperZoom/remember"
+msgstr "Ultimul folosit"
+
+msgid "game/switchEquipment"
+msgstr "Schimbarea configurației pe ecranul de încărcare"
+
+msgid "game/w2gtEnable"
+msgstr "Activează zonele de luptă pe minihartă"
+
+msgid "gameTitle"
+msgstr "General"
+
+msgid "gameplay/devMaps"
+msgstr "Joacă pe hărți cu evenimente aleatorii"
+
+msgid "gameplay/nations"
+msgstr "Confruntare"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Configurează"
+
+msgid "gammaWizard/apply"
+msgstr "Aplică"
+
+msgid "gammaWizard/cancel"
+msgstr "Anulare"
+
+msgid "gammaWizard/closeBtn"
+msgstr "ÎNCHIDE"
+
+msgid "gammaWizard/default"
+msgstr "Standard"
+
+msgid "gammaWizard/description"
+msgstr "Miscă indicatorul până fundalul și sigla au aceeași luminozitate. Închide parțial ochii sau stai mai departe de monitor, pentru a reduce detaliile imaginii."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Setări gamma"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Permite setarea luminozității jocului, pentru atingerea unei calități optimea imaginii de pe ecran. \nAceastă opțiune vrea să compenseze \nefectele produse de driverele și \nsetările plăcii video care reduc calitatea vizuală a jocului."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Grafică"
+
+msgid "graphics/block/effects"
+msgstr "Efecte"
+
+msgid "graphics/block/greenery"
+msgstr "Vegetație"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Teren și apă"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Lumină și post-procesare"
+
+msgid "graphics/block/main"
+msgstr "Principal"
+
+msgid "graphics/tabAdvanced"
+msgstr "Detalii"
+
+msgid "graphics/tabScreen"
+msgstr "Ecran"
+
+msgid "graphicsQuality"
+msgstr "Calitatea graficii"
+
+msgid "graphicsQuality/description"
+msgstr "Stabileşte calitatea generală a imaginii. Controlează parametrii din secţiunea \"Detalii\".\n\nReducerea calităţii grafice poate:\n• îmbunătăţi performanţa grafică.\n• desincronizări în afişarea peisajului între server şi client.\n\nUtilizează calitatea minimă a graficii doar în cazul în care computerul are performanţe reduse."
+
+msgid "graphicsQualityHDSD"
+msgstr "Tipuri client"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "Clientul HD instalat"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Standard (SD) Client instalat"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Clientul standard - jocul complet fără texturi de calitate maximă.\n\nClientul HD - jocul complet, inclusiv texturi de calitate maximă. necesită mai mult spaţiu pe hard disk decât clientul standard."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Tipuri client"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "Client HD - joc complet care include texturi de calitate maximă. Cere mai mult spațiu pe hard-disc față de clientul standard.\n\nClient Standard (SD) - joc complet fără texturile de calitate maximă."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Calitatea grafică maximă (SD) și Ultra (SD) nu furnizează valoarea maximă a parametrului Calitate texturi. Pentru a afișa la calitate grafică maximă, treci la Clientul HD în lansatorul jocului."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anisotropic 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anisotropic 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anisotropic 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anisotropic 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Bilinear"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Personalizat"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "Film anii '40"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Contrast"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Îmbunătăţită"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Departe"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Standard"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Mare"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Mică"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Foarte mică"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maximă"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maximă (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Medie"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimă"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Dezactivat"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Aproape"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "Nu"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "Nu"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "Da"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Simplificată"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Îmbunătăţită"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Point"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotocromatic"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Aleatoriu"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Standard"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Saturat"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Culori calde"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilinear"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Foarte mare"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Foarte mare"
+
+msgid "igbHardwareAcceleration"
+msgstr "Accelerarea hardware a browser-ului"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "La activarea acestei setări, conținutul web este afișat utilizând placa video în locul procesorului.\n\nDezactiveaz-o dacă ai probleme la afișarea de conținut al anumitor ferestre.\n\nModificarea va fi aplicată după restartarea jocului."
+
+msgid "interfaceScale"
+msgstr "Scalare interfață"
+
+msgid "interfaceScale/attention"
+msgstr "Facilitate în teste,\nnu influențează randamentul jocului."
+
+msgid "interfaceScale/body"
+msgstr "Scalare automată a elementelor de interfață\nla maximizarea ecranului/ferestrei jocului."
+
+msgid "interfaceScale/description"
+msgstr "Scalare automată a elementelor de interfață la maximizarea ecranului/ferestrei jocului."
+
+msgid "interfaceScale/header"
+msgstr "Scalare interfață"
+
+msgid "interfaceScale/warning"
+msgstr "Facilitate în teste, nu influențează randamentul jocului."
+
+msgid "interfaceScaleDisabled"
+msgstr "Scalare interfață"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Disponibilă doar pentru monitoare 4K."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Scalare automată a elementelor de interfață\nla maximizarea ecranului/ferestrei jocului."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Scalare automată a elementelor de interfață la maximizarea ecranului/ferestrei jocului."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Scalare interfață"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Disponibilă doar pentru monitoare 4K."
+
+msgid "isColorBlind"
+msgstr "Setare daltonism"
+
+msgid "isColorBlind/description"
+msgstr "Se adaptează paleta de culori pentru persoanele cu daltonism."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Inversare la mers înapoi"
+
+msgid "keyboard/keyboard"
+msgstr "Tastatură"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Recepționat!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Reticul special"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Blochează carena / Schimbă modul"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Înapoi"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Înapoi"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Frână de mână\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Jos"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Stânga"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Dreapta"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Sus"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Trage o salvă"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Retragerea!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Foc"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Înainte"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Înainte"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Abandonează vehiculul (în Front)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Ajutor!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Indică poziția"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Indică ținta activă"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Consumabil 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Consumabil 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Consumabil 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Consumabil 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Consumabil 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Consumabil 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Consumabil 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Consumabil 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Consumabil 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Consumabil 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Stânga"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Auto-ochire"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Dezactivare sistem auto-ochire"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Negativ!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Apasă şi vorbeşte"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Reîncărcare casete proiectile"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Reîncarc!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Dreapta"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Ascundere interfaţă de luptă"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Activarea rezervelor personale"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Progres în misiunile personale"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Afișează meniul de comenzi / confirmă comanda"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Micşorează"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Măreşte"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Abilitate specială"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Stai şi trage"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Mulțumesc!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Întrerupătorul indicatorului de blindaj"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Vedere traiectorie"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Alege semnal sonor"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Ascunde/Afişează"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Activează/dezactivează chat-ul de voce în plutoane dinamice"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Camera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Control automat al vitezei"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Consumabile"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Foc"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Mini-harta"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Deplasare"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Mesaje"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Comunicarea în echipă"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Alte"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Chat voce"
+
+msgid "keyboard/mouse"
+msgstr "Mouse"
+
+msgid "keyboardTitle"
+msgstr "Funcţii taste"
+
+msgid "limitedUI/desc"
+msgstr "Apariția graduală a elementelor de interfață ascunse în Garaj"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Dezactivează"
+
+msgid "marker/AllyTitle"
+msgstr "Aliați"
+
+msgid "marker/DeadTitle"
+msgstr "Vehicule distruse"
+
+msgid "marker/EnemyTitle"
+msgstr "Inamici"
+
+msgid "marker/aimMarker2D"
+msgstr "Indicator auto-ochire"
+
+msgid "marker/alt"
+msgstr "Alternativ"
+
+msgid "marker/base"
+msgstr "Standard"
+
+msgid "marker/damage"
+msgstr "Daune primite"
+
+msgid "marker/dead"
+msgstr "Vizibil şi pt. vehicule distruse"
+
+msgid "marker/hp"
+msgstr "Integritate (HP)"
+
+msgid "marker/hp/type0"
+msgstr "Procent %"
+
+msgid "marker/hp/type1"
+msgstr "Integritate rămasă/totală"
+
+msgid "marker/hp/type2"
+msgstr "Integritate rămasă"
+
+msgid "marker/hp/type3"
+msgstr "Nu se afişează"
+
+msgid "marker/hpIndicator"
+msgstr "Indicator de integritate"
+
+msgid "marker/icon"
+msgstr "Pictogramă vehicul"
+
+msgid "marker/level"
+msgstr "Generație"
+
+msgid "marker/level/tooltip/body"
+msgstr "Când setarea e activată, generația va fi afișată deasupra vehiculului.\n\nÎn Vânătorul de Oțel, nivelul actual al îmbunătățirii va fi afișat."
+
+msgid "marker/level/tooltip/header"
+msgstr "Generație"
+
+msgid "marker/name"
+msgstr "Numele vehiculului"
+
+msgid "marker/name/type2"
+msgstr "Inactiv"
+
+msgid "marker/nickname"
+msgstr "Numele jucătorului"
+
+msgid "markerTitle"
+msgstr "Marcator"
+
+msgid "minimap/labels/alpha"
+msgstr "Transparenţă mini-hartă"
+
+msgid "minimap/labels/size"
+msgstr "Mărime maximă"
+
+msgid "monitor"
+msgstr "Monitor"
+
+msgid "monitor/description"
+msgstr "Stabileşte monitorul primar pentru joc."
+
+msgid "mouse/sensitivity/art"
+msgstr "Vedere artilerie"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Vedere traiectorie"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Camera liberă"
+
+msgid "mouse/sensitivity/header"
+msgstr "Sensibilitate"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Inversare pe orizontală"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Inversare pe verticală"
+
+msgid "mouse/sensitivity/main"
+msgstr "Vedere arcade"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Vedere lunetist"
+
+msgid "mouse/startDist"
+msgstr "Poziţia camerei"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Elemente sunet ambiental"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Sunet al activării \"Al Şaselea Simţ\""
+
+msgid "otherTitle"
+msgstr "Alții"
+
+msgid "physicsQuality"
+msgstr "Calitatea fizicii sunetului"
+
+msgid "refreshRate"
+msgstr "Frecvenţa de refresh"
+
+msgid "refreshRate/default"
+msgstr "Standard"
+
+msgid "refreshRate/description"
+msgstr "Stabileşte frecvenţa de refresh pentru monitor în joc.\n\nO valoare nepotrivită cu cea nativă a monitorului poate produce un efect de clipire a ecranului.\n\nNu influenţează performanţa grafică."
+
+msgid "resolution"
+msgstr "Rezoluţia ecranului"
+
+msgid "resolution/description"
+msgstr "Rezoluţia orizontală şi verticală a ecranului. O rezoluţie mai mare îmbunătăţeşte calitatea imaginii. O valoare nepotrivită cu cea nativă a monitorului poate duce la distorsiuni de imagine.\n\nCreşterea valorii acestui parametru încarcă placa video şi poate reduce performanţa grafică.\n\nÎncărcarea plăcii video poate fi redusă prin modificarea rezoluţiei de renderizare 3D."
+
+msgid "restartNewbieBattleHints"
+msgstr "Resetează sfaturile pentru începători"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Resetează istoria sfaturilor pentru începători pentru a primi sfaturi care au fost deja afișate."
+
+msgid "screenMode"
+msgstr "Mod de joc"
+
+msgid "screenMode/borderless"
+msgstr "În fereastra (fără margini)"
+
+msgid "screenMode/description"
+msgstr "Schimbă între modurile de joc în ecran complet, fereastră și fereastră (fără margini). Modul de joc în fereastră va scădea performanțele jocului."
+
+msgid "screenMode/fullscreen"
+msgstr "Ecran complet"
+
+msgid "screenMode/label"
+msgstr "Mod:"
+
+msgid "screenMode/windowed"
+msgstr "Fereastră"
+
+msgid "smoothing/description"
+msgstr "Stabileşte nivelul de procesare suplimentară a liniilor subţiri şi a contururilor obiectelor. Micşorează efectul de aliasing. Contururile obiectelor arată mai firesc."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Standard"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Sunet utilizator"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Varianta 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Varianta 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Sunet utilizator"
+
+msgid "sound/dynamicRange/label"
+msgstr "Rază dinamică"
+
+msgid "sound/fieldset/header"
+msgstr "Sonor"
+
+msgid "sound/players_notifications"
+msgstr "Avertizări de la alţi jucători"
+
+msgid "sound/presets/title"
+msgstr "Preset-uri"
+
+msgid "sound/soundModes/U01"
+msgstr "Personalizat 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Personalizat 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Personalizat 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Personalizat 4"
+
+msgid "sound/soundModes/default"
+msgstr "Standard"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Comandant"
+
+msgid "sound/special/field/set"
+msgstr "Volumul evenimentului din joc"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Actualizare dispozitive"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Opreşte testul"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Porneşte testul"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Volum ambiental în chat"
+
+msgid "sound/vivox/master_volume"
+msgstr "Volum voice chat"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Sensibilitatea microfonului"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Test Vivox"
+
+msgid "soundTitle"
+msgstr "Sonor"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Selectare automată"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "Sistem 2.0/2.1"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "Sistem 5.1"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "Sistem 7.1"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "Căști"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Central"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Stânga"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Stânga spate"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Stânga față"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Stânga lateral"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Dreapta"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Dreapta spate"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Dreapta față"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Dreapta lateral"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Subwoofer"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "laptop"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Test sunet:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Test sunet"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Mesajele vocale depind de națiune vehicului și de sexul comandantului"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Comandant"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Voce masculină în limba clientului de joc"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Standard"
+
+msgid "sounds/ambient"
+msgstr "Ambient"
+
+msgid "sounds/arena"
+msgstr "Muzică în luptă"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Detecția sonoră"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Selectează una din versiunile sunetului de activare al Detecției sonore. Pentru a folosi propriul sunet, redenumeşte fişierul tău .mp3 ca soundExploring şi mută-l în subdirectorul res/audioww."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Sunet activare Detecție sonoră"
+
+msgid "sounds/bassBoost"
+msgstr "Îmbunătăţire frecvenţe joase"
+
+msgid "sounds/bassBoost/description"
+msgstr "Îmbunătăţeşte frecvenţele joase din joc, păstrând neschimbat volumul principal. rezultatele acestui mod diferă în funcţie de sistemul audio selectat (difuzoare, căşti sau laptop)."
+
+msgid "sounds/bulbVoices"
+msgstr "Al Şaselea Simţ"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Selectează una din versiunile sunetului de activare al celui de al Şaselea Simţ. Pentru a folosi propriul sunet, redenumeşte fişierul tău .mp3 ca sixthSense şi mută-l în subdirectorul res/audioww."
+
+msgid "sounds/effects"
+msgstr "Efecte"
+
+msgid "sounds/gui"
+msgstr "Interfaţă"
+
+msgid "sounds/hangar"
+msgstr "Muzica în garaj"
+
+msgid "sounds/masterVolume"
+msgstr "Volum principal"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Activează sunetul"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Dezactivarea efectelor sonore din joc poate îmbunătăţi performanţa generală a jocului. Va trebui să restartezi clientul jocului pentru a aplica modificările."
+
+msgid "sounds/nightMode"
+msgstr "Mod de noapte"
+
+msgid "sounds/nightMode/description"
+msgstr "Egalizează diferenţele de volum, reduce sunetele ascuţite şi minimizează frecvenţele joase în joc, oferind un sunet uşor şi comfortabil pentru jocurile târzii în noapte."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Activarea acestei caracteristici poate afecta performanța."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Controlează calitatea fizicii sunetului.\n\nSimulează propagarea sunetului în jurul obstacolelor și traversarea diverselor tipuri de teren.\n\nUtilizează geometria hărții pentru a genera reflexii din obiectele apropiate ale sunetului tancurilor.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Calitatea fizicii sunetului"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Dezactivată"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Mare"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Mică"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Medie"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Recomandată"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Determină calitatea optimă a fizicii sunetului, pentru calculatorul tău.\n\nAcest lucru poate dura puțin timp."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Recomandată"
+
+msgid "sounds/sixthSense/body"
+msgstr "Sunet personalizat. Mută fișierul sixthSense.mp3 în dosarul res/audioww."
+
+msgid "sounds/sixthSense/header"
+msgstr "Personalizat"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "Sunet 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Ajustează sunetul din joc pentru pereche de difuzoare externe (2.0) sau pereche de difuzoare de înalte + un difuzor de frecvenţe joase (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "Sunet 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "Sistem 5.1"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Ajustează poziționarea sunetului din joc pe boxele externe și subwoofer într-un sistem multi-canal 5.1."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "Sistem 5.1"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "Sistem 7.1"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Ajustează poziționarea sunetului din joc pe boxele externe și subwoofer într-un sistem multi-canal 7.1."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "Sistem 7.1"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Selectare automată"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Determină automat setările configurației audio, conform specificațiilor sistemului de operare."
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Selectare automată"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Căşti"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Ajustează sunetul din joc pentru căşti."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Căşti"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Laptop"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Foloseşte principiul de poziţionare pentru sistemul de sunet 2.0/2.1 dar ajustează sunetele din joc pentru a rula pe difuzoare mici de laptop la calitate maximă."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Laptop"
+
+msgid "sounds/soundQuality"
+msgstr "Calitate joasă"
+
+msgid "sounds/soundQuality/description"
+msgstr "Reducerea calității sunetului poate îmbunătăți performanța jocului pe computerele slabe. Activarea acestui mod reduce semnificativ numărul de sunete procesate simultan."
+
+msgid "sounds/speakers/back/body"
+msgstr "Test sunet pe boxele dreapta/stânga spate."
+
+msgid "sounds/speakers/back/header"
+msgstr "Boxe dreapta/stânga spate"
+
+msgid "sounds/speakers/center/body"
+msgstr "Test sunet pe boxa centrală."
+
+msgid "sounds/speakers/center/header"
+msgstr "Boxa centrală"
+
+msgid "sounds/speakers/front/body"
+msgstr "Test sunet pe boxele dreapta/stânga față."
+
+msgid "sounds/speakers/front/header"
+msgstr "Boxe dreapta/stânga față"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "Într-un sistem 2.0/2.1, un subwoofer este un echipament opțional. Nu poate fi testat fără boxe."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Subwoofer opțional"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Test sunet pe boxele dreapta/stânga laterale."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Boxe dreapta/stânga laterale"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Test sunet pe boxele dreapta/stânga."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Boxe dreapta/stânga"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Test sunet pe subwoofer."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Subwoofer"
+
+msgid "sounds/subtitles"
+msgstr "Subtitrări"
+
+msgid "sounds/tabCommon"
+msgstr "Sunet principal"
+
+msgid "sounds/tabSpecial"
+msgstr "Eveniment în joc"
+
+msgid "sounds/tabVivox"
+msgstr "Chat voce"
+
+msgid "sounds/vehicles"
+msgstr "Vehicule"
+
+msgid "sounds/voiceNotification"
+msgstr "Notificări vocale"
+
+msgid "title"
+msgstr "Setări"
+
+msgid "tripleBuffered"
+msgstr "Triple buffering"
+
+msgid "tripleBuffered/description"
+msgstr "Reduce efectul de franjurare a imaginii (disponibil doar când sincronizarea verticală este activă)."
+
+msgid "vertSync"
+msgstr "Sincronizare verticală"
+
+msgid "vertSync/Off"
+msgstr "Nu."
+
+msgid "vertSync/On"
+msgstr "Da."
+
+msgid "vertSync/description"
+msgstr "Sincronizează cadrele generate de placa video cu frecvenţa de refresh a monitorului.\n\n60 de cadre pe secundă este o valoare limită. Se utilizează în cazul când apare un efect de tremurare a imaginii sau o întârziere a laturii de jos a imaginii în raport cu latura de sus."
+
+msgid "voice_chat/PTT"
+msgstr "Apasă şi vorbeşte"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Sonor"
+
+msgid "voice_chat/header/common"
+msgstr "General"
+
+msgid "voice_chat/header/microphone"
+msgstr "Microfon"
+
+msgid "voice_chat/header/speakers"
+msgstr "Căști"
+
+msgid "voice_chat/microphone"
+msgstr "Microfon"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Microfon"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Activează microfonul"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Activează voice chat-ul"
+
+msgid "windowSize"
+msgstr "Dimensiunea ferestrei"
+
+msgid "windowSize/description"
+msgstr "Rezoluţia orizontală şi verticală a ecranului jocului în mod fereastră. Trecerea în mod ecran complet schimbă această setare în \"Rezoluţia ecranului\"."
+
+msgid "windowTitle"
+msgstr "W.o.T. Client"

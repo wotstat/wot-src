@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Takımı <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Topçu Saldırısı"
+
+msgid "attackReason/artillery_sector"
+msgstr "Topçu Saldırısı"
+
+msgid "attackReason/bombers"
+msgstr "Hava Saldırısı"
+
+msgid "battleCommunication/hint/description"
+msgstr "tuşuna basın"
+
+msgid "battleCommunication/hint/press"
+msgstr "Bir yer belirtmek veya işaret koymak için"
+
+msgid "battleEndWarning/text"
+msgstr "Savaş sonuna:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Bu oyuncudan yazılı ve sesli mesajlar bu savaşta gizlenecek."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Oyuncudan Mesajları Engelle"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Kara listeye alınmış bir oyuncudan mesajlar engellendi."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "İşlem Yapılamıyor"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Bu oyuncudan yazılı ve sesli mesajlar \ntekrar alınabilecek."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Oyuncudan Mesajlara Engeli Kaldır"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Savaş bölgesi verileri alınırken teknik sorun oluştu."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Bu araç için savaş bölgesi verileri bu haritada mevcut değil."
+
+msgid "battleProgress/hint/description"
+msgstr "kişisel görevleri görmek için"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Ana tuşlar atanmadı"
+
+msgid "battleProgress/hint/press"
+msgstr "Basın"
+
+msgid "battle_notifier/lose"
+msgstr "Yenilgi!"
+
+msgid "battle_notifier/tie"
+msgstr "Beraberlik!"
+
+msgid "battle_notifier/win"
+msgstr "Zafer!"
+
+msgid "bot/boss"
+msgstr "Boss"
+
+msgid "bot/elite"
+msgstr "Elit"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "HASAR UYARISI"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "MOTOR HASAR ALDI"
+
+msgid "chat_example/affirmative"
+msgstr "Olumlu!"
+
+msgid "chat_example/attack_enemy"
+msgstr "<Enemy Name> üzerine ateş edin!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "<Enemy Name>'ne Saldırıyorum!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Üssü ele geçirin!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Üssü savunun!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "<Miniharitada Sektör>'e Dikkat!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Konuma dikkat!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Hedefleri yok edin"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Tanklarınızı koruyun!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Alanı ele geçirin"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Hedefleri savunun"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Tanklarınızı koruyun!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Alanları savunun"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Alanı güçlendirin"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Alanı güçlendirin"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Alanı güçlendirin"
+
+msgid "chat_example/going_there"
+msgstr "Buraya gidiyorum!"
+
+msgid "chat_example/help_me"
+msgstr "Yardım edin!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Müttefik İsmi>, imdat!"
+
+msgid "chat_example/negative"
+msgstr "Olumsuz!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Top aşırı ısındı! <Reload Time> sn. boyunca ateş edemez"
+
+msgid "chat_example/positive"
+msgstr "Olumlu!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "<Yükleme Süresi> sn. sonra ateşe hazır; şarjördeki mermi sayısı: <Mermi Sayısı> adet."
+
+msgid "chat_example/reloading_gun"
+msgstr "Yükleniyor! <Yükleme Süresi> sn. kaldı!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Ateşe hazır!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Ateşe hazır! Magazindeki mermi sayısı: <Mermi Sayısı> adet."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Cephane boş."
+
+msgid "chat_example/spg_aim_area"
+msgstr "<Mini Haritada Sektöre> Nişan Alıyorum!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, ben yardım ederim!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, teşekkür ederim!"
+
+msgid "chat_example/turn_back"
+msgstr "<Müttefik İsmi>, geri çekil!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Olumlu!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "%(target)s üzerine ateş edin!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Ateşe hazır! %(target)s hedefine saldırıyorum!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Cephanelik boş! %(target)s hedefine ateş edin!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "%(target)s hedefine saldırıyorum! Yüklüyorum, %(reloadTime)d sn. kaldı!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Ben üssü ele geçireceğim!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "%(strArg1)s üssünü ele geçiriyorum!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "%(target)s hedefine saldırıyorum!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Üssü ele geçirin!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "%(strArg1)s üssünü ele geçirin!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Üssü savunun!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "%(strArg1)s üssünü savunun!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "%(cellName)s Hücresine Dikkat!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "%(int32Arg1)s hedefini yok edin"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "%(int32Arg1)s hedefine saldırıyorum!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "%(int32Arg1)s hedefini savunun"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "%(int32Arg1)s hedefini savunuyorum!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Konuma dikkat!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "%(gridId)s bölgesine dikkat"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Ben üssü koruyacağım!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "%(strArg1)s üssünü savunuyorum!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Hedefleri yok edin!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Yeterli vaktimiz var, tanklarınızı koruyun!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Vaktimiz kalmadı, elinizdeki her şey ile bir alanı ele geçirin!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Hedefleri savunun!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Dayanmamız gerekli, tanklarınızı koruyun!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Vakit kalmadı, her ne pahasına olursa olsun alanları savunun!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "%(strArg1)s alanının yardıma ihtiyacı var, güçlendirin!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "%(strArg1)s alanının yardıma ihtiyacı var, güçlendirin!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "%(strArg1)s alanının yardıma ihtiyacı var, güçlendirin!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Konuma gidiyorum!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "%(gridId)s bölgesine gidiyorum"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Yardım edin!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, imdat!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Hedefe git: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Hedefe gidiyorum: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Olumsuz!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Top aşırı ısındı! %(floatArg1)d sn. boyunca ateş edemez"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, olumlu!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "%(floatArg1)d sn. içinde ateş etmeye hazır; Magazindeki mermi: %(int32Arg1)s adet."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Yüklüyor! %(floatArg1)d sn. kaldı!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Ateşe hazır!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Ateşe hazır! Magazindeki mermi: %(int32Arg1)s adet."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Cephane boş."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Konuma hedef alıyorum. Ateş etmeye hazırım!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "%(gridId)s gözetleniyor! Cephanelik boş!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "%(gridId)s bölgesine nişan alıyorum. Ateşe hazırım!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Konuma hedef alıyorum! Yüklüyorum, %(reloadTime)d sn. kaldı!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "%(gridId)s bölgesine nişan alıyorum. Yüklüyorum, %(reloadTime)d sn. kaldı!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, sana yardım edeceğim!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, teşekkür ederim!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, geri dön!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Ayarlara Git"
+
+msgid "commanderCam/hint/description"
+msgstr "Taktik Bakışa geçmek için uzaklaşın"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Soğuma: %(cooldownSeconds)s sn"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Sarf malzemesi yuvası"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/sa"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Komutan yaralandı. Teknik nitelikler düştü."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Komutan"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Sürücü yaralandı. Hareket ve gövde dönüş hızları düştü."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Sürücü"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Nişancı yaralandı. İsabetlilik düştü."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Nişancı"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Nişancı 2 yaralandı. İsabetlilik düştü."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Silahçı"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Yükleyici yaralandı. Yükleme hızı düştü."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Yükleyici"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Yükleyici 2 yaralandı. Yükleme hızı düştü."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Yükleyici 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Telsiz operatörü yaralandı. Sinyal mesafesi düştü."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Telsiz Operatörü"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Telsiz operatörü 2 yaralandı. Sinyal mesafesi düştü."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Telsiz Operatörü 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Cephanelik hasar gördü. Yükleme hızı düştü."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Cephanelik patladı."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Cephanelik sağlam."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Süspansiyon hasar gördü."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Hareket edilemiyor: süspansiyon imha edildi."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Süspansiyon sağlam."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Motor hasar gördü. Güç azaldı."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Hareket edilemiyor: motor imha edildi."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Motor sağlam."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Benzin deposu hasar gördü."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Benzin deposu imha edildi."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Benzin deposu sağlam."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Top hasar gördü. İsabet oranı azaldı."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Top imha edildi. Ateş edilemiyor."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Top sağlam."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Telsiz hasar gördü."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Telsiz imha edildi. Sinyal mesafesi düştü."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Telsiz sağlam."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Gözetleme aygıtı hasar gördü."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Gözetleme aygıtı yok edildi. Görüş mesafesi düştü."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Gözetleme Cihazı sağlam."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Süspansiyon hasar gördü."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Hareket edilemiyor: süspansiyon imha edildi."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Süspansiyon sağlam."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Kule hasar gördü. Dönüş hızı azaldı."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Dönülemiyor: kule imha edildi."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Kule sağlam."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Süspansiyon hasar gördü."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Hareket edilemiyor: süspansiyon yok edildi."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Süspansiyon sağlam."
+
+msgid "danger_zone/indicator"
+msgstr "Aracınız yok edilebilir - Tehlike bölgesini terk edin!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Yola devam..."
+
+msgid "devMaps/hint/description"
+msgstr "harita özelliklerine bakabilirsiniz"
+
+msgid "devMaps/hint/press"
+msgstr "Şu tuşa basarak:"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Bu haritada rastgele olaylar gerçekleşebilir. Bu tür haritaları oyunun ayarlarından kapatabilirsiniz."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Rastgele Olaylı Harita"
+
+msgid "devices/ammo_bay"
+msgstr "Cephanelik"
+
+msgid "devices/chassis"
+msgstr "Süspansiyon"
+
+msgid "devices/engine"
+msgstr "Motor"
+
+msgid "devices/fuel_tank"
+msgstr "Benzin Deposu"
+
+msgid "devices/gun"
+msgstr "Top"
+
+msgid "devices/left_track"
+msgstr "Sol Palet"
+
+msgid "devices/radio"
+msgstr "Telsiz"
+
+msgid "devices/right_track"
+msgstr "Sağ Palet"
+
+msgid "devices/surveing_device"
+msgstr "Gözetleme Cihazı"
+
+msgid "devices/track"
+msgstr "%(type)s Palet"
+
+msgid "devices/track/left"
+msgstr "Sol"
+
+msgid "devices/track/main"
+msgstr "Yedek"
+
+msgid "devices/track/outer"
+msgstr "Ana"
+
+msgid "devices/track/right"
+msgstr "Sağ"
+
+msgid "devices/turret_rotator"
+msgstr "Kule Dönüşü"
+
+msgid "devices/wheel"
+msgstr "Tekerlek"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Oyuncuyu Takıma katılmaya davet etmek için tıklayın.\nOyuncu davetinizi savaş sırasında veya savaş bittikten sonra kabul edebilir.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nDikkat! Gerçek rumuzunuz ve klan etiketiniz Takım üyelerine gösterilecek."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nDikkat! Gerçek rumuzunuz Takım üyelerine gösterilecek."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "O müttefik Takıma katılmaya davet edilemiyor."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Takıma katılma davetini kabul etmek için tıklayın.\nTakım savaş sırasında oluşturulacaktır."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "Oyuncuya bir davetiye gönderildi.\nKabu ederlerse Takımınıza savaş sırasında veya savaş bittikten sonra katılacaklar."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Oyuncuyu Takıma katılmaya davet etmek için tıklayın.\nOyuncu davetinizi savaş sırasında veya savaş bittikten sonra kabul edebilir.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Düşman, Takıma katılmaya davet edilemiyor."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Takıma katılma davetini kabul etmek için tıklayın.\nTakım ancak savaş bittikten sonra oluşturulacaktır."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "Oyuncuya bir davetiye gönderildi.\nKabu ederlerse Takımınıza savaş bittikten sonra katılacaklar."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Şu tuşa basarak:"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "sesli sohbeti açın"
+
+msgid "dynamicSquad/invite"
+msgstr "Takıma katılma daveti"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Hava Saldırısıyla Hasar"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Topçu Saldırısıyla Hasar"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Ana Hedefle Hasar"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Engellenen Hasar"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Savaş Yedeği İle Yardım"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Tespit Sayesinde Hasar"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Şokunuzdan sonra hasar"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Yok Edilen Palet"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Kudurma tarafından hasar"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Rol Deneyimi"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Yangın Çıkarma"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Düşman Üssünü Ele Geçirme"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Kritik hasar"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Verilen Hasar"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Zırhlı salvosu hasarı"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "USS Frankford hasarı"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Mayın tarafından hasar"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Savaş Alanı Robotunun verdiği hasar"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Asit Mermisinin verdiği hasar"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Ateş Çemberinin verdiği hasar"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Elektrik Boşalımının verdiği hasar"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Bölgeden Alınan Hasar"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Azaltılan İşgal Puanı"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Alan savunma"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Hasar verme"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Hedef yok etme"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Hedef savunma"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Alan ele geçirme"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Yangın alanından hasar"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Araç onarıldı"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Yok Etme"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Mayın tarlası hasarı"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Çarpma"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Yangında hasar"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Savaş Alanı Robotunun verdiği hasar"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Asit Mermisinin verdiği hasar"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Ateş Çemberinin verdiği hasar"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Mayın tarafından hasar"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Asidik Sis tarafından hasar"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Elektrik Boşalımının verdiği hasar"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Kritik hasar"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Atış Sonucu Hasar"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Alev Topu tarafından hasar"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Çarpma sonucu hasar"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Çarpışma sonucu hasar"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Alev Topu tarafından hasar"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Tespit Etme"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "İmha Alanından Hasar"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Şok"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Araç terk etme"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Darbe Sonucu Hasar"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Kar fırtınası"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Yangın"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Sis"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Şiddetli yağmur"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Kum fırtınası"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Duman"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Kasırga"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Ekip panellerini gizle"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Panelsiz"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Kipler arasında geçiş yapmak için Ctrl+Tab'e basın)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Oyuncuların adlarını, yok edilen hedefleri ve araç simgelerini göster"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Orta Panel 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Kipler arasında geçiş yapmak için Ctrl+Tab'e basın)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Bir oyuncu tarafından yok edilen araçları, oyuncunun aracının adını ve simgesini göster."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Orta Panel 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Kipler arasında geçiş yapmak için Ctrl+Tab'e basın)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Yok edilen hedefleri ve araç simgelerini göster"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Kısa Panel"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Kipler arasında geçiş yapmak için Ctrl+Tab'e basın)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Kendinizinkini veya her üç doğuş grubunu görme arasında geçiş yapın."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Sütunları Aç/Kapa"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Kipler arasında geçiş yapmak için Ctrl+Tab'e basın)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Bayrağı yok ettiniz!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Bayrak ele geçirildi!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Bayrak teslim edildi."
+
+msgid "flagNotification/flagInbase"
+msgstr "Bayrağı Karargaha teslim edin."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "YÜKLENİYOR..."
+
+msgid "grille/status/speedlimit"
+msgstr "HIZ SINIRI"
+
+msgid "helpScreen/hint/description"
+msgstr "araç niteliklerini incelemeye"
+
+msgid "helpScreen/hint/press"
+msgstr "Basın"
+
+msgid "helpScreen/mapbox/description"
+msgstr "harita özelliklerine bakabilirsiniz"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Şu tuşa basarak:"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "Kuşatma/<font color='#F4B12C'><b>Korugan</b></font> modunu aktive edin"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "Kuşatma/<font color='#F4B12C'><b>Seyir</b></font> modunu aktive edin"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "Seyir/<font color='#F4B12C'><b>Korugan</b></font> modunu aktive edin"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Mod değiştirme tuşu atanmadı"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Şu tuşa basarak/<font color='#F4B12C'><b>Basılı tutarak</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Ana tuşlar atanmadı"
+
+msgid "hitMarker/blocked"
+msgstr "Zırh delinmedi"
+
+msgid "hitMarker/critical"
+msgstr "Kritik hasar"
+
+msgid "hitMarker/missArmor"
+msgstr "Zırh isabet almadı"
+
+msgid "hitMarker/ricochet"
+msgstr "Sekme"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Kalkan delinmedi"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Palet delinmedi"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Tekerlek delinmedi"
+
+msgid "levelProgress/maxLevel"
+msgstr "MAKSİMUM ARAÇ SEVİYESİ"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Cephanelik patlaması %(device)s donanımı sayesinde önlendi"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Motorun yok edilmesi %(device)s donanımı sayesinde önlendi"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Yangın çıkması %(device)s donanımı sayesinde önlendi"
+
+msgid "penetration/high"
+msgstr "Yüksek"
+
+msgid "penetration/low"
+msgstr "Düşük"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "İkincil Koşul:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Ana koşul:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Bu savaş kipi için hiç aktif görev yok."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Bu araç türü için hiç aktif görev yok."
+
+msgid "personal_reserves/hint/description"
+msgstr "uşuna basın"
+
+msgid "personal_reserves/hint/press"
+msgstr "Kişisel Yedekleri etkinleştirmek için"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Hareket edilemiyor: süspansiyon hasar gördü."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Hareket edilemiyor: mürettebat etkin değil."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Hareket edilemiyor: motor hasar gördü."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Hareketsiz: Araç yok edildi."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Atış yapamıyor: mürettebat etkin değil."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Atış yapamıyor: top hasar gördü."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Ateş Edilemiyor."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Ateş edilemiyor: Top aşırı ısındı."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Top yükleniyor."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Yükleme tamamlanıyor."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Atış yapamıyor: top mermisi bitti."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Atış yapamıyor: tank imha edildi."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Geçiş yapılamıyor: motor yok edildi."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Değiştirme mümkün değil: Top imha edildi"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Değiştirme mümkün değil: Sadece bir mermi kaldı"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] zaten aktif."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "Sarf malzemesi [%(name)s] aktiv değil: yangın yok."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] soğuma sırasında devre dışı."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Tıbbi yardım gerekli değil: yaralı mürettebat üyesi yok."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] tıbbi yardıma ihtiyaç duymuyor."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Yedek henüz hazır değil."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Taktik Beceriyi etkinleştirmek için %(name)s noktasını ele geçirin."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Parçalar ve Komutan tam can puanına sahip. Herhangi bir tamir veya tedavi gerekmiyor."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Tamirata gerek yok: bütün cihazlar çalışıyor."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] kullanılabilir durumda, tamir gerekmiyor."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Eş eksenli silah etkinleştirilemiyor."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Dost tankı vurdunuz %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] kullanıma hazır."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Topçu bataryası konuşlandırıldı ve ateşe hazır."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Uçaklar gelişte ve bombalamaya hazır."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Mürettebatımız etraflarındaki diğerlerini teşvik etmeye hazır."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Mayın tarlası döşenmeye hazır."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Uçak geliyor ve tespit etmeye hazır."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Sahra Onarımları kullanıma hazır."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Sis bataryası konuşlandı ve ateşe hazır."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Nöbetçi kullanıma hazır."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "%(player)s'ın topçu bataryası ateş ediyor."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "%(player)s adlı oyuncunun bombardıman uçakları yolda."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s Canlanma Alanı oluşturuyor."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s Teşvik etkinleştirdi."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s bir Mayın Tarlası döşedi."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s oyuncusunun Keşif Uçuşu yolda."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s Sahra Onarımları kullandı."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s Sis Perdesi kurdu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s Nöbetçiyi etkinleştirir."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s Topçu Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s Topçu Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s Topçu Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s Topçu Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s Topçu Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s Topçu Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Araç topçu ateşi tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s Topçu Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s Topçu Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s Hava Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s Hava Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Müttefik %(target)s, müttefik %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(target)s %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Araç müttefik %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Müttefik %(target)s Alan tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(target)s %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Düşman %(target)s düşman %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Araç %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s Alan tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Müttefik %(target)s yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Araç yok edildi."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "[%(device)s] cihazı ateş alarak patladı."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "%(device)s cihazı, %(entity)s vuruşu ile imha oldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Müttefik %(target)s müttefik %(attacker)s tarafından boğuldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(target)s %(attacker)s tarafından boğuldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Araç müttefik %(attacker)s tarafından boğuldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Müttefik %(target)s boğuldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(target)s %(attacker)s tarafından boğuldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Düşman %(target)s düşman %(attacker)s tarafından boğuldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Araç %(attacker)s tarafından boğuldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Düşman %(target)s boğuldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Müttefik %(target)s boğuldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s boğuldu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Araç boğuldu."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Müttefik %(target)s, müttefik %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(target)s %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Araç müttefik %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(target)s %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Düşman %(target)s düşman %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Araç %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Müttefik %(target)s yok edildi."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s yok edildi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Mürettebat etkin değil."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "%(entity)s atışı mürettebatı yok etti."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Müttefik %(target)s mürettebatı müttefik %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(target)s mürettebatı %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Mürettebat müttefik %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Müttefik %(target)s mürettebatını yok etti."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(target)s mürettebatı %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Düşman %(target)s mürettebatı düşman %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Mürettebat %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Düşman %(target)s mürettebatını yok etti."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Müttefik %(target)s mürettebatı yok edildi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s mürettebatı yok edildi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Mürettebat yok edildi."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Müttefik %(target)s mayın tarlası tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s yok edildi."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s mayınlarla %(target)s hedefini yok etti."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s mayınlarla %(target)s hedefini yok etti."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s mayınlar tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Müttefik %(attacker)s müttefik %(target)s aracını ters çevirdi"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s %(target)s aracını ters çevirdi"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Araç müttefik %(attacker)s tarafından ters çevrildi"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Müttefik %(target)s araçlarını ters çevirdi"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s %(target)s aracını ters çevirdi"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Düşman %(attacker)s düşman %(target)s aracını ters çevirdi"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Araç %(attacker)s tarafından ters çevrildi ve yok edildi"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Düşman %(target)s araçlarını ters çevirdi"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Müttefik %(target)s ters çevrildi"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s ters çevrildi"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Araç ters çevrildi ve yok edildi"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Müttefik %(target)s müttefik %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(target)s %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Araç müttefik %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Müttefik %(target)s düşerek yok oldu."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(target)s %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Düşman %(target)s düşman %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Araç %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Düşman %(target)s düşerek yok oldu."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Müttefik %(target)s yok edildi."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s yok edildi."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Araç yok edildi."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s aracını terk etti."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s aracını terk etti."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Araç bölge bombardımanı sırasında yok edildi."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s alan bombardımanı sırasında yok edildi."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s alan bombardımanı sırasında yok edildi."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Araç topçu ateşi tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s Topçu Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s Topçu Saldırısı ile yok edildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Müttefik %(attacker)s %(target)s'i yok etti."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Müttefik %(attacker)s %(target)s'i topçu saldırısı ile yok etti."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Müttefik %(attacker)s %(target)s'i bombardıman ile yok etti."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(target)s %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s Topçu Saldırısıyla %(target)s hedefini yok etti."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s Hava Saldırısıyla %(target)s hedefini yok etti."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(target)s %(attacker)s tarafından yok edildi (Ateş Desteği)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(target)s %(attacker)s tarafından yok edildi (Topçu Saldırısı)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Müttefik %(target)s savaşta kaybedildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Müttefik %(target)s topçu saldırısı sonucunda savaşta kaybedildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Müttefik %(target)s bombardıman sonucunda savaşta kaybedildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(target)s %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s Topçu Saldırısıyla %(target)s hedefini yok etti."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s Hava Saldırısıyla %(target)s hedefini yok etti."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(target)s %(attacker)s tarafından yok edildi (Ateş Desteği)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(target)s %(attacker)s tarafından yok edildi (Topçu Saldırısı)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Düşman %(target)s düşman %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Düşman %(attacker)s düşman %(target)s'i topçu saldırısı ile yok etti."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Düşman %(attacker)s düşman %(target)s'i bombardıman ile yok etti."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Düşman %(target)s savaşta kaybedildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Düşman %(target)s topçu saldırısı sonucunda savaşta kaybedildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Düşman %(target)s bombardıman sonucunda savaşta kaybedildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Müttefik %(target)s yok edildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Müttefik %(target)s topçu saldırısı tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Müttefik %(target)s bombardıman sonucu yok edildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s yok edildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s topçu saldırısı tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s Hava Saldırısıyla yok edildi."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s yok edildi"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s yok edildi"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Düşman (Bilinmeyen) %(target)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Müttefik %(target)s İmha Alanı tarafından yok edildi."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Müttefik %(attacker)s müttefik %(target)s'i düşürdü."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s %(target)s'i düşürdü."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Araç müttefik %(attacker)s tarafından düşürüldü."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Müttefik %(target)s düşerek yok oldu."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s %(target)s'i düşürdü."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Düşman %(target)s düşman %(attacker)s tarafından düşürüldü."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Araç düşman %(attacker)s tarafından düşürüldü."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Düşman %(target)s düşerek yok oldu."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Müttefik %(target)s düşerek yok oldu."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s düşerek yok oldu."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Araç düştü."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s %(target)s hedefini yok etti."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s %(target)s hedefini yok etti."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "%(target)s hedefini yok ettiniz."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "[%(device)s] cihazı ateş alarak hasar gördü."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "[%(device)s], %(entity)s vuruşu ile hasar gördü."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "[%(device)s] cihazı ateş alarak imha oldu."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "[%(device)s] %(entity)s tarafından imha edildi."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "[%(device)s] cihazı tamir edildi."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "[%(device)s] cihazı kullanılabilir durumda."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "[%(device)s] cihazı, %(entity)s vuruşu sonucu alev aldı."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "[%(device)s] cihazı bir takviye sebebiyle hasar gördü."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "[%(device)s] cihazı hız regülatörünün çıkarılması sonucu hasar gördü."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "[%(device)s] cihazı bir takviye sebebiyle yok edildi."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "[%(device)s] cihazı hız regülatörünün çıkarılması sonucu imha oldu."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Yangın söndü."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "%(entity)s vuruşu sonucu [%(device)s] yaralandı."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] tekrar faal."
+
+msgid "player_messages/allied_team_name"
+msgstr "Bizim Ekibimiz"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Dost üs%s ele geçirme (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Dost üs%s ele geçirildi!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Üs işgali engellendi"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Üs%s ele geçirme (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Üs%s ele geçirildi!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Düşman üssü%s ele geçirme (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Düşman üssü%s ele geçirildi!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Düşman Ekibi"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Müttefikiniz %(name)s %(equipment)s Taktik Becerisini kullandı"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Düşman %(equipment)s Taktik Becerisini kullandı"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Oyuncu %(name)s (%(type)s); Sağlık: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Oyuncu: %(name)s; Dayanıklılık: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Aracınız (%(type)s) yok edildi"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Atış yapılamıyor: Mühimmat yok."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Oynatma kumandaları:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "SFT: kamera çeşitleri arasında değiştir\nBoşluk: durdur"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Sol ok: 20 saniye geriye sar (Ctrl ile birlikte: 40 saniye)\nSağ ok: 20 saniye ileri sar (Ctrl ile birlikte: 40 saniye)\nHome/End: başa/sona atla\nYukarı ok/Aşağı ok: +/- oynatma hızı"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Serbest kamera aktive edildi"
+
+msgid "player_messages/replayPaused"
+msgstr "Durdur"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Sabit kamera aktive edildi"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Oynatma hızı: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Tank yanıyor!"
+
+msgid "players_panel/state/large/body"
+msgstr "Oyuncu' isimleri, imha edilen hedeflerin ve araç isimleri ve ikonlarını göster"
+
+msgid "players_panel/state/large/header"
+msgstr "Bütün Panel"
+
+msgid "players_panel/state/large/note"
+msgstr "(Büyüklüğünü değistirmek için Ctrl + Tab 'a basın)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Oyuncu' isimleri, imha edilen hedeflerin ve araçların ikonlarını göster"
+
+msgid "players_panel/state/medium/header"
+msgstr "Orta Panel"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Büyüklüğünü değistirmek için Ctrl + Tab 'a basın)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Oyuncunun adını, aracının simgesini ve imha ettiği araçları gösterir."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Ortam 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Büyüklüğünü değistirmek için Ctrl + Tab 'a basın)"
+
+msgid "players_panel/state/none/body"
+msgstr "Ekip panellerini sakla"
+
+msgid "players_panel/state/none/header"
+msgstr "Panel Yok"
+
+msgid "players_panel/state/none/note"
+msgstr "(Büyüklüğünü değistirmek için Ctrl + Tab 'a basın)"
+
+msgid "players_panel/state/short/body"
+msgstr "İmha edilen hedeflerin ve araçların ikonlarını göster"
+
+msgid "players_panel/state/short/header"
+msgstr "Kısa Panel"
+
+msgid "players_panel/state/short/note"
+msgstr "(Büyüklüğünü değistirmek için Ctrl + Tab 'a basın)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Düşman"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Garaja geri dön."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Savaşa başka bir araçla girin."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "BOŞLUK"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Serbest Kamera"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Serbest kamerayı etkinleştir."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Serbest Kamera Devre Dışı"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Bu kipte serbest kamera etkinleştirilemiyor."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "İzleyici Kipi"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Müttefik araçlar arasında geçiş yapın."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Aracı Takip Et"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Müttefik bir aracı takip etmek için imleci üzerine getirip sol tıklayın."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Araç ana hedef tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Araç, topçu ateşi tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Araç ana hedef tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Araç Hava Saldırısı tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Araç Yağmacı tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Araç, Savaş Alanı Robotu tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Araç, Asit Mermisi tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Araç ölüm bölgesinde müttefik tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Araç ölüm bölgesinde yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Tehlike alanından çıkamadınız"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "[%(device)s] parçası yanarak yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "[%(device)s] parçası oyuncu ateşi sonucu patladı"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Araç müttefik tarafından boğuldu"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Araç boğuldu"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Araç boğuldu"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Araç oyuncu tarafından yakıldı"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Araç, Ateş Çemberi tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Mürettebat oyuncu ateşi sonucu devre dışı kaldı"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Mürettebat bir müttefik araç ile sert çarpışma sonucu devre dışı kaldı"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Mürettebat sert çarpışma sonucu devre dışı kaldı"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Mürettebat sert çarpışma sonucu devre dışı kaldı"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Araç, Alev Topu tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Araç mayın tarlasında yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Araç mayınlar tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Araç müttefik tarafından ters çevrildi"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Araç düşman tarafından ters çevrildi"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Araç ters çevrilme sonucu yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Araç müttefikin çarpması sonucu yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Araç çarpma sonucu yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Araç çarpma sonucu yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Aracınız yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Araç, bölge bombardımanı sırasında yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Araç, topçu ateşi tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Araç oyuncu ateşi sonucu yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Araç Hava Saldırısı tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Araç Hava Saldırısı tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Araç, topçu saldırısı sonucu yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Araç Hava Saldırısı tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Araç imha alanı tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Araç, Elektrik Boşalımı tarafından yok edildi."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Araç müttefik tarafından düşürüldü"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Araç düşman tarafından düşürüldü"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Araç düştü"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Aracınız yok edildi"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "Seçili yapılandırma savaşta kullanılacak:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Geri sayım bitmeden savaşta kullanılacak bir yapılandırma seçin."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Bir Yapılandırma Seçin"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Yapılandırma seçimi: {seconds} sn."
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Yapılandırma seçimi:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Yarıntı"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Gözetleme"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Orman"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Patika"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Sokak"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Harabeler"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Köprü"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Demir Yolu"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Şehir"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Köy"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Meydan"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Fabrika"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Tepe"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Fener"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Orta"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Kale"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Yel Değirmeni"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Dağlar"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "A Yolu"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "B Yolu"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "C Yolu"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "D Yolu"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "E Yolu"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Vadi"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Buzul"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Yan Geçit"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Tepeler"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Yol"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Dağ"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Korugan"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Cadde"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Duvar"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Kayalar"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Atölyeler"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Tarla"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garaj"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Kömür"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Gemiler"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Uçak Gemisi"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Siperler"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Yılankavi"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Kuzey"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Güney"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Batı"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Doğu"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Bayır"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Zeplin"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Ambarlar"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Sahil"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Nehir"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Göl"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Bataklık"
+
+msgid "quickReply/hint/press"
+msgstr "şu tuşa basın:"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "Onaylamak için"
+
+msgid "quickReply/hint/toCommend"
+msgstr "siz de takdir edin"
+
+msgid "quickReply/hint/toHelp"
+msgstr "Destek vermek için"
+
+msgid "quickReply/hint/toThank"
+msgstr "teşekkür edin"
+
+msgid "recovery/cooldown"
+msgstr "Araç %(cooldown)s saniye içinde terk edilebilir"
+
+msgid "recovery/hint1"
+msgstr "Aracı terk etmek için"
+
+msgid "recovery/hint2"
+msgstr "basılı tutun"
+
+msgid "repairPoint/title"
+msgstr "Onarımlar"
+
+msgid "repairPoint/unavailable"
+msgstr "Devre Dışı"
+
+msgid "respawnView/additionalTip"
+msgstr "Devam etmek için bir araç seçin. Eğer tüm araçlar onarımdaysa savaşa ilk kullanılabilir araçla devam edeceksiniz."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Devam etmek için bir araç seçin. Yok edilen araç savaş sona ermeden onarılamaz."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Cephe sınırına\nulaşıldı"
+
+msgid "respawnView/cooldownLbl"
+msgstr "Onarım altında %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Yok edildi"
+
+msgid "respawnView/disabledLbl"
+msgstr "Araç kullanılamıyor"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Uygun araç seçili değil"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Seviye X araç grupta değil."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Savaş devam ediyor "
+
+msgid "respawnView/title"
+msgstr "Araç Seçin"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "Anlaşıldı!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "World of Tanks'in evrimine katılımınız için teşekkür ederiz! Kişisel katkılarınıza çok değer veriyoruz!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Takdir Belgesi"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Ödüllendirildiniz!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Tebrikler!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Olumlu!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Alınan ödüller"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Tebrikler"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Alınan ödüller"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Bakım Paketi India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Ödüller Alındı"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Bakım Paketi Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Kutulara Git"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Değerli ödüller içeren büyük kutular aldınız."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Kutular aldınız!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Görevleri tamamlama karşılığında değerli ödüller içeren Küçük Kutular aldınız."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Kutuda ne olduğunu görme zamanı!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Olumlu!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Kredi birikimi donduruldu. Kredi Yedeğinizi doldurmaya devam etmek için WoT Premium Hesabı uzatın."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Kredi alındı"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Kredi Yedeği açık"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Tebrikler!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "OLUMLU!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Tebrikler, Prime Gaming ile birlikte özel bir ikmal paketi aldınız. Şimdi savaş alanında iyi değerlendirin."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Bakım Paketi Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Ödüllendirildiniz!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "HEMEN ALIN!"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Tebrikler, Prime Gaming ile birlikte özel bir üyel aldınız."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Bakım Paketi Alfa"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Ödüllendirildiniz!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "OLUMLU!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Bakım Paketi Savaş Kartı"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "OLUMLU!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Bakım Paketi Kozmik"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "OLUMLU!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Bakım Paketi Yıldızlı Gece"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Daha Fazla"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Bakım Paketi Haziran"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Bakım Paketi Temmuz"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Daha Fazla"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Bakım Paketi Onluk"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Starlight Paketi"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Queen Maeve Paketi"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Ökse Otu Dalı Koleksiyonu"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Daha Fazla"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Büyük Voli Koleksiyonu"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "OLUMLU!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Bakım Paketi Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Ödüllendirildiniz!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "\"G.I. JOE: Duke\" Paketi"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "\"G.I. JOE: Cobra\" Paketi"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Daha Fazla"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Ortalığı Sallayın! Paketi"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Sessiz Avcı Paketi"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Daha Fazla"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Yeni Görünüm Paketi"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Daha Fazla"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Yaz Enerjisi Paketi"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Yüksek Voltaj Paketi"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Daha Fazla"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Cidden Ürkütücü Paketi"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Aramızdaki Vikingler"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Daha Fazla"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Yeni Bir Başlangıç Paketi"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Bakım Paketi Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Ödüller Alındı"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Daha Fazla"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Synth Dalgaları"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Silahşör"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Prime Gaming aboneliği karşılığında özgün bir ödül aldınız"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-Kamuflaj"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Savaşa Hazır"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Bastır Tazılar!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Hançer"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Prime Gaming aboneliği karşılığında özgün bir ödül aldınız"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Büyücülük"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Cadılar Meclisi"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Yanlış Muhite Geldin"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Sıkıysa Isır!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Prime Gaming aboneliği karşılığında özgün bir ödül aldınız"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Başlangıç Düdüğü"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Kazandıran Gol"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Kült İsim"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Prime Gaming programı için özgün bir ödül aldınız"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Şenlik Kıyafeti"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Cazip Hediye"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Ağır Hediye"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Çifte Kutlama"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Ödülleri Seçin"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Prime Gaming aboneliği karşılığında özgün bir ödül aldınız"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Yeni Dünya"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Biyonik Göz"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Bir Siborgun Anatomisi"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Tespit Edildiniz"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Bakım Paketi Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Ödüller Alındı"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Bakım Paketi Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Ödüller Alındı"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Bakım Paketi Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Ödüller Alındı"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Bakım Paketi Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Bakım Paketi Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Üye Al"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Tebrikler! Prime Gaming ile özel bir ikmal aldınız. Şimdi en iyi şekilde faydalanın!"
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Bakım Paketi Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Alınan Ödüller"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Tamam!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Klan üyeleriniz Seferberlik Görevinde ilerlemek için\ndaha fazla katılımınıza güveniyor."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "İkramiye Alındı!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Seferberlik Görevine Git"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Seferberlik Görevi"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Tamam!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Klan üyeleriniz Seferberlik Görevinde ilerlemek için\ndaha fazla katılımınıza güveniyor."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Ödül Alındı!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Seferberlik Görevine Git"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Seferberlik Görevi"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Tebrikler!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Takımımız"
+
+msgid "scorePanel/playerScore"
+msgstr "Katkınız:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Takım %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm Zırh Delici %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm Sert Başlıklı Zırh Delici %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm Yüksek Patlayıcılı Zırh Delici %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm Yüksek Patlayıcı %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm YP Tanksavar %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Ortalama hasar: %(value)s CP"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Saniye Başına Hasar: %(value)s CP/sn."
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Hasar yarıçapı: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Tam / Tek Barut Hakkı"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Ortalama delme gücü: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Mermi hızı: %(value)s m/sn."
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Şok süresi: %(minValue)s - %(maxValue)s sn."
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "Kuşatma moduna geçmek için"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "Seyir moduna geçmek için"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Ana tuşlar atanmadı"
+
+msgid "siegeMode/hint/press"
+msgstr "Basın"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "Sıvı Yakıt Takviyeleri etkinleştirmek için"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "tuşuna basarak jet takviyesini etkinleştirin"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "Ardışık İtici Roketler etkinleştirmeye"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Düşman araçlarını vurarak Lazer Hedef Belirleyiciden ek etki sağlayın"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr ", motor kiplerini değiştirmek için"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "atış modunu değiştirmek için"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "hareket kipini değiştirmeye"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "Turboşarj Takviyesini etkinleştirmek için"
+
+msgid "spotted/indicator"
+msgstr "Tespit edilmiş kalma süresi ve alınan hasar artırıldı"
+
+msgid "spotted/seconds"
+msgstr "sn."
+
+msgid "statistics/exit"
+msgstr "Garaja dönmek için Esc tuşuna basın..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "İmha edilen: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Ele geçirilen üs: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Hasar gören:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Hedef isabeti: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Alınan isabet sayısı: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Üs savunması: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "İmha edilen:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(ölümden sonra)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Atışlar: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Tespit edilen:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Bütün müttefik araçlar imha edildi."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Bütün araçlar yok edildi!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Bütün düşman araçları imha edildi."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Üs ele geçirildi!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Savaş süresi sona erdi!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Kredi:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Deneyim:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Deneyim (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Tamirler:"
+
+msgid "statistics/final/status/lose"
+msgstr "Yenilgi! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Berabere! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Zafer! %s"
+
+msgid "statistics/header"
+msgstr "Savaş İstatistikleri"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Oyuncu"
+
+msgid "statistics/headers/header2"
+msgstr "Araçlar"
+
+msgid "statistics/headers/header3"
+msgstr "Durum"
+
+msgid "statistics/headers/header4"
+msgstr "Yok Edildi"
+
+msgid "statistics/playerState/0"
+msgstr "İmha edilen"
+
+msgid "statistics/playerState/1"
+msgstr "Savaş dışı"
+
+msgid "statistics/playerState/2"
+msgstr "İmha edilen"
+
+msgid "statistics/playerState/3"
+msgstr "Savaşta"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Bileşim"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Ekip bileşimi"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Kişisel Yedekler"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Kişisel Yedekler Aktivasyonu"
+
+msgid "statistics/tab/quests/header"
+msgstr "Görevler"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Kişisel görevler bu savaş kipinde yapılamamaktadır"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Bir görev seçmek için Garajdaki Harekât sekmesine gidin"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Bu araç için hiç aktif göreviniz yok"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Ana Koşullar Karşılandı"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Tüm görevler tamamlandı"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Aktif"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Sonuç İyileştirmesi"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Duraksatıldı"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Görevlerin gelişiminin gösterimi yapılamıyor"
+
+msgid "statistics/tabs/group"
+msgstr "Ekip Başarımları"
+
+msgid "statistics/tabs/heroes"
+msgstr "Savaş Kahramanları"
+
+msgid "statistics/tabs/personal"
+msgstr "Kişisel Başarılar"
+
+msgid "statistics/team1title"
+msgstr "Bizim Ekibimiz"
+
+msgid "statistics/team2title"
+msgstr "Düşman Ekibi"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "İmha alanını\nterk edin!"
+
+msgid "stun/indicator"
+msgstr "Mürettebat şokta"
+
+msgid "stun/seconds"
+msgstr "sn."
+
+msgid "tabStatsHint"
+msgstr "— İstatistikler"
+
+msgid "tankmen/commander"
+msgstr "Komutan"
+
+msgid "tankmen/driver"
+msgstr "Sürücü"
+
+msgid "tankmen/gunner"
+msgstr "Nişancı"
+
+msgid "tankmen/loader"
+msgstr "Yükleyici"
+
+msgid "tankmen/radioman"
+msgstr "Telsiz Operatörü"
+
+msgid "timer/battlePeriod"
+msgstr "Savaş sonuna:"
+
+msgid "timer/started"
+msgstr "Savaş başlıyor!"
+
+msgid "timer/starting"
+msgstr "Savaş başlıyor:"
+
+msgid "timer/waiting"
+msgstr "Oyuncular bekleniyor..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Basın"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "Nişan alma kipini değiştirmek için"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Ana tuşlar atanmadı"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Araç müttefik %(entity)s tarafından ölüm bölgesinde yok edildi."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Araç %(entity)s tarafından ölüm bölgesinde yok edildi."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Araç tehlike alanı tarafından yok edildi."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Araç müttefik %(entity)s tarafından boğuldu."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Araç %(entity)s tarafından boğuldu."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Araç boğuldu."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Tank yanarak imha oldu."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Araç müttefik %(entity)s tarafından yok edildi."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Araç %(entity)s tarafından yok edildi."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Mürettebat müttefik %(entity)s'in çarpması sonucu yok edildi."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Mürettebat %(entity)s'in çarpması sonucu yok edildi."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Mürettebat çarpışma sonucu savaş dışı."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Araç müttefik %(entity)s tarafından ters çevrildi"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Araç düşman %(entity)s tarafından ters çevrildi"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Araç ters çevrilme sonucu yok edildi"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Müttefik %(entity)s aracı çarparak yok etti."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s aracı çarparak yok etti."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Araç çarpma sonucu yok edildi."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Araç, %(entity)s vuruşu ile imha oldu."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s topçu saldırısı sonucu aracı yok etti."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s bombardıman sonucu aracı yok etti."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Araç müttefik %(entity)s tarafından çarpma sonucu yok edildi."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Araç düşman %(entity)s tarafından çarpma sonucu yok edildi."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Araç düştü."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Müttefik %(entity)s çarparak [%(device)s] parçasına hasar verdi."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Müttefik %(entity)s çarparak [%(device)s] parçasına hasar verdi."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] parçası çarpma sonucu hasar gördü."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Düşman %(entity)s çarparak [%(device)s] parçasına hasar verdi."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Düşman %(entity)s çarparak [%(device)s] parçasına hasar verdi."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] parçası çarpma sonucu hasar gördü."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Müttefik %(entity)s'in çarpması [%(device)s] parçasına hasar verdi."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Müttefik %(entity)s'in çarpması [%(device)s] parçasına hasar verdi."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Cihaz [%(device)s] çarpma sonucu hasar gördü."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Düşman %(entity)s'in çarpması [%(device)s] parçasına hasar verdi."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Düşman %(entity)s'in çarpması [%(device)s] parçasına hasar verdi."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Cihaz [%(device)s] çarpma sonucu hasar gördü."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Cihaz [%(device)s] mayın tarlasında yok edildi."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Cihaz [%(device)s] mayın tarlasında yok edildi."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Müttefik %(entity)s çarparak [%(device)s] parçasını yok etti."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Müttefik %(entity)s çarparak [%(device)s] parçasını yok etti."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] parçası çarpma sonucu yok edildi."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Düşman %(entity)s çarparak [%(device)s] parçasını yok etti."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Düşman %(entity)s çarparak [%(device)s] parçasını yok etti."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] parçası çarpma sonucu yok edildi."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Müttefik %(entity)s çarpması [%(device)s] parçasını yok etti."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Müttefik %(entity)s çarpması [%(device)s] parçasını yok etti."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] parçası çarpma sonucu yok edildi."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Düşman %(entity)s çarpması [%(device)s] parçasını yok etti."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Düşman %(entity)s çarpması [%(device)s] parçasını yok etti."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] parçası çarpma sonucu yok edildi."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "[%(device)s] parçası müttefik %(entity)s çarpması sonucu alev aldı."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "[%(device)s] parçası müttefik %(entity)s çarpması sonucu alev aldı."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] parçası çarpma sonucu alev aldı."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "[%(device)s] parçası düşman %(entity)s çarpması sonucu alev aldı."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "[%(device)s] parçası düşman %(entity)s çarpması sonucu alev aldı."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] parçası çarpma sonucu alev aldı."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] müttefik %(entity)s çarpması sonucu yaralandı."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] müttefik %(entity)s çarpması sonucu yaralandı."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] çarpma sonucu yaralandı."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] düşman %(entity)s çarpması sonucu yaralandı."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] düşman %(entity)s çarpması sonucu yaralandı."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] çarpma sonucu yaralandı."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "%(equipment)s Taktik Becerisi etkinleştirildi!"
+
+msgid "warning_zone/indicator"
+msgstr "Dikkat! Tehlike bölgesi yakınındasınız."

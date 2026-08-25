@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Skift server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaljer"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Kamptypen er utilgængelig på denne server %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Kamptypen er utilgængelig på alle servere"
+
+msgid "alertMessage/modeOffline"
+msgstr "Databasefejl. Kamptype utilgængelig."
+
+msgid "alertMessage/noVehicles"
+msgstr "Ingen passende køretøjer i din garage %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Bekræftet!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "ONSLAUGHT LIGHT"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ENDELIGT STADIE FULDFØRT!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "STADIE %(level)s FULDFØRT!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Alle missioner fuldført!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Fuldført"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Udløber om: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Onslaught Light-mission"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Ny Onslaught Light-mission om: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Belønning:"
+msgstr[1] "Belønninger:"
+msgstr[2] "Belønninger:"
+
+msgid "battleResult/header/deserter"
+msgstr "Du har modtaget en straf"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "ONSLAUGHT LIGHT-FREMSKRIDT"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Onslaught Light vil vare i %(days)d dag"
+msgstr[1] "Onslaught Light vil vare i %(days)d dage"
+msgstr[2] "Onslaught Light vil vare i %(days)d dage"
+
+msgid "calendarDay/title"
+msgstr "Tidsplan"
+
+msgid "closeButtonLabel"
+msgstr "LUK"
+
+msgid "countDown/text"
+msgstr "Event starter om:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "En hurtig kamptype med 7v7-kampe i niveau %(levels)s køretøjer. Nyd spillestilen fra den almindelige Onslaught-kamptype uden kvalifikation. range eller tjenesteblade, og optjen belønninger i daglige missioner."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "TYPE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Kamptype. Klik for at udforske"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Onslaught Light"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Kamptypen er tilgængelig i %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Våbenhvile%(timer)s"
+
+msgid "featureName"
+msgstr "Onslaught Light"
+
+msgid "featureNameCapitalized"
+msgstr "ONSLAUGHT LIGHT"
+
+msgid "intro/confirmButton"
+msgstr "Bekræftet!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Nyd spillestilen fra den almindelige Onslaught-kamptype uden kvalifikation, rangering eller tjenesteblade."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Kamptypen har modifikationer, der ændrer visse parametre på køretøjet, som dets hp, cooldown på forbrugsvarer, tid det forbliver opdaget og mere."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Når du erobrer visse områder af kortet, kan du benytte taktiske evner. Der er to typer af vigtige positioner: Artillerihovedkvarteret vil give dig mulighed for at beordre artilleribeskydning på en bestemt position, og kommunikationscentret vil opdage alle fjendtlige køretøjer. Afhængig af kortet, kan forekomsten og placeringen af disse vigtige positioner ændre sig."
+
+msgid "intro/description/roleSkills"
+msgstr "Afhængig af rollen har hvert køretøj en særlig evne med tre ladningsniveauer. Jo højere ladningsniveau, når evnen aktiveres, jo stærkere vil effekten være. Ladningsniveauet vil afhænge af antallet af prestigepoint, som kan optjenes ved imponerende præstationer i kamp; erobring af vigtige positioner, brug af taktiske evner etc.\n\nLæs kamptype-reglerne for at lære mere om de forskellige måder du kan optjene prestigepoint på."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Kun niveau %(levels)s køretøjer kan bruges i kamptypen (SPG'er og visse andre kampvogne er ikke tilgængelige). Klargør dine køretøjer i garagen, og vælg derefter det bedste, baseret på egenskaberne for det givne kort, når du kommer i kamp. Når du vælger køretøj, skal du også overveje, hvilke køretøjer dine allierede har valgt."
+
+msgid "intro/title/lightGameplay"
+msgstr "TAG DET ROLIGT, KOMMANDØR"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ONSLAUGHT-MODIFIKATIONER"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "VIGTIGE POSITIONER"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLLE-EVNER"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VÆLG ET KØRETØJ TIL ET SPECIFIKT KORT"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Sejr"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Nederlag/uafgjort"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Godt arbejde, kommandør, bare bliv ved!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Fuldfør missioner og nå topplaceringer i Onslaught Light-kampe for at øge dit fremskridtsniveau."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Antal fremskridtspoint du optjener afhænger af din placering i kamp efter prestigepoint."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Kamptypen slutter om %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Primært fremskridt fuldført"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Onslaught Light"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Top 2 efter prestigepoint"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Top 5 efter prestigepoint"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Top 7 efter prestigepoint"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Brug WoT premium konto"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktiver personlige reserver"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Fuldfør missioner"
+
+msgid "noVehicles/howTo/title"
+msgstr "Hvad er den hurtigste måde at nå niveau %(levels)s køretøjer?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "For at deltage i Onslaught Light, skal du have mindst ét niveau %(levels)s køretøj i garagen, der passer til kamptypen.\nDu kan købe premium niveau %(levels)s køretøjer i teknologitræet eller i in-game butikken."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "For at deltage i Onslaught Light, skal du have mindst ét niveau %(levels)s køretøj i garagen, der passer til kamptypen.\nDu har et niveau %(levels)s køretøj tilgængelig til genopretning."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "For at deltage i Onslaught Light, skal du have mindst ét niveau %(levels)s køretøj i garagen, der passer til kamptypen."
+
+msgid "noVehicles/title"
+msgstr "Ingen passende køretøjer i din garage"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Se Om Onslaught Light-siden for detaljer."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestigepoint"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Uddeling af skade\nObserveringsassistance\nØdelæggelse af bælter\nUddeling af kritiske træffere\nØdelæggelse af fjendtlige køretøjer\nOg mere"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Prestigepoint kan optjenes ved at udføre kamphandlinger, herunder:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Sæson er slut på %(server)s-serveren."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sæson er slut på %(server)s-serveren."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Sæson er slut på %(server)s-serveren."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Primært fremskridt fuldført!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Stadie %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s eller %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nye missioner om:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Event slutter om:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Missioner vil opdateres om"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Alle daglige missioner fuldført."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Fremskridt fuldført. Deltag i Onslaught Light for at optjene flere belønninger."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Fuldfør missioner og indtag topplaceringer i Onslaught Light-\nkampe for at øge dit fremskridtsniveau. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Tildelt for at fuldføre særlige missioner og deltage i kampe i Onslaught Light. De lader dig avancere i fremskridtet."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Onslaught Light fremskridtspoint"
+
+msgid "selectorTooltip/desc"
+msgstr "Urangeret kamptype. 7v7 | Niveau %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Onslaught Light"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Følg de seneste nyheder på spilportalen for at holde dig opdateret om starten af den nye sæson."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Denne kamptype er midlertidigt utilgængelig af tekniske årsager."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Denne kamptype bliver tilgængelig %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Fremskridtspoint modtaget"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Onslaught Light"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Belønninger modtaget:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Du har fuldført fremskridtsstadie %(stage)s i %(progressionName)s-kamptypen."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Tillykke!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Våbenhvile aktiv. Onslaught Light-kampe er midlertidigt utilgængelige."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Våbenhvile"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Våbenhvile slut. Onslaught Light-kampe er tilgængelige igen."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Våbenhvile"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Om Onslaught Light"

@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Activer"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Acheter et activer"
+
+msgid "activation/activateBonus"
+msgstr "Activer la Réserve : %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Activer la Réserve"
+
+msgid "activation/activateButtonClan"
+msgstr "Vers le Bastion"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonus à l'EXP. de bataille pendant 1 h"
+
+msgid "activation/battleXPTitle"
+msgstr "EXP. de bataille"
+
+msgid "activation/bonus"
+msgstr "+%(bonus) %"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Acheter et activer la Réserve personnelle améliorée octroyant %(boosterBonus)s %(boosterTerm)s  ?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Acheter des pièces d'or"
+
+msgid "activation/buyGoldTitle"
+msgstr "Acheter les pièces d'or nécessaires pour des Réserves personnelles améliorées octroyant %(boosterBonus)s %(boosterTerm)s ?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Pièces d'or nécessaires pour acheter la Réserve personnelle améliorée :{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Crédits et EXP. de bataille"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "EXP. d'équipage et EXP. libre"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Réserves du clan"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Activer la Réserve en Bastion"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Voir dans le Bastion"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonus à l'EXP. libre et l'EXP. d'équipage pendant 1 h"
+
+msgid "activation/comboXPTitle"
+msgstr "EXP. libre+équipage"
+
+msgid "activation/creditsDescription"
+msgstr "Bonus aux crédits pendant 1 h"
+
+msgid "activation/creditsTitle"
+msgstr "Crédits"
+
+msgid "activation/footer"
+msgstr "Les Réserves expirables doivent être activées : %(expirableAmount) d'ici %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonus à l'EXP. de Ligne de front pendant 1 h"
+
+msgid "activation/frontLineXPTitle"
+msgstr "EXP. de Ligne de front"
+
+msgid "activation/informationButton"
+msgstr "INFORMATIONS"
+
+msgid "activation/price"
+msgstr "Prix :"
+
+msgid "activation/subFooter/depot"
+msgstr "Dépôt"
+
+msgid "activation/subFooter/main"
+msgstr "Les Réserves sur le point d'expirer s'activent en premier. Vous pouvez voir toutes vos Réserves disponibles dans le %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Activez {whiteSpanish_Open}jusqu'à 3 Réserves personnelles{whiteSpanish_Close} pour gagner davantage de crédits et d'EXP. en bataille. Achetez d'autres Réserves personnelles dans le %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Magasin"
+
+msgid "activation/terms/booster_credits"
+msgstr "aux crédits"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "à l'EXP. de Ligne de front"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "à l'EXP. libre+équipage"
+
+msgid "activation/terms/booster_xp"
+msgstr "à l'EXP. de bataille"
+
+msgid "activation/title"
+msgstr "RÉSERVES PERSONNELLES"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}La Réserve personnelle standard active qui octroie %(previousBoosterBonus)s %(previousBoosterTerm)s sera perdue.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Souhaitez-vous activer la Réserve personnelle améliorée qui octroie %(boosterBonus)s %(boosterTerm)s à la place de la Réserve personnelle standard active ?"
+
+msgid "battleView/notice"
+msgstr "Les Réserves personnelles peuvent être activées à tout moment en bataille. Vous recevrez le bonus même si la Réserve expire au cours de la bataille."
+
+msgid "battleView/title"
+msgstr "Activation des Réserves personnelles"
+
+msgid "depot/buyButton"
+msgstr "À l'achat"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Une autre réserve de ce type est déjà active."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Cette Réserve personnelle a expiré au cours de la bataille. Le bonus de la Réserve personnelle s'applique malgré tout à cette bataille."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus) %"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Les Réserves personnelles activées ne s'appliquent pas à ce mode."
+
+msgid "intro/buttons/close"
+msgstr "Affirmatif !"
+
+msgid "intro/buttons/details"
+msgstr "Détails"
+
+msgid "intro/description"
+msgstr "Les Réserves personnelles expirables sont disponibles pour un certain temps après les avoir reçues. Si elles ne sont pas activées dans le temps imparti, elles seront perdues. Les Réserves personnelles non expirables ne peuvent pas être utilisées tant que des Réserves personnelles expirables du même type sont disponibles."
+
+msgid "intro/title"
+msgstr "RÉSERVES PERSONNELLES EXPIRABLES"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Aucune Réserve personnelle de ce type n'est présente dans le Dépôt. Vous pouvez les acheter plus tard ou les activer depuis le garage."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Accomplissez des missions et participez aux évènements de jeu pour gagner des Réserves personnelles."
+
+msgid "noReserveTooltip/text"
+msgstr "Aucune Réserve personnelle de ce type n'est présente dans le Dépôt."

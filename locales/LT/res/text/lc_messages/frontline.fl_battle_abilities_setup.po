@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Pritaikyti visiems {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Kovinių rezervų taškai: {{value}}"
+
+msgid "header/title"
+msgstr "KOVINIAI REZERVAI"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Atakos rezervai"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Žvalgybos rezervai"
+
+msgid "infoPanel/category/tactics"
+msgstr "Taktiniai rezervai"
+
+msgid "infoPanel/category/title"
+msgstr "Kategorija: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "Žaisdami pagal {{@ colorLegacy 'FFE4C0'}}Likimo posūkio{{/}} scenarijų, nusipirkę kovinį rezervą padidinsite jo lygį ir galėsite jį padidinti iki {{@ colorLegacy 'FFE4C0'}}IV{{/}} lygio."
+
+msgid "infoPanel/description/unlocked"
+msgstr "Žaidžiant pagal {{@ colorLegacy 'FFE4C0'}}Likimo posūkio{{/}} scenarijų, šansas kovinio rezervo pasiūlymui atsidurti toje vietoje padidinamas {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Lygis:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Kovinis rezervas nenusipirktas"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Kovinis rezervas nusipirktas"

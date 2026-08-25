@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "Raza vizuală va fi crescută cu {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} timp de {colorTagOpen}%(duration)s s{colorTagClose}.\n\nTimpul va fi resetat la distrugerea unui vehicul inamic după descoperirea de către tine."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Recunoaștere Activă"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "Timp de {colorTagOpen}%(duration)s s{colorTagClose}, echipajul tău primește un bonus de {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} la eficiență pentru fiecare vehicul cu rol diferit din echipa ta.\n\nVehiculul tău va fi mereu inclus în calcularea bonusului."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Unul pentru toți"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "Timp de {colorTagOpen}%(duration)s s{colorTagClose}, se creează în jurul vehiculului tău o zonă cu raza de {colorTagOpen}%(radius)s m{colorTagClose}, care restaurează {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} puncte de integritate pentru vehiculul tău și cele aliate."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Reparaţii în luptă"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "Timp de {colorTagOpen}%(duration)s s{colorTagClose}, echipajul tău și cele aliate primesc un bonus de {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} la eficiență."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Inspirație"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "Timp de {colorTagOpen}%(duration)s s{colorTagClose}, timpul de reîncărcare a tunului este redus cu {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. De asemenea, dispersia tunului după foc, în mișcare și la rotația carenei și turelei este redusă cu {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nPerioada se resetează atunci când provoci daune prin coliziune sau foc de la o distanță de sub {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_berserk/name"
+msgstr "Furie"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "Timp de {colorTagOpen}%(duration)s s{colorTagClose}, timpul de țintire, dispersia tunului în deplasare și rotația carenei sau turelei sunt reduse cu {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nPe perioada activă a abilității de rol, timpul de reîncărcare între focuri este redus cu {colorTagOpen}/%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_light_concentration/name"
+msgstr "Concentrat pe țintă"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• Pentru sisteme de încărcare cu casetă:\nTimpul de reîncărcare rămas al casetei se reduce cu: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• Pentru sistemele cu autoreîncărcare:\nToate proiectilele trase din ciclul actual se vor încărca mai rapid cu: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nAbilitatea poate fi activată doar în timpul procesului de reîncărcare.\n\n• Pentru autotunuri cu Controlul termic de supraîncălzire a autotunului:\nCăldura tunului este redusă cu {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} din maximul posibil.\n\nAbilitatea poate fi activată doar dacă tunul este încălzit."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Prestidigitație"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Resetează numărul de vehicule inamice avariate de proiectile.\n\nTimp de {colorTagOpen}%(duration)s s{colorTagClose}, vehiculul tău va restaura {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} puncte de integritate pentru fiecare vehicul avariat de un proiectil la momentul activării."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "Timpul de reîncărcare a tunului este redus cu {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} pentru fiecare vehicul inamic avariat de un proiectil."
+
+msgid "comp7_light_hunter/name"
+msgstr "Vânător de recompense"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "Timp de {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• Daunele suferite sunt reduse cu {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Viteza maximă de înaintare crește cu {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• viteza maximă de marșarier crește cu {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• Puterea motorului crește cu {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Daunele provocate vehiculelor inamice prin coliziune cresc cu {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nAtunci când această abilitate de rol este activă, șenilele tale vor fi distruse dintr-o singură lovitură."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Juggernaut"
+
+msgid "comp7_light_march/descr/active"
+msgstr "Timp de {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, puterea motorului vehiculului tău va crește cu {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, viteza sa maximă de înaintare va crește cu {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h și valoarea camuflajului va crește cu {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_light_march/name"
+msgstr "Marș forțat"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "Un avion de recunoaștere va zbura deasupra zonei selectate în {colorTagOpen}%(delay)s s{colorTagClose}. vehiculele descoperite într-o rază de {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} rămân descoperite timp de {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose}. O iconiță separată va fi afișată pentru un jucător descoperit cu această abilitate cu o întârziere de {colorTagOpen}%(lampDelay)s s{colorTagClose}.\n\nAceastă abilitate devine disponibilă la {colorTagOpen}%(startupDelay)s s{colorTagClose} după începerea luptei."
+
+msgid "comp7_light_recon/name"
+msgstr "Zbor de recunoaștere"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "Zona selectată va fi atacată de o lovitură de artilerie în {colorTagOpen}%(delay)s s{colorTagClose}.\n\nȚintele avariate din raza de {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} vor suferi daune de {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} HP și vor suferi șoc timp de {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_light_redline/name"
+msgstr "Foc de acoperire"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Accelerare\n\nTimp de {colorTagOpen}%(duration)s s{colorTagClose}, puterea motorului crește cu {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, viteza maximă de înaintare va crește cu {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h și viteza maximă de marșarier crește cu{colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nRecuperare\n\nTimp de {colorTagOpen}%(healDuration)s s{colorTagClose}, vehiculul tău recuperează {colorTagOpen}%(baseHeal)s{colorTagClose} puncte de integritate {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} din punctele de integritate pierdute pe perioada activă a Accelerării."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "A doua șansă"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nLa începutul luptei, nivelul de încărcare al Abilității de rol este {colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "Timp de {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, dispersia la 100m este egală cu {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nDacă vehiculul tău nu a fost descoperit la momentul focului, daunele provocate de proiectilul tău vor crește cu {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nPerioada se va reseta la daune provocate de la o distanță de peste {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_sniper/name"
+msgstr "La fix"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "Timp de {colorTagOpen}%(duration)s s{colorTagClose}, dispersia tunului în timpul deplasării, rotației turelei și/sau carenei este redusă cu {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nPe perioada activă a abilității, daunele cu proiectile reduc timpul de încărcare cu {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} din procentajul de descreștere al punctelor de integritate ale vehiculului inamic.\n\nDistrugerea unui vehicul inamic reduce timpul de încărcare cu {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Lovitură curată"

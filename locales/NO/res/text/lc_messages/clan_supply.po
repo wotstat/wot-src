@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "main/backText"
+msgstr "TIL KLANDETALJER"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "For fullførelse av oppdrag tjener du tjenestepoeng som trengs for å utforske nye regioner."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Tjenestepoeng"
+
+msgid "main/infoPageButtonLabel"
+msgstr "OM TOUR OF DUTY"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "Handlingen er midlertidig utilgjengelig. Prøv igjen senere."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Oppdater"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Vi beklager den midlertidige ubeleiligheten."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Feil ved lasting av data"
+
+msgid "progressionPage/header/heading"
+msgstr "TOUR OF DUTY"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "TOUR OF DUTY ER AVSLUTTET"
+
+msgid "progressionPage/header/subheading"
+msgstr "Få tjenestepoeng ved å fullføre klanoppdrag. Tjenestepoeng benyttes til å utforske nye regioner og få verdifulle belønninger. På slutten av Touren kan du få et kjøretøy på nivå 10."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Du fikk %(vehicle)s"
+
+msgid "progressionPage/loading"
+msgstr "Laster innhold..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Utforsk den foregående tilknyttede regionen."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Region er allerede utforsket"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Belønning tjent:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Utforsk den foregående tilknyttede regionen."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Ikke i stand til å utforske regionen"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Feil ved lasting av data"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Utforsk region"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Det trengs %(value)s flere tjenestepoeng for å kunne utforske regionen."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Ikke i stand til å utforske regionen"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Utforsk den foregående tilknyttede regionen."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Ikke i stand til å utforske regionen"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Hent belønning"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Laster innhold..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Venter på at belønningen skal legges til..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Oppdater"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "BELØNNING FOR UTFORSKNING AV REGION:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "BELØNNING MOTTATT:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Forhåndsvisning"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Oppdater"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Vi beklager den midlertidige ubeleiligheten."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Feil ved lasting av data"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Hent belønning"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Til klan autosøk"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Bli med i en klan for å fullføre oppdrag og få belønningen."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Oppdragsfremgang er satt på pause. Hent belønningen din for å fortsette: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "TOUR OPPDRAG"
+
+msgid "questsPage/header/subheading"
+msgstr "Fullfør oppdrag og tjen belønninger. Det andre og tredje oppdraget kan kun fullføres i en tropp/avdeling sammen med en fra klanen."
+
+msgid "questsPage/loading"
+msgstr "Laster innhold..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "I kjøretøy på nivå 8–11, tjen minst {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} basis erfaringspoeng mens du spiller i en tropp eller vinner en kamp sammen med en avdeling."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "I kjøretøy på nivå 6–11, tjen minst {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} basis erfaringspoeng i en kamp eller vinner en kamp sammen med en avdeling"
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "I kjøretøy på nivå 8–11, bekjemp {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} fiendtlige kjøretøy mens du spiller i en tropp eller vinner en kamp sammen med en avdeling."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "I kjøretøy på nivå 6–11, bekjemp {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} fiendtlige kjøretøy i en kamp eller vinner en kamp sammen med en avdeling"
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "På nivå 8–11, forårsak eller bidra til {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} helsepoeng i skade mens du spiller i en tropp eller vinner en kamp i en avdeling."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "På nivå 6–11, forårsak eller bidra til {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} helsepoeng i skade eller vinn en kamp med en avdeling."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Industriell ressurs"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Tjenestepoeng"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Du kan hente belønningen"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Belønning mottatt"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Ikke tilgjengelig"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Belønningen blir snart lagt til i kontoen din."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Hent belønninger for fullførelse av de foregående oppdragene."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Fullfør de foregående oppdragene."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Oppdrag ikke tilgjengelig"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Gjenværende tid til å samle inn tjenestepoeng"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "For fullførelse av oppdrag tjener du tjenestepoeng som trengs for å utforske nye regioner."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Tjenestepoeng"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Du fikk også:"
+
+msgid "rewardsView/button/close"
+msgstr "LUKK"
+
+msgid "rewardsView/button/confirm"
+msgstr "Bekreftet!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Vis i garasjen"
+
+msgid "rewardsView/heading"
+msgstr "BELØNNINGER MOTTATT"
+
+msgid "rewardsView/style/317"
+msgstr "2D stilen Flame"
+
+msgid "rewardsView/style/345"
+msgstr "2D stilen Prophecy"
+
+msgid "rewardsView/style/435"
+msgstr "2D stilen Retribution"
+
+msgid "rewardsView/style/436"
+msgstr "2D stilen Reaper"
+
+msgid "rewardsView/subheading"
+msgstr "TOUR OF DUTY"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Fremgang i Tour of Duty"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Fremgang i Tour oppdrag"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Tour of Duty"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Tour oppdrag"

@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "abilities/adaptationHealthRestore"
+msgstr "Adaptivní pancíř"
+
+msgid "abilities/adaptationHealthRestoreDescription"
+msgstr "Okamžitě obnovuje část bodů výdrže vašeho vozidla. Po dobu trvání schopnosti bude veškeré poškození způsobené zásahy granátů a bojovými schopnostmi shromážděno a přeměněno na body výdrže, ke kterým se navíc po skončení schopnosti připočítá bonus ve výši části z celkového utrpěného poškození. Převedené body výdrže se vztahují i na spojenecká vozidla v malém dosahu."
+
+msgid "abilities/airstrike"
+msgstr "Nálet"
+
+msgid "abilities/airstrikeDescription"
+msgstr "Ochromuje nepřátelská vozidla a způsobuje poškození pomocí výbuchů pum ve vybrané oblasti."
+
+msgid "abilities/berserk"
+msgstr "Berserk"
+
+msgid "abilities/berserkDescription"
+msgstr "Značně zlepšuje vlastnosti a průbojnost vašeho vozidla, ale po určitou dobu mu odebírá body výdrže."
+
+msgid "abilities/brander"
+msgstr "Ohnivá koule"
+
+msgid "abilities/branderDescription"
+msgstr "Vypouští samohybnou minu, která bude pronásledovat nejbližšího nepřítele a při výbuchu způsobí poškození v malém okruhu. Nepřátelé mohou vaši Ohnivou kouli zničit palbou nebo nárazem. Ohnivá koule po dosažení svého cíle způsobí další poškození nárazem."
+
+msgid "abilities/clingBrander"
+msgstr "Bojový robot"
+
+msgid "abilities/clingBranderDescription"
+msgstr "Přivolá autonomní tank vybavený systémem identifikace přítel–nepřítel, který bude pronásledovat nejbližšího nepřítele a zaútočí na něj. Tento tank může být zničen."
+
+msgid "abilities/corrodingShot"
+msgstr "Žíravý granát"
+
+msgid "abilities/corrodingShotDescription"
+msgstr "Přidává granátu žíravé vlastnosti. Po poškození nepřátelského vozidla na něj granát aplikuje dočasný efekt, který v průběhu času způsobuje další poškození. Efekt lze odstranit sadou nářadí."
+
+msgid "abilities/extremeConcentration"
+msgstr "Sledování cíle"
+
+msgid "abilities/extremeConcentrationDescription"
+msgstr "Dočasně snižuje rozptyl děla a čas zaměření a zlepšuje stabilizaci děla a rychlost palby. Neovlivňuje dobu mezi vystřelením granátu a nabitím dalšího granátu v zásobníku, dělu nebo zásobníku munice."
+
+msgid "abilities/fireCircle"
+msgstr "Kruh ohně"
+
+msgid "abilities/fireCircleDescription"
+msgstr "Obklopí nepřátelské vozidlo ohnivou aurou, která způsobuje poškození a v oblasti účinku schopnosti snižuje jeho pohyblivost."
+
+msgid "abilities/minefield"
+msgstr "Minové pole"
+
+msgid "abilities/minefieldDescription"
+msgstr "Na určitou dobu pokládá ve vybrané oblasti aktivní minové pole. Nepřátelská vozidla, která se dostanou do kontaktu s minami, mohou být ochromena a obdržet výbušné poškození. Miny lze zničit palbou. Miny položené pod nepřátelskými vozidly NEVYBUCHNOU."
+
+msgid "abilities/nitro"
+msgstr "Turbodmychadlo"
+
+msgid "abilities/nitroDescription"
+msgstr "Dočasně zvyšuje výkon motoru, maximální rychlost a rychlost otáčení vašeho vozidla."
+
+msgid "abilities/recoveryDot"
+msgstr "Zóna oprav"
+
+msgid "abilities/recoveryDotDescription"
+msgstr "Vytváří dočasnou statickou oblast, která opravuje všechny poškozené moduly, odstraňuje VŠECHNY negativní efekty a obnovuje body výdrže. Body výdrže budou také obnoveny také spojeneckým vozidlům nacházejícím se v oblasti efektu."
+
+msgid "abilities/recoveryKit"
+msgstr "Obnovení"
+
+msgid "abilities/recoveryKitDescription"
+msgstr "Obnovuje body výdrže poškozeného vozidla."
+
+msgid "abilities/recoveryZone"
+msgstr "Zóna obnovení"
+
+msgid "abilities/recoveryZoneDescription"
+msgstr "Vytváří okolo vašeho vozidla oblast. Uvnitř této oblasti se hráči i členům čety každou sekundu obnovuje určité procento bodů výdrže jejich vozidel."
+
+msgid "abilities/repairKit"
+msgstr "Sada nářadí"
+
+msgid "abilities/repairKitDescription"
+msgstr "Opravuje moduly a odstraňuje negativní účinky."
+
+msgid "abilities/rustCloud"
+msgstr "Žíravá mlha"
+
+msgid "abilities/rustCloudDescription"
+msgstr "Přidává bonus k maskování pro všechna vozidla v dosahu schopnosti. Poškozuje VŠECHNA vozidla v dosahu. Nezastaví sběr kořisti ani nezničí vozidla, kterým ponechá vždy alespoň 1 bod výdrže."
+
+msgid "abilities/shotPassion"
+msgstr "Rostoucí zápal"
+
+msgid "abilities/shotPassionDescription"
+msgstr "Zatímco hodnoty míření a stabilizace jsou na určitou dobu sníženy, každý průstřel nebo zásah Elektrickým výbojem zvýší poškození způsobené granáty nepřátelským vozidlům. Poškození může být navýšeno až pětkrát. Pokud cíl zasáhnete, ale nezpůsobíte poškození, nebo ho minete, vynuluje se parametr poškození na základní hodnotu."
+
+msgid "abilities/thunderStrike"
+msgstr "Elektrický výboj"
+
+msgid "abilities/thunderStrikeDescription"
+msgstr "Vytváří oblast, ve které s vysokou frekvencí dopadají série elektrických výbojů. Každý výboj způsobuje poškození a v oblasti účinku schopnosti snižuje pohyblivost vozidla. Mezi aktivací této schopnosti a prvním výbojem je určitá prodleva. Negativní účinek schopnosti lze odstranit pomocí sady nářadí."
+
+msgid "abilities/trap"
+msgstr "Past"
+
+msgid "abilities/trapDescription"
+msgstr "Vytváří oblast, která snižuje dynamické vlastnosti nepřátelských vozidel."
+
+msgid "tanks/britain/description"
+msgstr "Britské strojírenství neustále dokazuje, že umí vyrábět dokonalá vozidla, která lákají zkušené velitele a děsí nepřátele. A tenhle lovec není žádnou výjimkou. Je to legendární britská ocel, která je opět jednou připravena dokázat svou převahu na bojišti."
+
+msgid "tanks/britain/title"
+msgstr "Harbinger Mk. IV"
+
+msgid "tanks/china/description"
+msgstr "Číňané mají propracovanou síť zpravodajců, která jim pomáhá přejímat nejnovější postupy ve stavění tanků. A příležitost vyzkoušet tuto novou výzbroj v extrémních podmínkách režimu „Ocelový lovec“ je pro jejich inženýry skutečnou třešničkou na dortu."
+
+msgid "tanks/china/title"
+msgstr "Bái Láng"
+
+msgid "tanks/france/description"
+msgstr "Lehkost, ladné tvary a půvab jsou tři pilíře, ze kterých vychází francouzská výroba tanků. Základem tohoto vozidla nebyly ani vypůjčené plány, ani technologie získané průmyslovou špionáží. Může se pochlubit pouze originálními a efektivními nápady a řešeními."
+
+msgid "tanks/france/title"
+msgstr "Arlequin"
+
+msgid "tanks/germany/description"
+msgstr "Němci jsou zběhlí jak v metalurgickém inženýrství, tak i ve vysoké kvalitě montáže. Toto vozidlo je dokonalý osamělý vlk – nezávislý a všestranný stroj, který se snadno dokáže přizpůsobit jakékoli bojové situaci, aby přežil."
+
+msgid "tanks/germany/title"
+msgstr "Walküre"
+
+msgid "tanks/poland/description"
+msgstr "Polští inženýři vědí, že zdůrazňování jedné z předností vozidel automaticky vede ke zhoršení jiných parametrů. Pečlivě proto zvážili výzbroj vozidla a jeho bojové schopnosti, aby zabránili nepříteli vyhledávat slabiny vozidla. Jak ukázal čas, bylo to správné rozhodnutí."
+
+msgid "tanks/poland/title"
+msgstr "Huragan"
+
+msgid "tanks/sweden/description"
+msgstr "Švédové nikdy nepřehlíželi nové trendy ve stavbě tanků a jejich zapojení do Ocelového lovce dalo jejich nejlepším inženýrům volnou ruku. Toto vozidlo spojuje ty nejriskantnější a nejgeniálnější nápady. Může jak způsobovat, tak i dostávat těžké zásahy a zdá se, že mu to vyhovuje."
+
+msgid "tanks/sweden/title"
+msgstr "Beowulf"
+
+msgid "tanks/usa/description"
+msgstr "Toto vozidlo představuje dokonalou rovnováhu mezi moderní technikou a klasikou. Jako základ pro tento tank, jehož řízení je skutečným potěšením, posloužily časem prověřené technologie v kombinaci s nejnovějším pokrokem. Pokud vám tedy samozřejmě nevadí rezavějící kov."
+
+msgid "tanks/usa/title"
+msgstr "Raven"
+
+msgid "tanks/ussr/description"
+msgstr "Tento tank, sestavený z částí a dílů odepsaných v různých továrnách na výrobu tanků, představuje vážnou hrozbu pro jakékoliv nepřátelské vozidlo. Vyhozením plánů a technické dokumentace do větru lze přímo na bojišti stvořit skutečné monstrum."
+
+msgid "tanks/ussr/title"
+msgstr "Varyag"

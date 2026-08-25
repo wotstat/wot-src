@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Permite focul cu o serie de proiectile din casetă, unul câte unul, fiecare proiectil reîncărcându-se automat în timp."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Permite focul cu o serie de proiectile din casetă, unul câte unul, fiecare proiectil reîncărcându-se automat în timp. Conferă un bonus la viteza de reîncărcare a următorului proiectil pe perioada reîncărcării."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Trage rafale rapide de proiectile pentru a provoca daune mari în scurt timp, în dezavantajul penetrării și preciziei. Are eficiență maximă în lupta de aproape."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Trage proiectile cu secțiune în formă de stea, provocând daune maxime de la distanțe sub 50 m. Daunele proiectilelor scad o dată cu distanța, având eficiență maximă în lupta de aproape."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Un sistem de răcire unic care permite țintirea dublă: așteptarea după reîncărcare permite armei să tragă mai precis. Precizia îmbunătățită este indicată de un al doilea cerc de țintire, mai mic."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Un sistem cu tun dublu cu abilitatea de a trage cu ambele țevi separat sau simultan. Focul dublu provoacă daune mari în rafală, dar necesită un timp mai lung de reîncărcare."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Permite schimbarea unghiului de înălțare a carenei, oferind ocazia focului din mai multe poziții în lupte. Activarea depinde de anumite condiții."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Schimbă poziția roților suplimentare pentru a crește semnificativ viteza, în detrimentul manevrabilității. Cel mai bine utilizat pentru a parcurge distanțe lungi și pentru atacuri rapide."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Permite tragerea unei serii de proiectile din casetă, înaintea unei reîncărcări complete. Livrează daune uriașe în rafală, însă vehiculul devine vulnerabil pe perioada reîncărcării. Poate reîncărca doar întreaga casetă deodată."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Tunul poate trage continuu fără a trebui să reîncarce. Fiecare lovitură generează căldură: cu cât mai înaltă e temperatura, cu atât mai mult se modifică parametrii tunului. Focul continuu va provoca supraîncălzirea tunului, împiedicând focul ulterior până la răcire."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Crește puterea motorului și viteza maximă pentru deplasare rapidă pe câmpul de luptă. Când sunt activate, racheto-accelerările reduc manevrabilitatea și nu pot fi dezactivate manual."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "La activare, acest mod special crește și/sau schimbă anumiți parametri de luptă. Activarea e preferabilă din poziții pregătite pentru angajarea inamicilor."
+
+msgid "abilities/common/description/stun"
+msgstr "Provoacă șoc vehiculelor inamice aflate în zona de explozie, chiar dacă lovitura nu e directă, înrăutățindu-le temporar mobilitatea, precizia și timpul de reîncărcare. Inamicii afectați de șoc sunt marcați cu un indicator special."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Permite deplasarea cu viteză redusă a vehiculului, atunci când șenila principală este avariată. Pierderea unei șenile exterioare suplimentare reduce în continuare mobilitatea, însă vehiculul se poate încă roti și deplasa."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Permite deplasarea semnificativ mai rapidă a vehiculului, reducând semnificativ parametrii de manevrabilitate a tunului."
+
+msgid "abilities/common/description/twinGun"
+msgstr "La activare, acest mod special conferă daune duble și crește și/sau modifică anumiți parametri de luptă. Utilizat în special în luptele de aproape."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Autoreîncărcător"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Autoreîncărcător îmbunătățit"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Autotun"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Tun puternic ghintuit"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Răcirea tunului"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Tun dublu"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Suspensie hidropneumatică"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Modul rapid"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Autoîncărcător"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Controlul termic de supraîncălzire a autotunului"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Racheto-accelerare"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Modul de asalt"
+
+msgid "abilities/common/name/stun"
+msgstr "Șoc"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Șenilă de rezervă"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Modul turbo"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Modul de foc în salvă"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Pe perioada cât rămâi staționar sau te deplasezi lent, aduni niveluri de precizie pentru a îmbunătăți precizia următoarei lovituri.\nLa nivelul maxim de precizie, obții manevrabilitate decentă a tunului, cu dispersie redusă chiar și din mișcare sau la rotirea turelei/carenei."
+
+msgid "abilities/special/description/battleFury"
+msgstr "De fiecare dată când lovești un inamic cu un proiectil, obții un nivel de eficiență a încărcării, crescând temporar viteza de reîncărcare a tunului. Nivelurile se acumulează după fiecare lovitură. \nDistrugerea cu un proiectil a unul vehicul inamic conferă niveluri suplimentare de eficiență a încărcării."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Dacă tunul tău e încărcat, poți începe încălzirea următoarei lovituri pentru daune crescute; cu cât mai mare este nivelul de încălzire, cu atât mai mare este efectul.\nLa încălzire maximă, ai la dispoziție câteva secunde pentru a trage; în caz contrar, nu vei putea trage o perioadă."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Reușind două lovituri penetrante la rând asupra inamicilor, activezi modul Salvă care încarcă o casetă de salvă ce îți permite să tragi două proiectile în succesiune rapidă, provocând daune masive."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Girostabilizatorul pneumatic conferă stabilizare maximă în mișcare și la rotația turelei și carenei, permițând foc mai precis, precum și răspuns rapid la amenințări bruște, precum și angajări eficiente de sub acoperire."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Sistemul începe automat încărcarea unei noi casete atunci când în cea actuală rămâne un singur proiectil, păstrându-te pregătit pentru angajamente. Poți în continuare să tragi ultimul proiectil în timpul încărcării, însă acest lucru adaugă câteva secunde la durata de reîncărcare rămasă."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Sistemul răcește tunul, permițând foc extrem de precis. Tunul se încălzește în timpul tragerii, dar începe să se răcească și revine la parametrii îmbunătățiți pe perioada reîncărcării. Cu cât mai înaltă este temperatura, cu atât mai mult i se modifică parametrii."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Bazându-se pe experiențele de design ale modelelor anterioare, acest vehicul e configurat special pentru atacuri prin coliziune. Întăririle structurale îi permit să provoace mai multe daune la coliziunea cu vehiculele inamice, conferindu-i un avantaj în încleștările de aproape."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Tunul acestui vehicul poate trage mai repede: proiectilele cu încărcătură parțială, trase în timpul reîncărcării, au eficiență redusă, pe când proiectilele cu încărcătură întreagă, trase după reîncărcare, au parametri balistici optimi."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Tunul poate trage continuu fără a trebui să reîncarce. Fiecare lovitură generează căldură: cu cât mai înaltă e temperatura, cu atât mai mult se modifică parametrii tunului. Focul continuu va provoca supraîncălzirea tunului, împiedicând focul ulterior până la răcire."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Rămâi staționar sau deplasează-te încet pentru a acumula preîncălzire, crescând daunele și precizia următoarei lovituri. La preîncălzirea maximă, penetrarea unui inamic cu mai puține puncte de integritate decât daunele tale medii provoacă explozia compartimentului muniției, distrugând vehiculul."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Acest mod transformă vehiculul tău într-o platformă fortificată, conferind precizie superioară și timp de reîncărcare mai rapid. În schimbul acestei puteri de foc îmbunătățite, mobilitatea vehiculului (viteza înainte/înapoi și rotația verticală/orizontală) este sever limitată."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Acest mod conferă impuls semnificativ puterii motorului și vitezei maxime de înaintare. Cu cât conduci mai mult înainte, cu atât viteza crește, permițându-ți să te avânți pe câmpul de luptă și să acoperi distanțe mari cu ușurință."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Sistemul acumulează în timp o încărcătură, bonusul daunelor fiind proporțional cu aceasta. Încărcătura e oprită de un limitator care poate fi dezactivat pentru a oferi un bonus și mai mare, cu costul manevrabilității reduse a tunului."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Activează în orice moment acceleratoarele cu combustibil lichid pentru un plus de viteză la nevoie. Acceleratoarele se încălzesc și trebuie să se răcească înainte de reutilizare, iar depășirea limitei critice de încălzire le va dezactiva complet pentru o scurtă perioadă de timp."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Acceleratoare cu combustibil solid care îmbunătățesc accelerația, mobilitatea și manevrabilitatea timp de câteva secunde. Propulsoarele din stânga și din dreapta pot funcționa independent unul de celălalt pentru o rotire mai rapidă a carenei și nu restricționează capacitatea de marșarier."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "În funcție de modul activ și de nivelul de încărcare, vehiculul poate activa una dintre cele două abilități: \nAcceleratorul ionic: Crește puterea motorului și viteza. \nTelemetrul electromagnetic de coincidență: Reduce dispersia și timpul de reîncărcare și îmbunătățește precizia."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Modulul te menține în luptă, permițându-ți să întrerupi încărcarea în orice moment, dacă ai minim un proiectil încărcat. Apasă tasta rapidă pentru a întrerupe reîncărcarea, trage după o mică întârziere, apoi reîncarcă manual sau reîncarcă automat caseta după golire."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Apăsarea butonului de activare declanșează armamentul auxiliar al vehiculului tău asupra țintei. Această putere de foc suplimentară vine cu propriul său ciclu de reîncărcare, independent de tunul principal."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Următoarea ta lovitură aplică un efect bazat pe starea inamicului observat. Lovirea unui inamic observat îl va marca, iar acesta va rămâne descoperit mai mult timp și va suferi mai multe daune. Lovirea unui inamic nedescoperit îi va evidenția poziția cu un marcaj special."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Conferă daune duble și stabilizare crescută, cu prețul mobilității, preciziei, vitezei de rotație a turelei și timpului de țintire. Utilizare preferată în lupta de aproape."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Această modificare mecanică crește semnificativ accelerația, puterea motorului și vitezele maxime de înaintare și marșarier pentru o scurtă perioadă, permițându-ți să reacționezi rapid față de atacurile inamice și să-i iei prin surprindere pe oponenți prin manevre dinamice."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Calculator balistic analogic"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Compartiment de muniție semiautomat"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Supraîncărcare termo-balistică"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Modul Salvă"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Girostabilizatorul pneumatic"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Sistem de încărcare cu casetă"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Răcirea activă a tunului"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Configurația de coliziune"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Sistem de încărcare multi-pachet"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Controlul termic de supraîncălzire a autotunului"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Sistemul de control termic al propulsiei"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Modul Buncăr"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Transmisie directă"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Propulsare post-combustie cu inducție"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Acceleratoare cu combustibil lichid"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Acceleratoare secvențiale"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Alimentator tactic"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Modul extern de muniție"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Armament auxiliar"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Marcator laser de țintă"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Modul de foc în salvă"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Asistarea de înaltă presiune a Turbocompresorului"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Crește precizia următoarei tale lovituri, cu stabilizare decentă la calibrare maximă."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Fiecare lovitură asupra unui vehicul inamic scade viteza de reîncărcare a tunului pentru o perioadă limitată."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Crește nivelurile de încălzire pentru a provoca mai multe daune vehiculelor inamice cu următoarea ta lovitură."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "O casetă de foc în salvă care îți permite să lansezi două proiectile în succesiune rapidă."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maximizează stabilizarea în timpul mișcării și rotirii pentru un foc mai precis."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Începe automat reîncărcarea la ultimul proiectil, care poate fi încă tras în timpul reîncărcării."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Sistem de răcire activă a tunului care crește precizia pe măsură ce tunul se răcește."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Crește daunele provocate prin coliziuni vehiculelor inamice."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "O mecanică specială de luptă care permite focul devreme, dar cu eficiență redusă."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Sistemul permite focul continuu fără reîncărcare și controlează modul în care tunul generează căldură în timpul tragerii."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Rămânând nemișcat sau deplasându-te încet, crești daunele și precizia următorului foc."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Crește drastic precizia tunului și viteza de reîncărcare, dar limitează sever mobilitatea."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Conferă creșterea puterii motorului, sporind viteza maximă cu cât vehiculul continuă să se miște mai mult."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Sistemul se încarcă pentru a crește daunele. Cu cât mai mare încărcătura, cu atât mai mari sunt daunele."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Acceleratoarele pot fi activate oricând pentru o sporire puternică a vitezei."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Acceleratoare cu combustibil solid care cresc accelerația, mobilitatea și manevrabilitatea."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Încarcă una dintre cele două abilități unice, crescând viteza sau îmbunătățind precizia tunului."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Îți permite să întrerupi reîncărcarea și să tragi în momentele esențiale."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Armament suplimentar care conferă putere de foc crescută, pe lângă tunul principal."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Crește perioada de observare a inamicului și daunele suferite de acesta, sau îl evidențiază cu un marcaj special."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Permite focul simultan cu ambele tunuri, cu prețul duratei crescute de reîncărcare."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "O mecanică specială care crește puterea motorului, accelerația și vitezele maxime pe perioade scurte."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Păstrarea vehiculului staționar sau deplasându-se sub o anumită viteză îi permite vehiculului tău să-și calibreze Calculatorul balistic analogic și să adune niveluri de precizie, crescând acuratețea următoarei lovituri. Dacă depășești limita de viteză, progresul creșterii nivelurilor de precizie se întrerupe până când încetinești din nou. La nivelul maxim de precizie, vehiculul tău obține stabilizare decentă a tunului cu reducere a dispersiei la deplasare sau rotație a tunului sau carenei. Efectul este eliminat după foc."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "De fiecare dată când lovești un inamic vizibil cu un proiectil, obții un nivel de eficiență a încărcării, crescând temporar viteza de reîncărcare a tunului. Nivelurile se acumulează după fiecare lovitură, iar distrugerea cu un proiectil a unul vehicul inamic conferă niveluri suplimentare de eficiență a încărcării."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Dacă tunul tău este încărcat, poți încerca să-ți încălzești următoarea lovitură. Cu cât mai mare este nivelul de căldură atins, cu atât mai mare va fi bonusul daunelor medii. Nu poți schimba proiectilele pe perioada încălzirii. O numărătoare inversă începe la atingerea nivelului maxim de încălzire. Dacă nu tragi înainte ca aceasta să se încheie, vei fi împiedicat să tragi timp de câteva secunde."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Marcarea a două lovituri penetrante la rând asupra inamicului activează modul Salvă, încărcând o casetă de salvă care permite focul a două proiectile în succesiune rapidă la următorul foc."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Girostabilizatorul pneumatic conferă stabilizare maximă pe perioadă scurtă de timp la rotirea carenei și turelei, permițând foc mai precis din mișcare și reacție rapidă la amenințările bruște."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Sistemul începe automat să încarce o nouă casetă când în cea curentă se mai află un singur proiectil. Tragerea ultimului proiectil în timp ce noua casetă este încărcată adaugă câteva secunde la timpul de reîncărcare rămas. Apăsarea tastei rapide pentru Reîncărcarea containerului de proiectile aruncă toate proiectilele rămase, cu excepția ultimului. Apasă de două ori tasta rapidă pentru a reseta o casetă complet încărcată."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Sistemul răcește tunul, permițând foc extrem de precis. Tunul se încălzește în timpul tragerii, dar începe să se răcească și revine la parametrii îmbunătățiți pe perioada reîncărcării. Cu cât mai înaltă este temperatura, cu atât mai mult i se modifică parametrii."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Acest vehicul este configurat special pentru atacuri prin coliziune, cu o serie de modificări de design care îl ajută să provoace mai multe daune prin coliziunea cu vehiculele inamice."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Tunul acestui vehicul poate trage mai repede: proiectilele cu încărcătură parțială, trase în timpul reîncărcării, au eficiență redusă, pe când proiectilele cu încărcătură întreagă, trase după reîncărcare, au parametri balistici optimi."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Tunul poate trage continuu fără a trebui să reîncarce. Fiecare lovitură generează căldură: cu cât mai înaltă e temperatura, cu atât mai mult se modifică parametrii tunului. Focul continuu va provoca supraîncălzirea tunului, împiedicând focul ulterior până la răcire."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Păstrarea vehiculului staționar sau deplasându-se sub o anumită viteză generează preîncălzire, care crește daunele medii și precizia următorului foc. Depășirea limitei de viteză reduce gradual bonusul, iar focul sau schimbarea proiectilelor îl resetează instantaneu. La nivelul maxim de preîncălzire, penetrarea blindajului unui vehicul cu mai puține puncte de integritate decât media daunelor tale (inclusiv bonusul de preîncălzire acumulat) îi va provoca explozia compartimentului muniției, distrugând instantaneu vehiculul."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "În acest mod, precizia tunului, viteza de reîncărcare și unghiurile verticale ale tunului sunt semnificativ mai bune, însă mobilitatea (viteza de înaintare/marșarier și viteza de rotație verticală/orizontală) este sever limitată. Valorile procentuale reprezintă comparația cu modul Asalt."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Transmisia directă conferă impuls semnificativ puterii motorului și vitezei maxime de înaintare. Cu cât conduci mai mult înainte, cu atât viteza crește, permițându-ți să traversezi câmpul de luptă cu ușurință."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "În timp, sistemul acumulează automat o încărcătură care este consumată parțial pentru a crește daunele la foc. Cu cât mai mare e încărcătura, cu atât mai mare este bonusul daunelor. În mod implicit, sistemul stochează încărcătura doar până la o anumită limită. Dezactivarea limitatorului îi permite să acumuleze o încărcătură și mai mare, conferindu-i un bonus mai mare al daunelor, dar reducându manevrabilitatea tunului."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Acceleratoarele cu combustibil lichid conferă o creștere a puterii motorului, permițându-ți să obții un avantaj pozițional pe câmpul de luptă, limitând însă viteza de marșarier și de rotație a vehiculului. Acestea pot fi activate și dezactivate oricând, în afara perioadei de după atingerea limitei de reactivare. Acceleratoarele se încălzesc în timpul activării și devin indisponibile până la răcire, deci nu pot fi utilizate permanent; depășirea limitei critice de încălzire le va dezactiva temporar. Planifică-ți cu atenție mișcările pentru a nu fi luat prin surprindere."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Acceleratoare cu combustibil solid care îmbunătățesc accelerația, mobilitatea și manevrabilitatea timp de câteva secunde. Propulsoarele din stânga și din dreapta pot funcționa independent unul de celălalt pentru o rotire mai rapidă a carenei și nu restricționează capacitatea de marșarier. Acestea pot fi utilizate de mai multe ori per luptă, dar au nevoie de timp de refacere înainte de reactivare."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "În funcție de modul activ și de nivelul de încărcare, vehiculul poate activa una dintre cele două abilități: Acceleratorul ionic sau Telemetrul electromagnetic de coincidență.\nAcceleratorul ionic crește temporar puterea motorului, viteza maximă de înaintare și cea de marșarier. Telemetrul electromagnetic de coincidență îmbunătățește temporar precizia și reduce timpul de încărcare."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Modulul extern de muniție îți permite să întrerupi reîncărcarea și să tragi în orice moment, atât timp cât ai minim un proiectil încărcat. Pe perioada reîncărcării, modulul blochează turela vehiculului și rezervoarele de muniție externe, prevenind temporar țintirea sau focul, dacă nu întrerupi reîncărcarea."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Vehiculul este echipat cu un set de armament auxiliar cu ciclu de reîncărcare independent față de tunul principal, permițându-ți să provoci daune suplimentare în momentele esențiale."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Marcatorul laser de țintă adaugă un efect special următoarei tale lovituri, aplicat inamicului pe care îl lovești. Efectul depinde de condiția de observare a inamicului la momentul impactului. Lovirea unui inamic descoperit îl va marca, extinzând perioada de descoperire și crescând daunele suferite în urma lovirii cu proiectile, iar lovirea unui inamic nedescoperit îi va evidenția locația cu un marcaj special."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Conferă daune duble și stabilizare crescută, cu prețul mobilității, preciziei, vitezei de rotație a turelei și timpului de țintire. Utilizare preferată în lupta de aproape."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Această modificare mecanică crește semnificativ accelerația, puterea motorului și vitezele maxime de înaintare și marșarier pentru o scurtă perioadă, permițându-ți să reacționezi rapid față de atacurile inamice și să-i iei prin surprindere pe oponenți prin manevre dinamice. Menținerea vitezei ridicate de deplasare reduce perioada de refacere a mecanicii."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Toate valorile afișate le reprezintă pe cele maxime pentru vehicul. Echipamentul, directivele și consumabilele pot modifica aceste valori, însă modificările nu sunt reflectate aici."
+
+msgid "characteristics/templates/upTo"
+msgstr "Până la %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Cumpără şi montează"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Modificările de teren"
+
+msgid "modules/controls/button/mount"
+msgstr "Montează"
+
+msgid "modules/controls/button/research"
+msgstr "Cercetare"
+
+msgid "modules/controls/button/sell"
+msgstr "Vinde din Depozit"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Acest vehicul se află în luptă. Îi poți modifica modulele după încheierea luptei."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Vehiculul este avariat. Repară-l pentru a-i putea modifica modulele."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Nu pot instala modului. {{module}} incompatibil."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Acest vehicul este într-o unitate tactică."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Cumpără acest vehicul pentru a-i putea modifica modulele."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Cercetează modulele anterioare pentru a putea cerceta acest modul."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Cercetează acest vehicul pentru a-i putea cerceta modulele."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Toate modulele au fost cercetate."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Acest modul este deja instalat."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Selectează un vehicul sau modul pentru cercetare."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Acest vehicul se află în luptă. Îi poți modifica modulele după încheierea luptei."
+
+msgid "modules/controls/name"
+msgstr "Selectat: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Șasiu"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Motor"
+
+msgid "modules/name/vehicleGun"
+msgstr "Tun"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Radio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Turelă"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Roți"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Vehicule de colecție"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Abilitatea de a câștiga"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "credite pentru fiecare luptă"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "transfer al echipajului fără penalizare"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "Experiență de luptă și Experiență de echipaj"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Bonduri"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Mai multe"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Gratuit"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Mai multe"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Obține bonduri"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Mai multe credite"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Transfer gratuit"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Mai multă experiență"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Set de piese de schimb gratuit"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Abilitatea de a câștiga"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "credite pentru fiecare luptă"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "transfer de echipaje de pe orice clasă de vehicule fără penalizare"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "Experiență de luptă și Experiență de echipaj"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Bonduri"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Mai multe"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Gratuit"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Mai multe"
+
+msgid "overview/crew/name"
+msgstr "Echipaj {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Afișează mecanica"
+
+msgid "overview/title/generalDescription"
+msgstr "Descrierea vehiculului"
+
+msgid "overview/title/historicalReference"
+msgstr "Referințe istorice"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Până pe {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Recuperare disponibilă până pe {{date}}"
+
+msgid "tabs/armor"
+msgstr "Blindaj"
+
+msgid "tabs/modules"
+msgstr "Module"
+
+msgid "tabs/overview"
+msgstr "Vedere generală"
+
+msgid "tabs/stats"
+msgstr "Caracteristici"
+
+msgid "tabs/vehSkillTree"
+msgstr "Îmbunătățiri"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Închirierea s-a încheiat"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Abonament suspendat"

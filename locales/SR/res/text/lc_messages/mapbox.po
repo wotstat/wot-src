@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Potvrdno!"
+
+msgid "awardsView/subTitle"
+msgstr "BORBI VOĐENO: {number}"
+
+msgid "awardsView/title"
+msgstr "IZVIDJAČKA MISIJA"
+
+msgid "buttonDisable/tooltip"
+msgstr "Nedostupno"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Raspored"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Borbe su završene"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Primirje je aktivno na ovom serveru. Molim izaberi drugi server."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Možeš ući u borbu samo u %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Nekompatibilian nivo vozila"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "Vozila nivoa %(levels)s"
+
+msgid "intro/button"
+msgstr "Potvrdno!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Tvoji utisci nam pomažu da poboljšamo bojišta. Ostavi svoje mišljenje oko novih mehanika mapa i dodaćemo najbolje ideje u igru."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Ključni utisci"
+
+msgid "intro/modeInfoDescription"
+msgstr "Bori se u vozilima VIII-X nivoa na mapama sa novom mehanikom, završi ankete i dobij nagrade. Za nedelju dana napredak će biti poništen i možeš da započneš zarađivanje nagrada ponovo."
+
+msgid "intro/modeInfoTitle"
+msgstr "Pomozi nam da razvijemo nove mehanike!"
+
+msgid "intro/startEvent"
+msgstr "Događaj počinje za: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Prilikom borbe u misiji izviđanja, možeš da završiš dnevne misije i misije Borbene propusnice i da ispuniš uslove za progresivne nalepnice."
+
+msgid "intro/taskInfoTitle"
+msgstr "Bori se po pravilima nasumičnih borbi"
+
+msgid "intro/time/period/day"
+msgstr "{day} d"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} d {hours} h"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} h {min} min"
+
+msgid "intro/time/period/minute"
+msgstr "{min} min"
+
+msgid "intro/title"
+msgstr "IZVIDJAČKA MISIJA"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s ne može da se bori u misiji izviđanja."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Nekompatibilian tip vozila"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Izaberi %(levelSubStr)s nivoa za učestvovanje u izviđačkoj misiji."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nekompatibilian nivo vozila"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Vozilo %(levels)s nivoa"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)sne može da se bori u izviđačkoj misiji."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Nekompatibilno vozilo"
+
+msgid "mapboxTab"
+msgstr "Izviđačka misija"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Etapa na serveru %(server)s se završila"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Borbe na serveru %(server)s\nće biti dostupne na još %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Na serveru %(server)s\nBorbe će biti dostupne za %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Primirje je uvedno na svim serverima"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Ovaj režim je nedostupan na %(server)s serveru"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Borbe na %(server)s serveru će biti dostupne za još %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Borbe na serveru %(server)s će početi za %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Borbe u ovom režimu su nedostupne: Sezona je gotova."
+
+msgid "primeTimeView/status/untill"
+msgstr "Primirje je uvedno na %(server)s serveru do %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "IZVIDJAČKA MISIJA"
+
+msgid "primeTimes/availableServer"
+msgstr "Dostupan server:"
+
+msgid "primeTimes/availableServers"
+msgstr "Dostupni serveri:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Borbe su završene"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Ovaj režim je nedostupan na %(serverName)s serveru"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Bori se u borbama"
+
+msgid "progression/cardTitle/rating"
+msgstr "Budi među najboljih {rating} igrača po zarađenom iskustvu"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Budi među najboljih {rating} igrača po zarađenom iskustvu na mapi sa vatrom"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Budi među najboljih {rating} igrača po zarađenom iskustvu na mapi sa maglom"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Budi među najboljih {rating} igrača po zarađenom iskustvu na mapi sa teškom kišom"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Budi među najboljih {rating} igrača po zarađenom iskustvu na mapi sa peščanom olujom"
+
+msgid "progression/changeAnswer"
+msgstr "Promeni odgovor"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Bori se u vozilima VIII-X nivoa na mapama sa novom mehanikom, završi ankete i dobij nagrade."
+
+msgid "progression/info/restart"
+msgstr "Napredak sa nagradama će biti poništen u %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Budi među najboljih %(rating) igrača po zarađenom iskustvu: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "O DOGAĐAJU"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "MEHANIKA\nIGRE"
+
+msgid "progression/map_fire"
+msgstr "VATRA"
+
+msgid "progression/map_fog"
+msgstr "MAGLA"
+
+msgid "progression/map_heavy_rain"
+msgstr "TEŠKA KIŠA"
+
+msgid "progression/map_sandstorm"
+msgstr "PEŠČANA OLUJA"
+
+msgid "progression/redirect"
+msgstr "Idi na režim"
+
+msgid "progression/startInterview"
+msgstr "Uradi anketu"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Ispuni uslove iznad da bi uradio anketu."
+
+msgid "progression/startSpecialInterview"
+msgstr "Uradi anketu"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Ispuni uslove iznad da bi uradio anketu."
+
+msgid "progression/subtitle"
+msgstr "Ovde možeš popuniti anketu o novoj mehanici"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s č %(min)s min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "progression/title"
+msgstr "IZVIDJAČKA MISIJA"
+
+msgid "progressionError/description/line1"
+msgstr "Tvoj napredak je sačuvan. Možeš da nastaviš sa igrom."
+
+msgid "progressionError/description/line2"
+msgstr "Moći ćeš da vidiš svoj napredak i obaviš anketu uskoro."
+
+msgid "progressionError/title"
+msgstr "Detalji izviđačke misije su trenutno nedostupni"
+
+msgid "questFlag/complete"
+msgstr "Sve nagrade preuzete"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Bori se u %(highlightedText)s, završi ankete i dobij nagrade."
+
+msgid "questFlag/frozen/header"
+msgstr "Izviđačka misija je nedostupna"
+
+msgid "questFlag/frozen/text"
+msgstr "Borbe u Izviđačkoj misiji su nedostupne iz tehničkih razloga."
+
+msgid "questFlag/highlightedText"
+msgstr "Vozila VIII-X nivoa na mapama sa novom mehanikom"
+
+msgid "questFlag/incomplete"
+msgstr "Broj potrebnih borbi za dobijanje sledeće nagrade: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Borbi vođeno:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Anketi urađeno: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Istraživanje mapa sa novom mehanikom će početi %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Istraživanje mapa sa novom mehanikom će trajati do %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Raspored"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Sezona se završava za:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr " - "
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Raspored borbi"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Danas"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Sutra"
+
+msgid "serverAlertMessage/button"
+msgstr "Izaberi drugi server"
+
+msgid "survey/backBtn"
+msgstr "Nazad"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "Art."
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/fire/question/q1"
+msgstr "Da li si uživao u igri na Muranovka mapi sa mehanikom vatre?"
+
+msgid "survey/fire/question/q2"
+msgstr "Šta misliš o vizuelnom dizajnu vatre na Muranovka mapi?"
+
+msgid "survey/fire/question/q3"
+msgstr "Da li bi voleo da promeniš uticaj vatre na igru na Muranovka mapi?"
+
+msgid "survey/fire/question/q4"
+msgstr "Kako bi tačno menjao uticaj vatre na igru na Muranovka mapi?"
+
+msgid "survey/fire/question/q5"
+msgstr "Kakve tipove vozila si igrao na Muranovka mapi?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Kako se {value} igra menjala na Muranovka mapi?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Kako se {value} igra menjala na Muranovka mapi?"
+
+msgid "survey/fire/question/q7"
+msgstr "Da li bi voleo da vidiš vatru na svim mapama u nasumičnim borbama?"
+
+msgid "survey/fire/question/q8"
+msgstr "Šta ti se nije svidelo o mehanici vatre na Muranovka mapi?"
+
+msgid "survey/fire/question/q9"
+msgstr "Navedi neophodna poboljšanja."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Da, jeste"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Ne, nije"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Nisam siguran"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Svidelo mi se"
+
+msgid "survey/fire/response/q2_2"
+msgstr "U redu je"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Nije mi se svidelo"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Nisam siguran"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Da bih"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Ne nebih"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Nisam siguran"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Neka bude jače"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Neka bude slabije"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "Art."
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Ne mogu da se setim"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Bolje je"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Lošije je"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Nisam siguran"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Bolje je"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Lošije je"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Nisam siguran"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Da bih"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Ne nebih"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Nisam siguran"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Vatra drastično smanjuje broj dostupnih pozicija"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Jedan od timova dobija prednost"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Tehnički problemi"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Ostalo"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Vatra izaziva previše štete"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Protivnici van zone ne mogu da vide moje vozilo, ali ni ja njihovo."
+
+msgid "survey/fire/response/q8_4"
+msgstr "Lokacija vatre na mapi"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Kako vatra izgleda"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Previše utiče na igru na mapi"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Premalo utiče na igru na mapi"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Vizuali vatre smetaju u borbi"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Vatra prisiljava bliske sukobe"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Ispostava"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjord"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Ispostava"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjord"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Ispostava"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjord"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "Art."
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "Art."
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/fog/question/q1"
+msgstr "Da li si uživao u igri na sledećim mapama sa mehanikom magle?"
+
+msgid "survey/fog/question/q10"
+msgstr "Da li bi voleo da vidiš maglu na svim mapama u nasumičnim borbama?"
+
+msgid "survey/fog/question/q11"
+msgstr "Šta ti se nije svidelo o mehanici magle na Fjord mapi?"
+
+msgid "survey/fog/question/q12"
+msgstr "Šta ti se nije svidelo o mehanici magle na Ispostava mapi?"
+
+msgid "survey/fog/question/q13"
+msgstr "Navedi neophodna poboljšanja."
+
+msgid "survey/fog/question/q2"
+msgstr "Šta misliš o vizuelnom dizajnu magle na sledećim mapama?"
+
+msgid "survey/fog/question/q3"
+msgstr "Da li bi voleo da promeniš uticaj magle na igru na mapi?"
+
+msgid "survey/fog/question/q4"
+msgstr "Kako bi tačno menjao uticaj magle na igru na Fjord mapi?"
+
+msgid "survey/fog/question/q5"
+msgstr "Kako bi tačno menjao uticaj magle na igru na Ispostava mapi?"
+
+msgid "survey/fog/question/q6"
+msgstr "Kakve tipove vozila si igrao na Fjord mapi?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Kako se {value} igra menjala na Fjord mapi?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Kako se {value} igra menjala na Fjord mapi?"
+
+msgid "survey/fog/question/q8"
+msgstr "Kakve tipove vozila si igrao na Ispostava mapi?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Kako se {value} igra menjala na Ispostava mapi?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Kako se {value} igra menjala na Ispostava mapi?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Da bih"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Ne nebih"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Nisam siguran"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Protivnici van zone ne mogu da vide moje vozilo, ali ni ja njihovo."
+
+msgid "survey/fog/response/q11_10"
+msgstr "Ostalo"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Lokacija magle na mapi"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Kako magla izgleda"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Previše utiče na igru na mapi"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Premalo utiče na igru na mapi"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Vizuali magle smetaju u borbi"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Magla prisiljava bliske sukobe"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Jedan od timova dobija prednost"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Tehnički problemi"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Protivnici van zone ne mogu da vide moje vozilo, ali ni ja njihovo."
+
+msgid "survey/fog/response/q12_10"
+msgstr "Ostalo"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Lokacija magle na mapi"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Kako magla izgleda"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Previše utiče na igru na mapi"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Premalo utiče na igru na mapi"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Vizuali magle smetaju u borbi"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Magla prisiljava bliske sukobe"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Jedan od timova dobija prednost"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Tehnički problemi"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Da, jeste"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Ne, nije"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Nisam siguran"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Svidelo mi se"
+
+msgid "survey/fog/response/q2_2"
+msgstr "U redu je"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Nije mi se svidelo"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Nisam siguran"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Da bih"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Ne nebih"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Nisam siguran"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Neka bude jače"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Neka bude slabije"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Neka bude jače"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Neka bude slabije"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "Art."
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Ne mogu da se setim"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Bolje je"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Lošije je"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Nisam siguran"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Bolje je"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Lošije je"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Nisam siguran"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "Art."
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Ne mogu da se setim"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Bolje je"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Lošije je"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Nisam siguran"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Bolje je"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Lošije je"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Nisam siguran"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Vestfild"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Ribarev zaliv"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Vestfild"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Ribarev zaliv"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Vestfild"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Ribarev zaliv"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "Art."
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "Art."
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Da li si uživao u igri na sledećim mapama sa mehanikom teške kiše?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Da li bi voleo da vidiš tešku kišu na mapama u nasumičnim borbama?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Šta ti se nije svidelo o mehanici teške kiše na Vestfild mapi?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Šta ti se nije svidelo o mehanici teške kiše na Ribarev zaliv mapi?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Navedi neophodna poboljšanja."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Šta misliš o vizuelnom dizajnu teške kiše na sledećim mapama?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Da li bi voleo da promeniš uticaj teške kiše na igru na mapi?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Kako bi tačno menjao uticaj teške kiše na igru na Vestfild mapi?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Kako bi tačno menjao uticaj teške kiše na igru na Ribarev zaliv mapi?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Kakve tipove vozila si igrao na Vestfild mapi?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Kako se {value} igra menjala na Vestfild mapi?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Kako se {value} igra menjala na Vestfild mapi?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Kakve tipove vozila si igrao na Ribarev zaliv mapi?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Kako se {value} igra menjala na Ribarev zaliv mapi?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Kako se {value} igra menjala na Ribarev zaliv mapi?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Da bih"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Ne nebih"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Nisam siguran"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Previše je klizavo u zoni teške kiše"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Tehnički problemi"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Ostalo"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Protivnici van zone ne mogu da vide moje vozilo, ali ni ja njihovo."
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Lokacija teške kiše na mapi"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Kako teška kiša izgleda"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Previše utiče na igru na mapi"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Premalo utiče na igru na mapi"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Vizuali teške kiše smetaju u borbi"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Teška kiša prisiljava bliske sukobe"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Jedan od timova dobija prednost"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Previše je klizavo u zoni teške kiše"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Tehnički problemi"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Ostalo"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Protivnici van zone ne mogu da vide moje vozilo, ali ni ja njihovo."
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Lokacija teške kiše na mapi"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Kako teška kiša izgleda"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Previše utiče na igru na mapi"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Premalo utiče na igru na mapi"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Vizuali teške kiše smetaju u borbi"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Teška kiša prisiljava bliske sukobe"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Jedan od timova dobija prednost"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Da, jeste"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Ne, nije"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Nisam siguran"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Svidelo mi se"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "U redu je"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Nije mi se svidelo"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Nisam siguran"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Da bih"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Ne nebih"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Nisam siguran"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Neka bude jače"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Neka bude slabije"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Neka bude jače"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Neka bude slabije"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "Art."
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Ne mogu da se setim"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Bolje je"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Lošije je"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Nisam siguran"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Bolje je"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Lošije je"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Nisam siguran"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "Art."
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Ne mogu da se setim"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Bolje je"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Lošije je"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Nisam siguran"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Bolje je"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Lošije je"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Nisam siguran"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Sledeći"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Razumem!"
+
+msgid "survey/required"
+msgstr "Odgovori na pitanje za nastavak."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "Art."
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Da li si uživao u igri na Peščana reka mapi sa mehanikom Peščane oluje?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Šta misliš o vizuelnom dizajnu Peščane oluje na Peščana reka mapi?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Da li bi voleo da promeniš uticaj Peščane oluje na igru na Peščana reka mapi?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Kako bi tačno menjao uticaj Peščane oluje na igru na Peščana reka mapi?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Kakve tipove vozila si igrao na Peščana reka mapi?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Kako se {value} igra menjala na Peščana reka mapi?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Kako se {value} igra menjala na Peščana reka mapi?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Da li bi voleo da vidiš Peščane oluje na svim mapama u nasumičnim borbama?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Šta ti se nije svidelo o mehanici Peščane oluje na Peščana reka mapi?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Navedi neophodna poboljšanja."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Da, jeste"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Ne, nije"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Nisam siguran"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Svidelo mi se"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "U redu je"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Nije mi se svidelo"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Nisam siguran"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Da bih"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Ne nebih"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Nisam siguran"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Neka bude jače"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Neka bude slabije"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "Lov. T"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "Art."
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "Teš. T"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "Lak. T"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "Sred. T"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Ne mogu da se setim"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Bolje je"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Lošije je"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Nisam siguran"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Bolje je"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Lošije je"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Nije se menjalo"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Nisam siguran"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Da bih"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Ne nebih"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Nisam siguran"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Protivnici van zone ne mogu da vide moje vozilo, ali ni ja njihovo."
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Ostalo"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Lokacija Peščane oluje na mapi"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Kako Peščana oluja izgleda"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Previše utiče na igru na mapi"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Premalo utiče na igru na mapi"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Vizuali Peščane oluje smetaju u borbi"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Peščana oluja prisiljava bliske sukobe"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Jedan od timova dobija prednost"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Tehnički problemi"
+
+msgid "survey/subTitle"
+msgstr "Hvala što si odvojio vreme da učestvuješ u ovoj anketi! Trajaće oko dva minuta. Tvoji odgovori će biti upotrebljeni samo za potrebe sprovođenja ove ankete i bilo koji privatni podaci će biti obrisani u skladu sa našom politikom privatnosti."
+
+msgid "survey/template/final/title"
+msgstr "Hvala za to što si odvojio vreme da učestvuješ u ovoj anketi!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "KLIKNI NA MAPU DA IZABEREŠ POZICIJU"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "MOŽEŠ DA IZABEREŠ DO TRI POZICIJE NA MAPI"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Detaljan opis (do %(maxLength)s karaktera)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Pozicija"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Ukloni poziciju"
+
+msgid "survey/template/opened/description"
+msgstr "Detaljan opis problema (do %(maxLength)s karaktera)"
+
+msgid "survey/title/common"
+msgstr "Molimo te oceni nove stvari"
+
+msgid "survey/title/map"
+msgstr "Ocena mape %(map)s"

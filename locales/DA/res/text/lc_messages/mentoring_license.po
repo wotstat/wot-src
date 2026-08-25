@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "For at bekræfte, indtast mængden af xp hos det mandskabsmedlem, der er udvalgt til overførsel."
+
+msgid "assignmentDialog/price"
+msgstr "Pris:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Overfør al mandskabs xp mellem mandskabsmedlemmer"
+
+msgid "assignmentDialog/title"
+msgstr "Bekræft mentorklasse"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Dette mandskabsmedlem vil blive fjernet fra\ndin konto uden genopretning."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} ekstra xp vil gå tabt."
+
+msgid "dialogue/description"
+msgstr "En forbrugsvare, der gør det muligt at overføre al mandskabs xp mellem mandskabsmedlemmer fra samme nation."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Ekstra xp vil gå tabt:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "VÆLG"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Samlet xp:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Mentorlicens(er):{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Ingen passende mandskabsmedlemmer"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Vælg det mandskabsmedlem, som vil overføre deres xp\ntil {cream_Open}%(name)s{cream_Close} og blive fjernet fra din konto."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Efter mandskabs xp er overført, vil {cream_Open}%(name)s{cream_Close} nå grænsen for evner, og al xp over grænsen vil gå tabt."
+
+msgid "mentorAssigment/title"
+msgstr "VÆLG MENTOR"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close}, har nået grænsen for evner, og kan ikke vælges til overførsel af xp."
+
+msgid "multipleUserName"
+msgstr "Mentorlicenser"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Mentorlicens(er) brugt: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Mandskabs xp overført: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "MENTORKLASSE"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Ekstra mandskabs xp tabt: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Gør det muligt at overføre al mandskabs xp mellem\nmandskabsmedlemmer fra samme nation."
+
+msgid "storage/userName"
+msgstr "Mentorlicens"
+
+msgid "userName"
+msgstr "Mentorlicens"

@@ -1,0 +1,71 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "boxTooltip/description/text/fractal_cn_common"
+msgstr "Kada su otvorene, ove kutije vam mogu dati vozila, valute u igri i ostale vrijedne nagrade."
+
+msgid "boxTooltip/description/text/fractal_cn_epic"
+msgstr "Kada su otvoreni, ove kutije vam mogu dati vozila, valute u igri, elemente prilagodbe i ostale vrijedne nagrade."
+
+msgid "boxTooltip/description/text/fractal_cn_rare"
+msgstr "Kada su otvoreni, ove kutije vam mogu dati vozila, valute u igri, elemente prilagodbe i ostale vrijedne nagrade."
+
+msgid "boxTooltip/howGet/text/fractal_cn_common"
+msgstr "Može se dobiti iz prodavaonice u igri i primiti nakon otvaranja kutija bilo kojeg tipa."
+
+msgid "boxTooltip/howGet/text/fractal_cn_epic"
+msgstr "Možete se primiti prilikom otvaranja bilo kojeg drugog tipa kutija."
+
+msgid "boxTooltip/howGet/text/fractal_cn_rare"
+msgstr "Možete se primiti prilikom otvaranja bilo kojeg drugog tipa kutija."
+
+msgid "common/boxCategory/lowerCase/fractal_cn_common"
+msgstr "NEBESKA KUTIJA"
+
+msgid "common/boxCategory/lowerCase/fractal_cn_epic"
+msgstr "ODABRANA KUTIJA PLIJENA"
+
+msgid "common/boxCategory/lowerCase/fractal_cn_rare"
+msgstr "Kutija rajske pomoći"
+
+msgid "common/boxCategory/upperCase/fractal_cn_common"
+msgstr "NEBESKA KUTIJA"
+
+msgid "common/boxCategory/upperCase/fractal_cn_epic"
+msgstr "ODABRANA KUTIJA PLIJENA"
+
+msgid "common/boxCategory/upperCase/fractal_cn_rare"
+msgstr "KUTIJA RAJSKE POMOĆI"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ovo su posebne kutije koje sadrže nove i jedinstvene predmete. Mogu se dobiti u prodavaonici u igri."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Akcija će završiti za"
+
+msgid "eventName/lowerCase"
+msgstr "Božji blagoslov"
+
+msgid "eventName/upperCase"
+msgstr "BOŽJI BLAGOSLOV"
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Ako sva vozila već imate, umjesto njih ćete dobiti Odabranu kutiju plijena."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ako već imate sva vozila iz kutija, dobit ćete Odabranu kutiju plijena kao nagradu umjesto vozila."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Svaka %(guaranteed0)s nebeska, %(guaranteed1)s kutija rajske pomoći i %(guaranteed2)s odabrana kutija jamačno sadrži vozilo. Ako ih otvorite bez primitka takvog vozila, tada će vozilo koje još nemate biti primljeno kada otvorite %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. kutiju (ovisno o tipu kutije). Kada primite, brojač se poništava."
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Nadoknada"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Zajamčena nagrada"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Ne može se dobiti više od jedne nagrade po grupi"

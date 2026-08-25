@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Takođe primljeno:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Ova serija misija može da se odigra ponovo."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Razumem!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Zatvori"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Pogledaj u garaži"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Ponovi"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Ka Retorti"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT premijum nalog"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Premijum vozilo"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Vozilo za iznajmljivanje"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "i stil \"{{styleName}}\""
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) dan"
+msgstr[1] "%(day) dana"
+msgstr[2] "%(day) dana"
+
+msgid "awards_view/title"
+msgstr "RETORTA JE ZAVRŠENA!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Misija za ×5 iskustva po borbi"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Fragment nacrta (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Univerzalan fragment nacrta"
+
+msgid "bonuses/bpcoin"
+msgstr "Žeton borbene propusnice"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Misija za ×3 iskustva posade"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Komplet 3D dodataka"
+
+msgid "bonuses/description/booster"
+msgstr "Lična Rezerva"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Nagradna oprema"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Izgled posade"
+
+msgid "bonuses/description/directive"
+msgstr "Direktiva"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Eksperimentalna oprema"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Poboljšana oprema"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "i stil \"%(styleName)s\""
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standardna oprema"
+
+msgid "bonuses/description/style"
+msgstr "2D stil"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D stil"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Ženski član posade"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Regrutuj"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Član posade"
+
+msgid "condition/achievement"
+msgstr "Zaradi %(achievement)s nagradu"
+
+msgid "condition/achievement/title"
+msgstr "Heroji borbe"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Nanesi i asistiraj za ukupno %(goal)s štete"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Nanesi, primi i blokiraj ukupno %(goal)s poena štete"
+
+msgid "condition/aggregated/title"
+msgstr "Kompleksni uslovi"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Lovac tenkova"
+
+msgid "condition/classes/SPG"
+msgstr "Artiljerija"
+
+msgid "condition/classes/heavyTank"
+msgstr "Teški tenk"
+
+msgid "condition/classes/lightTank"
+msgstr "Laki tenk"
+
+msgid "condition/classes/mediumTank"
+msgstr "Srednji tenk"
+
+msgid "condition/critsCount"
+msgstr "nanesi %(goal)s kritičnih pogodaka internim ili eksternim modulima neprijateljskih vozila"
+
+msgid "condition/critsCount/title"
+msgstr "Imobiliši"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Blokiraj %(goal)s poena štete"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Blokiraj %(goal)s puta više štete od poena izdržljivosti svog vozila"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Blok"
+
+msgid "condition/damageDealt"
+msgstr "Izazovi %(goal)s poena štete neprijateljskim vozilima"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Nanesi %(goal)s puta više štete od poena izdržljivosti svog vozila"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Pogodi neprijateljsko vozilo sa razdaljine od %(distance)s m ili manje %(goal)s puta"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Pogodi neprijateljsko vozilo sa razdaljine od %(distance)s m ili više %(goal)s puta"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Nanesi štetu neprijateljskim vozilima sudaranjem %(goal)s puta"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Pogodi neprijateljska vozila u vidokrugu svog vozila %(goal)s puta"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Nanesi %(goal)s poena štete u okviru prvih %(timeLimit)s minuta borbe"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima sa razdaljine od %(distance)s m ili manje"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima sa razdaljine od %(distance)s m ili veće"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Nanesi %(goal)s poena štete sudaranjem"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Udaranje"
+
+msgid "condition/damageDealt/title"
+msgstr "Šteta"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Nanesi %(goal)s poena štete neuočenim neprijateljskim vozilima"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Nanesi %(goal)s poena štete vozilima unutar vidokruga tvog vozila"
+
+msgid "condition/kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila"
+
+msgid "condition/kills/classes"
+msgstr "Uništi %(goal)s neprijateljskih %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Uništi %(goal)s neprijateljskih vozila %(classCount)s različita tipa"
+
+msgid "condition/kills/title"
+msgstr "Uništi"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Uništi %(goal)s neprijateljskih vozila bez pretrpljene bilo kakve štete"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Uništi %(goal)s neprijateljskih vozila ostajući neuočen"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Nanesi %(goal)s%% totalne štete koju je naneo tvoj tim"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Šteta"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Probij neprijateljski oklop %(goal)s puta"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Probijeno"
+
+msgid "condition/spotted"
+msgstr "Uoči %(goal)s neprijateljskih vozila"
+
+msgid "condition/spotted/title"
+msgstr "Uoči"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Uoči %(goal)s vozila ostajući prtom neuočen"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Uoči"
+
+msgid "condition/top/damageDealt"
+msgstr "Budi među najboljih %(rank)s igrača u svom timu po nanetoj šteti"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Budi među najboljih %(rank)s igrača u oba tima po nanetoj šteti"
+
+msgid "condition/top/title"
+msgstr "Najbolji igrač"
+
+msgid "condition/top/xp"
+msgstr "Budi među najboljih %(rank)s igrača u svom timu po zarađenom iskustvu"
+
+msgid "condition/unknown"
+msgstr "Tražim najpogodniju misiju..."
+
+msgid "condition/unknown/title"
+msgstr "Čekanje"
+
+msgid "postbattle/name"
+msgstr "RETORTA: "

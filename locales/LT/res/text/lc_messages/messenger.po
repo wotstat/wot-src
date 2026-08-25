@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Peržiūrėti naujas žinutes"
+
+msgid "battle/history/header"
+msgstr "Priešas"
+
+msgid "battle/history/latestMessage"
+msgstr "Peržiūrėti paskutinę žinutę"
+
+msgid "battle/history/title"
+msgstr "Pokalbių istorija:"
+
+msgid "battle/history/upMessage"
+msgstr "Peržiūrėti senas žinutes"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sPOKALBIAI IŠJUNGTI%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Mūšio pokalbiai žaidėjams iš jūsų šalies nepasiekiami."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Mūšio pokalbiai jums negalimi."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Mūšio pokalbiai neleidžiami dėl tėvų kontrolės."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Mūšio pokalbiai gali būti įjungti žaidimo nustatymuose."
+
+msgid "battle/receivers/common"
+msgstr "VISIEMS"
+
+msgid "battle/receivers/squad"
+msgstr "Į BŪRĮ"
+
+msgid "battle/receivers/team"
+msgstr "KOMANDAI"
+
+msgid "battle/toolTips/cancel"
+msgstr "atšaukti"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "pakeisti gavėją"
+
+msgid "battle/toolTips/default"
+msgstr "su paskutiniu adresatu"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Pokalbio metu:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Jūs galite užblokuoti žinutes iš pasirinkto žaidėjo paspausdami mygtuką šalia žaidėjo pranešimo pokalbių lange."
+
+msgid "battle/toolTips/send"
+msgstr "Siųsti"
+
+msgid "battle/toolTips/startChat"
+msgstr "Pradėti pokalbį:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Jūs galite pranešti apie netinkamą žinutę paspausdami ant jos ir pasirinkdami skundo priežastį. Jūs galite išjungti pokalbius arba įjungti tik saviškius pranešimus. Būrio pokalbiai veiks visais atvejais."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Naudoti pokalbį"
+
+msgid "battle/toolTips/withSquad"
+msgstr "tik su būriu"
+
+msgid "battle/unknown/ally"
+msgstr "Sąjungininkas"
+
+msgid "battle/unknown/enemy"
+msgstr "Priešas"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Jūs būsite atjungtas nuo serverio %(curfewTime)s. Sesija baigsis po %(timeLeft)s min."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Jūs pasiekėte dienos žaidimo laiko limitą. Sesija baigsis po %(timeLeft)s min."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Jūs pasiekėte savaitės žaidimo laiko limitą. Sesija baigsis po %(timeLeft)s min."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Tu pasiekei savo žaidimo laiko limitą. Tavo sesija pasibaigs už %(timeLeft)s minučių."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Žinutėse iš nepažįstamų žaidėjų, gali būti pavojingų nuorodų. Neatidarinėkite nuorodų ir nesidalinkite savo slaptažodžiu su niekuo."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Dėmesio!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Mūšio rezultatai"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Žinutė iš %(playerName)s buvo užblokuota."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Siųsti pranešimą"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Siųsti pranešimą"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Žaidėjų paieška"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Balso pokalbių nustatymai"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "jūs negalite užblokuoti savęs."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Klaida vykdant \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Serveris užimtas."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "trūksta teisių operacijos įvykdymui."
+
+msgid "chat_error/NOT_READY"
+msgstr "Veiksmas \"%(actionName)s\" negalimas."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "vartotojas neegzistuoja."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "klaidingas parametras."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Balso pokalbiai išjungti. Norėdami bendrauti su būrio nariais, įjunkite balso pokalbius paspaudę %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Balso pokalbiai išjungti. Norėdami bendrauti su būrio nariais, įjunkite balso pokalbius (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Jūs ir %(player)s padėkojote vienas kitam."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s jums padėkojo."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s išsiųsta padėka."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Sąjungininkai susijungė į būrį %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Būrys %(squadNum)s susikūrė priešų komandoje."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Būrys %(squadNum)s sukurtas. Pasiekiami būrio ir balso pokalbiai. Norėdami išjungti balso pokalbius, paspauskite %(keyName)s."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Būrys %(squadNum)s sukurtas. Pasiekiami būrio ir balso pokalbiai. Norėdami įjungti balso pokalbius, paspauskite %(keyName)s."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Būrys %(squadNum)s sukurtas. Pasiekiami būrio ir balso pokalbiai. Nurodykite balso pokalbių įjungimo/išjungimo klavišą."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Būrys %(squadNum)s sukurtas. Galimi būrio pokalbiai."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Jūs prisijungėte į būrį %(squadNum)s. Pasiekiami būrio ir balso pokalbiai. Norėdami išjungti balso pokalbius, paspauskite %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Jūs prisijungėte į būrį %(squadNum)s. Pasiekiami būrio ir balso pokalbiai. Norėdami įjungti balso pokalbius, paspauskite %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Jūs prisijungėte į būrį %(squadNum)s. Pasiekiami būrio ir balso pokalbiai. Nurodykite balso pokalbių įjungimo/išjungimo klavišą."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Jūs prisijungėte į būrį %(squadNum)s. Galimi būrio pokalbiai."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Balso pokalbiai išjungti. Norėdami bendrauti su būrio nariais, įjunkite balso pokalbius paspaudę %(keyName)s."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Balso pokalbiai įjungti."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Jūs prisijungėte į būrį %(squadNum)s. Pasiekiami būrio ir balso pokalbiai. Norėdami išjungti balso pokalbius, paspauskite %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Jūs prisijungėte į būrį %(squadNum)s. Pasiekiami būrio ir balso pokalbiai. Norėdami įjungti balso pokalbius, paspauskite %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Jūs prisijungėte į būrį %(squadNum)s. Pasiekiami būrio ir balso pokalbiai. Nurodykite balso pokalbių įjungimo/išjungimo klavišą."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Jūs prisijungėte į būrį %(squadNum)s. Galimi būrio pokalbiai."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s prisijungė į būrį %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s pakvietė jus į būrį."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s pakvietė jus į būrį.\nDėmesio! Jūsų tikras žaidimo vardas ir klano žyma bus rodomi būrio nariams."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s pakviestas į būrį."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Jums buvo uždrausta siųsti pranešimus %s sekundėm."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Komanda \"%s\" pristabdyta %s sekundėm."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Komanda \"%s\" pristabdyta."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Žinutė neleidžiama. Palaukite %s s."
+
+msgid "client/information/addToFriends/message"
+msgstr "Prašymas įtraukti žaidėją %s į jūsų draugų sąrašą išsaugotas."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Prašymas įtraukti žaidėją %s į juodąjį sąrašą išsaugotas. Pokalbiai su šiuo žaidėju užblokuoti ir žaidėjo žinutės paslėptos."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Pokalbiai su %s užblokuoti, žaidėjo žinutės nerodomos."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Nieko nerasta"
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Prašymas pašalinti žaidėją %s iš jūsų draugų sąrašo išsaugotas."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Prašymas pašalinti žaidėją %s iš juodojo sąrašo išsaugotas. Pokalbiai su šiuo žaidėju atstatyti."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Pokalbiai su %s vėl galimi."
+
+msgid "client/information/setMuted/message"
+msgstr "%s negali siųsti jums balso pranešimų."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s gali siųsti jums balso pranešimus."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Už neveiklumą bus baudžiama!\nPergalei būtinas komandinis darbas!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Tuščia užklausa."
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Vartotojų paieška"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Netinkamas užklausos ilgis arba neleistinas simbolis paieškos eilutėje. Leistinas paieškos eilutės ilgis: nuo %d iki %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Vartotojų paieška"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Įtraukti žaidėją į draugų sąrašą"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Sukurti grupę"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Įtraukti žaidėją į juodąjį sąrašą"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Patvirtinti prašymą draugauti"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Atmesti prašymą draugauti"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Redaguoti grupę"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Sukurti žaidėjo kanalą"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Žaidėjų paieška"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Prisijungti prie žaidėjo kanalo"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Išeiti iš žaidėjo kanalo"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Pašalinti žaidėją iš draugų sąrašo"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Pašalinti žaidėją iš juodojo sąrašo"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Ištrinti pastabą"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Nusiųsti kvietimą draugauti"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Peržiūrėti žinučių istoriją"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Žaidėjų kanalų paieška"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Siųsti pranešimą"
+
+msgid "client_action/SET_MUTE"
+msgstr "Išjungti balso pranešimus"
+
+msgid "client_action/SET_NOTE"
+msgstr "Sukurti/redaguoti pastabą"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Įjungti balso pranešimus"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Veiksmas \"%(actionName)s\" užšaldytas %(floatArg1)s s."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Veiksmas \"%(actionName)s\" laikinai negalimas. Pabandykite vėliau."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Jūs pasiekėte maksimalų kanalų skaičių. Uždarykite nereikalingus kanalus ir pabandykite dar kartą."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Kanalas \"%(strArg1)s\" jau egzistuoja."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Nenurodytas kanalo pavadinimas."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Klaidingas kanalo pavadinimas \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Slaptažodžio patvirtinimas klaidingas."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Nenurodytas kanalo slaptažodis."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Klaidingas kanalo slaptažodis."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Neįvestas slaptažodžio patvirtinimas."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Klaidingas slaptažodžio patvirtinimas."
+
+msgid "client_error/command/generic_error"
+msgstr "Klaida vykdant komandą \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "komanda užšaldyta %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "komandos %(strArg1)s klientas nepalaiko."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "klaidinga užblokavimo trukmė %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "klaidingas užblokavimo tipas %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "klaidingas žaidėjo vardas %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Žaidėjas \"%(strArg1)s\" yra jūsų juodajame sąraše."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Žaidėjo \"%(strArg1)s\" nėra jūsų juodajame sąraše."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Žaidėjas nerastas."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Jūs patvirtinote prašymą draugauti iš \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Jūs atmetėte prašymą draugauti iš \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Jūsų atsakymas į kvietimą draugauti iš \"%(strArg1)s\" šiuo metu apdorojamas."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Nenurodytas grupės vardas."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Grupė \"%(strArg1)s\" jau egzistuoja."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Neteisingas grupės pavadinimas %(strArg1)s"
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Grupė \"%(strArg1)s\" nerasta."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Balso pokalbiai įjungti žaidėjui \"%(strArg1)s\"."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Pastabos tekstas neįvestas."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Žaidėjas \"%(strArg1)s\" pastabų neturi."
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Žaidėjas \"%(strArg1)s\" yra jūsų draugas."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Žaidėjas \"%(strArg1)s\" nerastas jūsų draugų sąraše."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Kanalo pavadinime turi būti %(int32Arg1)s–%(int32Arg2)s simboliai."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Grupės pavadinimas neturėtų viršyti %(int32Arg2)s simbolių."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Maksimalus skaičius žaidėjų juodajame sąraše %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Maksimalus sukurtų grupių skaičius %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Gaila, bet jūs negalite turėti daugiau nei %(int32Arg2)s žaidėjų savo draugų sąraše. Pašalinkite tuos žaidėjus, su kuriais nežaidžiate."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Tekstas pastaboje neturėtų būti ilgesnis nei %(int32Arg2)s simboliai."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Slaptažodyje turi būti %(int32Arg1)s–%(int32Arg2)s simbolių."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Neteisingas žaidėjo ID"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Klaida vykdant \"%(actionName)s\""
+
+msgid "client_error/shared/LOCKED"
+msgstr "Veiksmas \"%(actionName)s\" laikinai negalimas. Pabandykite vėliau."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Žaidėjo vardas nenurodytas."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Neteisingas žaidėjo vardas %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Nepavyko prisijungti prie pokalbių serverio. Pabandykite vėliau."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Veiksmas \"%(actionName)s\" yra nepalaikomas žaidime."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Įvyko klaida, pabandykite vėliau."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Iki skaičiavimo pradžios kai kurios funkcijos išjungtos."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Nurodyti neteisingi duomenys."
+
+msgid "command/acceptInvite"
+msgstr "Priimti pakvietimą"
+
+msgid "command/addFriend"
+msgstr "Įtraukti žaidėją į draugų sąrašą"
+
+msgid "command/addIgnored"
+msgstr "Įtraukti žaidėją į juodąjį sąrašą"
+
+msgid "command/broadcast"
+msgstr "Siųsti pranešimą"
+
+msgid "command/createChatChannel"
+msgstr "Sukurti kanalą"
+
+msgid "command/createInvite"
+msgstr "Sukurti pakvietimą"
+
+msgid "command/createPrivate"
+msgstr "Sukurti privatų kanalą"
+
+msgid "command/findChatChannels"
+msgstr "Kanalų paieška"
+
+msgid "command/findUser"
+msgstr "Žaidėjų paieška"
+
+msgid "command/getActiveInvites"
+msgstr "Peržiūrėti pakvietimų sąrašą"
+
+msgid "command/getArchiveInvites"
+msgstr "Peržiūrėti pakvietimų archyvą"
+
+msgid "command/getMembersCount"
+msgstr "Peržiūrėti žaidėjų skaičių kanale"
+
+msgid "command/leaveChatChannel"
+msgstr "Išeiti iš kanalo"
+
+msgid "command/rejectInvite"
+msgstr "Atsisakyti pakvietimo"
+
+msgid "command/removeFriend"
+msgstr "Šalinti šį žaidėją iš draugų sąrašo"
+
+msgid "command/removeIgnored"
+msgstr "Pašalinti žaidėją iš juodojo sąrašo"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Peržiūrėti klano narių sąrašą"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Peržiūrėti sisteminių kanalų sąrašą"
+
+msgid "command/setMuted"
+msgstr "Išjungti balso pranešimus"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s užblokuotas."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s atblokuotas."
+
+msgid "command/unsetMuted"
+msgstr "Įjungti balso pranešimus"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Paspauskite norėdami išsaugoti sukurtą kontaktų grupę."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Sukurti"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Paspauskite norėdami atšaukti kūrimą ir grįžti į kontaktų sąrašą."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Uždaryti"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Paspauskite norėdami ištrinti kontaktų grupę."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Pašalinti"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Paspauskite norėdami atšaukti trynimą ir grįžti į kontaktų sąrašą."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Atšaukti"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Paspauskite norėdami išsaugoti kontaktų grupę nauju pavadinimu."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Išsaugoti"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Paspauskite norėdami atšaukti redagavimą ir grįžti į kontaktų sąrašą."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Uždaryti"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Vardas neturi būti ilgesnis nei %(maxChars)s simbolių."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Paspauskite norėdami įtraukti į draugus."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Pridėti"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Paspauskite norėdami atšaukti žaidėjo paiešką ir grįžti į kontaktų sąrašą."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Uždaryti"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Paspauskite norėdami ieškoti žaidėjo pagal vardą."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Ieškoti"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Vardas privalo turėti nuo %(minChars)s iki %(maxChars)s raidžių ar skaičių."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Paieška užšaldyta %(time)s sekundėms dėl per dažnų užklausų."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Paspauskite norėdami išsaugoti pasirinktus nustatymus."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Pritaikyti"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Paspauskite norėdami atšaukti pakeitimus ir grįžti į kontaktų sąrašą."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Atšaukti"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Paspauskite norėdami sukurti kontaktų grupę."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Grupės kūrimas"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Paspauskite norėdami ieškoti pagal vardą žaidėjo, kuris nėra jūsų kontaktų sąraše."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Ieškoti ne kontaktų sąraše"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Paspauskite norėdami surasti ir įtraukti žaidėją į kontaktų sąrašą."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Žaidėjų paieška"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Paspauskite norėdami pakeisti kontaktų grupės nustatymus."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Nustatymai"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Vardas privalo turėti iki %(maxChars)s simbolių."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Siųsti komandą"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Šalinti iš komandos"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Uždaryti"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Sukurti kanalą"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Paieška ir prisijungimas"
+
+msgid "dialogs/channels/title"
+msgstr "Kanalai"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Uždaryti"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Jungtis"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Slaptažodžio ilgis turi būti nuo 3 iki 12 simbolių."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Neteisingas slaptažodis."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Jūs bandote prisijungti prie apsaugoto kanalo %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Įveskite slaptažodį:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Dėmesio"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Jungtis prie kanalo"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Pakviesti į klaną"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Įtraukti į \"Draugų\" sąrašus"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Įtraukti į juodąjį sąrašą"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Kopijuoti vardą"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Sukurti privatų kanalą"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Pervesti auksą"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Pašalinti iš \"Draugų\" sąrašo"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Pašalinti iš juodojo sąrašo"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Rodyti informaciją"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Rūšiuoti pagal vardą."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Rūšiuoti pagal būseną."
+
+msgid "dialogs/contacts/title"
+msgstr "Kontaktų sąrašas"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Klanas"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Draugai"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Prašymai draugauti"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Juodasis sąrašas"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Balso pranešimai išjungti"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Uždaryti"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Sukurti"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Bus sukurtas automatiškai"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Įveskite slaptažodį"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Kanalo pavadinimas"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Slaptažodis"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Patvirtinkite slaptažodį"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Reikalauti slaptažodžio jungiantis"
+
+msgid "dialogs/createChannel/title"
+msgstr "Sukurti kanalą"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Pasirinkite %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Pasirinkite %(level)s lygio mašiną"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Pasirinkite techniką"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Pasirinkite %(level)s lygio mašiną"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Technika: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Uždaryti"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Jungtis"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Ieškoti"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Paieškos rezultatai (pirmi %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Paieška"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Kanalo paieška"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Draugauti"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Į juodąjį sąrašą"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Uždaryti"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Ieškoti"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Informacija"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Paieškos rezultatai:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Paieška"
+
+msgid "dialogs/searchContact/title"
+msgstr "Ieškoti kontaktų"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Tarnybinis kanalas"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Pasirinkite VIII lygio mašiną"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Pagrindinis tikslas yra išlikti paskutiniu gyvu būriu."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "Fronto linijos režimas skirtas\ntik VIII lygio mašinoms."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ renginys +++\n+++ renginys +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Papildoma patirtis mūšyje\nžaidžiant su IV ir aukštesnio lygio technika"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Žaiskite to paties lygio mašinomis\npradedant nuo IV lygio ir gaukite papildomos patirties"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Žaidėjui priėmus kvietimą, jo tikras žaidimo vardas ir klano žyma bus rodomi jiems viso mūšio metu."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Pokalbių kanalas"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Mašinose sumontuoti eksperimentiniai moduliai: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Būsena: Išėjo pertraukėlės"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Būsena: Mūšyje"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Būsena: Nepasiruošęs"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Būsena: Atsijungė"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Būsena: Pasiruošęs"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Paleisti"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Pakviesti"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "kaltas"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "įtariamas"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Sąjungininkų sunaikinimas: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Išjungti balso pranešimus"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Įtraukti į draugus"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Įtraukti į juodąjį sąrašą"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Uždaryti"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Sukurti privatų kanalą"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Įjungti balso pranešimus"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Viso"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Sukurtas"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Paskutinis mūšis"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Būsena:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Žaidėjo informacija"
+
+msgid "events/enterChannel"
+msgstr "[%s] prisijungė prie kanalo"
+
+msgid "events/leaveChannel"
+msgstr "[%s] atsijungė nuo kanalo"
+
+msgid "keyboardChat"
+msgstr "Pokalbis"
+
+msgid "listView/emptyList/info"
+msgstr "pranešimų"
+
+msgid "listView/emptyList/invite"
+msgstr "kvietimų"
+
+msgid "listView/emptyList/offer"
+msgstr "specialių pasiūlymų"
+
+msgid "listView/emptyList/template"
+msgstr "Dar %(listType)s nėra."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Į naujienas"
+
+msgid "listView/news/header"
+msgstr "KAS NAUJO?"
+
+msgid "listView/title"
+msgstr "Pranešimų centras"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Mūšio laikas: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Siųsti"
+
+msgid "lobby/buttons/channels"
+msgstr "Kanalai"
+
+msgid "lobby/buttons/contacts"
+msgstr "Kontaktai"
+
+msgid "lobby/buttons/send"
+msgstr "Siųsti"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Uždaryti kanalą"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Rodyti datą prie pranešimų"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Rodyti laiką prie pranešimų"
+
+msgid "lobby/faq/close"
+msgstr "Uždaryti"
+
+msgid "lobby/faq/title"
+msgstr "DUK"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Įtraukti žaidėją į draugų sąrašą"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Įtraukti žaidėją į juodąjį sąrašą"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Kopijuoti vardą"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Sukurti privatų kanalą"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Peržiūrėti žaidėjo informaciją"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Ieškoti ne kontaktų sąraše"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Atšaukti"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Redaguoti grupę"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Pašalinti iš grupės"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Ištrinti grupę"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Paspauskite norėdami atšaukti ir sugrįžti į kontaktų sąrašą."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Uždaryti"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Paspauskite norėdami išsaugoti sukurtas pastabas apie žaidėją."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Sukurti"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Tempkite kontaktus čia"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Paspauskite norėdami atšaukti redagavimą ir grįžti į kontaktų sąrašą."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Uždaryti"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Paspauskite norėdami išsaugoti pakoreguotas pastabas apie žaidėją."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Išsaugoti"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Pagal jūsų užklausą nieko nerasta."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Nuolatinės formuotės"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Draugai"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Kita"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Juodasis sąrašas"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Prašymai draugauti"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Rasti žaidėją sąraše"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Jūs dar nepridėjote žaidėjų."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Kontaktų sąrašas tuščias"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Iš kontaktų sąrašo niekas neprisijungę."
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Pabandykite ieškoti ne kontaktų sąraše."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Atitikmenų nerasta"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Įveskite žaidėjo vardą."
+
+msgid "messenger/contacts/title"
+msgstr "Kontaktai"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Uždaryti"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Pridėti"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Tokia grupė jau egzistuoja"
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Žaidėjų paieška"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Uždaryti"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Sukurti"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Sukurti pastabą"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Uždaryti"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Išsaugoti"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Pavadinimas neturėtų viršyti %(maxChars)s simbolių."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Redaguoti pastabą"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "skirta "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Uždaryti"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Sukurti"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Grupės kūrimas"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Įveskite pavadinimą (iki %(symbols)s simbolių)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Įtraukiant kontaktus grupėje"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Atšaukti"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Pašalinti"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Grupės trynimas"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Uždaryti"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Išsaugoti"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Grupės redagavimas"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Įveskite pavadinimą (iki %(symbols)s simbolių)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Įveskite aprašymą (iki %(symbols)s simbolių)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Aprašymas neturėtų viršyti %(maxChars)s simbolių."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Žaidėjų paieška"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Priimti kaip grupę viename lange"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Rodyti neprisijungusius žaidėjus"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Rodyti kategoriją \"Kita\""
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Pranešimai iš kontaktų sąraše nesančių žaidėjų:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Priimti atskirame lange"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Atšaukti"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Pritaikyti"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Nustatymai"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Pridėta komponentų"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Pašalinti Kovinio leidimo taškai"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Žetonai paimti"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Manevravimo žetonai pašalinti"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Komponentai pašalinti"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Asmeniniai garbės taškai atimti"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Nurašyta laisvos patirties"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Kovinio žygio taškai panaikinti"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Pašalinti žetonai už tarnybos metus"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Pridėti Kovinio leidimo taškai"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Žetonai suteikti"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Manevravimo žetonai suteikti"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Pridėta komponentų"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Asmeniniai garbės taškai pridėti"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Gauta laisvos patirties"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Kovinio žygio taškai suteikti"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Pridėti žetonai už tarnybos metus"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Įtraukti visus kontaktus į gavėjų sąrašą."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Įtraukti pasirinktą kontaktą."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Ištrinti visus kontaktus iš gavėjų sąrašo."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Ištrinti pasirinktą kontaktą iš gavėjų sąrašo."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Veiksmas%(action)s buvo pristabdytas %(cooldownPeriod)s s."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Pasiekėte sukurtų kanalų skaičiaus ribą. Prašome, uždarykite nenaudojamus kanalus."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Klaida"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Nepavyko įtraukti vartotojo į draugų sąrašą."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Klaida"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Nepavyko įtraukti vartotojo į juodąjį sąrašą."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Klaida"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Kanalas tokiu vardu jau egzistuoja."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Klaida kuriant kanalą."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Kanalas pašalintas."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Klaida jungiantis prie kanalo."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Klaida vykdant pokalbių komandą: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Komanda %(command)s buvo įšaldyta %(cooldownPeriod)s s."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Žinutė neleidžiama. Per daug žinučių."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Jungimosi prie kanalo laukimo laikas baigėsi."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Nepavyko sukurti privataus kanalo: vartotojas šiuo metu yra atsijungęs."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Neleistinas simbolis"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Klaida"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Neleistinas parametras %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Klaida"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Neteisingas slaptažodis apsaugotam kanalui."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Klaida jungiantis prie kanalo."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Pokalbių inicializacija nepavyko."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/internalError/message"
+msgstr "Vidinė klaida, pabandykite vėliau."
+
+msgid "server/errors/internalError/title"
+msgstr "Klaida kuriant kanalą."
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Neleidžiamas kanalo pavadinimas"
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Klaida vykdant pakvietimo komandą."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Klaida"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "Vartotojas %(user)s jau buvo užblokuotas."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "Vartotojas %(user)s jau paskirtas moderatoriumi."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Vartotojas atsijungęs"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "Vartotojas %(user)s nėra kanalo moderatorius."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Pasiekta vartotojų skaičiaus šiam kanalui riba."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Klaida jungiantis prie kanalo"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Nepakanka teisių įvykdyti šią komandą."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Pokalbių klaida"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Norėdami pasijungti prie apsaugoto kanalo įveskite slaptažodį."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Klaida jungiantis prie kanalo"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Šiuo metu šio nustatymo pakeisti negalima."
+
+msgid "server/errors/sqlError/message"
+msgstr "DB užklausos klaida."
+
+msgid "server/errors/sqlError/title"
+msgstr "Klaida"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Šis vartotojas įtraukė jus į juodąjį sąrašą."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Klaida"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Toks vartotojas neegzistuoja."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Klaida"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Jūs pasiekėte kontaktų sąrašo vartotojų kiekio ribą."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Klaida"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Jūs pasiekėte maksimalų kanalų skaičių."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Jūs pasiekėte maksimalų simbolių skaičių kanalo pavadinime."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Jūs pasiekėte maksimalų simbolių skaičių slaptažodyje."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Kanalas \"%(strArg1)s\" jau egzistuoja."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Neleidžiami simboliai kanalo pavadinime."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Draudžiami žodžiai kanalo pavadinime."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Plieninis medžiotojas"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Tai specialios Plieniniam medžiotojui skirtos mašinos. Junkitės į Plieninį medžiotoją ir išbandykite ką gali šios mašinos."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Mašina sunaikinta"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Pasiektas lygis"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Uždirbti taškai"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Pergalė"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Pridėta"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Tikrai taip!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Eiti į operaciją"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Pasiekimai"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Akcija"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Kampanija baigta."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "WoT Plus koreguojamas patirties daugiklis pasiekiamas"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "WoT Plus koreguojamas patirties daugiklis nepasiekiamas"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Nepavyko papildyti ekipuotės tanke %s. Jūsų auksas bus prieinamas, kai WG Wallet darbas automatiškai atsistatys."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Nepavyko papildyti instrukcijų mašinai %s. Operacija laikinai negalima dėl profilaktikos."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Nepavyko atnaujinti instrukcijos tanke %s. Trūksta lėšų."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Nepavyko automatiškai atnaujinti instrukcijos tanke %s. Įdėkite ją patys."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Instrukcija mašinoje %s papildyta sėkmingai. Jūs išleidote "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Nepavyko atnaujinti ekipuotės tanke %s. Nusipirkite jos už auksą."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nepavyko atnaujinti tanko %s ekipuotės. Nepakanka kreditų."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Nepavyko papildyti ekipuotės tanke %s. Jūsų auksas bus prieinamas, kai WG Wallet darbas automatiškai atsistatys."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Ekipuotės papildymas tankui %s nepavyko. Papildykite patys."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Ekipuotė tanke %s atnaujinta sėkmingai. Jūs išleidote "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Nepavyko papildyti amunicijos tanke %s. Nusipirkite amunicijos už auksą."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Nepavyko atnaujinti tanko %s amunicijos. Nepakanka kreditų."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Nepavyko papildyti amunicijos tanke %s. Jūsų auksas bus prieinamas, kai WG Wallet darbas automatiškai atsistatys."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Amunicijos papildymas tankui %s nepavyko. Papildykite patys."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Amunicija tanke %s atnaujinta sėkmingai. Jūs išleidote "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Nepavyko pratęsti stiliaus nuomos %s. Nusipirkite stilių už auksą."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Nepavyko pratęsti stiliaus nuomos %s. Trūksta lėšų."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Nepavyko pratęsti stiliaus nuomos %s. Visas jūsų auksas bus pasiekiamas po WG Wallet veikimo automatinio atstatymo."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Pratęsti nuomą"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "%s išsinuomotas stilius mašinai %s greitai baigsis: liko 3 mūšiai."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "Stilius %s, išnuomotas %s, bus automatiškai pratęstas dar %s mūšiams po 3 mūšių."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Į išvaizdą"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "Pasibaigė išnuomoto stiliaus %s, uždėto ant %s, laikas. Jūs galite pratęsti stiliaus nuomą Išvaizdos ekrane."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Nepavyko automatiškai pratęsti stiliaus nuomos %s. Nusipirkite stilių rankiniu būdu."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Stiliaus nuoma %s sėkmingai pratęsta. Išleista "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Nepavyko suremontuoti tanko %s."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Nepavyko suremontuoti tanko %s. Nepakanka kreditų."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Nepavyko suremontuoti tanko %s. Jūsų auksas bus prieinamas, kai WG Wallet darbas automatiškai atsistatys."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Nepavyko suremontuoti tanko %s. Suremontuokite patys."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Tankas %s suremontuotas. Jūs išleidote "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "WoT Plus tankisto vėliava pasiekiama"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "WoT Plus tankisto vėliava nepasiekiama"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Pridėta antsiuvų"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "WoT Plus bonusas pasiekiamas"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "WoT Plus bonusas nepasiekiamas"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Įvykdyta misijų: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Jūs įvykdėte tankų akademijos misijų seriją."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Žetonai gali būti iškeisti į bet kurią išrandamą VI lygio mašiną."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Į mašinos pasirinkimą"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Įvykdyta tankų akademijos misijų: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Gautas apdovanojimas:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Akademijos žetonai panaudoti."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Gautas apdovanojimas:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Garažo vietos: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Nuomojamos mašinos: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Vykdydami treniruočių misijas uždirbkite vertingų resursų."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Į Tankų akademiją"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "VISKAS, KO REIKIA\nGERAI PRADŽIAI"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Akademijos žetonai"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Panaudoti neišleisti taškai"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Nepanaudoti taškai aktyvavus Elitinę grandinę: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Neišleisti taškai panaudoti: %(points)s skyriui %(chapter)s."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Standartinė įranga išsirinkimui"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Elitinė grandinė aktyvuota"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Elitinė grandinė sustabdyta"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Pasiektas taškų limitas"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Jūs uždirbote maksimalų taškų kiekį su %(vehName)s.\nApdovanojimas už pasiektą taškų limitą: %(bonusPoints)s.\nKovokite su kita mašina norėdami toliau rinkti taškus."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "Gautas stilius %(name)s. Jį galima iš karto uždėti ant mašinos ir jis bus toliau tobulinamas Kovinio leidimo sekoje."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Trofėjinė įranga išsirinkimui"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Jūs užbaigėte Kovinio leidimo skyrių %(chapter)s!\nGauti apdovanojimai:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Jūs užbaigėte Kovinio leidimo skyrių %(chapter)s!\nGauti apdovanojimai:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Jūs užbaigėte Kovinio leidimo sekos %(newLevel)s etapą.\n\nGautas apdovanojimas:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "%(chapter)s skyriuje pridėta etapų: %(levelCount)s\nJūs pasiekėte %(currentLevel)s etapą\nGauti apdovanojimai:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Jūs gavote apdovanojimus už anksčiau įvykdytus Kovinio leidimo etapus:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Jūs dabar gausite prizų ir iš bazinių, ir iš pagerintų prizų takelių."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Jūs gavote apdovanojimus už įveiktus etapus naudojant neišnaudotus taškus:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Jūs užbaigėte skyrių %(chapter)s.\nGautas apdovanojimas:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Tęskite kovą ir rinkite taškus!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Jūs įvykdėte visus pagrindinio Kovinio leidimo %(season)s skyrius.\nJūsų apdovanojimas:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Jūs užbaigėte %(chapter)s skyriaus %(newLevel)s etapą.\nGautas apdovanojimas:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Išnaudota laisvoji patirtis:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Išleista aukso:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Jūs nusipirkote Pagerintą leidimą ir visus etapus skyriui %(chapter)s.\nGavote apdovanojimus už visus šio skyriaus prizus:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Jums suteiktas bonusas už tai, kad nusipirkote Pagerintus leidimus:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Jūs dabar gausite tiek Bazinius, tiek ir Pagerintus apdovanojimus už visus sezono skyrius."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "%(chapter)s skyriuje pridėta etapų: %(levelCount)s\nJūs pasiekėte %(currentLevel)s etapą.\nGauti apdovanojimai:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Jums suteiktas bonusas už tai, kad nusipirkote Pagerintą leidimą:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Pagerintas leidimas galioja tik skyriui %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Jūs gavote apdovanojimus už anksčiau įvykdytus Kovinio leidimo etapus:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Šis Pagerintas leidimas veikia tik skyriui %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Jūs dabar skyriuje %(chapter)s gausite apdovanojimus ir iš bazinio, ir iš pagerinto apdovanojimų takelio."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Gautas numatytas prizas:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Pagerintas leidimas nupirktas"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Pagerintas leidimas nupirktas"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Etapai nupirkti"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Apdovanojimas suteiktas"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Elitinės grandinės etapas įvykdytas.\nSuteiktas apdovanojimas:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Įvykdyti Elitinės grandinės etapai: %(amount)s\nSuteikti apdovanojimai:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Įgulos narys:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Mūšio apdovanojimai"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Gauta %s dėl akcijos '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Gauta %s dėl akcijų '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s žetonai"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s kreditų"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s bonai"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s Jubiliejinių monetų"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s laisvos patirties"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s aukso"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Mūšis"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Gauta Kovinio leidimo taškų: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Gauta žetonų"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "kompensacija už saviškių padarytą žalą: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Gauta kreditų: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Gauta bonų"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Pralaimėjimas"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d už pirmąją dienos pergalę"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Lygiosios"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Mūšis baigėsi"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Kovinių rezervų taškai"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Gauti komponentai"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Gauta Jubiliejinių monetų"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Gauta patirties: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Puolimas"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Statinys"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Gauta pramoninių išteklių"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "klano"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "žaidėjo"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Gauta laisvos patirties"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Uždirbta aukso"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "Už prisijungimą į %(campaignName)s pajėgas jums suteiktas medalis %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Už tai, kad sėkmingai įvykdėte 45 grupės %(categoryName)s misijas kampanijoje %(campaignName)s, jums suteiktas medalis %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Už tai, kad sėkmingai įvykdėte 30 grupės %(categoryName)s misijų kampanijoje %(campaignName)s, jums suteiktas medalis %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Už tai, kad sėkmingai įvykdėte 15 grupės %(categoryName)s misijų kampanijoje %(campaignName)s, jums suteiktas medalis %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "bauda už žalą saviškiams: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Sveikiname!\nUž sėkmingą asmeninių misijų įvykdymą jūs gaunate šiuos apdovanojimus"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Sveikiname!\nUž sėkmingai įvykdytas kampanijos „Ilgai lauktas pastiprinimas“ asmenines užduotis gaunate šiuos apdovanojimus"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Sveikiname!\nUž sėkmingai įvykdytas kampanijos „Antrasis frontas“ asmenines užduotis gaunate šiuos apdovanojimus"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Sveikiname!\nUž sėkmingai įvykdytas abiejų kampanijų asmenines užduotis gaunate šiuos apdovanojimus"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Pridėta į Kreditų saugyklą"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Misija įvykdyta! Apdovanojimas"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Pasiekimai"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Gauta Kovinio leidimo taškų: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Gultai pridėti į Kareivines"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Pridėta žetonų"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Gauta kreditų"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Pridėta bonų"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Pridėta komponentų"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Pridėta Jubiliejinių monetų"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Pridėta laisvosios patirties"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Pridėta aukso"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Pridėta"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Kampanijos taškai: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Gauta augintinių"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Pridėta Wargaming Premium paskyros dienų"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Pridėta WoT Premium paskyros dienų"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Pridėta prizinių mūšių: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s kasdieniai"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s standartiniai"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Gauta garaže vietų"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Pridėta prizinių mūšių"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nStandartiniai, už pasirodymą užbaigtame etape: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nUž misijų įvykdymą: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nKasdieniai, už kvalifikacijoje gautą ševronų kiekį: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nStandartiniai, už kvalifikacijoje gautą ševronų kiekį: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Pasikeitimai ranguose"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nGauti ševronai"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nGauti ševronai"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nPerėjimas į divizioną: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nPerėjimas į lygas"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nIšsaugoti ševronai"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nJūs gavote rangą %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nJūs praradote rangą %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nRango skydas susilpnėjo"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nJokių pasikeitimų"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nRango skydas pralaužtas"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nIšsaugoti ševronai"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nGautas ševronas"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nPrarastas ševronas"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nGauti ševronai"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Reitingo taškai"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Už savo tarnybos metus jūs gaunate šiuos apdovanojimus"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Rekrutas"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Technika"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Mergina - tankistė"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Techninis pralaimėjimas"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Techninė pergalė"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Pergalė"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Viena vieta išimtiems žemėlapiams buvo pašalinta. %(mapName)s žemėlapis sugrįžo į rotaciją."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "Išimtas %(mapNames)s žemėlapis buvo pašalintas iš žaidimo. Jūs galite pasirinkti naują žemėlapį išėmimui."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Viena vieta išimtiems žemėlapiams buvo pašalinta. %(mapNames)s žemėlapis sugrįžo į rotaciją."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Akcija prasidėjo!\nTik 10 dienų turite progą iškeisti savo brėžinius į kitus vertingus daiktus."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Akcija baigėsi"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Iškeiskite savo brėžinius"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Brėžinių keitimas išjungtas dėl techninės profilaktikos."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Brėžinių keitimas atstatytas."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Nepamirškite atsiimti apdovanojimo!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Eiti išsirinkti"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Vis dar vykstančių kovų bonusai neįskaičiuoti."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Asmeninis rezervas \"%(boosterName)s\" buvo išjungtas dėl techninių priežasčių."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: asmeninis rezervas visiškai išnaudotas"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Prarasti rezervai:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Rezervai baigė galioti"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "kreditai"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "Laisvoji patirtis"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "Įgulos patirtis"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "Kovinė patirtis"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Bendras bonusas %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Uždaryti"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Jūs palikote klaną arba buvote iš jo pašalintas:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "Suteiktas %(element_name)s"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "Suteiktas medalis \"%(element_name)s\""
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "Suteiktas dryžius \"%(element_name)s\""
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Apdovanojimas gautas"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Gauta padėkų"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Žaidėjų žymos šiuo metu nepasiekiamos"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Žaidėjų žymos rodomos mūšyje"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Padėkos šiuo metu negalimos"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Padėkas galima gauti ir suteikti mūšyje"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Iš administracijos gavote %(gold)s aukso, %(credits)s kreditų."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Iš administracijos gavote %(credits)s kreditų."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Įgulos asistentas pasiekiamas"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Įgulos asistentas nepasiekiamas"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Kreditų ir aukso saugyklos atidarytos!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Aukcionas"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Kovinis leidimas"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Data"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Pašalinta žetonų"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Nuskaičiuota kreditų"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Nurašyta bonų"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Komponentai pašalinti"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Pašalinta Jubiliejinių monetų"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Nurašyta laisvos patirties"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Išskaičiuota aukso"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Finansinė operacija"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Aukcionas"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Gauta žetonų"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Gauta kreditų"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Gauta bonų"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Gauti komponentai"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Gauta Jubiliejinių monetų"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Gauta laisvos patirties"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Gautas auksas"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Apdovanojimas Mūsų laikų herojus"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "Medalis %(medalName)s gautus už %(battlesCount)s sužaistų mūšių\nLipdukai gauti už %(battlesCount)s sužaistų mūšių (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Operacijos su Išmontavimo rinkiniais laikinai negalimos dėl profilaktikos."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Operacijos su Išmontavimo rinkiniais vėl veikia. Atsiprašome už nepatogumus."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Atrakintas Kariško žetono fonas: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Atrakintas Kariško žetono graviravimas: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "Kariškas žetonas %(name)s"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "pasiekė lygį"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Naujas lygis"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Atrakintas"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Fonas"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Graviravimas"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Wargaming Premium paskyra baigsis %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Patvirtinti el. paštą"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "El. paštas nepatvirtintas"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Panaudotas eksperimentinis modulis"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Visi eksperimentiniai moduliai pašalinti"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Eksperimentiniai moduliai išmontuoti iš mašinų"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Scenarijus"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Įrangos instrukcijos išsirinkimui"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Kovinio leidimo taškai"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Universalus lankstinukas"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Bonai"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Kovinių rezervų taškai"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Eksperimentinė įranga išsirinkimui"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Universali licencija"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Pertreniravimo įsakymai"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Universali instrukcija"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Jūs gavote Jubiliejinių monetų: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Atrakinta dar vien vieta išimtiems žemėlapiams"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Nepavyko išimti žemėlapio su WoT Plus"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Priežastis"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Boosteroid prenumerata baigėsi."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Prenumerata baigėsi."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Mašina negalima"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Mašina"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Mašina galima"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Mašina"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Progresas anuliuotas"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Pereiti į misiją"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Dėmesio! Misijos %(missionShortName)s progresas buvo anuliuotas. Misijos sąlygų įvykdymas pradėtas iš naujo."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Misija: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operacija: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Jūs laikinai negali kovoti mūšiuose režime %(mode)s. Vėl galėsite žaisti %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Jūsų laikinas užblokavimas baigė galioti. Vėl galite žaisti režime %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Šiame mūšyje uždirbti kreditai, patirtis ir apdovanojimai nesuteikiami dėl %(reason)s režime %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Jūs gavote perspėjimą už %(reason)s režime %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Užblokavimas"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Užblokavimo pabaiga"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Jūs buvote nubausti"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Nesąžiningas žaidimas"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Paskelbtas karas klanui %(clan)s!\nPuolimas prasidės %(date)s %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Gynyba pralaužta!\nVisi puolimai atšaukti. Užpildykite valdymo centro patvarumo juostą, kad Tvirtovė vėl funkcionuotų."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Suplanuota kova su klanu %(clan)s atšaukta."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "Puolimas, suplanuotas %(time)s %(date)s prieš %(clan)s klaną, atšauktas: tvirtovių lygiai skiriasi daugiau nei vienu."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Statinys %(building)s pažeistas! Užpildykite patvarumo juostą, kad statinys vėl funkcionuotų."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Valdymo centras pažeistas! Užpildykite patvarumo juostą, kad Tvirtovė vėl funkcionuotų. Jeigu valdymo centras dar gaus žalos, jūsų gynyba neatsilaikys ir bus pralaužta."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Klanas %(clan)s paskelbė jums karą!\nPuolimas prasidės %(date)s %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Gynybos periodas nustatytas: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Gynybos periodas pakoreguotas. Naujas gynybos periodas: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Jūsų tvirtovės gynyba išjungta. Visų statinių lygis sumažintas iki IV lygio."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Sveikiname! Jūs patobulinote savo tvirtovę iki VIII lygio."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Sveikinam! Tvirtovė pilnai pasiruošusi veikti klano labui."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Paliaubų diena pakoreguota. Nauja paliaubų diena nenustatyta."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Nustatyta paliaubų diena: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Statinio %(building)s lygis pakilo.\nRuošiamas rezervas %(order)s pakeistas į pramoninius išteklius, kurie perkelti į statinio sandėlį."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Rezervas %(orderTypeName)s kompensuota ir paruoštas naudojimui."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Namų serveris pakeistas į %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Pridėta pramoninių išteklių: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Minusuota pramoninių išteklių: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Jūs priklausote statiniui %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Pridėta rezervų: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Minusuota rezervų: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Rezervas %(order)s naudojamas. Liko laiko: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Rezervas aktyvuotas"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Rezervas %(order)s pilnai išnaudotas."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "Paruošimas %(count)s rezervo(ų) %(order)s baigtas."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Rezervo \"Evakuacija\" veikimo laikas baigėsi.\n\n%(additional)s\nViso mūsų klanui: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Mūsų klanas papildomai išsaugojo: %(resInc)s\nPriešas panaudojo rezervą \"Rekvizicija\" ir papildomai priplėšė: %(resDec)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "Rezervo \"Rekvizicija\" veikimo laikas baigėsi.\n\n%(additional)s\nViso mūsų klanui: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Mūsų klanas papildomai priplėšė: %(resInc)s\nPriešas panaudojo rezervą \"Evakuacija\" ir papildomai išsaugojo: %(resDec)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Statinio %(building)s sandėlis jau pilnas.\nPanaudokite pramoninius išteklius rezervo ruošimui arba transportuokite juos į kitą statinį."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Neutralumo periodas jūsų tvirtovėje baigėsi.\nKiti klanai gali jus pulti - būkite pasiruošę!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Tvirtovė laikosi neutralumo\nKiti klanai negali jūsų pulti. Neutralumo periodas pasibaigs: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s vnt. pramoninių išteklių pridėta į valdymo centro sandėlį."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Pareiti į renginį"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Į seką"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Iš administracijos gavote %(gold)s aukso."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Aukcionas: jūsų statymas yra mažesnis nei konkurencingas statymas."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Jūsų šansai laimėti dabartinį aukcioną sumažėjo: jūsų statymas yra mažesnis nei konkurencingas statymas."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Į renginį"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Jūsų statymas pralaimėjo. Bus sugrąžinta:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Jūsų statymą aplenkė kiti žaidėjai. Jūsų statymas tuoj bus jums sugrąžintas."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Klaida"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Statymo klaida: lėšos nebuvo nuskaičiuotos. Pabandykite dar kartą."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Statymai tuoj baigsis."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Paskubėkite ir atlikite savo statymą!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Paskubėkite ir atlikite savo statymą. Daiktų kiekis ribotas."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Statymai naujai prekei prasidėjo!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Pridėti gultai į Kareivines"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Pašalinti gultai iš Kareivinių"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Asmeniniai rezervai"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Asmeniniai rezervai panaikinti"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Pridėta žetonų"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Pašalinta žetonų"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Kompensacija už"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "žetonais"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Kamufliažas"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "kreditais"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "bonais"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Emblema"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "Jubiliejinėmis monetomis"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "auksu"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Užrašas"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Efektas"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Dažai"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Vienaženklis numeris"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Dviženklis numeris"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Trijų skaitmenų skaičius"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Lipdukas"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Stilius"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Gauta kreditų"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Kreditai buvo išskaičiuoti iš jūsų sąskaitos"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Pridėta Įgulos knygų"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "įgula išsiųsta į Kareivines"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "įgula %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Pridėta įgulos apvalkalų"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Pašalinta įgulos apvalkalų"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "įgula %d%% išsiųsta į Kareivines"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "įgula pašalinta"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Gauta bonų"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Nurašyta bonų"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Asmeninės nuolaidos"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Pridėti apdovanojimai"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Pašalinti apdovanojimai"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Pridėti eksperimentiniai moduliai"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Pašalinti eksperimentiniai moduliai"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Pridėta"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Pašalinta"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Pridėta komponentų"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Komponentai pašalinti"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Ekipuotė"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Pašalinta ekipuotė"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Pridėta Jubiliejinių monetų"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Pašalinta Jubiliejinių monetų"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Riboto galiojimo asmeniniai rezervai"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Pridėti įsakymo blankai"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Nurašyta įsakymo blankų"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Laisvoji patirtis"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Pridėta laisvos patirties"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Nurašyta laisvos patirties"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Gauta aukso"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Išskaičiuota aukso"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Pridėta universalių fragmentų"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Pašalinta universalių fragmentų"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Kvitas"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Įtraukta į sandėlį"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Pašalinta ekipuotė"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Mašinose"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Pridėta %(nationName)s mašinų brėžinių fragmentų"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Pašalinta %(nationName)s mašinų brėžinių fragmentų"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Pridėta"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Pašalinta"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "vnt."
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Pridėta Wargaming Premium paskyros dienų"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Pašalinta Wargaming Premium paskyros dienų"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Wargaming Premium paskyra"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s gavo elitinių taškų: %(xpCount)s."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s pasiekė elitinį lygį %(level)s ir gavo %(xpCount)s elitinių taškų."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s pasiekė elitinį lygį %(level)s."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Daiktai iš"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam inventorius"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Pridėta prizinių mūšių"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Pašalinti priziniai mūšiai"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "nuomos dienos: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Gauta garaže vietų"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Vietos garaže pašalintos"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "WoT Premium paskyra"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Pridėta WoT Premium paskyros dienų"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Pašalinta WoT Premium paskyros dienų"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Naujokai"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Pridėta nepaskirstyta patirtis įgulos nariams"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Pašalinta nepaskirstyta patirtis iš įgulos narių"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Atleistas"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "Visi moduliai išrasti"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Pridėta %(vehicleName)s brėžinio fragmentų"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Pašalinta %(vehicleName)s brėžinio fragmentų"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Gauta technika"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Pašalinta technika"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Pridėta išnuomotos technikos"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Iš administracijos gavote ekipuotės: %(typeName)s \"%(itemName)s\" - %(amount)d vnt."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Į dėžes"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Paspauskite mygtuką norėdami pamatyti turinį."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Jūs gavote siuntinį:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Peržiūrėti"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Aktyvuoti vartai: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Vartų aktyvavimas"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Gauti daiktai:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Mes aktyvavome visus vartus ir iš jų gautą turinį perkėlėme į jūsų paskyrą:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Gauti apdovanojimai"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Mes atidarėme visas jūsų dėžes ir užskaitėme jums Šventinės operacijos apdovanojimus"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Gauti apdovanojimai"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Pridėta lipdukų: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Pridėtas lipdukas: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Į apklausą"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Žvalgybinė misija baigėsi. Ačiū už jūsų indėlį į naujų žemėlapių kūrimą!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Žvalgybinė misija baigėsi.\n\nAčiū už jūsų indėlį į naujų žemėlapių kūrimą!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Žvalgybinė misija prasidėjo.\n\nKovokite su VIII–X lygio mašinomis dar tik kuriamuose žemėlapiuose, dalinkitės savo nuomone apklausose ir gaukite prizų!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Finalinis apdovanojimas:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Jūs sužaidėte %(battles)s mūšių Žvalgybinėje misijoje."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Gautas apdovanojimas:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Jūs galite sudalyvauti apklausoje apie Žvalgybinių misijų funkcionalumą."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Pasiekiama apklausa"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Jūs galite sudalyvauti apklausoje apie žemėlapį %(mapName)s Žvalgybinėje misijoje."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Į kareivines"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Pašalinta ekipažo narių: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Namų fronto atsargos"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Ekipuotės asistentas pasiekiamas"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Ekipuotės asistentas nepasiekiamas"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Yra naujų rezervų:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Gavimo pranešimas"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Rezervai baigs galioti:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Riboto galiojimo rezervai tuoj bus prarasti"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Gauta kreditų: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Data: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Finansinė operacija:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Pristatyta į sandėlį: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Kvitas"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Naujas kaupimo ciklas prasidėjo."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Pradėtas naujas kaupimo ciklas. Norėdami rinkti kreditus, aktyvuokite WoT Premium paskyrą."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Pradėtas naujas kaupimo ciklas. Norėdami rinkti auksą, prenumeruokite WoT Plus."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Kreditų kaupimas Kreditų saugykloje sustabdytas."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Kreditų saugykla atidaryta!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Gauti apdovanojimą"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Postprogresija baigta!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Į seką"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Postprogresija"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Jūs galite gauti specialių prizą."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Klanų karai"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Mūšio rezultatai"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Turnyras"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Pralaimėjimas"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Lygiosios"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Rezultatai nežinomi"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Pergalė!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Šeimininkas ištrynė"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Techninis gedimas"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Jus pašalino"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Techninis pralaimėjimas"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Techninės lygiosios"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Rezultatai nežinomi"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Techninė pergalė!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Minutinė pertraukėlė baigėsi"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Pabaigta"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(mūšis %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Tarpinis rezultatas"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Rezultatas"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Gauta Wargaming Premium paskyra. Baigsis %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Wargaming Premium paskyra pakeista. Baigsis %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Wargaming Premium paskyra baigėsi."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Wargaming Premium paskyra pratęsta. Baigsis %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "Gauta WoT Premium paskyra. Baigsis %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "WoT Premium paskyra pakeista. Baigsis %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "WoT Premium paskyra baigėsi."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "WoT Premium paskyra pratęsta. Baigsis %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Jūs gavote %(days)d dienų Wargaming Premium paskyrą."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Į elito sistemą"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Elito lygis ir elitinis ženkliukas gauti."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Elito sistema"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Į mašinas"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Gautas elitinis lygis"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Nepavyko atsiimti elitinio apdovanojimo."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "%(typeReward)s %(rewardName)s gautas už pasiektą Elitinį lygį %(lvl)s."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Elitinis apdovanojimas gautas"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Dėmesio!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Kamufliažas"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "lipdukas"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "emblema"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Užrašas"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s%(typeName)s %(name)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "Ir dar %(count)s"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "%(level)s lygio "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "dažai"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "lipdukas"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Gauta:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "Stilius %(name)s"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Apdovanojimus už nuopelnus"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Kovokite mūšiuose ir gaukite apdovanojimus. Kuo daugiau žaidžiate, tuo arčiau apdovanojimai."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Gautas Didelis apdovanojimas:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s vnt. rango žetonų konvertuoti į %(count)s bonų."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Gautas Maksimalus apdovanojimas:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Gautas Standartinis apdovanojimas:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Gautas Mažas apdovanojimas:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "Jūs uždirbote %(points)s vnt. rango žetonų 2021–2022."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Metinis apdovanojimas"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Pastiprinimas atvyko!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Jūs gavote įgulą už %(event)s."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Turite nepaimtų ekipažo narių: %(count)s. Kitas pašalinimas %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Jūs turite nerekrutuotų įgulos narių: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Pašalinta ženklelių"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Kompensacija"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Pridėta kreditų už nepanaudotą %(vehicleName)s nuomos laiką"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Pridėta aukso už neišnaudotą %(vehicleName)s nuomos laiką"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "%(vehicleName)s nuomos periodas baigėsi."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Brėžinio fragmentai: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Kreditai: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Bonai: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Laisvoji patirtis: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Auksas: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "universalūs fragmentai"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Dabartinis progresas: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Surinkimo punkto projektui įdėti resursai:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Įdėti resursai"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Įdėti resursus"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Iš Surinkimo punkto sugrąžinti resursai:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Resursų sugrąžinimas"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Treniruočių lankstinukai išsirinkimui"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Treniruočių gidai išsirinkimui"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Kamufliažas"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "Dėl vykdomų profilaktikos darbų, %s yra pratesiamas."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Emblemos"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Užrašų"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Wargaming Premium paskyros"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "WoT Premium paskyros"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Nuoma"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Žaidimo serveris bus išjungtas %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Serverio išjungimas %(date)s atšauktas."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Galima pasikeisti savo pasiekimų papuošimus"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Ši funkcija uždaryta."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Pasiekimų papuošimai šiuo metu nepasiekiami"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Universalus fragmentas (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Nacionalinis fragmentas (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Specialus apdovanojimas"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Brėžinio fragmentas %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Apdovanojimas už el. pašto patvirtinimą:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Gauta kompensacija už jau išrastų mašinų brėžinių fragmentus:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Kamufliažas pakeistas"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Gauta kreditų: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Nuskaičiuota kreditų: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Bonai: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Bonai: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Pakeisti išorės elementai."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Pakeisti pritaikomi elementai. Nupirkta elementų: %(count)s. Jūs išleidote %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Emblemos pakeistos"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Pridėta Jubiliejinių monetų: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Pašalinta Jubiliejinių monetų: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Gauta laisvos patirties: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Nuskaičiuota laisvos patirties: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Gauta aukso: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Nuskaičiuota aukso: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Užrašai pakeisti"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Universalūs fragmentai"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "%(nationName)s nacionaliniai fragmentai"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Po atnaujinimo visi lipdukai bus nuimti nuo mašinų ir padėti į sandėlį, išorinio vaizdo skyriuje."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Gauta garaže vietų: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Pašalinta garažo vietų: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Dėmesio!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Pridėta technika: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Pašalinta technika: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "Šie pritaikomi elementai nupirkti:\n%(items)s\nIšleista %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "\"%(itemName)s\" %(itemType)s sėkmingai nupirkti.\nIšleista %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "Sėkmingai nupirktas stiliaus %(name)s %(level)s lygis.\nIšleista %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Pakeisti mašinos pritaikomi elementai."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s vnt.)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "%(level)s lygio stilius %(styleName)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Pritaikomi elementai nuimti nuo mašinos."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Sveikiname!\nProgresiniai lipdukai leidžia redaguoti paruoštus %(vehicleName)s stilius."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Sveikiname!\nJūs gavote I lygio \"%(itemName)s\" lipduką, skirtą %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Sveikiname!\nJūs gavote I lygio \"%(itemName)s\" lipduką."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "Pasiektas %(level)s lipduko \"%(itemName)s\" lygis, skirtas %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Į išorinį vaizdą"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Pasiektas %(level)s lipduko \"%(itemName)s\" lygis."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Išleista: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Dykumos žemėlapis: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Vasaros žemėlapis: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Žiemos žemėlapis: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Gauta: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Įranga išardyta"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Į išorinį vaizdą"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Dėl modulių pakeitimo šie išorės elementai buvo nuimti nuo %(vehicle)s."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Pritaikymas:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Įranga išardyta"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Demontuota:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Klaida:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Finansinė operacija:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Daiktų pardavimas iš sandėlio:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "Pridėtas mokėjimo metodas \"%(method)s\""
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "Pašalintas mokėjimo metodas \"%(method)s\""
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Išrasta:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Nupirkta:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Pašalinimas iš garažo:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Remontas:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Susigrąžinta:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Parduota:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Įrangos tobulinimas"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Jūs gavote %(days)d dienų WoT Premium paskyrą."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Į rezervus"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Kamufliažo galiojimo laikas ant tanko %(vehicleName)s pasibaigė."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Emblemos galiojimo laikas ant tanko %(vehicleName)s pasibaigė."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Užrašo galiojimo laikas ant tanko %(vehicleName)s pasibaigė."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Pasiekiamos kolekcijos"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Sveikiname!\nJūs išradote %(nation)s %(level)s lygio mašiną. Dabar galite parduotuvėje nusipirkti šios nacijos tokio pat lygio kolekcinę mašiną."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Mašina sunaikinta. %(vehicleName)s negalima naudoti klanų karuose iki %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Blokavimas pasibaigė. %(vehicleName)s leidžiama naudoti klanų karuose."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Visos %(vehicle)s Dvigubos modifikacijos bus atšauktos."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Modifikacija atšaukta"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "išjungtas"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "įjungtas"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Persijungimas tarp įrangos ir instrukcijų rinkinių vykstant skaičiavimui prieš mūšį %(tankName)s yra %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Persijungimas tarp sviedinių ir ekipuotės rinkinių vykstant skaičiavimui prieš mūšį %(tankName)s yra %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Jūs gavote Premium mašiną: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Negalima išsinuomoti mašinos. Trūksta lėšų."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Mašina %(vehicleName)s išsinuomota. Nuomos laikas baigiasi: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Blokavimas baigėsi. Techniką galima naudoti klanų karuose."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Žaidėjas %(srcName)s pervedė %(srcWares)s aukso į jūsų sąskaitą."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s aukso pervesta žaidėjui %(dstName)s. Pavedimo mokestis: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Nuolaida %(level)s lygio mašinai"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Gauti apdovanojimai už įvykdytą seką Atgal į kovą:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Pasirinkite apdovanojimą"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Nuolaida %(level)s lygio mašinai"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% ir %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Suteiktos nuolaidos pirkimui ir išradimui: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "%(level)s lygio mašina"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Pasirinkite apdovanojimus ir pateiktų kategorijų."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Pasirinkti"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Gauti apdovanojimai!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Kovinio leidimo Plus privalumai negalimi."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Kovinis leidimas Plus šiuo metu negalimas"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Kovinis leidimas Plus veikia"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Toliau prisijunkite į žaidimą ir gaukite daugiau prizų!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Gautas specialus dalyvavimo prizas!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Ciklas baigtas"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Prisijunkite į žaidimą ir gaukite prizų."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Ciklas pradėtas!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Dalyvavimo prizas"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Sugrįžkite kitą dieną ir gaukite dar vieną prizą!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Dalyvavimas įrašytas!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Dalyvavimo prizų funkcija laikinai sustabdyta."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Dalyvavimo prizai nepasiekiami"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Dalyvavimo prizai pasiekiami"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Išskirtinis %(vehicleType)s <font color='#E9E2BF'>%(vehicleName)s</font> pasiekiamas."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "WoT Plus prenumeratai išskirtinis <font color='#E9E2BF'>%(vehicleType)s%(vehicleName)s</font> šiuo metu nepasiekiamas."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "Bazinis WoT Plus pasibaigė %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Nemokamas įrangos išmontavimas nepasiekiamas"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Pratęskite WoT Plus ir vėl naudokitės privalumais."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus nustoja galioti %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus baigėsi %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Aukso kaupimas sustabdytas."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Aukso saugykla šiuo metu nepasiekiama"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Aukso saugykla pasiekiama"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Aukso saugykla pilna: negalite rinkti daugiau aukso"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Aukso saugykla atidaryta!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Visi privalumai vėl aktyvuoti.\nBus pratęsta: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Kitas pratęsimas: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "Jūsų 180 dienų planas aktyvuotas. Mėgaukitės!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "Jūsų 360 dienų planas aktyvuotas. Mėgaukitės!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "Jūsų 180 dienų planas aktyvuotas. Mėgaukitės!\nBus pratęsta: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "Jūsų 360 dienų planas aktyvuotas. Mėgaukitės!\nBus pratęsta: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Intensyvūs įgulos pamokymai nutraukti <font color='#E9E2BF'>%(vehicleName)s</font> įgulai. Pasitikrinkite mašinos įgulą."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Vienas ar daugiau <font color='#E9E2BF'>%(vehicleName)s</font> įgulos narių netinka intensyviems įgulos apmokymams ir negauna įgulos patirties."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Intensyvūs įgulos apmokymai"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Intensyvūs įgulos apmokymai pradėti %(vehicleName)s įgulos nariams."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Intensyvūs įgulos apmokymai sustabdyti %(vehicleName)s įgulos nariams."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Įgulos patirties rinkimas sustabdytas."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Intensyvūs įgulos pamokymai šiuo metu nepasiekiami"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Intensyvūs įgulos apmokymai pasiekiami"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Pasirinkite mašiną ir gaukite nemokamą bonusą įgulos patirčiai."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Intensyvūs įgulos apmokymai perkelti iš <font color='#E9E2BF'>%(oldVehName)s</font> į <font color='#E9E2BF'>%(newVehName)s</font>. <font color='#E9E2BF'>%(oldVehName)s</font> įgula nustojo rinkti patirtį."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Intensyvūs įgulos apmokymai perkelti"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Įgulos patirties bonusas negali būti suteiktas vienam ar daugiau įgulos narių."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Jūs prarandate vertingą įgulos patirtį!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Savo pasirinkimą galėsite vėl pakeisti po %(cooldown)s valandų."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Pro pastiprinimas aktyvuotas su %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Vietoje to galite pastiprinti kitą mašiną."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Pro pastiprinimas su %(vehicleName)s išjungtas"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Pro pastiprinimas nebesuteikia resursų."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Pro pastiprinimas šiuo metu nepasiekiamas"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Pro pastiprinimas veikia"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s nebėra pastiprinama. Jūs vėl galėsite pakeisti savo pasirinkimą po %(cooldown)s valandų."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Pro pastiprinama mašina pakeistą į %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "WoT Plus pratęsimo data pakeista"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Pasirinkite mašiną iš nuomojamų sąrašo."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Nepasirinkta jokia nuomojama mašina"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s bus įtraukta į jūsų paskyrą artimiausiu metu."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Išnuomota!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Šie privalumai išjungti."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus nepasiekiamas"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "Bazinis WoT Plus aktyvuotas"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Nemokamas įrangos išmontavimas pasiekiamas"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WoT Plus aktyvuotas"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus patobulintas į Pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Pratęsti"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Iš administracijos gavote laisvos patirties: %(freeXP)s."
+
+msgid "status/offline"
+msgstr "Neprisijungęs"
+
+msgid "status/online"
+msgstr "Prisijungęs"
+
+msgid "xmpp_error/action"
+msgstr "Nepavyko įvykdyti \"%(actionName)s\". Bandykite vėliau."
+
+msgid "xmpp_error/simple"
+msgstr "Bandykite vėliau."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Nepavyko sukurti žaidėjo kanalo \"%(strArg1)s\"."

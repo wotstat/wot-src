@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "Odmontovat"
+
+msgid "demountKit/gained/count"
+msgstr "Demontážní sada (x%(count)s)"
+
+msgid "demountKit/sell/header"
+msgstr "Prodáno:"
+
+msgid "demountKit/sell_success"
+msgstr "Spotřební doplněk „Demontážní sada“ (%(count)s ks). Kreditů získáno: %(count)s."
+
+msgid "demountKit/tooltip/description/common"
+msgstr "Odmontuje jeden kus vybavení."
+
+msgid "dialogue/description/common"
+msgstr "Odmontuje jeden kus standardního vybavení či trofejního vybavení."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "Prodejní cena je nižší než obvykle – lze zakoupit se slevou."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "Odmontované vybavení bude posláno do skladu."
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "Pozor! Tento kus vybavení změnil svou třídu vzhledem ke stávajícímu typu vozidla.\nTento kus vybavení lze odmontovat zdarma, ale pokud ho odmontujete, {red_Open}nebudete ho moci{red_Close} již na toto vozidlo namontovat."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "Odmontovat vybavení „%(equipment)s“?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "Odmontovat „%(equipment)s“ a namontovat nové vybavení?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "Vyslužte si je v bitvách nebo je získejte jako odměnu za herní akce."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "Nedostatek bonů"
+
+msgid "equipmentDemount/optionFree"
+msgstr "Zdarma"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "Zrušit"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "Tuto kopii vybavení namontovaného v alternativní sadě lze zdarma odmontovat."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "Odmontovat"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "Odmontovat z tohoto slotu vybavení „%(equipment)s“?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "Odmontovat stávající „%(equipment)s“ a namontovat nové vybavení?"
+
+msgid "equipmentDemountPrice"
+msgstr "Cena odmontování:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> nebo %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s nebo %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> nebo %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "Dá se odmontovat a prodat, namontovat na jiné vozidlo za %(count)s nebo zničit."
+
+msgid "shop/DemountOptions/common"
+msgstr "Dá se odmontovat a prodat, namontovat na jiné vozidlo za %(count)s pomocí %(iconDK)s demontážní sady nebo zničit."
+
+msgid "storage/description/common"
+msgstr "Odmontuje standardní vybavení nebo trofejní vybavení. Při aktivaci se spotřebuje."
+
+msgid "storage/userName/common"
+msgstr "Demontážní sada"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "Sleva: %(actionPrc)s, předchozí cena: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "Demontážní sada"

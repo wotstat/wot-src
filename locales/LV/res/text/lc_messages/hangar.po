@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Pirkt"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Sekojošie palīgmateriāli tiks ielādēti: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Iegādāties Palīgmateriālus"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s apkalpes locekļi"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Jums jau ir apkalpe šim tankam"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s apkalpes locekļi."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Rekrūtējiet Jaunus Apkalpes Locekļus"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "šeit."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming izmanto T-34 burtciparu kombināciju, lai apzīmētu īstus tankus, un tas nekādā veidā nav saistīts ar neviena tāda paša nosaukuma preču zīmju autortiesību īpašniekiem. Uzzināt vairāk {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Lādēt munīciju"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Ielādēt palīgmateriālus"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Garāžas vieta"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Maiņa"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Bezmaksas"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Rekrūtējiet %(count)s apkalpes locekļus"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Nomas"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Nomāt"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Nomāt uz 30 dienām"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Nomāt uz 3 dienām"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Nomāt uz 7 dienām"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Noma uz %(days)s dienām"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Frontes līnijas Stadija"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Frontes līnijas sezona"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Ranga Kauju Stadija"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Ranga Kauju Sezona"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Atgūt"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Pastāvīgi"
+
+msgid "buyVehicleWindow/title"
+msgstr "Konfigurācija"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Atjaunošana"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Pirkt"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Apmaiņa"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Apmaiņa"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Visi Mani Tanki"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Apkalpe"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Parametri"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} kauja"
+msgstr[1] "{{count}} kaujas"
+msgstr[2] "{{count}} kaujas"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} diena"
+msgstr[1] "{{count}} dienas"
+msgstr[2] "{{count}} dienas"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} stunda"
+msgstr[1] "{{count}} stundas"
+msgstr[2] "{{count}} stundas"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} uzvara"
+msgstr[1] "{{count}}uzvaras"
+msgstr[2] "{{count}}uzvaras"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Noklikšķini, lai atvērtu savu tanku izlasi"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Mani tanki"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Apkalpes apmācība, pārkvalifikācija un pārvaldība."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Apkalpes pārvaldība"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Tanka pielāgošana: 2D/3D stilu un citu elementu pielietošana."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Pielāgošana"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Nospiediet, lai atvērtu"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Tanka informācija, izpēte, salīdzināšana un remonts."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Tanka pārvaldība"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "PAR TANKU"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "BRUŅAS"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "SALĪDZINĀT"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTOMĀTISKA ATGRIEŠANA"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "ATGRIEZT APKALPI"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "NOSŪTĪT UZ KAZARMĀM"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "APMĀCĪT EKIPĀŽU NO JAUNA"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "ĀTRA APKALPOŠANA"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "LAUKA MODIFIKĀCIJA"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "MAINĪT NĀCIJU"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "AKTĪVS"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "PRO BOOST {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "ĀTRĀ APMĀCĪBA"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "REMONTS"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "IZPĒTĪT"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "UZLABOJUMI"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Jūs varat mainīt šo izvēli jebkurā laikā."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Pro Boost aktīvs šim tankam"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr " Tankus var uzlabot tikai Nejaušajās kaujās, Uzbrukuma režīmos, Cietoksnī, Globālajā kartē un turnīros."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Pro Boost neatbalstīts režīms"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Uzlabot var tikai izpētāmus un Kolekcionāru tankus no I–X līmeņa."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Pro Boost neatbilstošs tanks"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Tavs Pro Boost pašlaik ir aktīvs tankam {{vehicle}}. Šo izvēli var mainīt pēc {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Atgriezies vēlāk!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Šo izvēli var mainīt pēc {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Pro Boost aktīvs šim tankam"

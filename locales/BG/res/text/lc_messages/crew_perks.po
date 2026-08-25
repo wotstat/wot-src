@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Получаването на поражения прекъсва възстановяването на живот.\n\nСкоростта на възстановяване на живота и максималният лимит за възстановяване се базират на общия живот на машината, включително всички приложени модификатори."
+
+msgid "armorPatching/alt/info"
+msgstr "За групови умения се взема предвид средното ниво на обучение сред всички членове на екипажа. Влиза в сила, когато се изучи до поне 1% и неговата ефективност нараства с по-нататъшно обучение."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Използването на Ремонтен комплект възстановява %(hpRecover)s от {yellow_Start}живота{yellow_End} на машината за 5 сек, до максимум 20% на битка. Позволява използването на Ремонтен комплект без критични поражения."
+
+msgid "armorPatching/hudDescription"
+msgstr "Възстановени са точки живот."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Когато е напълно изучено от всички членове на екипажа, възстановява %(hpRecover)s от {yellow_Start}живота{yellow_End} на машината за 5 сек. след използване на Ремонтен комплект, до максимум 20% на битка. Позволява използването на Ремонтен комплект без критични поражения."
+
+msgid "armorPatching/name"
+msgstr "Кърпене на броня"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Повишава основната маскировка на машината."
+
+msgid "brotherhood/alt/description"
+msgstr "Бонусът за ефективност на екипажа подобрява ефективността на члена на екипажа в битка, както и ефективността на всичките му научени умения, с изключение на това. Този параметър може да бъде допълнително увеличен чрез монтиране на оборудване или снаряжение с подобен ефект или чрез използване на директивата \"Продухване на въздуховодите\". Умението \"Спешно\" на командира, както и уменията на радиста \"Рамо до рамо\" и \"Комуникационен експерт\" също могат да увеличат параметъра."
+
+msgid "brotherhood/alt/info"
+msgstr "За групови умения се взема предвид средното ниво на обучение сред всички членове на екипажа. Влиза в сила, когато се изучи до поне 1% и неговата ефективност нараства с по-нататъшно обучение."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}Бонусът за ефективност{greenBright_End} на целия екипаж се увеличава с %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Когато е напълно изучено за всички членове на екипажа, повишава {greenBright_Start}бонуса за ефективност на екипажа{greenBright_End} на целия екипаж с %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Братя по оръжие"
+
+msgid "brotherhood/shortDescription"
+msgstr "Повишава общото представяне на екипажа."
+
+msgid "camouflage/alt/description"
+msgstr "Това умение засяга маскировката на машините. Тя може да бъде допълнително подобрена с директивата за естествено укритие.\n\nВ допълнение, маскировката на машината може да бъде увеличена чрез прилагане на камуфлажна схема или стил, както и чрез монтиране на оборудване с подобен ефект."
+
+msgid "camouflage/alt/info"
+msgstr "За групови умения се взема предвид средното ниво на обучение сред всички членове на екипажа. Влиза в сила, когато се изучи до поне 1% и неговата ефективност нараства с по-нататъшно обучение."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Повишена {greenBright_Start}маскировка{greenBright_End} на машината с %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Когато е напълно изучено от всички членове на екипажа, повишава {greenBright_Start}маскировката{greenBright_End} на машината с %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Маскировка"
+
+msgid "camouflage/shortDescription"
+msgstr "Повишава основната маскировка на машината."
+
+msgid "commander_coordination/alt/description"
+msgstr "Ефектът се активира всеки път, когато бъде забелязана вражеска машина и не се натрупва, когато бъдат забелязани няколко машини.\n\nСкоростта на прицелване може да се увеличи допълнително чрез изучаване на умението за бързо прицелване на мерача или чрез монтиране на оборудване с подобен ефект."
+
+msgid "commander_coordination/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Скоростта на прицелване{yellow_End} ще бъде увеличена с %(vehicleGunAimSpeed)s за 15 секунди, след като откриете вражеска машина."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Скоростта на прицелване е повишена."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Когаато е напълно изучено, повишава {yellow_Start}скоростта на прицелване{yellow_End} с %(vehicleGunAimSpeed)s за 15 секунди, след като откриете вражеска машина.\t"
+
+msgid "commander_coordination/name"
+msgstr "Координация"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Скоростта на прицелване е повишена."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Обзорът може да бъде допълнително увеличен чрез изучаване на умението на радиста Радиоприхващане или чрез монтиране на оборудване с подобен ефект. Използването на директивата за оптично калибриране подобрява ефекта."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Обзорът{greenBright_End} е повишен с %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Наказанието за повредени устройства за наблюдение{greenBright_End} е намалено с %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Намалява се наказанието за повредени устройства за наблюдение."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}обзора{greenBright_End} с %(circularVisionRadius)s&zwnbsp; и намалява {greenBright_Start}наказанието за повредени устройства за наблюдение{greenBright_End} с %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Разузнавач"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Увеличава обзора, особено при повредени прибори за наблюдение."
+
+msgid "commander_emergency/alt/description"
+msgstr "При многократно получаване на поражения от враг, ефектът не се натрупва. Бонусът за ефективност на екипажа подобрява ефективността на члена на екипажа в битка. Този параметър може да бъде допълнително увеличен чрез монтиране на оборудване или снаряжение с подобен ефект или чрез използване на директивата \"Продухване на въздуховодите\". Груповото умение \"Братя по оръжие\", както и уменията на радиста \"Рамо до рамо\" и \"Комуникационен експерт\" също могат да увеличат параметъра."
+
+msgid "commander_emergency/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Бонусът за ефективност на екипажа{yellow_End} ще бъде повишен с %(crewLevelIncrease)s за 15 секунди след получаване на поражения от враг."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Бонусът за ефективност на екипажа се повишава."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {yellow_Start}бонуса за ефективност на екипажа{yellow_End} с %(crewLevelIncrease)s за 15 секунди след получаване на поражения от враг."
+
+msgid "commander_emergency/name"
+msgstr "Спешно"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Бонусът за ефективност на екипажа се повишава."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Сигналът за вражески САУ се активира в момента на изстрела, но с известно закъснение.\n\nУмението може да бъде подобрено с директивата за повишена бдителност."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Сигнал за стрелба от вражеска САУ{yellow_End} и посоката на изстрела й ще бъде издадена със закъснение от %(artNotificationDelayFactor)s. {greenBright_Start}Отрицателният ефект от зашеметяването{greenBright_End} е намален с %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Когато е напълно изучено, дава {yellow_Start}сигнал за стрелба от вражеска САУ{yellow_End} със закъснение от %(artNotificationDelayFactor)s и показва посоката на изстрела. Намалява {greenBright_Start}отрицателния ефект от зашеметяването{greenBright_End} с %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Звуково разузнаване"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Предупреждава за изстрел на вражеска САУ."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Бонусът за ефективност на екипажа подобрява ефективността на членовете на екипажа в битка.\n\nТози параметър може да бъде допълнително увеличен чрез монтиране на оборудване или снаряжение с подобен ефект или чрез използване на директивата \"Продухване на въздуховодите\". Различни други умения на екипажа също могат да увеличат параметъра."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Бонусът за ефективност на екипажа{yellow_End} ще бъде увеличен с %(crewLevelIncrease)s , докато вражеският отбор има поне три машини повече в битка от вашия&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Бонусът за ефективност на екипажа се повишава (мнозинство от врагове)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {yellow_Start}бонусът за ефективност на екипажа{yellow_End} с %(crewLevelIncrease)s, докато вражеският отбор има поне три машини повече в битка от вашия&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Удръж фронта"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Повишава бонуса за ефективност на екипажа"
+
+msgid "commander_practical/alt/description"
+msgstr "Умението работи за всички видове снаряжение, монтирано на машината ви.\n\nНеговият ефект може да бъде допълнително увеличен с помощта на директивата за щателна подготовка."
+
+msgid "commander_practical/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Времето за подготовка на снаряжението{greenBright_End} е намалено с %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {greenBright_Start}времето за подготовка на снаряжението{greenBright_End} с %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Практичност"
+
+msgid "commander_practical/shortDescription"
+msgstr "Намалява времето за подготовка на снаряжението."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "\"Шесто чувство\" не действа, докато командирът е ранен. Времето му за активиране може да бъде намалено чрез умението \"Прихващане на сигнала\" на радиста."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Това е специална функция на командира, която не изисква обучение и е достъпна за командира по подразбиране."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Позволява на командира да установи, ако машината му е била забелязана от врага. Активира се %(delay)s след като машината бъде забелязана."
+
+msgid "commander_sixthSense/name"
+msgstr "Шесто чувство"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Позволява на командира да определи дали машината им е открита от врага."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Бонусът за ефективност на екипажа подобрява ефективността на членовете на екипажа в битка.\n\nТози параметър може да бъде допълнително увеличен чрез монтиране на оборудване или снаряжение с подобен ефект или чрез използване на директивата \"Продухване на въздуховодите\". Различни други умения на екипажа също могат да увеличат параметъра."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Бонусът за ефективност на екипажа{yellow_End} ще бъде увеличен с %(crewLevelIncrease)s за 15&nbsp;сек. след използване на аптечка. Позволява използването на аптечка, дори ако няма ранени членове на екипажа&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Бонусът за ефективност на екипажа е увеличен (използвана е аптечка)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {yellow_Start}бонуса за ефективност на екипажа{yellow_End} с %(crewLevelIncrease)s за 15 сек. след използване на аптечка. Позволява използването на аптечка, дори ако няма ранени членове на екипажа&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Бъдете бдителни"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Повишава бонуса за ефективност на екипажа"
+
+msgid "commander_tutor/alt/description"
+msgstr "Ранен командир не може да замести друг член на екипажа. Бонусът се прилага само към основното количество опит на екипажа, спечелено в битка.\n\nДопълнителен опит на екипажа може да бъде получен чрез използване на книги на екипажа или обмен на свободен опит в опит на екипажа."
+
+msgid "commander_tutor/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Спечеленият {greenBright_Start}опит{greenBright_End} се увеличава с %(xpBonusFactorPerLevel)s за всички членове на екипажа. Командирът може {greenBright_Start}да замени ранени членове{greenBright_End} с %(woundedCrewEfficiency)s ефективност."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Раненият член на екипажа е заменен от командира."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава спечеления {greenBright_Start}опит{greenBright_End} с %(xpBonusFactorPerLevel)s за всички членове на екипажа. Позволява на командира да {greenBright_Start}замени ранени членове{greenBright_End} с %(woundedCrewEfficiency)s ефективност."
+
+msgid "commander_tutor/name"
+msgstr "Наставник"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Раненият член на екипажа е заменен от командира."
+
+msgid "commander_universalist/alt/description"
+msgstr "Командирът може да замени само основната квалификация на ранения член на екипажа. Ефектът на заместване намалява с раняването на всеки член на екипажа."
+
+msgid "commander_universalist/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1%. Неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Командирът може да {greenBright_Start}замени ранените{greenBright_End} членове на екипажа с %(woundedCrewEfficiency)s ефективност."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Командирът изпълнява ролята на ранен член на екипажа."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Когато е напълно изучено, позволява на командира да {greenBright_Start}замени ранените{greenBright_End} членове на екипажа с %(woundedCrewEfficiency)s ефективност."
+
+msgid "commander_universalist/name"
+msgstr "Специалист по всичко"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Позволява на командира да замени ранените членове на екипажа."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Намалява наказанията върху маневреността и ускорението на машината при управление по умерено мек терен. Значително намалява тези наказания при управление по мек терен, привеждайки ги в съответствие с тези на умерено мек терен.\nМаневреността на умерено мек и мек терен не може да надвишава маневреността на твърд терен."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Загубата на скорост на умерено мек терен{greenBright_End} е намалена с %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}загубата на скорост на мек терен{greenBright_End} е намалена до %(softGroundFactor)s получената стойност на умерено мек терен."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {greenBright_Start}загубата на скорост на умерено мек терен{greenBright_End} с %(mediumGroundFactor)s&zwnbsp;, намалява {greenBright_Start}загубата на скорост на мек терен{greenBright_End} до %(softGroundFactor)s от получената стойност за умерено мек терен."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Офроуд шофиране"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Бонусът за ефективност на екипажа подобрява ефективността на членовете на екипажа в битка.\n\nТози параметър може да бъде допълнително увеличен чрез монтиране на оборудване или снаряжение с подобен ефект или чрез използване на директивата \"Продухване на въздуховодите\". Различни други умения на екипажа също могат да увеличат параметъра."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Бонусът за ефективност на екипажа{yellow_End} ще се повиши с %(crewLevelIncrease)s, ако размерът на пораженията, блокирани от вас, надвишава първоначалните точки живот на машината ви."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Бонусът за ефективност на екипажа е повишен (достатъчно поражения са блокирани)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {yellow_Start}бонуса за ефективност на екипажа{yellow_End} с %(crewLevelIncrease)s, ако размерът на пораженията, които сте блокирали, надвишава първоначалните точки живот на машината ви."
+
+msgid "driver_bulletproof/name"
+msgstr "Брониран"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Максималната скорост на машината ви може да бъде допълнително увеличена и наказанието за повреден двигател може да бъде допълнително намалено чрез монтиране на оборудване с подобен ефект."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "{greenBright_Start}Максималната скорост напред{greenBright_End} и {greenBright_Start}назад{greenBright_End} на машината ви се повишава с %(vehicleForwardMaxSpeed)s. {greenBright_Start}Наказанието за повреден двигател{greenBright_End} се намалява с %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Наказанието за повреден двигател е намалено."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}максималната скорост напред{greenBright_End} и {greenBright_Start}назад{greenBright_End} с %(vehicleForwardMaxSpeed)s. Намалява {greenBright_Start}наказанието за повреден двигател{greenBright_End} с %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Инженер"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Наказанието за повреден двигател е намалено."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Умението е неефективно, когато две съюзнически машини се сблъскат.\n\nПораженията от таран по машината ви могат да бъдат допълнително намалени чрез монтиране на оборудване с подобен ефект."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Пораженията от таран на вражески машини{greenBright_End} са повишени с %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Пораженията от таран на вашата машина{greenBright_End} са намалени с %(vehicleRamDamageResistance)s&zwnbsp; и на {greenBright_Start}окачването ви{greenBright_End} с %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}пораженията от таран на вражески машини{greenBright_End} с %(damageEnemiesByRamming)s&zwnbsp;. Намалява {greenBright_Start}пораженията от таран на вашата машина{greenBright_End} с %(vehicleRamDamageResistance)s&zwnbsp;, и на {greenBright_Start}окачването ви{greenBright_End} с %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Таран"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Намалява пораженията от таран по вашата машина и повишава тези по вражеските машини."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Пораженията, получени от ОФ снаряди, могат да бъдат допълнително намалени чрез монтиране на оборудване с подобен ефект."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Поемането на поражения от ОФ снаряди{greenBright_End} е повишено с %(vehicleHEShellDamageResistance)s&zwnbsp;. &nbsp;{greenBright_Start}Шансът за възпламеняване на двигателя{greenBright_End} е намален с %(vehicleFireChance)s и {greenBright_Start}пораженията по окачването ви{greenBright_End} с %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}поемането на поражения от ОФ снаряди{greenBright_End} с %(vehicleHEShellDamageResistance)s&zwnbsp;. Намалява {greenBright_Start}шанса за възпламеняване на двигателя{greenBright_End} с %(vehicleFireChance)s и {greenBright_Start}пораженията по окачването ви{greenBright_End} с %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Надеждно разположение"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Не засяга точността на неподвижна машина и точността по време на движение на корпуса.\n\nУмението може да се подобри с помощта на директивата \"Умела работа с трансмисията\". Точността при стрелба в движение може да се увеличи допълнително чрез монтиране на оборудване с подобен ефект или използването на директивата \"Смазка на стабилизаторите\"."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Разсейката на оръдието{greenBright_End} при стрелба в движение е намалена с %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {greenBright_Start}разсейката на оръдието{greenBright_End} при стрелба в движение с %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Плавен ход"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Подобрява точността при стрелба от движение."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Това умение влияе върху скоростта на ремонт на окачването от червено до жълто състояние в рамките на 50 m от съюзническа машина."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Скоростта на ремонт на окачването{yellow_End} ще се повиши с %(suspensionRepairSpeed)s на разстояния по-малки от 50 m от съюзническа машина."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Скоростта на ремонт на окачването е увеличена (съюзникът е близо)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {yellow_Start}скоростта на ремонт на окачването{yellow_End} с %(suspensionRepairSpeed)s на разстояния по-малки от 50 m от съюзническа машина."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Полева подкрепа"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Пожароустойчивостта на машината може да бъде допълнително повишена чрез монтаж на оборудване и снаряжение с подобни ефекти. Умението \"Пожарогасене\" ще ускори гасенето на пожар, ако има такъв."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1%. Неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Намалява {greenBright_Start}шанса от пожар на двигателя{greenBright_End} с %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {greenBright_Start}шанса от пожар на двигателя{greenBright_End} с %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Превантивна поддръжка"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Намалява шанса от пожар на двигателя."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Скоростта на движение на корпуса може да се увеличи допълнително чрез монтажно оборудване или снаряжение с подобен ефект."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Скоростта на движение на корпуса{greenBright_End} е повишена с %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}скоростта на движение на корпуса{greenBright_End} с %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Амбреаж"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Увеличава скоростта на движение на корпуса."
+
+msgid "fireFighting/alt/description"
+msgstr "Това умение влияе върху пораженията, получени от пожар, и продължителността им.\n\nАко двама радисти имат това умение, се прилага средната стойност на тяхното ниво на обучение.\n\nУмението може да бъде подобрено с директивата за опитни пожарникари."
+
+msgid "fireFighting/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Скоростта на пожарогасене{greenBright_End} е повишена с %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}скоростта на пожарогасене{greenBright_End} с %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Пожарогасене"
+
+msgid "fireFighting/shortDescription"
+msgstr "Ускорява потушаването на пожар."
+
+msgid "gunner_armorer/alt/description"
+msgstr "По подразбиране потенциалните поражения и диапазонът на бронебойност са ±25% от базовите стойности. Например, ако снаряд пробие броня до 100 mm и причини 100 точки поражения, при попадение в цел, действителната бронебойност за този единичен изстрел може да варира от 75 до 125 mm, а действителните поражения може да варират от 75 до 125 точки. Намаляването на този модификатор ще даде по-предвидими резултати при стрелба.\n\nАко двама мерачи имат това умение, се прилага средната стойност на нивото на обучение."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Диапазоните на {greenBright_Start}потенциалните поражения{greenBright_End} и {greenBright_Start}бронебойност{greenBright_End} са намалени с {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Разсейката на оръдието{greenBright_End} е намалена с %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява диапазоните на {greenBright_Start}потенциалните поражения{greenBright_End} и {greenBright_Start}бронебойност{greenBright_End} с {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Намалява {greenBright_Start}разсейката на оръдието{greenBright_End} с %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Оръжейник"
+
+msgid "gunner_focus/alt/description"
+msgstr "Ефектът започва 3 сек. след като машината спре и се нулира при движение.\n\nАко двама мерачи имат това умение, се прилага средната стойност на нивото на обучение."
+
+msgid "gunner_focus/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Разсейката на оръдието{yellow_End} на неподвижна машина ще бъде намалена с %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Разсейката на оръдието е намалена."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {yellow_Start}разсейката на оръдието{yellow_End} на неподвижна машина с %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Концентрация"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Намалява разсейката на оръдието на неподвижна машина."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Разсейката на оръдието и скоростта на прицелване могат да бъдат допълнително подобрени чрез обучение на екипажа с умения или монтиране на оборудване с подобен ефект.\n\nАко двама мерачи имат това умение, се прилага средната стойност на тяхното ниво на обучение."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Разсейката на оръдието{yellow_End} ще бъде намалена с %(vehicleGunAimSpeed)s и {yellow_Start}скоростта на прицелване{yellow_End} ще бъде увеличена %(vehicleGunAimSpeed)s докато в радиус от 300 m няма съюзнически машини."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Разсейката на оръдието и скоростта на прицелване са подобрени (няма съюзници наблизо)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {yellow_Start}разсейката на оръдието{yellow_End} и повишава {yellow_Start}скоростта на прицелване{yellow_End} с %(vehicleGunAimSpeed)s докато в радиус от 300 m няма съюзнически машини."
+
+msgid "gunner_loneWolf/name"
+msgstr "Вълк единак"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Разсейката на оръдието е понижена. Скоростта на прицелване е увеличена."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "По подразбиране, потенциалната максимална бронебойност е +25% от базовата стойност. Например, ако снаряд пробие броня до 100 mm, при попадение на цел, максималната възможна стойност на пробиване за този единичен изстрел може да бъде 125 mm. Увеличаването на този модификатор води до по-ефективни резултати при пробив.\n\nАко двама мерачи имат това умение, се прилага средната стойност на тяхното ниво на обучение."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "{yellow_Start}Потенциалната максимална бронебойност{yellow_End} на снарядите ви ще бъде повишена с %(piercingHEShellsDistributionUpperBound)s при стрелба по вражески машини на разстояние по-малко от 50 m."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {yellow_Start}потенциалната максимална бронебойност{yellow_End} с %(piercingHEShellsDistributionUpperBound)s при стрелба по вражески машини на разстояние по-малко от 50 m."
+
+msgid "gunner_pointBlast/name"
+msgstr "Празна точка"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Повишава потенциалната максимална бронебойност на снарядите ви."
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Ако двама мерачи имат това умение, се прилага средната стойност на нивото на обучение.\n\nСкоростта на прицелване може да се увеличи допълнително чрез изучаване на умението за координация на командира или чрез монтиране на оборудване с подобен ефект.\n\nСкоростта на движение на купола може да бъде допълнително увеличена чрез монтирано оборудване или снаряжение с подобен ефект."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Скоростта на прицелване{greenBright_End} и {greenBright_Start}движение на купола{greenBright_End} е повишена с %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Когато е наапълно изучено, повишава {greenBright_Start}скоростта на прицелване{greenBright_End} и {greenBright_Start}движение на купола{greenBright_End} с %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Бързо прицелване"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Скоростта на прицелване е повишена."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Идентифицира критично повредени модули на набелязани машини в обзора на мерача както в режим на непряк, така и на директен огън.\nЗоната за наблюдение на мерача се определя от сектора ±10° (общо 20°) пред оръдието на машината и нейния обзор.\nАко двама мерачи имат това умение, се прилага средната стойност на нивото на обучение.\nУмението може да бъде допълнително подобрено с директивата \"Фокус върху целта\". Използването на \"Подобрена радиостанция\" допълнително ще увеличи времето, преди вражеската машина да спре да се вижда."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Времето{greenBright_End} преди вражеската {greenBright_Start}машина да спре да се вижда{greenBright_End} в зоната за наблюдение на мерача се увеличава с %(vehicleEnemySpottingTime)s. Времето за {yellow_Start}идентифициране на повредени модули{yellow_End} е намалено до %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}времето{greenBright_End} преди вражеската {greenBright_Start}машина да спре да се вижда{greenBright_End} в зоната за наблюдение на мерача с %(vehicleEnemySpottingTime)s. Активира {yellow_Start}идентифицирането на повредени модули{yellow_End} със закъснение от %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Маркирана цел"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Увеличава времето, преди вражеска машина да спре да се вижда в зоната за наблюдение на стрелеца. Активира идентифициране на повредени модули."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Ако двама мерачи имат умението, се прилага само по-високата стойност.\n\nУмението може да бъде подобрено с директивата Спокойна ръка. Разсейката по време на въртене на купола може да бъде допълнително намалена чрез монтиране на оборудване с подобен ефект или използване на директивата \"Смазка на стабилизаторите\"."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Разсейката на оръдието{greenBright_End} по време на въртене на купола е намалена с %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {greenBright_Start}разсейката на оръдието{greenBright_End} по време на въртене на купола с %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Прицелна стрелба"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Намалява разсейката по време на въртене на купола."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Ефектът работи за всички видове снаряди, освен машините с автоматични оръдия.\n\nАко двама мерачи имат това умение, се прилага средната стойност на нивото на обучение."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Шансът за критична повреда на{greenBright_End} {greenBright_Start}модулите на машината{greenBright_End} на врага и раняването на вражеските {greenBright_Start}членове на екипажа{greenBright_End} с всички типове снаряди е повишено с %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}шанса за критична повреда{greenBright_End} на {greenBright_Start}модулите на машината{greenBright_End} на врага и раняването на вражески {greenBright_Start}членове на екипажа{greenBright_End} с всички типове снаряди с %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Снайперист"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "По подразбиране потенциалните минимални поражения и бронебойност са ±25% от базовите стойности. Например, ако снаряд пробие броня до 100 mm и причини 100 точки поражения, при попадение в целта, възможната минимална бронебойност за този единичен изстрел може да бъде 75 mm, а минималните възможни поражения може да бъдат 75 точки. Повишаването на този модификатор води до по-ефективни резултати при стрелба.\n\nАко двама пълначи имат това умение, се прилага средната стойност на нивото на обучение."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Минималните потенциални поражения{greenBright_End} и {greenBright_Start}минималната потенциална бронебойност{greenBright_End} са повишени с %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}минималните потенциални поражения{greenBright_End} и {greenBright_Start}минималната потенциална бронебойност{greenBright_End} с %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Настройка на амунициите"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Увеличава средните стойности на пораженията и бронебойността."
+
+msgid "loader_desperado/alt/description"
+msgstr "Ако двама пълначи имат това умение, се прилага средната стойност на нивото на обучение.\n\nВремето за зареждане на оръдието може да бъде допълнително намалено чрез изучаване на умението на \"Близък бой\" на пълнача или чрез монтиране на оборудване с подобен ефект. Използването на директивата \"Подреден боекомплект\" подобрява ефекта."
+
+msgid "loader_desperado/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Времето за зареждане на оръдието{yellow_End} ще бъде намалено с %(vehicleGunReloadTime)s, ако машината ви е с под 25% останал живот."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Времето за зареждане на оръдието е намалено (ниска издръжливост на машината)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {yellow_Start}времето за презареждане на оръдието{yellow_End} с %(vehicleGunReloadTime)s, ако машината ви има под 25% останал живот."
+
+msgid "loader_desperado/name"
+msgstr "Отчаян"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Ускорява презареждането на оръдието, ако машината има оставащи по-малко от 25% точки живот."
+
+msgid "loader_intuition/alt/description"
+msgstr "За да активирате умението, оръдието, двете оръдия или касетата трябва да са напълно заредени. Минималното време за смяна на типовете снаряди за стандартни оръдия е 1 сек; за двуцевни и касети е 2,5 сек.\n\nАко двама пълначи имат това умение, се прилага средната стойност на нивото на обучение."
+
+msgid "loader_intuition/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Времето за смяна на типовете снаряди{greenBright_End} в заредено оръдие е намалено с %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Времето за смяна на типовете снаряди в заредено оръдие е намалено.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {greenBright_Start}времето за смяна на типовете снаряди{greenBright_End} в заредено оръдие с %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Интуиция"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Значително увеличава скоростта на смяна на типовете снаряди в заредено оръдие."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Това умение намалява времето за презареждане само за оръдия с касети и не засяга други оръдийни системи.\n\nАко двама пълначи имат това умение, се прилага средната стойност на тяхното ниво на обучение."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "{greenBright_Start}Времето за презареждане{greenBright_End} на касетата е намалено с %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {greenBright_Start}времето за презареждане{greenBright_End} на касетата с %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Касетъчно майсторство"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Намалява времето за презареждане на касетите ви"
+
+msgid "loader_melee/alt/description"
+msgstr "Ако двама пълначи имат това умение, се прилага средната стойност на нивото на обучение.\n\nВремето за зареждане на оръдието може да бъде допълнително намалено чрез изучаване на умението \"Отчаян\" на пълнача или чрез монтиране на оборудване с подобен ефект. Използването на директивата \"Подреден боекомплект\" подобрява ефекта."
+
+msgid "loader_melee/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Времето за зареждане на оръдието{yellow_End} ще бъде намалено с %(vehicleGunReloadTime)s на разстояния по-малки от 50 m от вражеската машина."
+
+msgid "loader_melee/hudDescription"
+msgstr "Времето за зареждане на оръдието е намалено (врагът е близо).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {yellow_Start}времето за зареждане на оръдието{yellow_End} с %(vehicleGunReloadTime)s на разстояния по-малки от 50 m от вражеската машина."
+
+msgid "loader_melee/name"
+msgstr "Близък бой"
+
+msgid "loader_melee/shortDescription"
+msgstr "Ускорява зареждането на оръдието в близък бой."
+
+msgid "loader_pedant/alt/description"
+msgstr "Раненият пълнач не влияе на ефективността на умението.\n\nАко двама пълначи имат това умение, се прилага средната стойност на нивото на обучение.\n\nУмението може да бъде подобрено с помощта на директивата \"Подредба на снаряди\". Издръжливостта на боекомплекта може да бъде допълнително увеличена чрез монтиране на оборудване с подобен ефект."
+
+msgid "loader_pedant/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Издръжливостта на боекомплекта{greenBright_End} е повишена с %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}издръжливостта на боекомплекта{greenBright_End} с %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Безопасно съхранение"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Повишава издръжливостта на боекомплекта."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Ефектът работи за всички видове снаряди.\n\nРанен пълнач не влияе на ефективността на умението.\n\nАко двама пълначи имат това умение, се прилага средната стойност на нивото на обучение."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Скоростта на снаряда{greenBright_End} е повишена с %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}скоростта на снаряда{greenBright_End} с %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Перфектна подготовка"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Това умение няма ефект върху касети или автоматични оръдия и не се натрупва при двуцевни оръдия.\n\nПри оръдия със системи за селективно зареждане, ако и двете цеви са изстреляни и нито една от тях не причинява поражения, намаляването на времето за зареждане на оръдието се прилага и за двете цеви.\n\nАко двама пълначи имат това умение, се прилага средната стойност на тяхното ниво на обучение.\n\nВремето за зареждане на оръдието може да бъде допълнително намалено чрез изучаване на уменията \"Адреналинов прилив\" или \"Близък бой\" на пълнача или чрез монтиране на оборудване с подобен ефект. Използването на директивата \"Подреден боекомплект\" подобрява ефекта."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Времето за презареждане на оръдието{yellow_End} ще бъде намалено с %(vehicleGunReloadTime)s за следващия снаряд, ако предишният изстрел не е нанесъл поражения на вражеска машина."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Времето за презареждане на оръдието е намалено (пропуснато попадение)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {yellow_Start}времето за презареждане на оръдието{yellow_End} с %(vehicleGunReloadTime)s за следващия снаряд, ако предишният изстрел не е нанесъл поражения на вражеска машина."
+
+msgid "loader_secondChance/name"
+msgstr "Втори шанс"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Намалява времето за презареждане на оръдието"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s сек."
+
+msgid "offspring_brotherhood/name"
+msgstr "Една кръв"
+
+msgid "perkRole/commander"
+msgstr "Командир"
+
+msgid "perkRole/common"
+msgstr "Група"
+
+msgid "perkRole/driver"
+msgstr "Водач"
+
+msgid "perkRole/gunner"
+msgstr "Мерач"
+
+msgid "perkRole/loader"
+msgstr "Пълнач"
+
+msgid "perkRole/radioman"
+msgstr "Радист"
+
+msgid "popularity/tooltip/common"
+msgstr "от всички играчи"
+
+msgid "popularity/tooltip/header"
+msgstr "За тази машина, предпочитана от"
+
+msgid "popularity/tooltip/legendary"
+msgstr "от играчите с легендарно WTR ниво"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Ако двама радисти имат това умение, се прилага средната стойност на тяхното ниво на обучение.\n\nЕфектът може да бъде допълнително подобрен с умението на командира \"Звуково разузнаване\"."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Всеки път, когато екипажът на машината е зашеметен, {greenBright_Start}отрицателният ефект от зашеметяването{greenBright_End} ще бъде намален с %(stunResistanceEffectFactor)s, до максимум 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Когато е напълно изучено, всеки път, когато екипажът на машината е зашеметен, намалява {greenBright_Start}отрицателният ефект от зашеметяването{greenBright_End} с %(stunResistanceEffectFactor)s&nbsp;, до максимум 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Закален в битка"
+
+msgid "radioman_expert/alt/description"
+msgstr "Бонусът за ефективност на екипажа подобрява ефективността на члена на екипажа в битка. Ако двама радисти имат това умение, се прилага средната стойност на тяхното ниво на обучение. Този параметър може да бъде допълнително увеличен чрез монтиране на оборудване или снаряжение с подобен ефект или чрез използване на директивата \"Продухване на въздуховодите\". Груповото умение \"Братя по оръжие\", както и уменията \"Спешно\" на командира или \"Рамо до рамо\" на радиста, също могат да увеличат параметъра."
+
+msgid "radioman_expert/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Бонусът за ефективност на екипажа{yellow_End} ще се повиши с %(crewLevelIncrease)s, ако размерът на пораженията с ваша помощ надвишава първоначалните точки живот на машината ви&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Бонусът за ефективност на екипажа е повишен (достатъчно разузнавателни данни са преведени)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {yellow_Start}бонусът за ефективност на екипажа{yellow_End} с %(crewLevelIncrease)s ако размерът на пораженията с ваша помощ, надвишава първоначалните точки живот на машината ви&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Комуникационен експерт"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Подобрено представяне на екипажа."
+
+msgid "radioman_finder/alt/description"
+msgstr "Ако двама радисти имат умението, се прилага средната стойност на тяхното ниво на обучение.\n\nОбзорът може да бъде допълнително увеличен чрез изучаване на умението \"Разузнавач\" или чрез монтиране на оборудване с подобен ефект. Използването на директивата за оптично калибриране подобрява ефекта."
+
+msgid "radioman_finder/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Обзорът{greenBright_End} е повишен с %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {greenBright_Start}обзора{greenBright_End} с %(vehicleCircularVisionRadius)s&zwnbsp; ."
+
+msgid "radioman_finder/name"
+msgstr "Радиоприхващане"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Повишава обзора."
+
+msgid "radioman_interference/alt/description"
+msgstr "Ако двама радисти имат това умение, се прилага средната стойност на тяхното ниво на обучение.\n\nВремето, през което машината ви остава открита, може да бъде допълнително намалено чрез монтиране на оборудване с подобен ефект."
+
+msgid "radioman_interference/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Времето, през което машината ви остава открита{greenBright_End} за врага е намалено с %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {greenBright_Start}времето, през което машината ви остава открита{greenBright_End} за врага с %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Заглушаване"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Намалява времето, през което машината ви е видима за врага."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Ако двама радисти имат умението, се прилага само по-високата стойност. Ефектът е активен само ако радистът не е ранен при унищожена машина.\n\nУмението може да бъде допълнително подобрено с директивата \"Дългът преди всичко\"."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1%. Неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Радистът може да {yellow_Start}да докладва за позициите на врага{yellow_End} за още %(radiomanDurationPerLevel)s, след като машината ви бъде унищожена."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Докладване на позиции."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Когато е напълно изучено, позволява да {yellow_Start}докладвате позициите на врага{yellow_End} за още %(radiomanDurationPerLevel)s след като машината ви бъде унищожена."
+
+msgid "radioman_lastEffort/name"
+msgstr "С последни сили"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "За кратко време, след като машината ви е унищожена, докладва позициите на врага."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Бонусът за ефективност на екипажа подобрява ефективността на члена на екипажа в битка. Ако двама радисти имат това умение, се прилага средната стойност на тяхното ниво на обучение. Този параметър може да бъде допълнително увеличен чрез монтиране на оборудване или снаряжение с подобен ефект или чрез използване на директивата \"Продухване на въздуховодите\". Груповото умение \"Братя по оръжие\", както и уменията \"Спешно\" на командира или \"Комуникационен експерт\" на радиста, също могат да увеличат параметъра."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Бонусът за ефективност на екипажа{yellow_End} ще бъде повишен с %(crewLevelIncrease)s на разстояния, по-малки от 50 m от съюзнически машини от същия тип&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Бонусът за ефективност на екипажа е повишен (съюзник от същия тип е наблизо)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {yellow_Start}бонуса за ефективност на екипажа{yellow_End} с %(crewLevelIncrease)s на разстояния, по-малки от 50 m от съюзнически машини от същия тип&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Рамо до рамо"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Подобрено представяне на екипажа."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Ефектът подобрява специалната функция \"Шесто чувство\" на командира, като ускорява нейното активиране.\n\nАко двама радисти имат това умение, се прилага средната стойност на тяхното ниво на обучение."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Умението влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Времето за определяне{greenBright_End} дали {greenBright_Start}машината ви е била открита{greenBright_End} от врага е намалено с %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Когато е напълно изучено, намалява {greenBright_Start}времето за определяне{greenBright_End} дали {greenBright_Start}машината ви е била открита{greenBright_End} от врага с %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Прихващане на сигнала"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Това умение се активира, когато предупреждението \"Шесто чувство\" покаже, че машината ви е била открита.\n\nАко двама радисти имат това умение, се прилага средната стойност на тяхното ниво на обучение.\n\nОбзорът може да бъде допълнително увеличен чрез изучаване на уменията \"Разузнаване\" или \"Осъзнаване на ситуацията\" или чрез монтиране на оборудване с подобен ефект. Използването на директивата \"Оптично калибриране\" подобрява ефекта."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Умението със ситуационен ефект влиза в сила, когато е изучено до поне 1% и неговата ефективност нараства при по-нататъшно обучение. Ситуационният ефект се задейства, когато са изпълнени определени условия в битката."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Обзорът{yellow_End} ще бъде повишен с %(vehicleCircularVisionRadius)s за 5 сек. след получаването на предупреждението \"Шесто чувство\"."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Обзорът е повишен."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Когато е напълно изучено, повишава {yellow_Start}обзора{yellow_End} с %(vehicleCircularVisionRadius)s за 5 сек. след получаването на предупреждението \"Шесто чувство\"."
+
+msgid "radioman_threatSearch/name"
+msgstr "Търсене на заплахи"
+
+msgid "repair/alt/description"
+msgstr "Това умение влияе на скоростта на вътрешните и външните ремонти на модулите от \"червено\" до \"жълто\" състояние.\n\nТози параметър може да бъде допълнително увеличен чрез монтаж на оборудване или снаряжение с подобен ефект."
+
+msgid "repair/alt/info"
+msgstr "За групови умения се взема предвид средното ниво на обучение сред всички членове на екипажа. Влиза в сила, когато се изучи до поне 1% и неговата ефективност нараства с по-нататъшно обучение."
+
+msgid "repair/currentLvlDescription"
+msgstr "{greenBright_Start}Скоростта за ремонт{greenBright_End} на повредените модули на машината е повишена с %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Когато е напълно изучено от всички членове на екипажа, повишава {greenBright_Start}скоростта за ремонт{greenBright_End} на модулите на машината с %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Ремонт"
+
+msgid "repair/shortDescription"
+msgstr "Увеличава скоростта на ремонт на повредените модули."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Една кръв"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Популярни"
+
+msgid "sorting/fallback"
+msgstr "Стандартни"
+
+msgid "sorting/legendary"
+msgstr "Легендарни"
+
+msgid "sorting/title"
+msgstr "Сортирано по:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sПопулярно.%(whiteSpanish_Close)s Въз основа на текущите тенденции в оборудването сред всички играчи на World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Предимство на WoT Плюс"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Получавайте точни данни за уменията на екипажа въз основа на милиони игри и извличайте максимума от всяка битка."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sЛегендарно.%(whiteSpanish_Close)s Въз основа на оборудване, предпочитано в момента от играчи на легендарно WTR ниво"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Сортирането на умения е деактивирано"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Няма налични данни"
+
+msgid "sorting/tooltip/title"
+msgstr "Асистент на екипажа"
+
+msgid "sorting/tooltip/types"
+msgstr "Типове сортиране на умения"
+
+msgid "sorting/tooltip/warning"
+msgstr "Сортирането на умения е недостъпно"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Пълните данни за уменията не са налични за тази машина, така че е приложено сортиране на уменията по подразбиране."
+
+msgid "witches_brotherhood/name"
+msgstr "Вещерско сборище"
+
+msgid "yha_brotherhood/name"
+msgstr "Братството на зайците"

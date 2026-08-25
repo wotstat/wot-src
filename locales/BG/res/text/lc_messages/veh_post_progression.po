@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "огнева мощ"
+
+msgid "categories/mobility"
+msgstr "мобилност"
+
+msgid "categories/stealth"
+msgstr "разузнаване"
+
+msgid "categories/survivability"
+msgstr "издръжливост"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Тъй вярно!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Съвсем не!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "След като отмените модификациите, ще можете да ги купите отново за кредити."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "След като отмените модификации, ще можете да ги купите отново."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Отмени безплатно всички двойни модификации?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "След като отмените модификацията, ще можете да я купите отново за кредити."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "След като отмените модификацията, ще можете да я купите отново."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Отмени безплатно двойната модификация \"%(modification)s\"?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "КУПИ МОДИФИКАЦИИ"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "ИЗБЕРИ КАТЕГОРИЯ НА СЛОТА"
+
+msgid "hint/entryPoint"
+msgstr "ДОСТЪПНИ МОДИФИКАЦИИ"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "НАТИСНЕТЕ ЗА ПРЕВКЛЮЧВАНЕ НА\nДОПЪЛНИТЕЛНА КОМПЛЕКТОВКА"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "НАТИСНЕТЕ ЗА ПРЕВКЛЮЧВАНЕ НА\nНЕОБХОДИМА КОМПЛЕКТОВКА"
+
+msgid "hint/vehiclePreview"
+msgstr "ПРОМЕНИ ПО ПОКАЗАТЕЛИТЕ НА МАШИНАТА"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Тъй вярно!"
+
+msgid "postProgressionIntro/title"
+msgstr "ПОЛЕВА МОДИФИКАЦИЯ"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Специална модификация %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Натиснете, за да видите промените по показателите на машината след получаване на нивото и посочване на приложените модификации."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Двойна модификация %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Ниво на полева модификация"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Достъпно след покупка на машината"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Достъпно след придобиване на елитен статут"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Достъпно след покупка на машината и придобиване на елитен статут"
+
+msgid "researchEntry/title"
+msgstr "ПОЛЕВА МОДИФИКАЦИЯ"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Увеличи"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Отмени"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} и {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Допълнителна комплектовка"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Слот"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Необходима комплектовка"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "достъп до специални модификации: {name1} и {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "достъп до специални модификации: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "достъп до специална модификация: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "достъп до специални модификации: {name1}, {name2} и {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "достъп до двойни модификации ниво {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "достъп до двойна модификация ниво {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Ще бъде получен: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Повиши нивото на стандартната модификация до {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Повиши нивото на стандартната модификация?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Общо:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Задаване"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Достъпни категории: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Избрана категория: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Възможност да зададете категория на втория слот за оборудване на тази машина."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Първо задаване на категория на слот"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Задаване (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Категория на втория слот"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Задай"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Купи и измени"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Обмени"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Отмени"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Можете да измените категорията на слота срещу %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Избраната категория ще бъде зададена за втория слот за оборудване. Можете да измените категорията на слота срещу %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Обменен курс: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Обмяната е неуспешна: необходимо е %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Задайте категория за втория слот за оборудване"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Изменете категория на втория слот за оборудване"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Неуспешно изменяне на категорията на втория слот за оборудване: не достигат %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Общо:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Възможност за монтиране на допълнителен набор {cream_Open}оборудване{cream_Close} и {cream_Open}директиви.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Възможност за монтиране на допълнителен набор {cream_Open}снаряди{cream_Close} и {cream_Open}снаряжение.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Допълнителна комплектовка"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Необходима комплектовка"
+
+msgid "setupTooltipView/tip"
+msgstr "Можете да превключвате между основната и алтернативната конфигурация на машината в Парка и по време на отброяването преди битка."
+
+msgid "setupTooltipView/title"
+msgstr "Алтернативна конфигурация: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Допълнителната комплектовка%(/accent) е част от конфигурацията на машината, която се състои от %(accent)оборудване и директиви%(/accent). След като получите достъп до алтернативната конфигурация, можете да %(accent)превключвате между конфигурации%(/accent) на допълнителната комплектовка по време на отброяването преди битка."
+
+msgid "slides/additionalEquipment/title"
+msgstr "ДОПЪЛНИТЕЛНА КОМПЛЕКТОВКА"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "След достигане на определено ниво на Полева модификация, за вашата машина ще стане достъпна %(accent)алтернативна конфигурация%(/accent) и ще можете да подготвите %(accent)допълнителен набор от оборудване, амуниции, снаряжение и директиви%(/accent) в Парка. Той не замества основната, но отваря нови възможности. Можете да прецените картата и съставите на отборите по време на отброяването преди битка и %(accent)да изберете една от двете%(/accent) конфигурации на машината. Това ви позволява да се подготвите по-добре за условията на предстоящата битка."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "АЛТЕРНАТИВНА КОНФИГУРАЦИЯ НА МАШИНА"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Стандартната модификация%(/accent) добавя бонус към %(accent)един от показателите на машината%(/accent) и отключва двойни модификации. Тези модификации са безплатни за слагане, а за изследването им се нуждаете от боен опит и свободен опит."
+
+msgid "slides/baseModifications/title"
+msgstr "СТАНДАРТНИ МОДИФИКАЦИИ"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Специалните модификации%(/accent) отключват алтернативна конфигурация за машината и ви позволяват да %(accent)зададете категория%(/accent) за втория слот за оборудване (за машини ниво VIII–X). Можете да промените избраната категория на слот срещу кредити."
+
+msgid "slides/extraModification/title"
+msgstr "СПЕЦИАЛНИ МОДИФИКАЦИИ: РОЛЕВИ СЛОТ"
+
+msgid "slides/fieldModernization/description"
+msgstr "Полевата модификация е възможността да създадете по-различна конфигурация на машината според ролята й и %(accent)да промените показателите й%(/accent), използвайки различни %(accent)модификации%(/accent). Всяка следваща модификация се отключва след изследване на предишната."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "ПОЛЕВА МОДИФИКАЦИЯ"
+
+msgid "slides/fieldModernization/title"
+msgstr "ПРОМЯНА НА ПОКАЗАТЕЛИТЕ НА МАШИНАТА"
+
+msgid "slides/modificationTree/description"
+msgstr "Схемата за модификация е достъпна за %(accent)ниво VI–X%(/accent) машини за изследване, както и колекционерски, придобили %(accent)елитет статут%(/accent). Модификациите за специални, наградни и Премиум машини са достъпни след покупка."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "ИЗСЛЕДВАНЕ НА МОДИФИКАЦИИ"
+
+msgid "slides/modificationTree/title"
+msgstr "ИЗСЛЕДВАНЕ НА МОДИФИКАЦИИ"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Двойните модификации подобряват един%(/accent) от показателите на машината и %(accent)намаляват друг%(/accent). Трябва ви боен опит или свободен опит, за да изследвате модификации, и кредити, за да ги монтирате. Можете да %(accent)отмените (да махнете от машината)%(/accent) модификацията %(accent)безплатно%(/accent).\nКогато машината бъде продадена, стандартните и специалните модификации се запазват, но двойните модификации се отменят."
+
+msgid "slides/pairedModifications/title"
+msgstr "ДВОЙНИ МОДИФИКАЦИИ"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Необходимата комплектовка%(/accent) е част от конфигурацията на машината, която се състои от %(accent)амуниции и снаряжение%(/accent). След като получите достъп до алтернативната конфигурация, можете да %(accent)превключвате между конфигурации%(/accent) на необходимата комплектовка по време на отброяването преди битка."
+
+msgid "slides/requiredEquipment/title"
+msgstr "НЕОБХОДИМА КОМПЛЕКТОВКА"
+
+msgid "slides/roleInBattle/description"
+msgstr "За разлика от вида на машината, ролята на машината по-точно отразява оптималните %(accent)бойни тактики%(/accent) и определя каква %(accent)схема за модификация%(/accent) ще бъде достъпна за определена машина."
+
+msgid "slides/roleInBattle/title"
+msgstr "РОЛЯ НА МАШИНАТА В БИТКА"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Модификациите променят показателите на машината, отключват %(accent)достъп до алтернативна конфигурация%(/accent) и позволяват да зададете категория на %(accent)втория слот%(/accent) за оборудване."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Алтернативната конфигурация е втори набор от %(accent)оборудване, амуниции, снаряжение и директиви%(/accent). Можете да превключвате между конфигурации."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Възможност да изберете и зададете категория за %(accent)втория слот%(/accent) за оборудване. Пряко влияе на ефективността на машината в битка."
+
+msgid "slides/specialModifications/title"
+msgstr "МОДИФИКАЦИИ, АЛТЕРНАТИВНА КОНФИГУРАЦИЯ, СЛОТ НА КАТЕГОРИЯ"
+
+msgid "tooltips/entry_point/description"
+msgstr "Възможност допълнително да промените показателите на машината."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Изследвани модули и машини: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Изследвани модули: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Полева модификация"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Достъпно след покупка на машината."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Достъпно след придобиване на елитен статут."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Достъпно след покупка на машината и придобиване на елитен статут."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Съжаляваме за временното неудобство. Моля опитайте отново по-късно."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Специалните модификации са недостъпни"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Специална модификация %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Печелете ги в битка, продавайте излишните бройки от Склада или обменете злато, за да получите повече."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Недостатъчно кредити"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Демонтиране"
+
+msgid "tooltips/pairModification/level"
+msgstr "Двойна модификация %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Промени по техническите показатели:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Демонтаж (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Покупка (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Покупка"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Натиснете, за да видите промените по техническите показатели на машината след покупка на тази модификация."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "След като отмените модификацията, ще можете да купите която и да е модификация от тази двойка срещу кредити."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Покупката на тази модификация автоматично ще отмени онази, която вече е инсталирана от тази двойка."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Купена е друга модификация"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Достигнете Полева модификация ниво %(level) за достъп до тази модификация"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Модификацията е недостъпна"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Безплатно"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "не достигат:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Приблизително число. Точните стойности са посочени в показателите."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Използвай"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Отмени"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Нулирай"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "Модификации за %(title)s"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Добави за сравнение"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Унищожи всички двойни модификации"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Натиснете, за да унищожите всички двойни модификации."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Унищожи"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Преглед"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Измени"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Преди битката"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Избери"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Включи/изключи опцията за избор на набори от оборудване и директиви по време на отброяването преди битка.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Включи/изключи опцията за избор на набори от снаряди и снаряжение по време на отброяването преди битка.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Когато е изключена, в битка ще бъдат използвани наборите, избрани в Парка."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Превключване преди битка"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Тази машина е в битка."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Тази машина е заключена."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Тази машина се нуждае от ремонт."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Тази машина е във формирование."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Неуспешно задаване на категория на слот: машината не е в Парка."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Наемът на машината изтече."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Тази машина е в битка."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Тази машина е заключена."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Тази машина се нуждае от ремонт."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Тази машина е във формирование."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Неуспешна покупка: машината не е в Парка."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Наемът на машината изтече."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Натиснете, за да унищожите двойна модификация."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Унищожи"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "или"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Максимално ниво на Полева модификация"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Достъпно за машини ниво {minAllowedLevel}—{maxAllowedLevel}"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Достъпно за машини ниво {allowedLevel}"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "СКРИЙ ПОКАЗАТЕЛИТЕ"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Постоянен бонус: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Постоянен бонус: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Постоянен бонус: %(bonus1) и %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Повишете нивото, за да получите постоянните бонуси: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Повишете нивото, за да получите постоянния бонус: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Повишете нивото, за да получите постоянните бонуси %(bonus1) и %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Повиши ниво"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Повиши нивото до %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Повишете нивото, за да получите:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Подобрени показатели"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Специални модификации"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Специална модификация {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Двойни модификации"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Двойна модификация {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Към модулите"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Полевата модификация е недостъпна. Машината е в битка."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Полевата модификация е недостъпна. Машината е заключена."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Полевата модификация е недостъпна. Машината има нужда от ремонт."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Възможността допълнително да променяте показателите на машините става достъпна, когато машина придобие елитен статут."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Полевата модификация е недостъпна: машината е във формирование."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Трябва да имате машината в Парка, за да изследвате модификации и да повишавате нивото на Полева модификация."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Полевата модификация не е достъпна за машини под наем. Купете тази машина, за да отключите Полевата модификация."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Полевата модификация е недостъпна: наемът изтече. Удължете наема, за да отключите Полевата модификация."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "ПОКАЖИ ПОКАЗАТЕЛИТЕ"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Възможност допълнително да променяте показателите на машините, става достъпна, когато машина придобие елитен статут."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Полева модификация"

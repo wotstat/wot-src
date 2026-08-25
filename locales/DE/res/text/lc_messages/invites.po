@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "Spielerdetails %(linkStartTag)sanzeigen%(linkEndTag)s"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sClanbewerbung%(titleEndTag)s\nvon %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Bewerbungen anzeigen"
+
+msgid "clan/applications/comment"
+msgstr "Benachrichtigungen %(linkStartTag)sdeaktivieren%(linkEndTag)s"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sSpielerbewerbungen: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "Clandetails %(linkStartTag)sanzeigen%(linkEndTag)s clan"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sClaneinladung%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Einladungen anzeigen"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sClaneinladungen: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Spieler wurde in den Clan aufgenommen."
+
+msgid "clans/state/app/declined"
+msgstr "Bewerbung abgelehnt."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Die eintägige Sperrfrist des Spielers für Verlassen seines letzten Clans ist noch nicht abgelaufen."
+
+msgid "clans/state/invite/accepted"
+msgstr "Sie wurden in den Clan aufgenommen."
+
+msgid "clans/state/invite/declined"
+msgstr "Einladung abgelehnt."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Die eintägige Sperre für das Verlassen Ihres alten Clans ist noch nicht abgelaufen."
+
+msgid "errors/creationNotAllowed"
+msgstr "Sie haben keine Berechtigung zum Verschicken von Einladungen."
+
+msgid "errors/invalid"
+msgstr "Ungültige Einladung."
+
+msgid "errors/inviteNotSupported"
+msgstr "Dieser Einladungstyp wird zurzeit nicht unterstützt. Wiederholen Sie den Vorgang später."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Der Empfänger der Einladung hat Sie auf seine Ignorierenliste gesetzt."
+
+msgid "errors/selfinvite"
+msgstr "Sie können sich nicht selbst einladen."
+
+msgid "errors/unknownuser"
+msgstr "Dieser Benutzer ist im System noch nicht registriert."
+
+msgid "errors/useroffline"
+msgstr "Benutzer ist offline."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Das Fahrzeug in der Garage ist beschädigt oder gesperrt. Bitte wählen Sie ein anderes Fahrzeug aus."
+
+msgid "friendship/note/approved"
+msgstr "Spieler zur Freundesliste hinzugefügt"
+
+msgid "friendship/note/canceled"
+msgstr "Anfrage abgelehnt"
+
+msgid "friendship/note/maxRoster"
+msgstr "Maximale Anzahl Kontakte in der Liste: %(rosterMaxCount)s. Sie müssen erst einen anderen Kontakt entfernen, bevor Sie diesen Spieler zu Ihrer Freundesliste hinzufügen können."
+
+msgid "friendship/note/notConnected"
+msgstr "Serververbindung nicht möglich. Bitte warten."
+
+msgid "friendship/note/process"
+msgstr "Warte auf Serverantwort"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sFreundschaftsanfrage%(titleEndTag)s\nvon %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Annehmen"
+
+msgid "gui/buttons/cancel"
+msgstr "Abbrechen"
+
+msgid "gui/buttons/reject"
+msgstr "Ablehnen"
+
+msgid "gui/buttons/send"
+msgstr "Senden"
+
+msgid "gui/labels/additionalText"
+msgstr "Zusätzlicher Einladungstext:"
+
+msgid "gui/labels/inviteText"
+msgstr "Einladungstext:"
+
+msgid "gui/labels/receiver"
+msgstr "Empfänger:"
+
+msgid "gui/titles/barter"
+msgstr "Handelsanfrage"
+
+msgid "gui/titles/clan"
+msgstr "Claneinladung"
+
+msgid "gui/titles/invite"
+msgstr "Einladung"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Einladungen"
+
+msgid "invites/comment"
+msgstr "„%(comment)s“"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus der taktischen Einheit entfernt und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus der taktischen Einheit entfernt und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Gefecht auf der Weltkarte entfernt und auf den Server %(host)s transferiert."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Wenn Sie die Einladung annehmen, werden Sie automatisch aus der taktischen Einheit entfernt und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus der taktischen Einheit entfernt und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus der taktischen Einheit entfernt und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Übungsraum der Frontlinie entfernt und auf den Server %(host)s transferiert."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus der taktischen Einheit entfernt und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie den Modus Teamgefecht und auf Server %(host)s transferiert."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Zug entfernt und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie den Modus Festungen: Gefechte und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Haben Sie die Einladung akzeptiert, verlassen Sie den Vorstoßmodus und werden auf den Server %(host)s transferiert."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Späheinsatz-Zug entfernt und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Übungsraum entfernt und auf den Server %(host)s transferiert."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie den Modus Festungen: Gefechte und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Zug entfernt und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Haben Sie die Einladung akzeptiert, verlassen Sie die aktuelle Abteilung und werden auf den Server %(host)s transferiert."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Turnier entfernt und auf den Server %(host)s transferiert."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Übungsraum entfernt und auf den Server %(host)s transferiert."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Übungsraum des Modus „Ansturm“ entfernt und auf den Server %(host)s transferiert."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie den Modus Teamgefecht und auf Server %(host)s transferiert."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie den Modus „Stählerner Jäger“ und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie „Große Jagd“ und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Wenn Sie die Einladung annehmen, verlassen Sie den Modus „Ansturm“ und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Wenn Sie die Einladung annehmen, verlassen Sie den Modus „Ansturm Light“ und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie den Modus „Frontlinie“ und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie +++Eventgefecht+++ und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie den Späheinsatz und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Wenn Sie die Einladung annehmen, verlassen Sie den Modus „Geländekunde“ und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie den die Zufallsgefechte und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Sobald Sie die Einladung annehmen, verlassen Sie die gewerteten Gefechte und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Wenn Sie die Einladung annehmen, verlassen Sie die Aufwärmphase und wechseln auf den Server %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Wenn Sie die Einladung annehmen, verlassen Sie die Aufwärmphase und wechseln auf den Server %(host)s. Sie werden die Aufwärmphase nicht neu starten können."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus der taktischen Einheit entfernt."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus der taktischen Einheit entfernt."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Gefecht auf der Weltkarte entfernt."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Wenn Sie die Einladung annehmen, werden Sie automatisch aus der taktischen Einheit entfernt."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus der taktischen Einheit entfernt."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus der taktischen Einheit entfernt."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Übungsraum der Frontlinie entfernt."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus der taktischen Einheit entfernt."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie den Modus Teamgefecht."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Zug entfernt."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Haben Sie die Einladung akzeptiert, verlassen Sie Festungen: Gefechte."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Haben Sie die Einladung akzeptiert, verlassen Sie den Vorstoßmodus."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Späheinsatz-Zug entfernt."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Übungsraum entfernt."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Haben Sie die Einladung akzeptiert, verlassen Sie Festungen: Gefechte."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Zug entfernt."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Haben Sie die Einladung akzeptiert, verlassen Sie die aktuelle Abteilung."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Turnier entfernt."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Übungsraum entfernt."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Haben Sie die Einladung angenommen, werden Sie automatisch aus dem Übungsraum des Modus „Ansturm“ entfernt."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie den Modus Teamgefecht."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie Stählerner Jäger."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie „Große Jagd“."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Wenn Sie die Einladung annehmen, verlassen Sie den Modus „Ansturm“."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Wenn Sie die Einladung annehmen, verlassen Sie den Modus „Ansturm Light“."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie Frontlinie."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie +++Eventgefecht+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Sobald Sie die Einladung annehmen, verlassen Sie den Späheinsatz."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Wenn Sie die Einladung annehmen, verlassen Sie den Modus „Geländekunde“."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Haben Sie die Einladung akzeptiert, verlassen Sie die Zufallsgefechte."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Haben Sie die Einladung angenommen, verlassen Sie die gewerteten Gefechte."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Wenn Sie die Einladung annehmen, verlassen Sie die Aufwärmphase."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Wenn Sie die Einladung annehmen, verlassen Sie die Aufwärmphase. Sie werden die Aufwärmphase nicht neu starten können."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Serveränderungen werden nun gespeichert."
+
+msgid "invites/note/server_change"
+msgstr "Sie werden automatisch zum %(host)s Server transferiert."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Sie können die Einladung nicht akzeptieren. Damit Sie die Einladung akzeptieren können, müssen Sie den Server %(host)s auswählen."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Sie können die Einladung nicht annehmen. Bitte wechseln Sie den Server, um die Einladung annehmen zu können."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Sie sind dem Zug bereits beigetreten."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Sie sind bereits einem Gefecht auf der Weltkarte beigetreten."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Sie haben den Übungsraum bereits betreten."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Sie sind dem Zug bereits beigetreten."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Sie sind dem Zug bereits beigetreten."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Sie sind bereits der Abteilung beigetreten."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Sie sind dem Zug bereits beigetreten."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Sie sind dem Turnier bereits beigetreten."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Sie haben den Übungsraum bereits betreten."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Sie haben den Übungsraum bereits betreten."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Sie sind dem Team bereits beigetreten."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Einladung akzeptiert."
+
+msgid "invites/state/DECLINED"
+msgstr "Einladung abgelehnt."
+
+msgid "invites/state/ERROR"
+msgstr "Einladung ungültig."
+
+msgid "invites/state/EXPIRED"
+msgstr "Ungültige Einladung."
+
+msgid "invites/state/REVOKED"
+msgstr "Einladung zurückgezogen."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Einladung in Stählerner-Jäger-Zug"
+
+msgid "invites/text/COMP7"
+msgstr "Einladung in den Ansturm-Zug"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Einladung in den Ansturm-Light-Zug"
+
+msgid "invites/text/EPIC"
+msgstr "Einladung in den Frontlinie-Zug"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Einladung zur Team-Übung im Modus „Frontlinie“"
+
+msgid "invites/text/EVENT"
+msgstr "Einladung in Zug"
+
+msgid "invites/text/FALLOUT"
+msgstr "Einladung in Zug für %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Herrschaft"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Stählerne Jagd"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Einladung ins Gefecht"
+
+msgid "invites/text/MAPBOX"
+msgstr "Einladung in Späheinsatz-Zug"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Einladung zum Karten erforschen"
+
+msgid "invites/text/SORTIE"
+msgstr "Einladung in Abteilung"
+
+msgid "invites/text/SQUAD"
+msgstr "Einladung in Zug"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Einladung in Abteilung"
+
+msgid "invites/text/TRAINING"
+msgstr "Einladung zur Team-Übung"
+
+msgid "invites/text/UNIT"
+msgstr "Einladung ins Team"
+
+msgid "invites/text/creatorName"
+msgstr "von %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Verteidigungszeit"
+
+msgid "invites/text/fort/direction"
+msgstr "Brückenkopf"
+
+msgid "invites/text/fort/offence"
+msgstr "Angriff auf"
+
+msgid "invites/warning/anonymized"
+msgstr "Sobald Sie die Einladung akzeptieren, wird Ihr tatsächlicher Benutzername und Ihr Clankürzel der taktischen Einheit für die Dauer des Gefechts angezeigt."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Einladung an %(name)s geschickt."

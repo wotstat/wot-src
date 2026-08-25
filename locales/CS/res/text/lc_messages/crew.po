@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Rozšířit"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Propustit nedostatečně vycvičené"
+
+msgid "barracks/bunks/title"
+msgstr "Lůžka:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Uveďte počet lůžek k zakoupení. Lůžka dostupná v kasárnách: %(freeBunksCount)s/%(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Cena po slevě"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Nová cena: %(currency)s za %(bunksCount)s lůžek"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Předchozí cena: %(currency)s za %(bunksCount)s lůžek"
+
+msgid "barracks/enlarge/header"
+msgstr "Rozšířit kasárna?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Nedostatečně vycvičení členové posádky ve vašich kasárnách, kteří mají méně než {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} ZK potřebných k vycvičení první schopnosti na {whiteSpanish_Open}100 %{whiteSpanish_Close}, mohou být propuštěni."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Nedostatečně vycvičení členové posádky"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Nemáte žádné nedostatečně vycvičené členy posádky"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Za propuštění nedostatečně vycvičených členů posádky neobdržíte žádnou kompenzaci. Jakmile budou členové posádky propuštěni, nelze je obnovit a všechny jejich ZK budou ztraceny."
+
+msgid "barracks/title"
+msgstr "KASÁRNA"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Kliknutím rozšíříte kasárna."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Rozšíření kasáren"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Poloha"
+
+msgid "common/imageNotAvailable"
+msgstr "Obrázek není dostupný"
+
+msgid "common/inBarracks"
+msgstr "V kasárnách"
+
+msgid "common/inBattle"
+msgstr "V bitvě"
+
+msgid "common/inPrebattle"
+msgstr "V taktické jednotce"
+
+msgid "common/navigation/aboutCrew"
+msgstr "O POSÁDCE"
+
+msgid "common/navigation/toBarracks"
+msgstr "DO KASÁREN"
+
+msgid "common/navigation/toGarage"
+msgstr "DO GARÁŽE"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "NA PROFIL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s %"
+
+msgid "conversionAwards/button/submit"
+msgstr "Potvrzuji!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Vaši členové posádky byli zkonvertováni na knihy posádky."
+
+msgid "conversionAwards/title"
+msgstr "KONVERZE ÚSPĚŠNÁ"
+
+msgid "conversionAwards/underTitle"
+msgstr "Na váš účet byly přidány následující předměty."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Zrušit"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Propustit do výslužby"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Členové posádky, kteří budou propuštěni: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Propustit nedostatečně vycvičené členy posádky?"
+
+msgid "conversionConfirm/warning"
+msgstr "Za propuštění nedostatečně vycvičených členů posádky neobdržíte žádnou kompenzaci. Jakmile budou členové posádky propuštěni, nelze je obnovit a všechny jejich ZK budou ztraceny."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Automaticky vybrat schopnosti"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Nejsou žádní členové posádky s nevycvičenými schopnostmi."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Nelze automaticky vybrat schopnosti"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Veškeré nevycvičené schopnosti označené znaménkem plus budou pro všechny posádky automaticky nahrazeny schopnostmi vybranými pomocí speciální logiky."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Automaticky vybrat nevycvičené schopnosti pro všechny"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Obnovit schopnosti pro všechny"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Nejsou žádní členové posádky s vycvičenými schopnostmi."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Nelze vynulovat schopnosti"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Všechny schopnosti budou u všech členů posádky na vašem účtu obnoveny. Tuto operaci nelze vrátit zpět."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Obnovit schopnosti pro všechny"
+
+msgid "crewBanner/infoText"
+msgstr "Obnovit schopnosti zdarma nebo automaticky vybrat nevycvičené schopnosti pro všechny členy posádky na vašem účtu"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Zrychlený výcvik posádky je zapnutý"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Bonus k efektivitě: {{@ style (color $color)}}+{{value}} %{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Efektivita schopností"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Schopnosti nejsou dostupné, protože tento člen posádky není vycvičen pro toto vozidlo."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specializace:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Schopnosti nejsou dostupné"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonusové schopnosti:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Schopnosti hlavní kvalifikace:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Čína)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Československo)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Francie)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Německo)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Itálie)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japonsko)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polsko)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Švédsko)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Británie)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(USA)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(SSSR)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Všechny prémiové stíhače tanků národa {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Všechna prémiová samohybná děla národa: {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Všechny prémiové těžké tanky národa: {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Všechny prémiové lehké tanky národa: {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Všechny prémiové střední tanky národa:\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Detaily"
+
+msgid "filter/group/details/title"
+msgstr "Detaily"
+
+msgid "filter/group/nation/title"
+msgstr "Národ"
+
+msgid "filter/group/other/title"
+msgstr "Ostatní"
+
+msgid "filter/group/special/title"
+msgstr "Speciální"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Kvalifikace"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Úroveň"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Úroveň"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializace"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Typ vozidla"
+
+msgid "filter/popup/button/title"
+msgstr "Filtr"
+
+msgid "filter/popup/default/title"
+msgstr "Filtr"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtrovat podle národa"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtrovat podle vozidel"
+
+msgid "filter/reset"
+msgstr "Vynulovat filtr"
+
+msgid "filter/search/placeholder"
+msgstr "Hledat podle jména"
+
+msgid "filter/search/tooltip/header"
+msgstr "Hledat podle jména"
+
+msgid "filter/title"
+msgstr "Zobrazeno:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Ukázat/skrýt členy posádky ve vozidlech, která mají vyzkoumané všechny dostupné moduly a technologické větve."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elitní vozidla"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Ukázat/skrýt členy posádky pro prémiová vozidla."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Prémiová vozidla"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Ukázat/skrýt členy posádky v primárních vozidlech."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Primární vozidla"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Ukázat/skrýt členy posádky pro tento typ vozidel."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Ukázat/skrýt členy posádky tohoto národa."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Ukázat/skrýt vzhledy tohoto národa."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Ukázat/skrýt vozidla tohoto národa."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Ukázat/skrýt členy posádky ve výslužbě."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Ve výslužbě"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Ukázat rekruty."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Rekruti"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Ukázat členy posádky."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Členové posádky"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Ukázat/skrýt členy posádky s touto kvalifikací."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Ukázat/skrýt prémiová vozidla."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Prémiová vozidla"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Ukázat/skrýt vozidla tohoto typu."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Stíhače tanků"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Dělostřelectvo"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Těžké tanky"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lehké tanky"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Střední tanky"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nebyla nalezena žádná vozidla\nodpovídající parametrům hledání"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Řadit podle názvu vozidla."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Název"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Řadit podle úrovně vozidla."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Úroveň"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Řadit podle typu vozidla."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Typ"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Název"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Kliknutím vynulujete nastavení filtru."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Vynulovat všechny filtry"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Potvrzuji!"
+
+msgid "junkTankmen/description"
+msgstr "Tito členové posádky mají méně než {bond_Open}210 060{bond_Close}{icon} ZK potřebných k vycvičení první schopnosti posádky na {whiteSpanish_Open}100 %{whiteSpanish_Close}.\nBudou odstraněni z vašeho účtu."
+
+msgid "junkTankmen/title"
+msgstr "Propustit nedostatečně vycvičené členy posádky?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Je zde limit {whiteSpanish_Open}tří{whiteSpanish_Close} schopností pro každou další kvalifikaci. Přístup k nové bonusové schopnosti se otevře po dosažení {whiteSpanish_Open}první{whiteSpanish_Close}, {whiteSpanish_Open}třetí{whiteSpanish_Close} a {whiteSpanish_Open}páté{whiteSpanish_Close} schopnosti hlavní kvalifikace."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonusové schopnosti"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Při přeškolení člena posádky na jiné vozidlo s odlišnou sadou kvalifikací si budete moct znovu vybrat schopnosti pro jeho novou další kvalifikaci."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonusové schopnosti se cvičí dvakrát pomaleji než schopnosti hlavní kvalifikace."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Pro výcvik bonusových schopností nejsou potřeba ZK."
+
+msgid "matrix/freeResetButton"
+msgstr "Obnovit zdarma"
+
+msgid "matrix/increaseButton"
+msgstr "Zrychlit výcvik"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Člen posádky dosáhl limitu výcviku."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Nelze zrychlit výcvik"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Vycvičit schopnosti použitím volných ZK a knih posádky."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Rychlý výcvik"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Nekompatibilní kvalifikace"
+
+msgid "matrix/qualification/1"
+msgstr "Hlavní kvalifikace"
+
+msgid "matrix/qualification/2"
+msgstr "Druhá kvalifikace"
+
+msgid "matrix/qualification/3"
+msgstr "Třetí kvalifikace"
+
+msgid "matrix/qualification/4"
+msgstr "Čtvrtá kvalifikace"
+
+msgid "matrix/qualification/5"
+msgstr "Pátá kvalifikace"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Pro druhou kvalifikaci nejsou dostupné nulté schopnosti."
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Pro třetí kvalifikaci nejsou dostupné nulté schopnosti."
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Pro čtvrtou kvalifikaci nejsou dostupné nulté schopnosti."
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Druhá kvalifikace není pro toto vozidlo k dispozici"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Třetí kvalifikace není pro toto vozidlo k dispozici"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Čtvrtá kvalifikace není pro toto vozidlo k dispozici"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Pátá kvalifikace není pro toto vozidlo k dispozici"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Je limit {whiteSpanish_Open}tří{whiteSpanish_Close} bonusových schopností pro každou další kvalifikaci. Jako bonusové schopnosti lze vybrat jen schopnosti specifické pro tuto kvalifikaci."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Je limit {whiteSpanish_Open}šesti{whiteSpanish_Close} schopností hlavní kvalifikace (včetně nultých schopností)."
+
+msgid "matrix/resetButton"
+msgstr "Obnovit"
+
+msgid "matrix/resetButtonHint"
+msgstr "KLIKNUTÍM VYNULUJETE SCHOPNOSTI"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Nemáte vycvičené žádné schopnosti."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Nelze vynulovat schopnosti"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Kliknutím vynulujete schopnosti."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Obnovit schopnosti"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Bonusová schopnost dostupná pro výcvik"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Pro výcvik bonusových schopností nejsou potřeba ZK posádky."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Není k dispozici"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Odemčena při výcviku třetí schopnosti hlavní kvalifikace. Nejsou potřeba ZK."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Odemčena při výcviku páté schopnosti hlavní kvalifikace. Nejsou potřeba ZK."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Úroveň výcviku"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Celkový počet potřebných ZK je snížen, protože člen posádky má jednu nultou schopnost."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Celkový počet potřebných ZK je snížen, protože člen posádky má dvě nulté schopnosti."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Schopnost dostupná k výcviku"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Není k dispozici"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Předcházející schopnost musí být vycvičena na 100 %."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Nultá schopnost dostupná pro výcvik:"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Nulté schopnosti jsou vždy vycvičeny jako první, i přesto, že je vybráno několik schopností najednou. Pro jejich výcvik nejsou potřeba ZK posádky."
+
+msgid "matrix/skills/allSkills"
+msgstr "Pro toto vozidlo jsou vycvičeny všechny dodatečné schopnosti"
+
+msgid "matrix/skills/available"
+msgstr "Schopnosti dostupné pro výcvik:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonusové schopnosti"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Schopnosti nejsou dostupné"
+
+msgid "matrix/skills/locked"
+msgstr "Schopnosti nejsou dostupné"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Pro toto vozidlo jsou vypnuty všechny schopnosti"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Schopnosti hlavní kvalifikace"
+
+msgid "matrix/skills/reduced"
+msgstr "Efektivita schopností snížena"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Schopnosti velitele"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Schopnosti řidiče"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Schopnosti velitelky"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Schopnosti řidičky"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Schopnosti střelkyně"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Schopnosti nabíječky"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Schopnosti radistky"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Schopnosti střelce"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Schopnosti nabíječe"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Schopnosti radisty"
+
+msgid "matrix/skills/training"
+msgstr "Výcvik schopnosti"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Nulté schopnosti dostupné pro výcvik:"
+
+msgid "memberChange/action/recruit"
+msgstr "Naverbovat {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% SLEVA NA ZMĚNU KVALIFIKACE"
+
+msgid "memberChange/title"
+msgstr "VYBRAT {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}Ve skladu{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Po potvrzení bude člen posádky, který převedl své ZK, z vašeho účtu odstraněn."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Školící oprávnění vám umožňuje přesunout ZK posádky z jednoho člena posádky na druhého stejného národa."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Školící oprávnění"
+
+msgid "personalData/card/edit"
+msgstr "Upravit"
+
+msgid "personalData/card/remove"
+msgstr "Odebrat"
+
+msgid "personalData/card/restrictions"
+msgstr "Omezení: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Kliknutím nahradíte jméno a vzhled člena posádky"
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Vzhled"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Tento člen posádky již má jedinečné jméno a vzhled."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Jméno a vzhled nelze nahradit"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Nic nebylo nalezeno. Změňte nastavení, nebo vynulujte filtr."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Nastavte si zobrazení vzhledů posádky podle národnosti."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtrovat podle parametrů"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Ukázat doklady."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokumenty"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Ukázat vhodné vzhledy posádky."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Vhodné vzhledy posádky"
+
+msgid "personalData/filter/type/title"
+msgstr "Typ"
+
+msgid "personalData/title"
+msgstr "NAHRADIT JMÉNO A VZHLED"
+
+msgid "personalFile/changeVehicle"
+msgstr "Změna"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Tohoto člena posádky nelze vycvičit pro jiné vozidlo."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operace není k dispozici"
+
+msgid "personalFile/discount/full"
+msgstr "Je dostupná sleva na přeškolení posádky"
+
+msgid "personalFile/discount/short"
+msgstr "Je dostupná sleva"
+
+msgid "personalFile/inVehicle"
+msgstr "Na vozidlo: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Zvýšit"
+
+msgid "personalFile/isUntrained"
+msgstr "Není vycvičen/a pro toto vozidlo"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Všechna {icon} prém. voz."
+
+msgid "personalFile/retrain"
+msgstr "Přeškolit"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Efektivita schopností:"
+
+msgid "personalFile/specialization"
+msgstr "Specializace:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specializace"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Kliknutím si poslechnete ukázku dabingu velitele."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Jedinečný dabing"
+
+msgid "postProgression/button/claim"
+msgstr "Vyzvednout odměnu"
+
+msgid "postProgression/description"
+msgstr "Všichni členové posádky, kteří mají vycvičených všech šest schopností hlavní kvalifikace, získají přístup ke společnému po-postupu. Za každých 100 000 ZK získaných v po-postupu získáte univerzálního průvodce, kterého lze použít k výcviku jiných posádek."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Po-postup sestává z jednotné stupnice pro všechny členy posádky se šesti plně vycvičenými schopnostmi hlavní kvalifikace na hráčově účtu."
+
+msgid "postProgression/tips/2"
+msgstr "Do po-postupu se započítávají pouze bojové ZK. Polovina bojových ZK získaných členem posádky v bitvě je vydělena celkovým počtem členů posádky ve vozidle a je přidána do stupnice po-postupu."
+
+msgid "postProgression/tips/3"
+msgstr "Ztráta ZK ze schopností či přeškolení neovlivní po-postup."
+
+msgid "postProgression/title"
+msgstr "PO-POSTUP POSÁDKY"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Všichni členové posádky, kteří měli přístup do po-postupu, mají nízkou efektivitu schopností."
+
+msgid "postProgression/warning/retire"
+msgstr "Všichni členové posádky, kteří měli přístup do po-postupu, byli propuštěni nebo ztratili ZK ze své poslední schopnosti/schopností."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Všechny prémiové stíhače tanků"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Všechna prémiová samohybná děla"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Prémiové stíhače tanků"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Prémiové dělostřelectvo"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Prémiové těžké tanky"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Prémiové lehké tanky"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Prémiové střední tanky"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Všechny prémiové těžké tanky"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Všechny prémiové lehké tanky"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Všechny prémiové střední tanky"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "OCENĚNÍ"
+
+msgid "serviceRecord/averageXP"
+msgstr "Průměrné zkušenosti za bitvu"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Bitev odehráno"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Zatím žádné úspěchy nebo vyznamenání získané v bitvách."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Poměr celkového počtu získaných bodů zkušeností oproti počtu bitev ve vozidle, na kterém je člen posádky přiřazen."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Průměrné zkušenosti za bitvu"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Hodnost člena posádky závisí na jeho zkušenostech a počtu vycvičených schopností."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Hodnost"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Člen posádky má pro toto vozidlo vycvičeny všechny schopnosti"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Schopnosti dostupné pro výcvik"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Pro toto vozidlo jsou vypnuty všechny schopnosti"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Pro výcvik schopností dodatečné kvalifikace, které se cvičí dvakrát pomaleji než schopnosti hlavní kvalifikace, nejsou potřeba ZK."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Zrušit"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Vycvičit"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUSOVÁ KVALIFIKACE"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "HLAVNÍ KVALIFIKACE"
+
+msgid "tankChange/title"
+msgstr "VYCVIČIT PRO VOZIDLO"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Ukázat vozidla v garáži."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "V garáži"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Nastavte zobrazení vozidel podle jejich typu a úrovně."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtrovat podle parametrů"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Pro prémiová vozidla nemusíte cvičit členy posádky. Posádky lze do prémiových vozidel stejného typu přesouvat bez postihu."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Prémiové vozidlo"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Název vozidla může obsahovat až %(maxLength)s znaků."
+
+msgid "tankman/action/dismiss/title"
+msgstr "PROPUSTIT DO VÝSLUŽBY"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Propustit tohoto člena posádky do výslužby."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Tohoto člena posádky nelze propustit do výslužby."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operace není k dispozici"
+
+msgid "tankman/action/recruit/title"
+msgstr "NAVERBOVAT"
+
+msgid "tankman/action/restore/title"
+msgstr "OBNOVIT"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Obnovit tohoto člena posádky."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Kliknutím si poslechnete ukázku dabingu velitele."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Jedinečný dabing"
+
+msgid "tankman/recruit"
+msgstr "Rekrut"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Vzhled"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Služební záznam"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Naverbovat"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Vynulovat filtr"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Nic nebylo nalezeno. Změňte nastavení, nebo vynulujte filtr."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Nic nebylo nalezeno. Naverbujte člena posádky."
+
+msgid "tankmanList/filter/title"
+msgstr "Členové posádky:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Nedostatek lůžek v kasárnách."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Ukázat/skrýt pouze členy posádky ve výslužbě."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Ve výslužbě"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Ukázat členy posádky v kasárnách."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "V kasárnách"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Ukázat členy posádky ve vozidlech."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Ve vozidlech"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Ukázat/skrýt vzhledy tohoto národa."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Nastavte si zobrazení členů posádky podle jejich kvalifikace, specializace a dalších parametrů."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtrovat podle parametrů"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Naverbovat nového člena posádky."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Jméno může obsahovat maximálně %(maxLength)s znaků."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Najetí kurzorem na schopnost ukazuje, jak při vycvičení na 100 % s aktuální úrovní efektivity schopností ovlivňuje odpovídající charakteristiky."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Potvrzuji!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Pro každou kvalifikaci byly představeny dvě nové schopnosti, byla přepracována schopnost „Spolehlivé umístění“ a díky nové možnosti lze skrýt schopnosti v rozhraní HUD."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Pohodlná nová funkce vám umožňuje jedním kliknutím propustit nedostatečně vycvičené členy posádky."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Schopnosti lze nyní vynulovat pouze pomocí kreditů a bez ztráty ZK."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Byly přidány nové schopnosti a prvky, a byla aktualizována již stávající schopnost."
+
+msgid "welcomeScreen/title"
+msgstr "AKTUALIZACE POSÁDKY"

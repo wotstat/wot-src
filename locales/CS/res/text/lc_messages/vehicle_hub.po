@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Umožňuje vystřelit ze zásobníku sérii granátů jeden po druhém, přičemž každý granát se postupem času nabije."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Umožňuje vystřelit ze zásobníku sérii granátů jeden po druhém, přičemž každý granát se postupem času nabije. Během nabíjení poskytuje bonus k rychlosti nabíjení následujícího granátu."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Střílí rychlé dávky granátů, které za cenu průbojnosti a přesnosti v krátkém čase způsobují velké poškození. Nejefektivnější v boji zblízka."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Střílí granáty s hvězdicovým pláštěm, které způsobují maximální poškození na vzdálenost do 50 m. Poškození způsobené granátem se snižuje se zvětšující se vzdáleností, což činí granáty nejefektivnější v boji zblízka."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Jedinečný chladicí systém, který umožňuje dvojí zaměřování: čekání po nabití umožňuje dělu střílet přesněji. Zvýšená přesnost je zobrazena druhým, menším kruhem zaměřování."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Systém dvouhlavňového děla s možností střílet oběma hlavněmi jednotlivě nebo zároveň. Dvojitý výstřel způsobuje značné výbušné poškození, ale za cenu delšího nabíjení."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Umožňuje změnit úhel sklonu korby vozidla, což nabízí více možností palby z různých pozic v bitvě. Aktivace závisí na různých podmínkách."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Mění polohu přídavných kol, čímž výrazně zvýší rychlost, ale na úkor obratnosti. Nejvhodnější pro překonávání dlouhých vzdáleností a pro rychlé útoky."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Umožňuje vystřelit sérii granátů ze zásobníku, než je nutné provést úplné nabití. Způsobuje vysoké výbušné poškození, ale během nabíjení je vozidlo zranitelné. Zásobník lze nabít pouze celý najednou."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Dělo může střílet nepřetržitě bez nutnosti nabíjení. Každý výstřel generuje teplo: čím vyšší je jeho teplota, tím více se mění některé parametry děla. Nepřetržitá palba způsobí přehřátí děla, což znemožní další palbu, dokud se dělo neochladí."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Zvyšuje výkon motoru a maximální rychlost pro rychlý pohyb po bojišti. Po aktivaci raketové trysky snižují obratnost a nelze je ručně vypnout."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Po aktivaci tento speciální režim zvyšuje a/nebo mění určité bojové parametry. Nejlepší je ho aktivovat, když jste na pozici a připraveni k boji s nepřítelem."
+
+msgid "abilities/common/description/stun"
+msgstr "Ochromuje nepřátelská vozidla v určitém dosahu výbuchu i bez přímého zásahu a na krátkou dobu zhorší jejich pohyblivost, přesnost a dobu nabíjení. Ochromení nepřátelé jsou označeni ukazatelem ochromení."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Umožňuje vozidlu pohybovat se i se zničeným pásem, byť nižší rychlostí. Ztráta dalšího vnějšího pásu dále snižuje pohyblivost, ale vozidlo se stále může otáčet a pohybovat."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Umožňuje vozidlu jet výrazně rychleji a zároveň výrazně snižuje parametry ovládání děla."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Po aktivaci tento speciální režim zdvojnásobuje poškození a zvyšuje a/nebo mění určité bojové parametry. Nejlépe se hodí pro boj na krátkou vzdálenost."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Automatické dobíjení"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Vylepšené automatické dobíjení"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Automatické dělo"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Dělo s hlubokým vývrtem"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Ochlazování děla"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Dvouhlavňové dělo"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Hydropneumatický podvozek"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Rychlý režim"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Automatické nabíjení"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Automatický kanón s termální ochranou proti přehřátí"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Raketové trysky"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Palebný režim"
+
+msgid "abilities/common/name/stun"
+msgstr "Ochromení"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Náhradní pás"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Turbo režim"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Režim palby salvou"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Stáním na místě nebo pomalou jízdou získáváte úrovně přesnosti, které vylepší přesnost vašeho dalšího výstřelu.\nNa nejvyšší úrovni přesnosti získáte dobré ovládání děla se sníženým rozptylem i za pohybu nebo při otáčení věže/korby."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Kdykoliv zasáhnete nepřítele granátem, získáte úroveň efektivity nabíjení, která dočasně zkracuje dobu nabíjení vašeho děla. Úrovně se s každým zásahem sčítají. \nZničení nepřátelského vozidla granátem poskytuje další úrovně efektivity nabíjení."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Pokud je vaše dělo nabité, můžete začít zahřívat další výstřel, abyste zvýšili jeho poškození – čím vyšší je úroveň zahřátí, tím větší je účinek.\nPři maximálním nahřátí máte několik sekund na výstřel – pokud tak neučiníte, nebudete dočasně schopni střílet."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Dva zásahy s probitím pancíře nepřátelského vozidla spustí režim palby salvou a nabije kazetu pro palbu dávkou, která vám umožní v krátkém sledu vystřelit dva výstřely, přičemž váš následující výstřel způsobí obrovské poškození."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Pneumatický gyroskopický stabilizátor poskytuje maximální stabilizaci za pohybu, během otáčení korby a během otáčení věže, čímž umožňuje rychlejší a přesnější palbu a také rychlou odpověď na náhlé hrozby a efektivní útoky zpoza krytu."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Když ve stávající kazetě zbývá jeden granát, začne systém automaticky nabíjet novou kazetu, takže budete připraveni k boji. Během tohoto procesu můžete stále vystřelit poslední granát, ale tím se o několik sekund prodlouží zbývající doba nabíjení."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Systém ochlazuje dělo, což umožňuje velmi přesnou palbu. Dělo se při palbě zahřívá, ale během nabíjení se začne ochlazovat a vrátí se k vylepšeným parametrům. Čím vyšší je teplota děla, tím více se mění některé jeho parametry."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Na základě zkušeností s konstrukcí předchozích modelů je toto vozidlo speciálně navrženo pro smrtící útoky nárazem. Vyztužená konstrukce mu umožňují způsobit větší poškození narážením do nepřátelských vozidel, čímž získává výhodu při střetnutích na blízko."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Dělo tohoto vozidla může střílet předčasně: výstřely s částečným nabitím vypálené během nabíjení mají sníženou účinnost, zatímco běžné výstřely s plným nabitím vypálené po nabití mají optimální balistické parametry."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Dělo může střílet nepřetržitě bez nutnosti nabíjení. Každý výstřel generuje teplo: čím vyšší je jeho teplota, tím více se mění některé parametry děla. Nepřetržitá palba způsobí přehřátí děla, což znemožní další palbu, dokud se dělo neochladí."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Zůstaňte na místě nebo se pomalu pohybujte a budete pomalu připravovat nahřátí, které zvýší poškození a přesnost vašeho dalšího výstřelu. Na maximálním nahřátí způsobí probití nepřítele, který má méně bodů výdrže, než je průměrné poškození, výbuch bedny s municí, čímž dojde ke zničení vozidla."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Tento režim přemění vaše vozidlo na opevněnou dělovou platformu, která se vyznačuje vynikající přesností a rychlejším nabíjením. Výměnou za tuto vylepšenou palebnou sílu je pohyblivost vozidla – rychlost jízdy vpřed a couvání a vertikální a horizontální otáčení – výrazně omezená."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Tento režim poskytuje výrazné navýšení výkonu motoru a výrazně vyšší maximální rychlost jízdy vpřed. Čím déle jedete dopředu, tím více rychlosti získáte, což vám umožňuje snadno přejíždět po bojišti a urazit větší vzdálenosti."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Systém postupně hromadí náboj, přičemž vyšší úroveň náboje poskytuje větší bonus k poškození. Náboj je omezen omezovačem, který lze deaktivovat, aby se dosáhlo ještě většího bonusu k poškození, avšak za cenu sníženého ovládání děla."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Kdykoliv aktivujte trysky na kapalné palivo, a když to nejvíce potřebujete, získejte posílení k rychlosti. Trysky se zahřívají a před opětovným použitím se musí ochladit. Překročení limitu kritické teplotní meze je dočasně zcela deaktivuje."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Trysky na tuhé palivo, které na několik sekund zvyšují zrychlení, pohyblivost a obratnost. Levé a pravé trysky mohou pracovat nezávisle na sobě, což umožňuje rychlejší otáčení korby a neomezuje couvání."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "V závislosti na aktivním režimu a úrovni nabití může vozidlo aktivovat jednu ze dvou schopností: \nIontový přídavný spalovač, který zvyšuje výkon motoru a rychlost. \nKoincidenční elektromechanický zaměřovač, který snižujte rozptyl, dobu nabíjení a zlepšuje přesnost."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Tento modul vás udržuje v boji tím, že vám umožňuje kdykoli přerušit nabíjení, pokud je nabitý alespoň jeden granát. Stiskněte klávesovou zkratku, abyste zastavili nabíjení, po krátké prodlevě vystřelte a poté pokračujte v manuálním nabíjení nebo nechte automaticky nabít prázdný zásobník."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Stisknutím aktivačního tlačítka vystřelíte pomocné zbraňové systémy vašeho vozidla na cíl. Tato dodatečná palebná síla má svůj vlastní cyklus nabíjení, nezávislý na hlavním dělu."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Tvůj další výstřel aplikuje efekt založený na stavu nepřítele. Zasažení nepřítele, který byl odhalen, ho označí – zůstane déle odhalený a obdrží větší poškození. Zasažení nepřítele, který nebyl odhalen, zvýrazní jeho polohu speciální značkou."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Nabízí dvojnásobné poškození a lepší stabilizaci na úkor pohyblivosti, přesnosti, rychlosti otáčení věže a času zaměření. Nejvhodnější pro boj zblízka."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Tato mechanická úprava na krátkou dobu výrazně zvyšuje zrychlení vozidla, výkon motoru a maximální rychlost vpřed i vzad, což vám umožní rychle reagovat na nepřátelské útoky a zaskočit protivníky dynamickými manévry."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Analogový balistický počítač"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Poloautomatický zásobník munice"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Termobalistické přehřátí"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Režim palby dávkou"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Pneumatický gyroskopický stabilizátor"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Systém nabíjení kazety"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Aktivní ochlazování děla"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Konfigurace pro narážení"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Segmentovaný nabíjecí systém"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Automatický kanón s termální ochranou proti přehřátí"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Systém řízení teploty pohonných látek"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Opevněný režim"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Přímý pohon"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Přídavné indukční spalování"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Rakety na kapalné palivo"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Sekvenční raketové trysky"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Taktický napájecí zdroj"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Vnější modul pro zásobování municí"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Pomocný zbraňový systém"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Laserový značkovač cílů"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Režim palby salvou"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Vysokotlaké pomocné turbodmychadlo"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Zvyšuje přesnost vašeho dalšího výstřelu se slušnou stabilizací při plné kalibraci."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Každý zásah do nepřátelského vozidla po omezenou dobu zvyšuje rychlost nabíjení děla."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Zvyšte úroveň tepla, abyste příštím výstřelem způsobili nepřátelským vozidlům větší poškození."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Kazeta pro palbu dávkou, která vám umožňuje v krátkém sledu vystřelit dva granáty."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maximalizuje stabilizaci za pohybu a při otáčení pro přesnější palbu."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Automaticky začne nabíjet, když je v zásobníku poslední granát, který je možné během nabíjení vystřelit."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Aktivní systém ochlazování děla, který zvyšuje přesnost při ochlazování děla."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Zvyšuje poškození způsobené nárazem nepřátelským vozidlům."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Speciální mechanika děla, která umožňuje střílet dříve, avšak na úkor účinnosti palby."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Systém umožňuje nepřetržitou palbu bez nutnosti nabíjení a řídí způsob, jakým dělo při palbě generuje teplo."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Stání na místě nebo pomalá jízda zvyšuje způsobené poškození a přesnost vašeho následujícího výstřelu."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Výrazně zvyšuje přesnost a rychlost nabíjení děla, ale výrazně omezuje pohyblivost."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Zvyšuje výkon motoru; čím déle se vozidlo pohybuje, tím vyšší rychlosti dosahuje."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Systém se nabíjí, aby zvýšil poškození. Čím vyšší je nabití, tím větší je poškození."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Trysky, které lze kdykoliv aktivovat a které poskytují prudký nárůst rychlosti."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Trysky na tuhé palivo, které zlepšují zrychlení, pohyblivost a ovladatelnost."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Nabíjí jednu ze dvou jedinečných schopností, zvyšuje rychlost, nebo zlepšuje přesnost děla."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "V kritických okamžicích vám umožňuje přerušit nabíjení a opětovat palbu."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Několik přídavných zbraní pro větší palebnou sílu, které fungují v souladu s vaším hlavním dělem."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Zvyšuje čas, po který je nepřítel odhalen, a poškození, které obdrží, nebo ho označí speciální značkou."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Umožňuje střílet z obou děl současně, ale za cenu delší doby nabíjení."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Speciální mechanika, která na krátkou dobu zvyšuje výkon motoru, zrychlení a maximální rychlost."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Zůstanete-li stát na místě nebo se budete pohybovat rychlostí nižší než určitá hodnota, vaše vozidlo bude moci kalibrovat svůj Analogový balistický počítač a zvýšit úrovně přesnosti, čímž se zvýší přesnost vašeho dalšího výstřelu. Pokud překročíte rychlostní limit, váš postup ve zvyšování úrovně přesnosti se pozastaví, dokud nezpomalíte. Na nejvyšší úrovni přesnosti získá vaše vozidlo téměř dokonalou stabilizaci děla s minimálním rozptylem za pohybu nebo při otáčení věže/korby. Tento efekt se po výstřelu zruší."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Kdykoliv zasáhnete odhaleného nepřítele granátem, získáte úroveň efektivity nabíjení, která dočasně zkracuje dobu nabíjení vašeho děla. Úrovně se s každým zásahem sčítají a zničení nepřátelského vozidla granátem poskytuje další úrovně efektivity nabíjení."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Pokud je vaše dělo nabité, můžete začít nahřívat svůj další výstřel. Čím vyšší úrovně nahřátí dosáhnete, tím větší bude bonus ke způsobenému poškození. Během procesu nahřívání nemůžete měnit granáty. Když dosáhnete maximální úrovně nahřátí, začne odpočet. Pokud do jeho skončení nevystřelíte, nebudete moct několik sekund střílet."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Dosažení dvou zásahů nepřátelských vozidel s probitím pancíře aktivuje režim palby dávkou a nabije kazetu pro palbu dávkou, která umožní při příštím výstřelu vypálit v krátkém sledu dva granáty po sobě."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Pneumatický gyroskopický stabilizátor poskytuje na krátkou dobu maximální stabilizaci během otáčení korby a věže, čímž umožňuje přesněji střílet za pohybu a rychle reagovat na náhlé hrozby."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Když ve stávající kazetě zbývá poslední granát, začne systém automaticky nabíjet novou kazetu. Vystřelení posledního granátu, zatímco se nabíjí nová kazeta, přidá několik sekund ke zbývající době nabíjení. Stisknutí klávesové zkratky „Dobít zásobník munice“ zruší všechny zbývající granáty, vyjma posledního. Stiskněte klávesovou zkratku dvakrát a obnovíte plně nabitou kazetu."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Systém ochlazuje dělo, což umožňuje velmi přesnou palbu. Dělo se při palbě zahřívá, ale během nabíjení se začne ochlazovat a vrátí se k vylepšeným parametrům. Čím vyšší je teplota děla, tím více se mění některé jeho parametry."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Toto vozidlo je speciálně konfigurováno pro útoky narážením, s řadou konstrukčních úprav, které mu pomáhají při narážení způsobit nepřátelským vozidlům větší poškození."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Dělo tohoto vozidla může střílet předčasně: výstřely s částečným nabitím vypálené během nabíjení mají sníženou účinnost, zatímco běžné výstřely s plným nabitím vypálené po nabití mají optimální balistické parametry."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Dělo může střílet nepřetržitě bez nutnosti nabíjení. Každý výstřel generuje teplo: čím vyšší je jeho teplota, tím více se mění některé parametry děla. Nepřetržitá palba způsobí přehřátí děla, což znemožní další palbu, dokud se dělo neochladí."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Zůstanete-li stát na místě nebo se budete pohybovat rychlostí nižší než určitá hodnota, generuje se nahřátí, které zvyšuje průměrné způsobené poškození a přesnost vašeho následujícího výstřelu. Překročení rychlostního limitu postupně bonus snižuje, zatímco výstřel nebo změna granátu bonus okamžitě zruší. Na maximální úroveň nahřátí způsobí probití pancíře nepřátelského vozidla s méně body výdrže, než je vaše průměrné poškození – včetně vašeho nahromaděného bonusu za nahřátí – výbuch bedny s municí, který okamžitě vozidlo zničí."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "V tomto režimu jsou přesnost děla, doba nabíjení a úhly náměru a sklápění děla výrazně zlepšeny, ale pohyblivost (rychlost jízdy vpřed a vzad a rychlost vertikálního a horizontálního otáčení) je výrazně omezena. Hodnoty procent jsou zde pro porovnání s palebným režimem."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Režim přímého pohonu poskytuje výrazné posílení výkonu motoru a maximální rychlosti jízdy vpřed. Čím déle pojedete dopředu, tím rychleji pojedete, což vám dovolí snadno přejíždět po bojišti."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Systém v průběhu času automaticky akumuluje náboj, který se částečně spotřebovává k zvýšení poškození při palbě. Čím vyšší je náboj, tím větší je bonus k poškození. Ve výchozím nastavení systém ukládá náboj pouze do určitého limitu. Vypnutím tohoto limitu lze akumulovat ještě vyšší náboj, což poskytuje mnohem větší bonus k poškození, ale zhoršuje ovládání děla."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Trysky na tekuté palivo poskytují posílení výkonu motoru, což vám umožňuje získat na bojišti poziční výhodu – ale omezují rychlost couvání vašeho vozidla a rychlost otáčení. Trysky lze kdykoliv vypnout a zapnout, pokud nebylo dosaženo limitu opětovné aktivace. Když jsou aktivní, trysky se zahřívají, a dokud se neochladí, nebudou dostupné, což znamená, že je nelze používat nepřetržitě – překročení kritické teplotní meze je dočasně úplně vypne. Pečlivě plánujte svou hru, jinak můžete být nepříjemně překvapeni."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Trysky na tuhé palivo, které na několik sekund zvyšují zrychlení, pohyblivost a obratnost vozidla. Na rozdíl od běžných raketových trysek mohou levá a pravá tryska pracovat nezávisle na sobě, což umožňuje rychlejší otáčení korby a neomezuje schopnost couvání. Lze je použít několikrát za bitvu, ale před opětovnou aktivací je nutné počkat na ochlazení."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "V závislosti na aktivní režimu a úrovni nabití může vozidlo aktivovat jednu ze dvou schopností: Iontový přídavný spalovač nebo Koincidenční elektromechanický zaměřovač.\nIontový přídavný spalovač dočasně zvyšuje výkon motoru, maximální rychlost jízdy vpřed i vzad. Koincidenční elektromechanický zaměřovač dočasně zvyšuje přesnost a zkracuje dobu nabíjení."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Vnější modul pro zásobování municí vám, dokud máte stále nabitý jeden granát, umožňuje kdykoliv přerušit nabíjení a začít střílet. Během nabíjení modul uzamkne věž vozidla a vnější zásobníky munice, čímž vám dočasně zabrání v zaměřování nebo palbě, pokud nabíjení nepřerušíte."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Toto vozidlo je vybaveno sadou pomocných zbraní, jejichž cyklus nabíjení je nezávislý na hlavním dělu a které vám v klíčových okamžicích umožní způsobit další poškození."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Laserový značkovač cílů přidává k vašemu následujícímu výstřelu speciální efekt, který je aplikovaný na nepřítele, kterého zasáhnete. Efekt se liší podle toho, zda byl nepřítel v okamžiku zásahu odhalen. Zasažení odhaleného nepřátelského vozidla ho označí, čímž prodlouží čas, po který zůstane odhaleno, a zvýší poškození, které obdrží od granátů, zatímco zasažení neodhaleného nepřátelského vozidla označí jeho lokaci speciálním ukazatelem."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Nabízí dvojnásobné poškození a lepší stabilizaci na úkor pohyblivosti, přesnosti, rychlosti otáčení věže a času zaměření. Nejvhodnější pro boj zblízka."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Tato mechanická úprava na krátkou dobu výrazně zvyšuje zrychlení vozidla, výkon motoru a maximální rychlost vpřed i vzad, což vám umožní rychle reagovat na nepřátelské útoky a zaskočit protivníky dynamickými manévry. Udržování vysoké rychlosti jízdy zkracuje dobu obnovení této mechaniky."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Všechny uvedené hodnoty představují maximální možné hodnoty pro dané vozidlo. Tyto hodnoty může změnit výbava, směrnice a spotřební doplňky, ale tyto změny zde nejsou zohledněny."
+
+msgid "characteristics/templates/upTo"
+msgstr "Až %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Koupit a namontovat"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Polní vylepšení"
+
+msgid "modules/controls/button/mount"
+msgstr "Namontovat"
+
+msgid "modules/controls/button/research"
+msgstr "Vyzkoumat"
+
+msgid "modules/controls/button/sell"
+msgstr "Prodat ze skladu"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Toto vozidlo je v bitvě. Jeho moduly můžete upravit až po skončení bitvy."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Toto vozidlo je poškozeno. Pro úpravu modulů jej nejprve opravte."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Modul nelze namontovat. {{module}} není kompatibilní."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Toto vozidlo je v taktické jednotce."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Pro úpravu modulů vozidlo nejprve zakupte."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Pro výzkum tohoto modulu nejprve vyzkoumejte moduly předchozí."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Pro výzkum modulů nejprve vyzkoumejte vozidlo."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Všechny moduly byly vyzkoumány."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Tento modul je již namontovaný."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Vyberte modul nebo vozidlo pro výzkum."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Toto vozidlo je v bitvě. Jeho moduly můžete upravit až po skončení bitvy."
+
+msgid "modules/controls/name"
+msgstr "Vybráno: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Podvozek"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Motor"
+
+msgid "modules/name/vehicleGun"
+msgstr "Dělo"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Rádio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Věž"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Kola"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Sběratelská vozidla"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Možnost získat"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "kredity za každou bitvu"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "přesunutí posádky bez postihu"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "Bojové zkušenosti a zkušenosti posádky"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Bony"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Více"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Zdarma"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Více"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Získat bony"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Více kreditů"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Bezplatné přesunutí"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Více zkušeností"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Bezplatná sada nářadí"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Možnost získat"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "kredity za každou bitvu"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "přesunutí posádky z jakékoliv třídy vozidla bez postihu"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "Bojové zkušenosti a zkušenosti posádky"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Bony"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Více"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Zdarma"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Více"
+
+msgid "overview/crew/name"
+msgstr "Posádka {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Zobrazit mechaniku"
+
+msgid "overview/title/generalDescription"
+msgstr "Popis vozidla"
+
+msgid "overview/title/historicalReference"
+msgstr "Historické reference"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Do {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Obnovení dostupné do {{date}}"
+
+msgid "tabs/armor"
+msgstr "Pancíř"
+
+msgid "tabs/modules"
+msgstr "Moduly"
+
+msgid "tabs/overview"
+msgstr "Přehled"
+
+msgid "tabs/stats"
+msgstr "Charakteristiky"
+
+msgid "tabs/vehSkillTree"
+msgstr "Vylepšení"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Pronájem skončil"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Předplatné pozastaveno"

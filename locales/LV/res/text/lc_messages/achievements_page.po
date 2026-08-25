@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Punkti, kas palielina Kopējo Sasniegumu Rezultātu."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Sasniegumu Punkti"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Jūs esiet izpildījuši visus šī sasnieguma soļus un saņēmāt visas pieejamās balvas."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Nospiediet %(escIcon)s, lai atgrieztos uz iepriekšējo KATALOGA līmeni."
+
+msgid "catalog/rootLink"
+msgstr "KATALOGS"
+
+msgid "category/achievementsScore/title"
+msgstr "SASNIEGUMU REZULTĀTS"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Galvenais progresa rādītājs sasniegumu kolekcijā. Katrs jauns sasniegums palielina Kopējo Sasniegumu Rezultātu, izņemot trofejas."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Kopējais Sasniegumu Rezultāts: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "NESENI\nSASNIEGUMI"
+
+msgid "category/title"
+msgstr "SPĒLĒTĀJA KOLEKCIJA"
+
+msgid "category/upcoming/title"
+msgstr "GAIDĀMI\nSASNIEGUMI"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s un vairāk"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Sasniegums atslēgts!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s Sasniegumi Atslēgti!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s un vairāk"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Nopelnīta jauna trofeja!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s trofejas nopelnītas"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Automātiskais Displejs sašķiro balvas no visām kategorijām pēc to vērtības, lai tās parādītu uz vērtīgo balvu lentes. Tas tiek izslēgts, ja balvas pārkārtojat manuāli."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Automātiskais Displejs sašķiro balvas no visām kategorijām pēc to vērtības, lai tās parādītu uz vērtīgo balvu lentes. Ieslēdzot iestatījumu, manuālā kārtība tiek atiestatīta."
+
+msgid "editConfirm/description/error"
+msgstr "Mēs izmeklējam problēmu. Lūdzu mēģiniet rediģēt vēlāk. Tikmēr jūs tiksiet novirzīts uz Kopsavilkumu."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Saglabāt"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Atcelt"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Sapratu!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automātiskais Displejs Izslēgts"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automātiskais Displejs Ieslēgts"
+
+msgid "editConfirm/title/error"
+msgstr "Radās Kļūda"
+
+msgid "editConfirm/title/normal"
+msgstr "Pielietot vērtīgo balvu lentes izmaiņas?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Atcelt Izmaiņas"
+
+msgid "editView/footer/button/save"
+msgstr "Pielietot un Iziet"
+
+msgid "editView/header/checkbox"
+msgstr "Automātiskais Displejs"
+
+msgid "editView/header/close"
+msgstr "AIZVĒRT"
+
+msgid "editView/header/title/idle"
+msgstr "Izvēlieties Balvas, lai Rādītu uz Lentes"
+
+msgid "editView/header/title/selecting"
+msgstr "Izvēlieties Balvu, lai Aizstātu"
+
+msgid "editView/header/title/tutorial"
+msgstr "Izvēlieties Balvas Vietu"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Atcelt"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Aizstāt"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "JŪSU SASNIEGUMI\nIR ŠEIT"
+
+msgid "hint/profile"
+msgstr "JŪSU SASNIEGUMI\nIR ŠEIT"
+
+msgid "hint/summary/customizationButton"
+msgstr "Rediģēšana Pieejama"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Uz Lenti"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Vērtīgo Balvu Lentes Rediģēšana Pieejama"
+
+msgid "notifications/firstEntry/button"
+msgstr "Uz Sasniegumiem"
+
+msgid "notifications/firstEntry/text"
+msgstr "World of Tanks Reitings,\nbalvu rediģēšana."
+
+msgid "notifications/firstEntry/title"
+msgstr "Atjaunina Sasniegumus"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Uz Sasniegumiem"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Balvu rediģēšana\nun vizuālais dizains."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Atjaunina Sasniegumus"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Uz Sasniegumiem"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Jūsu līmenis: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Jūsu Reitings Tika Aprēķināts!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Uz Sasniegumiem"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Jūsu World of Tanks reitings ir mainījies. Ejiet uz Sasniegumu sadaļu, lai atrastu visas detaļas."
+
+msgid "notifications/ratingUp/button"
+msgstr "Uz Sasniegumiem"
+
+msgid "notifications/ratingUp/text"
+msgstr "Jūs sasniedzāt sekojošo līmeni: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Jūsu Reitings Ir Palielinājies!"
+
+msgid "playerInfo/clan/button"
+msgstr "Klana Profils"
+
+msgid "playerInfo/clan/date"
+msgstr "Pievienošanās datums:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Spēlētājam nav pastāvīgas taktiskās vienības"
+
+msgid "playerInfo/clan/post"
+msgstr "Pozīcija:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Personālais Militārais Žetons\nīslaicīgi nav pieejams"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Spēlētāja reitings nav aprēķināts: Ir aizvadītas mazāk nekā %(amount)s kaujas."
+
+msgid "ratingWidget/status/initial"
+msgstr "Cīnieties %(amount)s kaujās, lai aprēķinātu jūsu World of Tanks Reitingu."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Spēlētāja reitings vēl nav aprēķināts"
+
+msgid "ratingWidget/status/progress"
+msgstr "Aprēķina jūsu World of Tanks Reitingu. Atlikušās Kaujas: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Dodieties kaujā un mēs aprēķināsim jūsu reitingu."
+
+msgid "rewardView/button/achievements"
+msgstr "Uz Sasniegumiem"
+
+msgid "rewardView/button/dogTag"
+msgstr "Uz Militāro Žetonu"
+
+msgid "rewardView/button/dogTags"
+msgstr "Uz Militārajiem Žetoniem"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Skatīt Vēl %(value)s"
+
+msgid "rewardView/reward/dogTag"
+msgstr "%(value)s Militārais Žetons"
+
+msgid "rewardView/title/multi"
+msgstr "SASNIEGUMU BALVAS SAŅEMTAS"
+
+msgid "rewardView/title/single"
+msgstr "SASNIEGUMU BALVA SAŅEMTA"
+
+msgid "section/action"
+msgstr "Īpašs"
+
+msgid "section/battle"
+msgstr "Kaujas Varoņi"
+
+msgid "section/class"
+msgstr "Kārtu Sasniegumi"
+
+msgid "section/epic"
+msgstr "Episkās Medaļas"
+
+msgid "section/group"
+msgstr "Grupu Sasniegumi"
+
+msgid "section/memorial"
+msgstr "Piemiņas Tokeni"
+
+msgid "section/special"
+msgstr "Goda Pakāpes"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "UZ SASNIEGUMIEM"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Pēdējā Kauja: %(lastVisitDate)s %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Konts izveidots: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Fons"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Noklusējuma"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Uguns"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Zelts"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Leģendārs"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Sprādzienbīstams"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Atcelt Izmaiņas"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Lente"
+
+msgid "summary/achievements/customization/save"
+msgstr "Pielietot un Iziet"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Tehnisku problēmu dēļ jūsu Pakalpojuma Ieraksta Ekrāna pielāgošana pašlaik nav pieejama. Mēs strādājam pie tā novēršanas. Atsvaidziniet ekrānu vai atgriezieties vēlāk."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Pielāgošana pašlaik nav pieejama"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Vērtīgas Balvas"
+
+msgid "summary/achievements/total"
+msgstr "Kopumā: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Unikāls: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Viduvējs: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Uzvaras: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Viduvējs: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Viduvējs: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Rekords: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Viduvējs: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Dodieties kaujā kamēr mēs sagatavojam jūsu datus."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Informācija īslaicīgi nav pieejama."
+
+msgid "summary/disabled/title"
+msgstr "Vairāk informācija Pieejama Vēlāk"
+
+msgid "summary/main/assistance"
+msgstr "ATBALSTA\nREKORDS"
+
+msgid "summary/main/battles"
+msgstr "AIZVADĪTAS\nKAUJAS"
+
+msgid "summary/main/blocked"
+msgstr "MAKSIMĀLI\nBLOĶĒTS"
+
+msgid "summary/main/damage"
+msgstr "BOJĀJUMU\nREKORDS"
+
+msgid "summary/main/destroyed"
+msgstr "TANKI\nIZNĪCINĀTI"
+
+msgid "summary/main/experience"
+msgstr "PIEREDZES\nREKORDS"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks Reitings"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Personīgais Reitings"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maksimālie bojājumi, kas izdarīti ar jūsu atbalstu."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maksimālie bojājumi, kas izdarīti kaujā ar jūsu atbalstu iekš %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Atbalsta rekords: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Kopējo izdarīto bojājumu pretinieku tankiem ar jūsu atbalstu pret kopējo aizvadīto kaujas skaitu attiecība. Ieskaitīts kā ieguldījums:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Bojājumi pa tiem, kurus jūs izlūkojiet\n• Bojājumi pa tiem, kuriem jūs iznīciniet kāpurķēdes un imobilizējiet pretinieku tanku"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Vidējais atbalsts: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Kopējo uzvaru skaita pret aizvadīto kauju skaitu attiecība."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Ieskaitot:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Uzvaras: %(wins)s\n• Sakāves: %(loses)s\n• Neizšķirts: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Uzvaru attiecība: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Aizvadītas kaujas: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Maksimālie bloķētie bojājumi."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Maksimālie bloķētie bojājumi kaujā iekš %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Maksimāli bloķēts: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Kopējo bloķēto bojājumu ar bruņām no necauršaujošiem šāvieniem un rikošetiem ar AP, HEAT un APCR čaulītēm pret aizvadīto kauju skaitu attiecība."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Vidējie bloķētie bojājumi: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maksimālie izdarītie bojājumi."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maksimālie izdarītie bojājumi kaujā iekš %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Bojājumu rekords: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Kopējo izdarīto bojājumu attiecība pret aizvadīto kauju skaitu."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Vidējie bojājumi: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Maksimālais iznīcināto tanku skaits."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Maksimālie iznīcinātie pretinieku tanki kaujā iekš %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Maksimāli iznīcināts: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Kopējais skaits iznīcināto pretinieku tanku visās kaujās."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Tanki iznīcināti: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Maksimālais nopelnītās pieredzes daudzums."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Maksimālais nopelnītās pieredzes daudzums kaujā iekš %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Pieredzes rekords: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Kopējās nopelnītās pieredzes attiecība pret aizvadīto kauju skaitu."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Vidējā pieredze: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Ne uzvara ne sakāve ietekmē jūsu World of Tanks Reitinga aprēķinu."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Spēlējiet dažādos tankos, lai noteiktu jūsu efektīvākos tankus balstoties uz sekojošajiem snieguma parametriem:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR ir reitingu sistēma, kas aprēķina individuālu vērtējumu katram tankam un pēc tam izmanto to, lai noteiktu spēlētāja vispārējo sniegumu. Sistēma elastīgi reaģē uz kaujas stratēģijas izmaiņām un salīdzina spēlētāja statistiku ar servera vidējo rādītāju."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Izdarītie bojājumi"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Izdarīti bojājumi ar jūsu atbalstu"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Iznīcināto pretinieku tanku skaits"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Bloķētie bojājumi un izdzīvošanas līmenis"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "WTR Palielināšana"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks Reitings"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Atlikušās kaujas, lai aprēķinātu reitingu: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Līmenis: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Ierobežojums sasniegts!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Atlikušie punkti, lai palielinātu jūsu līmeni: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronza %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Sudrabs %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Zelts %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Dūzis %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Leģenda %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Līmenis"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Punktu Skaits"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks Reitings"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Ieslēdzot iestatījumu, jūsu uzstādītā secība %(whiteSpanish_Open)stiks atiestatīta%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Izslēdzot iestatījumu vai uzstādot to manuāli, balvas uz lentes %(whiteSpanish_Open)spārstās tikt%(whiteSpanish_Close)s %(whiteSpanish_Open)satjauninātas%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomātiski%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Automātiski kārtojiet balvas %(whiteSpanish_Open)sno visām kategorijām%(whiteSpanish_Close)s pēc to vērtībām, lai rādītu uz vērtīgo balvu lentes."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automātiskais Displejs"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Vērtīgo balvu lentes rediģēšana īslaicīgi nav pieejama. Lūdzu mēģiniet vēlāk."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Jums nav balvu, ko tur uzstādīt. Saņemiet tās %(whiteSpanish_Open)skaujās%(whiteSpanish_Close)s vai %(whiteSpanish_Open)spar piedalīšanos spēles pasākumos.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Vērtīgo balvu lentes rediģēšana būs pieejama pēc %(whiteSpanish_Open)s%(amount)s vai vairāku balvu%(whiteSpanish_Close)s saņemšanas no jebkuras kategorijas."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Nav balvu ko novietot šeit."
+
+msgid "tooltips/mastery/body"
+msgstr "Dūža Tankista Meistarības Žetoni iegūti visos atbilstošajos režīmos / Tanku skaits, kas aizvadījis vismaz 1 Nejaušo Kauju"
+
+msgid "tooltips/mastery/header"
+msgstr "Meistarības Žetoni: Dūža Tankists"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Personīgais Reitings ir spēlētāja spēju un pieredzes mērs un ir balstīts uz sekojošo:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Personīgais Reitings tiek atjaunināts ar katru aizvadīto papildus kauju."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Uzvaras\n• Izdarīti bojājumi ar jūsu atbalstu\n• Vidējie bojājumi katrā kaujā\n• Vidējā pieredze katrā kaujā\n• Kaujas izdzīvotas"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Personīgais Reitings"

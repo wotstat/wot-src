@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Комплекс параметрів, що впливають на загальну результативність вогню по супротивнику."
+
+msgid "domain/accuracy/name"
+msgstr "Ефективність стрільби"
+
+msgid "domain/armorPiercing/description"
+msgstr "Комплекс параметрів, які впливають здатність танків пробивати броню супротивника."
+
+msgid "domain/armorPiercing/name"
+msgstr "Бронепробиття"
+
+msgid "domain/battleParams/description"
+msgstr "Комплекс параметрів, які впливають на кореневі механіки ігрового процесу."
+
+msgid "domain/battleParams/name"
+msgstr "Параметри бою"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Специфічні модифікатори режиму, що змінюють характеристики машини."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Модифікатори Натиску Лайт"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Специфічні модифікатори режиму, що змінюють характеристики машини."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Модифікатори Натиску"
+
+msgid "domain/concealment/description"
+msgstr "Комплекс параметрів, які впливають на здатність техніки уникати виявлення."
+
+msgid "domain/concealment/name"
+msgstr "Маскування"
+
+msgid "domain/damageDealing/description"
+msgstr "Комплекс параметрів, які впливають на здатність техніки завдавати шкоди."
+
+msgid "domain/damageDealing/name"
+msgstr "Завдавання шкоди"
+
+msgid "domain/mobility/description"
+msgstr "Комплекс параметрів, які впливають на динамічні та швидкісні характеристики."
+
+msgid "domain/mobility/name"
+msgstr "Маневреність і динаміка"
+
+msgid "domain/randomization/description"
+msgstr "Комплекс параметрів, які впливають на розкид шкоди та бронепробиття."
+
+msgid "domain/randomization/name"
+msgstr "Випадкові величини"
+
+msgid "domain/sustaining/description"
+msgstr "Комплекс параметрів, які впливають на відновлення пошкоджених модулів / екіпажу."
+
+msgid "domain/sustaining/name"
+msgstr "Ремонтопридатність"
+
+msgid "domain/visibility/description"
+msgstr "Комплекс параметрів, які впливають на здатність техніки виявляти противника."
+
+msgid "domain/visibility/name"
+msgstr "Огляд"
+
+msgid "domain/vitality/description"
+msgstr "Комплекс параметрів, які впливають на живучість машини."
+
+msgid "domain/vitality/name"
+msgstr "Захищеність"
+
+msgid "modifier/name/aimingTime"
+msgstr "Час зведення"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Міцність боєукладки"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Час перезаряджання техніки з механізмом дозаряджання"
+
+msgid "modifier/name/battleLength"
+msgstr "Час бою"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Максимальна швидкість руху назад"
+
+msgid "modifier/name/burstInterval"
+msgstr "Час перезаряджання снарядів у магазині"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Міцність шасі"
+
+msgid "modifier/name/clipInterval"
+msgstr "Час перезаряджання між пострілами в магазині"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Розкид шкоди"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Пошкодження внутрішніх модулів"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Розкид після пострілу"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Розкид під час руху"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Розкид під час повороту корпусу"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Розкид під час повороту башти"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Розкид у разі пошкодження гармати"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Шанс підпалення двигуна"
+
+msgid "modifier/name/engineHealth"
+msgstr "Міцність двигуна"
+
+msgid "modifier/name/enginePower"
+msgstr "Потужність двигуна"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Шкода, завдана шасі через падіння"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Шкода, завдана корпусу через падіння"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Шкода, завдана іншим модулям через падіння"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Шкода, завдана екіпажу через падіння"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Час підготовки спорядження"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Міцність паливного бака"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Максимальна швидкість руху вперед"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Гравітація техніки"
+
+msgid "modifier/name/gunHealth"
+msgstr "Міцність гармати"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Швидкість переміщення гармати в нерухомій рубці"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Маскування під час руху"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Маскування стоячи"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Нормалізація снарядів"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Розкид бронепробиття"
+
+msgid "modifier/name/radioDistance"
+msgstr "Дальність радіозв'язку"
+
+msgid "modifier/name/reloadTime"
+msgstr "Час перезаряджання"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Швидкість ремонту"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Кут рикошету снарядів. Що гостріший кут, то вірогідніший рикошет"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Швидкість повороту корпусу"
+
+msgid "modifier/name/shellGravity"
+msgstr "Гравітація снарядів"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Швидкість снарядів"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Розкид на 100 метрів"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Міцність приладу спостереження"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Шкода від тиску зірваної башти"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Шкода від зірваної башти"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Швидкість повороту башти"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Міцність механізму обертання башти"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Заряджання гармати в режимі залпового вогню"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Дальність промальовування"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Міцність машини"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Шкода від тиску"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Шкода від тарану"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Радіус гарантованого виявлення"
+
+msgid "modifier/name/visionRadius"
+msgstr "Радіус огляду"
+
+msgid "modifier/name/visionTime"
+msgstr "Час у виявленні"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Шкода, завдана пострілами й тараном"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "Ресурси, витрачені й здобуті в боях режиму"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "не&nbsp;більш ніж&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "не&nbsp;менш ніж&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(але {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(але {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Модифікатори впливають на такі параметри:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "Модифікатор впливає на параметр:"

@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Dispositivo táctico"
+
+msgid "open_artefact/server_error"
+msgstr "La operación no está disponible temporalmente. Inténtalo de nuevo más tarde."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "No se han podido reabastecer los dispositivos tácticos del %s. Problema técnico."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "No se han podido reabastecer los dispositivos tácticos del %s. Fondos insuficientes."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Dispositivos tácticos del %s abastecidos. Has gastado "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Registros disponibles para descifrar"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modo: Última defensa: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Última defensa: Terra Nord (Estándar)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Última defensa: Terra Nord (Avanzada)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Última defensa: Terra Nord (Brutal)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Dificultad"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Estándar"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Avanzada"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutal"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Datos"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "¡Objetivo completado!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "¡Objetivos completados!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vehículo"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Oleadas completadas: %(curPhase)s de %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Gastado: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transacción financiera"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Puedes elegir el nivel de dificultad en el panel de dificultad del garaje de Última defensa."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Dificultad Avanzada desbloqueada"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Puedes elegir el nivel de dificultad en el panel de dificultad del garaje de Última defensa."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Dificultad Brutal desbloqueada"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Puedes elegir el modo en el panel de dificultad del garaje de Última defensa: Operación Pandora."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Modo «Última defensa» desbloqueado"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Llaves de descifrado recibidas: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Recibo"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Llaves eliminadas: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Descifrado completado"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Las batallas de Última defensa no están disponibles temporalmente.\nInténtalo de nuevo más tarde."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Las batallas de dificultad %(difficulty)s no están disponibles temporalmente. Inténtalo de nuevo más tarde."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Última defensa no está disponible en este momento. Consulta las novedades en el portal del juego."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "El comandante del pelotón ha cambiado la dificultad a %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "El jugador %(userName)s no ha desbloqueado uno de los niveles de dificultad."

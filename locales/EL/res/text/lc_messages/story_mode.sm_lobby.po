@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, διάρκεια μάχης: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "battleResult/continueButton"
+msgstr "Συνέχεια"
+
+msgid "battleResult/damageAssisted"
+msgstr "Φθορά\nαπό συνεισφορά"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Φθορά\nπου αποκρούστηκε"
+
+msgid "battleResult/damageDealt"
+msgstr "Φθορά\nσε αντιπάλους"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Ολοκληρώνοντας αποστολές στον Μεγάλο βαθμό δυσκολίας,\nαυτομάτως τις ολοκληρώνεται και για τον Κανονικό βαθμό δυσκολίας.\nΑυτό σημαίνει ότι κερδίζετε τα έπαθλα και των δύο βαθμών δυσκολίας."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Ολοκληρώνοντας αποστολές στον Μεγάλο βαθμό δυσκολίας, αυτομάτως τις ολοκληρώνεται και για τον Κανονικό βαθμό δυσκολίας.\nΑυτό σημαίνει ότι κερδίζετε τα έπαθλα και των δύο βαθμών δυσκολίας."
+
+msgid "battleResult/kills"
+msgstr "Καταστροφές\nαντιπάλων"
+
+msgid "battleResult/lose/title"
+msgstr "Η ΜΑΧΗ ΤΕΛΕΙΩΣΕ"
+
+msgid "battleResult/missionName/1"
+msgstr "TIGER HUNTER: Επιχείρηση Steel Avalanche"
+
+msgid "battleResult/missionName/2"
+msgstr "TIGER HUNTER: Επιχείρηση Trapper"
+
+msgid "battleResult/missionName/3"
+msgstr "TIGER HUNTER: Επιχείρηση Hammer & Anvil"
+
+msgid "battleResult/missionName/4"
+msgstr "TIGER HUNTER: Επιχείρηση Cat in the Mousetrap"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERATION OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ POSTMAN"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERATION BOILING POINT"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Καμία ενεργή\nαποστολή"
+
+msgid "battleResult/rewards/other"
+msgstr "Κερδίσατε επίσης:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Ολοκληρωμένες\nαποστολές"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Επιβίωσε{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Καταστράφηκε{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "ΝΙΚΗ!"
+
+msgid "countdown/days"
+msgstr "{days} d"
+
+msgid "countdown/daysHours"
+msgstr "{days} d {hours} h"
+
+msgid "countdown/endsSoon"
+msgstr "Λιγότερο από {minutes} min"
+
+msgid "countdown/hours"
+msgstr "{hours} h"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} h {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} h {minutes} m"
+
+msgid "countdown/lessThanMinute"
+msgstr "Λιγότερο από 1 min"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} m"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Άκυρο"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Δεν θα κερδίστε έπαθλα από την ολοκλήρωση της επιχείρησης.\nΘέλετε να συνεχίστε χωρίς ενεργές αποστολές?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Επικύρωση"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Επιχείρηση Χωρίς Ενεργές Αποστολές"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Εντοπίστε την άγνωστη πηγή κινδύνου, σταματήστε την εκτόξευση του πυραύλου και εξασφαλίστε ότι οι νέα τεχνολογία θα έρθει στα σωστά χέρια."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Αντιμετωπίστε μόνοι σας εχθρικά οχήματα AI σε ένα επικό σενάριο με θρυλικούς χαρακτήρες του Sector 3!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Ολοκληρώστε όλες τις αποστολές για να κερδίσετε ένα αναμνηστικό παράσημο και ένα μετάλλιο, θεματικές τεχνοτροπίες 2D και άλλα πολύτιμα έπαθλα."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "A New Era Dawns"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Σενάριο Ανεξάρτητων Παικτών"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Έπαθλα"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERATION BOILING POINT"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Ιστορίες"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Μεγάλη Δυσκολία"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Κανονική Δυσκολία"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Επικίνδυνο\nΝαρκοπέδιο"
+
+msgid "missionSelection/exitButton"
+msgstr "ΕΞΟΔΟΣ"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ\nSTEEL AVALANCHE"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ\nTRAPPER"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ\nHAMMER AND ANVIL"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ\nCAT IN THE MOUSETRAP"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ\nPOSTMAN"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERATION\nBOILING POINT"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: \"Πως νιώθεις? Οι γιατροί θα σε δουν αργότερα. Κάθε όπλο μετράει. Η επίθεση ξεκίνησε ήδη. Και επειδή καθυστερήσαμε, ο εχθρός συγκέντρωσε τις δυνάμεις του σε άλλο μέτωπο. Τώρα είναι η μεγάλη ευκαιρία. Να επιτεθούμε άμεσα. Να μπούμε στην πόλη και να τους συντρίψουμε από παντού.\nΑκολουθήστε μας και αποφύγετε τα αντιαρματικά έργα. Έχουν τοποθετήσει αρκετές σειρές από τσιμεντένια δόντια, αλλά πρέπει να τα διασχίσουμε. Να ακούτε προσεκτικά τις διαταγές μου και να τις εκτελείτε με ακρίβεια. Εγώ και ο MacLeod θα σας καλύψουμε.\nΚαι μην δίνετε σημασία στα αστεία του. Ο καθένας έχει το δικό του χιούμορ... Εμπρός!\""
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: \"Ωχ, Tigers—ότι χειρότερο να συναντήσεις στο πεδίο της μάχης. Όταν το αρχηγείο λέει ότι θα συναντήσουμε προβλήματα, προφανώς εννοεί Tigers. Δεν μπορούμε να επικοινωνήσουμε με την 1η ομάδα επίθεσης και η 2η έχει ήδη φύγει.\nΌταν στέλνουν εμάς, σημαίνει ένα πράγμα: Tigers. Αυτό λένε εκεί στο αρχηγείο: Στείλτε τους ειδικούς στα Tigers! Το σκορ είναι 9-2. Όχι και άσχημα για μόλις 6 μήνες. Προηγείσαι 5-4. Αλλά μπορούμε να προχωρήσουμε. Και τελικά να πάρουμε τα μετάλλια!\nΕμπρός — Ο Brooks δεν θέλει να περιμένει. Το κυνήγι ξεκινά.\""
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: \"Την προσοχή όλων παρακαλώ! Επιχείρηση Hammer & Anvil. Απλό όνομα, αλλά όχι απλή αποστολή. Κατευθυνόμαστε προς την πόλη για να εκκαθαρίσουμε τις εχθρικές δυνάμεις που βρίσκονται εκεί. Δεν θα είναι σαν να κάνουμε βόλτα στο πάρκο—έχουμε να αντιμετωπίσουμε τεθωρακισμένα με βαριά θωράκιση. Αλλά εμείς έχουμε μυαλό, θάρρος και ομαδικότητα... έτσι δεν είναι Lucky? Ας μην χάνουμε χρόνο. Στις 5 το απόγευμα πρέπει να πίνουμε ηδη το τσάι μας!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: \"Μην ρωτάς εμένα, Lucky. Έχω μαύρα μεσάνυχτα, όπως και συ.Ούτε σε μένα αρέσει αυτή η μυστικότητα. Μου αρέσουν οι ξεκάθαρες οδηγίες. Όταν βλέπεις τον εχθρό, πολεμάς. Πολύ μπέρδεμα η τωρινή κατάσταση.\n\nΣτην πόλη θα βρούμε και δικά μας τεθωρακισμένα. Ο Brooks συνέστησε προσοχή. Τι σημαίνει αυτό, δεν ξέρω.\nΕίμαστε σε ειδική αποστολή. Να βρούμε κάποιο Wunderwaffe—κάτι τεράστιο πάνω σε ερπύστριες, τέλος πάντων. Μόνο εμείς μπορούμε να το κάνουμε αυτό, Lucky.\n\nΈτοιμοι? Ξεκινάμε.\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Captain John McCormick: \"Παιδιά, η μεγάλη μέρα έφτασε. Ήρθε η ώρα να δώσουμε ένα τέλος σε αυτόν τον πόλεμο... και αυτό ακριβώς θα κάνουμε. Όλοι μαζί, Αμερικάνοι, Βρετανοί, Γάλλοι, Καναδοί, Αυστραλοί, Βέλγοι, Τσεχοσλοβάκοι, Έλληνες, Ολλανδοί, Νεοζηλανδοί, Νορβηγοί, Πολωνοί. Ενωθήκαμε για να νικήσουμε το κακό μια και καλή.\n\nΘα διασπάσουμε το Ατλαντικό Τείχος και θα εγκαταστήσουμε τη βάση μας.\n\nΕτοιμαστείτε για την απόβαση!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Captain Smith: \"Ακούστε με όλοι. Η Γερμανία συνθηκολόγησε πριν από μερικές ώρες. Αλλά τα παιδιά μας στα βουνά έχασαν την επαφή μέσω ασυρμάτου και δεν ξέρουν ότι ο πόλεμος τελειώνει αύριο. Ετοιμάζονται να επιτεθούν σε αυτό το καταραμένο φρούριο την αυγή και οι Γερμανοί μέσα δεν ξέρουν για την επικείμενη εκεχειρία. Θα είναι μια άσκοπη αιματοχυσία\n\nΗ αποστολή μας είναι να περάσουμε μέσα από τις εχθρικές γραμμές και να παραδώσουμε την εντολή για την εκεχειρία. Είναι μια αποστολή αυτοκτονίας, αλλά αξίζει για κάθε ζωή που θα σώσουμε.\n\nΈχουμε μαζί μας έναν αιχμάλωτο Γερμανό ασυρματιστή—γνωρίζει την περιοχή και έχει το ίδιο κίνητρο με εμάς για να σταματήσει αυτή την άσκοπη αιματοχυσία.\n\nΞεκινάμε.\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: \"Η κατάσταση είναι κρίσιμη. Χάσαμε επαφή με τη βάση πυραύλων μας στη Νορβηγική Θάλασσα. Η αναγνωριστική πτήση δεν επέστρεψε ποτέ, ενώ η αρχική αποβατική δύναμη τεθωρακισμένων εξολοθρεύτηκε από άγνωστο εχθρό.\n\nΟι πληροφορίες υποδεικνύουν ότι ετοιμάζονται να εκτοξεύσουν βαλλιστικό πύραυλο. Δεν γνωρίζουμε τον στόχο, αλλά με το πολιτικό κλίμα όπως είναι, μία μόνο εκτόξευση θα μπορούσε να πυροδοτήσει παγκόσμια σύρραξη.\n\nΣαν τα παλιά, έτσι δεν είναι; Ακόμα μία αδύνατη αποστολή πίσω από τις εχθρικές γραμμές. Εμπρός!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ STEEL AVALANCHE"
+
+msgid "missionSelection/missionName/2"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ TRAPPER"
+
+msgid "missionSelection/missionName/3"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ HAMMER & ANVIL"
+
+msgid "missionSelection/missionName/4"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ CAT IN THE MOUSETRAP"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERATION OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "ΕΠΙΧΕΙΡΗΣΗ POSTMAN"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERATION BOILING POINT"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Ειδικό Όχημα"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERATION BOILING POINT"
+
+msgid "missionSelection/tab/newbies"
+msgstr "ΕΚΠΑΙΔΕΥΤΙΚΑ ΣΕΝΑΡΙΑ"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Επιτεθείτε στην πόλη και καταστρέψτε τα εχθρικά οχήματα."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Επιτεθείτε στην πόλη και καταστρέψτε τα εχθρικά οχήματα."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Επιτεθείτε στην πόλη και καταστρέψτε τα εχθρικά οχήματα."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Εκπληρώστε τους αντικειμενικούς στόχους της κύριας αποστολής, χωρίς να δεχθείτε φθορά από νάρκες."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Εκπληρώστε τους κύριους στόχους της αποστολής χωρίς αν χάσετε ούτε ένα όχημα."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Επιτεθείτε στην πόλη και αιχμαλωτίστε το εχθρικό Wunderwaffe."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Εκπληρώστε τους κύριους στόχους της αποστολής σε λιγότερο από %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Εκπληρώστε τις κύριες προϋποθέσεις της αποστολής και καταστρέψτε %(kill_enemies)s εχθρικά οχήματα με τη βοήθεια αεροσκάφους."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Διασπάστε τις γραμμές του εχθρού, καταστρέψτε τα παράκτια πυροβόλα και καταλάβετε το προγεφύρωμα."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Εκπληρώστε τους κύριους στόχους της αποστολής σε λιγότερο από %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Εκπληρώστε τους κύριους στόχους της αποστολής χωρίς αν χάσετε ούτε ένα όχημα."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Παραδώστε τη διαταγή εκεχειρίας στους συμμάχους σας."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Εκπληρώστε τους κύριους στόχους της αποστολής καταστρέφοντας λιγότερα από %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Εκπληρώστε τους κύριους στόχους της αποστολής χωρίς να χάσετε ούτε ένα όχημα."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Φτάστε στο κέντρο διοίκησης και σταματήστε την εκτόξευση πυραύλων."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Εκπληρώστε τους κύριους στόχους της αποστολής σε λιγότερο από %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Εκπληρώστε τους κύριους στόχους της αποστολής χωρίς να χάσετε ούτε ένα όχημα."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s εχθρικό όχημα"
+msgstr[1] "%(value)s εχθρικά οχήματα"
+msgstr[2] "%(value)s εχθρικά οχήματα"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Κλειδωμένη αποστολή για: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s λεπτό"
+msgstr[1] "%(value)s λεπτά"
+msgstr[2] "%(value)s λεπτά"
+
+msgid "missionSelection/taskRewards"
+msgstr "Έπαθλο: "
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Κατάλληλο όχημα μόνο για Σενάρια."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Λάβετε μέρος σε %(numBattles)s ακόμη Τυχαίες Μάχες\nγια να ξεκλειδώσετε αυτήν την επιχείρηση."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Σενάριο αρχάριων"
+
+msgid "mode/story_mode/description"
+msgstr "Ολοκληρώστε τις επιχειρήσεις εναντίον αντιπάλων AI"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operation Boiling Point διαθέσιμη"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Μπορείτε να δείτε το επιλεγμένο είδος μάχης από το μενού που βρίσκεται στο επάνω μέρος του Γκαράζ. Κάντε κλικ στο είδος της μάχης για να δείτε ποιο άλλο διαθέσιμο είδος υπάρχει."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Κάντε κλικ στο &zwnbsp;{whiteSpanish_Open}Σενάρια{whiteSpanish_Close}&zwnbsp; για να επιλέξετε αυτό το είδος μάχης."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "Στα Σενάρια, μπορείτε να λάβετε μέρος σε μάχες PvE με περιγραφή, αντιμετωπίζοντας εχθρικά οχήματα-AI μέσα σε μία δραματική ατμόσφαιρα, για να κερδίσετε πολύτιμα έπαθλα!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Επιλέξτε Είδος Μάχης"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Επιλέξτε Σενάριο"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Λάβετε Μέρος Στις Μάχες PvE"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "ΣΕΝΑΡΙΑ"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Προγεγραμμένα σενάρια μάχης"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Επανεκκίνηση"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "Η ΜΑΧΗ ΤΕΛΕΙΩΣΕ"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Παράλειψη"
+
+msgid "onboardingQueue/skipText"
+msgstr "Όλοι οι servers είναι απασχολημένοι. Παρακαλούμε περιμένετε ή παραλείψτε το συγκεκριμένο σενάριο."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Ετοιμάζουμε τον server για σας. Παρακαλούμε περιμένετε..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Φθορά που αποσοβήθηκε από τη θωράκιση {parSecondary_Start}(HP){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Φθορά που αποσοβήθηκε"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Οι εύστοχες βολές από βλήματα HE και HESH δεν υπολογίζονται."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Υπολογίζονται:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Εξοστρακισμοί εχθρικών βολών"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Πλήγματα χωρίς διάτρηση"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Φθορά από συνεισφορά"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Υπολογίζονται οι ακόλουθοι τύποι φθοράς σε εχθρικά οχήματα με συνεισφορά σας:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Φθορά από εντοπισμό"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Φθορά από καταστροφή ερπύστριας και ακινητοποίηση εχθρικού οχήματος"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Συνολική φθορά από συμπαίκτες\n{parSecondary_Start}(HP){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Πρόκληση φθοράς"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Υπολογίζονται:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Φθορά από βολή"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Φθορά από εμβολισμό"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Φθορά από φωτιά"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Φθορά από ώθηση εχθρικού οχήματος στο κενό"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Συνολική φθορά {parSecondary_Start}(HP){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Καταστροφές αντιπάλων"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Υπολογίζονται:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Καταστροφή από βολή"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Καταστροφή από φωτιά"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Καταστροφή από εμβολισμό"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Καταστροφή από πνιγμό"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Καταστροφή από ώθηση εχθρικού οχήματος στο κενό"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Καταστροφή από αναποδογύρισμα"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Ολοκληρωμένες αποστολές"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Το πλήθος των ολοκληρωμένων αποστολών\nκαι των διαθέσιμων αποστολών.\nΟλοκληρώνοντας αποστολές στον Μεγάλο\nβαθμό δυσκολίας, αυτομάτως τις\nολοκληρώνεται και γιατον Κανονικό\nβαθμό δυσκολίας."
+
+msgid "tooltips/difficulty/available"
+msgstr "Διαθέσιμη"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Οι αντίπαλοι έχουν μεγαλύτερη ταχύτητα αντίδρασης, είναι πιο εύστοχοι και πιο επιθετικοί. Στον Μεγάλο βαθμό δυσκολίας όμως, κερδίζετε περισσότερα έπαθλα."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Ολοκληρώνοντας τις αποστολές με τον χαρακτηρισμό {whiteSpanish_Open}Επικίνδυνη{whiteSpanish_Close} αυτομάτως την ολοκληρώνετε και στο {whiteSpanish_Open}Κανονικό{whiteSpanish_Close} επίπεδο δυσκολίας. Επίσης, κερδίζετε μονομιάς τα έπαθλα και των 2 επιπέδων δυσκολίας."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Πρόσθετη προϋπόθεση"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Μεγάλη Δυσκολία"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Για να ξεκλειδώσετε τις Επικίνδυνες αποστολές, δείξτε την αξία σας στις μάχες αυτές ολοκληρώνοντας τις αποστολές στο Κανονικό επίπεδο δυσκολίας."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Κλειδωμένη"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Οι αντίπαλοι έχουν μικρότερη ταχύτητα αντίδρασης και είναι λιγότερο εύστοχοι. Στον Κανονικό βαθμό δυσκολίας κερδίζετε τα προκαθορισμένα έπαθλα."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Κανονική Δυσκολία"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Επιλέχθηκε"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Μια πιο δύσκολη έκδοση της φάσης Ναρκοπέδιο—μόνο για όσους έχουν τόλμη.\nΑλλά και με πιο πολύτιμα έπαθλα."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Επικίνδυνο Ναρκοπέδιο"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Εντοπίστε την άγνωστη πηγή κινδύνου, σταματήστε την εκτόξευση του πυραύλου και εξασφαλίστε ότι οι νέα τεχνολογία θα έρθει στα σωστά χέρια."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operation Boiling Point"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "MODE"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "— Είδος μαχών. Κλικ για περισσότερες πληροφορίες"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Αντιμετωπίστε μόνοι σας εχθρικά οχήματα AI σε ένα επικό σενάριο με θρυλικούς χαρακτήρες του Sector 3!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Διοργάνωση διαθέσιμη για {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "ΣΕΝΑΡΙΑ"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "MODE"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "— Είδος μαχών. Κλικ για περισσότερες πληροφορίες"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Ιστορίες με βάση ειδικά σενάρια. Δείξτε την αξία σας εναντίον αντιπάλων-AI σε μάχες τεθωρακισμένων."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "ΣΕΝΑΡΙΑ"
+
+msgid "tooltips/task/active"
+msgstr "Ενεργή"
+
+msgid "tooltips/task/completed"
+msgstr "Ολοκληρώθηκε"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Άγνωστες προϋποθέσεις"
+
+msgid "tooltips/task/locked"
+msgstr "Κλειδωμένη για: %(timer)s"

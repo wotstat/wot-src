@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Komendanto valanda {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Renginys bus pasiekiamas nuo"
+
+msgid "bannerTooltip/description"
+msgstr "Masiniai 30 prieš 30 mūšiai su {{vehicleTier}} lygio mašinomis Normandija, Kraftwerk ir Fata Morgana žemėlapiuose. Puolėjai turi sunaikinti tris iš penkių stambaus kalibro pabūklų, o gynėjai turi juos apsaugoti."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Parodykite savo sugebėjimus intensyviuose mūšiuose, uždirbkite šlovės, gaukite vertingų daiktų ir kilkite rangais."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Renginys pasibaigė, bet jūs vis dar neatsiėmėte apdovanojimų už Fronto linijos lygius."
+
+msgid "bannerTooltip/header"
+msgstr "Fronto linija"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Fronto linija | Lygis {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} — žaidimo režimas. Paspauskite ir pažinkite"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Galimai sumažinta greitaveika"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Pasirinkite apdovanojimus už baigtus lygius ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Pirkimui trūksta lėšų."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Šie pakeitimai bus pritaikyti visiems prieštankiniams."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Šie pakeitimai bus pritaikyti visoms artilerijoms."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Šie pakeitimai bus pritaikyti visiems sunkiesiems tankams."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Šie pakeitimai bus pritaikyti visiems lengviesiems tankams."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Šie pakeitimai bus pritaikyti visiems vidutiniams tankams."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Netinkama mašina"
+
+msgid "battleAbilities/points/body"
+msgstr "Sukaupkite reikiamą taškų kiekį ir aktyvuokite Fronto linijos kovinius rezervus."
+
+msgid "battleAbilities/points/header"
+msgstr "Kovinių rezervų taškai"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Peržiūrėti atakos rezervus"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Atakos rezervai"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Peržiūrėti žvalgybos rezervus"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Žvalgybos rezervai"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Peržiūrėti taktinius rezervus"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktiniai rezervai"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Kovinių rezervų lygis padidinamas pasiekus kapitono ir majoro rangus mūšio metu. Didžiausias lygis priklauso nuo mūšio scenarijaus."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Papildoma informacija"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Atakos rezervai"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Žvalgybos rezervai"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktiniai rezervai"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Pastovios charakteristikos:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Šioje vietoje įdėtas kovinis rezervas {{@ colorLegacy 'FFE4C0'}}10%{{/}} padidina šansus jį gauti žaidžiant pagal {{@ colorLegacy 'FFE4C0'}}Likimo posūkio{{/}} scenarijų."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Rezervo lygis:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Nenupirkta!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Renginys baigėsi."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Renginys prasidės jau greitai!"
+
+msgid "infoButton/body"
+msgstr "Paspaudę sužinosite daugiau."
+
+msgid "infoButton/header"
+msgstr "Apie renginį"
+
+msgid "levelReserves/desc"
+msgstr "Kovinių rezervų lygis didėja pasiekus aukštesnius rangus:"
+
+msgid "levelReserves/info"
+msgstr "Žaisdami pagal {{@ colorLegacy 'FFE4C0'}}Likimo posūkio{{/}} scenarijų, nusipirkę kovinį rezervą padidinsite jo lygį ir galėsite jį padidinti iki {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}} lygio."
+
+msgid "levelReserves/level"
+msgstr "Padidės pasiekus šį lygį: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Pasiekiamas nuo šio lygio: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Lygis - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Už {{@ colorLegacy 'FFE4C0'}}nupirktus kovinius rezervus{{/}} scenarijuje {{@ colorLegacy 'FFE4C0'}}Likimo posūkis{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Kovinių rezervų lygis"
+
+msgid "playlist/warning/body"
+msgstr "Jūsų grupėje yra mašinų, kurios netinka šiam režimui arba nėra jūsų garaže."
+
+msgid "playlist/warning/header"
+msgstr "Mašina nepasiekiama (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Kovinio rezervo efektyvumas padidintas"
+
+msgid "randomReserve/disable"
+msgstr "Kovinio rezervo vieta jau panaudota."
+
+msgid "randomReserve/notPurchased"
+msgstr "Kovinis rezervas nenusipirktas"
+
+msgid "randomReserve/purchased"
+msgstr "Kovinis rezervas nusipirktas"
+
+msgid "skillOrderTooltip/body"
+msgstr "Kiekvienas mašinos tipas turi savo rezervų atrakinimo eiliškumą:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Kovinių rezervų atrakinimo tvarka"
+
+msgid "skillOrderTooltip/info"
+msgstr "{{@ colorLegacy 'whiteSpanish'}}Likimo posūkio{{/}} scenarijaus mūšiuose kovinių rezervų atrakinimo tvarka nepriklauso nuo mašinos tipo."

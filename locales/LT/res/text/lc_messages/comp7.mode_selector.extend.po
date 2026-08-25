@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "mode/comp7/battlePassTooltip/body"
+msgstr "Dalyvaudami {whiteSpanish_open}Prasiveržime{whiteSpanish_close} su X lygio mašinomis jūs uždirbsite taškų, kurie leis kilti Kovinio leidimo seka."
+
+msgid "mode/comp7/battlePassTooltip/header"
+msgstr "Kovinio leidimo taškai"
+
+msgid "mode/comp7/calendarTooltip"
+msgstr "Renginys baigsis %(date)s"
+
+msgid "mode/comp7/description"
+msgstr "Varžybinis režimas: 7 prieš 7 %(parSecondary_open)sI%(parSecondary_close)s X&nbsp;lygis"
+
+msgid "mode/comp7/progress"
+msgstr "%(score)s/%(scoreToNextDivision)s"
+
+msgid "mode/comp7/seasonEnd/first"
+msgstr "Žydrojo Drakono sezonas baigėsi"
+
+msgid "mode/comp7/seasonEnd/second"
+msgstr "Kruvinojo Drakono sezonas baigėsi"
+
+msgid "mode/comp7/seasonEnd/third"
+msgstr "Nefrito Drakono sezonas baigėsi"
+
+msgid "mode/comp7/seasonStart/first"
+msgstr "Žydrojo Drakono sezonas prasidės %(date)s"
+
+msgid "mode/comp7/seasonStart/second"
+msgstr "Kruvinojo Drakono sezonas prasidės %(date)s"
+
+msgid "mode/comp7/seasonStart/third"
+msgstr "Nefrito Drakono sezonas prasidės %(date)s"
+
+msgid "mode/comp7/warning"
+msgstr "Rango neaktyvumas: %(count)s"
+
+msgid "mode/comp7/widgetDescription/qualification"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Sužaiskite %(maxBattlesCount)s mūšį \nir užbaikite kvalifikaciją."
+msgstr[1] "Sužaiskite %(maxBattlesCount)s mūšius \nir užbaikite kvalifikaciją."
+msgstr[2] "Sužaiskite %(maxBattlesCount)s mūšių \nir užbaikite kvalifikaciją."
+
+msgid "mode/comp7/widgetDescription/status"
+msgstr "%(rank)s\n%(division)s"
+
+msgid "mode/comp7/yearEnd"
+msgstr "Drakono metai baigėsi"

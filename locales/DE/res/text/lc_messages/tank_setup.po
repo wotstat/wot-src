@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "categories/body/firepower"
+msgstr "Diese Werte geben an, wie gut das Fahrzeug gegnerische Fahrzeuge zerstören kann. Dieser Filter zeigt/verbirgt Zubehör mit diesen Werten."
+
+msgid "categories/body/mobility"
+msgstr "Diese Werte geben an, wie schnell das Fahrzeug seine Stellung auf dem Schlachtfeld wechseln kann. Dieser Filter zeigt/verbirgt Zubehör mit diesen Werten."
+
+msgid "categories/body/stealth"
+msgstr "Diese Werte geben die Wirksamkeit der Tarnung des Fahrzeugs und die Fähigkeit, gegnerische Fahrzeuge zu erkennen, an. Dieser Filter zeigt/verbirgt Zubehör mit diesen Werten."
+
+msgid "categories/body/survivability"
+msgstr "Diese Werte geben an, wie gut das Fahrzeug Schaden widerstehen kann. Dieser Filter zeigt/verbirgt Zubehör mit diesen Werten."
+
+msgid "categories/empty"
+msgstr "Zweitplatz-Kategorie"
+
+msgid "categories/firepower"
+msgstr "Feuerkraft"
+
+msgid "categories/mobility"
+msgstr "Beweglichkeit"
+
+msgid "categories/slotEffect/empty"
+msgstr "Die Möglichkeit, eine Kategorie für den zweiten Zubehörplatz dieses Fahrzeugs zuzuweisen."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Standardzubehör der Kategorie Feuerkraft ist effektiver, wenn es in diesem Platz eingebaut wird."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Standardzubehör der Kategorie Beweglichkeit ist effektiver, wenn es in diesem Platz eingebaut wird."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Standardzubehör der Kategorie Aufklärung ist effektiver, wenn es in diesem Platz eingebaut wird."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Standardzubehör der Kategorie Überlebensfähigkeit ist effektiver, wenn es in diesem Platz eingebaut wird."
+
+msgid "categories/stealth"
+msgstr "Aufklären"
+
+msgid "categories/survivability"
+msgstr "Überlebensfähigkeit"
+
+msgid "categories/universal"
+msgstr "Keine Kategorie"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Wählen Sie eine passende Direktive aus der Liste aus."
+
+msgid "compare/section/description/consumables"
+msgstr "Wählen Sie ein passendes Verbrauchsmaterial aus der Liste aus."
+
+msgid "compare/section/description/optDevices"
+msgstr "Wählen Sie ein passendes Zubehörteil aus der Liste aus."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Direktiven für {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Verbrauchsmaterial für {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Zubehör für {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Automatisch Auffüllen"
+
+msgid "dealPanel/button/apply"
+msgstr "Anwenden"
+
+msgid "dealPanel/button/applyType"
+msgstr "Anwenden auf Typ"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Anwenden auf Fahrzeug"
+
+msgid "dealPanel/button/cancel"
+msgstr "Abbrechen"
+
+msgid "dealPanel/button/purchase"
+msgstr "Kaufen"
+
+msgid "dealPanel/fromStorage"
+msgstr "Aus dem Lager:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Eingebaut:"
+
+msgid "dealPanel/repair"
+msgstr "Reparatur benötigt"
+
+msgid "dealPanel/toBePaid"
+msgstr "Gesamt:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "Auf Lager"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "In Fahrzeug eingebaut"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Unzureichendes Guthaben für den Einkauf"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Wird mit Kreditpunkten gekauft"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Wird mit Anleihen gekauft"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Wird aus dem Lager eingesetzt"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Verfügbar:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Abbrechen"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Weiter"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Aus dem Lager:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Von Fahrzeugen:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( Noch %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)s benötigt, um %(red_Close)s zu verbessern. )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Sie erhalten:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "AKTIVES FAHRZEUG"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "IM LAGER: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "AUF FAHRZEUGEN: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Wählen Sie das Zubehör aus, das Sie in %(whiteSpanish_Open)sKomponenten%(whiteSpanish_Close)s %(icon)s zerlegen wollen. Die erhaltenen Komponenten können genutzt werden, um experimentelles Zubehör zu verbessern."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Zerlegen Sie ungenutztes experimentelles Zubehör, um mehr Komponenten zu erhalten."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "ARBEITSTISCH"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Nicht genug Komponenten zum Verbessern von\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Zerlegen Sie ungenutztes Zubehör in Komponenten, um fortzufahren."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Beschaffen Sie die benötigte Anzahl Komponenten, um fortzufahren."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Änderungen verwerfen"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Abbrechen"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Abbrechen"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Abbrechen"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Änderungen verwerfen"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Speichern"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Kaufen"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Kaufen und einbauen"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Einbauen"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Sie können das Zubehör für %(price)s ausbauen und einlagern oder Sie können es zerstören."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Sie können das Zubehör für %(price)s oder {whiteSpanish_Open}kostenlos{whiteSpanish_Close} mit WoT Plus ausbauen und einlagern, oder Sie können es zerstören."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Sie können das Zubehör für %(demountKit)s, %(price)s oder {whiteSpanish_Open}kostenlos{whiteSpanish_Close} mit WoT Plus ausbauen und einlagern, oder Sie können es zerstören."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Sie können das Zubehör {whiteSpanish_Open}kostenlos{whiteSpanish_Close} mit WoT Plus ausbauen und einlagern."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Sie können das Zubehör ausbauen und einlagern."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "WIRD NICHT FUNKTIONIEREN"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "Direktive"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Beim Kauf dieser Dualmodifikation wird das Gegenstück deaktiviert."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "Verbrauchsmaterial"
+
+msgid "dialogs/confirm/item/module"
+msgstr "Modul"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "Zubehör"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "Dualmodifikation"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "Direktiven"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "Verbrauchsmaterial"
+
+msgid "dialogs/confirm/items/module"
+msgstr "Module"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "Zubehör"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " und "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Änderungen an den Direktivenplätzen speichern?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Änderungen an den Verbrauchsmaterialplätzen speichern?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Änderungen an den Zubehörplätzen speichern?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "{type} %(name)s kaufen?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "{type} %(name)s kaufen und einbauen?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "{type} %(name)s einbauen?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "{type} %(name)s für alle %(vehicle)s aktivieren?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "{type} kaufen?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "{type} kaufen und einbauen?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "{type} einbauen?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "{type} für alle %(vehicle)s aktivieren?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "schweren Panzer"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "leichten Panzer"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "mittleren Panzer"
+
+msgid "dialogs/confirm/warning"
+msgstr "Achtung! %(devices)s nicht ausgerüstet. Die Direktive %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Achtung! Nach dem Zerlegen haben Sie kein experimentelles Zubehör mehr!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Abbrechen"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Zerlegen"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Zerlegen"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Sie erhalten insgesamt:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Wird für 1 Gegenstand erhalten:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "%(name)s\nzerlegen?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "%(name)s\nzerlegen?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Bitte beachten: Nach dem Zerlegen kann dieses Zubehör nicht wiederhergestellt oder gekauft werden."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Abbrechen"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Zerlegen"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Das folgende Zubehör in Komponenten zerlegen?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Das folgende Zubehör zerlegen und\n%(deviceName)s verbessern?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Wird aus dem Lager zerlegt: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Wird von Fahrzeugen zerlegt: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Durch das Zerlegen erhalten Sie: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Sie erhalten insgesamt:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Verbesserungskosten:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Achtung! Nach dem Zerlegen haben Sie kein experimentelles Zubehör mehr!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Achtung! Das experimentelle Zubehör von Ihren Fahrzeugen wird zerlegt."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Wechsel"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "Zubehör"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "%(credits)s mehr zum Verbessern des Zubehörs %(name)s erforderlich"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "Zubehör"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "Noch %(credits)s benötigt, um das Zubehör zu verbessern."
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Zubehör konnte nicht verbessert werden. Sie benötigen noch %(gold)s, um es für Kreditpunkte einzutauschen."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Sie haben genug Guthaben, um das Zubehör zu verbessern."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Wechsel nicht erforderlich"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Sie haben kein experimentelles Zubehör zum Zerlegen."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Zerlegen Sie experimentelles Zubehör, um mehr Komponenten zu erhalten."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "%(name)s\nverbessern?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Erforderlich: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Kosten:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "zu kaufen"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "zu kaufen"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Wechsel"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Wechselkurs: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Noch %(credits)s für Schnellwartung erforderlich"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "Direktive"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "Verbrauchsmaterial"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "Modul"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "Zubehör"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "Dualmodifikation"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "Es sind noch %(credits)s erforderlich, um die {type} %(name)s {action}."
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "Direktiven"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "Verbrauchsmaterial"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "Module"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "Zubehör"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "Noch %(credits)s benötigt, um {type} {action}."
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "Noch %(credits)s zum Reparieren benötigt."
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Kauf nicht möglich: Austausch fehlgeschlagen. Noch %(gold)s für den Austausch benötigt."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "für den Kauf"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "für die Modifikation"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Wechsel nicht erforderlich, genügend Kreditpunkte vorhanden."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Genug Kreditpunkte {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "Noch %(credits)s benötigt, um die Munition aufzufüllen."
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Automatisch reparieren"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Reparieren"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Robustheit:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s %"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Das Fahrzeug wird automatisch und kostenlos repariert."
+
+msgid "dialogs/needRepair/price"
+msgstr "Reparaturkosten:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Unzureichendes Guthaben für die Reparatur"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Verstanden!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Keine Reparatur nötig"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Auffüllen"
+
+msgid "dialogs/refillShells/price"
+msgstr "Auffüllkosten:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Munition auffüllen?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Änderungen an der Munition speichern?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Bitte beachten: Sie verkaufen verbessertes Zubehör."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Bitte beachten: Nach dem Verkaufen kann dieses Zubehör nicht wiederhergestellt oder gekauft werden."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Abbrechen"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Verkaufen"
+
+msgid "dialogs/sell/header"
+msgstr "Folgendes Zubehör verkaufen?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "Verkaufspreis für 1 Stück:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Nicht genug Ressourcen zum Ausbauen."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Für dieses Fahrzeug sind keine Empfehlungen verfügbar"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Einbau nicht möglich."
+
+msgid "easyTankEquipView/applied"
+msgstr "Angebracht"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Erweitert"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Verbessert"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Standard"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "VERBRAUCHSMATERIAL"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Nicht genug Betten in der Kaserne für die Verlegung und die Änderungen an der Besatzung verfügbar. Fügen Sie der Kaserne mehr Betten hinzu."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "{{count}}x"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Erfahrene Besatzung"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Neue Besatzung"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nneues Besatzungsmitglied wird rekrutiert"
+msgstr[1] "{{count}}\nneue Besatzungsmitglieder werden rekrutiert"
+msgstr[2] "{{count}}\nneue Besatzungsmitglieder werden rekrutiert"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "BESATZUNG"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Erweitert"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Standard"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "ZUBEHÖR"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Erweitert"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Standard"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "MUNITION"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Sie haben bereits einen Stil angewandt"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} Gefechte für {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "FERTIGE STILE"
+
+msgid "easyTankEquipView/title"
+msgstr "SCHNELLWARTUNG"
+
+msgid "effects/name"
+msgstr "Effekt"
+
+msgid "effects/template"
+msgstr "%(icon)s%(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Die Abklingzeit beträgt %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Komponenten erhalten"
+
+msgid "filters/shown"
+msgstr "Angezeigt: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "ZUBEHÖR\nZIEHEN UND ABLEGEN"
+
+msgid "hints/filters/specialization"
+msgstr "ZUSÄTZLICHER\nBONUS ZUR KATEGORIE"
+
+msgid "hints/tabs/equipment"
+msgstr "NEUER\nZUBEHÖRTYP"
+
+msgid "introduction/currency/deluxe"
+msgstr "Anleihen"
+
+msgid "introduction/currency/modernized"
+msgstr "Komponenten"
+
+msgid "introduction/message/deluxe"
+msgstr "Dieser Zubehörtyp ist für %(currencyName)s (%(currencyIcon)s) verfügbar. Er kann auch als Belohnung für bestimmte Errungenschaften im Spiel und während spezieller Spielevents erhalten werden."
+
+msgid "introduction/message/modernized"
+msgstr "Ein besonderer Zubehörtyp, der über drei Verbesserungsstufen verfügt und durch Abschluss von Aufträgen und in bestimmten Spielevents erhalten wird. Dieses Zubehör kann nicht zerstört oder verkauft werden, Sie können es aber zerlegen, um besondere Teile zu erhalten: %(currencyName)s (%(currencyIcon)s). Die erhaltenen Komponenten können genutzt werden, um beliebiges experimentelles Zubehör zu verbessern."
+
+msgid "introduction/message/trophy"
+msgstr "Ein besonderer Zubehörtyp, der bei Erhalt die Werte des Standardzubehörs hat, sich aber für Kreditpunkte verbessern lässt. Sie können erbeutetes Zubehör nicht für Spielwährung kaufen, sondern nur als Belohnung während bestimmter Spielevents erhalten."
+
+msgid "introduction/showButton"
+msgstr "Zubehör anzeigen"
+
+msgid "introduction/slide/1/description"
+msgstr "Neues Zubehör wurde hinzugefügt. Außerdem wurden %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s und %(cycloneFilter)s im Zubehör %(changedConfiguration)s vereint. Die Gegenstücke von %(forcedChassis)s wurden durch %(forcedMetal)s ersetzt. Alle alten Boni bleiben erhalten und neue wurden hinzugefügt."
+
+msgid "introduction/slide/1/title"
+msgstr "NEUES ZUBEHÖR"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "– Feuerkraft"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "– Beweglichkeit"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "– Aufklären"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "– Überlebensfähigkeit"
+
+msgid "introduction/slide/2/description"
+msgstr "Entspricht das eingebaute Zubehör der Kategorie des Platzes, ist es wirksamer. Andernfalls gibt es nur den üblichen Bonus."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "KATEGORIEÜBEREINSTIMMUNG"
+
+msgid "introduction/slide/2/title"
+msgstr "ZUBEHÖRKATEGORIEN"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Die Kosten der meisten Zubehörteile werden 50 000 Kreditpunkte bei Fahrzeugen der Stufen II–IV, 300 000 bei Fahrzeugen der Stufen V–VII und 600 000 bei Fahrzeugen der Stufen VIII–XI nicht übersteigen."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Einige der neuen Zubehörteile haben drei Klassen. Selbst wenn die Klasse unterschiedlich ist, gibt das Zubehör den gleichen Effekt. Je höher die Klasse, desto höher sind die Kosten des Zubehörs. Jede Zubehörklasse entspricht einem bestimmten Stufenbereich."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "ÄNDERUNGEN AM ZUBEHÖR"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "NEUES ZUBEHÖR"
+
+msgid "introduction/slide/3/title"
+msgstr "ZUBEHÖRKOSTEN"
+
+msgid "introduction/slide/4/description"
+msgstr "Für Fahrzeuge der Stufe I ist kein Zubehör verfügbar. In Fahrzeuge der Stufe II können Sie nur ein Zubehörteil einbauen, zwei in Fahrzeuge der Stufe III und drei in Fahrzeuge der Stufen IV–XI. Zubehör, das in entfernte Plätze eingebaut war, wurde ausgebaut und eingelagert."
+
+msgid "introduction/slide/4/title"
+msgstr "ZUBEHÖRPLÄTZE"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Treibstofftank-Kohlenstoffdioxid-Füllung"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Veränderte Konfiguration"
+
+msgid "introduction/slide/confirm"
+msgstr "Verstanden!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Zyklon-Luftfilter"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Verbessertes Fahrwerk"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Verbesserte Härtung"
+
+msgid "introduction/slide/repairBox"
+msgstr "Werkzeugkiste"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "Nasses Munitionslager"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Verbessertes Zubehör"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Experimentelles Zubehör"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Erbeutetes Zubehör"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Sie besitzen kein geeignetes experimentelles Zubehör."
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Sie besitzen kein geeignetes erbeutetes Zubehör."
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "Verzögerung, ehe der Kommandant erkennt, ob das eigene Fahrzeug vom Gegner aufgeklärt wurde"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "zusätzliche Betäubungsdauer, wenn das Fahrzeug bereits betäubt ist"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "Tarnung gegnerischer Fahrzeuge hinter Laubwerk (sowohl in Bewegung als auch stehend)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "Mündungsgeschwindigkeit für alle Granatentypen"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "Malus auf Ladegeschwindigkeit bei Beschädigung eines Moduls"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "Verlust der Motorleistung bei Beschädigung eines Moduls"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "Tarnung eines stehenden oder sich bewegenden Fahrzeugs"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "Tarnungssteigerung für ein stehendes oder sich bewegendes Fahrzeug (Wirksamkeit hängt vom Fahrzeugtyp ab)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "Wannenschaden durch Laufwerksschaden bei Einschlag"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "Sichtweite (bis zu 445 m). Steigt der Wert über 445 m, werden Gegner effektiver aufgeklärt"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "erlittener Schaden bei Einschlag"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "Streuung bei Fahrzeugbewegung und Wannendrehung sowie Geschützrichten und nach dem Feuern"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "von Panzerung absorbierter Schaden durch HE-Granaten"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "Dauer der Sichtbarkeit des eigenen Fahrzeugs"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "Halten der Geschwindigkeit\nbeim Durchqueren aller Geländearten"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "Tarnung eines stehenden Fahrzeugs 3 Sekunden nach dessen Halt"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "Tarnung eines stehenden Fahrzeugs\n1,5 Sekunden nach dem Halt"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "Tarnungssteigerung eines stehenden Fahrzeugs 3 Sekunden nach dem Halt (Wirksamkeit hängt vom Fahrzeugtyp ab)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "Tarnung eines stehenden Fahrzeugs 1,5 Sekunden nach dem Halt (Wirksamkeit hängt vom Fahrzeugtyp ab)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "Sichtweite eines stehenden Fahrzeugs 3 Sekunden nach dessen Halt (bis zu 445 Meter). Steigt der Wert über 445 m, werden Gegner effektiver aufgeklärt"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "Sichtweite eines stehenden Fahrzeugs 1,5 Sekunden nach dem Halt (bis zu 445 Meter). Steigt der Wert über 445 m, werden Gegner effektiver aufgeklärt"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "Strukturpunkte des Fahrzeugs (aufgerundet)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "Turmdrehgeschwindigkeit oder Geschützrichtgeschwindigkeit für Fahrzeuge mit festem Aufbau"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "Verzögerung, ehe der Kommandant erkennt, ob das eigene Fahrzeug vom Gegner aufgeklärt wurde"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "zusätzliche Betäubungsdauer, wenn das Fahrzeug bereits betäubt ist"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "Tarnung eines stehenden oder sich bewegenden gegnerischen Fahrzeugs hinter Laubwerk"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "Mündungsgeschwindigkeit für alle Granatentypen"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "Malus auf Ladegeschwindigkeit bei Beschädigung eines Moduls"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "Verlust der Motorleistung bei Beschädigung eines Moduls"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "Tarnug eines stehenden oder sich bewegenden Fahrzeugs"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "Tarnungssteigerung für ein stehendes oder sich bewegendes Fahrzeug (Wirksamkeit hängt vom Fahrzeugtyp ab)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "Wannenschaden durch Laufwerksschaden bei Einschlag"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "Sichtweite (bis zu 445 m). Steigt der Wert über 445 m, werden Gegner effektiver aufgeklärt."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "erlittener Schaden bei Aufprall"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "Streuung bei Fahrzeugbewegung und Wannendrehung sowie Geschützrichten und nach dem Feuern"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "von Panzerung absorbierter Schaden durch HE-Granaten"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "Dauer der Sichtbarkeit des eigenen Fahrzeugs"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "Halten der Geschwindigkeit\nbeim Durchqueren aller Geländearten"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "Tarnung eines stehenden Fahrzeugs 3 Sekunden nach dessen Halt"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "Tarnung eines stehenden Fahrzeugs\n1,5 Sekunden nach dem Halt"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "Tarnung eines stehenden Fahrzeugs 3 Sekunden nach dem Halt (Wirksamkeit hängt vom Fahrzeugtyp ab)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "Tarnung eines stehenden Fahrzeugs 1,5 Sekunden nach dem Halt (Wirksamkeit hängt vom Fahrzeugtyp ab)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "Sichtweite eines stehenden Fahrzeugs 3 Sekunden nach dessen Halt (bis zu 445 Meter). Steigt der Wert über 445 m, werden Gegner effektiver aufgeklärt."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "Sichtweite eines stehenden Fahrzeugs 1,5 Sekunden nach dem Halt (bis zu 445 Meter). Steigt der Wert über 445 m, werden Gegner effektiver aufgeklärt"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "Strukturpunkte des Fahrzeugs (aufgerundet)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "Turmdrehgeschwindigkeit oder Geschützrichtgeschwindigkeit für Fahrzeuge mit festem Aufbau"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "Verzögerung vor Aktivierung\nvon Geräuscherkennung"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "Verzögerung vor der Benachrichtigung, dass das eigene Fahrzeug aufgeklärt wurde"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "Geschützabkühlgeschwindigkeit"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "Schutz der Besatzung vor Verletzungen"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "auf den Besatzungseffizienzbonus"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "zusätzliche Betäubungsdauer"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "Betäubungsdauer"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "minimaler potenzieller Schaden\nund Durchschlagswert"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "maximaler potenzieller Schaden\nund Durchschlagswert"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "verursachter Schaden durch Rammen"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "Verzögerung vor Anzeige\nvon kritischem Schaden im Fadenkreuz"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "Tarnung gegnerischer Fahrzeuge hinter Laubwerk"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "Tarnung sich bewegender gegnerischer Fahrzeuge"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "Wahrscheinlichkeit auf Schaden an gegnerischen Modulen\nund Besatzungsmitgliedern"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "Abklingzeit von Verbrauchsmaterial"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "Geschwindigkeit der Brandbekämpfung"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "Tarnung hinter Laubwerk"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "durch Ersatzteilkiste wiederhergestellte SP"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "Erhalt der Geschwindigkeit\nauf mittelweichen Böden"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "Malus auf Sichtweite bei Beschädigung der\nSichtgeräte"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "maximale potenzielle Durchschlagskraft"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "Übertragungszeit von\nPositionen gegnerischer Fahrzeuge\nnachdem das eigene Fahrzeug zerstört wurde"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "Schutz des Funkers\nvor Verletzungen"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "Mündungsgeschwindigkeit"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "Erhalt der Geschwindigkeit\nauf weichem Boden"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "negative Effekte\ndurch Betäubung der Besatzung"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "eingehender Schaden gegen das Fahrwerk"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "Reparaturgeschwindigkeit des Fahrwerks"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "Malus auf Nachladezeit"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "Malus durch beschädigten Motor"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "Wendegeschwindigkeit der Wanne"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "Robustheit interner Module"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "Robustheit des Munitionslagers"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "Höchstgeschwindigkeit rückwärts"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "Tarnung"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "Tarnungssteigerung"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "Schaden durch Aufprall"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "Reparaturgeschwindigkeit des Fahrwerks"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "Robustheit des Fahrwerks"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "Sichtweite"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "Dauer der Sichtbarkeit\ndes gegnerischen Fahrzeugs"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "Motorleistung"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "Schaden durch Aufprall"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "Wahrscheinlichkeit eines Motorbrandes"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "Höchstgeschwindigkeit"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "Wahrscheinlichkeit auf kritischen Schaden\nan Treibstofftanks"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "Zielerfassung"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "Nachladezeit"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "Streuung bei Fahrzeugbewegung und Wannendrehung"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "Durchmesser des Zielkreises nach dem Feuern"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "Streuung bei Bewegung"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "Streuung bei Wannendrehung"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "Streuung bei Geschützrichten"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "Streuung mit beschädigtem Geschütz"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "Durchmesser des Zielkreises"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "Schaden von HE-Granaten"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "Tarnung nach dem Feuern"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "auf die Dauer, die Ihr Fahrzeug sichtbar ist"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "erlittener Schaden des Fahrwerks\ndurch Rammen"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "erlittener Schaden durch Rammen"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "Geschwindigkeit für den Wechsel des Granatentyps\nbei geladenem Geschütz"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "Reparaturgeschwindigkeit"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "Halten der Geschwindigkeit beim Durchqueren aller Geländearten"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "Tarnung eines stehenden Fahrzeugs"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "Tarnung eines stehenden Fahrzeugs"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "Tarnungssteigerung eines stehenden Fahrzeugs"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "Tarnungssteigerung eines stehenden Fahrzeugs"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "Sichtweite eines stehenden Fahrzeugs"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "Sichtweite eines stehenden Fahrzeugs"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "Strukturpunkte des Fahrzeugs"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "Turmdrehgeschwindigkeit oder Geschützrichtgeschwindigkeit bei Fahrzeugen mit festem Aufbau"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "Turmdrehgeschwindigkeit"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "Raddrehgeschwindigkeit"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "Malus bei Verletzung eines Besatzungsmitglieds,\nausgenommen dem Kommandanten"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "Verzögerung vor Aktivierung\nvon Geräuscherkennung"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "Verzögerung vor Anzeige\nvon kritischem Schaden im Fadenkreuz"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "Dauer der Aufklärung von Gegnern,\nnachdem das eigene Fahrzeug zerstört wurde"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "Schaden von HE-Granaten"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "Durchschlagskraft von HE-Granaten"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "Mündungsgeschwindigkeit von HE"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "Munitionskapazität"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "Schaden aller Granaten"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "Mündungsgeschwindigkeit für alle Granatentypen"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "Verzögerung vor Aktivierung\nvon Geräuscherkennung"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "Schaden der Standardgranaten"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "Verzögerung vor der Benachrichtigung, dass das eigene Fahrzeug aufgeklärt wurde"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "Geschützabkühlgeschwindigkeit"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "Schutz der Besatzung vor Verletzungen"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "auf den Besatzungseffizienzbonus"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "zusätzliche Betäubungsdauer"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "Betäubungsdauer"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "minimaler potenzieller Schaden und Durchschlagswert"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "maximaler potenzieller Schaden\nund Durchschlagswert"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "verursachter Schaden durch Rammen"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "Verzögerung vor Anzeige\nvon kritischem Schaden im Fadenkreuz"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "Tarnung gegnerischer Fahrzeuge hinter Laubwerk"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "Tarnung sich bewegender gegnerischer Fahrzeuge"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "Wahrscheinlichkeit auf Schaden an gegnerischen Modulen\nund Besatzungsmitgliedern"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "Motor-Robustheit"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "Abklingzeit von Verbrauchsmaterial"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "Geschwindigkeit der Brandbekämpfung"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "Tarnung hinter Laubwerk"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "Treibstofftank-Robustheit"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "Geschützneigung"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "Geschützanhebung"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "Geschützstabilisierung"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "Seitenrichtbereich"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "durch Ersatzteilkiste wiederhergestellte SP"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "Hebegeschwindigkeit der Wanne"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "Erhalt der Geschwindigkeit\nauf mittelweichen Böden"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "Schaden von nicht-HE-Granaten"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "Malus auf Sichtweite bei Beschädigung der\nSichtgeräte"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "maximale potenzielle Durchschlagskraft"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "Übertragungszeit von\nPositionen gegnerischer Fahrzeuge\nnachdem das eigene Fahrzeug zerstört wurde"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "Schutz des Funkers\nvor Verletzungen"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "Nachladezeit im Magazin"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "Nachladezeit (Salvenfeuermodus)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "Nachladezeit (Einzelschussmodus)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "Granatenschaden gegen gegnerische Module"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "Mündungsgeschwindigkeit"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "Erhalt der Geschwindigkeit\nauf weichem Boden"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "Schaden der Spezialgranaten"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "Durchschlagskraft der Spezialgranaten"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "Mündungsgeschwindigkeit der Spezialgranaten"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "Schaden der Standardgranaten"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "Durchschlagskraft der Standardgranaten"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "Mündungsgeschwindigkeit der Standardgranaten"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "negative Effekte durch Betäubung der Besatzung"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "eingehender Schaden gegen das Fahrwerk"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "Reparaturgeschwindigkeit des Fahrwerks"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "Turmdrehgeschwindigkeit"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "Malus auf Nachladezeit"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "Malus durch beschädigten Motor"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "Wendegeschwindigkeit der Wanne"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "Robustheit interner Module"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "Robustheit des Munitionslagers"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "Höchstgeschwindigkeit rückwärts"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "Tarnung"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "Tarnungssteigerung"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "Schaden bei Einschlag"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "Reparaturgeschwindigkeit des Fahrwerks"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "Robustheit des Fahrwerks"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "Sichtweite (bis zu 445 m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "Dauer der Sichtbarkeit\ndes gegnerischen Fahrzeugs"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "Motorleistung"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "Schaden durch Aufprall"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "Wahrscheinlichkeit eines Motorbrandes"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "Höchstgeschwindigkeit"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "Wahrscheinlichkeit auf kritischen Schaden\nan Treibstofftanks"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "Zielerfassung"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "Nachladezeit"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "Streuung bei Fahrzeugbewegung und Wannendrehung"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "Durchmesser des Zielkreises nach dem Feuern"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "Streuung bei Bewegung"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "Streuung bei Wannendrehung"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "Streuung bei Geschützrichten"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "Streuung mit beschädigtem Geschütz"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "Durchmesser des Zielkreises"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "Schaden von HE-Granaten"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "Tarnung nach dem Feuern"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "Dauer der Sichtbarkeit des eigenen Fahrzeugs"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "erlittener Schaden des Fahrwerks\ndurch Rammen"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "erlittener Schaden durch Rammen"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "Geschwindigkeit für den Wechsel des Granatentyps\nbei geladenem Geschütz"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "Reparaturgeschwindigkeit"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "Höchstgeschwindigkeit vorwärts/rückwärts"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "Halten der Geschwindigkeit beim Durchqueren aller Geländearten"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "Tarnung eines Fahrzeugs im Stand"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "Tarnung eines stehenden Fahrzeugs"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "Tarnungssteigerung eines stehenden Fahrzeugs"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "Tarnungssteigerung eines stehenden Fahrzeugs"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "Sichtweite eines Fahrzeugs im Stand (bis zu 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "Sichtweite eines Fahrzeugs im Stand (bis zu 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "Strukturpunkte des Fahrzeugs"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "Turmdrehgeschwindigkeit oder Geschützrichtgeschwindigkeit für Fahrzeugen mit festem Aufbau"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "Turmdrehgeschwindigkeit"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "Raddrehgeschwindigkeit"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "Malus bei Verletzung eines Besatzungsmitglieds,\nausgenommen dem Kommandanten"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "Verzögerung vor der Benachrichtigung, dass das eigene Fahrzeug aufgeklärt wurde"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "Schutz der Besatzung\nvor Verletzungen"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "auf den Besatzungseffizienzbonus"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "zusätzliche Betäubungsdauer"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "Betäubungsdauer"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "verursachter Schaden durch Rammen"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "Verzögerung vor Anzeige\nvon kritischem Schaden im Fadenkreuz"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "Tarnung gegnerischer Fahrzeuge\nhinter Laubwerk"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "Tarnung sich bewegender\ngegnerischer Fahrzeuge"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "durch Ersatzteilkiste wiederhergestellte SP"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "Nachladezeit des Magazins"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "maximale potenzielle Durchschlagskraft"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "Schutz des Funkers vor Verletzungen"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "Mündungsgeschwindigkeit für alle Granatentypen"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "Geschützstreuung"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "Reparaturgeschwindigkeit des Fahrwerks"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "Streuung bei Geschützrichten"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "Malus auf Nachladezeit"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "Leistungsverlust des Motors\nbei Schäden"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "Wendegeschwindigkeit des Fahrzeugs"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "Robustheit interner Module"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "Robustheit des Munitionslagers"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "Höchstgeschwindigkeit rückwärts"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "Tarnung"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "Schaden durch Aufprall"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "Reparaturgeschwindigkeit des Fahrwerks"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "Robustheit des Fahrwerks"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "Sichtweite"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "Dauer der Sichtbarkeit\ndes gegnerischen Fahrzeugs"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "Motorleistung"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "Schaden durch Aufprall"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "Wahrscheinlichkeit eines Motorbrandes"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "Höchstgeschwindigkeit"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "Zielerfassung"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "Nachladezeit"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "Streuung bei Fahrzeugbewegung\nund Wannendrehung"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "Durchmesser des Zielkreises\nnach dem Feuern"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "Streuung bei Bewegung"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "Streuung bei Wannendrehung"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "Streuung bei \nGeschützrichten"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "Streuung mit beschädigtem Geschütz"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "Durchmesser des Zielkreises"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "Schaden von HE-Granaten"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "Tarnung nach dem Feuern"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "auf die Dauer, die Ihr Fahrzeug sichtbar ist"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "erlittener Schaden durch Rammen"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "Geschwindigkeit für den Wechsel\ndes Granatentyps"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "Reparaturgeschwindigkeit"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "Halten der Geschwindigkeit"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "Tarnung eines stehenden\nFahrzeugs"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "Tarnung eines stehenden\nFahrzeugs"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "Sichtweite"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "Sichtweite"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "Strukturpunkte des Fahrzeugs"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "Geschützrichtgeschwindigkeit"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "Turmdrehgeschwindigkeit"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "Malus bei Verletzung eines Besatzungsmitglieds,\nausgenommen dem Kommandanten"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "Verzögerung vor der Benachrichtigung, dass das eigene Fahrzeug aufgeklärt wurde"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "Schutz der Besatzung\nvor Verletzungen"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "auf den Besatzungseffizienzbonus"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "auf den Besatzungseffizienzbonus"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "zusätzliche Betäubungsdauer"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "Betäubungsdauer"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "minimaler potenzieller Schaden\nund Durchschlagswert"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "verursachter Schaden durch Rammen"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "Tarnung gegnerischer Fahrzeuge\nhinter Laubwerk"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "Tarnung sich bewegender\ngegnerischer Fahrzeuge"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "Wahrscheinlichkeit auf Schaden an gegnerischen Modulen und\nBesatzungsmitgliedern"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "Geschwindigkeit der Brandbekämpfung"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "durch Ersatzteilkiste wiederhergestellte SP"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "Nachladezeit des Magazins"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "Tarnwert des Fahrzeugs"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "Erhalt der Geschwindigkeit\nauf mittelweichen Böden"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "maximale potenzielle Durchschlagskraft"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "Funkreichweite"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "Schutz des Funkers vor Verletzungen"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "Mündungsgeschwindigkeit für alle Granatentypen"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "Erhalt der Geschwindigkeit\nauf weichem Boden"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "Reparaturgeschwindigkeit des Fahrwerks"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "Funkreichweite verbündeten Funkverkehrs innerhalb der Reichweite des Funkgeräts"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "Malus auf Nachladezeit"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "Leistungsverlust des Motors\nbei Schäden"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "Wendegeschwindigkeit des Fahrzeugs"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "Robustheit interner Module"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "Robustheit des Munitionslagers"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "Höchstgeschwindigkeit rückwärts"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "Tarnung"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "Schaden bei Einschlag"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "Reparaturgeschwindigkeit des Fahrwerks"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "Robustheit des Fahrwerks"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "Sichtweite\n(bis zu 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "Dauer der Sichtbarkeit\ndes gegnerischen Fahrzeugs"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "Motorleistung"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "Schaden durch Aufprall"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "Wahrscheinlichkeit eines Motorbrandes"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "Höchstgeschwindigkeit"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "Zielerfassung"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "Nachladezeit"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "Streuung bei Fahrzeugbewegung\nund Wannendrehung"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "Durchmesser des Zielkreises\nnach dem Feuern"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "Streuung bei Bewegung"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "Streuung bei Wannendrehung"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "Streuung bei \nGeschützrichten"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "Streuung mit beschädigtem Geschütz"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "Durchmesser des Zielkreises"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "Schaden von HE-Granaten"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "Tarnung nach dem Feuern"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "Dauer der Sichtbarkeit des eigenen Fahrzeugs"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "erlittener Schaden durch Rammen"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "Geschwindigkeit für den\nWechsel des Granatentyps"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "Reparaturgeschwindigkeit"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "Erhalt der Geschwindigkeit"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "Tarnung eines Fahrzeugs im Stand"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "Tarnung eines stehenden Fahrzeugs"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "Sichtweite Fahrzeugs im Stand\n(bis zu 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "Sichtweite Fahrzeugs im Stand\n(bis zu 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "Strukturpunkte des Fahrzeugs"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "Geschützrichtgeschwindigkeit"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "Turmdrehgeschwindigkeit"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "im Gefecht verdiente Besatzungserfahrung"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "Sek."
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "Sek."
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr " %"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "Sek."
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "Sek."
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "Sek."
+
+msgid "popularLoadouts/common"
+msgstr "Beliebt"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Häufig genutzt"
+
+msgid "popularLoadouts/legendary"
+msgstr "Legendär"
+
+msgid "popularLoadouts/noData"
+msgstr "Keine Daten verfügbar"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Keine Daten verfügbar"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sBeliebt.%(whiteSpanish_Close)s Entspricht den aktuellen Trends für Zubehör unter allen Spielern von World of Tanks"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Datensammlung"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Wenn noch keine Daten zur aktuellen Saison von Ansturm verfügbar sind, werden Daten der vorherigen Saison verwendet."
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Der Assistent ist für %(whiteSpanish_Open)sZufallsgefechte%(whiteSpanish_Close)s und %(whiteSpanish_Open)sAnsturm%(whiteSpanish_Close)s verfügbar."
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Daten werden von allen Zubehörtypen gesammelt."
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "Vorteil von WoT Plus"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Sie erhalten präzise Daten zu Zubehör, basierend auf Millionen Spielen, um jedes Gefecht ideal zu bestreiten."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Zubehörassistent"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendär.%(whiteSpanish_Close)s Entspricht dem Zubehör, das von Spielern mit einer legendären WTR-Wertung derzeit genutzt wird"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Arten der Ausstattung"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Die empfohlene Ausstattung basiert auf der Ausstattung, die bei Fahrzeugen mit vergleichbarer Spielweise beliebt ist."
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Es werden die Daten für das folgende Fahrzeug mit ähnlicher Spielweise angezeigt:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Es sind keine Daten für die Ausstattung verfügbar."
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Das ausgewählte Fahrzeug ist für diesen Spielmodus nicht verfügbar."
+
+msgid "section/battleAbilities"
+msgstr "KAMPFRESERVEN"
+
+msgid "section/battleBoosters"
+msgstr "DIREKTIVEN"
+
+msgid "section/consumables"
+msgstr "VERBRAUCHSMATERIAL"
+
+msgid "section/modules"
+msgstr "MODULE"
+
+msgid "section/optDevices"
+msgstr "ZUBEHÖR"
+
+msgid "section/shells"
+msgstr "MUNITION"
+
+msgid "section/toggleCamouflage"
+msgstr "TARNUNG"
+
+msgid "section/toggleShells"
+msgstr "MUNITION"
+
+msgid "shells/ammunitionFull"
+msgstr "Volle Munition"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Munition unvollständig"
+
+msgid "shells/autoFillOff"
+msgstr "Automatisches Auffüllen deaktiviert"
+
+msgid "shells/autofillOn"
+msgstr "Automatisches Auffüllen aktiviert"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "Auf Lager:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "Im Munitionslager:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Kaufen:"
+
+msgid "shells/specification/inStorage"
+msgstr "Auf Lager"
+
+msgid "shells/specification/inVehicle"
+msgstr "Im Munitionslager"
+
+msgid "shells/specification/price"
+msgstr "Kaufen"
+
+msgid "shells/title"
+msgstr "Munition"
+
+msgid "shells/type/base"
+msgstr "STANDARD (AP)"
+
+msgid "shells/type/special"
+msgstr "SPEZIAL (HE)"
+
+msgid "shells/type/tactical"
+msgstr "TAKTISCH (APCR)"
+
+msgid "tabs/crew"
+msgstr "Für Besatzung"
+
+msgid "tabs/deluxe"
+msgstr "Verbessert"
+
+msgid "tabs/modernized"
+msgstr "Experimentell"
+
+msgid "tabs/optDevice"
+msgstr "Für Zubehör"
+
+msgid "tabs/simple"
+msgstr "Standard"
+
+msgid "tabs/trophy"
+msgstr "Erbeutet"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Die Direktive wird automatisch nachgefüllt, nachdem das Fahrzeug das Gefecht verlassen hat. Sie wird entweder aus dem Lager genommen (sofern ein Vorrat dieser Direktive vorhanden ist) oder mit Spielwährung gekauft."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Verbrauchsmaterial wird, falls nötig, automatisch nachgefüllt, nachdem das Fahrzeug das Gefecht verlassen hat."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Reparaturen werden, falls nötig, automatisch durchgeführt, nachdem das Fahrzeug das Gefecht verlassen hat."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Die Munition wird, falls nötig, automatisch nachgefüllt, nachdem das Fahrzeug das Gefecht verlassen hat."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Automatisch nachladen"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Automatisch reparieren"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Wird aus dem Lager zerlegt: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Wird von Fahrzeugen zerlegt: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Klicken Sie hier, um zusätzliche Gegenstände für diesen Platz zu kaufen."
+
+msgid "tooltips/action/description/demount"
+msgstr "Klicken Sie hier, um das Zubehör aus diesem Platz auszubauen."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Klicken Sie hier, um das Zubehör aus diesem Platz auszubauen."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Klicken Sie hier, um das Zubehör aus allen Konfigurationen auszubauen."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Klicken Sie, um Zubehör mit Ihrem aktiven Abonnement von WoT Plus kostenlos aus diesem Platz auszubauen."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Klicken Sie, um das Zubehör in diesem Platz zu zerstören. Wenn Sie ein aktives Abonnement von WoT Plus haben, können Sie es stattdessen kostenlos ausbauen."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Klicken, um Zubehör in Komponenten zu zerlegen."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Klicken Sie hier, um das Zubehör in diesem Platz zu zerstören."
+
+msgid "tooltips/action/description/swap"
+msgstr "Klicken Sie hier, um die Gegenstände zwischen den Plätzen zu wechseln."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Durch Verbesserung des Zubehörs steigen dessen Werte."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Durch Verbesserung des Zubehörs steigen dessen Werte."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Durch Verbesserung des Zubehörs steigen dessen Werte."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Kaufen"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Einlagern"
+
+msgid "tooltips/action/title/demount"
+msgstr "Ausbauen"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Ausbauen"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Aus allen Konfigurationen ausbauen"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Kostenlos ausbauen"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Zerstören"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Zerlegen"
+
+msgid "tooltips/action/title/swap"
+msgstr "Reihenfolge ändern"
+
+msgid "tooltips/action/title/undo"
+msgstr "Vom Platz entfernen"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Verbessern"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Verbessern"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Verbessern"
+
+msgid "tooltips/additional"
+msgstr "Zusätzliche Informationen."
+
+msgid "tooltips/categories/list"
+msgstr "Klicken Sie hier, um die Liste der Module anzuzeigen."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Die Kategorie dieses Platzes kann über das Menü Feldaufrüstung oder die Auswahl des Zubehörs neu zugewiesen werden."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Neu zuweisbare Kategorie"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Klicken Sie hier, um den Platz neu zuzuweisen."
+
+msgid "tooltips/equipmentList"
+msgstr "Klicken, um eine Liste verfügbaren Zubehörs zu erhalten."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Experimentelles Zubehör konnte nicht in Komponenten zerlegt werden: Sie besitzen kein Zubehör dieses Typs."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Klicken, um mit dem Zerlegen von Zubehör in Komponenten fortzufahren"
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Ist dieses Zubehör eingebaut, bietet es einen Standardbonus, da nur Jagdpanzer und Selbstfahrlafetten die Kategorie Feuerkraft besitzen und dieses Zubehör nicht in einen Platz der Kategorie Feuerkraft eingebaut wird."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Ihr Fahrzeug erhält gesteigerte Boni auf seine Werte."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Steigern Sie die Boni auf die Eigenschaften, indem Sie dieses Zubehör in einen Platz der folgenden Kategorien einbauen: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Steigern Sie die Boni auf die Eigenschaften, indem Sie dieses Zubehör in einen Platz der folgenden Kategorie einbauen: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Zubehörplatz"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Sie können die Option zum Wählen der Sets für Munition und Verbrauchsmaterial während des Gefechtscountdowns in der Feldaufrüstung aktivieren/deaktivieren."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Sie können die Option zum Wählen der Sets für Zubehör und Direktiven während des Gefechtscountdowns in der Feldaufrüstung aktivieren/deaktivieren."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Sie können die Option zum Wählen der Sets für Munition und Verbrauchsmaterial während des Gefechtscountdowns in der Oberfläche der Feldaufrüstung aktivieren/deaktivieren."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Sie können die Option zum Wählen der Sets für Munition und Verbrauchsmaterial während des Gefechtscountdowns in der Oberfläche der Aufrüstungen aktivieren/deaktivieren."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Sie können die Option zum Wählen der Sets für Zubehör und Direktiven während des Gefechtscountdowns in der Oberfläche der Feldaufrüstung aktivieren/deaktivieren."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Sie können die Option zum Wählen der Sets für Zubehör und Direktiven während des Gefechtscountdowns in der Oberfläche der Aufrüstungen aktivieren/deaktivieren."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Umschalten zwischen Sets deaktiviert"
+
+msgid "tooltips/separator/last"
+msgstr " und "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Standardzubehör der Kategorie %(spec)s ist effektiver, wenn es in diesem Platz eingebaut wird. Zubehör anderer Kategorien gibt nur den üblichen Bonus."
+
+msgid "tooltips/specializationName"
+msgstr "Kategorie:"
+
+msgid "tooltips/specializationType"
+msgstr "Feuerkraft"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Ein wertvoller Zubehörtyp mit besseren Eigenschaften als andere Zubehörtypen."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Besonderes Zubehör, das über drei Verbesserungsstufen verfügt."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Zubehör verbessert die Werte Ihres Fahrzeugs."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Ein Zubehörtyp mit den Werten von Standardzubehör, der verbessert werden kann."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Verbessertes Zubehör"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Experimentelles Zubehör"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Standardzubehör"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Erbeutetes Zubehör"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Dieser Zubehörtyp ist für %(whiteSpanish_Open)sAnleihen%(whiteSpanish_Close)s verfügbar. Er kann auch als Belohnung für bestimmte Errungenschaften im Spiel und während spezieller Spielevents erhalten werden."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Dieser Zubehörtyp kann nur als Belohnung für besondere Spielevents erhalten werden."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Dieser Zubehörtyp ist durch Kauf mit Spielwährung verfügbar. Er kann auch als Belohnung für bestimmte Errungenschaften im Spiel und während spezieller Spielevents erhalten werden. Die Werte von Standardzubehör können verbessert werden, wenn es im entsprechenden Platz eingebaut wird."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Dieser Zubehörtyp kann nur als Belohnung für besondere Spielevents erhalten werden."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Erwerbsmethode"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Erwerbsmethode"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Zubehörplätze"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Erbeutetes Zubehör kann nicht gekauft werden"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Sie können die Werte des experimentellen Zubehörs mit %(whiteSpanish_Open)sKomponenten%(whiteSpanish_Close)s verbessern, die Sie durch Zerlegen von Zubehör dieses Typs erhalten."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Sie können die Werte des erbeuteten Zubehörs mit Spielwährung verbessern."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Experimentelles Zubehör wird verbessert"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Verbessern von erbeutetem Zubehör"

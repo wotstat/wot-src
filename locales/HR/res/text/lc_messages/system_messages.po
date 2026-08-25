@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Vaš korisnički račun je uspješno obnovljen"
+
+msgid "achievements/server_error"
+msgstr "Nisu spremljene promjene na traci vrijednih nagrada."
+
+msgid "actionAchievement/title"
+msgstr "Akcijska medalja"
+
+msgid "actionAchievements/title"
+msgstr "Akcijske medalje"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Greška pri izučavanju nove sposobnosti. Pogrešno vozilo."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Nije moguće obučiti novu sposobnost.\nServer nedostupan. Pokušajte ponovo kasnije."
+
+msgid "add_tankman_skill/success"
+msgstr "Nova sposobnost obučena: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Greška pri izučavanju nove sposobnosti. Vozilo je zaključano."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Greška pri izučavanju nove sposobnosti. Popravite vozilo."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Nije moguće obučiti nove sposobnosti.\nServer nedostupan. Pokušajte ponovo kasnije."
+
+msgid "add_tankman_skills/success"
+msgstr "Nove sposobnosti obučene: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Još uvijek ste prijavljeni na drugom serveru."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Greška pri ulasku u bitku: već si u timu."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Greška pri ulasku u bitku: pogrešan broj tima."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Greška prilikom priključivanja. Opreacija je privremeno zaustavljena. Pokušajte kasnije."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Ova akcija je trenutno nedostupna. Slijedite najnovije vijesti na portalu igre."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Greška pri ulasku u bitku: poziv je istekao."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Greška prilikom priključivanja, nedovoljno dozvola."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Nije mogući ući u bitku. Red čekanja je trenutno nedostupan. Molim, pokušajte ponovo kasnije."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "Akcija nedostupna. Red čekanja je trenutno pun. Molim, pokušajte ponovo kasnije."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Greška pri ulasku u bitku: timovi su već stvoreni."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Greška pri ulasku u bitku: veza je istekla."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Greška prilikom priključivanja, nedostupno za ovaj tip korisničkog računa."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Greška u pridruživanju u bitku."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Greška prilikom priključivanja, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Greška pri ulazu: odabrana povijesna bitka nije raspoloživa."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Greška u spajanju. Molim, odaberite server %s."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Greška u spajanju. Molim, odaberite drugi server."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Greška pri ulasku u bitku: trenutno vozilo nije spremno."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Greška: vozila ove razine se ne mogu boriti u ovom režimu bitke."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Nije moguće ući u bitku: vozilo nije spremno."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Molim, kupite vozilo kako bi ušli u bitku."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Greška u priključenju bitci (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Greška u priključenju bitci (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Greška u priključenju bitci (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Greška u priključenju bitci (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Greška u priključenju bitci (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Greška u priključenju bitci (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Greška u priključenju bitci (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Greška u priključenju bitci (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Greška u priključenju bitci (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Greška u priključenju bitci (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Greška u priključenju bitci (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "Maksimalno vrijeme u redu čekanja za bitku je isteklo. Odaberite drugo vozilo ili pokušajte ponovo kasnije."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" ne pristaje ovom vozilu."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Pogrešno vozilo. %(kind)s \"%(name)s\" nije montiran."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" je demontiran s vozila. Potrošili ste %(money)s."
+
+msgid "artefact_apply/server_error"
+msgstr "Greška u poslužitelju pri montiranju %(kind)s \"%(name)s\" . Pokušajte ponovo kasnije."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" montiran na vozilo."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Vozilo zaključano. %(kind)s \"%(name)s\" nije montiran."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Vozilo oštećeno. %(kind)s \"%(name)s\" nije montiran. Popravite vozilo i pokušajte ponovo."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" ne pristaje ovom vozilu."
+
+msgid "artefact_buy/invalid_module"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Pogrešan modul."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Pogrešno vozilo. Nije moguće kupiti i montirati %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Nedovoljno kredita."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Nedovoljno obveznica."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Nedovoljno novčića obljetnice."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Nedovoljno zlata."
+
+msgid "artefact_buy/server_error"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Pokušajte ponovo kasnije."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Server je privremeno nedostupan."
+
+msgid "artefact_buy/success"
+msgstr "Modul %(kind)s \"%(name)s\" je uspješno kupljen (%(count)s komada). Utrošeno %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Vozilo zaključano. Nije moguće kupiti i montirati %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "Nije moguće kupiti i montirati %(kind)s \"%(name)s\". Popravite vozilo i pokušajte ponovo."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "Nije moguće rastaviti %(name)s. Pogrešni modul."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "Nije moguće rastaviti %(name)s. Pokušajte ponovo kasnije."
+
+msgid "artefact_deconstructing/success"
+msgstr "Oprema rastavljena: %(name)s (x%(count)s). Primili ste %(money)s."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Oprema rastavljena: %(names)s. Primili ste %(money)s."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "\"%(equipment)s\" nije demontirana. Nedovoljno sredstava."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Pogrešno vozilo. %(kind)s \"%(name)s\" nije uništen."
+
+msgid "artefact_destroy/server_error"
+msgstr "Uništenje zbog greške servera %(kind)s \"%(name)s\". Pokušajte ponovo kasnije."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" uništen demontažom."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Vozilo zaključano. %(kind)s \"%(name)s\" nije uništen."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Vozilo oštećeno. %(kind)s \"%(name)s\"' nije uništen. Popravite vozilo i pokušajte ponovo."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" demontirana s vozila. Potrošili ste opremu za demontiranje."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "Potrošni materijal \"%s\" je poslan u Skladište zbog nekompatibilnosti s trenutnim modulom."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Pogrešno vozilo. %(kind)s \"%(name)s\" nije demontiran."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" je demontiran s vozila. Potrošili ste %(money)s."
+
+msgid "artefact_remove/server_error"
+msgstr "Greška na serveru kod demontiranja %(kind)s \"%(name)s\". Pokušajte ponovo kasnije."
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s \"%(name)s\" demontirano s vozila."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Vozilo zaključano. %(kind)s \"%(name)s\" nije demontiran."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Vozilo oštećeno. %(kind)s \"%(name)s\" nije demontiran. Popravite vozilo i pokušajte ponovo kasnije."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s \"%(name)s\" je demontiran s vašeg vozila besplatno putem aktivne WoT Plus pretplate."
+
+msgid "artefact_sell/invalid_module"
+msgstr "Nije moguće prodati %(kind)s \"%(name)s\". Pogrešan modul."
+
+msgid "artefact_sell/server_error"
+msgstr "Nije moguće prodati %(kind)s \"%(name)s\". Pokušajte ponovo kasnije."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s komada). Primljeno %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Greška u nadogradnji opreme. Molim, pokušajte ponovo kasnije."
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s \"%(name)s\" uspješno nadograđeno. Svojstva poboljšana. Utrošeno %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "%(name)s %(kind)s je uspješno nadograđen i karakteristike su poboljšane. Utrošeno %(money)s.\n\nSlična oprema iz alternativnog kompleta je poslana u skladište."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Vozilo oštećeno. %(kind)s \"%(name)s\" nije nadograđen. Popravite vozilo i pokušajte ponovo kasnije."
+
+msgid "badges/select/server_error"
+msgstr "Greška servera"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "Akcija nedostupna. Pričekajte do završetka trenutne operacije."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Pošalji pozive"
+
+msgid "battleAbilities_apply/error"
+msgstr "Greška konfiguriranja borbenih pričuva. Molim, pokušajte ponovo kasnije."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Nedovoljno kredita."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Nedovoljno obveznica."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" ne pristaje ovom vozilu."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Nedovoljno novčića obljetnice."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Nedovoljno zlata."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Pogrešni modul."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Pogrešno vozilo."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Nedovoljno kredita."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Nedovoljno obveznica."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Nedovoljno novčića obljetnice."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Nedovoljno zlata."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Operacije s direktivama su privremeno nedostupne zbog održavanja."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Server je privremeno nedostupan."
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s \"%(name)s\" je uspješno kupljen (%(count)s kom.). Potrošili ste %(money)s."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "Vozilo je zaključano. Neuspjelo kupovanje i montiranje %(kind)s \"%(name)s\"."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "Neuspjelo kupovanje %(kind)s \"%(name)s\". Popravite vozilo i pokušajte ponovo."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Operacije s direktivama su privremeno nedostupne zbog održavanja."
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s \"%(name)s\" prodano (%(count)s predmet(s)). Primljeno: %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Greška operacija smjernica. Molim, pokušajte ponovo kasnije."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Greška operacija smjernica. Nedovoljno sredstava za kupnju."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "Operacija nedostupna. Vaše zlato će biti dostupno nakon što se povrati operativnost WG Wallet."
+
+msgid "battlePass/activateChapter/success"
+msgstr "Poglavlje %(chapter)s aktivirano"
+
+msgid "battlePass/extraFinish/body"
+msgstr "Akcija %(name)s je završila. Hvala vam na sudjelovanju!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Borbena propusnica: Poglavlje \"%(name)s\""
+
+msgid "battlePass/extraStarted/body"
+msgstr "Zapovjedniče! Unutar Borbene propusnice je počela akcija %(name)s tijekom koje možete dobiti posebnu nagradu!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Borbena propusnica: dostupno je novo Poglavlje!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Zapovjedniče! Preostalo je malo vremena prije kraja Poglavlja \"%(name)s\". Požurite!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Borbena propusnica: Poglavlje \"%(name)s\""
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Zapovjednici! Ne zaboravite da bodove Borbene propusnice možete osvajati i u rangiranim bitkama!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Zapovjednici! Ne zaboravite da bodove Borbene propusnice možete osvajati i u Bojišnici!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Zapovjednici! Ne zaboravite da bodove Borbene propusnice možete osvajati i u Misiji izviđanja!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Zapovjednici! Ne zaboravite da bodove Borbene propusnice možete osvajati i u Navali!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Sezona %(seasonNum)d Borbene propusnice"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Greška pri odabiru nagrada. Molim, pokušajte ponovo."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "Sezona Borbene propusnice je završila. Sve nagrade koje niste odabrali tijekom sezone dodijeljene su vam prema zadanim postavkama:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Greška pri odabiru Poglavlja. Molim, pokušajte ponovo."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Odaberite poglavlje. Možete se prebaciti na druga Poglavlja bilo kada."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Prebacili ste se na drugo Poglavlje. Poglavlje %(chapter)s je sada aktivno."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Bortbena propusnica je privremeno nedostupna u Čeličnom lovcu zbog održavanja. Ispričavamo se zbog neugodnosti."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Bodovi Borbene propusnice se zbog održavanja trenutno ne mogu osvajati u režimu Navale."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Bodovi Borbene propusnice se zbog održavanja trenutno ne mogu osvajati u režimu Lagane Navale."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "Bortbena propusnica je privremeno nedostupna u Bojišnici zbog održavanja."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "Bortbena propusnica je privremeno nedostupna u rangiranim bitkama zbog održavanja."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "Borbena propusnica je ponovno dostupna. Ispričavamo se zbog neugodnosti.\nSezona propušena do %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Bodovi Borbene propusnice se ponovno mogu osvajati u Navali. Ispričavamo se zbog neugodnosti."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Bodovi Borbene propusnice se ponovno mogu osvajati u Laganoj Navali. Ispričavamo se zbog neugodnosti."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "Borbena propusnica je ponovno dostupna u Bojišnici. Ispričavamo se zbog neugodnosti."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Borbena propusnica je ponovno dostupna u rangiranim bitkama. Ispričavamo se zbog neugodnosti."
+
+msgid "battlePass/switch_pause/body"
+msgstr "Borbena propusnica je privremeno nedostupna zbog održavanja."
+
+msgid "battlePass/switch_started/body"
+msgstr "Zapovjednici! Još jednom je vrijeme za borbu za jedinstvene nagrade Borbene propusnice!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Sezona %(seasonNum)d Borbene propusnice"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Borbena propusnica: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "Borbena propusnica je završila. Sve nagrade koje nisute odabrali su vam dodjeljene zadano:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "Poglavlje je završeno. Do slijedećeg puta!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Borbena propusnica: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "Borbena propusnica je ponovno dostupna. Ispričavamo se zbog neugodnosti."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Zapovjednici! Kao što ćete uskoro otkriti, ovo je posebna Borbena propusnica.\n\nZa izvršenje napretka ćete primiti premium vozilo odjeveno u jedinstveni 3D stil, elemente prilagodbe i još mnogo nagrada!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Borbena propusnica: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Greška pri kupnji etapa napretka. Molim, pokušajte ponovo kasnije."
+
+msgid "battlePass_buy/server_error"
+msgstr "Greška pri kupnji poboljšane propusnice. Pokušajte ponovo."
+
+msgid "battleResults/sharing/success"
+msgstr "Link je kopiran u privremenu memoriju. Možete ga zalijepiti u chat pritiskom Ctrl+V ili koristiti izvan klijenta igre."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Nije moguće naći protivnike za trenutnu posebnu bitku Razmotrite mogućnost reorganizacije vašeg tima."
+
+msgid "battleSession/memberJoined"
+msgstr "%s se priključio timu."
+
+msgid "battleSession/memberLeave"
+msgstr "%s je izašao iz tima."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s nije spreman za borbu u timu."
+
+msgid "battleSession/memberOffline"
+msgstr "Veza je prekinuta sa %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s je spreman za borbu u timu."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Najveći broj gledatelja u timu: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Najveći broj igrača u timu: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Nedovoljno dozvola za pomicanje drugih igrača."
+
+msgid "battlesession/error/Limits"
+msgstr "Premašen je najveći broj igrača u timu."
+
+msgid "blueprints/conversion/disable"
+msgstr "Nedovoljno fragmenata za pretvorbu."
+
+msgid "blueprints/conversion/error"
+msgstr "Nije moguće umiroviti se: server nedostupan. Pokušajte ponovo kasnije."
+
+msgid "blueprints/switch_off"
+msgstr "Nacrti vozila: ovo svojstvo je privremeno isključeno. Ispričavamo se zbog neugodnosti."
+
+msgid "blueprints/switch_on"
+msgstr "Nacrti vozila su ponovno dostupni."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Akcija nedostupna. Osobna pričuva se već koristi."
+
+msgid "booster_activate/DISABLED"
+msgstr "Nije moguće aktivirati osobne pričuve. Akcija nedostupna."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Nije moguće aktivirati osobne pričuve. Akcija nedostupna."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Akcija nedostupna. Osobna pričuva je nedostupna ili nije odabrana."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Nije moguće aktivirati osobne pričuve. Akcija nedostupna."
+
+msgid "booster_activate/server_error"
+msgstr "Nije moguće aktivirati osobnu pričuvu. Pokušajte ponovo kasnije."
+
+msgid "booster_activate/success"
+msgstr "Osobna rezerva \"%(boosterName)s\" je aktiviran. Preostalo vremena: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Nije moguće kupiti osobnu pričuvu \"%(boosterName)s\". Nedovoljno kredita."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Nije moguće kupiti osobnu pričuvu \"%(boosterName)s\". Nedovoljno zlata."
+
+msgid "booster_buy/server_error"
+msgstr "Nije moguće kupiti osobnu pričuvu \"%(boosterName)s\"."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Nije moguće kupiti osobnu pričuvu \"%(boosterName)s\". Server je privremeno nedostupan."
+
+msgid "booster_buy/success"
+msgstr "Osobn pričuva \"%(boosterName)s\" uspješno kupljene (%(count)s kom(ada)). Utrošeno %(money)s."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "booster_sell/server_error"
+msgstr "Nije moguće prodati osobnu pričuvu \"%(boosterName)s\". Pokušajte ponovo kasnije."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Nije moguće prodati osobnu pričuvu \"%(boosterName)s\". Pokušajte ponovo kasnije."
+
+msgid "booster_sell/success"
+msgstr "Osobna pričuva \"%(boosterName)s\" uspješno prodana (%(count)s kom(ada)). Primljeno %(money)s."
+
+msgid "buttons/goToPoll"
+msgstr "Na glasovanje"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Nije moguće unovačiti i prebaciti člana posade: tenk ima jedinstvenu stalnu posadu."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Dosegli ste granicu slobodnih članova posade za danas."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Nije moguće unovačiti i prebaciti člana posade. Pogrešno vozilo."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Nije moguće unovačiti i prebaciti člana posade. Nedovoljno kredita."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Nije moguće unovačiti i prebaciti člana posade. Nedovoljno zlata."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Nije moguće unovačiti i prebaciti člana posade. Pokušajte ponovo kasnije."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Nije moguće unovačiti i prebaciti člana posade. Vozilo je zaključano."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Nije moguće unovačiti i prebaciti člana posade: tenk ima jedinstvenu stalnu posadu."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Dosegli ste granicu slobodnih članova posade za danas."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Nije moguće unovačiti i zamjeniti člana posade. Pogrešno vozilo."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Nije moguće unovačiti i zamjeniti člana posade. Nedovoljno kredita."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Nije moguće unovačiti i zamjeniti člana posade. Nedovoljno zlata."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Nije moguće unovačiti i zamjeniti člana posade. Za unovačenje člana posade trebate slobodni ležaj. Molim, oslobodite ležaj ili kupite dodatni u vojarni."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Nije moguće unovačiti i zamjeniti člana posade. Pokušajte ponovo kasnije."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Nije moguće unovačiti i zamjeniti člana posade. Vozilo je zaključano."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Dosegli ste limit za kupnju besplatnih vozila. Pokušajte ponovno sutra."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Greška u proširenju vojarne. Nedovoljno kredita."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Greška u proširenju vojarne. Nedovoljno zlata."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Nije moguće povećati Vojarnu. Pokušajte ponovno kasnije."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Vojarna povećana.\nPotrošeno zlata: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "buy_vehicle_slot_error"
+msgstr "Nije moguće kupiti \"%s\". Nema dostupnih mjesta u Garaži. Razmislite o prodaji nekog vozila ili kupite novo mjesto."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "Nije moguće kupiti \"%s\". Nema dostupnih mjesta u Garaži. Molim, oslobodite mjesto."
+
+msgid "challenges/activate/serverError"
+msgstr "Nije moguće aktivirati zadatke Kušnje. Pokušajte ponovo kasnije."
+
+msgid "challenges/activate/success/text"
+msgstr "Prvi zadatak u ovom nizu će biti dostupan za izvršenje. Uđite u bitku i budite dostojni izazova!"
+
+msgid "challenges/activate/success/title"
+msgstr "Kušnja: %(challengeName)s aktiviran!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Na Kušnju"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Izvršite ga sada i primite vašu nagradu."
+
+msgid "challenges/challengeEnd/title"
+msgstr "Zadaci Kušnje uskoro završavaju!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Čestitamo!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Izvršili ste Kušnja: %(challengeName)s! Primljene nagrade:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Potrošeno kredita:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Potrošeno obveznica:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Utrošeno zlata:"
+
+msgid "challenges/restart/free/text"
+msgstr "Iskorišteno je jedno besplatno ponovno pokretanje i poništen je napredak zadatka."
+
+msgid "challenges/restart/free/title"
+msgstr "Kušnja: %(challengeName)s besplatno ponovno pokrenut"
+
+msgid "challenges/restart/paid/title"
+msgstr "Kušnja: %(challengeName)s ponovno pokrenut!"
+
+msgid "challenges/restart/serverError"
+msgstr "Nije moguće ponovno pokrenuti zadatke Kušnje. Pokušajte ponovo kasnije."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "Akcija nedostupna. Pričekajte do završetka trenutne operacije."
+
+msgid "challenges/surrender/serverError"
+msgstr "Nije moguće napustiti zadatke Kušnje. Pokušajte ponovo kasnije."
+
+msgid "challenges/surrender/success/text"
+msgstr "Napustili ste Kušnju: %(challengeName)s. Niz zadataka nije uspio."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Nije moguće promjeniti kvalifikaciju člana posade: tenk ima jedinstvenu stalnu posadu."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Nije moguće promjeniti kvalifikaciju. Pokušajte ponovo kasnije."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Nije moguće promjeniti kvalifikaciju. Pogrešno vozilo."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "Vozilo nije u Garaži. Prekvalificirani član posade će biti posaln u Vojarnu."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Nije moguće promjeniti kvalifikaciju člana posade. Nedovoljno kredita."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Nije moguće promjeniti kvalifikaciju člana posade. Nedovoljno zlata."
+
+msgid "change_tankman_role/server_error"
+msgstr "Nije moguće promjeniti kvalifikaciju.\nPokušajte ponovo kasnije."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "Već postoji %(role)s u %(vehicle)s. Prekvalificirani član posade će biti poslan u Vojarnu."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Nije moguće promjeniti kvalifikaciju. Pokušajte ponovo kasnije."
+
+msgid "charge/credits_error"
+msgstr "Potrebno je još %s kredita i %s zlata. Ručno podesite streljivo."
+
+msgid "charge/credits_error_credits"
+msgstr "Potrebno je još %s kredita. Ručno podesite streljivo."
+
+msgid "charge/credits_error_gold"
+msgstr "Potrebno je još %s zlata. Ručno podesite streljivo."
+
+msgid "charge/inventory_error"
+msgstr "Streljivo za %(vehicle)s nije utovareno. Ručno utovarite streljivo."
+
+msgid "charge/money_spent"
+msgstr "Na streljivo je potrošeno ukupno %s."
+
+msgid "charge/server_error"
+msgstr "Greška pri utovaru streljiva. Pokušaj kasnije ponovo."
+
+msgid "charge/server_error_save"
+msgstr "Greška u snimanju bojnog kompleta. Pokušaj kasnije ponovo."
+
+msgid "charge/success"
+msgstr "Streljivo je uspješno utovareno."
+
+msgid "charge/success_save"
+msgstr "Bojni komplet je uspješno sačuvan."
+
+msgid "checkout_error"
+msgstr "Greška u primanju korisničkih detalja. Molim, pokušajte ponovno."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/notifications/accept"
+msgstr "Prihvati"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Pozivnica klana je već poslana %(userName)s."
+
+msgid "clans/notifications/decline"
+msgstr "Odbij"
+
+msgid "clans/notifications/from"
+msgstr "od %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "Pregledaj detalje klana"
+
+msgid "clans/notifications/invite"
+msgstr "Pozivnice u klan"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Pozivnica u klan prihvaćena."
+
+msgid "clans/notifications/invite/declined"
+msgstr "Pozivnica u klan odbijena."
+
+msgid "clans/notifications/invite/expired"
+msgstr "Pozivnica u klan je neispravna."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s je prihvatio poziv klana."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s je odbio pozivnicu klana."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Nije moguće poslati pozivnicu klana igraču %(userName)s."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Pozivnica klana poslana %(userName)s."
+
+msgid "clans/notifications/invites"
+msgstr "Pozivnice klana: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Isključi obavijesti"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Pregledaj pozivnice"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Pozivnice klana nisu poslane %(userCount)d igračima."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Pozivnice su poslane %(userCount)d igračima."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Prihvaćeni ste u klan\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "Vaša prijava u klan\n%(nameStartTag)s%(name)s%(nameEndTag)s je odbijena."
+
+msgid "clans/notifications/request"
+msgstr "Prijave u klan"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Prijava prihvaćena."
+
+msgid "clans/notifications/request/declined"
+msgstr "Prijava odbačena."
+
+msgid "clans/notifications/requestSent"
+msgstr "Prijave predane klanu: \n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Pozivnice od igrača: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Pregledaj prijave"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s je već pozvan u vaš klan."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Akcija nedostupna. Igrač ne zadovoljava zahtjeve novačenja."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "Jednodnevna kazna za napuštanje prethodnog klana još nije istekla."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Akcija nedostupna. Netočan korisnički račun."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Akcija nedostupna. Korisnički račun je blokiran."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Ovaj igrač je već član klana."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Akcija nedostupna. Igrač nije član klana."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Akcija nedostupna. Prijava ne postoji."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "Akcija nedostupna. Prijava je istekla."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Nedovoljne dozvole za predaju prijave u klan."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Novačenje klana je zatvoreno."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "Klan je pun."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Akcija nedostupna. Klan ne postoji."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Akcija nedostupna. Klan je pun."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Akcija nedostupna. Klan je raspušten."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Akcija nedostupna. Klan je neaktivan."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Akcija je nedostupna za korisničke račune ovog tipa."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Akcija nedostupna. Nemate dovoljne ovlasti."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Akcija nedostupna. Pozivnica ne postoji."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Akcija nedostupna. Pozivnica je istekla."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Akcija nedostupna. Utvrđenje je nedostupno."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Akcija nedostupna. Predan je maksimalan broj prijava."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Akcija nedostupna. Poslan je maksimalan broj pozivnica."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s je već član klana."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" ne odgovara ovom vozilu."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" ne odgovara ovoj kupoli. Zamjenite kupolu."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" je pogrešnog tipa."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" je pogrešne nacije."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" ne odgovara ovom vozilu."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" je pogrešnog tipa."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" je pogrešne nacije."
+
+msgid "client_inactive"
+msgstr "Klijent neaktivan"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "Zbirke su privremeno nedostupne zbog planiranog održavanja."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Zbirke nedostupne"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Zbirke su popravljene. Ispričavamo se zbog neugodnosti."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Zbirke su ponovno dostupne"
+
+msgid "connected"
+msgstr "Dobrodošli na World of Tanks server %s!"
+
+msgid "consumables_apply/error"
+msgstr "Greška konfiguriranja potrošnog materijala. Molim, pokušajte ponovo kasnije."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Greška koniguriranja potrošnog materijala. Nedovoljno sredstava za kupnju."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "Operacija nedostupna. Vaše zlato će biti dostupno nakon što se povrati operativnost WG Wallet."
+
+msgid "conversion/error"
+msgstr "Nije moguće umiroviti se: server nedostupan. Pokušajte ponovo kasnije."
+
+msgid "conversion/header"
+msgstr "Datum: %(at)s\nDodano:"
+
+msgid "conversion/success"
+msgstr "Umirovljeni nedovoljno obučeni članovi posade: %(number)s"
+
+msgid "conversion/title"
+msgstr "Potvrda"
+
+msgid "conversionPerks/header"
+msgstr "Datum: %(at)s\nPretvaranje iskustva iz sposobnosti posade je iznad granice. Primljeno:"
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "Privatne poruke nisu dostupne igračima iz vaše države."
+
+msgid "crewBooks/failed"
+msgstr "Nije moguće obučiti ovu posadu.\nPokušajte ponovno kasnije."
+
+msgid "crewBooks/server_error"
+msgstr "Obuka član(ov)a posade nije uspjela zbog greške na serveru. Pokušajte ponovno kasnije."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "Posada obučena.\nPotrošeno:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Nije moguće kupti knjižicu posade zbog greške na serveru. Pokušajte ponovo kasnije."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s predmet(a)).\nPotrošeno kredita: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Nije moguće prodati knjižicu posade zbog greške na serveru. Pokušajte ponovo kasnije."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s predmet(a)).\nPrimljeno kredita: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Promjenjen omotač posade."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Dodani omotači posade:%(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "Trenutno vozilo je zamenjeno s %s."
+
+msgid "customization/added/attachment"
+msgstr "%s 3D privitak dodan"
+
+msgid "customization/added/attachmentValue"
+msgstr "%s 3D privitak dodan: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "Dodana kamuflaža %s"
+
+msgid "customization/added/camouflageValue"
+msgstr "Dodana kamuflaža %s: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "Dodana naljepnica %s"
+
+msgid "customization/added/decalValue"
+msgstr "Dodana naljepnica %s: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "Dodan amblem %s"
+
+msgid "customization/added/emblemValue"
+msgstr "Dodan amblem %s: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "Dodan natpis %s"
+
+msgid "customization/added/inscriptionValue"
+msgstr "Dodan natpis %s: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "Dodan efekt %s"
+
+msgid "customization/added/modificationValue"
+msgstr "Dodan efekt %s: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "Dodana boja %s"
+
+msgid "customization/added/paintValue"
+msgstr "Dodana boja %s: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "Dodan jednoznamenkasti broj %s"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "Dodan jednoznamenkasti broj %s: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "Dodan dvoznamenkasti broj %s"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "Dodan dvoznamenkasti broj %s: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "Dodan troznamenkasti broj %s"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "Dodan troznamenkasti broj %s: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "Dodana naljepnica %s"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "Dodana naljepnica %s: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "Pratitelj statistike: %s dodan"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Pratitelj statistike: %s dodan: (x%s)"
+
+msgid "customization/added/style"
+msgstr "Dodan stil %s"
+
+msgid "customization/added/styleValue"
+msgstr "Dodan stil %s: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Prilagodba nije moguća. Nedovoljno kredita i zlata."
+
+msgid "customization/credits_not_enough"
+msgstr "Prilagodba nije moguća. Nedovoljno kredita."
+
+msgid "customization/currency_not_enough"
+msgstr "Nedovoljno valute za kupnju predmeta."
+
+msgid "customization/gold_not_enough"
+msgstr "Prilagodba nije moguća. Nedovoljno zlata."
+
+msgid "customization/igr_type_changed_error"
+msgstr "IGR status se promjenio. Trenutna operacija je otkazana."
+
+msgid "customization/invalidVehicle"
+msgstr "Nije moguće promjeniti: neprihvatljivo vozilo"
+
+msgid "customization/personal_number_prohibited"
+msgstr "Broj%(value)s je nedostupan.\n %(itemType)s %(itemName)s je uklonjen za %(seasonName)s mapu."
+
+msgid "customization/progression/down/style"
+msgstr "Stil %s spušten na razinu %s"
+
+msgid "customization/progression/up/style"
+msgstr "Stil %s nadograđen na razinu %s"
+
+msgid "customization/prohibited"
+msgstr "Nije moguće primjeniti: %(itemName)s nije u inventaru."
+
+msgid "customization/removed/attachment"
+msgstr "%s 3D privitak uklonjen"
+
+msgid "customization/removed/attachmentValue"
+msgstr "%s 3D privitak uklonjen: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "Uklonjena kamuflaža %s"
+
+msgid "customization/removed/camouflageValue"
+msgstr "Uklonjena kamuflaža %s: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "Uklonjena naljepnica %s"
+
+msgid "customization/removed/decalValue"
+msgstr "Uklonjena naljepnica %s: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "Uklonjen amblem %s"
+
+msgid "customization/removed/emblemValue"
+msgstr "Uklonjen amblem %s: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "Uklonjen natpis %s"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "Uklonjen natpis %s: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "Uklonjen efekt %s"
+
+msgid "customization/removed/modificationValue"
+msgstr "Uklonjen efekt %s: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "Uklonjena boja %s"
+
+msgid "customization/removed/paintValue"
+msgstr "Uklonjena boja %s: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "Uklonjen jednoznamenkasti broj %s"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "Uklonjen jednoznamenkasti broj %s: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "Uklonjen dvoznamenkasti broj %s"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "Uklonjen dvoznamenkasti broj %s: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "Uklonjen troznamenkasti broj %s"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "Uklonjen troznamenkasti broj %s: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "Uklonjena naljepnica %s"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "Uklonjena naljepnica %s: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Pratitelj statistike: %s uklonjen"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Pratitelj statistike: %s uklonjen : (x%s)"
+
+msgid "customization/removed/style"
+msgstr "Uklonjen stil %s"
+
+msgid "customization/removed/styleValue"
+msgstr "Uklonjen stil %s: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Nije moguće prilagoditi."
+
+msgid "customization/unavailable"
+msgstr "Funkcionalnost prilagodbe vozila je privremeno isključena zbog tehničkih razloga."
+
+msgid "customization/vehicle_damaged"
+msgstr "Prilagodba nije moguća. Vozilo je oštećeno. Potrebni su popravci."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Prilagodba nije moguća. Vozilo je izbačeno iz stroja. Potrebni su popravci."
+
+msgid "customization/vehicle_exploded"
+msgstr "Prilagodba nije moguća. Vozilo je uništeno. Potrebni su popravci."
+
+msgid "customization/vehicle_locked"
+msgstr "Prilagodba nije moguća. Vozilo je zaključano."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Nije moguće ponoviti standardni zadatak: zadatak je već izvršen."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Nije moguće ponoviti standardni zadatak: operacija blokirana."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Nije moguće ponoviti standardni zadatak: operacija zaustavljena."
+
+msgid "daily_quests/reroll/success"
+msgstr "Standardni zadatak uspješno ponovljen."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Nije moguće ponoviti standardni zadatak. Pokušajte ponovo kasnije."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Ova funkcionalnost je privremeno nedostupno iz tehničkih razloga.\n Ispričavamo se zbog neugodnosti."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Standardni zadaci su privremeno nedostupni"
+
+msgid "daily_quests/switch_on/body"
+msgstr "Tehnički problemi su riješeni. Ispričavamo se zbog neugodnosti."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Standardni zadaci su ponovo dostupni"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Ova funkcionalnost je privremeno nedostupno iz tehničkih razloga.\nIspričavamo se zbog neugodnosti."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "Izvedivi bonus na iskustvo je privremeno nedostupan"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "Tehnički problemi su riješeni. Ispričavamo se zbog neugodnosti."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "Izvedivi bonus na iskustvo je ponovo dostupan"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Operacije s opremom za demontiranje su privremeno nedostupne zbog održavanja."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Operacije s opremom za demontiranje su ponovno dostupne. Ispričavamo se zbog neugodnosti."
+
+msgid "denunciation/success"
+msgstr "Pritužba protiv %(name)s u vezi \"%(topic)s\" je prihvaćena."
+
+msgid "disconnected"
+msgstr "Klijent je odspojen sa servera."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Nije moguće raspustiti člana posade: tenk ima jedinstivenu stalnu posadu."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Greška pri otpuštanju člana posade. Pogrešno vozilo."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Nije moguće umiroviti ovog člana posade.\nPokušajte ponovno kasnije."
+
+msgid "dismiss_tankman/success"
+msgstr "Član posade umirovljen."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Otpuštanje člana posade nije uspjelo. Vozilo je zaključan."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Otpuštanje člana posade nije uspjelo. Popravi vozilo."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Ova funkcionalnost je privremeno nedostupno iz tehničkih razloga.\n Ispričavamo se zbog neugodnosti."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Pločice su privremeno nedostupne"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Tehnički problemi su riješeni. Ispričavamo se zbog neugodnosti."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Pločice su ponovo dostupne"
+
+msgid "dossiers_unavailable"
+msgstr "Korisnički račun nije spreman (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Sve sposobnosti su poništene.\nPotrošeno kredita: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Sve sposobnosti su poništene.\nPotrošeno zlata: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Greška pri poništenju sposobnosti. Pogrešno vozilo."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Poništenje sposobnosti nije moguće. Pokušaj ponovo kasnije."
+
+msgid "drop_tankman_skill/success"
+msgstr "Sve sposobnosti su poništene."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Greška pri poništenju sposobnosti. Vozilo je zaključano."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Greška pri poništenju sposobnosti. Popravite vozilo."
+
+msgid "drr_scale/step_down"
+msgstr "Dinamička rezolucija je smanjena do %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Dinamička rezolucija je povećana do %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "Na dostignuća"
+
+msgid "earning/button/single"
+msgstr "Na dostignuća"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s dostignuća otključano!"
+
+msgid "earning/common/single"
+msgstr "%(value)s dostignuće otključano!"
+
+msgid "earning/title"
+msgstr "Čestitamo!"
+
+msgid "earning/trophy/multiple"
+msgstr "%(value)s trofeja osvojeno!"
+
+msgid "earning/trophy/single"
+msgstr "%(value)s trofej osvojen!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "Brzi servis je ponovno dostupan. Ispričavamo se zbog neugodnosti."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "Brzi servis je privremeno nedostupan zbog održavanja."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Greška u primjeni konfiguracija Brzog servisa. Molim, pokušajte ponovno kasnije."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Greška u primjeni konfiguracija Brzog servisa. Nedovoljno sredstava za obavljanje kupnje."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Operacija Brzi servis je nedostupna. Vaše zlato će biti dostupno nakon što se povrati operativnost WG Wallet."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Primljena nagrada:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Dosegli ste razinu <font color='#E9E2BF'>%(tier)s</font> napretka Bojišnice."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Čestitamo!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "Bojišnica je nedostupna. Slijedite obavijesti na portalu igre."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Greška pri odabiru nagrada. Molim, pokušajte ponovo."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "%(name)s primljen"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Primljene smjernice za opremu: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Primljena eksperimentalna oprema: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "Sezona Bojišnice je završila.<br/>Sve nagrade koje niste odabrali tijekom sezone su vam dodjeljene zadano:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Bojišnica"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Nije moguće prebaciti člana posade: tenk ima jedinstivenu stalnu posadu."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Greška prilikom premještanja člana posade u vozilo. Pogrešno vozilo."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Nije moguće poslati posadu u Vojarnu. Nedovoljno ležajeva u Vojarni."
+
+msgid "equip_tankman/server_error"
+msgstr "Premještaj člana posade u vozilo nije uspio. Pokušajte ponovo kasnije."
+
+msgid "equip_tankman/success"
+msgstr "Član posade je premješten u %(vehName)s."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Greška prilikom premještanja člana posade u vozilo. Vozilo je zaključano."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Greška prilikom premještanja člana posade u vozilo. Molim, popravite vozilo."
+
+msgid "exchange/not_enough_gold"
+msgstr "Nedovoljno zlata za razmjenu."
+
+msgid "exchange/server_error"
+msgstr "Greška u pretvorenju %(gold)s zlata. Pokušaj kasnije ponovo."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Nedovoljno zlata za %(xp)s pretvorbu iskustva."
+
+msgid "exchangeXP/server_error"
+msgstr "Greška u pretvaranju %(xp)s iskustva. Pokušaj kasnije ponovo."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Nije moguće obučiti nove sposobnosti.\nServer nedostupan. Pokušajte ponovo kasnije."
+
+msgid "filling_untrained_perks/success"
+msgstr "Nove sposobnosti obučene za sve članove posade."
+
+msgid "fortification/addOrder"
+msgstr "Priprema %(count)s pričuve počela. Preostalo: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "Izgradnja strukture %(buildingName)s je počela. Prevezite potrebnu količinu Industrijskih Resursa kako bi se osigurala nesmetana gradnja."
+
+msgid "fortification/created"
+msgstr "Čestitke!\nUtvrđenje je uspješno izgrađeno."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Obrana vašeg utvrđenja će biti isključena za 48 sati. Tijekom tog perioda možete ponovo uključiti obranu u postavkama utvrđenja."
+
+msgid "fortification/defenceHourSet"
+msgstr "Period obrane će biti podešen za 14 dana. Novi period obrane: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "Dan primirja će biti podešen za 14 dana. Novi dan primirja nije postavljen."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "Dan primirja će biti podešen za 14 dana. Novi dan primirja - %(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "Struktura %(buildingName)s je srušena."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Akcija nedostupna. Već ste priključeni na ovu strukturu."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Akcija nedostupna. Utvrđenje je već izgrađeno."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "Akcija nedostupna. Klan je već na spisku odabranih."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "Akcija nedostupna. Ne možete planirati više od jednog napada na isti klan."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "Akcija nedostupna. Podaci o napadu nisu učitani."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "Akcija nedostupna. Mora proći jedan tjedan prije zadnjeg napada na tak klan."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "Akcija nedostupna. Drugi odred kontrolira mostobran."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "Akcija nedostupna. Napad nije planiran."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "Akcija nedostupna. Možete planirati napad samo koji počinje za najmanje 15 minuta."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Nije moguće zakazati napad na odabrani dan."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "Akcija nedostupna. Neispravan ID klana."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "Akcija nedostupna. Neispravan dan primirja."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "Akcija nedostupna. Neispravan datum."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "Akcija nedostupna. Neispravan ID Napretka."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "Akcija nedostupna. Neispravna vrijednost perioda obrane."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Nije moguće napasti odabrani klan: razlika u razinama Utvrđenja je veća od jedan. Odaberite drugi klan."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "Akcija nedostupna. Neispravan broj pričuva."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "Akcija nedostupna. Prebačena neispravna količina Industrijskih Resursa."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "Akcija nedostupna. Neispravna divizija."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Akcija nedostupna. Detalji o Okršaju nisu primljeni."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "U ovom trenu bitke na ovom serveru su ograničene."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Akcija nedostupna. Neispravan period neutralnosti."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Akcija nedostupna. Neispravan dan neutralnosti."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "Akcija nedostupna. Popravite zapovjedni centar."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "Akcija nedostupna. Zapovjedni centar je uništen."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "Akcija nedostupna. Zapovjedni centar nije oštećen."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "Akcija nedostupna. Bitka ne postoji."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Žao nam je, rezultati bitke nisu dostupni."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Nije moguće ukloniti. Utvrđenje sadrži strukture."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "Akcija nedostupna. Struktura je oštećena."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Akcija nedostupna. Struktura nije izgrađena."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "Akcija nedostupna. Nije moguće dohvatiti detalje klana."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "Akcija nedostupna. Nije moguće naći klan."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Akcija nedostupna. Transport nedostupan."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Akcija nedostupna. Nije moguće poboljšati strukturu."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Operacija odbijena. Server je privremeno nedostupan."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "Akcija nedostupna. Klan je aktivirao dan primirja."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "Akcija nedostupna. Klan je aktivirao neutralnost."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "Akcija nedostupna. Nije moguće postaviti period obrane u imenovano vrijeme."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "Akcija nedostupna. Drugi odred kontrolira mostobran."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "Akcija nedostupna. Obrana nije planirana."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Akcija nedostupna. Neispravni podaci."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "Akcija nedostupna. Obrana nije uključena."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Utvrđenje je privremeno nedostupno."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Akcija nedostupna. Struktura je već izgrađena."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Akcija nedostupna. Pričekajte do završetka trenutne operacije."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "Akcija nedostupna. U to vrijeme napadate drugi klan."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Nije moguće zakazati napad na ovaj klan u traženo vrijeme."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Greška. Utvrđenje je privremeno nedostupno."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Akcija nedostupna. Razina Utvrđenja je preniska."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "Akcija nedostupna. Izgradnja svih struktura je pauzirana."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Akcija nedostupna. Nemate dovoljne ovlasti."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "Akcija nedostupna. Nije moguće priključiti se taktičkoj jedinici."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Akcija je privremeno nedostupna."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "Akcija nedostupna. Vrijeme nije sinhronizirano."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Akcija nedostupna. Niste priključeni na strukturu."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Akcija nedostupna. Igrač nije član klana."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Akcija nedostupna. Nedovoljno igrača u klanu."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Akcija nedostupna. Nedovoljno Industrijskih Resursa u skladištu strukture."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "Akcija nedostupna. Klan nije na spisku odabranih."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Akcija nedostupna. Struktura nije izgrađena."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Akcija nedostupna. Niste član niti jednog klana."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "Akcija nedostupna. Pričuva se ne može aktivirati u ovom trenutku."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Akcija nedostupna. Pogrešna struktura."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Akcija nedostupna. Pričuva nedostupna ili nije odabrana."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Akcija nedostupna. Pogrešna pričuva."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Akcija nedostupna. Pogrešna pričuva."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "Akcija nedostupna. Struktura se već gradi."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "Akcija nedostupna. Napad ne postoji."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Akcija nedostupna. Pričuva je već u upotrebi."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Akcija nedostupna. Pričuva se već priprema."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "Akcija nedostupna. Zgrada je već pauzirana."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "Akcija nedostupna. Pričuva je nedostupna."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "Akcija nedostupna. Zgrada nije pauzirana."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "Akcija nedostupna. Server je nedostupan."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "Akcija nedostupna. Mjesto je već zauzeto."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "Akcija nedostupna. Obrana je već isključena."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "Akcija nedostupna. Obrana još nije isključena."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Akcija nedostupna. Obuka nije završena."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Akcija nedostupna. Skladište je puno."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "Akcija nedostupna. Obrana je već planirana za ovaj dan."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "Dosegnut je limit sačuvanih klanova."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "Akcija nedostupna. Dosegnuta je maksimalna razina pripremljenih pričuva."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Akcija nedostupna. Garnizon strukture je pun."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Akcija nedostupna. Dosegnut limit Okršaja."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Akcija nedostupna. Transport privremeno nedostupan."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Akcija nedostupna. Dosegnut limit transporta."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "Akcija nedostupna. Igrač nije spreman."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Akcija nedostupna. Nije moguće srušiti Zapovjedni centar."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Akcija nedostupna. Nepravilan klan."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "Akcija nedostupna. Neispravan server."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Akcija nedostupna. Nije moguće izgraditi strukturu u ovom području."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Priključeni ste strukturi %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "Napredak je nasilno prekinut zbog tehničkih problema na serveru."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Poboljšanje uspješno izvršeno. Razina strukture %(buildingName)s povećana na %(buildingLevel)s."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Utvrđenje je privremeno nedostupno. Pokušajte ponovo kasnije."
+
+msgid "fortification/notification/turnedOn"
+msgstr "Režim Utvrđenje je ponovo dostupan."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Aktiviraj pričuve"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Izgradi strukturu"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Izabrani klan"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Aktiviraj pričuve"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Dodaj igrača u garnizon"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Omogući period obrane"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Podesi period obrane"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Podesi primirje"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Promjeni server"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Promjeni postavke"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Podesi neutralnost"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Stvori Utvrđenje"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Stvori odred"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Ukloni strukturu"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Ukloni Utvrđenje"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Planiraj napad"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Ukloni izabrani klan"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Pregledaj detalje klana"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Pregledaj detalje klanova"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Zatraži detalje odreda"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Isključi period obrane"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Transport"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Poboljšanje strukture"
+
+msgid "fortification/transport"
+msgstr "Transport uspješno izvršen. %(res)s Industrijskih Resursa prevezeno iz strukture %(fromBuilding)s u strukturu %(toBuilding)s."
+
+msgid "fortification/vacationSet"
+msgstr "Utvrđenje zadržava neutralnost %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Operacija je nedostupna."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Greška u obuci člana posade. Nedovoljno slobodnog iskustva."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Greška u obuci člana posade. Ovaj član posade ne postoji."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Greška u obuci člana posade. Pokušajte ponovo kasnije."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Greška u obuci člana posade. Pokušajte ponovo kasnije."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Nije moguće obučiti člana posade slobodnim iskustvom.\nPokušajte ponovno kasnije."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Član posade obučen.\nPotrošeno slobodnog iskustva: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "Radi sprječavanja ovisnosti kod djece I tinejdžera, ulazak u bitku će biti zabranjen. Biti ćete odspojeni sa servera u %(blockTime)s."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Ostalo vremena igranja: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "Vremensko ograničenje je isteklo i zato ne možete ući u novu bitku. Biti ćete odspojeni sa servera u %s."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Trajanje igre: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Do ponoći je preostalo: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "Vaše vrijeme igranja je isteklo. Ne možete ući u novu bitku. Biti ćete isključeni sa servera u %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "Ograničenje vremena igranja je uklonjeno s vašeg računa"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "Postavke roditeljskog nadzora su promjenjene."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Biti ćete odjavljeni sa servera u %(timeLimit)s."
+
+msgid "graficsOptionsFail"
+msgstr "Grafička kartica nije kompatibilna. Neuspjela primjena grafičkih postavki: %s."
+
+msgid "graficsPresetFail"
+msgstr "Grafička kartica nije kompatibilna. Neuspjela primjena odabrane grafičke kvalitete."
+
+msgid "igr/customization/begin"
+msgstr "Besplatna kamuflaža, natpis i znakovi su na raspolaganju u %(igrIcon)s."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s je istekao. Besplatna kamuflaža, natpisi i znakovi će biti uklonjeni s vašeg vozila."
+
+msgid "info/noAvailable"
+msgstr "Detaljne informacije nisu dostupne."
+
+msgid "install_component"
+msgstr "%s \"%s\" montirano na vozilo."
+
+msgid "install_vehicle_broken"
+msgstr "Nije moguće montirati modul %s \"%s\": vozilo je oštećeno. Popravite svoje vozilo i pokušajte ponovo."
+
+msgid "install_vehicle_locked"
+msgstr "Vozilo je zaključano; nije moguće montirati modul %s \"%s\"."
+
+msgid "inventory/item/already_exists"
+msgstr "Modul %(typeString)s \"%(userString)s\" je već na raspolaganju u Skladištu."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Poslan zahtjeva za montiranjem opreme. Čekamo na odaziv servera."
+
+msgid "inventory/item/not_found"
+msgstr "Modul %(typeString)s \"%(userString)s\" nije pronađen u Skladištu."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "Vozilo %(userString)s je već na raspolaganju u Skladištu."
+
+msgid "inventory/vehicle/not_found"
+msgstr "Vozilo %(userString)s nije pronađeno u Skladištu."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "Poziv legionaru %(name)s ne može biti poslan."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "Poziv igraču %(name)s ne može biti poslan: pogrešan klan."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Greška usluge \"%(vehName)s\". Nije moguće obnoviti potrošni materijal. Pokušajte ponovo kasnije."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Greška usluge \"%(vehName)s\". Nije moguće obnoviti potrošni materijal. Pokušajte ponovo kasnije."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Greška usluge \"%(vehName)s\". Nije moguće obnoviti potrošni materijal. Pokušajte ponovo kasnije."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Greška usluge \"%(vehName)s\". Nije moguće obnoviti granate. Pokušajte ponovo kasnije."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Greška usluge \"%(vehName)s\". Nije moguće obnoviti granate. Maksimalni broj granata je ukrcan."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Greška usluge \"%(vehName)s\". Nije moguće obnoviti potrošni materijal. Pokušajte ponovo kasnije."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Greška usluge \"%(vehName)s\". Nedovoljno kredita za kupnju potrošnog materijala. Pokušajte ponovo kasnije."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Greška usluge \"%(vehName)s\". Nedovoljno obveznica za kupnju potrošnog materijala."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Greška usluge \"%(vehName)s\". Nedovoljno zlata za kupnju potrošnog materijala. Pokušajte ponovo kasnije."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Greška usluge \"%(vehName)s\". Nije moguće obnoviti potrošni materijal. Pokušajte ponovo kasnije."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Greška usluge \"%(vehName)s\". Pogrešno vozilo."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Greška usluga \"%(vehName)s\". Nedovoljno kredita za kupnju granata."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Greška usluga \"%(vehName)s\". Nedovoljno zlata za kupnju granata."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Greška usluge \"%(vehName)s\". Vozilo je zaključano."
+
+msgid "layout_apply/error"
+msgstr "Greška usluge \"%(vehName)s\". Pokušajte ponovo kasnije."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Greška usluge \"%(vehName)s\". Pogrešno vozilo."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Na municiju potrošeno ukupno %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Greška usluge \"%(vehName)s\". Vozilo je zaključano."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "limitedUI/switchOff"
+msgstr "Postepeno pojavljivanje skrivenih elemenata sučelja je privremeno isključeno."
+
+msgid "limitedUI/switchOn"
+msgstr "Postepeno pojavljivanje skrivenih elemenata sučelja je ponovno uključeno. Možete ga isključiti u postavkama."
+
+msgid "locked_vehicle_error"
+msgstr "Ova akcija nije moguća za predkonfigurirana vozila."
+
+msgid "login_to_other_game_unknown"
+msgstr "trenutna sesija igre je prekinuta. Vaš Wargaming.net&nbsp;ID je korišten za prijavu u drugu igru"
+
+msgid "login_to_other_game_web"
+msgstr "trenutna sesija igre je prekinuta. Odspojeni ste sa servera putem portala igre."
+
+msgid "login_to_other_game_wot"
+msgstr "trenutna sesija igre je prekinuta. Vaš Wargaming.net&nbsp;ID je korišten za prijavu u World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "trenutna sesija igre je prekinuta. Vaš Wargaming.net&nbsp;ID je korišten za prijavu u World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "trenutna sesija igre je prekinuta. Vaš Wargaming.net&nbsp;ID je korišten za prijavu u World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "trenutna sesija igre je prekinuta. Vaš Wargaming.net&nbsp;ID je korišten za prijavu u World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "trenutna sesija igre je prekinuta. Vaš Wargaming.net&nbsp;ID je korišten za prijavu u World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "Greška u primitku poklona: greška servera."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Greška u primanju poklona. Molim, pričekajte dok se ne izvrši prethodna operacija."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "Akcija je privremeno nedostupna. Pokušajte ponovo kasnije."
+
+msgid "mapbox/notification/primeTime"
+msgstr "Misija izviđanja je nedostupna do kraja primirja."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Primirje"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Greška servera"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "Akcija nedostupna. Pričekajte do završetka trenutne operacije."
+
+msgid "maps_black_list/select/success"
+msgstr "Mapa %(mapName)s je isključena iz slučajnih bitaka. Možete promjeniti svoj odabir za %(time)s."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "Mapa %(mapName)s je isključena iz slučajnih bitaka. Možete promjeniti vaš odabir u %(time)s ili možete otključati dodatno mjesto aktiviranjem WoT premium računa ili pretplatom na WoT Plus."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "Mapa %(mapName)s je isključena iz slučajnih bitaka. Možete promjeniti vaš odabir u %(time)s ili možete otključati dodatno mjesto pretplatom na WoT Plus."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "Mapa %(mapName)s je isključena iz slučajnih bitaka. Možete promjeniti vaš odabir u %(time)s ili možete otključati dodatno mjesto aktiviranjem WoT premium računa."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Ova funkcionalnost je privremeno nedostupno iz tehničkih razloga.\nIspričavamo se zbog neugodnosti."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "Isključenje mape je privremeno nedostupno"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "Tehnički problemi su riješeni. Ispričavamo se zbog neugodnosti."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "Isključenje mape je ponovo dostupno"
+
+msgid "maps_training/switch/title"
+msgstr "Topografija"
+
+msgid "maps_training/switch_off/body"
+msgstr "Ovaj režim je isključen."
+
+msgid "maps_training/switch_on/body"
+msgstr "Ovaj režim je uključen."
+
+msgid "memberRosterChangedMain"
+msgstr "%s se prebacio %s u redovni tim."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s prebačen %s u rezervni tim."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Nedovoljno memorije. Pokrenite igru ponovo."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Nedovoljno memorija. Niska kvaliteta tekstura."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Nedovoljno memorija. Srednja kvaliteta tekstura."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Nedovoljno memorije. Grafičke postavke su izmjenjene. Pokrenite igru ponovo."
+
+msgid "missingEvents/button"
+msgstr "Otvori"
+
+msgid "missingEvents/header"
+msgstr "Događaji"
+
+msgid "missingEvents/text"
+msgstr "Važni događaji koje ste propustili: "
+
+msgid "module_apply/error_is_current"
+msgstr "Modul %(kind)s \"%(name)s\" je već montiran."
+
+msgid "module_apply/error_need_gun"
+msgstr "Nije moguće montirati %(kind)s \"%(name)s\" na vozilo s trenutnim topom."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" nije kompatibilan s trenutnom kupolom. Zamjenite kupolu."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\"nije montiran. Nema kompatibilnog topa u Skladištu."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" nije kompatibilan s trenutnom kupolom. Zamjenite kupolu."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" ne pristaje ovom vozilu."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "Modul %(kind)s \"%(name)s\" nije kompatibilan s potrošnim materijalom \"%s\"."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" je pogrešnog tipa."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" je pogrešne nacije."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "Potrošni materijal \"%(items)s\" je poslan u Skladište zbog nekompatibilnosti s trenutnim modulom."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Pogrešno vozilo. Nije moguće montirati modul %(kind)s \"%(name)s\"."
+
+msgid "module_apply/server_error"
+msgstr "Greška na serveru prilikom montiranja modula %(kind)s \"%(name)s\". Pokušajte ponovo kasnije."
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" montiran na vozilo."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\"' montiran na vozilo s topom '%(gun)s'."
+
+msgid "module_apply/vehicle_locked"
+msgstr "Vozilo je zaključano, nije moguće montirati modul%(kind)s \"%(name)s\"."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "Nije moguće montirati modul %(kind)s \"%(name)s\": vozilo je oštećeno. Popravite svoje vozilo i pokušajte ponovo."
+
+msgid "module_buy/error_is_current"
+msgstr "Modul %(kind)s \"%(name)s\" je već montiran."
+
+msgid "module_buy/error_need_gun"
+msgstr "Nije moguće montirati %(kind)s \"%(name)s\" na vozilo s trenutnim topom."
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" nije kompatibilan s trenutnom kupolom. Zamjenite kupolu."
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\"nije montiran. Nema kompatibilnog topa u Skladištu."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" ne odgovara ovoj kupoli. Zamjenite kupolu."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" ne pristaje ovom vozilu."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "Modul %(kind)s \"%(name)s\" nije kompatibilan s potrošnim materijalom \"%s\"."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" je pogrešnog tipa."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" je pogrešne nacije."
+
+msgid "module_buy/invalid_module"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Pogrešan modul."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Pogrešno vozilo. Nije moguće kupiti i montirati %(kind)s \"%(name)s\"."
+
+msgid "module_buy/not_enough_credits"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Nedovoljno kredita."
+
+msgid "module_buy/not_enough_gold"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Nedovoljno zlata."
+
+msgid "module_buy/server_error"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Pokušajte ponovo kasnije."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "Nije moguće kupiti %(kind)s \"%(name)s\". Server je privremeno nedostupan."
+
+msgid "module_buy/success"
+msgstr "Modul %(kind)s \"%(name)s\" je uspješno kupljen (%(count)s komada). Utrošeno %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Vozilo zaključano. Nije moguće kupiti i montirati %(kind)s \"%(name)s\"."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "Nije moguće kupiti i montirati %(kind)s \"%(name)s\". Popravite vozilo i pokušajte ponovo."
+
+msgid "module_buy/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "module_sell/invalid_module"
+msgstr "Nije moguće prodati %(kind)s \"%(name)s\". Pogrešan modul."
+
+msgid "module_sell/server_error"
+msgstr "Nije moguće prodati %(kind)s \"%(name)s\". Pokušajte ponovo kasnije."
+
+msgid "module_sell/success"
+msgstr "Modul %(kind)s \"%(name)s\" (%(count)s komada). Primljeno %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "Stečeno %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Greška pri promjeni konfiguracije"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Greška pri promjeni konfiguracije"
+
+msgid "nation_change/error"
+msgstr "Greška pri promjeni konfiguracije"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: nacionalna konfiguracija promjenjena"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Dnevni zadaci su ažurirani iz tehničkih razloga. Napredovanje zadatka je sačuvano."
+
+msgid "notrecruit_window/success"
+msgstr "Član posade unovačen.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "Akcija je privremeno nedostupna. Pokušajte ponovo kasnije."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Greška u primanju poklona: greška servera"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Greška u primanju poklona: neke od nagrda su odgođene-pokušajte ih potraživati kasnije."
+
+msgid "offers/switch_off/body"
+msgstr "Potrepštine domaće bojišnice su trenutno nedostupne."
+
+msgid "offers/unavailable_many"
+msgstr "Nedostupne akcije: %(count)s predmeta."
+
+msgid "offers/unavailable_one"
+msgstr "Akcija nedostupna."
+
+msgid "optionalDevices_apply/error"
+msgstr "Greška konfiguriranja opreme. Molim, pokušajte ponovo kasnije."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Greška koniguriranja opreme. Nedovoljno sredstava za kupnju."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "Operacija nedostupna. Vaše zlato će biti dostupno nakon što se povrati operativnost WG Wallet."
+
+msgid "optionalDevices_remove/error"
+msgstr "Greška konfiguriranja opreme. Molim, pokušajte ponovo kasnije."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "Privatne poruke s igračima koji nisu na vašoj listi kontakata nisu dostupne za vaš račun."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "Privatne poruke nisu dostupne za vaš račun."
+
+msgid "parentControl/linkText"
+msgstr "Naznači datum"
+
+msgid "parentControl/mainText"
+msgstr "Molim, naznačite vaš datum rođenja."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "Privatne poruke s igračima koji nisu na vašoj listi kontakata su zabranjene od strane roditeljskog nadzora."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "Privatne poruke su zabranjene od strane roditeljskog nadzora."
+
+msgid "parentControl/title"
+msgstr "Potvrda dobi"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Prelazak nije moguć. Nije moguće definirati server."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Primljena nagrada:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Idi na operaciju"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Zadatak izvršen"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Zamjenite vozila za nastavak izvršenja zadatka."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Operacija: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Izvršeno: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "Kampanja %(campaignName)s završena s počastima!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "Operacija %(operationName)s završena!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "Operacija %(operationName)s završena s počastima!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "Kampanje su privremeno nedostupne zbog održavanja."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "Kampanje su ponovno dostupne. Ispričavamo se zbog neugodnosti."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "Kampanja %(campaignName)s je privremeno nedostupna zbog održavanja."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "Kampanja %(campaignName)s je ponovno dostupna. Ispričavamo se zbog neugodnosti."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "Zadatak %(missionName)s u operaciji %(operationName)s je privremeno nedostupan zbog održavanja."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "Zadatak %(missionName)s u operaciji %(operationName)s je ponovno dostupan. Ispričavamo se zbog neugodnosti."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "Operacija %(operationName)s u kampanji %(campaignName)s je privremeno nedostupna zbog održavanja."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "Operacija %(operationName)s u kampanji %(campaignName)s je ponovno dostupna. Ispričavamo se zbog neugodnosti."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Greška prilikom zamjene kampanje. Molim, pokušajte ponovno kasnije."
+
+msgid "personalMissions/badge"
+msgstr "Primljena značka %(name)s."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Primljena je jedinstvena kamuflaža za %(vehicleName)s."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "Jedinstvena kamuflaža za %(vehicleName)s je dostupna za sva vozila nacije: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Sav napredak operacije je sačuvan. Možete nastaviti kampanje u bilo koje doba."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "Kampanje %(campaignName1)s i %(campaignName2)s su pauzirane"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "Pauzirane operacije i njihovi zadaci su nastavljeni."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "Kampanje %(campaignName1)s i %(campaignName2)s su nastavljene"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Sav napredak operacije je sačuvan. Možete nastaviti kampanju u bilo koje doba."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "Kampanja %(campaignName)s je pauzirana"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "Pauzirane operacije su nastavljene."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "Kampanja %(campaignName)s je nastavljena"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "%(detailName)s je uspješno montiran."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Operacija: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Nije moguće poništiti zadatak. Pokušajte ponovo kasnije."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Akcija nedostupna. Zadaci privremeno isključeni."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Trenutno nije moguće poništiti zadatak. Pokušajte ponovo kasnije."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Trenutno nije moguće poništiti zadatak. Molim, pričekajte dok se vozilo ovog tipa ne vrati iz bitke."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Trenutno nije moguće poništiti zadatak. Molim, pričekajte dok se grupa vozila ne vrati iz bitke."
+
+msgid "personalMissions/discard/success"
+msgstr "Zadatak %(quest)s je uspješno poništen."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Zapovijedi primljene: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Zapovijedi vraćene: %(count)s\nMogu se koristiti ponovo."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "Prvi zadatak u svakoj seriji je aktiviran."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "Operacija %(operationName)s je aktivirana!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Nagrada primljena: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "Operacija %(name)s je završena!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Sav napredak zadatka je sačuvan. Možete nastaviti operaciju u bilo koje doba."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "Operacija %(operationName)s je pauzirana"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "Pauzirani zadaci su nastavljeni."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "Operacija %(operationName)s je nastavljena"
+
+msgid "personalMissions/pause/server_error"
+msgstr "Zadatak nije pauziran. Pokušajte ponovo kasnije."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Akcija nedostupna. Zadaci privremeno isključeni."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Trenutno nije moguće pauzirati zadatak. Pokušajte ponovo kasnije."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Trenutno nije moguće pauzirati zadatak. Molim, pričekajte dok se vozilo ovog tipa ne vrati iz bitke."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "Zadatak %(quest)s je uspješno pauziran."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "Izvršenje zadatka %(quest)s je uspješno nastavljeno."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Greška. U ovom trenutku nije moguće predati zapovijed."
+
+msgid "personalMissions/pawn/success"
+msgstr "Zapovijedi predane zadatku %(questName)s: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Greška prilikom primanja nagrada. Molim, pokušajte ponovno kasnije."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s je uspješno montiran."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Nije moguće preuzeti nagradu. Molim, pokušajte ponovo kasnije."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "Akcija nedostupna. Zadaci privremeno isključeni."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Nije moguće preuzeti nagradu. Nagrada nedostupna."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Nije moguće preuzeti nagradu. Nagrada nedostupna."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Nije moguće preuzeti nagradu. Netočni podaci."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Nije moguće preuzeti nagradu. Molim, pokušajte ponovo kasnije."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "Akcija nedostupna. Zadaci privremeno isključeni."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Nije moguće preuzeti nagradu. Nagrada nedostupna."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Nije moguće preuzeti nagradu. Nagrada nedostupna."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Nije moguće preuzeti nagradu. Netočni podaci."
+
+msgid "personalMissions/select/server_error"
+msgstr "Zadatak nije odabran: %(questNames)s. Molim, pokušajte ponovo kasnije."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Akcija nedostupna. Zadaci privremeno isključeni."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Zadatak nije odabran: %(questNames)s. Molim, pokušajte ponovo kasnije."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Pozor! Za promjenu zadatka pričekate dok se sva vozila aktivnog zadatka ne vrate u Garažu."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Zadatak nije odabran: %(questNames)s. Završite prethodnu operaciju."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Zadatak nije odabran: %(questNames)s. Nedovoljno mjesta."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Zadatak nije odabran: %(questNames)s. Molim, preuzmite nagradu."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Zadatak nije odabran: %(questNames)s. Zadatak nedostupan."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Zadatak nije odabran: %(questNames)s. Zadatak je već izvršen."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Zadatak nije odabran: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Zadatak nije odabran: %(questNames)s. Zadatak u ovom skupu je već odabran."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Zadatak nije odabran: %(questNames)s. Netočni podaci."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Zadatak nije odabran: %(questNames)s. Netočni podaci."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Trenutno nije moguće odabrati zadatke. Molim, pričekajte dok se grupa vozila ne vrati iz bitke."
+
+msgid "personalMissions/select/success"
+msgstr "Zadaci uspješno odabrani. Trenutno odabrani zadaci: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Dodan: ženski član posade"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Greška prilikom aktiviranja operacije. Molim, pokušajte ponovno kasnije."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "Pričuva kredita je puna, ali će se otvoriti za %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "Ova funkcionalnost je privremeno nedostupno iz tehničkih razloga.\nIspričavamo se zbog neugodnosti."
+
+msgid "piggybank/switch_off/title"
+msgstr "Pričuva kredita je privremeno nedostupna"
+
+msgid "piggybank/switch_on/body"
+msgstr "Tehnički problemi su riješeni. Ispričavamo se zbog neugodnosti."
+
+msgid "piggybank/switch_on/title"
+msgstr "Pričuva kredita je ponovno dostupna"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Ova funkcionalnost je privremeno nedostupno iz tehničkih razloga.\n Ispričavamo se zbog neugodnosti."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Pretplate igrača više nisu moguće!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Tehnički problemi su riješeni. Ispričavamo se zbog neugodnosti."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Pretplate igrača su sada dostupne"
+
+msgid "post_progression/server_error"
+msgstr "Nagrada za post-napredak posade\nje već primljena"
+
+msgid "post_progression/success"
+msgstr "Datum: %(at)s\nDodano u Skladište: %(book_name)s(x%(amount)s).\nIskustvo post-napretka razmjenjeno."
+
+msgid "post_progression/success/title"
+msgstr "Potvrda"
+
+msgid "prebattle/hasLockedState"
+msgstr "Nije moguće prihvatiti poziv budući da već čekate bitku. Izađite iz lobija ili završite bitku i pokušajte ponovo."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Poziv je poslan igraču."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Poziv poslan %(name)s."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Greška ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Greška AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Greška BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Greška CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Zapovjednik je napustio tim."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Tim je raspušten."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "Režim je privremeno nedostupan"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Razvojačenje."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Greška PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Vrijeme je isteklo."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Nepoznata greška."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Greška VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Isključeni ste iz voda."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Isključeni ste iz tima."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Morate imati najmanje tri prikladna vozila za režim. Pogledajte stranicu O Navali za više detalja."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Automatska pretraga"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Promjeni glasovni razgovor"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Promjeni diviziju"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Odabir režima"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Prebacivanje podrežima"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Odabir režima"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Promjeni postavke"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Uredi tim"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Promjeni režim promatrača"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Zaključaj slot"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Traži"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Pozovi u tim"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Potvrdi spremnost"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Potvrdi spremnost tima"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Odabir vozila"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Promjeni timove"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Traži"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Samo timovi s minimalnim brojem vozila mogu ući u bitku: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Samo timovi s ukupnom razinom između %(minTotalLevel)d i %(maxTotalLevel)d mogu ući u bitku."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Samo vozila razina od %(minLevel)d do %(maxLevel)d su dozvoljena."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Nacionalnost ovog vozila nije ispravna za ovu bitku."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Svi članovi tima ne mogu biti promatrači."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "Odabrano vozilo je prikladno samo za režim Bojišnice."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "Odabrano vozilo je pogodno samo za režim Divljanja."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "Granate i potrošni materijal na odabranom vozilu ne odgovara uvjetima bitke."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Pogrešna razina vozila za ovu bitku. Minimalna razina za ovaj tip: %s Maksimalna razina vozila za ovu klasu: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Pogrešan tip vozila za ovu bitku. Dozvoljeni tipovi: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Komponente montirane na odabrano vozilo ne odgovaraju uvjetima bitke."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Pogrešna razina vozila za ovu bitku. Minimalna razina: %s. Maksimalna razina: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Nacionalnost ovog vozila je pogrešna za ovu bitku. Dozvoljene nacije: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Nekompatibilno vozilo"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Granate na odabranom vozilu ne odgovaraju uvjetima bitke."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Nekompatibilno vozilo"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Pogrešno vozilo za ovu bitku."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Odabrano vozilo nije spremno."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "Akcija nedostupna. Prvo odaberite vozilo."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Pridruživanje timu nije moguće."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Nekompatibilno vozilo"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "Odabrano vozilo će biti otključano tijekom bitke."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Nije moguće naći protivnike za trenutni tim. Razmotrite mogućnost reorganizacije vašeg tima."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Nisu pronađeni odgovarajući protivnici za trenutni vod, razmisli o reorganizaciji svog tima."
+
+msgid "premium/buyingSuccess"
+msgstr "premium račun je kupljen za %(period)d dana. Potrošeno %(money)s."
+
+msgid "premium/continueSuccess"
+msgstr "premium račun je produljen za %(period)d dana. Potrošeno %(money)s."
+
+msgid "premium/not_enough_gold"
+msgstr "Nedovoljno zlata za kupnju premium računa za %(period)d dana."
+
+msgid "premium/post_battle_premium"
+msgstr "Za kupnju premium korisničkog računa zarađujete %(xpDiff)d iskustva i %(creditDiff)d kredita."
+
+msgid "premium/server_error"
+msgstr "Nije moguće kupiti premium račun za %(period)d dana. Pokušajte ponovo kasnije."
+
+msgid "premium/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "Akcija nedostupna. Pokušajte ponovo kasnije."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "Akcija nedostupna. Pričekajte do završetka trenutne operacije."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Ova funkcionalnost je privremeno nedostupno iz tehničkih razloga.\nIspričavamo se zbog neugodnosti."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Premium zadaci su privremeno nedostupni"
+
+msgid "premium_quests/switch_on/body"
+msgstr "Tehnički problemi su riješeni. Ispričavamo se zbog neugodnosti."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Premium zadaci su ponovo dostupni"
+
+msgid "progressiveReward/error"
+msgstr "Operacija je trenutno nedostupna. Pokušajte ponovo kasnije."
+
+msgid "progressiveReward/switch_off"
+msgstr "Orden za zasluge: ovo svojstvo je privremeno isključeno. Ispričavamo se zbog neugodnosti."
+
+msgid "progressiveReward/switch_on"
+msgstr "Ordeni za zasluge su ponovno dostupni."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Zadatak je istekao. Detaljni opis nije raspoloživ."
+
+msgid "queue/isInQueue"
+msgstr "Operacija je trenutno nedostupna. Pokušajte ponovo kasnije."
+
+msgid "rally/leaveDisabled"
+msgstr "Akcija nedostupna.\nNe možete izaći iz režima. Član ste taktičke jedinice i spremni ste za bitku."
+
+msgid "ranked/notification/available"
+msgstr "Kraj primirja: rangirane bitke su pnovo dostupne."
+
+msgid "ranked/notification/available/title"
+msgstr "Dostupne su rangirane bitke"
+
+msgid "ranked/notification/congratulations"
+msgstr "Čestitamo!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "Rangirane bitke su nedostupne. Pratite vijesti na portalu igre."
+
+msgid "ranked/notification/notSet"
+msgstr "Ovaj režim je nedostupan na ovom serveru."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Rangirane bitke nisu dostupne"
+
+msgid "ranked/notification/primeTime"
+msgstr "Rangirane bitke su nedostupne do kraja policijskog sata."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Primirje"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Ostvarili ste izvanredne rezultate u sezonama rangiranih bitaka 2020./2021. i ostvarili plasman među najboljilim igračima!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Čestitamo!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Ostvarili ste izvanredne rezultate u sezonama rangiranih bitaka 2020./2021. i ostvarili plasman %(playerPosition)s među najboljilim igračima!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Čestitamo!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Primljena značka:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Primljene značke:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Primljeno kredita:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Primljeno obveznica:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Primljeni novčići obljetnice:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Primljeno zlata:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Dodana poboljšana oprema za odabir: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Primljeni stil:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Primljeni stilovi:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Primljeno tokena ranga: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Dan Wargaming premiuma"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Dani Wargaming premiuma (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "Dan WoT premiuma"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "Dana WoT premiuma (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Rezultati etape %(number)s"
+
+msgid "ranked/notifications/league"
+msgstr "Liga: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "Zlatna"
+
+msgid "ranked/notifications/league2"
+msgstr "Srebrna"
+
+msgid "ranked/notifications/league3"
+msgstr "Brončana"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Primljeni tokeni ranga za zlatnu ligu: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Najveći rang: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s,ˇ%(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Položaj na tablici: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Završili ste kvalifikacije"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Primljeni tokeni ranga za sezonu: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Rezultati rangiranih bitaka, sezona %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Dosegli ste rang %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Primljena oznaka sprintera. Nagrade su poboljšane."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Primljena oznaka sprintera"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Nije moguće unovačiti člana posade: tenk ima jedinstvenu stalnu posadu."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Nije moguće unovačiti člana posade. Usluga je privremeno nedostupna."
+
+msgid "recruit_window/financial_success"
+msgstr "Član posade unovačen za %(vehName)s. Potrošeno kredita: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Član posade unovačen za %(vehName)s.\nPotrošeno kredita: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Član posade unovačen za %(vehName)s.\nPotrošeno zlata: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Dosegli ste granicu slobodnih članova posade za danas."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Greška pri novačenju člana posade. Nedovoljno kredita."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Greška pri novačenju člana posade. Nedovoljno zlata."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Greška pri novačenju člana posade. Nema dovoljno mjesta u vojarni."
+
+msgid "recruit_window/server_error"
+msgstr "Nije moguće unovačiti člana posade. Pokušajte ponovo kasnije."
+
+msgid "recruit_window/success"
+msgstr "Član posade unovačen za %(vehName)s besplatno."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Nije moguće prebaciti člana posade: tenk ima jedinstivenu stalnu posadu."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Greška prilikom zamjene člana posade. Pogrešno vozilo."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Nije moguće poslati posadu u Vojarnu. Nedovoljno ležajeva u Vojarni."
+
+msgid "reequip_tankman/server_error"
+msgstr "Nije moguće zamjeniti člana posade. Pokušaj ponovo kasnije."
+
+msgid "reequip_tankman/success"
+msgstr "Član posade zamjenjen."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Greška prilikom zamjene člana posade. Vozilo je zaključano."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Greška prilikom zamjene člana posade. Popravite svoje vozilo."
+
+msgid "remove_component"
+msgstr "%s \"%s\" je uklonjen sa vozila."
+
+msgid "remove_vehicle_broken"
+msgstr "Nije moguće montirati %s \"%s\": vozilo je oštećeno. Popravite svoje vozilo i pokušajte ponovo."
+
+msgid "remove_vehicle_locked"
+msgstr "Nije moguće montirati %s \"%s\": vozilo je zaključano."
+
+msgid "repair/credits_error"
+msgstr "Za popravak tenka '%s' fali još %s kredita."
+
+msgid "repair/server_error"
+msgstr "Greška prilikom popravka \"%s\". Pokušajte ponovo kasnije."
+
+msgid "repair/success"
+msgstr "Vozilo \"%s\" je popravljeno. Potrošeno je %s."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Nije moguće zamjeniti osobne podatke člana posade: tenk ima jedinstvenu stalnu posadu."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Greška pri izmjeni osobnih podataka. Pogrešno vozilo."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Greška prilikom izmjene osobnih podataka. Nedovoljno kredita."
+
+msgid "replace_tankman/server_error"
+msgstr "Greška u izmjeni osobnih podataka. Pokušaj ponovo kasnije."
+
+msgid "replace_tankman/success"
+msgstr "Izgled uspješno zamjenjen."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Greška pri izmjeni osobnih podataka. Vozilo je zaključano."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Greška pri izmjeni osobnih podataka. Popravi vozilo."
+
+msgid "request/isInCoolDown"
+msgstr "Operacija \"%(request)s\" je zamrznuta na %(coolDown)s s."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Poništenje sposobnosti nije moguće.\nServer nedostupan. Pokušaj ponovo kasnije."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Sve sposobnosti za sve članove posade su\nbesplatno poništene."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Greška u trošenju resursa. Molim, pokušajte ponovno kasnije."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Došlo je do greške prilikom povrata resursa. Molim, pokušajte opet."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Još uvijek imate vozila dostupnih za povrat. Idite u Prodavaonicu kako bi poslali odgovarajuća vozila natrag u Garažu."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Povrat člana posade je privremeno nedostupan. Pokušajte ponovo kasnije."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Nije moguće povratiti člana posade."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Nedovoljno zlata za povrat člana posade."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Nije moguće povratiti člana posade. Isteklo je vrijeme za operaciju."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Nije moguće povratiti člana posade. Pokušajte ponovo kasnije."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Nije moguće povratiti člana posade. Član posade je privremeno nedostupan."
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s se više ne može povratiti."
+
+msgid "restore_tankman/financial_success"
+msgstr "Član posade vraćen.\nPotrošeno kredita: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Nije moguće povratiti člana posade. Nedovoljno mjesta u Vojarni."
+
+msgid "restore_tankman/server_error"
+msgstr "Nije moguće povratiti ovog člana posade. Pokušajte ponovo kasnije."
+
+msgid "restore_tankman/success"
+msgstr "Član posade vraćen."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "Kvalifikacija člana posade se promjenila."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Nije moguće preobučiti posadu: tenk ima jedinstvenu stalnu posadu."
+
+msgid "retraining_crew/empty_list"
+msgstr "Greška u preobuci posade. Članovi posade nisu odabrani."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Utrošeno kredita: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Posada unovačena za %(vehName)s besplatno."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Potrošeno zlata: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Greška u preobuci posade. Operacija je nedostupna."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Graška u preobuci posade. Pogrešno vozilo."
+
+msgid "retraining_crew/server_error"
+msgstr "Nije moguće preobučiti posadu. Pokušajte ponovo kasnije."
+
+msgid "retraining_crew/success"
+msgstr "Posada preobučena za %(vehName)s."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Greška u preobuci posade. Vozilo je zaključano."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Greška u preobuci posade. Popravite vozilo."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Nije moguće preobučiti člana posade: tenk ima jedinstvenu stalnu posadu."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Utrošeno kredita: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Član posade unovačen za %(vehName)s besplatno."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Potrošeno zlata: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Greška u preobuci člana posadxe. Operacija je nedostupna."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Greška u preobuci člana posade. Pogrešno vozilo."
+
+msgid "retraining_tankman/server_error"
+msgstr "Preobuka člana posade nije moguća.\nPokušajte ponovno kasnije."
+
+msgid "retraining_tankman/success"
+msgstr "Član posade preobučen za %(vehName)s."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Greška u preobuci člana posade. Vozilo je zaključano."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Greška u preobuci člana posade. Popravi vozilo."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Nije moguće vratiti posadu: tenk ima jedinstvenu stalnu posadu."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Greška u povratu posade. Pogrešno vozilo."
+
+msgid "return_crew/not_enough_space"
+msgstr "Nije moguće poslati posadu u Vojarnu. Nedovoljno ležajeva u Vojarni."
+
+msgid "return_crew/return_unavailable"
+msgstr "Neki članovi posade se ne mogu vratiti u vozilo."
+
+msgid "return_crew/server_error"
+msgstr "Nije moguće vratiti posadu. Pokušajte ponovo kasnije."
+
+msgid "return_crew/success"
+msgstr "Posada uspješno prebačena."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Greška u povratku posade. Vozilo je zaključano."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Greška u povratku posade. Popravite vozilo."
+
+msgid "rotation/lock"
+msgstr "Sljedeće grupe su zaključane i nisu više dostupne za bitke: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "Sljedeće grupe su otključane i dostupne za bitke: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "Vozilo je zaključano i nedostupno za bitke."
+
+msgid "royale/notification/congratulations"
+msgstr "Čestitamo!"
+
+msgid "royale/notification/primeTime"
+msgstr "Bitke Čeličnog lovca su nedostupne do kraja primirja. Provjerite raspored u kalendaru."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Primirje"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Dosegnuta razina: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "Bitke akcije Umjetnost strategije su ponovno dostupne na ovom serveru."
+
+msgid "rts/notification/available/title"
+msgstr "Bitke dostupne"
+
+msgid "rts/notification/notAvailable"
+msgstr "Akcija Umjetnost strategije je nedostupna. Pratite vijesti na portalu igre."
+
+msgid "rts/notification/notSet"
+msgstr "Bitke Umjetnosti strategije nisu dostupne na odabranom serveru."
+
+msgid "rts/notification/notSet/title"
+msgstr "Bitke nisu dostupne"
+
+msgid "rts/notification/primeTime"
+msgstr "Na snazi je primirje. Bitke Umjetnosti strategije su privremeno nedostupne."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Primirje"
+
+msgid "securityMessage/bad_email"
+msgstr "Registrirali ste svoju email adresu na sumnjivom serveru. Molim, iz sigurnosnih razloga promjenite svoj email. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Promjeni postavke sigurnosti"
+
+msgid "securityMessage/no_phone"
+msgstr "Iz sigurnosnih razloga dodajte broj telefona u svoj račun. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Za resetiranje zaporke, molim označite sigurnosno pitanje u vašem korisničkom računu. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "Niste promjenili svoju zaporku 30 dana. Iz sigurnosnih razloga molim promjenite svoju zaporku. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "Zaporka koju ste naveli prilikom stvaranja vašeg korisničkog računa nije dovoljno jaka. Molim, promjenite zaporku. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "Nije moguće prodati %s: vozilo je oštećeno. Popravite svoje vozilo i pokušajte ponovo."
+
+msgid "sell_vehicle_locked"
+msgstr "Nije moguće prodati %s: vozilo je zaključano."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Akcija Zaslužena nagrada se nastavlja. Isprike na neugodnostima."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "Akcija Zaslužena nagrada je privremeno prekinuta zbog održavanja."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Greška pri primitku nagrada. Operacija je privremeno nedostupna."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Greška u primitku nagrade. Molim, kontaktirajte Podršku igraču."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "Nagrade za vaše godine službe kasne. Pokušajte ponovno kasnije."
+
+msgid "serverInstallError"
+msgstr "Greška na serveru prilikom montiranja %s \"%s\". Pokušaj kasnije ponovo."
+
+msgid "serverRemoveError"
+msgstr "Greška prilikom uklanjanja modula %s \"%s\". Pokušaj ponovo kasnije."
+
+msgid "server_shut_down"
+msgstr "Ponovno pokretanje servera igre"
+
+msgid "session_tracker_kick"
+msgstr "Vaš Wargaming.net&nbsp;ID je korišten za prijavu u drugu igru. Trenutna sesija igre je prekinuta."
+
+msgid "shell_buy/invalid_module"
+msgstr "Nije moguće kupiti %(name)s. Pogrešna granata."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "Nije moguće kupiti %(name)s. Nedovoljno kredita."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "Nije moguće kupiti %(name)s. Nedovoljno zlata."
+
+msgid "shell_buy/server_error"
+msgstr "Nije moguće kupiti %(name)s. Pokušajte ponovo kasnije."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "Nije moguće kupiti %(name)s granate. Server je privremeno nedostupan."
+
+msgid "shell_buy/success"
+msgstr "Granate %(name)s uspješno kupljene (%(count)s komada). Utrošeno %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "shell_sell/invalid_module"
+msgstr "Nije moguće kupiti \"%(name)s\".Pogrešna granata."
+
+msgid "shell_sell/server_error"
+msgstr "Nije moguće kupiti \"%(name)s\". Pokušajte ponovo kasnije."
+
+msgid "shell_sell/success"
+msgstr "Granate \"%(name)s\" (%(count)s komada). Primljeno %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Greška konfiguriranja streljiva. Molim, pokušajte ponovo kasnije."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Greška koniguriranja streljiva. Nedovoljno sredstava za kupnju."
+
+msgid "shells_apply/success_money_spent"
+msgstr "Na municiju potrošeno ukupno %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "Operacija nedostupna. Vaše zlato će biti dostupno nakon što se povrati operativnost WG Wallet."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Zahtjev za kupnju i montiranje modula je poslan. Čekam odgovor servera."
+
+msgid "shop/item/buy_server_error"
+msgstr "Nije moguće kupiti %(typeString)s \"%(userString)s\". Molim, pokušajte ponovo kasnije."
+
+msgid "shop/item/buy_success"
+msgstr "Modul %(typeString)s \"%(userString)s\" je uspješno kupljen (%(count)d). Potrošeno je %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Operacija trenutno nedostupna."
+
+msgid "shop/item/not_enough_money"
+msgstr "Da bi kupili %(typeString)s \"%(userString)s\" trebate više%(price)s."
+
+msgid "shop/item/not_found"
+msgstr "Modul %(typeString)s \"%(userString)s\" nije pronađen u Prodavaonici. Molim, pokušajte ponovo kasnije."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Operacija trenutno nedostupna."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "Da bi kupili %(userString)s trebate veću %(price)s."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "Za iznajmljivanje %(userString)s trebate još %(price)s."
+
+msgid "shop/vehicle/not_found"
+msgstr "Vozilo %(userString)s nije pronađeno u Prodavaonici. Molim, pokušajte ponovo kasnije."
+
+msgid "shop_resync"
+msgstr "Sučelje je obnovljeno %(date)s u %(time)s zbog izmjena na serveru."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) je pretvoreno u <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Datum: %(date)s\nSmjernica pretvoreno: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Potvrda"
+
+msgid "squad/createError"
+msgstr "Samo korisnici sa premium računom mogu stvoriti vod."
+
+msgid "squad/kickedFromQueue"
+msgstr "Nisu pronađeni odgovarajući protivnici za trenutni vod, razmisli o reorganizaciji svog tima."
+
+msgid "squad/leaveDisabled"
+msgstr "Akcija nedostupna.\nNe možete napustiti vod. Član ste voda i spremni ste za bitku."
+
+msgid "squad/memberJoined"
+msgstr "%s se pridružio taktičkoj jedinici."
+
+msgid "squad/memberLeave"
+msgstr "%s je napustio taktičku jedinicu."
+
+msgid "squad/memberNotReady"
+msgstr "%s nije spreman."
+
+msgid "squad/memberOffline"
+msgstr "Veza je prekinuta sa %s."
+
+msgid "squad/memberReady"
+msgstr "%s je spreman."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Nije moguće ući u bitku sa vodom."
+
+msgid "squad/notValidDeleted"
+msgstr "%(vehName)s je isključen iz voda jer se njegova razina ne podudara s razinom vozila zapovjednika. Odaberite vozilo iste razine."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s je isključeno iz voda jer je zapovjednik promjenio zahtjeve."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Uklonjeni ste iz voda jer je zapovjednik promjenio zahtjeve ili se ne možete pridružiti jer vozilo ne odgovara zahtjevima. Molim, odaberite drugo vozilo."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "%(vehName)s je uklonjen zbog ograničenja broja ovih vozila dozvoljenih po vodu. Odaberite drugo vozilo."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Ova funkcionalnost je privremeno nedostupno iz tehničkih razloga.\nIspričavamo se zbog neugodnosti."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "Bonus voda je privremeno nedostupan"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "Tehnički problemi su riješeni. Ispričavamo se zbog neugodnosti."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "Bonus voda je ponovo dostupan"
+
+msgid "ssr/unavailable"
+msgstr "Nije moguće preuzeti reprizu"
+
+msgid "steam_login_not_allowed"
+msgstr "Ne možete koristiti ovu aplikaciju za igru: vaš Steam račun je već povezan s vašim Wargaming.net računom. Saznajte više u Podršci igraču."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Član posade raspušten."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s d"
+
+msgid "techtree/action/header"
+msgstr "Akcija \"%(actionName)s\""
+
+msgid "techtree/action/text"
+msgstr "Akcija završava za "
+
+msgid "techtree/action/text/closest"
+msgstr "Slijedeća akcija završava za: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Razlog: vozilo je dostupno samo članovima Prime Gaming. Molim, provjerite svoj status pretplate Prime Gaming."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Vozilo je nedostupno"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Datum: %(datetime)s \nDodana vozila: %(vehicles)s\nDodano: mjesto u Garaži,%(crew)s 3D stil."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Datum: %(datetime)s\nDodano vozila: %(vehicles)s\nDodano: mjesto u Garaži,%(crew)s ekskluzivna kamuflaža."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " a 100%% posada%(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Dodana vozila"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Datum: %(datetime)s\nUklonjeno: %(vehicles)s, mjesto u Garaži"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Razlog: vozilo je dostupno samo članovima Prime Gaming. Molim, provjerite svoj status pretplate Prime Gaming."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Uklonjena vozila"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "Vozilo je ponovno dostupno"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "Tenk T-44-100 Igrovoy dodan. Uklonjen: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Zadaci se sada mogu izvršavati u T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " i "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s kredita"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "Svi članovi posade %(tanks)s preobučeni za T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Oprema demontirana i poslana u skladište.\nElementi prilagodbe poslani u skladište.\nGranate i smjernice poslane u skladište."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Oprema, elementi prilagodbe, borbeno iskustvo, statistika i nagrade prebačeni s %(mergedTank)s na T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s slobodnog iskustva"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Nadoknađeno iskustvo za terensku promjenu: %(compensation)s dodano."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Nadoknađene kupljene progresivne naljepnice: %(value)s zlata dodano."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "Statistika igre i nagrade s %(mergedTank)s prebačene na T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Borbeno iskustvo zbrojeno i prebačeno na T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Sretno na bojišnici!"
+
+msgid "telecomMergeResults/title"
+msgstr "Promjene u \"Igrovoy\" tarifi"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Odabir vozila i najam je suspendiran."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Najam vozila je trenutno nedostupan"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Najam vozila je dostupan"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Čestitamo! Primili ste %(count)s token(a)."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Neuspjelo prebacivanje zlata. Primajuća strana je odbacila transakciju."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Prebacivanje zlata nije dostupno."
+
+msgid "tradingError/NO_WARES"
+msgstr "Prebacivanje zlata nije moguće. Nedovoljno zlata."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Dosegli ste granicu prebacivanja. Pokušajte ponovo sutra."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Neuspjelo prebacivanje zlata. Pokušajte ponovo kasnije."
+
+msgid "training/error/AddPlayer"
+msgstr "Greška sobe za obuku. Najveći broj igrača u timu je premašen."
+
+msgid "training/error/doAction"
+msgstr "Greška u sobi za obuku. Pokušajte ponovo kasnije."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Greška sobe za obuku. Maksimalni kapacitet tima u režimu Navala: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Greška sobe za obuku. Najveći broj igrača u timu: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Greška na serveru prilikom pokušaja zamjene timova. Pokušajte ponovo kasnije."
+
+msgid "transferXP/server_error"
+msgstr "Opcija nije dostupna. Molim, pokušajte ponovo kasnije."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "Akcija nedostupna. Nedovoljne ovlasti."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "Akcija nedostupna. Niste član niti jednog klana."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Greška: nije moguće obnoviti odabrano vozilo za službu."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Greška: nedovoljno dijelova za popravke za obnovu vozila za službu."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Greška: cijena obnove odabranog vozila se promjenila."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Greška: nije moguće završiti akciju."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Greška u pridruživanju vodu: vaš račun je privremeno blokiran u ovom režimu igre."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Akcija nedostupna. Korisnički račun je obnovljen."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "Igrač nije u mogućnosti pridružiti se timu."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "Akcija nedostupna. Mjesto je već zauzeto."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Igrač se već pridružio timu."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Nije moguće prenijeti zapovjednikove dozvole."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Akcija nedostupna. Nepravilan tip korisničkog računa."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Akcija nedostupna. Nepravilan klan."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Nije moguće pridružiti se timu."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Premašena ukupna razina vozila."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Akcija nedostupna. Nepravilan spisak članova odreda."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Netočan broj mjesta"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Akcija nedostupna. Pogrešan tip vozila za bitku u vodu."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Greška u pridruživanju timu. Pogrešna razina vozila."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Promjena divizije nije dostupna u određeno vrijeme."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Nije moguće naći tim."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Nije moguće poslati poziv."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Greška pridruživanja vodu: igra u vodu je nedostupna dok se ne završe kvalifikacije."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Operacija je privremeno nedostupna."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Zadnja operacija s odredom je izvršena s greškom."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Vozilo nije spremno za bitku ili nema vozila u Garaži."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Nije moguće postaviti vozilo na mjesto."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Akcija nedostupna. Neki članovi odreda su još u bitci."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Nema dozvola za ovu operaciju."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Račun zaključan."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Tim je u redu čekanja ili u rezultatima potrage."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Nije moguće pridružiti se timu. Pristup zabranjen."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Tim nije u redu čekanja."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Tim nije u rezultatima potrage."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Tim nije spreman."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Greška u pridruživanju vodu: nemate prikladno vozilo za odabrani režim igre."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Nije moguće dodati igrača u članove tima."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "Akcija nedostupna. Igrač nije pronađen."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Tim nije pronađen."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Tim ne postoji."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "Akcija nedostupna. Greška prikazivanja liste vozila."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Akcija nedostupna. Igrač je offline."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Nalazite se na crnoj listi zapovjednika."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Akcija nedostupna. Prethodna bitka još nije završila."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Nije moguće isključiti igrača iz tima."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "Akcija nedostupna. Jedan ili više igrača nisu još prihvatili poziv."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "Akcija nedostupna za legionare."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "Akcija nedostupna. Mjesto nije zaključano."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "Akcija nedostupna. Mjesto je već zauzeto."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "Akcija nedostupna za ovo mjesto."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Okršaji neće biti dostupni u određeno vrijeme."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Prebacivanje u drugi režim igre nije moguć. Premašena granica igrača u vodu."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Akcija nedostupna. Vrijeme je isteklo."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "Akcija nedostupna. Največi broj mjesta je zaključan."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "Akcija nedostupna. Najveći broj legionara."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Nije moguće stvoriti tim ili pridružiti se timu."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Nije moguće stvoriti tim."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Akcija nedostupna. Odred je obnovljen."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "Akcija nedostupna. Vozilo ne ispunjava zahtjeve."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "Akcija nedostupna. Prvo odaberite vozilo."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Tim ne postoji."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Akcija nedostupna. Vozilo nije spremno ili ne udovoljava zahtjevima."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Dobili ste kontrolu nad borbenim pričuvama."
+
+msgid "unit/notification/changeDivision"
+msgstr "Zapovjednik %(name)s je odabrao %(division)s diviziju."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Apsolutna"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Šampionska"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Srednja"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s je imenovan kao zapovjednik tima."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s se priključio odredu."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s je ušao u vod za bitku u vozilu razine %(tierRange)s."
+
+msgid "unit/notification/playerOffline"
+msgstr "Veza s %(userName)s je izgubljena."
+
+msgid "unit/notification/playerOnline"
+msgstr "Veza s %(userName)s je ponovo uspostavljena."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s je napustio odred."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Pozivnica je već upućena."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "Ovlasti zapovjednika su prenesene na drugog igrača."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Zapovjednikove ovlasti i nadzor nad borbenim pričuvama su predani drugom igraču."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Kontrola nad borbenim pričuvama je prebačena na drugog igrača."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Isključeni ste iz odreda: odred raspušten."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Isključeni ste iz odreda. Klan je promjenjen."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "Vaše vrijeme igranja je isteklo. Ne možete ući u novu bitku. Biti ćete isključeni sa servera u %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Jedan od igrača nema dovoljno vremena igre da završi bitku. Vod je sada u stanju pripreme."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Okupljanje legionara prekinuto."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Akcija nedostupna. Vrijeme čekanja je isteklo."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Greška u pridruživanju timu. Isključeni ste iz tima."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Automatski ste isključeni s liste dobrovoljaca."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Zapovjednik vas je isključio."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Isključeni ste iz odreda: odred raspušten."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Postali ste zapovjednik odreda."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Postali ste zapovjednik odreda.\nDan vam je nadzor nad borbenim pričuvama."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Drugi mostobran je odabran za Napredak."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Odabran je drugi tip bitke."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Pretraga privremeno isključena: previše vodova na serveru."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Nije moguće pronaći igrača zbog greške na serveru. Pokušajte ponovo kasnije."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Pretraga otkazana: najmanje jedan član voda nema prikladno vozilo za odabrani režim igre."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Vrijeme za pretragu je isteklo. Potrebni igrači nisu pronađeni."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Priključivanje igrača u tijeku. Molim, pričekajte."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Vozilo obnovljeno za službu: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Nije moguće potvrditi spremnost tima."
+
+msgid "unload/button"
+msgstr "Nazad u Vojarnu"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Nije moguće poslati posadu u Vojarnu: tenk ima jedinstvenu stalnu posadu."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Greška prilikom slanja vozila u Vojarnu. Pogrešno vozilo."
+
+msgid "unload_crew/server_error"
+msgstr "Nije moguće poslati posadu u Vojarnu. Pokušajte ponovo kasnije."
+
+msgid "unload_crew/success"
+msgstr "Posada poslana u Vojarnu."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Greška prilikom slanja posade u Vojarnu. Vozilo je zaključano."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Greška prilikom slanja posade u Vojarnu. Popravite svoje vozilo."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Nije moguće poslati člana posade u Vojarnu: tenk ima jedinstvenu stalnu posadu."
+
+msgid "unload_tankman/button"
+msgstr "Nazad u Vojarnu"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Greška prilikom slanja člana posade u Vojarnu. Pogrešno vozilo."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Nije moguće poslati ovog člana posade u Vojarnu. Nedovoljno ležajeva u Vojarni."
+
+msgid "unload_tankman/server_error"
+msgstr "Nije moguće poslati člana posade u Vojarnu. Pokušajte ponovo kasnije."
+
+msgid "unload_tankman/success"
+msgstr "Član posade je poslan u Vojarnu."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Greška prilikom slanja člana posade u Vojarnu. Popravite svoje vozilo."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Greška prilikom slanja člana posade u Vojarnu. Popravite svoje vozilo."
+
+msgid "unlocks/drawFailed"
+msgstr "Pogrešne postavke. Tehnološko stablo je zaključano."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "Modul %(typeString)s \"%(userString)s\" je istražen."
+
+msgid "unlocks/item/in_processing"
+msgstr "Zahtjev za istraživanje je predan. Čekamo odgovor servera."
+
+msgid "unlocks/item/server_error"
+msgstr "Greška na serveru pri istraživanju modula %(typeString)s \"%(userString)s\".Pokušajte ponovo kasnije."
+
+msgid "unlocks/item/unlock_success"
+msgstr "Modul %(typeString)s \"%(userString)s\" istražen. Utrošeno neraspodjeljenog iskustva: %(vehXP)s. Utrošeno slobodnog iskustva: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "Vozilo %(userString)s je istraženo."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Zahtjev za istraživanje je predan. Čekamo odgovor servera."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Greška na serveru prilikom istraživanja vozila %(userString)s.Pokušajte ponovo kasnije."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "Vozilo %(userString)s je istraženo. Utrošeno neraspodjeljenog iskustva: %(vehXP)s. Utrošeno slobodnog iskustva: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Greška u obuci člana posade.Pokušaj kasnije ponovo."
+
+msgid "upgradeTankman/success"
+msgstr "Obuka je uspješno završena."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "Nadogradnja nagradne opreme je privremeno nedostupna zbog tehničkih problema. Molim, pokušajte ponovo kasnije."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "Nadogradnja nagradne opreme je ponovo dostupna. Ispričavamo se zbog neugodnosti."
+
+msgid "vehicle/restore/finished"
+msgstr "%(vehicleName)s nije dostupan za oporavak: vrijeme za akciju je isteklo."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Moći ćete povratiti vozilo u Prodavaonicu za još %(time)s dana."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Moći ćete povratiti vozilo u Prodavaonicu za još %(time)s sati."
+
+msgid "vehicleCompare/disabled"
+msgstr "Akcija je privremeno nedostupna. Pokušajte ponovo kasnije."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "Pregled %(vehicle)s će biti dostupan tek nakon preuzimanja punog klijenta."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Poslan zahtjeva za montiranjem opreme. Čekamo na odaziv servera."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "Nije moguće kupiti %(typeString)s \"%(userString)s\". Molim, pokušajte ponovo kasnije."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "Modul %(typeString)s \"%(userString)s\" je uspješno kupljen (%(count)d). Potrošeno je %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "Modul %(typeString)s \"%(userString)s\" je već na raspolaganju u Skladištu."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "Modul %(typeString)s \"%(userString)s\" je istražen."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "Da bi kupili %(typeString)s \"%(userString)s\" trebate više%(price)s."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "Modul %(typeString)s \"%(userString)s\" nije pronađen u Skladištu."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "Modul %(typeString)s \"%(userString)s\" nije pronađen u Prodavaonici. Molim, pokušajte ponovo kasnije."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" je istražen. Neraspoređeno iskustvo potrošeno: %(unspentXP)s. Slobodno iskustvo potrošeno: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Zahtjev za istraživanje je predan. Čekamo odgovor servera."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "Vozilo %(userString)s je već na raspolaganju u Skladištu."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "Vozilo %(userString)s je istraženo."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "Da bi kupili %(userString)s trebate veću %(price)s."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "Vozilo %(userString)s nije pronađeno u Skladištu."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "Vozilo %(userString)s nije pronađeno u Prodavaonici. Molim, pokušajte ponovo kasnije."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "Tenk %(userString)s je istražen. Iskustvo potrošeno: %(unspentXP)s. Slobodno iskustvo potrošeno: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "Sustav elitnih nagrada je sada dostupan za %(vehicle)s"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Elitne nagrade"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "Promjena %(modification)s za %(vehicle)s uspješno kupljena."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Promjena kupljena"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "Kategorija %(category)s za drugo mjesto %(vehicle)s uspješno pridjeljena."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Pridjeljivanje kategorije mjesta"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Utrošeno kredita: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Sve Dvostruke promjene za %(vehicle)s otkazane."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "Promjena %(modification)s za %(vehicle)s otkazana."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Promjena otkazana"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "Promjena %(modifications)s za %(vehicle)s otkazana."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Utrošeno borbenog iskustva: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Utrošeno slobodnog iskustva: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Greška stabla promjene. Molim, pokušajte ponovo kasnije."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Greška"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "Razina standardne promjene %(level)s za %(vehicle)s uspješno istražena i kupljena."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "Razine standardne promjene %(levels)s za %(vehicle)s uspješno istražene i kupljene."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Promjena istražena"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "Kategorija %(category)s za drugo mjesto %(vehicle)s uspješno pridjeljena."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Pridjeljivanje kategorije mjesta"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "Pomoćna oprema je dostupna za %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Pomoćna oprema"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "Pridjeljivanje kategorije drugog mjesta je sada dostupno za %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Dostupnost kategorije mjesta"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Neophodna oprema je dostupna za %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Neophodna oprema"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "Stablo promjena je sada dostupno za %(vehicle)s."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Terenska promjena"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Stablo promjena vozila je dostupno. Možete konfigurirati svoja vozila prema njihovim ulogama i izmjeniti njihove karakteristike korištenjem raznih promjena."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Greška u nadogradnji. Molim, pokušajte ponovno kasnije."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Greška"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "Čvor \"%(perk)s\" uspješno istražen za %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Čvor istražen"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "Čvorovi %(perk)s uspješno istraženi za %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Čvorovi istraženi"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "Opcija nije dostupna. Molim, pokušajte ponovo kasnije."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "Nije moguće kupiti %(vehName)s. Pogrešno vozilo."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "Nije moguće kupiti %(vehName)s. Nedovoljno kredita."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "Nije moguće kupiti %(vehName)s. Nedovoljno zlata."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Operacija nedostupna. Vozila ove nacije nisu istražena."
+
+msgid "vehicle_buy/server_error"
+msgstr "Nije moguće kupiti %(vehName)s zbog greške na serveru. Pokušajte ponovo kasnije."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "Nije moguće kupiti %(vehName)s vozilo. Server je privremeno nedostupan."
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s uspješno kupljen. Utrošeno %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "Nije moguće ukloniti %(vehName)s. Pokušajte ponovo kasnije."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "Nije moguće ukloniti %(vehName)s. Pogrešno vozilo."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "Nije moguće ukloniti %(vehName)s. Nedovoljo kredita."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "Nije moguće ukloniti %(vehName)s. Nedovoljo zlata."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "Nije moguće ukloniti %(vehName)s. Nedovoljno ležajeva u Vojarni."
+
+msgid "vehicle_remove/server_error"
+msgstr "Nije moguće prodati %(vehName)s. Potvrdite da vozilo nije niti u jednoj taktičko jedinici ili pokušajte ponovo kasnije."
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s je uspješno uklonjen.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s je uspješno uklonjen."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "%(vehName)s je uspješno uklonjen.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "Nije moguće ukloniti %(vehName)s. Vozilo će biti uklonjeno automatski."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "Nije moguće ukloniti %(vehName)s. Vozilo blokirano."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "Nije moguće ukloniti %(vehName)s. Vozilo treba popravke."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "Nije moguće ukloniti %(vehName)s. Dosegli ste dnevni limit vozila."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Pozor! Ako se odlučite za kasniju kupnju, vozilo će vam biti dostupno na popustu."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "Nije moguće unajmiti %(vehName)s. Pogrešno vozilo."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "Nije moguće unajmiti %(vehName)s. Nedovoljno kredita."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "Nije moguće unajmiti %(vehName)s. Nedovoljno zlata."
+
+msgid "vehicle_rent/server_error"
+msgstr "Nije moguće unajmiti %(vehName)s zbog greške na serveru. Pokušajte ponovo kasnije."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "Nije moguće unajmiti %(vehName)s. Mogućnost iznajmljivanja vozila je privremeno nedostupna."
+
+msgid "vehicle_rent/success"
+msgstr "Unajmili ste %(vehName)s %(rentPackageName)s. Potrošili ste %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "na %(days)d d"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(needed)s su potrebni za popravak %(vehName)s."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(needed)s su potrebni za popravak %(vehName)s."
+
+msgid "vehicle_repair/server_error"
+msgstr "Greška prilikom popravka %(vehName)s. Pokušajte ponovo kasnije."
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s popravljeno. Potrošili ste %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Povratak vozila je privremeno nedostupan. Pokušajte ponovo kasnije."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "Nije moguće povratiti vozilo %(vehName)s. Povratak vozila je privremeno nedostupan."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "Nije moguće povratiti vozilo %(vehName)s. Pogrešno vozilo."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "Nije moguće povratiti vozilo %(vehName)s. Nedovoljno kredita."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "Nije moguće povratiti vozilo %(vehName)s. Nedovoljno zlata."
+
+msgid "vehicle_restore/server_error"
+msgstr "Nije moguće povratiti %(vehName)s zbog greške na serveru. Pokušajte ponovo kasnije."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "Nije moguće povratiti vozilo %(vehName)s. Povratak vozila je privremeno nedostupan."
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)s je uspješno vraćeno. Potrošeno %(price)s."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Korišten je komplet za demontiranje (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "Nije moguće prodati %(vehName)s. Pokušajte ponovo kasnije."
+
+msgid "vehicle_sell/disabledService"
+msgstr "Nije moguće prodati %(vehName)s. Pokušajte ponovo kasnije."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "Nije moguće prodati %(vehName)s. Nedovoljno komponenti za demontiranje opreme."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "Nije moguće prodati %(vehName)s. Pogrešno vozilo."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "Nije moguće prodati %(vehName)s. Nedovoljno kredita."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "Nije moguće prodati %(vehName)s. Nedovoljno zlata."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "Nije moguće prodati %(vehName)s. Nedovoljno mjesta u vojarni."
+
+msgid "vehicle_sell/server_error"
+msgstr "Nije moguće prodati %(vehName)s. Potvrdite da vozilo nije niti u jednoj taktičko jedinici ili pokušajte ponovo kasnije."
+
+msgid "vehicle_sell/success"
+msgstr "%(vehName)s je uspješno prodan.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "%(vehName)s je uspješno prodan.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "Nije moguće prodati %(vehName)s. Vozilo će biti automatski uklonjeno."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "Nije moguće prodati %(vehName)s. Vozilo je zaključano."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "Nije moguće prodati %(vehName)s. Popravite svoje vozilo."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "Nije moguće prodati %(vehName)s. Dosegli ste dnevni limit vozila."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Greška prilikom kupovine slota. Nedovoljno kredita."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Greška prilikom kupovine slota. Nedovoljno zlata."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Greška u kupnji slota. Pokušaj kasnije ponovo."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Kupljena dodatna mjesta u garaži. Utrošeno %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Greška u promjeni ubrzane obuke posade %(vehName)s. Pogrešno vozilo."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "Nije moguće promjeniti ubrzanu obuku posade %(vehName)s. Pokušajte ponovno kasnije."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "Ubrzana obuka posade %(vehName)s je isključena."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "Ubrzana obuka posade %(vehName)s je uključena."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Greška u promjeni ubrzane obuke posade %(vehName)s. Vozilo je zaključano."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Greška u promjeni ubrzane obuke posade %(vehName)s Popravite vozilo."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Razmjena za %(vehName)s nije uspjela. Odabrano je nepravilno vozilo."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "Razmjena za %(vehName)s nije uspjela. Nedovoljno kredita."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "Razmjena za %(vehName)s nije uspjela. Nedovoljno zlata."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "Razmjena za %(tradeOffVehName)s nije uspjela. Nedovoljno ležajeva u Vojarni."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Ponuda razmjene je sada dostupna!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Ponuda razmjene više nije dostupna!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Razmjena za %(vehName)s nije uspjela. Greška na serveru. Molim, pokušajte ponovo kasnije."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Razmjena za %(vehName)s nije uspjela. Usluga kupnje/razmjene je privremeno nedostupna."
+
+msgid "vehicle_trade_in/success"
+msgstr "Vozilo %(tradeOffVehName)s je uklonjeno. %(vehName)s je kupljen za %(price)s."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "Razmjena za %(tradeOffVehName)s nije uspjela. Vozilo će automatski biti uklonjeno."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Razmjena za %(vehName)s nije uspjela. Vozilo ne može biti prihvaćeno u razmjenu."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "Razmjena za %(tradeOffVehName)s nije uspjela. Vozilo nije predmet razmjene."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "Razmjena za %(tradeOffVehName)s nije uspjela. Vozilo je nedostupno."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "Razmjena za %(tradeOffVehName)s nije uspjela. Popravite vozilo."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "Razmjena za %(tradeOffVehName)s nije uspjela. Vozilo nije u Skladištu."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "Operacija nedostupna. Svo vaše zlato će biti dostupno nakon što se automatski vrati operativnost WG Wallet."
+
+msgid "video/error"
+msgstr "Greška u prikazu videa. Kod greške: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "Borbene zone na minimapi su privremeno nedostupne."
+
+msgid "w2gt/switchOff/header"
+msgstr "Tehnički problemi"
+
+msgid "w2gt/switchOn/description"
+msgstr "Borbene zone na minimapi su sada dostupne. Nastavite borbu!"
+
+msgid "w2gt/switchOn/header"
+msgstr "Funkcionalnost uspostavljena"
+
+msgid "wallet/available"
+msgstr "WG Wallet uspješno sinhroniziran. Svo vaše zlato, obveznice, krediti i slobodno iskustvo su sada na raspolaganju."
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet uspješno sinhroniziran. Svo vaše slobodno iskustvo je sada na raspolaganju."
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet uspješno sinhroniziran. Svo vaše zlato je sada na raspolaganju."
+
+msgid "wallet/not_available"
+msgstr "U tijeku je prihvat podataka salda. Svo vaše zlato, obveznice, krediti i slobodno iskustvo će uskoro biti na raspolaganju."
+
+msgid "wallet/not_available_freexp"
+msgstr "Povlačim podatke računa. Svo vaše slobodno iskustvo će uskoro biti dostupno."
+
+msgid "wallet/not_available_gold"
+msgstr "U tijeku je prihvat podataka salda. Svo vaše zlato će uskoro biti na raspolaganju."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Nije moguće ponovno odabrati tjedni zadatak: operacija blokirana."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Nije moguće ponovno odabrati tjedni zadatak: neispravni zadatak."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Nije moguće ponovno odabrati tjedni zadatak: zadatak je već izvršen."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Nije moguće ponovno odabrati tjedni zadatak: operacija obustavljena."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Tjedni zadatak uspješno ponovno odabran."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Nije moguće ponovno odabrati tjedni zadatak. Pokušajte ponovo kasnije."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "Tjedni zadaci su privremeno nedostupni. Ispričavamo se zbog neugodnosti."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "Tjedni zadaci su ponovno dostupni. Ispričavamo se zbog neugodnosti."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Nije moguće izaći iz Zagrijavanja. Molim, pokušajte ponovno kasnije."
+
+msgid "window/buttons/close"
+msgstr "Zatvori"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" Ne odgovara mjestu %s."

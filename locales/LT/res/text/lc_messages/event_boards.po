@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Apdovanojimai SPP"
+
+msgid "awards/class/SPG"
+msgstr "Apdovanojimai SAP"
+
+msgid "awards/class/heavyTank"
+msgstr "Apdovanojimai sunkiesiems tankams"
+
+msgid "awards/class/lightTank"
+msgstr "Apdovanojimai lengviesiems tankams"
+
+msgid "awards/class/mediumTank"
+msgstr "Apdovanojimai vidutiniams tankams"
+
+msgid "awards/level"
+msgstr "Apdovanojimai %(level)s lygio mašinoms"
+
+msgid "awards/nation/china"
+msgstr "Apdovanojimai Kinijos mašinoms"
+
+msgid "awards/nation/czech"
+msgstr "Apdovanojimai Čekoslovakijos mašinoms"
+
+msgid "awards/nation/france"
+msgstr "Apdovanojimai Prancūzijos mašinoms"
+
+msgid "awards/nation/germany"
+msgstr "Apdovanojimai Vokietijos mašinoms"
+
+msgid "awards/nation/japan"
+msgstr "Apdovanojimai Japonijos mašinoms"
+
+msgid "awards/nation/poland"
+msgstr "Apdovanojimai Lenkijos mašinoms"
+
+msgid "awards/nation/sweden"
+msgstr "Apdovanojimai Švedijos mašinoms"
+
+msgid "awards/nation/uk"
+msgstr "Apdovanojimai D. Britanijos mašinoms"
+
+msgid "awards/nation/usa"
+msgstr "Apdovanojimai JAV mašinoms"
+
+msgid "awards/nation/ussr"
+msgstr "Apdovanojimai SSRS mašinoms"
+
+msgid "awards/tooltip/class"
+msgstr "Paspauskite norėdami pamatyti šiam mašinų tipui skirtus apdovanojimus."
+
+msgid "awards/tooltip/level"
+msgstr "Paspauskite norėdami pamatyti šiam mašinų lygiui skirtus apdovanojimus."
+
+msgid "awards/tooltip/nation"
+msgstr "Paspauskite norėdami pamatyti šiai nacijai skirtus apdovanojimus."
+
+msgid "awards/vehicle"
+msgstr "Apdovanojimai pasirinktai mašinai"
+
+msgid "badge/tooltip/description"
+msgstr "Ženkliukas - tai unikali ikona, kuri bus rodoma mūšyje šalia jūsų vardo. Ženkliukai rodomi abiejų komandų žaidėjams ir demonstruoja jūsų puikų pasirodymą Nacijų marše."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Atminimo ženkliukai"
+
+msgid "block/award"
+msgstr "Pagrindinis apdovanojimas"
+
+msgid "block/objective"
+msgstr "Sąlygos"
+
+msgid "block/task"
+msgstr "Misija"
+
+msgid "button/awards"
+msgstr "Visi apdovanojimai"
+
+msgid "button/awards/tooltip"
+msgstr "Paspauskite norėdami pamatyti visų varžybų apdovanojimų sąrašą."
+
+msgid "button/regulations"
+msgstr "Reikalavimai"
+
+msgid "button/regulations/tooltip"
+msgstr "Paspauskite norėdami pamatyti pilną varžybų aprašymą."
+
+msgid "condition/battletype/random"
+msgstr "Atsitiktinis mūšis 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Reitinguojamas mūšis"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Būriai leidžiami"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Būriai neleidžiami"
+
+msgid "condition/primetime/any"
+msgstr "Bet kuriame serveryje bet kuriuo laiku"
+
+msgid "condition/primetime/chosen"
+msgstr "Tik nurodytuose serveriuose"
+
+msgid "condition/vehicle/chosen"
+msgstr "Tik nurodytoms mašinoms:"
+
+msgid "condition/vehicle/exist"
+msgstr "Yra garaže"
+
+msgid "condition/vehicle/missing"
+msgstr "Nėra garaže"
+
+msgid "condition/vehicle/single"
+msgstr "Mašinoje %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Apdovanojimas"
+
+msgid "excel/btnClose"
+msgstr "Į VARŽYBAS"
+
+msgid "excel/group/title"
+msgstr "Grupė"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Patekimui į reitingą trūksta mūšių: %(number)s"
+
+msgid "excel/noData"
+msgstr "Prizinės vietos kol kas neužimtos."
+
+msgid "excel/participate/join"
+msgstr "Kovoti"
+
+msgid "excel/participate/notParticipated"
+msgstr "Jūs nepatekote į šį reitingą"
+
+msgid "excel/subHeader"
+msgstr "Varžybos: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Dalyvauti"
+
+msgid "header/participate/button/leave"
+msgstr "Išeiti iš varžybų"
+
+msgid "header/participate/finished"
+msgstr "Varžybos baigėsi"
+
+msgid "header/participate/notStarted"
+msgstr "Jūs prisijungėte"
+
+msgid "header/participate/reason/byAge"
+msgstr "Paskyra sukurta po %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Varžybos nepasiekiamos"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Jūs išėjote iš šių varžybų"
+
+msgid "header/participate/started"
+msgstr "Jūs dalyvaujate"
+
+msgid "header/timer"
+msgstr "Iki pabaigos:"
+
+msgid "maintenance/body"
+msgstr "Atsiprašome už laikinus nesklandumus."
+
+msgid "maintenance/title"
+msgstr "Klaida užkraunant duomenis"
+
+msgid "maintenance/update"
+msgstr "Atnaujinti"
+
+msgid "notification/buttons/details"
+msgstr "Detaliau"
+
+msgid "notification/eventFinished/body"
+msgstr "Varžybos %(eventName)s baigėsi. Per artimiausias dienas bus paskelbti laimėtojai ir jie gaus savo užsitarnautus prizus."
+
+msgid "notification/eventFinished/header"
+msgstr "Varžybos baigėsi"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Dabar jūsų mūšių rezultatai fiksuojami varžybose ir jūs galite patekti į reitingą bei gauti apdovanojimą."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Jūs prisijungėte kaip dalyvis"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Jūsų mūšių rezultatai bus fiksuojami varžybose, kai jos prasidės ir jūs galėsite patekti į reitingą ir gauti apdovanojimą."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Jūs prisijungėte kaip dalyvis"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Nepavyko prisijungti dalyviu: neįvykdyti reikalavimai."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Nepavyko prisijungti dalyviu: baigėsi registracijos laikas."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Jūsų statistika varžybose bus apnulinta po reitingo atnaujinimo."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Jūs išėjote iš varžybų"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Šioms varžyboms jūsų statistika nebus skaičiuojama."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Jūs išėjote iš varžybų"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Nepavyko išeiti iš varžybų: baigėsi tam skirtas laikas."
+
+msgid "notification/eventStarted/body"
+msgstr "Varžybos %(eventName)s prasidėjo! Žaidėjai, kurie varžybų pabaigoje užims prizines vietas, bus apdovanoti vertingais prizais."
+
+msgid "notification/eventStarted/header"
+msgstr "Varžybos prasidėjo"
+
+msgid "notification/unknownError/body"
+msgstr "Nepavyko užbaigti operacijos."
+
+msgid "orders/title"
+msgstr "Reikalavimai"
+
+msgid "popover/buttons/cancel"
+msgstr "Atšaukti"
+
+msgid "popover/buttons/rating"
+msgstr "Pereiti į reitingą"
+
+msgid "popover/buttons/select"
+msgstr "Išsirinkti"
+
+msgid "popover/noVehicles"
+msgstr "Nerasta mašinų atitinkančių filtrą."
+
+msgid "popover/resetFilter"
+msgstr "Ištrinti filtrus"
+
+msgid "popover/title"
+msgstr "Reitingų sąrašas"
+
+msgid "popover/title/vehicle"
+msgstr "Reitingų sąrašas"
+
+msgid "popover/tooltip/class"
+msgstr "Pereiti į pasirinkto mašinų tipo reitingą."
+
+msgid "popover/tooltip/level"
+msgstr "Pereiti į pasirinkto mašinų lygio reitingą."
+
+msgid "popover/tooltip/nation"
+msgstr "Pereiti į pasirinktos nacijos reitingą."
+
+msgid "server/list"
+msgstr "Tam kad mūšiai būtų fiksuojami varžybose, pereikite į šį serverį:"
+
+msgid "server/noSuitable/body"
+msgstr "Artimiausias mūšių rezultatų skaičiavimas: %(data)s. Varžybų tvarkaraštis"
+
+msgid "server/noSuitable/header"
+msgstr "Šiuo metu mūšių rezultatai varžyboms neskaičiuojami"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s serveryje %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Mano geriausi rezultatai"
+
+msgid "status/bestResults/one"
+msgstr "Mano rezultatai"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Varžybos nepasiekiamos:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Jūs negalite dalyvauti šiose varžybose dėl žaidimo taisyklių pažeidimų."
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "paskyra sukurta po %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "jūs nesužaidėte reikalaujamo mūšių skaičiaus Atsitiktinių mūšių režime: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "pergalių procentas Atsitiktinių mūšių režime viršijo %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "pergalių procentas Atsitiktinių mūšių režime nepasiekė: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Registracija baigėsi"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Jūs negalite dalyvauti šiose varžybose."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Jūs išėjote iš šių varžybų"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Jūsų mūšių rezultatai nebėra fiksuojami šiose varžybose. Jūs nepateksite į reitingą ir negausite apdovanojimo.\nŠiose varžybose dar kartą dalyvauti negalite."
+
+msgid "status/cantJoin/reason/many"
+msgstr "sąlygos neįvykdytos %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "sąlygos neįvykdytos (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Jūs nepatekote į reitingą"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Jūs negalite dalyvauti šiose varžybose naudodamiesi šia paskyra."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "nėra tinkamų mašinų"
+
+msgid "status/participate/cantJoin"
+msgstr "Varžybos nepasiekiamos"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Atitikite nurodytus reikalavimus mūšiuose ir jūsų rezultatai bus rodomi čia po reitingų atnaujinimo."
+
+msgid "status/participate/notParticipated"
+msgstr "Jūs nepatekote į šį reitingą"
+
+msgid "summary/averagedamage"
+msgstr "Vidutinė žala"
+
+msgid "summary/averagedamageassisted"
+msgstr "Vidutinė su jūsų pagalba padaryta žala"
+
+msgid "summary/averagexp"
+msgstr "Vidutinė patirtis"
+
+msgid "summary/battles"
+msgstr "Mūšiai varžybose"
+
+msgid "summary/damage"
+msgstr "Žala"
+
+msgid "summary/damageassist"
+msgstr "Žala su jūsų pagalba"
+
+msgid "summary/damageblocked"
+msgstr "Užblokuota žalos"
+
+msgid "summary/description/awards/title/award"
+msgstr "APDOVANOJIMAS VARŽYBŲ PABAIGOJE"
+
+msgid "summary/description/awards/title/group"
+msgstr "GRUPĖ"
+
+msgid "summary/description/awards/title/position"
+msgstr "POZICIJA"
+
+msgid "summary/description/max/class"
+msgstr "Jūsų geriausias mūšis su %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Jūsų geriausias mūšis su %(value)s lygio mašina"
+
+msgid "summary/description/max/nation"
+msgstr "Jūsų geriausias mūšis su nacijos: %(value)s mašina"
+
+msgid "summary/description/max/vehicle"
+msgstr "Jūsų geriausias mūšis su %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Jūsų statistika varžybose su %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Jūsų statistika varžybose su %(value)s lygio mašinomis"
+
+msgid "summary/description/sum/nation"
+msgstr "Jūsų statistika varžybose su nacijos: %(value)s mašinomis"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Jūsų statistika varžybose su mašina: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Jūsų geriausia mūšių seriją su %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Jūsų geriausia mūšių seriją su %(value)s lygio mašinomis"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Jūsų geriausia mūšių seriją su nacijos: %(value)s mašinomis"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Jūsų geriausia mūšių seriją su %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Jūsų geriausi mūšiai su %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Jūsų geriausi mūšiai su %(value)s lygio mašinomis"
+
+msgid "summary/description/sumN/nation"
+msgstr "Jūsų geriausi mūšiai su nacijos: %(value)s mašinomis"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Jūsų geriausi mūšiai su %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Jūsų geriausia mūšių seriją su %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Jūsų geriausia mūšių seriją su %(value)s lygio mašinomis"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Jūsų geriausia mūšių seriją su nacijos: %(value)s mašinomis"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Jūsų geriausia mūšių seriją su %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Sunaikinta priešo mašinų"
+
+msgid "summary/fightInSquaad"
+msgstr "Mūšis būryje"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Mūšis ne būryje"
+
+msgid "summary/originalXP"
+msgstr "Bazinė patirtis"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Žala su žaidėjo pagalba"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Žala"
+
+msgid "summary/param/max/originalXP"
+msgstr "Bazinė patirtis"
+
+msgid "summary/param/max/xp"
+msgstr "Patirtis"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Vidutinė su žaidėjo pagalba padaryta žala"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Vidutinė žala"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Vidutinė bazinė patirtis"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Pergalės"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Vidutinė patirtis"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Vidutinė su žaidėjo pagalba padaryta žala"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Iš viso žalos"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Iš viso bazinės patirties"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Iš viso patirties"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Iš viso su žaidėjo pagalba padaryta žala"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Iš viso žalos"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Iš viso bazinės patirties"
+
+msgid "summary/param/sumN/xp"
+msgstr "Iš viso patirties"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Vidutinė su žaidėjo pagalba padaryta žala"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Iš viso žalos"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Iš viso bazinės patirties"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Iš viso patirties"
+
+msgid "summary/position"
+msgstr "Pozicija reitinge: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Lygiosios"
+
+msgid "summary/result/loss"
+msgstr "Pralaimėjimas"
+
+msgid "summary/result/win"
+msgstr "Pergalė"
+
+msgid "summary/status"
+msgstr "Atnaujinta %(day)s %(time)s"
+
+msgid "summary/winrate"
+msgstr "Pergalės"
+
+msgid "table/header/player"
+msgstr "Žaidėjas"
+
+msgid "table/header/position"
+msgstr "Nr."
+
+msgid "table/selectParticipateBtn"
+msgstr "Išeiti iš varžybų"
+
+msgid "table/selectRatingBtn"
+msgstr "Reitingų sąrašas"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Dalyvauti"
+
+msgid "table/stripe/bronze/title"
+msgstr "III grupė (vietos %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "I grupė (vietos %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "I grupė"
+
+msgid "table/stripe/iron/title"
+msgstr "IV grupė (vietos %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "II grupė (vietos %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Neapdovanojamos vietos"
+
+msgid "task/eventtype/all"
+msgstr "Bendras reitingas visiems dalyviams"
+
+msgid "task/eventtype/class"
+msgstr "Kiekvienas technikos tipas turi savo reitingą"
+
+msgid "task/eventtype/level"
+msgstr "Kiekvienas technikos lygis turi savo reitingą"
+
+msgid "task/eventtype/nation"
+msgstr "Kiekviena nacija turi savo reitingą"
+
+msgid "task/eventtype/vehicle"
+msgstr "Kiekviena mašina turi savo reitingą"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Patekti į reitingą pagal su jūsų pagalba padarytą žalą"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Patekti į reitingą pagal padarytą žalą"
+
+msgid "task/objective/max/originalXP"
+msgstr "Patekti į reitingą pagal uždirbtą bazinę patirtį"
+
+msgid "task/objective/max/xp"
+msgstr "Patekti į reitingą pagal uždirbtą patirtį"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Patekti į reitingą pagal bendrą su jūsų pagalba padarytos žalos kiekį"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Patekti į reitingą pagal bendrą padarytos žalos kiekį"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Patekti į reitingą pagal bendrą uždirbtos bazinės patirties kiekį"
+
+msgid "task/objective/sum/wins"
+msgstr "Patekti į reitingą pagal pergalių skaičių"
+
+msgid "task/objective/sum/xp"
+msgstr "Patekti į reitingą pagal bendrą uždirbtos patirties kiekį"
+
+msgid "task/objparam/damageAssisted"
+msgstr "padaryta žala su jūsų pagalba"
+
+msgid "task/objparam/damageDealt"
+msgstr "padaryta žalos"
+
+msgid "task/objparam/originalXP"
+msgstr "uždirbta bazinės patirties"
+
+msgid "task/objparam/wins"
+msgstr "pergalių skaičius"
+
+msgid "task/objparam/xp"
+msgstr "patirtis"
+
+msgid "task/selection/max"
+msgstr "Skaičiuojamas geriausias mūšis"
+
+msgid "task/selection/sumAll"
+msgstr "Skaičiuojami visi jūsų mūšiai"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Skaičiuojami geriausi (%(cardinality)s) mūšiai serijoje. Mūšiai serijoje: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Skaičiuojami geriausi mūšiai: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Skaičiuojama geriausia mūšių serija. Mūšių skaičius serijoje: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "šiandien"
+
+msgid "time/day/tomorrow"
+msgstr "rytoj"
+
+msgid "time/day/yesterday"
+msgstr "vakar"
+
+msgid "time/eventFinished"
+msgstr "Varžybos baigėsi: %(date)s"
+
+msgid "time/period/day"
+msgstr "d."
+
+msgid "time/period/hour"
+msgstr "val."
+
+msgid "time/period/minute"
+msgstr "min."
+
+msgid "time/timeTo/end"
+msgstr "Baigiasi: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Registracija baigiasi: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Prasideda: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Apdovanojimas suteikiamas varžybų pabaigoje ir priklauso nuo jūsų užimtos vietos reitinge.\nNorėdami pamatyti šių varžybų prizų sąrašą, paspauskite \"Visi apdovanojimai\"."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Patirtis skaičiuojama nevertinant bonusų, kuriuos suteikia Premium paskyra, Premium mašinos, asmeniniai rezervai, pirma dienos pergalė ar kokios vykstančios akcijos."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Patirtis skaičiuojama nevertinant bonusų, kuriuos suteikia Premium mašinos, asmeniniai rezervai, pirma dienos pergalė ar kokios vykstančios akcijos.\nVertinamas Premium paskyros suteikiamas bonusas."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Padaryta žala su žaidėjo pagalba, paskutinėje prizinėje vietoje: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Padaryta žala, paskutinėje prizinėje vietoje: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Bazinė patirtis, kurią uždirbo žaidėjas esantis paskutinėje prizinėje vietoje: %(number)s\nPatirtis skaičiuojama nevertinant bonusų, kuriuos suteikia Premium paskyra, Premium mašinos, asmeniniai rezervai, pirma dienos pergalė ar kokios vykstančios akcijos."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Paskutinės prizinės vietos patirtis: %(number)s\nPatirtis skaičiuojama nevertinant bonusų, kuriuos suteikia Premium mašinos, asmeniniai rezervai, pirma dienos pergalė ar kokios vykstančios akcijos.\nVertinamas Premium paskyros suteikiamas bonusas."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Bendras su žaidėjo pagalba padarytos žalos kiekis paskutinėje prizinėje vietoje: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Bendras padarytos žalos kiekis paskutinėje prizinėje vietoje: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Bendras bazinės patirties kiekis paskutinėje prizinėje vietoje: %(number)s\nPatirtis skaičiuojama nevertinant jokių bonusų, kuriuos suteikia Premium paskyra, Premium mašinos, asmeniniai rezervai, pirma dienos pergalė ar kokios vykstančios akcijos."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Pergalių kiekis paskutinėje prizinėje vietoje: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Bendras patirties kiekis paskutinėje prizinėje vietoje: %(number)s\n\nPatirtis skaičiuojama nevertinant bonusų, kuriuos suteikia Premium mašinos, asmeniniai rezervai, pirma dienos pergalė ar kokios vykstančios akcijos.\nVertinamas Premium paskyros suteikiamas bonusas."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Vieta be apdovanojimo"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Grupė %(group)s (pozicijos %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Vidutinė patirtis paskutinėje prizinėje vietoje:"
+
+msgid "top/participation/notParticipated"
+msgstr "Jūs nepatekote į šį reitingą"
+
+msgid "top/participation/notfull"
+msgstr "Jūs nepatekote į reitingą"
+
+msgid "top/participation/notintop"
+msgstr "Jūs neužimate prizinės vietos"
+
+msgid "top/position"
+msgstr "jūsų vieta:"
+
+msgid "top/reason/notfull"
+msgstr "Patekimui į reitingą trūksta mūšių:"
+
+msgid "vehicles/level"
+msgstr "%(level)s lygio mašinos"
+
+msgid "vehicles/tooltip/class"
+msgstr "Paspauskite norėdami pamatyti šio tipo mašinų, dalyvaujančių varžybose, sąrašą."
+
+msgid "vehicles/tooltip/level"
+msgstr "Paspauskite norėdami pamatyti šio lygio mašinų, dalyvaujančių varžybose, sąrašą."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Paspauskite norėdami pamatyti šios nacijos mašinų, dalyvaujančių varžybose, sąrašą."
+
+msgid "vehicles/vehicle"
+msgstr "Mašinos varžybose"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Paspauskite norėdami pamatyti varžybose leidžiamų mašinų sąrašą."

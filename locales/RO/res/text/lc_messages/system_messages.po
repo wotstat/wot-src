@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Contul tău a fost recuperat cu succes"
+
+msgid "achievements/server_error"
+msgstr "Schimbările la panglica cu premii valoroase nu au fost salvate."
+
+msgid "actionAchievement/title"
+msgstr "Medalie pentru Speciale"
+
+msgid "actionAchievements/title"
+msgstr "Medalii pentru Speciale"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Eroare în antrenarea unui talent. Vehicul nepotrivit."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Nu pot antrena noul talent.\nServer indisponibil. Reîncearcă mai târziu."
+
+msgid "add_tankman_skill/success"
+msgstr "Talent nou antrenat: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Eroare la antrenarea unui talent. Vehiculul e blocat."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Eroare la antrenarea unui talent. Repară vehiculul."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Nu pot antrena noile talente.\nServer indisponibil. Reîncearcă mai târziu."
+
+msgid "add_tankman_skills/success"
+msgstr "Talente noi antrenate: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Încă eşti conectat la un alt server."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Eroare la intrarea în luptă: deja eşti în echipă."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Eroare la intrarea în luptă: numărul echipei greşit."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Eroare la intrarea în luptă. Operaţiunea e suspendată temporar, încearcă mai târziu."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Acest eveniment este momentan indisponibil. Urmăreşte cele mai noi ştiri pe portalul jocului."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Eroare la intrarea în luptă: invitaţie expirată."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Eroare la intrarea în luptă, permisiuni insuficiente."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Nu pot intra în luptă. Coada este momentan indisponibilă. Reîncearcă mai târziu."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "Acțiune indisponibilă. Coada este plină în acest moment. Te rugăm să încerci mai târziu."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Eroare la intrarea în luptă: echipa a fost alcătuită deja."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Eroare la intrarea în luptă: conectarea nu s-a realizat în timp util."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Eroare la intrarea în luptă: nu este disponibilă pentru acest tip de cont."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Eroare la intrarea în luptă."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Eroare la intrarea în luptă: WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Eroare la intrarea în luptă: lupta istorică selectată nu este disponibilă."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Conectarea a eșuat. Alege serverul %s."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Conectare eşuată. Selectează alt server."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Eroare intrare în luptă: vehiculul curent nu este pregătit."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Eroare: vehiculele de această generație nu pot lupta în acest mod."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Nu pot intra în luptă: vehiculul nu e pregătit."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Trebuie să cumperi un vehicul ca să intri în luptă."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Eroare la intrarea în luptă (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Eroare la intrarea în luptă (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Eroare la intrarea în luptă (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Eroare la intrarea în luptă (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Eroare la intrarea în luptă (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Eroare la intrarea în luptă (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Eroare la intrarea în luptă (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Eroare la intrarea în luptă (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Eroare la intrarea în luptă (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Eroare la intrarea în luptă (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Eroare la intrarea în luptă (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "Timpul maxim de așteptare în coada pentru luptă a expirat. Selectează alt vehicul sau încearcă mai târziu."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" nu se potrivește pe acest vehicul."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Vehicul nepotrivit. %(kind)s „%(name)s” nu a fost montat."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s „%(name)s” a fost demontat de pe vehicul. Ai cheltuit %(money)s."
+
+msgid "artefact_apply/server_error"
+msgstr "Eroare de server la montarea %(kind)s \"%(name)s\". Încearcă mai târziu."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s „%(name)s” a fost montat pe vehicul."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Vehicul blocat. %(kind)s „%(name)s” nu a fost montat."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Vehicul avariat. %(kind)s „%(name)s” nu a fost montat. Repară vehiculul şi încearcă din nou."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" nu se potrivește pe acest vehicul."
+
+msgid "artefact_buy/invalid_module"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Componentă nepotrivită."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Vehicul incorect. Nu poţi cumpăra şi monta %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Credite insuficiente."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Bonduri insuficiente."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Monede aniversare insuficiente."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Aur insuficient."
+
+msgid "artefact_buy/server_error"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Încearcă mai târziu."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Serverul este temporar indisponibil."
+
+msgid "artefact_buy/success"
+msgstr "%(kind)s \"%(name)s\" a fost cumpărat (%(count)s articol(e)). Ai cheltuit %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Vehicul blocat. Nu poţi cumpăra şi monta %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "Nu se poate cumpăra şi monta %(kind)s \"%(name)s\". Repară vehiculul şi încearcă din nou."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "Nu s-a putut dezasambla %(name)s. Modul nepotrivit."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "Nu s-a putut dezasambla %(name)s. Încearcă mai târziu."
+
+msgid "artefact_deconstructing/success"
+msgstr "Echipament dezasamblat: %(name)s (%(count)sx). Ai primit %(money)s."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Echipament dezasamblat: %(names)s. Ai primit %(money)s."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "„%(equipment)s” nu a fost demontat. Fonduri insuficiente."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Vehicul nepotrivit. %(kind)s „%(name)s” nu a fost distrus."
+
+msgid "artefact_destroy/server_error"
+msgstr "Eroare de server la distrugerea %(kind)s „%(name)s”. Încearcă mai târziu."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s „%(name)s” a fost distrus prin demontare."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Vehicul blocat. %(kind)s „%(name)s” nu a fost distrus."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Vehicul avariat. %(kind)s „%(name)s” nu a fost distrus. Repară vehiculul şi încearcă din nou."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s „%(name)s” demontat de pe vehicul. Ai cheltuit un kit de demontare."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "Consumabilul \"%s\" a fost trimis în depozit datorită incompatibilităţii cu modulul curent."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Vehicul nepotrivit. %(kind)s „%(name)s” nu a fost demontat."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s „%(name)s” a fost demontat de pe vehicul. Ai cheltuit %(money)s."
+
+msgid "artefact_remove/server_error"
+msgstr "Eroare de server la demontarea %(kind)s „%(name)s”. Încearcă mai târziu."
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s „%(name)s” a fost demontat de pe vehicul."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Vehicul blocat. %(kind)s „%(name)s”nu a fost demontat."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Vehicul avariat. %(kind)s „%(name)s” nu a fost demontat. Repară vehiculul şi încearcă din nou."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s \"%(name)s\" a fost demontat gratuit de pe vehicul mulțumită abonamentului activ WoT Plus."
+
+msgid "artefact_sell/invalid_module"
+msgstr "Nu s-a putut vinde %(kind)s „%(name)s”. Componentă nepotrivită."
+
+msgid "artefact_sell/server_error"
+msgstr "Nu s-a putut vinde %(kind)s „%(name)s”. Încearcă mai târziu."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s „%(name)s” (%(count)s buc.). Ai primit %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Eroare la îmbunătățirea echipamentului. Încearcă mai târziu."
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s \"%(name)s\" îmbunătățit cu succes. Caracteristicile îmbunătățite. Ai cheltuit %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "%(name)s %(kind)s s-a actualizat cu succes, iar caracteristicile au fost îmbunătățite. S-a cheltuit %(money)s.\n\nEchipamentul similar de pe alternativă a fost trimis în Depozit."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Vehicul avariat. %(kind)s \"%(name)s\" nu a fost îmbunătățit. Repară vehiculul şi încearcă din nou."
+
+msgid "badges/select/server_error"
+msgstr "Eroare la server"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "Acţiune indisponibilă. Aşteaptă până când operaţiunea curentă va fi finalizată."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Trimite invitații"
+
+msgid "battleAbilities_apply/error"
+msgstr "Eroare de configurare a rezervelor de luptă. Încearcă mai târziu."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "Achiziție eșuată a %(kind)s \"%(name)s\". Credite insuficiente."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "Achiziție eșuată a %(kind)s \"%(name)s\". Bonduri insuficiente."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" nu se poate monta pe acest vehicul."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Monede aniversare insuficiente."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "Achiziție eșuată a %(kind)s \"%(name)s\". Aur insuficient."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "Achiziție eșuată a %(kind)s \"%(name)s\". Modul greșit."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "Achiziție și montare eșuată a %(kind)s \"%(name)s\". Vehicul greșit."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "Achiziție eșuată a %(kind)s \"%(name)s\". Credite insuficiente."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "Achiziție eșuată a %(kind)s \"%(name)s\". Bonduri insuficiente."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Monede aniversare insuficiente."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "Achiziție eșuată a %(kind)s \"%(name)s\". Aur insuficient."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Operațiunile cu directive sunt temporar indisponibile din cauza lucrărilor de mentenanță."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "Achiziție eșuată a %(kind)s \"%(name)s\". Server temporar indisponbil."
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s \"%(name)s\" achiziționat cu succes (%(count)s item(s)). Ai cheltuit %(money)s."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "Vehiculul este blocat. Achiziție și montare eșuată a %(kind)s \"%(name)s\"."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "Achiziție și montare eșuată a %(kind)s \"%(name)s\". Repară vehiculul și încearcă din nou."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Operațiunile cu directive sunt temporar indisponibile din cauza lucrărilor de mentenanță."
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s \"%(name)s\" vândută (%(count)s bucăți). Ai primit %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Eroare la operațiunile cu directive. Încearcă mai târziu."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Eroare la operațiunile cu directive. Fonduri insuficiente pentru achiziție."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "Operațiune indisponibilă. Aurul tău va fi disponibil după ce funcționarea WG Wallet va fi restaurată."
+
+msgid "battlePass/activateChapter/success"
+msgstr "Capitolul %(chapter)s activat"
+
+msgid "battlePass/extraFinish/body"
+msgstr "Evenimentul %(name)s s-a încheiat. Mulțumim pentru participare!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Certificatul de luptă: Capitolul „%(name)s”"
+
+msgid "battlePass/extraStarted/body"
+msgstr "Comandante! În Certificatul de luptă a început evenimentul %(name)s, pe perioada căruia poți obține o recompensă specială!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Certificatul de luptă: Un capitol nou este disponibil!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Comandante! Mai e doar puțin timp până la încheierea capitolului „%(name)s”. Grăbește-te!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Certificatul de luptă: Capitolul „%(name)s”"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Comandanți! Nu uitați că puteți câștiga puncte ale Certificatului de luptă în Lupte pentru clasament!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Comandanți! Nu uitați că puteți câștiga puncte ale Certificatului de luptă în Front!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Comandanți! Nu uitați că puteți câștiga puncte ale Certificatului de luptă în Misiuni de recunoaștere!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Comandanți! Nu uitați că puteți câștiga puncte ale Certificatului de luptă în modul „Violență”!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Sezonul %(seasonNum)d al Certificatului de luptă"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Eroare la selectarea recompenselor. Încearcă din nou."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "Sezonul certificatului de luptă s-a încheiat. Toate recompensele pe care nu le-ai ales pe parcursul sezonului ți s-au acordat implicit:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Eroare la selectarea capitolului. Încearcă din nou."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Selectează un capitol. Poți schimba în orice moment către alte capitole."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Ai schimbat către alt capitol. Capitolul %(chapter)s este acum activ."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Certificatul de luptă este temporar indisponibil în Vânătorul de Oțel din cauza lucrărilor de mentenanță. Ne oferim scuzele pentru deranj."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Punctele Certificatului de luptă nu pot fi momentan obținute în modul Violență din cauza mentenanței."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Punctele Certificatului de luptă nu pot fi momentan obținute în modul Violență Simplificată din cauza mentenanței."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "Certificatul de luptă este temporar indisponibil în Front din cauza lucrărilor de mentenanță."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "Certificatul de luptă este temporar indisponibil în Luptele de clasament din cauza lucrărilor de mentenanță."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "Certificatul de luptă e din nou disponibil. Ne oferim scuze pentru deranj.\nSezonul extins până pe %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Punctele Certificatului de luptă pot fi din nou obținute în modul Violență. Oferim scuze pentru neplăceri."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Punctele Certificatului de luptă pot fi din nou obținute în modul Violență Simplificată. Oferim scuze pentru neplăceri."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "Certificatul de luptă este disponibil din nou în Front. Ne oferim scuze pentru deranj."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Certificatul de luptă este disponibil din nou în Luptele de clasament. Ne oferim scuzele pentru deranj."
+
+msgid "battlePass/switch_pause/body"
+msgstr "Certificatul de luptă este temporar indisponibil din cauza lucrărilor de mentenanță."
+
+msgid "battlePass/switch_started/body"
+msgstr "Comandanți! A sosit din nou timpul să luptați pentru recompense unice ale Certificatului de luptă!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Sezonul %(seasonNum)d al Certificatului de luptă"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Certificatul de luptă: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "Certificatul de luptă s-a încheiat. Toate recompensele pe care nu le-ai ales ți s-au acordat implicit:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "Capitolul s-a încheiat. Pe data viitoare!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Certificatul de luptă: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "Certificatul de luptă este disponibil din nou. Oferim scuze pentru deranj."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Comandanți! După cum veți descoperi, acesta este un Certificat de luptă special.\n\nLa finalizarea progresului, veți primi un vehicul premium cu un stil 3D unic, elemente de personalizare și multe alte recompense!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Certificatul de luptă: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Eroare la cumpărarea de episoade ale progresului. Încearcă din nou."
+
+msgid "battlePass_buy/server_error"
+msgstr "Eroare la cumpărarea certificatului îmbunătățit. Încearcă din nou."
+
+msgid "battleResults/sharing/success"
+msgstr "Link-ul a fost copiat în clipboard. Poți ori să îi dai Paste în chat cu Ctrl+V sau să în folosești în afara clientului de joc."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Nu s-au găsit inamici de nivel comparabil pentru companie, încearcă s-o reorganizezi."
+
+msgid "battleSession/memberJoined"
+msgstr "%s a intrat în echipă."
+
+msgid "battleSession/memberLeave"
+msgstr "%s a părăsit echipa."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s nu este pregătit să lupte în echipă."
+
+msgid "battleSession/memberOffline"
+msgstr "Conexiune întreruptă cu %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s este pregătit să lupte în echipă."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Numărul maxim de spectatori într-o echipă: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Numărul maxim de jucători într-o echipă: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Insuficiente permisiuni pentru a muta alți jucători."
+
+msgid "battlesession/error/Limits"
+msgstr "Numărul maxim de jucători într-o echipă a fost depășit."
+
+msgid "blueprints/conversion/disable"
+msgstr "Nu ai fragmente suficiente pentru conversie."
+
+msgid "blueprints/conversion/error"
+msgstr "Nu pot demobiliza: server indisponibil. Reîncearcă mai târziu."
+
+msgid "blueprints/switch_off"
+msgstr "Proiecte vehicule: această facilitate a fost temporar suspendată. Ne cerem scuze pentru neplăcerile create."
+
+msgid "blueprints/switch_on"
+msgstr "Proiectele de vehicule sunt din nou disponibile."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Acţiune indisponibilă. Rezerva personală este deja în folosinţă."
+
+msgid "booster_activate/DISABLED"
+msgstr "Nu pot activa Rezerva personală. Acţiune indisponibilă."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Nu pot activa Rezerva personală. Acţiune indisponibilă."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Acţiune indisponibilă. Rezerva personală este indisponibilă sau nu e selectată."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Nu pot activa Rezerva personală. Acţiune indisponibilă."
+
+msgid "booster_activate/server_error"
+msgstr "Nu pot activa Rezerva personală. Încearcă mai târziu."
+
+msgid "booster_activate/success"
+msgstr "Rezerva personală \"%(boosterName)s\" activată. Timp rămas: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Nu se poate achiziționa Rezerva personală \"%(boosterName)s\". Credite insuficiente."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Nu se poate achizi?iona Rezerva personală \"%(boosterName)s\". Aur insuficient."
+
+msgid "booster_buy/server_error"
+msgstr "Nu se poate achiziționa Rezerva personală \"%(boosterName)s\"."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Nu se poate achiziționa Rezerva personală \"%(boosterName)s\". Serverul este temporar indisponibil."
+
+msgid "booster_buy/success"
+msgstr "Rezerva personală \"%(boosterName)s\" a fost achiziționată cu succes (%(count)s bucăți). Ai cheltuit %(money)s."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "booster_sell/server_error"
+msgstr "Nu se poate vinde Rezerva personală \"%(boosterName)s\". Încearcă din nou mai târziu."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Nu se poate vinde Rezerva personală \"%(boosterName)s\". Încearcă din nou mai târziu."
+
+msgid "booster_sell/success"
+msgstr "Rezerva personală \"%(boosterName)s\" a fost vândută cu succes (%(count)s bucăți). Ai primit %(money)s."
+
+msgid "buttons/goToPoll"
+msgstr "Mergi la sondaj"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Nu s-a putut recruta și transfera membrul de echipaj: tancul are echipaj unic permanent."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Ai atins limita de membrii de echipajului care pot fi recrutaţi gratuit într-o zi."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Nu se poate recruta şi transfera un membru al echipajului. Vehicul nepotrivit."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Nu se poate recruta şi transfera pe vehicul membrul echipajului. Credite insuficiente."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Nu se poate recruta şi transfera pe vehicul membrul echipajului. Aur insuficient."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Nu se poate recruta şi transfera pe vehicul membrul echipajului. Încearcă din nou mai târziu."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Nu se poate recruta şi transfera un membru al echipajului. Vehicul blocat."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Nu s-a putut recruta și transfera membrul de echipaj: tancul are echipaj unic permanent."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Ai atins limita de membrii de echipajului care pot fi recrutaţi gratuit într-o zi."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Nu se poate recruta şi înlocui un membru al echipajului. Vehicul nepotrivit."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Nu se poate recruta şi înlocui un membru al echipajului. Credite insuficiente."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Nu se poate recruta şi înlocui un membru al echipajului. Aur insuficient."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Nu se poate recruta şi înlocui un membru al echipajului. Pentru a recruta un nou membru al echipajului ai nevoie de un pat liber. Eliberează un loc sau extinde Cazarma."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Nu se poate recruta şi înlocui un membru al echipajului. Încearcă din nou mai târziu."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Nu se poate recruta şi înlocui un membru al echipajului. Vehicul blocat."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Ai atins limita de vehicule gratuite care pot fi achiziţionate într-o zi. Încearcă din nou mâine."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Eroare la extinderea cazarmei. Credite insuficiente."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Eroare la extinderea cazarmei. Aur insuficient."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Nu pot extinde cazarma. Încearcă mai târziu."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Cazarmă extinsă.\nAur cheltuit: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "buy_vehicle_slot_error"
+msgstr "Nu s-a putut cumpăra \"%s\". Spaţiu insuficient în Garaj. Poți vinde un vehicul existent sau poți cumpăra un loc suplimentar."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "Nu s-a putut cumpăra \"%s\". Spaţiu insuficient în Garaj. Eliberează un loc."
+
+msgid "challenges/activate/serverError"
+msgstr "Nu pot activa misiunile Creuzet. Reîncearcă mai târziu."
+
+msgid "challenges/activate/success/text"
+msgstr "Prima misiune din această serie este disponibilă pentru finalizare. Intră în lupte și răspunde provocării!"
+
+msgid "challenges/activate/success/title"
+msgstr "Creuzet: %(challengeName)s activată!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Spre Creuzet"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Finalizează acum și obține recompensele."
+
+msgid "challenges/challengeEnd/title"
+msgstr "Misiunile Creuzet se încheie în curând!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Felicitări!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Ai finalizat Creuzet: %(challengeName)s! Recompense obținute:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Credite cheltuite:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Bonduri cheltuite:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Aur cheltuit:"
+
+msgid "challenges/restart/free/text"
+msgstr "S-a utilizat o restartare gratuită și progresul misiunii a fost resetat."
+
+msgid "challenges/restart/free/title"
+msgstr "Creuzet: %(challengeName)s s-a restartat gratuit"
+
+msgid "challenges/restart/paid/title"
+msgstr "Creuzet: %(challengeName)s s-a restartat"
+
+msgid "challenges/restart/serverError"
+msgstr "Nu pot restarta misiunile Creuzet. Reîncearcă mai târziu."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "Acţiune indisponibilă. Aşteaptă până când operaţiunea curentă va fi finalizată."
+
+msgid "challenges/surrender/serverError"
+msgstr "Nu pot activa abandona Creuzet. Reîncearcă mai târziu."
+
+msgid "challenges/surrender/success/text"
+msgstr "Ai abandonat Creuzet: %(challengeName)s. Seria de misiuni a eșuat."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Nu s-au putut schimba calificările membrului de echipaj: tancul are echipaj unic permanent."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Nu se poate schimba calificarea. Încearcă mai târziu."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Nu se poate schimba calificarea. Vehicul incorect."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "Vehiculul nu este în Garaj. Membrul de echipaj recalificat va fi trimis în Cazarmă."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Nu se poate schimba calificarea membrului de echipaj. Nu ai suficiente credite."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Nu se poate schimba calificarea membrului de echipaj. Nu ai suficient aur."
+
+msgid "change_tankman_role/server_error"
+msgstr "Nu se poate schimba calificarea.\nÎncearcă mai târziu."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "Deja există un %(role)s pe %(vehicle)s. Membrul de echipaj recalificat va fi trimis în Cazarmă."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Nu se poate schimba calificarea. Încearcă mai târziu."
+
+msgid "charge/credits_error"
+msgstr "Sunt necesare încă %s credite şi %s aur. Alege manual cantitatea de muniţie."
+
+msgid "charge/credits_error_credits"
+msgstr "Sunt necesare încă %s credite. Alege manual cantitatea de muniţie."
+
+msgid "charge/credits_error_gold"
+msgstr "Este necesar încă %s aur. Alege manual cantitatea de muniţie."
+
+msgid "charge/inventory_error"
+msgstr "Realimentarea cu muniţie a vehiculului %(vehicle)s a eşuat. Încarcă muniția manual."
+
+msgid "charge/money_spent"
+msgstr "S-au cheltuit %s în total, pentru muniţie."
+
+msgid "charge/server_error"
+msgstr "Eroare la încărcarea muniţiei. Încearcă mai târziu."
+
+msgid "charge/server_error_save"
+msgstr "Eroare la depozitarea muniţiei. Încearcă mai târziu."
+
+msgid "charge/success"
+msgstr "Muniţie încărcată cu succes."
+
+msgid "charge/success_save"
+msgstr "Muniţie depozitată cu succes."
+
+msgid "checkout_error"
+msgstr "Eroare la primirea datelor jucătorului. Încearcă mai târziu."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/notifications/accept"
+msgstr "Acceptă"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Invitație în clan trimisă deja către %(userName)s."
+
+msgid "clans/notifications/decline"
+msgstr "Refuză"
+
+msgid "clans/notifications/from"
+msgstr "de la %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "Vezi detalii clan"
+
+msgid "clans/notifications/invite"
+msgstr "Invitație de intrare în clan"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Invitația clanului acceptată."
+
+msgid "clans/notifications/invite/declined"
+msgstr "Invitația clanului refuzată."
+
+msgid "clans/notifications/invite/expired"
+msgstr "Invitația clanului este invalidă."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s a acceptat invitația clanului."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s a refuzat invitația clanului."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Nu pot trimite invitația în clan către %(userName)s."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Invitație în clan trimisă către %(userName)s."
+
+msgid "clans/notifications/invites"
+msgstr "Invitații clan: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Anulează notificările"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Vezi invitațiile"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Invitaţiile în clan nu au fost trimise către %(userCount)d jucători."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Invitaţii trimise către %(userCount)d jucători."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Ai fost acceptat în clanul\n%(nameStartTag)s%(name)s%(nameEndTag)s."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "Cererea de intrare în clanul\n%(nameStartTag)s%(name)s%(nameEndTag)s a fost respinsă."
+
+msgid "clans/notifications/request"
+msgstr "Cerere de intrare în clan"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Cerere acceptată."
+
+msgid "clans/notifications/request/declined"
+msgstr "Cerere respinsă."
+
+msgid "clans/notifications/requestSent"
+msgstr "Cerere trimisă la clan:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Invitații de la jucători: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Vezi cereri"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s a fost deja invitat în clan."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Acțiune indisponibilă. Jucătorul nu îndeplinește criteriile de recrutare."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "Penalizarea de o zi pentru părăsirea prețiosului tău clan încă nu a expirat."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Acțiune indisponibilă. Cont incorect."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Acțiune indisponibilă. Contul este suspendat."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Acest jucător este deja membru al clanului."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Acțiune indisponibilă. Jucătorul nu este membru al clanului."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Acțiune indisponibilă. Cererea nu există."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "Acțiune indisponibilă. Cererea a expirat."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Nu ai permisiuni suficiente pentru a trimite o invitaţie clanului."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Recrutarea în clan este oprită."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "Clanul este plin."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Acțiune indisponibilă. Clanul nu există."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Acțiune indisponibilă. Clanul nu are locuri libere."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Acțiune indisponibilă. Clanul a fost desființat."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Acțiune indisponibilă. Clanul este inactiv."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Acţiune indisponibilă pentru conturi de acest tip."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Acţiune indisponibilă. Nu ai suficiente permisiuni."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Acțiune indisponibilă. Invitația nu există."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Acțiune indisponibilă. Invitația a expirat."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Acțiune indisponibilă. Fortul este indisponibil."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Acțiune indisponibilă. A fost trimis numărul maxim de cereri."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Acțiune indisponibilă. A fost trimis numărul maxim de invitații."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s este deja membru al unui clan."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" nu se potriveşte pe vehicul."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" nu se potriveşte pe turela curentă. Schimbă turela."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" nu se potriveşte."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" e din altă națiune."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" nu se potriveşte pe vehicul."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" nu se potriveşte."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" e din altă națiune."
+
+msgid "client_inactive"
+msgstr "Client inactiv"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "Colecțiile temporar indisponibile din cauza lucrărilor de mentenanță."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Colecții indisponibile"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Colecțiile au fost reparate. Ne oferim scuze pentru deranj."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Colecțiile sunt disponibile din nou"
+
+msgid "connected"
+msgstr "Bine ai venit pe serverul World of Tanks %s!"
+
+msgid "consumables_apply/error"
+msgstr "Eroare de configurare a consumabilelor. Încearcă mai târziu."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Eroare de configurare a consumabilelor. Fonduri insuficiente pentru achiziție."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "Operațiune indisponibilă. Aurul tău va fi disponibil după ce funcționarea WG Wallet va fi restaurată."
+
+msgid "conversion/error"
+msgstr "Nu pot demobiliza: server indisponibil. Reîncearcă mai târziu."
+
+msgid "conversion/header"
+msgstr "Data: %(at)s\nS-a adăugat:"
+
+msgid "conversion/success"
+msgstr "Membri de echipaj insuficient antrenați, disponibilizați: %(number)s"
+
+msgid "conversion/title"
+msgstr "Chitanţă"
+
+msgid "conversionPerks/header"
+msgstr "Data: %(at)s\nLimita de conversie în EXP din talente de echipaj a fost depășită. Obținut: "
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "Mesajele private nu sunt disponibile jucătorilor din țara ta."
+
+msgid "crewBooks/failed"
+msgstr "Nu pot antrena acest echipaj.\nReîncearcă mai târziu."
+
+msgid "crewBooks/server_error"
+msgstr "Antrenarea membrilor de echipaj a eșuat din cauza unei erori de server. Reîncearcă mai târziu."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (%(count)sx)"
+
+msgid "crewBooksNotification/success"
+msgstr "Echipaj antrenat.\nS-au cheltuit:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Nu pot cumpăra cartea pentru echipaj din cauza unei erori pe server. Încearcă mai târziu."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s articol(e)).\nCredite cheltuite: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Nu pot vinde cartea pentru echipaj din cauza unei erori pe server. Încearcă mai târziu."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s articol(e)).\nCredite obținute: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Fețe echipaj schimbate."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Fețe echipaj adăugate: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "Vehiculul curent este înlocuit cu %s."
+
+msgid "customization/added/attachment"
+msgstr "Atașamentul 3D %s adăugat"
+
+msgid "customization/added/attachmentValue"
+msgstr "Atașamentul 3D %s adăugat: (%sx)"
+
+msgid "customization/added/camouflage"
+msgstr "Camuflajul %s adăugat"
+
+msgid "customization/added/camouflageValue"
+msgstr "Camuflajul %s adăugat: (%sx)"
+
+msgid "customization/added/decal"
+msgstr "Autocolantul %s adăugat"
+
+msgid "customization/added/decalValue"
+msgstr "Autocolantul %s adăugat (%sx)"
+
+msgid "customization/added/emblem"
+msgstr "Emblema %s adăugată"
+
+msgid "customization/added/emblemValue"
+msgstr "Emblema %s adăugată (%sx)"
+
+msgid "customization/added/inscription"
+msgstr "Inscripția %s adăugată"
+
+msgid "customization/added/inscriptionValue"
+msgstr "Inscripția %s adăugată (%sx)"
+
+msgid "customization/added/modification"
+msgstr "Efectul %s adăugat"
+
+msgid "customization/added/modificationValue"
+msgstr "Efectul %s adăugat (%sx)"
+
+msgid "customization/added/paint"
+msgstr "Vopseaua %s adăugată"
+
+msgid "customization/added/paintValue"
+msgstr "Vopseaua %s adăugată (%sx)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "Numărul de o cifră %s adăugat"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "Numărul de o cifră %s adăugat: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "Numărul de două cifre %s adăugat"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "Numărul de două cifre %s adăugat: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "Numărul de trei cifre %s adăugat"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "Numărul de trei cifre %s adăugat: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "Autocolantul %s adăugat"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "Autocolantul %s adăugat (%sx)"
+
+msgid "customization/added/statTracker"
+msgstr "Monitor statistici: adăugat %s"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Monitor statistici: adăugate %s (%sx)"
+
+msgid "customization/added/style"
+msgstr "Stilul %s adăugat"
+
+msgid "customization/added/styleValue"
+msgstr "Stilul %s adăugat: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Nu se poate aplica personalizarea. Credite și aur insuficiente."
+
+msgid "customization/credits_not_enough"
+msgstr "Nu se poate aplica personalizarea. Credite insuficiente."
+
+msgid "customization/currency_not_enough"
+msgstr "Monedă insuficientă pentru a cumpăra articolul."
+
+msgid "customization/gold_not_enough"
+msgstr "Nu se poate aplica personalizarea. Aur insuficient."
+
+msgid "customization/igr_type_changed_error"
+msgstr "Statutul IGR schimbat. Operaţiunea curentă oprită."
+
+msgid "customization/invalidVehicle"
+msgstr "Nu se poate aplica: vehicul ne-eligibil"
+
+msgid "customization/personal_number_prohibited"
+msgstr "Numărul %(value)s e indisponibil.\n%(itemType)s%(itemName)s a fost eliminat de pe harta %(seasonName)s."
+
+msgid "customization/progression/down/style"
+msgstr "Stilul %s scăzut la nivelul %s"
+
+msgid "customization/progression/up/style"
+msgstr "Stilul %s crescut la nivelul %s"
+
+msgid "customization/prohibited"
+msgstr "Aplicare imposibilă: %(itemName)s nu este în inventar."
+
+msgid "customization/removed/attachment"
+msgstr "Atașamentul 3D %s eliminat"
+
+msgid "customization/removed/attachmentValue"
+msgstr "Atașamentul 3D %s eliminat (%sx)"
+
+msgid "customization/removed/camouflage"
+msgstr "Camuflajul %s eliminat"
+
+msgid "customization/removed/camouflageValue"
+msgstr "Camuflajul %s eliminat: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "Modelul %s eliminat"
+
+msgid "customization/removed/decalValue"
+msgstr "Modelul %s eliminat: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "Emblema %s eliminată"
+
+msgid "customization/removed/emblemValue"
+msgstr "Emblema %s eliminată: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "Inscripția %s eliminată"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "Inscripția %s eliminată: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "Efectul %s eliminat"
+
+msgid "customization/removed/modificationValue"
+msgstr "Efectul %s eliminat: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "Vopseaua %s eliminată"
+
+msgid "customization/removed/paintValue"
+msgstr "Vopseaua %s eliminată: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "Numărul de o cifră %s eliminat"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "Numărul de o cifră %s eliminat: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "Numărul de două cifre %s eliminat"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "Numărul de două cifre %s eliminat: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "Numărul de trei cifre %s eliminat"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "Numărul de trei cifre %s eliminat: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "Modelul %s eliminat"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "Modelul %s eliminat: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Monitor statistici: eliminat %s"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Monitor statistici: eliminate %s (%sx)"
+
+msgid "customization/removed/style"
+msgstr "Stilul %s eliminat"
+
+msgid "customization/removed/styleValue"
+msgstr "Stilul %s eliminat: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Nu pot personaliza."
+
+msgid "customization/unavailable"
+msgstr "Funcția de personalizare a vehiculului este temporar dezactivată din motive tehnice."
+
+msgid "customization/vehicle_damaged"
+msgstr "Nu se poate aplica personalizarea. Vehicul avariat. Sunt necesare reparații."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Nu se poate aplica personalizarea. Vehicul scos din luptă. Sunt necesare reparaţii."
+
+msgid "customization/vehicle_exploded"
+msgstr "Nu se poate aplica personalizarea. Vehicul distrus. Sunt necesare reparaţii."
+
+msgid "customization/vehicle_locked"
+msgstr "Nu se poate aplica personalizarea. Vehicul blocat."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Nu pot reseta misiunea standard: misiune deja finalizată."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Nu pot reseta misiunea standard: operațiune blocată."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Nu pot reseta misiunea standard: operațiune suspendată."
+
+msgid "daily_quests/reroll/success"
+msgstr "Misiunea standard resetată cu succes."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Nu pot reseta misiunea standard. Încearcă mai târziu."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Funcționalitate momentan indisponibilă din motive tehnice.\nNe cerem scuze pentru problemă."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Misiunile standard sunt momentan indisponibile"
+
+msgid "daily_quests/switch_on/body"
+msgstr "Problemele tehnice au fost rezolvate. Ne oferim scuze pentru deranj."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Misiunile standard sunt din nou disponibile"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Funcționalitate momentan indisponibilă din motive tehnice.\nNe cerem scuze pentru problemă."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "Bonusul administrabil la experiență este temporar indisponibil"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "Problemele tehnice au fost rezolvate. Ne cerem scuze pentru deranj."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "Bonusul administrabil la experiență este disponibil din nou"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Operațiunile cu kiturile de demontare sunt temporar indisponibile din cauza mentenanței."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Operațiunile cu kiturile de demontare sunt operaționale din nou. Ne oferim scuze pentru deranj."
+
+msgid "denunciation/success"
+msgstr "Plângerea față de %(name)s referitor la \"%(topic)s\" acceptată."
+
+msgid "disconnected"
+msgstr "Eşti deconectat de la server."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Nu s-a putut concedia membrul de echipaj: tancul are echipaj unic permanent."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Eroare concediere membru al echipajului. Vehicul greşit."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Nu pot demobiliza acest membru de echipaj.\nReîncearcă mai târziu."
+
+msgid "dismiss_tankman/success"
+msgstr "Membru de echipaj demobilizat."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Eroare concediere membru echipaj. Vehiculul e blocat."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Eroare concediere membru echipaj. Repară vehiculul."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Funcționalitate momentan indisponibilă din motive tehnice.\nNe oferim scuze pentru problemă."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Plăcuțele sunt momentan indisponibile"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Problemele tehnice au fost rezolvate. Ne oferim scuze pentru deranj."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Plăcuțele de identificare sunt din nou disponibile"
+
+msgid "dossiers_unavailable"
+msgstr "Contul nu este pregătit (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Toate talentele au fost resetate.\nCredite cheltuite: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Toate talentele au fost resetate.\nAur cheltuit: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Eroare la resetarea talentelor. Vehicul nepotrivit."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Nu pot reseta talentele. Încearcă mai târziu."
+
+msgid "drop_tankman_skill/success"
+msgstr "Toate talentele au fost resetate."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Eroare la resetarea talentelor. Vehicul blocat."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Eroare la resetarea talentelor. Repară vehiculul."
+
+msgid "drr_scale/step_down"
+msgstr "Rezoluţia dinamică este redusă la %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Rezoluţia dinamică este crescută până la %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "Spre Realizări"
+
+msgid "earning/button/single"
+msgstr "Spre Realizare"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s Realizări deblocate!"
+
+msgid "earning/common/single"
+msgstr "Realizarea %(value)s deblocată!"
+
+msgid "earning/title"
+msgstr "Felicitări!"
+
+msgid "earning/trophy/multiple"
+msgstr "%(value)s trofee obținute!"
+
+msgid "earning/trophy/single"
+msgstr "Trofeul %(value)s obținut!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "Service-ul rapid este din nou disponibil. Oferim scuze pentru neplăceri."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "Service-ul rapid este temporar indisponibil din cauza lucrărilor de mentenanță."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Eroare la aplicarea configurării Service-ului rapid. Reîncearcă mai târziu."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Eroare la aplicarea configurării Service-ului rapid. Fonduri insuficiente pentru achiziție."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Operațiunea Service-ului rapid indisponibilă. Aurul tău va fi disponibil după ce funcționarea WG Wallet va fi restaurată."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Recompensă primită:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Ai atins nivelul <font color='#E9E2BF'>%(tier)s</font> al progresului pe Front."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Felicitări!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "Frontul este indisponibil. Urmărește actualizările pe portalul jocului."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Eroare la selectarea recompenselor. Încearcă din nou."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "S-a primit %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Directive pentru echipament obținute: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Echipament experimental primit: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "Sezonul Frontului s-a încheiat.<br/>Toate recompensele pe care nu le-ai ales pe parcursul sezonului ți s-au acordat implicit:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Front"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Nu s-a putut tranfera membrul de echipaj: tancul are echipaj unic permanent."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Eroare transfer membru echipaj la vehicul. Vehicul greşit."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Nu se poate trimite membrul de echipaj în cazarmă. Locuri insuficiente."
+
+msgid "equip_tankman/server_error"
+msgstr "Transfer membru echipaj în vehicul nereușit. Reîncearcă mai târziu."
+
+msgid "equip_tankman/success"
+msgstr "Membru de echipaj transferat către %(vehName)s."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Eroare transfer membru echipaj în vehicul. Vehicul blocat."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Eroare transfer membru echipaj în vehicul. Repară vehiculul."
+
+msgid "exchange/not_enough_gold"
+msgstr "Aur insuficient pentru convertire."
+
+msgid "exchange/server_error"
+msgstr "Eroare la convertirea a %(gold)s aur. Încearcă mai târziu."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Aur insuficient pentru convertirea a %(xp)s EXP."
+
+msgid "exchangeXP/server_error"
+msgstr "Eroarea la convertirea a %(xp)s EXP. Încearcă mai târziu."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Nu pot antrena noile talente.\nServer indisponibil. Reîncearcă mai târziu."
+
+msgid "filling_untrained_perks/success"
+msgstr "Talente noi antrenate pentru toți membrii de echipaj."
+
+msgid "fortification/addOrder"
+msgstr "Pregătirea a %(count)s rezerve a început. Timp rămas: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "Construirea structurii %(buildingName)s a început. Transportă cantitatea necesară de resurse industriale pentru a asigura construirea neîntreruptă."
+
+msgid "fortification/created"
+msgstr "Felicitări!\nFortul a fost construit."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Apărarea fortului va fi dezactivată în 48 de ore. În acest interval de timp poţi să reactivezi apărare la setările fortului."
+
+msgid "fortification/defenceHourSet"
+msgstr "Perioada defensivă va putea fi schimbată peste 14 zile. Noua perioadă defensivă: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "Ziua de Armistițiu va putea fi schimbată peste 14 zile. Noua zi de Armistițiu—nu e setată."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "Ziua de Armistițiu va putea fi schimbată peste 14 zile. Noua Zi de Armistițiu—%(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "Structura %(buildingName)s a fost demolată."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Acţiune indisponibilă. Eşti deja ataşat structurii."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Acţiune indisponibilă. Fortul a fost construit deja."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "Acţiune indisponibilă. Clanul se află deja pe lista de Favorite."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "Acţiune indisponibilă. Nu poţi planifica mai mult de un atac asupra aceluiaşi clan."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "Acţiune indisponibilă. Informaţiile atacului nu sunt încărcate."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "Acţiune indisponibilă. Trebuie să treacă o săptămână de la ultimul atac împotriva acelui clan."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "Acţiune indisponibilă. Alt detaşament controlează acest cap de pod."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "Acţiune indisponibilă. Atacul nu este planificat."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "Acţiune indisponibilă. Nu poţi planifica decât atacul care începe în cel putin 15 minute."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Nu se poate programa un atac în ziua selectată."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "Acţiune indisponibilă. ID clan incorect."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "Acţiune indisponibilă. Valoarea zilei de încetare a focului este incorectă."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "Acţiune indisponibilă. Data este incorectă."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "Acţiune indisponibilă. ID-ul Ofensivei este incorect."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "Acţiune indisponibilă. Valoarea perioadei de apărare este incorectă."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Nu pot ataca clanul selectat: diferenţa de nivel a Forturilor este mai mare decât unul. Selectează alt clan."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "Acţiune indisponibilă. Numărul rezerviştilor este incorect."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "Acţiune indisponibilă. Cantitatea de Resurse Industriale transferate este incorectă."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "Acţiune indisponibilă. Divizia este incorectă."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Acţiune indisponibilă. Detaliile despre raid nu au fost primite."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "Luptele pe acest server sunt momentan restricționate."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Acţiune indisponibilă. Perioada de Neutralitate este greşită."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Acţiune indisponibilă. Data Neutralităţii este invalidă."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "Acţiune indisponibilă. Repară centrul de comandă."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "Acţiune indisponibilă. Centrul de Comandă este distrus."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "Acţiune indisponibilă. Centrul de Comandă nu este deteriorat."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "Acţiune indisponibilă. Lupta nu există."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Ne pare rău, rezultatele luptei nu sunt disponibile."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Nu se poate elimina. Fortul conţine structuri."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "Acţiune indisponibilă. Clădirea este avariată."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Acţiune indisponibilă. Structura nu este construită."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "Acţiune indisponibilă. Nu pot obține detaliile clanului."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "Acţiune indisponibilă. Nu se poate găsi clanul."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Acţiune indisponibilă. Transport indisponibil."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Acţiune indisponibilă. Nu se poate moderniza structura."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Operaţiune respinsă. Serverul este indisponibil temporar."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "Acţiune indisponibilă. Clanul declară Ziua Armistiţiului."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "Acţiune indisponibilă. Clanul şi-a declarat Neutralitatea."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "Acţiune indisponibilă. Nu se poate seta Perioada Defensivă la ora aleasă."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "Acţiune indisponibilă. Alt detaşament controlează acest cap de pod."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "Acţiune indisponibilă. Apărarea nu este planificată."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Acţiune indisponibilă. Date incorecte."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "Acţiune indisponibilă. Apărarea nu este activată."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Fortul este temporar indisponibil."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Acţiune indisponibilă. Structura este deja construită."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Acţiune indisponibilă. Aşteaptă până când operaţiunea curentă va fi finalizată."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "Acţiune indisponibilă. Atacați alt clan la ora respectivă."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Nu s-a putut programa un atac asupra acestui clan la ora cerută."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Eroare. Fortul este temporar indisponibil."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Acţiune indisponibilă. Nivelul fortului este prea redus."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "Acţiune indisponibilă. Construcţia tuturor clădirilor este întreruptă."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Acţiune indisponibilă. Fără autorizaţie."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "Acţiune indisponibilă. Nu se poate intra în unitatea operativă."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Acţiunea este indisponibilă temporar."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "Acţiune indisponibilă. Timpul nu este sincronizat."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Acţiune indisponibilă. Nu eşti ataşat structurii."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Acţiune indisponibilă. Jucătorul nu este membru al unui clan."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Acţiune indisponibilă. Număr insuficient de jucători în clan."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Acţiune indisponibilă. Resurse industriale insuficiente în depozitul structurii."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "Acţiune indisponibilă. Clanul nu se află pe lista de Favorite."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Acţiune indisponibilă. Structura nu este construită."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Acţiune indisponibilă. Nu eşti membru al unui clan."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "Acţiune indisponibilă. Rezervele nu pot fi activate momentan."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Acţiune indisponibilă. Structura este greşită."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Acţiune indisponibilă. Rezerva este indisponibilă sau nu a fost selectată."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Acţiune indisponibilă. Rezerva este greșită."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Acţiune indisponibilă. Rezerva este greșită."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "Acţiune indisponibilă. Clădirea este deja în construcţie."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "Acţiune indisponibilă. Atacul nu există."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Acţiune indisponibilă. Rezerva este activată."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Acţiune indisponibilă. Rezerva este în curs de realizare."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "Acţiune indisponibilă. Construirea este deja întreruptă."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "Acţiune indisponibilă. Rezerva nu este disponibilă."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "Acţiune indisponibilă. Construirea nu este întreruptă."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "Acţiune indisponibilă. Serverul este deconectat."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "Acţiune indisponibilă. Poziţia este deja ocupată."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "Acţiune indisponibilă. Apărarea este deja dezactivată."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "Acţiune indisponibilă. Apărarea nu este încă dezactivată."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Acţiune indisponibilă. Antrenamentul nu este finalizat."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Acţiune indisponibilă. Depozitul este plin."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "Acţiune indisponibilă. Apărarea este deja planificată pentru ziua de astăzi."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "Limita de clanuri salvate a fost atinsă."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "Acţiune indisponibilă. Numărul maxim de rezerve pregătite a fost atins."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Acţiune indisponibilă. Garnizoana structurii este plină."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Acţiune indisponibilă. Numărul maxim de raiduri a fost atins."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Acţiune indisponibilă. Transportul este indisponibil temporar."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Acţiune indisponibilă. Limita de transport a fost atinsă."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "Acţiune indisponibilă. Jucătorul nu este pregătit."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Acţiune indisponibilă. Nu se poate demola centrul de comandă."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Acțiune indisponibilă. Clan invalid."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "Acţiune indisponibilă. Server incorect."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Acţiune indisponibilă. Nu se poate construi o structură în această zonă."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Eşti ataşat structurii %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "Ofensiva oprită forţat datorită unor probleme tehnice pe server."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Modernizarea a fost finalizată. Nivelul structurii %(buildingName)s a crescut la %(buildingLevel)s."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Fortul este temporar indisponibil. Încearcă din nou mai târziu."
+
+msgid "fortification/notification/turnedOn"
+msgstr "Modul Ofensivă este disponibil din nou."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Activează rezerva"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Construieşte structura"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Marchează clanul ca preferat"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Activează rezerva"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Adaugă jucătorul la garnizoană"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Reactivează perioada defensivă"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Modifică perioada defensivă"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Modifică armistiţiul"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Schimbă reverrul"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Schimbă setările"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Modifică neutralitatea"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Creează Fort"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Creează detaşament"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Elimină structura"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Elimină Fort"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Programează atacul"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Elimină din lista de clanuri preferate"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Vezi detaliile despre clan"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Vezi detaliile despre clanuri"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Solicită detalii despre detaşament"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Dezactivează perioada defensivă"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Transport"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Modernizarea structurii"
+
+msgid "fortification/transport"
+msgstr "Transportul a fost realizat. %(res)s de resurse industriale au fost transportate de la structura %(fromBuilding)s la structura %(toBuilding)s."
+
+msgid "fortification/vacationSet"
+msgstr "Fortul îşi menţine Neutralitatea %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Operaţiunea nu este disponibilă."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Eroare la pregătire membru echipaj. Nu există suficientă Experienţă liberă."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Eroare la pregătire membru echipaj. Acest membru nu există."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Eroare la pregătirea membrului echipajului. Încearcă mai târziu."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Eroare la pregătirea membrului echipajului. Încearcă mai târziu."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Nu pot antrena un membru de echipaj contra EXP liberă.\nReîncearcă mai târziu"
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Membru de echipaj antrenat.\nEXP liberă cheltuită: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "Pentru a preveni dependența de joc la copii și adolescenți, intrarea în luptă va fi interzisă. Vei fi deconectat de la server la %(blockTime)s."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Durata rămasă a sesiunii de joc: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "Limita de timp expiră, deci nu poți intra într-o luptă nouă. Vei fi deconectat de la server la %s."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Durata sesiunii de joc: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Timp rămas până la miezul nopţii: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "Limita de joc a expirat. Nu poți intra într-o luptă nouă. Vei fi deconectat de la server la %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "Limita de joc a fost eliminată din contul tău"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "Setările controlului parental au fost modificate."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Vei fi deconectat de la server la %(timeLimit)s."
+
+msgid "graficsOptionsFail"
+msgstr "Placa video este incompatibilă cu setarea %s."
+
+msgid "graficsPresetFail"
+msgstr "Placa video este incompatibilă cu setările grafice alese."
+
+msgid "igr/customization/begin"
+msgstr "Camuflaje, inscripţii şi embleme gratuite sunt disponibile în %(igrIcon)s."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s a expirat. Camuflajele gratuite, inscripţiile şi Emblemele vor fi eliminate de pe vehicul tău."
+
+msgid "info/noAvailable"
+msgstr "Informaţiile detaliate nu sunt disponibile."
+
+msgid "install_component"
+msgstr "%s \"%s\" s-a montat pe vehicul."
+
+msgid "install_vehicle_broken"
+msgstr "Nu se poate monta modulul %s \"%s\": vehiculul este avariat. Repară vehiculul şi încearcă din nou."
+
+msgid "install_vehicle_locked"
+msgstr "Vehiculul este blocat, nu se poate monta %s \"%s\"."
+
+msgid "inventory/item/already_exists"
+msgstr "Componenta %(typeString)s \"%(userString)s\" este deja disponibilă în depozit."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Cererea pentru montarea echipamentului a fost trimisă, se aşteaptă răspunsul serverului."
+
+msgid "inventory/item/not_found"
+msgstr "Componenta %(typeString)s \"%(userString)s\" nu a fost găsită în depozit."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "Vehiculul \"%(userString)s\" este deja disponibil în garaj."
+
+msgid "inventory/vehicle/not_found"
+msgstr "Vehiculul \"%(userString)s\" nu a fost găsit în garaj."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "Invitaţia către legionarul %(name)s nu poate fi trimisă."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "Invitaţia către %(name)s nu poate fi trimisă: clan greşit."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Eroare de service pentru \"%(vehName)s\". Nu se poate realimenta cu consumabile. Încearcă mai târziu."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Eroare de service pentru \"%(vehName)s\". Nu se poate realimenta cu consumabile. Încearcă mai târziu."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Eroare de service pentru \"%(vehName)s\". Nu se poate realimenta cu consumabile. Încearcă mai târziu."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Eroare de service pentru \"%(vehName)s\". Nu se poate realimenta cu proiectile. Încearcă mai târziu."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Eroare de service pentru \"%(vehName)s\". Nu se poate realimenta cu proiectile. Cantitatea maximă este deja la bord."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Eroare de service pentru \"%(vehName)s\". Nu se poate realimenta cu consumabile. Încearcă mai târziu."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Eroare de service pentru \"%(vehName)s\". Credite insuficiente pentru a cumpăra consumabilele. Încearcă mai târziu."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Eroare de service: \"%(vehName)s\". Bonduri insuficiente pentru a achiziționa consumabile."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Eroare de service: \"%(vehName)s\". Aur insuficient pentru a cumpăra consumabilele. Încearcă mai târziu."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Eroare de service pentru \"%(vehName)s\". Nu se poate realimenta cu consumabile. Încearcă mai târziu."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Eroare de service pentru ”%(vehName)s”. Vehicul nepotrivit."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Eroare de service pentru \"%(vehName)s\". Credite insuficiente pentru a cumpăra proiectilele."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Eroare de service pentru \"%(vehName)s\". Aur insuficient pentru a cumpăra proiectilele."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Eroare de service pentru ”%(vehName)s”. Vehiculul este blocat."
+
+msgid "layout_apply/error"
+msgstr "Eroare de service pentru \"%(vehName)s\". Încearcă mai târziu."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Eroare de service pentru ”%(vehName)s”. Vehicul nepotrivit."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Ai cheltuit în total, pentru muniţie, %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Eroare de service pentru ”%(vehName)s”. Vehiculul este blocat."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "limitedUI/switchOff"
+msgstr "Apariția graduală a elementelor de interfață ascunse este momentan dezactivată."
+
+msgid "limitedUI/switchOn"
+msgstr "Apariția graduală a elementelor de interfață ascunse este activată din nou. O poți dezactiva din setări."
+
+msgid "locked_vehicle_error"
+msgstr "Această acțiune nu este posibilă pentru vehiculele preconfigurate."
+
+msgid "login_to_other_game_unknown"
+msgstr "sesiunea de joc curentă a fost întreruptă. Contul tău Wargaming.net&nbsp;ID a fost utilizat pentru conectare la alt joc"
+
+msgid "login_to_other_game_web"
+msgstr "sesiunea curentă a fost întreruptă. Ai fost deconectat de la server prin portalul jocului."
+
+msgid "login_to_other_game_wot"
+msgstr "sesiunea de joc curentă a fost întreruptă. Contul tău Wargaming.net&nbsp;ID a fost utilizat pentru conectare la World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "sesiunea de joc curentă a fost întreruptă. Contul tău Wargaming.net&nbsp;ID a fost utilizat pentru conectare la World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "sesiunea de joc curentă a fost întreruptă. Contul tău Wargaming.net&nbsp;ID a fost utilizat pentru conectare la World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "sesiunea de joc curentă a fost întreruptă. Contul tău Wargaming.net&nbsp;ID a fost utilizat pentru conectare la World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "sesiunea de joc curentă a fost întreruptă. Contul tău Wargaming.net&nbsp;ID a fost utilizat pentru conectare la World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "Eroare la primirea cadoului: eroare de server."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Eroare la primirea cadoului. Așteaptă finalizarea operațiunii anterioare."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "Acțiunea momentan indisponibilă. Încearcă mai târziu."
+
+msgid "mapbox/notification/primeTime"
+msgstr "Misiunea de recunoaștere este indisponibilă până la finalul armistițiului."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Armistițiu"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Eroare de server"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "Acţiune indisponibilă. Aşteaptă până când operaţiunea curentă va fi finalizată."
+
+msgid "maps_black_list/select/success"
+msgstr "Harta %(mapName)s a fost exclusă din Luptele standard. Poți schimba selecția în %(time)s."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "Harta %(mapName)s a fost exclusă din luptele standard. Îți poți schimba alegerea în %(time)s sau poți debloca un locaș suplimentar activând contul premium WoT sau abonându-te la WoT Plus."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "Harta %(mapName)s a fost exclusă din luptele standard. Îți poți schimba alegerea în %(time)s sau poți debloca un locaș suplimentar abonându-te la WoT Plus."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "Harta %(mapName)s a fost exclusă din luptele standard. Îți poți schimba alegerea în %(time)s sau poți debloca un locaș suplimentar activând contul premium WoT."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Funcționalitate momentan indisponibilă din motive tehnice.\nNe cerem scuze pentru problemă."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "Excluderea de hărți temporar indisponibilă"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "Problemele tehnice au fost rezolvate. Ne cerem scuze pentru deranj."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "Excluderea de hărți este disponibilă din nou"
+
+msgid "maps_training/switch/title"
+msgstr "Topografie"
+
+msgid "maps_training/switch_off/body"
+msgstr "Acest mod este dezactivat."
+
+msgid "maps_training/switch_on/body"
+msgstr "Acest mod este activat."
+
+msgid "memberRosterChangedMain"
+msgstr "%s l-a transferat pe %s în echipa de bază."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s l-a transferat pe %s în echipa de rezervă."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Memorie insuficientă. Reporneşte jocul."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Memorie insuficientă. Texturi de calitate minimă."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Memorie insuficientă. Texturi de calitate medie."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Memorie insuficientă. Setările grafice au fost schimbate. Reporneşte jocul."
+
+msgid "missingEvents/button"
+msgstr "Deschide"
+
+msgid "missingEvents/header"
+msgstr "Evenimente"
+
+msgid "missingEvents/text"
+msgstr "Evenimente importante pe care le-ai ratat: "
+
+msgid "module_apply/error_is_current"
+msgstr "Componenta %(kind)s „%(name)s” este deja montată."
+
+msgid "module_apply/error_need_gun"
+msgstr "Nu se poate monta %(kind)s „%(name)s” pe vehicul cu tunul curent."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s „%(name)s” nu este compatibil cu turela curentă. Înlocuieşte turela."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s „%(name)s” nu a fost montată. Nu există tun compatibil în depozit."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s „%(name)s” nu este compatibil cu turela curentă. Înlocuieşte turela."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" nu se potrivește pe acest vehicul."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "Componenta %(kind)s „%(name)s” nu este compatibilă cu consumabilele \"%s\"."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "Componenta %(kind)s „%(name)s” este nepotrivită."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "Componenta %(kind)s „%(name)s” este pentru altă ţară."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "Consumabilul „%(items)s” a fost trimis în depozit datorită incompatibilităţii cu componenta curentă."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Vehicul nepotrivit. Nu se poate monta componenta %(kind)s „%(name)s”."
+
+msgid "module_apply/server_error"
+msgstr "Eroare de server la montarea componentei %(kind)s „%(name)s”. Încearcă mai târziu."
+
+msgid "module_apply/success"
+msgstr "%(kind)s „%(name)s” a fost montat pe vehicul."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s „%(name)s” a fost montată pe vehicul cu tunul „%(gun)s”."
+
+msgid "module_apply/vehicle_locked"
+msgstr "Vehiculul este blocat; nu se poate monta componenta %(kind)s „%(name)s”."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "Nu se poate monta componenta %(kind)s „%(name)s”: vehiculul este avariat. Repară vehiculul şi încearcă din nou."
+
+msgid "module_buy/error_is_current"
+msgstr "Componenta %(kind)s \"%(name)s\" este deja montată."
+
+msgid "module_buy/error_need_gun"
+msgstr "Nu se poate monta %(kind)s \"%(name)s\" pe vehicul cu tunul curent."
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" nu este compatibil cu turela curentă. Înlocuieşte turela."
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" nu a fost montată. Nu există tun compatibil în depozit."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s ”%(name)s” nu se potriveşte cu această turelă. Schimbă turela."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" nu se potrivește pe acest vehicul."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "Componenta %(kind)s \"%(name)s\" nu este compatibilă cu consumabilele \"%s\"."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "Componenta %(kind)s \"%(name)s\" este nepotrivită."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "Componenta %(kind)s \"%(name)s\" este pentru altă națiune."
+
+msgid "module_buy/invalid_module"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Componentă nepotrivită."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Vehicul incorect. Nu poţi cumpăra şi monta %(kind)s \"%(name)s\"."
+
+msgid "module_buy/not_enough_credits"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Credite insuficiente."
+
+msgid "module_buy/not_enough_gold"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Aur insuficient."
+
+msgid "module_buy/server_error"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Încearcă mai târziu."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "Nu s-a putut cumpăra %(kind)s \"%(name)s\". Serverul este temporar indisponibil."
+
+msgid "module_buy/success"
+msgstr "Componenta %(kind)s \"%(name)s\" a fost cumpărată cu succes (%(count)s buc.). Ai cheltuit %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Vehicul blocat. Nu poţi cumpăra şi monta %(kind)s \"%(name)s\"."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "Nu se poate cumpăra şi monta %(kind)s \"%(name)s\". Repară vehiculul şi încearcă din nou."
+
+msgid "module_buy/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "module_sell/invalid_module"
+msgstr "Nu s-a putut vinde %(kind)s „%(name)s”. Componentă nepotrivită."
+
+msgid "module_sell/server_error"
+msgstr "Nu s-a putut vinde %(kind)s „%(name)s”. Încearcă mai târziu."
+
+msgid "module_sell/success"
+msgstr "Componenta %(kind)s „%(name)s” (%(count)s buc.). Ai primit %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "S-au obținut %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Eroare la schimbarea configurației"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Eroare la schimbarea configurației"
+
+msgid "nation_change/error"
+msgstr "Eroare la schimbarea configurației"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: configurația națională schimbată"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Misiunile zilnice au fost actualizate din motive tehnice. Progresul misiunilor este salvat."
+
+msgid "notrecruit_window/success"
+msgstr "Membru de echipaj recrutat.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "Acțiunea momentan indisponibilă. Încearcă mai târziu."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Eroare la primirea cadoului: eroare de server"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Eroare la primirea cadoului: Unele recompense au întârziat; încearcă să le revendici mai târziu."
+
+msgid "offers/switch_off/body"
+msgstr "Serviciul de provizii pentru Homefront este momentan indisponibil."
+
+msgid "offers/unavailable_many"
+msgstr "Speciale indisponibile: %(count)s obiecte."
+
+msgid "offers/unavailable_one"
+msgstr "Special indisponibil."
+
+msgid "optionalDevices_apply/error"
+msgstr "Eroare de configurare a echipamentelor. Încearcă mai târziu."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Eroare de configurare a echipamentelor. Fonduri insuficiente pentru achiziție."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "Operațiune indisponibilă. Aurul tău va fi disponibil după ce funcționarea WG Wallet va fi restaurată."
+
+msgid "optionalDevices_remove/error"
+msgstr "Eroare de configurare a echipamentelor. Încearcă mai târziu."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "Mesajele private către jucătorii din afara listei tale de contacte nu sunt disponibile pentru contul tău."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "Mesajele private nu sunt disponibile pentru contul tău."
+
+msgid "parentControl/linkText"
+msgstr "Specifică data"
+
+msgid "parentControl/mainText"
+msgstr "Specifică data nașterii."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "Mesajele private către jucătorii din afara listei tale de contacte sunt interzise de controlul parental."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "Mesajele private sunt interzise de controlul parental."
+
+msgid "parentControl/title"
+msgstr "Confirmarea vârstei"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Tranferul nu este disponibil. Nu se poate stabili serverul."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Recompensă primită:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Spre operațiune"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Misiune finalizată"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Schimbă vehiculele pentru a continua finalizarea misiunii."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Operațiune: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Finalizate: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "Campania %(campaignName)s finalizată cu onoruri!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "Operațiunea %(operationName)s finalizată!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "Operațiunea %(operationName)s finalizată cu onoruri!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "Campaniile sunt temporar indisponibile din motive de mentenanță."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "Campaniile sunt din nou disponibile. Oferim scuze pentru neplăcere."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "Campania %(campaignName)s este temporar indisponibilă din motive de mentenanță."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "Campania %(campaignName)s este disponibilă din nou. Oferim scuze pentru neplăcere."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "Misiunea %(missionName)s din operațiunea %(operationName)s este temporar indisponibilă din motive de mentenanță."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "Misiunea %(missionName)s din operațiunea %(operationName)s este disponibilă din nou. Oferim scuze pentru neplăcere."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "Operațiunea %(operationName)s din campania %(campaignName)s este momentan indisponibilă din motive de mentenanță."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "Operațiunea %(operationName)s din campania %(campaignName)s este disponibilă din nou. Oferim scuze pentru neplăcere."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Eroare la schimbarea campaniilor. Încearcă mai târziu."
+
+msgid "personalMissions/badge"
+msgstr "Medalia %(name)s primită."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Camuflaj unic pentru %(vehicleName)s primit."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "Camuflajul unic pentru %(vehicleName)s este disponibil pentru toate vehiculele de naționalitate: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Întreg progresul operațiunii a fost salvat. Poți relua în orice moment campaniile."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "Campaniile %(campaignName1)s și %(campaignName2)s sunt suspendate"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "Operațiunile suspendate și misiunile acestora au fost reluate."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "Campaniile %(campaignName1)s și %(campaignName2)s au fost reluate"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Întreg progresul operațiunii a fost salvat. Poți relua în orice moment campania."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "Campania %(campaignName)s a fost suspendată"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "Operațiunile suspendate au fost reluate."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "Campania %(campaignName)s a fost reluată"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "%(detailName)s s-instalat cu succes."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Operațiunea: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Nu pot reseta misiunea. Încearcă mai târziu."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Acțiune indisponibilă. Misiunile sunt dezactivate temporar."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Nu pot reseta momentan misiunea. Încearcă mai târziu."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Nu pot reseta momentan misiunea. Așteaptă până când un vehicul de acest tip nu mai este în luptă."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Nu pot reseta momentan misiunea. Așteaptă până când grupul de vehicule nu mai este în luptă."
+
+msgid "personalMissions/discard/success"
+msgstr "Misiunea %(quest)s a fost resetată cu succes."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Merite primite: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Merite recuperate: %(count)s\nPot fi folosite din nou."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "Prima misiune din fiecare serie a fost activată."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "Operațiunea %(operationName)s a fost activată!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Recompensă obținută \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "Operațiunea %(name)s a fost finalizată!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Întreg progresul misiunii a fost salvat. Poți relua în orice moment operațiunea."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "Operațiunea %(operationName)s a fost suspendată"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "Misiunile suspendate au fost reluate."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "Operațiunea %(operationName)s a fost reluată"
+
+msgid "personalMissions/pause/server_error"
+msgstr "Misiunea nu a fost pusă în pauză. Reîncearcă mai târziu."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Acțiune indisponibilă. Misiunile sunt dezactivate temporar."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Nu pot pune în pauză momentan misiunea. Încearcă mai târziu."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Nu pot pune în pauză momentan misiunea. Așteaptă până când un vehicul de acest tip nu mai este în luptă."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "Misiunea %(quest)s a fost suspendată cu succes."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "Finalizarea misiunii %(quest)s a fost continuată cu succes."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Eroare. Nu se poate aloca meritul momentan."
+
+msgid "personalMissions/pawn/success"
+msgstr "Ordine asignate la misiunea %(questName)s: %(count)s."
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Eroare la obținerea de recompense. Reîncearcă mai târziu."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s s-a instalat cu succes."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Nu se poate revendica premiul. Încearcă mai târziu."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "Acțiune indisponibilă. Misiunile sunt dezactivate temporar."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Nu se poate revendica premiul. Premiu indisponibil."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Nu se poate revendica premiul. Premiu indisponibil."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Nu se poate revendica premiul. Date incorecte."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Nu se poate revendica premiul. Încearcă mai târziu."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "Acțiune indisponibilă. Misiunile sunt dezactivate temporar."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Nu se poate revendica premiul. Premiu indisponibil."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Nu se poate revendica premiul. Premiu indisponibil."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Nu se poate revendica premiul. Date incorecte."
+
+msgid "personalMissions/select/server_error"
+msgstr "Misiuni neselectate: %(questNames)s. Încearcă mai târziu."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Acțiune indisponibilă. Misiunile sunt dezactivate temporar."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Misiuni neselectate: %(questNames)s. Încearcă mai târziu."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Atenție! Pentru a schimba misiunea, așteaptă până când toate vehiculele care au misiunea activă s-au întors în garaj."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Misiuni neselectate: %(questNames)s. Finalizează operaţiunea anterioară."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Misiuni neselectate: %(questNames)s. Locuri insuficiente."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Misiuni neselectate: %(questNames)s. Trebuie să îți revendici premiul."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Misiuni neselectate: %(questNames)s. Misiune indisponibilă."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Misiuni neselectate: %(questNames)s. Misiune deja finalizată."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Misiuni neselectate: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Misiuni neselectate: %(questNames)s. Misiune din acest set deja selectată."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Misiuni neselectate: %(questNames)s. Date incorecte."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Misiuni neselectate: %(questNames)s. Date incorecte."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Momentan nu se poate selecta misiunea. Așteaptă până grupul de vehicule iese din luptă."
+
+msgid "personalMissions/select/success"
+msgstr "Misiunile au fost selectate cu succes. Misiuni selectate curent: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "S-a adăugat: membru feminin de echipaj"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Eroare la activarea operațiunii. Reîncearcă mai târziu."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "Rezerva de credite este plină, dar se va deschide în %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "Funcționalitate momentan indisponibilă din motive tehnice.\nNe cerem scuze pentru problemă."
+
+msgid "piggybank/switch_off/title"
+msgstr "Rezerva de credite este momentan indisponibilă"
+
+msgid "piggybank/switch_on/body"
+msgstr "Problemele tehnice au fost rezolvate. Ne cerem scuze pentru deranj."
+
+msgid "piggybank/switch_on/title"
+msgstr "Rezerva de credite este din nou disponibilă"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Funcționalitate momentan indisponibilă din motive tehnice.\nNe oferim scuze pentru problemă."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Abonamentele jucătorilor nu mai sunt disponibile!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Problemele tehnice au fost rezolvate. Ne oferim scuze pentru deranj."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Abonamentele jucătorilor sunt acum disponibile"
+
+msgid "post_progression/server_error"
+msgstr "Recompensa pentru Progresul ulterior al echipajului\na fost deja obținută"
+
+msgid "post_progression/success"
+msgstr "Data: %(at)s\nAdăugate în depozit: %(book_name)s (%(amount)sx).\nEXP din Progresul ulterior a fost schimbată."
+
+msgid "post_progression/success/title"
+msgstr "Chitanţă"
+
+msgid "prebattle/hasLockedState"
+msgstr "Nu poţi accepta invitaţia pentru că eşti în aşteptarea luptei.\nIeşi din antecamera de luptă sau termină lupta şi încearcă din nou."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Invitaţia a fost trimisă jucătorului."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Invitaţia către jucătorul %(name)s a fost trimisă."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Eroare ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Eroare AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Eroare BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Eroare CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Comandantul a părăsit echipa."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Echipa a fost dizolvată."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "Modul este momentan indisponibil"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Demobilizare."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Eroare PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Timp scurs."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Eroare necunoscută."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Eroare VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Ai fost exclus din pluton."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Ai fost exclus din echipă."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Trebuie să deții minim 3 vehicule potrivite pentru mod. Pentru detalii, citește pagina „Despre Violență”."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Auto-căutare"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Schimbă voice chat-ul"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Schimbă divizia"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Selectare mod"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Schimbare submod"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Selectare mod"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Schimbă setările"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Editare echipă"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Schimbă modul \"spectator\""
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Blochează poziţia"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Căutare"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Invită în echipă"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Confirmă disponibilitatea"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Confirmă disponibilitatea echipei"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Selectare vehicule"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Schimbă echipele"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Căutare"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Numai echipele cu un număr minim de %(minCount)d de vehicule pot intra în luptă."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Numai echipele cu un nivel total între %(minTotalLevel)d şi %(maxTotalLevel)d pot intra în luptă."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Numai vehiculele de generaţie de la %(minLevel)d până la %(maxLevel)d sunt permise în luptă."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Vehicul greșit pentru această luptă."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Nu se poate ca toţi membrii echipei să fie spectatori."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "Vehiculul selectat este potrivit doar pentru modul Front."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "Vehiculul selectat este potrivit doar pentru modul Exterminare."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "Proiectilele şi consumabilele de pe vehiculul selectat nu respectă condiţiile luptei."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Generaţia vehiculului nu este potrivită pentru această luptă. Generaţia minimă pentru acest tip de vehicul: %s. Generaţia maximă pentru acest tip de vehicul: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Tipul vehiculului nu este permis în această luptă. Tipuri permise: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Componentele de pe vehiculul selectat nu respectă condiţiile luptei."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Generaţia vehiculului nu este potrivită pentru această luptă. Generaţia minimă: %s. Generaţia maximă: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Vehiculele din această ţară nu pot intra în această luptă. Ţări permise: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Vehicul incompatibil"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Proiectilele de pe vehiculul selectat nu respectă condiţiile luptei."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Vehicul incompatibil"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Vehicul greșit pentru această luptă."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Vehiculul selectat nu este pregătit."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "Acţiune indisponibilă. Mai întâi alege un vehicul."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Nu se poate intra în echipă."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Vehicul incompatibil"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "Vehiculul selectat va fi deblocat pe parcursul luptei."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Nu se găsesc inamici potriviți. Încearcă să creezi din nou echipa."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Nu s-au găsit inamici de nivel comparabil pentru pluton, încearcă să-l reorganizezi."
+
+msgid "premium/buyingSuccess"
+msgstr "Contul Premium a fost cumpărat pentru %(period)d zi(le). Ai cheltuit %(money)s."
+
+msgid "premium/continueSuccess"
+msgstr "Contul Premium a fost prelungit cu %(period)d zi(le). Ai cheltuit %(money)s."
+
+msgid "premium/not_enough_gold"
+msgstr "Aur insuficient pentru a cumpăra cont Premium pentru %(period)d zi(le)."
+
+msgid "premium/post_battle_premium"
+msgstr "Prin cumpărarea de cont premium obţii %(xpDiff)d EXP şi %(creditDiff)d credite."
+
+msgid "premium/server_error"
+msgstr "Nu se poate cumpăra cont Premium pentru %(period)d zi(le). Încearcă mai târziu."
+
+msgid "premium/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "Acţiune indisponibilă. Încearcă mai târziu."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "Acţiune indisponibilă. Aşteaptă până când operaţiunea curentă va fi finalizată."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Funcționalitate momentan indisponibilă din motive tehnice.\nNe cerem scuze pentru problemă."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Misiunile Premium sunt temporar indisponibile"
+
+msgid "premium_quests/switch_on/body"
+msgstr "Problemele tehnice au fost rezolvate. Ne cerem scuze pentru deranj."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Misiunile Premium sunt disponibile din nou"
+
+msgid "progressiveReward/error"
+msgstr "Operațiunile momentan indisponibile. Încearcă din nou mai târziu."
+
+msgid "progressiveReward/switch_off"
+msgstr "Recompense de Merit: această facilitate a fost temporar suspendată. Ne cerem scuze pentru neplăcerile create."
+
+msgid "progressiveReward/switch_on"
+msgstr "Recompensele de Merit disponibile din nou."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Misiunea nu mai este activă. Descrierea detaliată nu mai este disponibilă."
+
+msgid "queue/isInQueue"
+msgstr "Operațiunile momentan indisponibile. Încearcă din nou mai târziu."
+
+msgid "rally/leaveDisabled"
+msgstr "Acţiune indisponibilă.\nNu poţi ieşi din modul de luptă. Eşti într-o unitate operativă şi gata de luptă."
+
+msgid "ranked/notification/available"
+msgstr "Sfârșitul armistițiului: Luptele de clasament sunt din nou disponibile."
+
+msgid "ranked/notification/available/title"
+msgstr "Sunt disponibile Lupte de clasament"
+
+msgid "ranked/notification/congratulations"
+msgstr "Felicitări!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "Luptele de clasament sunt indisponibile. Urmărește actualizările din portalul jocului."
+
+msgid "ranked/notification/notSet"
+msgstr "Acest mod este indisponibil pe serverul selectat."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Luptele de clasament indisponibile"
+
+msgid "ranked/notification/primeTime"
+msgstr "Luptele pentru clasament sunt indisponibile până la finalul Armistițiului."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Armistițiu"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Ai obținut rezultate remarcabile în sezoanele Luptelor de clasament 2020/2021 și asta te situează între jucătorii de top!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Felicitări!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Ai obținut rezultate remarcabile în sezoanele Luptelor de clasament 2020/2021 și asta te situează pe poziția %(playerPosition)s între jucătorii de top!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Felicitări!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Ecuson obținut:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Ecusoane obținute:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Credite câștigate:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Certificate câştigate:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Monede aniversare primite:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Aur primit:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Echipament îmbunătățit adăugat la selecție: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Stil obținut:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Stiluri obținute:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Token-uri de grad obținute: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Zi de Cont Premium Wargaming"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Zile de Cont Premium Wargaming (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "Zi de Cont Premium WoT"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "Zile de Cont Premium WoT (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Rezultatele etapei %(number)s"
+
+msgid "ranked/notifications/league"
+msgstr "Liga: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "De Aur"
+
+msgid "ranked/notifications/league2"
+msgstr "De Argint"
+
+msgid "ranked/notifications/league3"
+msgstr "De Bronz"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Token-uri de grad obținute pentru Liga de Aur: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Rang maxim: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Poziție în clasament: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Ai finalizat calificările"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Token-uri de grad obținute pentru sezon: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Rezultatele luptelor pentru clasament, sezonul %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Ai obținut rangul %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Grad de sprinter obținut. Recompense îmbunătățite."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Grad de sprinter obținut"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Nu s-a putut recruta un nou membru de echipaj: tancul are echipaj unic permanent."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Nu pot recruta membrul de echipaj. Serviciul este temporar indisponibil."
+
+msgid "recruit_window/financial_success"
+msgstr "Membru de echipaj recrutat pentru %(vehName)s. Credite cheltuite: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Membru de echipaj recrutat pentru %(vehName)s.\nCredite cheltuite: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Membru de echipaj recrutat pentru %(vehName)s.\nAur cheltuit: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Ai atins limita de membrii de echipajului care pot fi recrutaţi gratuit într-o zi."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Eroare la recrutare membru echipaj. Credite insuficiente."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Eroare la recrutare membru al echipaj. Aur insuficient."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Eroare recrutare şi transfer membru echipaj în vehicul. Spaţiu insuficient în Cazarmă. Eliberează un loc sau cumpără paturi adiționale în Cazarmă."
+
+msgid "recruit_window/server_error"
+msgstr "Nu pot recruta un membru de echipaj. Reîncearcă mai târziu."
+
+msgid "recruit_window/success"
+msgstr "Membru de echipaj recrutat gratuit pentru %(vehName)s."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Nu s-a putut tranfera membrul de echipaj: tancul are echipaj unic permanent."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Eroare înlocuire membru al echipajului. Vehiculul greşit."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Nu se poate trimite membrul de echipaj în cazarmă. Locuri insuficiente."
+
+msgid "reequip_tankman/server_error"
+msgstr "Nu poate fi înlocuit membru echipaj. Încercaţi mai târziu."
+
+msgid "reequip_tankman/success"
+msgstr "Membru de echipaj înlocuit."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Eroare înlocuire membru echipaj. Vehiculul e blocat."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Eroare înlocuire membru echipaj. Repară vehiculul."
+
+msgid "remove_component"
+msgstr "%s \"%s\" demontat de pe vehicul."
+
+msgid "remove_vehicle_broken"
+msgstr "Nu se poate demonta modulul %s \"%s\": vehiculul este avariat. Repară vehiculul şi încearcă din nou."
+
+msgid "remove_vehicle_locked"
+msgstr "Nu se poate demonta %s \"%s\" vehiculul este blocat."
+
+msgid "repair/credits_error"
+msgstr "Sunt necesare încă %s credite pentru a repara %s."
+
+msgid "repair/server_error"
+msgstr "Eroare la repararea %s. Încearcă mai târziu."
+
+msgid "repair/success"
+msgstr "%s reparat. Cost %s."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Nu s-au putut înlocui datele personale ale membrului de echipaj: tancul are echipaj unic permanent."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Eroare la modificarea Dosarului Personal. Vehicul greşit."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Eroare modificare Dosar Personal. Credite insuficiente."
+
+msgid "replace_tankman/server_error"
+msgstr "Nu s-a putut modifica Dosarul Personal. Încearcă mai târziu."
+
+msgid "replace_tankman/success"
+msgstr "Înfățișarea înlocuită cu succes."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Eroare modificare Dosar Personal. Vehiculul e blocat."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Eroare modificare Dosar Personal. Repară vehiculul."
+
+msgid "request/isInCoolDown"
+msgstr "Operaţiunea \"%(request)s\" este suspendată pentru %(coolDown)s s."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Nu pot reseta talente.\nServer indisponibil. Reîncearcă mai târziu."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Talentele pentru toți membrii de echipaj\nau fost resetate gratuit."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Eroare la cheltuirea resurselor. Încearcă din nou."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Eroare la returnarea resurselor. Încearcă din nou."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Încă ai vehicule disponibile pentru recuperare. Mergi la Magazin şi trimite vehiculele corespunzătoare înapoi în Garaj."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Recuperarea membrului de echipaj este indisponibilă temporar. Încearcă din nou mai târziu."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Nu pot recupera membrul de echipaj."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Aur insuficient pentru recuperarea membrului de echipaj."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Nu pot recupera membrul de echipaj. Perioada de recuperare a expirat."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Nu pot recupera membrul de echipaj. Încearcă din nou mai târziu."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Nu pot recupera membrul de echipaj. Recuperarea membrilor de echipaj este indisponibilă temporar."
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s nu mai poate fi recuperat."
+
+msgid "restore_tankman/financial_success"
+msgstr "Membru de echipaj recuperat.\nCredite cheltuite: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Nu pot recupera membrul de echipaj. Paturi insuficiente în Cazarmă."
+
+msgid "restore_tankman/server_error"
+msgstr "Nu pot recupera acest membru de echipaj. Reîncearcă mai târziu"
+
+msgid "restore_tankman/success"
+msgstr "Membru de echipaj recuperat."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "Calificarea membrului de echipaj a fost modificată."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Nu s-a putut reantrena echipajul: tancul are echipaj unic permanent."
+
+msgid "retraining_crew/empty_list"
+msgstr "Eroare recalificare echipaj. Membrii echipajului nu sunt selectaţi."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Credite cheltuite: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Membru de echipaj recalificat gratuit pentru %(vehName)s."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Aur cheltuit: %(money)s"
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Eroare la recalificarea echipajului. Operaţiunea nu este disponibilă."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Eroare recalificare echipaj. Vehicul nepotrivit."
+
+msgid "retraining_crew/server_error"
+msgstr "Nu se poate recalifica echipajul. Încearcă mai târziu."
+
+msgid "retraining_crew/success"
+msgstr "Echipaj recalificat pentru %(vehName)s."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Eroare recalificare echipaj. Vehiculul este blocat."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Eroare recalificare echipaj. Repară vehiculul."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Nu s-a putut reantrena membrul de echipaj: tancul are echipaj unic permanent."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Credite cheltuite: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Membru de echipaj recalificat gratuit pentru %(vehName)s."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Aur cheltuit: %(money)s"
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Eroare recalificare membru echipaj. Operaţiunea nu este disponibilă."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Recalificare membru echipaj eşuată. Vehicul nepotrivit."
+
+msgid "retraining_tankman/server_error"
+msgstr "Nu pot recalifica un membru de echipaj.\nReîncearcă mai târziu."
+
+msgid "retraining_tankman/success"
+msgstr "Membru de echipaj recalificat pentru %(vehName)s."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Eroare recalificare membru echipaj. Vehiculul e blocat."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Eroare recalificare membru echipaj. Repară vehiculul."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Nu se poate returna echipajul: tancul are echipaj unic permanent."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Eroare reinstaurare echipaj. Vehicul nepotrivit."
+
+msgid "return_crew/not_enough_space"
+msgstr "Nu se poate trimite echipajul în cazarmă. Locuri insuficiente."
+
+msgid "return_crew/return_unavailable"
+msgstr "Unii membri de echipaj nu pot reveni în vehicul."
+
+msgid "return_crew/server_error"
+msgstr "Nu se poate transfera echipajul. Încearcă mai târziu."
+
+msgid "return_crew/success"
+msgstr "Echipaj transferat cu succes."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Eroare returnare echipaj. Vehicul blocat."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Eroare returnare echipaj. Repară vehiculul."
+
+msgid "rotation/lock"
+msgstr "Următoarele grupuri sunt închise și nu mai sunt disponibile pentru lupte: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "Următoarele grupuri sunt deschise și sunt disponibile pentru lupte: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "Vehiculul este blocat și nu este disponibil pentru lupte."
+
+msgid "royale/notification/congratulations"
+msgstr "Felicitări!"
+
+msgid "royale/notification/primeTime"
+msgstr "Luptele Vânătorul de Oțel nu sunt disponibile până la încheierea armistițiului. Verifică programul în calendar."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Armistițiu"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Nivel atins: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "Luptele din Arta Strategiei sunt din nou disponibile pe acest server."
+
+msgid "rts/notification/available/title"
+msgstr "Lupte disponibile"
+
+msgid "rts/notification/notAvailable"
+msgstr "Evenimentul Arta Strategiei este indisponibil. Urmărește știrile de pe portalul jocului."
+
+msgid "rts/notification/notSet"
+msgstr "Luptele Arta Strategiei nu sunt disponibile pe serverul selectat."
+
+msgid "rts/notification/notSet/title"
+msgstr "Lupte indisponibile"
+
+msgid "rts/notification/primeTime"
+msgstr "Armistițiu în vigoare. Luptele Arta Strategiei sunt momentan indisponibile."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Armistițiu"
+
+msgid "securityMessage/bad_email"
+msgstr "Adresa ta de e-mail provine de pe un server suspect. Te rugăm să-ţi schimbi adresa de e-mail, din motive de securitate. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Schimbarea setărilor de siguranţă"
+
+msgid "securityMessage/no_phone"
+msgstr "Din motive de siguranţă, te rugăm să adaugi un număr de telefon la contul tău. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Pentru resetarea parolei, alege o întrebare de siguranţă în managementul contului. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "Nu ţi-ai schimbat parola de 30 de zile. Te rugăm s-o schimbi, din motive de siguranţă. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "Parola pe care ai ales-o la crearea contului nu este suficient de puternică. Te rugăm să schimbi parola. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "Nu se poate vinde %s: vehiculul este avariat. Repară vehiculul şi încearcă din nou."
+
+msgid "sell_vehicle_locked"
+msgstr "Nu se poate vinde %s: vehiculul este blocat."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Recompensa bine-meritată s-a reluat. Oferim scuze pentru deranj."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "Recompensa bine-meritată este temporar suspendată din motive de mentenanță."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Eroare la primirea recompenselor. Operațiunea este momentan indisponibilă."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Eroare la primirea recompensei. Contactează Asistența Jucători."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "Recompensele tale pentru ani de serviciu sunt în întârziere. Reîncearcă mai târziu."
+
+msgid "serverInstallError"
+msgstr "Eroare de server la montarea componentei %s \"%s\". Încearcă mai târziu."
+
+msgid "serverRemoveError"
+msgstr "Eroare de server la demontarea componentei %s \"%s\". Încearcă mai târziu."
+
+msgid "server_shut_down"
+msgstr "Serverul va fi repornit"
+
+msgid "session_tracker_kick"
+msgstr "Wargaming.net&nbsp;ID-ul tău a fost folosit pentru a intra în alt joc. Sesiunea curentă de joc a fost întreruptă."
+
+msgid "shell_buy/invalid_module"
+msgstr "Nu s-a putut cumpăra '%(name)s'. Proiectil nepotrivit."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "Nu s-a putut cumpăra \"%(name)s\". Credite insuficiente."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "Nu s-a putut cumpăra \"%(name)s\". Aur insuficient."
+
+msgid "shell_buy/server_error"
+msgstr "Nu s-a putut cumpăra \"%(name)s\". Încearcă mai târziu."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "Nu s-au putut cumpăra proiectile \"%(name)s\". Serverul este temporar indisponibil."
+
+msgid "shell_buy/success"
+msgstr "Proiectilele \"%(name)s\" au fost cumpărate (%(count)s buc.). Ai cheltuit %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "shell_sell/invalid_module"
+msgstr "Nu s-a putut vinde „%(name)s”. Proiectil nepotrivit."
+
+msgid "shell_sell/server_error"
+msgstr "Nu s-a putut vinde „%(name)s”. Încearcă mai târziu."
+
+msgid "shell_sell/success"
+msgstr "Proiectilul „%(name)s” (%(count)s buc.). Ai primit %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Eroare de configurare a muniției. Încearcă mai târziu."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Eroare de configurare a muniției. Fonduri insuficiente pentru achiziție."
+
+msgid "shells_apply/success_money_spent"
+msgstr "Ai cheltuit în total, pentru muniţie, %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "Operațiune indisponibilă. Aurul tău va fi disponibil după ce funcționarea WG Wallet va fi restaurată."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Cererea de cumpărare şi montare a componentei a fost trimisă, se aşteaptă răspunsul serverului."
+
+msgid "shop/item/buy_server_error"
+msgstr "Eroare la cumpărarea %(typeString)s \"%(userString)s\". Încearcă din nou mai târziu."
+
+msgid "shop/item/buy_success"
+msgstr "Componenta %(typeString)s \"%(userString)s\" a fost cumpărată (%(count)d buc.). S-au cheltuit %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Operațiune indisponibilă momentan."
+
+msgid "shop/item/not_enough_money"
+msgstr "Pentru a cumpăra %(typeString)s \"%(userString)s\" ai nevoie de %(price)s în plus."
+
+msgid "shop/item/not_found"
+msgstr "Componenta %(typeString)s \"%(userString)s\" nu a fost găsită în Magazin. Încearcă din nou mai târziu."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Operațiune indisponibilă momentan."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "Pentru a cumpăra \"%(userString)s\" ai nevoie de %(price)s în plus."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "Pentru a închiria %(userString)s, ai nevoie de %(price)s în plus."
+
+msgid "shop/vehicle/not_found"
+msgstr "Vehiculul \"%(userString)s\" nu a fost găsit în magazin. Încearcă din nou mai târziu."
+
+msgid "shop_resync"
+msgstr "Interfaţa a fost actualizată în %(date)s, la ora %(time)s, datorită unor schimbări pe server"
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) a fost convertit în <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Data: %(date)s\nDirective convertite: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Chitanţă"
+
+msgid "squad/createError"
+msgstr "Numai jucătorii cu cont Premium pot crea plutoane."
+
+msgid "squad/kickedFromQueue"
+msgstr "Nu s-au găsit inamici de nivel comparabil pentru pluton, încearcă să-l reorganizezi."
+
+msgid "squad/leaveDisabled"
+msgstr "Acţiune indisponibilă.\nNu poţi ieşi din pluton. Eşti membru al plutonului şi gata de luptă."
+
+msgid "squad/memberJoined"
+msgstr "%s a intrat în unitatea operativă."
+
+msgid "squad/memberLeave"
+msgstr "%s a ieşit din unitatea operativă."
+
+msgid "squad/memberNotReady"
+msgstr "%s nu e pregătit."
+
+msgid "squad/memberOffline"
+msgstr "Conexiunea întreruptă cu %s."
+
+msgid "squad/memberReady"
+msgstr "%s e pregătit."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Nu pot intra în luptă cu plutonul."
+
+msgid "squad/notValidDeleted"
+msgstr "%(vehName)s a fost exclus din pluton deoarece generația sa nu se potrivește cu generația vehiculului Comandantului. Selectează un vehicul din aceeași generație."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s a fost exclus din pluton deoarece comandantul a schimbat cerințele."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Ai fost eliminat din pluton deoarece comandantul a schimbat cerințele, sau nu poți intra deoarece vehiculul nu îndeplinește cerințele. Selectează alt vehicul."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "%(vehName)s a fost eliminat din cauza restricției asupra cantității de astfel de vehicule permise în pluton. Alege alt vehicul."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Funcționalitate momentan indisponibilă din motive tehnice.\nNe cerem scuze pentru problemă."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "Bonus pentru plutoane este temporar indisponibil"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "Problemele tehnice au fost rezolvate. Ne cerem scuze pentru deranj."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "Bonus pentru plutoane este disponibil din nou"
+
+msgid "ssr/unavailable"
+msgstr "Nu pot descărca reluarea"
+
+msgid "steam_login_not_allowed"
+msgstr "Nu poți folosi această aplicație pentru a juca: Contul tău Steam este deja legat de un cont Wargaming.net. Află mai multe în Asistența Jucători."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Membrul de echipaj demobilizat."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s z"
+
+msgid "techtree/action/header"
+msgstr "Special „%(actionName)s”"
+
+msgid "techtree/action/text"
+msgstr "Specialul se încheie în "
+
+msgid "techtree/action/text/closest"
+msgstr "Următorul special se termină: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Motiv: acest vehicul este disponibil doar membrilor Prime Gaming. Te rugăm să verifici starea contului tău Prime Gaming."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Vehicul indisponibil"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Dată: %(datetime)s\nVehicule adăugate: %(vehicles)s\nAdăugat: un loc în Garaj,%(crew)s stil 3D."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Data: %(datetime)s\nVehicule adăugate: %(vehicles)s\nAdăugat: un loc în garaj,%(crew)s un camuflaj exclusiv."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " un echipaj de 100%% %(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Vehicule adăugate"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Data: %(datetime)s\nEliminat: %(vehicles)s, un loc în garaj."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Motiv: acest vehicul este disponibil doar membrilor Prime Gaming. Te rugăm să verifici starea contului tău Prime Gaming."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Vehicule eliminate"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "Vehiculul este disponibil din nou"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "Tancul T-44-100 Igrovoy adăugat. Eliminat: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Misiunile pot fi acum finalizate cu T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " și "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s credite"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "Toți membrii de echipaj ai %(tanks)s reantrenați pentru T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Echipament demontat și trimis în depozit.\nElementele de personalizare trimise în depozit.\nProiectile și directive trimise în depozit."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Configurația, elementele de personalizare, experiența de luptă, statisticile și premiile transferate de pe %(mergedTank)s către T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s experiență liberă"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Experiența pentru Modificările de teren compensată: S-a adăugat %(compensation)s."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "S-au compensat autocolantele progresive cumpărate: s-a adăugat %(value)s aur."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "Statisticile din joc și premiile de pe %(mergedTank)s s-au transferat către T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Experiența de luptă adunată și transferată către T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Mult noroc pe câmpul de luptă!"
+
+msgid "telecomMergeResults/title"
+msgstr "Schimbările abonamentului „Igrovoy”"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Selecția de vehicule și închirierea sunt suspendate."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Închirierea vehiculelor este momentan indisponibilă"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Închirierea vehiculelor e disponibilă"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Felicitări! Ai primit %(count)s jeto(a)n(e)."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Nu s-a putut transfera aurul, destinatarul a refuzat tranzacţia."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Transferul de aur nu este disponibil."
+
+msgid "tradingError/NO_WARES"
+msgstr "Nu s-a putut transfera aurul, nu există suficient aur în cont."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Ai atins limita maximă de tranzacţii permise. Încearcă din nou mâine."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Nu s-a putut transfera aurul, încearcă mai târziu."
+
+msgid "training/error/AddPlayer"
+msgstr "Eroare cameră de antrenament. Numărul maxim de jucători într-o echipă a fost depășit."
+
+msgid "training/error/doAction"
+msgstr "Eroare în camera de antrenament. Încearcă mai târziu."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Eroare a camerei de antrenament. Capacitatea maximă a echipei în modul Violență: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Eroare cameră de antrenament. Numărul maxim de jucători într-o echipă este: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Eroare de server la încercarea de schimbare a echipelor. Încearcă mai târziu."
+
+msgid "transferXP/server_error"
+msgstr "Opțiunea este indisponibilă. Încearcă din nou mai târziu."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "Acţiune indisponibilă. Permisiuni insuficiente."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "Acţiune indisponibilă. Nu eşti membru al unui clan."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Eroare: Nu pot reface vehiculul."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Eroare: Insuficiente Piese de schimb pentru a reface vehiculul."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Eroare: Prețul refacerii vehiculului selectat s-a modificat."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Eroare: nu pot finaliza acțiunea."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Eroare la alăturarea în pluton: Contul tău a fost suspendat temporar în acest mod de joc."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Acțiune indisponibilă. Contul este recuperat."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "Jucătorul nu poate intra în echipă."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "Acţiune indisponibilă. Poziţie ocupată deja."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Jucătorul este deja în echipă."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Transferul permisiunilor Comandantului nu este posibil."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Acțiune indisponibilă. Tip invalid de cont."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Acțiune indisponibilă. Clan invalid."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Nu se poate intra în echipă."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Nivelul total maxim al vehiculelor a fost depăşit."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Acțiune indisponibilă. Listă membrii detașament invalidă."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Numărul poziţiei este incorect."
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Acțiune indisponibilă. Tip de vehicul eronat pentru lupta într-un pluton."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Eroare la intrarea în echipă. Nivel eronat al vehiculului."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Schimbare diviziei la momentul specificat este indisponibilă."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Nu se poate găsi o echipă."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Nu se poate trimite invitaţia."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Eroare la intrarea în pluton: Jocul în pluton e indisponibil înainte de finalizarea Calificărilor."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Operaţiunea nu se poate realiza momentan."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Nu s-a putut realiza ultima operaţiune cu echipa."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Vehiculul nu este gata de luptă sau nu există în garaj."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Nu s-a putut stabili un vehicul în poziţie."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Acțiune indisponibilă. Unii membrii ai detașamentului sunt încă în luptă."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Nu eşti autorizat pentru această operaţiune."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Cont blocat."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Echipa e în aşteptare sau în căutare."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Nu se poate intra în echipă. Acces interzis."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Echipa nu e în aşteptare."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Echipa nu e în rezultatele căutării."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Echipa nu este gata."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Eroare la alăturarea în pluton: Nu ai un vehicul potrivit pentru modul de joc selectat."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Jucătorul nu poate fi adăugat la membrii echipei."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "Acţiune indisponibilă. Jucătorul nu a fost găsit."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Echipa nu a fost găsită."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Echipa nu există."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "Acţiune indisponibilă. Eroare la afişarea listei cu vehicule."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Acțiune indisponibilă. Jucătorul este offline."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Eşti în lista neagră a comandantului."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Acțiune indisponibilă. Lupta anterioară nu s-a încheiat."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Jucătorul nu poate fi exclus din echipă."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "Acţiune indisponibilă. Cel puţin unul dintre jucători încă nu a acceptat invitaţia."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "Acţiune indisponibilă pentru mercenari."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "Acţiune indisponibilă. Poziţia nu e blocată."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "Acţiune indisponibilă. Poziţie ocupată deja."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "Acţiune indisponibilă pentru această poziţie."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Raidurile nu vor fi permise la momentul specificat."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Nu s-a putut trece la alt mod de joc. A fost depășită limita de membri de pluton."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Acțiune indisponibilă. Timpul a expirat."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "Acţiune indisponibilă. Număr maxim de poziţii blocate."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "Acţiune indisponibilă. Număr maxim de mercenari."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Nu se poate crea o echipă sau să se intre în ea."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Nu se poate crea o echipă."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Acțiune indisponibilă. Detașamentul este recuperat."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "Acţiune indisponibilă. Vehiculul nu corespunde cerinţelor."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "Acţiune indisponibilă. Mai întâi alege un vehicul."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Echipa nu există."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Acțiune indisponibilă. Vehiculul nu este gata sau nu respectă cerințele."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Ai primit control asupra Rezervelor de luptă."
+
+msgid "unit/notification/changeDivision"
+msgstr "Comandantul %(name)s a selectat Divizia %(division)s."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Absolut"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Campion"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Mediu"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s a fost numit comandant al echipei."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s a intrat în detaşament."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s a intrat în pluton pentru a lupta cu un vehicul de generația %(tierRange)s."
+
+msgid "unit/notification/playerOffline"
+msgstr "S-a pierdut conexiunea cu %(userName)s."
+
+msgid "unit/notification/playerOnline"
+msgstr "Conexiunea cu %(userName)s a fost restabilită."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s a părăsit detaşamentul."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Invitaţia a fost trimisă deja."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "Permisiunile comandantului sunt transferate altui jucător."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Permisiunile și controlul comandantului asupra Rezervelor de luptă au fost transferate altui jucător."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Controlul asupra Rezervelor de luptă a fost transferat altui jucător."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Ai fost exclus din detaşament: detaşamentul a fost dizolvat."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Ai fost exclus din detaşament. Clanul s-a schimbat."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "Limita de joc a expirat. Nu poți intra într-o luptă nouă. Vei fi deconectat de la server la %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Unul dintre jucători nu are destul timp de joc în sesiune pentru a încheia lupta. Plutonul se află în etapa de pregătire."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Adunarea legionarilor suspendată."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Acţiune indisponibilă. Timpul de aşteptare a expirat."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Eroare la intrarea în echipă. Ai fost exclus din echipă."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Ai fost exclus automat din lista de voluntari."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Ai fost exclus de către comandant."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Ai fost exclus din detaşament: detaşamentul a fost dizolvat."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Ai devenit comandant de detașament."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Ai devenit comandant de detașament.\nAi primit controlul asupra Rezervelor de luptă."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Alt cap de pod a fost selectat pentru Ofensivă."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Alt tip de luptă a fost selectat."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Căutarea dezactivată temporar: prea multe plutoane pe acest server."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Nu pot căuta jucători din cauza unei erori a serverului. Încearcă din nou mai târziu."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Căutare anulată: cel puțin un membru de pluton nu are vehicule potrivite pentru modul de joc selectat."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Timpul de căutare a expirat. Jucătorii necesari nu au fost găsiţi."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Intrarea jucătorilor este în desfăşurare. Te rugăm să aştepţi."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Vehicul refăcut: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Nu se poate confirma disponibilitatea echipei."
+
+msgid "unload/button"
+msgstr "Spre Cazarmă"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Nu s-a putut trimite echipajul în Cazarmă: tancul are echipaj unic permanent."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Eroare trimitere echipaj în Cazarmă. Vehicul nepotrivit."
+
+msgid "unload_crew/server_error"
+msgstr "Eroare la trimiterea echipajului în cazarmă. Încearcă mai târziu."
+
+msgid "unload_crew/success"
+msgstr "Echipaj trimis în Cazarmă."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Eroare trimitere echipaj în Cazarmă. Vehiculul e blocat."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Eroare trimitere echipaj în Cazarmă. Repară vehiculul."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Nu s-a putut trimite membrul de echipaj în Cazarmă: tancul are echipaj unic permanent."
+
+msgid "unload_tankman/button"
+msgstr "Spre Cazarmă"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Eroare trimitere membru echipaj în Cazarmă. Vehicul nepotrivit."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Nu se poate trimite acest membru de echipaj în cazarmă. Locuri insuficiente."
+
+msgid "unload_tankman/server_error"
+msgstr "Nu pot trimite un membru de echipaj în Cazarmă. Reîncearcă mai târziu."
+
+msgid "unload_tankman/success"
+msgstr "Membru de echipaj trimis în Cazarmă."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Eroare trimitere membru echipaj în Cazarmă. Vehicul blocat."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Eroare trimitere membru echipaj în Cazarmă. Repară vehiculul."
+
+msgid "unlocks/drawFailed"
+msgstr "Setări greşite. Arborele tehnologic este blocat."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "Componenta %(typeString)s \"%(userString)s\" este cercetată."
+
+msgid "unlocks/item/in_processing"
+msgstr "Cererea de cercetare a fost trimisă către server, se aşteaptă răspunsul."
+
+msgid "unlocks/item/server_error"
+msgstr "Eroare de server la cercetarea componentei %(typeString)s \"%(userString)s\". Încearcă mai târziu."
+
+msgid "unlocks/item/unlock_success"
+msgstr "Componenta %(typeString)s \"%(userString)s\" a fost cercetată. Experienţă specifică utilizată: %(vehXP)s. Experienţă liberă utilizată: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "Vehiculul \"%(userString)s\" este cercetat."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Cererea de cercetare a fost trimisă către server, se aşteaptă răspunsul."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Eroare de server la cercetarea vehiculului \"%(userString)s\". Încearcă mai târziu."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "Vehiculul \"%(userString)s\" a fost cercetat. S-au utilizat %(vehXP)s puncte de experienţă specifică şi %(freeXP)s puncte de experienţă liberă."
+
+msgid "upgradeTankman/server_error"
+msgstr "Eroare pregătire membru echipaj. Încearcă mai târziu."
+
+msgid "upgradeTankman/success"
+msgstr "Pregătire finalizată cu succes."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "Îmbunătățirea echipamentului recompensă este indisponibilă temporar din motive tehnice. Încearcă mai târziu."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "Îmbunătățirea echipamentului recompensă este disponibilă din nou. Ne oferim scuze pentru deranj."
+
+msgid "vehicle/restore/finished"
+msgstr "%(vehicleName)s nu este disponibil pentru recuperare: timpul disponibil pentru acţiune a expirat."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Vei putea recupera vehiculul în magazin timp de încă %(time)s z."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Vei putea recupera vehiculul în magazin timp de încă %(time)s h."
+
+msgid "vehicleCompare/disabled"
+msgstr "Acțiunea momentan indisponibilă. Încearcă mai târziu."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "Previzualizarea vehiculului %(vehicle)s va fi disponibilă doar după descărcarea completă a clientului."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Cererea pentru montarea echipamentului a fost trimisă, se aşteaptă răspunsul serverului."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "Eroare la cumpărarea %(typeString)s \"%(userString)s\". Încearcă din nou mai târziu."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "Componenta %(typeString)s \"%(userString)s\" a fost cumpărată (%(count)d buc.). S-au cheltuit %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "Componenta %(typeString)s \"%(userString)s\" este deja disponibilă în depozit."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "Componenta %(typeString)s \"%(userString)s\" este cercetată."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "Pentru a cumpăra %(typeString)s \"%(userString)s\" ai nevoie de %(price)s în plus."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "Componenta %(typeString)s \"%(userString)s\" nu a fost găsită în depozit."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "Componenta %(typeString)s \"%(userString)s\" nu a fost găsită în Magazin. Încearcă din nou mai târziu."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "S-a cercetat %(typeString)s \"%(userString)s\" . Experienţă specifică utilizată: %(unspentXP)s. Experiență liberă utilizată: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Cererea de cercetare a fost trimisă către server, se aşteaptă răspunsul."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "Vehiculul \"%(userString)s\" este deja disponibil în garaj."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "Vehiculul \"%(userString)s\" este cercetat."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "Pentru a cumpăra \"%(userString)s\" ai nevoie de %(price)s în plus."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "Vehiculul \"%(userString)s\" nu a fost găsit în garaj."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "Vehiculul \"%(userString)s\" nu a fost găsit în magazin. Încearcă din nou mai târziu."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "S-a cercetat \"%(userString)s\". S-au utilizat %(unspentXP)s puncte de experienţă specifică şi %(freeXP)s puncte de experienţă liberă."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "Sistemul de recompense Elită este acum disponibil pentru %(vehicle)s"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Recompensele Elită"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "Modificarea %(modification)s pentru %(vehicle)s a fost cumpărată cu succes."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Modificare cumpărată"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "Categoria %(category)s pentru al doilea locaș al %(vehicle)s a fost alocată cu succes."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Alocarea categoriei locașului"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Credite cheltuite: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Toate modificările duble pentru %(vehicle)s sunt anulate."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "Modificarea %(modification)s pentru %(vehicle)s a fost anulată."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Modificare anulată"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "Modificările %(modifications)s pentru %(vehicle)s au fost anulate."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Experiență de luptă cheltuită: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Experiență liberă cheltuită: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Eroare la arborele de modificări. Încearcă mai târziu."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Eroare"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "Nivelul standard %(level)s de modificare pentru %(vehicle)s cercetat și cumpărat cu succes."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "Nivelurile standard %(levels)s de modificare pentru %(vehicle)s cercetate și cumpărate cu succes."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Modificare cercetată"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "Categoria %(category)s pentru al doilea locaș al %(vehicle)s a fost alocată cu succes."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Alocarea categoriei locașului"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "Configurarea auxiliară este acum disponibilă pentru %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Configurarea auxiliară"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "Alocarea categoriei pentru al doilea locaș este acum disponibilă pentru %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Disponibilitatea categoriei locașului"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Configurarea esențială este acum disponibilă pentru %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Configurarea esențială"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "Arborele de modificări este acum disponibil pentru %(vehicle)s."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Modificările de teren"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Arborele de modificări ale vehiculului este disponibil. Poți configura vehiculele în funcție de rolurile lor și le poți schimba caracteristicile prin diverse modificări."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Eroare la actualizare. Reîncearcă mai tîrziu."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Eroare"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "Nodul „%(perk)s” cercetat cu succes pentru %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Nod cercetat"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "%(perk)s noduri cercetate cu succes pentru %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Noduri cercetate"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "Opțiunea este indisponibilă. Încearcă din nou mai târziu."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "Nu pot recupera %(vehName)s. Vehicul greșit."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "Nu pot recupera %(vehName)s. Credite insuficiente."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "Nu pot recupera %(vehName)s. Aur insuficient."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Operațiune indisponibilă. Vehiculele acestei națiuni nu sunt cercetate."
+
+msgid "vehicle_buy/server_error"
+msgstr "Nu s-a putut cumpăra %(vehName)s din cauza unei erori de server. Încearcă din nou mai târziu."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "Nu s-a putut cumpăra %(vehName)s. Serverul este temporar indisponibil."
+
+msgid "vehicle_buy/success"
+msgstr "Vehiculul %(vehName)s a fost cumpărat cu succes. Ai cheltuit %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "Nu se poate elimina %(vehName)s. Încearcă mai târziu."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "Nu poate elimina %(vehName)s. Vehicul greșit."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "Nu poate elimina %(vehName)s. Credite insuficiente."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "Nu poate elimina %(vehName)s. Aur insuficient."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "Nu se poate elimina %(vehName)s. Locuri în Cazarmă insuficiente."
+
+msgid "vehicle_remove/server_error"
+msgstr "Nu s-a putut vinde %(vehName)s. Asigură-te că vehiculul nu este într-o unitate operativă sau încearcă mai târziu."
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s a fost eliminat cu succes.\n%(money)s"
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s a fost eliminat cu succes."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "%(vehName)s a fost eliminat cu succes.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "Nu se poate elimina %(vehName)s. Vehiculul va fi eliminat automat."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "Nu se poate elimina %(vehName)s. Vehiculul este blocat."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "Nu se poate elimina %(vehName)s. Vehiculul trebuie reparat."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "Nu se poate elimina %(vehName)s. Limita maximă pentru azi a fost atinsă."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Atenție! Dacă te hotărăști să îl cumperi mai târziu, vehiculul îți va sta la dispoziție la preț redus."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "Nu se poate închiria %(vehName)ss. Vehicul greșit."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "Nu se poate închiria %(vehName)s. Credite insuficiente."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "Nu se poate închiria %(vehName)s. Aur insuficient."
+
+msgid "vehicle_rent/server_error"
+msgstr "Nu se poate închiria %(vehName)s din cauza unei erori de server. Încearcă din nou mai târziu."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "Nu se poate închiria %(vehName)s. Opțiunea de închiriere vehicule temporar indisponibilă."
+
+msgid "vehicle_rent/success"
+msgstr "Ai închiriat %(vehName)s %(rentPackageName)s. Ai cheltuit %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "timp de %(days)d z"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(needed)s sunt necesare pentru a repara %(vehName)s."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(needed)s sunt necesare pentru a repara %(vehName)s."
+
+msgid "vehicle_repair/server_error"
+msgstr "Eroare la repararea %(vehName)s. Încearcă mai târziu."
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s reparat. Cost %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Recupoerarea vehiculului este temporar indisponibilă. Încearcă din nou mai târziu."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "Nu pot recupera %(vehName)s. Recuperarea vehiculelor este temporar indisponibilă."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "Nu pot recupera %(vehName)s. Vehicul incorect."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "Nu pot recupera %(vehName)s. Credite insuficiente."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "Nu pot recupera %(vehName)s. Aur insuficient."
+
+msgid "vehicle_restore/server_error"
+msgstr "Nu s-a putut recupera %(vehName)s din cauza unei erori a serverului. Încearcă din nou mai târziu."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "Nu pot recupera %(vehName)s. Recuperarea vehiculelor este temporar indisponibilă."
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)s a fost recuperat cu succes. S-a cheltuit %(price)s."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Kit de demontare utilizat (%(countDK)sx)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "Nu s-a putut vinde %(vehName)s. Încearcă mai târziu."
+
+msgid "vehicle_sell/disabledService"
+msgstr "Nu s-a putut vinde %(vehName)s. Încearcă mai târziu."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "Nu se poate vinde %(vehName)s. Insuficiente componente pentru demontarea echipamentului."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "Nu s-a putut vinde %(vehName)s. Vehicul greșit."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "Nu s-a putut vinde %(vehName)s. Credite insuficiente."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "Nu s-a putut vinde %(vehName)s. Aur insuficient."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "Nu s-a putut vinde %(vehName)s. Locuri insuficiente în cazarmă."
+
+msgid "vehicle_sell/server_error"
+msgstr "Nu s-a putut vinde %(vehName)s. Asigură-te că vehiculul nu este într-o unitate operativă sau încearcă mai târziu."
+
+msgid "vehicle_sell/success"
+msgstr "%(vehName)s a fost vândut cu succes.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "%(vehName)s a fost vândut cu succes.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "Nu s-a putut vinde %(vehName)s. Vehiculul va fi eliminat automat."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "Nu s-a putut vinde %(vehName)s. Vehiculul este blocat."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "Nu s-a putut vinde %(vehName)s. Repară vehiculul."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "Nu se poate elimina %(vehName)s. Limita maximă pentru azi a fost atinsă."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Eroare la extinderea garajului. Credite insuficiente."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Eroare la extinderea garajului. Aur insuficient."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Eroare la extinderea garajului. Încearcă mai târziu."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Garaj extins cu succes. Ai cheltuit %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Eroare la modificarea pregătirii accelerate a echipajului de pe %(vehName)s. Vehicul greșit."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "Nu pot schimba pregătirea accelerată a echipajului pentru %(vehName)s. Reîncearcă mai târziu."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "Pregătirea accelerată pentru echipajul de pe %(vehName)s este inactivă."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "Pregătirea accelerată pentru echipajul de pe %(vehName)s este activă."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Eroare la modificarea pregătirii accelerate a echipajului de pe %(vehName)s. Vehiculul este blocat."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Eroare la modificarea pregătirii accelerate a echipajului de pe %(vehName)s. Repară vehiculul."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Eroare la schimb pentru %(vehName)s. Vehicul selectat incorect."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "Eroare la schimb pentru %(vehName)s. Credite insuficiente."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "Eroare la schimb pentru %(vehName)s. Aur insuficient."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "Nu s-a putut da la schimb %(tradeOffVehName)s. Paturi insuficiente în Cazarmă."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Oferta de schimb este acum disponibilă!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Oferta de schimb nu mai este disponibilă!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Eroare la schimb pentru %(vehName)s. Eroare de server. Încearcă din nou mai târziu."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Eroare la schimb pentru %(vehName)s. Serviciul de achiziție/schimb este temporar indisponibil."
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)s a fost eliminat. %(vehName)s a fost achiziționat pentru %(price)s."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "Eroare la schimb al %(tradeOffVehName)s. Vehiculul va fi eliminat automat."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Eroare la schimb pentru %(vehName)s. Vehiculul nu poate fi primit la schimb."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "Nu s-a putut da la schimb %(tradeOffVehName)s. Vehiculul nu este disponibil pentru schimb."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "Nu s-a putut da la schimb %(tradeOffVehName)s. Vehiculul este indisponibil."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "Nu s-a putut da la schimb %(tradeOffVehName)s. Repară vehiculul."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "Nu s-a putut da la schimb %(tradeOffVehName)s. Vehiculul nu este în Depozit."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "Operațiune imposibilă. Tot aurul tău va fi disponibil după ce operațiunile cu WG Wallet vor fi restaurate automat."
+
+msgid "video/error"
+msgstr "Eroare la redarea videoclipului. Codul erorii: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "Zonele de luptă ale minihărții sunt momentan indisponibile."
+
+msgid "w2gt/switchOff/header"
+msgstr "Probleme tehnice"
+
+msgid "w2gt/switchOn/description"
+msgstr "Zonele de luptă ale minihărții sunt acum disponibile. Luptă!"
+
+msgid "w2gt/switchOn/header"
+msgstr "Funcționalitate restaurată"
+
+msgid "wallet/available"
+msgstr "WG Wallet a fost sincronizat cu succes. Aurul, bondurile, creditele şi toată experienţa liberă sunt disponibile acum."
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet a fost sincronizat cu succes. Toată experienţa ta generală este disponibilă acum."
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet a fost sincronizat cu succes. Tot aurul tău este disponibil acum."
+
+msgid "wallet/not_available"
+msgstr "Se achiziţionează datele. Aurul, bondurile, creditele şi toată experienţa liberă vor fi disponibile în curând."
+
+msgid "wallet/not_available_freexp"
+msgstr "Se achiziţionează datele. Toată Experienţa liberă va fi disponibilă în curând."
+
+msgid "wallet/not_available_gold"
+msgstr "Se achiziţionează datele. Tot aurul tău va fi disponibil în curând."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Nu pot reseta misiune săptămânală: operațiune blocată."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Nu pot reseta misiune săptămânală: misiune invalidă."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Nu pot reseta misiune săptămânală: misiune deja finalizată."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Nu pot reseta misiune săptămânală: operațiune suspendată."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Misiune săptămânală resetată cu succes."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Nu pot reseta misiune săptămânală. Reîncearcă mai târziu."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "Misiunile săptămânale sunt momentan indisponibile. Oferim scuze pentru neplăcere."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "Misiunile săptămânale sunt din nou disponibile. Oferim scuze pentru neplăcere."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Nu pot ieși din Încălzire. Reîncearcă mai târziu."
+
+msgid "window/buttons/close"
+msgstr "Închide"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" nu se potriveşte cu %s."

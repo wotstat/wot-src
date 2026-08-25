@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Despre Certificatul de luptă"
+
+msgid "about/position/header"
+msgstr "Distribuția punctelor Certificatului de luptă"
+
+msgid "about/position/text"
+msgstr "După fiecare luptă, vei primi un număr de puncte ale Certificatului de luptă corespunzătoare poziției tale. Vei primi puncte suplimentare pentru Certificatul de luptă dacă îți crești nivelul de Front."
+
+msgid "about/scores/header"
+msgstr "Punctele certificatului de luptă"
+
+msgid "about/scores/text"
+msgstr "Monedă specială a Certificatului de luptă care poate fi câștigată în lupte standard și de Front. Punctele certificatului de luptă sunt acordate pentru atingerea gradelor pe Front și în funcție de poziția ta în rezultatul luptei. Vehiculele de front nu au limită de obținere a punctelor."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Înfrângere"
+
+msgid "about/scoresTable/topCell"
+msgstr "Top {{top}} ca EXP obținută"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Victorie"
+
+msgid "about/text"
+msgstr "Certificatul de luptă este un eveniment pe termen lung în care jucătorii avansează de la o etapă la alta, acumulând puncte. Fiecare etapă finalizată le aduce recompense valoroase. După finalizarea anumitor etape, jucătorii pot obține jetoane ale Certificatului de luptă: o monedă specială care poate fi utilizată pentru cumpărarea de vehicule unice și alte recompense valoroase din secțiunea corespunzătoare a magazinului."
+
+msgid "addons/cellRent/header"
+msgstr "Închiriere vehicule"
+
+msgid "addons/cellRent/text_10"
+msgstr "Sunt disponibile pentru închiriere câteva vehicule de generația {{vehiclesLevel}}, contra credite. Membrii de echipaj din vehiculele de același tip și națiune pot fi transferați fără penalizări sau reantrenare."
+
+msgid "addons/cellRent/text_9"
+msgstr "Sunt disponibile pentru închiriere câteva vehicule de generația {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}, contra credite. Membrii de echipaj din vehiculele de același tip și națiune pot fi transferați fără penalizări sau reantrenare."
+
+msgid "addons/cellSpectator/header"
+msgstr "Modul \"spectator\""
+
+msgid "addons/cellSpectator/text"
+msgstr "Când trebuie să aștepți pentru intrarea pe hartă, poți studia câmpul de luptă în modul Spectator și să-ți faci un plan de luptă."
+
+msgid "addons/cellTime/header"
+msgstr "Timpul suplimentar"
+
+msgid "addons/cellTime/text"
+msgstr "Când o bază este în curs de capturare și timpul expiră, echipa ta va primi timp suplimentar. Dacă echipa din apărare întrerupe capturarea bazei, timpul adițional devine zero."
+
+msgid "addons/header"
+msgstr "Informații suplimentare"
+
+msgid "levelUp/sectionHeader"
+msgstr "Vehicule din generația {{level}}"
+
+msgid "levelUp/text"
+msgstr "Ca și înainte, la început, poți intra în luptă doar cu vehicule de generația {{vehiclesLevelFrom}}, dar vehiculele de generația {{vehiclesLevelTo}} pot fi pregătite în Garaj. Odată capturată baza din linia secundară (D, E, F), ambele echipe pot lansa vehiculele de generația {{vehiclesLevelTo}}."
+
+msgid "main/cellDuration/header"
+msgstr "Durata"
+
+msgid "main/cellDuration/text"
+msgstr "Frontul va dura timp de {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. Data următoarei lansări va fi anunțată separat."
+
+msgid "main/cellFrontline/header"
+msgstr "Front"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Lupte masive 30v30 în vehicule de generația {{vehiclesLevel}} pe hărțile {{@ colorLegacy 'FFE4C0'}}Normandy, Kraftwerk{{/}} și {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Atacatorii trebuie să distrugă 3 din 5 baterii de tunuri, în timp ce apărătorii trebuie să le protejeze."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Lupte masive 30v30 în vehicule din generațiile {{vehiclesLevelFrom}}-{{vehiclesLevelTo}} pe hărțile {{@ colorLegacy 'FFE4C0'}}Normandy, Kraftwerk{{/}} și {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Atacatorii trebuie să distrugă 3 din 5 baterii de tunuri, în timp ce apărătorii trebuie să le protejeze."
+
+msgid "main/cellLevel9/header"
+msgstr "Vehicule din generația {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "După ce una dintre bazele din lina secundară (D, E sau F) este capturată, vei putea intra în luptă cu un vehicul din generația {{vehiclesLevel}}."
+
+msgid "main/cellLevels/header"
+msgstr "Vehicule din generația {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "În acest mod sunt disponibile doar vehicule din generația {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}."
+
+msgid "main/cellLevels/text_9"
+msgstr "Doar vehiculele din generația {{vehiclesLevel}} pot intra în luptă."
+
+msgid "main/cellPass/header"
+msgstr "Certificatul de luptă"
+
+msgid "main/cellPass/text"
+msgstr "Frontul este o ocazie grozavă pentru obținerea de puncte ale Certificatului de luptă prin participarea la lupte și atingerea de niveluri noi ale Frontului."
+
+msgid "main/cellReserves/header"
+msgstr "Categoriile rezervelor de luptă"
+
+msgid "main/cellReserves/text"
+msgstr "Sunt trei categorii de rezerve de luptă, fiecare fiind legată de un anumit locaș. Ordinea deblocării și îmbunătățirii acestora depinde de tipul vehiculului."
+
+msgid "main/cellScenarios/header"
+msgstr "Scenariile"
+
+msgid "main/cellScenarios/text"
+msgstr "Luptele în modul Front utilizează unul dintre următoarele scenarii: {{@ colorLegacy 'FFE4C0'}}Luptă standard{{/}}, {{@ colorLegacy 'FFE4C0'}}Suport operațional{{/}} sau {{@ colorLegacy 'FFE4C0'}}Întoarcerea sorții{{/}}. Informațiile scenariului de luptă curent sunt afișate pe ecranul de încărcare, pe perioada numărătorii inverse dinaintea luptei sau la apăsarea tastei Tab."
+
+msgid "main/sectionHeader"
+msgstr "Informații generale"
+
+msgid "page/backBtn"
+msgstr "ÎNAPOI"
+
+msgid "page/headerUpper"
+msgstr "FRONT"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "În funcție de gradul atins, vei primi EXP de Front împreună cu EXP de luptă. EXP de Front este utilizată pentru a crește nivelul Frontului. Sunt {{@ colorLegacy 'FFE4C0'}}20 de niveluri{{/}} în total."
+
+msgid "progression/levelsSection/header"
+msgstr "Nivelurile Frontului"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Nivelurile de Front{{/}} te recompensează cu puncte ale Certificatului de luptă, puncte ale rezervelor de luptă, ordine de reantrenare, Licența de mentor și cărți de echipaj."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Nivelurile de Front{{/}} te recompensează cu puncte ale rezervelor de luptă, ordine de reantrenare și cărți de echipaj."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Gradele{{/}} reflectă nu doar eficiența ta într-o anumită luptă, ci îți conferă un bonus la EXP de luptă drept rezultat. Bonusul se aplică experienței de bază totale obținută de la toate vehiculele contra cărora ai luptat. Atunci când tu sau aliații ating gradul General, întreaga echipă primește un bonus la performanța echipajului (nivelul calificării majore), cu valori între {{@ colorLegacy 'FFE4C0'}}1,5%{{/}} și {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Gradele"
+
+msgid "progression/ranksSection/text"
+msgstr "Modul are un sistem cu șase grade, în care jucătorii promovează de la gradul de „Soldat” la cel de „General”. Vei fi promovat pentru performanță eficientă în luptă (capturarea sau apărarea de baze, distrugerea obiectivelor principale) și obținerea de experiență. Se ia în considerare experiența totală obținută pentru toate vehiculele."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bonus la Experiența de luptă"
+
+msgid "progression/ranksTable/captain"
+msgstr "Căpitan"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bonus la performanța echipajului"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Experiența frontului"
+
+msgid "progression/ranksTable/general"
+msgstr "General"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Locotenent"
+
+msgid "progression/ranksTable/major"
+msgstr "Maior"
+
+msgid "progression/ranksTable/private"
+msgstr "Soldat"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Sergent"
+
+msgid "progression/sectionHeader"
+msgstr "Progresul în Front"
+
+msgid "progression/text"
+msgstr "Jucând în acest mod, vei crește în grad, avansa în progresul frontului și obține recompense."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Secundară"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Locașul de rezervă 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Locașul de rezervă 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Locașul de rezervă 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Principală"
+
+msgid "reserveCategories/categories/support"
+msgstr "Auxiliară"
+
+msgid "reserveCategories/config/footerText"
+msgstr "În scenariul {{@ colorLegacy 'FFE4C0'}}Întoarcerea sorții{{/}}, ordinea de deblocare a rezervelor de luptă nu depinde de tipul vehiculului."
+
+msgid "reserveCategories/config/header"
+msgstr "Configurațiile rezervelor după tipul vehiculului"
+
+msgid "reserveCategories/config/text"
+msgstr "În scenariile {{@ colorLegacy 'FFE4C0'}}Luptă standard{{/}} și {{@ colorLegacy 'FFE4C0'}}Suport operațional{{/}}, toate cele trei locașuri ale rezervelor de luptă sunt disponibile tuturor tipurilor de vehicule. Totuși, ordinea deblocării acestora depinde de tipul vehiculului."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Antitancuri"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Tancuri grele"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Tancuri ușoare"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Tancuri medii"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Artilerii"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Îmbunătățirea la acest nivel este disponibilă doar pentru rezervele de luptă {{@ colorLegacy 'FFE4C0'}}cumpărate{{/}} în scenariul {{@ colorLegacy 'FFE4C0'}}Întoarcerea sorții{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Cum se deblochează locașurile și se îmbunătățesc rezervele de luptă"
+
+msgid "reserveCategories/levels/text"
+msgstr "O rezervă de luptă îți este disponibilă în mod implicit. Altele se deblochează la atingerea gradelor de Sergent și Locotenent. Toate cele trei rezerve vor fi îmbunătățite după atingerea gradelor de Căpitan și Maior."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "Nivelurile {{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} sau {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Căpitan"
+
+msgid "reserveCategories/ranks/general"
+msgstr "General"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Locotenent"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Maior"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Sergent"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Soldat"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Întoarcerea sorții"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "În luptă, jucătorii pot alege dintre rezervele aleatorii care sunt disponibile vehiculelor din toate tipurile. Amplasarea unei rezerve într-un locaș înaintea luptei crește șansa de a o obține în luptă cu {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Cumpărarea unei rezerve îi va crește nivelul la {{@ colorLegacy 'FFE4C0'}}II{{/}} și va conferi șansa de a o crește la nivelul {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Scenariile de Front"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Luptă standard"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Se aplică regulile standard de Front. Condițiile de utilizare a rezervelor de luptă rămân neschimbate."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Suport operațional"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "La deblocarea unei rezerve: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "La revenirea în luptă: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Un scenariu mai rapid cu refacere mai rapidă a rezervelor de luptă:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Luptele în modul Front utilizează unul dintre următoarele scenarii: {{@ colorLegacy 'FFE4C0'}}Luptă standard{{/}}, {{@ colorLegacy 'FFE4C0'}}Suport operațional{{/}} sau {{@ colorLegacy 'FFE4C0'}}Întoarcerea sorții{{/}}. Scenariile modifică condițiile de utilizare a rezervelor de luptă. Informațiile scenariului de luptă curent sunt afișate pe ecranul de încărcare, pe perioada numărătorii inverse dinaintea luptei sau la apăsarea tastei Tab."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Categoriile rezervelor de luptă"
+
+msgid "reserveCategories/text"
+msgstr "Rezervele de luptă sunt împărțite în trei categorii cu câte trei rezerve fiecare. La intrarea în luptă, poți amplasa o singură rezervă din fiecare categorie în locașul corespunzător."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Rezerve de atac"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Rezervele de recunoaștere"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Rezervele tactice"
+
+msgid "reserves/sectionHeader"
+msgstr "Rezervele rapide"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Start rapid"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Timpul de pregătire pentru rezervele de luptă este scurtat cu 50% la începutul luptei."
+
+msgid "reserves/sectionReload/header"
+msgstr "Disponibilitate instantanee"
+
+msgid "reserves/sectionReload/text"
+msgstr "Rezervele de luptă vor fi disponibile de îndată ce sunt deblocate."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "A doua șansă"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Timpul de pregătire al Rezervelor de luptă este scurtat cu 70% la întoarcerea în luptă cu un vehicul nou."
+
+msgid "rules/backToFight/header"
+msgstr "Reîntoarcere în luptă"
+
+msgid "rules/backToFight/text"
+msgstr "Dacă vehiculul tău este distrus, alege orice alt vehicul potrivit și reintră pe câmpul de luptă pentru a continua lupta pentru victorie. Poți alege câteva dintre punctele de amplasare (reapariție) de pe flancuri, precum și din spate, fapt care te ajută în planul de bătaie. Apărătorii au la dispoziție o selecție mai largă de puncte de reapariție în spatele liniilor, ceea ce înseamnă că au posibilitatea de a se concentra în apărarea tunurilor de mare calibru, în cazul unei străpungeri. Sistemul are un indicator special care avertizează jucătorii în cazul în care zona reprezintă un pericol."
+
+msgid "rules/base/header"
+msgstr "Capturare bază"
+
+msgid "rules/base/textBottom"
+msgstr "Avarierea unui vehicul (sau a modulelor acestuia) care capturează o bază nu resetează progresul în capturare, doar o suspendă. Pentru a reseta capturarea bazei, apărătorii trebuie să distrugă vehiculele inamice sau să le forțeze să părăsească cercul bazei. Echipa din apărare nu poate recaptura o bază după ce a fost cucerită de inamici."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Echipa care atacă{FFE4C0_End} trebuie să captureze bazele secvențial pentru a atinge obiectivul principal. O bază capturată adaugă 2 minute la durata luptei. Capturarea ultimei baze adaugă 4 minute."
+
+msgid "rules/sectionHeader"
+msgstr "Reguli generale"
+
+msgid "rules/service/header"
+msgstr "Cercurile de aprovizionare"
+
+msgid "rules/service/text"
+msgstr "Cercurile de aprovizionare refac punctele de integritate ale vehiculelor, vindecă membrii de echipaj răniți și realimentează cu muniție. {FFE4C0_Start}Viteza de alimentare este după cum urmează: 100 de puncte integritate / un membru echipaj / 10%{FFE4C0_End} din muniție per secundă."
+
+msgid "rules/weapons/header"
+msgstr "Obiectiv: 3 din 5 baterii de tunuri"
+
+msgid "rules/weapons/list/back"
+msgstr "Blindajul din spate: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Blindajul dorsal și frontal {{@ colorLegacy 'FFE4C0'}}nu pot fi penetrate{{/}} de proiectile."
+
+msgid "rules/weapons/list/sides"
+msgstr "Blindajul lateral: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Blindajul lateral: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Zonele vulnerabile: {{@ colorLegacy 'FFE4C0'}}ușa (70mm) și ventilația (25mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Cinci turele de tunuri, amplasate în spatele liniilor echipei de apărători, sunt obiectivele principale ale luptei. Echipa din atac trebuie să distrugă 3 obiective principale, în timp ce apărătorii trebuie să le protejeze cu orice preț."
+
+msgid "subTitle/differentMonth"
+msgstr "între {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} și {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "între {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}, {{startYear}},{{/}} și {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}, {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "între {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} și {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Sectoarele A, B și C {{@ colorLegacy 'FFE4C0'}}de pe prima linie{{/}} reprezintă punctele de start pentru ambele echipe."
+
+msgid "winStrategy/header"
+msgstr "Strategia câștigătoare"
+
+msgid "winStrategy/mapZones"
+msgstr "Harta acestui mod vine cu trei linii orizontale de apărare:"
+
+msgid "winStrategy/secondLine"
+msgstr "Odată ce sectoarele din prima linie sunt capturate, lupta se mută în sectoarele D, E și F {{@ colorLegacy 'FFE4C0'}}de pe a doua linie{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}A treia linie{{/}} nu e împărțită în sectoare; este zona în care se desfășoară etapa finală a luptei. Acolo sunt amplasate bateriile de tunuri, iar distrugerea lor duce la victoria echipei în atac. Atacatorii au acces la obiectivele principale doar după ce reușesc să captureze cel puțin un sector din linia a doua. După pierd un sector, apărătorii au 1 minut să îl părăsească, înainte ca zona să fie bombardată; în caz contrar, o lovitură aeriană va distruge apărătorii rămași în urmă. Atacatorii care încearcă să ajungă la sectoarele de pe linia doi sau trei fără să captureze sectorul anterior vor fi și ei distruși de un atac aerian."

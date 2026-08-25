@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Uitbreiden"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Ontsla ondertrainde"
+
+msgid "barracks/bunks/title"
+msgstr "Bedden:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Voer in hoeveel bedden je wilt kopen. Beschikbare bedden in de barakken: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Gereduceerde prijs"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Nieuwe prijs: %(currency)s voor %(bunksCount)s bedden"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Oude prijs: %(currency)s voor %(bunksCount)s bedden"
+
+msgid "barracks/enlarge/header"
+msgstr "De barakken uitbreiden?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Ondertrainde bemanningsleden in je barakken die minder dan de benodigde {whiteSpanish_Open}210.060{whiteSpanish_Close}{icon} XP hebben om hun eerste specialisatie tot {whiteSpanish_Open}100%{whiteSpanish_Close} te trainen, kunnen worden ontslagen."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Ondertrainde bemanningsleden"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Je hebt geen ondertrainde bemanningsleden"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Je zult geen compensatie ontvangen voor het ontslaan van ondertrainde bemanningsleden. Na het ontslaan kunnen ze niet worden teruggebracht en gaat al hun XP verloren."
+
+msgid "barracks/title"
+msgstr "BARAKKEN"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Klik om de barakken uit te breiden."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Barakken uitbreiden"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Locatie"
+
+msgid "common/imageNotAvailable"
+msgstr "Afbeelding niet beschikbaar"
+
+msgid "common/inBarracks"
+msgstr "In de barakken"
+
+msgid "common/inBattle"
+msgstr "In gevecht"
+
+msgid "common/inPrebattle"
+msgstr "In tactische eenheid"
+
+msgid "common/navigation/aboutCrew"
+msgstr "OVER DE BEMANNING"
+
+msgid "common/navigation/toBarracks"
+msgstr "NAAR DE BARAKKEN"
+
+msgid "common/navigation/toGarage"
+msgstr "NAAR DE GARAGE"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "NAAR PROFIEL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Begrepen!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Je bemanningsleden zijn omgezet naar bemanningsboeken."
+
+msgid "conversionAwards/title"
+msgstr "SUCCESVOL OMGEZET"
+
+msgid "conversionAwards/underTitle"
+msgstr "De volgende items zijn aan je account toegevoegd."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Annuleren"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Ontslaan"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Bemanningsleden die worden ontslagen: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Ondertrainde bemanningsleden ontslaan?"
+
+msgid "conversionConfirm/warning"
+msgstr "Je zult geen compensatie ontvangen voor het ontslaan van ondertrainde bemanningsleden. Na het ontslaan kunnen ze niet worden teruggebracht en gaat al hun XP verloren."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Autoselecteer specialisaties"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Er zijn geen bemanningsleden met ongetrainde specialisaties."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Specialisaties automatisch selecteren niet mogelijk"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Alle ongetrainde specialisaties met een plus zullen automatisch worden vervangen door specialisaties die op een logische manier worden geselecteerd."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Autoselecteer ongetrainde specialisaties voor allen"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Reset specialisaties voor allen"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Er zijn geen bemanningsleden met getrainde specialisaties."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Specialisaties resetten niet mogelijk"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Alle specialisaties van alle bemanningsleden op je account zullen worden gereset. Deze handeling kan niet ongedaan worden gemaakt."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Reset specialisaties voor allen"
+
+msgid "crewBanner/infoText"
+msgstr "Gratis specialisatiereset of automatische selectie van ongetrainde specialisaties voor alle bemanningsleden op je account"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Versnelde bemanningstraining is aangezet"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Efficiëntiebonus: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Specialisatie-efficiëntie"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Specialisaties zijn onbeschikbaar omdat het bemanningslid niet voor dit voertuig is getraind."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specialisatie:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Specialisaties onbeschikbaar"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonusspecialisaties:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Hoofdkwalificatie-specialisaties:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(China)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Tsjecho-Slowakije)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Frankrijk)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Duitsland)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italië)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japan)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polen)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Zweden)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(V.K.)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(V.S.)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(Sovjet-Unie)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Alle Premium tankjagers {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Alle Premium artillerie {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Alle Premium zware tanks {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Alle Premium lichte tanks {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Alle Premium medium tanks\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Details"
+
+msgid "filter/group/details/title"
+msgstr "Details"
+
+msgid "filter/group/nation/title"
+msgstr "Natie"
+
+msgid "filter/group/other/title"
+msgstr "Overige"
+
+msgid "filter/group/special/title"
+msgstr "Speciaal"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Kwalificatie"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Niveau"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Niveau"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specialisatie"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Voertuigtype"
+
+msgid "filter/popup/button/title"
+msgstr "Filter"
+
+msgid "filter/popup/default/title"
+msgstr "Filter"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filter op natie"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filter op voertuigen"
+
+msgid "filter/reset"
+msgstr "Reset filter"
+
+msgid "filter/search/placeholder"
+msgstr "Zoeken op naam"
+
+msgid "filter/search/tooltip/header"
+msgstr "Zoeken op naam"
+
+msgid "filter/title"
+msgstr "Getoond:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Toon/verberg bemanningsleden in voertuigen met alle beschikbare modules en technische takken onderzocht."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elite voertuigen"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Toon/verberg bemanningsleden getraind voor Premium voertuigen."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premium voertuigen"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Toon/verberg bemanningsleden in primaire voertuigen."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Primaire voertuigen"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Toon/verberg bemanningsleden voor dit type voertuigen."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Toon/verberg bemanningsleden van deze natie."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Toon/verberg skins van deze natie."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Toon/verberg voertuigen van deze natie."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Toon/verberg ontslagen bemanningsleden."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Ontslagen"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Toon rekruten."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Rekruten"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Toon bemanningsleden."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Bemanningsleden"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Toon/verberg bemanningsleden met deze kwalificatie."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Toon/verberg Premium voertuigen."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premium voertuigen"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Toon/verberg voertuigen van dit type."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Tankjagers"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artillerie"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Zware tanks"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lichte tanks"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Medium tanks"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Geen voertuigen gevonden die\naan de zoekcriteria voldoen"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sorteer op voertuignaam."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Naam"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sorteer op voertuigniveau."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Niveau"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sorteer op voertuigtype."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Type"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Naam"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klik om filterinstellingen te resetten."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Reset alle filters"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Begrepen!"
+
+msgid "junkTankmen/description"
+msgstr "Deze bemanningsleden hebben minder dan de benodigde {bond_Open}210.060{bond_Close}{icon} XP om hun eerste specialisatie tot {whiteSpanish_Open}100%{whiteSpanish_Close} te trainen.\nZe zullen van je account worden verwijderd."
+
+msgid "junkTankmen/title"
+msgstr "Ondertrainde bemanningsleden ontslaan?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Er is een limiet van {whiteSpanish_Open}drie{whiteSpanish_Close} specialisaties voor elke extra kwalificatie. Een nieuwe bonusspecialisatie komt beschikbaar na het bereiken van de {whiteSpanish_Open}eerste{whiteSpanish_Close}, {whiteSpanish_Open}derde{whiteSpanish_Close} en {whiteSpanish_Open}vijfde{whiteSpanish_Close} specialisatie van de hoofdkwalificatie."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonusspecialisaties"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Als een bemanningslid voor een ander voertuig met een andere set kwalificaties wordt hertraind, kun je de specialisaties van de nieuwe extra kwalificatie opnieuw kiezen."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonusspecialisaties worden twee keer zo langzaam getraind als specialisaties van de hoofdkwalificatie."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Er is geen XP nodig om bonusspecialisaties te trainen."
+
+msgid "matrix/freeResetButton"
+msgstr "Gratis resetten"
+
+msgid "matrix/increaseButton"
+msgstr "Versnelde training"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Het bemanningslid heeft de trainingslimiet bereikt."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Versnelde training niet mogelijk"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Train specialisaties met Vrije XP en bemanningsboeken."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Snelle training"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Ongeschikte kwalificatie"
+
+msgid "matrix/qualification/1"
+msgstr "Hoofdkwalificatie"
+
+msgid "matrix/qualification/2"
+msgstr "Tweede kwalificatie"
+
+msgid "matrix/qualification/3"
+msgstr "Derde kwalificatie"
+
+msgid "matrix/qualification/4"
+msgstr "Vierde kwalificatie"
+
+msgid "matrix/qualification/5"
+msgstr "Vijfde kwalificatie"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Nul-specialisaties onbeschikbaar voor tweede kwalificatie"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Nul-specialisaties onbeschikbaar voor derde kwalificatie"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Nul-specialisaties onbeschikbaar voor vierde kwalificatie"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Tweede kwalificatie onbeschikbaar voor dit voertuig"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Derde kwalificatie onbeschikbaar voor dit voertuig"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Vierde kwalificatie onbeschikbaar voor dit voertuig"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Vijfde kwalificatie onbeschikbaar voor dit voertuig"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Er is een limiet van {whiteSpanish_Open}drie{whiteSpanish_Close} bonusspecialisaties voor elke extra kwalificatie. Alleen de specialisaties die bij deze kwalificatie horen, kunnen als bonusspecialisaties worden geselecteerd."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Er is een limiet van {whiteSpanish_Open}zes{whiteSpanish_Close} hoofdkwalificatie-specialisaties (inclusief nul-specialisaties)."
+
+msgid "matrix/resetButton"
+msgstr "Resetten"
+
+msgid "matrix/resetButtonHint"
+msgstr "KLIK OM SPECIALISATIES TE RESETTEN"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Je hebt geen getrainde specialisaties."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Specialisaties resetten niet mogelijk"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Klik om de specialisaties te resetten."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Specialisaties resetten"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Bonusspecialisatie beschikbaar voor training"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Er is geen Bemannings-XP nodig om bonusspecialisaties te trainen."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Onbeschikbaar"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Ontgrendeld wanneer de derde hoofdkwalificatie-specialisatie wordt getraind. Vereist geen XP."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Ontgrendeld wanneer de vijfde hoofdkwalificatie-specialisatie wordt getraind. Vereist geen XP."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Trainingsniveau"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "De totale hoeveelheid benodigde XP is lager omdat het bemanningslid één nul-specialisatie heeft."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "De totale hoeveelheid benodigde XP is lager omdat het bemanningslid twee nul-specialisaties heeft."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Specialisatie beschikbaar voor training"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Onbeschikbaar"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "De vorige specialisatie moet tot 100% getraind zijn."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Nul-specialisatie beschikbaar voor training"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Nul-specialisaties worden altijd als eerste getraind, ook wanneer er meerdere specialisaties zijn geselecteerd. Er is geen Bemannings-XP nodig om ze te trainen."
+
+msgid "matrix/skills/allSkills"
+msgstr "Alle extra specialisaties getraind voor dit voertuig"
+
+msgid "matrix/skills/available"
+msgstr "Specialisaties beschikbaar voor training:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonusspecialisaties"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Specialisaties zijn niet beschikbaar"
+
+msgid "matrix/skills/locked"
+msgstr "Specialisaties zijn niet beschikbaar"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Alle specialisaties zijn uitgeschakeld voor dit voertuig"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Hoofdkwalificatie-specialisaties"
+
+msgid "matrix/skills/reduced"
+msgstr "Specialisatie-efficiëntie verminderd"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Commandantspecialisaties"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Bestuurderspecialisaties"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Commandantspecialisaties"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Bestuurderspecialisaties"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Schutterspecialisaties"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Laderspecialisaties"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Radio-officierspecialisaties"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Schutterspecialisaties"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Laderspecialisaties"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Radio-officierspecialisaties"
+
+msgid "matrix/skills/training"
+msgstr "Specialisatietraining"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Nul-specialisaties beschikbaar voor training:"
+
+msgid "memberChange/action/recruit"
+msgstr "Rekruteer {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% KORTING OP KWALIFICATIEVERANDERING"
+
+msgid "memberChange/title"
+msgstr "SELECTEER {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}In het depot{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Na bevestiging zal het bemanningslid waarvan de XP wordt overgezet, van je account worden verwijderd."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Een mentorlicentie stelt je in staat om de Bemannings-XP van een bemanningslid over te zetten naar een ander bemanningslid van dezelfde natie."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Mentorlicentie"
+
+msgid "personalData/card/edit"
+msgstr "Bewerken"
+
+msgid "personalData/card/remove"
+msgstr "Verwijderen"
+
+msgid "personalData/card/restrictions"
+msgstr "Beperkingen: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Klik om de naam en het uiterlijk van een bemanningslid te vervangen."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Uiterlijk"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Dit bemanningslid heeft al een unieke naam en uiterlijk."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Naam en uiterlijk kunnen niet worden vervangen"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Niets gevonden. Verander de instellingen of reset het filter."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Sorteer de skins op natie."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filter op parameters"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Toon documenten."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Documenten"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Toon geschikte skins."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Geschikte skins"
+
+msgid "personalData/filter/type/title"
+msgstr "Type"
+
+msgid "personalData/title"
+msgstr "NAAM EN UITERLIJK VERVANGEN"
+
+msgid "personalFile/changeVehicle"
+msgstr "Veranderen"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Dit bemanningslid kan niet voor een ander voertuig worden getraind."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Handeling onbeschikbaar"
+
+msgid "personalFile/discount/full"
+msgstr "Korting op het hertrainen van de bemanning beschikbaar"
+
+msgid "personalFile/discount/short"
+msgstr "Korting beschikbaar"
+
+msgid "personalFile/inVehicle"
+msgstr "In het voertuig: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Verhogen"
+
+msgid "personalFile/isUntrained"
+msgstr "Niet getraind voor dit voertuig"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Alle {icon} Premiums"
+
+msgid "personalFile/retrain"
+msgstr "Hertrainen"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Specialisatie-efficiëntie:"
+
+msgid "personalFile/specialization"
+msgstr "Specialisatie:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specialisatie"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Klik om een voorbeeld van deze commandant-voice-over te beluisteren"
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Unieke voice-over"
+
+msgid "postProgression/button/claim"
+msgstr "Beloning ophalen"
+
+msgid "postProgression/description"
+msgstr "Alle bemanningsleden die zes hoofdkwalificatie-specialisaties hebben getraind, krijgen toegang tot de gezamenlijke post-progressie. Voor elke 100.000 verdiende XP in de post-progressie ontvang je een universele gids waarmee je andere bemanningen kunt trainen."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "De post-progressie is een verenigd systeem voor alle bemanningsleden met zes volledig getrainde hoofdkwalificatie-specialisaties op een spelersaccount."
+
+msgid "postProgression/tips/2"
+msgstr "Alleen Gevechts-XP telt mee voor de post-progressie. De helft van de door een bemanningslid verdiende Gevechts-XP wordt gedeeld door het aantal bemanningsleden in het voertuig, en vervolgens toegevoegd aan de post-progressie."
+
+msgid "postProgression/tips/3"
+msgstr "Verlies van XP door hertraining heeft geen invloed op de post-progressie."
+
+msgid "postProgression/title"
+msgstr "BEMANNING POST-PROGRESSIE"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Alle bemanningsleden die toegang tot de post-progressie hadden, hebben een lage specialisatie-efficiëntie."
+
+msgid "postProgression/warning/retire"
+msgstr "Alle bemanningsleden die toegang tot de post-progressie hadden, zijn ontslagen of hebben XP van hun laatste specialisatie(s) verloren."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Alle Premium tankjagers"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Alle Premium artillerie"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Premium tankjagers"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Premium artillerie"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Premium zware tanks"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Premium lichte tanks"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Premium medium tanks"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Alle Premium zware tanks"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Alle Premium lichte tanks"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Alle Premium medium tanks"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "ONDERSCHEIDINGEN"
+
+msgid "serviceRecord/averageXP"
+msgstr "Gemiddelde ervaring per gevecht"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Deelgenomen gevechten"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Geen prestaties of onderscheidingen verdiend in gevechten."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Verhouding van totale hoeveelheid verdiende ervaring tot het aantal gevechten met het voertuig waaraan het bemanningslid is toegewezen."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Gemiddelde ervaring per gevecht"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "De rang van een bemanningslid hangt af van hun ervaring en aantal getrainde specialisaties."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rang"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Bemanningslid heeft alle specialisaties voor dit voertuig getraind"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Specialisaties beschikbaar voor training"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Alle specialisaties zijn uitgeschakeld voor dit voertuig"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Er is geen XP nodig voor het trainen van de specialisaties van extra kwalificaties, die twee keer zo langzaam als hoofdkwalificatie-specialisaties worden getraind."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Annuleren"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Trainen"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUSKWALIFICATIE"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "HOOFDKWALIFICATIE"
+
+msgid "tankChange/title"
+msgstr "TRAIN VOOR VOERTUIG"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Toon voertuigen in de garage."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "In de garage"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Sorteer de voertuigen op type en niveau."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filter op parameters"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Je hoeft voor Premium voertuigen geen bemanningsleden te trainen, want je kunt ze zonder negatief effect overzetten van voertuigen van hetzelfde type."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premium voertuig"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Voertuignaam mag maximaal %(maxLength)s tekens bevatten."
+
+msgid "tankman/action/dismiss/title"
+msgstr "ONTSLAAN"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Ontsla dit bemanningslid."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Dit bemanningslid kan niet worden ontslagen."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Handeling onbeschikbaar"
+
+msgid "tankman/action/recruit/title"
+msgstr "REKRUTEREN"
+
+msgid "tankman/action/restore/title"
+msgstr "TERUGBRENGEN"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Breng dit bemanningslid terug."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Klik om een voorbeeld van deze commandant-voice-over te beluisteren"
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Unieke voice-over"
+
+msgid "tankman/recruit"
+msgstr "Rekruut"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Uiterlijk"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profiel"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Dienstdossier"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Rekruteren"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Reset filter"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Niets gevonden. Verander de instellingen of reset het filter."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Niets gevonden. Rekruteer een bemanningslid."
+
+msgid "tankmanList/filter/title"
+msgstr "Bemanningsleden:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Niet genoeg bedden in de barakken."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Toon/verberg alleen ontslagen bemanningsleden."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Ontslagen"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Toon bemanningsleden in de barakken."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "In de barakken"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Toon bemanningsleden in voertuigen."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "In voertuigen"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Toon/verberg skins van deze natie."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Sorteer de bemanningsleden op kwalificatie, specialisatie en andere parameters."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filter op parameters"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Rekruteer een nieuw bemanningslid."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Naam mag maximaal %(maxLength)s tekens bevatten."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Houd je muis op een specialisatie om te zien hoe die bij 100% training de bijbehorende eigenschappen beïnvloedt met de huidige specialisatie-efficiëntie."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Begrepen!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Voor elke hoofdkwalificatie zijn er twee nieuwe specialisaties geïntroduceerd, 'Betrouwbare plaatsing' is herzien, en met een nieuwe optie kun je specialisaties in de gevechts-HUD verbergen."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Je kunt nu met één klik ondertrainde bemanningsleden ontslaan."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Specialisaties kunnen nu met credits worden gereset, zonder XP te verliezen."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Er zijn nieuwe specialisaties en features toegevoegd, en een bestaande specialisatie is geüpdatet."
+
+msgid "welcomeScreen/title"
+msgstr "BEMANNINGSUPDATES"

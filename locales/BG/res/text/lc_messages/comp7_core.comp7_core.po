@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Изберете машина, която искате да изключите от тази битка"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Етап на гласуване за забрана"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Потвърдете избора"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "След потвърждение няма да можете да изберете друга машина."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Етап на потвърждение"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Изберете най-подходящата машина за тази карта и състава на вашия отбор"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Етап на предварителна селекция"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Изберете най-добрата машина за текущата карта и вашия отбор."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Чакат се играчи..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Изберете машина"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Етапът на сървър %(server)s завърши"
+
+msgid "primeTimeView/server"
+msgstr "Достъпен сървър: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Сървър %(server)s\nБитките ще бъдат достъпни още %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Сървър %(server)s\nБитките ще бъдат достъпни за %(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "Достъпни сървъри:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Битките не са налични на всички сървъри"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Този режим е недостъпен на сървър %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Битките на сървър %(server)s ще бъдат достъпни още %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Битките ще започнат на сървър %(server)s след %(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "Битките няма да бъдат достъпни на сървър %(server)s до %(startTime)s"

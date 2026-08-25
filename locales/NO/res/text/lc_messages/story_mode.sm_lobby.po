@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, kampvarighet: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "LUKK"
+
+msgid "battleResult/continueButton"
+msgstr "Fortsett"
+
+msgid "battleResult/damageAssisted"
+msgstr "Assistert\nskade"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Blokkert\nskade"
+
+msgid "battleResult/damageDealt"
+msgstr "Skade\nforårsaket"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Ved fullførelse av oppdrag med vanskelighetsgraden Rigorøs,\nfår du også automatisk fullført dem på Vanlig.\nDet betyr at du får belønningene for begge vanskelighetsgradene."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Ved fullførelse av oppdrag med vanskelighetsgraden Rigorøs, får du også automatisk fullført dem på Vanlig.\nDet betyr at du får belønningene for begge vanskelighetsgradene."
+
+msgid "battleResult/kills"
+msgstr "Fiender\nbekjempet"
+
+msgid "battleResult/lose/title"
+msgstr "KAMPEN ER OVER"
+
+msgid "battleResult/missionName/1"
+msgstr "TIGER HUNTER: Operasjon Steel Avalanche"
+
+msgid "battleResult/missionName/2"
+msgstr "TIGER HUNTER: Operasjon Trapper"
+
+msgid "battleResult/missionName/3"
+msgstr "TIGER HUNTER: Operasjon Hammer og ambolt"
+
+msgid "battleResult/missionName/4"
+msgstr "TIGER HUNTER: Operasjon Katt i musefella"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERASJON OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERASJON POSTMAN"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERASJON BOILING POINT"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Ingen aktive\noppdrag"
+
+msgid "battleResult/rewards/other"
+msgstr "Også mottatt:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Fullførte\noppdrag"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Overlevde{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Overlevde ikke{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "SEIER!"
+
+msgid "countdown/days"
+msgstr "{days} d"
+
+msgid "countdown/daysHours"
+msgstr "{days} d {hours} t"
+
+msgid "countdown/endsSoon"
+msgstr "Mindre enn {minutes} minutter"
+
+msgid "countdown/hours"
+msgstr "{hours} t"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} t {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} t {minutes} min"
+
+msgid "countdown/lessThanMinute"
+msgstr "Mindre enn 1 minutt"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} m"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Avbryt"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Du tjener ikke noen belønninger ved å fullføre denne operasjonen.\nØnsker du fremdeles å spille operasjonen uten aktive oppdrag?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Bekreft"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Ingen aktive oppdrag i denne operasjonen"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Identifiser den ukjente trusselen, stopp missilutskytingen og sørg for at de nye teknologiene havner i de rette hendene."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Spill solo og kjemp mot KI-styrte fiender i denne episke historien med kommandører fra Sector 3!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Fullfør alle oppdragene for å få et minnesmerke og en medalje, tematiserte 2D stiler og andre verdifulle belønninger."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "A New Era Dawns"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Solohistorie"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Belønninger"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERASJON BOILING POINT"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Historier"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Rigorøs"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Vanlig"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Rigorøst\nminefelt"
+
+msgid "missionSelection/exitButton"
+msgstr "AVSLUTT MODUS"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERASJON\nSTEEL AVALANCHE"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERASJON\nTRAPPER"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERASJON\nHAMMER OG AMBOLT"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERASJON\nKATT I MUSEFELLA"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERASJON\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERASJON\nPOSTMAN"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERASJON\nBOILING POINT"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: \"Så hvordan har du det? Har du blitt bedre? Du får sjekke med medisinsk senere. Hver kanon teller nå. Angrepet har allerede begynt. Og fordi vi var sent ute har fienden fokusert alt på en annen flanke. Dette er vår mulighet. Vi angriper kjappest mulig. Kom dere inn i byen og skvis til fra begge sider.\nFølg oss — og unngå hitlertennene. De har en haug med rader av de betongtennene på det jordet. Men det er går bra. Vi kommer oss gjennom. Alt du trenger å gjøre er å følge ordrene mine raskt og presist. MacLeod og jeg kommer til å dekke deg.\nOg ikke bry deg om vitsene hans. Alle har sine unike mestringsmekanismer… Fremad!\""
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: \"Ah, Tigere — de er de verste dere kan møte på slagmarken. Og dersom overkommandoen sier de har et problem, mener de sannsynligvis Tigere. Vi kan ikke kontakte den første angrepstroppen, den andre dro akkurat ut, og her er vi — sendt for å følge etter dem.\nOg hvis de sender oss, betyr det bare én ting: Tigere. Det er derfor de har det ordtaket på HK: \"Send inn Tiger ekspertene!\" Ni tanks eliminert av bare to. Ikke ille i løpet av et halvt år. Dere leder 5-4. Men jeg har muligheten til å komme foran så jeg endelig får den fordømte medaljen!\nKom igjen — Brooks liker ikke å vente. Jakta vår er i gang.\""
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: \"Ok, alle sammen, dette er operasjon Hammer og ambolt. Enkelt navn for en ikke så enkel oppgave. Vi drar inn i byen for å rydde ut fiendtlige styrker. Kommer ikke til å bli enkelt—vi møter endel tung pansring. Men vi har hjerner, mot og lagsamarbeid på vår side, ikke sant Lucky? Og la oss være kjappe, folkens. Jeg har planer med en liten kopp \"te\" klokka fem, hvis dere skjønner hva jeg mener!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: \"Ikke spør, Lucky. Jeg vet like lite som du.Jeg liker ikke hemmelighetskremmeriet. Jeg liker å få vite ting direkte. Ser du fienden, kjemper du. Men dette? Det er bare rot.\n\nDet kommer til å være allierte tanks i byen også. Brooks ber oss om å gå forsiktig frem. Hva mener han med det?\nVi har en spesialoppgave. Å finne en eller annen type Wunderwaffe—noe digert på belter. Ingen andre som kan gjøre det, bare oss, Lucky.\n\nKlar? La oss rulle.\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Kaptein John McCormick: \"Ok folkens, dagen er kommet. Det er på tide å få avsluttet denne krigen og det er akkurat hva vi skal gjøre. Vi skal alle, i fellesskap–amerikanere, briter, franskmenn, kanadiere, australiere, belgiere, tsjekkoslovakere, grekere, nederlendere, kiwiere, nordmenn og polakker. Vi står sammen for å få en slutt på denne ondskapen for godt.\n\nVi skal bryte gjennom atlanterhavsmuren og etablere vårt brohode.\n\nGjør dere klare for landingen!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Kaptein Smith: \"Hør her. Tyskland undertegnet overgivelsespapirene for bare noen timer siden. Krigen slutter i morgen. Men guttene våre i fjellet mistet radiokontakten—de vet ikke at det er over. De planlegger å angripe denne helvetes festningen ved daggry, og tyskerne inne vet ikke om overgivelsen heller. Det kommer til å bli en meningsløs slakting.\n\nVi er de eneste som kan stoppe det. Vårt oppdrag: Snike oss forbi fiendens linjer og levere ordren om våpenhvilen. Det er et selvmordsoppdrag, men hvert liv vi redder er verdt det.\n\nVi har en fanget tysk radiomann med oss—han kjenner terrenget og han har like mye grunn som oss til å stoppe denne blodsutgytelsen. \n\nRull ut.\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: \"Situasjonen er kritisk. Vi har mistet kontakten med missilbasen vår i Norskehavet. Rekognoseringsflyet kom aldri tilbake, og den første landingsstyrken med tanks ble slått ut av en ukjent fiende.\n\nEtterretningen tyder på at de forbereder å skyte opp et ballistisk missil. Vi vet ikke målet, men i dette politiske klimaet kan en enkelt oppskyting utløse en global konflikt.\n\nFøles som i gamle dager, ikke sant? Bare enda et umulig oppdrag bak fiendens linjer. Rull ut!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERASJON STEEL AVALANCHE"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERASJON TRAPPER"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERASJON HAMMER OG AMBOLT"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERASJON KATT I MUSEFELLA"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERASJON OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERASJON POSTMAN"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERASJON BOILING POINT"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Spesialkjøretøy"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERASJON BOILING POINT"
+
+msgid "missionSelection/tab/newbies"
+msgstr "OPPLÆRINGSHISTORIER"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Angrip byen og bekjemp fiendtlige kjøretøy."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Angrip byen og bekjemp fiendtlige kjøretøy."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Angrip byen og bekjemp fiendtlige kjøretøy."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Fullfør opdragets hovedmål uten å ta skade fra fiendtlige miner."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Fullfør målene i hovedoppdraget uten å tape ett eneste kjøretøy."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Angrip byen og fang den fiendtlige Wunderwaffe."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Fullfør målene i hovedoppdraget på mindre enn %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Fullfør hovedmålene i oppdraget og bekjemp %(kill_enemies)s ved hjelp av flyet."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Bryt gjennom, bekjemp kystkanonene og erobre brohodet på stranden."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Fullfør målene i hovedoppdraget på mindre enn %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Fullfør målene i hovedoppdraget uten å tape ett eneste kjøretøy."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Overlever våpenhvileordren til dine allierte."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Fullfør hovedmålene i oppdraget og bekjemp færre enn %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Fullfør målene i hovedoppdraget uten å tape ett eneste kjøretøy."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Nå kommandosenteret og stans missilutskytningen."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Fullfør målene i hovedoppdraget på mindre enn %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Fullfør målene i hovedoppdraget uten å tape ett eneste kjøretøy."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s fiendtlig kjøretøy"
+msgstr[1] "%(value)s fiendtlige kjøretøy"
+msgstr[2] "%(value)s fiendtlige kjøretøy"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Oppdraget er låst: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minutt"
+msgstr[1] "%(value)s minutter"
+msgstr[2] "%(value)s minutter"
+
+msgid "missionSelection/taskRewards"
+msgstr "Belønning: "
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Dette kjøretøyet er kun tilgjengelig i Historier."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Fullfør ytterligere %(numBattles)s kamper i modusen tilfeldige kamper\nfor å åpne denne operasjonen."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Scenarioer for nybegynnere"
+
+msgid "mode/story_mode/description"
+msgstr "Fullfør planlagte operasjoner mot KI-styrte kjøretøy"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operasjon Boiling Point tilgjengelig"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Du finner ditt valgte spillmodus øverst i hovedmenyen i garasjen. Klikk på modusnavnet for å se hva annet som er tilgjengelig."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Klikk på &zwnbsp;{whiteSpanish_Open}Historier{whiteSpanish_Close}&zwnbsp; for å velge denne spillmodusen."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "I Historier kan du utforske PvE scenarioer med narrativer, kjempe mot KI-styrte fiender, stupe ut i atmosfæren til heroiske slag og tjene verdifulle belønninger!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Gå til velgeren for spillmodi"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Velg Historier"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Nyt PvE action"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "HISTORIER"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Narrative scenarioer venter"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Start på nytt"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "KAMPEN ER OVER"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Hopp over"
+
+msgid "onboardingQueue/skipText"
+msgstr "Alle servere er opptatt. Vennligst vent, eller hopp over denne historien."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Vi gjør klar serveren for deg. Vennligst vent..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Skade blokker av pansring {parSecondary_Start}(enheter){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Blokkert skade"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Treff fra HE og HESH granater teller ikke med."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Teller med:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Rikosjett fra fiendtlige skudd"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Ikke-penetrerende treff"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Assistert skade"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Følgende skade forårsaket av allierte med din assistanse teller med:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Skade etterfulgt av oppdagelse"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Skade etter at du har ødelagt et belte og immobilisert det fiendtlige kjøretøyet"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Total skade forårsaket av allierte\n{parSecondary_Start}(enheter){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Forårsaket skade"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Teller med:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Skade fra et skudd"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Skade av kollisjon"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Skade ved brann"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Skade fra å skyve det fiendtlige kjøretøyet over en kant"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Totalskade {parSecondary_Start}(enheter){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Bekjempede fiender"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Teller med:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Bekjempet av et skudd"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Bekjempet av brann"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Bekjempet av kollisjon"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Bekjempet av drukning"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Bekjempet ved å skyve det fiendtlige kjøretøyet over en kant"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Bekjempet av å bli veltet."
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Fullførte oppdrag"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Antall fullførte oppdrag og alle nåværende\noppdrag.\nOppderag fullført med vanskelighetsgraden\nrigorøs er også automatisk fullført på vanlig."
+
+msgid "tooltips/difficulty/available"
+msgstr "Tilgjengelig"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Fienders raksjonshastighet og presisjon har økt og de vil angripe mer agressivt. Til gjengjeld får du ekstra belønninger ved fullførelse av oppdraget."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Ved å fullføre oppdrag med vanskelighetsgraden {whiteSpanish_Open}Rigorøs{whiteSpanish_Close}, fullfører du dem automatisk i vanskelighetsgraden {whiteSpanish_Open}Vanlig{whiteSpanish_Close}. Du får belønningene for begge vanskelighetsgradene."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Ytterligere vilkår"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Rigorøs"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "For å åpne vanskelighetsgraden Rigorøs, må du fremvise dine ferdigheter i spillet ved å fullføre denne operasjonen på Vanlig vanskelighetsgrad."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Låst"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Motstandere er tregere og skyter mindre presist, og du får standardbelønningene ved fullførelse av oppdrag."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Vanlig"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Valgt"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "En mer utfordrende versjon av trinnet Minefelt i operasjonen—tør du å gå inn i denne dødelige labyrinten?\nByr på bedre kampbelønninger."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Rigorøs, Minefelt"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Identifiser den ukjente trusselen, stopp missilutskytingen og sørg for at de nye teknologiene havner i de rette hendene."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operasjon Boiling Point"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "MODUS"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "— Spillmodus. Klikk for å utforske"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Spill solo og kjemp mot KI-styrte fiender i denne episke historien med kommandører fra Sector 3!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Event tilgjengelig i {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "HISTORIER"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "MODUS"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "— Spillmodus. Klikk for å utforske"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Spesielle forhåndsbestemte scenarioer. Sett ut på din reise i en verden med pansrede kjøretøy og vis hva du er god for mot KI-styrte kjøretøy."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Historier"
+
+msgid "tooltips/task/active"
+msgstr "Aktiv"
+
+msgid "tooltips/task/completed"
+msgstr "Fullført"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Ukjente vilkår"
+
+msgid "tooltips/task/locked"
+msgstr "Låst: %(timer)s"

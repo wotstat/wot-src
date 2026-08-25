@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Stufe {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Besonderes Kapitel"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Abgeschlossen"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Sehen Sie sich den neuen Fortschritt an"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Kapitel auswählen"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Vorübergebend nicht verfügbar"
+
+msgid "battle_pass_widget/title"
+msgstr "Battle Pass"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Feuerprobe: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} – {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} T."
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} T. {{hours}} Std."
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} Std."
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} Std. {{minutes}} Min."
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} Min."
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Bonusauftrag\nSchließen Sie zum Freischalten 3 Standardaufträge ab."
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Für den Bonusauftrag verbleibende Zeit"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Neue Tagesaufträge in"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Das ist vorerst alles. Neue Tagesaufträge werden bald verfügbar."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Schließen Sie den vorherigen Auftrag ab, um diesen freizuschalten."
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Premiumaufträge sind vorübergehend nicht verfügbar."
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Premium kaufen"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Erfordert WoT-Premiumkonto"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Premiumaufträge"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Tagesaufträge sind vorübergehend nicht verfügbar"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Ersetzen"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "TÄGLICH"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Zu den Kampagnen"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Ergebnis verbessern"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Zur Operation"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Eine wahre Herausforderung für erfahrene Kämpfer mit einzigartigen Fahrzeugen als Belohnung."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Sie haben Operation {{currentOperationName}} abgeschlossen! Sie können weiterhin versuchen, noch bessere Ergebnisse zu erzielen, um die Operation mit Auszeichnung abzuschließen, oder eine neue Herausforderung über die Operation {{nextOperationName}} annehmen."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Sie können Ihr Ergebnis in Operation {{nextOperationName}} noch verbessern."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Sie haben Operation {{currentOperationName}} mit Auszeichnung abgeschlossen! Die Operation {{nextOperationName}} ist jetzt verfügbar."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Kampagnenpunkte können durch den Abschluss von persönlichen Aufträgen, Tagesaufträgen und Wochenaufträgen verdient werden."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Schließen Sie alle {{totalProgress}} Aufträge ab, um die Operation mit Auszeichnung abzuschließen und sich zusätzliche Belohnungen zu verdienen."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Bringen Sie alle Teile an, um das Fahrzeug „{{vehicleName}}“ als Belohnung zu erhalten. Um Fahrzeugteile zu sammeln, müssen Sie Kampagnenpunkte durch den Abschluss von persönlichen Aufträgen, Tagesaufträgen und Wochenaufträgen verdienen."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Bringen Sie alle Teile an, um das Fahrzeug „{{vehicleName}}“ als Belohnung zu erhalten. Um Fahrzeugteile zu sammeln, müssen Sie Kampagnenpunkte durch den Abschluss von persönlichen Aufträgen, Tagesaufträgen und Wochenaufträgen verdienen."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Abgeschlossene Aufträge: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Die neue Kampagne „Sektor 3“ ist verfügbar!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operation {{nextOperationName}} ist verfügbar!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operation {{currentOperationName}} mit Auszeichnung abgeschlossen!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operation {{nextOperationName}} ist verfügbar!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operation: {{currentOperationName}} | Abschnitt {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Abschluss der Operation {{currentOperationName}} mit Auszeichnung"
+
+msgid "hub/basic_missions/title"
+msgstr "REGULÄRE AUFTRÄGE"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "WÖCHENTLICH"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Wird jeden {{weekDay}} aktualisiert"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktiver Auftrag"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "ODER"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Neue Aufträge kommen bald ..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "KÄMPFER"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ASS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITE"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Es gibt drei Auftragskategorien: Kämpfer, Elite und Ass. Jede Kategorie bietet eigene Herausforderungen und wertvolle Belohnungen."
+
+msgid "hub/challenge_missions/header"
+msgstr "FEUERPROBE"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Aktivieren"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Kostenlos neu starten"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Neu starten"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Aufgeben"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Zu den Aufträgen"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Aufträge der Feuerprobe abgeschlossen"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "%(count)s×"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "verbliebene Schilde"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "Möglichkeit zum kostenlosen Neustart"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Schließen Sie die aktiven Aufträge der Feuerprobe ab."
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Endet in %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Nicht verfügbar: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Fahrzeug der Stufe VI oder höher erforderlich"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTIV"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Abgeschlossen"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} Aufträge"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Auftrag der Herausforderung"
+
+msgid "hub/challenge_missions/new"
+msgstr "NEU"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Zur Feuerprobe"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Zur Feuerprobe"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "FEUERPROBE „{{ challengeName }}“ ABGESCHLOSSEN!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Zur Feuerprobe"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Feuerprobe „{{ challenge }}“ ist noch nicht abgeschlossen. Starten Sie sie erneut und holen Sie sich die Belohnungen noch einmal!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Zur Feuerprobe"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "AUFTRAG „{{ mission }}“ ABGESCHLOSSEN!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Zur Feuerprobe"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Auftrag „{{ mission }}“ fehlgeschlagen"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "VERBLIEBENE SCHILDE"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Zur Feuerprobe"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Stellen Sie sich der Feuerprobe und schließen Sie eine Reihe herausfordernder Aufträge ab, die für den Sieger wertvolle Belohnungen bereithalten."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "NEUE AUFTRÄGE FÜR DIE FEUERPROBE VERFÜGBAR!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Rücken Sie in der Feuerprobe aus zum Ruhm, stellen Sie sich der Herausforderung schwieriger Auftragsreihen und verdienen Sie sich wertvolle Belohnungen."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "FEUERPROBE BETRETEN"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Abgeschlossen"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Satz mit 3D-Aufsätzen"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Verbessertes Zubehör"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "{{count}}×"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D-Stil"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Besatzungsmitglied"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Fahrzeug"
+
+msgid "hub/challenge_missions/title"
+msgstr "AUFTRÄGE DER FEUERPROBE"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Über die Feuerprobe"
+
+msgid "hub/common_missions/title"
+msgstr "ZUSÄTZLICHE AUFTRÄGE"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Belohnungen abholen"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Epische Belohnung ist vorübergehend nicht verfügbar"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Jeder abgeschlossene Standard-, Premium- oder Bonusauftrag zählt für den Fortschritt."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Verfügbar"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Tagesaufträge für epische Belohnungen abschließen"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Belohnung abholen"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Belohnungen abholen"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Jeder abgeschlossene Standard-, Premium- oder Bonusauftrag zählt für den Fortschritt."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Verfügbar"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Wieder einsatzbereit! Tagesaufträge bringen epische Belohnungen: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Nach Abschluss von drei Standardaufträgen erhalten Sie einen Bonusauftrag mit noch wertvolleren Belohnungen. Sie müssen den Bonusauftrag bis Ende des Tages erledigen, sonst verfällt er."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Bonusauftrag"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Einige Aufträge müssen in einem Gefecht erfüllt werden, während andere kumulativ sind und über beliebig viele Gefechte erfüllt werden können. Kumulative Aufträge haben einen Fortschrittsbalken. Sie können die Aufträge in Zufallsgefechten abschließen."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Bedingungen"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Sie können einen Standardauftrag, der Ihnen nicht gefällt, durch einen anderen ersetzen. Danach ist die Schaltfläche, mit der Sie Aufträge ersetzen können, für {{time}} gesperrt. Unter Umständen geht Ihnen durch das Ersetzen eines Auftrags Fortschritt verloren, wenn eines oder mehrere Ihrer Fahrzeuge noch im Gefecht sind."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Auftrag ersetzen"
+
+msgid "info_page/additional/reward/description"
+msgstr "Epische Belohnungen sind ein marathonartiger Zyklus. Jeder erfüllte Standard-, Premium- und Bonusaufträg zählt für den Fortschritt. Nach Ende des Zyklus beginnt dieser erneut. Der Zyklus für epische Belohnungen hat keine Zeitbegrenzung und kann jederzeit abgeschlossen werden."
+
+msgid "info_page/additional/reward/title"
+msgstr "Epische Belohnung"
+
+msgid "info_page/header"
+msgstr "ÜBER AUFTRÄGE"
+
+msgid "info_page/main/premium/description"
+msgstr "Das WoT-Premiumkonto gewährt Zugang zu drei aufeinander folgenden Premiumaufträgen. Diese können Sie in Zufallsgefechten und im Modus „Ansturm“ erfüllt werden, ihr Fortschritt wird nach jedem Gefecht aktualisiert. Während Spielevents bringen Premiumaufträge eventspezifische Belohnungen."
+
+msgid "info_page/main/premium/title"
+msgstr "Premiumaufträge"
+
+msgid "info_page/main/standard/description"
+msgstr "Standardaufträge sind täglich mit zufälligen Bedingungen verfügbar. Ihr Fortschritt wird nach jedem Gefechts aktualisiert. Es ist empfohlen, diese Aufträge direkt am selben Tag abzuschließen, da sie ansonsten auf den nächsten Tag übertragen werden und neue Aufträge blockieren. Standardaufträge bringen während des Battle Pass auch Punkte für den Battle Pass sowie eventspezifische Belohnungen während anderer Spielevents."
+
+msgid "info_page/main/standard/title"
+msgstr "Standardaufträge"
+
+msgid "info_page/main/weekly/description"
+msgstr "Wochenaufträge bestehen aus einer Auftragsreihe, die jede Woche verfügbar wird. Der Fortschritt wird nach jedem Gefecht aktualisiert, abgeschlossene Aufträge werden zum Beginn des nächsten Wochenzyklus durch neue Aufträge ersetzt. Sie können Wochenaufträge in Zufallsgefechten und im Modus „Ansturm“ abschließen, um zusätzliche Boni zu erhalten."
+
+msgid "info_page/main/weekly/title"
+msgstr "Wochenaufträge"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Alle regulären Aufträge für heute abgeschlossen"
+
+msgid "quests/daily_quests/completed"
+msgstr "Alle Tagesaufträge abgeschlossen"
+
+msgid "tooltip/common/timer"
+msgstr "Verfügbar in {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Alle regulären Aufträge abgeschlossen! Sie finden weitere Aufträge im Reiter „Zusätzliche Aufträge“."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Bonusauftrag"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Abgeschlossen"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Tagesauftrag"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Läuft ab in {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Neue Tagesaufträge in {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Premiumauftrag"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Belohnungen:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Sie können alle {time} Stunden einen\nungewünschten Auftrag austauschen."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Auftrag ersetzen"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Auftrag abgeschlossen, Belohnung erhalten."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Schließen Sie den vorangehenden Auftrag ab, um diesen Auftrag freizuschalten. Alle Aufträge in einer Reihe müssen nacheinander abgeschlossen werden."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Für weitere Informationen anklicken"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Über Aufträge"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Diese Auftragsreihe kann nach dem Abschluss erneut gespielt werden. Ihr Fortschritt wird dazu zurückgesetzt und alle Schilde werden wiederhergestellt. Sie können sich dann alle Belohnungen erneut verdienen."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Aufträge erneut spielen"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Sie können eine Auftragsreihe erneut starten, nachdem Sie alle Schilde verloren haben. Ihr Auftragsfortschritt wird zurückgesetzt, die Schilde werden wiederhergestellt und Sie können alle Belohnungen erneut verdienen."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Folgende Neustarts kosten: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Verfügbare kostenlose Neustarts: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Jeder Neustart kostet: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Möglichkeit zum Neustart"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Schilde schützen Ihren Fortschritt. Jeder fehlgeschlagene Auftrag kostet einen Schild. Wenn alle Schilde verloren sind, ist die Auftragsreihe gescheitert. Wenn die Auftragsreihe erneut gestartet wird, werden alle Schilde wiederhergestellt."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Schilde"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Fahrzeugeinschränkungen:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Wochenauftrag"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Sie können diesen Wochenauftrag alle {{time}} austauschen."
+
+msgid "welcome/button"
+msgstr "Verstanden!"

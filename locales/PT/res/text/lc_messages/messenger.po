@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: Tradutor WoT <<noreply@wargaming.net>\nLanguage-Team: Equipa WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Ver novas mensagens"
+
+msgid "battle/history/header"
+msgstr "Inimigo"
+
+msgid "battle/history/latestMessage"
+msgstr "Ver a última mensagem"
+
+msgid "battle/history/title"
+msgstr "Histórico do Chat:"
+
+msgid "battle/history/upMessage"
+msgstr "Ver mensagens antigas"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sCHAT DESLIGADO%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "O chat de batalha não está disponível para jogadores do seu país."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "O chat de batalha não está disponível para a sua conta."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "O chat de batalha é proibido pelo controlo parental."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "O chat da batalha pode ser activado nas definições do jogo."
+
+msgid "battle/receivers/common"
+msgstr "TODOS"
+
+msgid "battle/receivers/squad"
+msgstr "PARA O PELOTÃO"
+
+msgid "battle/receivers/team"
+msgstr "EQUIPA"
+
+msgid "battle/toolTips/cancel"
+msgstr "cancelar"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "mudar receptor"
+
+msgid "battle/toolTips/default"
+msgstr "com o recipiente anterior"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Durante a conversação:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Pode bloquear mensagens do jogador selecionado clicando no botão perto da mensagem do jogador no chat."
+
+msgid "battle/toolTips/send"
+msgstr "enviar"
+
+msgid "battle/toolTips/startChat"
+msgstr "Iniciar conversação:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Pode reportar uma mensagem clicando nela e selecionando a razão para apresentar a queixa. Esta opção também permite desabilitar o chat ou defini-lo apenas para os aliados. O chat do Pelotão continuará disponível sempre."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Conversação"
+
+msgid "battle/toolTips/withSquad"
+msgstr "com o teu pelotão"
+
+msgid "battle/unknown/ally"
+msgstr "Aliado"
+
+msgid "battle/unknown/enemy"
+msgstr "Inimigo"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Irá ser desligado do servidor às %(curfewTime)s. A sessão irá terminar em %(timeLeft)s min."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Atingiu o limite diário de tempo de jogo. A sua sessão irá terminar em %(timeLeft)s min."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Atingiu o limite semanal de tempo de jogo. A sua sessão irá terminar em %(timeLeft)s min."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Alcançou o seu tempo de jogo. A sua sessão irá terminar em %(timeLeft)s min."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "As mensagens de jogadores desconhecidos podem conter ligações maliciosos. Não siga nenhuma das ligações nem partilhe a sua palavra-passe com ninguém."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Atenção!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Resultados da Batalha"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Mensagem de %(playerName)s foi bloqueada."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Enviar mensagem"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Enviar mensagem"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Pesquisa de Jogadores"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Definições do chat de voz"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "não pode banir a si mesmo."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Erro ao executar \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "O servidor está ocupado."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "sem permissões suficientes para realizar a operação."
+
+msgid "chat_error/NOT_READY"
+msgstr "Ação \"%(actionName)s\" indisponível."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "o usuário não existe."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "parâmetro não existe."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Chat de voz desativado. Para comunicar com os colegas do seu Pelotão, ative o chat de voz pressionando %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Chat de voz desactivado. Para comunicar com os membros do seu Pelotão, active o chat de voz (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Você e %(player)s elogiaram-se mutuamente."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s elogiou-o."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s foi elogiado."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Os seus aliados criaram um Pelotão %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "O Pelotão %(squadNum)s foi criado pela equipa inimiga."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "O pelotão %(squadNum)s foi criado. As mensagens e o chat de voz do pelotão estão agora disponíveis. Para desactivar o chat de voz, pressione %(keyName)s."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "O pelotão %(squadNum)s foi criado. As mensagens e o chat de voz do pelotão estão agora disponíveis. Para desactivar o chat de voz, pressione %(keyName)s."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Pelotão %(squadNum)s criado. O chat e chat de voz do Pelotão está agora disponível. atribuir uma tecla para activar/desactivar o chat de voz."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Pelotão %(squadNum)s criado. Chat do Pelotão está agora disponível."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Juntou-se ao Pelotão %(squadNum)s. As mensagens e o chat de voz do Pelotão estão agora disponíveis. Para desactivar o chat de voz, pressione %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Juntou-se ao Pelotão %(squadNum)s. As mensagens e o chat de voz do Pelotão estão agora disponíveis. Para activar o chat de voz, pressione %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Juntou-se ao Pelotão %(squadNum)s. As mensagens e o chat de voz do Pelotão estão agora disponíveis. Defina uma tecla para activar/desactivar o chat de voz."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Você juntou-se ao Pelotão %(squadNum)s. Chat do Pelotão está agora disponível."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Chat de voz desactivado. Para comunicar com os membros do seu Pelotão, active o chat de voz pressionando %(keyName)s."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Chat de voz ligado."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Juntou-se ao Pelotão %(squadNum)s. As mensagens e o chat de voz do Pelotão estão agora disponíveis. Para desactivar o chat de voz, pressione %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Juntou-se ao Pelotão %(squadNum)s. As mensagens e o chat de voz do Pelotão estão agora disponíveis. Para activar o chat de voz, pressione %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Juntou-se ao Pelotão %(squadNum)s. As mensagens e o chat de voz do Pelotão estão agora disponíveis. Defina uma tecla para activar/desactivar o chat de voz."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Você juntou-se ao Pelotão %(squadNum)s. Chat do Pelotão está agora disponível."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s juntou-se ao Pelotão %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s convidou-o para o Pelotão."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s convidou-o pata um Pelotão.\nAtenção! A sua alcunha e etiqueta do clã actuais serão exibidos aos membros do Pelotão durante a batalha."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s foi convidado para o Pelotão."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Você foi suspenso do envio de mensagens por %s segundos."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "O comando \"%s\" foi suspenso por %s segundos."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "O comando foi %s suspenso."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Mensagem suspensa. Por favor espere %s s."
+
+msgid "client/information/addToFriends/message"
+msgstr "Pedido para adicionar o jogador %s à sua lista de Amigos guardada."
+
+msgid "client/information/addToIgnored/message"
+msgstr "O pedido para adicionar o jogador %s à sua lista negra foi guardada. A conversação com o jogador foi bloqueada e as mensagens do jogador foram ocultadas."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "O chat com %s está bloqueado; as mensagens do jogador estão escondidas."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Nenhum resultado encontrado."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Pedido para remover o jogador %s da sua lista de Amigos guardada."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "O pedido para remover o jogador %s à sua lista negra foi guardada. A conversação com o jogador foi completamente restaurada."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "O chat com %s está de novo disponível."
+
+msgid "client/information/setMuted/message"
+msgstr "%s não está autorizado a enviar-lhe mensagens de voz."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s está autorizado a enviar-lhe mensagens de voz."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "A inação será punida!\nO trabalho de equipa é necessário para a vitória!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Questionário vazio"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Procura de Usuários"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Comprimento incorrecto ou caracter inválido na linha da procura. Número de caracteres válidos é de %d a %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Procura de Usuários"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Adicionar jogador à lista de Amigos"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Criar grupo"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Adicionar este jogador à lista de Ignorados"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Confirmar pedido de amizade"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Recusar pedido de amizade"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Editar grupo"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Criar canal de jogador"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Pesquisa de Jogador"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Ligar ao canal do jogador"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Sair do canal do jogador"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Remover jogador da lista de Amigos"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Remover jogador da sua lista de Ignorados"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Eliminar nota"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Enviar pedido de amizade"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Ver mensagens anteriores"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Pesquisar canais de jogadores"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Enviar mensagem"
+
+msgid "client_action/SET_MUTE"
+msgstr "Desativar mensagens de voz"
+
+msgid "client_action/SET_NOTE"
+msgstr "Criar/editar nota"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Ativar mensagens de voz"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Ação \"%(actionName)s\" suspensa por %(floatArg1)s s."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Ação \"%(actionName)s\" temporariamente indisponível. Tente novamente mais tarde."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Você excedeu o número máximo permitido de canais. Por favor feche canais desnecessários e tente de novo."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "O canal \"%(strArg1)s\" já existe."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Nome do canal não especificado."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Nome de canal inválido \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "A confirmação da palavra-passe não é igual à palavra-passe introduzida."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Palavra-passe do canal não especificada."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Palavra-passe do canal inválida."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Confirmação da palavra-passe não especificada."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Confirmação da palavra-passe inválida."
+
+msgid "client_error/command/generic_error"
+msgstr "Erro ao executar o comando \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "o comando está congelado por %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "o comando %(strArg1)s não é suportado pelo cliente."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "duração do banimento inválida %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "tipo de banimento inválido %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "nome do jogador inválido %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "O jogador \"%(strArg1)s\" está na sua lista de Ignorados."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "O jogador \"%(strArg1)s\" não está na sua Lista Negra."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Jogador não encontrado."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Já aceitou o pedido de amizade de \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Já recusou o pedido de amizade de \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "A sua resposta ao pedido de amizade de \"%(strArg1)s\" está a ser processada."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Nome do grupo não especificado."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "O grupo \"%(strArg1)s\" já existe."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Nome do grupo \"%(strArg1)s\" não é válido"
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Grupo \"%(strArg1)s\" não encontrado."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Mensagens de voz ativadas para o jogador \"%(strArg1)s\"."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Nota de texto não especificada."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Não existem notas para o jogador \"%(strArg1)s\"."
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "O jogador \"%(strArg1)s\" é seu amigo."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Impossível encontrar o jogador \"%(strArg1)s\" na sua lista de Amigos."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "O nome do canal deve conter %(int32Arg1)s–%(int32Arg2)s caracteres."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "O nome do grupo não deve exceder %(int32Arg2)s caracteres."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Número máximo de jogadores na lista de Ignorados %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Número máximo de grupos criados %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Infelizmente, não pode ter mais de %(int32Arg2)s jogadores na sua lista de Amigos. Remova jogadores com quem não joga."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Texto na nota não deve exceder %(int32Arg2)s caracteres."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "A palavra-passe deve conter %(int32Arg1)s–%(int32Arg2)s caracteres."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "ID de Jogador Inválido"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Erro ao executar \"%(actionName)s\""
+
+msgid "client_error/shared/LOCKED"
+msgstr "Ação \"%(actionName)s\" temporariamente indisponível. Tente novamente mais tarde."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Nome do jogador não especificado."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Nome de Jogador %(strArg1)s não é válido"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Impossível conectar ao servidor do canal de conversação. Tente novamente mais tarde."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Ação \"%(actionName)s\" não suportada pelo cliente de jogo."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Ocorreu um erro, tente de novo mais tarde."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Algumas funcionalidades estão desactivadas até que a contagem decrescente comece."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Data especificada não é válida."
+
+msgid "command/acceptInvite"
+msgstr "Aceitar Convite"
+
+msgid "command/addFriend"
+msgstr "Adicionar jogador à lista de Amigos"
+
+msgid "command/addIgnored"
+msgstr "Adicionar este jogador à lista de Ignorados"
+
+msgid "command/broadcast"
+msgstr "Enviar mensagem"
+
+msgid "command/createChatChannel"
+msgstr "Criar Canal"
+
+msgid "command/createInvite"
+msgstr "Criar Convite"
+
+msgid "command/createPrivate"
+msgstr "Criar canal privado"
+
+msgid "command/findChatChannels"
+msgstr "Procurar Canais"
+
+msgid "command/findUser"
+msgstr "Pesquisa de Jogadores"
+
+msgid "command/getActiveInvites"
+msgstr "Obter lista de convites"
+
+msgid "command/getArchiveInvites"
+msgstr "Obter lista de convites arquivada"
+
+msgid "command/getMembersCount"
+msgstr "Obter número de jogadores no canal"
+
+msgid "command/leaveChatChannel"
+msgstr "Sair do Canal"
+
+msgid "command/rejectInvite"
+msgstr "Rejeitar Convite"
+
+msgid "command/removeFriend"
+msgstr "Remover este jogador da lista de Amigos"
+
+msgid "command/removeIgnored"
+msgstr "Remover jogador da sua lista de Ignorados"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Obter lista dos membros do Clã"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Obter lista de canais do sistema"
+
+msgid "command/setMuted"
+msgstr "Desativar mensagens de voz"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s está banido."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s já não está banido."
+
+msgid "command/unsetMuted"
+msgstr "Ativar mensagens de voz"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Clique para guardar o grupo de contactos criado."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Criar"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Clique para cancelar a criação do grupo e voltar à sua Lista de Contactos."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Fechar"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Clique para eliminar o seu grupo de contactos."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Excluir"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Clique para cancelar a eliminação do grupo e voltar à sua Lista de Contactos."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Cancelar"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Clique para guardar o grupo de contactos com um novo nome."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Guardar"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Clique para cancelar a edição e voltar à sua Lista de Contactos."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Fechar"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "O nome não deve exceder %(maxChars)s caracteres."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Clique para adicionar um jogador à sua lista de Amigos."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Adicionar"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Clique para cancelar a pesquisa de jogadores e voltar à sua Lista de Contactos."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Fechar"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Clique para pesquisar um jogador pelo nome."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Pesquisar"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "O nome deve conter entre %(minChars)s e %(maxChars)s caracteres ou dígitos."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Pesquisa bloqueada por %(time)s segundos, por ter feito consultas com demasiada frequência."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Clique para guardar as configurações selecionadas."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Aplicar"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Clique para cancelar as alterações e voltar à sua Lista de Contactos."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Cancelar"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Clique para criar um grupo."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Criar Grupo"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Clique para pesquisar pelo nome um jogador que não está na sua lista de Contactos."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Pesquisar Fora da Lista de Contactos"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Clique para procurar e adicionar um jogador à sua lista de Contactos."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Pesquisa de Jogadores"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Clique para alterar as configurações da lista de Contactos."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Configurações"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "O nome deve conter até %(maxChars)s caracteres."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Enviar comando"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Excluir da equipa"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Fechar"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Criar Canal"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Procurar e Juntar-se"
+
+msgid "dialogs/channels/title"
+msgstr "Canais"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Fechar"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Juntar-se"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "A palavra-passe deve conter de 3 a 12 símbolos"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Palavra-passe incorrecta."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Você está a tentar conectar-se a um canal protegido %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Digite a senha:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Aviso"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Ligação ao canal"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Convidar para o Clã"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Adicionar à lista de Amigos"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Adicionar à lista de Ignorados"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Copiar para a área de transferência"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Criar canal privado"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Transferir ouro"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Remover da sua lista de Amigos"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Remover da lista de Ignorados"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Ver detalhes"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Ordenar por nome."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Ordenar por estado."
+
+msgid "dialogs/contacts/title"
+msgstr "Lista de Contactos"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Clã"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Amigos"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Pedidos de amizade"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Lista de Ignorados"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Mensagens de voz desligadas"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Fechar"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Criar"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Será criado automaticamente"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Digite a palavra-passe"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Nome do canal"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Palavra-passe"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Confirme a palavra-passe"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Requer palavra-passe"
+
+msgid "dialogs/createChannel/title"
+msgstr "Criar Canal"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Selecione o %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Selecionar um veículo de Nível %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Selecione veículos"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Selecionar um veículo de Nível %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Veículo: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Fechar"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Juntar-se"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Pesquisar"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Resultados da procura (primeiros %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Procura"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Procura de canal"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Ad. aos Amigos"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Lista de Ignorados"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Fechar"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Pesquisar"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Detalhes do utilizador"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Resultados da pesquisa:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Procura"
+
+msgid "dialogs/searchContact/title"
+msgstr "Procurar Contactos"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Canal de Serviço"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Seleccione um veículo Nível VIII"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "O objectivo principal é ser o último Pelotão restante."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "O modo Linha da Frente está disponível\npara veículos de Nível VIII apenas."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ evento +++\n+++ evento +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Experiência adicional por batalha\npara veículos de Nível IV ou superior"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Jogue me veículos do mesmo nível\na partir de Nível IV e receba experiência adicional"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Após os jogadores aceitarem o convite, a sua alcunha e etiqueta do clã actuais serão exibidos aos membros do Pelotão durante a batalha."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Canal de Chat"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Módulos experimentais montados nos veículos: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Estado: A fazer uma pausa"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Estado: Em batalha"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Estado: Não está pronto"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Estado: Offline"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Estado: Pronto"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Dispensar"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Convidar"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "culpado"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "suspeito"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Destruição de um aliado: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Desativar mensagens de voz"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Adicionar aos Amigos"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Adicionar à lista de Ignorados"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Fechar"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Criar canal privado"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Activar mensagens de voz"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Total"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Criado"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Última Batalha"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Estado:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Detalhes do Jogador"
+
+msgid "events/enterChannel"
+msgstr "[%s] juntou-se ao canal"
+
+msgid "events/leaveChannel"
+msgstr "[%s] saiu do canal"
+
+msgid "keyboardChat"
+msgstr "Chat"
+
+msgid "listView/emptyList/info"
+msgstr "notificações"
+
+msgid "listView/emptyList/invite"
+msgstr "convites"
+
+msgid "listView/emptyList/offer"
+msgstr "especiais"
+
+msgid "listView/emptyList/template"
+msgstr "Sem %(listType)s ainda."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Para as Notícias"
+
+msgid "listView/news/header"
+msgstr "O QUE HÁ DE NOVO?"
+
+msgid "listView/title"
+msgstr "Centro de Notificações"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Tempo de Batalha: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Enviar"
+
+msgid "lobby/buttons/channels"
+msgstr "Canais"
+
+msgid "lobby/buttons/contacts"
+msgstr "Contactos"
+
+msgid "lobby/buttons/send"
+msgstr "Enviar"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Fechar o canal"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Exibir data nas mensagens"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Exibir hora nas mensagens"
+
+msgid "lobby/faq/close"
+msgstr "Fechar"
+
+msgid "lobby/faq/title"
+msgstr "FAQ"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Adicionar jogador à lista de Amigos"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Adicionar este jogador à lista de Ignorados"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Copiar para a área de transferência"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Criar canal privado"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Mostrar detalhes do jogador"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Pesquisar Fora da Lista"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Cancelar"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Editar grupo"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Eliminar do Grupo"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Eliminar Grupo"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Clique para cancelar a criação e regressar à sua lista de Contactos."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Fechar"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Clique para guardar a nota criada pelo jogador."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Criar"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Arrastar contactos para aqui"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Clique para cancelar a edição e regressar à sua lista de Contactos."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Fechar"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Clique para guardar as edições à nota do jogador."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Guardar"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Não foram encontrados resultados para a sua pesquisa."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Unidades táticas permanentes"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Amigos"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Outros"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Lista de Ignorados"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Pedidos de amizade"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Procure um jogador na lista"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Ainda não foram adicionados jogadores."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Lista de Contactos Vazia"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Não existem contactos online neste momento"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Tente pesquisar fora da lista de Contactos."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Sem Correspondências"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Introduza o nome do jogador."
+
+msgid "messenger/contacts/title"
+msgstr "Contactos"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Fechar"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Adicionar"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "O grupo já existe."
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Pesquisa de Jogadores"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Fechar"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Criar"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Criar nota"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Fechar"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Guardar"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "O nome não deve ultrapassar os %(maxChars)s símbolos."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Editar nota"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "para "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Fechar"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Criar"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Criar Grupo"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Introduza um nome (até %(symbols)s caracteres)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Incluindo contactos dentro do grupo"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Cancelar"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Excluir"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Eliminar Grupo"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Fechar"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Guardar"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Editar grupo"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Introduza um nome (até %(symbols)s caracteres)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Introduza a descrição (até %(symbols)s símbolos)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "A descrição não deve ultrapassar os %(maxChars)s símbolos."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Pesquisa de Jogador"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Aceitar como grupo numa janela"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Mostrar jogadores offline"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Mostrar categoria “Outros”"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Mensagens de jogadores que não estão na sua lista de Contactos:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Aceitar numa janela separada"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Cancelar"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Aplicar"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Configurações"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Elemento adicionado"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Pontos do Passe de Batalha removidos"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Fichas removidas"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Tokens Manobras removidos"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Elementos removidos"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Pontos de Fama Pessoais removidos"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Experiência Grátis utilizada"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Pontos de Serviço removidos"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Tokens por anos de serviço removidos"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Pontos do Passe de Batalha adicionados"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Fichas adicionadas"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Tokens Manobras adicionados"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Elementos adicionados"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Pontos de Fama Pessoais adicionados"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Experiência Livre recebida"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Pontos de Serviço adicionados"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Tokens por anos de serviço adicionados"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Adicionar todos os contactos à lista de destinatários."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Adicionar contacto selecionado."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Eliminar todos os contactos da lista de destinatários."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Eliminar contacto selecionado da lista de destinatários."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "A acção %(action)s foi suspensa por %(cooldownPeriod)s seg."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Atingiu o limite de canais abertos. Por favor feche os canais não utilizados."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Erro"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Erro ao adicionar usuário à lista de Amigos."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Erro"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Erro ao adicionar utilizador à sua lista de Ignorados."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Erro"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Já existe um Canal com este nome"
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Erro ao criar o canal"
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Canal removido"
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Erro ao juntar-se ao canal"
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Erro ao executar o comando de conversação: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "O comando %(command)s foi bloqueado por %(cooldownPeriod)s s."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Mensagem suspensa. Demasiadas mensagens."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Ligação ao canal expirou."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Não é possível criar um canal privado: o usuário está offline."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Símbolo inválido"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Erro"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Parâmetro inválido %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Erro"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Palavra-passe incorrecta para o canal seguro."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Erro ao juntar-se ao canal"
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Falha ao inicializar a conversação."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/internalError/message"
+msgstr "Erro interno, tente novamente mais tarde."
+
+msgid "server/errors/internalError/title"
+msgstr "Erro ao criar o canal"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Nome de canal inválido."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Erro ao correr o comando de Convite."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Erro"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "O usuário %(user)s já tinha sido banido."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "O usuário %(user)s já é moderador do canal."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "O usuário está disconectado"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "O usuário %(user)s não é moderador do canal."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "O limite de usuários para este canal foi atingido."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Erro ao ligar-se ao canal"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Não tem permissões suficientes para esta operação."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Erro na Conversação"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Digite a sua palavra-passe para se conectar ao canal seguro."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Erro ao juntar-se ao Canal"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "A alteração desta configuração não está disponível no momento."
+
+msgid "server/errors/sqlError/message"
+msgstr "Erro no acesso ao banco de dados."
+
+msgid "server/errors/sqlError/title"
+msgstr "Erro"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Este utilizador adicionou-o à sua lista de Ignorados."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Erro"
+
+msgid "server/errors/userNotExists/message"
+msgstr "O usuário não existe."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Erro"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Você atingiu o limite de usuários na sua lista de Contatos."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Erro"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Você excedeu o número máximo permitido de canais."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Você excedeu o número máximo de caracteres permitido para o nome de canal."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Você excedeu o número máximo de caracteres permitido para uma palavra passe."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "O canal \"%(strArg1)s\" já existe."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Caracteres inválidos no nome do canal."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Palavras ofensivas no nome do canal."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Caçador de Aço"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Estes veículos especiais para o Caçador de Aço. Entre no Caçador de Aço para descobrir os que estes veículos são capazes de fazer."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Veículo destruído"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Nível alcançado"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Pontos ganhos"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Vitória"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Adicionado"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Afirmativo!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Ir para a Operação"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Estatísticas"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Evento"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "A campanha acabou."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "O multiplicador de EXP gerenciável do WoT Plus está disponível"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "O multiplicador de EXP gerenciável do WoT Plus está indisponível"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Falha ao reabastecer os consumíveis no %s. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Falha no reabastecimento de directivas para o %s. A operação está temporariamente indisponível devido a manutenção."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Falha no reabastecimento da directiva no %s automaticamente. Fundos insuficientes."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Falha no reabastecimento da directiva no %s automaticamente. Por favor equipe-o manualmente."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "A directiva para o %s foi reabastecida com sucesso. Gastou "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Falha no reabastecimento de consumíveis em %s. Considere a compra de consumíveis por ouro."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Falha ao reabastecer os consumíveis no veículo %s. Não tem créditos suficientes."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Falha ao reabastecer os consumíveis no %s. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Falha ao reabastecer automaticamente os consumíveis no %s. Reabasteça os consumíveis manualmente."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Os consumíveis do %s foram reabastecidos com sucesso. Gastou "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Falha no reabastecimento de munições em %s. Considere a compra de munições por ouro."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Falha ao reabastecer a munição no veículo %s. Não tem créditos suficientes."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Falha ao reabastecer a munição no %s. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Falha ao reabastecer automaticamente as munições no %s. Reabasteça as munições manualmente."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "A munição do veículo %s foi reabastecida com sucesso. Você gastou "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Falhou ao prolongar o estilo de aluguer por %s. Adquira o estilo com ouro."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Falhou ao prolongar o estilo de aluguer por %s. Fundos insuficientes."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Falhou ao prolongar o estilo de aluguer por %s. Todo o seu ouro ficará disponível depois da operabilidade da WG Wallet ficar restaurada automaticamente."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Prolongar o Período de Aluguer"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "O estilo de aluguer %s aplicado ao veículo %s está prestes a expirar: 3 batalhas restantes."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "O aluguer do estilo %s para o %s será automaticamente prolongado por mais %s batalhas após 3 batalhas."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Para o Exterior"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "O aluguer do estilo %s aplicado ao veículo %s expirou. Pode estender o aluguer do estilo no ecrã do Exterior."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Falhou ao prolongar automaticamente o estilo de aluguer por %s. Adquira o estilo manualmente."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Estilo de aluguer por %s prolongado com sucesso. Gasto "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Falhou a reparação do veículo %s."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Falha na reparação do veículo %s. Não tem créditos suficientes."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Falha ao reparar o %s. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Falha ao reparar automaticamente o %s. Repare o seu veículo manualmente."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Veículo %s reparado com sucesso. Você gastou "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "O banner do comandante WoT Plus está disponível"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "O banner do comandante WoT Plus está indisponível"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Crachás adicionados"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "O bónus de batalha WoT Plus está disponível"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "O bónus de batalha WoT Plus está indisponível"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Missão concluída: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Concluiu uma série de missões da Academia de Tanques."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Os tokens podem ser trocados por qualquer veículo pesquisável de Nível VI."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Para a Selecção de Veículos"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Parabéns!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Missões da Academia de Tanques concluídas: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Recompensa recebida:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Token da Academia utilizado."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Recompensa recebida:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Lugares de Garagem: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Veículos de aluguer: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Ganhe veículos e recursos úteis ao concluir missões de treino."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Para a Academia de Tanques"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "TUDO O QUE PRECISA\nPARA COMEÇAR"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Token da Academia"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Pontos por gastar gastos"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Pontos não gastos utilizados na ativação do Circuito Elite: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Pontos Por Gastar utilizados: %(points)s para o Capítulo %(chapter)s."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Equipamento Standard para Seleccionar"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Circuito Elite ativado"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "O Circuito Elite está pausado."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Limite de Pontos alcançado"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Ganhou o número máximo de Pontos no %(vehName)s.\nRecompensa por alcançar o Limite de Pontos: %(bonusPoints)s.\nLute noutro veículo para continuar a ganhar Pontos."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Parabéns!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "Estilo %(name)s recebido. Este pode ser aplicado no veículo logo de seguida e melhorado durante a progressão do Passe de Batalha."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Equipamento de Recompensa para Seleccionar"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Concluiu o %(chapter)s Capítulo do Passe de Batalha!\nRecompensas recebidas:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Concluiu o %(chapter)s Capítulo do Passe de Batalha!\nRecompensas recebidas:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Concluiu a Fase de Progressão %(newLevel)s do Passe de Batalha.\n\nRecompensa recebida:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Fases adicionadas no Capítulo %(chapter)s: %(levelCount)s\nAlcançou a Fase %(currentLevel)s\nRecompensas recebidas:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Recebeu recompensas pelas Fases do Passe de Batalha anteriormente concluídas:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Vai agora receber recompensas de ambas as Linhas de Recompensas Base e Melhoradas."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Recebeu recompensas pelas Fases concluídas utilizando Pontos por gastar:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Concluiu o %(chapter)s Capítulo.\nRecompensa recebida:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Continue a combater para ganhar Pontos!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Concluiu todos os Capítulos principais da %(season)s Passe de Batalha.\nRecompensa recebida:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Concluiu a Fase de Progressão %(newLevel)s do Capítulo %(chapter)s.\nRecompensa recebida:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Experiência Livre gasta:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Ouro gasto:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Adquiriu o Passe Melhorado e todas as Fases para o Capítulo %(chapter)s.\nRecompensas recebidas para todas as Fases do Capítulo:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Recebeu um bónus por adquirir os Passes Melhorados:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Irá agora receber ambas as Recompensas Base e Melhoradas por todos os Capítulos da Temporada."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Fases adicionadas ao Capítulo %(chapter)s: %(levelCount)s\nAlcançou a Fase %(currentLevel)s.\nRecompensas recebidas:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Recebeu um bónus por adquirir o Passe Melhorado:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Este Passe Melhorado apenas se aplica ao Capítulo %(chapter)s"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Recebeu recompensas pelas Fases do Passe de Batalha anteriormente concluídas:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Este Passe Melhorado funciona apenas para o Capítulo %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Irá agora receber recompensas da Linha de Recompensas Base e Melhoradas no Capítulo %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Recompensa Padrão Adicionada:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Passe Melhorado Adquirido"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Passe Melhorado Adquirido"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Fases Adquiridas"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Parabéns!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Recompensa Concedida"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Fase do Circuito Elite concluída.\nRecompensa recebida:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Fase do Circuito Elite concluída: %(amount)s\nRecompensa recebida:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Membro da tripulação:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Conquistas de Batalha"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Recebido %s pelo especial '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Recebido %s pelos especiais '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s Tokens"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s créditos"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s títulos"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s Moedas de Aniversário"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s Experiência Grátis"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s ouro"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Batalha"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Pontos do Passe de Batalha recebidos: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Tokens recebidos"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "compensação do dano causado por aliados: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Créditos ganhos: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Títulos recebidos"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Derrota"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d pela primeira vitória de cada dia"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Empate"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Batalha Terminada"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Pontos de Reservas de Combate"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Elementos recebidos"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Moedas de Aniversário recebidas"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Experiência recebida: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Avanço"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Estrutura"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Recurso Industrial ganho"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "por clã"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "por jogador"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Experiência Livre recebida"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Ouro ganho"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "Por se ter juntado às fileiras do %(campaignName)s, foi-lhe atribuída a medalha %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Parabéns!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Por ter concluído com sucesso 45 missões na série %(categoryName)s na campanha %(campaignName)s, foi-lhe atribuída a medalha %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Por ter concluído com sucesso 30 missões na série %(categoryName)s na campanha %(campaignName)s, foi-lhe atribuída a medalha %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Por ter concluído com sucesso 15 missões na série %(categoryName)s na campanha %(campaignName)s, foi-lhe atribuída a medalha %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "multa por dano causado a aliados: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Parabéns!\nPela conclusão com sucesso de missões pessoais recebeu as seguintes recompensas"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Parabéns!\nPor concluir com sucesso as missões pessoais da campanha Muito Esperado Apoio, vai receber as seguintes recompensas"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Parabéns!\nPor concluir com sucesso as missões pessoais da campanha Segunda Frente, vai receber as seguintes recompensas"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Parabéns!\nPor concluir com sucesso as missões pessoais de ambas as campanhas, vai receber as seguintes recompensas"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Adicionado à Reserva de Crédito"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Missão concluída! Recompensa"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Estatísticas"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Pontos do Passe de Batalha recebidos: : %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Beliches adicionados ao Quartel"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Tokens adicionados"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Créditos adicionados"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Títulos adicionados"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Elementos adicionados"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Moedas de Aniversário adicionadas"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Experiência Livre adicionada"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Ouro adicionado"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Adicionado"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Pontos de Campanha: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Animais de Estimação recebidos"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Dias de Conta Wargaming Premium adicionados"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Dias de Conta WoT Premium adicionados"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Batalhas de Bónus adicionadas: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s diário(s)"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s normais"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Slots adicionadas"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Batalhas de Bónus adicionadas"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nNormal, para a sua performance na fase concluída: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nPelas missões concluídas: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nDiário, pelo número de insígnias recebidas na Qualificação: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nNormal, pelo número de insígnias recebidas na Qualificação: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Alterações nos Postos"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nInsígnias recebidas"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nInsígnias recebidas"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nA mover para a Divisão%(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nA mover para as ligas"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nInsígnia retida"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nRecebeu o Posto %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nPerdeu o Posto %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nEscudo de Posto enfraquecido"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nSem alterações"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nEscudo de Posto partido"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nInsígnia retida"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nInsígnia recebida"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nInsígnia perdida"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nInsígnias recebidas"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Pontos de Posto "
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Recebeu as seguintes recompensas pelos seus anos de serviço"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Parabéns!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Recrutar"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Veículos"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Membro de Tripulação Feminino"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Derrota técnica"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Vitória técnica"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Vitória"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Um lugar para os mapas excluídos foi removido. O mapa %(mapName)s regressou à rotação."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "O mapa excluído %(mapNames)s foi removido do jogo. Pode excluir um novo mapa."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Um lugar para os mapas excluídos foi removido. O mapa %(mapNames)s regressou à rotação."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "O especial começou!\nApenas por 10 dias, troque os seus diagramas por outros itens valiosos."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Especial terminado"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Troque os Seus Diagramas"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "A conversão de diagramas está desactivada devido a manutenção."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Conversão de diagramas recuperada."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Não se esqueça de reclamar a sua recompensa!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Ir para a Selecção"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Os bónus de batalhas em andamento não estão incluídos."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "A Reserva Pessoal \"%(boosterName)s\" foi desactivada por razões técnicas."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: Reserva Pessoal totalmente usada"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Reservas perdidas:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "As Reservas expiraram"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "créditos"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "EXP Livre"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "EXP de Tripulação"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "EXP de Combate"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Bónus total para %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Fechar"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Você deixou ou foi excluído do clã:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "%(element_name)s adicionado"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "Medalha \"%(element_name)s\" adicionada"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "Lista \"%(element_name)s\" adicionada"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Recompensa recebida"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Louvores recebidos"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "As Tags Ativas estão indisponíveis no momento"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "As Tags Ativas estão disponíveis em batalha"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Os Louvores não estão disponíveis de momento"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Os Louvores estão disponíveis em batalha"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Foi-lhe concedido %(gold)s moedas de ouro, %(credits)s créditos."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Foi-lhe concedido %(credits)s créditos."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Assistente de Tripulação disponível"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Assistente de Tripulação indisponível"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Reservas de Créditos e Ouro Abertas!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Leilão"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Passe de Batalha"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Data"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Tokens removidos"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Créditos deduzidos"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Títulos removidos"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Elementos removidos"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Moedas de Aniversário removidas"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Experiência Grátis utilizada"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Ouro descontado"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Transacção financeira"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Leilão"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Tokens recebidos"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Créditos recebidos"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Títulos recebidos"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Elementos recebidos"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Moedas de Aniversário recebidas"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Experiência Livre recebida"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Ouro recebido"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Prémio Herói dos Nossos Tempos"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "A medalha %(medalName)s recebida por combater em %(battlesCount)s batalhas\nDecalques recebidos por combater em %(battlesCount)s batalhas (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Operações com Kits de Desmontagem estão temporariamente indisponíveis devido a manutenção."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Operações com Kits de Desmontagem estão disponíveis novamente. Pedimos desculpa pelo inconveniente."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Fundo das Chapas de Identificação desbloqueado: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Gravação das Chapas de Identificação desbloqueado: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "%(name)s Chapa de Identificação"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "alcançou Nível"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Novo Nível"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Desbloqueado"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Fundo"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Gravação"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "A Conta Wargaming Premium expira %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Confirmar Email"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "Email não confirmado"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Módulo experimental utilizado"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Todos os módulos experimentais removidos"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Módulos experimentais desmontados dos veículos seguintes"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Cenário"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Directivas de equipamento para seleccionar"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Pontos do Passe de Batalha"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Panfleto Universal"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Títulos"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Pontos da Reserva de Combate"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Equipamento Experimental para Seleccionar"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Licença de Mentoria"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Ordens de Re-treino"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Manual Universal"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Foram-lhe atribuídas Moedas de Aniversário: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Uma slot adicional para excluir mapas foi desbloqueada"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Incapaz de excluir mapas com WoT Plus"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Razão"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "A subscrição Boosteroid terminou."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Subscrição terminou."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Veículo desabilitado"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Veículo"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Veículo disponível"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Veículo"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Reinício do Progresso"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Ir para Missão"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Atenção! O progresso no missão %(missionShortName)s foi reiniciado. A conclusão da condição será reiniciada."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Missão: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operação: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Ficou temporariamente bloqueado das batalhas no modo %(mode)s. O bloqueio será removido em %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "O seu bloqueio temporário foi removido. agora pode jogar novamente no modo %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Os seus créditos, EXP e recompensas ganhos em batalha foram removidos por %(reason)s no modo %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Recebeu um aviso por %(reason)s no modo %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Bloqueio"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Fim do Bloqueio"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Você Foi Penalizado"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Conduta Antidesportista"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Guerra declarada ao clã %(clan)s!\nO Avanço começa a %(date)s às %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "A Defesa foi esmagada!\nTodos os ataques foram cancelados. Preencha a barra de durabilidade do Centro de Comando para a Fortificação funcionar."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "A batalha agendada com o clã %(clan)s foi cancelada."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "O Avanço agendado para as %(time)s de %(date)s contra o clã %(clan)s foi cancelado: a diferença entre os níveis da Fortificação é superior a 1 nível."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "A Estrutura %(building)s está danificada! Preencha a barra de durabilidade para que a Estrutura funcione."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "O Centro de Comando está danificado! Preencha a barra de durabilidade para a Fortificação funcionar. Se o seu Centro de Comando receber mais danos, a sua defesa será esmagada."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "O Clã %(clan)s declarou guerra contra si!\nO Avanço começa a %(date)s às %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Período de Defesa definido: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "O Período de Defesa foi ajustada. Novo Período de Defesa: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "A Defesa da sua Fortificação está desactivada. O Nível de todas as estruturas e Reservas foi diminuído para o Nível IV."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Parabéns! Desenvolveu a sua Fortificação para o nível VIII."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Parabéns! A Fortificação está totalmente operacional para benefício do clã."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "O dia do Cessar-fogo foi alterado. O novo dia do Cessar-fogo ainda não foi definido."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Dia de Cessar Fogo programado para: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Nível da estrutura %(building)s foi aumentado.\nReserva %(order)s em preparação transformado em Recurso industrial e adicionado ao armazenamento da estrutura."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Reserva %(orderTypeName)s compensada e pronta para ativação."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "O servidor da base foi alterado para %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Recurso Industrial adicionado: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Recurso Industrial deduzido: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Você está anexado à estrutura %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Reservas adicionadas: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Reservas deduzidas: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "A Reserva %(order)s está activa. Tempo restante: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Reserva Activada"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "A Reserva %(order)s está completamente utilizada."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "Preparação de %(count)s Reserva(s) %(order)s completa."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "A Evacuação de Reserva expirou.\n\n%(additional)s\nTotal para o seu clã: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "O inimigo ativou a Requisição de Reserva e adicionalmente saqueou: %(resDec)s\nAdicionalmente guardado pelo nosso clã: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "A Requisição de Reserva expirou.\n\n%(additional)s\nTotal for our clan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "O inimigo usou a Evacuação de Reserva e adicionalmente salvou: %(resDec)s\nAdicionalmente pilhado pelo nosso clã: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Armazém da estrutura %(building)s está cheio.\nUtilize Recurso Industrial para preparar Reservas ou transporte-o para outra estrutura."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Terminou o período de neutralidade para a sua Fortificação.\nOutros clãs podem agora atacá-lo - esteja preparado!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "A sua Fortificação declarou Neutralidade.\nOs outros clãs não podem atacá-lo agora. Período de Neutralidade termina: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s unidades de Recurso Industrial adicionadas ao armazém do Centro de Comando."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Ir para o Evento"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Para a Progressão"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Foram-lhe concedidas %(gold)s moedas de ouro."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Leilão: A sua licitação é mais baixa do que a licitação competitiva."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "A sua oportunidade de vencer o leilão actual foram reduzidas: A sua licitação é mais baixa do que a licitação competitiva."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Para o Evento"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "A sua licitação perdeu. Para regressar:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Os outros jogadores ofereceram mais na licitação. A sua licitação será devolvida em breve para a sua conta."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Erro"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Erro na licitação. Nenhum fundo foi deduzido. Por favor tente de novo."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "A licitação está prestes a terminar."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Despache-se e Faça a Sua Licitação!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Despache-se e faça a sua licitação. Os itens são limitados."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "A Licitação do Novo Lote Já Começou!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Adicionados beliches no Quartel"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Removidos beliches do Quartel"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Reservas Pessoais"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Reservas Pessoais removidas"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Tokens adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Tokens removidos"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Compensação por"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "com Tokens"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Camuflagem"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "créditos"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "com títulos"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Emblema"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "com Moedas de Aniversário"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "ouro"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Inscrição"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Efeito"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Pintura"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Número Com Um Dígito"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Número Com Dois Dígitos"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Número de três dígitos"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Decalque"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Estilo"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Créditos adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Créditos foram cobrados do seu saldo"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Livros da Tripulação adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "tripulação enviada para o Quartel"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "tripulação %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Imagens de tripulação adicionadas"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Imagens de tripulação removidas"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "tripulação %d%% enviada para o Quartel"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "tripulação removida"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Títulos recebidos"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Títulos recebidos"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Descontos pessoais"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Prémios Adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Prémios Removidos"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Módulos experimentais adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Módulos experimentais removidos"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Adicionado"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Removido"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Elementos adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Elementos removidos"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Consumíveis"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Consumíveis removidos"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Moedas de Aniversário adicionadas"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Moedas de Aniversário removidas"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Reservas Pessoais Expiráveis"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Ordens adicionadas"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Ordens deduzidas"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Experiência Livre"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Experiência Livre adicionada"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Experiência Grátis utilizada"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Ouro adicionado"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Ouro descontado"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Fragmentos universais adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Fragmentos universais removidos"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Recibo"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Adicionado ao Armazém"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Consumíveis removidos"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Nos veículos"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Adicionados fragmentos de diagramas de veículos %(nationName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Removidos fragmentos de diagramas de veículos %(nationName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Adicionado"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Removido"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "itens"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Dias de Conta Wargaming Premium adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Dias de Conta Wargaming Premium deduzidos"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Conta Wargaming Premium"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "O %(vehicleName)s recebeu %(xpCount)s Pontos de Elite."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "O %(vehicleName)s recebeu o estatuto de Nível Elite %(level)s e %(xpCount)s Elite Pontos."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "O %(vehicleName)s recebeu o Nível de Elite %(level)s."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Itens de"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Inventário Steam"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Batalhas de Bónus adicionadas"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Batalhas de Bónus removidas"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "dias de aluguer: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Slots adicionadas"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Slots removidas"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "Conta WoT Premium"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Dias de Conta WoT Premium adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Dias de Conta WoT Premium deduzidos"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Recrutas"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Adicionada a experiência não distribuída aos membros da tripulação"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Removida dos membros da tripulação a experiência não distribuída"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Dispensado"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "todos os módulos pesquisados"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Fragmentos de diagramas de %(vehicleName)s adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Fragmentos de diagramas de %(vehicleName)s removidos"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Veículos adicionados"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Veículos removidos"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Veículos alugados adicionados"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Foram-lhe concedidos consumíveis: %(typeName)s \"%(itemName)s\" - %(amount)d item(ns)."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Para as Caixas"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Clique no botão para ver o conteúdo."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Recebeu uma encomenda:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Ver"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Portões activados: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "A Activar Portões"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Itens recebidos:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Activámos todos os seus Portões e adicionámos os seus conteúdos à sua conta:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Recompensas Recebidas"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Abrimos todas as suas caixas e adicionámos as recompensas para as Ops Festivas"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Recompensas Recebidas"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Decalques adicionados: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Decalque adicionado: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Para o Questionário"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Parabéns!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "A Missão de Reconhecimento terminou. Obrigado pela sua contribuição no desenvolvimento de novos mapas!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "A Missão de Reconhecimento terminou.\n\nObrigado pela sua contribuição no desenvolvimento de novos mapas!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "A Missão de Reconhecimento começou.\n\nLute em mapas sob desenvolvimento em veículos de Nível VIII–X, partilhe a sua opinião nos questionários e receba recompensas!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Recompensa final:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Combateu %(battles)s batalhas na Missão de Reconhecimento."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Recompensa recebida:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Pode responder ao questionário referente às mecânicas do modo na Missão de Reconhecimento."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Questionário Disponível"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Pode responder ao questionário referente ao mapa %(mapName)s na Missão de Reconhecimento."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Ir para o Quartel"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Membros da tripulação removidos: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Abastecimentos da Frente Nacional"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Assistente de Equipamento está disponível"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Assistente de Equipamento está indisponível"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Tem novas Reservas:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Notificação de Lançamento"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Reservas a expirar:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Reservas Expiráveis prestes a ser perdidas"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Créditos Recebidos: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Data: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Transacção Financeira:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Adicionado ao Armazém: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Recibo"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Novo ciclo de acumulação iniciado."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Novo ciclo de acumulação iniciado. Para ganhar créditos, active a Conta WoT Premium."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Novo ciclo de acumulação iniciado. Para ganhar ouro, subscreva o WoT Plus."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "A acumulação de créditos na Reserva de Créditos foi suspensa."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Reserva de Créditos Aberta!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Reclamar Recompensa"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Pós-Progressão Concluída!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Para a Progressão"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Pós-Progressão"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Ganhou acesso a uma recompensa especial."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Guerra de Clãs"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Resultado da Batalha"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Torneio"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Derrota"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Empate"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Resultados indefinidos"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Vitória!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Removido pelo proprietário"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Falha técnica"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Você foi excluído"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Derrota técnica"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Empate técnico"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Resultados indefinidos"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Vitória técnica"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Tempo expirou"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Completo"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(batalha %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Resultado parcial"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Resultado"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Conta Wargaming Premium recebida. Expira em %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Conta Wargaming Premium alterada. Expira em %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "A Conta Wargaming Premium expirou."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Conta Wargaming Premium prolongada. Expira em %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "Conta WoT Premium recebida. Expira em %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "Conta WoT Premium alterada. Expira em %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "A Conta WoT Premium expirou."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "Conta WoT Premium estendida. Expira em %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Recebeu %(days)d dia(s) de Conta Wargaming Premium."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Para o Sistema Elite"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Níveis Elíte e Marcas Elite foram recebidas."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Sistema Elite"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Para Veículos"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Nível Elite Recebido"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Ocorreu um erro ao reclamar a Recompensa Elite."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr " %(rewardName)s %(typeReward)s recebidos por atingir o Nível %(lvl)s Elite."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Recompensa Elite Recebida"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Atenção!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Camuflagem"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "decalque"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "emblema"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Inscrição"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s%(name)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "E mais %(count)s"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "Nível %(level)s "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "pintura"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "decalque"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Recebido:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "Estilo %(name)s"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Parabéns!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Recompensa por Mérito"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Lute em batalhas e receba recompensas. Quanto mais lutar, mais perto estarão as recompensas."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Recompensa Avançada recebida:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s Token(s) de Posto convertidos em %(count)s títulos."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Parabéns!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Recompensa Máxima recebida:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Recompensa Normal recebida:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Recompensa Pequena recebida:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "Ganhou %(points)s Token(s) de Posto em 2021–2022."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Recompensa Anual"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Os Reforços Chegaram!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Recebeu uma tripulação para %(event)s."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Tem membros da tripulação não recrutados: %(count)s. Próxima remoção em %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Tem membros da tripulação não-recrutados: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Crachás removidos"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Compensação"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Créditos adicionados pelo tempo não utilizado do aluguer do %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Ouro adicionado pelo tempo não utilizado do aluguer do %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "O período de aluguer do %(vehicleName)s terminou."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Fragmentos de diagrama: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Créditos: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Títulos: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "EXP Livre: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Ouro: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "fragmentos universais"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Progresso actual: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Recursos gastos no projecto da Loja de Montagem:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Recursos gastos"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Gastar Recursos"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Recursos devolvidos pela Loja de Montagem:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Devolução de Recursos"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Panfletos de Treino para Seleccionar"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Guias de Treino para Seleccionar"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Camuflagem"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "A operação de %s é alargada, devido ao trabalho de manutenção."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Emblemas"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Inscrições"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Conta Wargaming Premium"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "Conta WoT Premium"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Aluguer"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "O servidor do jogo será desligado às %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Desconeção do servidor cancelada, desconeção planeada para as %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "A Personalização do Registo de Serviço está disponível"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Esta funcionalidade foi suspensa."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "A Personalização do Registo de Serviço está indisponível de momento."
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Fragmento Universal (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Fragmento Nacional (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Recompensa Especial"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Fragmento de diagrama para %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Recompensa recebida por confirmar o email:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Parabéns!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Compensação recebida por fragmentos de diagramas de veículos já pesquisados:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Camuflagem alterada"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Créditos recebidos: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Créditos deduzidos: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Títulos: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Títulos: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Elementos exteriores alterados."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Elementos de personalização alterados. Elementos adquiridos: %(count)s. Você gastou %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Emblemas alterados"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Moedas de Aniversário adicionadas: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Moedas de Aniversário removidas: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Experiência recebida: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Experiência deduzida: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Ouro recebido: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Ouro deduzido: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Inscrições alteradas"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Fragmentos universais"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "Fragmentos nacionais %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Após a actualização, todos os decalques foram retirados dos veículos e enviados para o Armazém, na secção Exterior."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Slots adicionadas: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Slots removidas: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Atenção!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Veículos adicionados: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Veículos removidos: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "Os seguintes elementos de personalização foram adquiridos:\n%(items)s\nGastos%(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "%(itemType)s \"%(itemName)s\" adquiridos com sucesso.\nGastou %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "Estilo %(name)s de Nível %(level)s adquirido com sucesso.\n%(money)s gasto."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Os elementos de personalização do veículos mudaram."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s item(ns))"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Nível %(level)s do estilo %(styleName)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Os elementos de personalização foram removidos do veículo."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Parabéns!\nOs decalques progressivos permitem-lhe ajustar as estilos pré-definidos para o %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Parabéns!\nRecebeu um decalque \"%(itemName)s\" de Nível I para o %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Parabéns!\nRecebeu um decalque \"%(itemName)s\" de Nível I."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "Decalque \"%(itemName)s\" de Nível %(level)s para o %(vehicleName)s atingido."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Para o Exterior"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Decalque \"%(itemName)s\" de Nível %(level)s atingido."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Gasto: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Mapa de Deserto: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Mapa de Verão: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Mapa de Inverno: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Recebido: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Equipamento desmanchado"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Para o Exterior"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Devido à substituição do módulo, os seguintes elementos de personalização foram removidos do %(vehicle)s."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Personalização:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Equipamento desmanchado"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Desmontado:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Erro:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Transacção Financeira:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "A vender itens do Armazém:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "O método de pagamento \"%(method)s\" foi adicionado"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "O método de pagamento \"%(method)s\" foi removido"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Pesquisado:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Adquirido:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Remoção da Garagem:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Reparações:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Recuperado:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Vendido:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Melhoramento do Equipamento"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Recebeu uma Conta WoT Premium por %(days)d dia(s)."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Para as Reservas"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Camuflagem no veículo %(vehicleName)s expirou."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Emblema no veículo %(vehicleName)s expirou."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Inscrição no veículo %(vehicleName)s expirou."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Colecção Disponível"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Parabéns!\nPesquisou um veículo de Nível %(level)s %(nation)s. Agora pode adquirir veículos de Coleccionador do mesmo nível e nação na Loja."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Tanque destruído. %(vehicleName)s indisponível para batalha de clãs até %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Bloqueado. %(vehicleName)s disponível para Batalha de Clãs."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Todas as Modificações Duplas para o %(vehicle)s canceladas."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Modificação Cancelada"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "desactivado"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "activado"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Alternar entre conjuntos de equipamentos e directivas durante a contagem decrescente pré-batalha para o %(tankName)s está %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Alternar entre conjuntos de munições e consumíveis durante a contagem decrescente pré-batalha para o %(tankName)s está %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Foi-lhe concedido um veículo Premium: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Incapaz de alugar o veículo. Fundos insuficientes."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Veículo %(vehicleName)s alugado. Período de aluguer termina: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Desbloqueado. Os veículos estão disponíveis para batalha de clãs."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Jogador %(srcName)s transferiu %(srcWares)s moedas de ouro para a sua conta."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s ouro transferido para o jogador %(dstName)s. Taxa: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Um desconto num veículo de Nível %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Recompensas por concluir a Progressão do De Volta à Ação recebidas:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Receber Recompensa"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Um desconto num veículo de Nível %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% and %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Descontos na aquisição e pesquisa adicionados: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Parabéns!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Veículo de Nível %(level)s"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Seleccione recompensas das categorias disponíveis."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Selecionar"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Recompensas Recebidas!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Os benefícios do Passe de Batalha Plus foram suspensos."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "O Passe de Batalha Plus está indisponível de momento."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "O Passe de Batalha Plus está disponível"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Continue a fazer login no jogo para obter mais recompensas!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Recompensa Especial de Comparência Recebida!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Ciclo Completo"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Faça login no jogo e receba recompensas."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "O ciclo começou!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Recompensa de Comparência"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Volte noutro dia para uma nova recompensa!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Comparência Notada!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "O recurso Recompensas de Comparência foi suspenso."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Recompensas de Comparência Indisponíveis"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Recompensas de Comparência Disponíveis"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "O exclusivo <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s está disponível."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "O %(vehicleType)s <font color='#E9E2BF'>%(vehicleName)s</font>, exclusivo para WoT Plus, está indisponível no momento."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Plus Core expirou em %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Desmontagem grátis do equipamento está indisponível"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Prolongue o WoT Plus para obter todos os seus benefícios novamente."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus expirou em %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus Pro expirou em %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "A acumulação de Ouro foi suspensa."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "A Reserva de Ouro está actualmente indisponível"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "A Reserva de Ouro está disponível"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "A Reserva de Ouro está cheia: Não pode acumular mais ouro"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Reserva de Ouro Aberta!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Todos os benefícios estão agora disponíveis.\nProlonga-se às: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Prolonga-se novamente às: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "O seu plano de 180 dias está agora ativo. Desfrute!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "O seu plano de 360 dias está agora ativo. Desfrute!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "O seu plano de 180 dias está agora ativo. Desfrute!\nProlonga-se em: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "O seu plano de 360 dias está agora ativo. Desfrute!\nProlonga-se em: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "O Regime Intensivo da Tripulação parou de funcionar para o <font color='#E9E2BF'>%(vehicleName)s</font>. Verifique a tripulação do veículo."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Um ou mais membros da tripulação do <font color='#E9E2BF'>%(vehicleName)s</font> não estão qualificados para o Regime Intensivo da Tripulação e não irão acumular EXP de Tripulação."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Regime Intensivo da Tripulação"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Regime Intensivo da Tripulação activado para os membros da tripulação do %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Regime Intensivo da Tripulação desactivado para os membros da tripulação do %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "A acumulação de EXP de Tripulação foi suspensa."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "O Regime Intensivo da Tripulação está actualmente indisponível"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "O Regime Intensivo da Tripulação está disponível"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Seleccione um veículo para receber um bónus grátis de EXP de Tripulação"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "O Regime Intensivo da Tripulação foi transferido do <font color='#E9E2BF'>%(oldVehName)s</font> para o <font color='#E9E2BF'>%(newVehName)s</font>. A tripulação do <font color='#E9E2BF'>%(oldVehName)s</font> deixou de acumular EXP."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Regime Intensivo da Tripulação Realocado"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "O bónus da EXP de Tripulação não pode se aplicado a um ou mais membros da tripulação."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Está a perder EXP de Tripulação valiosa!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Pode alterar a sua escolha novamente em %(cooldown)s horas."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Impulso Pro ativado para o %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Pode impulsionar outro veículo em vez disso."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Impulso Pro desativado para o %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Os ganhos do Pro Boost foram suspensos."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "O Pro Boost está indisponível de momento"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Impulso Pro está disponível"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s já não está impulsionado. Pode alterar a sua escolha novamente em %(cooldown)s horas."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Impulso Pro mudado para o %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "Data de Extensão do WoT Plus Alterada"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Seleccione um veículo da lista para alugar."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Nenhum veículo de aluguer seleccionado"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "O %(vehicle)s irá ser adicionado brevemente à sua conta."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Alugado!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Estes benefícios estão desativados."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus Indisponível"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WoT Plus Core Ativado"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Desmontagem grátis do equipamento está disponível"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WoT Plus Ativado"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus atualizado para Pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Prolongar"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Foi-lhe concedido %(freeXP)s de Experiência Livre."
+
+msgid "status/offline"
+msgstr "Offline"
+
+msgid "status/online"
+msgstr "Online"
+
+msgid "xmpp_error/action"
+msgstr "Incapaz de executar \"%(actionName)s\". Tente novamente mais tarde."
+
+msgid "xmpp_error/simple"
+msgstr "Tente novamente mais tarde."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Incapaz de criar o canal de jogador \"%(strArg1)s\"."

@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) module restant"
+msgstr[1] "%(count) modules restants"
+msgstr[2] "%(count) modules restants"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Retour aux modules"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "À leur ouverture, ces modules peuvent vous rapporter des véhicules premium, des devises du jeu et d'autres récompenses précieuses."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Vous pouvez obtenir des Paradoxmoduls dans le Magasin en jeu ou dans la Boutique premium."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoxmodul"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOXMODUL"
+
+msgid "common/getButton/lowerCase"
+msgstr "Obtenir des Modules"
+
+msgid "common/getButton/upperCase"
+msgstr "OBTENIR DES MODULES"
+
+msgid "common/loader"
+msgstr "Ouverture de modules…"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Ouvrez des modules pour voir les statistiques."
+
+msgid "common/statistics/header"
+msgstr "Modules ouverts : %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Toutes les informations portant sur les modules ouverts seront supprimées."
+
+msgid "entryPoint/boxes"
+msgstr "AUX MODULES"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Il s'agit de modules spéciaux contenant des objets qui peuvent être nouveaux ou uniques, y compris des véhicules premium, des éléments de personnalisation, des devises du jeu et d'autres récompenses précieuses.\nVous pouvez obtenir des modules dans le Magasin en jeu ou la Boutique premium."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Ces modules ne peuvent pas être ouverts ni obtenus actuellement pour des raisons techniques. Nous nous excusons pour cette gêne temporaire."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Les modules sont temporairement indisponibles"
+
+msgid "eventName/lowerCase"
+msgstr "Briser le paradoxe"
+
+msgid "eventName/upperCase"
+msgstr "BRISER LE PARADOXE"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Récompense garantie dans le prochain module !"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximum de modules avant une Récompense garantie : %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Si vous n'ouvrez pas les modules avant la fin de l'évènement, ils s'ouvriront automatiquement."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Si vous possédez déjà tous les véhicules de la liste du contenu possible du module, alors tous les véhicules suivants reçus dans les modules feront l'objet d'une compensation en pièces d'or à hauteur de leur valeur totale."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Chaque %(guaranteed0)se module contient assurément un véhicule premium. Si vous en ouvrez un qui ne contient pas un tel véhicule, alors un véhicule premium que vous ne possédez pas encore sera obtenu en ouvrant le %(guaranteed0)se module. Lorsque cela se produit, le compteur est réinitialisé."
+
+msgid "infoPage/header/description"
+msgstr "Ouvrez le module pour tenter de recevoir de précieux objets du jeu ! Retrouvez plus de détails ci-dessous."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Dans le %(name) (%(boxesCount) modules ouverts)"
+
+msgid "noBoxesView/description/"
+msgstr "Vous ne possédez aucun module. Vous pouvez en obtenir\ndans le Magasin en jeu ou dans la Boutique premium."
+
+msgid "preview/backLabel"
+msgstr "AUX MODULES"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Modules disponibles : %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Aucun module disponible"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Si vous possédez déjà tous les véhicules de la liste du contenu possible du module, alors tous les véhicules suivants reçus dans les modules feront l'objet d'une compensation en pièces d'or."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) module"
+msgstr[1] "%(remainingCount) modules"
+msgstr[2] "%(remainingCount) modules"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "La Récompense garantie est un véhicule de la liste du contenu possible du module.\nSi vous en ouvrez %(remainingCount) sans obtenir un tel véhicule, il sera acquis en ouvrant le %(count)e module. Quand cela se produit, le compteur est remis à zéro."

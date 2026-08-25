@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Преводач <noreply@wargaming.net>\nLanguage-Team: WoT Екип <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Общ"
+
+msgid "channels/battle/team"
+msgstr "Отборна"
+
+msgid "channels/clan"
+msgstr "Клан"
+
+msgid "channels/common"
+msgstr "Общ"
+
+msgid "channels/epic_training"
+msgstr "Тренировка — Фронтова линия"
+
+msgid "channels/nubs"
+msgstr "Новобранци"
+
+msgid "channels/prebattle"
+msgstr "Преди битката"
+
+msgid "channels/special_battles"
+msgstr "Специална битка"
+
+msgid "channels/squad"
+msgstr "Взвод"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Взводът е създаден. Моля изчакайте играчите да станат готови."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Взвод"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Взводът е създаден. Всички играчи са готови."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Взвод"
+
+msgid "channels/system"
+msgstr "Системен"
+
+msgid "channels/tournament"
+msgstr "Турнир"
+
+msgid "channels/trading"
+msgstr "Търговски"
+
+msgid "channels/training"
+msgstr "Тренировъчен"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Администраторът на чата е и модератор на канала."
+
+msgid "errors/addmoderatorowner"
+msgstr "Собственикът на канала е и модератор на канала."
+
+msgid "errors/banchannelowner"
+msgstr "Собственикът на канала не може да бъде баннат."
+
+msgid "errors/banchatadmin"
+msgstr "Администраторът на чата не може да бъде баннат."
+
+msgid "errors/banned"
+msgstr "Баннат сте от потребител %(banOwnerNick)s до %(banEndTime)s. Причина: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Баннат сте от потребител %(banOwnerNick)s. Причина: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Баннат сте до %(banEndTime)s. Причина: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Баннат сте. Причина: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Команда %(command)s е спряна за %(cooldownPeriod)s сек."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Правата на модератор не могат да бъдат отнети на администратора на чата."
+
+msgid "errors/delmoderatorowner"
+msgstr "Правата на модератор не могат да бъдат отнети на собственика на чата."
+
+msgid "errors/timeincorrect"
+msgstr "Параметърът ‘време’ трябва да бъде положителна стойност минути [1-1440] или ‘постоянен’."
+
+msgid "errors/toomanyargs"
+msgstr "Твърде много параметри."
+
+msgid "errors/toosmallargs"
+msgstr "Недостатъчен брой параметри."
+
+msgid "errors/userbanhimself"
+msgstr "Не можете да баннете себе си."
+
+msgid "messages/userbanned"
+msgstr "Потребител %(banedUser)s е баннат от потребител %(banOwnerNick)s до %(banEndTime)s. Причина: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Потребител %(banedUser)s е баннат от потребител %(banOwnerNick)s. Причина: %(banReason)s"

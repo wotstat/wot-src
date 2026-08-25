@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, kesto: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Tavallinen vaikeustaso"
+
+msgid "info/difficult/2"
+msgstr "Edistynyt vaikeustaso"
+
+msgid "info/difficult/3"
+msgstr "Brutaali vaikeustaso"
+
+msgid "info/mapName"
+msgstr "Viimeiseen mieheen • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Taisteluun palaamisen kerrat: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Kaikki liittolaisvaunut ovat tuhoutuneet."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Epäonnistuit pysäyttämään Zeron."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Aika loppui."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Kaikki liittolaiset ovat poistuneet taistelusta."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Hyvin tehty! Oletko valmis kovempaan tehtävään?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Kaikki viholliset tavallisella vaikeustasolla tuhottu."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Uskomaton suoritus! Harva saavuttaa tämän tason."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Kaikki viholliset brutaalilla vaikeustasolla tuhottu."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Vaikuttavaa työtä! Nyt on oikean haasteen aika."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Kaikki viholliset edistyneellä vaikeustasolla tuhottu."
+
+msgid "ribbon/ban"
+msgstr "Hyväksymiskelvoton suoritus: toimettomuus/karkuruus.\nPalkintoa ei saatu."
+
+msgid "ribbon/banRecord"
+msgstr "Kelvoton suoriutuminen: toimettomuus/karkuruus.\nPalkintoa ei saatu. Aaltojen tuhoamisennätystäsi ei päivitetty."
+
+msgid "ribbon/noReward"
+msgstr "Joukkueesi epäonnistui pysäyttämään ensimmäisen aallon.\nPalkintoa ei saatu."
+
+msgid "status/lose"
+msgstr "TAISTELU PÄÄTTYI"
+
+msgid "status/win"
+msgstr "VOITTO"
+
+msgid "subtitle/lose"
+msgstr "Hyökkäystä ei pysäytetty"
+
+msgid "subtitle/win"
+msgstr "Hyvin tehty! Uutta dataa kerätty."
+
+msgid "teamList/actions"
+msgstr "Pikatoiminnot"
+
+msgid "teamList/teammates"
+msgstr "Liittolaiset"
+
+msgid "time/record"
+msgstr "UUSI\nENNÄTYS!"
+
+msgid "title/lose/noWaves"
+msgstr "TAISTELU PÄÄTTYI"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s AALTO SUORITETTU"
+msgstr[1] "%(phaseNumber)s AALTOA SUORITETTU"
+msgstr[2] "%(phaseNumber)s AALTOA SUORITETTU"
+
+msgid "title/win"
+msgstr "KAIKKI AALLOT SUORITETTU"
+
+msgid "tooltip/ban"
+msgstr "Kelvoton suoriutuminen: toimettomuus/karkuruus. Henkilökohtaista aaltojen tuhoamisennätystäsi ei päivitetty."

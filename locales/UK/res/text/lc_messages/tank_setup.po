@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "categories/body/firepower"
+msgstr "Комплекс параметрів, що відповідають за ефективність знищення супротивника. Фільтр вмикає/вимикає показ обладнання з цим комплексом параметрів."
+
+msgid "categories/body/mobility"
+msgstr "Комплекс параметрів, що відповідає за швидкість зміни позиції машини на полі бою. Фільтр вмикає/вимикає показ обладнання з цим комплексом параметрів."
+
+msgid "categories/body/stealth"
+msgstr "Комплекс параметрів, що відповідає за ефективне маскування вашої машини, а також за ефективне виявлення місцеперебування супротивника та передачу союзникам розвідданих про нього. Фільтр вмикає/вимикає показ обладнання з цим комплексом параметрів."
+
+msgid "categories/body/survivability"
+msgstr "Комплекс параметрів, що показує стійкість машини до шкоди, яка завдається. Фільтр вмикає/вимикає показ обладнання з цим комплексом параметрів."
+
+msgid "categories/empty"
+msgstr "Категорія другого слота"
+
+msgid "categories/firepower"
+msgstr "Вогнева потужність"
+
+msgid "categories/mobility"
+msgstr "Рухливість"
+
+msgid "categories/slotEffect/empty"
+msgstr "Можливість призначити категорію другого слота для обладнання на цій машині."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Загальне обладнання категорії «Вогнева потужність» дасть збільшений ефект, якщо його встановлено в цей слот."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Загальне обладнання категорії «Рухливість» дасть збільшений ефект, якщо його встановлено в цей слот."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Загальне обладнання категорії «Розвідка» дасть збільшений ефект, якщо його встановлено в цей слот."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Загальне обладнання категорії «Живучість» дасть збільшений ефект, якщо його встановлено в цей слот."
+
+msgid "categories/stealth"
+msgstr "Розвідка"
+
+msgid "categories/survivability"
+msgstr "Живучість"
+
+msgid "categories/universal"
+msgstr "Без категорії"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Виберіть зі списку одну з придатних настанов."
+
+msgid "compare/section/description/consumables"
+msgstr "Виберіть зі списку один із предметів спорядження."
+
+msgid "compare/section/description/optDevices"
+msgstr "Виберіть зі списку один із предметів обладнання."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Настанови для {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Спорядження для {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Обладнання для {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Автопоповнення"
+
+msgid "dealPanel/button/apply"
+msgstr "Застосувати"
+
+msgid "dealPanel/button/applyType"
+msgstr "Застосувати до типу"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Застосувати до машини"
+
+msgid "dealPanel/button/cancel"
+msgstr "Скасувати"
+
+msgid "dealPanel/button/purchase"
+msgstr "Купити"
+
+msgid "dealPanel/fromStorage"
+msgstr "Зі Складу:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Встановлено:"
+
+msgid "dealPanel/repair"
+msgstr "Потрібен ремонт"
+
+msgid "dealPanel/toBePaid"
+msgstr "До сплати:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "На Складі"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Встановлено на техніку"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Замало коштів, щоб купити"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Буде придбано за кредити"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Буде придбано за бони"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Буде встановлено зі Складу"
+
+msgid "deconstructionDeviceView/available"
+msgstr "У наявності:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Скасувати"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Продовжити"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Зі Складу:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "З техніки:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(red_Open)sдля налагодження бракує%(red_Close)s %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Буде отримано:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "АКТИВНА ТЕХНІКА"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "НА СКЛАДІ: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "НА ТЕХНІЦІ: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Виберіть обладнання, яке хочете розібрати на %(whiteSpanish_Open)sкомпоненти%(whiteSpanish_Close)s%(icon)s. Отримані компоненти можна використовувати для налагодження експериментального обладнання."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Щоб поповнити запас компонентів, розберіть непотрібне експериментальне обладнання."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "ВЕРСТАК"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Для налагодження роботи обладнання\n%(whiteSpanish_Open)s«%(equipment)s»%(whiteSpanish_Close)s бракує компонентів."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Щоб продовжити, розберіть непотрібне обладнання на компоненти."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Щоб продовжити, здобудьте потрібну кількість компонентів."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Не зберігати"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Скасувати"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Скасувати"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Не встановлювати"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Скасувати зміни"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Зберегти"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Здійснити"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Купити та встановити"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Встановити"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Обладнання можна демонтувати за %(price)s, щоб помістити на Склад або знищити."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Обладнання можна демонтувати за %(price)s або {whiteSpanish_Open}безкоштовно{whiteSpanish_Close} за умови наявності підписки WoT Plus, щоб помістити на Склад, або знищити."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Обладнання можна демонтувати за %(demountKit)s або %(price)s або {whiteSpanish_Open}безкоштовно{whiteSpanish_Close} за умови наявності підписки WoT Plus, щоб помістити на Склад, або знищити."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Обладнання можна демонтувати за {whiteSpanish_Open}безкоштовно{whiteSpanish_Close} за умови наявності підписки WoT Plus, щоб помістити на Склад."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Обладнання можна буде демонтувати, щоб помістити на Склад."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "НЕ ПРАЦЮВАТИМЕ"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "настанову"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Після проведення цієї парної модифікації альтернативна буде скасована."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "спорядження"
+
+msgid "dialogs/confirm/item/module"
+msgstr "модуль"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "обладнання"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "парну модифікацію"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "настанови"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "спорядження"
+
+msgid "dialogs/confirm/items/module"
+msgstr "модулі"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "обладнання"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " та "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Зберегти зміни в слотах настанов?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Зберегти зміни в слотах спорядження?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Зберегти зміни в слотах обладнання?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Здійснити {type} %(name)s?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Купити та встановити {type} %(name)s?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Встановити {type} %(name)s?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Встановити {type} %(name)s для всіх %(vehicle)s?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Здійснити {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Купити та встановити {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Встановити {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Встановити {type} для всіх %(vehicle)s?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "САУ"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "важких танків"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "легких танків"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "середніх танків"
+
+msgid "dialogs/confirm/warning"
+msgstr "Увага! У вас немає обладнання %(devices)s. Настанова %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Увага! Після розбирання у вас не залишиться експериментального обладнання!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Скасувати"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Розібрати"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Розібрати"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Всього буде отримано:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Буде отримано за 1 шт.:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Розібрати обладнання\n«%(name)s»?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Розібрати обладнання\n«%(name)s»?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Зверніть увагу: розібравши обладнання, ви не зможете його відновити чи купити заново."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Скасувати"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Розібрати"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Розібрати зазначене обладнання на компоненти?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Розібрати зазначене обладнання та налагодити\n«%(deviceName)s»?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Буде розібрано зі Складу: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Буде розібрано з техніки: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Після розбирання буде отримано: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Всього буде отримано:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Вартість налагодження:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Увага! Після розбирання у вас не залишиться експериментального обладнання!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Увага! Буде розібрано експериментальне обладнання з техніки."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Обміняти"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "обладнання"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "На налагодження роботи обладнання %(name)s бракує %(credits)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "обладнання"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "На налагодження роботи обладнання бракує %(credits)s"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Налагодити роботу обладнання неможливо. Потрібно обміняти на кредити %(gold)s"
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "У вас вже достатньо кредитів для налагодження обладнання."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Обмін не потрібен"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "У вас немає експериментального обладнання для розбирання."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Щоб поповнити запас компонентів, розберіть експериментальне обладнання."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Налагодити роботу обладнання\n«%(name)s»?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Бракує: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Вартість:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "На купівлю"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "На здійснення"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Обміняти"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Курс обміну: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Для Швидкого сервісу необхідно ще %(credits)s"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "настанови"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "спорядження"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "модуля"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "обладнання"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "парної модифікації"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "{action} {type} %(name)s бракує %(credits)s"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "настанов"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "спорядження"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "модулів"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "обладнання"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "{action} {type} бракує %(credits)s"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "На ремонт не вистачає %(credits)s"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Обмін для покупки неможливий. Щоб обміняти, потрібно %(gold)s"
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "На купівлю"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "На модифікацію"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Обмін не потрібен. У вас достатньо кредитів."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "{action} вже вистачає кредитів"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "Щоб поповнити боєзапас, не вистачає %(credits)s"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Ремонтувати автоматично"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Відремонтувати"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Міцність:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Машина ремонтується автоматично та безкоштовно"
+
+msgid "dialogs/needRepair/price"
+msgstr "Вартість ремонту:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Замало коштів, щоб відремонтувати"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Так!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Ремонт не потрібен"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Поповнити"
+
+msgid "dialogs/refillShells/price"
+msgstr "Вартість поповнення:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Поповнити боєзапас?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Зберегти зміни боєзапасу?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Зверніть увагу: ви продаєте вдосконалене обладнання."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Зверніть увагу: продавши обладнання, ви не зможете його відновити чи купити заново."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Скасувати"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Продати"
+
+msgid "dialogs/sell/header"
+msgstr "Продати обладнання\n «%(equipmentName)s»?"
+
+msgid "dialogs/sell/text"
+msgstr "Вартість продажу 1 од.:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Для демонтажу бракує ресурсів."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Рекомендації для цієї машини недоступні"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Неможливо встановити."
+
+msgid "easyTankEquipView/applied"
+msgstr "На техніці"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Передове"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Удосконалене"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Загальне"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "СПОРЯДЖЕННЯ"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Для передання досвіду та змін в екіпажі бракує ліжок. Додайте більше ліжок у Казарму."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "×{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Досвідчений екіпаж"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Новий екіпаж"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nБуде рекрутовано нового члена екіпажу"
+msgstr[1] "{{count}}\nБуде рекрутовано нових членів екіпажу"
+msgstr[2] "{{count}}\nБуде рекрутовано нових членів екіпажу"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "ЕКІПАЖ"
+
+msgid "easyTankEquipView/discount"
+msgstr "−{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Передове"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Загальне"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "ОБЛАДНАННЯ"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Передове"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Загальне"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "БОЄЗАПАС"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Стиль уже застосовано"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "Боїв за {{price}}: {{battlesCount}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "ГОТОВІ СТИЛІ"
+
+msgid "easyTankEquipView/title"
+msgstr "ШВИДКИЙ СЕРВІС"
+
+msgid "effects/name"
+msgstr "Ефект"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Час підготовки: %(cooldown)s&nbsp;с."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Отримати компоненти"
+
+msgid "filters/shown"
+msgstr "Показано: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "ОБЛАДНАННЯ\nМОЖНА ПЕРЕТЯГУВАТИ"
+
+msgid "hints/filters/specialization"
+msgstr "ДОДАТКОВИЙ\nБОНУС ДО КАТЕГОРІЇ"
+
+msgid "hints/tabs/equipment"
+msgstr "НОВИЙ ТИП\nОБЛАДНАННЯ"
+
+msgid "introduction/currency/deluxe"
+msgstr "бони"
+
+msgid "introduction/currency/modernized"
+msgstr "компоненти"
+
+msgid "introduction/message/deluxe"
+msgstr "Це обладнання можна купити за %(currencyName)s (%(currencyIcon)s). Також його можна отримати як нагороду за певні ігрові досягнення та події."
+
+msgid "introduction/message/modernized"
+msgstr "Спеціалізований тип обладнання з трьома рівнями налагодження, який видають за виконання бойових завдань або як нагороду за певні події. Таке обладнання не можна знищити або продати, але можна розібрати й отримати спеціальні деталі — %(currencyName)s (%(currencyIcon)s). Компоненти потрібні для налагодження та демонтажу будь-якого експериментального обладнання."
+
+msgid "introduction/message/trophy"
+msgstr "Особлива нова лінійка предметів, яка після отримання має параметри загального обладнання, але може бути поліпшена за кредити. Трофейне обладнання неможливо придбати за ігрову валюту, але можна отримати як нагороду за участь у певних ігрових подіях."
+
+msgid "introduction/showButton"
+msgstr "Показати обладнання"
+
+msgid "introduction/slide/1/description"
+msgstr "Додано нове обладнання. Крім того, %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s і %(cycloneFilter)s об’єднано в обладнання %(changedConfiguration)s, а аналоги %(forcedChassis)s замінено на %(forcedMetal)s зі збереженням усіх бонусів і додаванням нових."
+
+msgid "introduction/slide/1/title"
+msgstr "НОВЕ ОБЛАДНАННЯ"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr " — Вогнева потужність"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr " — Рухливість"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr " — Розвідка"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr " — Живучість"
+
+msgid "introduction/slide/2/description"
+msgstr "Якщо встановити обладнання в слот тієї ж категорії, воно буде давати поліпшений ефект, в іншому разі бонус буде стандартним."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "ЗБІГ КАТЕГОРІЙ"
+
+msgid "introduction/slide/2/title"
+msgstr "КАТЕГОРІЇ ОБЛАДНАННЯ"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Вартість більшості обладнання для II–IV рівнів тепер не перевищуватиме 50 000 кредитів, для V–VII рівнів — не більш ніж 300 000, а для VIII–XI — до 600 000."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Деяке нове обладнання має три класи. Однакове обладнання різних класів дає однаковий ефект. Вище клас — вище вартість. Кожному класу обладнання відповідає свій діапазон рівнів техніки."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "ЗМІНА В ІСНУЮЧОМУ"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "НОВЕ ОБЛАДНАННЯ"
+
+msgid "introduction/slide/3/title"
+msgstr "ВАРТІСТЬ ОБЛАДНАННЯ"
+
+msgid "introduction/slide/4/description"
+msgstr "Тепер для техніки I рівня обладнання недоступне, на техніці II рівня можна встановити лише одну одиницю обладнання, на техніці III рівня — 2, а на машинах IV–XI рівнів — 3. Обладнання, яке було встановлено в прибрані слоти, демонтовано на Склад."
+
+msgid "introduction/slide/4/title"
+msgstr "СЛОТИ ДЛЯ ОБЛАДНАННЯ"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Заповнення баків CO2"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Змінене компонування"
+
+msgid "introduction/slide/confirm"
+msgstr "Так!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Фільтр «Циклон»"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Поліпшеного шасі"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Поліпшене загартування"
+
+msgid "introduction/slide/repairBox"
+msgstr "Ящик з інструментами"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "«Мокра» боєукладка"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Удосконалене обладнання"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Експериментальне обладнання"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Трофейне обладнання"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "У вас немає відповідного експериментального обладнання"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "У вас немає відповідного трофейного обладнання"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "від часу затримки перед тим, як командир визначає, що супротивник виявив вашу техніку"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "від часу додаткового оглушення екіпажу, якщо його вже оглушили"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "від скритості супротивника, прихованого рослинністю (як нерухомого, так і рухомого)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "від швидкості польоту снарядів усіх типів"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "від штрафу до швидкості заряджання в разі пошкодження модулів"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "від втрати потужності двигуна в разі пошкодження модулів"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "від скритості як нерухомої машини, так і рухомої"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "від поліпшення скритості як нерухомої машини, так і рухомої (ефективність залежить від типу техніки)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "від шкоди, яку отримує корпус через шасі в разі падіння"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "від огляду, але не більш ніж 445 м. Подальше збільшення показника полегшує виявлення супротивника."
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "від шкоди, отримуваної в разі падіння"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "від розкиду під час руху та поворотів машини, а також під час горизонтального наведення та після пострілу"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "від осколково-фугасної шкоди, що поглинається бронею"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "від часу вашої видимості"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "від збереження набраної швидкості\nза умови перетинання всіх типів поверхні"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "від скритості нерухомої машини через 3 с після зупинки"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "від скритості нерухомої машини\nчерез 1,5 с після зупинки"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "від поліпшення скритості нерухомої машини через 3 с після зупинки (ефективність залежить від типу техніки)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "від поліпшення скритості нерухомої машини через 1,5 с після зупинки (ефективність залежить від типу техніки)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "від огляду нерухомої машини через 3 с після зупинки, але не більш ніж 445 метрів. Подальше збільшення показника полегшує виявлення супротивника."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "від огляду нерухомої машини через 1,5 с після зупинки, але не більше за 445 метрів; подальше збільшення показника полегшує виявлення супротивника"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "від запасу міцності машини (округляється в більшу сторону)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "від швидкості обертання башти чи горизонтального наведення гармати для машин із нерухомою рубкою"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "до часу затримки перед тим, як командир визначає, що супротивник виявив вашу техніку"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "до часу додаткового оглушення екіпажу, якщо його вже оглушили"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "до скритості супротивника, прихованого рослинністю (як нерухомого, так і рухомого)"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "до швидкості польоту снарядів усіх типів"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "до штрафу до швидкості заряджання в разі пошкодження модулів"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "до втрат потужності двигуна в разі пошкодження модулів"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "до скритості як нерухомої машини, так і рухомої"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "до поліпшення маскування як нерухомої машини, так і рухомої (ефективність залежить від типу техніки)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "до шкоди, яку отримує корпус через шасі в разі падіння"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "до огляду, але не більш ніж 445 м. Подальше збільшення показника полегшує виявлення супротивника."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "до шкоди, отримуваної в разі падіння"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "до розкиду під час руху та поворотів машини, а також під час горизонтального наведення та після пострілу"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "до осколково-фугасної шкоди, що поглинається бронею"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "до часу вашої видимості"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "до збереження набраної швидкості\nза умови перетинання всіх типів поверхні"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "до скритості нерухомої машини через 3 с після зупинки"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "до скритості нерухомої машини\nчерез 1,5 с після зупинки"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "до поліпшення скритості нерухомої машини через 3 с після зупинки (ефективність залежить від типу техніки)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "до поліпшення скритості нерухомої машини через 1,5 с після зупинки (ефективність залежить від типу техніки)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "до огляду нерухомої машини через 3 с після зупинки, але не більш ніж 445 метрів. Подальше збільшення показника полегшує виявлення супротивника."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "до огляду нерухомої машини через 1,5 с після зупинки, але не більше за 445 метрів; подальше збільшення показника полегшує виявлення супротивника."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "до запасу міцності машини (округляється в більшу сторону)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "до швидкості повороту башти або горизонтального наведення гармати для машин із нерухомою рубкою"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "затримки спрацьовування звукової\nрозвідки"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "від часу затримки попередження про виявлення"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "від швидкості охолодження гармати"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "від захисту екіпажу від поранень"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "до бонусу ефективності екіпажу"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "від часу додаткового оглушення екіпажу"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "від часу оглушення екіпажу"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "від нижнього порогу вилки шкоди\nта бронепробиття"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "від верхнього порогу вилки шкоди\nта бронепробиття"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "від завдавання шкоди тараном"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "затримки визначення критичних\nпошкоджень машини у прицілі"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "від скритості супротивника за рослинністю"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "від скритості супротивника, який рухається"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "від шансу ураження модулів та екіпажу\nсупротивника"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "від часу підготовки спорядження"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "від швидкості гасіння пожежі"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "від ефекту маскування від рослинності"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "до відновленої ремкомплектом міцності"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "від збереження набраної швидкості\nпід час перетинання середніх ґрунтів"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "від штрафу до огляду, коли прилади\nспостереження вимкнено"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "до верхнього порогу пробиття"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "від часу передавання координат машин\nсупротивника після знищення вашої"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "до захисту радиста від поранень"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "від швидкості польоту снарядів"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "від збереження набраної швидкості\nпід час перетинання грузьких ґрунтів"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "від негативного ефекту\nоглушення екіпажу"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "від шкоди, отримуваної шасі"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "до швидкості ремонту шасі"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "від штрафу до швидкості заряджання"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "від штрафу за пошкоджений двигун"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "від швидкості повороту шасі"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "від міцності внутрішніх модулів"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "від міцності боєукладки"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "від максимальної швидкості назад"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "від скритості"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "від поліпшення скритості"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "від шкоди в разі падіння"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "від швидкості ремонту шасі"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "від міцності шасі"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "від огляду"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "від часу показування виявленого\nвами супротивника"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "від потужності двигуна"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "від шкоди в разі падіння"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "від імовірності займання двигуна"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "від максимальної швидкості вперед"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "від шансу критичного пошкодження\nпаливних баків"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "від швидкості зведення"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "від часу заряджання"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "від розкиду під час руху та поворотів"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "від розміру кола зведення після пострілу"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "від розкиду під час руху шасі"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "від розкиду під час поворотів шасі"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "від розкиду під час горизонтального наведення"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "від штрафу до розкиду пошкодженої гармати"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "від розміру кола зведення"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "від осколково-фугасної шкоди"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "від скритості після пострілу"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "від часу вашої видимості"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "від отриманої шкоди шасі під час тарана"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "від отриманої шкоди після тарана"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "від швидкості зміни типу снаряда\nу вже зарядженій гарматі"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "від швидкості ремонту"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "від збереження набраної швидкості під час перетинання всіх типів місцевості"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "від скритості нерухомої машини"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "від скритості нерухомої машини"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "від поліпшення скритості нерухомої машини"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "від поліпшення скритості нерухомої машини"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "від огляду з нерухомої машини"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "від огляду з нерухомої машини"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "від запасу міцності машини"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "від швидкості обертання башти чи горизонтального наведення гармати для машин із нерухомою рубкою"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "від швидкості обертання башти"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "від швидкості повороту коліс"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "від штрафу під час поранення члена екіпажу,\nокрім командира"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "затримки спрацьовування звукової розвідки"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "затримки визначення критичних пошкоджень машини у прицілі"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "тривалість передавання розвідданих після вашого знищення"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "до осколково-фугасної шкоди"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "до осколково-фугасного пробиття"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "до швидкості польоту ОФ-снаряда"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "до боєкомплекту"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "до шкоди всіх снарядів"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "до швидкості польоту снарядів усіх типів"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "затримки спрацьовування звукової\nрозвідки"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "до шкоди стандартним снарядом"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "до часу затримки попередження про виявлення"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "до швидкості охолодження гармати"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "до захисту екіпажу від поранень"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "до бонусу ефективності екіпажу"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "до часу додаткового оглушення екіпажу"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "до часу оглушення екіпажу"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "до нижнього порогу вилки шкоди та бронепробиття"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "до верхнього порогу вилки шкоди\nта бронепробиття"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "до завдавання шкоди тараном"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "затримки визначення критичних\nпошкоджень машини у прицілі"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "до скритості супротивника за рослинністю"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "до скритості супротивника, який рухається"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "до шансу ураження модулів та екіпажу супротивника"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "до міцності двигуна"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "до часу підготовки спорядження"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "до швидкості гасіння пожежі"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "до ефекту маскування від рослинності"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "до міцності паливного бака"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "до кута нахилу гармати"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "до кута підняття гармати"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "до стабілізації гармати"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "до кута горизонтальної наводки"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "до відновленої ремкомплектом міцності"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "до швидкості підйому корпусу"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "до збереження набраної швидкості\nпід час перетинання середніх ґрунтів"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "до неосколково-фугасної шкоди"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "до штрафу до огляду, коли прилади\nспостереження вимкнено"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "до верхнього порогу пробиття"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "до часу передавання координат машин\nсупротивника після знищення вашої"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "до захисту радиста від поранень"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "до часу перезаряджання всередині магазину"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "до часу перезаряджання (режим залпового вогню)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "до часу перезаряджання (одиночний режим)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "до шкоди модулям супротивника снарядами"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "до швидкості польоту снарядів"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "до збереження набраної швидкості\nпід час перетинання грузьких ґрунтів"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "до шкоди спеціальним снарядом"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "до пробиття спеціальним снарядом"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "до швидкості спеціальних снарядів"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "до шкоди стандартним снарядом"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "до пробиття стандартним снарядом"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "до швидкості стандартних снарядів"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "від негативного ефекту оглушення екіпажу"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "від шкоди, отримуваної шасі"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "до швидкості ремонту шасі"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "до сектора повороту башти"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "до штрафу до швидкості заряджання"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "до штрафу за пошкоджений двигун"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "до швидкості повороту шасі"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "до міцності внутрішніх модулів"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "до міцності боєукладки"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "до максимальної швидкості назад"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "до скритості"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "до поліпшення скритості"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "до шкоди в разі падіння"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "до швидкості ремонту шасі"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "до міцності шасі"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "до огляду (не більше 445 метрів)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "до часу показування виявленого\nвами супротивника"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "до потужності двигуна"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "від шкоди в разі падіння"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "до ймовірності займання двигуна"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "до максимальної швидкості вперед"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "до шансу критичного пошкодження\nпаливних баків"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "до швидкості зведення"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "до часу заряджання"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "до розкиду під час руху та поворотів"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "до розміру кола зведення після пострілу"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "до розкиду під час руху шасі"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "до розкиду під час поворотів шасі"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "до розкиду під час горизонтального наведення"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "до штрафу до розкиду пошкодженої гармати"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "до розміру кола зведення"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "до осколково-фугасної шкоди"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "до скритості після пострілу"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "до часу вашої видимості"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "до отриманої шкоди шасі під час тарана"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "до отриманої шкоди після тарана"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "до швидкості зміни типу снаряда\nу вже зарядженій гарматі"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "до швидкості ремонту"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "до максимальної швидкості вперед/назад"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "до збереження набраної швидкості під час перетинання всіх типів місцевості"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "до скритості нерухомої машини"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "до скритості нерухомої машини"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "до поліпшення скритості нерухомої машини"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "до поліпшення скритості нерухомої машини"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "до огляду з нерухомої машини (але не більш ніж 445 м)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "до огляду з нерухомої машини (але не більш ніж 445 м)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "до запасу міцності машини"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "до швидкості повороту башти або горизонтального наведення гармати для машин із нерухомою рубкою"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "до швидкості обертання башти"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "до швидкості повороту коліс"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "до штрафу під час поранення члена екіпажу,\nкрім командира"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "від часу затримки попередження про виявлення"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "від захисту екіпажу від поранень"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "до бонусу ефективності екіпажу"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "від часу додаткового оглушення екіпажу"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "від часу оглушення екіпажу"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "від завдавання шкоди тараном"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "затримки визначення критичних пошкоджень машини у прицілі"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "від скритості супротивника\nза рослинністю"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "від скритості супротивника,\nякий рухається"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "до відновленої ремкомплектом міцності"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "від часу перезаряджання магазина"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "до верхнього порогу пробиття"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "від захисту радиста від поранень"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "від швидкості польоту снарядів усіх типів"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "від розкиду гармати"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "до швидкості ремонту шасі"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "від розкиду під час горизонтального наведення"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "від штрафу до швидкості заряджання"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "від втрати потужності двигуна\nв разі його пошкодження"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "від швидкості повороту машини"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "від міцності внутрішніх модулів"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "від міцності боєукладки"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "від максимальної швидкості назад"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "від скритості"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "від шкоди в разі падіння"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "від швидкості ремонту шасі"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "від міцності шасі"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "від радіуса огляду"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "від часу показування виявленого\nвами супротивника"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "від потужності двигуна"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "від шкоди в разі падіння"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "від імовірності займання двигуна"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "від максимальної швидкості вперед"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "від швидкості зведення"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "від часу заряджання"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "від розкиду під час руху та поворотів"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "від розміру кола зведення після\nпострілу"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "від розкиду під час руху шасі"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "від розкиду під час поворотів шасі"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "від розкиду під час горизонтального\nнаведення"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "від штрафу до розкиду пошкодженої\nгармати"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "від розміру кола зведення"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "від осколково-фугасної шкоди"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "від скритості після пострілу"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "від часу вашої видимості"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "від отриманої шкоди після тарана"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "від швидкості зміни типу снаряда"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "від швидкості ремонту"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "від збереження набраної швидкості"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "від скритості нерухомої машини"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "від скритості нерухомої машини"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "від огляду"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "від огляду"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "від запасу міцності машини"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "від швидкості горизонтального наведення"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "від швидкості обертання башти"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "від штрафу в разі поранення члена екіпажу,\nза винятком командира"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "до часу затримки попередження про виявлення"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "до захисту екіпажу від поранень"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "до бонусу ефективності екіпажу"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "до бонусу ефективності екіпажу"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "до часу додаткового оглушення екіпажу"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "до часу оглушення екіпажу"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "до нижнього порогу вилки шкоди та бронепробиття"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "до завдавання шкоди тараном"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "до скритості супротивника\nза рослинністю"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "до скритості супротивника,\nякий рухається"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "до шансу ураження модулів та екіпажу супротивника"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "до швидкості гасіння пожежі"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "до відновленої ремкомплектом міцності"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "до часу перезаряджання магазина"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "до скритості машини"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "до збереження набраної швидкості\nпід час перетинання середніх ґрунтів"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "до верхнього порогу пробиття"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "до дальності зв'язку радіостанції"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "до захисту радиста від поранень"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "до швидкості польоту снарядів усіх типів"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "до збереження набраної швидкості\nпід час перетинання грузьких ґрунтів"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "до швидкості ремонту шасі"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "до дальності зв'язку союзних машин у зоні покриття радіостанції"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "до штрафу до швидкості заряджання"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "до втрати потужності двигуна\nв разі його пошкодження"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "до швидкості повороту машини"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "до міцності внутрішніх модулів"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "до міцності боєукладки"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "до максимальної швидкості назад"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "до скритості"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "до шкоди в разі падіння"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "до швидкості ремонту шасі"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "до міцності шасі"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "до радіуса огляду, але не більш ніж\n445 м"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "до часу показування виявленого\nвами супротивника"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "до потужності двигуна"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "від шкоди в разі падіння"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "до ймовірності займання двигуна"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "до максимальної швидкості вперед"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "до швидкості зведення"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "до часу заряджання"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "до розкиду під час руху та поворотів"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "до розміру кола зведення після\nпострілу"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "до розкиду під час руху шасі"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "до розкиду під час поворотів шасі"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "до розкиду під час горизонтального\nнаведення"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "до штрафу до розкиду пошкодженої\nгармати"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "до розміру кола зведення"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "до осколково-фугасної шкоди"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "до скритості після пострілу"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "до часу вашої видимості"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "до отриманої шкоди після тарана"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "до швидкості зміни типу снаряда"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "до швидкості ремонту"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "до збереження набраної швидкості"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "до скритості нерухомої машини"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "до скритості нерухомої машини"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "до огляду з нерухомої машини\n(але не більш ніж 445 м)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "до огляду з нерухомої машини\n(але не більш ніж 445 м)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "до запасу міцності машини"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "до швидкості горизонтального наведення"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "до швидкості обертання башти"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "до досвіду екіпажу за бій"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "c"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "с"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "c"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "с"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "км/год"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "c"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "км/год"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "c"
+
+msgid "popularLoadouts/common"
+msgstr "Популярне"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Популярні"
+
+msgid "popularLoadouts/legendary"
+msgstr "Легендарне"
+
+msgid "popularLoadouts/noData"
+msgstr "Дані недоступні"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Дані недоступні"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sПопулярне.%(whiteSpanish_Close)s Базується на сучасних тенденціях обладнання всіх гравців World of Tanks"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Збір даних"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Якщо інформація про поточний сезон Натиску ще не доступна, використовуються дані попереднього сезону"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Помічник доступний для %(whiteSpanish_Open)sВипадкових боїв%(whiteSpanish_Close)s і %(whiteSpanish_Open)sНатиску%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Дані про всі типи обладнання об’єднано"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "Бонус підписки WoT Plus"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Отримуйте точну інформацію про обладнання, зібрану зі статистики мільйонів боїв, і завжди показуйте найкращі результати."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Помічник з обладнання"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sЛегендарне.%(whiteSpanish_Close)s Найпопулярніше обладнання серед гравців, що досягли рівня «Легенда» в рейтингу WTR"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Типи оснащення"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Пропоноване оснащення засноване на популярних варіантах для техніки зі схожим стилем гри"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Показано дані для машини нижче зі схожим стилем гри:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Дані про оснащення недоступні"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Вибрана машина недоступна для цього режиму"
+
+msgid "section/battleAbilities"
+msgstr "БОЙОВІ РЕЗЕРВИ"
+
+msgid "section/battleBoosters"
+msgstr "НАСТАНОВИ"
+
+msgid "section/consumables"
+msgstr "СПОРЯДЖЕННЯ"
+
+msgid "section/modules"
+msgstr "МОДУЛІ"
+
+msgid "section/optDevices"
+msgstr "ОБЛАДНАННЯ"
+
+msgid "section/shells"
+msgstr "БОЄЗАПАС"
+
+msgid "section/toggleCamouflage"
+msgstr "КАМУФЛЯЖ"
+
+msgid "section/toggleShells"
+msgstr "БОЄЗАПАС"
+
+msgid "shells/ammunitionFull"
+msgstr "Повний боєзапас"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Неповний боєзапас"
+
+msgid "shells/autoFillOff"
+msgstr "Автопоповнення вимкнено"
+
+msgid "shells/autofillOn"
+msgstr "Автопоповнення увімкнено"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "На Складі:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "У боєукладці:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Докупити:"
+
+msgid "shells/specification/inStorage"
+msgstr "На Складі"
+
+msgid "shells/specification/inVehicle"
+msgstr "У боєукладці"
+
+msgid "shells/specification/price"
+msgstr "Докупити"
+
+msgid "shells/title"
+msgstr "Боєзапас"
+
+msgid "shells/type/base"
+msgstr "БАЗОВИЙ (ББ)"
+
+msgid "shells/type/special"
+msgstr "СПЕЦІАЛЬНИЙ (ОФ)"
+
+msgid "shells/type/tactical"
+msgstr "ТАКТИЧНИЙ (БП)"
+
+msgid "tabs/crew"
+msgstr "Для екіпажу"
+
+msgid "tabs/deluxe"
+msgstr "Удосконалене"
+
+msgid "tabs/modernized"
+msgstr "Експериментальне"
+
+msgid "tabs/optDevice"
+msgstr "До обладнання"
+
+msgid "tabs/simple"
+msgstr "Загальне"
+
+msgid "tabs/trophy"
+msgstr "Трофейне"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Настанова поповнюватиметься автоматично після виходу машини з бою. Поповнення йде зі Складу за наявності запасу настанов або за ігрову валюту."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Спорядження поповнюватиметься автоматично (якщо це потрібно) після виходу машини з бою."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Ремонт відбуватиметься автоматично (якщо це потрібно) після виходу машини з бою."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Боєзапас поповнюватиметься автоматично (якщо це потрібно) після виходу машини з бою."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Поповнювати автоматично"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Ремонтувати автоматично"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Буде розібрано зі Складу: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Буде розібрано з техніки: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Натисніть, щоб докупити предмети в цьому слоті."
+
+msgid "tooltips/action/description/demount"
+msgstr "Натисніть, щоб демонтувати обладнання з цього слоту."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Натисніть, щоб демонтувати обладнання з цього слоту."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Натисніть, щоб демонтувати обладнання з усіх комплектацій."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Натисніть, щоб демонтувати обладнання з цього слота безкоштовно за допомогою підписки WoT Plus."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Натисніть, щоб знищити обладнання в цьому слоті або, якщо ви підписані на WoT Plus, демонтуйте його безкоштовно."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Натисніть, щоб розібрати обладнання на компоненти."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Натисніть, щоб знищити обладнання в цьому слоті."
+
+msgid "tooltips/action/description/swap"
+msgstr "Натисніть, щоб поміняти місцями предмети в слотах."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Налагодження роботи обладнання підвищує його характеристики."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Налагодження роботи обладнання підвищує його характеристики."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Налагодження роботи обладнання підвищує його характеристики."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Докупити"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Вивантажити на Склад"
+
+msgid "tooltips/action/title/demount"
+msgstr "Демонтувати"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Демонтувати"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Демонтувати з усіх комплектацій"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Демонтувати безкоштовно"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Знищити"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Розібрати"
+
+msgid "tooltips/action/title/swap"
+msgstr "Поміняти місцями"
+
+msgid "tooltips/action/title/undo"
+msgstr "Прибрати зі слоту"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Налагодити"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Налагодити"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Налагодити"
+
+msgid "tooltips/additional"
+msgstr "Додаткова інформація."
+
+msgid "tooltips/categories/list"
+msgstr "Натисніть, щоб побачити список модулів."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Категорію цього слота можна змінити в меню Польової модернізації чи на екрані вибору обладнання."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Змінювана категорія"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Натисніть, щоб змінити категорію слота."
+
+msgid "tooltips/equipmentList"
+msgstr "Натисніть, щоб переглянути список доступного обладнання."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Розбирання експериментального обладнання на компоненти недоступне: такого обладнання немає в наявності."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Натисніть, щоб перейти до розбирання обладнання на компоненти."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Якщо встановити обладнання, воно буде давати тільки стандартний бонус, оскільки категорію «Вогнева потужність» має тільки ПТ-САУ та САУ, куди неможливо встановити цей тип обладнання."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Ваша машина отримує підвищені бонуси до характеристик."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Щоб збільшити надбавку до характеристик, встановіть це обладнання в слот однієї з категорій: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Щоб збільшити надбавку до характеристик, встановіть це обладнання в слот із категорією %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Слот для обладнання"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Увімкнути/вимкнути вибір комплектів снарядів і спорядження під час передбойового відліку можна в інтерфейсі Польової модернізації."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Увімкнути/вимкнути вибір комплектів обладнання та настанов під час передбойового відліку можна в інтерфейсі Польової модернізації."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Увімкнути/вимкнути вибір комплектів снарядів і спорядження під час передбойового відліку можна в інтерфейсі Польової модернізації."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Увімкнути/вимкнути вибір комплектів снарядів і спорядження під час передбойового відліку можна в інтерфейсі поліпшення."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Увімкнути/вимкнути вибір комплектів обладнання й настанов під час передбойового відліку можна в інтерфейсі Польової модернізації."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Увімкнути/вимкнути вибір комплектів обладнання й настанов під час передбойового відліку можна в інтерфейсі поліпшення."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Зміну комплектів вимкнено"
+
+msgid "tooltips/separator/last"
+msgstr " та "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Загальне обладнання категорії «%(spec)s» дасть збільшений ефект, якщо його встановлено в цей слот. Обладнання інших категорій дасть лише стандартний ефект."
+
+msgid "tooltips/specializationName"
+msgstr "Категорія:"
+
+msgid "tooltips/specializationType"
+msgstr "Вогнева"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Цінний тип обладнання, який має кращі характеристики, як порівняти з іншими типами обладнання."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Спеціальне обладнання, яке має три рівні налагодження."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Обладнання поліпшує характеристики техніки."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Лінійка предметів, яка спершу має параметри загального обладнання, але може бути поліпшена."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Удосконалене обладнання"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Експериментальне обладнання"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Загальне обладнання"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Трофейне обладнання"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Це обладнання можна купити за %(whiteSpanish_Open)sбони%(whiteSpanish_Close)s. Також його можна отримати як нагороду за певні ігрові досягнення та події."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Цей тип обладнання можна отримати як нагороду за ігрові події."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Це обладнання можна купити за ігрову валюту. Також його можна отримати як нагороду за певні ігрові досягнення та події. Характеристики загального обладнання можна поліпшити, встановивши його у відповідний слот."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Цей тип обладнання можна отримати як нагороду за ігрові події."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Спосіб отримання"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Спосіб отримання"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Слоти обладнання"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Трофейне обладнання неможливо купити"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Характеристики експериментального обладнання можна налагодити за %(whiteSpanish_Open)sкомпоненти%(whiteSpanish_Close)s, які здобуваються під час розбирання цього типу обладнання."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Характеристики трофейного обладнання можна поліпшити за ігрову валюту."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Роботу експериментального обладнання можна налагодити"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Роботу трофейного обладнання можна налагодити"

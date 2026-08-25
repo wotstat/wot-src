@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "button/progression"
+msgstr "Ukázat postup"
+
+msgid "button/select"
+msgstr "Konfigurovat"
+
+msgid "event/battlePass/name"
+msgstr "%(seasonNum)s. sezóna Battle Passu"
+
+msgid "event/finished"
+msgstr "Akce „%(eventName)s“\nskončila"
+
+msgid "event/notStarted"
+msgstr "Akce „%(eventName)s“\nzačne za %(date)s"
+
+msgid "event/paused"
+msgstr "Akce „%(eventName)s“\nje dočasně nedostupná"
+
+msgid "event/ranked/name"
+msgstr "%(seasonNum)s. sezóna"
+
+msgid "hint/showProgression"
+msgstr "UKÁZAT V REŽIMU POSTUPU"
+
+msgid "mode/epicBattle/condition"
+msgstr "30 proti 30 &nbsp;{par_open}I{par_close}&nbsp;Úrovně&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30 proti 30&nbsp;{par_open}I{par_close}&nbsp;%(levels)s. úrovně&nbsp;"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Akce\nzačne %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Tento režim\nbrzy začne"
+
+msgid "mode/epicBattle/description"
+msgstr "Režim s postupem a odměnami."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Akce skončila"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Za hraní s vozidly VIII. úrovně na{whiteSpanish_open}Frontové linii{whiteSpanish_close} získáte body, které vám umožní pokročit v postupu Battle Passem."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Body Battle Passu"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Za hraní s vozidly VIII.–X. úrovně v {whiteSpanish_open}Průzkumné misi{whiteSpanish_close} získáte body, které vám umožní postupovat v Battle Passu."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Body Battle Passu"
+
+msgid "mode/mapbox/condition"
+msgstr "15 proti 15 %(parSecondary_open)sI%(parSecondary_close)s VIII.–X.&nbsp;úroveň"
+
+msgid "mode/mapbox/description"
+msgstr "Nové mechaniky map."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Vizuální efekty počasí závisí na obecném nastavení grafiky. Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Režim vyžaduje vysoký výkon počítače. Během intenzivních bojů může dojít k poklesu FPS."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Naučte se mapy"
+
+msgid "mode/mapsTraining/description"
+msgstr "Naučte se mapy"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Bojováním s vozidly IV.–XI. úrovně v {whiteSpanish_open}náhodných bitvách{whiteSpanish_close} získáte body, které vám umožní pokročit v postupu Battle Passu."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Body Battle Passu"
+
+msgid "mode/random/condition"
+msgstr "15 na 15 %(parSecondary_open)sI%(parSecondary_close)s I.–XI.&nbsp;úroveň"
+
+msgid "mode/random/description"
+msgstr "Bitvy s automatickou tvorbou týmů."
+
+msgid "mode/random/setup"
+msgstr "Konfigurovat"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Bojování s vozidly X. úrovně v {whiteSpanish_open}hodnocených bitvách{whiteSpanish_close} si vysloužíte body, které vám dovolí pokročit v postupu Battle Passu."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Body Battle Passu"
+
+msgid "mode/ranked/condition"
+msgstr "10 na 10 %(parSecondary_open)sI%(parSecondary_close)s X.&nbsp;úroveň"
+
+msgid "mode/ranked/description"
+msgstr "Režim s postupem a odměnami."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Přihlaste se na turnaj"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Další bitva: %(date)s v %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1 na 1 – 15 na 15 %(parSecondary_open)sI%(parSecondary_close)s I.–X.&nbsp;úroveň"
+
+msgid "mode/specBattlesList/description"
+msgstr "Globální mapa a turnaje."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Bojujte jako legionář"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Bojujte v klanu"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7 na 7 – 15 na 15 %(parSecondary_open)sI%(parSecondary_close)s VI.–X.&nbsp;úroveň"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Klanové bitvy o průmyslové zdroje."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Výcvikové místnosti: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1 na 1 – 15 na 15 %(parSecondary_open)sI%(parSecondary_close)s I.–X.&nbsp;úroveň"
+
+msgid "mode/trainingsList/description"
+msgstr "Úvodní bitvy."
+
+msgid "novelty"
+msgstr "NOVÉ"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Bitvy v kvalifikaci: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Za hraní v režimu můžete získat jedinečné 3D doplňky."
+
+msgid "reward/attachment/name"
+msgstr "3D doplňky"
+
+msgid "reward/bones/description"
+msgstr "Odměna je určena podle vašich výkonů v boji."
+
+msgid "reward/bones/name"
+msgstr "Bony"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Za hraní v režimu můžete získat %(name)s."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Speciální vybavení"
+
+msgid "reward/credits/description"
+msgstr "Odměna je určena podle vašich výkonů v boji."
+
+msgid "reward/credits/name"
+msgstr "Kredity"
+
+msgid "reward/crew/description"
+msgstr "Za hraní v režimu můžete získat jedinečné členy posádky."
+
+msgid "reward/crew/name"
+msgstr "Členové posádky"
+
+msgid "reward/experience/description"
+msgstr "Odměna je určena podle vašich výkonů v boji."
+
+msgid "reward/experience/name"
+msgstr "Zkušenosti"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Za hraní v režimu můžete získat různé experimentální vybavení."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Speciální vybavení"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Za hraní v režimu můžete získat %(name)s."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Speciální vybavení"
+
+msgid "reward/lootBoxes/description"
+msgstr "Za hraní v režimu můžete získat bedny."
+
+msgid "reward/lootBoxes/name"
+msgstr "Speciální bedny"
+
+msgid "reward/other/description"
+msgstr "Za hraní v režimu můžete získat mnoho užitečných odměn."
+
+msgid "reward/other/name"
+msgstr "Speciální odměna"
+
+msgid "reward/progressionStyle/description"
+msgstr "Za hraní v tomto režimu můžete získat speciální progresivní styl."
+
+msgid "reward/progressionStyle/name"
+msgstr "Progresivní styl"
+
+msgid "reward/random/description"
+msgstr "Za hraní v režimu můžete získat mnoho užitečných odměn."
+
+msgid "reward/random/name"
+msgstr "Náhodná odměna"
+
+msgid "reward/style/description"
+msgstr "Za hraní v tomto režimu můžete získat speciální 3D styl pro %(name)s."
+
+msgid "reward/style/name"
+msgstr "3D styl"
+
+msgid "reward/vehicle/description"
+msgstr "Za hraní v režimu můžete získat %(name)s."
+
+msgid "reward/vehicle/name"
+msgstr "Vozidla za odměnu"
+
+msgid "selectMap"
+msgstr "Předvolby pro náhodné bitvy"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "méně než minuta"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "VYBERTE REŽIM BITVY"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Globální mapa"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Obsazujte provincie a bojujte o globální nadvládu. Tento režim je dostupný pouze pro členy klanu."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Vstupte do klanu"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Bitvy na globální mapě"
+
+msgid "window/battleSession/title"
+msgstr "SPECIÁLNÍ BITVA"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Seznam turnajů"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Tato funkce je momentálně nedostupná, ale v budoucnu se zpřístupní. Počkejte prosím."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Bojujte na vlastní pěst nebo v týmu, ukažte, co dokážete, a získejte hodnotné odměny."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Turnaje"

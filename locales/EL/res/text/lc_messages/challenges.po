@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Κερδίσατε επίσης:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Η σειρά των αποστολών μπορεί να επαναληφθεί."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Θετικόν!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Κλείσιμο"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Προβολή στο Γκαράζ"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Επανάληψη"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Στο Crucible"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "Προνομιακός Λογαριασμός WoT"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Προνομιακό όχημα"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Όχημα για μίσθωση"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "και η τεχνοτροπία “{{styleName}}”"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) ημέρα"
+msgstr[1] "%(day) ημέρες"
+msgstr[2] "%(day) ημέρες"
+
+msgid "awards_view/title"
+msgstr "Το CRUCIBLE ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Αποστολή για ×5 XP ανά Μάχη"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Τμήμα Μηχανολογικού Σχεδίου: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Τμήμα σχεδίου γενικής χρήσης"
+
+msgid "bonuses/bpcoin"
+msgstr "Battle Pass Token"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Αποστολή για ×3 Crew XP"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Σετ Προσαρτημάτων 3D"
+
+msgid "bonuses/description/booster"
+msgstr "Προσωπικό Απόθεμα"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Αναβαθμίσιμος Εξοπλισμός"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Πρόσωπο Πληρώματος"
+
+msgid "bonuses/description/directive"
+msgstr "Οδηγία"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Πειραματικός Εξοπλισμός"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Βελτιωμένος Εξοπλισμός"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "και η τεχνοτροπία “%(styleName)s”"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Κανονικός Εξοπλισμός"
+
+msgid "bonuses/description/style"
+msgstr "Τεχνοτροπία 2D"
+
+msgid "bonuses/description/style_3d"
+msgstr "Τεχνοτροπία 3D"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Γυναικείο μέλος πληρώματος"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Νεοσύλλεκτος"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Μέλος πληρώματος"
+
+msgid "condition/achievement"
+msgstr "Κερδίστε το βραβείο %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "Ηρωικά Επιτεύγματα"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Το άθροισμα της φθοράς που προκαλέσατε και της φθοράς από δική σας συνεισφορά θα πρέπει να είναι %(goal)s HP"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Το άθροισμα της φθοράς που προκαλέσατε, της προσλαμβανόμενης φθοράς και της φθοράς που αποσόβησε η θωράκιση θα πρέπει να είναι %(goal)s HP"
+
+msgid "condition/aggregated/title"
+msgstr "Σύνθετη Προϋπόθεση"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Αντιαρματικά"
+
+msgid "condition/classes/SPG"
+msgstr "Α/Κ Πυροβόλα"
+
+msgid "condition/classes/heavyTank"
+msgstr "Βαρέα Άρματα"
+
+msgid "condition/classes/lightTank"
+msgstr "Ελαφρά Άρματα"
+
+msgid "condition/classes/mediumTank"
+msgstr "Μέσα Άρματα"
+
+msgid "condition/critsCount"
+msgstr "Προκαλέστε %(goal)s κρίσιμα πλήγματα σε εσωτερικά ή εξωτερικά εξαρτήματα εχθρικών οχημάτων"
+
+msgid "condition/critsCount/title"
+msgstr "Ακινητοποίηση"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Να αποσοβήσει η θωράκισή σας %(goal)s HP φθοράς"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Η θωράκιση να αποσοβήσει %(goal)s φορές μεγαλύτερη φθορά από τα HP του οχήματός σας"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Αποσόβηση Φθοράς"
+
+msgid "condition/damageDealt"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Προκαλέστε %(goal)s φορές μεγαλύτερη φθορά από τα HP του οχήματός σας"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Επιτύχετε %(goal)s εύστοχες βολές σε εχθρικά οχήματα από απόσταση όχι μεγαλύτερη των %(distance)s μέτρων"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Επιτύχετε %(goal)s εύστοχες βολές σε εχθρικά οχήματα από απόσταση τουλάχιστον %(distance)s μέτρων"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Προκαλέστε φθορά σε εχθρικά οχήματα %(goal)s φορές με εμβολισμό"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Προκαλέστε %(goal)s φορές φθορά σε εχθρικά οχήματα που βρίσκονται εντός του εύρους ορατότητας του οχήματός σας"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Προκαλέστε %(goal)s HP φθοράς μέσα στα πρώτα %(timeLimit)s λεπτά της μάχης"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα από απόσταση όχι μεγαλύτερη των %(distance)s μέτρων"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα από απόσταση μεγαλύτερη των %(distance)s μέτρων"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Προκαλέστε %(goal)s HP φθοράς με εμβολισμό"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Διεμβολισμός"
+
+msgid "condition/damageDealt/title"
+msgstr "Φθορά"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε μη εντοπισμένα εχθρικά οχήματα"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Προκαλέστε %(goal)s ΗΡ φθοράς σε εχθρικά οχήματα που βρίσκονται εντός του εύρους ορατότητας του οχήματός σας"
+
+msgid "condition/kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα"
+
+msgid "condition/kills/classes"
+msgstr "Καταστρέψτε %(goal)s εχθρικά %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα %(classCount)s διαφορετικών τύπων"
+
+msgid "condition/kills/title"
+msgstr "Καταστροφές"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα χωρίς να έχετε δεχθεί καθόλου φθορά"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα χωρίς να εντοπιστείτε"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Προκαλέστε τουλάχιστον το %(goal)s%% της συνολικής φθοράς που προκάλεσε η ομάδα σας"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Φθορά"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Επιτύχετε %(goal)s εύστοχες βολές που θα διαπεράσουν τη θωράκιση εχθρικού οχήματος"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Διατρητικότητα"
+
+msgid "condition/spotted"
+msgstr "Εντοπίστε %(goal)s εχθρικά οχήματα"
+
+msgid "condition/spotted/title"
+msgstr "Εντοπισμός"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Εντοπίστε %(goal)s εχθρικά οχήματα χωρίς να εντοπιστείτε εσείς"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Εντοπισμός"
+
+msgid "condition/top/damageDealt"
+msgstr "Καταλάβετε μία από τις %(rank)s κορυφαίες θέσεις της ομάδας σας με βάση τη φθορά σε εχθρικά οχήματα"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Καταλάβετε μία από τις %(rank)s κορυφαίες θέσεις ανάμεσα στους παίκτες και των 2 ομάδων με βάση τη φθορά σε εχθρικά οχήματα."
+
+msgid "condition/top/title"
+msgstr "Κορυφαίος Παίκτης"
+
+msgid "condition/top/xp"
+msgstr "Καταλάβετε μία από τις %(rank)s κορυφαίες θέσεις της ομάδας σας με βάση το κερδισμένο experience"
+
+msgid "condition/unknown"
+msgstr "Αναζήτηση της πλέον κατάλληλης αποστολής..."
+
+msgid "condition/unknown/title"
+msgstr "Αναμονή"
+
+msgid "postbattle/name"
+msgstr "CRUCIBLE: "

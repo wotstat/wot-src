@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Kaujas serveros būs pieejamas pēc %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Šis režīms nav pieejams visos serveros"
+
+msgid "alertMessage/ban"
+msgstr "Tu esi uz laiku bloķēts šajā režīmā. Atlikušais laiks: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Mainīt serveri"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaļas"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Šis režīms nav pieejams tavā pašreizējā serverī %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Šis režīms nav pieejams nevienā serverī."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Tev jābūt vismaz %(count)s piemērotiem tankiem šim režīmam. Plašāka informācija sadaļā “Par Uzbrukumu”."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Nepietiek piemērotu tanku"
+
+msgid "alertMessage/modeOffline"
+msgstr "Datu bāzes kļūda. Spēles režīms nav pieejams."
+
+msgid "alertMessage/noVehicles"
+msgstr "Garāžā nav piemērotu %(levels)s līmeņa tanku %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Kaujas nav pieejamas %(serverName)s serverī"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Kaujas nav pieejamas %(serverName)s serverī"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Nepietiek piemērotu tanku %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Debeszilā Pūķa sezona sākas: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Sārtā Pūķa sezona sākas: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Nefrīta Pūķa sezona sākas: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Gaidām kvalifikācijas rezultātus, lai piešķirtu tavu rangu"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Debeszilā Pūķa sezona ir beigusies"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Sārtā Pūķa sezona ir beigusies"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Nefrīta Pūķa sezona ir beigusies"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Kaujas šajā serverī būs pieejamas pēc %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nav piemērotu %(levels)s Līmeņa tanku Garāžā"
+
+msgid "awardsWidget/description/award"
+msgstr "Noklikšķiniet, lai izvēlētos un iegūtu jūsu balvas."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Gala Balvas īslaicīgi nav pieejamas. Mēs atvainojamies par neērtībām."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "SAŅEMT\nBALVU"
+msgstr[1] "SAŅEMT\nBALVAS"
+msgstr[2] "SAŅEMT\nBALVAS"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Balsot"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Tu jau esi nobalsojis par %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Neaizliegt"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Ierosināt tanku aizliegšanai"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Balsot var tikai vienu reizi\naizlieguma balsošanas posmā"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Tu ierosini:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Kāds tavā komandā\njau ir izvēlējies tanku, kuru vēlies aizliegt"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Gaidīt, līdz beigsies aizlieguma balsošanas posms"
+
+msgid "banView/button/back"
+msgstr "ATPAKAĻ"
+
+msgid "banView/button/ban"
+msgstr "Uz aizlieguma izvēli"
+
+msgid "banView/button/description"
+msgstr "UZ TANKA IZVĒLI"
+
+msgid "banView/description/prepick"
+msgstr "Izvēlēties piemērotāko tanku šai kartei un tavai komandas sastāvam"
+
+msgid "banView/description/voting"
+msgstr "Izvēlēties tanku, kuru vēlies izslēgt no šīs kaujas"
+
+msgid "banView/factory/candidate"
+msgstr "Aizlieguma kandidāts: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Komandas aizliegumam:"
+
+msgid "banView/factory/noCandidates"
+msgstr "Nav aizlieguma kandidāta"
+
+msgid "banView/factory/pick"
+msgstr "Tavs kandidāts: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Neaizliegt"
+
+msgid "banView/title/prepick"
+msgstr "Tanka priekšizvēles posms"
+
+msgid "banView/title/voting"
+msgstr "Aizlieguma balsošanas posms"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Balsojums apstiprināts"
+
+msgid "banView/tooltip/noAction"
+msgstr "Darbība nav veikta"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Šis spēlētājs vēl nav ierosinājis tanku aizliegšanai."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Ierosināts"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Tanku iznīcinātāji"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Smagie tanki"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Vieglie tanki"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Vidējie tanki"
+
+msgid "banView/withoutBan"
+msgstr "Neaizliegt"
+
+msgid "banWidget/allies"
+msgstr "Sabiedroto balsis"
+
+msgid "banWidget/enemies"
+msgstr "Ienaidnieku balsis"
+
+msgid "banWidget/tooltip"
+msgstr "Komanda nevienojās par tanka aizliegšanu, tāpēc nejauši tika aizliegts viens no tankiem ar visvairāk balsīm."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Konfigurējiet tanka displeju pēc tipa, lomas un nācijas."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Filtrēt pēc Parametriem"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Tiek rādīti tikai tanki, kurus var izmantot režīmā."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Izvēlētajiem parametriem neatbilst neviens tanks"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Komanda savākta. Izvēlieties jūsu tanku un dodamies kaujā!\nPievienojieties balss čatam (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Komanda savākta. Izvēlieties jūsu tanku un dodamies kaujā!\nNozīmējiet pogu, lai ātri pievienotos balss čatam."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Komanda savākta. Izvēlieties jūsu tanku un dodamies kaujā!\nLai pievienotos balss čatam, ieslēdziet to funkciju jūsu spēles iestatījumos."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Režīma Detaļas (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Tanka redzamība palielināta"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Apkalpes īpašības uzlabotas"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Atjauno dzīvības punktus"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Atjauno dzīvības punktus"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Apkalpes īpašības uzlabotas"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Apkalpes īpašības uzlabotas"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Ieroča pārlādes laiks samazināts"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Tanka īpašības uzlabotas"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Atjauno dzīvības punktus"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Tanka īpašības uzlabotas"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Tanka īpašības uzlabotas"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Mobilitāte uzlabota"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Atjauno dzīvības punktus"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Ieroča izkliede samazināta"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Tanka īpašības uzlabotas"
+
+msgid "battleResult/header/deserter"
+msgstr "Jūs esat saņēmis sodu Reitinga punktiem"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Jums ir piemērots sods. Pēc kvalifikācijas pabeigšanas jūsu reitings tiks samazināts."
+
+msgid "battleResult/label/deserter"
+msgstr "Dezertācija"
+
+msgid "battleResult/message/deserter"
+msgstr "Jums ir piemērots sods.\nZaudētie Reitinga punkti: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Jūs esat pametis kaujas lauku. \nPēc kvalifikācijas pabeigšanas jūsu reitings tiks samazināts."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Nesportiska Uzvedība"
+
+msgid "battleResult/personal/label"
+msgstr "Reitinga Punkti"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Atspoguļo spēlētāja pašreizējo progresu Ranga Sistēmā. Reitinga Punktus var nopelnīt vai zaudēt atkarībā no jūsu veiksmes režīmā."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Zaudējumi/neizšķirti režīma kaujās\n• Soda saņemšana \n• Ranga neaktivitāte."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Reitinga Punkti tiek noņemti par:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Reitinga Punkti"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Kvalifikācijas kaujas"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Kvalifikācija"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Reitinga Punkti saņemti. Lai aizsargātu jūsu Leģendas rangu, palieciet top %(topPercentage)d%% no spēlētājiem Līderu Sarakstā."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Reitinga Punkti saņemti. Lai sasniegtu Leģendas rangu, esiet starp top %(topPercentage)d%% no spēlētājiem Līderu Sarakstā."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Reitinga Punkti saņemti"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Reitinga Punkti zaudēti. Lai aizsargātu jūsu Leģendas rangu, palieciet top %(topPercentage)d%% no spēlētājiem Līderu Sarakstā."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Reitinga Punkti zaudēti. Lai sasniegtu Leģendas rangu, esiet starp top %(topPercentage)d%% spēlētājiem Līderu Sarakstā."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Reitinga Punkti zaudēti"
+
+msgid "battleResult/subTask/rating"
+msgstr "Reitinga Punkti: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Jūs tikāt pazemināts uz %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Jūs tikāt paaugstināts uz %(division)s. %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Izcīnītas kaujas (diena): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Ieskaitot:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Izcīnītas kaujas (sezona): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Solo/Vadā: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Super Vadā: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Debeszilā Pūķa sezona ilgs vēl %(days)d dienu"
+msgstr[1] "Debeszilā Pūķa sezona ilgs vēl %(days)d dienas"
+msgstr[2] "Debeszilā Pūķa sezona ilgs vēl %(days)d dienas"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Sārtā Pūķa sezona ilgs vēl %(days)d dienu"
+msgstr[1] "Sārtā Pūķa sezona ilgs vēl %(days)d dienas"
+msgstr[2] "Sārtā Pūķa sezona ilgs vēl %(days)d dienas"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Nefrīta Pūķa sezona ilgs vēl %(days)d dienu"
+msgstr[1] "Nefrīta Pūķa sezona ilgs vēl %(days)d dienas"
+msgstr[2] "Nefrīta Pūķa sezona ilgs vēl %(days)d dienas"
+
+msgid "calendarDay/title"
+msgstr "Grafiks"
+
+msgid "carousel/banned"
+msgstr "Aizliegts"
+
+msgid "claimRewards/button"
+msgstr "Saņemt Balvu"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Šī operācija īslaicīgi nav pieejama tehnisku iemeslu dēļ. Mēs strādājam pie problēmas risināšanas."
+
+msgid "closeButtonLabel"
+msgstr "AIZVĒRT"
+
+msgid "controls/compare"
+msgstr "Pievienot Salīdzināšanai"
+
+msgid "controls/preview"
+msgstr "Pirmsapskate"
+
+msgid "countDown/text"
+msgstr "Pasākums sāksies pēc:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 min"
+
+msgid "crewMembersTooltip/description"
+msgstr "Šajā īpašajā apkalpē ir tankisti no visas pasaules, kas apvienoti sava Komandiera vadībā. Visiem viņiem ir Kaujas Brāļi nulles iemaņa un pietiekami daudz Apkalpes Pieredze, lai trenētu vēl divas iemaņas, ļaujot viņiem uzlabot tanka veiktspēju, kā arī kaujas laukā ienest savu personīgo izjūtu."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Iemaņas"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "UZBRUKUMS. PŪĶA GADS"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Nulles iemaņas"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Vidējais bojājums (dienā): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Kopējo izdarīto bojājumu attiecība pret aizvadīto kauju skaitu."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Vidējais bojājums (sezona): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Dienas bojājumu rekords: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Maksimālie bojājumi, ko izraisījis kaujā ar %(vehicleName)s"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Sezonas bojājumu rekords: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "Mēs atvainojamies par īslaicīgām neērtībām. Lūdzu mēģiniet atjaunināt lapu vēlāk."
+
+msgid "dataError/title"
+msgstr "Kļūda ielādējot datus"
+
+msgid "dayTooltip/day"
+msgstr "Diena %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "Diena %(index)s: Nav notikušas kaujas."
+
+msgid "dayTooltip/noBattles"
+msgstr "Ja vēlies mieru, gatavojies karam."
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Ranga neaktivitāte: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s reitinga punkts"
+msgstr[1] "%(pointsCount)s reitinga punkti"
+msgstr[2] "%(pointsCount)s reitinga punkti"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Reitinga punktu izmaiņas: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "Diena %(index)s (šodien)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "Diena %(index)s: Šodien kaujas nenotika."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Divīzija"
+
+msgid "division/text"
+msgstr "Divīzija %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Šī divīzija ir spēlētājiem ar {eeede9e6_Open}%(fromScore)&nbsp;līdz&nbsp;%(toScore){eeede9e6_Close}&nbsp;Reitinga Punktiem."
+
+msgid "divisionTooltip/heading"
+msgstr "Divīzija %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Reitinga Punkti"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Aizvadītas kaujas"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sRezultāti tiek gatavoti..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sRezultāti tiek gatavoti"
+
+msgid "entryPointTooltip/description"
+msgstr "Konkurētspējīgs režīms ar 7 pret 7 kaujam %(levels)s līmeņa tankos. Kāpj pa pakāpēm un nopelni unikālus pielāgojuma elementus, tankus, zeltu un citas vērtīgas balvas."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "REŽĪMS"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Spēles režīms. Noklikšķini, lai izpētītu"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Pieejams%(timer)s "
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Pamiers%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Pieejams pēc:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Uzbrukums"
+
+msgid "featureNameCapitalized"
+msgstr "UZBRUKUMS"
+
+msgid "fifthRankTooltip/description"
+msgstr "{eeede9e6_Open}Čempiona{eeede9e6_Close} rangs tiek piešķirts spēlētājiem, kuri ir nopelnījuši vismaz {eeede9e6_Open}%(fromScore){eeede9e6_Close} Reitinga Punktus."
+
+msgid "forVehicle"
+msgstr "Priekš: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "{eeede9e6_Open}Dzelzs{eeede9e6_Close} rangs tiek piešķirts spēlētājiem, kuri ir nopelnījuši no {eeede9e6_Open}%(fromScore) līdz %(toScore){eeede9e6_Close} Reitinga Punktiem."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "{eeede9e6_Open}Zelta{eeede9e6_Close} rangs tiek piešķirts spēlētājiem, kuri ir nopelnījuši no {eeede9e6_Open}%(fromScore) līdz %(toScore){eeede9e6_Close} Reitinga Punktiem."
+
+msgid "generalRankTooltip/body/second"
+msgstr "{eeede9e6_Open}Bronzas{eeede9e6_Close} rangs tiek piešķirts spēlētājiem, kuri ir nopelnījuši no {eeede9e6_Open}%(fromScore) līdz %(toScore){eeede9e6_Close} Reitinga Punktiem."
+
+msgid "generalRankTooltip/body/third"
+msgstr "{eeede9e6_Open}Sudraba{eeede9e6_Close} rangs tiek piešķirts spēlētājiem, kuri ir nopelnījuši no {eeede9e6_Open}%(fromScore) līdz %(toScore){eeede9e6_Close} Reitinga Punktiem."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Iekļauj Divīzijas: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "PAR PASĀKUMU"
+
+msgid "intro/confirmButton"
+msgstr "Sapratu!"
+
+msgid "intro/description/banPhase"
+msgstr "Katra komanda var pilnībā aizliegt tanku no kaujas. Saskaņojiet balsis ar sabiedrotajiem, lai izslēgtu jūsu visvairāk baidīto tehniku vai sagatavotu negaidītu sastāvu ienaidniekiem. Ja jūsu tanks ir aizliegts, varat izvēlēties no vairākiem iepriekš konfigurētiem nomas variantiem."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Režīmā ir modifikatori, kas maina noteiktus tanka parametrus, kā piemēram tanka dzīvības punktus, palīgmateriālu atjaunošanās laiku, atlikušo redzamības laiku un vairāk."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Kad esiet sagūstījis noteiktus kartes apgabalus, varēsiet izmantot Taktiskās Spējas. Ir divu veidu Galvenie Punkti: Artilērijas Štābs ļaus jums virzīt artilērijas triecienu noteiktā vietā, un Komunikācijas Centrs pamanīs visus pretinieka tankus. Atkarībā no kartes šo interešu punktu klātbūtne un atrašanās vieta var mainīties."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Cīnieties %(count)s Kvalifikācijas kaujā, lai noteiktu jūsu prasmju līmeni un rangu. Pēc izpildes jūs saņemsiet balvas par sasniegto rangu un visiem iepriekšējiem rangiem.\n\nDezertēšana vai neizšķirts Kvalifikācijā tiks uzskatīta par sakāvi."
+msgstr[1] "Cīnieties %(count)s Kvalifikācijas kaujās, lai noteiktu jūsu prasmju līmeni un rangu. Pēc izpildes jūs saņemsiet balvas par sasniegto rangu un visiem iepriekšējiem rangiem.\n\nDezertēšana vai neizšķirts Kvalifikācijā tiks uzskatīta par sakāvi."
+msgstr[2] "Cīnieties %(count)s Kvalifikācijas kaujās, lai noteiktu jūsu prasmju līmeni un rangu. Pēc izpildes jūs saņemsiet balvas par sasniegto rangu un visiem iepriekšējiem rangiem.\n\nDezertēšana vai neizšķirts Kvalifikācijā tiks uzskatīta par sakāvi."
+
+msgid "intro/description/ranks"
+msgstr "Sistēma, kas atspoguļo spēlētāja prasmi. Progresē caur rangiem no Dzelzs līdz Leģenda un iegūsti vērtīgas balvas. Cīnies visa Pūķa gada laikā, lai saņemtu unikālas gada balvas."
+
+msgid "intro/description/roleSkills"
+msgstr "Atkarībā no lomas katram tankam ir īpaša spēja ar trim uzlādes līmeņiem. Jo augstāks uzlādes līmenis, kad spēja tiek aktivizēta, jo spēcīgāks efekts. Uzlādes līmenis būs atkarīgs no nopelnītajiem Prestižā Punktiem par izcilu sniegumu cīņā, mērķu ieņemšanu, Taktisko spēju izmantošanu utt.\n\nIepazīsties ar režīma noteikumiem, lai uzzinātu vairāk par dažādiem veidiem, kā vari nopelnīt Prestižā Punktus."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Tu vari piedalīties kaujā ar %(levels)s līmeņa pētniecības tankiem (izņemot pašgājējus artilērijas), kā arī Kolekcionāra un dažu īpašo tanku modeļiem. Sagatavo tankus garāžā un izvēlies labāko atkarībā no kartes īpatnībām. Izvēloties tanku, ņem vērā arī sabiedroto izvēli."
+
+msgid "intro/title/banPhase"
+msgstr "TANKU AIZLIEGUMI"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "UZBRUKUMA MODIFIKATORI"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "GALVENIE PUNKTI"
+
+msgid "intro/title/qualification"
+msgstr "KVALIFIKĀCIJA"
+
+msgid "intro/title/ranks"
+msgstr "RANGU SISTĒMA"
+
+msgid "intro/title/roleSkills"
+msgstr "LOMAS SPĒJAS"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "IZVĒLIETIES TANKU NOTEIKTAI KARTEI"
+
+msgid "lastUpdateNote/info"
+msgstr "Atjaunināts: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Zemākā spēlētāja Leģendas rangā Reitinga Punkti\ntiek atjaunināti katras %(count)s min."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Atjaunina datus..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Līderu tabula tiek atjaunināta ik pēc %(count)s minūtēm."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Pēdējo reizi atjaunināts: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Mana pozīcija"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Sasniedziet Čempiona vai Leģendas rangu, lai iekļūtu Līderu Sarakstā."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Atjaunināt"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Čempiona un Leģendas ranga spēlētāji tiks parādīti Līderu tabulā. Nopelni {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} Reitinga Punktus un sasniedz tabulas augšgalu!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Pašreizējai Sezonai nav spēlētāju Līderu Sarakstā"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Kaujas"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Spēlētāja Vārds"
+
+msgid "leaderboard/table/header/score"
+msgstr "Reitinga Punkti"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Spēlētāja aizvadītās kaujas Uzbrukuma režīmā pašreizējas Sezonas laikā."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Kaujas"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Spēlētāja pozīcija reitingos."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Pozīcija"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Spēlētāja vārds, kas ieņem pozīciju reitingā."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Spēlētāja Vārds"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Nopelnītie Reitinga Punkti pašreizējā Sezonā."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Reitinga Punkti"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Spēlētāji Vadā"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Izmantojiet WoT Premium Kontu"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktivizējiet Personālās Rezerves"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Izpildiet Misijas"
+
+msgid "noVehicles/howTo/title"
+msgstr "Kas ir ātrākais veids kā iegūt %(levels)s Līmeņa tankus?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Lai piedalītos Uzbrukumā, jums vajag vismaz vienu %(levels)s Līmeņa tanku Garāžā, kas ir piemērots režīmam.\nJums ir izpētīts %(levels)s Līmeņa tanks, kas nav iegūts."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Lai piedalītos Uzbrukumā, jums vajag vismaz vienu %(levels)s Līmeņa tanku Garāžā, kas ir piemērots režīmam.\nJums ir %(levels)s Līmeņa tanks pieejams atgūšanai."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Lai piedalītos Uzbrukumā, jums vajag vismaz vienu %(levels)s Līmeņa tanku Garāžā, kas ir piemērots režīmam."
+
+msgid "noVehicles/title"
+msgstr "Nav piemērotu tanku jūsu Garāžā"
+
+msgid "page/heading/leaderboard"
+msgstr "LĪDERU SARAKSTS"
+
+msgid "page/heading/progression"
+msgstr "RANGU SISTĒMA"
+
+msgid "page/heading/qualification"
+msgstr "KVALIFIKĀCIJA"
+
+msgid "page/heading/rankRewards"
+msgstr "BALVAS PAR RANGIEM"
+
+msgid "page/heading/shop"
+msgstr "UZBRUKUMA VEIKALS"
+
+msgid "page/heading/weeklyQuests"
+msgstr "IKNEDĒĻAS MISIJAS"
+
+msgid "page/heading/yearlyRewards"
+msgstr "IKGADĒJĀS BALVAS"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "IKGADĒJĀ STATISTIKA"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Uz priekšu"
+
+msgid "pagination/prev"
+msgstr "Atpakaļ"
+
+msgid "pbs/bans/title"
+msgstr "AIZLIEGTIE TANKI"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "UZBRUKUMS 2D STILS"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "2D STILA MISIJA PABEIGTA!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "IKNEDĒĻAS MISIJA #%(count)s PABEIGTA!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "IKNEDĒĻAS MISIJA PABEIGTA!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "IKNEDĒĻAS UZBRUKUMS"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "SAKĀVE TEVIS DĒĻ"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "NEIZŠĶIRTS TEVIS DĒĻ"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "UZVARA TEVIS DĒĻ"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Paaugstināts uz %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Pazemināts uz %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Paaugstināts uz %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Aizvadītas kaujas"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Kvalifikācija"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Jūs saņēmāt disciplinārsodu: Sods Reitinga Punktiem"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Jūs esat saņēmis disciplināru sodu: pēc kvalifikācijas pabeigšanas jūsu reitings tiks samazināts."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "Lai sasniegtu Leģenda rangu, esi starp {ede6d9e5_Open}top %(topPercentage)%{ede6d9e5_Close} spēlētājiem Līderu sarakstā."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "Lai paliktu Leģenda rangā, esi starp {ede6d9e5_Open}top %(topPercentage)%{ede6d9e5_Close} spēlētājiem Līderu sarakstā."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Skatiet lapu Uzbrukums, lai iegūtu detalizētu informāciju."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestiža Punkti"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Bojājumu nodarīšana\nIzlūkošanas asistēšana\nKāpurķēžu iznīcināšana\nKritisko trāpījumu izraisīšana\nIenaidnieka tanku iznīcināšana\nUn vēl"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Šis īpašais resurss ietekmē kaujā iegūto un zaudēto reitinga punktu skaitu. Prestiža punktus var iegūt, veicot kaujas darbības, tostarp:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Vidējie Prestiža punkti (diena): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Kopējo Prestiža punktu attiecība pret izcīnīto kaju skaitu."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Vidējie Prestiža punkti (sezona): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Dienas Prestiža punktu rekords: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Maksimālie Prestiža punkti, kas nopelnīti kaujā ar %(vehicleName)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Sezonas Prestiža Punktu rekords: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Debeszilā Pūķa sezona beigusies serverī: %(server)s"
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sārtā Pūķa sezona beigusies serverī: %(server)s"
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Nefrīta Pūķa sezona beigusies serverī: %(server)s"
+
+msgid "products/actions/buy"
+msgstr "Pirkt"
+
+msgid "products/actions/restore"
+msgstr "Uz Noliktavu"
+
+msgid "products/actions/toCustomization"
+msgstr "Uz Stilu"
+
+msgid "products/actions/toHangar"
+msgstr "Skatīt Garāžā"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Nevar iet uz stilu. Tas var būt tāpēc, ka: jums vēl nepieder šis tanks, tanks ir vienībā, tanks atrodas kaujā vai ir nepieciešams remonts."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Nav pieejama"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "Līdz nākamās sezonas sākumam tev būs pieejami priekšmeti un atlaide atkarībā no tava {eeede9e6_Open}augstākā{eeede9e6_Close}{eeede9e6_Open}sasniegtā{eeede9e6_Close} {eeede9e6_Open}ranga{eeede9e6_Close}."
+
+msgid "products/discountSectionName"
+msgstr "PIEEJAS NOSACĪJUMI UN ATLAIDES"
+
+msgid "products/inProgress"
+msgstr "Lūdzu uzgaidiet, jūsu pirkums tiek apstrādāts..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Pieejams pirkšanai Sezonā: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Nepietiekami līdzekļi pirkumam."
+
+msgid "products/message/rankAccess"
+msgstr "Pirkuma prasības\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "JAUNS"
+
+msgid "products/priceSectionName"
+msgstr "CENA"
+
+msgid "products/productAccess"
+msgstr "Pieejas\nRangs"
+
+msgid "products/purchased"
+msgstr "Nopirkts"
+
+msgid "products/rankAccess"
+msgstr "Pieejas Rangs %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Atjaunošana pieejama"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Pieejams atjaunošanai Noliktavā"
+
+msgid "products/style3d"
+msgstr "%(name)s 3D Stils"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "ATPAKAĻ UZ SEZONAS STATISTIKU"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "SEZONAS STATISTIKA"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "STATISTIKA PAR DIENU %(day)s"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "STATISTIKA ŠODIENAI"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Katra kolonna parāda datus par periodu starp Prime Time izvēlētajā dienā un Prime Time nākamajā dienā. Dažos gadījumos tas var ietvert cīņas no divām kalendārajām dienām."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Katra kolonna parāda datus par periodu starp Prime Time izvēlētajā dienā un Prime Time nākamajā dienā. Dažos gadījumos tas var ietvert cīņas no divām kalendārajām dienām."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Šī sadaļa tiek atjaunināta tikai tad, kad ir pieejami jauni dati. Jūs varat pieprasīt atjauninājumu, nospiežot atsvaidzināšanas pogu."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Atjaunināts: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Apsveicam!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Jūs esat pabeidzis visas 2D stila misijas."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Misiju sērija, lai atklātu jaunus elementus pašreizējās sezonas progresīvajam 2D stilam."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "2D STILA MISIJA: %(taskNumber)s"
+msgstr[1] "2D STILA MISIJAS: %(taskNumber)s"
+msgstr[2] "2D STILA MISIJAS: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2D STILA MISIJA"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Uz Stilu"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Visi stili, kas pašlaik tiek piemēroti nepieejamiem tankiem"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Nav pieejamu tanku, kam piemērot stilu."
+
+msgid "progressionPage/error/refresh"
+msgstr "Atjaunot"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Atsvaidzina..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Vidējie bojājumi"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Vid. Prestiža Punkti"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Reitinga izmaiņas %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Rekords uzstādīts %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "diena %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Visiem statistikas datiem"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Ietver:\n • Bojājumi, kas nodarīti, kad jūs atklājat ienaidnieku (ieskaitot bojājumus ar prasmju palīdzību)\n • Bojājumi, kas nodarīti, kad jūs iznīcināt kāpurķēdi un imobilizējat ienaidnieka transportlīdzekli (ieskaitot bojājumus ar prasmju palīdzību)\n • Bojājumi, ko nodarījuši sabiedrotie ar jūsu prasmju palīdzību\n • Bojājumi, ko sabiedrotie nodarījuši apdullinātam ienaidniekam (ieskaitot apdullinājumus ar jūsu prasmju palīdzību)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Kopējais kauju skaits"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Attiecība starp izdarītajiem bojājumiem un aizvadīto kauju skaitu"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Iznīcināto ienaidnieka tanku attiecība pret spēlētāja tanka iznīcināšanas reižu skaitu."
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Bojājumu nodarīšanas un saņemšanas attiecība"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Kopējo Prestižs punktu attiecība pret izcīnīto kauju skaitu"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Tanki ar visvairāk kaujam"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Kopējais uzvaru procents"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Vidējie bojājumi, kas izdarīti ar jūsu atbalstu"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Kaujas"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Vidēji nodarītie bojājumi"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Iznīcināšanas koeficients"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Bojājumu koeficients"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Vidējais Prestiža punktu skaits vienā kaujā"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Tanka nosaukums"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Uzvaras"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "TANKA STATISTIKA"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Dienas līdz reitinga pazemināšanai: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Necīnoties režīmā Uzbrukums, jūs zaudēsiet {eeede9e6_Open}%(count)s{eeede9e6_Close} Reitinga punktu."
+msgstr[1] "Necīnoties režīmā Uzbrukums, tu zaudēsi {eeede9e6_Open}%(count)s{eeede9e6_Close} Reitinga Punktus."
+msgstr[2] "Necīnoties režīmā Uzbrukums, tu zaudēsi {eeede9e6_Open}%(count)s{eeede9e6_Close} Reitinga Punktus."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;kauja&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitātes punkts)"
+msgstr[1] "(1&nbsp;kauja&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitātes punkts)"
+msgstr[2] "(1&nbsp;kauja&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitātes punkts)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Jūs nezaudēsiet Reitinga Punktus, ja nespēlēsiet režīmā savā pašreizējā rangā, bet jūs varat zaudēt, ja sasniegsiet šādus rangus: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Jūsu rangs tiek ietekmēts, ja esat neaktīvs."
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Jūsu rangs netiek ietekmēts, ja esat neaktīvs."
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Rangs"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Top %(topPercentage)s% spēlētāju līderu sarakstā"
+
+msgid "progressionTooltip/division"
+msgstr "Divīzija %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Šī divīzija paredzēta spēlētājiem ar {eeede9e6_Open}%(fromScore) līdz %(toScore){eeede9e6_Close} Reitinga Punktiem."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Čempiona pakāpe tiek piešķirta spēlētājiem, kuri nopelnījuši vismaz {eeede9e6_Open}%(fromScore){eeede9e6_Close} Reitinga Punktus."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Leģendas pakāpe tiek piešķirta {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} spēlētājiem Līderu tabulā."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Cīnieties %(maxBattlesCount)s kaujā iekš režīma, lai noteiktu jūsu prasmju līmeni un rangu."
+msgstr[1] "Cīnieties %(maxBattlesCount)s kaujās iekš režīma, lai noteiktu jūsu prasmju līmeni un rangu."
+msgstr[2] "Cīnieties %(maxBattlesCount)s kaujās iekš režīma, lai noteiktu jūsu prasmju līmeni un rangu."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Kvalifikācija"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Dienas līdz reitinga pazemināšanai: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Necīnoties režīmā Uzbrukums, tu zaudēsi {eeede9e6_Open}%(count)s{eeede9e6_Close} Reitinga Punktu."
+msgstr[1] "Necīnoties režīmā Uzbrukums, tu zaudēsi {eeede9e6_Open}%(count)s{eeede9e6_Close} Reitinga Punktus."
+msgstr[2] "Necīnoties režīmā Uzbrukums, tu zaudēsi {eeede9e6_Open}%(count)s{eeede9e6_Close} Reitinga Punktus."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Jūsu reitinga ietekmē ranga neaktivitāte."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Nospēlē līdz dienas beigām, lai saglabātu savu pakāpi."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Reitinga Punkti"
+
+msgid "purchase/affirmative"
+msgstr "Sapratu!"
+
+msgid "purchase/cancelButton"
+msgstr "Atpakaļ"
+
+msgid "purchase/confirmButton"
+msgstr "Pirkt"
+
+msgid "purchase/error/description"
+msgstr "Nevar izpildīt pirkumu. Mēģiniet vēlreiz vēlāk."
+
+msgid "purchase/error/title"
+msgstr "Kļūda"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sJums Garāžā nav piemērots tanks šim stilam"
+
+msgid "purchase/price"
+msgstr "Pirkšanas cena:"
+
+msgid "purchase/success/heading"
+msgstr "Paldies par jūsu pirkumu!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sPirkums tiks kreditēts jūsu spēles kontam tuvākajā nākotnē"
+
+msgid "purchase/success/style3d"
+msgstr "%(name)s 3D stils priekš %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "Pirkt %(name)s 3D stilu?"
+
+msgid "purchase/title/vehicle"
+msgstr "Pirkt %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Cīnies {eeede9_Open}%(maxBattlesCount)s kaujā{eeede9_Close} režīmā, lai noteiktu savu prasmju līmeni un rangu."
+msgstr[1] "Cīnies {eeede9_Open}%(maxBattlesCount)s kaujās{eeede9_Close} režīmā, lai noteiktu savu prasmju līmeni un rangu."
+msgstr[2] "Cīnies {eeede9_Open}%(maxBattlesCount)s kaujās{eeede9_Close} režīmā, lai noteiktu savu prasmju līmeni un rangu."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "Lai izpildītu Kvalifikāciju, cīnieties %(maxBattlesCount)s kaujā un gaidiet reitinga aprēķinu. Jūsu kaujas sniegums Kvalifikācijas laikā ietekmē jūsu saņemto gala rangu.\nDezertēšana Kvalifikācijā novedīs pie sliktāka rezultāta nekā smagākā sakāve."
+msgstr[1] "Lai izpildītu Kvalifikāciju, cīnieties %(maxBattlesCount)s kaujās un gaidiet reitinga aprēķinu. Jūsu kaujas sniegums Kvalifikācijas laikā ietekmē jūsu saņemto gala rangu.\nDezertēšana Kvalifikācijā novedīs pie sliktāka rezultāta nekā smagākā sakāve."
+msgstr[2] "Lai izpildītu Kvalifikāciju, cīnieties %(maxBattlesCount)s kaujās un gaidiet reitinga aprēķinu. Jūsu kaujas sniegums Kvalifikācijas laikā ietekmē jūsu saņemto gala rangu.\nDezertēšana Kvalifikācijā novedīs pie sliktāka rezultāta nekā smagākā sakāve."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Kvalifikācijas Noteikumi"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Aizvadītas kaujas"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Gaidām Kvalifikācijas rezultātus, lai saņemtu savu rangu"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Var paiet līdz piecām minūtēm, lai aprēķinātu jūsu vērtējumu, pamatojoties uz Kvalifikācijas rezultātiem. Pēc tam jūs saņemsiet rangu un varēsiet turpināt spēlēt Uzbrukumā."
+
+msgid "qualification/rewardsButton"
+msgstr "Uz Balvām"
+
+msgid "qualification/rewardsDescription"
+msgstr "Pēc Kvalifikācijas izpildes, jūs saņemsiet balvas par sasniegto rangu un visiem iepriekšējiem."
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "Sasniegts"
+
+msgid "rank/current"
+msgstr "Pašreizējais"
+
+msgid "rank/fifth"
+msgstr "Čempions"
+
+msgid "rank/first"
+msgstr "Dzelzs"
+
+msgid "rank/fourth"
+msgstr "Zelts"
+
+msgid "rank/qualification"
+msgstr "Kvalifikācija"
+
+msgid "rank/second"
+msgstr "Bronza"
+
+msgid "rank/sixth"
+msgstr "Leģenda"
+
+msgid "rank/text"
+msgstr "%(rank)s Rangs"
+
+msgid "rank/third"
+msgstr "Sudrabs"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Spēlētāja rangs"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Vada biedra(u) rangs"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Vadi var sastāvēt tikai no spēlētājiem ar līdzīgiem rangiem."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Ranga ierobežojumi %(count)s spēlētāju Vadiem"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Ja jūs nespēlējiet režīmā, jūs zaudēsiet Reitinga Punktus."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Ranga Neaktivitāte"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Dienas pirms jūsu reitings krīt: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Ikdienas vērtējums"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Reitinga punktu izmaiņas: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Reitinga punktu atšķirība starp izvēlēto dienu un iepriekšējo dienu."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Dienas reitinga rekords: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Maksimālais reitinga sasniegts izvēlētajā dienā."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "diena %(day)s"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Sezonas reitinga rekords uzstādīts dienā %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "Čempiona pakāpe tiek piešķirta spēlētājiem, kuri nopelnījuši vismaz {eeede9e6_Open}%(fromScore){eeede9e6_Close} Reitinga Punktus."
+
+msgid "rankInfo/current/sixth"
+msgstr "Leģendas pakāpe tiek piešķirta {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} spēlētājiem Līderu tabulā."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "Lai sasniegtu Leģendas rangu, jābūt starp {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} spēlētājiem Līderu tabulā pēc Reitinga Punktiem."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "Lai aizstāvētu savu Leģendas rangu, paliec {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} spēlētāju vidū Līderu tabulā pēc reitinga punktiem."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "Lai sasniegtu Leģendas rangu, jābūt starp {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} spēlētājiem Līderu tabulā pēc reitinga punktiem.&nbsp;Leģendas&nbsp;ranga zemākā spēlētāja iegūtie Reitinga Punkti: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "Lai aizstāvētu savu Leģendas rangu, paliec {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} spēlētāju vidū Līderu tabulā pēc Reitinga Punktiem.&nbsp;Leģendas&nbsp;ranga zemākā spēlētāja iegūtie reitinga punkti: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "ČEMPIONS"
+
+msgid "rankUpper/first"
+msgstr "DZELZS"
+
+msgid "rankUpper/fourth"
+msgstr "ZELTS"
+
+msgid "rankUpper/second"
+msgstr "BRONZA"
+
+msgid "rankUpper/sixth"
+msgstr "LEĢENDA"
+
+msgid "rankUpper/text"
+msgstr "%(rank)s RANGS"
+
+msgid "rankUpper/third"
+msgstr "SUDRABS"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Jūs varat izvēlēties vienu uzlabotu aprīkojuma vienību no zemāk esošā saraksta:\n\n • Slēptais izplūdes blok\ns • Inovatīva mērķēšan\na • Uzlabots galīgais piedziņ\na • Uzlabots kompresor\ns • Palielināta čaulas izturīb\na • Uzlabota konfigurācij\na • Eksperimentālā optik\na • Inovatīva ielādes sistēm\na • Ventilācijas sistēm\na • Nodilumizturīgs ieroču novietošanas piedziņ\na • Stabilizējoša aprīkojuma sistēm\na • Teleskopiskā novērošanas sistēm\na • Taktisks slēpšanas tīkls"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Jūs varat izvēlēties vienu Eksperimentālā Aprīkojuma vienību no turpmāk minētā saraksta:\n\n• Uguns Kontroles sistēma T3\n• Izdzīvošanās uzlabošanas sistēma T3\n• Mobilitātes uzlabošanas sistēma T3\n• Precizitātes uzlabošanas sistēma T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "%(name)s kamuflāža"
+
+msgid "rewards/preview"
+msgstr "Pirmsapskate"
+
+msgid "rewards/status/achieved"
+msgstr "Balva saņemta"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}%(vehicleLevel)s līmeņa tankiem{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}Par %(progressionStyleName)s stilu{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "%(vehicleLevel)s Līmenis"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Jūs arī saņēmāt:"
+
+msgid "rewardsScreen/button"
+msgstr "Sapratu!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Uz Balvām"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Izvēlēties Balvu"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Iet uz Pirkumu"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "UZBRUKUMS. KVALIFIKĀCIJA PABEIGTA"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "UZBRUKUMS. DEBESZILĀ PŪĶA SEZONA"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "UZBRUKUMS. SĀRTĀ PŪĶA SEZONA"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "UZBRUKUMS. NEFRĪTA PŪĶA SEZONA"
+
+msgid "rewardsScreen/description/year"
+msgstr "UZBRUKUMS. PŪĶA GADS"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Kur ir mans Ashbringer?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Nav ranga"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Pēc šī ranga sasniegšanas, jūs variet zaudēt Reitinga Punktus, ja jūs beidziet spēlēt Uzbrukuma režīmu."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Ranga Neaktivitāte"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Pilnīgs Uzbrukums\nKrāsas"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Moduļu izvēle"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Balvu izvēle"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Jaunas atlaides pieejamas Uzbrukuma Veikalā!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Jaunas lietas pieejamas Uzbrukuma Veikalā!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Līdz nākamās Sezonas sākumam jums būs pieeja priekšmetiem un atlaide atkarībā no jūsu augstākā sasniegtā ranga."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Līdz nākamās Sezonas sākumam jums būs pieeja priekšmetiem un atlaide atkarībā no jūsu augstākā sasniegtā ranga."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}%(rank)s{ffe4c0_Close} Rangs"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Pamatoties uz Kvalifikācijas rezultātiem, jūs esat saņēmis atlīdzības par šādām pakāpēm: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Jūs saņēmāt balvas par paaugstināšanu uz {ffe4c0_Open}%(rank)s{ffe4c0_Close} rangu"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Balva par {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} iknedēļas misiju izpildi"
+msgstr[1] "Balva par {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} iknedēļas misijas izpildi"
+msgstr[2] "Balva par {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} iknedēļas misijas izpildi"
+
+msgid "rewardsScreen/title/division"
+msgstr "%(division)s DIVĪZIJA SASNIEGTA"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} SASNIEGTS RANGS"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "BALVA PAR SASNIEGTAJIEM RANGIEM"
+
+msgid "rewardsScreen/title/rank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} SASNIEGTS RANGS"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "BALVA PAR JŪSU JAUNO RANGU"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "BALVA SAŅEMTA"
+msgstr[1] "BALVAS SAŅEMTAS"
+msgstr[2] "BALVAS SAŅEMTAS"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "IKNEDĒĻAS MISIJAS BALVAS"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "IKGADĒJĀS BALVAS"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Komplektā ir:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "UZBRUKUMS"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "IZVĒLIETIES BALVU"
+msgstr[1] "IZVĒLIETIES BALVAS"
+msgstr[2] "IZVĒLIETIES BALVAS"
+
+msgid "scoreTooltip/body"
+msgstr "Jūsu nopelnītie Reitinga Punkti noteiks jūsu rangu un Divīziju Uzbrukuma režīmā. Uzvariet kaujas, lai kļūtu labākais!"
+
+msgid "scoreTooltip/header"
+msgstr "Reitinga Punkti"
+
+msgid "season/daysLeft"
+msgstr "Beidzas pēc %(totalDays)s d"
+
+msgid "season/hoursLeft"
+msgstr "Beidzas pēc %(hours)s h"
+
+msgid "season/minutesLeft"
+msgstr "Beidas pēc %(minutes)s min"
+
+msgid "season/over"
+msgstr "%(seasonName)s ir beidzies"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Beidzas pēc %(seconds)s s"
+
+msgid "seasonName/first"
+msgstr "DEBESZILĀ PŪĶA SEZONA"
+
+msgid "seasonName/second"
+msgstr "Sārtā Pūķa sezona"
+
+msgid "seasonName/third"
+msgstr "Nefrīta Pūķa sezona"
+
+msgid "seasonPointTooltip/header"
+msgstr "Uzbrukuma Krāsas"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Saņemts"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Nav saņemts"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Jūs esiet pretendents uz Uzbrukuma Krāsu saņemšanu"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Neizmantotas Uzbrukuma Krāsas tiek pārvērstas par bonām ar šādu likmi: {bond_Open}1 Uzbrukuma Krāsa{bond_Close} par {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Katras sezonas beigās jūs saņemsiet Uzbrukuma Krāsas atbilstoši jūsu sasniegtajam rangam."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Katras 3 Uzbrukuma Krāsas uzlabo jūs saņemto balvu kvalitāti gada beigās."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Kur ir mana trofeja?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "Tas ir Labi"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Mans Dārgums!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Sapratu!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Leģendārs!"
+
+msgid "seasonStatistics/button/third"
+msgstr "Es Būsu Atpakaļ"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Sezonas gala reitings"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Pozīcija Līderu Sarakstā: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "UZBRUKUMS. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "Saņemta %(points)s Uzbrukuma Krāsa"
+msgstr[1] "Saņemts %(points)s Uzbrukuma Krāsas"
+msgstr[2] "Saņemts %(points)s Uzbrukuma Krāsas"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "I SEZONA. DEBESZILAIS PŪĶIS"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "2. SEZONA. SĀRTAIS PŪĶIS"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "3. SEZONA. NEFRĪTA PŪĶIS"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Uzvaras: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Kaujas\naizvadītas"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Vidējs: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Bojājumu\nrekords"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Iznīcības Attiecība: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Visvairāk iznīcinātu tanku\nkaujā"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Vidējs: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Prestiža Punktu\nrekords"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "SEZONAS STATISTIKA"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "Super Vadā: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Uzvaru sērija\n(solo/Vads)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Kaujas"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Nav Tanku"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "PRIMĀRIE TANKI"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Uzvaras"
+
+msgid "seasonStatistics/title"
+msgstr "%(name)s SEZONAS STATISTIKA"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Sezona beidzas pēc:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Maču Grafiks"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Šodien"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Rīt"
+
+msgid "selectorTooltip/desc"
+msgstr "Konkurences režīms. 7v7 | X Līmenis"
+
+msgid "selectorTooltip/title"
+msgstr "Uzbrukums"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Sekojiet jaunākajām ziņām spēles portālā, lai paliktu informēti par jaunās Sezonas sākumu."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Režīms īslaicīgi nav pieejams tehnisku iemeslu dēļ."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Šis režīms kļūs pieejams %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Debeszilais Pūķis"
+
+msgid "shortSeasonName/second"
+msgstr "Sārtais pūķis"
+
+msgid "shortSeasonName/third"
+msgstr "Nefrīta pūķis"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Šī sadaļa satur informāciju par labākajiem spēlētājiem pašreizējā Uzbrukuma režīma Sezonā."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Šī sadaļa satur informāciju par Kvalifikāciju, kā arī jūsu rangu, Divīziju un Reitinga Punktiem pēc tās pabeigšanas."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Šī sadaļa satur informāciju par pieejamajām balvām par augstāku rangu sasniegšanu Uzbrukuma režīmā."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Šī sadaļa satur informāciju par lietās Uzbrukuma Veikalā"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Šī sadaļa satur informāciju par iknedēļas misijās Uzbrukuma režīmā."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Šī sadaļa satur detaļas par Ikgadējām Balvām, ko variet saņemt nopelnot Uzbrukuma Krāsas."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Šī sadaļa satur informāciju par jūsu sasniegumiem pašreizējā Uzbrukuma gada katrā Sezonā."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Līderu Saraksts"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Ranga Sistēma"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Rangu Balvas"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Uzbrukuma Veikals"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Iknedēļas Misijas"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Ikgadējās Balvas"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Ikgadējā Statistika"
+
+msgid "sixthRankTooltip/description"
+msgstr "{eeede9e6_Open}Leģendas{eeede9e6_Close} pakāpe tiek piešķirta {eeede9e6_Open}labāko%(topPercentage)%{eeede9e6_Close} spēlētāju Līderu tabulā pēc reitinga punktiem."
+
+msgid "style3dTooltip/954"
+msgstr "Sudraba Dzelonis"
+
+msgid "style3dTooltip/955"
+msgstr "Zelta Nagi"
+
+msgid "style3dTooltip/956"
+msgstr "Čempiona Spārni"
+
+msgid "style3dTooltip/957"
+msgstr "Leģendāra Radība"
+
+msgid "style3dTooltip/description"
+msgstr "Stiprs kā lauva, nikns kā pūķis un nāvējošs kā skorpions, šis zvērs ir radījuma iemiesojums metālā, no kura baidījās kopš seniem laikiem."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Kā Saņemt"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Apbalvots par vismaz 9 Uzbrukuma Krāsu savākšanu Mantikoras Gada Uzbrukuma režīmā."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Apbalvots par vismaz 12 Uzbrukuma Krāsu savākšanu Mantikoras Gada Uzbrukuma režīmā. Aizvieto iepriekšējo stilu."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Apbalvots par vismaz 15 Uzbrukuma Krāsu savākšanu Mantikoras Gada Uzbrukuma režīmā. Aizvieto iepriekšējo stilu."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Apbalvots par vismaz 18 Uzbrukuma Krāsu savākšanu Mantikoras Gada Uzbrukuma režīmā. Aizvieto iepriekšējo stilu."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Atbilst Tankiem"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Jūs saņēmāt jūsu ikdienas balvas par %(rank)s ranga noturēšanu.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Ikdienas Balva"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Pamiers ir spēkā. Uzbrukuma kaujas īslaicīgi nav pieejamas."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Pamiers"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Pamiers ir beidzies. Uzbrukuma kaujas atkal ir pieejamas."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Pamiers"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Apsveicam! Jūs sasniedzāt %(maxRank)s rangu.\nJūs saņēmāt balvas par sekojošajiem rangiem: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Kvalifikācija Pabeigta"
+
+msgid "system_messages/regularReward/body"
+msgstr "Datums: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Kvīts"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Iet uz veikalu"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Jaunas atlaides pieejamas Uzbrukuma Veikalā!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Atlaides palielinātas"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Jaunas lietas tagad pieejamas Uzbrukuma Veikalā!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Jaunas lietas pieejamas"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Maksājuma kļūda. Lūdzu mēģiniet vēlāk."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Datums: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Balvas par iknedēļas misiju izpildi"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Datums: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Balva par Iknedēļas Misiju"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Par Uzbrukumu"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Sezonas Jaunumi"
+
+msgid "tournament/LBFinals"
+msgstr "LB FINĀLI"
+
+msgid "tournament/LBRound1"
+msgstr "LB 1. KĀRTA"
+
+msgid "tournament/LBRound2"
+msgstr "LB 2. KĀRTA"
+
+msgid "tournament/LBSemifinals"
+msgstr "LB PUSFINĀLI"
+
+msgid "tournament/UBFinals"
+msgstr "UB FINĀLI"
+
+msgid "tournament/UBSemifinals"
+msgstr "UB PUSFINĀLI"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "Reitinga Punktus nevar nopelnīt vai zaudēt Turnīrā."
+
+msgid "tournament/bestOf"
+msgstr "LABĀKAIS NO %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "¥%(amount)s"
+
+msgid "tournament/comeBack"
+msgstr "Lūdzu, mēģiniet vēlāk."
+
+msgid "tournament/comingSoon"
+msgstr "DRĪZUMĀ %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "LAIKI VAR ATŠĶIRTIES ATKĀRĪBĀ NO KAUJAS ILGUMA"
+
+msgid "tournament/completed"
+msgstr "IZPILDĪTS"
+
+msgid "tournament/douyin"
+msgstr "Skatīties vietnē Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "Skatieties Huya un nopelniet ekskluzīvus \nHuya Dropus!"
+
+msgid "tournament/drops/twitch"
+msgstr "Skatieties Twitch un nopelniet ekskluzīvus \nTwitch Dropus!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "Un nopelniet ekskluzīvus Huya Dropus!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "Un nopelniet ekskluzīvus Twitch Dropus!"
+
+msgid "tournament/error"
+msgstr "KĻŪDA IELĀDĒJOT DATUS"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "UZVARĒTĀJS"
+
+msgid "tournament/fundDistribution"
+msgstr "BALVU FONDA SADALĪJUMS"
+
+msgid "tournament/grandFinals"
+msgstr "LIELAIS FINĀLS"
+
+msgid "tournament/huya"
+msgstr "Skatīties uz Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Balvu fonds tiek veidots no spēlētāju komplektu pirkumiem. Pēdējo reizi atjaunināts: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "VAIRĀK NAV IEPLĀNOTU SPĒĻU"
+
+msgid "tournament/ols/roundRobin"
+msgstr "%(phase)s. FĀZE %(round)s KĀRTA"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "BALVU FONDS %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "UN IESPĒJA IEGŪT MŪŽĪGU SLAVU"
+
+msgid "tournament/refresh"
+msgstr "Atjaunot"
+
+msgid "tournament/refreshing"
+msgstr "Atsvaidzina..."
+
+msgid "tournament/roundOf"
+msgstr "KĀRTA NO %(number)s"
+
+msgid "tournament/separator"
+msgstr "VAI"
+
+msgid "tournament/tab/overview"
+msgstr "PĀRSKATS"
+
+msgid "tournament/tab/schedule"
+msgstr "GRAFIKS"
+
+msgid "tournament/teamPlaceholder"
+msgstr "TBD"
+
+msgid "tournament/toShop"
+msgstr "Apmeklēt veikalu"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Maiņa"
+
+msgid "tournament/tokenStore/ols"
+msgstr "ULS TOKENI"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Pieejams pēc:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "Par turnīru"
+
+msgid "tournament/twitch"
+msgstr "Skatīties vietnē Twitch"
+
+msgid "tournament/viewFull"
+msgstr "Skatīt visus"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Atbalstiet Uzbrukuma leģendu sēriju, vienlaikus palielinot balvu fondu ar turnīru komplektiem!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Parādiet savu e-sporta garu ar ekskluzīviem tematiskajiem pielāgošanas elementiem un unikāliem tankiem!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "PAPILDINIET BALVU FONDU"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI KOMPLEKTI"
+
+msgid "tournament/vsBestOf"
+msgstr "VS\nLABĀKAIS NO %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "APĻVEIDA SISTĒMA"
+
+msgid "tournament/winner"
+msgstr "Uzvarētājs"
+
+msgid "tournament/youtube"
+msgstr "Skatīties vietnē Youtube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "Labākās Eiropas komandas cīnās par Uzbrukuma Leģendu Sērijas Čempiona titulu! Skatieties aizraujošas 7v7 Uzbrukuma spēles, nopelniet Twitch Drops un atbalstiet savas iecienītās komandas, palielinot balvu fondu ar ekskluzīviem pielāgošanas komplektiem."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Episkā sadursme sāksies World of Tanks čempionātā Sužou, Ķīnā, kur sīvākās komandas no visas pasaules sacentīsies pēc “Uzbrukuma” režīma noteikumiem, cīnoties par prestižo pasaules čempiona titulu. Piedzīvo satraukumu, kad kaujas laukā dzimst leģendas!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "ULS 6. Sezona"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Tiešraides būs pieejamas vēl %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Vairāk cīņu pēc %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Reitinga Punktus nevar nopelnīt Uzbrukuma Treniņā."
+
+msgid "unit/message/modeOffline"
+msgstr "Nevar pievienoties datu bāzei: Datu bāzes kļūda."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Pārsniegti ranga starpības ierobežojumi"
+
+msgid "voiceChat/active"
+msgstr "Pamest balss čatu"
+
+msgid "voiceChat/inactive"
+msgstr "Pievienoties balss čatam"
+
+msgid "waitingSpinner/message"
+msgstr "Ielādē saturu..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Uzbrukuma Misijas izpildīti"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Labi padarīts! Visi iknedēļas misijas izpildīti. Neaizmirsti saņemt atlīdzību. Uz tikšanos nākamajā sezonā!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Par {eeede9e5_Open}%(questsList)s{eeede9e5_Close} un {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} misiju izpildi saņemsi papildu atlīdzību."
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Uzbrukuma Iknedēļas Misija"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Pabeigts: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s jauna misija pēc: "
+msgstr[1] "%(value)s jaunas misijas pēc:"
+msgstr[2] "%(value)s jaunas misijas pēc:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Atlīdzība:"
+msgstr[1] "Balvas:"
+msgstr[2] "Balvas:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s JAUNA MISIJA PĒC %(countdown)s"
+msgstr[1] "%(value)s JAUNAS MISIJAS PĒC %(countdown)s"
+msgstr[2] "%(value)s JAUNAS MISIJAS PĒC %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "JAUNAS MISIJAS NĀKAMAJĀ SEZONĀ!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Misijas pabeigtas: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Jūs saņemsiet %(value)s jaunu misiju katru nedēļu. Katra izpildīta misija skaitās pretī jūsu balvai!"
+msgstr[1] "Jūs saņemsiet %(value)s jaunas misijas katru nedēļu. Katra izpildīta misija skaitās pretī jūsu balvai!"
+msgstr[2] "Jūs saņemsiet %(value)s jaunas misijas katru nedēļu. Katra izpildīta misija skaitās pretī jūsu balvai!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Notiek"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Izpildīta"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Nav pieejama"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Nav pieejama izpildei: Režīms nav aktīvs."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Lai atslēgtu, izpētiet un nopērciet X Līmeņa tanku."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Izpildiet iepriekšējo misiju, lai atslēgtu šo."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Misija Nav Pieejama"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Saņemiet jūsu balvu!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Pabeigts: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Misija %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s jauna misija pēc: "
+msgstr[1] "%(value)s jaunas misijas pēc:"
+msgstr[2] "%(value)s jaunas misijas pēc:"
+
+msgid "whatsNewButtonLabel"
+msgstr "SEZONAS ATJAUNINĀJUMI"
+
+msgid "whatsNewView/banner/description"
+msgstr "Šī sezona ir tava pēdējā iespēja iegūt vērtīgas balvas, tostarp ekskluzīvo Ashbringer X līmeņa smago tanku ar visiem unikālajiem 3D stiliem, ko esi tam nopelnījis, un bezbailīgu apkalpi ar Kaujas Brāļi kā nulles priekšrocību, kā arī uzlabotu un eksperimentālo aprīkojumu izvēlei, iespaidīgu 2D stilu un vēl. Nepalaid garām—tava uzvara tevi gaida kaujaslaukā!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Izmanto Pūķa gada pēdējos mirkļus!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "NEFRĪTA PŪĶA SEZONA"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "UZBRUKUMS. KAS JAUNS?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Skaidrs!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Uzlabotais pēc kaujas rezultātu ekrāns ar jauno Atjauninājumu 2.0 dizainu tagad sniegs tev papildu ar režīmu saistītu informāciju pēc katras kaujas."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Detalizēti kaujas rezultāti"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Nebaidies, ja tavs iecienītais tanks tika izslēgts. Noma tagad nāk ar iepriekš konfigurētu apkalpi, aprīkojumu, lādiņiem un patēriņa priekšmetiem."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Kaujai gatavu tanku noma %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Šajā sezonā katra komanda var pilnībā aizliegt tanku no kaujas. Saskaņojiet balsis ar sabiedrotajiem, lai izslēgtu savu visvairāk baidīto tehniku vai sagatavotu negaidītu sastāvu ienaidniekiem."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Tanku aizliegumi %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Kartes"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Jauni Tanki Pieejami Uzbrukumā"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Nomas Tanki"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Nesen izlaistais Ares 90 X līmeņa amerikāņu vidējais tanks tagad ir pieejams režīmā ar pielāgotu Lomas prasmi."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Lomas prasmes atjauninājums %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "114 SP2 tagad ir pieejams iegādei Sudraba rangā Uzbrukuma veikalā."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Veikala atjauninājumi %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "NEIEKĻAUTS"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "PĀRSTRĀDĒ"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Uzmanību"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Mainīts"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Eksperimentāls"
+
+msgid "whatsNewView/tag/new"
+msgstr "Jauna"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Atgriezts"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Atjaunots"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Sezonāls Atjauninājums"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Skatīt Video"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Uzvaru procents (diena): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Sakāves: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Neizšķirti: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Uzvaru procents (sezona): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Uzvaru attiecība pret kauju skaitu.\nKaujas pēc rezultāta:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Uzvaras: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Balvas tiek piegādātas trešās sezonas beigās."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Balvas tiks piegādātas drīzumā. Lūdzu uzgaidiet."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Ikgadējā Balva saņemta. Redzēsimies nākamgad!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Jums ir iekārtas no kurām izvēlēties"
+
+msgid "yearlyRewards/claim"
+msgstr "Saņemt"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Saņemt Balvu"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Jūs saņēmāt 1%(seasonPointIcon)s par katru rangu Sezonas beigās."
+
+msgid "yearlyRewards/description/current"
+msgstr "Jūs saņemsiet 1%(seasonPointIcon)s par katru rangu Sezonas beigās."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nAr unikāliem 3D stiliem"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "UZ IKGADĒJĀM BALVĀM"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Skatīt 2D stilu"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Skatīt 3D stilu"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Rangs sasniegts: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Pašreizējais rangs: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Četri Unikāli Apkalpes Locekļi"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Balva saņemta"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Balva garantēta"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Nopelniet kopumā %(count)s Krāsas, lai saņemtu stadijas balvas"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Potenciāla balva"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Jūs garantēti saņemsiet šo balvu gada beigās."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Nopelniet nepieciešamo Uzbrukuma Krāsu skaitu, lai saņemtu jūsu balvu gada beigās."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Jūs saņemsiet šo balvu gada beigās, ja saglabāsiet jūsu pašreizējo rangu vai palielināsiet to pirms Sezonas beigām."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Aktīva stadija"
+
+msgid "yearlyStatistics/battles"
+msgstr "Kaujas (solo/Vads)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Aprēķina Sezonas statistiku..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sUz Sezonas Statistiku"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Nav ranga"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "%(rank)s Rangs"
+
+msgid "yearlyStatistics/rating"
+msgstr "Reitinga Punkti"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Rudens 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Ziema 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Pavasaris 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "I sezona. Debeszilais pūķis"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "II sezona. Sārtais pūķis"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "II sezona. Nefrīta pūķis"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Pašreizējais"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Pabeigts"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Kaujas (Super Vads)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Uzvaru Procents"

@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Policijski sat {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Akcija će biti dostupna od"
+
+msgid "bannerTooltip/description"
+msgstr "Masivne bitke 30 na 30 u vozilima razine {{vehicleTier}} na mapama Normandija, Kraftwerk i Fatamorgana. Napadači moraju uništiti tri od pet topova velikog kalibra dok ih branitelji moraju štititi."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Pokažite svoje junaštvo u žestokim bitkama za slavu, ostvarite vrijedne nagrade i penjite se kroz rangove."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Akcija je završila i imate neostvarene nagrade za završene razine Bojišnice."
+
+msgid "bannerTooltip/header"
+msgstr "Bojišnica"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Bojišnica | Razina {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} - režim igre. Kliknite za istraživanje"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Ovaj režim zahtjeva visoke performanse računala. Imat ćete poteškoća s učitavanjem mape, grafikom i kretanjem vozila. U slučaju nedovoljnih performansi, pokušajte s nižom kvalitetom grafike u postavkama."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Moguće umanjene performanse"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Odaberite nagrade za završene razine ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Nedovoljno sredstava za kupnju."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Promjene će se primjeniti na sve lovce na tenkove."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Promjene će se primjeniti na sve samohodne topove."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Promjene će se primjeniti na sve teške tenkove."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Promjene će se primjeniti na sve lake tenkove."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Promjene će se primjeniti na sve srednje tenkove."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Nekompatibilno vozilo"
+
+msgid "battleAbilities/points/body"
+msgstr "Skupi traženi broj bodova i aktiviraj borbene pričuve Bojišnice."
+
+msgid "battleAbilities/points/header"
+msgstr "Bodovi borbene pričuve"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Pogledaj jurišne pričuve"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Jurišne pričuve"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Pogledaj pričuve izviđanja"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Pričuve izviđanja"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Pogledaj taktičke pričuve"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktičke pričuve"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Razina borbene pričuve se povećava nakon dosizanja rangova satnika i bojnika. Najveću razinu određuje scenarij bitke."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Dodatne informacije"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Jurišne pričuve"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Pričuve izviđanja"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktičke pričuve"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Trajne karakteristike:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Borbena pričuva smještena na ovo mjesto povećava vjerojatnost njenog nuđenja u scenariju {{@ colorLegacy 'FFE4C0'}}Zaplet sudbine{{/}} za {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Razina pričuve:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Nije kupljeno!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Akcija je završila."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Akcija će uskoro početi!"
+
+msgid "infoButton/body"
+msgstr "Kliknite za dodatne informacije."
+
+msgid "infoButton/header"
+msgstr "O akciji"
+
+msgid "levelReserves/desc"
+msgstr "Razine borbene pričuve se povećavaju po dosizanju novih rangova:"
+
+msgid "levelReserves/info"
+msgstr "U scenariju {{@ colorLegacy 'FFE4C0'}}Zaplet sudbine{{/}}, kupnja borbene pričuve će povećati njenu razinu za jedan i pružiti priliku povećanja na razinu {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Povećava se nakon dosizanja slijedećeg ranga: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Dostupno sa slijedećim rangom: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Razina- {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Za{{@ colorLegacy 'FFE4C0'}}kupljene borbene pričuve{{/}} u scenariju {{@ colorLegacy 'FFE4C0'}}Zaplet sudbine{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Razine borbene pričuve"
+
+msgid "playlist/warning/body"
+msgstr "Ova igraća lista sadrži vozila koja nisu prikladna za ovaj režim igre ili nisu u vašoj Garaži."
+
+msgid "playlist/warning/header"
+msgstr "Vozila nedostupna (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Poboljšane karakteristike borbene pričuve"
+
+msgid "randomReserve/disable"
+msgstr "Mjesto borbenih pričuve je iskorišteno."
+
+msgid "randomReserve/notPurchased"
+msgstr "Borbena pričuva nije kupljena"
+
+msgid "randomReserve/purchased"
+msgstr "Borbena pričuva kupljena"
+
+msgid "skillOrderTooltip/body"
+msgstr "Svaki tip vozila ima svoj redoslijed otključavanja pričuva:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Redosljed otključavanja borbene pričuve"
+
+msgid "skillOrderTooltip/info"
+msgstr "U scenariju {{@ colorLegacy 'whiteSpanish'}}Zaplet sudbine{{/}}, redosljed u kojem se otključavaju borbene pričuve ne ovisi o tipu vozila."

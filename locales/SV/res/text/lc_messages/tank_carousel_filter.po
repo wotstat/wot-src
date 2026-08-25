@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT-översättare <noreply@wargaming.net>\nLanguage-Team: WoT-teamet <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "checkbox/inventory"
+msgstr "Tillgängliga i garaget"
+
+msgid "infotip/counter"
+msgstr "Antal lämpliga vagnar: %(count)d av %(total)d"
+
+msgid "infotip/event"
+msgstr "Specialvagnar visas inte"
+
+msgid "infotip/header/description"
+msgstr "Visar vagnar som uppfyller valda kriterier."
+
+msgid "infotip/header/title"
+msgstr "Vagnsfilter"
+
+msgid "infotip/levels"
+msgstr "Klasser:"
+
+msgid "infotip/nations"
+msgstr "Nationer:"
+
+msgid "infotip/only"
+msgstr "Endast följande vagnar:"
+
+msgid "infotip/only/elite"
+msgstr "Elit"
+
+msgid "infotip/only/favorite"
+msgstr "Primära"
+
+msgid "infotip/only/premium"
+msgstr "Premium"
+
+msgid "infotip/rent"
+msgstr "Hyrvagnar visas ej"
+
+msgid "infotip/searchNameVehicle"
+msgstr "Sök efter namn:"
+
+msgid "infotip/vehicleTypes"
+msgstr "Typer:"
+
+msgid "popover/checkbox/battleRoyale"
+msgstr "Göm icke-kompatibla vagnar"
+
+msgid "popover/checkbox/elite"
+msgstr "Elit"
+
+msgid "popover/checkbox/event"
+msgstr "Special"
+
+msgid "popover/checkbox/favorite"
+msgstr "Primära"
+
+msgid "popover/checkbox/premium"
+msgstr "Premium"
+
+msgid "popover/checkbox/rented"
+msgstr "Hyrvagn"
+
+msgid "popover/checkbox/unlock_available"
+msgstr "Endast tillgänglig för forskning"
+
+msgid "popover/counter"
+msgstr "Visade vagnar: %(count)s"
+
+msgid "popover/label/customization"
+msgstr "Utseenden"
+
+msgid "popover/label/hidden"
+msgstr "Fler"
+
+msgid "popover/label/levels"
+msgstr "Klass"
+
+msgid "popover/label/nations"
+msgstr "Nation"
+
+msgid "popover/label/progressions"
+msgstr "Stridspass"
+
+msgid "popover/label/roles/AT-SPG"
+msgstr "Roller för pansarvärnskanonvagnar %(levels)s"
+
+msgid "popover/label/roles/heavyTank"
+msgstr "Roller för tunga stridsvagnar %(levels)s"
+
+msgid "popover/label/roles/lightTank"
+msgstr "Roller för lätta stridsvagnar %(levels)s"
+
+msgid "popover/label/roles/mediumTank"
+msgstr "Roller för medeltunga stridsvagnar %(levels)s"
+
+msgid "popover/label/searchNameVehicle"
+msgstr "Sök efter namn"
+
+msgid "popover/label/specials"
+msgstr "Special"
+
+msgid "popover/label/vehicleRole"
+msgstr "Roll"
+
+msgid "popover/label/vehicleTypes"
+msgstr "Typ"
+
+msgid "popover/title"
+msgstr "Filtrera efter parameter"
+
+msgid "tooltip/battleRoyale/body"
+msgstr "Visa/göm vagnar kompatibla med Pansarjakt."
+
+msgid "tooltip/battleRoyale/header"
+msgstr "Göm icke-kompatibla vagnar"
+
+msgid "tooltip/bonus/body"
+msgstr "Visa/göm vagnar med en aktiv erfarenhetsfaktor."
+
+msgid "tooltip/bonus/header"
+msgstr "Bonuserfarenhet"
+
+msgid "tooltip/clanRented/body"
+msgstr "Visa/göm hyrvagnar för Världskartan och Befästningsstrider."
+
+msgid "tooltip/clanRented/header"
+msgstr "Hyrvagnar för klanstrider"
+
+msgid "tooltip/crystals/body"
+msgstr "Visa/göm vagnar som kan erhålla obligationer."
+
+msgid "tooltip/crystals/header"
+msgstr "Vagnar som kan erhålla obligationer"
+
+msgid "tooltip/customization/canInstallAttachments/body"
+msgstr "Visa/göm vagnar tillgängliga för 3D-tillbehör."
+
+msgid "tooltip/customization/own3DStyle/body"
+msgstr "Visa/göm vagnar du har 3D-stilar för."
+
+msgid "tooltip/elite/body"
+msgstr "Visa/göm vagnar ges till vagnar med alla tillgängliga moduler, uppgraderingar och tekniska grenar framforskade, inklusive vagnar i nästa klass."
+
+msgid "tooltip/elite/header"
+msgstr "Elitvagnar"
+
+msgid "tooltip/event/body"
+msgstr "Göm/Visa vagnar för specialevenemang."
+
+msgid "tooltip/event/header"
+msgstr "Specialvagnar"
+
+msgid "tooltip/favorite/body"
+msgstr "Visa/göm endast primära vagnar."
+
+msgid "tooltip/favorite/header"
+msgstr "Primära vagnar"
+
+msgid "tooltip/gameMode/body"
+msgstr "Klicka rutan för att visa lämpliga vagnar för stridsläget %(battleType)s."
+
+msgid "tooltip/gameMode/header"
+msgstr "Härjning"
+
+msgid "tooltip/igr/body"
+msgstr "Visa/göm IGR-vagnar."
+
+msgid "tooltip/igr/header"
+msgstr "IGR-Vagnar"
+
+msgid "tooltip/inventory/body"
+msgstr "?empty?"
+
+msgid "tooltip/inventory/header"
+msgstr "?empty?"
+
+msgid "tooltip/isCommonProgression/body"
+msgstr "Visa vagnar som kan tjäna framstegspoäng eller slutföra uppdrag som ger dig framstegspoäng."
+
+msgid "tooltip/isCommonProgression/header"
+msgstr "Vagnar för Stridspass"
+
+msgid "tooltip/isCompetitiveProgression/body"
+msgstr "tooltip/isCompetitiveProgression/body"
+
+msgid "tooltip/isCompetitiveProgression/header"
+msgstr "tooltip/isCompetitiveProgression/header"
+
+msgid "tooltip/nations/body"
+msgstr "Visa/göm vagnar från denna nation."
+
+msgid "tooltip/params/body"
+msgstr "Ställ in visning av vagnar efter typ, nation, klass och andra parametrar."
+
+msgid "tooltip/params/header"
+msgstr "Filtrera efter parameter"
+
+msgid "tooltip/premium/body"
+msgstr "Visa/göm endast Premium- och belöningsvagnar."
+
+msgid "tooltip/premium/header"
+msgstr "Premiumvagnar"
+
+msgid "tooltip/ranked/body"
+msgstr "Göm/visa vagnar tillgängliga för rankade strider."
+
+msgid "tooltip/ranked/header"
+msgstr "Vagnar för rankade strider"
+
+msgid "tooltip/rented/body"
+msgstr "Göm/Visa hyrvagnar."
+
+msgid "tooltip/rented/header"
+msgstr "Hyrvagnar"
+
+msgid "tooltip/role/body"
+msgstr "Visa/göm vagnar med denna roll."
+
+msgid "tooltip/rtsBattles/body"
+msgstr "Göm/visa lämpliga vagnar för Strategins konst."
+
+msgid "tooltip/rtsBattles/header"
+msgstr "Göm icke-kompatibla vagnar"
+
+msgid "tooltip/searchInput/body"
+msgstr "Sökfilter får innehålla upp till %(count)d tecken."
+
+msgid "tooltip/searchInput/header"
+msgstr "Sök efter namn"
+
+msgid "tooltip/toggleSwitchCarousel/body"
+msgstr "Växla mellan att visa vagnar i en eller två rader."
+
+msgid "tooltip/toggleSwitchCarousel/header"
+msgstr "Vagnspanel"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Visa/göm vagnar av denna typ."

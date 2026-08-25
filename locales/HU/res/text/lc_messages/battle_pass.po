@@ -1,0 +1,1652 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awardsWidget/description/award"
+msgstr "Kattints a jutalmad kiválasztásához és begyűjtéséhez."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "A jutalmak átmenetileg nem elérhetőek. Elnézést a kellemetlenségekért."
+
+msgid "awardsWidget/description/coin"
+msgstr "Kattints a Battle Pass tokenekkel megszerezhető értékes tárgyak megtekintéséhez."
+
+msgid "awardsWidget/description/collection"
+msgstr "Kattints a Battle Pass-gyűjtemény megtekintéséhez."
+
+msgid "awardsWidget/description/collectionCompleted"
+msgstr "Gratulálunk! Összegyűjtötted az összes Battle Pass-gyűjteményelemet."
+
+msgid "awardsWidget/description/commander"
+msgstr "Kattints ide az esemény összes legénységének megtekintéséhez."
+
+msgid "awardsWidget/description/taler"
+msgstr "Kattints a korábbi Battle Pass-szezonok zsetonokért vagy aranyért megvásárolható tárgyainak megtekintéséhez."
+
+msgid "awardsWidget/description/ticket"
+msgstr "Kattints a sorsjegyeid lekaparásához és a jutalmak megszerzéséhez."
+
+msgid "awardsWidget/title/awardMultiple"
+msgstr "JUTALMAK\nIGÉNYLÉSE"
+
+msgid "awardsWidget/title/awardSingle"
+msgstr "JUTALOM\nIGÉNYLÉSE"
+
+msgid "awardsWidget/title/coin"
+msgstr "TÁRGYAK TOKENEKÉRT"
+
+msgid "awardsWidget/title/collection"
+msgstr "GYŰJTEMÉNY"
+
+msgid "awardsWidget/title/commander"
+msgstr "HARCKOCSIZÓK"
+
+msgid "awardsWidget/title/taler"
+msgstr "BATTLE PASS-SZÉF"
+
+msgid "awardsWidget/title/ticket"
+msgstr "SORSJEGYEK\nLEKAPARÁSA"
+
+msgid "battleBonusX5"
+msgstr "Küldetés 5× tapasztalatért"
+
+msgid "battlePassAwardsView/additionalRewards/bpBuyLevelAwardsText"
+msgstr "Megnövelt jutalmat kapsz a fő előrehaladási szakasz teljesítéséért. Folytasd a pontgyűjtést, hogy még több jutalmat szerezz."
+
+msgid "battlePassAwardsView/additionalRewards/bpRemainLevelsAwardsText"
+msgstr "Még %(remainingAwardsCount)s"
+
+msgid "battlePassAwardsView/additionalRewards/button"
+msgstr "Értettem!"
+
+msgid "battlePassAwardsView/additionalRewards/seeMoreButtonText"
+msgstr "A jutalmak megtekintése"
+
+msgid "battlePassAwardsView/additionalRewards/subText"
+msgstr "Emellett még kaptál:"
+
+msgid "battlePassAwardsView/footer/acceptButton"
+msgstr "Értettem!"
+
+msgid "battlePassAwardsView/footer/allChaptersText"
+msgstr "Feloldottad az Improved Pass összes jutalmát három fejezetben."
+
+msgid "battlePassAwardsView/footer/boughtChapterText"
+msgstr "A megvásárolt szakaszok összes jutalma elérhető számodra."
+
+msgid "battlePassAwardsView/footer/bpButtonTitle"
+msgstr "Improved Pass vásárlása"
+
+msgid "battlePassAwardsView/footer/bpDescriptionGotStyle"
+msgstr "Minden fejezet elején kapsz egy stílust, amelyet fejleszthetsz, ahogy haladsz előre a fejezetben. A be nem fejezett stílusokat az aktuális Battle Pass-szezon végét követően is fejlesztheted."
+
+msgid "battlePassAwardsView/footer/bpInProgressTitle"
+msgstr "Vásárold meg az Improved Pass-t a jelenlegi fejezethez, hogy megnövelt jutalmakat szerezz a már teljesített szakaszokért. A jövőben teljesített szakaszokért is megkapod a Megnövelt jutalmakat."
+
+msgid "battlePassAwardsView/footer/bpLastStagesTitle"
+msgstr "Vásárold meg az Improved Pass-t a jelenlegi fejezethez, hogy azonnali megnövelt jutalmakat szerezz a már teljesített szakaszokért."
+
+msgid "battlePassAwardsView/footer/bpMoreTitle"
+msgstr "MÉG VAN ESÉLY!"
+
+msgid "battlePassAwardsView/footer/bpTitle"
+msgstr "IMPROVED PASS"
+
+msgid "battlePassAwardsView/footer/getRewardsButton"
+msgstr "Jutalmak igénylése"
+
+msgid "battlePassAwardsView/footer/postProgressionButton"
+msgstr "Az elit körhöz"
+
+msgid "battlePassAwardsView/footer/postProgressionText"
+msgstr "Mostantól hozzáférsz az elit körhöz"
+
+msgid "battlePassAwardsView/header/bpAllChapters"
+msgstr "Minden fejezet"
+
+msgid "battlePassAwardsView/header/bpBoughtText"
+msgstr "IMPROVED PASS MEGVÁSÁROLVA!"
+
+msgid "battlePassAwardsView/header/bpFinalLevelText"
+msgstr "VÉGSŐ SZAKASZ TELJESÍTVE!"
+
+msgid "battlePassAwardsView/header/bpLevelReceivedText"
+msgstr "%(currentLevel)s. SZAKASZ TELJESÍTVE!"
+
+msgid "battlePassAwardsView/header/bpLevelsText"
+msgstr "MEGSZERZETT JUTALMAK"
+
+msgid "battlePassAwardsView/header/bpRewardText"
+msgstr "JUTALMAT KAPTÁL"
+
+msgid "battlePassAwardsView/header/bpTitle"
+msgstr "BATTLE PASS: %(chapter)s FEJEZET"
+
+msgid "battlePassAwardsView/header/bpTitleWithoutChapter"
+msgstr "BATTLE PASS"
+
+msgid "battlePassAwardsView/header/styleReceivedText"
+msgstr "STÍLUS MEGSZEREZVE"
+
+msgid "battlePassAwardsView/header/styleUpgradedText"
+msgstr "STÍLUS FEJLESZTVE"
+
+msgid "battlePassAwardsView/mainReward/battlePassNewDeviceGiftToken"
+msgstr "Normál felszerelés, amiből választani lehet"
+
+msgid "battlePassAwardsView/mainReward/battlePassTrophyGiftToken"
+msgstr "Jutalom felszerelés, amiből választani lehet"
+
+msgid "battlePassAwardsView/mainReward/bpBuyAwardsCaption"
+msgstr "Feloldottad az Improved Pass összes jutalmát a(z) %(chapter)s fejezetben."
+
+msgid "battlePassAwardsView/mainReward/bpBuyWithLevels"
+msgstr "Megkaptad a(z) %(chapter)s fejezet összes jutalmát."
+
+msgid "battlePassAwardsView/mainReward/commander"
+msgstr "Harckocsizó: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonText"
+msgstr "Tovább a választáshoz"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonTitle"
+msgstr "A Homefront utánpótlás szekcióban, a depóban"
+
+msgid "battlePassAwardsView/mainReward/reward"
+msgstr "Medál: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/style"
+msgstr "3D stílus: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel1"
+msgstr "%(styleName)s stílus első szintje"
+
+msgid "battlePassAwardsView/mainReward/styleLevel2"
+msgstr "%(styleName)s stílus új szintje"
+
+msgid "battlePassAwardsView/mainReward/styleLevel3"
+msgstr "%(styleName)s stílus maximális szintje"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonText"
+msgstr "Tovább a választáshoz"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonTitle"
+msgstr "A Homefront utánpótlás szekcióban, a depóban"
+
+msgid "battlePassBuyLevels/chapter"
+msgstr "%(name)s fejezet"
+
+msgid "battlePassBuyLevels/levelsSelected"
+msgid_plural "plural/battlePassBuyLevels/levelsSelected"
+msgstr[0] "%(count)s szakasz"
+msgstr[1] "%(count)s szakasz"
+msgstr[2] "%(count)s szakasz"
+
+msgid "battlePassBuyView/btnCancel"
+msgstr "Mégse"
+
+msgid "battlePassBuyView/btnRewards"
+msgstr "Mind a(z)\n%(count)s jutalom megtekintése"
+
+msgid "battlePassBuyView/confirm/btnBuy"
+msgstr "Vásárlás"
+
+msgid "battlePassBuyView/confirm/checkbox/stage"
+msgid_plural "plural/battlePassBuyView/confirm/checkbox/stage"
+msgstr[0] "%(stagesNumber)s hátralévő szakasszal"
+msgstr[1] "%(stagesNumber)s hátralévő szakasszal"
+msgstr[2] "%(stagesNumber)s hátralévő szakasszal"
+
+msgid "battlePassBuyView/confirm/description"
+msgstr "Az Improved Pass a következőket oldja fel:"
+
+msgid "battlePassBuyView/confirm/descriptionCheckboxChecked"
+msgstr "A fejezet összes jutalmát azonnal megkapod:"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/buy"
+msgstr "Ajánlatok megtekintése"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/description"
+msgstr "Az ajánlat csak akkor érvényes,\nha a szezon egyik fejezete sem Improved"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/headline"
+msgstr "%(count)s az 1-ben"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/packsAmount"
+msgstr "%(amount)sx"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/title"
+msgstr "Improved Pass a\nszezon összes fejezetéhez"
+
+msgid "battlePassBuyView/confirm/starterPack/description"
+msgstr "Bónusz %(purchaseText)s"
+
+msgid "battlePassBuyView/confirm/starterPack/purchaseText"
+msgstr "vásárláskor:"
+
+msgid "battlePassBuyView/descr"
+msgstr "Az előrehaladási szakasz megvásárlásával azonnal feloldod az adott szakaszban szereplő összes jutalmat, és megkapod azokat."
+
+msgid "battlePassBuyView/reward/descriptionFutureRewards"
+msgstr "Ezeket a jutalmakat kapod meg a következő szakaszok teljesítésekor."
+
+msgid "battlePassBuyView/reward/descriptionNowRewards"
+msgstr "A következő jutalmakat kapod ezekért a szakaszokért: %(steps)s"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
+msgstr "A következő jutalmakat azonnal megkapod"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
+msgstr "A következő jutalmakat kapod a(z) %(steps)s szakaszért"
+
+msgid "battlePassBuyView/reward/titleFutureRewards"
+msgstr "FEL LESZ OLDVA"
+
+msgid "battlePassBuyView/reward/titleNowRewards"
+msgstr "AZONNAL MEG FOGOD KAPNI"
+
+msgid "battlePassStatus/activateChapter"
+msgstr "Aktiváld a Battle Pass-fejezetet"
+
+msgid "battlePassStatus/improve"
+msgstr "Még megvásárolhatod az Improved Passt"
+
+msgid "battlePassVehicleAwardView/button"
+msgstr "Értettem!"
+
+msgid "battlePassVehicleAwardView/content/description"
+msgstr "PONT HATÁR ELÉRVE"
+
+msgid "battlePassVehicleAwardView/content/postTitle"
+msgstr "BATTLE PASS ELIT ELŐREHALADÁS"
+
+msgid "battlePassVehicleAwardView/content/subTitle"
+msgstr "Jutalmakat kaptál:"
+
+msgid "battlePassVehicleAwardView/content/title"
+msgstr "BATTLE PASS"
+
+msgid "battlepassTab"
+msgstr "Battle Pass"
+
+msgid "chapter/fullName/10021"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/1114"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/200"
+msgstr "Elit kör"
+
+msgid "chapter/fullName/201"
+msgstr "Elfelejtett idő"
+
+msgid "chapter/fullName/202"
+msgstr "C'est Notre Destin"
+
+msgid "chapter/fullName/203"
+msgstr "Sivatagi parancsnokság"
+
+msgid "chapter/fullName/205"
+msgstr "Far Cry"
+
+msgid "chapter/fullNameUppercased/10021"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/1114"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/201"
+msgstr "ELFELEJTETT IDŐ"
+
+msgid "chapter/fullNameUppercased/202"
+msgstr "C'EST NOTRE DESTIN"
+
+msgid "chapter/fullNameUppercased/203"
+msgstr "SIVATAGI PARANCSNOKSÁG"
+
+msgid "chapter/fullNameUppercased/205"
+msgstr "FAR CRY"
+
+msgid "chapter/title"
+msgstr "%(chapter)s. FEJEZET"
+
+msgid "chapterChoice/about"
+msgstr "A BATTLE PASSRÓL"
+
+msgid "chapterChoice/activeChapter/postprogression/text"
+msgstr "Aktív"
+
+msgid "chapterChoice/activeChapter/text"
+msgstr "Aktív fejezet"
+
+msgid "chapterChoice/chapterCompleted"
+msgstr "Fejezet teljesítve"
+
+msgid "chapterChoice/chapterInfo/buttons/toChapter"
+msgstr "Tovább a fejezethez"
+
+msgid "chapterChoice/chapterInfo/buttons/toCrewMembers"
+msgstr "Legénység megtekintése"
+
+msgid "chapterChoice/chapterInfo/buttons/toPostProgression"
+msgstr "Az előrehaladáshoz"
+
+msgid "chapterChoice/chapterInfo/deadline/date"
+msgstr "Eddig fog tartani: %(endDate)s"
+
+msgid "chapterChoice/chapterInfo/deadline/time"
+msgstr "Ekkor ér véget: %(endTime)s"
+
+msgid "chapterChoice/confirmation/button/cancel"
+msgstr "Mégse"
+
+msgid "chapterChoice/confirmation/button/submit"
+msgstr "Aktivál"
+
+msgid "chapterChoice/confirmation/button/switch"
+msgstr "Váltás"
+
+msgid "chapterChoice/confirmation/description/select"
+msgstr "Bármikor átválthatsz másik fejezetekre."
+
+msgid "chapterChoice/confirmation/description/switch"
+msgstr "Mivel már aktiváltad a(z) „%(chName)s“ fejezetet, a fejezetváltás miatt azt szüneteltetni fogjuk."
+
+msgid "chapterChoice/confirmation/extraChapterDescription/highlightText"
+msgstr "nem lesz elérhető"
+
+msgid "chapterChoice/confirmation/extraChapterDescription/text"
+msgstr "%(icon)Miután aktiváltad a különleges fejezetet, az elit kör %(highlightText), amíg a fejezet véget nem ér, vagy nem teljesíted az előrehaladását."
+
+msgid "chapterChoice/confirmation/title/select"
+msgstr "Aktiválod a(z) \"%(chName)s\" fejezetet?"
+
+msgid "chapterChoice/confirmation/title/switch"
+msgstr "Átváltasz a(z) \"%(chName)s\" fejezetre?"
+
+msgid "chapterChoice/crewMember/reward"
+msgstr "Harckocsizók"
+
+msgid "chapterChoice/crewMember/reward/subTitle"
+msgstr "és benne további harckocsizók"
+
+msgid "chapterChoice/eliteCircuit/reward/subTitle"
+msgstr "a ciklikus előrehaladás során"
+
+msgid "chapterChoice/eliteCircuit/reward/title"
+msgstr "Kötvények, zsetonok és kuponok"
+
+msgid "chapterChoice/extraChapter/reward"
+msgstr "Prémium jármű"
+
+msgid "chapterChoice/freePoints/text"
+msgstr "Fel nem használt pontok"
+
+msgid "chapterChoice/freePoints/tooltip/body"
+msgstr "A pontok a Battle Passban előrehaladva gyűlnek, még akkor is, ha nincs aktiválva egyetlen fejezet sem. Amint aktiválsz egy fejezetet, a pontok jóváíródnak az előrehaladásban."
+
+msgid "chapterChoice/freePoints/tooltip/header"
+msgstr "El nem költött Battle Pass-pontok"
+
+msgid "chapterChoice/postprogression/locked"
+msgstr "Teljesítsd a szezon mind a(z) {{count}}\nfejezetét, hogy feloldd"
+
+msgid "chapterChoice/postprogression/name"
+msgstr "Elit kör"
+
+msgid "chapterChoice/postprogression/unlocked/cycle"
+msgstr "%(cycle)s ciklus"
+
+msgid "chapterChoice/stages/additional"
+msgstr " / %(level)s szakasz"
+
+msgid "chapterChoice/stages/complete/improved"
+msgstr "Teljesített és megnövelt"
+
+msgid "chapterChoice/stages/complete/unimproved"
+msgstr "%(count)s további jutalommal"
+
+msgid "chapterChoice/stylePreview/reward/subTitle"
+msgstr "%(vehicleName)s járműhöz"
+
+msgid "chapterChoice/stylePreview/reward/title"
+msgstr "%(styleName)s 3D-stílus"
+
+msgid "chapterChoice/vehicle/reward/subTitle"
+msgstr "%(vehicleName)s"
+
+msgid "chapterChoice/vehicle/reward/title"
+msgstr "Prémium jármű"
+
+msgid "chapterChoice/vehicleStyle/reward/subTitle"
+msgstr "és %(styleName)s 3D-stílus"
+
+msgid "chapterChoice/vehicleStyle/reward/title"
+msgstr "%(vehicleName)s"
+
+msgid "chapterStatus/notSelected"
+msgstr "Nincs kiválasztva fejezet"
+
+msgid "chosenBonuses/bonus/battle_booster_gift"
+msgstr "Választható direktívák"
+
+msgid "chosenBonuses/bonus/blueprint_gift"
+msgstr "Választható nemzeti tervrajz töredékek"
+
+msgid "chosenBonuses/bonus/brochure_gift"
+msgstr "Választható képzési füzetek"
+
+msgid "chosenBonuses/bonus/crewbook_gift"
+msgstr "Választható képzési kézikönyvek"
+
+msgid "chosenBonuses/bonus/guide_gift"
+msgstr "Választható képzési útmutatók"
+
+msgid "chosenBonuses/bonus/modernized_device_gift"
+msgstr "Kísérleti felszerelések, amelyek közül választani lehet"
+
+msgid "chosenBonuses/bonus/new_device_gift"
+msgstr "Normál felszerelés, amiből választani lehet"
+
+msgid "chosenBonuses/bonus/trophy_gift"
+msgstr "Jutalom felszerelés, amiből választani lehet"
+
+msgid "common/collectionText"
+msgstr "(Gyűjteményelem)"
+
+msgid "common/comma"
+msgstr ", "
+
+msgid "common/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "commonProgression/body/ended"
+msgstr "Battle Pass szezon véget ért"
+
+msgid "crewBonusX3"
+msgstr "3× legénységi XP küldetés"
+
+msgid "equipCoinBonus"
+msgstr "Komponensek: %(count)s"
+
+msgid "finalReward/tankman/roles/commander"
+msgstr "Parancsnok"
+
+msgid "finalReward/tankman/roles/driver"
+msgstr "Vezető"
+
+msgid "finalReward/tankman/roles/gunner"
+msgstr "Lövegkezelő"
+
+msgid "finalReward/tankman/roles/loader"
+msgstr "Töltő"
+
+msgid "finalReward/tankman/roles/radioman"
+msgstr "Rádiós"
+
+msgid "holidayFinalScreen/buyState/buyButton"
+msgstr "Az Improved Pass megvásárlása"
+
+msgid "holidayFinalScreen/buyState/description"
+msgstr "Az Improved Pass megvásárlásával azonnal kapsz egy egyedi 3D-stílussal ellátott prémium járművet és az Improved Pass összes jutalmát."
+
+msgid "holidayFinalScreen/buyState/moreRewards"
+msgstr "Egyéb jutalmak: %(count)s"
+
+msgid "holidayFinalScreen/buyState/title"
+msgstr "Szerezd meg az Improved Pass-jutalmakat"
+
+msgid "holidayFinalScreen/chapter"
+msgstr "%(chapterName)s"
+
+msgid "holidayFinalScreen/completed"
+msgstr "FEJEZET TELJESÍTVE"
+
+msgid "holidayFinalScreen/finalState/button/showHangar"
+msgstr "Vissza a Garázsba"
+
+msgid "holidayFinalScreen/finalState/button/showVehicle"
+msgstr "Megtekintés a Garázsban"
+
+msgid "holidayFinalScreen/finalState/label"
+msgstr "Az esemény minden jutalma megszerezve"
+
+msgid "holidayFinalScreen/selectableRewardsState/button"
+msgstr "Jutalmak begyűjtése"
+
+msgid "holidayFinalScreen/selectableRewardsState/label"
+msgstr "Még vannak jutalmak, amelyek közül választhatsz."
+
+msgid "holidayFinalScreen/tankmenState/description"
+msgstr "Az esemény ideje alatt a boltban egyedi harckocsizókat tartalmazó csomagok érhetők el."
+
+msgid "holidayFinalScreen/tankmenState/tankmenButton"
+msgstr "Szinkronhangok meghallgatása"
+
+msgid "holidayFinalScreen/tankmenState/title"
+msgstr "Szerezd meg az összes harckocsizót!"
+
+msgid "howToEarnPoints/battleRoyal/platoon"
+msgstr "Szakaszban"
+
+msgid "howToEarnPoints/battleRoyal/solo"
+msgstr "Egyéni"
+
+msgid "howToEarnPoints/battleTypeTitle/1"
+msgstr "Normál csata"
+
+msgid "howToEarnPoints/battleTypeTitle/27"
+msgstr "Frontvonal"
+
+msgid "howToEarnPoints/battleTypeTitle/29"
+msgstr "Acélvadász"
+
+msgid "howToEarnPoints/battleTypeTitle/43"
+msgstr "Roham"
+
+msgid "howToEarnPoints/battleTypeTitle/49"
+msgstr "Roham Light"
+
+msgid "howToEarnPoints/bonus"
+msgstr "+%(bonus)s"
+
+msgid "howToEarnPoints/card/battle/linkText"
+msgstr "A küldetésekhez"
+
+msgid "howToEarnPoints/card/battle/text"
+msgstr "Teljesíts küldetéseket Acélvadász módban és szerezz további pontokat."
+
+msgid "howToEarnPoints/card/battle/title"
+msgstr "Napi küldetések"
+
+msgid "howToEarnPoints/card/comp7/text"
+msgstr "Teljesíts küldetéseket Roham módban és szerezz további pontokat."
+
+msgid "howToEarnPoints/card/comp7/title"
+msgstr "Napi küldetések"
+
+msgid "howToEarnPoints/card/comp7Light/text"
+msgstr "Teljesíts küldetéseket Roham Light módban, és szerezz további pontokat."
+
+msgid "howToEarnPoints/card/comp7Light/title"
+msgstr "Napi küldetések"
+
+msgid "howToEarnPoints/card/daily/linkText"
+msgstr "Küldetések megtekintése"
+
+msgid "howToEarnPoints/card/daily/text"
+msgstr "A napi küldetések teljesítésével még több pontot szerezhetsz."
+
+msgid "howToEarnPoints/card/daily/title"
+msgstr "Napi küldetések"
+
+msgid "howToEarnPoints/card/epicBattlePoints/text"
+msgstr "Frontvonal szintek elérésével, további Battle Pass pontokat szerezel."
+
+msgid "howToEarnPoints/card/epicBattlePoints/title"
+msgstr "Jutalom a Frontvonal szintekért"
+
+msgid "howToEarnPoints/card/limitPoints/text"
+msgstr "Minden járműnek van egy ponthatára. Ha eléri, extra pontokat kap."
+
+msgid "howToEarnPoints/card/limitPoints/title"
+msgstr "Ponthatárjutalom"
+
+msgid "howToEarnPoints/card/specialVehicle/text"
+msgstr "A szezon alap járműveivel harcolva további pontokat gyűjthetsz."
+
+msgid "howToEarnPoints/card/specialVehicle/title"
+msgstr "Szezon alap járművei"
+
+msgid "howToEarnPoints/condition/43"
+msgstr "Tekintélypontok alapján"
+
+msgid "howToEarnPoints/condition/49"
+msgstr "Tekintélypontok alapján"
+
+msgid "howToEarnPoints/condition/default"
+msgstr "Eredmény XP alapján"
+
+msgid "howToEarnPoints/conditions"
+msgstr "Megszerzési feltételek"
+
+msgid "howToEarnPoints/description"
+msgstr "Juss előre a fejezetekben, és gyűjts jutalmakat a különböző játékmódokban szerzett Battle Pass-pontok segítségével:"
+
+msgid "howToEarnPoints/earned"
+msgstr "{{icon}}"
+
+msgid "howToEarnPoints/extraPoints"
+msgstr "Extra pontok"
+
+msgid "howToEarnPoints/lose/1"
+msgstr "Vereség / Döntetlen"
+
+msgid "howToEarnPoints/lose/27"
+msgstr "Vereség"
+
+msgid "howToEarnPoints/lose/43"
+msgstr "Vereség / Döntetlen"
+
+msgid "howToEarnPoints/lose/49"
+msgstr "Vereség / Döntetlen"
+
+msgid "howToEarnPoints/plusBanner/line1"
+msgstr "A %(link)s segítségével még több pontot kapsz"
+
+msgid "howToEarnPoints/plusBanner/line2"
+msgstr "minden normál fejezet után."
+
+msgid "howToEarnPoints/plusBanner/link"
+msgstr "WoT Plusz Pro"
+
+msgid "howToEarnPoints/points"
+msgstr "Pontok"
+
+msgid "howToEarnPoints/rangeLevels/29"
+msgstr "%(startLevel)d–%(endLevel)d helyezés"
+
+msgid "howToEarnPoints/rating"
+msgstr "Legjobb %(place)d"
+
+msgid "howToEarnPoints/rating/1"
+msgstr "Legjobb %(level)d XP alapján"
+
+msgid "howToEarnPoints/rating/27"
+msgstr "Legjobb %(level)d XP alapján"
+
+msgid "howToEarnPoints/rating/29"
+msgstr "Legjobb %(level)d XP alapján"
+
+msgid "howToEarnPoints/rating/43"
+msgstr "Legjobb %(level)d tekintély pontok alapján"
+
+msgid "howToEarnPoints/rating/49"
+msgstr "Legjobb %(level)d a tekintélypontok alapján"
+
+msgid "howToEarnPoints/singleLevel/29"
+msgstr "%(level)d. helyezés"
+
+msgid "howToEarnPoints/solo/29"
+msgstr "Egyéni játék"
+
+msgid "howToEarnPoints/squad/29"
+msgstr "Szakasz játék"
+
+msgid "howToEarnPoints/text/1"
+msgstr "%(startLevel)s-%(endLevel)s. szint"
+
+msgid "howToEarnPoints/text/27"
+msgstr "%(level)s. szint"
+
+msgid "howToEarnPoints/text/29"
+msgstr "Különleges járművek"
+
+msgid "howToEarnPoints/text/43"
+msgstr "%(level)s. szint"
+
+msgid "howToEarnPoints/text/49"
+msgstr "%(level)s. szint"
+
+msgid "howToEarnPoints/title"
+msgstr "Így szerezhetsz pontokat"
+
+msgid "howToEarnPoints/vehicle"
+msgstr "Jármű"
+
+msgid "howToEarnPoints/vehicles"
+msgstr "Különleges járművek"
+
+msgid "howToEarnPoints/win/1"
+msgstr "Győzelem"
+
+msgid "howToEarnPoints/win/27"
+msgstr "Győzelem"
+
+msgid "howToEarnPoints/win/43"
+msgstr "Győzelem"
+
+msgid "howToEarnPoints/win/49"
+msgstr "Győzelem"
+
+msgid "intro/affirmative/button"
+msgstr "Értettem!"
+
+msgid "intro/next/button"
+msgstr "Következő"
+
+msgid "intro/seasonDescription/text"
+msgstr "A Battle Pass XVIII. szezonjában lehetőséged nyílik exkluzív 3D-stílusokat szerezni a szezon alapjárműveihez: a Maushoz, az IS-7-hez és az AMX&nbsp;50&nbsp;B-hez."
+
+msgid "intro/seasonDescription/title"
+msgstr "Új tematikus 3D-stílusok"
+
+msgid "intro/title"
+msgstr "XVIII. SZEZON: A TÖKÉLETESSÉGHEZ VEZETŐ ÚT"
+
+msgid "lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "navigation/buyLevels"
+msgstr "SZAKASZVÁSÁRLÁS"
+
+msgid "navigation/buyLevelsRewards"
+msgstr "SZAKASZJUTALMAK"
+
+msgid "navigation/buyPass"
+msgstr "IMPROVED PASS VÁSÁRLÁSA"
+
+msgid "navigation/buyPassConfirm"
+msgstr "IMPROVED PASS-VÁSÁRLÁS"
+
+msgid "navigation/buyPassRewards"
+msgstr "IMPROVED PASS-JUTALMAK"
+
+msgid "navigation/chapterChoice"
+msgstr "BATTLE PASS %(seasonNum)s. SZEZON"
+
+msgid "navigation/holidayFinal"
+msgstr "BATTLE PASS"
+
+msgid "navigation/intro"
+msgstr "BATTLE PASS %(seasonNum)s. SZEZON"
+
+msgid "navigation/postProgression"
+msgstr "BATTLE PASS ELIT KÖR"
+
+msgid "navigation/progression"
+msgstr "BATTLE PASS-FEJEZET"
+
+msgid "navigation/tankmenScreen"
+msgstr "EGYEDI HARCKOCSIZÓK"
+
+msgid "points/top"
+msgstr "%(vehicle): %(bonus) ha XP-ben a %(top)-n vagy"
+
+msgid "points/topCount"
+msgstr "legjobb %(top)s"
+
+msgid "points/transfer"
+msgstr "Hozzáadott extra pontok:"
+
+msgid "postProgressionView/footer/button/text"
+msgstr "A fejezetekhez"
+
+msgid "postProgressionView/footer/description/text"
+msgstr "Mindegyik fejezet teljesítését követően érhető el. Teljesített fejezetek: %(completedChapters)/%(chaptersAmount)"
+
+msgid "postProgressionView/footer/extraChapter/description/text"
+msgstr "Szerezz egy prémium járművet és exkluzív testreszabási elemeket!"
+
+msgid "postProgressionView/footer/extraChapter/title/text"
+msgstr "Itt a Battle Pass: Far Cry!"
+
+msgid "postProgressionView/footer/purchaseIP/banner/text"
+msgstr "Szerezz még több jutalmat az Improved Pass-szal!"
+
+msgid "postProgressionView/footer/purchaseIP/button/text"
+msgstr "Vásárlás"
+
+msgid "postProgressionView/header/description/active"
+msgstr "Gyűjts pontokat a csatákban, hogy kötvényeket és sorsjegyeket szerezz jutalomként"
+
+msgid "postProgressionView/header/description/onPause/highlight"
+msgstr "SZÜNETELTETVE."
+
+msgid "postProgressionView/header/description/onPause/regular"
+msgstr "A különleges fejezet előrehaladásának teljesítése után válik elérhetővé."
+
+msgid "postProgressionView/header/headline/deadline"
+msgstr "Eddig fog tartani: %(endDate)s"
+
+msgid "postProgressionView/header/headline/unlocked"
+msgstr "Az összes fejezetet teljesítetted"
+
+msgid "postProgressionView/header/title"
+msgstr "ELIT KÖR"
+
+msgid "postProgressionView/progression/currentStep"
+msgstr "Aktuális szakasz"
+
+msgid "postProgressionView/progression/cyclesCompleted"
+msgstr "Teljesített ciklusok:"
+
+msgid "postProgressionView/progression/cyclicalProgression"
+msgstr "Ciklikus előrehaladás"
+
+msgid "postProgressionView/toolbar/aboutBattlePass"
+msgstr "A BATTLE PASSRÓL"
+
+msgid "postProgressionView/toolbar/howToEarnPoints"
+msgstr "HOGYAN SZEREZZ PONTOKAT"
+
+msgid "prestige/top"
+msgstr "%(vehicle): %(bonus), amiért a %(top) játékos között végeztél a szerzett tekintély pontok alapján."
+
+msgid "progression/about"
+msgstr "INFORMÁCIÓ A BATTLE PASS-RÓL"
+
+msgid "progression/aboutExtra"
+msgstr "AZ ESEMÉNY RÉSZLETEI"
+
+msgid "progression/activateChapter"
+msgstr "Fejezet aktiválása"
+
+msgid "progression/activateChapterDescr"
+msgstr "Battle Pass pontokat és egyéb jutalmakat kapsz az aktív fejezet teljesítéséért."
+
+msgid "progression/activateExtraChapterDescr"
+msgstr "Battle Pass-pontokat és egyéb jutalmakat kapsz az aktív fejezet teljesítéséért."
+
+msgid "progression/activatePausedExtraChapterDescr"
+msgstr "Battle Pass pontokat és jutalmakat kapsz az aktív fejezet teljesítéséért."
+
+msgid "progression/backToCurrentStageArrow/descr"
+msgstr "Kattints a jelenlegi szakaszhoz való ugráshoz."
+
+msgid "progression/backToPotentialStageArrow/descr"
+msgstr "Kattints a feloldható szakaszhoz való ugráshoz."
+
+msgid "progression/baseProgressionDescr"
+msgstr "ALAP JUTALMAK"
+
+msgid "progression/battlePassBuyBtn"
+msgstr "Improved Pass vásárlása"
+
+msgid "progression/battlePassBuyDescr"
+msgstr "Az Improved Pass feloldja az aktuális fejezet megnövelt jutalomsávját."
+
+msgid "progression/battlePassBuyDescrStarterPack"
+msgstr "Oldd fel a megnövelt jutalmakat,\nés szerezz egy bónuszt!"
+
+msgid "progression/battlePassBuyHolidayDescr"
+msgstr "Az Improved Pass feloldja a megnövelt jutalomsávot."
+
+msgid "progression/battlePassNextChapterBuyDescr"
+msgstr "Teljesítsd az előző fejezetet, hogy megvásárolhasd az Improved Pass-t ehhez a fejezethez."
+
+msgid "progression/battlePassNextChapterEpisodesDescr"
+msgstr "Teljesítsd az előző fejezetet, hogy megvásárolhass szakaszokat ebben a fejezetben."
+
+msgid "progression/btnExtras"
+msgstr "TOVÁBBI\nANYAGOK"
+
+msgid "progression/btnExtrasTooltip"
+msgstr "Teljesíts szakaszokat, és oldj fel új anyagokat. Feloldott anyagok: %(opened) / %(total)."
+
+msgid "progression/btnNoExtrasTooltip"
+msgstr "Teljesíts szakaszokat és oldj fel új anyagokat."
+
+msgid "progression/btnRewardSelect"
+msgstr "JUTALOM IGÉNYLÉSE"
+
+msgid "progression/btnRewardSelectTooltip"
+msgstr "Kattints a jutalmad kiválasztásához és igényléséhez."
+
+msgid "progression/btnRewardsSelect"
+msgstr "JUTALMAK IGÉNYLÉSE"
+
+msgid "progression/btnRewardsUnavailable"
+msgstr "Ez a művelet technikai okok miatt átmenetileg nem elérhető. Dolgozunk a probléma megoldásán."
+
+msgid "progression/btnTokensStore"
+msgstr "TÁRGYAK\nTOKENEKÉRT"
+
+msgid "progression/btnTokensStoreTooltip"
+msgstr "Kattints a Battle Pass-tokenekkel megszerezhető értékes tárgyak megtekintéséhez.\nElérhető token: %(bpcoinCount)."
+
+msgid "progression/chapterText"
+msgstr "%(chapter)s. FEJEZET: %(chapterName)s"
+
+msgid "progression/currentStep"
+msgstr "Aktuális szakasz"
+
+msgid "progression/currentStepLocked"
+msgstr "MEGNÖVELT JUTALOM"
+
+msgid "progression/episodeBuyBtn"
+msgstr "Szakaszok vásárlása"
+
+msgid "progression/episodeBuyDescr"
+msgstr "Minden megvásárolt szakasz jutalmait megkapod."
+
+msgid "progression/episodeBuyDisableDescr"
+msgstr "Bármennyi szakaszt megvásárolhatsz %(day) alatt"
+
+msgid "progression/error"
+msgstr "A Battle Pass technikai okok miatt átmenetileg nem érhető el.\nMinden előrehaladás el lesz mentve. Elnézést kérünk a kellemetlenségért."
+
+msgid "progression/errorBtn"
+msgstr "A garázsba"
+
+msgid "progression/extraChapterWidget/commanderVoices"
+msgstr "Tovább a többiekhez"
+
+msgid "progression/extraChapterWidget/forLabel"
+msgstr "A(z) %(vehicleName)s járműhöz"
+
+msgid "progression/extraChapterWidget/inHangarTooltip"
+msgstr "Garázsban"
+
+msgid "progression/extraChapterWidget/labelWithBP"
+msgstr "Az Improved Pass-szal"
+
+msgid "progression/extraChapterWidget/style3DTitle"
+msgstr "3D-stílus"
+
+msgid "progression/extraChapterWidget/styleName"
+msgstr "%(styleName)s"
+
+msgid "progression/extraChapterWidget/styleRemark"
+msgstr "Improved Pass-szal"
+
+msgid "progression/extraChapterWidget/styleSubTitle"
+msgstr "és küldetés a(z) %(vehicleName)s járműhöz"
+
+msgid "progression/extraChapterWidget/styleTitle"
+msgstr "Stílus"
+
+msgid "progression/extraChapterWidget/tank"
+msgstr "Prémium jármű"
+
+msgid "progression/extraChapterWidget/tank/description/14"
+msgstr "A D-nap 80.\névfordulójának emlékére"
+
+msgid "progression/extraChapterWidget/tankName"
+msgstr "%(vehicleName)s"
+
+msgid "progression/extraChapterWidget/tankman"
+msgstr "Harckocsizó"
+
+msgid "progression/extraChapterWidget/timer"
+msgstr "A Battle Pass-fejezet végéig hátralévő idő"
+
+msgid "progression/extraChapterWidget/vehicleCaption"
+msgstr "Prémium jármű"
+
+msgid "progression/extraChapterWidget/vehicleSubTitle"
+msgstr "és %(styleName)s 3D-stílus"
+
+msgid "progression/extraChapterWidget/voiceoverTooltip"
+msgstr "Kattints a harckocsizó szinkronhangjának meghallgatásához."
+
+msgid "progression/footer/starter_pack/equal"
+msgstr "="
+
+msgid "progression/footer/status/inactive"
+msgstr "Inaktív fejezet"
+
+msgid "progression/footer/status/paused"
+msgstr "Fejezet szüneteltetve."
+
+msgid "progression/freePointsDescr"
+msgstr "El nem költött Battle Pass-pontok: "
+
+msgid "progression/header/chapter/status"
+msgstr "%(chapterName)s fejezet"
+
+msgid "progression/header/inactive"
+msgstr "inaktív"
+
+msgid "progression/header/paused"
+msgstr "szüneteltetve"
+
+msgid "progression/howToEarnPoints/title"
+msgstr "ÍGY SZEREZHETSZ PONTOKAT"
+
+msgid "progression/pausedStep"
+msgstr "Szakasz"
+
+msgid "progression/postProgressionDescr"
+msgstr "ELIT ELŐREHALADÁS"
+
+msgid "progression/premiumProgressionDescr"
+msgstr "MEGNÖVELT JUTALMAK"
+
+msgid "progression/progressionArrow"
+msgstr "ÖSSZES SZAKASZ\nMEGTEKINTÉSE"
+
+msgid "progression/progressionChapterArrow"
+msgstr "%(chapter) FEJEZET"
+
+msgid "progression/progressionChapterGoTo"
+msgstr "TOVÁBB"
+
+msgid "progression/season/end/normal"
+msgstr "%(seasonNum)s. szezon: %(seasonName)s egészen eddig: %(endDate)s"
+
+msgid "progression/season/end/special"
+msgstr "Eddig fog tartani: %(endTime)s"
+
+msgid "progression/seasonEndingDescr"
+msgstr "Az esemény végéig hátra van "
+
+msgid "progression/seasonEndingTooltip"
+msgstr "Hátravan: {day} n"
+
+msgid "progression/takeReward"
+msgstr "Jutalom igénylése"
+
+msgid "progression/universalCommander"
+msgstr "Egyedi harckocsizó"
+
+msgid "progression/widget3dStyle/currentStyle"
+msgstr "%(name) stílus"
+
+msgid "progression/widget3dStyle/forVehicle"
+msgstr "Ehhez a járműhöz: "
+
+msgid "progression/widget3dStyle/titleForClosedChapter"
+msgstr "Teljesítsd az előző fejezetet\negy stílus kiválasztásához"
+
+msgid "progression/widget3dStyle/titleForLastChapter"
+msgstr "Válaszd ki a fejezet stílust.\nAzonnal használhatod is"
+
+msgid "progression/widget3dStyle/titleNoChapterSelected"
+msgstr "Aktiválj egy fejezetet, hogy egy 3D-stílust szerezz"
+
+msgid "progression/widget3dStyle/viewStyles"
+msgstr "Összes stílus megtekintése"
+
+msgid "questChainBonus"
+msgstr "Egy küldetéssorozat"
+
+msgid "randomQuestBonus"
+msgstr "Küldetés a(z) %(vehicle)s járműhöz"
+
+msgid "reward/postBattle/comp7/progress"
+msgstr "Pontok a legtöbb tekintély pontot szerző játékosok közé jutásért:"
+
+msgid "reward/postBattle/comp7/progress/tooltip"
+msgstr "Pontok a legtöbb tekintély pontot szerző játékosok közé jutásért: %(points)d"
+
+msgid "reward/postBattle/progress"
+msgstr "Szakasz előrehaladása:"
+
+msgid "reward/postBattle/progress/battle/tooltip"
+msgstr "A legjobb játékosok közé kerülésért"
+
+msgid "reward/postBattle/progress/bonus/tooltip"
+msgstr "A jármű ponthatárának eléréséért"
+
+msgid "reward/postBattle/progress/points"
+msgstr "Battle Pass. Pontok gyűjtése"
+
+msgid "reward/postBattle/progress/points/battle"
+msgstr "A legjobb játékosok közé kerülésért:"
+
+msgid "reward/postBattle/progress/points/bonus"
+msgstr "A jármű ponthatárának eléréséért:"
+
+msgid "reward/postBattle/progress/points/quest"
+msgstr "Küldetések teljesítéséért:"
+
+msgid "reward/postBattle/progress/points/wotPlusCore"
+msgstr "WoT plusz Pro bónusz:"
+
+msgid "reward/postBattle/progress/points/wotPlusPro"
+msgstr "WoT plusz Pro bónusz:"
+
+msgid "reward/postBattle/progress/pointsAux"
+msgstr "Elért pontok:"
+
+msgid "reward/postBattle/progress/pointsAux/tooltip"
+msgstr "Extra pontok hozzáadva"
+
+msgid "reward/postBattle/progress/quests/tooltip"
+msgstr "Küldetések teljesítéséért"
+
+msgid "reward/postBattle/progress/tooltip"
+msgstr "Szakasz előrehaladása"
+
+msgid "reward/postBattle/title"
+msgstr "A(z) %(chapter)s fejezet %(level)d. szakasza"
+
+msgid "reward/postBattle/title/free"
+msgstr "Battle Pass: Extra pontok gyűjtése"
+
+msgid "reward/postBattle/title/postProgression"
+msgstr "Az elit kör %(level)d. szakasza"
+
+msgid "rewardChoice/crewBook/rewardDescription"
+msgstr "tapasztalat a kiválasztott %(nation)s jármű minden legénységi tagjának"
+
+msgid "rewardChoice/subTitle"
+msgstr "VÁLASZD KI A JUTALMAD"
+
+msgid "rewardChoice/title"
+msgstr "BATTLE PASS"
+
+msgid "rewardChoice/titleChapter"
+msgstr "BATTLE PASS: %(chapter)s FEJEZET"
+
+msgid "rewardChoice/titleChapterLevel"
+msgstr "BATTLE PASS: %(chapter)s FEJEZET, %(level)s. SZAKASZ"
+
+msgid "season/fullName/1002"
+msgstr "Carmen de Bisonte"
+
+msgid "season/fullName/20"
+msgstr "Keresés a homokban"
+
+msgid "season/fullNameUppercased/1002"
+msgstr "CARMEN DE BISONTE"
+
+msgid "season/fullNameUppercased/20"
+msgstr "KERESÉS A HOMOKBAN"
+
+msgid "selectBonus/battle_booster_gift"
+msgstr "Választható direktívák"
+
+msgid "selectBonus/blueprint_gift"
+msgstr "Választható tervrajztöredékek"
+
+msgid "selectBonus/brochure_gift"
+msgstr "Választható képzési füzetek"
+
+msgid "selectBonus/crewbook_gift"
+msgstr "Választható képzési kézikönyvek"
+
+msgid "selectBonus/guide_gift"
+msgstr "Választható képzési útmutatók"
+
+msgid "selectBonus/modernized_device_gift"
+msgstr "Kísérleti felszerelések, amelyek közül választani lehet"
+
+msgid "selectBonus/new_device_gift"
+msgstr "Normál felszerelés, amiből választani lehet"
+
+msgid "selectBonus/trophy_gift"
+msgstr "Választható jutalomfelszerelések"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ó"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 perc"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "styleProgressBonus"
+msgstr "Fejleszd a(z) %(styleName)s stílust %(level)s. szintre"
+
+msgid "styleProgression/finalLevel"
+msgstr "%(styleName)s stílus maximális szintje"
+
+msgid "styleProgression/newLevel"
+msgstr "%(styleName)s stílus új szintje"
+
+msgid "styleProgression/newStyle"
+msgstr "%(styleName)s stílus első szintje"
+
+msgid "tankmenVoiceover/chapterButton"
+msgstr "A fejezethez"
+
+msgid "tankmenVoiceover/inShop"
+msgstr "Különleges csomagban"
+
+msgid "tankmenVoiceover/listen"
+msgstr "Hallgasd meg"
+
+msgid "tankmenVoiceover/notFull"
+msgstr "%(count)s/%(availableCount)s érhető el"
+
+msgid "tankmenVoiceover/progression"
+msgstr "Az előrehaladás %(progressionLevel)s. szakaszánál"
+
+msgid "tankmenVoiceover/received"
+msgstr "Megszerezve:"
+
+msgid "tankmenVoiceover/shopButton"
+msgstr "Tovább a boltba"
+
+msgid "tankmenVoiceover/title"
+msgstr "EGYEDI HARCKOCSIZÓK"
+
+msgid "tankmenVoiceover/unavailable"
+msgstr "Nem érhető el"
+
+msgid "title/earningPoints"
+msgstr "Pontszerzés"
+
+msgid "title/freePoints"
+msgstr "Extra pontok"
+
+msgid "title/stage"
+msgstr "{{level}}. szakasz"
+
+msgid "tooltip/cardButton/disabled/body"
+msgstr "A művelet jelenleg nem érhető el. Próbálkozz újra később!"
+
+msgid "tooltip/freePoints/body"
+msgstr "Az extra pontok halmozódnak, és automatikusan jóváírjuk őket a fiókodon, miután aktiválsz egy új Battle Pass fejezetet."
+
+msgid "tooltip/freePoints/header"
+msgstr "Extra pontok"
+
+msgid "tooltip/lock"
+msgstr "A jutalmak nem érhetők el. A megszerzésükhöz vásárold meg az Improved Passt."
+
+msgid "tooltips/RandomQuestTooltip/condition"
+msgstr "Feltétel: %(condition)"
+
+msgid "tooltips/RandomQuestTooltip/expireTime"
+msgstr "A küldetés %(whiteSpanish_Open)seddig érhető el: %(month)s %(day)s%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/consumables"
+msgstr "%(whiteSpanish_Open)sFogyócikkek:%(whiteSpanish_Close)s elsősegélykészletek, javítókészletek és tűzoltó készülékek"
+
+msgid "tooltips/RandomQuestTooltip/rewards/directives"
+msgstr "%(whiteSpanish_Open)sDirektívák%(whiteSpanish_Close)s felszerelésekhez"
+
+msgid "tooltips/RandomQuestTooltip/rewards/money"
+msgstr "%(whiteSpanish_Open)sKredit, kötvények és szabad XP%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/personal_reserves"
+msgstr "%(whiteSpanish_Open)sSzemélyes tartalék%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/premium"
+msgstr "%(whiteSpanish_Open)sWoT prémiumfiók-napok%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/standardEquipment"
+msgstr "%(whiteSpanish_Open)sNormál felszerelés%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewardsTitle"
+msgstr "Naponta egyszer a következő jutalmak egyikét kaphatod meg egy küldetés teljesítéséért:"
+
+msgid "tooltips/RandomQuestTooltip/title"
+msgstr "Küldetés a(z) %(vehicleName) járműhöz"
+
+msgid "tooltips/battlePassCoins/secondaryText"
+msgstr "Az év három Battle Pass szezonja során tokeneket szerezhetsz. Használd fel őket okosan."
+
+msgid "tooltips/battlePassCoins/text"
+msgstr "Egy értékes játékbeli fizetőeszköz, melyet a Battle Pass szakaszok teljesítéséért kaphatsz. A tokeneket beválthatod speciális jutalmakra a bolt Tárgyak tokenekért részlegén."
+
+msgid "tooltips/battlePassCoins/title"
+msgstr "Battle Pass tokenek"
+
+msgid "tooltips/battlePassPoints/completed"
+msgstr "Az összes Battle Pass fejezetet és előrehaladási szakaszt teljesítetted."
+
+msgid "tooltips/battlePassPoints/description"
+msgstr "Automatikusan hozzáadásra kerül a Battle Pass előrehaladáshoz."
+
+msgid "tooltips/battlePassPoints/title"
+msgstr "Battle Pass pontok"
+
+msgid "tooltips/battlePassQuestsChain/secondaryText"
+msgstr "A küldetések a normál csatákban és a nagy csatákban teljesíthetők."
+
+msgid "tooltips/battlePassQuestsChain/text"
+msgstr "Felold egy sor küldetést, amelyek teljesítéséért további játékbeli eszközöket kaphatsz: "
+
+msgid "tooltips/battlePassQuestsChain/title"
+msgstr "Hozzáférés egy küldetéssorozathoz"
+
+msgid "tooltips/battlePassTaler/secondaryText"
+msgstr "Gyűjts zsetonokat a Battle Pass-előrehaladásod során"
+
+msgid "tooltips/battlePassTaler/text"
+msgstr "A zsetonokkal megvásárolhatod a korábbi szezonok testreszabási elemeit és harckocsizóit, gazdasági nyersanyagokat és még megannyi mást a Battle Pass-széfben."
+
+msgid "tooltips/battlePassTaler/title"
+msgstr "Zsetonok"
+
+msgid "tooltips/claimRewards/0"
+msgstr "Alap jutalmak megszerezve"
+
+msgid "tooltips/claimRewards/1"
+msgstr "Válaszd ki a teljesített szakasz jutalmait"
+
+msgid "tooltips/claimRewards/multiple"
+msgstr "Válaszd ki a teljesített szakaszok jutalmait"
+
+msgid "tooltips/commanders/chose"
+msgstr "VAGY"
+
+msgid "tooltips/commanders/descr"
+msgstr "Teljesítsd a végső szakaszt és szerezd meg az egyik egyedi harckocsizót jutalmul."
+
+msgid "tooltips/commanders/title"
+msgstr "A két harckocsizó egyike"
+
+msgid "tooltips/completed/claimRewards"
+msgstr "Minden jutalom megszerezve"
+
+msgid "tooltips/completed/finalLevel"
+msgstr "Az összes fejezetet és előrehaladási szakaszt teljesítetted"
+
+msgid "tooltips/completed/got"
+msgstr "Jutalmat kaptál"
+
+msgid "tooltips/completed/message"
+msgstr "Most elköltheted az összegyűjtött Battle Pass pontokat a játékon belüli bolt „Tárgyak pontokért“ részlegében."
+
+msgid "tooltips/completed/oneChapterSubTitle"
+msgstr "FEJEZET TELJESÍTVE"
+
+msgid "tooltips/completed/rewardsObtained"
+msgstr "Alap jutalmak megszerezve"
+
+msgid "tooltips/completed/subTitle"
+msgstr "MINDEN FEJEZET TELJESÍTVE"
+
+msgid "tooltips/completed/tankmenNotRecieved"
+msgstr "A Boltban egyedi harckocsizókat tartalmazó csomagok érhetők el."
+
+msgid "tooltips/completed/title"
+msgstr "Battle Pass"
+
+msgid "tooltips/entryPoint/disabled/body"
+msgstr "A Battle Pass technikai okok miatt átmenetileg nem érhető el.\nMinden előrehaladás el lesz mentve. Elnézést kérünk a kellemetlenségért."
+
+msgid "tooltips/entryPoint/disabled/header"
+msgstr "A Battle Pass átmenetileg nem érhető el"
+
+msgid "tooltips/entryPoint/disabled/mapbox"
+msgstr "A Battle Pass technikai problémák miatt átmenetileg nem érhető el a Felderítő küldetésben.\nMinden előrehaladás el lesz mentve. Elnézést kérünk a kellemetlenségért."
+
+msgid "tooltips/extra/daysAndHours"
+msgstr "%(D)s n %(H)s ó"
+
+msgid "tooltips/extra/min"
+msgstr "%(m)s perc"
+
+msgid "tooltips/footerBuyBtn/activateChapter/descr"
+msgstr "Battle Pass pontokat és egyéb jutalmakat kapsz az aktív fejezet teljesítéséért."
+
+msgid "tooltips/footerBuyBtn/battlePass/descr"
+msgstr "Bármikor megvásárolhatod az Improved Passt. Azonnal megkapod a megnövelt jutalmakat az aktuális fejezet már teljesített szakaszaiért. A további teljesített szakaszokért pedig az alap és megnövelt jutalmakat egyaránt megkapod."
+
+msgid "tooltips/footerBuyBtn/battlePass/nextChapter"
+msgstr "Teljesítsd az előző fejezetet, hogy megvásárolhass szakaszokat ebben a fejezetben."
+
+msgid "tooltips/footerBuyBtn/episode/descr"
+msgstr "A szakaszok megvásárlásával azonnal megkapod az értük járó alap- és megnövelt jutalmakat. A szakaszokat minden fejezethez külön vásárolhatod meg."
+
+msgid "tooltips/footerBuyBtn/episode/holidayDescr"
+msgstr "A szakaszok megvásárlásával azonnal megkapod az értük járó alap és megnövelt jutalmakat."
+
+msgid "tooltips/goldMission/description"
+msgstr "%(highlight)s A kihagyott napokért nem kapsz aranyat."
+
+msgid "tooltips/goldMission/highlightedDescription"
+msgstr "Megjegyzés:"
+
+msgid "tooltips/goldMission/text"
+msgstr "%(duration)s %(count)s %(icon)s aranyat szerezhetsz mindennap, amikor megvívsz egy Normál csatát."
+
+msgid "tooltips/goldMission/textDuration"
+msgstr "%(days)s napig"
+
+msgid "tooltips/goldMission/title"
+msgstr "Napi arany"
+
+msgid "tooltips/iconLock/descr1"
+msgstr "Az Improved Pass megvásárlásával megnövelheted a szakaszok teljesítéséért járó jutalmak számát. Ezt minden fejezethez külön meg kell venned, és csak az adott fejezetre érvényes. Az Improved Pass segítségével minden elért szakasz után megkapod az alap- és a megnövelt jutalmakat egyaránt."
+
+msgid "tooltips/iconLock/descr2"
+msgstr "Az Improved Passt bármikor megvásárolhatod. Ekkor azonnal megkapod a teljesített szakaszokért járó megnövelt jutalmakat abban a fejezetben, amelyhez megvásároltad. A Battle Pass fő képernyőjén látható Improved Pass vásárlása gombra kattintva megnövelheted a jutalmaid mennyiségét."
+
+msgid "tooltips/iconLock/holidayDescr1"
+msgstr "Az Improved Pass megvásárlásával bővítheted a szakaszjutalmak listáját. Az Improved Pass birtokában minden teljesített szakasz után az alap- és a megnövelt jutalmakat egyaránt megkapod."
+
+msgid "tooltips/iconLock/holidayDescr2"
+msgstr "Az Improved Passt bármikor megvásárolhatod. Ekkor azonnal megkapod a már teljesített szakaszok megnövelt jutalmait. A Battle Pass főképernyőjén látható Improved Pass vásárlása gombra kattintva megnövelheted a jutalmaidat."
+
+msgid "tooltips/iconLock/title"
+msgstr "A Battle Pass megnövelt jutalma"
+
+msgid "tooltips/inProgress/baseReward"
+msgstr "Alap jutalom"
+
+msgid "tooltips/inProgress/battleRoyale"
+msgstr "„Acélvadász“"
+
+msgid "tooltips/inProgress/chapter"
+msgstr "„%(name)“ fejezet"
+
+msgid "tooltips/inProgress/epic"
+msgstr "Frontvonal"
+
+msgid "tooltips/inProgress/getPointsFrom"
+msgstr "A pontszerzés szabályai %(battleType)s csatákban."
+
+msgid "tooltips/inProgress/hurryUp"
+msgstr "Vásárold meg az Improved Pass-t, hogy megszerezd a megnövelt jutalmakat a teljesített szakaszokért!"
+
+msgid "tooltips/inProgress/improvedReward"
+msgstr "Megnövelt jutalom"
+
+msgid "tooltips/inProgress/level"
+msgstr "Aktuális szakasz"
+
+msgid "tooltips/inProgress/playGame/comp7"
+msgstr "A pontszerzés szabályai X-es szintű járművekkel %(bond_Open)sRoham%(bond_Close)s játékmódban."
+
+msgid "tooltips/inProgress/playGame/comp7_light"
+msgstr "A pontszerzés szabályai VIII-as szintű járművekkel %(bond_Open)sRoham Light%(bond_Close)s játékmódban."
+
+msgid "tooltips/inProgress/playGame/mapbox"
+msgstr "A Battle Pass pontgyűjtési szabályai a %(bond_Open)sFelderítő küldetésben%(bond_Close)s VIII-X-es szintű járművekkel."
+
+msgid "tooltips/inProgress/playGame/randoms"
+msgstr "A pontszerzés szabályai IV–XI-es szintű járművekkel a %(bond_Open)sNormál csatákban%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/ranked"
+msgstr "Pontszerzés szabályai X-es szintű járművekkel Rangsorolt csatákban."
+
+msgid "tooltips/inProgress/playGame/winback"
+msgstr "A pontszerzés szabályai IV–XI-es szintű járművekkel a %(bond_Open)sNormál csaták: Bemelegítésben%(bond_Close)s."
+
+msgid "tooltips/inProgress/postProgression/header"
+msgstr "Elit kör"
+
+msgid "tooltips/inProgress/timeLeft"
+msgstr "A Battle Passból van még"
+
+msgid "tooltips/inProgress/wotPlusProFooter"
+msgstr "Bevétel a WoT Plusz Próval"
+
+msgid "tooltips/notChosen/description"
+msgstr "Ki kell választanod egy fejezetet, hogy megkezd az előrehaladásod és értékes jutalmakat szerezhess."
+
+msgid "tooltips/notChosen/points"
+msgstr "El nem költött Battle Pass pontok: %(points)"
+
+msgid "tooltips/notChosen/subTitle"
+msgstr "FEJEZET KIVÁLASZTÁSA"
+
+msgid "tooltips/notChosen/title"
+msgstr "Battle Pass"
+
+msgid "tooltips/notStarted/date"
+msgstr "%(month)s %(day)s"
+
+msgid "tooltips/plusBanner/text"
+msgstr "{{@ style (color $color1)}}Battle Pass Plusz:{{/}} A {{@ style (color $color2)}}WoT Plusz Próval{{/}} érhető el. Szerezz még több Battle Pass-pontot (kivéve a különleges fejezeteket)."
+
+msgid "tooltips/points/footer"
+msgstr "A „Hogyan szerezz pontokat“ menüből többet is megtudhatsz a pontgyűjtésről a különböző játékmódokban."
+
+msgid "tooltips/points/rules"
+msgstr "Pontokat normál csatákban a következőképpen szerezhetsz:"
+
+msgid "tooltips/points/specialVehicles"
+msgstr "A szezon alap járműveivel több pontot kaphatsz:"
+
+msgid "tooltips/points/subtitle"
+msgstr "A Battle Pass-pontok lehetővé teszik számodra, hogy továbblépj az előrehaladásban. Pontokat IV–XI-es szintű járművekkel szerezhetsz a Normál csatákban és más játékmódokban, valamint a különleges küldetések teljesítéséért és a járműponthatárok eléréséért."
+
+msgid "tooltips/points/title"
+msgstr "Battle Pass pontok"
+
+msgid "tooltips/pointsTable/header"
+msgstr "Megszerzési feltételek"
+
+msgid "tooltips/pointsTable/lose"
+msgstr "Vereség és döntetlen"
+
+msgid "tooltips/pointsTable/loseWithoutDraw"
+msgstr "Vereség"
+
+msgid "tooltips/pointsTable/place"
+msgstr "%(place). helyezés"
+
+msgid "tooltips/pointsTable/places"
+msgstr "%(place). helyezés"
+
+msgid "tooltips/pointsTable/solo"
+msgstr "Szóló"
+
+msgid "tooltips/pointsTable/squad"
+msgstr "Szakasz"
+
+msgid "tooltips/pointsTable/topPlace"
+msgstr "Legjobb %(place) szerzett XP alapján"
+
+msgid "tooltips/pointsTable/win"
+msgstr "Győzelem"
+
+msgid "tooltips/postProgress/body"
+msgstr "Az Elit előrehaladás a Fő előrehaladás %(maxLevelBase). szakaszának teljesítése után kezdődik. Lehetőséged nyílik értékes játékbeli fizetőeszközöket szerezni. Az Elit előrehaladás teljesítéséhez nincs szükség az Improved Passra."
+
+msgid "tooltips/postProgress/header"
+msgstr "Elit előrehaladás"
+
+msgid "tooltips/prestigePoints/lose"
+msgstr "Vereség és döntetlen"
+
+msgid "tooltips/prestigePoints/loseWithoutDraw"
+msgstr "Vereség"
+
+msgid "tooltips/prestigePoints/topPlace"
+msgstr "Legjobb %(place) a tekintélypontok alapján"
+
+msgid "tooltips/prestigePoints/win"
+msgstr "Győzelem"
+
+msgid "tooltips/progression/freePoints/body"
+msgstr "Ha nem választottál ki fejezetet, el nem költött Battle Pass pontokat gyűjthetsz, amelyeket később hozzáadhatsz bármelyik aktivált fejezethez a Battle Pass aktuális szezonjának vége előtt. Másként ezek a pontok elvesznek."
+
+msgid "tooltips/progression/freePoints/bodyExceptExtra"
+msgstr "Ha nem választottál ki fejezetet, el nem költött Battle Pass pontokat gyűjthetsz, amelyeket később hozzáadhatsz bármelyik aktivált fejezethez (kivéve a kiegészítő fejezetet) a Battle Pass aktuális szezonjának vége előtt. Másként ezek a pontok elvesznek."
+
+msgid "tooltips/progression/freePoints/header"
+msgstr "El nem költött Battle Pass pontok"
+
+msgid "tooltips/rewardCompensation/description/credits"
+msgstr "A fő játékon belüli fizetőeszköz.\nCsatákban szerezhető meg, illetve aranyért megvásárolható."
+
+msgid "tooltips/rewardCompensation/description/gold"
+msgstr "Értékes játékbeli fizetőeszköz. A segítségével WoT Prémium fiókot és járműveket vásárolhatsz, tapasztalati pontokat válthatsz át stb."
+
+msgid "tooltips/rewardCompensation/footer"
+msgstr "Kompenzáció olyan tárgyért, amellyel már rendelkezel."
+
+msgid "tooltips/styleUpgrade/chosen/levelWord"
+msgstr "szintre"
+
+msgid "tooltips/styleUpgrade/chosen/subtitle"
+msgstr "Alkalmas járművek"
+
+msgid "tooltips/styleUpgrade/chosen/text"
+msgstr "%(level). %(levelWord) fejleszti a fejezet stílust"
+
+msgid "tooltips/styleUpgrade/chosen/title"
+msgstr "%(styleName) stílus fejlesztése"
+
+msgid "tooltips/styleUpgrade/notChosen/text"
+msgstr "Egy stílus kiválasztásához kattints a Válassz stílust gombra a Battle Pass fejezet előrehaladás elején."
+
+msgid "tooltips/styleUpgrade/notChosen/title"
+msgstr "Fejezethez tartozó progresszív stílus fejlesztése"
+
+msgid "tooltips/styleUpgrade/notChosen/warning"
+msgstr "Nincs kiválasztva fejezet stílus."
+
+msgid "tooltips/styleUpgrade/paragraphBottom"
+msgstr "Ha nem tudod maximális szintre fejleszteni a stílust a Battle Pass előrehaladás során, az aktuális szezon végét követően lehetőséged lesz fejleszteni azt a Külső képernyőn a garázsban."
+
+msgid "tooltips/styleUpgrade/paragraphTop"
+msgstr "A kiválasztott fejezet stílus automatikusan a következő szintre lesz fejlesztve, ha teljesíted ezt a szakaszt."
+
+msgid "tooltips/styles/descr"
+msgstr "Az utolsó szakasz teljesítését követően kiválaszthatod a jutalom stílusok valamelyikét."
+
+msgid "tooltips/styles/footer"
+msgstr "Az Improved Pass megvásárlásával mindkét stílust megkaphatod, a végső jutalmad kiválasztása után."
+
+msgid "tooltips/styles/name"
+msgstr "Alkalmas a következőhöz: %(name)"
+
+msgid "tooltips/styles/style"
+msgstr "%(name) stílus"
+
+msgid "tooltips/styles/title"
+msgstr "A két 3D stílus egyike"
+
+msgid "tooltips/unlockBattlePass"
+msgstr "Vásárold meg az Improved Pass-t a Megnövelt jutalmak feloldásához."
+
+msgid "tooltips/unlockBattlePassForPostProgression"
+msgstr "Vásárold meg az Improved Passt mindegyik fejezethez, és szerezz még több jutalmat!"
+
+msgid "tooltips/vehiclePoints/award"
+msgstr "Jutalom a ponthatár eléréséért"
+
+msgid "tooltips/vehiclePoints/comp7"
+msgstr "Harcolj Roham módban, gyűjts pontokat a hatékony játékért, teljesítsd a Battle Pass előrehaladási szakaszait és szerezz jutalmakat."
+
+msgid "tooltips/vehiclePoints/comp7_light"
+msgstr "Szerezz pontokat a Roham Light csatáiban végrehajtott hasznos tetteidért, hogy továbblépj a Battle Pass-előrehaladásban, és jutalmakat szerezz."
+
+msgid "tooltips/vehiclePoints/continuePlaying"
+msgstr "Harcolj más járművekkel további előrehaladásért a szakaszokban."
+
+msgid "tooltips/vehiclePoints/descr"
+msgstr "Harcolj Normál csatákban, gyűjts pontokat a hatékony játékért, teljesítsd a Battle Pass előrehaladási szakaszait és szerezz jutalmakat!"
+
+msgid "tooltips/vehiclePoints/mapbox"
+msgstr "Harcolj felderítő küldetésben, gyűjts pontokat a hatékony játékért, teljesítsd a Battle Pass előrehaladási szakaszait és szerezz jutalmakat."
+
+msgid "tooltips/vehiclePoints/pointsObtained"
+msgstr "Ponthatár elérve"
+
+msgid "tooltips/vehiclePoints/ranked"
+msgstr "Harcolj rangsorolt csatákban, gyűjts pontokat a hatékony játékért, teljesítsd a Battle Pass előrehaladási szakaszait és szerezz jutalmakat."
+
+msgid "tooltips/vehiclePoints/special/descr"
+msgstr "A szezon alap járműveivel harcolva több előrehaladási pontot gyűjthetsz."
+
+msgid "tooltips/vehiclePoints/title"
+msgstr "Battle Pass pontok"
+
+msgid "trophyDeviceUpgradeConfim/cancel"
+msgstr "Mégse"
+
+msgid "trophyDeviceUpgradeConfim/message"
+msgstr "A karakterisztikái meg fognak változni:"
+
+msgid "trophyDeviceUpgradeConfim/submit"
+msgstr "Fejlesztés"
+
+msgid "trophyDeviceUpgradeConfim/submitTooltip"
+msgstr "Nincs elég kredit a fejlesztéshez"
+
+msgid "trophyDeviceUpgradeConfim/title"
+msgstr "Fejleszted a(z) {deviceName}\nfelszerelést?"
+
+msgid "trophyDeviceUpgradeConfim/title/template"
+msgstr "{deviceName}"
+
+msgid "universalTankmanBonus"
+msgstr "Univerzális harckocsizó: %(name)s"

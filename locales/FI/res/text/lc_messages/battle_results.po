@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Kaikki"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Tämä taistelu oli tyydyttävämpi, tasapainoisempi tai hauskempi kuin tavallisesti."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "Tavallista parempi"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "Tavanomainen taistelu - mitään odottamatonta ei tapahtunut."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Tavanomainen"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Tämä taistelu oli turhauttavampi, epätasapainoisempi tai epäreilumpi kuin tavallisesti."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "Tavallista huonompi"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "TAVALLISTA PAREMPI"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "arvostele taistelusi:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "TAVANOMAINEN"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "TAVALLISTA HUONOMPI"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Lajittele arvovaltapisteiden mukaan."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Arvovaltapisteet"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Yleiskatsaus"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Taloudellinen raportti"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Tehtävän edistyminen"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Joukkueen tulos"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Lajittele arvovaltapisteiden mukaan. Arvovaltapisteet vaikuttavat taistelussa ansaittujen ja menetettyjen luokituspisteiden määrään."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Arvovaltapisteet"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Liittolaiset:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Tukikohdan puolustus"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Tukikohdan valtaus:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Tukikohdat"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Tukikohdan valtaus"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Puolueeton tukikohta"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "Et suorittanut mitään toimia tässä taistelussa."
+
+msgid "common/battleEfficiency/none"
+msgstr "Ei yhtään vihollisvaunua tuhottu tai havaittu."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Vaunut"
+
+msgid "common/battleEfficiency/title"
+msgstr "Taistelutehokkuus"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "SUORIUTUMINEN TAISTELUSSA"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Taistelusuoritukset (käytetyt taidot mukaan lukien)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Taistelutehokkuus (ei sisällä taistelureservejä)"
+
+msgid "common/battleType/sortie"
+msgstr "Kahakka vastaan klaania "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Uusi pätevyys"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Osta premium-tiliä"
+
+msgid "common/details/creditsTitle"
+msgstr "Krediittejä"
+
+msgid "common/details/crystal"
+msgstr "Arvopaperit"
+
+msgid "common/details/getPremBtn"
+msgstr "Yksityiskohdat"
+
+msgid "common/details/noPremTitle"
+msgstr "Normaalitili"
+
+msgid "common/details/premTitle"
+msgstr "WoT Premium"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}Antaa {{multiplier}} kokemusbonuksen valittuun voittoisaan taisteluun WoT Premium-tilillä.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Saat jopa {{bonusCredits}} joka {{@ style}}{{durationInDays}}. p{{/}} WoT Premium-tilin kanssa.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "Antaa %(multiplier)d kokemusbonuksen valittuun voittoisaan taisteluun WoT Premium-tilillä."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Saat jopa %(bonusCredits)s joka %(durationInDays)d p WoT Premium-tilin kanssa."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "Ylimääräistä kokemusta, krediittiä, premium-tehtäviä ja osastobonuksia WoT Premium-tilillä."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Avaa erikoistehtäviä WoT Premium-tilillä."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Ansaitse enemmän krediittejä pelatessasi osastossa WoT Premium-tilillä."
+
+msgid "common/details/xpTitle"
+msgstr "Kokemusta"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Kokemus %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Moduulin ostaminen"
+
+msgid "common/fitting/research"
+msgstr "Moduulin tutkiminen"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Päätaistelun vaihe:"
+
+msgid "common/missions/noProgress/button"
+msgstr "Tehtäviin"
+
+msgid "common/missions/noProgress/description"
+msgstr "Näytä nykyisen tehtävän edistyminen"
+
+msgid "common/missions/noProgress/header"
+msgstr "Ei edistymistä tehtävissä tai vaunun tutkimisessa."
+
+msgid "common/newSkillPrediction"
+msgstr "Taisteluita jäljellä (noin): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "Kun olet taistellut 10 taistelua, et ansaitse enää krediittejä, kokemusta tai palkintoja tässä tilassa, ja taisteluidesi tulokset eivät vaikuta henkilökohtaiseen tulokseen."
+
+msgid "common/noIncome/alert/title"
+msgstr "Huomio!"
+
+msgid "common/noProgress"
+msgstr "Ei edistystä tehtävissä, vaunun tutkimisessa tai miehistön koulutuksessa."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Yliaika:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Avaa lisää käyttäen"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Olet ansainnut tänään:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Olet ansainnut tänään %(count)s kokemusta"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "Avataan WoT Plussalla tai WoT Premium-tilillä"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plussalla"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "WoT Premiumilla"
+
+msgid "common/plusBonus/youRock"
+msgstr "Sinä rokkaat!"
+
+msgid "common/premiumBonus"
+msgstr "Haluatko ansaita enemmän?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Bonus käytetty onnistuneesti"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Käytä"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Jäljellä tänään: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "Kohdennettava kokemuskerroin"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Haluatko ansaita enemmän?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Tulee käyttää viimeisimpään saman vaunun taisteluun."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "Bonus voidaan ottaa käyttöön: nopeutettu miehistönkoulutus pois käytöstä."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}Bonus voidaan ottaa käyttöön: nopeutettu miehistönkoulutus {{@ style}}pois käytöstä.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "Bonusta ei voitu ottaa käyttöön: nopeutettu miehistönkoulutus käytössä."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}Bonusta ei voitu ottaa käyttöön: nopeutettu miehistönkoulutus {{@ style}}käytössä.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "Kertoimia voi käyttää vain voittoisiin taisteluihin. Parempi onni ensi kerralla!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "Kohdennettavaa bonusta ei voitu ottaa käyttöön: vaunua ei löytynyt."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}Kohdennettavaa bonusta ei voitu ottaa käyttöön: vaunua ei {{@ style}}löytynyt.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "Kohdennettavaa bonusta ei voitu ottaa käyttöön: miehistö ei löytynyt."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}Kohdennettavaa bonusta ei voitu ottaa käyttöön: miehistö ei {{@ style}}löytynyt.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Kertoimet eivät ole saatavilla tässä pelimuodossa."
+
+msgid "common/progressTitle"
+msgstr "Vaunun tutkiminen ja tehtävien edistyminen"
+
+msgid "common/quests/noprogress"
+msgstr "Tehtävissä ei ollut tapahtumia"
+
+msgid "common/researchPrediction"
+msgstr "Taisteluita jäljellä (noin): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Hanki linkki"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Laskettu:\n• Kimmokkeet vihollisen laukauksista\n• Ei-läpäisevät osumat\n\nHE ja HESH ammuksien osumia ei lasketa."
+
+msgid "common/tooltip/armor/header"
+msgstr "Panssarin käyttö"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Kimmokkeet"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Läpäisemättömät"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Vahinkoa torjuttu panssarilla %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "Seuraavan tyyppiset liittolaisten aiheuttamat vahingot lasketaan:\n• Vahinko havaitsemiisi kohteisiin\n• Vahinko vihollisvaunuun, jonka telan olet tuhonnut ja tehnyt liikuntakyvyttömäksi"
+
+msgid "common/tooltip/assist/header"
+msgstr "Auttanut tuhoamisessa"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Vahinkoa havaitsemiisi kohteisiin %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Vahinko vihollisvaunuun, jonka telan olet tuhonnut ja tehnyt liikuntakyvyttömäksi %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Liittolaisten kaikkiaan tekemää vahinkoa vihollisvaunuun %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Laskettu:\n• Vihollisen tukikohdan valtauspisteet\n• Puolueettoman tukikohdan valtauspisteet"
+
+msgid "common/tooltip/capture/header"
+msgstr "Tukikohdan valtaus"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Tukikohdan valtauspisteitä kaikkiaan"
+
+msgid "common/tooltip/counter"
+msgstr "Merkkejä saatu taistelussa kaikkiaan: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Merkkejä saatu taistelussa tästä vihollisvaunusta: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "Merkkiä ei saatu taistelussa."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Pudotettu:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Tuhottu:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Haavoittunut:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Laskettu:\n• Vahingoitetut vihollisvaunun ulkoiset ja sisäiset moduulit\n• Tuhotut vihollisvaunun ulkoiset ja sisäiset moduulit\n• Haavoitetut vihollisvaunun miehistön jäsenet."
+
+msgid "common/tooltip/crits/header"
+msgstr "Kriittistä vahinkoa"
+
+msgid "common/tooltip/crits/total"
+msgstr "Summa:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Laskettu:\n• Vahinkoa laukauksella\n• Vahinkoa törmäyksellä\n• Vahinkoa tulipalolla\n• Vahinkoa voimakkaalla iskulla"
+
+msgid "common/tooltip/damage/header"
+msgstr "Vahinkoa"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Vahinkoa %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Läpäisyä"
+
+msgid "common/tooltip/defence/description"
+msgstr "Laskettu:\n• Liittolaistukikohdan puolustuspisteet\n• Puolueettoman tukikohdan puolustuspisteet"
+
+msgid "common/tooltip/defence/header"
+msgstr "Tukikohdan puolustus"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Tukikohdan puolustuspisteitä kaikkiaan"
+
+msgid "common/tooltip/kill/header"
+msgstr "Tuhottu vihollinen"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Osumasta tuhoutunut vihollisvaunu"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Tulipalosta tuhoutunut vihollisvaunu"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Törmäyksestä tuhoutunut vihollisvaunu"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Romuttunut vihollisvaunu"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Kuoleman vyöhykkeellä tuhoutunut vihollisvaunu"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Hukkunut vihollisvaunu"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Tuhoutui tulimyrskyssä"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Vihollisvaunu käännetty nurin."
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Lasketaan:\n• Tuhoutuminen laukauksella\n• Tuhoutuminen tulipalolla\n• Tuhoutuminen törmäyksellä\n• Tuhoutuminen hukkumisella\n• Tuhoutuminen työntämällä vihollisvaunu alas esteeltä\n• Tuhoutuminen kääntämällä vastustaja nurin."
+
+msgid "common/tooltip/params/val"
+msgstr "(HP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(s)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Vihollisvaunun ensimmäinen havaitseminen lasketaan."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Havaitseminen"
+
+msgid "common/tooltip/stun/description"
+msgstr "Vauriota otettu huomioon:\n• Aiheutettu liittolaisten toimesta vihollisvaunuun, jonka olet lamauttanut."
+
+msgid "common/tooltip/stun/header"
+msgstr "Lamautus"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Vahinkoa yhteensä %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Lamautusten määrä"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Aiheutettujen lamautusten yhteiskesto: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Tuhottu liittolaisvaunu"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Tiimitappo"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Osumasta tuhoutunut liittolaisvaunu"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Tulipalosta tuhoutunut liittolaisvaunu"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Törmäyksestä tuhoutunut liittolaisvaunu"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Romuttunut liittolaisvaunu"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Kuoleman vyöhykkeellä tuhoutunut liittolaisvaunu"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Hukkunut liittolaisvaunu"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Sait lisäkokemusta tästä taistelusta osastossa pelaamisen ansiosta."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Kimmokkeet"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Läpäisemättömät"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Panssarin torjumaa vahinkoa"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Vahinkoa havaitsemiisi kohteisiin"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Vahinko vihollisvaunuun, jonka telan olet tuhonnut ja tehnyt liikuntakyvyttömäksi"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Liittolaisten kaikkiaan tekemää vahinkoa vihollisvaunuun"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Vahinko yhteensä"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Läpäisyä"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Vahinko yhteensä"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Lamautusten määrä"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Aiheutettujen lamautusten yhteiskesto"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Vaunun ostaminen"
+
+msgid "common/vehicle/research"
+msgstr "Vaunun tutkiminen"
+
+msgid "common/vehicleState/alive"
+msgstr "Selviytyi"
+
+msgid "common/vehicleState/dead0"
+msgstr "Tuhoutunut osumasta"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Tuhoutui ampumalla ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Tuhoutui ampumalla ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Tuhoutunut tulipalosta"
+
+msgid "common/vehicleState/dead12"
+msgstr "Tuhoutui omasta toimesta"
+
+msgid "common/vehicleState/dead13"
+msgstr "Tuhottu pelaajan taidolla"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Tuhoutui tulipalolla ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Tuhoutui tulipalolla ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Tuhoutunut törmäyksestä"
+
+msgid "common/vehicleState/dead27"
+msgstr "Tuhoutui tykistöiskussa"
+
+msgid "common/vehicleState/dead29"
+msgstr "Romuttunut"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Tuhoutui törmäämällä ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Tuhoutui törmäämällä ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Romuttunut"
+
+msgid "common/vehicleState/dead30"
+msgstr "Tuhoutunut osumasta"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Tuhoutui ampumalla ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Tuhoutui ampumalla ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Romuttunut"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Romuttui ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Romuttui ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Tuhoutunut kuoleman vyöhykkeellä"
+
+msgid "common/vehicleState/dead5"
+msgstr "Hukkunut vaunu"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Vaunui hukkui ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Vaunui hukkui ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Tuhoutui tulimyrskyssä"
+
+msgid "common/vehicleState/dead7"
+msgstr "Tuhoutui kaatuessa"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Tuhoutui katolleen kääntymällä ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Tuhoutui katolleen kääntymällä ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Poistui ennen taistelun päättymistä"
+
+msgid "common/vehicleState/victory"
+msgstr "Voitto!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Jäljellä tänään: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Tästä taistelusta saadut kehut"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} liittolaista antoi sinulle kunniamaininnan tässä taistelussa."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} liittolainen antoi sinulle kunniamaininnan tässä taistelussa."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Kunniamainintoja saatu"
+
+msgid "conditions/type/and"
+msgstr "JA"
+
+msgid "conditions/type/or"
+msgstr "TAI"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Tason %(level)s \"%(name)s\" koriste saavutettu."
+
+msgid "customizationProgress/award/received"
+msgstr "\"%(name)s\" koriste saatu %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "Tason %(level)s \"%(name)s\" koriste"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Joukkueen profiili"
+
+msgid "cyberSport/points"
+msgstr "Pisteitä:"
+
+msgid "cyberSport/status/lose"
+msgstr "Tappio"
+
+msgid "cyberSport/status/tie"
+msgstr "Tasapeli"
+
+msgid "cyberSport/status/win"
+msgstr "Voitto!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Kohdistettava bonus kokemukseen"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Vähennyskerroin (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Täydennä direktiivit automaattisesti"
+
+msgid "details/calculations/autoEquip"
+msgstr "Kulutustarvikkeiden autom. täydennys"
+
+msgid "details/calculations/autoLoad"
+msgstr "Ammusten autom. täydennys"
+
+msgid "details/calculations/autoRepair"
+msgstr "Vaunun autom. korjaus"
+
+msgid "details/calculations/autoResupply"
+msgstr "Automaattinen täydennys"
+
+msgid "details/calculations/base"
+msgstr "Saatu"
+
+msgid "details/calculations/battlePayments"
+msgstr "Taistelumaksut"
+
+msgid "details/calculations/boosters"
+msgstr "Henkilökohtaisten reservien bonus"
+
+msgid "details/calculations/crystal/events"
+msgstr "Tehtävien suorittamisesta"
+
+msgid "details/calculations/crystal/total"
+msgstr "Vaunun erikoiskyvystä"
+
+msgid "details/calculations/event"
+msgstr "Palkinto tehtävien ja tapahtumien suorittamisesta"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Sakko toimettomuudesta taistelussa"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Sakko karkaamisesta"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Sakko karkaamisesta"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Sakko karkaamisesta"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Sakko karkaamisesta"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Sakko toimettomuudesta taistelussa"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Sakko karkaamisesta"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Sakko tahallisesta itsetuhosta"
+
+msgid "details/calculations/firstWin"
+msgstr "Palkkio päivän 1. voitosta"
+
+msgid "details/calculations/fortOrder"
+msgstr "Bonus käytetyistä reserveistä"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Hyvitys omien aiheuttamista vahingoista"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Sakkoja omille aiheutetuista vahingoista"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Sakko liittolaisten lamauttamisesta"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Suuren kapasiteetin kuljetus"
+
+msgid "details/calculations/igrBonus"
+msgstr "Palkkio pelaamisesta %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "Kohdennettava bonus"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Kokonaismäärä taistelusta:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Kohdennettava kokemusbonus"
+
+msgid "details/calculations/maximum"
+msgstr "maksimi"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "Sotaharjoituksista"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Suurempi kokemus päivän ensimmäisestä voitosta lisätty seuraaviin vaunuihin:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Palkinto päivän ensimmäisestä voitosta"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "Rohkeasta vastarinnasta"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Lemmikkibonus (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Lemmikkibonus"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Lisättiin varmuusvarastoon"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Sotilasarvon bonus"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Bonus premium-vaunun tasosta"
+
+msgid "details/calculations/referralBonus"
+msgstr "Suosittelubonus (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Suosittelubonus (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Suosittelubonus"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "Osastopelaamisesta"
+
+msgid "details/calculations/squadBonus"
+msgstr "Bonus osastossa pelaamisesta"
+
+msgid "details/calculations/squadXP"
+msgstr "Pelaamisesta osastossa"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Sakko osaston virheellisestä kokoonpanosta"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "Taktisesta koulutuksesta"
+
+msgid "details/calculations/title/base"
+msgstr "Saatu"
+
+msgid "details/calculations/title/expenses"
+msgstr "Kulut"
+
+msgid "details/calculations/title/total"
+msgstr "Yhteensä"
+
+msgid "details/calculations/total"
+msgstr "Summa:"
+
+msgid "details/calculations/wotPlus"
+msgstr "WoT Plus -taistelubonus"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "WoT Plus -taistelubonus"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "Wot Plus Pro -boosti"
+
+msgid "details/calculations/xpRecord"
+msgstr "Saatu (%(color_tag_open)s enintään %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Saatu (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Krediittejä"
+
+msgid "details/crystal"
+msgstr "Arvopaperit"
+
+msgid "details/noPrem"
+msgstr "Normaalitili"
+
+msgid "details/prem"
+msgstr "Wargaming Premium"
+
+msgid "details/premPlus"
+msgstr "WoT Premium"
+
+msgid "details/resource"
+msgstr "Teollisuusresurssit"
+
+msgid "details/stats"
+msgstr "Tilastot"
+
+msgid "details/time"
+msgstr "Aika"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Aloitusaika"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Alueita vallattu"
+
+msgid "details/time/lbl_duration"
+msgstr "Taistelun kesto"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Kohteita tuhottu"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Kohteita saavutettu"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Tuhoutumisen ajankohta"
+
+msgid "details/time/val_no"
+msgstr "Ei"
+
+msgid "details/time/val_yes"
+msgstr "Kyllä"
+
+msgid "details/time/value"
+msgstr "%(min)s min %(sec)s s"
+
+msgid "details/time_epic"
+msgstr "Taistelu"
+
+msgid "details/xp"
+msgstr "Kokemusta"
+
+msgid "details/xp_abbr"
+msgstr "kokemusta"
+
+msgid "exterminationVictory/allies"
+msgstr "Joukkueesi tuhosi kaikki vihollisvaunut"
+
+msgid "exterminationVictory/enemies"
+msgstr "Viholliset tuhosivat kaikki joukkueesi vaunut"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Vihollisjoukkue ansaitsi enemmän voittopisteitä, kuin sinun joukkueesi"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "Viholliset tuhosivat kaikki joukkueesi vaunut"
+
+msgid "fallout/classic/lose/points"
+msgstr "Vihollisjoukkue ansaitsi enemmän voittopisteitä, kuin sinun joukkueesi"
+
+msgid "fallout/classic/tie"
+msgstr "Kummatkin joukkueet ansaitsivat saman määrän voittopisteitä"
+
+msgid "fallout/classic/win/cap"
+msgstr "Joukkueesi ansaitsi enemmän voittopisteitä, kuin vihollinen"
+
+msgid "fallout/classic/win/extermination"
+msgstr "Joukkueesi tuhosi kaikki vihollisvaunut"
+
+msgid "fallout/classic/win/points"
+msgstr "Joukkueesi ansaitsi enemmän voittopisteitä, kuin vihollinen"
+
+msgid "fallout/multiteam/ended"
+msgstr "Tavoitetta ei täytetty"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "Nähdäksesi tiedot,\nvalitse pelaaja listasta."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Joukkueesi ansaitsi enemmän voittopisteitä, kuin vihollinen"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Kaikki vihollisen erillisosastot tuhottu"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Joukkueesi ansaitsi enemmän voittopisteitä, kuin vihollinen"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "Rakennusta %(buildingName)s ei vallattu"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "Rakennus %(buildingName)s vallattu"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Rakennus vallattu: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "Rakennuksen %(buildingName)s valtasi vihollinen"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "Rakennusta %(buildingName)s ei vallattu"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Rakennusta puolustettu: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Tulos on laskettu perustuen joukkueista jäljellä olevaan tietoon"
+
+msgid "finish/overtime/lose"
+msgstr "Vihollista ei tuhottu"
+
+msgid "finish/overtime/win"
+msgstr "Vihollinen tuhottu"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Tuntematon syy"
+
+msgid "finish/reason/10lose"
+msgstr "Koheita on selviytynyt"
+
+msgid "finish/reason/10win"
+msgstr "Kohteita tuhottu"
+
+msgid "finish/reason/1lose"
+msgstr "Kaikki liittolaisvaunut tuhottu"
+
+msgid "finish/reason/1tie"
+msgstr "Kaikki vaunut tuhottu"
+
+msgid "finish/reason/1win"
+msgstr "Kaikki vihollisvaunut tuhottu"
+
+msgid "finish/reason/2"
+msgstr "Tukikohta vallattu"
+
+msgid "finish/reason/3"
+msgstr "Taisteluaika loppui"
+
+msgid "finish/reason/4"
+msgstr "Taistelu loppui järjestelmävian takia"
+
+msgid "finish/reason/5"
+msgstr "Tekninen tappio"
+
+msgid "finish/reason/8"
+msgstr "Liittolainen tuhottu"
+
+msgid "finish/reason/9"
+msgstr "Vaunusi tuhoutui"
+
+msgid "garage/uniqueDamage"
+msgstr "Vain ainutlaatuiset kriittiset osumat lasketaan."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Valitse kesto"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% krediittejä ja kokemusta"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "Osta %(prem)s ja ansaitse %(award)s kaikista seuraavista taisteluista"
+
+msgid "getPremiumPopover/headerText"
+msgstr "Tästä taistelusta voit ansaita:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Premium-tili"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "Tutkimukseen"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Saatavilla tutkittavaksi"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Taisteluita jäljellä (noin): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "VAUNUSTA"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Tehtävä #{{name}} suoritettu."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "PANSSARIVAUNUAKATEMIA"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "UUSI MODUULI AVATTU!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "UUSI VAUNU AVATTU!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "AKATEMIAN TEHTÄVÄ SUORITETTU!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "LUKU SUORITETTU!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "VAIHE SUORITETTU!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "TULIKOKEEN TEHTÄVÄ SUORITETTU!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "TEHTÄVÄ SUORITETTU!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "PÄIVITTÄINEN TEHTÄVÄ SUORITETTU!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "SUURIN ELIITTITASO"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "UUSI ELIITTITASO"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "EEPPINEN TEHTÄVÄ SUORITETTU!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "OPERAATION TEHTÄVÄ SUORITETTU!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "PREMIUM-TEHTÄVÄ SUORITETTU!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "VIIKOTTAINEN TEHTÄVÄ SUORITETTU!"
+
+msgid "noData"
+msgstr "Pahoittelen, taistelun tulokset eivät ole saatavilla."
+
+msgid "personalQuest/bonus/descr"
+msgstr "edistymisesi ensisijaisessa tehtävässä tässä taistelussa kerrottiin %(value)s kertaisesti."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "x%(value)s kerroin:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Huomio!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Edistymisesi tehtävässä nollattiin. Tehtävän suoritus aloitettiin alusta."
+
+msgid "players/enemy/unknown"
+msgstr "Vihollinen"
+
+msgid "players/teammate/unknown"
+msgstr "Pelaaja"
+
+msgid "prestige/common/description"
+msgstr "Ansaitut eliittipisteet:"
+
+msgid "prestige/max/description"
+msgstr "Suurin eliittitaso saavutettu."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Suurin eliittitaso saavutettu"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Uusi eliittitaso saavutettu"
+
+msgid "prestige/title"
+msgstr "Eliittijärjestelmä"
+
+msgid "progression/completed"
+msgstr "Suoritettu"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Suoritettu:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Klikkaa nähdäksesi tarkemmat tiedot."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Suoritettu:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Eliittijärjestelmä ei ole tällä hetkellä saatavilla. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "progression/totalEarned"
+msgstr "Ansaittu yhteensä: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Taistele ja saat palkintoja. Mitä enemmän taistelet, sitä lähempänä olet palkintoja."
+
+msgid "selectVehicle"
+msgstr "Valitse vaunu"
+
+msgid "status/lose"
+msgstr "TAPPIO"
+
+msgid "status/tie"
+msgstr "TASAPELI"
+
+msgid "status/win"
+msgstr "VOITTO"
+
+msgid "tankSelector/next"
+msgstr "Seuraava vaunu"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Järjestä aiheutetun vahingon mukaan,\nsisältäen vahingon taistelureserveistä."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "team/damageHeader/body"
+msgstr "Järjestä aiheutetun vaurion mukaan."
+
+msgid "team/damageHeader/header"
+msgstr "Vahinkoa aiheutettu vihollisvaunuihin"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "team/deaths/body"
+msgstr "Järjestä pelaajan taistelussa tuhoutuneiden vaunujen määrän mukaan."
+
+msgid "team/deaths/header"
+msgstr "Vaunuja tuhoutunut"
+
+msgid "team/deathsNoSort/header"
+msgstr "Vaunuja tuhottu"
+
+msgid "team/epicRankHeader/body"
+msgstr "Lajittele taistelussa ansaittujen sotilasarvojen mukaan."
+
+msgid "team/epicRankHeader/header"
+msgstr "Sotilasarvo"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Lajittele taisteluun syntymiskertojen mukaan."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Kertoja synnytty taisteluun"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Järjestä tuhottujen vihollisvaunujen mukaan,\nsisältäen vahingon taistelureserveistä."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Järjestä ansaittujen resurssien mukaan."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Resurssit"
+
+msgid "team/flags/body"
+msgstr "Järjestä toimitettujen lippujen määrän mukaan."
+
+msgid "team/flags/header"
+msgstr "Lippuja toimitettu"
+
+msgid "team/flagsNoSort/header"
+msgstr "Lippuja toimitettu"
+
+msgid "team/fragHeader/body"
+msgstr "Järjestä tuhottujen vihollisvaunujen määrän mukaan."
+
+msgid "team/fragHeader/header"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "team/healthHeader/body"
+msgstr "Järjestä jäljelle jääneiden osumapisteiden mukaan."
+
+msgid "team/healthHeader/header"
+msgstr "Osumapisteet (HP)"
+
+msgid "team/medalHeader/body"
+msgstr "Järjestä saavutusten määrän mukaan."
+
+msgid "team/medalHeader/header"
+msgstr "Palkinnot"
+
+msgid "team/playerHeader/body"
+msgstr "Järjestä pelaajan nimen mukaan"
+
+msgid "team/playerHeader/header"
+msgstr "Pelaajan nimi"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Nimi"
+
+msgid "team/playerNumber/body"
+msgstr "Järjestä pelaajan numeron mukaan."
+
+msgid "team/playerNumber/header"
+msgstr "Numero"
+
+msgid "team/rankHeader/body"
+msgstr "Lajittele sijoitusluokan mukaan."
+
+msgid "team/rankHeader/header"
+msgstr "Luokitus"
+
+msgid "team/resourceHeader/body"
+msgstr "Järjestä ansaittujen teollisuusresurssien määrän mukaan."
+
+msgid "team/resourceHeader/header"
+msgstr "Teollisuusresurssit"
+
+msgid "team/squadHeader/body"
+msgstr "Järjestä osastoittain."
+
+msgid "team/squadHeader/header"
+msgstr "Osasto"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Osasto"
+
+msgid "team/stats/allies"
+msgstr "Liittolaiset"
+
+msgid "team/stats/close"
+msgstr "Sulje"
+
+msgid "team/stats/enemies"
+msgstr "Viholliset"
+
+msgid "team/stats/enemyTeam"
+msgstr "Vihollisjoukkue"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Lasketaan avustamiseksi:\n• Vahinko, jonka liittolaisesi aiheuttavat havaitsemiisi tai lamauttamiisi vihollisvaunuihin tai vaunuihin, joiden telat olet tuhonnut ja tehnyt liikuntakyvyttömäksi\n• Tukikohtien valtaaminen\n• Vihollisvaunun havaitseminen ensimmäistä kertaa."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "Avustamisesta"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Lasketaan panokseksesi:\n• Aiheuttamasi vahinko\n• Tuhoamasi vaunut\n• Vahingoitetut moduulit\n• Bonus joukkueesi aiheuttamasta vahingosta.\n• Sakko liittolaisten vahingoittamisesta ja lamauttamisesta."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "Aiheutetusta vahingosta ja tuhotuista vaunuista"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Lisäksi bonuksia tehokkaasta taistelusta, joita ei ole eritelty edellisissä osioissa."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "Suoriutumisesta vaunun roolin mukaisesti"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\ttykistöiskulla"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Alueita vallattu / kohteita tuhottu"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Valtaus-/puolustuspisteitä"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Vallatut kohdealueet"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Vahinkoa aiheutettu pelaajan avustuksella"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Vahinkoa aiheutettu avustuksellasi"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Vahinkoa pelaajan lamauttamiin vihollisvaunuihin"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Vahinkoa lamauttamiisi vihollisvaunuihin"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Panssarin torjumaa vahinkoa"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Kokonaisvahinko:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tsisältäen taistelureservit"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tkäytetyt taidot mukaan lukien"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tvahinkoa tehty vihollisjoukkueeseen"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Vihollisvaunuja vaurioitettu/tuhottu"
+
+msgid "team/stats/labels_deaths"
+msgstr "Vaunujasi tuhoutunut taistelussa"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Puolustetut alueet / tavoitteet"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Omien tuhoutuneiden / hylättyjen vaunujen määrä"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\tkohteisiin"
+
+msgid "team/stats/labels_directHits"
+msgstr "\tsuoraa osumaa"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Osumia otettu"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\ttaistelureservien vaikutusten ansiosta"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\ttaistelureserveillä"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\taluevahinkoa"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Osumia otettu aluevahingosta"
+
+msgid "team/stats/labels_flags"
+msgstr "Lippuja toimitettu"
+
+msgid "team/stats/labels_healed"
+msgstr "Kestopisteitä palautettu (omat/liittolaisten)"
+
+msgid "team/stats/labels_hits"
+msgstr "\tsuoria osumia/läpäisyjä"
+
+msgid "team/stats/labels_killed"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tsisältäen taistelureservit"
+
+msgid "team/stats/labels_mileage"
+msgstr "Kuljettu matka"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tei läpäissyt"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tläpäisyjä"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tläpäisyjä"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Roolitaitoja käytetty"
+
+msgid "team/stats/labels_shots"
+msgstr "Laukauksia ammuttu"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\tyli 300 metrin etäisyydeltä"
+
+msgid "team/stats/labels_spotted"
+msgstr "Havaittuja vihollisia"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Aiheutettujen lamautusten yhteiskesto, s"
+
+msgid "team/stats/labels_stunNum"
+msgstr "Lamautuksia aiheutettu"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Vahinkoa aiheutettu liittolaisille (tuhottu/HP)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Tuhottujen vaunujen määrä"
+
+msgid "team/stats/labels_xp"
+msgstr "Ansaittu kokemus yhteensä"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tavustamisesta"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tvahingon aiheuttamisesta ja tuhoamisesta"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tsuoriutumisesta vaunun roolin mukaisesti"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Oma joukkue"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "tykistöiskulla"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Valtaus-/puolustuspisteitä"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Vahinkoa aiheutettu pelaajan avustuksella"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Vahinkoa aiheutettu avustuksellasi"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Vahinkoa pelaajan lamauttamiin vihollisvaunuihin"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Vahinkoa lamauttamiisi vihollisvaunuihin"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Panssarin torjumaa vahinkoa"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Vahinko yhteensä"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Vihollisvaunuja vaurioitettu/tuhottu"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Osumia otettu"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "aluevahinkoa"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Osumia otettu aluevahingosta"
+
+msgid "team/stats/parameter/hits"
+msgstr "suoria osumia/läpäisyjä"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Kuljettu matka"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "läpäisemättömät"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "läpäisyjä"
+
+msgid "team/stats/parameter/shots"
+msgstr "Laukauksia ammuttu"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "yli 300 metrin etäisyydeltä"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Havaittuja vihollisia"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Aiheutettujen lamautusten yhteiskesto, s"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Lamautuksia aiheutettu"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Vahinkoa aiheutettu liittolaisille (tuhottu/HP)"
+
+msgid "team/tankHeader/body"
+msgstr "Järjestä joukkuepaneelin sijaintisi mukaan"
+
+msgid "team/tankHeader/header"
+msgstr "Vaunut"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Erillisosaston ansaitsemaa vaikutusvaltaa: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Erillisosaston teollisuusresursseja: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Järjestä ansaittujen voittopisteiden määrän mukaan."
+
+msgid "team/teamScore/header"
+msgstr "Joukkueen voittopisteitä"
+
+msgid "team/victoryScore/body"
+msgstr "Järjestä ansaittujen voittopisteiden määrän mukaan."
+
+msgid "team/victoryScore/header"
+msgstr "Pelaaja voittopisteet"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Pelaajan voittopisteitä"
+
+msgid "team/xpHeader/body"
+msgstr "Järjestä kokemuspisteiden mukaan"
+
+msgid "team/xpHeader/header"
+msgstr "Kokemusta"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Kokemusta"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Voittopisteitä ansaittu"

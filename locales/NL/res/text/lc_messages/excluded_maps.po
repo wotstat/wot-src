@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "backButton/label"
+msgstr "TERUG"
+
+msgid "backButton/to"
+msgstr "NAAR ACCOUNTSTATUS"
+
+msgid "filteredMapsDisplayed"
+msgstr "Kaarten getoond: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Toon/verberg kaarten van dit type."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Woestijnkaarten"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Zomerkaarten"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Winterkaarten"
+
+msgid "header/cooldown"
+msgstr "Je kunt over %(cooldownEndTime) weer een kaart vervangen."
+
+msgid "header/title"
+msgstr "Uitgesloten kaarten"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Na de cooldown kun je deze kaart weer vervangen."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Kaartvervanging onbeschikbaar"
+
+msgid "mapTile/hoverExclude"
+msgstr "De %(mapName)-kaart uitsluiten?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Uitsluiten"
+
+msgid "mapTile/hoverInclude"
+msgstr "De %(mapName)-kaart gebruiken voor Willekeurige gevechten?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Gebruiken"
+
+msgid "mapsFilterLabel"
+msgstr "Kaarttypes:"
+
+msgid "notSelected"
+msgstr "Niet geselecteerd"
+
+msgid "premium"
+msgstr "WoT Premium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Alleen met een actief WoT Premium account of WoT Plus-abonnement komt er een extra plek beschikbaar."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Ontgrendel deze met WoT Premium account."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Ontgrendel deze met een actief WoT Plus-abonnement."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Selecteer een kaart uit de onderstaande lijst om die te vervangen en uit te sluiten van Willekeurige gevechten."
+
+msgid "slot/selectTooltipBody"
+msgstr "Selecteer een kaart uit de onderstaande lijst om uit te sluiten van Willekeurige gevechten."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Plek beschikbaar"
+
+msgid "totalMapsDisplayed"
+msgstr "Kaarten getoond: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Sluit 1 extra kaart uit met %(linkPremium) en nog %(mapCount)s met %(linkWotPlus)."
+msgstr[1] "Sluit 1 extra kaart uit met %(linkPremium) en nog %(mapCount)s met %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Sluit 1 extra kaart uit met %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Sluit nog %(mapCount)s kaart uit met %(linkWotPlus)."
+msgstr[1] "Sluit nog %(mapCount)s kaarten uit met %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WoT Plus"

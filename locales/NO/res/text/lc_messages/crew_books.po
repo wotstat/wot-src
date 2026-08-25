@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "KJØP"
+
+msgid "buttons/cancel"
+msgstr "Avbryt"
+
+msgid "buttons/learn"
+msgstr "Studér"
+
+msgid "buttons/postProgression/claim"
+msgstr "HENT"
+
+msgid "buttons/postProgression/hint"
+msgstr "GÅ TIL POST-FREMGANG"
+
+msgid "buttons/postProgression/howTo"
+msgstr "HVORDAN FÅ"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Vekslingskurs:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Iverksatt på utvalgt besetningsmedlem.\nAksellererer treningen av denne fordelen med fri erfaring."
+
+msgid "card/freeExp/title"
+msgstr "FRI ERFARING"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Fordelseffektivitet: 100%\n• Spesialisering: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Iverksatt for hele besetningen.\nGir hvert besetningsmedlem %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "TRENINGSHEFTE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "TRENINGSMANUAL (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "TRENINGSGUIDE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Iverksatt uten begrensinger."
+
+msgid "card/personalBook/mainText"
+msgstr "Iverksatt for det utvalgte besetningsmedlemmet.\nGir dette besetningsmedlemmet %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "PERSONLIG TRENINGSMANUAL"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Fordelseffektivitet: 100%\n• Spesialisering: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Iverksatt for hele besetningen.\nGir hvert besetningsmedlem %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "UNIVERSELL MANUAL"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "UNIVERSELT HEFTE"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "UNIVERSALGUIDE"
+
+msgid "confirm/crewLabel"
+msgstr "Hvert besetningsmedlem vil få %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Hvert besetningsmedlem vil få %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) får ytterligere %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) vil få %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Noen besetningsmedlemmer får %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Treningshefte (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Treningshefte"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "TRENINGSBOK"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} besetningserfaring til hvert besetningsmedlem."
+
+msgid "items/crewBook/Name"
+msgstr "Treningsmanual (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Treningsmanual"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "TRENINGSMANUAL"
+
+msgid "items/guide/Name"
+msgstr "Treningsguide (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Treningsguide"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "TRENINGSGUIDE"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} erfaring til det utvalgte besetningsmedlemmet"
+
+msgid "items/personalBook/Name"
+msgstr "Personlig treningsmanual"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} besetningserfaring til hvert besetningsmedlem."
+
+msgid "items/universalBook/Name"
+msgstr "Universell manual"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} erfaring for hvert besetningsmedlem"
+
+msgid "items/universalBrochure/Name"
+msgstr "Universelt hefte"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} erfaring for hvert besetningsmedlem"
+
+msgid "items/universalGuide/Name"
+msgstr "Universalguide"
+
+msgid "page/mentoringLicense/hint"
+msgstr "GÅ TIL MENTORLISENS"
+
+msgid "page/mentoringLicense/title"
+msgstr "MENTORLISENS"
+
+msgid "page/title"
+msgstr "HURTIGTRENING"
+
+msgid "tooltip/buyManual"
+msgstr "Kjøp treningsmanual"
+
+msgid "tooltip/mouseWheel"
+msgstr "Skroll {mouseIcon} for å øke / redusere antall besetningsbøker."
+
+msgid "tooltip/outOfStock"
+msgstr "Ingen tilgjengelige besetningsbøker"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Ingen tilgjengelige besetningsbøker. Kjøp disse besetningsbøkene i butikken."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Iverksatt for det utvalgte besetningsmedlemmet. Gir dette besetningsmedlemmet %(xp)s erfaringspoeng."
+
+msgid "tooltip/postProgression"
+msgstr "GÅ TIL POST-FREMGANG"
+
+msgid "tooltip/sale/header"
+msgstr "Profitabel vekslingskurs"
+
+msgid "tooltip/sale/newRate"
+msgstr "Ny vekslingskurs: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Forrige vekslingskursen: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Klikk %(controlsImg) for å øke / redusere nivået på fordelstreningen med 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Trykk %(pgupImg) / %(pgdownImg) for å øke nivået på fordelstreningen til&nbsp;100% / gå&nbsp;tilbake til den forrige fordelen."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Iverksatt for hele besetningen. Gir hvert besetningsmedlem %(xp)s erfaringspoeng."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Iverksatt for hele besetningen. Gir hvert besetningsmedlem %(xp)s erfaringspoeng."

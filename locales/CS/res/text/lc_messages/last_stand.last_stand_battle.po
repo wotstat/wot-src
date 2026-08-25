@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Energetický výboj je připraven k použití."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Upíří střela je připravena k použití."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Ochromující střela je připravena k použití."
+
+msgid "LS_damageShieldReady"
+msgstr "Energetický štít je připraven k použití."
+
+msgid "LS_doubleDamageReady"
+msgstr "Dvojnásobné poškození je připraveno k použití."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Situační poškození je připravené."
+
+msgid "LS_fastReloadReady"
+msgstr "Rychlé nabíjení je připraveno k použití."
+
+msgid "LS_healSituationalReady"
+msgstr "Situační opravy jsou připravené."
+
+msgid "LS_invisibilityReady"
+msgstr "Stínové léčení je připraveno k použití."
+
+msgid "LS_nitroReady"
+msgstr "Turbodmychadlo je připraveno k použití."
+
+msgid "LS_pickupSouls"
+msgstr "Sebrali jste %(souls)s kus(ů) Miria"
+
+msgid "LS_selfRepairReady"
+msgstr "Nouzové opravy jsou připraveny k použití."
+
+msgid "LS_situationalNitroReady"
+msgstr "Situační pohyblivost je připravená."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Skupinové opravy jsou připraveny k použití."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s aktivoval Skupinové opravy."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Skupinové opravy aktivovány."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Pozor na zónu: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Braňte ATLAS!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Braňte ATLAS"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Jedu do zóny!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Obrana ATLASU"
+
+msgid "arena/phase"
+msgstr "%(current)s. fáze ze %(total)s"
+
+msgid "arena/wave"
+msgstr "%(current)s. vlna ze %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Blíží se&nbsp;Ježci!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Blíží se&nbsp;Alfa ježek!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Vyčistěte oblast!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Pospěšte si! Zmar je v blízkosti&nbsp;ATLASU!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Zmar byl zničen!\nZbývá nepřátel: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Nepřátel ke zničení: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "dat, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Vozidla opravena"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Štít udělen"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Nepřátelé ochromeni"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "Obelisk %(name)s zničen!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "regenerace"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "bariéry"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "ochromení"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Místo objevení odhaleno! Nepřítel se blíží!"
+
+msgid "battleHint/hunter"
+msgstr "Blíží se&nbsp;lovci!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Vlna zničena!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Zbývá zničit nepřátel:"
+
+msgid "battleHint/missing_squad"
+msgstr "Blíží se Ztracená četa!"
+
+msgid "battleHint/newWave"
+msgstr "{current}. vlna z {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "Objevil se obelisk!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Zastavte Zmar!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Zastavte Zmar dřív,\nnež se dostane k ATLASU!"
+
+msgid "battleHint/trapper"
+msgstr "Objevení nových destrukčních zón&nbsp;zastavíte zničením Trapera."
+
+msgid "battleHint/turret"
+msgstr "Probudili se komáři!"
+
+msgid "battleHint/waveFinished"
+msgstr "Vlna zničena!\nPřeskupte se a připravte se!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Přeskupte se a připravte se!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Nepřátelské posily&nbsp;dorazily!"
+
+msgid "common/close"
+msgstr "ZAVŘÍT"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Doba trvání: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Poškození udělené zónou"
+
+msgid "damageLog/static_death_zone"
+msgstr "Poškození udělené zónou"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Zapálení Pyrokinezí"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Poškození Energetickým výbojem"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Poškození výbuchem"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Poškození Vampyrismem"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Situační poškození aktivováno"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Situační opravy aktivovány"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Poškození Energetickým výbojem"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Poškození Upíří střelou"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Poškození Ochromující střelou"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Nezničitelnost modulu"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Situační pohyblivost aktivována"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Obnovení"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Vozidlo opraveno"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Vozidlo opraveno"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Vozidlo opraveno spojencem"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Spojenci opraveni"
+
+msgid "eventStats/activeWave"
+msgstr "%(num)s. vlna"
+
+msgid "eventStats/difficulty"
+msgstr "Obtížnost: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Poslední vzdor: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Cíl: Zničte všechny vlny nepřátel"
+
+msgid "eventStats/mission"
+msgstr "Zničte všechny vlny nepřátel"
+
+msgid "eventStats/tableCaption"
+msgstr "Členové jednotky"
+
+msgid "help/description_0"
+msgstr "Pro dosažení vítězství zničte všechny vlny nepřátel.\nSíla nepřítele roste s každou vlnou."
+
+msgid "help/description_1"
+msgstr "Správná kombinace taktických zařízení může být velice silná.\nPamatujte: Směrnice a všechny typy granátů jsou v režimu „Poslední vzdor“ bezplatné."
+
+msgid "help/description_2"
+msgstr "Poškození obelisku přenese část tohoto poškození na nepřátelská vozidla, zatímco jeho zničení přinese náhodný bonus."
+
+msgid "help/description_3"
+msgstr "Za každou cenu chraňte ATLAS před posledním echo tankem Zmarem. Pokud se dostane k ATLASU, zničí ho a bitva bude prohraná."
+
+msgid "help/title"
+msgstr "POSLEDNÍ VZDOR: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "NEPŘÁTELSKÉ VLNY ÚTOKU"
+
+msgid "help/title_1"
+msgstr "TIPY PRO PŘEŽITÍ"
+
+msgid "help/title_2"
+msgstr "POUŽIJTE V BITVĚ OBELISK"
+
+msgid "help/title_3"
+msgstr "BRAŇTE ATLAS"
+
+msgid "helpScreen/hint/description"
+msgstr "pro zobrazení pravidel režimu"
+
+msgid "helpScreen/hint/press"
+msgstr "Stiskněte"
+
+msgid "hitMarker/useless"
+msgstr "Zbytečné!"
+
+msgid "loading/description_0"
+msgstr "Pro dosažení vítězství zničte všechny vlny nepřátel.\nSíla nepřítele roste s každou vlnou."
+
+msgid "loading/description_1"
+msgstr "Správná kombinace taktických zařízení může být velice silná.\nPamatujte: Směrnice a všechny typy granátů jsou v režimu „Poslední vzdor“ bezplatné."
+
+msgid "loading/description_2"
+msgstr "Poškození obelisku přenese část tohoto poškození na nepřátelská vozidla, zatímco jeho zničení přinese náhodný bonus."
+
+msgid "loading/description_3"
+msgstr "Za každou cenu chraňte ATLAS před posledním echo tankem Zmarem. Pokud se dostane k ATLASU, zničí ho a bitva bude prohraná."
+
+msgid "loading/title"
+msgstr "Načítání..."
+
+msgid "loading/title_0"
+msgstr "NEPŘÁTELSKÉ VLNY ÚTOKU"
+
+msgid "loading/title_1"
+msgstr "TIPY PRO PŘEŽITÍ"
+
+msgid "loading/title_2"
+msgstr "POUŽIJTE V BITVĚ OBELISK"
+
+msgid "loading/title_3"
+msgstr "BRAŇTE ATLAS"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Nelze použít [%(name)s]: Motor je zničen."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Nelze použít [%(name)s]: dělo je poškozeno."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Dělo je nabité."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Nelze použít [%(name)s]: Nedostatek Miria k aktivaci zařízení."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Vozidlo není poškozeno."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Nelze použít [%(name)s]: vozidlo se topí."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Nelze použít [%(name)s]: vozidlo hoří."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Nelze použít [%(name)s]: vozidlo je převrácené."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Spojenec %(target)s zničen výbuchem nepřítele (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Spojenec %(target)s byl rozdrcen."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Spojenec %(target)s byl zničen destrukční zónou."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Spojenec %(target)s byl zničen."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Pokud váš tým zvládne porazit tuto vlnu."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "ZNOVU SE OBJEVÍTE"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Vaše bitva skončila.\nVedli jste si skvěle!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vozidlo bylo zničeno destrukční zónou"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Vozidlo bylo zničeno Energetickým výbojem"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Vozidlo bylo zničeno Pyrokinezí"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Vozidlo bylo zničeno Vampyrismem"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Vozidlo bylo zničeno výbuchem"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Vozidlo rozdrceno"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modul [%(device)s] vybuchl po výstřelu hráče"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Vozidlo zničeno požárem"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vozidlo zničeno. Vypršel čas."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Vozidlo zničeno výstřelem nepřítele"
+
+msgid "prebattle/description/message"
+msgstr "Cíl: Zničte všechny vlny nepřátel"
+
+msgid "prebattle/description/title"
+msgstr "Poslední vzdor: %(difficulty)s obtížnost"
+
+msgid "prebattle/difficulty/107"
+msgstr "Běžná"
+
+msgid "prebattle/difficulty/108"
+msgstr "Pokročilá"
+
+msgid "prebattle/difficulty/109"
+msgstr "Brutální"
+
+msgid "prebattle/waiting/title"
+msgstr "Čeká se na hráče…"
+
+msgid "radialMenu/attention_here"
+msgstr "Vyžaduji obranu"
+
+msgid "radialMenu/cancel"
+msgstr "Zrušit"
+
+msgid "radialMenu/confirm"
+msgstr "Potvrzuji!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Jedu do zóny!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Obrana"
+
+msgid "radialMenu/obelisk"
+msgstr "Zničím ten obelisk!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Zničte obelisk!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Energetický štít"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Zpátky na pásech..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Opusťte\nnebezpečnou zónu!"
+
+msgid "teamList/teammates"
+msgstr "Spojenci"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Vypnout hlasovou komunikaci"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Povolit hlasovou komunikaci"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Press to talk"

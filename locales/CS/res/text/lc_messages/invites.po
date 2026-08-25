@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Překladatel WoT <noreply@wargaming.net>\nLanguage-Team: WoT Tým <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sUkázat%(linkEndTag)s detaily hráče"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sPřihláška do klanu%(titleEndTag)s\nod %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Ukázat přihlášky"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sVypnout%(linkEndTag)s oznámení"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sPřihlášky od hráčů: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sUkázat%(linkEndTag)s detaily klanu"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sPozvánka do klanu%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Ukázat pozvánky"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sPozvánky do klanu: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Hráč byl přijat do klanu."
+
+msgid "clans/state/app/declined"
+msgstr "Přihláška odmítnuta."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Hráčův jednodenní postih za opuštění předchozího klanu ještě nevypršel."
+
+msgid "clans/state/invite/accepted"
+msgstr "Byli jste přijati do klanu."
+
+msgid "clans/state/invite/declined"
+msgstr "Pozvánka odmítnuta."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Jednodenní postih za opuštění předchozího klanu ještě nevypršel."
+
+msgid "errors/creationNotAllowed"
+msgstr "Nemáte oprávnění k vytváření pozvánek."
+
+msgid "errors/invalid"
+msgstr "Neplatná pozvánka."
+
+msgid "errors/inviteNotSupported"
+msgstr "Tento typ pozvánky není aktuálně dostupný. Zkuste to později."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Příjemce pozvánky si vás přidal na svou černou listinu."
+
+msgid "errors/selfinvite"
+msgstr "Nemůžete pozvat sám sebe."
+
+msgid "errors/unknownuser"
+msgstr "Tento uživatel není momentálně v systému registrován."
+
+msgid "errors/useroffline"
+msgstr "Uživatel je odpojen."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Vozidlo v garáži je poškozeno nebo uzamčeno. Vyberte jiné vozidlo."
+
+msgid "friendship/note/approved"
+msgstr "Hráč přidán do seznamu přátel"
+
+msgid "friendship/note/canceled"
+msgstr "Žádost odmítnuta"
+
+msgid "friendship/note/maxRoster"
+msgstr "Maximální počet kontaktů v seznamu: %(rosterMaxCount)s. Chcete-li přidat tohoto hráče do seznamu přátel, musíte ze seznamu nejprve někoho odstranit."
+
+msgid "friendship/note/notConnected"
+msgstr "Nelze se připojit k serveru. Prosím čekejte."
+
+msgid "friendship/note/process"
+msgstr "Čekání na odpověď serveru"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sŽádost o přátelství%(titleEndTag)s\nod %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Akceptovat"
+
+msgid "gui/buttons/cancel"
+msgstr "Storno"
+
+msgid "gui/buttons/reject"
+msgstr "Odmítnout"
+
+msgid "gui/buttons/send"
+msgstr "Odeslat"
+
+msgid "gui/labels/additionalText"
+msgstr "Rozšířený text pozvánky:"
+
+msgid "gui/labels/inviteText"
+msgstr "Text pozvánky:"
+
+msgid "gui/labels/receiver"
+msgstr "Příjemce:"
+
+msgid "gui/titles/barter"
+msgstr "Výměnná pozvánka"
+
+msgid "gui/titles/clan"
+msgstr "Klanová pozvánka"
+
+msgid "gui/titles/invite"
+msgstr "Pozvánka"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Pozvánky"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Když přijmete pozvánku, budete automaticky vyloučeni z taktické jednotky a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Když přijmete pozvánku, budete automaticky vyloučeni z taktické jednotky a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z bitvy na globální mapě a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Po přijetí pozvánky budete automaticky vyloučeni z taktické jednotky a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Když přijmete pozvánku, budete automaticky vyloučeni z taktické jednotky a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Když přijmete pozvánku, budete automaticky vyloučeni z taktické jednotky a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z týmového výcviku v režimu Frontová linie a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Když přijmete pozvánku, budete automaticky vyloučeni z taktické jednotky a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Jakmile přijmete pozvánku, opustíte režim týmové bitvy a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z čety a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Jakmile přijmete pozvánku, opustíte Opevnění: Bitvy a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Jakmile pozvánku přijmete, opustíte režim ofenzív a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z čety Průzkumné mise a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z výcvikové mapy a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Jakmile přijmete pozvánku, opustíte Opevnění: Bitvy a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z čety a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Jakmile pozvánku přijmete, opustíte stávající odřad a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z turnaje a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z výcvikové mapy a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z týmového výcviku v režimu „Nápor“ a přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Jakmile přijmete pozvánku, opustíte režim týmové bitvy a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Jakmile přijmete pozvánku, opustíte režim „Ocelový lovec“ a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Když přijmete pozvánku, opustíte Velký lov a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Po přijetí pozvánky opustíte režim „Nápor“ a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Po přijetí pozvánky opustíte Lehký Nápor a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Jakmile přijmete pozvánku, opustíte režim Frontová linie a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Jakmile přijmete pozvánku, opustíte +++bitvu akce+++ a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Když přijmete pozvánku, opustíte Průzkumnou misi a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Po přijetí pozvánky opustíte režim „Mapování“ a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Jakmile přijmete pozvánku, opustíte náhodné bitvy a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Jakmile přijmete pozvánku, opustíte režim hodnocené bitvy a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Jakmile přijmete pozvánku, opustíte Rozcvičku a budete přesunuti na server %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Jakmile přijmete pozvánku, opustíte Rozcvičku a budete přesunuti na server %(host)s. Rozcvičku nebudete moci znovu zahájit."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Když přijmete pozvánku, budete automaticky vyloučeni z taktické jednotky."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Když přijmete pozvánku, budete automaticky vyloučeni z taktické jednotky."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z bitvy na globální mapě."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Po přijetí pozvánky budete automaticky vyloučeni z taktické jednotky."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Když přijmete pozvánku, budete automaticky vyloučeni z taktické jednotky."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Když přijmete pozvánku, budete automaticky vyloučeni z taktické jednotky."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z týmového výcviku v režimu Frontová linie."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Po přijetí pozvánky budete automaticky vyloučeni z taktické jednotky."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Jakmile přijmete pozvánku, opustíte režim týmové bitvy."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z čety."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Jakmile přijmete pozvánku, opustíte Opevnění: Bitvy."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Jakmile pozvánku přijmete, opustíte režim ofenzív."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z čety Průzkumné mise."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z výcvikové mapy."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Jakmile přijmete pozvánku, opustíte Opevnění: Bitvy."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z čety."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Jakmile pozvánku přijmete, opustíte stávající odřad."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z turnaje."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z výcvikové mapy."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Jakmile přijmete pozvánku, budete automaticky vyloučeni z týmového výcviku v režimu „Nápor“."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Jakmile přijmete pozvánku, opustíte režim týmové bitvy."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Jakmile přijmete pozvánku, opustíte režim „Ocelový lovec“."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Když přijmete pozvánku, opustíte Velký lov."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Po přijetí pozvánky opustíte režim „Nápor“."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Po přijetí pozvánky opustíte Lehký Nápor."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Jakmile přijmete pozvánku, opustíte režim Frontová linie."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Jakmile přijmete pozvánku, opustíte +++bitvu akce+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Když přijmete pozvánku, opustíte Průzkumnou misi."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Po přijetí pozvánky opustíte režim „Mapování“."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Jakmile přijmete pozvánku, opustíte náhodné bitvy."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Jakmile přijmete pozvánku, opustíte režim hodnocené bitvy."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Jakmile přijmete pozvánku, opustíte Rozcvičku."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Jakmile přijmete pozvánku, opustíte Rozcvičku. Rozcvičku nebudete moci znovu zahájit."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Změny serveru se nyní uloží."
+
+msgid "invites/note/server_change"
+msgstr "Budete automaticky přesunuti na server %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Nemůžete přijmout pozvánku. Pro přijetí pozvánky si prosím vyberte server %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Nemůžete přijmout pozvání. Pokud chcete pozvánku akceptovat, přejděte prosím na jiný server."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Už jste se připojili k četě."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Už jste se připojili do bitvy na globální mapě."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Už jste se připojili k výcvikové mapě."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Už jste se připojili k četě."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Už jste se připojili k četě."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Už jste se připojili k odřadu."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Už jste se připojili k četě."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Už jste se připojili k turnaji."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Už jste se připojili k výcvikové mapě."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Už jste se připojili k výcvikové mapě."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Už jste se připojili k týmu."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Pozvánka přijata."
+
+msgid "invites/state/DECLINED"
+msgstr "Pozvánka odmítnuta."
+
+msgid "invites/state/ERROR"
+msgstr "Pozvánka je neplatná."
+
+msgid "invites/state/EXPIRED"
+msgstr "Neplatná pozvánka."
+
+msgid "invites/state/REVOKED"
+msgstr "Pozvánka odvolána."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Pozvánka do čety režimu „Ocelový lovec“"
+
+msgid "invites/text/COMP7"
+msgstr "Pozvánka ke vstupu do čety Náporu"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Pozvánka ke vstupu do čety Lehkého Náporu"
+
+msgid "invites/text/EPIC"
+msgstr "Pozvánka ke vstupu do čety Frontové linie"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Pozvánka do týmového výcviku v režimu Frontová linie"
+
+msgid "invites/text/EVENT"
+msgstr "Pozvánka do čety"
+
+msgid "invites/text/FALLOUT"
+msgstr "Pozvánka do čety v %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Nadvláda"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Drcení oceli"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Pozvánka do bitvy"
+
+msgid "invites/text/MAPBOX"
+msgstr "Pozvánka do čety Průzkumné mise"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Pozvánka k průzkumu map"
+
+msgid "invites/text/SORTIE"
+msgstr "Pozvánka do odřadu"
+
+msgid "invites/text/SQUAD"
+msgstr "Pozvánka do čety"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Pozvánka do odřadu"
+
+msgid "invites/text/TRAINING"
+msgstr "Pozvánka do týmového výcviku"
+
+msgid "invites/text/UNIT"
+msgstr "Pozvánka ke vstupu do týmu"
+
+msgid "invites/text/creatorName"
+msgstr "od %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Čas obrany"
+
+msgid "invites/text/fort/direction"
+msgstr "Předmostí"
+
+msgid "invites/text/fort/offence"
+msgstr "Útok na"
+
+msgid "invites/warning/anonymized"
+msgstr "Jakmile přijmete pozvánku, vaše skutečná přezdívka a značka klanu se po dobu trvání bitvy zobrazí členům taktické jednotky."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Pozvánka hráči %(name)s odeslána."

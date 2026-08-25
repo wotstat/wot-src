@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Takaisin arkkuihin"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Smaragdiarkku"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDIARKKU"
+
+msgid "common/getButton/lowerCase"
+msgstr "Hanki arkkuja"
+
+msgid "common/getButton/upperCase"
+msgstr "HANKI ARKKUJA"
+
+msgid "common/loader"
+msgstr "Arkun avaaminen..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Avaa arkkuja nähdäksesi tilastot."
+
+msgid "common/statistics/header"
+msgstr "Arkkuja avattu: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Kaikki tiedot avatuista arkuista poistetaan."
+
+msgid "entryPoint/boxes"
+msgstr "ARKKUIHIN"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Nämä ovat erikoisarkkuja, jotka sisältävät premium-vaunuja, kolmiulotteisia lisävarusteita, krediittejä ja muita pelinsisäisiä arvotavaroita.\nVoit hankkia niitä pelinsisäisestä Kaupasta."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Arkkuja ei voi tällä hetkellä avata tai ostaa teknisten syiden tähden. Pahoittelemme väliaikaista haittaa."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Arkut eivät ole hetkellisesti saatavilla"
+
+msgid "eventName/lowerCase"
+msgstr "Upeana vihreässä"
+
+msgid "eventName/upperCase"
+msgstr "UPEANA VIHREÄSSÄ"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Taattu palkinto seuraavassa arkussa!"
+
+msgid "guaranteedTitle/text"
+msgstr "Suurin määrä arkkuja ennen takuupalkintoa: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Mikäli et avaa arkkuja ennen tapahtuman päättymistä, ne avataan automaattisesti."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Mikäli omistat jo kaikki vaunut arkun mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat arkuista, kullalla niiden täyden arvon mukaan."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Joka %(guaranteed0)s. arkku sisältää taatusti tason VIII-IX vaunun. Jos avaat niitä saamatta tällaista vaunua, saat sellaisen tason VIII-IX vaunun, jota et vielä omista, kun avaat %(guaranteed0)s&zwnbsp;. arkun. Kun näin käy, laskuri nollautuu."
+
+msgid "infoPage/header/description"
+msgstr "Avaa arkku saadaksesi mahdollisuuden saada arvokkaita pelihyödykkeitä! Katso lisätietoja alta."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "\"%(name)\" -arkusta (%(boxesCount) arkkua avattu)"
+
+msgid "noBoxesView/description/"
+msgstr "Sinulla ei ole arkkuja. \nVoit saada niitä pelinsisäisestä Kaupasta."
+
+msgid "preview/backLabel"
+msgstr "ARKKUIHIN"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Arkkuja saatavilla: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Ei arkkuja saatavilla"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Mikäli omistat jo kaikki vaunut arklun mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat arkuista, kullalla."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) arkku"
+msgstr[1] "%(remainingCount) arkkua"
+msgstr[2] "%(remainingCount) arkkua"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Takuupalkinto on vaunu arkunmahdollisten sisältöjen listalta.\nJos avaat %(remainingCount) saamatta tällaista vaunua, saat sen avatessasi %(count) arkun. Näin tapahtuessa laskuri nollautuu."

@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Gavę žalos nustosite atgauti patvarumo taškus.\n\nPatvarumo taškų atstatymo greitis ir maksimalus kiekis priklauso nuo maksimalių mašinos patvarumo taškų, pritaikius visus modifikatorius."
+
+msgid "armorPatching/alt/info"
+msgstr "Grupiniams įgūdžiams apskaičiuoti nustatomas vidutinis visų įgulos narių treniravimo lygis. Jis pradeda veikti pasiekus bent 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Panaudoję remonto komplektą per 5 s atstatysite iki %(hpRecover)s mašinos {yellow_Start}patvarumo taškų{yellow_End}, maksimaliai iki 20% patvarumo taškų. Leidžia naudoti remonto komplektus neturint kritinės žalos."
+
+msgid "armorPatching/hudDescription"
+msgstr "Patvarumo taškai atstatyti."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Pilnai ištreniravus visai įgulai panaudojus remonto komplektą per 5 s atstato iki %(hpRecover)s mašinos {yellow_Start}patvarumo taškų{yellow_End}, maksimaliai iki 20% patvarumo taškų. Leidžia naudoti remonto komplektus neturint kritinės žalos."
+
+msgid "armorPatching/name"
+msgstr "Šarvų lopymas"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Padidina mašinos bazinę maskuotę."
+
+msgid "brotherhood/alt/description"
+msgstr "Įgulos efektyvumo bonusas pagerina įgulos narių efektyvumą mūšyje ir visų jų išmoktų įgūdžių efektyvumą, išskyrus šį. Šį parametrą galite dar labiau padidinti su panašaus efekto įranga ar ekipuote, arba panaudoję instrukciją Ortakių išvalymas. Taip pat šį parametrą gali padidinti vado įgūdis Kritinė padėtis arba Radisto įgūdžiai Petys prie peties ir Komunikacijos ekspertas."
+
+msgid "brotherhood/alt/info"
+msgstr "Grupiniams įgūdžiams apskaičiuoti nustatomas vidutinis visų įgulos narių treniravimo lygis. Jis pradeda veikti pasiekus bent 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "Visų įgulos narių {greenBright_Start}įgulos efektyvumo bonusas{greenBright_End} padidinamas %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Pilnai ištreniruotas visai įgulai, padidina visos įgulos {greenBright_Start}įgūdžių efektyvumo bonusą{greenBright_End} %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Ginklo broliai"
+
+msgid "brotherhood/shortDescription"
+msgstr "Pagerina bendrą įgulos darbą."
+
+msgid "camouflage/alt/description"
+msgstr "Ši įgūdis pakeičia mašinos maskuotę. Ją galima dar labiau pagerinti su Natūralios priedangos instrukcija.\n\nTaip pat mašinos maskuotę galima pagerinti su kamufliažais, stiliais ar panašų efektą suteikiančia įranga."
+
+msgid "camouflage/alt/info"
+msgstr "Grupiniams įgūdžiams apskaičiuoti nustatomas vidutinis visų įgulos narių treniravimo lygis. Jis pradeda veikti pasiekus bent 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Mašinos {greenBright_Start}Maskuotė{greenBright_End} padidinama %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Pilnai ištreniruotas visai įgulai mašinos {greenBright_Start}maskuotę{greenBright_End} padidina %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Maskuotė"
+
+msgid "camouflage/shortDescription"
+msgstr "Padidina mašinos bazinę maskuotę."
+
+msgid "commander_coordination/alt/description"
+msgstr "Efektas aktyvuojamas kiekvieną kartą aptikus mašiną ir jo veikimas nestiprėja aptikus kelias mašinas.\n\nTaikymosi greitį galima dar labiau padidinti treniruojant šaulio įgūdį Greitas taikymasis arba sumontuojant tinkamą įrangą."
+
+msgid "commander_coordination/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Taikymosi greitis{yellow_End} aptikus priešo mašiną bus 15 s padidintas %(vehicleGunAimSpeed)s."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Taikymosi greitis padidintas."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Pilnai ištreniruotas 15 s padidina {yellow_Start}taikymosi greitį{yellow_End} %(vehicleGunAimSpeed)s aptikus priešo mašiną.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordinacija"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Taikymosi greitis padidintas."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Apžvalgos lauką galima padidinti su radisto įgūdžiu Radio perėmėjas arba sumontuojant panašaus veikimo įrangą. Optikos kalibravimo instrukcija gali pagerinti šį efektą."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Matymo laukas{greenBright_End} padidinamas %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Nuobauda už pažeistą stebėjimo įrangą{greenBright_End} sumažinama %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Nuobauda dėl pažeistos stebėjimo įrangos sumažinama."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Pilnai ištreniruotas padidina {greenBright_Start}matymo lauką{greenBright_End} %(circularVisionRadius)s&zwnbsp; ir sumažina{greenBright_Start}nuobaudą už pažeistą stebėjimo įrangą{greenBright_End} %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Žvalgybininkas"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Padidina mašinos apžvalgos lauką, ypač su sužalotais apžvalgos prietaisais."
+
+msgid "commander_emergency/alt/description"
+msgstr "Pakartotinai gavus žalos iš priešo efektas nestiprėja. Įgulos efektyvumo bonusas pagerina įgulos nario darbą mūšyje. Šį parametrą galima dar labiau padidinti sumontavus įrangą, naudojant panašaus efekto ekipuotę ar naudojant instrukciją Ortakių išvalymas. Šį parametrą taip pat padidina grupinis įgūdis Ginklo broliai ir radisto Petys prie peties ir Komunikacijos ekspertas."
+
+msgid "commander_emergency/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Įgulos efektyvumo bonusas{yellow_End} gavus žalos iš priešo 15 s bus padidintas %(crewLevelIncrease)s."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Įgulos efektyvumo bonusas padidintas."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Pilnai ištreniruotas gavus žalos iš priešo 15 s padidina {yellow_Start}įgulos efektyvumo bonusą{yellow_End} %(crewLevelIncrease)s."
+
+msgid "commander_emergency/name"
+msgstr "Kritinė padėtis"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Įgulos efektyvumo bonusas padidintas."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Pranešimas apie Artilerijos šūvį aktyvuojamas praėjus šiek tiek laiko nuo iššovimo.\n\nĮgūdžio efektą galima pagerinti su instrukcija Padidintas budrumas."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Pranešimas apie priešo artilerijos smūgį{yellow_End} ir šūvio kryptis bus parodomi praėjus %(artNotificationDelayFactor)s po šūvio. {greenBright_Start}Gautas apkurtimo efektas{greenBright_End} bus sumažintas %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Pilnai ištreniruotas, pateikia {yellow_Start}perspėjimą apie priešo artilerijos ugnį{yellow_End} ir nustato šūvio kryptį %(artNotificationDelayFactor)s po šūvio. {greenBright_Start}Gautą apkurtimo efektą{greenBright_End} sumažina %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Garso aptikimas"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Informuoja apie priešų artilerijos šūvį."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Įgulos efektyvumo bonusas pagerina įgulos narių efektyvumą mūšyje ir visų jų išmoktų įgūdžių efektyvumą, išskyrus šį.\n\nŠį parametrą galite dar labiau padidinti su panašaus efekto įranga ar ekipuote, arba panaudoję instrukciją Ortakių išvalymas. Taip pat šį parametrą gali padidinti įvairūs kiti įgūdžiai."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Įgulos efektyvumo bonusas{yellow_End} bus padidintas %(crewLevelIncrease)s jei priešų komandoje bus bent trijomis mašinomis daugiau, nei jūsų komandoje&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Įgulos efektyvumo bonusas padidintas (priešų dauguma)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(crewLevelIncrease)s padidina {yellow_Start}įgulos efektyvumo bonusą{yellow_End} jei priešų komandoje yra bent trijomis mašinomis daugiau, nei jūsų komandoje&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Laikome liniją"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Padidina įgulos efektyvumo bonusą"
+
+msgid "commander_practical/alt/description"
+msgstr "Įgūdis veikia bet kokio tipo ekipuotei, sumontuotai jūsų mašinoje.\n\nJo efektą galima dar labiau padidinti su instrukcija Atidus pasiruošimas."
+
+msgid "commander_practical/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Ekipuotės atsistatymo laikas{greenBright_End} sumažinamas %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Pilnai ištreniruotas, sumažina {greenBright_Start}ekipuotės atsistatymo laiką{greenBright_End} %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praktiškumas"
+
+msgid "commander_practical/shortDescription"
+msgstr "Sumažina ekipuotės atsistatymo laiką."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Jei vadas sužeistas, Šeštasis jausmas neveikia. Jo aktyvavimo laiką galima sumažinti su Radio operatoriaus įgūdžiu Signalo aptikimas."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Tai speciali vado funkcija, kurios nereikia ištreniruoti ir kurią turi visi vadai."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Leidžia jūsų vadui nustatyti, ar jūsų mašina jau buvo pastebėta priešo. Aktyvuojamas %(delay)s po to, kai esate pastebimi."
+
+msgid "commander_sixthSense/name"
+msgstr "Šeštas jausmas"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Leidžia vadui nustatyti ar jo mašiną pastebėjo priešai."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Įgulos efektyvumo bonusas pagerina įgulos narių efektyvumą mūšyje ir visų jų išmoktų įgūdžių efektyvumą, išskyrus šį.\n\nŠį parametrą galite dar labiau padidinti su panašaus efekto įranga ar ekipuote, arba panaudoję instrukciją Ortakių išvalymas. Taip pat šį parametrą gali padidinti įvairūs kiti įgūdžiai."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Įgulos efektyvumo bonusas{yellow_End} bus padidintas %(crewLevelIncrease)s 15&nbsp;s po to, kai panaudosite vaistinėlę. Leidžia naudoti vaistinėles, net jei nė vienas įgulos narys nėra sužeistas&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Įgulos efektyvumo bonusas padidintas (panaudota vaistinėlė)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(crewLevelIncrease)s padidina {yellow_Start}įgulos efektyvumo bonusą{yellow_End} 15 s po to, kai panaudojate vaistinėlę. Leidžia naudoti vaistinėles, net jei nė vienas įgulos narys nėra sužeistas&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Išliekame atidūs"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Padidina įgulos efektyvumo bonusą"
+
+msgid "commander_tutor/alt/description"
+msgstr "Sužalotas vadas negali pakeisti kito įgulos nario. Bonusas suteikiamas tik įgulos patirčiai mūšyje.\n\nDaugiau įgulos patirties galima gauti iš įgulos knygų arba konvertuojant laisvąją patirtį į įgulos patirtį."
+
+msgid "commander_tutor/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Uždirbtos {greenBright_Start}patirties{greenBright_End} kiekis visiems nariams padidinamas %(xpBonusFactorPerLevel)s. Vadas gali {greenBright_Start}perimti nukautų įgulos narių darbą{greenBright_End} su %(woundedCrewEfficiency)s efektyvumu."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Nukautą įgulos narį pakeičia vadas."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(xpBonusFactorPerLevel)s padidina uždirbamos {greenBright_Start}patirties{greenBright_End} kiekį visiems nariams. Leidžia vadui {greenBright_Start}perimti nukautų įgulos narių darbą{greenBright_End} su %(woundedCrewEfficiency)s efektyvumu."
+
+msgid "commander_tutor/name"
+msgstr "Mokytojas"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Nukautą įgulos narį pakeičia vadas."
+
+msgid "commander_universalist/alt/description"
+msgstr "Vadas gali pakeisti tik pagrindinę nukauto įgulos nario kvalifikaciją. Pakeitimo efektas sumažėja su kiekvienu nukautu įgulos nariu."
+
+msgid "commander_universalist/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruota bent iki 1%. Efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Vadas gali {greenBright_Start}pakeisti nukautą{greenBright_End} įgulos narį su %(woundedCrewEfficiency)s efektyvumu."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Vadas atlieka nukauto įgulos nario vaidmenį."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Pilnai ištreniruotas leidžia vadui {greenBright_Start}pakeisti nukautą{greenBright_End} įgulos narį su %(woundedCrewEfficiency)s efektyvumu."
+
+msgid "commander_universalist/name"
+msgstr "Visų galų meistras"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Leidžia vadui pakeisti nukautus įgulos narius."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Sumažina nuobaudą mašinos manevringumui ir akceleracijai važiuojant vidutiniškai minkštu gruntu. Ženkliai sumažina šias nuobaudas ant minkšto grunto ir prilygina jas nuobaudoms važiuojant vidutiniškai minkštu.\nManevringumas važiuojant vidutiniškai minkštu ir minkštu gruntu negali viršyti manevringumo važiuojant kietu gruntu."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Greičio praradimas važiuojant vidutiniškai minkštu gruntu{greenBright_End} sumažinamas %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}greičio praradimas važiuojant minkštu gruntu{greenBright_End} sumažinamas iki %(softGroundFactor)s vertės važiuojant vidutiniškai minkštu."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Pilnai ištreniruotas sumažina {greenBright_Start}greičio praradimą važiuojant vidutiniškai minkštu gruntu{greenBright_End} %(mediumGroundFactor)s&zwnbsp;, sumažina {greenBright_Start}greičio praradimą važiuojant minkštu gruntu{greenBright_End} iki %(softGroundFactor)s vertės važiuojant vidutiniškai minkštu."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Bekelės karalius"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Įgulos efektyvumo bonusas pagerina įgulos narių efektyvumą mūšyje ir visų jų išmoktų įgūdžių efektyvumą, išskyrus šį.\n\nŠį parametrą galite dar labiau padidinti su panašaus efekto įranga ar ekipuote, arba panaudoję instrukciją Ortakių išvalymas. Taip pat šį parametrą gali padidinti įvairūs kiti įgūdžiai."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Įgulos efektyvumo bonusas{yellow_End} bus padidintas %(crewLevelIncrease)s, jei jūsų nublokuota žala viršija jūsų mašinos patvarumo taškų kiekį."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Įgulos efektyvumo bonusas padidintas (nublokuota pakankamai žalos)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(crewLevelIncrease)s padidina {yellow_Start}Įgulos efektyvumo bonusą{yellow_End}, jei jūsų nublokuota žala viršija jūsų mašinos patvarumo taškų kiekį."
+
+msgid "driver_bulletproof/name"
+msgstr "Neperšaunamas"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Maksimalų mašinos greitį galite dar labiau padidinti, o nuobaudą pažeistam varikliui galite dar labiau sumažinti naudodami panašaus efekto įrangą."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "Jūsų mašinos {greenBright_Start}maksimalus greitis į priekį{greenBright_End} ir {greenBright_Start}atgal{greenBright_End} padidinamas %(vehicleForwardMaxSpeed)s. {greenBright_Start}Nuobauda pažeistam varikliui{greenBright_End} sumažinama %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Nuobauda pažeistam varikliui sumažinama."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleForwardMaxSpeed)s padidina jūsų mašinos {greenBright_Start}maksimalų greitis į priekį{greenBright_End} ir {greenBright_Start}atgal{greenBright_End}. %(vehPenaltyForDamagedEngine)s sumažina {greenBright_Start}nuobaudą pažeistam varikliui{greenBright_End}&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Inžinierius"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Nuobauda pažeistam varikliui sumažinama."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Šis įgūdis neveikia susidūrus dvejoms sąjungininkų mašinoms.\n\nTarano žalą jūsų mašinai galima sumažinti su panašų efektą turinčia įranga."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Taranavimo žala priešų mašinoms{greenBright_End} padidinama %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Taranavimo žala jūsų mašinai{greenBright_End} sumažinama %(vehicleRamDamageResistance)s&zwnbsp;, o {greenBright_Start}jūsų važiuoklei{greenBright_End} sumažinama %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(damageEnemiesByRamming)s padidina {greenBright_Start}taranavimo žala priešų mašinoms{greenBright_End}&zwnbsp;. %(vehicleRamDamageResistance)s sumažina {greenBright_Start}taranavimo žala jūsų mašinai{greenBright_End}&zwnbsp; ir %(vehicleRamChassisDamageResistance)s sumažina {greenBright_Start}jūsų važiuoklei{greenBright_End}&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Tarano meistras"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Sumažina taranavimo žalą jūsų mašinai ir padidina taranu daromą žalą priešų mašinoms."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Gaunamą žalą iš fugasinių skiedinių galima dar labiau sumažinti su panašų efektą suteikiančia įranga."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Atsparumas kumuliatyviniams sviediniams{greenBright_End} padidinamas %(vehicleHEShellDamageResistance)s&zwnbsp;. {greenBright_Start}Variklio užsiliepsnojimo tikimybė{greenBright_End} sumažinama %(vehicleFireChance)s, o {greenBright_Start}žala&nbsp;važiuoklei{greenBright_End} %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Pilnai išreniruotas {greenBright_Start}atsparumą kumuliatyviniams sviediniams{greenBright_End} padidina %(vehicleHEShellDamageResistance)s&zwnbsp;. {greenBright_Start}Variklio užsiliepsnojimo tikimybę{greenBright_End} sumažina %(vehicleFireChance)s, o {greenBright_Start}žalą važiuoklei{greenBright_End} sumažina %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Patikimas išdėstymas"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Nepaveikia vietoje stovinčios arba vietoje besisukančios mašinos taiklumo.\n\nĮgūdį galima pagerinti su Greičių dėžės subtilybių instrukcija. Taiklumas važiuojant gali būti padidinamas su panašaus veikimo įranga arba jį galima pagerinti su Stabilizatorių sutepimo instrukcija."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Ginklo išbarstymas{greenBright_End} važiuojant sumažinamas %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleGunShotDispersionChassisMovement)s sumažina {greenBright_Start}ginklo sklaidą{greenBright_End} važiuojant&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Švelni eiga"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Padidina taiklumą važiuojant."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Šis gebėjimas padidina važiuoklės remontavimo greitį nuo raudonos iki geltonos stadijos, kai 50 m atstumu yra kitas komandos narys."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Važiuoklės remontavimo greitis{yellow_End} bus padidintas %(suspensionRepairSpeed)s, jei 50 m atstumu nuo jūsų bus kitas komandos narys."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Važiuoklės remonto greitis padidintas (šalia komandos narys)"
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Pilnai ištreniruotas padidina {yellow_Start}važiuoklės remontavimo greitį{yellow_End} %(suspensionRepairSpeed)s, jei 50 m atstumu nuo jūsų yra kitas komandos narys."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Pagalba mūšio lauke"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Mašinos atsparumą ugniai galima padidinti su panašų efektą turinčia įranga ar ekipuote. Gaisro gesinimo įgūdžio greitis padidės, jei po vieno gaisro kils kitas."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruota bent iki 1%. Efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "{greenBright_Start}Tikimybę varikliui užsiliepsnoti{greenBright_End} sumažina %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Pilnai ištreniruotas {greenBright_Start}tikimybę varikliui užsiliepsnoti{greenBright_End} sumažina %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Švara ir tvarka"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Sumažina variklio užsiliepsnojimo tikimybę."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Korpuso sukimosi greitį galima padidinti su panašų poveikį turinčia įranga ar ekipuote."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Mašinos sukimosi greitis{greenBright_End} padidinamas %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleAllGroundRotationSpeed)s padidina {greenBright_Start}korpuso sukimosi greitį{greenBright_End}."
+
+msgid "driver_virtuoso/name"
+msgstr "Virtuozas"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Padidina korpuso sukimosi greitį."
+
+msgid "fireFighting/alt/description"
+msgstr "Šis įgūdis paveikia ugnies daromos žalos kiekį ir trukmę.\n\nJei šį įgūdį turi du radistai, išvedamas ir taikomas jų abiejų išmokimo vidurkis.\n\nĮgūdį galima pagerinti su instrukcija Patyrę ugniagesiai."
+
+msgid "fireFighting/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Gaisro gesinimo greitį{greenBright_End} padidina %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(fireExtinguishingRate)s padidina {greenBright_Start}gaisro gesinimo greitį{greenBright_End}&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Gaisro gesinimas"
+
+msgid "fireFighting/shortDescription"
+msgstr "Pagreitina gaisro gesinimą."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Be jokių pakeitimų, potencialios žalos ir pramušimo netikslumas yra ±25% bazinės vertės. Pavyzdžiui, jei sviedinys gali pramušti 100mm storio šarvus ir padaryti 100 žalos, tai smūgio metu sviedinys gali pramušti nuo 75 iki 125 mm ir padaryti nuo 75 iki 125 žalos. Sumažindami šį rodiklį galite tikėtis patikimesnių rezultatų.\n\nJei du šauliai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "{greenBright_Start}Potencialios žalos{greenBright_End} ir {greenBright_Start}potencialaus pramušimo{greenBright_End} rėžius sumažina {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Ginklo išbarstymą{greenBright_End} sumažina %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Pilnai ištreniruotas {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s sumažina {greenBright_Start}potencialios žalos{greenBright_End} ir {greenBright_Start}potencialaus pramušimo{greenBright_End} rėžius. %(shotDispersionAngle)s sumažina {greenBright_Start}ginklo išbarstymą{greenBright_End}&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Ginklo meistras"
+
+msgid "gunner_focus/alt/description"
+msgstr "Efektas aktyvuojamas mašinai pastovėjus vietoje 3 s ir nutraukiamas pradėjus judėti.\n\nJei du šauliai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis."
+
+msgid "gunner_focus/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "Stovinčios mašinos {yellow_Start}ginklo išbarstymas{yellow_End} sumažinamas %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Ginklo išbarstymas sumažinamas."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(shotDispersionAngle)s sumažina stovinčios mašinos {yellow_Start}ginklo išbarstymą{yellow_End}&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Koncentracija"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Sumažina stovinčios mašinos pabūklo išbarstymą."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Pabūklo išbarstymą ir taikymosi greitį galima dar labiau pagerinti įgulai ištreniruojant įgūdžius arba sumontuojant įrangą.\n\nJei du šauliai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Pabūklo išbarstymas{yellow_End} bus sumažintas %(vehicleGunAimSpeed)s, o {yellow_Start}taikymosi greitis{yellow_End} bus padidintas %(vehicleGunAimSpeed)s, jei 300 m atstumu nebus nė vieno komandos nario."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Pabūklo išbarstymas ir taikymosi greitis pagerinti (šalia nėra komandos narių)"
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Pilnai ištreniruotas sumažina {yellow_Start}pabūklo išbarstymą{yellow_End} ir padidina {yellow_Start}taikymosi greitį{yellow_End} %(vehicleGunAimSpeed)s, jei 300 m atstumu nėra nė vieno komandos nario."
+
+msgid "gunner_loneWolf/name"
+msgstr "Vienišas vilkas"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Pabūklo išbarstymas sumažintas. Taikymosi greitis padidintas."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Įprastai maksimalus pramušimas yra +25% bazinės vertės. Pavyzdžiui, jei sviedinys gali pramušti iki 100 mm šarvų, iš tiesų pataikius maksimalus sviedinio pramušimas gali būti 125 mm. Padidindami šią vertę galite daug sėkmingiau pramušti priešo šarvus.\n\nJei du šauliai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "{yellow_Start}Maksimalus potencialus sviedinių pramušimas{yellow_End} bus padidintas %(piercingHEShellsDistributionUpperBound)s, jei šausite į mašinas, esančias nedidesniu, nei 50 m atstumu."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(piercingHEShellsDistributionUpperBound)s padidina {yellow_Start}maksimalų potencialų sviedinių pramušimą{yellow_End}, jei šaunate į priešą, esantį nedidesniu, nei 50 m atstumu."
+
+msgid "gunner_pointBlast/name"
+msgstr "Tiesiai prieš veidą"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Padidina maksimalų potencialų jūsų sviedinių pramušimą"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Jei du šauliai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis.\n\nTaikymosi greitį galite dar labiau padidinti treniruodami vado įgūdį Koordinacija arba sumontuodami panašų efektą suteikiančią įrangą.\n\nBokštelio sukimosi greitį galite dar labiau padidinti naudodami atitinkamą įrangą ar ekipuotę."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Taikymosi greitis{greenBright_End} ir {greenBright_Start}bokštelio sukimosi greitis{greenBright_End} padidinami %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleGunAimSpeed)s padidina {greenBright_Start}taikymosi greitį{greenBright_End} ir {greenBright_Start}bokštelio sukimosi greitį{greenBright_End}&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Greitas taikymasis"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Taikymosi greitis padidintas."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Nustato kritiškai pažeistus priešų mašinų modulius šaulio matymo lauke nusitaikius tiesiogiai ar iš artilerinio režimo.\nŠaulio matymo lauką sudaro ±10° sektorius (iš viso 20°) priešais mašinos pabūklą.\nJei du šauliai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis.\nĮgūdžio efektyvumą galima pagerinti su instrukcija Dėmesys taikiniui. Naudodami Pagerintą radijo rinkinį galite prailginti laiką, kurį vis dar matote mašiną."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Laikas{greenBright_End}, kurį priešo {greenBright_Start}mašina išlieka matoma{greenBright_End} šaulio matymo lauke, yra padidinamas %(vehicleEnemySpottingTime)s. Laikas, per kurį {yellow_Start}nustatomi pažeisti moduliai{yellow_End}, sumažinamas iki %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleEnemySpottingTime)s padidina {greenBright_Start}laiką{greenBright_End}, kurį priešo {greenBright_Start}mašina išlieka matoma{greenBright_End} šaulio matymo lauke. Leidžia {yellow_Start}nustatyti pažeistus modulius{yellow_End} per %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Menantis piktą"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Padidina laiką, kurį priešo mašina išlieka matoma šaulio matymo lauke. Leidžia nustatyti pažeistus modulius."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Jei du šauliai turi šį įgūdį, išvedamas ir taikomas jų išmokimo lygių vidurkis.\n\nĮgūdį galima pagerinti su instrukcija \"Tvirta ranka\". Pabūklo išbarstymą bokštelio sukimosi metu galima sumažinti su panašų efektą turinčia įranga. Galite pagerinti efektą su Stabilizatorių sutepimo instrukcija."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "Besisukančio bokštelio {greenBright_Start}ginklo išbarstymą{greenBright_End} sumažina %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Pilnai ištreniruotas besisukančio bokštelio {greenBright_Start}ginklo išbarstymą{greenBright_End} sumažina %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Švelnus bokštelio sukimas"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Sumažina ginklo išbarstymą bokštelio sukimosi metu."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Efektas taikomas visų tipų sviediniams, išskyrus mašinas su automatiniais pabūklais.\n\nJei du šauliai turi šį įgūdį, išvedamas ir taikomas jų išmokimo lygių vidurkis."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Tikimybė kritiškai pažeisti{greenBright_End} priešo {greenBright_Start}mašinos modulius{greenBright_End} ir sužaloti priešo {greenBright_Start}įgulos narius{greenBright_End} su bet kokio tipo sviediniais yra padidinamas %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(enemyModulesCrewCritChance)s padidina {greenBright_Start}tikimybę kritiškai pažeisti{greenBright_End} priešo {greenBright_Start}mašinos modulius{greenBright_End} ir sužaloti priešo {greenBright_Start}įgulos narius{greenBright_End} su bet kokio tipo sviediniais&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Snaiperis"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Be jokių pakeitimų, potencialios minimalios žalos ir pramušimo netikslumas yra -25% bazinės vertės. Pavyzdžiui, jei sviedinys gali pramušti 100mm storio šarvus ir padaryti 100 žalos, tai smūgio metu sviedinys gali pramušti tik 75 mm ir padaryti tik 75 žalos. Padidindami šį rodiklį galite tikėtis geresnių rezultatų.\n\nJei du užtaisytojai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Minimalios galimos žalos{greenBright_End} ir {greenBright_Start}minimalaus galimo pramušimo reikšmes{greenBright_End} padidina %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(damageAndPiercingDistributionLowerBound)s padidina {greenBright_Start}minimalios galimos žalos{greenBright_End} ir {greenBright_Start}minimalaus galimo pramušimo vertes{greenBright_End}&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Amunicijos sureguliavimas"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Padidina vidutinę žalą ir pramušimą."
+
+msgid "loader_desperado/alt/description"
+msgstr "Jei du užtaisytojai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis.\n\nGinklo užtaisymo laiką galima dar labiau sumažinti ištreniravus įgūdį Artima kova arba naudojant atitinkamą įrangą. Instrukcija Tvarkingas amunicijos skyrius pagerina šį efektą."
+
+msgid "loader_desperado/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Ginklo užtaisymo laikas{yellow_End} bus sumažintas %(vehicleGunReloadTime)s, jei jūsų mašina turi mažiau, nei 25% patvarumo taškų."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Ginklo užtaisymo laikas sumažintas (likus mažai patvarumo taškų)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleGunReloadTime)s sumažina{yellow_Start}ginklo užtaisymo laiką{yellow_End}, jei mašinai liko mažiau nei 25% patvarumo taškų."
+
+msgid "loader_desperado/name"
+msgstr "Žūtbūtinis"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Pagreitina ginklo užtaisymą, jeigu mašinai liko mažiau nei 25% patvarumo taškų."
+
+msgid "loader_intuition/alt/description"
+msgstr "Šį įgūdį aktyvuoti galima tik tuo atveju, nei pabūklas, abu pabūklai ar apkaba pilnai užtaisyta. Minimalus sviedinio pakeitimo laikas standartiniam pabūklui yra 1 s, dvivamzdžiui ir su apkaba 2,5 s,\n\nJei du užtaisytojai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis."
+
+msgid "loader_intuition/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Sviedinių tipo pakeitimo laiką{greenBright_End} užtaisytame pabūkle sumažina %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Sviedinių pakeitimo užtaisytame pabūkle laikas sumažinamas.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleReloadTimeAfterShellChange)s sumažina {greenBright_Start}sviedinių pakeitimo laiką{greenBright_End} užtaisytame pabūkle&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuicija"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Labai padidina sviedinių pakeitimo greitį pabūkle."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Šis įgūdis sumažina kasetes turinčių ginklų užsitaisymo laiką ir nedaro jokios įtakos kitoms ginklų sistemoms.\n\nJei du užtaisytojai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruota bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Kasečių {greenBright_Start}užtaisymo laikas{greenBright_End} sumažinamas %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(magazineGunReloadSpeed)s sumažina kasečių {greenBright_Start}užtaisymo laiką{greenBright_End}."
+
+msgid "loader_magMastery/name"
+msgstr "Kasečių kontrolė"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ sumažina kasetės užtaisymo laiką"
+
+msgid "loader_melee/alt/description"
+msgstr "Jei du užtaisytojai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis.\n\nGinklo užtaisymo laiką galima dar labiau sumažinti ištreniravus įgūdį Žūtbūtinis arba naudojant atitinkamą įrangą. Instrukcija Tvarkingas amunicijos skyrius pagerina šį efektą."
+
+msgid "loader_melee/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Ginklo užtaisymo laikas{yellow_End} bus sumažintas %(vehicleGunReloadTime)s, jei mašina yra arčiau, nei 50 m nuo priešo mašinos."
+
+msgid "loader_melee/hudDescription"
+msgstr "Ginklo užtaisymo laikas sumažinamas (kai arti priešo).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleGunReloadTime)s sumažina {yellow_Start}ginklo užtaisymo laiką{yellow_End}, jei mašina yra arčiau, nei 50 m nuo priešo mašinos."
+
+msgid "loader_melee/name"
+msgstr "Artima kova"
+
+msgid "loader_melee/shortDescription"
+msgstr "Pagreitina užsitaisymą artimoje kovoje."
+
+msgid "loader_pedant/alt/description"
+msgstr "Sužalotas užtaisytojas nepaveikia įgūdžio efektyvumo.\n\nJei du užtaisytojai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis.\n\nįgūdį galite pagerinti su instrukcija \"Išdėlioti sviedinius\". Amunicijos skyriaus patvarumą galite pagerinti su panašų efektą suteikiančia įranga."
+
+msgid "loader_pedant/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Amunicijos skyriaus patvarumas{greenBright_End} padidinamas %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Pilnai ištreniruotas {greenBright_Start}amunicijos skyriaus patvarumą{greenBright_End} padidina %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Saugus amunicijos skyrius"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Padidina amunicijos skyriaus patvarumą."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Efektas veikia su bet kokio tipo sviediniais.\n\nUžtaisytojo sužalojimas nesumažina įgūdžio efektyvumo.\n\nJei du užtaisytojai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Sviedinio greitis{greenBright_End} padidinamas %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(shellVelocity)s padidina {greenBright_Start}sviedinių greitį{greenBright_End}&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Tobulas degiklis"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Šis įgūdis nedaro jokio įtakos kasetinėms sistemoms ar automatams ir nesidvigubina dvivamzdžiams pabūklams.\n\nPabūklams su pasirenkama užtaisymo sistema, jei iššaunami abu pabūklai vienu metu, ir nė vienas nepadaro žalos, užtaisymo laikas sumažinamas abiems.\n\nJei du užtaisytojai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis.\n\nGinklo užtaisymo laiką galima dar labiau sumažinti ištreniravus įgūdžius Artima kova ir Žūtbūtinis arba naudojant atitinkamą įrangą. Instrukcija Tvarkingas amunicijos skyrius pagerina šį efektą."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Pabūklo užtaisymo laikas{yellow_End} kitam sviediniui bus sumažintas %(vehicleGunReloadTime)s, jei praeitas sviedinys nepadarė priešui žalos."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Pabūklo užtaisymo greitis padidintas (šūvis nepataikytas)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleGunReloadTime)s sumažina {yellow_Start}pabūklo užtaisymo laiką{yellow_End} kitam sviediniui, jei praeitas sviedinys nepadarė žalos priešui."
+
+msgid "loader_secondChance/name"
+msgstr "Antras šansas"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Sumažina pabūklo užtaisymo laiką"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Vieno kraujo"
+
+msgid "perkRole/commander"
+msgstr "Vadas"
+
+msgid "perkRole/common"
+msgstr "Grupė"
+
+msgid "perkRole/driver"
+msgstr "Vairuotojas"
+
+msgid "perkRole/gunner"
+msgstr "Šaulys"
+
+msgid "perkRole/loader"
+msgstr "Užtaisytojas"
+
+msgid "perkRole/radioman"
+msgstr "Radistas"
+
+msgid "popularity/tooltip/common"
+msgstr "tarp visų žaidėjų"
+
+msgid "popularity/tooltip/header"
+msgstr "Šiai mašinai, populiarus"
+
+msgid "popularity/tooltip/legendary"
+msgstr "tarp WTR legendų žaidėjų"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Jei du radistai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis.\n\nEfektą galima dar labiau padidinti su vado įgūdžiu Garso aptikimas."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruota bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Kiekvieną kartą, kai mašinos įgula apkurtinama, {greenBright_Start}negatyvus apkurtinimo efektas{greenBright_End} bus sumažintas %(stunResistanceEffectFactor)s, iki maksimalių 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Pilnai ištreniruotas kiekvieną kartą, kai mašinos įgula bus apkurtinama, {greenBright_Start}negatyvus apkurtinimo efektas{greenBright_End} sumažės %(stunResistanceEffectFactor)s&nbsp;, iki maksimalių 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Grūdinimas mūšyje"
+
+msgid "radioman_expert/alt/description"
+msgstr "Įgulos efektyvumo bonusas pagerina įgulos nario efektyvumą mūšyje. Jei du radistai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis. Šį parametrą galima dar labiau padidinti sumontuojant atitinkamą efektą suteikiančią įrangą ar ekipuotę arba panaudojus instrukciją Ortakių išvalymas. Grupinis įgūdis Ginklo broliai ir vado Kritinė situacija ar radisto Patys prie peties taip pat padidina šį parametrą."
+
+msgid "radioman_expert/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Įgulos efektyvumo bonusas{yellow_End} bus padidintas %(crewLevelIncrease)s, jei jūsų pagalbinė žala viršija jūsų mašinos patvarumo taškų kiekį&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Įgulos efektyvumo bonusas padidintas (perduota pakankamai žvalgybinės informacijos)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(crewLevelIncrease)s padidina {yellow_Start}Įgulos efektyvumo bonusą{yellow_End}, jei jūsų pagalbinė žala viršija jūsų mašinos patvarumo taškų kiekį&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Komunikacijos ekspertas"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Pagerintas įgulos darbas."
+
+msgid "radioman_finder/alt/description"
+msgstr "Jei du radistai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis.\n\nApžvalgos atstumą galima dar labiau padidinti gerinant įgūdį Erelio akis arba sumontuojant panašų efektą suteikiančią įrangą. Efektyvumą galite padidinti su Optikos kalibravimo instrukcija."
+
+msgid "radioman_finder/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Matymo laukas{greenBright_End} padidinamas %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Pilnai ištreniruotas {greenBright_Start}apžvalgos atstumą{greenBright_End}padidina %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Radio perėmėjas"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Padidina apžvalgos atstumą."
+
+msgid "radioman_interference/alt/description"
+msgstr "Jei du radistai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis.\n\nLaikas, kurį jūsų mašina išlieka matoma, gali būti dar labiau sumažinamas su tinkama įranga."
+
+msgid "radioman_interference/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Laikas, kurį jūsų mašina išlieka matoma{greenBright_End} priešui, sumažinamas %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleOwnSpottingTime)s sumažina {greenBright_Start}laiką, kurį jūsų mašina išlieka matoma{greenBright_End} priešui&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Užblokavimas"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Sumažina laiką, kurį jūsų mašina išlieka matoma priešams."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Jei du radijo operatoriai turi šį įgūdį, veikia tik didesniojo ištreniravimo lygis. Efektas aktyvus jei sunaikinus mašiną radijo operatorius yra nesužeistas.\n\nĮgūdį galima patobulinti su instrukcija \"Pirmiausia pareiga\"."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%. Efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Radio operatorius gali {yellow_Start}pranešti priešų pozicijas{yellow_End} dar %(radiomanDurationPerLevel)s po mašinos sunaikinimo."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Perduodamos pozicijos."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Pilnai ištreniruotas leidžia radio operatoriui {yellow_Start}pranešti priešų pozicijas{yellow_End} dar %(radiomanDurationPerLevel)s po mašinos sunaikinimo."
+
+msgid "radioman_lastEffort/name"
+msgstr "Iš paskutiniųjų jėgų"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Trumpą laiką po jūsų mašinos sunaikinimo vis dar galite perduoti priešų pozicijas."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Įgulos efektyvumo bonusas pagerina įgulos nario efektyvumą mūšyje. Jei du radistai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis. Šį parametrą galima dar labiau padidinti sumontuojant atitinkamą efektą suteikiančią įrangą ar ekipuotę arba panaudojus instrukciją Ortakių išvalymas. Grupinis įgūdis Ginklo broliai ir vado Kritinė situacija ar radisto Komunikacijos ekspertas taip pat padidina šį parametrą."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Įgulos efektyvumo bonusas{yellow_End} bus padidintas %(crewLevelIncrease)s, jei atstumas iki to paties tipo sąjungininko mašinos yra mažiau, nei 50 m&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Įgulos efektyvumo bonusas padidintas (arti to paties tipo sąjungininko mašina)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(crewLevelIncrease)s padidina {yellow_Start}Įgulos efektyvumo bonusą{yellow_End}, jei atstumas iki to paties tipo sąjungininko mašinos yra mažiau, nei 50 m&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Petys prie peties"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Pagerintas įgulos darbas."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Efektas pagerina specialų vado įgūdį Šeštasis jausmas, pagreitindamas jo aktyvavimą.\n\nJei du radistai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Įgūdis pradeda veikti, jei ištreniruotas bent iki 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Laikas, per kurį nustatoma{greenBright_End}, ar {greenBright_Start}jūsų mašiną aptiko{greenBright_End} priešas, sumažinamas %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(commanderLampDelay)s sumažina {greenBright_Start}laiką, per kurį nustatoma{greenBright_End}, ar {greenBright_Start}jūsų mašiną aptiko{greenBright_End} priešas."
+
+msgid "radioman_signalInterception/name"
+msgstr "Signalo aptikimas"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Šis įgūdis aktyvuojamas, kai Šeštas jausmas praneš, kad jūsų mašina pastebėta.\n\nJei du radistai turi šį įgūdį, tai išvedamas ir pritaikomas jų išmokimo lygių vidurkis.\n\nApžvalgos atstumą galima dar labiau padidinti gerinant įgūdžius Erelio akis ir Radio perėmėjas arba sumontuojant panašų efektą suteikiančią įrangą. Efektyvumą galite padidinti su Optikos kalibravimo instrukcija."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Įgūdis, kuriam aktyvuoti reikia specialių sąlygų, veikia, jei ištreniruotas bent iki 1%, o jo efektyvumas priklauso nuo ištreniravimo lygio. Įgūdis pradeda veikti specialiomis mūšio sąlygomis."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Apžvalgos atstumas{yellow_End} 5 s bus padidintas %(vehicleCircularVisionRadius)s po to, kai aktyvuojasi Šeštas jausmas."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Apžvalgos atstumas padidintas."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Pilnai ištreniruotas 5 s %(vehicleCircularVisionRadius)s padidina {yellow_Start}apžvalgos atstumą{yellow_End} po to, kai aktyvuojasi Šeštas jausmas."
+
+msgid "radioman_threatSearch/name"
+msgstr "Grėsmės paieška"
+
+msgid "repair/alt/description"
+msgstr "Šis įgūdis įtakoja vidinių ir išorinių modulių remonto greitį iš \"raudono\" į \"geltoną\".\n\nŠį parametrą galima pagerinti su panašų efektą suteikiančia įranga."
+
+msgid "repair/alt/info"
+msgstr "Grupiniams įgūdžiams apskaičiuoti nustatomas vidutinis visų įgulos narių treniravimo lygis. Jis pradeda veikti pasiekus bent 1%, o jo efektyvumas didėja su didesniu ištreniravimo lygiu."
+
+msgid "repair/currentLvlDescription"
+msgstr "Pažeistų mašinos modulių {greenBright_Start}taisymo greitį{greenBright_End} padidina %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Pilnai ištreniruotas %(vehicleRepairSpeed)s padidina pažeistų mašinos modulių {greenBright_Start}taisymo greitį{greenBright_End}&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Remontas"
+
+msgid "repair/shortDescription"
+msgstr "Pagreitina pažeistų modulių remonto greitį."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Vieno kraujo"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Populiarus"
+
+msgid "sorting/fallback"
+msgstr "Bazinis"
+
+msgid "sorting/legendary"
+msgstr "Legendinis"
+
+msgid "sorting/title"
+msgstr "Rikiuojama pagal:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopuliarus.%(whiteSpanish_Close)s Paremtas visų World of Tanks žaidėjų tendencijomis"
+
+msgid "sorting/tooltip/header"
+msgstr "WoT Plus privalumai"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Gaukite tikslią informaciją apie milijonų žaidėjų naudojamus įgūdžius ir kiekviename mūšyje pasirodykite kaip galite geriau."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendinis.%(whiteSpanish_Close)s Paremtas pagal WTR legendos rangą pasiekusių žaidėjų tendencijomis"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Įgūdžių rikiavimas negalimas"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Nėra informacijos"
+
+msgid "sorting/tooltip/title"
+msgstr "Įgulos asistentas"
+
+msgid "sorting/tooltip/types"
+msgstr "Įgūdžių rikiavimo tipai"
+
+msgid "sorting/tooltip/warning"
+msgstr "Įgūdžių rikiavimas negalimas"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Pilna informacija apie įgūdžius šiai mašinai negalima, tad įgūdžiai surikiuoti įprastai."
+
+msgid "witches_brotherhood/name"
+msgstr "Raganų puota"
+
+msgid "yha_brotherhood/name"
+msgstr "Zuikių brolija"

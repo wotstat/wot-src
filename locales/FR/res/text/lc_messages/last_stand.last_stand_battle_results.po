@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, durée : %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Difficulté normale"
+
+msgid "info/difficult/2"
+msgstr "Difficulté avancée"
+
+msgid "info/difficult/3"
+msgstr "Difficulté Brutale"
+
+msgid "info/mapName"
+msgstr "Ultime combat • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Nombre de réapparitions : {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Tous les véhicules alliés ont été détruits."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Vous n'êtes pas parvenu à arrêter le Zéro."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Le temps est écoulé."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Tous les alliés ont quitté la bataille."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Bien joué ! Prêt pour une mission plus difficile ?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Tous les ennemis en difficulté Normale ont été éliminés."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Quelles performances incroyables ! Peu atteignent ce niveau."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Tous les ennemis en Difficulté Brutale ont été éliminés."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Excellent travail ! La véritable épreuve peut maintenant commencer."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Tous les ennemis en difficulté Avancée ont été éliminés."
+
+msgid "ribbon/ban"
+msgstr "Performance inacceptable : inaction/désertion.\nRécompense non reçue."
+
+msgid "ribbon/banRecord"
+msgstr "Performances inacceptables : inaction/désertion.\nRécompense non reçue. Votre record de destruction de vagues n'a pas été mis à jour."
+
+msgid "ribbon/noReward"
+msgstr "Votre équipe n'a pas réussi à contenir la première vague.\nRécompense non reçue."
+
+msgid "status/lose"
+msgstr "BATAILLE TERMINÉE"
+
+msgid "status/win"
+msgstr "VICTOIRE"
+
+msgid "subtitle/lose"
+msgstr "Attaque non repoussée"
+
+msgid "subtitle/win"
+msgstr "Bien joué ! De nouvelles données ont été collectées."
+
+msgid "teamList/actions"
+msgstr "Actions rapides"
+
+msgid "teamList/teammates"
+msgstr "Alliés"
+
+msgid "time/record"
+msgstr "NOUVEAU\nRECORD !"
+
+msgid "title/lose/noWaves"
+msgstr "BATAILLE TERMINÉE"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s VAGUE TERMINÉE"
+msgstr[1] "%(phaseNumber)s VAGUES TERMINÉES"
+msgstr[2] "%(phaseNumber)s VAGUES TERMINÉES"
+
+msgid "title/win"
+msgstr "TOUTES LES VAGUES ONT ÉTÉ TERMINÉES"
+
+msgid "tooltip/ban"
+msgstr "Performances inacceptables : inaction/désertion. Votre record personnel de destruction de vagues n'a pas été mis à jour."

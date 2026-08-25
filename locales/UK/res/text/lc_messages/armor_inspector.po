@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Основна броня"
+
+msgid "armorValues/title/no_damage"
+msgstr "Без шкоди"
+
+msgid "armorValues/title/other"
+msgstr "Інше"
+
+msgid "armorValues/title/penetration"
+msgstr "Імовірність пробиття"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Рикошет"
+
+msgid "armorValues/title/spaced"
+msgstr "Рознесена броня"
+
+msgid "armorValues/title/values"
+msgstr "(мм)"
+
+msgid "attackerTitle"
+msgstr "Конфігурація атакувальника"
+
+msgid "attackerTooltip/body"
+msgstr "Натисніть, щоб змінити атакувальну машину"
+
+msgid "attackerTooltip/header"
+msgstr "Атакувальна машина"
+
+msgid "menu/header"
+msgstr "Тип оверлею"
+
+msgid "menu/no_armor"
+msgstr "Без оверлею"
+
+msgid "menu/nominal"
+msgstr "Номінальна броня"
+
+msgid "menu/penetration"
+msgstr "Імовірність пробиття"
+
+msgid "modules/current"
+msgstr "Поточна комплектація"
+
+msgid "modules/custom"
+msgstr "Користувацька комплектація"
+
+msgid "modules/standard"
+msgstr "Стандартна комплектація"
+
+msgid "modules/title"
+msgstr "Модулі машини"
+
+msgid "modules/top"
+msgstr "Максимальна комплектація"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} ×{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Шасі"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Гармата"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Маска гармати"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Корпус"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Екран"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Прилади спостереження"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Башта"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Колеса"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} мм"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Без шкоди"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Пробивання"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Рикошет"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Кут між траєкторією снаряда й лінією, перпендикулярною до бронеплити.\n\nТраєкторія снаряда розраховується так, ніби той рухається по прямій від центра екрана."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Кут влучення"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Імовірність пробити броню супротивника й завдати шкоди машині."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Імовірність пробиття"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Для одного шару броні ефективна броня — це номінальна броня з урахуванням кута влучення й нормалізації снаряда.\n\nЯкщо в точці влучення кілька шарів броні, результатом є сума ефективних значень кожного."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Ефективна броня"
+
+msgid "tooltip/minor/header"
+msgstr "Легенда"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Влучення в рознесену броню не завдає шкоди машині, якщо після цього снаряд не влучає й не пробиває основну броню."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Без шкоди"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Фактична товщина основної чи рознесеної броні."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Номінальна броня"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Снаряди, що влучають у броню під ковзним кутом, рикошетять. Однак після цього вони можуть влучити в іншу машину або навіть у ту ж саму."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Рикошет"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Впливає на розрахунок ефективної броні й імовірності пробиття.\n\nДля всіх розрахунків використовується дистанція у 100 м (ББ й БП снаряди втрачають пробиття з відстанню).\n\nНавички екіпажу й поліпшення атакувальної машини не впливають на розрахунки."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Конфігурація атакувальника"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Імовірність пробити броню супротивника й завдати шкоди машині.\n\nВлучення в рознесену броню не завдає шкоди машині, якщо після цього снаряд не влучає й не пробиває основну броню."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Імовірність пробиття"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Машина зазнає шкоди лише тоді, коли пробито основну броню. ОФ-снаряди можуть завдавати зменшеної шкоди навіть без пробиття, однак вони теж мають дістатися основної броні."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Основна броня"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Влучення в рознесену броню не завдає шкоди машині, якщо після цього снаряд не влучає й не пробиває основну броню.\n\nПробиття й ушкодження зовнішніх модулів шкодить їм напряму: влучите в гусеницю — знерухомите техніку, влучите в гармату — її буде виведено з ладу, влучите в прилади спостереження — зменшиться огляд."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Без шкоди"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Кути рикошету: 70° для бронебійних і підкаліберних снарядів та 85° — для кумулятивних.\n\nФугасні снаряди не рикошетять, а бронебійні та підкаліберні снаряди втрачають 25% пробиття після рикошету.\n\nРикошету не буде, якщо калібр снаряда втричі перевищує товщину номінальної броні в точці влучення (застосовується лише до бронебійних і підкаліберних снарядів)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Рикошет"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Влучення в рознесену броню не завдає шкоди машині, якщо після цього снаряд не влучає й не пробиває основну броню.\n\nПробиття й ушкодження зовнішніх модулів шкодить їм напряму: влучите в гусеницю — знерухомите техніку, влучите в гармату — її буде виведено з ладу, влучите в прилади спостереження — зменшиться огляд.\n\nКут влучення не застосовується до зовнішніх модулів (як-от гусениці чи гармата) — тут ефективна броня дорівнює номінальній."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Рознесена броня"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} мм"
+
+msgid "videoTooltip"
+msgstr "Дивіться відео про механіки пробиття броні"

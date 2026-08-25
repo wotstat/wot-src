@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Glavni oklop"
+
+msgid "armorValues/title/no_damage"
+msgstr "Nema štete"
+
+msgid "armorValues/title/other"
+msgstr "Ostalo"
+
+msgid "armorValues/title/penetration"
+msgstr "Šansa penetracije"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Rikošet"
+
+msgid "armorValues/title/spaced"
+msgstr "Razmaknuti oklop"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Konfiguracija napadača"
+
+msgid "attackerTooltip/body"
+msgstr "Klikni da promeniš napadno vozilo"
+
+msgid "attackerTooltip/header"
+msgstr "Napadno vozilo"
+
+msgid "menu/header"
+msgstr "Tip preklapanja"
+
+msgid "menu/no_armor"
+msgstr "Bez preklapanja"
+
+msgid "menu/nominal"
+msgstr "Nominalan oklop"
+
+msgid "menu/penetration"
+msgstr "Šansa penetracije"
+
+msgid "modules/current"
+msgstr "Trenutna konfiguracija"
+
+msgid "modules/custom"
+msgstr "Prilagođena konfiguracija"
+
+msgid "modules/standard"
+msgstr "Standardna konfiguracija"
+
+msgid "modules/title"
+msgstr "Moduli vozila"
+
+msgid "modules/top"
+msgstr "Najbolja konfiguracija"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Šasija"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Top"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Oklop topa"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Trup"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Mreža"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Uređaj za nadgledanje"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Kupola"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Točkovi"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Nema štete"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Probijeno"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Rikošet"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Ugao između putanje granate i linije normalne na oklopnu ploču.\n\nPutanja granate se računa kao da se granata pomera u pravoj liniji od centra ekrana."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Ugao pogotka"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Šansa penetracije neprijateljskog oklopa i nanošenja štete vozilu."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Šansa penetracije"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Za jednoslojni oklop, efektivni oklop je nominalni oklop modifikovan uglom pogotka i normalizacijom granate.\n\nAko ima više slojeva oklopa u tački udara, rezultat je zbir efektivnih vrednosti svakog sloja."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Efektivan oklop"
+
+msgid "tooltip/minor/header"
+msgstr "Legenda"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Pogađanje razmaknutog oklopa ne naosi štetu vozilu osim ako granata ne pogodi i zatim ne probije glavni oklop nakon toga."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Nema štete"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Prava debljina glavnih ili razmaknutih oklopnih ploča."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nominalan oklop"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Granate koje pogode neprijateljski oklop pod kosim uglom će se odbiti od njega. Međutim, mogu i dalje da pogode drugo ili čak i isto vozilo."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Rikošet"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Utiče na izračunavanje efektivnog oklopa i šansu penetracije.\n\nRazdaljina od 100 m se koristi za sve kalkulacije (pancirne i APCR granate gube moć penetracije tokom distance).\n\nOdlike posade i poboljšanja na vozilu koje napada ne utiču na ove proračune."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Konfiguracija napadača"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Šansa penetracije neprijateljskog oklopa i nanošenja štete vozilu.\n\nPogađanje razmaknutog oklopa ne naosi štetu vozilu osim ako granata ne pogodi i potom probije glavni oklop nakon toga."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Šansa penetracije"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Vozilo je oštećeno samo ako je glavni oklop pogođen i probijen. Fugasne granate mogu da nanesu smanjenu štetu vozilu čak i bez probijanja, međutim, i dalje moraju da stignu do glavnog oklopa."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Glavni oklop"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Pogađanje razmaknutog oklopa ne oštećuje vozilo osim ako granata ne pogodi, a zatim probije glavni oklop.\n\nPogađanje i penetracija spoljnih modula direktno oštećuje te module: pogodak u gusenicu da bi se imobilisalo vozilo, pogodak u top da bi se onemogućilo ili pogodak u uređaj za osmatranje da bi se smanjio videokrug vozila."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Nema štete"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Ugao rikošeta je 70 stepeni za pancirne i APCR granate i 85 stepeni za HEAT granate.\n\nFugasne granate se ne rikošetiraju, dok pancirne i APCR granate gube 25% svoje probojne moći nakon rikošeta.\n\n Rikošet se neće dogoditi ako je kalibar granate veći od tri puta nominalne debljine oklopa u mestu udara (ovo se odnosi samo na pancirne i APCR granate)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Rikošet"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Pogađanje razmaknutog oklopa ne oštećuje vozilo osim ako granata ne pogodi, a zatim probije glavni oklop.\n\nPogađanje i penetracija spoljnih modula direktno oštećuje te module: pogodak u gusenicu da bi se imobilisalo vozilo, pogodak u top da bi se onemogućilo ili pogodak u uređaj za osmatranje da bi se smanjio videokrug vozila.\n\nUgao pogotka se ne primenjuje na eksterne module (poput gusenica i topa) - ovde, efektivan oklop uključuje nominalni oklop."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Razmaknuti oklop"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Pogledaj video o mehanici probijanja oklopa"

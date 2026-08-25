@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Gevechten op de servers komen beschikbaar over %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Deze modus is op alle servers onbeschikbaar"
+
+msgid "alertMessage/ban"
+msgstr "Je toegang tot deze modus is tijdelijk geblokkeerd. Resterende tijd: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Verander van server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Details"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Deze modus is onbeschikbaar op je huidige server %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Deze modus is op alle servers onbeschikbaar."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Je moet minstens %(count)s geschikte voertuigen voor de modus hebben. Bekijk de 'Over Bestorming' pagina voor meer details."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Niet genoeg geschikte voertuigen"
+
+msgid "alertMessage/modeOffline"
+msgstr "Databasefout. Spelmodus onbeschikbaar."
+
+msgid "alertMessage/noVehicles"
+msgstr "Geen geschikte niveau %(levels)s voertuigen in de garage %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Gevechten zijn op de %(serverName)s-server niet beschikbaar"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Gevechten zijn op de %(serverName)s-server niet beschikbaar"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Niet genoeg geschikte voertuigen %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Deze modus is op de %(serverName)s-server niet beschikbaar"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Seizoen van de Azuurblauwe Draak begint: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Seizoen van de Karmozijnrode Draak begint: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Seizoen van de Jaden Draak begint: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Wachtend op kwalificatieresultaten om je rang te ontvangen"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Seizoen van de Azuurblauwe Draak is afgelopen"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Seizoen van de Karmozijnrode Draak is afgelopen"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Seizoen van de Jaden Draak is afgelopen"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Op deze server komen gevechten beschikbaar over %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Deze modus is op de %(serverName)s-server niet beschikbaar"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s u %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Geen geschikte niveau %(levels)s voertuigen in de garage"
+
+msgid "awardsWidget/description/award"
+msgstr "Klik om je beloningen te selecteren en claimen."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Eindbeloningen zijn tijdelijk onbeschikbaar. Onze excuses voor het ongemak."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "CLAIM\nBELONING"
+msgstr[1] "CLAIM\nBELONINGEN"
+msgstr[2] "CLAIM\nBELONINGEN"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Stemmen"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Je hebt al gestemd op de %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Niet verbannen"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Stel een voertuig voor om te verbannen"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Je kunt alleen stemmen tijdens\nde stemfase voor verbanning"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Je hebt voorgesteld:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Iemand in je team\nheeft het voertuig geselecteerd dat je wilt verbannen"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Wacht tot de stemfase voor verbanning is afgelopen"
+
+msgid "banView/button/back"
+msgstr "TERUG"
+
+msgid "banView/button/ban"
+msgstr "Naar selectie verbanning"
+
+msgid "banView/button/description"
+msgstr "NAAR VOERTUIGSELECTIE"
+
+msgid "banView/description/prepick"
+msgstr "Selecteer het meest geschikte voertuig voor deze kaart en je teamsamenstelling"
+
+msgid "banView/description/voting"
+msgstr "Kies een voertuig dat je van dit gevecht wilt uitsluiten"
+
+msgid "banView/factory/candidate"
+msgstr "Kandidaat voor verbanning: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Verbanningskandidaten"
+
+msgid "banView/factory/noCandidates"
+msgstr "Geen kandidaat voor verbanning"
+
+msgid "banView/factory/pick"
+msgstr "Jouw kandidaat: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Niet verbannen"
+
+msgid "banView/title/prepick"
+msgstr "Voertuig preselectie fase"
+
+msgid "banView/title/voting"
+msgstr "Stemfase voor verbanning"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Stem bevestigd"
+
+msgid "banView/tooltip/noAction"
+msgstr "Geen handeling verricht"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Deze speler heeft nog geen voertuig voor verbanning voorgesteld."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Voorgesteld"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Tankjagers"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Zware tanks"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Lichte tanks"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Medium tanks"
+
+msgid "banView/withoutBan"
+msgstr "Niet verbannen"
+
+msgid "banWidget/allies"
+msgstr "Geallieerde stemmen"
+
+msgid "banWidget/enemies"
+msgstr "Vijandelijke stemmen"
+
+msgid "banWidget/tooltip"
+msgstr "Het team is het niet eens geworden over de verbanning van een voertuig, waardoor een van de voertuigen met de meeste stemmen willekeurig is gekozen en verbannen."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Pas de weergave van voertuigen aan op type, rol en natie."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Filter op parameters"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Hier worden alleen voertuigen weergegeven die in de modus kunnen worden gebruikt."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Geen voertuigen die aan de geselecteerde parameters voldoen"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Team samengesteld. Selecteer je voertuig en ga het gevecht in!\nZet voice-chat aan (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Team samengesteld. Selecteer je voertuig en ga het gevecht in!\nStel een sneltoets in om vlug de voice-chat te kunnen betreden."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Team samengesteld. Selecteer je voertuig en ga het gevecht in!\nOm de voice-chat te betreden, moet je eerst deze functie in je spelinstellingen aanzetten."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Modusdetails (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Zichtbereik van voertuig verhoogd"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Bemanningseigenschappen verbeterd"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Levenspunten worden hersteld"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Levenspunten worden hersteld"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Bemanningseigenschappen verbeterd"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Bemanningseigenschappen verbeterd"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Kanonherlaadsnelheid verhoogd"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Voertuigeigenschappen verbeterd"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Levenspunten worden hersteld"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Voertuigeigenschappen verbeterd"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Voertuigeigenschappen verbeterd"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Mobiliteit verhoogd"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Levenspunten worden hersteld"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Kanonspreiding verminderd"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Voertuigeigenschappen verbeterd"
+
+msgid "battleResult/header/deserter"
+msgstr "Je hebt een straf ontvangen: vermindering van rangpunten"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Je hebt een straf ontvangen. Na het voltooien van de kwalificatie zal je beoordeling worden verminderd."
+
+msgid "battleResult/label/deserter"
+msgstr "Desertie"
+
+msgid "battleResult/message/deserter"
+msgstr "Je bent bestraft.\nRangpunten verloren: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Je hebt het slagveld voortijdig verlaten.\n Na het voltooien van de kwalificatie zal je beoordeling worden verminderd."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Onsportief gedrag"
+
+msgid "battleResult/personal/label"
+msgstr "Rangpunten"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Geeft de huidige voortgang van een speler in het rangensysteem weer. Afhankelijk van hoe je in de modus presteert, zul je rangpunten verdienen of verliezen."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Nederlagen/gelijke spelen in gevechten van de modus\n• Het ontvangen van een straf\n• Ranginactiviteit"
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Rangpunten worden verwijderd door:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Rangpunten"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Kwalificatiegevecht"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Kwalificatie"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Je hebt rangpunten ontvangen. Verdedig je Legende-rang door in het klassement in de top %(topPercentage)d%% te blijven staan."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Je hebt rangpunten ontvangen. Bereik de Legende-rang door in het klassement in de top %(topPercentage)d%% te staan."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Rangpunten ontvangen"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Je hebt rangpunten verloren. Verdedig je Legende-rang door in het klassement in de top %(topPercentage)d%% te blijven staan."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Je hebt rangpunten verloren. Bereik de Legende-rang door in het klassement in de top %(topPercentage)d%% te staan."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Rangpunten verloren"
+
+msgid "battleResult/subTask/rating"
+msgstr "Rangpunten: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Je bent gedegradeerd naar %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Je bent gepromoveerd naar %(division)s. %(rank)s"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Gevechten gespeeld (dag): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Inclusief:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Gevechten gespeeld (seizoen): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Solo/peloton: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Superpeloton: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Seizoen van de Azuurblauwe Draak duurt nog %(days)d dag"
+msgstr[1] "Seizoen van de Azuurblauwe Draak duurt nog %(days)d dagen"
+msgstr[2] "Seizoen van de Azuurblauwe Draak duurt nog %(days)d dagen"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Seizoen van de Karmozijnrode Draak duurt nog %(days)d dag"
+msgstr[1] "Seizoen van de Karmozijnrode Draak duurt nog %(days)d dagen"
+msgstr[2] "Seizoen van de Karmozijnrode Draak duurt nog %(days)d dagen"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Seizoen van de Jaden Draak duurt nog %(days)d dag"
+msgstr[1] "Seizoen van de Jaden Draak duurt nog %(days)d dagen"
+msgstr[2] "Seizoen van de Jaden Draak duurt nog %(days)d dagen"
+
+msgid "calendarDay/title"
+msgstr "Schema"
+
+msgid "carousel/banned"
+msgstr "Verbannen"
+
+msgid "claimRewards/button"
+msgstr "Beloning ophalen"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Deze handeling is wegens technische redenen tijdelijk onbeschikbaar. We werken aan een oplossing."
+
+msgid "closeButtonLabel"
+msgstr "SLUITEN"
+
+msgid "controls/compare"
+msgstr "Toevoegen aan vergelijking"
+
+msgid "controls/preview"
+msgstr "Voorvertoning"
+
+msgid "countDown/text"
+msgstr "Evenement begint over:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 min"
+
+msgid "crewMembersTooltip/description"
+msgstr "Deze speciale bemanning bestaat uit tankhuzaren van over de hele wereld, verenigd onder hun commandant. Ze hebben allemaal wapenbroeders als nul-specialisatie en genoeg Bemannings-XP om nog twee specialisaties te trainen, waardoor ze het voertuig beter laten presteren. Stuk voor stuk brengen ze ook een flinke dosis flair naar het slagveld."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Specialisaties"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Bestorming. Jaar van de Draak"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Nul-specialisaties"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Gemiddelde schade (dag): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Verhouding van totale hoeveelheid veroorzaakte schade tot het aantal gespeelde gevechten."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Gemiddelde schade (seizoen): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Schaderecord (dag): %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Maximaal veroorzaakte schade in een gevecht met de %(vehicleName)s"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Schaderecord (seizoen): %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "–"
+
+msgid "dataError/description"
+msgstr "Onze excuses voor het tijdelijke ongemak. Probeer de pagina later te verversen."
+
+msgid "dataError/title"
+msgstr "Fout bij het laden van data"
+
+msgid "dayTooltip/day"
+msgstr "Dag %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "Dag %(index)s: geen gevechten gespeeld."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Ranginactiviteit: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s rangpunt"
+msgstr[1] "%(pointsCount)s rangpunten"
+msgstr[2] "%(pointsCount)s rangpunten"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Verandering in rangpunten: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "Dag %(index)s (vandaag)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "Dag %(index)s: vandaag geen gevechten gespeeld."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Divisie"
+
+msgid "division/text"
+msgstr "Divisie %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Deze divisie is voor spelers met {eeede9e6_Open}%(fromScore)&nbsp;tot&nbsp;%(toScore){eeede9e6_Close}&nbsp;rangpunten."
+
+msgid "divisionTooltip/heading"
+msgstr "Divisie %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Rangpunten"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Gespeelde gevechten"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sResultaten op komst..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sResultaten op komst"
+
+msgid "entryPointTooltip/description"
+msgstr "Een competitieve modus met 7v7-gevechten in niveau %(levels)s voertuigen. Bereik hogere rangen om unieke aanpassingselementen, voertuigen, obligaties en andere waardevolle beloningen te verdienen."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODUS"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – spelmodus. Klik en ontdek"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Beschikbaar voor%(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Staakt-het-vuren%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Komt beschikbaar:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Bestorming"
+
+msgid "featureNameCapitalized"
+msgstr "BESTORMING"
+
+msgid "fifthRankTooltip/description"
+msgstr "De {eeede9e6_Open}Kampioen{eeede9e6_Close}-rang wordt toegekend aan spelers die minstens {eeede9e6_Open}%(fromScore){eeede9e6_Close} rangpunten hebben verdiend."
+
+msgid "forVehicle"
+msgstr "Voor: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "De {eeede9e6_Open}IJzer{eeede9e6_Close}-rang wordt toegekend aan spelers die {eeede9e6_Open}%(fromScore) tot %(toScore){eeede9e6_Close} rangpunten hebben verdiend."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "De {eeede9e6_Open}Goud{eeede9e6_Close}-rang wordt toegekend aan spelers die {eeede9e6_Open}%(fromScore) tot %(toScore){eeede9e6_Close} rangpunten hebben verdiend."
+
+msgid "generalRankTooltip/body/second"
+msgstr "De {eeede9e6_Open}Brons{eeede9e6_Close}-rang wordt toegekend aan spelers die {eeede9e6_Open}%(fromScore) tot %(toScore){eeede9e6_Close} rangpunten hebben verdiend."
+
+msgid "generalRankTooltip/body/third"
+msgstr "De {eeede9e6_Open}Zilver{eeede9e6_Close}-rang wordt toegekend aan spelers die {eeede9e6_Open}%(fromScore) tot %(toScore){eeede9e6_Close} rangpunten hebben verdiend."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Inbegrepen divisies: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "OVER HET EVENEMENT"
+
+msgid "intro/confirmButton"
+msgstr "Begrepen!"
+
+msgid "intro/description/banPhase"
+msgstr "Elk team kan een voertuig uit een gevecht verbannen. Spreek met teamgenoten af waarop je stemt om een gevreesde machine uit te sluiten of om een onverwachte samenstelling voor te bereiden. Als je voertuig is verbannen, kun je een vooraf geconfigureerd huurvoertuig selecteren."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "De modus heeft aanpassers die bepaalde parameters van het voertuig veranderen, zoals het aantal levenspunten, de herlaadtijd van verbruiksartikelen, tijd dat je gespot blijft, en meer."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Nadat je bepaalde gebieden van de kaart hebt veroverd, kun je tactische vaardigheden gebruiken. Er zijn twee belangrijke locaties: het Artilleriehoofdkwartier, dat je in staat stelt om een artillerieaanval op een bepaalde positie uit te voeren, en het Communicatiecentrum, dat alle vijandelijke voertuigen verkent. Afhankelijk van de kaart, kunnen de aanwezigheid en plek van deze belangrijke locaties veranderen."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Speel %(count)s kwalificatiegevecht om je behendigheidsniveau en rang te bepalen. Bij voltooiing zul je beloningen ontvangen voor de door jou bereikte rang en alle vorige rangen.\n\nDesertie of een gelijkspel in de kwalificatie geldt als een nederlaag."
+msgstr[1] "Speel %(count)s kwalificatiegevechten om je behendigheidsniveau en rang te bepalen. Bij voltooiing zul je beloningen ontvangen voor de door jou bereikte rang en alle vorige rangen.\n\nDesertie of een gelijkspel in de kwalificatie geldt als een nederlaag."
+msgstr[2] "Speel %(count)s kwalificatiegevechten om je behendigheidsniveau en rang te bepalen. Bij voltooiing zul je beloningen ontvangen voor de door jou bereikte rang en alle vorige rangen.\n\nDesertie of een gelijkspel in de kwalificatie geldt als een nederlaag."
+
+msgid "intro/description/ranks"
+msgstr "Een systeem dat de behendigheid van spelers aangeeft. Beklim de rangen, van IJzer tot Legende, om waardevolle prijzen te verdienen. Speel het hele Jaar van de Draak om unieke jaarlijkse beloningen te ontvangen."
+
+msgid "intro/description/roleSkills"
+msgstr "Afhankelijk van de rol, beschikt elk voertuig over een speciale vaardigheid met drie ladingslevels. Hoe hoger het ladingslevel wanneer de vaardigheid wordt geactiveerd, hoe sterker het effect ervan zal zijn. Het ladingslevel hangt af van het aantal prestigepunten dat wordt verdiend door indrukwekkende gevechtsprestaties, verovering van belangrijke locaties, gebruik van tactische vaardigheden, etc.\n\nLees de regels van de modus om meer te weten te komen over de verschillende manieren waarop je prestigepunten kunt verdienen."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Je kunt gevechten betreden met niveau %(levels)s onderzoekbare voertuigen (m.u.v. artillerie), verzamelvoertuigen en sommige speciale voertuigen. Maak je voertuigen in de garage gevechtsklaar en kies daarna in het gevecht het beste voertuig op basis van de eigenschappen van de kaart. Wanneer je een voertuig selecteert, moet je ook rekening houden met welke voertuigen je teamgenoten hebben gekozen."
+
+msgid "intro/title/banPhase"
+msgstr "VOERTUIG VERBANNEN"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "BESTORMING-AANPASSERS"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "BELANGRIJKE LOCATIES"
+
+msgid "intro/title/qualification"
+msgstr "KWALIFICATIE"
+
+msgid "intro/title/ranks"
+msgstr "RANGENSYSTEEM"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLVAARDIGHEDEN"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "KIES EEN VOERTUIG VOOR EEN BEPAALDE KAART"
+
+msgid "lastUpdateNote/info"
+msgstr "Geüpdatet: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Het aantal rangpunten van de onderste speler met de Legende-rang\nwordt om de %(count)s minuten geüpdatet."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Gegevens worden geüpdatet..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Het klassement wordt om de %(count)s minuten geüpdatet."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Laatst geüpdatet: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Mijn positie"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Bereik de Kampioen- of Legende-rang om het klassement te betreden."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Updaten"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Spelers met de Kampioen- of Legende-rang krijgen een plekje in het klassement. Verdien {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} rangpunten en bereik de top van het klassement!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Er staan voor het huidige seizoen geen spelers in het klassement"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Gevechten"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Spelersnaam"
+
+msgid "leaderboard/table/header/score"
+msgstr "Rangpunten"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Aantal gevechten dat de speler tijdens het huidige seizoen van de Bestorming-modus heeft gespeeld."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Gevechten"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "De positie van de speler in het klassement."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Positie"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Naam van de speler die een positie bezet in het klassement."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Spelersnaam"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Aantal rangpunten dat in het huidige seizoen is verdiend."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Rangpunten"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Spelers in het peloton"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Gebruik WoT Premium account"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Activeer persoonlijke reserves"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Voltooi missies"
+
+msgid "noVehicles/howTo/title"
+msgstr "Hoe kun je het snelst niveau %(levels)s voertuigen onderzoeken?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Je kunt pas aan Bestorming deelnemen wanneer je minstens één niveau %(levels)s voertuig in je garage hebt staan dat voor deze modus geschikt is.\nJe hebt een onderzocht niveau %(levels)s voertuig dat je nog niet hebt gekocht."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Je kunt pas aan Bestorming deelnemen wanneer je minstens één niveau %(levels)s voertuig in je garage hebt dat voor deze modus geschikt is.\nJe hebt een niveau %(levels)s voertuig dat kan worden hersteld."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Je kunt pas aan Bestorming deelnemen wanneer je minstens één niveau %(levels)s voertuig in je garage hebt staan dat voor deze modus geschikt is."
+
+msgid "noVehicles/title"
+msgstr "Geen geschikte voertuigen in je garage"
+
+msgid "page/heading/leaderboard"
+msgstr "KLASSEMENT"
+
+msgid "page/heading/progression"
+msgstr "RANGENSYSTEEM"
+
+msgid "page/heading/qualification"
+msgstr "KWALIFICATIE"
+
+msgid "page/heading/rankRewards"
+msgstr "BELONINGEN VOOR RANGEN"
+
+msgid "page/heading/shop"
+msgstr "BESTORMINGWINKEL"
+
+msgid "page/heading/weeklyQuests"
+msgstr "WEKELIJKSE MISSIES"
+
+msgid "page/heading/yearlyRewards"
+msgstr "JAARLIJKSE BELONINGEN"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "JAARLIJKSE STATISTIEKEN"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Volgende"
+
+msgid "pagination/prev"
+msgstr "Terug"
+
+msgid "pbs/bans/title"
+msgstr "VERBANNEN VOERTUIGEN"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "BESTORMING 2D-STIJL"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "2D-STIJL MISSIE VOLTOOID!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "WEKELIJKSE MISSIE #%(count)s VOLTOOID!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "WEKELIJKSE MISSIE VOLTOOID!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "BESTORMING WEKELIJKS"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "NEDERLAAG, OMDAT JE HEBT"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "GELIJKSPEL, OMDAT JE HEBT"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "OVERWINNING, MAAR JE HEBT"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Bevorderd naar %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Gedegradeerd naar %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Bevorderd naar %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Gespeelde gevechten"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Kwalificatie"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Je hebt een disciplinaire straf ontvangen: vermindering van rangpunten"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Je hebt een disciplinaire straf ontvangen: na het voltooien van de kwalificatie zal je beoordeling worden verminderd."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "Om de Legende-rang te bereiken, moet je in het klassement in de {ede6d9e5_Open}top %(topPercentage)%{ede6d9e5_Close} staan."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "Om de Legende-rang te behouden, moet je in het klassement in de {ede6d9e5_Open}top %(topPercentage)%{ede6d9e5_Close} staan."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Bekijk de 'Over Bestorming' pagina voor meer details."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestigepunten"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Schade veroorzaken\nAssistentie door verkenning\nRupsbanden vernietigen\nKritische treffers veroorzaken\nVijandelijke voertuigen vernietigen\nEn meer"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Dit speciale middel beïnvloedt het aantal verdiende en verloren rangpunten in een gevecht. Prestigepunten worden verdiend door bepaalde acties uit te voeren, waaronder:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Gemiddeld aantal prestigepunten (dag): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Verhouding van het totale aantal prestigepunten tot het aantal gespeelde gevechten."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Gemiddeld aantal prestigepunten (seizoen): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Prestigepuntenrecord (dag): %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Maximum aantal verdiende prestigepunten in een gevecht met de %(vehicleName)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Prestigepuntenrecord (seizoen): %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Seizoen van de Azuurblauwe Draak is op de %(server)s-server afgelopen."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Seizoen van de Karmozijnrode Draak is op de %(server)s-server afgelopen."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Seizoen van de Jaden Draak is op de %(server)s-server afgelopen."
+
+msgid "products/actions/buy"
+msgstr "Kopen"
+
+msgid "products/actions/restore"
+msgstr "Naar het depot"
+
+msgid "products/actions/toCustomization"
+msgstr "Naar de stijl"
+
+msgid "products/actions/toHangar"
+msgstr "Bekijken in de garage"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Naar de stijl gaan niet mogelijk. Dit kan komen omdat je dit voertuig nog niet hebt, omdat het in een tactische eenheid of gevecht zit, of omdat het gerepareerd moet worden."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Onbeschikbaar"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "Tot het begin van het volgende seizoen heb je toegang tot items en een korting die afhangt van je {eeede9e6_Open}hoogst{eeede9e6_Close} {eeede9e6_Open}bereikte{eeede9e6_Close} {eeede9e6_Open}rang{eeede9e6_Close}."
+
+msgid "products/discountSectionName"
+msgstr "TOEGANGSVOORWAARDEN EN KORTINGEN"
+
+msgid "products/inProgress"
+msgstr "Even geduld alsjeblieft, je aankoop wordt verwerkt..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Aantal beschikbaar voor aankoop per seizoen: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Niet genoeg middelen voor de aankoop."
+
+msgid "products/message/rankAccess"
+msgstr "Aankoopeis\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "NIEUW"
+
+msgid "products/priceSectionName"
+msgstr "PRIJS"
+
+msgid "products/productAccess"
+msgstr "Toegangs-\nrang"
+
+msgid "products/purchased"
+msgstr "Gekocht"
+
+msgid "products/rankAccess"
+msgstr "Toegangsrang %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Herstel beschikbaar"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Beschikbaar voor herstel in het depot"
+
+msgid "products/style3d"
+msgstr "%(name)s 3D-stijl"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "TERUG NAAR SEIZOENSSTATISTIEKEN"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "SEIZOENSSTATISTIEKEN"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "STATISTIEKEN VAN DAG %(day)s"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "STATISTIEKEN VAN VANDAAG"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Elke kolom toont gegevens van de periode tussen primetime op de geselecteerde dag en primetime op de volgende dag. In sommige gevallen kunnen er gevechten van twee verschillende dagen bij zitten."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Elke kolom toont gegevens van de periode tussen primetime op de geselecteerde dag en primetime op de volgende dag. In sommige gevallen kunnen er gevechten van twee verschillende dagen bij zitten."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Deze sectie wordt alleen geüpdatet wanneer er nieuwe gegevens beschikbaar zijn. Je kunt zelf de gegevens updaten door op de knop te klikken."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Geüpdatet: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Gefeliciteerd!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Je hebt alle 2D-stijl missies voltooid."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Een reeks missies om nieuwe elementen te ontgrendelen voor de progressieve 2D-stijl van het huidige seizoen."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "2D-STIJL MISSIE: %(taskNumber)s"
+msgstr[1] "2D-STIJL MISSIES: %(taskNumber)s"
+msgstr[2] "2D-STIJL MISSIES: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2D-STIJL MISSIES"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Naar de stijl"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Alle stijlen momenteel aangebracht op onbeschikbare voertuigen"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Geen beschikbare voertuigen om de stijl op aan te brengen"
+
+msgid "progressionPage/error/refresh"
+msgstr "Verversen"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Wordt ververst..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Gemiddelde schade"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Gem. prestigepunten"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Beoordelingsverandering %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Record gevestigd op %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "dag %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Naar alle statistieken"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Omvat:\n • Schade door jouw verkenning (inclusief schade met behulp van vaardigheden)\n • Schade door jouw vernietiging van een rupsband en immobilisatie van een vijandelijk voertuig (inclusief schade met behulp van vaardigheden)\n • Schade veroorzaakt door teamgenoten met behulp van jouw vaardigheden\n • Schade veroorzaakt door teamgenoten aan een verdoofde vijand (inclusief verdovingen met behulp van jouw vaardigheden)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Totaal aantal gespeelde gevechten"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Verhouding van totale veroorzaakte schade tot het aantal gespeelde gevechten"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Verhouding van vernietigde vijandelijke voertuigen tot het aantal keer dat het voertuig van de speler is vernietigd"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Verhouding van 'Veroorzaakte schade' tot 'Ontvangen schade'"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Verhouding van het totale aantal prestigepunten tot het aantal gespeelde gevechten"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Voertuigen met de meeste gespeelde gevechten"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Totaal percentage overwinningen"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Gemiddelde schade veroorzaakt met jouw hulp"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Gevechten"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Gemiddelde veroorzaakte schade"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Vernietigingsverhouding"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Schadeverhouding"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Gemiddeld aantal prestigepunten per gevecht"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Voertuignaam"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Overwinningen"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "VOERTUIGSTATISTIEKEN"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Dagen tot je rang afneemt: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Als je niet deelneemt aan de Bestorming-modus, verlies je {eeede9e6_Open}%(count)s{eeede9e6_Close} rangpunt."
+msgstr[1] "Als je niet deelneemt aan de Bestorming-modus, verlies je {eeede9e6_Open}%(count)s{eeede9e6_Close} rangpunten."
+msgstr[2] "Als je niet deelneemt aan de Bestorming-modus, verlies je {eeede9e6_Open}%(count)s{eeede9e6_Close} rangpunten."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;gevecht&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;activiteitspunt)"
+msgstr[1] "(1&nbsp;gevecht&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;activiteitspunten)"
+msgstr[2] "(1&nbsp;gevecht&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;activiteitspunten)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Je zult geen rangpunten verliezen wanneer je met je huidige rang niet in de modus speelt, maar misschien wel als je de volgende rangen bereikt: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Je rang wordt beïnvloed door inactiviteit"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Je rang wordt niet beïnvloed door inactiviteit"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Rang"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Top %(topPercentage)s% van de spelers in het klassement"
+
+msgid "progressionTooltip/division"
+msgstr "Divisie %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Deze divisie is voor spelers met {eeede9e6_Open}%(fromScore) tot %(toScore){eeede9e6_Close} rangpunten."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "De Kampioen-rang wordt toegekend aan spelers die minstens {eeede9e6_Open}%(fromScore){eeede9e6_Close} rangpunten hebben verdiend."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "De Legende-rang wordt toegekend aan de {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} van het klassement."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Speel %(maxBattlesCount)s gevecht in de modus om je behendigheidsniveau en rang te bepalen."
+msgstr[1] "Speel %(maxBattlesCount)s gevechten in de modus om je behendigheidsniveau en rang te bepalen."
+msgstr[2] "Speel %(maxBattlesCount)s gevechten in de modus om je behendigheidsniveau en rang te bepalen."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Kwalificatie"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Dagen tot je rang afneemt: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Als je niet deelneemt aan de Bestorming-modus, verlies je {eeede9e6_Open}%(count)s{eeede9e6_Close} rangpunt."
+msgstr[1] "Als je niet deelneemt aan de Bestorming-modus, verlies je {eeede9e6_Open}%(count)s{eeede9e6_Close} rangpunten."
+msgstr[2] "Als je niet deelneemt aan de Bestorming-modus, verlies je {eeede9e6_Open}%(count)s{eeede9e6_Close} rangpunten."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Je rang wordt beïnvloed door inactiviteit."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Speel voordat de dag eindigt om je rang te behouden."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Rangpunten"
+
+msgid "purchase/affirmative"
+msgstr "Begrepen!"
+
+msgid "purchase/cancelButton"
+msgstr "Terug"
+
+msgid "purchase/confirmButton"
+msgstr "Kopen"
+
+msgid "purchase/error/description"
+msgstr "De aankoop kan niet worden afgerond. Probeer het later alsjeblieft opnieuw."
+
+msgid "purchase/error/title"
+msgstr "Fout"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sJe hebt geen geschikt voertuig voor deze stijl in je garage staan"
+
+msgid "purchase/price"
+msgstr "Aankoopprijs:"
+
+msgid "purchase/success/heading"
+msgstr "Bedankt voor je aankoop!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sJe aankoop zal snel aan je spelaccount worden toegevoegd"
+
+msgid "purchase/success/style3d"
+msgstr "%(name)s 3D-stijl voor de %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "%(name)s 3D-stijl kopen?"
+
+msgid "purchase/title/vehicle"
+msgstr "%(name)s kopen?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Speel {eeede9_Open}%(maxBattlesCount)s gevecht{eeede9_Close} in de modus om je behendigheidsniveau en rang te bepalen."
+msgstr[1] "Speel {eeede9_Open}%(maxBattlesCount)s gevechten{eeede9_Close} in de modus om je behendigheidsniveau en rang te bepalen."
+msgstr[2] "Speel {eeede9_Open}%(maxBattlesCount)s gevechten{eeede9_Close} in de modus om je behendigheidsniveau en rang te bepalen."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "Speel %(maxBattlesCount)s gevecht om de kwalificatie te voltooien, en wacht tot de beoordeling is berekend. Je prestatie tijdens de kwalificatie beïnvloedt de rang die je ontvangt.\nDeserteren in de kwalificatie leidt tot een erger resultaat dan de zwaarste nederlaag."
+msgstr[1] "Speel %(maxBattlesCount)s gevechten om de kwalificatie te voltooien, en wacht tot de beoordeling is berekend. Je prestatie tijdens de kwalificatie beïnvloedt de rang die je ontvangt.\nDeserteren in de kwalificatie leidt tot een erger resultaat dan de zwaarste nederlaag."
+msgstr[2] "Speel %(maxBattlesCount)s gevechten om de kwalificatie te voltooien, en wacht tot de beoordeling is berekend. Je prestatie tijdens de kwalificatie beïnvloedt de rang die je ontvangt.\nDeserteren in de kwalificatie leidt tot een erger resultaat dan de zwaarste nederlaag."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Kwalificatieregels"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Deelgenomen gevechten"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Wachtend op kwalificatieresultaten om je rang te ontvangen"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Het kan tot vijf minuten duren om op basis van de kwalificatieresultaten je beoordeling te berekenen. Daarna ontvang je een rang en kun je doorgaan met het spelen in Bestorming."
+
+msgid "qualification/rewardsButton"
+msgstr "Naar beloningen"
+
+msgid "qualification/rewardsDescription"
+msgstr "Bij voltooiing van de kwalificatie zul je beloningen ontvangen voor de door jou bereikte rang en alle vorige rangen."
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "Bereikt"
+
+msgid "rank/current"
+msgstr "Huidig"
+
+msgid "rank/fifth"
+msgstr "Kampioen"
+
+msgid "rank/first"
+msgstr "IJzer"
+
+msgid "rank/fourth"
+msgstr "Goud"
+
+msgid "rank/qualification"
+msgstr "Kwalificatie"
+
+msgid "rank/second"
+msgstr "Brons"
+
+msgid "rank/sixth"
+msgstr "Legende"
+
+msgid "rank/text"
+msgstr "%(rank)s-rang"
+
+msgid "rank/third"
+msgstr "Zilver"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Spelersrang"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Rang van pelotonmaten"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Pelotons kunnen alleen uit spelers met vergelijkbare rangen bestaan."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Rangbeperkingen voor %(count)s-koppige pelotons"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Als je deze modus niet speelt, zul je rangpunten verliezen."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Ranginactiviteit"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Aantal dagen totdat je rangpunten verliest: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Dagelijkse beoordeling"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Verandering in rangpunten: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Verschil in rangpunten tussen de geselecteerde dag en de dag ervoor."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Dagelijks rangrecord: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Hoogst bereikte rang op de geselecteerde dag."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "dag %(day)s"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Rangrecord van seizoen gevestigd op dag %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "De Kampioen-rang wordt toegekend aan spelers die minstens {eeede9e6_Open}%(fromScore){eeede9e6_Close} rangpunten hebben verdiend."
+
+msgid "rankInfo/current/sixth"
+msgstr "De Legende-rang wordt toegekend aan de {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} van het klassement."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "Om de Legende-rang te bereiken, moet je met rangpunten in de {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} van het klassement staan."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "Om je Legende-rang te verdedigen, moet je met rangpunten in de {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} van het klassement blijven staan."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "Om de Legende-rang te bereiken, moet je met rangpunten in de {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} van het klassement staan. Aantal rangpunten verdiend door de onderste speler met de&nbsp;Legende-rang:&nbsp;{eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "Om je Legende-rang te verdedigen, moet je met rangpunten in de {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} van het klassement blijven staan. Aantal rangpunten verdiend door de onderste speler met de&nbsp;Legende-rang:&nbsp;{eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "KAMPIOEN"
+
+msgid "rankUpper/first"
+msgstr "IJZER"
+
+msgid "rankUpper/fourth"
+msgstr "GOUD"
+
+msgid "rankUpper/second"
+msgstr "BRONS"
+
+msgid "rankUpper/sixth"
+msgstr "LEGENDE"
+
+msgid "rankUpper/text"
+msgstr "%(rank)s RANG"
+
+msgid "rankUpper/third"
+msgstr "ZILVER"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Je kunt één stuk verbeterde uitrusting uit de onderstaande lijst selecteren:\n\n• Extra stille uitlaat\n• Innovatief richten\n• Verbeterde tandwielen\n• Verbeterde compressor\n• Verhoogde granaatweerstand\n• Verbeterde indeling\n• Experimentele optiek\n• Innovatief laadsysteem\n• Ventilatiesysteem\n• Slijtvaste richtaandrijving\n• Systeem met stabilisatie-uitrusting\n• Telescopisch observatiesysteem\n• Tactisch camouflagenet"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Je kunt één stuk experimentele uitrusting uit de onderstaande lijst selecteren:\n\n•Vuurleiding T3\n• Overlevingsverbetering Suite T3\n• Mobiliteitsverbetering Systeem T3\n• Nauwkeurigheidsverbetering Systeem T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "%(name)s camouflage"
+
+msgid "rewards/preview"
+msgstr "Voorvertoning"
+
+msgid "rewards/status/achieved"
+msgstr "Beloning ontvangen"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}Voor niveau %(vehicleLevel)s voertuigen{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}Voor de %(progressionStyleName)s stijl{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "Niveau %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Je hebt ook ontvangen:"
+
+msgid "rewardsScreen/button"
+msgstr "Begrepen!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Naar beloningen"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Selecteer beloning"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Ga naar Kopen"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "BESTORMING. KWALIFICATIE VOLTOOID"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "BESTORMING. SEIZOEN VAN DE AZUURBLAUWE DRAAK"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "BESTORMING: SEIZOEN VAN DE KARMOZIJNRODE DRAAK"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "BESTORMING: SEIZOEN VAN DE JADEN DRAAK"
+
+msgid "rewardsScreen/description/year"
+msgstr "BESTORMING. JAAR VAN DE DRAAK"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Waar is mijn Ashbringer?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Geen rang"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Na het bereiken van deze rang kun je rangpunten verliezen wanneer je stopt met het spelen van Bestorming-gevechten."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Ranginactiviteit"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Totaal aantal\nBestormingkleuren"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Selecteer uitrusting"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Selecteer beloningen"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Nieuwe kortingen in de Bestormingwinkel!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Nieuwe items in de Bestormingwinkel!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Tot het begin van het volgende seizoen heb je toegang tot items en een korting die afhangt van je hoogst bereikte rang."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Tot het begin van het volgende seizoen heb je toegang tot items en een korting die afhangt van je hoogst bereikte rang."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}%(rank)s-rang{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Op basis van de kwalificatieresultaten, heb je beloningen ontvangen voor de volgende rangen: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Je hebt beloningen ontvangen omdat je tot de {ffe4c0_Open}%(rank)s{ffe4c0_Close}-rang bent gepromoveerd"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Beloning voor het voltooien van {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} wekelijkse missie"
+msgstr[1] "Beloning voor het voltooien van {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} wekelijkse missies"
+msgstr[2] "Beloning voor het voltooien van {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} wekelijkse missies"
+
+msgid "rewardsScreen/title/division"
+msgstr "DIVISIE %(division)s BEREIKT"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}-RANG BEREIKT"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "BELONING VOOR BEREIKTE RANGEN"
+
+msgid "rewardsScreen/title/rank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}-RANG BEREIKT"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "BELONING VOOR JE NIEUWE RANG"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "BELONING ONTVANGEN"
+msgstr[1] "BELONINGEN ONTVANGEN"
+msgstr[2] "BELONINGEN ONTVANGEN"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "WEKELIJKSE MISSIE BELONINGEN"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "JAARLIJKSE BELONINGEN"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Komt met:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "BESTORMING"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "BELONING KIEZEN"
+msgstr[1] "KIES BELONINGEN"
+msgstr[2] "KIES BELONINGEN"
+
+msgid "scoreTooltip/body"
+msgstr "Je rang en divisie in de Bestorming-modus wordt bepaald aan de hand van hoeveel rangpunten je verdient. Win gevechten om de beste te worden!"
+
+msgid "scoreTooltip/header"
+msgstr "Rangpunten"
+
+msgid "season/daysLeft"
+msgstr "Eindigt over %(totalDays)s d"
+
+msgid "season/hoursLeft"
+msgstr "Eindigt over %(hours)s u"
+
+msgid "season/minutesLeft"
+msgstr "Eindigt over %(minutes)s min"
+
+msgid "season/over"
+msgstr "%(seasonName)s is afgelopen"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Eindigt over %(seconds)s s"
+
+msgid "seasonName/first"
+msgstr "Seizoen van de Azuurblauwe Draak"
+
+msgid "seasonName/second"
+msgstr "Seizoen van de Karmozijnrode Draak"
+
+msgid "seasonName/third"
+msgstr "Seizoen van de Jaden Draak"
+
+msgid "seasonPointTooltip/header"
+msgstr "Bestormingkleuren"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Ontvangen"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Niet ontvangen"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Je dingt mee naar de Bestormingkleuren"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Ongebruikte Bestormingkleuren worden naar obligaties omgezet met de volgende wisselkoers: {bond_Open}1 Bestormingkleur{bond_Close} = {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Na afloop van elk seizoen zul je op basis van je bereikte rang Bestormingkleuren ontvangen."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Voor elke 3 Bestormingkleuren wordt de kwaliteit verbeterd van de beloning die je aan het einde van het jaar ontvangt."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Waar is mijn trofee?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "Dit is prima"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Mijn lieveling!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Begrepen!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Legendarisch!"
+
+msgid "seasonStatistics/button/third"
+msgstr "I'll Be Back"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Uiteindelijke seizoensbeoordeling"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Positie in het klassement: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "BESTORMING. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "%(points)s Bestormingkleur ontvangen"
+msgstr[1] "%(points)s Bestormingkleuren ontvangen"
+msgstr[2] "%(points)s Bestormingkleuren ontvangen"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "SEIZOEN I. AZUURBLAUWE DRAAK"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "SEIZOEN II. KARMOZIJNRODE DRAAK"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "SEIZOEN III. JADEN DRAAK"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Overwinningen: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Gespeelde\ngevechten"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Gemiddelde: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Schade-\nrecord"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Vernietigingsverhouding: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Meeste voertuigen vernietigd\nin een gevecht"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Gemiddelde: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Prestigepunten-\nrecord"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "SEIZOENSSTATISTIEKEN"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "In een superpeloton: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Winstreeks\n(solo/peloton)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Gevechten"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "–"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Geen voertuigen"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "PRIMAIRE VOERTUIGEN"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Overwinningen"
+
+msgid "seasonStatistics/title"
+msgstr "%(name)s SEIZOENSSTATISTIEKEN"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Seizoen eindigt over:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "–"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Wedstrijdschema"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Vandaag"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Morgen"
+
+msgid "selectorTooltip/desc"
+msgstr "Competitieve modus. 7v7 | niveau X"
+
+msgid "selectorTooltip/title"
+msgstr "Bestorming"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Volg het nieuws op de spelwebsite om op de hoogte te blijven van de start van het nieuwe seizoen."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Deze modus is wegens technische problemen tijdelijk onbeschikbaar."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Deze modus komt beschikbaar op %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Azuurblauwe draak"
+
+msgid "shortSeasonName/second"
+msgstr "Karmozijnrode draak"
+
+msgid "shortSeasonName/third"
+msgstr "Jaden draak"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Deze sectie bevat informatie over de beste spelers in het huidige seizoen van de Bestorming-modus."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Deze sectie bevat informatie over de kwalificatie, en je rang, divisie en rangpunten na het voltooien van de kwalificatie."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Deze sectie bevat informatie over de beschikbare beloningen voor het bereiken van hogere rangen in de Bestorming-modus."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Deze sectie bevat informatie over de items die beschikbaar zijn in de Bestormingwinkel."
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Deze sectie bevat informatie over de wekelijkse missies in de Bestorming-modus."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Deze sectie bevat meer informatie over de jaarlijkse beloningen die je kunt ontvangen door Bestormingkleuren te verdienen."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Deze sectie bevat informatie over je prestaties in elk van de seizoenen van het huidige Bestormingjaar."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Klassement"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Rangensysteem"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Beloningen voor rangen"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Bestormingwinkel"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Wekelijkse missies"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Jaarlijkse beloningen"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Jaarlijkse statistieken"
+
+msgid "sixthRankTooltip/description"
+msgstr "De {eeede9e6_Open}Legende{eeede9e6_Close}-rang wordt toegekend aan de {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} van het klassement op basis van rangpunten."
+
+msgid "style3dTooltip/954"
+msgstr "Zilveren stekels"
+
+msgid "style3dTooltip/955"
+msgstr "Gouden klauwen"
+
+msgid "style3dTooltip/956"
+msgstr "Vleugels van een kampioen"
+
+msgid "style3dTooltip/957"
+msgstr "Legendarisch wezen"
+
+msgid "style3dTooltip/description"
+msgstr "Zo sterk als een leeuw, zo fel als een draak en zo dodelijk als een schorpioen; dit beest is de metalen incarnatie van een wezen dat al vele millennia wordt gevreesd."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Hoe te ontvangen"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Uitgereikt voor het verzamelen van minstens 9 Bestormingkleuren in het Jaar van de Manticore in Bestorming."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Uitgereikt voor het verzamelen van minstens 12 Bestormingkleuren in het Jaar van de Manticore in Bestorming. Vervangt de vorige stijl."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Uitgereikt voor het verzamelen van minstens 15 Bestormingkleuren in het Jaar van de Manticore in Bestorming. Vervangt de vorige stijl."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Uitgereikt voor het verzamelen van minstens 18 Bestormingkleuren in het Jaar van de Manticore in Bestorming. Vervangt de vorige stijl."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Geschikt voor voertuigen"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Je hebt je dagelijkse beloning voor het behouden van de %(rank)s-rang ontvangen.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Dagelijkse beloning"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Er is een staakt-het-vuren. Bestorming-gevechten zijn tijdelijk onbeschikbaar."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Staakt-het-vuren"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Staakt-het-vuren afgelopen. Bestorming-gevechten zijn weer beschikbaar."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Staakt-het-vuren"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Gefeliciteerd! Je hebt de %(maxRank)s-rang bereikt.\nJe hebt beloningen ontvangen voor de volgende rangen: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Kwalificatie voltooid"
+
+msgid "system_messages/regularReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Ontvangstbewijs"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Naar de winkel"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Nieuwe kortingen in de Bestormingwinkel!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Kortingen verhoogd"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Er zijn nu nieuwe items beschikbaar in de Bestormingwinkel!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Nieuwe items beschikbaar"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Fout bij betaling. Probeer het later alsjeblieft nogmaals."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Beloningen voor het voltooien van wekelijkse missies"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Beloning voor wekelijkse missie"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Over Bestorming"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Seizoensupdates"
+
+msgid "tournament/LBFinals"
+msgstr "LB FINALE"
+
+msgid "tournament/LBRound1"
+msgstr "LB RONDE 1"
+
+msgid "tournament/LBRound2"
+msgstr "LB RONDE 2"
+
+msgid "tournament/LBSemifinals"
+msgstr "LB HALVE FINALES"
+
+msgid "tournament/UBFinals"
+msgstr "UB FINALE"
+
+msgid "tournament/UBSemifinals"
+msgstr "UB HALVE FINALES"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "Rangpunten kunnen niet worden verdiend of verloren in een toernooi."
+
+msgid "tournament/bestOf"
+msgstr "BESTE VAN %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "¥%(amount)s"
+
+msgid "tournament/comeBack"
+msgstr "Probeer het later alsjeblieft opnieuw"
+
+msgid "tournament/comingSoon"
+msgstr "BINNENKORT TE ZIEN %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "TIJDEN AFHANKELIJK VAN WEDSTRIJDDUUR"
+
+msgid "tournament/completed"
+msgstr "VOLTOOID"
+
+msgid "tournament/douyin"
+msgstr "Bekijk op Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "Bekijk op Huya en verdien exclusieve\nHuya Drops!"
+
+msgid "tournament/drops/twitch"
+msgstr "Bekijk op Twitch en verdien exclusieve\nTwitch Drops!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "En verdien exclusieve Huya Drops!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "En verdien exclusieve Twitch Drops!"
+
+msgid "tournament/error"
+msgstr "FOUT BIJ HET LADEN VAN GEGEVENS"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "WINNAAR"
+
+msgid "tournament/fundDistribution"
+msgstr "PRIJZENPOTVERDELING"
+
+msgid "tournament/grandFinals"
+msgstr "GRAND FINAL"
+
+msgid "tournament/huya"
+msgstr "Bekijk op Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "De prijzenpot komt voort uit de bundels die spelers hebben gekocht. Laatst geüpdatet om: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "GEEN GEPLANDE WEDSTRIJDEN"
+
+msgid "tournament/ols/roundRobin"
+msgstr "FASE %(phase)s RONDE %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "PRIJZENPOT %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "EN DE KANS OP EEUWIGE GLORIE"
+
+msgid "tournament/refresh"
+msgstr "Verversen"
+
+msgid "tournament/refreshing"
+msgstr "Wordt ververst..."
+
+msgid "tournament/roundOf"
+msgstr "RONDE MET %(number)s"
+
+msgid "tournament/separator"
+msgstr "OF"
+
+msgid "tournament/tab/overview"
+msgstr "OVERZICHT"
+
+msgid "tournament/tab/schedule"
+msgstr "SCHEMA"
+
+msgid "tournament/teamPlaceholder"
+msgstr "NTB"
+
+msgid "tournament/toShop"
+msgstr "Bezoek shop"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Inwisselen"
+
+msgid "tournament/tokenStore/ols"
+msgstr "OLS TOKENS"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Beschikbaar over:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "Over het toernooi"
+
+msgid "tournament/twitch"
+msgstr "Bekijk op Twitch"
+
+msgid "tournament/viewFull"
+msgstr "Bekijk alles"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Ondersteun de Onslaught Legends Series door de prijzenpot te spekken met toernooibundels!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Toon je liefde voor e-sports met exclusieve thema-aanpassingselementen en unieke tanks!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "SPEK DE PRIJZENPOT"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI BUNDELS"
+
+msgid "tournament/vsBestOf"
+msgstr "VS\nBESTE VAN %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "POULEFASE"
+
+msgid "tournament/winner"
+msgstr "Winnaar"
+
+msgid "tournament/youtube"
+msgstr "Bekijk op YouTube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "De beste teams uit Europa strijden om de titel van Onslaught Legends Series-kampioen! Kijk naar spannende 7v7 Bestorming-gevechten, verdien Twitch Drops en moedig je favoriete teams aan door de prijzenpot te spekken via exclusieve bundels met aanpassingen."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Er zal een epische strijd losbarsten op het World of Tanks Championship International in Suzhou, China, waar 's werelds beste teams het tegen elkaar opnemen onder de regels van Bestorming, om te bepalen wie zich wereldkampioen mag noemen. Ervaar de spanning en kijk hoe legendes geboren worden op het slagveld!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "OLS seizoen 6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Livestreams zijn beschikbaar voor %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Meer wedstrijden over %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "In Bestormingtraining kun je geen rangpunten verdienen."
+
+msgid "unit/message/modeOffline"
+msgstr "Het gevecht kan niet worden betreden: database-fout."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Rangverschilbeperkingen overschreden"
+
+msgid "voiceChat/active"
+msgstr "Verlaat voice-chat"
+
+msgid "voiceChat/inactive"
+msgstr "Betreed voice-chat"
+
+msgid "waitingSpinner/message"
+msgstr "Bezig met initialiseren..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Bestormingmissies voltooid"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Goed gedaan! Je hebt alle wekelijkse missies voltooid. Vergeet niet om je beloning te claimen en tot het volgende seizoen!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Je zult extra beloningen ontvangen voor het voltooien van {eeede9e5_Open}%(questsList)s{eeede9e5_Close} en {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} missies"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Wekelijkse Bestormingmissie"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Voltooid: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s nieuwe missie over:"
+msgstr[1] "%(value)s nieuwe missies over:"
+msgstr[2] "%(value)s nieuwe missies over:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Beloning:"
+msgstr[1] "Beloningen:"
+msgstr[2] "Beloningen:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s NIEUWE MISSIE OVER %(countdown)s"
+msgstr[1] "%(value)s NIEUWE MISSIES OVER %(countdown)s"
+msgstr[2] "%(value)s NIEUWE MISSIES OVER %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "NIEUWE MISSIES IN HET VOLGENDE SEIZOEN!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Missies voltooid: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Je zult elke week %(value)s nieuwe missie krijgen. Elke voltooide missie telt mee voor je beloning!"
+msgstr[1] "Je zult elke week %(value)s nieuwe missies krijgen. Elke voltooide missie telt mee voor je beloning!"
+msgstr[2] "Je zult elke week %(value)s nieuwe missies krijgen. Elke voltooide missie telt mee voor je beloning!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "In voortgang"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Voltooid"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Onbeschikbaar"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Kan niet worden voltooid: de modus is onbeschikbaar."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Ontgrendel dit door een niveau X voertuig te onderzoeken en kopen."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Voltooi de vorige missie om deze te ontgrendelen."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Missie onbeschikbaar"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Claim je beloning!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Voltooid: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Missie %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s nieuwe missie over:"
+msgstr[1] "%(value)s nieuwe missies over:"
+msgstr[2] "%(value)s nieuwe missies over:"
+
+msgid "whatsNewButtonLabel"
+msgstr "SEIZOENSUPDATES"
+
+msgid "whatsNewView/banner/description"
+msgstr "Dit seizoen is je laatste kans om waardevolle beloningen te verdienen, waaronder de exclusieve Ashbringer niveau X zware tank met alle unieke 3D-stijlen die je ervoor hebt verdiend en een dappere bemanning met wapenbroeders als nul-specialisatie, plus de keuze uit verbeterde en experimentele uitrusting, en ook nog een prachtige 2D-stijl. Mis het niet – je overwinningen liggen in het verschiet!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Profiteer van de laatste momenten van het Jaar van de Draak!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "SEIZOEN VAN DE JADEN DRAAK"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "BESTORMING. WAT IS NIEUW?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Ban-tastisch!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Het in update 2.0 verbeterde venster met gevechtsresultaten geeft je na elk gevecht meer informatie die aan de modus is gerelateerd."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Gedetailleerde gevechtsresultaten"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Vrees niet als je favoriete voertuig is verbannen. Huurvoertuigen hebben een vooraf geconfigureerde bemanning, plus uitrusting, granaten en verbruiksartikelen."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Gevechtsklare huurvoertuigen %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Dit seizoen kan elk team een voertuig uit een gevecht verbannen. Spreek met teamgenoten af waarop je stemt om een gevreesde machine uit te sluiten of om een onverwachte samenstelling voor te bereiden."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Voertuig verbannen %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Kaarten"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Nieuwe voertuigen beschikbaar in Bestorming"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Huurvoertuigen"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "De onlangs geïntroduceerde Ares 90 niveau X Amerikaanse medium tank is nu beschikbaar in de modus met een aangepaste rolvaardigheid."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Rolvaardigheidupdate %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "De 114 SP2 kan met de Zilver-rang worden gekocht in de Bestormingwinkel."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Winkelupdates %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "UITGESLOTEN"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "WORDT OPNIEUW ONTWIKKELD"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Let op"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Veranderd"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Experimenteel"
+
+msgid "whatsNewView/tag/new"
+msgstr "Nieuw"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Teruggekeerd"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Herzien"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Seizoensgebonden update"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Bekijk video"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Winstpercentage (dag): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Nederlagen: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Gelijke spelen: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Winstpercentage (seizoen): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Verhouding van het aantal overwinningen tot het aantal gespeelde gevechten.\nGevechten op resultaat:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Overwinningen: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Beloningen worden na afloop van het derde seizoen uitgereikt."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Beloningen zullen binnenkort worden uitgereikt. Een moment geduld alsjeblieft."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Jaarlijkse beloning ontvangen. Tot volgend jaar!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Je kunt uitrusting uitkiezen"
+
+msgid "yearlyRewards/claim"
+msgstr "Ophalen"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Beloning ophalen"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Je hebt 1%(seasonPointIcon)s ontvangen voor elke rang aan het einde van het seizoen."
+
+msgid "yearlyRewards/description/current"
+msgstr "Je zult 1%(seasonPointIcon)s ontvangen voor elke rang aan het einde van het seizoen."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nMet unieke 3D-stijlen"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "NAAR JAARLIJKSE BELONINGEN"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Voorvertoning 2D-stijl"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Voorvertoning 3D-stijl"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Bereikte rang: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Huidige rang: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Vier unieke bemanningsleden"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Beloning ontvangen"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Beloning gegarandeerd"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Verdien in totaal %(count)s kleuren om stadiumbeloningen te ontvangen"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Potentiële beloning"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Je zult deze beloning aan het eind van het jaar gegarandeerd ontvangen."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Verdien het benodigde aantal Bestormingkleuren om je beloning aan het eind van het jaar te ontvangen."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Je zult deze beloning aan het eind van het jaar ontvangen als je je huidige rang behoudt of voor het einde van het seizoen een hogere rang bereikt."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Actief stadium"
+
+msgid "yearlyStatistics/battles"
+msgstr "Gevechten—solo/peloton"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Seizoensstatistieken berekenen..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sNaar seizoensstatistieken"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Geen rang"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "%(rank)s rang"
+
+msgid "yearlyStatistics/rating"
+msgstr "Rangpunten"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Herfst 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Winter 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Lente 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "Seizoen I. Azuurblauwe draak"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "Seizoen II. Karmozijnrode draak"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "Seizoen III. Jaden draak"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Huidig"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Afgelopen"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Gevechten—superpeloton"
+
+msgid "yearlyStatistics/wins"
+msgstr "Winstpercentage"

@@ -1,0 +1,671 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-07-20 10:00+0300\nPO-Revision-Date: 2023-07-20 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/reason/1"
+msgstr "Όλα τα εχθρικά οχήματα καταστράφηκαν"
+
+msgid "battleResult/reason/11"
+msgstr "Όλοι οι κύριοι στόχοι επιτεύχθηκαν"
+
+msgid "battleResult/reason/3"
+msgstr "Ο χρόνος μάχης έληξε"
+
+msgid "battleResult/reason/5"
+msgstr "Τεχνική ήττα"
+
+msgid "battleResult/reason/8"
+msgstr "Καταστροφή συμπαίκτη"
+
+msgid "battleResult/reason/9"
+msgstr "Το όχημά σας καταστράφηκε"
+
+msgid "battleResult/reason/default"
+msgstr "Από άγνωστη αιτία"
+
+msgid "battleResult/resultLabel/tie"
+msgstr "Η ΜΑΧΗ ΤΕΛΕΙΩΣΕ"
+
+msgid "battleResult/resultLabel/win"
+msgstr "ΝΙΚΗ!"
+
+msgid "berlin/hint01"
+msgstr "Καταστρέψτε τις ερπύστριες του King Tiger για το Storm Petrel"
+
+msgid "berlin/hint02"
+msgstr "Περιμένετε και ακούστε τον Sgt. Brooks"
+
+msgid "berlin/objective01/header"
+msgstr "Ψάξτε για το εχθρικό Wunderwaffe"
+
+msgid "berlin/objective01/subheader"
+msgstr "Προχωρήστε με προσοχή"
+
+msgid "berlin/objective02/header"
+msgstr "Σταματήστε!"
+
+msgid "berlin/objective02/subheader"
+msgstr "Ακολουθήστε τις οδηγίες του Αρχηγείου"
+
+msgid "berlin/objective03/header"
+msgstr "Ψάξτε για το εχθρικό Wunderwaffe"
+
+msgid "berlin/objective03/subheader"
+msgstr "Προχωρήστε με προσοχή"
+
+msgid "berlin/objective03/success"
+msgstr "Τα ερείπια εκκαθαρίστηκαν!"
+
+msgid "berlin/objective04/header"
+msgstr "Περιμένετε να καλέσει ο Sgt. Brooks ένα βομβαρδιστικό"
+
+msgid "berlin/objective04/subheader"
+msgstr "Υπερασπιστείτε τη θέση σας!"
+
+msgid "berlin/objective05/header"
+msgstr "Αποτελειώστε τις εχθρικές δυνάμεις"
+
+msgid "berlin/objective05/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Καταστρέψτε %d εναπομείναντα αντίπαλο"
+msgstr[1] "Καταστρέψτε %d εναπομείναντες αντιπάλους"
+msgstr[2] "Καταστρέψτε %d εναπομείναντες αντιπάλους"
+
+msgid "berlin/objective05/success"
+msgstr "Βομβαρδιστικό καθ' οδόν! Ετοιμαστείτε!"
+
+msgid "berlin/objective06/header"
+msgstr "Ολοκληρώστε την αποστολή"
+
+msgid "berlin/objective06/subheader"
+msgstr "Καταστρέψτε τις ερπύστριες του Jagdtiger"
+
+msgid "berlin/objective06/success"
+msgstr "Το JagdTiger καταστράφηκε"
+
+msgid "berlin/objective07/header"
+msgstr "Αιχμαλωτίστε το Wunderwaffe"
+
+msgid "berlin/objective07/subheader"
+msgstr "Καταστρέψτε τις ερπύστριες του Little Mouse"
+
+msgid "berlin/objective07/success"
+msgstr "Το Little Mouse καταστράφηκε και αιχμαλωτίστηκε!"
+
+msgid "berlin/prebattle/header"
+msgstr "Προχωρήστε με προσοχή"
+
+msgid "berlin/prebattle/start"
+msgstr "Συνέχεια"
+
+msgid "berlin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "berlin/respawn/header"
+msgstr "Αναμείνατε"
+
+msgid "berlin/respawn/subheader"
+msgstr "Οι ενισχύσεις φτάνουν"
+
+msgid "berlin/respawn_over/header"
+msgstr "Τελείωσε"
+
+msgid "berlin/respawn_over/subheader"
+msgstr "Όλα τα διαθέσιμα οχήματα της ομάδας"
+
+msgid "botNames/Brooks"
+msgstr "Sgt. Brooks"
+
+msgid "botNames/Connolly"
+msgstr "Lt. Arthur Connolly"
+
+msgid "botNames/Dubois"
+msgstr "Capt. Louis Dubois"
+
+msgid "botNames/McCormick"
+msgstr "Capt. John McCormick"
+
+msgid "botNames/McLaud"
+msgstr "Alistair MacLeod"
+
+msgid "botNames/Murphy"
+msgstr "Capt. Jack Murphy"
+
+msgid "botNames/Teddy"
+msgstr "Capt. Miroslav Kotva"
+
+msgid "botNames/Ulysses"
+msgstr "Capt. James Korvin"
+
+msgid "bunker"
+msgstr "Παράκτιο Οχυρό"
+
+msgid "common/battleBtn"
+msgstr "Μάχη!"
+
+msgid "common/continueBtn"
+msgstr "Συνέχεια"
+
+msgid "common/loading"
+msgstr "Φόρτωση"
+
+msgid "common/skipBtn"
+msgstr "Παράλειψη"
+
+msgid "confirmExit/exit"
+msgstr "Παράλειψη"
+
+msgid "confirmExit/exitRegular"
+msgstr "Έξοδος"
+
+msgid "confirmExit/stay"
+msgstr "Άκυρο"
+
+msgid "confirmExit/title"
+msgstr "Παράλειψη της ιστορίας Tiger Hunter?"
+
+msgid "confirmExit/titleRegular"
+msgstr "Θέλετε να βγείτε από το σενάριο?"
+
+msgid "dday/hint01"
+msgstr "Βρείτε έναν τρόπο να καταστρέψετε τα παράκτια οχυρά"
+
+msgid "dday/hint02"
+msgstr "Χρησιμοποιήστε σήματα καπνού για να βοηθήσετε το θωρηκτό"
+
+msgid "dday/objective01/header"
+msgstr "Επιβιώστε στην παραλία"
+
+msgid "dday/objective01/subheader"
+msgstr "Αποφύγετε πάση θυσία τα εχθρικά πυρά"
+
+msgid "dday/objective02/header"
+msgstr "Διασπάστε τις γραμμές του εχθρού"
+
+msgid "dday/objective02/subheader"
+msgid_plural "plural/dday/objective02/subheader"
+msgstr[0] "Καταστρέψτε %d παράκτιο οχυρό"
+msgstr[1] "Καταστρέψτε %d παράκτια οχυρά"
+msgstr[2] "Καταστρέψτε %d παράκτια οχυρά"
+
+msgid "dday/objective02/success"
+msgstr "Όλα τα παράκτια οχυρά καταστράφηκαν!"
+
+msgid "dday/objective03/header"
+msgstr "Κάντε την αναρρίχηση"
+
+msgid "dday/objective03/subheader"
+msgstr "Βρείτε και εξουδετερώστε τις εχθρικές δυνάμεις άμυνας στον τομέα B5"
+
+msgid "dday/objective03/success"
+msgstr "Η άμυνα διασπάστηκε! Συνεχίστε την προέλαση!"
+
+msgid "dday/objective04/header"
+msgstr "Βοηθήστε τους συμπαίκτες σας να διασπάσουν τις γραμμές"
+
+msgid "dday/objective04/subheader"
+msgstr "Εξουδετερώστε την άμυνα του εχθρού στον τομέα D6"
+
+msgid "dday/objective04/success"
+msgstr "Ο δρόμος για τον Captain Murphy είναι ανοικτός!"
+
+msgid "dday/objective05/header"
+msgstr "Βοηθήστε τον Captain Dubois"
+
+msgid "dday/objective05/subheader"
+msgstr "Εξουδετερώστε την άμυνα του εχθρού στον τομέα H6"
+
+msgid "dday/objective05/success"
+msgstr "Ο δρόμος για τον Captain Dubois είναι ανοικτός!"
+
+msgid "dday/objective06/header"
+msgstr "Προστατέψτε τις δυνάμεις του ναυτικού"
+
+msgid "dday/objective06/subheader"
+msgid_plural "plural/dday/objective06/subheader"
+msgstr[0] "Καταστρέψτε %d παράκτιο πυροβόλο"
+msgstr[1] "Καταστρέψτε %d παράκτια πυροβόλα"
+msgstr[2] "Καταστρέψτε %d παράκτια πυροβόλα"
+
+msgid "dday/objective06/success"
+msgstr "Όλα τα παράκτια πυροβόλα καταστράφηκαν!"
+
+msgid "dday/objective07/header"
+msgstr "Καθαρίστε την περιοχή"
+
+msgid "dday/objective07/subheader"
+msgid_plural "plural/dday/objective07/subheader"
+msgstr[0] "Καταστρέψτε %d εναπομείναντα αντίπαλο"
+msgstr[1] "Καταστρέψτε %d εναπομείναντες αντιπάλους"
+msgstr[2] "Καταστρέψτε %d εναπομείναντες αντιπάλους"
+
+msgid "dday/objective07/success"
+msgstr "Όλοι οι αντίπαλοι καταστράφηκαν"
+
+msgid "dday/objective08/header"
+msgstr "Υπερασπιστείτε το έδαφός μας"
+
+msgid "dday/objective08/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Καταστρέψτε %d εχθρικό όχημα"
+msgstr[1] "Καταστρέψτε %d εχθρικά οχήματα"
+msgstr[2] "Καταστρέψτε %d εχθρικά οχήματα"
+
+msgid "dday/objective08/success"
+msgstr "Το προγεφύρωμα είναι ασφαλές!"
+
+msgid "dday/prebattle/header"
+msgstr "Ετοιμαστείτε για επίθεση"
+
+msgid "dday/prebattle/start"
+msgstr "Επίθεση!"
+
+msgid "dday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "dday/respawn/header"
+msgstr "Αναμείνατε"
+
+msgid "dday/respawn/subheader"
+msgstr "Οι ενισχύσεις φτάνουν"
+
+msgid "dday/respawn_over/header"
+msgstr "Τελείωσε"
+
+msgid "dday/respawn_over/subheader"
+msgstr "Όλα τα διαθέσιμα οχήματα της ομάδας"
+
+msgid "epilogue/text"
+msgstr "MacLeod: \"Ζωντανός! Ο Brooks είναι ζωντανός! Έχει πολλά εγκαύματα, αλλά είναι ζωντανός. Μα φυσικά και είναι ζωντανός. Αφού μου υποσχέθηκε και ένα μετάλλιο. Το αξίζω, μπορώ να πω. Κάναμε το King Tiger στάχτη. Η βολή που μας έσωσε από το Tiger ήταν καθαρή τύχη. Πυροβόλησα χωρίς καν να σημαδέψω. Αλλά έσωσα και τον εαυτό μου ταυτόχρονα. Και φυσικά και τον Brooks.\n\nΤώρα μπορούμε να ξεκουραστούμε για μερικές ημέρες. Και να επισκευάσουμε τα οχήματά μας. Το Βερολίνο μας περιμένει.\n\nΠαρεμπιπτόντως, 7-4 υπέρ μας. Αλλά οι Γερμανοί έχουν ακόμη αυτά αναθεματισμένα Tigers. Για να δούμε ποιος θα νικήσει στο τέλος!\""
+
+msgid "epilogue/title"
+msgstr "ΕΠΙΛΟΓΟΣ"
+
+msgid "finish/reason/1"
+msgstr "ΟΛΑ ΤΑ ΕΧΘΡΙΚΑ ΟΧΗΜΑΤΑ ΚΑΤΑΣΤΡΑΦΗΚΑΝ"
+
+msgid "finish/reason/11"
+msgstr "ΟΛΟΙ ΟΙ ΣΤΟΧΟΙ ΕΠΙΤΕΥΧΘΗΚΑΝ"
+
+msgid "finish/reason/3"
+msgstr "ΛΗΞΗ ΧΡΟΝΟΥ ΜΑΧΗΣ"
+
+msgid "finish/reason/5"
+msgstr "ΤΕΧΝΙΚΗ ΗΤΤΑ"
+
+msgid "finish/reason/8"
+msgstr "ΚΑΤΑΣΤΡΟΦΗ ΣΥΜΠΑΙΚΤΗ"
+
+msgid "finish/reason/9"
+msgstr "ΤΟ ΟΧΗΜΑ ΣΑΣ ΚΑΤΑΣΤΡΑΦΗΚΕ"
+
+msgid "finish/reason/default"
+msgstr "ΑΠΟ ΑΓΝΩΣΤΗ ΑΙΤΙΑ"
+
+msgid "hint_aim_weak_spots"
+msgstr "Η πράσινη σήμανση δηλώνει μεγάλη πιθανότητα πρόκλησης φθοράς"
+
+msgid "hint_move"
+msgstr "Χειρισμός οχήματος"
+
+msgid "hint_move_turret"
+msgstr "Χειρισμός πυργίσκου και στόχευση"
+
+msgid "hint_shoot"
+msgstr "Σημαδέψτε το εχθρικό όχημα και πυροβολήστε"
+
+msgid "hint_sniper_enter"
+msgstr "Μπείτε σε Στόχευση σε 1ο Πρόσωπο με τη ροδέλα του ποντικιού"
+
+msgid "hint_sniper_on_distance_exit"
+msgstr "Βγείτε από τη Στόχευση σε 1ο Πρόσωπο με τη ροδέλα του ποντικιού"
+
+msgid "hint_sniper_weak_spots_enter"
+msgstr "Με Στόχευση σε 1ο Πρόσωπο σημαδεύετε καλύτερα τα αδύναμα σημεία των εχθρικών οχημάτων"
+
+msgid "hint_target_unlock"
+msgstr "Η αυτόματη-στόχευση ενεργοποιήθηκε. Απενεργοποιήστε τη με το RMB."
+
+msgid "ingameMenu/buttons/quit"
+msgstr "Παράλειψη Εισαγωγής"
+
+msgid "introVideo/loading"
+msgstr "Φόρτωση…"
+
+msgid "lootCapturing/equipment"
+msgstr "Κατάληψη Χάρτη Ναρκοπέδιου"
+
+msgid "lootCapturing/plan"
+msgstr "Κατάληψη Τμήματος Χάρτη"
+
+msgid "lootCapturing/tank"
+msgstr "Αιχμαλώτιση εχθρικών οχημάτων"
+
+msgid "prebattle/mission/stage/1"
+msgstr "Επιχείρηση 1η"
+
+msgid "prebattle/mission/stage/2"
+msgstr "Επιχείρηση 2η"
+
+msgid "prebattle/mission/stage/3"
+msgstr "Επιχείρηση 3η"
+
+msgid "prebattle/mission/stage/4"
+msgstr "Επιχείρηση 4η"
+
+msgid "prebattle/mission/stage/5"
+msgstr "Επιχείρηση 5η"
+
+msgid "prebattle/mission/stage/6"
+msgstr "Επιχείρηση 6η"
+
+msgid "prebattle/mission/stage/7"
+msgstr "Επιχείρηση 7η"
+
+msgid "prebattle/mission/task/1"
+msgstr "Αποστολή: Επιτεθείτε στην πόλη και καταστρέψτε όλα τα εχθρικά οχήματα."
+
+msgid "prebattle/mission/task/2"
+msgstr "Αποστολή: Επιτεθείτε στην πόλη και καταστρέψτε όλα τα εχθρικά οχήματα."
+
+msgid "prebattle/mission/task/3"
+msgstr "Επιτεθείτε στην πόλη και καταστρέψτε όλα τα εχθρικά οχήματα."
+
+msgid "prebattle/mission/task/4"
+msgstr "Βρείτε και καταστρέψτε το εχθρικό Wunderwaffe."
+
+msgid "prebattle/mission/task/5"
+msgstr "Διασπάστε τις γραμμές του εχθρού, καταστρέψτε τα παράκτια πυροβόλα και καταλάβετε το προγεφύρωμα."
+
+msgid "prebattle/mission/task/6"
+msgstr "Παραδώστε τη διαταγή εκεχειρίας στους συμμάχους σας."
+
+msgid "prebattle/mission/task/7"
+msgstr "Φτάστε στο κέντρο διοίκησης και σταματήστε την εκτόξευση πυραύλων."
+
+msgid "prebattle/mission/text/1"
+msgstr "Brooks: \"Πως νιώθεις? Οι γιατροί θα σε δουν αργότερα. Κάθε όπλο μετράει. Η επίθεση ξεκίνησε ήδη. Και επειδή καθυστερήσαμε, ο εχθρός συγκέντρωσε τις δυνάμεις του σε άλλο μέτωπο. Τώρα είναι η μεγάλη ευκαιρία. Να επιτεθούμε άμεσα. Να μπούμε στην πόλη και να τους συντρίψουμε από παντού.\n\nΑκολουθήστε μας και αποφύγετε τα αντιαρματικά έργα. Έχουν τοποθετήσει αρκετές σειρές από τσιμεντένια δόντια, αλλά πρέπει να τα διασχίσουμε. Να ακούτε προσεκτικά τις διαταγές μου και να τις εκτελείτε με ακρίβεια. Εγώ και ο MacLeod θα σας καλύψουμε.\n\nΚαι μην δίνετε σημασία στα αστεία του. Ο καθένας έχει το δικό του χιούμορ... Εμπρός!\""
+
+msgid "prebattle/mission/text/2"
+msgstr "MacLeod: \"Ωχ, Tigers—ότι χειρότερο να συναντήσεις στο πεδίο της μάχης. Όταν το αρχηγείο λέει ότι θα συναντήσουμε προβλήματα, προφανώς εννοεί Tigers. Δεν μπορούμε να επικοινωνήσουμε με την 1η ομάδα επίθεσης και η 2η έχει ήδη φύγει.\n\nΌταν στέλνουν εμάς, σημαίνει ένα πράγμα: Tigers. Αυτό λένε εκεί στο αρχηγείο: Στείλτε τους ειδικούς στα Tigers! Το σκορ είναι 9-2. Όχι και άσχημα για μόλις 6 μήνες. Προηγείσαι 5-4. Αλλά μπορούμε να προχωρήσουμε. Και τελικά να πάρουμε τα μετάλλια!\n\nΕμπρός — Ο Brooks δεν θέλει να περιμένει. Το κυνήγι ξεκινά.\""
+
+msgid "prebattle/mission/text/3"
+msgstr "MacLeod: \"Την προσοχή όλων παρακαλώ! Επιχείρηση Hammer & Anvil. Απλό όνομα, αλλά όχι απλή αποστολή. Κατευθυνόμαστε προς την πόλη για να εκκαθαρίσουμε τις εχθρικές δυνάμεις που βρίσκονται εκεί. Δεν θα είναι σαν να κάνουμε βόλτα στο πάρκο—έχουμε να αντιμετωπίσουμε τεθωρακισμένα με βαριά θωράκιση. Αλλά εμείς έχουμε μυαλό, θάρρος και ομαδικότητα... έτσι δεν είναι Lucky? Ας μην χάνουμε χρόνο. Στις 5 το απόγευμα πρέπει να πίνουμε ηδη το τσάι μας!\""
+
+msgid "prebattle/mission/text/4"
+msgstr "MacLeod: \"Μην ρωτάς εμένα, Lucky. Έχω μαύρα μεσάνυχτα, όπως και συ.\n\nΟύτε σε μένα αρέσει αυτή η μυστικότητα. Μου αρέσουν οι ξεκάθαρες οδηγίες. Όταν βλέπεις τον εχθρό, πολεμάς. Πολύ μπέρδεμα η τωρινή κατάσταση.\n\nΣτην πόλη θα βρούμε και δικά μας τεθωρακισμένα. Ο Brooks συνέστησε προσοχή. Τι σημαίνει αυτό, δεν ξέρω.\nΕίμαστε σε ειδική αποστολή. Να βρούμε κάποιο Wunderwaffe—κάτι τεράστιο πάνω σε ερπύστριες, τέλος πάντων. Μόνο εμείς μπορούμε να το κάνουμε αυτό, Lucky.\n\nΈτοιμοι? Ξεκινάμε.\""
+
+msgid "prebattle/mission/text/5"
+msgstr "Captain John McCormick: \"Παιδιά, η μεγάλη μέρα έφτασε. Ήρθε η ώρα να δώσουμε ένα τέλος σε αυτόν τον πόλεμο... και αυτό ακριβώς θα κάνουμε. Όλοι μαζί, Αμερικάνοι, Βρετανοί, Γάλλοι, Καναδοί, Αυστραλοί, Βέλγοι, Τσεχοσλοβάκοι, Έλληνες, Ολλανδοί, Νεοζηλανδοί, Νορβηγοί, Πολωνοί. Ενωθήκαμε για να νικήσουμε το κακό μια και καλή.\n\nΘα διασπάσουμε το Ατλαντικό Τείχος και θα εγκαταστήσουμε τη βάση μας.\n\nΕτοιμαστείτε για την απόβαση!\""
+
+msgid "prebattle/mission/text/6"
+msgstr "Captain Smith: \"Ακούστε με όλοι. Η Γερμανία συνθηκολόγησε πριν από μερικές ώρες. Αλλά τα παιδιά μας στα βουνά έχασαν την επαφή μέσω ασυρμάτου και δεν ξέρουν ότι ο πόλεμος τελειώνει αύριο. Ετοιμάζονται να επιτεθούν σε αυτό το καταραμένο φρούριο την αυγή και οι Γερμανοί μέσα δεν ξέρουν για την επικείμενη εκεχειρία. Θα είναι μια άσκοπη αιματοχυσία\n\nΗ αποστολή μας είναι να περάσουμε μέσα από τις εχθρικές γραμμές και να παραδώσουμε την εντολή για την εκεχειρία. Είναι μια αποστολή αυτοκτονίας, αλλά αξίζει για κάθε ζωή που θα σώσουμε.\n\nΈχουμε μαζί μας έναν αιχμάλωτο Γερμανό ασυρματιστή—γνωρίζει την περιοχή και έχει το ίδιο κίνητρο με εμάς για να σταματήσει αυτή την άσκοπη αιματοχυσία.\n\nΞεκινάμε.\""
+
+msgid "prebattle/mission/text/7"
+msgstr "Leni Scharf: \"Η κατάσταση είναι κρίσιμη. Χάσαμε επαφή με τη βάση πυραύλων μας στη Νορβηγική Θάλασσα. Η αναγνωριστική πτήση δεν επέστρεψε ποτέ, ενώ η αρχική αποβατική δύναμη τεθωρακισμένων εξολοθρεύτηκε από άγνωστο εχθρό.\n\nΟι πληροφορίες υποδεικνύουν ότι ετοιμάζονται να εκτοξεύσουν βαλλιστικό πύραυλο. Δεν γνωρίζουμε τον στόχο, αλλά με το πολιτικό κλίμα όπως είναι, μία μόνο εκτόξευση θα μπορούσε να πυροδοτήσει παγκόσμια σύρραξη.\n\nΣαν τα παλιά, έτσι δεν είναι; Ακόμα μία αδύνατη αποστολή πίσω από τις εχθρικές γραμμές. Εμπρός!\""
+
+msgid "prebattle/mission/title/1"
+msgstr "Steel Avalanche"
+
+msgid "prebattle/mission/title/2"
+msgstr "Trapper"
+
+msgid "prebattle/mission/title/3"
+msgstr "Hammer and Anvil"
+
+msgid "prebattle/mission/title/4"
+msgstr "Cat in the Mousetrap"
+
+msgid "prebattle/mission/title/5"
+msgstr "Operation Overlord"
+
+msgid "prebattle/mission/title/6"
+msgstr "Επιχείρηση Postman"
+
+msgid "prebattle/mission/title/7"
+msgstr "Operation Boiling Point"
+
+msgid "ruinberg/hint01"
+msgstr "Βρείτε μία παράκαμψη και πλευροκοπήστε τον εχθρό"
+
+msgid "ruinberg/objective01/header"
+msgstr "Προχωρήστε!"
+
+msgid "ruinberg/objective01/subheader"
+msgstr "Προχωρήστε και εξουδετερώστε όλες τς εχθρικές δυνάμεις"
+
+msgid "ruinberg/objective02/header"
+msgstr "Προχωρήστε με προσοχή"
+
+msgid "ruinberg/objective02/subheader"
+msgstr "Επιτεθείτε στον εχθρό και από τις δύο πλευρές"
+
+msgid "ruinberg/objective02/success"
+msgstr "Καταστράφηκε!"
+
+msgid "ruinberg/objective03/header"
+msgstr "Προχωρήστε με προσοχή"
+
+msgid "ruinberg/objective03/subheader"
+msgstr "Επιτεθείτε στον εχθρό και από τις δύο πλευρές"
+
+msgid "ruinberg/objective03/success"
+msgstr "Καταστράφηκε!"
+
+msgid "ruinberg/objective05/header"
+msgstr "Προχωρήστε!"
+
+msgid "ruinberg/objective05/subheader"
+msgstr "Προχωρήστε και εξουδετερώστε όλες τς εχθρικές δυνάμεις"
+
+msgid "ruinberg/objective07/header"
+msgstr "Ετοιμαστείτε για την αντεπίθεση!"
+
+msgid "ruinberg/objective07/subheader"
+msgstr "Κρατήστε τις θέσεις σας"
+
+msgid "ruinberg/objective07/success"
+msgstr "Οι εχθρικές δυνάμεις εξουδετερώθηκαν!"
+
+msgid "ruinberg/prebattle/header"
+msgstr "Ετοιμαστείτε!"
+
+msgid "ruinberg/prebattle/start"
+msgstr "Επίθεση!"
+
+msgid "ruinberg/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "ruinberg/respawn/header"
+msgstr "Αναμείνατε"
+
+msgid "ruinberg/respawn/subheader"
+msgstr "Οι ενισχύσεις φτάνουν"
+
+msgid "ruinberg/respawn_over/header"
+msgstr "Τελείωσε"
+
+msgid "ruinberg/respawn_over/subheader"
+msgstr "Όλα τα διαθέσιμα οχήματα της ομάδας"
+
+msgid "settings/disabledTabsOverlay"
+msgstr "Ολοκληρώστε το Tiger Hunter για να ξεκλειδώσετε αυτές τις ρυθμίσεις."
+
+msgid "timersPanel/overturned"
+msgstr "Ανάκτηση του οχήματός σας..."
+
+msgid "vday/hint01"
+msgstr "Καλυφθείτε γρήγορα πίσω από τη γωνία"
+
+msgid "vday/hint02"
+msgstr "Πλησιάστε πιο κοντά"
+
+msgid "vday/hint03"
+msgstr "Στείλτε τον Capt. Dubois για ανίχνευση"
+
+msgid "vday/hint04"
+msgstr "Χρησιμοποιήστε τον γερμανικό ασύρματο για να στείλετε εσφαλμένες εντολές στο Tiger"
+
+msgid "vday/hint05"
+msgstr "Ελέγξτε το Γερμανικό κέντρο διοίκησης"
+
+msgid "vday/hint06"
+msgstr "Οι δυνατότητες Ανίχνευση Περιοχής και Εσφαλμένη Εντολή είναι σημαντικές για την επιτυχία της αποστολής"
+
+msgid "vday/hint07"
+msgstr "Χρησιμοποιήστε τις δυνατότητες Ανίχνευση Περιοχής και Εσφαλμένη Εντολή για να κινηθείτε χωρίς να σας εντοπίσουν"
+
+msgid "vday/hint08"
+msgstr "Κινηθείτε! Είτε θα προχωρήσετε είτε θα μείνετε εδώ για πάντα!"
+
+msgid "vday/hint09"
+msgstr "Τα επίλεκτα οχήματα δεν μπορούν να αποπροσανατολιστούν από την Εσφαλμένη Εντολή"
+
+msgid "vday/hint10"
+msgstr "Ακολουθήστε τις οδηγίες του Capt. Smith και κινηθείτε προσεκτικά"
+
+msgid "vday/hint11"
+msgstr "Επιστρέψτε στην αποστολή!"
+
+msgid "vday/objective01/header"
+msgstr "Στη μάχη!"
+
+msgid "vday/objective01/subheader"
+msgstr "Παραδώστε τη διαταγή εκεχειρίας στις δυνάμεις των Συμμάχων"
+
+msgid "vday/objective02/header"
+msgstr "Φτάστε στο Γερμανικό κέντρο διοίκησης"
+
+msgid "vday/objective02/subheader"
+msgstr "Ακολουθήστε τις οδηγίες του Capt. Smith"
+
+msgid "vday/objective02/success"
+msgstr "Βρήκατε τους χάρτες των ναρκοπέδιων"
+
+msgid "vday/objective03/header"
+msgstr "Βρείτε τα τμήματα του χάρτη διέλευσης"
+
+msgid "vday/objective03/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Βρήκατε %d τμήμα χάρτη"
+msgstr[1] "Βρήκατε %d τμήματα χάρτη"
+msgstr[2] "Βρήκατε %d τμήματα χάρτη"
+
+msgid "vday/objective03/success"
+msgstr "Ο χάρτης διέλευσης ολοκληρώθηκε"
+
+msgid "vday/objective04/header"
+msgstr "Παραδώστε τη διαταγή εκεχειρίας στις δυνάμεις των Συμμάχων"
+
+msgid "vday/objective04/subheader"
+msgstr "Κινηθείτε μέσα από τα ναρκοπέδια"
+
+msgid "vday/objective04/success"
+msgstr "Η διαταγή της εκεχειρίας παραδόθηκε!"
+
+msgid "vday/objective05/header"
+msgstr "Φτάστε στα ναρκοπέδια"
+
+msgid "vday/objective05/subheader"
+msgstr "Κινηθείτε μέσα στις γραμμές του εχθρού"
+
+msgid "vday/objective05/success"
+msgstr "Φτάσατε στα ναρκοπέδια"
+
+msgid "vday/prebattle/header"
+msgstr "Κινηθείτε μέσα στις γραμμές του εχθρού"
+
+msgid "vday/prebattle/start"
+msgstr "Έναρξη"
+
+msgid "vday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "vday/prebattleVeryHard/header"
+msgstr "Κινηθείτε μέσα από το ναρκοπέδιο"
+
+msgid "vday/prebattleVeryHard/start"
+msgstr "Κινηθείτε"
+
+msgid "vday/prebattleVeryHard/subheader"
+msgstr "?empty?"
+
+msgid "vday/respawn/header"
+msgstr "Αναμείνατε"
+
+msgid "vday/respawn/subheader"
+msgstr "Οι ενισχύσεις φτάνουν"
+
+msgid "vday/respawn_over/header"
+msgstr "Τελείωσε"
+
+msgid "vday/respawn_over/subheader"
+msgstr "Όλα τα διαθέσιμα οχήματα καταστράφηκαν"
+
+msgid "zeppelin/hint01"
+msgstr "Οπλίστε το πυροβόλο και προκαλέστε πρόσθετη φθορά"
+
+msgid "zeppelin/hint02"
+msgstr "Προκαλέστε φθορά σε εχθρικό όχημα από μεγάλη απόσταση αξιοποιώντας τον μέγιστο βαθμό ευστοχίας"
+
+msgid "zeppelin/hint03"
+msgstr "Μάθετε πως να χρησιμοποιείτε τον βοηθητικό οπλισμό"
+
+msgid "zeppelin/objective01/failure"
+msgstr "Αποτυχία!"
+
+msgid "zeppelin/objective01/header"
+msgstr "Προχωρήστε!"
+
+msgid "zeppelin/objective01/subheader"
+msgstr "Φτάστε στον πύραυλο και αποτρέψτε την εκτόξευση"
+
+msgid "zeppelin/objective02/header"
+msgstr "Βρέθηκε η εγκατάσταση επισκευών του εχθρού!"
+
+msgid "zeppelin/objective02/subheader"
+msgstr "Καταλάβετε τα εγκαταλελειμμένα οχήματα"
+
+msgid "zeppelin/objective02/success"
+msgstr "Το όχημα κατελήφθη!"
+
+msgid "zeppelin/objective03/header"
+msgstr "Νέος αντικειμενικός στόχος!"
+
+msgid "zeppelin/objective03/subheader"
+msgstr "Καταλάβετε το σημείο εκτόξευσης και το κέντρο διοίκησης"
+
+msgid "zeppelin/objective03/success"
+msgstr "Σημείο εκτόξευσης ασφαλές"
+
+msgid "zeppelin/objective04/header"
+msgstr "Κρατήστε τις θέσεις σας"
+
+msgid "zeppelin/objective04/subheader"
+msgstr "Καταστρέψτε %d εχθρικά οχήματα"
+
+msgid "zeppelin/objective04/success"
+msgstr "Η επίθεση του εχθρού αποκρούστηκε"
+
+msgid "zeppelin/prebattle/header"
+msgstr "Ετοιμαστείτε!"
+
+msgid "zeppelin/prebattle/start"
+msgstr "Προχωρήστε!"
+
+msgid "zeppelin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "zeppelin/respawn/header"
+msgstr "Αναμείνατε"
+
+msgid "zeppelin/respawn/subheader"
+msgstr "Οι ενισχύσεις φτάνουν"
+
+msgid "zeppelin/respawn_over/header"
+msgstr "Τελείωσε"
+
+msgid "zeppelin/respawn_over/subheader"
+msgstr "Όλα τα διαθέσιμα οχήματα καταστράφηκαν"

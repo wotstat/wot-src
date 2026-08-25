@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "vatrena moć"
+
+msgid "categories/mobility"
+msgstr "porketljivost"
+
+msgid "categories/stealth"
+msgstr "izviđanje"
+
+msgid "categories/survivability"
+msgstr "održivost"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Razumijem!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Ne!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Nakon otkazivanja promjena, možete ih kupiti opet korištenjem kredita."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Nakon otkazivanja promjena, možete ih kupiti opet."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Otkazati sve dvostruke promjene besplatno?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Nakon otkazivanja promjene, možete je kupiti opet korištenjem kredita."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Nakon otkazivanja promjene, možete je kupiti opet."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Otkazati dvostruku promjenu %(modification)s besplatno?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "KUPI PROMJENE"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "ODABERI KATEGORIJU MJESTA"
+
+msgid "hint/entryPoint"
+msgstr "PROMJENE DOSTUPNE"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "KLIKNITE ZA PREBACIVANJE\nPOMOĆNE OPREME"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "KLIKNITE ZA PREBACIVANJE\nNEOPHODNE OPREME"
+
+msgid "hint/vehiclePreview"
+msgstr "PROMJENE KARAKTERISTIKA VOZILA"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Razumijem!"
+
+msgid "postProgressionIntro/title"
+msgstr "TERENSKA PROMJENA"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Posebna promjena %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Kliknite za pregled promjena karakteristika vozila nakon dosizanja razine i isticanja primjenjene promjene."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Dvostruka promjena %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Razina terenske promjene"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Dostupno nakon kupnje vozila"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Dostupno nakon stjecanja elitnog statusa"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Dostupno nakon kupnje vozila i stjecanja elitnog statusa"
+
+msgid "researchEntry/title"
+msgstr "TERENSKA PROMJENA"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Povećati"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Odustani"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} i {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Pomoćna oprema"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Mjesto"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Neophodna oprema"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "pristup posebnim promjenama: {name1} i {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "pristup posebnim promjenama: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "pristup posebnoj promjeni: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "pristup posebnim promjenama: {name1} i {name2} i {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "pristup dvostrukim promjenama razina {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "pristup dvostrukoj promjeni razina {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Biti će primljeno: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Povećati razinu standardne promjene na {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Povećati razinu standardne promjene?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Ukupno:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Pridjeljivanje"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Dostupno kategorija: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Odabrana kategorija: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Prilika za pridjeljivanje kategorije za drugo mjesto opreme ovog vozila."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Pridjeljivanje kategorije prvom mjestu"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Pridjeljivanje (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Kategorija drugog mjesta"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Pridjeli"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Kupi i preraspodjeli"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Razmjeni"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Odustani"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Možete preraspodjeliti kategoriju mjesta za %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Odabrana kategorija će biti pridjeljena drugom mjestu opreme. Možete preraspodjeliti kategoriju mjesta za %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Tečaj razmjene: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Razmjena neuspjela: potrebno dodatnih %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Pridjeli kategoriju za drugo mjesto opreme"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Preraspodjeli kategoriju za drugo mjesto opreme"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Nije moguće preraspodjeliti kategoriju za drugo mjesto opreme: potrebno dodatnih %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Ukupno:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Prilika za opremanje dodatnog kompleta {cream_Open}opreme{cream_Close} i {cream_Open}smjernica.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Prilika za opremanje dodatnog kompleta {cream_Open}granata{cream_Close} i {cream_Open}potrošnog materijala.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Pomoćna oprema"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Neophodna oprema"
+
+msgid "setupTooltipView/tip"
+msgstr "Možete se prebacivati između glavne i alternativne konfiguracije vozila u garaži i tijekom odbrojavanja prije bitke."
+
+msgid "setupTooltipView/title"
+msgstr "Alternativna konfiguracija: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Pomoćna oprema%(/accent) je dio konfiguracije vozila koja se sastoji od %(accent) opreme i smjernica%(/accent). Nakon pristupa alternativnoj konfiguraciji, možete %(accent)s se prebacivati između konfiguracija%(/accent) pomoćne opreme tijekom odbrojavanja prije bitke."
+
+msgid "slides/additionalEquipment/title"
+msgstr "POMOĆNA OPREMA"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Nakon dosizanja određene razine terenske promjene, %(accent)alternativna konfiguracija%(/accent) će vam biti dostupna za vozilo i moći ćete pripremiti %(accent)dodatni komplet opreme, streljiva, potrošnog materijala i smjernica%(/accent) u Garaži. Ona ne zamjenjuje glavnu konfiguraciju, ali otključava nove mogućnosti. Možete procjeniti mapu i sastav timova tijekom odbrojavanja prije bitke i %(accent)odabrati jednu od dvije%(/accent) konfiguracije vozila. Omogućuje vam bolju pripremu za uvjete nadolazeće bitke."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "ALTERNATIVNA KONFIGURACIJA VOZILA"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Standardne promjene%(/accent) daju bonus na %(accent)jednu od karakteristika vozila%(/accent) i otključavaju dvostruku promjenu. Ove promjene se besplatno instaliraju i trebate borbeno ili slobodno iskustvo za njihovo istraživanje."
+
+msgid "slides/baseModifications/title"
+msgstr "STANDARDNE PROMJENE"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Posebne promjene%(/accent) otključavaju alternativnu konfiguraciju vozila i omogućuje %(accent)pridjeljivanje kategorije%(/accent) drugom mjestu opreme (vozila razine VIII-X). Možete preraspodjeliti odabranu kategoriju mjesta korištenjem kredita."
+
+msgid "slides/extraModification/title"
+msgstr "POSEBNE PROMJENE: ULOGA MJESTA"
+
+msgid "slides/fieldModernization/description"
+msgstr "Terenska promjena je mogućnost izvedbe preciznije konfiguracije vozila prema njegovoj ulozi i %(accent)promjene njegovih karakterisitka%(/accent) korištenjem raznih %(accent)promjena%(/accent). Svaka sljedeća promjena se otključava nakon istraživanja prethodne."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "TERENSKA PROMJENA"
+
+msgid "slides/fieldModernization/title"
+msgstr "MJENJANJE KARAKTERISTIKA VOZILA"
+
+msgid "slides/modificationTree/description"
+msgstr "Stablo promjena je dostupno vozilima koje se mogu istražiti %(accent)razine VI-X%(/accent) i sakupljačevim vozilima koja su stekla %(accent)elitni satus%(/accent). Promjene za posebna, nagradna i premium vozila su dostupna nakon kupnje."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "ISTRAŽIVANJE PROMJENA"
+
+msgid "slides/modificationTree/title"
+msgstr "ISTRAŽIVANJE PROMJENA"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Dvostruka promjena poboljšava jednu%(/accent) od karakteristika vozila i %(accent)smanjuje drugu%(/accent). Trebate borbeno ili slobodno iskustvo za istraživanje promjena i kredite za njihovu instalaciju. Možete %(accent)otkazati (ukloniti s vozila)%(/accent) promjenu %(accent)besplatno%(/accent).\nKada se vozilo prodaje, standardna i posebna promjena ostaju, ali dvostruka promjena se otkazuje."
+
+msgid "slides/pairedModifications/title"
+msgstr "DVOSTRUKE PROMJENE"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Neophodna oprema%(/accent) je dio konfiguracije vozila koja se sastoji od %(accent)treljiva i potrošnog materijala%(/accent). Nakon pristupa alternativnoj konfiguraciji, možete %(accent)prebacivati između konfiguracija%(/accent) neophodne opreme tijekom odbrojavanja prije bitke."
+
+msgid "slides/requiredEquipment/title"
+msgstr "NEOPHODNA OPREMA"
+
+msgid "slides/roleInBattle/description"
+msgstr "Za razliku od tipa vozila, uloga vozila preciznije odražava optimalnu %(accent)borbenu taktiku%(/accent) i definira koje %(accent)tablo promjena%(/accent) će biti dostupno za određeno vozilo."
+
+msgid "slides/roleInBattle/title"
+msgstr "ULOGA VOZILA U BITCI"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Promjene mijenjaju karakteristike vozila, otključavaju %(accent)pristup alternativnoj konfiguraciji%(/accent) i omogućuju pridjeljivanje kategorije %(accent)drugom mjestu%(/accent) opreme."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Alternativna konfiguracija je drugi komplet %(accent)opreme, streljiva, potrošnog materijala i smjernica%(/accent). Možete se prebacivati između konfiguracija."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Mogućnost odabira i pridjeljivanja kategorije %(accent)drugom mjestu%(/accent) opreme. Izravno utječe na učinkovitost vozila u bitci."
+
+msgid "slides/specialModifications/title"
+msgstr "PROMJENE, ALTERNATIVNA KONFIGURACIJA, KATEGORIJA MJESTA"
+
+msgid "tooltips/entry_point/description"
+msgstr "Mogućnost dodatne promjene karakteristika vozila."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Istraženi moduli i vozila: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Istraženi moduli: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Terenska promjena"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Dostupno nakon kupnje vozila."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Dostupno nakon stjecanja elitnog statusa."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Dostupno nakon kupnje vozila i stjecanja elitnog statusa."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Ispričavamo se zbog privremene neugodnosti. Molim, pokušajte ponovo kasnije."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Posebna promjena nedostupna"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Posebna promjena %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Osvoji ih u bitkama, prodaj višak opreme iz Skladišta ili razmjeni zlato da dobiješ više."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Nedovoljno kredita"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Demontiranje"
+
+msgid "tooltips/pairModification/level"
+msgstr "Dvostruka promjena %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Promjene tehničkih karakteristika:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Demontiranje (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Kupnja (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Kupnja"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Kliknite za pregled promjena tehničkih karakteristika vozila nakon kupnje ove promjene."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Jednom kad otkažete promjenu, moći ćete kupiti bilo koju promjenu ovog para korištenjem kredita."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Kupnja ove promjene će automatski otkazati onu koja je već instalirana iz ovog para."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Druga kupljena promjena"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Istraži terensku promjenu razine %(level) za pristup ovoj promjeni"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Promjena nedostupna"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Besplatno"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "potrebno:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Približan broj. Precizne vrijednosti su naznačene u karakteristikama."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Primjeni"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Odustani"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Poništavanje"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s promjene"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Dodaj za usporedbu"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Uništi sve dostruke promjene"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Klikni za uništenje svih dvostrukih promjena."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Uništi"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Pregled"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Preraspodjeli"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Prije bitke"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Odaberi"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Uključi/isključi mogućnost odabira kompleta opreme i smjernica tijekom odbrojavanja prije bitke.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Uključi/isključi mogućnost odabira kompleta granata i potrošnog materijala tijekom odbrojavanja prije bitke.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Kada je isključeno, kompleti odabrani u Garaži će se koristiti u bitci."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Prebacivanje prije bitke"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Ovo vozilo je u bitci."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Ovo vozilo je zaključano."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Ovo vozilo treba popravke."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Ovo vozilo je u taktičkoj jedinici."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Nije moguće pridjeliti kategoriju mjesta: vozilo nije u Garaži."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Najam vozila je završio."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Ovo vozilo je u bitci."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Ovo vozilo je zaključano."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Ovo vozilo treba popravke."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Ovo vozilo je u taktičkoj jedinici."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Kupnja nije moguća: vozilo nije u Garaži."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Najam vozila je završio."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Klikni za uništenje dvostruke promjene."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Uništi"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "ili"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Najveća razina terenske promjene"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Dostupno za vozila razine {minAllowedLevel} - {maxAllowedLevel}"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Dostupno za vozila razine {allowedLevel}"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "SAKRIJ KARAKTERISTIKE"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Stalni bonus: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Stalni bonus: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Stalni bonus: %(bonus1) i %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Povećaj razinu za dobitak stalnih bonusa: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Povećaj razinu za dobitak stalnog bonusa: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Povećaj razinu za dobitak stalnih bonusa %(bonus1) i %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Povećaj razinu"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Povećaj razinu na %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Povećaj razinu za dobitak:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Poboljšane karakteristike"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Posebne promjene"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Posebna promjena {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Dvostruke promjene"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Dvostruka promjena {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Na module"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Terenska promjena nedostupna. Vozilo je u bitci."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Terenska promjena nedostupna. Vozilo je zaključano."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Terenska promjena nedostupna. Vozilo zahtjeva popravke."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Mogućnost dodatne promjene karakteristika vozila postaje dostupno kada vozilo stekne elitni status."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Terenska promjena nedostupna: vozilo je u taktičkoj jedinici."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Morate imati vozilo u Garaži za istraživanje promjena i povećanje razine terenske promjene."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Terenska promjena nije dostupna vozilima u najmu. Kupite ovo vozilo kako bi otključali terensku promjenu."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Terenska promjena nedostupna: najam vozila je završio. Produljite period najma kako bi otključali terensku promjenu."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "PRIKAŽI KARAKTERISTIKE"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Mogućnost dodatne promjene karakteristika vozila. Postaje dostupno kada vozilo stekne elitni status."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Terenska promjena"

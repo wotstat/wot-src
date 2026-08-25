@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) modul rămas"
+msgstr[1] "%(count) module rămase"
+msgstr[2] "%(count) module rămase"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Înapoi la module"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "La deschidere, aceste module îți pot aduce vehicule premium, monede în joc sau alte recompense valoroase."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Poți cumpăra Module Paradox din Magazinul din joc sau Magazinul Premium."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Modul paradox"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "MODUL PARADOX"
+
+msgid "common/getButton/lowerCase"
+msgstr "Obține module"
+
+msgid "common/getButton/upperCase"
+msgstr "OBȚINE MODULE"
+
+msgid "common/loader"
+msgstr "Se deschide modulul..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Deschide module pentru a afișa statistici."
+
+msgid "common/statistics/header"
+msgstr "Module deschise: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Toate informațiile despre modulele deschise vor fi șterse."
+
+msgid "entryPoint/boxes"
+msgstr "SPRE MODULE"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Acestea sunt module speciale care conțin articole noi și unice, inclusiv vehicule premium, elemente de personalizare, monede în joc și alte recompense valoroase.\nModulele pot fi obținute din Magazinul din joc sau din Magazinu Premium."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Modulele nu pot fi deschise sau obținute momentan, din motive tehnice. Oferim scuze pentru neplăcerea temporară."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Modulele temporar indisponibile"
+
+msgid "eventName/lowerCase"
+msgstr "Sparge paradoxul"
+
+msgid "eventName/upperCase"
+msgstr "SPARGE PARADOXUL"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Recompensă garantată în următorul modul!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximul de module înainte de recompensa garantată: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Dacă nu deschizi module până la încheierea evenimentului, acestea vor fi deschise automat."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Dacă deții deja toate vehiculele din lista conținutului posibil al modulelor, toate vehiculele ulterioare obținute din module vor fi compensate în aur egal cu valoarea lor întreagă."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "La fiecare %(guaranteed0)s module, ai garanția apariției unui vehicul premium. Dacă le deschizi fără ca un astfel de vehicul să apară, atunci la deschiderea celui de-al %(guaranteed0)s-lea modul vei primi un vehicul premium pe care nu îl deții deja. Apoi, contorul va fi resetat."
+
+msgid "infoPage/header/description"
+msgstr "Deschide modulul pentru șansa de a obține articole valoroase în joc! Află mai multe detalii mai jos."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "De la %(name) (%(boxesCount) module deschise)"
+
+msgid "noBoxesView/description/"
+msgstr "Nu deții module. Le poți obține\ndin Magazinul din joc sau din magazinul Premium."
+
+msgid "preview/backLabel"
+msgstr "SPRE MODULE"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Module disponibile: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nu există module disponibile"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Dacă deții deja toate vehiculele din lista conținutului posibil al modulelor, toate vehiculele ulterioare obținute din module vor fi compensate cu aur."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) modul"
+msgstr[1] "%(remainingCount) module"
+msgstr[2] "%(remainingCount) module"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Recompensa garantată constă într-un vehicul din lista de conținut posibil.\nDacă deschizi %(remainingCount) fără ca dintr-unul să apară un astfel de vehicul, acesta va apărea la deschiderea celui de-al %(count) modul. Apoi, contorul va fi resetat."

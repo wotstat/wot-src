@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Vissza a kincsekhez"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Lángoló kincs"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "LÁNGOLÓ KINCS"
+
+msgid "common/getButton/lowerCase"
+msgstr "Szerezz kincseket"
+
+msgid "common/getButton/upperCase"
+msgstr "SZEREZZ KINCSEKET"
+
+msgid "common/loader"
+msgstr "Lángoló kincs kinyitása..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Nyiss ki lángoló kincseket a statisztika megtekintéséhez."
+
+msgid "common/statistics/header"
+msgstr "Kinyitott lángoló kincsek: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "A kinyitott lángoló kincsekkel kapcsolatos összes információ törlődik."
+
+msgid "entryPoint/boxes"
+msgstr "A KINCSEKHEZ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ezek olyan különleges dobozok, amelyek új és egyedi tárgyakat tartalmaznak, többek között prémium járműveket, 2D-stílusokat és még sok mást. Ezeket a játékon belüli Boltban szerezheted be."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Technikai okok miatt jelenleg nem nyithatsz ki, illetve vásárolhatsz lángoló kincseket. Elnézést kérünk az átmeneti kellemetlenségért."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "A lángoló kincsek átmenetileg nem érhetők el"
+
+msgid "eventName/lowerCase"
+msgstr "Holdjutalom"
+
+msgid "eventName/upperCase"
+msgstr "HOLDJUTALOM"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantált jutalom a következő kincsben!"
+
+msgid "guaranteedTitle/text"
+msgstr "A lángoló kincsek maximális száma, mielőtt garantált jutalmat kapsz: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ha nem nyitod ki a lángoló kincseket az esemény végéig, automatikusan kinyitjuk őket."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ha már rendelkezel a lángoló kincsek lehetséges tartalmának listáján szereplő összes járművel, akkor a lángoló kincsekből kapott minden további jármű teljes értékét aranyban kompenzáljuk."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Minden %(guaranteed0)s. lángoló kincs garantáltan tartalmaz egy VIII–IX-es szintű járművet. Ha kinyitásukkor egyszer sem kapsz ilyen járművet, akkor %(guaranteed0)s&zwnbsp;. lángoló kincsed kinyitásakor kapsz egy olyan VIII–IX-es szintű járművet, amelyikkel még nem rendelkezel. Ha kapsz egy járművet, a számláló visszaáll."
+
+msgid "infoPage/header/description"
+msgstr "Nyisd ki a lángoló kincseket, hogy értékes játékbeli tárgyakat szerezz! További részleteket alább olvashatsz."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Ebből: %(name) (%(boxesCount) lángoló kincs kinyitva)"
+
+msgid "noBoxesView/description/"
+msgstr "Nincsenek lángoló kincseid.\nA játékbeli Boltban vásárolhatod meg őket."
+
+msgid "preview/backLabel"
+msgstr "A KINCSEKHEZ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Elérhető kincsek: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nincs elérhető kincsed"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ha már rendelkezel a lángoló kincsek lehetséges tartalmának listáján szereplő összes járművel, akkor a lángoló kincsekből kapott minden további járművet aranyban kompenzáljuk."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Lángoló kincs"
+msgstr[1] "%(remainingCount) Lángoló kincs"
+msgstr[2] "%(remainingCount) Lángoló kincs"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "A garantált jutalom egy jármű a Lángoló kincsek lehetséges tartalmainak listájáról.\nHa kinyitsz %(remainingCount) kincset anélkül, hogy kapnál egy ilyen járművet, akkor %(count). Lángoló kincsed kinyitásakor kapsz egyet. Amikor egy ilyen járművet kapsz, a számláló visszaáll alaphelyzetbe."

@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Réinitialiser les filtres"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Aucun véhicule ne correspond aux paramètres sélectionnés.\nIl est nécessaire de réinitialiser les paramètres des filtres pour voir les véhicules appropriés"
+
+msgid "battleType/description/fast"
+msgstr "Un scénario qui réduit le temps de rechargement des Réserves de combat."
+
+msgid "battleType/description/random"
+msgstr "Un scénario dans lequel les joueurs choisissent parmi des ensembles de Réserves aléatoires avec la possibilité de les améliorer au Niveau IV."
+
+msgid "battleType/description/standard"
+msgstr "Un scénario avec les règles standards de Ligne de front."
+
+msgid "battleType/postBattle/title"
+msgstr "Scénario de bataille : %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Réduit le temps de rechargement des Réserves."
+
+msgid "battleType/shortDescription/random"
+msgstr "Les Réserves de combat sont attribuées aléatoirement."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Les règles standards sont appliquées."
+
+msgid "battleType/title/fast"
+msgstr "Support opérationnel"
+
+msgid "battleType/title/random"
+msgstr "Coup du sort"
+
+msgid "battleType/title/standard"
+msgstr "Bataille standard"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "RETOUR"
+
+msgid "button/close"
+msgstr "FERMER"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} jour"
+msgstr[1] "{duration} jours"
+msgstr[2] "{duration} jours"
+
+msgid "filterPopover/note"
+msgstr "Seuls les véhicules pouvant être utilisés dans le mode sont affichés ici."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Le niveau des Réserves de combat augmente en atteignant de nouveaux grades."
+
+msgid "levelReservesTooltip/info"
+msgstr "Dans le scénario {whiteSpanish_Start}Coup du sort{whiteSpanish_End}, l'achat d'une Réserve de combat augmentera son niveau d'un palier, avec la possibilité de l'améliorer jusqu'au Niveau {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Augmente en atteignant le grade suivant : {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Disponible au grade suivant : {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Niveau {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Pour les {whiteSpanish_Start}Réserves de combat achetées{whiteSpanish_End} dans le scénario {whiteSpanish_Start}Coup du sort{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Niveaux des Réserves de combat"
+
+msgid "loading"
+msgstr "Chargement…"
+
+msgid "widget/eventStartSoon"
+msgstr "L'évènement commencera bientôt !"
+
+msgid "widget/maxTier"
+msgstr "Vous avez atteint le rang maximal !"

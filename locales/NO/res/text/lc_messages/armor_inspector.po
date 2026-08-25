@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Hovedpansring"
+
+msgid "armorValues/title/no_damage"
+msgstr "Ingen skade"
+
+msgid "armorValues/title/other"
+msgstr "Andre"
+
+msgid "armorValues/title/penetration"
+msgstr "Sannsynlighet for penetrasjon"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Rikosjett"
+
+msgid "armorValues/title/spaced"
+msgstr "Pansring med mellomrom"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Angrepskonfigurasjon"
+
+msgid "attackerTooltip/body"
+msgstr "Klikk for å endre angrepskjøretøyet"
+
+msgid "attackerTooltip/header"
+msgstr "Angrepskjøretøy"
+
+msgid "menu/header"
+msgstr "Type overlegg"
+
+msgid "menu/no_armor"
+msgstr "Uten overlegg"
+
+msgid "menu/nominal"
+msgstr "Nominell pansring"
+
+msgid "menu/penetration"
+msgstr "Sannsynlighet for penetrasjon"
+
+msgid "modules/current"
+msgstr "Nåværende konfigurasjon"
+
+msgid "modules/custom"
+msgstr "Tilpasset konfigurasjon"
+
+msgid "modules/standard"
+msgstr "Standardkonfigurasjon"
+
+msgid "modules/title"
+msgstr "Kjøretøymoduler"
+
+msgid "modules/top"
+msgstr "Toppkonfigurasjon"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Understell"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Kanon"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Kanonmantel"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Skrog"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Skjerm"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Observasjonsutstyr"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Tårn"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Hjul"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Ingen skade"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Penetrasjon"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Rikosjett"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Vinkelen mellom prosjektilbanen og linjen vinkelrett på panserplaten.\n\nProsjektilbanen beregnes som om prosjektilet beveger seg i en rett linje fra midten av skjermen."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Treffvinkel"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Sannsynligheten for å trenge gjennom fiendens pansring og forårsake skade på kjøretøyet."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Sannsynlighet for penetrasjon"
+
+msgid "tooltip/minor/effective/description"
+msgstr "For et enkelt pansringslag blir effektiv pansring den nominelle pansringen justert for treffvinkel og granatnormalisering.\n\nHvis det er flere pansringslag på treffpunktet, blir resultatet summen av de effektive verdiene for hvert lag."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Effektiv pansring"
+
+msgid "tooltip/minor/header"
+msgstr "Forklaring"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Å treffe pansring med mellomrom skader ikke et kjøretøy med mindre en granat treffer og deretter gjennomborer hovedpansringen."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Ingen skade"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Den faktiske tykkelsen på hoved eller pansringsplaten(e) med mellomrom."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nominell pansring"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Granater som treffer fiendens pansring i en spiss vinkel vil rikosjettere av det. De kan imidlertid fortsatt treffe et annet kjøretøy, eller til og med det samme."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Rikosjett"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Påvirker beregninger av effektiv pansring og penetrasjonssjanse.\n\nEn avstand på 100 m brukes for alle beregninger (AP- og APCR-granater taper gjennomslagskraft over avstand).\n\nBesetningsfordeler og oppgraderinger på angripende kjøretøy påvirker ikke beregningene."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Angrepskonfigurasjon"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Sannsynligheten for å penetrere fiendens pansring og forårsake skade på kjøretøyet.\n\nÅ treffe pansring med mellomrom skader ikke et kjøretøy med mindre en granat treffer og deretter penetrere hovedpansringen etterpå."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Sannsynlighet for penetrasjon"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Et kjøretøy skades kun hvis hovedpansringen blir truffet og penetrert. HE-granater kan forårsake redusert skade på et kjøretøy selv uten penetrasjon; de må imidlertid fortsatt nå frem til hovedpansringen."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Hovedpansring"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Å treffe pansring med mellomrom skader ikke et kjøretøy med mindre en granat treffer og deretter penetrerer hovedpansringen.\n\nÅ treffe og penetrere eksterne moduler skader disse modulene direkte: Treff et belte for å immobilisere et kjøretøy, treff et kanonløp for å gjøre den ubrukelig, eller treff observasjonsutstyr for å redusere kjøretøyets synsrekkevidde."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Ingen skade"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Rikosjettvinkelen er 70 grader for panserbrytende og APCR-granater og 85 grader for HEAT-granater.\n\nHE-granater rikosjetterer ikke, mens AP- og APCR-granater mister 25 % av gjennomslagskraften sin etter å ha rikosjettert.\n\nRikosjettering vil ikke skje hvis granatens kaliber er større enn tre ganger den nominelle pansringstykkelsen på treffpunktet (dette gjelder kun for AP- og APCR-granater)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Rikosjett"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Å treffe pansring med mellomrom skader ikke et kjøretøy med mindre en granat treffer og deretter penetrerer hovedpansringen etterpå.\n\nÅ treffe og penetrere eksterne moduler skader disse modulene direkte: Treff et belte for å immobilisere et kjøretøy, treff et kanonrør for å gjøre det ubrukelig, eller treff observasjonsutstyr for å redusere kjøretøyets synsrekkevidde.\n\nTreffvinkel gjelder ikke for eksterne moduler (som belter og kanonløp)—her er effektivt pansring likt nominell pansring."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Pansring med mellomrom"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Se en video om mekanismene for pansringspenetrasjon"

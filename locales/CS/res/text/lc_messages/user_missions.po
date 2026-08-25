@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "{{level}}. fáze"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Speciální kapitola"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Dokončena"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Prohlédnout nový postup"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Vybrat kapitolu"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Dočasně nedostupné"
+
+msgid "battle_pass_widget/title"
+msgstr "Battle Pass"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Zkouška ohněm: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}}–{{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} d"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} d {{hours}} h"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} h"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} h {{minutes}} m"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Bonusová mise\nPro odemčení splňte 3 standardní mise"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Zbývající čas do splnění bonusové mise"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Nové denní mise za"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "To je prozatím vše. Nové denní mise budou brzy k dispozici."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Pro odemčení této mise splňte misi předchozí"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Prémiové mise jsou dočasně nedostupné"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Koupit prémium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Vyžaduje prémiový účet WoT"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Prémiové mise"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Denní mise jsou dočasně nedostupné"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Nahradit"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "DENNÍ"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Na kampaně"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Zlepšit výsledek"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Na operaci"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Skutečná výzva pro zkušené bojovníky s jedinečnými vozidly jako odměnou."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Dokončili jste operaci „{{currentOperationName}}“! Můžete pokračovat ve zlepšování svého výsledku a dokončit operaci s vyznamenáním, nebo se pustit do nové výzvy v operaci „{{nextOperationName}}“."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Stále můžete zlepšit svůj výsledek v operaci „{{nextOperationName}}“."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Dokončili jste operaci „{{currentOperationName}}“ s vyznamenáním! Nyní je dostupná operace „{{nextOperationName}}“."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Body kampaně lze získat plněním osobních misí, denních misí a týdenních misí."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Splňte všech {{totalProgress}} misí, dokončete operaci s vyznamenáním a získejte odměny navíc."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Namontujte všechny díly a získejte odměnu – vozidlo {{vehicleName}}. Pro získání dílů vozidla sbírejte body kampaně plněním osobních, denních a týdenních misí."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Namontujte všechny díly a získejte odměnu – vozidlo {{vehicleName}}. Pro získání dílů vozidla sbírejte body kampaně plněním osobních, denních a týdenních misí."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Splněné mise: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Je dostupná nová kampaň „Sektor 3“!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Je dostupná operace: „{{nextOperationName}}“!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operace: „{{currentOperationName}}“ dokončena s vyznamenáním!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Je dostupná operace „{{nextOperationName}}“!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operace: „{{currentOperationName}}“ | Fáze: {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Dokončení operace „{{currentOperationName}}“ s vyznamenáním"
+
+msgid "hub/basic_missions/title"
+msgstr "BĚŽNÉ MISE"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "TÝDENNÍ"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Aktualizováno každé {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktivní mise"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "NEBO"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Blíží se nové mise..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "BOJOVNÍK"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ESO"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITNÍ"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Existují tři kategorie misí: Bojovník, Elitní a Eso. Každá kategorie přináší jedinečné výzvy a hodnotné odměny."
+
+msgid "hub/challenge_missions/header"
+msgstr "ZKOUŠKA OHNĚM"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Aktivovat"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Restartovat zdarma"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Restartovat"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Opustit"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Na mise"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Mise Zkoušky ohněm splněny"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "%(count)s×"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "štítů zbývá"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "restartování zdarma"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Splňte aktivní mise Zkoušky ohněm"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Skončí za %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Nedostupné: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Jsou vyžadována vozidla VI. nebo vyšší úrovně"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTIVNÍ"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Dokončeno"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} misí"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Mise výzvy"
+
+msgid "hub/challenge_missions/new"
+msgstr "NOVÉ"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Na Zkoušku ohněm"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Na Zkoušku ohněm"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "ZKOUŠKA OHNĚM: {{ challengeName }} DOKONČENA!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Na Zkoušku ohněm"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Zkouška ohněm: {{ challenge }} nebyla dokončena. Restartujte ji a pokuste se znovu získat odměny!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Na Zkoušku ohněm"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "MISE „{{ mission }}“ SPLNĚNA!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Na Zkoušku ohněm"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Mise „{{ mission }}“ nebyla dokončena"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "ŠTÍTŮ ZBÝVÁ"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Na Zkoušku ohněm"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Vstupte do Zkoušky ohněm a pusťte se do sérií náročných misí, za jejichž splnění na vás čekají cenné odměny."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "NOVÉ MISE ZKOUŠKY OHNĚM K DISPOZICI!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Probojujte se ke slávě ve Zkoušce ohněm: pusťte se do sérií náročných misí, za jejichž splnění vás čekají cenné odměny."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "VSTOUPIT DO ZKOUŠKY OHNĚM"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Dokončeno"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Sada 3D doplňků"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Vylepšené vybavení"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "{{count}}×"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D styl"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Člen posádky"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Vozidlo"
+
+msgid "hub/challenge_missions/title"
+msgstr "MISE ZKOUŠKY OHNĚM"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "O Zkoušce ohněm"
+
+msgid "hub/common_missions/title"
+msgstr "MISE NAVÍC"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Vyzvednout odměny"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Epická odměna je dočasně nedostupná"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Každá splněná standardní, prémiová nebo bonusová mise přispívá do vašeho postupu."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "K dispozici"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Splňte denní mise a získejte epické odměny"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Vyzvednout odměnu"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Vyzvednout odměny"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Každá splněná standardní, prémiová nebo bonusová mise přispívá do vašeho postupu."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "K dispozici"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Zpět v akci: Splňte denní mise a získejte epické odměny: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Jakmile splníte tři standardní mise, zpřístupní se bonusová mise, která nabízí ještě hodnotnější odměny. Bonusová mise musí být splněna do konce dne, jinak vyprší."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Bonusová mise"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Některé mise musí být splněny v jedné bitvě, zatímco jiné jsou kumulativní a dají se splnit v libovolném počtu bitev. Kumulativní mise mají panel postupu. Mise můžete plnit v náhodných bitvách."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Podmínky"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Můžete nahradit nechtěnou standardní misi novou náhodnou misí. Poté bude tlačítko nahrazení mise na {{time}} nedostupné. Nahrazení mise může v případě, že je jedno nebo více vašich vozidel v bitvě, způsobit ztrátu postupu."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Nahrazení mise"
+
+msgid "info_page/additional/reward/description"
+msgstr "Epická odměna je cyklus podobný maratonu, kdy se každá splněná standardní, prémiová a bonusová mise počítá do jeho postupu. Jakmile je cyklus dokončen, je vynulován a začíná od začátku. Cyklus epické odměny nemá časový limit a lze jej dokončit kdykoliv."
+
+msgid "info_page/additional/reward/title"
+msgstr "Epická odměna"
+
+msgid "info_page/header"
+msgstr "O MISÍCH"
+
+msgid "info_page/main/premium/description"
+msgstr "S prémiovým účtem WoT získáte přístup ke třem po sobě jdoucím prémiovým misím. Lze je splnit v náhodných bitvách a v Náporu, přičemž postup se aktualizuje po každé bitvě. Během herních akcí poskytují prémiové mise odměny specifické pro danou akci."
+
+msgid "info_page/main/premium/title"
+msgstr "Prémiové mise"
+
+msgid "info_page/main/standard/description"
+msgstr "Standardní mise jsou náhodné denní úkoly, jejichž postup se aktualizuje po každé bitvě. Doporučujeme je splnit v den, kdy je obdržíte, protože nesplněné mise se přenášejí do dalšího dne a blokují nové. Standardní mise během Battle Passu poskytují body Battle Passu a během ostatních herních akcí odměny specifické pro danou akci."
+
+msgid "info_page/main/standard/title"
+msgstr "Standardní mise"
+
+msgid "info_page/main/weekly/description"
+msgstr "Týdenní mise jsou sada úkolů, která je k dispozici každý týden. Postup se aktualizuje po každé bitvě a splněné mise jsou nahrazeny novými při začátku dalšího týdenního cyklu. Týdenní mise můžete plnit v náhodných bitvách a v Náporu a získat tak bonusy navíc."
+
+msgid "info_page/main/weekly/title"
+msgstr "Týdenní mise"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Pro dnešek jsou všechny běžné mise splněny"
+
+msgid "quests/daily_quests/completed"
+msgstr "Všechny denní mise splněny"
+
+msgid "tooltip/common/timer"
+msgstr "Dostupné za {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Všechny běžné mise splněny! Další najdete v záložce „Mise navíc“."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Bonusová mise"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Dokončena"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Denní mise"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Vyprší za {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nové denní mise za {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Prémiová mise"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Odměny:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Po uplynutí {time} hodin můžete \nnahradit nechtěnou misi novou."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Nahrazení mise"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Mise splněna, odměna získána"
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Pro odemčení této mise splňte předcházející misi. Všechny mise v sérii musí být splněny postupně."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Klikněte pro další informace"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "O misích"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Tuto sérii misí lze po dokončení hrát znovu. Váš postup se vynuluje, štíty se obnoví a budete moct znovu získat odměny."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Znovu splnit mise"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Po ztrátě všech štítů můžete sérii misí zahájit znovu. Váš postup v misích se vynuluje, štíty se obnoví a budete moct znovu získat odměny."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Náklady na následné restartování: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Dostupná bezplatná restartování: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Každý restart stojí: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Restarty"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Štíty chrání váš postup. Každá neúspěšná mise vás stojí jeden štít a jakmile ztratíte všechny štíty, celá série misí selže. Pokud ji restartujete, vaše štíty se obnoví."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Štíty"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Omezení vozidel:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Týdenní mise"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Nahradit tuto týdenní misi můžete každé {{time}}."
+
+msgid "welcome/button"
+msgstr "Potvrzuji!"

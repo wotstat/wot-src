@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, продължителност: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Нормална трудност"
+
+msgid "info/difficult/2"
+msgstr "Висока трудност"
+
+msgid "info/difficult/3"
+msgstr "Брутална трудност"
+
+msgid "info/mapName"
+msgstr "Последна битка • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Брой съживявания: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Всички съюзнически машини са унищожени."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Не успя да спреш Zero."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Времето изтече."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Всички съюзници напуснаха битката."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Браво! Готови ли сте за по-трудна мисия?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Всички врагове на нормална трудност са елиминирани."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Изключително представяне! Малко хора достигат това ниво."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Всички врагове на брутална трудност са елиминирани."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Впечатляваща работа! Сега е време за истинското предизвикателство."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Всички врагове на висока трудност са елиминирани."
+
+msgid "ribbon/ban"
+msgstr "Неприемлива постъпка: бездействие/дезертьорство.\nНаградата не е получена."
+
+msgid "ribbon/banRecord"
+msgstr "Неприемливо изпълнение: бездействие/дезертиране.\nНаградата не е получена. Вашият доклад за унищожаване на вълни не е актуализиран."
+
+msgid "ribbon/noReward"
+msgstr "Вашият отбор не успя да удържи първата вълна.\nНаградата не е получена."
+
+msgid "status/lose"
+msgstr "БИТКАТА СВЪРШИ"
+
+msgid "status/win"
+msgstr "ПОБЕДА"
+
+msgid "subtitle/lose"
+msgstr "Атаката не е удържана"
+
+msgid "subtitle/win"
+msgstr "Браво! Събрани са нови данни."
+
+msgid "teamList/actions"
+msgstr "Бързи действия"
+
+msgid "teamList/teammates"
+msgstr "Съюзници"
+
+msgid "time/record"
+msgstr "НОВ\nРЕКОРД!"
+
+msgid "title/lose/noWaves"
+msgstr "БИТКАТА СВЪРШИ"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s ЗАВЪРШЕНА ВЪЛНА"
+msgstr[1] "%(phaseNumber)s ЗАВЪРШЕНИ ВЪЛНИ"
+msgstr[2] "%(phaseNumber)s ЗАВЪРШЕНИ ВЪЛНИ"
+
+msgid "title/win"
+msgstr "ЗАВЪРШЕНИ СА ВСИЧКИ ВЪЛНИ"
+
+msgid "tooltip/ban"
+msgstr "Неприемливо изпълнение: бездействие/дезертиране. Вашето лично досие за унищожаване на вълни не е актуализирано."

@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, czas trwania bitwy: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "ZAMKNIJ"
+
+msgid "battleResult/continueButton"
+msgstr "Kontynuuj"
+
+msgid "battleResult/damageAssisted"
+msgstr "Asysta\nw uszkodzeniach"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Zablokowane\nuszkodzenia"
+
+msgid "battleResult/damageDealt"
+msgstr "Zadane\nuszkodzenia"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Ukończenie misji na poziomie rygorystycznym\nzapewnia ich automatyczne ukończenie na zwykłym poziomie.\nOznacza to, że otrzymujesz nagrody za oba poziomy trudności."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Ukończenie misji na poziomie rygorystycznym zapewnia ich automatyczne ukończenie na zwykłym poziomie.\nOznacza to, że otrzymujesz nagrody za oba poziomy trudności."
+
+msgid "battleResult/kills"
+msgstr "Zniszczeni\nprzeciwnicy"
+
+msgid "battleResult/lose/title"
+msgstr "BITWA ZAKOŃCZONA"
+
+msgid "battleResult/missionName/1"
+msgstr "ŁOWCA TYGRYSÓW: Operacja Stalowa lawina"
+
+msgid "battleResult/missionName/2"
+msgstr "ŁOWCA TYGRYSÓW: Operacja Traper"
+
+msgid "battleResult/missionName/3"
+msgstr "ŁOWCA TYGRYSÓW: Operacja Młot i kowadło"
+
+msgid "battleResult/missionName/4"
+msgstr "ŁOWCA TYGRYSÓW: Operacja Mysz w potrzasku"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERACJA OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERACJA LISTONOSZ"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERACJA PUNKT WRZENIA"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Brak aktywnych\nmisji"
+
+msgid "battleResult/rewards/other"
+msgstr "Otrzymano również:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Misja\nukończona"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Przetrwano{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Nie przetrwano{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "ZWYCIĘSTWO!"
+
+msgid "countdown/days"
+msgstr "{days} dn."
+
+msgid "countdown/daysHours"
+msgstr "{days} dn. {hours} godz."
+
+msgid "countdown/endsSoon"
+msgstr "Mniej niż {minutes} minut"
+
+msgid "countdown/hours"
+msgstr "{hours} godz."
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} godz. {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} godz. {minutes} min"
+
+msgid "countdown/lessThanMinute"
+msgstr "Mniej niż 1 minuta"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} min"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Anuluj"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Nie zdobędziesz żadnych nagród za ukończenie tej operacji.\nCzy nadal chcesz rozgrywać tę operację bez aktywnych misji?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Potwierdź"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Brak aktywnych misji w tej operacji"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Zidentyfikuj nieznane zagrożenie, powstrzymaj wystrzelenie pocisku i upewnij się, że nowe technologie trafią we właściwe ręce."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Graj solo i walcz z przeciwnikami sterowanymi przez SI w tej epickiej historii z udziałem dowódców z 3. Sektora!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Ukończ wszystkie misje, aby otrzymać pamiątkową odznakę i medal, tematyczne style 2D i inne cenne nagrody."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Nadchodzi nowa era"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Historia solo"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Nagrody"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERACJA PUNKT WRZENIA"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Historie"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Rygorystyczny"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Zwykły"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Rygorystyczne\nPole minowe"
+
+msgid "missionSelection/exitButton"
+msgstr "WYJDŹ Z TRYBU"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERACJA\nSTALOWA LAWINA"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERACJA\nTRAPER"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERACJA\nMŁOT I KOWADŁO"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERACJA\nMYSZ W POTRZASKU"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERACJA\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERACJA\nLISTONOSZ"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERACJA\nPUNKT WRZENIA"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: „Jak się czujesz? Doszedłeś do siebie? Sanitariusze zajmą się tobą później. Teraz liczy się każde działo. Natarcie już się rozpoczęło. Spóźniliśmy się, więc nieprzyjaciel skupił się na drugiej flance. To nasza szansa. Atakujemy natychmiast. Przebijemy się do miasta i ściśniemy ich z obu stron.\nJedź za nami i unikaj smoczych zębów. Mają w polu kilka rzędów tych betonowych kłów. Ale to nie szkodzi, przejdziemy. Musisz tylko mnie słuchać i wykonywać moje rozkazy szybko i dokładnie. MacLeod i ja będziemy cię osłaniać.\nI nie przejmuj się jego żartami. Każdy radzi sobie z sytuacją na swój sposób… Naprzód!”"
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: „Ach, Tygrysy – to najgorsze, co może wyleźć na polu bitwy. Jak dowództwo mówi, że mają problem, to pewnie chodzi o Tygrysy. Nie mamy łączności z pierwszą drużyną, druga właśnie odjechała, a my mamy ruszać za nimi.\nJeśli nas wysłali, to oznacza tylko jedno: Tygrysy. Tak mówią w sztabie: «Wyślijcie ekspertów od Tygrysów!». Dziewięć czołgów na dwóch. Nieźle jak na pół roku. Prowadzisz pięć do czterech, ale mam szansę cię wyprzedzić. I w końcu dostać ten cholerny medal!\nChodź już, Brooks nie lubi czekać. Zaczynamy polowanie”."
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: „Dobra, słuchajcie, to jest operacja «Młot i kowadło». Prosta nazwa nie tak znów prostej roboty. Wchodzimy do miasta, by oczyścić je z sił przeciwnika. To nie będzie spacerek w parku – mają tam trochę ciężkiego sprzętu. Ale po naszej stronie mamy spryt, mięśnie i pracę drużynową, prawda, Szczęściarz? Sprawmy się szybko, chłopaki, bo mam plany na «herbatkę» o piątej, jeśli wiecie, co mam na myśli!”"
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: „Nie pytaj, Szczęściarz. Wiem tyle, co ty. Ta cała tajemniczość wcale mi się nie podoba. Lubię, jak sprawy są proste i jasne. Widzisz przeciwnika, to walczysz. A tu? Co za bajzel.\n\nW mieście będą też sojusznicze czołgi. Brooks prosił, żebyśmy poruszali się ostrożnie. Co to w ogóle ma znaczyć?\nMamy robotę specjalną. Znaleźć jakąś Wunderwaffe – coś dużego na gąsienicach. Nikt tego nie zrobi, tylko my, Szczęściarzu.\n\nGotowy? No to jedziemy”."
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Kapitan John McCormick: „Dobra, chłopaki, nadszedł ten dzień. Już czas zakończyć tę wojnę i właśnie to zrobimy. Wszyscy razem: Amerykanie, Brytyjczycy, Francuzi, Kanadyjczycy, Australijczycy, Belgowie, Czechosłowacy, Grecy, Holendrzy, Nowozelandczycy, Norwegowie, Polacy. Jesteśmy zjednoczeni, aby położyć kres temu złu raz na zawsze.\n\nPrzebijemy się przez Wał Atlantycki i zdobędziemy przyczółek.\n\nPrzygotować się do lądowania!”"
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Kapitan Smith: „Słuchajcie. Kilka godzin temu Niemcy podpisały kapitulację. Wojna kończy się jutro. Ale nasi chłopcy w górach utracili kontakt radiowy – nie wiedzą, że to koniec. Mają zaatakować tę przeklętą fortecę o świcie, a Niemcy w środku też nie wiedzą o kapitulacji. To będzie bezsensowna rzeź.\n\nTylko my możemy to powstrzymać. Nasza misja: przekraść się przez linie przeciwnika i dostarczyć rozkaz wstrzymania ognia. To samobójczy wyścig, ale każde ocalone życie jest tego warte.\n\nMamy schwytanego niemieckiego radiotelegrafistę – zna teren i ma tyle samo powodów, co my, by powstrzymać ten rozlew krwi.\n\nDo boju”."
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: „Sytuacja jest krytyczna. Straciliśmy kontakt z naszą bazą rakietową na Morzu Norweskim. Lot zwiadowczy nie powrócił, a pierwsze pancerne siły desantowe zostały zniszczone przez nieznanego przeciwnika.\n\nWywiad sugeruje, że przygotowują się do wystrzelenia pocisku balistycznego. Nie znamy celu, ale w obecnym klimacie politycznym jeden pocisk może wywołać globalny konflikt.\n\nJak za dawnych czasów, prawda? Kolejna niemożliwa misja za liniami przeciwnika. Ruszajmy!”"
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERACJA STALOWA LAWINA"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERACJA TRAPER"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERACJA MŁOT I KOWADŁO"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERACJA MYSZ W POTRZASKU"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERACJA OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERACJA LISTONOSZ"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERACJA PUNKT WRZENIA"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Pojazd specjalny"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERACJA PUNKT WRZENIA"
+
+msgid "missionSelection/tab/newbies"
+msgstr "HISTORIE SAMOUCZKA"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Zaatakować miasto i zniszczyć pojazdy przeciwnika."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Zaatakować miasto i zniszczyć pojazdy przeciwnika."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Zaatakować miasto i zniszczyć pojazdy przeciwnika."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Osiągnij główne cele operacji bez ponoszenia uszkodzeń od min przeciwnika."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Ukończyć główne cele misji bez utraty ani jednego pojazdu."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Zaatakuj miasto i zdobądź Wunderwaffe przeciwnika."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Ukończ główne cele misji poniżej %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Ukończ główne cele misji i zniszcz %(kill_enemies)s za pomocą samolotu."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Przebić się, zniszczyć działa nadbrzeżne i zająć przyczółek."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Ukończ główne cele misji poniżej %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Ukończyć główne cele misji bez utraty ani jednego pojazdu."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Dostarcz sojusznikom rozkaz wstrzymania ognia."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Ukończ główne cele misji i zniszcz mniej niż %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Ukończ główne cele misji bez utraty ani jednego pojazdu."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Dotrzyj do centrum dowodzenia i zatrzymaj wystrzelenie rakiety."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Ukończ główne cele misji poniżej %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Ukończ główne cele misji bez utraty ani jednego pojazdu."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s pojazd przeciwnika"
+msgstr[1] "%(value)s pojazdy przeciwnika"
+msgstr[2] "%(value)s pojazdów przeciwnika"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Misja jest zablokowana: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minuty"
+msgstr[1] "%(value)s minut"
+msgstr[2] "%(value)s minut"
+
+msgid "missionSelection/taskRewards"
+msgstr "Nagroda: "
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Ten pojazd jest dostępny tylko w historiach."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Ukończ bitwy w trybie losowym,\naby odblokować tę operację: %(numBattles)s."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Dla początkujących"
+
+msgid "mode/story_mode/description"
+msgstr "Ukończ scenariuszowe operacje przeciwko pojazdom prowadzonym przez SI"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operacja Punkt wrzenia jest dostępna"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Tryb gry, który jest aktualnie wybrany, znajdziesz na górze głównego menu w garażu. Kliknij nazwę trybu, by zobaczyć, co jeszcze jest dostępne."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Kliknij &zwnbsp;{whiteSpanish_Open}Historie,{whiteSpanish_Close}&zwnbsp; aby wybrać ten tryb gry."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "W Historiach możesz realizować scenariusze narracyjne PvE, walczyć z przeciwnikiem sterowanym SI, zanurzyć się w atmosferze bohaterskich bitew i zdobywać cenne nagrody!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Wejdź do selektora trybu gry"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Wybierz Historie"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Ciesz się akcją PvE"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "HISTORIE"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Scenariusze bitewne czekają"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Restartuj"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "BITWA ZAKOŃCZONA"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Pomiń"
+
+msgid "onboardingQueue/skipText"
+msgstr "Wszystkie serwery zajęte. Poczekaj lub pomiń tę historię."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Przygotowujemy dla Ciebie serwer. Proszę czekać..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Uszkodzenia zablokowane przez pancerz {parSecondary_Start}(PW){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Zablokowane uszkodzenia"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Trafienia pociskami OB i HESH nie są liczone."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Wliczono:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Rykoszety strzałów przeciwnika"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Trafienia niepenetrujące"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Asysta w uszkodzeniach"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Liczą się następujące uszkodzenia zadane przez sojuszników przy Twojej pomocy:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Uszkodzenia po Twoim wykryciu"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Uszkodzenia zadane po zniszczeniu przez Ciebie gąsienicy i unieruchomieniu pojazdu przeciwnika"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Łączne uszkodzenia zadane przez sojuszników {parSecondary_Start}(PW){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Zadane uszkodzenia"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Wliczono:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Uszkodzenia ostrzałem"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Uszkodzenia taranowaniem"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Uszkodzenia od pożaru"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Uszkodzenia spowodowane zepchnięciem przeciwnika z przeszkody"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Łączne uszkodzenia {parSecondary_Start}(PW){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Zniszczeni przeciwnicy"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Wliczono:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Zniszczenia ostrzałem"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Zniszczenia od pożaru"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Zniszczenia taranowaniem"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Zniszczenia przez zatopienie"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Zniszczenia spowodowane zepchnięciem przeciwnika z przeszkody"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Zniszczenia przez wywrócenie"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Wypełnione misje"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Liczba ukończonych misji i wszystkie\nobecnie dostępne misje.\nMisje ukończone na poziomie rygorystycznym\nsą automatycznie kończone na zwykłym\npoziomie."
+
+msgid "tooltips/difficulty/available"
+msgstr "Dostępny"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Zwiększono szybkość reakcji i celność przeciwników, którzy będą atakować bardziej agresywnie. W zamian otrzymasz dodatkowe nagrody po ukończeniu misji."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Wypełniając misje na {whiteSpanish_Open}rygorystycznym{whiteSpanish_Close} poziomie trudności, automatycznie wypełniasz je na {whiteSpanish_Open}zwykłym{whiteSpanish_Close} poziomie. Otrzymasz nagrody za oba poziomy trudności."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Dodatkowy warunek"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Rygorystyczny"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Aby odblokować rygorystyczny poziom trudności, zademonstruj swoje umiejętności w trybie gry, wypełniając tę operację na zwykłym poziomie."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Zablokowany"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Przeciwnicy są wolniejsi i mniej celni, a po wypełnieniu misji otrzymujesz standardowe nagrody."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Zwykły"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Wybrany"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Bardziej wymagająca wersja etapu operacji Pole minowe – czy odważysz się wjechać do tego śmiercionośnego labiryntu?\nOferuje zwiększone nagrody za bitwy."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Rygorystyczny, Pole minowe"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Zidentyfikuj nieznane zagrożenie, powstrzymaj wystrzelenie pocisku i upewnij się, że nowe technologie trafią we właściwe ręce."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operacja Punkt wrzenia"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "TRYB"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr " – tryb gry. Kliknij, aby poznać więcej"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Graj solo i walcz z przeciwnikami sterowanymi przez SI w tej epickiej historii z udziałem dowódców z 3. Sektora!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Wydarzenie będzie dostępne przez {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "HISTORIE"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "TRYB"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr " – tryb gry. Kliknij, aby poznać więcej"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Specjalnie rozpisane scenariusze. Ruszaj w podróż do świata pojazdów pancernych i pokaż, z jakiej gliny jesteś ulepiony, walcząc z przeciwnikami sterowanymi przez SI."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Historie"
+
+msgid "tooltips/task/active"
+msgstr "Aktywna"
+
+msgid "tooltips/task/completed"
+msgstr "Ukończona"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Warunki nieznane"
+
+msgid "tooltips/task/locked"
+msgstr "Zablokowana: %(timer)s"

@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "putere de foc"
+
+msgid "categories/mobility"
+msgstr "mobilitate"
+
+msgid "categories/stealth"
+msgstr "cercetare"
+
+msgid "categories/survivability"
+msgstr "supraviețuire"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Recepționat!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Negativ!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "După anularea modificărilor, le poți cumpăra din nou contra credite."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "După anularea modificărilor, le poți cumpăra din nou."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Anulezi gratuit toate modificările duble?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "După anularea modificării, o poți cumpăra din nou contra credite."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "După anularea modificării, o poți cumpăra din nou."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Anulezi gratuit modificarea dublă %(modification)s?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "CUMPĂRĂ MODIFICĂRI"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "ALEGE CATEGORIA LOCAȘULUI"
+
+msgid "hint/entryPoint"
+msgstr "MODIFICĂRI DISPONIBILE"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "CLIC PENTRU A TRECE LA\nCONFIGURAREA AUXILIARĂ"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "CLIC PENTRU A TRECE LA\nCONFIGURAREA ESENȚIALĂ"
+
+msgid "hint/vehiclePreview"
+msgstr "MODIFICĂRILE CARACTERISTICILOR VEHICULULUI"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Recepționat!"
+
+msgid "postProgressionIntro/title"
+msgstr "MODIFICĂRILE DE TEREN"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Modificarea specială %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Clic pentru a afișa schimbările în caracteristicile vehiculului după obținerea nivelului și evidențierea modificărilor aplicate."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Modificare dublă %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Nivelul Modificărilor de teren"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Disponibilă după cumpărarea vehiculului"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Disponibilă după obținerea statutului „Elită”"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Disponibilă după cumpărarea vehiculului și obținerea statutului „Elită”"
+
+msgid "researchEntry/title"
+msgstr "MODIFICĂRILE DE TEREN"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Mărește"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Anulează"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} și {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Configurarea auxiliară"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Locaș"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Configurarea esențială"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "acces la modificările speciale: {name1} și {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "acces la modificările speciale: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "acces la modificarea specială: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "acces la modificările speciale: {name1}, {name2} și {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "acces la nivelul {numbers} al modificărilor duble"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "acces la nivelul {number} al modificării duble"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Se vor primi: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Crești nivelul modificării standard la {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Crești nivelul modificării standard?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Total:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Alocare"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Categorii disponibile: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Categoria selectată: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Ocazia de a aloca o categorie celui de-al doilea locaș de echipament al acestui vehicul."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Alocarea categoriei primului locaș"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Alocare (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Categoria celui de-al doilea locaș"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Alocare"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Cumpărare și realocare"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Conversie"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Anulează"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Poți realoca o categorie locașului contra %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Categoria selectată va fi alocată celui de-al doilea locaș al echipamentului. Poți realoca o categorie locașului contra %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Rata de conversie: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Conversie eșuată: mai trebuie %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Alocă o categorie celui de-al doilea locaș al echipamentului"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Realocă o categorie celui de-al doilea locaș al echipamentului"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Nu pot realoca o categorie celui de-al doilea locaș al echipamentului: mai trebuie %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Total:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Ocazia de a echipa un set suplimentar de {cream_Open}echipament{cream_Open} și {cream_Close}directive.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Ocazia de a echipa un set suplimentar de {cream_Open}proiectile{cream_Open} și {cream_Close}consumabile.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Configurarea auxiliară"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Configurarea esențială"
+
+msgid "setupTooltipView/tip"
+msgstr "Poți schimba între configurația principală și cea alternativă a vehiculului din Garaj și în timpul numărătorii inverse de la începutul luptei."
+
+msgid "setupTooltipView/title"
+msgstr "Configurație alternativă: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Configurarea auxiliară%(/accent) este acea parte a configurării vehiculului care constă în%(accent)echipament și directive%(/accent). După accesarea configurării auxiliare, poți %(accent)efectua schimbul între configurările%(/accent) configurației auxiliare în cursul numărătorii inverse de la începutul luptei."
+
+msgid "slides/additionalEquipment/title"
+msgstr "CONFIGURAREA AUXILIARĂ"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "După atingerea unui anumit nivel al Modificărilor de teren, vei avea la dispoziție o %(accent)configurație alternativă%(/accent) a vehiculului și vei putea pregăti %(accent)un set adițional de echipament, muniție, consumabile și directive%(/accent) în Garaj. Acesta nu îl înlocuiește pe cel principal, dar deblochează noi oportunități. Poți evalua harta și compunerea echipelor pe parcursul numărătorii inverse de la începutul luptei și %(accent)selecta una dintre cele două%(/accent)configurații ale vehiculului. Acest lucru îți permite să te pregătești mai bine pentru lupta care urmează."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "CONFIGURAȚIA ALTERNATIVĂ A VEHICULULUI"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Modificările standard%(/accent) adaugă un bonus la %(accent)una dintre caracteristicile vehiculului%(/accent) și deblochează modificările duble. Aceste modificări sunt gratuite la instalare, dar necesită experiență de luptă sau experiență liberă pentru a le cerceta."
+
+msgid "slides/baseModifications/title"
+msgstr "MODIFICĂRILE STANDARD"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Modificările speciale%(/accent) deblochează configurația alternativă a vehiculului și îți permit să %(accent)aloci o categorie%(/accent) celui de-al doilea locaș al echipamentului (pentru vehiculele de generațiile VIII-X). Poți realoca o categorie a locașului selectat contra credite."
+
+msgid "slides/extraModification/title"
+msgstr "MODIFICĂRILE SPECIALE: LOCAȘUL DE ROL"
+
+msgid "slides/fieldModernization/description"
+msgstr "Modificările de teren reprezintă abilitatea de a efectua o configurare mai nuanțată a vehiculului, în funcție de rolul acestuia, și de a %(accent)îi schimba caracteristicile%(/accent) utilizând diverse %(accent)modificări%(/accent). Fiecare modificare ulterioară este deblocată după cercetarea celei anterioare."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "MODIFICĂRILE DE TEREN"
+
+msgid "slides/fieldModernization/title"
+msgstr "SCHIMBAREA CARACTERISTICILOR VEHICULULUI"
+
+msgid "slides/modificationTree/description"
+msgstr "Arborele de modificări este disponibil pentru vehiculele cercetabile și de colecție de %(accent)generațiile VI-X%(/accent) care au obținut %(accent)statutul de elită%(/accent). Modificările vehiculelor speciale, premiu, recompensă și premium sunt disponibile după cumpărare."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "CERCETAREA MODIFICĂRILOR"
+
+msgid "slides/modificationTree/title"
+msgstr "CERCETAREA MODIFICĂRILOR"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Modificările duble îmbunătățesc una%(/accent) dintre caracteristicile vehiculului și %(accent)descresc o alta%(/accent). Ai nevoie de EXP de luptă sau liberă pentru a cerceta modificări și de credite pentru a le instala. Poți %(accent)anula (scoate de pe vehicul)%(/accent) %(accent)gratuit%(/accent) modificarea.\nLa vânzarea vehiculului, modificările standard și speciale sunt păstrate, dar modificările duble sunt anulate."
+
+msgid "slides/pairedModifications/title"
+msgstr "MODIFICĂRILE DUBLE"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Configurarea esențială%(/accent) este acea parte a configurării vehiculului care constă în%(accent)muniție și consumabile%(/accent). După accesarea configurării auxiliare, poți %(accent)efectua schimbul între configurările%(/accent) configurației esențiale în cursul numărătorii inverse de la începutul luptei."
+
+msgid "slides/requiredEquipment/title"
+msgstr "CONFIGURAREA ESENȚIALĂ"
+
+msgid "slides/roleInBattle/description"
+msgstr "Spre deosebire de tipul vehiculului, rolul acestuia reflectă mai exact %(accent)tacticile de luptă%(/accent) optime și definește ce %(accent)arbore de modificări%(/accent) este disponibil pentru un anumit vehicul."
+
+msgid "slides/roleInBattle/title"
+msgstr "ROLUL VEHICULULUI ÎN LUPTĂ"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Modificările schimbă caracteristicile unui vehicul, deblochează%(accent)accesul la Configurarea alternativă%(/accent) și permit alocarea unei categorii %(accent)celui de-al doilea locaș%(/accent) de echipament."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Configurația alternativă este un set secundar de %(accent)echipament, muniție, consumabile și directive%(/accent). Poți alterna între configurații."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Abilitatea de a selecta și aloca o categorie pentru %(accent)al doilea locaș%(/accent) de echipament. Afectează în mod direct eficiența vehiculului în luptă."
+
+msgid "slides/specialModifications/title"
+msgstr "MODIFICĂRILE, CONFIGURAȚIA ALTERNATIVĂ, CATEGORIA LOCAȘURILOR"
+
+msgid "tooltips/entry_point/description"
+msgstr "Abilitatea de a modifica în plus caracteristicile vehiculului."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Module și vehicule cercetate: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Module cercetate: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Modificările de teren"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Disponibilă după cumpărarea vehiculului."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Disponibilă după obținerea statutului „Elită”."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Disponibilă după cumpărarea vehiculului și obținerea statutului „Elită”."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Ne cerem scuze pentru problemele curente. Te rugăm să încerci mai târziu."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Modificările speciale sunt indisponibile"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Modificarea specială %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Câştigă-le în lupte, vinde surplusul de echipamente din Depozit sau schimbă aur pentru a obține mai multe."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Credite insuficiente"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Demontare"
+
+msgid "tooltips/pairModification/level"
+msgstr "Modificare dublă %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Modificările caracteristicilor tehnice:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Demontare (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Cumpărare (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Se cumpără"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Clic pentru a afișa schimbările caracteristicilor tehnice ale vehiculului după cumpărarea acestei modificări."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "După ce ai anulat modificarea, vei putea cumpăra orice modificare din această pereche contra credite."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Cumpărarea acestei modificări o va anula automat pe cea deja instalată din această pereche."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Altă modificare cumpărată"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Atinge Modificările de teren nivelul %(level) pentru a accesa această modificare"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Modificare indisponibilă"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Gratuit"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "necesar:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Număr aproximativ. Valorile exacte sunt specificate în caracteristici."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Aplică"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Anulează"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Resetare"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "Modificările %(title)s"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Adaugă la comparare"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Distruge toate modificările duble"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Clic pentru a distruge toate modificările duble."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Distruge"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Previzualizare"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Realocare"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Înaintea luptei"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Selectare"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Activează/dezactivează opțiunea de a alege seturi de echipament și directive în perioada numărătorii inverse\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Activează/dezactivează opțiunea de a alege seturi de proiectile și consumabile în perioada numărătorii inverse\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "La dezactivare, seturile selectate în Garaj vor fi utilizate în luptă."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Schimbul înaintea luptei"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Acest vehicul este în luptă."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Acest vehicul este blocat."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Acest vehicul necesită reparații."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Acest vehicul este într-o unitate tactică."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Nu pot aloca o categorie locașului: vehiculul nu se află în Garaj."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Închirierea vehiculului s-a încheiat."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Acest vehicul este în luptă."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Acest vehicul este blocat."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Acest vehicul necesită reparații."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Acest vehicul este într-o unitate tactică."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Nu pot cumpăra: vehiculul nu se află în Garaj."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Închirierea vehiculului s-a încheiat."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Clic pentru a distruge o modificare dublă."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Distruge"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "sau"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Nivelul maxim al Modificărilor de teren"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Disponibil pentru vehiculele de generațiile {minAllowedLevel}-{maxAllowedLevel}"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Disponibil pentru vehiculele de generația {allowedLevel}"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "ASCUNDE CARACTERISTICILE"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Bonusuri permanente: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Bonus permanent: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Bonusuri permanente: %(bonus1) și %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Crește nivelul pentru a obține bonusuri permanente: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Crește nivelul pentru a obține bonusul permanent: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Crește nivelul pentru a obține bonusuri permanente: %(bonus1) și %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Crește nivelul"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Crește nivelul la %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Crește nivelul pentru a obține:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Caracteristici îmbunătățite"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Modificări speciale"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Modificarea specială {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Modificări duble"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Modificarea dublă {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Spre module"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Modificarea de teren indisponibilă. Vehiculul este în luptă."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Modificarea de teren indisponibilă. Vehiculul este blocat."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Modificarea de teren indisponibilă. Vehiculul necesită reparații."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Abilitatea de a modifica suplimentar caracteristicile vehiculului devine disponibilă odată ce vehiculul atinge statutul „Elită”."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Modificarea de teren indisponibilă. vehiculul este într-o unitate tactică."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Trebuie să deții vehiculul în Garaj pentru a cerceta modificări și de a crește nivelul Modificărilor de teren."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Modificările de teren sunt indisponibile vehiculelor de închiriat. Cumpără acest vehicul pentru a debloca Modificările de teren."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Modificarea de teren indisponibilă: închirierea vehiculului s-a încheiat. Extinde perioada de închiriere pentru a debloca Modificările de teren."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "AFIȘEAZĂ CARACTERISTICILE"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Abilitatea de a modifica suplimentar caracteristicile vehiculului. Aceasta devine disponibilă odată ce vehiculul atinge statutul „Elită”."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Modificările de teren"

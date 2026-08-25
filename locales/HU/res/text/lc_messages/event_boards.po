@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Jutalmak a páncélvadászokhoz"
+
+msgid "awards/class/SPG"
+msgstr "Jutalmak az önjáró lövegekhez"
+
+msgid "awards/class/heavyTank"
+msgstr "Jutalmak a nehéz tankokhoz"
+
+msgid "awards/class/lightTank"
+msgstr "Jutalmak a könnyű tankokhoz"
+
+msgid "awards/class/mediumTank"
+msgstr "Jutalmak a közepes tankokhoz"
+
+msgid "awards/level"
+msgstr "Jutalmak a %(level)s szintű járművekhez"
+
+msgid "awards/nation/china"
+msgstr "Jutalmak a kínai járművekhez"
+
+msgid "awards/nation/czech"
+msgstr "Jutalmak a csehszlovák járművekhez"
+
+msgid "awards/nation/france"
+msgstr "Jutalmak a francia járművekhez"
+
+msgid "awards/nation/germany"
+msgstr "Jutalmak a német járművekhez"
+
+msgid "awards/nation/japan"
+msgstr "Jutalmak a japán járművekhez"
+
+msgid "awards/nation/poland"
+msgstr "Jutalmak a lengyel járművekhez"
+
+msgid "awards/nation/sweden"
+msgstr "Jutalmak a svéd járművekhez"
+
+msgid "awards/nation/uk"
+msgstr "Jutalmak a brit járművekhez"
+
+msgid "awards/nation/usa"
+msgstr "Jutalmak az amerikai járművekhez"
+
+msgid "awards/nation/ussr"
+msgstr "Jutalmak a szovjet járművekhez"
+
+msgid "awards/tooltip/class"
+msgstr "Kattints az ilyen típusú járművek jutalmainak megjelenítéséhez."
+
+msgid "awards/tooltip/level"
+msgstr "Kattints az ilyen szintű járművek jutalmainak megjelenítéséhez."
+
+msgid "awards/tooltip/nation"
+msgstr "Kattints az ilyen nemzetiségű járművek jutalmainak megjelenítéséhez."
+
+msgid "awards/vehicle"
+msgstr "Jutalmak a kiválasztott járműhöz"
+
+msgid "badge/tooltip/description"
+msgstr "A jelvény egy egyedi ikon, ami a neved mellett lehet látni a csatában. A jelvény mindkét csapat számára látható és a Nemzetek menete eseményben elért kiemelkedő teljesítményedet mutatja."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Emlékjelvények"
+
+msgid "block/award"
+msgstr "Fő jutalom"
+
+msgid "block/objective"
+msgstr "Feltételek"
+
+msgid "block/task"
+msgstr "Küldetésed"
+
+msgid "button/awards"
+msgstr "Összes jutalom"
+
+msgid "button/awards/tooltip"
+msgstr "Kattints a verseny jutalmainak teljes listájáért."
+
+msgid "button/regulations"
+msgstr "Követelmények"
+
+msgid "button/regulations/tooltip"
+msgstr "Kattints a verseny teljes leírásának megtekintéséhez."
+
+msgid "condition/battletype/random"
+msgstr "Normál csata 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Rangsorolt csata"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Szakaszok engedélyezve vannak"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Szakaszok nincsenek engedélyezve"
+
+msgid "condition/primetime/any"
+msgstr "Bármely szerver és idő"
+
+msgid "condition/primetime/chosen"
+msgstr "Csak a meghatározott szervereken"
+
+msgid "condition/vehicle/chosen"
+msgstr "Csak a megadott járműveken:"
+
+msgid "condition/vehicle/exist"
+msgstr "A garázsban"
+
+msgid "condition/vehicle/missing"
+msgstr "Nem rendelkezel ezzel a járművel"
+
+msgid "condition/vehicle/single"
+msgstr "%(vehicle)s járművel"
+
+msgid "excel/award/title"
+msgstr "Kitüntetés"
+
+msgid "excel/btnClose"
+msgstr "A VERSENYHEZ"
+
+msgid "excel/group/title"
+msgstr "Csoport"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Helyezés eléréséhez az értékelésben játssz több csatát:%(number)s"
+
+msgid "excel/noData"
+msgstr "Még nem került díjazott helyezés kiosztásra"
+
+msgid "excel/participate/join"
+msgstr "Harc"
+
+msgid "excel/participate/notParticipated"
+msgstr "Nem vettél részt ebben az értékelésben"
+
+msgid "excel/subHeader"
+msgstr "Verseny: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Csatlakozás"
+
+msgid "header/participate/button/leave"
+msgstr "Kilépés a versenyből"
+
+msgid "header/participate/finished"
+msgstr "A verseny lezárult"
+
+msgid "header/participate/notStarted"
+msgstr "Csatlakoztál"
+
+msgid "header/participate/reason/byAge"
+msgstr "%date% dátum után lett létrehozva a fiók"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Verseny nem elérhető"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Kiléptél ebből a versenyből"
+
+msgid "header/participate/started"
+msgstr "Részt veszel"
+
+msgid "header/timer"
+msgstr "Véget ér ekkor:"
+
+msgid "maintenance/body"
+msgstr "Elnézést az átmeneti kellemetlenségért."
+
+msgid "maintenance/title"
+msgstr "Hiba az adatok betöltése során"
+
+msgid "maintenance/update"
+msgstr "Frissítés"
+
+msgid "notification/buttons/details"
+msgstr "Részletek"
+
+msgid "notification/eventFinished/body"
+msgstr "%(eventName)s verseny véget ért. A győztesek a következő pár napban derülnek ki, majd ezt követően megkapják a jól megérdemelt jutalmukat."
+
+msgid "notification/eventFinished/header"
+msgstr "Verseny befejeződött"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "A csatáid már számítanak a versenyben, így helyet szerezhetsz az értékelésben és jutalmat kaphatsz."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Csatlakoztál résztvevőként"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "A csatád eredményei a verseny kezdetén kerülnek elszámolásra, így helyet szerezhetsz az értékelésben és jutalmat kaphatsz."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Csatlakoztál résztvevőként"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Nem sikerült résztvevőként csatlakozni: nem teljesíted a feltételeket."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Nem sikerült résztvevőként csatlakozni: a regisztrációs időszak véget ért."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "A versenyben elért statisztikáid törlődnek az értékelések frissítését követően."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Kiléptél a versenyből"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "A statisztikáid nem számítanak bele ebbe a versenybe."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Kiléptél a versenyből"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Nem sikerült kilépni a versenyből: a megadott idő lejárt."
+
+msgid "notification/eventStarted/body"
+msgstr "%(eventName)s verseny elkezdődött! Azok a játékosok, akik a verseny végére díjazott helyezést érnek el, értékes jutalomban részesülnek."
+
+msgid "notification/eventStarted/header"
+msgstr "Verseny elkezdődött"
+
+msgid "notification/unknownError/body"
+msgstr "A műveletet nem lehet befejezni."
+
+msgid "orders/title"
+msgstr "Követelmények"
+
+msgid "popover/buttons/cancel"
+msgstr "Mégse"
+
+msgid "popover/buttons/rating"
+msgstr "Tovább az értékeléshez"
+
+msgid "popover/buttons/select"
+msgstr "Kiválaszt"
+
+msgid "popover/noVehicles"
+msgstr "Nincs a szűrésnek megfelelő jármű."
+
+msgid "popover/resetFilter"
+msgstr "Szűrő visszaállítása"
+
+msgid "popover/title"
+msgstr "Értékelés lista"
+
+msgid "popover/title/vehicle"
+msgstr "Értékelés lista"
+
+msgid "popover/tooltip/class"
+msgstr "Tovább a kiválasztott típus járműveinek értékeléséhez."
+
+msgid "popover/tooltip/level"
+msgstr "Tovább a kiválasztott szint járműveinek értékeléséhez."
+
+msgid "popover/tooltip/nation"
+msgstr "Tovább a kiválasztott nemzet járműveinek értékeléséhez."
+
+msgid "server/list"
+msgstr "Ha azt szeretnéd, hogy a csatáid beleszámítsanak a versenybe, akkor menj át a következő szerverre:"
+
+msgid "server/noSuitable/body"
+msgstr "Csata eredmények számolásának következő időpontja: %(data)s. Verseny időterve"
+
+msgid "server/noSuitable/header"
+msgstr "A csata eredmények jelenleg nem számítanak bele a versenybe"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s a(z) %(server)s szerveren"
+
+msgid "status/bestResults/many"
+msgstr "Legjobb eredményeim"
+
+msgid "status/bestResults/one"
+msgstr "Eredményeim"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Verseny nem elérhető:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "A játék szabályzatának megsértése miatt nem vagy jogosult részt venni ebben a versenyben"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "%(date)s dátum után lett létrehozva a fiók"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "nem harcoltál megfelelő számú csatában a Normál csata módban: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "a győzelmi arányod a Normál csata módban meghaladja a(z): %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "nem érted el a következő győzelmi arányt a Normál csata módban: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "A regisztrációs időszak véget ért"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Nem csatlakozhatsz ehhez a versenyhez résztvevőként."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Kiléptél ebből a versenyből"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "A csatáid eredményei többé már nem számítanak ebben a versenyben. Nem veszel részt az értékelésben és nem kapsz jutalmat.\nNem léphetsz be ismét ebbe a versenybe."
+
+msgid "status/cantJoin/reason/many"
+msgstr "feltételek nem teljesültek %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "feltételek nem teljesültek %(number)s"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Nem értél el helyezést az értékelésben"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Ezzel a felhasználói fiókkal nem vehetsz részt a versenyben."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "nincs megfelelő jármű"
+
+msgid "status/participate/cantJoin"
+msgstr "Verseny nem elérhető"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Teljesítsd a megadott feltételeket csatákban és az eredményeid itt fognak megjelenni az értékelések frissítését követően."
+
+msgid "status/participate/notParticipated"
+msgstr "Nem vettél részt ebben az értékelésben"
+
+msgid "summary/averagedamage"
+msgstr "Átlag sebzés"
+
+msgid "summary/averagedamageassisted"
+msgstr "Közreműködésed általi átlag sebzés"
+
+msgid "summary/averagexp"
+msgstr "Átlag tapasztalat"
+
+msgid "summary/battles"
+msgstr "Csaták a versenyben"
+
+msgid "summary/damage"
+msgstr "Sebezz"
+
+msgid "summary/damageassist"
+msgstr "Közreműködésed általi sebzés"
+
+msgid "summary/damageblocked"
+msgstr "Felfogott sebzés"
+
+msgid "summary/description/awards/title/award"
+msgstr "JUTALOM A VERSENY VÉGÉN"
+
+msgid "summary/description/awards/title/group"
+msgstr "CSOPORT"
+
+msgid "summary/description/awards/title/position"
+msgstr "POZÍCIÓ"
+
+msgid "summary/description/max/class"
+msgstr "A legjobb csatádat ezzel vívtad: %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "A legjobb csatádat %(value)s szintű járművel vívtad"
+
+msgid "summary/description/max/nation"
+msgstr "A legjobb csatádat a következő nemzetiségű tankkal vívtad: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "A legjobb csatádat ezzel vívtad: %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Statisztikád a versenyben %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Statisztikád a versenyben %(value)s szintű járművekkel"
+
+msgid "summary/description/sum/nation"
+msgstr "Statisztikád a versenyben a következő nemzetiségű járművekkel: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Statisztikád a versenyben a következő járművel: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "A legjobb csata sorozatod ezzel: %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "A legjobb csata sorozatod %(value)s szintű járművekkel"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "A legjobb csata sorozatod a következő nemzetiségű járművekkel: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "A legjobb csata sorozatod ezzel: %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "A legjobb csatáid ezzel: %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "A legjobb csatáid %(value)s szintű járművekkel"
+
+msgid "summary/description/sumN/nation"
+msgstr "A legjobb csatáid a következő nemzetiségű járművekkel: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "A legjobb csatáid ezzel: %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "A legjobb csata sorozatod ezzel: %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "A legjobb csata sorozatod %(value)s szintű járművekkel"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "A legjobb csata sorozatod a következő nemzetiségű járművekkel: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "A legjobb csata sorozatod ezzel: %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Megsemmisített ellenséges járművek"
+
+msgid "summary/fightInSquaad"
+msgstr "Csata szakaszban"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Csata szakaszon kívül"
+
+msgid "summary/originalXP"
+msgstr "Alap tapasztalat"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Sebzés a játékos közreműködése által"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Sebezz"
+
+msgid "summary/param/max/originalXP"
+msgstr "Alap tapasztalat"
+
+msgid "summary/param/max/xp"
+msgstr "Tapasztalat"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Átlag sebzés a játékos közreműködésével"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Átlag sebzés"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Átlagos alap tapasztalati pont"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Győzelmek"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Átlag tapasztalat"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Átlag sebzés a játékos közreműködésével"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Összes sebzés"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Összes alap tapasztalat"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Összes tapasztalat"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Összesített sebzés a játékos közreműködésének köszönhetően"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Összes sebzés"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Összes alap tapasztalat"
+
+msgid "summary/param/sumN/xp"
+msgstr "Összes tapasztalat"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Átlag sebzés a játékos közreműködésével"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Összes sebzés"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Összes alap tapasztalat"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Összes tapasztalat"
+
+msgid "summary/position"
+msgstr "Helyezés az értékelésben: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Döntetlen"
+
+msgid "summary/result/loss"
+msgstr "Vereség"
+
+msgid "summary/result/win"
+msgstr "Győzelem"
+
+msgid "summary/status"
+msgstr "Frissítve ekkor: %(day)s, a következő időpontban %(time)s"
+
+msgid "summary/winrate"
+msgstr "Győzelmek"
+
+msgid "table/header/player"
+msgstr "Játékos"
+
+msgid "table/header/position"
+msgstr "No."
+
+msgid "table/selectParticipateBtn"
+msgstr "Kilépés a versenyből"
+
+msgid "table/selectRatingBtn"
+msgstr "Értékelés lista"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Csatlakozás résztvevőként"
+
+msgid "table/stripe/bronze/title"
+msgstr "III. csoport (%(placeFrom)d–%(placeTo)d helyezések):"
+
+msgid "table/stripe/gold/title"
+msgstr "I. csoport (%(placeFrom)d–%(placeTo)d helyezések):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "I. csoport"
+
+msgid "table/stripe/iron/title"
+msgstr "IV. csoport (%(placeFrom)d–%(placeTo)d helyezések):"
+
+msgid "table/stripe/silver/title"
+msgstr "II. csoport (%(placeFrom)d–%(placeTo)d helyezések):"
+
+msgid "table/stripe/wood/title"
+msgstr "Nem díjazott helyezések"
+
+msgid "task/eventtype/all"
+msgstr "Közös értékelés minden résztvevőnek"
+
+msgid "task/eventtype/class"
+msgstr "Minden jármű típusnak saját értékelése van"
+
+msgid "task/eventtype/level"
+msgstr "Minden jármű szintnek saját értékelése van"
+
+msgid "task/eventtype/nation"
+msgstr "Minden jármű nemzetiségnek saját értékelése van"
+
+msgid "task/eventtype/vehicle"
+msgstr "Minden járműnek saját értékelése van"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Szerezz helyezést az értékelésben a közreműködéseddel kiosztott sebzés alapján"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Szerezz helyezést az értékelésben a kiosztott sebzés alapján"
+
+msgid "task/objective/max/originalXP"
+msgstr "Szerezz helyezést az értékelésben az elért alap tapasztalat alapján"
+
+msgid "task/objective/max/xp"
+msgstr "Szerezz helyezést az értékelésben az elért tapasztalat alapján"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Szerezz helyezést az értékelésben a közreműködéseddel kiosztott összes sebzés alapján"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Szerezz helyezést az értékelésben a kiosztott összes sebzés alapján"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Szerezz helyezést az értékelésben az elért összes alap tapasztalat alapján"
+
+msgid "task/objective/sum/wins"
+msgstr "Szerezz helyezést az értékelésben a győzelmek alapján"
+
+msgid "task/objective/sum/xp"
+msgstr "Szerezz helyezést az értékelésben az elért összes tapasztalat alapján"
+
+msgid "task/objparam/damageAssisted"
+msgstr "sebzés a közreműködésed által"
+
+msgid "task/objparam/damageDealt"
+msgstr "okozott sebzés"
+
+msgid "task/objparam/originalXP"
+msgstr "szerzett alap tapasztalat"
+
+msgid "task/objparam/wins"
+msgstr "győzelmek száma"
+
+msgid "task/objparam/xp"
+msgstr "tapasztalat"
+
+msgid "task/selection/max"
+msgstr "Beleszámít a legjobb csatád"
+
+msgid "task/selection/sumAll"
+msgstr "Az összes csatád beleszámít"
+
+msgid "task/selection/sumMSeqN"
+msgstr "A sorozat legjobb (%(cardinality)s) csatája számít. Csaták a sorozatban: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Beleszámítanak a legjobb csatáid: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "A legjobb csata szériád beleszámít. Csata szériák: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "ma"
+
+msgid "time/day/tomorrow"
+msgstr "holnap"
+
+msgid "time/day/yesterday"
+msgstr "tegnap"
+
+msgid "time/eventFinished"
+msgstr "Verseny véget ért: %(date)s"
+
+msgid "time/period/day"
+msgstr "n"
+
+msgid "time/period/hour"
+msgstr "ó."
+
+msgid "time/period/minute"
+msgstr "perc"
+
+msgid "time/timeTo/end"
+msgstr "Véget ér ekkor: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "A regisztrációs időszak véget ér ekkor: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Elkezdődik ekkor: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "A jutalmat a verseny végén kapod meg, a helyezésedtől függően.\nAz összes jutalom listájának megtekintéséhez kattints az Összes jutalom gombra."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "A tapasztalat mennyiségébe nincs benne a prémium fiókért vagy prémium járművekért, személyes tartalékokért, a nap első győzelméért járó szorzó vagy bármely más akció által nyújtott bónusz tapasztalat."
+
+msgid "tooltip/top/amount/xp"
+msgstr "A tapasztalat mennyiségébe nincs benne a prémium járművekért, személyes tartalékokért, a nap első győzelméért járó szorzó vagy bármely más akció által nyújtott bónusz tapasztalat.\nA prémium fiókért járó bónusz tapasztalat beleszámít."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Az utolsó díjazott helyen álló játékos, akinek a közreműködés által kiosztott sebzése: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Az utolsó, díjazott helyen végzett játékos által okozott sebzés: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Az utolsó díjazott helyezést elérő játékos alap tapasztalati pontja: %(number)s\nA tapasztalati pontokba nem számít bele a prémium fiók vagy prémium járművek, személyes tartalékok, napi első győzelemért járó szorzó vagy bármely egyéb akció nyújtotta bónusz."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Az utolsó, díjazott helyen végzett játékos által elért tapasztalat: %(number)s\nA tapasztalat számolásánál nem számít a prémium járművekkel szerzett extra tapasztalat, a személyes tartalékok, napi első győzelem szorzója vagy más egyéb különleges szorzó.\nA prémium fiókkal járó extra tapasztalat beleszámít."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Az utolsó, díjazott helyen végzett játékos által kiosztott összes sebzés a játékos közreműködésével: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Az utolsó, díjazott helyen végzett játékos által kiosztott összes sebzés: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Az utolsó, díjazott helyen végzett játékos által elért összes alap tapasztalat: %(number)s\nA tapasztalat számolásánál nem számít a prémium járművekkel szerzett extra tapasztalat, a személyes tartalékok, napi első győzelem szorzója vagy más egyéb különleges szorzó."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Az utolsó díjazott helyen álló játékos győzelmeinek száma: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Az utolsó, díjazott helyen végzett játékos által elért összes tapasztalat: %(number)s\nA tapasztalat számolásánál nem számít a prémium járművekkel szerzett extra tapasztalat, a személyes tartalékok, napi első győzelem szorzója vagy más egyéb különleges szorzó.\nA prémium fiók által szerzett extra tapasztalat beleszámít."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Jutalom nélküli helyezés"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "%(group)s csoport (%(min)s-%(max)s helyezés)"
+
+msgid "top/averageXP"
+msgstr "Az utolsó, díjazott helyen végzett játékos által elért átlag tapasztalati pont csatánként:"
+
+msgid "top/participation/notParticipated"
+msgstr "Nem vettél részt ebben az értékelésben"
+
+msgid "top/participation/notfull"
+msgstr "Nem értél el helyezést"
+
+msgid "top/participation/notintop"
+msgstr "Jelenleg nem állsz díjazott helyen"
+
+msgid "top/position"
+msgstr "Helyezésed:"
+
+msgid "top/reason/notfull"
+msgstr "Helyezés eléréséhez az értékelésben játssz több csatát:"
+
+msgid "vehicles/level"
+msgstr "%(level)s szintű járművek"
+
+msgid "vehicles/tooltip/class"
+msgstr "Kattints az ilyen típusú járművek megjelenítéséhez, melyek részt vesznek a versenyen."
+
+msgid "vehicles/tooltip/level"
+msgstr "Kattints az ilyen szintű járművek megjelenítéséhez, melyek részt vesznek a versenyen."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Kattints az ilyen nemzetiségű járművek megjelenítéséhez, melyek részt vesznek a versenyen."
+
+msgid "vehicles/vehicle"
+msgstr "Járművek versenyben"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Kattints a versenyben használható járművek listájáért."

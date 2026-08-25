@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Taktické zařízení"
+
+msgid "open_artefact/server_error"
+msgstr "Operace je dočasně nedostupná. Zkuste to později."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Nepodařilo se doplnit taktická zařízení pro %s. Technická závada."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nepodařilo se doplnit taktická zařízení pro %s. Nedostatek prostředků."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Taktická zařízení pro %s byla doplněna. Utratili jste "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Nahrávek dostupných k dešifrování"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Režim: Poslední vzdor: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Poslední vzdor: Terra Nord (Běžná)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Poslední vzdor: Terra Nord (Pokročilá)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Poslední vzdor: Terra Nord (Brutální)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Obtížnost"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Běžná"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Pokročilá"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutální"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Data"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Cíl dokončen!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Cíle dokončeny!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vozidlo"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Vln dokončeno: %(curPhase)s z %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Utraceno %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finanční transakce"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Vyberte si úroveň obtížnosti na panelu obtížnosti v garáži Posledního vzdoru."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Pokročilá obtížnost odemčena"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Vyberte si úroveň obtížnosti na panelu obtížnosti v garáži Posledního vzdoru."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Brutální obtížnost odemčena."
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Vyberte si režim na panelu obtížnosti v garáži Posledního vzdoru: Operace Pandora."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Režim Poslední vzdor odemčen"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Získáno dešifrovacích klíčů: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Účtenka"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Klíčů odstraněno: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Dešifrování bylo úspěšné"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Bitvy v Posledním vzdoru jsou dočasně nedostupné.\nZkuste to znovu později."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Bitvy na obtížnost „%(difficulty)s“ jsou dočasně nedostupné. Zkuste to znovu později."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Poslední vzdor je dočasně nedostupný. Zkontrolujte herní portál pro aktualizace."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Velitel čety změnil obtížnost na: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Hráč %(userName)s neodemkl jednu z úrovní obtížnosti."

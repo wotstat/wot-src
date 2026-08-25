@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Válassz jutalmakat"
+
+msgid "banner/giftsAvailable"
+msgstr "Utánpótlás érkezett!"
+
+msgid "banner/giftsForOffer"
+msgstr "Jutalmak a következőben való részvételért: %(name)s."
+
+msgid "banner/selectNowOrLater"
+msgstr "Válaszd ki most a jutalmad, vagy később a Depóban."
+
+msgid "banner/title"
+msgstr "Homefront utánpótlás"
+
+msgid "description/rentValue/battles"
+msgstr "%(value)s csatáig"
+
+msgid "description/rentValue/days"
+msgstr "%(value)s napig"
+
+msgid "description/rentValue/wins"
+msgstr "%(value)s győzelemig"
+
+msgid "giftDescription/tank/base"
+msgstr "A kiválasztott járművön felül, még a következőt kapod meg ingyen: %(items)s."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}legénység{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}legénység{neutralClose} és {neutralOpen}garázshely{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}Garázshely{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Mégse"
+
+msgid "giftDialog/description/newRent"
+msgstr "A(z) %(tankName)s bérlete %(rentValue)s fog tartani"
+
+msgid "giftDialog/description/noRent"
+msgstr "A(z) %(tankName)s a garázsba lesz küldve"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "A(z) %(tankName)s bérlete %(rentValue)s fog meghosszabbodni."
+
+msgid "giftDialog/submit"
+msgstr "Megerősít"
+
+msgid "giftDialog/title/common"
+msgstr "\"%(name)s\"\nátvételének megerősítése"
+
+msgid "giftDialog/title/tank"
+msgstr "Jármű megszerzése folyamatban"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Jármű bérlése"
+
+msgid "giftsWindow/availableCount"
+msgstr "Elérhető: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Elérhető: %(date) %(time) időpontig"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Elérhető jutalmak: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "Garázsban"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Nyitva lesz"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Előnézet"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) csatára"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) n"
+
+msgid "giftsWindow/rent/title"
+msgstr "Bérlés: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) győzelemre"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Átvesz"
+
+msgid "giftsWindow/tokens"
+msgstr "Elérhető: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Elérhető tokenek: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Nem elérhető"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Értettem!"
+
+msgid "rewardWindow/title"
+msgstr "Jutalom megszerezve"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Átvesz!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Bérlés meghosszabbítása!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Ingyenes %(tankName)s bérlés: %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s legénységgel"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s legénységgel és férőhellyel a garázsban"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s férőhellyel a garázsban"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "%(tankName)s bérlés meghosszabbítása: %(rentValue)s"

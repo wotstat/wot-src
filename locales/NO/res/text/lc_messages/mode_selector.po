@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "button/progression"
+msgstr "Vis fremgang"
+
+msgid "button/select"
+msgstr "Konfigurér"
+
+msgid "event/battlePass/name"
+msgstr "Battle Pass %(seasonNum)s. sesong"
+
+msgid "event/finished"
+msgstr "%(eventName)s\ner avsluttet"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nbegynner %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\ner midlertidig utilgjengelig"
+
+msgid "event/ranked/name"
+msgstr "Sesong %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "SE I FREMGANGSMODUS"
+
+msgid "mode/epicBattle/condition"
+msgstr "30 mot 30 &nbsp;{par_open}I{par_close}&nbsp;nivåer&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30 mot 30&nbsp;{par_open}I{par_close}&nbsp;nivå&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Eventet\nbegynner den %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Denne modusen\nbegynner snart"
+
+msgid "mode/epicBattle/description"
+msgstr "Modus med fremgang og belønninger."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Eventet er avsluttet"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Ved å kjempe i kjøretøy på nivå 8 i {whiteSpanish_open}Frontlinje{whiteSpanish_close}, vil du tjene poeng som gjør at du rykker fremover i Battle Pass fremgangen."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Battle Pass poeng"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Ved å kjempe i kjøretøy på nivå 8–10 i {whiteSpanish_open}Rekognoseringsoppdrag{whiteSpanish_close}, vil du tjene poeng som gjør at du rykker fremover i Battle Pass fremgangen."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Battle Pass poeng"
+
+msgid "mode/mapbox/condition"
+msgstr "15 mot 15 %(parSecondary_open)sI%(parSecondary_close)s nivåene&nbsp;8–10"
+
+msgid "mode/mapbox/description"
+msgstr "Nye mekanismer på kart."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Værets visuelle effekter avhenger av dine generelle grafikkinnstillinger. Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense kamper."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Lær deg kart"
+
+msgid "mode/mapsTraining/description"
+msgstr "Lær deg kart"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Ved å kjempe i kjøretøy på nivå 4–11 i {whiteSpanish_open}tilfeldige kamper{whiteSpanish_close}, vil du tjene poeng som gjør at du rykker fremover i Battle Pass fremgangen."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Battle Pass poeng"
+
+msgid "mode/random/condition"
+msgstr "15 mot 15 %(parSecondary_open)sI%(parSecondary_close)s nivåene&nbsp;1–11"
+
+msgid "mode/random/description"
+msgstr "Kamper med automatisk matchmaking."
+
+msgid "mode/random/setup"
+msgstr "Konfigurér"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Ved å kjempe i kjøretøy på nivå 10 i {whiteSpanish_open}rangerte kamper{whiteSpanish_close}, vil du tjene poeng som gjør at du rykker fremover i Battle Pass fremgangen."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Battle Pass poeng"
+
+msgid "mode/ranked/condition"
+msgstr "10 mot 10 %(parSecondary_open)sI%(parSecondary_close)s nivå&nbsp;10"
+
+msgid "mode/ranked/description"
+msgstr "Modus med fremgang og belønninger."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Bruk til turneringen"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Neste kamp: %(date)s kl. %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1 mot 1–15 mot 15 %(parSecondary_open)sI%(parSecondary_close)s nivåene&nbsp;1–10"
+
+msgid "mode/specBattlesList/description"
+msgstr "Globale kart og turneringer."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Kjemp som legionær"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Kjemp i en klan"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7 mot 7–15 mot 15 %(parSecondary_open)sI%(parSecondary_close)s nivåene&nbsp;6–10"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Klankamper om industrielle ressurser."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Treningsrom: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1 mot 1–15 mot 15 %(parSecondary_open)sI%(parSecondary_close)s nivåene&nbsp;1–10"
+
+msgid "mode/trainingsList/description"
+msgstr "Introduksjonskamper."
+
+msgid "novelty"
+msgstr "NY"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Kamper i kvalifisering: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Du kan få unike 3D vedheng ved å spille i modusen."
+
+msgid "reward/attachment/name"
+msgstr "3D vedheng"
+
+msgid "reward/bones/description"
+msgstr "Belønningen avgjøres basert på din ytelse i kamper."
+
+msgid "reward/bones/name"
+msgstr "Sedler"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Du kan få %(name)s for å spille i modusen."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Spesialutstyr"
+
+msgid "reward/credits/description"
+msgstr "Belønningen avgjøres basert på din ytelse i kamper."
+
+msgid "reward/credits/name"
+msgstr "Credits"
+
+msgid "reward/crew/description"
+msgstr "Du kan få unike besetningsmedlemmer ved å spille i modusen."
+
+msgid "reward/crew/name"
+msgstr "Besetningsmedlemmer"
+
+msgid "reward/experience/description"
+msgstr "Belønningen avgjøres basert på din ytelse i kamper."
+
+msgid "reward/experience/name"
+msgstr "Erfaring"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Du kan få ulike typer eksperimentelt utstyr ved å spille i modusen."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Spesialutstyr"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Du kan få %(name)s for å spille i modusen."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Spesialutstyr"
+
+msgid "reward/lootBoxes/description"
+msgstr "Du kan få esker ved å spille i modusen."
+
+msgid "reward/lootBoxes/name"
+msgstr "Spesialesker"
+
+msgid "reward/other/description"
+msgstr "Du kan få mange nyttige belønninger ved å spille i modusen."
+
+msgid "reward/other/name"
+msgstr "Spesialbelønning"
+
+msgid "reward/progressionStyle/description"
+msgstr "Du kan få en spesiell progressiv stil for å spille i denne modusen."
+
+msgid "reward/progressionStyle/name"
+msgstr "Progressiv stil"
+
+msgid "reward/random/description"
+msgstr "Du kan få mange nyttige belønninger ved å spille i modusen."
+
+msgid "reward/random/name"
+msgstr "Tilfeldig belønning"
+
+msgid "reward/style/description"
+msgstr "Du kan få en spesiell 3D stil til %(name)s ved å spille i modusen."
+
+msgid "reward/style/name"
+msgstr "3D stil"
+
+msgid "reward/vehicle/description"
+msgstr "Du kan få %(name)s for å spille i modusen."
+
+msgid "reward/vehicle/name"
+msgstr "Belønningskjøretøy"
+
+msgid "selectMap"
+msgstr "Forhåndsinnstillinger for tilfeldige kamper"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "status/timeLeft/lessMin"
+msgstr "mindre enn ett minutt"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "VELG KAMPMODUS"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Globalt kart"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Erobre provinser og kjemp om global dominans. Denne modusen er kun tilgjengelig for klanmedlemmer."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Bli med i klan"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Kamper på det globale kartet"
+
+msgid "window/battleSession/title"
+msgstr "SPESIALKAMP"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Turneringsliste"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Denne egenskapen er for øyeblikket ikke tilgjengelig, men den blir tilgjengelig i fremtiden. Vennligst vent."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Kjemp på egen hånd eller i et lag, vis hva du er kapabel til og få verdige belønninger."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Turneringer"

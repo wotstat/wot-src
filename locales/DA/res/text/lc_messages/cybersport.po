@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CSAnimation/applyBtn/label"
+msgstr "Bekræftet!"
+
+msgid "CSAnimation/description"
+msgstr "Tillykke! Dit hold er rykket op til den næste division. Godt gået!"
+
+msgid "CSAnimation/header"
+msgstr "Skift division"
+
+msgid "InvitesAndRequestsWindow/accepted"
+msgstr "Accepteret"
+
+msgid "InvitesAndRequestsWindow/cancelled"
+msgstr "Annuller"
+
+msgid "InvitesAndRequestsWindow/officerDescription"
+msgstr "Holdmedlemmer—et manuelt oprettet hold af venner og passende spillere."
+
+msgid "InvitesAndRequestsWindow/onlyInvitesCheckbox"
+msgstr "Vis kun sendte invitationer"
+
+msgid "InvitesAndRequestsWindow/ownerDescription"
+msgstr "Holdmedlemmer—et manuelt oprettet hold af venner og passende spillere."
+
+msgid "InvitesAndRequestsWindow/playerName"
+msgstr "Navn"
+
+msgid "InvitesAndRequestsWindow/rejected"
+msgstr "Afvist"
+
+msgid "InvitesAndRequestsWindow/status"
+msgstr "Status"
+
+msgid "InvitesAndRequestsWindow/title"
+msgstr "Invitationer sendt og ansøgninger forelagt"
+
+msgid "InvitesAndRequestsWindow/windowTitle"
+msgstr "Ansøgninger og invitationer"
+
+msgid "StaticFormationStatsView/seasonFilter"
+msgstr "Statistik for:"
+
+msgid "TextLoading/loading"
+msgstr "Indlæser"
+
+msgid "button/chooseVehicles/info/tooltip/description/notSelected"
+msgstr "Ingen køretøjer valgt. Kan ikke starte autosøg."
+
+msgid "button/chooseVehicles/info/tooltip/description/notValid"
+msgstr "Valgt køretøj er ikke klart. Kan ikke starte autosøg."
+
+msgid "button/chooseVehicles/info/tooltip/description/valid"
+msgstr "Krævede køretøjer er valgt. Du kan starte autosøg."
+
+msgid "button/chooseVehicles/info/tooltip/title"
+msgstr "Vælg køretøjer"
+
+msgid "button/chooseVehicles/selected"
+msgstr "Valgte køretøjer"
+
+msgid "button/medallion/addSlotSettings"
+msgstr "Tilføj"
+
+msgid "button/medallion/availableQuantity"
+msgstr "Passende:"
+
+msgid "button/medallion/chooseVehicle"
+msgstr "Vælg køretøj"
+
+msgid "introView/leftBlock/btnLabel"
+msgstr "Søg"
+
+msgid "introView/leftBlock/descr"
+msgstr "Vælg et passende hold fra listen af eksisterende hold. Du skal opfylde kommandørens krav."
+
+msgid "introView/leftBlock/header"
+msgstr "Søg efter hold"
+
+msgid "introView/rightBlock/btnLabel"
+msgstr "Opret"
+
+msgid "introView/rightBlock/descr"
+msgstr "Opret et hold med venner eller spillere som har passende køretøjer."
+
+msgid "introView/rightBlock/header"
+msgstr "Opret hold"
+
+msgid "rallyInfo/profileBtn/Label"
+msgstr "Holdprofil"
+
+msgid "respawn/chatHeader"
+msgstr "Chat kanal"
+
+msgid "respawn/enemyTeamStatus/Header"
+msgstr "Fjendtligt hold:"
+
+msgid "respawn/enemyTeamStatus/notReady"
+msgstr "Ikke klar"
+
+msgid "respawn/enemyTeamStatus/ready"
+msgstr "Klar!"
+
+msgid "respawn/fight/label"
+msgstr "Hold klar!"
+
+msgid "respawn/fight/status/commander"
+msgstr "Bekræft at holdet er klar."
+
+msgid "respawn/fight/status/private"
+msgstr "Afventer kamp..."
+
+msgid "respawn/status/info"
+msgstr "Vælg et køretøj indenfor den tildelte tid."
+
+msgid "respawn/status/ready"
+msgstr "Vent til kampen starter..."
+
+msgid "respawn/status/warning"
+msgstr "Bekræft at du er klar."
+
+msgid "respawn/team/points"
+msgstr "Samlet niveau af køretøjer:"
+
+msgid "respawn/team/teamMembers"
+msgstr "Medlemmer: %(current)s / %(max)s"
+
+msgid "respawn/team/teamVehiclesStub"
+msgstr "Køretøjer: VI-VIII"
+
+msgid "selectedFormation/JoinUnitSection/header"
+msgstr "Valgt kamprum"
+
+msgid "squadWindow/waitingForBattle"
+msgstr "Deling er i kø til kamp"
+
+msgid "unitView/header"
+msgstr "Kamprum"
+
+msgid "window/autoSearch/confirmation/cancelLbl"
+msgstr "Fortryd"
+
+msgid "window/autoSearch/confirmation/ctxMessage"
+msgstr "Tid til at bekræfte:"
+
+msgid "window/autoSearch/confirmation/ctxSeconds"
+msgstr "s"
+
+msgid "window/autoSearch/confirmation/headerText"
+msgstr "Hold fundet"
+
+msgid "window/autoSearch/confirmation/mainText"
+msgstr "Bekræft at du er klar"
+
+msgid "window/autoSearch/confirmation/submitlLbl"
+msgstr "Klar!"
+
+msgid "window/autoSearch/errorState/cancelLbl"
+msgstr "Fortryd"
+
+msgid "window/autoSearch/errorState/ctxMessage"
+msgstr "Søg efter et nyt hold?"
+
+msgid "window/autoSearch/errorState/headerText"
+msgstr "Tiden er opbrugt"
+
+msgid "window/autoSearch/errorState/mainText"
+msgstr "Hold blev fundet,\nmen du bekræftede ikke at du var klar."
+
+msgid "window/autoSearch/errorState/submitlLbl"
+msgstr "Søg"
+
+msgid "window/autoSearch/searchCommand/cancelLbl"
+msgstr "Fortryd"
+
+msgid "window/autoSearch/searchCommand/ctxMessage"
+msgstr "Gennemsnitlig ventetid:"
+
+msgid "window/autoSearch/searchCommand/cxtDnmMessage"
+msgstr "%d min"
+
+msgid "window/autoSearch/searchCommand/mainText"
+msgstr "Søger efter egnet hold"
+
+msgid "window/autoSearch/searchEnemy/mainText"
+msgstr "Afventer kamp…"
+
+msgid "window/autoSearch/searchEnemyRespawn/mainText"
+msgstr "Venter på fjende..."
+
+msgid "window/autoSearch/waitingPlayers/mainText"
+msgstr "Venter på spillere..."
+
+msgid "window/backBtnLbl"
+msgstr "TILBAGE"
+
+msgid "window/intro/auto/btn"
+msgstr "Autosøg"
+
+msgid "window/intro/auto/btn/tooltip/description/disabled"
+msgstr "Kan ikke finde et hold. Køretøjer er ikke valgt eller er ikke klar til kamp."
+
+msgid "window/intro/auto/btn/tooltip/description/enabled"
+msgstr "Klik for at finde et hold automatisk og gå med i kampen med det samme."
+
+msgid "window/intro/auto/btn/tooltip/title"
+msgstr "Autosøg"
+
+msgid "window/intro/auto/btnLbl"
+msgstr "Start autosøg."
+
+msgid "window/intro/auto/description"
+msgstr "Holdmedlemmer vil blive matchet automatisk."
+
+msgid "window/intro/auto/title"
+msgstr "Autosøgning efter rating"
+
+msgid "window/intro/auto/vehicleLbl"
+msgstr "Valgte køretøjer:"
+
+msgid "window/intro/create/btn/addPlayers"
+msgstr "Invitér"
+
+msgid "window/intro/create/btn/assembleTeam"
+msgstr "Saml hold"
+
+msgid "window/intro/create/btn/joinTeam"
+msgstr "Gå med"
+
+msgid "window/intro/create/btn/look"
+msgstr "Liste over hold"
+
+msgid "window/intro/create/btn/private/seeStaff"
+msgstr "Holdmedlemmer"
+
+msgid "window/intro/description"
+msgstr "Deltagere er passende hold med 7 spillere hver.\nKøretøjer er begrænset til niveau VI-VIII. Det samlede niveau af køretøjer på et hold skal være 54."
+
+msgid "window/intro/search/btn"
+msgstr "Søg"
+
+msgid "window/intro/search/description"
+msgstr "Vælg et passende hold fra listen af eksisterende hold. Du skal opfylde kommandørens krav."
+
+msgid "window/intro/search/title"
+msgstr "Søg efter et hold"
+
+msgid "window/intro/team/description/createBattleRoom"
+msgstr "Opret et kamprum"
+
+msgid "window/intro/title"
+msgstr "Holdkamp"
+
+msgid "window/intro/unavailableWaiting"
+msgstr "Venter..."
+
+msgid "window/rosterSlotSettings/bottomResult"
+msgstr "Valgt:"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/range"
+msgstr "Rækkevidde"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/vehicle"
+msgstr "Køretøjer"
+
+msgid "window/rosterSlotSettings/title"
+msgstr "Sæt krav"
+
+msgid "window/rosterSlotSettings/vehicleTab/cancelBtn"
+msgstr "Afbryd"
+
+msgid "window/rosterSlotSettings/vehicleTab/headerText"
+msgstr "Specificer krav til dine holdkammeraters køretøjer."
+
+msgid "window/rosterSlotSettings/vehicleTab/nationFieldSet"
+msgstr "Nation"
+
+msgid "window/rosterSlotSettings/vehicleTab/submitBtn"
+msgstr "Vælg"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleLevel"
+msgstr "Niveau"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleType"
+msgstr "Køretøjstype"
+
+msgid "window/staticRallyInfo/cancelBtnLabel"
+msgstr "Tilbagekald"
+
+msgid "window/staticRallyInfo/joinBtnLabel"
+msgstr "Indsend ansøgning"
+
+msgid "window/staticRallyInfo/joinInfo/alreadyJoined"
+msgstr "Du er allerede medlem af et hold."
+
+msgid "window/staticRallyInfo/joinInfo/applicationCooldown"
+msgstr "Kan ikke indsende ansøgning."
+
+msgid "window/staticRallyInfo/joinInfo/inProcess"
+msgstr "Ansøgning afventer godkendelse"
+
+msgid "window/staticRallyInfo/joinInfo/inProcessOther"
+msgstr "Ansøgningen er allerede sendt."
+
+msgid "window/staticRallyInfo/joinInfo/join"
+msgstr "Send ansøgning"
+
+msgid "window/staticRallyInfo/ladderInfo"
+msgstr "Rangstige %(league)s. Division %(division)s."
+
+msgid "window/staticRallyInfo/noAwards"
+msgstr "Ingen belønninger"
+
+msgid "window/staticRallyInfo/noRallySelected"
+msgstr "Vælg et hold fra listen til venstre\nfor at se en detaljeret beskrivelse."
+
+msgid "window/staticRallyInfo/staticRally/statsWinsPercent"
+msgstr "Sejre"
+
+msgid "window/staticRallyInfo/statsBattlesCount"
+msgstr "Kampe"
+
+msgid "window/title"
+msgstr "Holdkamp"
+
+msgid "window/unit/applySlotsSettings"
+msgstr "Accepter"
+
+msgid "window/unit/autoRecruit"
+msgstr "Rekrutter"
+
+msgid "window/unit/cancelSlotSettings"
+msgstr "Fortryd"
+
+msgid "window/unit/candidates"
+msgstr "Frivillige"
+
+msgid "window/unit/candidates/legionaries"
+msgstr "Legionnærer"
+
+msgid "window/unit/candidates/team"
+msgstr "Hold"
+
+msgid "window/unit/chat"
+msgstr "Chat kanal"
+
+msgid "window/unit/closeRoom"
+msgstr "- Rum vist"
+
+msgid "window/unit/description"
+msgstr "Deltagere er lige hold med 7 spillere hver.\nKøretøjer er begrænset til niveau VI-VIII. Totalt niveau af køretøjer på et hold skal være 54."
+
+msgid "window/unit/descriptionDefault"
+msgstr "Tilføj beskrivelse —"
+
+msgid "window/unit/fight"
+msgstr "Kamp!"
+
+msgid "window/unit/inviteFriend"
+msgstr "Inviter spillere"
+
+msgid "window/unit/leave"
+msgstr "Forlad rum"
+
+msgid "window/unit/lockSlot"
+msgstr "Lås pladsen"
+
+msgid "window/unit/message/candidate"
+msgstr "Holdets kommandør vil tilføje dig til holdet."
+
+msgid "window/unit/message/curfew"
+msgstr "Våbenhvile"
+
+msgid "window/unit/message/falloutGroupNotReady"
+msgstr "Et af dine køretøjer er ikke klar til kamp"
+
+msgid "window/unit/message/falloutLevel"
+msgstr "Du skal have mindst ét niveau %(level)s køretøj"
+
+msgid "window/unit/message/falloutMin/levelRange"
+msgstr "Tilføj niveau %(level)s køretøjer til gruppen"
+
+msgid "window/unit/message/falloutMin/requiredLevel"
+msgstr "Vælg et niveau %(level)s køretøj"
+
+msgid "window/unit/message/fortificationNotAvailable"
+msgstr "Befæstning: Kampe er midlertidigt utilgængelig"
+
+msgid "window/unit/message/getNotReady"
+msgstr "Klik for at vise du ikke er klar"
+
+msgid "window/unit/message/getReady"
+msgstr "Bekræft at du er klar til at gå i kamp."
+
+msgid "window/unit/message/has_frozen_vehicles"
+msgstr "Gruppen har et ødelagt køretøj"
+
+msgid "window/unit/message/in_players_matching"
+msgstr "Gruppen er klar: samler automatisk legionærer..."
+
+msgid "window/unit/message/inactivePeriphery"
+msgstr " "
+
+msgid "window/unit/message/inactivePeripheryBattle"
+msgstr "Du kan bekræfte at du er klar 10 minutter før en fremrykning starter"
+
+msgid "window/unit/message/inactivePeripherySortie"
+msgstr "Du kan bekræfte at du er klar 10 minutter før en træfning starter"
+
+msgid "window/unit/message/invalidLevelError/6"
+msgstr "Ikke mere end ét niveau VI køretøj er tilladt per hold."
+
+msgid "window/unit/message/invalidLevelError/6_7"
+msgstr "Et niveau VI og niveau VII køretøj er ikke tilladt på samme hold."
+
+msgid "window/unit/message/invalidLevelError/7"
+msgstr "Kun to niveau VII køretøjer er tilladt per hold."
+
+msgid "window/unit/message/invalidLevelError/unresolved"
+msgstr "Krav for køretøjsniveauet ikke mødt."
+
+msgid "window/unit/message/level"
+msgstr "Samlet niveau af køretøjer utilstrækkeligt. Krævet: %(level)d"
+
+msgid "window/unit/message/maintenance"
+msgstr "Type midlertidigt utilgængelig"
+
+msgid "window/unit/message/minSlots"
+msgstr "Ufuldstændig"
+
+msgid "window/unit/message/play_limits_is_active"
+msgstr "Tidsgrænse overskredet. Du kan ikke starte en ny kamp."
+
+msgid "window/unit/message/previewVehicleIsPresent"
+msgstr "Gå tilbage til garagen for at vælge et køretøj"
+
+msgid "window/unit/message/ready"
+msgstr "Gruppen er klar: søger efter fjenden..."
+
+msgid "window/unit/message/squadInBattle"
+msgstr "Deling i kamp"
+
+msgid "window/unit/message/takeSlotInRoster"
+msgstr "Gå med i gruppen"
+
+msgid "window/unit/message/unitIsFull"
+msgstr "Kommandøren vil tilføje dig til holdet."
+
+msgid "window/unit/message/unitIsLocked"
+msgstr "Du er ikke medlem af holdet. Pladser låst."
+
+msgid "window/unit/message/vehicleInNotReady/broken"
+msgstr "Køretøj ikke klar til kamp: Reparationer påkrævet."
+
+msgid "window/unit/message/vehicleInNotReady/crewNotFull"
+msgstr "Køretøj ikke klar til kamp: Mandskab ufuldstændigt."
+
+msgid "window/unit/message/vehicleInNotReady/isInBattle"
+msgstr "Køretøj i kamp"
+
+msgid "window/unit/message/vehicleInNotReady/notEnoughVehicles"
+msgstr "Ikke nok passende køretøjer"
+
+msgid "window/unit/message/vehicleInNotReady/rentIsOver"
+msgstr "Køretøj ikke klar til kamp: Lejeperiode afsluttet."
+
+msgid "window/unit/message/vehicleInNotReady/rotationGroupLocked"
+msgstr "Køretøjet er ikke klar: Gruppe %(groupNum)s er låst."
+
+msgid "window/unit/message/vehicleInNotReady/wrongMode"
+msgstr "Valgte køretøj er ikke passende for denne kamptype."
+
+msgid "window/unit/message/vehicleInNotReady/wrongUnitData"
+msgstr "Det valgte køretøj overholder ikke parametrene valgt af delingskommandøren"
+
+msgid "window/unit/message/vehicleNotSelected"
+msgstr "Vælg et køretøj til kampen."
+
+msgid "window/unit/message/vehicleNotValid"
+msgstr "Køretøj er ikke klar til kamp."
+
+msgid "window/unit/message/vehicleNotValidForEvent"
+msgstr "Det valgte køretøj er ikke passende til dette event"
+
+msgid "window/unit/message/waitCommander"
+msgstr "Venter på kommandørens beslutning..."
+
+msgid "window/unit/message/waiting"
+msgstr "Venter på spillere..."
+
+msgid "window/unit/notReady"
+msgstr "Ikke klar"
+
+msgid "window/unit/openRoom"
+msgstr "- Rum skjult"
+
+msgid "window/unit/rangeValue"
+msgstr "%(minVal)s – %(maxVal)s"
+
+msgid "window/unit/ready"
+msgstr "Klar!"
+
+msgid "window/unit/rosterSettingsView/or"
+msgstr "eller"
+
+msgid "window/unit/slot/battleRoyale"
+msgstr "Behøver en spiller mere"
+
+msgid "window/unit/slot/emptySlot"
+msgstr "Tom"
+
+msgid "window/unit/slot/freezed"
+msgstr "Låst"
+
+msgid "window/unit/slot/locked"
+msgstr "Låst"
+
+msgid "window/unit/slot/notAllowed"
+msgstr "Låst"
+
+msgid "window/unit/slot/notAvailable"
+msgstr "Låst"
+
+msgid "window/unit/slot/required"
+msgstr "Inviter spillere."
+
+msgid "window/unit/slot/takePlace"
+msgstr "Tag plads"
+
+msgid "window/unit/slotHeaderText"
+msgstr "Sæt krav"
+
+msgid "window/unit/slotSecondText"
+msgstr "Tilføj krav som angiver de køretøjer du gerne vil se på dit hold. Når du tilføjer spillere til holdet, tælles krav til køretøjer ikke med."
+
+msgid "window/unit/team"
+msgstr "Holdmedlemmer"
+
+msgid "window/unit/teamMembers"
+msgstr "Medlemmer: %(current)s / %(max)s"
+
+msgid "window/unit/teamPoints"
+msgstr "Samlet niveau af køretøjer:"
+
+msgid "window/unit/teamVehicles"
+msgstr "Køretøjer:"
+
+msgid "window/unit/teamVehiclesLbl"
+msgstr "Køretøjer: %(levelsRange)s"
+
+msgid "window/unit/teamVehiclesStub"
+msgstr "Køretøjer: VI-VIII"
+
+msgid "window/unit/unitListView/captain"
+msgstr "Holdets kommandør"
+
+msgid "window/unit/unitListView/clubName"
+msgstr "Holdnavn"
+
+msgid "window/unit/unitListView/commander"
+msgstr "Kommandør"
+
+msgid "window/unit/unitListView/description"
+msgstr "Beskrivelse"
+
+msgid "window/unit/unitListView/paginationDown"
+msgstr "Svagere"
+
+msgid "window/unit/unitListView/paginationUp"
+msgstr "Stærkere"
+
+msgid "window/unit/unitListView/players"
+msgstr "Sammensætning"
+
+msgid "window/unit/unitName"
+msgstr "Hold %(commanderName)s"
+
+msgid "window/unit/unlockSlot"
+msgstr "Lås pladsen op"
+
+msgid "window/unitListView/create/btn"
+msgstr "Opret rum"
+
+msgid "window/unitListView/enterBtn/common"
+msgstr "Gå med som frivillig"
+
+msgid "window/unitListView/enterBtn/legionary"
+msgstr "Gå med"
+
+msgid "window/unitListView/enterBtn/member"
+msgstr "Gå med"
+
+msgid "window/unitListView/enterText/legionary"
+msgstr "Gå med som legionnær"
+
+msgid "window/unitListView/enterText/member"
+msgstr "Gå med på holdet"
+
+msgid "window/unitListView/foundTeamsDescription"
+msgstr "De nedenfor viste hold søger efter spillere og har åbne pladser."
+
+msgid "window/unitListView/noItems"
+msgstr "Hold ikke fundet"
+
+msgid "window/unitListView/noSearchResults/btn"
+msgstr "Tilbage til liste"
+
+msgid "window/unitListView/noSearchResults/description"
+msgstr "Hold med dette navn blev ikke fundet."
+
+msgid "window/unitListView/noSearchResults/header"
+msgstr "Ingen søgeresultater"
+
+msgid "window/unitListView/noTeams/description"
+msgstr "Ingen hold fundet der opfylder søgekriterierne. Prøv igen senere."
+
+msgid "window/unitListView/noTeams/header"
+msgstr "Hold ikke fundet"
+
+msgid "window/unitListView/noUnitSelected"
+msgstr "Vælg et hold fra listen til venstre\nfor at se en detaljeret beskrivelse."
+
+msgid "window/unitListView/refreshList"
+msgstr "Opdateringsliste"
+
+msgid "window/unitListView/renderer/next"
+msgstr "Næste"
+
+msgid "window/unitListView/renderer/previous"
+msgstr "Forrige"
+
+msgid "window/unitListView/renderer/requiredVehicles"
+msgstr "Passende køretøjer"
+
+msgid "window/unitListView/renderer/showMore"
+msgstr "Vis 20 mere"
+
+msgid "window/unitListView/selectedTeam"
+msgstr "Hold"
+
+msgid "window/unitListView/sort/label"
+msgstr "Rangering:"
+
+msgid "window/unitListView/team"
+msgstr "Sammensætning"
+
+msgid "window/unitListView/teamDescription"
+msgstr "Holdbeskrivelse"
+
+msgid "window/unitListView/title"
+msgstr "Kamprum"
+
+msgid "window/unitListView/vehicles"
+msgstr "Køretøjer"
+
+msgid "window/vehicleSelector/buttons/cancel"
+msgstr "Afbryd"
+
+msgid "window/vehicleSelector/buttons/select"
+msgstr "Vælg"
+
+msgid "window/vehicleSelector/filters/all"
+msgstr "Alle"
+
+msgid "window/vehicleSelector/filters/allLevels"
+msgstr "Alle niveauer"
+
+msgid "window/vehicleSelector/filters/level"
+msgstr "%(levelNum)d niveau"
+
+msgid "window/vehicleSelector/filters/matches"
+msgstr "Vis kun passende køretøjer"
+
+msgid "window/vehicleSelector/info/intro"
+msgstr "Du vil gå med i kampen i et af de valgte køretøjer. Niveau tilladt: VI-VIII.\n\nFor at få den bedste oplevelse, vælg en let, medium eller tung kampvogn."
+
+msgid "window/vehicleSelector/info/respawn"
+msgstr "Vælg et niveau VI-VIII køretøj som du vil bruge i kampen."
+
+msgid "window/vehicleSelector/info/search"
+msgstr "Du vil gå med i kampen i et af de valgte køretøjer. Niveau tilladt: VI-VIII."
+
+msgid "window/vehicleSelector/info/unit"
+msgstr "Vælg et niveau VI-VIII køretøj som du vil bruge i kampen."
+
+msgid "window/vehicleSelector/title"
+msgstr "Vælg køretøjer"

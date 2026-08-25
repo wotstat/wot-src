@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Vertaler <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "checkbox/inventory"
+msgstr "In de garage"
+
+msgid "infotip/counter"
+msgstr "Aantal geschikte voertuigen: %(count)d van %(total)d"
+
+msgid "infotip/event"
+msgstr "Speciale voertuigen worden niet getoond"
+
+msgid "infotip/header/description"
+msgstr "Geeft voertuigen weer die voldoen aan de geselecteerde criteria."
+
+msgid "infotip/header/title"
+msgstr "Voertuigfilter"
+
+msgid "infotip/levels"
+msgstr "Niveaus:"
+
+msgid "infotip/nations"
+msgstr "Landen:"
+
+msgid "infotip/only"
+msgstr "Alleen de volgende voertuigen:"
+
+msgid "infotip/only/elite"
+msgstr "Elite"
+
+msgid "infotip/only/favorite"
+msgstr "Primair"
+
+msgid "infotip/only/premium"
+msgstr "Premium"
+
+msgid "infotip/rent"
+msgstr "Huurvoertuigen worden niet getoond"
+
+msgid "infotip/searchNameVehicle"
+msgstr "Zoeken op naam:"
+
+msgid "infotip/vehicleTypes"
+msgstr "Types:"
+
+msgid "popover/checkbox/battleRoyale"
+msgstr "Verberg ongeschikte voertuigen"
+
+msgid "popover/checkbox/elite"
+msgstr "Elite"
+
+msgid "popover/checkbox/event"
+msgstr "Actie"
+
+msgid "popover/checkbox/favorite"
+msgstr "Primair"
+
+msgid "popover/checkbox/premium"
+msgstr "Premium"
+
+msgid "popover/checkbox/rented"
+msgstr "Gehuurd"
+
+msgid "popover/checkbox/unlock_available"
+msgstr "Alleen beschikbaar voor onderzoek"
+
+msgid "popover/counter"
+msgstr "Getoonde voertuigen: %(count)s"
+
+msgid "popover/label/customization"
+msgstr "Aanpassingen"
+
+msgid "popover/label/hidden"
+msgstr "Meer"
+
+msgid "popover/label/levels"
+msgstr "Niveau"
+
+msgid "popover/label/nations"
+msgstr "Natie"
+
+msgid "popover/label/progressions"
+msgstr "Vechtpas"
+
+msgid "popover/label/roles/AT-SPG"
+msgstr "Tankjager %(levels)s rollen"
+
+msgid "popover/label/roles/heavyTank"
+msgstr "Zware tank %(levels)s rollen"
+
+msgid "popover/label/roles/lightTank"
+msgstr "Lichte tank %(levels)s rollen"
+
+msgid "popover/label/roles/mediumTank"
+msgstr "Medium tank %(levels)s rollen"
+
+msgid "popover/label/searchNameVehicle"
+msgstr "Zoeken op naam"
+
+msgid "popover/label/specials"
+msgstr "Actie"
+
+msgid "popover/label/vehicleRole"
+msgstr "Rol"
+
+msgid "popover/label/vehicleTypes"
+msgstr "Type"
+
+msgid "popover/title"
+msgstr "Filter op parameters"
+
+msgid "tooltip/battleRoyale/body"
+msgstr "Toon/verberg voertuigen ongeschikt voor Staaljager."
+
+msgid "tooltip/battleRoyale/header"
+msgstr "Verberg ongeschikte voertuigen"
+
+msgid "tooltip/bonus/body"
+msgstr "Toon/verberg voertuigen met een actieve ervaringsvermenigvuldiger."
+
+msgid "tooltip/bonus/header"
+msgstr "Bonuservaring"
+
+msgid "tooltip/clanRented/body"
+msgstr "Toon/verberg huurvoertuigen voor Wereldkaart- en Vestinggevechten."
+
+msgid "tooltip/clanRented/header"
+msgstr "Huurvoertuigen voor clangevechten"
+
+msgid "tooltip/crystals/body"
+msgstr "Toon/verberg voertuigen waarmee je obligaties kunt verdienen."
+
+msgid "tooltip/crystals/header"
+msgstr "Voertuigen om obligaties mee te verdienen"
+
+msgid "tooltip/customization/canInstallAttachments/body"
+msgstr "Toon/verberg voertuigen waarop 3D-attachments kunnen worden aangebracht."
+
+msgid "tooltip/customization/own3DStyle/body"
+msgstr "Toon/verberg voertuigen waarvoor je 3D-stijlen hebt."
+
+msgid "tooltip/elite/body"
+msgstr "Toon/verberg voertuigen waarvan alle beschikbare modules, upgrades en technische takken zijn onderzocht, inclusief voertuig(en) van het volgende niveau."
+
+msgid "tooltip/elite/header"
+msgstr "Elite voertuigen"
+
+msgid "tooltip/event/body"
+msgstr "Toon/verberg voertuigen voor speciale spelevenementen."
+
+msgid "tooltip/event/header"
+msgstr "Speciale voertuigen"
+
+msgid "tooltip/favorite/body"
+msgstr "Toon/verberg alleen primaire voertuigen."
+
+msgid "tooltip/favorite/header"
+msgstr "Primaire voertuigen"
+
+msgid "tooltip/gameMode/body"
+msgstr "Vink het vakje aan om geschikte voertuigen voor de %(battleType)s modus te zien."
+
+msgid "tooltip/gameMode/header"
+msgstr "Razernij"
+
+msgid "tooltip/igr/body"
+msgstr "Toon/verberg IGR voertuigen."
+
+msgid "tooltip/igr/header"
+msgstr "IGR voertuigen"
+
+msgid "tooltip/inventory/body"
+msgstr "?empty?"
+
+msgid "tooltip/inventory/header"
+msgstr "?empty?"
+
+msgid "tooltip/isCommonProgression/body"
+msgstr "Toon voertuigen die geschikt zijn voor het verdienen van progressiepunten of het voltooien van missies met als beloning progressiepunten."
+
+msgid "tooltip/isCommonProgression/header"
+msgstr "Vechtpas-voertuigen"
+
+msgid "tooltip/isCompetitiveProgression/body"
+msgstr "tooltip/isCompetitiveProgression/body"
+
+msgid "tooltip/isCompetitiveProgression/header"
+msgstr "tooltip/isCompetitiveProgression/header"
+
+msgid "tooltip/nations/body"
+msgstr "Toon/verberg voertuigen van deze natie."
+
+msgid "tooltip/params/body"
+msgstr "Configureer de weergave van voertuigen op type, land, niveau en andere parameters."
+
+msgid "tooltip/params/header"
+msgstr "Filter op parameters"
+
+msgid "tooltip/premium/body"
+msgstr "Toon/verberg alleen Premium- en beloningsvoertuigen."
+
+msgid "tooltip/premium/header"
+msgstr "Premiumvoertuigen"
+
+msgid "tooltip/ranked/body"
+msgstr "Toon/verberg voertuigen geschikt voor Klassementsgevechten."
+
+msgid "tooltip/ranked/header"
+msgstr "Voertuigen voor Klassementsgevechten"
+
+msgid "tooltip/rented/body"
+msgstr "Toon/Verberg gehuurde voertuigen."
+
+msgid "tooltip/rented/header"
+msgstr "Gehuurde voertuigen"
+
+msgid "tooltip/role/body"
+msgstr "Toon/verberg voertuigen met deze rol."
+
+msgid "tooltip/rtsBattles/body"
+msgstr "Toon/verberg voertuigen geschikt voor het 'De kunst van strategie' evenement."
+
+msgid "tooltip/rtsBattles/header"
+msgstr "Verberg ongeschikte voertuigen"
+
+msgid "tooltip/searchInput/body"
+msgstr "Voertuignaam moet tot en met %(count)d tekens bevatten."
+
+msgid "tooltip/searchInput/header"
+msgstr "Zoeken op naam"
+
+msgid "tooltip/toggleSwitchCarousel/body"
+msgstr "Schakel tussen de enkel-niveaus en twee-niveaus voertuigpanelen."
+
+msgid "tooltip/toggleSwitchCarousel/header"
+msgstr "Voertuigpaneel"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Toon/verberg voertuigen van dit type."

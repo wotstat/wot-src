@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Hauptpanzerung"
+
+msgid "armorValues/title/no_damage"
+msgstr "Kein Schaden"
+
+msgid "armorValues/title/other"
+msgstr "Sonstige"
+
+msgid "armorValues/title/penetration"
+msgstr "Durchschlagwahrscheinlichkeit"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Abpraller"
+
+msgid "armorValues/title/spaced"
+msgstr "Schottpanzerung"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Konfiguration des Angreifers"
+
+msgid "attackerTooltip/body"
+msgstr "Klicken, um angreifendes Fahrzeug zu ändern"
+
+msgid "attackerTooltip/header"
+msgstr "Angreifendes Fahrzeug"
+
+msgid "menu/header"
+msgstr "Typ des Overlays"
+
+msgid "menu/no_armor"
+msgstr "Kein Overlay"
+
+msgid "menu/nominal"
+msgstr "Nominelle Panzerung"
+
+msgid "menu/penetration"
+msgstr "Durchschlagwahrscheinlichkeit"
+
+msgid "modules/current"
+msgstr "Aktuelle Konfiguration"
+
+msgid "modules/custom"
+msgstr "Angepasste Konfiguration"
+
+msgid "modules/standard"
+msgstr "Standardkonfiguration"
+
+msgid "modules/title"
+msgstr "Fahrzeugmodule"
+
+msgid "modules/top"
+msgstr "Beste Konfiguration"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{count}}x {{part}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Chassis"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Geschütz"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Kanonenblende"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Wanne"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Schürze"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Sichtgerät"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Turm"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Räder"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Kein Schaden"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Durchschlag"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}} % "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Abpraller"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Der Winkel zwischen der Flugbahn des Geschosses und der Linie senkrecht zur Panzerplatte.\n\nDie Flugbahn wird berechnet, als ob die Granate in einer geraden Linie von der Mitte des Bildschirms aus fliegen würde."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Einschlagwinkel"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Die Wahrscheinlichkeit, die gegnerische Panzerung zu durchschlagen und dem Fahrzeug Schaden zuzufügen."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Durchschlagwahrscheinlichkeit"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Bei einer einzelnen Schicht Panzerung entspricht die effektive Panzerung der nominellen Panzerung modifiziert durch den Einschlagwinkel und die Granatennormalisierung.\n\nWenn an der Einschlagstelle mehrere Schichten Panzerung vorhanden sind, entspricht das Ergebnis der Summe der effektiven Werte aller Schichten."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Effektive Panzerung"
+
+msgid "tooltip/minor/header"
+msgstr "Legende"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Ein Treffer auf Schottpanzerung verursacht keinen Schaden am Fahrzeug, solange die Granate danach nicht auch die Hauptpanzerung trifft und durchschlägt."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Kein Schaden"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Die tatsächliche Dicke der Panzerplatten der Haupt- oder Schottpanzerung."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nominelle Panzerung"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Granaten, die in einem streifenden Winkel auf die gegnerische Panzerung treffen, können abprallen. Sie können jedoch noch ein anderes Fahrzeug oder sogar dasselbe Fahrzeug erneut treffen."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Abpraller"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Beeinflusst die Berechnung der effektiven Panzerung und der Durchschlagwahrscheinlichkeit.\n\nFür alle Berechnungen wird eine Entfernung von 100 m genutzt (AP- und APCR-Granaten verlieren mit steigender Distanz an Durchschlagskraft).\n\nBesatzungsvorteile und Verbesserungen am angreifenden Fahrzeug werden in den Berechnungen nicht berücksichtigt."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Konfiguration des Angreifers"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Die Wahrscheinlichkeit, die gegnerische Panzerung zu durchschlagen und dem Fahrzeug Schaden zuzufügen.\n\nEin Treffer auf Schottpanzerung verursacht keinen Schaden am Fahrzeug, solange die Granate danach nicht auch die Hauptpanzerung trifft und durchschlägt."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Durchschlagwahrscheinlichkeit"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Ein Fahrzeug nimmt nur Schaden, wenn die Hauptpanzerung getroffen und durchschlagen wird. HE-Granaten können auch ohne Durchschlag reduzierten Schaden verursachen, müssen dafür aber auch die Hauptpanzerung treffen."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Hauptpanzerung"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Ein Treffer auf Schottpanzerung verursacht keinen Schaden am Fahrzeug, solange die Granate danach nicht auch die Hauptpanzerung trifft und durchschlägt.\n\nDas Treffen und Durchschlagen von externen Modulen beschädigt diese Module direkt: Eine Kette zu zerstören macht das Fahrzeug bewegungsunfähig, ein Geschütz zu zerstören verhindert jegliches Feuer, ein Sichtgerät zu zerstören reduziert die Sichtweite des Fahrzeugs."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Kein Schaden"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Der Abprallwinkel beträgt 70 Grad bei AP- und APCR-Granaten sowie 85 Grad bei HEAT-Granaten.\n\nHE-Granaten können nicht abprallen, AP- und APCR-Granaten verlieren durch einen Abpraller 25 % ihrer Durchschlagskraft.\n\nWenn das Kaliber der Granate mehr als dreimal so groß ist wie die nominelle Dicke der Panzerung an der Einschlagstelle (nur relevant für AP- und APCR-Granaten), können keine Abpraller auftreten und ein Durchschlag ist garantiert."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Abpraller"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Ein Treffer auf Schottpanzerung verursacht keinen Schaden am Fahrzeug, solange die Granate danach nicht auch die Hauptpanzerung trifft und durchschlägt.\n\nDas Treffen und Durchschlagen von externen Modulen beschädigt diese Module direkt: Eine Kette zu zerstören macht das Fahrzeug bewegungsunfähig, ein Geschütz zu zerstören verhindert jegliches Feuer, ein Sichtgerät zu zerstören reduziert die Sichtweite des Fahrzeugs.\n\nDer Einschlagwinkel ist für externe Module (wie Ketten und Geschütz) nicht relevant, hier entspricht die effektive Panzerung der nominellen Panzerung."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Schottpanzerung"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Sehen Sie sich ein Video zur Mechanik des Durchschlagens von Panzerung an."

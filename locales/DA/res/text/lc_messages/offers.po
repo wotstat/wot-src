@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Vælg belønninger"
+
+msgid "banner/giftsAvailable"
+msgstr "Forsyninger leveret!"
+
+msgid "banner/giftsForOffer"
+msgstr "Belønninger for deltagelse i \"%(name)s\"."
+
+msgid "banner/selectNowOrLater"
+msgstr "Vælg dine belønninger nu eller senere i depotet."
+
+msgid "banner/title"
+msgstr "Homefront forsyninger"
+
+msgid "description/rentValue/battles"
+msgstr "for kampe: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "for dage: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "for sejre: %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "Udover det valgte køretøj, vil du også modtage %(items)s gratis."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}mandskab{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}mandskab{neutralClose} og {neutralOpen}garageplads{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}garageplads{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Fortryd"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s vil blive lejet %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s vil blive sendt til garagen"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "%(tankName)s lejeperiode vil blive forlænget %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Bekræft"
+
+msgid "giftDialog/title/common"
+msgstr "Bekræftelse af modtagelse af\n\"%(name)s\""
+
+msgid "giftDialog/title/tank"
+msgstr "Modtager køretøj"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Lejer køretøjer"
+
+msgid "giftsWindow/availableCount"
+msgstr "Tilgængelige: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Tilgængelig til: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Tilgængelige belønninger: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "I garage"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Åbn for"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Preview"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) kampe"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) d"
+
+msgid "giftsWindow/rent/title"
+msgstr "Leje i: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) sejre"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Modtag"
+
+msgid "giftsWindow/tokens"
+msgstr "Tilgængelige: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Tokens tilgængelige: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Utilgængelig"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Bekræftet!"
+
+msgid "rewardWindow/title"
+msgstr "Belønning modtaget"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Modtag!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Forlæng leje!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Gratis %(tankName)s leje %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s med mandskab"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s med mandskab og garageplads"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s med garageplads"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Forlæng %(tankName)s leje %(rentValue)s"

@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Na všech dostupných serverech platí příměří."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Na tomto serveru platí příměří."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Změnit server"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Ocelový lovec skončil"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Režim není na tomto serveru k dipozici"
+
+msgid "banner/info/disabled"
+msgstr "Příměří"
+
+msgid "banner/info/seasonActive"
+msgstr "Druhá šance a odměny"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Do %(day)s. %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Žánr Battle Royale s hodnotnými odměnami"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s h"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s h %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "OCELOVÝ LOVEC"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Bitva bude pokračovat z nové pozice."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Již brzy se znovuobjevíte"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Probíhá znovuobjevení"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Nebude druhá šance."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Znovuobjevení již není dostupné"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Znovuobjevení bude brzy nedostupné!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Tentokrát buďte opatrnější."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Vaše vozidlo je připraveno k boji!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Návrat do bitvy"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Probíhá aktivní boj."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Znovuobjevení je nedostupné"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Abyste se vrátili do akce, najděte použití Znovuobjevení."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Spojenecké vozidlo zničeno"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Probíhá znovuobjevení"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Dvě vozidla jsou lepší než jedno!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Spojenecké vozidlo znovuobjeveno"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Držte se mimo boj!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Probíhá znovuobjevení spojence"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus aktivován!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Odměna za první místo"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Sebráno v bitvě"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "VÍTĚZSTVÍ"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Není vybrána kapitola. Nevyužité body Battle Passu: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Všechny kapitoly dokončeny. Pokračujte v hraní a sbírejte další body Battle Passu."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Přejít na Battle Pass"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Battle Pass"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Vybrat kapitolu"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Přejít na postup v aktivní kapitole"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Přejít na Battle Pass"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Mise splněné za bitvu: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Mise"
+
+msgid "battleResult/battleReward/title"
+msgstr "ZÍSKÁNO ZA BITVU"
+
+msgid "battleResult/button/hangar"
+msgstr "Do garáže"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Body a odměny budou rozděleny poté, co všichni hráči dokončí tuto bitvu. Mise budou rovněž vyhodnoceny na základě výsledků bitvy."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Stisknutím %(esc) přeskočíte animaci"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Pozvat do čety"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Spojenec"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Náhodný spojenec"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Typ bitvy"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "SÓLOVÁ BITVA"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "S prémiovým účtem WoT můžete získat:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Celkové hodnoty s prémiovým účtem WoT"
+
+msgid "battleResult/progressStage"
+msgstr "Postup {stage}. fáze"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Skutečná přezdívka a značka klanu hráče se ostatním hráčům v bitvě nezobrazí."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Skutečná přezdívka hráče: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Skutečná přezdívka hráče byla změněna na {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Množství poškození, které zastavil pancíř vašeho vozidla."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Množství vámi způsobeného poškození."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Počet nepřátelských vozidel, která jste zničili."
+
+msgid "battleResult/stats/body/place"
+msgstr "Vaše pozice vychází z výsledků bitvy."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Počet nepřátelských vozidel, která zničila vaše četa."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Poškození zastavené pancířem"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Způsobené poškození"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Zničeno vámi"
+
+msgid "battleResult/stats/header/place"
+msgstr "Pozice"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Zničeno četou"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Poškození zastavené pancířem"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Způsobené poškození"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Zničeno vámi"
+
+msgid "battleResult/stats/title/place"
+msgstr "Pozice"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Zničeno četou"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Žebříček"
+
+msgid "battleResult/tab/result"
+msgstr "Výsledky bitvy"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "ČETA ZNIČENA"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "VOZIDLO ZNIČENO"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "VÍTĚZSTVÍ"
+
+msgid "battleResult/title/victoryOther"
+msgstr "ČESTNÉ MÍSTO"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Vyberte jedno ze speciálních vozidel pro režim „Ocelový lovec“."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Nekompatibilní vozidlo"
+
+msgid "button/modules"
+msgstr "VÝZKUM"
+
+msgid "button/repair"
+msgstr "Opravit"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Bitvy jsou dočasně nedostupné"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Bitvy jsou dočasně nedostupné"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Režim není k dispozici"
+
+msgid "ceasefire/header/schedule"
+msgstr "Rozvrh bitev"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Na všech dostupných serverech platí příměří. Níže si můžete prohlédnout harmonogram."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Na tomto serveru platí příměří. Chcete-li přejít do tohoto režimu, můžete se přepnout na jiný server."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Ocelový lovec není na tomto serveru k dispozici. Pro přístup přepněte na jiný server."
+
+msgid "commanderInfo/commonRank"
+msgstr "Velitel"
+
+msgid "commanderInfo/description/china"
+msgstr "„Já už jsem zvítězil. Brzy si to uvědomíte.“"
+
+msgid "commanderInfo/description/france"
+msgstr "„Já jsem zákon!“"
+
+msgid "commanderInfo/description/germany"
+msgstr "„Dnešek je slavný den, který se zapíše do historie.“"
+
+msgid "commanderInfo/description/poland"
+msgstr "„Na způsoby není čas.“"
+
+msgid "commanderInfo/description/sweden"
+msgstr "„Vše jde podle plánu.“"
+
+msgid "commanderInfo/description/uk"
+msgstr "„Ať už jste čímkoliv, buďte nejlepší.“"
+
+msgid "commanderInfo/description/usa"
+msgstr "„Sekera je vykopaná, čerstvě naleštěná a nabroušená.“"
+
+msgid "commanderInfo/description/ussr"
+msgstr "„Vítěz bere vše!“"
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Schopnosti"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nSpeciální vozidlo pro Ocelového lovce"
+
+msgid "fragPanel/squadsCount"
+msgstr "Čety: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Žebříček"
+
+msgid "hangarResults/btns/summary"
+msgstr "Výsledky bitvy"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "ZAVŘÍT"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Moduly je možné vylepšit pouze v bitvě. Pro otevření nabídky modulů stiskněte v bitvě klávesu %(key)s."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s a %(highlight2)s, abyste získali zkušenosti. Každá dosažená úroveň dovolí hráči vylepšit modul z nabídky vylepšení a značně tím posílit vlastnosti vozidla."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Poškozujte nepřátelská vozidla"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "sbírejte na mapě válečnou kořist"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Vylepšení vozidla v bitvě"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Do bitvy vstoupíte s vozidlem I. úrovně."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Moduly se dají vylepšit jak z nabídky vylepšení během bitvy (standardně klávesa %(treeKey)s), tak i při stisknutí kombinace kláves %(leftModuleKey)s a %(rightModuleKey)s.\n\nModuly se dají vylepšit pouze v bitvě."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "V bitvě:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Váš ocelový lovec získává v bitvě zkušenosti za udělování poškození a sbírání válečné kořisti. Jakmile je nasbíráno požadované množství zkušeností, můžete postoupit na další úroveň a vybrat si vylepšení jednoho z modulů."
+
+msgid "levelUp/severalTitles"
+msgstr "ZÍSKÁNY ÚROVNĚ: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "ZÍSKÁNA %(level)s. ÚROVEŇ!"
+
+msgid "levelUp/twoTitles"
+msgstr "ZÍSKÁNY ÚROVNĚ: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Splňte mise a získejte hodnotné odměny."
+
+msgid "level_up/max_level_info/title"
+msgstr "Jsou k dispozici nové denní mise"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Sezóna\nbrzy začne"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Sezóna začne %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Zablokováno"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Poškození"
+
+msgid "playerStats/killsStat/name"
+msgstr "Zničeno"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Zničeno"
+
+msgid "playerStats/placeStat/name"
+msgstr "Pozice"
+
+msgid "playerStats/title"
+msgstr "Osobní skóre"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Rádiová detekce není k dispozici: probíhá příprava"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Vozidlo je plně funkční. Obnovení není potřeba."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Bojový robot zničen"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s zničil nepřítele %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Ohnivá koule zničena"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Miny vypršely"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Miny položeny"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Rádiová detekce je připravena k použití"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Vozidlo dosáhlo maximální úrovně"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Dosažena %(level)s. úroveň"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Namontováno: %(moduleType)s. Vylepšeno: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Korba"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Podvozek"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Motor"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Dělo"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Rádiová detekce"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Věž"
+
+msgid "playersPanel/title"
+msgstr "TÝM"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Přepínání mezi vozidly v četě."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Režim pozorovatele"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Zpět do garáže.\nVstupte do bitvy s jiným vozidlem."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Zpět do garáže"
+
+msgid "preBattle/buttonTitle"
+msgstr "BITVA!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Vyberte mapu"
+
+msgid "preBattle/listTitle"
+msgstr "PŘIPRAVENOST HRÁČŮ"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Oblast 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Náhodná mapa"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "VOZIDLA V ČETĚ"
+
+msgid "preBattle/title"
+msgstr "VELKÝ LOV"
+
+msgid "preBattle/userFooterTitle"
+msgstr "VYBRANÁ VOZIDLA"
+
+msgid "preBattle/userNotReady"
+msgstr "Nepřipraven"
+
+msgid "preBattle/userReady"
+msgstr "Připraven"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Sezóna %(cycleNo)s na serveru %(server)s skončila"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Sezóna na serveru %(server)s skončila."
+
+msgid "proxyPanel/button"
+msgstr "Obchod"
+
+msgid "proxyPanel/label"
+msgstr "Ocelové\npečetě"
+
+msgid "proxyPanel/store"
+msgstr "OBCHOD"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Sezóna končí za %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Rádiové detekci není přiřazena žádná klávesa"
+
+msgid "radar/hint/press"
+msgstr "Stisknutím"
+
+msgid "radar/hint/text"
+msgstr "aktivujete rádiovou detekci"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Vysadit"
+
+msgid "selectRespawn/button/land"
+msgstr "Vysadit"
+
+msgid "selectRespawn/description"
+msgstr "Klikněte na jeden z doporučených bodů. Není-li vybrán žádný bod, budete vysazeni na jakémkoliv z doporučených bodů."
+
+msgid "selectRespawn/header"
+msgstr "Vyberte místo vysazení"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Klikněte na jeden z doporučených bodů. Není-li vybrán žádný bod, budete vysazeni na jakémkoliv z doporučených bodů."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Zde začíná vaše bitva"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Vyberte místo vysazení"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "BĚSNĚTE!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Pancíř rozežírá kyselina!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Zóna je uzavřena! Opusťte zónu, nebo bude vaše vozidlo zničeno!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Zóna brzy zčervená"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Snížena pohyblivost!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Zpátky na pásech..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Obnovení bodů výdrže"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Obnovení bodů výdrže"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Konvertování poškození"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Technické vlastnosti se zlepšily"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Granáty a obnovení"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Letecký shoz"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Sada nářadí a použití schopnosti"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Válečná kořist"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Kombinovaná válečná kořist: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Sbírání: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Zóna oprav"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Rostoucí zápal!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "V kouři"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Náš pancíř koroduje!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Snížena pohyblivost!"
+
+msgid "techParams/type/damage"
+msgstr "Poškození"
+
+msgid "techParams/type/difficulty"
+msgstr "Obtížnost"
+
+msgid "techParams/type/mobility"
+msgstr "Pohyblivost"
+
+msgid "techParams/type/spotting"
+msgstr "Odhalování"
+
+msgid "techParams/type/survivability"
+msgstr "Odolnost"
+
+msgid "techtree/body_armor"
+msgstr "Pancíř"
+
+msgid "techtree/body_health"
+msgstr "Body výdrže"
+
+msgid "techtree/body_mobility"
+msgstr "Pohyblivost"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dynamika"
+
+msgid "techtree/engine_speed"
+msgstr "Maximální rychlost"
+
+msgid "techtree/gun_alpha"
+msgstr "Poškození na výstřel"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Automatické dobíjení"
+
+msgid "techtree/gun_clip"
+msgstr "Nabíjení zásobníku"
+
+msgid "techtree/gun_dpm"
+msgstr "Rychlost nabíjení"
+
+msgid "techtree/gun_dualgun"
+msgstr "Dvouhlavňové dělo"
+
+msgid "techtree/gun_he"
+msgstr "Poškození HE granátu"
+
+msgid "techtree/gun_machinegun"
+msgstr "Protitankový kulomet"
+
+msgid "techtree/gun_piercing"
+msgstr "Průbojnost"
+
+msgid "techtree/radar_cooldown"
+msgstr "Doba obnovení rádiové detekce"
+
+msgid "techtree/radar_distance"
+msgstr "Dosah detekce"
+
+msgid "techtree/turret_armor"
+msgstr "Pancíř"
+
+msgid "techtree/turret_health"
+msgstr "Výdrž"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Rychlost rotace"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15 %"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Až {{credits}} kreditů"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Až {{experience}} ZK"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Bonus za boj v četě"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Bojujte v četě s náhodným spojencem. Hrajte jako tým proti devíti nepřátelským četám. V tomto režimu lze plnit mise pro čety. Četa bude po bitvě automaticky rozpuštěna."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klasický Ocelový lovec. Každý hráč bojuje sám za sebe. Sbírejte zdroje, vylepšujte své vozidlo a používejte jeho jedinečné schopnosti, abyste zůstali posledním přeživším!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Bojujte v četě s přítelem. Hrajte jako tým proti devíti nepřátelským četám. V tomto režimu lze plnit mise pro čety."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Náhodná četa"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Sólo režim"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Četa s přítelem"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Sólo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Četa"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Pravidla pro získávání bodů"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s. místo"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s. místa"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medaile"
+
+msgid "tooltips/awards/badge"
+msgstr "Odznak"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: „%(userName)s“"
+
+msgid "tooltips/respawn/common/description"
+msgstr "Umožňuje vám vrátit se po zničení vašeho vozidla do bitvy. Když k tomu dojde, úroveň vylepšení vozidla není ztracena. V bitvě ho lze použít jen v omezeném množství."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Použití Znovuobjevení lze získat z leteckých shozů."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Abyste mohli znovuobjevit spojence, zůstaňte po dobu {brown_Open}%(timeToResurrect)s s{brown_Close} mimo boj. Tato mechanika funguje během prvních {brown_Open}%(duration)s min{brown_Close} bitvy. Použití Znovuobjevení je sdíleno mezi členy čety."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Při hraní v četě"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Jakmile je vaše vozidlo zničeno, automaticky se znovuobjeví. Tato mechanika funguje během prvních {brown_Open}%(duration)s min{brown_Close} bitvy."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Při hraní sólo"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Jednorázové použití"
+
+msgid "tooltips/respawn/title"
+msgstr "Znovuobjevení"
+
+msgid "tooltips/vehicle/description"
+msgstr "Vozidla pro režim „Ocelový lovec“"
+
+msgid "tournament/description"
+msgstr "VELKÝ LOV"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Nepřipraven"
+
+msgid "tournament/fightButton/ready"
+msgstr "Připraven!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Nelze vstoupit do turnaje. Kód chyby: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Chyba turnaje „Velký lov“. Kód chyby: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "VELKÝ LOV"
+
+msgid "tournament/type/solo"
+msgstr "Typ: sólo"
+
+msgid "tournament/type/squad"
+msgstr "Typ: četa"
+
+msgid "upgradePanel/alert/0"
+msgstr "Své vozidlo nemůžete vylepšit!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Vozidlo nemůžete vylepšit během aktivního boje!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Své vozidlo nemůžete vylepšit. Vozidlo se topí!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Své vozidlo nemůžete vylepšit. Vozidlo je převráceno!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Stisknutím klávesy %(key)s otevřete nabídku vylepšení"
+
+msgid "upgradePanel/title/default"
+msgstr "K dispozici je nový modul"
+
+msgid "upgradePanel/title/hull"
+msgstr "K dispozici je nová korba"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "K dispozici je nový podvozek"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "K dispozici je nový motor"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "K dispozici je nové dělo"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "K dispozici je nové rádio"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "K dispozici je nová věž"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "NEBO"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Pancíř"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Poškození na výstřel"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Rychlost nabíjení"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Výdrž"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Průbojnost"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Fungování rádiové detekce"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Systém nabíjení zásobníku"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Rychlost"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Vlastnosti vozidla"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Výhody"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Nevýhody"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Na všech serverech platí příměří. Bitvy budou dostupné za %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Vyberte jiný server"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Epizoda %(cycle)s skončila"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Epizoda skončila"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Na tomto serveru platí příměří. Bitvy budou dostupné za %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Na %(serverName)s platí příměří"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Epizoda %(cycle)s začne za %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "První epizoda začne za %(time)s"

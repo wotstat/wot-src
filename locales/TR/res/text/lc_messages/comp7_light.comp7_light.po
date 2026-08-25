@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Sunucu değiştir"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaylar"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Kip, bu sunucuda devre dışıdır %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Kip tüm sunucularda devre dışıdır"
+
+msgid "alertMessage/modeOffline"
+msgstr "Veritabanı hatası. Oyun kipi devre dışı."
+
+msgid "alertMessage/noVehicles"
+msgstr "Garajınızda uygun araç yok %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Olumlu!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "HAFİF HÜCUM"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "SON AŞAMA TAMAMLANDI!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "%(level)s. AŞAMA TAMAMLANDI!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Tüm görevler tamamlandı!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Tamamlandı"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Tükenişi: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Hafif Hücum Görevi"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Yeni Hafif Hücum görevine: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Ödül:"
+msgstr[1] "Ödüller:"
+msgstr[2] "Ödüller:"
+
+msgid "battleResult/header/deserter"
+msgstr "Ceza aldınız"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "HAFİF HÜCUM GELİŞİMİ"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Hafif Hücum %(days)d gün sürecek"
+msgstr[1] "Hafif Hücum %(days)d gün sürecek"
+msgstr[2] "Hafif Hücum %(days)d gün sürecek"
+
+msgid "calendarDay/title"
+msgstr "Program"
+
+msgid "closeButtonLabel"
+msgstr "KAPAT"
+
+msgid "countDown/text"
+msgstr "Etkinliğin başlangıcına:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Seviye %(levels)s araçlarla 7x7 savaşlar içeren yüksek tempolu bir kip. Orijinal Hücum kipinin oyun tarzını Elemeler, Kademeler veya Hizmet Kayıtları olmadan yaşayın, günlük görevlerden ödüller kazanın."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "KİP"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s - Oyun kipi. Keşfetmek için tıklayın"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Hafif Hücum"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Kip %(timer)s süre daha geçerlidir"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Ateşkes%(timer)s"
+
+msgid "featureName"
+msgstr "Hafif Hücum"
+
+msgid "featureNameCapitalized"
+msgstr "HAFİF HÜCUM"
+
+msgid "intro/confirmButton"
+msgstr "Olumlu!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Orijinal Hücum kipinin oyun eğlencesini Elemeler, Kademeler ve herhangi bir Hizmet Kaydı olmadan yaşayın."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Kipte aracın can puanı, sarf malzemeleri soğuma süresi, görünür kalma süresi, vb. gibi araç parametrelerini farklılaştıran değiştiriciler bulunur."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Haritanın belli alanları ele geçirdikten sonra Taktik Becerilerinizi kullanabilmeye başlayacaksınız. İki tür İlgi Noktası bulunuyor: Topçu Karargâhı belli bir pozisyona topçu saldırısı yönlendirmenizi sağlarken Muhabere Merkezi de tüm düşman araçlarını tespit ediyor. Bu noktaların mevcudiyeti ve yerleşimi haritaya bağlı olarak değişebiliyor."
+
+msgid "intro/description/roleSkills"
+msgstr "Tüm araçların rolüne bağlı olan üç şarj seviyeli bir özel becerisi bulunmaktadır. Şarj seviyesi ne kadar yüksekse becerinin etkisi de o kadar güçlü olur. Şarj seviyesi Prestij Puanlarının sayısına bağlıdır ve bu puanlar savaşta etkileyici performans sergileme, İlgi Noktalarını ele geçirme, Taktik Becerileri kullanma ve benzeri eylemler gerçekleştirme karşılığında kazanılır.\n\nKip mevzuatına göz atarak Prestij Puanı kazanmanın farklı yöntemleri hakkında daha fazlasını öğrenebilirsiniz."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Kipte sadece %(levels)s araçlar kullanılabilir. KMT'ler ve bazı başka tanklar kullanılamaz. Araçlarınızı Garajda hazırlayın, ardından savaşa girdiğinizde çıkan haritanın özelliklerine en uygun olanını seçin. Aracınızı seçerken müttefiklerinizin hangi araçları seçtiğini de dikkate alın."
+
+msgid "intro/title/lightGameplay"
+msgstr "KEYFİNİ SÜR, KOMUTAN"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "HÜCUM DEĞİŞTİRİCİLERİ"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "İLGİ NOKTALARI"
+
+msgid "intro/title/roleSkills"
+msgstr "ROL BECERİLERİ"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "BELLİ BİR HARİTAYA ÖZEL BİR ARAÇ SEÇİN"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Zafer"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Yenilgi/Beraberlik"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "İyi iş çıkardınız Komutan, devam edin!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Görevleri tamamlayıp Hafif Hücum savaşlarında en üst konumlara ulaşarak Gelişim seviyenizi artırın."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Kazanacağınız Gelişim Puanı miktarı savaştaki Prestij Puanı konumunuza bağlıdır."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Kipin bitişine %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Ana Gelişim tamamlandı"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Hafif Hücum"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Prestij Puanı açısından ilk 2"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Prestij Puanı açısından ilk 5"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Prestij Puanı açısından ilk 7"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "WoT Premium Hesabı Kullanın"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Kişisel Yedekleri Etkinleştirin"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Görevleri Tamamlayın"
+
+msgid "noVehicles/howTo/title"
+msgstr "Seviye %(levels)s araçlara erişmenin en hızlı yolu nedir?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Hafif Hücuma katılmak için Garajınızda bu kipe uygun en az bir Seviye %(levels)s araç mevcut olmalıdır.\nTeknoloji Ağacından veya oyun içi Dükkândan Premium Seviye %(levels)s araçlar satın alabilirsiniz."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Hafif Hücuma katılmak için Garajınızda bu kipe uygun en az bir Seviye %(levels)s araç mevcut olmalıdır.\nKurtarmaya açık bir Seviye %(levels)s aracınız bulunuyor."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Hafif Hücuma katılmak için Garajınızda bu kipe uygun en az bir Seviye %(levels)s araç mevcut olmalıdır."
+
+msgid "noVehicles/title"
+msgstr "Garajınızda uygun araç yok"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Ayrıntılar için Hafif Hücum Hakkında sayfasına bakın."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestij Puanı"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Zarar verme\nGözcülük desteği\nPalet kırma\nKritik isabet verme\nDüşman araçlarını yok etme\nVe fazlası"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Prestij Puanı, şu savaş faaliyetlerini gerçekleştirerek kazanılabilir:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Sezon, %(server)s sunucusunda sona erdi."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sezon, %(server)s sunucusunda sona erdi."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Sezon, %(server)s sunucusunda sona erdi."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Ana Gelişim tamamlandı!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "%(current)s. Aşama"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s veya %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Yeni görevlere kalan süre:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Etkinliğin bitişi:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Görevlerin güncellenmesi:"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Tüm günlük görevler tamamlandı."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Gelişim tamamlandı. Başka ödüller de kazanmak için Hafif Hücumda oynayın."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Görevleri tamamlayıp Hafif Hücum savaşlarında en üst konumları\nkaparak Gelişim seviyenizi artırın. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Hafif Hücum kapsamında özel görevleri tamamlama ve savaşlara katılma karşılığında verilir. Gelişimde ilerlemenizi sağlar."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Hafif Hücum Gelişim Puanı"
+
+msgid "selectorTooltip/desc"
+msgstr "Kademesiz kip. 7x7 | Seviye %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Hafif Hücum"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Oyun portalındaki son haberleri takip ederek yeni Sezonun başlangıcı hakkında en güncel bilgilere sahip olun."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Bu kip teknik sorunlar sebebiyle geçici olarak devre dışıdır."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Bu kip %(time)s tarihinde açılacaktır"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Gelişim Puanı alındı"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Hafif Hücum"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Alınan ödüller:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "%(progressionName)s kipinde %(stage)s. Gelişim Aşamasını tamamladınız."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Tebrikler!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Ateşkes var. Hafif Hücum savaşları geçici olarak devre dışı."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Ateşkes"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Ateşkes kalktı. Hafif Hücum savaşları yeniden açık."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Ateşkes"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Hafif Hücum Hakkında"

@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Informazioni sul Pass di battaglia"
+
+msgid "about/position/header"
+msgstr "Distribuzione dei Punti Pass di battaglia"
+
+msgid "about/position/text"
+msgstr "Dopo ogni battaglia, riceverai un numero di Punti Pass di battaglia che corrisponde alla tua posizione. Riceverai ulteriori Punti Pass di battaglia se aumenti il tuo livello di Prima Linea."
+
+msgid "about/scores/header"
+msgstr "Punti Pass di battaglia"
+
+msgid "about/scores/text"
+msgstr "Una valuta speciale di Pass di battaglia che può essere ottenuta in Battaglie Casuali e in modalità Prima Linea. I Punti Pass di battaglia vengono conferiti raggiungendo i livelli di Prima Linea e per la propria posizione nei risultati di battaglia. I veicoli di Prima Linea non hanno un limite al numero di punti ottenibili."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Sconfitta"
+
+msgid "about/scoresTable/topCell"
+msgstr "Primi {{top}} per Exp ottenuta"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Vittoria"
+
+msgid "about/text"
+msgstr "Pass di battaglia è un evento a lungo termine in cui i giocatori progrediscono da una Fase all'altra ottenendo Punti Pass di battaglia. Ogni Fase completata garantisce ricompense di valore. Completando determinate Fasi, i giocatori possono ricevere Gettoni Pass di battaglia: una valuta speciale utilizzabile per acquistare veicoli unici e altre preziose ricompense nella sezione corrispondente della Fabbrica."
+
+msgid "addons/cellRent/header"
+msgstr "Noleggio veicoli"
+
+msgid "addons/cellRent/text_10"
+msgstr "È possibile noleggiare diversi veicoli di livello {{vehiclesLevel}} in cambio di crediti. I membri dell'equipaggio dei veicoli di stesso tipo e nazione possono essere trasferiti senza penalità o necessità di riaddestramento."
+
+msgid "addons/cellRent/text_9"
+msgstr "È possibile noleggiare diversi veicoli di livello {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} in cambio di crediti. I membri dell'equipaggio dei veicoli di stesso tipo e nazione possono essere trasferiti senza penalità o necessità di riaddestramento."
+
+msgid "addons/cellSpectator/header"
+msgstr "Modalità spettatore"
+
+msgid "addons/cellSpectator/text"
+msgstr "Mentre aspetti di essere rischierato, puoi entrare in modalità spettatore per studiare il campo di battaglia e pianificare le tue tattiche future."
+
+msgid "addons/cellTime/header"
+msgstr "Tempo aggiuntivo"
+
+msgid "addons/cellTime/text"
+msgstr "Se una base è in corso di cattura ma il tempo di battaglia si esaurisce, la tua squadra riceverà del tempo aggiuntivo. Se la squadra in difesa interrompe la cattura della propria base, il tempo aggiuntivo verrà azzerato."
+
+msgid "addons/header"
+msgstr "Informazioni aggiuntive"
+
+msgid "levelUp/sectionHeader"
+msgstr "Veicoli di livello {{level}}"
+
+msgid "levelUp/text"
+msgstr "Come in passato, all'inizio si può entrare in battaglia solo con veicoli di livello {{vehiclesLevelFrom}}, ma è possibile preparare in Officina anche veicoli di livello {{vehiclesLevelTo}}. Non appena verrà catturata una qualsiasi delle basi della seconda linea (D, E, F), entrambe le squadre potranno schierare i propri veicoli di livello {{vehiclesLevelTo}}."
+
+msgid "main/cellDuration/header"
+msgstr "Durata"
+
+msgid "main/cellDuration/text"
+msgstr "Prima Linea durerà per {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. La data del prossimo lancio sarà annunciata separatamente."
+
+msgid "main/cellFrontline/header"
+msgstr "Prima Linea"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Gigantesche battaglie 30 contro 30 con veicoli di livello {{vehiclesLevel}} disputate sulle mappe {{@ colorLegacy 'FFE4C0'}}Normandia, Kraftwerk{{/}} e {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Gli attaccanti devono distruggere 3 dei 5 cannoni di grosso calibro, mentre i difensori devono proteggerli."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Gigantesche battaglie 30 contro 30 con veicoli di livello {{vehiclesLevelFrom}}–{{vehiclesLevelTo}} disputate sulle mappe {{@ colorLegacy 'FFE4C0'}}Normandia, Kraftwerk{{/}} e {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Gli attaccanti devono distruggere 3 dei 5 cannoni di grosso calibro, mentre i difensori devono proteggerli."
+
+msgid "main/cellLevel9/header"
+msgstr "Veicoli di livello {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "Non appena viene catturata una delle basi della seconda linea (D, E, F), potrai entrare in battaglia con un veicolo di livello {{vehiclesLevel}}."
+
+msgid "main/cellLevels/header"
+msgstr "Veicoli di livello {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "In questa modalità sono consentiti solo veicoli di livello {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}."
+
+msgid "main/cellLevels/text_9"
+msgstr "Possono entrare in battaglia solo i veicoli di livello {{vehiclesLevel}}."
+
+msgid "main/cellPass/header"
+msgstr "Pass di battaglia"
+
+msgid "main/cellPass/text"
+msgstr "Prima Linea offre una grandiosa opportunità per ottenere Punti Pass di battaglia tramite la partecipazione alle battaglie e il raggiungimento di nuovi livelli di Prima Linea."
+
+msgid "main/cellReserves/header"
+msgstr "Categorie delle Riserve di combattimento"
+
+msgid "main/cellReserves/text"
+msgstr "Sono presenti tre categorie di Riserve di combattimento, ognuna collegata a un determinato spazio. L'ordine in cui vengono sbloccate e migliorate dipende dal tipo di veicolo."
+
+msgid "main/cellScenarios/header"
+msgstr "Scenari"
+
+msgid "main/cellScenarios/text"
+msgstr "Le battaglie nella modalità Prima Linea usano uno dei seguenti scenari: {{@ colorLegacy 'FFE4C0'}}Battaglia Standard{{/}}, {{@ colorLegacy 'FFE4C0'}}Supporto operativo{{/}} o {{@ colorLegacy 'FFE4C0'}}Scherzo del destino{{/}}. Le informazioni sull'attuale scenario di battaglia sono visualizzate nella schermata di caricamento, durante il conto alla rovescia prima della battaglia o premendo il tasto Tab."
+
+msgid "main/sectionHeader"
+msgstr "Informazioni generali"
+
+msgid "page/backBtn"
+msgstr "INDIETRO"
+
+msgid "page/headerUpper"
+msgstr "PRIMA LINEA"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "A seconda del rango raggiunto, riceverai Exp di Prima Linea nonché Exp di combattimento. L'Exp di Prima Linea viene utilizzata per aumentare il tuo livello di Prima Linea. In totale, sono presenti {{@ colorLegacy 'FFE4C0'}}20 livelli{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Livelli di Prima Linea"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "I {{@ colorLegacy 'FFE4C0'}}livelli di Prima Linea{{/}} ti ricompensano con Punti Pass di battaglia, Punti Riserve di combattimento, Titoli, direttive, Ordini di riaddestramento, Licenza di tutoraggio e Libretti per equipaggio."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "I {{@ colorLegacy 'FFE4C0'}}livelli di Prima Linea{{/}} ti ricompensano con Punti Riserve di combattimento, Titoli, direttive, Ordini di riaddestramento e Libretti per equipaggio."
+
+msgid "progression/ranksSection/experience"
+msgstr "I {{@ colorLegacy 'FFE4C0'}}ranghi{{/}} non solo riflettono la tua efficacia in una particolare battaglia, ma forniscono anche un bonus all'Exp di combattimento. Questo bonus viene applicato all'esperienza base totale ottenuta con tutti i tuoi veicoli impiegati in battaglia. Non appena tu o i tuoi alleati avrete raggiunto il grado Generale, l'intera squadra riceverà un bonus alle prestazioni dell'equipaggio (livello di qualificazione primaria) da {{@ colorLegacy 'FFE4C0'}}1,5%{{/}} a {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Ranghi"
+
+msgid "progression/ranksSection/text"
+msgstr "Questa modalità dispone di un sistema a sei ranghi, in cui i giocatori progrediscono dal rango di Soldato fino al rango di Generale. Sarai promosso per prestazioni efficaci in battaglia (catturando o difendendo le basi, distruggendo gli obiettivi principali) e ottenendo esperienza. Viene conteggiata l'esperienza totale ottenuta con tutti i veicoli."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bonus all'Exp di combattimento"
+
+msgid "progression/ranksTable/captain"
+msgstr "Capitano"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bonus alle prestazioni dell'equipaggio"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Exp di Prima Linea"
+
+msgid "progression/ranksTable/general"
+msgstr "Generale"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Tenente"
+
+msgid "progression/ranksTable/major"
+msgstr "Maggiore"
+
+msgid "progression/ranksTable/private"
+msgstr "Soldato"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Sergente"
+
+msgid "progression/sectionHeader"
+msgstr "Progressione di Prima Linea"
+
+msgid "progression/text"
+msgstr "Giocando a questa modalità salirai di rango, avanzerai nella progressione di Prima Linea e otterrai ricompense."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Secondaria"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Spazio 1 per Riserva"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Spazio 2 per Riserva"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Spazio 3 per Riserva"
+
+msgid "reserveCategories/categories/main"
+msgstr "Principale"
+
+msgid "reserveCategories/categories/support"
+msgstr "Ausiliaria"
+
+msgid "reserveCategories/config/footerText"
+msgstr "Nello scenario {{@ colorLegacy 'FFE4C0'}}Scherzo del destino{{/}}, l'ordine in cui le Riserve di combattimento vengono sbloccate non dipende dal tipo di veicolo."
+
+msgid "reserveCategories/config/header"
+msgstr "Configurazioni delle riserve per tipo di veicolo"
+
+msgid "reserveCategories/config/text"
+msgstr "Negli scenari {{@ colorLegacy 'FFE4C0'}}Battaglia Standard{{/}} e {{@ colorLegacy 'FFE4C0'}}Supporto operativo{{/}}, sono disponibili tutti e tre gli spazi delle Riserve di combattimento per tutti i tipi di veicoli. Tuttavia, l'ordine in cui vengono sbloccati dipende dal tipo di veicolo."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Cacciacarri"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Carri pesanti"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Carri leggeri"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Carri medi"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "A-SMV"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Il miglioramento fino a questo livello è possibile solo per le Riserve di combattimento {{@ colorLegacy 'FFE4C0'}}acquistate{{/}} nello scenario {{@ colorLegacy 'FFE4C0'}}Scherzo del destino{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Come sbloccare gli spazi e migliorare le Riserve di combattimento"
+
+msgid "reserveCategories/levels/text"
+msgstr "All'inizio hai a disposizione una Riserva di combattimento. Le altre si sbloccano raggiungendo i ranghi di Sergente e Tenente. Tutte e tre le Riserve saranno migliorate raggiungendo i ranghi di Capitano e Maggiore."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "Livello {{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} o {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Capitano"
+
+msgid "reserveCategories/ranks/general"
+msgstr "Generale"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Tenente"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Maggiore"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Sergente"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Soldato"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Scherzo del destino"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "In battaglia, i giocatori possono scegliere tra Riserve casuali che sono disponibili per veicoli di tutti i tipi. Posizionare una Riserva in uno spazio prima della battaglia aumenta la possibilità di ottenerla durante lo scontro del {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Acquistare una Riserva aumenterà il suo livello a {{@ colorLegacy 'FFE4C0'}}II{{/}} e fornisce l'opportunità di migliorarla fino a livello {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Scenari di Prima Linea"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Battaglia Standard"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Si applicano le regole standard di Prima Linea. Le condizioni per l'utilizzo delle Riserve di combattimento sono invariate."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Supporto operativo"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Dopo lo sblocco di una Riserva: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Dopo il ritorno in battaglia: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Uno scenario più adrenalinico con tempo di ricarica delle Riserve di combattimento ridotto:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Le battaglie nella modalità Prima Linea usano uno dei seguenti scenari: {{@ colorLegacy 'FFE4C0'}}Battaglia Standard{{/}}, {{@ colorLegacy 'FFE4C0'}}Supporto operativo{{/}} o {{@ colorLegacy 'FFE4C0'}}Scherzo del destino{{/}}. Gli scenari cambiano le condizioni di utilizzo delle Riserve di combattimento in battaglia. Le informazioni sull'attuale scenario di battaglia sono visualizzate nella schermata di caricamento, durante il conto alla rovescia prima della battaglia o premendo il tasto Tab."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Categorie delle Riserve di combattimento"
+
+msgid "reserveCategories/text"
+msgstr "Le Riserve di combattimento sono divise in tre categorie composte da tre Riserve ciascuna. Quando entri in battaglia, puoi posizionare solo una Riserva di una categoria nello spazio corrispondente."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Riserve Attacco"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Riserve Ricognizione"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Riserve tattiche"
+
+msgid "reserves/sectionHeader"
+msgstr "Riserve rapide"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Inizio rapido"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Il tempo di preparazione delle Riserve di combattimento viene abbreviato del 50% all'inizio della battaglia."
+
+msgid "reserves/sectionReload/header"
+msgstr "Disponibilità immediata"
+
+msgid "reserves/sectionReload/text"
+msgstr "Le Riserve di combattimento saranno pronte per l'uso non appena si sbloccheranno."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Nuova energia"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Il tempo di preparazione per le Riserve di combattimento è ridotto del 70% quando si torna in battaglia con un nuovo veicolo."
+
+msgid "rules/backToFight/header"
+msgstr "Ritorno alla battaglia"
+
+msgid "rules/backToFight/text"
+msgstr "Se il tuo veicolo viene distrutto, seleziona qualsiasi altro veicolo tra quelli disponibili e torna sul campo di battaglia per continuare a combattere per la vittoria. Puoi selezionare una delle varie aree di dispiegamento (punti di rischieramento) sui fianchi, nonché nelle retrovie, che ti aiuteranno a stabilire i tuoi piani di battaglia. I giocatori in difesa hanno a disposizione più punti di rischieramento dietro le proprie linee tra cui scegliere, grazie ai quali si potranno lanciare in difesa dei cannoni di grosso calibro in caso di sfondamento improvviso. Il sistema prevede anche un indicatore speciale che avvisa i giocatori nel caso in cui l'area selezionata per lo schieramento fosse pericolosa."
+
+msgid "rules/base/header"
+msgstr "Cattura della base"
+
+msgid "rules/base/textBottom"
+msgstr "Danneggiare un veicolo (o i suoi moduli) durante la cattura di una base non ne azzera i progressi di cattura, ma li sospende temporaneamente. Per azzerare la cattura di una base, i difensori devono distruggere i veicoli nemici all'interno del cerchio di cattura della base o costringerli ad abbandonarlo. La squadra in difesa non può catturare nuovamente una base conquistata dagli attaccanti."
+
+msgid "rules/base/textTop"
+msgstr "La {FFE4C0_Start}squadra attaccante{FFE4C0_End} deve catturare le basi in sequenza per raggiungere gli obiettivi principali: una base catturata aggiunge altri 2 minuti alla durata della battaglia, mentre la cattura dell'ultima base ne aggiunge altri 4."
+
+msgid "rules/sectionHeader"
+msgstr "Regole generali"
+
+msgid "rules/service/header"
+msgstr "Cerchi di rifornimento"
+
+msgid "rules/service/text"
+msgstr "I Cerchi di rifornimento ripristinano gli HP dei veicoli, curano tutti i membri dell'equipaggio feriti e riforniscono la scorta di munizioni. {FFE4C0_Start}La velocità di ripristino è la seguente: 100 HP / un membro dell'equipaggio / 10%{FFE4C0_End} di munizioni al secondo."
+
+msgid "rules/weapons/header"
+msgstr "Obiettivo: 3 dei 5 Cannoni di grosso calibro"
+
+msgid "rules/weapons/list/back"
+msgstr "Corazza posteriore: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "La corazza frontale e quella del tetto {{@ colorLegacy 'FFE4C0'}}non possono essere perforate{{/}} dai proiettili."
+
+msgid "rules/weapons/list/sides"
+msgstr "Corazza laterale: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Corazza laterale: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Punti vulnerabili: {{@ colorLegacy 'FFE4C0'}}porta (70 mm) e ventilazione (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Ci sono cinque torrette posizionate nelle retrovie del territorio della squadra in difesa e rappresentano gli obiettivi primari della battaglia. La squadra in attacco deve distruggere 3 torrette, mentre i difensori devono proteggerle a tutti i costi."
+
+msgid "subTitle/differentMonth"
+msgstr "dal {{@ colorLegacy 'FFE4C0'}}{{from}} {{startMonth}} {{/}} al {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}} {{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "dal {{@ colorLegacy 'FFE4C0'}}{{from}} {{startMonth}} {{startYear}}{{/}} al {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}} {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "dal {{@ colorLegacy 'FFE4C0'}}{{from}} {{/}} al {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "I settori A, B e C {{@ colorLegacy 'FFE4C0'}}della prima linea{{/}} rappresentano i punti di inizio di entrambe le squadre."
+
+msgid "winStrategy/header"
+msgstr "Strategia vincente"
+
+msgid "winStrategy/mapZones"
+msgstr "La mappa di questa modalità è suddivisa in tre linee di difesa orizzontali:"
+
+msgid "winStrategy/secondLine"
+msgstr "Una volta catturati i settori della prima linea, la battaglia procede ai settori D, E ed F {{@ colorLegacy 'FFE4C0'}}della seconda linea{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}La terza linea{{/}} non è divisa in settori: è l'area dove si svolge la fase finale della battaglia. I cannoni di grosso calibro sono posizionati qui, e la loro distruzione assegna la vittoria alla squadra attaccante. Gli attaccanti possono accedere agli obiettivi principali solo dopo essere riusciti a catturare almeno un settore della seconda linea. Una volta che un settore viene perso, i giocatori in difesa hanno 1 minuto per abbandonarlo prima che venga bombardato. Un'incursione aerea colpirà tutti i difensori rimasti nel settore. Anche qualsiasi attaccante che proverà a raggiungere i settori della seconda o terza linea senza catturare i settori precedenti verrà distrutto da un'incursione aerea."

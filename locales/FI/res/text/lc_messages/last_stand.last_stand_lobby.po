@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Taistele siitä huolimatta"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Ota käyttöön!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Taktiset laitteet eivät ole valmiita"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Valitsemaltasi vaunulta puuttuu yksi tai useampia taktisia laiteitta. Tämä voi vaikuttaa merkittävästi suorituskykyyn taistelussa. Lähde taisteluun siitä huolimatta?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Voit muokata tapahtuman oletusarvoisia näppäinkomentoja ammuksille ja taktisille laitteille.\nTämä muutos koskee vain tapahtumataisteluita, eikä vaikuta muihin pelimuotoihin.\nVoit yhä muokata yksittäisiä näppäinkomentoja: Valikko – Asetukset – Ohjaimet (kulutustarvikkeiden alla)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Kulutustarvikkeen näppäinkomennon esiasetuksen muutos"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Suorita tämä tehtävä saadaksesi ainutlaatuinen \"Viimeiseen mieheen: Operaatio Pandora\" -arvomerkki:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Eeppinen suoritus -tehtävä"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Tutkittuna pienentää kaikkien taktisten laitteiden {EDCB9E_Start}mirium-hintaa{EDCB9E_End} {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Mirium-tehokkuus"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Tutkittuna lisää {EDCB9E_Start}taktisten laitteiden vaikutuksen kestoa{EDCB9E_End} {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Laitteen vaikutuksen kesto"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Tutkittuna lisää {EDCB9E_Start}taktisten laitteiden vaikutusaluetta{EDCB9E_End} {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Laitteen vaikutusalue"
+
+msgid "booster/booster_heal/description"
+msgstr "Tutkittuna tehostaa kaikkia vaunuun kohdistuvia {EDCB9E_Start}parannusvaikutuksia{EDCB9E_End} {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Parannusvaikutukset"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Tutkittuna lisää {EDCB9E_Start}obeliskien välittämän vahingon{EDCB9E_End} määrää vihollisvaunuihin {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Obeliskien välittämä vahinko"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Tutkittuna kasvattaa {EDCB9E_Start}miriumin poimintasädettä{EDCB9E_End} vihollisilta {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Miriumin poimintasäde"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Tutkittuna kasvattaa tuhoutuneilta vihollisvaunuilta {EDCB9E_Start}kerätyn miriumin määrää{EDCB9E_End} {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Miriumin kerääminen"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Tutkittuna kasvattaa aallon tuhoamisesta saatavaa {EDCB9E_Start}miriumin määrää{EDCB9E_End} {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Miriumia per aalto"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Tutkittuna kasvattaa henkiin heräämisen palauttaman {EDCB9E_Start}miriumin määrää{EDCB9E_End} {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Miriumia henkiin herätessä"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Tutkittuna kasvattaa {EDCB9E_Start}vaunun mirium-kapasiteetin maksimia{EDCB9E_End} {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Mirium-kapasiteetti"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "PUOLUSTAJAN PAKETTI"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Avaimia ostettu"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Mahdollisuus ansaita x5 kokemuspisteet päivän toisesta voitosta alkaen millä hyvänsä vaunulla."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Tehtävä x5 taistelussa ansaittuun kokemukseen"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Konfiguroi vaunujen näkyminen niiden tyypin, kansakunnan ja muiden parametrien mukaan."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Suodata param. mukaan"
+
+msgid "common/back"
+msgstr "TAKAISIN"
+
+msgid "common/close"
+msgstr "SULJE"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "x{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "TAPAHTUMAAN"
+
+msgid "common/toRewardPath"
+msgstr "EDISTYMISEEN"
+
+msgid "common/yes"
+msgstr "Selvä!"
+
+msgid "difficult/daily"
+msgstr "PÄIVITTÄISET AVAINTEHTÄVÄT AVATTU"
+
+msgid "difficult/disabled/body"
+msgstr "Olet osastossa. Vain komentaja voi vaihtaa vaikeustasoa."
+
+msgid "difficult/disabled/header"
+msgstr "Vaikeustason vaihtaminen ole saatavilla"
+
+msgid "difficult/level_1"
+msgstr "Tavallinen"
+
+msgid "difficult/level_2"
+msgstr "Edistynyt"
+
+msgid "difficult/level_3"
+msgstr "Brutaali"
+
+msgid "difficult/new"
+msgstr "UUTTA"
+
+msgid "difficult/searching/body"
+msgstr "Ei saatavilla haun aikana."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Vihollisilla on vähemmän kestoa ja heikompi panssari. Tavanomainen määrä dataa per taistelu."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Vihollisilla on vahvempi panssarointi. Per taistelu saadun datan määrä kasvaa {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Vihollisia on enemmän ja niillä on vahvempi panssarointi. Per taistelu saadun datan määrä kasvaa {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Palkinnot viimeisen aallon tuhoamisesta ensimmäisen kerran:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Tavallinen vaikeustaso"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Edistynyt vaikeustaso"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Brutaali vaikeustaso"
+
+msgid "difficult/tooltip/locked"
+msgstr "Vaikeustaso lukittu"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Avataksesi tämän vaikeustason sinun tulee suorittaa tavallinen vaikeustaso."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Avataksesi tämän vaikeustason sinun tulee suorittaa edistynyt vaikeustaso."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Vaikeustaso saatavilla"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Vaikeustaso valittu"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Aaltoja tuhottu: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "TAVALLINEN"
+
+msgid "difficult/uppercase/level_2"
+msgstr "EDISTYNYT"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTAALI"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Vihollisilla on vahvempi panssarointi. Enemmän krediittejä ja x{{modifier}} dataa per taistelu."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Enemmän vihollisia ja niillä vahvempi panssarointi. Enemmän krediittejä ja x{{modifier}} dataa per taistelu."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Taistele vihollisaaltoja vastaan ja päihitä niitä ja näytä osaamistasi saavuttamalla tuloslistan huippu. Ainutlaatuiset palkinnot ja paljon muuta odottavat sinua."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "EDISTYNYT VAIKEUSTASO"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "BRUTAALI VAIKEUSTASO"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "VIIMEISEEN MIEHEEN -PELIMUOTO"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "EDISTYNYT"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTAALI"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "\"VIIMEISEEN MIEHEEN\""
+
+msgid "difficultyWindow/rewards"
+msgstr "Palkinnot suorittamisesta:"
+
+msgid "difficultyWindow/title"
+msgstr "SAATAVILLA"
+
+msgid "hangar/exit"
+msgstr "POISTU TAPAHTUMASTA"
+
+msgid "hangar/narration"
+msgstr "Tarina"
+
+msgid "hangar/tooltip/about"
+msgstr "Saa lisätietoa \"Viimeiseen mieheen: Terra Nord\" -tapahtumasta."
+
+msgid "hangar/tooltip/narration"
+msgstr "Etsi lisää tietoa tapahtuman tarinasta"
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TAKTISET LAITTEET"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "VARUSTUS"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Viimeiseen mieheen"
+
+msgid "iconButton/comparison/default"
+msgstr "Vaunuvertailu"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Vaunuvertailu ei ole saatavilla"
+
+msgid "iconButton/preview/default"
+msgstr "Esikatsele vaunua"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Vaunun esikatselu ei ole saatavilla"
+
+msgid "keyCard/name"
+msgstr "SALAUSAVAIMET"
+
+msgid "meta/btn/decrypt"
+msgstr "PURA SALAUS"
+
+msgid "meta/btn/skip"
+msgstr "OHITA"
+
+msgid "meta/btn/view"
+msgstr "NÄYTÄ"
+
+msgid "meta/receive/description"
+msgstr "Kerää %(keys) / %(decrypt) %(icon) \n purkaaksesi tämän tallenteen salauksen"
+
+msgid "metaIntro/description/fight"
+msgstr "Taistele tapahtumataisteluissa ja ansaitse dataa edetäksesi läpi edistymisen."
+
+msgid "metaIntro/description/progress"
+msgstr "Kerää dataa tutkiaksesi vaunupäivityksiä ja pystyäksesi vastaamaan suurempiin haasteisiin."
+
+msgid "metaIntro/description/reward"
+msgstr "Suorita edistymisen vaiheet saadaksesi tapahtuman erikoispalkintoja. Tutustu palkintopolkuun saadaksesi lisätietoja."
+
+msgid "metaIntro/header/fight"
+msgstr "Tapahtumataistelut"
+
+msgid "metaIntro/header/progress"
+msgstr "Päivitykset"
+
+msgid "metaIntro/header/reward"
+msgstr "Ainutlaatuiset palkinnot"
+
+msgid "metaIntro/title"
+msgstr "EDISTYMINEN"
+
+msgid "missionWidget/complete"
+msgstr "Tehtävä suoritettu.\nPalaa huomenna."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Suorita nykyinen päivittäinen tehtävä, joka on saatavilla joka 24. tunti saadaksesi palkinnon. Tämän päivän tehtävä:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Päivittäinen tehtävä"
+
+msgid "narration/actions/voiceover"
+msgstr "Ääninäyttely"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}HUIPPUSALAINEN{{/}}{{titleParagraph}}{{@ class $highlightText}}SEKTORI: N-07 (\"Aurora\" -alue){{/}}{{pargraphStart}}Ennustuksemme oli oikea. Aseman tarkkailijat saivat selville anomalian lähestyvän 11 päivää ennen tapahtumaa. Ensimmäisen kerran tiesimme sen olevan tulossa.{{pargraphStart}}Tyvenessä ennen myrskyä ATLAS-kompleksien tuotanto standardoitiin. Uudet moduulit kootaan nopeammin ja kalibroidaan tarkemmin. Koulutimme väkeä, harjoittelimme muodostelmia ja valmistelimme reservijoukkueita. Täysi hälytystila.{{pargraphStart}}Mutta anomalialla oli omat suunnitelmansa.{{pargraphStart}}Suppilo ei auennut ennustetulle sektorille. Se ilmestyi tänne, kaukaiselle pohjoiselle alueelle kauas valmiista infrastruktuurista. Ei ole selvää, miksi tämä sijainti tuli valituksi. Mikään malleissa ei ollut osoittanut tänne. Joukkoja alettiin siirtää välittömästi, mutta maasto ja etäisyys haittaavat meitä. Osa vaunuista ja joukkueista saapui myöhässä.{{pargraphStart}}Jokainen ATLAS-kompleksi, jonka onnistuimme saamaan paikalle on nyt korvaamaton.{{pargraphStart}}Tällä kertaa olimme valmiita taisteluun. Mutta taisteluun toisaalla.{{pargraphStart}}ALLEKIRJOITUS: KURAATTORI (PROJEKTI M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}ANALYYSIMUISTIO 27/C \"INVAASION PAIKAN VALINTA\"{{/}}{{titleParagraph}}Sisäiseen käyttöön. \"Rajoitettu pääsy\" -leimaus.{{pargraphStart}}Kysyn kysymyksen, johon minun on vastattava, mutta en voi: miksi tänne?{{pargraphStart}}Tällä alueella ei ole minkäänlaista strategista arvoa suppilolle. Täällä ei ole mitään. Ei infrastruktuuria, ei asumuksia. Vain käyttämätön sotilastukikohta saarella. Kaikuvaunut eivät voi ylittää merta. Joten miksi siis vallata alue, josta ne eivät voi hyökätä?{{pargraphStart}}Pyysin alueen täyttä operaatiohistoriaa. Vastaus oli raskaasti salattu. Kokonaisia osioita oli mustattu. Toinen pyyntö lähetettiin takaisin viestillä \"pääsy estetty {{@ class $highlightSecondaryText}}[TIETO POISTETTU]{{/}} valtuutuksesta.\" Minulta, tutkimusosaston johtajalta, jonka suositukset määrittävät tämän sektorin puolustusstrategiaa, estetään pääsy tämän alueen tietoihin!{{pargraphStart}}Tässä, mitä olen saanut selville kenttädatan pohjalta: suppilot käytös ei vastaa sektorilla R-22 tehtyjä havaintoja. Uuden tyyppisiä kaikuvaunuja, joita emme ole kohdanneet aiemmin. Ne vastaavat tarkoitukseltaan omia pitkän matkan PST-vaunujamme ja ovat tässä maastossa äärimmäisen tehokkaita. Vihollinen on oppinut taktiikoistamme ja kehittänyt niille vastatoimia. Nyt on meidän vuoromme sopeutua.{{pargraphStart}}Se saattaa tarvita tätä paikkaa. Tai kenties jotain, mitä on sen alapuolella.{{pargraphStart}}En tiedä. Ja minua huolestuttaa, että joku tietää, mutta ei kerro.{{pargraphStart}}ALLEKIRJOITUS: KURAATTORI (PROJEKTI M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}KURAATTORIN HENKILÖKOHTAINEN MERKINTÄ{{/}}{{pargraphStart}}Olen arvioinut omat hypoteesini. Kaikki kolme.{{pargraphStart}}  1. Anomalia pyrkii tuhoamaan meidät. {{pargraphStart}}  2. Anomalia tekee kokeita. Se tutkii taktiikoitamme, opiskelee, miten vastaamme, sopeutuu ja oppii.{{pargraphStart}}  3. Anomalia harjoittelee. Jokainen aalto on sen uusien taktiikoiden harjoitus; jokainen taistelu on harjoitus kenttäolosuhteissa.{{pargraphStart}}Kaikkia kolmea hypoteesia yhdistää oletus, että olemme tämän hyökkäyksen kohde.{{pargraphStart}}Mutta entä, jos emme olekaan?{{pargraphStart}}Mitäpä, jos anomalia tekeekin jotain muuta ja me vain satumme olemaan sen tiellä? Vähän kuin muurahaispesä, joka hukkuu tien rakentamisen ohessa. Rakentaja ei käy sotaansa muurahaisia vastaan. Se ei yksinkertaisesti huomaa niitä.{{pargraphStart}}Voit pysäyttää vihollisen, joka haluaa tuhota sinut. Voit neuvotella sellaisen kanssa. Mutta et voi pelottaa jotain, joka ei edes tunnusta olemassa oloasi. Et voi päihittää sitä älyllä. Sitä ei voi pysäyttää. Koska et ollut koskaan osa se omia laskelmia.{{pargraphStart}}Luulen, että olemme kysyneet vääriä kysymyksiä. Meidän ei pitäisi kysellä, miksi se hyökkää meitä vastaan, vaan huomaako se meitä ensinkään.{{pargraphStart}}ALLEKIRJOITUS: KURAATTORI (PROJEKTI M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}LOPPURAPORTTI{{/}}{{titleParagraph}}{{@ class $highlightText}}STATUS: JULKINEN (OSITTAIN){{/}}{{pargraphStart}}Kello 03:47 suppilo romahti. Anomalian aktiviteetti lakkasi. Sektori on puhdas.{{pargraphStart}}Viimeisinä sekunteina ennen romahdusta ATLAKSEN mittarit huomasivat energiapiikin, joka ylitti kaikki aiemmin tallennetut arvot. Miehistöt näkivät lyhytaikaisen fyysisen manifestaation anomalian keskellä, joka kesti vain 12 sekuntia. Sen jälkeen suppilo sulkeutui. {{pargraphStart}}Virallinen lausunto: Tapaus on ohitse. Alueen puolustaminen onnistui. Sektori ei ole enää karanteenissa.{{pargraphStart}}{{@ class $highlightText}}KURAATTORIN HENKILÖKOHTAINEN VIESTI (vain erikoisreserveille){{/}}{{pargraphStart}}Me emme voittaneet. Se lopetti.{{pargraphStart}}Tämä ei ollut invaasio. Se oli harhautus. Suoja-alue sille, mikä manifestoitui suppilon keskuksessa sekunteja ennen sen romahdusta.{{pargraphStart}}Tusinoittain obeliskeja ilmestyi yhtäaikaisesti. Emme edelleenkään tiedä, mitä ne tekivät. ATLAS tallensi kaikki niiden parametrit, mutta niiden tulkitseminen tulee viemään aikaa. Yhden asian tiedämme varmasti: anomalia sai valmiiksi jonkinlaisen prosessin.{{pargraphStart}}Mitä ikinä se olikaan tekemässä, meidän tulee valmistautua seuraavaan hyökkäykseen. Meillä on nyt riittävästi tietoa. Insinöörimme ovat jo käymässä läpi tallenteita enkä ole rehellisesti sanottuna nähnyt heitä koskaan näin innoissaan. He uskovat, että voimme toden teolla vahvistaa vaunujamme. Meidän pitääkin tehdä niin ennen kuin suppilo palaa.{{pargraphStart}}En osaa lakata miettimästä yhtä asiaa: jos tämä tapahtui täällä ja kesti niin vähän aikaa, kuinka monta kertaa se on tapahtunut aiemmin? Paikoissa, joissa ei ollut ATLASta näkemässä, mitä tapahtui...{{pargraphStart}}ALLEKIRJOITUS: KURAATTORI (PROJEKTI M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Me olimme valmiita"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Miksi tänne?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Väärä kysymys"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Se on ohi"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Suorita tavallisella vaikeustasolla edetäksesi seuraavaan tarinan osaan."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Suorita edistyneellä vaikeustasolla edetäksesi seuraavaan tarinan osaan."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Suorita brutaalilla vaikeustasolla edetäksesi viimeiseen tarinan osaan."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Seuraava tarina"
+
+msgid "preBattle/leave"
+msgstr "Poistu taistelusta"
+
+msgid "preBattle/searching"
+msgstr "ETSITÄÄN LIITTOLAISIA..."
+
+msgid "preBattle/tip"
+msgstr "Viekö operaatiotiimin löytäminen liikaa aikaa? Koeta vaihtaa vaikeustasoa."
+
+msgid "preBattle/uppercase/leave"
+msgstr "POISTU TAISTELUSTA"
+
+msgid "promoWindow/header"
+msgstr "PELAA VIIMEISEEN MIEHEEN"
+
+msgid "promoWindow/subheader"
+msgstr "Tutki uutta Viimeiseen mieheen PvE -pelimuotoa {dateRange} alkaen.\nAnsaitse joukko teemaan tehtyjä {cream_open}kolmiulotteisia lisävarusteita{cream_close}, kokeellisia varusteita ja muita eksklusiivisia palkintoja."
+
+msgid "questCard/allCompleted"
+msgstr "Kaikki päivittäiset tehtävät suoritettu"
+
+msgid "questCard/completed"
+msgstr "Päivittäinen tehtävä suoritettu.\nPalaa huomenna."
+
+msgid "reward/rest"
+msgstr "Ja %(count)s lisää"
+
+msgid "rewardPath/about"
+msgstr "TAVOITTEISTA"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Opi lisää tapahtuman edistymisestä."
+
+msgid "rewardPath/boostTitle"
+msgstr "Vauhdita edistymistäsi ja ansaitse enemmän dataa {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Näytä Kaupassa"
+
+msgid "rewardPath/completed"
+msgstr "Kaikki data ja palkinnot saatu"
+
+msgid "rewardPath/completedTitle"
+msgstr "Vieraile Kaupassa tutustumassa ainutlaatuisiin, teemaan tehtyihin muokkauselementteihin"
+
+msgid "rewardPath/intro"
+msgstr "JOHDANTO"
+
+msgid "rewardPath/introTooltip"
+msgstr "Katso esittelyvideo."
+
+msgid "rewardPath/progress"
+msgstr "Data saatu VAIHEESTA {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "EDISTYMINEN"
+
+msgid "rewardPathCard/completed"
+msgstr "Suoritettu"
+
+msgid "rewardPathCard/name"
+msgstr "Palkintopolku"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Tapahtumapaketit"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Peruuta"
+
+msgid "squad/goToAnother/message"
+msgstr "Osasto lakkautetaan."
+
+msgid "squad/goToAnother/submit"
+msgstr "Poistu"
+
+msgid "squad/goToAnother/title"
+msgstr "Poistu \"Viimeiseen mieheen: Terra Nord\" -tapahtumasta?"
+
+msgid "squad/leave/cancel"
+msgstr "Peruuta"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Osasto lakkautetaan."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Selvä!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "\"Viimeiseen mieheen: Terra Nord\" -tapahtuma on päättynyt"
+
+msgid "squad/leave/message"
+msgstr "Osasto lakkautetaan."
+
+msgid "squad/leave/submit"
+msgstr "Poistu"
+
+msgid "squad/leave/title"
+msgstr "Poistu \"Viimeiseen mieheen: Terra Nord\" -tapahtuman osastosta?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Jatka"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Olet osastossa ja valmiina taistelemaan."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Et voi poistua osastosta!"
+
+msgid "stageReward/rewards/received"
+msgstr "Myös saatu:"
+
+msgid "stageReward/special/header"
+msgstr "BRUTAALI VAIKEUSTASO SUORITETTU!"
+
+msgid "stageReward/special/subheader"
+msgstr "Erikoispalkinto saatu"
+
+msgid "stageReward/stage/header"
+msgstr "PALKINTOJA SAATU"
+
+msgid "stageReward/stage/subheader"
+msgstr "Viimeiseen mieheen: Vaihe {{number}} suoritettu"
+
+msgid "stageReward/stageFinal/header"
+msgstr "KAIKKI PALKINNOT SAATU"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Viimeiseen mieheen: viimeinen vaihe suoritettu"

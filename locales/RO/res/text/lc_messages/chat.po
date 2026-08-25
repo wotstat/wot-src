@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT prevodilac <noreply@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "General"
+
+msgid "channels/battle/team"
+msgstr "Echipă"
+
+msgid "channels/clan"
+msgstr "Clan"
+
+msgid "channels/common"
+msgstr "General"
+
+msgid "channels/epic_training"
+msgstr "Antrenament - Front"
+
+msgid "channels/nubs"
+msgstr "Recruţi"
+
+msgid "channels/prebattle"
+msgstr "Briefing"
+
+msgid "channels/special_battles"
+msgstr "Luptă specială"
+
+msgid "channels/squad"
+msgstr "Pluton"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Plutonul a fost creat. Așteaptă până sunt pregătiți jucătorii."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Pluton"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Plutonul a fost creat. Toți jucătorii sunt pregătiți."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Pluton"
+
+msgid "channels/system"
+msgstr "Sistem"
+
+msgid "channels/tournament"
+msgstr "Turneu"
+
+msgid "channels/trading"
+msgstr "Tranzacţii"
+
+msgid "channels/training"
+msgstr "Antrenament"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Administratorul chat-ului este şi moderator pe canal."
+
+msgid "errors/addmoderatorowner"
+msgstr "Proprietarul canalului este şi moderator pe canal."
+
+msgid "errors/banchannelowner"
+msgstr "Proprietarul canalului nu poate fi eliminat."
+
+msgid "errors/banchatadmin"
+msgstr "Administratorul chat-ului nu poate fi eliminat."
+
+msgid "errors/banned"
+msgstr "Ai fost eliminat de către %(banOwnerNick)s până la %(banEndTime)s. Motiv: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Ai fost eliminat de către %(banOwnerNick)s . Motiv: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Ai fost eliminat până la %(banEndTime)s. Motiv: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Ai fost eliminat. Motiv: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Comanda %(command)s a fost blocată pentru %(cooldownPeriod)s secunde."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Drepturile de moderare ale administratorului nu pot fi eliminate."
+
+msgid "errors/delmoderatorowner"
+msgstr "Drepturile de moderare ale proprietarului canalului nu pot fi eliminate."
+
+msgid "errors/timeincorrect"
+msgstr "Parametrul \"timp\" trebuie să fie între 1 şi 1440 de minute sau \"permanent\"."
+
+msgid "errors/toomanyargs"
+msgstr "Prea mulţi parametri."
+
+msgid "errors/toosmallargs"
+msgstr "Număr insuficient de parametri."
+
+msgid "errors/userbanhimself"
+msgstr "Nu te poţi elimina pe tine însuţi."
+
+msgid "messages/userbanned"
+msgstr "%(banedUser)s a fost eliminat de către %(banOwnerNick)s până la %(banEndTime)s. Motiv: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "%(banedUser)s a fost eliminat de către %(banOwnerNick)s. Motiv: %(banReason)s"

@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "Byggeværkstedet er åbent igen!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "Vi påbegynder arbejdet på det næste projekt. Vi giver dig besked, når udviklingen er fuldført. Vi ses snart!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "Byggeværkstedet lukker"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "Levering af køretøjer med numre fuldført. Vi påbegynder byggeriet af %(vehicle)s i en standard konfiguration. Tøv ikke — antallet af køretøjer er begrænset!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "Byggeri af køretøjer fuldført. Alle køretøjer leveret til deres ejere."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Byggeværksteds-rapport"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "Levering af %(soldOutVehicle)s fuldført. Du har stadig mulighed for at købe %(availableVehicle)s. Hvis du har tildelt ressourcer, men ikke får fuldført købet i tide, vil de blive tilbageført til din konto. Tøv ikke — antallet af køretøjer er begrænset!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "Byggeri af køretøjer fuldført. Alle køretøjer leveret til deres ejere. Alle tildelte ressourcer vil blive tilbageført til din konto om kort tid."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "Kommandør, du har mulighed for at blive ejer af en %(vehicle)s med en nummeret 3D-stil. Antallet af køretøjer er begrænset!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "Byggeværkstedet er midlertidigt utilgængelig på grund af vedligeholdelse."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "Stilnummer: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "Den unikke %(vehicle)s modtaget fra Byggeværkstedet."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "%(vehicle)s modtaget!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "%(vehicle)s modtaget fra Byggeværkstedet."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "Byggeværkstedet åbner"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "Kommandør, dette er din mulighed for at få fingre i %(firstVehicle)s og %(secondVehicle)s! Men tøv ikke — beholdningen er begrænset!"

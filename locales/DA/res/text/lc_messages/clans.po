@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Klan chat"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Klik for at skrive og sende en besked til klanchatten."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Klan chat"
+
+msgid "clan/header/creationDate"
+msgstr "Oprettet den %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Ansøgninger og invitationer"
+
+msgid "clan/header/requestSent"
+msgstr "Ansøgning afsendt"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Indsend ansøgning"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Klik for at indsende din ansøgning til denne klan."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Indsend ansøgning"
+
+msgid "clan/post/combatOfficer"
+msgstr "Kampofficer"
+
+msgid "clan/post/commander"
+msgstr "Kommandør"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Ledende officer"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Efterretningsofficer"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Juniorofficer"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Personnelofficer"
+
+msgid "clan/post/private"
+msgstr "Menig"
+
+msgid "clan/post/quartermaster"
+msgstr "Kvartermester"
+
+msgid "clan/post/recruit"
+msgstr "Rekrut"
+
+msgid "clan/post/recruiter"
+msgstr "Rekrutteringsofficer"
+
+msgid "clan/post/reservist"
+msgstr "Reservist"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Fejl i visning af navnet"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Data på listen er blevet opdateret"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Krav til rekruttering"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Kan ændres"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Klanen har ikke nogen afventende ansøgninger."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Klanen har ikke nogen udløbne ansøgninger."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Inviter til klan"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Klik %(invite)s for at sende invitationer\ntil nye spillere."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Klanen sendte ikke nogen invitationer i de sidste 28 dage."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Klanen har ikke nogen afventende invitationer fra de sidste 28 dage."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Klanen har ikke nogen udløbne invitationer fra de sidste 28 dage."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Klanen har ikke nogen behandlede invitationer fra de sidste 28 dage."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Klanen har ikke nogen behandlede ansøgninger."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Ingen data modtaget fra server. \nPrøv igen senere."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Serverfejl"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Afventer (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Alle (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Udløbet (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Afgørelse modtaget (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Behandlet (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Frie positioner i klanen: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Inviter til klan"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Du har tre dage til at behandle en ansøgningen om at gå med i klanen. Ansøgninger og invitationer er gemt i 28 dage og derefter automatisk slettet."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Kan ikke invitere spillere: Klanen er fuld."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Kan ikke invitere spillere: Klanens rekruttering er lukket på nuværende tidspunkt."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Accepteret"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d d til at behandle"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Afvist"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Fejl"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Udløbet"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d t til at behandle"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d min til at behandle"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Sendt"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Invitationer (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Ansøgninger (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Handlinger"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Invitér"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Sendt"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Vis mere"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Status"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Spiller"
+
+msgid "clanInvitesWindow/title"
+msgstr "Ansøgninger og invitationer"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Klik for at invitere spillere til klanen."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Efter invitation fra:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Invitation accepteret."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Invitation afvist."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Invitation sendt."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Sender:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Denne knap vil blive aktiv når der modtages ny data fra serveren."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Klik for at vise nye ansøgninger og invitationer."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Genindlæs listen"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Beslutningstager:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Ansøgning accepteret."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Ansøgning afvist."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Ansøgning udløbet"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Ansøgning afsendt."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Kan ikke tilføje nye spillere: Klanen er fuld."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Spilleren har forladt en klan for nyligt. Du kan først tilføje dem til klanen efter:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Kan ikke invitere nye spillere: Klanen er fuld."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Gennemsnitlig xp per kamp hos den spiller som fik invitationen (inklusiv premium konto)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Gennemsnitlig xp per kamp"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Kampe deltaget i af spilleren der fik invitationen."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Kampe"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Klik for at invitere denne spiller til klanen."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Besked vedlagt med invitationen fra klanen."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Besked"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Personlig rating hos den spiller som invitationen blev sendt til."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Personlig rating"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Dato og tid da klan invitationen blev sendt."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Sendt"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Klan invitationsstatus.\nEn invitation kan være afventende, udløbet eller behandlet."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Status"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Navn på den spiller som invitationen blev sendt til."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Spiller"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Sejrsrate på spilleren som invitationen blev sendt til."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Sejre"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "En ansøgning kan enten accepteres eller afvises."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Handlinger"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Gennemsnitlig xp per kamp hos den spiller som sendte ansøgningen (inklusiv premium konto)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Gennemsnitlig xp per kamp"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Samlet antal kampe deltaget i af spilleren som sendte ansøgningen"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Kampe"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Besked fra spilleren vedlagt deres ansøgning"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Besked"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Personlig rating hos den spiller som sendte ansøgningen."
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Personlig rating"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Klan ansøgningsstatus.\nEn ansøgning kan være afventende, udløbet eller behandlet."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Status"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Navn på den spiller som sendte ansøgningen."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Spiller"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Sejrsrate på spilleren som sendte ansøgningen"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Sejre"
+
+msgid "clanLanding/notification/archived"
+msgstr "Beskeden blev sendt til arkivet."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Teknisk fejl: kunne ikke fuldføre handlingen med beskeden."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Besked fjernet."
+
+msgid "clanLanding/notification/edited"
+msgstr "Besked skrevet."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Det maksimale antal karakterer er blevet overskredet."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Det maksimale antal beskeder er allerede blevet skrevet i klanen."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Utilstrækkelig tilladelse til at håndtere klanbeskeder: din position blev ændret."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Beskeden blev fjernet eller sendt til arkivet."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Beskeden indeholder udtryk, der overtræder <a href=\"event:clanRulesLink\">klanreglerne</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Afventende invitationer: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Afvis valgte (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Mine klan invitationer"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Modtager data..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Du har endnu ikke nogen invitationer til klaner."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Vælg alle ansøgninger"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Handlinger"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Klan navn"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Status"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Klan invitationer"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Du vil være i stand til at opdatere listen efter modtagelse af ny data."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Klik for at opdatere tabellen."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Du har for nylig forladt en klan. Du kan først acceptere invitationer efter:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Gennemsnitlig xp per kamp hos klanmedlemmer der sendte invitationen (vægtet gennemsnit på tværs af standard kampe kamptypen)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Gennemsnitlig xp per kamp"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Gennemsnitlig antal kampe som de klanmedlemmer har deltaget i, der sendte invitationen (kun i standard kamp typen)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Klans kampe"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Navn på den klan som sendte dig en invitation"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Klan navn"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Besked fra klanen som sendte dig en invitation"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Besked"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Samlet rating på den klan som sendte dig en invitation"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Klan rangering"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Vis klan invitationsstatus og tilbageværende tid til at behandle den invitation"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Status"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Sejrsrate på medlemmer af klanen som sendte invitationen (vægtet gennemsnit på tværs af standard kamp typen)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Klan sejre"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Du kan entet acceptere eller afvise invitationen. Ved at acceptere en invitation, vil du automatisk afvise invitationer fra andre klaner."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Handlinger"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Klan profil"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Luk"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Velkommen til klanen!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Nu kan du deltage i kampe på det globale kort, bygge og forsvare din befæstning og fuldføre særlige missioner."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Bulletin"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Din klan: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Vi beklager ulejligheden. Prøv venligst igen senere."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Befæstning er midlertidigt utilgængelig"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Vi beklager ulejligheden.\nPrøv igen senere."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Fejl i indlæsning af data"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Klan profil"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Befæstning"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Globalt kort"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Klanmedlemmer"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Befæstning"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Resumé"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Inviter spiller til klan"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Handling utilgængelig. Du kan kun invitere spillere til klanen en efter en."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Tilføj alle kontakter til listen af modtagere."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Kampe i de sidste 28 dage"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Fremrykninger i de sidste 28 dage"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Klan kommandør"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Endnu ikke oprettet"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Ingen kampe deltaget i.\nIngen provinser ejet."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Niveau af befæstning"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Skatkammer"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Ingen kampe deltaget i"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Provinser"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo rangering X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo rangering VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo rangering VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Træfninger i de sidste 28 dage"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Samlet antal medlemmer"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Detaljer"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Detaljer"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Indsend ansøgning"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Klanen har ikke noget motto."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Detaljer for globalt kort"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Gå til kort"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Detaljer er midlertidigt utilgængelige."
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Kan ikke gå med i klanen."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Gennemse krav til rekruttering %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Du er allerede medlem\naf en anden klan."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Du har allerede modtaget en invitation\ntil at gå med i denne klan."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Midlertidigt begrænset"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Midlertidigt begrænset"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Denne klan tager ikke imod ansøgninger %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Ansøgning afsendt."
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Synkroniserer data..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Klans Elo rangering i division X fremrykninger"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo rangering X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Klans Elo rangering i division VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo rangering VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Klans Elo rangering i division VIII fremrykninger"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo rangering VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Klans fremrykninger i de sidste 28 dage"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Fremrykninger i de sidste 28 dage"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Befæstnings niveau er lig med dens kommandocenters niveau."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Niveau af befæstning"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Klans træfninger i de sidste 28 dage"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Træfninger i de sidste 28 dage"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Klans Elo rangering i division X kampe på det globale kort"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo rangering X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Klans Elo rangering i division VI kampe på det globale kort"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo rangering VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Klans Elo rangering i division VIII kampe på det globale kort"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo rangering VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Klans kampe på det globale kort i de sidste 28 dage"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Kampe i de sidste 28 dage"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Provinser på det globale kort ejet af klanen."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Provinser"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Maksimalt antal ansøgninger sendt."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Kan ikke indsende ansøgning"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Maksimalt antal ansøgninger sendt."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Kan ikke indsende ansøgning"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Klan tager ikke imod ansøgninger."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Kan ikke indsende ansøgning"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Klanens rating er ikke blevet opdateret i de sidste 28 dage."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Forældet information"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Samlet rating afhænger af klanens effektivitet i befæstnings kamptypen og på det globale kort."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Samlet rating"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Samlet rating"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Klan profil"
+
+msgid "globalMap/disabled"
+msgstr "Kampe på det globale kort er i øjeblikket\nutilgængelige i din region"
+
+msgid "globalMapView/level10"
+msgstr "Niveau X"
+
+msgid "globalMapView/level6"
+msgstr "Niveau VI"
+
+msgid "globalMapView/level8"
+msgstr "Niveau VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Denne provins optjener ikke indkomst til dig, da forbindelsen til kommandocentret gik tabt eller provinsen blev plyndret."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Optjener ikke indkomst"
+
+msgid "globalMapView/noProvince"
+msgstr "Klanen ejer ikke nogen provinser."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Populær prime time: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Det globale kort er en slagmark hvor klaner konkurrerer om strategisk overlegenhed. Klanofficerer bruger det meste af deres tid her, ved at planlægge taktikker og indsætte styrker for strategiske manøvrer."
+
+msgid "globalMapView/promo/header"
+msgstr "Globalt kort"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Detaljer for globalt kort"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Gå til kort"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Kampe"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Samlet antal kampe i division X på det globale kort"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Kampe"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo rangering"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Klans rangering i division X kampe på det globale kort"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo rangering"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Favorit kort"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Kortet på hvilket klanen deltog i de fleste division X kampe i de sidste 28 dage."
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Favorit kort: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Position i rangering"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Klans position i rangering i division X kampe på det globale kort"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Position i rangering"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Sejre"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Samlet sejrsrate i division X kampe på det globale kort"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Sejre"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Kampe"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Samlet antal kampe i division VI på det globale kort"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Kampe"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo rangering"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Klans rangering i division VI kampe på det globale kort"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo rangering"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Favorit kort"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Kortet på hvilket klanen deltog i de fleste division VI kampe i de sidste 28 dage."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Favorit kort: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Position i rangering"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Klans position i rangering i division VI kampe på det globale kort"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Position i rangering"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Sejre"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Samlet sejrsrate i division VI kampe på det globale kort"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Sejre"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Kampe"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Samlet antal kampe i division VIII på det globale kort"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Kampe"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo rangering"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Klans rangering i division VIII kampe på det globale kort"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo rangering"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Favorit kort"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Kortet på hvilket klanen deltog i de fleste division VIII kampe i de sidste 28 dage."
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Favorit kort: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Position i rangering"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Klans position i rangering i division VIII kampe på det globale kort"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Position i rangering"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Sejre"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Samlet sejrsrate i division VIII kampe på det globale kort"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Sejre"
+
+msgid "globalMapView/stats/battles"
+msgstr "Kampe på det globale kort"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Samlet antal kampe deltaget i af klanen på det globale kort"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Kampe på det globale kort"
+
+msgid "globalMapView/stats/seized"
+msgstr "Provinser ejet"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Samlet antal provinser ejet af klanen. Provinser som tidligere var ejet, men siden er blevet tabt, tælles med."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Provinser ejet"
+
+msgid "globalMapView/stats/wins"
+msgstr "Sejre på tværs af klanmedlemmer"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Samlet sejrsrate af klanmedlemmer i kampe på det globale kort"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Klans sejre"
+
+msgid "globalMapView/table/days"
+msgstr "Dage"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Periode i dage, hvor klanen ejede provinsen på det globale kort."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Dage"
+
+msgid "globalMapView/table/front"
+msgstr "Front"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Navn på den valgte front"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Front"
+
+msgid "globalMapView/table/income"
+msgstr "Indkomst"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Guld optjent af provins per dag"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Indkomst"
+
+msgid "globalMapView/table/map"
+msgstr "Kort"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Navn på det kort på hvilket kampe for provinsen udkæmpes."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Kort"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Prime time"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Planlagt tidspunkt for hvornår kampe om provinsen vil begynde."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Prime time"
+
+msgid "globalMapView/table/province"
+msgstr "Province"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Navn på den valgte provins."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Province"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Provinsen blev plyndret og vil midlertidigt ikke give dig nogen indkomst."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Tid til du begynder at modtage indkomst igen:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Provinser"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Statistik"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Klanens rating er ikke blevet opdateret i de sidste 28 dage."
+
+msgid "globalMapView/totalIncome"
+msgstr "Samlet daglig indkomst: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Gennemsnitlig\nantal kampe"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Antal kampe deltaget i, både standard kampe og kampvognskompagni kampe, som gennemsnit hos alle klanmedlemmer. Kun spillere som på nuværende tidspunkt er medlemmer af klanen tælles med."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Gennemsnitlig antal kampe klanmedlemmer har deltaget i"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Gennemsnitlig xp"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Vægtet gennemsnit af klanmedlemmers xp optjent i standard kampe og kampvognskompagni kamptyperne. Det samlede antal kampe deltaget i af hver spiller påvirker vægtningen. Kun spillere som på nuværende tidspunkt er medlem af klanen tælles med."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Gennemsnitlig xp hos klanmedlemmer"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Gennemsnitlig personlig rating"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Personlig rating som gennemsnit på tværs af alle klanmedlemmer. Kun spillere som på nuværende tidspunkt er medlemmer i klanen tælles med."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Gennemsnitlig personlig rating hos klanmedlemmer"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Gennemsnitlig sejrsrate"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Vægtet gennemsnit af klanmedlemmers sejrsrate optjent i standard kampe og kampvognskompagni kamptyperne. Det samlede antal kampe deltaget i af hver spiller påvirker vægtningen. Kun spillere som på nuværende tidspunkt er medlem af klanen tælles med."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Gennemsnitlig sejrsrate hos klanmedlemmer"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Ratio af samlet xp optjent i forhold til antal kampe deltaget i af spilleren i standard kampe og kampvognskompagni kamptyperne"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Gennemsnitlig xp"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Samlet antal standard kampe og kampvognskompagni kampe spilleren har deltaget i"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Samlet antal kampe"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Antallet af dage spilleren har været med i klanen"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Dage i klan"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Spillers personlige rating"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Personlig rating"
+
+msgid "personnelView/table/player"
+msgstr "Spiller (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Klanmedlems navn"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Spiller"
+
+msgid "personnelView/table/post"
+msgstr "Position"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Medlems rang i klanen"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Position"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Spillers sejrsrate i standard kampe og kampkompagni kamptyperne"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Sejre"
+
+msgid "personnelView/title"
+msgstr "Statistik på klanmedlemmer over standard kampe og kampe i kompagni:"
+
+msgid "search/clansList"
+msgstr "Listede klaner: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Intet fundet efter dine søgekriterier. Prøv at søge med andre søgeord."
+
+msgid "search/emptyResult/button"
+msgstr "Tilbage til liste"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Klik for at gå tilbage til listen over de fundne klaner."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Tilbage til liste"
+
+msgid "search/emptyResult/header"
+msgstr "Ingen søgeresultater"
+
+msgid "search/foundClans"
+msgstr "Klaner fundet: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Kan ikke gå med i klanen."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Kan ikke indsende ansøgning"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Klan profil"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Kan ikke indsende ansøgningen om at gå med i klanen."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Handling utilgængelig"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Du har allerede modtaget en invitation til at gå med i denne klan."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Kan ikke indsende ansøgning"
+
+msgid "search/info/ratingDescription"
+msgstr "Samlet rating"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Klans effektivitet i kampe om befæstninger og kampe på det globale kort afgør hvor meget den samlede rangering forøges."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Samlet rating"
+
+msgid "search/info/ratingTitle"
+msgstr "Statistik på tværs af alle kamptyper:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Du har allerede indsendt din ansøgning til at gå med i denne klan."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Kan ikke indsende ansøgning"
+
+msgid "search/info/requestSent"
+msgstr "Ansøgning afsendt."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Klan tager ikke imod ansøgninger."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Kan ikke indsende ansøgning"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Maksimalt antal ansøgninger sendt."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Kan ikke indsende ansøgning"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Indsend ansøgning"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Ingen serverdata modtaget. Prøv igen senere."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Serverfejl"
+
+msgid "search/info/stats/avgExp"
+msgstr "Gennemsnitlig xp"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Vægtet gennemsnit af klanmedlemmers xp optjent på tværs af alle kamptyper. Det samlede antal kampe deltaget i af hver spiller påvirker vægtningen. Kun spillere som på nuværende tidspunkt er medlem af klanen tælles med."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Gennemsnitlig xp hos klanmedlemmer"
+
+msgid "search/info/stats/battles"
+msgstr "Gennemsnitlig\nantal kampe deltaget i"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Gennemsnitlig antal kampe som klanmedlemmer har deltaget i på tværs af alle kamptyper. Kun spillere som på nuværende tidspunkt er med i klanen tælles med."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Gennemsnitlig antal kampe klanmedlemmer har deltaget i"
+
+msgid "search/info/stats/wins"
+msgstr "Gennemsnitlig sejrsrate"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Vægtet gennemsnit af klanmedlemmers sejrsrate optjent på tværs af alle kamptyper. Det samlede antal kampe deltaget i af hver spiller påvirker vægtningen. Kun spillere som på nuværende tidspunkt er medlem af klanen tælles med."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Gennemsnitlig sejrsrate hos klanmedlemmer"
+
+msgid "search/nextBtn"
+msgstr "Næste"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Klik for at vise den næste del af klanens liste."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Næste"
+
+msgid "search/previousBtn"
+msgstr "Forrige"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Klik for at vise den forrige del af klanens liste."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Forrige"
+
+msgid "search/promoText/body"
+msgstr "For at søge efter en klan, indtast dens navn eller tag i søgefeltet og klik søg."
+
+msgid "search/promoText/header"
+msgstr "Klan søgning"
+
+msgid "search/requestTooShort/body"
+msgstr "For at søge efter en klan, indtast mindst 2 karakterer i søgefeltet og prøv igen."
+
+msgid "search/requestTooShort/button"
+msgstr "Tilbage til liste"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Tilbage til liste"
+
+msgid "search/requestTooShort/header"
+msgstr "Ikke nok data"
+
+msgid "search/searchBtn"
+msgstr "Søg"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Indtast en klans navn eller tag i feltet til venstre (mindst 2 tegn)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Klan søgning"
+
+msgid "search/searchInputPrompt"
+msgstr "Indtast klans navn eller tag"
+
+msgid "search/serverUnavailable/body"
+msgstr "Ingen serverdata modtaget. Prøv igen senere."
+
+msgid "search/serverUnavailable/header"
+msgstr "Serverfejl"
+
+msgid "search/table/clan"
+msgstr "Klan"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Klan attributter: Tag og navn"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Klan"
+
+msgid "search/table/creationDate"
+msgstr "Oprettet"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Klan oprettelsesdato"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Oprettet"
+
+msgid "search/table/players"
+msgstr "Spillere"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Samlet antal klanmedlemmer"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Spillere"
+
+msgid "search/table/rating"
+msgstr "Rangering"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Klan samlet rangering"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Rangering"
+
+msgid "search/title"
+msgstr "Klan søgning"
+
+msgid "search/titleDescription"
+msgstr "Her kan du søge efter en klan, gennemse dens detaljer\nog indgive din ansøgning om at komme med. Du kan enten søge på klan navn eller tag."
+
+msgid "search/windowTitle"
+msgstr "Klan søgning"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Plan"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Statistik"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Niveau %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "ikke sat"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Våbenhvile:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Forsvarstid:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Hjemserver:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Bygninger bygget:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Neutralitet:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Flest industrielle ressourcer optjent"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Flest sejre i træk"

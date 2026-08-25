@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT prevodilac <noreply@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "actionStub/name"
+msgstr "Modificare"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Reface instantaneu %(immediatelyRestore)s din punctele de integritate ale vehiculului. Pe perioada de %(duration)s s a abilității, toate daunele suferite în urma proiectilelor și abilităților de luptă vor fi acumulate și convertite în puncte de integritate, plus încă %(restoringCoefficient)s din totalul daunelor suferite, la încheierea abilității.\n\n*Recuperarea de HP prin conversie afectează și vehiculele aliate aflate în apropiere."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Reface instantaneu %(immediatelyRestore)s din punctele de integritate ale vehiculului. Pe perioada de %(duration)s s a abilității, toate daunele suferite în urma proiectilelor și abilităților de luptă vor fi acumulate și convertite în puncte de integritate, plus încă %(restoringCoefficient)s din totalul daunelor suferite, la încheierea abilității.\n\n*Recuperarea de HP prin conversie afectează și vehiculele aliate aflate în apropiere."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "{green_Open}Reface instantaneu %(immediatelyRestore)s{green_Close} din punctele de integritate ale vehiculului. Pe perioada de {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} a abilității, toate daunele suferite în urma proiectilelor și abilităților de luptă vor fi acumulate și convertite în puncte de integritate, plus {green_Open}încă %(restoringCoefficient)s din totalul daunelor suferite{green_Close}, la încheierea abilității.\n\n*Recuperarea de HP prin conversie afectează și vehiculele aliate aflate în apropiere."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Blindaj adaptiv"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "{green_Open}Reface instantaneu %(immediatelyRestore)s{green_Close} din punctele de integritate ale vehiculului. Pe perioada de {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} a abilității, toate daunele suferite în urma proiectilelor și abilităților de luptă vor fi acumulate și convertite în puncte de integritate, plus {green_Open}încă %(restoringCoefficient)s din totalul daunelor suferite{green_Close}, la încheierea abilității.\n\n*Recuperarea de HP prin conversie afectează și vehiculele aliate aflate în apropiere."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s la camuflajul unui vehicul staționar sau în mișcare cu Eșapamentul silențios (orice clasă) sau Eșapamentul Recompensă instalate"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Crește efectul Eșapamentului silențios sau Eșapamentului recompensă pe parcursul unei lupte. Directiva are efect doar cu echipamentul corespunzător instalat."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Izolație a eșapamentului"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Sporește camuflarea unui vehicul staționar"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Eficiența depinde de tipul vehiculului. Sporește camuflarea unui vehicul staționar sau în mișcare. Folositor la cercetarea activă, precum și la cercetarea pasivă în locații riscante."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Eșapament silențios"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Sporește camuflarea unui vehicul staționar sau în mișcare."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Eșapament silențios Clasa 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Eșapament silențios Clasa 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Eșapament silențios Clasa 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Plăci de blindaj suplimentare (Tipul 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Plăci de blindaj suplimentare (Tipul 2)"
+
+msgid "afterburning/descr"
+msgstr "Crește viteza și accelerația vehiculului pentru o perioadă scurtă."
+
+msgid "afterburning/name"
+msgstr "Supraalimentare"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Reducerea dispersiei tunului e critică: cu cât mai mică e dispersia inițială, cu atât mai mic e cercul de țintire și cu atât mai puțin timp e necesar pentru a ținti complet cu tunul. În plus, un foc neplanificat (tras fără a ținti complet, sau din mișcare), are șanse mai bune să lovească ținta."
+
+msgid "aimingStabilizer/name"
+msgstr "Stabilizator vertical"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s la dispersie în mișcare, după foc sau la rotirea turelei cu Stabilizator vertical, Echipament complex de stabilizare sau Stabilizator recompensă montate."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Crește efectul Stabilizatorului vertical (orice clasă), a Echipamentului complex de stabilizare sau a stabilizatorului recompensă pe parcursul unei lupte. Directiva are efect doar cu echipamentul corespunzător instalat."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Vaselină pentru stabilizator"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Crește efectul stabilizatorului"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Stabilizator vertical Clasa 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Stabilizator vertical Clasa 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Stabilizator vertical Clasa 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Stabilizator vertical Clasa 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Blindajele anti-schije absorb daunele; adică reduc daunele produse prin coliziune sau proiectile HE. Blindajele anti-schije vor ajuta tancurile grele cu blindaj puternic și potențial major de coliziune, care poartă lupte de aproape."
+
+msgid "antifragmentationLining/name"
+msgstr "Blindaje anti-schije"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Protejează vehiculul și echipajul de proiectilele HE, rănire, șoc și impact"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Blindaj anti-schije foarte gros"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Blindaj anti-schije gros"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Blindaj anti-schije mediu"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Blindaj anti-schije subţire"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Eșapament"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Stabilizator"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Blindaj anti-schije"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Plasă de camuflaj"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Optică"
+
+msgid "archetype/commandersView/name"
+msgstr "Periscop"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Mecanism de poziţionare a tunului"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Consolidare"
+
+msgid "archetype/grousers/name"
+msgstr "Crampoane"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Configuraţie"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Echipament radio"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Mecanism de rotație"
+
+msgid "archetype/improvedSights/name"
+msgstr "Ochire"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Ventilație"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Sistem de control al focului"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Suită de supraviețuire"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Sistem de precizie îmbunătățită"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Sistem de mobilitate"
+
+msgid "archetype/stereoscope/name"
+msgstr "Binoclu periscop"
+
+msgid "archetype/tankRammer/name"
+msgstr "Încărcător rapid"
+
+msgid "archetype/template"
+msgstr "Echipament din categoria „%(name)s”"
+
+msgid "archetype/turbocharger/name"
+msgstr "Supraalimentare"
+
+msgid "artillery/longDescr"
+msgstr "Comandă artileriei să tragă cu proiectile HE asupra unei zone restrânse. Vehiculele din centrul impactului suferă daunele cele mai mari. Are eficiență sporită împotriva vehiculelor puternic blindate."
+
+msgid "artillery/name"
+msgstr "Foc de artilerie"
+
+msgid "artillery/shortDescr"
+msgstr "Provoacă daune considerabile vehiculelor inamice într-o zonă restrânsă."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s la șansa de incendiu la motor"
+
+msgid "autoExtinguishers/descr"
+msgstr "Stinge automat incendiul de la bord."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Stinge automat incendiul și reduce șansa de incendiere a vehiculului. Acest consumabil este potrivit tuturor tipurilor de vehicule din orice țară."
+
+msgid "autoExtinguishers/name"
+msgstr "Extinctor automat"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Stinge automat incendiul de la bord. Poate fi folosit de mai multe ori într-o luptă. Consumabilul este eliminat după terminarea luptei dacă a fost folosit cel puțin o dată."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Stingerea automată a incendiului"
+
+msgid "berserker/battleDescr"
+msgstr "Crește de %(gunPiercing)s ori penetrarea și cadența de tragere, crescând de asemenea eficiența țintirii și stabilizarea cu %(gunAimingTime)s, însă reduce totalul de HP al vehiculului cu %(healthDebuff)s pe parcursul duratei sale de %(duration)s s.\n\n* Daunele provocate de abilitatea Luptător furios nu îți pot distruge vehiculul."
+
+msgid "berserker/descr"
+msgstr "Crește de %(gunPiercing)s ori penetrarea și cadența de tragere, crescând de asemenea eficiența țintirii și stabilizarea cu %(gunAimingTime)s, însă reduce totalul de HP al vehiculului cu %(healthDebuff)s pe parcursul duratei sale de %(duration)s s.\n\n* Daunele provocate de abilitatea Luptător furios nu îți pot distruge vehiculul."
+
+msgid "berserker/longDescr"
+msgstr "Crește {green_Open}de %(gunPiercing)s ori{green_Close} penetrarea și cadența de tragere, crescând de asemenea eficiența țintirii și stabilizarea {green_Open}cu %(gunAimingTime)s{green_Close}, însă reduce totalul de HP al vehiculului cu {red_Open}%(healthDebuff)s{red_Close} pe parcursul duratei sale {whiteSpanish_Open}de %(duration)s s{whiteSpanish_Close}.\n\n* Daunele provocate de abilitatea Luptător furios nu îți pot distruge vehiculul."
+
+msgid "berserker/name"
+msgstr "Luptător furios"
+
+msgid "berserker/shortDescr"
+msgstr "Crește {green_Open}de %(gunPiercing)s ori{green_Close} penetrarea și cadența de tragere, crescând de asemenea eficiența țintirii și stabilizarea {green_Open}cu %(gunAimingTime)s{green_Close}, însă reduce totalul de HP al vehiculului cu {red_Open}%(healthDebuff)s{red_Close} pe parcursul duratei sale {whiteSpanish_Open}de %(duration)s s{whiteSpanish_Close}.\n\n* Daunele provocate de abilitatea Luptător furios nu îți pot distruge vehiculul."
+
+msgid "blackout_headlights_1/name"
+msgstr "Lumini camuflate (Tipul 1)"
+
+msgid "bomber/longDescr"
+msgstr "Comandă unui avion de atac la sol să lanseze bombe în zona selectată, provocând șoc și daune vehiculelor inamice. Vehiculele din centrul impactului suferă daunele cele mai mari. Are eficiență sporită împotriva vehiculelor cu blindaj subțire sau mediu."
+
+msgid "bomber/name"
+msgstr "Bombardament"
+
+msgid "bomber/shortDescr"
+msgstr "Provoacă șoc vehiculelor inamice și provoacă daune medii într-o rază mare."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Reface gradual %(healPerTickDuration)s din HP-ul vehiculului în %(duration)s s. Poate fi întreruptă la suferirea de daune."
+
+msgid "brRegenerationKit/descr"
+msgstr "Reface gradual %(healPerTickDuration)s din HP-ul vehiculului în %(duration)s s. Poate fi întreruptă la suferirea de daune."
+
+msgid "brRegenerationKit/long_special"
+msgstr "{green_Open}Reface gradual %(healPerTickDuration)s{green_Close} din HP-ul vehiculului {whiteSpanish_Open}în %(duration)s s.{whiteSpanish_Close} Poate fi întreruptă la suferirea de daune."
+
+msgid "brRegenerationKit/name"
+msgstr "Recuperare"
+
+msgid "brRegenerationKit/short_special"
+msgstr "{green_Open}Reface gradual %(healPerTickDuration)s{green_Close} din HP-ul vehiculului {whiteSpanish_Open}în %(duration)s s.{whiteSpanish_Close} Poate fi întreruptă la suferirea de daune."
+
+msgid "brRepairkit/descr"
+msgstr "Repară modulele și elimină efectele negative."
+
+msgid "brRepairkit/long_special"
+msgstr "Repară modulele și elimină efectele negative."
+
+msgid "brRepairkit/name"
+msgstr "Trusa de piese de schimb"
+
+msgid "brRepairkit/short_special"
+msgstr "Repară modulele și elimină efectele negative."
+
+msgid "br_bomber/battleDescr"
+msgstr "Provoacă șoc și provoacă daune între %(minDamage)s și %(maxDamage)s HP vehiculelor inamice. Vehiculele din centrul zonei de impact suferă daune mai mari.\n\n*Impactul are loc cu întârziere de %(delay)s s."
+
+msgid "br_bomber/descr"
+msgstr "Provoacă șoc și provoacă daune între %(minDamage)s și %(maxDamage)s HP vehiculelor inamice. Vehiculele din centrul zonei de impact suferă daune mai mari.\n\n*Impactul are loc cu întârziere de %(delay)s s."
+
+msgid "br_bomber/longDescr"
+msgstr "Provoacă șoc și provoacă daune între {whiteSpanish_Open}%(minDamage)s și %(maxDamage)s HP{whiteSpanish_Close} vehiculelor inamice. Vehiculele din centrul zonei de impact suferă daune mai mari.\n\n*Impactul are loc cu întârziere de %(delay)s s."
+
+msgid "br_bomber/name"
+msgstr "Bombardament"
+
+msgid "br_bomber/shortDescr"
+msgstr "Provoacă șoc și provoacă daune între {whiteSpanish_Open}%(minDamage)s și %(maxDamage)s HP{whiteSpanish_Close} vehiculelor inamice. Vehiculele din centrul zonei de impact suferă daune mai mari.\n\n*Impactul are loc cu întârziere de %(delay)s s."
+
+msgid "br_minefield/battleDescr"
+msgstr "Amplasează un câmp de mine activ în zona selectată timp de %(duration)s s. Vehiculele inamice care intră în contact cu minele vor suferi șoc și vor suferi daune explozive.\n\n*Minele pot fi distruse cu proiectile. Minele amplasate sub vehicule inamice NU vor exploda."
+
+msgid "br_minefield/descr"
+msgstr "Amplasează un câmp de mine activ în zona selectată timp de %(duration)s s. Vehiculele inamice care intră în contact cu minele vor suferi șoc și vor suferi daune explozive.\n\n*Minele pot fi distruse cu proiectile. Minele amplasate sub vehicule inamice NU vor exploda."
+
+msgid "br_minefield/longDescr"
+msgstr "Amplasează un câmp de mine activ în zona selectată {whiteSpanish_Open}timp de %(duration)s s{whiteSpanish_Close}. Vehiculele inamice care intră în contact cu minele vor suferi șoc și vor suferi daune explozive.\n\n*Minele pot fi distruse cu proiectile. Minele amplasate sub vehicule inamice NU vor exploda."
+
+msgid "br_minefield/name"
+msgstr "Câmp minat"
+
+msgid "br_minefield/shortDescr"
+msgstr "Amplasează un câmp de mine activ în zona selectată {whiteSpanish_Open}timp de %(duration)s s{whiteSpanish_Close}. Vehiculele inamice care intră în contact cu minele vor suferi șoc și vor suferi daune explozive.\n\n*Minele pot fi distruse cu proiectile. Minele amplasate sub vehicule inamice NU vor exploda."
+
+msgid "br_respawn/name"
+msgstr "Reapariție"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Îți permite să reintri în luptă după distrugerea vehiculului propriu. Mecanica funcționează timp de %(duration)s min de la începutul luptei.\n\nPentru a readuce un aliat în luptă, menține-te în afara conflictului timp de %(timeToResurrect)s s. Încărcăturile de reapariție sunt comune pentru membrii plutonului."
+
+msgid "br_respawn/solo/descr"
+msgstr "Îți permite să reintri în luptă după distrugerea vehiculului propriu. Mecanica funcționează timp de %(duration)s min de la începutul luptei.\n\nDupă distrugere, vehiculul tău reapare automat."
+
+msgid "br_smoke/battleDescr"
+msgstr "Adaugă un bonus de camuflaj de %(duration)s de secunde tuturor vehiculelor din raza consumabilului."
+
+msgid "br_smoke/descr"
+msgstr "Adaugă bonus la camuflajul tuturor vehiculelor din raza consumabilului."
+
+msgid "br_smoke/longDescr"
+msgstr "Adaugă un bonus de camuflaj de %(duration)s de secunde tuturor vehiculelor din raza consumabilului."
+
+msgid "br_smoke/name"
+msgstr "Ecran de fum"
+
+msgid "br_smoke/shortDescr"
+msgstr "Adaugă bonus la camuflajul tuturor vehiculelor din raza consumabilului."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Adaugă un bonus la camuflare tuturor vehiculelor din raza consumabilului, provocând și daune TUTUROR vehiculelor din rază cu o valoare de %(damagePerTick)s din totalul HP-ului acestora, per secundă. Durează %(duration)s s.\n\n*Daunele corozive nu întrerup culegerea de pradă și nu distrug vehiculele, lăsându-le cu minim 1 HP."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Adaugă un bonus la camuflare tuturor vehiculelor din raza consumabilului, provocând și daune TUTUROR vehiculelor din rază cu o valoare de %(damagePerTick)s din totalul HP-ului acestora, per secundă. Durează %(duration)s s.\n\n*Daunele corozive nu întrerup culegerea de pradă și nu distrug vehiculele, lăsându-le cu minim 1 HP."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Adaugă un bonus la camuflare tuturor vehiculelor din raza consumabilului, provocând și daune TUTUROR vehiculelor din rază {whiteSpanish_Open}cu o valoare de %(damagePerTick)s{whiteSpanish_Close} din totalul HP-ului acestora, per secundă. Durează {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Daunele corozive nu întrerup culegerea de pradă și nu distrug vehiculele, lăsându-le cu minim 1 HP."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Ceață corozivă"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Adaugă un bonus la camuflare tuturor vehiculelor din raza consumabilului, provocând și daune TUTUROR vehiculelor din rază {whiteSpanish_Open}cu o valoare de %(damagePerTick)s{whiteSpanish_Close} din totalul HP-ului acestora, per secundă. Durează {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Daunele corozive nu întrerup culegerea de pradă și nu distrug vehiculele, lăsându-le cu minim 1 HP."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s viteza de reparație a componentelor"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Repară toate modulele avariate la activare. Efectul pasiv accelerează viteza reparațiilor. Acest consumabil este potrivit anumitor vehicule."
+
+msgid "builtinRepairkit/name"
+msgstr "Set complex de piese de schimb"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Repară toate modulele avariate. Poate fi folosită de mai multe ori într-o luptă. Nu se consumă.\nAcest consumabil nu poate fi eliminat, dar poate fi mutat în alt loc."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Conferă 10% suplimentar la camuflarea vehiculului"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Conferă tuturor membrilor echipajului talentul Camuflaj la 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Talentul Camuflare reduce vizibilitatea vehiculelor staționare și în mișcare pe durata luptei. Odată ce talentul e antrenat la 100%, directiva echipată îi crește eficiența; dacă nu, directiva oferă vehiculului talentul antrenat la 100%."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Adăpost natural"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Conferă talentul Camuflaj la 100% sau îi crește efectul"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Sporește camuflarea unui vehicul staționar la 3 s după oprire"
+
+msgid "camouflageNet/long_special"
+msgstr "Eficiența depinde de tipul vehiculului. Plasa de camuflaj este benefică în principal vehiculelor care stau ascunse: artileriile și anti-tancurile cu siluetă joasă. Sporește efectul talentului Camuflare. Combinarea lor va conferi un bonus bun vehiculului. Plasa de camuflaj se activează la 3 secunde după ce vehiculul se oprește."
+
+msgid "camouflageNet/name"
+msgstr "Plasă de camuflaj"
+
+msgid "camouflageNet/short_special"
+msgstr "Sporește camuflarea unui vehicul staționar"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Plasă de camuflaj Clasa 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Plasă de camuflaj Clasa 3"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "chocolate/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor germane."
+
+msgid "chocolate/name"
+msgstr "Ciocolată"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Potrivit doar pentru vehiculele germane."
+
+msgid "chocolate/short_special"
+msgstr "Crește performanța echipajelor germane"
+
+msgid "clingBrander/battleDescr"
+msgstr "Cheamă un tanc autonom echipat cu sistem de identificare a inamicilor, care va urmări și ataca cel mai apropiat inamic timp de până la %(botLifeTime)s s. \n\n*Acest tanc poate fi distrus."
+
+msgid "clingBrander/descr"
+msgstr "Cheamă un tanc autonom echipat cu sistem de identificare a inamicilor, care va urmări și ataca cel mai apropiat inamic timp de până la %(botLifeTime)s s.\n\n*Acest tanc poate fi distrus."
+
+msgid "clingBrander/longDescr"
+msgstr "Cheamă un tanc autonom echipat cu sistem de identificare a inamicilor, care va urmări și ataca cel mai apropiat inamic timp de {whiteSpanish_Open}până la %(botLifeTime)s s.{whiteSpanish_Close} \n\n*Acest tanc poate fi distrus."
+
+msgid "clingBrander/name"
+msgstr "Robot de luptă"
+
+msgid "clingBrander/shortDescr"
+msgstr "Cheamă un tanc autonom echipat cu sistem de identificare a inamicilor, care va urmări și ataca cel mai apropiat inamic timp de {whiteSpanish_Open}până la %(botLifeTime)s s.{whiteSpanish_Close} \n\n*Acest tanc poate fi distrus."
+
+msgid "clutches_replace_1/name"
+msgstr "Înlocuitor foaie ambreiaj (tipul 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Înlocuitor foaie ambreiaj (tipul 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Spre deosebire de Binoclu, Optica anti-reflex (de orice tip) oferă un bonus mai mic, dar permanent, care nu dispare la mișcarea vehiculului. Drept rezultat, Optica anti-reflex este de mare ajutor vehiculelor cu stil de joc activ - tancurile ușoare și medii."
+
+msgid "coatedOptics/name"
+msgstr "Aparatură optică antireflex"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s la raza vizuală (până la 445 m) cu Optică antireflex (orice clasă), Optică experimentală sau Optică recompensă montate."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2,5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2,5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Crește efectul echipamentului Aparatură optică antireflex, Optică experimentală sau Optică recompensă. pe parcursul unei lupte. Directiva are efect doar cu echipamentul corespunzător instalat."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Calibrare optică"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Crește efectul sistemelor optice"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Optică anti-reflex Clasa 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Optică anti-reflex Clasa 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Optică anti-reflex Clasa 3"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "cocacola/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor S.U.A.."
+
+msgid "cocacola/name"
+msgstr "Coca-Cola"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Potrivit doar pentru vehiculele americane."
+
+msgid "cocacola/short_special"
+msgstr "Crește performanța echipajelor S.U.A."
+
+msgid "commandersView/long_special"
+msgstr "Reduce camuflarea inamicilor în mișcare și factorul de camuflaj în frunziș al inamicilor în timpul cercetării. Îți permite să observi inamici în mișcare la distanțe mai mari și să descoperi mai eficient inamici ascunși de tufișuri sau copaci căzuți."
+
+msgid "commandersView/name"
+msgstr "Periscop comandant"
+
+msgid "commandersView/short_special"
+msgstr "Reduce camuflarea vehiculelor inamice, fie în mișcare , fie ascunse de frunziș"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Adaugă unui proiectil proprietăți corozive care îi cresc penetrarea și potențialul de daune. La provocarea de daune unui vehicul inamic, proiectilul îi aplică un efect temporar, reducând HP-ul vehiculului inamic cu până la %(damagePerDotEffectDuration)s, cu o durată de %(dotEffectDuration)s s.\n\n*Efectul negativ poate fi eliminat cu un set de piese de schimb."
+
+msgid "corrodingShot/descr"
+msgstr "Adaugă unui proiectil proprietăți corozive care îi cresc penetrarea și potențialul de daune. La provocarea de daune unui vehicul inamic, proiectilul îi aplică un efect temporar, reducând HP-ul vehiculului inamic cu până la %(damagePerDotEffectDuration)s, cu o durată de %(dotEffectDuration)s s.\n\n*Efectul negativ poate fi eliminat cu un set de piese de schimb."
+
+msgid "corrodingShot/longDescr"
+msgstr "Adaugă unui proiectil proprietăți corozive care îi cresc penetrarea și potențialul de daune. La provocarea de daune unui vehicul inamic, proiectilul îi aplică un efect temporar, reducând HP-ul vehiculului inamic cu {whiteSpanish_Open}până la %(damagePerDotEffectDuration)s{whiteSpanish_Close}, {whiteSpanish_Open}cu o durată de %(dotEffectDuration)s s{whiteSpanish_Close}.\n\n*Efectul negativ poate fi eliminat cu un set de piese de schimb."
+
+msgid "corrodingShot/name"
+msgstr "Proiectil acid"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Adaugă unui proiectil proprietăți corozive care îi cresc penetrarea și potențialul de daune. La provocarea de daune unui vehicul inamic, proiectilul îi aplică un efect temporar, reducând HP-ul vehiculului inamic cu {whiteSpanish_Open}până la %(damagePerDotEffectDuration)s{whiteSpanish_Close}, {whiteSpanish_Open}cu o durată de %(dotEffectDuration)s s{whiteSpanish_Close}.\n\n*Efectul negativ poate fi eliminat cu un set de piese de schimb."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Îmbunătățește"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Caracteristica comandantului"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "talentul:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Conferă"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "talent:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Versiune îmbunătățită a Stabilizatorului Vertical ({colorTagOpen}-20%{colorTagClose} la dispersia după foc, din timpul mișcării și rotației turelei) care are un efect mai puternic: {colorTagOpen}-27,5%{colorTagClose} la dispersia după foc, din timpul mișcării și rotației turelei. Echipamentul este potrivit vehiculelor din toate țările și de anumite tipuri. Poate fi demontat doar contra bonduri."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Echipament complex de stabilizare"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Versiune îmbunătățită a Aparaturii optice antireflex ({colorTagOpen}+10%{colorTagClose} la raza vizuală) care are un efect mai puternic: {colorTagOpen}+13,5%{colorTagClose} la raza vizuală. Echipamentul este potrivit vehiculelor de toate tipurile și țările; poate fi demontat doar contra bonduri."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Optică experimentală"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Versiune îmbunătățită a Mecanismului modernizat de poziționare a tunului ({colorTagOpen}+10%{colorTagClose} la viteza de țintire) care are un efect mai puternic: {colorTagOpen}+13,5%{colorTagClose} la viteza de țintire. Echipamentul este potrivit vehiculelor de toate tipurile și țările; poate fi demontat doar contra bonduri."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Mecanism durabil de poziționare a tunului"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Analog al Configurației modificate cu un efect mai puternic. Acest echipament este potrivit pentru vehicule de orice naționalitate sau tip. Poate fi demontat doar contra bonduri."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Configurație îmbunătățită"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Accelerează reparațiile, protejează compartimentul muniție, rezervoarele și motorul"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Versiune îmbunătățită a Ventilației modernizate ({colorTagOpen}+5%{colorTagClose} la bonusul de eficiență a echipajului) care are un efect mai puternic: {colorTagOpen}+8,5%{colorTagClose} la eficiența echipajului. Echipamentul este potrivit vehiculelor de toate tipurile și națiunile. Poate fi demontat doar contra bonduri."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Sistem de evacuare a gazelor"
+
+msgid "deluxRammer/long_special"
+msgstr "Versiune îmbunătățită a Încărcătorului rapid de tun ({colorTagOpen}-10%{colorTagClose} la timpul de încărcare) care are un efect mai puternic: {colorTagOpen}-13,5%{colorTagClose} la timpul de încărcare. Echipamentul este potrivit vehiculelor de toate tipurile și țările; poate fi demontat doar contra bonduri."
+
+msgid "deluxRammer/name"
+msgstr "Sistem de încărcare experimental"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "O versiune îmbunătățită a Eșapamentului silențios care are efect mai puternic: crește camuflajul unui vehicul staționar sau în mișcare. Util pentru cercetașii activi, cât și pentru focul din poziții riscante.\nAcest echipament este potrivit vehiculelor de orice tip și națiune, însă eficiența sa depinde de tipul vehiculului. Se poate demonta doar contra bonduri."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Eșapament camuflat"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Crește cu {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose} camuflajul unui vehicul staționar sau în mișcare"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Sporește camuflajul unui vehicul staționar la 1.5 s după oprire"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "O variantă îmbunătățită a Plasei de camuflaj, a cărei eficiență depinde de tipul vehiculului. Plasa de camuflaj tactică este benefică în principal vehiculelor care stau ascunse: artileriile și anti-tancurile cu siluetă joasă. Sporește efectul talentului Camuflare. Combinarea lor va conferi vehiculului un bonus sporit. Plasa de camuflaj tactică se activează la 1.5 secunde după ce vehiculul se oprește."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Plasă de camuflaj tactică"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17.5{colorTagClose}/{colorTagOpen}12.5{colorTagClose}/{colorTagOpen}7.5%{colorTagClose} la camuflajul unui vehicul staționar"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Reface complet integritatea suspensiei după reparație."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Reface suspensia după reparație."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Versiune avansată a Consolidării îmbunătățite: {colorTagOpen}+12.5%{colorTagClose} la punctele de integritate ale vehiculului, {colorTagOpen}+75%{colorTagClose} la durabilitatea suspensiei, {colorTagOpen}+30%{colorTagClose} la viteza de reparație a suspensiei, {colorTagOpen}–75%{colorTagClose} la daunele suferite de la suspensie la impact. Reface în întregime punctele de integritate ale suspensiei după reparații. Reduce șansele de distrugere a șenilei la suferirea de daune, permițând ca vehiculul să rămână în mișcare cât mai mult timp posibil. Acest echipament este potrivit oricărei națiuni și clase de vehicul (cu excepția artileriilor). Poate fi demontat doar contra bonduri."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Rezistență crescută la proiectile"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Sporește rezistența vehiculului, protejează suspensia"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "O versiune avansată a Mecanismului de rotație îmbunătățit care produce un efect mai puternic: {colorTagOpen}+17.5% {colorTagClose} la rotația tunului, {colorTagOpen}+17.5% {colorTagClose} la rotația carenei și {colorTagOpen}-17.5% {colorTagClose}la dispersia în mișcare și a rotației turelei. Echipamentul este potrivit tuturor tipurilor și națiunilor de vehicule. Se poate demonta doar cu bonduri."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Viteză finală îmbunătățită"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Sporește viteza de rotație și reduce dispersia tunului în mișcare și în timpul rotirii"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "O versiune mai bună pentru Țintire îmbunătățită care are un efect mai puternic: reduce cu {colorTagOpen}9%{colorTagClose} dimensiunea cercului de țintire al unui tun în curs de țintire sau complet ațintit. Drept rezultat, tunul are o șansă mai bună de a lovi ținta. Echipamentul este potrivit vehiculelor din toate națiunile și tipurile, cu excepția artileriilor. Se poate demonta doar contra bonduri."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Țintire inovativă"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Reduce dispersia tunului"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Sporește raza vizuală a unui vehicul staționar la 1.5 s după oprire (până la 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "O variantă îmbunătățită a Binoclului periscop. O rază vizuală bună conferă un avantaj solid în luptă vehiculelor. Acest tip de echipament este util anti-tancurilor cu siluetă joasă și tun precis. Se activează la 1.5 secunde după ce vehiculul s-a oprit."
+
+msgid "deluxeStereoscope/name"
+msgstr "Sistem de observare telescopică"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27.5%{colorTagClose} la raza vizuală a unui vehicul staționar (până în 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Versiune avansată a Supraalimentării ({colorTagOpen}+7.5%{colorTagClose} la puterea motorului, {colorTagOpen}+4 km/h{colorTagClose} la viteza maximă înainte, {colorTagOpen}+2 km/h{colorTagClose} la viteza maximă în marșarier): {colorTagOpen}+12.5%{colorTagClose} la puterea motorului, {colorTagOpen}+6 km/h{colorTagClose} la viteza maximă înainte, {colorTagOpen}+4 km/h{colorTagClose} la viteza maximă în marșarier. Acest echipament este potrivit oricărei națiuni și clase de vehicul (cu excepția vehiculelor cu roți). Poate fi demontat doar contra bonduri."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Compresor îmbunătățit"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Sporește puterea motorului și viteza maximă"
+
+msgid "eb_minefield/descr"
+msgstr "Desfășoară un câmp activ de mine în zona selectată pentru o anumită perioadă de timp."
+
+msgid "eb_minefield/long_descr"
+msgstr "Desfășoară un câmp activ de mine în zona selectată o anumită perioadă de timp. La detonare, minele provoacă daune și șoc vehiculelor inamice. Inamicii pot descoperi minele de aproape sau cu rezervele de luptă Zbor de recunoaștere sau Santinelă. Minele pot fi distruse cu proiectile sau explozii."
+
+msgid "eb_minefield/name"
+msgstr "Câmp minat"
+
+msgid "eb_minefield/short_descr"
+msgstr "Desfășoară un câmp activ de mine în zona selectată pentru o anumită perioadă de timp."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Restaurează treptat un anumit procentaj din punctele de integritate ale vehiculului tău."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Reface gradual un anumit procentaj din punctele de integritate ale vehiculului. Crește viteza de reparații dintr-un cerc de realimentare. Reduce daunele provocate de mine pe perioada activării."
+
+msgid "eb_regenerationKit/name"
+msgstr "Reparaţii în luptă"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Restaurează treptat un anumit procentaj din punctele de integritate ale vehiculului tău."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Loc în Garaj"
+
+msgid "empty_slot/name"
+msgstr "Loc în Garaj"
+
+msgid "empty_slot/short_descr"
+msgstr "Locașul rezervei de luptă a fost utilizat."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Crește de 1.5 ori efectul talentului Detecție sonoră"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Conferă talentul Detecție sonoră antrenat la 100%"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Talentul Detecție sonoră alertează asupra focului de artilerie inamic și descrește efectul negativ al șocului. Odată talentul antrenat la 100%, directiva echipată îi crește efectul; dacă nu, directiva conferă vehiculului talentul antrenat la 100%."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Vigilență Crescută"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Conferă talentul Detecție sonoră la 100% sau îi crește efectul"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Țintirea îmbunătățită reduce timpul de țintire. Un tanc echipat cu un Mecanism modernizat de poziționare a tunului trage cu precizie mai mare (în plus, crește rata de foc, deoarece uneori reîncărcarea e mai rapidă decât țintirea completă)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Mecanism modernizat de poziţionare a tunului"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s la viteza de țintire cu Mecanismul modernizat de poziționare a tunului (orice clasă), Mecanismul antiuzură de poziționare a tunului, mecanismul de poziționare recompensă sau Sistem de control al focului instalate."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2,5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2,5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Îmbunătățește efectul Mecanismului modernizat de poziționare a tunului, mecanismul de poziționare recompensă sau al Mecanismului durabil de poziționare a tunului pe parcursul luptei. Aceste echipamente trebuie montate pe vehicul pentru a echipa această directivă."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Calibrare ochire"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Îmbunătățește efectul mecanismelor de poziționare a tunului"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Mecanism modernizat de poziţionare a tunului Clasa 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Mecanism modernizat de poziţionare a tunului Clasa 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Mecanism modernizat de poziţionare a tunului Clasa 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Arcuri de tip Belleville îmbunătăţite"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Reface complet integritatea suspensiei după reparație."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Reface complet integritatea suspensiei după reparație"
+
+msgid "enhancedLevers/name"
+msgstr "Amortizoare modernizate"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Bare de torsiune longitudinale îmbunătăţite"
+
+msgid "enhancedSprings/name"
+msgstr "Arcuri îmbunătăţite"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Bare de torsiune Clasa 1 t modernizate"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Bare de torsiune Clasa 3 t modernizate"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Bare de torsiune Clasa 5 t modernizate"
+
+msgid "exampleAbility/descr"
+msgstr "Abilitate de test pentru scriptul vizual"
+
+msgid "exampleAbility/name"
+msgstr "Abilitate de test"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s la puterea motorului şi viteza de rotaţie a turelei, pe durata luptei."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la puterea motorului şi viteza de rotaţie a turelei."
+
+msgid "excellentFuel/long_special"
+msgstr "Adaugă {colorTagOpen}10%{colorTagClose} la puterea motorului și viteza de rotație a turelei pe timpul luptei. Se activează automat la începutul luptei și are efect pe toată durata acesteia."
+
+msgid "excellentFuel/name"
+msgstr "Combustibil excelent"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} la puterea motorului şi viteza de rotaţie a turelei"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Reface complet integritatea suspensiei după reparație."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Reface suspensia după reparație."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Sporește rezistența vehiculului și viteza de reparație. Reduce daunele la carenă provocate de avarierea suspensiei prin impact. Reface complet integritatea suspensiei după reparație. Reduce șansa de distrugere a șenilei la primirea de daune, permițând vehiculului să rămână mobil mai mult timp."
+
+msgid "extraHealthReserve/name"
+msgstr "Consolidare îmbunătățită"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Sporește rezistența vehiculului, protejează suspensia"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Consolidare îmbunătățită Clasa 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Consolidare îmbunătățită Clasa 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Consolidare îmbunătățită Clasa 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "Creează un cerc de foc în jurul vehiculului, reducând mobilitatea vehiculelor inamice din interiorul zonei abilității, reducând HP-ul acestora cu până la %(damagePerTickForInterval)s timp de %(timer)s s.\n\n*Zona de efect a cercului de foc e staționară și nu va urma deplasarea vehiculului."
+
+msgid "fireCircle/descr"
+msgstr "Creează un cerc de foc în jurul vehiculului, reducând mobilitatea vehiculelor inamice din interiorul zonei abilității, reducând HP-ul acestora cu până la %(damagePerTickForInterval)s timp de %(timer)s s.\n\n*Zona de efect a cercului de foc e staționară și nu va urma deplasarea vehiculului."
+
+msgid "fireCircle/longDescr"
+msgstr "Creează un cerc de foc în jurul vehiculului, reducând mobilitatea vehiculelor inamice din interiorul zonei abilității, reducând HP-ul acestora cu {whiteSpanish_Open}până la %(damagePerTickForInterval)s{whiteSpanish_Close} {whiteSpanish_Open}timp de %(timer)s s{whiteSpanish_Close}.\n\n*Zona de efect a cercului de foc e staționară și nu va urma deplasarea vehiculului."
+
+msgid "fireCircle/name"
+msgstr "Cerc de foc"
+
+msgid "fireCircle/shortDescr"
+msgstr "Creează un cerc de foc în jurul vehiculului, reducând mobilitatea vehiculelor inamice din interiorul zonei abilității, reducând HP-ul acestora cu {whiteSpanish_Open}până la %(damagePerTickForInterval)s{whiteSpanish_Close} {whiteSpanish_Open}timp de %(timer)s s{whiteSpanish_Close}.\n\n*Zona de efect a cercului de foc e staționară și nu va urma deplasarea vehiculului."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Crește de 1.5 ori efectul talentului Pompier"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Conferă talentul Pompier antrenat la 100%"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Talentul Pompier crește abilitățile de stingere a incendiului pe vehicul pe perioada luptei. Odată talentul antrenat la 100%, directiva echipată îi crește efectul; dacă nu, directiva conferă vehiculului talentul antrenat la 100%."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Pompier experimentat"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Conferă talentul Pompier la 100% sau îi crește efectul"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Comandă o lovitură de artilerie în zona selectată, provocând daune tuturor vehiculelor aflate în zonă."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Foc de artilerie"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Comandă o lovitură de artilerie în zona selectată, provocând daune tuturor vehiculelor aflate în zonă."
+
+msgid "fort_inspire/longDescr"
+msgstr "Conferă un bonus la calificările majore și talentele întregului echipaj al vehiculului, precum și ale echipajelor vehiculelor apropiate."
+
+msgid "fort_inspire/name"
+msgstr "Inspirație"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Conferă un bonus la calificările majore și talentele întregului echipaj al vehiculului, precum și ale echipajelor vehiculelor apropiate."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Sistem de alimentare revizuit (Tipul 1)"
+
+msgid "grousers/long_special"
+msgstr "Sporesc viteza de rotație a turelei și păstrează viteza la traversarea diverselor tipuri de teren. Sunt deosebit de eficiente la condusul pe teren moale și ușor moale. Au eficiență maximă combinate cu talentele Șofer excepțional și Șofer tot-teren."
+
+msgid "grousers/name"
+msgstr "Crampoane suplimentare pentru şenile"
+
+msgid "grousers/short_special"
+msgstr "Sporesc viteza de rotație a turelei și îmbunătățesc accelerația"
+
+msgid "grousers_tier1/name"
+msgstr "Crampoane adiționale Clasa 1"
+
+msgid "grousers_tier2/name"
+msgstr "Crampoane adiționale Clasa 2"
+
+msgid "grousers_tier3/name"
+msgstr "Crampoane adiționale Clasa 3"
+
+msgid "gun_balancing_1/name"
+msgstr "Echilibrarea tunului (Tipul 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Stinge manual incendiul de la bord."
+
+msgid "handExtinguishers/long_special"
+msgstr "Stinge incendiul în vehicul la activare. Potrivit tuturor tipurilor de vehicule din orice țară. Consumabilul este eliminat după luptă dacă a fost folosit doar o dată."
+
+msgid "handExtinguishers/name"
+msgstr "Extinctor manual"
+
+msgid "handExtinguishers/onUse"
+msgstr "Stinge incendiile la vehiculul tău. Poate fi folosit de mai multe ori într-o luptă. Consumabilul este eliminat după luptă dacă a fost folosit cel puțin o dată."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Stinge incendiul"
+
+msgid "healPoint/battleDescr"
+msgstr "Creează o zonă în jurul vehiculului. În interiorul acesteia, atât jucătorul cât și membrii de pluton își restaurează un %(healPerTick)s din punctele de integritate ale vehiculelor per secundă timp de %(duration)s s."
+
+msgid "healPoint/descr"
+msgstr "Creează o zonă în jurul vehiculului. În interiorul acesteia, atât jucătorul cât și membrii de pluton își restaurează un %(healPerTick)s din punctele de integritate ale vehiculelor per secundă timp de %(duration)s s."
+
+msgid "healPoint/longDescr"
+msgstr "Creează o zonă în jurul vehiculului. În interiorul acesteia, atât jucătorul cât și membrii de pluton își {green_Open}restaurează %(healPerTick)s{green_Close} din punctele de integritate ale vehiculelor per secundă timp de {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Zonă de recuperare"
+
+msgid "healPoint/shortDescr"
+msgstr "Creează o zonă în jurul vehiculului. În interiorul acesteia, atât jucătorul cât și membrii de pluton își {green_Open}restaurează %(healPerTick)s{green_Close} din punctele de integritate ale vehiculelor per secundă timp de {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "hotCoffee/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor franceze."
+
+msgid "hotCoffee/name"
+msgstr "Cafea tare"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Potrivit doar pentru vehiculele franceze."
+
+msgid "hotCoffee/short_special"
+msgstr "Crește performanța echipajelor franceze"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Previne un incendiu la rezervor, explozia compartimentul de muniție și distrugerea motorului în luptă, când aceste componente sunt distruse."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Previne un incendiu la rezervor, explozia compartimentul de muniție și distrugerea motorului în luptă, când aceste componente sunt distruse."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Compartimentul muniție este protejat la explozie"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Explozia compartimentului muniție prevenită"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Motorul este protejat"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Distrugerea motorului a fost prevenită"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Rezervoarele sunt protejate la incendiu"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Incendiu la rezervor prevenit"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Previne un incendiu la rezervor, explozia compartimentul de muniție și distrugerea motorului în luptă, când aceste componente sunt distruse."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Accelerează reparațiile. Sporește rezistența compartimentului de muniție, rezervoarelor și motorului. Reduce penalizarea la încărcare și putere motor când componentele respective sunt avariate. Reduce șansa de incendiu la motor. Previne un incendiu la rezervor, explozia compartimentul de muniție și distrugerea motorului în luptă, când aceste componente sunt distruse. Este mai eficientă în combinație cu Reparații, Depozitare sigură și Revizie periodică."
+
+msgid "improvedConfiguration/name"
+msgstr "Configurație modificată"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Accelerează reparațiile, protejează compartimentul muniție, rezervoarele și motorul"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s la viteza de reparație cu Configurație modificată (orice clasă), Configurație îmbunătățită sau Tehnologie de protecție recompensă montate."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Îmbunătățește efectul Configurației modificate, Configurației îmbunătățite sau Tehnologiei de protecție recompensă pe parcursul luptei. Aceste echipamente trebuie montate pe vehicul pentru a echipa această directivă."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Întreținere preventivă"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Îmbunătățește efectul Configurației modificate"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Configurație modificată Clasa 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Configurație modificată Clasa 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Sporește timpul cât rămâne observat un inamic care a părăsit raza vizuală a vehiculului tău. Reduce timpul cât tu rămâi observat de inamici. Este cel mai eficient în combinație cu talentele Țintă desemnată și Ultim efort."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Echipament radio îmbunătățit"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Sporește timpul cât rămâne observat un inamic și reduce timpul cât tu rămâi observat de inamici"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Sporește viteza de rotație a carenei și turelei pentru vehiculele cu turelă. Sporește viteza de rotație a carenei și tunului pentru vehiculele cu cabină fixă. Reduce dispersia tunului în mișcare și în timpul rotirii carenei și turelei, precum și după foc. Este mai eficient în combinație cu talentul Șofer excepțional."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Mecanism de rotație îmbunătățit"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Sporește viteza de rotație și reduce dispersia tunului în mișcare și în timpul rotirii"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Mecanism de rotație îmbunătățit Clasa 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Mecanism de rotație îmbunătățit Clasa 2"
+
+msgid "improvedSights/long_special"
+msgstr "Reduce mărimea cercului colimatorului, sporind acuratețea în timpul și la finalizarea ochirii tunului. Ca rezultat, tunul va avea șanse mai mari de a lovi ținta."
+
+msgid "improvedSights/name"
+msgstr "Țintire îmbunătățită"
+
+msgid "improvedSights/short_special"
+msgstr "Reduce dispersia tunului"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s la dimensiunea cercului de țintire cu Țintire îmbunătățită (oricare clasă), Țintire recompensă sau Sistem de precizie îmbunătățită instalate."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Crește efectul Țintirii îmbunătățite sau Țintirii recompensă pe parcursul unei lupte. Directiva are efect doar cu echipamentul corespunzător instalat."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Lentilă lustruită"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Reduce dimensiunea cercului de țintire"
+
+msgid "improvedSights_tier1/name"
+msgstr "Țintire îmbunătățită Clasa 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "Țintire îmbunătățită Clasa 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "Țintire îmbunătățită Clasa 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "Îmbunătățește caracteristicile vehiculului: raza vizuală, rata de foc, timpul de țintire, caracteristicile dinamice și altele. Cu toate acestea, bonusul oferit de echipament va fi vizibil doar în combinație cu talentul „Frați de Arme” antrenat la 100%."
+
+msgid "improvedVentilation/name"
+msgstr "Ventilație îmbunătățită"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s la bonusul de eficiență a echipajului cu Ventilația modernizată (toate clasele), Ventilația recompensă sau Sistemul de evacuare a gazelor montate."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2,5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2,5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Crește efectul echipamentului Ventilație îmbunătățită (orice clasă), Sistem de evacuare a gazelor sau Ventilație recompensă pe parcursul unei lupte. Directiva are efect doar cu echipamentul corespunzător instalat."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Evacuare forțată"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Crește efectul ventilației"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Ventilaţie îmbunătățită Clasa 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Ventilaţie îmbunătățită Clasa 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Ventilaţie îmbunătățită Clasa 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Ventilaţie îmbunătățită Clasa 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Ventilaţie îmbunătățită Clasa 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Ventilaţie îmbunătățită Clasa 3"
+
+msgid "improved_suspension_1/name"
+msgstr "Suspensie îmbunătățită (Tipul 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Suspensie îmbunătățită (Tipul 2)"
+
+msgid "inspire/longDescr"
+msgstr "Crește performanța vehiculelor și tuturor aliaților dintr-o anumită zonă, adăugând un % bonus calificării majore a fiecărui membru de echipaj. Jucătorul care o activează obține un efect îmbunătățit."
+
+msgid "inspire/name"
+msgstr "Inspirație"
+
+msgid "inspire/shortDescr"
+msgstr "Adaugă un bonus la calificarea majoră a echipajelor jucătorului și aliaților."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Încărcător rapid artilerie de calibru mare"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Încărcător rapid tun de calibru mare"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s la durata șocului\n%(crewHitChance)s la protecţia la rănire a echipajului"
+
+msgid "largeMedkit/descr"
+msgstr "Tratează toţi membrii echipajului răniţi și elimină efectele șocului."
+
+msgid "largeMedkit/long_special"
+msgstr "Vindecă toți membrii de echipaj răniți și elimină șocul la activare. Efectul pasiv oferă protecție la rănire a echipajului. Acest consumabil este potrivit tuturor tancurilor din orice țară."
+
+msgid "largeMedkit/name"
+msgstr "Trusă de prim ajutor complexă"
+
+msgid "largeMedkit/onUse"
+msgstr "Tratează toţi membrii echipajului răniţi. Poate fi folosit de mai multe ori într-o luptă. Consumabilul este eliminat după terminarea luptei dacă a fost folosit cel puțin o dată."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Tratează toți membrii răniți ai echipajului și elimină efectul de șoc. Poate fi folosit de mai multe ori într-o luptă. Consumabilul este eliminat după luptă dacă a fost folosit cel puțin o dată."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Tratează toţi membrii echipajului răniţi și elimină efectele șocului"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s viteza de reparație a componentelor"
+
+msgid "largeRepairkit/descr"
+msgstr "Repară toate modulele avariate."
+
+msgid "largeRepairkit/long_special"
+msgstr "Repară toate modulele avariate la activare. Efectul pasiv accelerează viteza reparațiilor. Acest consumabil este potrivit tuturor tancurilor din orice țară."
+
+msgid "largeRepairkit/name"
+msgstr "Set complex de piese de schimb"
+
+msgid "largeRepairkit/onUse"
+msgstr "Repară toate modulele avariate. Poate fi folosit de mai multe ori într-o luptă. Consumabilul este eliminat după terminarea luptei dacă a fost folosit cel puțin o dată."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Repară toate modulele avariate"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "+50% suplimentar la talentul Ultim efort"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Face ca talentul Ultim efort să fie antrenat la 100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "Talentul „Ultim efort” acordă șansa de a raporta pozițiile inamice încă 2 secunde după distrugerea vehiculului pe perioada luptei. Odată talentul antrenat la 100%, directiva echipată îi adaugă 1 secundă la durată (3 secunde cu totul); dacă nu, directiva conferă vehiculului talentul antrenat la 100% (2 secunde standard)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Datoria înainte de toate"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Conferă talentul Ultim efort la 100% sau îi crește efectul"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Încărcător rapid artilerie de calibru mediu"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Încărcător rapid tun de calibru mediu"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Sistem de control al focului T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Sistem de control al focului T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Sistem de control al focului T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Sistem de control al focului T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Sistem de control al focului T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Sistem de control al focului T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Sistem de control al focului T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Sistem de control al focului T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Sistem de control al focului T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Suită de supraviețuire T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Suită de supraviețuire T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Suită de supraviețuire T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Suită de supraviețuire T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Suită de supraviețuire T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Suită de supraviețuire T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Suită de supraviețuire T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Suită de supraviețuire T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Suită de supraviețuire T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Sistem de precizie îmbunătățită T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Sistem de precizie îmbunătățită T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Sistem de precizie îmbunătățită T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Sistem de precizie îmbunătățită T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Sistem de precizie îmbunătățită T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Sistem de precizie îmbunătățită T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Sistem de precizie îmbunătățită T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Sistem de precizie îmbunătățită T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Sistem de precizie îmbunătățită T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Sistem de mobilitate T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Sistem de mobilitate T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Sistem de mobilitate T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Sistem de mobilitate T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Sistem de mobilitate T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Sistem de mobilitate T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Sistem de mobilitate T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Sistem de mobilitate T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Sistem de mobilitate T3"
+
+msgid "nitro/battleDescr"
+msgstr "Crește temporar puterea motorului vehiculului cu %(enginePowerFactor)s și viteza maximă a acestuia de %(maxSpeedFactor)s ori timp de %(consumeSeconds)s s."
+
+msgid "nitro/descr"
+msgstr "Crește temporar puterea motorului vehiculului cu %(enginePowerFactor)s și viteza maximă a acestuia de %(maxSpeedFactor)s ori timp de %(consumeSeconds)s s."
+
+msgid "nitro/long_special"
+msgstr "Crește temporar puterea motorului vehiculului {green_Open}cu %(enginePowerFactor)s{green_Close} și viteza maximă a acestuia {green_Open}de %(maxSpeedFactor)s ori{green_Close} {whiteSpanish_Open}timp de %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Supraalimentare"
+
+msgid "nitro/short_special"
+msgstr "Crește temporar puterea motorului vehiculului {green_Open}cu %(enginePowerFactor)s{green_Close} și viteza maximă a acestuia {green_Open}de %(maxSpeedFactor)s ori{green_Close} {whiteSpanish_Open}timp de %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Configurație alternativă: configurare auxiliară"
+
+msgid "passive_engineering/longDescr"
+msgstr "Conferă un bonus la viteza de capturare și realimentare. Crește viteza de realimentare, reducând timpul necesar pentru reîmprospătarea cercurilor de realimentare, precum și capturarea sau recâștigarea controlului asupra punctelor cheie."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Nu poți aplica această rezervă de luptă pentru artilerii."
+
+msgid "passive_engineering/name"
+msgstr "Inginerie"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Conferă bonus vitezei de capturare, blocării capturării și reaprovizionării."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Nepotrivită pentru artilerii"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Triplează efectul talentului Depozitare sigură"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Conferă talentul Depozitare sigură antrenat la 100%"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Talentul „Depozitare sigură” crește durabilitatea compartimentului de muniții pe perioada luptei. Odată talentul antrenat la 100%, directiva echipată îi crește efectul; dacă nu, directiva conferă vehiculului talentul antrenat la 100%."
+
+msgid "pedantBattleBooster/name"
+msgstr "Organizator de proiectile"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Conferă talentul Depozitare sigură la 100% sau îi crește efectul"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "În {colorTagOpen}%(delay)d s{colorTagClose}, zona selectată va fi atacată cu o Lovitură de Artilerie. Toate țintele care suferă daune într-o rază de {colorTagOpen}%(radius)d m{colorTagClose} vor suferi daune de {colorTagOpen}%(damage)d{colorTagClose} HP și vor suferi șoc timp de {colorTagOpen}%(stunDuration)d s{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Lovitură de artilerie"
+
+msgid "poi_radar/descr"
+msgstr "La activare, toate vehiculele inamice vor rămâne descoperite timp de {colorTagOpen}%(duration)d s{colorTagClose}."
+
+msgid "poi_radar/name"
+msgstr "Radar de divizie"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Dublează efectul talentului Pregătire"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Conferă talentul Pregătire antrenat la 100%"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Talentul Pregătire descrește timpul de refacere al consumabilelor pe perioada luptei. Odată talentul antrenat la 100%, directiva echipată îi crește efectul; dacă nu, directiva conferă vehiculului talentul antrenat la 100%."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Pregătire completă"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Conferă talentul Pregătire la 100% sau îi crește efectul"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s la puterea motorului şi viteza de rotaţie a turelei, pe durata luptei."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} la puterea motorului şi viteza de rotaţie a turelei."
+
+msgid "qualityFuel/long_special"
+msgstr "Adaugă {colorTagOpen}5%{colorTagClose} la puterea motorului și viteza de rotație a turelei pe timpul luptei. Se activează automat la începutul luptei și are efect pe toată durata acesteia."
+
+msgid "qualityFuel/name"
+msgstr "Combustibil calitativ"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} la puterea motorului şi viteza de rotaţie a turelei"
+
+msgid "radar/descr"
+msgstr "Detectează vehicule inamice și prada de război pe mini-hartă."
+
+msgid "radar/name"
+msgstr "Detectarea Radio"
+
+msgid "rammer/long_special"
+msgstr "Rata de foc este cea mai importantă caracteristică a vehiculului tău. Aceste echipament este de ajutor în luptă și ar trebui montat pe vehicule. Totuși, acestea nu pot fi montate pe vehicule cu sistem de încărcare cu casetă."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s la viteza de încărcare cu Încărcătorul rapid de tun (toate tipurile și calibrele), încărcătorul recompensă sau Sistemul experimental de încărcare montate."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2,5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2,5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Crește efectul echipamentului Încărcător rapid, Încărcător recompensă sau Sistem de încărcare experimental pe parcursul unei lupte. Directiva are efect doar cu echipamentul corespunzător instalat."
+
+msgid "rammerBattleBooster/name"
+msgstr "Compartiment muniție organizat"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Îmbunătățește efectul încărcătorului rapid"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Dublează efectul talentului Țintă memorată"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Conferă talentul Țintă memorată antrenat la 100%"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Talentul „Țintă memorată” menține vizibil un vehicul inamic pentru încă două secunde, pe perioada luptei. Dacă talentul este antrenat la 100%, directiva echipată îi crește efectul. Dacă nu, directiva conferă vehiculului talentul antrenat la 100%."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Concentrat pe țintă"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Conferă talentul Țintă memorată la 100% sau îi crește efectul"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "ration/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor U.R.S.S.."
+
+msgid "ration/name"
+msgstr "Raţii de luptă suplimentare"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Potrivit doar pentru vehiculele sovietice."
+
+msgid "ration/short_special"
+msgstr "Crește performanța vehiculelor U.R.S.S."
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "ration_china/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor chinezești."
+
+msgid "ration_china/name"
+msgstr "Raţii de luptă îmbunătăţite"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Potrivit doar pentru vehiculele chinezești."
+
+msgid "ration_china/short_special"
+msgstr "Crește performanța vehiculelor chinezești"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "ration_czech/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor cehoslovace."
+
+msgid "ration_czech/name"
+msgstr "Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Potrivit doar pentru vehiculele cehoslovace."
+
+msgid "ration_czech/short_special"
+msgstr "Crește performanța vehiculelor cehoslovace"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "ration_italy/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor italiene."
+
+msgid "ration_italy/name"
+msgstr "Spaghetti cu sos de carne"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Potrivit doar pentru vehiculele italiene."
+
+msgid "ration_italy/short_special"
+msgstr "Crește performanța vehiculelor italiene"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "ration_japan/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor japoneze."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Potrivit doar pentru vehiculele japoneze."
+
+msgid "ration_japan/short_special"
+msgstr "Crește performanța vehiculelor japoneze"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "ration_poland/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor poloneze."
+
+msgid "ration_poland/name"
+msgstr "Pâine cu untură"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Potrivit doar pentru vehiculele poloneze."
+
+msgid "ration_poland/short_special"
+msgstr "Crește performanța vehiculelor poloneze"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "ration_sweden/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor suedeze."
+
+msgid "ration_sweden/name"
+msgstr "Cafea cu croissante"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Potrivit doar pentru vehiculele suedeze."
+
+msgid "ration_sweden/short_special"
+msgstr "Crește performanța vehiculelor suedeze"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s la bonusul de eficiență a echipajului pe parcursul luptei."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la bonusul de eficiență a echipajului."
+
+msgid "ration_uk/long_special"
+msgstr "Se activează automat la începutul luptei și are efect pe toată durata acesteia. Potrivit doar vehiculelor britanice."
+
+msgid "ration_uk/name"
+msgstr "Budincă şi ceai"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Potrivit doar pentru vehiculele britanice."
+
+msgid "ration_uk/short_special"
+msgstr "Crește performanța vehiculelor britanice"
+
+msgid "recon/longDescr"
+msgstr "Comandă unui avion de recunoaștere să descopere o linie a unei zone largi. Vehiculele din raza vizuală a avionului sunt descoperite și rămân vizibile o perioadă anume. Detectează câmpurile de mine."
+
+msgid "recon/name"
+msgstr "Zbor de recunoaștere"
+
+msgid "recon/shortDescr"
+msgstr "Descoperă vehicule și mine inamice."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} la puterea motorului, însă avariază motorul."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Crește puterea motorului cu {colorTagOpen}10%{colorTagClose}, însă, pe perioada activării, reduce gradual durabilitatea motorului. Se poate activa și dezactiva de mai multe ori în luptă. Potrivit doar vehiculelor chinezești și U.R.S.S.."
+
+msgid "removedRpmLimiter/name"
+msgstr "Limitator de turaţie eliminat"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s la puterea motorului, însă avariază motorul. Poate fi folosit de mai multe ori într-o luptă."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Potrivit doar pentru vehiculele sovietice și chinezești."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} la puterea motorului, însă avariază motorul"
+
+msgid "repairpoint/battleDescr"
+msgstr "Creează o zonă statică temporară care repară toate modulele avariate, elimină TOATE efectele negative și restaurează %(healPerTick)s dintre punctele de integritate ale vehiculului per secundă, timp de %(timer)s s.\n\n*Vehiculele aliate din zona de efect vor recupera de asemenea HP."
+
+msgid "repairpoint/descr"
+msgstr "Creează o zonă statică temporară care repară toate modulele avariate, elimină TOATE efectele negative și restaurează %(healPerTick)s dintre punctele de integritate ale vehiculului per secundă, timp de %(timer)s s.\n\n*Vehiculele aliate din zona de efect vor recupera de asemenea HP."
+
+msgid "repairpoint/long_special"
+msgstr "Creează o zonă statică temporară care repară toate modulele avariate, elimină TOATE efectele negative și {green_Open}restaurează %(healPerTick)s{green_Close} dintre punctele de integritate ale vehiculului {whiteSpanish_Open}per secundă, timp de %(timer)s s.{whiteSpanish_Close}\n\n*Vehiculele aliate din zona de efect vor recupera de asemenea HP."
+
+msgid "repairpoint/name"
+msgstr "Zonă de reparații"
+
+msgid "repairpoint/short_special"
+msgstr "Creează o zonă statică temporară care repară toate modulele avariate, elimină TOATE efectele negative și {green_Open}restaurează %(healPerTick)s{green_Close} dintre punctele de integritate ale vehiculului {whiteSpanish_Open}per secundă, timp de %(timer)s s.{whiteSpanish_Close}\n\n*Vehiculele aliate din zona de efect vor recupera de asemenea HP."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Curățarea țevii ghintuite (Tipul 1)"
+
+msgid "roleSlot/name"
+msgstr "Categoria celui de-al doilea locaș de echipament"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Sistem de siguranță pasiv"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Sistem de siguranță\npasiv"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Reconfigurarea compartimentului muniției"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Reconfigurarea\ncompartimentului muniției"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Șenile reparabile"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Șenile\nreparabile"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Optimizarea compartimentului motorului"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Optimizarea\ncompartimentului motorului"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Suspensie întărită"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Suspensie\nîntărită"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Suspensie ușoară"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Suspensie\nușoară"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Lustruirea mecanismului de țintire"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Lustruirea\nmecanismului de țintire"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Ajustarea paralaxei"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Ajustarea\nparalaxei"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Tuningul mecanismului extractor"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Tuningul\nmecanismului extractor"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Periscop în unghi drept"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Periscop în\nunghi drept"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Tuningul mecanismului de încărcare"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Tuningul mecanismului\nde încărcare"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Tuningul mecanismului de țintire"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Tuningul mecanismului\nde țintire"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Tuningul cardanului"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Tuningul\ncardanului"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Motor electric de țintire"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Motor electric\nde țintire"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Roți de țintire noi"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Roți de țintire\nnoi"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Optimizarea încărcătorului"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Optimizarea\nîncărcătorului"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Reducerea generală a greutății"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Reducerea generală\na greutății"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Creșterea generală a durabilității"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Creșterea generală\na durabilității"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Vopsea mată"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Vopsea\nmată"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Viteză suplimentară de marșarier"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Viteză suplimentară\nde marșarier"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Motor cu cilindri în V"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Motor cu\ncilindri în V"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Încărcător rapid de tun îmbunătățit"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Încărcător rapid\nde tun îmbunătățit"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Antifonare suplimentară"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Antifonare\nsuplimentară"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Eliminarea antifonării"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Eliminarea\nantifonării"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Sistem de siguranță auxiliar"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Sistem de siguranță\nauxiliar"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Puncte de montaj ușoare"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Puncte de montaj\nușoare"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Recablarea puterii (Sistemul 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Recablarea puterii\n(Sistemul 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Recablarea puterii (Sistemul 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Recablarea puterii\n(Sistemul 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Platformă întărită"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Platformă\nîntărită"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Platformă ușoară"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Platformă\nușoară"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Concentrare pe mobilitate"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Concentrare pe\nmobilitate"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Concentrare pe putere de foc"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Concentrare pe\nputere de foc"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Tun greu"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Tun\ngreu"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Tun ușor"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Tun\nușor"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Tuningul puterii (Sistemul 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Tuningul puterii\n(Sistemul 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Tuningul puterii (Sistemul 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Tuningul puterii\n(Sistemul 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Carenă întărită"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Carenă\nîntărită"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Carenă ușoară"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Carenă\nușoară"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Optică anti-reflex îmbunătățită"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Optică anti-reflex\nîmbunătățită"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Periscop extern"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Periscop\nextern"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Vizor panoramic"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Vizor\npanoramic"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Sistem de observare cu unghi ascuțit"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Sistem de observare\ncu unghi ascuțit"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Structură primară întărită"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Structură primară\nîntărită"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Interior extins al turelei"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Interior extins\nal turelei"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Kit de recunoaștere"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Kit\nde recunoaștere"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Kit de asalt"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Kit\nde asalt"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Întărire avansată a durabilității"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Întărire avansată\na durabilității"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Îmbunătățire avansată a țintirii"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Îmbunătățire avansată\na țintirii"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Echipament de observare suplimentar"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Echipament de observare\nsuplimentar"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Articulații blindate"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Articulații\nblindate"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Tuningul mecanismului de încărcare"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Tuningul mecanismului\nde încărcare"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Tuningul mecanismului de țintire"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Tuningul mecanismului\nde țintire"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Tuningul cardanului"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Tuningul\ncardanului"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Motor electric de țintire"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Motor electric\nde țintire"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Optimizarea încărcătorului"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Optimizarea\nîncărcătorului"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Roți de țintire noi"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Roți de țintire\nnoi"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Tuningul sistemului de injecție"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Tuningul sistemului\nde injecție"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Tuningul câmpului de observare"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Tuningul câmpului\nde observare"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Creșterea durabilității modulelor"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Creșterea durabilității\nmodulelor"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Puncte de montaj din aliaj ușor"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Puncte de montaj\ndin aliaj ușor"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Optimizarea încărcătorului"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Optimizarea\nîncărcătorului"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Roți de țintire noi"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Roți de țintire\nnoi"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Indicatori de presiune ridicată"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Indicatori de\npresiune ridicată"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Optică sensibilă"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Optică\nsensibilă"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Galeți întăriți"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Galeți\nîntăriți"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Galeți ușori"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Galeți\nușori"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Optimizarea suspensiei"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Optimizarea\nsuspensiei"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Optimizarea motorului"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Optimizarea\nmotorului"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Hunter S Suite"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Hunter S\nSuite"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Hunter C Suite"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Hunter C\nSuite"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Tuningul hidraulicii (Sistemul 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Tuningul hidraulicii\n(Sistemul 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Tuningul hidraulicii (Sistemul 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Tuningul hidraulicii\n(Sistemul 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Tuningul mecanismului de încărcare"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Tuningul mecanismului\nde încărcare"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Tuningul mecanismului de țintire"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Tuningul mecanismului\nde țintire"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Creșterea supraviețuirii"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Creșterea\nsupraviețuirii"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Reducerea greutății"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Reducerea\ngreutății"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Suspensie tot-teren"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Suspensie\ntot-teren"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Suspensie ușoară"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Suspensie\nușoară"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Ajustarea paralaxei"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Ajustarea\nparalaxei"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Lustruirea mecanismului de țintire"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Lustruirea\nmecanismului de țintire"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Antifonare"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Antifonare"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Motor electric periscop"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Motor electric\nperiscop"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Tuningul valvelor (Sistemul 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Tuningul valvelor\n(Sistemul 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Tuningul valvelor (Sistemul 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Tuningul valvelor\n(Sistemul 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Tuningul mecanismului de încărcare"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Tuningul mecanismului\nde încărcare"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Tuningul mecanismului de țintire"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Tuningul mecanismului\nde țintire"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Protecție anti-schije întărită"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Protecție anti-schije\nîntărită"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Protecție anti-schije ușoară"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Protecție anti-schije\nușoară"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Creșterea durabilității modulelor"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Creșterea durabilității\nmodulelor"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Puncte de montaj din aliaj ușor"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Puncte de montaj\ndin aliaj ușor"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Tuningul barelor de suspensie"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Tuningul barelor\nde suspensie"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Vizor îmbunătățit"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Vizor\nîmbunătățit"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Tuningul turbocompresorului"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Tuningul\nturbocompresorului"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Faruri antireflex"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Faruri\nantireflex"
+
+msgid "selfBuff/battleDescr"
+msgstr "Timp de %(duration)s s, reduce cu %(gunAimingTime)s dispersia și timpul de țintire și îmbunătățește stabilizarea și cadența de tragere ale tunului.\n\n*Nu afectează timpul dintre lansarea unui proiectil și încărcarea următorului proiectil în casetă, tun sau container."
+
+msgid "selfBuff/descr"
+msgstr "Timp de %(duration)s s, reduce cu %(gunAimingTime)s dispersia și timpul de țintire și îmbunătățește stabilizarea și cadența de tragere ale tunului.\n\n*Nu afectează timpul dintre lansarea unui proiectil și încărcarea următorului proiectil în casetă, tun sau container."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}Timp de %(duration)s s{whiteSpanish_Close}, reduce cu {green_Open}%(gunAimingTime)s{green_Close} dispersia și timpul de țintire și îmbunătățește stabilizarea și cadența de tragere ale tunului.\n\n*Nu afectează timpul dintre lansarea unui proiectil și încărcarea următorului proiectil în casetă, tun sau container."
+
+msgid "selfBuff/name"
+msgstr "Urmărirea Țintei"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}Timp de %(duration)s s{whiteSpanish_Close}, reduce cu {green_Open}%(gunAimingTime)s{green_Close} dispersia și timpul de țintire și îmbunătățește stabilizarea și cadența de tragere ale tunului.\n\n*Nu afectează timpul dintre lansarea unui proiectil și încărcarea următorului proiectil în casetă, tun sau container."
+
+msgid "shells_consumables_switch/name"
+msgstr "Configurație alternativă: configurare esențială"
+
+msgid "shotPassion/battleDescr"
+msgstr "Timp de %(duration)s s, reduce eficiența țintirii și a stabilizării cu %(gunAimingTime)s, însă fiecare lovitură penetrantă va crește daunele provocate cu %(damageIncreasePerShot)s. Efectul se suprapune de până la 5 ori. Loviturile fără daune sau ratările resetează suprapunerea bonusului la zero.\n\n*Loviturile cu Descărcare electrică se adaugă la suprapunerea bonusului."
+
+msgid "shotPassion/descr"
+msgstr "Timp de %(duration)s s, reduce eficiența țintirii și a stabilizării cu %(gunAimingTime)s, însă fiecare lovitură penetrantă va crește daunele provocate cu %(damageIncreasePerShot)s. Efectul se suprapune de până la 5 ori. Loviturile fără daune sau ratările resetează suprapunerea bonusului la 0.\n\n*Loviturile cu Descărcare electrică se adaugă la suprapunerea bonusului."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}Timp de %(duration)s s{whiteSpanish_Close}, reduce eficiența țintirii și a stabilizării {red_Open}cu %(gunAimingTime)s{red_Close}, însă fiecare lovitură penetrantă va crește daunele provocate {green_Open}cu %(damageIncreasePerShot)s. {green_Close}Efectul se suprapune {whiteSpanish_Open}de până la 5 ori{whiteSpanish_Close}. Loviturile fără daune sau ratările resetează suprapunerea bonusului la zero.\n\n*Loviturile cu Descărcare electrică se adaugă la suprapunerea bonusului."
+
+msgid "shotPassion/name"
+msgstr "Surging Fervor"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}Timp de %(duration)s s{whiteSpanish_Close}, reduce eficiența țintirii și a stabilizării {red_Open}cu %(gunAimingTime)s{red_Close}, însă fiecare lovitură penetrantă va crește daunele provocate {green_Open}cu %(damageIncreasePerShot)s. {green_Close}Efectul se suprapune {whiteSpanish_Open}de până la 5 ori{whiteSpanish_Close}. Loviturile fără daune sau ratările resetează suprapunerea bonusului la zero.\n\n*Loviturile cu Descărcare electrică se adaugă la suprapunerea bonusului."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Al șaselea simț este activat cu 1 s mai devreme"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Caracteristica „Al șaselea simț” îi permite comandantului să identifice dacă vehiculul a fost descoperit de inamic. Se activează la 3 s după descoperirea vehiculului."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "Talentul Al Șaselea Simț îi permite comandantului să determine dacă vehiculul a fost descoperit de inamic în timpul luptei. Directiva echipată îi crește efectul."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Concentrare sporită"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Crește efectul caracteristicii „Al șaselea simț” a comandantului"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Vindecă toţi membrii echipajului răniţi și elimină efectele șocului."
+
+msgid "smallMedkit/long_special"
+msgstr "Vindecă toți membrii de echipaj răniți și anulează efectul de șoc la activare. Potrivit tuturor tancurilor din orice țară. Consumabilul este eliminat după luptă dacă a fost utilizat minim o dată."
+
+msgid "smallMedkit/name"
+msgstr "Trusă de prim ajutor de bază"
+
+msgid "smallMedkit/onUse"
+msgstr "Vindecă toţi membrii echipajului răniţi și elimină efectele șocului."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Vindecă toţi membrii echipajului răniţi și elimină efectele șocului."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Vindecă toţi membrii echipajului răniţi și elimină efectele șocului."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Repară toate modulele avariate."
+
+msgid "smallRepairkit/long_special"
+msgstr "Repară toate modulele avariate la activare. Potrivit tuturor tipurilor de vehicule din orice țară. Consumabilul este eliminat după luptă dacă a fost folosit doar o dată."
+
+msgid "smallRepairkit/name"
+msgstr "Set de piese de schimb de bază"
+
+msgid "smallRepairkit/onUse"
+msgstr "Repară toate modulele avariate la activare. Potrivit tuturor tipurilor de vehicule din orice țară. Consumabilul este eliminat după luptă dacă a fost folosit doar o dată."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Repară toate modulele avariate."
+
+msgid "smoke/longDescr"
+msgstr "Generează ecrane de fum care ascund toate vehiculele din interiorul și din spatele fumului. Vehiculele inamice din interiorul fumului au rază vizuală și performanță a echipajului scăzute."
+
+msgid "smoke/name"
+msgstr "Ecran de fum"
+
+msgid "smoke/shortDescr"
+msgstr "Fumul ascunde vehiculele din el/spatele său. Inamicii au rază vizuală și performanță reduse."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Dublează efectul talentului Deplasare lină"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Conferă talentul Deplasare lină antrenat la 100%"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Talentul „Deplasare lină” îmbunătățește precizia la foc din mers pe perioada luptei. Odată talentul antrenat la 100%, directiva echipată îi crește efectul; dacă nu, directiva conferă vehiculului talentul antrenat la 100%."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Cutie de viteze complexă"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Conferă talentul Deplasare lină la 100% sau îi crește efectul"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Dublează efectul talentului Țintaș precis"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Conferă talentul Țintaș precis antrenat la 100%"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Talentul „Țintaș precis” îmbunătățește acuratețea în timpul rotației turelei pe perioada luptei. Odată talentul antrenat la 100%, directiva echipată îi crește efectul; dacă nu, directiva conferă vehiculului talentul antrenat la 100%."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Mână sigură"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Conferă talentul Țintaș precis la 100% sau îi crește efectul"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Amplasează o mină autopropulsată care va urmări cel mai apropiat vehicul inamic timp de până la %(botLifeTime)s s și va provoca daune de 400-600 HP într-o zonă restrânsă la detonare.\n\n*Inamicii pot distruge Mingea de foc cu proiectile sau prin coliziune. Mingea de foc provoacă daune suplimentare prin coliziune la impactul cu ținta."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Amplasează o mină autopropulsată care va urmări cel mai apropiat vehicul inamic timp de până la %(botLifeTime)s s și va provoca daune de 400-600 HP într-o zonă restrânsă la detonare.\n\n*Inamicii pot distruge Mingea de foc cu proiectile sau prin coliziune. Mingea de foc provoacă daune suplimentare prin coliziune la impactul cu ținta."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Amplasează o mină autopropulsată care va urmări cel mai apropiat vehicul inamic timp de până la {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} și va provoca {whiteSpanish_Open}daune de 400-600 HP{whiteSpanish_Close} într-o zonă restrânsă la detonare.\n\n*Inamicii pot distruge Mingea de foc cu proiectile sau prin coliziune. Mingea de foc provoacă daune suplimentare prin coliziune la impactul cu ținta."
+
+msgid "spawn_kamikaze/name"
+msgstr "Minge de foc"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Amplasează o mină autopropulsată care va urmări cel mai apropiat vehicul inamic timp de până la {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} și va provoca {whiteSpanish_Open}daune de 400-600 HP{whiteSpanish_Close} într-o zonă restrânsă la detonare.\n\n*Inamicii pot distruge Mingea de foc cu proiectile sau prin coliziune. Mingea de foc provoacă daune suplimentare prin coliziune la impactul cu ținta."
+
+msgid "stealthRadar/descr"
+msgstr "Conferă un bonus la camuflaj și raza vizuală. Reduce camuflajul vehiculelor inamice."
+
+msgid "stealthRadar/long_descr"
+msgstr "Crește parametrul de camuflaj al vehiculului tău %(activationDelay)s s după oprire și reduce camuflajul vehiculelor inamice. Conferă un bonus pasiv la raza vizuală și detectează minele inamice. Nu funcționează atunci când vehiculul se află în mișcare."
+
+msgid "stealthRadar/name"
+msgstr "Santinelă"
+
+msgid "stealthRadar/short_descr"
+msgstr "Conferă un bonus la camuflaj și raza vizuală. Reduce camuflajul vehiculelor inamice."
+
+msgid "stereoscope/battleDescr"
+msgstr "Sporește raza vizuală a unui vehicul staționar la 3 s după oprire (până la 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "O rază vizuală bună conferă un avantaj solid în luptă vehiculelor. Acest tip de echipament este util anti-tancurilor cu siluetă joasă și tun precis. Se activează la 3 secunde după ce vehiculul s-a oprit."
+
+msgid "stereoscope/name"
+msgstr "Binoclu periscop"
+
+msgid "stereoscope_tier1/name"
+msgstr "Binoclu periscop Clasa 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "Binoclu periscop Clasa 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "Binoclu periscop Clasa 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Înlocuirea componentelor suspensiei (Tipul 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Înlocuirea componentelor suspensiei (Tipul 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Lustruirea mecanismului de rotație (Tipul 1)"
+
+msgid "tankRammer/name"
+msgstr "Încărcător rapid de tun"
+
+msgid "tankRammer_tier1/name"
+msgstr "Încărcător rapid de tun Clasa 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "Încărcător rapid de tun Clasa 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Creează o zonă în care o serie de %(thunderCount)s descărcări electrice lovesc cu frecvență ridicată. Fiecare descărcare provoacă daune de %(damage)s HP și reduce temporar mobilitatea fiecărui vehicul inamic din aria de efect a abilității.\n\n*Există o întârziere de %(delay)s s între activarea abilității și prima descărcare. Efectul negativ poate fi eliminat cu un set de piese de schimb."
+
+msgid "thunderStrike/descr"
+msgstr "Creează o zonă în care o serie de %(thunderCount)s descărcări electrice lovesc cu frecvență înaltă. Fiecare descărcare provoacă daune de %(damage)s HP și reduce temporar mobilitatea fiecărui vehicul inamic prins în zona de efect.\n\n*Între activarea abilității și prima descărcare există o întârziere de %(delay)s s. Efectul negativ poate fi eliminat cu un set de piese de schimb."
+
+msgid "thunderStrike/longDescr"
+msgstr "Creează o zonă în care o serie de %(thunderCount)s descărcări electrice lovesc cu frecvență ridicată. Fiecare descărcare provoacă {whiteSpanish_Open}daune de %(damage)s HP{whiteSpanish_Close} și reduce temporar mobilitatea fiecărui vehicul inamic din aria de efect a abilității.\n\n*Există o întârziere de %(delay)s s între activarea abilității și prima descărcare. Efectul negativ poate fi eliminat cu un set de piese de schimb."
+
+msgid "thunderStrike/name"
+msgstr "Descărcare electrică"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Creează o zonă în care o serie de %(thunderCount)s descărcări electrice lovesc cu frecvență ridicată. Fiecare descărcare provoacă {whiteSpanish_Open}daune de %(damage)s HP{whiteSpanish_Close} și reduce temporar mobilitatea fiecărui vehicul inamic din aria de efect a abilității.\n\n*Există o întârziere de %(delay)s s între activarea abilității și prima descărcare. Efectul negativ poate fi eliminat cu un set de piese de schimb."
+
+msgid "trappoint/battleDescr"
+msgstr "Timp de %(duration)s s, creează o zonă care reduce parametrii de mobilitate cu %(vehicleMaxSpeed)s, crescând timpul de țintire și reîncărcare cu %(gunReloadTime)s pentru toate vehiculele inamice din zona sa de acțiune."
+
+msgid "trappoint/descr"
+msgstr "Timp de %(duration)s s, creează o zonă care reduce parametrii de mobilitate cu %(vehicleMaxSpeed)s, precum și timpul de țintire și reîncărcare cu %(gunReloadTime)s pentru toate vehiculele inamice din zona sa de acțiune."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}Timp de %(duration)s s{whiteSpanish_Close}, creează o zonă care reduce parametrii de mobilitate {whiteSpanish_Open}cu %(vehicleMaxSpeed)s{whiteSpanish_Close}, precum și {whiteSpanish_Open}timpul de țintire și reîncărcare cu %(gunReloadTime)s{whiteSpanish_Close} pentru toate vehiculele inamice din zona sa de acțiune."
+
+msgid "trappoint/name"
+msgstr "Cursă"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}Timp de %(duration)s s{whiteSpanish_Close}, creează o zonă care reduce parametrii de mobilitate {whiteSpanish_Open}cu %(vehicleMaxSpeed)s{whiteSpanish_Close}, crescând {whiteSpanish_Open}timpul de țintire și reîncărcare cu %(gunReloadTime)s{whiteSpanish_Close} pentru toate vehiculele inamice din zona sa de acțiune."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Eficiența depinde de tipul vehiculului. Sporește camuflarea unui vehicul staționar sau în mișcare. Folositor la cercetarea activă, precum și la cercetarea pasivă în locații riscante."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Eșapament recompensă"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Sporește camuflarea unui vehicul staționar sau în mișcare."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Mecanism de poziționare a tunului recompensă"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Sporește viteza de ochire a tunului pentru a tragere rapidă și precisă."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Stabilizator recompensă"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Reduce dispersia tunului la tragerea din mișcare sau la rotirea vehiculului."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Aparatură optică recompensă"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Extinde raza vizuală pentru vehiculele staționare și în mișcare."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Reface complet integritatea suspensiei după reparație."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Reface suspensia după reparație."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Sporește rezistența vehiculului și viteza de reparație. Reduce daunele la carenă provocate de avarierea suspensiei prin impact. Reface complet integritatea suspensiei după reparație. Reduce șansa de distrugere a șenilei la primirea de daune, permițând vehiculului să rămână mobil mai mult timp."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Consolidare recompensă"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Sporește rezistența vehiculului, protejează suspensia"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Tehnologie de protecție recompensă"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Mecanism de rotație recompensă"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Reduce mărimea cercului colimatorului, sporind acuratețea în timpul și la finalizarea ochirii tunului. Ca rezultat, tunul va avea șanse mai mari de a lovi ținta."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Țintire Recompensă"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Reduce dispersia tunului"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Ventilație recompensă"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Sporește eficiența echipajului, ceea ce are un efect pozitiv asupra majorității caracteristicilor vehiculului."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Încărcător rapid recompensă"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Accelerează încărcarea tunului. Nu are restricții de clasă."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Sporește puterea motorului, conferind accelerație, manevrabilitate și putere de urcare în pantă mai bune. Sporește viteza maximă a vehiculului la înaintare și în marșarier, permițându-ți să ocupi poziții și să eviți focul inamicului mai rapid."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Turbocompresor recompensă"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Sporește puterea motorului și viteza maximă"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} la raza vizuală, până în 445 m"
+
+msgid "trophyOptics/name"
+msgstr "Aparatură optică recompensă"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Eșapament recompensă"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Mecanism de poziționare a tunului recompensă"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Stabilizator recompensă"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Aparatură optică recompensă"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Reface complet integritatea suspensiei după reparație."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Reface suspensia după reparație."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Consolidare recompensă"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Tehnologie de protecție recompensă"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Mecanism de rotație recompensă"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Țintire Recompensă"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Ventilație recompensă"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Încărcător rapid recompensă"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Turbocompresor recompensă"
+
+msgid "turbocharger/long_special"
+msgstr "Sporește puterea motorului, conferind accelerație, manevrabilitate și putere de urcare în pantă mai bune. Sporește viteza maximă a vehiculului la înaintare și în marșarier, permițându-ți să ocupi poziții și să eviți focul inamicului mai rapid."
+
+msgid "turbocharger/name"
+msgstr "Supraalimentare"
+
+msgid "turbocharger/short_special"
+msgstr "Sporește puterea motorului și viteza maximă"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s la puterea motorului cu Supraalimentare (orice clasă), Supraalimentare recompensă, Compresor îmbunătățit sau Sistem de mobilitate instalate."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Crește efectul Supraalimentării, Supraalimentării recompensă sau Compresorului îmbunătățit pe parcursul unei lupte. Directiva are efect doar cu echipamentul corespunzător instalat."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Înlocuire filtru de combustibil"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Crește puterea motorului"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turbocompresor Clasa 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turbocompresor Clasa 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turbocompresor Clasa 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Dublează efectul talentului Șofer excepțional"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Conferă talentul Șofer excepțional antrenat la 100%"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Talentul „Șofer excepțional” crește viteza de rotație a vehiculelor staționare sau în mișcare pe perioada luptei. Odată talentul antrenat la 100%, directiva echipată îi crește efectul; dacă nu, directiva conferă vehiculului talentul antrenat la 100%."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Curs de luptă"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Conferă talentul Șofer excepțional la 100% sau îi crește efectul"

@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Όλα"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Η μάχη αυτή ήταν περισσότερο δίκαια ή διασκεδαστική απ' ότι συνήθως."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "Καλή"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "Μία τυπική μάχη, χωρίς κάτι το ασυνήθιστο."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Τυπική"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Η μάχη αυτή ήταν πιο άδικη ή λιγότερο διασκεδαστική απ' ότι συνήθως."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "Κακή"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "ΚΑΛΗ"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "Βαθμολογήστε τη μάχη:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "ΤΥΠΙΚΗ"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "ΚΑΚΗ"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Ταξινόμηση Με Βάση Τους Πόντους Αίγλης."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Πόντοι Αίγλης"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Προεπισκόπηση"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Οικονομική Ανάλυση"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Πρόοδος Αποστολής"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Σκορ Ομάδας"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Κατάταξη με βάση τους Πόντους Αίγλης. Οι Πόντοι Αίγλης επηρεάζουν τους Πόντους Κατάταξης που κερδίζονται ή χάνονται σε μία μάχη."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Πόντοι Αίγλης"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Σύμμαχοι:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Υπεράσπιση βάσης"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Κατάληψη βάσης:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Βάσεις"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Κατάληψη βάσης"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Ουδέτερη βάση"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "Δεν πραγματοποιήσατε κάποια ενέργεια στη μάχη αυτή."
+
+msgid "common/battleEfficiency/none"
+msgstr "Κανένα εχθρικό όχημα δεν καταστράφηκε ούτε εντοπίστηκε."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Οχήματα"
+
+msgid "common/battleEfficiency/title"
+msgstr "Κατορθώματα στη Μάχη"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "ΕΠΙΔΟΣΕΙΣ ΣΤΗ ΜΑΧΗ"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Επιδόσεις Στη Μάχη (μαζί με τις ικανότητες)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Επιδόσεις στη Μάχη (Χωρίς τις Εφεδρείες)"
+
+msgid "common/battleType/sortie"
+msgstr "Αψιμαχία εναντίον του clan "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Νέα ικανότητα"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Αγορά Προνομιακού"
+
+msgid "common/details/creditsTitle"
+msgstr "Credits"
+
+msgid "common/details/crystal"
+msgstr "Bonds"
+
+msgid "common/details/getPremBtn"
+msgstr "Λεπτομέρειες"
+
+msgid "common/details/noPremTitle"
+msgstr "Κανονικός Λογαριασμός"
+
+msgid "common/details/premTitle"
+msgstr "Προνομιακός WoT"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}Μπόνους x{{multiplier}} στα κερδισμένα XP από την επιλεγμένη νικηφόρα μάχη με Προνομιακό Λογαριασμό WoT.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Κερδίστε μέχρι και {{bonusCredits}} κάθε {{@ style}}{{durationInDays}} d{{/}} με Προνομιακό Λογαριασμό WoT.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "Εφαρμογή x%(multiplier)d στο κερδισμένο experience από την επιλεγμένη νικηφόρα μάχη με Προνομιακό Λογαριασμό WoT."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Κερδίστε μέχρι και %(bonusCredits)s κάθε %(durationInDays)d d με Προνομιακό Λογαριασμό WoT."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "Επιπλέον experience, credits, προνομιακές αποστολές και μπόνους Ουλαμού με τον Προνομιακό Λογαριασμό WoT."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Ξεκλειδώστε ειδικές αποστολές με τον Προνομιακό Λογαριασμό WoT."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Κερδίστε περισσότερα credits όταν παίζετε σε Ουλαμό με τον Προνομιακό Λογαριασμό WoT."
+
+msgid "common/details/xpTitle"
+msgstr "Experience"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Experience %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Αγορά εξαρτήματος"
+
+msgid "common/fitting/research"
+msgstr "Ανακάλυψη εξαρτήματος"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Φάση κύριας μάχης:"
+
+msgid "common/missions/noProgress/button"
+msgstr "Αποστολές"
+
+msgid "common/missions/noProgress/description"
+msgstr "Προβολή τρέχουσας προόδου αποστολής"
+
+msgid "common/missions/noProgress/header"
+msgstr "Καμία πρόοδος στην ολοκλήρωση αποστολών ή την ανακάλυψη οχημάτων."
+
+msgid "common/newSkillPrediction"
+msgstr "Απομένουν (κατ’εκτίμηση):%(battles)s μάχες"
+
+msgid "common/noIncome/alert/text"
+msgstr "Αφού λάβετε μέρος σε 10 μάχες, δεν θα κερδίζετε πια credits, experience ή έπαθλα από αυτές τις μάχες και τα στατιστικά της μάχης δεν θα υπολογίζονται στο Προσωπικό Μητρώο."
+
+msgid "common/noIncome/alert/title"
+msgstr "Προσοχή!"
+
+msgid "common/noProgress"
+msgstr "Δεν σημειώθηκε πρόοδος σε αποστολές, ανακάλυψη οχημάτων ή στην εκπαίδευση του πληρώματος."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Παράταση:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Ξεκλειδώστε περισσότερα με "
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Κερδίσατε σήμερα:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Σήμερα, κερδίσατε %(count)s XP"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "Ξεκλειδώστε με WoT Plus ή Προνομιακό WoT"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "Προνομιακό WoT"
+
+msgid "common/plusBonus/youRock"
+msgstr "Μπράβο!"
+
+msgid "common/premiumBonus"
+msgstr "Θέλετε να κερδίζετε περισσότερα?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Επιτυχής εφαρμογή μπόνους"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Εφαρμογή"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Απομένουν για σήμερα: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "Διαχειρίσιμο Μπόνους XP"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Θέλετε να κερδίζετε περισσότερα?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Εφαρμόζεται στην πιο πρόσφατη μάχη ενός οχήματος."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "Αδύνατη η εφαρμογή του μπόνους: απενεργοποιήσατε την επιταχυνόμενη εκπαίδευση."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}Δεν μπορεί να γίνει εφαρμογή του μπόνους: {{@ style}}απενεργοποιήθηκε η επιταχυνόμενη εκπαίδευση πληρώματος.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "Αδύνατη η εφαρμογή του μπόνους: ενεργοποιήσατε την επιταχυνόμενη εκπαίδευση."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}Δεν μπορεί να γίνει εφαρμογή του μπόνους: {{@ style}}ενεργοποιήθηκε η επιταχυνόμενη εκπαίδευση πληρώματος.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "Το μπόνους εφαρμόζεται μόνο σε νικηφόρα μάχη!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "Δεν μπορεί να γίνει εφαρμογή του διαχειρίσιμου μπόνους: δεν βρέθηκε το όχημα."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}Δεν μπορεί να γίνει εφαρμογή του διαχειρίσιμου μπόνους: {{@ style}}δεν βρέθηκε το όχημα.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "Δεν μπορεί να γίνει εφαρμογή του διαχειρίσιμου μπόνους: δεν βρέθηκε το πλήρωμα."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}Δεν μπορεί να γίνει εφαρμογή του διαχειρίσιμου μπόνους: {{@ style}}δεν βρέθηκε το πλήρωμα.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Διαχειρίσιμα μπόνους μη διαθέσιμα σε αυτό το είδος μάχης."
+
+msgid "common/progressTitle"
+msgstr "Ανακάλυψη Οχημάτων και Πρόοδος Αποστολών"
+
+msgid "common/quests/noprogress"
+msgstr "Δεν εκπληρώθηκαν οι προϋποθέσεις κάποιας αποστολής"
+
+msgid "common/researchPrediction"
+msgstr "Απομένουν (κατ’εκτίμηση):%(battles)s μάχες"
+
+msgid "common/resultsShareBtn"
+msgstr "Σύνδεσμος"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Υπολογίζονται:\n• Οι εξοστρακισμοί εχθρικών βολών\n• Βολές χωρίς διάτρηση\n\nΕύστοχες βολές από βλήματα HE και HESH δεν υπολογίζονται."
+
+msgid "common/tooltip/armor/header"
+msgstr "Αποτελεσματικότητα Θωράκισης"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Εξοστρακισμοί"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Βολές χωρίς διάτρηση"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Φθορά που αποσόβησε η θωράκιση %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "Υπολογίζονται οι ακόλουθοι τύποι φθοράς σε εχθρικά οχήματα:\n• Φθορά από δικό σας εντοπισμό αντιπάλων\n• Φθορά από καταστροφή ερπύστριας και ακινητοποίηση εχθρικού οχήματος"
+
+msgid "common/tooltip/assist/header"
+msgstr "Φθορά με Συνεισφορά"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Φθορά από δικό σας εντοπισμό αντιπάλων %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Φθορά από καταστροφή ερπύστριας και ακινητοποίηση εχθρικού οχήματος %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Συνολική φθορά από συμμάχους σε εχθρικά οχήματα %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Υπολογίζονται:\n• Πόντοι κατάληψης εχθρικής βάσης\n• Πόντοι κατάληψης ουδέτερης βάσης"
+
+msgid "common/tooltip/capture/header"
+msgstr "Κατάληψη Βάσης"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Συνολικοί πόντοι κατάληψης βάσης"
+
+msgid "common/tooltip/counter"
+msgstr "Συνολικά κερδισμένα παράσημα στη μάχη: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Κερδισμένα παράσημα στη μάχη για το εχθρικό όχημα: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "Το παράσημο αυτό δεν απονεμήθηκε στη μάχη."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Υπέστησαν φθορά:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Εκτός μάχης:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Τραυματίστηκαν:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Υπολογίζονται:\n• Η φθορά σε εξωτερικά και εσωτερικά εξαρτήματα του εχθρικού οχήματος\n• Η καταστροφή εξωτερικών ή εσωτερικών εξαρτημάτων του εχθρικού οχήματος\n• Τα τραυματισμένα μέλη του πληρώματος του εχθρικού οχήματος."
+
+msgid "common/tooltip/crits/header"
+msgstr "Κρίσιμη Φθορά"
+
+msgid "common/tooltip/crits/total"
+msgstr "Σύνολο:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Υπολογίζονται:\n• Η φθορά από βολές\n• Η φθορά από εμβολισμό\n• Η φθορά από φωτιά\n• Η φθορά από πρόσκρουση"
+
+msgid "common/tooltip/damage/header"
+msgstr "Φθορά"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Συνολική φθορά %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Συνολικός αριθμός διατρήσεων"
+
+msgid "common/tooltip/defence/description"
+msgstr "Υπολογίζονται:\n• Πόντοι υπεράσπισης φιλικής βάσης\n• Πόντοι υπεράσπισης ουδέτερης βάσης"
+
+msgid "common/tooltip/defence/header"
+msgstr "Υπεράσπιση Βάσης"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Συνολικοί πόντοι υπεράσπισης βάσης"
+
+msgid "common/tooltip/kill/header"
+msgstr "Καταστροφή αντιπάλου"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Το εχθρικό όχημα καταστράφηκε από πυρά"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Το εχθρικό όχημα καταστράφηκε από φωτιά"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Το εχθρικό όχημα καταστράφηκε από εμβολισμό"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Το εχθρικό όχημα συνετρίβη"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Το εχθρικό όχημα καταστράφηκε από μία ζώνη καταστροφής"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Το εχθρικό όχημα πνίγηκε"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Καταστράφηκε από Πύρινο Κλοιό"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Το εχθρικό όχημα αναποδογύρισε."
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Υπολογίζονται:\n• Η καταστροφή από βολή\n• Η καταστροφή από φωτιά\n• Η καταστροφή από εμβολισμό\n• Η καταστροφή από πνιγμό\n• Η καταστροφή από ώθηση εχθρικού οχήματος στο κενό\n• Η καταστροφή από αναποδογύρισμα"
+
+msgid "common/tooltip/params/val"
+msgstr "(HP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(sec)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Υπολογίζονται οι αρχικοί εντοπισμοί εχθρικών οχημάτων."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Εντοπισμός"
+
+msgid "common/tooltip/stun/description"
+msgstr "Υπολογίζεται η φθορά:\n• Από συμπαίκτες σε εχθρικά οχήματα στα οποία προκαλέσατε σοκ."
+
+msgid "common/tooltip/stun/header"
+msgstr "Σοκ"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Συνολική φθορά %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Φορές που προκαλέσατε σοκ"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Συνολική διάρκεια σοκ: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Το συμμαχικό όχημα καταστράφηκε"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Καταστροφές συμπαικτών"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Το συμμαχικό όχημα καταστράφηκε από πυρά"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Το συμμαχικό όχημα καταστράφηκε από φωτιά"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Το συμμαχικό όχημα καταστράφηκε από εμβολισμό"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Το συμμαχικό όχημα συνετρίβη"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Το συμμαχικό όχημα καταστράφηκε από μία ζώνη καταστροφής"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Το συμμαχικό όχημα πνίγηκε"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Κερδίζετε πρόσθετο experience όταν μετέχετε σε αυτήν τη μάχη ως μέλος Ουλαμού."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Εξοστρακισμοί"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Βολές χωρίς διάτρηση"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Φθορά που αποσόβησε η θωράκιση"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Φθορά από εντοπισμό"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Φθορά από καταστροφή ερπύστριας και ακινητοποίηση εχθρικού οχήματος"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Συνολική φθορά από συμμάχους σε εχθρικά οχήματα"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Συνολική φθορά"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Συνολικός αριθμός διατρήσεων"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Συνολική φθορά"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Φορές που προκαλέσατε σοκ"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Συνολική διάρκεια σοκ"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Αγορά οχήματος"
+
+msgid "common/vehicle/research"
+msgstr "Ανακάλυψη οχήματος"
+
+msgid "common/vehicleState/alive"
+msgstr "Επιβίωσε"
+
+msgid "common/vehicleState/dead0"
+msgstr "Καταστράφηκε από βολή του"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Καταστράφηκε από βολή ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Καταστράφηκε από βολή ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Καταστράφηκε από φωτιά"
+
+msgid "common/vehicleState/dead12"
+msgstr "Αυτοκαταστράφηκε"
+
+msgid "common/vehicleState/dead13"
+msgstr "Καταστροφές από ικανότητες"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Καταστράφηκε από φωτιά ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Καταστράφηκε από φωτιά ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Καταστράφηκε από εμβολισμό"
+
+msgid "common/vehicleState/dead27"
+msgstr "Καταστράφηκε από Μπαράζ Πυροβολικού"
+
+msgid "common/vehicleState/dead29"
+msgstr "Συνετρίβη"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Καταστράφηκε από εμβολισμό ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Καταστράφηκε από εμβολισμό ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Συνετρίβη"
+
+msgid "common/vehicleState/dead30"
+msgstr "Καταστράφηκε από βολή του"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Καταστράφηκε από βολή ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Καταστράφηκε από βολή ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Συνετρίβη"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Καταστράφηκε από συντριβή ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Καταστράφηκε από συντριβή ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Καταστράφηκε από μία ζώνη καταστροφής"
+
+msgid "common/vehicleState/dead5"
+msgstr "Το όχημα πνίγηκε"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Καταστράφηκε από πνιγμό ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Καταστράφηκε από πνιγμό ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Καταστράφηκε από Πύρινο Κλοιό"
+
+msgid "common/vehicleState/dead7"
+msgstr "Καταστράφηκε από ντεραπάρισμα"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Καταστράφηκε από αναποδογύρισμα ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Καταστράφηκε από αναποδογύρισμα ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Αποχώρηση πριν το τέλος της μάχης."
+
+msgid "common/vehicleState/victory"
+msgstr "Νίκη!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Απομένουν για σήμερα: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Τιμητικές Αναφορές που λάβατε σε αυτήν τη μάχη"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} συμπαίκτες σας απένειμαν τιμητικές αναφορές στη μάχη αυτή."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} συμπαίκτης σας απένειμε τιμητική αναφορά στη μάχη αυτή."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Κερδισμένες Τιμητικές Αναφορές"
+
+msgid "conditions/type/and"
+msgstr "ΚΑΙ"
+
+msgid "conditions/type/or"
+msgstr "ή"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Φτάσατε στην χαλκομανία \"%(name)s\" Επιπέδου %(level)s."
+
+msgid "customizationProgress/award/received"
+msgstr "Λάβατε τη χαλκομανία \"%(name)s\" %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "Χαλκομανία \"%(name)s\" Επιπέδου %(level)s"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Μητρώο Ομάδας"
+
+msgid "cyberSport/points"
+msgstr "Πόντοι:"
+
+msgid "cyberSport/status/lose"
+msgstr "Ήττα"
+
+msgid "cyberSport/status/tie"
+msgstr "Ισοπαλία"
+
+msgid "cyberSport/status/win"
+msgstr "Νίκη!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Διαχειρίσιμο Bonus Experience"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Μείωση συντελεστή (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Αυτόματος ανεφοδιασμός οδηγιών"
+
+msgid "details/calculations/autoEquip"
+msgstr "Αυτόματος ανεφοδιασμός αναλώσιμων"
+
+msgid "details/calculations/autoLoad"
+msgstr "Αυτόματος ανεφοδιασμός πυρομαχικών"
+
+msgid "details/calculations/autoRepair"
+msgstr "Αυτόματη επισκευή οχήματος"
+
+msgid "details/calculations/autoResupply"
+msgstr "Αυτόματος ανεφοδιασμός"
+
+msgid "details/calculations/base"
+msgstr "Λάβατε"
+
+msgid "details/calculations/battlePayments"
+msgstr "Απολαβές Μάχης"
+
+msgid "details/calculations/boosters"
+msgstr "Bonus Προσωπικών Αποθεμάτων"
+
+msgid "details/calculations/crystal/events"
+msgstr "Από ολοκλήρωση αποστολών"
+
+msgid "details/calculations/crystal/total"
+msgstr "Από την ειδική δυνατότητα του οχήματος"
+
+msgid "details/calculations/event"
+msgstr "Έπαθλο αποστολών και διοργανώσεων"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Πρόστιμο για αδράνεια στη μάχη"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Πρόστιμο για λιποταξία"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Πρόστιμο για λιποταξία"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Πρόστιμο για λιποταξία"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Πρόστιμο για λιποταξία"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Πρόστιμο για αδράνεια στη μάχη"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Πρόστιμο για λιποταξία"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Πρόστιμο για εσκεμμένη αυτοκαταστροφή"
+
+msgid "details/calculations/firstWin"
+msgstr "Έπαθλο για την πρώτη νίκη κάθε ημέρας"
+
+msgid "details/calculations/fortOrder"
+msgstr "Bonus από χρήση Αποθεμάτων"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Αποζημίωση για φθορά από συμμάχους"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Πρόστιμο για φθορά σε συμμάχους"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Ποινή για πρόκληση φθοράς ή σοκ σε συμπαίκτες"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Μεταφορά Υψηλής Χωρητικότητας"
+
+msgid "details/calculations/igrBonus"
+msgstr "Έπαθλο για το παιχνίδι στο %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "Μπόνους IGR"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Συνολικά από τη μάχη:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Διαχειρίσιμο Μπόνους XP"
+
+msgid "details/calculations/maximum"
+msgstr "μέγιστο"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "Για στρατιωτικούς ελιγμούς"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Αυξημένο experience για την πρώτη νίκη κάθε ημέρας για τα παρακάτω οχήματα:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Έπαθλο για την πρώτη νίκη κάθε ημέρας"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "Για γενναία αντίσταση"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Μπόνους Κατοικίδιου (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Μπόνους Κατοικίδιου"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Προστέθηκαν στο Ταμιευτήριο"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Bonus βαθμού"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Bonus προνομιακού οχήματος"
+
+msgid "details/calculations/referralBonus"
+msgstr "Bonus Σύστασης (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Μπόνους Σύστασης (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Μπόνους Σύστασης"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "Από τη Συμμετοχή σε Ουλαμό"
+
+msgid "details/calculations/squadBonus"
+msgstr "Bonus Ουλαμού"
+
+msgid "details/calculations/squadXP"
+msgstr "Από τη συμμετοχή σε Ουλαμό"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Ποινή λόγω ανάρμοστης σύνθεσης Ουλαμού"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "Για εκπαίδευση στην τακτική"
+
+msgid "details/calculations/title/base"
+msgstr "Λάβατε"
+
+msgid "details/calculations/title/expenses"
+msgstr "Έξοδα"
+
+msgid "details/calculations/title/total"
+msgstr "Σύνολο"
+
+msgid "details/calculations/total"
+msgstr "Τελικό Σύνολο:"
+
+msgid "details/calculations/wotPlus"
+msgstr "Μπόνους WoT Plus"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "Μπόνους WoT Plus"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT Plus Pro Boost"
+
+msgid "details/calculations/xpRecord"
+msgstr "Λάβατε (%(color_tag_open)s μέγιστο %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Λάβατε (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Credits"
+
+msgid "details/crystal"
+msgstr "Bonds"
+
+msgid "details/noPrem"
+msgstr "Κανονικός Λογαριασμός"
+
+msgid "details/prem"
+msgstr "Προνομιακός Wargaming"
+
+msgid "details/premPlus"
+msgstr "Προνομιακός WoT"
+
+msgid "details/resource"
+msgstr "Βιομηχανικοί Πόροι"
+
+msgid "details/stats"
+msgstr "Στατιστικά"
+
+msgid "details/time"
+msgstr "Ώρα"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Ώρα εκκίνησης"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Καταλήψεις ζωνών"
+
+msgid "details/time/lbl_duration"
+msgstr "Διάρκεια μάχης"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Καταστροφές κυρίων στόχων"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Προσεγγίσεις κυρίων στόχων"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Χρόνος καταστροφής"
+
+msgid "details/time/val_no"
+msgstr "Όχι"
+
+msgid "details/time/val_yes"
+msgstr "Ναι"
+
+msgid "details/time/value"
+msgstr "%(min)s min %(sec)s s"
+
+msgid "details/time_epic"
+msgstr "Μάχη"
+
+msgid "details/xp"
+msgstr "Experience"
+
+msgid "details/xp_abbr"
+msgstr "xp"
+
+msgid "exterminationVictory/allies"
+msgstr "Η ομάδα σας κατέστρεψε όλα τα οχήματα των αντιπάλων"
+
+msgid "exterminationVictory/enemies"
+msgstr "Οι αντίπαλοι κατέστρεψαν όλα τα οχήματα της ομάδας σας"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Η αντίπαλη ομάδα κέρδισε περισσότερους πόντους νίκης"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "Οι αντίπαλοι κατέστρεψαν όλα τα οχήματα της ομάδας σας"
+
+msgid "fallout/classic/lose/points"
+msgstr "Η αντίπαλη ομάδα κέρδισε περισσότερους πόντους νίκης"
+
+msgid "fallout/classic/tie"
+msgstr "Και οι δύο ομάδες κέρδισαν τους ίδιους πόντους νίκης"
+
+msgid "fallout/classic/win/cap"
+msgstr "Η ομάδα σας κέρδισε περισσότερους πόντους νίκης από τους αντιπάλους"
+
+msgid "fallout/classic/win/extermination"
+msgstr "Η ομάδα σας κατέστρεψε όλα τα οχήματα των αντιπάλων"
+
+msgid "fallout/classic/win/points"
+msgstr "Η ομάδα σας κέρδισε περισσότερους πόντους νίκης από τους αντιπάλους"
+
+msgid "fallout/multiteam/ended"
+msgstr "Ο στόχος δεν επετεύχθη"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "Για προβολή λεπτομερειών,\nεπιλέξτε παίκτη από τη λίστα."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Η ομάδα σας κέρδισε περισσότερους πόντους νίκης από τους αντιπάλους"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Όλα τα εχθρικά αποσπάσματα καταστράφηκαν"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Η ομάδα σας κέρδισε περισσότερους πόντους νίκης από τους αντιπάλους"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "Η δομή %(buildingName)s δεν κατελήφθη"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "Η δομή %(buildingName)s κατελήφθη"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Κατελήφθη η δομή: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "Η δομή %(buildingName)s κατελήφθη από τον εχθρό"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "Η δομή %(buildingName)s δεν κατελήφθη"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Υπερασπίστηκε η δομή: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Ο υπολογισμός των αποτελεσμάτων γίνεται με βάση τις εναπομείνασες πληροφορίες για την κάθε ομάδα"
+
+msgid "finish/overtime/lose"
+msgstr "Ο εχθρός δεν καταστράφηκε"
+
+msgid "finish/overtime/win"
+msgstr "Ο εχθρός καταστράφηκε"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Αιτία άγνωστη"
+
+msgid "finish/reason/10lose"
+msgstr "Οι κύριοι στόχοι δεν καταστράφηκαν"
+
+msgid "finish/reason/10win"
+msgstr "Οι κύριοι στόχοι καταστράφηκαν"
+
+msgid "finish/reason/1lose"
+msgstr "Όλα τα συμμαχικά οχήματα καταστράφηκαν"
+
+msgid "finish/reason/1tie"
+msgstr "Όλα τα οχήματα καταστράφηκαν"
+
+msgid "finish/reason/1win"
+msgstr "Όλα τα εχθρικά οχήματα καταστράφηκαν"
+
+msgid "finish/reason/2"
+msgstr "Κατελήφθη η Βάση"
+
+msgid "finish/reason/3"
+msgstr "Ο χρόνος μάχης έληξε"
+
+msgid "finish/reason/4"
+msgstr "Η μάχη τελείωσε λόγω αποτυχίας του συστήματος"
+
+msgid "finish/reason/5"
+msgstr "Τεχνική Ήττα"
+
+msgid "finish/reason/8"
+msgstr "Καταστροφή συμπαίκτη"
+
+msgid "finish/reason/9"
+msgstr "Το όχημά σας καταστράφηκε"
+
+msgid "garage/uniqueDamage"
+msgstr "Υπολογίζονται μόνο τα ξεχωριστά κρίσιμα χτυπήματα."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Επιλογή Διάρκειας"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% σε credits και experience"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "%(prem)s. Θα κερδίζετε %(award)s για όλες τις επόμενες μάχες"
+
+msgid "getPremiumPopover/headerText"
+msgstr "Από αυτήν τη μάχη κερδίσατε:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Προνομιακός Λογαριασμός"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "Ανακάλυψη"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Διαθέσιμο προς ανακάλυψη"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Μάχες που απομένουν (κατ’ εκτίμηση): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "ΣΧΕΤΙΚΑ ΜΕ ΤΟ ΟΧΗΜΑ"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Η αποστολή #{{name}} ολοκληρώθηκε."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "ΑΚΑΔΗΜΙΑ ΑΡΜΑΤΩΝ"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "ΝΕΟ ΕΞΑΡΤΗΜΑ ΔΙΑΘΕΣΙΜΟ!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "ΝΕΟ ΟΧΗΜΑ ΔΙΑΘΕΣΙΜΟ"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "ΟΛΟΚΛΗΡΩΣΗ ΑΠΟΣΤΟΛΗΣ ΑΚΑΔΗΜΙΑΣ ΑΡΜΑΤΩΝ!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "ΤΟ ΚΕΦΑΛΑΙΟ ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "Η ΦΑΣΗ ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "Η ΑΠΟΣΤΟΛΗ CRUCIBLE ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "ΑΠΟΣΤΟΛΗ ΕΞΕΤΕΛΕΣΤΗ!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "Η ΗΜΕΡΗΣΙΑ ΑΠΟΣΤΟΛΗ ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "ΜΕΓΙΣΤΟ ΕΠΙΛΕΚΤΟ ΕΠΙΠΕΔΟ"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "ΝΕΟ ΕΠΙΛΕΚΤΟ ΕΠΙΠΕΔΟ"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "Η ΕΠΙΚΗ ΑΠΟΣΤΟΛΗ ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "ΟΛΟΚΛΗΡΩΣΗ ΑΠΟΣΤΟΛΗΣ ΕΠΙΧΕΙΡΗΣΗΣ!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "Η ΠΡΟΝΟΜΙΑΚΗ ΑΠΟΣΤΟΛΗ ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "Η ΕΒΔΟΜΑΔΙΑΙΑ ΑΠΟΣΤΟΛΗ ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "noData"
+msgstr "Συγγνώμη, λεπτομερή αποτελέσματα της μάχης μη διαθέσιμα."
+
+msgid "personalQuest/bonus/descr"
+msgstr "η πρόοδός σας για την εκπλήρωση της πρωταρχικής αποστολής σε αυτή τη μάχη αυξήθηκε κατά %(value)s."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "Πολλαπλασιαστής x%(value)s:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Προσοχή!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Η πρόοδος για την ολοκλήρωση της αποστολής μηδενίστηκε και θα ξαναρχίσει από την αρχή."
+
+msgid "players/enemy/unknown"
+msgstr "Αντίπαλος"
+
+msgid "players/teammate/unknown"
+msgstr "Παίκτης"
+
+msgid "prestige/common/description"
+msgstr "Κερδισμένοι Επίλεκτοι Πόντοι:"
+
+msgid "prestige/max/description"
+msgstr "Μέγιστοι Κερδισμένοι Επίλεκτοι Πόντοι"
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Φτάσατε Στο Μέγιστο Επίλεκτο Επίπεδο"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Φτάσατε Σε Νέο Επίλεκτο Επίπεδο"
+
+msgid "prestige/title"
+msgstr "Σύστημα Επίλεκτων Οχημάτων"
+
+msgid "progression/completed"
+msgstr "Ολοκληρώθηκε"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Ολοκληρώθηκαν:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Κλικ για προβολή λεπτομερών πληροφοριών."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Ολοκληρώθηκαν:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Προσωρινά μη διαθέσιμο. Προσπαθήστε ξανά αργότερα."
+
+msgid "progression/totalEarned"
+msgstr "Σύνολο: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Λάβετε μέρος σε μάχες και κερδίστε έπαθλα. Σε όσες περισσότερες μάχες λάβετε μέρος, τόσο πιο πολύ πλησιάζετε στα έπαθλα."
+
+msgid "selectVehicle"
+msgstr "Επιλέξτε Όχημα"
+
+msgid "status/lose"
+msgstr "ΗΤΤΑ"
+
+msgid "status/tie"
+msgstr "ΙΣΟΠΑΛΙΑ"
+
+msgid "status/win"
+msgstr "ΝΙΚΗ"
+
+msgid "tankSelector/next"
+msgstr "Επόμενο όχημα με"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Ταξινόμηση με βάση τη φθορά σε αντιπάλους,\nπεριλαμβάνοντας και τη φθορά από τις Εφεδρείες."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Φθορά σε Αντιπάλους"
+
+msgid "team/damageHeader/body"
+msgstr "Ταξινόμηση με βάση τη φθορά που προκλήθηκε σε εχθρικά οχήματα."
+
+msgid "team/damageHeader/header"
+msgstr "Φθορά Σε Εχθρικά Οχήματα"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Φθορά σε Αντιπάλους"
+
+msgid "team/deaths/body"
+msgstr "Ταξινόμηση με βάση τις καταστροφές των οχημάτων του παίκτη στη μάχη."
+
+msgid "team/deaths/header"
+msgstr "Καταστροφές Οχημάτων"
+
+msgid "team/deathsNoSort/header"
+msgstr "Καταστροφές Οχημάτων"
+
+msgid "team/epicRankHeader/body"
+msgstr "Ταξινόμηση με βάση τον βαθμό στη μάχη."
+
+msgid "team/epicRankHeader/header"
+msgstr "Βαθμός"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Ταξινόμηση με βάση τις εκκινήσεις στη μάχη."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Εκκινήσεις"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Ταξινόμηση με βάση τις καταστροφές εχθρικών οχημάτων,\nπεριλαμβάνοντας και τη φθορά από τις Εφεδρείες."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Καταστροφές Εχθρικών Οχημάτων"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Ταξινόμηση με βάση τους κερδισμένους πόρους."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Πόροι"
+
+msgid "team/flags/body"
+msgstr "Ταξινόμηση με βάση τις επιστροφές σημαίας."
+
+msgid "team/flags/header"
+msgstr "Επιστροφές Σημαίας"
+
+msgid "team/flagsNoSort/header"
+msgstr "Επιστροφές Σημαίας"
+
+msgid "team/fragHeader/body"
+msgstr "Ταξινόμηση με βάση τον αριθμό των καταστροφών εχθρικών οχημάτων."
+
+msgid "team/fragHeader/header"
+msgstr "Καταστροφές Εχθρικών Οχημάτων"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Καταστροφές Εχθρικών Οχημάτων"
+
+msgid "team/healthHeader/body"
+msgstr "Ταξινόμηση σύμφωνα με τα υπολειπόμενα HP"
+
+msgid "team/healthHeader/header"
+msgstr "Αντοχή"
+
+msgid "team/medalHeader/body"
+msgstr "Ταξινόμηση σύμφωνα με το αριθμό των βραβείων που λάβατε"
+
+msgid "team/medalHeader/header"
+msgstr "Βραβεία"
+
+msgid "team/playerHeader/body"
+msgstr "Ταξινόμηση σύμφωνα με το όνομα παίκτη."
+
+msgid "team/playerHeader/header"
+msgstr "Όνομα παίκτη"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Όνομα"
+
+msgid "team/playerNumber/body"
+msgstr "Ταξινόμηση με βάση το νούμερο του παίκτη."
+
+msgid "team/playerNumber/header"
+msgstr "Νούμερο"
+
+msgid "team/rankHeader/body"
+msgstr "Ταξινόμηση με βάση τη θέση κατάταξης."
+
+msgid "team/rankHeader/header"
+msgstr "Θέση κατάταξης"
+
+msgid "team/resourceHeader/body"
+msgstr "Ταξινόμηση βάσει των κερδισμένων Βιομηχανικών Πόρων."
+
+msgid "team/resourceHeader/header"
+msgstr "Βιομηχανικοί Πόροι"
+
+msgid "team/squadHeader/body"
+msgstr "Ταξινόμηση σύμφωνα με τον Ουλαμό"
+
+msgid "team/squadHeader/header"
+msgstr "Ουλαμός"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Ουλαμός"
+
+msgid "team/stats/allies"
+msgstr "Συμπαίκτες"
+
+msgid "team/stats/close"
+msgstr "Κλείσιμο"
+
+msgid "team/stats/enemies"
+msgstr "Αντίπαλοι"
+
+msgid "team/stats/enemyTeam"
+msgstr "Αντίπαλοι"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Υπολογιζόμενη συνεισφορά:\n• Η φθορά που προκάλεσαν οι συμπαίκτες σας σε εχθρικά οχήματα στα οποία εντοπίσατε, ακινητοποιήσατε καταστρέφοντας τις ερπύστριές τους ή προκαλέσατε σοκ\n• Η κατάληψη βάσεων\n• Οι εντοπισμοί εχθρικών οχημάτων για πρώτη φορά."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "Από Συνεισφορά"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Υπολογίζονται:\n• Η φθορά που προκαλέσατε σε εχθρικά οχήματα\n• Οι καταστροφές σας εχθρικών οχημάτων\n• Η φθορά που προκαλέσατε σε εξαρτήματα\n• Το μπόνους από τη φθορά που προκάλεσε η ομάδα σας.\n• Η ποινή για πρόκληση φθοράς ή σοκ σε συμπαίκτες."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "Από Φθορά Σε Αντιπάλους και Καταστροφές Οχημάτων"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Πρόσθετα μπόνους από επιτυχείς ενέργειες, που δεν προσδιορίζονται προηγουμένως."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "Για Συμμόρφωση Με Τον Ρόλο Του Οχήματος"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\tαπό Μπαράζ Πυροβολικού"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Καταλήψεις ζωνών / Kαταστροφές κύριων στόχων"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Πόντοι κατάληψης/Πόντοι υπεράσπισης"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Καταλήψεις Σημείων-Κλειδιών"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Φθορά με συνεισφορά του παίκτη"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Φθορά με δική σας συνεισφορά"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Φθορά σε εχθρικά οχήματα σε σοκ από τον παίκτη"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Φθορά σε εχθρικά οχήματα σε σοκ από εσάς"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Φθορά που αποσόβησε η θωράκιση"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Συνολική Φθορά:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tΠεριλαμβάνοντας και τις Εφεδρείες"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tμαζί με τις ικανότητες"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tφθορά στην αντίπαλη ομάδα"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Εχθρικά οχήματα με φθορά/κατεστραμμένα"
+
+msgid "team/stats/labels_deaths"
+msgstr "Καταστροφές δικών σας οχημάτων στη μάχη"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Υπεράσπιση Ζωνών / Κύριων Στόχων"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Καταστροφές/Ανακτήσεις οχημάτων σας"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\tσε κύριους στόχους"
+
+msgid "team/stats/labels_directHits"
+msgstr "\tεύστοχες βολές"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Προσλαμβανόμενες βολές"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tεξαιτίας επίδρασης Εφεδρειών"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tμε τις εφεδρείες"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tφθορά από διασπορά"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Προσλαμβανόμενες βολές από διασπορά"
+
+msgid "team/stats/labels_flags"
+msgstr "Επιστροφές Σημαίας"
+
+msgid "team/stats/labels_healed"
+msgstr "Αποκατάσταση hit points (δικά σας/συμπαικτών)"
+
+msgid "team/stats/labels_hits"
+msgstr "\tάμεσες εύστοχες βολές/διατρήσεις"
+
+msgid "team/stats/labels_killed"
+msgstr "Καταστροφές εχθρικών οχημάτων"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tΠεριλαμβάνοντας και τις Εφεδρείες"
+
+msgid "team/stats/labels_mileage"
+msgstr "Απόσταση που διανύθηκε"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tχωρίς διάτρηση"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tδιατρήσεις"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tδιατρήσεις"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Χρησιμοποιημένες Ικανότητες Ρόλου"
+
+msgid "team/stats/labels_shots"
+msgstr "Βολές"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\tαπό απόσταση 300 μέτρων και πάνω"
+
+msgid "team/stats/labels_spotted"
+msgstr "Εντοπισμοί εχθρικών οχημάτων"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Συνολική διάρκεια σοκ, sec"
+
+msgid "team/stats/labels_stunNum"
+msgstr "Προκλήσεις σοκ"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Φθορά σε συμμάχους (Καταστροφές/Ηit Ρoints)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Καταστροφές οχημάτων"
+
+msgid "team/stats/labels_xp"
+msgstr "Συνολικό Κερδισμένο Experience"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tαπό συνεισφορά"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tαπό πρόκληση φθοράς και καταστροφή"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tγια συμμόρφωση με τον ρόλο του οχήματος"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Συμπαίκτες"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "από Μπαράζ Πυροβολικού"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Πόντοι κατάληψης/Πόντοι υπεράσπισης"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Φθορά με συνεισφορά του παίκτη"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Φθορά με δική σας συνεισφορά"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Φθορά σε εχθρικά οχήματα σε σοκ από τον παίκτη"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Φθορά σε εχθρικά οχήματα σε σοκ από εσάς"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Φθορά που αποσόβησε η θωράκιση"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Συνολική Φθορά"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Εχθρικά οχήματα με φθορά/κατεστραμμένα"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Προσλαμβανόμενες βολές"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "φθορά από διασπορά"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Προσλαμβανόμενες βολές από διασπορά"
+
+msgid "team/stats/parameter/hits"
+msgstr "άμεσες εύστοχες βολές/διατρήσεις"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Απόσταση που διανύθηκε"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "βολές χωρίς διάτρηση"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "διατρήσεις"
+
+msgid "team/stats/parameter/shots"
+msgstr "Βολές"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "από απόσταση 300 μέτρων και άνω"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Εντοπισμοί εχθρικών οχημάτων"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Συνολική διάρκεια σοκ, sec"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Προκλήσεις σοκ"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Φθορά σε συμμάχους (Καταστροφές/Ηit Ρoints)"
+
+msgid "team/tankHeader/body"
+msgstr "Ταξινόμηση σύμφωνα με τη θέση στον πίνακα μίας ομάδας."
+
+msgid "team/tankHeader/header"
+msgstr "Οχήματα"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Κερδισμένο Influence από αποσπάσματα: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Βιομηχανικοί Πόροι από απόσπασμα: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Ταξινόμηση βάσει των κερδισμένων πόντων νίκης."
+
+msgid "team/teamScore/header"
+msgstr "Πόντοι Νίκης Ομάδας"
+
+msgid "team/victoryScore/body"
+msgstr "Ταξινόμηση βάσει των κερδισμένων πόντων νίκης."
+
+msgid "team/victoryScore/header"
+msgstr "Πόντοι Νίκης του Παίκτη"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Πόντοι Νίκης του Παίκτη"
+
+msgid "team/xpHeader/body"
+msgstr "Ταξινόμηση σύμφωνα με τα XP"
+
+msgid "team/xpHeader/header"
+msgstr "Experience"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Experience"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Κερδισμένοι πόντοι νίκης"

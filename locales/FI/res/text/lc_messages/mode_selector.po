@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "button/progression"
+msgstr "Näytä edistyminen"
+
+msgid "button/select"
+msgstr "Muokkaa"
+
+msgid "event/battlePass/name"
+msgstr "Taistelupassin kausi %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\non päättynyt"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nalkaa %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\nei ole hetkellisesti saatavilla"
+
+msgid "event/ranked/name"
+msgstr "Kausi %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "NÄYTÄ EDISTYMINEN PELIMUODOSSA"
+
+msgid "mode/epicBattle/condition"
+msgstr "30v30 &nbsp;{par_open}I{par_close}&nbsp;Tasot&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30 &nbsp;{par_open}I{par_close}&nbsp;Taso&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Tapahtuma\nalkaa %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Tämä pelimuoto\nalkaa pian"
+
+msgid "mode/epicBattle/description"
+msgstr "Pelimuoto, jossa edistymistä ja palkintoja."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Tapahtuma on päättynyt"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Taistelemalla {whiteSpanish_open}Etulinjalla{whiteSpanish_close} tason VIII vaunuilla ansaitset pisteitä, jotka mahdollistavat etenemisen läpi Taistelupassin."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Taistelupassin pisteet"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Taistelemalla {whiteSpanish_open}Tiedustelutehtävässä{whiteSpanish_close} tason VIII–X vaunuilla ansaitset pisteitä, jotka mahdollistavat etenemisen läpi Taistelupassin."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Taistelupassin pisteet"
+
+msgid "mode/mapbox/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s Tasot&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "Uudet karttamekaniikat."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Sään visuaaliset efektit riippuvat yleisistä grafiikka-asetuksistasi. Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeus voi heikentyä intensiivisissä taisteluissa."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Parasta grafiikan tasoa suositellaan"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Opi kartat"
+
+msgid "mode/mapsTraining/description"
+msgstr "Opi kartat"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Taistelemalla tason IV–XI vaunuilla {whiteSpanish_open}satunnaistaisteluissa{whiteSpanish_close} ansaitset pisteitä, jotka mahdollistavat etenemisen läpi Taistelupassin."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Taistelupassin pisteet"
+
+msgid "mode/random/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s Tasot&nbsp;I–XI"
+
+msgid "mode/random/description"
+msgstr "Taisteluita automaattisella pelinrakentajalla."
+
+msgid "mode/random/setup"
+msgstr "Muokkaa"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Taistelemalla tason X vaunuilla {whiteSpanish_open}luokitetuissa taisteluissa{whiteSpanish_close} ansaitset pisteitä, jotka mahdollistavat etenemisen läpi Taistelupassin."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Taistelupassin pisteet"
+
+msgid "mode/ranked/condition"
+msgstr "10v10 %(parSecondary_open)sI%(parSecondary_close)s Taso&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Pelimuoto, jossa edistymistä ja palkintoja."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Hae turnaukseen"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Seuraava taistelu: %(date)s kello %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s Tasot &nbsp;I–X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Maailmankartta ja turnaukset."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Taistele legioonalaisena"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Taistele klaanissa"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7v7–15v15 %(parSecondary_open)sI%(parSecondary_close)s Tasot &nbsp;VI–X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Klaanitaisteluita teollisuusresursseista."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Harjoitushuoneet: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s Tasot &nbsp;I–X"
+
+msgid "mode/trainingsList/description"
+msgstr "Koulutustaistelut."
+
+msgid "novelty"
+msgstr "UUTTA"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Taistelut karsinnassa: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Voit saada pelimuotoa pelaamalla ainutlaatuisia kolmiulotteisia lisävarusteita."
+
+msgid "reward/attachment/name"
+msgstr "Kolmiulotteiset lisävarusteet"
+
+msgid "reward/bones/description"
+msgstr "Palkinto määritetään taistelussa suoriutumisesi perusteella."
+
+msgid "reward/bones/name"
+msgstr "Arvopaperit"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Voit saada pelimuotoa pelaamalla %(name)s."
+
+msgid "reward/bountyEquipment/name"
+msgstr "erikoisvarusteen"
+
+msgid "reward/credits/description"
+msgstr "Palkinto määritetään taistelussa suoriutumisesi perusteella."
+
+msgid "reward/credits/name"
+msgstr "krediittejä"
+
+msgid "reward/crew/description"
+msgstr "Voit saada pelimuotoa pelaamalla ainutlaatuisen miehistön jäsenen."
+
+msgid "reward/crew/name"
+msgstr "miehistön jäseniä"
+
+msgid "reward/experience/description"
+msgstr "Palkinto määritetään taistelussa suoriutumisesi perusteella."
+
+msgid "reward/experience/name"
+msgstr "kokemusta"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Voit saada pelimuotoa pelaamalla erilaisia kokeellisia varusteita."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Erikoisvaruste"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Voit saada pelimuotoa pelaamalla: %(name)s."
+
+msgid "reward/improvedEquipment/name"
+msgstr "erikoisvarusteen"
+
+msgid "reward/lootBoxes/description"
+msgstr "Voit saada pelimuotoa pelaamalla laatikoita."
+
+msgid "reward/lootBoxes/name"
+msgstr "Erikoislaatikot"
+
+msgid "reward/other/description"
+msgstr "Voit saada monia hyödyllisiä palkintoja pelaamalla tätä pelimuotoa."
+
+msgid "reward/other/name"
+msgstr "Erikoispalkinto"
+
+msgid "reward/progressionStyle/description"
+msgstr "Voit saada erityisen edistyvän tyylin pelaamalla tässä pelimuodossa."
+
+msgid "reward/progressionStyle/name"
+msgstr "Edistyvä tyyli"
+
+msgid "reward/random/description"
+msgstr "Voit saada monia hyödyllisiä palkintoja pelaamalla tätä pelimuotoa."
+
+msgid "reward/random/name"
+msgstr "Satunnainen palkinto"
+
+msgid "reward/style/description"
+msgstr "Voit saada erityisen kolmiulotteisen tyylin %(name)s vaunulle pelaamalla tätä pelimuotoa."
+
+msgid "reward/style/name"
+msgstr "kolmiulotteisen tyylin"
+
+msgid "reward/vehicle/description"
+msgstr "Voit saada pelimuotoa pelaamalla %(name)s."
+
+msgid "reward/vehicle/name"
+msgstr "palkintovaunuja"
+
+msgid "selectMap"
+msgstr "Satunnaistaisteluiden esiasetukset"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s p"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "status/timeLeft/lessMin"
+msgstr "alle minuutti"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "VALITSE PELIMUOTO"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Maailmankartta"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Valtaa provinsseja ja taistele maailman herruudesta. Tämä pelimuoto on saatavilla vain klaanien jäsenille."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Liity klaaniin"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Taisteluita maailmankartalla"
+
+msgid "window/battleSession/title"
+msgstr "ERIKOISTAISTELU"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Turnauslista"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Tämä ominaisuus ei ole tällä hetkellä saatavilla, mutta tulee saataville tulevaisuudessa. Ole hyvä ja odota."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Taistele yksin tai joukkueen osana, näytä, mihin pystyt ja ansaitse sen mukaisia palkintoja."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Turnaukset"

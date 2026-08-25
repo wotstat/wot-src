@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Stridstyp:"
+
+msgid "profile/dropdown/existence"
+msgstr "Tillgänglig:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Slumpvis, Kompanistrid"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Pansarjakt, solo"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Pansarjakt, pluton"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Världskarta"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Pansarstorm"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Gripens år"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Mantikorans år"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Pegasus år"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "Säsong Drake Blå"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Säsong Drake Röd"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Säsong Drake Jade"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Pansarslag"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Härjning"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Befästningsstrider"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Offensiv"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Skärmytslingar"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Historisk strid"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Slumpvis matchad strid"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Rankad strid 15 mot 15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Rankad strid"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Rankade lagstrider"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Rankade lagstrider"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Lag: Orankade strider"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Mottagna utmärkelser i slagfältskategorin"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Utmärkelser"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Andel skada som blockerats av pansar från icke-penetrerande träffar, rikoschetter från AP, HEAT och APCR-granater av total mottagen skada från dessa granattyper. Potentiell skada från HE- och HESH-granater räknas inte.\n• Genomsnittlig skada från dessa granattyper blockerad av pansar: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Pansareffektivitet"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Total mängd skada åsamkad chockade fiendevagnar"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Skada åsamkad fiendevagnar chockade av spelaren"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Total mängd skada åsamkad chockade fiendevagnar"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Skada åsamkad fiendevagnar chockade av dig"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Inklusive:\n• Skada åsamkad under din observation\n• Skada åsamkad fiende du immobiliserat genom att förstöra dess band."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Genomsnittlig skada med din assistans"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Inklusive:\n• Skada åsamkad under spelarens observation\n• Skada åsamkad fiende du immobiliserat genom att förstöra dess band."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Skada åsamkad fiendevagnar med spelarens assistans"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Inklusive:\n• Skada åsamkad under din observation\n• Skada åsamkad fiende du immobiliserat genom att förstöra dess band."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Inklusive:\n• Skada under din observation (ink. skada från färdigheter)\n• Skada när du immobiliserat en fiende (ink. skada från färdigheter)\n• Skada åsamkad av allierade med hjälp av dina färdigheter."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Skada åsamkad med din assistans"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Skada åsamkad med din assistans"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "Förhållandet mellan total skada åsamkad chockade fiendevagnar (ink. chock från färdigheter) och antalet utkämpade strider"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Skada åsamkad fiender chockade av spelaren"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "Förhållandet mellan total skada åsamkad chockade fiendevagnar (ink. chock från färdigheter) och antalet utkämpade strider"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Skada åsamkad fiendevagnar chockade av dig"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Förhållande mellan total skada åsamkad chockade fiendevagnar och antal slutförda strider"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Skada åsamkad fiendevagnar chockade av spelaren"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Förhållande mellan total skada åsamkad chockade fiendevagnar och antal slutförda strider"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Skada åsamkad fiendevagnar chockade av dig"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Förhållandet mellan total åsamkad skada och antalet strider"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Genomsnittlig skada per strid"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Förhållandet mellan totalt antal förstörda fiender och totalt antal strider"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "Förhållandet mellan total antal förstörda fiendevagnar (ink. vagnar förstörda med hjälp av färdigheter) och antalet utkämpade strider"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Förstörda fiendevagnar"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Förstörda fiendevagnar"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Förhållandet mellan totalt antal upptäckta fiender och totalt antal strider"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "Förhållandet mellan total antal upptäckta fiendevagnar (ink. vagnar upptäckta med hjälp av färdigheter) och antalet utkämpade strider"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Upptäckta fiendevagnar"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Upptäckta fiendevagnar"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Förhållandet mellan total åsamkad skada och antalet strider"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Åsamkad skada"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Förhållandet mellan total intjänad erfarenhet och antalet strider"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Erfarenhet"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Förhållandet mellan total intjänad erfarenhet och antalet strider"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "Genomsnittlig Erfarenhet per strid"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "Förhållandet mellan total mängd återställda träffpoäng och antalet utkämpade strider"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "Återställda träffpoäng"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "Förhållandet mellan erövrade nyckelpunkter och antalet utkämpade strider"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Erövrade nyckelpunkter"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "Förhållandet mellan total mängd intjänade Prestigepoäng och antalet utkämpade strider"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Genomsnittligt antal Prestigepoäng per strid"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Förhållandet mellan totalt mottagen skada och antalet strider"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Mottagen skada"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "Förhållandet mellan antalet användningar av rollfärdigheter och antalet utkämpade strider"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Använda rollfärdigheter"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Förhållande mellan total träffar som chockat fientliga besättningar och antal slutförda strider"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "Förhållandet mellan antalet träffar (ink. träffar med hjälp av färdigheter) som chockat fiendens besättning och antalet utkämpade strider"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Antal chocker"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Antal chocker"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Förhållande mellan totalt antal intjänade vinstpoäng och genomförda strider"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Genomsnittligt antal vinstpoäng"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Totalt antal strider, inklusive:\n• Vinster: %(value_0)s\n• Förluster: %(value_1)s\n• Oavgjorda: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Strider"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "Förhållandet mellan totalt antal nivåer uppnådda och antalet utkämpade strider."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Genomsnittlig nivå"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "Förhållandet mellan summan av alla placeringar i stridsresultatet och antalet utkämpade strider."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Genomsnittlig placering"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "Förhållande mellan total åsamkad skada och antalet utkämpade strider."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Åsamkad skada"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Totalt antal utkämpade strider."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Strider"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Maximal skada åsamkad en fiendevagn i en strid.\nRekordet uppnått i %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Högst total skada åsamkad i en strid"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "Högsta total mängd erfarenhet intjänad i en strid med WoT-Premiumkonto.\nRekordet uppnått i %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Mest erfarenhet"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Högsta antal fiendevagnar spelaren personligen förstörd under en enda strid.\nRekordet uppnått i %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Högsta antal förstörda vagnar"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Totalt antal segrar."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Segrar"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Antal intjänade baserövringspoäng från fiendebas"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Baserövringspoäng"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "Förhållandet mellan \"mottagen skada\" och \"åsamkad skada\" då för alla stridsnivåer då:\n• Åsamkad skada: %(value_0)s\n• Mottagen skada %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Genomsnittligt skadeförhållande"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "Förhållandet mellan \"mottagen skada\" och \"åsamkad skada\" då:\n• Åsamkad skada: %(value_0)s\n• Mottagen skada %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Skadeförhållande"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Förhållande mellan utslagna fiendevagnar och gånger spelaren slagits ut då:\n• Utslagna fiendevagnar: %(value_0)s\n• Spelarens vagn utslagen: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Utslagningsförhållande"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Förhållande mellan skada som blockerats av pansar och skada mottagen av icke-penetrerande träffar av AP-, HEAT- och APCR-granater. Skada från stridsreserver, HE- och HESH-granater räknas inte.\n• Genomsnittlig skada blockerad av pansar från dessa typer av granater: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Pansareffektivitet"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Förhållande mellan total åsamkad skada (inklusive stridsreserver) och antalet genomförda strider."
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Genomsnittlig skada per strid"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Förhållande mellan antalet förstörda fiendevagnar (inklusive stridsreserver) och antalet genomförda strider"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Förstörda fiendevagnar"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Förhållandet mellan totalt antal förstörda fiendevagnar (exklusive stridsreserver) och antalet genomförda strider"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Förstörda fiendevagnar"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Förhållande mellan total åsamkad skada (inklusive stridsreserver) och antalet genomförda strider"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Åsamkad skada"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Förhållande mellan total åsamkad skada (exklusive stridsreserver) och antalet genomförda strider"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Åsamkad skada"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Förhållande mellan total mottagen skada (inklusive stridsreserver) och antalet genomförda strider"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Mottagen skada"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Totalt antal genomförda strider inklusive: \n• Segrar: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Strider"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "Förhållandet mellan \"Åsamkad skada\" och \"Mottagen skada\" (inklusive stridsreserver), då: \n• Skada åsamkad med din vagn: %(value_0)s\n• Skada åsamkad med stridsreserver: %(value_2)s\n• Skada mottagen från fientliga vagnar och stridsreserver: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Skadeförhållande"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "Förhållandet mellan \"Åsamkad skada\" och \"Mottagen skada\" (exklusive stridsreserver), då: \n• Skada åsamkad med din vagn: %(value_0)s\n• Skada mottagen från fientliga vagnar: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Skadeförhållande"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Förhållande mellan antalet förstörda fiendevagnar och antalet gånger spelarens vagn förstörts (inklusive stridsreserver), då:\n• Fiendevagnar förstörda av spelarens vagn: %(value_0)s\n• Fiendevagnar förstörda av stridsreserver: %(value_2)s\n• Spelarens vagn förstörd av fientliga vagnar och stridsreserver: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Utslagningsförhållande"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Förhållande mellan antalet förstörda fiendevagnar och antalet gånger spelarens vagn förstörts (exklusive stridsreserver), då:\n• Fiendevagnar förstörda av spelarens vagn: %(value_0)s\n• Spelarens vagn förstörd av fientliga vagnar: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Utslagningsförhållande"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Träffsäkerhet vid skott mot fiendevagnar (exklusive stridsreserver)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Träffar"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Rekord inklusive stridsreserver."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Högst total skada åsamkad i en strid"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Rekord exklusive stridsreserver."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Högst total skada åsamkad i en strid"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Rekord inklusive stridsreserver."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Högsta antal förstörda vagnar"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Rekord exklusive stridsreserver."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Högsta antal förstörda vagnar"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Totalt antal segrar"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Segrar"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Antal intjänade baserövringspoäng från allierad bas"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Basförsvarspoäng"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Totalt antal förstörda flaggor"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Förstörda flaggor"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Antal flaggor levererade till egen bas"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Levererade flaggor"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Totalt antal offensiver, inklusive\n• Segrar: %(value_0)s\n• Förluster: %(value_1)s\n• Oavgjorda: %(value_2)s."
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Offensiver"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Totalt segerförhållande i offensiver"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Segrar i offensiver"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Totalt antal fiendebefästningar plundrade"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Plundringar"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Total mängd industriresurser intjänade i skärmytslingar i förhållande till antalet skärmytslingar"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Genomsnittligt byte per skärmytsling"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Totalt antal skärmytslingar, däribland:\n• Segrar: %(value_0)s\n• Förluster: %(value_1)s\n• Oavgjorda: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Skärmytslingar"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Totalt segerförhållande i skärmytslingar"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Segrar i offensiver"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Totalt antal anfall mot fientliga befästningar.\nRäknas endast om minst en strid genomfördes under anfallet."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Anfall"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Totalt antal försvar av er befästning.\nRäknas endast om minst en strid genomfördes under försvarsperioden."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Försvar"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Totalt segerförhållande i offensiver"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Segrar i offensiver"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Totalt segerförhållande i skärmytslingar"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Segrar i skärmytslingar"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Förhållande mellan total mängd intjänade industriresurser och antalet skärmytslingar"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Genomsnittligt byte per skärmytsling"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Total mängd industriresurser intjänade i alla skärmytslingar"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Totalt byte erövrat i alla skärmytslingar"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Procent träffade skott"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Träffsäkerhet"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Förhållande mellan antalet förstörda fiendevagnar och antalet gånger spelarens vagn förstörts (inklusive stridsreserver), då:\n• Fiendevagnar förstörda av spelarens vagn: %(value_0)s\n• Fiendevagnar förstörda av stridsreserver: %(value_1)s\n• Spelarens vagn förstörd av fientliga vagnar och stridsreserver: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Utslagningsförhållande"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Mottagna förtjänsttecken Stridsvagnsäss i relevanta strider / Antalet vagnar som deltagit i minst en slumpvis matchad strid"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Förtjänsttecken: Stridsvagnsess"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "Förtjänsttecken delas ej ut i detta stridsläge."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Förtjänsttecken: Stridsvagnsess"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Rekord uppnått i %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Högst total skada åsamkad i en strid"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Högsta total skada åsamkad fiendevagnar i en enda strid."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Högst total skada åsamkad i en strid"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Rekord uppnått i %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Högsta antal förstörda vagnar"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Högsta antal fiendevagnar förstörda i en enda strid."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Högsta antal förstörda vagnar"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Högsta skada åsamkad av både rollfärdigheter och taktiska färdigheter i en enda strid."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Högsta skada med hjälp av färdighet i en strid"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "Skada åsamkad av både rollfärdighet och taktiska färdigheter räknas.\nRekordet sattes i %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Högsta skada med hjälp av färdighet i en strid"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Rekord uppnått i %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "Mest erfarenhet"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Högsta mängd erfarenhet intjänad i en enda strid, inklusive bonus för Premiumkonto."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Mest erfarenhet"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "Högsta erfarenhetspoäng visas inte i detta stridsläge."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "Mest erfarenhet"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Största mängd träffpoäng återställda din egen och allierade vagnar i en enda strid."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "Största mängd återställda träffpoäng i en strid"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Största mängd träffpoäng återställda din egen och allierade vagnar i en enda strid.\nRekordet sattes i %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "Största mängd återställda träffpoäng i en strid"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Högsta antal Prestigepoäng intjänade i en enda strid."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Högsta antal Prestigepoäng i en strid"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Rekordet sattes i %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Högsta antal Prestigepoäng i en strid"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Högsta antalet vinstpoäng som intjänats i en enda strid"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Högsta antalet vinstpoäng i en strid"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Högsta antalet vinstpoäng som intjänats i en enda strid"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Högsta antalet vinstpoäng i en strid"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "Längsta segersvit i stridsläget -solo och i pluton/pluton med 7 spelare."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Längsta segersvit (solo och i pluton/superpluton)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Antalet erövrade nyckelpunkter"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Erövrade nyckelpunkter"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Genomsnittligt antal förstörda vagnar per strid"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Genomsnittligt antal förstörda vagnar"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Procentförhållande mellan antalet mottagna armvinklar och det totala antalet genomförda rankade strider.\n• Totalt antal armvinklar:%(value_0)s\n• Totalt antal strider:%(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Stridsprestation i rankade strider"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Totalt antal intjänade poäng"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Gradpoäng"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Totalt antal träffar som chockat fientliga besättningar"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Antal chocker"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Procent strider spelarens vagn inte slagits ut"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Överlevda strider"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Totalt antal olika vagnar som använts"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Använda vagnar"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Totalt antal offensiver.\n\nParametern ej tillgänglig i nuvarande version."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Offensiver"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Totalt vinstprocent i offensiver.\n\nParametern ej tillgänglig i nuvarande version."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Segrar i offensiver"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Inga strider genomförda sen parametern inrättades."
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Data ej tillgänglig"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Vagnar som deltagit i minst en historisk strid."
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Använda vagnar"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Totalt förhållande av segrar"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Segrar"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "Säsong 1, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "Säsong 2, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "Säsong 3, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Arkiverad data"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Alla säsonger"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Nuvarande säsong"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Säsong %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "Största mängd återställda träffpoäng i en strid"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Klanprofil"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "Startdatum:"
+
+msgid "profile/summary/clan/post"
+msgstr "Position:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Lagprofil"
+
+msgid "profile/summary/club/ladder"
+msgstr "Resultat:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Liga %(league)s, Division %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Position:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Nästföljande utmärkelser är fästa på bandet."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Påföljande utmärkelser"
+
+msgid "profile/summary/noGroups"
+msgstr "Spelaren tillhör inga permanenta taktiska enheter."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "Spelarens mest betydande utmärkelser är fästa på bandet."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Värdefulla utmärkelser"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Visa prestationskatalogen."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Prestationer"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Se utmärkelser och deras beskrivningar"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Utmärkelser"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Visa samlingar"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Samlingar"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Visa information om taktiska enheter du är medlem i"
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Taktiska enheter"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Visa rankningar i Hall of Fame"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Hall of Fame"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "Hall of Fame tillfälligt ej tillgänglig. Försök igen senare."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Obs"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Se stridsstatistik för alla typer av vagnar"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Statistik"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Se stridsprestation"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Sammanfattning"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Se stridsstatistik för vagnar av alla typer"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Vagnar"
+
+msgid "profile/title"
+msgstr "Spelarstatistik %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "År/Säsong:"
+
+msgid "seasons/dropdown_label"
+msgstr "Säsong:"
+
+msgid "section/advancedAchievements/title"
+msgstr "Prestationer"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Alla"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Mottagna"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Icke mottagna"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Välj filtrera för att se antingen alla utmärkelser, mottagna utmärkelser eller icke mottagna utmärkelser."
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Sortera utmärkelser"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Hjältemedaljer"
+
+msgid "section/awards/labels/epic"
+msgstr "Episka medaljer"
+
+msgid "section/awards/labels/group"
+msgstr "Gruppmedaljer"
+
+msgid "section/awards/labels/honorary"
+msgstr "Hedersgrader"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Skyttemärken"
+
+msgid "section/awards/labels/memory"
+msgstr "Minnesutmärkelser"
+
+msgid "section/awards/labels/special"
+msgstr "Specialutmärkelser"
+
+msgid "section/awards/labels/stage"
+msgstr "Nivåmedaljer"
+
+msgid "section/awards/title"
+msgstr "Utmärkelser"
+
+msgid "section/collections/title"
+msgstr "Samlingar"
+
+msgid "section/formations/clan/none"
+msgstr "Du är inte medlem i någon klan."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "Spelaren är inte medlem i en klan."
+
+msgid "section/formations/clan/type"
+msgstr "Klan"
+
+msgid "section/formations/fort/battles"
+msgstr "Offensiver"
+
+msgid "section/formations/fort/create"
+msgstr "Skapa befästning"
+
+msgid "section/formations/fort/level"
+msgstr "Befästningsnivå: %s"
+
+msgid "section/formations/fort/link"
+msgstr "Utmärkelser i befästningsstrider"
+
+msgid "section/formations/fort/none"
+msgstr "Ingen befästning skapad"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Spelarens klan har ingen befästning."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Resursjägarbetyg"
+
+msgid "section/formations/fort/sorties"
+msgstr "Skärmytslingar"
+
+msgid "section/formations/history/battles"
+msgstr "Strider som medlem"
+
+msgid "section/formations/history/dates"
+msgstr "Medlem från/till"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s–%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Lag"
+
+msgid "section/formations/history/title"
+msgstr "Spelarens lags logg"
+
+msgid "section/formations/joinDate"
+msgstr "Medlem från: %s"
+
+msgid "section/formations/rank"
+msgstr "Roll i laget: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Säsong %s (avslutad)"
+
+msgid "section/formations/team/find"
+msgstr "Sök efter permanenta lag"
+
+msgid "section/formations/team/league"
+msgstr "Liga: %(league)s. Division: %(division)s. Placering: %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Du har inga permanenta lag"
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "Spelaren har inga permanenta lag"
+
+msgid "section/formations/team/season"
+msgstr "Säsong %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Rankade strider"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Segrar under säsongen"
+
+msgid "section/formations/team/title"
+msgstr "Lag \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "Lag"
+
+msgid "section/formations/title"
+msgstr "Taktiska enheter"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Totalt antal segrar i offensiver, inklusive:\n• Segrar: %(wins)s\n• Förluster: %(losses)s\n• Oavgjorda: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Offensiver"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Befästningens nivå är lika med högkvarterets nivå."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Befästningsnivå"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Klicka för att visa klanens utmärkelser i befästningsstrider."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Utmärkelser i befästningsstrider"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Din placering"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Resursjägarbetyg"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Totalt antal segrar i skärmytslingar, inklusive:\n• Segrar: %(wins)s\n• Förluster: %(losses)s\n• Oavgjorda: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Skärmytslingar"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Klicka för att visa lagprofil."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Lagprofil"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Totalt antal segrar i rankade strider, inklusive:\n• Segrar: %(wins)s\n• Förluster: %(losses)s\n• Oavgjorda: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Rankade strider"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Totalt vinstförhållande in rankade strider"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Segrar"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "STÄNG"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Gå till tabellen"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Rankning efter prestationer\ni Slumpvis matchade strider"
+
+msgid "section/hof/betaBtn"
+msgstr "BETA"
+
+msgid "section/hof/betaTooltip"
+msgstr "Hall of Fame och World of Tanks Rankningar\nBETA-testas"
+
+msgid "section/hof/mainDescription"
+msgstr "Se dina prestationer och position i rankningen under perioder, jämfört med andra spelare."
+
+msgid "section/hof/mainTitle"
+msgstr "Hall of Fame"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "Hall of Fame tillfälligt ej tillgänglig. Försök igen senare."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Obs"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Visa resultat"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Göm resultat"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "Ansökan om att dölja dina resultat och din rankning har skickats och kommer implementeras i nästa uppdatering av rankningarna."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Din rankning och dina resultat är nu dolda för andra spelare."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "Din ansökan har skickats och kommer implementerats i nästa uppdatering av rankningarna. Dina resultat visas nu för andra spelare."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Din rankning visas för alla spelare, vänner och klanmedlemmar."
+
+msgid "section/hof/title"
+msgstr "Hall of Fame"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Gå till tabellen"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Rankning efter vagnar\ni Slumpvis matchade strider"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Infografik"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "Klass X"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "Klass VI"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "Klass VIII"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Statistik"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Information om offensiver"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Information om offensiver"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Special"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Genomsnittlig poäng per strid"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Allmänna parametrar"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Offensiver"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Skärmytslingar"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Rekordpoäng"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Industriresurser"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Totalt antal strider utkämpade i vagnar av denna typ"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Vagnstyp: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Antalet strider i vagnar av denna klass"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Vagnsklass: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "Bara vagnar av klass VI-VIII kan delta i dessa strider."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Vagnsklass: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "Endast vagnar av klass VIII-X kan delta i detta stridsläge."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Vagnsklass: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Antalet strider i vagnar av denna klass"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Nation: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Totalt antal strider med denna placering"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Placering: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Antalet strider i vagnar av denna klass"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Vagnstyp: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "Efter typ"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Efter klass"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "Efter nation"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "Efter placering"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "Efter typ"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Skada åsamkad fiendevagnar chockade av spelaren"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Skada åsamkad fiendevagnar chockade av dig"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Åsamkad skada"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Förstörda fiendevagnar"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Upptäckta fiendevagnar"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "Återställda träffpoäng"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Erövrade nyckelpunkter"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Prestigepoäng"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Mottagen skada"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Använda rollfärdigheter"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Skadeförhållande"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Skada"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Utslagen"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Utslagningsförhållande"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Utslagna fiendevagnar"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Högsta antal förstörda vagnar"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Skada mottagen"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Antal chocker"
+
+msgid "section/statistics/headerText/all"
+msgstr "Slumpvis och Kompanistrid"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Pansarjakt"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Pansarjakt"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Världskarta"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Pansarstorm"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Pansarslag"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Härjning"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Befästningsstrider"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Historiska strider"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Rankad strid"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Rankad strid 15 mot 15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Lag: rankade strider"
+
+msgid "section/statistics/headerText/team"
+msgstr "Lag: Orankade strider"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Strider i vagnar:"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Utmärkelser"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Pansareffektivitet"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Genomsnittlig skada med din assistans"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Skada åsamkad fiendevagnar med spelarens assistans"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Skada åsamkad med din assistans"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Genomsnittlig skada per strid"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "Genomsnittlig Erfarenhet per strid"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Erfarenhet"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Genomsnittligt antal Prestigepoäng per strid"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Genomsnittligt antal vinstpoäng"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Baserövringspoäng"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Genomsnittligt skadekoefficient"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Förtjänsttecken: Stridsvagnsess"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Basförsvarspoäng"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Förstörda flaggor"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Levererade flaggor"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Offensiver"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Segrar"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Genomsnittligt byte per skärmytsling"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Skärmytslingar"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Segrar i skärmytslingar"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Anfall"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Försvar"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Segrar i offensiver"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Skärmytslingar"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Segrar i skärmytslingar"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Genomsnittligt byte per skärmytsling"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Total mängd byte erövrat i alla skärmytslingar"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Offensiver"
+
+msgid "section/statistics/scores/hits"
+msgstr "Träffar"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Utslagningsförhållande"
+
+msgid "section/statistics/scores/looting"
+msgstr "Plundringar"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Högst total skada åsamkad i en strid"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Högsta skada med hjälp av färdighet i en strid"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "Mest erfarenhet"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Högsta antal Prestigepoäng i en strid"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Högsta antalet vinstpoäng i en strid"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Längsta segersvit (solo och i pluton/superpluton)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Erövrade nyckelpunkter"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Genomsnittligt antal förstörda vagnar"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Stridsprestation i rankade strider"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Gradpoäng"
+
+msgid "section/statistics/scores/survival"
+msgstr "Överlevda strider"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Strider"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Vagnar"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Segrar"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Använda vagnar"
+
+msgid "section/statistics/title"
+msgstr "Statistik"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Ingen nästa utmärkelse"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Inga värdefulla utmärkelser"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Nästa utmärkelse"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Värdefulla utmärkelser"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Genomsnittlig nivå"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Genomsnittlig placering"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Genomsnittlig skada per strid"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "Genomsnittlig Erfarenhet per strid"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Förtjänsttecken: Stridsvagnsess"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Åsamkad skada"
+
+msgid "section/summary/scores/hits"
+msgstr "Träffsäkerhet"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Högsta antal förstörda vagnar"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "Mest erfarenhet"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Spelarbetyg"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Strider"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Segrar"
+
+msgid "section/summary/title"
+msgstr "Sammanfattning"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Inga utmärkelser mottagna än"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "Gen.erf.\nper strid"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Förtjänsttecken"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Strider"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Segrar"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Namn"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Alla vagnar i garaget"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "Tillgängliga i garaget"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "Inga vagnar i garaget som stridit i slumpvis matchade strider eller kompanistrider."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "Inga vagnar i garaget har deltagit i Pansarjakt."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "Inga vagnar i garaget har deltagit i Pansarjakt."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Inga vagnar har deltagit i Pansarstorm."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "Inga vagnar i garaget har deltagit i Pansarslag"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "Inga vagnar i ditt garage har varit med i en Härjning"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "Inga vagnar i garaget har deltagit i offensiver"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "Inga vagnar i garaget har deltagit i skärmytslingar"
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "Inga vagnar i garaget som deltagit i strider på världskartan."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "Inga vagnar i garaget har deltagit i historiska strider."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "Inga vagnar i garaget har deltagit i rankade strider"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "Inga vagnar i garaget har deltagit i rankade strider."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "Inga vagnar i garaget som stridit i lagstrid."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Sortera efter genomsnittlig skada per strid."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Genomsnittlig skada"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Sortera efter antalet fiendevagnar förstörda i en enda strid."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Förstörda fiendevagnar"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Sortera efter genomsnittlig erfarenhet per strid."
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Genomsnittlig erfarenhet"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Sortera efter antalet strider."
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Strider"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Sortera efter vagnstyp"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Typ"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Sortera efter klass."
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Klass"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Sortera efter förtjänsttecken."
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Förtjänsttecken"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Sortera efter vagnsnamn."
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Namn"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Sortera efter nation."
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Nation"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Sortera efter elitnivå"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Elitsystem"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Sortera efter genomsnittligt antal Prestigepoäng per strid"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Genomsnittligt antal Prestigepoäng per strid"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Sortera efter vagnstyp."
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Typ"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Sortera efter segerförhållandet."
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Segrar"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Sortera efter antalet segrar."
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Segrar"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Träffar"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Skada åsamkad fiendevagnar chockade av spelaren"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Skada åsamkad fiendevagnar chockade av dig"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Skada åsamkad fiendevagnar chockade av dig"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Åsamkad skada"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Förstörda fiendevagnar"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Upptäckta fiendevagnar"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Erfarenhet"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Mottagen skada"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Skada åsamkad fiendevagnar med spelarens assistans"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Genomsnittlig poäng per strid"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Antal chocker"
+
+msgid "section/technique/statistics/common"
+msgstr "Allmänna parametrar"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Skadeförhållande"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Utslagningsförhållande"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Högst total skada åsamkad i en strid"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Högsta antal förstörda vagnar"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "Mest erfarenhet"
+
+msgid "section/technique/statistics/records"
+msgstr "Rekordpoäng"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Antal chocker"
+
+msgid "section/technique/statistics/survival"
+msgstr "Överlevda strider"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Pansareffektivitet"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Strider"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Segrar"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Utmärkelser"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Visa utmärkelser för valda vagnar"
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Utmärkelser"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Statistik"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Visa statistik för valda vagnar"
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Statistik"
+
+msgid "section/technique/title"
+msgstr "Vagnar"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "Tillgängliga i garaget"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Sätt på filter för att se statistik för stridslägen."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Sortera efter stridslägen"

@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Πλήρης Ανακάλυψη"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Τρέχουσες"
+
+msgid "comparison/title"
+msgstr "Αναβαθμίσεις"
+
+msgid "comparison/tooltip/body"
+msgstr "Στην οθόνη διαμόρφωσης μπορείτε να δείτε πως οι Αναβαθμίσεις αλλάζουν τα χαρακτηριστικά ενός οχήματος. Επιλέξτε την Πλήρη Ανακάλυψη για να δείτε την επίδραση από όλες τις διαθέσιμες Αναβαθμίσεις."
+
+msgid "comparison/tooltip/header"
+msgstr "Αναβαθμίσεις"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Δεν έχει ανακαλυφθεί"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Ενεργοποιήστε αυτές τις επιλογές για να μπορείτε να αλλάζετε διαμόρφωση πριν τη μάχη."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Μπορείτε να αλλάξετε τις ρυθμίσεις αυτές ανά πάσα στιγμή."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Επικουρικό Φορτίο"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Βασικό Φορτίο"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Εναλλασσόμενη Διαμόρφωση"
+
+msgid "dialog/common/accept"
+msgstr "Επικύρωση"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s στοιχεία"
+msgstr[2] "%(perks)s στοιχεία"
+
+msgid "footer/button/label"
+msgstr "Ανακάλυψη"
+
+msgid "footer/description/text/allResearched"
+msgstr "Όλα τα στοιχεία ανακαλύφθηκαν. Έχετε πλέον πρόσβαση στα Επίλεκτα Έπαθλα."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "Το WG Wallet είναι προσωρινά μη διαθέσιμο. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "footer/description/text/inBattle"
+msgstr "Στοιχείο μη διαθέσιμο. Το όχημα είναι σε μάχη."
+
+msgid "footer/description/text/inFormation"
+msgstr "Στοιχείο μη διαθέσιμο. Το όχημα είναι σε επιχειρησιακή μονάδα."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Στοιχείο μη διαθέσιμο. Απαιτούνται επισκευές στο όχημα."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Θα πρέπει να έχετε στην κατοχή σας το όχημα γα να ανακαλύψετε τα στοιχεία του"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Επιλέξτε ένα στοιχείο ή έναν κλάδο στοιχείων για να τα ανακαλύψετε"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} στοιχεία"
+
+msgid "footer/text/selectedItem"
+msgstr "Επιλέχθηκε: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "Το WG Wallet είναι προσωρινά μη διαθέσιμο. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Στοιχείο μη διαθέσιμο. Το όχημα είναι σε μάχη."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "Στοιχείο μη διαθέσιμο. Το όχημα είναι σε επιχειρησιακή μονάδα."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Στοιχείο μη διαθέσιμο. Απαιτούνται επισκευές στο όχημα."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Όχι αρκετά XP για να ανακαλύψετε τα επιλεγμένα στοιχεία."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Διεργασία σε εξέλιξη. Περιμένετε..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Μη Διαθέσιμο"
+
+msgid "footer/tooltip/header/info"
+msgstr "Επιλεγμένα στοιχεία"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Θετικό!"
+
+msgid "intro/button/tooltip"
+msgstr "Σχετικά Με Τις Αναβαθμίσεις"
+
+msgid "intro/improvements/description"
+msgstr "Κερδίστε Combat XP για να ξεκλειδώσετε στοιχεία που αναβαθμίζουν τα χαρακτηριστικά του οχήματός σας. Οι τελικές τιμές των διάφορων χαρακτηριστικών μπορεί να διαφέρουν από τις ενδεικτικές τιμές εξαιτίας των διαφόρων συντελεστών που υπολογίζονται επί του μπόνους που δίνει το κάθε στοιχείο."
+
+msgid "intro/improvements/title"
+msgstr "Περισσότερες Πληροφορίες"
+
+msgid "intro/progression/description"
+msgstr "Οι Αναβαθμίσεις είναι αποκλειστικά διαθέσιμες για τα οχήματα της Βαθμίδας XI και αναβαθμίζουν περαιτέρω τα χαρακτηριστικά τους."
+
+msgid "intro/progression/title"
+msgstr "Αναβαθμίσεις"
+
+msgid "intro/vanity/description"
+msgstr "Αφότου ανακαλύψετε όλα τα στοιχεία, θα αποκτήσετε πρόσβαση στα Επίλεκτα Έπαθλα, τα οποία απονέμονται σε συγκεκριμένα Επίλεκτα Επίπεδα και περιλαμβάνουν μία ογκομετρική τεχνοτροπία καμουφλάζ, ένα κάλυμμα κάνης και μία Ένδειξη Στατιστικών!"
+
+msgid "intro/vanity/title"
+msgstr "Επίλεκτα Έπαθλα"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " τεμάχια"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " deg/s"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " deg"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " h.p."
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " sec"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " HP"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Η συγκεκριμένη λειτουργία δεν είναι διαθέσιμη προσωρινά"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Αναβαθμίσεις"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Έχετε αρκετά XP για να αναβαθμίσετε το όχημά σας!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Θετικόν!"
+
+msgid "rewardScreen/button/check"
+msgstr "Προβολή στην Εξωτερική Όψη"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "Για το Επίλεκτο Επίπεδο {{prestigeLevel}} με το {{level}} {{type}} {{name}}"
+
+msgid "rewardScreen/title"
+msgstr "ΕΠΙΛΕΚΤΟ ΕΠΑΘΛΟ"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Οι Αναβαθμίσεις είναι αποκλειστικά διαθέσιμες για τα οχήματα της Βαθμίδας XI και αναβαθμίζουν περαιτέρω τα χαρακτηριστικά τους."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Αναβαθμίσεις"
+
+msgid "tooltips/common/cost"
+msgstr "Κόστος: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Βελτιώνει τη δυνατότητα του οχήματός σας να αποσοβεί χτυπήματα από βλήματα HE και φθορά από εμβολισμούς."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Αυξάνει τη φθορά που προκαλούν τα βλήματα HE."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Αυξάνει την ταχύτητα των βλημάτων HE."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "Μειώνει τη διασπορά της 2ης βολής σε φάση Ριπής κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "Μειώνει την επαναφορά της φάσης Ριπής κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Αυξάνει το μπόνους της ταχύτητας γέμισης ανά επίπεδο αποτελεσματικότητας κατά {colorTagOpen}{value} sec%{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "Αυξάνει τη διάρκεια των επιπέδων αποτελεσματικότητας γεμίσματος κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "Αυξάνει τη διάρκεια των επιπέδων αποτελεσματικότητας γεμίσματος κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "Αυξάνει το μπόνους της ταχύτητας γέμισης ανά επίπεδο αποτελεσματικότητας κατά {colorTagOpen}{value} sec%{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "Μειώνει τον χρόνο επαναφοράς του μηχανισμού κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "Μειώνει τον χρόνο επαναφοράς του μηχανισμού κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "Αυξάνει τη διάρκεια του μηχανισμού κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "Αυξάνει τη διάρκεια του μηχανισμού κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "Μειώνει τη διασπορά των πυρών στα 100 m για βολές μονής γόμωσης κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "Αυξάνει τη φθορά για βολές μονής γόμωσης με κανονικά και ειδικά βλήματα κατά {colorTagOpen}{value} HP{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "Αυξάνει την ταχύτητα των βλημάτων για βολές μονής γόμωσης κατά {colorTagOpen}{value} m/sec{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "Μειώνει τον χρόνο γέμισης για βολές μονής γόμωσης κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Αυξάνει την αντοχή της ανάρτησης και την ταχύτητα επισκευής."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Μειώνει την ποινή την ποινή από φθορά σε πυρομαχικά ή κινητήρα και μειώνει την πιθανότητα τραυματισμού μέλους του πληρώματος όταν το όχημα δεχθεί φθορά."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Μειώνει το μέγεθος του κύκλου στόχευσης μετά από βολή."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Μειώνει τον χρόνο στόχευσης."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Μειώνει τον χρόνο στόχευσης σε Μονή Βολή."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Αυξάνει τη φθορά που προκαλούν τα βλήματα όλων των τύπων."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Αυξάνει την ταχύτητα όλων των βλημάτων."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Αυξάνει την αντοχή των πυρομαχικών πριν ανατιναχτούν."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Μειώνει την ποινή από φθορά στα πυρομαχικά."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Αυξάνει τη φθορά που προκαλούν τα Τυπικά βλήματα."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "Αυξάνει την ταχύτητα περιστροφής με ενεργοποιημένους τους προωθητήρες κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "Αυξάνει τη μέγιστη ταχύτητα με ενεργοποιημένους τους προωθητήρες κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "Μειώνει τον χρόνο επαναφοράς των προωθητήρων κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "Αυξάνει τη διάρκεια των προωθητήρων κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "Αυξάνει την ισχύ του κινητήρα με χρήση προωθητήρων κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "Μειώνει τον χρόνο επαναφοράς των προωθητήρων κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "Αυξάνει την ισχύ του κινητήρα με χρήση προωθητήρων κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "Αυξάνει το πλήθος των χρήσεων των προωθητήρων σε μία μάχη κατά {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Μειώνει την πιθανότητα τραυματισμού μέλους του πληρώματος όταν το όχημα δεχθεί φθορά."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Μειώνει τη διασπορά των πυρών χαλασμένου πυροβόλου."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Αυξάνει την ταχύτητα σε φάση Κίνησης."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Αυξάνει την ταχύτητα οπισθοπορείας σε φάση Κίνησης."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Μειώνει την ποινή από φθορά στον κινητήρα."
+
+msgid "tooltips/description/enginePower"
+msgstr "Αυξάνει την ισχύ του κινητήρα για μεγαλύτερη επιτάχυνση"
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "Μειώνει τον χρόνο εκκίνησης της γέμισης κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "Μειώνει την καθυστέρηση για την επόμενη βολή μετά από διακοπή της γέμισης κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "Μειώνει την ποινή στον χρόνο γέμισης μετά τη ρίψη του τελευταίου βλήματος από τον γεμιστήρα της ριπής κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Μειώνει την ποινή στη διασπορά στα 100 m κατά {colorTagOpen}{value0}%{colorTagClose} και την ποινή στον χρόνο στόχευσης κατά {colorTagOpen}{value1}%{colorTagClose} όταν υπάρχει υπέρβαση ορίου."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "Αυξάνει την ταχύτητα συσσώρευσης γόμωσης κατά {colorTagOpen}{value}%/sec{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "Μειώνει την απώλεια γόμωσης μετά από βολή κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "Αυξάνει τη μέγιστη φθορά μετά το όριο κατά {colorTagOpen}{value0} HP{colorTagClose} και το μπόνους της μέγιστης φθοράς μετά το όριο κατά {colorTagOpen}{value1}%{colorTagClose}."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Αυξάνει την ταχύτητα κίνησης του οχήματος."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "Αυξάνει το μπόνους στη διασπορά των πυρών ανά επίπεδο ευστοχίας κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "Αυξάνει τη μέγιστη ταχύτητα στην οποία αναβαθμίζετε τα επίπεδα ευστοχίας κατά {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "Μειώνει τον απαιτούμενο χρόνο για το επόμενο επίπεδο ευστοχίας κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "Αυξάνει το μπόνους στη σταθεροποίηση του πυροβόλου στο μέγιστο επίπεδο ευστοχίας κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Μειώνει τον χρόνο γέμισης του βοηθητικού οπλισμού κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Μειώνει τον χρόνο γέμισης του βοηθητικού οπλισμού κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "Αυξάνει τον χρόνο κατά τον οποίο ένα στοχοποιημένο εχθρικό όχημα παραμένει εντοπισμένο κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "Μειώνει τον χρόνο επαναφοράς του μηχανισμού κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "Μειώνει τον αρχικό χρόνο που απαιτείται για χρήση του μηχανισμού κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "Αυξάνει την πρόσθετη φθορά που προκαλείται σε στοχοποιημένα εχθρικά οχήματα από βολές κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "Αυξάνει τη μέγιστη ταχύτητα στην οποία γίνεται προθέρμανση κατά {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "Αυξάνει το μέγιστο μπόνους στη διασπορά των πυρών από προθέρμανση κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "Αυξάνει το μέγιστο μπόνους φθοράς των πυρών από προθέρμανση κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "Μειώνει τον απαιτούμενο χρόνο για το μέγιστο επίπεδο προθέρμανσης κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "Μειώνει τη διασπορά των πυρών κατά {colorTagOpen}{value} m{colorTagClose} σε Ομοβροντία."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "Αυξάνει την ταχύτητα περιστροφής του πυργίσκου κατά {colorTagOpen}{value} μοίρες{colorTagClose} σε Ομοβροντία."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "Μειώνει τον χρόνο στόχευσης κατά {colorTagOpen}{value} sec{colorTagClose} σε Ομοβροντία."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "Αυξάνει την ταχύτητα κίνησης κατά {colorTagOpen}{value} km/h{colorTagClose} σε Ομοβροντία."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "Μειώνει τον απαιτούμενο χρόνο για τη φάση Οδήγησης κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "Μειώνει τον απαιτούμενο χρόνο για τη μέγιστη απόδοση της φάσης Οδήγησης κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "Αυξάνει την ισχύ του κινητήρα κατά {colorTagOpen}{value}%{colorTagClose} σε φάση Οδήγησης."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "Αυξάνει την ταχύτητα κίνησης κατά {colorTagOpen}{value}%{colorTagClose} σε φάση Οδήγησης."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "Αυξάνει το μπόνους στην ισχύ του κινητήρα από το Τούρμπο κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "Αυξάνει τη μέγιστη ταχύτητα οπισθοπορείας με ενεργό το Τούρμπο κατά {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "Αυξάνει τη διάρκεια του Τούρμπο κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "Μειώνει τον χρόνο επαναφοράς του Τούρμπο κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Αυξάνει τη γωνία καθόδου του πυροβόλου."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Μειώνει τη διασπορά των πυρών μέσα στον κύκλο στόχευσης."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Μειώνει τη διασπορά των πυρών μέσα στον κύκλο στόχευσης σε Μονή Βολή."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Αυξάνει τη σταθεροποίηση του πυροβόλου σε όλες τις περιστάσεις."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Αυξάνει τη σταθεροποίηση του πυροβόλου κατά τη διάρκεια κίνησης και περιστροφής του σκάφους."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Αυξάνει τη σταθεροποίηση του πυροβόλου κατά τη διάρκεια κίνησης."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Αυξάνει τη σταθεροποίηση του πυροβόλου κατά την περιστροφή του σκάφους."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Αυξάνει την ευστοχία του πυροβόλου κατά τη διάρκεια κίνησης και περιστροφής του σκάφους σε Μονή Βολή."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Αυξάνει τη σταθεροποίηση του πυροβόλου κατά την περιστροφή του πυργίσκου."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Αυξάνει την ευστοχία του πυροβόλου κατά τη διάρκεια περιστροφής του πυργίσκου σε Μονή Βολή."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Αυξάνει τις μέγιστες γωνίες οριζόντιας περιστροφής του πυροβόλου."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Αυξάνει την αντοχή του οχήματος για να μπορεί να δέχεται περισσότερη φθορά πριν καταστραφεί."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Μειώνει τον χρόνο γέμισης των βλημάτων του γεμιστήρα."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Μειώνει την πιθανότητα να εντοπιστεί το όχημα μετά από ρίψη πυρών."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "Μειώνει τον χρόνο μέχρι να ξεκινήσει η ψύξη του πυροβόλου κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "Μειώνει την ποσότητα της παραγόμενης θερμότητας ανά βολή κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "Αυξάνει την ταχύτητα ψύξης του πυροβόλου κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Αυξάνει τη φθορά όλων των βλημάτων εκτός HE."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Δίνει τη δυνατότητα για εναλλακτική τοποθέτηση εξοπλισμού και οδηγιών."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "Μειώνει τον χρόνο μέχρι να ξεκινήσει η ψύξη του πυροβόλου κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "Αυξάνει την ταχύτητα ψύξης θερμού και υπερθερμασμένου πυροβόλου κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "Μειώνει την ποσότητα της παραγόμενης θερμότητας ανά βολή κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "Αυξάνει την ταχύτητα ψύξης υπερθερμασμένου πυροβόλου κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "Μειώνει τον απαιτούμενο χρόνο για εναλλαγή φάσεων κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "Αυξάνει την ποσότητα ενέργειας που παράγεται μόνιμα ανά sec σε φάση Τούρμπο κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "Αυξάνει την ποσότητα ενέργειας που παράγεται μόνιμα ανά sec σε φάση Εμπλοκής κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "Αυξάνει τη διάρκεια κατά {colorTagOpen}{value} sec{colorTagClose} και σε φάση Τούρμπο και σε φάση Εμπλοκής."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "Αυξάνει τη φθορά που προκαλείται στα εχθρικά οχήματα με εμβολισμό κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "Αυξάνει τη φθορά που προκαλείται στην ανάρτηση των εθχρικών οχημάτων με εμβολισμό κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "Αυξάνει τη φθορά που προκαλείται στα εχθρικά οχήματα με εμβολισμό κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "Αυξάνει τη φθορά που προκαλείται στα εχθρικά οχήματα με εμβολισμό κατά {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "Μειώνει τον χρόνο για την επόμενη βολή μετά από υπερθέρμανση κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "Αυξάνει τον διαθέσιμο χρόνο για πυρά στο μέγιστο επίπεδο προθέρμανσης κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "Μειώνει τον χρόνο για την επόμενη βολή μετά από υπερθέρμανση κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "Αυξάνει το μπόνους στη φθορά ανά επίπεδο θέρμανσης κατά {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Μειώνει την προσλαμβανόμενη φθορά από εμβολισμούς."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Μειώνει τον χρόνο στόχευσης και σε Μονή Βολή και σε Ομοβροντία."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Αυξάνει την ταχύτητα οπισθοπορείας του οχήματος."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Ορισμός κατηγορίας στη 2η θέση εξοπλισμού."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "Αυξάνει την ταχύτητα περιστροφής του σκάφους και ανύψωσης του πυροβόλου κατά {colorTagOpen}{value}%{colorTagClose} σε φάση Πυρών."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "Μειώνει τον απαιτούμενο χρόνο για έξοδο από τη φάση Πυρών κατά {colorTagOpen}{value} sec{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "Μειώνει τη διασπορά των πυρών κατά {colorTagOpen}{value}%{colorTagClose} στη φάση Πυρών."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "Μειώνει τον χρόνο γέμισης του πυροβόλου κατά {colorTagOpen}{value}%{colorTagClose} στη φάση Πυρών."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Αυξάνει την αντοχή του κινητήρα και των δεξαμενών καυσίμων."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Μειώνει την ποινή από φθορά σε πυρομαχικά και κινητήρα."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Αυξάνει τη φθορά που προκαλείται από βλήματα στα εξαρτήματα των εχθρικών οχημάτων."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Δίνει τη δυνατότητα για εναλλακτική τοποθέτηση πυρομαχικών και αναλώσιμων."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Αυξάνει τη φθορά που προκαλούν τα Ειδικά βλήματα."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Αυξάνει τη διατρητικότητα των ειδικών βλημάτων."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Αυξάνει την ταχύτητα των ειδικών βλημάτων."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Μειώνει τον συντελεστή κάλυψης των εχθρικών οχημάτων όταν βρίσκονται πίσω από φυλλώματα."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Μειώνει τον συντελεστή κάλυψης των εχθρικών οχημάτων όταν κινούνται."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Αυξάνει τη φθορά που προκαλούν τα Τυπικά βλήματα."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Αυξάνει τη διατρητικότητα των τυπικών βλημάτων."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Αυξάνει την ταχύτητα των τυπικών βλημάτων."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Μειώνει τη διάρκεια του σοκ στο όχημά σας από εχθρικές βολές."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Αυξάνει τις μέγιστες γωνίες οριζόντιας περιστροφής του πυργίσκου."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Μειώνει τη διασπορά των πυρών κατά την περιστροφή του πυργίσκου σε φάση Εμπλοκής."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Αυξάνει την ταχύτητα κίνησης και οπισθοπορείας"
+
+msgid "tooltips/description/viewRange"
+msgstr "Δίνει τη δυνατότητα εντοπισμού εχθρικών οχημάτων από μεγαλύτερη απόσταση."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Κάνει το όχημα Επίλεκτο"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Ανακαλύψτε όλα τα άλλα στοιχεία για να μπορέσετε να ανακαλύψετε και αυτό το στοιχείο."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Κατηγορία: Κάλυψη"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Κατηγορία: Δύναμη Πυρός"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Μηχανική Αναβάθμιση"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Κατηγορία: Ευκινησία"
+
+msgid "tooltips/perk/category/special"
+msgstr "Ειδική Αναβάθμιση"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Κατηγορία: Εντοπισμός"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Κατηγορία: Αντοχή"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Κλικ για μετατροπή μετά την ανακάλυψη του στοιχείου."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "Απορρόφηση Φθοράς HE"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "Φθορά Βλημάτων HE"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "Διατρητικότητα Βλημάτων HE"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "Ταχύτητα Βλημάτων HE"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Ημι-Ενεργός Αποσβεστήρας Μάζας"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Βελτιωμένο Αλυσοκίνητο Έμβολο"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Ημιαυτόματος Εξολκέας Στρέψης"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Προηγμένος Εξαερισμός Θαλάμου Μάχης"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Φυγοκεντρικός Ανεμιστήρας Υπερπίεσης"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Τροποποιημένες Θήκες Πυρομαχικών"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Συμπιεστής Υψηλής Απόδοσης"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "Πιστόνι Συμπίεσης 6.000-PSI"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "Πνευματικό Σύστημα 6.000-PSI"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Πρόσθετος Κύλινδρος Υψηλής Πίεσης"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Βελτίωση Βαλλιστικής"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Μεγαλύτερη Μονή Γόμωση"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Συμπιεσμένη Μονή Γόμωση"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Ελαφρύς Διαχωριστής Γόμωσης"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Πρόσθετα Πυρομαχικά"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Προηγμένη Προστασία Ανάρτησης"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Προηγμένη Προστασία Εξαρτημάτων & Πληρώματος"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Μέγεθος Κύκλου Στόχευσης"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Χρόνος Στόχευσης"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Χρόνος Στόχευσης"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Φθορά Όλων Των Βλημάτων"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Ταχύτητα Βλήματος"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "HP Πυρομαχικών"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Ποινή Πυρομαχικών"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Φθορά Τυπικών Βλημάτων"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Κατεύθυνση Ώθησης"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Αντλία Αερίου Υψηλής Ροής"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Ψύκτρα Εξαερισμού"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Ακροφύσια Ψυχρής Διαπνοής"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Προωθητικό Υψηλής Ενέργειας"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Ημιαυτόματος Εξολκέας Προώθησης"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Βελτιστοποίηση Πυρήνα"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Μεγαλύτερη Αποθήκευση Ισχύος"
+
+msgid "tooltips/title/chassisHP"
+msgstr "HP Ανάρτησης"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Ταχύτητα Επισκευής Ανάρτησης"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Προστασία Πληρώματος"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Περιστασιακή Διασπορά Πυρών"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Ταχύτητα Σε Φάση Κίνησης"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Ταχύτητα Οπισθοπορείας Σε Φάση Κίνησης"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Πιθανότητα Φωτιάς Στον Κινητήρα"
+
+msgid "tooltips/title/engineHP"
+msgstr "HP Κινητήρα"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Ποινή Κινητήρα"
+
+msgid "tooltips/title/enginePower"
+msgstr "Ισχύς Κινητήρα"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Βελτιστοποίηση Υδραυλικής Παροχής"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Βελτιστοποίηση Διαδικασίας Γέμισης"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Βελτιωμένος Μηχανισμός Γέμισης"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Θερμική Μόνωση Κάννης"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Εναλλάκτης Υψηλής Απόδοσης"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Καλωδίωση Χαμηλής Αντίστασης"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Τροποποιημένος Κόφτης Εξόδου"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Ταχύτητα Κίνησης"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "HP Δεξαμενών Καυσίμων"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Αισθητήρας Δυνάμεως Coriolis"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Αισθητήρας Γυροσκοπικής Ροπής"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Αναβαθμισμένο Τερματικό Εισόδου"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Αισθητήρας Περιστροφής Μεγάλης Ακρίβειας"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Βελτιωμένη Αποθήκευση Βοηθητικών Πυρομαχικών"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Βοηθητικός Επικρουστήρας"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Προηγμένος Μηχανισμός Εντοπισμού"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Αποδοτικός Εναλλάκτης Θερμότητας"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Γεννήτρια Υψηλής Έντασης"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Λέιζερ Ρουμπινιού Χαμηλής Διασποράς"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Τροποποιημένη Ισχύς"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Διπλός Αισθητήρας Θερμότητας"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Έλεγχος Θερμότητας Ακριβείας"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Εναλλάκτης Υψηλής Απόδοσης"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Προεγκατεστημένες Βάσεις Πυροβόλου"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Προηγμένο Σύστημα Περιστροφής"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Σύστημα Ελέγχου Κλίσης"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Ελεύθερος Ρυθμιστής Ροπής"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Προσαρμογή Ασυρμάτου"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Βελτιστοποίηση Τουρμπίνας"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Βελτιστοποίηση Σωληνώσεων"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Τροποποιημένος Κόφτης RPM"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Προσαρμοσμένος Ρυθμιστής Πίεσης"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Εκσυγχρονισμένη Πολλαπλή Εξάτμιση"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Δεξαμενή Αέρα Αυξημένης Χωρητικότητας"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Συμπιεστής Αέρα Υψηλής Απόδοσης"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Κάθοδος Πυροβόλου"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Διασπορά Πυρών"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Διασπορά Πυρών"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Ανύψωση Πυροβόλου"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Συνολική Σταθεροποίηση Πυροβόλου"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Μερική Σταθεροποίηση Πυροβόλου"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Σταθεροποίηση Κίνησης"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Σταθεροποίηση Περιστροφής"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Μερική Σταθεροποίηση Πυροβόλου"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Μερική Σταθεροποίηση Πυροβόλου"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Μερική Σταθεροποίηση Πυροβόλου"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Βελτιωμένη Περιστροφή Όπλου"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Hit Points (HP)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Ταχύτητα Ανύψωσης Σκάφους"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Ταχύτητα Περιστροφής Σκάφους"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Χρόνος Γέμισης Εντός Γεμιστήρα"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Συντελεστής Κάλυψης Μετά Από Πυρά"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Ψυκτικό Υγρό"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Θερμικό Περίβλημα Υψηλής Αγωγιμότητας"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Βελτιστοποίηση Σωληνώσεων Θερμότητας"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "Φθορά Όλων Των Βλημάτων Εκτός HE"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Εξοπλισμός & Οδηγίες"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Επιχρωμίωση"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Κάνη Υψηλής Αγωγιμότητας"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Προωθητικό Χαμηλής Θερμοκρασίας"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Εξαναγκασμένο Σύστημα Εξαερισμού"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Ρότορας Τουρμπίνας Ελαφρού Μετάλλου"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Βοηθητικός Εναλλάκτης Υψηλής Απόδοσης"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Προηγμένος Έλεγχος Ανόρθωσης"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Υβριδική Διάταξη Πυκνωτών"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Τοπική Σκλήρυνση Ακμών"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Ερπύστριες Από Χάλυβα Υψηλής Περιεκτικότητας"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Βαθειά Τοπική Ανάμιξη"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Επιφανειακή Τοπική Ανάμιξη"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Θερμικός Αισθητήρας Υψηλής Ακρίβειας"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Θερμαντήρες Χαμηλής Αδράνειας"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Μηχανοκίνητος Δίσκος Φόρτισης"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Έλεγχος Υπερθέρμανσης"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Μειωμένη Φθορά Από Εμβολισμό"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Χρόνος Γέμισης"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Χρόνος Γέμισης"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Ταχύτητα Οπισθοπορείας"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Κατηγορία 2ης Θέσης"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Υδραυλική Αξονική Αντλία"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Συγχρονισμός Πολυκωνικού Συστήματος Ισχύος"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Ρότορας Εξισορρόπησης-Ακριβείας"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Υδραυλικός Επικρουστήρας"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "HP Boost Επιλεγμένου Εξαρτήματος"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Προστασία Επιλεγμένου Εξαρτήματος"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Φθορά Βλήματος Σε Εξάρτημα"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Πυρομαχικά & Αναλώσιμα"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Φθορά Ειδικών Βλημάτων"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Διατρητικότητα Ειδικών Βλημάτων"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Ταχύτητα Ειδικών Βλημάτων"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Μπόνους Εντοπισμού Σε Φυλλώματα"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Μπόνους Εντοπισμού Σε Κινηση"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Φθορά Τυπικών Βλημάτων"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Διατρητικότητα Τυπικών Βλημάτων"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Ταχύτητα Τυπικών Βλημάτων"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Διάρκεια Σοκ"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Βελτιωμένη Περιστροφή Πυργίσκου"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Ταχύτητα Περιστροφής Πυργίσκου"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Σταθεροποίηση Περιστροφής Πυργίσκου"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Ταχύτητα Κίνησης"
+
+msgid "tooltips/title/viewRange"
+msgstr "Αυξημένο Εύρος Ορατότητας"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Ανακαλύψτε και το τελευταίο στοιχείο για να αποκτήσετε πρόσβαση"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Κερδίστε αποκλειστικά έπαθλα για οχήματα της Βαθμίδας XI που περιλαμβάνουν μία ογκομετρική τεχνοτροπία καμουφλάζ, ένα κάλυμμα κάνης και μία Ένδειξη Στατιστικών."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Επίλεκτα Έπαθλα"
+
+msgid "vanity/available/subtitle"
+msgstr "Κερδίστε έπαθλα από τα Επίλεκτα Επίπεδα"
+
+msgid "vanity/available/tooltip"
+msgstr "Τρέχον Επίλεκτο Επίπεδο"
+
+msgid "vanity/completed/subtitle"
+msgstr "Μπράβο! Σας απονεμήθηκαν όλα τα έπαθλα."
+
+msgid "vanity/completed/tooltip"
+msgstr "Τρέχον Επίλεκτο Επίπεδο"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Διαθεσιμότητα μετά την ανακάλυψη και του τελευταίου στοιχείου"
+
+msgid "vanity/disabled/tooltip"
+msgstr "Το όχημα δεν είναι Επίλεκτο"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Απαιτείται συγκεκριμένο Επίλεκτο Επίπεδο για το έπαθλο"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "Αποκλειστικό κάλυμμα κάννης που θα κάνει το όχημά σας να ξεχωρίζει στη μάχη."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Νέο στοιχείο προσαρμογής που δηλώνει τις καταστροφές εχθρικών οχημάτων."
+
+msgid "vanity/rewardType/description/style"
+msgstr "Ειδική τεχνοτροπία 2D με μοναδικά οπτικά εφέ που παραπέμπουν σε τεχνοτροπία 3D, η οποία είναι αποκλειστικά διαθέσιμη για οχήματα Βαθμίδας XI."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "Προσάρτημα 3D Κάλυμμα Κάννης"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Ένδειξη Στατιστικών"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Ογκομετρική Τεχνοτροπία Καμουφλάζ"
+
+msgid "vanity/title"
+msgstr "ΕΠΙΛΕΚΤΑ ΕΠΑΘΛΑ"

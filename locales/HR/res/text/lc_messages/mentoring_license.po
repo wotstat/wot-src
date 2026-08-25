@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Za potvrdu, unesite količinu iskustva člana posade odabranog za prijenos."
+
+msgid "assignmentDialog/price"
+msgstr "Cijena:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Prebacite svo iskustvo posade između članova posade"
+
+msgid "assignmentDialog/title"
+msgstr "Potvrdi Mentorski tečaj"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Ovaj član posade će biti uklonjen s\nvašeg računa bez oporavka."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} dodatno iskustvo će biti izgubljeno."
+
+msgid "dialogue/description"
+msgstr "Potrošni materijal koji omogućuje prijenos svog iskustva posade između članova posade iste nacije."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Dodatno iskustvo će biti izgubljeno:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "ODABERI"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Ukupno iskustva:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Mentorske licencee:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Nema prikladnih članova posade"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Odaberite člana posade koji će prenijeti svoje iskustvo\nna {cream_Open}%(name)s{cream_Close} i biti uklonjen s vašeg računa."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Nakon što je iskustvo posade prenešeno, {cream_Open}%(name)s{cream_Close} će dosegnuti granicu sposobnosti i svo iskustvo iznad granice će biti izgubljeno."
+
+msgid "mentorAssigment/title"
+msgstr "ODABERI MENTORA"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} je dosegnuo granicu sposobnosti i ne može se odabrati za prijenos iskustva."
+
+msgid "multipleUserName"
+msgstr "Mentorska licenca"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Iskorišteno mentorskih licenci: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Prenešeno iskustvo posade: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Mentorski tečaj"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Izgubljeno dodatno iskustvo posade: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Omogućuje prijenos iskustva posade između članova\nposade iste nacije."
+
+msgid "storage/userName"
+msgstr "Mentorska licenca"
+
+msgid "userName"
+msgstr "Mentorska licenca"

@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Annuller søgning"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Klik for at annullere søgning efter delingsmedlemmer."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Ny deling"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Opret en deling for at invitere venner til at spille sammen."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Ny super-deling"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Find spillere"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Find spillere med lignende evner og køretøjer ved at bruge søgefilteret."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Alle invitationer til venner vil blive annulleret, hvis du starter med at søge efter spillere, der er online."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Find spillere"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Du kan ikke søge efter spillere: for mange delinger på serveren."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Du kan ikke søge efter spillere til en deling: ingen passende køretøjer."
+
+msgid "buttons/invite/player/caption"
+msgstr "Inviter spiller"
+
+msgid "buttons/invite/player/description"
+msgstr "Klik for at invitere en spiller til en deling."
+
+msgid "buttons/invite/players/caption"
+msgstr "Inviter spillere"
+
+msgid "buttons/invite/players/description"
+msgstr "Klik for at invitere spillere til en deling."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Forlad deling"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Klik for at forlade delingen."
+
+msgid "buttons/mute/caption"
+msgstr "Slå voice chat i deling fra"
+
+msgid "buttons/mute/description"
+msgstr "Klik for at slå voice chat i deling fra."
+
+msgid "buttons/notReady/caption"
+msgstr "Ikke klar"
+
+msgid "buttons/notReady/description"
+msgstr "Klik hvis du ikke er klar til at gå i kamp."
+
+msgid "buttons/ready/caption"
+msgstr "Klar!"
+
+msgid "buttons/ready/description"
+msgstr "Klik hvis du er klar til at gå i kamp."
+
+msgid "buttons/reset/caption"
+msgstr "Nulstil søgepræferencer"
+
+msgid "buttons/reset/description"
+msgstr "Klik for at nulstille søgepræferencer til standard."
+
+msgid "buttons/settings/caption"
+msgstr "Indstil søgepræferencer"
+
+msgid "buttons/settings/description"
+msgstr "Søg efter spillere, der opfylder dine præferencer. Jo mere tid der går, hvor der ikke findes spillere, jo mere vil søgningen blive udvidet."
+
+msgid "buttons/unMute/caption"
+msgstr "Aktiver voice chat i delingen"
+
+msgid "buttons/unMute/description"
+msgstr "Klik for at aktivere voice chat i delingen."
+
+msgid "headerButton/inSquad"
+msgstr "I deling"
+
+msgid "headerButton/onboarding"
+msgstr "DU KAN NU SØGE EFTER SPILLERE\nTIL AT OPRETTE EN DELING"
+
+msgid "headerButton/searching"
+msgstr "Søger..."
+
+msgid "headerButton/squad"
+msgstr "Opret deling"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Kæmp i en deling med en ven. Spil som et hold mod ni fjendtlige delinger."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Deling"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Du kan ikke oprette eller gå med i delinger, da du er midlertidigt blokeret fra denne kamptype."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Du vil ikke kunne oprette eller gå med i delinger, da du skal bruge mindst ét niveau %(level)s køretøj i garagen, der passer til kamptypen."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "Oprettelse af delinger er midlertidigt utilgængeligt."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Delinger utilgængelige"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Du kan oprette en deling eller gå med i en eksisterende. I Onslaught Light kan delinger bestå af 2 eller 7 spillere."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Deling"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Du kan ikke oprette eller gå med i delinger, da du ikke har et passende niveau %(level)s køretøj i din garage."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "Efter kvalifikationen er fuldført, er delinger på 2 og 7 spillere tilgængelige."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Kan ikke oprette en deling."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Delinger utilgængelige"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Opret en deling eller gå med i en eksisterende. Delinger i Onslaught kan bestå af 2 eller 7 spillere."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Deling"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Opret en taktisk enhed på 2 eller 3 spillere der kan samarbejde.\n• Kamptilstand: Raseri.\n• Kamptyper: Ståljagt, dominans."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Deling"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Opret en taktisk enhed på 2 eller 3 spillere til at deltage i The Great Race."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "The Great Race-deling"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Klik for at åbne delings-menuen."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Recon Mission: Deling"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Klik for at åbne delings-menuen."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Deling"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Opret en deling på 2 eller 3 spillere til at deltage i Recon Mission."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Recon Mission: Deling"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "Taktiske enheder er ikke tilladt i rangerede kampe."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Opret deling"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "Søger efter spillere..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Søger"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Opret en taktisk enhed på 2 eller 3 spillere, der vil kæmpe sammen i standard kampe og Frontlinje (når det er tilgængeligt)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Deling"
+
+msgid "members/card/connectionLost"
+msgstr "Forbindelse afbrudt"
+
+msgid "members/card/disabled"
+msgstr "Denne kamptype understøtter kun delinger på to spillere"
+
+msgid "members/card/disabledVertical"
+msgstr "Ikke tilgængelig i denne kamptype"
+
+msgid "members/card/empty"
+msgstr "Tom plads"
+
+msgid "members/card/inBattle"
+msgstr "I kamp"
+
+msgid "members/card/muted/caption"
+msgstr "Spillers lyd afbrudt"
+
+msgid "members/card/muted/description"
+msgstr "Højreklik for igen at tillade lyd fra denne spiller."
+
+msgid "members/card/notReady"
+msgstr "Ikke klar"
+
+msgid "members/card/searching"
+msgstr "Søger efter spiller..."
+
+msgid "members/card/selectVehicle"
+msgstr "Vælg et niveau %(level)s køretøj"
+
+msgid "members/chat/chatName"
+msgstr "Chat kanal:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Klik for at sende en besked til chat kanalen."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Send besked"
+
+msgid "members/footer/comp7Invite"
+msgstr "Invitér"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Restriktioner for top-rang"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Spillerrang i top-deling"
+
+msgid "members/footer/getNotReady"
+msgstr "Klik for at angive at du ikke er klar."
+
+msgid "members/footer/getReady"
+msgstr "Bekræft at du er klar til at gå i kamp."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Forkert niveau"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Straf til xp på grund af upassende sammensætning af delingen!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Køretøjsgrænse nået"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "Delingen har nået det maksimale antal kampvognsjægere"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "Delingen har nået det maksimale antal SPG'er"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "Delingen har nået det maksimale antal tunge kampvogne"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "Delingen har nået det maksimale antal medium kampvogne"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "Delingen har nået det maksimale antal lette kampvogne"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "Delingen har nået det maksimale antal hjulkøretøjer"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "Delingen har nået det maksimale antal lette kampvogne"
+
+msgid "members/header/battle_royal"
+msgstr ": Ståljæger"
+
+msgid "members/header/epic"
+msgstr ": Frontlinje"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: Projekt Hyperion"
+
+msgid "members/header/mapbox"
+msgstr ": Recon Mission"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Standard kamp"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "Frontlinje er kun tilgængelig\ni niveau VIII køretøjer."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Regler for delingsoprettelse"
+
+msgid "members/header/tooltip/event/body"
+msgstr "Delingen skal bestå af tre særlige køretøjer i kamptypen."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Regler for delingsoprettelse"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "Delingen bør bestå af køretøjer på samme niveau."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Regler for delingsoprettelse"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Spillere i delingen"
+
+msgid "searching/estimated/caption"
+msgstr "Estimeret tid"
+
+msgid "searching/estimated/lessThan"
+msgstr "mindre end %(seconds)d s"
+
+msgid "searching/estimated/moreThan"
+msgstr "mere end %(seconds)d s"
+
+msgid "searching/expanded/body"
+msgstr "Ingen spillere opfyldte originale præferencer.\nSøgning blev udvidet til at omfatte andre køretøjsniveauer."
+
+msgid "searching/expanded/header"
+msgstr "Søgepræferencer udvidet"
+
+msgid "searching/lookingFor"
+msgstr "Søger efter:"
+
+msgid "searching/playersInQueue"
+msgstr "Spillere i kø"
+
+msgid "searching/state"
+msgstr "Søger:"
+
+msgid "settings/tiers"
+msgstr "Foretrukket køretøjsniveau"
+
+msgid "settings/voice"
+msgstr "Foretræk spillere med voice chat"
+
+msgid "squad"
+msgstr "Deling"

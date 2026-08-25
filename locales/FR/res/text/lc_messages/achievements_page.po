@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Points augmentant le Score total des faits d'armes."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Points de faits d'armes"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Vous avez terminé toutes les étapes de ce fait d'armes et reçu toutes les récompenses disponibles."
+
+msgid "catalog/hintIcon"
+msgstr "ÉCHAP"
+
+msgid "catalog/hintText"
+msgstr "Appuyez sur %(escIcon)s pour retourner au niveau précédent du RÉPERTOIRE."
+
+msgid "catalog/rootLink"
+msgstr "RÉPERTOIRE"
+
+msgid "category/achievementsScore/title"
+msgstr "SCORE DES FAITS D'ARMES"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Le principal indicateur de la progression dans la collection des faits d'armes. Chaque nouveau fait d'armes augmente le Score des faits d'armes total, à l'exception des trophées."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Score des faits d'armes total : %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "FAITS D'ARMES\nRÉCENTS"
+
+msgid "category/title"
+msgstr "COLLECTION DU JOUEUR"
+
+msgid "category/upcoming/title"
+msgstr "PROCHAINS\nFAITS D'ARMES"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s et plus"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Fait d'armes débloqué !"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s faits d'armes débloqués !"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s et plus"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Nouveau trophée gagné !"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s trophées gagnés !"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "L'Affichage automatique trie les distinctions de toutes les catégories par leurs valeurs pour afficher le ruban des distinctions importantes. Il se désactive si vous réarrangez manuellement les distinctions."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "L'Affichage automatique trie les distinctions de toutes les catégories par leurs valeurs pour afficher le ruban des distinctions importantes. En activant ce paramètre, l'ordre manuel est réinitialisé."
+
+msgid "editConfirm/description/error"
+msgstr "Nous enquêtons sur ce problème. Veuillez réessayer d'éditer plus tard. En attendant, vous allez être redirigé vers le Résumé."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Enregistrer"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Annuler"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Affirmatif !"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Affichage automatique désactivé"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Affichage automatique activé"
+
+msgid "editConfirm/title/error"
+msgstr "Une erreur s'est produite"
+
+msgid "editConfirm/title/normal"
+msgstr "Appliquer les changements au ruban des distinctions importantes ?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Annuler les changements"
+
+msgid "editView/footer/button/save"
+msgstr "Appliquer et quitter"
+
+msgid "editView/header/checkbox"
+msgstr "Affichage automatique"
+
+msgid "editView/header/close"
+msgstr "FERMER"
+
+msgid "editView/header/title/idle"
+msgstr "Choisissez les distinctions à afficher dans le ruban"
+
+msgid "editView/header/title/selecting"
+msgstr "Choisissez la distinction à remplacer"
+
+msgid "editView/header/title/tutorial"
+msgstr "Choisissez l'emplacement de distinction"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Annuler"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Remplacer"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "VOS FAITS D'ARMES\nSONT ICI"
+
+msgid "hint/profile"
+msgstr "VOS FAITS D'ARMES\nSONT ICI"
+
+msgid "hint/summary/customizationButton"
+msgstr "Édition disponible"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Au ruban"
+
+msgid "notifications/editingEnabled/title"
+msgstr "L'édition du ruban des distinctions importantes est disponible"
+
+msgid "notifications/firstEntry/button"
+msgstr "Aux États de service"
+
+msgid "notifications/firstEntry/text"
+msgstr "Cote World of Tanks,\nédition des distinctions."
+
+msgid "notifications/firstEntry/title"
+msgstr "Mise à jour des États de service"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Aux États de service"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Édition des distinctions\net design visuel."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Mise à jour des États de service"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Aux États de service"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Votre niveau : %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Votre cote a été calculée !"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Aux États de service"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Votre cote World of Tanks a changé. Rendez-vous dans la section États de service pour en connaître les détails."
+
+msgid "notifications/ratingUp/button"
+msgstr "Aux États de service"
+
+msgid "notifications/ratingUp/text"
+msgstr "Vous avez atteint le niveau suivant : %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Votre cote a augmenté !"
+
+msgid "playerInfo/clan/button"
+msgstr "Profil du clan"
+
+msgid "playerInfo/clan/date"
+msgstr "A rejoint le :"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Le joueur ne possède aucune unité tactique permanente"
+
+msgid "playerInfo/clan/post"
+msgstr "Grade :"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "La Plaque d'identification personnelle est\ntemporairement indisponible"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "La cote du joueur n'a pas été calculée : moins de %(amount)s batailles ont été jouées."
+
+msgid "ratingWidget/status/initial"
+msgstr "Disputez %(amount)s batailles pour calculer votre cote World of Tanks."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "La cote du joueur n'a pas encore été calculée"
+
+msgid "ratingWidget/status/progress"
+msgstr "Calcul de votre cote World of Tanks. Batailles restantes : %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Partez en bataille et nous calculerons votre cote."
+
+msgid "rewardView/button/achievements"
+msgstr "Aux faits d'armes"
+
+msgid "rewardView/button/dogTag"
+msgstr "Vers la Plaque d'identification"
+
+msgid "rewardView/button/dogTags"
+msgstr "Vers les Plaques d'identification"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Voir %(value)s de plus"
+
+msgid "rewardView/reward/dogTag"
+msgstr "Plaque d'identification %(value)s"
+
+msgid "rewardView/title/multi"
+msgstr "RÉCOMPENSES DE FAIT D'ARMES REÇUES"
+
+msgid "rewardView/title/single"
+msgstr "RÉCOMPENSE DE FAIT D'ARMES REÇUE"
+
+msgid "section/action"
+msgstr "Spécial"
+
+msgid "section/battle"
+msgstr "Héros de la bataille"
+
+msgid "section/class"
+msgstr "Faits d’armes d’étape"
+
+msgid "section/epic"
+msgstr "Faits d’armes épiques"
+
+msgid "section/group"
+msgstr "Récompenses en groupe"
+
+msgid "section/memorial"
+msgstr "Jetons commémoratifs"
+
+msgid "section/special"
+msgstr "Grades honorifiques"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "AUX FAITS D'ARMES"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Dernière bataille : le %(lastVisitDate)s à %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Compte créé le : %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Arrière-plan"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Standard"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Feu"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Or"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Légendaire"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Rétro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Explosif"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Annuler les changements"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Ruban"
+
+msgid "summary/achievements/customization/save"
+msgstr "Appliquer et quitter"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "En raison de problèmes techniques, la personnalisation de votre écran des États de service est actuellement indisponible. Nous travaillons à la résolution de ce problème. Actualisez l'écran ou réessayez plus tard."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Personnalisation actuellement indisponible"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Récompenses majeures"
+
+msgid "summary/achievements/total"
+msgstr "Total : %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Uniques : %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Moyenne : %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Victoires : %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Moyenne : %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Moyenne : %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Record : %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Moyenne : %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Partons en bataille pendant que nous préparons vos données."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Les informations sont temporairement indisponibles."
+
+msgid "summary/disabled/title"
+msgstr "Plus d'informations seront disponibles par la suite"
+
+msgid "summary/main/assistance"
+msgstr "RECORD\nD'ASSISTANCE"
+
+msgid "summary/main/battles"
+msgstr "BATAILLES\nJOUÉES"
+
+msgid "summary/main/blocked"
+msgstr "RECORD\nDE BLOCAGE"
+
+msgid "summary/main/damage"
+msgstr "RECORD DE\nDÉGÂTS"
+
+msgid "summary/main/destroyed"
+msgstr "VÉHICULES\nDÉTRUITS"
+
+msgid "summary/main/experience"
+msgstr "RECORD\nD'EXPÉRIENCE"
+
+msgid "summary/statistic/title"
+msgstr "Cote World of Tanks"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Cote personnelle"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maximum de dégâts infligés grâce à votre aide."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maximum de dégâts infligés grâce à votre aide en bataille en %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Record d'assistance : %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Rapport du total de dégâts infligés aux véhicules ennemis grâce à votre aide sur le nombre total de batailles jouées."
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Dégâts grâce à votre détection\n• Dégâts grâce à votre destruction d'une chenille et immobilisation de véhicules ennemis"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Assitance moyenne : %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Rapport du nombre de victoires sur le nombre de batailles jouées."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Cela inclut :"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Victoires : %(wins)s\n• Défaites : %(loses)s\n• Égalités : %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Taux de victoire : %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Batailles jouées : %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Maximum de dégâts bloqués."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Maximum de dégâts bloqués en bataille en : %(tankName)s"
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Record de blocage : %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Rapport du total de dégâts bloqués par le blindage de tirs non pénétrants et par ricochets des obus AP, HEAT et APCR sur le nombre de batailles jouées."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Dégâts moyens bloqués : %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maximum de dégâts infligés."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maximum de dégâts infligés en bataille en %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Record de dégâts : %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Rapport du total de dégâts infligés sur le nombre de batailles jouées."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Dégâts moyens : %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Nombre maximum de véhicules détruits."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Nombre maximum de véhicules ennemis détruits en bataille en %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Record de destructions : %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Nombre total de véhicules ennemis détruits sur l'ensemble des batailles."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Véhicules détruits : %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Quantité maximale d'expérience gagnée."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Quantité maximale d'expérience gagnée en bataille en %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Record d'expérience : %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Rapport de l'expérience totale gagnée sur le nombre de batailles jouées."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Expérience moyenne : %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Ni la victoire ni la défaite n'affectent le calcul de votre cote World of Tanks."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Jouez à bord de divers véhicules pour déterminer vos véhicules les plus efficaces en fonction des paramètres de performance suivants :"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "Le WTR est un système de cote qui calcule une cote individuelle pour chaque véhicule qui est ensuite utilisée pour déterminer les performances générales du joueur. Ce système réagit de façon flexible aux changements de la stratégie des batailles et compare les statistiques du joueur à la moyenne du serveur."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Dégâts infligés"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Dégâts infligés grâce à votre aide"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Nombre de véhicules ennemis détruits"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Dégâts bloqués et taux de survie"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "WTR augmentée"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "Cote World of Tanks"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Batailles restantes pour le calcul de la cote : %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Niveau  : %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Limite atteinte !"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Points restants pour augmenter votre niveau : %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "%(level)s Bronze"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "%(level)s Argent"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "%(level)s Or"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "%(level)s As"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "%(level)s Légende"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Niveau"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Nombre de points"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "Cote World of Tanks"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "En activant ce paramètre, l'ordre que vous avez défini %(whiteSpanish_Open)ssera réinitialisé%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Activer ou désactiver manuellement ce paramètre %(whiteSpanish_Open)sempêchera%(whiteSpanish_Close)s la %(whiteSpanish_Open)smise à jour%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomatique%(whiteSpanish_Close)s des distinctions sur le ruban."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Trie automatiquement les distinctions %(whiteSpanish_Open)sde toutes les catégories%(whiteSpanish_Close)s par leurs valeurs à afficher sur le ruban des distinctions importantes."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Affichage automatique"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "L'édition du ruban des distinctions importantes est temporairement indisponible. Veuillez réessayer plus tard."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Vous n'avez pas encore de distinction à afficher ici. Recevez-les %(whiteSpanish_Open)sen bataille%(whiteSpanish_Close)s ou %(whiteSpanish_Open)sen participant%(whiteSpanish_Close)s %(whiteSpanish_Open)saux évènements du jeu.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "L'édition du ruban des distinctions importantes sera disponible après avoir reçu %(whiteSpanish_Open)s au moins %(amount)s %(whiteSpanish_Close)s de n'importe quelle catégorie."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Aucune distinction à placer ici."
+
+msgid "tooltips/mastery/body"
+msgstr "Insignes de maîtrise As du char reçus dans tous les modes de bataille concernés / Nombre de véhicules ayant participé à au moins une bataille aléatoire"
+
+msgid "tooltips/mastery/header"
+msgstr "Insignes de maîtrise : As du char"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "La cote personnelle évalue les compétences et l'expérience du joueur selon :"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "La cote personnelle est mise à jour à chaque nouvelle bataille jouée."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Victoires\n• Dégâts infligés grâce à votre aide\n• Dégâts moyens par bataille\n• Expérience moyenne par bataille\n• Batailles survécues"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Cote personnelle"

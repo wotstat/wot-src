@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Εμφάνιση νέων μηνυμάτων"
+
+msgid "battle/history/header"
+msgstr "Εχθρός"
+
+msgid "battle/history/latestMessage"
+msgstr "Εμφάνιση τελευταίου μηνύματος"
+
+msgid "battle/history/title"
+msgstr "Ιστορικό Συνομιλίας:"
+
+msgid "battle/history/upMessage"
+msgstr "Εμφάνιση παλαιών μηνυμάτων"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sΚΛΕΙΣΙΜΟ ΣΥΝΟΜΙΛΙΑΣ%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Η συνομιλία μέσα στη μάχη δεν είναι διαθέσιμη για παίκτες από τη χώρα σας."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Η συνομιλία μέσα στη μάχη δεν είναι διαθέσιμη για τον λογαριασμό σας."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Η συνομιλία μέσα στη μάχη έχει απαγορευτεί από τον γονικό έλεγχο."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Η ενεργοποίηση της συνομιλίας στη μάχη μπορεί να γίνει από τις ρυθμίσεις."
+
+msgid "battle/receivers/common"
+msgstr "ΣΕ ΟΛΑ"
+
+msgid "battle/receivers/squad"
+msgstr "ΣΤΟΝ ΟΥΛΑΜΟ"
+
+msgid "battle/receivers/team"
+msgstr "ΣΤΗΝ ΟΜΑΔΑ"
+
+msgid "battle/toolTips/cancel"
+msgstr "άκυρο"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "αλλαγή αποδέκτη"
+
+msgid "battle/toolTips/default"
+msgstr "με προηγούμενο αποδέκτη"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Κατά τη διάρκεια συνομιλίας:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Μπορείτε να μπλοκάρετε τα μηνύματα από τον επιλεγμένο παίκτη κάνοντας κλικ στο αντίστοιχο κουμπί κοντά στο μήνυμα του παίκτη στη συνομιλία."
+
+msgid "battle/toolTips/send"
+msgstr "αποστολή μηνύματος"
+
+msgid "battle/toolTips/startChat"
+msgstr "Εκκίνηση συνομιλίας:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Μπορείτε να κάνετε αναφορά για ένα μήνυμα κάνοντας κλικ σε αυτό και αναφέροντας τον λόγο για τον οποίο παραπονιέστε. Αυτή η επιλογή επίσης δίνει τη δυνατότητα να απενεργοποιήσετε τη συνομιλία ή να επιτρέπεται μόνο για τους συμπαίκτες. Η συνομιλία του Ουλαμού θα παραμένει ενεργή σε κάθε περίπτωση."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Συνομιλία"
+
+msgid "battle/toolTips/withSquad"
+msgstr "με τον ουλαμό σας"
+
+msgid "battle/unknown/ally"
+msgstr "Σύμμαχος"
+
+msgid "battle/unknown/enemy"
+msgstr "Εχθρός"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Θα αποσυνδεθείτε από τον server στις %(curfewTime)s. Η συνεδρία θα λήξει σε %(timeLeft)s λεπτά."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Φτάσατε στο ανώτατο επιτρεπτό ημερήσιο όριο παιχνιδιού. Η συνεδρία θα λήξει σε %(timeLeft)s λεπτά."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Φτάσατε στο ανώτατο επιτρεπτό εβδομαδιαίο όριο παιχνιδιού. Η συνεδρία θα λήξει σε %(timeLeft)s λεπτά."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Ξεπεράσατε το επιτρεπόμενο χρονικό όριο παιχνιδιού. Η συνεδρία σας θα τερματιστεί σε %(timeLeft)s λεπτά."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Μηνύματα από άγνωστους παίκτες μπορεί να περιέχουν επιβλαβείς συνδέσμους. Μην ακολουθείτε τους συνδέσμους και μην φανερώνετε τους κωδικούς σας σε κανέναν."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Προσοχή!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Αποτελέσματα μάχης"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Μπλοκαρίστηκε μήνυμα από τον %(playerName)s."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Αποστολή μηνύματος"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Αποστολή μηνύματος"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Αναζήτηση παικτών"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Ρυθμίσεις φωνητικής συνομιλίας"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "δεν μπορείτε να αποκλείσετε τον εαυτό σας."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Σφάλμα στο τρέξιμο \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Ο server είναι απασχολημένος."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "δεν έχετε δικαίωμα να εκτελέσετε αυτήν τη λειτουργία."
+
+msgid "chat_error/NOT_READY"
+msgstr "Η ενέργεια \"%(actionName)s\" δεν είναι διαθέσιμη."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "ο χρήστης δεν υπάρχει."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "μη έγκυρη παράμετρος."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Φωνητική συνομιλία απενεργοποιημένη. Για να επικοινωνήσετε με τα άλλα μέλη του Ουλαμού, ενεργοποιήστε τη πατώντας το %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Φωνητική συνομιλία απενεργοποιημένη. Για να επικοινωνήσετε με τα άλλα μέλη του Ουλαμού, ενεργοποιήστε τη πατώντας το %(keyName)s."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Εσείς και ο %(player)s απονείματε Τιμητική Αναφορά ο ένας στον άλλον"
+
+msgid "client/commendations/comms_received"
+msgstr "Ο %(player)s σας απένειμε Τιμητική Αναφορά"
+
+msgid "client/commendations/comms_sent"
+msgstr "Ο %(player)s έλαβε Τιμητική Αναφορά."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Συμπαίκτες δημιούργησαν τον Δυναμικό Ουλαμό %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Ο Ουλαμός %(squadNum)s δημιουργήθηκε από την αντίπαλη ομάδα."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Δημιουργήθηκε ο Ουλαμός %(squadNum)s. Συνομιλία Ουλαμού και φωνητική, πλέον διαθέσιμες. Για απενεργοποίηση της φωνητικής συνομιλίας πιέστε το %(keyName)s."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Δημιουργήθηκε ο Ουλαμός %(squadNum)s. Συνομιλία Ουλαμού και φωνητική, πλέον διαθέσιμες. Για ενεργοποίηση της φωνητικής συνομιλίας πιέστε το %(keyName)s."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Δημιουργήθηκε ο Ουλαμός %(squadNum)s. Συνομιλία Ουλαμού και φωνητική, πλέον διαθέσιμες. Καθορίστε ένα πλήκτρο για την ενεργοποίηση/απενεργοποίηση της φωνητικής συνομιλίας."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Δημιουργήθηκε ο Ουλαμός %(squadNum)s. Η συνομιλία Ουλαμού είναι πλέον διαθέσιμη."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Έχετε ενταχθεί στον Ουλαμό %(squadNum)s. Συνομιλία Ουλαμού και φωνητική, πλέον διαθέσιμες. Για απενεργοποίηση της φωνητικής συνομιλίας πιέστε το %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Έχετε ενταχθεί στον Ουλαμό %(squadNum)s. Συνομιλία Ουλαμού και φωνητική, πλέον διαθέσιμες. Για ενεργοποίηση της φωνητικής συνομιλίας πιέστε το %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Έχετε ενταχθεί στον Ουλαμό %(squadNum)s. Η συνομιλία Ουλαμού είναι πλέον διαθέσιμη. Καθορίστε ένα πλήκτρο για την ενεργοποίηση/απενεργοποίηση της φωνητικής συνομιλίας."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Έχετε ενταχθεί στον Ουλαμό %(squadNum)s. Η συνομιλία Ουλαμού είναι πλέον διαθέσιμη."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Φωνητική συνομιλία απενεργοποιημένη. Για να επικοινωνήσετε με τα άλλα μέλη του Ουλαμού, ενεργοποιήστε τη πατώντας το %(keyName)s."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Φωνητική συνομιλία ενεργοποιημένη."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Έχετε ενταχθεί στον Ουλαμό %(squadNum)s. Συνομιλία Ουλαμού και φωνητική, πλέον διαθέσιμες. Για απενεργοποίηση της φωνητικής συνομιλίας πιέστε το %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Έχετε ενταχθεί στον Ουλαμό %(squadNum)s. Συνομιλία Ουλαμού και φωνητική, πλέον διαθέσιμες. Για ενεργοποίηση της φωνητικής συνομιλίας πιέστε το %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Έχετε ενταχθεί στον Ουλαμό %(squadNum)s. Η συνομιλία Ουλαμού είναι πλέον διαθέσιμη. Καθορίστε ένα πλήκτρο για την ενεργοποίηση/απενεργοποίηση της φωνητικής συνομιλίας."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Έχετε ενταχθεί στον Ουλαμό %(squadNum)s. Η συνομιλία Ουλαμού είναι πλέον διαθέσιμη."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "Ο %(receiver)s έχει ενταχθεί στον Ουλαμό %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "Ο %(creator)s σας προσκάλεσε σε Ουλαμό."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "Ο %(creator)s σας προσκάλεσε σε Ουλαμό.\nΠροσοχή! Το πραγματικό σας όνομα στο παιχνίδι και η ετικέτα του clan θα εμφανίζονται στα μέλη του Ουλαμού."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "Ο %(receiver)s έλαβε πρόσκληση σε Ουλαμό."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Η δυνατότητα να στέλνετε μηνύματα έχει ανασταλεί για %s sec."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Η εντολή \"%s\" απενεργοποιήθηκε για %s sec."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Η εντολή %s απενεργοποιήθηκε."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Απενεργοποίηση μηνυμάτων. Περιμένετε %s sec."
+
+msgid "client/information/addToFriends/message"
+msgstr "Η αίτηση για προσθήκη του %s στις Επαφές σας αποθηκεύτηκε."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Το αίτημα για τοποθέτηση του παίκτη %s στη Μαύρη Λίστα αποθηκεύτηκε. Η συνομιλία με τον συγκεκριμένο παίκτη μπλοκαρίστηκε και τα μηνύματά του δεν θα εμφανίζονται."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Η συνομιλία με τον %s είναι μπλοκαρισμένη και τα μηνύματα του παίκτη δεν εμφανίζονται."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Δεν βρέθηκαν αποτελέσματα."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Η αίτηση για διαγραφή του %s από τις Επαφές σας αποθηκεύτηκε."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Το αίτημα για διαγραφή του παίκτη %s από τη Μαύρη Λίστα αποθηκεύτηκε. Η συνομιλία με τον συγκεκριμένο παίκτη αποκαταστάθηκε."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Η συνομιλία με τον %s είναι διαθέσιμη ξανά."
+
+msgid "client/information/setMuted/message"
+msgstr "Ο χρήστης %s δεν επιτρέπεται να σας στέλνει φωνητικά μηνύματα."
+
+msgid "client/information/unsetMuted/message"
+msgstr "Ο χρήστης %s επιτρέπεται να σας στέλνει φωνητικά μηνύματα."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Η αδράνεια στη μάχη τιμωρείται!\nΑπαιτείται ομαδικότητα για τη νίκη!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Άδειο πεδίο αναζήτησης"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Αναζήτηση Χρηστών"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Λανθασμένος αριθμός χαρακτήρων ή μη έγκυρος χαρακτήρας στο πεδίο Αναζήτησης. Έγκυρος αριθμός χαρακτήρων από %d έως %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Αναζήτηση Χρηστών"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Προσθήκη παίκτη στις Επαφές"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Δημιουργία γκρουπ"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Προσθήκη παίκτη στη Μαύρη Λίστα"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Επικύρωση πρόσκλησης"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Απόρριψη πρόσκλησης"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Επεξεργασία γκρουπ"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Δημιουργία καναλιού παίκτη"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Αναζήτηση παίκτη"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Σύνδεση με το κανάλι παίκτη"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Αποχώρηση από το κανάλι παίκτη"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Αφαίρεση παίκτη από τις Επαφές"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Αφαίρεση παίκτη από τη Μαύρη Λίστα"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Διαγραφή σχολίου"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Αποστολή πρόσκλησης"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Δείτε τα προηγούμενα μηνύματα"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Αναζήτηση καναλιών παίκτη"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Αποστολή μηνύματος"
+
+msgid "client_action/SET_MUTE"
+msgstr "Απενεργοποίηση φωνητικών μηνυμάτων"
+
+msgid "client_action/SET_NOTE"
+msgstr "Δημιουργία/επεξεργασία σχολίου"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Ενεργοποίηση φωνητικών μηνυμάτων"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Η ενέργεια \"%(actionName)s\" είναι παγωμένη για %(floatArg1)s sec."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Η ενέργεια \"%(actionName)s\" είναι προσωρινά μη διαθέσιμη. Προσπαθήστε αργότερα."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Έχετε υπερβεί τον μέγιστο επιτρεπόμενο αριθμό καναλιών. Κλείστε τα κανάλια που δεν χρησιμοποιούνται και προσπαθήστε ξανά."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Το κανάλι \"%(strArg1)s\" υπάρχει ήδη."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Δεν ορίστηκε όνομα καναλιού."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Μη έγκυρο όνομα καναλιού \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Η επιβεβαίωση του κωδικού δεν ταιριάζει με τον κωδικό που εισήχθη."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Δεν ορίστηκε κωδικός καναλιού."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Μη έγκυρος κωδικός καναλιού."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Δεν ορίστηκε η επιβεβαίωση του κωδικού."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Μη έγκυρη επιβεβαίωση κωδικού."
+
+msgid "client_error/command/generic_error"
+msgstr "Σφάλμα στο τρέξιμο της εντολής \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "εντολή παγωμένη για %(floatArg1)s sec."
+
+msgid "client_error/command/not_supported"
+msgstr "η εντολή %(strArg1)s δεν υποστηρίζεται από τον client."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "μη έγκυρη διάρκεια αποκλεισμού %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "μη έγκυρος τύπος αποκλεισμού %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "μη έγκυρο όνομα παίκτη %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Ο παίκτης \"%(strArg1)s\" είναι στη Μαύρη Λίστα."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Ο παίκτης \"%(strArg1)s\" δεν είναι στη Μαύρη Λίστα σας."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Ο παίκτης δεν βρέθηκε."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Έχετε ήδη επικυρώσει την πρόσκληση από τον \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Έχετε ήδη απορρίψει την πρόσκληση από τον \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Η απάντησή σας στην πρόσκληση του \"%(strArg1)s\" επεξεργάζεται."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Δεν ορίστηκε το όνομα του γκρουπ."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Το γκρουπ \"%(strArg1)s\" υπάρχει ήδη."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Μη έγκυρο όνομα γκρουπ \"%(strArg1)s\""
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Το γκρουπ \"%(strArg1)s\" δεν βρέθηκε."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Ενεργοποίηση φωνητικών μηνυμάτων για τον \"%(strArg1)s\"."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Δεν καθορίστηκε κάποιο κείμενο για το σχόλιο."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Δεν υπάρχουν σχόλια για τον παίκτη \"%(strArg1)s\""
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Ο παίκτης \"%(strArg1)s\" είναι στις Επαφές σας."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Ο παίκτης \"%(strArg1)s\" δεν βρέθηκε στις Επαφές σας."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Το όνομα του καναλιού θα πρέπει να αποτελείται από %(int32Arg1)s–%(int32Arg2)s χαρακτήρες."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Το όνομα του γκρουπ δεν θα πρέπει να υπερβαίνει τους %(int32Arg2)s χαρακτήρες."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Μέγιστος αριθμός παικτών στη μαύρη Λίστα %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Μέγιστος αριθμός γκρουπ %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Δεν μπορείτε να έχετε περισσότερους από %(int32Arg2)s παίκτες στις Επαφές σας. Αφαιρέστε παίκτες που δεν παίζετε μαζί τους."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Το κείμενο του σχολίου δεν πρέπει να υπερβαίνει τους %(int32Arg2)s χαρακτήρες."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Ο κωδικός του καναλιού θα πρέπει να αποτελείται από %(int32Arg1)s–%(int32Arg2)s χαρακτήρες."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Μη έγκυρο ID παίκτη"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Σφάλμα στην εκτέλεση \"%(actionName)s\""
+
+msgid "client_error/shared/LOCKED"
+msgstr "Η ενέργεια \"%(actionName)s\" είναι προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Δεν ορίστηκε όνομα παίκτη."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Μη έγκυρο όνομα παίκτη %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Αδύνατη η σύνδεση στον server συνομιλίας. Προσπαθήστε ξανά αργότερα."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Η ενέργεια \"%(actionName)s\" δεν υποστηρίζεται από τον client του παιχνιδιού."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Ύπαρξη σφάλματος, δοκιμάστε ξανά αργότερα."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Μερικές λειτουργίες είναι απενεργοποιημένες μέχρι να αρχίσει η αντίστροφη μέτρηση."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Ορίστηκαν μη έγκυρα δεδομένα."
+
+msgid "command/acceptInvite"
+msgstr "Αποδοχή Πρόσκλησης"
+
+msgid "command/addFriend"
+msgstr "Προσθήκη παίκτη στις Επαφές"
+
+msgid "command/addIgnored"
+msgstr "Προσθήκη παίκτη στη Μαύρη Λίστα"
+
+msgid "command/broadcast"
+msgstr "Αποστολή μηνύματος"
+
+msgid "command/createChatChannel"
+msgstr "Νέο Κανάλι"
+
+msgid "command/createInvite"
+msgstr "Δημιουργία Πρόσκλησης"
+
+msgid "command/createPrivate"
+msgstr "Δημιουργία ιδιωτικού καναλιού"
+
+msgid "command/findChatChannels"
+msgstr "Αναζήτηση Καναλιών"
+
+msgid "command/findUser"
+msgstr "Αναζήτηση Παικτών"
+
+msgid "command/getActiveInvites"
+msgstr "Λήψη λίστας προσκλήσεων"
+
+msgid "command/getArchiveInvites"
+msgstr "Λήψη αρχειοθετημένης λίστας προσκλήσεων"
+
+msgid "command/getMembersCount"
+msgstr "Λήψη αριθμού παικτών στο κανάλι"
+
+msgid "command/leaveChatChannel"
+msgstr "Αποχώρηση από το Κανάλι"
+
+msgid "command/rejectInvite"
+msgstr "Απόρριψη Πρόσκλησης"
+
+msgid "command/removeFriend"
+msgstr "Αφαίρεση παίκτη από τις Επαφές"
+
+msgid "command/removeIgnored"
+msgstr "Αφαίρεση παίκτη από τη Μαύρη Λίστα"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Λήψη λίστας με τα μέλη του Clan"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Λήψη λίστας με τα κανάλια συστήματος"
+
+msgid "command/setMuted"
+msgstr "Όχι φωνητικά μηνύμάτα"
+
+msgid "command/success/USERBAN"
+msgstr "ο %(strArg1)s αποκλείστηκε."
+
+msgid "command/success/USERUNBAN"
+msgstr "ο %(strArg1)s δεν είναι πλέον αποκλεισμένος."
+
+msgid "command/unsetMuted"
+msgstr "Ενεργοποίηση φωνητικών μηνυμάτων"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Κλικ για αποθήκευση των δημιουργημένων γκρουπ."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Δημιουργία"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Κλικ για ακύρωση της δημιουργίας και επιστροφή στις Επαφές."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Κλείσιμο"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Κλικ για διαγραφή του γκρουπ επαφών."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Διαγραφή"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Κλικ για ακύρωση της διαγραφής και επιστροφή στις Επαφές."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Ακύρωση"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Κλικ για αποθήκευση του γκρουπ επαφών με άλλο όνομα."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Αποθήκευση"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Κλικ για ακύρωση της επεξεργασίας και επιστροφή στις Επαφές."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Κλείσιμο"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Το όνομα δεν θα πρέπει να υπερβαίνει τους %(maxChars)s χαρακτήρες."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Κλικ για προσθήκη παίκτη στις Επαφές."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Προσθήκη"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Κλικ για ακύρωση της αναζήτησης πάικτη και επιστροφή στις Επαφές."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Κλείσιμο"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Κλικ για αναζήτηση παίκτη με βάση το όνομα."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Αναζήτηση"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Το όνομα θα πρέπει να περιέχει από %(minChars)s μέχρι %(maxChars)s χαρακτήρες ή αριθμούς."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Η αναζήτηση απενεργοποιήθηκε για %(time)s sec εξαιτίας πολύ συχνής χρήσης."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Κλικ για εφαρμογή των επιλεγμένων ρυθμίσεων."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Εφαρμογή"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Κλικ για ακύρωση των αλλαγών και επιστροφή στις Επαφές."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Ακύρωση"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Κλικ για δημιουργία γκρουπ."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Δημιουργία Γκρουπ"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Κλικ για αναζήτηση παίκτη εκτός Επαφών με βάση το όνομα."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Αναζήτηση Εκτός Επαφών"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Κλικ για εύρεση και προσθήκη παίκτη στις Επαφές."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Αναζήτηση Παίκτη"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Κλικ για αλλαγή ρυθμίσεων στις Επαφές."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Ρυθμίσεις"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Το όνομα θα πρέπει να περιέχει το πολύ %(maxChars)s χαρακτήρες."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Αποστολή εντολής"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Αποπομπή απ'την ομάδα"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Κλείσιμο"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Δημιουργία"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Αναζήτηση και Συμμετοχή"
+
+msgid "dialogs/channels/title"
+msgstr "Κανάλια"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Κλείσιμο"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Είσοδος"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Ο κωδικός πρέπει να περιέχει από 3 μέχρι 12 χαρακτήρες."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Μη έγκυρος κωδικός."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Επιχειρείτε να συνδεθείτε στο ασφαλές κανάλι %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Εισαγωγή κωδικού:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Προειδοποίηση"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Σύνδεση στο Κανάλι"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Πρόσκληση στο Clan"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Προσθήκη στις Επαφές"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Προσθήκη στη Μαύρη Λίστα"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Αντιγραφή στο clipboard"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Δημιουργία ιδιωτικού καναλιού"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Μεταφορά gold"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Διαγραφή από τις Επαφές"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Αφαίρεση από τη Μαύρη Λίστα"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Εμφάνιση λεπτομερειών"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Ταξινόμηση βάσει ονόματος."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Ταξινόμηση βάσει θέσης."
+
+msgid "dialogs/contacts/title"
+msgstr "Λίστα Επαφών"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Clan"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Επαφές"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Προσκλήσεις"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Μαύρη Λίστα"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Φωνητικά μηνύματα απενεργοποιημένα"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Κλείσιμο"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Δημιουργία"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Θα δημιουργηθεί αυτόματα"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Είσοδος κωδικού"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Όνομα καναλιού"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Κωδικός"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Επικύρωση κωδικού"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Απαιτείται κωδικός"
+
+msgid "dialogs/createChannel/title"
+msgstr "Νέο Κανάλι"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Επιλέξτε το %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Επιλέξτε ένα όχημα Βαθμίδας %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Επιλογή οχημάτων"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Επιλέξτε ένα όχημα Βαθμίδας %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Όχημα: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Κλείσιμο"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Είσοδος"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Εύρεση"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Αναζήτηση αποτελεσμάτων (τα πρώτα %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Αναζήτηση"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Αναζήτηση Καναλιού"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Friend"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Μαύρη Λίστα"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Κλείσιμο"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Εύρεση"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Λεπτομέρειες χρήστη"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Αναζήτηση αποτελεσμάτων:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Αναζήτηση"
+
+msgid "dialogs/searchContact/title"
+msgstr "Εύρεση επαφών"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Κανάλι Υπηρεσιών"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Επιλέξτε όχημα της Βαθμίδας VIII"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Ο κύριος στόχος είναι να είστε ο τελευταίος Ουλαμός που θα μείνει ζωντανός."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "Η Πρώτη Γραμμή είναι διαθέσιμη\nμόνο για οχήματα Βαθμίδας VIII."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ event +++\n+++ event +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Περισσότερα ΧΡ ανά μάχη\nμε οχήματα Βαθμίδας IV και πάνω"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Παίξτε με οχήματα της ίδιας βαθμίδας\nξεκινώντας από τη Βαθμίδα IV και κερδίστε επιπλέον XP"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Μόλις οι παίκτες αποδεχθούν την πρόσκληση, το πραγματικό σας όνομα στο παιχνίδι και η ετικέτα του clan θα εμφανίζονται σε αυτούς για τη διάρκεια της μάχης."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Κανάλι Συνομιλίας"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Πειραματικά εξαρτήματα στο όχημα: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Κατάσταση: Σε διάλειμμα"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Κατάσταση: Σε μάχη"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Κατάσταση: Μη έτοιμος"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Κατάσταση: Εκτός Σύνδεσης"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Κατάσταση: Έτοιμος"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Διάλυση"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Πρόσκληση"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "ένοχος"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "ύποπτος"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Εξόντωση Συμπαίκτη: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Όχι φωνητικά μηνύμάτα"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Προσθήκη στις Επαφές"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Προσθήκη στη Μαύρη Λίστα"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Κλείσιμο"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Δημιουργία Ιδιωτικού Καναλιού"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Ενεργοποίηση φωνητικών μηνυμάτων"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Σύνολο"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Δημιουργήθηκε"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Τελευταία μάχη"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Κατάσταση:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Λεπτομέρειες Παίκτη"
+
+msgid "events/enterChannel"
+msgstr "[%s] μπήκε στο κανάλι"
+
+msgid "events/leaveChannel"
+msgstr "[%s] έφυγε από το κανάλι"
+
+msgid "keyboardChat"
+msgstr "Συνομιλία"
+
+msgid "listView/emptyList/info"
+msgstr "ειδοποιήσεις"
+
+msgid "listView/emptyList/invite"
+msgstr "προσκλήσεις"
+
+msgid "listView/emptyList/offer"
+msgstr "προσφορές"
+
+msgid "listView/emptyList/template"
+msgstr "Δεν υπάρχουν %(listType)s προς το παρόν."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Νέα"
+
+msgid "listView/news/header"
+msgstr "ΤΙ ΝΕΟ ΥΠΑΡΧΕΙ?"
+
+msgid "listView/title"
+msgstr "Χρήσιμες Πληροφορίες"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Ώρα Μάχης: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Αποστολή"
+
+msgid "lobby/buttons/channels"
+msgstr "Κανάλια"
+
+msgid "lobby/buttons/contacts"
+msgstr "Επαφές"
+
+msgid "lobby/buttons/send"
+msgstr "Αποστολή"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Κλείσιμο Καναλιού"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Εμφάνιση ημερομηνίας στα μηνύματα"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Εμφάνιση ώρας στα μηνύματα"
+
+msgid "lobby/faq/close"
+msgstr "Κλείσιμο"
+
+msgid "lobby/faq/title"
+msgstr "FAQ"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Προσθήκη παίκτη στις Επαφές"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Προσθήκη παίκτη στη Μαύρη Λίστα"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Αντιγραφή στο clipboard"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Δημιουργία ιδιωτικού καναλιού"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Εμφάνιση λεπτομερειών παίκτη"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Αναζήτηση Εκτός Επαφών"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Άκυρο"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Επεξεργασία γκρουπ"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Διαγραφή από το γκρουπ"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Διαγραφή γκρουπ"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Κλικ για ακύρωση της δημιουργίας και επιστροφή στις Επαφές σας."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Κλείσιμο"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Κλικ για αποθήκευση των σημειώσεων για τον παίκτη."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Δημιουργία"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Σύρετε τις επαφές εδώ"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Κλικ για ακύρωση της επεξεργασίας και επιστροφή στις Επαφές σας."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Κλείσιμο"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Κλικ για αποθήκευση της επεξεργασίας των σημειώσεων για τον παίκτη."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Αποθήκευση"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Δεν βρέθηκαν αποτελέσματα στην αναζήτησή σας."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Μόνιμες επιχειρησιακές μονάδες"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Επαφές"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Άλλοι"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Μαύρη Λίστα"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Πρόσκληση"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Εύρεση παίκτη από τη λίστα"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Δεν έχει προστεθεί κάποιος παίκτης μέχρι τώρα."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Άδεια Λίστα Επαφών"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Δεν υπάρχει κάποια επαφή σε σύνδεση τώρα"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Αναζήτηση εκτός Επαφών."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Κανένα Αποτέλεσμα"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Εισάγετε το όνομα παίκτη."
+
+msgid "messenger/contacts/title"
+msgstr "Επαφές"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Κλείσιμο"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Προσθήκη"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Το γκρουπ αυτό υπάρχει ήδη."
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Αναζήτηση Παίκτη"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Κλείσιμο"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Δημιουργία"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Δημιουργία σημείωσης"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Κλείσιμο"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Αποθήκευση"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Το όνομα δεν πρέπει να υπερβαίνει τους %(maxChars)s χαρακτήρες."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Επεξεργασία σημείωσης"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "για "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Κλείσιμο"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Δημιουργία"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Δημιουργία Γκρουπ"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Εισάγετε όνομα (μέχρι και %(symbols)s χαρακτήρες)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Περιλαμβάνοντας επαφές από το γκρουπ"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Άκυρο"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Διαγραφή"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Διαγραφή γκρουπ"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Κλείσιμο"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Αποθήκευση"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Επεξεργασία γκρουπ"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Εισάγετε όνομα (μέχρι και %(symbols)s χαρακτήρες)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Εισάγετε περιγραφή (μέχρι %(symbols)s χαρακτήρες)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Η περιγραφή δεν πρέπει να υπερβαίνει τους %(maxChars)s χαρακτήρες."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Αναζήτηση Παίκτη"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Αποδοχή ως γκρουπ σε ένα παράθυρο"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Προβολή παικτών εκτός σύνδεσης"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Προβολή κατηγορίας “Άλλοι”"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Μηνύματα από παίκτες εκτός Επαφών:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Αποδοχή σε διαφορετικό παράθυρο"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Άκυρο"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Εφαρμογή"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Ρυθμίσεις"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Προσθήκη τμήματος οχήματος"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Αφαίρεση Πόντων Battle Pass"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Αφαίρεση Chips"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Αφαίρεση Maneuvers Tokens"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Αφαίρεση components"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Αφαίρεση Προσωπικών Πόντων Φήμης"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Παρακρατήθηκε Free Experience"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Αφαίρεση Πόντων Θητείας"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Αφαίρεση Tokens ετών υπηρεσίας"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Προσθήκη Πόντων Battle Pass"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Προσθήκη Chips"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Προσθήκη Maneuvers Tokens"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Προσθήκη components"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Προσθήκη Προσωπικών Πόντων Φήμης"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Κερδισμένο Free Experience"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Προσθήκη Πόντων Θητείας"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Προσθήκη Tokens ετών υπηρεσίας"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Προσθήκη όλων των επαφών στους παραλήπτες."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Προσθήκη της επιλεγμένης επαφής."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Διαγραφή όλων των επαφών από τους παραλήπτες."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Διαγραφή της επιλεγμένης επαφής από τους παραλήπτες."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Η ενέργεια %(action)s έχει ανασταλεί για %(cooldownPeriod)s sec."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Έχετε φτάσει το όριο ανοικτών καναλιών. Παρακαλούμε κλείστε τα κανάλια που δεν χρειάζεστε."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Σφάλμα"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Σφάλμα στην προσθήκη χρήστη στις Επαφές."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Σφάλμα"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Σφάλμα στην προσθήκη χρήστη στη Μαύρη Λίστα."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Σφάλμα"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Κανάλι με αυτό το όνομα υπάρχει ήδη."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Σφάλμα στη δημιουργία καναλιού."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Το κανάλι διαγράφηκε."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Σφάλμα στη συμμετοχή σε κανάλι."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Σφάλμα στο τρέξιμο εντολής συνομιλίας: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Η εντολή %(command)s έχει απενεργοποιηθεί για %(cooldownPeriod)s sec."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Απενεργοποίηση μηνυμάτων. Πάρα πολλά μηνύματα."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Η σύνδεση με το κανάλι έληξε."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Δεν είναι δυνατή η δημιουργία ιδιωτικού καναλιού: ο χρήστης είναι προσωρινά εκτός σύνδεσης."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Μη έγκυρο σύμβολο"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Σφάλμα"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Μη έγκυρη παράμετρος %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Σφάλμα"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Λάθος κωδικός για το ασφαλές κανάλι."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Σφάλμα κατά τη σύνδεση με κανάλι."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Η αρχικές ρυθμίσεις της συνομιλίας απέτυχαν."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/internalError/message"
+msgstr "Εσωτερικό σφάλμα, δοκιμάστε αργότερα."
+
+msgid "server/errors/internalError/title"
+msgstr "Σφάλμα στη δημιουργία καναλιού"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Μη έγκυρο όνομα καναλιού."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Σφάλμα στο τρέξιμο εντολής Πρόσκλησης."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Σφάλμα"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "Ο χρήστης %(user)s του έχει ήδη απαγορευτεί η είσοδος."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "Ο χρήστης %(user)s είναι ήδη channel moderator."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Ο χρήστης αποσυνδέθηκε"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "Ο χρήστης %(user)s δεν είναι channel moderator."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Το όριο χρηστών για αυτό το κανάλι έχει επιτευχθεί."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Σφάλμα σύνδεσης στο κανάλι"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Δεν έχει δοθεί δικαίωμα για αυτήν την λειτουργία."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Σφάλμα Συνομιλίας"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Εισάγετε τον κωδικό σας για σύνδεση στο ασφαλές κανάλι."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Σφάλμα Εισόδου σε Κανάλι"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Η αλλαγή αυτής της ρύθμισης είναι προσωρινά μη διαθέσιμη."
+
+msgid "server/errors/sqlError/message"
+msgstr "Σφάλμα επικοινωνίας με τη Βάση Δεδομένων."
+
+msgid "server/errors/sqlError/title"
+msgstr "Σφάλμα"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Ο χρήστης σας έχει προσθέσει στη Μαύρη Λίστα."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Σφάλμα"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Χρήστης με αυτό το όνομα δεν υπάρχει."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Σφάλμα"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Έχετε φτάσει το όριο χρηστών για την λίστα Επαφών."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Σφάλμα"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Έχετε υπερβεί τον μέγιστο επιτρεπόμενο αριθμό καναλιών."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Έχετε υπερβεί τον μέγιστο επιτρεπόμενο αριθμό χαρακτήρων για το όνομα καναλιού."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Έχετε υπερβεί τον μέγιστο επιτρεπόμενο αριθμό χαρακτήρων για τον κωδικό καναλιού."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Το κανάλι \"%(strArg1)s\" υπάρχει ήδη."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Μη έγκυροι χαρακτήρες στο όνομα καναλιού."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Προσβλητικές λέξεις στο όνομα καναλιού."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Steel Hunter"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Αυτά είναι ειδικά οχήματα για μάχες Steel Hunter. Μπείτε στις μάχες Steel Hunter για να μάθετε περισσότερα σχετικά με τα συγκεκριμένα οχήματα."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Το όχημα καταστράφηκε"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Επίτευξη επιπέδου"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Κερδίσατε πόντους"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Νίκη"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Απονομή"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Θετικό!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Στην Επιχείρηση"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Μητρώο Υπηρεσίας"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Εκστρατεία"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Η εκστρατεία τελείωσε."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "Το διαχειρίσιμο μπόνους XP του WoT Plus είναι διαθέσιμο"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "Το διαχειρίσιμο μπόνους XP του WoT Plus δεν είναι διαθέσιμο"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Αποτυχία στον ανεφοδιασμό αναλώσιμων στο %s. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Αποτυχία του ανεφοδιασμού οδηγιών στο %s. Η λειτουργία είναι προσωρινά μη διαθέσιμη εξαιτίας εργασιών συντήρησης."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Αποτυχία στον ανεφοδιασμό οδηγίας για το %s. Ανεπαρκείς πόροι."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Αποτυχία στον αυτόματο ανεφοδιασμό οδηγίας για το %s. Τοποθετήστε τη χειροκίνητα."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Ο ανεφοδιασμός οδηγιών στο %s ήταν επιτυχής. Κόστος σε "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Αποτυχία στον ανεφοδιασμό αναλώσιμων στο %s. Αγοράστε αναλώσιμα με gold."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Αποτυχία στον ανεφοδιασμό αναλώσιμων στο %s. Όχι αρκετά credits."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Αποτυχία στον ανεφοδιασμό αναλώσιμων στο %s. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Αποτυχία στον αυτόματο ανεφοδιασμό αναλώσιμων στο %s. Εφοδιαστείτε με αναλώσιμα χειροκίνητα."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Ο ανεφοδιασμός αναλώσιμων στο %s ήταν επιτυχής. Κόστος σε "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Αποτυχία στον ανεφοδιασμό πυρομαχικών στο %s. Δοκιμάστε την αγορά βλημάτων με gold."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Αποτυχία στον ανεφοδιασμό πυρομαχικών στο %s. Όχι αρκετά credits."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Αποτυχία στον ανεφοδιασμό πυρομαχικών στο %s. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Αποτυχία στον αυτόματο ανεφοδιασμό πυρομαχικών στο %s. Εφοδιαστείτε με πυρομαχικά χειροκίνητα."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Ο ανεφοδιασμός πυρομαχικών στο %s ήταν επιτυχής. Κόστος σε "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Αποτυχία στην επέκταση της μίσθωσης της τεχνοτροπίας για το %s. Αγοράστε την τεχνοτροπία με gold."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Αποτυχία στην επέκταση της μίσθωσης της τεχνοτροπίας για το %s. Ανεπαρκείς πόροι."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Αποτυχία στην επέκταση της μίσθωσης της τεχνοτροπίας για το %s. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Επέκταση Μίσθωσης"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "Η μίσθωση της τεχνοτροπίας %s για το όχημα %s κοντεύει να λήξει: απομένουν 3 μάχες."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "Η μίσθωση της τεχνοτροπίας «%s» για το %s θα παραταθεί αυτόματα για %s ακόμη μάχες μετά από 3 μάχες."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Εξωτερική Όψη"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "Η εκμίσθωση της τεχνοτροπίας %s για το όχημα %s έληξε. Μπορείτε να επεκτείνετε την εκμίσθωση από την Εξωτερική Όψη."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Αποτυχία στην αυτόματη επέκταση της μίσθωσης της τεχνοτροπίας για το %s. Αγοράστε την τεχνοτροπία χειροκίνητα."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Έγινε επιτυχώς η επέκταση της μίσθωσης της τεχνοτροπίας για το %s. Κόστος "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Αποτυχία στην επισκευή %s."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Αποτυχία στην επισκευή %s. Όχι αρκετά credits."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Αποτυχία στην επισκευή του %s. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Αποτυχία στην αυτόματη επισκευή του %s. Επισκευάστε το όχημά σας χειροκίνητα."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Το όχημα %s επισκευάστηκε επιτυχώς. Κόστος σε "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "Το λάβαρο του WoT Plus είναι διαθέσιμο"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "Το λάβαρο του WoT Plus δεν είναι διαθέσιμο"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Κερδίσατε παράσημα"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "Το μπόνους μάχης του WoT Plus είναι διαθέσιμο"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "Το μπόνους μάχης του WoT Plus δεν είναι διαθέσιμο"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Αποστολή εξετελέσθη: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Ολοκληρώσατε μία σειρά αποστολών της Ακαδημίας Αρμάτων."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Με τα tokens μπορείτε να αποκτήσετε οποιοδήποτε όχημα της Βαθμίδας VI από τον Πίνακα Τεχνολογίας."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Επιλογή Οχήματος"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Ολοκληρωμένες αποστολές Ακαδημίας Αρμάτων: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Παραλαβή επάθλου:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Το Academy Token χρησιμοποιήθηκε."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Παραλαβή επάθλου:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Θέσεις στο Γκαράζ: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Μισθωμένα οχήματα: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Κερδίστε οχήματα και χρήσιμα αγαθά του παιχνιδιού από την ολοκλήρωση εκπαιδευτικών αποστολών."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Ακαδημία Αρμάτων"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "ΟΛΑ ΟΣΑ ΧΡΕΙΑΖΕΣΤΕ\nΣΤΟ ΞΕΚΙΝΗΜΑ ΣΑΣ"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Academy Token"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Χρησιμοποιήθηκαν Οι Διαθέσιμοι Πόντοι"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Αδιανέμητοι Πόντοι που αξιοποιήθηκαν στην Επίλεκτη Διαδρομή: %(points)s"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Χρήση διαθέσιμων Πόντων: %(points)s για το Κεφάλαιο %(chapter)s."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Κανονικός Εξοπλισμός"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Ενεργοποίηση Επίλεκτης Διαδρομής"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Παύση Επίλεκτης Διαδρομής"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Όριο Πόντων"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Κερδίσατε τον μέγιστο αριθμό Πόντων με το %(vehName)s.\nΈπαθλο από το Όριο Πόντων: %(bonusPoints)s.\nΣυνεχίστε τις μάχες με άλλο όχημα για να κερδίσετε και άλλους Πόντους."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "Η τεχνοτροπία %(name)s απονεμήθηκε. Μπορεί να γίνει χρήση της άμεσα και να αναβαθμιστεί μέσα από την πρόοδο στο Battle Pass."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Αναβαθμίσιμος Εξοπλισμός"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Ολοκληρώσατε το Κεφάλαιο %(chapter)s του Battle Pass!\nΚερδίσατε τα έπαθλα:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Ολοκληρώσατε το Κεφάλαιο %(chapter)s του Battle Pass!\nΚερδίσατε τα έπαθλα:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Ολοκληρώσατε τη Φάση Προόδου %(newLevel)s του Battle Pass\n\nΈπαθλα:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Προσθήκη Φάσεων στο Κεφάλαιο %(chapter)s: %(levelCount)s\nΦτάσατε στη Φάση %(currentLevel)s.\nΈπαθλα:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Έπαθλα από τις ήδη ολοκληρωμένες Φάσεις Battle Pass:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Θα κερδίζετε πλέον και τα Βασικά και τα Αναβαθμισμένα Έπαθλα του Κεφαλαίου."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Κερδίσατε τα έπαθλα των ολοκληρωμένων Φάσεων αξιοποιώντας τους διαθέσιμους Πόντους:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Ολοκληρώσατε το Κεφάλαιο %(chapter)s.\nΣας απονεμήθηκαν τα έπαθλα:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Συνεχίστε τις μάχες για να κερδίσετε περισσότερους Πόντους!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Ολοκληρώσατε όλα τα βασικά Κεφάλαια της Περιόδου %(season)s του Battle Pass.\nΈπαθλα:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Ολοκληρώσατε τη Φάση %(newLevel)s του Κεφαλαίου %(chapter)s.\nΣας απονεμήθηκαν τα έπαθλα:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Κόστος σε Free XP:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Κόστος σε gold:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Αγοράσατε το Improved Pass και όλες τις Φάσεις για το Κεφάλαιο %(chapter)s.\nΠαραλάβατε τα έπαθλα από όλες τις Φάσεις του Κεφαλαίου:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Ένα μπόνους από την αγορά των Improved Passes:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Πλέον, θα κερδίζετε και τα Βασικά και τα Αναβαθμισμένα Έπαθλα από όλα τα Κεφάλαια της Περιόδου."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Προσθήκη Φάσεων στο Κεφάλαιο %(chapter)s: %(levelCount)s\nΦτάσατε στη Φάση %(currentLevel)s.\nΈπαθλα:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Ένα μπόνους από την αγορά του Improved Pass:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Αυτό το Improved Pass ισχύει μόνο για το Κεφάλαιο %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Έπαθλα από τις ήδη ολοκληρωμένες Φάσεις Battle Pass:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Το συγκεκριμένο Improved Pass ισχύει μόνο για το Κεφάλαιο %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Θα κερδίζετε πλέον και τα Βασικά και τα Αναβαθμισμένα Έπαθλα του Κεφαλαίου %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Προκαθορισμένα Έπαθλα:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Αγορά Improved Pass"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Αγορά Improved Pass"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Αγορά Φάσεων"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Απονομή Επάθλου"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Ολοκλήρωση Φάσης Επίλεκτης Διαδρομής.\nΈπαθλα:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Ολοκληρώθηκαν Φάσεις Επίλεκτης Διαδρομής: %(amount)s\nΈπαθλα:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Μέλος πληρώματος:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Επιτεύγματα Μάχης"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Λάβατε %s λόγω της προσφοράς '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Λάβατε %s λόγω της προσφοράς '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s Tokens"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s credits"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s bonds"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s Anniversary Coins"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s Free Experience"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s gold"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Μάχη"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Κερδισμένοι Πόντοι Battle Pass: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Κερδισμένα Tokens"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "αποζημίωση για φθορά από συμμάχους: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Κερδισμένα credits: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Κερδισμένα bonds"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Ήττα"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d για την πρώτη νίκη της ημέρας"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Ισοπαλία"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Η Μάχη Τελείωσε"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Πόντοι Εφεδρείας"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Απονομή components"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Παραλαβή Anniversary Coins"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Κερδισμένα XP: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Προωθήσεις"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Δομή"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Κερδισμένοι Βιομηχανικοί Πόροι"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "ανά clan"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "ανά παίκτη"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Κερδισμένο Free Experience"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Κερδισμένο gold"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "Για τη συμμετοχή στην εκστρατεία %(campaignName)s σας απονέμεται το μετάλλιο %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Από την επιτυχή ολοκλήρωση 45 αποστολών της σειράς %(categoryName)s για την εκστρατεία %(campaignName)s σας απονεμήθηκε το μετάλλιο %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Από την επιτυχή ολοκλήρωση 30 αποστολών της σειράς %(categoryName)s για την εκστρατεία %(campaignName)s σας απονεμήθηκε το μετάλλιο %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Από την επιτυχή ολοκλήρωση 15 αποστολών της σειράς %(categoryName)s για την εκστρατεία %(campaignName)s σας απονεμήθηκε το μετάλλιο %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "πρόστιμο για φθορά σε συμμάχους: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Συγχαρητήρια!\nΓια την επιτυχή ολοκλήρωση προσωπικών αποστολών, κερδίσατε τα ακόλουθα έπαθλα"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Συγχαρητήρια!\nΓια την επιτυχή ολοκλήρωση των προσωπικών αποστολών της εκστρατείας Long-Awaited Backup κερδίσατε τα ακόλουθα έπαθλα"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Συγχαρητήρια!\nΓια την επιτυχή ολοκλήρωση των προσωπικών αποστολών της εκστρατείας Second Front κερδίσατε τα ακόλουθα έπαθλα"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Συγχαρητήρια!\nΓια την επιτυχή ολοκλήρωση των προσωπικών αποστολών και των δύο εκστρατειών κερδίσατε τα ακόλουθα έπαθλα"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Προστέθηκαν στο Ταμιευτήριο Credits"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Αποστολή εξετελέσθη!"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Μητρώο Υπηρεσίας"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Κερδισμένοι Πόντοι Battle Pass: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Οι κλίνες προστέθηκαν στον Στρατώνα"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Προσθήκη Tokens"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Προσθήκη credits"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Προστέθηκαν bonds"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Προσθήκη components"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Προσθήκη Anniversary Coins"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Προστέθηκε Free Experience"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Προστέθηκε Gold"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Απονομή"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Πόντοι Εκστρατείας: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Παραλαβή κατοικίδιων"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Προστέθηκαν ημέρες Προνομιακού Λογαριασμού Wargaming"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Προστέθηκαν ημέρες Προνομιακού Λογαριασμού WoT"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Προσθήκη Μπόνους Μάχης: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s ημερήσια"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s κανονικά"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Προστέθηκαν θέσεις"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Προσθήκη Μπόνους Μάχης"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nΚανονικά, για τις επιδόσεις σας στη φάση που ολοκληρώθηκε: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nΑπό ολοκλήρωση αποστολών: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nΗμερήσια, για τα κερδισμένα γαλόνια στα Προκριματικά: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nΚανονικά, για τα κερδισμένα γαλόνια στα Προκριματικά: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Αλλαγές στις Θέσεις Κατάταξης"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nΚερδίσατε γαλόνια"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nΚερδίσατε γαλόνια"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nΜετακίνηση στην Κατηγορία: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nΜετακίνηση σε Λίγκες"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nΔιατήρηση γαλονιών"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nΚερδίσατε τη Θέση %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nΧάσατε τη Θέση %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nΗ ασπίδα κατάταξης εξασθένισε"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nΚαμία μεταβολή"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nΗ ασπίδα κατάταξης έσπασε"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nΔιατήρηση γαλονιών"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nΚερδίσατε γαλόνι"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nΧάσατε γαλόνι"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nΚερδίσατε γαλόνια"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Πόντοι Κατάταξης"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Σας απονεμήθηκαν τα ακόλουθα έπαθλα ως δώρο για τα χρόνια υπηρεσίας σας"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Στρατολόγηση"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Οχήματα"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Γυναικείο Μέλος Πληρώματος"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Τεχνική ήττα"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Τεχνική νίκη"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Νίκη"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Έγινε αφαίρεση ενός αποκλεισμένου χάρτη. Ο χάρτης %(mapName)s είναι και πάλι διαθέσιμος στην εναλλαγή χαρτών."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "Ο αποκλεισμένος χάρτης %(mapNames)s αφαιρέθηκε από το παιχνίδι. Μπορείτε πλέον να αποκλείσετε άλλον χάρτη στη θέση του."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Έγινε αφαίρεση ενός αποκλεισμένου χάρτη. Ο χάρτης %(mapNames)s είναι και πάλι διαθέσιμος στην εναλλαγή χαρτών."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Η προσφορά ξεκίνησε!\nΓια 10 ημέρες ανταλλάξτε τα μηχανολογικά σας σχέδια για πολύτιμα αντικείμενα του παιχνιδιού."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Λήξη Προσφοράς"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Ανταλλάξτε Τα Μηχανολογικά Σας Σχέδια"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Η μετατροπή των μηχανολογικών σχεδίων δεν είναι διαθέσιμη λόγω εργασιών συντήρησης."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Η μετατροπή των μηχανολογικών σχεδίων είναι και πάλι διαθέσιμη."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Μην ξεχάσετε να διεκδικήσετε το έπαθλό σας!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Επιλογή"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Τα μπόνους από τις τρέχουσες μάχες δεν περιλαμβάνονται."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Το Προσωπικό Απόθεμα \"%(boosterName)s\" έχει απενεργοποιηθεί εξαιτίας τεχνικών προβλημάτων."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: Λήξη Προσωπικού Αποθέματος"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Χαμένα αποθέματα: "
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Τα αποθέματα έληξαν"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "credits"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "Free XP"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "Crew XP"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "Combat XP"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Συνολικό μπόνους στα %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Κλείσιμο"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Αποχωρήσατε ή εξαιρεθήκατε από το clan: "
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "Απονομή: %(element_name)s"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "Απονομή μεταλλίου: %(element_name)s"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "Απονομή σιριτιού: %(element_name)s"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Το έπαθλο απονεμήθηκε"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Κερδισμένες Τιμητικές Αναφορές"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Επισημάνσεις Μάχης προσωρινά μη διαθέσιμες"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Επισημάνσεις Μάχης διαθέσιμες"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Τιμητικές Αναφορές προσωρινά μη διαθέσιμες"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Τιμητικές Αναφορές διαθέσιμες στη μάχη"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Έχετε λάβει %(gold)s gold, %(credits)s credits."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Έχετε λάβει %(credits)s credits."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Οδηγός Πληρώματος διαθέσιμος"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Οδηγός Πληρώματος μη διαθέσιμος"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Ανοίχτηκαν τα Ταμιευτήρια των Credits & Gold!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Πλειστηριασμός"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Battle Pass"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Ημερομηνία"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Αφαίρεση Tokens"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Credits που παρακρατήθηκαν"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Αφαιρέθηκαν bonds"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Αφαίρεση components"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Αφαίρεση Anniversary Coins"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Παρακρατήθηκε Free Experience"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Παρακρατήθηκε Gold"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Οικονομική συναλλαγή"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Πλειστηριασμός"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Κερδισμένα Tokens"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Credits που λάβατε"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Κερδισμένα bonds"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Απονομή components"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Παραλαβή Anniversary Coins"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Κερδισμένο Free Experience"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Κερδισμένο Gold"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Βραβείο Hero of Our Time"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "Το μετάλλιο %(medalName)s απονεμήθηκε για τις %(battlesCount)s συμμετοχές σε μάχες\nΟι χαλκομανίες απονεμήθηκαν για τις %(battlesCount)s συμμετοχές σε μάχες (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Η λειτουργία των Κυτίων Αποσύνδεσης είναι προσωρινά μη διαθέσιμη εξαιτίας εργασιών συντήρησης."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Η λειτουργία των Κυτίων Αποσύνδεσης είναι και πάλι διαθέσιμη. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Διαθέσιμο το Φόντο Μεταλλικής Ταυτότητας: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Διαθέσιμο το Τύπωμα Μεταλλικής Ταυτότητας: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "Μεταλλική Ταυτότητα %(name)s"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "στο Επίπεδο"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Νέο Επίπεδο"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Διαθέσιμο"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Φόντο"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "ΤΥΠΩΜΑ"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Ο Προνομιακός Λογαριασμός Wargaming λήγει στις %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Επικύρωση Email"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "Το email δεν έχει επικυρωθεί"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Το πειραματικό εξάρτημα χρησιμοποιήθηκε"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Αφαίρεση όλων των πειραματικών εξαρτημάτων"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Αφαίρεση πειραματικών εξαρτημάτων από τα ακόλουθα οχήματα"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Σενάριο"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Οδηγίες εξοπλισμού για να επιλέξετε"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Πόντοι Battle Pass"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Φυλλάδιο Γενικής Χρήσης"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Bonds"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Πόντοι Εφεδρείας"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Πειραματικός Εξοπλισμός"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Άδεια Καθοδήγησης"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Εντολές Επανεκπαίδευσης"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Εγχειρίδιο Γενικής Χρήσης"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Σας έχουν απονεμηθεί Anniversary Coins: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Διαθέσιμη μία πρόσθετη θέση για αποκλεισμό χάρτη"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Αδύνατος ο αποκλεισμός χαρτών με το WoT Plus"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Αιτία"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Λήξη συνδρομής Boosteroid."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Λήξη συνδρομής."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Όχημα μη διαθέσιμο"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Όχημα"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Όχημα διαθέσιμο"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Όχημα"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Μηδενισμός προόδου"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Αποστολή"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Προσοχή! Η πρόοδος της αποστολής %(missionShortName)s μηδενίστηκε. Η εκπλήρωση των προϋποθέσεων θα ξαναρχίσει από την αρχή."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Αποστολή: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Επιχείρηση: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Έχετε αποκλειστεί προσωρινά από το είδος μάχης «%(mode)s». Ο αποκλεισμός θα λήξει στις %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Ο προσωρινός αποκλεισμός σας έληξε. Μπορείτε και πάλι να λάβετε μέρος στο είδος μάχης «%(mode)s»."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Σας έχουν αφαιρεθεί τα credits, τα XP και τα έπαθλα που κερδίσατε στη μάχη του είδους %(mode)s για %(reason)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Σας έχει επιδοθεί προειδοποίηση για %(reason)s στο είδος μάχης «%(mode)s»."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Αποκλεισμός"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Λήξη Αποκλεισμού"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Σας Έχει Επιβληθεί Ποινή"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Αθέμιτη Συμπεριφορά"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Κηρύχθηκε πόλεμος στο clan %(clan)s!\nΟι Προωθήσεις αρχίζουν στις %(date)s και ώρα %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Η άμυνα συνετρίβη!\nΌλες οι επιθέσεις ακυρώθηκαν. Η μπάρα των hit points του Κέντρου Διοίκησης πρέπει να γεμίσει για να λειτουργεί το Οχυρό."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Η προγραμματισμένη μάχη με το clan %(clan)s ακυρώθηκε."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "Η Προώθηση που είχε προγραμματιστεί για τις %(time)s στις %(date)s εναντίον του clan %(clan)s ακυρώθηκε: η διαφορά μεταξύ των επιπέδων των Οχυρών είναι μεγαλύτερη του 1."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Η Δομή %(building)s έχει υποστεί φθορές. Η μπάρα των hit points πρέπει να γεμίσει για να λειτουργήσει η Δομή."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Το Κέντρο Διοίκησης έχει υποστεί φθορές. Η μπάρα των hit points πρέπει να γεμίσει για να λειτουργεί το Οχυρό. Εάν το Κέντρο Διοίκησης υποστεί περαιτέρω φθορά, η άμυνάς σας θα συντριβεί."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Το clan %(clan)s σας κήρυξε τον πόλεμο!\nΟι Προωθήσεις αρχίζουν στις %(date)s και ώρα %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Η Φάση Άμυνας έχει καθοριστεί: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Η Φάση Άμυνας έχει καθοριστεί. Νέα Φάση Άμυνας: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Η άμυνα του Οχυρού σας είναι απενεργοποιημένη. Το επίπεδο όλων των δομών και των Αποθεμάτων μειώθηκε στο Επίπεδο IV."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Συγχαρητήρια! Ανεβάσατε το Οχυρό σας στο επίπεδο VIII."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Συγχαρητήρια! Το Οχυρό είναι σε πλήρη λειτουργία προς όφελος του clan."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Η ημέρα Εκεχειρίας άλλαξε. Δεν έχει οριστεί νέα ημέρα Εκεχειρίας."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Η ημέρα Εκεχειρίας ορίστηκε στις: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Το επίπεδο της δομής %(building)s έχει μεγαλώσει.\nΤο Απόθεμα %(order)s σε προετοιμασία μεταμορφώθηκε σε Βιομηχανικούς Πόρους που προστέθηκαν στην αποθήκη της δομής."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Το Απόθεμα %(orderTypeName)s αποκαταστάθηκε και είναι έτοιμο για χρήση."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Ο server έδρας άλλαξε στον %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Προσθήκη Βιομηχανικών Πόρων: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Μείωση Βιομηχανικών Πόρων: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Έχετε συσχετιστεί με τη δομή %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Προσθήκη Αποθεμάτων: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Αφαίρεση Αποθεμάτων: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Απόθεμα %(order)s ενεργό. Απομένουν: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Ενεργοποίηση Αποθέματος"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Τo απόθεμα «%(order)s» έληξε."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "Προετοιμασία %(count)s Αποθεμάτων %(order)s ολοκληρώθηκαν."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Η Εκκένωση Αποθέματος έληξε.\n\n%(additional)s\nΣύνολο για το clan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Ο εχθρός ενεργοποίησε την Ανάκτηση Αποθέματος και λεηλατήθηκαν επιπλέον: %(resDec)s\nΕπιπλέον αποθηκεύτηκαν από το clan: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "Η Ανάκτηση Αποθέματος έληξε.\n\n%(additional)s\nΣύνολο για το clan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Ο εχθρός ενεργοποίησε την Εκκένωση Αποθέματος και αποθηκεύτηκαν επιπλέον: %(resDec)s\nΕπιπλέον λεηλατήθηκαν από το clan: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Η αποθήκη της δομής %(building)s είναι γεμάτη.\nΧρησιμοποιήστε Βιομηχανικούς Πόρους για προετοιμασία Αποθεμάτων ή μεταφέρετέ τους σε άλλη δομή."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Η περίοδος Ουδετερότητας του Οχυρού σας έληξε.\nΕχθρικά clan μπορούν τώρα να σας επιτεθούν—να είστε έτοιμοι!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Το Οχυρό σας έχει κηρύξει Ουδετερότητα.\nΕχθρικά clan δεν μπορούν να σας επιτεθούν. Λήξη περιόδου Ουδετερότητας: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s Βιομηχανικοί Πόροι προστέθηκαν στην αποθήκη του Κέντρου Διοίκησης."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Στη Διοργάνωση"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Πρόοδος"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Έχετε λάβει %(gold)s gold."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Πλειστηριασμός: Η προσφορά σας είναι χαμηλότερη από μία ανταγωνιστική προσφορά."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Οι πιθανότητες να κερδίσετε είναι πολύ λίγες: Η τρέχουσα προσφορά σας είναι πιο χαμηλή από μία ανταγωνιστική προσφορά."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Στη Διοργάνωση"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Η προσφορά σας δεν κέρδισε. Προς επιστροφή:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Η προσφορά σας ξεπεράστηκε από άλλους παίκτες. Οι πόροι που προσφέρατε θα επιστραφούν σύντομα στον λογαριασμό σας."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Σφάλμα"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Σφάλμα προσφοράς. Δεν αφαιρέθηκαν πόροι από τον λογαριασμό σας. Προσπαθήστε ξανά."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Ο Πλειστηριασμός κοντεύει στη λήξη του."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Βιαστείτε Και Δώστε Την Προσφορά Σας!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Μην καθυστερείτε, δώστε την προσφορά σας. Τα διαθέσιμα αντικείμενα είναι περιορισμένα."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Ο Πλειστηριασμός Μιας Νέας Παρτίδας Ξεκίνησε!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Κλίνες προστέθηκαν στον Στρατώνα"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Κλίνες αφαιρέθηκαν από τον Στρατώνα"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Προσωπικά Αποθέματα"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Αφαίρεση Προσωπικών Αποθεμάτων"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Προσθήκη Tokens"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Αφαίρεση Tokens"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Αποζημίωση για"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "με Tokens"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Καμουφλάζ"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "Credits"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "με bonds"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Έμβλημα"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "με Anniversary Coins"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "Gold"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Επιγραφή"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Εφέ"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Βαφή"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Μονοψήφιος Αριθμός"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Διψήφιος Αριθμός"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Τριψήφιος αριθμός"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Χαλκομανία"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Τεχνοτροπία"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Credits"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Credits που χρεώθηκαν στο ισοζύγιό σας"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Προσθήκη Τόμων Πληρώματος"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "το πλήρωμα στάλθηκε στον Στρατώνα"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "πλήρωμα %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Προσθήκη προσώπων πληρώματος"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Αφαίρεση προσώπων πληρώματος"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "το πλήρωμα %d%% στάλθηκε στον Στρατώνα"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "το πλήρωμα αφαιρέθηκε"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Κερδίσατε Bonds"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Αφαιρέθηκαν bonds"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Προσωπικές εκπτώσεις"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Προσθήκη βραβείων"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Αφαίρεση βραβείων"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Προσθήκη πειραματικών εξαρτημάτων"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Αφαίρεση πειραματικών εξαρτημάτων"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Απονομή"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Αφαίρεση"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Προσθήκη components"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Αφαίρεση components"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Αναλώσιμα"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Αφαιρέθηκαν Αναλώσιμα"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Προσθήκη Anniversary Coins"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Αφαίρεση Anniversary Coins"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Προσωπικά Αποθέματα Με Χρονικό Όριο"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Προστέθηκαν Εντολές"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Αφαιρέθηκαν Εντολές"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Free Experience"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Προστέθηκε Free Experience"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Παρακρατήθηκε Free Experience"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Προστέθηκε Gold"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Παρακρατήθηκε Gold"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Προσθήκη τμημάτων γενικής χρήσης"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Αφαίρεση τμημάτων γενικής χρήσης"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Απόδειξη Παραλαβής"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Προστέθηκαν στην Αποθήκη"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Αφαιρέθηκαν Αναλώσιμα"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Στα οχήματα"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Προσθήκη τμημάτων σχεδίων για %(nationName)s οχήματα"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Αφαίρεση τμημάτων σχεδίων για %(nationName)s οχήματα"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Απονομή"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Αφαίρεση"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "τεμάχια"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Προστέθηκαν ημέρες Προνομιακού Λογαριασμού Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Αφαιρέθηκαν ημέρες Προνομιακού Λογαριασμού Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Προνομιακός Λογαριασμός Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "Το %(vehicleName)s κέρδισε %(xpCount)s Επίλεκτους Πόντους."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "Το %(vehicleName)s κατέλαβε το Επίλεκτο Επίπεδο %(level)s και κέρδισε %(xpCount)s Επίλεκτους Πόντους."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "Το %(vehicleName)s κατέλαβε το Επίλεκτο Επίπεδο %(level)s."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Αντικείμενα από"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam Inventory"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Προσθήκη Μπόνους Μάχης"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Αφαίρεση Μπόνους Μάχης"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "ημέρες εκμίσθωσης: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Θέσεις"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Αφαιρέθηκαν Θέσεις"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "Προνομιακός Λογαριασμός WoT"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Προστέθηκαν ημέρες Προνομιακού Λογαριασμού WoT"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Αφαιρέθηκαν ημέρες Προνομιακού Λογαριασμού WoT"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Στρατολογήσεις"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Απονεμήθηκε μη διανεμημένο experience στα μέλη του πληρώματος"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Αφαιρέθηκε μη διανεμημένο experience στα μέλη του πληρώματος"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Εν αποστρατεία"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "όλα τα εξαρτήματα ανακαλύφθηκαν"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Προσθήκη τμημάτων σχεδίων του %(vehicleName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Αφαίρεση τμημάτων σχεδίων του %(vehicleName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Οχήματα"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Αποσύρθηκαν Οχήματα"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Προσθήκη Μισθωμένων Οχημάτων"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Έχετε παραλάβει αναλώσιμα: %(typeName)s \"%(itemName)s\" - %(amount)d τεμάχια."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Στα Κουτιά"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Κλικ στο κουμπί για προβολή του περιεχομένου."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Παραλάβατε ένα δέμα:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Προβολή"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Ενεργοποιήσεις Πύλης: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Ενεργοποίηση Πύλης"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Παραλαβή αντικειμένων:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Ενεργοποιήσαμε όλες τις Πύλες και προσθέσαμε τα περιεχόμενά τους στον λογαριασμό σας:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Παραλαβή Επάθλων"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Ανοίχτηκαν όλα σας τα κουτιά και λάβατε τα έπαθλα από τις Γιορτινές Επιχειρήσεις"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "Ανοίχτηκαν όλοι οι Ευχετήριες Κάρτες του Νέου Σεληνιακού Έτους."
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Παραλαβή Επάθλων"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Προσθήκη χαλκομανιών: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Προσθήκη χαλκομανίας: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Έρευνα"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Η Αποστολή Ανίχνευσης τελείωσε. Σας ευχαριστούμε για τη συνεισφορά σας στον σχεδιασμό των νέων χαρτών!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Η Αποστολή Ανίχνευσης τελείωσε.\n\nΣας ευχαριστούμε για τη συνεισφορά σας στον σχεδιασμό των νέων χαρτών!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Η Αποστολή Ανίχνευσης ξεκίνησε.\n\nΛάβετε μέρος σε μάχες με οχήματα των Βαθμίδων VIII–X σε χάρτες ο σχεδιασμός των οποίων είναι σε εξέλιξη, συμπληρώστε τα ερωτηματολόγια και κερδίστε έπαθλα!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Τελικό Έπαθλο:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Έχετε λάβει μέρος σε %(battles)s μάχες στην Αποστολή Ανίχνευσης."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Παραλαβή επάθλου:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Μπορείτε να λάβετε μέρος στην έρευνα για τους μηχανισμούς των μαχών της Αποστολής Ανίχνευσης."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Διαθέσιμη Έρευνα"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Μπορείτε να λάβετε μέρος στην έρευνα για τον χάρτη %(mapName)s της Αποστολής Ανίχνευσης."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Στον Στρατώνα"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Μέλη πληρώματος που διαγράφηκαν: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Προμήθειες"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Οδηγός Εξοπλισμού διαθέσιμος"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Οδηγός Εξοπλισμού μη διαθέσιμος"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Έχετε νέα Αποθέματα: "
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Ειδοποίηση"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Αποθέματα προς λήξη: "
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Αποθέματα με χρονικό όριο κοντεύουν να λήξουν"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Credits που λάβατε: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Ημερομηνία: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Οικονομική Συναλλαγή:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Προστέθηκε στην Αποθήκη: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Απόδειξη Παραλαβής"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Ξεκίνησε νέος κύκλος αποταμίευσης."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Ξεκίνησε νέος κύκλος αποταμίευσης. Για να αποταμιεύσετε credits, ενεργοποιήστε τον Προνομιακό Λογαριασμό WoT."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Ξεκίνησε νέος κύκλος αποταμίευσης. Για να αποταμιεύσετε gold, ενεργοποιήστε το WoT Plus."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Έχει ανασταλεί η συγκέντρωση credits στο Ταμιευτήριο Credits."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Ταμιευτήριο των Credits!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Διεκδίκηση Επάθλου"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Η Δημιουργία Τόμων Πληρώματος Ολοκληρώθηκε!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Πρόοδος"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Δημιουργία Τόμων Πληρώματος"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Αποκτήσατε πρόσβαση σε ένα ειδικό έπαθλο."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Μάχη με Clan"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Αποτελέσματα Μάχης"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Τουρνουά"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Ήττα"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Ισοπαλία"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Αποτελέσματα δεν ορίστηκαν"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Νίκη!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Διαγραφή από ιδιοκτήτη"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Τεχνική αποτυχία"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Έχετε εξαιρεθεί"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Τεχνική Ήττα"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Τεχνική Ισοπαλία"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Αποτελέσματα δεν ορίστηκαν"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Τεχνική Νίκη!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Η διακοπή έληξε"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Ολοκληρώθηκε"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(battle %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Μερικό Αποτέλεσμα"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Αποτέλεσμα"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Λάβατε χρόνο Προνομιακού Λογαριασμού Wargaming. Λήξη στις %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Αλλαγή Προνομιακού Λογαριασμού Wargaming. Λήξη στις %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Ο Προνομιακός Λογαριασμός Wargaming έληξε."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Επέκταση Προνομιακού Λογαριασμού Wargaming. Λήξη στις %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "Λάβατε χρόνο Προνομιακού Λογαριασμού WoT. Λήξη στις %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "Αλλαγή Προνομιακού Λογαριασμού WoT. Λήξη στις %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "Ο Προνομιακός Λογαριασμός WoT έληξε."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "Επέκταση Προνομιακού Λογαριασμού WoT. Λήξη στις %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Λάβατε %(days)d ημέρες Προνομιακού Λογαριασμού Wargaming."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Σύστημα Επιλέκτων"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Καταλάβατε Επίλεκτα Επίπεδα & κερδίσατε Επίλεκτα Διακριτικά."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Σύστημα Επίλεκτων Οχημάτων"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Οχήματα"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Νέο Επίλεκτο Επίπεδο"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Σφάλμα κατά τη διεκδίκηση του Επίλεκτου Επάθλου."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "Για το Επίλεκτο Επίπεδο %(lvl)s σας απονεμήθηκε: %(rewardName)s%(typeReward)s"
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Απονομή Επίλεκτου Επάθλου"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Προσοχή!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Καμουφλάζ"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "Χαλκομανία"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "Έμβλημα"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Επιγραφή"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(typeName)s %(name)s %(level)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "Και %(count)s ακόμη"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "Επιπέδου %(level)s"
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "Βαφή"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "Χαλκομανία"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Απονεμήθηκε:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "Τεχνοτροπία \"%(name)s\""
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Έπαθλο Επιβράβευσης"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Λάβετε μέρος σε μάχες και κερδίστε έπαθλα. Σε όσες περισσότερες μάχες λάβετε μέρος, τόσο πιο πολύ πλησιάζετε στα έπαθλα."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Παραλαβή Μεγάλου Επάθλου:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s Τα Tokens Θέσης μετατράπηκαν σε %(count)s bonds."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Παραλαβή Μέγιστου Επάθλου:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Παραλαβή Τυπικού Επάθλου:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Παραλαβή Μικρού Επάθλου:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "Κερδίσατε %(points)s Tokens Θέσης την περίοδο 2021–2022."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Ετήσιο Έπαθλο"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Οι Ενισχύσεις Έφτασαν!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Κερδίσατε ένα πλήρωμα από %(event)s."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Έχετε μη στρατολογημένα μέλη πληρώματος: %(count)s. Επόμενη διαγραφή στις %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Έχετε μη στρατολογημένα μέλη πληρώματος: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Αφαίρεση παρασήμων"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Αποζημίωση"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Λάβατε credits για τη μη χρήση εκμισθωμένου χρόνου του %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Λάβατε gold για τη μη χρήση εκμισθωμένου χρόνου του %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "Η περίοδος εκμίσθωσης του %(vehicleName)s έληξε."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Τμήματα μηχανολογικών σχεδίων: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Credits: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Bonds: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Free XP: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Gold: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "τμήματα γενικής χρήσης"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Τρέχουσα πρόοδος: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Κατανάλωση πόρων στο Συνεργείο Συναρμολόγησης:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Κατανάλωση Πόρων"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Κατανάλωση Πόρων"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Επιστροφή πόρων από το Συνεργείο Συναρμολόγησης:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Επιστροφή Πόρων"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Φυλλάδια Εκπαίδευσης"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Οδηγοί Εκπαίδευσης"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Καμουφλάζ"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "Η επίδραση από: %s επεκτείνεται λόγω εργασιών συντήρησης."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Εμβλήματα"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Επιγραφές"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Προνομιακός Λογαριασμός Wargaming"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "Προνομιακός Λογαριασμός WoT"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Εκμίσθωση"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Ο server του παιχνιδιού θα αποσυνδεθεί στις %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Η αποσύνδεση του Server ακυρώθηκε, η αποσύνδεση προγραμματίστηκε για %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Η Προσαρμογή του Μητρώου Υπηρεσίας είναι διαθέσιμη"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Η λειτουργία αυτή είναι σε αναστολή."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Η Προσαρμογή του Μητρώου Υπηρεσίας είναι προσωρινά μη διαθέσιμη"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Τμήματα Γενικής Χρήσης (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Τμήματα Έθνους (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Ειδικό Έπαθλο"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Τμήματα σχεδίου για το %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Δώρο για επικύρωση του email:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Έχετε λάβει αποζημίωση για τα τμήματα σχεδίων από οχήματα που έχετε ήδη ανακαλύψει:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Το Καμουφλάζ άλλαξε"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Credits που λάβατε: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Credits που παρακρατήθηκαν: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Bonds: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Bonds: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Αλλαγή εξωτερικής εμφάνισης."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Αλλαγή στοιχείων προσαρμογής. Αγορά στοιχείων: %(count)s. Κόστος %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Αλλαγμένα Εμβλήματα"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Προσθήκη Anniversary Coins: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Αφαίρεση Anniversary Coins: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Κερδισμένο Free Experience: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Free Experience που παρακρατήθηκε: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Gold που λάβατε: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Gold που παρακρατήθηκε: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Αλλαγμένες Επιγραφές"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Τμήματα γενικής χρήσης"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "%(nationName)s τμήματα έθνους"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Με την παρουσίαση της νέας έκδοσης, έγινε αφαίρεση όλων των χαλκομανιών από τα οχήματα και αποστολή τους στην Αποθήκη, στον τομέα Εξωτερική Όψη."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Θέσεις που προστέθηκαν: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Θέσεις που αφαιρέθηκαν: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Προσοχή!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Οχήματα που προστέθηκαν: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Οχήματα που αφαιρέθηκαν: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "έγινε αγορά των ακόλουθων στοιχείων προσαρμογής:\n%(items)s\nΚόστος %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "Επιτυχής αγορά του στοιχείου %(itemType)s \"%(itemName)s\".\nΚόστος %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "Η τεχνοτροπία %(name)s Επιπέδου %(level)s αγοράσθηκε επιτυχώς.\nΚόστος %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Αλλαγή στοιχείων προσαρμογής του οχήματος."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s τεμάχια)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Τεχνοτροπία %(styleName)s Επιπέδου %(level)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Αφαίρεση στοιχείων προσαρμογής του οχήματος."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Συγχαρητήρια!\nΟι προοδευτικές χαλκομανίες σας δίνουν τη δυνατότητα να αλλάξετε τις προκαθορισμένες τεχνοτροπίες για το %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Συγχαρητήρια!\nΛάβατε τη χαλκομανία \"%(itemName)s\" Επιπέδου I για το %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Συγχαρητήρια!\nΛάβατε τη χαλκομανία \"%(itemName)s\" Επιπέδου I."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "Φτάσατε στην χαλκομανία \"%(itemName)s\" Επιπέδου %(level)s για το %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Εξωτερική Όψη"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Φτάσατε στην χαλκομανία \"%(itemName)s\" Επιπέδου %(level)s."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Κόστος: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Χάρτης με Έρημο: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Χάρτης με Καλοκαίρι: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Χάρτης με Χειμώνα: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Λάβατε: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Αποσυναρμολόγηση Εξοπλισμού"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Εξωτερική Όψη"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Εξαιτίας της αντικατάστασης εξαρτημάτων, έγινε αφαίρεση των ακόλουθων στοιχείων προσαρμογής από το %(vehicle)s."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Προσαρμογή:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Αποσυναρμολόγηση Εξοπλισμού"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Αποσύνδεση:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Σφάλμα:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Οικονομική Συναλλαγή:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Πώληση αντικειμένων από την Αποθήκη:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "Προστέθηκε η μέθοδος πληρωμής \"%(method)s\""
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "Αφαιρέθηκε η μέθοδος πληρωμής \"%(method)s\""
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Ανακαλύψεις:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Αγορές:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Αφαίρεση από το Γκαράζ:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Επισκευές:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Από ανάκτηση:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Πωλήσεις:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Βελτίωση Εξοπλισμού"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Λάβατε %(days)d ημέρες Προνομιακού Λογαριασμού WoT."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Αποθέματα"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Το Καμουφλάζ στο %(vehicleName)s έχει λήξει."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Το Έμβλημα στο %(vehicleName)s έχει λήξει."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Η επιγραφή στο %(vehicleName)s έχει λήξει."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Διαθέσιμη Συλλογή"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Συγχαρητήρια!\nΈχετε ανακαλύψει ένα από τα %(nation)sοχήματα της Βαθμίδας %(level)s. Μπορείτε πλέον να αγοράσετε από τον Εφοδιασμό ένα Συλλεκτικό όχημα της ίδιας βαθμίδας του έθνους αυτού."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Κατεστραμμένο όχημα. Το %(vehicleName)s μη διαθέσιμο για μάχη με Clan μέχρι %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Ξεκλειδωμένο. %(vehicleName)s διαθέσιμο για μάχη με Clan."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Όλες οι Αμφίδρομες Τροποποιήσεις για το %(vehicle)s ακυρώθηκαν."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Ακύρωση Τροποποιήσεων"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "απενεργοποιημένη"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "ενεργοποιημένη"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Η εναλλαγή εξοπλισμού και οδηγιών κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη για το %(tankName)s είναι %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Η εναλλαγή βλημάτων και αναλώσιμων κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη για το %(tankName)s είναι %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Σας έχει απονεμηθεί ένα Προνομιακό όχημα: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Αδύνατη η μίσθωση οχήματος. Ανεπαρκείς πόροι."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Έγινε εκμίσθωση του οχήματος %(vehicleName)s. Λήξη εκμίσθωσης: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Το κλείδωμα έληξε. Το όχημα είναι διαθέσιμο για μάχη με Clan."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Ο παίκτης %(srcName)s μετέφερε %(srcWares)s gold στον λογαριασμό σας."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s gold μεταφέρθηκαν στον παίκτη %(dstName)s. Αμοιβή: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Έκπτωση για όχημα της Βαθμίδας %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Έπαθλα από την ολοκλήρωση της Επιστροφής Στη Δράση:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Επιλογή Επάθλου"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Έκπτωση για όχημα της Βαθμίδας %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% και %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Εκπτώσεις στην αγορά και ανακάλυψη: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Όχημα Βαθμίδας %(level)s"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Επιλέξτε έπαθλα από τις διαθέσιμες κατηγορίες."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Επιλογή"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Το Έπαθλα Απονεμήθηκαν!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Τα προνόμια του Battle Pass Plus είναι σε αναστολή."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Το Battle Pass Plus είναι μη διαθέσιμο"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Το Battle Pass Plus είναι διαθέσιμο"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Συνεχίστε να συνδέεστε στο παιχνίδι για να κερδίσετε περισσότερα έπαθλα!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Απονεμήθηκε Το Ειδικό Έπαθλο Παρουσίας!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Ο Κύκλος Ολοκληρώθηκε"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Συνδεθείτε στο παιχνίδι και διεκδικήστε τα δώρα σας."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Έναρξη κύκλου"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Έπαθλο Παρουσίας"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Επιστρέψτε ξανά για ένα νέο έπαθλο!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Η Παρουσία Καταγράφηκε!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Η λειτουργία των Επάθλων Παρουσίας έχει ανασταλεί."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Έπαθλα Παρουσίας Μη Διαθέσιμα"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Έπαθλα Παρουσίας Διαθέσιμα"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Το αποκλειστικό %(vehicleType)s <font color='#E9E2BF'>%(vehicleName)s</font> είναι διαθέσιμο."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "Το αποκλειστικό για τους συνδρομητές του WoT Plus %(vehicleType)s <font color='#E9E2BF'>%(vehicleName)s</font> είναι μη διαθέσιμο προ το παρόν."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "Το WoT Plus Core έληξε στις %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Η δωρεάν αποσύνδεση εξοπλισμού είναι μη διαθέσιμη"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Επεκτείνετε τη συνδρομή σας στο WoT Plus για να αποκτήσετε ξανά όλα τα προνόμια."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "Το WoT Plus έληξε στις %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "Το WoT Plus Pro έληξε στις %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Η αποταμίευση gold έχει ανασταλεί."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Το Ταμιευτήριο του Gold είναι προσωρινά μη διαθέσιμο"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Το Ταμιευτήριο του Gold είναι διαθέσιμο"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Το Ταμιευτήριο του Gold γέμισε: Δεν μπορείτε να αποταμιεύσετε κι άλλο gold"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Ταμιευτήριο του Gold!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Όλα τα προνόμια είναι πλέον διαθέσιμα.\nΕπέκταση στις: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Επέκταση ξανά στις: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "Το πρόγραμμα των 180 ημερών ενεργοποιήθηκε. Αξιοποιήστε το!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "Το πρόγραμμα των 360 ημερών ενεργοποιήθηκε. Αξιοποιήστε το!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "Το πρόγραμμα των 180 ημερών ενεργοποιήθηκε. Αξιοποιήστε το!\nΕπέκταση στις: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "Το πρόγραμμα των 360 ημερών ενεργοποιήθηκε. Αξιοποιήστε το!\nΕπέκταση στις: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Η Διαρκής Επιμελητεία Πληρώματος σταμάτησε να λειτουργεί στο <font color='#E9E2BF'>%(vehicleName)s</font>. Ελέγξτε το πλήρωμα του οχήματος."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Ένα ή περισσότερα μέλη πληρώματος του <font color='#E9E2BF'>%(vehicleName)s</font> δεν είναι κατάλληλα για να λάβουν το μπόνους από τη Διαρκή Επιμελητεία Πληρώματος και δεν θα λάβουν τα Crew XP."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Διαρκής Επιμελητεία Πληρώματος"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Η Διαρκής Επιμελητεία Πληρώματος ενεργοποιήθηκε για το πλήρωμα του %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Η Διαρκής Επιμελητεία Πληρώματος απενεργοποιήθηκε για το πλήρωμα του %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Η συγκέντρωση Crew XP έχει ανασταλεί."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Η Διαρκής Επιμελητεία Πληρώματος είναι προσωρινά μη διαθέσιμη"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Η Διαρκής Επιμελητεία Πληρώματος είναι διαθέσιμη"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Επιλέξτε ένα όχημα για να λαμβάνει το μπόνους των Crew XP."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Η Διαρκής Επιμελητεία Πληρώματος μεταφέρθηκε από το <font color='#E9E2BF'>%(oldVehName)s</font> στο <font color='#E9E2BF'>%(newVehName)s</font>. Το πλήρωμα του <font color='#E9E2BF'>%(oldVehName)s</font> σταμάτησε να λαμβάνει Crew XP."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Αλλαγή Διαρκούς Επιμελητείας Πληρώματος"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Η Διαρκής Επιμελητεία Πληρώματος δεν ισχύει για ένα ή περισσότερα μέλη του πληρώματος."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Χάνετε πολύτιμα Crew XP!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Μπορείτε να αλλάξετε την επιλογή σας σε %(cooldown)s ώρες."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Το Pro Boost ενεργοποιήθηκε για το %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Μπορείτε να ενεργοποιήσετε το boost για κάποιο άλλο όχημα."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Το Pro Boost απενεργοποιήθηκε για το %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Τα κέρδη από το Pro Boost σταμάτησαν."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Το Pro Boost είναι μη διαθέσιμο"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Το Pro Boost είναι διαθέσιμο"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "Δεν ισχύει πλέον το boost για το %(vehicleNameFrom)s. Μπορείτε να αλλάξετε την επιλογή σας ξανά σε %(cooldown)s ώρες."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Το Pro Boost είναι πλέον ενεργό για το %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "Αλλαγή Ημερομηνίας Επέκτασης WoT Plus"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Επιλέξτε ένα όχημα προς μίσθωση από τη λίστα."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Δεν επιλέχθηκε όχημα μίσθωσης"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "Το %(vehicle)s θα προστεθεί λίαν συντόμως στον λογαριασμό σας."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Μισθώθηκε!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Τα προνόμια αυτά είναι ανενεργά."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus Μη Διαθέσιμο"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "Το WoT Plus Core Ενεργοποιήθηκε"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Η δωρεάν αποσύνδεση εξοπλισμού είναι διαθέσιμη"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "Το WoT Plus Ενεργοποιήθηκε"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "Το WoT Plus αναβαθμίστηκε σε Pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Επέκταση"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Έχετε λάβει %(freeXP)s Free Experience."
+
+msgid "status/offline"
+msgstr "Εκτός Σύνδεσης"
+
+msgid "status/online"
+msgstr "Σε Σύνδεση"
+
+msgid "xmpp_error/action"
+msgstr "Αδύνατη η εκτέλεση του \"%(actionName)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "xmpp_error/simple"
+msgstr "Προσπαθήστε ξανά αργότερα."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Αδύνατη η δημιουργία του καναλιού \"%(strArg1)s\"."

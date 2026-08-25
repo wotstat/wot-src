@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Csapat <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Tüzérségi csapás"
+
+msgid "attackReason/artillery_sector"
+msgstr "Tüzérségi csapás"
+
+msgid "attackReason/bombers"
+msgstr "Légicsapás"
+
+msgid "battleCommunication/hint/description"
+msgstr "egy pozíció megjelöléséhez vagy egy jelölő elhelyezéséhez"
+
+msgid "battleCommunication/hint/press"
+msgstr "Nyomd meg a(z)"
+
+msgid "battleEndWarning/text"
+msgstr "Csata véget ér:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "A játékos szöveges és hangüzenetei elrejtve ebben a csatában."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Üzenetek tiltása ettől a játékostól"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "A feketelistán lévő játékosok üzenetei le vannak tiltva."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Művelet nem elérhető"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "A játékos szöveges és hangüzenetei újra elérhetőek lesznek."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "A játékos üzenetei tiltásának feloldása"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Technikai probléma a harcizóna-adatok lekérése során."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "A jármű harcizóna-adatai nem érhetők el ezen a pályán."
+
+msgid "battleProgress/hint/description"
+msgstr "személyes küldetések megtekintéséhez"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Az alapvető gombok nincsenek kiosztva"
+
+msgid "battleProgress/hint/press"
+msgstr "Nyomd meg"
+
+msgid "battle_notifier/lose"
+msgstr "Vereség!"
+
+msgid "battle_notifier/tie"
+msgstr "Döntetlen!"
+
+msgid "battle_notifier/win"
+msgstr "Győzelem!"
+
+msgid "bot/boss"
+msgstr "Fő ellenség"
+
+msgid "bot/elite"
+msgstr "Elit"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "KÁROSODÁS FIGYELMEZTETÉS"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "MOTOR KÁROSODOTT"
+
+msgid "chat_example/affirmative"
+msgstr "Értettem!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Tüzelj <Enemy Name> ellenségre!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "<Enemy Name> támadása!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Foglald el a bázist!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Védd meg a bázist!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Figyelj a(z) <Szektor a térképen> szektorra!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Figyelem a területre!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Semmisítsd meg a célpontokat"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Óvd a tankjaid!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Foglald el a zónát"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Védd meg a célpontokat"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Óvd a tankjaid!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Védd meg a zónákat"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Erősítsd meg a zónát"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Erősítsd meg a zónát"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Erősítsd meg a zónát"
+
+msgid "chat_example/going_there"
+msgstr "Ide tartok!"
+
+msgid "chat_example/help_me"
+msgstr "Segítség!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Csapattárs neve> segíts!"
+
+msgid "chat_example/negative"
+msgstr "Negatív!"
+
+msgid "chat_example/overheated_gun"
+msgstr "A löveg túlhevült! <Reload Time> mp-ig nem tüzelhetsz"
+
+msgid "chat_example/positive"
+msgstr "Értettem!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Tüzelésre kész <Újratöltés ideje> mp múlva, lőszerek a tárban: <Lőszerek száma> db."
+
+msgid "chat_example/reloading_gun"
+msgstr "Újratöltés! <Újratöltés ideje> mp van hátra!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Tüzelésre kész!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Tüzelésre kész! Lőszerek a tárban: <Lőszerek száma> db."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Elfogyott a lőszer."
+
+msgid "chat_example/spg_aim_area"
+msgstr "<Sector on Minimap> becélozva!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, segítek neked!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, köszönöm!"
+
+msgid "chat_example/turn_back"
+msgstr "<Csapattárs neve> vonulj vissza!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Értettem!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Tűztámogatást kérek %(target)s célpontra!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Tüzelésre kész! Támadom: %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Elfogyott a lőszer! Tüzelj %(target)s ellenségre!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Támadom %(target)s! Újratöltés, még %(reloadTime)d mp!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Elfoglalom a bázist!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Foglalom a(z) %(strArg1)s bázist!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Támadom %(target)s célpontot!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Foglald el a bázist!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Foglald el a(z) %(strArg1)s bázist!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Védd meg a bázist!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Védd meg a(z) %(strArg1)s bázist!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Figyelem a(z) %(cellName)s szektorban!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Semmisítsd meg a(z) %(int32Arg1)s célpontot"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Támadom a(z) %(int32Arg1)s célpontot!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Védd meg a(z) %(int32Arg1)s célpontot"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Védem a(z) %(int32Arg1)s célpontot!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Figyelem erre a pozícióra!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Figyelem ide: %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Megvédem a bázist!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Védem a(z) %(strArg1)s bázist!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Semmisítsd meg a célpontokat!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Elég időnk van, óvd a tankjaid!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Fogytán az idő, vess be mindent, hogy elfoglalj egy zónát!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Védd meg a célpontokat!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Ki kell tartanunk, óvd a tankjaid!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Fogytán az idő, védd meg a zónákat minden áron!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "%(strArg1)s zónának erősítésre van szüksége!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "%(strArg1)s zónának erősítésre van szüksége!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "%(strArg1)s zónának erősítésre van szüksége!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Erre a pozícióra tartok!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Mozgás ide: %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Segítség!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, segíts!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "A célpont megközelítése: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Megközelítem a célpontot: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Negatív!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "A löveg túlhevült! %(floatArg1)d mp-ig nem tüzelhetsz"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, értettem!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Tüzelésre kész %(floatArg1)d mp múlva; lőszerek száma a tárban: %(int32Arg1)s db."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Újratöltés! %(floatArg1)d mp van hátra!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Tüzelésre kész!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Tüzelésre kész! Lőszerek a tárban: %(int32Arg1)s db."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Elfogyott a lőszer."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Pozíció célzása. Tüzelésre kész!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "%(gridId)s szektort figyelem! Elfogyott a lőszerem!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Célzás ide: %(gridId)s. Tüzelésre kész!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Pozíció célzása. Újratöltésig %(reloadTime)d mp!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Célzás ide: %(gridId)s. Újratöltésig még %(reloadTime)d mp!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, segítek neked!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, köszönöm!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, vonulj vissza!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Tovább a beállításokhoz"
+
+msgid "commanderCam/hint/description"
+msgstr "Zoomolj ki a taktikai nézethez"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Visszatöltési idő: %(cooldownSeconds)s mp"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Felhasználható hely"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "Km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "PCT"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "R.RO"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "R.RO"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "KUM."
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "A parancsnok megsebesült. Technikai karakterisztikák csökkentek."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Parancsnok"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "A vezető megsebesült. Csökkent a mozgás és a járműtest forgásának sebessége."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Vezető"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Lövész megsebesült. Csökkent a pontosság."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Lövegkezelő"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Kettes lövész megsebesült. Pontosság csökkent."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Kettes lövész"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Töltő megsebesült. Töltési idő megnövekedett."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Töltő"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Kettes töltő megsebesült. Töltési idő megnövekedett."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Kettes töltő"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Rádiós megsebesült. Rádió hatótáv csökkent."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Rádiós"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Kettes rádiós megsebesült. Rádió távolsága csökkent."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Kettes rádiós"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Lőszer rekesz megsérült. A töltési idő megnövekedett."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Lőszer rekesz megsemmisült."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Lőszer rekesz."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Felfüggesztés megsérült."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Mozgásképtelen: felfüggesztés megsemmisült."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Felfüggesztés megjavítva."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Motor megsérült. Ereje csökkent."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Mozgásképtelen: motor megsérült."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Motor üzemképes."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Üzemanyag tartály megsérült."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Üzemanyag tartály megsemmisült."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Üzemanyag tartály megjavítva."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Löveg megsérült. Pontosság csökkent."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Löveg megsemmisült. Nem lehet tüzelni."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Löveg megjavítva."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Rádió megsérült."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Rádió megsemmisült. Rádió hatótáv csökkent."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Rádió megjavítva."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Kémlelő megsérült."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "A kémlelő megsemmisült. A látótávolság lecsökkent."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Kémlelő sértetlen."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Felfüggesztés megsérült."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Mozgásképtelen: felfüggesztés megsemmisült."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Felfüggesztés megjavítva."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Torony megsérült. Forgatási sebesség csökkent."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Nem lehet forgatni a tornyot: torony megsérült."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Torony megjavítva."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Felfüggesztés megsérült."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Mozgásképtelen: felfüggesztés megsemmisült."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Felfüggesztés megjavítva."
+
+msgid "danger_zone/indicator"
+msgstr "A járműved megsemmisülhet – hagyd el a veszélyzónát!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Újra talpon..."
+
+msgid "devMaps/hint/description"
+msgstr "gombot a pálya jellemzőinek megtekintéséhez"
+
+msgid "devMaps/hint/press"
+msgstr "Nyomd meg a(z)"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Ezen a pályán véletlenszerű események fordulhatnak elő. Ezeket a pályákat kikapcsolhatod a játék beállításaiban."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Pálya véletlenszerű eseményekkel"
+
+msgid "devices/ammo_bay"
+msgstr "Lőszer rekesz"
+
+msgid "devices/chassis"
+msgstr "Felfüggesztés"
+
+msgid "devices/engine"
+msgstr "Motor"
+
+msgid "devices/fuel_tank"
+msgstr "Üzemanyag tank"
+
+msgid "devices/gun"
+msgstr "Löveg"
+
+msgid "devices/left_track"
+msgstr "Bal lánctalp"
+
+msgid "devices/radio"
+msgstr "Rádió"
+
+msgid "devices/right_track"
+msgstr "Jobb lánctalp"
+
+msgid "devices/surveing_device"
+msgstr "Kémlelő"
+
+msgid "devices/track"
+msgstr "%(type)s lánctalp"
+
+msgid "devices/track/left"
+msgstr "Bal"
+
+msgid "devices/track/main"
+msgstr "Tartalék"
+
+msgid "devices/track/outer"
+msgstr "Fő"
+
+msgid "devices/track/right"
+msgstr "Jobb"
+
+msgid "devices/turret_rotator"
+msgstr "Toronyforgatás"
+
+msgid "devices/wheel"
+msgstr "Kerék"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Kattints a játékos csapatba való meghívásához.\nA játékos a csata alatt vagy után is el tudja fogadni a meghívásodat.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nFigyelem! A valós neved és klán rövidítésed látható lesz a szakasz tagjai számára."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nFigyelem! A valós neved látható lesz a szakasz tagjai számára."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "A játékos meghívása szakaszba nem lehetséges."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Kattints a szakaszba való meghívás elfogadásához.\nA szakasz a csata alatt létre lesz hozva."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "Egy meghívó el lett küldve a játékosnak.\nHa elfogadja, akkor a csata alatt vagy után is csatlakozni tud a szakaszhoz."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Kattints a játékos csapatba való meghívásához.\nA játékos a csata alatt vagy után is el tudja fogadni a meghívásodat.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Nem lehetséges az ellenségnek a meghívása szakaszba."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Kattints a szakaszba való meghívás elfogadásához.\nA szakasz csak a csata vége után lesz létrehozva."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "Egy meghívó el lett küldve a játékosnak.\nHa elfogadja, akkor a csata vége után tud majd csatlakozni a szakaszodhoz."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Nyomd meg a(z)"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "a hang kommunikáció engedélyezéséhez"
+
+msgid "dynamicSquad/invite"
+msgstr "Meghívás szakaszba"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Légicsapás általi sebzés"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Tüzérségi csapás általi sebzés"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Fő célpont általi sebzés"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Sebzés felfogva"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Hozzájárulás harci tartalékkal"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Sebzés felderítéssel"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Kábításod utáni sebzés"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Lánctalp megsemmisült"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Berserker általi sebzés"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Szerep tapasztalat"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Ellenség felgyújtva"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Bázisfoglalási pontok"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Kritikus sebzés"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Kiosztott sebzés"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Csatahajó sortüzes sebzése"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "A USS Frankford sebzése"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Aknák általi sebzés"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Harctéri robot általi sebzés"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Savas lövedék általi sebzés"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Tűzgyűrű általi sebzés"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Elektromos kisülés általi sebzés"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Sérülés a zónában"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Bázisvédelmi pontok"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Zóna megvédve"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Okozott sebzés"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Célpont megsemmisült"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Célpont megvédve"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Zóna elfoglalva"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Tűzzóna okozta sebzés"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Jármű megjavítva"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Megsemmisített"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Aknamező sebzése"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Ütközés"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Tűz általi sebzés"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Harctéri robot általi sebzés"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Savas lövedék általi sebzés"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Tűzgyűrű általi sebzés"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Aknák általi sebzés"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Maró köd általi sebzés"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Elektromos kisülés általi sebzés"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Kritikus sebzés"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Lövés általi sebzés"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Tűzlabda általi sebzés"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Nekiütközés általi sebzés"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Összeütközés általi sebzés"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Tűzlabda általi sebzés"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Felderítve"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Sérülés a megsemmisülési zónában"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Kábítás"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Jármű elhagyva"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Becsapódás általi sebzés"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Hóvihar"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Tűz"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Köd"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Zivatar"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Homokvihar"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Füst"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornádó"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Csapat panelek elrejtése"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Nincs panel"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Nyomd meg a Ctrl + Tab gombokat a módok közötti váltáshoz)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Megjeleníti a játékosok neveit, megsemmisített célpontokat és jármű ikonokat"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Közepes panel 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Nyomd meg a Ctrl + Tab gombokat a módok közötti váltáshoz)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Megjeleníti a játékos által megsemmisített járműveket, a játékos nevét és a jármű ikonját."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Közepes panel 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Nyomd meg a Ctrl + Tab gombokat a módok közötti váltáshoz)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Megjeleníti a megsemmisített célpontokat és jármű ikonokat"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Kis panel"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Nyomd meg a Ctrl + Tab gombokat a módok közötti váltáshoz)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Váltás a saját vagy mindhárom kezdési csoport megtekintése között."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Váltás oszlopok között"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Nyomd meg a Ctrl + Tab gombokat a módok közötti váltáshoz)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Megsemmisítetted a zászlót!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Zászló elfoglalva!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Zászló leszállítva."
+
+msgid "flagNotification/flagInbase"
+msgstr "Szállítsd le a zászlót a főhadiszállásra."
+
+msgid "flags/timer"
+msgstr "%(time)s mp..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "mp..."
+
+msgid "grille/status/reload"
+msgstr "ÚJRATÖLTÉS..."
+
+msgid "grille/status/speedlimit"
+msgstr "SEBESSÉGHATÁR"
+
+msgid "helpScreen/hint/description"
+msgstr "jármű karakterisztikájának megtekintése"
+
+msgid "helpScreen/hint/press"
+msgstr "Nyomd meg"
+
+msgid "helpScreen/mapbox/description"
+msgstr "a pálya jellemzőinek megtekintéséhez"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Nyomd meg ezt:"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "az Ostrom / <font color='#F4B12C'><b>Bunker</b></font> mód aktiválásához"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "az Ostrom / <font color='#F4B12C'><b>Utazó</b></font> mód aktiválásához"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "az Utazó / <font color='#F4B12C'><b>Bunker</b></font> mód aktiválásához"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "A módváltó gomb nincs hozzárendelve"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Nyomd meg /<font color='#F4B12C'><b>Tartsd nyomva</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Az alapvető gombok nincsenek kiosztva"
+
+msgid "hitMarker/blocked"
+msgstr "Nem ütötte át a páncélt"
+
+msgid "hitMarker/critical"
+msgstr "Kritikus sebzés"
+
+msgid "hitMarker/missArmor"
+msgstr "Nem ért páncélzatot"
+
+msgid "hitMarker/ricochet"
+msgstr "Lepattanó"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Nem ütötte át az előtétpáncélzatot"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Nem ütötte át a lánctalpat"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Nem ütötte át a kereket"
+
+msgid "levelProgress/maxLevel"
+msgstr "MAXIMÁLIS JÁRMŰ SZINT"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "A lőszerrekesz felrobbanását meggátolta a(z) %(device)s felszerelés"
+
+msgid "optDeviceResurrection/engine"
+msgstr "A motor megsemmisülését meggátolta a(z) %(device)s felszerelés"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "A tűz fellobbanását meggátolta a(z) %(device)s felszerelés"
+
+msgid "penetration/high"
+msgstr "Magas"
+
+msgid "penetration/low"
+msgstr "Alacsony"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Másodlagos feltétel:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Elsődleges feltétel:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Ehhez a csata módhoz nincsenek aktív küldetések."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Ehhez a járműtípushoz nincsenek aktív küldetések."
+
+msgid "personal_reserves/hint/description"
+msgstr "a személyes tartalékok aktiválásához"
+
+msgid "personal_reserves/hint/press"
+msgstr "Nyomd meg a(z)"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "A tank mozgásképtelen: felfüggesztés megsérült."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "A tank mozgásképtelen: a legénység használhatatlan."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "A tank mozgásképtelen: a motor megsérült."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Mozgásképtelen: jármű megsemmisítve."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Nem lehet tüzelni: a legénység harcképtelen."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Nem lehet tüzelni: a löveg sérült."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Nem lehet tüzelni."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Nem lehet tüzelni: a löveg túlhevült."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "A löveg töltése folyamatban."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "A töltés befejezése."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Nem tüzelhetsz: nincs lőszered."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Nem lehet tüzelni: a tank megsemmisült."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Váltás nem érhető el: a motor megsemmisült."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Nem lehet átváltani: a löveg megsemmisült"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Nem lehet átváltani: csak egy lőszer maradt"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "A(z) [%(name)s] már aktív."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "[%(name)s] nem használható: nincs tűz"
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] nem elérhető az újratöltés ideje alatt."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Orvosi ellátás nem szükséges: legénység nem sérült"
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] nincs szükség elsősegélyre."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Tartalék még nincs kész."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Foglald el a(z) %(name)s-t a taktikai képesség aktiválásához."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "A modulok és a parancsnok életereje teljes. Nincs szükség javításra vagy ápolásra."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Javítás nem szükséges: nincs sérült modul"
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] tökéletesen működik nincs szüksége javításra."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Nem lehet aktiválni a koaxiális fegyvert."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Eltaláltál egy csapattársat %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] készen áll a használatra."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Tüzérségi üteg telepítve, tüzelésre kész."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "A repülők készen állnak a bombázásra."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "A legénységünk kész ösztönözni a körülötte lévőket."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Az aknamező készen áll a telepítésre."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Repülőgép megérkezett és készen áll a felderítésre."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "A harctéri javítás készen áll a használatra."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Füstgránát üteg telepítve és tüzelésre kész."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "A Sentinel készen áll a használatra."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "%(player)s tüzérségi ütege tüzel."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "%(player)s bombázói úton vannak."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s visszaállítási zónát hoz létre."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s aktiválja az ösztönzést."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s aknamezőt telepített."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s felderítő repülője úton van."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s harctéri javítást használt."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s füstfüggönyt használ."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s aktiválta a Sentinelt."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s megsemmisült a tüzérségi csapás során."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s megsemmisült a tüzérségi csapás során."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s megsemmisült a tüzérségi csapás során."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s megsemmisült a tüzérségi csapás során."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s megsemmisült a tüzérségi csapás során."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s megsemmisült a tüzérségi csapás során."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "A jármű tüzérségi tűzben semmisült meg."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s megsemmisült a tüzérségi csapás során."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s megsemmisült a tüzérségi csapás során."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s megsemmisült egy légitámadás során."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s megsemmisült egy légitámadás során."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "%(attacker)s megsemmisítette %(target)s csapattársát."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s megsemmisítette %(target)s -t."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "%(attacker)s csapattárs megsemmisítette a tankot."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "%(target)s csapattársat megsemmisítette a zóna."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s megsemmisítette %(target)s -t."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "%(attacker)s ellenség megsemmisítette %(target)s ellenséget."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "%(attacker)s megsemmisítette a tankot."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s megsemmisítette a zóna."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "%(target)s szövetséges célpont megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Jármű megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "[%(device)s] megsemmisült a tűzben"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "A(z) [%(device)s] megsemmisült %(entity)s lövésétől."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "%(attacker)s csapattárs vízbe fojtotta %(target)s csapattársat."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s vízbe fojtotta %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "%(attacker)s csapattárs vízbe fojtotta a tankot."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "%(target)s csapattárs megfulladt."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s vízbe fojtotta %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "%(attacker)s ellenség vízbe fojtotta %(target)s ellenséget."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "%(attacker)s ellenség vízbe fojtotta a tankot."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "%(target)s ellenség megfulladt."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "%(target)s csapattárs megfulladt."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s megfulladt."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Jármű elsüllyedt"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "%(attacker)s megsemmisítette %(target)s csapattársát."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s megsemmisítette %(target)s -t."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "%(attacker)s csapattárs megsemmisítette a tankot."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s megsemmisítette %(target)s -t."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "%(attacker)s ellenség megsemmisítette %(target)s ellenséget."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "%(attacker)s megsemmisítette a tankot."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "%(target)s szövetséges célpont megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "A legénység harcképtelen."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "A legénység megsebesült %(entity)s lövésétől."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "%(attacker)s csapattárs megsemmisítette %(target)s csapattárs legénységét."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s megsemmisítette %(target)s legénységét."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "%(attacker)s csapattárs megsemmisítette a legénységet."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "%(target)s csapattárs megsemmisítette a legénységét."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s megsemmisítette %(target)s legénységét."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "%(attacker)s ellenség megsemmisítette %(target)s ellenség legénységét."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "%(attacker)s megsemmisítette a legénységet."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "%(target)s ellenség megsemmisítette a legénységét."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "%(target)s csapattárs legénysége megsemmisült."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s legénysége megsemmisült."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Legénység megsemmisült."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "%(target)s csapattárs megsemmisült az aknamezőn."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(target)s megsemmisült %(attacker)s aknái által."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(target)s megsemmisült %(attacker)s aknái által."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s megsemmisült aknák által."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "%(attacker)s szövetséges felborította %(target)s szövetségest"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s felborította %(target)s-t"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Járművet felborította %(attacker)s csapattárs"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "%(target)s szövetséges járműve felborult"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s felborította %(target)s-t"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "%(attacker)s ellenség felborította %(target)s ellenséget"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Járművet felborította és megsemmisítette %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "%(target)s ellenség járműve felborult"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "%(target)s szövetséges felborult"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s felborult"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Jármű felborult és megsemmisült"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "%(attacker)s csapattárs megsemmisítette %(target)s csapattársat."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s megsemmisítette %(target)s -t."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "%(attacker)s csapattárs megsemmisítette a tankot."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "%(target)s csapattárs összeroncsolódott."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s megsemmisítette %(target)s -t."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "%(attacker)s ellenség megsemmisítette %(target)s ellenséget."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(attacker)s megsemmisítette a tankot."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "%(target)s összeroncsolódott."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "%(target)s szövetséges célpont megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Jármű megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s elhagyták a járművüket."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s elhagyták a járművüket."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "A jármű zóna bombázása során semmisült meg."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s megsemmisült a területre mért csapás során."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s megsemmisült a területre mért csapás során."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "A jármű tüzérségi tűzben semmisült meg."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s megsemmisült a tüzérségi csapás során."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s megsemmisült a tüzérségi csapás során."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "%(attacker)s csapattárs megsemmisítette %(target)s -t."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "%(attacker)s csapattárs megsemmisítette %(target)s -t tüzérségi csapással."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "%(attacker)s csapattárs megsemmisítette %(target)s -t bombázással."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s megsemmisítette %(target)s -t."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(target)s megsemmisült %(attacker)s tüzérségi csapása által."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(target)s megsemmisült %(attacker)s légicsapása által."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s megsemmisítette %(target)s-t (Tűzfedezet)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s megsemmisítette %(target)s-t (Tüzérségi csapás)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "%(target)s csapattárs feladta a harcot."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "%(target)s szövetséges megsemmisült a tüzérségi csapásban."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "%(target)s szövetséges megsemmisült a bombázásban."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s megsemmisítette %(target)s -t."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(target)s megsemmisült %(attacker)s tüzérségi csapása által."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(target)s megsemmisült %(attacker)s légicsapása által."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s megsemmisítette %(target)s-t (Tűzfedezet)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s megsemmisítette %(target)s-t (Tüzérségi csapás)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "%(attacker)s ellenség megsemmisítette %(target)s ellenséget."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s ellenség megsemmisítette %(target)s ellenséget tüzérségi csapással."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "%(attacker)s ellenség megsemmisítette %(target)s ellenséget bombázással."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "%(target)s ellenség feladta a harcot."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "%(target)s ellenség megsemmisült a tüzérségi csapásban."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "%(target)s ellenség megsemmisült a bombázásban."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "%(target)s szövetséges célpont megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "%(target)s csapattárs megsemmisült a tüzérségi tűz következtében."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "%(target)s csapattárs megsemmisült, bombázás következtében."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s megsemmisítve."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s megsemmisítette a tüzérség."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s megsemmisült légicsapás által."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s megsemmisítve"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s megsemmisítve"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Ellenség (Ismeretlen) megsemmisítette: %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "%(target)s csapattársat megsemmisítette a megsemmisülési zóna."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "%(attacker)s csapattárs lezúzta %(target)s csapattársat."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s lezúzta %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "%(attacker)s csapattárs összeroncsolta a tankot."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "%(target)s csapattárs összeroncsolódott."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s lezúzta %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "%(attacker)s ellenség lezúzta %(target)s ellenséget."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "%(attacker)s összeroncsolta a tankot."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "%(target)s összeroncsolódott."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "%(target)s csapattárs összeroncsolódott."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s összeroncsolódott."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Jármű összetört."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s megsemmisített célpont %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s megsemmisített célpont %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Megsemmisítetted %(target)s célpontot."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "[%(device)s] megsérült a tűzben."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "[%(device)s] megsérült %(entity)s lövésétől."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "[%(device)s] megsemmisült a tűzben."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "%(entity)s lövése megsemmisítette a(z) [%(device)s]."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "[%(device)s] megjavítva."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "[%(device)s] működőképes."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "%(entity)s lövése kigyújtotta a(z) [%(device)s]."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Gyorsítás következtében a(z) [%(device)s] eszköz megsemmisült."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "[%(device)s] megsérült a sebesség korlátozó eltávolítása miatt."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Gyorsítás következtében a(z) [%(device)s] eszköz megsemmisült."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "[%(device)s] megsemmisült a sebesség korlátozó eltávolítása miatt."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Tűz eloltva."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "%(entity)s lövése kiütötte a(z) [%(device)s] -t."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] újra működik."
+
+msgid "player_messages/allied_team_name"
+msgstr "Csapattársak"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Bázisunk%s foglalása (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "A bázisunkat%s elfoglalták!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Bázis foglalás blokkolva"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Bázis%s foglalása (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Bázis%s elfoglalva!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Ellenséges bázis%s foglalása (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Ellenséges bázis%s elfoglalva!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Ellenség"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "%(name)s szövetségesed használta a(z) %(equipment)s taktikai képességet"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Az ellenség használta a(z) %(equipment)s taktikai képességet"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Játékos %(name)s (%(type)s); Életerő: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Játékos: %(name)s; Életerő: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "A (%(type)s) járműved megsemmisült"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Nem tüzelhetsz: nincs lőszered."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Visszajátszási gombok:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "Bal egérgomb: váltja a kamera módokat\nSzóköz: szünet"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Bal nyíl, hátratekerés 20 mp-el (Ctrl-al: 40 mp)\nJobb nyíl: előretekerés 20 mp-el (Ctrl-al: 40 mp)\nHome / End: ugrás az elejére / végére\nFelfelé nyíl / Lefelé nyíl: +/- videó sebessége"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Szabad kamera aktiválva"
+
+msgid "player_messages/replayPaused"
+msgstr "Szünet"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Rögzített kamera aktiválva"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Visszajátszási sebesség: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Tank kigyulladt!"
+
+msgid "players_panel/state/large/body"
+msgstr "Jelezze a játékosok neveit, kilőtt célpontokat és a tankok neveit, ikonjait"
+
+msgid "players_panel/state/large/header"
+msgstr "Teljes panel"
+
+msgid "players_panel/state/large/note"
+msgstr "(Nyomj Ctrl + Tab kombinációt a módváltásokhoz)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Jelezze a játékosok neveit, kilőtt célpontokat és a tankok neveit, ikonjait"
+
+msgid "players_panel/state/medium/header"
+msgstr "Átlag panel"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Nyomj Ctrl + Tab kombinációt a módváltásokhoz)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Megjeleníti a játékos által megsemmisített járművet, a játékos nevét és járművének ikonját."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Közepes panel 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Nyomj Ctrl + Tab kombinációt a módváltásokhoz)"
+
+msgid "players_panel/state/none/body"
+msgstr "Csapat panel elrejtése"
+
+msgid "players_panel/state/none/header"
+msgstr "Nincs panel"
+
+msgid "players_panel/state/none/note"
+msgstr "(Nyomj Ctrl + Tab kombinációt a módváltásokhoz)"
+
+msgid "players_panel/state/short/body"
+msgstr "Jelezze a kilőtt tankokat és azok ikonjait"
+
+msgid "players_panel/state/short/header"
+msgstr "Rövid panel"
+
+msgid "players_panel/state/short/note"
+msgstr "(Nyomj Ctrl + Tab kombinációt a módváltásokhoz)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Ellenség"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "…"
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Vissza a garázsba."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Lépj be a csatába egy másik járművel!"
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPACE"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Szabad kameranézet"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Aktiváld a szabad kameranézetet!"
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "A szabad kameranézet nem elérhető"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Ebben a módban nem lehet aktiválni a szabad kameranézetet."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Megfigyelő mód"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Szövetséges járművek közötti váltás."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Jármű követése"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Vidd az egérkurzort az egyik szövetséges járműre, és kattints a bal gombbal a követéséhez!"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "A jármű megsemmisült a fő célpont által"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "A jármű tüzérségi tűzben semmisült meg."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "A jármű megsemmisült a fő célpont által"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Jármű megsemmisítve légicsapás által"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "A jármű megsemmisítve banditák által."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Jármű megsemmisítve harctéri robot által."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Jármű megsemmisítve savas lövedék által."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Járművet csapattárs semmisítette meg a tiltott zónában"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Jármű tiltott zónában semmisült meg"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Nem sikerült elhagynod a veszélyzónát"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "[%(device)s] megsemmisült a tűzben"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "[%(device)s] felrobbant egy találattól"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Járművet csapattárs süllyesztette el"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Jármű elsüllyedt"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Jármű elsüllyedt"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "A járművet egy játékos gyújtotta ki"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Jármű megsemmisítve tűzgyűrű által."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "A legénység megsérült egy lövéstől"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "A legénység megsérült egy erős ütközéstől egy szövetségessel"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "A legénység megsérült egy erős becsapódástól"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "A legénység megsérült egy erős becsapódástól"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Jármű megsemmisítve tűzlabda által."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "A jármű megsemmisült az aknamezőn"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Jármű megsemmisítve aknák által"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Járművet csapattárs borította fel"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Járművet ellenség borította fel"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Jármű felborulás miatt semmisült meg"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Jármű csapattárssal való ütközés miatt semmisült meg"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Jármű ütközés miatt semmisült meg"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Jármű ütközés miatt semmisült meg"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "A járműved megsemmisült"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "A jármű zóna bombázása során semmisült meg."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "A jármű tüzérségi tűzben semmisült meg."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Jármű játékos lövésétől semmisült meg"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Jármű megsemmisítve légicsapás által."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Jármű megsemmisítve légicsapás által."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Jármű tüzérségi tűzben semmisült meg"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Jármű megsemmisítve légicsapás által"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "A jármű megsemmisült a megsemmisülési zóna által"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Jármű megsemmisítve elektromos kisülés által."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "A járművet csapattárs törte össze"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "A járművet ellenség törte össze"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "A jármű összetört"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "A járműved megsemmisült"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "A kiválasztott konfiguráció lesz használva a csatában:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Válaszd ki a csatában használandó konfigurációt a visszaszámlálás vége előtt."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Válassz egy konfigurációt"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Konfiguráció kiválasztása: {seconds} mp"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Konfiguráció kiválasztása:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Szakadék"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Megfigyelés"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Erdő"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Ösvény"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Utca"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Romok"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Híd"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Vasút"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Város"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Falu"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Tér"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Gyár"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Magaslat"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Világítótorony"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Központ"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Kastély"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Szélmalom"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Hegyek"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "A útvonal"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "B útvonal"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "C útvonal"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "D útvonal"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "E útvonal"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Völgy"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Gleccser"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Kerülőút"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Magaslatok"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Út"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Hegy"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunker"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Sugárút"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Fal"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Sziklák"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Műhelyek"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Nyílt terület"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garázs"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Szén"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Hajók"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Repülőgép-hordozó"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Lövészárkok"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Szerpentin"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Észak"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Dél"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Nyugat"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Kelet"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Gerinc"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Zeppelin"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Raktárak"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Part"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Folyó"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Tó"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Mocsár"
+
+msgid "quickReply/hint/press"
+msgstr "Nyomd meg a(z)"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "gombot a megerősítéshez"
+
+msgid "quickReply/hint/toCommend"
+msgstr "az elismerés viszonzásához"
+
+msgid "quickReply/hint/toHelp"
+msgstr "gombot a támogatáshoz"
+
+msgid "quickReply/hint/toThank"
+msgstr "hogy megköszönd"
+
+msgid "recovery/cooldown"
+msgstr "A jármű elhagyható %(cooldown)s másodpercen belül"
+
+msgid "recovery/hint1"
+msgstr "Tartsd"
+
+msgid "recovery/hint2"
+msgstr "a jármű elhagyásához"
+
+msgid "repairPoint/title"
+msgstr "Javítások"
+
+msgid "repairPoint/unavailable"
+msgstr "Nem elérhető"
+
+msgid "respawnView/additionalTip"
+msgstr "Válassz ki egy járművet a folytatáshoz. Ha minden járműved javítás alatt áll, folytathatod a csatát az első elérhető járműben."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Válassz egy járművet a folytatáshoz. A megsemmisített járművet nem javíthatod meg a csata végeztéig."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Front limit\nelérve"
+
+msgid "respawnView/cooldownLbl"
+msgstr "Javítás alatt: %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Megsemmisült"
+
+msgid "respawnView/disabledLbl"
+msgstr "Jármű nem elérhető"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Nincs kiválasztva megfelelő jármű"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "X-es szintű jármű nincs a csoportban."
+
+msgid "respawnView/nextVehicleName"
+msgstr "A csata folytatódik "
+
+msgid "respawnView/title"
+msgstr "Jármű választás"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "IGEN, URAM!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Köszönjük közreműködésed a World of Tanks fejlődésében! Nagyra értékeljük a személyes hozzájárulásod!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Elismerő levél"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Jutalmat kaptál!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Gratulálunk!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Értettem!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Megkaptad a jutalmakat"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Gratulálunk"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Megkaptad a jutalmakat"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "India gondoskodás csomag"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Juliett gondoskodás csomag"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "A dobozokhoz"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Nagy dobozokat kaptál értékes jutalmakkal."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Dobozokat kaptál!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "A küldetések teljesítéséért kis dobozokat kaptál, értékes jutalmakkal."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Ideje kideríteni, mi van a dobozban!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Értettem!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "A kredit felhalmozása felfüggesztve. Hosszabbítsd meg a WoT Prémium fiók előfizetésed, hogy folytasd a kredit tartalék feltöltését."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Kredit megszerezve"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Kredit tartalék nyitva"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Gratulálunk!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "IGEN, URAM!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel bölcsen a csatatéren."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Delta gondoskodás csomag"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Jutalmat kaptál!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "TOBORZÁS"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Gratulálunk! Egy különleges újoncot kaptál Prime Gaminged mellé."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Alpha gondoskodás csomag"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Jutalmat kaptál!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "IGEN, URAM!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Battle Pass gondoskodás csomag"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "IGEN, URAM!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Kozmikus gondoskodás csomag"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "IGEN, URAM!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Csillagos éj gondoskodás csomag"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Több"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Júniusi gondoskodás csomag"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Júliusi gondoskodás csomag"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Több"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Tizes gondoskodás csomag"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Starlight csomag"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Queen Maeve csomag"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Fagyöngy gyűjtemény"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Több"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "A nagy fogás gyűjtemény"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "IGEN, URAM!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Charlie gondoskodás csomag"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Jutalmat kaptál!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "\"G.I. JOE: Duke\" csomag"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "\"G.I. JOE: Cobra\" csomag"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Több"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Rockra fel! csomag"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "A csendes vadász csomag"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Több"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Friss megjelenés csomag"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Több"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Nyári hangulat csomag"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Nagyfeszültségű csomag"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Több"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Nyomd félelmetesen csomag"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "A köztünk élő Vikingek"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Több"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Friss Kezdet csomag"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Echo ellátmánycsomag"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Több"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Szintetikus hullámok"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Gratulálunk! Egy különleges dropot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Gratulálunk! Egy különleges ellátmánycsomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Pisztolyhős"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Egyedi jutalmat kaptál a következő előfizetésért: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-Camo"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Harcra kész"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Hajrá Harrierek!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Tőr"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Egyedi jutalmat kaptál a következő előfizetésért: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Boszorkányság"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "A boszorkányok órája"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Rossz környékre tévedtél"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "El az utamból!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Egyedi jutalmat kaptál a következő előfizetésért: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Kezdő sípszó"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Győztes gól"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Örök klasszikus"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Egyedi jutalmat kaptál a programban: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Ünnepi öltözet"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Elbűvölő ajándék"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Súlyos ajándék"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Dupla ünnep"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Válassz jutalmakat"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Egyedi jutalmat kaptál a következő előfizetésért: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Egy bátor új világ"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "A megfigyelő szeme"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "A kiborg anatómiája"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Felderítettek"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Foxtrot gondoskodás csomag"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Golf gondoskodás csomag"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Hotel gondoskodás csomag"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Kilo gondoskodás csomag"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Lima gondoskodás csomag"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Toborzás"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Gratulálunk! Egy különleges ellátmány csomagot kaptál Prime Gaminged mellé. Használd fel okosan!"
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Mike gondoskodás csomag"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Jutalmak megszerezve"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Értettem!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "A klánod tagjai a további részvételedtől függnek\na Kötelesség útján való előrehaladásban."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Jutalom megszerezve!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "A Kötelesség útjához"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Kötelesség útja"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Értettem!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "A klánod tagjai a további részvételedtől függnek\na Kötelesség útján való előrehaladásban."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Jutalom megszerezve!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "A Kötelesség útjához"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Kötelesség útja"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Gratulálunk!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "A mi szakaszunk"
+
+msgid "scorePanel/playerScore"
+msgstr "Hozzájárulásod:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Szakasz %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm Páncéltörő %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm Keményfém-magvas páncéltörő %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm Páncéltörő robbanó %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm Repesz-romboló %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm Kumulatív %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Átlag sebzés: %(value)s HP"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Másodpercenkénti sebzés: %(value)s HP"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Sebzési sugár: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Teljes / egyszeri töltés"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Átlag átütés: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Lövedék sebessége: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Kábítás időtartama: %(minValue)s–%(maxValue)s mp"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "ostrom módba való váltáshoz"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "utazó módba való váltáshoz"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Az alapvető gombok nincsenek kiosztva"
+
+msgid "siegeMode/hint/press"
+msgstr "Nyomd meg"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "a folyékony üzemanyagú hajtóművek aktiválásához"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "a sugárhajtóművek aktiválásához"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "a szekvenciális rakétahajtómű aktiválásához"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Találj el egy ellenséges járművet, hogy a Lézeres célmegjelölő további hatását is érvényesítsd"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "motor mód váltáshoz"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "a tüzelési mód megváltoztatásához"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "a mozgási mód váltása"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "a Turbótöltő-rásegítés aktiválásához"
+
+msgid "spotted/indicator"
+msgstr "A felderítettségi idő és a kapott sebzés megnövekedett"
+
+msgid "spotted/seconds"
+msgstr "mp"
+
+msgid "statistics/exit"
+msgstr "Nyomj Esc-et ahhoz, hogy visszatérj a garázsba..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Kilőve: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Bázis elfoglalva: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Megsérült:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Találatok száma: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Kapott találatok: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Bázis védelme: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Kilőve:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(posztumusz)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Lövés: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Felderítve:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Összes tankunk megsemmisítve."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Összes tank megsemmisítve!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Összes ellenséges tank megsemmisítve"
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Bázis elfoglalva!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Lejárt az idő!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Kredit:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Tapasztalat:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Tapasztalat (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Javítás:"
+
+msgid "statistics/final/status/lose"
+msgstr "Vereség! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Döntetlen! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Győzelem! %s"
+
+msgid "statistics/header"
+msgstr "Harci statisztika"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Játékos"
+
+msgid "statistics/headers/header2"
+msgstr "Járművek"
+
+msgid "statistics/headers/header3"
+msgstr "Állapot"
+
+msgid "statistics/headers/header4"
+msgstr "Megsemmisítve"
+
+msgid "statistics/playerState/0"
+msgstr "Kilőve"
+
+msgid "statistics/playerState/1"
+msgstr "Kilépett"
+
+msgid "statistics/playerState/2"
+msgstr "Kilőve"
+
+msgid "statistics/playerState/3"
+msgstr "Csatában"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Összeállítás"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Csapat összeállítás"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Személyes tartalékok"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Személyes tartalékok aktiválása"
+
+msgid "statistics/tab/quests/header"
+msgstr "Küldetések"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Személyes küldetések nem elérhetőek ebben a csata módban"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "A küldetés kiválasztásához lépj a Kampány fülre a garázsban"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Nincs aktív küldetésed ehhez a járműhöz"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Elsődleges feltétel teljesítve"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Az összes küldetést teljesítetted"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Aktív"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Eredmény javítása"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Szüneteltetve"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "A küldetések állása nem elérhető"
+
+msgid "statistics/tabs/group"
+msgstr "Csapat eredmények"
+
+msgid "statistics/tabs/heroes"
+msgstr "Háború hősei"
+
+msgid "statistics/tabs/personal"
+msgstr "Személyes eredmények"
+
+msgid "statistics/team1title"
+msgstr "Csapattársak"
+
+msgid "statistics/team2title"
+msgstr "Ellenség"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Hagyd el a\nmegsemmisülési zónát!"
+
+msgid "stun/indicator"
+msgstr "Legénység elkábítva"
+
+msgid "stun/seconds"
+msgstr "mp"
+
+msgid "tabStatsHint"
+msgstr "— Statisztikák"
+
+msgid "tankmen/commander"
+msgstr "Parancsnok"
+
+msgid "tankmen/driver"
+msgstr "Vezető"
+
+msgid "tankmen/gunner"
+msgstr "Lövész"
+
+msgid "tankmen/loader"
+msgstr "Töltő"
+
+msgid "tankmen/radioman"
+msgstr "Rádiós"
+
+msgid "timer/battlePeriod"
+msgstr "Csata véget ér:"
+
+msgid "timer/started"
+msgstr "Harc kezdődik!"
+
+msgid "timer/starting"
+msgstr "Csata kezdete:"
+
+msgid "timer/waiting"
+msgstr "Várakozás játékosokra..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Nyomd meg"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "célzó módra váltáshoz"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Az alapvető gombok nincsenek kiosztva"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "%(entity)s csapattárs megsemmisítette a tankot a halálzónában."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "%(entity)s ellenség megsemmisítette a tankot a halálzónában."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "A jármű megsemmisült a veszélyzóna által."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "A legénység megfulladt %(entity)s csapattárs miatt."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "A legénység megfulladt %(entity)s ellenség miatt."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Jármű elsüllyedt"
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Jármű tűzben semmisült meg"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "A járművet megsemmisítette %(entity)s csapattárs."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "A járművet megsemmisítette %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "A legénység harcképtelen %(entity)s csapattárs lövése miatt."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "A legénység harcképtelen %(entity)s ellenség lövése miatt."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "A legénység megsérült egy erős becsapódástól"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Járművet felborította %(entity)s csapattárs"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Járművet felborította %(entity)s ellenség"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Jármű felborulás miatt semmisült meg"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "%(entity)s csapattárs megsemmisítette a tankot az ütközéssel."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s ellenség megsemmisítette a tankot az ütközéssel."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Jármű ütközés miatt semmisült meg"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "A tank megsemmisült %(entity)s lövésétől."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s megsemmisítette a járművet tüzérséggel."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s megsemmisítette a járművet bombázással."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "%(entity)s csapattárs összeroncsolta a tankot."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "%(entity)s ellenség összeroncsolta a tankot."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Jármű összetört"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "[%(device)s] megsérült %(entity)s csapattárssal való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "[%(device)s] megsérült %(entity)s csapattárssal való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] megsérült az ütközéstől."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "[%(device)s] megsérült %(entity)s ellenséggel való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "[%(device)s] megsérült %(entity)s ellenséggel való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] megsérült az ütközéstől."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] megsérült %(entity)s csapattárs lövésétől."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] megsérült %(entity)s csapattárs lövésétől."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] eszköz becsapódás miatt megsérült. "
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] megsérült %(entity)s ellenség lövésétől."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] megsérült %(entity)s ellenség lövésétől."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] eszköz becsapódás miatt megsérült. "
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "[%(device)s] eszköz megsemmisült az aknamezőn."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "[%(device)s] eszköz megsemmisült az aknamezőn."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "[%(device)s] megsemmisült %(entity)s csapattárssal való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "[%(device)s] megsemmisült %(entity)s csapattárssal való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] megsemmisült az ütközéstől."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "[%(device)s] megsemmisült %(entity)s ellenséggel való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "[%(device)s] megsemmisült %(entity)s ellenséggel való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] megsemmisült az ütközéstől."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "%(entity)s csapattárs lövése miatt megsemmisült a(z) [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "%(entity)s csapattárs lövése miatt megsemmisült a(z) [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] megsemmisült a lövéstől."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(entity)s ellenség lövése miatt megsemmisült a(z) [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "%(entity)s ellenség lövése miatt megsemmisült a(z) [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] megsemmisült a lövéstől."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "[%(device)s] kigyulladt %(entity)s csapattárssal való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "[%(device)s] kigyulladt %(entity)s csapattárssal való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] kigyulladt az ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "[%(device)s] kigyulladt %(entity)s ellenséggel való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "[%(device)s] kigyulladt %(entity)s ellenséggel való ütközés miatt."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] kigyulladt az ütközés miatt."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] megsérült %(entity)s csapattárs lövésétől."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] megsérült %(entity)s csapattárs lövésétől."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] megsérült a lövéstől."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] megsérült %(entity)s ellenség lövésétől."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] megsérült %(entity)s ellenség lövésétől."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] megsérült a lövéstől."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "A(z) %(equipment)s taktikai képesség aktiválva!"
+
+msgid "warning_zone/indicator"
+msgstr "Vigyázz! Közel vagy a veszélyzónához."

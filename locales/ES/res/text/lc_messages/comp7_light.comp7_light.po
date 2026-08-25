@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Cambiar de servidor"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detalles"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "El modo no está disponible en este servidor %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Este modo no está disponible en ningún servidor"
+
+msgid "alertMessage/modeOffline"
+msgstr "Error de la base de datos. Modo de juego no disponible."
+
+msgid "alertMessage/noVehicles"
+msgstr "No tienes vehículos aptos en el garaje %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "¡Afirmativo!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "ASEDIO LIGERO"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "¡ETAPA FINAL COMPLETADA!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "¡ETAPA %(level)s COMPLETADA!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "¡Has completado todas las misiones!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Completado"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Expira en: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Misión de Asedio ligero"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nueva misión de Asedio ligero en: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Recompensa:"
+msgstr[1] "Recompensas:"
+msgstr[2] "Recompensas:"
+
+msgid "battleResult/header/deserter"
+msgstr "Has recibido una sanción"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "PROGRESIÓN DE ASEDIO LIGERO"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s-%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Queda %(days)d día de Asedio ligero"
+msgstr[1] "Quedan %(days)d días de Asedio ligero"
+msgstr[2] "Quedan %(days)d días de Asedio ligero"
+
+msgid "calendarDay/title"
+msgstr "Programa"
+
+msgid "closeButtonLabel"
+msgstr "CERRAR"
+
+msgid "countDown/text"
+msgstr "El evento empieza en:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Un modo dinámico con batallas de 7 contra 7 a bordo de vehículos de nivel %(levels)s. Disfruta del estilo de juego del modo Asedio original sin clasificatoria, rangos ni consecuencias para la hoja de servicio y obtén recompensas en misiones diarias."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODO"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s- modo de juego. Haz clic para ver."
+
+msgid "entryPointTooltip/modeName"
+msgstr "Asedio ligero"
+
+msgid "entryPointTooltip/status/active"
+msgstr "El modo estará disponible durante %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Cese de hostilidades:%(timer)s"
+
+msgid "featureName"
+msgstr "Asedio ligero"
+
+msgid "featureNameCapitalized"
+msgstr "ASEDIO LIGERO"
+
+msgid "intro/confirmButton"
+msgstr "¡Afirmativo!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Disfruta del estilo de juego del modo «Asedio» original sin clasificatoria, rangos ni consecuencias para la hoja de servicio."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "El modo tiene modificadores que cambian ciertos parámetros del vehículo, como sus puntos de vida, el tiempo de enfriamiento de los consumibles o el tiempo de visibilidad, entre otros."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Una vez que hayas capturado ciertas zonas del mapa, podrás usar habilidades tácticas. Hay dos tipos de puntos de interés: el Cuartel de la artillería te permite dirigir ataques de artillería a ciertas posiciones y el Centro de comunicaciones detecta a todos los vehículos enemigos. La presencia y la ubicación de los puntos de interés puede cambiar en función del mapa."
+
+msgid "intro/description/roleSkills"
+msgstr "Según su rol, cada vehículo tiene una habilidad especial con tres niveles de carga. Cuanto más alto sea el nivel de carga cuando se activa la habilidad, más fuerte será el efecto. El nivel de carga dependerá del número de puntos de prestigio que se pueden ganar por rendir bien en batalla, capturar puntos de interés, usar habilidades tácticas, etc.\n\nComprueba el reglamento del modo para saber más sobre las distintas maneras de ganar puntos de prestigio."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "En este modo solo se pueden usar vehículos de nivel %(levels)s (las AAP y algunos otros carros no están disponibles). Prepara tus vehículos en el garaje y elige el más adecuado en función de las características del mapa seleccionado una vez que entres en batalla. Cuando elijas un vehículo, ten también en cuenta cuáles han elegido tus aliados."
+
+msgid "intro/title/lightGameplay"
+msgstr "CALMA, COMANDANTE"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFICADORES DE ASEDIO"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "PUNTOS DE INTERÉS"
+
+msgid "intro/title/roleSkills"
+msgstr "HABILIDADES DE ROL"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ELIGE UN VEHÍCULO PARA UN DETERMINADO MAPA"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Victoria"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Derrota/Empate"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Buen trabajo, comandante. ¡Sigue así!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Completa misiones y alcanza los mejores puestos en batallas de Asedio ligero para aumentar tu nivel de progresión."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "La cantidad de puntos de progresión obtenidos depende de tu puesto en batalla por puntos de prestigio."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "El modo termina en %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Progresión principal completada"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Asedio ligero"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Los 2 mejores por puntos de prestigio"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Los 5 mejores por puntos de prestigio"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Los 7 mejores por puntos de prestigio"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Usa cuenta premium de WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Activa reservas personales"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Completa misiones"
+
+msgid "noVehicles/howTo/title"
+msgstr "¿Cuál es la forma más rápida de obtener vehículos de nivel %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Para participar en Asedio ligero, tu garaje debe tener al menos un vehículo de nivel %(levels)s apto para el modo.\nPuedes comprar vehículos premium de nivel %(levels)s en el árbol tecnológico o en la tienda del juego."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Para participar en Asedio ligero, tu garaje tener al menos un vehículo de nivel %(levels)s apto para el modo.\nTienes un vehículo de nivel %(levels)s que puedes recuperar."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Para participar en Asedio ligero, tu garaje debe tener al menos un vehículo de nivel %(levels)s apto para el modo."
+
+msgid "noVehicles/title"
+msgstr "No tienes vehículos aptos en el garaje"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Consulta la página «Sobre Asedio ligero» para obtener más detalles."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Puntos de prestigio"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Causar daño\nCausar daño por detección\nDestruir orugas\nAsestar impactos críticos\nDestruir vehículos enemigos\nY mucho más"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Consigue puntos de prestigio completando acciones de combate:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "La temporada ha terminado en el servidor %(server)s"
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "La temporada ha terminado en el servidor %(server)s"
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "La temporada ha terminado en el servidor %(server)s"
+
+msgid "progressionEntryPoint/complete"
+msgstr "¡Progresión principal completada!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Etapa %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s o %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nuevas misiones en:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "El evento termina en:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Las misiones se actualizarán en"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Has completado todas las misiones diarias."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progresión completada. Juega a Asedio ligero para obtener más recompensas."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Completa misiones y alcanza los mejores puestos en batallas de Asedio ligero\npara aumentar tu nivel de progresión. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Se otorgan por completar misiones especiales y librar batallas en Asedio ligero. Te permiten avanzar por la progresión."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Puntos de progresión de Asedio ligero"
+
+msgid "selectorTooltip/desc"
+msgstr "Modo no clasificado: 7 contra 7 | nivel %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Asedio ligero"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Sigue las últimas noticias en el portal del juego y mantente al día del inicio de la nueva temporada."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "El modo no está disponible temporalmente por problemas técnicos."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "El modo estará disponible en %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Puntos de progresión recibidos"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detalles"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Asedio ligero"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Recompensas recibidas:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Has completado la etapa de progresión %(stage)s del modo %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "¡Enhorabuena!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "El cese de hostilidades está activo. Las batallas de Asedio ligero no están disponibles temporalmente."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Cese de hostilidades"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "El cese de hostilidades ha terminado. Las batallas de Asedio ligero vuelven a estar disponibles."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Cese de hostilidades"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Sobre Asedio ligero"

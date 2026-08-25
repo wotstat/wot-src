@@ -1,0 +1,233 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2025-04-22 10:00+0300\nPO-Revision-Date: 2025-04-22 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bonus/credits/description"
+msgstr "Erhalten Sie einen Kreditpunktebonus, um mehr im Gefecht zu verdienen!"
+
+msgid "bonus/credits/title"
+msgstr "Kreditpunkte"
+
+msgid "bonus/crew/description"
+msgstr "Erhalten Sie einen Besatzungs-EP-Bonus, um mehr im Gefecht zu verdienen!"
+
+msgid "bonus/crew/title"
+msgstr "Besatzungs-EP"
+
+msgid "bonus/crystal/description"
+msgstr "Erhalten Sie einen Anleihenbonus, um mehr im Gefecht zu verdienen!"
+
+msgid "bonus/crystal/title"
+msgstr "Anleihen"
+
+msgid "bonus/events/description"
+msgstr "Erhalten Sie währenddessen einzigartige Geschichten!"
+
+msgid "bonus/events/title"
+msgstr "Events"
+
+msgid "bonus/freeXP/title"
+msgstr "Freie EP"
+
+msgid "bonus/gold/title"
+msgstr "Gold"
+
+msgid "bonus/showoff/description"
+msgstr "Zeigen Sie der Welt Ihren treuen Gefährten!"
+
+msgid "bonus/showoff/title"
+msgstr "Vorführung"
+
+msgid "bonus/tankmenXP/description"
+msgstr "Erhalten Sie einen Gefechts-EP-Bonus, um mehr im Gefecht zu verdienen!"
+
+msgid "bonus/tankmenXP/title"
+msgstr "Gefechts-EP"
+
+msgid "breedName/dog_1"
+msgstr "Deutscher Schäferhund"
+
+msgid "breedName/dog_2"
+msgstr "Labrador"
+
+msgid "eventView/button"
+msgstr "Jawohl"
+
+msgid "infoPageEntryPoint"
+msgstr "Wie mache ich mein Haustier zu meinem Freund?"
+
+msgid "message/petAdded/button"
+msgstr "Zum Schlupfwinkel"
+
+msgid "message/petAdded/header"
+msgstr "Neu zum Konto hinzugefügt: %(petType)s"
+
+msgid "message/petAdded/text"
+msgstr "%(petBreed)s ist im Schlupfwinkel"
+
+msgid "message/petBuy/success"
+msgstr "%(petName)s erfolgreich gekauft. %(price)s ausgegeben."
+
+msgid "message/server_error"
+msgstr "Aktion vorübergehend nicht verfügbar. Versuchen Sie es später noch einmal."
+
+msgid "message/synergyLevelUp/header"
+msgstr "%(petName)ss Synergiestufe gestiegen!"
+
+msgid "message/synergyLevelUp/text"
+msgstr "Neue Animationen sind jetzt verfügbar. Interagieren Sie weiter, um mehr freizuschalten!"
+
+msgid "message/synergyMaxLevel/header"
+msgstr "%(petName)ss Synergiestufe gestiegen!"
+
+msgid "message/synergyMaxLevel/text"
+msgstr "Neue Animationen verfügbar"
+
+msgid "petDescription/dog_1"
+msgstr "Der Deutsche Schäferhund bewegt sich still über das Schlachtfeld, die Sinne gespitzt. Als eine Druckwelle seinen Führer zu Boden warf, zog der Hund den gestürzten Mann hinter Deckung und schützte ihn, bis Rettung anrückte. Verwundet aber loyal, immer an seiner Seite. Ein echter Schutzengel."
+
+msgid "petDescription/dog_2"
+msgstr "Dieser lebensfrohe Labrador ist jederzeit für ein Abenteuer bereit. Als stets treuer Gefährte bellt er zustimmend, wenn er Menschen lachen hört, und wackelt glücklich mit dem Schwanz, wenn er neue Freunde findet. Es heißt, dass er einmal sogar an zwei Orten gleichzeitig gesehen wurde, aber niemand weiß so genau, wie er das hinbekommen hat."
+
+msgid "petEventTooltip/body"
+msgstr "%(petName)s hat etwas gefunden, während Sie fort waren! Schauen Sie es sich an!"
+
+msgid "petHouseMarker/default"
+msgstr "Haustierhütte"
+
+msgid "petHouseMarker/pet"
+msgstr "Hütte: {{petName}}"
+
+msgid "petSettings/cancelButton"
+msgstr "Abbrechen"
+
+msgid "petSettings/naming/subtitle"
+msgstr "Sie können Ihr Haustier umbenennen"
+
+msgid "petSettings/naming/tip/subtitle"
+msgstr "Haustier umbenennen"
+
+msgid "petSettings/naming/tip/title"
+msgstr "Namen ändern"
+
+msgid "petSettings/naming/title"
+msgstr "Haustiername"
+
+msgid "petSettings/saveButton/label"
+msgstr "Speichern"
+
+msgid "petSettings/uniqueName/tip/subtitle"
+msgstr "Dieses Haustier hat einen einzigartigen Namen, der nicht geändert werden kann."
+
+msgid "petSettings/uniqueName/tip/title"
+msgstr "Nicht verfügbar"
+
+msgid "petSettings/visibility/select/always"
+msgstr "Immer anzeigen"
+
+msgid "petSettings/visibility/select/disableAnimation"
+msgstr "Animationen deaktivieren"
+
+msgid "petSettings/visibility/select/onlyIntoPetPlace"
+msgstr "Nur in Garage anzeigen"
+
+msgid "petSettings/visibility/subtitle"
+msgstr "Sie können Ihr Haustier in die Garage schicken, falls es sich schlecht benimmt."
+
+msgid "petSettings/visibility/tip/subtitle"
+msgstr "Sichtbarkeitsmodus Ihres Haustiers ändern"
+
+msgid "petSettings/visibility/tip/title"
+msgstr "Haustiersichtbarkeit"
+
+msgid "petSettings/visibility/title"
+msgstr "Haustiersichtbarkeit"
+
+msgid "petStorage/petBonus/title"
+msgstr "Aktiver Bonus:"
+
+msgid "petStorage/petBonus/tooltip/content"
+msgstr "Der Bonus wird auf die Belohnung angewendet, unabhängig vom Gefechtsergebnis. Sobald das Limit erreicht ist, wird der Bonus nicht mehr angewendet."
+
+msgid "petStorage/petCard/promo"
+msgstr "NEU"
+
+msgid "petStorage/progressbarBonuses"
+msgstr "Diese Boni werden in Zufallsgefechten angewandt."
+
+msgid "petStorage/progressbarDescription"
+msgstr "Steigert die Belohnungen für eine begrenzte Anzahl täglicher Gefechte."
+
+msgid "petStorage/progressbarTitle"
+msgstr "Gefechtsboni übrig"
+
+msgid "petStorage/progressbarTooltip/content"
+msgstr "Die Anzahl verfügbarer Boni wird morgen zurückgesetzt. Ein Bonus wird pro Gefecht genutzt, und Belohnungen werden unabhängig vom Gefechtsergebnis angewendet."
+
+msgid "petStorage/progressbarTooltip/title"
+msgstr "Verfügbare Boni"
+
+msgid "petStorage/progressbarWarning"
+msgstr "Modus nicht geeignet, Boni werden nicht angewandt."
+
+msgid "petStorage/status/select"
+msgstr "Auswählen"
+
+msgid "petStorage/status/selected"
+msgstr "Ausgewählt"
+
+msgid "petStorage/title"
+msgstr "Hütte"
+
+msgid "petStorageTooltip/bonus/caption"
+msgstr "Gefechte übrig. Wird morgen zurückgesetzt"
+
+msgid "petStorageTooltip/bonus/currentBonus"
+msgstr "{{value}} für jedes Gefecht"
+
+msgid "petStorageTooltip/bonus/inProgress"
+msgstr "Gefechte übrig"
+
+msgid "petStorageTooltip/bonus/title"
+msgstr "Bonus"
+
+msgid "petStorageTooltip/warning/unsuitableMode"
+msgstr "Modus nicht geeignet. Bonus wird nicht angewandt."
+
+msgid "petType/dog"
+msgstr "Hund"
+
+msgid "plusPercentValue"
+msgstr "+{{value}} %"
+
+msgid "promotion/bonuses/text_1"
+msgstr "Dieser Bonus wird nur in Zufallsgefechten angewandt und ist nicht in jedem Gefecht aktiv."
+
+msgid "promotion/bonuses/text_2"
+msgstr "Ereignisse sind in Zufallsgefechten verfügbar."
+
+msgid "promotion/button/challenge"
+msgstr "Aufträge"
+
+msgid "promotion/button/purchase"
+msgstr "Zum Nachschub"
+
+msgid "promotion/challengeInfo/text_1"
+msgstr "Auftragsinformationen"
+
+msgid "promotion/challengeInfo/text_2"
+msgstr "In einem Spezialpaket des Events im Nachschub zum Kauf verfügbar."
+
+msgid "promotion/challengeInfo/title_1"
+msgstr "Aufträge"
+
+msgid "promotion/challengeInfo/title_2"
+msgstr "Möglichkeiten des Erhalts"
+
+msgid "synergyTooltip/description/done"
+msgstr "Jede Stufe der Haustiersynergie stärkt eure Freundschaft. Mit einem Gefechtskameraden an eurer Seite, könnten Sie sich keinen besseren Verbündeten erhoffen. Wenn Sie lange Zeit inaktiv sind, sinkt diese Stufe."
+
+msgid "synergyTooltip/description/inProgress"
+msgstr "Interagieren Sie mit Ihrem Haustier, um Ihre Freundschaftsstufe zu steigern. Die Höchststufe zu erreichen, verleiht Ihnen den Status „Gefechtskamerad“. Wenn Sie lange Zeit inaktiv sind, sinkt diese Stufe."
+
+msgid "synergyTooltip/title"
+msgstr "Status „Kamerad“"

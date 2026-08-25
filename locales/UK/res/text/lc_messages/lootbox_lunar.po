@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Повернутися до скарбів"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Вогняний скарб"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "ВОГНЯНИЙ СКАРБ"
+
+msgid "common/getButton/lowerCase"
+msgstr "Отримати скарби"
+
+msgid "common/getButton/upperCase"
+msgstr "ОТРИМАТИ СКАРБИ"
+
+msgid "common/loader"
+msgstr "Відкриваємо Вогняний скарб..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Відкривайте скарби, щоб побачити статистику."
+
+msgid "common/statistics/header"
+msgstr "Відкрито Вогняних скарбів: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Усю інформацію про відкриті Вогняні скарби буде видалено."
+
+msgid "entryPoint/boxes"
+msgstr "ДО СКАРБІВ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Це особливі коробки, що містять нові й унікальні предмети, включно з преміум машинами, 2D-стилями та іншим. Їх можна отримати в ігровому Магазині."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "З технічних причин наразі неможливо відкривати чи купувати Вогняні скарби. Вибачте за тимчасові незручності."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Вогняні скарби тимчасово недоступні"
+
+msgid "eventName/lowerCase"
+msgstr "Місячні трофеї"
+
+msgid "eventName/upperCase"
+msgstr "МІСЯЧНІ ТРОФЕЇ"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "У наступному скарбі буде гарантована нагорода!"
+
+msgid "guaranteedTitle/text"
+msgstr "Максимум Вогняних скарбів до гарантованої нагороди: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Якщо не відкриєте Вогняні скарби до кінця події, це відбудеться автоматично."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Якщо вже маєте всю техніку зі списку можливого вмісту Вогняних скарбів, за всі подальші машини з них ви отримуватимете компенсацію їхньої повної вартості золотом."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Кожен %(guaranteed0)s Вогняний скарб гарантовано містить машину VIII–IX рівня. Якщо після їхніх відкриттів ви так і не отримали техніку, з %(guaranteed0)s&zwnbsp;-го скарбу випаде машина VIII–IX рівня, якої у вас іще немає. Після цього лічильник буде скинуто."
+
+msgid "infoPage/header/description"
+msgstr "Відкривайте Вогняні скарби заради шансу отримати цінне ігрове майно! Подробиці нижче."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "З: %(name) (відкрито Вогняних скарбів: %(boxesCount))"
+
+msgid "noBoxesView/description/"
+msgstr "У вас немає Вогняних скарбів.\nЇх можна придбати в ігровому Магазині."
+
+msgid "preview/backLabel"
+msgstr "ДО СКАРБІВ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Скарбів у наявності: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Немає скарбів"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Якщо вже маєте всю техніку зі списку можливого вмісту Вогняних скарбів, за всі подальші машини з них ви отримуватимете компенсацію золотом."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Вогняний скарб"
+msgstr[1] "%(remainingCount) Вогняні скарби"
+msgstr[2] "%(remainingCount) Вогняних скарбів"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Гарантована нагорода — машина зі списку можливого вмісту Вогняного скарбу.\nЯкщо після відкриття %(remainingCount) ви так і не отримали техніку, вона гарантовано випаде з %(count)-го Вогняного скарбу. Після цього лічильник буде скинуто."

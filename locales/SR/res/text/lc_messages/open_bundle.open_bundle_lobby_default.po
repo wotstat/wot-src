@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Razumem!"
+
+msgid "attachments_preview/description"
+msgstr "Komplet 3D dodataka"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Epski 3D dodatak"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendarni 3D dodatak"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Redak 3D dodatak"
+
+msgid "bundle/name"
+msgstr "Misteriozna pijaca"
+
+msgid "bundle/name_uppercased"
+msgstr "MISTERIOZNA PIJACA"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Otkaži"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Kupi"
+
+msgid "confirmation/description"
+msgstr "Potvrdi da dobiješ bonove i novu nagradu ćelije."
+
+msgid "confirmation/purchase"
+msgstr "Kupi za {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "Idi na događaj"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} je tu. Pogledaj!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Kada kupiš bonove tokom {{eventName}}, dobićeš nagradu iz jedne od neotvorenih ćelija kao bonus poklon. Ćelije sadrže vredne nagrade iz igre, uključujući glavnu nagradu događaja: premijum vozilo."
+
+msgid "intro/cards/description/c_2"
+msgstr "Nagrade se dodeljuju po nasumičnom redu. Svaka neotvorena ćelija ima sopstvenu verovatnuću da bude izabrana i zbir svih verovatnoća ide do 100%. Kada je jednom ćelija otvorena, ne može biti otvorena ponovo i šansa za dobijanje preostalih nagrada se povećava."
+
+msgid "intro/cards/description/c_3"
+msgstr "Svaki korak košta određenu količinu zlata. Broj dobijenih bonova i cena koraka se menjaju kako napreduješ."
+
+msgid "intro/cards/link"
+msgstr "Pogledaj uslove i cene za svaki korak na {{@ class 'linkPart'}}portalu.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Kupovina bonova"
+
+msgid "intro/cards/title/c_2"
+msgstr "Ćelije i verovatnoća"
+
+msgid "intro/cards/title/c_3"
+msgstr "Cene koraka"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "TVOJA NAGRADA TE ČEKA"
+
+msgid "main/alt/description"
+msgstr "Pogledaj verovatnoću"
+
+msgid "main/alt/tooltip/body"
+msgstr "Pritisni Alt taster da vidiš verovatnoću za dobijanje svake ćelije."
+
+msgid "main/alt/tooltip/header"
+msgstr "Prikaz verovatnoće"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "ČESTITAMO! \n DOBIO SI SVE NAGRADE"
+
+msgid "main/footer/button"
+msgstr "Kupi"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Nagrada iz ćelije"
+
+msgid "main/footer/receive"
+msgstr "Dobio si: {{item}}"
+
+msgid "main/header/description"
+msgstr "Učestvuj u događaju od {{startDate}} do {{endDate}} i zgrabi nagrade!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Idi na prilagođavanje"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Idi na stil"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Idi na vozilo"
+
+msgid "notifications/specialReward/title"
+msgstr "Glavna {{eventName}} nagrada je tvoja!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Dodatne nagrade:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Primljeno:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Ova operacija je trenutno nedostupna zbog tehničkih razloga. Molimo pokušaj ponovo kasnije."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Na događaj"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s se uskoro završava!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Događaj je dostupan do: %(date)s"
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s ćelija je otvorena"
+
+msgid "tooltips/entry/description"
+msgstr "Tvoja nagrada čeka! Svaka kupovina bonova to daje nasumično nagradu iz jedne od ćelija kao poklon. Možeš da otvoriš novu ćeliju svaki put jer su one koje si već otvorio eliminisane."
+
+msgid "tooltips/entry/timer"
+msgstr "Događaj će biti dostupan za {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "O događaju"
+
+msgid "tooltips/steps/description"
+msgstr "Za svaku kupovinu, dobijaš još {{currency}}. Količina koju dobijaš povećava se na određenim koracima kupovine."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} za svaku kupovinu"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Koraci:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} - {{end}}"

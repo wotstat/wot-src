@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Activar"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Adquirir e Activar"
+
+msgid "activation/activateBonus"
+msgstr "Activar Reserva: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Ativar Reserva"
+
+msgid "activation/activateButtonClan"
+msgstr "Para a Fortificação"
+
+msgid "activation/battleXPDescription"
+msgstr "Bónus de EXP de Combate por 1 h"
+
+msgid "activation/battleXPTitle"
+msgstr "EXP de Combate"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Adquirir e activar a Reserva Pessoal Melhorada que fornece %(boosterBonus)s para %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Adquirir Ouro"
+
+msgid "activation/buyGoldTitle"
+msgstr "Adquirir ouro necessário para a Reserva Pessoal Melhorada que fornece %(boosterBonus)s para %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Ouro necessário para adquirir a Reserva Pessoal Melhorada:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Créditos e EXP de Combate"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "EXP de Tripulação e EXP Livre"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Reservas do Clã"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Activar Reserva em Fortaleza"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Ver em Fortaleza"
+
+msgid "activation/comboXPDescription"
+msgstr "Bónus de EXP Livre e de Tripulação por 1 h"
+
+msgid "activation/comboXPTitle"
+msgstr "EXP Livre e de Trip."
+
+msgid "activation/creditsDescription"
+msgstr "Bónus de créditos por 1 h"
+
+msgid "activation/creditsTitle"
+msgstr "Créditos"
+
+msgid "activation/footer"
+msgstr "As Reservas Expiráveis necessitam de ser ativadas: %(expirableAmount) em %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bónus para EXP da Linha da Frente por 1 h"
+
+msgid "activation/frontLineXPTitle"
+msgstr "EXP da Linha da Frente"
+
+msgid "activation/informationButton"
+msgstr "INFORMAÇÃO"
+
+msgid "activation/price"
+msgstr "Preço:"
+
+msgid "activation/subFooter/depot"
+msgstr "Armazém"
+
+msgid "activation/subFooter/main"
+msgstr "As Reservas mais próximas de expirarem são ativadas primeiro. Pode ver todas as suas Reservas disponíveis no %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Active {whiteSpanish_Open}até 3 Reservas Pessoais{whiteSpanish_Close} para ganhar mais créditos e experiência em batalhas. Adquira mais Reservas Pessoais na %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Loja"
+
+msgid "activation/terms/booster_credits"
+msgstr "créditos"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "EXP da Linha da Frente"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "EXP Livre e de Tripulação"
+
+msgid "activation/terms/booster_xp"
+msgstr "EXP de Combate"
+
+msgid "activation/title"
+msgstr "RESERVAS PESSOAIS"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}A Reserva Pessoal Standard activada que fornece %(previousBoosterBonus)s para %(previousBoosterTerm)s será perdida.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Deseja activar a Reserva Pessoal Melhorada que fornece %(boosterBonus)s para %(boosterTerm)s em vez da Reserva Pessoal Standard activada?"
+
+msgid "battleView/notice"
+msgstr "As Reservas Pessoais podem ser ativadas a qualquer momento da batalha. Irá receber o bónus mesmo que a Reserva expire durante a batalha."
+
+msgid "battleView/title"
+msgstr "Activação de Reservas Pessoais"
+
+msgid "depot/buyButton"
+msgstr "Para Aquisição"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Outra Reserva deste tipo já está activada."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Esta Reserva Pessoal expirou durante a batalha. O bónus da Reserva Pessoal ainda se aplica a esta batalha."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Reservas Pessoais Activadas não se aplicam a este modo."
+
+msgid "intro/buttons/close"
+msgstr "Afirmativo!"
+
+msgid "intro/buttons/details"
+msgstr "Detalhes"
+
+msgid "intro/description"
+msgstr "As Reservas Pessoais Expiráveis ficam disponíveis por tempo limitado após as receber. Se não forem ativadas durante esse período, serão perdidas. As Reservas Pessoais Não Expiráveis não podem ser utilizadas enquanto tiver Reservas Pessoais Expiráveis do mesmo tipo disponíveis."
+
+msgid "intro/title"
+msgstr "RESERVAS PESSOAIS EXPIRÁVEIS"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Sem Reservas Pessoais deste tipo no Armazém. Pode adquiri-los mais tarde ou activá-las na Garagem."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Conclua missões e participe em eventos do jogo para ganhar Reservas Pessoais."
+
+msgid "noReserveTooltip/text"
+msgstr "Sem Reservas Pessoais deste tipo no Armazém."

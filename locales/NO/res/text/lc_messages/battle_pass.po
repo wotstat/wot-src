@@ -1,0 +1,1652 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awardsWidget/description/award"
+msgstr "Klikk for å velge og hente dine belønninger."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Belønninger er midlertidig utilgjengelig. Vi beklager ulempen."
+
+msgid "awardsWidget/description/coin"
+msgstr "Klikk for å se verdifulle enheter for Battle Pass polletter."
+
+msgid "awardsWidget/description/collection"
+msgstr "Klikk for å se listen over Battle Pass samlingen."
+
+msgid "awardsWidget/description/collectionCompleted"
+msgstr "Gratulerer! Du har samlet alle elementene i Battle Pass samlingen."
+
+msgid "awardsWidget/description/commander"
+msgstr "Klikk for å se alle besetningsmedlemmene i eventet."
+
+msgid "awardsWidget/description/taler"
+msgstr "Klikk for å se enheter fra foregående sesonger av Battle Pass, tilgjengelig for available for chips eller gull."
+
+msgid "awardsWidget/description/ticket"
+msgstr "Klikk for å skrape kuponger og få belønninger."
+
+msgid "awardsWidget/title/awardMultiple"
+msgstr "HENT\nBELØNNINGER"
+
+msgid "awardsWidget/title/awardSingle"
+msgstr "HENT\nBELØNNING"
+
+msgid "awardsWidget/title/coin"
+msgstr "ENHETER FOR POLLETTER"
+
+msgid "awardsWidget/title/collection"
+msgstr "SAMLING"
+
+msgid "awardsWidget/title/commander"
+msgstr "BESETNINGS\nMEDLEMMER"
+
+msgid "awardsWidget/title/taler"
+msgstr "BATTLE PASS HVELV"
+
+msgid "awardsWidget/title/ticket"
+msgstr "SKRAP\nKUPONGER"
+
+msgid "battleBonusX5"
+msgstr "Oppdrag med ×5 på erfaringspoeng"
+
+msgid "battlePassAwardsView/additionalRewards/bpBuyLevelAwardsText"
+msgstr "Du fikk forbedret belønning for fullførelsen av hovedfremgangstrinnet. Fortsett å tjene poeng for å få flere belønninger."
+
+msgid "battlePassAwardsView/additionalRewards/bpRemainLevelsAwardsText"
+msgstr "%(remainingAwardsCount)s Mer"
+
+msgid "battlePassAwardsView/additionalRewards/button"
+msgstr "Bekreftes!"
+
+msgid "battlePassAwardsView/additionalRewards/seeMoreButtonText"
+msgstr "Se belønninger"
+
+msgid "battlePassAwardsView/additionalRewards/subText"
+msgstr "Du fikk også:"
+
+msgid "battlePassAwardsView/footer/acceptButton"
+msgstr "Bekreftes!"
+
+msgid "battlePassAwardsView/footer/allChaptersText"
+msgstr "Du har åpnet alle belønningene til det forbedrede passet for alle tre kapitlene."
+
+msgid "battlePassAwardsView/footer/boughtChapterText"
+msgstr "Alle belønningene for det kjøpte trinnet er tilgjengelig for deg."
+
+msgid "battlePassAwardsView/footer/bpButtonTitle"
+msgstr "Kjøp forbedret pass"
+
+msgid "battlePassAwardsView/footer/bpDescriptionGotStyle"
+msgstr "I begynnelsen av hvert kapittel får du en stil som kan forbedres underveis i fremgangen i kapittelet. Ufullstendige stiler kan også forbedres etter at inneværende sesong av Battle Pass er over."
+
+msgid "battlePassAwardsView/footer/bpInProgressTitle"
+msgstr "Kjøp det forbedrede passet for dette kapittelet for å få forbedrede belønninger for allerede fullførte trinn. Du får også forbedrede belønninger for fullførelsen av fremtidige trinn."
+
+msgid "battlePassAwardsView/footer/bpLastStagesTitle"
+msgstr "Kjøp det forbedrede passet for det inneværende kapittelet for umiddelbart å få forbedrede belønninger for allerede fullførte trinn."
+
+msgid "battlePassAwardsView/footer/bpMoreTitle"
+msgstr "DET ER FREMDELES EN SJANSE!"
+
+msgid "battlePassAwardsView/footer/bpTitle"
+msgstr "FORBEDRET PASS"
+
+msgid "battlePassAwardsView/footer/getRewardsButton"
+msgstr "Hent belønninger"
+
+msgid "battlePassAwardsView/footer/postProgressionButton"
+msgstr "Til Elite Circuit"
+
+msgid "battlePassAwardsView/footer/postProgressionText"
+msgstr "Du har nå tilgang til Elite Circuit"
+
+msgid "battlePassAwardsView/header/bpAllChapters"
+msgstr "Alle kapitlene"
+
+msgid "battlePassAwardsView/header/bpBoughtText"
+msgstr "FORBEDRET PASS KJØPT!"
+
+msgid "battlePassAwardsView/header/bpFinalLevelText"
+msgstr "SISTE TRINNET FULLFØRT!"
+
+msgid "battlePassAwardsView/header/bpLevelReceivedText"
+msgstr "%(currentLevel)s. TRINN FULLFØRT!"
+
+msgid "battlePassAwardsView/header/bpLevelsText"
+msgstr "BELØNNINGER MOTTATT"
+
+msgid "battlePassAwardsView/header/bpRewardText"
+msgstr "BELØNNING MOTTATT"
+
+msgid "battlePassAwardsView/header/bpTitle"
+msgstr "BATTLE PASS: KAPITTEL %(chapter)s"
+
+msgid "battlePassAwardsView/header/bpTitleWithoutChapter"
+msgstr "BATTLE PASS"
+
+msgid "battlePassAwardsView/header/styleReceivedText"
+msgstr "STIL MOTTATT"
+
+msgid "battlePassAwardsView/header/styleUpgradedText"
+msgstr "FORBEDRET STIL"
+
+msgid "battlePassAwardsView/mainReward/battlePassNewDeviceGiftToken"
+msgstr "Standardutstyr å velge fra"
+
+msgid "battlePassAwardsView/mainReward/battlePassTrophyGiftToken"
+msgstr "Skuddpremieutstyr å velge fra"
+
+msgid "battlePassAwardsView/mainReward/bpBuyAwardsCaption"
+msgstr "Du har åpnet alle belønningene til det forbedrede passet for kapittelet %(chapter)s."
+
+msgid "battlePassAwardsView/mainReward/bpBuyWithLevels"
+msgstr "Du har fått alle belønningene for kapittelet %(chapter)s."
+
+msgid "battlePassAwardsView/mainReward/commander"
+msgstr "Besetningsmedlem: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonText"
+msgstr "Gå til utvelgelse"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonTitle"
+msgstr "I seksjonen for hjemmefrontforsyninger i depotet"
+
+msgid "battlePassAwardsView/mainReward/reward"
+msgstr "Medalje: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/style"
+msgstr "3D stil: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel1"
+msgstr "Første nivået til stilen %(styleName)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel2"
+msgstr "Nytt nivå for stilen %(styleName)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel3"
+msgstr "Høyeste nivået for stilen %(styleName)s"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonText"
+msgstr "Gå til utvelgelse"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonTitle"
+msgstr "I seksjonen for hjemmefrontforsyninger i depotet"
+
+msgid "battlePassBuyLevels/chapter"
+msgstr "%(name)s kapittel"
+
+msgid "battlePassBuyLevels/levelsSelected"
+msgid_plural "plural/battlePassBuyLevels/levelsSelected"
+msgstr[0] "%(count)s trinn til"
+msgstr[1] "%(count)s trinn til"
+msgstr[2] "%(count)s trinn til"
+
+msgid "battlePassBuyView/btnCancel"
+msgstr "Avbryt"
+
+msgid "battlePassBuyView/btnRewards"
+msgstr "Se alle\n%(count)s belønningene"
+
+msgid "battlePassBuyView/confirm/btnBuy"
+msgstr "Kjøp"
+
+msgid "battlePassBuyView/confirm/checkbox/stage"
+msgid_plural "plural/battlePassBuyView/confirm/checkbox/stage"
+msgstr[0] "Med %(stagesNumber)s gjenværende trinn"
+msgstr[1] "Med %(stagesNumber)s gjenværende trinn"
+msgstr[2] "Med %(stagesNumber)s gjenværende trinn"
+
+msgid "battlePassBuyView/confirm/description"
+msgstr "Det forbedrede passet åpner:"
+
+msgid "battlePassBuyView/confirm/descriptionCheckboxChecked"
+msgstr "Du får alle kapittelbelønningene umiddelbart:"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/buy"
+msgstr "Se tilbud"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/description"
+msgstr "Dette tilbudet er gyldig så lenge ingen\nav sesongkapitlene blir forbedret."
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/headline"
+msgstr "%(count)s om 1"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/packsAmount"
+msgstr "x%(amount)s"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/title"
+msgstr "Forbedrede pass til\nalle sesongkapitlene"
+
+msgid "battlePassBuyView/confirm/starterPack/description"
+msgstr "Bonus %(purchaseText)s"
+
+msgid "battlePassBuyView/confirm/starterPack/purchaseText"
+msgstr "på kjøp:"
+
+msgid "battlePassBuyView/descr"
+msgstr "Å kjøpe et fremgangstrinn åpner den umiddelbart og gir deg alle belønningene som følger med det trinnet."
+
+msgid "battlePassBuyView/reward/descriptionFutureRewards"
+msgstr "Disse belønningene vil bli gitt til deg etter at du har fullført de kommende trinnene."
+
+msgid "battlePassBuyView/reward/descriptionNowRewards"
+msgstr "Følgende belønninger gis deg for trinnene %(steps)s"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
+msgstr "Du får følgende belønninger umiddelbart"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
+msgstr "Følgende belønninger gis deg for trinnet %(steps)s"
+
+msgid "battlePassBuyView/reward/titleFutureRewards"
+msgstr "VIL BLI ÅPNET"
+
+msgid "battlePassBuyView/reward/titleNowRewards"
+msgstr "FÅS UMIDDELBART"
+
+msgid "battlePassStatus/activateChapter"
+msgstr "Aktiver Battle Pass kapittelet"
+
+msgid "battlePassStatus/improve"
+msgstr "Du kan fremdeles kjøpe det forbedrede passet"
+
+msgid "battlePassVehicleAwardView/button"
+msgstr "Bekreftes!"
+
+msgid "battlePassVehicleAwardView/content/description"
+msgstr "POENGGRENSE NÅDD"
+
+msgid "battlePassVehicleAwardView/content/postTitle"
+msgstr "BATTLE PASS ELITEFREMGANG"
+
+msgid "battlePassVehicleAwardView/content/subTitle"
+msgstr "Du fikk belønninger:"
+
+msgid "battlePassVehicleAwardView/content/title"
+msgstr "BATTLE PASS"
+
+msgid "battlepassTab"
+msgstr "Battle Pass"
+
+msgid "chapter/fullName/10021"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/1114"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullName/200"
+msgstr "Elite Circuit"
+
+msgid "chapter/fullName/201"
+msgstr "Buried Time"
+
+msgid "chapter/fullName/202"
+msgstr "C'est Notre Destin"
+
+msgid "chapter/fullName/203"
+msgstr "DESERT COMMAND"
+
+msgid "chapter/fullName/205"
+msgstr "Far Cry"
+
+msgid "chapter/fullNameUppercased/10021"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/1114"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/201"
+msgstr "Buried Time"
+
+msgid "chapter/fullNameUppercased/202"
+msgstr "C'est Notre Destin"
+
+msgid "chapter/fullNameUppercased/203"
+msgstr "DESERT COMMAND"
+
+msgid "chapter/fullNameUppercased/205"
+msgstr "FAR CRY"
+
+msgid "chapter/title"
+msgstr "KAPITTEL %(chapter)s"
+
+msgid "chapterChoice/about"
+msgstr "OM BATTLE PASS"
+
+msgid "chapterChoice/activeChapter/postprogression/text"
+msgstr "Startet"
+
+msgid "chapterChoice/activeChapter/text"
+msgstr "Aktivt kapittel"
+
+msgid "chapterChoice/chapterCompleted"
+msgstr "Kapittel fullført"
+
+msgid "chapterChoice/chapterInfo/buttons/toChapter"
+msgstr "Til kapittelet"
+
+msgid "chapterChoice/chapterInfo/buttons/toCrewMembers"
+msgstr "Se besetningsmedlemmer"
+
+msgid "chapterChoice/chapterInfo/buttons/toPostProgression"
+msgstr "Til fremgang"
+
+msgid "chapterChoice/chapterInfo/deadline/date"
+msgstr "Varer frem til %(endDate)s"
+
+msgid "chapterChoice/chapterInfo/deadline/time"
+msgstr "Avsluttes %(endTime)s"
+
+msgid "chapterChoice/confirmation/button/cancel"
+msgstr "Avbryt"
+
+msgid "chapterChoice/confirmation/button/submit"
+msgstr "Aktiver"
+
+msgid "chapterChoice/confirmation/button/switch"
+msgstr "Bytt"
+
+msgid "chapterChoice/confirmation/description/select"
+msgstr "Du kan bytte til andre kapitler når som helst."
+
+msgid "chapterChoice/confirmation/description/switch"
+msgstr "Du har allerede aktivert kapittelet \"%(chName)s\". Den blir satt på pause."
+
+msgid "chapterChoice/confirmation/extraChapterDescription/highlightText"
+msgstr "blir ikke tilgjengelig"
+
+msgid "chapterChoice/confirmation/extraChapterDescription/text"
+msgstr "%(icon)Så snart spesialkapittelet er aktivert, er Elite Circuit %(highlightText) frem til kapittelet er ferdig eller du har fullført fremgangen."
+
+msgid "chapterChoice/confirmation/title/select"
+msgstr "Aktivere kapittel \"%(chName)s\"?"
+
+msgid "chapterChoice/confirmation/title/switch"
+msgstr "Bytte til kapittel \"%(chName)s\"?"
+
+msgid "chapterChoice/crewMember/reward"
+msgstr "Besetningsmedlemmer"
+
+msgid "chapterChoice/crewMember/reward/subTitle"
+msgstr "og andre besetningsmedlemmer inni"
+
+msgid "chapterChoice/eliteCircuit/reward/subTitle"
+msgstr "i løpet av den sykliske fremgangen"
+
+msgid "chapterChoice/eliteCircuit/reward/title"
+msgstr "Sedler, chips og kuponger"
+
+msgid "chapterChoice/extraChapter/reward"
+msgstr "Premiumkjøretøy"
+
+msgid "chapterChoice/freePoints/text"
+msgstr "Ubenyttede poeng"
+
+msgid "chapterChoice/freePoints/tooltip/body"
+msgstr "Poeng samles mens du går gjennom Battle Pass, selv om intet kapittel er aktivert. Når du aktiverer et kapittel, blir poengene kreditert kapittelets progresjon."
+
+msgid "chapterChoice/freePoints/tooltip/header"
+msgstr "Ubenyttede Battle Pass poeng"
+
+msgid "chapterChoice/postprogression/locked"
+msgstr "Fullfør alle {{count}} sesong\nkapitlene for å åpne"
+
+msgid "chapterChoice/postprogression/name"
+msgstr "Elite Circuit"
+
+msgid "chapterChoice/postprogression/unlocked/cycle"
+msgstr "Syklus %(cycle)s"
+
+msgid "chapterChoice/stages/additional"
+msgstr " / %(level)s trinn"
+
+msgid "chapterChoice/stages/complete/improved"
+msgstr "Fullført og forbedret"
+
+msgid "chapterChoice/stages/complete/unimproved"
+msgstr "ytterligere %(count)s belønninger inni"
+
+msgid "chapterChoice/stylePreview/reward/subTitle"
+msgstr "til %(vehicleName)s"
+
+msgid "chapterChoice/stylePreview/reward/title"
+msgstr "3D stilen %(styleName)s"
+
+msgid "chapterChoice/vehicle/reward/subTitle"
+msgstr "%(vehicleName)s"
+
+msgid "chapterChoice/vehicle/reward/title"
+msgstr "Premiumkjøretøy"
+
+msgid "chapterChoice/vehicleStyle/reward/subTitle"
+msgstr "og 3D stilen %(styleName)s"
+
+msgid "chapterChoice/vehicleStyle/reward/title"
+msgstr "%(vehicleName)s"
+
+msgid "chapterStatus/notSelected"
+msgstr "Kapittel ikke valgt"
+
+msgid "chosenBonuses/bonus/battle_booster_gift"
+msgstr "Direktiver å velge fra"
+
+msgid "chosenBonuses/bonus/blueprint_gift"
+msgstr "Nasjonale tegningsdeler å velge fra"
+
+msgid "chosenBonuses/bonus/brochure_gift"
+msgstr "Treningshefter å velge fra"
+
+msgid "chosenBonuses/bonus/crewbook_gift"
+msgstr "Treningsmanualer å velge fra"
+
+msgid "chosenBonuses/bonus/guide_gift"
+msgstr "Treningsguider å velge fra"
+
+msgid "chosenBonuses/bonus/modernized_device_gift"
+msgstr "Eksperimentelt utstyr å velge fra"
+
+msgid "chosenBonuses/bonus/new_device_gift"
+msgstr "Standardutstyr å velge fra"
+
+msgid "chosenBonuses/bonus/trophy_gift"
+msgstr "Skuddpremieutstyr å velge fra"
+
+msgid "common/collectionText"
+msgstr "(Element til samling)"
+
+msgid "common/comma"
+msgstr ", "
+
+msgid "common/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "commonProgression/body/ended"
+msgstr "Battle Pass sesongen er avsluttet"
+
+msgid "crewBonusX3"
+msgstr "Oppdrag med ×3 besetningserfaring"
+
+msgid "equipCoinBonus"
+msgstr "Komponenter: %(count)s"
+
+msgid "finalReward/tankman/roles/commander"
+msgstr "Kommandør"
+
+msgid "finalReward/tankman/roles/driver"
+msgstr "sjåfør"
+
+msgid "finalReward/tankman/roles/gunner"
+msgstr "skytter"
+
+msgid "finalReward/tankman/roles/loader"
+msgstr "lader"
+
+msgid "finalReward/tankman/roles/radioman"
+msgstr "radiooperatør"
+
+msgid "holidayFinalScreen/buyState/buyButton"
+msgstr "Kjøp forbedret pass"
+
+msgid "holidayFinalScreen/buyState/description"
+msgstr "Ved å kjøpe det forbedrede passet får du umiddelbart et premiumkjøretøy med en unik 3D stil og alle belønningene i det forbedrede passet."
+
+msgid "holidayFinalScreen/buyState/moreRewards"
+msgstr "Andre belønninger: %(count)s"
+
+msgid "holidayFinalScreen/buyState/title"
+msgstr "Få belønningene som ligger i det forbedrete passet"
+
+msgid "holidayFinalScreen/chapter"
+msgstr "%(chapterName)s"
+
+msgid "holidayFinalScreen/completed"
+msgstr "KAPITTEL FULLFØRT"
+
+msgid "holidayFinalScreen/finalState/button/showHangar"
+msgstr "Tilbake til garasjen"
+
+msgid "holidayFinalScreen/finalState/button/showVehicle"
+msgstr "Vis i garasjen"
+
+msgid "holidayFinalScreen/finalState/label"
+msgstr "Alle eventbelønningene mottatt"
+
+msgid "holidayFinalScreen/selectableRewardsState/button"
+msgstr "Hent belønninger"
+
+msgid "holidayFinalScreen/selectableRewardsState/label"
+msgstr "Du har fremdeles belønninger tilgjengelige du kan velge fra."
+
+msgid "holidayFinalScreen/tankmenState/description"
+msgstr "I løpet av dette eventet er pakker som inneholder unike besetningsmedlemmer tilgjengelig i butikken."
+
+msgid "holidayFinalScreen/tankmenState/tankmenButton"
+msgstr "Lytt til stemmespor"
+
+msgid "holidayFinalScreen/tankmenState/title"
+msgstr "Samle alle besetningsmedlemmer!"
+
+msgid "howToEarnPoints/battleRoyal/platoon"
+msgstr "I tropp"
+
+msgid "howToEarnPoints/battleRoyal/solo"
+msgstr "Solo"
+
+msgid "howToEarnPoints/battleTypeTitle/1"
+msgstr "Tilfeldig kamp"
+
+msgid "howToEarnPoints/battleTypeTitle/27"
+msgstr "Frontlinje"
+
+msgid "howToEarnPoints/battleTypeTitle/29"
+msgstr "Steel Hunter"
+
+msgid "howToEarnPoints/battleTypeTitle/43"
+msgstr "Onslaught"
+
+msgid "howToEarnPoints/battleTypeTitle/49"
+msgstr "Onslaught Light"
+
+msgid "howToEarnPoints/bonus"
+msgstr "+%(bonus)s"
+
+msgid "howToEarnPoints/card/battle/linkText"
+msgstr "Gå til oppdrag"
+
+msgid "howToEarnPoints/card/battle/text"
+msgstr "Fullfør oppdrag i Steel Hunter og tjen ytterligere poeng."
+
+msgid "howToEarnPoints/card/battle/title"
+msgstr "Daglige oppdrag"
+
+msgid "howToEarnPoints/card/comp7/text"
+msgstr "Fullfør oppdrag i Onslaught modusen og tjen ytterligere poeng."
+
+msgid "howToEarnPoints/card/comp7/title"
+msgstr "Daglige oppdrag"
+
+msgid "howToEarnPoints/card/comp7Light/text"
+msgstr "Fullfør oppdrag i Onslaught Light modusen og tjen ytterligere poeng."
+
+msgid "howToEarnPoints/card/comp7Light/title"
+msgstr "Daglige oppdrag"
+
+msgid "howToEarnPoints/card/daily/linkText"
+msgstr "Se oppdrag"
+
+msgid "howToEarnPoints/card/daily/text"
+msgstr "Tjen enda flere poeng ved å fullføre daglige oppdrag."
+
+msgid "howToEarnPoints/card/daily/title"
+msgstr "Daglige oppdrag"
+
+msgid "howToEarnPoints/card/epicBattlePoints/text"
+msgstr "For å ha oppnådd frontlinjenivåer, tjener du ytterligere poeng til Battle Pass."
+
+msgid "howToEarnPoints/card/epicBattlePoints/title"
+msgstr "Belønning for frontlinjenivåer"
+
+msgid "howToEarnPoints/card/limitPoints/text"
+msgstr "Hvert kjøreøty har en poenggrense. Nå denne grensen for å tjene ekstrapoeng."
+
+msgid "howToEarnPoints/card/limitPoints/title"
+msgstr "Belønning for poenggrense"
+
+msgid "howToEarnPoints/card/specialVehicle/text"
+msgstr "Ved å kjempe i sesongens hovedkjøretøy får du ytterligere poeng."
+
+msgid "howToEarnPoints/card/specialVehicle/title"
+msgstr "Sesongens hovedkjøretøy"
+
+msgid "howToEarnPoints/condition/43"
+msgstr "Etter prestisjepoeng"
+
+msgid "howToEarnPoints/condition/49"
+msgstr "Etter prestisjepoeng"
+
+msgid "howToEarnPoints/condition/default"
+msgstr "Resultat etter erfaringspoeng"
+
+msgid "howToEarnPoints/conditions"
+msgstr "Inntjeningsvilkår"
+
+msgid "howToEarnPoints/description"
+msgstr "Kom deg gjennom kapitlene og samle belønninger ved å tjene poeng i Battle Pass fra ulike modi:"
+
+msgid "howToEarnPoints/earned"
+msgstr "{{icon}}"
+
+msgid "howToEarnPoints/extraPoints"
+msgstr "Ekstrapoeng"
+
+msgid "howToEarnPoints/lose/1"
+msgstr "Tap / uavgjort"
+
+msgid "howToEarnPoints/lose/27"
+msgstr "Tap"
+
+msgid "howToEarnPoints/lose/43"
+msgstr "Tap / uavgjort"
+
+msgid "howToEarnPoints/lose/49"
+msgstr "Tap / uavgjort"
+
+msgid "howToEarnPoints/plusBanner/line1"
+msgstr "Tjen flere poeng med %(link)s"
+
+msgid "howToEarnPoints/plusBanner/line2"
+msgstr "til alle de vanlige kapitlene."
+
+msgid "howToEarnPoints/plusBanner/link"
+msgstr "WoT Plus Pro"
+
+msgid "howToEarnPoints/points"
+msgstr "Poeng"
+
+msgid "howToEarnPoints/rangeLevels/29"
+msgstr "Stillinger %(startLevel)d–%(endLevel)d"
+
+msgid "howToEarnPoints/rating"
+msgstr "Topp %(place)d"
+
+msgid "howToEarnPoints/rating/1"
+msgstr "Blant de %(level)d beste etter erfaringspoeng"
+
+msgid "howToEarnPoints/rating/27"
+msgstr "Blant de %(level)d beste etter erfaringspoeng"
+
+msgid "howToEarnPoints/rating/29"
+msgstr "Blant de %(level)d beste etter erfaringspoeng"
+
+msgid "howToEarnPoints/rating/43"
+msgstr "Blant de %(level)d beste etter prestisjepoeng"
+
+msgid "howToEarnPoints/rating/49"
+msgstr "Blant de %(level)d beste etter prestisjepoeng"
+
+msgid "howToEarnPoints/singleLevel/29"
+msgstr "Plassering %(level)d"
+
+msgid "howToEarnPoints/solo/29"
+msgstr "Solospilling"
+
+msgid "howToEarnPoints/squad/29"
+msgstr "Troppspilling"
+
+msgid "howToEarnPoints/text/1"
+msgstr "Nivåene %(startLevel)s–%(endLevel)s"
+
+msgid "howToEarnPoints/text/27"
+msgstr "Nivå %(level)s"
+
+msgid "howToEarnPoints/text/29"
+msgstr "Spesialkjøretøy"
+
+msgid "howToEarnPoints/text/43"
+msgstr "Nivå %(level)s"
+
+msgid "howToEarnPoints/text/49"
+msgstr "Nivå %(level)s"
+
+msgid "howToEarnPoints/title"
+msgstr "Hvordan tjene poeng"
+
+msgid "howToEarnPoints/vehicle"
+msgstr "Kjøretøy"
+
+msgid "howToEarnPoints/vehicles"
+msgstr "Spesialkjøretøy"
+
+msgid "howToEarnPoints/win/1"
+msgstr "Seier"
+
+msgid "howToEarnPoints/win/27"
+msgstr "Seier"
+
+msgid "howToEarnPoints/win/43"
+msgstr "Seier"
+
+msgid "howToEarnPoints/win/49"
+msgstr "Seier"
+
+msgid "intro/affirmative/button"
+msgstr "Bekreftet!"
+
+msgid "intro/next/button"
+msgstr "Neste"
+
+msgid "intro/seasonDescription/text"
+msgstr "I den 18. sesongen av Battle Pass, har du sjansen til å få eksklusive 3D stiler til sesongens hovedkjøretøy: Maus, IS-7 og AMX&nbsp;50&nbsp;B."
+
+msgid "intro/seasonDescription/title"
+msgstr "Nye tematiserte 3D stiler"
+
+msgid "intro/title"
+msgstr "18. SESONG: PATH TO PERFECTION"
+
+msgid "lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "navigation/buyLevels"
+msgstr "KJØP AV TRINN"
+
+msgid "navigation/buyLevelsRewards"
+msgstr "TRINNBELØNNINGER"
+
+msgid "navigation/buyPass"
+msgstr "KJØP AV FORBEDRET PASS"
+
+msgid "navigation/buyPassConfirm"
+msgstr "KJØP AV FORBEDRET PASS"
+
+msgid "navigation/buyPassRewards"
+msgstr "FORBEDRET PASS BELØNNINGER"
+
+msgid "navigation/chapterChoice"
+msgstr "BATTLE PASS %(seasonNum)s. SESONG"
+
+msgid "navigation/holidayFinal"
+msgstr "BATTLE PASS"
+
+msgid "navigation/intro"
+msgstr "BATTLE PASS %(seasonNum)s. SESONG"
+
+msgid "navigation/postProgression"
+msgstr "BATTLE PASS ELITE CIRCUIT"
+
+msgid "navigation/progression"
+msgstr "BATTLE PASS KAPITTEL"
+
+msgid "navigation/tankmenScreen"
+msgstr "UNIKE BESETNINGSMEDLEMMER"
+
+msgid "points/top"
+msgstr "%(vehicle): %(bonus) for %(top) etter erf.p."
+
+msgid "points/topCount"
+msgstr "de %(top)s beste"
+
+msgid "points/transfer"
+msgstr "Gratispoeng lagt til:"
+
+msgid "postProgressionView/footer/button/text"
+msgstr "Til kapitler"
+
+msgid "postProgressionView/footer/description/text"
+msgstr "Tilgjengelig etter at alle kapitlene er fullført. Fullførte kapitler: %(completedChapters)/%(chaptersAmount)"
+
+msgid "postProgressionView/footer/extraChapter/description/text"
+msgstr "Skaff deg et premiumkjøretøy og eksklusive tilpasningselementer."
+
+msgid "postProgressionView/footer/extraChapter/title/text"
+msgstr "Battle Pass: Far Cry er her!"
+
+msgid "postProgressionView/footer/purchaseIP/banner/text"
+msgstr "Kjøp forbedret pass og få flere belønninger!"
+
+msgid "postProgressionView/footer/purchaseIP/button/text"
+msgstr "Kjøp"
+
+msgid "postProgressionView/header/description/active"
+msgstr "Tjen poeng i kamp og få sedler og kuponger som belønning"
+
+msgid "postProgressionView/header/description/onPause/highlight"
+msgstr "SATT PÅ PAUSE."
+
+msgid "postProgressionView/header/description/onPause/regular"
+msgstr "Blir tilgjengelig etter at du fullfører fremgangen i spesialkapittelet."
+
+msgid "postProgressionView/header/headline/deadline"
+msgstr "Varer frem til %(endDate)s"
+
+msgid "postProgressionView/header/headline/unlocked"
+msgstr "Alle kapitlene fullført"
+
+msgid "postProgressionView/header/title"
+msgstr "ELITE CIRCUIT"
+
+msgid "postProgressionView/progression/currentStep"
+msgstr "Nåværende trinn"
+
+msgid "postProgressionView/progression/cyclesCompleted"
+msgstr "Fullførte sykluser:"
+
+msgid "postProgressionView/progression/cyclicalProgression"
+msgstr "Syklisk fremgang"
+
+msgid "postProgressionView/toolbar/aboutBattlePass"
+msgstr "OM BATTLE PASS"
+
+msgid "postProgressionView/toolbar/howToEarnPoints"
+msgstr "HVORDAN FÅ POENG"
+
+msgid "prestige/top"
+msgstr "%(vehicle): %(bonus) for å være blant de %(top) beste spillerne etter tjente prestisjepoeng."
+
+msgid "progression/about"
+msgstr "OM BATTLE PASS"
+
+msgid "progression/aboutExtra"
+msgstr "OM EVENTET"
+
+msgid "progression/activateChapter"
+msgstr "Aktiver kapittel"
+
+msgid "progression/activateChapterDescr"
+msgstr "Du vil få Battle Pass poeng og andre belønninger for fullførelse av det aktive kapittelet."
+
+msgid "progression/activateExtraChapterDescr"
+msgstr "Du vil få Battle Pass poeng og andre belønninger for fullførelse av det aktive kapittelet."
+
+msgid "progression/activatePausedExtraChapterDescr"
+msgstr "Du vil få poeng til Battle Pass og belønninger for fullførelse av det aktive kapittelet."
+
+msgid "progression/backToCurrentStageArrow/descr"
+msgstr "Klikk for å gå til det nåværende trinnet."
+
+msgid "progression/backToPotentialStageArrow/descr"
+msgstr "Klikk for å gå til trinnet som ikke kan låses."
+
+msgid "progression/baseProgressionDescr"
+msgstr "BASISBELØNNINGER"
+
+msgid "progression/battlePassBuyBtn"
+msgstr "Kjøp forbedret pass"
+
+msgid "progression/battlePassBuyDescr"
+msgstr "Det forbedrede passet åpner sporet for forbedrede belønninger i det inneværende kapittelet."
+
+msgid "progression/battlePassBuyDescrStarterPack"
+msgstr "Åpne de forbedrede belønningene\nog få en bonus"
+
+msgid "progression/battlePassBuyHolidayDescr"
+msgstr "Det forbedrede passet åpner for sporet med forbedrede belønninger."
+
+msgid "progression/battlePassNextChapterBuyDescr"
+msgstr "Fullfør det foregående kapittelet for å kjøpe det forbedrede passet for det dette kapittelet."
+
+msgid "progression/battlePassNextChapterEpisodesDescr"
+msgstr "Fullfør det foregående kapittelet for å kjøpe trinn i dette kapittelet."
+
+msgid "progression/btnExtras"
+msgstr "YTTERLIGERE\nMATERIALER"
+
+msgid "progression/btnExtrasTooltip"
+msgstr "Fullfør trinn og åpne nytt materiell. Åpnet materiell: %(opened) / %(total)."
+
+msgid "progression/btnNoExtrasTooltip"
+msgstr "Fullfør trinn og åpne nytt materiell."
+
+msgid "progression/btnRewardSelect"
+msgstr "HENT BELØNNING"
+
+msgid "progression/btnRewardSelectTooltip"
+msgstr "Klikk for å velge og hent dine belønninger."
+
+msgid "progression/btnRewardsSelect"
+msgstr "HENT BELØNNINGER"
+
+msgid "progression/btnRewardsUnavailable"
+msgstr "Denne handlingen er midlertidig utilgjengelig av tekniske årsaker. Vi arbeider med å fikse feilen."
+
+msgid "progression/btnTokensStore"
+msgstr "TING\nFOR POLLETTER"
+
+msgid "progression/btnTokensStoreTooltip"
+msgstr "Klikk for å se verdifulle enheter for Battle Pass polletter\nTilgjengelige polletter: %(bpcoinCount)."
+
+msgid "progression/chapterText"
+msgstr "KAPITTEL %(chapter)s: %(chapterName)s"
+
+msgid "progression/currentStep"
+msgstr "Nåværende trinn"
+
+msgid "progression/currentStepLocked"
+msgstr "FORBEDRET BELØNNING"
+
+msgid "progression/episodeBuyBtn"
+msgstr "Kjøp trinn"
+
+msgid "progression/episodeBuyDescr"
+msgstr "Du vil få belønninger for hvert trinn du kjøper."
+
+msgid "progression/episodeBuyDisableDescr"
+msgstr "Du kan kjøpe så mange trinn du vil om %(day)"
+
+msgid "progression/error"
+msgstr "Battle Pass er midlertidig utilgjengelig av tekniske årsaker.\nFremgang blir lagret. Vi beklager ulempen."
+
+msgid "progression/errorBtn"
+msgstr "Til garasjen"
+
+msgid "progression/extraChapterWidget/commanderVoices"
+msgstr "Til de andre"
+
+msgid "progression/extraChapterWidget/forLabel"
+msgstr "Til %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/inHangarTooltip"
+msgstr "I garasjen"
+
+msgid "progression/extraChapterWidget/labelWithBP"
+msgstr "Med det forbedrede passet"
+
+msgid "progression/extraChapterWidget/style3DTitle"
+msgstr "3D STIL"
+
+msgid "progression/extraChapterWidget/styleName"
+msgstr "%(styleName)s"
+
+msgid "progression/extraChapterWidget/styleRemark"
+msgstr "Med det forbedrede passet"
+
+msgid "progression/extraChapterWidget/styleSubTitle"
+msgstr "og oppdrag til %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/styleTitle"
+msgstr "Stil"
+
+msgid "progression/extraChapterWidget/tank"
+msgstr "Premiumkjøretøy"
+
+msgid "progression/extraChapterWidget/tank/description/14"
+msgstr "Til minne om at det er 80 år\nsiden D-dagen"
+
+msgid "progression/extraChapterWidget/tankName"
+msgstr "%(vehicleName)s"
+
+msgid "progression/extraChapterWidget/tankman"
+msgstr "Besetningsmedlem"
+
+msgid "progression/extraChapterWidget/timer"
+msgstr "Gjenværende tid før dette kapittelet av Battle Pass er ferdig"
+
+msgid "progression/extraChapterWidget/vehicleCaption"
+msgstr "Premiumkjøretøy"
+
+msgid "progression/extraChapterWidget/vehicleSubTitle"
+msgstr "og 3D stilen %(styleName)s"
+
+msgid "progression/extraChapterWidget/voiceoverTooltip"
+msgstr "Klikk for å lytte til besetningsmedlemmets stemmespor."
+
+msgid "progression/footer/starter_pack/equal"
+msgstr "="
+
+msgid "progression/footer/status/inactive"
+msgstr "Inaktivt kapittel"
+
+msgid "progression/footer/status/paused"
+msgstr "Kapittel satt på pause."
+
+msgid "progression/freePointsDescr"
+msgstr "Ubenyttede Battle Pass poeng: "
+
+msgid "progression/header/chapter/status"
+msgstr "Kapittel %(chapterName)s"
+
+msgid "progression/header/inactive"
+msgstr "inaktivt"
+
+msgid "progression/header/paused"
+msgstr "satt på pause"
+
+msgid "progression/howToEarnPoints/title"
+msgstr "Hvordan tjene poeng"
+
+msgid "progression/pausedStep"
+msgstr "Trinn"
+
+msgid "progression/postProgressionDescr"
+msgstr "ELITEFREMGANG"
+
+msgid "progression/premiumProgressionDescr"
+msgstr "FORBEDREDE BELØNNINGER"
+
+msgid "progression/progressionArrow"
+msgstr "SE\nALLE TRINNENE"
+
+msgid "progression/progressionChapterArrow"
+msgstr "KAPITTEL %(chapter)"
+
+msgid "progression/progressionChapterGoTo"
+msgstr "GÅ TIL"
+
+msgid "progression/season/end/normal"
+msgstr "Den %(seasonNum)s. sesongen: %(seasonName)s varer frem til %(endDate)s"
+
+msgid "progression/season/end/special"
+msgstr "Varer frem til: %(endTime)s"
+
+msgid "progression/seasonEndingDescr"
+msgstr "Eventet slutter om "
+
+msgid "progression/seasonEndingTooltip"
+msgstr "Dager til slutt: {day} d"
+
+msgid "progression/takeReward"
+msgstr "Hent belønningen"
+
+msgid "progression/universalCommander"
+msgstr "Unikt besetningsmedlem"
+
+msgid "progression/widget3dStyle/currentStyle"
+msgstr "%(name) stil"
+
+msgid "progression/widget3dStyle/forVehicle"
+msgstr "For "
+
+msgid "progression/widget3dStyle/titleForClosedChapter"
+msgstr "Fullfør det foregående kapittelet\nfor å velge en stil"
+
+msgid "progression/widget3dStyle/titleForLastChapter"
+msgstr "Velg kapittelstilen.\nDen kan settes på med det samme"
+
+msgid "progression/widget3dStyle/titleNoChapterSelected"
+msgstr "Aktiver et kapittel for å få en 3D stil"
+
+msgid "progression/widget3dStyle/viewStyles"
+msgstr "Se alle stilene"
+
+msgid "questChainBonus"
+msgstr "En serie med oppdrag"
+
+msgid "randomQuestBonus"
+msgstr "Oppdrag for %(vehicle)s"
+
+msgid "reward/postBattle/comp7/progress"
+msgstr "Poeng for å bli blant de beste spillerne etter tjente prestisjepoeng:"
+
+msgid "reward/postBattle/comp7/progress/tooltip"
+msgstr "Poeng for å bli blant de beste spillerne etter tjente prestisjepoeng: %(points)d"
+
+msgid "reward/postBattle/progress"
+msgstr "Trinnfremgang:"
+
+msgid "reward/postBattle/progress/battle/tooltip"
+msgstr "For å være blant de beste spillerne"
+
+msgid "reward/postBattle/progress/bonus/tooltip"
+msgstr "For å nå kjøretøyets poenggrense"
+
+msgid "reward/postBattle/progress/points"
+msgstr "Battle Pass. Å tjene poeng"
+
+msgid "reward/postBattle/progress/points/battle"
+msgstr "For å være blant de beste spillerne:"
+
+msgid "reward/postBattle/progress/points/bonus"
+msgstr "For å nå kjøretøyets poenggrense:"
+
+msgid "reward/postBattle/progress/points/quest"
+msgstr "For fullførelse av oppdrag:"
+
+msgid "reward/postBattle/progress/points/wotPlusCore"
+msgstr "WoT Plus Pro bonus:"
+
+msgid "reward/postBattle/progress/points/wotPlusPro"
+msgstr "WoT Plus Pro bonus:"
+
+msgid "reward/postBattle/progress/pointsAux"
+msgstr "Poeng tjent:"
+
+msgid "reward/postBattle/progress/pointsAux/tooltip"
+msgstr "Gratispoeng lagt til"
+
+msgid "reward/postBattle/progress/quests/tooltip"
+msgstr "For fullførelse av oppdrag"
+
+msgid "reward/postBattle/progress/tooltip"
+msgstr "Trinnfremgang"
+
+msgid "reward/postBattle/title"
+msgstr "%(level)d. trinn av kapittel %(chapter)s"
+
+msgid "reward/postBattle/title/free"
+msgstr "Battle Pass: Å tjene gratispoeng"
+
+msgid "reward/postBattle/title/postProgression"
+msgstr "%(level)d. trinn i Elite Circuit"
+
+msgid "rewardChoice/crewBook/rewardDescription"
+msgstr "erfaring til hvert besetningsmedlem i det valgte kjøretøyet fra %(nation)s"
+
+msgid "rewardChoice/subTitle"
+msgstr "VELG DIN BELØNNING"
+
+msgid "rewardChoice/title"
+msgstr "BATTLE PASS"
+
+msgid "rewardChoice/titleChapter"
+msgstr "BATTLE PASS: KAPITTEL %(chapter)s"
+
+msgid "rewardChoice/titleChapterLevel"
+msgstr "BATTLE PASS: KAPITTEL %(chapter)s, %(level)s. TRINN"
+
+msgid "season/fullName/1002"
+msgstr "Carmen de Bisonte"
+
+msgid "season/fullName/20"
+msgstr "Searching the Sands"
+
+msgid "season/fullNameUppercased/1002"
+msgstr "CARMEN DE BISONTE"
+
+msgid "season/fullNameUppercased/20"
+msgstr "SEARCHING THE SANDS"
+
+msgid "selectBonus/battle_booster_gift"
+msgstr "Direktiver å velge fra"
+
+msgid "selectBonus/blueprint_gift"
+msgstr "Tegningsdeler å velge fra"
+
+msgid "selectBonus/brochure_gift"
+msgstr "Treningshefter å velge fra"
+
+msgid "selectBonus/crewbook_gift"
+msgstr "Treningsmanualer å velge fra"
+
+msgid "selectBonus/guide_gift"
+msgstr "Treningsguider å velge fra"
+
+msgid "selectBonus/modernized_device_gift"
+msgstr "Eksperimentelt utstyr å velge fra"
+
+msgid "selectBonus/new_device_gift"
+msgstr "Standardutstyr å velge fra"
+
+msgid "selectBonus/trophy_gift"
+msgstr "Skuddpremieutstyr å velge fra"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "styleProgressBonus"
+msgstr "Oppgrader stilen %(styleName)s til nivå %(level)s"
+
+msgid "styleProgression/finalLevel"
+msgstr "Høyeste nivået for stilen %(styleName)s"
+
+msgid "styleProgression/newLevel"
+msgstr "Nytt nivå for stilen %(styleName)s"
+
+msgid "styleProgression/newStyle"
+msgstr "Første nivået til stilen %(styleName)s"
+
+msgid "tankmenVoiceover/chapterButton"
+msgstr "Til kapittelet"
+
+msgid "tankmenVoiceover/inShop"
+msgstr "I en spesialpakke"
+
+msgid "tankmenVoiceover/listen"
+msgstr "Lytt"
+
+msgid "tankmenVoiceover/notFull"
+msgstr "Tilgjengelig %(availableCount)s av %(count)s"
+
+msgid "tankmenVoiceover/progression"
+msgstr "På fremgangstrinn %(progressionLevel)s"
+
+msgid "tankmenVoiceover/received"
+msgstr "Mottatt"
+
+msgid "tankmenVoiceover/shopButton"
+msgstr "Til butikken"
+
+msgid "tankmenVoiceover/title"
+msgstr "UNIKE BESETNINGSMEDLEMMER"
+
+msgid "tankmenVoiceover/unavailable"
+msgstr "Ikke tilgjengelig"
+
+msgid "title/earningPoints"
+msgstr "Inntjening av poeng"
+
+msgid "title/freePoints"
+msgstr "Gratispoeng"
+
+msgid "title/stage"
+msgstr "{{level}}. trinn"
+
+msgid "tooltip/cardButton/disabled/body"
+msgstr "Handlingen er midlertidig utilgjengelig. Prøv igjen senere."
+
+msgid "tooltip/freePoints/body"
+msgstr "Gratispoeng akkumuleres og blir automatisk lagt til i din konto etter at du aktiverer et nytt Battle Pass kapittel."
+
+msgid "tooltip/freePoints/header"
+msgstr "Gratispoeng"
+
+msgid "tooltip/lock"
+msgstr "Belønninger ikke tilgjengelig. Kjøp det forbedrede passet for å få dem."
+
+msgid "tooltips/RandomQuestTooltip/condition"
+msgstr "Vilkår: %(condition)"
+
+msgid "tooltips/RandomQuestTooltip/expireTime"
+msgstr "Oppdraget er tilgjengelig %(whiteSpanish_Open)sfrem til %(day)s %(month)s%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/consumables"
+msgstr "%(whiteSpanish_Open)sForbruksmateriell:%(whiteSpanish_Close)s Førstehjelpssett, reparasjonssett og brannslukkere."
+
+msgid "tooltips/RandomQuestTooltip/rewards/directives"
+msgstr "%(whiteSpanish_Open)sDirektiver%(whiteSpanish_Close)s for utstyr"
+
+msgid "tooltips/RandomQuestTooltip/rewards/money"
+msgstr "%(whiteSpanish_Open)sCredits, sedler og fri erfaring%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/personal_reserves"
+msgstr "%(whiteSpanish_Open)sPersonlig reserve%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/premium"
+msgstr "%(whiteSpanish_Open)sDager med WoT premiumkonto%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/standardEquipment"
+msgstr "%(whiteSpanish_Open)sStandardutstyr%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewardsTitle"
+msgstr "Du får følgende belønninger ved å fullføre daglige oppdrag:"
+
+msgid "tooltips/RandomQuestTooltip/title"
+msgstr "Oppdrag til %(vehicleName)"
+
+msgid "tooltips/battlePassCoins/secondaryText"
+msgstr "Polletter tildeles over tre Battle Pass sesonger i løpet av ett år. Bruk dem klokt."
+
+msgid "tooltips/battlePassCoins/text"
+msgstr "En verdifull valuta i spillet som tildeles for fullførelse av trinn i Battle Pass. Polletter kan veksles til spesialbelønninger i avdelingen for pollettveksling i butikken."
+
+msgid "tooltips/battlePassCoins/title"
+msgstr "Battle Pass pollett"
+
+msgid "tooltips/battlePassPoints/completed"
+msgstr "Alle Battle Pass kapitlene og fremgangstrinnene fullført."
+
+msgid "tooltips/battlePassPoints/description"
+msgstr "Automatiskt lagt til i Battle Pass fremgangen."
+
+msgid "tooltips/battlePassPoints/title"
+msgstr "Poeng til Battle Pass"
+
+msgid "tooltips/battlePassQuestsChain/secondaryText"
+msgstr "Oppdrag er tilgjengelige for fullførelse i tilfeldige kamper og storkamper."
+
+msgid "tooltips/battlePassQuestsChain/text"
+msgstr "Åpner en serie med oppdrag, der du ved fullførelse kan få ytterligere ressurser i spillet: "
+
+msgid "tooltips/battlePassQuestsChain/title"
+msgstr "Tilgang til en serie med oppdrag"
+
+msgid "tooltips/battlePassTaler/secondaryText"
+msgstr "Tjen chips ved å komme rykke opp i Battle Pass fremgangen"
+
+msgid "tooltips/battlePassTaler/text"
+msgstr "Chips kan brukes til å kjøpe tilpasningselementer og besetningsmedlemmer fra foregående sesonger, økonomiske ressurser og mer i Battle Pass hvelvet."
+
+msgid "tooltips/battlePassTaler/title"
+msgstr "Chips"
+
+msgid "tooltips/claimRewards/0"
+msgstr "Basisbelønninger mottatt"
+
+msgid "tooltips/claimRewards/1"
+msgstr "Velg belønninger for det fullførte trinnet"
+
+msgid "tooltips/claimRewards/multiple"
+msgstr "Velg belønninger for de fullførte trinnene"
+
+msgid "tooltips/commanders/chose"
+msgstr "ELLER"
+
+msgid "tooltips/commanders/descr"
+msgstr "Fullfør det siste trinnet og få et av de unike besetningsmedlemmene i belønning."
+
+msgid "tooltips/commanders/title"
+msgstr "Ett av to besetningsmedlemmer"
+
+msgid "tooltips/completed/claimRewards"
+msgstr "Alle belønningene mottatt"
+
+msgid "tooltips/completed/finalLevel"
+msgstr "Alle kapitlene og fremgangstrinnene fullført"
+
+msgid "tooltips/completed/got"
+msgstr "Belønning hentet"
+
+msgid "tooltips/completed/message"
+msgstr "Nå kan du bruke akkumulerte poeng fra Battle Pass i poengavdelingen i butikken i spillet."
+
+msgid "tooltips/completed/oneChapterSubTitle"
+msgstr "KAPITTEL FULLFØRT"
+
+msgid "tooltips/completed/rewardsObtained"
+msgstr "Basisbelønninger mottatt"
+
+msgid "tooltips/completed/subTitle"
+msgstr "ALLE KAPITLENE FULLFØRT"
+
+msgid "tooltips/completed/tankmenNotRecieved"
+msgstr "Pakker som inneholder unike besetningsmedlemmer er tilgjengelig i butikken."
+
+msgid "tooltips/completed/title"
+msgstr "Battle Pass"
+
+msgid "tooltips/entryPoint/disabled/body"
+msgstr "Battle Pass er midlertidig utilgjengelig av tekniske årsaker.\nFremgang blir lagret. Vi beklager ulempen."
+
+msgid "tooltips/entryPoint/disabled/header"
+msgstr "Battle Pass er midlertidig utilgjengelig"
+
+msgid "tooltips/entryPoint/disabled/mapbox"
+msgstr "Battle Pass er midlertidig utilgjengelig i rekognoseringsoppdrag av tekniske årsaker.\nAll fremgang blir lagret. Vi beklager ulempen."
+
+msgid "tooltips/extra/daysAndHours"
+msgstr "%(D)s d %(H)s t"
+
+msgid "tooltips/extra/min"
+msgstr "%(m)s min"
+
+msgid "tooltips/footerBuyBtn/activateChapter/descr"
+msgstr "Du vil få Battle Pass poeng og andre belønninger for fullførelse av det aktive kapittelet."
+
+msgid "tooltips/footerBuyBtn/battlePass/descr"
+msgstr "Du kan kjøpe det forbedrede passet når som helst. Det vil umiddelbart gi deg alle de forbedrede belønningene for det inneværende kapittelet for allerede fullførte trinn. Du får også både basis og forbedrede belønninger for hvert påfølgende trinn du fullfører."
+
+msgid "tooltips/footerBuyBtn/battlePass/nextChapter"
+msgstr "Fullfør det foregående kapittelet for å kjøpe trinn i dette kapittelet."
+
+msgid "tooltips/footerBuyBtn/episode/descr"
+msgstr "Ved å kjøpe trinn får du umiddelbart deres basis og forbedrede belønninger. Trinn kjøpes separat for hvert kapittel."
+
+msgid "tooltips/footerBuyBtn/episode/holidayDescr"
+msgstr "Ved å kjøpe trinn vil du umiddelbart få deres basis- og forbedrede belønninger."
+
+msgid "tooltips/goldMission/description"
+msgstr "%(highlight)s Du får ikke gull for dagene du går glipp av."
+
+msgid "tooltips/goldMission/highlightedDescription"
+msgstr "Merk:"
+
+msgid "tooltips/goldMission/text"
+msgstr "%(duration)s kan du tjene %(count)s %(icon)s gull hver dag du kjemper i en tilfeldig kamp."
+
+msgid "tooltips/goldMission/textDuration"
+msgstr "I %(days)s dager"
+
+msgid "tooltips/goldMission/title"
+msgstr "Daglig gull"
+
+msgid "tooltips/iconLock/descr1"
+msgstr "Du får flere trinnbelønninger ved å kjøpe det forbedrede passet. Det kjøpes separat i hvert kapittel og virker for det inneværende kapittelet. Med det forbedrede passet får du både basis og forbedrede belønninger for hvert påfølgende trinn du fullfører."
+
+msgid "tooltips/iconLock/descr2"
+msgstr "Du kan kjøpe det forbedrede passet når som helst. Det vil umiddelbart gi deg alle de forbedrede belønningene for de fullførte trinnene i det kapittelet du kjøpte det forbedrede passet for. Du kan forbedre belønningene dine på hovedskjermbildet for Battle Pass ved å klikke på knappen for Kjøp forbedret pass."
+
+msgid "tooltips/iconLock/holidayDescr1"
+msgstr "Du kan forstørre listen over trinnbelønninger ved å kjøpe det forbedrede passet. Fra da av vil du få både basis- og forbedrede belønninger for hvert påfølgende fullførte trinn."
+
+msgid "tooltips/iconLock/holidayDescr2"
+msgstr "Du kan kjøpe det forbedrede passet når som helst. Det vil umiddelbart gi deg alle de forbedrede belønningene for de fullførte trinnene. Du kan forbedre belønningene dine på hovedskjermbildet for Battle Pass ved å klikke på knappen for Kjøp forbedret pass."
+
+msgid "tooltips/iconLock/title"
+msgstr "Forbedret belønning fra Battle Pass"
+
+msgid "tooltips/inProgress/baseReward"
+msgstr "Basisbelønning"
+
+msgid "tooltips/inProgress/battleRoyale"
+msgstr "\"Steel Hunter\""
+
+msgid "tooltips/inProgress/chapter"
+msgstr "Kapittel \"%(name)\""
+
+msgid "tooltips/inProgress/epic"
+msgstr "Frontlinje"
+
+msgid "tooltips/inProgress/getPointsFrom"
+msgstr "Regler for tjening av poeng i %(battleType)s."
+
+msgid "tooltips/inProgress/hurryUp"
+msgstr "Kjøp det forbedrede passet for å få alle de forbedrede belønningene for fullførte trinn!"
+
+msgid "tooltips/inProgress/improvedReward"
+msgstr "Forbedret belønning"
+
+msgid "tooltips/inProgress/level"
+msgstr "Nåværende trinn"
+
+msgid "tooltips/inProgress/playGame/comp7"
+msgstr "Regler for tjening av poeng for kjøretøy på nivå 10 i %(bond_Open)sOnslaught%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/comp7_light"
+msgstr "Regler for tjening av poeng for kjøretøy på nivå 8 i %(bond_Open)sOnslaught Light%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/mapbox"
+msgstr "Reglene for å legge til poeng i Battle Pass i %(bond_Open)srekognoseringsoppdrag%(bond_Close)s for kjøretøy på nivåene 8–10."
+
+msgid "tooltips/inProgress/playGame/randoms"
+msgstr "Regler for tjening av poeng i %(bond_Open)stilfeldige kamper%(bond_Close)s for kjøretøy på nivå 4–11."
+
+msgid "tooltips/inProgress/playGame/ranked"
+msgstr "Regler for inntjening av poeng i kjøretøy på nivå 10 i rangerte kamper."
+
+msgid "tooltips/inProgress/playGame/winback"
+msgstr "Regler for tjening av poeng i %(bond_Open)stilfeldige kamper: Oppvarming%(bond_Close)s for kjøretøy på nivå 4–11."
+
+msgid "tooltips/inProgress/postProgression/header"
+msgstr "ELITE CIRCUIT"
+
+msgid "tooltips/inProgress/timeLeft"
+msgstr "Gjenværende tid med Battle Pass"
+
+msgid "tooltips/inProgress/wotPlusProFooter"
+msgstr "Inntjening med WoT Plus Pro"
+
+msgid "tooltips/notChosen/description"
+msgstr "Du må velge et kapittel for å få registrert fremgang og få verdifulle belønninger."
+
+msgid "tooltips/notChosen/points"
+msgstr "Ubenyttede Battle Pass poeng: %(points)"
+
+msgid "tooltips/notChosen/subTitle"
+msgstr "VELG KAPITTEL"
+
+msgid "tooltips/notChosen/title"
+msgstr "Battle Pass"
+
+msgid "tooltips/notStarted/date"
+msgstr "%(day)s %(month)s"
+
+msgid "tooltips/plusBanner/text"
+msgstr "{{@ style (color $color1)}}Battle Pass Plus:{{/}} Tilgjengelig med {{@ style (color $color2)}}WoT Plus Pro{{/}}. Tjen flere Battle Pass poeng (gjelder ikke for spesialkapitler)."
+
+msgid "tooltips/points/footer"
+msgstr "Du kan lære mer om hvordan man tjener poeng i ulike spillmodi i Hvordan tjene poeng menyen."
+
+msgid "tooltips/points/rules"
+msgstr "Du mottar poeng i tilfeldige kamper på følgende måte:"
+
+msgid "tooltips/points/specialVehicles"
+msgstr "Hovedkjøretøyene for sesongen får mer poenger:"
+
+msgid "tooltips/points/subtitle"
+msgstr "Poeng i Battle Pass lar deg rykke videre i fremgangen. Du tjener poeng og fremgang ved å kjempe i kjøretøy på nivå 4–11 i tilfeldige kamper og andre spillmodi, i tillegg til ved å fullføre spesialoppdrag og ved å nå kjøretøyets poenggrense."
+
+msgid "tooltips/points/title"
+msgstr "Poeng til Battle Pass"
+
+msgid "tooltips/pointsTable/header"
+msgstr "Inntjeningsvilkår"
+
+msgid "tooltips/pointsTable/lose"
+msgstr "Tap og uavgjort"
+
+msgid "tooltips/pointsTable/loseWithoutDraw"
+msgstr "Tap"
+
+msgid "tooltips/pointsTable/place"
+msgstr "Plassering %(place)"
+
+msgid "tooltips/pointsTable/places"
+msgstr "Plasseringer %(place)"
+
+msgid "tooltips/pointsTable/solo"
+msgstr "Solo"
+
+msgid "tooltips/pointsTable/squad"
+msgstr "Tropp"
+
+msgid "tooltips/pointsTable/topPlace"
+msgstr "Blant de %(place) beste etter tjente erfaringspoeng"
+
+msgid "tooltips/pointsTable/win"
+msgstr "Seier"
+
+msgid "tooltips/postProgress/body"
+msgstr "Elitefremgang begynner etter fullførelse av hovedfremgangstrinn %(maxLevelBase). Den gir deg muligheten til å tjene verdifull spillvaluta. Fullførelse av elitefremgangstrinnene krever ikke det forbedrede passet."
+
+msgid "tooltips/postProgress/header"
+msgstr "Elitefremgang"
+
+msgid "tooltips/prestigePoints/lose"
+msgstr "Tap & uavgjort"
+
+msgid "tooltips/prestigePoints/loseWithoutDraw"
+msgstr "Tap"
+
+msgid "tooltips/prestigePoints/topPlace"
+msgstr "Blant de %(place) beste etter tjente prestisjepoeng"
+
+msgid "tooltips/prestigePoints/win"
+msgstr "Seier"
+
+msgid "tooltips/progression/freePoints/body"
+msgstr "Dersom intet kapittel er valgt, akkumuleres ubenyttede Battle Pass poeng som senere kan legges til i et hvilket som helst aktivert kapittel før den nåværende sesongen av Battle Pass Season slutter. Ellers vil disse poengene blir fjernet."
+
+msgid "tooltips/progression/freePoints/bodyExceptExtra"
+msgstr "Dersom intet kapittel er valgt, akkumuleres ubenyttede Battle Pass poeng som senere kan legges til i et hvilket som helst aktivert kapittel (bortsett fra det siste kapittelet) før den nåværende sesongen av Battle Pass Season slutter. Ellers vil disse poengene blir fjernet."
+
+msgid "tooltips/progression/freePoints/header"
+msgstr "Ubenyttede Battle Pass poeng"
+
+msgid "tooltips/rewardCompensation/description/credits"
+msgstr "Hovedvalutaen i spillet.\nTjent i kamper eller kjøpt med gull."
+
+msgid "tooltips/rewardCompensation/description/gold"
+msgstr "En verdifull spillvaluta. Du kan bruke det til å kjøpe WoT premium konto, kjøretøy, eller konvertere erfaring, osv."
+
+msgid "tooltips/rewardCompensation/footer"
+msgstr "Kompensasjon for en enhet du allerede har."
+
+msgid "tooltips/styleUpgrade/chosen/levelWord"
+msgstr "Nivå"
+
+msgid "tooltips/styleUpgrade/chosen/subtitle"
+msgstr "Passer til kjøretøy"
+
+msgid "tooltips/styleUpgrade/chosen/text"
+msgstr "Oppgraderer kapittelstilen til %(levelWord) %(level)"
+
+msgid "tooltips/styleUpgrade/chosen/title"
+msgstr "%(styleName) stiloppgradering"
+
+msgid "tooltips/styleUpgrade/notChosen/text"
+msgstr "For å velge en stil, klikk den valgte stilknappen ved begynnelsen av Battle Pass kapittelet."
+
+msgid "tooltips/styleUpgrade/notChosen/title"
+msgstr "Progressiv kapittelstiloppgradering"
+
+msgid "tooltips/styleUpgrade/notChosen/warning"
+msgstr "Kapittelstil ikke valgt."
+
+msgid "tooltips/styleUpgrade/paragraphBottom"
+msgstr "Hvis du ikke kan oppgradere stilen til det høyeste nivået i løpet av fremgangen i Battle Pass, vil du få muligheten til å oppgradere det i skjermbildet for eksteriør i garasjen etter at den inneværende Battle Pass sesongen er over."
+
+msgid "tooltips/styleUpgrade/paragraphTop"
+msgstr "Den valgte kapittelstilen blir automatisk oppgradert ett nivå når dette trinnet er fullført."
+
+msgid "tooltips/styles/descr"
+msgstr "Etter fullførelse av det siste trinnet vil du kunne velge en av belønningsstilene."
+
+msgid "tooltips/styles/footer"
+msgstr "Kjøp av det forbedrede passet vil gi deg begge stilene så snart du velger din siste belønning."
+
+msgid "tooltips/styles/name"
+msgstr "Passer til %(name)"
+
+msgid "tooltips/styles/style"
+msgstr "%(name) stil"
+
+msgid "tooltips/styles/title"
+msgstr "En av to 3D stiler"
+
+msgid "tooltips/unlockBattlePass"
+msgstr "Kjøp det forbedrede passet for å åpne sporet for forbedrede belønninger."
+
+msgid "tooltips/unlockBattlePassForPostProgression"
+msgstr "Kjøp det forbedrede passet for hvert kapittel og få flere belønninger."
+
+msgid "tooltips/vehiclePoints/award"
+msgstr "Belønning for å ha nådd poenggrensen"
+
+msgid "tooltips/vehiclePoints/comp7"
+msgstr "Kjemp i Onslaught modusen, tjen poeng for effektivt spill, fullfør Battle Pass fremgangstrinn og få belønninger."
+
+msgid "tooltips/vehiclePoints/comp7_light"
+msgstr "Tjen poeng for effektive handlinger i kamper i Onslaught Light for å rykke opp i Battle Pass fremgangstrinn og få belønninger."
+
+msgid "tooltips/vehiclePoints/continuePlaying"
+msgstr "Kjemp i andre kjøretøy for videre fremgang i trinn."
+
+msgid "tooltips/vehiclePoints/descr"
+msgstr "Kjemp i tilfeldige kamper, tjen poeng for effektivt spill, fullfør Battle Pass fremgangstrinn og få belønninger."
+
+msgid "tooltips/vehiclePoints/mapbox"
+msgstr "Kjemp i rekognoseringsoppdrag, tjen poeng for effektivt spill, fullfør Battle Pass fremgangstrinn og få belønninger."
+
+msgid "tooltips/vehiclePoints/pointsObtained"
+msgstr "Poenggrense nådd"
+
+msgid "tooltips/vehiclePoints/ranked"
+msgstr "Kjemp i rangerte kamper, tjen poeng for effektivt spill, fullfør Battle Pass fremgangstrinn og få belønninger."
+
+msgid "tooltips/vehiclePoints/special/descr"
+msgstr "Ved å kjempe i sesongens hovedkjøretøy vil du tjene mer fremgangspoeng."
+
+msgid "tooltips/vehiclePoints/title"
+msgstr "Poeng til Battle Pass"
+
+msgid "trophyDeviceUpgradeConfim/cancel"
+msgstr "Avbryt"
+
+msgid "trophyDeviceUpgradeConfim/message"
+msgstr "Disse karakteristikaene vil endres:"
+
+msgid "trophyDeviceUpgradeConfim/submit"
+msgstr "Oppgradér"
+
+msgid "trophyDeviceUpgradeConfim/submitTooltip"
+msgstr "Ikke nok credits til å oppgradere"
+
+msgid "trophyDeviceUpgradeConfim/title"
+msgstr "Oppgradere {deviceName}\nutstyret?"
+
+msgid "trophyDeviceUpgradeConfim/title/template"
+msgstr "{deviceName}"
+
+msgid "universalTankmanBonus"
+msgstr "Universalt besetningsmedlem: %(name)s"

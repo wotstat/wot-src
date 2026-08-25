@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Тъй вярно!"
+
+msgid "awardsView/subTitle"
+msgstr "ИЗИГРАНИ БИТКИ: {number}"
+
+msgid "awardsView/title"
+msgstr "РАЗУЗНАВАТЕЛНА МИСИЯ"
+
+msgid "buttonDisable/tooltip"
+msgstr "Недостъпно"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Разписание"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Неуспешно влизане в битка"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Битките завършиха"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Неуспешно влизане в битка"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "На този сървър действа примирие. Моля изберете друг сървър."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Можете да влезете в битка само с %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Несъвместимо ниво на машина"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "Машини ниво %(levels)s"
+
+msgid "intro/button"
+msgstr "Тъй вярно!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Вашата обратна връзка ни помага да подобрим бойните полета. Оставете вашите мисли за новите механики на картата и ние ще добавим най-добрите идеи към играта."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Ключови отзиви"
+
+msgid "intro/modeInfoDescription"
+msgstr "Бийте се с машини ниво VIII–X на карти с нови механики, попълвайте проучвания и получавайте награди. След седмица напредъкът ще бъде нулиран и можете да започнете да печелите награди отново."
+
+msgid "intro/modeInfoTitle"
+msgstr "Помогнете ни да разработим новите механики!"
+
+msgid "intro/startEvent"
+msgstr "Събитието започва след: "
+
+msgid "intro/taskInfoDescription"
+msgstr "При игра в Разузнавателна мисия можете да изпълнявате ежедневни мисии и мисии за Боен пропуск и да изпълнявате условията за етапни декали."
+
+msgid "intro/taskInfoTitle"
+msgstr "Играйте според правилата на Случайна битка"
+
+msgid "intro/time/period/day"
+msgstr "{day} д."
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} д. {hours} ч."
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} ч. {min} мин."
+
+msgid "intro/time/period/minute"
+msgstr "{min} мин."
+
+msgid "intro/title"
+msgstr "РАЗУЗНАВАТЕЛНА МИСИЯ"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s не може да се сражава в Разузнавателна мисия."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Несъвместим вид машина"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Изберете %(levelSubStr)s, за да участвате в Разузнавателна мисия."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Несъвместимо ниво на машина"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "машина ниво %(levels)s"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s не може да се сражава в Разузнавателна мисия."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Несъвместима машина"
+
+msgid "mapboxTab"
+msgstr "Разузнавателна мисия"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Етапът на сървър %(server)s завърши"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Сървър %(server)s\nБитките ще бъдат достъпни още %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Сървър %(server)s\nБитките ще бъдат достъпни след %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "На всички сървъри е в сила примирие"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Този режим не е наличен на сървър %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Битките на сървър %(server)s ще бъдат достъпни още %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Битките ще започнат на сървър %(server)s след %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Битките в този режим са недостъпни: сезонът завърши."
+
+msgid "primeTimeView/status/untill"
+msgstr "На сървър %(server)s е в сила примирие до %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "РАЗУЗНАВАТЕЛНА МИСИЯ"
+
+msgid "primeTimes/availableServer"
+msgstr "Достъпен сървър:"
+
+msgid "primeTimes/availableServers"
+msgstr "Достъпни сървъри:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Битките завършиха"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Този режим не е наличен на сървър %(serverName)s"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Изиграйте битки"
+
+msgid "progression/cardTitle/rating"
+msgstr "Бъдете сред топ {rating} играчи по спечелен опит"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Бъдете сред топ {rating} играчи по спечелен опит на карта с пожар"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Бъдете сред топ {rating} играчи по спечелен опит на карта с мъгла"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Бъдете сред топ {rating} играчи по спечелен опит на карта със силен дъжд"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Бъдете сред топ {rating} играчи по спечелен опит на карта с пясъчни бури"
+
+msgid "progression/changeAnswer"
+msgstr "Промени отговор"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Сражавайте се с машини ниво VIII–X на карти с нови механики, попълвайте проучвания и получавайте награди."
+
+msgid "progression/info/restart"
+msgstr "Напредъкът с награди ще бъде нулиран след %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Бъдете сред топ %(rating) играчи по спечелен опит: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "ЗА СЪБИТИЕТО"
+
+msgid "progression/map_01_karelia"
+msgstr "КАРЕЛИЯ"
+
+msgid "progression/map_02_malinovka"
+msgstr "МАЛИНОВКА"
+
+msgid "progression/map_05_prohorovka"
+msgstr "ПРОХОРОВКА"
+
+msgid "progression/map_18_cliff"
+msgstr "УЕСТФИЛД"
+
+msgid "progression/map_all"
+msgstr "ИГРОВА\nМЕХАНИКА"
+
+msgid "progression/map_fire"
+msgstr "ПОЖАР"
+
+msgid "progression/map_fog"
+msgstr "МЪГЛА"
+
+msgid "progression/map_heavy_rain"
+msgstr "СИЛЕН ДЪЖД"
+
+msgid "progression/map_sandstorm"
+msgstr "ПЯСЪЧНА БУРЯ"
+
+msgid "progression/redirect"
+msgstr "Премини към режима"
+
+msgid "progression/startInterview"
+msgstr "Попълни анкетата"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Изпълнете горното условие, за да участвате в анкета."
+
+msgid "progression/startSpecialInterview"
+msgstr "Попълни анкетата"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Изпълнете горното условие, за да участвате в анкета."
+
+msgid "progression/subtitle"
+msgstr "Тук можете да попълните анкетата за новите механики"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s д."
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s ч. %(min)s мин."
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 мин."
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s мин."
+
+msgid "progression/title"
+msgstr "РАЗУЗНАВАТЕЛНА МИСИЯ"
+
+msgid "progressionError/description/line1"
+msgstr "Напредъкът ви е запазен. Можете да продължите да играете."
+
+msgid "progressionError/description/line2"
+msgstr "Скоро ще можете да видите напредъка си и да попълните анкета."
+
+msgid "progressionError/title"
+msgstr "Подробностите за Разузнавателна мисия са временно недостъпни"
+
+msgid "questFlag/complete"
+msgstr "Всички награди са получени"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Бийте се в %(highlightedText)s, попълвайте анкети и получавайте награди."
+
+msgid "questFlag/frozen/header"
+msgstr "Разузнавателната мисия е недостъпна"
+
+msgid "questFlag/frozen/text"
+msgstr "Битките за Разузнавателна мисия са временно недостъпни по технически причини."
+
+msgid "questFlag/highlightedText"
+msgstr "Машини ниво VIII–X на карти с нови механики"
+
+msgid "questFlag/incomplete"
+msgstr "Битки за изиграване за получаване на следващата награда: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Изиграни битки:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Попълнени анкети: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Изследването на карти с нови механики ще започне на %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Изследването на карти с нови механики ще продължи до %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Разписание"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Сезонът завършва след:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Разписание на битките"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Днес"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Утре"
+
+msgid "serverAlertMessage/button"
+msgstr "Избери друг сървър"
+
+msgid "survey/backBtn"
+msgstr "Назад"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "САУ"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "СТ"
+
+msgid "survey/fire/question/q1"
+msgstr "Хареса ли ви да играете на картата Мурованка с механиката пожар?"
+
+msgid "survey/fire/question/q2"
+msgstr "Какво е мнението ви за визуалния дизайн на пожара на картата Мурованка?"
+
+msgid "survey/fire/question/q3"
+msgstr "Искате ли да коригирате влиянието на пожара върху геймплея на картата Мурованка?"
+
+msgid "survey/fire/question/q4"
+msgstr "Как точно бихте искали да коригирате влиянието на пожара върху геймплея на картата Мурованка?"
+
+msgid "survey/fire/question/q5"
+msgstr "С кои видове машини сте играли на картата Мурованка?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Как се промени играта с {value} на картата Мурованка?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Как се промени играта с {value} на картата Мурованка?"
+
+msgid "survey/fire/question/q7"
+msgstr "Искате ли да видите пожар на картите в Случайни битки?"
+
+msgid "survey/fire/question/q8"
+msgstr "Какво не ви хареса в механиката за пожар на картата Мурованка?"
+
+msgid "survey/fire/question/q9"
+msgstr "Посочете всички необходими подобрения."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Да"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Не"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Не съм сигурен"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Хареса ми"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Добре е"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Не ми хареса"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Не съм сигурен"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Да"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Не"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Не съм сигурен"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Усилете го"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Отслабете го"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "САУ"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "СТ"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Не помня"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "По-добре е"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "По-зле е"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Няма промяна"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Не съм сигурен"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "По-добре е"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "По-зле е"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Няма промяна"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Не съм сигурен"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Да"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Не"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Не съм сигурен"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Пожарът силно намалява броя на наличните позиции"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Един от отборите печели предимство"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Технически проблеми"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Друго"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Пожарът причинява твърде много поражения"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Противниците извън зоната не могат да видят машината ми, но и аз не мога да видя тяхната"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Местоположението на пожара на картата"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Начина, по който изглежда огънят"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Твърде голямо влияние върху геймплея на картата"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Твърде незначително влияние върху геймплея на картата"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Огнените визуализации пречат на битката"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Пожарът принуждава играчите да играят битка от близко разстояние"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Преден пост"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Фиорди"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Преден пост"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Фиорди"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Преден пост"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Фиорди"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "САУ"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "СТ"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "САУ"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "СТ"
+
+msgid "survey/fog/question/q1"
+msgstr "Хареса ли ви да играете следните карти с механиката мъгла?"
+
+msgid "survey/fog/question/q10"
+msgstr "Искате ли да видите мъгла на картите в Случайни битки?"
+
+msgid "survey/fog/question/q11"
+msgstr "Какво не ви хареса в механиката за мъгла на картата Фиорди?"
+
+msgid "survey/fog/question/q12"
+msgstr "Какво не ви хареса в механиката за мъгла на картата Преден пост?"
+
+msgid "survey/fog/question/q13"
+msgstr "Посочете всички необходими подобрения."
+
+msgid "survey/fog/question/q2"
+msgstr "Какво е мнението ви за визуалния дизайн на мъглата на следните карти?"
+
+msgid "survey/fog/question/q3"
+msgstr "Искате ли да коригирате влиянието на мъглата върху геймплея на картата?"
+
+msgid "survey/fog/question/q4"
+msgstr "Как точно бихте искали да коригирате влиянието на мъглата върху геймплея на картата Фиорди?"
+
+msgid "survey/fog/question/q5"
+msgstr "Как точно бихте искали да коригирате влиянието на мъглата върху геймплея на картата Преден пост?"
+
+msgid "survey/fog/question/q6"
+msgstr "С кои видове машини сте играли на картата Фиорди?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Как се промени играта с {value} на картата Фиорди?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Как се промени играта с {value} на картата Фиорди?"
+
+msgid "survey/fog/question/q8"
+msgstr "С кои видове машини сте играли на картата Преден пост?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Как се промени играта с {value} на картата Преден пост?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Как се промени играта с {value} на картата Преден пост?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Да"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Не"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Не мога да преценя"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Противниците извън зоната не могат да видят машината ми, но и аз не мога да видя тяхната"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Друго"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Местоположението на мъглата на картата"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Начинът, по който изглежда мъглата"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Твърде голямо влияние върху геймплея на картата"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Твърде незначително влияние върху геймплея на картата"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Визуализациите на мъглата пречат на битката"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Мъглата принуждава играчите да играят битка от близко разстояние"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Един от отборите печели предимство"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Технически проблеми"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Противниците извън зоната не могат да видят машината ми, но и аз не мога да видя тяхната"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Друго"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Местоположението на мъглата на картата"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Начинът, по който изглежда мъглата"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Твърде голямо влияние върху геймплея на картата"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Твърде незначително влияние върху геймплея на картата"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Визуализациите на мъглата пречат на битката"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Мъглата принуждава играчите да играят битка от близко разстояние"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Един от отборите печели предимство"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Технически проблеми"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Да"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Не"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Не съм сигурен"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Хареса ми"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Добре е"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Не ми хареса"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Не съм сигурен"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Да"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Не"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Не съм сигурен"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Усилете го"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Отслабете го"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Усилете го"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Отслабете го"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "САУ"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "СТ"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Не помня"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "По-добре е"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "По-зле е"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Няма промяна"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Не съм сигурен"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "По-добре е"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "По-зле е"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Няма промяна"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "САУ"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "СТ"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Не помня"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "По-добре е"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "По-зле е"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Няма промяна"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "По-добре е"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "По-зле е"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Няма промяна"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Уестфилд"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Рибарски залив"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Уестфилд"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Рибарски залив"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Уестфилд"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Рибарски залив"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "САУ"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "СТ"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "САУ"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "СТ"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Хареса ли ви да играете следните карти с механиката силен дъжд?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Искате ли да видите силен дъжд на картите в Случайни битки?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Какво не ви хареса в механиката за силен дъжд на картата Уестфийлд?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Какво не ви хареса в механиката за силен дъжд на картата Рибарски залив?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Посочете всички необходими подобрения."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Какво е мнението ви за визуалния дизайн на силен дъжд на следните карти?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Искате ли да коригирате влиянието на силния дъжд върху геймплея на картата?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Как точно бихте искали да коригирате влиянието на силния дъжд върху геймплея на картата Уестфийлд?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Как точно бихте искали да коригирате влиянието на силния дъжд върху геймплея на картата Рибарски залив?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "С кои видове машини сте играли на картата Уестфийлд?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Как се промени играта с {value} на картата Уестфийлд?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Как се промени играта с {value} на картата Уестфийлд?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "С кои видове машини сте играли на картата Рибарски залив?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Как се промени играта с {value} на картата Рибарски залив?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Как се промени играта с {value} на картата Рибарски залив?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Да"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Не"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Не мога да преценя"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Твърде хлъзгаво е в зоната на силни дъждове"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Технически проблеми"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Друго"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Противниците извън зоната не могат да видят машината ми, но и аз не мога да видя тяхната"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Местоположението на силния дъжд на картата"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Как изглежда силният дъжд"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Твърде голямо влияние върху геймплея на картата"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Твърде незначително влияние върху геймплея на картата"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Визуализациите на силния дъжд пречат на битката"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Силният дъжд принуждава играчите да водят битка от близко разстояние"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Един от отборите печели предимство"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Твърде хлъзгаво е в зоната на силни дъждове"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Технически проблеми"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Друго"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Противниците извън зоната не могат да видят машината ми, но и аз не мога да видя тяхната"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Местоположението на силния дъжд на картата"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Как изглежда силният дъжд"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Твърде голямо влияние върху геймплея на картата"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Твърде незначително влияние върху геймплея на картата"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Визуализациите на силния дъжд пречат на битката"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Силният дъжд принуждава играчите да водят битка от близко разстояние"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Един от отборите печели предимство"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Да"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Не"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Не мога да преценя"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Хареса ми"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Добре е"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Не ми хареса"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Да"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Не"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Не мога да преценя"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Усилете го"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Отслабете го"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Усилете го"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Отслабете го"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "САУ"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "СТ"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Не помня"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "По-добре е"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "По-зле е"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Няма промяна"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "По-добре е"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "По-зле е"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Няма промяна"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "САУ"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "СТ"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Не помня"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "По-добре е"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "По-зле е"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Няма промяна"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "По-добре е"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "По-зле е"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Няма промяна"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Напред"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Тъй вярно!"
+
+msgid "survey/required"
+msgstr "Отговорете на въпроса, за да продължите."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "САУ"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "СТ"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Хареса ли ви да играете на картата Пясъчна река с механиката пясъчна буря?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Какво е мнението ви за визуалния дизайн на пясъчната буря на картата Пясъчна река?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Искате ли да коригирате влиянието на пясъчнаите бури върху геймплея на картата Пясъчна река?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Как точно бихте искали да коригирате влиянието на пясъчните бури върху геймплея на картата Пясъчна река?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "С кои видове машини сте играли на картата Пясъчна река?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Как се промени играта с {value} на картата Пясъчна река?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Как се промени играта с {value} на картата Пясъчна река?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Искате ли да видите пясъчни бури на картите в Случайни битки?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Какво не ви хареса в механиката за пясъчна буря на картата Пясъчна река?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Посочете всички необходими подобрения."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Да"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Не"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Не мога да преценя"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Хареса ми"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Добре е"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Не ми хареса"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Да"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Не"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Не мога да преценя"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Усилете го"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Отслабете го"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "САУ"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "ТТ"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "ЛТ"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "СТ"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Не помня"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "По-добре е"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "По-зле е"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Няма промяна"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "По-добре е"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "По-зле е"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Няма промяна"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Не мога да преценя"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Да"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Не"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Не мога да преценя"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Противниците извън зоната не могат да видят машината ми, но и аз не мога да видя тяхната"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Друго"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Местоположението на пясъчната буря на картата"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Как изглеждат пясъчните бури"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Твърде голямо влияние върху геймплея на картата"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Твърде незначително влияние върху геймплея на картата"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Визуализациите на пясъчната буря пречат на битката"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Пясъчната буря принуждава играчите да играят битка от близко разстояние"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Един от отборите печели предимство"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Технически проблеми"
+
+msgid "survey/subTitle"
+msgstr "Благодарим ви, че отделихте време, за да участвате в тази анкета! Ще отнеме около две минути. Вашите отговори ще бъдат обработвани само за целите на провеждане на тази анкета и всякакви лични данни ще бъдат изтрити съгласно нашата Политика за поверителност."
+
+msgid "survey/template/final/title"
+msgstr "Благодарим ви, че отделихте време, за да участвате в тази анкета!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "НАТИСНЕТЕ ВЪРХУ КАРТАТА, ЗА ДА ИЗБЕРЕТЕ ПОЗИЦИЯ"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "МОЖЕТЕ ДА ИЗБЕРЕТЕ ДО ТРИ ПОЗИЦИИ НА КАРТАТА"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Подробно описание (до %(maxLength)s знака)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Позиция"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Премахни позиция"
+
+msgid "survey/template/opened/description"
+msgstr "Подробно описание на проблема (до %(maxLength)s знака)"
+
+msgid "survey/title/common"
+msgstr "Моля, оценете новите функции"
+
+msgid "survey/title/map"
+msgstr "Оценка на картата %(map)s"

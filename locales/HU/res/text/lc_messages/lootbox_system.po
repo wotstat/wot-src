@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Legénység és kiképzés"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Testreszabási elemek"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Felszerelések és direktívák"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Egyéb"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Járművek"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Értettem!"
+
+msgid "autoOpenView/title"
+msgstr "MEGSZERZETT JUTALMAK"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Értettem!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Direktíva"
+
+msgid "bonuses/description/booster"
+msgstr "Személyes tartalék"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Legénység kinézet"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Normál felszerelés"
+
+msgid "bonuses/description/style"
+msgstr "2D-stílus"
+
+msgid "bonuses/description/style3D"
+msgstr "3D-stílus"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Tervrajztöredék (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Univerzális tervrajztöredék"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Battle Pass-token"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Kinyitásakor egy járművet, nyersanyagot és egyéb értékes jutalmakat szerezhetsz belőle.\nA dobozok a játékon belüli Boltban kaphatók."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "nyitás van hátra a garantált jutalomig, ha addig nem kapod meg."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "A dobozok a játékon belüli Boltban kaphatók."
+
+msgid "common/backButton"
+msgstr "VISSZA"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Taktikai doboz"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TAKTIKAI DOBOZ"
+
+msgid "common/closeButton"
+msgstr "BEZÁRÁS"
+
+msgid "common/footer/checkbox"
+msgstr "Nyitási animáció"
+
+msgid "common/getButton/lowerCase"
+msgstr "Szerezz többet"
+
+msgid "common/getButton/upperCase"
+msgstr "SZEREZZ TÖBBET"
+
+msgid "common/infoButton"
+msgstr "Mi van benne?"
+
+msgid "common/loader"
+msgstr "A doboz kinyitása..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) db."
+msgstr[1] "%(count) db."
+msgstr[2] "%(count) db."
+
+msgid "common/rewards/multiplier"
+msgstr "{count}x"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "nap"
+msgstr[1] "nap"
+msgstr[2] "nap"
+
+msgid "common/selectTooltip"
+msgstr "Nincs elég doboz {{count}} kinyitásához egyszerre."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Nyiss ki dobozokat a statisztika megtekintéséhez."
+
+msgid "common/statistics/header"
+msgstr "Kinyitott dobozok: %(count)"
+
+msgid "common/statsButton"
+msgstr "Statisztika"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Mégse"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "A jutalmak előzményei törlődnek."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Törlés"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Törlöd a statisztikákat?"
+
+msgid "entryPoint/boxes"
+msgstr "A DOBOZOKHOZ"
+
+msgid "entryPoint/count"
+msgstr "%(count)×"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "999+×"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ezek különleges dobozok, amelyek új és egyedi tárgyakat tartalmaznak. A játékon belüli Boltban lehet őket beszerezni."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Az esemény ekkor ér véget: "
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Technikai problémába ütköztünk, és ideiglenesen felfüggesztettük az eseményt, amíg kijavítjuk."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Átmenetileg nem érhető el"
+
+msgid "eventName/lowerCase"
+msgstr "Harctéri ellátmány"
+
+msgid "eventName/upperCase"
+msgstr "HARCTÉRI ELLÁTMÁNY"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "minden %(count). nyitáskor"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "jármű"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "Garantált %(item) %(count). A számláló újraindul, ha előbb megkapod a jutalmat."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Ha az összes járművel rendelkezel már, akkor aranyat kapsz helyettük."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) %(count) nyitásból"
+
+msgid "guaranteedTitle/textName"
+msgstr "Garantált jutalom"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Kinyitás"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Az esemény ekkor ér véget: %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ha nem nyitod ki a dobozokat az esemény végéig, automatikusan kinyitjuk őket."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ha már rendelkezel a dobozok lehetséges tartalmának listáján szereplő összes járművel, akkor a dobozokból kapott minden további jármű teljes értékét aranyban kompenzáljuk."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Minden %(guaranteed0)s. doboz garantáltan tartalmaz egy VIII–X-es szintű járművet. Ha a dobozok kinyitásakor nem kapsz egy ilyen járművet sem, akkor %(guaranteed0)s&zwnbsp;. dobozod kinyitásakor (a doboz típusától függően) kapsz egy olyan VIII–X-es szintű járművet, amilyennel még nem rendelkezel. Ha kapsz egy járművet, a számláló visszaáll."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Automatikus kinyitás"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompenzáció"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Garantált jutalom"
+
+msgid "infoPage/header/lootListLink"
+msgstr "A tárgyak listájának megtekintése a játék portálján"
+
+msgid "infoPage/header/probability/description"
+msgstr "Megszerzési esély"
+
+msgid "infoPage/header/probability/title"
+msgstr "Csoportos"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Csoportonként legfeljebb egy jutalom eshet"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Jutalmak"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Nyiss ki többet"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Ebből: %(name) (%(boxesCount) doboz kinyitva)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "MEGSZERZETT JUTALMAK"
+
+msgid "noBoxesView/description/"
+msgstr "A dobozok a játékon belüli Boltban kaphatók"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Irány a Bolt!"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Az elérhető dobozokhoz"
+
+msgid "preview/backLabel"
+msgstr "A DOBOZOKHOZ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Elérhető: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nincs több doboz"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Folytatás"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "a következőhöz: %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "%(style) 3D-stílusod"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "A(z) «%(eventName)s» esemény véget ért"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Minden megmaradt dobozt ki fogunk nyitni. A tartalmukat hozzáadjuk a fiókodhoz."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Jutalmak"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Jutalmakat kaptál"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Hozzáadtuk azokat a tárgyakat, amelyeket nem kaptál meg az esemény során."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Az esemény karbantartás miatt átmenetileg nem érhető el."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Az esemény ismét elérhető. Elnézést kérünk a kellemetlenségért."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s db)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Megszerzett jutalmak:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Hiba"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Kérjük, várj, amíg az előző művelet befejeződik."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "A művelet átmenetileg nem érhető el. Próbálkozz újra később!"
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Az eseményhez"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "A(z) «%(eventName)s» esemény elkezdődött"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Csak eddig: %(date)s – prémium járművek és értékes játékbeli tárgyak!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Nem sikerült visszaállítani a statisztikákat. Kérjük, próbálkozz újra később."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "És még"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Nyiss ki többet"
+
+msgid "singleRewardView/header/title/"
+msgstr "MEGSZERZETT JUTALMAK"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Egyedi harckocsizó"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D-kiegészítők"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Küldetések 5x XP-ért csatánként"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Direktívák"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Tervrajztöredékek"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Füzetek"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Képzési füzetek"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Fogyócikkek"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Kredit"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Kézikönyvek"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Képzési kézikönyvek"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Küldetések 3x legénységi XP-ért"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Kötvények"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Testreszabási elemek"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Fejlesztett felszerelések"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Komponensek"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Kísérleti felszerelések"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Szabad XP"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Arany"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Útmutatók"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Képzési útmutatók"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Mentorálási engedély"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Normál felszerelések"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Személyes tartalékok"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoT prémium fiók"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Pótellátmány"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Átképzési parancsok"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D-stílusok"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D-stílusok"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Harckocsizók"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Jutalomfelszerelések"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Járművek"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Statisztikák törlése"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Kattints az összes statisztika visszaállításához."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "És még %(count) jutalom."
+msgstr[1] "És még %(count) jutalom."
+msgstr[2] "És még %(count) jutalom."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "«%(label)»"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "%(count)x"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Nemzeti tervrajztöredék"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). «%(label)» ehhez: %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Kompenzált stílusok: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Kompenzált járművek: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Kompenzáció a Garázsodban már megtalálható járműért."

@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Překladatel WoT <noreply@wargaming.net>\nLanguage-Team: WoT Tým <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Antialiasing"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Určuje míru dodatečného zpracování tenkých linií a obrysů herních objektů. Minimalizuje efekt vyhlazování hran.\n\n• Vysoká – FXAA\n• Maximální – Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Dynamická úprava"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Zapněte nebo vypněte automatickou úpravu rozlišení 3D renderování v závislosti na zatížení grafické karty.\n\nZapnutí této volby může vylepšit výkon hry. Rozlišení renderování v garáži zůstává vždy stejné."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Kvalita zvláštních efektů"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Určuje kvalitu zobrazení jisker od odražených střel, explozí, kouře a dalších vizuálních efektů.\n\nSnížení hodnoty tohoto parametru může zlepšit výkon hry."
+
+msgid "FAR_PLANE"
+msgstr "Vzdálenost vykreslování"
+
+msgid "FAR_PLANE/description"
+msgstr "Určuje vzdálenost zobrazení detailů reliéfu, budov, nepřátelských vozidel a dalších herních objektů."
+
+msgid "FLORA_QUALITY"
+msgstr "Hustota trávy"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Určuje hustotu trávy zobrazené v arkádovém a odstřelovacím režimu."
+
+msgid "HAVOK_ENABLED"
+msgstr "Vylepšená fyzika ničení"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "VYPNUTO"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "ZAPNUTO"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Zapíná podrobnější a reálnější zpracování ničení objektů na mapách.\n\nVypnutí tohoto parametru může zlepšit výkon hry."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Pokud je nastavení ve stávající bitvě vypnuto, pak se projeví až v další bitvě."
+
+msgid "LANGUAGE_CODE"
+msgstr "cs"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Kvalita osvětlení"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Přesnost nastavení slunečních paprsků, osvětlení a optických efektů.\n\nZvýšení hodnoty tohoto parametru znatelně zvyšuje zatížení grafické karty."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Efekt pohybové neostrosti"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Určuje kvalitu efektu pohybové neostrosti obrazu, když se vozidlo pohybuje a kamera se otáčí."
+
+msgid "MSAA_QUALITY"
+msgstr "Antialiasing"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Určuje míru dalšího zpracování tenkých linií a obrysů herních objektů. Minimalizuje efekt vyhlazování hran.\n\n• Nízká — MSAA 2x\n• Střední — MSAA 4x\n• Vysoká — MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Detaily načítaných objektů"
+
+msgid "OBJECT_LOD/description"
+msgstr "Určuje počet zobrazených objektů a jejich kvalitu."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Následné zpracování"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Určuje kvalitu následného zpracování vizuálních efektů: chvění vzduchu v důsledku tepla a efektů rázových vln, korekce barevných vad, vinětace, efektu zrnitosti filmu atd.\n\nSnížení hodnoty tohoto parametru může zlepšit výkon hry."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Grafika"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Vylepšená: zajišťuje maximální kvalitu obrazu.\n\nZjednodušená: zajišťuje maximální výkon prostřednictvím zjednodušení nebo zakázání některých vizuálních efektů."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Grafika:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Změny tohoto parametru se projeví po restartování hry."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Průhlednost listoví"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Určuje jak bude zobrazeno listoví okolních stromů a keřů.\n\nVypnutí tohoto parametru zobrazí listoví okolních stromů a keřů jako úplně neviditelné, což může zlepšit výkon hry."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Verze shaderů"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Kvalita stínů"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Určuje kvalitu dynamického zpracování stínů na celé vykreslované vzdálenosti.\n\nSnížení hodnoty tohoto parametru může znatelně zlepšit výkon hry."
+
+msgid "SMOKE_ENABLED"
+msgstr "Kouř"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Zvláštní efekty v odstřelovacím režimu"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Určuje kvalitu zobrazení jisker od odražených střel, explozí, kouře a dalších realistických efektů v odstřelovacím režimu.\n\nSnížení hodnoty tohoto parametru může zlepšit výkon hry."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Zobrazit trávu v odstřelovacím režimu"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Zobrazuje trávu v odstřelovacím režimu.\n\nVypnutí tohoto parametru může zlepšit výkon hry."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Mozaikování terénu v odstřelovacím režimu"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Zvyšuje kvalitu terénu v okruhu 50 metrů od vašeho vozidla v odstřelovacím režimu. K dispozici pouze tehdy, když je zapnuta volba „Mozaikování terénu“.\n\nVypnutí tohoto parametru může zlepšit výkon hry."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Kvalita vegetace"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Určuje kvalitu vykreslování stromů, keřů a trávy."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Kvalita krajiny"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Určuje kvalitu vykreslování detailů reliéfu mapy.\n\nMinimální kvalitu krajiny používejte pouze v případě nízkého výkonu počítače.\n\nSnížení hodnoty tohoto parametru může způsobit desynchronizaci zobrazení krajiny mezi klientem a serverem."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Použití vybraného parametru může nějakou dobu trvat."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Mozaikování terénu"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Hardwarově urychlený proces přidávání nových trojúhelníků do polygonové sítě, aby se zvýšily její detaily.\n\nTato funkce funguje pouze s:\n• Vylepšenou grafikou\n• Vysokou, maximální nebo ultra kvalitou terénu\n• Nainstalovanými DirectX 11.\n\nZměny nastavení nejsou k dispozici s verzemi staršími než DirectX 11.\n\nVypnutí tohoto parametru může zlepšit výkon hry."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Kvalita textur"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Kvalita povrchů herních objektů, obzvláště při pohledu zblízka.\n\nSnížení hodnoty tohoto parametru může zlepšit výkon hry."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Použití vybraného parametru může nějakou dobu trvat."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Fyzika pásů"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Určuje kvalitu simulace fyziky zničených a funkčních pásů a grafickou kvalitu pásů.\n\nSnížení nebo vypnutí tohoto parametru může zlepšit výkon hry."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Povolit efekty pásů a kol"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Zobrazuje cákance bahna, sněhu a vody za pásy a koly.\n\nVypnutí tohoto parametru může zlepšit výkon hry."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Povolit stopy pásů a kol"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Zobrazuje na zemi stopy pásů a kol.\n\nNedostupné se zjednodušenou grafikou a nízkou kvalitou obtisků."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Skrýt 3D doplňky v odstřelovacím režimu"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Dočasně skryje v zaměřovači děla v odstřelovacím režimu 3D doplňky vozidla.\n\nSnižuje vizuální rušení a zvyšuje přesnost míření."
+
+msgid "WATER_QUALITY"
+msgstr "Kvalita vodní hladiny"
+
+msgid "WATER_QUALITY/description"
+msgstr "Určuje kvalitu vykreslování vodní hladiny."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Pouze slabý pancíř."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Když je aktivní, Rozbor pancíře zobrazí pouze slabý pancíř cíle.\n\nPancíř s vysokou šancí probití je zvýrazněn plnou zelenou barvou, zatímco pancíř se střední šancí na probití je poloprůhledně zelený. Barvy se mohou v Alternativním režimu (pro barvoslepé) lišit."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Zvýraznit pouze slabý pancíř"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Pouze silný pancíř"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Když je aktivní, Rozbor pancíře zobrazí pouze silný pancíř cíle.\n\nPancíř s téměř nulovou šancí na probití je zvýrazněn plnou červenou barvou, zatímco pancíř se střední šancí na probití je poloprůhledně červený. Barvy se mohou v Alternativním režimu (pro barvoslepé) lišit."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Zvýraznit pouze silný pancíř"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Veškerý pancíř"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Když je aktivní, Rozbor pancíře zobrazí veškerý pancíř cíle.\n\nPancíř s téměř nulovou šancí na probití je zvýrazněn červenou barvou, pancíř s velkou šancí na probití je zelený a pancíř se střední šancí na probití je žlutý. Barvy se mohou v Alternativním režimu (pro barvoslepé) lišit."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Zvýraznit veškerý pancíř"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Zvýraznění pancíře"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Zapnout na začátku bitvy"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Výchozí stav Rozboru pancíře na začátku bitvy. Rozbor můžete kdykoli zapnout nebo vypnout pomocí přiřazené klávesové zkratky.\n\nPokud je tato funkce zapnutá, Rozbor pancíře funguje pouze v odstřelovacím režimu.\n\nPodporované herní režimy:\n• náhodné bitvy a týmový výcvik;\n• Frontová linie;\n• bitvy Arkádového automatu;\n• Nápor;\n• určité herní režimy a akce. \n\nV budoucnu mohou být podporovány další režimy a akce."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Zapnout na začátku bitvy"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Textura Rozboru pancíře"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Pevná"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Řídký vzor"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Hustý vzor"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Neprůhlednost"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Varování ohledně výkonu"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Vysoké"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Nízké"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Střední"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Rozlišení Rozboru pancíře"
+
+msgid "aim/cassette"
+msgstr "Zásobníky"
+
+msgid "aim/centralTag"
+msgstr "Centrální značka"
+
+msgid "aim/centralTag/type0"
+msgstr "A-tvar I"
+
+msgid "aim/centralTag/type1"
+msgstr "A-tvar II"
+
+msgid "aim/centralTag/type10"
+msgstr "O-tvar I"
+
+msgid "aim/centralTag/type11"
+msgstr "O-tvar II"
+
+msgid "aim/centralTag/type12"
+msgstr "A-tvar IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A-tvar V"
+
+msgid "aim/centralTag/type2"
+msgstr "A-tvar III"
+
+msgid "aim/centralTag/type3"
+msgstr "V-tvar"
+
+msgid "aim/centralTag/type4"
+msgstr "Nitkový kříž I"
+
+msgid "aim/centralTag/type5"
+msgstr "Nitkový kříž II"
+
+msgid "aim/centralTag/type6"
+msgstr "T-tvar"
+
+msgid "aim/centralTag/type7"
+msgstr "I-tvar"
+
+msgid "aim/centralTag/type8"
+msgstr "Záměrný bod I"
+
+msgid "aim/centralTag/type9"
+msgstr "Záměrný bod II"
+
+msgid "aim/condition"
+msgstr "Stav"
+
+msgid "aim/gunTag"
+msgstr "Ukazatel polohy děla"
+
+msgid "aim/gunTag/type0"
+msgstr "A-tvar I (s ukazatelem šance prostřelení pancíře)"
+
+msgid "aim/gunTag/type1"
+msgstr "A-tvar II (s ukazatelem nabíjení)"
+
+msgid "aim/gunTag/type10"
+msgstr "O-tvar II (s ukazatelem nabíjení)"
+
+msgid "aim/gunTag/type11"
+msgstr "O-tvar III"
+
+msgid "aim/gunTag/type12"
+msgstr "A-tvar IV (s ukazatelem šance prostřelení pancíře)"
+
+msgid "aim/gunTag/type13"
+msgstr "A-tvar V (s ukazatelem nabíjení)"
+
+msgid "aim/gunTag/type14"
+msgstr "A-tvar VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A-tvar III"
+
+msgid "aim/gunTag/type3"
+msgstr "Nitkový kříž I (s ukazatelem šance prostřelení pancíře)"
+
+msgid "aim/gunTag/type4"
+msgstr "Nitkový kříž II (s ukazatelem nabíjení)"
+
+msgid "aim/gunTag/type5"
+msgstr "Nitkový kříž III"
+
+msgid "aim/gunTag/type6"
+msgstr "Záměrný bod I (s ukazatelem šance prostřelení pancíře)"
+
+msgid "aim/gunTag/type7"
+msgstr "Záměrný bod II (s ukazatelem nabíjení)"
+
+msgid "aim/gunTag/type8"
+msgstr "Záměrný bod III"
+
+msgid "aim/gunTag/type9"
+msgstr "O-tvar I (s ukazatelem šance prostřelení pancíře)"
+
+msgid "aim/mixing"
+msgstr "Míření"
+
+msgid "aim/mixing/type0"
+msgstr "Kruh I (s ukazatelem nabíjení) "
+
+msgid "aim/mixing/type1"
+msgstr "Kruh II (s posuvným ukazatelem nabíjení)"
+
+msgid "aim/mixing/type2"
+msgstr "Kruh III (bez ukazatele nabíjení)"
+
+msgid "aim/mixing/type3"
+msgstr "Kruh IV (pevný)"
+
+msgid "aim/mixing/type4"
+msgstr "Nitkový kříž (s posuvným ukazatelem nabíjení)"
+
+msgid "aim/mixing/type5"
+msgstr "Nitkový kříž II"
+
+msgid "aim/mixing/type6"
+msgstr "Test"
+
+msgid "aim/net"
+msgstr "Ukazatel"
+
+msgid "aim/net/type0"
+msgstr "Diagonální"
+
+msgid "aim/net/type1"
+msgstr "Horizontální"
+
+msgid "aim/net/type2"
+msgstr "Radiální"
+
+msgid "aim/net/type3"
+msgstr "Čárkovaný"
+
+msgid "aim/reloader"
+msgstr "Nabíjení"
+
+msgid "aim/reloaderTimer"
+msgstr "Ukazatel nabíjení"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Přepnutí do dělostřeleckého pohledu"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Poslední použitý"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Pohled shora"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Náhled trajektorie"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Automatický přepínač režimu zaměřování"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Při rolování kolečkem myši a dosažení určité hodnoty přiblížení se zaměřovač přepne na „pohled shora“ nebo „náhled trajektorie“."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Automatický přepínač režimu zaměřování"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Plynulé přiblížení kamery"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Zobrazit ukazatele linie palby"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Ukázat/skrýt ukazatele, které zobrazují, zda vybraný granát dosáhne zaměřeného bodu. Zobrazují také dobu letu granátu."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Ukazatele linie palby"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Ukázat ukazatel pozice kamery"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Ukázat/skrýt ukazatel, který zobrazuje úroveň přiblížení zaměřovací kamery dělostřelectva."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Ukazatel pozice kamery"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Ovládání kamery"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternativní"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Standardní"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "Ve standardním režimu ovládání kamery se kamera pohybuje nahoru, dolů, doleva a doprava. V alternativním režimu ovládání kamery se kamera pohybuje dopředu, dozadu a okolo pozice dělostřelectva."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Ovládání kamery"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Ukazatel přiblížení"
+
+msgid "alternativeVoices/labels"
+msgstr "Hlasová oznámení v bitvě"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Hlasové zprávy v bitvě"
+
+msgid "apply_button"
+msgstr "Použít"
+
+msgid "autodetectButton"
+msgstr "Doporučená"
+
+msgid "autodetectButton/description"
+msgstr "Určuje optimální nastavení obrazu pro váš počítač.\n\nToto může nějaký čas trvat."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Obdržet pochvaly v bitvě"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Ukázat osobní příkazy"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Vyznačit komunikaci na týmovém panelu"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Ukázat na mapě orientační značky"
+
+msgid "battlecomm/showMarkers"
+msgstr "Ukázat v náhodných bitvách značky základen"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Ukázat připnuté značky"
+
+msgid "borderlessSize"
+msgstr "V okně (bez okrajů)"
+
+msgid "borderlessSize/description"
+msgstr "V okně (bez okrajů)"
+
+msgid "cancel_button"
+msgstr "Storno"
+
+msgid "chat/censorshipMessages"
+msgstr "Filtrovat nevhodná slova"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Dostávat zprávy pouze ze seznamu kontaktů"
+
+msgid "chat/disableBattleChat"
+msgstr "Vypnout chat se spojenci"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Pamatovat si pozici kamery a oken kanálů"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Pamatovat si pozici kamery a ostatních oken"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Přijímat pozvánky pouze od přátel v garáži"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Dostávat klanová oznámení"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Přijmout žádost o přátelství"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Přijímat pozvánky do čety v bitvě"
+
+msgid "chat/removeSpam"
+msgstr "Skrýt spam"
+
+msgid "chat/showDateMessage"
+msgstr "Zobrazit ve zprávách datum"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Upozornění na připojení/odpojení uživatelů"
+
+msgid "chat/showTimeMessage"
+msgstr "Zobrazit ve zprávách čas"
+
+msgid "colorCorrection"
+msgstr "Úprava barev"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Nakonfigurovat"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Vlastní nastavení"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Jas"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Kontrast"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Sytost"
+
+msgid "colorSettings/tab/default"
+msgstr "Výchozí"
+
+msgid "colorSettings/tab/filters"
+msgstr "Přednastavené filtry"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Intenzita filtru"
+
+msgid "colorSettings/view/after"
+msgstr "Potom"
+
+msgid "colorSettings/view/before"
+msgstr "Předtím"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "ZAVŘÍT"
+
+msgid "colorSettings/view/description"
+msgstr "Vyberte jednu z možností úpravy obrazu"
+
+msgid "colorSettings/view/header"
+msgstr "Úprava barev"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Vynulovat"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Možnosti úpravy obrazu"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Arkádový režim"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Rozbor pancíře"
+
+msgid "cursor/ArtyTitle"
+msgstr "Dělostřelectvo"
+
+msgid "cursor/ContourTitle"
+msgstr "Vykreslování obrysů"
+
+msgid "cursor/ServerAim"
+msgstr "Používat serverový zaměřovač"
+
+msgid "cursor/SnipperTitle"
+msgstr "Odstřelovací režim"
+
+msgid "cursor/contour/type0"
+msgstr "Standardní"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Při zamíření na nepřátelské vozidlo je vykreslen celý jeho obrys, včetně aplikovaných prvků, které nejsou součástí pancíře a se kterými granáty nemohou interagovat."
+
+msgid "cursor/contour/type1"
+msgstr "Zjednodušené"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Při zamíření na nepřátelské vozidlo je jeho obrys vykreslen pouze s těmi prvky pancíře, se kterými granáty mohou interagovat."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Neprostřelitelná oblast"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Ne"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Plná"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Textura"
+
+msgid "cursor/contourLabel"
+msgstr "Typ vykreslování obrysů"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Prostřelitelná oblast"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Ne"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Plná"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Textura"
+
+msgid "cursor/overlapContour"
+msgstr "Vykreslování překážek"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Aktivace vykreslování může snížit výkon."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Zobrazení překážek granátu při míření na nepřátelské vozidlo.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Vykreslování překážek"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Vykreslování překážek"
+
+msgid "cursorTitle"
+msgstr "Zaměřovač"
+
+msgid "defaultBtn"
+msgstr "Standard"
+
+msgid "defaultNamePrefix"
+msgstr "Hráč"
+
+msgid "dynamicCamera"
+msgstr "Povolit dynamickou kameru"
+
+msgid "dynamicFov"
+msgstr "Dynamický FoV"
+
+msgid "dynamicFov/description"
+msgstr "Dynamický FoV umožňuje nastavit minimální a maximální zorný úhel při míření v režimu arkády.\n\nMaximální úhel se použije, když je kamera oddálena od vozidla.\n\nMinimální úhel se použije při přiblížení na vozidlo."
+
+msgid "dynamicRenderer"
+msgstr "Rozlišení 3D vykreslování"
+
+msgid "dynamicRenderer/description"
+msgstr "Určuje kvalitu a detaily herní scény.\n\nRozlišení 3D vykreslování v bitvě můžete také měnit pomocí [pravého Shiftu +] a [pravého Shiftu -]. Neovlivňuje rozhraní.\n\nSnížení hodnoty tohoto parametru může zlepšit výkon hry u počítačů se slabou grafickou kartou."
+
+msgid "edgeDetectAA"
+msgstr "Chytrá detekce AA"
+
+msgid "feedBack"
+msgstr "Oznámení v bitvě"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Hranice mapy"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Poškození po vašem ochromení"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Body za obsazování základny"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Vynulování bodů za obsazování"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Poškození zastaveno"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Nepřátelské vozidlo zapáleno"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Kritické poškození"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Odhalování"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Poškození díky vašemu odhalování"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Poškození z výstřelu"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Nepřátelské vozidlo zničeno"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Poškození z nárazu"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Pás zničen"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Název události"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Kritické poškození"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Poškození"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Zobrazit v bitvě"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Informace o vozidle"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Poškození dopadem"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Všechny situační schopnosti"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "Tři poslední události\njsou zobrazeny v bitvě"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Události v bitvě"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Oznámení"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Akce"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Schopnosti posádky"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Obdržené poškození"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Výkony v bitvě"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Obdržené poškození"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Skrytí hranic mapy může vést k dezorientaci v bitvě."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Při stisknutí Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Vždy zvýrazněna"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Nezvýrazňovat"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Při přiblížení"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Dodatečné zvýraznění"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Přerušovaná linie"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Nezobrazovat"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Typ hranice"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Zeď"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Ukazatel směru palby"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Palba do spojenců"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Množství poškození"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Výstřel zastaven"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Kritický zásah\nvašeho vozidla"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "3x"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Obdržené poškození"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Modul poškozen"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Informace"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Zobrazit animaci"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Množství poškození"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Dynamické ukazatele"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Informace o vozidle"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Zobrazit v bitvě"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Vše"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Palba do spojenců"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Kritické zásahy"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Kromě kritických"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Pokročilé"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Standardní"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Typ"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Záznam"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Způsobeno díky vašemu ochromení"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Zastavené pancířem"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Poškození s vaší pomocí"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Poškození způsobené vámi"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Zobrazit vždy"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Stisknout Alt pro zobrazení"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Nezobrazovat"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Podrobné poškození"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Všechny události ve spodní části"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Obdržené poškození nahoře"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Pozice událostí"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Všechny události"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Typ události"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Obdržené poškození"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Výkony v bitvě"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Zapnutí tohoto nastavení se nedoporučuje\npro obrazovky s nízkým rozlišením"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Shrnuté poškození"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1 200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1 240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Blok pro podrobné informace o poškození. Ukazuje kompletní informace o vaší efektivitě v bitvě."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Události v bitvě"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Zpráva o bitvách a mise"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Skóre bitvy"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Detaily mise"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Zobrazit ikony vozidel\npodle úrovně"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Zobrazit panel HP týmu"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Zobrazit rozdíl v HP týmů"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Zobrazit množství HP týmu"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Zobrazit vše"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Zobrazit pouze postup"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternativní"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Nezobrazovat"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Standardní"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Zobrazit mise"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Zorné pole (FoV)"
+
+msgid "fov/description"
+msgstr "Rozsah viditelnosti herní kamery.\n\n95° je normální FoV (zorné pole). Čím menší je FoV, tím bližší se zdají objekty, zatímco periferní výhled se snižuje.\n\nNeovlivňuje výkon hry."
+
+msgid "game/anonymizer"
+msgstr "Použijte v bitvě anonymní přezdívku"
+
+msgid "game/battleLoadingInfo"
+msgstr "Tipy na načítací obrazovce bitvy"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Minimapa"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Pouze text"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Ilustrované tipy"
+
+msgid "game/battlePanelSettings"
+msgstr "Rozhraní bitvy"
+
+msgid "game/carouselType"
+msgstr "Panel vozidel"
+
+msgid "game/carouselType/double"
+msgstr "Dvouřadý"
+
+msgid "game/carouselType/single"
+msgstr "Standardní"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Ukázat statistiky při najetí na stání v garáži"
+
+msgid "game/commanderCamEnabled"
+msgstr "Zapnout taktické zobrazení"
+
+msgid "game/customizationDisplayType"
+msgstr "Zobrazení prvků na úpravu vzhledu v bitvě"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Historické, nehistorické a smyšlené"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Historické"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Historické a nehistorické"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Zobrazit vozidla členů čety v garáži"
+
+msgid "game/doubleCarousel/label"
+msgstr "Dvouřadý panel vozidel"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Adaptivní"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimalistický"
+
+msgid "game/dynamicCamera"
+msgstr "Povolit dynamickou kameru"
+
+msgid "game/enableBattleNotifier"
+msgstr "Ukázat v chatu výsledky předchozí bitvy"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Povolit následné efekty v posmrtném režimu"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Povolit optické efekty v odstřelovacím režimu"
+
+msgid "game/enableRepairTimer"
+msgstr "Ukázat dobu oprav poškozených modulů"
+
+msgid "game/enableSpeedometer"
+msgstr "Zobrazit tachometr kolových vozidel"
+
+msgid "game/enableVoIP"
+msgstr "Hlasová komunikace"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Komunikace v bitvě"
+
+msgid "game/fieldset/headerChat"
+msgstr "Chat"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Minimapa"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Označení vozidel"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Animace kamery v garáži při pohybu kurzoru myši"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Rotace kamery v garáži při nečinnosti za"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Animace kamery v garáži"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Nikdy"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 sekund"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 sekund"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 sekund"
+
+msgid "game/horStabilizationSnp"
+msgstr "Horizontální stabilizace v odstřelovacím režimu"
+
+msgid "game/hullLockEnabled"
+msgstr "Zapnout uzamčení korby v odstřelovacím režimu"
+
+msgid "game/increasedZoom/base"
+msgstr "Zapnout %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " a "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "%(zoom)dx"
+
+msgid "game/loginServerSelection"
+msgstr "Zobrazit při spuštění hry výběr serveru"
+
+msgid "game/minimapDrawRange"
+msgstr "Ukázat kruh vykreslování"
+
+msgid "game/minimapGroupTitle"
+msgstr "Minimapa"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Ukázat kruh maximálního dohledu"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Ukázat kruh blízkého odhalování"
+
+msgid "game/minimapViewRange"
+msgstr "Ukázat kruh dohledu"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Tipy"
+
+msgid "game/newbieBattleHints"
+msgstr "Zapnout tipy pro začátečníky v náhodných bitvách"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Zapnout tipy pro začátečníky na načítací obrazovce bitvy"
+
+msgid "game/optimizeGraphics"
+msgstr "Optimalizovat grafiku rozhraní"
+
+msgid "game/playersPanelState/large"
+msgstr "Kompletní panel"
+
+msgid "game/playersPanelState/medium"
+msgstr "Standardní panel"
+
+msgid "game/playersPanelState/none"
+msgstr "Žádný panel"
+
+msgid "game/playersPanelState/short"
+msgstr "Zkrácený panel"
+
+msgid "game/postmortemMode"
+msgstr "Posmrtný režim"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Ukazuje okamžik, kdy bylo vaše vozidlo zničeno (podrobně)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Ukazuje nepřátelské vozidlo, které zničilo vaše vozidlo"
+
+msgid "game/postmortemMode/self"
+msgstr "Ukazuje vaše vozidlo"
+
+msgid "game/postmortemMode/simple"
+msgstr "Ukazuje okamžik, kdy bylo vaše vozidlo zničeno (krátce)"
+
+msgid "game/ppShowLevels"
+msgstr "Zobrazit úroveň vozidla"
+
+msgid "game/ppShowTypes"
+msgstr "Zobrazovat typ vozidla"
+
+msgid "game/ppStartStateLabel"
+msgstr "Typ"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Zapnout velitelskou kameru"
+
+msgid "game/replayEnabled"
+msgstr "Ukládat záznam bitvy"
+
+msgid "game/replayEnabled/all"
+msgstr "Všechny"
+
+msgid "game/replayEnabled/last"
+msgstr "Poslední"
+
+msgid "game/replayEnabled/none"
+msgstr "Ne"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Zobrazení oblasti zásahu dělostřelectva"
+
+msgid "game/showDamageIcon"
+msgstr "Zobrazit oznámení při nezpůsobení poškození"
+
+msgid "game/showDogTag"
+msgstr "Zobrazit vojenskou známku"
+
+msgid "game/showDogTagToKiller"
+msgstr "Zobrazit aplikovanou upravitelnou vojenskou známku"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Zobrazit informace zničenému vozidlu"
+
+msgid "game/showKillersDogTag"
+msgstr "Ukázat vojenskou známku hráče, který vás zničil"
+
+msgid "game/showLanguageBar"
+msgstr "Zobrazit panel jazyků"
+
+msgid "game/showMarksOnGun"
+msgstr "Zobrazit vítězné znaky"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Prohlédnout si svou animovanou vojenskou známku"
+
+msgid "game/showSectorOnMap"
+msgstr "Zobrazit sektor palby pro dělostřelectvo"
+
+msgid "game/showVectorOnMap"
+msgstr "Zobrazit směr pohledu kamery"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Zapnout rozšířené funkce minimapy"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Při stisknutí Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Vždy"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Nikdy"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Ukázat HP vozidel na minimapě"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Při stisknutí Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Vždy"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Nikdy"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Ukázat HP vozidel v panelech týmů"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Při stisknutí Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Vždy"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Nikdy"
+
+msgid "game/showVehicleIcon"
+msgstr "Zobrazit ikonu vozidla"
+
+msgid "game/showVehicleLevel"
+msgstr "Zobrazit úroveň vozidla"
+
+msgid "game/showVehiclesCounter"
+msgstr "Zobrazit značky vozidel na panelu Výsledky bitvy"
+
+msgid "game/showVictimsDogTag"
+msgstr "Zobrazit vojenské známky nepřátel, jež zničíte"
+
+msgid "game/sniperModeByShift"
+msgstr "Omezit přepínání odstřelovacího režimu na klávesu Shift"
+
+msgid "game/sniperZoom"
+msgstr "Preferovaná úroveň přiblížení v odstřelovacím režimu"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Poslední použitá"
+
+msgid "game/switchEquipment"
+msgstr "Přepínání konfigurací na načítací obrazovce"
+
+msgid "game/w2gtEnable"
+msgstr "Zobrazit bojové zóny na minimapě"
+
+msgid "gameTitle"
+msgstr "Obecné"
+
+msgid "gameplay/devMaps"
+msgstr "Hrajte na mapách s náhodnými událostmi"
+
+msgid "gameplay/nations"
+msgstr "Konfrontace"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Konfigurovat"
+
+msgid "gammaWizard/apply"
+msgstr "Použít"
+
+msgid "gammaWizard/cancel"
+msgstr "Storno"
+
+msgid "gammaWizard/closeBtn"
+msgstr "ZAVŘÍT"
+
+msgid "gammaWizard/default"
+msgstr "Standard"
+
+msgid "gammaWizard/description"
+msgstr "Pohybujte posuvníkem, až dokud nebude mít logo a pozadí stejný jas. Částečně přivřete oči nebo se odkloňte od monitoru tak, aby byly detaily obrazu stěží viditelné."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Nastavení gamma"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Umožňuje konfiguraci jasu ve hře tak, aby se dosáhlo optimální kvality\nobrazu na obrazovce. Tato možnost slouží\nke kompenzaci efektů ovladačů grafické karty a nastavení\nzobrazení, které ovlivňují vizuální kvalitu hry."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Grafika"
+
+msgid "graphics/block/effects"
+msgstr "Efekty"
+
+msgid "graphics/block/greenery"
+msgstr "Vegetace"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Terén a voda"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Osvětlení a následné zpracování"
+
+msgid "graphics/block/main"
+msgstr "Hlavní"
+
+msgid "graphics/tabAdvanced"
+msgstr "Detaily"
+
+msgid "graphics/tabScreen"
+msgstr "Obrazovka"
+
+msgid "graphicsQuality"
+msgstr "Kvalita zobrazení grafiky"
+
+msgid "graphicsQuality/description"
+msgstr "Určuje obecnou kvalitu obrazu. Určuje parametry na záložce „Detaily“.\n\nSnížení kvality grafiky může:\n• Zlepšit výkon hry\n• Způsobit desynchronizaci zobrazení krajiny mezi klientem a serverem.\n\nMinimální kvalitu grafiky používejte pouze v případě nízkého výkonu počítače."
+
+msgid "graphicsQualityHDSD"
+msgstr "Typy klienta"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD klient nainstalován"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Nainstalován standardní (SD) klient"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Standardní klient — plná hra bez textur v maximální kvalitě.\n\nHD klient — plná hra včetně textur v maximální kvalitě. Na pevném disku vyžaduje více místa než standardní klient."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Typy klienta"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD klient — úplná hra včetně textur v maximální kvalitě. Na pevném disku vyžaduje více místa než standardní klient.\n\nStandardní klient (SD) — úplná hra bez textur v maximální kvalitě."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Maximální (SD) a Ultra (SD) kvalita grafiky nezajišťuje maximální hodnotu parametru „Kvalita textur“. Nastavení maximální kvality grafiky docílíte přepnutím na HD klienta ve spouštěči hry."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anisotropické 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anisotropické 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anisotropické 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anisotropické 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Bilineární"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Vlastní"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "Film z roku 1940"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Kontrastní"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Vylepšená"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Daleko"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Standardní"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Vysoká"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Nízká"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Velmi nízká"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maximální"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maximální (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Střední"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimální"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Tlumené"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Blízko"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "Vypnuto"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "Vypnuto"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "Zapnuto"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Zjednodušené"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Vylepšené"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Optimální"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotochromatické"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Náhodné"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Standardní"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Hluboké"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Jemné barvy"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilineární"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Velmi vysoká"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Velmi vysoká"
+
+msgid "igbHardwareAcceleration"
+msgstr "Hardwarová akcelerace prohlížeče"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Když je toto nastavení zapnuto, bude se webový obsah vykreslovat pomocí GPU namísto CPU.\n\nVypněte ho, pokud se potýkáte s potížemi při vykreslování obsahu některých oken.\n\nZměna bude aktivní po restartu hry."
+
+msgid "interfaceScale"
+msgstr "Měřítko rozhraní"
+
+msgid "interfaceScale/attention"
+msgstr "Funkce se testuje;\nneovlivňuje výkon hry."
+
+msgid "interfaceScale/body"
+msgstr "Automatická změna měřítka prvků rozhraní\npři maximalizaci herní obrazovky/okna."
+
+msgid "interfaceScale/description"
+msgstr "Automatická změna měřítka prvků rozhraní při maximalizaci herní obrazovky/okna."
+
+msgid "interfaceScale/header"
+msgstr "Změna měřítka rozhraní"
+
+msgid "interfaceScale/warning"
+msgstr "Funkce se testuje; neovlivňuje výkon hry."
+
+msgid "interfaceScaleDisabled"
+msgstr "Měřítko rozhraní"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Dostupné pouze pro 4K monitory."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Automatická změna měřítka prvků rozhraní\npři maximalizaci herní obrazovky/okna."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Automatická změna měřítka prvků rozhraní při maximalizaci herní obrazovky/okna."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Měřítko rozhraní"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Dostupné pouze pro 4K monitory."
+
+msgid "isColorBlind"
+msgstr "Alternativní barvy (pro barvoslepé)"
+
+msgid "isColorBlind/description"
+msgstr "Úprava palety barev pro lidi s nedostatkem barevného vidění."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Invertovat při couvání"
+
+msgid "keyboard/keyboard"
+msgstr "Klávesnice"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Potvrzuji!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Speciální zaměřovač"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Zafixovat podvozek / přepnout režim"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Dozadu"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Dozadu"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "„Ruční brzda“"
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Dolů"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Doleva"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Doprava"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Nahoru"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Vypálit salvu"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Ústup!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Výstřel"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Dopředu"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Dopředu"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Opustit vozidlo (na Frontové linii)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Pomoc!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Vyznačit pozici"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Vyznačit aktivní cíl"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Spotřební doplněk 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Vybavení 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Vybavení 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Vybavení 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Vybavení 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Vybavení 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Vybavení 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Vybavení 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Vybavení 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Spotřební doplněk 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Doleva"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Automatické zaměřování"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Vypnout automatické zaměřování"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Negativní!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Aktivace mikrofonu"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Dobít zásobník munice"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Nabíjím!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Doprava"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Skrýt rozhraní"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Aktivace osobních záloh"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Postup pro osobní mise"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Zobrazit příkazové menu / potvrdit příkaz"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Zmenšit"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Zvětšit"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Speciální schopnost"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Zastavit a vypálit"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Děkuji!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Přepnout Rozbor pancíře"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Náhled trajektorie"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Klakson"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Skrýt/Zobrazit"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Zapnout/vypnout hlasovou komunikaci v dynamických četách"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Kamera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Ovládání rychlosti"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Spotřební doplňky"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Výstřel"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Minimapa"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Jízda"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Zprávy"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Týmová komunikace"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Ostatní"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Hlasová komunikace"
+
+msgid "keyboard/mouse"
+msgstr "Myš"
+
+msgid "keyboardTitle"
+msgstr "Ovládání"
+
+msgid "limitedUI/desc"
+msgstr "Postupné objevování se skrytých prvků rozhraní v garáži"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Vypnout"
+
+msgid "marker/AllyTitle"
+msgstr "Spojenci"
+
+msgid "marker/DeadTitle"
+msgstr "Zničení"
+
+msgid "marker/EnemyTitle"
+msgstr "Nepřátelé"
+
+msgid "marker/aimMarker2D"
+msgstr "Ukazatel aut. zaměřování"
+
+msgid "marker/alt"
+msgstr "Alternativní"
+
+msgid "marker/base"
+msgstr "Normální"
+
+msgid "marker/damage"
+msgstr "Obdržené poškození"
+
+msgid "marker/dead"
+msgstr "Zobrazit pro zničené"
+
+msgid "marker/hp"
+msgstr "Výdrž vozidla"
+
+msgid "marker/hp/type0"
+msgstr "Procent %"
+
+msgid "marker/hp/type1"
+msgstr "HP zbývá / celkem"
+
+msgid "marker/hp/type2"
+msgstr "HP zbývá"
+
+msgid "marker/hp/type3"
+msgstr "Skrýt"
+
+msgid "marker/hpIndicator"
+msgstr "Indikátor výdrže"
+
+msgid "marker/icon"
+msgstr "Ikona vozidla"
+
+msgid "marker/level"
+msgstr "Úroveň vozidla"
+
+msgid "marker/level/tooltip/body"
+msgstr "Když je toto nastavení zapnuté, nad vozidlem se objeví úroveň.\n\nV Ocelovém lovci bude zobrazena aktuální úroveň vylepšení."
+
+msgid "marker/level/tooltip/header"
+msgstr "Úroveň vozidla"
+
+msgid "marker/name"
+msgstr "Název vozidla"
+
+msgid "marker/name/type2"
+msgstr "Skrýt"
+
+msgid "marker/nickname"
+msgstr "Jméno hráče"
+
+msgid "markerTitle"
+msgstr "Značky"
+
+msgid "minimap/labels/alpha"
+msgstr "Průhlednost minimapy"
+
+msgid "minimap/labels/size"
+msgstr "Maximální velikost"
+
+msgid "monitor"
+msgstr "Monitor"
+
+msgid "monitor/description"
+msgstr "Vyberte pro hru primární monitor."
+
+msgid "mouse/sensitivity/art"
+msgstr "Dělostřelecký pohled"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Náhled trajektorie"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Volná kamera"
+
+msgid "mouse/sensitivity/header"
+msgstr "Citlivost"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Invertovat horizontálně"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Invertovat vertikálně"
+
+msgid "mouse/sensitivity/main"
+msgstr "Arkádový pohled"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Odstřelovací pohled"
+
+msgid "mouse/startDist"
+msgstr "Pozice kamery"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Prvky zvuků prostředí"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Zvuk aktivace šestého smyslu"
+
+msgid "otherTitle"
+msgstr "Další"
+
+msgid "physicsQuality"
+msgstr "Kvalita fyziky zvuku"
+
+msgid "refreshRate"
+msgstr "Obnovovací frekvence monitoru"
+
+msgid "refreshRate/default"
+msgstr "Standard"
+
+msgid "refreshRate/description"
+msgstr "Obnovovací frekvence monitoru ve hře.\n\nNesoulad s obnovovací frekvencí monitoru může způsobit efekt blikající obrazovky.\n\nNeovlivňuje výkon hry."
+
+msgid "resolution"
+msgstr "Rozlišení obrazovky"
+
+msgid "resolution/description"
+msgstr "Horizontální a vertikální rozlišení v režimu celé obrazovky. Vyšší rozlišení zvyšuje kvalitu obrazu. Nesoulad v nastaveném rozlišení v režimu celé obrazovky a aktuálním rozlišením monitoru může deformovat obraz.\n\nZvýšení hodnoty tohoto parametru zvyšuje zatížení grafické karty a může snížit výkon hry.\n\nZatížení grafické karty lze snížit nastavením rozlišení 3D vykreslování."
+
+msgid "restartNewbieBattleHints"
+msgstr "Vynulovat tipy pro začátečníky"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Vynulujte historii tipů pro začátečníky, aby se vám znovu zobrazily tipy, které jste již viděli."
+
+msgid "screenMode"
+msgstr "Režim hry"
+
+msgid "screenMode/borderless"
+msgstr "V okně (bez okrajů)"
+
+msgid "screenMode/description"
+msgstr "Přepínání mezi režimy hry na celé obrazovce, v okně a v okně (bez okrajů). Režim hry v okně sníží výkon hry."
+
+msgid "screenMode/fullscreen"
+msgstr "Celá obrazovka"
+
+msgid "screenMode/label"
+msgstr "Režim:"
+
+msgid "screenMode/windowed"
+msgstr "V okně"
+
+msgid "smoothing/description"
+msgstr "Určuje míru dodatečného zpracování tenkých čar a obrysů herních objektů na herní scéně. Minimalizuje efekt aliasingu. Obrysy objektů vypadají více přirozeně."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Standardní"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Zvuk uživatele"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Varianta 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Varianta 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Zvuk uživatele"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dynamický rozsah"
+
+msgid "sound/fieldset/header"
+msgstr "Hlasitost"
+
+msgid "sound/players_notifications"
+msgstr "Upozornění od ostatních hráčů"
+
+msgid "sound/presets/title"
+msgstr "Předvolby"
+
+msgid "sound/soundModes/U01"
+msgstr "Uživatel 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Uživatel 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Uživatel 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Uživatel 4"
+
+msgid "sound/soundModes/default"
+msgstr "Standardní"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Velitel"
+
+msgid "sound/special/field/set"
+msgstr "Hlasitost události ve hře"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Aktualizovat seznam zařízení"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Ukončit test"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Zahájit test"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Hlasitost prostředí během chatu"
+
+msgid "sound/vivox/master_volume"
+msgstr "Hlasitost hlasové komunikace"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Citlivost mikrofonu"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Test hlasové komunikace"
+
+msgid "soundTitle"
+msgstr "Zvuk"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Automatický výběr"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "systém 2.0/2.1"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "systém 5.1"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "systém 7.1"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "sluchátka"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Centrální"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Levý"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Levý zadní"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Levý přední"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Levý boční"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Pravý"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Pravý zadní"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Pravá přední"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Pravý boční"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Subwoofer"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "laptop"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Test zvuku:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Vyzkoušet zvuk"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Hlasová oznámení závisí na národu vozidla a pohlaví velitele"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Velitel"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Mužský hlas v jazyce herního klienta"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Standardní"
+
+msgid "sounds/ambient"
+msgstr "Prostředí"
+
+msgid "sounds/arena"
+msgstr "Hudba v bitvě"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Zvuková detekce"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Vyberte jednu variantu zvuku aktivace zvukové detekce. Chcete-li používat vlastní zvuk, přejmenujte svůj .mp3 soubor na soundExploring a přesuňte ho do složky res/audioww."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Zvuk aktivace zvukové detekce"
+
+msgid "sounds/bassBoost"
+msgstr "Zesílení nízkých frekvencí"
+
+msgid "sounds/bassBoost/description"
+msgstr "Zesiluje nízké frekvence ve hře, zatímco celková hlasitost zůstává stejná. Implementace režimu se může lišit v závislosti na vybraném zvukovém systému (reproduktory, sluchátka nebo laptop)."
+
+msgid "sounds/bulbVoices"
+msgstr "Šestý smysl"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Vyberte jednu variantu zvuku aktivace šestého smyslu. Chcete-li používat vlastní zvuk, přejmenujte svůj .mp3 soubor na sixthSense a přesuňte ho do složky res/audioww."
+
+msgid "sounds/effects"
+msgstr "Efekty"
+
+msgid "sounds/gui"
+msgstr "Rozhraní"
+
+msgid "sounds/hangar"
+msgstr "Hudba v garáži"
+
+msgid "sounds/masterVolume"
+msgstr "Celková hlasitost"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Zapnout zvuk"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Vypnutí zvukových efektů hry může zlepšit celkový výkon hry. Pro provedení změn budete muset restartovat herního klienta."
+
+msgid "sounds/nightMode"
+msgstr "Noční režim"
+
+msgid "sounds/nightMode/description"
+msgstr "Vyrovnává rozdíly hlasitosti, omezuje ostré zvuky a minimalizuje nízké frekvence ve hře, což poskytuje vhodné a jemné zvukové prostředí pro pozdní noční hraní."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Povolení této funkce může mít vliv na výkon."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Ovládá kvalitu fyziky zvuku.\n\nSimuluje, jak se zvuk ohýbá kolem překážek a prochází povrchy mapy.\n\nVyužívá geometrii mapy ke generování časných odrazů zvuků tanku od okolních objektů.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Kvalita fyziky zvuku"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Vypnutá"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Vysoká"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Nízká"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Střední"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Doporučená"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Určuje optimální kvalitu fyziky zvuku pro váš počítač.\n\nMůže to nějakou dobu trvat."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Doporučená"
+
+msgid "sounds/sixthSense/body"
+msgstr "Vlastní zvuk. Přesuňte soubor sixthSense.mp3 do složky res/audioww."
+
+msgid "sounds/sixthSense/header"
+msgstr "Vlastní"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "Systém 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Upravuje zvuk ve hře pro externí širokopásmové párové reproduktory (2.0), nebo párové vysokofrekvenční reproduktory + jeden nízkofrekvenční reproduktor (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "Systém 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "Systém 5.1"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Upravuje nastavení polohy zvuku ve hře pro externí reproduktory a subwoofer ve vícekanálovém systému 5.1."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "Systém 5.1"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "Systém 7.1"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Upravuje zvuk ve hře pro externí reproduktory a subwoofer ve vícekanálovém systému 7.1."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "Systém 7.1"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Automatický výběr"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Automaticky určí nastavení konfigurace zvuku, uvedené v operačním systému"
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Automatický výběr"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Sluchátka"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Upravuje zvuk ve hře pro sluchátka."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Sluchátka"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Laptop"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Využívá polohovací princip předvolby zvukového systému 2.0/2.1, ale upravuje zvuk ve hře pro přehrávání na malých reproduktorech laptopu v nejvyšší možné kvalitě."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Laptop"
+
+msgid "sounds/soundQuality"
+msgstr "Nízká kvalita"
+
+msgid "sounds/soundQuality/description"
+msgstr "Omezení kvality zvuku může zlepšit celkový výkon hry na počítačích nižší třídy. Zapnutí tohoto režimu značně omezuje počet současně zpracovaných zvuků."
+
+msgid "sounds/speakers/back/body"
+msgstr "Zvukový test pravých/levých zadních reproduktorů."
+
+msgid "sounds/speakers/back/header"
+msgstr "Pravé/levé zadní reproduktory"
+
+msgid "sounds/speakers/center/body"
+msgstr "Zvukový test centrálního reproduktoru."
+
+msgid "sounds/speakers/center/header"
+msgstr "Centrální reproduktor"
+
+msgid "sounds/speakers/front/body"
+msgstr "Zvukový test pravých/levých předních reproduktorů."
+
+msgid "sounds/speakers/front/header"
+msgstr "Pravé/levé přední reproduktory"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "Ve zvukovém systému 2.0/2.1 představuje subwoofer doplňkové zařízení. Nelze ho otestovat bez reproduktorů."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Doplňkový subwoofer"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Zvukový test pravých/levých bočních reproduktorů."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Pravé/levé boční reproduktory"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Zvukový test pravých/levých reproduktorů."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Pravé/levé reproduktory"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Zvukový test subwooferu."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Subwoofer"
+
+msgid "sounds/subtitles"
+msgstr "Titulky"
+
+msgid "sounds/tabCommon"
+msgstr "Celkový zvuk"
+
+msgid "sounds/tabSpecial"
+msgstr "Herní událost"
+
+msgid "sounds/tabVivox"
+msgstr "Hlasová komunikace"
+
+msgid "sounds/vehicles"
+msgstr "Vozidla"
+
+msgid "sounds/voiceNotification"
+msgstr "Zvuková oznámení"
+
+msgid "title"
+msgstr "Nastavení"
+
+msgid "tripleBuffered"
+msgstr "Triple buffering"
+
+msgid "tripleBuffered/description"
+msgstr "Snižuje trhání při změně snímků (k dispozici pouze se zapnutou vertikální synchronizací)."
+
+msgid "vertSync"
+msgstr "Vertikální synchronizace"
+
+msgid "vertSync/Off"
+msgstr "Vypnuto"
+
+msgid "vertSync/On"
+msgstr "Zapnuto"
+
+msgid "vertSync/description"
+msgstr "Synchronizace snímkové frekvence s obnovovací frekvencí monitoru.\n\n60 snímků za sekundu je limit snímkovací frekvence. Používá se, když se objeví efekt třesoucího se obrazu, nebo zpoždění obrazu ve vztahu mezi horní a dolní částí obrazovky."
+
+msgid "voice_chat/PTT"
+msgstr "Aktivace mikrofonu"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Hlasitost"
+
+msgid "voice_chat/header/common"
+msgstr "Obecné"
+
+msgid "voice_chat/header/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/header/speakers"
+msgstr "Sluchátka"
+
+msgid "voice_chat/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Zapnout mikrofon"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Povolit hlasovou komunikaci"
+
+msgid "windowSize"
+msgstr "Velikost okna"
+
+msgid "windowSize/description"
+msgstr "Horizontální a vertikální rozlišení obrazovky okna herního klienta. Při přepnutí do režimu celé obrazovky se nastavení změní na „Rozlišení obrazovky“."
+
+msgid "windowTitle"
+msgstr "WoT klient"

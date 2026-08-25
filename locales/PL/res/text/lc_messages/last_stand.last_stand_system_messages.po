@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Urządzenie taktyczne"
+
+msgid "open_artefact/server_error"
+msgstr "Operacja jest tymczasowo niedostępna. Spróbuj ponownie później."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Nie udało się uzupełnić urządzeń taktycznych dla %s. Problem techniczny."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nie udało się uzupełnić urządzeń taktycznych dla %s. Za mało funduszy."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Urządzenia taktyczne dla %s uzupełnione. Wydano "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Nagrania dostępne do odszyfrowania"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Tryb: Ostatni bastion: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Ostatni bastion: Terra Nord (zwykły)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Ostatni bastion: Terra Nord (zaawansowany)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Ostatni bastion: Terra Nord (brutalny)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Poziom trudności"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Zwykły"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Zaawansowany"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutalny"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Dane"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Cel osiągnięty!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Cele osiągnięte!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Pojazd"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Ukończone fale: %(curPhase)s z %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Wydano %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transakcja finansowa"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Poziom trudności można wybrać na panelu trudności w garażu wydarzenia Ostatni bastion."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Odblokowano zaawansowany poziom trudności"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Poziom trudności można wybrać na panelu trudności w garażu wydarzenia Ostatni bastion."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Odblokowano brutalny poziom trudności"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Tryb można wybrać na panelu trudności w garażu Ostatniego bastionu: Operacji Pandora."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Odblokowano tryb Ostatni bastion"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Otrzymane klucze deszyfrujące: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Pokwitowanie"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Usunięte klucze: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Deszyfrowanie udane"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Bitwy w wydarzeniu Ostatni bastion są tymczasowo niedostępne.\nSpróbuj ponownie później."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Bitwy na poziomie %(difficulty)s są tymczasowo niedostępne. Spróbuj ponownie później."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Wydarzenie Ostatni bastion jest obecnie niedostępne. Aktualizacje można znaleźć na portalu gry."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Dowódca plutonu zmienił poziom trudności na %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Gracz %(userName)s nie odblokował jednego z poziomów trudności."

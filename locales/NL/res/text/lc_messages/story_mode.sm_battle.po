@@ -1,0 +1,671 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-07-20 10:00+0300\nPO-Revision-Date: 2023-07-20 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/reason/1"
+msgstr "Alle vijandelijke voertuigen zijn vernietigd"
+
+msgid "battleResult/reason/11"
+msgstr "Alle doelen zijn bereikt"
+
+msgid "battleResult/reason/3"
+msgstr "Gevechtstijd verstreken"
+
+msgid "battleResult/reason/5"
+msgstr "Technische nederlaag"
+
+msgid "battleResult/reason/8"
+msgstr "Bondgenoot vernietigd"
+
+msgid "battleResult/reason/9"
+msgstr "Je voertuig is vernietigd"
+
+msgid "battleResult/reason/default"
+msgstr "Reden onbekend"
+
+msgid "battleResult/resultLabel/tie"
+msgstr "HET GEVECHT IS AFGELOPEN"
+
+msgid "battleResult/resultLabel/win"
+msgstr "OVERWINNING!"
+
+msgid "berlin/hint01"
+msgstr "Vernietig de rupsbanden van de King Tiger voor Storm Petrel"
+
+msgid "berlin/hint02"
+msgstr "Wacht en luister naar sergeant Brooks"
+
+msgid "berlin/objective01/header"
+msgstr "Vind het vijandelijke Wunderwaffe"
+
+msgid "berlin/objective01/subheader"
+msgstr "Ruk voorzichtig op"
+
+msgid "berlin/objective02/header"
+msgstr "Houd tegen!"
+
+msgid "berlin/objective02/subheader"
+msgstr "Volg de instructies van het hoofdkwartier op"
+
+msgid "berlin/objective03/header"
+msgstr "Vind het vijandelijke Wunderwaffe"
+
+msgid "berlin/objective03/subheader"
+msgstr "Ruk voorzichtig op"
+
+msgid "berlin/objective03/success"
+msgstr "Ruïnes schoongeveegd!"
+
+msgid "berlin/objective04/header"
+msgstr "Wacht tot sergeant Brooks een bommenwerper oproept"
+
+msgid "berlin/objective04/subheader"
+msgstr "Verdedig je positie!"
+
+msgid "berlin/objective05/header"
+msgstr "Schakel de vijanden uit"
+
+msgid "berlin/objective05/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Vernietig %d overgebleven vijand"
+msgstr[1] "Vernietig %d overgebleven vijanden"
+msgstr[2] "Vernietig %d overgebleven vijanden"
+
+msgid "berlin/objective05/success"
+msgstr "Bommenwerper is op weg! Bereid je voor!"
+
+msgid "berlin/objective06/header"
+msgstr "Klaar de klus"
+
+msgid "berlin/objective06/subheader"
+msgstr "Vernietig de rupsbanden van de Jagdtiger"
+
+msgid "berlin/objective06/success"
+msgstr "Jagdtiger vernietigd"
+
+msgid "berlin/objective07/header"
+msgstr "Verover het Wunderwaffe"
+
+msgid "berlin/objective07/subheader"
+msgstr "Vernietig de rupsbanden van de Kleine Muis"
+
+msgid "berlin/objective07/success"
+msgstr "Kleine Muis vernietigd en veroverd!"
+
+msgid "berlin/prebattle/header"
+msgstr "Ruk voorzichtig op"
+
+msgid "berlin/prebattle/start"
+msgstr "Doorgaan"
+
+msgid "berlin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "berlin/respawn/header"
+msgstr "Sta paraat, soldaat"
+
+msgid "berlin/respawn/subheader"
+msgstr "Versterking op komst"
+
+msgid "berlin/respawn_over/header"
+msgstr "Het is afgelopen"
+
+msgid "berlin/respawn_over/subheader"
+msgstr "Alle beschikbare voertuigen zijn vernietigd"
+
+msgid "botNames/Brooks"
+msgstr "Sgt. Brooks"
+
+msgid "botNames/Connolly"
+msgstr "Lt. Arthur Connolly"
+
+msgid "botNames/Dubois"
+msgstr "Kapt. Louis Dubois"
+
+msgid "botNames/McCormick"
+msgstr "Kapt. John McCormick"
+
+msgid "botNames/McLaud"
+msgstr "Alistair MacLeod"
+
+msgid "botNames/Murphy"
+msgstr "Kapt. Jack Murphy"
+
+msgid "botNames/Teddy"
+msgstr "Kapt. Miroslav Kotva"
+
+msgid "botNames/Ulysses"
+msgstr "Kapt. James Korvin"
+
+msgid "bunker"
+msgstr "Kustbunker"
+
+msgid "common/battleBtn"
+msgstr "Vecht!"
+
+msgid "common/continueBtn"
+msgstr "Doorgaan"
+
+msgid "common/loading"
+msgstr "Laden"
+
+msgid "common/skipBtn"
+msgstr "Overslaan"
+
+msgid "confirmExit/exit"
+msgstr "Overslaan"
+
+msgid "confirmExit/exitRegular"
+msgstr "Verlaten"
+
+msgid "confirmExit/stay"
+msgstr "Annuleren"
+
+msgid "confirmExit/title"
+msgstr "Wil je het Tiger-jager verhaal overslaan?"
+
+msgid "confirmExit/titleRegular"
+msgstr "Wil je het verhaal verlaten?"
+
+msgid "dday/hint01"
+msgstr "Vind een manier om de kustbunkers te vernietigen"
+
+msgid "dday/hint02"
+msgstr "Gebruik rookseinen om het slagschip te helpen"
+
+msgid "dday/objective01/header"
+msgstr "Overleef op het strand"
+
+msgid "dday/objective01/subheader"
+msgstr "Ontwijk het vijandelijk vuur koste wat kost"
+
+msgid "dday/objective02/header"
+msgstr "Doorbreek de vijandelijke linies"
+
+msgid "dday/objective02/subheader"
+msgid_plural "plural/dday/objective02/subheader"
+msgstr[0] "Vernietig %d kustbunker"
+msgstr[1] "Vernietig %d kustbunkers"
+msgstr[2] "Vernietig %d kustbunkers"
+
+msgid "dday/objective02/success"
+msgstr "Alle kustbunkers zijn vernietigd!"
+
+msgid "dday/objective03/header"
+msgstr "Beklim de heuvel"
+
+msgid "dday/objective03/subheader"
+msgstr "Bereik en vernietig de vijandige verdedigingswerken in sector B5"
+
+msgid "dday/objective03/success"
+msgstr "Verdedigingswerken vernietigd! Profiteer van deze doorbraak!"
+
+msgid "dday/objective04/header"
+msgstr "Help je bondgenoten door te breken"
+
+msgid "dday/objective04/subheader"
+msgstr "Neutraliseer de vijandelijke verdediging in sector D6"
+
+msgid "dday/objective04/success"
+msgstr "Pad voor kapitein Murphy vrijgemaakt!"
+
+msgid "dday/objective05/header"
+msgstr "Help kapitein Dubois"
+
+msgid "dday/objective05/subheader"
+msgstr "Neutraliseer de vijandelijke verdediging in sector H6"
+
+msgid "dday/objective05/success"
+msgstr "Pad voor kapitein Dubois vrijgemaakt!"
+
+msgid "dday/objective06/header"
+msgstr "Bescherm de maritieme strijdkrachten"
+
+msgid "dday/objective06/subheader"
+msgid_plural "plural/dday/objective06/subheader"
+msgstr[0] "Vernietig %d kustkanon"
+msgstr[1] "Vernietig %d kustkanonnen"
+msgstr[2] "Vernietig %d kustkanonnen"
+
+msgid "dday/objective06/success"
+msgstr "Alle kustkanonnen zijn vernietigd!"
+
+msgid "dday/objective07/header"
+msgstr "Veeg het gebied schoon"
+
+msgid "dday/objective07/subheader"
+msgid_plural "plural/dday/objective07/subheader"
+msgstr[0] "Vernietig %d overgebleven vijand"
+msgstr[1] "Vernietig %d overgebleven vijanden"
+msgstr[2] "Vernietig %d overgebleven vijanden"
+
+msgid "dday/objective07/success"
+msgstr "Alle vijanden zijn vernietigd!"
+
+msgid "dday/objective08/header"
+msgstr "Verdedig je positie"
+
+msgid "dday/objective08/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Vernietig %d vijandelijk voertuig"
+msgstr[1] "Vernietig %d vijandelijk voertuigen"
+msgstr[2] "Vernietig %d vijandelijk voertuigen"
+
+msgid "dday/objective08/success"
+msgstr "Bruggenhoofd beschermd!"
+
+msgid "dday/prebattle/header"
+msgstr "Bereid je voor op de aanval"
+
+msgid "dday/prebattle/start"
+msgstr "Val aan!"
+
+msgid "dday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "dday/respawn/header"
+msgstr "Sta paraat, soldaat"
+
+msgid "dday/respawn/subheader"
+msgstr "Versterking op komst"
+
+msgid "dday/respawn_over/header"
+msgstr "Het is afgelopen"
+
+msgid "dday/respawn_over/subheader"
+msgstr "Alle beschikbare voertuigen zijn vernietigd"
+
+msgid "epilogue/text"
+msgstr "MacLeod: \"Hij leeft nog! Brooks leeft nog! Hij heeft zware brandwonden, maar hij leeft nog. Aye, natuurlijk leeft hij nog. Hij heeft me een medaille beloofd. Jij hebt de jouwe al. Volledig terecht, moet ik zeggen. Je hebt die King Tiger goed te grazen genomen. Nu staan we quitte. Dat schot op die Tiger toen we je redden was puur geluk. Ik richtte niet eens. Maar uiteindelijk heb ik mezelf toen gered. En Brooks ook.\n\nNu kunnen we eindelijk een paar dagen uitrusten. Laten we onze tanks oplappen. Berlijn wacht.\n\nTrouwens, het staat nu 7-4 voor jou. Maar de Duitsers hebben nog steeds wat Tigers, dus we zullen zien wie er gaat winnen.\""
+
+msgid "epilogue/title"
+msgstr "EPILOOG"
+
+msgid "finish/reason/1"
+msgstr "ALLE VIJANDELIJKE VOERTUIGEN ZIJN VERNIETIGD"
+
+msgid "finish/reason/11"
+msgstr "ALLE DOELEN ZIJN BEREIKT"
+
+msgid "finish/reason/3"
+msgstr "GEVECHTSTIJD VERSTREKEN"
+
+msgid "finish/reason/5"
+msgstr "TECHNISCHE NEDERLAAG"
+
+msgid "finish/reason/8"
+msgstr "BONDGENOOT VERNIETIGD"
+
+msgid "finish/reason/9"
+msgstr "JE VOERTUIG IS VERNIETIGD"
+
+msgid "finish/reason/default"
+msgstr "REDEN ONBEKEND"
+
+msgid "hint_aim_weak_spots"
+msgstr "Een groen richtpunt geeft aan dat je een hoge kans hebt om schade te veroorzaken"
+
+msgid "hint_move"
+msgstr "Voertuigbesturing"
+
+msgid "hint_move_turret"
+msgstr "Koepel- en richtbesturing"
+
+msgid "hint_shoot"
+msgstr "Richt op het vijandelijk voertuig en schiet"
+
+msgid "hint_sniper_enter"
+msgstr "Scrol het muiswiel om de sluipschuttermodus in te gaan"
+
+msgid "hint_sniper_on_distance_exit"
+msgstr "Scrol het muiswiel om de sluipschuttermodus te verlaten"
+
+msgid "hint_sniper_weak_spots_enter"
+msgstr "De scherpschuttermodus zorgt ervoor dat je beter kunt richten op zwakke plekken van vijandelijke voertuigen"
+
+msgid "hint_target_unlock"
+msgstr "Automatisch richten aangezet. Rechtermuisknop zet dit uit."
+
+msgid "ingameMenu/buttons/quit"
+msgstr "Intro overslaan"
+
+msgid "introVideo/loading"
+msgstr "Laden..."
+
+msgid "lootCapturing/equipment"
+msgstr "Veroveren: mijnenveldkaart"
+
+msgid "lootCapturing/plan"
+msgstr "Veroveren: kaartfragment"
+
+msgid "lootCapturing/tank"
+msgstr "Vijandelijk voertuig veroveren"
+
+msgid "prebattle/mission/stage/1"
+msgstr "Operatie 1"
+
+msgid "prebattle/mission/stage/2"
+msgstr "Operatie 2"
+
+msgid "prebattle/mission/stage/3"
+msgstr "Operatie 3"
+
+msgid "prebattle/mission/stage/4"
+msgstr "Operatie 4"
+
+msgid "prebattle/mission/stage/5"
+msgstr "Operatie 5"
+
+msgid "prebattle/mission/stage/6"
+msgstr "Operatie 6"
+
+msgid "prebattle/mission/stage/7"
+msgstr "Operatie 7"
+
+msgid "prebattle/mission/task/1"
+msgstr "Missie: val het dorp aan en vernietig alle vijandelijke voertuigen."
+
+msgid "prebattle/mission/task/2"
+msgstr "Missie: val het dorp aan en vernietig alle vijandelijke voertuigen."
+
+msgid "prebattle/mission/task/3"
+msgstr "Val het dorp aan en vernietig alle vijandelijke voertuigen."
+
+msgid "prebattle/mission/task/4"
+msgstr "Vind en vernietig het vijandelijke Wunderwaffe."
+
+msgid "prebattle/mission/task/5"
+msgstr "Breek door, vernietig de kustkanonnen en verover het bruggenhoofd."
+
+msgid "prebattle/mission/task/6"
+msgstr "Lever het bevel tot een staakt-het-vuren af bij je bondgenoten."
+
+msgid "prebattle/mission/task/7"
+msgstr "Bereik het commandocentrum en stop de raketlancering."
+
+msgid "prebattle/mission/text/1"
+msgstr "Brooks: \"En, hoe gaat het met je? Een beetje bijgekomen? Je kunt straks naar de dokter. Elk kanon telt, want de aanval is al begonnen. En omdat we te laat waren, focust de vijand zich nu op een andere flank. Dit is onze kans. We vallen aan, rukken op naar de stad en nemen ze in de tang.\n\nVolg ons en kijk uit voor drakentanden. Ze hebben een aantal rijen van die betonnen tanden in het veld geplaatst. Maar dat maakt niet uit, we komen er wel doorheen. Je hoeft alleen maar goed naar mij te luisteren en mijn bevelen snel en nauwkeurig op te volgen. MacLeod en ik geven je vuursteun.\n\nEn let maar niet op zijn grappen. Iedereen gaat op zijn eigen manier met de spanning om... Voorwaarts!\""
+
+msgid "prebattle/mission/text/2"
+msgstr "MacLeod: \"Ah, Tigers – erger dan dat kun je op het slagveld niet tegenkomen. Als het opperbevel zegt dat ze een probleem hebben, dan hebben ze het waarschijnlijk over Tigers. We krijgen geen contact met de eerste aanvalsgroep, de tweede is net vertrokken, en wij zijn de derde.\n\nAls ze ons op pad sturen, kan dat maar één ding betekenen: Tigers. Dan zeggen ze in het hoofdkwartier: \"Stuur de Tiger-experts!\" Negen tanks met z'n tweetjes. Niet slecht in zes maanden tijd. Jij gaat aan de leiding met 5-4, maar deze strijd is nog niet gestreden. En ik wil die medaille!\n\nKom op, Brooks wacht niet graag. Onze jacht begint.\""
+
+msgid "prebattle/mission/text/3"
+msgstr "MacLeod: \"Luister allemaal, dit is operatie Hamer en Aambeeld. Een simpele naam voor een niet zo simpele klus. We gaan de stad in om alle vijanden uit de weg te ruimen. Het zal geen makkie worden – ze hebben enkele zware tanks. Maar wij beschikken over hersenen, spierkracht en teamwork, toch Lucky? En zet er een beetje vaart achter. Ik heb plannen voor een kopje 'thee' om vijf uur, als je weet wat ik bedoel!\""
+
+msgid "prebattle/mission/text/4"
+msgstr "MacLeod: \"Geen idee, Lucky. Ik weet net zo weinig als jij.\n\nIk ben geen fan van al dat geheime gedoe. Ik hou van rechtdoorzee: je ziet de vijand en je vecht. Dit is één grote troep.\n\nEr zullen ook geallieerde tanks in de stad zijn. Brooks vroeg ons voorzichtig te zijn. Wat betekent dat nou weer?\nWe hebben een speciale opdracht gekregen. We moeten een of ander Wunderwaffe vinden – iets heel groots op rupsbanden. Het is aan ons om dat te doen, Lucky.\n\nKlaar? We gaan.\""
+
+msgid "prebattle/mission/text/5"
+msgstr "Kapitein John McCormick: \"Oké makkers, de dag is aangebroken. Tijd om deze oorlog te beëindigen, en het is aan ons om dat te doen. Aan ons samen – Amerikanen, Britten, Fransen, Canadezen, Australiërs, Belgen, Tsjecho-Slowaken, Grieken, Nederlanders, Kiwi's, Noren en Polen. We werken samen om dit kwaad voor eens en altijd te vernietigen.\n\nWe breken de Atlantikwall af en zullen een bruggenhoofd slaan.\n\nBereid je voor op de invasie!\""
+
+msgid "prebattle/mission/text/6"
+msgstr "Kapitein Smith: \"Luister gasten. Duitsland heeft een paar uur geleden het overgavedocument ondertekend. Morgen eindigt de oorlog. Maar omdat er geen radiocontact meer is met onze troepen in de bergen, weten zij daar niks van. Ze gaan bij zonsopgang dat fort aanvallen, en de Duitsers die daar zitten weten ook niets van de capitulatie. Het dreigt een zinloze afslachting te worden.\n\nAlleen wij kunnen dit stoppen. Onze missie: sluip door de vijandelijke linies en lever het bevel tot een staakt-het-vuren af. Het is een zelfmoordmissie, maar elk leven dat we redden is er één.\n\nWe hebben een gevangengenomen Duitse radio-officier bij ons – hij kent het terrein en wil net zo graag als ons dit bloedbad voorkomen.\n\nUitrukken!\""
+
+msgid "prebattle/mission/text/7"
+msgstr "Leni Scharf: \"De situatie is kritiek. We hebben geen contact meer met onze raketbasis in de Noorse Zee. De verkenningsvlucht is nooit teruggekeerd, en de invasiemacht met tanks is door een onbekende vijand vernietigd.\n\nVolgens de inlichtingendienst bereiden ze de lancering van een ballistische raket voor. Het doelwit daarvan is onbekend, maar met de huidige politieke situatie, kan één voltreffer een wereldwijd conflict ontbranden.\n\nVoelt net als vroeger, of niet? Weer een onmogelijke missie achter vijandelijke linies. Uitrukken!\""
+
+msgid "prebattle/mission/title/1"
+msgstr "Stalen lawine"
+
+msgid "prebattle/mission/title/2"
+msgstr "Vallenzetter"
+
+msgid "prebattle/mission/title/3"
+msgstr "Hamer en Aambeeld"
+
+msgid "prebattle/mission/title/4"
+msgstr "Kat in de Muizenval"
+
+msgid "prebattle/mission/title/5"
+msgstr "Operatie Overlord"
+
+msgid "prebattle/mission/title/6"
+msgstr "Operatie Postbode"
+
+msgid "prebattle/mission/title/7"
+msgstr "Operatie Kookpunt"
+
+msgid "ruinberg/hint01"
+msgstr "Vind een omweg en val de vijand over een flank aan"
+
+msgid "ruinberg/objective01/header"
+msgstr "Voorwaarts!"
+
+msgid "ruinberg/objective01/subheader"
+msgstr "Ruk op en vernietig alle vijanden"
+
+msgid "ruinberg/objective02/header"
+msgstr "Sluip rond"
+
+msgid "ruinberg/objective02/subheader"
+msgstr "Val de vijand van twee kanten aan"
+
+msgid "ruinberg/objective02/success"
+msgstr "Vernietigd!"
+
+msgid "ruinberg/objective03/header"
+msgstr "Sluip rond"
+
+msgid "ruinberg/objective03/subheader"
+msgstr "Val de vijand van twee kanten aan"
+
+msgid "ruinberg/objective03/success"
+msgstr "Vernietigd!"
+
+msgid "ruinberg/objective05/header"
+msgstr "Voorwaarts!"
+
+msgid "ruinberg/objective05/subheader"
+msgstr "Ruk op en vernietig alle vijanden"
+
+msgid "ruinberg/objective07/header"
+msgstr "Bereid je voor op de tegenaanval!"
+
+msgid "ruinberg/objective07/subheader"
+msgstr "Verdedig je positie"
+
+msgid "ruinberg/objective07/success"
+msgstr "Vijanden vernietigd!"
+
+msgid "ruinberg/prebattle/header"
+msgstr "Bereid je voor!"
+
+msgid "ruinberg/prebattle/start"
+msgstr "Val aan!"
+
+msgid "ruinberg/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "ruinberg/respawn/header"
+msgstr "Sta paraat, soldaat"
+
+msgid "ruinberg/respawn/subheader"
+msgstr "Versterking op komst"
+
+msgid "ruinberg/respawn_over/header"
+msgstr "Het is afgelopen"
+
+msgid "ruinberg/respawn_over/subheader"
+msgstr "Alle beschikbare voertuigen zijn vernietigd"
+
+msgid "settings/disabledTabsOverlay"
+msgstr "Voltooi het Tiger-jager verhaal om deze instellingen te ontgrendelen."
+
+msgid "timersPanel/overturned"
+msgstr "Je voertuig wordt hersteld..."
+
+msgid "vday/hint01"
+msgstr "Ga snel de hoek om"
+
+msgid "vday/hint02"
+msgstr "Sluip dichterbij"
+
+msgid "vday/hint03"
+msgstr "Stuur kapitein Dubois op verkenning"
+
+msgid "vday/hint04"
+msgstr "Gebruik de veroverde radio om een foutief bevel aan de Tiger te geven"
+
+msgid "vday/hint05"
+msgstr "Check de Duitse commandopost"
+
+msgid "vday/hint06"
+msgstr "De Verkennen en Foutief bevel bekwaamheden zijn jouw sleutel tot succes"
+
+msgid "vday/hint07"
+msgstr "Gebruik de Verkennen en Foutief bevel bekwaamheden om je ongezien te verplaatsen"
+
+msgid "vday/hint08"
+msgstr "Gaan! Plankgas of tussen vier planken!"
+
+msgid "vday/hint09"
+msgstr "Elite tanks kunnen niet worden afgeleid met foutieve bevelen"
+
+msgid "vday/hint10"
+msgstr "Volg kapitein Smiths instructies en verplaats je voorzichtig"
+
+msgid "vday/hint11"
+msgstr "Keer terug naar de missie!"
+
+msgid "vday/objective01/header"
+msgstr "Uitrukken!"
+
+msgid "vday/objective01/subheader"
+msgstr "Lever het bevel tot een staakt-het-vuren af bij geallieerden"
+
+msgid "vday/objective02/header"
+msgstr "Bereik de Duitse commandopost"
+
+msgid "vday/objective02/subheader"
+msgstr "Volg kapitein Smiths instructies"
+
+msgid "vday/objective02/success"
+msgstr "Mijnenveldkaarten veroverd"
+
+msgid "vday/objective03/header"
+msgstr "Vind fragmenten van de passagekaart"
+
+msgid "vday/objective03/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "%d kaartfragment verzameld"
+msgstr[1] "%d kaartfragmenten verzameld"
+msgstr[2] "%d kaartfragmenten verzameld"
+
+msgid "vday/objective03/success"
+msgstr "Passagekaart samengevoegd"
+
+msgid "vday/objective04/header"
+msgstr "Lever het bevel tot een staakt-het-vuren af bij geallieerden"
+
+msgid "vday/objective04/subheader"
+msgstr "Verplaats je door de mijnenvelden"
+
+msgid "vday/objective04/success"
+msgstr "Bevel tot staakt-het-vuren afgeleverd!"
+
+msgid "vday/objective05/header"
+msgstr "Bereik de mijnenvelden"
+
+msgid "vday/objective05/subheader"
+msgstr "Sluip door de vijandelijke linies"
+
+msgid "vday/objective05/success"
+msgstr "Mijnenvelden bereikt"
+
+msgid "vday/prebattle/header"
+msgstr "Sluip door de vijandelijke linies"
+
+msgid "vday/prebattle/start"
+msgstr "Doorgaan"
+
+msgid "vday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "vday/prebattleVeryHard/header"
+msgstr "Verplaats je door het mijnenveld"
+
+msgid "vday/prebattleVeryHard/start"
+msgstr "Verplaatsen"
+
+msgid "vday/prebattleVeryHard/subheader"
+msgstr "?empty?"
+
+msgid "vday/respawn/header"
+msgstr "Sta paraat, soldaat"
+
+msgid "vday/respawn/subheader"
+msgstr "Versterking op komst"
+
+msgid "vday/respawn_over/header"
+msgstr "Het is afgelopen"
+
+msgid "vday/respawn_over/subheader"
+msgstr "Alle beschikbare voertuigen zijn vernietigd"
+
+msgid "zeppelin/hint01"
+msgstr "Laad het kanon van je voertuig op en veroorzaak meer schade"
+
+msgid "zeppelin/hint02"
+msgstr "Beschadig een verre vijand door met maximale nauwkeurigheid te vuren"
+
+msgid "zeppelin/hint03"
+msgstr "Kom te weten hoe je het hulpgeschut van dit voertuig afvuurt"
+
+msgid "zeppelin/objective01/failure"
+msgstr "Missie mislukt!"
+
+msgid "zeppelin/objective01/header"
+msgstr "Voorwaarts!"
+
+msgid "zeppelin/objective01/subheader"
+msgstr "Bereik de raket en voorkom de lancering"
+
+msgid "zeppelin/objective02/header"
+msgstr "Vijandelijke onderhoudsfaciliteit gevonden!"
+
+msgid "zeppelin/objective02/subheader"
+msgstr "Verover het verlaten voertuig"
+
+msgid "zeppelin/objective02/success"
+msgstr "Voertuig veroverd!"
+
+msgid "zeppelin/objective03/header"
+msgstr "Nieuwe doelstelling ontvangen!"
+
+msgid "zeppelin/objective03/subheader"
+msgstr "Verover het lanceerplatform en commandocentrum"
+
+msgid "zeppelin/objective03/success"
+msgstr "Lanceerplatform ingenomen"
+
+msgid "zeppelin/objective04/header"
+msgstr "Verdedig je positie"
+
+msgid "zeppelin/objective04/subheader"
+msgstr "Vernietig %d vijandelijke voertuigen"
+
+msgid "zeppelin/objective04/success"
+msgstr "Vijandelijke aanval afgeslagen"
+
+msgid "zeppelin/prebattle/header"
+msgstr "Maak je klaar!"
+
+msgid "zeppelin/prebattle/start"
+msgstr "Doorgaan!"
+
+msgid "zeppelin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "zeppelin/respawn/header"
+msgstr "Sta paraat, commandant"
+
+msgid "zeppelin/respawn/subheader"
+msgstr "Versterking zijn op komst"
+
+msgid "zeppelin/respawn_over/header"
+msgstr "Het is afgelopen"
+
+msgid "zeppelin/respawn_over/subheader"
+msgstr "Alle beschikbare voertuigen zijn vernietigd"

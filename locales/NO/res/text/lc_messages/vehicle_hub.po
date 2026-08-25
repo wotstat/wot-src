@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Lar en serie granater avfyres fra magasinet én etter én, der hver granat lades automatisk over tid."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Lar en serie granater avfyres fra magasinet én etter én, der hver granat lades automatisk over tid. Gir en bonus på ladehastigheten for neste granat under lading."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Skyter raske granatsalver for å levere høy skade på kort tid, på bekostning av penetrering og presisjon. Mest effektiv i nærkamp."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Avfyrer granater i deler med ekstra tung penetrerende kjerne som forårsaker maksimal skade innenfor 50 m. Skaden fra granatene avtar med avstanden, noe som gjør dem mest effektive i nærkamp."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Et unikt kjølesystem som tillater dobbel sikting: Hvis du venter etter omlading, kan våpenet skyte mer presist. Den forbedrede presisjonen vises med en andre, mindre siktesirkel."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Et system med dobbelt kanonløp kan avfyre begge løpene separat eller samtidig. Doble skudd forårsaker høy skade, men kommer med en lengre omladningstid."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Lar kjøretøyets skrog endre elevasjonsvinkler, noe som gir muligheter for beskytning fra flere posisjoner i kamp. Aktivering avhenger av ulike forhold."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Endrer posisjonen på ekstrahjul for å øke hastigheten betydelig, men på bekostning av manøvrerbarheten. Brukes best til å tilbakelegge lange avstander og for raske angrep."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Lar deg avfyre en serie med granater fra magasinet før du må lade helt om. Gir høy skade i korte salver, men gjør kjøretøyet sårbart under lading. Kan kun lade hele magasinet på en gang."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Våpenet kan avfyre skudd kontinuerlig uten behov for lading. Hvert skudd genererer varme: Jo høyere temperaturen blir, desto mer endres noen av parametrene. Kontinuerlig ildgivning vil føre til at våpenet overopphetes og hindrer videre avfyring til det har kjølt ned."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Økt motorkraft og topphastighet for rask bevegelse over slagfeltet. Når aktivert, reduserer rakettboosterne manøvrerbarheten og kan ikke deaktiveres manuelt."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Når denne spesialmodusen aktiveres, øker og/eller endrer den visse kampparametere. Best å aktivere når du er i posisjon og klar til å angripe fienden."
+
+msgid "abilities/common/description/stun"
+msgstr "Sjokker fiendtlige kjøretøy innenfor en viss eksplosjonsradius, selv uten direkte treff, og forverrer kortvarig deres mobilitet, presisjon og ladetid. Sjokkede fiender merkes med en sjokkindikator."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Lar kjøretøyet holde seg i bevegelse med redusert hastighet når hovedbeltet er skadet. Å miste enda et belte reduserer mobiliteten ytterligere, men kjøretøyet kan fortsatt snu og bevege seg."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Lar kjøretøyet kjøre betydelig raskere, samtidig som det reduserer våpenhåndteringsegenskapene betraktelig."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Når denne spesialmodusen aktiveres påfører du dobbel skade og visse kampparametere økes og/eller endres. Mest nyttig i nærkamper."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Autolader"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Forbedret autolader"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Autokanon"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Dyp-riflet kanon"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Kanonkjøling"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Dobbel kanon"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Hydraulisk oppheng"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Rask modus"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Autolader"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Autokanon med overopphetingskontroll"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Rakettboostere"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Beleiringsmodus"
+
+msgid "abilities/common/name/stun"
+msgstr "Sjokk"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Reservebelte"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Turbomodus"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Salveskuddmodus"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Ved å forbli stasjonær eller bevege deg sakte bygger du opp nivåer for å forbedre presisjonen for ditt neste skudd.\nPå det høyeste preisjonsnivået oppnår du meget god kanonhåndtering med redusert skuddspredning selv i bevegelse eller med tårn-/skrogdreining."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Hver gang du treffer en fiende med en granat får du et høyere nivå for ladeeffektivitet, noe som midlertidig gir din kanon kortere ladehastighet. Nivåer akkumuleres for hvert treff.\nÅ bekjempe et fiendtlig kjøretøy med en granat gir deg ytterligere effektivitetsnivåer for lading."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Dersom kanonen din er ladd kan du begynne å varme opp til neste skudd for økt skade—jo høyere varmenivå, desto større effekt.\nVed maksimal varme har du flere sekunder til å avfyre—hvis du ikke gjør det, vil du midlertidig være ute av stand til å avfyre skuddet."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Å lande to panserpenetrerende skudd på fiendtlige kjøretøy utløser serieskuddmodusen. Den lader en granatkassett som lar deg avfyre to granater i rask rekkefølge med ditt neste skudd for massiv skade."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Det pneumatiske gyro-stabilisatorsystemet gir maksimal stabilisering under bevegelse, skrog- og tårndreining, noe som tillater mer presis skyting, samt rask respons på plutselige trusler og effektivt engasjement fra skjul."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Systemet påbegynner automatisk lading av en ny kassett når det gjenstår én granat i den nåværende, slik at du forblir klar til innsats. Du kan fortsatt avfyre den siste granaten i denne prosessen, men det vil legge til flere sekunder til gjenværende ladetid."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Systemet holder våpenet avkjølt, noe som muliggjør svært nøyaktig skyting. Våpenet varmes opp når det avfyres, men begynner å kjøle ned og returnerer til forbedrede parametere under lading. Jo høyere temperaturen er, desto mer endres noen av parameterne."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Med utgangspunkt i desigenerfaring fra tidligere modeller er dette kjøretøyet spesielt konfigurert for dødelige kollisjonsangrep. Konstruksjonsforsterkninger gjør det i stand til å påføre mer skade ved kollisjon med fiendtlige kjøretøy, noe som gir det en fordel i nærkamp."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Dette kjøretøyets kanon kan avfyres tidlig: Enkeltskudd som avfyres under lading har redusert effekt, mens vanlige fulladede skudd som avfyres etter lading har optimale ballistiske parametere."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Våpenet kan avfyre skudd kontinuerlig uten behov for lading. Hvert skudd genererer varme: Jo høyere temperaturen blir, desto mer endres noen av parametrene. Kontinuerlig ildgivning vil føre til at våpenet overopphetes og hindrer videre avfyring til det har kjølt ned."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Forbli stasjonær eller beveg deg sakte for å bygge opp forhåndsoppvarming, noe som øker neste skudds skadeomfang og nøyaktighet. Ved maksimal forhåndsoppvarming vil penetrering av en fiende med færre helsepoeng enn din gjennomsnittlige skade forårsake en ammunisjonslager-eksplosjon som bekjemper kjøretøyet."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Denne modusen gjør ditt kjøretøy om til en konsolidert skyteplattform som gir overlegen presisjon og raskere ladetid. I kompensasjon for denne forbedrede ildkraften blir kjøretøyets mobilitet—fremover-/revershastighet og vertikal/horisontal vinkelendring—alvorlig begrenset."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Denne modusen gir en betydelig økning i motorkraft og toppfart fremover. Jo lenger kontinuerlig tid du kjører fremover, desto høyere blir farten, slik at du kan bevege deg raskt frem over slagmarken og tilbakelegger enkelt store avstander."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Systemet lader seg opp over tid, og jo høyere ladning, desto mer bonusskade får du. Ladningen bestemmes av en begrensningsveksler som kan deaktiveres for en enda større skadebonus, men på bekostning av dårligere kanonhåndtering."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Aktiver rakettmotorene med flytende drivstoff når som helst for en hastighetsøkning når du trenger det mest. Rakettmotorene varmes opp og må kjøles ned før de kan brukes på nytt, mens overoppheting deaktiverer dem midlertidig."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Boostere med fast drivstoff som øker akselerasjon, mobilitet og manøvreringsevne i flere sekunder. De venstre og høyre boosterne kan fungere uavhengig av hverandre for raskere dreining av skroget, og begrenser ikke muligheten for reversering."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Avhengig av aktiv modus og ladenivå, kan kjøretøyet aktivere én av to evner:\nIone-etterbrenning: Øker motorkraft og hastighet.\nElektromekanisk stereoskopisk siktejustering: Reduserer spredning og ladetid samt forbedrer presisjonen."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Denne modulen holder deg i kamp ved å la deg avbryte lading når som helst hvis minst én granat er ladet. Trykk på hurtigtasten for å stoppe lading, avfyr skudd etter en kort forsinkelse, og deretter gjenoppta lading manuelt eller la magasinet automatisk lades når det er tomt."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Å trykke aktiveringsknappen avfyrer kjøretøyets hjelpevåpen mot målet. Denne tilleggsildkraften har sin egen ladesyklus, uavhengig av hovedkanonen."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Ditt neste skudd legger til en effekt basert på fiendens oppdagelsesstatus. Treffer du en oppdaget fiende blir de markert—de vil forbli oppdaget lenger og motta mer skade. Treffer du en uoppdaget fiende, vil deres posisjon bli uthevet med en spesiell markør."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Byr på dobbel skade og forbedret stabilisering på bekostning av mobilitet, presisjon, hastighet på tårndreining og siktetid. Fungerer best i nærkamp."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Denne mekaniske modifikasjonen gir kjøretøyets akselerasjon, motorkraft og makshastighet forover og bakover et betydelig løft i en kort periode, slik at du kan reagere raskt på fiendtlige angrep og overrumple motstandere med dynamiske manøvrer."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Analogt ballistisk beregningsapparat"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Semiautomatisk ammunisjonsstativ"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Termoballistisk overladning"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Salvemodus"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Pneumatisk gyro-stabilisator"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Kassettladessystem"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Aktiv kanonkjøling"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Kollisjonskonfigurasjon"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Ladesystem for multipakning"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Autokanon med overopphetingskontroll"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Termisk styringssystem for drivstoff"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Maskingeværrede modus"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Direktedrift"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Etterbrenner med drivstoffinduksjon"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Boostere med flytende drivstoff"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Sekvensielle rakettboostere"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Taktisk kraftpakke"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Ekstern forsyningsmodul for ammunisjon"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Hjelpevåpen"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Laser målangiver"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Salveskuddmodus"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Høytrykksturbo assistanse"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Øker presisjonen for ditt neste skudd med god stabilisering ved full kalibrering."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Hvert reff på et fiendtlig kjøretøy reduserer ladetiden på kanonen i en begrenset tid."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Bygger opp varmenivå for å forårsake mer skade på fiendtlige kjøretøy med ditt neste skudd."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "En kassett til serieskuddmodusen som lar deg avfyre to granater i rask rekkefølge."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maksimaliserer stabilisering ved bevegelse og dreining for mer presise skudd."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Begynner automatisk å lade på nytt når den når den siste granaten. Denne kan avfyres mens ladingen er i gang."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Et aktivt kjølesystem for kanon som forbedrer preisisjonen mens kanonen avkjøles."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Øker kollisjonsskade påført fiendtlige kjøretøy."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "En spesiell våpenmekanisme som gjør det mulig å skyte raskere på bekostning av skuddets effektivitet."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Systemet gjør det mulig med kontinuerlig ild uten lading og kontrollerer hvordan kanonen genererer varme ved ildgivning."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Stående stille eller i sakte bevegelse øker skaden og presisjonen på det neste skuddet."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Øker kanonens presisjon og ladehastighet drastisk, men begrenser mobilitet betydelig."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Gir en boost på motorkraft, bygger opp toppfart jo lenger kjøretøyet fortsetter å holde seg i bevegelse."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Systemet lader opp for å øke skaden. Jo høyere ladning, desto større skade."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Boostere som kan aktiveres når som helst for å gi en skarp fartsøkning."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Boostere med fast drivstoff som øker akselerasjon, mobilitet og manøvrerbarhet"
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Lader opp en av to unike evner, enten økning av fart eller bedring av kanonpresisjon."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Gjør at du kan avbryte ladingen og likevel avfyre skudd i prekære situasjoner."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Noen ekstravåpen som gir økt ildkraft i tillegg til hovedkanonen."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Øker tiden en fiende forblir oppdaget og tar skade, eller markerer dem med en spesiell markør."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Gjør at man kan avfyre skudd fra begge kanonene samtidig med påfølgende økt ladetid."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "En spesialmekanisme som gir motorkraften, akselerasjonen og toppfarten en boost i en kort periode."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Ved å stå i ro eller bevege deg under en viss hastighet, kan kjøretøyet kalibrere sin analoge ballistiske datamaskin og bygge opp nøyaktighetsnivåer, noe som øker presisjonen på ditt neste skudd. Hvis du overskrider fartsgrensen, vil fremgangen i oppbyggingen av nøyaktighetsnivået settes på pause til du senker farten igjen. På det høyeste nøyaktighetsnivået får kjøretøyet god kanonstabilisering, med redusert spredning ved bevegelse eller rotasjon av tårn/skrog. Effekten forsvinner når du avgir skudd."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Hver gang du treffer en synlig fiende med en granat får du et høyere nivå for ladeeffektivitet, noe som midlertidig gir din kanon kortere ladehastighet. Nivåer akkumuleres for hvert treff. Å bekjempe et fiendtlig kjøretøy med en granat gir deg ytterligere effektivitetsnivåer for lading."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Hvis kanonen din er ladd, kan du begynne å varme opp det neste skuddet. Jo høyere varmenivå du når, desto større blir bonusen på gjennomsnittlig skade. Du kan ikke bytte granater mens oppvarmingen pågår. Ved maksimalt varmenivå starter en nedtelling. Hvis du ikke skyter før den er over, vil du ikke kunne skyte på flere sekunder."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Å få to panserpenetrerende treff på fiendtlige kjøretøy aktiverer salvemodus, der en salveavfyringskassett som gjør det mulig å avfyre to granater i rask rekkefølge selv om det neste skuddet blir ladet."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Den pneumatiske gyro-stabilisatoren gir maksimal stabilisering under skrog- og tårnbevegelse i en kort periode, noe som gir mer nøyaktig skyting under bevegelse og rask reaksjon på plutselige trusler."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Systemet begynner automatisk å laste inn en ny kassett når det er én granat igjen i den nåværende. Hvis du avfyrer den siste granaten mens den nye kassetten lastes inn, legges det til flere sekunder på den gjenstående ladetiden. Ved å trykke på hurtigtasten for å lade om granatbeholderen, kastes alle gjenværende granater unntatt den siste. Trykk på hurtigtasten to ganger for å nullstille en fulladet kassett."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Systemet holder våpenet avkjølt, noe som muliggjør svært nøyaktig skyting. Våpenet varmes opp når det avfyres, men begynner å kjøle ned og returnerer til forbedrede parametere under lading. Jo høyere temperaturen er, desto mer endres noen av parameterne."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Dette kjøretøyet er spesielt konfigurert til kollisjonsangrep med en rekke designmodifikasjoner som hjelper den med å påføre mer kollisjonsskade."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Dette kjøretøyets kanon kan avfyres tidlig: Enkeltskudd som avfyres under lading har redusert effekt, mens vanlige fulladede skudd som avfyres etter lading har optimale ballistiske parametere."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Våpenet kan avfyre skudd kontinuerlig uten behov for lading. Hvert skudd genererer varme: Jo høyere temperaturen blir, desto mer endres noen av parametrene. Kontinuerlig ildgivning vil føre til at våpenet overopphetes og hindrer videre avfyring til det har kjølt ned."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Å stå stille eller bevege seg under en viss hastighet genererer forvarming, noe som øker gjennomsnittlig skade og presisjon på ditt neste skudd. Overskrides fartsgrensen reduseres bonusen gradvis, mens avfyring eller bytte av granater nullstiller den umiddelbart. Ved maksimalt forvarmingsnivå vil det å penetrere panseret på et fiendtlig kjøretøy med færre helsepoeng enn din gjennomsnittlige skade—inkludert din akkumulerte forvarmingsbonus—føre til at ammunisjonslageret eksploderer og ødelegger kjøretøyet momentant."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "I denne modusen økes kanonens presisjon, ladehastighet og kanonvinkler drastisk, men mobiliteten (hastighet forover/bakover og vertikal/horisontal travershastighet) blir kraftig begrenset. Prosentverdier er oppgitt for sammenligning med beleiringsmodus."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Direktedrift gir en betydelig økning i motorkraft og toppfart fremover. Jo lenger du kjører fremover, jo mer fart bygges opp, noe som lar deg krysse slagmarken raskere."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Over tid akkumulerer systemet automatisk en ladning, som delvis forbrukes for å øke skaden når man skyter. Jo høyere ladningen er, desto større blir skadebonusen. Som standard lagrer systemet bare ladningen opp til en viss grense. Ved å deaktivere grensen kan det akkumuleres en enda høyere ladning, noe som gir en mye større skadebonus, men som reduserer kanonhåndteringen."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Boostere med flytende drivstoff gir en kraftig økning i motorkraft, noe som lar deg få en posisjonell fordel på slagmarken—men det begrenser kjøretøyets rygge- og dreiningshastighet. De kan slås av eller på når som helst, bortsett fra når grensen for reaktivering er nådd. Boosterne varmes opp mens de er aktive og blir utilgjengelige til de er nedkjølt, noe som betyr at de ikke kan brukes uavbrutt—og hvis den kritiske varmegrensen overskrides midlertidig, blir de deaktivert fullstendig. Planlegg trekkene dine nøye for å unngå å bli tatt på senga."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Faststoffraketter som forbedrer kjøretøyets akselerasjon, mobilitet og manøvrerbarhet i flere sekunder. Til forskjell fra vanlige rakettboostere kan venstre og høyre booster fungere uavhengig av hverandre for raskere svinging, og de begrenser ikke evnen til å rygge. De kan brukes flere ganger per kamp, men krever en nedkjølingsperiode før de kan aktiveres på nytt."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Avhengig av aktiv modus og ladenivå kan kjøretøyet aktivere én av to ferdigheter: Ione-etterbrenning eller Elektromekanisk stereoskopisk siktejustering.\nIone-etterbrenning øker motorkraften midlertidig, topphastigheten forover og ryggehastigheten. Elektromekanisk stereoskopisk siktejustering forbedrer nøyaktigheten og reduserer ladetiden midlertidig."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Den eksterne ammunisjonsforsyningsmodulen lar deg avbryte ladingen slik at du kan skyte når som helst, så lenge du fortsatt har én granat ladet. Under lading låser modulen kjøretøyets tårn og de eksterne ammunisjonsbeholderne, noe som midlertidig hindrer deg i å sikte eller skyte med mindre du avbryter prosessen."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Dette kjøretøyet er utstyrt med et sett sekundærbestykning hvis ladesyklus er separat fra hovedkanonen, noe som gjør det mulig for deg å forårsake ytterligere skade i viktige øyeblikk."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Laser-målangiveren legger til en spesialeffekt på ditt neste skudd, som påføres enhver fiende du treffer. Effekten varierer avhengig av om fienden var oppdaget i trefføyeblikket. Hvis du treffer et oppdaget fiendtlig kjøretøy, vil det bli markert, noe som forlenger tiden det forblir synlig og øker skaden det får fra granater, mens treff på et uoppdaget fiendtlig kjøretøy vil markere dets posisjonen med en spesialmarkør."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Gir dobbel skade og forbedret stabilisering på bekostning av mobilitet, presisjon, hastighet på tårndreining og siktetid. Fungerer best i nærkamp."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Denne mekaniske modifikasjonen gir kjøretøyets akselerasjon, motorkraft og maksfart forover og bakover et betydelig løft i en kort periode, slik at du kan reagere raskt på fiendtlige angrep og overrumple motstandere med dynamiske manøvrer. Ved å opprettholde en høy fart reduseres nedkjølingstiden for mekanismen."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Alle verdier som vises er de maksimale mulige for kjøretøyet. Utstyr, direktiver og forbruksmateriell kan endre disse verdiene, men slike endringer gjenspeiles ikke her."
+
+msgid "characteristics/templates/upTo"
+msgstr "Opptil %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Kjøp og montér"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Feltmodifikasjon"
+
+msgid "modules/controls/button/mount"
+msgstr "Montér"
+
+msgid "modules/controls/button/research"
+msgstr "Utvikling"
+
+msgid "modules/controls/button/sell"
+msgstr "Selg fra depotet"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Dette kjøretøyet er i kamp. Du kan modifisere dets moduler så snart kampen er ferdig."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Dette kjøretøyet er skadd. Reparer det for å kunne modifisere dets moduler."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Ikke i stand til å montere modul. {{module}} er inkompatibel."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Dette kjøretøyet befinner seg i en taktisk enhet."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Kjøp dette kjøretøyet for å kunne modifisere modulene."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Utvikle foregående moduler først for å kunne utvikle denne modulen."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Utvikle dette kjøretøyet for å kunne utvikle dets moduler."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Alle modulene har blitt utviklet."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Denne modulen er allerede påmontert."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Velg en modul eller et kjøretøy du vil utvikle."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Dette kjøretøyet er i kamp. Du kan modifisere dets moduler så snart kampen er ferdig."
+
+msgid "modules/controls/name"
+msgstr "Valgt: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Understell"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Motor"
+
+msgid "modules/name/vehicleGun"
+msgstr "Kanon"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Radio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Tårn"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Hjul"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Samlerkjøretøy"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Evne til å tjene"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "inntekt i hver kamp"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "besetningsoverføring uten gebyr"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "Erfaringspoeng og besetningserfaring"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Sedler"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Mer"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Gratis"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Mer"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Tjen sedler"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Mer credits"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Gratis overføring"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Mer erfaringspoeng"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Gratis reparasjonssett"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Evne til å tjene"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "inntekt i hver kamp"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "besetningsoverføring mellom kjøretøyklasser uten gebyr"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "Erfaringspoeng og besetningserfaring"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Sedler"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Mer"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Gratis"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Mer"
+
+msgid "overview/crew/name"
+msgstr "Besetning {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Se mekanisme"
+
+msgid "overview/title/generalDescription"
+msgstr "Beskrivelse av kjøretøy"
+
+msgid "overview/title/historicalReference"
+msgstr "Historisk referanse"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Frem til {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Gjenopprettelse tilgjengelig frem til {{date}}"
+
+msgid "tabs/armor"
+msgstr "Pansring"
+
+msgid "tabs/modules"
+msgstr "Moduler"
+
+msgid "tabs/overview"
+msgstr "Oversikt"
+
+msgid "tabs/stats"
+msgstr "Karakteristika"
+
+msgid "tabs/vehSkillTree"
+msgstr "Oppgraderinger"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Leietiden er over"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Abonnement suspendert"

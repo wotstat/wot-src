@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Oversætter <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "actionStub/name"
+msgstr "Modifikation"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Gendanner straks %(immediatelyRestore)s af køretøjets hp. Under alle %(duration)s s af evnens varighed, vil al skade fra granater og kampevner blive akkumuleret og konverteret til hp, samt yderligere %(restoringCoefficient)s af den samlede modtagne skade, når evnen udløber.\n\n*Konverteret hp-gendannelse påvirker også allierede køretøjer i en lille omkreds."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Gendanner straks %(immediatelyRestore)s af køretøjets hp. Under alle %(duration)s s af evnens varighed, vil al skade fra granater og kampevner blive akkumuleret og konverteret til hp, samt yderligere %(restoringCoefficient)s af den samlede modtagne skade, når evnen udløber.\n\n*Konverteret hp-gendannelse påvirker også allierede køretøjer i en lille omkreds."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "{green_Open}Gendanner straks %(immediatelyRestore)s{green_Close} af køretøjets hp. Under alle {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} af evnens varighed, vil al skade fra granater og kampevner blive akkumuleret og konverteret til hp, samt {green_Open}yderligere %(restoringCoefficient)s af den samlede modtagne skade{green_Close}, når evnen udløber.\n\n*Konverteret hp-gendannelse påvirker også allierede køretøjer i en lille omkreds."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Tilpasset panser"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "{green_Open}Gendanner straks %(immediatelyRestore)s{green_Close} af køretøjets hp. Under alle {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} af evnens varighed, vil al skade fra granater og kampevner blive akkumuleret og konverteret til hp, samt {green_Open}yderligere %(restoringCoefficient)s af den samlede modtagne skade{green_Close}, når evnen udløber.\n\n*Konverteret hp-gendannelse påvirker også allierede køretøjer i en lille omkreds."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s til sløring af et stationært køretøj eller et køretøj i bevægelse med stille udstødningssystem (enhver klasse) eller erobret udstødningssystem monteret."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Forbedrer effekten af et stille udstødningssystem eller erobret udstødningssystem i løbet af kampen. Direktivet vil kun virke, hvis du har det relevante udstyr monteret."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Udstødningsisolering"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Forbedrer sløring af et stationært køretøj eller et køretøj i bevægelse"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Effektiviteten afhænger af køretøjstypen. Forbedrer sløring af et stationært køretøj eller et køretøj i bevægelse. Nyttig til aktiv opdagelse eller passiv opdagelse fra risikable positioner."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Stille udstødningssystem"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Forbedrer sløring af et stationært køretøj eller et køretøj i bevægelse."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Stille udstødningssystem, klasse 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Stille udstødningssystem, klasse 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Stille udstødningssystem, klasse 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Yderligere panserplader (type 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Yderligere panserplader (type 2)"
+
+msgid "afterburning/descr"
+msgstr "Booster hastighed og acceleration på dit køretøj i en begrænset periode."
+
+msgid "afterburning/name"
+msgstr "Turbolader"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Reducering af din kanons spredning er kritisk: jo mindre spredning, jo mindre sigtecirkel og jo mindre tid kræves til fuldt sigte. Derudover vil et uforberedt skud (der affyres uden fuldt sigte eller under bevægelse) have en større chance for at træffe målet."
+
+msgid "aimingStabilizer/name"
+msgstr "Vertikal stabilisator"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s til spredning efter skydning ved bevægelse og tårnrotation med vertikal stabilisator, stabiliseringsudstyr eller erobret stabilisator monteret."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Forbedrer effekten af vertikal stabilisator (enhver klasse), stabiliseringssystem og erobret stabilisator i løbet af kampen. For at udstyre og aktivere dette direktiv, skal denne type udstyr være monteret på dit køretøj."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Stabilisatorsmøring"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Forbedrer effekten af stabilisatoren"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Vertikal stabilisator, klasse 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Vertikal stabilisator, klasse 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Vertikal stabilisator, klasse 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Vertikal stabilisator, klasse 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Panserindlæg absorberer skade; dette betyder at de reducerer skaden fra påkørsel og høj-eksplosive granater. Panserindlæg vil være fordelagtige for tunge kampvogne med robust panser og kæmpe påkørselspotentiale, der primært kæmper på nært hold."
+
+msgid "antifragmentationLining/name"
+msgstr "Panserindlæg"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Beskytter køretøj og mandskab fra HE granater, skader, fortumling og påkørsel"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Ekstra tungt panserindlæg"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Tungt panserindlæg"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Medium panserindlæg"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Let panserindlæg"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Udstødningssystem"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Stabilisator"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Panserindlæg"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Sløringsnet"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Optik"
+
+msgid "archetype/commandersView/name"
+msgstr "Observationsudstyr"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Sigtemotor"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Hærdning"
+
+msgid "archetype/grousers/name"
+msgstr "Bæltsegmenter"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Konfiguration"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Radioudstyr"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Rotationsmekanisme"
+
+msgid "archetype/improvedSights/name"
+msgstr "Sigte"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Ventilation"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Ildledelsessystem"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Overlevelsespakke"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Øget præcisionssystem"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Øget mobilitetssystem"
+
+msgid "archetype/stereoscope/name"
+msgstr "Teleskopkikkert"
+
+msgid "archetype/tankRammer/name"
+msgstr "Kanonlader"
+
+msgid "archetype/template"
+msgstr "\"%(name)s\"-udstyrskategori"
+
+msgid "archetype/turbocharger/name"
+msgstr "Turbolader"
+
+msgid "artillery/longDescr"
+msgstr "Beordrer artilleri til at beskyde et lille område med HE-granater. Køretøjer i midten af nedslagsområdet modtager mest skade. Særligt effektivt mod tungt pansrede køretøjer."
+
+msgid "artillery/name"
+msgstr "Artilleribeskydning"
+
+msgid "artillery/shortDescr"
+msgstr "Uddeler stor skade til fjendtlige køretøjer i en lille radius."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s til risikoen for motorbrand"
+
+msgid "autoExtinguishers/descr"
+msgstr "Automatisk ildslukning i dit køretøj."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Slukker automatisk brand, samt reducerer risikoen for at der går ild i køretøjet. Denne forbrugsvare passer til alle køretøjstyper fra alle nationer."
+
+msgid "autoExtinguishers/name"
+msgstr "Automatisk brandslukker"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Automatisk ildslukning i dit køretøj. Kan bruges flere gange i en kamp. Forbrugsvaren fjernes efter en kamp hvis den blev brugt mindst en gang."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Automatisk brandslukning"
+
+msgid "berserker/battleDescr"
+msgstr "Forbedrer gennembrydning og skudkadence %(gunPiercing)s gange, mens det også forbedrer sigte og stabilisering med %(gunAimingTime)s, men fjerner %(healthDebuff)s af dit køretøjs samlede hp inden for %(duration)s s varighed.\n\n*Skade påført fra bersærk-evnen kan ikke ødelægge dit køretøj."
+
+msgid "berserker/descr"
+msgstr "Forbedrer gennembrydning og skudkadence %(gunPiercing)s gange, mens det også forbedrer sigte og stabilisering med %(gunAimingTime)s, men fjerner %(healthDebuff)s af dit køretøjs samlede hp inden for %(duration)s s varighed.\n\n*Skade påført fra Bersærk-evnen kan ikke ødelægge dit køretøj."
+
+msgid "berserker/longDescr"
+msgstr "Forbedrer gennembrydning og skudkadence {green_Open}%(gunPiercing)s gange{green_Close}, mens det også forbedrer sigte og stabilisering {green_Open}med %(gunAimingTime)s{green_Close}, men fjerner {red_Open}%(healthDebuff)s{red_Close} af dit køretøjs samlede hp inden for {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} varighed.\n\n*Skade påført fra Bersærk-evnen kan ikke ødelægge dit køretøj."
+
+msgid "berserker/name"
+msgstr "Bersærker"
+
+msgid "berserker/shortDescr"
+msgstr "Forbedrer gennembrydning og skudkadence {green_Open}%(gunPiercing)s gange{green_Close}, mens det også forbedrer sigte og stabilisering {green_Open}med %(gunAimingTime)s{green_Close}, men fjerner {red_Open}%(healthDebuff)s{red_Close} af dit køretøjs samlede hp inden for {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} varighed.\n\n*Skade påført fra Bersærk-evnen kan ikke ødelægge dit køretøj."
+
+msgid "blackout_headlights_1/name"
+msgstr "Dæmpede forlygter (type 1)"
+
+msgid "bomber/longDescr"
+msgstr "Beordrer et angrebsfly til at smide bomber i det valgte område, der gør fjendtlige køretøjer fortumlede og beskadigede. Køretøjer i midten af nedslagsområdet modtager mest skade. Særligt effektivt mod lette og medium køretøjer."
+
+msgid "bomber/name"
+msgstr "Luftangreb"
+
+msgid "bomber/shortDescr"
+msgstr "Gør fjendtlige køretøjer fortumlede og uddeler mellemhøj skade i et område med en stor radius."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Gendanner gradvist %(healPerTickDuration)s af køretøjets hp inden for %(duration)s s. Bliver afbrudt, hvis der påføres skade."
+
+msgid "brRegenerationKit/descr"
+msgstr "Gendanner gradvist %(healPerTickDuration)s af køretøjets hp inden for %(duration)s s. Bliver afbrudt, hvis der påføres skade."
+
+msgid "brRegenerationKit/long_special"
+msgstr "{green_Open}Gendanner gradvist %(healPerTickDuration)s{green_Close} af køretøjets hp {whiteSpanish_Open}inden for %(duration)s s.{whiteSpanish_Close} Bliver afbrudt, hvis der påføres skade."
+
+msgid "brRegenerationKit/name"
+msgstr "Genopretning"
+
+msgid "brRegenerationKit/short_special"
+msgstr "{green_Open}Gendanner gradvist %(healPerTickDuration)s{green_Close} af køretøjets hp {whiteSpanish_Open}inden for %(duration)s s.{whiteSpanish_Close} Bliver afbrudt, hvis der påføres skade."
+
+msgid "brRepairkit/descr"
+msgstr "Reparerer moduler og fjerner negative effekter."
+
+msgid "brRepairkit/long_special"
+msgstr "Reparerer moduler og fjerner negative effekter."
+
+msgid "brRepairkit/name"
+msgstr "Reparationssæt"
+
+msgid "brRepairkit/short_special"
+msgstr "Reparerer moduler og fjerner negative effekter."
+
+msgid "br_bomber/battleDescr"
+msgstr "Fortumler og uddeler %(minDamage)s til %(maxDamage)s hp skade til fjendtlige køretøjer. Køretøjet i midten af nedslagsområdet bliver skadet mest.\n\n*Der er en forsinkelse på %(delay)s s før nedslaget."
+
+msgid "br_bomber/descr"
+msgstr "Fortumler og uddeler %(minDamage)s til %(maxDamage)s hp skade til fjendtlige køretøjer. Køretøjet i midten af nedslagsområdet bliver skadet mest.\n\n*Der er en forsinkelse på %(delay)s s før nedslaget."
+
+msgid "br_bomber/longDescr"
+msgstr "Fortumler og uddeler {whiteSpanish_Open}%(minDamage)s til %(maxDamage)s hp skade{whiteSpanish_Close} til fjendtlige køretøjer. Køretøjet i midten af nedslagsområdet bliver skadet mest.\n\n*Der er en forsinkelse på %(delay)s s før nedslaget."
+
+msgid "br_bomber/name"
+msgstr "Luftangreb"
+
+msgid "br_bomber/shortDescr"
+msgstr "Fortumler og uddeler {whiteSpanish_Open}%(minDamage)s til %(maxDamage)s hp skade{whiteSpanish_Close} til fjendtlige køretøjer. Køretøjet i midten af nedslagsområdet bliver skadet mest.\n\n*Der er en forsinkelse på %(delay)s s før nedslaget."
+
+msgid "br_minefield/battleDescr"
+msgstr "Udlægger et aktivt minefelt i det valgte område i %(duration)s s. Fjendtlige køretøjer, der kommer i kontakt med minerne, vil blive fortumlede og modtage sprængskade.\n\n*Minerne kan ødelægges med skud. Miner udlagt under fjendtlige køretøjer vil IKKE eksplodere."
+
+msgid "br_minefield/descr"
+msgstr "Udlægger et aktivt minefelt i det valgte område i %(duration)s s. Fjendtlige køretøjer, der kommer i kontakt med minerne, vil blive fortumlede og modtage sprængskade.\n\n*Minerne kan ødelægges med skud. Miner udlagt under fjendtlige køretøjer vil IKKE eksplodere."
+
+msgid "br_minefield/longDescr"
+msgstr "Udlægger et aktivt minefelt i det valgte område {whiteSpanish_Open}i %(duration)s s{whiteSpanish_Close}. Fjendtlige køretøjer, der kommer i kontakt med minerne, vil blive fortumlede og modtage sprængskade.\n\n*Minerne kan ødelægges med skud. Miner udlagt under fjendtlige køretøjer vil IKKE eksplodere."
+
+msgid "br_minefield/name"
+msgstr "Minefelt"
+
+msgid "br_minefield/shortDescr"
+msgstr "Udlægger et aktivt minefelt i det valgte område {whiteSpanish_Open}i %(duration)s s{whiteSpanish_Close}. Fjendtlige køretøjer, der kommer i kontakt med minerne, vil blive fortumlede og modtage sprængskade.\n\n*Minerne kan ødelægges med skud. Miner udlagt under fjendtlige køretøjer vil IKKE eksplodere."
+
+msgid "br_respawn/name"
+msgstr "Respawn"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Gør det muligt at vende tilbage til kampen, når dit køretøj bliver ødelagt. Denne mekanisme virker i de første %(duration)s min af en kamp.\n\nFor at respawne en allieret, hold dig ude af kamp i %(timeToResurrect)s s. Respawn-ladninger er delt mellem delingsmedlemmer."
+
+msgid "br_respawn/solo/descr"
+msgstr "Gør det muligt at vende tilbage til kampen, når dit køretøj bliver ødelagt. Denne mekanisme virker i de første %(duration)s min af en kamp.\n\nNår dit køretøj er blevet ødelagt, vil det automatisk respawne."
+
+msgid "br_smoke/battleDescr"
+msgstr "Tilføjer en sløringsbonus i %(duration)s sekunder til alle køretøjer indenfor rækkevidde af forbrugsvaren."
+
+msgid "br_smoke/descr"
+msgstr "Tilføjer en sløringsbonus til alle køretøjer indenfor rækkevidde af forbrugsvaren."
+
+msgid "br_smoke/longDescr"
+msgstr "Tilføjer en sløringsbonus i %(duration)s sekunder til alle køretøjer indenfor rækkevidde af forbrugsvaren."
+
+msgid "br_smoke/name"
+msgstr "Røgslør"
+
+msgid "br_smoke/shortDescr"
+msgstr "Tilføjer en sløringsbonus til alle køretøjer indenfor rækkevidde af forbrugsvaren."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Tilføjer en sløringsbonus til alle køretøjer inden for rækkevidde af forbrugsvaren, samt skader ALLE køretøjer i dens rækkevidde med %(damagePerTick)s af deres samlede hp per sekund. Varer i %(duration)s s.\n\n*Skade fra rusttåge afbryder ikke opsamling af loot og ødelægger heller ikke køretøjer, så de vil altid have mindst 1 hp tilbage."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Tilføjer en sløringsbonus til alle køretøjer inden for rækkevidde af forbrugsvaren, samt skader ALLE køretøjer i dens rækkevidde med %(damagePerTick)s af deres samlede hp per sekund. Varer i %(duration)s s.\n\n*Skade fra rusttåge afbryder ikke opsamling af loot og ødelægger heller ikke køretøjer, så de vil altid have mindst 1 hp tilbage."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Tilføjer en sløringsbonus til alle køretøjer inden for rækkevidde af forbrugsvaren, samt skader ALLE køretøjer i dens rækkevidde {whiteSpanish_Open}med %(damagePerTick)s {whiteSpanish_Close}af deres samlede hp per sekund. Varer i {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Skade fra rusttåge afbryder ikke opsamling af loot og ødelægger heller ikke køretøjer, så de vil altid have mindst 1 hp tilbage."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Rusttåge"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Tilføjer en sløringsbonus til alle køretøjer inden for rækkevidde af forbrugsvaren, samt skader ALLE køretøjer i dens rækkevidde {whiteSpanish_Open}med %(damagePerTick)s {whiteSpanish_Close}af deres samlede hp per sekund. Varer i {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Skade fra rusttåge afbryder ikke opsamling af loot og ødelægger heller ikke køretøjer, så de vil altid have mindst 1 hp tilbage."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s til modulers reparationshastighed"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Reparerer alle skadede moduler ved aktivering. Den passive effekt forøger reparationshastigheden. Denne forbrugsvare passer til visse køretøjer."
+
+msgid "builtinRepairkit/name"
+msgstr "Standard stort reparationssæt"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Reparerer alle skadede moduler. Kan bruges flere gange i en kamp. Kan ikke opbruges.\nDenne forbrugsvare kan ikke fjernes, men den kan flyttes til en anden plads."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Giver yderligere 10% til køretøjets sløring"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Giver hele mandskabet sløringsevnen trænet til 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Sløringsevnen reducerer synligheden af både stationære køretøjer og køretøjer i bevægelse, i løbet af kampen. Når evnen er trænet til 100%, vil det benyttede direktiv forøge effekten; ellers giver direktivet dit køretøj evnen trænet til 100%."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Naturligt dække"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Giver sløringsevnen trænet til 100% eller forøger dens effekt"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Forbedrer sløringen på et stationært køretøj 3 s efter det stopper"
+
+msgid "camouflageNet/long_special"
+msgstr "Effektiviteten afhænger af køretøjstypen. Sløringsnet er primært gavnligt for snu køretøjer: SPG'er og kampvognsjægere med en lav silhuet. Det forbedrer effekten af sløringsevnen. Ved at kombinere dem får du en god bonus til dit køretøj. Sløringsnet aktiveres 3 sekunder efter dit køretøj er standset."
+
+msgid "camouflageNet/name"
+msgstr "Sløringsnet"
+
+msgid "camouflageNet/short_special"
+msgstr "Forbedrer sløring af et stationært køretøj"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Sløringsnet, klasse 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Sløringsnet, klasse 3"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "chocolate/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til tyske køretøjer."
+
+msgid "chocolate/name"
+msgstr "Chokolade"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Passer kun til tyske køretøjer."
+
+msgid "chocolate/short_special"
+msgstr "Forbedrer ydeevnen hos tyske mandskaber"
+
+msgid "clingBrander/battleDescr"
+msgstr "Tilkalder en autonom kampvogn udstyret med et ven-eller-fjende identifikationssystem, der vil følge og angribe den nærmeste fjende i op til %(botLifeTime)s s.\n\n*Denne kampvogn kan ødelægges."
+
+msgid "clingBrander/descr"
+msgstr "Tilkalder en autonom kampvogn udstyret med et ven-eller-fjende identifikationssystem, der vil følge og angribe den nærmeste fjende i op til %(botLifeTime)s s.\n\n*Denne kampvogn kan ødelægges."
+
+msgid "clingBrander/longDescr"
+msgstr "Tilkalder en autonom kampvogn udstyret med et ven-eller-fjende identifikationssystem, der vil følge og angribe den nærmeste fjende i {whiteSpanish_Open}op til %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Denne kampvogn kan ødelægges."
+
+msgid "clingBrander/name"
+msgstr "Kamprobot"
+
+msgid "clingBrander/shortDescr"
+msgstr "Tilkalder en autonom kampvogn udstyret med et ven-eller-fjende identifikationssystem, der vil følge og angribe den nærmeste fjende i {whiteSpanish_Open}op til %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Denne kampvogn kan ødelægges."
+
+msgid "clutches_replace_1/name"
+msgstr "Ny overbelastningsbeskyttelse (type 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Ny overbelastningsbeskyttelse (type 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "I modsætning til kikkertsigtet, giver belagt optik (af enhver type) en mindre, men permanent bonus, der ikke forsvinder under køretøjets bevægelse. Som resultat, er belagt optik yderst nyttigt for køretøjer med en aktiv spillestil—lette og medium kampvogne."
+
+msgid "coatedOptics/name"
+msgstr "Forbedret optik"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s til synsrækkevidde (op til 445 m) med belagt optik (enhver klasse), eksperimentel optik eller erobret optik monteret."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Forbedrer effekten af belagt optik, eksperimentel optik eller erobret optik i løbet af kampen. For at udstyre og aktivere dette direktiv, skal denne type udstyr være monteret på dit køretøj."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Optisk kalibrering"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Forbedrer effekten af optikken"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Belagt optik, klasse 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Belagt optik, klasse 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Belagt optik, klasse 3"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "cocacola/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til amerikanske køretøjer."
+
+msgid "cocacola/name"
+msgstr "En kasse Cola"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Passer kun til amerikanske køretøjer."
+
+msgid "cocacola/short_special"
+msgstr "Forbedrer ydeevnen hos amerikanske mandskaber"
+
+msgid "commandersView/long_special"
+msgstr "Reducerer sløringen af fjender i bevægelse og fjendens koefficient på sløring i buskads under opdagelse. Dette gør det muligt for dig at opdage fjender på længere afstande og mere effektivt kunne opdage fjender, der er skjult bag buske eller væltede træer."
+
+msgid "commandersView/name"
+msgstr "Kommandørens observationsudstyr"
+
+msgid "commandersView/short_special"
+msgstr "Reducerer sløringen af fjendtlige køretøjer, enten i bevægelse eller bag buskads"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Tilføjer korrosion til en granat, der forøger dens gennembrydning og skadepotentiale. Ved at uddele skade til en fjendes køretøj, påfører granaten en midlertidig effekt til det, der nedbryder op til %(damagePerDotEffectDuration)s af det fjendtlige køretøjs hp inden for varigheden på %(dotEffectDuration)s s.\n\n*Den negative effekt kan fjernes med et reparationssæt."
+
+msgid "corrodingShot/descr"
+msgstr "Tilføjer korrosion til en granat, der forøger dens gennembrydning og skadepotentiale. Ved at uddele skade til en fjendes køretøj, påfører granaten en midlertidig effekt til det, der nedbryder op til %(damagePerDotEffectDuration)s af det fjendtlige køretøjs hp inden for varigheden på %(dotEffectDuration)s s.\n\n*Den negative effekt kan fjernes med et reparationssæt."
+
+msgid "corrodingShot/longDescr"
+msgstr "Tilføjer korrosion til en granat, der forøger dens gennembrydning og skadepotentiale. Ved at uddele skade til en fjendes køretøj, påfører granaten en midlertidig effekt til det, der nedbryder {whiteSpanish_Open}op til %(damagePerDotEffectDuration)s{whiteSpanish_Close} af det fjendtlige køretøjs hp {whiteSpanish_Open}inden for varigheden på %(dotEffectDuration)s s{whiteSpanish_Close}.\n\n*Den negative effekt kan fjernes med et reparationssæt."
+
+msgid "corrodingShot/name"
+msgstr "Syregranat"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Tilføjer korrosion til en granat, der forøger dens gennembrydning og skadepotentiale. Ved at uddele skade til en fjendes køretøj, påfører granaten en midlertidig effekt til det, der nedbryder {whiteSpanish_Open}op til %(damagePerDotEffectDuration)s{whiteSpanish_Close} af det fjendtlige køretøjs hp {whiteSpanish_Open}inden for varigheden på %(dotEffectDuration)s s{whiteSpanish_Close}.\n\n*Den negative effekt kan fjernes med et reparationssæt."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Forbedrer det følgende"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Kommandør-egenskab"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "evne:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Giver det følgende"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "evne:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "En bedre udgave af den vertikale stabilisator ({colorTagOpen}–20%{colorTagClose} til spredning efter skydning ved bevægelse og tårnrotation), der giver en større effekt: {colorTagOpen}–27,5%{colorTagClose} til spredning efter skydning, ved bevægelse og ved tårnrotation. Dette udstyr passer til køretøjer fra alle nationer og visse typer. Kan kun afmonteres med obligationer."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Stabiliseringsudstyr"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "En forbedret udgave af belagt optik ({colorTagOpen}+10%{colorTagClose} til synsrækkevidde), der giver en større effekt: {colorTagOpen}+13,5%{colorTagClose} til synsrækkevidde. Dette udstyr passer til køretøjer fra alle nationer og af alle typer. Kan kun afmonteres med obligationer."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Eksperimentel optik"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "En bedre udgave af den forbedrede sigtemotor ({colorTagOpen}+10%{colorTagClose} til sigtetid), der giver en større effekt: {colorTagOpen}+13,5%{colorTagClose} til sigtetid. Dette udstyr passer til køretøjer fra alle nationer og af alle typer. Kan kun afmonteres med obligationer."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Robust sigtemotor"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Svarer til den modificerede konfiguration, men giver en stærkere effekt. Dette udstyr passer til køretøjer fra alle nationer og af alle typer. Kan kun afmonteres med obligationer."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Forbedret konfiguration"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Accelererer reparationer, beskytter ammunitionsstativ, brændstoftanke og motor"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "En bedre udgave af ventilation ({colorTagOpen}+5%{colorTagClose} til mandskabets effektivitetsbonus), der giver en stærkere effekt: {colorTagOpen}+8,5%{colorTagClose} til mandskabets effektivitet. Dette udstyr passer til køretøjer fra alle nationer og af alle typer. Kan kun afmonteres med obligationer."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Udluftningssystem"
+
+msgid "deluxRammer/long_special"
+msgstr "En bedre udgave af kanonladeren ({colorTagOpen}-10%{colorTagClose} til ladetid), der giver en stærkere effekt: {colorTagOpen}-13,5%{colorTagClose} til ladetid. Dette udstyr passer til køretøjer fra alle nationer og af alle typer. Kan kun afmonteres med obligationer."
+
+msgid "deluxRammer/name"
+msgstr "Innovativt ladesystem"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "En forbedret version af et stille udstødningssystem, der giver en stærkere effekt: Forbedrer sløringen af et stationært køretøj eller et køretøj i bevægelse. Nyttig til aktiv observering, samt passiv observering fra udsatte positioner.\nDette udstyr passer til køretøjer fra alle nationer og af alle typer, men dets effektivitet afhænger af køretøjstypen. Kan kun afmonteres med obligationer."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Skjult udstødning"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Forbedrer sløringen af et stationært køretøj eller et køretøj i bevægelse med {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Forbedrer sløringen på et stationært køretøj 1,5 s efter det stopper"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "En forbedret udgave af sløringsnet, hvis effektivitet afhænger af køretøjstypen. Taktisk sløringsnet er primært gavnligt for snu køretøjer: SPG'er og kampvognsjægere med en lav silhuet. Det forbedrer effekten af sløringsevnen. Ved at kombinere dem får du en god bonus til dit køretøj. Taktisk sløringsnet aktiveres 1,5 sekunder efter køretøjet er standset."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Taktisk sløringsnet"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5%{colorTagClose} til sløringen af et stationært køretøj"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Gendanner fuldt ud affjedringens hp efter reparation."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Gendanner affjedring efter reparation."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "En forbedret version af forbedret hærdning: {colorTagOpen}+12,5%{colorTagClose} til køretøjs hp, {colorTagOpen}+75%{colorTagClose} til affjedringens holdbarhed, {colorTagOpen}+30%{colorTagClose} til affjedringens reparationshastighed, {colorTagOpen}–75%{colorTagClose} til skade på skroget som følge af skade på affjedringen ved påkørsel. Gendanner fuldt ud affjedringens hp efter reparation. Reducerer risikoen for ødelæggelse af et bælte ved modtaget skade, hvilket gør det muligt for dig at forblive i bevægelse, så længe som muligt. Dette udstyr passer til køretøjer fra alle nationer og typer (undtagen SPG'er). Kan kun afmonteres ved brug af obligationer."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Øget granatmodstand"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Forøger køretøjets holdbarhed og beskytter affjedring"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "En forbedret version af en forbedret rotationsmekanisme, der giver en stærkere effekt: {colorTagOpen}+17.5% {colorTagClose}til kanonens drejehastighed, {colorTagOpen}+17.5% {colorTagClose}til skrogets drejehastighed og {colorTagOpen}-17.5% {colorTagClose}til spredning i bevægelse og ved tårnrotation. Dette udstyr passer til køretøjer fra alle nationer og af alle typer. Kan kun afmonteres med obligationer."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Forbedrede drejeskiver"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Forøger drejehastighed og reducerer kanonens spredning ved bevægelse og rotation"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "En bedre version af forbedret sigte, der giver en stærkere effekt: Reducerer størrelsen på sigtecirklen på en kanon, der er ved at sigte sig ind, eller er fuldt sigtet ind, med {colorTagOpen}9%{colorTagClose}. Din kanon vil derved have en bedre chance for at ramme målet. Udstyret passer på køretøjer af alle nationer og typer, undtagen SPG'er. Kan kun afmonteres med obligationer."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Innovativ målsøgning"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Reducerer kanonens spredning"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Forøger synsrækkevidden på et stationært køretøj 1,5 s efter det stopper (op til 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "En forbedret version af kikkertsigte. En god synsrækkevidde giver en solid fordel til køretøjer i kamp. Denne type udstyr er gavnlig for kampvognsjægere med lave silhuetter og præcise kanoner. Det aktiveres 1,5 sekunder efter køretøjet er standset."
+
+msgid "deluxeStereoscope/name"
+msgstr "Teleskopisk observationssystem"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27,5%{colorTagClose} til synsrækkevidden på et stationært køretøj (op til 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "En forbedret version af turbolader ({colorTagOpen}+7,5%{colorTagClose} til motorkraft, {colorTagOpen}+4 km/t{colorTagClose} til maksimal hastighed fremad, {colorTagOpen}+2 km/t{colorTagClose} til maksimal bakhastighed): {colorTagOpen}+12,5%{colorTagClose} til motorkraft, {colorTagOpen}+6 km/t{colorTagClose} til maksimal hastighed fremad, {colorTagOpen}+4 km/t{colorTagClose} til maksimal bakhastighed. Dette udstyr passer til køretøjer fra alle nationer og typer (undtagen hjulkøretøjer). Kan kun afmonteres ved brug af obligationer."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Forbedret kompressor"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Forøger motorkraft og tophastighed"
+
+msgid "eb_minefield/descr"
+msgstr "Udlægger et aktivt minefelt i det valgte område i en vis periode."
+
+msgid "eb_minefield/long_descr"
+msgstr "Udlægger et aktivt minefelt i det valgte område i en vis periode. Ved sprængning uddeler miner skade og før fjendtlige køretøjer fortumlede. Fjenden kan opdage miner på tæt hold eller med rekognoscering eller med Sentinel kampreserver. Miner kan ødelægges af skud eller eksplosioner."
+
+msgid "eb_minefield/name"
+msgstr "Minefelt"
+
+msgid "eb_minefield/short_descr"
+msgstr "Udlægger et aktivt minefelt i det valgte område i en vis periode."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Gendanner gradvist en vis procentdel af dit køretøjs hp."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Gendanner gradvist en vis procentdel af dit køretøjs hp. Øger reparationshastigheden i en genforsyningscirkel. Når den er aktiv, nedsættes skaden fra miner."
+
+msgid "eb_regenerationKit/name"
+msgstr "Feltreparationer"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Gendanner gradvist en vis procentdel af dit køretøjs hp."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Garageplads"
+
+msgid "empty_slot/name"
+msgstr "Garageplads"
+
+msgid "empty_slot/short_descr"
+msgstr "Kampreserve-pladsen er blevet brugt."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Forøger effekten af lyddetektionsevnen med 1,5 gange"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Giver lyddetektionsevnen trænet til 100%"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Lyddetektionsevnen giver en advarsel om fjendtlig SPG-beskydning og nedsætter den negative effekt fra fortumling. Hvis evnen er trænet til 100%, vil det udstyrede direktiv forbedre dens effekt; hvis ikke, giver direktivet dit køretøj evnen trænet til 100%."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Styrket årvågenhed"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Giver lyddetektionsevnen trænet til 100% eller forøger dens effekt"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Forbedret sigte reducerer sigtetiden. Et køretøj, der er udstyret med den forbedrede sigtemotor, vil have en mere præcis skudafgivelse (derudover vil det forbedre skudraten, da ladetiden nogle gange er mindre, end at vente på fuldt sigte)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Forbedret sigtemotor"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s til sigtehastighed med forbedret sigtemotor (enhver klasse), robust sigtemotor, erobret sigtemotor eller ildledelsessystem monteret."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Forbedrer effekten af erobret kanonlader, forbedret sigtemotor eller robust sigtemotor i løbet af kampen. For at udstyre og aktivere dette direktiv, skal denne type udstyr være monteret på dit køretøj."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Sigte indstilling"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Forbedrer effekten af sigtemotorer"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Forbedret sigtemotor, klasse 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Forbedret sigtemotor, klasse 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Forbedret sigtemotor, klasse 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Forbedrede Belleville spændeskiver"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Gendanner fuldt ud affjedringens hp efter reparation."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Gendanner fuldt ud affjedringens hp efter reparation"
+
+msgid "enhancedLevers/name"
+msgstr "Forbedrede håndtag"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Forbedrede længderettede torsionsstænger"
+
+msgid "enhancedSprings/name"
+msgstr "Forbedrede fjedre"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Forbedrede torsionsstænger, klasse 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Forbedrede torsionsstænger, klasse 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Forbedrede torsionsstænger, klasse 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Testevne for visuelt script"
+
+msgid "exampleAbility/name"
+msgstr "Testevne"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s til motorkraft og tårnets drejehastighed i resten af kampen."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til motorkraft og tårnets drejehastighed."
+
+msgid "excellentFuel/long_special"
+msgstr "Tilføjer {colorTagOpen}10%{colorTagClose} til motorkraft og tårnets drejehastighed i hele kampen. Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen."
+
+msgid "excellentFuel/name"
+msgstr "Fremragende brændstof"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} til motorkraft og tårnets drejehastighed"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Gendanner fuldt ud affjedringens hp efter reparation."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Gendanner affjedring efter reparation."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Forøger køretøjets holdbarhed og reparationshastighed. Reducerer skrogskade forårsaget af skade på affjedringen ved uheld. Gendanner fuldt ud affjedringens hp efter reparation. Reducerer risikoen for ødelæggelse af et bælte ved modtaget skade, hvilket gør det muligt for dig at forblive i bevægelse, så længe som muligt."
+
+msgid "extraHealthReserve/name"
+msgstr "Forbedret hærdning"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Forøger køretøjets holdbarhed og beskytter affjedring"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Forbedret hærdning, klasse 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Forbedret hærdning, klasse 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Forbedret hærdning, klasse 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "Skaber en cirkel af ild omkring dit køretøj, som reducerer mobiliteten af fjendtlige køretøjer i evnens effektområde, og fjerner op til %(damagePerTickForInterval)s af deres samlede hp inden for dens varighed på %(timer)s s.\n\n*Effektområdet på cirklen af ild er stationær og vil ikke følge dit køretøjs bevægelser."
+
+msgid "fireCircle/descr"
+msgstr "Skaber en cirkel af ild omkring dit køretøj, som reducerer mobiliteten af fjendtlige køretøjer i evnens effektområde, og fjerner op til %(damagePerTickForInterval)s af deres samlede hp inden for dens varighed på %(timer)s s.\n\n*Effektområdet på cirklen af ild er stationært og vil ikke følge dit køretøjs bevægelser."
+
+msgid "fireCircle/longDescr"
+msgstr "Skaber en cirkel af ild omkring dit køretøj, som reducerer mobiliteten af fjendtlige køretøjer i evnens effektområde, og fjerner {whiteSpanish_Open}op til %(damagePerTickForInterval)s{whiteSpanish_Close} af deres samlede hp {whiteSpanish_Open}inden for dens varighed på %(timer)s s{whiteSpanish_Close}.\n\n*Effektområdet på cirklen af ild er stationær og vil ikke følge dit køretøjs bevægelser."
+
+msgid "fireCircle/name"
+msgstr "Ildkrans"
+
+msgid "fireCircle/shortDescr"
+msgstr "Skaber en cirkel af ild omkring dit køretøj, som reducerer mobiliteten af fjendtlige køretøjer i evnens effektområde, og fjerner {whiteSpanish_Open}op til %(damagePerTickForInterval)s{whiteSpanish_Close} af deres samlede hp {whiteSpanish_Open}inden for dens varighed på %(timer)s s{whiteSpanish_Close}.\n\n*Effektområdet på cirklen af ild er stationær og vil ikke følge dit køretøjs bevægelser."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Forøger effekten af brandslukningsevnen med 1,5 gange"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Giver brandslukningsevnen trænet til 100%"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Brandslukningsevnen forbedrer brandslukning i dit køretøj i løbet af kampen. Når evnen er trænet til 100%, vil det benyttede direktiv forøge effekten; ellers giver direktivet dit køretøj evnen trænet til 100%."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Erfaren brandmand"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Giver brandslukningsevnen trænet til 100% eller forøger dens effekt"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Beordrer artilleriet til at beskyde det valgte område, hvor det vil skade alle køretøjer i det."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Artilleribeskydning"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Beordrer artilleriet til at beskyde det valgte område, hvor det vil skade alle køretøjer i det."
+
+msgid "fort_inspire/longDescr"
+msgstr "Giver en bonus til primære kvalifikationer og alle evner hos hele mandskabet på dit køretøj, samt mandskaberne på allierede køretøjer i nærheden."
+
+msgid "fort_inspire/name"
+msgstr "Inspiration"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Giver en bonus til primære kvalifikationer og alle evner hos hele mandskabet på dit køretøj, samt mandskaberne på allierede køretøjer i nærheden."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Justeret brændstofsystem (type 1)"
+
+msgid "grousers/long_special"
+msgstr "Forøger køretøjets drejehastighed og bibeholder hastighed ved krydsning af alle typer terræn. Det er markant effektivt ved kørsel på blødt og mellemblødt terræn. Det er mest effektivt i kombination med evnerne koblingsbremse og terrænkørsel."
+
+msgid "grousers/name"
+msgstr "Flere sporsegmenter"
+
+msgid "grousers/short_special"
+msgstr "Forøger køretøjets drejehastighed og forbedrer acceleration"
+
+msgid "grousers_tier1/name"
+msgstr "Ekstra bæltsegmenter, klasse 1"
+
+msgid "grousers_tier2/name"
+msgstr "Ekstra bæltsegmenter, klasse 2"
+
+msgid "grousers_tier3/name"
+msgstr "Ekstra bæltsegmenter, klasse 3"
+
+msgid "gun_balancing_1/name"
+msgstr "Kanonbalancering (type 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Ildslukning i dit køretøj."
+
+msgid "handExtinguishers/long_special"
+msgstr "Slukker brand i dit køretøj ved aktivering. Passer til alle køretøjstyper fra alle nationer. Forbrugsvaren fjernes efter en kamp, hvis den blev brugt mindst én gang."
+
+msgid "handExtinguishers/name"
+msgstr "Manuel brandslukker"
+
+msgid "handExtinguishers/onUse"
+msgstr "Ildslukning i dit køretøj. Kan bruges flere gange i en kamp. Forbrugsvaren fjernes efter en kamp, hvis den blev brugt mindst én gang."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Slukker brand"
+
+msgid "healPoint/battleDescr"
+msgstr "Opretter et område omkring dit køretøj. Inden for dette område gendanner både spilleren og delingsmedlemmer %(healPerTick)s af deres køretøjers hp hvert sekund i %(duration)s s."
+
+msgid "healPoint/descr"
+msgstr "Opretter et område omkring dit køretøj. Inden for dette område gendanner både spilleren og delingsmedlemmer %(healPerTick)s af deres køretøjers hp hvert sekund i %(duration)s s."
+
+msgid "healPoint/longDescr"
+msgstr "Opretter et område omkring dit køretøj. Inden for dette område {green_Open}gendanner både spilleren og delingsmedlemmer %(healPerTick)s{green_Close} af deres køretøjers hp hvert sekund i {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Genoprettelseszone"
+
+msgid "healPoint/shortDescr"
+msgstr "Opretter et område omkring dit køretøj. Inden for dette område {green_Open}gendanner både spilleren og delingsmedlemmer %(healPerTick)s{green_Close} af deres køretøjers hp hvert sekund i {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "hotCoffee/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til franske køretøjer."
+
+msgid "hotCoffee/name"
+msgstr "Stærk kaffe"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Passer kun til franske køretøjer."
+
+msgid "hotCoffee/short_special"
+msgstr "Forbedrer ydeevnen hos franske mandskaber"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Forhindrer én brand i brændstoftanke, eksplosion i ammunitionsstativ og ødelæggelse af motoren i en kamp ved ødelæggelse af disse moduler."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Forhindrer én brand i brændstoftanke, eksplosion i ammunitionsstativ og ødelæggelse af motoren i en kamp ved ødelæggelse af disse moduler."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Ammunitionsstativet er beskyttet fra eksplosion"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Eksplosion i ammunitionsstativet forhindret"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Motoren er beskyttet"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Ødelæggelse af motoren forhindret"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Brændstoftankene er beskyttet mod brand"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Brand i brændstoftank forhindret"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Forhindrer én brand i brændstoftanke, eksplosion i ammunitionsstativ og ødelæggelse af motoren i en kamp ved ødelæggelse af disse moduler."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Accelererer reparationer. Forøger holdbarheden af ammunitionsstativ, brændstoftanke og motor. Reducerer ladetid og tab af motorkraft ved skade på de pågældende moduler. Reducerer risiko for motorbrand. Forhindrer én brand i brændstoftanke, eksplosion i ammunitionsstativ og ødelæggelse af motoren i en kamp ved ødelæggelse af disse moduler. Er mere effektiv i kombination med evnerne reparation, sikker opbevaring og forebyggende vedligeholdelse."
+
+msgid "improvedConfiguration/name"
+msgstr "Modificeret konfiguration"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Accelererer reparationer, beskytter ammunitionsstativ, brændstoftanke og motor"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s til reparationshastighed med modificeret konfiguration (enhver klasse), udviklet konfiguration eller erobret beskyttelsesteknologi monteret."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Forbedrer effekten af modificeret konfiguration, forbedret konfiguration eller erobret beskyttelsesteknologi i løbet af kampen. For at udstyre og aktivere dette direktiv, skal denne type udstyr være monteret på dit køretøj."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Vedligeholdelse før kampen"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Forbedrer effekten af modificeret konfiguration"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Modificeret konfiguration, klasse 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Modificeret konfiguration, klasse 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Forøger perioden hvor en fjende forbliver opdaget, efter at have forladt dit køretøjs synsrækkevidde. Reducerer perioden hvor du forbliver opdaget for fjenden. Er mest effektiv i kombination med evnerne udpeget mål og hævntogt."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Forbedret radioudstyr"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Forøger perioden hvor en fjende forbliver opdaget, og reducerer perioden hvor du forbliver opdaget"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Forøger drejehastigheden på skrog og tårn for køretøjer med tårne. Forøger drejehastigheden på skrog og kanon for køretøjer med stationære kabiner. Reducerer kanonens spredning ved bevægelse og under rotation af skrog og tårn, samt efter skydning. Er mere effektiv i kombination med evnen koblingsbremse."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Forbedret rotationsmekanisme"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Forøger drejehastighed og reducerer kanonens spredning ved bevægelse og rotation"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Forbedret rotationsmekanisme, klasse 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Forbedret rotationsmekanisme, klasse 2"
+
+msgid "improvedSights/long_special"
+msgstr "Reducerer størrelsen på sigtecirklen for at øge præcisionen på kanonen ved fuldt eller delvist sigte. Din kanon kan som resultat nemmere ramme målet."
+
+msgid "improvedSights/name"
+msgstr "Forbedret sigte"
+
+msgid "improvedSights/short_special"
+msgstr "Reducerer kanonens spredning"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s til størrelsen på sigtecirklen med forbedret sigte (enhver klasse), erobret sigte monteret eller øget præcisionssystem monteret."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Forbedrer effekten af forbedret sigte eller erobret sigte i løbet af kampen. Direktivet vil kun virke, hvis du har det relevante udstyr monteret."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Poleret linse"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Reducerer størrelsen på sigtecirklen"
+
+msgid "improvedSights_tier1/name"
+msgstr "Forbedret sigte, klasse 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "Forbedret sigte, klasse 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "Forbedret sigte, klasse 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "Forbedrer et antal karakteristika på dit køretøj: synsrækkevidde, skudrate, sigtetid, dynamiske karakteristika og andet. Den ydede bonus fra dette udstyr vil dog kun kunne mærkes, hvis våbenbrødre evnen er trænet til 100% af dit mandskab."
+
+msgid "improvedVentilation/name"
+msgstr "Forbedret ventilation"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s til mandskabets effektivitetsbonus med forbedret ventilation (enhver type), udluftningssystem eller erobret ventilation monteret."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Forbedrer effekten af forbedret ventilation (enhver klasse), udluftningssystem eller erobret ventilation i løbet af kampen. For at udstyre og aktivere dette direktiv, skal denne type udstyr være monteret på dit køretøj."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Ventilationsrensning"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Forbedrer effekten af ventilationen"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Forbedret ventilation, klasse 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Forbedret ventilation, klasse 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Forbedret ventilation, klasse 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Forbedret ventilation, klasse 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Forbedret ventilation, klasse 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Forbedret ventilation, klasse 3"
+
+msgid "improved_suspension_1/name"
+msgstr "Forbedret affjedring (type 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Forbedret affjedring (type 2)"
+
+msgid "inspire/longDescr"
+msgstr "Forbedrer mandskabets ydeevne på køretøjet og alle allierede indenfor en bestemt radius, tilføjer en % bonus til primær kvalifikation på hvert mandskab. En spiller, som påfører den, vil modtage en forbedret effekt."
+
+msgid "inspire/name"
+msgstr "Inspiration"
+
+msgid "inspire/shortDescr"
+msgstr "Tilføjer en bonus til primær kvalifikation hos spillerens og allierede mandskaber."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Højkaliber artilleri granatlader"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Højkaliber kampvogns kanonlader"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s til fortumlet varighed\n%(crewHitChance)s til beskyttelse af mandskab mod skade"
+
+msgid "largeMedkit/descr"
+msgstr "Behandling af alt såret mandskab og fjerner fortumlet tilstand."
+
+msgid "largeMedkit/long_special"
+msgstr "Behandler alt såret mandskab og fjerner fortumlet effekt ved aktivering. Den passive effekt forbedrer beskyttelsen af mandskabet mod skade. Denne forbrugsvare passer til alle køretøjstyper fra alle nationer."
+
+msgid "largeMedkit/name"
+msgstr "Stort førstehjælpssæt"
+
+msgid "largeMedkit/onUse"
+msgstr "Behandling af alt såret mandskab. Kan bruges flere gange i en kamp. Forbrugsvaren fjernes efter en kamp hvis den blev brugt mindst en gang."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Behandling af alt såret mandskab og fjerner fortumlet tilstand. Kan bruges flere gange i en kamp. Forbrugsvaren fjernes efter en kamp hvis den blev brugt mindst en gang."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Behandler alt såret mandskab og fjerner fortumlet tilstand"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s til modulers reparationshastighed"
+
+msgid "largeRepairkit/descr"
+msgstr "Reparation af alle beskadigede moduler."
+
+msgid "largeRepairkit/long_special"
+msgstr "Reparerer alle skadede moduler ved aktivering. Den passive effekt forøger reparationshastigheden. Dette udstyr passer til alle køretøjstyper fra alle nationer."
+
+msgid "largeRepairkit/name"
+msgstr "Stort reparationssæt"
+
+msgid "largeRepairkit/onUse"
+msgstr "Reparation af alle skadede moduler. Kan bruges flere gange i en kamp. Forbrugsvaren fjernes efter en kamp hvis den blev brugt mindst en gang."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Reparerer alle skadede moduler"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "Yderligere 50% til hævntogt-evnen"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Giver hævntogt evnen trænet til 100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "Hævntogt evnen giver mulighed for at rapportere fjendtlige positioner i yderligere 2 sekunder, efter køretøjet er blevet ødelagt i en kamp. Når evnen er trænet til 100%, vil det benyttede direktiv tilføje 1 sekund til varigheden (3 sekunder i alt). Ellers giver direktivet dit køretøj evnen trænet til 100% (standard 2 sekunder)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Pligt kommer først"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Giver hævntogt evnen trænet til 100% eller forøger dens effekt"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Mediumkaliber artilleri granatlader"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Mediumkaliber kampvogns kanonlader"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Ildledelsessystem T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Ildledelsessystem T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Ildledelsessystem T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Ildledelsessystem T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Ildledelsessystem T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Ildledelsessystem T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Ildledelsessystem T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Ildledelsessystem T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Ildledelsessystem T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Overlevelsespakke T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Overlevelsespakke T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Overlevelsespakke T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Overlevelsespakke T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Overlevelsespakke T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Overlevelsespakke T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Overlevelsespakke T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Overlevelsespakke T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Overlevelsespakke T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Øget præcisionssystem T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Øget præcisionssystem T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Øget præcisionssystem T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Øget præcisionssystem T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Øget præcisionssystem T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Øget præcisionssystem T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Øget præcisionssystem T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Øget præcisionssystem T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Øget præcisionssystem T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Øget mobilitetssystem T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Øget mobilitetssystem T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Øget mobilitetssystem T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Øget mobilitetssystem T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Øget mobilitetssystem T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Øget mobilitetssystem T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Øget mobilitetssystem T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Øget mobilitetssystem T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Øget mobilitetssystem T3"
+
+msgid "nitro/battleDescr"
+msgstr "Forøger midlertidigt dit køretøjs motorkraft med %(enginePowerFactor)s og dets tophastighed med %(maxSpeedFactor)s gange i %(consumeSeconds)s s."
+
+msgid "nitro/descr"
+msgstr "Forøger midlertidigt dit køretøjs motorkraft med %(enginePowerFactor)s og dets tophastighed med %(maxSpeedFactor)s gange i %(consumeSeconds)s s."
+
+msgid "nitro/long_special"
+msgstr "Forøger midlertidigt dit køretøjs motorkraft {green_Open}med %(enginePowerFactor)s{green_Close} og dets tophastighed {green_Open}med %(maxSpeedFactor)s gange{green_Close} {whiteSpanish_Open}i %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Turbolader"
+
+msgid "nitro/short_special"
+msgstr "Forøger midlertidigt dit køretøjs motorkraft {green_Open}med %(enginePowerFactor)s{green_Close} og dets tophastighed {green_Open}med %(maxSpeedFactor)s gange{green_Close} {whiteSpanish_Open}i %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Alternativ konfiguration: Ekstra udstyrssæt"
+
+msgid "passive_engineering/longDescr"
+msgstr "Giver en bonus til hastigheden på erobring og genforsyning. Booster genforsyningshastigheden, reducerer tiden på erobring, eller til at genindtage nøglepositioner."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Du kan ikke påføre denne kampreserve til SPG'er."
+
+msgid "passive_engineering/name"
+msgstr "Ingeniørkunst"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Giver en bonus til erobringshastighed, erobringsblokering og genforsyning."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Ikke egnet til SPG'er"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Tredobler effekten af sikker opbevaring-evnen"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Giver sikker opbevaring-evnen trænet til 100%"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Sikker opbevaring evnen forøger holdbarheden på dit ammunitionsstativ i løbet af kampen. Når evnen er trænet til 100%, vil det benyttede direktiv forøge effekten; ellers giver direktivet dit køretøj evnen trænet til 100%."
+
+msgid "pedantBattleBooster/name"
+msgstr "Granatlægger"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Giver sikker opbevaring-evnen trænet til 100% eller forøger dens effekt"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "Om {colorTagOpen}%(delay)d s{colorTagClose}, vil det valgte område blive beskudt med artilleri. Alle mål, der bliver skadet i en radius af {colorTagOpen}%(radius)d m{colorTagClose} vil modtage {colorTagOpen}%(damage)d{colorTagClose} hp skade og være fortumlede i {colorTagOpen}%(stunDuration)d s{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Artilleribeskydning"
+
+msgid "poi_radar/descr"
+msgstr "Ved aktivering vil alle fjendtlige køretøjer forblive opdagede i {colorTagOpen}%(duration)d s{colorTagClose}."
+
+msgid "poi_radar/name"
+msgstr "Områderadar"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Fordobler effekten af praktikalitetsevnen"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Giver praktikalitetsevnen trænet til 100%"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Praktikalitetsevnen reducerer cooldown på forbrugsvarer i kampens varighed. Når evnen er trænet til 100%, vil det benyttede direktiv forøge effekten; ellers giver direktivet dit køretøj evnen trænet til 100%."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Grundige forberedelser"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Giver praktikalitetsevnen trænet til 100% eller forøger dens effekt"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s til motorkraft og tårnets drejehastighed i resten af kampen."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} til motorkraft og tårnets drejehastighed."
+
+msgid "qualityFuel/long_special"
+msgstr "Tilføjer {colorTagOpen}5%{colorTagClose} til motorkraft og tårnets drejehastighed i hele kampen. Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen."
+
+msgid "qualityFuel/name"
+msgstr "Kvalitetsbrændstof"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} til motorkraft og tårnets drejehastighed"
+
+msgid "radar/descr"
+msgstr "Opdager fjendtlige køretøjer og krigsbytte på minimappet."
+
+msgid "radar/name"
+msgstr "Radioopdagelse"
+
+msgid "rammer/long_special"
+msgstr "Skudrate er en af de vigtigste karakteristika på dit køretøj. Dette udstyr er ganske fordelagtigt i en kamp og bør monteres på dine køretøjer. Kanonladere kan dog ikke monteres på køretøjer med et ladesystem med magasin."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s til ladetid med kanonlader (enhver kanontype og kaliber), innovativt ladesystem eller erobret kanonlader monteret."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Forbedrer effekten af kanonlader (enhver kanontype og kaliber), erobret kanonlader eller innovativt ladesystem i løbet af kampen. For at udstyre og aktivere dette direktiv, skal denne type udstyr være monteret på dit køretøj."
+
+msgid "rammerBattleBooster/name"
+msgstr "Ordnet ammunitionsstativ"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Forbedrer effekten af kanonladeren"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Fordobler effekten af udpeget mål-evnen"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Giver udpeget mål-evnen trænet til 100%"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Udpeget mål evnen lægger to sekunder til tiden, hvor et udpeget fjendtligt køretøj forbliver synlig, i løbet af kampen. Hvis evnen er trænet til 100%, vil det benyttede direktiv forøge effekten. Ellers giver direktivet dit køretøj evnen trænet til 100%."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Fokus på mål"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Giver udpeget mål evnen trænet til 100% eller forøger dens effekt"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "ration/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til sovjetiske køretøjer."
+
+msgid "ration/name"
+msgstr "Ekstra rationer"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Passer kun til sovjetiske køretøjer."
+
+msgid "ration/short_special"
+msgstr "Forbedrer ydeevnen hos sovjetiske mandskaber"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "ration_china/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til kinesiske køretøjer."
+
+msgid "ration_china/name"
+msgstr "Forbedrede rationer"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Passer kun til kinesiske køretøjer."
+
+msgid "ration_china/short_special"
+msgstr "Forbedrer ydeevnen hos kinesiske mandskaber"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "ration_czech/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til tjekkoslovakiske køretøjer."
+
+msgid "ration_czech/name"
+msgstr "Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Passer kun til tjekkoslovakiske køretøjer."
+
+msgid "ration_czech/short_special"
+msgstr "Forbedrer ydeevnen hos tjekkoslovakiske mandskaber"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "ration_italy/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til italienske køretøjer."
+
+msgid "ration_italy/name"
+msgstr "Spaghetti og kødsovs"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Passer kun til italienske køretøjer."
+
+msgid "ration_italy/short_special"
+msgstr "Forbedrer ydeevnen hos italienske mandskaber"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "ration_japan/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til japanske køretøjer."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Passer kun til japanske køretøjer."
+
+msgid "ration_japan/short_special"
+msgstr "Forbedrer ydeevnen hos japanske mandskaber"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "ration_poland/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til polske køretøjer."
+
+msgid "ration_poland/name"
+msgstr "Brød med svinefedt"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Passer kun til polske køretøjer."
+
+msgid "ration_poland/short_special"
+msgstr "Forbedrer ydeevnen hos polske mandskaber"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "ration_sweden/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til svenske køretøjer."
+
+msgid "ration_sweden/name"
+msgstr "Kaffe med kanelsnegle"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Passer kun til svenske køretøjer."
+
+msgid "ration_sweden/short_special"
+msgstr "Forbedrer ydeevnen hos svenske mandskaber"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s til mandskabets effektivitetsbonus under hele kampen."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til mandskabets effektivitetsbonus."
+
+msgid "ration_uk/long_special"
+msgstr "Aktiveres automatisk i begyndelsen af kampen og har effekt i resten af kampen. Passer kun til britiske køretøjer."
+
+msgid "ration_uk/name"
+msgstr "Kage og te"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Passer kun til britiske køretøjer."
+
+msgid "ration_uk/short_special"
+msgstr "Forbedrer ydeevnen hos britiske mandskaber"
+
+msgid "recon/longDescr"
+msgstr "Beordrer et rekognosceringsfly til at observere en lineær retning i et stort område. Køretøjer i flyets synsvidde opdages og forbliver synlige i en vis periode. Opdager minefelter."
+
+msgid "recon/name"
+msgstr "Rekognoscering"
+
+msgid "recon/shortDescr"
+msgstr "Observerer fjendtlige køretøjer og minefelter."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} til motorkraft, men skader motoren."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Forøger motorkraft med {colorTagOpen}10%{colorTagClose} men vil, ved aktivering, gradvist dræne motorens hp. Kan aktiveres eller deaktiveres flere gange i en kamp. Passer kun til kinesiske og sovjetiske køretøjer."
+
+msgid "removedRpmLimiter/name"
+msgstr "Fjernet fartbegrænser"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s til motorkraft, men skader motoren. Kan bruges flere gange i en kamp."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Passer kun til sovjetiske og kinesiske køretøjer."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} til motorkraft, men skader motoren"
+
+msgid "repairpoint/battleDescr"
+msgstr "Skaber et midlertidigt statisk område, der reparerer alle skadede moduler, fjerner ALLE negative effekter og gendanner %(healPerTick)s af dit køretøjs hp per sekund i %(timer)s s.\n\n*Allierede køretøjer i effektområdet vil også gendanne hp."
+
+msgid "repairpoint/descr"
+msgstr "Skaber et midlertidigt statisk område, der reparerer alle skadede moduler, fjerner ALLE negative effekter og gendanner %(healPerTick)s af dit køretøjs hp per sekund i %(timer)s s.\n\n*Allierede køretøjer i effektområdet vil også gendanne hp."
+
+msgid "repairpoint/long_special"
+msgstr "Skaber et midlertidigt statisk område, der reparerer alle skadede moduler, fjerner ALLE negative effekter og {green_Open}gendanner %(healPerTick)s{green_Close} af dit køretøjs hp {whiteSpanish_Open}per sekund i %(timer)s s.{whiteSpanish_Close}\n\n*Allierede køretøjer i effektområdet vil også gendanne hp."
+
+msgid "repairpoint/name"
+msgstr "Reparationsområde"
+
+msgid "repairpoint/short_special"
+msgstr "Skaber et midlertidigt statisk område, der reparerer alle skadede moduler, fjerner ALLE negative effekter og {green_Open}gendanner %(healPerTick)s{green_Close} af dit køretøjs hp {whiteSpanish_Open}per sekund i %(timer)s s.{whiteSpanish_Close}\n\n*Allierede køretøjer i effektområdet vil også gendanne hp."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Rensning af kanonløb (type 1)"
+
+msgid "roleSlot/name"
+msgstr "Kategori for sekundær udstyrsplads"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Passivt sikkerhedssystem"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Passivt\nsikkerhedssystem"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Justering af ammunitionsstativ"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Justering af\nammunitionsstativ"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Bælter der kan repareres"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Bælter\nder kan repareres"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Tilretning af motorrum"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Tilretning af\nmotorrum"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Forstærket affjedring"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Forstærket\naffjedring"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Letvægtsaffjedring"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Letvægts-\naffjedring"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Finjustering af sigteudstyr"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Finjustering af\nsigteudstyr"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Parallaxjustering"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Parallax-\njustering"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Finjustering af udsmider"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Finjustering af\nudsmider"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Retvinklet periskop"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Retvinklet\nperiskop"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Finjustering af lademekanisme"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Finjustering af\nlademekanisme"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Finjustering af sigtemekanisme"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Finjustering af\nsigtemekanisme"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Finjustering af PTO"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Finjustering af\nPTO"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Elektrisk sigtesystem"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Elektrisk\nsigtesystem"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Nye sigtehjul"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Nye\nsigtehjul"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Tilretning af bundstykke"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Tilretning af\nbundstykke"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Generel vægtreduktion"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Generel\nvægtreduktion"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Generel øget holdbarhed"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Generel øget\nholdbarhed"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Mat bemaling"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Mat\nbemaling"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Ekstra bakgear"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Ekstra\nbakgear"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Motor med overliggende knastaksel"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Motor med\noverliggende knastaksel"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Forbedret kanonlader"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Forbedret\nkanonlader"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Yderligere støjisolering"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Yderligere\nstøjisolering"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Fjernet polstring"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Fjernet\npolstring"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Ekstra sikkerhedssystem"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Ekstra\nsikkerhedssystem"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Lette monteringsbeslag"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Lette\nmonteringsbeslag"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Omfordeling af strøm (indstilling 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Omfordeling af\nstrøm (indstilling 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Omfordeling af strøm (indstilling 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Omfordeling af\nstrøm (indstilling 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Forstærket platform"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Forstærket\nplatform"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Let platform"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Let\nplatform"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Fokus på mobilitet"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Fokus på\nmobilitet"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Fokus på ildkraft"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Fokus på\nildkraft"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Tung kanon"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Tung\nkanon"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Let kanon"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Let\nkanon"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Finjustering af motorkraft (indstilling 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Finjustering af\nmotorkraft (indstilling 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Finjustering af motorkraft (indstilling 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Finjustering af\nmotorkraft (indstilling 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Forstærket skrog"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Forstærket\nskrog"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Let skrog"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Let\nskrog"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Anti-refleks belagt optik"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Anti-refleks\nbelagt optik"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Eksternt observationsudstyr"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Eksternt\nobservationsudstyr"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Panoramisk triplex"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Panoramisk\ntriplex"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Snævert-vinklet observationsudstyr"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Snævert-vinklet\nobservationsudstyr"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Forstærket primær struktur"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Forstærket\nprimær struktur"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Udvidelse af tårnvolumen"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Udvidelse af\ntårnvolumen"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Rekognosceringssæt"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Rekognoscerings-\nsæt"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Angrebssæt"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Angrebs-\nsæt"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Avanceret holdbarheds-forstærkning"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Avanceret holdbarheds-\nforstærkning"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Avanceret sigteforbedring"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Avanceret\nsigteforbedring"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Ekstra observationsudstyr"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Ekstra\nobservationsudstyr"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Forstærkede samlinger"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Forstærkede\nsamlinger"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Finjustering af lademekanisme"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Finjustering af\nlademekanisme"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Finjustering af sigtemekanisme"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Finjustering af\nsigtemekanisme"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Finjustering af PTO"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Finjustering af\nPTO"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Elektrisk sigtesystem"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Elektrisk\nsigtesystem"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Tilretning af bundstykke"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Tilretning af\nbundstykke"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Nye sigtehjul"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Nye\nsigtehjul"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Finjustering af indsprøjtningssystem"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Finjustering af\nindsprøjtningssystem"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Finjustering af synsfelt"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Finjustering af\nsynsfelt"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Øget holdbarhed på moduler"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Øget holdbarhed\npå moduler"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Monteringsbeslag i letmetal"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Monteringsbeslag\ni letmetal"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Tilretning af bundstykke"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Tilretning af\nbundstykke"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Nye sigtehjul"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Nye\nsigtehjul"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Store dyser"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Store\ndyser"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Følsom optik"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Følsom\noptik"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Forstærkede rullere"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Forstærkede\nrullere"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Lette rullere"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Lette\nrullere"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Tilretning af affjedring"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Tilretning af\naffjedring"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Tilretning af motor"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Tilretning af\nmotor"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Hunter S-sæt"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Hunter S-\nsæt"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Hunter C-sæt"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Hunter C-\nsæt"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Finjustering af hydraulik (indstilling 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Finjustering af\nhydraulik (indstilling 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Finjustering af hydraulik (indstilling 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Finjustering af\nhydraulik (indstilling 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Finjustering af lademekanisme"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Finjustering af\nlademekanisme"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Finjustering af sigtemekanisme"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Finjustering af\nsigtemekanisme"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Øget overlevelsesevne"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Øget\noverlevelsesevne"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Vægtreduktion"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Vægt-\nreduktion"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Terrænaffjedring"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Terræn-\naffjedring"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Letvægtsaffjedring"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Letvægts-\naffjedring"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Parallaxjustering"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Parallax-\njustering"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Finjustering af sigteudstyr"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Finjustering af\nsigteudstyr"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Lydisolering"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Lyd-\nisolering"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Elektrisk periskopmotor"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Elektrisk\nperiskopmotor"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Finjustering af ventiler (indstilling 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Finjustering af\nventiler (indstilling 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Finjustering af ventiler (indstilling 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Finjustering af\nventiler (indstilling 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Finjustering af lademekanisme"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Finjustering af\nlademekanisme"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Finjustering af sigtemekanisme"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Finjustering af\nsigtemekanisme"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Forstærket indlægsbeskyttelse"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Forstærket\nindlægsbeskyttelse"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Let indlægsbeskyttelse"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Let\nindlægsbeskyttelse"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Øget holdbarhed på moduler"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Øget holdbarhed\npå moduler"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Monteringsbeslag i letmetal"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Monteringsbeslag\ni letmetal"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Finjustering af affjedringsarm"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Finjustering af\naffjedringsarm"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Forbedret sigte"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Forbedret\nsigte"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Finjustering af turbolader"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Finjustering af\nturbolader"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Anti-refleks belagte forlygter"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Anti-refleks\nbelagte forlygter"
+
+msgid "selfBuff/battleDescr"
+msgstr "Reducerer midlertidigt kanonens spredning og sigtetid i %(duration)s s med %(gunAimingTime)s, og forbedrer dens stabilitet og skudkadence.\n\n*Påvirker ikke tiden mellem at affyre en granat og til den næste granat bliver ladt i magasinet, kanonen eller hylsteret."
+
+msgid "selfBuff/descr"
+msgstr "Reducerer midlertidigt kanonens spredning og sigtetid i %(duration)s s med %(gunAimingTime)s, og forbedrer dens stabilitet og skudkadence.\n\n*Påvirker ikke tiden mellem at affyre en granat og til den næste granat bliver ladt i magasinet, kanonen eller hylsteret."
+
+msgid "selfBuff/longDescr"
+msgstr "Reducerer midlertidigt kanonens spredning og sigtetid {whiteSpanish_Open}i %(duration)s s{whiteSpanish_Close} med {green_Open}%(gunAimingTime)s{green_Close}, og forbedrer dens stabilitet og skudkadence.\n\n*Påvirker ikke tiden mellem at affyre en granat og til den næste granat bliver ladt i magasinet, kanonen eller hylsteret."
+
+msgid "selfBuff/name"
+msgstr "Målsøgning"
+
+msgid "selfBuff/shortDescr"
+msgstr "Reducerer midlertidigt kanonens spredning og sigtetid {whiteSpanish_Open}i %(duration)s s{whiteSpanish_Close} med {green_Open}%(gunAimingTime)s{green_Close}, og forbedrer dens stabilitet og skudkadence.\n\n*Påvirker ikke tiden mellem at affyre en granat og til den næste granat bliver ladt i magasinet, kanonen eller hylsteret."
+
+msgid "shells_consumables_switch/name"
+msgstr "Alternativ konfiguration: Essentielt udstyrssæt"
+
+msgid "shotPassion/battleDescr"
+msgstr "Reducerer ydeevnen på din kanons sigte og stabilisering med %(gunAimingTime)s i %(duration)s s, men hver gennembrydende træffer du uddeler, vil forøge din skade med %(damageIncreasePerShot)s. Lægges oven i hinanden op til 5 gange. Træffere uden skade eller forbiere, nulstiller bonussen til 0.\n\n*Træffere med elektrisk udladning tæller også med i skadebonussen."
+
+msgid "shotPassion/descr"
+msgstr "Reducerer ydeevnen på din kanons sigte og stabilisering med %(gunAimingTime)s i %(duration)s s, men hver gennembrydende træffer du uddeler, vil forøge din skade med %(damageIncreasePerShot)s. Lægges oven i hinanden op til 5 gange. Træffere uden skade eller forbiere, nulstiller bonussen til 0.\n\n*Træffere med elektrisk udladning tæller også med i skadebonussen."
+
+msgid "shotPassion/longDescr"
+msgstr "Reducerer ydeevnen på din kanons sigte og stabilisering {red_Open}med %(gunAimingTime)s{red_Close} i {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}, men hver gennembrydende træffer du uddeler, vil forøge din skade {green_Open}med %(damageIncreasePerShot)s. {green_Close}Lægges oven i hinanden {whiteSpanish_Open}op til 5 gange{whiteSpanish_Close}. Træffere uden skade eller forbiere, nulstiller bonussen til 0.\n\n*Træffere med elektrisk udladning tæller også med i skadebonussen."
+
+msgid "shotPassion/name"
+msgstr "Stigende intensitet"
+
+msgid "shotPassion/shortDescr"
+msgstr "Reducerer ydeevnen på din kanons sigte og stabilisering {red_Open}med %(gunAimingTime)s{red_Close} i {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}, men hver gennembrydende træffer du uddeler, vil forøge din skade {green_Open}med %(damageIncreasePerShot)s. {green_Close}Lægges oven i hinanden {whiteSpanish_Open}op til 5 gange{whiteSpanish_Close}. Træffere uden skade eller forbiere, nulstiller bonussen til 0.\n\n*Træffere med elektrisk udladning tæller også med i skadebonussen."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Sjette sans aktiveres 1 s tidligere"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Sjette sans-egenskaben gør kommandøren i stand til at identificere om køretøjet er blevet opdaget af fjenden. Aktiveres 3 s efter dit køretøj er blevet opdaget."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "Sjette sans-evnen gør det muligt for kommandøren at afgøre, om køretøjet er blevet opdaget af fjenden i løbet af kampen. Det udstyrede direktiv forbedrer dens effekt."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Forøget fokus"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Forøger effekten af Sjette sans-kommandør-egenskaben"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Behandling af alt såret mandskab og fjerner fortumlet tilstand."
+
+msgid "smallMedkit/long_special"
+msgstr "Behandler hele mandskabet og fjerner fortumlet tilstand ved aktivering. Passer til alle køretøjstyper fra alle nationer. Forbrugsvaren fjernes efter en kamp, hvis den blev brugt mindst én gang."
+
+msgid "smallMedkit/name"
+msgstr "Lille førstehjælpssæt"
+
+msgid "smallMedkit/onUse"
+msgstr "Behandling af alt såret mandskab og fjerner fortumlet tilstand."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Behandling af alt såret mandskab og fjerner fortumlet tilstand."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Behandler alt såret mandskab og fjerner fortumlet tilstand."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Reparation af alle beskadigede moduler."
+
+msgid "smallRepairkit/long_special"
+msgstr "Reparerer straks alle skadede moduler ved aktivering. Passer til alle køretøjstyper fra alle nationer. Forbrugsvaren fjernes efter en kamp, hvis den blev brugt mindst én gang."
+
+msgid "smallRepairkit/name"
+msgstr "Lille reparationssæt"
+
+msgid "smallRepairkit/onUse"
+msgstr "Reparation af alle skadede moduler. Passer til alle køretøjstyper fra alle nationer. Forbrugsvaren fjernes efter en kamp, hvis den blev brugt mindst én gang."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Reparerer alle skadede moduler."
+
+msgid "smoke/longDescr"
+msgstr "Udsender røgslør, der skjuler alle køretøjer i og bag røgen. Fjendtlige køretøjer i røgen har nedsat synsrækkevidde og ydeevne hos mandskabet."
+
+msgid "smoke/name"
+msgstr "Røgslør"
+
+msgid "smoke/shortDescr"
+msgstr "Røg slører alle køretøjer i/bag den. Fjender har reduceret synsrækkevidde og præstation af mandskabet."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Fordobler effekten af jævn kørsel-evnen"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Giver jævn kørsel-evnen trænet til 100%"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Jævn kørsel-evnen forbedrer præcisionen, når der afgives skud i bevægelse, i løbet af kampen. Når evnen er trænet til 100%, vil det benyttede direktiv forøge effekten; ellers giver direktivet dit køretøj evnen trænet til 100%."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Gearkasse finesse"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Giver jævn kørsel-evnen trænet til 100% eller forøger dens effekt"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Fordobler effekten af skud fra hoften-evnen"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Giver skud fra hoften-evnen trænet til 100%"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Skud fra hoften-evnen forbedrer præcisionen, når der afgives skud mens tårnet drejer, i løbet af kampen. Når evnen er trænet til 100%, vil det benyttede direktiv forøge effekten; ellers giver direktivet dit køretøj evnen trænet til 100%."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Rolig hånd"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Giver skud fra hoften-evnen trænet til 100% eller forøger dens effekt"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Udlægger en selvkørende mine, der vil jagte det nærmeste fjendtlige køretøj i op til %(botLifeTime)s s og uddele 400 til 600 hp skade inden for en kort rækkevidde ved sprængning.\n\n*Fjender kan ødelægge din ildkugle ved skyde eller påkøre den. Ildkuglen uddeler yderligere påkørselsskade, når den når frem til målet."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Udlægger en selvkørende mine, der vil jagte det nærmeste fjendtlige køretøj i op til %(botLifeTime)s s og uddele 400 til 600 hp skade inden for en kort rækkevidde ved sprængning.\n\n*Fjender kan ødelægge din ildkugle ved skyde eller påkøre den. Ildkuglen uddeler yderligere påkørselsskade, når den når frem til målet."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Udlægger en selvkørende mine, der vil jagte det nærmeste fjendtlige køretøj i op til {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} og uddele {whiteSpanish_Open}400 til 600 hp skade{whiteSpanish_Close} inden for en kort rækkevidde ved sprængning.\n\n*Fjender kan ødelægge din ildkugle ved skyde eller påkøre den. Ildkuglen uddeler yderligere påkørselsskade, når den når frem til målet."
+
+msgid "spawn_kamikaze/name"
+msgstr "Ildkugle"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Udlægger en selvkørende mine, der vil jagte det nærmeste fjendtlige køretøj i op til {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} og uddele {whiteSpanish_Open}400 til 600 hp skade{whiteSpanish_Close} inden for en kort rækkevidde ved sprængning.\n\n*Fjender kan ødelægge din ildkugle ved skyde eller påkøre den. Ildkuglen uddeler yderligere påkørselsskade, når den når frem til målet."
+
+msgid "stealthRadar/descr"
+msgstr "Giver en bonus til sløring og synsrækkevidde. Reducerer sløringen på fjendtlige køretøjer."
+
+msgid "stealthRadar/long_descr"
+msgstr "Forhøjer sløringsparameteren på dit køretøj i %(activationDelay)s s efter aktiveringen stopper, og reducerer sløringen på fjendtlige køretøjer. Giver en passiv bonus til synsrækkevidde og observerer fjendtlige miner. Virker ikke, når køretøjet er i bevægelse."
+
+msgid "stealthRadar/name"
+msgstr "Sentinel"
+
+msgid "stealthRadar/short_descr"
+msgstr "Giver en bonus til sløring og synsrækkevidde. Reducerer sløringen på fjendtlige køretøjer."
+
+msgid "stereoscope/battleDescr"
+msgstr "Forøger synsrækkevidden på et stationært køretøj i 3 s efter det stopper (op til 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "En god synsrækkevidde giver en solid fordel til køretøjer i kamp. Denne type udstyr er gavnlig for kampvognsjægere med lave silhuetter og præcise kanoner. Den aktiveres 3 sekunder efter køretøjet er stoppet."
+
+msgid "stereoscope/name"
+msgstr "Teleskopkikkert"
+
+msgid "stereoscope_tier1/name"
+msgstr "Kikkertsigte, klasse 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "Kikkertsigte, klasse 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "Kikkertsigte, klasse 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Erstatning af affjedringsdel (type 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Erstatning af affjedringsdel (type 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Finjustering af rotationsmekanisme (type 1)"
+
+msgid "tankRammer/name"
+msgstr "Kanonlader"
+
+msgid "tankRammer_tier1/name"
+msgstr "Kanonlader, klasse 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "Kanonlader, klasse 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Skaber en zone, hvor en serie på %(thunderCount)s elektriske udladninger rammer med høj frekvens. Hver udladning uddeler %(damage)s hp skade og reducerer midlertidigt hvert fjendtligt køretøjs mobilitet i evnens effektområde.\n\n*Der er en forsinkelse på %(delay)s s mellem evnens aktivering og den første udladning. Den negative effekt kan fjernes med et reparationssæt."
+
+msgid "thunderStrike/descr"
+msgstr "Danner et område, hvor en serie på %(thunderCount)s elektriske udladninger rammer med høj frekvens. Hver udladning uddeler %(damage)s hp skade og reducerer midlertidigt køretøjets mobilitet i evnens effektområde.\n\n*Der er en forsinkelse på %(delay)s s mellem aktivering af evnen og den første udladning. Den negative effekt kan også fjernes med et reparationssæt."
+
+msgid "thunderStrike/longDescr"
+msgstr "Skaber en zone, hvor en serie på %(thunderCount)s elektriske udladninger rammer med høj frekvens. Hver udladning uddeler {whiteSpanish_Open}%(damage)s hp skade{whiteSpanish_Close} og reducerer midlertidigt hvert fjendtligt køretøjs mobilitet i evnens effektområde.\n\n*Der er en forsinkelse på %(delay)s s mellem evnens aktivering og den første udladning. Den negative effekt kan fjernes med et reparationssæt."
+
+msgid "thunderStrike/name"
+msgstr "Elektrisk udladning"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Skaber en zone, hvor en serie på %(thunderCount)s elektriske udladninger rammer med høj frekvens. Hver udladning uddeler {whiteSpanish_Open}%(damage)s hp skade{whiteSpanish_Close} og reducerer midlertidigt hvert fjendtligt køretøjs mobilitet i evnens effektområde.\n\n*Der er en forsinkelse på %(delay)s s mellem evnens aktivering og den første udladning. Den negative effekt kan fjernes med et reparationssæt."
+
+msgid "trappoint/battleDescr"
+msgstr "Skaber et område, der reducerer mobilitet med %(vehicleMaxSpeed)s i %(duration)s s, og forøger kanonens lade- og sigtetid med %(gunReloadTime)s for alle fjendtlige køretøjer i området."
+
+msgid "trappoint/descr"
+msgstr "Skaber et område, der reducerer mobilitet med %(vehicleMaxSpeed)s i %(duration)s s, og kanonens lade- og sigtetid med %(gunReloadTime)s for alle fjendtlige køretøjer i området."
+
+msgid "trappoint/long_special"
+msgstr "Skaber et område, der reducerer mobilitet {whiteSpanish_Open}med %(vehicleMaxSpeed)s{whiteSpanish_Close} i {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}, og kanonens lade- og sigtetid {whiteSpanish_Open}med %(gunReloadTime)s{whiteSpanish_Close} for alle fjendtlige køretøjer i området."
+
+msgid "trappoint/name"
+msgstr "Fælde"
+
+msgid "trappoint/short_special"
+msgstr "Skaber et område, der reducerer mobilitet {whiteSpanish_Open}med %(vehicleMaxSpeed)s{whiteSpanish_Close} i {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}, og forøger kanonens lade- og sigtetid {whiteSpanish_Open}med %(gunReloadTime)s{whiteSpanish_Close} for alle fjendtlige køretøjer i området."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Effektiviteten afhænger af køretøjstypen. Forbedrer sløring af et stationært køretøj eller et køretøj i bevægelse. Nyttig til aktiv opdagelse eller passiv opdagelse fra risikable positioner."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Erobret udstødningssystem"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Forbedrer sløring af et stationært køretøj eller et køretøj i bevægelse."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Erobret sigtemotor"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Øger kanonens sigtehastighed, så præcise skud kan afgives hurtigere."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Erobret stabilisator"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Reducerer kanonens spredning ved skud i bevægelse og ved køretøjsrotation."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Erobret optik"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Øger synsrækkevidden på både stationære køretøjer og køretøjer i bevægelse."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Gendanner fuldt ud affjedringens hp efter reparation."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Gendanner affjedring efter reparation."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Forøger køretøjets holdbarhed og reparationshastighed. Reducerer skrogskade forårsaget af skade på affjedringen ved uheld. Gendanner fuldt ud affjedringens hp efter reparation. Reducerer risikoen for ødelæggelse af et bælte ved modtaget skade, hvilket gør det muligt for dig at forblive i bevægelse, så længe som muligt."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Erobret hærdning"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Forøger køretøjets holdbarhed og beskytter affjedring"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Erobret beskyttelsesteknologi"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Erobret rotationsmekanisme"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Reducerer størrelsen på sigtecirklen for at øge præcisionen på kanonen ved fuldt eller delvist sigte. Din kanon kan som resultat nemmere ramme målet."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Erobret sigte"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Reducerer kanonens spredning"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Erobret ventilation"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Forbedrer mandskabets effektivitet, hvilket gavner de fleste af køretøjets karakteristika."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Erobret kanonlader"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Forkorter kanonens ladetid. Ingen begrænsninger i klasse."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Forøger motorkraft, giver bedre acceleration og manøvredygtighed og forbedrer opkørsel i bakket terræn. Forøger køretøjets maksimale hastighed frem og tilbage, og gør det derved muligt for dig hurtigere at indtage positioner og undslippe fjendtlig beskydning."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Erobret turbolader"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Forøger motorkraft og tophastighed"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} til synsrækkevidde, op til 445 m rækkevidde"
+
+msgid "trophyOptics/name"
+msgstr "Erobret optik"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Erobret udstødningssystem"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Erobret sigtemotor"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Erobret stabilisator"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Erobret optik"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Gendanner fuldt ud affjedringens hp efter reparation."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Gendanner affjedring efter reparation."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Erobret hærdning"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Erobret beskyttelsesteknologi"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Erobret rotationsmekanisme"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Erobret sigte"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Erobret ventilation"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Erobret kanonlader"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Erobret turbolader"
+
+msgid "turbocharger/long_special"
+msgstr "Forøger motorkraft, giver bedre acceleration og manøvredygtighed og forbedrer opkørsel i bakket terræn. Forøger køretøjets maksimale hastighed frem og tilbage, og gør det derved muligt for dig hurtigere at indtage positioner og undslippe fjendtlig beskydning."
+
+msgid "turbocharger/name"
+msgstr "Turbolader"
+
+msgid "turbocharger/short_special"
+msgstr "Forøger motorkraft og tophastighed"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s til motorkraft med turbolader (enhver klasse), erobret turbolader, forbedret kompressor eller øget mobilitetssystem monteret."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Forbedrer effekten af turbolader (enhver klasse), erobret turbolader eller forbedret kompressor i én kamp. Direktivet vil kun virke, hvis du har det relevante udstyr monteret."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Nyt brændstoffilter"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Forøger motorkraft"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turbocharger, klasse 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turbocharger, klasse 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turbocharger, klasse 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Fordobler effekten af koblingsbremse-evnen"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Giver koblingsbremse-evnen trænet til 100%"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Koblingsbremse-evnen forøger drejehastigheden på både stationære køretøjer og køretøjer i bevægelse, i løbet af kampen. Når evnen er trænet til 100%, vil det benyttede direktiv forøge effekten; ellers giver direktivet dit køretøj evnen trænet til 100%."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Kampkursus"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Giver koblingsbremse-evnen trænet til 100% eller forøger dens effekt"

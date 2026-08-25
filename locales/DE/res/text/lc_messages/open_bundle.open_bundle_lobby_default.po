@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Verstanden!"
+
+msgid "attachments_preview/description"
+msgstr "Satz mit 3D-Aufsätzen"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Epischer 3D-Aufsatz"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendärer 3D-Aufsatz"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Seltener 3D-Aufsatz"
+
+msgid "bundle/name"
+msgstr "Markt der Geheimnisse"
+
+msgid "bundle/name_uppercased"
+msgstr "MARKT DER GEHEIMNISSE"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Abbrechen"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Kaufen"
+
+msgid "confirmation/description"
+msgstr "Bestätigen, um Anleihen und eine neue Belohnung aus einem Feld zu erhalten."
+
+msgid "confirmation/purchase"
+msgstr "Für {{price}} kaufen?"
+
+msgid "entryPoint/button"
+msgstr "Zum Event"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} ist da. Sehen Sie es sich an!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Wenn Sie während des Events „{{eventName}}“ Anleihen kaufen, erhalten Sie eine Belohnung aus einem der ungeöffneten Felder als Bonus geschenkt. Die Felder enthalten wertvolle Spielgegenstände, darunter auch die Hauptbelohnung des Events, ein Premiumfahrzeug."
+
+msgid "intro/cards/description/c_2"
+msgstr "Die Belohnungen werden in zufälliger Reihenfolge verliehen. Jedes noch nicht geöffnete Feld hat eine eigene Wahrscheinlichkeit, ausgewählt zu werden. Die Gesamtsumme aller Wahrscheinlichkeiten beträgt immer 100 %. Sobald ein Feld geöffnet wurde, kann es nicht erneut ausgewählt werden, wodurch die Wahrscheinlichkeit steigt, eine der verbleibenden Belohnungen zu erhalten."
+
+msgid "intro/cards/description/c_3"
+msgstr "Jeder Schritt kostet eine festgelegte Menge Gold. Sowohl die Anzahl der erhaltenen Anleihen und der Preis für den Schritt unterscheidet sich im Verlauf."
+
+msgid "intro/cards/link"
+msgstr "Sehen Sie sich die Bedingungen und Preise für jeden Schritt auf dem {{@ class 'linkPart'}}Portal{{/}} an.{{icon}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Anleihen kaufen"
+
+msgid "intro/cards/title/c_2"
+msgstr "Felder und Wahrscheinlichkeit"
+
+msgid "intro/cards/title/c_3"
+msgstr "Preise der Schritte"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "IHRE BELOHNUNG WARTET"
+
+msgid "main/alt/description"
+msgstr "Wahrscheinlichkeit ansehen"
+
+msgid "main/alt/tooltip/body"
+msgstr "Drücken Sie „Alt“, um die Wahrscheinlichkeit für jedes Feld zu sehen."
+
+msgid "main/alt/tooltip/header"
+msgstr "Anzeige der Wahrscheinlichkeit"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "GLÜCKWUNSCH! \n SIE HABEN ALLE BELOHNUNGEN ERHALTEN!"
+
+msgid "main/footer/button"
+msgstr "Kaufen"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}} Belohnung aus einem Feld"
+
+msgid "main/footer/receive"
+msgstr "Sie erhalten: {{item}}"
+
+msgid "main/header/description"
+msgstr "Nehmen Sie vom {{startDate}} bis zum {{endDate}} am Event teil und holen Sie sich Belohnungen!"
+
+msgid "main/multi"
+msgstr "{{count}}x"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "{{count}}x"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Zu den Anpassungen"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Zum Stil"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Zum Fahrzeug"
+
+msgid "notifications/specialReward/title"
+msgstr "Die Hauptbelohnung des Events „{{eventName}}“ gehört Ihnen!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Zusätzliche Belohnungen:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Erhalten:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Der Vorgang ist aus technischen Gründen vorübergehend nicht verfügbar. Versuchen Sie es bitte später noch einmal."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Zum Event"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "Das Event „%(eventName)s“ endet bald!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Das Event ist verfügbar bis: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "Feld des Events „%(eventName)s“ geöffnet"
+
+msgid "tooltips/entry/description"
+msgstr "Ihre Belohnung wartet! Jeder Kauf von Anleihen gewährt Ihnen eine zufällige Belohnung aus einem Feld als Geschenk. Sie öffnen jedes Mal ein neues Feld, bereits geöffnete Felder werden aus der Auswahl ausgenommen."
+
+msgid "tooltips/entry/timer"
+msgstr "Event wird verfügbar sein für: {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Über das Event"
+
+msgid "tooltips/steps/description"
+msgstr "Für jeden Kauf erhalten Sie mehr {{currency}}. Die erhaltene Menge steigt bei bestimmten Kaufschritten."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} für jeden Kauf"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Schritte:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}}–{{end}}"

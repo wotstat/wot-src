@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) zbývající modul"
+msgstr[1] "%(count) zbývající moduly"
+msgstr[2] "%(count) zbývajících modulů"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Zpět na moduly"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Po otevření vám z těchto modulů mohou padnout prémiová vozidla, herní měny a další hodnotné odměny."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Paradoxmoduly lze koupit v herním nebo prémiovém obchodě."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoxmodul"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOXMODUL"
+
+msgid "common/getButton/lowerCase"
+msgstr "Získat moduly"
+
+msgid "common/getButton/upperCase"
+msgstr "ZÍSKAT MODULY"
+
+msgid "common/loader"
+msgstr "Otevírání modulu..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otevřete moduly a prohlédněte si statistiky."
+
+msgid "common/statistics/header"
+msgstr "Modulů otevřeno: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Všechny informace o otevřených modulech byly vymazány."
+
+msgid "entryPoint/boxes"
+msgstr "NA MODULY"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Jsou to speciální moduly, které obsahují nové a jedinečné předměty, včetně prémiových vozidel, prvků na úpravu vzhledu, herních měn a dalších hodnotných odměn.\nModuly lze získat v herním nebo prémiovém obchodě."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Moduly nelze v současné době z technických důvodů otevřít ani získat. Omlouváme se za dočasné potíže."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Moduly jsou dočasně nedostupné"
+
+msgid "eventName/lowerCase"
+msgstr "Rozbijte paradox"
+
+msgid "eventName/upperCase"
+msgstr "ROZBIJTE PARADOX"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Zaručená odměna v dalším modulu!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximální počet otevřených modulů před získáním zaručené odměny: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Pokud neotevřete moduly před koncem akce, budou otevřeny automaticky."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Pokud již vlastníte všechna vozidla ze seznamu možného obsahu modulu, pak všechna následující vozidla, která z modulů získáte, budou kompenzována ve zlaťácích v hodnotě jejich plné ceny."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Každý %(guaranteed0)s. modul zaručeně obsahuje prémiové vozidlo. Pokud daný počet modulů otevřete, aniž by vám takové vozidlo padlo, pak při otevření %(guaranteed0)s. modulu padne prémiové vozidlo, které ještě nevlastníte. Až k tomu dojde, počítadlo se vynuluje."
+
+msgid "infoPage/header/description"
+msgstr "Otevřete modul pro šanci získat cenné herní předměty! Více podrobností níže."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Z %(name) (%(boxesCount) modulů otevřeno)"
+
+msgid "noBoxesView/description/"
+msgstr "Nemáte žádné moduly. Můžete je\nzakoupit v herním obchodě nebo v prémiovém obchodě."
+
+msgid "preview/backLabel"
+msgstr "NA MODULY"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Dostupné moduly: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nejsou dostupné žádné moduly"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Pokud již vlastníte všechna vozidla ze seznamu možného obsahu modulu, pak všechna následující vozidla, která z modulů získáte, budou kompenzována ve zlaťácích."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) modul"
+msgstr[1] "%(remainingCount) moduly"
+msgstr[2] "%(remainingCount) modulů"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Zaručená odměna je vozidlo ze seznamu možného obsahu modulu.\nPokud otevřete %(remainingCount), aniž by vám takové vozidlo padlo, při otevření %(count). modulu takové vozidlo padne. Když k tomu dojde, počítadlo se vynuluje."

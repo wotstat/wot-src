@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "Eltávolítás"
+
+msgid "demountKit/gained/count"
+msgstr "Leszerelő készlet (%(count)sx)"
+
+msgid "demountKit/sell/header"
+msgstr "Eladva:"
+
+msgid "demountKit/sell_success"
+msgstr "'Leszerelő készlet' (%(count)s darab). Kapott kredit: %(count)s."
+
+msgid "demountKit/tooltip/description/common"
+msgstr "Leszerel egy felszerelést."
+
+msgid "dialogue/description/common"
+msgstr "Leszerel egy normál vagy jutalom felszerelést."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "A vételár alacsonyabb a megszokottnál—kedvezményesen vásárolhatod meg."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "A leszerelt felszerelés a depóba kerül."
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "Figyelem! Ennek a felszerelésnek megváltozott az osztálya a jelenlegi járműtípusnak megfelelően.\nEz a felszerelés ingyen leszerelhető, de ha leszerelted, {red_Open}nem lehet majd{red_Close} visszaszerelni erre a járműre."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "Leszereled a(z) '%(equipment)s' felszerelést?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "Leszereled a(z) %(equipment)s felszerelést, hogy felszereld az újat?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "Szerezd meg csatában vagy jutalomként a játékbeli eseményeken."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "Nincs elég kötvényed"
+
+msgid "equipmentDemount/optionFree"
+msgstr "Ingyen"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT plusz"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "Törlés"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "Ez a felszerelés másolat az alternatív szettbe felhelyezve ingyenesen eltávolítható."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "Eltávolítás"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "Eltávolítod a(z) %(equipment)s felszerelést erről a férőhelyről?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "Leszereled a jelenlegi %(equipment)s felszerelést és felszereled az újat?"
+
+msgid "equipmentDemountPrice"
+msgstr "Leszerelés költsége:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> vagy %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s vagy %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> vagy %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "Leszerelhető eladásra vagy felhelyezhető egy másik járműre %(count)s-ért vagy megsemmisül."
+
+msgid "shop/DemountOptions/common"
+msgstr "Leszerelhető eladásra vagy felhelyezhető egy másik járműre %(count)s-ért, %(iconDK)s-tel vagy megsemmisül."
+
+msgid "storage/description/common"
+msgstr "Leszerel egy normál vagy jutalom felszerelést. Aktiváláskor felhasználódik."
+
+msgid "storage/userName/common"
+msgstr "Leszerelő készlet"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "Kedvezmény: %(actionPrc)s, előző ár: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "Leszerelő készlet"

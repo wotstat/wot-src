@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "KOPEN"
+
+msgid "buttons/cancel"
+msgstr "Annuleren"
+
+msgid "buttons/learn"
+msgstr "Bestuderen"
+
+msgid "buttons/postProgression/claim"
+msgstr "OPHALEN"
+
+msgid "buttons/postProgression/hint"
+msgstr "GA NAAR POST-PROGRESSIE"
+
+msgid "buttons/postProgression/howTo"
+msgstr "Hoe verdien je ze?"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Wisselkoers:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Toegepast op het geselecteerde bemanningslid.\nVersnelt de training van de huidige specialisatie met Vrije XP."
+
+msgid "card/freeExp/title"
+msgstr "VRIJE ERVARING"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Specialisatie-efficiëntie: 100%\n• Getraind voor: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Toegepast op de hele bemanning.\nGeeft elk bemanningslid %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "TRAININGSBROCHURE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "TRAININGSHANDBOEK (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "TRAININGSGIDS (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Toegepast zonder beperkingen."
+
+msgid "card/personalBook/mainText"
+msgstr "Toegepast op het geselecteerde bemanningslid.\nGeeft dit bemanningslid %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "PERSOONLIJK TRAININGSHANDBOEK"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Specialisatie-efficiëntie: 100%\n• Getraind voor: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Toegepast op de hele bemanning.\nGeeft elk bemanningslid %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "UNIVERSEEL HANDBOEK"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "UNIVERSELE BROCHURE"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "UNIVERSELE GIDS"
+
+msgid "confirm/crewLabel"
+msgstr "Elk bemanningslid zal %(xpValue) ontvangen"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Elk bemanningslid zal %(xpValue) ontvangen, "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) zal %(xpValue) extra ontvangen"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) zal %(xpValue) ontvangen"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Sommige bemanningsleden ontvangen %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Trainingsbrochure (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Trainingsbrochure"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "TRAININGSBROCHURE"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Bemannings-XP voor elk bemanningslid."
+
+msgid "items/crewBook/Name"
+msgstr "Trainingshandboek (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Trainingshandboek"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "TRAININGSHANDBOEK"
+
+msgid "items/guide/Name"
+msgstr "Trainingsgids (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Trainingsgids"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "TRAININGSGIDS"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} ervaring voor het geselecteerde bemanningslid"
+
+msgid "items/personalBook/Name"
+msgstr "Persoonlijk trainingshandboek"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Bemannings-XP voor elk bemanningslid."
+
+msgid "items/universalBook/Name"
+msgstr "Universeel handboek"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} ervaring voor elk bemanningslid."
+
+msgid "items/universalBrochure/Name"
+msgstr "Universele brochure"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} ervaring voor elk bemanningslid."
+
+msgid "items/universalGuide/Name"
+msgstr "Universele gids"
+
+msgid "page/mentoringLicense/hint"
+msgstr "GA NAAR MENTORLICENTIE"
+
+msgid "page/mentoringLicense/title"
+msgstr "MENTORLICENTIE"
+
+msgid "page/title"
+msgstr "SNELLE TRAINING"
+
+msgid "tooltip/buyManual"
+msgstr "Trainingshandboek kopen"
+
+msgid "tooltip/mouseWheel"
+msgstr "Scrol {mouseIcon} om het aantal bemanningsboeken te verhogen / verlagen."
+
+msgid "tooltip/outOfStock"
+msgstr "Geen bemanningsboeken meer"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Geen bemanningsboeken meer. Koop deze bemanningsboeken in de winkel."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Toegepast op het geselecteerde bemanningslid. Geeft dit bemanningslid %(xp)s ervaring."
+
+msgid "tooltip/postProgression"
+msgstr "Ga naar post-progressie"
+
+msgid "tooltip/sale/header"
+msgstr "Lucratieve wisselkoers"
+
+msgid "tooltip/sale/newRate"
+msgstr "Nieuwe wisselkoers: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Oude wisselkoers: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Klik op %(controlsImg) om het trainingsniveau van de specialisatie met 1% te verhogen/verlagen"
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Druk op %(pgupImg) / %(pgdownImg) om het trainingsniveau van de specialisatie naar&nbsp;100% te verhogen&nbsp;/ om terug te gaan naar de vorige specialisatie."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Toegepast op de hele bemanning. Geeft elk bemanningslid %(xp)s ervaring."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Toegepast op de hele bemanning. Geeft elk bemanningslid %(xp)s ervaring."

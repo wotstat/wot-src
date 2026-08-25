@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} w klanie"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "DO STATUSU KONTA"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "POWRÓT"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Będziesz mógł wymienić mapę za {}"
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Pokaż/ukryj mapy tego typu."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Mapy pustynne"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Mapy letnie"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Mapy zimowe"
+
+msgid "mapsBlacklist/header"
+msgstr "Wykluczone mapy"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Wyklucz niechcianą mapę z rotacji gry. Wyklucz jeszcze jedną mapę dzięki premium WoT i kolejne %(mapCount)s dzięki WoT Plus. Jeśli któraś z tych subskrypcji wygaśnie, wykluczone mapy powrócą do rotacji, zaczynając od tych po prawej stronie."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Wykluczone mapy"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Te mapy są wykluczone tylko w bitwach losowych."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Możesz wymienić wykluczoną mapę co %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Ta funkcja jest dostępna dla pojazdów poziomu IV i wyższych."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "W plutonach są wykluczane tylko mapy wybrane przez dowódcę plutonu."
+
+msgid "mapsBlacklist/mapName"
+msgstr "„{mapName}”"
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Wyświetlane mapy: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Wyświetlane mapy: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Typy map:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Anuluj"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Zamknij"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Wybrana mapa zostanie wymieniona na mapę {mapNameStr}. Możesz zmienić swój wybór za {cooldownStr}"
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Którą mapę chcesz wymienić?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Wyklucz"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Wybierz mapę, którą chcesz wymienić"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Anuluj"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Zamknij"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Możesz zmienić swój wybór za {cooldownStr}"
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Czy wykluczyć mapę {mapNameStr} z bitew losowych?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Wyklucz"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Wyklucz"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Czy wykluczyć mapę {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Włącz"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Czy włączyć mapę {mapNameStr} w bitwach losowych?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Możesz wymienić tę mapę za {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Wymiana mapy niedostępna"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Możesz wymienić tę mapę za {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Wymiana mapy niedostępna"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Nie wybrano"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Kliknij, aby wybrać mapę do wykluczenia w bitwach losowych."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Nie wybrano mapy"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Wykluczoną mapę {mapName} można wymienić na inną."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Wymiana mapy dostępna"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Możesz wymienić mapę {mapName} za {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Wymiana mapy niedostępna"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Dodatkowe miejsce dostępne jest tylko z aktywnym kontem premium WoT."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Miejsce niedostępne"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Wybierz mapę z poniższej listy do wykluczenia z bitew losowych."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Nie wybrano mapy"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Wybierz mapę z poniższej listy do wykluczenia z bitew losowych."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Wymiana mapy dostępna"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Możesz wymienić tę mapę za {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Wymiana mapy niedostępna"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Miejsce na dodatkową wykluczaną mapę jest dostępne tylko z aktywnym kontem premium WoT."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Miejsce niedostępne"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Anuluj"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Możesz zmienić swój wybór za {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Wymień"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Wyklucz"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Czy wykluczyć mapę %(mapName)s z bitew losowych?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Wybrana mapa zostanie wymieniona na mapę {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Możesz zmienić swój wybór za %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Którą mapę chcesz wymienić?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Mapa zostanie wymieniona na mapę {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Możesz zmienić swój wybór za %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Czy chcesz wymienić tę mapę?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Dla tego konta uruchomiono ochronę rodzicielską.\nMożesz dowiedzieć się więcej o ograniczeniach ochrony rodzicielskiej {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Ochrona rodzicielska"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "na portalu gry"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Rezerwa kredytów"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s godz."
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

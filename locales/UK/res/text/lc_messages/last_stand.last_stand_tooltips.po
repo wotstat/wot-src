@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Подія доступна протягом %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — ігровий режим. Натисніть для подробиць"
+
+msgid "bannerTooltip/description"
+msgstr "Спеціальний PvE-режим, у якому ви долатимете хвилі сил супротивника. Вибирайте машину, знищуйте ехо-танки та стримуйте натиск. На вас чекають ексклюзивні нагороди та багато іншого!"
+
+msgid "bannerTooltip/header"
+msgstr "Останній рубіж: Терра Норд"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Продуктивності вашого комп'ютера замало для цього режиму. Висока ймовірність проблем із графікою й переміщенням техніки. Також можливий аварійний вихід із клієнта гри."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Режим вимогливий до продуктивності комп'ютера. Мапа може завантажуватися довго, можливі проблеми з графікою й переміщенням техніки в бою. У разі недостатньої продуктивності спробуйте знизити налаштування графіки."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Мала продуктивність"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Можливе зниження продуктивності"
+
+msgid "battlePass/playGame"
+msgstr "Здобувайте очки в Останньому рубежі, просуваючись подією (потрібні машини VIII рівня)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Ви вже є друзями."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Очікуємо на підтвердження запиту «додати в \"Друзі\"»."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Видалити гравця з «Чорного списку»."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Додати в «Друзі»."
+
+msgid "battleResult/interaction/menu"
+msgstr "Натисніть, щоб відкрити меню взаємодії з цим гравцем."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Додати до взводу."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Гравець уже в складі взводу."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Запрошення вже надіслано."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Запрошувати гравців до взводу може тільки командир."
+
+msgid "booster/activated"
+msgstr "Активовано"
+
+msgid "booster/howItWorks"
+msgstr "Як це працює"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Час підготовки: %(cooldownSeconds)s с"
+
+msgid "consumables/params/usageCost"
+msgstr "Потрібно миріуму: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Часу на виконання щоденного завдання"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Часу до наступного щоденного завдання"
+
+msgid "dailyQuests/completed"
+msgstr "Виконано"
+
+msgid "dailyQuests/completedAll"
+msgstr "Ви виконали всі щоденні завдання події."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Ви виконали це щоденне завдання. Нове стане доступним завтра."
+
+msgid "dailyQuests/rewards"
+msgstr "Нагороди:"
+
+msgid "dailyQuests/status"
+msgstr "Нове щоденне завдання за %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Подія доступна протягом %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Виберіть доступну машину, щоб вийти у бій."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Недоступно"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Бої вибраного рівня складності/режиму тимчасово недоступні з технічних причин."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Недоступно"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Зачекайте, поки взвод повернеться з попереднього бою, щоб вийти у новий."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Недоступно"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Рівень складності несумісний для взводу."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Недоступно"
+
+msgid "points/accrued"
+msgstr "Отримано"
+
+msgid "points/battles"
+msgstr "• Бийтеся в боях події"
+
+msgid "points/body"
+msgstr "Дані використовуються для просування подією «Останній рубіж» й отримання цінних ресурсів. Їх можна заробити в боях події, виконуючи щоденні завдання чи придбавши «{{bundle_name}}»."
+
+msgid "points/bottom"
+msgstr "Подія завершується: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Виконуйте нові щоденні завдання щодня"
+
+msgid "points/effective"
+msgstr "• Ефективність у бою:"
+
+msgid "points/gold"
+msgstr "• Придбайте «{{bundle_name}}» у Магазині"
+
+msgid "points/header"
+msgstr "Дані"
+
+msgid "points/howToEarn"
+msgstr "Як здобути"
+
+msgid "points/missionDaily"
+msgstr "• Щоденне завдання виконано:"
+
+msgid "points/obelisk"
+msgstr "• Обеліск знищено:"
+
+msgid "points/vehicleDaily"
+msgstr "• Отримано щоденний бонус машини:"
+
+msgid "rewardPath/info/first"
+msgstr "Ви можете отримати більше даних, виконуючи щоденні завдання, які оновлюються щодня впродовж події."
+
+msgid "rewardPath/info/header"
+msgstr "Додаткові дані"
+
+msgid "rewardPath/info/second"
+msgstr "Спеціальний набір події, доступний у Магазині, також містить дані для прискорення прогресу."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Бонус машини:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Інші нагороди:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Бонус машини{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Усі дані й нагороди отримано"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Отримано дані: {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Збирайте дані в боях і просувайтеся прогресією події «Останній рубіж». Кожен етап приносить цінні предмети й бонус для техніки, що допоможе перемагати сильніших супротивників."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Останній етап"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Поточний етап"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Подія доступна протягом {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Прогресія"
+
+msgid "shopWidget/body"
+msgstr "Натисніть, щоб відкрити спеціальний розділ ігрового Магазину з ексклюзивними предметами події."
+
+msgid "shopWidget/header"
+msgstr "Набори події"
+
+msgid "teamList/actions/body"
+msgstr "Швидкі дії для формування взводу й додавання/видалення друзів."
+
+msgid "teamList/actions/header"
+msgstr "Швидкі дії"
+
+msgid "teamList/damage/body"
+msgstr "Упорядкувати за завданою шкодою."
+
+msgid "teamList/damage/header"
+msgstr "Завдано шкоди"
+
+msgid "teamList/keys/body"
+msgstr "Сортування за здобутими даними. Наведене значення не враховує додаткові дані за виконання щоденних завдань чи щоденні бонуси для техніки."
+
+msgid "teamList/keys/header"
+msgstr "Дані"
+
+msgid "teamList/kills/body"
+msgstr "Упорядкувати за знищеними машинами супротивника."
+
+msgid "teamList/kills/header"
+msgstr "Знищено машин супротивника"
+
+msgid "teamList/name/header"
+msgstr "Ім'я гравця"
+
+msgid "teamList/place/body"
+msgstr "Сортувати за місцем у команді."
+
+msgid "teamList/place/header"
+msgstr "Місце в команді"
+
+msgid "teamList/squad/header"
+msgstr "Взвод — це формування для спільної гри."
+
+msgid "teamList/vehicle/body"
+msgstr "Упорядкувати за типом і назвою техніки."
+
+msgid "teamList/vehicle/header"
+msgstr "Техніка"
+
+msgid "teamList/warned/body"
+msgstr "Цього гравця оштрафовано за бездіяльність/дезертирство й позбавлено будь-яких нагород за цей бій."
+
+msgid "teamList/warned/header"
+msgstr "Попередження"
+
+msgid "teamList/warned/self/body"
+msgstr "Вас оштрафовано за бездіяльність/дезертирство й позбавлено будь-яких нагород за цей бій."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Низька ефективність екіпажу"
+
+msgid "vehicle/rentState"
+msgstr "Заблоковано"
+
+msgid "vehicleDaily/header"
+msgstr "Щоденний бонус на машину"

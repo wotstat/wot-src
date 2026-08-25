@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "closeButtonLabel"
+msgstr "ZATVORI"
+
+msgid "featureName"
+msgstr "REPRIZE"
+
+msgid "filter/apply"
+msgstr "Primeni filter"
+
+msgid "filter/group/nation/title"
+msgstr "Nacija"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Nivo"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Nivo"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specijalizacija"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Tip vozila"
+
+msgid "filter/reset"
+msgstr "Resetuj filter"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Prikaži/sakrij članove posada ove nacije."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Prikaži/sakrij skinove ove nacije"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Prikaži/sakrij vozila ove nacije."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Prikaži/sakrij vozila ovog tipa."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Lovci tenkova"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artiljerije"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Teški tenkovi"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Laki tenkovi"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Srednji tenkovi"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nima pronađenih vozila koja zadovoljavaju\nkriterijum pretrage"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sortiraj prema nazivu vozila."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Naziv"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sortiraj prema nivou vozila."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Nivo"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sortiraj po tipovima vozila."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tip"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Naziv"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Klikni da primeniš podešavanja filtera."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Primeni odabrane filtere"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klikni da poništiš filter."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Poništi sve filtere"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Prikaži samo reprize iz udarnog termina"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Traje %(count)s dan"
+msgstr[1] "Traje %(count)s dana"
+msgstr[2] "Traje %(count)s dana"
+
+msgid "filterPopover/title"
+msgstr "Filter repriza"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Podesi filter repriza po tipu vozila, nivou, naciji itd."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filter po parametrima"
+
+msgid "findReplay/buttonText/find"
+msgstr "Pronađi reprizu"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Očisti unos"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Pogledaj reprizu!"
+
+msgid "findReplay/errorMessage"
+msgstr "Ništa nije pronađeno. Molim, promeni svoj zahtev"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Molim ukucaj ARENA_ID ovde..."
+
+msgid "findReplay/successMessage"
+msgstr "AI je pronašao reprizu za koju si zainteresovan! Uživaj u gledanju"
+
+msgid "page/heading/bestReplays"
+msgstr "NAJBOLJE REPRIZE"
+
+msgid "page/heading/findReplay"
+msgstr "PRONAĐI REPRIZU (ZA DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "MOJE REPRIZE"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Ova sekcija sadrži informacije o najboljim reprizama od svih WoT igrača"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Ova sekcija je za pronalaženje repriza po nekom parametru"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Ova sekcija sadrži informacije o TVOJIM najboljim reprizama"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "NAJBOLJE REPRIZE"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Pronađi reprizu"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "MOJE REPRIZE"
+
+msgid "statsParam/damageAssisted"
+msgstr "Najboljih 1 u pomoći u uništavanju"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Najboljih 1 u blokiranoj šteti"
+
+msgid "statsParam/damageDealt"
+msgstr "Najboljih 1 u nanetoj šteti"
+
+msgid "statsParam/earnedXp"
+msgstr "Najboljih 1 u zarađenom iskustvu"
+
+msgid "statsParam/kills"
+msgstr "Najboljih 1 u uništenim vozilima"
+
+msgid "table/error/buttonText"
+msgstr "Osveži"
+
+msgid "table/error/description"
+msgstr "Izvinjavamo se zbog trenutnih problema, pokušaj da osvežiš stranicu kasnije ponovo."
+
+msgid "table/error/title"
+msgstr "Greška pri učitavanju podataka"
+
+msgid "table/header/damageAssisted"
+msgstr "Pomoć"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Blokrana šteta"
+
+msgid "table/header/damageDealt"
+msgstr "Šteta"
+
+msgid "table/header/date"
+msgstr "Datum"
+
+msgid "table/header/earnedXp"
+msgstr "Zarađeno iskustvo"
+
+msgid "table/header/kills"
+msgstr "Količina uništenih vozila"
+
+msgid "table/header/map"
+msgstr "Mapa"
+
+msgid "table/header/marksOfMastery"
+msgstr "Oznake majstorstva"
+
+msgid "table/header/player"
+msgstr "Ime igrača"
+
+msgid "table/header/vehicle"
+msgstr "Vozila"
+
+msgid "table/noRecords/buttonText"
+msgstr "Resetuj filter"
+
+msgid "table/noRecords/title"
+msgstr "Ništa nije pronađeno. Molim promeni podešavanja ili poništi filter"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Klikni da poništiš filter."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Poništi sve filtere"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Količina asistirajuće štete igrača u ovoj reprizi"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Asistencija u šteti"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Količina blokirane štete igrača u ovoj reprizi"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Šteta blokirana oklopom"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Količina nanete štete igrača u ovoj reprizi"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Naneta šteta"
+
+msgid "table/tooltip/date/body"
+msgstr "Datup kada je repriza snimljena."
+
+msgid "table/tooltip/date/header"
+msgstr "Datum reprize"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Količina zarađenog iskustva igrača u ovoj reprizi"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Zarađeno iskustvo"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Epske oznake postignute od strane igrača u reprizi"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Epske medalje"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Klikni da dodaš ovu reprizu u omiljene reprize."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Omiljene"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Klikni da ukloniš ovu reprizu sa liste omiljenih repriza."
+
+msgid "table/tooltip/kills/body"
+msgstr "Količina vozila uništenih od strane ovog igrača u ovoj reprizi"
+
+msgid "table/tooltip/kills/header"
+msgstr "Ubistva"
+
+msgid "table/tooltip/map/body"
+msgstr "Mapa reprize."
+
+msgid "table/tooltip/map/header"
+msgstr "Mapa"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Važne oznake dobijene od strane igrača u ovoj reprizi"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Oznake majstorstva"
+
+msgid "table/tooltip/player/body"
+msgstr "Ime igrača iz reprize."
+
+msgid "table/tooltip/player/header"
+msgstr "Ime igrača"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Vozilo igrača na kojem je repriza snimljena."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Vozila"
+
+msgid "tableInfo/amount"
+msgstr "Prikazane reprize: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filter"
+
+msgid "waitingSpinner/message"
+msgstr "Pokretanje..."

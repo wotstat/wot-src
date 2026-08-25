@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Jméno"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Za měsíc"
+
+msgid "ClanListWindow/table/role"
+msgstr "Pozice"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Za týden"
+
+msgid "battleQueue/clanPosition"
+msgstr "Pozice: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Pozice:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Hledání nepřítele:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Čekání na bitvu:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Váš odřad:"
+
+msgid "disconnected/Warning"
+msgstr "Pozor!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Opevnění není momentálně k dispozici. Zkuste to později."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Opevnění není k dispozici v roamingu. Pro přístup k opevnění přejděte do svého regionu."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Členové klanu"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Legionáři"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Uložit výběr (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Povzbuzuje"
+
+msgid "inspire/inspiring"
+msgstr "Povzbuzuje"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Omlouváme se za nepříjemnosti."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Obnovit"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Chyba při načítání údajů"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Další instruktáž"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Bojové platby"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Vojenské manévry"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Taktický výcvik"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Další efekt"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Přikazuje dělostřelectvu, aby v jedné bitvě v šarvátkách a ofenzívách zahájilo palbu na vybranou oblast"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "V šarvátkách a ofenzívách poskytuje v jedné bitvě bonus k hlavním kvalifikacím a ke všem specializacím celé posádky vašeho povzbuzeného vozidla a také posádek všech okolních spojeneckých vozidel"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Zálohu lze zapnout před bitvou"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Zálohu lze zapnout před ofenzívou"
+
+msgid "reserves/tooltip/empty"
+msgstr "Nemáte žádné zálohy, které by šlo zapnout"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s ve skladu"
+
+msgid "reserves/tooltip/level"
+msgstr "Úroveň %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Efekt při použití"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Lze zapnout"
+
+msgid "reserves/tooltip/selected"
+msgstr "Zapnuto"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Klikněte pro zobrazení seznamu záloh, které můžete zapnout."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Zálohu může zapnout pouze velitel odřadu shodností Velitel, Výkonný důstojník, Posádkový důstojník či Bojový důstojník."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Nedostatek členů klanu v odřadu: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Bitva začíná za %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Čas zahájení bude upřesněn později"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Bitva končí za %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Šarvátky jsou k dispozici"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Nadcházející bitva začne %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Bitva začíná za %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Bitva začíná dnes v %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Bitva začíná zítra v %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Čas zahájení bude upřesněn později"
+
+msgid "sortie/introView/title"
+msgstr "Opevnění: Bitvy"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Připojit se"
+
+msgid "sortie/listView/enterText"
+msgstr "Můžete se připojit jako dobrovolník"
+
+msgid "sortie/listView/notSelected"
+msgstr "Vyberte odřad ze seznamu vlevo,\nabyste viděli podrobný popis."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Členové: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Vozidla:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Legionáři"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Automatický nábor"
+
+msgid "sortie/room/candidates"
+msgstr "Dobrovolníci"
+
+msgid "sortie/room/chat"
+msgstr "Kanál chatu"
+
+msgid "sortie/room/description"
+msgstr "Vytvořený odřad bojuje v bitvě s náhodným nepřátelským klanem na neutrálním území. Úroveň vozidla je určena vybranou divizí."
+
+msgid "sortie/room/fight"
+msgstr "Bitva!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Pozvat hráče"
+
+msgid "sortie/room/leaveBtn"
+msgstr "PŘEJÍT NA SESTAVENÍ ODŘADU"
+
+msgid "sortie/room/level"
+msgstr "Úroveň %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Členové: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Nepřipraven"
+
+msgid "sortie/room/ready"
+msgstr "Připraven!"
+
+msgid "sortie/room/title"
+msgstr "Odřad"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Prázdné"
+
+msgid "sortie/slot/takePlace"
+msgstr "Zabrat slot"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Vyberte vozidlo pro vstup do bitvy. Červený ukazatel označuje vozidla, která nejsou připravena k boji."
+
+msgid "stronghold/teamHeader"
+msgstr "Členové odřadu"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Výběr vozidel pro legionáře"
+
+msgid "strongholdPopover/header"
+msgstr "Výběr vozidel"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Vybrané stroje:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s spojenecké předmostí"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Severní"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Východní"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Jižní"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Západní"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Nepřátelské předmostí"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Mapa: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Mapa bude vybrána po zahájení ofenzívy"
+
+msgid "strongholdbuilds/point1"
+msgstr "Citadela"
+
+msgid "strongholdbuilds/point2"
+msgstr "Záložní linie"
+
+msgid "strongholdbuilds/point3"
+msgstr "Přední linie"
+
+msgid "strongholdbuilds/point4"
+msgstr "Přední linie"
+
+msgid "strongholdbuilds/point5"
+msgstr "Záložní linie"
+
+msgid "strongholdbuilds/point6"
+msgstr "Citadela"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s za první vítězství každý den v ofenzívách na tomto předmostí"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Za obranu citadely při ztrátě obou linií"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Za obranu záložní linie při ztrátě přední linie"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Za obranu obou linií bez obsazení nepřátelských linií"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Za obsazení pouze přední linie"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Za obsazení obou linií bez obsazení citadely"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Za obsazení nepřátelské citadely"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "ze zálohy „Rekvizice“"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Uděluje se po ofenzívě"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Skrýt před legionáři"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Odřad je zobrazen"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Zobrazit pro legionáře"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Odřad je skryt"
+
+msgid "strongholddirection/A"
+msgstr "Severního"
+
+msgid "strongholddirection/B"
+msgstr "Východního"
+
+msgid "strongholddirection/C"
+msgstr "Jižního"
+
+msgid "strongholddirection/D"
+msgstr "Západního"
+
+msgid "strongholdinfo/sortie"
+msgstr "Šarvátka v divizi %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Ofenzíva z %(direction)s předmostí"
+
+msgid "strongholdmap/randomMap"
+msgstr "Náhodná mapa"
+
+msgid "strongholdreserve/boost"
+msgstr "Povzbuzení"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Velkokapacitní transport"
+
+msgid "strongholdreserve/requisition"
+msgstr "Rekvizice"
+
+msgid "strongholdreserve/support"
+msgstr "Dělostřelecký úder"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "V šarvátkách a ofenzívách, na 1 bitvu"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Za výsledek ofenzívy"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Aktivuje se na začátku bitvy"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Aktivuje se na začátku ofenzívy"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Aktivuje se při použití zálohy v bitvě"
+
+msgid "strongholdtable/rating"
+msgstr "Hodnocení"
+
+msgid "strongholdtable/roster"
+msgstr "Sestava"
+
+msgid "strongholdtable/tech"
+msgstr "Vozidla"
+
+msgid "strongholdtitle/sortie"
+msgstr "Šarvátka"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Ofenzíva z %(direction)s předmostí"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Hranice{/HEADER}{BODY}Neutrální území. Vítěz zaútočí v další bitvě na nepřátelskou linii. Pokud bitva skončí remízou, tak se útočící tým vybere náhodně.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Ofenzíva z %(direction)s předmostí"
+
+msgid "strongholdtooltips/hours"
+msgstr "h"
+
+msgid "strongholdtooltips/minuts"
+msgstr "min."
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Šarvátka v divizi %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Typ vozidla automaticky přiděleného legionáři poté, co kliknete na tlačítko „Bitva!“.\n\nKliknutím potvrdíte či zrušíte vybraný typ vozidla pro legionáře."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Legionáři budou automaticky přidáni do volných pozic"

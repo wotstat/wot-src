@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "mode/comp7/battlePassTooltip/body"
+msgstr "Walcząc w {whiteSpanish_open}Natarciu{whiteSpanish_close} pojazdami X poziomu, zdobywasz punkty, które pozwalają na awans w postępach Przepustki bitewnej."
+
+msgid "mode/comp7/battlePassTooltip/header"
+msgstr "Punkty Przepustki bitewnej"
+
+msgid "mode/comp7/calendarTooltip"
+msgstr "Wydarzenie zakończy się %(date)s"
+
+msgid "mode/comp7/description"
+msgstr "Tryb współzawodnictwa: 7 na 7 %(parSecondary_open)sI%(parSecondary_close)s Poziom&nbsp;X"
+
+msgid "mode/comp7/progress"
+msgstr "%(score)s/%(scoreToNextDivision)s"
+
+msgid "mode/comp7/seasonEnd/first"
+msgstr "Sezon Lazurowego Smoka zakończył się"
+
+msgid "mode/comp7/seasonEnd/second"
+msgstr "Sezon Karmazynowego Smoka zakończył się"
+
+msgid "mode/comp7/seasonEnd/third"
+msgstr "Sezon Jadeitowego Smoka zakończył się"
+
+msgid "mode/comp7/seasonStart/first"
+msgstr "Sezon Lazurowego Smoka zacznie się %(date)s"
+
+msgid "mode/comp7/seasonStart/second"
+msgstr "Sezon Karmazynowego Smoka zacznie się %(date)s"
+
+msgid "mode/comp7/seasonStart/third"
+msgstr "Sezon Jadeitowego Smoka zacznie się %(date)s"
+
+msgid "mode/comp7/warning"
+msgstr "Brak aktywności w stopniach: %(count)s"
+
+msgid "mode/comp7/widgetDescription/qualification"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Rozegraj %(maxBattlesCount)s bitwę,\naby ukończyć kwalifikacje."
+msgstr[1] "Rozegraj %(maxBattlesCount)s bitwy,\naby ukończyć kwalifikacje."
+msgstr[2] "Rozegraj %(maxBattlesCount)s bitew,\naby ukończyć kwalifikacje."
+
+msgid "mode/comp7/widgetDescription/status"
+msgstr "%(rank)s\n%(division)s"
+
+msgid "mode/comp7/yearEnd"
+msgstr "Rok Smoka zakończył się"

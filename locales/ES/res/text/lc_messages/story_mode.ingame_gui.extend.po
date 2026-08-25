@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/recon/startVehicle"
+msgstr "Volviendo al vehículo..."
+
+msgid "abilities/recon/stopVehicle"
+msgstr "Abandonando el vehículo..."
+
+msgid "player_errors/ability/on_cooldown"
+msgstr "No disponible. [%(name)s] en periodo de enfriamiento."
+
+msgid "player_errors/ability/other_ability"
+msgstr "No se puede usar: [%(name)s] está en uso."
+
+msgid "player_errors/ability/unable_fire"
+msgstr "No se puede disparar: [%(name)s] está en uso."
+
+msgid "player_errors/ability/unable_move"
+msgstr "No se puede mover: [%(name)s] está en uso."
+
+msgid "player_messages/BUNKER_DESTROYED"
+msgstr "Búnker costero destruido."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BATTLESHIP"
+msgstr "Buque de guerra listo para disparar."
+
+msgid "player_messages/DISTRACTION_ABILITY"
+msgstr "Ya se puede usar Orden falsa."
+
+msgid "player_messages/RECON_ABILITY"
+msgstr "Ya se puede usar Exploración circundante."
+
+msgid "player_messages/SCC_AIRSTRIKE_ABILITY"
+msgstr "Ya se puede usar Apoyo aéreo."
+
+msgid "postmortem_messages/DEATH_FROM_BOT"
+msgstr "Vehículo destruido por fuego enemigo."
+
+msgid "postmortem_messages/DEATH_FROM_BUNKER"
+msgstr "Vehículo destruido por un disparo del búnker costero."

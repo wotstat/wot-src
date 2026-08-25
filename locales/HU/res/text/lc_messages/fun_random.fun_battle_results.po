@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "BEZÁRÁS"
+
+msgid "continueBtn"
+msgstr "Folytatás"
+
+msgid "economy/double/credits"
+msgstr "A WoT prémium fiók %(value)s%%-kal növeli a szerzett kredit mennyiségét."
+
+msgid "economy/double/free_xp"
+msgstr "A WoT prémium fiók %(value)s%%-kal növeli a szerzett szabad XP mennyiségét."
+
+msgid "economy/double/tmen_xp"
+msgstr "A WoT prémium fiók %(value)s%%-kal növeli a szerzett legénységi XP mennyiségét."
+
+msgid "economy/double/xp"
+msgstr "A WoT prémium fiók %(value)s%%-kal növeli a szerzett harci XP mennyiségét."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "A WoT prémium fiók %(value)s%%-kal növeli a szerzett harci és szabad XP mennyiségét."
+
+msgid "efficiency/capturePoints"
+msgstr "Bázisfoglalás"
+
+msgid "efficiency/damageAssisted"
+msgstr "Sebzés közreműködéssel"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Kábítás"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Felfogott sebzés"
+
+msgid "efficiency/damageDealt"
+msgstr "Sebzés"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Bázisvédés"
+
+msgid "efficiency/empty"
+msgstr "–"
+
+msgid "efficiency/kills"
+msgstr "Megsemmisítve"
+
+msgid "efficiency/spotted"
+msgstr "Felderítés"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Bázisfoglalás"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Közreműködés megsemmisítésben"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Kábítás"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Páncélzat használata"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Sebzés"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Bázisvédés"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Megsemmisített ellenség"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Felderítés"
+
+msgid "finish"
+msgstr "A csata véget ért"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Az ugyanazzal a járművel megvívott legutóbbi csatára kell alkalmazni."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "A bónuszt nem lehet felhasználni: a gyorsított legénységi képzés engedélyezve van."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "A bónuszt nem lehet felhasználni: a gyorsított legénységi képzés nincs engedélyezve."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "A szorzókat csak a győztes csatákra lehet felhasználni."
+
+msgid "premiumBonus/NoCrew"
+msgstr "A kiosztható bónuszt nem lehet felhasználni: nem található legénység."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "A kiosztható bónuszt nem lehet felhasználni: nem található jármű."
+
+msgid "progress/title"
+msgstr "%(modeName)s: Különleges küldetés. Szakasz: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: Különleges küldetés"
+
+msgid "result/lose"
+msgstr "VERESÉG"
+
+msgid "result/tie"
+msgstr "DÖNTETLEN"
+
+msgid "result/win"
+msgstr "GYŐZELEM"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "CÉLBA ÉRTÉL"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "HELYEZÉS"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "NEM ÉRTÉL\nCÉLBA"
+
+msgid "resultRace/finishReason/finished"
+msgstr "Elérted a célvonalat"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "Nem érted el a célvonalat"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "A csata véget ért: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "Nem rossz!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "Top 3!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "Több szerencsét legközelebb!"
+
+msgid "ribbon/applied"
+msgstr "Bónusz sikeresen felhasználva"
+
+msgid "ribbon/errorState"
+msgstr "Hiba a felhasználás során"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s bónusz az XP-re"
+
+msgid "ribbon/timeLeft"
+msgstr "Bónusz megújul:"
+
+msgid "ribbon/usesLeft"
+msgstr "Elérhető felhasználások: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "Dev ÁTTEKINTÉS"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Dev CSAPATPONTSZÁM"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Játékosok"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "Ellenőrzőpontok"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "Újraéledések"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "Helyezés"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "Idő"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "Megsemmisítve"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "Teljesített ellenőrzőpontok száma"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "A járműved megsemmisítése utáni újraéledések száma"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "Megsemmisített ellenséges járművek száma"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "Végső helyezésed a versenyen"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "Célba érésed ideje"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "Ellenőrzőpontok"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "Újraéledések"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "Megsemmisítve"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "Helyezés"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "Idő"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "SZEMÉLYES PONTSZÁM"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "A RÉSZTVEVŐK EREDMÉNYEI"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "Rendezés helyezés szerint"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "Helyezés"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "Rendezés idő szerint"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "Idő"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "Játékosok"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "Rendezés jármű szerint"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "Járművek"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "ÁTTEKINTÉS"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "CSAPATPONTSZÁM"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Játékosok"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "CSATAEREDMÉNYEK"

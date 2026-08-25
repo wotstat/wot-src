@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Para confirmar, introduce la cantidad de EXP que quieras transferir del tripulante seleccionado."
+
+msgid "assignmentDialog/price"
+msgstr "Precio:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Transferir toda la EXP de la tripulación entre tripulantes"
+
+msgid "assignmentDialog/title"
+msgstr "Confirmar el curso de orientación"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Este tripulante se eliminará\nde tu cuenta sin posibilidad de recuperación."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "Se perderán {xpLose} puntos de EXP adicionales."
+
+msgid "dialogue/description"
+msgstr "Un consumible que permite transferir toda la EXP de la tripulación entre tripulantes de la misma nación."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Se perderá EXP adicional:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "SELECCIONAR"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "EXP total: %(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Licencia(s) de orientación:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "No hay tripulantes adecuados"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Selecciona el tripulante que transferirá su EXP\na {cream_Open}%(name)s{cream_Close} y que se eliminará de tu cuenta."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Una vez transferida la EXP de la tripulación, {cream_Open}%(name)s{cream_Close} alcanzará el límite de cualificaciones y la EXP que supere el límite se perderá."
+
+msgid "mentorAssigment/title"
+msgstr "SELECCIONA A UN MENTOR"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} ha alcanzado el límite de cualificaciones y no se puede seleccionar para la transferencia de EXP."
+
+msgid "multipleUserName"
+msgstr "Licencias de orientación"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Licencia(s) de orientación usada(s): %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "EXP de la tripulación transferida: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Curso de orientación"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>EXP de la tripulación adicional perdida: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Permite transferir toda la EXP de la tripulación\nentre tripulantes de la misma nación."
+
+msgid "storage/userName"
+msgstr "Licencia de orientación"
+
+msgid "userName"
+msgstr "Licencia de orientación"

@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Bitvy na serverech budou dostupné za %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Tento režim je na všech serverech nedostupný"
+
+msgid "alertMessage/ban"
+msgstr "Dočasně jste v tomto režimu zablokováni. Zbývající čas: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Změnit server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaily"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Tento režim je na vašem stávajícím serveru nedostupný %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Tento režim je na všech serverech nedostupný."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Pro tento herní režim musíte mít k dispozici alespoň %(count)s vhodná vozidla. Podrobnosti najdete na stránce o Náporu."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Nedostatek vhodných vozidel"
+
+msgid "alertMessage/modeOffline"
+msgstr "Chyba databáze. Herní režim není dostupný."
+
+msgid "alertMessage/noVehicles"
+msgstr "Žádná vhodná vozidla %(levels)s. úrovně v garáži %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Bitvy nejsou na serveru %(serverName)s dostupné"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Bitvy nejsou na serveru %(serverName)s dostupné"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Nedostatek vhodných vozidel %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Tento režim není na serveru %(serverName)s dostupný"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Sezóna azurového Draka začne: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Sezóna karmínového Draka začne: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Sezóna nefritového Draka začne: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Vyčkejte na výsledek kvalifikace, poté obdržíte svou hodnost"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Sezóna azurového Draka skončila"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Sezóna karmínového Draka skončila"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Sezóna nefritového Draka skončila"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Bitvy na serveru budou dostupné za %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Tento režim není na serveru %(serverName)s dostupný"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Žádná vhodná vozidla %(levels)s. úrovně v garáži"
+
+msgid "awardsWidget/description/award"
+msgstr "Kliknutím si vyberete a vyzvednete své odměny."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Finální odměny jsou dočasně nedostupné. Omlouváme se za nepříjemnosti."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "VYZVEDNOUT\nODMĚNU"
+msgstr[1] "VYZVEDNOUT\nODMĚNY"
+msgstr[2] "VYZVEDNOUT\nODMĚNY"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Hlasovat"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Pro %(vehicleName)s jste již hlasovali"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Nezakázat"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Navrhněte vozidlo, které by mělo být zakázáno"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Můžete hlasovat pouze\nběhem fáze hlasování o zákazu"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Navrhujete:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Někdo z vašeho týmu\nzvolil vozidlo, které chcete zakázat"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Počkejte na konec fáze hlasování o zákazu"
+
+msgid "banView/button/back"
+msgstr "ZPĚT"
+
+msgid "banView/button/ban"
+msgstr "Na výběr zákazu"
+
+msgid "banView/button/description"
+msgstr "NA VÝBĚR VOZIDEL"
+
+msgid "banView/description/prepick"
+msgstr "Vyberte vozidlo, které se nejlépe hodí pro tuto mapu a složení vašeho týmu"
+
+msgid "banView/description/voting"
+msgstr "Vyberte vozidlo, které chcete z této bitvy vyloučit"
+
+msgid "banView/factory/candidate"
+msgstr "Kandidát na zákaz: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Kandidáti na zákaz týmu"
+
+msgid "banView/factory/noCandidates"
+msgstr "Žádný kandidát na zákaz"
+
+msgid "banView/factory/pick"
+msgstr "Váš kandidát: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Nezakázat"
+
+msgid "banView/title/prepick"
+msgstr "Fáze výběru vozidla"
+
+msgid "banView/title/voting"
+msgstr "Fáze hlasování o zákazu"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Hlasování potvrzeno"
+
+msgid "banView/tooltip/noAction"
+msgstr "Žádná volba"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Tento hráč zatím nenavrhl žádné vozidlo k zákazu."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Navrženo"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Stíhače tanků"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Těžké tanky"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Lehké tanky"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Střední tanky"
+
+msgid "banView/withoutBan"
+msgstr "Nezakázat"
+
+msgid "banWidget/allies"
+msgstr "Hlasy spojenců"
+
+msgid "banWidget/enemies"
+msgstr "Hlasy nepřátel"
+
+msgid "banWidget/tooltip"
+msgstr "Tým se neshodl na tom, které vozidlo zakázat. Proto bylo z vozidel, která získala nejvíce hlasů, zakázáno náhodné vozidlo."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Nastavit zobrazení vozidel podle typu, úlohy a národa."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Filtrovat podle parametrů"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Jsou zde zobrazena pouze ta vozidla, která mohou být v režimu použita."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Vybraným parametrům neodpovídají žádná vozidla"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Tým sestaven. Vyberte své vozidlo a vyrazte do boje!\nPřipojit se do hlasové komunikace (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Tým sestaven. Vyberte své vozidlo a vyrazte do boje!\nAbyste se rychle připojili do hlasové komunikace, přiřaďte rychlou klávesu."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Tým sestaven. Vyberte své vozidlo a vyrazte do boje!\nAbyste se připojili do hlasové komunikace, aktivujte funkci ve vašem nastavení hry."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Detaily režimu (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Dohled vozidla zvýšen"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Vlastnosti posádky zlepšeny"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Obnovování bodů výdrže"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Obnovování bodů výdrže"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Vlastnosti posádky zlepšeny"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Vlastnosti posádky zlepšeny"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Rychlost nabíjení děla zvýšena"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Vlastnosti vozidla zlepšeny"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Obnovování bodů výdrže"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Vlastnosti vozidla zlepšeny"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Vlastnosti vozidla zlepšeny"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Pohyblivost zlepšena"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Obnovování bodů výdrže"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Rozptyl děla snížen"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Vlastnosti vozidla zlepšeny"
+
+msgid "battleResult/header/deserter"
+msgstr "Obdrželi jste penalizaci bodů hodnocení"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Byl vám uložen trest. Po dokončení kvalifikace vám bude sníženo hodnocení."
+
+msgid "battleResult/label/deserter"
+msgstr "Dezerce"
+
+msgid "battleResult/message/deserter"
+msgstr "Byl vám uložen trest.\nBodů hodnocení ztraceno: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Dezertovali jste z bojiště.\nPo dokončení kvalifikace vám bude sníženo hodnocení."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Nesportovní chování"
+
+msgid "battleResult/personal/label"
+msgstr "Body hodnocení"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Odráží současný postup hráče v systému hodnocení. Body hodnocení lze v závislosti na vašem úspěchu v režimu získat nebo ztratit."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Porážky/remízy v bitvách režimu\n• Obdržení trestu\n• Neaktivita hodnosti."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Body hodnocení budou odstraněny za:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Body hodnocení"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Kvalifikační bitva"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s – %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Kvalifikace"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Získány body hodnocení. Abyste svou hodnost Legenda obhájili, zůstaňte v žebříčku mezi %(topPercentage)d%% hráčů."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Získány body hodnocení. Abyste hodnosti Legenda dosáhli, buďte v žebříčku mezi %(topPercentage)d%% hráčů."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Získány body hodnocení"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Ztraceny body hodnocení. Abyste svou hodnost Legenda obhájili, zůstaňte v žebříčku mezi %(topPercentage)d%% hráčů."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Ztraceny body hodnocení. Abyste hodnosti Legenda dosáhli, buďte v žebříčku mezi %(topPercentage)d%% hráčů."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Ztraceny body hodnocení"
+
+msgid "battleResult/subTask/rating"
+msgstr "Body hodnocení: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Byli jste degradováni do %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Byli jste povýšeni do %(division)s. %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Odehrané bitvy (den): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Včetně:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Odehrané bitvy (sezóna): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Sólo/četa: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Superčeta: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Sezóna azurového Draka potrvá %(days)d den"
+msgstr[1] "Sezóna azurového Draka potrvá %(days)d dny"
+msgstr[2] "Sezóna azurového Draka potrvá %(days)d dní"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Sezóna karmínového Draka potrvá %(days)d den"
+msgstr[1] "Sezóna karmínového Draka potrvá %(days)d dny"
+msgstr[2] "Sezóna karmínového Draka potrvá %(days)d dní"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Sezóna nefritového Draka potrvá %(days)d den"
+msgstr[1] "Sezóna nefritového Draka potrvá %(days)d dny"
+msgstr[2] "Sezóna nefritového Draka potrvá %(days)d dní"
+
+msgid "calendarDay/title"
+msgstr "Rozvrh"
+
+msgid "carousel/banned"
+msgstr "Zakázáno"
+
+msgid "claimRewards/button"
+msgstr "Vyzvednout odměnu"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Tato operace je z technických důvodů dočasně nedostupná. Na opravě problému pracujeme."
+
+msgid "closeButtonLabel"
+msgstr "ZAVŘÍT"
+
+msgid "controls/compare"
+msgstr "Přidat do porovnání"
+
+msgid "controls/preview"
+msgstr "Náhled"
+
+msgid "countDown/text"
+msgstr "Akce začne za:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 min"
+
+msgid "crewMembersTooltip/description"
+msgstr "Tuto speciální posádku tvoří tankisté z celého světa, kteří jsou sjednoceni pod vedením svého velitele. Všichni mají nultou schopnost „Bratři ve zbrani“ a dostatek zkušeností posádky k vycvičení dalších dvou schopností, které jim umožňují zlepšit výkon vozidla a také vnést na bojiště svůj vlastní osobitý styl."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Schopnosti"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Nápor. Rok Draka"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Nulté schopnosti"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Průměrné poškození (den): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Poměr celkového způsobeného poškození a počtu odehraných bitev."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Průměrné poškození (sezóna): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Nejvyšší způsobeného poškození (den): %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Maximální způsobené poškození v bitvě se strojem %(vehicleName)s"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Nejvyšší způsobené poškození (sezóna): %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "–"
+
+msgid "dataError/description"
+msgstr "Omlouváme se za dočasné nepříjemnosti. Zkuste prosím aktualizovat stránku později."
+
+msgid "dataError/title"
+msgstr "Chyba při načítání údajů"
+
+msgid "dayTooltip/day"
+msgstr "%(index)s. den"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "%(index)s. den: Neodehrány bitvy."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Neaktivita hodnosti: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s bod hodnocení"
+msgstr[1] "%(pointsCount)s body hodnocení"
+msgstr[2] "%(pointsCount)s bodů hodnocení"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Změna bodů hodnocení: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "%(index)s. den (dnes)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "%(index)s. den: Dnes neodehrány bitvy."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Divize"
+
+msgid "division/text"
+msgstr "Divize %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Tato divize je pro hráče s {eeede9e6_Open}%(fromScore)&nbsp;až&nbsp;%(toScore){eeede9e6_Close}&nbsp;body hodnocení."
+
+msgid "divisionTooltip/heading"
+msgstr "Divize %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Body hodnocení"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Bitev odehráno"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sČekání na výsledky..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sČekání na výsledky"
+
+msgid "entryPointTooltip/description"
+msgstr "Soutěžní režim s bitvami 7 proti 7 ve vozidlech %(levels)s. úrovně. Stoupejte hodnostmi a získejte jedinečné prvky na úpravu vzhledu, vozidla, bony a další hodnotné odměny."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "REŽIM"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – herní režim. Prozkoumejte kliknutím"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Dostupný po dobu %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Příměří%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Bude dostupný:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Nápor"
+
+msgid "featureNameCapitalized"
+msgstr "NÁPOR"
+
+msgid "fifthRankTooltip/description"
+msgstr "Hodnost {eeede9e6_Open}Šampion{eeede9e6_Close} je udělena hráčům, kteří získali alespoň {eeede9e6_Open}%(fromScore){eeede9e6_Close} bodů hodnocení."
+
+msgid "forVehicle"
+msgstr "Pro: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "Hodnost {eeede9e6_Open}Železný{eeede9e6_Close} je udělena hráčům, kteří získali {eeede9e6_Open}%(fromScore) až %(toScore){eeede9e6_Close} bodů hodnocení."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "Hodnost {eeede9e6_Open}Zlatý{eeede9e6_Close} je udělena hráčům, kteří získali {eeede9e6_Open}%(fromScore) až %(toScore){eeede9e6_Close} bodů hodnocení."
+
+msgid "generalRankTooltip/body/second"
+msgstr "Hodnost {eeede9e6_Open}Bronzový{eeede9e6_Close} je udělena hráčům, kteří získali {eeede9e6_Open}%(fromScore) až %(toScore){eeede9e6_Close} bodů hodnocení."
+
+msgid "generalRankTooltip/body/third"
+msgstr "Hodnost {eeede9e6_Open}Stříbrný{eeede9e6_Close} je udělena hráčům, kteří získali {eeede9e6_Open}%(fromScore) až %(toScore){eeede9e6_Close} bodů hodnocení."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Obsahuje divize: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "O AKCI"
+
+msgid "intro/confirmButton"
+msgstr "Potvrzuji!"
+
+msgid "intro/description/banPhase"
+msgstr "Každý tým může v bitvě zakázat jedno konkrétní vozidlo. Domluvte se se spojenci na hlasování a zakažte nejobávanější nepřátelské vozidlo, nebo nepřátelům nachystejte nečekanou sestavu. Pokud bude vaše vozidlo zakázáno, můžete si místo něj vybrat z několika předem připravených nájemních vozidel."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Režim má modifikátory, které mění určité parametry vozidla, jako jsou body výdrže vozidla, doba obnovení spotřebních doplňků, zbývající čas odhalení a další."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Jakmile na mapě obsadíte určité oblasti, budete moci použít taktické schopnosti. Existují dva typy bodů zájmu: Velitelství dělostřelectva vám umožní nasměrovat na určitou pozici dělostřelecký úder a Komunikační centrum odhalí všechna nepřátelská vozidla. V závislosti na mapě se přítomnost a umístění těchto bodů zájmu může změnit."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Odehrajte %(count)s kvalifikační bitvu, abyste určili svou úroveň schopností a svou hodnost. Po dokončení získáte odměny za hodnost, které jste dosáhli, a za všechny předchozí hodnosti.\n\nDezerce nebo remíza v kvalifikaci budou považovány za porážku."
+msgstr[1] "Odehrajte %(count)s kvalifikační bitvy, abyste určili svou úroveň schopností a svou hodnost. Po dokončení získáte odměny za hodnost, které jste dosáhli, a za všechny předchozí hodnosti.\n\nDezerce nebo remíza v kvalifikaci budou považovány za porážku."
+msgstr[2] "Odehrajte %(count)s kvalifikačních bitev, abyste určili svou úroveň schopností a svou hodnost. Po dokončení získáte odměny za hodnost, které jste dosáhli, a za všechny předchozí hodnosti.\n\nDezerce nebo remíza v kvalifikaci budou považovány za porážku."
+
+msgid "intro/description/ranks"
+msgstr "Systém, který odráží schopnosti hráče. Postupujte hodnostmi od Železné po Legendu a získejte hodnotné odměny. Bojujte během Roku Draka a získejte jedinečné roční odměny."
+
+msgid "intro/description/roleSkills"
+msgstr "V závislosti na úloze má každé vozidlo speciální schopnost se třemi úrovněmi nabití. Čím vyšší úroveň nabití při aktivování schopnosti, tím silnější efekt schopnost bude mít. Úroveň nabití bude záviset na počtu bodů prestiže, které lze získat za úctyhodný výkon v bitvě, obsazování bodů zájmu, použití taktických schopností atd.\n\nAbyste se dozvěděli víc o různých způsobech, jak můžete body prestiže získat, přečtěte si pravidla režimu."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Do bitvy můžete vstoupit s vyzkoumatelnými vozidly %(levels)s. úrovně (vyjma dělostřelectva) a také se sběratelskými vozidly a některými speciálními vozidly. Připravte svá vozidla v garáži a po vstupu do bitvy si vyberte to nejlepší vozidlo podle podmínek dané mapy. Při výběru svého vozidla také zohledněte, která vozidla si vybrali vaši spojenci."
+
+msgid "intro/title/banPhase"
+msgstr "ZÁKAZY VOZIDEL"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFIKÁTORY NÁPORU"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "BODY ZÁJMU"
+
+msgid "intro/title/qualification"
+msgstr "KVALIFIKACE"
+
+msgid "intro/title/ranks"
+msgstr "SYSTÉM HODNOSTÍ"
+
+msgid "intro/title/roleSkills"
+msgstr "ÚLOHOVÉ SCHOPNOSTI"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VYBERTE SI VOZIDLO PRO KONKRÉTNÍ MAPU"
+
+msgid "lastUpdateNote/info"
+msgstr "Aktualizováno: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Body hodnosti posledního hráče v hodnosti Legenda\njsou aktualizovány každých %(count)s min."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Aktualizuji údaje..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Žebříček je aktualizován každých %(count)s minut."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Naposledy aktualizováno: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Moje pozice"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Abyste vstoupili do žebříčku, dosáhněte hodností Šampion nebo Legenda."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Aktualizovat"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "V žebříčku budou hráči s hodnostmi Šampion a Legenda. Získejte {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} bodů hodnocení a dosáhněte vrcholu výsledkové tabulky!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "V aktuální sezóně nejsou v žebříčku žádní hráči"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Bitvy"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Jméno hráče"
+
+msgid "leaderboard/table/header/score"
+msgstr "Body hodnocení"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Počet bitev odehraných hráčem v režimu „Nápor“ během aktuální sezóny."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Bitvy"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Pozice hráče v hodnocení."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Pozice"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Jméno hráče, který drží pozici v hodnocení."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Jméno hráče"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Počet bodů hodnocení získaných v aktuální sezóně."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Body hodnocení"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Hráči v četě"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Použijte prémiový účet WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktivujte osobní zálohy"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Plňte mise"
+
+msgid "noVehicles/howTo/title"
+msgstr "Jak nejrychleji vyzkoumat vozidla %(levels)s. úrovně?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Abyste se Náporu zúčastnili, potřebujete mít v garáži alespoň jedno vozidlo %(levels)s. úrovně, které je pro režim vhodné.\nVyzkoumali jste vozidlo %(levels)s. úrovně, které nebylo získáno."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Abyste se Náporu zúčastnili, potřebujete mít v garáži alespoň jedno vozidlo %(levels)s. úrovně, které je pro režim vhodné.\nMáte vozidlo %(levels)s. úrovně, které je dostupné pro obnovení."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Abyste se Náporu zúčastnili, potřebujete mít v garáži alespoň jedno vozidlo %(levels)s. úrovně, které je pro režim vhodné."
+
+msgid "noVehicles/title"
+msgstr "Ve vaší garáži nejsou žádná vhodná vozidla"
+
+msgid "page/heading/leaderboard"
+msgstr "ŽEBŘÍČEK"
+
+msgid "page/heading/progression"
+msgstr "SYSTÉM HODNOSTÍ"
+
+msgid "page/heading/qualification"
+msgstr "KVALIFIKACE"
+
+msgid "page/heading/rankRewards"
+msgstr "ODMĚNY ZA HODNOSTI"
+
+msgid "page/heading/shop"
+msgstr "OBCHOD NÁPORU"
+
+msgid "page/heading/weeklyQuests"
+msgstr "TÝDENNÍ MISE"
+
+msgid "page/heading/yearlyRewards"
+msgstr "ROČNÍ ODMĚNY"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "ROČNÍ STATISTIKY"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Vpřed"
+
+msgid "pagination/prev"
+msgstr "Zpět"
+
+msgid "pbs/bans/title"
+msgstr "ZAKÁZANÁ VOZIDLA"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "2D STYL NÁPORU"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "MISE NA 2D STYL SPLNĚNA!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "%(count)s. TÝDENNÍ MISE SPLNĚNA!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "TÝDENNÍ MISE SPLNĚNA!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "TÝDENNÍ NÁPOR"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "PORÁŽKA, PROTOŽE JSTE"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "REMÍZA, PROTOŽE JSTE"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "VÍTĚZSTVÍ, ALE VY JSTE"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Povýšen na hodnost %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Degradován na hodnost %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Povýšen na hodnost %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Bitev odehráno"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Kvalifikace"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Obdrželi jste disciplinární trest: Penalizace bodů hodnocení"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Dostali jste disciplinární trest: Po dokončení kvalifikace vám bude sníženo hodnocení."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "Pro dosažení hodnosti Legenda se dostaňte mezi {ede6d9e5_Open}%(topPercentage) nejlepších%{ede6d9e5_Close} hráčů v žebříčku."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "Pro dosažení hodnosti Legenda se dostaňte mezi {ede6d9e5_Open}%(topPercentage) nejlepších%{ede6d9e5_Close} hráčů v žebříčku."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Podrobnosti najdete na stránce o Náporu."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Body prestiže"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Způsobování poškození\nAsistování odhalením\nNičení pásů\nUdělování kritických zásahů\nNičení nepřátelských vozidel\nA další akce"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Tento speciální zdroj ovlivňuje počet bodů prestiže získaných a ztracených v bitvě. Body prestiže lze získat za provádění bojových akcí, mezi které patří:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s %"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Průměrné body prestiže (den): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Poměr celkem získaných bodů prestiže k počtu odehraných bitev."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Průměrné body prestiže (sezóna): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Nejvyšší počet bodů prestiže (den): %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Maximální počet bodů prestiže získaných v bitvě se strojem %(vehicleName)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Nejvyšší počet bodů prestiže (sezóna): %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Na serveru %(server)s skončila Sezóna azurového Draka."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Na serveru %(server)s skončila Sezóna karmínového Draka."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Na serveru %(server)s skončila Sezóna nefritového Draka."
+
+msgid "products/actions/buy"
+msgstr "Koupit"
+
+msgid "products/actions/restore"
+msgstr "Do skladu"
+
+msgid "products/actions/toCustomization"
+msgstr "Na styl"
+
+msgid "products/actions/toHangar"
+msgstr "Ukázat v garáži"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Nelze přejít na styl. Důvodem může být: Toto vozidlo ještě nevlastníte, vozidlo je v taktické jednotce, vozidlo je v bitvě nebo jsou vyžadovány opravy."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Není k dispozici"
+
+msgid "products/discount"
+msgstr "–%(discountPercentage)s %"
+
+msgid "products/discountDescription"
+msgstr "Do začátku příští sezóny budete mít v závislosti na vaší {eeede9e6_Open}nejvyšší{eeede9e6_Close} {eeede9e6_Open}dosažené{eeede9e6_Close} {eeede9e6_Open}hodnosti{eeede9e6_Close} přístup k položkám a ke slevě."
+
+msgid "products/discountSectionName"
+msgstr "PODMÍNKY PŘÍSTUPU A SLEVY"
+
+msgid "products/inProgress"
+msgstr "Počkejte prosím, váš nákup se zpracovává..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Lze zakoupit za sezónu: %(count)s krát"
+
+msgid "products/message/notEnough"
+msgstr "Nedostatek prostředků na nákup."
+
+msgid "products/message/rankAccess"
+msgstr "Potřeba na nákup\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "NOVINKA"
+
+msgid "products/priceSectionName"
+msgstr "CENA"
+
+msgid "products/productAccess"
+msgstr "Hodnost\npro přístup"
+
+msgid "products/purchased"
+msgstr "Zakoupeno"
+
+msgid "products/rankAccess"
+msgstr "Hodnost pro přístup %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Obnovení je k dispozici"
+
+msgid "products/readyToRestoreDescription"
+msgstr "K dispozici ve skladu pro obnovení"
+
+msgid "products/style3d"
+msgstr "3D styl %(name)s"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "ZPĚT NA STATISTIKY SEZÓNY"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "STATISTIKY SEZÓNY"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "STATISTIKY ZA %(day)s. DEN"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "STATISTIKY ZA DNEŠEK"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Každý sloupec ukazuje data za období mezi hlavním časem vybraného dne a hlavním časem následujícího dne. V některých případech může zahrnovat bitvy ze dvou kalendářních dní."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Každý sloupec ukazuje data za období mezi hlavním časem vybraného dne a hlavním časem následujícího dne. V některých případech může zahrnovat bitvy ze dvou kalendářních dní."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Tato sekce se aktualizuje pouze v případě, že jsou k dispozici nová data. Aktualizaci si můžete vyžádat stisknutím tlačítka „Obnovit“."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Aktualizováno: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Blahopřejeme!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Dokončili jste všechny mise 2D stylu."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s/%(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Série misí pro odemčení nových prvků progresivního 2D stylu stávající sezóny."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "MISE 2D STYLU: %(taskNumber)s"
+msgstr[1] "MISE 2D STYLU: %(taskNumber)s"
+msgstr[2] "MISE 2D STYLU: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "MISE 2D STYLU"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Na styl"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Všechny styly jsou aktuálně aplikované na nedostupných vozidlech"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Nejsou dostupná žádná vozidla, na která by bylo možné styl použít"
+
+msgid "progressionPage/error/refresh"
+msgstr "Obnovit"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Obnovuji..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Průměrné poškození"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Prům. body prestiže"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Změna hodnocení %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Rekord dosažen %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "%(day)s. den"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Na všechny statistiky"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Zahrnuje:\n • Poškození díky vašemu odhalování (včetně poškození pomocí schopností)\n • Poškození díky vašemu zničení pásu a znehybnění nepřátelského vozidla (včetně poškození pomocí schopností)\n •Poškození způsobené spojenci za pomoci vašich schopností.\n • Poškození způsobené spojenci ochromenému nepříteli (včetně ochromení pomocí vašich schopností)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Celkem odehraných bitev"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Poměr celkem způsobeného poškození k počtu odehraných bitev"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Poměr zničených nepřátelských vozidel k počtu zničení vozidla hráče"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Poměr způsobeného poškození k obdrženému poškození"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Poměr celkem získaných bodů prestiže k počtu odehraných bitev"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Vozidla s nejvíce odehranými bitvami"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Celková míra vítězství"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Průměrné poškození způsobené díky vaší asistenci"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Bitvy"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Průměrné způsobené poškození"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Poměr zničení"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Poměr poškození"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Průměrný počet bodů prestiže za bitvu"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Název vozidla"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Vítězství"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "STATISTIKY VOZIDLA"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s–%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Počet dní do snížení hodnocení: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Za nebojování v režimu „Nápor“ ztratíte {eeede9e6_Open}%(count)s{eeede9e6_Close} bod hodnocení."
+msgstr[1] "Za nebojování v režimu „Nápor“ ztratíte {eeede9e6_Open}%(count)s{eeede9e6_Close} body hodnocení."
+msgstr[2] "Za nebojování v režimu „Nápor“ ztratíte {eeede9e6_Open}%(count)s{eeede9e6_Close} bodů hodnocení."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;boj&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;bod aktivity)"
+msgstr[1] "(1&nbsp;boj&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;body aktivity)"
+msgstr[2] "(1&nbsp;boj&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;bodů aktivity)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Za neaktivitu v režimu na aktuální hodnosti nepřijdete o body hodnocení, ale pokud dosáhnete následujících hodností, začnete o ně přicházet: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Vaše hodnost je ovlivněna neaktivitou"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Vaše hodnost není ovlivněna neaktivitou"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Hodnost"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Nejlepších %(topPercentage)s % hráčů v žebříčku"
+
+msgid "progressionTooltip/division"
+msgstr "Divize %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Tato divize je pro hráče s {eeede9e6_Open}%(fromScore) až %(toScore){eeede9e6_Close} body hodnocení."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Hodnost Šampion je udělena hráčům, kteří získali alespoň {eeede9e6_Open}%(fromScore){eeede9e6_Close} bodů hodnocení."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Hodnost Legenda je udělena {eeede9e6_Open}%(topPercentage) nejlepších %{eeede9e6_Close} hráčů v žebříčku."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Pro určení vaší úrovně schopností a hodnosti odehrajte v režimu %(maxBattlesCount)s bitvu."
+msgstr[1] "Pro určení vaší úrovně schopností a hodnosti odehrajte v režimu %(maxBattlesCount)s bitvy."
+msgstr[2] "Pro určení vaší úrovně schopností a hodnosti odehrajte v režimu %(maxBattlesCount)s bitev."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Kvalifikace"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Počet dní do snížení hodnocení: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Za nebojování v režimu „Nápor“ ztratíte {eeede9e6_Open}%(count)s{eeede9e6_Close} bod hodnocení."
+msgstr[1] "Za nebojování v režimu „Nápor“ ztratíte {eeede9e6_Open}%(count)s{eeede9e6_Close} body hodnocení."
+msgstr[2] "Za nebojování v režimu „Nápor“ ztratíte {eeede9e6_Open}%(count)s{eeede9e6_Close} bodů hodnocení."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Vaše hodnost je ovlivněna neaktivitou hodnosti"
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Pro udržení hodnosti si do konce dne zahrajte."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Body hodnocení"
+
+msgid "purchase/affirmative"
+msgstr "Potvrzuji!"
+
+msgid "purchase/cancelButton"
+msgstr "Zpět"
+
+msgid "purchase/confirmButton"
+msgstr "Koupit"
+
+msgid "purchase/error/description"
+msgstr "Nákup nelze dokončit. Zkuste to prosím později."
+
+msgid "purchase/error/title"
+msgstr "Chyba"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sPro tento styl nemáte v garáži vhodné vozidlo"
+
+msgid "purchase/price"
+msgstr "Nákupní cena:"
+
+msgid "purchase/success/heading"
+msgstr "Děkujeme za váš nákup!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sNákup bude k vašemu hernímu účtu připsán v blízké budoucnosti"
+
+msgid "purchase/success/style3d"
+msgstr "3D styl %(name)s pro %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "Zakoupit 3D styl %(name)s?"
+
+msgid "purchase/title/vehicle"
+msgstr "Zakoupit %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close}/%(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Pro určení vaší úrovně schopností a hodnosti odehrajte v režimu {eeede9_Open}%(maxBattlesCount)s bitvu{eeede9_Close}."
+msgstr[1] "Pro určení vaší úrovně schopností a hodnosti odehrajte v režimu {eeede9_Open}%(maxBattlesCount)s bitvy{eeede9_Close}."
+msgstr[2] "Pro určení vaší úrovně schopností a hodnosti odehrajte v režimu {eeede9_Open}%(maxBattlesCount)s bitev{eeede9_Close}."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "Pro dokončení kvalifikace odehrajte %(maxBattlesCount)s bitvu a počkejte na výpočet hodnocení. Váš bojový výkon během kvalifikace ovlivní to, jakou konečnou hodnost získáte.\nDezerce v kvalifikaci povede k horšímu výsledku než za tu nejtěžší porážku."
+msgstr[1] "Pro dokončení kvalifikace odehrajte %(maxBattlesCount)s bitvy a počkejte na výpočet hodnocení. Váš bojový výkon během kvalifikace ovlivní to, jakou konečnou hodnost získáte.\nDezerce v kvalifikaci povede k horšímu výsledku než za tu nejtěžší porážku."
+msgstr[2] "Pro dokončení kvalifikace odehrajte %(maxBattlesCount)s bitev a počkejte na výpočet hodnocení. Váš bojový výkon během kvalifikace ovlivní to, jakou konečnou hodnost získáte.\nDezerce v kvalifikaci povede k horšímu výsledku než za tu nejtěžší porážku."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Pravidla kvalifikace"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Bitev odehráno"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Vyčkejte na výsledek kvalifikace, poté obdržíte svou hodnost"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Vypočítat vaše hodnocení podle výsledků kvalifikace může trvat až pět minut. Poté získáte hodnost a můžete pokračovat v bojích v režimu „Nápor“."
+
+msgid "qualification/rewardsButton"
+msgstr "Na odměny"
+
+msgid "qualification/rewardsDescription"
+msgstr "Po dokončení kvalifikace získáte odměny za hodnost, které jste dosáhli, a za všechny předchozí hodnosti."
+
+msgid "quotesWrapper"
+msgstr "„%(name)s“"
+
+msgid "rank/achieved"
+msgstr "Dosažena"
+
+msgid "rank/current"
+msgstr "Stávající"
+
+msgid "rank/fifth"
+msgstr "Šampion"
+
+msgid "rank/first"
+msgstr "Železný"
+
+msgid "rank/fourth"
+msgstr "Zlatý"
+
+msgid "rank/qualification"
+msgstr "Kvalifikace"
+
+msgid "rank/second"
+msgstr "Bronzový"
+
+msgid "rank/sixth"
+msgstr "Legenda"
+
+msgid "rank/text"
+msgstr "Hodnost %(rank)s"
+
+msgid "rank/third"
+msgstr "Stříbrný"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Hodnost hráče"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Hodnost spoluhráče/spoluhráčů v četě"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Čety mohou tvořit pouze hráči s podobnými hodnostmi."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Omezení hodnosti pro čety o %(count)s hráčích"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Pokud režim nehrajete, ztratíte body hodnocení."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Neaktivita hodnosti"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Dny do snížení vašeho hodnocení: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Denní hodnocení"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Změna bodů hodnocení: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Rozdíl v počtu bodů hodnosti mezi vybraným dnem a předchozím dnem."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Nejvyšší dosažené hodnocení (den): %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Maximální hodnocení dosažené ve vybraném dni."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "%(day)s. den"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Nejvyšší hodnocení dosaženo %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "Hodnost Šampion je udělena hráčům, kteří získali alespoň {eeede9e6_Open}%(fromScore){eeede9e6_Close} bodů hodnocení."
+
+msgid "rankInfo/current/sixth"
+msgstr "Hodnost Legenda je udělena {eeede9e6_Open}%(topPercentage) nejlepších %{eeede9e6_Close} hráčů v žebříčku."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "Pro dosažení hodnosti Legenda se dostaňte mezi {eeede9e6_Open}%(topPercentage) nejlepších%{eeede9e6_Close} hráčů v žebříčku podle bodů hodnocení."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "Pro obhájení hodnosti Legenda zůstaňte mezi {eeede9e6_Open}nejlepšími %(topPercentage)%{eeede9e6_Close} hráčů v žebříčku podle bodů hodnocení."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "Pro dosažení hodnosti Legenda se dostaňte mezi {eeede9e6_Open}%(topPercentage) nejlepších%{eeede9e6_Close} hráčů v žebříčku podle bodů hodnocení. Body hodnocení získané posledním hráčem v hodnosti&nbsp;Legenda&nbsp;: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "Pro obhájení hodnosti Legenda zůstaňte mezi {eeede9e6_Open}nejlepšími %(topPercentage)%{eeede9e6_Close} hráčů v žebříčku podle bodů hodnocení. Body hodnocení získané posledním hráčem v hodnosti&nbsp;Legenda&nbsp;: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "ŠAMPION"
+
+msgid "rankUpper/first"
+msgstr "ŽELEZNÝ"
+
+msgid "rankUpper/fourth"
+msgstr "ZLATÝ"
+
+msgid "rankUpper/second"
+msgstr "BRONZOVÝ"
+
+msgid "rankUpper/sixth"
+msgstr "LEGENDA"
+
+msgid "rankUpper/text"
+msgstr "HODNOST %(rank)s"
+
+msgid "rankUpper/third"
+msgstr "STŘÍBRNÝ"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Ze seznamu níže si můžete vybrat jeden kus vylepšeného vybavení:\n\n• Tichý výfukový systém\n• Inovativní míření\n• Vylepšený koncový převod\n• Vylepšené dmychadlo\n• Zvýšená odolnost proti granátům\n• Vylepšená konfigurace\n• Experimentální optika\n• Inovativní systém nabíjení\n• Ventilační systém\n• Opotřebení odolný pohon děla\n• Systém stabilizačního vybavení\n• Teleskopický pozorovací systém\n• Taktická maskovací síť"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Můžete si vybrat jeden kus experimentálního vybavení ze seznamu níže:\n\n• Systém řízení palby Ú3\n• Souprava pro zvýšení odolnosti Ú3\n• Systém zvýšení pohyblivosti Ú3\n• Systém zvýšení přesnosti Ú3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "Kamufláž „%(name)s“"
+
+msgid "rewards/preview"
+msgstr "Náhled"
+
+msgid "rewards/status/achieved"
+msgstr "Odměna získána"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}Pro vozidla %(vehicleLevel)s. úrovně{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}Pro styl „%(progressionStyleName)s“{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "%(vehicleLevel)s. úroveň"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Získali jste také:"
+
+msgid "rewardsScreen/button"
+msgstr "Potvrzuji!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Na odměny"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Vybrat odměnu"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Přejít na nákup"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "NÁPOR. KVALIFIKACE DOKONČENA"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "NÁPOR. SEZÓNA AZUROVÉHO DRAKA"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "NÁPOR. SEZÓNA KARMÍNOVÉHO DRAKA"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "NÁPOR. SEZÓNA NEFRITOVÉHO DRAKA"
+
+msgid "rewardsScreen/description/year"
+msgstr "NÁPOR. ROK DRAKA"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Kde je můj Ashbringer?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Žádná hodnost"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Po dosažení této hodnosti můžete o body hodnocení přijít, pokud přestanete režim „Nápor“ hrát."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Neaktivita hodnosti"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Celkový počet\npraporů Náporu"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Vybrat vybavení"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Vybrat odměny"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "V obchodě Náporu jsou dostupné nové slevy!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "V obchodě Náporu jsou dostupné nové položky!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Do začátku příští sezóny budete mít v závislosti na vaší nejvyšší dosažené hodnosti přístup k položkám a ke slevě."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Do začátku příští sezóny budete mít v závislosti na vaší nejvyšší dosažené hodnosti přístup k položkám a ke slevě."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}Hodnost %(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Podle výsledků kvalifikace jste získali odměny za následující hodnosti: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Získali jste odměny za své povýšení na hodnost {ffe4c0_Open}%(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Odměna za dokončení {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} týdenní mise"
+msgstr[1] "Odměna za dokončení {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} týdenních misí"
+msgstr[2] "Odměna za dokončení {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} týdenních misí"
+
+msgid "rewardsScreen/title/division"
+msgstr "DIVIZE %(division)s DOSAŽENA"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "DOSAŽENA HODNOST {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "ODMĚNA ZA DOSAŽENÉ HODNOSTI"
+
+msgid "rewardsScreen/title/rank"
+msgstr "DOSAŽENA HODNOST {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "ODMĚNA ZA VAŠI NOVOU HODNOST"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "ODMĚNA ZÍSKÁNA"
+msgstr[1] "ODMĚNY ZÍSKÁNY"
+msgstr[2] "ODMĚN ZÍSKÁNO"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "ODMĚNY ZA TÝDENNÍ MISE"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "ROČNÍ ODMĚNY"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Přichází s:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "NÁPOR"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "VYBRAT ODMĚNU"
+msgstr[1] "VYBRAT ODMĚNY"
+msgstr[2] "VYBRAT ODMĚNY"
+
+msgid "scoreTooltip/body"
+msgstr "Body hodnocení, které získáte, určí vaši hodnost a divizi v režimu „Nápor“. Vyhrávejte bitvy, abyste byli nejlepší!"
+
+msgid "scoreTooltip/header"
+msgstr "Body hodnocení"
+
+msgid "season/daysLeft"
+msgstr "Končí za %(totalDays)s d"
+
+msgid "season/hoursLeft"
+msgstr "Končí za %(hours)s h"
+
+msgid "season/minutesLeft"
+msgstr "Končí za %(minutes)s min"
+
+msgid "season/over"
+msgstr "%(seasonName)s skončila"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Končí za %(seconds)s s"
+
+msgid "seasonName/first"
+msgstr "Sezóna azurového Draka"
+
+msgid "seasonName/second"
+msgstr "Sezóna karmínového Draka"
+
+msgid "seasonName/third"
+msgstr "Sezóna nefritového Draka"
+
+msgid "seasonPointTooltip/header"
+msgstr "Prapory Náporu"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Získán"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Nezískán"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Jste uchazečem o zisk praporů Náporu"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Nevyužité prapory Náporu budou zkonvertovány na bony v tomto směnném kurzu: {bond_Open}1 prapor Náporu{bond_Close} ku {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Na konci každé sezóny získáte v závislosti na své dosažené hodnosti prapory Náporu."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Každé tři prapory Náporu zlepší kvalitu odměny, kterou na konci roku získáte."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Kde je má trofej?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "To je v pořádku"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Můj miláček!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Potvrzuji!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Legendární!"
+
+msgid "seasonStatistics/button/third"
+msgstr "Já se vrátím"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Hodnocení závěrečné sezóny"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Pozice na žebříčku: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "NÁPOR. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "Získán %(points)s prapor Náporu"
+msgstr[1] "Získány %(points)s prapory Náporu"
+msgstr[2] "Získáno %(points)s praporů Náporu"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "I. SEZÓNA: AZUROVÝ DRAK"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "II. SEZÓNA: KARMÍNOVÝ DRAK"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "III. SEZÓNA: NEFRITOVÝ DRAK"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Vítězství: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Odehrané\nbitvy"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Průměr: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Rekord\nzpůsobeného poškození"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Poměr zničení: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Nejvíce vozidel zničených\nv bitvě"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Průměr: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Rekord\nzískaných bodů prestiže"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "STATISTIKY SEZÓNY"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "V superčetě: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Série vítězství\n(sólo/v četě)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Odehráno bitev"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "–"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Žádná vozidla"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "PRIMÁRNÍ VOZIDLA"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Vítězství"
+
+msgid "seasonStatistics/title"
+msgstr "STATISTIKY SEZÓNY %(name)s"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Sezóna končí za:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "–"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Rozvrh zápasů"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Dnes"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Zítra"
+
+msgid "selectorTooltip/desc"
+msgstr "Soutěžní režim. 7 proti 7 | X. úroveň"
+
+msgid "selectorTooltip/title"
+msgstr "Nápor"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Sledujte nejnovější zprávy na portálu hry, abyste měli přehled o začátku nové sezóny."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Tento režim je z důvodu technických potíží dočasně nedostupný."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Tento režim bude k dispozici v %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Azurový Drak"
+
+msgid "shortSeasonName/second"
+msgstr "Karmínový Drak"
+
+msgid "shortSeasonName/third"
+msgstr "Nefritový Drak"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Tato sekce obsahuje informace o nejlepších hráčích aktuální sezóny režimu „Nápor“."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Tato sekce obsahuje informace o kvalifikaci a také o vaší hodnosti, divizi a bodech hodnocení po dokončení kvalifikace."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Tato sekce obsahuje informace o dostupných odměnách za dosažení vyšších hodností v režimu „Nápor“."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Takto sekce obsahuje informace o položkách, které jsou dostupné v obchodu Náporu"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Tato sekce obsahuje informace o týdenních misích v režimu „Nápor“."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Tato sekce obsahuje podrobnosti o roční odměně, kterou můžete získat za získávání praporů Náporu."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Tato sekce obsahuje informace o vašich úspěších v každé sezóně aktuálního roku Náporu."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Žebříček"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Systém hodností"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Odměny za hodnosti"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Obchod Náporu"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Týdenní mise"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Roční odměny"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Roční statistiky"
+
+msgid "sixthRankTooltip/description"
+msgstr "Hodnost {eeede9e6_Open}Legenda{eeede9e6_Close} je udělena {eeede9e6_Open} nejlepším %(topPercentage)%{eeede9e6_Close} hráčů v žebříčku podle bodů hodnocení."
+
+msgid "style3dTooltip/954"
+msgstr "Stříbrné ostny"
+
+msgid "style3dTooltip/955"
+msgstr "Zlaté drápy"
+
+msgid "style3dTooltip/956"
+msgstr "Křídla šampiona"
+
+msgid "style3dTooltip/957"
+msgstr "Legendární nestvůra"
+
+msgid "style3dTooltip/description"
+msgstr "Tato bestie, silná jako lev, divoká jako drak a smrtící jako škorpión, je kovovým ztělesněním bytosti, které se obávali už v dávných dobách."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Jak získat"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Udělován za nasbírání alespoň 9 praporů Náporu v Roce Mantikory v režimu „Nápor“."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Udělován za nasbírání alespoň 12 praporů Náporu v Roce Mantikory v režimu „Nápor“. Nahrazuje předchozí styl."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Udělován za nasbírání alespoň 15 praporů Náporu v Roce Mantikory v režimu „Nápor“. Nahrazuje předchozí styl."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Udělován za nasbírání alespoň 18 praporů Náporu v Roce Mantikory v režimu „Nápor“. Nahrazuje předchozí styl."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Vhodný pro vozidla"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Získali jste svou denní odměnu za udržení hodnosti %(rank)s.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Denní odměna"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Platí příměří. Bitvy Náporu jsou dočasně nedostupné."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Příměří"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Příměří skončilo. Bitvy Náporu jsou opět dostupné."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Příměří"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Gratulujeme! Dosáhli jste hodnosti %(maxRank)s.\nZískali jste odměny za následující hodnosti: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Kvalifikace dokončena"
+
+msgid "system_messages/regularReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Účtenka"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Přejít na obchod"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "V obchodě Náporu jsou dostupné nové slevy!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Slevy zvýšeny"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "V obchodě Náporu jsou nyní dostupné nové položky!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Jsou dostupné nové položky"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Chyba při platbě. Zkuste to prosím později."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Odměny za plnění týdenních misí"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Odměna za týdenní misi"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "O Náporu"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Aktualizace sezóny"
+
+msgid "tournament/LBFinals"
+msgstr "FINÁLE SPODNÍCH SKUPIN"
+
+msgid "tournament/LBRound1"
+msgstr "1. KOLO SPODNÍ SKUPINY"
+
+msgid "tournament/LBRound2"
+msgstr "2. KOLO SPODNÍ SKUPINY"
+
+msgid "tournament/LBSemifinals"
+msgstr "SEMIFINÁLE SPODNÍ SKUPINY"
+
+msgid "tournament/UBFinals"
+msgstr "FINÁLE HORNÍ SKUPINY"
+
+msgid "tournament/UBSemifinals"
+msgstr "SEMIFINÁLE HORNÍ SKUPINY"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "V turnaji nelze získat ani ztratit body hodnocení."
+
+msgid "tournament/bestOf"
+msgstr "NEJLEPŠÍ Z %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "%(amount)s jüanů"
+
+msgid "tournament/comeBack"
+msgstr "Zkuste to prosím později"
+
+msgid "tournament/comingSoon"
+msgstr "JIŽ BRZY %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "ČASY SE MOHOU LIŠIT V ZÁVISLOSTI NA DÉLCE ZÁPASU"
+
+msgid "tournament/completed"
+msgstr "DOKONČENO"
+
+msgid "tournament/douyin"
+msgstr "Sledujte na Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "Sledujte na Huya a získejte exkluzivní\nHuya Drops!"
+
+msgid "tournament/drops/twitch"
+msgstr "Sledujte na Twitchi a získejte exkluzivní\nTwitch Drops!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "A získejte exkluzivní Huya Drops!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "A získejte exkluzivní Twitch Drops!"
+
+msgid "tournament/error"
+msgstr "CHYBA PŘI NAČÍTÁNÍ ÚDAJŮ"
+
+msgid "tournament/eur"
+msgstr "%(amount)s eur"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "VÍTĚZ"
+
+msgid "tournament/fundDistribution"
+msgstr "ROZDĚLENÍ VÝHERNÍHO FONDU"
+
+msgid "tournament/grandFinals"
+msgstr "VELKÉ FINÁLE"
+
+msgid "tournament/huya"
+msgstr "Sledujte na Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Výherní fond se tvoří z výtěžku z prodeje balíčků hráčům. Poslední aktualizace: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "ŽÁDNÉ DALŠÍ ZÁPASY"
+
+msgid "tournament/ols/roundRobin"
+msgstr "%(phase)s. FÁZE, %(round)s. KOLO"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s – %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "VÝHERNÍ FOND %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "A ŠANCE ZÍSKAT VĚČNOU SLÁVU"
+
+msgid "tournament/refresh"
+msgstr "Obnovit"
+
+msgid "tournament/refreshing"
+msgstr "Obnovuji..."
+
+msgid "tournament/roundOf"
+msgstr "ROUND OF %(number)s"
+
+msgid "tournament/separator"
+msgstr "NEBO"
+
+msgid "tournament/tab/overview"
+msgstr "PŘEHLED"
+
+msgid "tournament/tab/schedule"
+msgstr "ROZVRH"
+
+msgid "tournament/teamPlaceholder"
+msgstr "TBD"
+
+msgid "tournament/toShop"
+msgstr "Navštívit obchod"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Vyměnit"
+
+msgid "tournament/tokenStore/ols"
+msgstr "ŽETONY SLN"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "K dispozici za:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "O turnaji"
+
+msgid "tournament/twitch"
+msgstr "Sledovat na Twitchi"
+
+msgid "tournament/viewFull"
+msgstr "Zobrazit vše"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Podpořte sérii „Legendy Náporu“ a zvyšte pomocí turnajových balíčků výherní fond!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Ukažte svého esportovního ducha s exkluzivními tematickými prvky na úpravu vzhledu a jedinečnými tanky!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "NAPLŇTE VÝHERNÍ FOND"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "BALÍČKY WCI"
+
+msgid "tournament/vsBestOf"
+msgstr "PROTI\nNEJLEPŠÍ Z %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "KAŽDÝ S KAŽDÝM"
+
+msgid "tournament/winner"
+msgstr "Vítěz"
+
+msgid "tournament/youtube"
+msgstr "Sledujte na YouTube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "Nejlepší evropské týmy bojují o titul šampiona série „Legendy Náporu“! Sledujte napínavé zápasy 7 proti 7 v Náporu, získejte Twitch Drops a podpořte své oblíbené týmy navýšením výherního fondu prostřednictvím nákupu exkluzivních balíčků s prvky na úpravu vzhledu."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Na mezinárodním šampionátu World of Tanks v čínském Su-čou se odehraje velkolepý souboj, v němž se v režimu „Nápor“ utkají nejdivočejší týmy z celého světa a zabojují o prestižní titul mistra světa. Zažijte ono výjimečné napětí, když se na bitevním poli rodí legendy!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "6. sezóna SLN"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI 2025"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Živé streamy budou dostupné %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Další zápasy za %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Ve výcviku Náporu nelze získat body hodnocení."
+
+msgid "unit/message/modeOffline"
+msgstr "Nelze se připojit do bitvy: chyba databáze."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Překročení omezení rozdílu hodnosti"
+
+msgid "voiceChat/active"
+msgstr "Opustit hlasovou komunikaci"
+
+msgid "voiceChat/inactive"
+msgstr "Připojit se k hlasové komunikaci"
+
+msgid "waitingSpinner/message"
+msgstr "Načítání obsahu..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Mise Náporu splněny"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Skvělá práce! Splnili jste všechny týdenní mise. Nezapomeňte si vyzvednout odměnu a uvidíme se v další sezóně!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Za splnění {eeede9e5_Open}%(questsList)s{eeede9e5_Close} a {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} misí získáte další odměny"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Týdenní mise Náporu"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Splněno: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s nová mise za:"
+msgstr[1] "%(value)s nové mise za:"
+msgstr[2] "%(value)s nových misí za:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Odměna:"
+msgstr[1] "Odměny:"
+msgstr[2] "Odměn:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s NOVÁ MISE ZA %(countdown)s"
+msgstr[1] "%(value)s NOVÉ MISE ZA %(countdown)s"
+msgstr[2] "%(value)s NOVÝCH MISÍ ZA %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "NOVÉ MISE V PŘÍŠTÍ SEZÓNĚ!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Splněné mise: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Každý týden obdržíte %(value)s novou misi. Každá splněná mise se započítává do vaší odměny!"
+msgstr[1] "Každý týden obdržíte %(value)s nové mise. Každá splněná mise se započítává do vaší odměny!"
+msgstr[2] "Každý týden obdržíte %(value)s nových misí. Každá splněná mise se započítává do vaší odměny!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Probíhá"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Dokončena"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Není k dispozici"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Nelze splnit: Režim není aktivní."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Pro odemčení vyzkoumejte a kupte vozidlo X. úrovně."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Splňte předchozí misi, abyste si odemkli tuto."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Mise není k dispozici"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Vyzvedněte si svou odměnu!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Splněno: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Mise %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s nová mise za:"
+msgstr[1] "%(value)s nové mise za:"
+msgstr[2] "%(value)s nových misí za:"
+
+msgid "whatsNewButtonLabel"
+msgstr "AKTUALIZACE SEZÓNY"
+
+msgid "whatsNewView/banner/description"
+msgstr "V této sezóně máte poslední šanci získat cenné odměny, včetně exkluzivního těžkého tanku X. úrovně Ashbringer se všemi jedinečnými 3D styly, které jste pro něj získali, a neohrožené posádky s nultou schopností „Bratři ve zbrani“, vylepšeného a experimentálního vybavení na výběr, atraktivního 2D stylu a mnohého dalšího. Nenechte si to ujít – vítězství čeká na bojišti!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Využijte poslední okamžiky Roku Draka!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "SEZÓNA NEFRITOVÉHO DRAKA"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "NÁPOR. CO JE NOVÉHO?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Rozumím!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Vylepšená obrazovka výsledků po bitvě s novým designem aktualizace 2.0 vám nyní po každé bitvě poskytne další informace relevantní pro daný režim."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Podrobné výsledky bitvy"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Pokud bylo vaše oblíbené vozidlo vyloučeno, nemusíte se bát. Nájemní vozidla nyní přijíždí s přednastavenou posádkou, vybavením, granáty a spotřebními doplňky."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Nájemní vozidla připravená vyrazit %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "V této sezóně může každý tým zcela zakázat použití určitého vozidla v bitvě. Domluvte se se spojenci na hlasování a zakažte nejobávanější stroj soupeře, nebo si pro něj přichystejte nečekanou sestavu."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Zákazy vozidel %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Mapy"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Nová vozidla dostupná v Náporu"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Nájemní vozidla"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Nedávno vydaný americký střední tank X. úrovně Ares 90 je nyní v režimu dostupný s upravenou úlohovou schopností."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Aktualizace úlohové schopnosti %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "Stroj 114 SP2 je nyní dostupný k zakoupení v obchodě Náporu na hodnosti Stříbrný."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Aktualizace obchodu %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "VYLOUČENO"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "VE VÝVOJI"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Pozor"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Změněno"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Experimentální"
+
+msgid "whatsNewView/tag/new"
+msgstr "Nové"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Navráceno"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Přepracováno"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Sezónní aktualizace"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Podívat se na video"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Míra vítězství (den): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Porážky: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Remízy: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Míra vítězství (sezóna): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Poměr celkových vítězství k počtu odehraných bitev.\nBitvy podle výsledku:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Vítězství: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Odměny budou doručeny na konci třetí sezóny."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Odměny budou brzy doručeny. Prosíme o trpělivost."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Roční odměna získána. Na shledanou příští rok!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Máte vybavení na výběr"
+
+msgid "yearlyRewards/claim"
+msgstr "Vyzvednout"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Vyzvednout odměnu"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Na konci sezóny jste za každou hodnost obdrželi 1%(seasonPointIcon)s."
+
+msgid "yearlyRewards/description/current"
+msgstr "Na konci sezóny obdržíte za každou hodnost 1%(seasonPointIcon)s."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nS jedinečnými 3D styly"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "NA ROČNÍ ODMĚNY"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Náhled 2D stylu"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Náhled 3D stylu"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Dosažena hodnost: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Stávající hodnost: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Čtyři jedineční členové posádky"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Odměna získána"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Odměna zaručena"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Abyste získali odměny za fázi, získejte celkem %(count)s praporů"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Potenciální odměna"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Máte zaručeno, že na konci roku tuto odměnu získáte."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Abyste na konci roku získali svou odměnu, získejte požadovaný počet praporů Náporu."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Tuto odměnu na konci roku získáte, pokud si uchováte stávající hodnost nebo ji před koncem sezóny zvýšíte."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Aktivní fáze"
+
+msgid "yearlyStatistics/battles"
+msgstr "Bitvy (sólo/v četě)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Vypočítávání statistik sezóny..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sNa statistiky sezóny"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Žádná hodnost"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "Hodnost %(rank)s"
+
+msgid "yearlyStatistics/rating"
+msgstr "Body hodnocení"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Podzim 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Zima 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Jaro 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "I. sezóna. Azurový Drak"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "II. sezóna. Karmínový Drak"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "III. sezóna. Nefritový Drak"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Stávající"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Skončila"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Bitvy (superčeta)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Míra vítězství"

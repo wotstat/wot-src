@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} nel Clan"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "ALLO STATUS DELL'ACCOUNT"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "INDIETRO"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Potrai sostituire una mappa tra {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Mostra/nascondi le mappe di questo tipo."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Mappe desertiche"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Mappe estive"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Mappe invernali"
+
+msgid "mapsBlacklist/header"
+msgstr "Mappe escluse"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Escludi una mappa indesiderata dalla tua rotazione di gioco. Escludi un'altra mappa con l'account Premium WoT e %(mapCount)s in più con WoT Plus. Se uno o entrambi gli abbonamenti scadono, le mappe escluse tornano nuovamente nella rotazione a partire da quella più a destra."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Mappe escluse"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Queste mappe sono escluse solo nelle Battaglie Casuali."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Puoi sostituire una mappa esclusa ogni %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Questa funzionalità è disponibile per veicoli di livello IV e superiore."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "In Plotone, sono escluse solo le mappe selezionate dal Comandante del Plotone."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Mappe visualizzate: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Mappe visualizzate: {count}/{total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Tipi di mappe:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Annulla"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Chiudi"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "La mappa selezionata verrà sostituita dalla mappa {mapNameStr}. Puoi cambiare la tua selezione tra {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Quale mappa vuoi sostituire?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Escludi"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Seleziona una mappa che vuoi sostituire"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Annulla"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Chiudi"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Puoi cambiare la tua selezione tra {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Escludere la mappa {mapNameStr} dalle Battaglie Casuali?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Escludi"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Escludi"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Escludere la mappa {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Includi"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Vuoi includere la mappa {mapNameStr} nelle Battaglie Casuali?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Puoi sostituire questa mappa tra {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Sostituzione della mappa non disponibile"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Puoi sostituire questa mappa tra {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Sostituzione della mappa non disponibile"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Non selezionata"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Clicca per selezionare una mappa da escludere dalle Battaglie Casuali."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Mappa non selezionata"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "La mappa esclusa {mapName} può essere sostituita con un'altra."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Sostituzione della mappa disponibile"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Puoi sostituire la mappa {mapName} tra {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Sostituzione della mappa non disponibile"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Lo spazio aggiuntivo è disponibile solo con l'account Premium WoT attivo."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Spazio non disponibile"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Seleziona una mappa dalla seguente lista per escluderla dalle Battaglie Casuali."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Mappa non selezionata"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Seleziona una mappa dalla seguente lista per escluderla dalle Battaglie Casuali."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Sostituzione della mappa disponibile"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Puoi sostituire questa mappa tra {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Sostituzione della mappa non disponibile"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Lo spazio aggiuntivo per escludere un'ulteriore mappa è disponibile solo con l'account Premium WoT attivo."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Spazio non disponibile"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Annulla"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Puoi cambiare la tua selezione tra {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Sostituisci"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Escludi"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Escludere la mappa %(mapName)s dalle Battaglie Casuali?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "La mappa selezionata verrà sostituita dalla mappa {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Puoi cambiare la tua selezione tra %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Quale mappa vuoi sostituire?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Questa mappa verrà sostituita dalla mappa {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Puoi cambiare la tua selezione tra %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Vuoi sostituire questa mappa?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "È stato attivato il filtro famiglia per questo account.\nPuoi scoprire di più sulle restrizioni del filtro famiglia {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Filtro famiglia"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "sul portale di gioco"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Riserva di crediti"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s g"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

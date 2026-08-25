@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktyvuoti"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Pirkti ir aktyvuoti"
+
+msgid "activation/activateBonus"
+msgstr "Aktyvuoti rezervą: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Aktyvuoti rezervą"
+
+msgid "activation/activateButtonClan"
+msgstr "Į Tvirtovę"
+
+msgid "activation/battleXPDescription"
+msgstr "1 valandos bonusas kovinei patirčiai"
+
+msgid "activation/battleXPTitle"
+msgstr "Kovinė patirtis"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Pirkti ir aktyvuoti pagerintus asmeninius rezervus, kurie suteikia %(boosterBonus)s %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Pirkti auksą"
+
+msgid "activation/buyGoldTitle"
+msgstr "Pirkti reikiamą auksą pagerintiems asmeniniams rezervams, kurie suteikia %(boosterBonus)s %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Auksas reikalingas perkant pagerintą asmeninį rezervą:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Kreditai ir kovinė patirtis"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Įgulos ir laisvoji patirtis"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Klano rezervai"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Aktyvuokite rezervą Tvirtovėje"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Peržiūrėti Tvirtovėje"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonusas laisvajai ir įgulos patirčiai 1 val."
+
+msgid "activation/comboXPTitle"
+msgstr "Laisvoji ir įgulos"
+
+msgid "activation/creditsDescription"
+msgstr "Bonusas kreditams 1 val."
+
+msgid "activation/creditsTitle"
+msgstr "Kreditai"
+
+msgid "activation/footer"
+msgstr "Riboto galiojimo rezervus reikia aktyvuoti: %(expirableAmount) per %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonusas Fronto linijos patirčiai 1 val."
+
+msgid "activation/frontLineXPTitle"
+msgstr "Fronto linijos patirtis"
+
+msgid "activation/informationButton"
+msgstr "INFORMACIJA"
+
+msgid "activation/price"
+msgstr "Kaina:"
+
+msgid "activation/subFooter/depot"
+msgstr "Sandėlis"
+
+msgid "activation/subFooter/main"
+msgstr "Arčiausiai galiojimo pabaigos esantys rezervai aktyvuojami pirmi. Galite rasti visus savo rezervus %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktyvuokite {whiteSpanish_Open}iki 3 asmeninių rezervų{whiteSpanish_Close} ir gaukite daugiau kreditų ir patirties mūšiuose. Pirkite daugiau asmeninių rezervų %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "parduotuvėje"
+
+msgid "activation/terms/booster_credits"
+msgstr "kreditų"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Fronto linijos patirties"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "laisvosios ir įgulos patirties"
+
+msgid "activation/terms/booster_xp"
+msgstr "kovinės patirties"
+
+msgid "activation/title"
+msgstr "ASMENINIAI REZERVAI"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Aktyvuotas standartinis asmeninis rezervas, kuris suteikia %(previousBoosterBonus)s %(previousBoosterTerm)s, bus prarastas.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Ar norite aktyvuoti pagerintą asmeninį rezervą, kuris suteikia %(boosterBonus)s %(boosterTerm)s, vietoj jau aktyvuoto standartinio rezervo?"
+
+msgid "battleView/notice"
+msgstr "Asmeninius rezervus galite aktyvuoti bet kada mūšyje. Jūs gausite bonusą net jei rezervas baigia galioti mūšio metu."
+
+msgid "battleView/title"
+msgstr "Asmeninių rezervų aktyvavimas"
+
+msgid "depot/buyButton"
+msgstr "Į pirkimą"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Jau aktyvuotas kitas to paties tipo rezervas."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Asmeninis rezervas baigė galioti mūšio metu. Bonusas iš asmeninio rezervo vis tiek suteiktas šiam mūšiui."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min."
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Aktyvuoti asmeniniai rezervai šiame režime negalioja."
+
+msgid "intro/buttons/close"
+msgstr "Tikrai taip!"
+
+msgid "intro/buttons/details"
+msgstr "Detaliau"
+
+msgid "intro/description"
+msgstr "Riboto galiojimo asmeniniai rezervai galioją ribotą laiką nuo jų gavimo. Jei tuo metu jie nėra aktyvuojami, jie bus prarasti. Neriboto laiko asmeninių rezervų negalite naudoti, jei turite to pačio tipo riboto laiko asmeninių rezervų."
+
+msgid "intro/title"
+msgstr "RIBOTO LAIKO ASMENINIAI REZERVAI"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Jokių šio tipo asmeninių rezervų sandėlyje. Galite jų nusipirkti vėliau arba aktyvuoti juos garaže."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Vykdykite misijas ir dalyvaukite žaidimo renginyje dėl asmeninių rezervų."
+
+msgid "noReserveTooltip/text"
+msgstr "Šio tipo asmeninių rezervų sandėlyje nėra."

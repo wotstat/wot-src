@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "A(z) %(leftDetailedSeasonName)s csatái véget értek"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Tűzszünet van minden szerveren. Csaták elérhetők: %(primeDelta)s múlva"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "A(z) %(leftDetailedSeasonName)s csatái véget értek"
+
+msgid "alertMessage/allNotSet"
+msgstr "Ez a játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Válassz másik szervert"
+
+msgid "alertMessage/notAvailable"
+msgstr "Tűzszünet van érvényben a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Tűzszünet van érvényben a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/notSet"
+msgstr "Ez a játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Tűzszünet van a szerveren. A csaták %(primeDelta)s múlva lesznek elérhetők"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "A(z) %(leftDetailedSeasonName)s csatái véget értek"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Ez a játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s ó %(min)s perc"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 perc"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nincs megfelelő jármű"
+
+msgid "banner/progression/steps"
+msgstr "{{total}}/{{done}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Időterv"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "MÓD"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} – váltás másik játékmódra"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "A mód elérhető lesz"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Tűzszünet {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "A csaták véget értek"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "A mód már nem érhető el"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "A mód eddig érhető el: {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s nem harcolhat a(z) %(modeName)s játékmód csatáiban."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Nem kompatibilis jármű típus"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Válassz ki egy %(levelSubStr)s járművet, hogy harcolhass a(z) %(modeName)s játékmód csatáiban."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nem kompatibilis jármű szint"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s. szintű"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s nem harcolhat a(z) %(modeName)s játékmód csatáiban."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Nem kompatibilis jármű"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Tűzszünet van érvényben ezen a szerveren. Kérlek, válassz egy másik szervert."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Nem lehet belépni a csatába"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Ez a mód nem elérhető a kiválasztott szerveren."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Nem lehet belépni a csatába"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "A(z) %(subModeName)s csatái véget értek"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Nem lehet belépni a csatába"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Válassz másik módot vagy olyan járművet, amely megfelel a követelményeknek!"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "A jármű nem megfelelő a módhoz"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Hozz létre taktikai egységet 2 vagy 3 játékossal, hogy együttműködjetek a(z) %(modeName)s-csatákban."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Szakasz"
+
+msgid "invite/text/detailedTitle"
+msgstr "Meghívás %(detailedModeName)s-szakaszba"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Legalább egy járműre szükség van a garázsodban."
+
+msgid "lootboxTooltip/chance"
+msgstr "Megszerzési esély: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Egy játékon belüli tárgy az alábbi listából:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "AZ ÖSSZES SZAKASZ TELJESÍTVE"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "AZ AKTUÁLIS KÜLDETÉS\nÖSSZES SZAKASZA TELJESÍTVE"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "A következő szakaszjutalmak – %(stagePoints)s pontnál oldod fel őket"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Következő szakaszjutalom"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s az aktív fázis végéig"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s a kezdésig"
+
+msgid "modeSelector/notStarted"
+msgstr "A mód hamarosan elindul"
+
+msgid "modeSelector/progression/steps"
+msgstr "%(total)s/{yellow_Open}%(done)s{yellow_Close}"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "%(total)s/{bond_Open}%(done)s{bond_Close}"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s ó"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 perc"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "A MÓDOKHOZ"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Technikai okok miatt nem elérhető"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Az aktuális küldetés összes szakaszát teljesítetted"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Jutalmak: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "A csaták véget értek"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Hamarosan"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Ekkor kezdődik:"
+
+msgid "modeSubSelector/subtitle"
+msgstr "ALMÓD KIVÁLASZTÁSA"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Az összes szakasz teljesítve"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Előrehaladási frissítés"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Csatlakozz az akcióhoz!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Szállj be a harcba!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Az Árkád játékgép események egyedi, korlátozott ideig tartó tevékenységek, amelyek mindig valami különleges élményt kínálnak. Harcolj az exkluzív játékmódokban speciális szabályok szerint, teljesítsd a küldetéseket, és szerezz ritka jutalmakat!"
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Teljesítetted az előrehaladást"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Szerezz annyi jutalmat, amennyit csak tudsz:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Összegyűjtott Dev pontok: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Teljesítve:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Megismételhető"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "A teljesítésért:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Vereségért:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Győzelemért:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Pontok:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Ezt kaptad:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Az összes jelenleg elérhető küldetés teljesítve."
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "A küldetések akkor jelennek meg, amikor az előrehaladás elkezdődik"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Egyelőre minden elérhető küldetést teljesítettél. A következő körben újabbak jelennek meg."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Ennyi ideig érhető el: {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Ennyi ideig érhető el: {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Az új küldetésekig hátralévő idő: {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} státusza"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} küldetés"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Az összes szakaszt teljesítetted"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Előrehaladási frissítés"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEON SZÁGULDÁS"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Vár a célvonal!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Készen állsz a versenyzésre?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "A Neon száguldás egy egyedülálló, korlátozott ideig elérhető esemény, amely újszerű élményt kínál! Versenyezz, törj utat a veszedelmes pályákon, teljesítsd a küldetéseket, és zsebeld be a jutalmakat!"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Csökkentett teljesítmény lehetséges"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Csökkentett teljesítmény lehetséges"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Mesés véletlenszerű jutalom"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Legendás véletlenszerű jutalom"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Gyakori véletlenszerű jutalom"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Ritka véletlenszerű jutalom"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Rendkívüli véletlenszerű jutalom"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Neon száguldás küldetés – szakasz: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Az előrehaladásodat minden Neon száguldás versenyen számoljuk."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Neon száguldás küldetés"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Az előrehaladásodat mindegyik Árkád játékgép almódban számoljuk."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "amíg egy új Árkád játékgép küldetés elérhetővé válik"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Törj utat magadnak a célvonalhoz ebben a mindenki mindenki elleni versenyben!"
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Összes szint"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és problémákat tapasztalhatsz. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás használatát, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. A játékmód nagy teljesítményű számítógépet igényel. Az FPS-érték intenzív harcok során csökkenhet."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és problémákat tapasztalhatsz. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás használatát, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. A játékmód nagy teljesítményű számítógépet igényel. Az FPS-érték intenzív harcok során csökkenhet."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Új Neon száguldás küldetés válik elérhetővé ekkor:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "A(z) %(subModeName)s almód véget ért. Az előrehaladást visszaállítottuk."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "A(z) %(subModeName)s almód véget ért."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Elérhető a(z) %(subModeName)s almód és számos új jutalom."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Új almód érhető el: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "A(z) %(subModeName)s almód karbantartás miatt nem érhető el."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "A(z) %(subModeName)s almód újra elérhető."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "A jutalmak listája"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Gratulálunk!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Teljesítetted az előrehaladást"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Gratulálunk!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Végtelen utólagos előrehaladás"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Teljesítetted a fő előrehaladást"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Ezt a szakaszt annyiszor teljesítheted, ahányszor csak tudod."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Összegyűjtött pontok: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Összegyűjtött pontok:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "NEON SZÁGULDÁS KÜLDETÉSEK"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Teljesítve:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Megismételhető"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "A teljesítésért:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Vereségért:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Győzelemért:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Pontok:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Ezt kaptad:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Az összes jelenleg elérhető küldetés teljesítve."
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "A küldetések akkor jelennek meg, amikor az előrehaladás elkezdődik"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Egyelőre minden elérhető küldetést teljesítettél. A következő körben újabbak jelennek meg."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Ennyi ideig érhető el: {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Ennyi ideig érhető el: {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Az új küldetésekig hátralévő idő: {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} státusza"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} küldetés"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "LEGENDÁS JUTALOM MEGSZEREZVE"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "A(z) %(subModeName)s újra elérhető."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Boxkiállás"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "A(z) %(subModeName)s véget ért."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Boxkiállás"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Ideje kiállni a boxba! A(z) %(subModeName)s versenyei átmenetileg nem érhetők el."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Boxkiállás"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Minden véletlenszerű jutalom egy tárgy az alábbi listáról, amelyet bizonyos valószínűséggel kaphatsz meg."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Mi van benne?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "A Neon száguldásban minden jármű elérhető."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "A Neon száguldás járművei"
+
+msgid "modes/fall_tanks/userName"
+msgstr "Neon száguldás"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Minden szakaszt teljesítettél"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Előrehaladási frissítés"
+
+msgid "modes/undefined/capsUserName"
+msgstr "ÁRKÁD JÁTÉKGÉP"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Csatlakozz az akcióhoz!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Szállj be a harcba!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Az Árkád játékgép események egyedi, korlátozott ideig tartó tevékenységek, amelyek mindig valami különleges élményt kínálnak. Harcolj az exkluzív játékmódokban speciális szabályok szerint, teljesítsd a küldetéseket, és szerezz ritka jutalmakat!"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Csökkentett teljesítmény lehetséges"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Csökkentett teljesítmény lehetséges"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Monumentális véletlenszerű jutalom"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Legendás véletlenszerű jutalom"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Gyakori véletlenszerű jutalom"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Ritka véletlenszerű jutalom"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Rendkívüli véletlenszerű jutalom"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Árkád játékgép küldetés – Szakasz: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Az előrehaladásodat mindegyik Árkád játékgép almódban számoljuk."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Árkád játékgép küldetés"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Az előrehaladásodat mindegyik Árkád játékgép almódban számoljuk."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "amíg egy új Árkád játékgép küldetés elérhetővé válik"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15v15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Kísérleti csaták nem szokványos szabályokkal."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;szint"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és problémákat okozhat. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás választását, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. A játékmód komoly számítógép-teljesítményt igényel. Az FPS-érték intenzív harcok során csökkenhet."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és problémákat okozhat. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás választását, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. A játékmód komoly számítógép-teljesítményt igényel. Az FPS-érték intenzív harcok során csökkenhet."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Egy új Árkád játékgép küldetés elérhetővé válik ekkor:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "A(z) %(subModeName)s almód véget ért. Előrehaladás visszaállítva."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "A(z) %(subModeName)s almód véget ért."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Új jutalmak érhetőek el a(z) %(subModeName)s almódban."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Egy új almód érhető el: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "A(z) %(subModeName)s almód karbantartás miatt nem elérhető."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "A(z) %(subModeName)s almód újra elérhető."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Jutalomlista"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Gratulálunk!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Teljesítetted az előrehaladást"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Gratulálunk!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Megismételhető szakasz"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Teljesítetted a fő előrehaladást"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Szerezz annyi jutalmat, amennyit csak tudsz:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Összegyűjtött pontok: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Elért pontok:"
+
+msgid "modes/undefined/progression/title"
+msgstr "ÁRKÁD JÁTÉKGÉP KÜLDETÉSEK"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Teljesítve:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Megismételhető"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "A teljesítésért:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Vereségért:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Győzelemért:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Pontok:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Ezt kaptad:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Az összes jelenleg elérhető küldetés teljesítve."
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "A küldetések akkor jelennek meg, amikor az előrehaladás elkezdődik"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Egyelőre minden elérhető küldetést teljesítettél. A következő körben újabbak jelennek meg."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Ennyi ideig érhető el: {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Ennyi ideig érhető el: {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Az új küldetésekig hátralévő idő: {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} státusza"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} küldetés"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "LEGENDÁS JUTALOM MEGSZEREZVE"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "A(z) %(subModeName)s csaták újra elérhetők."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Tűzszünet"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "A(z) %(subModeName)s csatái véget értek"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Tűzszünet"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Tűzszünet van érvényben. A(z) %(subModeName)s csaták átmenetileg nem elérhetők."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Tűzszünet"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Mindegyik véletlenszerű jutalom egy-egy tárgy az alábbi listából, amelyet bizonyos valószínűséggel kaphatsz meg."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Mi van benne?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Az Árkád játékgép csatáihoz alkalmas járművek megjelenítése/elrejtése."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Árkád játékgép járművei"
+
+msgid "modes/undefined/userName"
+msgstr "Árkád játékgép"
+
+msgid "notification/congratulation"
+msgstr "Gratulálunk!"
+
+msgid "notification/finishSubModes"
+msgstr "A(z) „%(modeName)s“ esemény véget ért."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "A(z) %(subModesNames)s almódok véget értek. Előrehaladás visszaállítva."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "A(z) %(subModesNames)s almódok véget értek."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Véletlenszerű jutalom"
+
+msgid "notification/newProgression"
+msgstr "Az esemény előrehaladása vissza lett állítva – újra megszerezheted a jutalmakat!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Az esemény előrehaladás visszaállítva. Új almódok érhetőek el: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Új almódok érhetőek el: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Teljesítetted az összes elérhető „%(modeName)s“ küldetést. Jutalom megszerezve:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Teljesítetted az összes elérhető „%(modeName)s“ küldetést. Megismételhető szakasz elérhető. Jutalom megszerezve:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Az előrehaladás kevesebb, mint 1 nap múlva visszaáll. Ezt követően újra teljesítheted a küldetéseket."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Az előrehaladás %(days)d nap múlva visszaáll. Ezt követően újra teljesítheted a küldetéseket."
+
+msgid "notification/progressionStageComplete"
+msgstr "Teljesítetted a(z) „%(modeName)s“ következő szakaszát: %(stage)s. Jutalom megszerezve:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "A(z) %(subModesNames)s almódok karbantartás miatt nem elérhetők."
+
+msgid "notification/switchOnSubModes"
+msgstr "A(z) %(subModesNames)s almódok újra elérhetők."
+
+msgid "platoonView/title"
+msgstr "Szakasz: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Elérhető szerver: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Elérhető szerverek:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "A(z) %(serverName)s szerveren\na csaták elérhetőek lesznek %(primeDelta)s múlva"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "%(serverName)s szerver\nA(z) „%(leftDetailedSeasonName)s“ csatái véget értek."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "A(z) %(serverName)s szerveren\na csaták elérhetőek lesznek további %(primeDelta)s-ig"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "A(z) %(serverName)s szerveren\na csaták elérhetőek lesznek %(primeDelta)s múlva"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "%(serverName)s szerver\nA(z) „%(leftDetailedSeasonName)s“ csatái véget értek."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "A(z) %(serverName)s szerveren\na csaták elérhetőek lesznek %(primeDelta)s múlva"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "%(serverName)s szerver\nA(z) „%(leftDetailedSeasonName)s“ csatái véget értek."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s ó %(min)s perc"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 perc"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Tűzszünet van érvényben az összes szerveren.\nA csaták %(primeDelta)s múlva lesznek elérhetőek"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "A(z) „%(leftDetailedSeasonName)s“ csatái véget értek"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Ez a játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Tűzszünet van érvényben a(z) %(serverName)s szerveren %(primeDeltaDate)s%(primeDeltaTime)s időpontig"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Tűzszünet van érvényben a(z) %(serverName)s szerveren"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Ez a játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Tűzszünet van érvényben a(z) %(serverName)s szerveren.\nA csaták %(primeDelta)s múlva lesznek elérhetők"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "A(z) „%(leftDetailedSeasonName)s“ csatái véget értek"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Ez a játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "A csaták a(z) %(serverName)s szerveren %(primeDelta)s múlva kezdődnek"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "A(z) „%(leftDetailedSeasonName)s“ csatái a(z) %(serverName)s szerveren véget értek."
+
+msgid "primeTimes/timeText/available"
+msgstr "A csaták a(z) %(serverName)s szerveren további %(primeDelta)s-ig lesznek elérhetőek"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "A csaták a(z) %(serverName)s szerveren %(primeDelta)s múlva kezdődnek"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "A(z) „%(leftDetailedSeasonName)s“ csatái a(z) %(serverName)s szerveren véget értek."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "A csaták a(z) %(serverName)s szerveren %(primeDelta)s múlva kezdődnek"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "A(z) „%(leftDetailedSeasonName)s“ csatái a(z) %(serverName)s szerveren véget értek."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "pont"
+
+msgid "progression/complete/affirmative"
+msgstr "Értettem!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Gyűjts pontokat, és juss előrébb az előrehaladásban!"
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Elért pontok:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Az aktív szakasz véget ért. A csatáknak vége"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Teljesítve:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Megismételhető"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "A teljesítésért:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "Vereségért:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "Győzelemért:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Megszerezve:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Az aktív fázis vége: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Az aktív fázis vége:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Következő indítás:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Következő szakaszjutalmak – %(count)d pontnál oldod fel őket"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Emellett még ezt kaptad:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Értettem!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "A szakasz parancsnoka átváltott a(z) %(subModeName)s almódra."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Almód váltás"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;szint"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEON SZÁGULDÁS"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Versenyezz a célvonalig, és akadályozd meg, hogy mások elérjék azt! Használd a Sprint és Pajzs képességet, hogy még nagyobb pusztítást okozz!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Vigyázat: mozgó platformok"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Kerüld ki a lézereket, és gondosan időzítsd az ugrásokat, hogy célba érj!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Vigyázat: lézerek és ugrások"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "gombot a játékmód részletes leírásának megtekintéséhez"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Nyomd meg a(z)"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "Neon száguldás"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Törj utat magadnak\na célvonalhoz!"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Összes szint"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és más problémákat tapasztalhatsz. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás használatát, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. Ez a játékmód nagy teljesítményt igényel, és az FPS-érték intenzív pillanatokban csökkenhet."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és más problémákat tapasztalhatsz. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás használatát, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. Ez a játékmód nagy teljesítményű számítógépet igényel. Az FPS-értéked intenzív pillanatokban csökkenhet."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "Neon száguldás"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "Neon száguldás"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "„Neon száguldás”"
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;szint"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és problémákat okozhat. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás választását, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. A játékmód komoly számítógép-teljesítményt igényel. Az FPS-érték intenzív harcok során csökkenhet."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és problémákat okozhat. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás választását, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. A játékmód komoly számítógép-teljesítményt igényel. Az FPS-érték intenzív harcok során csökkenhet."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Çevirmeni <noreply@wargaming.net>\nLanguage-Team: WoT Takımı <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Genel"
+
+msgid "channels/battle/team"
+msgstr "Ekip"
+
+msgid "channels/clan"
+msgstr "Klan"
+
+msgid "channels/common"
+msgstr "Genel"
+
+msgid "channels/epic_training"
+msgstr "Eğitim–Ön Cephe"
+
+msgid "channels/nubs"
+msgstr "Acemiler"
+
+msgid "channels/prebattle"
+msgstr "Savaş Öncesi"
+
+msgid "channels/special_battles"
+msgstr "Özel Savaş"
+
+msgid "channels/squad"
+msgstr "Takım"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Takım oluşturuldu. Lütfen diğer oyuncular hazır olana kadar bekleyin."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Takım"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Takım oluşturuldu. Tüm oyuncular hazır."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Takım"
+
+msgid "channels/system"
+msgstr "Sistem"
+
+msgid "channels/tournament"
+msgstr "Turnuva"
+
+msgid "channels/trading"
+msgstr "Alışveriş"
+
+msgid "channels/training"
+msgstr "Eğitim"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Sohbet yöneticisi aynı zamanda bir kanal moderatörüdür."
+
+msgid "errors/addmoderatorowner"
+msgstr "Kanal sahibi aynı zamanda bir kanal moderatördür."
+
+msgid "errors/banchannelowner"
+msgstr "Kanal sahibine yasak getirilemez."
+
+msgid "errors/banchatadmin"
+msgstr "Sohbet yöneticisine yasak getirilemez."
+
+msgid "errors/banned"
+msgstr "%(banOwnerNick)s kullanıcısı, %(banEndTime)s zamanına kadar size yasak getirdi. Sebep: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "%(banOwnerNick)s kullanıcısı size yasak getirildi. Sebep: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "%(banEndTime)s zamanına kadar size yasak getirildi. Sebep: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Size yasak getirildi. Sebep: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "%(command)s komutu %(cooldownPeriod)s sn için engellenmiştir."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Moderatör izinleri sohbet yöneticisinden alınamaz."
+
+msgid "errors/delmoderatorowner"
+msgstr "Moderatör izinleri kanal sahibinden alınamaz."
+
+msgid "errors/timeincorrect"
+msgstr "Zaman' parametresi [1-1440] pozitif dakika değerlerinde ya da 'sabit' olmalıdır."
+
+msgid "errors/toomanyargs"
+msgstr "Çok fazla parametre."
+
+msgid "errors/toosmallargs"
+msgstr "Yetersiz sayıda parametre."
+
+msgid "errors/userbanhimself"
+msgstr "Kendinize yasak getiremezsiniz."
+
+msgid "messages/userbanned"
+msgstr "Kullanıcı %(banedUser)s %(banOwnerNick)s tarafından %(banEndTime)s'a kadar yasaklandı. Sebep: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Kullanıcı %(banedUser)s %(banOwnerNick)s'a yasak getirdi. Sebep: %(banReason)s"

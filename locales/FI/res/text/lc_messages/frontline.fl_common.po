@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Nollaa suodattimet"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Ei valittuihin parametreihin sopivia vaunuja.\nSuodattimen asetukset tulee nollata sopivien vaunujen näyttämiseksi."
+
+msgid "battleType/description/fast"
+msgstr "Skenaario nopeammalla taistelureservien jäähtymisajalla."
+
+msgid "battleType/description/random"
+msgstr "Skenaario, jossa pelaajat valitsevat satunnaisten reservien valikoimista mahdollisuudella parantaa niitä tasolle IV."
+
+msgid "battleType/description/standard"
+msgstr "Skenaario tavallisilla Etulinjan säännöillä."
+
+msgid "battleType/postBattle/title"
+msgstr "Taisteluskenaario: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Lyhyempi reservin jäähtymisaika."
+
+msgid "battleType/shortDescription/random"
+msgstr "Taistelureservit jaetaan satunnaisesti."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Tavallisia sääntöjä käytetään."
+
+msgid "battleType/title/fast"
+msgstr "Operatiivinen tuki"
+
+msgid "battleType/title/random"
+msgstr "Kohtalon oikku"
+
+msgid "battleType/title/standard"
+msgstr "Normaalitaistelu"
+
+msgid "battleType/title/wrapper"
+msgstr "\"%(name)s\""
+
+msgid "button/back"
+msgstr "TAKAISIN"
+
+msgid "button/close"
+msgstr "SULJE"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} päivä"
+msgstr[1] "{duration} päivää"
+msgstr[2] "{duration} päivää"
+
+msgid "filterPopover/note"
+msgstr "Täällä näytetään vain vainut, joita voi käyttää pelimuodossa."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Taistelureservien tasot kasvavat uusien sotilasarvojen saavuttamisen myötä."
+
+msgid "levelReservesTooltip/info"
+msgstr "{whiteSpanish_Start}\"Kohtalon oikku\"{whiteSpanish_End} -skenaariossa taistelureservien ostaminen kasvattaa sen tasoa yhdellä ja tarjoaa tilaisuuden parantaa sitä tasolle {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Parannukset saavutettaessa seuraava sotilasarvo: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Saatavilla seuraavan sotilasarvon myötä: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Taso {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "{whiteSpanish_Start}Ostetuille taistelureserveille{whiteSpanish_End} {whiteSpanish_Start}\"Kohtalon oikku\"{whiteSpanish_End} -skenaariossa."
+
+msgid "levelReservesTooltip/title"
+msgstr "Taistelureservien tasot"
+
+msgid "loading"
+msgstr "Ladataan…"
+
+msgid "widget/eventStartSoon"
+msgstr "Tapahtuma alkaa pian!"
+
+msgid "widget/maxTier"
+msgstr "Olet saavuttanut korkeimman tason!"

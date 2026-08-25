@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Загальний"
+
+msgid "channels/battle/team"
+msgstr "Командний"
+
+msgid "channels/clan"
+msgstr "Клан"
+
+msgid "channels/common"
+msgstr "Загальний"
+
+msgid "channels/epic_training"
+msgstr "Тренувальний — Лінія фронту"
+
+msgid "channels/nubs"
+msgstr "Новачки"
+
+msgid "channels/prebattle"
+msgstr "Передбойовий"
+
+msgid "channels/special_battles"
+msgstr "Спеціальний бій"
+
+msgid "channels/squad"
+msgstr "Взвод"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Взвод сформовано, очікуйте на готовність гравців."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Взвод"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Взвод сформовано, всі готові."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Взвод"
+
+msgid "channels/system"
+msgstr "Системний"
+
+msgid "channels/tournament"
+msgstr "Турнір"
+
+msgid "channels/trading"
+msgstr "Торговий"
+
+msgid "channels/training"
+msgstr "Тренувальний"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Адміністратор чату також є модератором каналу."
+
+msgid "errors/addmoderatorowner"
+msgstr "Власник каналу також є модератором каналу."
+
+msgid "errors/banchannelowner"
+msgstr "Неможливо забанити власника каналу."
+
+msgid "errors/banchatadmin"
+msgstr "Неможливо забанити адміністратора чату."
+
+msgid "errors/banned"
+msgstr "Вас забанено користувачем %(banOwnerNick)s до %(banEndTime)s. Причина: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Вас забанено користувачем %(banOwnerNick)s. Причина: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Вас забанено до %(banEndTime)s. Причина: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Вас забанено. Причина: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Команду %(command)s заморожено на %(cooldownPeriod)s с."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Неможливо позбавити адміністратора каналу прав модератора."
+
+msgid "errors/delmoderatorowner"
+msgstr "Неможливо позбавити власника каналу прав модератора."
+
+msgid "errors/timeincorrect"
+msgstr "Aргумент «час» має бути позитивним значенням у хвилинах [1-1440] або «permanent»"
+
+msgid "errors/toomanyargs"
+msgstr "Занадто багато аргументів."
+
+msgid "errors/toosmallargs"
+msgstr "Недостатньо аргументів."
+
+msgid "errors/userbanhimself"
+msgstr "Неможливо забанити самого себе."
+
+msgid "messages/userbanned"
+msgstr "Користувача %(banedUser)s забанено користувачем %(banOwnerNick)s до %(banEndTime)s. Причина: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Користувача %(banedUser)s забанено користувачем %(banOwnerNick)s. Причина: %(banReason)s"

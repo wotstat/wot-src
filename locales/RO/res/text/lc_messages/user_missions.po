@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Etapa {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Capitolul special"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Finalizat"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Afișează noul progres"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Selectează capitolul"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Indisponibil temporar"
+
+msgid "battle_pass_widget/title"
+msgstr "Certificatul de luptă"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Creuzet: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} z"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} z {{hours}} h"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} h"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} h {{minutes}} m"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Misiune bonus\nFinalizează 3 misiuni standard pentru a o debloca"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Timp rămas pentru finalizarea misiunii bonus"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "O nouă misiune zilnică în"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Asta e tot, pentru moment. În curând vor fi disponibile misiuni zilnice noi."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Finalizează misiunea anterioară pentru a o debloca pe aceasta"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Misiunile Premium sunt temporar indisponibile"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Cumpără cont Premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Necesită cont premium WoT"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Misiuni Premium"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Misiunile zilnice sunt temporar indisponibile"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Resetează"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "ZILNIC"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Spre campanii"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Îmbunătăţeşte rezultatul"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Spre Operațiune"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "O adevărată provocare pentru luptătorii experimentați, cu vehicule unice drept recompense."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Ai finalizat operațiunea {{currentOperationName}}! Poți continua să îți îmbunătățești rezultatul pentru a-l finaliza cu onoruri, sau poți începe o nouă provocare în operațiunea {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Îți poți îmbunătăți rezultatele în {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Ai finalizat cu onoruri operațiunea {{currentOperationName}}! Operațiunea {{nextOperationName}} este acum disponibilă."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Poți obține puncte ale campaniei finalizând misiuni personale, misiuni zilnice și misiuni săptămânale."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Finalizează toate misiunile {{totalProgress}} pentru a finaliza cu onoruri operațiunea și a obține recompense suplimentare."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Instalează toate componentele pentru a obține recompensa: {{vehicleName}}. Pentru a strânge componente ale vehiculului, obține puncte de campanie finalizând misiuni personale, zilnice și săptămânale."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Instalează toate componentele pentru a obține recompensa: {{vehicleName}}. Pentru a strânge componente ale vehiculului, obține puncte de campanie finalizând misiuni personale, zilnice și săptămânale."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Misiuni finalizate: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Este disponibilă noua campanie Sectorul 3!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operațiunea {{nextOperationName}} este disponibilă!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operațiunea {{currentOperationName}} finalizată cu onoruri!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operațiunea {{nextOperationName}} este disponibilă!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operațiunea: {{currentOperationName}} | Etapa {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Se finalizează cu onoruri operațiunea {{currentOperationName}}"
+
+msgid "hub/basic_missions/title"
+msgstr "MISIUNI STANDARD"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "SĂPTĂMÂNALE"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Se actualizează în fiecare {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Misiunea activă"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "SAU"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Misiuni noi, în curând..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "LUPTĂTOR"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "AS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITĂ"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Există trei categorii de misiuni: Luptător, Elită și As. Fiecare categorie oferă provocări unice și recompense valoroase."
+
+msgid "hub/challenge_missions/header"
+msgstr "CREUZET"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Activare"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Restartează gratuit"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Restartează"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Abandonează"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Spre misiuni"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) misiuni Creuzet finalizate"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "%(count)s×"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "scuturi rămase"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "restartări gratuite"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Finalizează misiunile active Creuzet"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Se încheie în %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Indisponibil: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Sune necesare vehicule din generația VI sau mai mare"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "ACTIV"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Finalizate"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} misiuni"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Misiune de încercare"
+
+msgid "hub/challenge_missions/new"
+msgstr "NOI"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Spre Creuzet"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Spre Creuzet"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "CREUZET: {{ challengeName }} FINALIZATĂ!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Spre Creuzet"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Creuzet: {{ challenge }} nu a fost finalizată. Restarteaz-o și țintește din nou recompensele!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Spre Creuzet"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "MISIUNEA {{ mission }} FINALIZATĂ!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Spre Creuzet"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Misiunea {{ mission }} a eșuat"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "SCUTURI RĂMASE"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Spre Creuzet"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Intră în Creuzet și acceptă seturi cu misiuni dificile și recompense valoroase pentru cei care le cuceresc."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "MISIUNI NOI DISPONIBILE ÎN CREUZET!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Creează-ți drumul spre glorie în Creuzet: acceptă seturi cu misiuni dificile și recompense valoroase pentru cei care le cuceresc."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "INTRĂ ÎN CREUZET"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Finalizate"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Set de Atașamente 3D"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Echipament îmbunătățit"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "{{count}}×"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "Stil 2D"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Membru de echipaj"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Vehicul"
+
+msgid "hub/challenge_missions/title"
+msgstr "MISIUNILE CREUZETULUI"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Despre Creuzet"
+
+msgid "hub/common_missions/title"
+msgstr "MISIUNI SUPLIMENTARE"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Revendică recompense"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Recompensa epică e momentan indisponibilă"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Fiecare misiune standard, premium sau bonus finalizată contribuie la progresul tău."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Disponibile"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Finalizează misiuni zilnice pentru a obține recompense epice"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Revendică recompensa"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Revendică recompense"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Fiecare misiune standard, premium sau bonus finalizată contribuie la progresul tău."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Disponibile"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Finalizează misiuni zilnice pentru a obține recompense epice: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "După finalizarea a trei misiuni standard, o misiune bonus cu recompense și mai valoroase devine disponibilă. Misiunea bonus trebuie finalizată până la sfârșitul zilei, altfel aceasta va expira."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Misiune bonus"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Unele misiuni trebuie finalizate într-o luptă, pe când altele sunt cumulative și pot fi finalizate în orice număr de lupte. Misiunile cumulative au o bară de progres. Poți finaliza misiuni în lupte standard."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Condiţii"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Poți reseta o misiune standard nedorită pentru a obține altă misiune aleatorie. Apoi, butonul de resetare a misiunii va deveni indisponibil timp de {{time}}. Resetarea unei misiuni poate provoca pierderea progresului dacă unul sau mai multe dintre vehiculele tale se află în lupte."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Resetarea misiunii"
+
+msgid "info_page/additional/reward/description"
+msgstr "Recompensa epică e un ciclu de tip maraton, la care contribuie fiecare misiune finalizată de tip standard, premium sau bonus. La încheierea ciclului, aceasta se resetează și începe din nou. Ciclul recompensei epice nu are limită de timp și poate fi finalizat în orice moment."
+
+msgid "info_page/additional/reward/title"
+msgstr "Recompensa epică"
+
+msgid "info_page/header"
+msgstr "DESPRE MISIUNI"
+
+msgid "info_page/main/premium/description"
+msgstr "Cu contul premium WoT, obții acces la tre misiuni premium secvențiale. Acestea pot fi finalizate în lupte standard și Violență, progresul fiind actualizat după fiecare luptă. pe perioada evenimentelor din joc, misiunile premium conferă recompense specifice evenimentului."
+
+msgid "info_page/main/premium/title"
+msgstr "Misiuni Premium"
+
+msgid "info_page/main/standard/description"
+msgstr "Misiunile standard sunt condiții zilnice aleatorii al căror progres se actualizează după fiecare luptă. Îți recomandăm să le finalizezi în ziua în care ți-au fost acordate, deoarece misiunile nefinalizate sunt continuate în ziua următoare și le blochează pe cele noi. Misiunile standard te recompensează cu puncte ale Certificatului de luptă și recompense specifice evenimentelor în curs."
+
+msgid "info_page/main/standard/title"
+msgstr "Misiunile standard"
+
+msgid "info_page/main/weekly/description"
+msgstr "Misiunile săptămânale sunt un set de sarcini disponibile în fiecare săptămână. Progresul se actualizează după fiecare luptă, misiunile finalizate fiind înlocuite cu unele noi la începutul următorului ciclu săptămânal. Poți finaliza misiuni săptămânale în lupte standard și modul Violență, pentru a obține bonusuri suplimentare."
+
+msgid "info_page/main/weekly/title"
+msgstr "Misiunile săptămânale"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Toate misiunile standard de azi au fost finalizate"
+
+msgid "quests/daily_quests/completed"
+msgstr "Toate misiunile zilnice au fost finalizate"
+
+msgid "tooltip/common/timer"
+msgstr "Disponibile în {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Toate misiunile standard au fost finalizate! Poți găsi mai multe în tab-ul „Misiuni suplimentare”."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Misiune bonus"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Finalizat"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Misiunea zilnică"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Expiră în {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Misiuni zilnice noi în {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Misiunea premium"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Recompense:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Poți reseta o misiune nedorită \ncontra uneia noi la fiecare {time} ore."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Resetarea misiunii"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Misiune finalizată, recompensă obținută."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Finalizează misiunea anterioară pentru a o debloca pe aceasta. Toate misiunile din serie trebuie finalizate secvențial."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Clic pentru informații suplimentare"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Despre misiuni"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Această serie de misiuni poate fi reluată după finalizare. Progresul tău va fi resetat și scuturile vor fi restaurate, putând obține din nou recompensele."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Reia misiuni"
+
+msgid "tooltip/hub/restart/description"
+msgstr "După pierderea tuturor scuturilor, poți restarta o serie de misiuni. Progresul misiunilor va fi resetat, scuturile tale vor fi restaurate, putând obține din nou recompensele."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Prețul restartărilor ulterioare: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Restartări gratuite disponibile: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Fiecare restartare costă: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Restartări"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Scuturile îți apără progresul. Fiecare misiune eșuată costă un scut, iar atunci când toate scuturile sunt pierdute, seria de misiuni eșuează. Dacă o restartezi, scuturile vor fi restaurate."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Scuturile"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Restricțiile de vehicule:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Misiune săptămânală"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Poți re-extrage misiunea săptămânală la fiecare {{time}}."
+
+msgid "welcome/button"
+msgstr "Recepționat!"

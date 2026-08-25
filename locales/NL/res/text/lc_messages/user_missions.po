@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Stadium {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Speciaal hoofdstuk"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Voltooid"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Bekijk de nieuwe progressie"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Selecteer hoofdstuk"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Tijdelijk onbeschikbaar"
+
+msgid "battle_pass_widget/title"
+msgstr "Vechtpas"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Smeltkroes: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} d"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} d {{hours}} u"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} u"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} u {{minutes}} m"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Bonusmissie\nVoltooi 3 standaard missies om deze te ontgrendelen"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Resterende tijd om de bonusmissie te voltooien"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Nieuwe dagelijkse missies over"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Dat was alles. Binnenkort komen er nieuwe dagelijkse missies beschikbaar."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Voltooi de vorige missie om deze te ontgrendelen"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Premium missies zijn tijdelijk onbeschikbaar"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Koop Premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "WoT Premium account nodig"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Premium missies"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Dagelijkse missies zijn tijdelijk onbeschikbaar"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Vervangen"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "DAGELIJKS"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Naar campagnes"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Resultaat verbeteren"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Naar de operatie"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Een echte uitdaging voor ervaren strijders met unieke voertuigen als beloning."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Je hebt de {{currentOperationName}} operatie voltooid! Je kunt je resultaat verbeteren om de operatie met eer te voltooien, of een nieuwe uitdaging aangaan in de {{nextOperationName}} operatie."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Je kunt je resultaat nog verbeteren in de {{nextOperationName}} operatie."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Je hebt de {{currentOperationName}} operatie met eer voltooid! Nu is de {{nextOperationName}} operatie beschikbaar."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Campagnepunten kunnen worden verdiend door persoonlijke, dagelijkse en wekelijkse missies te voltooien."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Voltooi alle {{totalProgress}} missies om de operatie met eer te voltooien en extra beloningen te verdienen."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Monteer alle onderdelen en ontvang je beloning – de {{vehicleName}}. Verzamel voertuigonderdelen door campagnepunten te verdienen, wat je doet door persoonlijke, dagelijkse en wekelijkse missies te voltooien."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Monteer alle onderdelen en ontvang je beloning – de {{vehicleName}}. Verzamel voertuigonderdelen door campagnepunten te verdienen, wat je doet door persoonlijke, dagelijkse en wekelijkse missies te voltooien."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Missies voltooid: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "De nieuwe Sector 3 campagne is beschikbaar!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operatie: {{nextOperationName}} beschikbaar!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operatie: {{currentOperationName}} voltooid met eer!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operatie: {{nextOperationName}} beschikbaar!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operatie: {{currentOperationName}} | Stadium {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Bezig met voltooiing van de {{currentOperationName}} operatie met eer"
+
+msgid "hub/basic_missions/title"
+msgstr "REGULIERE MISSIES"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "WEKELIJKS"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Elke {{weekDay}} geüpdatet"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Actieve missie"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "OF"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Nieuwe missies zijn op komst..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "VECHTER"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "AAS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITE"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Er zijn drie categorieën missies: Vechter, Elite en Aas. Elke categorie heeft unieke uitdagingen en waardevolle beloningen."
+
+msgid "hub/challenge_missions/header"
+msgstr "SMELTKROES"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Activeren"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Gratis herstarten"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Herstarten"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Afbreken"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Naar de missies"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Smeltkroes-missies voltooid"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "schilden resterend"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "gratis herstarts"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Voltooi de actieve Smeltkroes-missies"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Eindigt over %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Onbeschikbaar: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Voertuig van niveau VI of hoger nodig"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "ACTIEF"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Voltooid"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} missies"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Uitdagingsmissie"
+
+msgid "hub/challenge_missions/new"
+msgstr "NIEUW"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Naar Smeltkroes"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Naar Smeltkroes"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "SMELTKROES: {{ challengeName }} VOLTOOID!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Naar Smeltkroes"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Smeltkroes: {{ challenge }} niet voltooid. Herstart de reeks en ga opnieuw voor de beloningen!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Naar Smeltkroes"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "MISSIE {{ mission }} VOLTOOID!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Naar Smeltkroes"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Missie {{ mission }} gefaald"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "SCHILDEN RESTEREND"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Naar Smeltkroes"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Betreed de Smeltkroes en voltooi reeksen met uitdagende missies om waardevolle beloningen te ontvangen."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "NIEUWE SMELTKROES-MISSIES BESCHIKBAAR!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Vecht je een weg naar glorie in de Smeltkroes: voltooi reeksen met uitdagende missies om waardevolle beloningen te ontvangen."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "BETREED DE SMELTKROES"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Voltooid"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "3D-attachment set"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Verbeterde uitrusting"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D-stijl"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Bemanningslid"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Voertuig"
+
+msgid "hub/challenge_missions/title"
+msgstr "SMELTKROES-MISSIES"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Over de Smeltkroes"
+
+msgid "hub/common_missions/title"
+msgstr "EXTRA MISSIES"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Claim beloningen"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Epische beloning is tijdelijk onbeschikbaar"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Elke voltooide standaard, Premium of bonusmissie draagt bij aan je progressie."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Beschikbaar"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Voltooi dagelijkse missies om epische beloningen te verdienen"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Claim beloning"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Claim beloningen"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Elke voltooide standaard, Premium of bonusmissie draagt bij aan je progressie."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Beschikbaar"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Weer terug! Voltooi dagelijkse missies voor epische beloningen: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Nadat je drie standaard missies hebt voltooid, komt er een bonusmissie met nog waardevollere beloningen beschikbaar. De bonusmissie moet voor het einde van de dag worden voltooid, anders zal die vervallen."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Bonusmissie"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Sommige missies moeten in één gevecht worden voltooid, terwijl andere cumulatief zijn en tijdens meerdere gevechten kunnen worden voltooid. Cumulatieve missies hebben een voortgangsbalk. Je kunt de missies in Willekeurige gevechten voltooien."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Voorwaarden"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Je kunt een ongewenste standaard missie vervangen door een willekeurige nieuwe. Daarna zal de knop om een missie te vervangen {{time}} lang onbeschikbaar zijn. Als je een missie vervangt, kun je je voortgang kwijtraken wanneer één of meerdere van je voertuigen nog in een gevecht zitten."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Missievervanging"
+
+msgid "info_page/additional/reward/description"
+msgstr "Epische beloning is een marathonachtige cyclus, waarbij elke standaard, Premium en bonusmissie bijdraagt aan de progressie. Zodra de cyclus is voltooid, wordt die gereset en begint die opnieuw. De epische beloning cyclus heeft geen tijdslimiet en kan op elk moment worden voltooid."
+
+msgid "info_page/additional/reward/title"
+msgstr "Epische beloning"
+
+msgid "info_page/header"
+msgstr "OVER MISSIES"
+
+msgid "info_page/main/premium/description"
+msgstr "Met WoT Premium account krijg je toegang tot drie opeenvolgende Premium missies. Deze kunnen in Willekeurige gevechten en Bestorming worden voltooid, waarbij de progressie na elk gevecht wordt geüpdatet. Tijdens evenementen leveren Premium missies specifieke beloningen van het evenement op."
+
+msgid "info_page/main/premium/title"
+msgstr "Premium missies"
+
+msgid "info_page/main/standard/description"
+msgstr "Standaard missies zijn willekeurige dagelijkse voorwaarden waarvan de progressie na elk gevecht wordt geüpdatet. We raden je aan om ze op de dag van ontvangst te voltooien, want onvoltooide missies gaan mee naar de volgende dag en blokkeren dus nieuwe. Standaard missies leveren Vechtpaspunten op tijdens Vechtpas en specifieke beloningen van evenementen als die er zijn."
+
+msgid "info_page/main/standard/title"
+msgstr "Standaard missies"
+
+msgid "info_page/main/weekly/description"
+msgstr "Wekelijkse missies bestaan uit een set taken die elke week beschikbaar zijn. De progressie wordt na elk gevecht geüpdatet, en voltooide missies worden vervangen door nieuwe zodra de volgende wekelijkse cyclus begint. Deze missies kunnen in Willekeurige gevechten en Bestorming worden voltooid om extra bonussen te ontvangen."
+
+msgid "info_page/main/weekly/title"
+msgstr "Wekelijkse missies"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Alle reguliere missies van vandaag zijn voltooid"
+
+msgid "quests/daily_quests/completed"
+msgstr "Alle dagelijkse missies zijn voltooid"
+
+msgid "tooltip/common/timer"
+msgstr "Beschikbaar over {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Alle reguliere missies zijn voltooid! Vind er meer in de Extra missies-tab."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Bonusmissie"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Voltooid"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Dagelijkse missie"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Vervalt over {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nieuwe dagelijkse missies over {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Premium missie"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Beloningen:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Elke {time} uur kun je een ongewenste missie \nvervangen door een nieuwe."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Missievervanging"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Missie voltooid, beloning ontvangen."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Voltooi de voorgaande missie om deze te ontgrendelen. De missies van een reeks moeten na elkaar worden voltooid."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Klik voor meer informatie"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Over missies"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Deze reeks missies kan na voltooiing worden herhaald. Je voortgang wordt gereset en je schilden worden hersteld, en je kunt de beloningen nogmaals verdienen."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Herhaal missies"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Na het verliezen van al je schilden kun je een reeks missies herstarten. Je missievoortgang wordt gereset, je schilden worden hersteld, en je kunt de beloningen nogmaals verdienen."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Volgende herstarts kosten: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Gratis herstarts beschikbaar: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Elke herstart kost: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Herstarts"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Schilden beschermen je progressie. Elke gefaalde missie kost je één schild, en wanneer je geen schilden meer hebt, is de reeks missies gefaald. Na een herstart worden je schilden hersteld."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Schilden"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Voertuigbeperkingen:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Wekelijkse missie"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Deze wekelijkse missie kan elke {{time}} worden vervangen."
+
+msgid "welcome/button"
+msgstr "Begrepen!"

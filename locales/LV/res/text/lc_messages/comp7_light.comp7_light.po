@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Mainīt serveri"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaļas"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Šis režīms nav pieejams šajā serverī %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Šis režīms nav pieejams nevienā serverī"
+
+msgid "alertMessage/modeOffline"
+msgstr "Datu bāzes kļūda. Spēles režīms nav pieejams."
+
+msgid "alertMessage/noVehicles"
+msgstr "Garāžā nav piemērotu tanku %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Sapratu!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "VIEGLAIS UZBRUKUMS"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "FINĀLA STADIJA IZPILDĪTA!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "%(level)s STADIJA IZPILDĪTA!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Visas misijas pabeigtas!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Izpildīts"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Beidzas pēc: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Uzbrukuma vieglā misija"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Jauna Uzbrukuma vieglā misija pēc: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Atlīdzība:"
+msgstr[1] "Balvas:"
+msgstr[2] "Balvas:"
+
+msgid "battleResult/header/deserter"
+msgstr "Tu esi saņēmis sodu"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "UZBRUKUMA GAISMAS PROGRESIJA"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Vieglais Uzbrukums ilgs %(days)d dienu"
+msgstr[1] "Vieglais Uzbrukums ilgs %(days)d dienas"
+msgstr[2] "Vieglais Uzbrukums ilgs %(days)d dienas"
+
+msgid "calendarDay/title"
+msgstr "Grafiks"
+
+msgid "closeButtonLabel"
+msgstr "AIZVĒRT"
+
+msgid "countDown/text"
+msgstr "Notikums sāksies pēc:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Ātrs režīms ar 7×7 cīņām %(levels)s līmeņa tankos. Izbaudi oriģinālā Uzbrukuma režīma spēles gaitu bez kvalifikācijas, pakāpēm vai dienesta ierakstiem un saņem balvas ikdienas misijās."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "REŽĪMS"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Spēles režīms. Noklikšķini, lai izpētītu"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Vieglais Uzbrukums"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Režīms pieejams vēl %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Pamiers%(timer)s"
+
+msgid "featureName"
+msgstr "Vieglais Uzbrukums"
+
+msgid "featureNameCapitalized"
+msgstr "VIEGLAIS UZBRUKUMS"
+
+msgid "intro/confirmButton"
+msgstr "Sapratu!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Izbaudiet oriģinālā Uzbrukuma režīma spēles stilu bez Kvalifikācijas, Rangiem vai citiem Sasniegumiem."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Režīmā ir modifikatori, kas maina noteiktus tanka parametrus, kā piemēram tanka dzīvības punktus, palīgmateriālu atjaunošanās laiku, atlikušo redzamības laiku un vairāk."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Kad esiet sagūstījis noteiktus kartes apgabalus, varēsiet izmantot Taktiskās Spējas. Ir divu veidu Galvenie Punkti: Artilērijas Štābs ļaus jums virzīt artilērijas triecienu noteiktā vietā, un Komunikācijas Centrs pamanīs visus ienaidnieka tankus. Atkarībā no kartes šo interešu punktu klātbūtne un atrašanās vieta var mainīties."
+
+msgid "intro/description/roleSkills"
+msgstr "Atkarībā no lomas katram tankam ir īpaša spēja ar trim uzlādes līmeņiem. Jo augstāks uzlādes līmenis, kad spēja tiek aktivizēta, jo spēcīgāks efekts. Uzlādes līmenis būs atkarīgs no nopelnītajiem Prestižā Punktiem par izcilu sniegumu cīņā, mērķu ieņemšanu, Taktisko spēju izmantošanu utt.\n\nIepazīsties ar režīma noteikumiem, lai uzzinātu vairāk par dažādiem veidiem, kā vari nopelnīt Prestižā Punktus."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Šajā režīmā var izmantot tikai %(levels)s līmeņa tankus (artilērija un daži citi tanki nav pieejami). Sagatavo tankus Garāžā un izvēlies labāko atkarībā no konkrētās kartes īpatnībām, kad nonāc kaujā. Izvēloties tanku, ņem vērā arī sabiedroto izvēli."
+
+msgid "intro/title/lightGameplay"
+msgstr "ATSLĀBSTIET, KOMANDIERI"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "UZBRUKUMA MODIFIKATORI"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "GALVENIE PUNKTI"
+
+msgid "intro/title/roleSkills"
+msgstr "LOMAS SPĒJAS"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "IZVĒLIETIES TANKU NOTEIKTAI KARTEI"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Uzvara"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Sakāve/Neizšķirts"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Labi pastrādāts Komandieri, tā turpināt!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Izpildiet misijas un sasniedziet top pozīcijas Vieglā Uzbrukuma kaujās, lai palielinātu jūsu Progresijas līmeni."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Nopelnīto Progresijas Punktu daudzums ir atkarīgs no jūsu Prestiža Punktu izvietojums kaujā."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Režīms beigsies pēc %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Galvenā progresa līnija pabeigta"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Vieglais Uzbrukums"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Top 2 pēc Prestiža Punktiem"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Top 5 pēc Prestiža Punktiem"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Top 7 pēc Prestiža Punktiem"
+
+msgid "listSeparator"
+msgstr ","
+
+msgid "noVehicles/howTo/premium"
+msgstr "Izmantojiet WoT Premium Kontu"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktivizējiet Personālās Rezerves"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Izpildiet Misijas"
+
+msgid "noVehicles/howTo/title"
+msgstr "Kas ir ātrākais veids kā iegūt %(levels)s līmeņa tankus?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Lai piedalītos Uzbrukuma vieglajā režīmā, tev garāžā jābūt vismaz vienam %(levels)s līmeņa tankam, kas piemērots režīmam.\nTu vari iegādāties Premium %(levels)s līmeņa tankus Tehnoloģiju kokā vai spēles veikalā."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Lai piedalītos Uzbrukuma vieglajā režīmā, tev garāžā jābūt vismaz vienam %(levels)s līmeņa tankam, kas piemērots režīmam.\nTev ir pieejams %(levels)s līmeņa tanks atjaunošanai."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Lai piedalītos Vieglajā Uzbrukumā, jums vajag vismaz vienu %(levels)s Līmeņa tanku Garāžā, kas ir piemērots režīmam."
+
+msgid "noVehicles/title"
+msgstr "Nav piemērotu tanku jūsu Garāžā"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Sīkāku informāciju skatiet Vieglā Uzbrukuma režīma lapā."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestiža Punkti"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Bojājumu nodarīšana\nIzlūkošanas asistēšana\nKāpurķēžu iznīcināšana\nKritisko trāpījumu izraisīšana\nIenaidnieka tanku iznīcināšana\nUn vēl"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Prestiža punktus var nopelnīt, veicot kaujas darbības, tostarp:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Sezona beigusies serverī: %(server)s"
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sezona beigusies serverī: %(server)s"
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Sezona beigusies serverī: %(server)s"
+
+msgid "progressionEntryPoint/complete"
+msgstr "Galvenā progresa līnija pabeigta!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Stadija %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s vai %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Jaunas misijas pēc:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Pasākums beidzas pēc:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Misijas tiks atjauninātas pēc"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Visas ikdienas misijas pabeigtas."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progressija pabeigta. Spēlē Vieglajā Uzbrukumā režīmā, lai iegūtu vairāk atlīdzību."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Izpildi misijas un iegūsti augstākās pozīcijas Uzbrukuma vieglajās\nkaujās, lai palielinātu savu progresijas līmeni. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Apbalvots par īpašu misiju izpildi un cīnīšanos kaujās Vieglajā Uzbrukumā. Tie ļauj jums virzīties cauri Progresijai."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Vieglā Uzbrukuma Progresijas Punkti"
+
+msgid "selectorTooltip/desc"
+msgstr "Bezreitinga režīms. 7 pret 7 | %(tier)s līmenis"
+
+msgid "selectorTooltip/title"
+msgstr "Vieglais Uzbrukums"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Sekojiet jaunākajām ziņām spēles portālā, lai paliktu informēti par jaunās Sezonas sākumu."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Režīms īslaicīgi nav pieejams tehnisku iemeslu dēļ."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Šis režīms kļūs pieejams %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Progresijas Punkti saņemti"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detaļas"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Vieglais Uzbrukums"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Balvas saņemtas:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Jūs izpildījāt %(stage)s Progresijas Stadiju %(progressionName)s režīmā."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Apsveicam!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Pamiers ir spēkā. Vieglā Uzbrukuma kaujas īslaicīgi nav pieejamas."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Pamiers"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Pamiers ir beidzies. Vieglā Uzbrukuma kaujas atkal ir pieejamas."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Pamiers"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Par Vieglo Uzbrukumu"

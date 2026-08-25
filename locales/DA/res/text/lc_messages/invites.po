@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Oversætter <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sSe%(linkEndTag)s detaljer på spilleren"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sAnsøgning til klan%(titleEndTag)s\nfra %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Se ansøgninger"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sSlå%(linkEndTag)s notifikationer fra"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sAnsøgninger fra spillere: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sSe%(linkEndTag)s detaljer på klanen"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sInvitation til klan%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Se invitationer"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sKlan invitationer: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Spiller blev accepteret til klan."
+
+msgid "clans/state/app/declined"
+msgstr "Ansøgning afvist."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Spillerens karantæne i én dag for at forlade deres tidligere klan er ikke udløbet endnu."
+
+msgid "clans/state/invite/accepted"
+msgstr "Du blev accepteret til klanen."
+
+msgid "clans/state/invite/declined"
+msgstr "Invitation afvist."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Karantænen i én dag for at forlade din forrige klan er ikke udløbet endnu."
+
+msgid "errors/creationNotAllowed"
+msgstr "Ikke nok tilladelser til at skabe en invitation."
+
+msgid "errors/invalid"
+msgstr "Invitation ugyldig."
+
+msgid "errors/inviteNotSupported"
+msgstr "Denne type invitation er ikke tilgængelig i øjeblikket. Prøv igen senere."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Invitationens modtager tilføjede dig til deres sorte liste."
+
+msgid "errors/selfinvite"
+msgstr "Du kan ikke invitere dig selv."
+
+msgid "errors/unknownuser"
+msgstr "Denne bruger er ikke registreret i systemet endnu."
+
+msgid "errors/useroffline"
+msgstr "Bruger er offline."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Køretøjet i garagen er beskadiget eller låst. Vælg et andet køretøj."
+
+msgid "friendship/note/approved"
+msgstr "Spiller tilføjet til vennelisten"
+
+msgid "friendship/note/canceled"
+msgstr "Anmodning afvist"
+
+msgid "friendship/note/maxRoster"
+msgstr "Maksimalt antal af kontakter på listen: %(rosterMaxCount)s. For at tilføje denne spiller til din venneliste, skal du først fjerne nogen fra listen."
+
+msgid "friendship/note/notConnected"
+msgstr "Kan ikke forbinde til serveren. Vent venligst."
+
+msgid "friendship/note/process"
+msgstr "Venter på svar fra serveren"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sVenneanmodning%(titleEndTag)s\nfra %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Accepter"
+
+msgid "gui/buttons/cancel"
+msgstr "Fortryd"
+
+msgid "gui/buttons/reject"
+msgstr "Afvis"
+
+msgid "gui/buttons/send"
+msgstr "Send"
+
+msgid "gui/labels/additionalText"
+msgstr "Yderligere invitationstekst:"
+
+msgid "gui/labels/inviteText"
+msgstr "Invitationstekst:"
+
+msgid "gui/labels/receiver"
+msgstr "Modtager:"
+
+msgid "gui/titles/barter"
+msgstr "Handelsinvitation"
+
+msgid "gui/titles/clan"
+msgstr "Klan invitation"
+
+msgid "gui/titles/invite"
+msgstr "Invitation"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Invitationer"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra kampen på det globale kort og blive overført til %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed og blive overført til %(host)s-serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra holdtræning i frontlinje kamptypen og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Når du accepterer invitationen vil du forlade holdkamps modus og blive overført til server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra delingen og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Når du accepterer invitationen, vil du forlade befæstningskampe og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Når du accepterer invitationen, vil du forlade fremrykninger kamptypen og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra Recon Mission-delingen og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra træningsrummet og blive overført til %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Når du accepterer invitationen, vil du forlade befæstningskampe og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra delingen og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Når du accepterer invitationen, vil du forlade den nuværende gruppe og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra turneringen og blive overført til %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra træningsrummet og blive overført til %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra holdtræning i Onslaught-kamptypen og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Når du accepterer invitationen vil du forlade holdkamps modus og blive overført til server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Når du accepterer invitationen, vil du forlade ståljæger og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Når du accepterer invitationen, vil du forlade Big Hunt og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Når du accepterer invitationen, vil du forlade Onslaught og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Når du accepterer invitationen, vil du forlade Onslaught Light og blive overført til %(host)s-serveren."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Når du accepterer invitationen, vil du forlade frontlinje og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Når du accepterer invitationen, vil du forlade +++Event battle+++ og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Når du accepterer invitationen, vil du forlade Recon Mission og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Når du accepterer invitationen, vil du forlade Topografi og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Når du accepterer invitationen, vil du forlade standard kampe og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Når du accepterer invitationen, vil du forlade kamptypen rangeret kamp og blive overført til %(host)s serveren."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Når du accepterer invitationen, vil du forlade Opvarmning og blive overført til %(host)s-serveren."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Når du accepterer invitationen, vil du forlade Opvarmning og blive overført til %(host)s-serveren. Du vil ikke kunne starte det igen."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra kampen på det globale kort."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra holdtræning i frontlinje kamptypen."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra den taktiske enhed."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Når du accepterer invitationen, vil du forlade holdkamps modus."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra delingen."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Når du accepterer invitationen, vil du forlade befæstningskampe."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Når du accepterer invitationen, vil du forlade fremrykninger kamptypen."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra Recon Mission-delingen."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra træningsrummet."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Når du accepterer invitationen, vil du forlade befæstningskampe."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra delingen."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Når du accepterer invitationen, vil du forlade den nuværende gruppe."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra turneringen."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra træningsrummet."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Når du accepterer invitationen, vil du automatisk blive ekskluderet fra holdtræning i Onslaught-kamptypen."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Når du accepterer invitationen, vil du forlade holdkamps modus."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Når du accepterer invitationen, vil du forlade ståljæger."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Når du accepterer invitationen, vil du forlade Big Hunt."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Når du accepterer invitationen, vil du forlade Onslaught."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Når du accepterer invitationen, vil du forlade Onslaught Light."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Når du accepterer invitationen, vil du forlade frontlinje."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Når du accepterer invitationen, vil du forlade +++Event battle+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Når du accepterer invitationen, vil du forlade Recon Mission."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Når du accepterer invitationen, vil du forlade Topografi."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Når du accepterer invitationen, vil du forlade standard kampe."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Når du accepterer invitationen, vil du forlade kamptypen rangeret kamp."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Når du accepterer invitationen, vil du forlade Opvarmning."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Når du accepterer invitationen, vil du forlade Opvarmning. Du vil ikke kunne starte det igen."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Serverændringer vil nu blive gemt."
+
+msgid "invites/note/server_change"
+msgstr "Du vil blive automatisk overført til %(host)s server."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Du kan ikke acceptere invitationen. For at acceptere invitationen, vælg venligst %(host)s serveren."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Du kan ikke acceptere invitationen. Vælg venligst en anden server."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Du er allerede gået med i delingen."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Du er allerede gået med i kampen på det globale kort."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Du er allerede gået med i træningsrummet."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Du er allerede gået med i delingen."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Du er allerede gået med i delingen."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Du er allerede gået med i gruppen."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Du er allerede gået med i delingen."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Du er allerede gået ind i turneringen."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Du er allerede gået med i træningsrummet."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Du er allerede gået med i træningsrummet."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Du er allerede gået med på holdet."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Invitation accepteret."
+
+msgid "invites/state/DECLINED"
+msgstr "Invitation afvist."
+
+msgid "invites/state/ERROR"
+msgstr "Invitation ugyldig."
+
+msgid "invites/state/EXPIRED"
+msgstr "Invitation ugyldig."
+
+msgid "invites/state/REVOKED"
+msgstr "Invitation trukket tilbage."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Invitation til at gå med i Ståljæger-deling"
+
+msgid "invites/text/COMP7"
+msgstr "Invitation til at gå med i Onslaught-delingen"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Invitation til at gå med i Onslaught Light-delingen"
+
+msgid "invites/text/EPIC"
+msgstr "Invitation til at gå med i Frontlinje-delingen"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Invitation til at gå med i holdtræning i Frontlinje-kamptypen"
+
+msgid "invites/text/EVENT"
+msgstr "Invitation til delingen"
+
+msgid "invites/text/FALLOUT"
+msgstr "Invitation til at gå med i delingen til %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Dominans"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Ståljagt"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Invitation til kamp"
+
+msgid "invites/text/MAPBOX"
+msgstr "Invitation til at gå med i Recon Mission-deling"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Invitation til at udforske kort"
+
+msgid "invites/text/SORTIE"
+msgstr "Invitation til at gå med i gruppen"
+
+msgid "invites/text/SQUAD"
+msgstr "Invitation til delingen"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Invitation til at gå med i gruppen"
+
+msgid "invites/text/TRAINING"
+msgstr "Invitation til at gå med i holdtræning"
+
+msgid "invites/text/UNIT"
+msgstr "Invitation til at gå med på holdet"
+
+msgid "invites/text/creatorName"
+msgstr "fra %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Forsvarstid"
+
+msgid "invites/text/fort/direction"
+msgstr "Brohoved"
+
+msgid "invites/text/fort/offence"
+msgstr "Angreb på"
+
+msgid "invites/warning/anonymized"
+msgstr "Når du accepterer invitationen, vil dit faktiske kaldenavn og klan tag blive vist til medlemmer af taktiske enheder i kampens varighed."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Invitation sendt til %(name)s."

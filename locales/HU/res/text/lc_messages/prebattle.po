@@ -1,0 +1,356 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleProgress/hint"
+msgstr "Nyomd meg a(z) %(hintKey)s gombot az aktív küldetések megtekintéséhez"
+
+msgid "buttons/battleSession/leave"
+msgstr "Kilépés"
+
+msgid "companyListView/filterButton/label"
+msgstr "Keresés"
+
+msgid "dialogs/buttons/notReady"
+msgstr "Nincs kész"
+
+msgid "dialogs/buttons/ready"
+msgstr "Kész!"
+
+msgid "hints/confirmDialog/confirm"
+msgstr "Értettem!"
+
+msgid "hints/confirmDialog/message"
+msgstr "Úton vagy afelé, hogy profi harckocsizóvá válj! Mostantól a csaták betöltőképernyőjén a kezdőknek szóló tippek helyett a csapat-összeállítást láthatod. A tippeket bármikor újra bekapcsolhatod a játékmenüben a Beállítások között."
+
+msgid "hints/confirmDialog/title"
+msgstr "Új csatabetöltő-képernyők"
+
+msgid "hints/hint1/description"
+msgstr "Figyeld a löveged célkeresztjének közepén lévő átütésjelzőt. A színe megmutatja, hogy hol tudod átütni az ellenség páncélzatát."
+
+msgid "hints/hint1/green/description"
+msgstr "Magas átütési esély"
+
+msgid "hints/hint1/green/header"
+msgstr "Zöld jelölő"
+
+msgid "hints/hint1/header"
+msgstr "Páncélátütés"
+
+msgid "hints/hint1/red/description"
+msgstr "Alacsony átütési esély"
+
+msgid "hints/hint1/red/header"
+msgstr "Vörös jelölő"
+
+msgid "hints/hint10/description"
+msgstr "A járműved lövege mindig a képernyő közepe felé mozog, de a löveg korlátozott mozgási sebessége miatt ez eltarthat egy ideig."
+
+msgid "hints/hint10/header"
+msgstr "Lövegcélkereszt"
+
+msgid "hints/hint10/penetration/description"
+msgstr "Az ellenséges jármű páncélzatának gyenge pontjait zöld szín jelöli"
+
+msgid "hints/hint10/penetration/header"
+msgstr "Páncélátütési indikátor"
+
+msgid "hints/hint10/reloading/description"
+msgstr "Zöld kör, ha teljesen be van töltve"
+
+msgid "hints/hint10/reloading/header"
+msgstr "A löveg betöltésének folyamata"
+
+msgid "hints/hint10/spread/description"
+msgstr "A lövések a kör egy véletlenszerű pontján csapódnak be"
+
+msgid "hints/hint10/spread/header"
+msgstr "Lövegszórási kör"
+
+msgid "hints/hint12/description"
+msgstr "Az, hogy egy lövedéknek mekkora páncélzatot kell átütnie, attól függ, hogy milyen szögben csapódik be – a becsapódási szög az átütő találatok döntő tényezője!"
+
+msgid "hints/hint12/header"
+msgstr "A páncélzat dőlése"
+
+msgid "hints/hint12/notPenetrated/description"
+msgstr "Döntött – vastagabb páncélzat"
+
+msgid "hints/hint12/notPenetrated/header"
+msgstr "Nem üti át a páncélzatot"
+
+msgid "hints/hint12/penetrated/description"
+msgstr "Merőleges – vékonyabb páncélzat"
+
+msgid "hints/hint12/penetrated/header"
+msgstr "Átüti a páncélzatot"
+
+msgid "hints/hint13/description"
+msgstr "A szövetségesek közötti rádiókommunikáció automatikusan működik. Ha egy járművet felderít egy ellenség, akkor az a jel hatótávolságán belül minden ellenség számára láthatóvá válik."
+
+msgid "hints/hint13/header"
+msgstr "Kommunikáció"
+
+msgid "hints/hint13/invisible/description"
+msgstr "Egy objektum által eltakarva"
+
+msgid "hints/hint13/invisible/header"
+msgstr "Álcázva"
+
+msgid "hints/hint13/visible/description"
+msgstr "Felderítve egy szövetséges által"
+
+msgid "hints/hint13/visible/header"
+msgstr "Felderítve"
+
+msgid "hints/hint2/description"
+msgstr "Egy hatalmas járművet irányítasz, de ennek az erőnek ára van. A jármű és a torony forgási sebessége korlátozott, úgyhogy körültekintően tervezd meg a mozgásodat."
+
+msgid "hints/hint2/firing"
+msgstr "Tüzelés"
+
+msgid "hints/hint2/freeCam"
+msgstr "Szabad kamera"
+
+msgid "hints/hint2/header"
+msgstr "A jármű irányítása"
+
+msgid "hints/hint2/movement"
+msgstr "Mozgás"
+
+msgid "hints/hint2/turret"
+msgstr "Toronyforgás"
+
+msgid "hints/hint3/description"
+msgstr "A Mesterlövész módba az egérgörgővel vagy a Shift gomb megnyomásával léphetsz be."
+
+msgid "hints/hint3/header"
+msgstr "Mesterlövész mód"
+
+msgid "hints/hint3/orLabel"
+msgstr "vagy"
+
+msgid "hints/hint4/description"
+msgstr "A külső modulok sérülése nem okoz életerőpont-veszteséget a járműnek, de csökkenti a harci teljesítményét."
+
+msgid "hints/hint4/header"
+msgstr "Kritikus sérülés"
+
+msgid "hints/hint4/immobilized/description"
+msgstr "A felfüggesztés kritikus sérülése"
+
+msgid "hints/hint4/immobilized/header"
+msgstr "Mozgásképtelen"
+
+msgid "hints/hint4/shooting/description"
+msgstr "A löveg kritikus sérülése"
+
+msgid "hints/hint4/shooting/header"
+msgstr "Nem lehet tüzelni"
+
+msgid "hints/hint4/view/description"
+msgstr "A megfigyelőeszközök kritikus sérülése"
+
+msgid "hints/hint4/view/header"
+msgstr "Csökkentett látótávolság"
+
+msgid "hints/hint5/aid/description"
+msgstr "Meggyógyítja a legénység tagjait"
+
+msgid "hints/hint5/aid/header"
+msgstr "Elsősegélykészlet"
+
+msgid "hints/hint5/description"
+msgstr "Szereld fel a járművedet a csata előtt, hogy meg tudj birkózni a modulok kritikus sérüléseivel, a legénységet ért sérülésekkel és a tűzzel."
+
+msgid "hints/hint5/fire/description"
+msgstr "Tűz eloltása"
+
+msgid "hints/hint5/fire/header"
+msgstr "Tűzoltókészülék"
+
+msgid "hints/hint5/header"
+msgstr "Fogyócikkek"
+
+msgid "hints/hint5/repair/description"
+msgstr "Megjavítja a sérült modulokat"
+
+msgid "hints/hint5/repair/header"
+msgstr "Javítókészlet"
+
+msgid "hints/hint6/area"
+msgstr "Átkelés a nyílt terepen"
+
+msgid "hints/hint6/description"
+msgstr "Egy jármű csak akkor válik felderítetté, ha az ellenség látótávolságán belül van. A növényzet, a terep és az objektumok további álcázást biztosítanak."
+
+msgid "hints/hint6/header"
+msgstr "Álcázás"
+
+msgid "hints/hint6/invisible"
+msgstr "Álcázva"
+
+msgid "hints/hint6/object"
+msgstr "Egy objektum által eltakarva"
+
+msgid "hints/hint6/shot"
+msgstr "Felderítve tüzelés után"
+
+msgid "hints/hint6/vegetation"
+msgstr "A növényzet által elrejtve"
+
+msgid "hints/hint6/visible"
+msgstr "Felderítve"
+
+msgid "hints/hint7/base"
+msgstr "Ellenséges bázis elfoglalva"
+
+msgid "hints/hint7/description"
+msgstr "A győzelemhez több út is vezet. Cselekedj a helyzetnek megfelelően."
+
+msgid "hints/hint7/header"
+msgstr "Győzelmi feltételek"
+
+msgid "hints/hint7/orLabel"
+msgstr "VAGY"
+
+msgid "hints/hint7/vehicles"
+msgstr "Minden ellenséges jármű megsemmisült"
+
+msgid "hints/hint7/victory"
+msgstr "Győzelem!"
+
+msgid "hints/hint8/description"
+msgstr "A jármű lövegének menet közben nagyobb a szórása. Maradj mozdulatlan, figyeld a löveg szórási körét a célkereszt körül, és tüzelj, amikor teljesen becéloztad a célpontodat."
+
+msgid "hints/hint8/header"
+msgstr "Lövegszórás"
+
+msgid "hints/hint8/high"
+msgstr "35 km/h"
+
+msgid "hints/hint8/low"
+msgstr "0 km/h"
+
+msgid "hints/hint9/description"
+msgstr "Bizonyos helyzetekben a löveg kitérítési szögei miatt nem tudod célba venni az ellenséget."
+
+msgid "hints/hint9/header"
+msgstr "Lövegsüllyedési és -emelési szög"
+
+msgid "hints/loading"
+msgstr "Betöltés"
+
+msgid "hints/manual"
+msgstr "További információt a játékmenü Kiképzőközpontjában találsz"
+
+msgid "hints/skip"
+msgstr "Nyomd meg bármelyik gombot, hogy belépj a csatába"
+
+msgid "labels/company/queue"
+msgstr "Sor:"
+
+msgid "labels/level"
+msgstr "Szint"
+
+msgid "labels/members"
+msgstr "Tagok: %(openTag)s%(membersCount)d%(closeTag)s / %(maxMembersCount)d"
+
+msgid "labels/player"
+msgstr "Játékos"
+
+msgid "labels/sort/byName"
+msgstr "Név alapján"
+
+msgid "labels/sort/byOrder"
+msgstr "Hozzáadás ideje alapján"
+
+msgid "labels/sort/byStatus"
+msgstr "Készen állás alapján"
+
+msgid "labels/sort/byVehicles"
+msgstr "Jármű típus alapján"
+
+msgid "labels/stats/level"
+msgstr "Szint:"
+
+msgid "labels/stats/maxPlayers"
+msgstr "Játékosok:"
+
+msgid "labels/stats/sumLevel"
+msgstr "A járművek összesített szintje:"
+
+msgid "labels/stats/totalLevel"
+msgstr "Össz. szint: %(totalLevel)s"
+
+msgid "labels/stats/vehicleLevel"
+msgstr "Max. jármű szint:"
+
+msgid "labels/stats/vehicleSPGLevel"
+msgstr "Max Önj.löveg szint:"
+
+msgid "labels/vehicle"
+msgstr "Jármű"
+
+msgid "memberList/empty/label"
+msgstr "Válassz ki játékosokat a sorból és küld át őket a fő csapatba."
+
+msgid "stats/battleSession/commonLevel"
+msgstr "Szint:"
+
+msgid "stats/battleSession/required"
+msgstr "Szükséges:"
+
+msgid "stats/battleSession/vehicleType"
+msgstr "Típus:"
+
+msgid "switchPeripheryWindow/fort/applySwitchLabel"
+msgstr "Csatározás tervezéséhez vagy indításához lépj át az %(server)s szerverre."
+
+msgid "switchPeripheryWindow/fort/description"
+msgstr "Jelenleg az %(server)s szerverhez csatlakozol. A csatározások korlátozásai aktívak ezen a szerveren."
+
+msgid "switchPeripheryWindow/fort/header"
+msgstr "Figyelem!"
+
+msgid "switchPeripheryWindow/fort/selectServerLabel"
+msgstr "Csatározás tervezéséhez vagy indításához lépj át a következő szerverekre:"
+
+msgid "switchPeripheryWindow/ranked/applySwitchLabel"
+msgstr "Kérlek, válassz másik szervert a rangsorolt csatában való részvételhez."
+
+msgid "switchPeripheryWindow/ranked/description"
+msgstr "A tűzszünet hatályba lépett a %(server)s szerveren. A rangsorolt csata nem elérhető."
+
+msgid "switchPeripheryWindow/ranked/header"
+msgstr "Figyelem!"
+
+msgid "switchPeripheryWindow/ranked/selectServerLabel"
+msgstr "Kérlek, válassz másik szervert a rangsorolt csatában való részvételhez:"
+
+msgid "title/battleSession/arenaType"
+msgstr "Térkép:"
+
+msgid "title/battleSession/battlesLimit"
+msgstr "Csaták/Győzelmek:"
+
+msgid "title/battleSession/clanBattle/startTime"
+msgstr "%(startTime)s, %(peripheryName)s, %(arenaName)s"
+
+msgid "title/battleSession/comment"
+msgstr "Leírás:"
+
+msgid "title/battleSession/header/battleSettings"
+msgstr "Csata beállítások:"
+
+msgid "title/battleSession/header/startTime"
+msgstr "Csata kezdete:"
+
+msgid "title/battleSession/startTime"
+msgstr "Kezdési idő:"
+
+msgid "title/battleSession/unit"
+msgstr "Század"
+
+msgid "upButton/hint"
+msgstr "Kattints a csatlakozáshoz"

@@ -1,0 +1,305 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dailyQuestsIntroView/buttons/close"
+msgstr "FERMER"
+
+msgid "dailyQuestsIntroView/buttons/confirm"
+msgstr "Affirmatif !"
+
+msgid "dailyQuestsIntroView/info/mode/description"
+msgstr "Échauffement vous rappellera les bases du jeu. Les batailles s'y jouent face à des véhicules contrôlés par l'IA et les résultats ne sont pas comptabilisés dans vos statistiques. Vous pouvez quitter Échauffement à tout moment pour passer aux Batailles aléatoires."
+
+msgid "dailyQuestsIntroView/info/mode/title"
+msgstr "Échauffement"
+
+msgid "dailyQuestsIntroView/info/quests/description"
+msgstr "Accomplissez des missions, franchissez les étapes de progression de Retour au combat et recevez de précieuses récompenses en jeu. Chaque mission standard, premium ou bonus accomplie compte pour obtenir la récompense. Les missions peuvent être accomplies en Échauffement et en Batailles aléatoires."
+
+msgid "dailyQuestsIntroView/info/quests/descriptionBP"
+msgstr "Accomplissez des missions, franchissez les étapes de progression de Retour au combat et recevez de précieuses récompenses. Durant Passe de combat, des Points du Passe de combat seront ajoutés à votre liste des récompenses. Les missions peuvent être accomplies en Échauffement et en Batailles aléatoires."
+
+msgid "dailyQuestsIntroView/info/quests/title"
+msgstr "Retour au combat"
+
+msgid "dailyQuestsIntroView/info/rewards/description"
+msgstr "Vous pouvez gagner des locations de véhicules premium de rang VIII, des véhicules de rang VI à rechercher et des réductions sur la recherche et l'achat de véhicules en récompense. Après avoir terminé la progression, vous recevrez la récompense principale."
+
+msgid "dailyQuestsIntroView/info/rewards/title"
+msgstr "Récompenses"
+
+msgid "dailyQuestsIntroView/title"
+msgstr "RETOUR AU COMBAT"
+
+msgid "mainRewardTooltip/description"
+msgstr "Après avoir terminé la progression de Retour au combat, vous recevrez :"
+
+msgid "mainRewardTooltip/title"
+msgstr "Récompense principale"
+
+msgid "mainRewardTooltip/vehicleRewardLabel"
+msgstr "Réduction sur la recherche et l'achat d'un véhicule de rang %(level)s"
+
+msgid "modeInfoTooltip/description"
+msgstr "Batailles contre des véhicules contrôlés par l'IA qui ne sont pas comptabilisées dans vos statistiques. Pour gagner, vous devez capturer la base ennemie ou détruire tous les véhicules adverses. Les batailles se déroulent au format 15 contre 15 avec des véhicules de rangs VI à XI et au format 10 contre 10 avec des véhicules de rangs I à V."
+
+msgid "modeInfoTooltip/maps"
+msgstr "Lakeville, Ligne Mannerheim, Malinovka, Abbaye, Mines, Ruinberg, Ensk."
+
+msgid "modeInfoTooltip/subtitle"
+msgstr "Cartes disponibles :"
+
+msgid "modeInfoTooltip/title"
+msgstr "Échauffement"
+
+msgid "selectableRewardTooltip/basic/description"
+msgstr "Tout véhicule recherchable de rang %(level)s peut être sélectionné. Le véhicule est livré avec ses éléments recherchés, un équipage et une place de garage."
+
+msgid "selectableRewardTooltip/basic/title"
+msgstr "Véhicule de rang %(level)s"
+
+msgid "selectableRewardTooltip/discount/description"
+msgstr "Une réduction de %(researchDiscount)s sur la recherche et une réduction de %(purchaseDiscount)s sur l'achat d'un véhicule de rang %(level)s. Tout véhicule à rechercher peut être sélectionné."
+
+msgid "selectableRewardTooltip/discount/footer"
+msgstr "La réduction sur la {whiteSpanish_Open}recherche{whiteSpanish_Close} se cumule avec la réduction des fragments de plan du véhicule. La plus grande réduction disponible sur {whiteSpanish_Open}l'achat{whiteSpanish_Close} s'applique."
+
+msgid "selectableRewardTooltip/discount/title"
+msgstr "Une réduction sur un véhicule de rang %(level)s"
+
+msgid "vehicleDiscountRewardTooltip/description"
+msgstr "La réduction sur la %(research)s se cumule avec la réduction des fragments de plan du véhicule. La plus grande réduction sur %(purchase)s s'applique."
+
+msgid "vehicleDiscountRewardTooltip/description/purchase"
+msgstr "l'achat"
+
+msgid "vehicleDiscountRewardTooltip/description/research"
+msgstr "recherche"
+
+msgid "winbackBattleQueue/footer/text"
+msgstr "Vous pouvez quitter Échauffement dans le menu de paramètres des Batailles aléatoires."
+
+msgid "winbackBattleQueue/subTitle/battleRemaining"
+msgstr "Batailles restantes : %(battlesCount)s"
+
+msgid "winbackBattleQueue/subTitle/text"
+msgstr "Des batailles contre des véhicules contrôlés par l'IA qui ne sont pas comptabilisées dans vos statistiques."
+
+msgid "winbackBattleQueue/title"
+msgstr "Bataille aléatoire : Échauffement"
+
+msgid "winbackLeaveModeDialogView/alert"
+msgstr "Après avoir quitté Échauffement, vous ne pourrez plus y rejouer."
+
+msgid "winbackLeaveModeDialogView/buttons/cancel"
+msgstr "Annuler"
+
+msgid "winbackLeaveModeDialogView/buttons/close"
+msgstr "FERMER"
+
+msgid "winbackLeaveModeDialogView/buttons/confirm"
+msgstr "Quitter"
+
+msgid "winbackLeaveModeDialogView/title"
+msgstr "Quitter Échauffement ?"
+
+msgid "winbackPopover/battlesCount"
+msgstr "Batailles restantes : %(battlesCount)s"
+
+msgid "winbackPopover/description"
+msgstr "Des batailles contre des véhicules contrôlés par l'IA qui ne sont pas comptabilisées dans vos statistiques."
+
+msgid "winbackPopover/title"
+msgstr "Échauffement"
+
+msgid "winbackPopover/turnOff"
+msgstr "Quitter"
+
+msgid "winbackRewardView/buttons/close"
+msgstr "FERMER"
+
+msgid "winbackRewardView/buttons/confirm"
+msgstr "Affirmatif !"
+
+msgid "winbackRewardView/buttons/selectReward"
+msgstr "Choisir la récompense"
+
+msgid "winbackRewardView/buttons/showQuests"
+msgstr "Aux missions"
+
+msgid "winbackRewardView/buttons/showVehicle"
+msgstr "Voir dans le garage"
+
+msgid "winbackRewardView/premiumPlus"
+msgstr "Compte premium WoT"
+
+msgid "winbackRewardView/secondRowTitle"
+msgstr "Vous avez également reçu :"
+
+msgid "winbackRewardView/selectableReward/discount"
+msgstr "Une réduction de %(expDiscount)s sur la recherche et une réduction de %(priceDiscount)s sur l'achat d'un véhicule de rang %(level)s"
+
+msgid "winbackRewardView/selectableReward/expDiscount"
+msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+
+msgid "winbackRewardView/selectableReward/gift"
+msgstr "Véhicule de rang %(level)s"
+
+msgid "winbackRewardView/selectableReward/priceDiscount"
+msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+
+msgid "winbackRewardView/selectableReward/reserveDiscount"
+msgstr "Réduction sur un véhicule de rang %(level)s"
+
+msgid "winbackRewardView/subtitle/regularProgressionCompleted"
+msgstr "Pour l'accomplissement d'une série de missions quotidiennes"
+
+msgid "winbackRewardView/subtitle/winback"
+msgstr "RETOUR AU COMBAT"
+
+msgid "winbackRewardView/title/progressionStep"
+msgstr "RÉCOMPENSES DES MISSIONS"
+
+msgid "winbackRewardView/title/regularProgressionCompleted"
+msgstr "RÉCOMPENSE ÉPIQUE REÇUE !"
+
+msgid "winbackRewardView/title/selectedRewards"
+msgstr "RÉCOMPENSES REÇUES"
+
+msgid "winbackRewardView/title/welcome"
+msgstr "BON RETOUR, COMMANDANT !"
+
+msgid "winbackRewardView/title/winbackProgressionCompleted"
+msgstr "PROGRESSION TERMINÉE"
+
+msgid "winbackRewardView/vehicleReward/discount"
+msgstr "Une réduction de %(expDiscount)s sur la recherche\net une réduction de %(priceDiscount)s sur l'achat"
+
+msgid "winbackRewardView/vehicleReward/expDiscount"
+msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+
+msgid "winbackRewardView/vehicleReward/inHangar"
+msgstr "Dans le garage"
+
+msgid "winbackRewardView/vehicleReward/priceDiscount"
+msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+
+msgid "winbackRewardView/vehicleReward/rent"
+msgstr "Jours de location : %(days)s"
+
+msgid "winbackRewardView/vehicleReward/reserveDiscount"
+msgstr "Réduction sur la recherche et l'achat"
+
+msgid "winbackSelectableRewardView/bluePrintReward/value"
+msgstr "x%(value)s"
+
+msgid "winbackSelectableRewardView/buttons/cancel"
+msgstr "Sélectionner plus tard"
+
+msgid "winbackSelectableRewardView/buttons/close"
+msgstr "FERMER"
+
+msgid "winbackSelectableRewardView/buttons/confirm"
+msgstr "Obtenir"
+
+msgid "winbackSelectableRewardView/buttons/reset"
+msgstr "Réinitialiser le filtre"
+
+msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
+msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+
+msgid "winbackSelectableRewardView/category/title"
+msgstr "Réduction pour un véhicule"
+
+msgid "winbackSelectableRewardView/category/titleDiscount"
+msgstr "Véhicule de rang %(vehicleLevel)s"
+
+msgid "winbackSelectableRewardView/error/button"
+msgstr "Affirmatif !"
+
+msgid "winbackSelectableRewardView/error/description"
+msgstr "Les informations sont temporairement indisponibles. Nous nous excusons de la gêne occasionnée. Veuillez réessayer plus tard."
+
+msgid "winbackSelectableRewardView/error/title"
+msgstr "Impossible d'ouvrir la Sélection des récompenses"
+
+msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
+msgstr "Vous avez recherché tous les véhicules de rang %(vehicleLevel)s. Vous pouvez maintenant recevoir des fragments de plan nationaux en récompense."
+
+msgid "winbackSelectableRewardView/filter/placeholder"
+msgstr "Chercher par nom"
+
+msgid "winbackSelectableRewardView/filter/searchResult"
+msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+
+msgid "winbackSelectableRewardView/filter/shown"
+msgstr "Affiché :"
+
+msgid "winbackSelectableRewardView/filter/tooltip/body"
+msgstr "Cliquez pour réinitialiser les paramètres du filtre par défaut."
+
+msgid "winbackSelectableRewardView/filter/tooltip/header"
+msgstr "Mettre par défaut"
+
+msgid "winbackSelectableRewardView/footer/actionText/active"
+msgstr "Récompenses sélectionnées : %(amountRewards)s %(infoIcon)s"
+
+msgid "winbackSelectableRewardView/footer/actionText/disable"
+msgstr "Sélectionnez des récompenses dans les catégories indiquées"
+
+msgid "winbackSelectableRewardView/resetInf/text"
+msgstr "Aucun résultat. Changez vos paramètres de filtrage ou réinitialisez-les."
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
+msgstr "{white_Open}x%(bluePrintsAmount)s Fragment de plan national{white_Close} (%(countryName)s)"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
+msgstr "{white_Open}%(name)s{white_Close} (réduction de %(expDiscount)s % sur la recherche et réduction de %(priceDiscount)s % sur l'achat)"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
+msgstr "Une réduction sur un véhicule de rang %(level)s"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
+msgstr "{white_Open}%(name)s{white_Close} (tous les éléments recherchés, équipage et une place de garage)"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
+msgstr "Véhicule de rang %(level)s"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
+msgstr "Cliquez sur le bouton « Obtenir » pour recevoir les récompenses sélectionnées."
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
+msgstr "Récompenses sélectionnées : %(amountRewards)s"
+
+msgid "winbackSelectableRewardView/tabs/buy"
+msgstr "Acheter"
+
+msgid "winbackSelectableRewardView/tabs/exp"
+msgstr "Rechercher"
+
+msgid "winbackSelectableRewardView/title/additionText"
+msgstr "RETOUR AU COMBAT"
+
+msgid "winbackSelectableRewardView/title/text"
+msgstr "SÉLECTIONNEZ VOTRE RÉCOMPENSE"
+
+msgid "winbackSelectableRewardView/vehicleName"
+msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+
+msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
+msgstr "chasseur de chars"
+
+msgid "winbackSelectableRewardView/vehicleType/SPG"
+msgstr "canon automoteur"
+
+msgid "winbackSelectableRewardView/vehicleType/heavyTank"
+msgstr "char lourd"
+
+msgid "winbackSelectableRewardView/vehicleType/lightTank"
+msgstr "char léger"
+
+msgid "winbackSelectableRewardView/vehicleType/mediumTank"
+msgstr "char moyen"
+
+msgid "winbackTab"
+msgstr "Retour au combat"

@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Про Бойову перепустку"
+
+msgid "about/position/header"
+msgstr "Розподіл очок Бойової перепустки"
+
+msgid "about/position/text"
+msgstr "За результатами кожного бою ви отримаєте очки Бойової перепустки відповідно місцю, яке ви посіли. За досягнення рівнів фронту ви здобуватиме додаткові очки Бойової перепустки."
+
+msgid "about/scores/header"
+msgstr "Очки Бойової перепустки"
+
+msgid "about/scores/text"
+msgstr "Спеціальна валюта Бойової перепустки, яку можна здобути у Випадкових боях і на Лінії фронту. Очки Бойової перепустки видають за досягнення рівнів фронту та за місце, яке посів гравець за підсумками бою. Техніка Лінії фронту не має ліміту очок."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Поразка"
+
+msgid "about/scoresTable/topCell"
+msgstr "Топ-{{top}} за досвідом"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Перемога"
+
+msgid "about/text"
+msgstr "Бойова перепустка — довготривала подія, під час якої гравець просувається від етапу до етапу, здобуваючи очки Бойової перепустки. За проходження кожного етапу гравець отримує цінні призи. За проходження деяких етапів гравець може здобути жетони Бойової перепустки — особливу валюту, за яку можна придбати унікальну техніку й інші цінні призи в спеціальному розділі Магазину."
+
+msgid "addons/cellRent/header"
+msgstr "Прокат техніки"
+
+msgid "addons/cellRent/text_10"
+msgstr "Для прокату за кредити доступно кілька різних машин {{vehiclesLevel}} рівня. На них можна пересаджувати екіпаж з техніки тієї самої нації та типу без штрафу й перенавчання."
+
+msgid "addons/cellRent/text_9"
+msgstr "Для прокату за кредити доступно кілька різних машин {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} рівня. На них можна пересаджувати екіпаж з техніки тієї самої нації та типу без штрафу й перенавчання."
+
+msgid "addons/cellSpectator/header"
+msgstr "Режим спостерігача"
+
+msgid "addons/cellSpectator/text"
+msgstr "Витратили всю свою техніку? Чекайте на її появу в режимі спостерігача, який дасть вам змогу вивчити поле бою та розробити план подальших дій."
+
+msgid "addons/cellTime/header"
+msgstr "Додатковий час"
+
+msgid "addons/cellTime/text"
+msgstr "Якщо час бою закінчився, а ви все ще захоплюєте базу, ваша команда отримає додатковий час на її захоплення. Якщо команда захисників збиває захоплення, додатковий час анулюють."
+
+msgid "addons/header"
+msgstr "Додатково"
+
+msgid "levelUp/sectionHeader"
+msgstr "Техніка {{level}} рівня"
+
+msgid "levelUp/text"
+msgstr "Вступити в бій, як і раніше, можна тільки на машинах {{vehiclesLevelFrom}} рівня, але підготувати в Гаражі можна й машини {{vehiclesLevelTo}} рівня. Після захоплення будь-якої бази 2-ї лінії (D, E та F) в обох команд з'явиться можливість вступити в бій технікою {{vehiclesLevelTo}} рівня."
+
+msgid "main/cellDuration/header"
+msgstr "Тривалість"
+
+msgid "main/cellDuration/text"
+msgstr "Лінія фронту триватиме {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. Дату наступного запуску повідомлять окремо."
+
+msgid "main/cellFrontline/header"
+msgstr "Лінія фронту"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Масштабні битви 30×30 на техніці {{vehiclesLevel}} рівня на мапах {{@ colorLegacy 'FFE4C0'}}«Нормандія», «Крафтверк»{{/}} і {{@ colorLegacy 'FFE4C0'}}«Фата-моргана»{{/}}. Мета атакувальників — знищити 3 з 5 великокаліберних гармат, мета захисників — захистити ці об'єкти."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Масштабні битви 30×30 на техніці {{vehiclesLevelFrom}}–{{vehiclesLevelTo}} рівнів на мапах {{@ colorLegacy 'FFE4C0'}}«Нормандія», «Крафтверк»{{/}} і {{@ colorLegacy 'FFE4C0'}}«Фата-моргана»{{/}}. Мета атакувальників — знищити 3 з 5 великокаліберних гармат, мета захисників — захистити ці об'єкти."
+
+msgid "main/cellLevel9/header"
+msgstr "Техніка {{vehiclesLevel}} рівня"
+
+msgid "main/cellLevel9/text"
+msgstr "Після захоплення однієї з баз другої лінії (D, E або F) відкривається можливість вступити в бій машинами {{vehiclesLevel}} рівня."
+
+msgid "main/cellLevels/header"
+msgstr "Техніка {{vehiclesLevel}} рівня"
+
+msgid "main/cellLevels/text_8"
+msgstr "У режимі доступна лише техніка {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} рівня."
+
+msgid "main/cellLevels/text_9"
+msgstr "Для вступу в бій пасує лише техніка {{vehiclesLevel}} рівня."
+
+msgid "main/cellPass/header"
+msgstr "Бойова перепустка"
+
+msgid "main/cellPass/text"
+msgstr "Лінія фронту — чудова можливість здобути очки Бойової перепустки за участь у боях і отримання рівнів фронту."
+
+msgid "main/cellReserves/header"
+msgstr "Категорії бойових резервів"
+
+msgid "main/cellReserves/text"
+msgstr "Є три категорії резервів, кожна з яких прив’язана до певного слота. Порядок відкриття та поліпшення резервів залежить від типу техніки."
+
+msgid "main/cellScenarios/header"
+msgstr "Сценарії"
+
+msgid "main/cellScenarios/text"
+msgstr "Бої в режимі «Лінія фронту» проходять за одним із таких сценаріїв: {{@ colorLegacy 'FFE4C0'}}Стандартний бій{{/}}, {{@ colorLegacy 'FFE4C0'}}Оперативна підтримка{{/}} або {{@ colorLegacy 'FFE4C0'}}Воля випадку{{/}}. Інформацію про поточний сценарій бою можна побачити на екрані завантаження, під час передбойового відліку або натиснувши на клавішу Tab."
+
+msgid "main/sectionHeader"
+msgstr "Основна інформація"
+
+msgid "page/backBtn"
+msgstr "НАЗАД"
+
+msgid "page/headerUpper"
+msgstr "ЛІНІЯ ФРОНТУ"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "За підсумками бою, залежно від отриманого звання, на додаток до бойового досвіду вам нараховують і фронтовий досвід, який використовується для підвищення рівнів фронту. Загалом {{@ colorLegacy 'FFE4C0'}}таких рівнів 20{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Рівні фронту"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Рівні фронту{{/}} приносять нагороди: очки Бойової перепустки, очки бойових резервів, бони, передбойові настанови, бланки перепідготовки, ліцензію на наставництво й навчальні матеріали."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Рівні фронту{{/}} приносять нагороди: очки бойових резервів, бони, передбойові настанови, бланки перепідготовки й навчальні матеріали."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Звання{{/}} не лише показують вашу ефективність у конкретному бою, а й додають бонус до бойового досвіду в результаті. Цей бонус застосовується до сумарного «чистого» досвіду всіх ваших машин, які брали участь у бою. Після досягнення вами чи союзниками звання «генерал» уся команда отримує бонус до ефективності екіпажів (рівня володіння основною спеціальністю) від {{@ colorLegacy 'FFE4C0'}}1,5%{{/}} до {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Звання"
+
+msgid "progression/ranksSection/text"
+msgstr "У бою діє система звань. Загалом їх шість — від рядового до генерала. Ви отримуватиме нові звання завдяки ефективним діям у бою (захоплення чи втримання баз, знищення цілей) і здобутому досвіду. Враховують сумарний досвід, який ви здобули на всіх машинах, що брали участь у бою."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Бонус до бойового досвіду"
+
+msgid "progression/ranksTable/captain"
+msgstr "Капітан"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Бонус до ефективності екіпажу"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Фронтовий досвід"
+
+msgid "progression/ranksTable/general"
+msgstr "Генерал"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Лейтенант"
+
+msgid "progression/ranksTable/major"
+msgstr "Майор"
+
+msgid "progression/ranksTable/private"
+msgstr "Рядовий"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Сержант"
+
+msgid "progression/sectionHeader"
+msgstr "Прогресія Лінії фронту"
+
+msgid "progression/text"
+msgstr "Під час гри в режимі ви отримуватимете звання, просуватиметеся прогресією Лінії фронту та здобуватиме нагороди."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Додатковий"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Слот резерву 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Слот резерву 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Слот резерву 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Основний"
+
+msgid "reserveCategories/categories/support"
+msgstr "Допоміжний"
+
+msgid "reserveCategories/config/footerText"
+msgstr "Порядок відкриття бойових резервів у сценарії {{@ colorLegacy 'FFE4C0'}}«Воля випадку»{{/}} не залежить від типу техніки."
+
+msgid "reserveCategories/config/header"
+msgstr "Конфігурація резервів для типів техніки"
+
+msgid "reserveCategories/config/text"
+msgstr "У сценаріях {{@ colorLegacy 'FFE4C0'}}«Стандартний бій»{{/}} та {{@ colorLegacy 'FFE4C0'}}«Оперативна підтримка»{{/}} всі три слоти бойових резервів доступні для всіх типів техніки. Однак порядок їхнього відкриття залежить від типу техніки."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "ПТ-САУ"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Важкі танки"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Легкі танки"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Середні танки"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "САУ"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Посилення до цього рівня діє тільки для {{@ colorLegacy 'FFE4C0'}}придбаних{{/}} бойових резервів у сценарії {{@ colorLegacy 'FFE4C0'}}«Воля випадку»{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Порядок розблокування слотів та поліпшення резервів"
+
+msgid "reserveCategories/levels/text"
+msgstr "За замовчуванням вам доступний один резерв. Після отримання звань «сержант» і «лейтенант» відкриється решта. Після отримання звань «капітан» і «майор» усі три резерви буде посилено."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} чи {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}} рівень"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Капітан"
+
+msgid "reserveCategories/ranks/general"
+msgstr "Генерал"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Лейтенант"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Майор"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Сержант"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Рядовий"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Воля випадку"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "У бою гравці можуть вибирати випадкові резерви, що доступні для всіх типів техніки. Встановлення резерву в слот перед боєм підвищує ймовірність його отримання в бою на {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Купівля резерву підвищує його рівень до {{@ colorLegacy 'FFE4C0'}}II{{/}} і дає можливість поліпшити його до {{@ colorLegacy 'FFE4C0'}}IV{{/}} рівня."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Сценарії Лінії фронту"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Стандартний бій"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Діють стандартні правила Лінії фронту. Умови використання бойових резервів залишаються незмінними."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Оперативна підтримка"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Після розблокування резерву: {{@ colorLegacy 'FFE4C0'}}−50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Після повернення в бій: {{@ colorLegacy 'FFE4C0'}}−70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Більш динамічний сценарій із пришвидшеним перезаряджанням бойових резервів:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Бої в режимі «Лінія фронту» проходять за одним із таких сценаріїв: {{@ colorLegacy 'FFE4C0'}}Стандартний бій{{/}}, {{@ colorLegacy 'FFE4C0'}}Оперативна підтримка{{/}} або {{@ colorLegacy 'FFE4C0'}}Воля випадку{{/}}. Сценарії передбачають різні умови використання бойових резервів у бою. Інформацію про поточний сценарій бою можна побачити на екрані завантаження, під час передбойового відліку або натиснувши на клавішу Tab."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Категорії бойових резервів"
+
+msgid "reserveCategories/text"
+msgstr "Резерви розподіляються на три категорії, у кожній з яких по три резерви. Вступаючи в бій, ви можете встановити тільки один із резервів категорії у відповідний слот."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Ударні"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Розвідувальні"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Тактичні"
+
+msgid "reserves/sectionHeader"
+msgstr "Швидкі резерви"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Швидкий старт"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Час приготування бойових резервів на старті бою зменшено на 50%."
+
+msgid "reserves/sectionReload/header"
+msgstr "Миттєва готовність"
+
+msgid "reserves/sectionReload/text"
+msgstr "Бойові резерви будуть готові до застосування відразу після їх розблокування."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Друге дихання"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Час підготовки бойових резервів під час повернення до бою на новій машині зменшено на 70%."
+
+msgid "rules/backToFight/header"
+msgstr "Повернення в бій"
+
+msgid "rules/backToFight/text"
+msgstr "Якщо ваша машина виведена з ладу, вибирайте будь-яку доступну машину та повертайтеся в бій, щоб продовжити свій шлях до перемоги. Під час повернення вам доступний вибір однієї з кількох областей (точок) на різних флангах, а також у тилу, що дасть змогу ефективно планувати свої подальші дії в бою. Причому гравці команди, яка обороняється, мають розширений вибір із кількох областей для повернення глибоко в тилу, щоб у разі раптового прориву мобілізуватися для оборони великокаліберних гармат. Також система має спеціальну індикацію, яка сповістить гравця, якщо вибрана область небезпечна для висадження."
+
+msgid "rules/base/header"
+msgstr "Захоплення баз"
+
+msgid "rules/base/textBottom"
+msgstr "Шкода машині, яка захоплює базу, а також її модулям, не збиває захоплення, а тільки призупиняє його. Щоб збити захоплення, потрібно знищити машину супротивника чи змусити її залишити коло захоплення. Відбити повністю захоплену базу неможливо."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Команда атакувальників{FFE4C0_End} послідовно захоплює бази, щоб вийти до головних цілей. Захоплення однієї бази додає до часу бою 2 хвилини, захоплення останньої бази — 4 хвилини."
+
+msgid "rules/sectionHeader"
+msgstr "Загальні правила гри"
+
+msgid "rules/service/header"
+msgstr "Зони обслуговування"
+
+msgid "rules/service/text"
+msgstr "Зони обслуговування відновлюють міцність машин, лікують членів екіпажу та поповнюють боєзапас. {FFE4C0_Start}Швидкість поповнення: 100 од. міцності, один член екіпажу та 10%{FFE4C0_End} боєзапасу на секунду."
+
+msgid "rules/weapons/header"
+msgstr "Мета: 3 з 5 великокаліберних гармат"
+
+msgid "rules/weapons/list/back"
+msgstr "Кормове бронювання: {{@ colorLegacy 'FFE4C0'}}90 мм.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Дах і лобову броню {{@ colorLegacy 'FFE4C0'}}пробити не можна.{{/}}"
+
+msgid "rules/weapons/list/sides"
+msgstr "Бічне бронювання: {{@ colorLegacy 'FFE4C0'}}180 мм.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Бічне бронювання: {{@ colorLegacy 'FFE4C0'}}210 мм.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Вразливі місця: {{@ colorLegacy 'FFE4C0'}}двері (70 мм), вентиляція (25 мм).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Головні цілі режиму — п’ять гарматних башт, які розташовані в тилу захисників. Команді атакувальників потрібно знищити 3 з них, а захисникам — захистити гармати."
+
+msgid "subTitle/differentMonth"
+msgstr "з {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} до {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "з {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}, {{startYear}},{{/}} до {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}, {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "з {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} до {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Квадрати A, B і С {{@ colorLegacy 'FFE4C0'}}на першій лінії{{/}} — стартові точки для обох команд."
+
+msgid "winStrategy/header"
+msgstr "Вдала стратегія"
+
+msgid "winStrategy/mapZones"
+msgstr "Мапу розділено на три горизонтальні лінії оборони:"
+
+msgid "winStrategy/secondLine"
+msgstr "Битва переходить у квадрати D, E й F {{@ colorLegacy 'FFE4C0'}}на другий лінії{{/}}, якщо захоплено прилеглий квадрат першої лінії."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Третя лінія оборони{{/}} — ділянка мапи, не розділена на квадрати, на якій відбувається фінальна частина битви. Саме тут розташовані великокаліберні гармати, знищення яких веде до перемоги команди атакувальників. Доступ до третьої лінії для команди атакувальників відкривається після захоплення хоча б одного з квадратів другої лінії. Якщо квадрат втрачено, захисники повинні покинути його за 1 хвилину. Після цього авіаудар уразить усіх захисників, що залишилися. Якщо атакувальники потрапляють до квадрата другої чи третьої лінії, не захопивши квадрат на попередній, вони також будуть атаковані з повітря."

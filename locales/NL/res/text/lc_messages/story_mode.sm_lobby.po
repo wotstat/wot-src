@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, gevechtsduur: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "SLUITEN"
+
+msgid "battleResult/continueButton"
+msgstr "Doorgaan"
+
+msgid "battleResult/damageAssisted"
+msgstr "Schade\ngeassisteerd"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Schade\ngeblokkeerd"
+
+msgid "battleResult/damageDealt"
+msgstr "Schade\nveroorzaakt"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Door missies op moeilijkheidsgraad Rigoureus te voltooien,\nzul je ze automatisch ook op moeilijkheidsgraad Regulier voltooien.\nDit betekent dat je de beloningen van beide moeilijkheidsgraden ontvangt."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Door missies op moeilijkheidsgraad Rigoureus te voltooien, zul je ze automatisch ook op moeilijkheidsgraad Regulier voltooien.\nDit betekent dat je de beloningen van beide moeilijkheidsgraden ontvangt."
+
+msgid "battleResult/kills"
+msgstr "Vijanden\nvernietigd"
+
+msgid "battleResult/lose/title"
+msgstr "HET GEVECHT IS AFGELOPEN"
+
+msgid "battleResult/missionName/1"
+msgstr "TIGER-JAGER: Operatie Stalen lawine"
+
+msgid "battleResult/missionName/2"
+msgstr "TIGER-JAGER: Operatie Vallenzetter"
+
+msgid "battleResult/missionName/3"
+msgstr "TIGER-JAGER: operatie Hamer en Aambeeld"
+
+msgid "battleResult/missionName/4"
+msgstr "TIGER-JAGER: operatie Kat in de Muizenval"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERATIE OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERATIE POSTBODE"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERATIE KOOKPUNT"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Geen actieve\nmissies"
+
+msgid "battleResult/rewards/other"
+msgstr "Ook ontvangen:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Missies\nvoltooid"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Overleefd{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Niet overleefd{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "OVERWINNING!"
+
+msgid "countdown/days"
+msgstr "{days} d"
+
+msgid "countdown/daysHours"
+msgstr "{days} d {hours} u"
+
+msgid "countdown/endsSoon"
+msgstr "Binnen {minutes} minuten"
+
+msgid "countdown/hours"
+msgstr "{hours} u"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} u {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} u {minutes} m"
+
+msgid "countdown/lessThanMinute"
+msgstr "Binnen 1 minuut"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} m"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Annuleren"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Je zult geen beloningen ontvangen voor het voltooien van deze operatie.\nWil je de operatie zonder actieve missies spelen?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Bevestigen"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Geen actieve missies in deze operatie"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Identificeer de onbekende dreiging, stop de raketlancering, en zorg dat de nieuwe technologie in de juiste handen valt."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Speel solo en bestrijd AI-vijanden in dit epische verhaal met commandanten uit Sector 3!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Voltooi alle missies om een herdenkingsbadge en medaille, 2D-themastijlen en andere waardevolle beloningen te ontvangen."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Een nieuw tijdperk breekt aan"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Solo verhaal"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Beloningen"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERATIE KOOKPUNT"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Verhalen"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Rigoureus"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Regulier"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Rigoureus\nmijnenveld"
+
+msgid "missionSelection/exitButton"
+msgstr "MODUS VERLATEN"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERATIE\nSTALEN LAWINE"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERATIE\nVALLENZETTER"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERATIE\nHAMER EN AAMBEELD"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERATIE\nKAT IN DE MUIZENVAL"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERATIE\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERATIE\nPOSTBODE"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERATIE\nKOOKPUNT"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: \"En, hoe gaat het met je? Al een beetje bijgekomen? Je kunt straks naar de dokter. Elk kanon telt, want de aanval is al begonnen. En omdat we te laat waren, focust de vijand zich nu op een andere flank. Dit is onze kans. We vallen aan, rukken op naar de stad en nemen ze in de tang.\nVolg ons en kijk uit voor de drakentanden. Ze hebben een aantal rijen van die betonnen tanden in het veld geplaatst. Maar dat maakt niet uit, want we komen er wel doorheen. Je hoeft alleen maar goed naar mij te luisteren en mijn bevelen snel en nauwkeurig op te volgen. MacLeod en ik geven je vuursteun.\nEn let maar niet op zijn grappen. Iedereen gaat op zijn eigen manier met de spanning om... Voorwaarts!\""
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: \"Ah, Tigers – erger dan dat kun je op het slagveld niet tegenkomen. Als het opperbevel zegt dat ze een probleem hebben, dan hebben ze het waarschijnlijk over Tigers. We krijgen geen contact met de eerste aanvalsgroep, de tweede is net vertrokken, en wij zijn de derde.\nAls ze ons op pad sturen, kan dat maar één ding betekenen: Tigers. Dan zeggen ze in het hoofdkwartier: \"Stuur de Tiger-experts!\" Negen tanks met z'n tweetjes. Niet slecht in zes maanden tijd. Jij gaat aan de leiding met 5-4, maar deze strijd is nog niet gestreden. En ik wil die medaille!\nKom op, Brooks wacht niet graag. Onze jacht begint.\""
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: \"Luister allemaal, dit is operatie Hamer en Aambeeld. Een simpele naam voor een niet zo simpele klus. We gaan de stad in om alle vijanden uit de weg te ruimen. Het zal geen makkie worden – ze hebben enkele zware tanks. Maar wij beschikken over hersenen, spierkracht en teamwork, toch Lucky? En zet er een beetje vaart achter. Ik heb plannen voor een kopje 'thee' om vijf uur, als je weet wat ik bedoel!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: \"Geen idee, Lucky. Ik weet net zo weinig als jij. Ik ben geen fan van al dat geheime gedoe. Ik hou van rechtdoorzee: je ziet de vijand en je vecht. Dit is één grote troep.\n\nEr zullen ook geallieerde tanks in de stad zijn. Brooks vroeg ons voorzichtig te zijn. Wat betekent dat nou weer?\nWe hebben een speciale opdracht gekregen. We moeten een of ander Wunderwaffe vinden – iets heel groots op rupsbanden. Het is aan ons om dat te doen, Lucky.\n\nKlaar? We gaan.\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Kapitein John McCormick: \"Oké makkers, de dag is aangebroken. Tijd om deze oorlog te beëindigen, en het is aan ons om dat te doen. Aan ons samen – Amerikanen, Britten, Fransen, Canadezen, Australiërs, Belgen, Tsjecho-Slowaken, Grieken, Nederlanders, Kiwi's, Noren en Polen. We werken samen om dit kwaad voor eens en altijd te vernietigen.\n\nWe breken de Atlantikwall af en zullen een bruggenhoofd slaan.\n\nBereid je voor op de invasie!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Kapitein Smith: \"Luister gasten. Duitsland heeft een paar uur geleden het overgavedocument ondertekend. Morgen eindigt de oorlog. Maar omdat er geen radiocontact meer is met onze troepen in de bergen, weten zij daar niks van. Ze gaan bij zonsopgang dat fort aanvallen, en de Duitsers die daar zitten weten ook niets van de capitulatie. Het dreigt een zinloze afslachting te worden.\n\nAlleen wij kunnen dit stoppen. Onze missie: sluip door de vijandelijke linies en lever het bevel tot een staakt-het-vuren af. Het is een zelfmoordmissie, maar elk leven dat we redden is er één.\n\nWe hebben een gevangengenomen Duitse radio-officier bij ons – hij kent het terrein en wil net zo graag als ons dit bloedbad voorkomen.\n\nUitrukken!\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: \"De situatie is kritiek. We hebben geen contact meer met onze raketbasis in de Noorse Zee. De verkenningsvlucht is nooit teruggekeerd, en de invasiemacht met tanks is door een onbekende vijand vernietigd.\n\nVolgens de inlichtingendienst bereiden ze de lancering van een ballistische raket voor. Het doelwit daarvan is onbekend, maar met de huidige politieke situatie, kan één voltreffer een wereldwijd conflict ontbranden.\n\nVoelt net als vroeger, of niet? Weer een onmogelijke missie achter vijandelijke linies. Uitrukken!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERATIE STALEN LAWINE"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERATIE VALLENZETTER"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERATIE HAMER EN AAMBEELD"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERATIE KAT IN DE MUIZENVAL"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERATIE OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERATIE POSTBODE"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERATIE KOOKPUNT"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Speciaal voertuig"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERATIE KOOKPUNT"
+
+msgid "missionSelection/tab/newbies"
+msgstr "TUTORIALVERHALEN"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Val het dorp aan en vernietig vijandelijke voertuigen."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Val het dorp aan en vernietig vijandelijke voertuigen."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Val het dorp aan en vernietig vijandelijke voertuigen."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Bereik de hoofddoelen van de missie zonder schade te ontvangen van vijandelijke mijnen."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Bereik de hoofddoelen van de missie zonder een voertuig te verliezen."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Val het dorp aan en verover het vijandelijke Wunderwaffe."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Voltooi de hoofddoelen van de missie binnen %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Voltooi de hoofddoelen van de missie en vernietig %(kill_enemies)s met behulp van het vliegtuig."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Breek door, vernietig de kustkanonnen en verover het bruggenhoofd."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Voltooi de hoofddoelen van de missie binnen %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Bereik de hoofddoelen van de missie zonder een voertuig te verliezen."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Lever het bevel tot een staakt-het-vuren af bij je bondgenoten."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Voltooi de hoofddoelen van de missie en vernietig minder dan %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Voltooi de hoofddoelen van de missie zonder een voertuig te verliezen."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Bereik het commandocentrum en stop de raketlancering."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Voltooi de hoofddoelen van de missie binnen %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Voltooi de hoofddoelen van de missie zonder een voertuig te verliezen."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s vijandelijk voertuig"
+msgstr[1] "%(value)s vijandelijk voertuigen"
+msgstr[2] "%(value)s vijandelijk voertuigen"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "De missie is vergrendeld: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minuut"
+msgstr[1] "%(value)s minuten"
+msgstr[2] "%(value)s minuten"
+
+msgid "missionSelection/taskRewards"
+msgstr "Beloning: "
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Dit voertuig is alleen beschikbaar in verhalen."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Speel nog %(numBattles)s Willekeurige gevechten\nom deze operatie te ontgrendelen."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Scenario's voor beginners"
+
+msgid "mode/story_mode/description"
+msgstr "Voltooi gescripte operaties tegen door AI bestuurde voertuigen"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operatie Kookpunt is beschikbaar"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Bovenaan de garage kun je zien welke spelmodus op dit moment is geselecteerd. Klik op de naam van de modus om te zien wat er nog meer beschikbaar is."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Klik op &zwnbsp;{whiteSpanish_Open}Verhalen{whiteSpanish_Close}&zwnbsp; om deze spelmodus te selecteren."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "In Verhalen kun je PvE-scenario's spelen, tegen AI-bestuurde vijanden vechten, dieper in de sfeer van heroïsche gevechten duiken, en waardevolle beloningen verdienen!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Ga naar spelmodusselectie"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Selecteer Verhalen"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Geniet van PvE-actie"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "VERHALEN"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Scenario's met een script"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Herstarten"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "HET GEVECHT IS AFGELOPEN"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Overslaan"
+
+msgid "onboardingQueue/skipText"
+msgstr "Alle servers zijn bezig. Wacht eventjes of sla dit verhaal over."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Bezig met het voorbereiden van de server. Even geduld..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Schade geblokkeerd door bepantsering {parSecondary_Start}(eenheden){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Geblokkeerde schade"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Treffers met HE- en HESH-granaten tellen niet mee."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Meegeteld:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Afketser van vijandelijke schoten"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Niet-penetrerende treffers"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Geassisteerde schade"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "De volgende soorten schade veroorzaakt door bondgenoten met jouw assistentie tellen mee:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Schade door jouw verkenning"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Schade door jouw vernietiging van een rupsband en immobilisatie van een vijandelijk voertuig"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Totale schade veroorzaakt door bondgenoten {parSecondary_Start}(eenheden){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Veroorzaakte schade"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Meegeteld:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Schade door een schot"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Schade door rammen"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Schade door brand"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Schade door het vijandelijk voertuig van een obstakel af te duwen"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Totale schade {parSecondary_Start}(eenheden){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Vijanden vernietigd"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Meegeteld:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Vernietiging door een schot"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Vernietiging door brand"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Vernietiging door rammen"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Vernietiging door verdrinking"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Vernietiging door het vijandelijk voertuig van een obstakel af te duwen"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Vernietiging door kantelen"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Voltooide missies"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Het aantal voltooide missies en alle op dit\nmoment beschikbare missies.\nMissies voltooid op moeilijkheidsgraad\nrigoureus worden automatisch ook op\nregulier voltooid."
+
+msgid "tooltips/difficulty/available"
+msgstr "Beschikbaar"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "De reactiesnelheid en nauwkeurigheid van vijanden is toegenomen, en ze zullen je agressiever aanvallen. Daartegenover staat dat je na het voltooien van een missie extra beloningen ontvangt."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Wanneer je missies op moeilijkheidsgraad {whiteSpanish_Open}Rigoureus{whiteSpanish_Close} voltooit, zul je automatisch ook de beloningen van moeilijkheidsgraad {whiteSpanish_Open}Regulier{whiteSpanish_Close} ontvangen. Je zult de beloningen van beide moeilijkheidsgraden ontvangen."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Extra voorwaarde"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Rigoureus"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Ontgrendel moeilijkheidsgraad rigoureus door je vaardigheid in de spelmodus te tonen en deze operatie op regulier te voltooien."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Vergrendeld"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Opponenten zijn langzamer en minder nauwkeurig, en je zult na het voltooien van een missie standaard beloningen ontvangen."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Regulier"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Geselecteerd"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Een uitdagendere versie van het mijnenveld-stadium van de operatie. Durf jij dit dodelijke doolhof te betreden?\nBiedt meer beloningen."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Rigoureus, mijnenveld"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Identificeer de onbekende dreiging, stop de raketlancering, en zorg dat de nieuwe technologie in de juiste handen valt."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operatie Kookpunt"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "MODUS"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "– spelmodus. Klik en ontdek"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Speel solo en bestrijd AI-vijanden in dit epische verhaal met commandanten uit Sector 3!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Evenement beschikbaar voor {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "VERHALEN"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "MODUS"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "– spelmodus. Klik en ontdek"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Speciale scenario's met een script. Ga op reis in de wereld van gepantserde voertuigen en bewijs je waarde in gevechten tegen AI-bestuurde vijanden."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Verhalen"
+
+msgid "tooltips/task/active"
+msgstr "Actief"
+
+msgid "tooltips/task/completed"
+msgstr "Voltooid"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Onbekende voorwaarden"
+
+msgid "tooltips/task/locked"
+msgstr "Vergrendeld: %(timer)s"

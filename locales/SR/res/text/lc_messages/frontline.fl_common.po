@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Poništi filtere"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Nema vozila koja odgovaraju odabranim parametrima.\nFilteri moraju biti poništeni da bi se videla odgovarajuća vozila"
+
+msgid "battleType/description/fast"
+msgstr "Scenario sa smanjenim hlađenjem borbene rezerve."
+
+msgid "battleType/description/random"
+msgstr "Scenario gde igrači biraju između kompleta nasumičnih rezervi sa prilikom da ih poboljšaju do IV nivoa."
+
+msgid "battleType/description/standard"
+msgstr "Scenario sa standardnim pravilima Linije fronta."
+
+msgid "battleType/postBattle/title"
+msgstr "Borbeni scenario: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Smanjeno hlađenje rezervi."
+
+msgid "battleType/shortDescription/random"
+msgstr "Borbene rezerve se dele nasumično."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Primenjuju se standardna pravila."
+
+msgid "battleType/title/fast"
+msgstr "Operaciona podrška"
+
+msgid "battleType/title/random"
+msgstr "Obrt sudbine"
+
+msgid "battleType/title/standard"
+msgstr "Standardna bitka"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "NAZAD"
+
+msgid "button/close"
+msgstr "ZATVORI"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} dan"
+msgstr[1] "{duration} dana"
+msgstr[2] "{duration} dana"
+
+msgid "filterPopover/note"
+msgstr "Samo vozila koja se mogu koristiti u režimu se prikazuju."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Nivoi borbenih rezervi se povećavaju po dostizanju novih rangova."
+
+msgid "levelReservesTooltip/info"
+msgstr "U scenariju {whiteSpanish_Start}Obrt sudbine{whiteSpanish_End}, kupovina borbene rezerve će podići njen nivo za jedan i obezbediti priliku da se nivo poboljša na {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Povećava se po dostizanju sledećih rangova: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Dostupno uz sledeće rangove: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Nivo {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Za {whiteSpanish_Start}kupovinu borbenih rezervi{whiteSpanish_End} u scenariju {whiteSpanish_Start}Obrt sudbine{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Nivoi borbenih rezervi"
+
+msgid "loading"
+msgstr "Učitavanje..."
+
+msgid "widget/eventStartSoon"
+msgstr "Događaj će početi uskoro!"
+
+msgid "widget/maxTier"
+msgstr "Dostigao si maksimalan nivo!"

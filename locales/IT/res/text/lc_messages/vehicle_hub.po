@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Consente di sparare una serie di proiettili dal caricatore uno alla volta, ricaricando automaticamente ogni colpo nel tempo."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Permette di sparare una serie di proiettili dal caricatore uno alla volta, ricaricando ogni colpo automaticamente nel tempo. Fornisce un bonus alla velocità di caricamento del proiettile successivo durante la ricarica."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Spara rapide raffiche di proiettili per infliggere danni elevati in breve tempo, a discapito di perforazione e precisione. Particolarmente efficace nel combattimento ravvicinato."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Spara proiettili con sezione a stella, causando il massimo danno entro 50 m. Il danno dei proiettili diminuisce con la distanza, rendendoli più efficaci nel combattimento ravvicinato."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Un sistema di raffreddamento esclusivo che consente un doppio puntamento: attendere dopo la ricarica consente all'arma di sparare con maggiore precisione. La maggiore precisione è evidenziata da un secondo cerchio di mira più piccolo."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Un sistema a doppio cannone con la possibilità di sparare con entrambe le canne separatamente o simultaneamente. I colpi doppi causano un danno a raffica elevato, ma richiedono una ricarica più lunga."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Permette allo scafo del veicolo di modificare gli angoli di elevazione, offrendo opportunità di fuoco da più posizioni in battaglia. L'attivazione dipende da diverse condizioni."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Modifica la posizione delle ruote aggiuntive per aumentare significativamente la velocità, ma a scapito della manovrabilità. Ideale per percorrere lunghe distanze e per attacchi rapidi."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Permette di sparare una serie di proiettili dal caricatore prima di dover ricaricare completamente. Infligge danni a raffica elevati, ma rende il veicolo vulnerabile durante la ricarica. È possibile ricaricare l'intero caricatore solo in una volta."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Il cannone può sparare ininterrottamente senza bisogno di ricaricare. Ogni colpo genera calore: più alta è la sua temperatura, più alcuni cambiamo alcuni dei suoi parametri. Lo sparo continuo causerà il surriscaldamento del cannone, impedendo di continuare a sparare finché la canna non si sarà raffreddata."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Aumenta la potenza del motore e la velocità massima per spostamenti rapidi sul campo di battaglia. Quando attivati, i razzi ausiliari riducono la manovrabilità e non possono essere disattivati manualmente."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Una volta attivata, questa modalità speciale aumenta e/o modifica determinati parametri di battaglia. È consigliabile attivarla quando si è in posizione e pronti ad attaccare il nemico."
+
+msgid "abilities/common/description/stun"
+msgstr "Stordisce i veicoli nemici entro un determinato raggio d'azione, anche senza un colpo diretto, peggiorandone brevemente la mobilità, la precisione e il tempo di ricarica. I nemici storditi sono contrassegnati da un indicatore di stordimento."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Permette al veicolo di muoversi a velocità ridotta quando il cingolo principale è stato distrutto. La perdita di un cingolo aggiuntivo esterno riduce ulteriormente la mobilità, ma il veicolo può comunque girare e muoversi."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Consente al veicolo di viaggiare molto più velocemente, riducendo sensibilmente i parametri di maneggevolezza del cannone."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Una volta attivata, questa modalità speciale raddoppia i danni e aumenta e/o modifica alcuni parametri di combattimento. Ideale per scontri ravvicinati."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Autoricaricamento"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Autoricaricamento migliorato"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Cannone automatico"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Cannone con rigatura profonda"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Raffreddamento del cannone"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Doppia canna"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Sospensioni idropneumatiche"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Modalità rapida"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Caricatore automatico"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Cannone automatico con controllo del surriscaldamento"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Razzi ausiliari"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Modalità assedio"
+
+msgid "abilities/common/name/stun"
+msgstr "Stordimento"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Cingolo di scorta"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Modalità turbo"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Modalità fuoco a salva"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Rimanendo fermo o muovendoti lentamente, aumenti i livelli di precisione con cui incrementare la precisione del tuo colpo successivo.\nAl livello di precisione più alto, ottieni una buona maneggevolezza del cannone, con dispersione ridotta anche in movimento o ruotando torretta o scafo."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Ogni volta che colpisci un nemico con un proiettile, ottieni un livello di efficienza di ricarica, che aumenta temporaneamente la velocità di ricarica del tuo cannone. I livelli si accumulano con ogni colpo a segno. \nDistruggendo un veicolo nemico con un proiettile ottieni livelli di efficienza di ricarica aggiuntivi."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Se il tuo cannone è carico, puoi iniziare a riscaldare il prossimo colpo per aumentarne i danni: più alto è il livello di calore, maggiore è l'effetto.\nAl livello di calore massimo, hai alcuni secondi per sparare: se non lo fai, non potrai sparare per qualche istante."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Mettere a segno due colpi che perforano la corazza di veicoli nemici attiva la modalità Raffica, che carica una cassetta di fuoco a raffica con cui sparare due colpi in rapida successione con il prossimo colpo, causando danni enormi."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Lo Stabilizzatore giroscopico pneumatico garantisce stabilizzazione massima durante il movimento, la rotazione dello scafo e la rotazione della torretta, consentendo un tiro più preciso, oltre a reazioni rapide alle minacce improvvise e la possibilità di ingaggiare efficacemente dalle coperture."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Il sistema inizia automaticamente a caricare una nuova cassetta quando rimane un proiettile in quella attuale, mantenendoti pronto a colpire. Puoi comunque sparare l'ultimo proiettile durante questo processo, ma così facendo, aggiungerai alcuni secondi al tempo di ricarica rimanente."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Il sistema mantiene freddo il cannone, fornendo una maggiore precisione di tiro. L'utilizzo del cannone lo surriscalda, ma durante la ricarica inizia a raffreddarsi tornando ai parametri migliorati. Maggiore è la sua temperatura, più cambieranno alcuni dei suoi parametri."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Basandosi sull'esperienza maturata con la progettazione dei modelli precedenti, questo veicolo è stato appositamente configurato per effettuare micidiali attacchi di speronamento. I rinforzi strutturali gli permettono di infliggere più danni quando sperona i veicoli nemici e gli forniscono un vantaggio negli scontri a distanza ravvicinata."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Il cannone di questo veicolo può sparare in anticipo: i colpi a carica singola, sparati durante la ricarica, hanno un'efficacia ridotta, mentre i normali colpi a carica completa sparati dopo la ricarica hanno parametri balistici ottimali."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Il cannone può sparare ininterrottamente senza bisogno di ricaricare. Ogni colpo genera calore: più alta è la sua temperatura, più alcuni cambiamo alcuni dei suoi parametri. Lo sparo continuo causerà il surriscaldamento del cannone, impedendo di continuare a sparare finché la canna non si sarà raffreddata."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Rimani fermo o muoviti lentamente per generare preriscaldamento, che aumenta il danno e la precisione del tuo prossimo colpo. Al preriscaldamento massimo, perforare un nemico con meno HP del tuo danno medio causa la detonazione della sua stiva munizioni, distruggendo il veicolo."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Questa modalità trasforma il veicolo in una piattaforma d'armamento fortificata, garantendo una precisione superiore e tempi di ricarica ridotti. In cambio di questa maggiore potenza di fuoco, la mobilità del veicolo — velocità in avanti/retromarcia e movimento verticale/orizzontale — è pesantemente limitata."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Questa modalità offre un notevole incremento della potenza del motore e della velocità massima in avanti. Più a lungo ti muovi in avanti, più la velocità aumenta, consentendoti di attraversare il campo di battaglia rapidamente e di percorrere lunghe distanze con facilità."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Il sistema accumula carica nel tempo, che al suo crescere garantisce un bonus al danno maggiore. La carica è limitata da un limitatore, che può essere disattivato per ottenere un bonus al danno superiore, a costo di una riduzione alla maneggevolezza del cannone."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Attiva i Razzi ausiliari a combustibile liquido in qualsiasi momento per avere un'immediata accelerazione quando ne hai più bisogno. I razzi ausiliari si riscaldano e devono raffreddarsi prima di poter essere riutilizzati, e superare il loro livello di calore critico li disabilita completamente per un periodo di tempo."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Propulsori a combustibile solido che aumentano accelerazione, mobilità e manovrabilità per svariati secondi. I propulsori sinistro e destro possono lavorare indipendentemente, così da aumentare la rotazione dello scafo e non limitare la capacità in retromarcia."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "A seconda della modalità attiva e del livello di carica, il veicolo può attivare una delle due abilità: \nPostbruciatore a scarica ionica: aumenta la potenza del motore e la velocità. \nOttica elettromeccanica a coincidenza: riduce la dispersione e il tempo di ricarica, e migliora la precisione."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Questo modulo ti consente di continuare a combattere interrompendo la ricarica in qualsiasi momento, se è stato caricato almeno un proiettile. Premi il tasto rapido per interrompere la ricarica, sparare dopo un breve ritardo, e quindi riprendere la ricarica manualmente o lasciare che il caricatore si ricarichi automaticamente quando è vuoto."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Premendo il pulsante di attivazione, le armi ausiliarie del veicolo sparano contro il bersaglio. Questa potenza di fuoco aggiuntiva ha un proprio ciclo di ricarica, indipendente dal cannone principale."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Il tuo colpo successivo applica un effetto basato sullo stato di avvistamento del nemico. Colpendo un nemico avvistato, lo si marchia: rimarrà avvistato più a lungo e riceverà più danni. Colpendo un nemico non avvistato, la sua posizione sarà evidenziata da un indicatore speciale."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Offre danni doppi e stabilizzazione migliorata a discapito di mobilità, precisione, velocità di brandeggio della torretta e tempo di puntamento. Ideale per il combattimento ravvicinato."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Questa modifica meccanica aumenta notevolmente, per un breve periodo, l'accelerazione del veicolo, la potenza del motore e la velocità massima in avanti e in retromarcia, consentendoti di reagire rapidamente agli attacchi nemici e di cogliere di sorpresa gli avversari con manovre dinamiche."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Dispositivo di calcolo balistico analogico"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Stiva munizioni semiautomatica"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Sovraccarico termobalistico"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Modalità Raffica"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Stabilizzatore giroscopico pneumatico"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Sistema di caricamento a cassetta"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Raffreddamento attivo del cannone"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Configurazione da speronamento"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Sistema a cariche multiple"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Cannone automatico con controllo del surriscaldamento"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Sistema di controllo termico del propellente"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Modalità Casamatta"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Trasmissione diretta"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Postcombustione a induzione"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Razzi ausiliari a combustibile liquido"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Propulsori a razzo sequenziali"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Pacco batteria tattico"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Modulo esterno di rifornimento munizioni"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Armi ausiliarie"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Designatore laser di bersagli"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Modalità Fuoco a salva"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Turbo ausiliario ad alta pressione"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Aumenta la precisione del prossimo colpo, con una buona stabilizzazione a calibrazione completa."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Ogni colpo a segno su un veicolo nemico aumenta la velocità di ricarica del cannone per un periodo limitato."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Fai salire i livelli di calore per causare più danni ai veicoli nemici con il tuo prossimo colpo."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Una cassetta di fuoco a raffica che permette di sparare due proiettili in rapida successione."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Massimizza la stabilizzazione durante il movimento e la rotazione per un tiro più preciso."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Incomincia automaticamente la ricarica quando arriva all'ultimo proiettile, che può ancora essere sparato durante la ricarica."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Un sistema di raffreddamento attivo del cannone che ne migliora la precisione man mano che l'arma si raffredda."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Aumenta i danni da speronamento causati ai veicoli nemici."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Una meccanica di gioco speciale che consente di sparare in anticipo, a scapito però dell'efficacia del colpo."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Il sistema consente il fuoco continuo senza ricaricare e controlla il modo in cui l'arma genera calore durante lo sparo."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Rimanere fermi o muoversi lentamente aumenta il danno e la precisione del colpo successivo."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Aumenta drasticamente la precisione del cannone e la velocità di ricarica, ma limita pesantemente la mobilità."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Fornisce un incremento alla potenza del motore, aumentando la velocità massima quanto più a lungo il veicolo rimane in movimento."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Il sistema accumula carica per aumentare il danno. Maggiore è la carica, maggiore è il danno."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Razzi ausiliari che possono essere attivati in qualsiasi momento per fornire una rapida accelerazione."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Propulsori a combustibile solido che aumentano accelerazione, mobilità e manovrabilità."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Carica una tra due abilità uniche, aumentando la velocità o migliorando la precisione del cannone."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Permette di interrompere la ricarica e di rispondere al fuoco in momenti cruciali."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Alcune armi aggiuntive per fornire una potenza di fuoco oltre a quella del cannone principale."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Aumenta il tempo in cui i nemici sono avvistati e i danni che subiscono, o li evidenzia con un indicatore speciale."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Consente di sparare contemporaneamente da entrambi i cannoni, al prezzo di un maggiore tempo di ricarica."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Una meccanica speciale che aumenta la potenza del motore, l'accelerazione e la velocità massima per un breve periodo."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Rimanendo fermo o muovendoti al di sotto di una certa velocità consenti al tuo veicolo di calibrare il suo Dispositivo di calcolo balistico analogico e di aumentare i livelli di precisione, incrementando la precisione del colpo successivo. Se superi il limite di velocità, i progressi per l'aumento dei livelli di precisione vengono interrotti finché non rallenti. Al livello massimo di precisione, il veicolo ottiene una discreta stabilizzazione del cannone, con una dispersione ridotta dovuta al movimento o alla rotazione di torretta o scafo. L'effetto viene rimosso sparando."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Ogni volta che colpisci un nemico visibile con un proiettile, guadagni un livello di efficienza di ricarica, aumentando temporaneamente la velocità di ricarica del tuo cannone. I livelli si accumulano a ogni colpo a segno, e distruggere un veicolo nemico con un proiettile garantisce ulteriori livelli di efficienza di ricarica."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Se il tuo cannone è carico, puoi iniziare a riscaldare il prossimo colpo. Più alto è il livello di calore raggiunto, maggiore sarà il bonus al danno medio. Durante il processo di riscaldamento, non puoi cambiare proiettili. Quando raggiungi il livello di calore massimo, inizia un conto alla rovescia. Se non spari prima del termine, non potrai sparare per alcuni secondi."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Mettendo a segno due colpi che perforano la corazza di veicoli nemici, si attiva la modalità Raffica, che carica una cassetta di fuoco a raffica che consente di sparare due proiettili in rapida successione con il colpo successivo."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Lo Stabilizzatore giroscopico pneumatico garantisce la stabilizzazione massima durante la rotazione di scafo e torretta per un breve periodo di tempo, consentendo un tiro più preciso in movimento e reazioni rapide alle minacce improvvise."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Il sistema inizia automaticamente a caricare una nuova cassetta quando rimane un proiettile in quella attuale. Sparare l'ultimo proiettile mentre viene caricata la nuova cassetta aggiunge alcuni secondi al tempo di ricarica rimanente. Premendo il tasto rapido di Ricarica caricatore si scartano tutti i proiettili rimanenti tranne l'ultimo. Premi due volte il tasto rapido per ripristinare una cassetta completamente carica."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Il sistema mantiene freddo il cannone, fornendo una maggiore precisione di tiro. L'utilizzo del cannone lo surriscalda, ma durante la ricarica inizia a raffreddarsi tornando ai parametri migliorati. Maggiore è la sua temperatura, più cambieranno alcuni dei suoi parametri."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Questo veicolo è appositamente configurato per gli attacchi di speronamento, con una serie di modifiche progettuali che gli consentono di infliggere più danni speronando veicoli nemici."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Il cannone di questo veicolo può sparare in anticipo: i colpi a carica singola, sparati durante la ricarica, hanno un'efficacia ridotta, mentre i normali colpi a carica completa sparati dopo la ricarica hanno parametri balistici ottimali."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Il cannone può sparare ininterrottamente senza bisogno di ricaricare. Ogni colpo genera calore: più alta è la sua temperatura, più cambiano alcuni dei suoi parametri. Il fuoco continuo causerà il surriscaldamento del cannone, impedendo di continuare a sparare finché la canna non si sarà raffreddata."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Rimanendo fermo o muovendoti al di sotto di una certa velocità generi preriscaldamento, che aumenta il danno medio e la precisione del tuo prossimo colpo. Superare il limite di velocità riduce gradualmente il bonus, mentre sparare o cambiare proiettile lo azzera istantaneamente. Al livello massimo di preriscaldamento, perforare la corazza di un veicolo nemico con meno integrità del tuo danno medio — comprensivo del bonus di preriscaldamento accumulato — causerà la detonazione della sua stiva munizioni, distruggendo istantaneamente il veicolo."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "In questa modalità, la precisione del cannone, la velocità di ricarica e gli angoli di elevazione/depressione sono drasticamente aumentati, ma la mobilità (velocità in avanti/retromarcia e velocità di movimento verticale/orizzontale) è pesantemente limitata. I valori percentuali sono indicati per il confronto con la modalità Assedio."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "La modalità Trasmissione diretta aumenta notevolmente la potenza del motore e la velocità massima in avanti. Più a lungo ti muovi in avanti, più la velocità aumenta, consentendoti di attraversare il campo di battaglia con facilità."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Con il passare del tempo, il sistema accumula automaticamente una carica, che viene parzialmente consumata per aumentare il danno durante lo sparo. Maggiore è la carica, maggiore sarà il danno bonus. Normalmente, il sistema immagazzina la carica solo fino a un certo limite. Disabilitando il limitatore, è possibile accumulare una carica ancora maggiore, garantendo un bonus di danno molto più elevato ma riducendo la maneggevolezza del cannone."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "I Razzi ausiliari a combustibile liquido garantiscono un'esplosione di potenza del motore, consentendo di ottenere un vantaggio di posizione sul campo di battaglia, ma limitando la velocità di retromarcia e di rotazione del veicolo. Possono essere attivati o disattivati in qualsiasi momento, tranne dopo aver raggiunto il limite di riattivazione. I razzi ausiliari si scaldano quando sono attivi e non sono disponibili fino a quando non si raffreddano, per cui non possono essere usati ininterrottamente: superare il livello di calore critico li disabilita completamente per un periodo di tempo. Pianifica attentamente i tuoi movimenti per evitare di essere colto di sorpresa."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Propulsori a combustibile solido che migliorano accelerazione, mobilità e manovrabilità per svariati secondi. A differenza dei normali razzi ausiliari, i propulsori sinistro e destro possono funzionare indipendentemente l'uno dall'altro per ruotare lo scafo più rapidamente e non limitano la capacità di retromarcia. Possono essere utilizzati più volte durante una battaglia, ma richiedono un tempo di raffreddamento prima di poter essere riattivati."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "A seconda della modalità attiva e del livello di carica, il veicolo può attivare una delle due abilità: Postbruciatore a scarica ionica oppure Ottica elettromeccanica a coincidenza.\nIl Postbruciatore a scarica ionica aumenta temporaneamente la potenza del motore, la velocità massima in avanti e la velocità in retromarcia. L'Ottica elettromeccanica a coincidenza migliora temporaneamente la precisione e riduce il tempo di ricarica."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Il Modulo esterno di rifornimento munizioni ti consente di interrompere la ricarica e di iniziare a sparare in qualsiasi momento, purché tu abbia ancora un proiettile carico. Durante la ricarica, il modulo blocca la torretta del veicolo e le capsule di munizioni esterne del veicolo, impedendo temporaneamente di mirare o sparare a meno che tu non lo interrompa."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Questo veicolo è dotato di una serie di armi ausiliarie il cui ciclo di ricarica è separato da quello del cannone principale, consentendo di causare danni aggiuntivi in momenti chiave."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Il Designatore laser di bersagli aggiunge un effetto speciale al tuo colpo successivo, applicato a qualsiasi nemico colpito. L'effetto varia a seconda che il nemico sia stato avvistato o meno al momento dell'impatto. Colpendo un veicolo nemico avvistato, lo si marchia, prolungando il tempo in cui rimane in vista e aumentando i danni che riceve dai proiettili, mentre colpendo un veicolo nemico non avvistato si evidenzia la sua posizione con un indicatore speciale."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Offre danni doppi e stabilizzazione migliorata a discapito di mobilità, precisione, velocità di brandeggio della torretta e tempo di puntamento. Ideale per il combattimento ravvicinato."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Questa modifica meccanica aumenta notevolmente, per un breve periodo, l'accelerazione del veicolo, la potenza del motore e la velocità massima in avanti e in retromarcia, consentendoti di reagire rapidamente agli attacchi nemici e di cogliere di sorpresa gli avversari con manovre dinamiche. Mantenere un'elevata velocità di movimento accelera la ricarica della meccanica."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Tutti i valori mostrati sono i massimi possibili per il veicolo. Gli equipaggiamenti, le direttive e i consumabili possono modificare questi valori, ma tali variazioni non sono riportate qui."
+
+msgid "characteristics/templates/upTo"
+msgstr "Fino a %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Acquista e monta"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Potenziamento specifico"
+
+msgid "modules/controls/button/mount"
+msgstr "Monta"
+
+msgid "modules/controls/button/research"
+msgstr "Ricerca"
+
+msgid "modules/controls/button/sell"
+msgstr "Vendi dal Magazzino"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Questo veicolo è in battaglia. Puoi modificarne i moduli una volta terminata la battaglia."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Questo veicolo è danneggiato. Riparalo per poterne modificare i moduli."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Impossibile montare il modulo. {{module}} non compatibile."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Questo veicolo è in un'unità tattica."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Acquista questo veicolo per poterne modificare i moduli."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Ricerca i moduli precedenti per poter ricercare questo modulo."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Ricerca questo veicolo per poterne ricercare i moduli."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Tutti i moduli sono stati ricercati."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Questo modulo è già montato."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Seleziona un modulo o un veicolo da ricercare."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Questo veicolo è in battaglia. Puoi modificarne i moduli una volta terminata la battaglia."
+
+msgid "modules/controls/name"
+msgstr "Selezionato: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Telaio"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Motore"
+
+msgid "modules/name/vehicleGun"
+msgstr "Cannone"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Radio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Torretta"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Ruote"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Veicoli da collezione"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Capacità di ottenere"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "crediti per ogni battaglia"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "trasferimento dell'equipaggio senza penalità"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "Exp di combattimento ed Exp dell'equipaggio"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Titoli"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Più"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Gratis"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Più"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Ottieni Titoli"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Più crediti"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Trasferimento gratuito"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Più esperienza"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Kit di riparazione gratis"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Capacità di ottenere"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "crediti per ogni battaglia"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "trasferimento dell'equipaggio da qualsiasi classe di veicolo senza penalità"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "Exp di combattimento ed Exp dell'equipaggio"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Titoli"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Più"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Gratis"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Più"
+
+msgid "overview/crew/name"
+msgstr "Equipaggio {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Guarda meccanica"
+
+msgid "overview/title/generalDescription"
+msgstr "Descrizione veicolo"
+
+msgid "overview/title/historicalReference"
+msgstr "Riferimento storico"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Fino al {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Recupero disponibile fino al {{date}}"
+
+msgid "tabs/armor"
+msgstr "Corazza"
+
+msgid "tabs/modules"
+msgstr "Moduli"
+
+msgid "tabs/overview"
+msgstr "Panoramica"
+
+msgid "tabs/stats"
+msgstr "Caratteristiche"
+
+msgid "tabs/vehSkillTree"
+msgstr "Potenziamento"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Noleggio terminato"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Abbonamento sospeso"

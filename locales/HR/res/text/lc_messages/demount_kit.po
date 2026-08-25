@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "Demontirati"
+
+msgid "demountKit/gained/count"
+msgstr "Komplet za demontiranje (x%(count)s)"
+
+msgid "demountKit/sell/header"
+msgstr "Prodano:"
+
+msgid "demountKit/sell_success"
+msgstr "Potrošni materijal \"Komplet za demontiranje\" (%(count)s predmet(a)). Primljeno kredita: %(count)s."
+
+msgid "demountKit/tooltip/description/common"
+msgstr "Demontira jedan predmet opreme."
+
+msgid "dialogue/description/common"
+msgstr "Demontira jedan predmet standardne opreme ili nagradne opreme."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "Prodajna cijena je niža od uobičajene-možete kupiti na popustu."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "Demontirana oprema će biti poslana u skladište."
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "Pozor! Ova oprema je promjenila svoju klasu u odnosu na trenutni tip vozila.\nOva oprema se može demontirati besplatno, ali ako je demontirate,{red_Open}nećete je moći{red_Close} ponovno montirati na ovo vozilo."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "Demontirati opremu \"%(equipment)s\"?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "Demontirati %(equipment)s kako bi se montirala nova oprema?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "Zaradi ih u bitkama ili primi kao nagradu akcija igre."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "Nedovoljno obveznica"
+
+msgid "equipmentDemount/optionFree"
+msgstr "Besplatno"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WOT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "Odustani"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "Ova kopija montirane opreme je alternativni komplet koji se može besplatno demontirati."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "Demontirati"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "Demontirati opremu %(equipment)s iz ovog mjesta?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "Demontirati trenutni %(equipment)s kako bi se montirala nova oprema?"
+
+msgid "equipmentDemountPrice"
+msgstr "Trošak demontiranja:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> ili %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s ili %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> ili %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "Može se demontirati za prodaju ili montirati na drugo vozilo za %(count)s ili uništiti."
+
+msgid "shop/DemountOptions/common"
+msgstr "Može se demontirati za prodaju ili montirati na drugo vozilo za %(count)s, s %(iconDK)s opremom za demontiranje ili uništiti."
+
+msgid "storage/description/common"
+msgstr "Demontira standardnu opremu ili nagradnu opremu. Troši se prilikom aktivacije."
+
+msgid "storage/userName/common"
+msgstr "Oprema za demontiranje"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "Popust: %(actionPrc)s, prethodna cijena: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "Oprema za demontiranje"

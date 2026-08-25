@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: <translator name> <<translator email>>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Priimti"
+
+msgid "EULA/labels/agree"
+msgstr "Aš sutinku"
+
+msgid "EULA/title"
+msgstr "Galutinio vartotojo sutartis"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Šis el. paštas jau yra susietas su jūsų paskyra."
+
+msgid "accountCompletion/activate/button"
+msgstr "Siųsti kodą/Pakeisti el. paštą"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Pakartoti kodo siuntimą arba pakeisti el. pašto adresą po %(timer) s"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Įveskite savo el. pašto adresą dar kartą"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Kodas nebegalioja. Įveskite savo el. pašto adresą dar kartą."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Klaidingas kodas"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Jeigu negaunate el. laiško, pasitikrinkite savo el. pašto adresą, gal suklydote jį rašydami."
+
+msgid "accountCompletion/activate/text"
+msgstr "Elektroninis laiškas su patvirtinimo kodu iš Wargaming.net išsiųstas adresu {whiteSpanish_Open}%(email){whiteSpanish_Close}. Įveskite 4 skaitmenų patvirtinimo kodą iš savo elektroninio laiško ir patvirtinkite paskyrą."
+
+msgid "accountCompletion/activate/title"
+msgstr "Patvirtinkite el. pašto adresą"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Per daug kartų klaidingai įvedėte kodą."
+
+msgid "accountCompletion/add"
+msgstr "Pridėti"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Šis el. paštas jau yra susietas su jūsų paskyra."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "El. paštas jau susietas"
+
+msgid "accountCompletion/cancel"
+msgstr "Vėliau"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Jūsų el. paštas"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "El. paštas"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Nurodykite savo el. pašto adresą ir gaukite apdovanojimą bei pilną prieigą prie visų žaidimo renginių."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "GAUKITE PILNĄ PRIEIGĄ PRIE ŽAIDIMO"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Norėdami gauti prizą ir atrakinti naujas funkcijas, įveskite ir patvirtinkite savo elektroninio pašto adresą. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Užpildyti paskyrą"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Su šiuo el. pašto adresu jau yra užregistruota paskyra."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Šis el. pašto adresas neleidžiamas."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "El. pašto adresas turi būti ne ilgesnis nei %(amount)s simbolių."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "El. pašto adresas turi būti sudarytas bent iš %(amount)s simbolių."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Jūsų el. paštas jau patvirtintas."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "El. paštas patvirtintas"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Viršijote užklausų kiekį. Jūs galite pakeisti el. pašto adresą ar dar kartą išsiųsti laišką po %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Ši el. pašto paslauga blokuojama jūsų šalyje."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Ši el. pašto paslauga draudžiama jūsų šalyje."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Negalima susieti el. pašto"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "El. pašto adresas gali būti sudarytas tik iš lotyniškų raidžių, skaičių, @ simbolių, taškų ir pabraukimo simbolių."
+
+msgid "accountCompletion/later"
+msgstr "Vėliau"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Apdovanojimas už el. pašto patvirtinimą"
+
+msgid "accountCompletion/submit"
+msgstr "Patvirtinti"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Laukiame serverio eilėje.\nTai gali šiek tiek užtrukti."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Paslauga laikinai nepasiekiama. Pabandykite iš naujo."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Paslauga laikinai nepasiekiama.\nPabandykite dar kartą po %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Atšaukti"
+
+msgid "barracksExpand/message"
+msgstr "Išplėsti kareivines už %(price)s aukso pridedant gultų: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "Padidinti"
+
+msgid "barracksExpand/title"
+msgstr "Išplėsti kareivines"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Neužtenka aukso."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Išplėsti kareivines"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Atšaukti"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Ne visi žaidėjai pasiruošė mūšiui arba jų yra mažiau nei privalomas kiekis."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Pradėti mūšį"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Nepilna sudėtis"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Aktyvuoti bonusą %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Patvirtinimas"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Patvirtinti aktyvavimą"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Aktyvavus asmeninį rezervą %(newBoosterName)s, dabar aktyvus asmeninis rezervas %(curBoosterName)s bus atšauktas ir sunaikintas."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Taip"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Patvirtinti aktyvavimą"
+
+msgid "buyConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "buyConfirmation/message"
+msgstr "Pirkti %(product)s už %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Pirkti {%count} \"{%name}\" vnt.?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Pirkti įrangą \"%(equipment)s\"?"
+
+msgid "buyConfirmation/submit"
+msgstr "Nupirkti"
+
+msgid "buyConfirmation/title"
+msgstr "Pirkimo patvirtinimas"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "nesuderinamumas"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " su sumontuotu moduliu."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Ekipuotė \"%(conflicted)s\" bus perkelta į sandėlį dėl "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Pirkti ir sumontuoti %(kind)s \"%(name)s\" dabartinėje mašinoje už %(price)s %(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Pirkti ir sumontuoti %(kind)s \"%(name)s\" dabartinėje mašinoje už %(price)s kreditų?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Nupirkti"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Pirkimo patvirtinimas"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Pirkti Premium paskyrą %(days)s už %(gold)s?\n %(alertIcon)s %(alertColorTagOpen)s Dėl techninių problemų jūs negausite papildomos patirties ir kreditų. Pabandykite pasirinkti kitą mūšį arba pirkite Premium paskyrą per Premium paskyros pirkimo meniu.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Pirkti"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Pirkimo patvirtinimas"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Garažo vieta"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "buySlotConfirmation/message"
+msgstr "Pirkti dar vieną vietą garaže už %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Nupirkti"
+
+msgid "buySlotConfirmation/title"
+msgstr "Pirkimo patvirtinimas"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Papildomai vietai neužtenka kreditų."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Nepakanka kreditų"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Papildomai vietai garaže neužtenka aukso."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Nepakanka aukso"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Nėra pakankamai vietos garaže. Nupirkti papildomą vietą už {%d} kreditų?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Nupirkti"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Pirkimo patvirtinimas"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Pakrauti standartinę amuniciją"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Atšaukti"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Šiai mašinai jau turite įgulą."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Mašinos nuomos metu jūs gausite papildomą vietą garaže nemokamai."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Nepavyko papildyti amunicijos: pasirinktoje mašinoje amunicija pilna."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Nepavyko papildyti amunicijos: pasirinktoje mašinoje vis dar yra amunicijos."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Kaina: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Papildoma vieta garaže"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Pirkti"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Pirkimas"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Iškeitimas"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Pirkti be įgulos"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Įgulos paruošimas"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "įgulos narių: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Pirkinys %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Viso:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Įvedėte neteisingą informaciją."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Įveskite aukso sumą iš stulpelio \"Iš viso\""
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Patvirtinti operaciją:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Jūs neturite tinkamų mašinų\nkeitimui"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Mašina įkainota %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Treniruoti įgulą: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Iš viso:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Pasirinkti mašiną"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Pasirinkite iškeitimui tinkamą\nPremium mašiną"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Atšaukti"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Priemoka už %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Keisti"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Pirkti be įgulos"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "%(vehiclename)s iškeitimas"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Paspaudus mygtuką \"Iškeisti\", nupirkta įranga ir ekipuotė nebus kompensuota auksu. Pasitikrinkite viską atidžiai."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Nupirkus daiktą už auksą jo parduoti už auksą nepavyks. Atidžiai tikrinkite ką perkate."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Atšaukti"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Aktyvuoti"
+
+msgid "challenge_missions/activation/description"
+msgstr "Aktyvavę Kalvės misijų seriją ją galite {{@ style (color #FFE4C0)}}įvykdyti, nesugebėti įvykdyti ar apleisti{{/}}. Jei nesugebate įvykdyti serijos misijos, prarandate vieną skydą."
+
+msgid "challenge_missions/activation/title"
+msgstr "Aktyvuoti Kalvę: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Atšaukti"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Pradėti iš naujo"
+
+msgid "challenge_missions/restart/description"
+msgstr "Jūsų misijos progresas bus atstatytas, atgausite visus skydus ir vėl galėsite gauti apdovanojimų. Atstatę misijų seriją iš karto galite ją aktyvuoti."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Atstatyti Kalvę: {{challengeName}} nemokamai?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Atstatyti Kalvę: {{challengeName}} už {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Atšaukti"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Apleisti"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Apleidę šią Kalvės misijų seriją atstatysite visą jos progresą ir atgausite skydus. Ją atstatyti galite bet kada."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Apleisti Kalvę: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Atšaukti"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s Šiame atnaujinime grafika buvo perdirbta iš pagrindų. Jūs galite pasirinkti automatinius nustatymus arba pakeisti nuostatas rankiniu būdu."
+
+msgid "changeGraphics/submit"
+msgstr "Nustatyti"
+
+msgid "changeGraphics/title"
+msgstr "Automatiniai grafikos nustatymai"
+
+msgid "changePeriphery/cancel"
+msgstr "Atšaukti"
+
+msgid "changePeriphery/message"
+msgstr "Pereiti į kitą serverį?"
+
+msgid "changePeriphery/submit"
+msgstr "Pereiti"
+
+msgid "changePeriphery/title"
+msgstr "Patvirtintinkite perėjimą"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Atšaukti"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Serverio pasikeitimai nebus išsaugoti. Jūs galite įjungti ar išjungti automatinį prisijungimą nustatymuose."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Toliau"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Pakeisti į kitą serverį?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Atšaukti"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Pereiti į kitą serverį?\n\nPakeitus serverį bus taikomi šie apribojimai:\n\t• Dalis tankų bus neprieinami.\n\t• Emblemos ir užrašai nebus rodomi.\n\t• Misijos, asmeniniai rezervai ir Bandymų poligonas bus neprieinami.\n\nGalite turėti ryšio problemų. Prašome gerbti žaidėjus iš kitų regionų."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Pereiti"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Patvirtintinkite perėjimą"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Atšaukti"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Pereiti į kitą serverį?\n\nPakeitus serverį bus taikomi šie apribojimai:\n\t• Dalis tankų bus neprieinami.\n\t• Emblemos ir užrašai nebus rodomi.\n\t• Misijos, asmeniniai rezervai ir Bandymų poligonas bus neprieinami.\n\nGalite turėti ryšio problemų. Prašome gerbti žaidėjus iš kitų regionų.\n\n\nServerio pakeitimai bus išsaugoti.\nNustatymuose galite įjungti ar išjungti automatinį prisijungimą."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Toliau"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Patvirtintinkite perėjimą"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Atšaukti"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sJūs ruošiatės prisijungti į klaną:\n%(clanName)s\n\nPatvirtinę prisijungimą jūs automatiškai sutinkate laikytis klano apribojimų ir taisyklių bei aktyviai dalyvauti klano veikloje.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Palikus klaną jums bus pritaikyti laikini apribojimai prisijungimui į kitą klaną."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Patvirtinimas"
+
+msgid "clanConfirmJoining/title"
+msgstr "Patvirtinkite prisijungimą į klaną"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Uždaryti"
+
+msgid "clan_data_not_available/message"
+msgstr "Šio žaidėjo klano profilis laikinai nepasiekiamas. Pabandykite vėliau."
+
+msgid "clan_data_not_available/title"
+msgstr "Dėmesio!"
+
+msgid "common/cancel"
+msgstr "Atšaukti"
+
+msgid "common/confirm/cancel"
+msgstr "Ne"
+
+msgid "common/confirm/submit"
+msgstr "Taip"
+
+msgid "common/cost"
+msgstr "Kaina:"
+
+msgid "common/error/cancel"
+msgstr "Uždaryti"
+
+msgid "common/submit"
+msgstr "Pratęsti"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Atšaukti"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Pirkti"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Instrukcijos pirkimas ir įdėjimas"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Atšaukti"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Dėmesio! %(devices)s nesumontuota. Instrukcija %(font_tag_open)sNEVEIKS.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Sumontuoti"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Instrukcijos įdėjimas"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Atšaukti"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Dėmesio! Jūs neturite suderinamos įrangos su pasirinkta instrukcija. Instrukcija %(font_tag_open)sNEVEIKS.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Sumontuoti"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Instrukcijos įdėjimas"
+
+msgid "confirmBuy/title"
+msgstr "Pirkti %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Atšaukti"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Modulis bus perkeltas į Sandėlį."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Pirkimui reikalinga suma:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Uždirbkite kreditus mūšyje, parduokite nereikalingus daiktus iš Sandėlio arba iškeiskite už auksą."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Nepakanka kreditų"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Modulio kaina:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Parduoti pakeistą modulį %(previousModuleName) už %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Šis modulis suderinamas su:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Jūs galite parduoti modulį dabar arba jis bus perkeltas į sandėlį, kur jį galėsite parduoti ar iš naujo sumontuoti."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Pirkti"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Nupirkti ir sumontuoti %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Pirkti ir sumontuoti įrangą \"%(equipment)s\"?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Sumontuoti"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Atšaukti"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Konvertavimas nebūtinas.\nJūs turite pakankamai kreditų."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Nepavyko nupirkti: konvertavimas nepavyko.\nPapildomai konvertavimui reikia %(gold)s."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Konvertuoti trūkstamus kreditus už %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Reikia kreditų:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Pirkimui reikalinga suma: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Keisti"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Konvertavimo pirkimui patvirtinimas"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Atšaukti"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Konvertavimas nebūtinas.\nJūs turite pakankamai patirties."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Nepavyko išrasti: konvertavimas nepavyko.\nPapildomai konvertavimui reikia %(gold)s."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Konvertuoti trūkstamą patirtį už %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Reikia patirties:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Išradimui reikalingas kiekis: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Mašinos pasirinkimas"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Konvertavimo išradimui patvirtinimas"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Viso:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Atšaukti"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Atstatymui keitimas nereikalingas.\nJūs turite pakankamai kreditų."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Keitimas atstatymui negalimas.\nKeitimui reikia %(gold)s."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Iškeisti %(gold)s į trūkstamą kreditų sumą?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Reikia kreditų:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Atstatymui reikalinga suma: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Iškeisti"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Patvirtinti keitimą susigrąžinimui"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Kiekis:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Kiekis"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Viso"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Kaina:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Kaina"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Viso:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Viso"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Viso:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Ne"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (įtraukiant {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Išrasti {{items}} už"
+
+msgid "confirmUnlock/item/message"
+msgstr "Išrasti %(typeString)s %(userString)s už %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (tame tarpe %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Taip"
+
+msgid "confirmUnlock/title"
+msgstr "Išradimo patvirtinimas"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Išrasti %(userString)s už %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (tame tarpe %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Atšaukti"
+
+msgid "controlsWrongNotification/message"
+msgstr "Vienas ar keletas klavišų nebuvo pasirinkti. Ar tikrai norite išsaugoti valdymo nustatymų pakeitimus?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Išsaugoti"
+
+msgid "controlsWrongNotification/title"
+msgstr "Klaida"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Atšaukti"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Pasirinkti įgarsinimo failai sugadinti arba dingę, įgarsinimas bus nustatytas į numatytąjį.\nNe visi veiksmai turi nustatytus mygtukus. Išsaugoti nustatymus?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Išsaugoti"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Klaida"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Patvirtinimas"
+
+msgid "createOrderConfirmation/title"
+msgstr "Patvirtinti rezervo paruošimą"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Pirkimui trūksta lėšų."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Pritaikoma visai įgulai. Išstudijavus, %(book)s suteikia kiekvienam įgulos nariui po %(exp)s patirties."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Pritaikoma pasirinktam įgulos nariui. Išstudijavus, %(book)s suteikia konkrečiam įgulos nariui %(exp)s."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Pirkti"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Pirkti %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Atšaukti"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Visi uždėti lipdukai {season} žemėlapiams bus {removed} nuo jūsų mašinos,\n nes ši vieta negalima {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Patvirtinti"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "šiuose žemėlapiuose."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "šiame žemėlapyje."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Uždėti šį lipduką į šią vietą visiems žemėlapiams?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Nusipirkus, elementai bus uždėti ant pasirinktos mašinos. Žvaigždute pažymėti elementai taps nepasiekiami kitoms mašinoms."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Elementų pirkimo patvirtinimas"
+
+msgid "customization/change_install_bound/message"
+msgstr "Pasirinkus, elementai bus uždėti ant pasirinktos mašinos. Žvaigždute pažymėti elementai taps nepasiekiami kitoms mašinoms."
+
+msgid "customization/change_install_bound/title"
+msgstr "Elementų keitimo patvirtinimas"
+
+msgid "customization/close/cancel"
+msgstr "Atšaukti"
+
+msgid "customization/close/submit"
+msgstr "Išeiti"
+
+msgid "customization/close/title"
+msgstr "Grįžti į garažą neišsaugojus pakeitimų?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Atšaukti"
+
+msgid "customization/exitToShop/submit"
+msgstr "Toliau"
+
+msgid "customization/exitToShop/title"
+msgstr "Grįžti į parduotuvę neišsaugojus pakeitimų?"
+
+msgid "customization/filter/cancel"
+msgstr "Atšaukti"
+
+msgid "customization/filter/message"
+msgstr "Visi elementai bus pašalinti. Tęsti?"
+
+msgid "customization/filter/submit"
+msgstr "Pašalinti viską"
+
+msgid "customization/filter/title"
+msgstr "Elementų šalinimas"
+
+msgid "customization/install_bound/cancel"
+msgstr "Atšaukti"
+
+msgid "customization/install_bound/submit"
+msgstr "Pratęsti"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Atšaukti"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Dėmesio! Uždėjus elementą (%(cTypeName)s %(itemName)s) ant pasirinktos mašinos, jūs galėsite elementą dar uždėti ant %(numberLeft)s mašinų. Uždėti elementą?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Uždėti"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Uždėti elementą"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Atšaukti"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Dėmesio! Uždėjus elementą (%(cTypeName)s %(itemName)s) ant pasirinktos mašinos, jūs nebegalėsite jo uždėti ant kitų mašinų. Uždėti elementą?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Uždėti"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Uždėti elementą"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Atšaukti"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Dėmesio! Uždėjus elementą (%(cTypeName)s %(itemName)s) ant pasirinktos mašinos, jūs nebegalėsite jo uždėti ant kitų mašinų. Pašalinus, elementas %(willBeDeleted)s. Uždėti elementą?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Uždėti"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Uždėti elementą"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "bus ištrintas"
+
+msgid "customization/remove_element/cancel"
+msgstr "Atšaukti"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Pašalinti"
+
+msgid "customization/remove_element/title"
+msgstr "Pašalinti elementą"
+
+msgid "customizationConfirmSell/message"
+msgstr "Parduoti %(name)s už %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Pardavimo patvirtinimas"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "kas %(days)s d"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "kas %(days)s d %(hours)s val."
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "kas %(hours)s val."
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "kas %(hours)s val. %(mins)s min."
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "kas %(mins)s min."
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Prasukti misiją galima {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Pradėti iš naujo"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Prasukti misiją?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Kai kurios jūsų mašinos mūšyje. Prasukus misiją, jūs galite prarasti progresą. Prasukti misiją galima {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Pradėti iš naujo"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Prasukti misiją?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Perspėjimas!"
+
+msgid "dedication/headline"
+msgstr "Gautas apdovanojimas Mūsų laikų herojus"
+
+msgid "dedication/sub-headline"
+msgstr "Už sužaistus {battlesNum} mūšių"
+
+msgid "dialogTemplates/cancel"
+msgstr "Atšaukti"
+
+msgid "dialogTemplates/confirm"
+msgstr "Patvirtinti"
+
+msgid "dialogTemplates/ok"
+msgstr "Taip tikrai!"
+
+msgid "disconnect/cancel"
+msgstr "Ne"
+
+msgid "disconnect/message"
+msgstr "Ar tikrai norite atsijungti nuo serverio?"
+
+msgid "disconnect/submit"
+msgstr "Taip"
+
+msgid "disconnect/title"
+msgstr "Atsijungti nuo serverio"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "Ryšys su serveriu prarastas. Paspauskite mygtuką \"Ok\", kad pakartotinai pasijungtumėte prie serverio."
+
+msgid "disconnected/messageBan"
+msgstr "Jūsų paskyra užblokuota. %(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Jūsų paskyra užblokuota iki %(expiryTime)s. %(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Ryšys su serveriu prarastas.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nPriežastis: %s"
+
+msgid "disconnected/title"
+msgstr "Prarastas ryšys"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Atleisti"
+
+msgid "dismissTankman/description/perk"
+msgstr "Šiai operacijai įveskite įgūdžio treniravimo lygį: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Šiai operacijai įveskite naujausio įgūdžio treniravimo lygį ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Pasirinkti įgulos nariai bus atleisti. Jūs galite juos susigrąžinti per kitas {whiteOrange_Open}%(time)s d{whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "Įgulos narių atleidimas"
+
+msgid "dismissTankman/limited"
+msgstr "Atleidimo limitas pasiektas. Atleistas įgulos narys pakeis %(name)s (%(role)s, %(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Pašalinti visam laikui"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Atšaukti"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Dėmesio! Atleidžiamas %(dismissedName)s, pakeis %(deletedStr)s. Patvirtinti keitimą?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Patvirtinimas"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Pakeitimo patvirtinimas"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Atšaukti"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Dėmesio! Atleidžiama įgula pakeis %(deletedStr)s ir %(extraCount)s įgulos narius. Patvirtinti keitimą?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Patvirtinimas"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Atleistų įgulos narių talpykla pilna"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Pakeisti"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Vardas"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Pavardė"
+
+msgid "documentChangeDialog/title"
+msgstr "Pakeisti vardą ir išvaizdą?"
+
+msgid "dropSkill/cancel"
+msgstr "Atšaukti"
+
+msgid "dropSkill/message"
+msgstr "Atstatyti visus įgūdžius?"
+
+msgid "dropSkill/submit"
+msgstr "Atstatyti"
+
+msgid "dropSkill/title"
+msgstr "Atstatymo patvirtinimas"
+
+msgid "elementType/chassis"
+msgstr "važiuoklę"
+
+msgid "elementType/engine"
+msgstr "variklį"
+
+msgid "elementType/gun"
+msgstr "pabūklą"
+
+msgid "elementType/radiostation"
+msgstr "radiją"
+
+msgid "elementType/turret"
+msgstr "bokštelį"
+
+msgid "elenDisabled/cancel"
+msgstr "Uždaryti"
+
+msgid "elenDisabled/message"
+msgstr "Varžybos šiuo metu nevyksta dėl profilaktinių darbų."
+
+msgid "elenDisabled/title"
+msgstr "Dėmesio!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Atšaukti"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Nerodyti daugiau šio perspėjimo"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Šiame režime dėl kompiuterio komplektacijos galite turėti žemą FPS rodiklį ir grafikos iškraipymus. Mūšio užkrovimas užtruks ilgiau ir gali sąlygoti žaidimo kliento lūžimą. Vis tiek eiti į mūšį?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Į mūšį!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Greitaveikos perspėjimas"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Pirkimo kaina:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Išardyti %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Atšaukti"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Išardyti ir patobulinti"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Išardyti"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Ši išmontuota įranga bus {white_Open}sunaikinta{white_Close}.\nĮrangą galima saugiai išmontuoti už bonus."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Ši išmontuota įranga bus {white_Open}sunaikinta{white_Close}.\nĮrangą galima saugiai išmontuoti už auksą arba su Išmontavimo rinkiniu."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Sunaikinti įrangą \"%(equipment)s\"?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Sumontuoti įrangą \"%(equipment)s\"?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Parduoti įrangą \"%(equipment)s\"?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Atšaukti"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Patobulinti"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Į išardymą"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Nėra išardymui tinkamos eksperimentinės įrangos."
+
+msgid "eula/p1"
+msgstr "Prašome perskaityti <BR/><A HREF='event:%(eulaURL)s'><U>Galutinio vartotojo sutartį</U></A> prieš einant tolyn."
+
+msgid "eula/p2"
+msgstr "SPAUSDAMI \"PRIIMTI\" PATVIRTINATE, JOG PERSKAITĖTE GALUTINIO VARTOTOJO SUTARTĮ, JĄ SUPRATOTE IR SUTINKATE SU JOS SĄLYGOMIS BEI ESATE ATSAKINGAS PAGAL JOJE NURODYTĄ TVARKĄ. GALUTINIO VARTOTOJO SUTARTIS IR VISI JOS PAPILDYMAI GALIOJA VISIEMS PROJEKTO DALYVIAMS."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Pakeisti %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s į %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Apkeisti"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Iškeisti auksą"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Bus panaudota nuolaida konvertavimui iki %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s patirties į laisvąją patirtį. Kitą kartą patirtis bus konvertuojama už auksą."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Konvertuoti %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s patirties į laisvąją už %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Konvertuoti"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Konvertuoti į laisvą patirtį"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Neužtenka patirties konvertavimui"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Neužtenka patirties konvertavimui"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Atšaukti"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Nustatyti"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Automatiškai parinkti kareivinėse esančių įgulų įgūdžius"
+
+msgid "fillAllPerks/description"
+msgstr "Priklausomai nuo įgulos nario su neužpildytomis įgūdžių vietomis kvalifikacijos, algoritmas parenka pirmąjį įgūdį iš žemiau esančios lentelės. Jei įgulos narys jau turi tą įgūdį, tai algoritmas vietoje jo parenka antrąjį ir taip tęsia iki tol, kol visos vietos užpildytos. Operacija gali kiek užtrukti."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Įgūdžius automatiškai parinkti galima tik mašinose esantiems įgulų nariams."
+
+msgid "fillAllPerks/title"
+msgstr "Automatiškai parinkti neištreniruotus įgūdžius visiems įgulos nariams?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Atšaukti"
+
+msgid "finance_dialog/header"
+msgstr "Operacijos patvirtinimas"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Įveskite finansinį slaptažodį, kad patvirtintumėte operaciją."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Neteisingas slaptažodis"
+
+msgid "finance_dialog/results/limit"
+msgstr "Jūs per daug kartų įvedėte neteisingą slaptažodį. Pabandykite dar kartą po 24 valandų. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Pamiršote slaptažodį?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Slaptažodis turi būti sudarytas bent iš 6 lotyniškų raidžių, skaičių ar pabraukimo (_) simbolių."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Patvirtinimas"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Gauti %(product)s už %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Gauti"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Patvirtinimas"
+
+msgid "fortDisabled/cancel"
+msgstr "Uždaryti"
+
+msgid "fortDisabled/message"
+msgstr "Informacija apie klanus laikinai nepasiekiama dėl suplanuotos techninės profilaktikos."
+
+msgid "fortDisabled/title"
+msgstr "Dėmesio!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Tvirtovė laikinai nepasiekiama. Pabandykite dar kartą vėliau."
+
+msgid "fortTurnedOff/title"
+msgstr "Dėmesio!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Ne"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Taip"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Atšaukti"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Jūs išeisite iš garnizono, kuris priklauso %(oldBuilding)s. Jūs būsite prijungtas prie %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Patvirtinimas"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Prijungti prie statinio"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Gauti %(product)s už %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Gauti"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Patvirtinimas"
+
+msgid "freeSkillsLearning/message"
+msgstr "Nuliniam įgūdžiui ištreniruoti nereikia patirties. Jo privalumas yra tas, kad jis ženkliai sumažina įgulos nario tolimesniems apmokymams reikalingos patirties kiekį."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Pasirinkti %(skillName)s kaip nulinį įgūdį?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Iš naujo treniruoti %(skillName)s kaip nulinį įgūdį?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Panaudoti 100% nuolaidą ir pridėti nemokamai garaže vietą?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Pridėti"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Vietos pridėjimas"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Uždaryti"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Jūs pasiekėte nemokamos technikos įsigijimo limitą. Pabandykite rytoj."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Uždaryti"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Įsigijimo limitas"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sPatirtis%(orangeText_close)s%(simpleText_open)s - tai žaidimo resursas, uždirbamas mūšiuose.\n\nTame tarpe:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sMūšio patirtis%(orangeText_close)s%(simpleText_open)s naudojama naujų modulių išradimui ir tolimesniam progresui tame Wargaming visatos žaidime, kuriame ši patirtis buvo uždirbta.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sLaisvoji patirtis%(orangeText_close)s%(simpleText_open)s yra naudojama modulių, technikos išradimui bei greitesniam įgulos treniravimui. Naudokite laisvąją patirtį protingai.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Pratęsti"
+
+msgid "freeXPInfo/title"
+msgstr "Patirtis"
+
+msgid "gammaDialog/cancel"
+msgstr "Pradėti"
+
+msgid "gammaDialog/message/description"
+msgstr "Vade! Sukonfigūruokite savo monitorių nordami sureguliuoti spalvinę gamą ir pagerinti vaizdo kokybę ekrane.\n\n."
+
+msgid "gammaDialog/message/header"
+msgstr "Sukonfigūruokite savo monitorių dabar!"
+
+msgid "gammaDialog/title"
+msgstr "Gama nustatymai"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Po konvertavimo:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Prieš konvertavimą:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Atšaukti"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Konvertuoti"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Viso:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Įgula"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Mašina"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Patirtis"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Visa technika"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Rūšiuoti tankus pagal pasirinktą."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Rūšiuoti tankus pagal pavadinimus."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Technika"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Rūšiuoti pagal gautus patirties taškus."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Patirtis"
+
+msgid "gatheringXPForm/title"
+msgstr "Konvertuoti į laisvą patirtį"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Pakeisti patirtį:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Pagreitintas įgulos mokymas įjungtas."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Pagreitintas įgulos mokymas išjungtas."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Viso:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Viso:"
+
+msgid "graphics/message/alert"
+msgstr "Dėmesio!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Ekrano režimas pakeistas. Ankstesnių nustatymų grąžinimas po %(time)s sekundžių. Išsaugoti pasirinktus nustatymus?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Išsaugoti"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Ekrano nustatymų išsaugojimas"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Ne"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Dėmesio! Nustatymų pakeitimai bus prarasti. Tęsti?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Taip"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Automatinis grafikos kokybės nustatymas"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Ne"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Dėmesio! Šių grafikos nustatymų įgalinimas gali užtrukti. Tęsti?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Taip"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Keisti nustatymus"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Uždaryti"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Nepavyko nustatyti maksimalios reikšmės. Bus įjungti vartotojiški nustatymai."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Dėmesio"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Uždaryti"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Aukšta tekstūrų kokybė pasiekiama tik 64 bitų sistemose."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Tekstūrų kokybė nepasiekiama"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Atidėti"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Kai kurie grafikos nustatymai įsigalios po žaidimo perkrovimo."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Perkrauti"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Keisti nustatymus"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Angare nėra laisvos vietos. Prašome nusipirkti papildomą vietą arba parduokite vieną iš mašinų."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Klaida"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Atšaukti"
+
+msgid "hof/excludeRating/message"
+msgstr "Kiti žaidėjai nebematys jūsų pasiekimų, bet jūs galėsite vėl padaryti matomus pagrindiniame Šlovės salės lange."
+
+msgid "hof/excludeRating/submit"
+msgstr "Slėpti rezultatus"
+
+msgid "hof/excludeRating/title"
+msgstr "Rodyti rezultatus reitinge"
+
+msgid "hofDisabled/cancel"
+msgstr "Uždaryti"
+
+msgid "hofDisabled/message"
+msgstr "Šlovės salė laikinai nepasiekiama. Prašome pabandykite vėliau."
+
+msgid "hofDisabled/title"
+msgstr "Dėmesio!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Atšaukti"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Nepilna įgula{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Bent vienas įgulos narys netinkamas{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Pasirinkta mašina netinkama dėl vienos iš šių priežasčių:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Tik viena įgula gali gauti bonusą. Jis bus panaikintas iš"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "ir suteiktas"
+
+msgid "idleCrewBonus/submit"
+msgstr "Patvirtinti"
+
+msgid "idleCrewBonus/title"
+msgstr "Įjungti intensyvius įgulos apmokymus?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Pabandykite išjungti naršyklės aparatinį paspartinimą nustatymuose (grafikos skiltyje)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Užkrovimo klaida"
+
+msgid "interviewQuit/cancel"
+msgstr "Atgal"
+
+msgid "interviewQuit/message"
+msgstr "Jūs galite atsisakyti apklausos ir atlikti ją vėliau tiesiog spustelėdami ant žinutės su pakvietimu pranešimų centre. Žinutė bus aktyvi vienos žaidimo sesijos metu."
+
+msgid "interviewQuit/submit"
+msgstr "Atšaukti"
+
+msgid "interviewQuit/title"
+msgstr "Atsisakyti apklausos"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Tikrai taip!"
+
+msgid "koreaParentNotification/message"
+msgstr "Siekiant apsaugoti vaikus ir paauglius nuo priklausomybės žaidimui, prisijungimas į žaidimą po %(preBlockTime)s yra blokuojamas. Jūs būsite atjungti nuo serverio %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Tikrai taip!"
+
+msgid "koreaParentNotification/title"
+msgstr "Žaidimo ribojimas"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Tikrai taip!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Baigėsi žaidimo laikas. Jūs negalite pradėti naujo mūšio."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Tikrai taip!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Tėvų kontrolė"
+
+msgid "leaveEvent/cancel"
+msgstr "Atšaukti"
+
+msgid "leaveEvent/message"
+msgstr "Jūsų mūšių rezultatai varžybose bus apnulinti po reitingo atnaujinimo. Jūs nebepateksite į reitingą ir negalėsite gauti apdovanojimo.\n\nIšėjus iš varžybų, %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "VĖL SUGRĮŽTI NEBEGALĖSITE."
+
+msgid "leaveEvent/submit"
+msgstr "Išeiti iš varžybų"
+
+msgid "leaveEvent/title"
+msgstr "Išeiti iš varžybų"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Atšaukti"
+
+msgid "leaveStartedEvent/message"
+msgstr "Jūsų mūšių rezultatai nebebus fiksuojami šiose varžybose. Jūs nepateksite į reitingą ir negausite apdovanojimo.\n\nIšėjus iš varžybų, %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Išeiti iš varžybų"
+
+msgid "leaveStartedEvent/title"
+msgstr "Išeiti iš varžybų"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Atšaukti"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Jūs esate prieškoviniame angare. Ar tikrai norite išeiti iš jo, kad priimtumėte pakvietimą?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Pakvietimas"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Atšaukti"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Jūs jau esate būryje. Ar tikrai norite išeiti iš būrio, kad priimtumėte pakvietimą?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Pakvietimas"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Atšaukti"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Jūs jau esate treniruočių kovos laukiamajame. Ar tikrai norite išeiti, kad priimtumėte pakvietimą?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Pakvietimas"
+
+msgid "legalInfoWindow/title"
+msgstr "Juridinė informacija"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Atšaukti"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Ar tikrai norite išjungti laipsnišką paslėptų garažo elementų atsiradimą?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Išjungę šį nustatymą, jo nebegalėsite įjungti."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Išjungti"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Keisti nustatymus"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Atšaukti"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Serverio pasikeitimai nebus išsaugoti. Jūs galite įjungti ar išjungti automatinį prisijungimą nustatymuose."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Toliau"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Išsaugoti serverio pakeitimą?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Alternatyvioje konfigūracijoje trūksta amunicijos. Vis tiek eiti į mūšį?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Nepilna amunicija"
+
+msgid "lowAmmo/cancel"
+msgstr "Atšaukti"
+
+msgid "lowAmmo/message"
+msgstr "Tanke trūksta amunicijos. Amunicija bus papildyta automatiškai prieš mūšio pradžią."
+
+msgid "lowAmmo/submit"
+msgstr "Papildyti"
+
+msgid "lowAmmo/title"
+msgstr "Automatinis amunicijos papildymas"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Atšaukti"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Pasirinktoje mašinoje trūksta amunicijos. Eiti į mūšį?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Į mūšį!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Nepilna amunicija"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Ne"
+
+msgid "lowFpsWarning/message"
+msgstr "Dabartiniai žaidimo nustatymai lems žemą našumą. Ar norite nustatyti prastesnę grafikos kokybę?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Taip"
+
+msgid "lowFpsWarning/title"
+msgstr "Žemas žaidimo našumas"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Žaidėjo %(userName)s informacija užblokuota."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Žaidėjo informacija užblokuota"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Duomenįs apie vartotoją %(userName)s šiuo metu neprieinami."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Infomacija laikinai nepasiekiama"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Atšaukti"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Įjungus šį nustatymą, sumažės greitaveika mūšyje."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Dėmesio!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "Įjungta"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Mini žemėlapio permatomumas"
+
+msgid "moduleSale/conformation/header"
+msgstr "Parduoti %(moduleType)s \"%(moduleName)s\"?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Atšaukti"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Klanas:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "kreditai"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "auksas"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Mokestis:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Pavedimo suma:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Įprastas:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "kreditai"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "auksas"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Kam:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Viso:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(ne klano narys)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Siųsti"
+
+msgid "moneyTransfer/title"
+msgstr "Aukso pervedimas..."
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Ar tikrai norite pervesti {gold} <img src='icon_gold' /> žaidėjui {player}? Iš jūsų bus atskaičiuotas {fee} <img src='icon_gold' /> pavedimo mokestis."
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Konvertuoti"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Pavedimo patvirtinimas"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Sukurti finansinį slaptažodį</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Aukso pervedimas neįmanomas. Priežastis: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Pervedimų draudimas nustos galioti %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Aukso pervedimas neįmanomas"
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Ne"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Kai kurie nustatymai įsigalios kitame mūšyje. Tęsti?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Taip"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Keisti nustatymus"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Įgūdžio lygis po išmokimo: {yellow_Open}%(level)s%%{yellow_Close} "
+
+msgid "perkLearnConfirm/learn"
+msgstr "Išmokyti"
+
+msgid "perkLearnConfirm/title"
+msgstr "Išmokyti įgūdį %(skillName)s?"
+
+msgid "perksReset/after"
+msgstr "Po atstatymo:"
+
+msgid "perksReset/before"
+msgstr "Prieš atstatymą:"
+
+msgid "perksReset/cancel"
+msgstr "Atšaukti"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Šis pasirinkimas negalimas nes jūs jau turite 100% nuolaidą įgulos nario pertreniravimui Tankų akademijoje."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Nepasiekiama"
+
+msgid "perksReset/free/description"
+msgstr "Įgūdžius iki {yellow_Open}1%{yellow_Close} galima atstatyti nemokamai."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Šis įgulos narys vis dar turi pirmą nemokamą įgūdžių atstatymą"
+
+msgid "perksReset/graceLabel"
+msgstr "Nemokamai atstatyti įgūdžius galite dar:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Įgūdžio patirties kiekis sumažės. Galėsite išmokti mažiau įgūdžių."
+
+msgid "perksReset/noNewPerks"
+msgstr "Visa patirtis iš išmoktų įgūdžiu bus priskirta pagrindinės kvalifikacijos lygiui."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "nuo visos įgūdžio patirties"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Pulko mokykla"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "nuo visos įgūdžio patirties"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Pagreitinti kursai"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Atstatyti įgūdžius\n neprarandant patirties"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Naudodami kreditus galite atstatyti įgūdžius neprarasdami patirties"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Tankų akademija"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Atstatyti įgūdžius\n neprarandant patirties"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Atstatyti"
+
+msgid "perksReset/title"
+msgstr "Atstatyti visų įgulų narių įgūdžius?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Atšaukti"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Pasirinkta garso fizikos kokybė skiriasi nuo žaidimo kliento automatiškai nustatytos. Šis nustatymas gali apkrauti kompiuterio resursus. Mes rekomenduojame prieš patvirtinant įvertinti kompiuterio pajėgumus. Norite patvirtinti šiuos pakeitimus?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Patvirtinti"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Garso fizikos kokybė nesutampa"
+
+msgid "postmortem/cancel"
+msgstr "Išeiti"
+
+msgid "postmortem/message"
+msgstr "Mašina sunaikinta. Likti mūšio lauke ar išeiti į garažą?"
+
+msgid "postmortem/submit"
+msgstr "Pasilikti"
+
+msgid "postmortem/title"
+msgstr "Mašina sunaikinta"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Pirkti premium %(days)s dienoms už %(gold)s aukso?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Nupirkti"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Pirkimo patvirtinimas"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Pratęsti Premium paskyrą %(days)s dienomis už %(gold)s aukso?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Pratęsti"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Patvirtinti"
+
+msgid "priceCard/credits/title"
+msgstr "Pulko mokykla"
+
+msgid "priceCard/free/title"
+msgstr "Pagreitinti kursai"
+
+msgid "priceCard/gold/title"
+msgstr "Tankų akademija"
+
+msgid "priceCard/price/free"
+msgstr "Nemokamai"
+
+msgid "priceCard/recertification/title"
+msgstr "Pertreniravimo įsakymas"
+
+msgid "punishmentWindow/cancel"
+msgstr "Supažindintas"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Jūs buvote užblokuoti %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Jūs buvote nubausti"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Nesąžiningas žaidimas"
+
+msgid "punishmentWindow/info"
+msgstr "Jei šią situaciją sukėlė ryšio problemos ar kiti techniniai sunkumai,\nkreipkitės į Žaidėjų aptarnavimo centrą."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Jūs pažeidėte žaidimo taisykles žemėlapyje {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} laiku {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nJūs laikinai negalite žaisti režime {whiteSpanish_Open}%(mode)s{whiteSpanish_Close}."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Jūs pažeidėte žaidimo taisykles žemėlapyje {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nJūs negausite kreditų, patirties ir kitų apdovanojimų iš šio mūšio."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Jūs pažeidėte žaidimo taisykles žemėlapyje {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} laiku {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nJei kartosite pažeidimą, negausite visų kreditų, patirties ir kitų prizų iš šio mūšio."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Neaktyvumas mūšyje"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Išėjimas iš mūšio nesulaukus pabaigos arba kol mašina dar nebuvo sunaikinta"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Neveiklumas mūšyje/išėjimas anksti"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Tyčinis susinaikinimas"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s d. %(hour)s val."
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s val. %(min)s min."
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min."
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min."
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Atšaukti"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Daugiau neklausti"
+
+msgid "questsConfirmDialog/message"
+msgstr "Pasirinkus misiją \"%(newQuest)s\", misija \"%(oldQuest)s\" bus atšaukta."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Patvirtinimas"
+
+msgid "questsConfirmDialog/title"
+msgstr "Patvirtinti misijos pasirinkimą"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Atšaukti"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Visas %(curQuest)s misijos progresas bus apnulintas.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Dėmesio! Visas dabartinės misijos progresas bus prarastas."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Patvirtinti"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Anuliuoti progresą"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Atšaukti"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Jeigu pasirinksite %(newQuest)s misiją, jūsų %(oldQuest)s misijos progresas bus apnulintas.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Dėmesio! Visas dabartinės misijos progresas bus prarastas."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Taip"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Patvirtinti misijos pasirinkimą"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Atšaukti"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "%(quest)s misija bus atšaukta.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Dėmesio! Visas dabartinės misijos progresas bus prarastas."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Taip"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Patvirtinti užduoties atšaukimą"
+
+msgid "quit/cancel"
+msgstr "Pasilikti"
+
+msgid "quit/submit"
+msgstr "Išeiti"
+
+msgid "quit/title"
+msgstr "Išeiti iš žaidimo?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Atšaukti"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Komandai reikia jūsų! Išėjimas iš mūšio nesulaukus jo pabaigos arba kol mašina dar nesunaikinta yra laikomas dezertyravimu ir už tai galite sulaukti nuobaudos, o taip pat visų bonusų gautų IGR panaikinimo."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Dezertyruoti"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Pabėgti iš mūšio?"
+
+msgid "quitBattle/cancel"
+msgstr "Atšaukti"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Atšaukti"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Komandai reikia jūsų! Išėjimas iš mūšio nesulaukus jo pabaigos arba kol mašina dar nesunaikinta yra laikomas dezertyravimu ir už tai galite sulaukti nuobaudos."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Dezertyruoti"
+
+msgid "quitBattle/leaver/title"
+msgstr "Pabėgti iš mūšio?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Atšaukti"
+
+msgid "quitBattle/replay/submit"
+msgstr "Nutraukti"
+
+msgid "quitBattle/replay/title"
+msgstr "Išeiti iš stebėtojo režimo?"
+
+msgid "quitBattle/submit"
+msgstr "Išeiti"
+
+msgid "quitBattle/title"
+msgstr "Palikti mūšį?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Ne"
+
+msgid "quitPreBattle/message"
+msgstr "Jūs norite išeiti iš kovos laukiamojo?"
+
+msgid "quitPreBattle/submit"
+msgstr "Taip"
+
+msgid "quitPreBattle/title"
+msgstr "Išėjimas iš kovos laukiamojo"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Ne"
+
+msgid "rally/autoSearch/message"
+msgstr "Automatiškai ieškoti laisvų vietų?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Taip"
+
+msgid "rally/autoSearch/title"
+msgstr "Auto paieška"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Atšaukti"
+
+msgid "rally/changePeriphery/message"
+msgstr "Jūs būsite automatiškai perkeltas į kitą serverį (%(host)s). Tęsti?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Pereiti"
+
+msgid "rally/changePeriphery/title"
+msgstr "Pereiti į kitą serverį."
+
+msgid "rally/goToAnother/cancel"
+msgstr "Atšaukti"
+
+msgid "rally/goToAnother/message"
+msgstr "Jeigu pakeisite mūšio režimą, jūs būsite automatiškai pašalintas iš formuotės."
+
+msgid "rally/goToAnother/submit"
+msgstr "Pereiti"
+
+msgid "rally/goToAnother/title"
+msgstr "Pakeisti režimą"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Atšaukti"
+
+msgid "rally/goToIntro/message"
+msgstr "Ar jūs tikrai norite išeiti iš formuotės?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Patvirtinimas"
+
+msgid "rally/goToIntro/title"
+msgstr "Patvirtinti išėjimą"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Atšaukti"
+
+msgid "rally/goToSquad/message"
+msgstr "Jeigu sukursite būrį, jūs automatiškai išeisite iš dabartinio mūšio režimo."
+
+msgid "rally/goToSquad/submit"
+msgstr "Sukurti"
+
+msgid "rally/goToSquad/title"
+msgstr "Sukurti būrį"
+
+msgid "rally/leave/cancel"
+msgstr "Atšaukti"
+
+msgid "rally/leave/message"
+msgstr "Ar jūs tikrai norite išeiti iš šio žaidimo režimo ir iš formuotės?"
+
+msgid "rally/leave/submit"
+msgstr "Patvirtinimas"
+
+msgid "rally/leave/title"
+msgstr "Patvirtinti išėjimą"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Pratęsti"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Nepavyko išeiti iš režimo. Jūsų tankas įkeltas į vietą ir paruoštas mūšiui."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Dėmesio"
+
+msgid "rally/startBattle/cancel"
+msgstr "Ne"
+
+msgid "rally/startBattle/message"
+msgstr "Ieškoti priešininko?"
+
+msgid "rally/startBattle/submit"
+msgstr "Taip"
+
+msgid "rally/startBattle/title"
+msgstr "Priešininko paieška"
+
+msgid "recruit/cancel"
+msgstr "Atšaukti"
+
+msgid "recruit/submit"
+msgstr "Pasamdyti"
+
+msgid "recruit/title"
+msgstr "Pasamdyti naują %(vehicleName)s %(role)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "Unikalus šio įgulos nario įgarsinimas veikia tik su vado kvalifikacija."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Jums nereikia pasamdyti įgulos narių Premium mašinoms. Jūs galite perkelti įgulą į Premium mašiną be jokios nuobaudos."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Šio įgulos nario negalima apmokyti pasirinktai mašinai, todėl jis bus nusiųstas į kareivines."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Įgulos narys yra išmokęs nebenaudingus įgūdžius ir jo įgūdžiai bus automatiškai atstatyti neprarandant patirties."
+
+msgid "recruitDialog/name/title"
+msgstr "Pasamdyti naują įgulos narį (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Pasamdyti naują įgulos narį?"
+
+msgid "recruitWindow/cancel"
+msgstr "Atšaukti"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Nepasirinkta"
+
+msgid "recruitWindow/nation"
+msgstr "Nacija"
+
+msgid "recruitWindow/specialization"
+msgstr "Kvalifikacija"
+
+msgid "recruitWindow/submit"
+msgstr "Naujokas"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Technikos tipas"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Mašina"
+
+msgid "referralReward/cancel"
+msgstr "Atšaukti"
+
+msgid "referralReward/message"
+msgstr "Pasiimti %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Patvirtinti"
+
+msgid "referralReward/title"
+msgstr "Gavimo patvirtinimas"
+
+msgid "refuseTraining/cancel"
+msgstr "Ne"
+
+msgid "refuseTraining/message"
+msgstr "Nutraukti apmokymus?"
+
+msgid "refuseTraining/submit"
+msgstr "Taip"
+
+msgid "refuseTraining/title"
+msgstr "Patvirtinimas"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Sunaikinti"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Atšaukti"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "\"%(name)s\" ekipuotė bus perkelta į sandėlį dėl %(reason)s su dabartiniu moduliu."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "nesuderinamumo"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Demontuoti"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Demontavimo patvirtinimas"
+
+msgid "rentConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "rentConfirmation/event"
+msgstr "režimui %(eventName)s"
+
+msgid "rentConfirmation/message"
+msgstr "Išsinuomoti %(name)s %(event)s už %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Patvirtinti"
+
+msgid "rentConfirmation/title"
+msgstr "Patvirtinti nuomą"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Atšaukti"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Pratęsti %(name)snuomos periodą %(event)s už %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Patvirtinti"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Patvirtinti nuomą"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Atšaukti"
+
+msgid "replacePassport/unique/message"
+msgstr "Tai unikalus ekipažo narys ir jūs negalėsite susigražinti jo asmeninių duomenų vėliau. Ar jūs tikrai norite pakeisti asmeninius duomenis už %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Pakeisti"
+
+msgid "replacePassport/unique/title"
+msgstr "Patvirtinti pakeitimą"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Jūs tikrai norite pakeisti įgulos nario dokumentus už %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Pakeisti"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Pakeisti dokumentus"
+
+msgid "replayNotification/cancel"
+msgstr "Ne"
+
+msgid "replayNotification/message"
+msgstr "World of Tanks versija neatitinka kovos įrašo versijos. Tai gali sukelti problemų kovos peržiūroje. Nepaisyti ir paleisti įrašą?"
+
+msgid "replayNotification/submit"
+msgstr "Taip"
+
+msgid "replayNotification/title"
+msgstr "Dėmesio"
+
+msgid "replayStopped/cancel"
+msgstr "Atšaukti"
+
+msgid "replayStopped/message"
+msgstr "Įrašo peržiūra baigta. Spauskite Užbaigti, norėdami išeiti iš žaidimo."
+
+msgid "replayStopped/submit"
+msgstr "Užbaigti"
+
+msgid "replayStopped/title"
+msgstr "Įrašo peržiūra baigta"
+
+msgid "reportBug/cancel"
+msgstr "Atšaukti"
+
+msgid "reportBug/message"
+msgstr "Paspaudę čia atidarysite interneto naršyklę ir nukeliausite į World of Tanks Žaidėjų aptarnavimo puslapį, kur galėsite pranešti apie klaidą. Norite tęsti?"
+
+msgid "reportBug/submit"
+msgstr "Pratęsti"
+
+msgid "reportBug/title"
+msgstr "Į žaidėjų aptarnavimo skyrių"
+
+msgid "resetAllPerks/cancel"
+msgstr "Atšaukti"
+
+msgid "resetAllPerks/submit"
+msgstr "Atstatyti"
+
+msgid "resetAllPerks/title"
+msgstr "Atstatyti visus įgūdžius visiems įgulos nariams?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Visi įgūdžiai bus atstatyti visiems jūsų turimiems įgulų nariams.{orangeEnd}\n{orangeStart}Šio veiksmo negalima atšaukti.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Pratęsti"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Automatiniai nustatymai pritaikyti optimaliai vaizdo kokybei.\nNorėdami pagerinti žaidimo spartą, sumažinkite grafikos kokybę nustatymuose."
+
+msgid "resetGraphics/submit"
+msgstr "Nustatymai"
+
+msgid "resetGraphics/title"
+msgstr "Pakeisti grafikos nustatymus"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Susigrąžinti"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s bus sugrąžintas."
+
+msgid "restoreTankman/free"
+msgstr "Kaina: Nemokama"
+
+msgid "restoreTankman/header"
+msgstr "Susigrąžinti šį įgulos narį?"
+
+msgid "restoreTankman/price"
+msgstr "Kaina:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Atšaukti"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Susigrąžinti %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Susigrąžinti"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Be įgulos"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Susigrąžinti %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Paspaudus \"Susigrąžinti\", jūs nebegalėsite iškeisti gautos įrangos ir ekipuotės į auksą. Pasitikrinkite atidžiai visas detales."
+
+msgid "retrain/cancel"
+msgstr "Atšaukti"
+
+msgid "retrain/changeRole"
+msgstr "Pakeisti kvalifikaciją"
+
+msgid "retrain/discountLabel"
+msgstr "Ši nuolaida yra taikoma, nes pirmasis įgūdis nėra ištreniruotas iki 100%."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Šis pasirinkimas negalimas nes jūs jau turite 100% nuolaidą įgulos nario pertreniravimui Tankų akademijoje."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Nepasiekiama"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Įgulos nariai pertreniravimui: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Jums nereikia treniruoti įgulos narių Premium mašinoms.\nJūs galite perkelti įgulą į Premium mašiną be jokios nuobaudos."
+
+msgid "retrain/price"
+msgstr "Kaina:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Įgūdžio efektyvumas\npo pertreniravimo: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Pulko mokykla"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Įgūdžio efektyvumas\npo pertreniravimo: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Pagreitinti kursai"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Įgūdžio efektyvumas\npo pertreniravimo: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Tankų akademija"
+
+msgid "retrain/submit"
+msgstr "Permokinti"
+
+msgid "retrain/title/massive"
+msgstr "Pertreniruoti įgulą dėl %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Pertreniruoti dėl %(vehicleName)s\nir pakeisti kvalifikaciją į %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Pertreniruoti dėl %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Įgūdžiai netinkami kvalifikacijai bus išjungti. Atstatyti juos turėsite patys."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Įgulą galimą perkelti į to paties tipo Premium mašiną bet pertreniravimo ar nuobaudos, bet netinkamus įgūdžius turėsite pakeisti patys."
+
+msgid "rudyInfo/message"
+msgstr "Nemirtinga klasika jau žaidime! \"Keturi tankistai ir šuo\" (lenkiškai \"Czterej pancerni i pies\") buvo lenkiškas nespalvotas TV serialas pagal to paties pavadinimo Janušo Pšymanovskio romaną. Serialas, kurio premjera įvyko 1966 gegužės 9 dieną, pasakoja apie T-34-85 tanko (pavadinto \"Rudy\") įgulos ir jų šuns, vardu Šarikas nuotykius Antrajame pasauliniame kare."
+
+msgid "rudyInfo/submit"
+msgstr "Tikrai taip!"
+
+msgid "rudyInfo/title"
+msgstr "Keturi tankistai ir šuo"
+
+msgid "selectVehicle/counter"
+msgstr "Rodomos mašinos:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Pasirinkite puolančią mašiną"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Pasirinkite šią mašiną"
+
+msgid "sellConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "sellConfirmation/submit"
+msgstr "Parduoti"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Parduoti"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Pardavimo patvirtinimas"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Parduoti sviedinį \"%(shellName)s\"?"
+
+msgid "sendInvites/common/title"
+msgstr "Pakviesti į formuotę"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Atšaukti"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Sesijos statistika bus automatiškai apnulinta po{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Atstatyti"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s val. %(minutes)s min."
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Apnulinti sesijos statistiką?"
+
+msgid "shopSyncError/cancel"
+msgstr "Pratęsti"
+
+msgid "shopSyncError/message"
+msgstr "Atnaujinkite klientą. Pakartotinės klaidos atveju atnaujinkite serverį."
+
+msgid "shopSyncError/title"
+msgstr "Sinchronizacijos praradimas"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Atšaukti"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Ištreniruoti pasirinkti įgūdžius?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Treniruoti"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Pritaikyti"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Atšaukti"
+
+msgid "soundModeInvalid/message"
+msgstr "Pasirinkti įgarsinimo failai sugadinti arba dingę, įgarsinimas bus nustatytas į numatytąjį."
+
+msgid "soundModeInvalid/submit"
+msgstr "Išsaugoti"
+
+msgid "soundModeInvalid/title"
+msgstr "Klaida"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Atšaukti"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Pasirinkta garso sistema skiriasi nuo tos, kurią automatiškai parinko žaidimas. Kai kurie garsai gali neskambėti. Mes rekomenduojame patikrinti garso pasikeitimą. Patvirtinti pakeitimus?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Patvirtinimas"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Garso sistemos nesutapimas"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Ne"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Pasirinkta garso sistema skiriasi nuo tos, kurią automatiškai parinko žaidimas. Kai kurie garsai gali neskambėti. Nustatyti optimalius garso nustatymus?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Taip"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Garso sistemos nesutapimas"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Taip tikrai!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Renginys nepasiekiamas. Būrys bus išformuotas."
+
+msgid "squad/eventDisabled/title"
+msgstr "Renginys baigėsi"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Atšaukti"
+
+msgid "squad/goToAnother/message"
+msgstr "Jūs esate būryje. Jeigu pakeisite žaidimo režimą, būsite pašalintas iš būrio."
+
+msgid "squad/goToAnother/submit"
+msgstr "Pereiti"
+
+msgid "squad/goToAnother/title"
+msgstr "Pakeisti režimą"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Atšaukti"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "Jei pakeisite žaidimo režimą jūsų dabartinis būrys bus išformuotas. Ar tikrai norite pakeisti mūšio tipą?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Patvirtinti"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Pakeičiamas žaidimo režimas"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Atšaukti"
+
+msgid "squad/goToSquad/message"
+msgstr "Išeiti iš formuotės ir sukurti būrį su žaidėju?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Sukurti"
+
+msgid "squad/goToSquad/title"
+msgstr "Sukurti būrį"
+
+msgid "squad/leave/cancel"
+msgstr "Atšaukti"
+
+msgid "squad/leave/message"
+msgstr "Ar jūs tikrai norite išeiti iš būrio?"
+
+msgid "squad/leave/submit"
+msgstr "Patvirtinimas"
+
+msgid "squad/leave/title"
+msgstr "Patvirtinti išėjimą"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Pratęsti"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Jūs negalite išeiti iš būrio. Jūs pasiruošę mūšiui būryje."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Dėmesio"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Atšaukti"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Būrys nepilnas. Vienas ar daugiau žaidėjų bus pridėti automatiškai. Jungtis į mūšį?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Į mūšį!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Būrys nepasiruošęs"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Atšaukti"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Būrys nepilnas. Vis tiek jungtis į mūšį?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Į mūšį!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Būrys nepasiruošęs"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Atšaukti"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Būrys nepilnas. Pridėti žaidėjus automatiškai ir jungtis į mūšį?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Į mūšį!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Būrys nepasiruošęs"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Atšaukti"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Vienas iš būrio narių nepasiruošęs. Vis tiek jungtis į mūšį?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Į mūšį!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Būrys nepasiruošęs"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Atšaukti"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Žaidėjas, kuris nepavirtino pasiruošimo, bus pašalintas iš formuotės. Trūkstami nariai bus pridėti automatiškai. Jungtis į mūšį?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Į mūšį!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Būrys nepasiruošęs"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Atšaukti"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Kiti būrio žaidėjai nepasiruošę kovai. Vis tiek jungtis į mūšį?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Į mūšį!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Būrys nepasiruošęs"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Atšaukti"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Būrys nepilnas. Žaidėjai, nepatvirtinę pasiruošimo, bus pašalinti. Pridėti žaidėjus automatiškai ir jungtis į mūšį?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Į mūšį!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Būrys nepasiruošęs"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Neįmanoma prisijungti prie naujo mūšio: dar ne visi žaidėjai grįžo. Sulaukite esamo mūšio pabaigos."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Tikrai taip!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Būrys nepasiruošęs"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Tik turintys premium paskyrą gali kurti būrius.\nVartotojas kuriantis būrį gali pakviesti bet kokį kitą vartotoją."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Tik premium paskyroms"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Uždaryti žaidimą"
+
+msgid "steamStartNeeded/message"
+msgstr "Korektiškam prisijungimui žaidimą reikia paleisti per Steam."
+
+msgid "steamStartNeeded/title"
+msgstr "Negalima prisijungti"
+
+msgid "stronghold/leave/cancel"
+msgstr "Atšaukti"
+
+msgid "stronghold/leave/message"
+msgstr "Ar jūs tikrai norite išeiti iš padalinio?"
+
+msgid "stronghold/leave/submit"
+msgstr "Patvirtinimas"
+
+msgid "stronghold/leave/title"
+msgstr "Patvirtinti išėjimą"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Jums išėjus padalinys bus išformuotas.\nKlanas bus nubaustas už neatėjimą į mūšį.\nAr jūs tikrai norite išeiti iš padalinio?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Patvirtinti išėjimą"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Atšaukti"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Pereiti"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Pereiti į kitą serverį"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "tradeInConfirmation/message"
+msgstr "Mašina %(vehName)s bus atiduota ir jos susigrąžinti nebus galima.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Papildomai, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "įgula bus išsiųsta į Kareivines"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "ekipuotė bus perkelta į Sandėlį"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "įranga bus išmontuota nemokamai"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "visos nupirktos Dvigubos modifikacijos bus atšauktos, bet Standartinės modifikacijos progresas bus išsaugotas"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "amunicija bus perkelta į Sandėlį"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Iškeisti"
+
+msgid "tradeInConfirmation/title"
+msgstr "Technikos iškeitimas"
+
+msgid "tradeInPopover/descr"
+msgstr "Garaže pasiekiama Premium technika"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Rodo pasirinktų mašinų naciją."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Nacija"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Parodo kiek sutaupysite kai iškeisite pasirinktas mašinas"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Mašinos\nįvertinimas"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Mašinos įvertinimas"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Rodo pasirinktų mašinų lygį."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Lygis"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Rodo pasirinktų mašinų pavadinimą."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Pavadinimas"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Rodo pasirinktų mašinų tipą."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Tipas"
+
+msgid "tradeInPopover/title"
+msgstr "Pasirinkti mašiną iškeitimui"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Pasirinkti mašiną"
+
+msgid "updateNeeded/cancel"
+msgstr "Atidėti"
+
+msgid "updateNeeded/message"
+msgstr "Prašome atnaujinti paskyrą?"
+
+msgid "updateNeeded/submit"
+msgstr "Atnaujinti"
+
+msgid "updateNeeded/title"
+msgstr "Reikalingas atnaijunimas"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Apmokyti įgulos narį už {%d} aukso?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Apmokyti"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Apmokymo patvirtinimas"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Nepakanka aukso apmokymams."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Nepakanka aukso"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Atšaukti"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Apmokyti įgulos narį už {%d} kreditų?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Apmokyti"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Apmokymo patvirtinimas"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Nepakanka kreditų apmokymams."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Nepakanka kreditų."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Atšaukti"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Modifikavimai nebus išsaugoti. Išeiti iš mašinos konfigūravimo?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Patvirtinimas"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Atšaukti pakeitimus"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Pašalinti iš garažo %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Atšaukti"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Dėmesio! Tai speciali mašina. Pardavus ją, reikės laukti %(cooldown)s d. norint ją susigrąžinti. Parduoti mašiną?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Patvirtinimas"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Pardavimo patvirtinimas"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Atšaukti"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Dėmesio! Tai speciali mašina. Bet ją pardavus, vėliau galėsite ją susigrąžinti. Parduoti mašiną?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Patvirtinimas"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Pardavimo patvirtinimas"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Atšaukti"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Atšaukti"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "DĖMESIO! Šis tankas yra unikalus ir jo nebus galima susigrąžinti. Įgula irgi bus pašalinta negrįžtamai."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Patvirtinimas"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Pardavimo patvirtinimas"
+
+msgid "vehicleSell/unique/message"
+msgstr "Dėmesio! Tai speciali mašina. Jos negalėsite nusipirkti parduotuvėje. Tęsti?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Taip"
+
+msgid "vehicleSell/unique/title"
+msgstr "Pardavimo patvirtinimas"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "Patvirtinti pardavimą"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Patvirtinimui įveskite kreditų sumą iš eilutės \"Viso\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Įvedėte neteisingą informaciją."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "AMUNICIJA:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "INSTRUKCIJOS:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Atšaukti"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "VISO:"
+
+msgid "vehicleSellDialog/count"
+msgstr "vnt."
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Atleisti"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Išsiųsti į kareivines"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "ĮGULA:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "IŠVAIZDA:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Išardyti"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "EKIPUOTĖ:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Detaliau"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "SANDĖLIS:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Išleista:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Tam tarpe ir visos mašinos nacionalinės konfigūracijos!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Moduliai"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "ĮRANGA:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Pardavus mašiną, jos dabartinis Papildomos modifikacijos lygis išliks, bet visos Dvigubos modifikacijos bus atšauktos."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Gauta:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Pašalinti"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Parduoti"
+
+msgid "vehicleSellDialog/title"
+msgstr "%(name)s pardavimas"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Perkelti į sandėlį"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Elitinis"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Kaina"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Lygis. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Rolė: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "SPP"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "SAP"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Sunkusis tankas"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Lengvasis tankas"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Vidutinysis tankas"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Tikrai taip!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Klaida inicializuojant balso pokalbius: paslauga šiuo metu nepasiekiama."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Balso pokalbių inicializavimas"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Balso pokalbiai sėkmingai inicializuoti."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Balso pokalbių inicializavimas"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Uždaryti"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Aukštos kokybės vandens vaizdavimas galimas tik įjungus papildomą postapdirbimą."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Vandens kokybė negalima"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Atšaukti"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Patikrinkite ar mašinos yra garaže"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Kaina: %(price)s %(icon)s (turite: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Žaidėjas: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Pasirinktos mašinos: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Suremontuoti"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Suremontuoti?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Asistentas"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Dalyvavimo prizai"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Mūšio bonusas"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Kovinis leidimas Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Išimtas žemėlapis"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Išskirtinė mašina"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Išskirtinės mašinos"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Nemokamas įrangos išmontavimas"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Aukso saugykla"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Intensyvūs įgulos apmokymai"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Koreguojamas patirties daugiklis"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro pastiprinimas"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Pasiekimų rodymo nustatymai"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Tankisto vėliava"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS AKTYVUOTAS"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Aš pasiruošęs!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Bus pratęsta {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "BAZINIS WOT PLUS AKTYVUOTAS"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Detaliau"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360 dienų planas"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180 dienų planas"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, bus pratęstas {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO AKTYVUOTAS"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Aktyvuoti"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Jūs negalėsite pastiprinti kitos mašinos {{@ style (color #fff)}}{{boostInterval}} valandų{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Aktyvavę Pro pastiprinimą su pasirinkta mašina uždirbsite {{@ style (color #fff)}}{{bonusPercent}} daugiau kreditų ir patirties{{/}}. Galite pasirinkti tik vieną mašiną."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Aktyvuoti Pro pastiprinimą su {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Pakeisti"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Pastiprinimas bus suteiktas tik vienai mašinai. Jūs negalėsite pastiprinti kitos mašinos dar {{@ style (color #fff)}}{{boostInterval}} valandų{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Aktyvavę Pro pastiprinimą su pasirinkta mašina uždirbsite {{@ style (color #fff)}}{{bonusPercent}} daugiau kreditų ir patirties{{/}}. Galite pasirinkti tik vieną mašiną."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Pakeisti Pro pastiprintą mašiną į {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Atšaukti"
+
+msgid "wotPlusRental/description"
+msgstr "Nauja mašina nuomai bus pasiekiama {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Išsinuomoti"
+
+msgid "wotPlusRental/title"
+msgstr "Išsinuomoti {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Išsaugoti"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Ar norite išsaugoti savo pasiekimų rodymo nustatymus?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Atšaukti"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Panaudoti visą uždirbtą patirtį įgulos treniravimui. Mažiausiai patyręs tankistas bus treniruojamas dvigubai greičiau."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "ĮJUNGTA"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Pagreitinti įgulos treniravimą?"

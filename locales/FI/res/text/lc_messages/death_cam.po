@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d–%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "VÄLILYÖNTI"
+
+msgid "hints/camera_flow/pause"
+msgstr "Edistynyt tila (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Tauko (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Palaa (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Vaunu tuhoutui"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Aluevahinko"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Painevahinko"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Pintavaurio"
+
+msgid "hints/death_reason/penetration"
+msgstr "Suora osuma"
+
+msgid "hints/follow_pt1"
+msgstr "Klikkaa vasenta nappia"
+
+msgid "hints/follow_pt2"
+msgstr "seurataksesi tätä vaunua"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Klikkaa oikeaa nappia palataksesi edelliseen vaunuun"
+
+msgid "hints/height/label"
+msgstr "Korkeus"
+
+msgid "hints/height/text"
+msgstr "Säädä kameran korkeutta."
+
+msgid "hints/movement/label"
+msgstr "Liikkuminen"
+
+msgid "hints/movement/text"
+msgstr "Käytä kameran liikuttamiseen %(forward)s, %(left)s, %(backward)s, %(right)s näppäimiä."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Jätä väliin"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "SPACE"
+
+msgid "hints/speed/label"
+msgstr "Nopeus"
+
+msgid "hints/speed/text"
+msgstr "Säädä kameran nopeutta."
+
+msgid "hints/spotted_status/spotted"
+msgstr "Havaittu"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Sokkolaukaus"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Ei-läpäisevä kulma"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Läpäisevä kulma"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Kimmottava kulma"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Nimellinen panssari {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Panssari {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Etäisyysmuuttuja {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Miehistö toimintakyvytön!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Ammusteline räjähti!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Tulessa!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "2-kaliiperin sääntö"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "3-kaliiperin sääntö"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Ei panssaria"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Panssaria lisää viisteestä {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Kaliiperi {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Keskimääräinen vahinko {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Potentiaalinen vahinko {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Aiheutettu aluevahinko {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Aiheutettu painevahinko {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Aiheutettu pintavaurio {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Aiheutettu vahinko {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Etäisyyden tähden vähennetty {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Panssarin torjumaa {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Varusteiden tähden vähennetty {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Vahingon satunnaistaminen {colorTagOpen}(P){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Keskimääräinen läpäisy {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Läpäisy {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Ammuksen nopeus {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Etäisyys {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Vihollista ei havaittu"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Asetettu"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Ei mitään"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Havaitsematon"

@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Poeni koji povećavaju rezultat ukupnih dostignuća."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Poeni dostignuća"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Završio si sve korake u ovom dostignuću i dobio si sve dostupne nagrade."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Pritisni %(escIcon)s da se vratiš na prethodni nivo KATALOGA"
+
+msgid "catalog/rootLink"
+msgstr "KATALOG"
+
+msgid "category/achievementsScore/title"
+msgstr "REZULTAT DOSTIGNUĆA"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Glavni indikator napretka u kolekciji dostignuća. Svako novo dostignuće povećava ukupni rezultat dostignuća, osim trofeja."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Ukupni rezultat dostignuća: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "NEDAVNA\nDOSTIGNUĆA"
+
+msgid "category/title"
+msgstr "IGRAČEVA KOLEKCIJA"
+
+msgid "category/upcoming/title"
+msgstr "NADOLAZEĆA\nDOSTIGNUĆA"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s i još"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Dostignuće je otključano!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s dostignuća je otključano!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s i još"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Novi trofej je zarađen!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s trofej je zarađen!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Automatski prikaz sortira nagrade iz svih kategorija prema njihovoj vrednosti da bi se prikazale na traci vrednih nagrada. Onemogućava se ako ručno preurediš nagrade."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Automatski prikaz sortira nagrade iz svih kategorija prema njihovoj vrednosti da bi se prikazale na traci vrednih nagrada. Nakon omogućavanja podešavanja, ručni redosled se resetuje."
+
+msgid "editConfirm/description/error"
+msgstr "Istražujemo problem. Pokušaj da izmeniš kasnije. U međuvremenu, bićeš preusmeren na Rezime."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Sačuvaj"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Otkaži"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Razumem!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automatski prikaz isključen"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automatski prikaz uključen"
+
+msgid "editConfirm/title/error"
+msgstr "Došlo je do greške"
+
+msgid "editConfirm/title/normal"
+msgstr "Primeni izmene trake vrednih nagrada?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Otkaži izmene"
+
+msgid "editView/footer/button/save"
+msgstr "Primeni i izađi"
+
+msgid "editView/header/checkbox"
+msgstr "Automatski prikaz"
+
+msgid "editView/header/close"
+msgstr "ZATVORI"
+
+msgid "editView/header/title/idle"
+msgstr "Izaberi nagrade za prikaz na traci"
+
+msgid "editView/header/title/selecting"
+msgstr "Izaberi nagrade za izmenu"
+
+msgid "editView/header/title/tutorial"
+msgstr "Izaberi nagradni slot"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Otkaži"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Promeni"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "TVOJA DOSTIGNUĆA\nSU OVDE"
+
+msgid "hint/profile"
+msgstr "TVOJA DOSTIGNUĆA\nSU OVDE"
+
+msgid "hint/summary/customizationButton"
+msgstr "Izmene dostupne"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Na traku"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Dostupna je izmena trake vrednih nagrada"
+
+msgid "notifications/firstEntry/button"
+msgstr "Na Dosije službe"
+
+msgid "notifications/firstEntry/text"
+msgstr "Izmena World of Tanks rejting\nnagrada."
+
+msgid "notifications/firstEntry/title"
+msgstr "Osvežavanje Dosijea službe"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Na Dosije službe"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Izmena nagrada\ni vizualnog dizajna."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Osvežavanje Dosijea službe"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Na Dosije službe"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Tvoj nivo: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Tvoj rejting je izračunat!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Na Dosije službe"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Tvoj World of Tanks je izmenjen. Idi na Dosije službe da pronađeš detalje."
+
+msgid "notifications/ratingUp/button"
+msgstr "Na Dosije službe"
+
+msgid "notifications/ratingUp/text"
+msgstr "Dostigao si sledeći nivo: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Tvoj rejting se povećao!"
+
+msgid "playerInfo/clan/button"
+msgstr "Profil klana"
+
+msgid "playerInfo/clan/date"
+msgstr "Datum pristupa:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Igrač nema trajnnih taktičkih jedinica"
+
+msgid "playerInfo/clan/post"
+msgstr "Pozicija:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Lične pločice\nsu trenutno nedostupne"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Rejting igrača nije izračunat: Vođeno je manje od %(amount)s borbi."
+
+msgid "ratingWidget/status/initial"
+msgstr "Bori se %(amount)s borbi da izračunaš svoj World of Tanks rejting."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Rejting igrača nije izračunat"
+
+msgid "ratingWidget/status/progress"
+msgstr "Računanje tvog World of Tanks rejtinga. Preostalo borbi: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Idi u borbu i izračunaćemo tvoj rejting."
+
+msgid "rewardView/button/achievements"
+msgstr "Ka dostignućima"
+
+msgid "rewardView/button/dogTag"
+msgstr "Ka pločici"
+
+msgid "rewardView/button/dogTags"
+msgstr "Ka pločicama"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Pogledaj %(value)s još"
+
+msgid "rewardView/reward/dogTag"
+msgstr "Pločica %(value)s"
+
+msgid "rewardView/title/multi"
+msgstr "NAGRADE DOSTIGNUĆA SU PRIMLJENE"
+
+msgid "rewardView/title/single"
+msgstr "NAGRADA DOSTIGNUĆA JE PRIMLJENA"
+
+msgid "section/action"
+msgstr "Specijal"
+
+msgid "section/battle"
+msgstr "Heroji borbe"
+
+msgid "section/class"
+msgstr "Etapne Nagrade"
+
+msgid "section/epic"
+msgstr "Epske medalje"
+
+msgid "section/group"
+msgstr "Grupne nagrade"
+
+msgid "section/memorial"
+msgstr "Komemorativni tokeni"
+
+msgid "section/special"
+msgstr "Honorarni rangovi"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "KA DOSTIGNUĆIMA"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Poslednja borba: %(lastVisitDate)s u %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Nalog kreiran: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Pozadina"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Podrazumevani"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Pucaj"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Zlato"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendarni"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Eksploziv"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Otkaži izmene"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Traka"
+
+msgid "summary/achievements/customization/save"
+msgstr "Primeni i izađi"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Zbog tehničkih problema, prilagođavanje tvog ekrana dosijea službe je trenutno nedostupno. Radimo na otklanjanju problema. Osveži ekran ii se vrati kasnije."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Prilagođavanje je trenutno nedostupno"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Vredne nagrade"
+
+msgid "summary/achievements/total"
+msgstr "Ukupno: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Jedinstveno: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Prosečno: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Pobede: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Prosečno: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Prosečno: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Rekord: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Prosečno: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Idi u borbu dok spremamo tvoje podatke."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Informacija je trenutno nedostupna."
+
+msgid "summary/disabled/title"
+msgstr "Više informacija će biti dostupno kasnije"
+
+msgid "summary/main/assistance"
+msgstr "REKORD\nASISTENCIJE"
+
+msgid "summary/main/battles"
+msgstr "BORBI"
+
+msgid "summary/main/blocked"
+msgstr "MAKSIMUM\nBLOKIRANO"
+
+msgid "summary/main/damage"
+msgstr "REKORD\nŠTETE"
+
+msgid "summary/main/destroyed"
+msgstr "UNIŠTENO\nVOZILA"
+
+msgid "summary/main/experience"
+msgstr "REKORD\nISKUSTVA"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks rejting"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Lični Rejting"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maksimalna šteta prouzrokovana uz tvoju pomoć."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maksimalna šteta prouzrokovana uz tvoju pomoć u borbi u %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Rekord asistencije: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Odnos ukupne nanete štete neprijateljskim vozilima uz tvoju asistenciju na ukupan broj borbi. Broji se kao doprinos:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Šteta nakon tvog uočavanja\n• Šteta nakon tvog uništavanja gusenice i imobilizovanja neprijateljskog vozila."
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Prosečna asistencija: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Odnos ukupnog broja pobeda i broja odigranih borbi."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Uključujući:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Pobede: %(wins)s\n• Porazi: %(loses)s\n• Nerešeno: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Odnos pobede: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Borbi: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Maksimalna blokirana šteta."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Maksimalna blokirana šteta u borbi u %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Maksimalno blokirano: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Odno ukupne blokirane štete oklopom od ne probojnih pogodaka i rikošeta od AP, HEAT i APCR granata na broj borbi."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Prosečna šteta blokirana: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maksimalna naneta šteta."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maksimalna naneta šteta u borbi u %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Rekord štete: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Odnos ukupne štete nanete i broja odigranih borbi."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Prosečna šteta: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Maksimalan broj uništenih vozila."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Maksimalan broj uništenih vozila u borbi u %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Maksimalno uništeno: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Ukupan broj uništenih neprijateljskih vozila u svim borbama."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Vozila uništeno: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Maksimalna količina zarađenog iskustva."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Maksimalna količina zarađenog iskustva u borbi u %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Rekord iskustva: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Odnos između ukupne količine iskustva i broja borbi."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Prosečno iskustvo: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Ni pobeda ni poraz ne utiču na računanje tvog World of Tanks rejtinga."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Igraj u raznim vozilima da pronađeš svoje naj efikasnije vozilo po sledećim parametrima:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR je sistem rejtinga koji izračunava individualni rejting za svako vozilo, a zatim je koristi za određivanje opšte performanse igrača. Sistem fleksibilno reaguje na promene strategije borbe i upoređuje statistiku igrača sa prosekom servera."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Prouzrokovano štete"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Šteta naneta uz tvoju asistenicju"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Broj uništenih neprijateljskih vozila"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Šteta blokirana i rata preživljavanja"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Povećanje WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks rejting"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Borbi preostalo za računanje rejtinga: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Nivo: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Limit je dostignut!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Preostalo poena za povećanje nivoa: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronza %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Srebro %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Zlato %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "As %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legenda %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Nivo"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Broj poena"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks rejting"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Po uključivanju opcije, red koji si podesio %(whiteSpanish_Open)sse%(whiteSpanish_Close)s %(whiteSpanish_Open)sresetuje%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Po gašenju opcije ili ručnog podešavanja, nagrade na traci %(whiteSpanish_Open)sće prestati%(whiteSpanish_Close)s%(whiteSpanish_Open)sda se osvežavaju%(whiteSpanish_Close)s%(whiteSpanish_Open)sautomatski%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Automatsko sortiranje nagrada %(whiteSpanish_Open)ssvih kategorija%(whiteSpanish_Close)s po vrednostima za prikaz na traci vrednih nagrada."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automatski prikaz"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Editovanje trake vrednih nagrada je trenutno nedostupno. Molimo pokušaj ponovo kasnije."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Nemaš nagrada da ih postaviš ovde. Dobij ih %(whiteSpanish_Open)su borbama%(whiteSpanish_Close)s ili %(whiteSpanish_Open)sučestvovanjem u događajima.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Editovanje trake vrednih nagrada će biti moguće po dobijanju %(whiteSpanish_Open)s%(amount)s ili više nagrada%(whiteSpanish_Close)s za bilo koju kategoriju."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Nema nagrada za postavljanje."
+
+msgid "tooltips/mastery/body"
+msgstr "Dobijene medalje za majstorstvo u svim relevantnim režimima bprbi / Broj vozila koja su se borila u najmanje jednoj nasumičnoj borbi."
+
+msgid "tooltips/mastery/header"
+msgstr "Medalje za majstorstvo: Najbolji tenkista"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Lični rejting je mera igračevih veština i iskustva i osnovan je na sledećem:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Lični rejting se osvežava sa svakom borbom."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Pobede\n• Šteta naneta uz asistenciju\n• Prosečna šteta po borbi\n• Prosečno iskustvo po borbi\n• Borbi preživeo"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Lični Rejting"

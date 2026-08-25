@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "Apžvalgos laukas bus padidintas {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} {colorTagOpen}%(duration)s s{colorTagClose}.\n\nLaikmatis atsistatys, kai jūsų pastebėta mašina bus sunaikinta."
+
+msgid "comp7_aggressive_detection/name"
+msgstr "Aktyvi žvalgyba"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "Jūsų įgulai {colorTagOpen}%(duration)s s{colorTagClose} suteikiamas {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonusas įgulos efektyvumui už kiekvieną skirtingą mašinos rolę jūsų komandoje.\n\nJūsų mašina visada įtraukiama į bonuso skaičiavimą."
+
+msgid "comp7_ally_support/name"
+msgstr "Vienas už visus"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "{colorTagOpen}%(radius)s m{colorTagClose} spinduliu aplink jūsų mašiną {colorTagOpen}%(duration)s s{colorTagClose} sukuriamas laukas, kuriame atstatoma {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} patvarumo taškų jūsų ir komandos narių mašinoms."
+
+msgid "comp7_aoe_heal/name"
+msgstr "Remontas mūšio lauke"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "Jūsų komandos narių įguloms {colorTagOpen}%(duration)s s{colorTagClose} suteikiamas {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonusas efektyvumui."
+
+msgid "comp7_aoe_inspire/name"
+msgstr "Motyvacija"
+
+msgid "comp7_berserk/descr/active"
+msgstr "Pabūklo užtaisymo laikas {colorTagOpen}%(duration)s s{colorTagClose} sumažinamas {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Taip pat ginklo išbarstymas po šūvio ar judėjimo metu sumažinamas {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nLaikas atsistatys jums padarius žalos taranuojant ar pataikius iš mažesnio nei {colorTagOpen}%(damageDistance)s m{colorTagClose} atstumo."
+
+msgid "comp7_berserk/name"
+msgstr "Įniršis"
+
+msgid "comp7_concentration/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} taikymosi greitis ir ginklo išbarstymas iššovus, važiuojant ir sukant korpusą ar bokštelį, sumažinamas {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nŠio rolės įgūdžio metu užsitaisymo laikas tarp šūvių sumažinamas {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_concentration/name"
+msgstr "Dėmesys taikiniui"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• Kasetinei ginklo užtaisymo sistemai:\nLikusiai kasetei užtaisymo laikas sumažinamas: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• Automatinei ginklo užtaisymo sistemai:\nVisi dabartinį ciklą iššauti sviediniai bus užtaisyti greičiau: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}.\n\nŠis įgūdis gali būti aktyvuotas tik užsitaisant.\n\n• Perkaisti galintiems automatams:\npabūklo temperatūra sumažinama {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} maksimalios vertės.\n\nŠis įgūdis gali būti aktyvuotas tik kai pabūklas įkaitęs."
+
+msgid "comp7_fast_recharge/name"
+msgstr "Miklios rankos"
+
+msgid "comp7_hunter/descr/active"
+msgstr "Atstato šūviais pažeistų mašinų skaičių.\n\nPer {colorTagOpen}%(duration)s s{colorTagClose} jūsų mašina atgaus po {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} patvarumo taškų aktyvavimo metu už kiekvieną šūviu pažeistą priešų mašiną."
+
+msgid "comp7_hunter/descr/passive"
+msgstr "Pabūklo užsitaisymo laikas sumažinamas {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} už kiekvieną šūviu pažeistą mašiną."
+
+msgid "comp7_hunter/name"
+msgstr "Premijų medžiotojas"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• Sumažina gaunamą žalą {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Padidina maksimalų greitį į priekį {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• Padidina maksimalų greitį atgal {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• Padidina variklio galią {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Padidina priešams daromą taranavimo žalą {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nKai šis rolės įgūdis aktyvus, jūsų vikšrams sunaikinti užteks vieno šūvio."
+
+msgid "comp7_juggernaut/name"
+msgstr "Galiūnas"
+
+msgid "comp7_march/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} jūsų mašinos variklio galia padidės {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, maksimalus greitis padidės {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h, o maskuotės vertė padidės {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_march/name"
+msgstr "Tvarkingas žygis"
+
+msgid "comp7_recon/descr/active"
+msgstr "Apžvalgos dronas praskris virš pasirinktos teritorijos per {colorTagOpen}%(delay)s s{colorTagClose}. {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} teritorijoje pastebėtos priešų mašinos liks matomos {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose}. Šiuo įgūdžiu aptiktam žaidėjui po {colorTagOpen}%(lampDelay)s s{colorTagClose} bus parodomas specialus ženklelis.\n\nŠį įgūdį galima naudoti nuo mūšio pradžios praėjus {colorTagOpen}%(startupDelay)s s{colorTagClose}."
+
+msgid "comp7_recon/name"
+msgstr "Žvalgybinis skrydis"
+
+msgid "comp7_redline/descr/active"
+msgstr "Pasirinkta teritorija bus apšaudyta artilerijos sviediniais per {colorTagOpen}%(delay)s s{colorTagClose}.\n\n{colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} teritorijoje pažeistos priešų mašinos gaus {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} žalos ir bus apkurtintos {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_redline/name"
+msgstr "Ugnies priedanga"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "Akceleracija\n\n{colorTagOpen}%(duration)s s{colorTagClose} variklio galia bus padidinta {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, maksimalus greitis bus padidintas {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h ir maksimalus greitis atbuliniu bus padidintas {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nAtstatymas\n\nPer{colorTagOpen}%(healDuration)s s{colorTagClose} jūsų mašina atgaus {colorTagOpen}%(baseHeal)s{colorTagClose} patvarumo taškų {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} patvarumo taškų, prarastų Akceleracijos metu."
+
+msgid "comp7_risky_attack/name"
+msgstr "Antras kvėpavimas"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\nMūšio pradžioje šio rolės įgūdžio užkrovos lygis yra{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_sniper/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} pabūklo sklaida 100 m atstumu bus lygi {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nJei jūsų mašina nepastebima šūvio metu, padaryta žala padidinama {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nLaikas atstatomas sužalojus priešą iš daugiau nei {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_sniper/name"
+msgstr "Tiesiai į taikinį"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} ginklo išbarstymas važiuojant ir sukant korpusą ar bokštelį sumažinamas {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nŠio įgūdžio metu žala šūviu sumažina užsitaisymo laiką {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} to, kiek procentų patvarumo taškų prarado priešų mašina.\n\nSunaikinus priešo mašiną užsitaisymo laikas sumažinamas {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_sure_shot/name"
+msgstr "Švarus šūvis"

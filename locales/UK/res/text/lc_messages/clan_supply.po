@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "main/backText"
+msgstr "ДО ІНФОРМАЦІЇ ПРО КЛАН"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "За виконання завдань ви отримуєте очки походу, які потрібні для дослідження нових регіонів."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Очки походу"
+
+msgid "main/infoPageButtonLabel"
+msgstr "ПРО БОЙОВИЙ ПОХІД"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "Операція тимчасово недоступна. Спробуйте пізніше."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Оновлення"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Вибачте за тимчасові незручності."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Помилка завантаження даних"
+
+msgid "progressionPage/header/heading"
+msgstr "БОЙОВИЙ ПОХІД"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "БОЙОВИЙ ПОХІД ЗАВЕРШЕНО"
+
+msgid "progressionPage/header/subheading"
+msgstr "Виконуйте кланові завдання й заробляйте очки походу. Вони потрібні для дослідження нових регіонів й отримання цінних нагород. Наприкінці походу ви можете здобути машину X рівня."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Отримано %(vehicle)s"
+
+msgid "progressionPage/loading"
+msgstr "Завантажуємо вміст..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Дослідіть попередній суміжний регіон."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Регіон уже досліджено"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Отримано нагороду:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Дослідіть попередній суміжний регіон."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Неможливо дослідити регіон"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Помилка завантаження даних"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Дослідити регіон"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Недостатньо очок походу для дослідження регіону. Потрібно ще %(value)s."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Неможливо дослідити регіон"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Дослідіть попередній суміжний регіон."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Неможливо дослідити регіон"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Забрати нагороду"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Завантажуємо вміст..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Очікуємо нарахування нагороди..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Оновлення"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "НАГОРОДА ЗА ДОСЛІДЖЕННЯ РЕГІОНУ:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "НАГОРОДУ ОТРИМАНО:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Попередній перегляд"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Оновлення"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Вибачте за тимчасові незручності."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Помилка завантаження даних"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Забрати нагороду"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "До автопошуку кланів"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Приєднайтеся до клану, щоб виконувати завдання за нагороду."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Прогрес завдання призупинено. Заберіть нагороду, щоби продовжити: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "ЗАВДАННЯ ПОХОДУ"
+
+msgid "questsPage/header/subheading"
+msgstr "Виконуйте завдання й отримуйте нагороди. Друге й третє завдання можна виконати тільки у складі взводу/загону з учасником клану."
+
+msgid "questsPage/loading"
+msgstr "Завантажуємо вміст..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "Здобути щонайменше {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} «чистого» досвіду за бій у складі взводу чи перемогти в бою в складі загону на техніці VIII–XI рівнів."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Здобути щонайменше {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} «чистого» досвіду за бій чи перемогти в бою в складі загону на техніці VI–XI рівнів."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "Знищити {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} од. техніки супротивника за бій у складі взводу чи перемогти в бою в складі загону на техніці VIII–XI рівнів."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Знищити {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} од. техніки супротивника за бій чи перемогти в бою в складі загону на техніці VI–XI рівнів."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "Завдати або допомогти завдати {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} од. шкоди за бій у складі взводу чи перемогти в бою в складі загону на техніці VIII–XI рівнів."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "Завдати або допомогти завдати {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} од. шкоди за бій чи перемогти в бою в складі загону на техніці VI–XI рівнів."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Промресурс"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Очки походу"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Ви можете забрати нагороду"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Нагороду отримано"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Недоступно"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Нагороду буде нараховано на ваш акаунт найближчим часом."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Заберіть нагороди за виконання попередніх завдань."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Виконайте попереднє завдання."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Завдання недоступне"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Залишилося часу на збір очок походу"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "За виконання завдань ви отримуєте очки походу, які потрібні для дослідження нових регіонів."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Очки походу"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Також отримано:"
+
+msgid "rewardsView/button/close"
+msgstr "ЗАКРИТИ"
+
+msgid "rewardsView/button/confirm"
+msgstr "Так!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Подивитися в Гаражі"
+
+msgid "rewardsView/heading"
+msgstr "ОТРИМАНО НАГОРОДИ"
+
+msgid "rewardsView/style/317"
+msgstr "2D-стиль «Полум'я»"
+
+msgid "rewardsView/style/345"
+msgstr "2D-стиль «Провісник»"
+
+msgid "rewardsView/style/435"
+msgstr "2D-стиль «Відплата»"
+
+msgid "rewardsView/style/436"
+msgstr "2D-стиль «Жнець»"
+
+msgid "rewardsView/subheading"
+msgstr "БОЙОВИЙ ПОХІД"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Прогрес Бойового походу"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Прогрес завдань походу"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Бойовий похід"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Завдання походу"

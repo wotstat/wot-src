@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "{{level}}. Aşama"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Özel Bölüm"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Tamamlandı"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Yeni Gelişime bakın"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Bölüm Seçin"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Geçici olarak kullanılamaz"
+
+msgid "battle_pass_widget/title"
+msgstr "Savaş Kartı"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Pota: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} gün"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} gün {{hours}} sa."
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} sa."
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} sa. {{minutes}} dk."
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} dk."
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Bonus Görev\nAçmak için 3 Standart Görev tamamlayın"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Bonus Görevi tamamlamak için kalan süre"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Yeni Günlük Görevlerin gelişi:"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Şimdilik bu kadar. Yeni Günlük Görevler yakında açılacak."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Bu görevi açmak için önceki görevi tamamlayın"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Premium Görevler geçici olarak devre dışı"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Premium Satın Al"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "WoT Premium Hesabı gerektirir"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Premium Görevler"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Günlük Görevler geçici olarak devre dışı"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Yenile"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "GÜNLÜK"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Harekâtlara Gidin"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Sonucu İyileştirin"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Operasyona Gidin"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Deneyimli savaşçılar için ödül olarak özgün araçlar veren gerçek bir sınama."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "{{currentOperationName}} operasyonunu tamamladınız! Takdirle tamamlamak için sonuçlarınızı iyileştirmeye devam edebilirsiniz veya {{nextOperationName}} operasyonunda yeni bir sınamaya başlayabilirsiniz."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "{{nextOperationName}} sonuçlarınızı iyileştirebilirsiniz."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "{{currentOperationName}} operasyonunu takdirle tamamladınız! {{nextOperationName}} operasyonu artık açıldı."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Harekât Puanlarını Kişisel Görevleri, Günlük Görevleri ve Haftalık Görevleri tamamlayarak kazanabilirsiniz."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Operasyonu takdirle tamamlayıp ekstra ödüller kazanmak için tüm {{totalProgress}} görevlerini tamamlayın."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "{{vehicleName}} ödülünüzü almak için tüm parçaların montajını yapın. Araç parçaları toplamak için Kişisel Görevlerin yanı sıra Günlük ve Haftalık Görevleri tamamlayarak Harekât Puanı kazanın."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "{{vehicleName}} ödülünüzü almak için tüm parçaların montajını yapın. Araç parçaları toplamak için Kişisel Görevlerin yanı sıra Günlük ve Haftalık Görevleri tamamlayarak Harekât Puanı kazanın."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Tamamlanan görevler: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Yeni 3. Sektör harekâtı açıldı!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operasyon: {{nextOperationName}} açık!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operasyon: {{currentOperationName}} takdirle tamamlandı!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operasyon: {{nextOperationName}} açık!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operasyon: {{currentOperationName}} | {{stageNumber}}. Aşama"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "{{currentOperationName}} operasyonunu takdirle tamamlama"
+
+msgid "hub/basic_missions/title"
+msgstr "NORMAL GÖREVLER"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "HAFTALIK"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Her {{weekDay}} bir güncellenir"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktif Görev"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "VEYA"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Yeni görevler yakında gelecek..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "CENGAVER"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "AS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELİT"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Üç görev kategorisi bulunuyor: Cengaver, Elit ve As. Her kategori özgün sınamalar ve değerli ödüller sunuyor."
+
+msgid "hub/challenge_missions/header"
+msgstr "POTA"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Etkinleştir"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Ücretsiz Yeniden Başlat"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Yeniden başlat"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Terk Et"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Görevlere Git"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Pota Görevi Tamamlandı"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "kalkan kaldı"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "ücretsiz yeniden başlatma"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Aktif Pota görevlerini tamamlayın"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "%(timer)s içinde sona erecek"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Devre dışı: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Seviye VI veya üstü araç gerekiyor"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTİF"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Tamamlandı"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} görev"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Sınama Görevi"
+
+msgid "hub/challenge_missions/new"
+msgstr "YENİ"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Pota"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Pota"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "POTA: {{ challengeName }} TAMAMLANDI!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Pota"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Pota: {{ challenge }} tamamlanmadı. Yeniden başlatın ve tekrar ödüllere yönelik çalışın!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Pota"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "{{ mission }} GÖREVİ TAMAMLANDI!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Pota"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "{{ mission }} Görevi başarısız oldu"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "KALKAN KALDI"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Pota"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Potaya girin ve üstesinden gelmeyi başaranlara değerli ödüller veren zorlu görevler setlerini tamamlayın."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "YENİ POTA GÖREVLERİ VAR!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Potada ihtişam yolunuzu açın: Üstesinden gelmeyi başaranlara değerli ödüller veren zorlu görevler setini itamamlayın."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "POTAYA GİRİN"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Tamamlandı"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "3B eklenti seti"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "İyileştirilmiş donanım"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2B stil"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Mürettebat üyesi"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Araç"
+
+msgid "hub/challenge_missions/title"
+msgstr "POTA GÖREVLERİ"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Pota Hakkında"
+
+msgid "hub/common_missions/title"
+msgstr "EKSTRA GÖREVLER"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Ödülleri Alın"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Destansı Ödül geçici olarak devre dışı"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Tamamladığınız her Standart, Premium veya Bonus Görev, gelişiminize katkıda bulunur."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Mevcut"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Destansı Ödüller kazanmak için Günlük Görevleri tamamlayın"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Ödülü Alın"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Ödülleri Alın"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Tamamladığınız her Standart, Premium veya Bonus Görev, gelişiminize katkıda bulunur."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Mevcut"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Devam! Ödüller kazanmak için Günlük Görevleri tamamlayın: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Üç Standart Görev tamamladıktan sonra daha da değerli ödüller içeren bir Bonus Görev açılır. Bonus Görev günün sonuna kadar tamamlanmalıdır, aksi takdirde süresi tükenecektir."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Bonus Görev"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Bazı görevlerin bir savaşta tamamlanması gerekirken diğerleri birikimlidir ve herhangi sayıda savaşta tamamlanabilir. Birikimli görevlerin gelişim çubuğu bulunmaktadır. Görevleri Rastgele Savaşlarda tamamlayabilirsiniz."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Şartlar"
+
+msgid "info_page/additional/reroll/description"
+msgstr "İstemediğiniz bir Standart Görevi yenileyerek rastgele yeni bir tane alabilirsiniz. Bu işlemden sonra Görev Yenile tuşu {{time}} boyunca devre dışı kalacaktır. Bir veya daha fazla aracınız savaştaysa görevi yenilemek gelişiminizi kaybetmenize yol açabilir."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Görev Yenileme"
+
+msgid "info_page/additional/reward/description"
+msgstr "Destansı Ödül, maraton gibi bir döngüdür. Tamamladığınız her Standart, Premium ve Bonus Görev, gelişimine sayılır. Döngü tamamlandığında sıfırlanır ve yeniden başlar. Destansı Ödül döngüsünün zaman sınırı yoktur ve istediğiniz zamanda tamamlayabilirsiniz."
+
+msgid "info_page/additional/reward/title"
+msgstr "Destansı Ödül"
+
+msgid "info_page/header"
+msgstr "GÖREVLER HAKKINDA"
+
+msgid "info_page/main/premium/description"
+msgstr "WoT Premium Hesabı ile üç ardışık Premium Göreve erişim hakkı kazanırsınız. Bunları Rastgele Savaşlarda ve Hücum kipinde tamamlayabilirsiniz, gelişim her savaştan sonra güncellenir. Premium Görevler oyun etkinlikleri sırasında etkinliğe özel ödüller verir."
+
+msgid "info_page/main/premium/title"
+msgstr "Premium Görevler"
+
+msgid "info_page/main/standard/description"
+msgstr "Standart Görevler, gelişimi her savaştan sonra güncellenen rastgele koşulları olan günlük görevlerdir. Bunları aldığınız gün tamamlamanızı öneririz çünkü tamamlanmamış görevler bir sonraki güne kalır ve yeni görevlerin gelmesini engeller. Standart Görevler Savaş Kartı sırasında Savaş Kartı Puanı ve diğer oyun etkinlikleri sırasında etkinliğe özel ödüller verir."
+
+msgid "info_page/main/standard/title"
+msgstr "Standart Görevler"
+
+msgid "info_page/main/weekly/description"
+msgstr "Haftalık Görevler, her hafta sunulan ödevler setidir. Gelişim her savaştan sonra güncellenir, bir sonraki haftalık döngü başladığında tamamlanmış olan görevler yenileri ile değiştirilir. Haftalık Görevleri Rastgele Savaşlarda ve Hücum kipinde tamamlayarak ek bonuslar alabilirsiniz."
+
+msgid "info_page/main/weekly/title"
+msgstr "Haftalık Görevler"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Bugünün tüm normal görevleri tamamlandı"
+
+msgid "quests/daily_quests/completed"
+msgstr "Tüm Günlük Görevler tamamlandı"
+
+msgid "tooltip/common/timer"
+msgstr "{{timeLeft}} içinde açılacak"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Tüm normal görevler tamamlandı! Fazlasını Ek Görevler sekmesinde bulabilirsiniz."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Bonus Görev"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Tamamlandı"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Günlük Görev"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "{{timeLeft}} içinde tükenecek"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Yeni Günlük Görevler {{timeLeft}} içinde açılacak"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Premium Görev"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Ödüller:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Her {time} saatte bir istemediğiniz bir görevi\nbaşka biriyle yenileyebilirsiniz."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Görev Yenileme"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Görev tamamlandı, ödül alındı."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Bu görevi açmak için önceki görevi tamamlayın. Bir serideki tüm görevler sırayla tamamlanmalıdır."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Ek bilgi için tıklayın"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Görevler Hakkında"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Bu görev seti tamamlandıktan sonra tekrar oynanabilir. Gelişiminiz sıfırlanacak ve kalkanlarınız tazelenecek, ödülleri tekrar kazanabileceksiniz."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Görevleri Tekrar Oynayın"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Tüm kalkanlarınızı kaybettikten sonra görev serisini yeniden başlatabilirsiniz. Görev gelişiminiz sıfırlanacak, kalkanlarınız tazelenecek ve ödülleri tekrar kazanabileceksiniz."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Sonraki yeniden başlatma ücreti: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Mevcut yeniden başlatma hakkı: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Her yeniden başlatmanın ücreti: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Yeniden Başlatmalar"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Kalkanlar gelişiminizi korur. Başarısız olan her görev bir kalkana mal olur. Tüm kalkanlar kaybedildiğinde görev serisi başarısız olur. Yeniden başlatırsanız kalkanlarınız tazelenir."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Kalkanlar"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Araç kısıtlamaları:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Haftalık Görev"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Her {{time}} diliminde bu Haftalık Görevi yenileyebilirsiniz."
+
+msgid "welcome/button"
+msgstr "Anlaşıldı!"

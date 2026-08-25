@@ -1,0 +1,671 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-07-20 10:00+0300\nPO-Revision-Date: 2023-07-20 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/reason/1"
+msgstr "Todos los enemigos destruidos"
+
+msgid "battleResult/reason/11"
+msgstr "Todos los objetivos completados"
+
+msgid "battleResult/reason/3"
+msgstr "Tiempo de batalla expirado"
+
+msgid "battleResult/reason/5"
+msgstr "Derrota técnica"
+
+msgid "battleResult/reason/8"
+msgstr "Aliado destruido"
+
+msgid "battleResult/reason/9"
+msgstr "Tu vehículo ha sido destruido"
+
+msgid "battleResult/reason/default"
+msgstr "Razón desconocida"
+
+msgid "battleResult/resultLabel/tie"
+msgstr "BATALLA TERMINADA"
+
+msgid "battleResult/resultLabel/win"
+msgstr "¡VICTORIA!"
+
+msgid "berlin/hint01"
+msgstr "Acaba con las orugas del King Tiger para Paíño"
+
+msgid "berlin/hint02"
+msgstr "Espera y escucha al sargento Brooks"
+
+msgid "berlin/objective01/header"
+msgstr "Busca la Wunderwaffe enemiga"
+
+msgid "berlin/objective01/subheader"
+msgstr "Avanza con cuidado"
+
+msgid "berlin/objective02/header"
+msgstr "¡Para!"
+
+msgid "berlin/objective02/subheader"
+msgstr "Sigue las directivas del cuartel general"
+
+msgid "berlin/objective03/header"
+msgstr "Busca la Wunderwaffe enemiga"
+
+msgid "berlin/objective03/subheader"
+msgstr "Avanza con cuidado"
+
+msgid "berlin/objective03/success"
+msgstr "¡Ruinas despejadas!"
+
+msgid "berlin/objective04/header"
+msgstr "Espera a que el sargento Brooks solicite un bombardero"
+
+msgid "berlin/objective04/subheader"
+msgstr "¡Defiende tu posición!"
+
+msgid "berlin/objective05/header"
+msgstr "Acaba con los enemigos"
+
+msgid "berlin/objective05/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Destruye %d enemigo restante"
+msgstr[1] "Destruye %d enemigos restantes"
+msgstr[2] "Destruye %d enemigos restantes"
+
+msgid "berlin/objective05/success"
+msgstr "¡Bombardero en camino! ¡Prepárate!"
+
+msgid "berlin/objective06/header"
+msgstr "Acaba el trabajo"
+
+msgid "berlin/objective06/subheader"
+msgstr "Acaba con las orugas del Jagdtiger"
+
+msgid "berlin/objective06/success"
+msgstr "Jagdtiger destruido"
+
+msgid "berlin/objective07/header"
+msgstr "Captura la Wunderwaffe"
+
+msgid "berlin/objective07/subheader"
+msgstr "Acaba con las orugas del Ratoncito"
+
+msgid "berlin/objective07/success"
+msgstr "¡Ratoncito destruido y capturado!"
+
+msgid "berlin/prebattle/header"
+msgstr "Avanza con cuidado"
+
+msgid "berlin/prebattle/start"
+msgstr "Continuar"
+
+msgid "berlin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "berlin/respawn/header"
+msgstr "Prepárate, soldado"
+
+msgid "berlin/respawn/subheader"
+msgstr "Los refuerzos están en camino"
+
+msgid "berlin/respawn_over/header"
+msgstr "Se acabó"
+
+msgid "berlin/respawn_over/subheader"
+msgstr "Todos los vehículos disponibles han sido destruidos"
+
+msgid "botNames/Brooks"
+msgstr "Sgto. Brooks"
+
+msgid "botNames/Connolly"
+msgstr "Tte. Arthur Connolly"
+
+msgid "botNames/Dubois"
+msgstr "Cap. Louis Dubois"
+
+msgid "botNames/McCormick"
+msgstr "Cap. John McCormick"
+
+msgid "botNames/McLaud"
+msgstr "Alistair MacLeod"
+
+msgid "botNames/Murphy"
+msgstr "Cap. Jack Murphy"
+
+msgid "botNames/Teddy"
+msgstr "Cap. Miroslav Kotva"
+
+msgid "botNames/Ulysses"
+msgstr "Cap. James Corvin"
+
+msgid "bunker"
+msgstr "Búnker costero"
+
+msgid "common/battleBtn"
+msgstr "¡Batalla!"
+
+msgid "common/continueBtn"
+msgstr "Continuar"
+
+msgid "common/loading"
+msgstr "Cargando"
+
+msgid "common/skipBtn"
+msgstr "Saltar"
+
+msgid "confirmExit/exit"
+msgstr "Saltar"
+
+msgid "confirmExit/exitRegular"
+msgstr "Salir"
+
+msgid "confirmExit/stay"
+msgstr "Cancelar"
+
+msgid "confirmExit/title"
+msgstr "¿Quieres saltar la historia de Cazador de los Tiger?"
+
+msgid "confirmExit/titleRegular"
+msgstr "¿Quieres salir de la historia?"
+
+msgid "dday/hint01"
+msgstr "Encuentra una forma de destruir los búnkeres costeros"
+
+msgid "dday/hint02"
+msgstr "Usa señales de humo para ayudar al buque de guerra"
+
+msgid "dday/objective01/header"
+msgstr "Sobrevive en la playa"
+
+msgid "dday/objective01/subheader"
+msgstr "Evita el fuego enemigo a toda costa"
+
+msgid "dday/objective02/header"
+msgstr "Atraviesa las líneas enemigas"
+
+msgid "dday/objective02/subheader"
+msgid_plural "plural/dday/objective02/subheader"
+msgstr[0] "Destruye %d búnker costero"
+msgstr[1] "Destruye %d búnkeres costeros"
+msgstr[2] "Destruye %d búnkeres costeros"
+
+msgid "dday/objective02/success"
+msgstr "¡Todos los búnkeres costeros destruidos!"
+
+msgid "dday/objective03/header"
+msgstr "Alcanza la cima"
+
+msgid "dday/objective03/subheader"
+msgstr "Alcanza y destruye las defensas enemigas del sector B5"
+
+msgid "dday/objective03/success"
+msgstr "¡Defensas destruidas! ¡Aprovecha al máximo este avance!"
+
+msgid "dday/objective04/header"
+msgstr "Ayuda a avanzar a tus aliados"
+
+msgid "dday/objective04/subheader"
+msgstr "Neutraliza las defensas enemigas del sector D6"
+
+msgid "dday/objective04/success"
+msgstr "¡El capitán Murphy tiene vía libre!"
+
+msgid "dday/objective05/header"
+msgstr "Ayuda al capitán Dubois"
+
+msgid "dday/objective05/subheader"
+msgstr "Neutraliza las defensas enemigas en el sector H6"
+
+msgid "dday/objective05/success"
+msgstr "¡El capitán Dubois tiene vía libre!"
+
+msgid "dday/objective06/header"
+msgstr "Protege las fuerzas navales"
+
+msgid "dday/objective06/subheader"
+msgid_plural "plural/dday/objective06/subheader"
+msgstr[0] "Destruye %d cañón costero"
+msgstr[1] "Destruye %d cañones costeros"
+msgstr[2] "Destruye %d cañones costeros"
+
+msgid "dday/objective06/success"
+msgstr "¡Todos los cañones costeros destruidos!"
+
+msgid "dday/objective07/header"
+msgstr "Barre la zona"
+
+msgid "dday/objective07/subheader"
+msgid_plural "plural/dday/objective07/subheader"
+msgstr[0] "Destruye %d enemigo restante"
+msgstr[1] "Destruye %d enemigos restantes"
+msgstr[2] "Destruye %d enemigos restantes"
+
+msgid "dday/objective07/success"
+msgstr "¡Todos los enemigos destruidos!"
+
+msgid "dday/objective08/header"
+msgstr "Mantén la posición"
+
+msgid "dday/objective08/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Destruye %d vehículo enemigo"
+msgstr[1] "Destruye %d vehículos enemigos"
+msgstr[2] "Destruye %d vehículos enemigos"
+
+msgid "dday/objective08/success"
+msgstr "¡Cabeza de playa defendida!"
+
+msgid "dday/prebattle/header"
+msgstr "Prepárate para el asalto"
+
+msgid "dday/prebattle/start"
+msgstr "¡Ataque!"
+
+msgid "dday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "dday/respawn/header"
+msgstr "Prepárate, soldado"
+
+msgid "dday/respawn/subheader"
+msgstr "Los refuerzos están en camino"
+
+msgid "dday/respawn_over/header"
+msgstr "Se acabó"
+
+msgid "dday/respawn_over/subheader"
+msgstr "Todos los vehículos disponibles han sido destruidos"
+
+msgid "epilogue/text"
+msgstr "MacLeod: «¡Está vivo! ¡Brooks está vivo! Con quemaduras graves, pero vivo. Pues claro, me había prometido una medalla. Tú te has ganado la tuya, y merecida al dejar frito a ese King Tiger. Estamos empatados. Ese tiro al Tiger con el que te salvamos fue pura suerte. Estaba disparando sin ni siquiera apuntar. ¡Vaya potra! Se ve que le salvé el culo a Brooks y a mí mismo.\n\nAhora sí, un merecido descanso. Tenemos un par de días. Vamos a adecentar los blindados, nos aguarda Berlín.\n\nPor cierto, 7 a 4 a tu favor. Eso sí, a los alemanes les quedarán varios Tiger, así que veremos quién se lleva el gato al agua»."
+
+msgid "epilogue/title"
+msgstr "EPÍLOGO"
+
+msgid "finish/reason/1"
+msgstr "TODOS LOS ENEMIGOS DESTRUIDOS"
+
+msgid "finish/reason/11"
+msgstr "TODOS LOS OBJETIVOS COMPLETADOS"
+
+msgid "finish/reason/3"
+msgstr "TIEMPO DE BATALLA EXPIRADO"
+
+msgid "finish/reason/5"
+msgstr "DERROTA TÉCNICA"
+
+msgid "finish/reason/8"
+msgstr "ALIADO DESTRUIDO"
+
+msgid "finish/reason/9"
+msgstr "TU VEHÍCULO HA SIDO DESTRUIDO"
+
+msgid "finish/reason/default"
+msgstr "RAZÓN DESCONOCIDA"
+
+msgid "hint_aim_weak_spots"
+msgstr "Un indicador verde indica una mayor probabilidad de causar daño"
+
+msgid "hint_move"
+msgstr "Controles del vehículo"
+
+msgid "hint_move_turret"
+msgstr "Controles de la torreta y el apuntamiento"
+
+msgid "hint_shoot"
+msgstr "Apunta al vehículo enemigo y dispara"
+
+msgid "hint_sniper_enter"
+msgstr "Gira la rueda del ratón para entrar en el modo francotirador"
+
+msgid "hint_sniper_on_distance_exit"
+msgstr "Gira la rueda del ratón para salir del modo francotirador"
+
+msgid "hint_sniper_weak_spots_enter"
+msgstr "El modo francotirador permite apuntar fácilmente a los puntos débiles del blindaje"
+
+msgid "hint_target_unlock"
+msgstr "Autoapuntar activado. Desactívalo con el botón derecho del ratón."
+
+msgid "ingameMenu/buttons/quit"
+msgstr "Saltar introducción"
+
+msgid "introVideo/loading"
+msgstr "Cargando..."
+
+msgid "lootCapturing/equipment"
+msgstr "Capturando: mapa del campo de minas"
+
+msgid "lootCapturing/plan"
+msgstr "Capturando: trozo de mapa"
+
+msgid "lootCapturing/tank"
+msgstr "Capturando el vehículo enemigo"
+
+msgid "prebattle/mission/stage/1"
+msgstr "Operación 1"
+
+msgid "prebattle/mission/stage/2"
+msgstr "Operación 2"
+
+msgid "prebattle/mission/stage/3"
+msgstr "Operación 3"
+
+msgid "prebattle/mission/stage/4"
+msgstr "Operación 4"
+
+msgid "prebattle/mission/stage/5"
+msgstr "Operación 5"
+
+msgid "prebattle/mission/stage/6"
+msgstr "Operación 6"
+
+msgid "prebattle/mission/stage/7"
+msgstr "Operación 7"
+
+msgid "prebattle/mission/task/1"
+msgstr "Misión: Ataca la ciudad y destruye todos los vehículos enemigos."
+
+msgid "prebattle/mission/task/2"
+msgstr "Misión: Ataca la ciudad y destruye todos los vehículos enemigos."
+
+msgid "prebattle/mission/task/3"
+msgstr "Ataca la ciudad y destruye todos los vehículos enemigos."
+
+msgid "prebattle/mission/task/4"
+msgstr "Encuentra y destruye la Wunderwaffe enemiga."
+
+msgid "prebattle/mission/task/5"
+msgstr "Ábrete camino, destruye los cañones costeros y captura la cabeza de puente."
+
+msgid "prebattle/mission/task/6"
+msgstr "Entrega la orden de alto el fuego a tus aliados."
+
+msgid "prebattle/mission/task/7"
+msgstr "Ve al centro de mando e impide el lanzamiento del misil."
+
+msgid "prebattle/mission/text/1"
+msgstr "Brooks: «¿Cómo estás? ¿Te has recuperado? Ya te verá un médico luego, ahora necesitamos a todos los efectivos: el asalto ha empezado. Como llegamos tarde, el enemigo ha centrado la atención en otro flanco, y es nuestra oportunidad. Hay que atacar ya, asaltar la ciudad y acorralarlos por ambos lados.\n\nSíguenos y evita los dientes de dragón. Han colocado varias hileras de colmillos de cemento en el terreno, pero no pasa nada, podremos con ello. Solo tienes que escucharme y ejecutar mis órdenes con precisión y rapidez. MacLeod y yo te cubriremos.\n\nY ni caso a sus chascarrillos. Todo el mundo tiene sus mecanismos de afrontamiento. ¡Vamos!»."
+
+msgid "prebattle/mission/text/2"
+msgstr "MacLeod: «Ah... Los Tiger son los peores con los que podíamos toparnos. Si la línea de mando dice que estamos en apuros, probablemente se refiera a los Tiger. No podemos comunicarnos con el primer escuadrón de asalto, el segundo acaba de irse y... debemos seguirlos.\n\nSi nos han enviado, solo puede deberse a los Tiger. \"Enviad a los expertos en Tiger\", habrán dicho desde el cuartel. Nueve carros para dos... No está mal para medio año de servicio. Vas ganando 5 a 4, ¡pero tengo la oportunidad de adelantarme y conseguir esa dichosa medalla de una vez por todas!\n\n¡Venga! A Brooks no le gusta esperar. Empieza la cacería»."
+
+msgid "prebattle/mission/text/3"
+msgstr "MacLeod: «Muy bien, chicos, comienza la operación Martillo y yunque, un nombre simple para un trabajo no tan simple... Pondremos rumbo a la ciudad para expulsar a las fuerzas enemigas. No será fácil, nos enfrentaremos a blindados muy duros, pero vamos sobrados de inteligencia, fuerza y trabajo en equipo, ¿verdad que sí, Fortuna? ¡Con brío, compañeros! He quedado para tomar el \"té\" de las cinco, ya me entendéis...»."
+
+msgid "prebattle/mission/text/4"
+msgstr "MacLeod: «No preguntes, Fortuna. Sé tan poco como tú.\n\nNo me gusta tanto secretismo, prefiero las cosas claras; encontrar a los enemigos y luchar. Pero ¿esto? Esto es un caos...\n\nTambién habrá blindados aliados en la ciudad. Brooks nos ha pedido que andemos con cuidado, ¿qué querrá decir con eso?\nTenemos una tarea especial: encontrar algún tipo de Wunderwaffe; algo enorme y con orugas. Somos los únicos que podemos hacerlo, Fortuna.\n\n¿Todo listo? Pues a rodar»."
+
+msgid "prebattle/mission/text/5"
+msgstr "Capitán John McCormick: «Bueno, compañeros, ha llegado el día. Es hora de poner fin a esta guerra y eso es justo lo que vamos a hacer. Todos nosotros, juntos: estadounidenses, británicos, franceses, canadienses, australianos, belgas, checoslovacos, griegos, holandeses, neozelandeses, noruegos, polacos... Nos unimos para acabar con esta vileza de una vez por todas.\n\nVamos a atravesar el Muro atlántico y establecer un punto de apoyo.\n\n¡Preparaos para el desembarco!»"
+
+msgid "prebattle/mission/text/6"
+msgstr "Capitán Smith: «Escuchad, Alemania ha firmado la rendición hace unas horas, la guerra terminará mañana. Sin embargo, hemos perdido el contacto por radio con nuestros chicos, de modo que ellos no saben que todo ha acabado y están listos para atacar esta maldita fortaleza al amanecer; los alemanes que están dentro tampoco son conscientes de la rendición. Será una matanza sin sentido. \n\nSomos los únicos que podemos evitarla. Nuestra misión es colarnos entre las líneas enemigas y entregar la orden de alto el fuego. Es una misión suicida, pero cada vida que salvemos cuenta. \n\nTenemos con nosotros a un operador de radio alemán capturado, conoce el terreno y tiene tantas razones como nosotros para poner fin a este derramamiento de sangre. \n\nEn marcha»."
+
+msgid "prebattle/mission/text/7"
+msgstr "Leni Scharf: «La situación es crítica. Hemos perdido contacto con nuestra base de misiles en el mar de Noruega. El vuelo de reconocimiento nunca volvió, y un enemigo desconocido destruyó los carros que lideraron el desembarco.\n\nEl servicio de inteligencia sugiere que se están preparando para lanzar un misil balístico. No sabemos cuál es su objetivo, pero, dada la situación política actual, el lanzamiento podría desencadenar un conflicto a nivel mundial.\n\nComo en los viejos tiempos, ¿no? Otra misión imposible tras las filas enemigas. ¡A rodar!»."
+
+msgid "prebattle/mission/title/1"
+msgstr "Avalancha de acero"
+
+msgid "prebattle/mission/title/2"
+msgstr "Trampero"
+
+msgid "prebattle/mission/title/3"
+msgstr "Martillo y yunque"
+
+msgid "prebattle/mission/title/4"
+msgstr "Gato en la ratonera"
+
+msgid "prebattle/mission/title/5"
+msgstr "Operación Overlord"
+
+msgid "prebattle/mission/title/6"
+msgstr "Operación Cartero"
+
+msgid "prebattle/mission/title/7"
+msgstr "Operación Punto de ebullición"
+
+msgid "ruinberg/hint01"
+msgstr "Busca un desvío y flanquea al enemigo"
+
+msgid "ruinberg/objective01/header"
+msgstr "¡Avanza!"
+
+msgid "ruinberg/objective01/subheader"
+msgstr "Sigue adelante y acaba con las fuerzas enemigas"
+
+msgid "ruinberg/objective02/header"
+msgstr "Rodéalos por sorpresa"
+
+msgid "ruinberg/objective02/subheader"
+msgstr "Acorrala al enemigo por ambos lados"
+
+msgid "ruinberg/objective02/success"
+msgstr "¡Destruido!"
+
+msgid "ruinberg/objective03/header"
+msgstr "Rodéalos por sorpresa"
+
+msgid "ruinberg/objective03/subheader"
+msgstr "Acorrala al enemigo por ambos lados"
+
+msgid "ruinberg/objective03/success"
+msgstr "¡Destruido!"
+
+msgid "ruinberg/objective05/header"
+msgstr "¡Avanza!"
+
+msgid "ruinberg/objective05/subheader"
+msgstr "Sigue adelante y acaba con las fuerzas enemigas"
+
+msgid "ruinberg/objective07/header"
+msgstr "¡Prepárate para el contraataque!"
+
+msgid "ruinberg/objective07/subheader"
+msgstr "Mantén la posición"
+
+msgid "ruinberg/objective07/success"
+msgstr "¡Enemigos destruidos!"
+
+msgid "ruinberg/prebattle/header"
+msgstr "¡Prepárate!"
+
+msgid "ruinberg/prebattle/start"
+msgstr "¡Ataque!"
+
+msgid "ruinberg/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "ruinberg/respawn/header"
+msgstr "Prepárate, soldado"
+
+msgid "ruinberg/respawn/subheader"
+msgstr "Los refuerzos están en camino"
+
+msgid "ruinberg/respawn_over/header"
+msgstr "Se acabó"
+
+msgid "ruinberg/respawn_over/subheader"
+msgstr "Todos los vehículos disponibles han sido destruidos"
+
+msgid "settings/disabledTabsOverlay"
+msgstr "Completa la historia de Cazador de los Tiger para desbloquear estos ajustes."
+
+msgid "timersPanel/overturned"
+msgstr "Recuperando tu vehículo..."
+
+msgid "vday/hint01"
+msgstr "Doble la esquina rápido"
+
+msgid "vday/hint02"
+msgstr "Acércate con sigilo"
+
+msgid "vday/hint03"
+msgstr "Envía al capitán Dubois a explorar los alrededores"
+
+msgid "vday/hint04"
+msgstr "Usa la radio capturada para mandarle una orden falsa al Tiger"
+
+msgid "vday/hint05"
+msgstr "Revisa el puesto de mando alemán"
+
+msgid "vday/hint06"
+msgstr "Las habilidades «Exploración circundante» y «Orden falsa» son la clave para triunfar"
+
+msgid "vday/hint07"
+msgstr "Usa las habilidades «Exploración circundante» y «Orden falsa» para moverte sin que te vean"
+
+msgid "vday/hint08"
+msgstr "¡O nos movemos o nos vamos al pozo!"
+
+msgid "vday/hint09"
+msgstr "Orden falsa no distrae a los carros de élite"
+
+msgid "vday/hint10"
+msgstr "Sigue las instrucciones del capitán Smith y ve con cuidado"
+
+msgid "vday/hint11"
+msgstr "¡Vuelve a la misión!"
+
+msgid "vday/objective01/header"
+msgstr "¡A rodar!"
+
+msgid "vday/objective01/subheader"
+msgstr "Entrega la orden de alto el fuego a las fuerzas aliadas"
+
+msgid "vday/objective02/header"
+msgstr "Llega al puesto de mando alemán."
+
+msgid "vday/objective02/subheader"
+msgstr "Sigue las instrucciones del capitán Smith."
+
+msgid "vday/objective02/success"
+msgstr "Mapas del campo de minas capturados"
+
+msgid "vday/objective03/header"
+msgstr "Encuentra trozos del mapa del paso"
+
+msgid "vday/objective03/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Trozo del mapa %d obtenido"
+msgstr[1] "Trozos del mapa %d obtenidos"
+msgstr[2] "Trozos del mapa %d obtenidos"
+
+msgid "vday/objective03/success"
+msgstr "Mapa del paso restaurado"
+
+msgid "vday/objective04/header"
+msgstr "Entrega la orden de alto el fuego a las fuerzas aliadas"
+
+msgid "vday/objective04/subheader"
+msgstr "Avanza por los campos de minas"
+
+msgid "vday/objective04/success"
+msgstr "¡Orden de alto el fuego entregada!"
+
+msgid "vday/objective05/header"
+msgstr "Llega a los campos de minas"
+
+msgid "vday/objective05/subheader"
+msgstr "Cuélate por las líneas enemigas"
+
+msgid "vday/objective05/success"
+msgstr "Campos de minas alcanzados"
+
+msgid "vday/prebattle/header"
+msgstr "Cuélate por las líneas enemigas"
+
+msgid "vday/prebattle/start"
+msgstr "Continuar"
+
+msgid "vday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "vday/prebattleVeryHard/header"
+msgstr "Avanza por el campo de minas"
+
+msgid "vday/prebattleVeryHard/start"
+msgstr "En marcha"
+
+msgid "vday/prebattleVeryHard/subheader"
+msgstr "?empty?"
+
+msgid "vday/respawn/header"
+msgstr "Prepárate, soldado"
+
+msgid "vday/respawn/subheader"
+msgstr "Los refuerzos están en camino"
+
+msgid "vday/respawn_over/header"
+msgstr "Se acabó"
+
+msgid "vday/respawn_over/subheader"
+msgstr "Todos los vehículos disponibles han sido destruidos"
+
+msgid "zeppelin/hint01"
+msgstr "Carga el cañón de tu vehículo para causar más daño."
+
+msgid "zeppelin/hint02"
+msgstr "Daña a un enemigo distante al disparar con la precisión máxima del cañón."
+
+msgid "zeppelin/hint03"
+msgstr "Aprende a disparar con el armamento auxiliar de este vehículo."
+
+msgid "zeppelin/objective01/failure"
+msgstr "¡Misión fallida!"
+
+msgid "zeppelin/objective01/header"
+msgstr "¡Avanza!"
+
+msgid "zeppelin/objective01/subheader"
+msgstr "Llega hasta el misil e impide el lanzamiento"
+
+msgid "zeppelin/objective02/header"
+msgstr "¡lnstalación de mantenimiento del enemigo localizada!"
+
+msgid "zeppelin/objective02/subheader"
+msgstr "Captura el vehículo abandonado"
+
+msgid "zeppelin/objective02/success"
+msgstr "¡Vehículo capturado!"
+
+msgid "zeppelin/objective03/header"
+msgstr "¡Nuevo objetivo recibido!"
+
+msgid "zeppelin/objective03/subheader"
+msgstr "Captura la base de lanzamiento y el centro de mando"
+
+msgid "zeppelin/objective03/success"
+msgstr "Base de lanzamiento asegurada"
+
+msgid "zeppelin/objective04/header"
+msgstr "Mantén la posición"
+
+msgid "zeppelin/objective04/subheader"
+msgstr "Destruye %d vehículos enemigos"
+
+msgid "zeppelin/objective04/success"
+msgstr "Ataque enemigo repelido"
+
+msgid "zeppelin/prebattle/header"
+msgstr "¡Prepárate!"
+
+msgid "zeppelin/prebattle/start"
+msgstr "¡Adelante!"
+
+msgid "zeppelin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "zeppelin/respawn/header"
+msgstr "Prepárate, comandante"
+
+msgid "zeppelin/respawn/subheader"
+msgstr "Los refuerzos están en camino"
+
+msgid "zeppelin/respawn_over/header"
+msgstr "Se acabó"
+
+msgid "zeppelin/respawn_over/subheader"
+msgstr "Todos los vehículos disponibles han sido destruidos"

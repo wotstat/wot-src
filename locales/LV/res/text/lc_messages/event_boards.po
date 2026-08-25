@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Komanda <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Atlīdzības par tanku iznīcinātājiem"
+
+msgid "awards/class/SPG"
+msgstr "Atlīdzības par artilēriju"
+
+msgid "awards/class/heavyTank"
+msgstr "Atlīdzības par smagajiem tankiem"
+
+msgid "awards/class/lightTank"
+msgstr "Atlīdzības par vieglajiem tankiem"
+
+msgid "awards/class/mediumTank"
+msgstr "Atlīdzības par vidējiem tankiem"
+
+msgid "awards/level"
+msgstr "Atlīdzības par %(level)s līmeņa bruņutehniku"
+
+msgid "awards/nation/china"
+msgstr "Atlīdzības par Ķīnas bruņutehniku"
+
+msgid "awards/nation/czech"
+msgstr "Atlīdzības par Čehoslovākijas bruņutehniku"
+
+msgid "awards/nation/france"
+msgstr "Atlīdzības par Francijas bruņutehniku"
+
+msgid "awards/nation/germany"
+msgstr "Atlīdzības par Vācijas bruņutehniku"
+
+msgid "awards/nation/japan"
+msgstr "Atlīdzības par Japānas bruņutehniku"
+
+msgid "awards/nation/poland"
+msgstr "Atlīdzības par Polijas bruņutehniku"
+
+msgid "awards/nation/sweden"
+msgstr "Atlīdzības par Zviedrijas bruņutehniku"
+
+msgid "awards/nation/uk"
+msgstr "Atlīdzības par Lielbritānijas bruņutehniku"
+
+msgid "awards/nation/usa"
+msgstr "Atlīdzības par ASV bruņutehniku"
+
+msgid "awards/nation/ussr"
+msgstr "Atlīdzības par PSRS bruņutehniku"
+
+msgid "awards/tooltip/class"
+msgstr "Uzspiediet, lai atainotu atlīdzības šī veida bruņutehnikai."
+
+msgid "awards/tooltip/level"
+msgstr "Uzspiediet, lai atainotu atlīdzības šī līmeņa bruņutehnikai."
+
+msgid "awards/tooltip/nation"
+msgstr "Uzspiediet, lai atainotu atlīdzības šai nācijai."
+
+msgid "awards/vehicle"
+msgstr "Atlīdzības izvēlētajai bruņutehnikai"
+
+msgid "badge/tooltip/description"
+msgstr "Uzšuve ir unikāla ikona, kas tiks atainota līdzās jūsu segvārdam kaujā. Uzšuve tiek atainota spēlētājiem abās komandās un norāda uz jūsu ievērojamo veiktspēju akcijā „Nāciju maršs”."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Piemiņas uzšuves"
+
+msgid "block/award"
+msgstr "Galvenā atlīdzība"
+
+msgid "block/objective"
+msgstr "Nosacījumi"
+
+msgid "block/task"
+msgstr "Misija"
+
+msgid "button/awards"
+msgstr "Visas atlīdzības"
+
+msgid "button/awards/tooltip"
+msgstr "Uzspiediet, lai atainotu sarakstu ar sacensību atlīdzībām."
+
+msgid "button/regulations"
+msgstr "Prasības"
+
+msgid "button/regulations/tooltip"
+msgstr "Uzspiediet, lai atainotu pilnu sacensību aprakstu."
+
+msgid "condition/battletype/random"
+msgstr "Gadījuma kauja 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Ranga kauja"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Vadi ir atļauti"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Vadi nav atļauti"
+
+msgid "condition/primetime/any"
+msgstr "Jebkurš serveris un laiks"
+
+msgid "condition/primetime/chosen"
+msgstr "Tikai norādītajos serveros"
+
+msgid "condition/vehicle/chosen"
+msgstr "Tikai ar norādīto bruņutehniku:"
+
+msgid "condition/vehicle/exist"
+msgstr "Ir angārā"
+
+msgid "condition/vehicle/missing"
+msgstr "Nav angārā"
+
+msgid "condition/vehicle/single"
+msgstr "Ar %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Apbalvojums"
+
+msgid "excel/btnClose"
+msgstr "UZ SACENSĪBU"
+
+msgid "excel/group/title"
+msgstr "Grupa"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Lai iekļūtu reitingā, aizvadiet kaujas: %(number)s"
+
+msgid "excel/noData"
+msgstr "Godalgotās vietas vēl nav ieņemtas."
+
+msgid "excel/participate/join"
+msgstr "Piedalīties"
+
+msgid "excel/participate/notParticipated"
+msgstr "Jūs nepiedalījāties šajā reitingā"
+
+msgid "excel/subHeader"
+msgstr "Sacensības: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Piedalīties"
+
+msgid "header/participate/button/leave"
+msgstr "Pamest sacensību"
+
+msgid "header/participate/finished"
+msgstr "Sacensības ir noslēgušās"
+
+msgid "header/participate/notStarted"
+msgstr "Jūs pieteicāties"
+
+msgid "header/participate/reason/byAge"
+msgstr "Konts izveidots pēc %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Sacensības nav pieejamas"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Jūs pametāt šo sacensību"
+
+msgid "header/participate/started"
+msgstr "Jūs piedalāties"
+
+msgid "header/timer"
+msgstr "Līdz beigām:"
+
+msgid "maintenance/body"
+msgstr "Mēs atvainojamies par īslaicīgām neērtībām."
+
+msgid "maintenance/title"
+msgstr "Kļūda ielādējot datus"
+
+msgid "maintenance/update"
+msgstr "Atjaunot"
+
+msgid "notification/buttons/details"
+msgstr "Plašāk"
+
+msgid "notification/eventFinished/body"
+msgstr "Sacensības „%(eventName)s” ir noslēgušās. Uzvarētāji tiks noteikti tuvākajās dienās, pēc kā tie saņems pelnītās balvas."
+
+msgid "notification/eventFinished/header"
+msgstr "Pabeigtas sacensības"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Jūsu kauju rezultāti šajā sacensībā tagad tiek ieskaitīti, tāpēc jūs varat iekļūt reitingā un nopelnīt atlīdzību."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Jūs pieteicāties kā dalībnieks"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Jūsu kauju rezultāti tiks ieskaitīti, līdzko sāksies sacensības, un jūs varēsiet iekļūt reitingā un nopelnīt atlīdzību."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Jūs pieteicāties kā dalībnieks"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Neizdodas pierakstīties dalībniekos: nav izpildītas prasības."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Neizdodas pierakstīties dalībniekos: reģistrēšanās periods ir beidzies."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Sacensību statistika pēc reitingu atjaunošanas tiks atiestatīta."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Jūs pametāt sacensību"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Šajā sacensībā jūsu statistika netiks ieskaitīta."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Jūs pametāt sacensību"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Neizdodas pamest sacensības: atvēlētais laiks ir iztecējis."
+
+msgid "notification/eventStarted/body"
+msgstr "Sacensības „%(eventName)s” ir sākušās! Spēlētāji, kas līdz ar sacensību beigām atradīsies godalgotās pozīcijās, nopelnīs vērtīgas atlīdzības."
+
+msgid "notification/eventStarted/header"
+msgstr "Sacensības ir sākušās"
+
+msgid "notification/unknownError/body"
+msgstr "Neizdodas pabeigt operāciju."
+
+msgid "orders/title"
+msgstr "Prasības"
+
+msgid "popover/buttons/cancel"
+msgstr "Atcelt"
+
+msgid "popover/buttons/rating"
+msgstr "Pāriet pie reitingiem"
+
+msgid "popover/buttons/select"
+msgstr "Izvēlēties"
+
+msgid "popover/noVehicles"
+msgstr "Izvēlētajiem filtriem atbilstoša bruņutehnika netika atrasta."
+
+msgid "popover/resetFilter"
+msgstr "Noņemt filtru"
+
+msgid "popover/title"
+msgstr "Reitingu saraksts"
+
+msgid "popover/title/vehicle"
+msgstr "Reitingu saraksts"
+
+msgid "popover/tooltip/class"
+msgstr "Pāriet pie izvēlētā bruņutehnikas veida reitinga."
+
+msgid "popover/tooltip/level"
+msgstr "Pāriet pie izvēlētā bruņutehnikas līmeņa reitinga."
+
+msgid "popover/tooltip/nation"
+msgstr "Pāriet pie izvēlētās nācijas reitinga."
+
+msgid "server/list"
+msgstr "Lai jūsu kaujas tiktu ieskaitītas sacensībā, dodieties uz šo serveri:"
+
+msgid "server/noSuitable/body"
+msgstr "Tuvākie laiki kauju rezultātu ieskaitīšanai: %(data)s. Sacensības grafiks"
+
+msgid "server/noSuitable/header"
+msgstr "Pašlaik sacensības ietvaros kauju rezultāti netiek ieskaitīti"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s uz %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Mani labākie rezultāti"
+
+msgid "status/bestResults/one"
+msgstr "Mani rezultāti"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Sacensības nav pieejamas:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Jums nav atļauts piedalīties šajās sacensības saistībā ar spēles noteikumu pārkāpšanu"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "konts izveidots pēc %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "Jūs neesat aizvadījuši nepieciešamo kauju skaitu režīmā „Gadījuma kauja”: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "uzvaru procents gadījuma kaujās pārsniedz %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "jūs gadījuma kaujās neesat sasnieguši uzvaru procentu %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Reģistrēšanās periods ir noslēdzies"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Jūs nevarat pievienoties šīm sacensībām kā dalībnieks."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Jūs pametāt šo sacensību"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Jūsu kauju rezultāti šajā sacensībā vairs netiek ieskaitīti. Jūs neiekļūsiet reitingā un nesaņemsiet atlīdzību.\nJūs nevarēsiet atjaunot dalību šajā sacensībā."
+
+msgid "status/cantJoin/reason/many"
+msgstr "nav izpildītas prasības %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "nav izpildītas prasības (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Jūs neieņēmāt pozīciju reitingā"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Jūs nevarat piedalīties sacensībās ar šo kontu."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "nav atbilstošas bruņutehnikas"
+
+msgid "status/participate/cantJoin"
+msgstr "Sacensības nav pieejamas"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Aizvadiet kauju ar norādītajiem nosacījumiem, un pēc reitingu atjaunināšanas šeit tiks atainoti jūsu rezultāti."
+
+msgid "status/participate/notParticipated"
+msgstr "Jūs nepiedalījāties šajā reitingā"
+
+msgid "summary/averagedamage"
+msgstr "Vidējie bojājumi"
+
+msgid "summary/averagedamageassisted"
+msgstr "Vidējie bojājumi ar jūsu atbalstu"
+
+msgid "summary/averagexp"
+msgstr "Vidējā pieredze"
+
+msgid "summary/battles"
+msgstr "Kaujas sacensībā"
+
+msgid "summary/damage"
+msgstr "Bojājumi"
+
+msgid "summary/damageassist"
+msgstr "Bojājumi ar jūsu atbalstu"
+
+msgid "summary/damageblocked"
+msgstr "Bloķētie bojājumi"
+
+msgid "summary/description/awards/title/award"
+msgstr "ATLĪDZĪBA SACENSĪBU BEIGĀS"
+
+msgid "summary/description/awards/title/group"
+msgstr "GRUPA"
+
+msgid "summary/description/awards/title/position"
+msgstr "POZĪCIJA"
+
+msgid "summary/description/max/class"
+msgstr "Labākā kauja ar %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Labākā kauja ar %(value)s līmeņa bruņutehniku"
+
+msgid "summary/description/max/nation"
+msgstr "Labākā kauja ar bruņutehniku, kuras nācija ir: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Labākā kauja ar %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Sacensības statistika ar %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Sacensības statistika ar %(value)s līmeņa bruņutehniku"
+
+msgid "summary/description/sum/nation"
+msgstr "Sacensības statistika ar bruņutehniku no nācijām: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Sacensības statistika ar šādu bruņutehniku: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Labākā kauju sērija ar %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Labākā kauju sērija ar %(value)s līmeņa bruņutehniku"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Labākā kauju sērija ar bruņutehniku no nācijām: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Labākā kauju sērija ar %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Labākā kauja ar %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Labākās kaujas ar %(value)s līmeņa bruņutehniku"
+
+msgid "summary/description/sumN/nation"
+msgstr "Labākās kaujas ar bruņutehniku no nācijām: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Labākā kauja ar %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Labākā kauju sērija ar %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Labākā kauju sērija ar %(value)s līmeņa bruņutehniku"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Labākā kauju sērija ar bruņutehniku no nācijām: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Labākā kauju sērija ar %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Iznīcinātas pretinieku bruņutehnikas vienības"
+
+msgid "summary/fightInSquaad"
+msgstr "Kauja vadā"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Kauja ne vadā"
+
+msgid "summary/originalXP"
+msgstr "Pamata pieredze"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Izdarīti bojājumi ar spēlētāja atbalstu"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Bojājumi"
+
+msgid "summary/param/max/originalXP"
+msgstr "Pamata pieredze"
+
+msgid "summary/param/max/xp"
+msgstr "Pieredze"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Vidējie ar spēlētāja palīdzību izdarītie bojājumi"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Vidējie bojājumi"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Vidējā pamata pieredze"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Uzvaras"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Vidējā pieredze"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Vidējie ar spēlētāja palīdzību izdarītie bojājumi"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Kopējie bojājumi"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Pamata pieredzes kopsumma"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Kopējā pieredze"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Kopējie ar spēlētāja palīdzību izdarītie bojājumi"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Kopējie bojājumi"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Pamata pieredzes kopsumma"
+
+msgid "summary/param/sumN/xp"
+msgstr "Kopējā pieredze"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Vidējie ar spēlētāja palīdzību izdarītie bojājumi"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Kopējie bojājumi"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Pamata pieredzes kopsumma"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Kopējā pieredze"
+
+msgid "summary/position"
+msgstr "Pozīcija reitingā: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Neizšķirts"
+
+msgid "summary/result/loss"
+msgstr "Zaudējums"
+
+msgid "summary/result/win"
+msgstr "Uzvara"
+
+msgid "summary/status"
+msgstr "Atjaunināts %(day)s pulksten %(time)s"
+
+msgid "summary/winrate"
+msgstr "Uzvaras"
+
+msgid "table/header/player"
+msgstr "Spēlētājs"
+
+msgid "table/header/position"
+msgstr "Nr"
+
+msgid "table/selectParticipateBtn"
+msgstr "Pamest sacensību"
+
+msgid "table/selectRatingBtn"
+msgstr "Reitingu saraksts"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Pierakstieties dalībniekos"
+
+msgid "table/stripe/bronze/title"
+msgstr "III grupa (vietas %(placeFrom)d – %(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "I grupa (vietas %(placeFrom)d – %(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "I grupa"
+
+msgid "table/stripe/iron/title"
+msgstr "IV grupa (vietas %(placeFrom)d – %(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "II grupa (vietas %(placeFrom)d – %(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Pozīcijas bez atlīdzībām"
+
+msgid "task/eventtype/all"
+msgstr "Vienots reitings visiem dalībniekiem"
+
+msgid "task/eventtype/class"
+msgstr "Katra veida bruņutehnikai ir savs reitings"
+
+msgid "task/eventtype/level"
+msgstr "Katra līmeņa bruņutehnikai ir savs reitings"
+
+msgid "task/eventtype/nation"
+msgstr "Katrai bruņutehnikas nācijai ir savs reitings"
+
+msgid "task/eventtype/vehicle"
+msgstr "Katrai bruņutehnikas vienībai ir savs reitings"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Iekļūstiet reitingā pēc izdarītajiem bojājumiem ar jūsu atbalstu"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Iekļūstiet reitingā pēc izdarītajiem bojājumiem"
+
+msgid "task/objective/max/originalXP"
+msgstr "Iekļūstiet reitingā pēc nopelnītās pamata pieredzes"
+
+msgid "task/objective/max/xp"
+msgstr "Iekļūstiet reitingā pēc nopelnītās pieredzes"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Iekļūstiet reitingā pēc izdarīto bojājumu ar jūsu atbalstu kopsummas"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Iekļūstiet reitingā pēc izdarīto bojājumu kopsummas"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Iekļūstiet reitingā pēc nopelnītās pamata pieredzes kopsummas"
+
+msgid "task/objective/sum/wins"
+msgstr "Ierindojieties reitingā pēc uzvaru skaita"
+
+msgid "task/objective/sum/xp"
+msgstr "Iekļūstiet reitingā pēc nopelnītās pieredzes kopsummas"
+
+msgid "task/objparam/damageAssisted"
+msgstr "izdarīti bojājumi ar jūsu atbalstu"
+
+msgid "task/objparam/damageDealt"
+msgstr "izdarīti bojājumi"
+
+msgid "task/objparam/originalXP"
+msgstr "nopelnīta pamata pieredze"
+
+msgid "task/objparam/wins"
+msgstr "uzvaru skaits"
+
+msgid "task/objparam/xp"
+msgstr "pieredze"
+
+msgid "task/selection/max"
+msgstr "Tiek ieskaitīta labākā kauja"
+
+msgid "task/selection/sumAll"
+msgstr "Tiek ieskaitītas visas kaujas"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Tiek ieskaitītas labākās kaujas (%(cardinality)s) sērijā. Kaujas sērijā: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Tiek ieskaitītas labākās kaujas: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Tiek ieskaitīta labākā kauju sērija. Kaujas sērijā: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "šodien"
+
+msgid "time/day/tomorrow"
+msgstr "rīt"
+
+msgid "time/day/yesterday"
+msgstr "vakar"
+
+msgid "time/eventFinished"
+msgstr "Sacensības noslēdzās %(date)s"
+
+msgid "time/period/day"
+msgstr "d."
+
+msgid "time/period/hour"
+msgstr "h."
+
+msgid "time/period/minute"
+msgstr "min"
+
+msgid "time/timeTo/end"
+msgstr "Līdz beigām: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Reģistrēšanās periods beigsies pēc: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Līdz sākumam: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Atlīdzība tiek piešķirta sacensību beigās un ir atkarīga no jūsu vietas reitingā.\nLai apskatītos visu sarakstu ar šo sacensību atlīdzībām, uzspiediet uz „Visas atlīdzības”."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Pieredzes kopsummā nav iekļauta nekāda papildus pieredze no premium konta, premium bruņutehnikas, personīgajām rezervēm, reizinātājiem par pirmo dienas uzvaru vai akcijām."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Pieredzes kopsummā nav iekļauta nekāda papildus pieredze no premium bruņutehnikas, personīgajām rezervēm, reizinātājiem par pirmo dienas uzvaru vai akcijām.\nPremium konta pieredzes bonuss tiek ņemts vērā."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Izdarīti bojājumi ar spēlētāja atbalstu pēdējā godalgotajā vietā: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Izdarīti bojājumi pēdējā godalgotajā vietā: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Spēlētāja nopelnītā pamata pieredze pēdējā godalgotajā vietā: %(number)s\nPieredzes kopsummā nav iekļauta nekāda papildus pieredze no premium konta, premium bruņutehnikas, personīgajām rezervēm, reizinātājiem par pirmo dienas uzvaru vai akcijām."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Spēlētāja nopelnītā pieredze pēdējā godalgotajā vietā: %(number)s\nPieredzes kopsummā nav iekļauta nekāda papildus pieredze no premium bruņutehnikas, personīgajām rezervēm, reizinātājiem par pirmo dienas uzvaru vai akcijām.\nPremium konta pieredzes bonuss tiek ņemts vērā."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Kopējie bojājumi, kas izdarīti ar spēlētāja palīdzību pēdējā godalgotajā pozīcijā: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Kopējie bojājumi pēdējā godalgotajā pozīcijā: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Kopējā pamata pieredze pēdējā godalgotajā pozīcijā: %(number)s\nPieredzes kopsummā nav iekļauta nekāda papildus pieredze no premium konta, premium bruņutehnikas, personīgajām rezervēm, reizinātājiem par pirmo dienas uzvaru vai akcijām."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Uzvaru skaits spēlētājam pēdējā godalgotajā vietā: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Kopējā pieredze pēdējā godalgotajā pozīcijā: %(number)s\nPieredzes kopsummā nav iekļauta nekāda papildus pieredze no premium bruņutehnikas, personīgajām rezervēm, reizinātājiem par pirmo dienas uzvaru vai akcijām.\nPremium konta pieredzes bonuss tiek ņemts vērā."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Negodalgota vieta"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "%(group)s grupa (pozīcija %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Vidējā pieredze, ko nopelnīja spēlētājs pēdējā godalgotajā vietā:"
+
+msgid "top/participation/notParticipated"
+msgstr "Jūs nepiedalījāties šajā reitingā"
+
+msgid "top/participation/notfull"
+msgstr "Jūs neieņēmāt pozīciju reitingā"
+
+msgid "top/participation/notintop"
+msgstr "Jūs pašlaik neesat godalgotā vietā"
+
+msgid "top/position"
+msgstr "Jūsu pozīcija:"
+
+msgid "top/reason/notfull"
+msgstr "Lai iekļūtu reitingā, aizvadiet vairāk kauju:"
+
+msgid "vehicles/level"
+msgstr "%(level)s līmeņa bruņutehnika"
+
+msgid "vehicles/tooltip/class"
+msgstr "Uzspiediet, lai atainotu šī veida bruņutehniku, kas piedalās sacensībā."
+
+msgid "vehicles/tooltip/level"
+msgstr "Uzspiediet, lai atainotu šī līmeņa bruņutehniku, kas piedalās sacensībā."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Uzspiediet, lai atainotu šīs nācijas bruņutehniku, kas piedalās sacensībā."
+
+msgid "vehicles/vehicle"
+msgstr "Sacensību bruņutehnika"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Uzspiediet, lai atainotu sarakstu ar bruņutehniku, ar kuru var piedalīties sacensībā."

@@ -1,0 +1,302 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "autoOpenView/bottomLabel"
+msgstr "Nous avons ouvert toutes vos boîtes des Opés des fêtes."
+
+msgid "autoOpenView/congratsLabel"
+msgstr "Félicitations !"
+
+msgid "autoOpenView/okBtnLabel"
+msgstr "Affirmatif !"
+
+msgid "buttonLabel/back"
+msgstr "Retour au garage"
+
+msgid "buttonLabel/buy"
+msgstr "Acheter"
+
+msgid "buttonLabel/buyMore"
+msgstr "Acheter boîtes"
+
+msgid "buttonLabel/close"
+msgstr "Fermer"
+
+msgid "buttonLabel/open"
+msgstr "Ouvrir"
+
+msgid "buttonLabel/openBox"
+msgstr "Ouvrir la boîte"
+
+msgid "buttonLabel/quest"
+msgstr "Aux missions"
+
+msgid "buttonLabel/videoOff"
+msgstr "AFFICHER L'ANIMATION"
+
+msgid "buttonLabel/videoOn"
+msgstr "NE PAS AFFICHER L'ANIMATION"
+
+msgid "compensationTooltip/after/header"
+msgstr "Compensation :"
+
+msgid "compensationTooltip/before/header"
+msgstr "Doublon (x{count}) :"
+
+msgid "compensationTooltip/crewSkin/header"
+msgstr "Compensation pour une apparence d'équipage que vous possédez déjà"
+
+msgid "compensationTooltip/vehicle/bottomText"
+msgstr "La récompense présentant la compensation pour un véhicule que vous possédez déjà."
+
+msgid "compensationTooltip/vehicle/header"
+msgstr "Compensation pour un véhicule déjà présent dans votre garage."
+
+msgid "entryDesc/boxesCount"
+msgstr "x{count}"
+
+msgid "entryDesc/buySlot"
+msgstr "Vous pouvez acheter des Grandes boîtes dans la Boutique premium"
+
+msgid "entryDesc/newYear_premium"
+msgstr "Grandes boîtes"
+
+msgid "entryDesc/newYear_usual"
+msgstr "Petites boîtes"
+
+msgid "entryDesc/questSlot"
+msgstr "Vous recevez des Petites boîtes en accomplissant des missions."
+
+msgid "entryDesc/restrictedMode"
+msgstr "Cette fonctionnalité est temporairement indisponible. Veuillez réessayer plus tard."
+
+msgid "entryPoint/header"
+msgstr "Boîtes"
+
+msgid "entryTooltip/body/h1"
+msgstr "Acheter des grandes boîtes :"
+
+msgid "entryTooltip/body/h2"
+msgstr "Gagner des petites boîtes :"
+
+msgid "entryTooltip/body/p1"
+msgstr "Acheter des boîtes contenant des décorations du Nouvel An pour vous ou pour vos amis dans la Boutique premium."
+
+msgid "entryTooltip/body/p2"
+msgstr "Décernée pour l'accomplissement de missions des Opés des fêtes."
+
+msgid "entryTooltip/header"
+msgstr "Boîtes"
+
+msgid "entryView/boxesCount"
+msgstr "{count} boîtes en plus"
+
+msgid "entryView/buyLabel"
+msgstr "ACHETER DES BOÎTES"
+
+msgid "entryView/ended/newYear_premium"
+msgstr "Vous n'avez pas de Grandes boîtes dans le dépôt.\nAchetez-en plus dans la Boutique premium."
+
+msgid "entryView/ended/newYear_usual"
+msgstr "Vous n'avez pas de Petites boîtes.\nGagnez-en en batailles."
+
+msgid "entryView/lootboxesCount"
+msgstr "x{count}"
+
+msgid "entryView/title"
+msgstr "Opés des fêtes {year}"
+
+msgid "entryView/year"
+msgstr "2019"
+
+msgid "multiOpenView/applyLabel"
+msgstr "Compris !"
+
+msgid "multiOpenView/boxesInStorage"
+msgstr "Boîtes disponibles : {count}"
+
+msgid "multiOpenView/boxesNotAvailable"
+msgstr "Aucune boîte disponible"
+
+msgid "multiOpenView/openBoxesLabel"
+msgstr "Ouvrir {count} autres boîtes"
+
+msgid "multiOpenView/openedCount"
+msgstr "x{count}"
+
+msgid "multiOpenView/title"
+msgstr "Félicitations !"
+
+msgid "notification/eventFinish/text"
+msgstr "Toutes les caisses de ravitaillement reçues vont s'ouvrir. Leur contenu sera ajouté sur votre compte."
+
+msgid "notification/eventFinish/title"
+msgstr "L'évènement Caisse de ravitaillement du printemps ensoleillé est terminé"
+
+msgid "notification/eventStart/button"
+msgstr "Aller à l'évènement"
+
+msgid "notification/eventStart/text"
+msgstr "Seulement jusqu'au %(date)s : des véhicules premium et de précieux objets du jeu !"
+
+msgid "notification/eventStart/title"
+msgstr "L'évènement Caisse de ravitaillement du printemps ensoleillé a commencé"
+
+msgid "notification/header"
+msgstr "Félicitations !"
+
+msgid "notification/lootBoxesAutoOpen/boxes"
+msgstr "Caisses de ravitaillement ouvertes : %(boxes)s"
+
+msgid "notification/lootBoxesAutoOpen/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "notification/lootBoxesAutoOpen/rewards"
+msgstr "Vous avez reçu :\n%(rewards)s"
+
+msgid "notification/lootBoxesAutoOpen/text"
+msgstr "À la fin de l'évènement, nous avons ouvert toutes vos caisses de ravitaillement et ajouté leur contenu sur votre compte."
+
+msgid "notification/lootBoxesAutoOpen/title"
+msgstr "Ouverture de caisses de ravitaillement"
+
+msgid "notification/lootBoxesIsDisabled/text"
+msgstr "Les opérations portant sur les caisses de ravitaillement sont temporairement indisponibles en raison d'une maintenance."
+
+msgid "notification/lootBoxesIsDisabled/title"
+msgstr "Ouverture de caisses de ravitaillement"
+
+msgid "notification/lootBoxesIsEnabled/button"
+msgstr "Ouvrir"
+
+msgid "notification/lootBoxesIsEnabled/text"
+msgstr "Les opérations portant sur les caisses de ravitaillement sont à nouveau disponibles."
+
+msgid "notification/lootBoxesIsEnabled/title"
+msgstr "Ouverture de caisses de ravitaillement"
+
+msgid "notification/lootBoxesReceived/invoice"
+msgstr "Ajoutée"
+
+msgid "notification/ny19man"
+msgstr "Un membre d'équipage unique : %(count)s"
+
+msgid "notification/rewards"
+msgstr "Vous avez reçu les récompenses suivantes :"
+
+msgid "restrictedMessage/body"
+msgstr "Les opérations concernant les boîtes sont temporairement suspendues. Restez calme et continuez."
+
+msgid "restrictedMessage/header"
+msgstr "Attention !"
+
+msgid "rewardView/boxesCount"
+msgstr "Boîtes disponibles : {count}"
+
+msgid "rewardView/closeBtnLabel"
+msgstr "Fermer"
+
+msgid "rewardView/congratsBtnLabel/style"
+msgstr "Voir le style"
+
+msgid "rewardView/congratsBtnLabel/tankman"
+msgstr "Recruter"
+
+msgid "rewardView/congratsBtnLabel/vehicle"
+msgstr "Voir dans le garage"
+
+msgid "rewardView/congratsLabel/style"
+msgstr "Un style unique pour le"
+
+msgid "rewardView/congratsLabel/tankman"
+msgstr "Un membre d'équipage unique"
+
+msgid "rewardView/congratsLabel/usual"
+msgstr "Félicitations !"
+
+msgid "rewardView/congratsLabel/vehicle"
+msgstr "QUEL REBONDISSEMENT !"
+
+msgid "rewardView/nextOpenBtnLabel"
+msgstr "Ouvrir la suivante"
+
+msgid "rewardView/okOpenBtnLabel"
+msgstr "Compris !"
+
+msgid "rewardView/openBtnLabel"
+msgstr "Compris !"
+
+msgid "rewardView/rerollBtnLabel"
+msgstr "Rouvrir"
+
+msgid "rewardView/zeroBoxes"
+msgstr "Aucune boîte disponible"
+
+msgid "specialReward/continueBtn"
+msgstr "Continuer"
+
+msgid "specialReward/style/goToBtn"
+msgstr "Voir le style"
+
+msgid "specialReward/style/title"
+msgstr "Un style unique pour le"
+
+msgid "specialReward/vehicle/goToBtn"
+msgstr "Voir dans le garage"
+
+msgid "tooltip/category/header/Christmas"
+msgstr "Boîtes de Noël"
+
+msgid "tooltip/category/header/Fairytale"
+msgstr "Boîtes magiques"
+
+msgid "tooltip/category/header/NewYear"
+msgstr "Boîtes du Nouvel An"
+
+msgid "tooltip/category/header/Oriental"
+msgstr "Boîtes lunaires"
+
+msgid "tooltip/category/rewards/Christmas"
+msgstr "Collection de Noël"
+
+msgid "tooltip/category/rewards/Fairytale"
+msgstr "Collection magique"
+
+msgid "tooltip/category/rewards/NewYear"
+msgstr "Collection du Nouvel An"
+
+msgid "tooltip/category/rewards/Oriental"
+msgstr "Collection lunaire"
+
+msgid "tooltip/category/rewards/description"
+msgstr "Les boîtes contiennent des décorations de la {category} et d'autres récompenses de valeur."
+
+msgid "tooltip/category/rewards/header"
+msgstr "Récompenses :"
+
+msgid "tooltip/entryView/buyBoxes"
+msgstr "Acheter des boîtes supplémentaires dans la Boutique premium."
+
+msgid "tooltip/entryView/openBoxes"
+msgstr "Ouvrir plusieurs boîtes à la fois."
+
+msgid "tooltip/restrictedMode"
+msgstr "Action temporairement indisponible. Réessayez plus tard."
+
+msgid "type/event_premium"
+msgstr "Caisse de ravitaillement de l'aube"
+
+msgid "type/newYear_premium"
+msgstr "GRANDES BOÎTES"
+
+msgid "type/newYear_usual"
+msgstr "PETITES BOÎTES"
+
+msgid "type/wt_boss"
+msgstr "Démarreur de l'Ingénieur"
+
+msgid "type/wt_hunter"
+msgstr "Démarreur des Lévriers"
+
+msgid "type/wt_special"
+msgstr "Coffres spéciaux"

@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Schimbă serverul"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detalii"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Modul e indisponibil pe acest server %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Modul este indisponibil pe toate serverele"
+
+msgid "alertMessage/modeOffline"
+msgstr "Eroare a bazei de date. Modul de joc e indisponibil."
+
+msgid "alertMessage/noVehicles"
+msgstr "Nu ai vehicule potrivite în Garaj %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Recepționat!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "VIOLENȚĂ SIMPLIFICATĂ"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ULTIMA ETAPĂ FINALIZATĂ!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ETAPA %(level)s FINALIZATĂ!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Toate misiunile finalizate!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Finalizate"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Expiră în %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Misiune Violență Simplificată"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "O nouă misiune Violență Simplificată în: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Recompensă:"
+msgstr[1] "Recompense:"
+msgstr[2] "Recompense:"
+
+msgid "battleResult/header/deserter"
+msgstr "Ai primit o penalizare"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "PROGRESUL VIOLENȚĂ SIMPLIFICATĂ"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Violență Simplificată va dura timp de %(days)d zi"
+msgstr[1] "Violență Simplificată va dura timp de %(days)d zile"
+msgstr[2] "Violență Simplificată va dura timp de %(days)d zile"
+
+msgid "calendarDay/title"
+msgstr "Calendarul"
+
+msgid "closeButtonLabel"
+msgstr "ÎNCHIDE"
+
+msgid "countDown/text"
+msgstr "Evenimentul începe în:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Un mod rapid cu lupte 7v7 în vehicule din generația %(levels)s. Bucură-te de stilul de joc al modului original Violență fără calificări, grade sau Dosar de serviciu și obține recompense din misiuni zilnice."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MOD"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s - mod de joc. Clic pentru a explora"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Violență Simplificată"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Modul este disponibil pentru %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Armistițiu%(timer)s"
+
+msgid "featureName"
+msgstr "Violență Simplificată"
+
+msgid "featureNameCapitalized"
+msgstr "VIOLENȚĂ SIMPLIFICATĂ"
+
+msgid "intro/confirmButton"
+msgstr "Recepționat!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Bucură-te de jocul original al modului Violență fără calificări, grade sau Dosar de serviciu."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Modul are modificatori care schimbă anumiți parametri ai vehiculelor, precum punctele de integritate, perioada de refacere a consumabilelor, perioada de vizibilitate și multe altele."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "După capturarea anumitor zone de pe hartă, vei putea utiliza Abilități tactice. Există două tipuri de Puncte de interes: Centrul de Comandă al Artileriei îți va permite să trimiți o lovitură de artilerie asupra unei anumite poziții, iar Centrul de Comunicații va descoperi toate vehiculele inamice. Locul și prezența acestor Puncte de interes se pot schimba în funcție de hartă."
+
+msgid "intro/description/roleSkills"
+msgstr "În funcție de rolul său, fiecare vehicul are o abilitate specială cu trei niveluri de încărcare. Cu cât mai mare este nivelul de încărcare la activarea abilității, cu atât mai puternic va fi efectul acesteia. Nivelul de încărcare depinde de numărul de Puncte de prestigiu care pot fi obținute pentru performanță impresionantă în luptă, capturarea de Puncte de interes, utilizarea de Abilități tactice, etc.\n\nCitește regulile modului pentru a afla mai multe despre metodele diferite de obținere a Punctelor de prestigiu."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "În acest mod pot fi utilizate doar vehicule de generația %(levels)s (artileriile și unele tancuri nu sunt disponibile). pregătește-ți vehiculele în Garaj, apoi alege-l pe cel mai bun, în funcție de hartă, odată ce intri în luptă. Este indicat să iei în considerare și vehiculele aliaților, atunci când îți alegi vehiculul."
+
+msgid "intro/title/lightGameplay"
+msgstr "CALM, COMANDANTE"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFICATORII VIOLENȚĂ"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "PUNCTELE DE INTERES"
+
+msgid "intro/title/roleSkills"
+msgstr "ABILITĂȚILE ROLULUI"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ALEGE UN VEHICUL PENTRU O ANUMITĂ HARTĂ"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Victorie"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Înfrângere/Egalitate"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Bună treabă, comandante, ține-o tot așa!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Finalizează misiuni și atinge poziții de top în luptele Violență Simplificată pentru a-ți crește nivelul progresului."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Numărul de puncte de progres obținute depinde de clasarea în luptă ca Puncte de prestigiu."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Modul se încheie în %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Progresul principal finalizat"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Violență Simplificată"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Top 2 după Punctele de prestigiu"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Top 5 după Punctele de prestigiu"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Top 7 după Punctele de prestigiu"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Folosește cont premium WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Activează Rezerve personale"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Finalizează misiuni"
+
+msgid "noVehicles/howTo/title"
+msgstr "Cum se ajunge cel mai rapid la vehiculele de generația %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Pentru a participa în modul Violență Simplificată, trebuie să deții în Garaj minim un vehicul de generația %(levels)s potrivit pentru acest mod.\nPoți cumpăra vehicule premium de generația %(levels)s din Arborele tehnologic sau din Magazinul din joc."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Pentru a participa la modul Violență Simplificată, trebuie să deții în Garaj minim un vehicul de generația %(levels)s care e potrivit pentru acest mod.\nAi un vehicul de generația %(levels)s disponibil pentru recuperare."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Pentru a participa la modul Violență Simplificată, trebuie să deții în Garaj minim un vehicul de generația %(levels)s care e potrivit pentru acest mod."
+
+msgid "noVehicles/title"
+msgstr "Nu ai vehicule potrivite în Garaj"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Citește pagina „Despre Violență Simplificată” pentru detalii."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Punctele de Prestigiu"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Provocarea de daune\nAsistența prin descoperire\nDistrugerea șenilelor\nProvocarea de daune critice\nDistrugerea vehiculelor inamice\nȘi multe altele"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Punctele de prestigiu pot fi obținute prin efectuarea de acțiuni în luptă, cum ar fi:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Sezonul s-a încheiat pe serverul %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sezonul s-a încheiat pe serverul %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Sezonul s-a încheiat pe serverul %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Progresul principal finalizat!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Etapa %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s sau %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Misiuni noi în:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Evenimentul se încheie în:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Misiunile vor fi actualizate în"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Toate misiunile zilnice au fost finalizate."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progres finalizat. Participă la Violență Simplificată pentru mai multe recompense."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Finalizează misiuni și asigură-ți poziții de top în luptele\nViolență Simplificată pentru a-ți crește nivelul progresului. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Se acordă pentru finalizarea de misiuni speciale și participarea la lupte în Violență Simplificată. Acestea îți permit să avansezi în progres."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Punctele de progres Violență Simplificată"
+
+msgid "selectorTooltip/desc"
+msgstr "Mod fără clasament. 7v7 | Generația %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Violență Simplificată"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Urmărește cele mai noi știri pe portalul jocului pentru a fi la curent cu începutul noului sezon."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Modul este temporar indisponibil din cauza unor probleme tehnice."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Acest mod va deveni disponibil la %(time)s."
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Puncte de progres obținute"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Violență Simplificată"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Recompense obținute:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Ai finalizat etapa de progres %(stage)s din modul %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Felicitări!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Armistițiu în vigoare. Luptele modului Violență Simplificată sunt momentan indisponibile."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Armistițiu"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Armistițiu încheiat. Luptele modului Violență Simplificată sunt din nou disponibile."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Armistițiu"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Despre Violență Simplificată"

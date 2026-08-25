@@ -1,0 +1,4472 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Din konto blev succesfuldt genoprettet"
+
+msgid "achievements/server_error"
+msgstr "Ændringer til det værdifulde medaljebånd er ikke blevet gemt."
+
+msgid "actionAchievement/title"
+msgstr "Medalje fra særtilbud"
+
+msgid "actionAchievements/title"
+msgstr "Medaljer fra særtilbud"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Fejl ved træning af evne. Forkert køretøj."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Kan ikke træne ny evne.\nServer utilgængelig. Prøv igen senere."
+
+msgid "add_tankman_skill/success"
+msgstr "Ny evne trænet: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Fejl ved træning af evne. Køretøjet er låst."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Fejl ved træning af evne. Reparer dit køretøj."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Kan ikke træne nye evner.\nServer utilgængelig. Prøv igen senere."
+
+msgid "add_tankman_skills/success"
+msgstr "Nye evner trænet: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Du er stadig tilsluttet en anden server."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Fejl i tilslutningen til slaget: Du har allerede sluttet dig til holdet."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Fejl i tilslutning til slaget: forkert holdnummer."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Fejl ved tilkobling. Funktionen er midlertidigt slået fra. Prøv igen senere."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Denne event er ikke tilgængelig nu. Følg de seneste nyheder på spilportalen."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Fejl i tilslutning til slaget: Invitationen er udløbet."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Fejl ved tilkobling, ikke nok tilladelser."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Kan ikke gå i kamp. Køen er utilgængelig i øjeblikket. Prøv venligst igen senere."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "Handling utilgængelig. Køen er fuld i øjeblikket. Prøv venligst igen senere."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Fejl i tilslutning til slaget: Holdet er allerede blevet dannet."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Fejl i tilslutning til slaget: Forbindelsen har ventet på svar for længe."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Fejl ved tilkobling, ikke tilgængelig for denne kontotype."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Fejl ved indtrædelse i kampen."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Fejl ved tilkobling, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Tilslutningsfejl: valgt historisk kamp er ikke tilgængelig."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Forbindelsesfejl. Vælg venligst serveren %s."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Forbindelsesfejl. Vælg venligst en anden server."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Fejl i at gå med i kampen: Det nuværende køretøj er ikke klar."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Fejl: Køretøj på dette niveau kan ikke deltage i denne kamptype."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Kan ikke gå med i kampen: Køretøjet er ikke klar."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Køb venligst et køretøj for at deltage i kamp."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Fejl i forbindelse til kamp (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Fejl i forbindelse til kamp (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Fejl i forbindelse til kamp (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Fejl i forbindelse til kamp (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Fejl i forbindelse til kamp (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Fejl i forbindelse til kamp (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Fejl i forbindelse til kamp (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Fejl i forbindelse til kamp (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Fejl i forbindelse til kamp (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Fejl i forbindelse til kamp (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Fejl i forbindelse til kamp (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "Maksimal tid i køen for kamp er udløbet. Vælg venligst et andet køretøj eller prøv igen senere."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" passer ikke dette køretøj."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Forkert køretøj. %(kind)s \"%(name)s\" ikke monteret."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" blev afmonteret fra køretøjet. Du har brugt %(money)s."
+
+msgid "artefact_apply/server_error"
+msgstr "Serverfejl i montering af %(kind)s \"%(name)s\". Prøv igen senere."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" monteret på køretøj."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Køretøj låst. %(kind)s \"%(name)s\" ikke monteret."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Køretøj skadet. %(kind)s \"%(name)s\" ikke monteret. Reparer køretøj og prøv igen."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" passer ikke dette køretøj."
+
+msgid "artefact_buy/invalid_module"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Forkert modul."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Forkert køretøj. Kan ikke købe og montere %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Ikke nok credits."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Ikke nok obligationer."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Ikke nok jubilæumsmønter."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Ikke nok guld."
+
+msgid "artefact_buy/server_error"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Prøv igen senere."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Serveren er midlertidigt utilgængelig."
+
+msgid "artefact_buy/success"
+msgstr "%(kind)s \"%(name)s\" købt (%(count)s ting). Brugt %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Køretøj låst. Kan ikke købe og montere %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "Kan ikke købe og montere %(kind)s \"%(name)s\". Reparer køretøjet og prøv igen."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "Kan ikke adskille %(name)s. Forkert modul."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "Kan ikke adskille %(name)s. Prøv igen senere."
+
+msgid "artefact_deconstructing/success"
+msgstr "Udstyr adskilt: %(name)s (x%(count)s). Du har modtaget %(money)s."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Udstyr adskilt: %(names)s. Du har modtaget %(money)s."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "'%(equipment)s' ikke afmonteret. Ikke nok midler."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Forkert køretøj. %(kind)s \"%(name)s\" ikke ødelagt."
+
+msgid "artefact_destroy/server_error"
+msgstr "Serverfejl ved destruktion af %(kind)s \"%(name)s\". Prøv igen senere."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" ødelagt ved afmontering."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Køretøj låst. %(kind)s \"%(name)s\" ikke ødelagt."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Køretøj skadet. %(kind)s \"%(name)s\" ikke ødelagt. Reparer køretøj og prøv igen."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" afmonteret fra køretøj. Du brugte et afmonteringssæt."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "Forbrugsvarer \"%s\" er sendt til depotet da det ikke er kompatibelt med det nuværende modul."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Forkert køretøj. %(kind)s \"%(name)s\" ikke afmonteret."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" blev afmonteret fra køretøjet. Du har brugt %(money)s."
+
+msgid "artefact_remove/server_error"
+msgstr "Serverfejl ved afmontering af %(kind)s \"%(name)s\". Prøv igen senere."
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s \"%(name)s\" afmonteret fra køretøj."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Køretøj låst. %(kind)s \"%(name)s\" ikke afmonteret."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Køretøj skadet. %(kind)s \"%(name)s\" ikke afmonteret. Reparer køretøjet og prøv igen."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s \"%(name)s\" blev afmonteret fra køretøjet helt gratis, med dit aktive WoT Plus-abonnement."
+
+msgid "artefact_sell/invalid_module"
+msgstr "Kan ikke sælge %(kind)s \"%(name)s\". Forkert modul."
+
+msgid "artefact_sell/server_error"
+msgstr "Kan ikke sælge %(kind)s \"%(name)s\". Prøv igen senere."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s ting). Modtaget %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Fejl i opgradering af udstyr. Prøv venligst igen senere."
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s \"%(name)s\" opgraderet. Karakteristika forbedret. Brugt %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "%(name)s %(kind)s er blevet opgraderet, og karakteristika er blevet forbedret. %(money)s brugt.\n\nLignende udstyr fra det alternative sæt er blevet sendt til depotet."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Køretøj skadet. %(kind)s \"%(name)s\" ikke opgraderet. Reparer køretøjet og prøv igen."
+
+msgid "badges/select/server_error"
+msgstr "Serverfejl"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "Handling utilgængelig. Vent venligst indtil den nuværende operation er fuldført."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Send invitationer"
+
+msgid "battleAbilities_apply/error"
+msgstr "Konfigurationsfejl på kampreserver. Prøv venligst senere."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "Kunne ikke købe %(kind)s \"%(name)s\". Ikke nok credits."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "Kunne ikke købe %(kind)s \"%(name)s\". Ikke nok obligationer."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" passer ikke dette køretøj."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Ikke nok jubilæumsmønter."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "Kunne ikke købe %(kind)s \"%(name)s\". Ikke nok guld."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "Kunne ikke købe %(kind)s \"%(name)s\". Forkert modul."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "Kunne ikke købe og montere %(kind)s \"%(name)s\". Forkert køretøj."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "Kunne ikke købe %(kind)s \"%(name)s\". Ikke nok credits."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "Kunne ikke købe %(kind)s \"%(name)s\". Ikke nok obligationer."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Ikke nok jubilæumsmønter."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "Kunne ikke købe %(kind)s \"%(name)s\". Ikke nok guld."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Operationer med direktiver er midlertidigt utilgængelige på grund af vedligeholdelse."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "Kunne ikke købe %(kind)s \"%(name)s\". Serveren er midlertidigt utilgængelig."
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s \"%(name)s\" blev købt (%(count)s ting). Du brugte %(money)s."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "Køretøjet er låst. Fejlede i at købe og montere %(kind)s \"%(name)s\"."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "Kunne ikke købe og montere %(kind)s \"%(name)s\". Reparer køretøjet og prøv igen."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Operationer med direktiver er midlertidigt utilgængelige på grund af vedligeholdelse."
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s \"%(name)s\" solgt (%(count)s ting). Modtaget: %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Operationsfejl på direktiver. Prøv venligst senere."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Operationsfejl på direktiver. Ikke nok midler til at gennemføre købet."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "Operation utilgængelig. Dit guld vil være tilgængeligt efter WG Wallet funktionaliteten er gendannet."
+
+msgid "battlePass/activateChapter/success"
+msgstr "%(chapter)s-kapitel aktiveret"
+
+msgid "battlePass/extraFinish/body"
+msgstr "%(name)s-eventet er slut. Tak fordi du var med!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Battle Pass: \"%(name)s\"-kapitel"
+
+msgid "battlePass/extraStarted/body"
+msgstr "Kommandør! I Battle Pass, er %(name)s-eventet startet, hvor du kan få en særlig belønning!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Battle Pass: Et nyt kapitel er tilgængeligt!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Kommandør! Der er kun kort tid tilbage, før \"%(name)s\"-kapitlet er slut. Tøv ikke!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Battle Pass: \"%(name)s\"-kapitel"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Kommandør! Glem ikke, at du kan optjene Battle Pass-point i rangerede kampe!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Kommandør! Glem ikke, at du kan optjene Battle Pass-point i Frontlinje!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Kommandør! Glem ikke, at du kan optjene Battle Pass-point i Recon Mission!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Kommandør! Glem ikke, at du kan optjene Battle Pass-point i Onslaught!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Battle Pass sæson %(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Fejl ved valg af belønninger. Prøv igen."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "Battle Pass-sæsonen er slut. Alle belønninger, som du ikke valgte under sæsonen, er blevet tildelt dig som standard:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Fejl ved valg af kapitel. Prøv igen."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Vælg et kapitel. Du kan skifte til andre kapitler på ethvert tidspunkt."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Du skiftede til et andet kapitel. %(chapter)s-kapitlet er nu aktivt."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Battle Pass er midlertidigt utilgængelig i Ståljæger på grund af vedligeholdelse. Vi beklager ulejligheden."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Battle Pass-point kan ikke optjenes i Onslaught-kamptypen i øjeblikket på grund af vedligeholdelse."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Battle Pass-point kan ikke optjenes i Onslaught Light-kamptypen i øjeblikket på grund af vedligeholdelse."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "Battle Pass er midlertidigt utilgængelig i Frontlinje på grund af vedligeholdelse."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "Battle Pass er midlertidigt utilgængelig i rangerede kampe på grund af vedligeholdelse."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "Battle Pass er tilgængeligt igen. Vi undskylder ulejligheden.\nSæson forlænget til %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Battle Pass-point kan igen optjenes i Onslaught-kamptypen. Vi beklager ulejligheden."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Battle Pass-point kan igen optjenes i Onslaught Light-kamptypen. Vi beklager ulejligheden."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "Battle Pass er tilgængeligt igen i Frontlinje. Vi beklager ulejligheden."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Battle Pass er tilgængeligt igen i rangerede kampe. Vi beklager ulejligheden."
+
+msgid "battlePass/switch_pause/body"
+msgstr "Battle Pass er midlertidigt utilgængelig på grund af vedligeholdelse."
+
+msgid "battlePass/switch_started/body"
+msgstr "Kommandører! Det er tid til igen af kæmpe om unikke Battle Pass-belønninger!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Battle Pass sæson %(seasonNum)d"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Battle Pass: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "Battle Pass er slut. Alle belønninger, som du ikke valgte, er blevet tildelt dig som standard:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "Kapitlet er slut. Vi ses næste gang!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Battle Pass: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "Battle Pass er tilgængeligt igen. Vi beklager ulejligheden."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Kommandør! Som du snart vil opdage, er dette et særligt Battle Pass.\n\nFor fuldførelse af fremskridtet, vil du modtage et premium køretøj med en unik 3D-stil, tilpasningselementer og mange flere belønninger!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Battle Pass: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Fejl ved køb af fremskridtsstadier. Prøv igen."
+
+msgid "battlePass_buy/server_error"
+msgstr "Fejl ved køb af Improved Pass. Prøv venligst igen."
+
+msgid "battleResults/sharing/success"
+msgstr "Link er blevet kopieret til dit clipboard. Du kan enten indsætte det i chatten ved at trykke Ctrl+V eller bruge det udenfor spilklienten."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Ikke i stand til at finde fjender til det nuværende tankkompagni. Overvej at reorganisere dit hold."
+
+msgid "battleSession/memberJoined"
+msgstr "%s har sluttet sig til holdet."
+
+msgid "battleSession/memberLeave"
+msgstr "%s har forladt holdet."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s er ikke klar til at kæmpe for holdet."
+
+msgid "battleSession/memberOffline"
+msgstr "Forbindelsen afbrudt med %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s er klar til at kæmpe for holdet."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Maksimalt antal tilskuere på et hold: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Maksimalt antal spillere på et hold: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Ikke nok tilladelser til at flytte andre spillere."
+
+msgid "battlesession/error/Limits"
+msgstr "Maksimalt antal spillere på et hold er overskredet."
+
+msgid "blueprints/conversion/disable"
+msgstr "Ikke nok fragmenter til konvertering."
+
+msgid "blueprints/conversion/error"
+msgstr "Kunne ikke afskedige: server utilgængelig. Prøv igen senere."
+
+msgid "blueprints/switch_off"
+msgstr "Køretøjsplantegninger: denne mulighed er midlertidigt slået fra. Vi undskylder ulejligheden."
+
+msgid "blueprints/switch_on"
+msgstr "Køretøjsplantegninger er tilgængelige igen."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Handling utilgængelig. Personlig reserve allerede brugt."
+
+msgid "booster_activate/DISABLED"
+msgstr "Kan ikke aktivere personlig reserve. Handling utilgængelig."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Kan ikke aktivere personlig reserve. Handling utilgængelig."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Handling utilgængelig. Personlig reserve ikke tilgængelig eller ikke valgt."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Kan ikke aktivere personlig reserve. Handling utilgængelig."
+
+msgid "booster_activate/server_error"
+msgstr "Kan ikke aktivere personlig reserve. Prøv igen senere."
+
+msgid "booster_activate/success"
+msgstr "Personlig reserve \"%(boosterName)s\" aktiveret. Tid tilbage: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Kan ikke købe personlig reserve \"%(boosterName)s\". Ikke nok credits."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Kan ikke købe personlig reserve \"%(boosterName)s\". Ikke nok guld."
+
+msgid "booster_buy/server_error"
+msgstr "Kan ikke købe personlig reserve \"%(boosterName)s\"."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Kan ikke købe personlig reserve \"%(boosterName)s\". Serveren er midlertidigt utilgængelig."
+
+msgid "booster_buy/success"
+msgstr "Personlig reserve \"%(boosterName)s\" købt (%(count)s del(e)). Brugt %(money)s."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "booster_sell/server_error"
+msgstr "Kan ikke sælge personlig reserve \"%(boosterName)s\". Prøv igen senere."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Kan ikke sælge personlig reserve \"%(boosterName)s\". Prøv igen senere."
+
+msgid "booster_sell/success"
+msgstr "Personlig reserve \"%(boosterName)s\" solgt (%(count)s del(e)). Modtog %(money)s."
+
+msgid "buttons/goToPoll"
+msgstr "Fortsæt til meningsmåling"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Kan ikke rekruttere og overføre mandskab: Kampvognen har unikt og permanent mandskab."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Du har nået grænsen for gratis mandskab for i dag."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Kan ikke rekruttere og overføre mandskab. Forkert køretøj."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Ikke i stand til at rekruttere og overføre mandskab. Ikke nok credits."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Ikke i stand til at rekruttere og overføre mandskab. Ikke nok guld."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Ikke i stand til at rekruttere og overføre mandskab. Prøv igen senere."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Ikke i stand til at rekruttere og overføre mandskab. Køretøjet er låst."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Kan ikke rekruttere og overføre mandskab: Kampvognen har unikt og permanent mandskab."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Du har nået grænsen for gratis mandskab for i dag."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Kan ikke rekruttere og erstatte mandskab. Forkert køretøj."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Ikke i stand til at rekruttere og erstatte mandskab. Ikke nok credits."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Ikke i stand til at rekruttere og erstatte mandskab. Ikke nok guld."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Ikke i stand til at rekruttere og erstatte mandskab. For at rekruttere mandskab kræves en ledig plads i barakken. Gør venligst en plads ledig eller køb yderligere pladser."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Ikke i stand til at rekruttere og erstatte mandskab. Prøv igen senere."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Ikke i stand til at rekruttere og erstatte mandskab. Køretøjet er låst."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Du har nået en grænse for køb af gratis køretøjer. Prøv igen i morgen."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Fejl ved udvidelse af barakken. Ikke nok credits."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Fejl ved udvidelse af barakken. Ikke nok guld."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Kan ikke udvide barakken. Prøv igen senere."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Barakken udvidet.\nGuld brugt: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "buy_vehicle_slot_error"
+msgstr "Kan ikke købe \"%s\". Ingen tilgængelig plads i garagen. Overvej at sælge et køretøj for at gøre plads eller køb en ny plads."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "Kan ikke købe \"%s\". Ingen tilgængelig plads i garagen. Frigør venligst en plads."
+
+msgid "challenges/activate/serverError"
+msgstr "Kan ikke aktivere Crucible-missioner. Prøv igen senere."
+
+msgid "challenges/activate/success/text"
+msgstr "Den første mission i denne serie er tilgængelig til fuldførelse. Gå i kamp og test dine evner!"
+
+msgid "challenges/activate/success/title"
+msgstr "Crucible: %(challengeName)s aktiveret!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Til Crucible"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Fuldfør den nu og modtag dine belønninger."
+
+msgid "challenges/challengeEnd/title"
+msgstr "Crucible-missioner slutter snart!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Tillykke!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Du fuldførte Crucible: %(challengeName)s! Belønninger modtaget:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Credits brugt:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Obligationer brugt:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Guld brugt:"
+
+msgid "challenges/restart/free/text"
+msgstr "Én gratis genstart er blevet anvendt og missionsfremskridtet er blevet nulstillet."
+
+msgid "challenges/restart/free/title"
+msgstr "Crucible: %(challengeName)s genstartet gratis"
+
+msgid "challenges/restart/paid/title"
+msgstr "Crucible: %(challengeName)s genstartet"
+
+msgid "challenges/restart/serverError"
+msgstr "Kan ikke genstarte Crucible-missioner. Prøv igen senere."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "Handling utilgængelig. Vent venligst indtil den nuværende operation er fuldført."
+
+msgid "challenges/surrender/serverError"
+msgstr "Kan ikke opgive Crucible-missioner. Prøv igen senere."
+
+msgid "challenges/surrender/success/text"
+msgstr "Du har opgivet Crucible: %(challengeName)s. Serien af missioner er fejlet."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Kan ikke skifte kvalifikation på mandskabet: Kampvognen har unikt permanent mandskab."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Kan ikke ændre kvalifikation. Prøv igen senere."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Kan ikke ændre kvalifikation. Forkert køretøj."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "Køretøj er ikke i garagen. Det omskolede mandskab vil blive sendt til barakken."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Kan ikke ændre mandskabets kvalifikation. Ikke nok credits."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Kan ikke ændre mandskabets kvalifikation. Ikke nok guld."
+
+msgid "change_tankman_role/server_error"
+msgstr "Kan ikke ændre kvalifikation.\nPrøv igen senere."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "Der er allerede en %(role)s i %(vehicle)s. Det omskolede mandskab vil blive sendt til barakken."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Kan ikke ændre kvalifikation. Prøv igen senere."
+
+msgid "charge/credits_error"
+msgstr "%s flere credits and %s mere guld er påkrævet. Lad ammunitionen manuelt."
+
+msgid "charge/credits_error_credits"
+msgstr "%s flere credits er påkrævet. Lad ammunitionen manuelt."
+
+msgid "charge/credits_error_gold"
+msgstr "%s mere guld påkrævet. Lad ammunitionen manuelt."
+
+msgid "charge/inventory_error"
+msgstr "Ammunition til %(vehicle)s blev ikke ladet. Lad ammunitionen manuelt."
+
+msgid "charge/money_spent"
+msgstr "%s totalt brugt på ammunition."
+
+msgid "charge/server_error"
+msgstr "Fejl ved ladning af ammunition. Prøv igen senere."
+
+msgid "charge/server_error_save"
+msgstr "Fejl ved at gemme ammunition. Prøv igen senere."
+
+msgid "charge/success"
+msgstr "Ammuntion ladet succesfuldt."
+
+msgid "charge/success_save"
+msgstr "Ammuntion gemt succesfuldt."
+
+msgid "checkout_error"
+msgstr "Der opstod en fejl. Prøv venligst igen."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/notifications/accept"
+msgstr "Accepter"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Klan invitation allerede sendt til %(userName)s."
+
+msgid "clans/notifications/decline"
+msgstr "Afvis"
+
+msgid "clans/notifications/from"
+msgstr "fra %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "Se detaljer på klan"
+
+msgid "clans/notifications/invite"
+msgstr "Invitation til klan"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Klan invitation accepteret."
+
+msgid "clans/notifications/invite/declined"
+msgstr "Klan invitation afvist."
+
+msgid "clans/notifications/invite/expired"
+msgstr "Klan invitation er ugyldig."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s accepterede invitationen til klanen."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s afviste invitationen til klanen."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Kan ikke sende en klan invitation til %(userName)s."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Klan invitation sendt til %(userName)s."
+
+msgid "clans/notifications/invites"
+msgstr "Klan invitationer: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Deaktiver notifikationer"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Se invitationer"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Klan invitationer blev ikke sendt til %(userCount)d spillere."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Invitationer blev sendt til %(userCount)d spillere."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Du er blevet accepteret til klanen\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "Din ansøgning til klanen\n%(nameStartTag)s%(name)s%(nameEndTag)s blev afvist."
+
+msgid "clans/notifications/request"
+msgstr "Ansøgning til klan"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Ansøgning accepteret."
+
+msgid "clans/notifications/request/declined"
+msgstr "Ansøgning afvist."
+
+msgid "clans/notifications/requestSent"
+msgstr "Ansøgning afsendt til klan:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Invitationer fra spillere: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Se ansøgninger"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s er allerede inviteret til din klan."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Handling utilgængelig. Spilleren opfylder ikke kravene til rekruttering."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "Karantænen i én dag for at forlade din forrige klan er ikke udløbet endnu."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Handling utilgængelig. Forkert konto."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Handling utilgængelig. Konto er sortlistet."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Denne spiller er allerede medlem af en klan."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Handling utilgængelig. Spiller er ikke medlem af en klan."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Handling utilgængelig. Ansøgning findes ikke."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "Handling utilgængelig. Ansøgning er udløbet."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Utilstrækkelige tilladelser til at sende en invitation til klanen."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Klan rekruttering lukket."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "Klan er fuld."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Handling utilgængelig. Klan findes ikke."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Handling utilgængelig. Klan er fuld."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Handling utilgængelig. Klan opløst."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Handling utilgængelig. Klan er inaktiv."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Handling utilgængelig for konti af denne type."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Handling utilgængelig. Du har utilstrækkelige tilladelser."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Handling utilgængelig. Invitation findes ikke."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Handling utilgængelig. Invitation er udløbet."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Handling utilgængelig. Befæstning er utilgængelig."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Handling utilgængelig. Maksimalt antal ansøgninger nået."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Handling utilgængelig. Maksimalt antal invitationer sendt."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s er allerede medlem af en klan."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" passer ikke til dette køretøj."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" passer ikke med dette tårn. Udskift tårnet."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" er den forkerte type."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" er den forkerte nationalitet."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" passer ikke til dette køretøj."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" er den forkerte type."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" er den forkerte nationalitet."
+
+msgid "client_inactive"
+msgstr "Klient inaktiv"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "Samlinger er midlertidigt utilgængelige på grund af vedligeholdelse."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Samlinger utilgængelige"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Samlinger er blevet rettet. Vi undskylder ulejligheden."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Samlinger er tilgængelige igen"
+
+msgid "connected"
+msgstr "Velkommen til World of Tanks serveren %s!"
+
+msgid "consumables_apply/error"
+msgstr "Konfigurationsfejl på forbrugsvarer. Prøv venligst senere."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Operationsfejl på forbrugsvarer. Ikke nok midler til at gennemføre købet."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "Operation utilgængelig. Dit guld vil være tilgængeligt efter WG Wallet funktionaliteten er gendannet."
+
+msgid "conversion/error"
+msgstr "Kunne ikke afskedige: server utilgængelig. Prøv igen senere."
+
+msgid "conversion/header"
+msgstr "Dato: %(at)s\nTilføjet:"
+
+msgid "conversion/success"
+msgstr "Let trænede mandskabsmedlemmer afskediget: %(number)s"
+
+msgid "conversion/title"
+msgstr "Kvittering"
+
+msgid "conversionPerks/header"
+msgstr "Dato: %(at)s\nKonvertering af xp fra mandskabsevner over grænsen. Modtaget: "
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "Private beskeder er ikke tilgængelige for spillere fra dit land."
+
+msgid "crewBooks/failed"
+msgstr "Kan ikke træne dette mandskab.\nPrøv igen senere."
+
+msgid "crewBooks/server_error"
+msgstr "Træning af mandskabsmedlem(mer) fejlede på grund af en serverfejl. Prøv igen senere."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "Mandskab trænet.\nBrugt:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Kan ikke købe mandskabsbogen på grund af en serverfejl. Prøv igen senere."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s ting).\nCredits brugt: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Kan ikke sælge mandskabsbogen på grund af en serverfejl. Prøv igen senere."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s ting).\nCredits modtaget: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Mandskabsskin ændret."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Mandskabsskins tilføjet: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "Nuværende køretøj er erstattet af %s."
+
+msgid "customization/added/attachment"
+msgstr "%s 3D-tilbehør tilføjet"
+
+msgid "customization/added/attachmentValue"
+msgstr "%s 3D-tilbehør tilføjet: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "%s sløring tilføjet"
+
+msgid "customization/added/camouflageValue"
+msgstr "%s sløring tilføjet: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "%s mærke tilføjet"
+
+msgid "customization/added/decalValue"
+msgstr "%s mærke tilføjet: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "%s emblem tilføjet"
+
+msgid "customization/added/emblemValue"
+msgstr "%s emblem tilføjet: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "%s inskription tilføjet"
+
+msgid "customization/added/inscriptionValue"
+msgstr "%s inskription tilføjet: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "%s effekt tilføjet"
+
+msgid "customization/added/modificationValue"
+msgstr "%s effekt tilføjet: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "%s maling tilføjet"
+
+msgid "customization/added/paintValue"
+msgstr "%s maling tilføjet: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "%s encifret tal tilføjet"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "%s encifret tal tilføjet: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "%s tocifret tal tilføjet"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "%s tocifret tal tilføjet: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "%s trecifret tal tilføjet"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "%s trecifret tal tilføjet: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "%s mærke tilføjet"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "%s mærke tilføjet: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "Stat-tracker: %s tilføjet"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Stat-trackere: %s tilføjet: (x%s)"
+
+msgid "customization/added/style"
+msgstr "%s stil tilføjet"
+
+msgid "customization/added/styleValue"
+msgstr "%s stil tilføjet: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Kan ikke tilpasse. Ikke nok credits og guld."
+
+msgid "customization/credits_not_enough"
+msgstr "Kan ikke tilpasse. Ikke nok credits."
+
+msgid "customization/currency_not_enough"
+msgstr "Ikke nok valuta til at købe tingen."
+
+msgid "customization/gold_not_enough"
+msgstr "Kan ikke tilpasse. Ikke nok guld."
+
+msgid "customization/igr_type_changed_error"
+msgstr "IGR status ændret. Nuværende operation afbrudt."
+
+msgid "customization/invalidVehicle"
+msgstr "Kan ikke påføre: ugyldigt køretøj"
+
+msgid "customization/personal_number_prohibited"
+msgstr "Tallet %(value)s er utilgængeligt.\nDet %(itemType)s%(itemName)s blev fjernet for %(seasonName)s kortet."
+
+msgid "customization/progression/down/style"
+msgstr "%s-stil nedjusteret til niveau %s"
+
+msgid "customization/progression/up/style"
+msgstr "%s-stil opgraderet til niveau %s"
+
+msgid "customization/prohibited"
+msgstr "Kan ikke påføre: %(itemName)s er ikke i inventaret."
+
+msgid "customization/removed/attachment"
+msgstr "%s 3D-tilbehør fjernet"
+
+msgid "customization/removed/attachmentValue"
+msgstr "%s 3D-tilbehør fjernet: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "%s sløring fjernet"
+
+msgid "customization/removed/camouflageValue"
+msgstr "%s sløring fjernet: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "%s mærke fjernet"
+
+msgid "customization/removed/decalValue"
+msgstr "%s mærke fjernet: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "%s emblem fjernet"
+
+msgid "customization/removed/emblemValue"
+msgstr "%s emblem fjernet: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "%s inskription fjernet"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "%s inskription fjernet: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "%s effekt fjernet"
+
+msgid "customization/removed/modificationValue"
+msgstr "%s effekt fjernet: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "%s maling fjernet"
+
+msgid "customization/removed/paintValue"
+msgstr "%s maling fjernet: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "%s encifret tal fjernet"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "%s encifret tal fjernet: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "%s tocifret tal fjernet"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "%s tocifret tal fjernet: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "%s trecifret tal fjernet"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "%s trecifret tal fjernet: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "%s mærke fjernet"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "%s mærke fjernet: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Stat-tracker: %s fjernet"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Stat-trackere: %s fjernet: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "%s stil fjernet"
+
+msgid "customization/removed/styleValue"
+msgstr "%s stil fjernet: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Kan ikke tilpasse."
+
+msgid "customization/unavailable"
+msgstr "Køretøjstilpasningsfunktionen er midlertidigt deaktiveret af tekniske årsager."
+
+msgid "customization/vehicle_damaged"
+msgstr "Kan ikke tilpasse. Køretøj er beskadiget. Skal repareres."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Kan ikke tilpasse. Køretøj er slået ud. Skal repareres."
+
+msgid "customization/vehicle_exploded"
+msgstr "Kan ikke tilpasse. Køretøj er ødelagt. Skal repareres."
+
+msgid "customization/vehicle_locked"
+msgstr "Kan ikke tilpasse. Køretøj låst."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Kunne ikke re-rolle standard mission: missionen allerede fuldført."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Kunne ikke re-rolle standard mission: operation blokeret."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Kunne ikke re-rolle standard mission: operation suspenderet."
+
+msgid "daily_quests/reroll/success"
+msgstr "Standard mission re-rolled."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Kunne ikke re-rolle standard mission. Prøv igen senere."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Denne funktionalitet er midlertidigt utilgængelig af tekniske årsager.\nVi undskylder ulejligheden."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Standard missioner er midlertidigt utilgængelige"
+
+msgid "daily_quests/switch_on/body"
+msgstr "Tekniske udfordringer er blevet løst. Vi undskylder ulejligheden."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Standard missioner er tilgængelige igen"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Denne funktionalitet er midlertidigt utilgængelig af tekniske årsager.\nVi undskylder ulejligheden."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "Anvendelig bonus til xp er midlertidigt utilgængelig"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "Tekniske udfordringer er blevet løst. Vi beklager ulejligheden."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "Anvendelig bonus til xp er tilgængelig igen"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Operationer med afmonteringssæt er midlertidigt utilgængelige på grund af vedligeholdelse."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Operationer med afmonteringssæt er tilgængelige igen. Vi beklager ulejligheden."
+
+msgid "denunciation/success"
+msgstr "Klage mod %(name)s vedrørende \"%(topic)s\" modtaget."
+
+msgid "disconnected"
+msgstr "Klientens forbindelse til serveren er afbrudt."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Kan ikke opsige mandskabet: Kampvognen har unikt permanent mandskab."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Fejl i afskedigelse af mandskab. Forkert køretøj."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Kan ikke afskedige dette mandskabsmedlem.\nPrøv igen senere."
+
+msgid "dismiss_tankman/success"
+msgstr "Mandskabsmedlem afskediget."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Fejl i afskedigelse af mandskab. Køretøjet er låst."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Fejl i afskedigelse af mandskab. Reparer køretøjet."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Denne funktionalitet er midlertidigt utilgængelig på grund af tekniske årsager.\nVi beklager ulejligheden."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Hundetegn er midlertidigt utilgængelige"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Tekniske udfordringer er blevet løst. Vi undskylder ulejligheden."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Hundetegn er tilgængelige igen"
+
+msgid "dossiers_unavailable"
+msgstr "Kontoen er ikke klar (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Alle evner er blevet nulstillet.\nCredits brugt: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Alle evner er blevet nulstillet.\nGuld brugt: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Fejl ved nulstilling af evner. Forkert køretøj."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Kan ikke nulstille evner. Prøv igen senere."
+
+msgid "drop_tankman_skill/success"
+msgstr "Alle evner er blevet nulstillet."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Fejl ved nulstilling af evner. Køretøjet er låst."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Fejl ved nulstilling af evner. Reparer dit køretøj."
+
+msgid "drr_scale/step_down"
+msgstr "Dynamisk opløsning er reduceret ned til %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Dynamisk opløsning er forhøjet op til %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "Til bedrifter"
+
+msgid "earning/button/single"
+msgstr "Til bedrift"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s bedrifter åbnet!"
+
+msgid "earning/common/single"
+msgstr "%(value)s bedrift åbnet!"
+
+msgid "earning/title"
+msgstr "Tillykke!"
+
+msgid "earning/trophy/multiple"
+msgstr "%(value)s trofæer optjent!"
+
+msgid "earning/trophy/single"
+msgstr "%(value)s trofæ optjent!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "Kvik-service er tilgængelig igen. Vi undskylder for enhver ulejlighed."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "Kvik-service er midlertidigt utilgængelig på grund af vedligeholdelse."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Fejl i anvendelse af kvik-service-konfiguration. Prøv igen senere."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Fejl i anvendelse af kvik-service-konfiguration. Ikke nok midler til at lave købet."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Kvik-service-operation utilgængelig. Dit guld vil være tilgængeligt efter WG Wallet funktionaliteten er gendannet."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Belønning modtaget:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Du har nået niveau <font color='#E9E2BF'>%(tier)s</font> i Frontlinje-fremskridtet."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Tillykke!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "Frontlinje er utilgængelig. Følg opdateringerne på spilportalen."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Fejl ved valg af belønninger. Prøv igen."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "%(name)s modtaget"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Direktiver for udstyr modtaget: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Eksperimentelt udstyr modtaget: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "Frontlinje-sæson er slut.<br/>Alle belønninger, som du ikke valgte under sæsonen, er blevet tildelt dig som standard:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Frontlinje"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Kan ikke overføre mandskab: Kampvognen har unikt permanent mandskab."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Fejl i overførsel af mandskab til køretøjet. Forkert køretøj."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Kan ikke sende mandskabsmedlem til barakken. Ikke nok pladser i barakken."
+
+msgid "equip_tankman/server_error"
+msgstr "Kan ikke overføre mandskabsmedlem til køretøjet. Prøv igen senere."
+
+msgid "equip_tankman/success"
+msgstr "Mandskabsmedlem overført til %(vehName)s."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Fejl i overførsel af mandskab. Køretøjet er låst."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Fejl i overførsel af mandskab. Reparer dit køretøj."
+
+msgid "exchange/not_enough_gold"
+msgstr "Ikke nok guld til udveksling."
+
+msgid "exchange/server_error"
+msgstr "Fejl i udvekslingen af %(gold)s guld. Prøv igen senere."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Ikke nok guld til %(xp)s XP udveksling."
+
+msgid "exchangeXP/server_error"
+msgstr "Fejl ved konverting af %(xp)s xp. Prøv igen senere."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Kan ikke træne nye evner.\nServer utilgængelig. Prøv igen senere."
+
+msgid "filling_untrained_perks/success"
+msgstr "Nye evner trænet for alle mandskabsmedlemmer."
+
+msgid "fortification/addOrder"
+msgstr "Klargøring af %(count)s reserve(r) startet. Tid tilbage: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "Konstruktion af bygning %(buildingName)s startet. Transporter den nødvendige mængde industrielle ressourcer for at sikre uafbrudt konstruktion."
+
+msgid "fortification/created"
+msgstr "Tillykke!\nBefæstning oprettet."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Forsvaret af din befæstning vil være slået fra i 48 timer. I denne periode kan du slå forsvaret til igen i befæstningsindstillingerne."
+
+msgid "fortification/defenceHourSet"
+msgstr "Forsvarstiden vil blive justeret om 14 dage. Ny forsvarstid: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "Våbenhvile dag vil blive justeret om 14 dage. Ny våbenhvile dag—ikke sat."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "Våbenhvile dag vil blive justeret om 14 dage. Ny våbenhvile dag—%(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "Bygning %(buildingName)s revet ned."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Handling utilgængelig. Du har allerede tilknyttet til denne bygning."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Handling utilgængelig. Befæstning allerede oprettet."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "Handling utilgængelig. Klan er allerede gemt på listen."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "Handling utilgængelig. Du kan ikke planlægge mere end ét angreb på den samme klan."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "Handling utilgængelig. Angrebsdata er ikke indlæst."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "Handling utilgængelig. Der skal gå en uge siden det sidste angreb på den klan."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "Handling utilgængelig. En anden gruppe kontrollerer brohovedet."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "Handling utilgængelig. Angreb er ikke planlagt."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "Handling utilgængelig. Du kan kun planlægge et angreb der begynder om mindst 15 minutter."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Kan ikke planlægge et angreb på den valgte dag."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "Handling utilgængelig. Forkert klan ID."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "Handling utilgængelig. Forkert værdi på våbenhvile dagen."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "Handling utilgængelig. Forkert dato."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "Handling utilgængelig. Forkert ID på fremrykning."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "Handling utilgængelig. Forkert værdi på forsvarstiden."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Kan ikke angribe den valgte klan: Forskellen i befæstningernes niveau er mere end et. Vælg en anden klan."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "Handling utilgængelig. Forkert antal reserver."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "Handling utilgængelig. Ugyldig mængde industrielle ressourcer overført."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "Handling utilgængelig. Forkert division."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Handling utilgængelig. Detaljer på træfning ikke modtaget."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "Kampe er begrænset på denne server på dette tidspunkt."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Handling utilgængelig. Ugyldig neutralitetsperiode."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Handling utilgængelig. Ugyldig dato for neutralitet."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "Handling utilgængelig. Reparer kommandocentralen."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "Handling utilgængelig. Kommando central er ødelagt."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "Handling utilgængelig. Kommando central er ikke skadet."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "Handling utilgængelig. Kamp eksisterer ikke."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Desværre, kampresultater ikke tilgængelige."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Kan ikke fjerne. Befæstningen indeholder bygninger."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "Handling utilgængelig. Bygning er skadet."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Handling utilgængelig. Bygning ikke bygget."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "Handling utilgængelig. Kan ikke hente detaljer for klan."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "Handling utilgængelig. Kan ikke finde klan."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Handling utilgængelig. Transport utilgængelig."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Handling utilgængelig. Kan ikke opgradere bygning."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Operationen afvist. Serveren er midlertidig utilgængelig."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "Handling utilgængelig. Klan har aktiveret våbenhvile dag."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "Handling utilgængelig. Klan har aktiveret neutralitet."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "Handling utilgængelig. Kan ikke indstille forsvarstiden til den valgte tid."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "Handling utilgængelig. En anden gruppe kontrollerer brohovedet."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "Handling utilgængelig. Forsvar er ikke planlagt."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Handling utilgængelig. Ugyldig data."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "Handling utilgængelig. Forsvar er ikke slået til."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Befæstning er midlertidigt utilgængelig."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Handling utilgængelig. Bygning allerede bygget."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Handling utilgængelig. Vent venligst indtil den nuværende operation er fuldført."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "Handling utilgængelig. Du angriber en anden klan på det tidspunkt."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Kan ikke planlægge et angreb på denne klan på det anmodede tidspunkt."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Fejl. Befæstning er midlertidigt utilgængelig."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Handling utilgængelig. Niveau på befæstning for lavt."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "Handling utilgængelig. Opførsel af alle bygninger er sat i bero."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Handling utilgængelig. Ikke autoriseret."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "Handling utilgængelig. Kan ikke gå med i den taktiske enhed."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Handling midlertidigt utilgængelig."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "Handling utilgængelig. Tid er ikke synkroniseret."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Handling utilgængelig. Du er ikke tilknyttet bygningen."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Handling utilgængelig. Spilleren er ikke et klanmedlem."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Handling utilgængelig. Ikke nok spillere i klanen."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Handling utilgængelig. Ikke nok industrielle ressourcer i bygningens depot."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "Handling utilgængelig. Klan er ikke på den gemte liste."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Handling utilgængelig. Bygningen ikke bygget."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Handling utilgængelig. Du er ikke medlem af en klan."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "Handling utilgængelig. Reserven kan ikke aktiveres i øjeblikket."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Handling utilgængelig. Forkert bygning."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Handling utilgængelig. Reserve ikke til rådighed eller ikke valgt."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Handling utilgængelig. Forkert reserve."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Handling utilgængelig. Forkert reserve."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "Handling utilgængelig. Bygning er allerede under opførsel."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "Handling utilgængelig. Angreb eksisterer ikke."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Handling utilgængelig. Reserve allerede i brug."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Handling utilgængelig. Reserve bliver allerede klargjort."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "Handling utilgængelig. Byggeri er allerede sat i bero."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "Handling utilgængelig. Reserve er ikke tilgængelig."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "Handling utilgængelig. Byggeri er ikke sat i bero."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "Handling utilgængelig. Server er offline."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "Handling utilgængelig. Pladsen er allerede optaget."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "Handling utilgængelig. Forsvart er allerede slået fra."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "Handling utilgængelig. Forsvar er ikke slået fra endnu."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Handling utilgængelig. Træning ikke komplet."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Handling utilgængelig. Depotet er fuldt."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "Handling utilgængelig. Forsvar er allerede planlagt for denne dag."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "Grænsen på markerede klaner er nået."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "Handling utilgængelig. Maksimal mængde klargjorte reserver er nået."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Handling utilgængelig. Bygningens garnison er fuld."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Handling utilgængelig. Grænse for træfninger overskredet."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Handling utilgængelig. Transport midlertidigt utilgængelig."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Handling utilgængelig. Grænse for transport overskredet."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "Handling utilgængelig. Spiller er ikke klar."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Handling utilgængelig. Kan ikke rive kommandocenter ned."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Handling utilgængelig. Forkert klan."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "Handling utilgængelig. Forkert server."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Handling utilgængelig. Kan ikke bygge en bygning i dette område."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Du er tilknyttet denne bygning %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "Fremrykning stoppet på grund af tekniske problemer med serveren."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Opgradering gennemført. Niveau på bygning %(buildingName)s forøget til %(buildingLevel)s."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Befæstning er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "fortification/notification/turnedOn"
+msgstr "Befæstning: Kampe er tilgængelig igen."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Aktiver reserve"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Byg bygning"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Gem klan"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Tilføj reserve"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Tilføj spiller til garnison"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Slå forsvarstid til igen"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Juster forsvarstiden"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Juster våbenhvile"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Skift server"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Tilpas indstillinger"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Juster neutralitet"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Opret befæstning"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Opret gruppe"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Fjern bygning"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Fjern befæstning"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Planlæg angreb"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Fjern gemt klan"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Se detaljer på klan"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Se detaljer på klaner"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Anmod om detaljer på gruppen"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Deaktiver forsvarstid"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Transport"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Opgradering af bygning"
+
+msgid "fortification/transport"
+msgstr "Transport gennemført. %(res)s Industriel ressource transporteret fra bygning %(fromBuilding)s til bygning %(toBuilding)s."
+
+msgid "fortification/vacationSet"
+msgstr "Befæstning bibeholder neutraliteten %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Operationen er utilgængelig."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Fejl i træning af mandskab. Ikke nok fri xp."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Fejl i træning af mandskab. Dette mandskab eksisterer ikke."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Fejl i træning af mandskab. Prøv igen senere."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Fejl i træning af mandskab. Prøv igen senere."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Kan ikke træne et mandskabsmedlem med fri xp.\nPrøv igen senere."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Mandskabsmedlem trænet.\nFri xp brugt: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "For at forhindre afhængighed af spillet i børn og teenagere, er adgang til spillet lukket. Din forbindelse til serveren vil blive afbrudt fra kl. %(blockTime)s."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Tid tilbage af denne spilgang: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "Tidsgrænsen overskrides, derfor kan du ikke starte en ny kamp. Din forbindelse til serveren vil blive afbrudt kl. %s."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Længde for denne spilgang: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Tid tilbage indtil midnat: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "Din spilletid er overstået. Du kan ikke starte en ny kamp. Din forbindelse til serveren vil blive afbrudt kl. %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "Spilletidsgrænsen er blevet fjernet fra din konto"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "Indstillingerne for forældrekontrol er blevet ændret."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Du vil blive logget af serveren kl. %(timeLimit)s."
+
+msgid "graficsOptionsFail"
+msgstr "Grafik kort inkompatiblet. Kunne ikke aktivere den valgte grafik indstilling: %s."
+
+msgid "graficsPresetFail"
+msgstr "Grafik kort inkompatiblet. Kunne ikke aktivere den valgte grafik kvalitet."
+
+msgid "igr/customization/begin"
+msgstr "Gratis sløring, inskriptioner og emblemer er tilgængelige i %(igrIcon)s."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s er udløbet. Gratis sløring, inskriptioner og emblemer vil blive fjernet fra dit køretøj."
+
+msgid "info/noAvailable"
+msgstr "Detaljeret information er ikke tilgængelig."
+
+msgid "install_component"
+msgstr "%s \"%s\" monteret på køretøjet."
+
+msgid "install_vehicle_broken"
+msgstr "Kan ikke montere modul %s \"%s\": Køretøjet er beskadiget. Reparer køretøjet og prøv igen."
+
+msgid "install_vehicle_locked"
+msgstr "Køretøjet er låst, ude af stand til at montere modulet %s \"%s\"."
+
+msgid "inventory/item/already_exists"
+msgstr "Modul %(typeString)s \"%(userString)s\" er allerede tilgængelig i depotet."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Anmodning om montering af udstyr sendt. Afventer svar fra serveren."
+
+msgid "inventory/item/not_found"
+msgstr "Modul %(typeString)s \"%(userString)s\" findes ikke i depotet."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "Køretøj %(userString)s er allerede tilgængelig i depotet."
+
+msgid "inventory/vehicle/not_found"
+msgstr "Køretøj %(userString)s findes ikke i depotet."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "Invitation til legionær %(name)s kan ikke sendes."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "Invitation til spiller %(name)s kan ikke sendes: forkert klan."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Servicefejl \"%(vehName)s\". Kan ikke genforsyne med forbrugsvarer. Prøv igen senere."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Servicefejl \"%(vehName)s\". Kan ikke genforsyne med forbrugsvarer. Prøv igen senere."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Servicefejl \"%(vehName)s\". Kan ikke genforsyne med forbrugsvarer. Prøv igen senere."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Servicefejl \"%(vehName)s\". Kan ikke genforsyne med granater. Prøv igen senere."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Servicefejl \"%(vehName)s\". Kan ikke genforsyne med granater. Maksimalt antal granater lastet."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Servicefejl \"%(vehName)s\". Kan ikke genforsyne med forbrugsvarer. Prøv igen senere."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Servicefejl \"%(vehName)s\". Ikke nok credits til at købe forbrugsvarer. Prøv igen senere."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Servicefejl: \"%(vehName)s\". Ikke nok obligationer til at købe forbrugsvarer."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Servicefejl \"%(vehName)s\". Ikke nok guld til at købe forbrugsvarer. Prøv igen senere."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Servicefejl \"%(vehName)s\". Kan ikke genforsyne med forbrugsvarer. Prøv igen senere."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Servicefejl \"%(vehName)s\". Forkert køretøj."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Servicefejl \"%(vehName)s\". Ikke nok credits til at købe granater."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Servicefejl \"%(vehName)s\". Ikke nok guld til at købe granater."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Servicefejl \"%(vehName)s\". Køretøjet er låst."
+
+msgid "layout_apply/error"
+msgstr "Servicefejl \"%(vehName)s\". Prøv igen senere."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Servicefejl \"%(vehName)s\". Forkert køretøj."
+
+msgid "layout_apply/success_money_spent"
+msgstr "I alt brugt på ammunition %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Servicefejl \"%(vehName)s\". Køretøjet er låst."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "limitedUI/switchOff"
+msgstr "Gradvis fremtræden af skjulte grænseflade-elementer er midlertidigt deaktiveret."
+
+msgid "limitedUI/switchOn"
+msgstr "Gradvis fremtræden af skjulte grænseflade-elementer aktiveret igen. Du kan slå det fra i indstillingerne."
+
+msgid "locked_vehicle_error"
+msgstr "Denne handling er ikke mulig for præ-konfigurerede køretøjer."
+
+msgid "login_to_other_game_unknown"
+msgstr "nuværende spilsession blev afbrudt. Dit Wargaming.net&nbsp;ID blev brugt til at logge på et andet spil"
+
+msgid "login_to_other_game_web"
+msgstr "nuværende spilsession blev afbrudt. Din forbindelse til serveren er afbrudt gennem spillets portal."
+
+msgid "login_to_other_game_wot"
+msgstr "nuværende spilsession blev afbrudt. Dit Wargaming.net&nbsp;ID blev brugt til at logge på World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "nuværende spilsession blev afbrudt. Dit Wargaming.net&nbsp;ID blev brugt til at logge på World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "nuværende spilsession blev afbrudt. Dit Wargaming.net&nbsp;ID blev brugt til at logge på World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "nuværende spilsession blev afbrudt. Dit Wargaming.net&nbsp;ID blev brugt til at logge på World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "nuværende spilsession blev afbrudt. Dit Wargaming.net&nbsp;ID blev brugt til at logge på World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "Fejl ved modtagelse af gaven: serverfejl."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Fejl ved modtagelse af gaven. Vent venligst indtil den foregående operation er fuldført."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "Handlingen er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "mapbox/notification/primeTime"
+msgstr "Recon Mission er utilgængelig indtil slutningen på våbenhvilen."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Våbenhvile"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Serverfejl"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "Handling utilgængelig. Vent venligst indtil den nuværende operation er fuldført."
+
+msgid "maps_black_list/select/success"
+msgstr "%(mapName)s kortet blev udelukket fra standard kampe. Du kan ændre dit valg om %(time)s."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "%(mapName)s-kortet blev udelukket fra standard kampe. Du kan ændre dit valg om %(time)s, eller du kan åbne endnu en plads til et udelukket kort ved at aktivere en WoT premium konto eller ved at abonnere på WoT Plus."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "%(mapName)s-kortet blev udelukket fra standard kampe. Du kan ændre dit valg om %(time)s, eller du kan åbne endnu en plads til et udelukket kort ved at abonnere på WoT Plus."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "%(mapName)s-kortet blev udelukket fra standard kampe. Du kan ændre dit valg om %(time)s, eller du kan åbne endnu en plads til et udelukket kort ved at aktivere en WoT premium konto."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Denne funktionalitet er midlertidigt utilgængelig af tekniske årsager.\nVi undskylder ulejligheden."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "Udelukkelse af kort er midlertidigt utilgængelig"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "Tekniske udfordringer er blevet løst. Vi beklager ulejligheden."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "Udelukkelse af kort er tilgængelig igen"
+
+msgid "maps_training/switch/title"
+msgstr "Topografi"
+
+msgid "maps_training/switch_off/body"
+msgstr "Denne kamptype er slået fra."
+
+msgid "maps_training/switch_on/body"
+msgstr "Denne kamptype er slået til."
+
+msgid "memberRosterChangedMain"
+msgstr "%s overførte %s til standard holdet."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s overførte %s til reserve holdet."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Ikke nok hukommelse. Genstart venligst spillet."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Ikke nok hukommelse. Lav texture kvalitet."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Ikke nok hukommelse. Medium texture kvalitet."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Ikke nok hukommelse. Grafikindstillingerne er ændret. Genstart venligst spillet."
+
+msgid "missingEvents/button"
+msgstr "Åbn"
+
+msgid "missingEvents/header"
+msgstr "Events"
+
+msgid "missingEvents/text"
+msgstr "Vigtige events du gik glip af: "
+
+msgid "module_apply/error_is_current"
+msgstr "Modul %(kind)s \"%(name)s\" er allerede monteret."
+
+msgid "module_apply/error_need_gun"
+msgstr "Kan ikke montere %(kind)s \"%(name)s\" på køretøjet med den nuværende kanon."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" er ikke kompatibel med det nuværende tårn. Udskift tårnet."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" er ikke monteret. Ingen kompatibel kanon i depotet."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" er ikke kompatibel med det nuværende tårn. Udskift tårnet."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" passer ikke dette køretøj."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "Modul %(kind)s \"%(name)s\" er ikke kompatibel med forbrugsvarer \"%s\"."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" er den forkerte type."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" er den forkerte nation."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "Forbrugsvaren \"%(items)s\" er blevet sendt til depotet pga. inkompatibilitet med det nuværende modul."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Forkert køretøj. Kan ikke montere modul %(kind)s \"%(name)s\"."
+
+msgid "module_apply/server_error"
+msgstr "Serverfejl i montering af modulet %(kind)s \"%(name)s\". Prøv igen senere."
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" monteret på køretøj."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\" monteret på køretøjet med kanonen \"%(gun)s\"."
+
+msgid "module_apply/vehicle_locked"
+msgstr "Køretøjet er låst, kan ikke montere modul %(kind)s \"%(name)s\"."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "Kan ikke montere modulet %(kind)s \"%(name)s\": køretøjet er skadet. Reparer dit køretøj og prøv igen."
+
+msgid "module_buy/error_is_current"
+msgstr "Modulet %(kind)s \"%(name)s\" er allerede monteret."
+
+msgid "module_buy/error_need_gun"
+msgstr "Kan ikke montere %(kind)s \"%(name)s\" på køretøjet med den nuværende kanon."
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" er ikke kompatibel med det nuværende tårn. Udskift tårnet."
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" er ikke monteret. Ingen kompatibel kanon i depotet."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" passer ikke til dette tårn. Udskift tårnet."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" passer ikke dette køretøj."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "Modul %(kind)s \"%(name)s\" er ikke kompatibel med forbrugsvarer \"%s\"."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" er den forkerte type."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" er den forkerte nation."
+
+msgid "module_buy/invalid_module"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Forkert modul."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Forkert køretøj. Kan ikke købe og montere %(kind)s \"%(name)s\"."
+
+msgid "module_buy/not_enough_credits"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Ikke nok credits."
+
+msgid "module_buy/not_enough_gold"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Ikke nok guld."
+
+msgid "module_buy/server_error"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Prøv igen senere."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "Kan ikke købe %(kind)s \"%(name)s\". Serveren er midlertidigt utilgængelig."
+
+msgid "module_buy/success"
+msgstr "Modulet %(kind)s \"%(name)s\" købt (%(count)s ting). Brugt %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Køretøj låst. Kan ikke købe og montere %(kind)s \"%(name)s\"."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "Kan ikke købe og montere %(kind)s \"%(name)s\". Reparer køretøjet og prøv igen."
+
+msgid "module_buy/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "module_sell/invalid_module"
+msgstr "Kan ikke sælge %(kind)s \"%(name)s\". Forkert modul."
+
+msgid "module_sell/server_error"
+msgstr "Kan ikke sælge %(kind)s \"%(name)s\". Prøv igen senere."
+
+msgid "module_sell/success"
+msgstr "Modulet %(kind)s \"%(name)s\" (%(count)s ting). Modtog %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "Modtaget %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Fejl i skift af konfiguration"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Fejl i skift af konfiguration"
+
+msgid "nation_change/error"
+msgstr "Fejl i skift af konfiguration"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: national konfiguration skiftet"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Daglige missioner opdateret af tekniske årsager. Missionsfremskridt er gemt."
+
+msgid "notrecruit_window/success"
+msgstr "Mandskabsmedlem rekrutteret.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "Handlingen er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Fejl i modtagelse af gave: Serverfejl"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Fejl i modtagelse af gave: Nogle af belønningerne blev forsinket — prøv at modtage dem senere."
+
+msgid "offers/switch_off/body"
+msgstr "Homefront forsyningstjenesten er midlertidigt utilgængelig."
+
+msgid "offers/unavailable_many"
+msgstr "Utilgængelige kampagner: %(count)s ting."
+
+msgid "offers/unavailable_one"
+msgstr "Kampagne utilgængelig."
+
+msgid "optionalDevices_apply/error"
+msgstr "Konfigurationsfejl på udstyr. Prøv venligst senere."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Operationsfejl på udstyr. Ikke nok midler til at gennemføre købet."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "Operation utilgængelig. Dit guld vil være tilgængeligt efter WG Wallet funktionaliteten er gendannet."
+
+msgid "optionalDevices_remove/error"
+msgstr "Konfigurationsfejl på udstyr. Prøv venligst senere."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "Private beskeder med spillere, som ikke er på din kontaktliste, er ikke tilgængelige for din konto."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "Private beskeder er ikke tilgængelige for din konto."
+
+msgid "parentControl/linkText"
+msgstr "Angiv dato"
+
+msgid "parentControl/mainText"
+msgstr "Angiv venligst din fødselsdato."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "Private beskeder med spillere, som ikke er på din kontaktliste, er deaktiveret i forældrekontrollen."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "Private beskeder er deaktiveret i forældrekontrollen."
+
+msgid "parentControl/title"
+msgstr "Aldersbekræftelse"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Overførsel er utilgængelig. Ikke i stand til at definere serveren."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Belønning modtaget:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Gå til operation"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Mission fuldført"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Skift køretøjer for at fortsætte fuldførelsen af missionen."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Operation: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Fuldført: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "%(campaignName)s-kampagne fuldført med udmærkelse!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "%(operationName)s-operation fuldført!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "%(operationName)s-operation fuldført med udmærkelse!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "Kampagner er midlertidigt utilgængelige på grund af vedligeholdelse."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "Kampagner er tilgængelige igen. Vi beklager ulejligheden."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "%(campaignName)s-kampagnen er midlertidigt utilgængelig på grund af vedligeholdelse."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "%(campaignName)s-kampagnen er tilgængelig igen. Vi beklager ulejligheden."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "%(missionName)s-missionen i %(operationName)s-operationen er midlertidigt utilgængelig på grund af vedligeholdelse."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "%(missionName)s-missionen i %(operationName)s-operationen er tilgængelig igen. Vi beklager ulejligheden."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "%(operationName)s-operationen i %(campaignName)s-kampagnen er midlertidigt utilgængelig på grund af vedligeholdelse."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "%(operationName)s-operationen i %(campaignName)s-kampagnen er tilgængelig igen. Vi beklager ulejligheden."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Fejl ved skift af kampagner. Prøv venligst igen senere."
+
+msgid "personalMissions/badge"
+msgstr "Mærke %(name)s modtaget."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Unik sløring for %(vehicleName)s modtaget."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "Unik sløring for %(vehicleName)s er tilgængelig for alle køretøjer fra nation: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Al operationsfremskridt er blevet gemt. Du kan genoptage kampagnerne på ethvert tidspunkt."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "%(campaignName1)s- og %(campaignName2)s-kampagnerne sat på pause"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "Operationer sat på pause, samt deres missioner, er blevet genoptaget."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "%(campaignName1)s- og %(campaignName2)s-kampagnerne genoptaget"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Al operationsfremskridt er blevet gemt. Du kan genoptage kampagnen på ethvert tidspunkt."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "%(campaignName)s-kampagne sat på pause"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "Operationer sat på pause er blevet genoptaget."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "%(campaignName)s-kampagne genoptaget"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "%(detailName)s er blevet monteret."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Operation: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Kan ikke nulstille missionen. Prøv igen senere."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Handling utilgængelig. Missioner midlertidigt slået fra."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Kan ikke nulstille missionen i øjeblikket. Prøv igen senere."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Kan ikke nulstille missionen i øjeblikket. Vent venligst indtil køretøjet af denne type ikke længere er i kamp."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Kan ikke nulstille missionen i øjeblikket. Vent venligst indtil gruppen af køretøjer ikke længere er i kamp."
+
+msgid "personalMissions/discard/success"
+msgstr "%(quest)s missionen er blevet nulstillet."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Ordrer modtaget: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Ordrer returneret: %(count)s\nDe kan bruges igen."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "Den første mission i hver serie er blevet aktiveret."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "%(operationName)s-operation aktiveret!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Belønning modtaget: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "%(name)s-operation fuldført!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Al missionsfremskridt er blevet gemt. Du kan genoptage operationen på ethvert tidspunkt."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "%(operationName)s-operation sat på pause"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "Missioner sat på pause er blevet genoptaget."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "%(operationName)s-operation genoptaget"
+
+msgid "personalMissions/pause/server_error"
+msgstr "Missionen blev ikke sat på pause. Prøv igen senere."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Handling utilgængelig. Missioner midlertidigt slået fra."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Kan ikke sætte missionen på pause i øjeblikket. Prøv igen senere."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Kan ikke sætte missionen på pause i øjeblikket. Vent venligst indtil køretøjet af denne type ikke længere er i kamp."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "Missionen %(quest)s er blevet sat på pause."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "Fuldførelse af missionen %(quest)s er blevet genoptaget."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Fejl. Kan ikke bekræfte en ordre i øjeblikket."
+
+msgid "personalMissions/pawn/success"
+msgstr "Ordrer bekræftet til %(questName)s missionen: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Fejl ved modtagelse af belønninger. Prøv venligst igen senere."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s er blevet monteret."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Kan ikke modtage belønning. Prøv venligst igen senere."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "Handling utilgængelig. Missioner midlertidigt slået fra."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Kan ikke modtage belønning. Belønning utilgængelig."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Kan ikke modtage belønning. Belønning utilgængelig."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Kan ikke modtage belønning. Forkert data."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Kan ikke modtage belønning. Prøv venligst igen senere."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "Handling utilgængelig. Missioner midlertidigt slået fra."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Kan ikke modtage belønning. Belønning utilgængelig."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Kan ikke modtage belønning. Belønning utilgængelig."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Kan ikke modtage belønning. Forkert data."
+
+msgid "personalMissions/select/server_error"
+msgstr "Missioner ikke valgt: %(questNames)s. Prøv venligst senere."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Handling utilgængelig. Missioner midlertidigt slået fra."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Missioner ikke valgt: %(questNames)s. Prøv venligst senere."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Bemærk! For at ændre missionen, vent indtil alle køretøjer, der har denne mission aktiv, er tilbage i garagen."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Missioner ikke valgt: %(questNames)s. Fuldfør den forrige operation."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Missioner ikke valgt: %(questNames)s. Ikke nok pladser."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Missioner ikke valgt: %(questNames)s. Modtag venligst belønning."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Missioner ikke valgt: %(questNames)s. Mission utilgængelig."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Missioner ikke valgt: %(questNames)s. Mission allerede fuldført."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Missioner ikke valgt: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Missioner ikke valgt: %(questNames)s. Mission i dette sæt allerede valgt."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Missioner ikke valgt: %(questNames)s. Forkert data."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Missioner ikke valgt: %(questNames)s. Forkert data."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Kan ikke vælge missionen i øjeblikket. Vent venligst indtil gruppen af køretøjer ikke er i kamp."
+
+msgid "personalMissions/select/success"
+msgstr "Missioner valgt. Nuværende valgte missioner: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Tilføjet: kvindeligt mandskab"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Fejl ved aktivering af operation. Prøv venligst igen senere."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "Credit-reserven er fuld, men den vil åbne om %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "Denne funktionalitet er midlertidigt utilgængelig af tekniske årsager.\nVi undskylder ulejligheden."
+
+msgid "piggybank/switch_off/title"
+msgstr "Credit-reserve er midlertidigt utilgængelig"
+
+msgid "piggybank/switch_on/body"
+msgstr "Tekniske udfordringer er blevet løst. Vi beklager ulejligheden."
+
+msgid "piggybank/switch_on/title"
+msgstr "Credit-reserve er tilgængelig igen"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Denne funktionalitet er midlertidigt utilgængelig på grund af tekniske årsager.\nVi beklager ulejligheden."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Spillerabonnementer er ikke længere tilgængelige!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Tekniske udfordringer er blevet løst. Vi undskylder ulejligheden."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Spillerabonnementer er nu tilgængelige"
+
+msgid "post_progression/server_error"
+msgstr "Belønning for post-fremskridt\ner allerede modtaget"
+
+msgid "post_progression/success"
+msgstr "Dato: %(at)s\nTilføjet fra depot: %(book_name)s (x%(amount)s).\npost-fremskridt xp vekslet."
+
+msgid "post_progression/success/title"
+msgstr "Kvittering"
+
+msgid "prebattle/hasLockedState"
+msgstr "Kan ikke acceptere invitationen, da du allerede venter på en kamp. Forlad lobbyen eller færdiggør kampen og prøv igen."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Invitation sendt til spiller."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Invitation sendt til spiller %(name)s."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Fejl ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Fejl AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Fejl BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Fejl CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Kommandør har forladt holdet."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Holdet er blevet opløst."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "Kamptypen er midlertidigt utilgængelig"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Demobilisering."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Fejl PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Tid udløbet."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Ukendt fejl."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Fejl VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Du er blevet udelukket fra delingen."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Du er blevet udelukket fra holdet."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Du skal have mindst 3 passende køretøjer til kamptypen. Se Om Onslaught-siden for flere detaljer."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Autosøg"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Skift voice chat"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Skift division"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Valg af type"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Skift af type"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Valg af type"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Skift indstillinger"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Rediger hold"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Skift tilskuervisning"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Lås plads"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Søg"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Inviter til hold"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Bekræft at du er klar"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Bekræft at holdet er klar"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Vælg køretøjer"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Skift hold"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Søg"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Kun hold med minimum antal køretøjer kan gå i kamp: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Kun hold med et samlet niveau mellem %(minTotalLevel)d og %(maxTotalLevel)d kan starte en kamp."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Kun køretøjer af niveau %(minLevel)d til %(maxLevel)d er tilladt."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Dette køretøj passer ikke til denne kamp."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Alle holdmedlemmer kan ikke være tilskuere."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "Det valgte køretøj er kun passende til frontlinje kamptypen."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "Det valgte køretøj er kun passende til raseri kamptypen."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "Granater og forbrugsvarer lastet på det valgte køretøj overholder ikke betingelserne til kampen."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Forkert niveau på køretøjet til denne kamp. Minimum niveau for denne type: %s. Maksimum niveau for denne klasse: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Forkert køretøjstype til denne kamp. Typer tilladt: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Komponenter monteret på det valgte køretøj overholder ikke betingelserne til kampen."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Forkert niveau på køretøjet til denne kamp. Minimum niveau: %s. Maksimum niveau: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Dette køretøjs nationalitet passer ikke til denne kamp. Nationer tilladt: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Inkompatibelt køretøj"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Granater lastet på det valgte køretøj overholder ikke betingelserne til kampen."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Inkompatibelt køretøj"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Forkert køretøj til denne kamp."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Det valgte køretøj er ikke klar."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "Handling utilgængelig. Vælg først et køretøj."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Kan ikke gå med på holdet."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Inkompatibelt køretøj"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "Det valgte køretøj vil blive åbnet under kampen."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Kan ikke finde passende fjende. Prøv at oprette holdet igen."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Ude af stand til at finde rivaler til den nuværende deling, overvej at genorganiser dit hold."
+
+msgid "premium/buyingSuccess"
+msgstr "Premium konto købt for %(period)d dag(e). %(money)s brugt."
+
+msgid "premium/continueSuccess"
+msgstr "Premium konto forlænget med %(period)d dag(e). %(money)s brugt."
+
+msgid "premium/not_enough_gold"
+msgstr "Ikke nok guld til at købe en premiumkonto i %(period)d dag(e)."
+
+msgid "premium/post_battle_premium"
+msgstr "Ved køb af premium konto tjener du %(xpDiff)d xp og %(creditDiff)d credits."
+
+msgid "premium/server_error"
+msgstr "Ikke i stand til at købe en premiumkonto i %(period)d dag(e). Prøv igen senere."
+
+msgid "premium/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "Handling utilgængelig. Prøv igen senere."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "Handling utilgængelig. Vent venligst indtil den nuværende operation er fuldført."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Denne funktionalitet er midlertidigt utilgængelig af tekniske årsager.\nVi undskylder ulejligheden."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Premium missioner er midlertidigt utilgængelige"
+
+msgid "premium_quests/switch_on/body"
+msgstr "Tekniske udfordringer er blevet løst. Vi beklager ulejligheden."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Premium missioner er tilgængelige igen"
+
+msgid "progressiveReward/error"
+msgstr "Operation utilgængelig lige nu. Prøv igen senere."
+
+msgid "progressiveReward/switch_off"
+msgstr "Meritpræmier: denne mulighed er midlertidigt slået fra. Vi undskylder ulejligheden."
+
+msgid "progressiveReward/switch_on"
+msgstr "Meritpræmier er tilgængelige igen."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Missionen udløb. Detaljeret beskrivelse utilgængelig."
+
+msgid "queue/isInQueue"
+msgstr "Operation utilgængelig lige nu. Prøv igen senere."
+
+msgid "rally/leaveDisabled"
+msgstr "Handling utilgængelig.\nDu kan ikke forlade kamptypen. Du er et medlem af den taktiske enhed og klar til kamp."
+
+msgid "ranked/notification/available"
+msgstr "Våbenhvilen er udløbet: Rangerede kampe er tilgængelige igen."
+
+msgid "ranked/notification/available/title"
+msgstr "Rangerede kampe tilgængelige"
+
+msgid "ranked/notification/congratulations"
+msgstr "Tillykke!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "Rangerede kampe er utilgængelige. Følg opdateringerne på spilportalen."
+
+msgid "ranked/notification/notSet"
+msgstr "Denne kamptype er utilgængelig på den valgte server."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Rangerede kampe utilgængelige"
+
+msgid "ranked/notification/primeTime"
+msgstr "Rangerede kampe er ikke tilgængelige indtil slutningen på våbenhvilen."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Våbenhvile"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Du viste fremragende resultater i sæsonerne af rangerede kampe i 2020/2021, hvor du fik en placering blandt de bedste spillere!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Tillykke!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Du viste fremragende resultater i sæsonerne af rangerede kampe i 2020/2021, hvor du blev nr. %(playerPosition)s blandt de bedste spillere!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Tillykke!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Mærke modtaget:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Mærker modtaget:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Credits optjent:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Obligationer modtaget:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Jubilæumsmønter modtaget:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Guld modtaget:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Forbedret udstyr du kan vælge: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Stil modtaget:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Stile modtaget:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Rang tokens modtaget: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Dag med Wargaming premium konto"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Dage med Wargaming premium konto (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "Dag med WoT premium konto"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "Dage med WoT premium konto (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Stadie %(number)s resultater"
+
+msgid "ranked/notifications/league"
+msgstr "Liga: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "Guld"
+
+msgid "ranked/notifications/league2"
+msgstr "Sølv"
+
+msgid "ranked/notifications/league3"
+msgstr "Bronze"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Rang tokens for guldligaen modtaget: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Maksimal rang: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Position på ranglisten: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Du fuldførte kvalifikationen"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Rang tokens for sæsonen modtaget: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Resultater af rangerede kampe, sæson %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Du opnåede rang %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Sprintermærke modtaget. Belønninger forbedret."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Sprintermærke modtaget"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Kan ikke rekruttere nyt mandskab: Kampvognen har unikt permanent mandskab."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Kan ikke rekruttere mandskab. Servicen er midlertidigt utilgængelig."
+
+msgid "recruit_window/financial_success"
+msgstr "Mandskabsmedlem rekrutteret til %(vehName)s. Credits brugt: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Mandskabsmedlem rekrutteret til %(vehName)s.\nCredits brugt: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Mandskabsmedlem rekrutteret til %(vehName)s.\nGuld brugt: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Du har nået grænsen for gratis mandskab for i dag."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Fejl ved rekruttering af mandskab. Ikke nok credits."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Fejl ved rekruttering af mandskab. Ikke nok guld."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Fejl i rekruttering og overførsel af mandskab. Ikke nok sengepladser i barakken. Frigør pladser eller køb flere pladser i barakken."
+
+msgid "recruit_window/server_error"
+msgstr "Kan ikke rekruttere mandskabsmedlem. Prøv igen senere."
+
+msgid "recruit_window/success"
+msgstr "Mandskabsmedlem rekrutteret gratis til %(vehName)s."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Kan ikke overføre mandskab: Kampvognen har unikt permanent mandskab."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Fejl i udskiftning af mandskab. Forkert køretøj."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Kan ikke sende mandskabsmedlem til barakken. Ikke nok pladser i barakken."
+
+msgid "reequip_tankman/server_error"
+msgstr "Ikke i stand til at udskifte mandskab. Prøv venligst senere."
+
+msgid "reequip_tankman/success"
+msgstr "Mandskabsmedlem udskiftet."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Fejl i udskiftning af mandskab. Køretøjet er låst."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Fejl i udskiftning af mandskab. Reparer dit køretøj."
+
+msgid "remove_component"
+msgstr "%s \"%s\" afmonteret fra køretøjet."
+
+msgid "remove_vehicle_broken"
+msgstr "Kan ikke fjerne %s \"%s\": køretøj er beskadiget. Reparer dit køretøj og prøv igen."
+
+msgid "remove_vehicle_locked"
+msgstr "Kan ikke fjerne %s \"%s\": køretøj er låst."
+
+msgid "repair/credits_error"
+msgstr "%s flere credits påkrævet for at reparere '%s'."
+
+msgid "repair/server_error"
+msgstr "Fejl i reparation af %s. Prøv igen senere."
+
+msgid "repair/success"
+msgstr "%s repareret. Du har brugt %s."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Kan ikke erstatte dit mandskabs personlige data: Kampvognen har unikt permanent mandskab."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Fejl i udskiftning af persondata. Forkert køretøj."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Fejl i udskiftning af persondata. Ikke nok credits."
+
+msgid "replace_tankman/server_error"
+msgstr "Kunne ikke udskifte persondata- Prøv igen senere."
+
+msgid "replace_tankman/success"
+msgstr "Udseende udskiftet."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Fejl i udskiftning af persondata. Køretøjet er låst."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Fejl i udskiftning af persondata Reparer køretøjet."
+
+msgid "request/isInCoolDown"
+msgstr "Operation \"%(request)s\" er suspenderet i %(coolDown)s s."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Kan ikke nulstille evner.\nServer utilgængelig. Prøv igen senere."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Alle evner for alle mandskabsmedlemmer er\ngratis blevet nulstillet."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Fejl i tildeling af ressourcer. Prøv igen."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Der opstod en fejl ved returnering af ressourcer. Prøv igen."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Du har stadig køretøjer der kan genoprettes. Gå til butikken for at sende de tilsvarende køretøjer tilbage til garagen."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Genopretning af mandskab er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Kan ikke genoprette mandskab."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Ikke nok guld til at genoprette mandskab."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Kan ikke genoprette mandskab. Tiden hvor det var muligt er udløbet."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Kan ikke genoprette mandskab. Prøv igen senere."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Kan ikke genoprette mandskab. Mandskabsgenopretning er midlertidigt utilgængeligt."
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s kan ikke længere genoprettes."
+
+msgid "restore_tankman/financial_success"
+msgstr "Mandskabsmedlem genoprettet.\nCredits brugt: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Kan ikke genoprette mandskab. Ikke nok senge i barakken."
+
+msgid "restore_tankman/server_error"
+msgstr "Kan ikke genoprette dette mandskabsmedlem. Prøv igen senere."
+
+msgid "restore_tankman/success"
+msgstr "Mandskabsmedlem genoprettet."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "Mandskabsmedlems kvalifikation ændret."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Kan ikke omskole mandskabet: Kampvognen har unikt permanent mandskab."
+
+msgid "retraining_crew/empty_list"
+msgstr "Fejl i omskoling af mandskab. Mandskab er ikke valgt."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Credits brugt: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Mandskab omskolet gratis til %(vehName)s."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Guld brugt: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Fejl i omskoling af mandskab. Operationen er ikke tilgængelig."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Fejl i omskoling af mandskab. Forkert køretøj."
+
+msgid "retraining_crew/server_error"
+msgstr "Kan ikke omskole mandskab. Prøv igen senere."
+
+msgid "retraining_crew/success"
+msgstr "Mandskab omskolet til %(vehName)s."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Fejl i omskoling af mandskab. Køretøjet er låst."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Fejl i omskoling af mandskab. Reparer dit køretøj."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Kan ikke omskole dit mandskab: Kampvognen har unikt permanent mandskab."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Credits brugt: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Mandskabsmedlem omskolet gratis til %(vehName)s."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Guld brugt: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Fejl i omskoling af mandskab. Operationen er ikke tilgængelig."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Fejl i omskoling af enkelt mandskab. Forkert køretøj."
+
+msgid "retraining_tankman/server_error"
+msgstr "Kan ikke omskole mandskabsmedlem.\nPrøv igen senere."
+
+msgid "retraining_tankman/success"
+msgstr "Mandskabsmedlem omskolet til %(vehName)s."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Fejl i omskoling af mandskab. Køretøjet er låst."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Fejl i omskoling af mandskab. Reparer køretøjet."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Kan ikke returnere mandskabet: Kampvognen har unikt permanent mandskab."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Fejl i returnering af mandskab. Forkert køretøj."
+
+msgid "return_crew/not_enough_space"
+msgstr "Kan ikke sende mandskabet til barakken. Ikke nok pladser i barakken."
+
+msgid "return_crew/return_unavailable"
+msgstr "Nogle mandskabsmedlemmer kan ikke tilbageføres til køretøjet."
+
+msgid "return_crew/server_error"
+msgstr "Kan ikke returnere mandskab. Prøv igen senere."
+
+msgid "return_crew/success"
+msgstr "Mandskab overført."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Fejl i returnering af mandskab. Køretøjet er låst."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Fejl i returnering af mandskab. Reparer dit køretøj."
+
+msgid "rotation/lock"
+msgstr "De følgende grupper er låst og ikke længere tilgængelige i kampe: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "De følgende grupper er låst op og nu tilgængelige i kampe: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "Køretøjet er låst og utilgængelig til kampe."
+
+msgid "royale/notification/congratulations"
+msgstr "Tillykke!"
+
+msgid "royale/notification/primeTime"
+msgstr "Ståljæger kampe er ikke tilgængelige indtil slutningen af våbenhvilen. Tjek skemaet i kalenderen."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Våbenhvile"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Niveau nået: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "Kampe i Strategiens kunst-eventet er igen tilgængeligt på denne server."
+
+msgid "rts/notification/available/title"
+msgstr "Kampe tilgængelige"
+
+msgid "rts/notification/notAvailable"
+msgstr "Strategiens kunst-eventet er utilgængeligt. Følg nyhederne på spilportalen."
+
+msgid "rts/notification/notSet"
+msgstr "Strategiens kunst-kampe er ikke tilgængelige på den valgte server."
+
+msgid "rts/notification/notSet/title"
+msgstr "Kampe utilgængelige"
+
+msgid "rts/notification/primeTime"
+msgstr "Våbenhvile aktiv. Strategiens kunst-kampe er midlertidigt utilgængelige."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Våbenhvile"
+
+msgid "securityMessage/bad_email"
+msgstr "Du har registreret din email adresse på en mistænkelig server. Skift venligst din email af sikkerhedsmæssige grunde. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Skift sikkerhedsindstillinger"
+
+msgid "securityMessage/no_phone"
+msgstr "For sikkerhedsmæssige grunde, tilføj venligst et telefonnummer til din konto. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "For at nulstille dit password, vælg venligst et sikkerhedsspørgsmål i din Account Management. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "Du har ikke skiftet password i 30 dage. Skift venligst dit password af sikkerhedsmæssige grunde. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "Adgangskoden du angav mens du oprettede din konto er ikke stærk nok. Skift venligst adgangskoden. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "Kan ikke sælge %s: køretøj er beskadiget. Reparer dit køretøj og prøv igen."
+
+msgid "sell_vehicle_locked"
+msgstr "Kan ikke sælge %s: køretøj er låst."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Velfortjent belønning-eventet er genoptaget. Vi beklager ulejligheden."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "Velfortjent belønning-eventet er midlertidigt afbrudt på grund af vedligeholdelse."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Fejl ved modtagelse af belønninger. Operationen er midlertidigt utilgængelig."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Fejl i modtagelse af belønningen. Kontakt spillersupport."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "Belønninger for dine års tjeneste er forsinkede. Prøv igen senere."
+
+msgid "serverInstallError"
+msgstr "Serverfejl ved montering af modul %s \"%s\". Prøv igen senere."
+
+msgid "serverRemoveError"
+msgstr "Fejl i fjernelse af modul %s \"%s\". Prøv igen senere."
+
+msgid "server_shut_down"
+msgstr "Genstarter spilserveren."
+
+msgid "session_tracker_kick"
+msgstr "Dit Wargaming.net&nbsp;ID blev brugt til at logge på et andet spil. Nuværende spilsession afbrudt."
+
+msgid "shell_buy/invalid_module"
+msgstr "Kan ikke købe %(name)s. Forkert granat."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "Kan ikke købe %(name)s. Ikke nok credits."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "Kan ikke købe %(name)s. Ikke nok guld."
+
+msgid "shell_buy/server_error"
+msgstr "Kan ikke købe %(name)s. Prøv igen senere."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "Kan ikke købe %(name)s granater. Serveren er midlertidigt ikke tilgængelig."
+
+msgid "shell_buy/success"
+msgstr "Granater %(name)s købt (%(count)s ting). Brugt %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "shell_sell/invalid_module"
+msgstr "Kan ikke sælge \"%(name)s\". Forkert granat."
+
+msgid "shell_sell/server_error"
+msgstr "Kan ikke sælge \"%(name)s\". Prøv igen senere."
+
+msgid "shell_sell/success"
+msgstr "Granat \"%(name)s\" (%(count)s ting). Modtog %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Konfigurationsfejl på ammunition. Prøv venligst senere."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Operationsfejl på ammunition. Ikke nok midler til at gennemføre købet."
+
+msgid "shells_apply/success_money_spent"
+msgstr "I alt brugt på ammunition %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "Operation utilgængelig. Dit guld vil være tilgængeligt efter WG Wallet funktionaliteten er gendannet."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Anmodning om at købe og montere modulet blev sendt. Venter på svar fra serveren."
+
+msgid "shop/item/buy_server_error"
+msgstr "Kan ikke købe %(typeString)s \"%(userString)s\". Prøv venligst igen senere."
+
+msgid "shop/item/buy_success"
+msgstr "Modul %(typeString)s \"%(userString)s\" blev købt (%(count)d). Brugt %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Operation utilgængelig lige nu."
+
+msgid "shop/item/not_enough_money"
+msgstr "For at købe %(typeString)s \"%(userString)s\" skal du bruge %(price)s mere."
+
+msgid "shop/item/not_found"
+msgstr "Modul %(typeString)s \"%(userString)s\" findes ikke i butikken. Prøv venligst igen senere."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Operation utilgængelig lige nu."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "For at købe %(userString)s skal du bruge %(price)s mere."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "For at leje %(userString)s, skal du bruge %(price)s mere."
+
+msgid "shop/vehicle/not_found"
+msgstr "Køretøj %(userString)s findes ikke i butikken. Prøv venligst igen senere."
+
+msgid "shop_resync"
+msgstr "Grænseflade opdateret den %(date)s kl. %(time)s på grund af serverændringer."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) blev konverteret til <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Dato: %(date)s\nDirektiver konverteret: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Kvittering"
+
+msgid "squad/createError"
+msgstr "Kun brugere med Premiumkonto kan oprette delinger."
+
+msgid "squad/kickedFromQueue"
+msgstr "Ude af stand til at finde rivaler til den nuværende deling, overvej at genorganiser dit hold."
+
+msgid "squad/leaveDisabled"
+msgstr "Handling utilgængelig.\nDu kan ikke forlade delingen. Du er medlem af delingen og klar til kamp."
+
+msgid "squad/memberJoined"
+msgstr "%s gik med i den taktiske enhed."
+
+msgid "squad/memberLeave"
+msgstr "%s forlod den taktiske enhed."
+
+msgid "squad/memberNotReady"
+msgstr "%s er ikke klar."
+
+msgid "squad/memberOffline"
+msgstr "Forbindelse afbrudt med %s."
+
+msgid "squad/memberReady"
+msgstr "%s er klar."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Kan ikke gå i kamp med delingen."
+
+msgid "squad/notValidDeleted"
+msgstr "%(vehName)s blev ekskluderet fra delingen da dens niveau ikke matcher niveauet på kommandørens køretøj. Vælg et køretøj på samme niveau."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s blev ekskluderet fra delingen, da kommandøren ændrede kravene."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Du blev fjernet fra delingen, da kommandøren ændrede kravene, eller du kan ikke gå med i den, da køretøjet ikke opfylder kravene. Vælg venligst et andet køretøj."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "%(vehName)s er blevet fjernet på grund af restriktioner på antallet af disse køretøjer tilladt per deling. Vælg et andet køretøj."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Denne funktionalitet er midlertidigt utilgængelig af tekniske årsager.\nVi undskylder ulejligheden."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "Delingsbonus er midlertidigt utilgængelig"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "Tekniske udfordringer er blevet løst. Vi beklager ulejligheden."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "Delingsbonus er tilgængelig igen"
+
+msgid "ssr/unavailable"
+msgstr "Kan ikke downloade replayet"
+
+msgid "steam_login_not_allowed"
+msgstr "Du kan ikke bruge denne applikation til at spille: Din Steam-konto er allerede knyttet til en Wargaming.net konto. Læs mere i spillersupport."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Mandskabsmedlem afskediget."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s d"
+
+msgid "techtree/action/header"
+msgstr "Kampagne \"%(actionName)s\""
+
+msgid "techtree/action/text"
+msgstr "Kampagne slutter om "
+
+msgid "techtree/action/text/closest"
+msgstr "Den næste kampagne slutter om: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Årsag: dette køretøj er kun tilgængeligt for Prime Gaming medlemmer. Kontroller venligst status på dit Prime Gaming medlemskab."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Køretøj utilgængeligt"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Dato: %(datetime)s\nKøretøjer tilføjet: %(vehicles)s\nTilføjet: en garageplads,%(crew)s 3D stil."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Dato: %(datetime)s\nKøretøjer tilføjet: %(vehicles)s\nTilføjet: en garageplads,%(crew)s en eksklusiv sløring."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " et 100%% mandskab%(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Køretøjer tilføjet"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Dato: %(datetime)s\nFjernet: %(vehicles)s, en garageplads."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Årsag: dette køretøj er kun tilgængeligt for Prime Gaming medlemmer. Kontroller venligst status på dit Prime Gaming medlemskab."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Køretøjer fjernet"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "Køretøjet er tilgængeligt igen"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "T-44-100 Igrovoy-kampvognen tilføjet. Fjernede: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Missioner kan nu fuldføres i T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " og "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s credits"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "Alt mandskab på %(tanks)s omskolet til T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Udstyr afmonteret og sendt til depotet.\nTilpasningselementer sendt til depotet.\nGranater og direktiver sendt til depotet."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Udstyrssæt, tilpasningselementer, kamp xp, statistik og medaljer overført fra %(mergedTank)s til T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s fri xp"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Xp for feltmodifikation kompenseret: %(compensation)s tilføjet."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Købte progressive mærker kompenseret: %(value)s guld tilføjet."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "Spilstatistik og medaljer fra %(mergedTank)s overført til T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Kamp xp rundet op og overført til T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Held og lykke på slagmarken!"
+
+msgid "telecomMergeResults/title"
+msgstr "Ændringer til \"Igrovoy\"-perioden"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Køretøjsvalg og leje er suspenderet."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Køretøjsleje er utilgængeligt i øjeblikket"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Køretøjsleje er tilgængeligt"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Tillykke! Du modtog %(count)s token(s)."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Ikke i stand til at overføre guld. Modtageren afslog transaktionen."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Guldoverførsel er ikke tilgængelig."
+
+msgid "tradingError/NO_WARES"
+msgstr "Kan ikke overføre guld. Ikke nok guld."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Du har nået grænsen for overførelser. Prøv igen i morgen."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Ikke i stand til at overføre guld. Prøv igen senere."
+
+msgid "training/error/AddPlayer"
+msgstr "Fejl i træningsrum. Maksimalt antal spillere på et hold er overskredet."
+
+msgid "training/error/doAction"
+msgstr "Træningsrum fejl. Prøv igen senere."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Fejl i træningsrum. Maksimal holdstørrelse i Onslaught-kamptypen: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Fejl i træningsrum. Maksimalt antal spillere på et hold: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Serverfejl i forsøget på at bytte holdene. Prøv igen senere."
+
+msgid "transferXP/server_error"
+msgstr "Operation er ikke tilgængelig. Prøv venligst igen senere."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "Handling utilgængelig. Ikke nok tilladelser."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "Handling utilgængelig. Du er ikke medlem af en klan."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Fejl: Kan ikke gendanne det valgte køretøj til tjeneste."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Fejl: Ikke nok reservedele til at gendanne køretøjet til tjeneste."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Fejl: Gendannelsesprisen på det valgte køretøj er blevet ændret."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Fejl: Kan ikke fuldføre handling."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Kan ikke gå med i delingen: Din konto er blevet midlertidigt blokeret i denne kamptype."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Handling utilgængelig. Konto er gendannet."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "Spilleren kan ikke gå med på holdet."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "Handling utilgængelig. Plads allerede fyldt."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Spilleren er allerede på holdet."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Kan ikke overføre kommandørens tilladelser."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Handling utilgængelig. Ugyldig kontotype."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Handling utilgængelig. Forkert klan."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Kan ikke gå med på holdet."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Totalt niveau på køretøjer er overskredet."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Handling utilgængelig. Ugyldig liste af gruppemedlemmer."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Forkert pladsnummer."
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Handling utilgængelig. Forkert køretøjstype til en kamp i en deling."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Fejl i tilslutning til holdet. Forkert køretøjsniveau."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Skift af divisionen er utilgængelig på det valgte tidspunkt."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Kan ikke finde et hold."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Kan ikke sende invitation."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Fejl ved deltagelse i delingen: Spil i en deling er utilgængeligt, indtil kvalifikationen er fuldført."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Operationen er midlertidigt utilgængelig."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Sidste operation med gruppen blev fuldført med en fejl."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Køretøj er ikke klar til kamp eller der er ikke et køretøj i garagen."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Kan ikke placere et køretøj i pladsen."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Handling utilgængelig. Nogle medlemmer af gruppen er stadig i kamp."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Ingen tilladelser til denne operation."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Konto låst."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Hold er i køen eller i søgeresultaterne."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Kan ikke gå med på holdet. Adgang nægtet."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Hold er ikke i køen."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Hold er ikke i søgeresultaterne."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Hold er ikke klar."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Kan ikke gå med i delingen: Du har ikke et passende køretøj til den valgte kamptype."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Ikke i stand til at tilføje spilleren til holdet."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "Handling utilgængelig. Spiller ikke fundet."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Hold er ikke fundet."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Holdet eksisterer ikke."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "Handling utilgængelig. Fejl i visning af køretøjslisten."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Handling utilgængelig. Spiller er offline."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Du er på kommandørens blacklist."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Handling utilgængelig. Den forrige kamp er ikke forbi endnu."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Kan ikke ekskludere spilleren fra holdet."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "Handling utilgængelig. En eller flere spillere har ikke accepteret invitationen."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "Handling utilgængelig for legionnærer."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "Handling utilgængelig. Plads ikke låst."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "Handling utilgængelig. Plads allerede fyldt."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "Handling utilgængelig for denne plads."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Træfninger vil ikke være tilladt på det valgte tidspunkt."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Kan ikke skifte en anden kamptype. Antallet af delingsmedlemmer er overskredet."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Handling utilgængelig. Tiden er udløbet."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "Handling utilgængelig. Maksimalt antal pladser låst."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "Handling utilgængelig. Maksimalt antal legionnærer."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Kan ikke oprette eller gå med på et hold."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Kan ikke oprette et hold."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Handling utilgængelig. Gruppen er gendannet."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "Handling utilgængelig. Køretøjet opfylder ikke kravene."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "Handling utilgængelig. Vælg et køretøj først."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Holdet eksisterer ikke."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Handling utilgængelig. Køretøj er ikke klar eller opfylder ikke kravene."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Du er blevet givet kontrol over kampreserver."
+
+msgid "unit/notification/changeDivision"
+msgstr "Kommandøren %(name)s valgte divisionen %(division)s."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Absolut"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Mester"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Medium"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s er blevet udnævnt som holdets kommandør."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s gik med i gruppen."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s gik med i kampen for at kæmpe i et niveau %(tierRange)s køretøj."
+
+msgid "unit/notification/playerOffline"
+msgstr "Forbindelse med %(userName)s tabt."
+
+msgid "unit/notification/playerOnline"
+msgstr "Forbindelse med %(userName)s genoptaget."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s forlod gruppen."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Invitation er allerede sendt."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "Kommandørens tilladelser overføres til en anden spiller."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Kommandørens rettigheder og kontrol over kampreserver er blevet overflyttet til en anden spiller."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Kontrol over kampreserver er blevet overført til en anden spiller."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Du blev ekskluderet fra gruppen: gruppen opløst."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Du er blevet ekskluderet fra gruppen. Klan ændret."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "Din spilletid er overstået. Du kan ikke starte en ny kamp. Din forbindelse til serveren vil blive afbrudt kl. %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "En af spillerne har ikke nok spilletid til at færdiggøre kampen. Delingen er nu ved planlægningsstadiet."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Samling af legionærer indstillet."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Handling utilgængelig. Ventetid udløbet."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Fejl i at gå med på holdet. Du blev ekskluderet."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Du blev automatisk ekskluderet fra listen af frivillige."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Du blev ekskluderet af kommandøren."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Du blev ekskluderet fra gruppen: gruppen opløst."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Du blev en gruppekommandør."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Du blev en gruppekommandør.\nDu er blevet givet kontrol over kampreserver."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Et andet brohoved er valgt til fremrykningen."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "En anden kamptype er valgt."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Søgning midlertidigt slået fra: for mange delinger på serveren."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Kan ikke finde spillere på grund af en serverfejl. Prøv igen senere."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Søgning afbrudt: mindst ét delingsmedlem har ingen passende køretøjer til den valgte kamptype."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Søgetid udløbet. Krævede spillere ikke fundet."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Afventer spillere til at gå med. Vent venligst."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Køretøj gendannet til tjeneste: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Kan ikke bekræfte om du er klar til at gå med på holdet."
+
+msgid "unload/button"
+msgstr "Gå til barakken"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Kan ikke sende mandskabet til barakken: Kampvognen har unikt permanent mandskab."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Fejl i overførsel af mandskab til barakken. Forkert køretøj."
+
+msgid "unload_crew/server_error"
+msgstr "Ikke i stand til at overføre mandskab til barakken. Prøv igen senere."
+
+msgid "unload_crew/success"
+msgstr "Mandskab sendt til barakken."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Fejl i overførsel af mandskab til barakken. Køretøjet er låst."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Fejl ved overførsel af mandskab til barakken. Reparer dit køretøj."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Kan ikke sende mandskab til barakken: Kampvognen har unikt permanent mandskab."
+
+msgid "unload_tankman/button"
+msgstr "Gå til barakken"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Fejl i overførsel af enkelt mandskab til barakken. Forkert køretøj."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Kan ikke sende dette mandskabsmedlem til barakken. Ikke nok pladser i barakken."
+
+msgid "unload_tankman/server_error"
+msgstr "Ikke i stand til at sende mandskabsmedlem til barakken. Prøv igen senere."
+
+msgid "unload_tankman/success"
+msgstr "Mandskabsmedlem overført til barakken."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Fejl i overførsel af mandskab til barakken. Køretøjet er låst."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Fejl i overførsel af mandskab til barakken. Reparer dit køretøj."
+
+msgid "unlocks/drawFailed"
+msgstr "Forkerte indstillinger. Teknologitræ er låst."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "Modul %(typeString)s \"%(userString)s\" udforsket."
+
+msgid "unlocks/item/in_processing"
+msgstr "Udviklings anmodning afsendt. Afventer server svar."
+
+msgid "unlocks/item/server_error"
+msgstr "Serverfejl i at udforske modulet %(typeString)s \"%(userString)s\". Prøv igen senere."
+
+msgid "unlocks/item/unlock_success"
+msgstr "Modulet %(typeString)s \"%(userString)s\" udforsket. Køretøjets xp brugt: %(vehXP)s. Fri xp brugt: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "Køretøj %(userString)s er udviklet."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Udviklings anmodning afsendt. Afventer server svar."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Serverfejl ved udforskning af køretøj %(userString)s. Prøv igen senere."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "Køretøj %(userString)s udforsket. Køretøjets xp brugt: %(vehXP)s. Fri xp brugt: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Fejl i træning af mandskab. Prøv igen senere."
+
+msgid "upgradeTankman/success"
+msgstr "Træning færdiggjort succesfuldt."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "Opgradering af erobret udstyr er midlertidigt utilgængelig af tekniske årsager. Prøv igen senere."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "Opgradering af erobret udstyr er tilgængeligt igen. Vi beklager ulejligheden."
+
+msgid "vehicle/restore/finished"
+msgstr "%(vehicleName)s er ikke tilgængelig til bjærgning: Tiden for handlingen er udløbet."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Du vil være i stand til at genoprette køretøjet i butikken i yderligere %(time)s d."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Du vil være i stand til at genoprette køretøjet i butikken i yderligere %(time)s t."
+
+msgid "vehicleCompare/disabled"
+msgstr "Handlingen er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s gennemsyn vil først være tilgængelig efter download af den fulde klient."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Anmodning om montering af udstyr sendt. Afventer svar fra serveren."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "Kan ikke købe %(typeString)s \"%(userString)s\". Prøv venligst igen senere."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "Modul %(typeString)s \"%(userString)s\" blev købt (%(count)d). Brugt %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "Modul %(typeString)s \"%(userString)s\" er allerede tilgængelig i depotet."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "Modul %(typeString)s \"%(userString)s\" udforsket."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "For at købe %(typeString)s \"%(userString)s\" skal du bruge %(price)s mere."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "Modul %(typeString)s \"%(userString)s\" findes ikke i depotet."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "Modul %(typeString)s \"%(userString)s\" findes ikke i butikken. Prøv venligst igen senere."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" udforsket. Ufordelt xp brugt: %(unspentXP)s. Fri xp brugt: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Udviklings anmodning afsendt. Afventer server svar."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "Køretøj %(userString)s er allerede tilgængelig i depotet."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "Køretøj %(userString)s er udviklet."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "For at købe %(userString)s skal du bruge %(price)s mere."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "Køretøj %(userString)s findes ikke i depotet."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "Køretøj %(userString)s findes ikke i butikken. Prøv venligst igen senere."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "%(userString)s forsket. Ikke distribrueret erfaring brugt: %(unspentXP)s. Gratis Erfaring brugt: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "Elite-belønningssystemet er nu tilgængeligt på %(vehicle)s."
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Elite-belønninger"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "%(modification)s-modifikationen til %(vehicle)s er blevet købt."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Modifikation købt"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "%(category)s-kategorien til anden plads på %(vehicle)s er blevet tildelt."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Tildeling af pladskategori"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Credits brugt: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Alle dobbelte modifikationer til %(vehicle)s annulleret."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "%(modification)s-modifikationen til %(vehicle)s er blevet annulleret."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Modifikation annulleret"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "%(modifications)s-modifikationerne til %(vehicle)s er blevet annulleret."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Kamp xp brugt: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Fri xp brugt: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Fejl i modifikationstræ. Prøv venligst senere."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Fejl"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "Standard modifikationsniveau %(level)s til %(vehicle)s udforsket og købt."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "Standard modifikationsniveauer %(levels)s til %(vehicle)s udforsket og købt."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Modifikation udforsket"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "%(category)s-kategorien til anden plads på %(vehicle)s er blevet tildelt."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Tildeling af pladskategori"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "Ekstra udstyrssæt er nu tilgængelig på %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Ekstra udstyrssæt"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "Tildeling af anden pladskategori er nu tilgængelig på %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Tilgængelighed af pladskategori"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Essentielt udstyrssæt er nu tilgængelig på %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Essentielt udstyrssæt"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "Modifikationstræet er nu tilgængeligt på %(vehicle)s."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Feltmodifikation"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Køretøjs modifikationstræ tilgængeligt. Du kan konfigurere dine køretøjer efter deres roller og ændre deres karakteristika med forskellige modifikationer."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Opgraderingsfejl. Prøv igen senere."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Fejl"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "\"%(perk)s\"-punkt udforsket for %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Punkt udforsket"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "%(perk)s-punkter udforsket for %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Punkter udforsket"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "Operation er ikke tilgængelig. Prøv venligst igen senere."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "Kan ikke købe %(vehName)s. Forkert køretøj."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "Kan ikke købe %(vehName)s. Ikke nok credits."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "Kan ikke købe %(vehName)s. Ikke nok guld."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Operation utilgængelig. Køretøjer fra denne nation er ikke udforsket."
+
+msgid "vehicle_buy/server_error"
+msgstr "Kan ikke købe %(vehName)s på grund af en serverfejl. Prøv igen senere."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "Kan ikke købe %(vehName)s køretøj. Serveren er midlertidigt utilgængelig."
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s købt. Brugt %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "Kan ikke fjerne %(vehName)s. Prøv igen senere."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "Kan ikke fjerne %(vehName)s. Forkert køretøj."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "Kan ikke fjerne %(vehName)s. Ikke nok credits."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "Kan ikke fjerne %(vehName)s. Ikke nok guld."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "Kan ikke fjerne %(vehName)s. Ikke nok pladser i barakken."
+
+msgid "vehicle_remove/server_error"
+msgstr "Kan ikke sælge %(vehName)s. Kontroller venligst at køretøjet ikke er i en taktisk enhed eller prøv igen senere."
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s er blevet fjernet.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s er blevet fjernet."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "%(vehName)s er blevet fjernet.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "Kan ikke fjerne %(vehName)s. Køretøjet vil blive fjernet automatisk."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "Kan ikke fjerne %(vehName)s. Køretøj blokeret."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "Kan ikke fjerne %(vehName)s. Køretøjet skal repareres."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "Kan ikke fjerne %(vehName)s. Du har nået grænsen for køretøjer for i dag."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Bemærk! Hvis du vil købe det senere, vil køretøjet være tilgængeligt for dig med rabat."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "Kan ikke leje %(vehName)s. Forkert køretøj."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "Kan ikke leje %(vehName)s. Ikke nok credits."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "Kan ikke leje %(vehName)s. Ikke nok guld."
+
+msgid "vehicle_rent/server_error"
+msgstr "Kan ikke leje %(vehName)s på grund af en serverfejl. Prøv igen senere."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "Kan ikke leje %(vehName)s. Køretøjsleje er midlertidigt utilgængelig."
+
+msgid "vehicle_rent/success"
+msgstr "Du har lejet %(vehName)s %(rentPackageName)s. Du brugte %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "for %(days)d d"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(needed)s er påkrævet for at reparere %(vehName)s."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(needed)s er påkrævet for at reparere %(vehName)s."
+
+msgid "vehicle_repair/server_error"
+msgstr "Fejl i reparation af %(vehName)s Prøv igen senere."
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s repareret. Du har brugt %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Genopretning af køretøjet er midlertidigt utilgængeligt. Prøv igen senere."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "Kan ikke genoprette %(vehName)s. Køretøjsgenopretning er midlertidigt utilgængelig."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "Kan ikke genoprette %(vehName)s. Forkert køretøj."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "Kan ikke genoprette %(vehName)s. Ikke nok credits."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "Kan ikke genoprette %(vehName)s. Ikke nok guld."
+
+msgid "vehicle_restore/server_error"
+msgstr "Kan ikke genoprette %(vehName)s på grund af en serverfejl. Prøv igen senere."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "Kan ikke genoprette %(vehName)s. Køretøjsgenopretning er midlertidigt utilgængelig."
+
+msgid "vehicle_restore/success"
+msgstr "Køretøjet %(vehName)s blev genoprettet. %(price)s brugt."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængelig efter WG Wallet funktionaliteten er automatisk gendannet."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Afmonteringssæt brugt (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "Kan ikke sælge %(vehName)s. Prøv igen senere."
+
+msgid "vehicle_sell/disabledService"
+msgstr "Kan ikke sælge %(vehName)s. Prøv igen senere."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "Kan ikke sælge %(vehName)s. Ikke nok komponenter til at afmontere udstyr."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "Kan ikke sælge %(vehName)s. Forkert køretøj."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "Kan ikke sælge %(vehName)s. Ikke nok credits."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "Kan ikke sælge %(vehName)s. Ikke nok guld."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "Kan ikke sælge %(vehName)s. Ikke nok pladser i barakken."
+
+msgid "vehicle_sell/server_error"
+msgstr "Kan ikke sælge %(vehName)s. Kontroller venligst at køretøjet ikke er i en taktisk enhed eller prøv igen senere."
+
+msgid "vehicle_sell/success"
+msgstr "%(vehName)s er blevet solgt.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "%(vehName)s er blevet solgt.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "Kan ikke sælge %(vehName)s. Køretøjet vil automatisk blive fjernet."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "Kan ikke sælge %(vehName)s. Køretøjet er låst."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "Kan ikke sælge %(vehName)s. Reparer dit køretøj."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "Kan ikke sælge %(vehName)s. Du har nået grænsen for køretøjer for i dag."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Fejl ved køb af plads. Ikke nok credits."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Fejl ved køb af plads. Ikke nok guld."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Fejl i køb af et rum. Prøv igen senere."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Yderligere plads i garagen er købt. Brugt %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Fejl i ændring af accelereret mandskabstræning på %(vehName)s. Forkert køretøj."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "Kan ikke ændre accelereret mandskabstræning på %(vehName)s. Prøv igen senere."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "Accelereret mandskabstræning på %(vehName)s er slået fra."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "Accelereret mandskabstræning på %(vehName)s er slået til."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Fejl i ændring af accelereret mandskabstræning på %(vehName)s. Køretøjet er låst."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Fejl i ændring af accelereret mandskabstræning på %(vehName)s. Reparer køretøjet."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Fejlede i byttet for %(vehName)s. Forkert køretøj valgt."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "Kan ikke bytte for %(vehName)s. Ikke nok credits."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "Kan ikke bytte for %(vehName)s. Ikke nok guld."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "Kan ikke bytte for %(tradeOffVehName)s. Ikke nok pladser i barakken."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Byttetilbud er nu tilgængeligt!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Byttetilbud er ikke længere tilgængeligt!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Fejlede i byttet for %(vehName)s. Serverfejl. Prøv igen senere."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Fejlede i byttet for %(vehName)s. Køb/bytte servicen er midlertidigt utilgængelig."
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)s er blevet fjernet. %(vehName)s er blevet købt for %(price)s."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "Fejlede i at bytte %(tradeOffVehName)s. Køretøjet vil blive fjernet automatisk."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Fejlede i byttet for %(vehName)s. Køretøjet kan ikke modtages under bytte."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "Kan ikke bytte for %(tradeOffVehName)s. Køretøjet er ikke i bytte."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "Kan ikke bytte for %(tradeOffVehName)s. Køretøjet er utilgængeligt."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "Kan ikke bytte for %(tradeOffVehName)s. Reparer køretøjet."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "Kan ikke bytte for %(tradeOffVehName)s. Køretøjet er ikke i depotet."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "Operation utilgængelig. Alt dit guld vil være tilgængeligt efter WG Wallet funktionalitet er gendannet automatisk."
+
+msgid "video/error"
+msgstr "Video afspilningsfejl. Fejlkode: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "Kampzoner på minimappet er midlertidigt utilgængelige."
+
+msgid "w2gt/switchOff/header"
+msgstr "Tekniske problemer"
+
+msgid "w2gt/switchOn/description"
+msgstr "Kampzoner på minimappet er nu tilgængelige. Rul afsted!"
+
+msgid "w2gt/switchOn/header"
+msgstr "Funktionalitet gendannet"
+
+msgid "wallet/available"
+msgstr "WG Wallet synkroniseret. Alt dit guld, obligationer, credits og frie xp er tilgængeligt nu."
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet synkroniseret. Al din frie xp er tilgængeligt nu."
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet synkroniseret. Alt dit guld er tilgængeligt nu."
+
+msgid "wallet/not_available"
+msgstr "Anskaffelse af data om balance er undervejs. Alt dit guld, obligationer, credits og frie xp vil snart være tilgængeligt."
+
+msgid "wallet/not_available_freexp"
+msgstr "Anskaffelse af data om balance er undervejs. Al din frie xp vil snart være tilgængeligt."
+
+msgid "wallet/not_available_gold"
+msgstr "Anskaffelse af data om balance er undervejs. Alt dit guld vil snart være tilgængeligt."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Kunne ikke re-rolle ugentlig mission: operation blokeret."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Kunne ikke re-rolle ugentlig mission: ugyldig mission."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Kunne ikke re-rolle ugentlig mission: missionen allerede fuldført."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Kunne ikke re-rolle ugentlig mission: operation sat på pause."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Ugentlig mission re-rolled."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Kunne ikke re-rolle ugentlig mission. Prøv igen senere."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "Ugentlige missioner er midlertidigt utilgængelige. Vi beklager ulejligheden."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "Ugentlige missioner er tilgængelige igen. Vi beklager ulejligheden."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Kan ikke forlade Opvarmning. Prøv igen senere."
+
+msgid "window/buttons/close"
+msgstr "Luk"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" matcher ikke pladsen %s."

@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Våbenhvile er aktiv på alle tilgængelige servere."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Våbenhvile er aktiv på denne server."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Skift server"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Ståljæger er slut"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Kamptype utilgængelig på denne server"
+
+msgid "banner/info/disabled"
+msgstr "Våbenhvile"
+
+msgid "banner/info/seasonActive"
+msgstr "En chance mere og belønninger"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Indtil den %(day)s. %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Battle royale med værdifulde belønninger"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s t"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s t %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "STÅLJÆGER"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Kampen fortsætter fra en ny position."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Du respawner snart"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Respawner"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Der vil ikke være en chance mere."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Respawn er ikke længere tilgængeligt"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Respawn bliver snart utilgængeligt!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Vær mere forsigtig denne gang."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Dit køretøj er klar til kamp!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Vender tilbage til kamp"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Aktiv kamp er i gang."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Respawn utilgængelig"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Find en respawn-ladning, så det kan vende tilbage i kamp."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Allieret køretøj ødelagt"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Respawner"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "To køretøjer er bedre end et!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Allieret køretøj respawnet"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Hold dig ude af kamp!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Respawner allieret"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus aktiveret!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Belønning for førstepladsen"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Indsamlet i kamp"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "SEJR"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Kapitel ikke valgt. Ubrugte Battle Pass-point: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Alle kapitler fuldført. Fortsæt med at spille og indsamle Battle Pass-point."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Gå til Battle Pass"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Battle Pass"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Vælg et kapitel"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Gå til fremskridtet i det aktive kapitel"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Gå til Battle Pass"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Missioner fuldført per kamp: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Missioner"
+
+msgid "battleResult/battleReward/title"
+msgstr "MODTAGET I KAMP"
+
+msgid "battleResult/button/hangar"
+msgstr "Til garage"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Point og belønninger vil blive fordelt efter alle spillere har færdiggjort denne kamp. Missioner vil også blive evalueret efter kampresultaterne."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Tryk %(esc) for at skippe animation"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Inviter til deling"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Allieret"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Tilfældig allieret"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Kamptype"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "SOLOKAMP"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Med WoT premium konto kunne du modtage:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Samlede værdier med WoT premium konto"
+
+msgid "battleResult/progressStage"
+msgstr "Stadie {stage} fremskridt"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Spillerens faktiske kaldenavn og klan tag vises ikke til andre spillere i kampen."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Spillers rigtige kaldenavn: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Spillerens faktiske kaldenavn blev ændret til {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Mængden af skade blokeret af dit køretøjs panser."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Mængden af skade uddelt af dig."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Antallet af fjendtlige køretøjer ødelagt af dig."
+
+msgid "battleResult/stats/body/place"
+msgstr "Din placering baseret på kampresultater."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Antallet af fjendtlige køretøjer ødelagt af din deling."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Blokeret skade"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Uddelt skade"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Ødelagt af dig"
+
+msgid "battleResult/stats/header/place"
+msgstr "Placering"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Ødelagt af deling"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Blokeret skade"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Uddelt skade"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Ødelagt af dig"
+
+msgid "battleResult/stats/title/place"
+msgstr "Placering"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Ødelagt af deling"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Rangliste"
+
+msgid "battleResult/tab/result"
+msgstr "Kampresultater"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "DELING ØDELAGT"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "KØRETØJ ØDELAGT"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "SEJR"
+
+msgid "battleResult/title/victoryOther"
+msgstr "ÆRESPLADS"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Vælg et af de særlige køretøjer til Ståljæger."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Inkompatibelt køretøj"
+
+msgid "button/modules"
+msgstr "TEKNOLOGITRÆ"
+
+msgid "button/repair"
+msgstr "Reparer"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Kampe midlertidigt utilgængelige"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Kampe midlertidigt utilgængelige"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Kamptype utilgængelig"
+
+msgid "ceasefire/header/schedule"
+msgstr "Kampplan"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Våbenhvile er aktiv på alle tilgængelige servere. Du kan se tidsplanen nedenfor."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Våbenhvile er aktiv på denne server. Du kan skifte til en anden server for at tilgå kamptypen."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Ståljæger er utilgængelig på denne server. Du kan skifte til en anden server for at tilgå det."
+
+msgid "commanderInfo/commonRank"
+msgstr "Kommandør"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Jeg har allerede vundet. Det opdager du snart\"."
+
+msgid "commanderInfo/description/france"
+msgstr "\"Jeg er loven!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"I dag er en herlig dag, der vil gå over i historien.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Der er ikke tid til at være høflig\"."
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Alt følger planen\"."
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Uanset hvad, vær den bedste.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Krigsøksen er gravet op, poleret og skærpet.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Vinderen tager det hele!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Evner"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nSærligt køretøj til Ståljæger"
+
+msgid "fragPanel/squadsCount"
+msgstr "Delinger: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Rangliste"
+
+msgid "hangarResults/btns/summary"
+msgstr "Kampresultater"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "LUK"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Moduler kan kun opgraderes i kamp. For at åbne opgraderingsmenuen, tryk %(key)s i kamp."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s og %(highlight2)s for at modtage xp. Hvert opnået niveau gør det muligt for spilleren at opgradere et modul fra opgraderingsmenuen og markant forbedre køretøjets karakteristika."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Uddel skade til fjendtlige køretøjer"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "indsaml krigsbytte på kortet"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Køretøjsopgradering i kamp"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Du går i kamp i et niveau I køretøj."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Moduler kan både opgraderes fra opgraderingsmenuen under kampen (%(treeKey)s tasten som standard) og ved at trykke %(leftModuleKey)s og %(rightModuleKey)s tasterne sammen.\n\nModuler kan kun opgraderes i kamp."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "I kamp:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Din ståljæger modtager xp i kamp ved at uddele skade og indsamle krigsbytte. Når den krævede mængde xp er akkumuleret, kan du nå det næste niveau og vælge en opgradering til et af modulerne."
+
+msgid "levelUp/severalTitles"
+msgstr "MODTOG NIVEAUER: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "NIVEAU %(level)s MODTAGET!"
+
+msgid "levelUp/twoTitles"
+msgstr "MODTOG NIVEAUER: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Fuldfør missioner og modtag værdifulde belønninger."
+
+msgid "level_up/max_level_info/title"
+msgstr "Nye daglige missioner tilgængelige"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Sæson\nstarter snart"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Sæson starter den %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Blokeret"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Skade"
+
+msgid "playerStats/killsStat/name"
+msgstr "Ødelagt"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Ødelagt"
+
+msgid "playerStats/placeStat/name"
+msgstr "Position"
+
+msgid "playerStats/title"
+msgstr "Personlig score"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Radioopdagelse utilgængelig: klargøring undervejs"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Køretøjet er fuldt operationelt. Genopretning er ikke nødvendigt."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Kamprobot ødelagt"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s har ødelagt %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s har ødelagt fjende %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Ildkugle ødelagt"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Miner udløbet"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Miner lagt"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Radioopdagelse er klar til brug"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Køretøjet har nået det maksimale niveau"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Niveau %(level)s nået"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Monteret: %(moduleType)s. Opgraderet: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Skrog"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Affjedring"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Motor"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Kanon"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Radioopdagelse"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Tårn"
+
+msgid "playersPanel/title"
+msgstr "HOLD"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Skift mellem delingskøretøjer."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Tilskuertilstand"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Tilbage til garagen.\nGå i kamp i et andet køretøj."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Tilbage til garagen"
+
+msgid "preBattle/buttonTitle"
+msgstr "KAMP!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Vælg et kort"
+
+msgid "preBattle/listTitle"
+msgstr "ER SPILLERE KLAR"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Dreamland"
+
+msgid "preBattle/mapRandom"
+msgstr "Tilfældigt kort"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "DELINGSKØRETØJER"
+
+msgid "preBattle/title"
+msgstr "BIG HUNT"
+
+msgid "preBattle/userFooterTitle"
+msgstr "VALGTE KØRETØJER"
+
+msgid "preBattle/userNotReady"
+msgstr "Ikke klar"
+
+msgid "preBattle/userReady"
+msgstr "Klar"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Sæson %(cycleNo)s på %(server)s serveren er slut"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Sæsonen på %(server)s serveren er slut."
+
+msgid "proxyPanel/button"
+msgstr "Butik"
+
+msgid "proxyPanel/label"
+msgstr "Stålsegl"
+
+msgid "proxyPanel/store"
+msgstr "BUTIK"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Sæson slutter om %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Ingen tast tildelt radioopdagelse"
+
+msgid "radar/hint/press"
+msgstr "Tryk"
+
+msgid "radar/hint/text"
+msgstr "for at aktivere radioopdagelse"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Land"
+
+msgid "selectRespawn/button/land"
+msgstr "Land"
+
+msgid "selectRespawn/description"
+msgstr "Klik på et af de foreslåede punkter. Hvis intet punkt er valgt, vil du lande på et af de foreslåede punkter."
+
+msgid "selectRespawn/header"
+msgstr "Vælg et landingspunkt"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Klik på et af de foreslåede punkter. Hvis intet punkt er valgt, vil du lande på et af de foreslåede punkter."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Din kamp starter her"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Vælg et landingspunkt"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "RASERI!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Syre ætser panseret!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Zone er lukket! Forlad zonen eller dit køretøj vil blive ødelagt!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Zonen bliver snart rød"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Mobilitet nedsat!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Tilbage på sporet..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Gendanner hp"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Gendanner hp"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Konverterer skade"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Tekniske karakteristika forbedret"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Granater og genopretning"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Nedkastning"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Reparationssæt eller evne-ladning"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Krigsbytte"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Samlet krigsbytte: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Indsamler: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Reparationsområde"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Stigende intensitet!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "I røgslør"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Vores panser ruster!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Mobilitet nedsat!"
+
+msgid "techParams/type/damage"
+msgstr "Skade"
+
+msgid "techParams/type/difficulty"
+msgstr "Sværhedsgrad"
+
+msgid "techParams/type/mobility"
+msgstr "Mobilitet"
+
+msgid "techParams/type/spotting"
+msgstr "Observation"
+
+msgid "techParams/type/survivability"
+msgstr "Overlevelsesevne"
+
+msgid "techtree/body_armor"
+msgstr "Panser"
+
+msgid "techtree/body_health"
+msgstr "Hp"
+
+msgid "techtree/body_mobility"
+msgstr "Mobilitet"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dynamik"
+
+msgid "techtree/engine_speed"
+msgstr "Tophastighed"
+
+msgid "techtree/gun_alpha"
+msgstr "Skade per skud"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Autogenlader"
+
+msgid "techtree/gun_clip"
+msgstr "Magasinladning"
+
+msgid "techtree/gun_dpm"
+msgstr "Ladehastighed"
+
+msgid "techtree/gun_dualgun"
+msgstr "Dobbeltløbet kanon"
+
+msgid "techtree/gun_he"
+msgstr "HE-granat skade"
+
+msgid "techtree/gun_machinegun"
+msgstr "Anti-tank maskingevær"
+
+msgid "techtree/gun_piercing"
+msgstr "Gennembrydning"
+
+msgid "techtree/radar_cooldown"
+msgstr "Cooldown på radioopdagelse"
+
+msgid "techtree/radar_distance"
+msgstr "Opdagelsesrækkevidde"
+
+msgid "techtree/turret_armor"
+msgstr "Panser"
+
+msgid "techtree/turret_health"
+msgstr "Hp"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Rotationshastighed"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Op til {{credits}} credits"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Op til {{experience}} xp"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Delings kampbonus"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Kæmp i en deling med en tilfældig allieret. Spil som et hold mod ni fjendtlige delinger. Delingsmissioner kan fuldføres i denne kamptype. Delingen vil automatisk blive opløst efter kampen."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klassisk Ståljæger. Hver spiller kæmper på egen hånd. Indsaml ressourcer, opgrader dit køretøj og brug dets unikke evner til at være sidste mand på benene!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Kæmp i en deling med en ven. Spil som et hold mod ni fjendtlige delinger. Delingsmissioner kan fuldføres i denne kamptype."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Tilfældig deling"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Solo-kamp"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Deling med ven"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Deling"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Regler for at optjene point"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s. plads"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s. pladser"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medalje"
+
+msgid "tooltips/awards/badge"
+msgstr "Mærke"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Gør det muligt at vende tilbage til kampen, hvis dit køretøj bliver ødelagt. Når dette sker, går køretøjets opgraderingsniveau ikke tabt. Kan kun bruges et begrænset antal gange per kamp."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Respawn-ladninger kan modtages fra en nedkastning."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "For at respawne en allieret, skal du holde dig ude af kamp i {brown_Open}%(timeToResurrect)s s{brown_Close}. Denne mekanisme virker i de første {brown_Open}%(duration)s min{brown_Close} af en kamp. Respawn-ladninger er delt mellem delingsmedlemmer."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Når du spiller i en deling"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Hvis dit køretøj bliver ødelagt, respawner det automatisk. Denne mekanisme virker i de første {brown_Open}%(duration)s min{brown_Close} af en kamp."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Når du spiller solo"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Engangsbrug"
+
+msgid "tooltips/respawn/title"
+msgstr "Respawn"
+
+msgid "tooltips/vehicle/description"
+msgstr "Køretøj til Ståljæger-kamptypen"
+
+msgid "tournament/description"
+msgstr "BIG HUNT"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Ikke klar"
+
+msgid "tournament/fightButton/ready"
+msgstr "Klar!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Kan ikke indgå i turnering. Fejlkode: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Big Hunt turneringsfejl. Fejlkode: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "BIG HUNT"
+
+msgid "tournament/type/solo"
+msgstr "Type: Solo"
+
+msgid "tournament/type/squad"
+msgstr "Type: Deling"
+
+msgid "upgradePanel/alert/0"
+msgstr "Du kan ikke opgradere dit køretøj!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Du kan ikke opgradere køretøjet under aktiv kamp!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Du kan ikke opgradere dit køretøj. Køretøjet er ved at drukne!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Du kan ikke opgradere dit køretøj. Køretøjet er vendt på hovedet!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Tryk %(key)s for at åbne opgraderingsmenuen"
+
+msgid "upgradePanel/title/default"
+msgstr "Nyt modul tilgængeligt"
+
+msgid "upgradePanel/title/hull"
+msgstr "Nyt skrog tilgængeligt"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Ny affjedring tilgængelig"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Ny motor tilgængelig"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Ny kanon tilgængelig"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Ny radio tilgængelig"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Nyt tårn tilgængeligt"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "ELLER"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Panser"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Skade per skud"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Ladehastighed"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Hp"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Gennembrydning"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Radioopdagelse operation"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Magasinladesystem"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Hastighed"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Køretøjsegenskaber"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Fordele"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Ulemper"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Våbenhvile er aktiv på alle servere. Kampe vil være tilgængelige om %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Vælg en anden server"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Episode %(cycle)s slut"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Episode slut"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Våbenhvile er aktiv på serveren. Kampe vil være tilgængelige om %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Våbenhvile er aktiv på %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Episode %(cycle)s starter om %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Den første episode starter om %(time)s"

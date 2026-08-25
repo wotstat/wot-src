@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT-team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Artillerie-aanval"
+
+msgid "attackReason/artillery_sector"
+msgstr "Artillerie-aanval"
+
+msgid "attackReason/bombers"
+msgstr "Luchtaanval"
+
+msgid "battleCommunication/hint/description"
+msgstr "om een locatie aan te geven of een marker te plaatsen"
+
+msgid "battleCommunication/hint/press"
+msgstr "Druk op"
+
+msgid "battleEndWarning/text"
+msgstr "Einde over:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Tekst en spraak berichten van deze speler worden verborgen tijdens dit gevecht."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Berichten van deze speler blokkeren"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Berichten van een speler op de zwarte lijst zijn geblokkeerd."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Actie onbeschikbaar"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Tekst en spraak berichten van deze speler\nzijn weer beschikbaar."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Berichten van deze speler niet meer blokkeren"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Technisch probleem bij het achterhalen van gevechtszonedata."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Gevechtszonedata is voor dit voertuig niet beschikbaar op deze kaart."
+
+msgid "battleProgress/hint/description"
+msgstr "voor het bekijken van persoonlijke missies"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "De kerntoetsen zijn niet toegewezen"
+
+msgid "battleProgress/hint/press"
+msgstr "Toets"
+
+msgid "battle_notifier/lose"
+msgstr "Nederlaag!"
+
+msgid "battle_notifier/tie"
+msgstr "Gelijkspel!"
+
+msgid "battle_notifier/win"
+msgstr "Overwinning!"
+
+msgid "bot/boss"
+msgstr "Baas"
+
+msgid "bot/elite"
+msgstr "Elite"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "SCHADEWAARSCHUWING"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "MOTOR BESCHADIGD"
+
+msgid "chat_example/affirmative"
+msgstr "Positief!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Vuursteun nodig op <naam van vijand>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Ik val <naam van vijand> aan!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Verover de basis!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Verdedig de basis!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Let op <sector op minimap>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Aandacht op locatie!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Vernietig doelen"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Spaar je tanks!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Verover de zone"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Verdedig de doelen"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Spaar je tanks!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Verdedig zones"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Versterkingszone"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Versterkingszone"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Versterkingszone"
+
+msgid "chat_example/going_there"
+msgstr "Ik ga hierheen!"
+
+msgid "chat_example/help_me"
+msgstr "Help!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Naam van bondgenoot>, help!"
+
+msgid "chat_example/negative"
+msgstr "Negatief!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Kanon oververhit! Vuren <Reload Time> s lang niet mogelijk"
+
+msgid "chat_example/positive"
+msgstr "Positief!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Klaar om te vuren over <herlaadtijd> s, granaten in het magazijn: <hoeveelheid granaten> stuk(s)."
+
+msgid "chat_example/reloading_gun"
+msgstr "Herladen duurt nog <herlaadtijd> s!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Klaar om te vuren!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Klaar om te vuren! Granaten in het magazijn: <hoeveelheid granaten> stuk(s)."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Munitie is op."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Aan het richten op <sector op minimap>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<naam van bondgenoot>, ik zal je helpen!"
+
+msgid "chat_example/thanks"
+msgstr "<naam van bondgenoot>, bedankt!"
+
+msgid "chat_example/turn_back"
+msgstr "<Naam van bondgenoot>, trek terug!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Positief!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Vuursteun nodig op %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Klaar om te vuren! Ik val %(target)s aan!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Munitie is op! Vuursteun nodig op %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Ik val %(target)s aan! Herladen duurt nog %(reloadTime)d s!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Ik zal de basis veroveren!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Ik verover basis %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Ik val %(target)s aan!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Verover de basis!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Verover basis %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Verdedig de basis!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Verdedig basis %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Let op %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Vernietig doel %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Ik val doel %(int32Arg1)s aan!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Verdedig doel %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Ik verdedig doel %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Aandacht op positie!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Let op %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Ik zal de basis verdedigen!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Ik verdedig basis %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Vernietig doelen!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "We hebben genoeg tijd, spaar je tanks!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "De tijd raakt op, verover koste wat kost een zone!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Verdedig de doelen!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "We moeten volhouden, spaar je tanks!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "De tijd raakt op, verdedig koste wat kost de zones!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Zone %(strArg1)s heeft hulp nodig, ga daarheen!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Zone %(strArg1)s heeft hulp nodig, ga daarheen!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Zone %(strArg1)s heeft hulp nodig, ga daarheen!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Op weg naar de positie!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Ik ga naar %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Help!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, help!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Ga naar doelwit: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Ik ben op weg naar doelwit: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Negatief!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Kanon oververhit! Vuren %(floatArg1)d s lang niet mogelijk"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, begrepen!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Klaar om te vuren over %(floatArg1)d s; granaten in het magazijn: %(int32Arg1)s stuk(s)."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Herladen duurt nog %(floatArg1)d s!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Klaar om te vuren!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Klaar om te vuren! Granaten in het magazijn: %(int32Arg1)s stuk(s)."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Munitie is op."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Ik mik op deze positie. Klaar om te vuren!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Ik observeer %(gridId)s! Munitie is op!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Ik richt op %(gridId)s. Klaar om te vuren!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Ik richt op de positie. Herladen duurt nog %(reloadTime)d s!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Ik richt op %(gridId)s. Herladen duurt nog %(reloadTime)d s!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, ik zal je helpen!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, bedankt!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, trek terug!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Ga naar instellingen"
+
+msgid "commanderCam/hint/description"
+msgstr "Zoom uit om het tactisch zicht te betreden"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Cooldown: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Ruimte voor verbruiksartikel"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/u"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "De commandant is gewond. Technische eigenschappen zijn afgenomen."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Commandant"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "De bestuurder is gewond. Bewegings- en rompdraaisnelheid zijn afgenomen."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Bestuurder"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "De schutter is gewond. De nauwkeurigheid is afgenomen."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Schutter"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Schutter 2 is gewond. De nauwkeurigheid is afgenomen."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Schutter 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "De lader is gewond. De laadsnelheid is afgenomen."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Lader"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Lader 2 is gewond. De laadsnelheid is afgenomen."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Lader 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "De radio-officier is gewond. Het signaalbereik is afgenomen."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Radio-officier"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Radio-officier 2 is gewond. Het signaalbereik is afgenomen."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Radio-officier 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Munitieopslag beschadigd. De laadsnelheid is afgenomen."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Munitieopslag vernietigd."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Munitieopslag intact."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Ophanging beschadigd."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Geïmmobiliseerd: ophanging vernietigd."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Ophanging intact."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Motor beschadigd. Verminderd vermogen."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Geïmmobiliseerd: motor vernietigd."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Motor intact."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Brandstoftank beschadigd."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Brandstoftank vernietigd."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Brandstoftank intact."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Kanon beschadigd. Verminderde precisie."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Kanon vernietigd. Schieten niet mogelijk."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Kanon intact."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radio beschadigd."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radio vernietigd. Het signaalbereik is afgenomen."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radio intact."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Periscoop beschadigd."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Periscoop vernietigd. Het zichtbereik is afgenomen."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Periscoop intact."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Ophanging beschadigd."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Geïmmobiliseerd: ophanging vernietigd."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Ophanging intact."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Koepel beschadigd. Draaisnelheid verminderd."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Kan niet draaien: koepel vernietigd."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Koepel intact."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Ophanging beschadigd."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Geïmmobiliseerd: ophanging vernietigd."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Ophanging intact."
+
+msgid "danger_zone/indicator"
+msgstr "Je voertuig kan worden vernietigd – verlaat de gevarenzone!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Terug op het juiste pad..."
+
+msgid "devMaps/hint/description"
+msgstr "om de kaarteigenschappen te bekijken"
+
+msgid "devMaps/hint/press"
+msgstr "Druk op"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Op deze kaart kunnen willekeurige gebeurtenissen plaatsvinden. Zulke kaarten kunnen in de instellingen worden uitgezet."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Kaart met willekeurige gebeurtenissen"
+
+msgid "devices/ammo_bay"
+msgstr "Munitieopslag"
+
+msgid "devices/chassis"
+msgstr "Ophanging"
+
+msgid "devices/engine"
+msgstr "Motor"
+
+msgid "devices/fuel_tank"
+msgstr "Brandstoftank"
+
+msgid "devices/gun"
+msgstr "Kanon"
+
+msgid "devices/left_track"
+msgstr "Linkerrupsband"
+
+msgid "devices/radio"
+msgstr "Radio"
+
+msgid "devices/right_track"
+msgstr "Rechterrupsband"
+
+msgid "devices/surveing_device"
+msgstr "Periscoop"
+
+msgid "devices/track"
+msgstr "%(type)srupsband"
+
+msgid "devices/track/left"
+msgstr "Linker"
+
+msgid "devices/track/main"
+msgstr "Reserve"
+
+msgid "devices/track/outer"
+msgstr "Hoofd"
+
+msgid "devices/track/right"
+msgstr "Rechter"
+
+msgid "devices/turret_rotator"
+msgstr "Koepeldraaiing"
+
+msgid "devices/wheel"
+msgstr "Wiel"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Klik om de speler uit te nodigen om toe te treden tot het peloton.\nDe speler kan je uitnodiging accepteren gedurende het gevecht of nadat het gevecht afgelopen is.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nOpgelet! Je werkelijke in-game naam en clantag zullen aan pelotonleden worden getoond."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nOpgelet! Je werkelijke in-game naam zal aan pelotonleden worden getoond."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Het is niet mogelijk om die bondgenoot uit te nodigen voor het peloton."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Klik om de uitnodiging om toe te treden tot het peloton te accepteren.\nHet peloton wordt gecreëerd gedurende het gevecht."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "Een uitnodiging is verstuurd naar de speler.\nAls hij deze accepteert zal hij toetreden tot het peloton tijdens het gevecht of nadat het gevecht afgelopen is."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Klik om de speler uit te nodigen om toe te treden tot het peloton.\nDe speler kan je uitnodiging accepteren gedurende het gevecht of nadat het gevecht afgelopen is.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Het is niet mogelijk om die vijand uit te nodigen voor het peloton."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Klik om de uitnodiging om toe te treden tot het peloton te accepteren.\nHet peloton wordt pas gecreëerd nadat het gevecht afgelopen is."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "Een uitnodiging is verstuurd naar de speler.\nAls hij deze accepteert zal hij toetreden tot het peloton nadat het gevecht afgelopen is."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Druk op"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "om voice-chat in te schakelen"
+
+msgid "dynamicSquad/invite"
+msgstr "Uitnodiging om deel te nemen aan het peloton"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Schade door luchtaanval"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Schade door artillerieaanval"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Schade door hoofddoel"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Schade geblokkeerd"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Assisteer met gevechtsreserve"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Schade door verkenning"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Schade na jouw verdoving"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Rupsband vernietigd"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Schade door berserker"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Rolervaring"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Zet in brand"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Vijandelijke basisverovering"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Kritische schade"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Schade veroorzaakt"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Slagschipsalvoschade"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "USS Frankford-schade"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Schade door mijnen"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Schade door slagveldrobot"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Schade door bijtende granaat"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Schade door ring van vuur"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Schade door elektrische ontlading"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Schade door zone"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Veroveringspunten verminderd"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Zone verdedigd"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Schade toegebracht"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Doel vernietigd"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Doel verdedigd"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Zone veroverd"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Schade van brandzone"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Voertuig gerepareerd"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Vernietigd"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Mijnenveldschade"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Rammen"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Schade door brand"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Schade door slagveldrobot"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Schade door bijtende granaat"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Schade door ring van vuur"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Schade door mijnen"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Schade door corroderende mist"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Schade door elektrische ontlading"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Kritische schade"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Schade door schot"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Schade door vuurbal"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Schade door rammen"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Schade door botsing"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Schade door vuurbal"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Verkend"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Schade van verwoestingszone"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Verdoving"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Voertuig verlaten"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Schade door botsing"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Sneeuwstorm"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Brand"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Mist"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Zware regenval"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Zandstorm"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Rook"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornado"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Teampanelen verbergen"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Geen paneel"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Druk Ctrl + Tab om te wisselen tussen de modi)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Toon spelersnamen, vernietigde doelen en voertuigsymbolen"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Medium paneel 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Druk Ctrl + Tab om te wisselen tussen de modi)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Toon de door een speler vernietigde voertuigen, de naam en het symbool van het voertuig van een speler."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Medium paneel 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Druk Ctrl + Tab om te wisselen tussen de modi)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Toon vernietigde doelen en voertuigsymbolen"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Kort paneel"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Druk Ctrl + Tab om te wisselen tussen de modi)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Wissel tussen het bekijken van je eigen of alle drie de spawngroepen."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Kolommen wisselen"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Druk Ctrl + Tab om te wisselen tussen de modi)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Je hebt de vlag vernietigd!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Vlag veroverd!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Vlag afgeleverd"
+
+msgid "flagNotification/flagInbase"
+msgstr "Lever de vlag af bij het hoofdkwartier."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "HERLADEN..."
+
+msgid "grille/status/speedlimit"
+msgstr "SNELHEIDSLIMIET"
+
+msgid "helpScreen/hint/description"
+msgstr "om de voertuigeigenschappen te bekijken"
+
+msgid "helpScreen/hint/press"
+msgstr "Toets"
+
+msgid "helpScreen/mapbox/description"
+msgstr "om de kaarteigenschappen te bekijken"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Druk op"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "Om de fort-/<font color='#F4B12C'><b>bunker</b></font>-modus te activeren"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "Om de fort-/<font color='#F4B12C'><b>reis</b></font>-modus te activeren"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "Om de reis-/<font color='#F4B12C'><b>bunker</b></font>-modus te activeren"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Toets voor het wisselen van modus niet toegewezen"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Druk/<font color='#F4B12C'><b>Houd ingedrukt</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "De kerntoetsen zijn niet toegewezen"
+
+msgid "hitMarker/blocked"
+msgstr "Bepantsering niet gepenetreerd"
+
+msgid "hitMarker/critical"
+msgstr "Kritische schade"
+
+msgid "hitMarker/missArmor"
+msgstr "Bepantsering niet geraakt"
+
+msgid "hitMarker/ricochet"
+msgstr "Ricochet"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Scherm niet gepenetreerd"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Rupsband niet gepenetreerd"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Wiel niet gepenetreerd"
+
+msgid "levelProgress/maxLevel"
+msgstr "MAXIMAAL VOERTUIGNIVEAU"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Munitieopslagontploffing voorkomen door de %(device)s uitrusting"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Motoruitschakeling voorkomen door de %(device)s uitrusting"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Brand voorkomen door de %(device)s uitrusting"
+
+msgid "penetration/high"
+msgstr "Hoog"
+
+msgid "penetration/low"
+msgstr "Laag"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Secundaire voorwaarde:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Primaire voorwaarde:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Geen actieve missies voor deze gevechtsmodus."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Geen actieve missies voor dit voertuigtype."
+
+msgid "personal_reserves/hint/description"
+msgstr "om persoonlijke reserves te activeren"
+
+msgid "personal_reserves/hint/press"
+msgstr "Druk op"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Immobiel: beschadigde ophanging."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Immobiel: uitgeschakelde bemanning."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Immobiel: beschadigde motor."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Geïmmobiliseerd: voertuig vernietigd."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Vuren niet mogelijk: uitgeschakelde bemanning."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Schieten niet mogelijk: kanon beschadigd."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Kan niet schieten."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Vuren niet mogelijk: kanon oververhit."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Kanon wordt geladen."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Laden voltooien."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Schieten niet mogelijk: granaten op."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Vuren niet mogelijk: voertuig vernietigd."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Switchen onbeschikbaar: de motor is vernietigd."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Wisselen onbeschikbaar: kanon vernietigd"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Wisselen onbeschikbaar: nog maar één granaat over"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] is al actief."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "Verbruiksartikel [%(name)s] is niet actief: geen brand."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] is onbeschikbaar tijdens de cooldown."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Medische assistentie is niet nodig: er is geen gewond bemanningslid."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] heeft geen medische hulp nodig."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Reserve is nog niet gereed."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Verover het %(name)s om de tactische vaardigheid te activeren."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "De modules en de commandant hebben alle levenspunten. Reparatie of genezing is niet nodig."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Reparaties zijn niet nodig: alle componenten zijn intact."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] is intact en hoeft niet te worden gerepareerd."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Coaxiaal wapen kan niet worden geactiveerd."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Bondgenoot geraakt: %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] is klaar voor gebruik."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Artilleriebatterij opgesteld en klaar om te vuren."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Vliegtuigen inkomend en klaar om te bombarderen."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Onze bemanning staat klaar om anderen rond hen te inspireren."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Mijnenveld kan worden gelegd."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Vliegtuig inkomend en klaar voor verkennen."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Veldreparaties is klaar voor gebruik."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Rookbatterij ingezet en klaar om af te vuren."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Sentinel is klaar voor gebruik."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Artilleriebatterij van %(player)s aan het vuren."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Bommenwerpers van %(player)s zijn onderweg."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s creëert een herstelzone."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s activeert Inspireren."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s heeft een mijnenveld gelegd."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s's Verkenningsvlucht komt eraan."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s heeft veldreparaties gebruikt."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s zet een Rookgordijn in."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s activeert Sentinel."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s is vernietigd door Artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s is vernietigd door Artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s is vernietigd door Artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s is vernietigd door Artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s is vernietigd door Artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s is vernietigd door Artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Voertuig vernietigd door een artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s is vernietigd door Artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s is vernietigd door Artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s is vernietigd door Luchtaanval."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s is vernietigd door Luchtaanval."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Bondgenoot %(target)s is vernietigd door bondgenoot %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Voertuig is vernietigd door bondgenoot %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Geallieerde %(target)s vernietigd door de zone."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Vijand %(attacker)s vernietigde vijand %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Voertuig is vernietigd door vijand %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s is vernietigd door de zone."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Bondgenoot %(target)s is vernietigd."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s is vernietigd."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Voertuig vernietigd."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Apparaat [%(device)s] is door het vuur geëxplodeerd."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Apparaat [%(device)s] is vernietigd door een schot van %(entity)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Bondgenoot %(attacker)s bondgenoot %(target)s doen verdrinken."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s heeft %(target)s doen verdrinken."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Voertuig is verdronken door bondgenoot %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Bondgenoot %(target)s is verdronken."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s heeft %(target)s doen verdrinken."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Vijand %(target)s is verdronken door vijand %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Voertuig is verdronken door vijand %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Vijand %(target)s is verdronken."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Bondgenoot %(target)s is verdronken."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s is verdronken."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Het voertuig is verdronken."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Bondgenoot %(target)s is vernietigd door bondgenoot %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Voertuig is vernietigd door bondgenoot %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Vijand %(attacker)s vernietigde vijand %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Voertuig is vernietigd door vijand %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Bondgenoot %(target)s is vernietigd."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s is vernietigd."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Bemanning uitgeschakeld."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Bemanning gewond door een schot van %(entity)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Bemanning bondgenoot %(target)s is vernietigd door bondgenoot %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Bemanning %(target)s is vernietigd door %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Bemanning is vernietigd door bondgenoot %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Bondgenoot %(target)s vernietigde zijn bemanning."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Bemanning %(target)s is vernietigd door %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Bemanning vijand %(target)s is vernietigd door vijand %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Bemanning is vernietigd door %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Vijand %(target)s vernietigde zijn bemanning."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Bemanning bondgenoot %(target)s is vernietigd."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Bemanning %(target)s is vernietigd."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Bemanning vernietigd."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Bondgenoot %(target)s vernietigd door mijnenveld."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s vernietigd."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s vernietigde %(target)s met mijnen."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s vernietigde %(target)s met mijnen."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s vernietigd door mijnen."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Bondgenoot %(attacker)s heeft bondgenoot %(target)s doen omslaan"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s heeft %(target)s doen omslaan"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Voertuig omgeslagen door bondgenoot %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Bondgenoot %(target)s heeft zijn voertuig doen omslaan"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s heeft %(target)s doen omslaan"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Vijand %(attacker)s heeft vijand %(target)s doen omslaan"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Voertuig omgeslagen en vernietigd door %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Vijand %(target)s heeft zijn voertuig doen omslaan"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Bondgenoot %(target)s omgeslagen"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s omgeslagen"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Voertuig omgeslagen en vernietigd"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Bondgenoot %(attacker)s vernietigde bondgenoot %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Voertuig is vernietigd door bondgenoot %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Bondgenoot %(target)s is verongelukt."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Vijand %(attacker)s vernietigde vijand %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Voertuig is vernietigd door vijand %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Vijand %(target)s is verongelukt."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Bondgenoot %(target)s is vernietigd."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s is vernietigd."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Voertuig vernietigd."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s verliet het voertuig."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s verliet het voertuig."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Voertuig vernietigd tijdens een zonebombardement."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s is vernietigd tijdens zonebombardement."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s is vernietigd tijdens zonebombardement."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Voertuig vernietigd door een artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s is vernietigd door Artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s is vernietigd door Artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Bondgenoot %(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Bondgenoot %(attacker)s vernietigde %(target)s met een artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Bondgenoot %(attacker)s vernietigde %(target)s met een bombardement."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s vernietigde %(target)s met een artillerieaanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s vernietigde %(target)s met een luchtaanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s vernietigde %(target)s (Vuurdekking)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s vernietigde %(target)s (Artillerieaanval)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Bondgenoot %(target)s is verloren gegaan in het gevecht."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Bondgenoot %(target)s is tijdens het gevecht uitgeschakeld na een artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Bondgenoot %(target)s is tijdens het gevecht uitgeschakeld na een bombardement."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s vernietigde %(target)s met een artillerieaanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s vernietigde %(target)s met een luchtaanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s vernietigde %(target)s (Vuurdekking)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s vernietigde %(target)s (Artillerieaanval)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Vijand %(attacker)s vernietigde vijand %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Vijand %(attacker)s vernietigde vijand %(target)s met een artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Vijand %(attacker)s vernietigde vijand %(target)s met een bombardement."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Vijand %(target)s is verloren gegaan in het gevecht."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Vijand %(target)s is tijdens het gevecht uitgeschakeld na een artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Vijand %(target)s is tijdens het gevecht uitgeschakeld na een bombardement."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Bondgenoot %(target)s is vernietigd."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Bondgenoot %(target)s vernietigd door een artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Bondgenoot %(target)s vernietigd door een bombardement."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s is vernietigd."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s vernietigd door een artillerie-aanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s vernietigd door luchtaanval."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s is vernietigd"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s is vernietigd"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Vijand (onbekend) vernietigde %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Bondgenoot %(target)s vernietigd door de verwoestingszone."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Bongenoot %(attacker)s verongelukte bondgenoot %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s verongelukte %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Voertuig is verongelukt door bondgenoot %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Bondgenoot %(target)s is verongelukt."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s verongelukte %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Vijand %(attacker)s verongelukte vijand %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Voertuig is verongelukt door %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Vijand %(target)s is verongelukt."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Bondgenoot %(target)s is verongelukt."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s is verongelukt."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Voertuig verongelukt."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s vernietigde doel %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s vernietigde doel %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Je vernietigde doel %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Onderdeel [%(device)s] is door vuur beschadigd."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "Schot %(entity)s beschadigde [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Onderdeel [%(device)s] is door vuur vernietigd."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "Onderdeel [%(device)s] vernietigd door %(entity)s."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Onderdeel [%(device)s] gerepareerd."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Onderdeel [%(device)s] operationeel."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "Onderdeel [%(device)s] in brand door een schot van %(entity)s."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Het [%(device)s] apparaat is beschadigd door een boost."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "Onderdeel [%(device)s] beschadigd door het verwijderen van de snelheidsbegrenzer."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Het [%(device)s] apparaat is vernietigd door een boost."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "Onderdeel [%(device)s] vernietigd door het verwijderen van de snelheidsbegrenzer."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Brand is geblust."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "Een schot van %(entity)s verwondde [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] is weer beschikbaar."
+
+msgid "player_messages/allied_team_name"
+msgstr "Ons team"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Thuisbasis%s verovering (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Thuisbasis%s verloren!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Basisverovering geblokkeerd"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Basis%s verovering (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Basis%s veroverd!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Vijandelijke basis%s verovering (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Vijandelijke basis%s veroverd!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Vijandelijk team"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Je teamgenoot %(name)s gebruikte de %(equipment)s tactische vaardigheid"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "De vijand gebruikte de %(equipment)s tactische vaardigheid"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Speler %(name)s (%(type)s); HP: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Speler: %(name)s; Levenspunten: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Jouw (%(type)s) voertuig vernietigd"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Schieten niet mogelijk: granaten op."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Herhaling besturingstoetsen:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "Linkermuisknop: schakel tussen cameramodi\nSpatie: pauze"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Pijl naar links: spoel 20 seconden terug (met Ctrl: 40 seconden)\nPijl naar rechts: spoel 20 seconden door (met Ctrl: 40 seconden)\nHome/End: spring naar begin/einde\nPijl naar boven/beneden: +/- afspeelsnelheid"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Vrije camera geactiveerd."
+
+msgid "player_messages/replayPaused"
+msgstr "Pauzeren"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Vaste camera geactiveerd."
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Herhaling snelheid: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Tank in brand!"
+
+msgid "players_panel/state/large/body"
+msgstr "Toon spelersnamen, vernietigde doelen en voertuigtypen en symbolen"
+
+msgid "players_panel/state/large/header"
+msgstr "Volledig paneel"
+
+msgid "players_panel/state/large/note"
+msgstr "(Druk Ctrl + Tab om te wisselen tussen de modi)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Toon spelersnamen, vernietigde doelen en voertuigsymbolen"
+
+msgid "players_panel/state/medium/header"
+msgstr "Medium paneel"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Druk Ctrl + Tab om te wisselen tussen de modi)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Toon de door een speler vernietigde voertuigen, de naam en het symbool van het voertuig van een speler."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Medium paneel 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Druk Ctrl + Tab om te wisselen tussen de modi)"
+
+msgid "players_panel/state/none/body"
+msgstr "Teampanelen verbergen"
+
+msgid "players_panel/state/none/header"
+msgstr "Geen paneel"
+
+msgid "players_panel/state/none/note"
+msgstr "(Druk Ctrl + Tab om te wisselen tussen de modi)"
+
+msgid "players_panel/state/short/body"
+msgstr "Toon vernietigde doelen en voertuigsymbolen"
+
+msgid "players_panel/state/short/header"
+msgstr "Kort paneel"
+
+msgid "players_panel/state/short/note"
+msgstr "(Druk Ctrl + Tab om te wisselen tussen de modi)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Vijand"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Terug naar de garage."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Betreed het gevecht met een ander voertuig."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPATIEBALK"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Vrije camera"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Activeer vrije camera."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Vrije camera onbeschikbaar"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Vrije camera kan in deze modus niet worden geactiveerd."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Toeschouwer-modus"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Wissel tussen geallieerde voertuigen."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Volg voertuig"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Richt de muis op een geallieerd voertuig en linkermuisklik om het te volgen."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Voertuig vernietigd door het hoofddoel"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Voertuig vernietigd door artillerie-aanval."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Voertuig vernietigd door het hoofddoel"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Voertuig vernietigd door luchtaanval"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Voertuig vernietigd door Plunderaar."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Voertuig vernietigd door slagveldrobot."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Voertuig vernietigd door door bijtende granaat."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Voertuig in verboden zone door bondgenoot vernietigd"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Voertuig in verboden zone vernietigd"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Je hebt niet de gevarenzone verlaten"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Module [%(device)s] vernietigd door brand"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Module [%(device)s] ontploft door schot van speler"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Voertuig verdronken door bondgenoot"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Voertuig verdronken"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Voertuig verdronken"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Het voertuig is in brand gezet door speler"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Voertuig vernietigd door ring van vuur."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Bemanning uitgeschakeld door schot van speler"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Bemanning uitgeschakeld na een zware botsing met een geallieerd voertuig"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Bemanning uitgeschakeld door een zware inslag"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Bemanning uitgeschakeld door een zware inslag"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Voertuig vernietigd door vuurbal."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Voertuig vernietigd in mijnenveld"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Voertuig vernietigd door mijnen"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Voertuig omgeslagen door bondgenoot"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Voertuig omgeslagen door vijand"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Voertuig vernietigd door omslaan"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Voertuig vernietigd door bondgenoot door rammen"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Voertuig vernietigd door rammen"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Voertuig vernietigd door rammen"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Je voertuig is vernietigd"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Voertuig vernietigd tijdens zonebombardement."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Voertuig vernietigd door artillerie-aanval."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Voertuig vernietigd door schot van speler"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Voertuig vernietigd door luchtaanval."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Voertuig vernietigd door luchtaanval."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Voertuig vernietigd door artillerie-aanval"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Voertuig vernietigd door luchtaanval"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Voertuig vernietigd door de verwoestingszone"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Voertuig vernietigd door elektrische ontlading."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Voertuig verongelukt door bondgenoot"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Voertuig verongelukt door vijand"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Voertuig verongelukt"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Je voertuig is vernietigd"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "De geselecteerde configuratie wordt in het gevecht gebruikt:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Selecteer een configuratie die in het gevecht zal worden gebruikt voordat de countdown eindigt."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Selecteer een configuratie"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Configuratieselectie: {seconds} s"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Configuratieselectie:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Ravijn"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Observatie"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Bos"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Pad"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Straat"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Ruïnes"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Brug"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Spoorweg"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Stad"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Dorp"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Plein"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Fabriek"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Heuvel"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Vuurtoren"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Centrum"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Kasteel"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Molen"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Bergen"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Route A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Route B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Route C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Route D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Route E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Vallei"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Gletsjer"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Randweg"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Heuvels"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Weg"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Berg"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunker"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Laan"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Muur"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Rotsblokken"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Werkplaatsen"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Veld"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garage"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Kool"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Schepen"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Vliegdekschip"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Loopgraven"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Kronkelweg"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Noord"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Zuid"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "West"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Oost"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Bergkam"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Zeppelin"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Magazijnen"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Kust"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Rivier"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Meer"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Moeras"
+
+msgid "quickReply/hint/press"
+msgstr "Druk op"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "om te bevestigen"
+
+msgid "quickReply/hint/toCommend"
+msgstr "om wederzijds aan te bevelen"
+
+msgid "quickReply/hint/toHelp"
+msgstr "om te assisteren"
+
+msgid "quickReply/hint/toThank"
+msgstr "om te bedanken"
+
+msgid "recovery/cooldown"
+msgstr "Voertuig kan verlaten worden over %(cooldown)s seconden"
+
+msgid "recovery/hint1"
+msgstr "Houd"
+
+msgid "recovery/hint2"
+msgstr "ingedrukt om je voertuig te verlaten"
+
+msgid "repairPoint/title"
+msgstr "Reparaties"
+
+msgid "repairPoint/unavailable"
+msgstr "Onbeschikbaar"
+
+msgid "respawnView/additionalTip"
+msgstr "Selecteer een voertuig om verder te gaan. Als alle voertuigen gerepareerd worden zal je het gevecht in gaan met het eerstvolgende beschikbare voertuig."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Selecteer een voertuig om door te gaan. Het vernietigde voertuig kan niet worden gerepareerd voor het einde van het gevecht."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Frontlimiet\nbereikt"
+
+msgid "respawnView/cooldownLbl"
+msgstr "In reparatie %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Vernietigd"
+
+msgid "respawnView/disabledLbl"
+msgstr "Voertuig onbeschikbaar"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Geschikt voertuig niet geselecteerd"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Niveau X voertuig is niet in de groep."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Het gevecht gaat door "
+
+msgid "respawnView/title"
+msgstr "Selecteer voertuigen"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "YES, SIR!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Bedankt voor je deelname aan de evolutie van World of Tanks. We waarderen je persoonlijke bijdrage zeer!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Waarderingsbrief"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Je bent beloond!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Gefeliciteerd!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Begrepen!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Gefeliciteerd"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Bevoorradingspakket India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Bevoorradingspakket Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Naar de dozen"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Je hebt grote dozen met waardevolle beloningen ontvangen."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Je hebt dozen ontvangen!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Je hebt kleine dozen met waardevolle beloningen ontvangen voor het voltooien van missies."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Tijd om te kijken wat er in de doos zit!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Begrepen!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Het accumuleren van credits is stopgezet. Verleng WoT Premium account om door te gaan met het vullen van je creditreserve."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Credits ontvangen"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Creditreserve open"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Gefeliciteerd!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "JA, COMMANDANT!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen op het slagveld."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Bevoorradingspakket Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Je bent beloond!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "REKRUTEER HAAR NU!"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Gefeliciteerd! Je hebt een nieuwe speciale rekruut die bij Prime Gaming zit."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Bevoorradingspakket Alpha"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Je bent beloond!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "JA, COMMANDANT!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Bevoorradingspakket Vechtpas"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "JA, COMMANDANT!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Bevoorradingspakket Kosmisch"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "JA, COMMANDANT!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Bevoorradingspakket Sterrenhemel"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Meer"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Bevoorradingspakket Juni"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Bevoorradingspakket Juli"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Meer"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Bevoorradingspakket Dubbeltje"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Starlight-pakket"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Queen Maeve-pakket"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Maretakcollectie"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Meer"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "\"De Grote Vangst\" collectie"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "JA, COMMANDANT!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Bevoorradingspakket Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Je bent beloond!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "\"G.I. JOE: Duke\" bundel"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "\"G.I. JOE: Cobra\" bundel"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Meer"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "\"Rock Out!\"-bundel"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Pakket \"De Stille Jageres\""
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Meer"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Nieuwe look-bundel"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Meer"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Zomervibes-pakket"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Hoogspanningspakket"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Meer"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Ben niet Bang Bundel"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Vikingen onder ons"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Meer"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Frisse Start Bundel"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Bevoorradingspakket Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Meer"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Synthesizer"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Topschutter"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Je hebt een unieke beloning ontvangen voor het abonnement: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-Camo"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Gevechtsklaar"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Go Harriers!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Dolk"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Je hebt een unieke beloning ontvangen voor het abonnement: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Hekserij"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Coven-tijd"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Je hebt hier niks te zoeken"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Kom maar op dan!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Je hebt een unieke beloning ontvangen voor het abonnement: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Beginsignaal"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Winnend doelpunt"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Eeuwige klassieker"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Je hebt een unieke beloning ontvangen voor het programma: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Feestdagenoutfit"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Charmant cadeau"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Gewichtig cadeau"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Dubbele viering"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Selecteer beloningen"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Je hebt een unieke beloning ontvangen voor het abonnement: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Een dappere nieuwe wereld"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Oog van de aanschouwer"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Anatomie van een cyborg"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Je bent gespot"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Bevoorradingspakket Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Bevoorradingspakket Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Bevoorradingspakket Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Bevoorradingspakket Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Bevoorradingspakket Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Rekruteren"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Gefeliciteerd! Je hebt een speciale bevoorrading ontvangen die bij Prime Gaming zit. Gebruik deze spullen goed."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Bevoorradingspakket Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Beloningen ontvangen"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Begrepen!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Je clanleden vertrouwen op je verdere deelname\naan het vorderen door de Plichtronde."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Bounty ontvangen!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Naar Plichtronde"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Plichtsronde"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Begrepen!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Je clanleden vertrouwen op je verdere deelname\naan het vorderen door de Plichtronde."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Beloning ontvangen!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Naar Plichtronde"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Plichtsronde"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Gefeliciteerd!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Ons peloton"
+
+msgid "scorePanel/playerScore"
+msgstr "Jouw bijdrage:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Peloton %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm pantserdoorborend %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm pantserdoorborend, keram. %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm pantserdoorborend brisant %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm brisant %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm anti-tank brisant %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Gemiddelde schade: %(value)s HP"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Schade per seconde: %(value)s HP/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Schadestraal: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Volledige / enkelvoudige lading"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Gemiddelde penetratie: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Granaatsnelheid: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Verdovingstijd: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr " — Switch naar fortmodus"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr " — Switch naar reismodus"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "De kerntoetsen zijn niet toegewezen"
+
+msgid "siegeMode/hint/press"
+msgstr "Toets"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "om vloeibare brandstofboosters te activeren"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "om jetboosters te activeren"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "om Sequentiële raketmotoren te activeren"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Raak een vijandelijk voertuig om een extra effect van laserdoelaanwijzer te krijgen"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "om de motormodus te switchen"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "om de vuurmodus te veranderen"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "om de bewegingsmodus te switchen"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "om turbocompressor-assistentie te activeren"
+
+msgid "spotted/indicator"
+msgstr "Tijdsduur van verkend en ontvangen schade toegenomen"
+
+msgid "spotted/seconds"
+msgstr "s"
+
+msgid "statistics/exit"
+msgstr "Druk op Esc om terug te gaan naar de garage..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Vernietigd door: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Basis veroverd: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Beschadigd:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Doelwit geraakt: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Ontvangen treffers: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Basis verdedigd: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Vernietigd:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(post mortem)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Schoten: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Gespot:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Alle voertuigen van bondgenoten vernietigd."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Alle voertuigen vernietigd!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Alle vijandelijke voertuigen vernietigd."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Basis veroverd!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Gevechtstijd verlopen!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Credits:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Ervaring:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Ervaring (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Reparaties:"
+
+msgid "statistics/final/status/lose"
+msgstr "Verslagen! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Gelijkspel! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Overwinning! %s"
+
+msgid "statistics/header"
+msgstr "Gevechtsstatistieken"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Speler"
+
+msgid "statistics/headers/header2"
+msgstr "Voertuigen"
+
+msgid "statistics/headers/header3"
+msgstr "Voorwaarde"
+
+msgid "statistics/headers/header4"
+msgstr "Vernietigd"
+
+msgid "statistics/playerState/0"
+msgstr "Vernietigd"
+
+msgid "statistics/playerState/1"
+msgstr "Uit het gevecht"
+
+msgid "statistics/playerState/2"
+msgstr "Vernietigd"
+
+msgid "statistics/playerState/3"
+msgstr "In gevecht"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Samenstelling"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Teamsamenstelling"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Persoonlijke reserves"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Activatie van persoonlijke reserves"
+
+msgid "statistics/tab/quests/header"
+msgstr "Missies"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Persoonlijke missies zijn onbeschikbaar in deze gevechtsmodus"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Ga naar de Campagne tab in de garage om een missie te selecteren"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Je hebt geen actieve missies voor dit voertuig"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Primaire voorwaarde voldaan"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Alle missies voltooid"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Gestart"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Resultaatverbetering"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Gepauzeerd"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "De display voor voortgang richting missies is onbeschikbaar"
+
+msgid "statistics/tabs/group"
+msgstr "Teamprestaties"
+
+msgid "statistics/tabs/heroes"
+msgstr "Gevechtshelden"
+
+msgid "statistics/tabs/personal"
+msgstr "Persoonlijke prestaties"
+
+msgid "statistics/team1title"
+msgstr "Ons team"
+
+msgid "statistics/team2title"
+msgstr "Vijandelijk team"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Verlaat de\nverwoestingszone!"
+
+msgid "stun/indicator"
+msgstr "Bemanning verdoofd"
+
+msgid "stun/seconds"
+msgstr "s"
+
+msgid "tabStatsHint"
+msgstr "— Statistieken"
+
+msgid "tankmen/commander"
+msgstr "Commandant"
+
+msgid "tankmen/driver"
+msgstr "Bestuurder"
+
+msgid "tankmen/gunner"
+msgstr "Schutter"
+
+msgid "tankmen/loader"
+msgstr "Lader"
+
+msgid "tankmen/radioman"
+msgstr "Radio-officier"
+
+msgid "timer/battlePeriod"
+msgstr "Einde over:"
+
+msgid "timer/started"
+msgstr "Het gevecht begint!"
+
+msgid "timer/starting"
+msgstr "Gevecht start over:"
+
+msgid "timer/waiting"
+msgstr "Wachten op spelers..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Toets"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "om de richtmodus te veranderen"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "De kerntoetsen zijn niet toegewezen"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Voertuig is in een zone des doods vernietigd door bondgenoot %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Voertuig is in een zone des doods vernietigd door vijand %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Voertuig vernietigd door de gevarenzone."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Voertuig is verdronken door bondgenoot %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Voertuig is verdronken door vijand %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Het voertuig is verdronken."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Tank vernietigd door de brand."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Voertuig werd vernietigd door geallieerde %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Voertuig werd vernietigd door %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Bemanning is uitgeschakeld door de botsing met bondgenoot %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Bemanning is uitgeschakeld door de botsing met vijand %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Bemanning is uitgeschakeld door de botsing."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Voertuig omgeslagen door bondgenoot %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Voertuig omgeslagen door vijand %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Voertuig vernietigd door omslaan"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Bondgenoot %(entity)s vernietigde het voertuig door rammen."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vijand %(entity)s vernietigde het voertuig door rammen."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Voertuig is vernietigd door rammen."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Voertuig is vernietigd door een schot van %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s vernietigde voertuig door een artillerie-aanval."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s vernietigde voertuig door een bombardement."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Voertuig is verongelukt door bondgenoot %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Voertuig is verongelukt door vijand %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Voertuig verongelukt."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Bondgenoot %(entity)s beschadigde onderdeel [%(device)s] door rammen."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Bondgenoot %(entity)s beschadigde onderdeel [%(device)s] door rammen."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Onderdeel [%(device)s] beschadigd door rammen."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Vijand %(entity)s beschadigde onderdeel [%(device)s] door rammen."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Vijand %(entity)s beschadigde onderdeel [%(device)s] door rammen."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Onderdeel [%(device)s] beschadigd door rammen."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Botsing met bondgenoot %(entity)s beschadigde onderdeel [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Botsing met bondgenoot %(entity)s beschadigde onderdeel [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Onderdeel [%(device)s] is beschadigd als gevolg van een botsing."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Botsing met vijand %(entity)s beschadigde onderdeel [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Botsing met vijand %(entity)s beschadigde onderdeel [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Onderdeel [%(device)s] is beschadigd als gevolg van een botsing."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Apparaat [%(device)s] is vernietigd in het mijnenveld."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Apparaat [%(device)s] is vernietigd in het mijnenveld."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Bondgenoot %(entity)s vernietigde onderdeel [%(device)s] door rammen."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Bondgenoot %(entity)s vernietigde onderdeel [%(device)s] door rammen."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Onderdeel [%(device)s] is vernietigd door rammen."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Vijand %(entity)s vernietigde onderdeel [%(device)s] door rammen."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Vijand %(entity)s vernietigde onderdeel [%(device)s] door rammen."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Onderdeel [%(device)s] is vernietigd door rammen."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Botsing met bondgenoot %(entity)s vernietigde onderdeel [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Botsing met bondgenoot %(entity)s vernietigde onderdeel [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Onderdeel [%(device)s] is vernietigd door een botsing."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Botsing met vijand %(entity)s vernietigde onderdeel [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Botsing met vijand %(entity)s vernietigde onderdeel [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Onderdeel [%(device)s] is vernietigd door een botsing."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "Onderdeel [%(device)s] ontbrandde door rammen door bondgenoot %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "Onderdeel [%(device)s] ontbrandde door rammen door bondgenoot %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Onderdeel [%(device)s] ontbrandde door rammen."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "Onderdeel [%(device)s] ontbrandde door rammen door vijand %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "Onderdeel [%(device)s] ontbrandde door rammen door vijand %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Onderdeel [%(device)s] ontbrandde door rammen."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] gewond door een botsing met bondgenoot %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] gewond door een botsing met bondgenoot %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] gewond door een botsing."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] gewond door een botsing met vijand %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] gewond door een botsing met vijand %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] gewond door een botsing."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "De %(equipment)s tactische vaardigheid is geactiveerd!"
+
+msgid "warning_zone/indicator"
+msgstr "Kijk uit! Je zit vlakbij de gevarenzone."

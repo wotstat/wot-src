@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Combattre malgré tout"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Équipez-vous !"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Dispositifs tactiques incomplets"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Il manque un ou plusieurs Dispositifs tactiques sur le véhicule que vous avez sélectionné. Cela peut grandement affecter votre efficacité en bataille. Entrer en bataille malgré tout ?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Vous pouvez personnaliser les préréglages des raccourcis par défaut de l'évènement pour les obus et les Dispositifs tactiques.\nCe changement s'applique uniquement aux batailles de l'évènement et n'affectera pas les autres modes.\nVous pouvez toujours modifier les raccourcis séparément dans Menu — Paramètres — Contrôles (sous Consommables)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Changement des préréglages des raccourcis des consommables"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s k"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Accomplissez cette mission pour recevoir un insigne unique Ultime combat : opération Pandore :"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Mission de fait d'armes épique"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Quand recherché, il réduit le {EDCB9E_Start}coût en Mirium{EDCB9E_End} de tous les Dispositifs tactiques de {EDCB9E_Start}%(ability_cost_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Efficacité du Mirium"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Quand recherché, il augmente la {EDCB9E_Start}durée d'effet des Dispositifs tactiques{EDCB9E_End} de {EDCB9E_Start}%(ability_duration_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Durée d'effet du Dispositif"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Quand recherché, il augmente le {EDCB9E_Start}rayon d'effet des Dispositifs tactiques{EDCB9E_End} de {EDCB9E_Start}%(ability_radius_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Rayon d'effet du Dispositif"
+
+msgid "booster/booster_heal/description"
+msgstr "Quand recherché, il augmente tous les {EDCB9E_Start}effets de soin{EDCB9E_End} appliqués au véhicule de {EDCB9E_Start}%(heal_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Effets de soin"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Quand recherché, il augmente la quantité de {EDCB9E_Start}dégâts transmis par les Obélisques{EDCB9E_End} aux véhicules ennemis de {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Dégâts à l'Obélisque transmis"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Quand recherché, il augmente le {EDCB9E_Start}rayon de ramassage du Mirium{EDCB9E_End} sur les ennemis de {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Rayon de ramassage du Mirium"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Quand recherché, il augmente la {EDCB9E_Start}quantité de Mirium ramassée{EDCB9E_End} sur les véhicules détruits de {EDCB9E_Start}%(pick_up_souls_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Collecte du Mirium"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Quand recherché, il augmente la {EDCB9E_Start}quantité de Mirium{EDCB9E_End} octroyée en détruisant une vague de {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium par vague"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Quand recherché, il augmente la {EDCB9E_Start}quantité de Mirium{EDCB9E_End} restaurée en réapparaissant de {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium à la réapparition"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Quand recherché, il augmente la {EDCB9E_Start}capacité maximale du véhicule en Mirium{EDCB9E_End} de {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Capacité en Mirium"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "LOT DU DÉFENSEUR"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Clés achetées"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "La possibilité de gagner 5 fois plus d'EXP., à partir de la deuxième victoire du jour à bord de n'importe quel véhicule."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Mission d'EXP. ×5 gagnée en bataille"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Configure l'affichage des véhicules par leur type, leur nation et d'autres paramètres."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filtrer par paramètres"
+
+msgid "common/back"
+msgstr "RETOUR"
+
+msgid "common/close"
+msgstr "FERMER"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "VERS L'ÉVÈNEMENT"
+
+msgid "common/toRewardPath"
+msgstr "À LA PROGRESSION"
+
+msgid "common/yes"
+msgstr "Affirmatif !"
+
+msgid "difficult/daily"
+msgstr "MISSION QUOTIDIENNE DES CLÉS DÉVERROUILLÉE"
+
+msgid "difficult/disabled/body"
+msgstr "Vous êtes dans un peloton. Seul le chef du peloton peut changer le niveau de difficulté."
+
+msgid "difficult/disabled/header"
+msgstr "Changement de la difficulté indisponible"
+
+msgid "difficult/level_1"
+msgstr "Normal"
+
+msgid "difficult/level_2"
+msgstr "Avancé"
+
+msgid "difficult/level_3"
+msgstr "Brutal"
+
+msgid "difficult/new"
+msgstr "NOUVEAU"
+
+msgid "difficult/searching/body"
+msgstr "Indisponible pendant la recherche."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Les ennemis disposent d'une durabilité inférieure et d'un blindage plus faible. Quantité de données standard par bataille."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Les ennemis présentent un blindage plus robuste. Les Données par bataille sont augmentées de {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Il y a plus d'ennemis et ils ont un blindage plus robuste. Les Données par bataille sont augmentées de {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Récompenses pour la destruction de la dernière vague pour la première fois :"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Difficulté normale"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Difficulté avancée"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Difficulté Brutale"
+
+msgid "difficult/tooltip/locked"
+msgstr "Difficulté verrouillée"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Pour débloquer ce niveau de difficulté, terminez le niveau de difficulté Normale."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Pour débloquer ce niveau de difficulté, terminez le niveau de difficulté Avancée."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Difficulté disponible"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Difficulté choisie"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Vagues détruites : {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "NORMAL"
+
+msgid "difficult/uppercase/level_2"
+msgstr "AVANCÉ"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTAL"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Les ennemis possèdent un blindage plus robuste. Plus de crédits et ×{{modifier}} données par bataille."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Plus d'ennemis avec un blindage plus robuste. Plus de crédits et ×{{modifier}} données par bataille."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Combattez et venez à bout de vagues d'ennemis et montrez vos prouesses en atteignant le haut du classement. Des récompenses uniques et bien d'autres choses vous attendent."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "NIVEAU DE DIFFICULTÉ AVANCÉ"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "NIVEAU DE DIFFICULTÉ BRUTAL"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "MODE ULTIME COMBAT"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "AVANCÉ"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTAL"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "ULTIME COMBAT"
+
+msgid "difficultyWindow/rewards"
+msgstr "Récompenses d'accomplissement :"
+
+msgid "difficultyWindow/title"
+msgstr "DISPONIBLE"
+
+msgid "hangar/exit"
+msgstr "QUITTER L'ÉVÈNEMENT"
+
+msgid "hangar/narration"
+msgstr "Histoire"
+
+msgid "hangar/tooltip/about"
+msgstr "En apprendre plus sur l'évènement Ultime combat : Grand Nord."
+
+msgid "hangar/tooltip/narration"
+msgstr "Apprenez-en plus sur l'histoire de l'évènement."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "DISPOSITIFS TACTIQUES"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "CONFIGURATION"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Ultime combat"
+
+msgid "iconButton/comparison/default"
+msgstr "Comparaison de véhicules"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "La comparaison de véhicules est indisponible"
+
+msgid "iconButton/preview/default"
+msgstr "Aperçu du véhicule"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "L'aperçu du véhicule est indisponible"
+
+msgid "keyCard/name"
+msgstr "Clés de décryptage"
+
+msgid "meta/btn/decrypt"
+msgstr "DÉCRYPTER"
+
+msgid "meta/btn/skip"
+msgstr "PASSER"
+
+msgid "meta/btn/view"
+msgstr "VOIR"
+
+msgid "meta/receive/description"
+msgstr "Collectez %(keys) / %(decrypt) %(icon) \npour décrypter cet Enregistrement"
+
+msgid "metaIntro/description/fight"
+msgstr "Livrez des batailles de l'évènement et gagnez des données pour avancer dans la Progression."
+
+msgid "metaIntro/description/progress"
+msgstr "Collectez des données pour rechercher des améliorations de véhicule et relevez de plus grands défis."
+
+msgid "metaIntro/description/reward"
+msgstr "Terminez les Étapes de la progression pour recevoir des récompenses d'évènement spéciales. Consultez la Voie des récompenses pour en savoir plus."
+
+msgid "metaIntro/header/fight"
+msgstr "Batailles de l'évènement"
+
+msgid "metaIntro/header/progress"
+msgstr "Améliorations"
+
+msgid "metaIntro/header/reward"
+msgstr "Récompenses uniques"
+
+msgid "metaIntro/title"
+msgstr "PROGRESSION"
+
+msgid "missionWidget/complete"
+msgstr "Mission accomplie.\nRevenez demain."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Accomplissez la Mission quotidienne actuelle qui est disponible toutes les 24 h pour recevoir la récompense. Mission d'aujourd'hui :"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Mission quotidienne"
+
+msgid "narration/actions/voiceover"
+msgstr "Doublage"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}TOP SECRET{{/}}{{titleParagraph}}{{@ class $highlightText}}SECTEUR : N-07 (Périmètre « Aurore »){{/}}{{pargraphStart}}Nos prévisions étaient correctes. Les observateurs de la station ont détecté l'approche de l'anomalie 11 jours avant l'évènement. Pour la première fois, nous l'avons vue arriver.{{pargraphStart}}Dans le calme précédant la tempête, la production des complexes ATLAS a été normalisée. Les nouveaux éléments ont été assemblés plus rapidement et calibrés avec davantage de précision. Nous avons intensifié l'entraînement, effectué des manœuvres en formation et préparé des unités de réserve. L'alerte maximale a été décrétée.{{pargraphStart}}Mais l'anomalie avait ses propres plans.{{pargraphStart}}La Faille ne s'est pas ouverte dans le secteur prévu. Elle est apparue ici, dans une région septentrionale isolée, loin des infrastructures déployées. Nous ignorons pourquoi cet emplacement a été choisi. Rien dans nos modèles ne laissait présager cette zone. Le redéploiement d'urgence a été lancé immédiatement, mais le terrain et les distances ne jouent pas en notre faveur. Certains véhicules et détachements n'arriveront pas à temps.{{pargraphStart}}Chaque complexe ATLAS que nous avons réussi à acheminer est désormais indispensable.{{pargraphStart}}Cette fois, nous nous préparions au combat. Mais pour livrer bataille ailleurs.{{pargraphStart}}SIGNÉ : LE CONSERVATEUR (PROJET M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Note analytique 27/C « SÉLECTION DU LIEU DE L'INVASION »{{/}}{{titleParagraph}}Usage interne. Tampon « Accès restreint ».{{pargraphStart}}Je me pose une question à laquelle je me dois de répondre, mais je n'y parviens pas : pourquoi ici ?{{pargraphStart}}Cette région ne présente aucune valeur stratégique pour la Faille. Il n'y a rien ici. Aucune infrastructure, aucune colonie. Seulement une base militaire hors service sur l'île. Les chars échos ne peuvent pas traverser la mer. Alors, pourquoi donc s'emparer d'un lieu depuis lequel ils ne peuvent pas attaquer ? {{pargraphStart}}J'ai demandé l'historique opérationnel complet de la région. La réponse reçue était en grande partie censurée. Des sections entières avaient été noircies. Une seconde demande m'est revenue accompagnée de la mention : « accès refusé sur ordre direct de {{@ class $highlightSecondaryText}}[DONNÉES SUPPRIMÉES]{{/}} ». Moi, le directeur du département de recherche, dont les recommandations déterminent la stratégie défensive de ce secteur, on me refuse l'accès à des informations concernant ce territoire !{{pargraphStart}}Voici ce que je peux déduire des données recueillies sur le terrain : le comportement de la Faille ne correspond pas à ce que nous avons observé dans le secteur R-22. De nouveaux types de chars échos, encore jamais rencontrés, sont apparus. Leur rôle correspond à celui de nos chasseurs de chars à longue portée, et ils se montrent extrêmement efficaces sur ce type de terrain. L'ennemi a appris de nos tactiques et pris des contre-mesures. C'est maintenant à nous de nous adapter.{{pargraphStart}}Il se pourrait que cet endroit lui soit nécessaire. Ou peut-être ce qui se trouve sous cet endroit.{{pargraphStart}}Je ne sais pas. Et ce qui m'inquiète, c'est que quelqu'un le sait probablement, mais refuse d'en parler.{{pargraphStart}}SIGNÉ : LE CONSERVATEUR (PROJET M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}DOSSIER PERSONNEL DU CONSERVATEUR{{/}}{{pargraphStart}}J'ai réexaminé mes propres hypothèses. Toutes les trois.{{pargraphStart}}  1. L'anomalie cherche à nous détruire. {{pargraphStart}}  2. L'anomalie expérimente. Elle étudie nos tactiques, analyse nos réactions, s'adapte et apprend.{{pargraphStart}}  3. L'anomalie s'entraîne. Chaque vague est une application de ses nouvelles tactiques ; chaque bataille constitue un entraînement en conditions réelles.{{pargraphStart}}Ces trois hypothèses reposent sur le même postulat : nous sommes la cible de cette invasion.{{pargraphStart}}Mais si ce n'était pas le cas ?{{pargraphStart}}Et si l'anomalie poursuivait un autre objectif, et que nous nous trouvons tout simplement sur son chemin ? Imaginez une fourmilière inondée pendant la construction d'une route. Le constructeur ne mène pas de guerre contre les fourmis. Il ne les a tout simplement pas remarquées.{{pargraphStart}}On peut arrêter un ennemi qui cherche à nous détruire. On peut négocier avec lui. Mais on ne peut effrayer quelque chose qui ne reconnaît même pas notre existence ; on ne peut le prendre de vitesse. C'est inarrêtable. Parce qu'il ne nous a jamais pris en compte.{{pargraphStart}}Je pense que nous nous posions la mauvaise question. Nous ne devrions pas nous demander pourquoi l'anomalie nous attaque, mais simplement si elle nous a remarqués.{{pargraphStart}}SIGNÉ : LE CONSERVATEUR (PROJET M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}RAPPORT FINAL{{/}}{{titleParagraph}}{{@ class $highlightText}}STATUT : DÉCLASSIFIÉ (PARTIELLEMENT){{/}}{{pargraphStart}}À 3 h 47, la Faille s'est effondrée. L'activité de l'anomalie a cessé. Le secteur est sécurisé.{{pargraphStart}}Dans les dernières secondes précédant l'effondrement, les capteurs de l'ATLAS ont enregistré un pic d'énergie dépassant toutes les valeurs relevées jusqu'alors. Les équipages ont observé une manifestation physique de courte durée au centre de l'anomalie. Elle n'a pas duré plus de 12 secondes. Après cela, la Faille s'est refermée. {{pargraphStart}}Déclaration officielle : l'incident est terminé. Le territoire a été défendu avec succès. La quarantaine du secteur est levée.{{pargraphStart}}{{@ class $highlightText}}NOTE PERSONNELLE DU CONSERVATEUR (réservée aux accès spéciaux){{/}}{{pargraphStart}}Nous n'avons pas gagné. C'est tout simplement terminé.{{pargraphStart}}Il ne s'agissait pas d'une invasion, mais d'une couverture. Un périmètre de protection autour de ce qui s'est matérialisé au centre de la Faille quelques secondes avant son effondrement.{{pargraphStart}}Des dizaines d'Obélisques sont apparus simultanément. Nous ne savons toujours pas quel était leur but. L'ATLAS a enregistré l'ensemble des paramètres, mais leur analyse prendra du temps. Nous savons toutefois une chose avec une quasi-certitude : l'anomalie a achevé une forme de processus.{{pargraphStart}}Peu importe ce qu'elle faisait, nous devons nous préparer pour la prochaine attaque. Nous disposons de suffisamment de données à présent. Nos ingénieurs analysent déjà les enregistrements et, pour être honnête, je ne les ai jamais vus aussi enthousiastes. Ils pensent pouvoir renforcer nos véhicules de façon considérable. Nous devons y parvenir avant le retour de la Faille. {{pargraphStart}}Une question tourne en boucle dans ma tête : si ce qui s'est produit ici a duré si peu de temps, combien de fois s'est-il déjà produit auparavant ? Dans des endroits où aucun ATLAS n'était présent pour en être témoin…{{pargraphStart}}SIGNÉ : LE CONSERVATEUR (PROJET M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Nous étions prêts"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Pourquoi ici ?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. La mauvaise question"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. C'est terminé"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Terminez le niveau de difficulté Normal pour passer au chapitre suivant de l'Histoire."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Terminez le niveau de difficulté Avancé pour passer au chapitre suivant de l'Histoire."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Terminez le niveau de difficulté Brutal pour passer au dernier chapitre de l'Histoire."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Histoire suivante"
+
+msgid "preBattle/leave"
+msgstr "Quitter la bataille"
+
+msgid "preBattle/searching"
+msgstr "EN RECHERCHE D'ALLIÉS…"
+
+msgid "preBattle/tip"
+msgstr "Trouver une Force opérationnelle prend trop de temps ? Essayez de changer le niveau de difficulté."
+
+msgid "preBattle/uppercase/leave"
+msgstr "QUITTER LA BATAILLE"
+
+msgid "promoWindow/header"
+msgstr "JOUER À ULTIME COMBAT"
+
+msgid "promoWindow/subheader"
+msgstr "Explorez un nouveau chapitre du mode de jeu JcE Ultime combat à partir du {dateRange}.\nGagnez un ensemble {cream_open}d'accessoires 3D{cream_close} thématiques, de l'Équipement expérimental et d'autres récompenses exclusives."
+
+msgid "questCard/allCompleted"
+msgstr "Toutes les missions quotidiennes ont été accomplies"
+
+msgid "questCard/completed"
+msgstr "Missions quotidiennes accomplies.\nRevenez demain."
+
+msgid "reward/rest"
+msgstr "Et %(count)s de plus"
+
+msgid "rewardPath/about"
+msgstr "À PROPOS DES OBJECTIFS"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Apprenez-en plus sur la Progression de l'évènement."
+
+msgid "rewardPath/boostTitle"
+msgstr "Accélérez votre progression et gagnez plus de données {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Voir dans le Magasin"
+
+msgid "rewardPath/completed"
+msgstr "Toutes les données et récompenses ont été reçues"
+
+msgid "rewardPath/completedTitle"
+msgstr "Consultez le Magasin pour y trouver des éléments de personnalisation uniques à thème"
+
+msgid "rewardPath/intro"
+msgstr "INTRODUCTION"
+
+msgid "rewardPath/introTooltip"
+msgstr "Voir la vidéo d'introduction."
+
+msgid "rewardPath/progress"
+msgstr "Données reçues à la PHASE {artefactIndex} : {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "PROGRESSION"
+
+msgid "rewardPathCard/completed"
+msgstr "Accomplie"
+
+msgid "rewardPathCard/name"
+msgstr "Voie des récompenses"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Lots de l'évènement"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Annuler"
+
+msgid "squad/goToAnother/message"
+msgstr "Le peloton sera dissous."
+
+msgid "squad/goToAnother/submit"
+msgstr "Quitter"
+
+msgid "squad/goToAnother/title"
+msgstr "Quitter l'évènement Ultime combat : Grand Nord ?"
+
+msgid "squad/leave/cancel"
+msgstr "Annuler"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Le peloton sera dissous."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Affirmatif !"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "L'évènement Ultime combat : Grand Nord est terminé"
+
+msgid "squad/leave/message"
+msgstr "Le peloton sera dissous."
+
+msgid "squad/leave/submit"
+msgstr "Quitter"
+
+msgid "squad/leave/title"
+msgstr "Quitter le peloton Ultime combat : Grand Nord ?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Continuer"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Vous êtes dans le peloton et prêt à combattre."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Vous ne pouvez pas quitter le peloton !"
+
+msgid "stageReward/rewards/received"
+msgstr "Également reçues :"
+
+msgid "stageReward/special/header"
+msgstr "NIVEAU DE DIFFICULTÉ BRUTAL TERMINÉ !"
+
+msgid "stageReward/special/subheader"
+msgstr "Récompense spéciale reçue"
+
+msgid "stageReward/stage/header"
+msgstr "RÉCOMPENSES REÇUES"
+
+msgid "stageReward/stage/subheader"
+msgstr "Ultime combat : Étape {{number}} terminée"
+
+msgid "stageReward/stageFinal/header"
+msgstr "TOUTES LES RÉCOMPENSES ONT ÉTÉ REÇUES"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Ultime combat : Étape finale terminée"

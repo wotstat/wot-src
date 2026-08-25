@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Välj belöningar"
+
+msgid "banner/giftsAvailable"
+msgstr "Förråd levererade!"
+
+msgid "banner/giftsForOffer"
+msgstr "Belöning för deltagande i \"%(name)s\"."
+
+msgid "banner/selectNowOrLater"
+msgstr "Välj dina belöningar nu eller senare i förrådet."
+
+msgid "banner/title"
+msgstr "Förråd för hemmafronten"
+
+msgid "description/rentValue/battles"
+msgstr "för strider: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "för dagar: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "för segrar: %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "Förutom den valda vagnen får du också %(items)s utan kostnad."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}besättning{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}besättning{neutralClose} och {neutralOpen}garageplats{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}garageplats{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Avbryt"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s kommer att hyras %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s kommer att skickas till garaget"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "Hyran av %(tankName)s kommer att förlängas %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Bekräfta"
+
+msgid "giftDialog/title/common"
+msgstr "Bekräftelse av mottagande av\n\"%(name)s\""
+
+msgid "giftDialog/title/tank"
+msgstr "Tar emot vagn"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Hyr vagn"
+
+msgid "giftsWindow/availableCount"
+msgstr "Tillgängliga: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Tillgänglig till: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Tillgängliga belöningar: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "I garaget"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Öppen i"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Förhandsvisa"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) strider"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) d"
+
+msgid "giftsWindow/rent/title"
+msgstr "Hyr för: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) segrar"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Ta emot"
+
+msgid "giftsWindow/tokens"
+msgstr "Tillgängliga: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Tillgängliga marker: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Ej tillgänglig"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Uppfattat!"
+
+msgid "rewardWindow/title"
+msgstr "Belöning mottagen"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Ta emot!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Förläng hyra!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Kostnadsfri hyra av %(tankName)s för %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s med besättning"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s med besättning och garageplats"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s med garageplats"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Förläng hyran av %(tankName)s med %(rentValue)s"

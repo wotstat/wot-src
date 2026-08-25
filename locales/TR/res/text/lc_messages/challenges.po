@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Ayrıca alınanlar:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Bu görevi seti yeniden oynanabilir."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Olumlu!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Kapat"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Garajda Bakın"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Yeniden Oynayın"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Pota"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT Premium Hesabı"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Premium araç"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Kiralık araç"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "ve \"{{styleName}}\" stili"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) gün"
+msgstr[1] "%(day) gün"
+msgstr[2] "%(day) gün"
+
+msgid "awards_view/title"
+msgstr "POTA TAMAMLANDI!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Savaş Başına ×5 DP Görevi"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Taslak kesiti: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Genel taslak kesiti"
+
+msgid "bonuses/bpcoin"
+msgstr "Savaş Kartı Jetonu"
+
+msgid "bonuses/crewBonusX3"
+msgstr "×3 Mürettebat DP'si Görevi"
+
+msgid "bonuses/description/attachments_set"
+msgstr "3B eklenti seti"
+
+msgid "bonuses/description/booster"
+msgstr "Kişisel Yedek"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Kayra donanım"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Mürettebat kaplaması"
+
+msgid "bonuses/description/directive"
+msgstr "Yönerge"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Deneysel donanım"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "İyileştirilmiş donanım"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "ve \"%(styleName)s\" stili"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standart donanım"
+
+msgid "bonuses/description/style"
+msgstr "2B Stil"
+
+msgid "bonuses/description/style_3d"
+msgstr "3B Stil"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Kadın mürettebat üyesi"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Yeni mürettebat üyesi"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Mürettebat üyesi"
+
+msgid "condition/achievement"
+msgstr "%(achievement)s ödülünü kazanın"
+
+msgid "condition/achievement/title"
+msgstr "Savaş Kahramanları"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Toplam %(goal)s CP hasar verin ve verilmesine destek olun"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Toplam %(goal)s CP hasar verin, alın ve engelleyin"
+
+msgid "condition/aggregated/title"
+msgstr "Karma Koşul"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Tank Avcısı"
+
+msgid "condition/classes/SPG"
+msgstr "KMT"
+
+msgid "condition/classes/heavyTank"
+msgstr "Ağır Tank"
+
+msgid "condition/classes/lightTank"
+msgstr "Hafif Tank"
+
+msgid "condition/classes/mediumTank"
+msgstr "Orta Tank"
+
+msgid "condition/critsCount"
+msgstr "Düşman araçlarının iç veya dış parçalarında %(goal)s kritik isabet kaydedin"
+
+msgid "condition/critsCount/title"
+msgstr "Hareketsiz bırakın"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "%(goal)s CP hasar engelleyin"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Aracınızın CP'sinin %(goal)s katından daha fazla hasar engelleyin"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Engelleyin"
+
+msgid "condition/damageDealt"
+msgstr "Düşman araçlarına %(goal)s CP hasar verin"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Aracınızın CP'sinin %(goal)s katından daha fazla hasar verin"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "%(goal)s kere düşman araçlarına %(distance)s m veya daha kısa mesafeden isabet kaydedin"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "%(goal)s kere düşman araçlarına %(distance)s m veya daha uzak mesafeden isabet kaydedin"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "%(goal)s kere düşman araçlarına çarparak hasar verin"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "%(goal)s kere aracınızın görüş mesafesi içindeki düşman araçlarına isabet kaydedin"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Savaşın ilk %(timeLimit)s dakikası içerisinde %(goal)s CP hasar verin"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "%(distance)s m veya daha kısa mesafeden düşman araçlarına %(goal)s CP hasar verin"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "%(distance)s m veya daha uzak mesafeden düşman araçlarına %(goal)s CP hasar verin"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Çarparak %(goal)s CP hasar verin"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Çarpma"
+
+msgid "condition/damageDealt/title"
+msgstr "Hasar"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Tespit edilmemiş düşman araçlarına %(goal)s CP hasar verin"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Aracınızın görüş mesafesi içindeki düşman araçlarına %(goal)s CP hasar verin"
+
+msgid "condition/kills"
+msgstr "%(goal)s düşman aracı yok edin"
+
+msgid "condition/kills/classes"
+msgstr "%(goal)s düşman %(vehicleClass)s yok edin"
+
+msgid "condition/kills/classesDiversity"
+msgstr "%(classCount)s farklı türde %(goal)s düşman aracı yok edin"
+
+msgid "condition/kills/title"
+msgstr "Yok Edin"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Herhangi bir hasar almadan %(goal)s düşman aracı yok edin"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Tespit edilmeden kalarak %(goal)s düşman aracı yok edin"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Ekibinizin verdiği toplam hasarın %%%(goal)s kadarını verin."
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Hasar"
+
+msgid "condition/piercingEnemyHits"
+msgstr "%(goal)s kere düşman zırhını delin"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Delme"
+
+msgid "condition/spotted"
+msgstr "%(goal)s düşman aracı tespit edin"
+
+msgid "condition/spotted/title"
+msgstr "Tespit Edin"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Tespit edilmeden kalarak %(goal)s düşman aracı tespit edin"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Tespit Edin"
+
+msgid "condition/top/damageDealt"
+msgstr "Verilen hasar açısından ekibinizde ilk %(rank)s oyuncu arasına girin"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Verilen hasar açısından iki ekipte birden ilk %(rank)s oyuncu arasına girin."
+
+msgid "condition/top/title"
+msgstr "En İyi Oyuncu"
+
+msgid "condition/top/xp"
+msgstr "Kazanılan deneyim açısından ekibinizde ilk %(rank)s oyuncu arasına girin"
+
+msgid "condition/unknown"
+msgstr "En uygun görev aranıyor..."
+
+msgid "condition/unknown/title"
+msgstr "Bekleniyor"
+
+msgid "postbattle/name"
+msgstr "POTA: "

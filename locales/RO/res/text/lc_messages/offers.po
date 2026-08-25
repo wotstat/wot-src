@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Alege recompensele"
+
+msgid "banner/giftsAvailable"
+msgstr "Provizii livrate!"
+
+msgid "banner/giftsForOffer"
+msgstr "Recompense pentru participarea la \"%(name)s\"."
+
+msgid "banner/selectNowOrLater"
+msgstr "Alege-ți recompensele acum sau mai târziu în Depozit."
+
+msgid "banner/title"
+msgstr "Provizii pentru Homefront"
+
+msgid "description/rentValue/battles"
+msgstr "pentru lupte: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "pentru zile: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "pentru victorii: %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "Pe lângă vehiculul selectat, vei primi de asemenea %(items)s gratuit."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}echipaj{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}echipaj{neutralClose} și {neutralOpen}loc în garaj{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}Loc în garaj{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Anulează"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s va fi închiriat %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s va fi trimis în garaj"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "Închirierea %(tankName)s va fi extinsă %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Confirmă"
+
+msgid "giftDialog/title/common"
+msgstr "Confirmare de primire a\n\"%(name)s\""
+
+msgid "giftDialog/title/tank"
+msgstr "Se primește vehiculul"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Se închiriază vehiculul"
+
+msgid "giftsWindow/availableCount"
+msgstr "Disponibile: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Disponibil până la: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Recompense disponibile: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "În Garaj"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Deschis timp de"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Previzualizare"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) lupte"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) z"
+
+msgid "giftsWindow/rent/title"
+msgstr "Închiriere pentru: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) victorii"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Revendică"
+
+msgid "giftsWindow/tokens"
+msgstr "Disponibile: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Jetoane disponibile: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Indisponibil"
+
+msgid "rewardWindow/btnLabel"
+msgstr "De acord!"
+
+msgid "rewardWindow/title"
+msgstr "Recompensă primită"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Revendică!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Extinde închirierea!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Închiriere gratuită %(tankName)s %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s cu echipaj"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s cu echipaj și loc în garaj"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s cu loc în garaj"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Extinde închirierea %(tankName)s %(rentValue)s"

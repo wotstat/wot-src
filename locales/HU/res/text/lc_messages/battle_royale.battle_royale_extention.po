@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "Értettem!"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "ACÉLVADÁSZ: LÓHEREPRÓBA"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "ACÉLVADÁSZ"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "TELJESÍTETTED A VÉGSŐ SZAKASZT!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "%(level)s. SZAKASZ TELJESÍTVE!"
+
+msgid "dailyBonus/description"
+msgstr "%(dailyBonus)s bónusz a szerencsehozó pecsétekre, ha a legjobb %(soloTopPlaces)s játékos között végzel az egyéni csatákban, vagy a legjobb %(squadTopPlaces)s között a szakaszcsatákban. A bónusz naponta egyszer aktiválható minden egyes eseményjárműre."
+
+msgid "eventShop"
+msgstr "Eseménybolt"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "Maradok"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "Dezertálok"
+
+msgid "leaveBattleView/description"
+msgstr "A járműveid még harcképesek. Ha most elhagyod a csatát, nem kapsz érte jutalmat. Biztosan el akarod hagyni a csatát?"
+
+msgid "leaveBattleView/title"
+msgstr "Dezertálás a csatatérről"
+
+msgid "leaveBattleView/warning"
+msgstr "Nem fogsz jutalmakat kapni!"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "Teljesítetted a fő előrehaladást!"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s vagy %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "Teljesített küldetések:"
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "Az esemény végéig hátralévő idő:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "A küldetések frissítéséig hátralévő idő:"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s / %(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Teljesítetted az előrehaladást. Folytasd a játékot az Acélvadász módban, hogy még több jutalmat szerezz!"
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "Az esemény véget ért. A küldetések és az előrehaladás már nem érhető el."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Teljesíts küldetéseket, hogy előrehaladási pontokat szerezz!\nA szerzett pontok száma a csatában elért helyezésedtől is függ. %(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "A hatékony harctéri teljesítményért, a csatákban elért előkelő helyezésért és a mód küldetéseinek teljesítéséért acélpecséteket kaphatsz."
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "A csatában begyűjtött hadizsákmányokból, az előrehaladási szakaszok teljesítéséért és az Acélvadászban elért előkelő helyezésekért szerencsehozó pecséteket kaphatsz."
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "Így szerezhetsz pecséteket"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "Így szerezhetsz pecséteket"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "Használd fel a megszerzett acélpecséteket Acélvadász-stílusok megvásárlására!"
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "Az összegyűjtött szerencsehozó pecséteket értékes jutalmakra válthatod be a Lóhereboltban."
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "Erre költheted el a pecséteket"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "Erre költheted el a pecséteket"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "Acélpecsétek"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "Szerencsehozó pecsétek"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Jutalom a különleges küldetések teljesítéséért az Acélvadászban. Lehetővé teszik a továbblépést az előrehaladásban."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Acélvadász előrehaladási pontok"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "Pontokat a csaták megvívásával és speciális küldetések teljesítésével szerezhetsz. Ezek automatikusan hozzáadódnak a Battle Pass-előrehaladáshoz."
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "Jutalom az Acélvadász küldetéseinek teljesítéséért és a jó csataeredményekért. Lehetővé teszik, hogy továbblépj az előrehaladásban."
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "Acélpecséteket hatékony harci teljesítménnyel, a csatákban elért előkelő helyezésekkel és a különleges küldetések teljesítésével szerezhetsz."
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "A fő játékbeli fizetőeszköz. Kreditet a csatákban szerezhetsz vagy aranyért vásárolhatsz."
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "Ritka, speciális fizetőeszköz olyan egyedi tárgyak megvásárlására, amelyek másképp szerezhetők meg."
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "Olyan fizetőeszköz, amelyet az Acélvadász csatáiban szerezhetsz meg. A pecséteket egyedi jutalmakra válthatod be a Lóhereboltban. Ha szakaszban játszol, a szerencsehozó pecséteket egyenlő arányban osztjuk el a szakasz tagjai között. A megadott mennyiség a te részesedésed a teljes zsákmányból."
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "A különleges járművekkel szerzett tapasztalatot átválthatod szabad tapasztalatra."
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "Bónusz aktiválva! A csatában szerzett pecsétek számára kapott szorzó: %(count)sx."
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "Battle Pass-pontok"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "Acélvadász előrehaladási pontok"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "Acélpecsétek"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "Kredit"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "Kötvények"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "Szerencsehozó pecsétek"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "Harci tapasztalat"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "A WoT prémium fiók 50%-kal növeli a bevételedet ebből a fizetőeszközből."
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "A WoT prémium fiók 50%-kal növeli a bevételedet ebből a fizetőeszközből."
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "A WoT prémium fiók 50%-kal növeli a szerzett harci tapasztalat mennyiségét."
+
+msgid "serviceChannelMessages/awards"
+msgstr "Megszerzett jutalom:"
+
+msgid "serviceChannelMessages/body"
+msgstr "Teljesítetted a(z) %(stage)s előrehaladási szakaszt a(z) %(progressionName)s módban."
+
+msgid "serviceChannelMessages/header"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Acélvadász"
+
+msgid "tab/label/platoon"
+msgstr "SZAKASZ"
+
+msgid "tab/label/solo"
+msgstr "EGYEDÜL"
+
+msgid "tab/label/team"
+msgstr "BARÁTTAL"
+
+msgid "tooltip/banner/description"
+msgstr "Dinamikus, az utolsó talpon maradt játékosig tartó battle royale csaták egy posztapokaliptikus környezetben. Harcolj nyolc különleges járművel, amelyeket fejleszthetsz a csata folyamán, így minden szinttel erősebbé válnak. Exkluzív jutalmak és megannyi más vár még rád!"
+
+msgid "tooltip/banner/mode/description"
+msgstr "– Játékmód. Kattints a felfedezéséhez"
+
+msgid "tooltip/banner/mode/label"
+msgstr "MÓD"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "A számítógéped teljesítménye nem megfelelő ehhez a módhoz. Problémákat tapasztalhatsz a grafikával és a jármű mozgásával. Előfordulhat, hogy a játékkliens összeomlik."
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "Alacsony teljesítmény"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "Csökkentett teljesítmény lehetséges"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "Dinamikus, az utolsó talpon maradt játékosig tartó battle royale csaták egy csipetnyi zöld varázslattal. Harcolj nyolc különleges járművel, amelyeket fejleszthetsz a csata folyamán, így minden szinttel erősebbé válnak. Exkluzív jutalmak és megannyi más vár rád!"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "Lóherepróba"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "Az esemény végéig hátravan: %(timer)s"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "Tűzszünet: %(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "Acélvadász"
+
+msgid "tooltip/daily_quests/header"
+msgstr "Teljesítve"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Új Acélvadász-küldetések érhetők el {{timeLeft}} múlva"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "Jutalom:"
+msgstr[1] "Jutalmak:"
+msgstr[2] "Jutalmak:"
+
+msgid "tooltip/daily_quests/text"
+msgstr "Az összes küldetést teljesítetted!"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "Szép munka, parancsnok. Csak így tovább!"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "Teljesítetted a fő előrehaladást!"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "Teljesíts küldetéseket, és érj el kimagasló helyezéseket az Acélvadász-csatákban, hogy továbbléphess az előrehaladásban!"
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "A mód %(value)s múlva véget ér"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "Acélvadász"
+
+msgid "tooltip/quest/header"
+msgstr "Acélvadász-küldetés"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "Váltsd be a {ede6d9_Open}szerencsehozó pecséteket{ede6d9_Close} különleges jutalmakra!"
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "A csatában begyűjtött hadizsákmányokból, az előrehaladási szakaszok teljesítéséért és a battle royale során előkelő helyezésekért szerencsehozó pecséteket kaphatsz."
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "Lóherebolt"
+
+msgid "tooltip/shop/subtitle"
+msgstr "Váltsd be az {ede6d9_Open}acélpecséteket{ede6d9_Close} különleges jutalmakra!"
+
+msgid "tooltip/shop/text"
+msgstr "Acélpecséteket a harcban mutatott hatékony teljesítményedért, a csatákban elért jó helyezéseidért és a küldetések teljesítéséért kaphatsz."
+
+msgid "tooltip/shop/title"
+msgstr "Acélvadász-bolt"
+
+msgid "upgrades/description"
+msgstr "Okozz sebzést az ellenséges járműveknek, és szedd össze a pályán található hadizsákmányokat, hogy tapasztalatot gyűjts, és a következő szintre lépj! Minden elért szint után fejlesztheted az egyik modulodat a Fejlesztés menüben, amellyel jelentősen javíthatod a járműved tulajdonságait."
+
+msgid "upgrades/footer"
+msgstr "A modulokat csak csatában tudod fejleszteni."
+
+msgid "upgrades/subtitle"
+msgstr "Egy I-es szintű járművel indulsz csatába."
+
+msgid "upgrades/title"
+msgstr "Járműfejlesztések a csatában"

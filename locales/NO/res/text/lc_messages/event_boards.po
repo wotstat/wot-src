@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Belønninger for panserjagere"
+
+msgid "awards/class/SPG"
+msgstr "Belønninger for SPGer"
+
+msgid "awards/class/heavyTank"
+msgstr "Belønninger for tunge tanks"
+
+msgid "awards/class/lightTank"
+msgstr "Belønninger for lette tanks"
+
+msgid "awards/class/mediumTank"
+msgstr "Belønninger for medium tanks"
+
+msgid "awards/level"
+msgstr "Belønninger for kjøretøy på nivå %(level)s"
+
+msgid "awards/nation/china"
+msgstr "Belønninger for kinesiske kjøretøy"
+
+msgid "awards/nation/czech"
+msgstr "Belønninger for tsjekkoslovakiske kjøretøy"
+
+msgid "awards/nation/france"
+msgstr "Belønninger for franske kjøretøy"
+
+msgid "awards/nation/germany"
+msgstr "Belønninger for tyske kjøretøy"
+
+msgid "awards/nation/japan"
+msgstr "Belønninger for japanske kjøretøy"
+
+msgid "awards/nation/poland"
+msgstr "Belønninger for polske kjøretøy"
+
+msgid "awards/nation/sweden"
+msgstr "Belønninger for svenske kjøretøy"
+
+msgid "awards/nation/uk"
+msgstr "Belønninger for britiske kjøretøy"
+
+msgid "awards/nation/usa"
+msgstr "Belønninger for amerikanske kjøretøy"
+
+msgid "awards/nation/ussr"
+msgstr "Belønninger for sovjetiske kjøretøy"
+
+msgid "awards/tooltip/class"
+msgstr "Klikk for å vise belønningene for denne kjøretøytypen."
+
+msgid "awards/tooltip/level"
+msgstr "Klikk for å vise belønningene for kjøretøy på dette nivået."
+
+msgid "awards/tooltip/nation"
+msgstr "Klikk for å vise belønningene for denne nasjonen."
+
+msgid "awards/vehicle"
+msgstr "Belønninger for valgt kjøretøy"
+
+msgid "badge/tooltip/description"
+msgstr "Et merke er et unikt ikon som vises ved siden av ditt kallenavn i kamp. Merket vises til spillere på begge lagene og indikerer din fremragende innsats i Nasjonenes marsj eventet."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Minnesmerker"
+
+msgid "block/award"
+msgstr "Hovedbelønning"
+
+msgid "block/objective"
+msgstr "Tilstand"
+
+msgid "block/task"
+msgstr "Oppdrag"
+
+msgid "button/awards"
+msgstr "Alle belønningene"
+
+msgid "button/awards/tooltip"
+msgstr "Klikk for å vise listen over alle belønningene i konkurransen."
+
+msgid "button/regulations"
+msgstr "Krav"
+
+msgid "button/regulations/tooltip"
+msgstr "Klikk for å vise full beskrivelse av konkurransen."
+
+msgid "condition/battletype/random"
+msgstr "Tilfeldig kamp 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Rangert kamp"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Tropper tillatt"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Tropper ikke tillatt"
+
+msgid "condition/primetime/any"
+msgstr "Hvilken som helst server og tid"
+
+msgid "condition/primetime/chosen"
+msgstr "Bare på de spesifiserte serverne"
+
+msgid "condition/vehicle/chosen"
+msgstr "Bare de spesifiserte kjøretøyene:"
+
+msgid "condition/vehicle/exist"
+msgstr "I garasjen"
+
+msgid "condition/vehicle/missing"
+msgstr "Ikke i garasjen"
+
+msgid "condition/vehicle/single"
+msgstr "I %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Utmerkelse"
+
+msgid "excel/btnClose"
+msgstr "TIL KONKURRANSE"
+
+msgid "excel/group/title"
+msgstr "Gruppe"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "For å bli plassert i rangering, kjemp flere kamper: %(number)s"
+
+msgid "excel/noData"
+msgstr "Ingen premieplasseringer er tatt ennå."
+
+msgid "excel/participate/join"
+msgstr "Kamp"
+
+msgid "excel/participate/notParticipated"
+msgstr "Du deltok ikke i denne konkurransen"
+
+msgid "excel/subHeader"
+msgstr "Konkurransen: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Bli med"
+
+msgid "header/participate/button/leave"
+msgstr "Avslutt konkurransen"
+
+msgid "header/participate/finished"
+msgstr "Konkurransen er avsluttet"
+
+msgid "header/participate/notStarted"
+msgstr "Du har blitt med"
+
+msgid "header/participate/reason/byAge"
+msgstr "Konto opprettet etter %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Konkurransen er ikke tilgjengelig"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Du har avsluttet denne konkurransen"
+
+msgid "header/participate/started"
+msgstr "Du deltar"
+
+msgid "header/timer"
+msgstr "Slutter om:"
+
+msgid "maintenance/body"
+msgstr "Vi beklager den midlertidige ubeleiligheten."
+
+msgid "maintenance/title"
+msgstr "Feil ved lasting av data"
+
+msgid "maintenance/update"
+msgstr "Oppdatér"
+
+msgid "notification/buttons/details"
+msgstr "Detaljer"
+
+msgid "notification/eventFinished/body"
+msgstr "Konkurransen %(eventName)s er avsluttet. Vinnere vises i løpet av de neste dagene, hvorpå de vil motta sine fortjente premier."
+
+msgid "notification/eventFinished/header"
+msgstr "Ferdig utført"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Resultatene av kampene dine teller nå med i konkurransen, så du vil kunne få en plassering i rangeringen og få en belønning."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Du har blitt med som deltager"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Resultatene av kampene din vil telles med så snart konkurransen begynner, så du kan få en plassering i rangeringen og få en belønning."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Du har blitt med som deltager"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Kan ikke bli med som deltager: Kravene er ikke oppfylt."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Kan ikke bli med som deltager: Registreringsperioden er avsluttet."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Dine statistikker i konkurransen nullstilles etter at rangeringene oppdateres."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Du har avsluttet konkurransen"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Dine statistikker teller ikke med i denne konkurransen."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Du har avsluttet konkurransen"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Kan ikke avslutte konkurransen: Den tilmålte tiden har utløpt."
+
+msgid "notification/eventStarted/body"
+msgstr "Konkurransen %(eventName)s har begynt! Spillere som har tatt premieplasseringer ved konkurransens slutt vil få verdifulle belønninger."
+
+msgid "notification/eventStarted/header"
+msgstr "Konkurransen har begynt"
+
+msgid "notification/unknownError/body"
+msgstr "Kan ikke fullføre operasjonen."
+
+msgid "orders/title"
+msgstr "Krav"
+
+msgid "popover/buttons/cancel"
+msgstr "Avbryt"
+
+msgid "popover/buttons/rating"
+msgstr "Gå til rangering"
+
+msgid "popover/buttons/select"
+msgstr "Velg"
+
+msgid "popover/noVehicles"
+msgstr "Ingen kjøretøy passer det valgte filteret."
+
+msgid "popover/resetFilter"
+msgstr "Nullstill filter"
+
+msgid "popover/title"
+msgstr "Rangeringsliste"
+
+msgid "popover/title/vehicle"
+msgstr "Rangeringsliste"
+
+msgid "popover/tooltip/class"
+msgstr "Gå til rangeringen for kjøretøy av den valgte typen."
+
+msgid "popover/tooltip/level"
+msgstr "Gå til rangeringen for kjøretøy på det valgte nivået."
+
+msgid "popover/tooltip/nation"
+msgstr "Gå til rangeringen for kjøretøy fra den valgte nasjonen."
+
+msgid "server/list"
+msgstr "For å gjøre dine kamper tellende i konkurranse, overfør til den følgende serveren:"
+
+msgid "server/noSuitable/body"
+msgstr "Kampresultater telles neste gang kl: %(data)s. Konkurransetidsskjema"
+
+msgid "server/noSuitable/header"
+msgstr "Kampresultater teller ikke med i konkurransen på dette tidspunktet"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s på %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Mine beste resultater"
+
+msgid "status/bestResults/one"
+msgstr "Mine resultater"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Konkurransen er ikke tilgjengelig:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Du får ikke delta i denne konkurransen på grunn av dine overtredelse av spillets regler"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "konto opprettet etter %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "du har ikke kjempet det påkrevde antall kamper i tilfeldige kamper modusen: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "din vinnrate i tilfeldige kamper modusen overgår %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "du har ikke nådd den følgende vinnraten i tilfeldige kamper modusen: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Registreringperioden avsluttet"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Du kan ikke bli med i denne konkurransen som deltager."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Du har avsluttet denne konkurransen"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Resultatene fra kampene dine teller ikke lenger med i denne konkurransen. Du vil ikke kunne få en plassering i rangeringen eller få belønning.\nDu kan ikke gå tilbake til denne konkurransen igjen."
+
+msgid "status/cantJoin/reason/many"
+msgstr "krav ikke møtt %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "krav ikke møtt (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Du fikk ingen plassering i rangeringen"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Du kan ikke delta i konkurransen med denne kontoen."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "ingen passende kjøretøy"
+
+msgid "status/participate/cantJoin"
+msgstr "Konkurransen er ikke tilgjengelig"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Oppfyll de spesifiserte kravene i kamp, så vil resultatene dine vises her etter at rangeringene er oppdatert."
+
+msgid "status/participate/notParticipated"
+msgstr "Du deltok ikke i denne konkurransen"
+
+msgid "summary/averagedamage"
+msgstr "Gj.snittlig skade"
+
+msgid "summary/averagedamageassisted"
+msgstr "Gjennomsnittlig skade med din assistanse"
+
+msgid "summary/averagexp"
+msgstr "Gj.snittlig erfaring"
+
+msgid "summary/battles"
+msgstr "Kamper i konkurransen"
+
+msgid "summary/damage"
+msgstr "Skade"
+
+msgid "summary/damageassist"
+msgstr "Skade med din assistanse"
+
+msgid "summary/damageblocked"
+msgstr "Blokkert skade"
+
+msgid "summary/description/awards/title/award"
+msgstr "BELØNNING PÅ SLUTTEN AV KONKURRANSEN"
+
+msgid "summary/description/awards/title/group"
+msgstr "GRUPPE"
+
+msgid "summary/description/awards/title/position"
+msgstr "POSISJON"
+
+msgid "summary/description/max/class"
+msgstr "Du kjempet din beste kamp i %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Du kjempet din beste kamp i et nivå %(value)s kjøretøy"
+
+msgid "summary/description/max/nation"
+msgstr "Du kjempet din beste kamp i et kjøretøy fra den følgende nasjonen: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Du kjempet din beste kamp i %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Dine statistikker i konkurransen i %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Dine statistikker i konkurransen på nivå %(value)s kjøretøy"
+
+msgid "summary/description/sum/nation"
+msgstr "Dine statistikker i konkurransen i kjøretøy fra den følgende nasjonen: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Dine statistikker i konkurransen i det følgende kjøretøyet: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Din beste serie kamper i %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Din beste serie kamper på nivå %(value)s"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Din beste serie kamper i kjøretøy fra den følgende nasjonen: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Din beste serie kamper i %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Dine beste kamper i %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Dine beste kamper på nivå %(value)s kjøretøy"
+
+msgid "summary/description/sumN/nation"
+msgstr "Dine beste kamper for den følgende nasjonen: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Dine beste kamper i %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Din beste serie kamper i %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Din beste serie kamper på nivå %(value)s"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Din beste serie kamper i kjøretøy fra den følgende nasjonen: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Din beste serie kamper i %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Fiendtlige kjøretøy bekjempet"
+
+msgid "summary/fightInSquaad"
+msgstr "Kjemp i tropp"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Ikke kjemp i tropp"
+
+msgid "summary/originalXP"
+msgstr "Basiserfaring"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Skade forårsaket med spillers assistanse"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Skade"
+
+msgid "summary/param/max/originalXP"
+msgstr "Basiserfaring"
+
+msgid "summary/param/max/xp"
+msgstr "Erfaring"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Gjennomsnittlig skade forårsaket med spillers assistanse"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Gj.snittlig skade"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Gjennomsnittlig basiserfaring"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Seire"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Gj.snittlig erfaring"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Gjennomsnittlig skade forårsaket med spillers assistanse"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Total skade"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Total basiserfaring"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Total erfaring"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Total skade forårsaket med spillers assistanse"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Total skade"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Total basiserfaring"
+
+msgid "summary/param/sumN/xp"
+msgstr "Total erfaring"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Gjennomsnittlig skade forårsaket med spillers assistanse"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Total skade"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Total basiserfaring"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Total erfaring"
+
+msgid "summary/position"
+msgstr "Rangeringsplass: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Uavgjort"
+
+msgid "summary/result/loss"
+msgstr "Tap"
+
+msgid "summary/result/win"
+msgstr "Seier"
+
+msgid "summary/status"
+msgstr "Oppdatert %(day)s kl. %(time)s"
+
+msgid "summary/winrate"
+msgstr "Seire"
+
+msgid "table/header/player"
+msgstr "Spiller"
+
+msgid "table/header/position"
+msgstr "Nr."
+
+msgid "table/selectParticipateBtn"
+msgstr "Avslutt konkurranse"
+
+msgid "table/selectRatingBtn"
+msgstr "Rangeringsliste"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Bli med som deltager"
+
+msgid "table/stripe/bronze/title"
+msgstr "Gruppe 3 (places %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "Gruppe 1 (places %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "Gruppe 1"
+
+msgid "table/stripe/iron/title"
+msgstr "Gruppe 4 (places %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "Gruppe 2 (places %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Ubelønnede plasseringer"
+
+msgid "task/eventtype/all"
+msgstr "Felles rangering for alle deltagere"
+
+msgid "task/eventtype/class"
+msgstr "Hver kjøretøytype har sin egen rangering"
+
+msgid "task/eventtype/level"
+msgstr "Hvert kjøretøynivå har sin egen rangering"
+
+msgid "task/eventtype/nation"
+msgstr "Hver kjøretøynasjon har sin egen rangering"
+
+msgid "task/eventtype/vehicle"
+msgstr "Hvert kjøretøy har sin egen rangering"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Bli plassert i rangeringen etter forårsaket skade med din assistanse"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Bli plassert i rangeringen etter forårsaket skade"
+
+msgid "task/objective/max/originalXP"
+msgstr "Bli plassert i rangeringen etter tjent basiserfaring"
+
+msgid "task/objective/max/xp"
+msgstr "Bli plassert i rangeringen etter tjent erfaring"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Bli plassert i rangeringen etter totalt påført skade med din assistanse"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Bli plassert i rangeringen etter totalt skade forårsaket"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Bli plassert i rangeringen etter totalt tjent basiserfaring"
+
+msgid "task/objective/sum/wins"
+msgstr "Få en plassering i rangering etter antall seiere"
+
+msgid "task/objective/sum/xp"
+msgstr "Bli plassert i rangeringen etter totalt tjent erfaring"
+
+msgid "task/objparam/damageAssisted"
+msgstr "skade forårsaket med din assistanse"
+
+msgid "task/objparam/damageDealt"
+msgstr "skade forårsaket"
+
+msgid "task/objparam/originalXP"
+msgstr "tjent basiserfaring"
+
+msgid "task/objparam/wins"
+msgstr "antall seiere"
+
+msgid "task/objparam/xp"
+msgstr "erfaring"
+
+msgid "task/selection/max"
+msgstr "Dine beste kamper teller med"
+
+msgid "task/selection/sumAll"
+msgstr "Alle dine kamper teller med"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Beste (%(cardinality)s) kamper i serien teller med. Kamper i serien: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Dine beste kamper teller med: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Din beste serie kamper teller med. Kamper i serien: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "i dag"
+
+msgid "time/day/tomorrow"
+msgstr "i morgen"
+
+msgid "time/day/yesterday"
+msgstr "i går"
+
+msgid "time/eventFinished"
+msgstr "Konkurranset sluttet: %(date)s"
+
+msgid "time/period/day"
+msgstr "d."
+
+msgid "time/period/hour"
+msgstr "t."
+
+msgid "time/period/minute"
+msgstr "min"
+
+msgid "time/timeTo/end"
+msgstr "Slutter om: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Registreringperioden slutter om: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Begynner om: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Belønning tildeles etter at konkurransen er ferdig og avhenger av din plass i rangeringen.\nFor å se listen over alle belønningene i denne konkurransen, klikk Alle belønningene."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Mengden erfaring inkluderer ikke ekstra erfaring fra premiumkonto eller premiumkjøretøy, personlige reserver, multiplikatorer for dagens første seier, eller noen andre spesialer."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Mengden erfaring inkluderer ikke ekstra erfaring fra premiumkjøretøy, personlige reserver, multiplikatorer for dagens første seier, eller noen andre spesialer.\nEkstra erfaring fra premiumkonto teller med."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Skade forårsaket med spillers assistanse for spilleren på siste premieplass: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Skade forårsaket av spiller på siste premieplass: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Basiserfaring tjent av spilleren på den siste premieplassen: %(number)s\nMengden erfaring inkluderer ikke noen ekstra erfaring fra premiumkjøretøy, personlige reserver, multiplikatorer for dagens første seier, eller noen andre spesialer."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Erfaring tjent av spilleren på den siste premieplassen: %(number)s\nMengden erfaring inkluderer ikke noen ekstra erfaring fra premiumkjøretøy, personlige reserver, multiplikatorer for dagens første seier, eller noen andre spesialer.\nEkstra erfaring fra premiumkonto teller med."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Total skade forårsaket med spillers assistanse på siste premieplass: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Total skade forårsaket av spilleren på den siste premieplassen: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Total basiserfaring tjent av spilleren på den siste premieplassen: %(number)s\nMengden erfaring som telles inkluderer ikke noen ekstra erfaring fra premiumkonto eller premiumkjøretøy, personlige reserver, multiplikatorer for dagens første seier eller noen andre spesialer."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Antall seiere for spiller på siste premieplass: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Total erfaring tjent av spilleren på den siste premieplassen: %(number)s\nMengden erfaring som telles inkluderer ikke noen ekstra erfaring fra premiumkonto eller premiumkjøretøy, personlige reserver, multiplikatorer for dagens første seier eller noen andre spesialer."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Ubelønnet plass"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Gruppe %(group)s (positions %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Gjennomsnittlig erfaring tjent av spilleren på den siste premieplassen:"
+
+msgid "top/participation/notParticipated"
+msgstr "Du deltok ikke i denne konkurransen"
+
+msgid "top/participation/notfull"
+msgstr "Du fikk ingen rangering"
+
+msgid "top/participation/notintop"
+msgstr "Du er per nå ikke på premieplass"
+
+msgid "top/position"
+msgstr "Din posisjon:"
+
+msgid "top/reason/notfull"
+msgstr "For å bli plassert i rangeringen, kjemp flere kamper:"
+
+msgid "vehicles/level"
+msgstr "Nivå %(level)s kjøretøy"
+
+msgid "vehicles/tooltip/class"
+msgstr "Klikk for å vise kjøretøy av denne typen som deltar i konkurransen."
+
+msgid "vehicles/tooltip/level"
+msgstr "Klikk for å vise kjøretøy på dette nivået som deltar i konkurransen."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Klikk for å vise kjøretøy fra denne nasjonen som deltar i konkurransen."
+
+msgid "vehicles/vehicle"
+msgstr "Kjøretøy i konkurranse"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Klikk for å vise listen over kjøretøy som ikke får delta i konkurransen."

@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) tilbageværende modul"
+msgstr[1] "%(count) tilbageværende moduler"
+msgstr[2] "%(count) tilbageværende moduler"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Tilbage til moduler"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Ved åbning kan disse moduler give dig premium køretøjer, in-game valuta og andre værdifulde belønninger."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Paradoksmoduler kan fås i in-game butikken eller premium butikken."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoksmodul"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOKSMODUL"
+
+msgid "common/getButton/lowerCase"
+msgstr "Få moduler"
+
+msgid "common/getButton/upperCase"
+msgstr "FÅ MODULER"
+
+msgid "common/loader"
+msgstr "Åbner modul..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Åbn moduler for at se statistik."
+
+msgid "common/statistics/header"
+msgstr "Moduler åbnet: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Al information om åbnede moduler vil blive slettet."
+
+msgid "entryPoint/boxes"
+msgstr "TIL MODULER"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Disse er særlige moduler, der indeholder nye og unikke ting, herunder premium køretøjer, tilpasningselementer, in-game valuta og andre værdifulde belønninger.\nModuler kan fås i in-game butikken eller premium butikken."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Moduler kan ikke åbnes eller fås i øjeblikket på grund af tekniske udfordringer. Vi beklager den midlertidige ulejlighed."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Moduler midlertidigt utilgængelige"
+
+msgid "eventName/lowerCase"
+msgstr "Bryd paradokset"
+
+msgid "eventName/upperCase"
+msgstr "BRYD PARADOKSET"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garanteret belønning i det næste modul!"
+
+msgid "guaranteedTitle/text"
+msgstr "Max antal moduler til en garanteret belønning: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Hvis du ikke åbner moduler, før eventet er slut, vil de senere blive åbnet automatisk."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Hvis du allerede ejer alle køretøjer fra listen over muligt indhold i moduler, vil alle følgende køretøjer du modtager fra moduler blive kompenseret med guld, der modsvarer deres fulde værdi."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Hver %(guaranteed0)s moduler vil med garanti indeholde et premium køretøj. Hvis du åbner dem uden at finde et sådant køretøj, så vil du finde et premium køretøj, som du ikke allerede ejer, i det %(guaranteed0)s. modul. Når køretøjet findes, nulstilles tælleren."
+
+msgid "infoPage/header/description"
+msgstr "Åbn modulet for muligheden for at modtage værdifulde in-game ting! Se flere detaljer nedenfor."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Fra %(name) (%(boxesCount) moduler åbnet)"
+
+msgid "noBoxesView/description/"
+msgstr "Du har ingen moduler. Du kan finde dem\ni in-game butikken eller premium butikken."
+
+msgid "preview/backLabel"
+msgstr "TIL MODULER"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Moduler tilgængelige: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Ingen moduler tilgængelige"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Hvis du allerede ejer alle køretøjerne fra listen over muligt indhold i modulerne, vil alle følgende køretøjer du modtager fra moduler blive kompenseret med guld."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) modul"
+msgstr[1] "%(remainingCount) moduler"
+msgstr[2] "%(remainingCount) moduler"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Den garanterede belønning er et køretøj fra listen over muligt indhold i moduler.\nHvis du åbner %(remainingCount), uden at de indeholder et sådant køretøj, vil det være at finde, når du åbner det %(count). modul. Når det sker, vil tælleren blive nulstillet."

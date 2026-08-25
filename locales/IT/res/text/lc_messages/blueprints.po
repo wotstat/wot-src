@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Cianografia assemblata"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Cianografia  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Cianografia {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Da acquistare"
+
+msgid "blueprintScreen/button/research"
+msgstr "Da ricercare"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Vedi in Officina"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Puoi assemblare una cianografia per ottenere uno sconto sulla ricerca del veicolo desiderato: tuttavia, per ottenerlo dovrai ricercare il precedente veicolo\ndel ramo."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Affermativo!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Impossibile ricercare"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Per creare un frammento di cianografia hai bisogno:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "seleziona:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "CREA FRAMMENTO:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Crea frammenti"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Converti\nframmento"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Conversione\nnon disponibile"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "NON DISPONIBILE:\nRisorse\ninsufficienti"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Vai al veicolo"
+
+msgid "blueprintScreen/or"
+msgstr "o"
+
+msgid "blueprintScreen/research"
+msgstr "RICERCA"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Ricerca il veicolo gratuitamente"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Impossibile ricercare"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Sconto sulla ricerca:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Questo veicolo è stato ricercato ed è disponibile per l'acquisto"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Questo veicolo è stato ricercato e acquistato"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "In Magazzino:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Potrai usare uno sconto del 100% sulla ricerca di {vehicleName} dopo che avrai ricercato il veicolo precedente del ramo."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Cianografia assemblata"
+
+msgid "blueprintScreen/unlocked"
+msgstr "VEICOLO\nRICERCATO"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Coalizione:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Blocco:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Alleanza:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Unione:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Universale:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Coalizione"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Blocco"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Alleanza"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Unione"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Francia, Cecoslovacchia, Svezia e Italia)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Germania e Giappone)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(U.S.A., U.K. e Polonia)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(U.R.S.S. e Cina)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Seleziona il numero di frammenti nazionali per creare frammenti di cianografie di veicoli.\nDisponibili frammenti nazionali %(allianceIcon)%(allianceName)%(allianceNations)."
+
+msgid "conversionView/topMessage/single"
+msgstr "Seleziona i frammenti di una delle nazioni per creare un frammento di cianografia di veicolo.\nDisponibili frammenti nazionali %(allianceIcon)%(allianceName)%(allianceNations)."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Costo finale:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Costo frammento di cianografia:"
+
+msgid "nations/china"
+msgstr "Cina"
+
+msgid "nations/czech"
+msgstr "Cecoslovacchia"
+
+msgid "nations/france"
+msgstr "Francia"
+
+msgid "nations/germany"
+msgstr "Germania"
+
+msgid "nations/italy"
+msgstr "Italia"
+
+msgid "nations/japan"
+msgstr "Giappone"
+
+msgid "nations/poland"
+msgstr "Polonia"
+
+msgid "nations/sweden"
+msgstr "Svezia"
+
+msgid "nations/uk"
+msgstr "U.K."
+
+msgid "nations/usa"
+msgstr "U.S.A."
+
+msgid "nations/ussr"
+msgstr "U.R.S.S."

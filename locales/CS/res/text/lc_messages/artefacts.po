@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Překladatel WoT <noreply@wargaming.net>\nLanguage-Team: WoT Tým <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "actionStub/name"
+msgstr "Modifikace"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Okamžitě obnoví %(immediatelyRestore)s z bodů výdrže vozidla. Během %(duration)s s doby trvání schopnosti bude až do skončení schopnosti všechno poškození obdržené od granátů a bojových schopností shromažďováno a konvertováno na body výdrže plus dalších %(restoringCoefficient)s z celkového obdrženého poškození.\n\n*Zkonvertované obnovené body výdrže ovlivní také spojenecká vozidla v blízkosti."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Okamžitě obnoví %(immediatelyRestore)s z bodů výdrže vozidla. Během %(duration)s s doby trvání schopnosti bude až do skončení schopnosti všechno poškození obdržené od granátů a bojových schopností shromažďováno a konvertováno na body výdrže plus dalších %(restoringCoefficient)s z celkového obdrženého poškození.\n\n*Zkonvertované obnovené body výdrže ovlivní také spojenecká vozidla v blízkosti."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "Okamžitě {green_Open}obnoví %(immediatelyRestore)s{green_Close} z bodů výdrže vozidla. Během {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} doby trvání schopnosti bude až do skončení schopnosti všechno poškození obdržené od granátů a bojových schopností shromažďováno a konvertováno na body výdrže plus {green_Open}dalších %(restoringCoefficient)s z celkového obdrženého poškození{green_Close}.\n\n*Zkonvertované obnovené body výdrže ovlivní také spojenecká vozidla v blízkosti."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Adaptivní pancíř"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "Okamžitě {green_Open}obnoví %(immediatelyRestore)s{green_Close} z bodů výdrže vozidla. Během {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} doby trvání schopnosti bude až do skončení schopnosti všechno poškození obdržené od granátů a bojových schopností shromažďováno a konvertováno na body výdrže plus {green_Open}dalších %(restoringCoefficient)s z celkového obdrženého poškození{green_Close}.\n\n*Zkonvertované obnovené body výdrže ovlivní také spojenecká vozidla v blízkosti."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s k maskování nehybného či jedoucího vozidla s namontovaným Nízkohlučným výfukovým systémem (jakékoliv třídy) nebo Trofejním výfukovým systémem."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2 %"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2 %"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje účinek Nízkohlučného výfukového systému nebo Trofejního výfukového systému. Směrnice bude fungovat pouze tehdy, když budete mít namontované odpovídající vybavení."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Izolace výfuku"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Zvyšuje maskování nehybného či jedoucího vozidla"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Účinnost závisí na typu vozidla. Zvyšuje maskování nehybného či jedoucího vozidla. Hodí se pro aktivní i pasivní odhalování nepřátel z riskantních pozic."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Nízkohlučný výfukový systém"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Zvyšuje maskování nehybného či jedoucího vozidla."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Nízkohlučný výfukový systém 1. třídy"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Nízkohlučný výfukový systém 2. třídy"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Nízkohlučný výfukový systém 3. třídy"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Přídavné pancéřování (typ 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Přídavné pancéřování (typ 2)"
+
+msgid "afterburning/descr"
+msgstr "Na omezenou dobu zvyšuje rychlost a akceleraci vašeho vozidla."
+
+msgid "afterburning/name"
+msgstr "Turbodmychadlo"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Snížení rozptylu vašeho děla je kritické: čím menší je počáteční rozptyl, tím menší je kruh zaměřovače a tím rychleji můžete plně doměřit své dělo. Navíc bude mít výstřel bez přípravy (který je vypálen bez plného doměření či za pohybu) lepší šanci na zasažení cíle."
+
+msgid "aimingStabilizer/name"
+msgstr "Vertikální stabilizátor"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s z rozptylu po výstřelu, za pohybu a při rotaci věže s namontovaným Vertikálním stabilizátorem, Systémem stabilizačního vybavení či Trofejním stabilizátorem."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5 %"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5 %"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje účinek Vertikálního stabilizátoru (jakékoliv třídy), Systému stabilizačního vybavení nebo Trofejního stabilizátoru. Tyto položky vybavení by měly být na vašem vozidle namontovány, abyste se mohli směrnicí vybavit a aktivovat ji."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Mazání stabilizátoru"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Zlepšuje účinek stabilizátoru"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Vertikální stabilizátor 1. třídy"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Vertikální stabilizátor 2. třídy"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Vertikální stabilizátor 1. třídy"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Vertikální stabilizátor 2. třídy"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Protistřepinové vložky pohlcují poškození. To znamená, že snižují poškození z nárazů a výbušných granátů. Protistřepinové vložky budou přínosné pro těžké tanky se spolehlivým pancířem a velkým potenciálem k nárazům, které bojují hlavně v boji zblízka."
+
+msgid "antifragmentationLining/name"
+msgstr "Protistřepinová vložka"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Chrání vozidlo a posádku před HE granáty, zraněním, ochromením a nárazy"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Supertěžká protistřepinová vložka"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Těžká protistřepinová vložka"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Protistřepinová vložka (střední)"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Lehká protistřepinová vložka"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Výfukový systém"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Stabilizátor"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Protistřepinová vložka"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Maskovací síť"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Optika"
+
+msgid "archetype/commandersView/name"
+msgstr "Sledovací systém"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Pohon děla"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Kalení"
+
+msgid "archetype/grousers/name"
+msgstr "Rozšíření tankových pásů"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Konfigurace"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Rádiová sada"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Otočný mechanismus"
+
+msgid "archetype/improvedSights/name"
+msgstr "Zaměřování"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Ventilace"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Systém řízení palby"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Souprava pro zvýšení odolnosti"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Systém zvýšení přesnosti"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Systém zvýšení pohyblivosti"
+
+msgid "archetype/stereoscope/name"
+msgstr "Binokulární dalekohled"
+
+msgid "archetype/tankRammer/name"
+msgstr "Nabiják"
+
+msgid "archetype/template"
+msgstr "Kategorie vybavení „%(name)s“"
+
+msgid "archetype/turbocharger/name"
+msgstr "Turbodmychadlo"
+
+msgid "artillery/longDescr"
+msgstr "Přikazuje dělostřelectvu zahájit palbu HE granáty na malou oblast. Nejvíce poškozena budou vozidla uprostřed oblasti dopadu. Efektivní zejména proti těžce pancéřovaným vozidlům."
+
+msgid "artillery/name"
+msgstr "Dělostřelecký úder"
+
+msgid "artillery/shortDescr"
+msgstr "V malém okruhu výrazně poškozuje nepřátelská vozidla."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s z pravděpodobnosti vznícení motoru"
+
+msgid "autoExtinguishers/descr"
+msgstr "Automatické uhašení požáru ve vašem vozidle."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Automaticky hasí požár a také snižuje šanci na vznícení vozidla. Tento spotřební doplněk se hodí pro všechny typy vozidel všech národů."
+
+msgid "autoExtinguishers/name"
+msgstr "Automatický hasicí přístroj"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Automatické uhašení požáru ve vašem vozidle. V bitvě lze použít vícekrát. Pokud byl alespoň jednou použit, je spotřební doplněk po bitvě odstraněn."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Automatické uhašení požáru"
+
+msgid "berserker/battleDescr"
+msgstr "%(gunPiercing)snásobně zvyšuje průbojnost a rychlost palby a zároveň zvyšuje efektivitu pohonu děla a stabilizaci o %(gunAimingTime)s, ale po dobu trvání %(duration)s s odebírá %(healthDebuff)s z celkových bodů výdrže vašeho vozidla.\n\n*Poškození způsobené schopností „Berserk“ nemůže vaše vozidlo zničit."
+
+msgid "berserker/descr"
+msgstr "%(gunPiercing)s násobně zvyšuje průbojnost a rychlost palby a zároveň zvyšuje efektivitu pohonu děla a stabilizace o %(gunAimingTime)s, ale během %(duration)s s doby trvání odebírá %(healthDebuff)s z celkových bodů výdrže vašeho vozidla.\n\n*Poškození způsobené schopností „Berserk“ nemůže vaše vozidlo zničit."
+
+msgid "berserker/longDescr"
+msgstr "{green_Open}%(gunPiercing)snásobně{green_Close} zvyšuje průbojnost a rychlost palby a zároveň zvyšuje efektivitu pohonu děla a stabilizace {green_Open}o %(gunAimingTime)s{green_Close}, ale během{whiteSpanish_Open} %(duration)ss{whiteSpanish_Close} doby trvání odebírá {red_Open}%(healthDebuff)s{red_Close} z celkových bodů výdrže vašeho vozidla.\n\n*Poškození způsobené schopností „Berserk“ nemůže zničit vaše vozidlo."
+
+msgid "berserker/name"
+msgstr "Berserk"
+
+msgid "berserker/shortDescr"
+msgstr "{green_Open}%(gunPiercing)snásobně{green_Close} zvyšuje průbojnost a rychlost palby a zároveň zvyšuje efektivitu pohonu děla a stabilizace {green_Open}o %(gunAimingTime)s{green_Close}, ale během{whiteSpanish_Open} %(duration)ss{whiteSpanish_Close} doby trvání odebírá {red_Open}%(healthDebuff)s{red_Close} z celkových bodů výdrže vašeho vozidla.\n\n*Poškození způsobené schopností „Berserk“ nemůže zničit vaše vozidlo."
+
+msgid "blackout_headlights_1/name"
+msgstr "Zatmavení světlometů (typ1)"
+
+msgid "bomber/longDescr"
+msgstr "Přikazuje bitevníku shodit na vybranou oblast pumy, které ochromí a poškodí nepřátelská vozidla. Nejvíce poškozena budou vozidla uprostřed oblasti dopadu. Mimořádně efektivní proti lehce a středně pancéřovaným vozidlům."
+
+msgid "bomber/name"
+msgstr "Nálet"
+
+msgid "bomber/shortDescr"
+msgstr "Ve velkém okruhu ochromuje nepřátelská vozidla a způsobuje střední poškození."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Po dobu %(duration)s s postupně obnovuje %(healPerTickDuration)s z bodů výdrže vašeho vozidla. Obdržené poškození efekt přeruší."
+
+msgid "brRegenerationKit/descr"
+msgstr "Po dobu %(duration)s s postupně obnovuje %(healPerTickDuration)s z bodů výdrže vašeho vozidla. Obdržené poškození efekt přeruší."
+
+msgid "brRegenerationKit/long_special"
+msgstr "{whiteSpanish_Open}Po dobu %(duration)s s{whiteSpanish_Close} postupně {green_Open}obnovuje %(healPerTickDuration)s{green_Close} z bodů výdrže vašeho vozidla. Obdržené poškození efekt přeruší."
+
+msgid "brRegenerationKit/name"
+msgstr "Obnovení"
+
+msgid "brRegenerationKit/short_special"
+msgstr "{whiteSpanish_Open}Po dobu %(duration)s s{whiteSpanish_Close} postupně {green_Open}obnovuje %(healPerTickDuration)s{green_Close} z bodů výdrže vašeho vozidla. Obdržené poškození efekt přeruší."
+
+msgid "brRepairkit/descr"
+msgstr "Opravuje moduly a odstraňuje negativní účinky."
+
+msgid "brRepairkit/long_special"
+msgstr "Opravuje moduly a odstraňuje negativní účinky."
+
+msgid "brRepairkit/name"
+msgstr "Sada nářadí"
+
+msgid "brRepairkit/short_special"
+msgstr "Opravuje moduly a odstraňuje negativní účinky."
+
+msgid "br_bomber/battleDescr"
+msgstr "Ochromuje a způsobuje %(minDamage)s až %(maxDamage)s bodů poškození nepřátelským vozidlům. Vozidla uprostřed oblasti dopadu jsou poškozena vážněji.\n\n*Před dopadem dochází k %(delay)s s prodlení."
+
+msgid "br_bomber/descr"
+msgstr "Ochromuje a způsobuje %(minDamage)s až %(maxDamage)s bodů poškození nepřátelským vozidlům. Vozidla uprostřed oblasti dopadu jsou poškozena vážněji.\n\n*Před dopadem dochází k %(delay)s s prodlení."
+
+msgid "br_bomber/longDescr"
+msgstr "Ochromuje a způsobuje {whiteSpanish_Open}%(minDamage)s až %(maxDamage)s bodů poškození{whiteSpanish_Close} nepřátelským vozidlům. Vozidla uprostřed oblasti dopadu jsou poškozena vážněji.\n\n*Před dopadem dochází k %(delay)ss prodlení."
+
+msgid "br_bomber/name"
+msgstr "Nálet"
+
+msgid "br_bomber/shortDescr"
+msgstr "Ochromuje a způsobuje {whiteSpanish_Open}%(minDamage)s až %(maxDamage)s bodů poškození{whiteSpanish_Close} nepřátelským vozidlům. Vozidla uprostřed oblasti dopadu jsou poškozena vážněji.\n\n*Před dopadem dochází k %(delay)ss prodlení."
+
+msgid "br_minefield/battleDescr"
+msgstr "Na %(duration)s s pokládá ve vybrané oblasti aktivní minové pole. Nepřátelská vozidla, která se dostanou do kontaktu s minami, mohou být ochromena a obdržet výbušné poškození.\n\n*Miny lze zničit palbou. Miny položené pod nepřátelskými vozidly NEVYBUCHNOU."
+
+msgid "br_minefield/descr"
+msgstr "Na %(duration)s s pokládá ve vybrané oblasti aktivní minové pole. Nepřátelská vozidla, která se dostanou do kontaktu s minami, mohou být ochromena a obdržet výbušné poškození.\n\n*Miny lze zničit palbou. Miny položené pod nepřátelskými vozidly NEVYBUCHNOU."
+
+msgid "br_minefield/longDescr"
+msgstr "{whiteSpanish_Open}Na %(duration)s s{whiteSpanish_Close} pokládá ve vybrané oblasti aktivní minové pole. Nepřátelská vozidla, která se dostanou do kontaktu s minami, mohou být ochromena a obdržet výbušné poškození.\n\n*Miny lze zničit palbou. Miny položené pod nepřátelskými vozidly NEVYBUCHNOU."
+
+msgid "br_minefield/name"
+msgstr "Minové pole"
+
+msgid "br_minefield/shortDescr"
+msgstr "{whiteSpanish_Open}Na %(duration)s s{whiteSpanish_Close} pokládá ve vybrané oblasti aktivní minové pole. Nepřátelská vozidla, která se dostanou do kontaktu s minami, mohou být ochromena a obdržet výbušné poškození.\n\n*Miny lze zničit palbou. Miny položené pod nepřátelskými vozidly NEVYBUCHNOU."
+
+msgid "br_respawn/name"
+msgstr "Znovuobjevení"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Umožňuje vám vrátit se po zničení vašeho vozidla do bitvy. Tato mechanika funguje během prvních %(duration)s min bitvy.\n\nAbyste mohli znovuobjevit spojence, zůstaňte po dobu %(timeToResurrect)s s mimo boj. Použití Znovuobjevení je sdíleno mezi členy čety."
+
+msgid "br_respawn/solo/descr"
+msgstr "Umožňuje vám vrátit se po zničení vašeho vozidla do bitvy. Tato mechanika funguje během prvních %(duration)s min bitvy.\n\nJakmile je vaše vozidlo zničeno, automaticky se znovu objeví."
+
+msgid "br_smoke/battleDescr"
+msgstr "Přidává %(duration)s sekundový bonus k maskování všem vozidlům v dosahu spotřebního doplňku."
+
+msgid "br_smoke/descr"
+msgstr "Přidává bonus k maskování všem vozidlům v dosahu spotřebního doplňku."
+
+msgid "br_smoke/longDescr"
+msgstr "Přidává %(duration)ssekundový bonus k maskování všem vozidlům v dosahu spotřebního doplňku."
+
+msgid "br_smoke/name"
+msgstr "Kouřová clona"
+
+msgid "br_smoke/shortDescr"
+msgstr "Přidává bonus k maskování všem vozidlům v dosahu spotřebního doplňku."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Přidává bonus k maskování pro všechna vozidla v dosahu spotřebního doplňku a také poškozuje VŠECHNA vozidla v dosahu za %(damagePerTick)s z celkového počtu bodů výdrže za sekundu. Trvá %(duration)s s.\n\n*Poškození žíravou mlhou nepřeruší sbírání kořisti a nezničí vozidla, kterým ponechá alespoň 1 bod výdrže."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Přidává bonus k maskování pro všechna vozidla v dosahu spotřebního doplňku a také poškozuje VŠECHNA vozidla v dosahu za %(damagePerTick)s z celkového počtu bodů výdrže za sekundu. Trvá %(duration)s s.\n\n*Poškození žíravou mlhou nepřeruší sbírání kořisti a nezničí vozidla, kterým ponechá alespoň 1 bod výdrže."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Přidává bonus k maskování pro všechna vozidla v dosahu spotřebního doplňku a také poškozuje VŠECHNA vozidla v dosahu {whiteSpanish_Open}za %(damagePerTick)s {whiteSpanish_Close}z celkového počtu bodů výdrže za sekundu. Trvá {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Žíravá mlha nepřeruší sbírání kořisti a nezničí vozidla, kterým ponechá alespoň 1 bod výdrže."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Žíravá mlha"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Přidává bonus k maskování pro všechna vozidla v dosahu spotřebního doplňku a také poškozuje VŠECHNA vozidla v dosahu {whiteSpanish_Open}za %(damagePerTick)s {whiteSpanish_Close}z celkového počtu bodů výdrže za sekundu. Trvá {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Žíravá mlha nepřeruší sbírání kořisti a nezničí vozidla, kterým ponechá alespoň 1 bod výdrže."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s k rychlosti oprav modulů"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Při aktivaci opravuje všechny poškozené moduly najednou. Pasivní účinek zvyšuje rychlost oprav. Tento spotřební doplněk se hodí pro určitá vozidla."
+
+msgid "builtinRepairkit/name"
+msgstr "Standardní Velká sada nářadí"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Oprava všech poškozených modulů. V bitvě lze použít vícekrát. Nedá se spotřebovat.\nTento spotřební doplněk se nedá odstranit, ale dá se přesunout do jiné pozice."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Poskytuje dalších 10 % k maskování vozidla"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Poskytuje všem členům posádky 100% vycvičenou schopnost „Maskování“"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy snižuje schopnost „Maskování“ viditelnost jedoucího i stojícího vozidla. Když je schopnost vycvičena na 100 %, zvyšuje instalace směrnice její účinek. Pokud schopnost vycvičena není, zajistí směrnice vašemu vozidlu tuto schopnost vycvičenou na 100 %."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Přirozené krytí"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Poskytuje 100% vycvičenou schopnost „Maskování“ nebo zvyšuje její účinek"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Zvyšuje maskování nehybného vozidla 3 sekundy po zastavení"
+
+msgid "camouflageNet/long_special"
+msgstr "Účinnost závisí na typu vozidla. Maskovací síť je výhodná zejména pro nenápadná vozidla: dělostřelectvo a stíhače tanků s nízkou siluetou. Zvyšuje účinek schopnosti „Maskování“. Jejich kombinace zajistí vašemu vozidlu dobrý bonus. Maskovací síť se aktivuje 3 sekundy poté, co se vozidlo přestane pohybovat."
+
+msgid "camouflageNet/name"
+msgstr "Maskovací síť"
+
+msgid "camouflageNet/short_special"
+msgstr "Zvyšuje maskování nehybného vozidla"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Maskovací síť 2. třídy"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Maskovací síť 3. třídy"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "chocolate/long_special"
+msgstr "Automaticky se aktivuje na začátku bitvy a účinkuje po dobu jejího trvání. Hodí se pouze pro německá vozidla."
+
+msgid "chocolate/name"
+msgstr "Čokoláda"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Vhodná pouze pro německá vozidla."
+
+msgid "chocolate/short_special"
+msgstr "Zvyšuje výkon německých posádek"
+
+msgid "clingBrander/battleDescr"
+msgstr "Na až %(botLifeTime)s s přivolá autonomní tank vybavený systémem identifikace přítel–nepřítel, který bude pronásledovat nejbližšího nepřítele a zaútočí na něj.\n\n*Tento tank může být zničen."
+
+msgid "clingBrander/descr"
+msgstr "Na až %(botLifeTime)s s přivolá autonomní tank vybavený systémem identifikace přítel–nepřítel, který bude pronásledovat nejbližšího nepřítele a zaútočí na něj.\n\n*Tento tank může být zničen."
+
+msgid "clingBrander/longDescr"
+msgstr "Na {whiteSpanish_Open}až %(botLifeTime)s s{whiteSpanish_Close} přivolá autonomní tank vybavený systémem identifikace přítel–nepřítel, který bude pronásledovat nejbližšího nepřítele a zaútočí na něj.\n\n*Tento tank může být zničen."
+
+msgid "clingBrander/name"
+msgstr "Bojový robot"
+
+msgid "clingBrander/shortDescr"
+msgstr "Na {whiteSpanish_Open}až %(botLifeTime)s s{whiteSpanish_Close} přivolá autonomní tank vybavený systémem identifikace přítel–nepřítel, který bude pronásledovat nejbližšího nepřítele a zaútočí na něj.\n\n*Tento tank může být zničen."
+
+msgid "clutches_replace_1/name"
+msgstr "Výměna třecích spojek (typ 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Výměna třecích spojek (typ 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Na rozdíl od Binokulárního dalekohledu poskytuje Skládaná optika (jakéhokoliv typu) menší, ale stálý bonus, který nemizí s pohybem vozidla. Ve výsledku je Skládaná optika velmi výhodná pro vozidla s aktivním stylem hry — lehké a střední tanky."
+
+msgid "coatedOptics/name"
+msgstr "Skládaná optika"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s k dohledu (až do 445 m) s namontovanou Skládanou optikou (jakékoliv třídy) Experimentální optikou či Trofejní optikou."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2,5 %"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2,5 %"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje účinek Skládané optiky, Experimentální optiky nebo Trofejní optiky. Tyto položky vybavení by měly být na vašem vozidle namontovány, abyste se mohli směrnicí vybavit a aktivovat ji."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Optická kalibrace"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Zlepšuje účinek optiky"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Skládaná optika 1. třídy"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Skládaná optika 2. třídy"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Skládaná optika 3. třídy"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "cocacola/long_special"
+msgstr "Automaticky se aktivuje na začátku bitvy a účinkuje po dobu jejího trvání. Hodí se pouze pro americká vozidla."
+
+msgid "cocacola/name"
+msgstr "Plechovka koly"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Vhodná pouze pro americká vozidla."
+
+msgid "cocacola/short_special"
+msgstr "Zvyšuje výkon amerických posádek"
+
+msgid "commandersView/long_special"
+msgstr "Při odhalování snižuje maskování pohybujících se nepřátel a koeficienty maskování nepřátel listovím. To vám umožní rychlejší odhalování jedoucích nepřátel na delší vzdálenost a efektivnější odhalování nepřátel, kteří jsou zamaskovaní keři či padlými stromy."
+
+msgid "commandersView/name"
+msgstr "Sledovací systém velitele"
+
+msgid "commandersView/short_special"
+msgstr "Snižuje maskování nepřátelských vozidel, ať už se pohybují, nebo jsou za listovím"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Přidává granátu žíravé vlastnosti, které zvyšují jeho průbojnost a potenciál poškození. Po poškození nepřátelského vozidla na něj granát aplikuje dočasný efekt, který po dobu až %(dotEffectDuration)s s snižuje o %(damagePerDotEffectDuration)s body výdrže nepřátelského vozidla.\n\n*Negativní efekt lze odstranit použitím sady nářadí."
+
+msgid "corrodingShot/descr"
+msgstr "Přidává granátu žíravé vlastnosti, které zvyšují jeho průbojnost a potenciál poškození. Po poškození nepřátelského vozidla na něj granát aplikuje dočasný efekt, který po dobu až %(dotEffectDuration)s s snižuje o %(damagePerDotEffectDuration)s body výdrže nepřátelského vozidla.\n\n*Negativní efekt lze odstranit použitím sady nářadí."
+
+msgid "corrodingShot/longDescr"
+msgstr "Přidává granátu žíravé vlastnosti, které zvyšují jeho průbojnost a potenciál poškození. Po poškození nepřátelského vozidla na něj granát aplikuje dočasný efekt, který {whiteSpanish_Open}po dobu až %(dotEffectDuration)s{whiteSpanish_Close} s sníží {whiteSpanish_Open}o %(damagePerDotEffectDuration)s{whiteSpanish_Close} body výdrže nepřátelského vozidla.\n\n*Negativní efekt lze odstranit použitím sady nářadí."
+
+msgid "corrodingShot/name"
+msgstr "Žíravý granát"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Přidává granátu žíravé vlastnosti, které zvyšují jeho průbojnost a potenciál poškození. Po poškození nepřátelského vozidla na něj granát aplikuje dočasný efekt, který {whiteSpanish_Open}po dobu až %(dotEffectDuration)s{whiteSpanish_Close} s sníží {whiteSpanish_Open}o %(damagePerDotEffectDuration)s{whiteSpanish_Close} body výdrže nepřátelského vozidla.\n\n*Negativní efekt lze odstranit použitím sady nářadí."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Zlepšuje následující"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Prvek velitele"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} „{name}“"
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "schopnost:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Dává následující"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "schopnost:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Vylepšená verze Vertikálního stabilizátoru ({colorTagOpen}–20 %{colorTagClose} z rozptylu po výstřelu, za pohybu a při rotaci věže), která poskytuje silnější účinek: {colorTagOpen}–27,5 %{colorTagClose} z rozptylu po výstřelu, za pohybu a při rotaci věže. Toto vybavení je vhodné pro vozidla všech národů a určitých typů. Lze ho odmontovat pouze za bony."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Systém stabilizačního vybavení"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Vylepšená verze Skládané optiky ({colorTagOpen}+10 %{colorTagClose} k dohledu), která poskytuje silnější účinek: {colorTagOpen}+13,5 %{colorTagClose} k dohledu. Toto vybavení se hodí pro vozidla všech typů a národů. Lze ho odmontovat pouze za bony."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Experimentální optika"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Vylepšená verze Vylepšeného pohonu děla ({colorTagOpen}+10 %{colorTagClose} k rychlosti zaměření), která poskytuje silnější účinek: {colorTagOpen}+13,5 %{colorTagClose} k rychlosti zaměření. Toto vybavení se hodí pro vozidla všech typů a národů. Lze ho odmontovat pouze za bony."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Opotřebení odolný pohon děla"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Obdoba Upravené konfigurace, která poskytuje silnější účinek. Toto vybavení se hodí pro vozidla všech typů a národů. Lze ho odmontovat pouze za bony."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Vylepšená konfigurace"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Zrychluje opravy, chrání bednu s municí, palivové nádrže a motor"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Vylepšená verze Ventilace ({colorTagOpen}+5 %{colorTagClose} k bonusu efektivity posádky), která poskytuje silnější účinek: {colorTagOpen}+8,5 %{colorTagClose} k efektivitě posádky. Toto vybavení se hodí pro vozidla všech typů a národů. Lze ho odmontovat pouze za bony."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Ventilační systém"
+
+msgid "deluxRammer/long_special"
+msgstr "Vylepšená verze Nabijáku ({colorTagOpen}-10 %{colorTagClose} z doby nabíjení), která poskytuje silnější účinek: {colorTagOpen}-13,5 %{colorTagClose} z doby nabíjení. Toto vybavení se hodí pro vozidla všech typů a národů. Lze ho odmontovat pouze za bony."
+
+msgid "deluxRammer/name"
+msgstr "Inovativní systém nabíjení"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Vylepšená verze Nízkohlučného výfukového systému, která poskytuje silnější efekt: zvyšuje maskování nehybného nebo jedoucího vozidla. Užitečná pro aktivní odhalování a také pro pasivní odhalování z riskantních pozic.\nToto vybavení je vhodné pro vozidla všech národů a typů, ale jeho efektivita závisí na typu vozidla. Lze ho odmontovat pouze za bony."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Tichý výfukový systém"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Zvyšuje maskování nehybného nebo jedoucího vozidla o {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10 %{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Zvyšuje maskování nehybného vozidla 1,5 sekundy po zastavení"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Vylepšená verze Maskovací sítě, jejíž efektivita závisí na typu vozidla. Taktická maskovací síť je výhodná zejména pro nenápadná vozidla: dělostřelectvo a stíhače tanků s nízkou siluetou. Zvyšuje účinek schopnosti „Maskování“. Jejich kombinace zajistí vašemu vozidlu dobrý bonus. Taktická maskovací síť se aktivuje 1,5 sekundy poté, co se vozidlo přestane pohybovat."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Taktická maskovací síť"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5 %{colorTagClose} k maskování nehybného vozidla"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Po opravách plně obnovuje body výdrže podvozku."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Po opravách obnovuje podvozek."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Vylepšená verze Vylepšeného kalení: {colorTagOpen}+12,5 %{colorTagClose} k bodům výdrže vozidla, {colorTagOpen}+75 %{colorTagClose} k výdrži podvozku, {colorTagOpen}+30 %{colorTagClose} k rychlosti oprav podvozku, {colorTagOpen}–75 %{colorTagClose} z poškození korby způsobeného poškozením podvozku při dopadu. Po opravách plně obnovuje body výdrže podvozku. Snižuje pravděpodobnost zničení pásu při obdržení poškození, což vašemu vozidlu umožňuje, aby co nejdéle zůstalo v pohybu. Toto vybavení se hodí pro vozidla všech národů a typů (s výjimkou dělostřelectva). Lze ho odmontovat pouze za bony."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Zvýšená odolnost proti granátům"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Zvyšuje odolnost a chrání podvozek"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "Vylepšená verze Vylepšeného otočného mechanismu, která poskytuje silnější účinek: {colorTagOpen}+17,5 % {colorTagClose}k rychlosti otáčení děla, {colorTagOpen}+17,5 % {colorTagClose}k rychlosti otáčení korby a {colorTagOpen}−17,5 % {colorTagClose}z rozptylu za pohybu a při rotaci věže. Toto vybavení je vhodné pro vozidla všech národů a typů. Lze jej odmontovat pouze za bony."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Vylepšený koncový převod"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Zvyšuje rychlost otáčení a snižuje rozptyl děla za pohybu a při rotaci"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "Vylepšená verze Vylepšeného míření, která poskytuje silnější účinek: snižuje velikost kruhu zaměřovače při míření nebo plně zaměřeného děla o {colorTagOpen}9%{colorTagClose}. Díky tomu má vaše dělo větší šanci, že zasáhne cíl. Toto vybavení se hodí pro vozidla všech typů a národů, vyjma dělostřelectva. Lze ho odmontovat pouze za bony."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Inovativní míření"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Snižuje rozptyl děla"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Zvyšuje dohled nehybného vozidla 1,5 sekundy poté, co zastaví (až do 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Vylepšená verze Binokulárního dalekohledu. Dobrý dohled poskytuje vozidlům v bitvě slušnou výhodu. Tento typ vybavení je výhodný pro stíhače tanků s nízkými siluetami a přesnými děly. Aktivuje se 1,5 sekundy poté, co se vozidlo přestane pohybovat."
+
+msgid "deluxeStereoscope/name"
+msgstr "Teleskopický pozorovací systém"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27,5 %{colorTagClose} k dohledu nehybného vozidla (až do 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Vylepšená verze Turbodmychadla ({colorTagOpen}+7,5 %{colorTagClose} k výkonu motoru, {colorTagOpen}+4 km/h{colorTagClose} k maximální rychlosti jízdy vpřed, {colorTagOpen}+2 km/h{colorTagClose} k maximální rychlosti couvání): {colorTagOpen}+12,5 %{colorTagClose} k výkonu motoru, {colorTagOpen}+6 km/h{colorTagClose} k maximální rychlosti jízdy vpřed, {colorTagOpen}+4 km/h{colorTagClose} k maximální rychlosti couvání. Toto vybavení se hodí pro vozidla všech národů a typů (s výjimkou kolových vozidel). Lze ho odmontovat pouze za bony."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Vylepšené dmychadlo"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Zvyšuje výkon motoru a maximální rychlost"
+
+msgid "eb_minefield/descr"
+msgstr "Na určitou dobu pokládá ve vybrané oblasti aktivní minové pole."
+
+msgid "eb_minefield/long_descr"
+msgstr "Na určitou dobu pokládá ve vybrané oblasti aktivní minové pole. Miny při výbuchu poškodí a ochromí nepřátelská vozidla. Protivníci mohou miny odhalit na krátkou vzdálenost nebo pomocí bojových záloh „Průzkumný let“ či „Strážce“. Miny lze zničit výstřelem nebo výbuchem."
+
+msgid "eb_minefield/name"
+msgstr "Minové pole"
+
+msgid "eb_minefield/short_descr"
+msgstr "Na určitou dobu pokládá ve vybrané oblasti aktivní minové pole."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Postupně obnovuje určité procento HP vašeho vozidla."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Postupně obnovuje určité procento bodů výdrže vašeho vozidla. V kruhu doplnění zvyšuje rychlost oprav. Pokud je aktivní, snižuje množství poškození od min."
+
+msgid "eb_regenerationKit/name"
+msgstr "Polní opravy"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Postupně obnovuje určité procento HP vašeho vozidla."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Stání v garáži"
+
+msgid "empty_slot/name"
+msgstr "Stání v garáži"
+
+msgid "empty_slot/short_descr"
+msgstr "Slot pro bojovou zálohu byl použit."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "1,5krát zvyšuje efekt schopnosti „Zvuková detekce“"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Poskytuje 100% vycvičenou schopnost „Zvuková detekce“"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Schopnost „Zvuková detekce“ upozorňuje na palbu nepřátelského dělostřelectva a snižuje negativní efekt ochromení. Pokud je schopnost vycvičena na 100 %, namontovaná směrnice zvyšuje její efekt; pokud schopnost není vycvičena na 100 %, směrnice poskytuje vašemu vozidlu schopnost vycvičenou na 100 %."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Zvýšená ostražitost"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Poskytuje 100% vycvičenou schopnost „Zvuková detekce“ nebo zvyšuje její účinek"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Vylepšené míření snižuje čas zaměření. Vozidlo, které je vybaveno Vylepšeným pohonem děla, střílí přesněji (navíc zlepšuje rychlost palby, protože nabíjení je občas rychlejší než plné doměření)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Vylepšený pohon děla"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s k rychlosti zaměření s namontovaným Vylepšeným pohonem děla (jakékoliv třídy), Opotřebení odolným pohonem děla, Trofejním pohonem děla nebo Systémem řízení palby."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2,5 %"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2,5 %"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje účinek Trofejního pohonu děla, Vylepšeného pohonu děla nebo Opotřebení odolného pohonu děla. Tyto položky vybavení by měly být na vašem vozidle namontovány, abyste se mohli směrnicí vybavit a aktivovat ji."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Vyladěné zaměřování"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Zlepšuje účinek pohonu děla"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Vylepšený pohon děla 1. třídy"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Vylepšený pohon děla 2. třídy"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Vylepšený pohon děla 3. třídy"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Vylepšené Bellevillovy pružicí podložky"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Po opravách plně obnovuje body výdrže podvozku."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Po opravách plně obnovuje body výdrže podvozku"
+
+msgid "enhancedLevers/name"
+msgstr "Vylepšené závěsy kol"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Vylepšené podélné torzní tyče"
+
+msgid "enhancedSprings/name"
+msgstr "Vylepšené pérování"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Vylepšené torzní tyče třídy 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Vylepšené torzní tyče třídy 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Vylepšené torzní tyče třídy 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Testovací schopnost pro vizuální skript"
+
+msgid "exampleAbility/name"
+msgstr "Testovací schopnost"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s k výkonu motoru a rychlosti rotace věže po dobu trvání bitvy."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k výkonu motoru a rychlosti rotace věže."
+
+msgid "excellentFuel/long_special"
+msgstr "Po dobu trvání bitvy přidává {colorTagOpen}10 %{colorTagClose} k výkonu motoru a rychlosti rotace věže. Automaticky se aktivuje na začátku bitvy a účinkuje po dobu jejího trvání."
+
+msgid "excellentFuel/name"
+msgstr "Vynikající palivo"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k výkonu motoru a rychlosti rotace věže"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Po opravách plně obnovuje body výdrže podvozku."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Po opravách obnovuje podvozek."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Zvyšuje odolnost a rychlost oprav vozidla. Snižuje poškození korby způsobené poškozením podvozku při dopadu. Po opravách plně obnovuje body výdrže podvozku. Snižuje pravděpodobnost zničení pásu při obdržení poškození, což vašemu vozidlu umožňuje, aby co nejdéle zůstalo v pohybu."
+
+msgid "extraHealthReserve/name"
+msgstr "Vylepšené kalení"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Zvyšuje odolnost a chrání podvozek"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Vylepšené kalení 1. třídy"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Vylepšené kalení 2. třídy"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Vylepšené kalení 3. třídy"
+
+msgid "fireCircle/battleDescr"
+msgstr "Kolem vašeho vozidla vytváří kruh ohně, který v oblasti účinku snižuje pohyblivost nepřátelských vozidel a po dobu trvání %(timer)s s odebírá až %(damagePerTickForInterval)s z jejich celkových bodů výdrže.\n\n*Oblast účinku kruhu ohně je stacionární a nesleduje pohyb vašeho vozidla."
+
+msgid "fireCircle/descr"
+msgstr "Kolem vašeho vozidla vytváří kruh ohně, který v oblasti účinku snižuje pohyblivost nepřátelských vozidel a po dobu trvání %(timer)s s odebírá až %(damagePerTickForInterval)s z jejich celkových bodů výdrže.\n\n*Oblast účinku kruhu ohně je stacionární a nesleduje pohyb vašeho vozidla."
+
+msgid "fireCircle/longDescr"
+msgstr "Kolem vašeho vozidla vytváří kruh ohně, který v oblasti účinku snižuje pohyblivost nepřátelských vozidel a {whiteSpanish_Open}po dobu trvání %(timer)s s{whiteSpanish_Close} odebírá {whiteSpanish_Open}až %(damagePerTickForInterval)s{whiteSpanish_Close} z jejich celkových bodů výdrže.\n\n*Oblast účinku kruhu ohně je stacionární a nesleduje pohyb vašeho vozidla."
+
+msgid "fireCircle/name"
+msgstr "Kruh ohně"
+
+msgid "fireCircle/shortDescr"
+msgstr "Kolem vašeho vozidla vytváří kruh ohně, který v oblasti účinku snižuje pohyblivost nepřátelských vozidel a {whiteSpanish_Open}po dobu trvání %(timer)s s{whiteSpanish_Close} odebírá {whiteSpanish_Open}až %(damagePerTickForInterval)s{whiteSpanish_Close} z jejich celkových bodů výdrže.\n\n*Oblast účinku kruhu ohně je stacionární a nesleduje pohyb vašeho vozidla."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "1,5krát zvyšuje efekt schopnosti „Hašení“"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Poskytuje 100% vycvičenou schopnost „Hašení“"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje schopnost „Hašení“ možnosti hašení vašeho vozidla. Když je schopnost vycvičena na 100 %, zvyšuje instalace směrnice její účinek. Pokud schopnost vycvičena není, zajistí směrnice vašemu vozidlu tuto schopnost vycvičenou na 100 %."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Zkušený hasič"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Poskytuje 100% vycvičenou schopnost „Hašení“ nebo zvyšuje její účinek"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Přikáže dělostřelectvu zasáhnout vybranou oblast a poškodí všechna vozidla, která se v ní nacházejí."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Dělostřelecký úder"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Přikáže dělostřelectvu zasáhnout vybranou oblast a poškodí všechna vozidla, která se v ní nacházejí."
+
+msgid "fort_inspire/longDescr"
+msgstr "Poskytuje bonus k hlavním kvalifikacím a schopnostem celé posádky vašeho vozidla a také posádek všech okolních spojeneckých vozidel."
+
+msgid "fort_inspire/name"
+msgstr "Povzbuzení"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Poskytuje bonus k hlavním kvalifikacím a schopnostem celé posádky vašeho vozidla a také posádek všech okolních spojeneckých vozidel."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Revize palivového systému (typ 1)"
+
+msgid "grousers/long_special"
+msgstr "Zvyšuje rychlost otáčení vozidla a udržení rychlosti při překonávání všech typů terénu. Je značně efektivní při řízení na měkkém a středně měkkém terénu. Nejúčinnější je při kombinaci se schopnostmi „Profík“ a „Král bažin“."
+
+msgid "grousers/name"
+msgstr "Rozšíření tankových pásů"
+
+msgid "grousers/short_special"
+msgstr "Zvyšuje rychlost otáčení vozidla a zlepšuje akceleraci"
+
+msgid "grousers_tier1/name"
+msgstr "Rozšíření tankových pásů 1. třídy"
+
+msgid "grousers_tier2/name"
+msgstr "Rozšíření tankových pásů 2. třídy"
+
+msgid "grousers_tier3/name"
+msgstr "Rozšíření tankových pásů 3. třídy"
+
+msgid "gun_balancing_1/name"
+msgstr "Vyvážení děla (typ 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Uhašení požáru ve vašem vozidle."
+
+msgid "handExtinguishers/long_special"
+msgstr "Při aktivaci uhasí požár ve vašem vozidle. Hodí se pro všechny typy vozidel všech národů. Pokud byl alespoň jednou použit, je spotřební doplněk po bitvě odstraněn."
+
+msgid "handExtinguishers/name"
+msgstr "Manuální hasicí přístroj"
+
+msgid "handExtinguishers/onUse"
+msgstr "Uhašení požáru ve vašem vozidle. V bitvě lze použít vícekrát. Pokud byl alespoň jednou použit, je spotřební doplněk po bitvě odstraněn."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Hasí požár"
+
+msgid "healPoint/battleDescr"
+msgstr "Vytváří okolo vašeho vozidla oblast. Uvnitř této oblasti se po dobu %(duration)s s hráči i členům čety každou sekundu obnovuje %(healPerTick)s z bodů výdrže vozidla."
+
+msgid "healPoint/descr"
+msgstr "Vytváří okolo vašeho vozidla oblast. Uvnitř této oblasti se po dobu %(duration)s s hráči i členům čety každou sekundu obnovuje %(healPerTick)s z bodů výdrže vozidla."
+
+msgid "healPoint/longDescr"
+msgstr "Vytváří okolo vašeho vozidla oblast. Uvnitř této oblasti se po dobu {whiteSpanish_Open}%(duration)s{whiteSpanish_Close} s hráči i členům čety každou sekundu {green_Open}obnovuje %(healPerTick)s{green_Close} z bodů vydrže vozidla."
+
+msgid "healPoint/name"
+msgstr "Zóna obnovení"
+
+msgid "healPoint/shortDescr"
+msgstr "Vytváří okolo vašeho vozidla oblast. Uvnitř této oblasti se po dobu {whiteSpanish_Open}%(duration)s{whiteSpanish_Close} s hráči i členům čety každou sekundu {green_Open}obnovuje %(healPerTick)s{green_Close} z bodů vydrže vozidla."
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "hotCoffee/long_special"
+msgstr "Automaticky se aktivuje na začátku bitvy a účinkuje po dobu jejího trvání. Hodí se pouze pro francouzská vozidla."
+
+msgid "hotCoffee/name"
+msgstr "Silná káva"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Vhodná pouze pro francouzská vozidla."
+
+msgid "hotCoffee/short_special"
+msgstr "Zvyšuje výkon francouzských posádek"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Brání jednomu požáru palivové nádrže, výbuchu bedny s municí a zničení motoru, pokud jsou v bitvě tyto moduly zničeny."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Brání jednomu požáru palivové nádrže, výbuchu bedny s municí a zničení motoru, pokud jsou v bitvě tyto moduly zničeny."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Bedna s municí je chráněna před výbuchem"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Zabráněno výbuchu bedny s municí"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Motor je chráněn"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Zabráněno zničení motoru"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Palivové nádrže jsou chráněny před požárem"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Zabráněno požáru palivové nádrže"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Brání jednomu požáru palivové nádrže, výbuchu bedny s municí a zničení motoru, pokud jsou v bitvě tyto moduly zničeny."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Zrychluje opravy. Zvyšuje výdrž bedny s municí, palivových nádrží a motoru. Snižuje postih k době nabíjení a ztrátu výkonu motoru při poškození příslušných modulů. Snižuje pravděpodobnost vzplanutí motoru. Brání jednomu požáru palivové nádrže, výbuchu bedny s municí a zničení motoru, pokud je v bitvě příslušný modul zničen. Je účinnější při kombinaci se schopností „Opravy“ a schopnostmi „Bezpečné ukládání“ a „Preventivní údržba“."
+
+msgid "improvedConfiguration/name"
+msgstr "Upravená konfigurace"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Zrychluje opravy, chrání bednu s municí, palivové nádrže a motor"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s k rychlosti oprav s namontovanou Upravenou konfigurací (jakékoliv třídy), Vylepšenou konfigurací nebo Trofejní obrannou technologií."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10 %"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10 %"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje účinek Upravené konfigurace, Vylepšené konfigurace nebo Trofejní obranné technologie. Tyto položky vybavení by měly být na vašem vozidle namontovány, abyste se mohli směrnicí vybavit a aktivovat ji."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Údržba před bitvou"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Zlepšuje účinek Upravené konfigurace"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Upravená konfigurace 1. třídy"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Upravená konfigurace 2. třídy"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Zvyšuje dobu, po kterou zůstává nepřítel odhalený poté, co opustí dohled vašeho vozidla. Snižuje dobu, po kterou zůstáváte odhaleni pro nepřátele. Nejúčinnější je při kombinaci se schopnostmi „Primární cíl“ a „Volání po pomstě“."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Vylepšená rádiová sada"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Zvyšuje dobu, po kterou zůstává nepřítel odhalený, a snižuje dobu, po níž zůstáváte odhaleni vy"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Zvyšuje rychlost otáčení korby a věže pro vozidla s věží. Zvyšuje rychlost otáčení korby a děla pro vozidla se stacionární kabinou. Snižuje rozptyl děla za pohybu a při otáčení korby a věže a rovněž po výstřelu. Je účinnější v kombinaci se schopností „Profík“."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Vylepšený otočný mechanismus"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Zvyšuje rychlost otáčení a snižuje rozptyl děla za pohybu a při rotaci"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Vylepšený otočný mechanismus 1. třídy"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Vylepšený otočný mechanismus 2. třídy"
+
+msgid "improvedSights/long_special"
+msgstr "Zmenšuje kruh zaměřovače a tím zvyšuje přesnost zaměřujícího se nebo plně zaměřeného děla. Ve výsledku má vaše dělo lepší šanci na zasažení cíle."
+
+msgid "improvedSights/name"
+msgstr "Vylepšené míření"
+
+msgid "improvedSights/short_special"
+msgstr "Snižuje rozptyl děla"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s z velikosti kruhu zaměřovače s namontovaným Vylepšeným mířením (jakékoliv třídy), Trofejním zaměřováním nebo Systémem zvýšení přesnosti."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2 %"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2 %"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje účinek Vylepšeného míření nebo Trofejního zaměřování. Směrnice bude fungovat pouze tehdy, když budete mít namontované odpovídající vybavení."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Vyleštěná čočka"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Snižuje velikost kruhu zaměřovače"
+
+msgid "improvedSights_tier1/name"
+msgstr "Vylepšené míření 1. třídy"
+
+msgid "improvedSights_tier2/name"
+msgstr "Vylepšené míření 2. třídy"
+
+msgid "improvedSights_tier3/name"
+msgstr "Vylepšené míření 3. třídy"
+
+msgid "improvedVentilation/long_special"
+msgstr "Zlepšuje řadu vlastností vašeho vozidla: dohled, rychlost palby, čas zaměření, dynamické vlastnosti a další. Bonus poskytovaný tímto vybavením však bude znatelný teprve v kombinaci se 100% vycvičenou schopností vaší posádky „Bratři ve zbrani“."
+
+msgid "improvedVentilation/name"
+msgstr "Vylepšená ventilace"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s k bonusu efektivity posádky s namontovanou Vylepšenou ventilací (jakékoliv třídy), Ventilačním systémem nebo Trofejní ventilací."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2,5 %"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2,5 %"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje účinek Vylepšené ventilace (jakékoliv třídy), Ventilačního systému nebo Trofejní ventilace. Tyto položky vybavení by měly být na vašem vozidle namontovány, abyste se mohli směrnicí vybavit a aktivovat ji."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Čištění ventilace"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Zlepšuje účinek ventilace"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Vylepšená ventilace 1. třídy"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Vylepšená ventilace 2. třídy"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Vylepšená ventilace 3. třídy"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Vylepšená ventilace 1. třídy"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Vylepšená ventilace 2. třídy"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Vylepšená ventilace 3. třídy"
+
+msgid "improved_suspension_1/name"
+msgstr "Vylepšený podvozek (typ 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Vylepšený podvozek (typ 2)"
+
+msgid "inspire/longDescr"
+msgstr "Zlepšuje výkon posádky vozidla a všech jeho spojenců v určitém okruhu a přidává % bonus k hlavní kvalifikaci každého člena posádky. Hráč, který ho použije, obdrží vylepšený efekt."
+
+msgid "inspire/name"
+msgstr "Povzbuzení"
+
+msgid "inspire/shortDescr"
+msgstr "Přidává bonus k hlavní kvalifikaci posádky hráče a jeho spojenců."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Hydraulický nabiják pro dělostřelectvo velkých ráží"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Hydraulický nabiják pro děla velkých ráží"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s z doby trvání ochromení\n%(crewHitChance)s k ochraně posádky proti zranění"
+
+msgid "largeMedkit/descr"
+msgstr "Léčba všech zraněných členů posádky a odstranění efektu ochromení."
+
+msgid "largeMedkit/long_special"
+msgstr "Při aktivaci léčí všechny zraněné členy posádky a odstraňuje efekt ochromení. Pasivní účinek chrání posádku před zraněním. Tento spotřební doplněk se hodí pro všechny typy vozidel všech národů."
+
+msgid "largeMedkit/name"
+msgstr "Velká lékárnička"
+
+msgid "largeMedkit/onUse"
+msgstr "Léčba všech zraněných členů posádky. V bitvě lze použít vícekrát. Pokud byl alespoň jednou použit, je spotřební doplněk po bitvě odstraněn."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Léčba všech zraněných členů posádky a odstranění efektu ochromení. V bitvě lze použít vícekrát. Pokud byl alespoň jednou použit, je spotřební doplněk po bitvě odstraněn."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Léčí všechny zraněné členy posádky a odstraňuje efekt ochromení"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s k rychlosti oprav modulů"
+
+msgid "largeRepairkit/descr"
+msgstr "Oprava všech poškozených modulů."
+
+msgid "largeRepairkit/long_special"
+msgstr "Při aktivaci opravuje všechny poškozené moduly najednou. Pasivní účinek zvyšuje rychlost oprav. Tento spotřební doplněk se hodí pro všechny typy vozidel všech národů."
+
+msgid "largeRepairkit/name"
+msgstr "Velká sada nářadí"
+
+msgid "largeRepairkit/onUse"
+msgstr "Oprava všech poškozených modulů. V bitvě lze použít vícekrát. Pokud byl alespoň jednou použit, je spotřební doplněk po bitvě odstraněn."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Opravuje všechny poškozené moduly"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "Dodatečných 50 % ke schopnosti „Volání po pomstě“"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Uděluje 100 % vycvičenou schopnost „Volání po pomstě“"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy dává schopnost „Volání po pomstě“ po zničení vozidla šanci na hlášení pozic nepřítele o 2 sekundy déle. Když je schopnost vycvičena na 100 %, přidává instalace směrnice 1 sekundu k jejímu trvání (3 sekundy celkem). Pokud schopnost vycvičena není, tak směrnice vašemu vozidlu zajistí tuto schopnost vycvičenou na 100 % (standardní 2 sekundy)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Povinnost na prvním místě"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Poskytuje na 100 % vycvičenou schopnost „Volání po pomstě“, nebo zvyšuje její účinek"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Hydraulický nabiják pro dělostřelectvo středních ráží"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Hydraulický nabiják pro děla středních ráží"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Systém řízení palby Ú1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Systém řízení palby Ú1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Systém řízení palby Ú1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Systém řízení palby Ú2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Systém řízení palby Ú2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Systém řízení palby Ú2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Systém řízení palby Ú3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Systém řízení palby Ú3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Systém řízení palby Ú3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Souprava pro zvýšení odolnosti Ú1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Souprava pro zvýšení odolnosti Ú1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Souprava pro zvýšení odolnosti Ú1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Souprava pro zvýšení odolnosti Ú2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Souprava pro zvýšení odolnosti Ú2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Souprava pro zvýšení odolnosti Ú2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Souprava pro zvýšení odolnosti Ú3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Souprava pro zvýšení odolnosti Ú3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Souprava pro zvýšení odolnosti Ú3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Systém zvýšení přesnosti Ú1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Systém zvýšení přesnosti Ú1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Systém zvýšení přesnosti Ú1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Systém zvýšení přesnosti Ú2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Systém zvýšení přesnosti Ú2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Systém zvýšení přesnosti Ú2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Systém zvýšení přesnosti Ú3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Systém zvýšení přesnosti Ú3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Systém zvýšení přesnosti Ú3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Systém zvýšení pohyblivosti Ú1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Systém zvýšení pohyblivosti Ú1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Systém zvýšení pohyblivosti Ú1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Systém zvýšení pohyblivosti Ú2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Systém zvýšení pohyblivosti Ú2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Systém zvýšení pohyblivosti Ú2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Systém zvýšení pohyblivosti Ú3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Systém zvýšení pohyblivosti Ú3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Systém zvýšení pohyblivosti Ú3"
+
+msgid "nitro/battleDescr"
+msgstr "Po dobu %(consumeSeconds)s s dočasně zvyšuje výkon motoru vašeho vozidla o %(enginePowerFactor)s a jeho maximální rychlost %(maxSpeedFactor)s násobně."
+
+msgid "nitro/descr"
+msgstr "Po dobu %(consumeSeconds)s s dočasně zvyšuje výkon motoru vašeho vozidla o %(enginePowerFactor)s a jeho maximální rychlost %(maxSpeedFactor)s násobně."
+
+msgid "nitro/long_special"
+msgstr "Po {whiteSpanish_Open}dobu %(consumeSeconds)s s {whiteSpanish_Close}dočasně zvyšuje výkon motoru vašeho vozidla {green_Open}o %(enginePowerFactor)s{green_Close} a jeho maximální rychlost{green_Open} %(maxSpeedFactor)snásobně{green_Close}."
+
+msgid "nitro/name"
+msgstr "Turbodmychadlo"
+
+msgid "nitro/short_special"
+msgstr "Po {whiteSpanish_Open}dobu %(consumeSeconds)s s {whiteSpanish_Close}dočasně zvyšuje výkon motoru vašeho vozidla {green_Open}o %(enginePowerFactor)s{green_Close} a jeho maximální rychlost{green_Open} %(maxSpeedFactor)snásobně{green_Close}."
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Alternativní konfigurace: Vedlejší výzbroj"
+
+msgid "passive_engineering/longDescr"
+msgstr "Poskytuje bonus k rychlosti obsazení a doplnění. Zvyšuje rychlost doplnění, snižuje dobu potřebnou pro obnovení kruhů doplnění a pro převzetí kontroly nad klíčovými body nebo jejich obsazení."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Tuto bojovou zálohu nemůžete použít na dělostřelectvo."
+
+msgid "passive_engineering/name"
+msgstr "Strojírenství"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Poskytuje bonus k rychlosti obsazování, blokování obsazování a doplňování zásob."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Nevhodné pro dělostřelectvo"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Ztrojnásobuje efekt schopnosti „Bezpečné ukládání“"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Poskytuje 100% vycvičenou schopnost „Bezpečné ukládání“"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje schopnost „Bezpečné ukládání“ výdrž vaší bedny s municí. Když je schopnost vycvičena na 100 %, zvyšuje instalace směrnice její účinek. Pokud schopnost vycvičena není, tak směrnice vašemu vozidlu zajistí tuto schopnost vycvičenou na 100 %."
+
+msgid "pedantBattleBooster/name"
+msgstr "Organizér granátů"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Poskytuje 100% vycvičenou schopnost „Bezpečné ukládání“ nebo zvyšuje její účinek"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "Během {colorTagOpen}%(delay)d s{colorTagClose} bude vybraná oblast napadená dělostřeleckým úderem. Jakékoli poškozené cíle v okruhu {colorTagOpen}%(radius)d m{colorTagClose} obdrží {colorTagOpen}%(damage)d{colorTagClose} bodů poškození a budou na {colorTagOpen}%(stunDuration)d s{colorTagClose} ochromeny."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Dělostřelecký úder"
+
+msgid "poi_radar/descr"
+msgstr "V době aktivování zůstanou všechna nepřátelská vozidla na{colorTagOpen}%(duration)d s{colorTagClose} odhalena."
+
+msgid "poi_radar/name"
+msgstr "Divizní radar"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Zdvojnásobuje účinek schopnosti „Praktičnost“"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Poskytuje 100% vycvičenou schopnost „Praktičnost“"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy snižuje schopnost „Praktičnost“ dobu obnovení spotřebních doplňků. Pokud je schopnost vycvičena na 100 %, namontovaná směrnice zvyšuje její efekt, pokud schopnost není vycvičena na 100 %, směrnice poskytuje vašemu vozidlu schopnost vycvičenou na 100 %."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Důkladná příprava"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Poskytuje 100% vycvičenou schopnost „Praktičnost“ nebo zvyšuje její účinek"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s k výkonu motoru a rychlosti rotace věže po dobu trvání bitvy."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5 %{colorTagClose} k výkonu motoru a rychlosti rotace věže."
+
+msgid "qualityFuel/long_special"
+msgstr "Po dobu trvání bitvy přidává {colorTagOpen}5 %{colorTagClose} k výkonu motoru a rychlosti rotace věže. Automaticky se aktivuje na začátku bitvy a účinkuje po dobu jejího trvání."
+
+msgid "qualityFuel/name"
+msgstr "Kvalitní palivo"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5 %{colorTagClose} k výkonu motoru a rychlosti rotace věže"
+
+msgid "radar/descr"
+msgstr "Odhaluje na minimapě nepřátelská vozidla a válečnou kořist."
+
+msgid "radar/name"
+msgstr "Rádiová detekce"
+
+msgid "rammer/long_special"
+msgstr "Rychlost palby představuje jednu z nejdůležitějších vlastností vašeho vozidla. Toto vybavení je v bitvách docela užitečné a mělo by být na vašich vozidlech namontováno. Nabijáky však nelze namontovat na vozidla se systémem nabíjení zásobníku."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s z času nabíjení s namontovaným Nabijákem (libovolný typ děla a ráže), Inovativním systémem nabíjení či Trofejním nabijákem."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2,5 %"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2,5 %"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje účinek Nabijáku (pro jakýkoliv typ a ráži děla) nebo Inovativního systému nabíjení. Tyto položky vybavení by měly být na vašem vozidle namontovány, abyste se mohli směrnicí vybavit a aktivovat ji."
+
+msgid "rammerBattleBooster/name"
+msgstr "Uspořádaná bedna s municí"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Zlepšuje účinek nabijáku"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Zdvojnásobuje účinek schopnosti „Primární cíl“"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Poskytuje 100% vycvičenou schopnost „Primární cíl“"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy poskytuje schopnost „Primární cíl“ dvě sekundy k času, po který zůstane zaměřené nepřátelské vozidlo viditelné. Když je schopnost vycvičena na 100 %, zvyšuje instalace směrnice její účinek. Pokud vycvičena není, pak směrnice vašemu vozidlu zajistí tuto schopnost vycvičenou na 100 %."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Soustředění na cíl"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Poskytuje 100% vycvičenou schopnost „Primární cíl“ nebo zvyšuje její účinek"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "ration/long_special"
+msgstr "Automaticky se aktivuje na začátku bitvy a účinkuje po dobu trvání bitvy. Hodí se pouze pro sovětská vozidla."
+
+msgid "ration/name"
+msgstr "Zvláštní příděl potravy"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Vhodný pouze pro sovětská vozidla."
+
+msgid "ration/short_special"
+msgstr "Zvyšuje výkon sovětských posádek"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "ration_china/long_special"
+msgstr "Automaticky se aktivují na začátku bitvy a účinkují po dobu trvání bitvy. Hodí se pouze pro čínská vozidla."
+
+msgid "ration_china/name"
+msgstr "Vylepšené potravinové dávky"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Vhodné pouze pro čínská vozidla."
+
+msgid "ration_china/short_special"
+msgstr "Zvyšují výkon čínských posádek"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "ration_czech/long_special"
+msgstr "Automaticky se aktivují na začátku bitvy a účinkují po dobu trvání bitvy. Hodí se pouze pro československá vozidla."
+
+msgid "ration_czech/name"
+msgstr "Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Vhodné pouze pro československá vozidla."
+
+msgid "ration_czech/short_special"
+msgstr "Zvyšují výkon československých posádek"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "ration_italy/long_special"
+msgstr "Automaticky se aktivují na začátku bitvy a účinkují po dobu trvání bitvy. Hodí se pouze pro italská vozidla."
+
+msgid "ration_italy/name"
+msgstr "Špagety s masovou omáčkou"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Vhodné pouze pro italská vozidla."
+
+msgid "ration_italy/short_special"
+msgstr "Zvyšují výkon italských posádek"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "ration_japan/long_special"
+msgstr "Automaticky se aktivují na začátku bitvy a účinkují po dobu trvání bitvy. Hodí se pouze pro japonská vozidla."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Vhodné pouze pro japonská vozidla."
+
+msgid "ration_japan/short_special"
+msgstr "Zvyšují výkon japonských posádek"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "ration_poland/long_special"
+msgstr "Automaticky se aktivuje na začátku bitvy a účinkuje po dobu trvání bitvy. Hodí se pouze pro polská vozidla."
+
+msgid "ration_poland/name"
+msgstr "Chleba se sádlem"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Vhodné pouze pro polská vozidla."
+
+msgid "ration_poland/short_special"
+msgstr "Zvyšuje výkon polských posádek"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "ration_sweden/long_special"
+msgstr "Automaticky se aktivuje na začátku bitvy a účinkuje po dobu trvání bitvy. Hodí se pouze pro švédská vozidla."
+
+msgid "ration_sweden/name"
+msgstr "Káva se skořicovými koláčky"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Vhodné pouze pro švédská vozidla."
+
+msgid "ration_sweden/short_special"
+msgstr "Zvyšuje výkon švédských posádek"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s k bonusu efektivity posádky po dobu trvání bitvy."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k bonusu efektivity posádky."
+
+msgid "ration_uk/long_special"
+msgstr "Automaticky se aktivuje na začátku bitvy a účinkuje po dobu trvání bitvy. Hodí se pouze pro britská vozidla."
+
+msgid "ration_uk/name"
+msgstr "Pudink a čaj"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Vhodné pouze pro britská vozidla."
+
+msgid "ration_uk/short_special"
+msgstr "Zvyšuje výkon britských posádek"
+
+msgid "recon/longDescr"
+msgstr "Přikazuje průzkumnému letounu, aby odhalil linii ve velké oblasti. Vozidla v dohledu letounu jsou odhalena a určitou dobu zůstanou viditelná. Odhaluje minová pole."
+
+msgid "recon/name"
+msgstr "Průzkumný let"
+
+msgid "recon/shortDescr"
+msgstr "Odhaluje nepřátelská vozidla a minová pole."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k výkonu motoru, ale poškozuje ho."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Zvyšuje výkon motoru o {colorTagOpen}10 %{colorTagClose}, ale když je zapnuté, tak motoru postupně ubírá body výdrže. Dá se v bitvě vícekrát vypnout či zapnout. Hodí se pouze pro čínská a sovětská vozidla."
+
+msgid "removedRpmLimiter/name"
+msgstr "Odstranění omezovače výkonu"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s k výkonu motoru, ale poškozuje ho. V bitvě lze použít vícekrát."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Vhodný pouze pro sovětská a čínská vozidla."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10 %{colorTagClose} k výkonu motoru, ale poškozuje ho"
+
+msgid "repairpoint/battleDescr"
+msgstr "Vytváří dočasnou statickou oblast, která po dobu %(timer)s s opravuje všechny poškozené moduly, odstraňuje VŠECHNY negativní efekty a obnovuje %(healPerTick)s bodů výdrže vašeho vozidla za sekundu.\n\n*Spojeneckým vozidlům v oblasti efektu budou také obnovovány body výdrže."
+
+msgid "repairpoint/descr"
+msgstr "Vytváří dočasnou statickou oblast, která po dobu %(timer)s s opravuje všechny poškozené moduly, odstraňuje VŠECHNY negativní efekty a obnovuje %(healPerTick)s bodů výdrže vašeho vozidla za sekundu.\n\n*Spojeneckým vozidlům v oblasti efektu budou také obnovovány body výdrže."
+
+msgid "repairpoint/long_special"
+msgstr "Vytváří dočasnou statickou oblast, která {whiteSpanish_Open}po dobu %(timer)s{whiteSpanish_Close} s opravuje všechny poškozené moduly, odstraňuje VŠECHNY negativní efekty a {green_Open}obnovuje %(healPerTick)s{green_Close} bodů výdrže vašeho vozidla za sekundu.\n\n*Spojenecká vozidla v oblasti efektu budou také obnovovat své body výdrže."
+
+msgid "repairpoint/name"
+msgstr "Zóna oprav"
+
+msgid "repairpoint/short_special"
+msgstr "Vytváří dočasnou statickou oblast, která {whiteSpanish_Open}po dobu %(timer)s{whiteSpanish_Close} s opravuje všechny poškozené moduly, odstraňuje VŠECHNY negativní efekty a {green_Open}obnovuje %(healPerTick)s{green_Close} bodů výdrže vašeho vozidla za sekundu.\n\n*Spojenecká vozidla v oblasti efektu budou také obnovovat své body výdrže."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Vyčištění drážkování hlavně (typ 1)"
+
+msgid "roleSlot/name"
+msgstr "Kategorie druhého slotu na vybavení"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Pasivní bezpečnostní systém"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Pasivní\nbezpečnostní systém"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Rekonfigurace bedny s municí"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Rekonfigurace\nbedny s municí"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Opravitelné pásy"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Opravitelné\npásy"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Vylepšení motorového prostoru"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Vylepšení\nmotorového prostoru"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Zesílený podvozek"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Zesílený\npodvozek"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Odlehčený podvozek"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Odlehčený\npodvozek"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Lapování ozubených kol zaměřovače"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Lapování ozubených\nkol zaměřovače"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Úprava paralaxy"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Úprava\nparalaxy"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Vyladění ejektoru"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Vyladění\nejektoru"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Pravoúhlý periskop"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Pravoúhlý\nperiskop"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Vyladění nabíjecího mechanizmu"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Vyladění nabíjecího\nmechanizmu"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Vyladění zaměřovacího mechanizmu"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Vyladění zaměřovacího\nmechanizmu"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Vyladění vývodové hřídele"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Vyladění\nvývodové hřídele"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Elektrický pohon zaměřovače"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Elektrický\npohon zaměřovače"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Nová ozubená kola zaměřovače"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Nová ozubená\nkola zaměřovače"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Vylepšení závěru"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Vylepšení\nzávěru"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Obecné snížení hmotnosti"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Obecné snížení\nhmotnosti"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Obecné zvýšení odolnosti"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Obecné zvýšení\nodolnosti"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Matné barvy"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Matné\nbarvy"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Dodatečný zpětný převodový stupeň"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Dodatečný zpětný\npřevodový stupeň"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Motor s horní vačkovou hřídelí"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Motor s horní\nvačkovou hřídelí"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Vylepšený hydraulický nabiják"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Vylepšený\nhydraulický nabiják"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Přídavná hluková izolace"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Přídavná\nhluková izolace"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Odstranění polstrování"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Odstranění\npolstrování"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Pomocný bezpečnostní systém"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Pomocný\nbezpečnostní systém"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Odlehčené upevňovací body"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Odlehčené\nupevňovací body"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Přepojení napájecího zdroje (nastavení 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Přepojení napájecího\nzdroje (nastavení 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Přepojení napájecího zdroje (nastavení 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Přepojení napájecího\nzdroje (nastavení 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Zesílená platforma"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Zesílená\nplatforma"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Odlehčená platforma"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Odlehčená\nplatforma"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Zaměření na pohyblivost"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Zaměření\nna pohyblivost"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Zaměření na palebnou sílu"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Zaměření\nna palebnou sílu"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Těžké dělo"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Těžké\ndělo"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Odlehčené dělo"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Odlehčené\ndělo"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Ladění výkonu (nastavení 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Ladění výkonu\n(nastavení 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Ladění výkonu (nastavení 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Ladění výkonu\n(nastavení 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Zesílená korba"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Zesílená\nkorba"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Odlehčená korba"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Odlehčená\nkorba"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Antireflexní nátěr optiky"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Antireflexní\nnátěr optiky"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Externí sledovací systém"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Externí\nsledovací systém"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Panoramatický triplex"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Panoramatický\ntriplex"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Úzkoúhlé pozorovací zařízení"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Úzkoúhlé\npozorovací zařízení"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Zesílená primární konstrukce"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Zesílená\nprimární konstrukce"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Rozšíření prostoru věže"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Rozšíření\nprostoru věže"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Průzkumná sada"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Průzkumná\nsada"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Útočná sada"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Útočná\nsada"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Pokročilé zesílení odolnosti"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Pokročilé\nzesílení odolnosti"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Pokročilé vylepšení zaměřování"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Pokročilé\nvylepšení zaměřování"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Další pozorovací zařízení"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Další\npozorovací zařízení"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Zesílené spoje"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Zesílené\nspoje"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Vyladění nabíjecího mechanizmu"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Vyladění nabíjecího\nmechanizmu"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Vyladění zaměřovacího mechanizmu"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Vyladění zaměřovacího\nmechanizmu"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Vyladění vývodové hřídele"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Vyladění\nvývodové hřídele"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Elektrický pohon zaměřovače"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Elektrický\npohon zaměřovače"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Vylepšení závěru"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Vylepšení\nzávěru"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Nová ozubená kola zaměřovače"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Nová ozubená\nkola zaměřovače"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Vyladění vstřikovacího systému"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Vyladění\nvstřikovacího systému"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Vyladění zorného pole"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Vyladění\nzorného pole"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Zvýšení odolnosti modulů"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Zvýšení\nodolnosti modulů"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Upevňovací body z lehké slitiny"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Upevňovací body\nz lehké slitiny"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Vylepšení závěru"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Vylepšení\nzávěru"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Nová ozubená kola zaměřovače"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Nová ozubená\nkola zaměřovače"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Silnoproudé trysky"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Silnoproudé\ntrysky"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Citlivá optika"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Citlivá\noptika"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Zesílené podpůrné kladky"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Zesílené\npodpůrné kladky"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Odlehčené podpůrné kladky"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Odlehčené\npodpůrné kladky"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Úprava podvozku"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Úprava\npodvozku"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Vylepšení motoru"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Vylepšení\nmotoru"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Souprava „Lovec R“"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Souprava\n„Lovec R“"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Souprava „Lovec M“"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Souprava\n„Lovec M“"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Vyladění hydrauliky (nastavení 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Vyladění hydrauliky\n(nastavení 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Vyladění hydrauliky (nastavení 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Vyladění hydrauliky\n(nastavení 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Vyladění nabíjecího mechanizmu"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Vyladění nabíjecího\nmechanizmu"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Vyladění zaměřovacího mechanizmu"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Vyladění zaměřovacího\nmechanizmu"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Navýšení odolnosti"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Navýšení\nodolnosti"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Snížení hmotnosti"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Snížení\nhmotnosti"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Terénní podvozek"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Terénní\npodvozek"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Odlehčený podvozek"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Odlehčený\npodvozek"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Úprava paralaxy"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Úprava\nparalaxy"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Lapování ozubených kol zaměřovače"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Lapování ozubených\nkol zaměřovače"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Zvuková izolace"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Zvuková\nizolace"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Elektrický pohon periskopu"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Elektrický\npohon periskopu"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Vyladění ventilů (nastavení 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Vyladění ventilů\n(nastavení 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Vyladění ventilů (nastavení 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Vyladění ventilů\n(nastavení 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Vyladění nabíjecího mechanizmu"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Vyladění nabíjecího\nmechanizmu"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Vyladění zaměřovacího mechanizmu"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Vyladění zaměřovacího\nmechanizmu"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Zesílená ochrana proti střepinám"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Zesílená ochrana\nproti střepinám"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Odlehčená ochrana proti střepinám"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Odlehčená ochrana\nproti střepinám"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Zvýšení odolnosti modulů"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Zvýšení\nodolnosti modulů"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Upevňovací body z lehké slitiny"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Upevňovací body\nz lehké slitiny"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Vyladění ramen podvozku"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Vyladění\nramen podvozku"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Vylepšený výhled"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Vylepšený\nvýhled"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Vyladění turbodmychadla"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Vyladění\nturbodmychadla"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Antireflexní nátěr světlometů"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Antireflexní\nnátěr světlometů"
+
+msgid "selfBuff/battleDescr"
+msgstr "Po dobu %(duration)s s o %(gunAimingTime)s snižuje rozptyl děla a čas zaměření a zlepšuje stabilizaci děla a rychlost palby.\n\n*Neovlivňuje dobu mezi vystřelením granátu a nabitím dalšího granátu v zásobníku, dělu nebo zásobníku munice."
+
+msgid "selfBuff/descr"
+msgstr "Po dobu %(duration)s s o %(gunAimingTime)s snižuje rozptyl děla a čas zaměření a zlepšuje stabilizaci děla a rychlost palby.\n\n*Neovlivňuje dobu mezi vystřelením granátu a nabitím dalšího granátu v zásobníku, dělu nebo zásobníku munice."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}Po dobu %(duration)s s{whiteSpanish_Close} o {green_Open}%(gunAimingTime)s {green_Close}snižuje rozptyl děla a čas zaměření a zlepšuje stabilizaci děla a rychlost palby.\n\n*Neovlivňuje dobu mezi vystřelením granátu a nabitím dalšího granátu v zásobníku, dělu nebo zásobníku munice."
+
+msgid "selfBuff/name"
+msgstr "Sledování cíle"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}Po dobu %(duration)s s{whiteSpanish_Close} o {green_Open}%(gunAimingTime)s {green_Close}snižuje rozptyl děla a čas zaměření a zlepšuje stabilizaci děla a rychlost palby.\n\n*Neovlivňuje dobu mezi vystřelením granátu a nabitím dalšího granátu v zásobníku, dělu nebo zásobníku munice."
+
+msgid "shells_consumables_switch/name"
+msgstr "Alternativní konfigurace: Základní výzbroj"
+
+msgid "shotPassion/battleDescr"
+msgstr "Na %(duration)s s snižuje efektivitu pohonu a stabilizace vašeho děla o %(gunAimingTime)s, ale každý zásah s probitím pancíře, kterého dosáhnete, zvyšuje vaše způsobené poškození o %(damageIncreasePerShot)s. Efekt se sčítá až 5krát. Zásahy, které nezpůsobí poškození nebo minou, vynulují efekt sčítání na 0.\n\n*Zásahy elektrickým výbojem se také započítávají do vašeho bonusu sčítání poškození."
+
+msgid "shotPassion/descr"
+msgstr "Na %(duration)s s snižuje efektivitu pohonu a stabilizaci vašeho děla o %(gunAimingTime)s, ale každý zásah s probitím pancíře, kterého dosáhnete, zvyšuje vaše způsobené poškození o %(damageIncreasePerShot)s. Efekt se sčítá až 5krát. Zásahy, které nezpůsobí poškození nebo minou, vynulují efekt sčítání na 0.\n\n*Zásahy elektrickým výbojem se také započítávají do vašeho bonusu sčítání poškození."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}Na %(duration)s s{whiteSpanish_Close} snižuje efektivitu pohonu a stabilizace vašeho děla {red_Open}o %(gunAimingTime)s{red_Close}, ale každý zásah s probitím pancíře, kterého dosáhnete, zvýší vaše způsobené poškození {green_Open}o %(damageIncreasePerShot)s. {green_Close}Efekt se sčítá {whiteSpanish_Open}až 5krát{whiteSpanish_Close}. Zásahy, které nezpůsobí poškození nebo minou, vynulují bonus k poškození na 0.\n\n*Zásahy elektrickým výbojem se také započítávají do vašeho bonusu sčítání poškození."
+
+msgid "shotPassion/name"
+msgstr "Rostoucí zápal"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}Na %(duration)s s{whiteSpanish_Close} snižuje efektivitu pohonu a stabilizace vašeho děla {red_Open}o %(gunAimingTime)s{red_Close}, ale každý zásah s probitím pancíře, kterého dosáhnete, zvýší vaše způsobené poškození {green_Open}o %(damageIncreasePerShot)s. {green_Close}Efekt se sčítá {whiteSpanish_Open}až 5krát{whiteSpanish_Close}. Zásahy, které nezpůsobí poškození nebo minou, vynulují bonus k poškození na 0.\n\n*Zásahy elektrickým výbojem se také započítávají do vašeho bonusu sčítání poškození."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "„Šestý smysl“ se aktivuje o 1 s dříve"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Prvek „Šestý smysl“ umožňuje veliteli určit, zda bylo vozidlo odhaleno nepřítelem. Aktivuje se 3 s po odhalení vašeho vozidla."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy umožňuje schopnost „Šestý smysl“ veliteli určit, zda bylo vozidlo odhaleno nepřáteli. Nainstalovaná směrnice zvyšuje její účinek."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Zvýšená pozornost"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Zvyšuje efekt prvku velitele „Šestý smysl“"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Léčba všech zraněných členů posádky a odstranění efektu ochromení."
+
+msgid "smallMedkit/long_special"
+msgstr "Při aktivaci léčí všechny zraněné členy posádky a odstraňuje efekt ochromení. Hodí se pro všechny typy vozidel všech národů. Pokud byl spotřební doplněk alespoň jednou použit, je po bitvě odstraněn."
+
+msgid "smallMedkit/name"
+msgstr "Malá lékárnička"
+
+msgid "smallMedkit/onUse"
+msgstr "Léčba všech zraněných členů posádky a odstranění efektu ochromení."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Léčba všech zraněných členů posádky a odstranění efektu ochromení."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Léčí všechny zraněné členy posádky a odstraňuje efekt ochromení."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Oprava všech poškozených modulů."
+
+msgid "smallRepairkit/long_special"
+msgstr "Při aktivaci opraví všechny poškozené moduly najednou. Hodí se pro všechny typy vozidel všech národů. Pokud byl spotřební doplněk alespoň jednou použit, je po bitvě odstraněn."
+
+msgid "smallRepairkit/name"
+msgstr "Malá sada nářadí"
+
+msgid "smallRepairkit/onUse"
+msgstr "Opraví všechny poškozené moduly. Hodí se pro všechny typy vozidel všech národů. Pokud byl spotřební doplněk alespoň jednou použit, je po bitvě odstraněn."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Opravuje všechny poškozené moduly."
+
+msgid "smoke/longDescr"
+msgstr "Pokládá kouřové clony, které ukryjí všechna vozidla uvnitř kouře a za ním. Nepřátelská vozidla uvnitř kouře mají snížený dohled a výkon posádky."
+
+msgid "smoke/name"
+msgstr "Kouřová clona"
+
+msgid "smoke/shortDescr"
+msgstr "Kouř ukryje všechna vozidla, která se v něm nacházejí. Nepřátelé omezený dohled a sníženou výkonnost posádky."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Zdvojnásobuje účinek schopnosti „Klidná jízda“"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Poskytuje 100% vycvičenou schopnost „Klidná jízda“"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje schopnost „Klidná jízda“ přesnost při palbě za pohybu. Když je schopnost vycvičena na 100 %, zvyšuje instalace směrnice její účinek. Pokud schopnost vycvičena není, udělí ji směrnice vašemu vozidlu, jako by byla vycvičena na 100 %."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Spletitost převodovky"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Poskytuje 100% vycvičenou schopnost „Klidná jízda“ nebo zvyšuje její účinek"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Zdvojnásobuje účinek schopnosti „Jemné míření“"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Poskytuje 100% vycvičenou schopnost „Jemné míření“"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje schopnost „Jemné míření“ přesnost při rotaci věže. Když je schopnost vycvičena na 100 %, zvyšuje instalace směrnice její účinek. Pokud schopnost vycvičena není, zajistí směrnice vašemu vozidlu tuto schopnost vycvičenou na 100 %."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Pevná ruka"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Poskytuje 100% vycvičenou schopnost „Jemné míření“ nebo zvyšuje její účinek"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Vypouští samohybnou minu, která bude po dobu %(botLifeTime)s s pronásledovat nejbližšího nepřítele a při výbuchu způsobí 400 až 600 bodů poškození v malém okruhu.\n\n*Nepřátelé mohou vaši Ohnivou kouli zničit palbou nebo nárazem. Ohnivá koule po dosažení svého cíle způsobí poškození nárazem."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Vypouští samohybnou minu, která bude po dobu %(botLifeTime)s s pronásledovat nejbližšího nepřítele a při výbuchu způsobí 400 až 600 bodů poškození v malém okruhu.\n\n*Nepřátelé mohou vaši Ohnivou kouli zničit palbou nebo nárazem. Ohnivá koule po dosažení svého cíle způsobí poškození nárazem."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Vypouští samohybnou minu, která bude po dobu {whiteSpanish_Open}%(botLifeTime)s s {whiteSpanish_Close}pronásledovat nejbližšího nepřítele a při výbuchu způsobí {whiteSpanish_Open}400 až 600 bodů poškození{whiteSpanish_Close} v malém okruhu.\n\n*Nepřátelé mohou vaši Ohnivou kouli zničit palbou nebo nárazem. Ohnivá koule po dosažení svého cíle způsobí poškození nárazem."
+
+msgid "spawn_kamikaze/name"
+msgstr "Ohnivá koule"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Vypouští samohybnou minu, která bude po dobu {whiteSpanish_Open}%(botLifeTime)s s {whiteSpanish_Close}pronásledovat nejbližšího nepřítele a při výbuchu způsobí {whiteSpanish_Open}400 až 600 bodů poškození{whiteSpanish_Close} v malém okruhu.\n\n*Nepřátelé mohou vaši Ohnivou kouli zničit palbou nebo nárazem. Ohnivá koule po dosažení svého cíle způsobí poškození nárazem."
+
+msgid "stealthRadar/descr"
+msgstr "Uděluje bonus k maskování a dohledu. Snižuje maskování nepřátelských vozidel."
+
+msgid "stealthRadar/long_descr"
+msgstr "%(activationDelay)s s po zastavení zvyšuje parametr maskování vašeho vozidla a snižuje maskování nepřátelských vozidel. Poskytuje pasivní bonus k dohledu a odhaluje nepřátelské miny. Nefunguje za jízdy."
+
+msgid "stealthRadar/name"
+msgstr "Strážce"
+
+msgid "stealthRadar/short_descr"
+msgstr "Uděluje bonus k maskování a dohledu. Snižuje maskování nepřátelských vozidel."
+
+msgid "stereoscope/battleDescr"
+msgstr "Zvyšuje dohled nehybného vozidla 3 sekundy poté, co zastaví (až do 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "Dobrý dohled poskytuje vozidlům v bitvě pěknou výhodu. Tento typ vybavení je výhodný pro stíhače tanků s nízkými siluetami a přesnými děly. Aktivuje se 3 sekundy poté, co se vozidlo přestane pohybovat."
+
+msgid "stereoscope/name"
+msgstr "Binokulární dalekohled"
+
+msgid "stereoscope_tier1/name"
+msgstr "Binokulární dalekohled 1. třídy"
+
+msgid "stereoscope_tier2/name"
+msgstr "Binokulární dalekohled 2. třídy"
+
+msgid "stereoscope_tier3/name"
+msgstr "Binokulární dalekohled 3. třídy"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Nahrazení součástí podvozku (typ 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Nahrazení součástí podvozku (typ 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Lapování otočného mechanizmu (typ 1)"
+
+msgid "tankRammer/name"
+msgstr "Hydraulický nabiják"
+
+msgid "tankRammer_tier1/name"
+msgstr "Hydraulický nabiják 1. třídy"
+
+msgid "tankRammer_tier2/name"
+msgstr "Hydraulický nabiják 2. třídy"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Vytváří oblast, ve které udeří s vysokou frekvencí série %(thunderCount)s elektrických výbojů. Každý výboj způsobuje %(damage)s bodů poškození a v oblasti účinku schopnosti snižuje pohyblivost vozidla.\n\n*Mezi aktivací této schopnosti a prvním výbojem je prodleva %(delay)s s. Negativní účinek lze odstranit pomocí sady nářadí."
+
+msgid "thunderStrike/descr"
+msgstr "Vytváří oblast, ve které udeří s vysokou frekvencí série %(thunderCount)s elektrických výbojů. Každý výboj způsobuje %(damage)s bodů poškození a v oblasti účinku schopnosti snižuje pohyblivost vozidla.\n\n*Mezi aktivací této schopnosti a prvním výbojem je prodleva %(delay)s s. Negativní účinek lze odstranit pomocí sady nářadí."
+
+msgid "thunderStrike/longDescr"
+msgstr "Vytváří oblast, ve které udeří s vysokou frekvencí série %(thunderCount)s elektrických výbojů. Každý výboj způsobuje {whiteSpanish_Open}%(damage)s bodů poškození{whiteSpanish_Close} a v oblasti účinku schopnosti snižuje pohyblivost vozidla.\n\n*Mezi aktivací této schopnosti a prvním výbojem je prodleva %(delay)s s. Negativní účinek lze odstranit pomocí sady nářadí."
+
+msgid "thunderStrike/name"
+msgstr "Elektrický výboj"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Vytváří oblast, ve které udeří s vysokou frekvencí série %(thunderCount)s elektrických výbojů. Každý výboj způsobuje {whiteSpanish_Open}%(damage)s bodů poškození{whiteSpanish_Close} a v oblasti účinku schopnosti snižuje pohyblivost vozidla.\n\n*Mezi aktivací této schopnosti a prvním výbojem je prodleva %(delay)s s. Negativní účinek lze odstranit pomocí sady nářadí."
+
+msgid "trappoint/battleDescr"
+msgstr "Na %(duration)s s vytváří oblast, která všem nepřátelským vozidlům uvnitř oblasti snižuje parametry pohyblivosti o %(vehicleMaxSpeed)s a zpomaluje nabíjení a zaměřování děla o %(gunReloadTime)s."
+
+msgid "trappoint/descr"
+msgstr "Na %(duration)s s vytváří oblast, která všem nepřátelským vozidlům uvnitř oblasti snižuje parametry pohyblivosti o %(vehicleMaxSpeed)s a zpomaluje nabíjení a zaměřování děla o %(gunReloadTime)s."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}Na %(duration)s s{whiteSpanish_Close} vytváří oblast, která všem nepřátelským vozidlům uvnitř oblasti snižuje parametry pohyblivosti {whiteSpanish_Open}o %(vehicleMaxSpeed)s{whiteSpanish_Close} a zpomaluje nabíjení a zaměřování děla {whiteSpanish_Open}o %(gunReloadTime)s{whiteSpanish_Close}."
+
+msgid "trappoint/name"
+msgstr "Past"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}Na %(duration)s s{whiteSpanish_Close} vytváří oblast, která všem nepřátelským vozidlům uvnitř oblasti snižuje parametry pohyblivosti {whiteSpanish_Open}o %(vehicleMaxSpeed)s{whiteSpanish_Close}, a zpomaluje nabíjení a zaměřování děla {whiteSpanish_Open}o %(gunReloadTime)s{whiteSpanish_Close}."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Účinnost závisí na typu vozidla. Zvyšuje maskování nehybného či jedoucího vozidla. Hodí se pro aktivní i pasivní odhalování nepřátel z riskantních pozic."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Trofejní výfukový systém"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Zvyšuje maskování nehybného či jedoucího vozidla."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Trofejní pohon děla"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Zvyšuje rychlost zaměření děla pro rychlejší palbu přesných výstřelů."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Trofejní stabilizátor"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Snižuje rozptyl děla při palbě za pohybu a při otáčení vozidla."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Trofejní optika"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Prodlužuje dohled stojících i jedoucích vozidel."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Po opravách plně obnovuje body výdrže podvozku."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Po opravách obnovuje podvozek."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Zvyšuje odolnost a rychlost oprav vozidla. Snižuje poškození korby způsobené poškozením podvozku při dopadu. Po opravách plně obnovuje body výdrže podvozku. Snižuje pravděpodobnost zničení pásu při obdržení poškození, což vašemu vozidlu umožňuje zůstat déle v pohybu."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Trofejní kalení"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Zvyšuje odolnost a chrání podvozek"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Trofejní obranná technologie"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Trofejní otočný mechanismus"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Zmenšuje kruh zaměřovače a tím zvyšuje přesnost zaměřujícího se nebo plně zaměřeného děla. Ve výsledku má vaše dělo lepší šanci na zasažení cíle."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Trofejní zaměřování"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Snižuje rozptyl děla"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Trofejní ventilace"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Zlepšuje efektivitu posádky, což má kladný vliv na většinu vlastností vozidla."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Trofejní nabiják"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Zrychluje nabíjení děla. Žádná omezení na třídu."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Zvyšuje výkon motoru, umožňuje lepší akceleraci, manévrování a stoupání do svahů v terénu. Zvyšuje maximální rychlost jízdy vpřed i couvání, což vám umožní rychlejší obsazení pozic a únik před nepřátelskou odvetnou palbou."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Trofejní turbodmychadlo"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Zvyšuje výkon motoru a maximální rychlost"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} {arrow} k dohledu až do 445 m"
+
+msgid "trophyOptics/name"
+msgstr "Trofejní optika"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Trofejní výfukový systém"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Trofejní pohon děla"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Trofejní stabilizátor"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Trofejní optika"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Po opravách plně obnovuje body výdrže podvozku."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Po opravách obnovuje podvozek."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Trofejní kalení"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Trofejní obranná technologie"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Trofejní otočný mechanismus"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Trofejní zaměřování"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Trofejní ventilace"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Trofejní nabiják"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Trofejní turbodmychadlo"
+
+msgid "turbocharger/long_special"
+msgstr "Zvyšuje výkon motoru, umožňuje lepší akceleraci, manévrování a stoupání do svahů v terénu. Zvyšuje maximální rychlost jízdy vpřed i couvání, což vám umožní rychlejší obsazení pozic a únik před nepřátelskou odvetnou palbou."
+
+msgid "turbocharger/name"
+msgstr "Turbodmychadlo"
+
+msgid "turbocharger/short_special"
+msgstr "Zvyšuje výkon motoru a maximální rychlost"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s k výkonu motoru s namontovaným Turbodmychadlem (jakékoliv třídy), Trofejním turbodmychadlem, Vylepšeným dmychadlem nebo Systémem zvýšení pohyblivosti."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4 %"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4 %"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje účinek Turbodmychadla (jakékoliv třídy), Trofejního turbodmychadla nebo Vylepšeného dmychadla. Směrnice bude fungovat pouze tehdy, když budete mít namontované odpovídající vybavení."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Výměna palivového filtru"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Zvyšuje výkon motoru"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turbodmychadlo 1. třídy"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turbodmychadlo 2. třídy"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turbodmychadlo 3. třídy"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Zdvojnásobuje účinek schopnosti „Profík“"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Poskytuje 100% vycvičenou schopnost „Profík“"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Po dobu trvání bitvy zlepšuje schopnost „Profík“ rychlost otáčení stojícího i jedoucího vozidla. Když je schopnost vycvičena na 100 %, zvyšuje instalace směrnice její účinek. Pokud schopnost vycvičená není, zajistí směrnice vašemu vozidlu tuto schopnost vycvičenou na 100 %."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Bojový kurz"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Poskytuje 100% vycvičenou schopnost „Profík“ nebo zvyšuje její účinek"

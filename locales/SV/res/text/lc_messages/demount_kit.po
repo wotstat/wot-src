@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "Demontera"
+
+msgid "demountKit/gained/count"
+msgstr "Demonteringssats (%(count)s st)"
+
+msgid "demountKit/sell/header"
+msgstr "Sålt:"
+
+msgid "demountKit/sell_success"
+msgstr "Förnödenhet 'Demonteringssats' (%(count)s st). Mottagna krediter: %(count)s."
+
+msgid "demountKit/tooltip/description/common"
+msgstr "Demonterar en utrustning."
+
+msgid "dialogue/description/common"
+msgstr "Demonterar en standardutrustning eller erövrad utrustning."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "Försäljningspriset är lägre än vanligt—du kan köpa den med rabatt."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "Demonterad utrustning skickas till förrådet."
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "Obs! Denna utrustning har ändrat klass med hänsyn till aktuell vagnstyp.\nUtrustningen kan demonteras gratis, men om du demonterar den kommer du {red_Open}inte kunna montera den {red_Close}på vagnen igen."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "Demontera utrustning '%(equipment)s'?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "Demontera %(equipment)s för att montera ny utrustning?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "Förtjäna dem i strid eller få dem som belöning under spelevenemang."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "Obligationer saknas"
+
+msgid "equipmentDemount/optionFree"
+msgstr "Gratis"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "Avbryt"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "Denna kopia av utrustningen monterad i den alternativa konfigurationen kan demonteras gratis."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "Demontera"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "Demontera %(equipment)s från denna plats?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "Demontera %(equipment)s för att montera ny utrustning?"
+
+msgid "equipmentDemountPrice"
+msgstr "Kostnad för demontering:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> eller %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s eller %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> eller %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "Kan demonteras för att säljas eller monteras på en annan vagn för %(count)s, eller förstöras."
+
+msgid "shop/DemountOptions/common"
+msgstr "Kan demonteras för att säljas eller monteras på en annan vagn för %(count)s eller med %(iconDK)s demonteringssats, eller förstöras."
+
+msgid "storage/description/common"
+msgstr "Demonterar standardutrustning eller erövrad utrustning. Förbrukas vid användning."
+
+msgid "storage/userName/common"
+msgstr "Demonteringssats"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "Rabatt: %(actionPrc)s, tidigare pris: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "Demonteringssats"

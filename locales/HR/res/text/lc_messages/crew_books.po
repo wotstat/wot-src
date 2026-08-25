@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "KUPI"
+
+msgid "buttons/cancel"
+msgstr "Odustani"
+
+msgid "buttons/learn"
+msgstr "Proučavaj"
+
+msgid "buttons/postProgression/claim"
+msgstr "ZATRAŽI"
+
+msgid "buttons/postProgression/hint"
+msgstr "IDI NA POST-NAPREDAK"
+
+msgid "buttons/postProgression/howTo"
+msgstr "KAKO DOBITI"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Tečaj razmjene:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Primjenjuje se na odabranog člana posade.\nUbrzava obuku trenutne sposobnosti korištenjem slobodnog iskustva."
+
+msgid "card/freeExp/title"
+msgstr "SLOBODNO ISKUSTVO"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Učinkovitost sposobnosti: 100%\n• Specijalizacija: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Primjenjuje se na cijelu posadu.\nDaje svakom članu posade %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "KNJIŽICA OBUKE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "PRIRUČNIK OBUKE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "VODIČ OBUKE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Primjenjuje se bez ograničenja."
+
+msgid "card/personalBook/mainText"
+msgstr "Primjenjuje se na odabranog člana posade.\nDaje tom članu posade %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "PRIRUČNIK ZA OSOBNI TRENING"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Učinkovitost sposobnosti: 100%\n• Specijalizacija: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Primjenjuje se na cijelu posadu.\nDaje svakom članu posade %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "UNIVERZALNI PRIRUČNIK"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "UNIVERZALNA KNJIŽICA"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "UNIVERZALNI VODIČ"
+
+msgid "confirm/crewLabel"
+msgstr "Svaki član posade će dobiti %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Svaki član posade će dobiti %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) će dobiti dodatnih %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) će dobiti %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Neki članovi posade će dobiti %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Knjižica obuke (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Knjižica obuke"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "KNJIŽICA OBUKE"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} iskustva posade na svakog člana posade."
+
+msgid "items/crewBook/Name"
+msgstr "Priručnik za obuku (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Priručnik za obuku"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "PRIRUČNIK ZA OBUKU"
+
+msgid "items/guide/Name"
+msgstr "Vodič za obuku (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Vodič za obuku"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "VODIČ ZA OBUKU"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} iskustva na odabranog člana posade"
+
+msgid "items/personalBook/Name"
+msgstr "Priručnik za osobni trening"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} iskustva posade na svakog člana posade."
+
+msgid "items/universalBook/Name"
+msgstr "Univerzalni priručnik"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} iskustva na svakog člana posade."
+
+msgid "items/universalBrochure/Name"
+msgstr "Univerzalna knjižica"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} iskustva na svakog člana posade."
+
+msgid "items/universalGuide/Name"
+msgstr "Univerzalni vodič"
+
+msgid "page/mentoringLicense/hint"
+msgstr "IDI NA MENTORSKU LICENCU"
+
+msgid "page/mentoringLicense/title"
+msgstr "MENTORSKA LICENCA"
+
+msgid "page/title"
+msgstr "BRZA OBUKA"
+
+msgid "tooltip/buyManual"
+msgstr "Kupi priručnik za obuku"
+
+msgid "tooltip/mouseWheel"
+msgstr "Klizite {mouseIcon} za povećanje/smanjenje broja knjižica posade."
+
+msgid "tooltip/outOfStock"
+msgstr "Nema preostalih knjižica posade"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Nema preostalih knjižica posade. Kupite knjižice posade u prodavaonici."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Primjenjuje se na odabranog člana posade. Daje tom članu posade %(xp)s iskustva."
+
+msgid "tooltip/postProgression"
+msgstr "Idi na post-napredak"
+
+msgid "tooltip/sale/header"
+msgstr "Unosni tečaj"
+
+msgid "tooltip/sale/newRate"
+msgstr "Novi tečaj razmjene: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Prethodni tečaj razmjene: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Kliknite %(controlsImg) za povećanje/smanjenje razine obuke sposobnosti za 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Pritisnite %(pgupImg)/%(pgdownImg) za povećanje razine obuke sposobnosti na&nbsp;100% / idite&nbsp;natrag na prethodnu sposobnost."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Primjenjuje se na cijelu posadu. Daje svakom članu posade %(xp)s iskustva."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Primjenjuje se na cijelu posadu. Daje svakom članu posade %(xp)s iskustva."

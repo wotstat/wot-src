@@ -1,0 +1,1652 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "awardsWidget/description/award"
+msgstr "Kliknij, by wybrać i odebrać swoje nagrody."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Nagrody są chwilowo niedostępne. Przepraszamy za utrudnienia."
+
+msgid "awardsWidget/description/coin"
+msgstr "Kliknij, by zobaczyć wartościowe przedmioty za żetony Przepustki bitewnej."
+
+msgid "awardsWidget/description/collection"
+msgstr "Kliknij, aby zobaczyć Kolekcję przepustki bitewnej."
+
+msgid "awardsWidget/description/collectionCompleted"
+msgstr "Gratulacje! Zebrałeś wszystkie elementy Kolekcji przepustki bitewnej."
+
+msgid "awardsWidget/description/commander"
+msgstr "Kliknij, aby zobaczyć wszystkich załogantów z wydarzeń."
+
+msgid "awardsWidget/description/taler"
+msgstr "Kliknij, aby obejrzeć przedmioty z poprzednich sezonów Przepustki bitewnej dostępne za monety lub złoto."
+
+msgid "awardsWidget/description/ticket"
+msgstr "Kliknij, aby zdrapać kupony i otrzymać nagrody."
+
+msgid "awardsWidget/title/awardMultiple"
+msgstr "ODBIERZ\nNAGRODY"
+
+msgid "awardsWidget/title/awardSingle"
+msgstr "ODBIERZ\nNAGRODĘ"
+
+msgid "awardsWidget/title/coin"
+msgstr "PRZEDMIOTY ZA ŻETONY"
+
+msgid "awardsWidget/title/collection"
+msgstr "KOLEKCJA"
+
+msgid "awardsWidget/title/commander"
+msgstr "ZAŁOGA"
+
+msgid "awardsWidget/title/taler"
+msgstr "SKARBIEC"
+
+msgid "awardsWidget/title/ticket"
+msgstr "ZDRAP\nKUPONY"
+
+msgid "battleBonusX5"
+msgstr "Misja za doświadczenie ×5"
+
+msgid "battlePassAwardsView/additionalRewards/bpBuyLevelAwardsText"
+msgstr "Otrzymałeś ulepszoną nagrodę za ukończenie etapu głównego postępu. Nadal zdobywaj punkty, aby otrzymać więcej nagród."
+
+msgid "battlePassAwardsView/additionalRewards/bpRemainLevelsAwardsText"
+msgstr "Jeszcze %(remainingAwardsCount)s"
+
+msgid "battlePassAwardsView/additionalRewards/button"
+msgstr "Tak jest!"
+
+msgid "battlePassAwardsView/additionalRewards/seeMoreButtonText"
+msgstr "Zobacz nagrody"
+
+msgid "battlePassAwardsView/additionalRewards/subText"
+msgstr "Otrzymałeś także:"
+
+msgid "battlePassAwardsView/footer/acceptButton"
+msgstr "Tak jest!"
+
+msgid "battlePassAwardsView/footer/allChaptersText"
+msgstr "Odblokowałeś wszystkie nagrody Ulepszonej przepustki dla trzech rozdziałów."
+
+msgid "battlePassAwardsView/footer/boughtChapterText"
+msgstr "Masz dostęp do wszystkich nagród z zakupionego etapu."
+
+msgid "battlePassAwardsView/footer/bpButtonTitle"
+msgstr "Kup Ulepszoną przepustkę"
+
+msgid "battlePassAwardsView/footer/bpDescriptionGotStyle"
+msgstr "Na początku każdego rozdziału otrzymujesz styl, który można ulepszać w miarę postępów w rozdziale. Niekompletne style można ulepszać nawet po zakończeniu bieżącego sezonu Przepustki bitewnej."
+
+msgid "battlePassAwardsView/footer/bpInProgressTitle"
+msgstr "Kup ulepszoną przepustkę dla bieżącego rozdziału, aby otrzymać ulepszone nagrody za już ukończone etapy. Otrzymasz także ulepszone nagrody za ukończenie przyszłych etapów."
+
+msgid "battlePassAwardsView/footer/bpLastStagesTitle"
+msgstr "Kup ulepszoną przepustkę dla bieżącego rozdziału, by od razu otrzymać ulepszone nagrody za już ukończone etapy."
+
+msgid "battlePassAwardsView/footer/bpMoreTitle"
+msgstr "JEST JESZCZE SZANSA!"
+
+msgid "battlePassAwardsView/footer/bpTitle"
+msgstr "ULEPSZONA PRZEPUSTKA"
+
+msgid "battlePassAwardsView/footer/getRewardsButton"
+msgstr "Odbierz nagrody"
+
+msgid "battlePassAwardsView/footer/postProgressionButton"
+msgstr "Do elitarnego kręgu"
+
+msgid "battlePassAwardsView/footer/postProgressionText"
+msgstr "Masz teraz dostęp do elitarnego kręgu"
+
+msgid "battlePassAwardsView/header/bpAllChapters"
+msgstr "Wszystkie rozdziały"
+
+msgid "battlePassAwardsView/header/bpBoughtText"
+msgstr "KUPIONO ULEPSZONĄ PRZEPUSTKĘ!"
+
+msgid "battlePassAwardsView/header/bpFinalLevelText"
+msgstr "UKOŃCZONO OSTATNI ETAP!"
+
+msgid "battlePassAwardsView/header/bpLevelReceivedText"
+msgstr "UKOŃCZONO %(currentLevel)s ETAP!"
+
+msgid "battlePassAwardsView/header/bpLevelsText"
+msgstr "OTRZYMANO NAGRODY"
+
+msgid "battlePassAwardsView/header/bpRewardText"
+msgstr "OTRZYMANO NAGRODĘ"
+
+msgid "battlePassAwardsView/header/bpTitle"
+msgstr "PRZEPUSTKA BITEWNA: ROZDZIAŁ %(chapter)s"
+
+msgid "battlePassAwardsView/header/bpTitleWithoutChapter"
+msgstr "PRZEPUSTKA BITEWNA"
+
+msgid "battlePassAwardsView/header/styleReceivedText"
+msgstr "OTRZYMANO STYL"
+
+msgid "battlePassAwardsView/header/styleUpgradedText"
+msgstr "ULEPSZONO STYL"
+
+msgid "battlePassAwardsView/mainReward/battlePassNewDeviceGiftToken"
+msgstr "Standardowe wyposażenie do wyboru"
+
+msgid "battlePassAwardsView/mainReward/battlePassTrophyGiftToken"
+msgstr "Wyposażenie z nagród do wyboru"
+
+msgid "battlePassAwardsView/mainReward/bpBuyAwardsCaption"
+msgstr "Odblokowałeś wszystkie nagrody ulepszonej przepustki dla rozdziału %(chapter)s."
+
+msgid "battlePassAwardsView/mainReward/bpBuyWithLevels"
+msgstr "Otrzymałeś wszystkie nagrody dla rozdziału %(chapter)s."
+
+msgid "battlePassAwardsView/mainReward/commander"
+msgstr "Członek załogi: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonText"
+msgstr "Przejdź do wyboru"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonTitle"
+msgstr "W dziale Zaopatrzenie Ostatniej granicy w magazynie"
+
+msgid "battlePassAwardsView/mainReward/reward"
+msgstr "Medal: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/style"
+msgstr "Styl 3D: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel1"
+msgstr "Pierwszy poziom stylu %(styleName)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel2"
+msgstr "Nowy poziom stylu %(styleName)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel3"
+msgstr "Maksymalny poziom stylu %(styleName)s"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonText"
+msgstr "Przejdź do wyboru"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonTitle"
+msgstr "W dziale Zaopatrzenie Ostatniej granicy w magazynie"
+
+msgid "battlePassBuyLevels/chapter"
+msgstr "rozdziału %(name)s"
+
+msgid "battlePassBuyLevels/levelsSelected"
+msgid_plural "plural/battlePassBuyLevels/levelsSelected"
+msgstr[0] "%(count)s etap dla"
+msgstr[1] "%(count)s etapy dla"
+msgstr[2] "%(count)s etapów dla"
+
+msgid "battlePassBuyView/btnCancel"
+msgstr "Anuluj"
+
+msgid "battlePassBuyView/btnRewards"
+msgstr "Obejrzyj wszystkie\n%(count)s nagród"
+
+msgid "battlePassBuyView/confirm/btnBuy"
+msgstr "Kup"
+
+msgid "battlePassBuyView/confirm/checkbox/stage"
+msgid_plural "plural/battlePassBuyView/confirm/checkbox/stage"
+msgstr[0] "Wraz z %(stagesNumber)s pozostałym etapem"
+msgstr[1] "Wraz z %(stagesNumber)s pozostałymi etapami"
+msgstr[2] "Wraz z %(stagesNumber)s pozostałymi etapami"
+
+msgid "battlePassBuyView/confirm/description"
+msgstr "Ulepszona przepustka odblokowuje:"
+
+msgid "battlePassBuyView/confirm/descriptionCheckboxChecked"
+msgstr "Otrzymasz natychmiast wszystkie nagrody rozdziału:"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/buy"
+msgstr "Obejrzyj oferty"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/description"
+msgstr "Ta oferta jest ważna, dopóki żaden\nz rozdziałów sezonu nie zostanie ulepszony."
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/headline"
+msgstr "%(count)s w 1"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/packsAmount"
+msgstr "x%(amount)s"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/title"
+msgstr "Ulepszona przepustka\ndla wszystkich rozdziałów sezonu"
+
+msgid "battlePassBuyView/confirm/starterPack/description"
+msgstr "Premia %(purchaseText)s"
+
+msgid "battlePassBuyView/confirm/starterPack/purchaseText"
+msgstr "na zakup:"
+
+msgid "battlePassBuyView/descr"
+msgstr "Kupno etapu postępów natychmiast odblokowuje i przyznaje wszystkie nagrody zawarte w tym etapie."
+
+msgid "battlePassBuyView/reward/descriptionFutureRewards"
+msgstr "Te nagrody zostaną Ci przyznane po ukończeniu nadchodzących etapów."
+
+msgid "battlePassBuyView/reward/descriptionNowRewards"
+msgstr "Za %(steps)s etapy zostaną Ci przyznane następujące nagrody"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
+msgstr "Następujące nagrody otrzymasz natychmiast"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
+msgstr "Za %(steps)s etap zostaną Ci przyznane następujące nagrody"
+
+msgid "battlePassBuyView/reward/titleFutureRewards"
+msgstr "ZOSTANĄ ODBLOKOWANE"
+
+msgid "battlePassBuyView/reward/titleNowRewards"
+msgstr "ZOSTANIE PRZEKAZANE NATYCHMIAST"
+
+msgid "battlePassStatus/activateChapter"
+msgstr "Aktywuj rozdział Przepustki bitewnej"
+
+msgid "battlePassStatus/improve"
+msgstr "Wciąż możesz kupić ulepszoną przepustkę"
+
+msgid "battlePassVehicleAwardView/button"
+msgstr "Tak jest!"
+
+msgid "battlePassVehicleAwardView/content/description"
+msgstr "OSIĄGNIĘTO LIMIT PUNKTÓW"
+
+msgid "battlePassVehicleAwardView/content/postTitle"
+msgstr "ELITARNY POSTĘP PRZEPUSTKI BITEWNEJ"
+
+msgid "battlePassVehicleAwardView/content/subTitle"
+msgstr "Otrzymałeś nagrody:"
+
+msgid "battlePassVehicleAwardView/content/title"
+msgstr "PRZEPUSTKA BITEWNA"
+
+msgid "battlepassTab"
+msgstr "Przepustka bitewna"
+
+msgid "chapter/fullName/10021"
+msgstr "Pieśń o żubrze"
+
+msgid "chapter/fullName/1114"
+msgstr "Pieśń o żubrze"
+
+msgid "chapter/fullName/200"
+msgstr "Elitarny krąg"
+
+msgid "chapter/fullName/201"
+msgstr "Zakopany czas"
+
+msgid "chapter/fullName/202"
+msgstr "C’est Notre Destin"
+
+msgid "chapter/fullName/203"
+msgstr "Pustynne dowództwo"
+
+msgid "chapter/fullName/205"
+msgstr "Far Cry"
+
+msgid "chapter/fullNameUppercased/10021"
+msgstr "PIEŚŃ O ŻUBRZE"
+
+msgid "chapter/fullNameUppercased/1114"
+msgstr "PIEŚŃ O ŻUBRZE"
+
+msgid "chapter/fullNameUppercased/201"
+msgstr "ZAKOPANY CZAS"
+
+msgid "chapter/fullNameUppercased/202"
+msgstr "C’EST NOTRE DESTIN"
+
+msgid "chapter/fullNameUppercased/203"
+msgstr "PUSTYNNE DOWÓDZTWO"
+
+msgid "chapter/fullNameUppercased/205"
+msgstr "FAR CRY"
+
+msgid "chapter/title"
+msgstr "ROZDZIAŁ %(chapter)s"
+
+msgid "chapterChoice/about"
+msgstr "O PRZEPUSTCE BITEWNEJ"
+
+msgid "chapterChoice/activeChapter/postprogression/text"
+msgstr "Aktywne"
+
+msgid "chapterChoice/activeChapter/text"
+msgstr "Aktywny rozdział"
+
+msgid "chapterChoice/chapterCompleted"
+msgstr "Ukończono rozdział"
+
+msgid "chapterChoice/chapterInfo/buttons/toChapter"
+msgstr "Do rozdziału"
+
+msgid "chapterChoice/chapterInfo/buttons/toCrewMembers"
+msgstr "Obejrzyj członków załogi"
+
+msgid "chapterChoice/chapterInfo/buttons/toPostProgression"
+msgstr "Do postępów"
+
+msgid "chapterChoice/chapterInfo/deadline/date"
+msgstr "Będzie trwać do %(endDate)s"
+
+msgid "chapterChoice/chapterInfo/deadline/time"
+msgstr "Skończy się za %(endTime)s"
+
+msgid "chapterChoice/confirmation/button/cancel"
+msgstr "Anuluj"
+
+msgid "chapterChoice/confirmation/button/submit"
+msgstr "Aktywuj"
+
+msgid "chapterChoice/confirmation/button/switch"
+msgstr "Przełącz"
+
+msgid "chapterChoice/confirmation/description/select"
+msgstr "Możesz przełączyć się na inny rozdział w dowolnym momencie."
+
+msgid "chapterChoice/confirmation/description/switch"
+msgstr "Już aktywowałeś rozdział %(chName)s. Zostanie on zatrzymany."
+
+msgid "chapterChoice/confirmation/extraChapterDescription/highlightText"
+msgstr "będzie niedostępny"
+
+msgid "chapterChoice/confirmation/extraChapterDescription/text"
+msgstr "%(icon)Po aktywacji specjalnego rozdziału elitarny krąg %(highlightText) do momentu zakończenia rozdziału lub ukończenia postępów."
+
+msgid "chapterChoice/confirmation/title/select"
+msgstr "Czy aktywować rozdział %(chName)s?"
+
+msgid "chapterChoice/confirmation/title/switch"
+msgstr "Czy przełączyć na rozdział %(chName)s?"
+
+msgid "chapterChoice/crewMember/reward"
+msgstr "Członkowie załogi"
+
+msgid "chapterChoice/crewMember/reward/subTitle"
+msgstr "i inni członkowie załogi wewnątrz"
+
+msgid "chapterChoice/eliteCircuit/reward/subTitle"
+msgstr "w ramach cyklicznych postępów"
+
+msgid "chapterChoice/eliteCircuit/reward/title"
+msgstr "Obligacje, żetony i kupony"
+
+msgid "chapterChoice/extraChapter/reward"
+msgstr "Pojazd premium"
+
+msgid "chapterChoice/freePoints/text"
+msgstr "Niewydane punkty"
+
+msgid "chapterChoice/freePoints/tooltip/body"
+msgstr "Punkty zbiera się w miarę postępów w Przepustce bitewnej, nawet jeśli żaden rozdział nie został aktywowany. Po aktywowaniu rozdziału punkty zostaną dodane do jego postępów."
+
+msgid "chapterChoice/freePoints/tooltip/header"
+msgstr "Niewydane punkty Przepustki bitewnej"
+
+msgid "chapterChoice/postprogression/locked"
+msgstr "Wypełnij wszystkie {{count}} rozdziałów\nsezonu, by odblokować"
+
+msgid "chapterChoice/postprogression/name"
+msgstr "Elitarny krąg"
+
+msgid "chapterChoice/postprogression/unlocked/cycle"
+msgstr "Cykl %(cycle)s"
+
+msgid "chapterChoice/stages/additional"
+msgstr " / %(level)s etapów"
+
+msgid "chapterChoice/stages/complete/improved"
+msgstr "Ukończone i ulepszone"
+
+msgid "chapterChoice/stages/complete/unimproved"
+msgstr "Jeszcze %(count)s nagród w środku"
+
+msgid "chapterChoice/stylePreview/reward/subTitle"
+msgstr "dla %(vehicleName)s"
+
+msgid "chapterChoice/stylePreview/reward/title"
+msgstr "Styl 3D %(styleName)s"
+
+msgid "chapterChoice/vehicle/reward/subTitle"
+msgstr "%(vehicleName)s"
+
+msgid "chapterChoice/vehicle/reward/title"
+msgstr "Pojazd premium"
+
+msgid "chapterChoice/vehicleStyle/reward/subTitle"
+msgstr "i styl 3D %(styleName)s"
+
+msgid "chapterChoice/vehicleStyle/reward/title"
+msgstr "%(vehicleName)s"
+
+msgid "chapterStatus/notSelected"
+msgstr "Nie wybrano rozdziału"
+
+msgid "chosenBonuses/bonus/battle_booster_gift"
+msgstr "Dyrektywy do wyboru"
+
+msgid "chosenBonuses/bonus/blueprint_gift"
+msgstr "Fragmenty schematów narodowych do wyboru"
+
+msgid "chosenBonuses/bonus/brochure_gift"
+msgstr "Książeczki szkoleniowe do wyboru"
+
+msgid "chosenBonuses/bonus/crewbook_gift"
+msgstr "Podręczniki szkoleniowe do wyboru"
+
+msgid "chosenBonuses/bonus/guide_gift"
+msgstr "Przewodniki szkoleniowe do wyboru"
+
+msgid "chosenBonuses/bonus/modernized_device_gift"
+msgstr "Eksperymentalne wyposażenie do wyboru"
+
+msgid "chosenBonuses/bonus/new_device_gift"
+msgstr "Standardowe wyposażenie do wyboru"
+
+msgid "chosenBonuses/bonus/trophy_gift"
+msgstr "Wyposażenie z nagród do wyboru"
+
+msgid "common/collectionText"
+msgstr "(Element kolekcji)"
+
+msgid "common/comma"
+msgstr ", "
+
+msgid "common/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "commonProgression/body/ended"
+msgstr "Sezon Przepustki bitewnej dobiegł końca"
+
+msgid "crewBonusX3"
+msgstr "Misja 3× PD załogi"
+
+msgid "equipCoinBonus"
+msgstr "Elementy: %(count)s"
+
+msgid "finalReward/tankman/roles/commander"
+msgstr "Dowódca"
+
+msgid "finalReward/tankman/roles/driver"
+msgstr "Kierowca-mechanik"
+
+msgid "finalReward/tankman/roles/gunner"
+msgstr "Celowniczy"
+
+msgid "finalReward/tankman/roles/loader"
+msgstr "Ładowniczy"
+
+msgid "finalReward/tankman/roles/radioman"
+msgstr "Radiooperator"
+
+msgid "holidayFinalScreen/buyState/buyButton"
+msgstr "Kup ulepszoną przepustkę"
+
+msgid "holidayFinalScreen/buyState/description"
+msgstr "Gdy kupisz Ulepszoną przepustkę, natychmiast otrzymasz dostęp do pojazdu premium i unikalnego stylu 3D, a także do wszystkich nagród Ulepszonej przepustki."
+
+msgid "holidayFinalScreen/buyState/moreRewards"
+msgstr "Inne nagrody: %(count)s"
+
+msgid "holidayFinalScreen/buyState/title"
+msgstr "Zdobądź nagrody ulepszonej przepustki"
+
+msgid "holidayFinalScreen/chapter"
+msgstr "%(chapterName)s"
+
+msgid "holidayFinalScreen/completed"
+msgstr "UKOŃCZONO ROZDZIAŁ"
+
+msgid "holidayFinalScreen/finalState/button/showHangar"
+msgstr "Powrót do garażu"
+
+msgid "holidayFinalScreen/finalState/button/showVehicle"
+msgstr "Wyświetl w garażu"
+
+msgid "holidayFinalScreen/finalState/label"
+msgstr "Otrzymano wszystkie nagrody wydarzenia"
+
+msgid "holidayFinalScreen/selectableRewardsState/button"
+msgstr "Odbierz nagrody"
+
+msgid "holidayFinalScreen/selectableRewardsState/label"
+msgstr "Wciąż masz nagrody do wyboru."
+
+msgid "holidayFinalScreen/tankmenState/description"
+msgstr "W czasie tego wydarzenia w Sklepie są dostępne zestawy zawierające unikalnych członków załogi."
+
+msgid "holidayFinalScreen/tankmenState/tankmenButton"
+msgstr "Posłuchaj ścieżek głosowych"
+
+msgid "holidayFinalScreen/tankmenState/title"
+msgstr "Zbierz wszystkich członków załogi!"
+
+msgid "howToEarnPoints/battleRoyal/platoon"
+msgstr "W plutonie"
+
+msgid "howToEarnPoints/battleRoyal/solo"
+msgstr "Solo"
+
+msgid "howToEarnPoints/battleTypeTitle/1"
+msgstr "Bitwa losowa"
+
+msgid "howToEarnPoints/battleTypeTitle/27"
+msgstr "Linia frontu"
+
+msgid "howToEarnPoints/battleTypeTitle/29"
+msgstr "Stalowy łowca"
+
+msgid "howToEarnPoints/battleTypeTitle/43"
+msgstr "Natarcie"
+
+msgid "howToEarnPoints/battleTypeTitle/49"
+msgstr "Natarcie light"
+
+msgid "howToEarnPoints/bonus"
+msgstr "+%(bonus)s"
+
+msgid "howToEarnPoints/card/battle/linkText"
+msgstr "Przejdź do misji"
+
+msgid "howToEarnPoints/card/battle/text"
+msgstr "Wypełnij misje w Stalowym łowcy i zdobądź dodatkowe punkty."
+
+msgid "howToEarnPoints/card/battle/title"
+msgstr "Misje dzienne"
+
+msgid "howToEarnPoints/card/comp7/text"
+msgstr "Wypełnij misje w trybie Natarcie i zdobądź dodatkowe punkty."
+
+msgid "howToEarnPoints/card/comp7/title"
+msgstr "Misje dzienne"
+
+msgid "howToEarnPoints/card/comp7Light/text"
+msgstr "Wypełnij misje w trybie Natarcie light i zdobądź dodatkowe punkty."
+
+msgid "howToEarnPoints/card/comp7Light/title"
+msgstr "Misje dzienne"
+
+msgid "howToEarnPoints/card/daily/linkText"
+msgstr "Zobacz misje"
+
+msgid "howToEarnPoints/card/daily/text"
+msgstr "Zdobądź jeszcze więcej punktów, wykonując misje dzienne."
+
+msgid "howToEarnPoints/card/daily/title"
+msgstr "Misje dzienne"
+
+msgid "howToEarnPoints/card/epicBattlePoints/text"
+msgstr "Za osiągnięcie poziomów Linii frontu zdobędziesz dodatkowe punkty przepustki bitewnej."
+
+msgid "howToEarnPoints/card/epicBattlePoints/title"
+msgstr "Nagroda za poziomy Linii frontu"
+
+msgid "howToEarnPoints/card/limitPoints/text"
+msgstr "Każdy pojazd ma limit punktów. Osiągnij go, aby zdobyć dodatkowe punkty."
+
+msgid "howToEarnPoints/card/limitPoints/title"
+msgstr "Nagroda po osiągnięciu limitu punktów"
+
+msgid "howToEarnPoints/card/specialVehicle/text"
+msgstr "Walcząc w podstawowych pojazdach sezonu, będziesz zdobywać dodatkowe punkty."
+
+msgid "howToEarnPoints/card/specialVehicle/title"
+msgstr "Podstawowe pojazdy sezonu"
+
+msgid "howToEarnPoints/condition/43"
+msgstr "Według punktów prestiżu"
+
+msgid "howToEarnPoints/condition/49"
+msgstr "Według punktów prestiżu"
+
+msgid "howToEarnPoints/condition/default"
+msgstr "Wynik według PD"
+
+msgid "howToEarnPoints/conditions"
+msgstr "Warunki uzyskania"
+
+msgid "howToEarnPoints/description"
+msgstr "Rób postępy w rozdziałach i zbieraj nagrody, zdobywając punkty Przepustki bitewnej z różnych trybów:"
+
+msgid "howToEarnPoints/earned"
+msgstr "{{icon}}"
+
+msgid "howToEarnPoints/extraPoints"
+msgstr "Dodatkowe punkty"
+
+msgid "howToEarnPoints/lose/1"
+msgstr "Porażka / remis"
+
+msgid "howToEarnPoints/lose/27"
+msgstr "Porażka"
+
+msgid "howToEarnPoints/lose/43"
+msgstr "Porażka / remis"
+
+msgid "howToEarnPoints/lose/49"
+msgstr "Porażka / remis"
+
+msgid "howToEarnPoints/plusBanner/line1"
+msgstr "Mając %(link)s, zdobywasz więcej punktów"
+
+msgid "howToEarnPoints/plusBanner/line2"
+msgstr "dla wszystkich zwykłych rozdziałów."
+
+msgid "howToEarnPoints/plusBanner/link"
+msgstr "WoT Plus Pro"
+
+msgid "howToEarnPoints/points"
+msgstr "Punkty"
+
+msgid "howToEarnPoints/rangeLevels/29"
+msgstr "Miejsca %(startLevel)d–%(endLevel)d"
+
+msgid "howToEarnPoints/rating"
+msgstr "Najlepsza %(place)d"
+
+msgid "howToEarnPoints/rating/1"
+msgstr "Najlepsza %(level)d według PD"
+
+msgid "howToEarnPoints/rating/27"
+msgstr "Najlepsza %(level)d według PD"
+
+msgid "howToEarnPoints/rating/29"
+msgstr "Najlepsza %(level)d według PD"
+
+msgid "howToEarnPoints/rating/43"
+msgstr "Najlepsza %(level)d według punktów prestiżu"
+
+msgid "howToEarnPoints/rating/49"
+msgstr "Najlepsza %(level)d według punktów prestiżu"
+
+msgid "howToEarnPoints/singleLevel/29"
+msgstr "Miejsce %(level)d"
+
+msgid "howToEarnPoints/solo/29"
+msgstr "Gra solo"
+
+msgid "howToEarnPoints/squad/29"
+msgstr "Gra w plutonie"
+
+msgid "howToEarnPoints/text/1"
+msgstr "Poziomy %(startLevel)s–%(endLevel)s"
+
+msgid "howToEarnPoints/text/27"
+msgstr "Poziom %(level)s"
+
+msgid "howToEarnPoints/text/29"
+msgstr "Pojazdy specjalne"
+
+msgid "howToEarnPoints/text/43"
+msgstr "Poziom %(level)s"
+
+msgid "howToEarnPoints/text/49"
+msgstr "Poziom %(level)s"
+
+msgid "howToEarnPoints/title"
+msgstr "Jak zdobywać punkty"
+
+msgid "howToEarnPoints/vehicle"
+msgstr "Pojazd"
+
+msgid "howToEarnPoints/vehicles"
+msgstr "Pojazdy specjalne"
+
+msgid "howToEarnPoints/win/1"
+msgstr "Zwycięstwo"
+
+msgid "howToEarnPoints/win/27"
+msgstr "Zwycięstwo"
+
+msgid "howToEarnPoints/win/43"
+msgstr "Zwycięstwo"
+
+msgid "howToEarnPoints/win/49"
+msgstr "Zwycięstwo"
+
+msgid "intro/affirmative/button"
+msgstr "Tak jest!"
+
+msgid "intro/next/button"
+msgstr "Następne"
+
+msgid "intro/seasonDescription/text"
+msgstr "W Sezonie XVIII Przepustki bitewnej będziesz mieć szansę na otrzymanie ekskluzywnych stylów 3D dla podstawowych pojazdów sezonu: Maus, IS-7, i AMX&nbsp;50&nbsp;B."
+
+msgid "intro/seasonDescription/title"
+msgstr "Nowe tematyczne style 3D"
+
+msgid "intro/title"
+msgstr "SEZON XVIII: DROGA DO DOSKONAŁOŚCI"
+
+msgid "lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "navigation/buyLevels"
+msgstr "ZAKUP ETAPU"
+
+msgid "navigation/buyLevelsRewards"
+msgstr "NAGRODY ETAPU"
+
+msgid "navigation/buyPass"
+msgstr "KUPOWANIE ULEPSZONEJ PRZEPUSTKI"
+
+msgid "navigation/buyPassConfirm"
+msgstr "ZAKUP ULEPSZONEJ PRZEPUSTKI"
+
+msgid "navigation/buyPassRewards"
+msgstr "NAGRODY ULEPSZONEJ PRZEPUSTKI"
+
+msgid "navigation/chapterChoice"
+msgstr "PRZEPUSTKA BITEWNA, SEZON %(seasonNum)s"
+
+msgid "navigation/holidayFinal"
+msgstr "PRZEPUSTKA BITEWNA"
+
+msgid "navigation/intro"
+msgstr "PRZEPUSTKA BITEWNA, SEZON %(seasonNum)s"
+
+msgid "navigation/postProgression"
+msgstr "ELITARNY KRĄG PRZEPUSTKI BITEWNEJ"
+
+msgid "navigation/progression"
+msgstr "ROZDZIAŁ PRZEPUSTKI BITEWNEJ"
+
+msgid "navigation/tankmenScreen"
+msgstr "UNIKALNI CZŁONKOWIE ZAŁOGI"
+
+msgid "points/top"
+msgstr "%(vehicle): %(bonus) za %(top) według PD."
+
+msgid "points/topCount"
+msgstr "najlepszych %(top)s"
+
+msgid "points/transfer"
+msgstr "Dodano wolne punkty:"
+
+msgid "postProgressionView/footer/button/text"
+msgstr "Do Rozdziałów"
+
+msgid "postProgressionView/footer/description/text"
+msgstr "Dostępny po ukończeniu wszystkich rozdziałów. Ukończone rozdziały: %(completedChapters)/%(chaptersAmount)"
+
+msgid "postProgressionView/footer/extraChapter/description/text"
+msgstr "Zdobądź pojazd premium i ekskluzywne elementy personalizujące."
+
+msgid "postProgressionView/footer/extraChapter/title/text"
+msgstr "Nadeszła Przepustka bitewna: Far Cry"
+
+msgid "postProgressionView/footer/purchaseIP/banner/text"
+msgstr "Kup ulepszoną przepustkę i zgarnij więcej!"
+
+msgid "postProgressionView/footer/purchaseIP/button/text"
+msgstr "Kup"
+
+msgid "postProgressionView/header/description/active"
+msgstr "Zdobywaj punkty w bitwie i otrzymuj w nagrodę obligacje i kupony"
+
+msgid "postProgressionView/header/description/onPause/highlight"
+msgstr "WSTRZYMANO."
+
+msgid "postProgressionView/header/description/onPause/regular"
+msgstr "Będzie dostępny po ukończeniu postępów w rozdziale specjalnym."
+
+msgid "postProgressionView/header/headline/deadline"
+msgstr "Będzie trwać do %(endDate)s"
+
+msgid "postProgressionView/header/headline/unlocked"
+msgstr "Ukończono wszystkie rozdziały"
+
+msgid "postProgressionView/header/title"
+msgstr "ELITARNY KRĄG"
+
+msgid "postProgressionView/progression/currentStep"
+msgstr "Aktualny etap"
+
+msgid "postProgressionView/progression/cyclesCompleted"
+msgstr "Ukończone cykle:"
+
+msgid "postProgressionView/progression/cyclicalProgression"
+msgstr "Postępy cykliczne"
+
+msgid "postProgressionView/toolbar/aboutBattlePass"
+msgstr "O PRZEPUSTCE BITEWNEJ"
+
+msgid "postProgressionView/toolbar/howToEarnPoints"
+msgstr "JAK ZDOBYWAĆ PUNKTY"
+
+msgid "prestige/top"
+msgstr "%(vehicle): %(bonus) za znalezienie się wśród %(top) graczy według liczby zdobytych punktów prestiżu."
+
+msgid "progression/about"
+msgstr "O PRZEPUSTCE BITEWNEJ"
+
+msgid "progression/aboutExtra"
+msgstr "O WYDARZENIU"
+
+msgid "progression/activateChapter"
+msgstr "Aktywuj rozdział"
+
+msgid "progression/activateChapterDescr"
+msgstr "Za ukończenie aktywnego rozdziału otrzymasz punkty Przepustki bitewnej i inne nagrody."
+
+msgid "progression/activateExtraChapterDescr"
+msgstr "Za ukończenie aktywnego rozdziału otrzymasz punkty Przepustki bitewnej i inne nagrody."
+
+msgid "progression/activatePausedExtraChapterDescr"
+msgstr "Za ukończenie aktywnego rozdziału otrzymasz punkty Przepustki bitewnej i nagrody."
+
+msgid "progression/backToCurrentStageArrow/descr"
+msgstr "Kliknij, aby przejść do aktualnego etapu."
+
+msgid "progression/backToPotentialStageArrow/descr"
+msgstr "Kliknij, aby przejść do etapu, który możesz odblokować."
+
+msgid "progression/baseProgressionDescr"
+msgstr "NAGRODY PODSTAWOWE"
+
+msgid "progression/battlePassBuyBtn"
+msgstr "Kup ulepszoną przepustkę"
+
+msgid "progression/battlePassBuyDescr"
+msgstr "Ulepszona przepustka odblokowuje ścieżkę ulepszonych nagród dla bieżącego rozdziału."
+
+msgid "progression/battlePassBuyDescrStarterPack"
+msgstr "Odblokuj ulepszone nagrody\ni zyskaj premię"
+
+msgid "progression/battlePassBuyHolidayDescr"
+msgstr "Ulepszona przepustka odblokowuje ścieżkę ulepszonych nagród."
+
+msgid "progression/battlePassNextChapterBuyDescr"
+msgstr "Ukończ poprzedni rozdział, by kupić ulepszoną przepustkę dla tego rozdziału."
+
+msgid "progression/battlePassNextChapterEpisodesDescr"
+msgstr "Ukończ poprzedni rozdział, by kupić etapy w tym rozdziale."
+
+msgid "progression/btnExtras"
+msgstr "DODATKOWE\nMATERIAŁY"
+
+msgid "progression/btnExtrasTooltip"
+msgstr "Kończ etapy i odblokowuj nowe materiały. Odblokowane materiały: %(opened) / %(total)."
+
+msgid "progression/btnNoExtrasTooltip"
+msgstr "Kończ etapy i odblokowuj nowe materiały."
+
+msgid "progression/btnRewardSelect"
+msgstr "ODBIERZ NAGRODĘ"
+
+msgid "progression/btnRewardSelectTooltip"
+msgstr "Kliknij, by wybrać i odebrać swoje nagrody."
+
+msgid "progression/btnRewardsSelect"
+msgstr "ODBIERZ NAGRODY"
+
+msgid "progression/btnRewardsUnavailable"
+msgstr "Ta operacja jest chwilowo niedostępna z przyczyn technicznych. Pracujemy nad rozwiązaniem problemu."
+
+msgid "progression/btnTokensStore"
+msgstr "PRZEDMIOTY\nZA ŻETONY"
+
+msgid "progression/btnTokensStoreTooltip"
+msgstr "Kliknij, aby zobaczyć wartościowe przedmioty za żetony Przepustki bitewnej.\nDostępne żetony: %(bpcoinCount)."
+
+msgid "progression/chapterText"
+msgstr "ROZDZIAŁ %(chapter)s: %(chapterName)s"
+
+msgid "progression/currentStep"
+msgstr "Aktualny etap"
+
+msgid "progression/currentStepLocked"
+msgstr "ULEPSZONA NAGRODA"
+
+msgid "progression/episodeBuyBtn"
+msgstr "Kup etapy"
+
+msgid "progression/episodeBuyDescr"
+msgstr "Otrzymasz nagrody za każdy kupiony etap."
+
+msgid "progression/episodeBuyDisableDescr"
+msgstr "Możesz wykupić dowolną liczbę etapów za %(day)"
+
+msgid "progression/error"
+msgstr "Przepustka bitewna jest tymczasowo niedostępna z przyczyn technicznych.\nWszelkie postępy zostaną zachowane. Przepraszamy za niedogodności."
+
+msgid "progression/errorBtn"
+msgstr "Do garażu"
+
+msgid "progression/extraChapterWidget/commanderVoices"
+msgstr "Do pozostałych"
+
+msgid "progression/extraChapterWidget/forLabel"
+msgstr "dla %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/inHangarTooltip"
+msgstr "W garażu"
+
+msgid "progression/extraChapterWidget/labelWithBP"
+msgstr "Z ulepszoną przepustką"
+
+msgid "progression/extraChapterWidget/style3DTitle"
+msgstr "Styl 3D"
+
+msgid "progression/extraChapterWidget/styleName"
+msgstr "%(styleName)s"
+
+msgid "progression/extraChapterWidget/styleRemark"
+msgstr "Z ulepszoną przepustką"
+
+msgid "progression/extraChapterWidget/styleSubTitle"
+msgstr "oraz misja dla %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/styleTitle"
+msgstr "Styl"
+
+msgid "progression/extraChapterWidget/tank"
+msgstr "Pojazd premium"
+
+msgid "progression/extraChapterWidget/tank/description/14"
+msgstr "Aby upamiętnić 80 lat\nod D-Day"
+
+msgid "progression/extraChapterWidget/tankName"
+msgstr "%(vehicleName)s"
+
+msgid "progression/extraChapterWidget/tankman"
+msgstr "Członek załogi"
+
+msgid "progression/extraChapterWidget/timer"
+msgstr "Czas pozostały do zakończenia rozdziału Przepustki bitewnej"
+
+msgid "progression/extraChapterWidget/vehicleCaption"
+msgstr "Pojazd premium"
+
+msgid "progression/extraChapterWidget/vehicleSubTitle"
+msgstr "i styl 3D %(styleName)s"
+
+msgid "progression/extraChapterWidget/voiceoverTooltip"
+msgstr "Kliknij, aby wysłuchać ścieżki głosowej członka załogi."
+
+msgid "progression/footer/starter_pack/equal"
+msgstr "="
+
+msgid "progression/footer/status/inactive"
+msgstr "Rozdział nieaktywny"
+
+msgid "progression/footer/status/paused"
+msgstr "Rozdział wstrzymany."
+
+msgid "progression/freePointsDescr"
+msgstr "Niewydane punkty Przepustki bitewnej: "
+
+msgid "progression/header/chapter/status"
+msgstr "Rozdział %(chapterName)s"
+
+msgid "progression/header/inactive"
+msgstr "nieaktywny"
+
+msgid "progression/header/paused"
+msgstr "wstrzymany"
+
+msgid "progression/howToEarnPoints/title"
+msgstr "JAK ZDOBYWAĆ PUNKTY"
+
+msgid "progression/pausedStep"
+msgstr "Etap"
+
+msgid "progression/postProgressionDescr"
+msgstr "ELITARNY POSTĘP"
+
+msgid "progression/premiumProgressionDescr"
+msgstr "NAGRODY ULEPSZONE"
+
+msgid "progression/progressionArrow"
+msgstr "ZOBACZ\nWSZYSTKIE ETAPY"
+
+msgid "progression/progressionChapterArrow"
+msgstr "ROZDZIAŁ %(chapter)"
+
+msgid "progression/progressionChapterGoTo"
+msgstr "PRZEJDŹ DO"
+
+msgid "progression/season/end/normal"
+msgstr "Sezon %(seasonNum)s: %(seasonName)s potrwa do %(endDate)s"
+
+msgid "progression/season/end/special"
+msgstr "Będzie trwać do: %(endTime)s"
+
+msgid "progression/seasonEndingDescr"
+msgstr "Wydarzenie kończy się za "
+
+msgid "progression/seasonEndingTooltip"
+msgstr "Do końca: {day} d"
+
+msgid "progression/takeReward"
+msgstr "Odbierz nagrodę"
+
+msgid "progression/universalCommander"
+msgstr "Unikalny członek załogi"
+
+msgid "progression/widget3dStyle/currentStyle"
+msgstr "Styl %(name)"
+
+msgid "progression/widget3dStyle/forVehicle"
+msgstr "Dla pojazdu "
+
+msgid "progression/widget3dStyle/titleForClosedChapter"
+msgstr "Ukończ poprzedni rozdział,\nby wybrać styl"
+
+msgid "progression/widget3dStyle/titleForLastChapter"
+msgstr "Wybierz styl rozdziału.\nMożna go od razu zastosować"
+
+msgid "progression/widget3dStyle/titleNoChapterSelected"
+msgstr "Aktywuj rozdział, aby otrzymać styl 3D"
+
+msgid "progression/widget3dStyle/viewStyles"
+msgstr "Zobacz wszystkie style"
+
+msgid "questChainBonus"
+msgstr "Seria misji"
+
+msgid "randomQuestBonus"
+msgstr "Misja dla %(vehicle)s"
+
+msgid "reward/postBattle/comp7/progress"
+msgstr "Punkty za znalezienie się wśród najlepszych graczy pod względem zdobytych punktów prestiżu:"
+
+msgid "reward/postBattle/comp7/progress/tooltip"
+msgstr "Punkty za znalezienie się wśród najlepszych graczy pod względem zdobytych punktów prestiżu: %(points)d"
+
+msgid "reward/postBattle/progress"
+msgstr "Postęp w etapach:"
+
+msgid "reward/postBattle/progress/battle/tooltip"
+msgstr "Za miejsce wśród najlepszych graczy"
+
+msgid "reward/postBattle/progress/bonus/tooltip"
+msgstr "Za osiągnięcie limitu punktów pojazdu"
+
+msgid "reward/postBattle/progress/points"
+msgstr "Przepustka bitewna. Zdobywanie punktów"
+
+msgid "reward/postBattle/progress/points/battle"
+msgstr "Za miejsce wśród najlepszych graczy:"
+
+msgid "reward/postBattle/progress/points/bonus"
+msgstr "Za osiągnięcie limitu punktów pojazdu:"
+
+msgid "reward/postBattle/progress/points/quest"
+msgstr "Za wypełnienie misji:"
+
+msgid "reward/postBattle/progress/points/wotPlusCore"
+msgstr "Premia WoT Plus Pro:"
+
+msgid "reward/postBattle/progress/points/wotPlusPro"
+msgstr "Premia WoT Plus Pro:"
+
+msgid "reward/postBattle/progress/pointsAux"
+msgstr "Zdobyte punkty:"
+
+msgid "reward/postBattle/progress/pointsAux/tooltip"
+msgstr "Dodano darmowe punkty"
+
+msgid "reward/postBattle/progress/quests/tooltip"
+msgstr "Za wypełnienie misji"
+
+msgid "reward/postBattle/progress/tooltip"
+msgstr "Postęp w etapach"
+
+msgid "reward/postBattle/title"
+msgstr "Etap %(level)d rozdziału %(chapter)s"
+
+msgid "reward/postBattle/title/free"
+msgstr "Przepustka bitewna: zdobywanie darmowych punktów"
+
+msgid "reward/postBattle/title/postProgression"
+msgstr "Etap %(level)d elitarnego kręgu"
+
+msgid "rewardChoice/crewBook/rewardDescription"
+msgstr "doświadczenia dla każdego członka załogi wybranego pojazdu z kraju: %(nation)s"
+
+msgid "rewardChoice/subTitle"
+msgstr "WYBIERZ SWOJĄ NAGRODĘ"
+
+msgid "rewardChoice/title"
+msgstr "PRZEPUSTKA BITEWNA"
+
+msgid "rewardChoice/titleChapter"
+msgstr "PRZEPUSTKA BITEWNA: ROZDZIAŁ %(chapter)s"
+
+msgid "rewardChoice/titleChapterLevel"
+msgstr "PRZEPUSTKA BITEWNA: ROZDZIAŁ %(chapter)s, ETAP %(level)s"
+
+msgid "season/fullName/1002"
+msgstr "Pieśń o żubrze"
+
+msgid "season/fullName/20"
+msgstr "Poszukiwania na piaskach"
+
+msgid "season/fullNameUppercased/1002"
+msgstr "PIEŚŃ O ŻUBRZE"
+
+msgid "season/fullNameUppercased/20"
+msgstr "POSZUKIWANIA NA PIASKACH"
+
+msgid "selectBonus/battle_booster_gift"
+msgstr "Dyrektywy do wyboru"
+
+msgid "selectBonus/blueprint_gift"
+msgstr "Fragmenty schematów do wyboru"
+
+msgid "selectBonus/brochure_gift"
+msgstr "Książeczki szkoleniowe do wyboru"
+
+msgid "selectBonus/crewbook_gift"
+msgstr "Podręczniki szkoleniowe do wyboru"
+
+msgid "selectBonus/guide_gift"
+msgstr "Przewodniki szkoleniowe do wyboru"
+
+msgid "selectBonus/modernized_device_gift"
+msgstr "Eksperymentalne wyposażenie do wyboru"
+
+msgid "selectBonus/new_device_gift"
+msgstr "Standardowe wyposażenie do wyboru"
+
+msgid "selectBonus/trophy_gift"
+msgstr "Wyposażenie z nagród do wyboru"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s godz."
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "styleProgressBonus"
+msgstr "Ulepsz styl %(styleName)s do poziomu %(level)s"
+
+msgid "styleProgression/finalLevel"
+msgstr "Maksymalny poziom stylu %(styleName)s"
+
+msgid "styleProgression/newLevel"
+msgstr "Nowy poziom stylu %(styleName)s"
+
+msgid "styleProgression/newStyle"
+msgstr "Pierwszy poziom stylu %(styleName)s"
+
+msgid "tankmenVoiceover/chapterButton"
+msgstr "Do rozdziału"
+
+msgid "tankmenVoiceover/inShop"
+msgstr "W zestawie specjalnym"
+
+msgid "tankmenVoiceover/listen"
+msgstr "Wysłuchaj"
+
+msgid "tankmenVoiceover/notFull"
+msgstr "Dostępne %(availableCount)s z %(count)s"
+
+msgid "tankmenVoiceover/progression"
+msgstr "Przy etapie postępów %(progressionLevel)s"
+
+msgid "tankmenVoiceover/received"
+msgstr "Otrzymano"
+
+msgid "tankmenVoiceover/shopButton"
+msgstr "Do Sklepu"
+
+msgid "tankmenVoiceover/title"
+msgstr "UNIKALNI CZŁONKOWIE ZAŁOGI"
+
+msgid "tankmenVoiceover/unavailable"
+msgstr "Niedostępne"
+
+msgid "title/earningPoints"
+msgstr "Zdobywanie punktów"
+
+msgid "title/freePoints"
+msgstr "Wolne punkty"
+
+msgid "title/stage"
+msgstr "Etap {{level}}"
+
+msgid "tooltip/cardButton/disabled/body"
+msgstr "Działanie jest aktualnie niedostępne. Spróbuj ponownie później."
+
+msgid "tooltip/freePoints/body"
+msgstr "Wolne punkty gromadzą się i są automatycznie dodawane na Twoje konto po aktywowaniu nowego rozdziału Przepustki bitewnej."
+
+msgid "tooltip/freePoints/header"
+msgstr "Wolne punkty"
+
+msgid "tooltip/lock"
+msgstr "Nagrody niedostępne. Aby je otrzymać, należy kupić ulepszoną przepustkę."
+
+msgid "tooltips/RandomQuestTooltip/condition"
+msgstr "Warunek: %(condition)"
+
+msgid "tooltips/RandomQuestTooltip/expireTime"
+msgstr "Misja jest dostępna %(whiteSpanish_Open)sdo %(day)s %(month)s%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/consumables"
+msgstr "%(whiteSpanish_Open)sMateriały eksploatacyjne:%(whiteSpanish_Close)s apteczki, zestawy naprawcze i systemy gaśnicze"
+
+msgid "tooltips/RandomQuestTooltip/rewards/directives"
+msgstr "%(whiteSpanish_Open)sDyrektywy%(whiteSpanish_Close)s dla wyposażenia"
+
+msgid "tooltips/RandomQuestTooltip/rewards/money"
+msgstr "%(whiteSpanish_Open)sKredyty, obligacje i wolne PD%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/personal_reserves"
+msgstr "%(whiteSpanish_Open)sRezerwa osobista%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/premium"
+msgstr "%(whiteSpanish_Open)sDni konta premium WoT%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/standardEquipment"
+msgstr "%(whiteSpanish_Open)sWyposażenie standardowe%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewardsTitle"
+msgstr "Raz dziennie za wypełnienie misji możesz otrzymać jedną z następujących nagród:"
+
+msgid "tooltips/RandomQuestTooltip/title"
+msgstr "Misja dla %(vehicleName)"
+
+msgid "tooltips/battlePassCoins/secondaryText"
+msgstr "Żetony będą przyznawane przez trzy sezony Przepustki bitewnej na przestrzeni roku. Wykorzystaj je mądrze."
+
+msgid "tooltips/battlePassCoins/text"
+msgstr "Cenna waluta w grze, przyznawana za wypełnianie etapów Przepustki bitewnej. Żetony można wymienić na specjalne nagrody w dziale Przedmioty za żetony w sklepie."
+
+msgid "tooltips/battlePassCoins/title"
+msgstr "Żeton Przepustki bitewnej"
+
+msgid "tooltips/battlePassPoints/completed"
+msgstr "Ukończono wszystkie rozdziały i etapy postępu Przepustki bitewnej."
+
+msgid "tooltips/battlePassPoints/description"
+msgstr "Dodawany automatycznie do postępów Przepustki bitewnej."
+
+msgid "tooltips/battlePassPoints/title"
+msgstr "Punkty Przepustki bitewnej"
+
+msgid "tooltips/battlePassQuestsChain/secondaryText"
+msgstr "Dostępne są misje do ukończenia zarówno w bitwach losowych, jak i w wielkiej bitwie."
+
+msgid "tooltips/battlePassQuestsChain/text"
+msgstr "Odblokuj serię misji, za których ukończenie można otrzymać dodatkowe przedmioty w grze: "
+
+msgid "tooltips/battlePassQuestsChain/title"
+msgstr "Dostęp do serii misji"
+
+msgid "tooltips/battlePassTaler/secondaryText"
+msgstr "Zdobywaj monety, robiąc postępy w Przepustce bitewnej"
+
+msgid "tooltips/battlePassTaler/text"
+msgstr "Monety można wykorzystać w Skarbcu Przepustki bitewnej do zakupu elementów personalizacji i członków załogi z poprzednich sezonów, zasobów ekonomicznych i nie tylko."
+
+msgid "tooltips/battlePassTaler/title"
+msgstr "Monety"
+
+msgid "tooltips/claimRewards/0"
+msgstr "Otrzymano nagrody podstawowe"
+
+msgid "tooltips/claimRewards/1"
+msgstr "Wybierz nagrody za wypełniony etap"
+
+msgid "tooltips/claimRewards/multiple"
+msgstr "Wybierz nagrody za wypełnione etapy"
+
+msgid "tooltips/commanders/chose"
+msgstr "LUB"
+
+msgid "tooltips/commanders/descr"
+msgstr "Ukończ ostatni etap, a otrzymasz w nagrodę jednego z dwóch wyjątkowych członków załogi."
+
+msgid "tooltips/commanders/title"
+msgstr "Jeden z dwóch członków załogi"
+
+msgid "tooltips/completed/claimRewards"
+msgstr "Otrzymano wszystkie nagrody"
+
+msgid "tooltips/completed/finalLevel"
+msgstr "Ukończono wszystkie rozdziały i etapy postępu"
+
+msgid "tooltips/completed/got"
+msgstr "Otrzymano nagrodę"
+
+msgid "tooltips/completed/message"
+msgstr "Teraz możesz wydawać zgromadzone punkty Przepustki bitewnej w dziale Przedmioty za punkty, dostępnym w Sklepie gry."
+
+msgid "tooltips/completed/oneChapterSubTitle"
+msgstr "UKOŃCZONO ROZDZIAŁ"
+
+msgid "tooltips/completed/rewardsObtained"
+msgstr "Otrzymano nagrody podstawowe"
+
+msgid "tooltips/completed/subTitle"
+msgstr "UKOŃCZONO WSZYSTKIE ROZDZIAŁY"
+
+msgid "tooltips/completed/tankmenNotRecieved"
+msgstr "W sklepie są dostępne zestawy zawierające unikalnych członków załogi."
+
+msgid "tooltips/completed/title"
+msgstr "Przepustka bitewna"
+
+msgid "tooltips/entryPoint/disabled/body"
+msgstr "Przepustka bitewna jest tymczasowo niedostępna z przyczyn technicznych.\nWszelkie postępy zostaną zachowane. Przepraszamy za niedogodności."
+
+msgid "tooltips/entryPoint/disabled/header"
+msgstr "Przepustka bitewna jest tymczasowo niedostępna"
+
+msgid "tooltips/entryPoint/disabled/mapbox"
+msgstr "Przepustka bitewna jest tymczasowo niedostępna w misji zwiadowczej z przyczyn technicznych.\nWszelkie postępy zostaną zachowane. Przepraszamy za niedogodności."
+
+msgid "tooltips/extra/daysAndHours"
+msgstr "%(D)s d %(H)s h"
+
+msgid "tooltips/extra/min"
+msgstr "%(m)s min"
+
+msgid "tooltips/footerBuyBtn/activateChapter/descr"
+msgstr "Za ukończenie aktywnego rozdziału otrzymasz punkty Przepustki bitewnej i inne nagrody."
+
+msgid "tooltips/footerBuyBtn/battlePass/descr"
+msgstr "Ulepszoną przepustkę możesz kupić w dowolnym momencie. Natychmiast da Ci dostęp do wszystkich ulepszonych nagród za ukończone etapy bieżącego rozdziału. Będziesz również otrzymywać podstawowe i ulepszone nagrody za ukończenie każdego kolejnego etapu."
+
+msgid "tooltips/footerBuyBtn/battlePass/nextChapter"
+msgstr "Ukończ poprzedni rozdział, by kupić etapy w tym rozdziale."
+
+msgid "tooltips/footerBuyBtn/episode/descr"
+msgstr "Gdy kupisz etapy, natychmiast otrzymasz ich podstawowe i ulepszone nagrody. Etapy kupuje się osobno dla każdego rozdziału."
+
+msgid "tooltips/footerBuyBtn/episode/holidayDescr"
+msgstr "Gdy kupisz etapy, natychmiast otrzymasz ich podstawowe i ulepszone nagrody."
+
+msgid "tooltips/goldMission/description"
+msgstr "%(highlight)s Za pominięte dni nie otrzymuje się złota."
+
+msgid "tooltips/goldMission/highlightedDescription"
+msgstr "Uwaga:"
+
+msgid "tooltips/goldMission/text"
+msgstr "%(duration)s można zdobyć %(count)s %(icon)s szt. złota za każdy dzień, w którym stoczy się bitwę losową."
+
+msgid "tooltips/goldMission/textDuration"
+msgstr "Przez %(days)s dni"
+
+msgid "tooltips/goldMission/title"
+msgstr "Dzienne złoto"
+
+msgid "tooltips/iconLock/descr1"
+msgstr "Możesz powiększyć listę nagród etapu, kupując ulepszoną przepustkę. Kupuje się ją oddzielnie na każdy rozdział i działa tylko w danym rozdziale. Z ulepszoną przepustką otrzymujesz zarówno podstawowe, jak i ulepszone nagrody za osiągnięcie każdego kolejnego etapu."
+
+msgid "tooltips/iconLock/descr2"
+msgstr "Możesz wykupić ulepszoną przepustkę w dowolnym momencie. Zapewni Ci ona natychmiast wszystkie ulepszone nagrody za ukończone etapy rozdziału, dla którego ją kupiłeś. Możesz ulepszyć swoje nagrody na głównym ekranie Przepustki bitewnej, klikając przycisk Kup ulepszoną przepustkę."
+
+msgid "tooltips/iconLock/holidayDescr1"
+msgstr "Możesz powiększyć listę nagród za etap, kupując Ulepszoną przepustkę. Dzięki Ulepszonej przepustce będziesz otrzymywać zarówno podstawowe, jak i ulepszone nagrody za ukończenie każdego kolejnego etapu."
+
+msgid "tooltips/iconLock/holidayDescr2"
+msgstr "Możesz wykupić Ulepszoną przepustkę w dowolnym momencie. Zapewni Ci ona natychmiast wszystkie ulepszone nagrody za już ukończone etapy. Możesz ulepszyć swoje nagrody na głównym ekranie Przepustki bitewnej, klikając przycisk Kup ulepszoną przepustkę."
+
+msgid "tooltips/iconLock/title"
+msgstr "Ulepszona nagroda Przepustki bitewnej"
+
+msgid "tooltips/inProgress/baseReward"
+msgstr "Nagroda podstawowa"
+
+msgid "tooltips/inProgress/battleRoyale"
+msgstr "Stalowy łowca"
+
+msgid "tooltips/inProgress/chapter"
+msgstr "Rozdział „%(name)”"
+
+msgid "tooltips/inProgress/epic"
+msgstr "Linia frontu"
+
+msgid "tooltips/inProgress/getPointsFrom"
+msgstr "Zasady zdobywania punktów w trybie %(battleType)s."
+
+msgid "tooltips/inProgress/hurryUp"
+msgstr "Kup ulepszoną przepustkę, by otrzymać wszystkie ulepszone nagrody za ukończone etapy!"
+
+msgid "tooltips/inProgress/improvedReward"
+msgstr "Nagroda ulepszona"
+
+msgid "tooltips/inProgress/level"
+msgstr "Aktualny etap"
+
+msgid "tooltips/inProgress/playGame/comp7"
+msgstr "Zasady zdobywania punktów w pojazdach X poziomu w %(bond_Open)sNatarciu%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/comp7_light"
+msgstr "Zasady zdobywania punktów w pojazdach VIII poziomu w %(bond_Open)sNatarciu light%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/mapbox"
+msgstr "Zasady przyznawania punktów przepustki bitewnej w %(bond_Open)smisji zwiadowczej%(bond_Close)s dla pojazdów poziomów VIII–X."
+
+msgid "tooltips/inProgress/playGame/randoms"
+msgstr "Zasady zdobywania punktów w %(bond_Open)sbitwach losowych%(bond_Close)s pojazdami poziomów IV–XI."
+
+msgid "tooltips/inProgress/playGame/ranked"
+msgstr "Zasady zdobywania punktów pojazdami X poziomu w bitwach rankingowych."
+
+msgid "tooltips/inProgress/playGame/winback"
+msgstr "Zasady zdobywania punktów w %(bond_Open)sbitwie losowej: rozgrzewka%(bond_Close)s w pojazdach poziomów IV–XI."
+
+msgid "tooltips/inProgress/postProgression/header"
+msgstr "Elitarny krąg"
+
+msgid "tooltips/inProgress/timeLeft"
+msgstr "Pozostało w Przepustce bitewnej"
+
+msgid "tooltips/inProgress/wotPlusProFooter"
+msgstr "Zyski z WoT Plus Pro"
+
+msgid "tooltips/notChosen/description"
+msgstr "Powinieneś wybrać rozdział, aby robić postępy i otrzymywać cenne nagrody."
+
+msgid "tooltips/notChosen/points"
+msgstr "Niewydane punkty Przepustki bitewnej: %(points)"
+
+msgid "tooltips/notChosen/subTitle"
+msgstr "WYBIERZ ROZDZIAŁ"
+
+msgid "tooltips/notChosen/title"
+msgstr "Przepustka bitewna"
+
+msgid "tooltips/notStarted/date"
+msgstr "%(day)s %(month)s"
+
+msgid "tooltips/plusBanner/text"
+msgstr "{{@ style (color $color1)}}Przepustka bitewna Plus:{{/}} Dostępna z {{@ style (color $color2)}}WoT Plus Pro{{/}}. Zdobywaj więcej punktów Przepustki bitewnej (z wyjątkiem rozdziałów specjalnych)."
+
+msgid "tooltips/points/footer"
+msgstr "Więcej o zdobywaniu punktów w różnych trybach gry dowiesz się w sekcji Jak zdobywać punkty."
+
+msgid "tooltips/points/rules"
+msgstr "W bitwach losowych punkty otrzymujesz w następujący sposób:"
+
+msgid "tooltips/points/specialVehicles"
+msgstr "Podstawowe pojazdy sezonu zarabiają więcej punktów:"
+
+msgid "tooltips/points/subtitle"
+msgstr "Punkty Przepustki bitewnej pozwalają na awans w postępach. Punkty można zdobywać, walcząc pojazdami IV–XI poziomu w bitwach losowych oraz innych trybach gry, a także wypełniając misje specjalne i osiągając limit punktów pojazdu."
+
+msgid "tooltips/points/title"
+msgstr "Punkty Przepustki bitewnej"
+
+msgid "tooltips/pointsTable/header"
+msgstr "Warunki uzyskania"
+
+msgid "tooltips/pointsTable/lose"
+msgstr "Porażka i remis"
+
+msgid "tooltips/pointsTable/loseWithoutDraw"
+msgstr "Porażka"
+
+msgid "tooltips/pointsTable/place"
+msgstr "Miejsce %(place)"
+
+msgid "tooltips/pointsTable/places"
+msgstr "Miejsca %(place)"
+
+msgid "tooltips/pointsTable/solo"
+msgstr "Solo"
+
+msgid "tooltips/pointsTable/squad"
+msgstr "Pluton"
+
+msgid "tooltips/pointsTable/topPlace"
+msgstr "Najlepsza %(place) według zdobytych PD"
+
+msgid "tooltips/pointsTable/win"
+msgstr "Zwycięstwo"
+
+msgid "tooltips/postProgress/body"
+msgstr "Elitarny postęp rozpoczyna się po ukończeniu etapu %(maxLevelBase) głównego postępu. Zapewnia on możliwość zdobycia cennej waluty w grze. Ukończenie etapów elitarnego postępu nie wymaga posiadania ulepszonej przepustki."
+
+msgid "tooltips/postProgress/header"
+msgstr "Elitarny postęp"
+
+msgid "tooltips/prestigePoints/lose"
+msgstr "Porażka i remis"
+
+msgid "tooltips/prestigePoints/loseWithoutDraw"
+msgstr "Porażka"
+
+msgid "tooltips/prestigePoints/topPlace"
+msgstr "Najlepsza %(place) według punktów prestiżu"
+
+msgid "tooltips/prestigePoints/win"
+msgstr "Zwycięstwo"
+
+msgid "tooltips/progression/freePoints/body"
+msgstr "Jeśli nie wybrano rozdziału, będziesz gromadzić niewydane punkty Przepustki bitewnej, które później można dodać do dowolnego aktywowanego rozdziału przed zakończeniem bieżącego sezonu Przepustki bitewnej. W przeciwnym przypadku te punkty zostaną usunięte."
+
+msgid "tooltips/progression/freePoints/bodyExceptExtra"
+msgstr "Jeśli nie wybrano rozdziału, będziesz gromadzić niewydane punkty Przepustki bitewnej, które później można dodać do dowolnego aktywowanego rozdziału (z wyjątkiem rozdziału dodatkowego) przed zakończeniem bieżącego sezonu Przepustki bitewnej. W przeciwnym przypadku te punkty zostaną usunięte."
+
+msgid "tooltips/progression/freePoints/header"
+msgstr "Niewydane punkty Przepustki bitewnej"
+
+msgid "tooltips/rewardCompensation/description/credits"
+msgstr "Główna waluta gry.\nZdobywana w bitwach lub kupowana za złoto."
+
+msgid "tooltips/rewardCompensation/description/gold"
+msgstr "Cenna waluta w grze. Możesz jej używać do kupowania konta WoT premium lub pojazdów, do zamiany doświadczenia itp."
+
+msgid "tooltips/rewardCompensation/footer"
+msgstr "Rekompensata za przedmiot, który już posiadasz."
+
+msgid "tooltips/styleUpgrade/chosen/levelWord"
+msgstr "Poziom"
+
+msgid "tooltips/styleUpgrade/chosen/subtitle"
+msgstr "Odpowiedni dla pojazdów"
+
+msgid "tooltips/styleUpgrade/chosen/text"
+msgstr "Ulepsza styl rozdziału do %(level) %(levelWord)"
+
+msgid "tooltips/styleUpgrade/chosen/title"
+msgstr "Ulepszenie stylu %(styleName)"
+
+msgid "tooltips/styleUpgrade/notChosen/text"
+msgstr "Aby wybrać styl, kliknij przycisk Wybierz styl na początku postępu rozdziału Przepustki bitewnej."
+
+msgid "tooltips/styleUpgrade/notChosen/title"
+msgstr "Ulepszenie progresywnego stylu rozdziału"
+
+msgid "tooltips/styleUpgrade/notChosen/warning"
+msgstr "Nie wybrano stylu rozdziału."
+
+msgid "tooltips/styleUpgrade/paragraphBottom"
+msgstr "Jeśli nie zdołasz ulepszyć stylu do maksymalnego poziomu podczas postępów Przepustki bitewnej, będziesz mieć okazję na ulepszenie go na ekranie Wygląd w garażu na koniec bieżącego sezonu."
+
+msgid "tooltips/styleUpgrade/paragraphTop"
+msgstr "Wybrany styl rozdziału zostanie automatycznie ulepszony o jeden poziom, gdy ten etap zostanie zakończony."
+
+msgid "tooltips/styles/descr"
+msgstr "Po ukończeniu ostatniego etapu będziesz mógł wybrać w nagrodę jeden ze stylów."
+
+msgid "tooltips/styles/footer"
+msgstr "Kupno ulepszonej przepustki zapewni Ci oba style po wybraniu przez Ciebie nagrody finałowej."
+
+msgid "tooltips/styles/name"
+msgstr "Odpowiednie dla %(name)"
+
+msgid "tooltips/styles/style"
+msgstr "Styl %(name)"
+
+msgid "tooltips/styles/title"
+msgstr "Jeden z dwóch stylów 3D"
+
+msgid "tooltips/unlockBattlePass"
+msgstr "Kup ulepszoną przepustkę, aby odblokować ścieżkę ulepszonych nagród."
+
+msgid "tooltips/unlockBattlePassForPostProgression"
+msgstr "Kup ulepszoną przepustkę dla każdego rozdziału i zdobądź więcej nagród."
+
+msgid "tooltips/vehiclePoints/award"
+msgstr "Nagroda za osiągnięcie limitu punktów"
+
+msgid "tooltips/vehiclePoints/comp7"
+msgstr "Walcz w trybie Natarcie, zdobywaj punkty za skuteczną rozgrywkę, kończ etapy postępów Przepustki bitewnej i otrzymuj nagrody."
+
+msgid "tooltips/vehiclePoints/comp7_light"
+msgstr "Zdobywaj punkty za skuteczne akcje w bitwach Natarcia light, aby awansować w etapach postępów Przepustki bitewnej i otrzymywać nagrody."
+
+msgid "tooltips/vehiclePoints/continuePlaying"
+msgstr "Walcz w innych pojazdach, aby robić dalsze postępy w etapach."
+
+msgid "tooltips/vehiclePoints/descr"
+msgstr "Walcz w bitwach losowych, zdobywaj punkty za skuteczną rozgrywkę, kończ etapy postępów Przepustki bitewnej i otrzymuj nagrody."
+
+msgid "tooltips/vehiclePoints/mapbox"
+msgstr "Walcz w Misji zwiadowczej, zdobywaj punkty za skuteczną rozgrywkę, kończ etapy postępów Przepustki bitewnej i otrzymuj nagrody."
+
+msgid "tooltips/vehiclePoints/pointsObtained"
+msgstr "Osiągnięto limit punktów"
+
+msgid "tooltips/vehiclePoints/ranked"
+msgstr "Walcz w bitwach losowych, zdobywaj punkty za efektywną grę, wypełniaj etapy postępu przepustki bitewnej i zdobywaj nagrody."
+
+msgid "tooltips/vehiclePoints/special/descr"
+msgstr "Walcząc w podstawowych pojazdach sezonu, będziesz zdobywać więcej punktów postępu."
+
+msgid "tooltips/vehiclePoints/title"
+msgstr "Punkty Przepustki bitewnej"
+
+msgid "trophyDeviceUpgradeConfim/cancel"
+msgstr "Anuluj"
+
+msgid "trophyDeviceUpgradeConfim/message"
+msgstr "Jego charakterystyki zmienią się:"
+
+msgid "trophyDeviceUpgradeConfim/submit"
+msgstr "Ulepsz"
+
+msgid "trophyDeviceUpgradeConfim/submitTooltip"
+msgstr "Za mało kredytów na ulepszenie"
+
+msgid "trophyDeviceUpgradeConfim/title"
+msgstr "Czy ulepszyć wyposażenie\n{deviceName}?"
+
+msgid "trophyDeviceUpgradeConfim/title/template"
+msgstr "{deviceName}"
+
+msgid "universalTankmanBonus"
+msgstr "Uniwersalny członek załogi: %(name)s"

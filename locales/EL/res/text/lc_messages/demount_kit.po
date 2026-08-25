@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "Αποσύνδεση"
+
+msgid "demountKit/gained/count"
+msgstr "Κυτίο Αποσύνδεσης (x%(count)s)"
+
+msgid "demountKit/sell/header"
+msgstr "Πωλήσεις:"
+
+msgid "demountKit/sell_success"
+msgstr "Αναλώσιμο 'Κυτίο Αποσύνδεσης' (%(count)s τεμάχια). Credits που λάβατε: %(count)s."
+
+msgid "demountKit/tooltip/description/common"
+msgstr "Για την αποσύνδεση ενός εξοπλισμού."
+
+msgid "dialogue/description/common"
+msgstr "Για την αποσύνδεση ενός Κανονικού ή Αναβαθμίσιμου Εξοπλισμού."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "Η τιμή πώλησης είναι χαμηλότερη από τη συνηθισμένη—Μπορείτε να το αγοράσετε με έκπτωση."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "Ο εξοπλισμός που αποσυνδέθηκε θα σταλεί στην Αποθήκη."
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "Προσοχή! Άλλαξε η κλάση του συγκεκριμένου εξοπλισμού σε σχέση με τον τύπο του επιλεγμένου οχήματος.\nΜπορείτε να αποσυνδέσετε αυτόν τον εξοπλισμό δωρεάν, αλλά {red_Open}δεν θα μπορείτε{red_Close} να τον τοποθετήσετε ξανά σε αυτό το όχημα."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "Αποσύνδεση εξοπλισμού '%(equipment)s'?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "Αποσύνδεση του εξοπλισμού %(equipment)s για τοποθέτηση νέου?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "Απονέμονται στις μάχες ή ως έπαθλα διοργανώσεων."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "Όχι αρκετά bonds"
+
+msgid "equipmentDemount/optionFree"
+msgstr "Δωρεάν"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "Άκυρο"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "Η αποσύνδεση αυτού του τοποθετημένου εξοπλισμού στο εναλλακτικό σετ μπορεί να γίνει χωρίς κόστος."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "Αποσύνδεση"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "Αποσύνδεση του εξοπλισμού %(equipment)s από αυτήν τη θέση?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "Αποσύνδεση του τρέχοντος εξοπλισμού %(equipment)s για τοποθέτηση νέου?"
+
+msgid "equipmentDemountPrice"
+msgstr "Κόστος αποσύνδεσης:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> ή %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s ή %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> ή %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "Μπορεί να αποσυνδεθεί με σκοπό να πουληθεί ή να τοποθετηθεί σε άλλο όχημα για %(count)s ή να καταστραφεί."
+
+msgid "shop/DemountOptions/common"
+msgstr "Μπορεί να αποσυνδεθεί με σκοπό να πουληθεί ή να τοποθετηθεί σε άλλο όχημα για %(count)s ή χρησιμοποιώντας %(iconDK)s Κυτίο Αποσύνδεσης ή να καταστραφεί."
+
+msgid "storage/description/common"
+msgstr "Για την αποσύνδεση ενός Κανονικού ή Αναβαθμίσιμου Εξοπλισμού. Καταναλώνεται με τη χρήση."
+
+msgid "storage/userName/common"
+msgstr "Κυτίο Αποσύνδεσης"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "Έκπτωση: %(actionPrc)s, προηγούμενη τιμή: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "Κυτίο Αποσύνδεσης"

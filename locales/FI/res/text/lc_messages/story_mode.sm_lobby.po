@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, taistelun kesto: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "SULJE"
+
+msgid "battleResult/continueButton"
+msgstr "Jatka"
+
+msgid "battleResult/damageAssisted"
+msgstr "Vahinkoa\navustettu"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Vahinkoa\ntorjuttu"
+
+msgid "battleResult/damageDealt"
+msgstr "Vahinkoa\ntehty"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Suorittamalla tehtävät ankaralla vaikeustasolla\nsuoritat ne myös automaattisesti tavanomaisella vaikeustasolla.\nTämä tarkoittaa, että saat molempien vaikeustasojen palkinnot."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Suorittamalla tehtävät ankaralla vaikeustasolla suoritat ne myös automaattisesti tavanomaisella vaikeustasolla.\nTämä tarkoittaa, että saat molempien vaikeustasojen palkinnot."
+
+msgid "battleResult/kills"
+msgstr "Vihollisia\ntuhottu"
+
+msgid "battleResult/lose/title"
+msgstr "TAISTELU ON OHI"
+
+msgid "battleResult/missionName/1"
+msgstr "TIIKERIN METSÄSTÄJÄ: Operaatio Teräsvyöry"
+
+msgid "battleResult/missionName/2"
+msgstr "TIIKERIN METSÄSTÄJÄ: Operaatio Ansastaja"
+
+msgid "battleResult/missionName/3"
+msgstr "TIIKERINMETSÄSTÄJÄ: Operaatio Vasara ja alasin"
+
+msgid "battleResult/missionName/4"
+msgstr "TIIKERINMETSÄSTÄJÄ: Operaatio Kissa hiirenloukussa"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERAATIO OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERAATIO POSTIMIES"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERAATIO KIEHUMISPISTE"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Ei aktiivisia\ntehtäviä"
+
+msgid "battleResult/rewards/other"
+msgstr "Myös saatu:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Tehtäviä\nsuoritettu"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Selviytyi{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Ei selviytynyt{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "VOITTO!"
+
+msgid "countdown/days"
+msgstr "{days} p"
+
+msgid "countdown/daysHours"
+msgstr "{days} p {hours} t"
+
+msgid "countdown/endsSoon"
+msgstr "Alle {minutes} minuuttia"
+
+msgid "countdown/hours"
+msgstr "{hours} t"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} t {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} t {minutes} min"
+
+msgid "countdown/lessThanMinute"
+msgstr "Alle yksi minuutti"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} min"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Peruuta"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Et ansaitse mitään palkintoja tämän operaation suorittamisesta.\nHaluatko silti pelata operaation ilman aktiivisia tehtäviä?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Vahvista"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Ei aktiivisia tehtäviä tässä operaatiossa"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Tunnista tuntematon uhka, pysäytä ohjuksen laukaisu ja varmista, että uudet teknologiat jäävät oikeisiin käsiin."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Pelaa yksin ja taistele tekoälyn ohjastamia vihollisia vastaan tässä eeppisessä tarinassa, jossa esiintyvät Sektori 3:n komentajat!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Suorita kaikki tehtävät saadaksesi arvomerkin ja mitalin, teemaan tehtyjä kaksiulotteisia tyylejä ja muita arvokkaita palkintoja."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Uusi aikakausi koittaa"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Yksinpelitarina"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Palkinnot"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERAATIO KIEHUMISPISTE"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Tarinat"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Ankara"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Tavanomainen"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Tiukka\nmiinakenttä"
+
+msgid "missionSelection/exitButton"
+msgstr "POISTU PELIMUODOSTA"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERAATIO\nTERÄSVYÖRY"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERAATIO\nANSASTAJA"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERAATIO\nVASARA JA ALASIN"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERAATIO\nKISSA HIIRENLOUKUSSA"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERAATIO\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERAATIO\nPOSTIMIES"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERAATIO\nKIEHUMISPISTE"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: \"No miten voit? Oletko jo toipunut? Pääset tapaamaan lääkintämiehiä myöhemmin. Jokainen tykki on nyt tarpeen. Hyökkäys on jo alkanut. Ja, koska olemme myöhässä, on vihollinen päässyt keskittymään täysin toiseen sivustaan. Nyt on tilaisuutemme. Hyökkäämme tässä ja nyt. Murtaudu kaupunkiin ja nappaa ne kahden tulen väliin.\nSeuraa meitä – välttääksesi lohikäärmeenhampaat. Niitä on rivitolkulla tuolla pellolla. Mutta ei hätää, pääsemme kyllä läpi. Kuuntelet vain minua ja toteutat käskyni nopeasti ja tarkasti. MacLeod ja minä suojaamme sinua.\nÄläkä välitä hänen vitseistään. Jokainen pärjää tavallaan... Eteenpäin!\""
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: \"Aijai, Tigerit – ne ovat pahinta, mitä voit kohdata taistelukentällä. Ja jos komentopaikka sanoo, että heillä on ongelma, se tarkoittaa yleensä Tigereita. Emme saa yhteyttä ensimmäiseen hyökkäysosastoon, toinen on juuri lähtenyt ja tässä sitä ollaan – lähdössä heidän peräänsä.\nJos he lähettävät meidät, tarkoittaa se vain yhtä asiaa: Tigereita. Päämajassa sanotaan: \"Lähettää ne Tiger-ekspertit!\" Yhdeksän vaunua kahden hinnalla. Ei huonosti puoleksi vuodeksi. Johdat 5-4, mutta minulla on tilaisuus päästä edelle. Ja saada lopulta se pirun mitali!\nTulehan nyt! Brooks ei pidä odottamisesta. Jahti alkaa taas.\""
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: \"No niin, kaikki. Se on sitten operaatio Vasara ja alasin. Yksinkertainen nimi monimutkaiselll hommalle. Suuntaamme kaupunkiin puhdistamaan sen vihollisjoukoista. Ei ole mikään sunnuntaikävely – vastassa on raskaita panssareita. Mutta meiltä löytyy älyä, sisua ja tiimityötä, eikö niin Lucky? Ja hoidetaan se nopeasti. Minulla on suunnitelmissa piskuinen kuppi \"teetä\" viideltä, jos ymmärrätte vihjeen!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: \"Älä kysy, Lucky. Tiedän aivan yhtä vähän kuin sinäkin. En pidä ollenkaan tästä salailusta. Pidän suorasukaisuudesta. Näet vihollisen, taistelet. Mutta tämä? Se on yksi iso sotku.\n\nKaupungissa tulee myös olemaan omia vaunuja. Brooks pyysi meitä juuri etenemään varovaisesti. Mitä se ikinä sitten tarkoittaakaan?\nMeillä on erikoistehtävä: löytää jonkinlainen Wunderwaffe, ihmease – jotain valtavaa teloilla. Eikä ketään muuta tekemään se kuin me, Lucky.\n\nValmiina? Matkaan.\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Kapteeni John McCormick: \"Okei tyypit. Nyt on aika. On aika lopettaa tämä sota ja juuri niin aiomme tehdä. Me kaikki – amerikkalaiset, britit, ranskalaiset, kanadalaiset, australialaiset, belgialaiset, tsekkoslovakialaiset, kreikkalaiset, hollantilaiset, uusiseelantilaiset, norjalaiset, puolalaiset. Olemme yhdessä panemassa tälle pahalle pisteen lopullisesti.\n\nMurtaudumme Atlantin vallin läpi ja otamme jalansijan mantereelta.\n\nValmistautukaa maihinnousuun!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Kapteeni Smith: \"Kuunnelkaa. Saksa allekirjoitti antautumispaperit tunteja sitten. Sota päättyy huomenna. Mutta meidän poikamme vuorilla ovat menettäneet radioyhteyden, eivätkä tiedä sodan loppuneen. He ovat hyökkäämässä tuon pirun linnoituksen kimppuun aamunkoitteessa, eivätkä saksalaiset sen sisällä tiedä sen enempää antautumisesta. Siitä tulee tarkoituksetonta teurastusta.\n\nVain me voimme estää sen. Tehtävämme: hiipiä vihollislinjojen läpi ja viedä tulitaukokäsky perille. Se on itsemurhatehtävä, mutta jokainen pelastamamme henki tekee siitä arvokkaan.\n\nMeillä on matkassamme vangittu saksalainen radisti – hän tuntee maaston ja hänellä on yhtä paljon syytä kuin meilläkin pysäyttää tämä verenvuodatus.\n\nEteenpäin.\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: \"Tilanne on kriittinen. Olemme menettäneet yhteyden ohjustukikohtaamme Norjanmerellä. Tiedustelulento ei koskaan palannut ja ensimmäinen maihinnousujoukko tuhottiin tuntemattoman vihollisen toimesta.\n\nTiedustelun mukaan he ovat mahdollisesti valmistautumassa ballistisen ohjuksen laukaisuun. Emme tiedä kohdetta, mutta tässä poliittisessa ympäristössä yksittäinenkin laukaisu voi aloittaa globaalin konfliktin.\n\nTuntuu vanhoilta hyviltä päiviltä, eikös? Vain yksi mahdoton tehtävä lisää vihollislinjojen takana. Eteenpäin!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERAATIO TERÄSVYÖRY"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERAATIO ANSASTAJA"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERAATIO VASARA JA ALASIN"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERAATIO KISSA HIIRENLOUKUSSA"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERAATIO OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERAATIO POSTIMIES"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERAATIO KIEHUMISPISTE"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Erikoisvaunu"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERAATIO KIEHUMISPISTE"
+
+msgid "missionSelection/tab/newbies"
+msgstr "OPETUSTARINAT"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Hyökkää kaupunkiin ja tuhoa vihollisvaunut."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Hyökkää kaupunkiin ja tuhoa vihollisvaunut."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Hyökkää kaupunkiin ja tuhoa vihollisvaunut."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Suorita tehtävän päätavoitteet kärsimättä vahinkoa vihollisen miinoista."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Suorita päätehtävän tavoitteet menettämättä yhtäkään vaunua."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Hyökkää kaupunkiin ja valtaa vihollisen ihmease."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Suorita päätehtävän tavoitteet alle %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Suorita päätehtävän tavoitteet ja tuhoa %(kill_enemies)s vihollisvaunua lentokoneen avulla."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Murtaudu läpi, tuhoa rannikkotykit ja valtaa sillanpääasema."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Suorita päätehtävän tavoitteet alle %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Suorita päätehtävän tavoitteet menettämättä yhtäkään vaunua."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Toimita tulitaukokäsky liittolaisillesi."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Suorita päätehtävän tavoitteet ja tuhoa alle %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Suorita päätehtävän tavoitteet menettämättä yhtäkään vaunua."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Saavuta komentokeskus ja estä ohjuksen laukaisu."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Suorita päätehtävän tavoitteet alle %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Suorita päätehtävän tavoitteet menettämättä yhtäkään vaunua."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s vihollisvaunu"
+msgstr[1] "%(value)s vihollisvaunua"
+msgstr[2] "%(value)s vihollisvaunua"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Tehtävä on lukittu: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minuutissa"
+msgstr[1] "%(value)s minuutissa"
+msgstr[2] "%(value)s minuutissa"
+
+msgid "missionSelection/taskRewards"
+msgstr "Palkinto:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Tämä vaunu on saatavilla vain tarinoissa."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Suorita %(numBattles)s taistelua lisää satunnaistaisteluissa\navataksesi tämän operaation."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Skenaarioita tulokkaille"
+
+msgid "mode/story_mode/description"
+msgstr "Suorita käsikirjoitetut operaatiot tekoälyn ohjastamia vaunuja vastaan"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operaatio Kiehumispiste saatavilla"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Voit löytää tällä hetkellä valitun pelimuodon tallinäkymän yläosasta. Klikkaa pelimuodon nimeä nähdäksesi, mitä muuta on saatavilla."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Klikkaa &zwnbsp;{whiteSpanish_Open}\"Tarinat\"{whiteSpanish_Close}&zwnbsp; valitaksesi tämän pelimuodon"
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "Tarinoissa voit tutustua narratiivisiin PvE -skenaarioihin, taistella tekoälyn ohjastamia vihollisia vastaan, uppoutua sankarillisten taisteluiden ilmapiiriin ja ansaita arvokkaita palkintoja!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Mene pelimuodon valintaan"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Valitse Tarinat"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Nauti PvE -toiminnasta"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "TARINAT"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Käsikirjoitetut skenaariot odottavat"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Aloita uudelleen"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "TAISTELU ON OHI"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Jätä väliin"
+
+msgid "onboardingQueue/skipText"
+msgstr "Kaikki palvelimet ovat kiireisiä. Ole hyvä ja odota tai jätä väliin tämä tarina."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Valmistelemme palvelinta sinulle. Ole hyvä ja odota..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Vahinkoa torjuttu panssarilla {parSecondary_Start}(yksikköä){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Vahinkoa torjuttu"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Osumia sirpalekranaateilla ja HESH ammuksilla ei huomioida."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Huomioidaan:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Vihollisen laukausten kimmotukset"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Läpäisemättömät osumat"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Avustettua vahinkoa"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Seuraava liittolaistesi avustuksellasi aiheuttama vahinko laskettiin:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Vahinkoa havaitsemiisi kohteisiin"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Vahinko vihollisvaunuun, jonka telan olet tuhonnut ja tehnyt liikuntakyvyttömäksi"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Liittolaisten aiheuttama vahinko yhteensä {parSecondary_Start}(yksikköä){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Huomioidaan:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Vahinko ampumalla"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Vahinko törmäämällä"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Vahinko tulipalolla"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Vahinko vihollisen työntämisestä alas kielekkeeltä"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Vahinko yhteensä {parSecondary_Start}(yksikköä){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Vihollisia tuhottu"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Huomioidaan:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Tuhoutuminen ampumalla"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Tuhoutuminen tulipalosta"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Tuhoutuminen törmäyksestä"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Tuhoutuminen hukkumalla"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Tuhoutuminen työntämällä vihollisvaunu alas kielekkeeltä"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Tuhoutuminen nurin kääntymällä"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Suoritetut tehtävät"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Suoritettujen tehtävien ja kaikkien tällä\nhetkellä saatavilla olevien tehtävien määrä.\nAnkaralla vaikeustasolla suoritetut tehtävät\nsuoritetaan automaattisesti myös\ntavanomaisella vaikeustasolla."
+
+msgid "tooltips/difficulty/available"
+msgstr "Saatavilla"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Vihollisten reaktionopeutta ja tarkkuutta on parannettu ja ne hyökkäävät kimppuusi aggressiivisemmin. Tästä johtuen saat tehtävän suoritettuasi lisäpalkintoja."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Suorittamalla tehtävät {whiteSpanish_Open}tiukalla{whiteSpanish_Close} vaikeustasolla suoritat ne automaattisesti {whiteSpanish_Open}tavallisella{whiteSpanish_Close} vaikeustasolla. Saat palkinnot molemmilta tasoilta."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Lisäehto"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Ankara"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Avataksesi tiukan vaikeustason sinun tulee osoittaa taitosi pelimuodossa suorittamalla tämä operaatio tavallisella vaikeustasolla."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Lukittu"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Viholliset ovat hitaampia ja epätarkempia ja saat tavanomaiset palkinnot tehtävän suorittamisesta."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Tavanomainen"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Valitut"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Haastavampi versio operaation miinakenttävaiheesta. Uskallatko lähteä tähän kuolettavaan labyrinttiin?\nTarjoaa enemmän palkintoja taistelusta."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Tiukka, miinakenttä"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Tunnista tuntematon uhka, pysäytä ohjuksen laukaisu ja varmista, että uudet teknologiat jäävät oikeisiin käsiin."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operaatio Kiehumispiste"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "MODE"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "– Pelimuoto. Klikkaa tutkiaksesi"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Pelaa yksin ja taistele tekoälyn ohjastamia vihollisia vastaan tässä eeppisessä tarinassa, jossa esiintyvät Sektori 3:n komentajat!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Saatavilla {timer} ajan"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "TARINAT"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "MODE"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "– Pelimuoto. Klikkaa tutkiaksesi"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Käsikirjoitettuja erikoisskenaarioita. Lähde matkallesi panssaroitujen ajoneuvojen maailmaan ja todista kykysi taisteluissa tekoälyn ohjastamia vihollisia vastaan."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Tarinat"
+
+msgid "tooltips/task/active"
+msgstr "Aktiivinen"
+
+msgid "tooltips/task/completed"
+msgstr "Suoritettu"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Tuntemattomat ehdot"
+
+msgid "tooltips/task/locked"
+msgstr "Lukittu: %(timer)s"

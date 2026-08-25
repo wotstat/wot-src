@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Paplašināt"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Atvaļināt nepietiekami apmācītos"
+
+msgid "barracks/bunks/title"
+msgstr "Gultas:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Specificējiet gultu skaitu pirkumam. Pieejamās gultas Kazarmās: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Cena ar Atlaidi"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Jaunā cena: %(currency)s par %(bunksCount)s gultām"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Iepriekšējā cena: %(currency)s par %(bunksCount)s gultām"
+
+msgid "barracks/enlarge/header"
+msgstr "Paplašināt Kazarmas?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Nepietiekami apmācīti apkalpes locekļi jūsu kazarmās, kuriem ir mazāk nekā {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} XP, kas nepieciešams, lai apmācītu savu pirmo apkalpes prasmju līmeni līdz {whiteSpanish_Open}100%{whiteSpanish_Close}, var tikt atvaļināti."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Nepietiekami apmācīti apkalpes locekļi"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Jums nav nepietiekami apmācītu apkalpes locekļu."
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Par nepietiekami apmācītu ekipāžas locekļu atvaļināšanu kompensācija netiks piešķirta. Pēc atvaļināšanas tos nevarēs atjaunot, un visa viņu XP tiks zaudēta."
+
+msgid "barracks/title"
+msgstr "KAZARMAS"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Nospiediet, lai paplašinātu Kazarmas."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Paplašināt Kazarmas"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Vieta"
+
+msgid "common/imageNotAvailable"
+msgstr "Attēls Nav Pieejams"
+
+msgid "common/inBarracks"
+msgstr "Kazarmās"
+
+msgid "common/inBattle"
+msgstr "Kaujā"
+
+msgid "common/inPrebattle"
+msgstr "Taktiskajā Vienībā"
+
+msgid "common/navigation/aboutCrew"
+msgstr "PAR APKALPI"
+
+msgid "common/navigation/toBarracks"
+msgstr "UZ KAZARMĀM"
+
+msgid "common/navigation/toGarage"
+msgstr "UZ GARĀŽU"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "UZ PROFILU"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Sapratu!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Jūsu apkalpes locekļi tika konvertēti par Apkalpes Grāmatām."
+
+msgid "conversionAwards/title"
+msgstr "KONVERSIJA VEIKSMĪGA"
+
+msgid "conversionAwards/underTitle"
+msgstr "Sekojošie priekšmeti tika pieskaitīti jūsu kontam."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Atcelt"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Atvaļināt"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Apkalpes locekļi, kuri tiks atvaļināti: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Atvaļināt nepietiekami apmācītus apkalpes locekļus?"
+
+msgid "conversionConfirm/warning"
+msgstr "Par nepietiekami apmācītu ekipāžas locekļu atvaļināšanu kompensācija netiks piešķirta. Pēc atvaļināšanas tos nevarēs atjaunot, un visa viņu XP tiks zaudēta."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Automātiski Izvēlēties Iemaņas"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Nav apkalpes locekļu ar netrenētām iemaņām."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Nevar Automātiski Izvēlēties Iemaņas"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Visas netrenētas iemaņas atzīmētas ar plus zīmi, tiks aizvietotas ar iemaņām, kas tiks automātiski izvēlētas ar īpašu loģiku visām apkalpēm."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Automātiski Izvēlēties Netrenētas Iemaņas Visam"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Atiestatīt Iemaņas Visam"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Nav apkalpes locekļu ar trenētām iemaņām."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Nevar Atiestatīt Iemaņas"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Visas iemaņas tiks atiestatītas visiem apkalpes locekļiem jūsu kontā. Šo darbību nevar atsaukt."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Atiestatīt Iemaņas Visam"
+
+msgid "crewBanner/infoText"
+msgstr "Bezmaksas iemaņu atiestatīšana vai netrenētu iemaņu automātiska izvēle visiem apkalpes locekļiem jūsu kontā"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Iespējota Apkalpes Apmācības paātrināšana"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Efektivitātes bonuss: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Prasmju efektivitāte"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Prasmes nav pieejamas, jo apkalpes loceklis nav apmācīts šim tankam."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specializācija:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Iemaņas Nav Pieejamas"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonusa prasmes:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Galvenās kvalifikācijas prasmes:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Ķīna)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Čehoslovākija)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Francija)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Vācija)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Itālija)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japāna)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polija)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Zviedrija)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Lielbritānija)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(ASV)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(PSRS)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Visi {{nation}} Premium tanku iznīcinātāji"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Visas {{nation}} Premium artilērijas"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Visi {{nation}} Premium smagie tanki"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Visi {{nation}} Premium vieglie tanki"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Visi Premium vidējie tanki\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Detaļas"
+
+msgid "filter/group/details/title"
+msgstr "Detaļas"
+
+msgid "filter/group/nation/title"
+msgstr "Nācija"
+
+msgid "filter/group/other/title"
+msgstr "Citi"
+
+msgid "filter/group/special/title"
+msgstr "Īpašs"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Kvalifikācija"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Līmenis"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Līmenis"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializācija"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Tanka Veids"
+
+msgid "filter/popup/button/title"
+msgstr "Filtrs"
+
+msgid "filter/popup/default/title"
+msgstr "Filtrs"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtrēt pēc Nācijas"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtrēt pēc Tankiem"
+
+msgid "filter/reset"
+msgstr "Atiestatīt Filtru"
+
+msgid "filter/search/placeholder"
+msgstr "Meklēt pēc nosaukuma"
+
+msgid "filter/search/tooltip/header"
+msgstr "Meklēt pēc Nosaukuma"
+
+msgid "filter/title"
+msgstr "Parādīts:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Rādīt/paslēpt apkalpes locekļus tankos ar visiem pieejamiem moduļiem un tehniskajiem zariem izpētītiem."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elites Tanki"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Rādīt/slēpt apkalpes locekļus trenētus priekš Premium tankiem."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premium Tanki"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Rādīt/slēpt apkalpes locekļus primārajos tankos."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Primārie Tanki"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Rādīt/slēpt apkalpes locekļus šī veida tankam."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Rādīt/slēpt šīs nācijas apkalpes locekļus."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Rādīt/slēpt šīs nācijas skinus."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Rādīt/paslēpt šīs nācijas tankus."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Rādīt/slēpt atvaļinātus."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Atvaļināts"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Rādīt rekrūšus."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Rekrūši"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Rādīt apkalpes locekļus."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Apkalpes Locekļi"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Rādīt/slēpt šīs kvalifikācijas apkalpes locekļus."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Rādīt/slēpt Premium tankus."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premium Tanki"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Rādīt/paslēpt šī veida tankus."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Tanku Iznīcinātāji"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artilērijas"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Smagie Tanki"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Vieglie Tanki"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Vidējie Tanki"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nav atrastu tanku, kas atbilst\nmeklētajiem kritērijiem"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Kārtot pēc tanka nosaukuma."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Vārds"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Kārtot pēc tanku līmeņiem."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Līmenis"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Kārtot pēc tanku veida."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Veids"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Vārds"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Nospiediet, lai atiestatītu filtra iestatījumus."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Atiestatīt Visus Filtrus"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Sapratu!"
+
+msgid "junkTankmen/description"
+msgstr "Šiem apkalpes locekļiem ir mazāk nekā {bond_Open}210 060{bond_Close}{icon} XP, kas nepieciešams, lai apmācītu savu pirmo apkalpes prasmju līmeni līdz {whiteSpanish_Open}100%{whiteSpanish_Close}.\nViņi tiks noņemti no jūsu konta."
+
+msgid "junkTankmen/title"
+msgstr "Atvaļināt nepietiekami apmācītus apkalpes locekļus?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Ir {whiteSpanish_Open}trīs{whiteSpanish_Close} iemaņu ierobežojums katrai papildus kvalifikācijai. Pieeja jaunai bonusa iemaņai atvērsies sasniedzot {whiteSpanish_Open}pirmo{whiteSpanish_Close}, {whiteSpanish_Open}trešo{whiteSpanish_Close} un {whiteSpanish_Open}piekto{whiteSpanish_Close} galvenās kvalifikācijas iemaņu."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonusa Iemaņas"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Pārtrenējot apkalpes locekli priekš cita tanka ar dažādām kvalifikācijām, jūs varēsiet izvēlēties iemaņas to jaunajai papildus kvalifikācijai."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonusa iemaņas tiek trenētas divreiz lēnāk nekā galvenās kvalifikācijas iemaņas."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Pieredze nav nepieciešama, lai trenētu bonusa iemaņas."
+
+msgid "matrix/freeResetButton"
+msgstr "Atiestatīt par Brīvu"
+
+msgid "matrix/increaseButton"
+msgstr "Paātrināt Treniņu"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Apkalpes loceklis ir sasniedzis treniņa ierobežojumu."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Nevar paātrināt treniņu"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Trenēt iemaņas izmantojot Brīvo Pieredzi un Apkalpes Grāmatas."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Ātrā Apmācība"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Nesaderīga Kvalifikācija"
+
+msgid "matrix/qualification/1"
+msgstr "Galvenā Kvalifikācija"
+
+msgid "matrix/qualification/2"
+msgstr "Otrā Kvalifikācija"
+
+msgid "matrix/qualification/3"
+msgstr "Trešā Kvalifikācija"
+
+msgid "matrix/qualification/4"
+msgstr "Ceturtā Kvalifikācija"
+
+msgid "matrix/qualification/5"
+msgstr "Piektā Kvalifikācija"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Nulles iemaņa nav pieejama otrajai kvalifikācijai"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Nulles iemaņa nav pieejama trešajai kvalifikācijai"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Nulles iemaņa nav pieejama ceturtajai kvalifikācijai"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Otrā kvalifikācija nav pieejama šim tankam"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Trešā kvalifikācija nav pieejama šim tankam"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Ceturtā kvalifikācija nav pieejama šim tankam"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Piektā kvalifikācija nav pieejama šim tankam"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Ir {whiteSpanish_Open}trīs{whiteSpanish_Close} bonusa iemaņu ierobežojums katrai papildus kvalifikācijai. Tikai iemaņas specifiski šai kvalifikācijai var tikt izvēlētas kā bonusa iemaņas."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Ir {whiteSpanish_Open}sešu{whiteSpanish_Close} galveno kvalifikāciju iemaņu ierobežojums (ieskaitot nulles iemaņas)."
+
+msgid "matrix/resetButton"
+msgstr "Atiestatīt"
+
+msgid "matrix/resetButtonHint"
+msgstr "NOSPIEDIET LAI ATIESTATĪTU IEMAŅAS"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Jums nav trenētu iemaņu."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Nevar Atiestatīt Iemaņas"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Nospiediet, lai atiestatītu iemaņas."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Atiestatīt Iemaņas"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Bonusa Iemaņa Pieejama Trenēšanai"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Apkalpes Pieredze nav nepieciešama, lai trenētu bonusa iemaņas."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Nav pieejama"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Atslēgts trenējot trešās galvenās kvalifikācijas iemaņu. Nevajag Pieredzi."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Atslēgts trenējot piektās galvenās kvalifikācijas iemaņu. Nevajag Pieredzi."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Treniņa līmenis"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Kopējā nepieciešamā Pieredzes summa tiek noņemta, jo apkalpes loceklim ir viena nulles iemaņa."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Kopējā nepieciešamā Pieredzes summa tiek noņemta, jo apkalpes loceklim ir divas nulles iemaņas."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Iemaņa Pieejama Trenēšanai"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Nav pieejama"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Iepriekšējai iemaņai jābūt trenētai līdz 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Nulles Iemaņa Pieejama Trenēšanai"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Nulles iemaņas vienmēr tiek trenētas pirmās, pat ja ir izvēlēs vairākas iemaņas. Apkalpes Pieredze nav nepieciešama, lai tās trenētu."
+
+msgid "matrix/skills/allSkills"
+msgstr "Visas papildus iemaņas trenētas šim tankam"
+
+msgid "matrix/skills/available"
+msgstr "Iemaņas pieejamas trenēšanai:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonusa Iemaņas"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Iemaņas nav pieejamas"
+
+msgid "matrix/skills/locked"
+msgstr "Iemaņas nav pieejamas"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Visas iemaņas ir izslēgtas šim tankam"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Galvenās Kvalifikācijas Iemaņas"
+
+msgid "matrix/skills/reduced"
+msgstr "Iemaņu efektivitāte samazināta"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Komandiera Iemaņas"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Braucēja Iemaņas"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Komandiera Iemaņas"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Braucēja Iemaņas"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Šāvēja Iemaņas"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Lādētāja Iemaņas"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Radio Operatora Iemaņas"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Šāvēja Iemaņas"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Lādētāja Iemaņas"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Radio Operatora Iemaņas"
+
+msgid "matrix/skills/training"
+msgstr "Iemaņu treniņš"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Nulles iemaņas pieejamas trenēšanai:"
+
+msgid "memberChange/action/recruit"
+msgstr "Rekrūtis {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% ATLAIDE KVALIFIKĀCIJAS MAIŅAI"
+
+msgid "memberChange/title"
+msgstr "IZVĒLIETIES {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}Noliktavā{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Pēc apstiprināšanas, apkalpes loceklis, kurš pārvieto tā Pieredzi, tiks noņemts no jūsu konta."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Mācību licence ļauj pārvietot Apkalpes XP no viena apkalpes locekļa uz citu tās pašas valsts apkalpes locekli."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Mācību Licence"
+
+msgid "personalData/card/edit"
+msgstr "Labot"
+
+msgid "personalData/card/remove"
+msgstr "Noņemt"
+
+msgid "personalData/card/restrictions"
+msgstr "Ierobežojumi: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Nospiediet, lai aizvietotu apkalpes locekļa vārdu un izskatu."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Izskats"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Šim apkalpes loceklim jau ir unikāls vārds un izskats."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Nevar Aizvietot Vārdu un Izskatu"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Nekas nav atrasts. Nomainiet iestatījumus vai atiestatiet filtru."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Konfigurējiet skinu displeju pēc to nācijas."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtrēt pēc Parametriem"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Rādīt dokumentus."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokumenti"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Rādīt piemērotus skinus."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Piemēroti Skini"
+
+msgid "personalData/filter/type/title"
+msgstr "Veids"
+
+msgid "personalData/title"
+msgstr "AIZVIETOT VĀRDU UN IZSKATU"
+
+msgid "personalFile/changeVehicle"
+msgstr "Mainīt"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Nevar trenēt šo apkalpes locekli citam tankam."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Darbība Nav Pieejama."
+
+msgid "personalFile/discount/full"
+msgstr "Pieejama atlaide apkalpes pārtrenēšanai"
+
+msgid "personalFile/discount/short"
+msgstr "Pieejama atlaide"
+
+msgid "personalFile/inVehicle"
+msgstr "Tankā: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Paātrināt"
+
+msgid "personalFile/isUntrained"
+msgstr "Nav trenēts šim tankam"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Visi {icon} Premium tanki"
+
+msgid "personalFile/retrain"
+msgstr "Pārtrenēt"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Iemaņas efektivitāte:"
+
+msgid "personalFile/specialization"
+msgstr "Specializācija:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specializācija"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Noklikšķiniet, lai klausītos šī Komandiera balss paraugu."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Unikāla Balss"
+
+msgid "postProgression/button/claim"
+msgstr "Iegūt Balvu"
+
+msgid "postProgression/description"
+msgstr "Visi apkalpes locekļi, kuriem ir visas sešas galvenās kvalifikācijas iemaņas trenētas, iegūst pieeju kopējai Pēc-Progresijai. Par katru nopelnītu 100000 Pieredzi Pēc-Progresijā, jūs saņemsiet Universālo Gidu, ko var izmantot, lai trenētu citas apkalpes."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Pēc-Progresija sastāv no vienotas skalas visiem apkalpes locekļiem ar sešām pilnībā trenētām galvenās kvalifikācijas iemaņām spēlētāja kontā."
+
+msgid "postProgression/tips/2"
+msgstr "Tikai Kaujas Pieredze skaitās pretī Pēc-Progresijai. Puse no apkalpes locekļa kaujā nopelnītās Kaujas Pieredzes tiek dalīta ar kopējo apkalpes locekļu skaitu tankā un tiek pievienota Pēc-Progresijas skalai."
+
+msgid "postProgression/tips/3"
+msgstr "Pieredzes zaudēšana no iemaņām vai efektivitātes baseina neietekmē Pēc-Progresiju."
+
+msgid "postProgression/title"
+msgstr "APKALPES PĒC-PROGRESIJA"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Visiem apkalpes locekļiem, kuriem ir pieeja Pēc-Progresijai, ir zema iemaņu efektivitāte."
+
+msgid "postProgression/warning/retire"
+msgstr "Visi apkalpes locekļi, kuriem ir pieeja Pēc-Progresijai, tika atvaļināti vai zaudēja Pieredzi no to pēdējām iemaņām."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Visi Premium tanku iznīcinātāji"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Visas Premium Artilērijas"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Premium tanku iznīcinātāji"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Premium artilērijas"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Premium smagie tanki"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Premium vieglie tanki"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Premium vidējie tanki"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Visi Premium smagie tanki"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Visi Premium vieglie tanki"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Visi Premium vidējie tanki"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "BALVAS"
+
+msgid "serviceRecord/averageXP"
+msgstr "Vidējā Pieredze Kaujā"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Aizvadītas Kaujas"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Kaujā nav nopelnītu sasniegumu vai balvu."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Kopējo nopelnīto pieredzes punktu attiecība pret ar šo tanku izcīnīto kauju skaitu, kurām apkalpes loceklis ir norīkots."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Vidējā Pieredze Kaujā"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Apkalpes locekļa rangs ir atkarīgs no tā pieredzes un trenēto iemaņu skaita."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rangs"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Apkalpes loceklis ir trenējis visas iemaņas šim tankam"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Iemaņas pieejamas trenēšanai"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Visas iemaņas ir izslēgtas šim tankam"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Pieredze nav nepieciešama, lai trenētu papildus kvalifikācijas iemaņas, kuras tiek trenētas divreiz lēnāk nekā galvenās kvalifikācijas iemaņas."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Atcelt"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Trenēt"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUSA KVALIFIKĀCIJA"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "GALVENĀ KVALIFIKĀCIJA"
+
+msgid "tankChange/title"
+msgstr "TRENĒT TANKAM"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Rādīt tankus Garāžā."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "Garāžā"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Konfigurējiet tanku klāstu pēc to veida un līmeņa."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtrēt pēc Parametriem"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Jums nevajag trenēt apkalpes locekļus Premium tankiem. Jūs variet pārvietot apkalpi uz Premium tanku no tāda paša veida bez soda."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premium Tanks"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Tanka nosaukumam jāsatur līdz pat %(maxLength)s rakstzīmēm."
+
+msgid "tankman/action/dismiss/title"
+msgstr "ATVAĻINĀT"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Atvaļināt šo apkalpes locekli."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Nevar atvaļināt šo apkalpes locekli."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Darbība Nav Pieejama."
+
+msgid "tankman/action/recruit/title"
+msgstr "REKRŪTĒT"
+
+msgid "tankman/action/restore/title"
+msgstr "ATGŪT"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Atgūt šo apkalpes locekli."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Noklikšķiniet, lai klausītos šī Komandiera balss paraugu."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Unikāla Balss"
+
+msgid "tankman/recruit"
+msgstr "Rekrūtis"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Izskats"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profils"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Sasniegumi"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Rekrūtis"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Atiestatīt Filtru"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Nekas nav atrasts. Nomainiet iestatījumus vai atiestatiet filtru."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Nekas nav atrasts. Rekrūtējiet apkalpes locekli."
+
+msgid "tankmanList/filter/title"
+msgstr "Apkalpes locekļi:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Nepietiek vietas Kazarmās."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Rādīt/slēpt tikai atvaļinātus apkalpes locekļus."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Atvaļināts"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Rādīt apkalpes locekļus Kazarmās."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "Kazarmās"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Rādīt apkalpes locekļus tankos."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Tankos"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Rādīt/slēpt šīs nācijas skinus."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Konfigurējiet apkalpes locekļu displeju pēc to kvalifikācijas, specializācijas un citiem parametriem."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtrēt pēc Parametriem"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Rekrūtēt jaunu apkalpes locekli."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Vārdam jāsatur līdz pat %(maxLength)s rakstzīmēm."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Peles uzlikšana virs iemaņas rāda kā tā ietekmē attiecīgās īpašības, kad ir trenēta līdz 100%, ar pašreizējo iemaņas efektivitātes līmeni."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Sapratu!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Katram kvalifikācijas līmenim ir ieviesti divi jauni bonusi, \"Uzticama izvietošana\" ir pārstrādāta, un jauna opcija ļauj slēpt bonusus kaujas HUD."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Ērta jauna darbība ļauj atvaļināt nepietiekami apmācītus komandas locekļus ar vienu klikšķi."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Tagad priekšrocības var atiestatīt, izmantojot tikai kredītus, nezaudējot pieredzes punktus (XP)."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Ir pievienotas jaunas prasmes un funkcijas, kā arī atjaunināta viena esošā prasme."
+
+msgid "welcomeScreen/title"
+msgstr "ATJAUNINĀJUMI APKALPEI"

@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Fuldt udforsket"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Nuværende"
+
+msgid "comparison/title"
+msgstr "Opgraderinger"
+
+msgid "comparison/tooltip/body"
+msgstr "Konfigurationsskærmen viser, hvordan opgraderinger påvirker køretøjets karakteristika. Vælg Fuldt udforsket, for at se den fulde effekt af alle tilgængelige opgraderinger."
+
+msgid "comparison/tooltip/header"
+msgstr "Opgraderinger"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Endnu ikke udforsket"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Hold disse muligheder aktiveret, hvis du vil kunne skifte udstyrssæt før kamp."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Du kan til enhver tid ændre disse indstillinger."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Ekstra udstyrssæt"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Essentielt udstyrssæt"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Alternativ konfiguration"
+
+msgid "dialog/common/accept"
+msgstr "Bekræft"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s punkter"
+msgstr[2] "%(perks)s punkter"
+
+msgid "footer/button/label"
+msgstr "Forskning"
+
+msgid "footer/description/text/allResearched"
+msgstr "Alle punkter er blevet udforsket. Du har nu adgang til elite-belønningssystemet."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "WG Wallet er midlertidigt utilgængelig. Vi beklager ulejligheden."
+
+msgid "footer/description/text/inBattle"
+msgstr "Punkt utilgængeligt. Køretøjet er i kamp."
+
+msgid "footer/description/text/inFormation"
+msgstr "Punkt utilgængeligt. Køretøjet er i en taktisk enhed."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Punkt utilgængeligt. Køretøjet skal repareres."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Du skal eje dette køretøj for at kunne udforske dets punkter"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Vælg et punkt eller gruppe af punkter at udforske"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} punkter"
+
+msgid "footer/text/selectedItem"
+msgstr "Valgte: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "WG Wallet er midlertidigt utilgængelig. Vi beklager ulejligheden."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Punkt utilgængeligt. Køretøjet er i kamp."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "Punkt utilgængeligt. Køretøjet er i en taktisk enhed."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Punkt utilgængeligt. Køretøjet skal repareres."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Ikke nok xp til at udforske de valgte punkter."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Research i gang, vent venligst..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Utilgængelig"
+
+msgid "footer/tooltip/header/info"
+msgstr "Valgte punkter"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Bekræftet!"
+
+msgid "intro/button/tooltip"
+msgstr "Om opgraderinger"
+
+msgid "intro/improvements/description"
+msgstr "Optjen kamp xp for at åbne op for punkter, der kan forstærke dit køretøjs karakteristika. De endelige tal kan være enten højere eller lavere end de viste værdier, på grund af yderligere additive og multiplikative modifikationer, der påføres efter punktets bonusser."
+
+msgid "intro/improvements/title"
+msgstr "Sådan virker det"
+
+msgid "intro/progression/description"
+msgstr "Opgraderinger, eksklusivt tilgængelige for niveau XI køretøjer, gør det muligt at forbedre dit køretøjs karakteristika endnu mere."
+
+msgid "intro/progression/title"
+msgstr "Opgraderinger"
+
+msgid "intro/vanity/description"
+msgstr "Efter at have udforsket alle punkterne, vil du få adgang til elite-belønninger, som du kan modtage, når du når til bestemte eliteniveauer. Belønningerne inkluderer en unik volumetrisk stil, stat-tracker og termisk kappe!"
+
+msgid "intro/vanity/title"
+msgstr "Elite-belønninger"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " item(s)"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " grader/s"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " grader"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/t"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " hk"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " s"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " hp"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Denne funktion er utilgængelig i øjeblikket"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Gå til opgraderinger"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Du har nok xp til at forstærke dit køretøj!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Bekræftet"
+
+msgid "rewardScreen/button/check"
+msgstr "Vis i eksteriør"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "For at nå eliteniveau {{prestigeLevel}} i {{level}} {{type}} {{name}}"
+
+msgid "rewardScreen/title"
+msgstr "ELITE-BELØNNING"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Opgraderinger, eksklusivt tilgængelige for niveau XI køretøjer, gør det muligt at forbedre dit køretøjs karakteristika endnu mere."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Opgraderinger"
+
+msgid "tooltips/common/cost"
+msgstr "Pris: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Forbedrer dit køretøjs evne til at absorbere HE-granater og skade ved påkørsler."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Forøger skaden uddelt af HE-granater."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Forøger skudhastigheden på HE-granater."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "Reducerer spredningen af andet skud i burst-tilstand med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "Reducerer cooldown på skud i burst-tilstand med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Forøger bonussen til ladetid per effektivitetsniveau med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "Forlænger varigheden af lade-effektivitetsniveauer med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "Forlænger varigheden af lade-effektivitetsniveauer med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "Forøger bonussen til ladetid per effektivitetsniveau med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "Reducerer cooldown på tiden, indtil mekanismen kan bruges igen, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "Reducerer cooldown på tiden, indtil mekanismen kan bruges igen, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "Forlænger mekanismens varighed med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "Forlænger mekanismens varighed med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "Reducerer spredning ved 100 m for skud med enkelt-ladning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "Forøger skade uddelt af skud med enkelt-ladning med standard og særlige granater med {colorTagOpen}{value} hp{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "Forøger mundingshastigheden for skud med enkelt-ladning med {colorTagOpen}{value} m/s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "Reducerer ladetiden på skud med enkelt-ladning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Forøger affjedringens hp og reparationshastighed."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Reducerer straffen, når et køretøjs ammunitionsstativ eller motor er skadet, og reducerer risikoen for såret mandskab, når køretøjet bliver skadet."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Reducerer størrelsen på din sigtecirkel efter skud."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Reducerer dit køretøjs sigtetid."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Reducerer dit køretøjs sigtetid i enkeltskudstilstand."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Forøger skaden uddelt af alle granattyper."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Forøger skudhastigheden på alle dine granater."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Forøger mængden af skade ammunitionsstativet kan modtage, inden det bliver ødelagt."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Reducerer straffen, når køretøjets ammunitionsstativ er beskadiget."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Forøger skaden uddelt af standard granater."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "Forøger drejehastigheden, når boosterne er aktive, med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "Forøger tophastigheden, når boosterne er aktive, med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "Reducerer cooldown, til boosterne er helt genopladet, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "Forlænger boosternes maksimale varighed med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "Forøger boost til motorkraft fra raket-boosterne med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "Reducerer cooldown på tiden, indtil raket-boosterne kan bruges igen, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "Forøger boost til motorkraft fra raket-boosterne med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "Forøger det maksimale antal gange raket-boosterne kan bruges i en enkelt kamp med {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Reducerer risikoen for at et mandskabsmedlem bliver såret, når køretøjet bliver beskadiget."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Reducerer spredning, når din kanon bliver beskadiget."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Forøger køretøjets hastighed i rejsetilstand."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Forøger køretøjets bakhastighed i rejsetilstand."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Reducerer straffen, når køretøjets motor er beskadiget."
+
+msgid "tooltips/description/enginePower"
+msgstr "Forøger motorkraft, så køretøjet hurtigere kan accelerere og køre op ad bakke."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "Reducerer tiden til at påbegynde ladning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "Reducerer forsinkelsen mellem skud efter ladning afbrydes med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "Reducerer straffen til ladetid efter at have afgivet det sidste skud i kassetten med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Reducerer straffen på spredning ved 100 m med {colorTagOpen}{value0}%{colorTagClose} og kanonens straf på sigtetid med {colorTagOpen}{value1}%{colorTagClose}, når grænsen er overskredet."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "Forøger akkumulationshastigheden af ladningen med {colorTagOpen}{value}%/s{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "Reducerer ladningsniveau mistet efter afgivelse af skud med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "Forøger skadeboost over grænsen med {colorTagOpen}{value0} hp{colorTagClose} og den maksimale skadebonus over grænsen med {colorTagOpen}{value1}%{colorTagClose}."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Forøger køretøjets fremadgående hastighed."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "Forøger bonussen til spredning per præcisionsniveau med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "Forøger den maksimale hastighed, hvormed præcisionsniveauer kan opnås, med {colorTagOpen}{value} km/t{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "Reducerer tiden det tager for at nå det næste præcisionsniveau med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "Forøger stabiliseringsbonussen ved det maksimale præcisionsniveau med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Reducerer ladetid på sekundær bevæbning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Reducerer ladetid på sekundær bevæbning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "Forøger tiden, hvor et fjendtligt køretøj forbliver markeret, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "Reducerer cooldown på tiden, indtil mekanismen kan bruges igen, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "Reducerer første cooldown på tiden, indtil mekanismen kan bruges, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "Forøger yderligere skade uddelt af allieredes granater til markerede fjender med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "Forøger den maksimale hastighed, hvormed forvarme kan genereres, med {colorTagOpen}{value} km/t{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "Forøger den maksimale spredningsbonus fra forvarme med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "Forøger den maksimale skadebonus fra forvarme med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "Reducerer tiden det tager for at nå det maksimale forvarmeniveau med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "Reducerer kanonens spredning med {colorTagOpen}{value} meter{colorTagClose} i salveskydningstilstand."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "Forøger tårnets drejehastighed med {colorTagOpen}{value} grader/s{colorTagClose} i salveskydningstilstand."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "Reducerer sigtetiden med {colorTagOpen}{value} s{colorTagClose} i salveskydningstilstand."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "Forøger tophastigheden med {colorTagOpen}{value} km/t{colorTagClose} i salveskydningstilstand."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "Reducerer tiden det tager at aktivere direkte kørselstilstand med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "Reducerer tiden det tager at nå maksimal ydeevne i direkte kørselstilstand med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "Forøger motorkraften med {colorTagOpen}{value}%{colorTagClose} i direkte kørselstilstand."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "Forøger tophastigheden med {colorTagOpen}{value}%{colorTagClose} i direkte kørselstilstand."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "Forøger boostet til motoren af turbolader-assist med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "Forøger maksimal bakhastighed, mens turbolader-assist er aktiv med {colorTagOpen}{value} km/t{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "Forlænger varigheden af turbolader-assist med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "Reducerer cooldown på tiden, indtil turbolader-assist kan bruges igen, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Forøger kanonens depressionsvinkel."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Forbedrer skuddenes gruppering i sigtecirklen."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Forbedrer skuddenes gruppering i sigtecirklen i enkeltskudstilstand."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Forbedrer kanonens stabilisering i alle situationer."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Forbedrer kanonens stabilisering ved bevægelse og rotation af skroget."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Forbedrer kanonens stabilisering ved bevægelse af skroget."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Forbedrer kanonens stabilisering ved rotation af skroget."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Forbedrer kanonens stabilisering ved bevægelse og rotation af skroget i enkeltskudstilstand."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Forbedrer kanonens stabilisering ved rotation af tårnet."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Forbedrer kanonens stabilisering ved rotation af tårnet i enkeltskudstilstand."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Forøger kanonens maksimale horisontale skudvinkler."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Forøger køretøjets overlevelsesevne, så den kan modtage mere skade, før den bliver ødelagt."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Reducerer ladetiden mellem granater i din kanons magasin."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Reducerer risikoen for at blive opdaget af fjendtlige køretøjer, når du afgiver skud."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "Reducerer tiden inden nedkøling af kanonløbet påbegyndes med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "Reducerer mængden af varme kanonen genererer per skud med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "Forøger hastigheden kanonen nedkøles med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Forøger skaden uddelt af andet end HE-granater."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Gør det muligt at konfigurere et alternativt udstyrssæt med udstyr og direktiver."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "Reducerer forsinkelsen på nedkøling af kanonløbet med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "Forøger nedkølingshastigheden på en opvarmet og overophedet kanon med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "Reducerer mængden af varme kanonen genererer per skud med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "Forøger nedkølingshastigheden på en overophedet kanon med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "Reducerer tiden det tager at skifte mellem tilstande med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "Forøger mængden af passivt genereret energi per sekund i turbo-tilstand med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "Forøger mængden af passivt genereret energi per sekund i kamptilstand med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "Forøger effektens varighed med {colorTagOpen}{value} s{colorTagClose} i både turbo- og kamptilstand."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "Forøger skaden ved påkørsler uddelt til fjendtlige køretøjer med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "Forøger skaden ved påkørsler uddelt til fjendtlige køretøjers affjedring med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "Forøger skaden ved påkørsler uddelt til fjendtlige køretøjer med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "Forøger skaden ved påkørsler uddelt til fjendtlige køretøjer med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "Reducerer tiden til du igen kan afgive ild efter ladningens overophedning med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "Forøger den tilgængelige tid til skud ved maksimalt varme-niveau med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "Reducerer tiden til du igen kan afgive ild efter ladningens overophedning med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "Forøger skadebonussen per varme-niveau med {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Reducerer den modtagne skade fra fjendtlige påkørsler."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Reducerer kanonens ladetid i både salve- og enkeltskudstilstand."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Forøger køretøjets bakhastighed."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Tildel en kategori til den anden udstyrsplads."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "Forøger drejehastighed på skroget og kanonens elevationshastighed med {colorTagOpen}{value}%{colorTagClose} i bunkertilstand."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "Reducerer tiden det tager at forlade bunkertilstand med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "Reducerer kanonens spredning med {colorTagOpen}{value}%{colorTagClose} i bunkertilstand."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "Reducerer kanonens ladetid med {colorTagOpen}{value}%{colorTagClose} i bunkertilstand."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Forøger antal hp på dit køretøjs brændstoftanke og motormoduler."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Reducerer straffen fra et beskadiget ammunitionsstativ og motor."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Forøger dine granaters skade til fjendtlige køretøjers moduler."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Gør det muligt at konfigurere et alternativt udstyrssæt med ammunition og forbrugsvarer."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Forøger skaden uddelt af særlige granater."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Forøger gennembrydningen med særlige granater."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Forøger skudhastigheden på særlige granater."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Reducerer sløringen af fjendtlige køretøjer, der skjuler sig bag buskads."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Reducerer sløring af fjendtlige køretøjer i bevægelse."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Forøger skaden uddelt af standard granater."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Forøger gennembrydningen med almindelige granater."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Forøger skudhastigheden på almindelige granater."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Reducerer tiden dit køretøj er fortumlet ved fjendtlig beskydning."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Forøger tårnets maksimale horisontale skudvinkler."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Reducerer kanonens spredning ved rotation af tårnet i kamptilstand."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Forøger køretøjets hastighed både frem og tilbage."
+
+msgid "tooltips/description/viewRange"
+msgstr "Gør det muligt at opdage fjendtlige køretøjer på længere afstand."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Giver køretøjet elitestatus"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Udforsk alle andre punkter, før du kan udforske dette punkt."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Kategori: Sløring"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Kategori: Ildkraft"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Mekanisk opgradering"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Kategori: Mobilitet"
+
+msgid "tooltips/perk/category/special"
+msgstr "Særlig opgradering"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Kategori: Observering"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Kategori: Overlevelsesevne"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Klik for at modificere efter at have udforsket punktet."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "Absorbering af HE-skade"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "HE-granat skade"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "HE-granat gennembrydning"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "HE-mundingshastighed"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Semi-aktiv masseudligner"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Kædedrevet kanonladerforstærkning"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Semi-automatisk torsionsudtrækker"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Avanceret kabineluftfiltrering"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Centrifugal overtryksblæser"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Modificerede ammunitionsklemmer"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Højtydende kompressor"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "6.000-PSI kompressorstempel"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "6.000-PSI pneumatisk system"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Ekstra højtrykscylinder"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Ballistisk stabilitetsforbedring"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Forstørret enkelt-ladning"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Indført enkelt-ladning"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Letvægts ladningsadskillelse"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Ekstra ammunitionskapacitet"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Avanceret affjedringsbeskyttelse"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Avanceret modul- og mandskabsbeskyttelse"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Størrelse på sigtecirkel"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Sigtetid"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Sigtetid"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Skade fra alle granater"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Mundingshastighed"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "Hp på ammunitionsstativ"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Straf på ammunitionsstativ"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Skade fra standard granat"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Fremdriftsstyring"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Brændstofpumpe med høj kapacitet"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Fordampningsnedkøling"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Transpirationsnedkølede dyser"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Energitæt fremdriftsmiddel"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Semi-automatisk raket-booster ventilation"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Grundformsoptimering"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Udvidet boosterlager"
+
+msgid "tooltips/title/chassisHP"
+msgstr "Affjedringens hp"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Affjedringens reparationshastighed"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Mandskabsbeskyttelse"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Situationsafhængig spredning på kanonen"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Tophastighed i rejsetilstand"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Bakhastighed i rejsetilstand"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Risiko for motorbrand"
+
+msgid "tooltips/title/engineHP"
+msgstr "Motorens hp"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Straf på motor"
+
+msgid "tooltips/title/enginePower"
+msgstr "Motorkraft"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Hydraulisk slangeoptimering"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Optimering af ladesekvens"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Forbedret lademekanisme"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Termisk løbsisolering"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Højtydende vekselstrømsgenerator"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Lavresistent kabling"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Modificeret udgangsbegrænser"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Hastighed fremad"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "Brændstoftankens hp"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Sensor på corioliskraft"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Gyroskopisk hældningssensor"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Forbedret inputterminal"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Rotationssensor med høj præcision"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Forbedret opbevaring til sekundære granater"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Sekundær kanonlader"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Avanceret sporingsmekanisme"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Højeffektiv varmeafleder"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Stærkstrømsgenerator"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Rubinlaser med lav spredning"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Modificeret startmotor"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Dobbelt termisk kontrolsensor"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Præcis termisk kontrol"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Højtydende vekselstrømsgenerator"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Kanonholdere med forlader"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Avanceret rotationssystem"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Hældningskontrolsystem"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Frigivet momentstyring"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Justering af gearratio"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Optimering af turbinegeometri"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Optimering af runde fordelerrør"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Modificeret omdrejningsbegrænser"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Justeret trykregulator"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Moderniseret udstødningsmanifold"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Større luftbeholder"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Højtydende luftkompressor"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Kanonens depressionsvinkel"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Kanonens spredning"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Kanonens spredning"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Kanonens elevationsvinkel"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Samlet kanonstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Delvis kanonstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Bevægelsesstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Rotationsstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Delvis kanonstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Delvis kanonstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Delvis kanonstabilisering"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Forbedret kanonrotation"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Hit points (hp)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Skrogets elevationshastighed"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Skrogets drejehastighed"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Ladetid på indre magasin"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Sløring efter skud"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Kold varmeoverførselsvæske"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Høj-konduktiv termisk beholder"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Varmerørsoptimering"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "Skade fra andet end HE-granat"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Udstyr og direktiver-udstyrssæt"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Krom indlægsdække"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Høj-konduktivt kanonløb"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Letantændeligt brændstof"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Tvangsventilationssystem"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Letvægtsturbinerotor"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Højtydende sekundær vekselstrømsgenerator"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Avanceret genopretningskontrol"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Hybrid kondensatorbank"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Lokal kantforstærkning"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Højlegerede stålbælter"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Dybdevirkende lokal karburering"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Lokal overfladekarburering"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Varmesensor med høj præcision"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Lavintensiv mundingsvarmer"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Mekanisk ladningsstativ"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Termisk overbelastningskontrol"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Reduceret påkørselsskade"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Ladetid"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Ladetid"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Bakhastighed"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Anden pladskategori"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Hydraulisk aksialstempelpumpe"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Multi-kraftbeholdersynkronisering"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Præcisionsbalanceret rotor"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Hydraulisk kanonlader"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Valgfrit modul-hp-boost"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Valgfri modulbeskyttelse"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Skade til granatmodul"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Ammunition og forbrugsvarer-udstyrssæt"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Skade fra særlig granat"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Gennembrydning med særlige granater"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Mundingshastighed med særlige granater"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Observationsbonus: Buskads"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Observationsbonus: Bevægelse"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Skade fra standard granat"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Gennembrydning med standard granater"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Mundingshastighed med standard granater"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Fortumlet periode"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Forbedret tårnrotation"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Tårnets drejehastighed"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Stabiliseret tårnrotation"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Køretøjshastighed"
+
+msgid "tooltips/title/viewRange"
+msgstr "Forbedret synsrækkevidde"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Udforsk det sidste punkt for at åbne op"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Modtag eksklusive belønninger for niveau XI køretøjer inklusive en volumetrisk stil, stat-tracker og termisk kappe."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Elite-belønninger"
+
+msgid "vanity/available/subtitle"
+msgstr "Modtag belønninger for dit køretøjs eliteniveau"
+
+msgid "vanity/available/tooltip"
+msgstr "Nuværende eliteniveau"
+
+msgid "vanity/completed/subtitle"
+msgstr "Tillykke! Alle belønninger modtaget."
+
+msgid "vanity/completed/tooltip"
+msgstr "Nuværende eliteniveau"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Kan optjenes efter at have udforsket det sidste punkt"
+
+msgid "vanity/disabled/tooltip"
+msgstr "Køretøj har ikke elitestatus"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Eliteniveau krævet for belønning"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "En eksklusiv termisk kappe, der straks vil få dit køretøj til at skille sig ud på slagmarken."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Et unikt nyt tilpasningselement, der viser hvor mange køretøjer du har ødelagt."
+
+msgid "vanity/rewardType/description/style"
+msgstr "En særlig 2D-stil med en unik visuel effekt, der giver det et 3D-look, eksklusivt tilgængeligt for niveau XI køretøjer."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "Termisk kappe 3D-tilbehør"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Stat-tracker"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Volumetrisk stil"
+
+msgid "vanity/title"
+msgstr "ELITE-BELØNNINGER"

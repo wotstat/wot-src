@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "ПОКУПКА"
+
+msgid "buttons/cancel"
+msgstr "Отмени"
+
+msgid "buttons/learn"
+msgstr "Изучи"
+
+msgid "buttons/postProgression/claim"
+msgstr "ВЗЕМИ"
+
+msgid "buttons/postProgression/hint"
+msgstr "ОТИДИ НА ПОСТ-НАПРЕДЪК"
+
+msgid "buttons/postProgression/howTo"
+msgstr "КАК ДА ПОЛУЧИТЕ"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Обменен курс:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Прилага се за избрания член на екипажа.\nУскорява обучението на текущото умение чрез свободен опит."
+
+msgid "card/freeExp/title"
+msgstr "СВОБОДЕН ОПИТ"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Ефективност на умението: 100%\n• Специализация: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Прилага се за целия екипаж.\nНоси на всеки член на екипажа %(xp)."
+
+msgid "card/nationBook/title/brochure"
+msgstr "ОБУЧИТЕЛНА БРОШУРА (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "ОБУЧИТЕЛНА ИНСТРУКЦИЯ (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "ОБУЧИТЕЛЕН СЪВЕТНИК (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Прилага се без ограничения."
+
+msgid "card/personalBook/mainText"
+msgstr "Прилага се за избрания член на екипажа.\nНоси на този член на екипажа %(xp)."
+
+msgid "card/personalBook/title"
+msgstr "ЛИЧНА ОБУЧИТЕЛНА ИНСТРУКЦИЯ"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Ефективност на умението: 100%\n• Специализация: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Прилага се за целия екипаж.\nНоси на всеки член на екипажа %(xp)."
+
+msgid "card/universalBook/title/universalBook"
+msgstr "УНИВЕРСАЛНА ИНСТРУКЦИЯ"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "УНИВЕРСАЛНА БРОШУРА"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "УНИВЕРСАЛЕН СЪВЕТНИК"
+
+msgid "confirm/crewLabel"
+msgstr "Всеки член на екипажа ще получи %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Всеки член на екипажа ще получи %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) ще получи допълнителни %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) ще получи %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Някои членове на екипажа ще получат %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Обучителна брошура (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Обучителна брошура"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "ОБУЧИТЕЛНА БРОШУРА"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опит на екипажа за всеки член на екипажа."
+
+msgid "items/crewBook/Name"
+msgstr "Обучителна инструкция (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Обучителна инструкция"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "ОБУЧИТЕЛНА ИНСТРУКЦИЯ"
+
+msgid "items/guide/Name"
+msgstr "Обучителен съветник (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Обучителен съветник"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "ОБУЧИТЕЛЕН СЪВЕТНИК"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опит за избрания член на екипажа"
+
+msgid "items/personalBook/Name"
+msgstr "Лична обучителна инструкция"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опит на екипажа за всеки член на екипажа."
+
+msgid "items/universalBook/Name"
+msgstr "Универсална инструкция"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опит за всеки член на екипажа."
+
+msgid "items/universalBrochure/Name"
+msgstr "Универсална брошура"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опит за всеки член на екипажа."
+
+msgid "items/universalGuide/Name"
+msgstr "Универсален съветник"
+
+msgid "page/mentoringLicense/hint"
+msgstr "ОТИДИ НА ЛИЦЕНЗ ЗА МЕНТОРСТВО"
+
+msgid "page/mentoringLicense/title"
+msgstr "ЛИЦЕНЗ ЗА МЕНТОРСТВО"
+
+msgid "page/title"
+msgstr "УСКОРЕНО ОБУЧЕНИЕ"
+
+msgid "tooltip/buyManual"
+msgstr "Купи обучителна инструкция"
+
+msgid "tooltip/mouseWheel"
+msgstr "Скролвайте {mouseIcon}, за да увеличите/намалите броя Книги на екипажа."
+
+msgid "tooltip/outOfStock"
+msgstr "Няма останали книги за екипажа"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Няма останали книги за екипажа. Купете тези книги за екипажа в Магазина."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Прилага се към избрания член на екипажа.Предоставя на този член на екипажа %(xp)s опит."
+
+msgid "tooltip/postProgression"
+msgstr "Отиди на пост-напредък"
+
+msgid "tooltip/sale/header"
+msgstr "Изгоден обменен курс"
+
+msgid "tooltip/sale/newRate"
+msgstr "Нов обменен курс: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Предишен обменен курс: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Натиснете %(controlsImg), за да повишите / понижите нивото на изучаване на умението с 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Натиснете %(pgupImg) / %(pgdownImg), за да повишите нивото на изучаване на умението до &nbsp;100% / връщане&nbsp;към предишното умение."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Прилага се за целия екипаж. Носи на всеки член на екипажа %(xp)s опит."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Прилага се за целия екипаж. Носи на всеки член на екипажа %(xp)s опит."

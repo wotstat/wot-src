@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Φάση {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Ειδικό Κεφάλαιο"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Ολοκληρώθηκε"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Νέα Πρόοδος"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Επιλογή Κεφαλαίου"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Προσωρινά μη διαθέσιμο"
+
+msgid "battle_pass_widget/title"
+msgstr "Battle Pass"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Crucible: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} d"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} d {{hours}} h"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} h"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} h {{minutes}} m"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Πρόσθετη Αποστολή\nΟλοκληρώστε 3 Τυπικές Αποστολές για να την ξεκλειδώσετε"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Διαθέσιμος χρόνος για την ολοκλήρωση της Πρόσθετης Αποστολής"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Νέες Ημερήσιες Αποστολές σε"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Δεν υπάρχει άλλη αποστολή. Νέες Ημερήσιες Αποστολές Προσεχώς."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Ολοκληρώστε την προηγούμενη αποστολή για να ξεκλειδώσετε αυτήν"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Οι Προνομιακές Αποστολές είναι προσωρινά μη διαθέσιμες"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Αγορά Προνομιακού"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Απαιτείται Προνομιακός Λογαριασμός WoT"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Προνομιακές Αποστολές"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Οι Ημερήσιες Αποστολές είναι προσωρινά μη διαθέσιμες"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Αλλαγή"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "ΗΜΕΡΗΣΙΕΣ"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Εκστρατείες"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Επιδίωξη Βελτίωσης"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Επιχείρηση"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Μία πραγματική πρόκληση για έμπειρους παίκτες με μοναδικά οχήματα ως έπαθλα."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Ολοκληρώσατε την επιχείρηση {{currentOperationName}}! Μπορείτε να συνεχίσετε την προσπάθεια να την ολοκληρώσετε μετ' επαίνων για περισσότερα έπαθλα, ή να αποδεχθείτε μια νέα πρόκληση ξεκινώντας την επιχείρηση {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Μπορείτε να συνεχίσετε την προσπάθεια να ολοκληρώσετε την επιχείρηση {{nextOperationName}} μετ' επαίνων για περισσότερα έπαθλα."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Ολοκληρώσατε μετ' επαίνων την επιχείρηση {{currentOperationName}}! Η επιχείρηση {{nextOperationName}} είναι πλέον διαθέσιμη για σας."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Μπορείτε να κερδίσετε Πόντους Εκστρατείας από την ολοκλήρωση Προσωπικών Αποστολών, Ημερήσιων Αποστολών και Εβδομαδιαίων Αποστολών."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Ολοκληρώστε και τις {{totalProgress}} αποστολές για να ολοκληρώσετε μετ' επαίνων την επιχείρηση και να κερδίσετε περισσότερα έπαθλα."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Τοποθετήστε όλα τα εξαρτήματα για να λάβετε το κύριο έπαθλο—το {{vehicleName}}. Για να συλλέξετε τα εξαρτήματα του οχήματος, κερδίστε Πόντους Εκστρατείας από την ολοκλήρωση Προσωπικών Αποστολών, Ημερήσιων Αποστολών και Εβδομαδιαίων Αποστολών."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Τοποθετήστε όλα τα εξαρτήματα για να λάβετε το κύριο έπαθλο—το {{vehicleName}}. Για να συλλέξετε τα εξαρτήματα του οχήματος, κερδίστε Πόντους Εκστρατείας από την ολοκλήρωση Προσωπικών Αποστολών, Ημερήσιων Αποστολών και Εβδομαδιαίων Αποστολών."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Ολοκληρωμένες αποστολές: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Η νέα εκστρατεία Sector 3 είναι διαθέσιμη!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Η επιχείρηση {{nextOperationName}} είναι διαθέσιμη!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Η επιχείρηση {{currentOperationName}} ολοκληρώθηκε μετ' επαίνων!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Η επιχείρηση {{nextOperationName}} είναι διαθέσιμη!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Επιχείρηση: {{currentOperationName}} | Φάση {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Ολοκλήρωση της επιχείρησης {{currentOperationName}} μετ' επαίνων"
+
+msgid "hub/basic_missions/title"
+msgstr "ΤΥΠΙΚΕΣ ΑΠΟΣΤΟΛΕΣ"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "ΕΒΔΟΜΑΔΙΑΙΕΣ"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Ενημέρωση κάθε {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Ενεργή Αποστολή"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "ή"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Νέες αποστολές προσεχώς..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "ΜΑΧΗΤΗΣ"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ΑΣΣΟΣ"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ΕΠΙΛΕΚΤΟΣ"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Υπάρχουν 3 κατηγορίες αποστολών: Μαχητής, Επίλεκτος και Άσσος. Σε κάθε κατηγορία θα βρείτε μοναδικές προκλήσεις και πολύτιμα έπαθλα."
+
+msgid "hub/challenge_missions/header"
+msgstr "CRUCIBLE"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Ενεργοποίηση"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Δωρεάν Επανεκκίνηση"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Επανεκκίνηση"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Εγκατάλειψη"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Αποστολές"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Αποστολές Crucible Ολοκληρώθηκαν"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "ασπίδες απομένουν"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "δωρεάν επανεκκίνησεις"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Ολοκληρώστε τις ενεργοποιημένες αποστολές Crucible"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Λήξη σε %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Μη διαθέσιμη: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Για οχήματα Βαθμίδας VI και πάνω"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "ΕΝΕΡΓΗ"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Ολοκληρώθηκε"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} αποστολές"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Αποστολή Challenge"
+
+msgid "hub/challenge_missions/new"
+msgstr "ΝΕΑ"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Στο Crucible"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Στο Crucible"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "Η ΑΠΟΣΤΟΛΗ CRUCIBLE: {{ challengeName }} ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Στο Crucible"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Η αποστολή Crucible: {{ challenge }} δεν ολοκληρώθηκε. Κάντε επανεκκίνηση της αποστολής και διεκδικήστε τα έπαθλα!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Στο Crucible"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "Η ΑΠΟΣΤΟΛΗ {{ mission }} ΕΞΕΤΕΛΕΣΘΗ!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Στο Crucible"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Η αποστολή {{ mission }} δεν ολοκληρώθηκε"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "ΑΣΠΙΔΕΣ"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Στο Crucible"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Μπείτε στο Crucible και δοκιμάστε τις δυνάμεις σας σε απαιτητικές σειρές αποστολών. Όσοι τις ολοκληρώσουν θα ανταμειφθούν με πολύτιμα έπαθλα."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "ΝΕΕΣ ΑΠΟΣΤΟΛΕΣ CRUCIBLE ΔΙΑΘΕΣΙΜΕΣ"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Δείξτε την αξία σας στις αποστολές Crucible: ανταποκριθείτε στην πρόκληση των απαιτητικών αυτών αποστολών και διεκδικήστε τα πολύτιμα έπαθλα."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "ΜΠΕΙΤΕ ΣΤΟ CRUCIBLE"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Ολοκληρώθηκε"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Σετ Προσαρτημάτων 3D"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Βελτιωμένος Εξοπλισμός"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "Τεχνοτροπία 2D"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Μέλος πληρώματος"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Όχημα"
+
+msgid "hub/challenge_missions/title"
+msgstr "ΑΠΟΣΤΟΛΕΣ CRUCIBLE"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Σχετικά Με Τις Αποστολές Crucible"
+
+msgid "hub/common_missions/title"
+msgstr "ΠΡΟΣΘΕΤΕΣ ΑΠΟΣΤΟΛΕΣ"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Παραλαβή Επάθλων"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Το Επικό Έπαθλο είναι προσωρινά μη διαθέσιμο"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Κάθε Τυπική, Προνομιακή και Πρόσθετη Αποστολή υπολογίζεται στην πρόοδο προς αυτό."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Διαθέσιμο"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Ολοκληρώστε Ημερήσιες Αποστολές για να κερδίσετε Επικά Έπαθλα"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Παραλαβή Επάθλου"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Παραλαβή Επάθλων"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Κάθε Τυπική, Προνομιακή και Πρόσθετη Αποστολή υπολογίζεται στην πρόοδο προς αυτό."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Διαθέσιμο"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Ολοκληρώστε Ημερήσιες Αποστολές για να κερδίσετε Επικά Έπαθλα: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Μετά την ολοκλήρωση 3 Τυπικών Αποστολών, μία Πρόσθετη Αποστολή θα γίνει διαθέσιμη με ακόμη πιο πολύτιμα έπαθλα. Η Πρόσθετη Αποστολή πρέπει να ολοκληρωθεί μέχρι το τέλος της ημέρας, αλλιώς θα λήξει."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Πρόσθετη Αποστολή"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Μερικές αποστολές πρέπει να ολοκληρωθούν σε μία μάχη, ενώ άλλες συγκεντρωτικά από πολλές μάχες. Οι αποστολές με τις συγκεντρωτικές προϋποθέσεις έχουν μια μπάρα προόδου. Τις αποστολές μπορείτε να τις ολοκληρώσετε σε Τυχαίες Μάχες."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Προϋποθέσεις"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Μπορείτε να ζητήσετε αλλαγή μιας Τυπικής Αποστολής που δεν σας αρέσει για να ολοκληρώσετε μία διαφορετική αποστολή. Η αλλαγή αποστολής είναι διαθέσιμη κάθε {{time}}. Εάν υπάρχει κάποιο όχημα σε μάχη ενώ αλλάξατε αποστολή, η πρόοδος για την προηγούμενη αποστολή από τη μάχη αυτή δεν θα υπολογιστεί."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Αλλαγή Αποστολής"
+
+msgid "info_page/additional/reward/description"
+msgstr "Το Επικό Έπαθλο είναι κάτι σαν κυκλικός μαραθώνιος. Κάθε Τυπική, Προνομιακή και Πρόσθετη Αποστολή υπολογίζεται στην πρόοδο προς αυτό. Μόλις ολοκληρωθεί ένας κύκλος, ξεκινά ένας νέος. Ο κύκλος του Επικού Επάθλου δεν έχει χρονικό όριο και μπορεί να ολοκληρωθεί οποιαδήποτε στιγμή."
+
+msgid "info_page/additional/reward/title"
+msgstr "Επικό Έπαθλο"
+
+msgid "info_page/header"
+msgstr "ΣΧΕΤΙΚΑ ΜΕ ΤΙΣ ΑΠΟΣΤΟΛΕΣ"
+
+msgid "info_page/main/premium/description"
+msgstr "Ο Προνομιακός Λογαριασμός WoT δίνει πρόσβαση σε 3 Προνομιακές Αποστολές, η ολοκλήρωση των οποίων πρέπει να γίνει αλυσιδωτά. Μπορούν να ολοκληρωθούν σε Τυχαίες Μάχες ή σε Μάχες Επέλασης. Η πρόοδος της Προνομιακής Αποστολής ενημερώνεται μόνο στο τέλος κάθε μάχης. Από τις Προνομιακές Αποστολές μπορείτε να κερδίζετε ειδικά έπαθλα σχετικά με τις τρέχουσες διοργανώσεις."
+
+msgid "info_page/main/premium/title"
+msgstr "Προνομιακές Αποστολές"
+
+msgid "info_page/main/standard/description"
+msgstr "Οι Τυπικές Αποστολές έχουν τυχαίες προϋποθέσεις που μπορούν να εκπληρωθούν καθημερινά. Προτείνουμε να ολοκληρώνετε τις Τυπικές Αποστολές την ίδια ημέρα που σας ανατίθενται. Ειδάλλως, μεταφέρονται στην επόμενη ημέρα, εμποδίζοντας την εμφάνιση των επόμενων αποστολών. Από τις Προνομιακές Αποστολές μπορείτε να κερδίζετε πρόσθετους Πόντους Battle Pass και ειδικά έπαθλα σχετικά με τις τρέχουσες διοργανώσεις."
+
+msgid "info_page/main/standard/title"
+msgstr "Τυπικές Αποστολές"
+
+msgid "info_page/main/weekly/description"
+msgstr "Οι Εβδομαδιαίες Αποστολές είναι ένα σετ αποστολών που γίνεται διαθέσιμο κάθε εβδομάδα. Η πρόοδός τους ενημερώνεται στο τέλος κάθε μάχης. Οι ολοκληρωμένες αποστολές αντικαθίστανται με νέες όταν ολοκληρωθεί ο εβδομαδιαίος κύκλος. Μπορούν να ολοκληρωθούν σε Τυχαίες Μάχες και Μάχες Επέλασης για να κερδίσετε ειδικά έπαθλα."
+
+msgid "info_page/main/weekly/title"
+msgstr "Εβδομαδιαίες Αποστολές"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Όλες οι σημερινές τυπικές αποστολές ολοκληρώθηκαν"
+
+msgid "quests/daily_quests/completed"
+msgstr "Όλες Οι Ημερήσιες Αποστολές Ολοκληρώθηκαν"
+
+msgid "tooltip/common/timer"
+msgstr "Διαθεσιμότητα σε {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Όλες οι τυπικές αποστολές ολοκληρώθηκαν! Μπορείτε να βρείτε και άλλες αποστολές στην καρτέλα Πρόσθετες Αποστολές."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Πρόσθετη Αποστολή"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Ολοκληρώθηκε"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Ημερήσια Αποστολή"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Λήγει σε {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Νέες Ημερήσιες Αποστολές σε {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Προνομιακή Αποστολή"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Έπαθλα:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Μπορείτε να ζητήσετε αλλαγή μιας αποστολής που δεν σας αρέσει\nγια να ολοκληρώσετε μία διαφορετική αποστολή κάθε {time} ώρες."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Αλλαγή Αποστολής"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Η αποστολή ολοκληρώθηκε & το έπαθλο απονεμήθηκε."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Για ξεκλείδωμα της αποστολής, ολοκληρώστε την προηγούμενη. Όλες οι αποστολές θα πρέπει να ολοκληρωθούν διαδοχικά."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Κλικ για περισσότερες πληροφορίες"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Σχετικά Με Τις Αποστολές"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Αυτή η σειρά αποστολών μπορεί να επαναληφθεί μετά την ολοκλήρωσή της. Η πρόοδός σας θα μηδενιστεί, οι ασπίδες θα αποκατασταθούν και θα μπορείτε να διεκδικήσετε εκ νέου τα έπαθλα."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Επανάληψη Αποστολών"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Μπορείτε να επανεκκινήσετε μια σειρά αποστολών όταν χάσετε όλες τις ασπίδες σας. Η πρόοδός σας στις αποστολές θα μηδενιστεί, οι ασπίδες σας θα αποκατασταθούν και θα μπορείτε να διεκδικήσετε εκ νέου τα έπαθλα."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Κόστος συνεχόμενων επανεκκινήσεων: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Διαθέσιμες δωρεάν επανεκκινήσεις: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Κόστος κάθε επανεκκίνησης: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Επανεκκινήσεις"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Οι ασπίδες προστατεύουν την πρόοδό σας. Κάθε αποτυχημένη αποστολή κοστίζει μία ασπίδα και όταν χαθούν όλες οι ασπίδες, η ολοκλήρωση της σειράς των αποστολών αποτυγχάνει. Αν την επανεκκινήσετε, οι ασπίδες σας θα αποκατασταθούν."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Ασπίδες"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Περιορισμοί οχημάτων:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Εβδομαδιαία Αποστολή"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Μπορείτε να αλλάζετε αυτήν την Εβδομαδιαία Αποστολή κάθε {{time}}."
+
+msgid "welcome/button"
+msgstr "Έλαβα Γνώση!"

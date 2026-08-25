@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Θετικόν!"
+
+msgid "attachments_preview/description"
+msgstr "Σετ Προσαρτημάτων 3D"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Επικό Προσάρτημα 3D"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Θρυλικό Προσάρτημα 3D"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Σπάνιο Προσάρτημα 3D"
+
+msgid "bundle/name"
+msgstr "Mystery Market"
+
+msgid "bundle/name_uppercased"
+msgstr "MYSTERY MARKET"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Άκυρο"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Αγορά"
+
+msgid "confirmation/description"
+msgstr "Επικυρώστε την επιλογή σας για να λάβετε bonds και ένα νέο δώρο κυψέλης."
+
+msgid "confirmation/purchase"
+msgstr "Αγορά για {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "Στη Διοργάνωση"
+
+msgid "entryPoint/title"
+msgstr "Το {{eventName}} είναι εδώ. Μην το χάσετε!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Όταν αγοράζετε bonds κατά τη διάρκεια του {{eventName}}, θα λαμβάνετε ένα δώρο ανοίγοντας μία νέα κυψέλη κάθε φορά. Στις κυψέλες θα βρείτε πολύτιμα αγαθά του παιχνιδιού, συμπεριλαμβανομένου και ενός Προνομιακού Οχήματος."
+
+msgid "intro/cards/description/c_2"
+msgstr "Τα έπαθλα απονέμονται με τυχαία σειρά. Κάθε μη ανοιγμένη κυψέλη έχει τη δική της πιθανότητα να επιλεγεί, και όλες οι πιθανότητες αθροίζονται πάντα σε 100%. Μόλις μία κυψέλη ανοιχτεί, δεν μπορεί να ανοιχτεί ξανά, ενώ οι πιθανότητες απόκτησης των υπόλοιπων επάθλων αυξάνονται."
+
+msgid "intro/cards/description/c_3"
+msgstr "Για κάθε βήμα υπάρχει κόστος σε gold. Και τα bonds που λαμβάνετε και το κόστος του κάθε βήματος αυξάνονται σταδιακά."
+
+msgid "intro/cards/link"
+msgstr "Δείτε τις προδιαγραφές και το κόστος του κάθε βήματος στο επίσημο {{@ class 'linkPart'}}portal του παιχνιδιού.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Αγορά Bonds"
+
+msgid "intro/cards/title/c_2"
+msgstr "Κυψέλες & Πιθανότητες"
+
+msgid "intro/cards/title/c_3"
+msgstr "Κόστος Βημάτων"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "Το έπαθλο σας περιμένει"
+
+msgid "main/alt/description"
+msgstr "Πιθανότητα"
+
+msgid "main/alt/tooltip/body"
+msgstr "Πιέστε το πλήκτρο Alt για να δείτε την πιθανότητα της κάθε κυψέλης."
+
+msgid "main/alt/tooltip/header"
+msgstr "Προβολή πιθανότητας"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "ΣΥΓΧΑΡΗΤΗΡΙΑ! \n ΣΑΣ ΑΠΟΝΕΜΗΘΗΚΑΝ ΟΛΑ ΤΑ ΕΠΑΘΛΑ"
+
+msgid "main/footer/button"
+msgstr "Αγορά"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Δώρο κυψέλης"
+
+msgid "main/footer/receive"
+msgstr "Σας απονεμήθηκαν: {{item}}"
+
+msgid "main/header/description"
+msgstr "Λάβετε μέρος στη διοργάνωση από {{startDate}} έως {{endDate}} και διεκδικήστε όλα τα δώρα!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Στοιχεία Προσαρμογής"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Τεχνοτροπία"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Όχημα"
+
+msgid "notifications/specialReward/title"
+msgstr "Το Κύριο Έπαθλο Του {{eventName}} Είναι Δικό Σας!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Πρόσθετα έπαθλα:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Απονεμήθηκαν:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Η λειτουργία αυτή δεν είναι διαθέσιμη προσωρινά για τεχνικούς λόγους. Προσπαθήστε ξανά αργότερα."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Στη Διοργάνωση"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "Το %(eventName)s θα τελειώσει σύντομα!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Διαθεσιμότητα έως: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "Ανοίχτηκε κυψέλη του %(eventName)s"
+
+msgid "tooltips/entry/description"
+msgstr "Το έπαθλο σας περιμένει. Όταν αγοράζετε bonds, θα λαμβάνετε ένα δώρο ανοίγοντας μία νέα κυψέλη κάθε φορά. Μόλις μία κυψέλη ανοιχτεί, δεν μπορεί να ανοιχτεί ξανά, ενώ οι πιθανότητες απόκτησης των υπόλοιπων επάθλων αυξάνονται."
+
+msgid "tooltips/entry/timer"
+msgstr "Διαθεσιμότητα για ακόμη {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Σχετικά Με Τη Διοργάνωση"
+
+msgid "tooltips/steps/description"
+msgstr "Με κάθε αγορά, λαμβάνετε περισσότερα {{currency}}. Η ποσότητα αυξάνεται σταδιακά σε συγκεκριμένα βήματα."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} για Κάθε Βήμα"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Βήματα:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

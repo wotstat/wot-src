@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "backButton/label"
+msgstr "ATGAL"
+
+msgid "backButton/to"
+msgstr "Į PASKYROS STATUSĄ"
+
+msgid "filteredMapsDisplayed"
+msgstr "Rodomi žemėlapiai: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Rodyti/slėpti šio tipo žemėlapius."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Dykumų žemėlapiai"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Vasaros žemėlapiai"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Žiemos žemėlapiai"
+
+msgid "header/cooldown"
+msgstr "Jūs galėsite vėl pakeisti žemėlapį po %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Išimti žemėlapiai"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Jūs galite pakeisti šį žemėlapį praėjus tam tikram laikui."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Žemėlapio keitimas negalimas"
+
+msgid "mapTile/hoverExclude"
+msgstr "Išimti žemėlapį %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Išimti"
+
+msgid "mapTile/hoverInclude"
+msgstr "Įtraukti žemėlapį %(mapName) į Atsitiktinius mūšius?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Įtraukti"
+
+msgid "mapsFilterLabel"
+msgstr "Žemėlapių tipai:"
+
+msgid "notSelected"
+msgstr "Nepasirinkta"
+
+msgid "premium"
+msgstr "WoT Premium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Papildoma vieta galima tik turint aktyvią WoT Premium paskyrą ar WoT Plus prenumeratą."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Atrakinkite jį su WoT Premium paskyra."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Atrakinkite jį su WoT Plus paskyra."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Pasirinkite žemėlapį iš sąrašo norėdami pakeisti ir išimti jį iš Atsitiktinių mūšių režimo."
+
+msgid "slot/selectTooltipBody"
+msgstr "Pasirinkite žemėlapį iš sąrašo norėdami išimti jį iš Atsitiktinių mūšių režimo."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Galima vieta"
+
+msgid "totalMapsDisplayed"
+msgstr "Rodomi žemėlapiai: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Išmeskite dar 1 žemėlapį su %(linkPremium) ir dar %(mapCount)s su %(linkWotPlus)."
+msgstr[1] "Išmeskite dar 1 žemėlapį su %(linkPremium) ir dar %(mapCount)s su %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Išmeskite dar 1 žemėlapį su %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Išmeskite dar %(mapCount)s žemėlapį su %(linkWotPlus)."
+msgstr[1] "Išmeskite dar %(mapCount)s žemėlapius su %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WoT Plus"

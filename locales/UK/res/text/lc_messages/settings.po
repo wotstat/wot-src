@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Згладжування"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Визначає ступінь додаткового опрацювання тонких ліній і обрисів об’єктів ігрової сцени, мінімізуючи ефект «сходинок».\n\n• Високо — FXAA\n• Максимум — Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Динамічна зміна"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Увімкнути чи вимкнути автоматичне регулювання роздільної здатності 3D рендеру залежно від навантаження на відеокарту.\n\nУвімкнення налаштування допомагає зберегти швидкодію гри, водночас у Гаражі роздільна здатність рендеру завжди залишається незмінною."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Якість дод. ефектів"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Визначає якість відтворення іскор від рикошетів, вибухів, диму та інших візуальних ефектів.\n\nЗменшене значення параметра може підвищити швидкодію гри."
+
+msgid "FAR_PLANE"
+msgstr "Дальність промальовування"
+
+msgid "FAR_PLANE/description"
+msgstr "Визначає дистанцію відтворення деталей рельєфу, будівель, машин супротивника та інших ігрових об’єктів."
+
+msgid "FLORA_QUALITY"
+msgstr "Кількість трави"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Визначає кількість трави, яку показує в аркадному і снайперських прицілах."
+
+msgid "HAVOK_ENABLED"
+msgstr "Поліпшена фізика руйнувань"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "Вимкнено"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "Увімкнено"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Детальніше і достовірніше опрацьовує поведінку об’єктів, що руйнуються на мапах.\n\nВимкнений параметр може підвищити швидкодію гри."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Налаштування набуде чинності з наступного бою, якщо у цьому бою воно було вимкнено."
+
+msgid "LANGUAGE_CODE"
+msgstr "uk"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Якість освітлення"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Точність розрахунку освітлення, сонячних променів і оптичних ефектів.\n\nЗбільшене значення параметра значно збільшує навантаження на відеокарту."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Якість «розмиття» в русі"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Визначає якість ефекту «розмиття» зображення під час руху машини і поворотах камери."
+
+msgid "MSAA_QUALITY"
+msgstr "Згладжування"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Визначає ступінь додаткового опрацювання тонких ліній і обрисів об’єктів ігрової сцени, мінімізуючи ефект «сходинок»:\n\n• низько — MSAA 2x;\n• середньо — MSAA 4x;\n• високо — MSAA 8x."
+
+msgid "OBJECT_LOD"
+msgstr "Деталізація об’єктів"
+
+msgid "OBJECT_LOD/description"
+msgstr "Визначає кількість відтворюваних об’єктів та їхню якість."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Подальше оброблення"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Визначає якість постефектів: гарячого повітря і ударної хвилі, хроматичної аберації, віньєтування, ефекту зернистості плівки тощо.\n\nЗменшене значення параметра може підвищити швидкодію гри."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Графіка"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Поліпшена: дозволяє досягти максимальної якості зображення.\n\nСпрощена: дозволяє досягти максимальної швидкодії, спрощуючи або вимикаючи деякі візуальні ефекти."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Графіка:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Зміни параметра набудуть чинності після перезапуску гри."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Прозорість листя"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Показує листя на найближчих деревах та кущах.\n\nВимкнений параметр повністю приховує листя з найближчих дерев та кущів і може підвищити швидкодію гри."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Версія шейдерів"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Якість тіней"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Визначає якість оброблення динамічних тіней на всю дистанцію промальовування.\n\nЗменшене значення параметра може значно підвищити швидкодію гри."
+
+msgid "SMOKE_ENABLED"
+msgstr "Дим"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Дод. ефекти в снайперському режимі"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Визначає якість відтворення іскор від рикошетів, вибухів, диму та інших реалістичних ефектів в снайперському режимі.\n\nЗменшене значення параметра може підвищити швидкодію гри."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Трава в снайперському режимі"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Показує траву в снайперському режимі.\n\nВимкнений параметр може підвищити швидкодію гри."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Теселяція ландшафту у снайперському режимі"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "У снайперському режимі збільшує деталізацію ландшафту в радіусі до 50 метрів від вашої машини. Працює лише з увімкненим налаштуванням «Теселяція ландшафту».\n\nВимкнений параметр може підвищити швидкодію гри."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Деталізація рослинності"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Визначає якість промальовування дерев, кущів і трави."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Якість ландшафту"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Визначає якість промальовування деталей рельєфу мапи.\n\nВикористовуйте мінімальну якість ландшафту лише у випадку низької продуктивності вашого комп’ютера.\n\nЗменшене значення параметра може призвести до розсинхронізації відтворення ландшафту між клієнтом гри та сервером."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Застосування зазначеного параметра може тривати довгий час."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Теселяція ландшафту"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Апаратно пришвидшений процес додавання нових трикутників в полігональну решітку з метою підвищення її деталізації.\n\nПрацює лише з такими налаштуваннями:\n• графіка — поліпшена;\n• якість ландшафту — висока, максимальна чи ультра;\n• наявний DirectX 11.\n\nЯкщо у вас встановлено DirectX, старіший за 11-ту версію, то змінити це налаштування буде неможливо.\n\nВимкнений параметр може підвищити швидкодію гри."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Якість текстур"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Деталізує поверхні ігрових об’єктів, особливо під час близького розглядання.\n\nЗменшене значення параметра може підвищити швидкодію гри."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Застосування зазначеного параметра може тривати довгий час."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Фізика гусеничних стрічок"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Визначає якість фізичної симуляції поведінки гусеничних стрічок у справному та розірваному станах, а також деталізацію власне гусениці.\n\nЗменшення значення / вимкнення параметра може підвищити швидкодію гри."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Ефекти з-під гусениць та коліс"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Показувати ґрунт, сніг та бризки води, що вилітають з-під гусениць та коліс.\n\nВимкнений параметр може підвищити швидкодію гри."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Сліди гусениць та коліс"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Показує сліди від гусениць і коліс на землі.\n\nНедоступно при спрощеній графіці й низькій якості деколей."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Приховати 3D-обвіси в снайперському режимі"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Тимчасово приховує 3D-обвіси в прицілі снайперського режиму.\n\nЗменшує візуальний шум і поліпшує точність прицілювання."
+
+msgid "WATER_QUALITY"
+msgstr "Якість води"
+
+msgid "WATER_QUALITY/description"
+msgstr "Визначає якість промальовування водних поверхонь."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Лише слабке бронювання"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Якщо ввімкнено, підсвітка показує лише слабку броню цілі.\n\nБроня з високим шансом пробиття — яскраво-зелена, із середнім шансом — напівпрозоро зелена. Кольори можуть відрізнятися в режимі колірної сліпоти."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Підсвічувати лише слабку броню"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Лише міцне бронювання"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Якщо ввімкнено, підсвітка показує лише міцну броню цілі.\n\nБроня з низьким або нульовим шансом пробиття — яскраво-червона, із середнім шансом — напівпрозоро червона. Кольори можуть відрізнятися в режимі колірної сліпоти."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Підсвічувати лише міцну броню"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Уся броня"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Якщо ввімкнено, підсвітка показує всю броню цілі.\n\nБроня з низьким або нульовим шансом пробиття — червона, з високим шансом пробиття — зелена, із середнім шансом — жовта. Кольори можуть відрізнятися в режимі колірної сліпоти."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Підсвічувати всю броню"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Підсвітка броні"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Увімкнути на початку бою"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Стандартний стан підсвітки на початку бою. Ви можете вмикати або вимикати її в будь-який момент призначеною клавішею.\n\nПрацює лише в снайперському режимі.\n\nПідтримувані режими гри: \n• Випадкові й Тренувальні бої\n• Лінія фронту\n• Аркада\n• Натиск\n• Деякі інші режими й події.\n\nУ майбутньому може з'явитися підтримка додаткових режимів."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Увімкнути на початку бою"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Текстура підсвітки"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Суцільна"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Рідкий візерунок"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Щільний візерунок"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Прозорість"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Попередження про продукт-сть"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Високо"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Низько"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Середньо"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Роздільність підсвітки"
+
+msgid "aim/cassette"
+msgstr "Касети"
+
+msgid "aim/centralTag"
+msgstr "Центральний маркер"
+
+msgid "aim/centralTag/type0"
+msgstr "A-подібний I"
+
+msgid "aim/centralTag/type1"
+msgstr "A-подібний II"
+
+msgid "aim/centralTag/type10"
+msgstr "O-подібний I"
+
+msgid "aim/centralTag/type11"
+msgstr "O-подібний II"
+
+msgid "aim/centralTag/type12"
+msgstr "A-подібний IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A-подібний V"
+
+msgid "aim/centralTag/type2"
+msgstr "A-подібний III"
+
+msgid "aim/centralTag/type3"
+msgstr "V-подібний"
+
+msgid "aim/centralTag/type4"
+msgstr "Перехрестя I"
+
+msgid "aim/centralTag/type5"
+msgstr "Перехрестя II"
+
+msgid "aim/centralTag/type6"
+msgstr "T-подібний"
+
+msgid "aim/centralTag/type7"
+msgstr "I-подібний"
+
+msgid "aim/centralTag/type8"
+msgstr "Крапка I"
+
+msgid "aim/centralTag/type9"
+msgstr "Крапка II"
+
+msgid "aim/condition"
+msgstr "Стан"
+
+msgid "aim/gunTag"
+msgstr "Маркер гармати"
+
+msgid "aim/gunTag/type0"
+msgstr "A-подібний I (з індикатором пробивання броні)"
+
+msgid "aim/gunTag/type1"
+msgstr "A-подібний II (з індикатором заряджання)"
+
+msgid "aim/gunTag/type10"
+msgstr "O-подібний II (з індикатором заряджання)"
+
+msgid "aim/gunTag/type11"
+msgstr "O-подібний III"
+
+msgid "aim/gunTag/type12"
+msgstr "A-подібний IV (з індикатором пробивання броні)"
+
+msgid "aim/gunTag/type13"
+msgstr "A-подібний V (з індикатором заряджання)"
+
+msgid "aim/gunTag/type14"
+msgstr "A-подібний VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A-подібний III"
+
+msgid "aim/gunTag/type3"
+msgstr "Перехрестя I (з індикатором пробивання броні)"
+
+msgid "aim/gunTag/type4"
+msgstr "Перехрестя II (з індикатором заряджання)"
+
+msgid "aim/gunTag/type5"
+msgstr "Перехрестя III"
+
+msgid "aim/gunTag/type6"
+msgstr "Крапка I (з індикатором пробивання броні)"
+
+msgid "aim/gunTag/type7"
+msgstr "Крапка II (з індикатором заряджання)"
+
+msgid "aim/gunTag/type8"
+msgstr "Крапка III"
+
+msgid "aim/gunTag/type9"
+msgstr "O-подібний I (з індикатором пробивання броні)"
+
+msgid "aim/mixing"
+msgstr "Зведення"
+
+msgid "aim/mixing/type0"
+msgstr "Коло I (з індикатором заряджання, що заповнюється) "
+
+msgid "aim/mixing/type1"
+msgstr "Коло II (з індикатором заряджання, що перемикається)"
+
+msgid "aim/mixing/type2"
+msgstr "Коло III (без індикатору заряджання)"
+
+msgid "aim/mixing/type3"
+msgstr "Коло IV (суцільний)"
+
+msgid "aim/mixing/type4"
+msgstr "Перехрестя (з індикатором, що перемикається)"
+
+msgid "aim/mixing/type5"
+msgstr "Перехрестя II"
+
+msgid "aim/mixing/type6"
+msgstr "Тестовий"
+
+msgid "aim/net"
+msgstr "Індикатор"
+
+msgid "aim/net/type0"
+msgstr "Діагональний"
+
+msgid "aim/net/type1"
+msgstr "Горизонтальний"
+
+msgid "aim/net/type2"
+msgstr "Радіальний"
+
+msgid "aim/net/type3"
+msgstr "Пунктирний"
+
+msgid "aim/reloader"
+msgstr "Перезаряджання"
+
+msgid "aim/reloaderTimer"
+msgstr "Таймер заряджання"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Перехід в артилерійський приціл"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Останній, що використовувався"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Вид зверху"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Альтернативний приціл"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Автоматична зміна режиму прицілювання"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Під час обертання колеса миші після досягнення певної міри наближення приціл автоматично перейде в режим «зверху» або «від траєкторії»."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Автоматична зміна режиму прицілювання"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Плавне наближення та віддалення камери"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Показувати індикатори прострілу"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Увімкнення чи вимкнення індикаторів, що показують, чи долетить вибраний снаряд до точки прицілювання. Індикатори також відображають час польоту снаряда."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Індикатори прострілу"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Показувати індикатор розташування камери"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Увімкнення чи вимкнення індикатора, що відображає рівень наближення/віддалення камери в артилерійському прицілі."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Індикатор розташування камери"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Керування камерою"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Альтернативне"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Стандартне"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "У стандартному режимі керування камера пересувається вгору, вниз, ліворуч і праворуч. В альтернативному режимі керування камера пересувається вперед, назад і повертається навколо місця розташування САУ."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Керування камерою"
+
+msgid "aim/x2"
+msgstr "×2"
+
+msgid "aim/zoomIndicator"
+msgstr "Індикатор наближення"
+
+msgid "alternativeVoices/labels"
+msgstr "Голосові повідомлення у бою"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Голос повідомлень у бою"
+
+msgid "apply_button"
+msgstr "Застосувати"
+
+msgid "autodetectButton"
+msgstr "Пропонована"
+
+msgid "autodetectButton/description"
+msgstr "Визначення оптимальної якості графіки для вашого комп’ютера.\n\nМоже тривати деякий час."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Отримувати подяки в бою"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Показувати особисті команди"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Показувати комунікацію на панелі команди"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Показувати маркери позицій на мапі"
+
+msgid "battlecomm/showMarkers"
+msgstr "Показувати маркери баз у Випадкових боях"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Показувати закріплені маркери"
+
+msgid "borderlessSize"
+msgstr "Віконний (без рамки)"
+
+msgid "borderlessSize/description"
+msgstr "Віконний (без рамки)"
+
+msgid "cancel_button"
+msgstr "Скасувати"
+
+msgid "chat/censorshipMessages"
+msgstr "Увімкнути цензуру повідомлень"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Приймати повідомлення лише зі списку контактів"
+
+msgid "chat/disableBattleChat"
+msgstr "Вимкнути чат із союзниками"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Запам’ятовувати положення і розміри вікон каналів"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Запам’ятовувати положення і розміри інших вікон"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Приймати запрошення в Гаражі лише від друзів"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Отримувати повідомлення пов’язані з кланом"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Приймати запити на додавання в «Друзі»"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Приймати запрошення до взводу в бою"
+
+msgid "chat/removeSpam"
+msgstr "Приховувати спам"
+
+msgid "chat/showDateMessage"
+msgstr "Показувати дату повідомлення"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Показувати приєднання/від’єднання гравців"
+
+msgid "chat/showTimeMessage"
+msgstr "Показувати час повідомлення"
+
+msgid "colorCorrection"
+msgstr "Корекція кольору"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Налаштувати"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Власні налаштування"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Яскравість"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Контрастність"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Насиченість"
+
+msgid "colorSettings/tab/default"
+msgstr "За замовчуванням"
+
+msgid "colorSettings/tab/filters"
+msgstr "Готові фільтри"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Інтенсивність фільтра"
+
+msgid "colorSettings/view/after"
+msgstr "Буде"
+
+msgid "colorSettings/view/before"
+msgstr "Було"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "ЗАКРИТИ"
+
+msgid "colorSettings/view/description"
+msgstr "Виберіть один з методів налаштування зображення"
+
+msgid "colorSettings/view/header"
+msgstr "Корекція кольору"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Скинути"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Способи налаштування"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Аркадний"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Підсвітка броні"
+
+msgid "cursor/ArtyTitle"
+msgstr "Артилерійський"
+
+msgid "cursor/ContourTitle"
+msgstr "Облямівка"
+
+msgid "cursor/ServerAim"
+msgstr "Використовувати серверний приціл"
+
+msgid "cursor/SnipperTitle"
+msgstr "Снайперський"
+
+msgid "cursor/contour/type0"
+msgstr "Стандартна"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Під час наведення прицілу на машину обводиться весь контур, включно з навісними неброньовими елементами, з якими не можуть взаємодіяти снаряди."
+
+msgid "cursor/contour/type1"
+msgstr "Спрощена"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Під час наведення прицілу на машину обводиться частина її контуру, що містить броньові елементи, з якими можуть взаємодіяти снаряди."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Зона, що не прострілюється"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Немає"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Заливка"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Текстура"
+
+msgid "cursor/contourLabel"
+msgstr "Тип облямівки"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Зона, що прострілюється"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Немає"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Заливка"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Текстура"
+
+msgid "cursor/overlapContour"
+msgstr "Промальовування укриттів"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Увімкнення промальовування може знизити продуктивність."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Показ перешкод для снаряда під час наведення прицілу на машину супротивника.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Промальовування укриттів"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Промальовування укриттів"
+
+msgid "cursorTitle"
+msgstr "Приціл"
+
+msgid "defaultBtn"
+msgstr "За замовчуванням"
+
+msgid "defaultNamePrefix"
+msgstr "Гравець"
+
+msgid "dynamicCamera"
+msgstr "Увімкнути динамічну камеру"
+
+msgid "dynamicFov"
+msgstr "Динамічний FoV"
+
+msgid "dynamicFov/description"
+msgstr "Динамічний FoV дозволяє встановити мінімальний і максимальний кут огляду в аркадному прицілі.\n\nМаксимальний кут використовується у разі віддалення камери від власної машини.\n\nМінімальний кут використовується у разі наближення."
+
+msgid "dynamicRenderer"
+msgstr "Роздільна здатність 3D рендеру"
+
+msgid "dynamicRenderer/description"
+msgstr "Визначає якість і детальність відтворення ігрової сцени.\n\nВикористовуйте поєднання клавіш [RShift +] та [RShift -], щоб змінити роздільну здатність 3D рендеру в бою. Не впливає на інтерфейс.\n\nЗменшене значення параметра може підвищити швидкодію гри на комп’ютерах зі слабкою відеокартою."
+
+msgid "edgeDetectAA"
+msgstr "Edge detect AA"
+
+msgid "feedBack"
+msgstr "Інформування в бою"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Межа мапи"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Допомога оглушенням екіпажу"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Очки захоплення бази"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Очки захисту бази"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Удар стримано"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Підпал супротивника"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Критична шкода"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Виявлення супротивника"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Шкода за розвідданими"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Шкода пострілом"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Знищення супротивника"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Шкода, завдана тараном"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Збиття гусениці"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Назва події"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Критичне пошкодження"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Шкода"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Показувати у бою"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Інформація про машину"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Шкода від падіння"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Усі навички ситуативної дії"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "В бою показуються\n3 останні події"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Події у бою"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Інформування"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Події"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Навички екіпажу"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Отримана шкода"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Бойова ефективність"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Отримано шкоду"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Прихована межа мапи може дезорієнтувати вас у бою."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Після натискання на Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Завжди підсвічується"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Не підсвічувати"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Під час наближення"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Додаткове підсвічування"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Пунктир"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Не показувати"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Вид межі"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Стіна"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Індикатор обстрілу"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Дружній вогонь"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Одиниць\nшкоди"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Влучення у вашу машину заблоковано"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Критичне влучення\nу вашу машину"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "×3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Отримана шкода"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Пошкоджений\nмодуль"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Інформація"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Анімація появи"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Одиниць шкоди"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Динамічні індикатори"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Інформація про машину"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Показувати у бою"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Повністю"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Дружній вогонь"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Критичні влучення"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Без критичних"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Докладний"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Стандартний"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Тип"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Історія подій"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Завдана техніці, якій ви оглушили екіпаж"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Заблокована бронею"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Завдана за вашою допомогою"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Завдана особисто"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Показувати завжди"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Після натискання на Alt"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Не показувати"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Докладна шкода"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Всі події унизу"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Показувати лог шкоди вгорі"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Розташування подій"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Всі події"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Тип події"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Отримана шкода"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Бойова ефективність"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "×2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "×2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Не радимо вмикати це налаштування\nдля екранів із низькою роздільною здатністю"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Сумарна шкода"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Блок докладних ушкоджень. Показує повну інформацію про вашу ефективність у бою."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Події у бою"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Бойовий звіт й ОБЗ"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Панель рахунку"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Подробиці ОБЗ"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Групувати значки\nтехніки за рівнем"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Шкала міцності команд"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Різниця між очками\nміцності команд"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Очки міцності команд"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Показувати все"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Лише прогрес"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Альтернативний"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Не показувати"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Стандартний"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Показ ОБЗ"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "×2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Кут огляду (FoV)"
+
+msgid "fov/description"
+msgstr "Межі видимості ігрової камери.\n\nЗвичний для людини кут огляду — приблизно 95°. Що кут менший, то ближчими стають об’єкти, але периферійний огляд через це зменшується.\n\nНе впливає на швидкодію гри."
+
+msgid "game/anonymizer"
+msgstr "Приховувати ім’я в бою"
+
+msgid "game/battleLoadingInfo"
+msgstr "Підказки на екрані завантаження бою"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Міні-мапа"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Лише текст"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "З ілюстрацією"
+
+msgid "game/battlePanelSettings"
+msgstr "Бойовий інтерфейс"
+
+msgid "game/carouselType"
+msgstr "Панель техніки"
+
+msgid "game/carouselType/double"
+msgstr "Дворівнева"
+
+msgid "game/carouselType/single"
+msgstr "Однорівнева"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Показати статистику, коли курсор наведений на слот"
+
+msgid "game/commanderCamEnabled"
+msgstr "Увімкнути тактичний огляд"
+
+msgid "game/customizationDisplayType"
+msgstr "Показ елементів зовнішнього вигляду в бою"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Історичні, неісторичні та вигадані"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Історичні"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Історичні та неісторичні"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Показувати техніку співвзводних у Гаражі"
+
+msgid "game/doubleCarousel/label"
+msgstr "Дворівнева панель техніки"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Що адаптується"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Мінімалістична"
+
+msgid "game/dynamicCamera"
+msgstr "Увімкнути динамічну камеру"
+
+msgid "game/enableBattleNotifier"
+msgstr "Показувати результати попереднього бою в чаті"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Увімкнути пост-ефект після смерті"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Увімкнути ефект оптики в снайперському режимі"
+
+msgid "game/enableRepairTimer"
+msgstr "Показувати час ремонту пошкоджених модулів"
+
+msgid "game/enableSpeedometer"
+msgstr "Показувати спідометр колісної техніки"
+
+msgid "game/enableVoIP"
+msgstr "Голосовий зв’язок"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Комунікація в бою"
+
+msgid "game/fieldset/headerChat"
+msgstr "Чат"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Міні-мапа"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Маркери техніки"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Анімація Гаража під час руху курсора миші"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Обертання Гаража у разі бездіяльності через"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Анімація камери в Гаражі"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Ніколи"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 секунд"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 секунд"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 секунд"
+
+msgid "game/horStabilizationSnp"
+msgstr "Горизонтальна стабілізація в снайперскому режимі"
+
+msgid "game/hullLockEnabled"
+msgstr "Вимкнути доворот корпусу снайперського режиму"
+
+msgid "game/increasedZoom/base"
+msgstr "Увімкнути кратність наближення %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " та "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "×%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Показувати вибір сервера під час запуску гри"
+
+msgid "game/minimapDrawRange"
+msgstr "Показувати коло візуалізації техніки"
+
+msgid "game/minimapGroupTitle"
+msgstr "Мінімапа"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Показувати максимальне коло огляду"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Показувати коло виявлення (т. з. «рентген»)"
+
+msgid "game/minimapViewRange"
+msgstr "Показувати коло огляду"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Підказки"
+
+msgid "game/newbieBattleHints"
+msgstr "Увімкнути підказки для початківців у Випадкових боях"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Увімкнути підказки на екрані завантаження бою"
+
+msgid "game/optimizeGraphics"
+msgstr "Оптимізувати промальовування інтерфейсу"
+
+msgid "game/playersPanelState/large"
+msgstr "Довга"
+
+msgid "game/playersPanelState/medium"
+msgstr "Середня"
+
+msgid "game/playersPanelState/none"
+msgstr "Не показувати список"
+
+msgid "game/playersPanelState/short"
+msgstr "Коротка"
+
+msgid "game/postmortemMode"
+msgstr "Режим посмертя"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Показати мить знищення вашої техніки (докладно)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Показати супротивника, що знищив вашу техніку"
+
+msgid "game/postmortemMode/self"
+msgstr "Показати вашу машину"
+
+msgid "game/postmortemMode/simple"
+msgstr "Показати мить знищення вашої техніки (стисло)"
+
+msgid "game/ppShowLevels"
+msgstr "Показувати рівень техніки"
+
+msgid "game/ppShowTypes"
+msgstr "Показувати тип техніки"
+
+msgid "game/ppStartStateLabel"
+msgstr "Тип"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Увімкнути командирську камеру"
+
+msgid "game/replayEnabled"
+msgstr "Записувати бої"
+
+msgid "game/replayEnabled/all"
+msgstr "Всі"
+
+msgid "game/replayEnabled/last"
+msgstr "Останній"
+
+msgid "game/replayEnabled/none"
+msgstr "Ні"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Показувати область обстрілу САУ супротивника"
+
+msgid "game/showDamageIcon"
+msgstr "Показувати причини відсутності шкоди"
+
+msgid "game/showDogTag"
+msgstr "Показувати жетон"
+
+msgid "game/showDogTagToKiller"
+msgstr "Показувати ваш налаштовуваний жетон"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Показувати підписи для знищеної техніки"
+
+msgid "game/showKillersDogTag"
+msgstr "Показати жетон гравця, який знищив вашу машину"
+
+msgid "game/showLanguageBar"
+msgstr "Показувати панель вибору мови"
+
+msgid "game/showMarksOnGun"
+msgstr "Показувати відмітні позначки"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Показувати ваш анімований жетон"
+
+msgid "game/showSectorOnMap"
+msgstr "Показувати сектор обстрілу САУ"
+
+msgid "game/showVectorOnMap"
+msgstr "Показувати вектор напрямку камери"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Увімкнути додаткові можливості міні-мапи"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Після натискання на Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Постійно"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Ніколи"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Показувати міцність машин на мінімапі"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Після натискання на Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Постійно"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Ніколи"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Показувати міцність машин на панелі команд"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Після натискання на Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Постійно"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Ніколи"
+
+msgid "game/showVehicleIcon"
+msgstr "Показувати іконку техніки"
+
+msgid "game/showVehicleLevel"
+msgstr "Показувати рівень техніки"
+
+msgid "game/showVehiclesCounter"
+msgstr "Показувати маркери техніки на панелі рахунку"
+
+msgid "game/showVictimsDogTag"
+msgstr "Показувати жетон знищеного вами гравця"
+
+msgid "game/sniperModeByShift"
+msgstr "Перемикати у снайперський режим лише клавішею Shift"
+
+msgid "game/sniperZoom"
+msgstr "Кратність наближення в снайперському режимі"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Остання"
+
+msgid "game/switchEquipment"
+msgstr "Перемикання комплектів на екрані завантаження"
+
+msgid "game/w2gtEnable"
+msgstr "Увімкнути бойові зони на мінімапі"
+
+msgid "gameTitle"
+msgstr "Гра"
+
+msgid "gameplay/devMaps"
+msgstr "Грайте на мапах із випадковими подіями"
+
+msgid "gameplay/nations"
+msgstr "Протистояння"
+
+msgid "gamma"
+msgstr "Гама"
+
+msgid "gammaBtn/label"
+msgstr "Налаштувати"
+
+msgid "gammaWizard/apply"
+msgstr "Застосувати"
+
+msgid "gammaWizard/cancel"
+msgstr "Скасувати"
+
+msgid "gammaWizard/closeBtn"
+msgstr "ЗАКРИТИ"
+
+msgid "gammaWizard/default"
+msgstr "За замовчуванням"
+
+msgid "gammaWizard/description"
+msgstr "Пересувайте повзунок, поки фон і логотип набудуть однакову яскравість. Примружтеся або віддаліться від монітора, щоб деталі зображення стали ледь помітні."
+
+msgid "gammaWizard/header"
+msgstr "Гама"
+
+msgid "gammaWizard/title"
+msgstr "Налаштування гами"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Дозволяє відрегулювати яскравість у грі до оптимального\nзначення. Ця функція потрібна, щоб\nкомпенсувати вплив драйвера відеокарти і налаштувань\nекрана на зображення."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Гама"
+
+msgid "graficTitle"
+msgstr "Графіка"
+
+msgid "graphics/block/effects"
+msgstr "Ефекти"
+
+msgid "graphics/block/greenery"
+msgstr "Рослинність"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Ландшафт і вода"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Освітлення і подальше оброблення"
+
+msgid "graphics/block/main"
+msgstr "Основні"
+
+msgid "graphics/tabAdvanced"
+msgstr "Докладні"
+
+msgid "graphics/tabScreen"
+msgstr "Екран"
+
+msgid "graphicsQuality"
+msgstr "Якість графіки"
+
+msgid "graphicsQuality/description"
+msgstr "Визначає загальну якість зображення. Впливає на значення параметрів вкладки «Докладні».\n\nЗменшення якості графіки:\n• підвищує швидкодію гри;\n• може призвести до розсинхронізації відтворення ландшафту між клієнтом гри та сервером.\n\nВикористовуйте мінімальну якість графіки лише у випадку низької продуктивності вашого комп’ютера."
+
+msgid "graphicsQualityHDSD"
+msgstr "Типи клієнтів гри"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "Установлено HD клієнт"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Встановлено Стандартний клієнт гри (SD)"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Стандартний клієнт гри — повна версія гри, за винятком текстур максимальної роздільної здатності.\n\nHD клієнт гри — повна версія гри, що містить текстури максимальної роздільної здатності. Потребує більше місця на жорсткому диску."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Типи клієнтів гри"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD клієнт гри — повна версія гри, що включає текстури максимальної роздільної здатності. Потребує більше місця на жорсткому диску.\n\nСтандартний (SD) — повна версія гри, за винятком текстур максимальної роздільної здатності."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Налаштування якості графіки «Максимум» (SD) і «Ультра» (SD) не забезпечують максимального значення параметра «Якість текстур». Щоб досягти максимальної якості графіки, перемкніть на HD клієнт гри у лончері гри."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Анізотропна 16х"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Анізотропна 2х"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Анізотропна 4х"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Анізотропна 8х"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Білінійна"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Користувацька"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "Плівка 40-х рр."
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Контрастний"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Поліпшена"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Далеко"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Стандартна"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Високо"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Низько"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Дуже низько"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Максимум"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Максимум (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Середньо"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Мінімум"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Приглушений"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Близько"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "Вимкнено"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "Вимкнено"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "Увімкнено"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Спрощена"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Поліпшена"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Крапкова"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Фотохроматичний"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Випадковий"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Стандартно"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Насичений"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "М’які кольори"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Трилінійна"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ультра"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ультра (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Дуже високо"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Дуже високо"
+
+msgid "igbHardwareAcceleration"
+msgstr "Апаратне пришвидшення браузера"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Якщо ввімкнути це налаштування, для візуалізації вебвмісту використовуватиметься відеокарта замість центрального процесора.\n\nВимкніть, якщо виникають проблеми з візуалізацією вмісту деяких вікон.\n\nЗміна набуде чинності після перезавантаження клієнта гри."
+
+msgid "interfaceScale"
+msgstr "Масштабування інтерфейсу"
+
+msgid "interfaceScale/attention"
+msgstr "Налаштування працює в тестовому режимі\nта не впливає на швидкість гри."
+
+msgid "interfaceScale/body"
+msgstr "Автоматично збільшувати елементи інтерфейсу,\nякщо збільшується екран/вікно гри."
+
+msgid "interfaceScale/description"
+msgstr "Автоматично збільшувати елементи інтерфейсу, якщо збільшується екран/вікно гри."
+
+msgid "interfaceScale/header"
+msgstr "Масштабування інтерфейсу"
+
+msgid "interfaceScale/warning"
+msgstr "Налаштування працює в тестовому режимі та не впливає на швидкість гри."
+
+msgid "interfaceScaleDisabled"
+msgstr "Масштабування інтерфейсу"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Лише для 4K моніторів."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Автоматично збільшувати елементи інтерфейсу,\nякщо збільшується екран/вікно гри."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Автоматично збільшувати елементи інтерфейсу, якщо збільшується екран/вікно гри."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Масштабування інтерфейсу"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Лише для 4K моніторів."
+
+msgid "isColorBlind"
+msgstr "Режим колірної сліпоти"
+
+msgid "isColorBlind/description"
+msgstr "Адаптує палітру кольорів для людей з вадами кольоросприйняття."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Інверсія під час заднього ходу"
+
+msgid "keyboard/keyboard"
+msgstr "Клавіатура"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Так!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Змінити режим прицілу"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Зафіксувати корпус / змінити режим"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Назад"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Назад"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "«Ручне гальмо»"
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Вниз"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Ліворуч"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Праворуч"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Вгору"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Здійснити залп"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Відступай!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Зробити постріл"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Вперед"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Вперед"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Самознищення на Лінії фронту"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Допоможіть!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Позначити позицію"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Позначити як активну ціль"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Спорядження 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Спорядження 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Спорядження 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Спорядження 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Спорядження 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Спорядження 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Спорядження 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Спорядження 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Спорядження 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Спорядження 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Ліворуч"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Автоприціл"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Вимкнути автоприціл"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Ні!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Активація мікрофона"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Перезарядити касету"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Перезаряджання!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Праворуч"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Приховати бойовий інтерфейс"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Активація особистих резервів"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Прогрес ОБЗ"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Меню наказів / Підтвердження команди"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Зменшити розмір"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Збільшити розмір"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Спеціальне вміння"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Зупинитися для пострілу"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Дякую!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Перемкнути підсвітку броні"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Альтернативний приціл"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Подати звуковий сигнал"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Приховати/Показати"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Увімк./вимк. голосовий звя’зок у динамічних взводах"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Камера"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Круїз-контроль"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Спорядження"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Стрільба"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Міні-мапа"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Рух"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Повідомлення"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Комунікація з командою"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Інше"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Голосовий зв’язок"
+
+msgid "keyboard/mouse"
+msgstr "Миша"
+
+msgid "keyboardTitle"
+msgstr "Керування"
+
+msgid "limitedUI/desc"
+msgstr "Поступова поява прихованих інтерфейсів у Гаражі"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Вимкнути"
+
+msgid "marker/AllyTitle"
+msgstr "Союзники"
+
+msgid "marker/DeadTitle"
+msgstr "Знищені"
+
+msgid "marker/EnemyTitle"
+msgstr "Супротивник"
+
+msgid "marker/aimMarker2D"
+msgstr "Маркер автоприцілу"
+
+msgid "marker/alt"
+msgstr "Альтернативний"
+
+msgid "marker/base"
+msgstr "Звичайний"
+
+msgid "marker/damage"
+msgstr "Отримана шкода"
+
+msgid "marker/dead"
+msgstr "Маркер знищеної техніки"
+
+msgid "marker/hp"
+msgstr "Міцність техніки"
+
+msgid "marker/hp/type0"
+msgstr "Відсотки %"
+
+msgid "marker/hp/type1"
+msgstr "HP залишилося / разом"
+
+msgid "marker/hp/type2"
+msgstr "HP залишилося"
+
+msgid "marker/hp/type3"
+msgstr "Не показувати"
+
+msgid "marker/hpIndicator"
+msgstr "Індикатор міцності цілі"
+
+msgid "marker/icon"
+msgstr "Іконка техніки"
+
+msgid "marker/level"
+msgstr "Рівень техніки"
+
+msgid "marker/level/tooltip/body"
+msgstr "В разі увімкненого налаштування показує над машиною її рівень.\n\nУ режимі «Сталевий мисливець» показує поточний рівень поліпшення."
+
+msgid "marker/level/tooltip/header"
+msgstr "Рівень техніки"
+
+msgid "marker/name"
+msgstr "Модель техніки"
+
+msgid "marker/name/type2"
+msgstr "Не показувати"
+
+msgid "marker/nickname"
+msgstr "Ім’я гравця"
+
+msgid "markerTitle"
+msgstr "Маркер"
+
+msgid "minimap/labels/alpha"
+msgstr "Прозорість міні-мапи"
+
+msgid "minimap/labels/size"
+msgstr "Максимальний розмір"
+
+msgid "monitor"
+msgstr "Монітор"
+
+msgid "monitor/description"
+msgstr "Вибір основного монітора для гри."
+
+msgid "mouse/sensitivity/art"
+msgstr "Артилерійський приціл"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Альтернативний приціл"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Вільна камера"
+
+msgid "mouse/sensitivity/header"
+msgstr "Чутливість"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Горизонтальна інверсія"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Вертикальна інверсія"
+
+msgid "mouse/sensitivity/main"
+msgstr "Аркадний приціл"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Снайперський приціл"
+
+msgid "mouse/startDist"
+msgstr "Розташування камери"
+
+msgid "ok_button"
+msgstr "Гаразд"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Елементи звукової картини"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Озвучення навички «Шосте відчуття»"
+
+msgid "otherTitle"
+msgstr "Інше"
+
+msgid "physicsQuality"
+msgstr "Якість фізики звуку"
+
+msgid "refreshRate"
+msgstr "Частота оновлення монітора"
+
+msgid "refreshRate/default"
+msgstr "За замовчуванням"
+
+msgid "refreshRate/description"
+msgstr "Частота оновлення зображення екрана в грі.\n\nРозбіжність з частотою оновлення монітора може привести до мерехтіння.\n\nНе впливає на швидкодію гри."
+
+msgid "resolution"
+msgstr "Роздільна здатність екрана"
+
+msgid "resolution/description"
+msgstr "Кількість крапок у горизонталі та вертикалі у повноекранному режимі. Більш висока роздільна здатність поліпшує чіткість зображення. Розбіжність встановленої роздільної здатності в повноекранному режимі з наявною роздільною здатністю монітора може спотворити зображення.\n\nЗбільшення параметра збільшує навантаження на відеокарту і може знизити швидкодію гри.\n\nЗменшити навантаження на відеокарту можна за допомогою налаштування роздільної здатності 3D рендеру."
+
+msgid "restartNewbieBattleHints"
+msgstr "Скинути підказки для початківців"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Скиньте журнал підказок для початківців, щоб повторно отримувати підказки, які ви вже бачили."
+
+msgid "screenMode"
+msgstr "Режим екрана"
+
+msgid "screenMode/borderless"
+msgstr "Віконний (без рамки)"
+
+msgid "screenMode/description"
+msgstr "Перемикає між повноекранним, віконним та віконним (без рамки) режимами екрана. У віконному режимі швидкодія гри зменшується."
+
+msgid "screenMode/fullscreen"
+msgstr "Повноекранний"
+
+msgid "screenMode/label"
+msgstr "Режим:"
+
+msgid "screenMode/windowed"
+msgstr "Віконний"
+
+msgid "smoothing/description"
+msgstr "Визначає ступінь додаткового опрацювання тонких ліній і обрисів об’єктів ігрової сцени, мінімізуючи ефект «сходинок». Обриси об’єктів мають природніший вигляд."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Стандартний"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Користувацький"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Варіант 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Варіант 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Користувацький"
+
+msgid "sound/dynamicRange/label"
+msgstr "Динамічний діапазон"
+
+msgid "sound/fieldset/header"
+msgstr "Гучність"
+
+msgid "sound/players_notifications"
+msgstr "Повідомлення від інших гравців"
+
+msgid "sound/presets/title"
+msgstr "Попередні налаштування"
+
+msgid "sound/soundModes/U01"
+msgstr "Користувацький 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Користувацький 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Користувацький 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Користувацький 4"
+
+msgid "sound/soundModes/default"
+msgstr "Стандартні"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Командирські"
+
+msgid "sound/special/field/set"
+msgstr "Гучність ігрової події"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Оновити пристрої"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Закінчити тест"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Розпочати тест"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Гучність оточення під час розмови"
+
+msgid "sound/vivox/master_volume"
+msgstr "Гучність голосу гравців"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Чутливість мікрофона"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Тест голосового зв’язку"
+
+msgid "soundTitle"
+msgstr "Звук"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "Тип 2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "Тип 5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "Тип 7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Автовизначення"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "акустика 2.0/2.1"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "акустика 5.1"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "акустика 7.1"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "навушники"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Центральний"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Лівий"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Лівий задній"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Лівий передній"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Лівий бічний"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Правий"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Правий задній"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Правий передній"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Правий бічний"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Сабвуфер"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "ноутбук"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Тест звуку:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Перевірити"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Голосові повідомлення озвучено відповідно до нації і статі командира"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Командирські"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Голосові повідомлення озвучено чоловічим голосом на мові клієнта гри"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Стандартна"
+
+msgid "sounds/ambient"
+msgstr "Довкілля"
+
+msgid "sounds/arena"
+msgstr "Музика в бою"
+
+msgid "sounds/artyBulbVoices"
+msgstr "«Звукова розвідка»"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Вибір одного з варіантів озвучення ефекту навички «Звукова розвідка». Щоб використовувати власний звук у форматі mp3, перейменуйте файл у soundExploring і помістіть його у папку res/audioww."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Звук ефекту «Звукової розвідки»"
+
+msgid "sounds/bassBoost"
+msgstr "Підсилити низькі частоти"
+
+msgid "sounds/bassBoost/description"
+msgstr "Підсилює низькі частоти у грі, не збільшуючи загальну гучність. Результат залежить від вибраної звукової системи (акустика, навушники, ноутбук)."
+
+msgid "sounds/bulbVoices"
+msgstr "«Шосте відчуття»"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Вибір одного з варіантів озвучення ефекту навички «Шосте відчуття». Щоб використовувати власний звук у форматі mp3, перейменуйте файл у sixthSense та помістіть його у папку res/audioww."
+
+msgid "sounds/effects"
+msgstr "Ефекти"
+
+msgid "sounds/gui"
+msgstr "Інтерфейс"
+
+msgid "sounds/hangar"
+msgstr "Музика в Гаражі"
+
+msgid "sounds/masterVolume"
+msgstr "Загальний рівень гучності"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Увімкнути звук"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Вимкнена звукова система може підвищити загальну швидкодію гри. Щоб застосувати, потрібно перезавантажити клієнт гри."
+
+msgid "sounds/nightMode"
+msgstr "Нічний режим"
+
+msgid "sounds/nightMode/description"
+msgstr "Зменшує різницю рівнів гучностей, приглушає різкі звуки і зменшує кількість низьких частот у грі, забезпечуючи комфортну тиху гру у нічний час."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Увімкнення цієї функції може вплинути на продуктивність."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Керування якістю фізики звуку.\n\nСимулює огинання звуком перешкод і проходження його крізь поверхні мап.\n\nВикористовує геометрію мап для створення відбиттів звуків машини від об’єктів поруч.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Якість фізики звуку"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Вимкнено"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Висока"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Низька"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Середня"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Пропонована"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Визначення оптимальної якості фізики звуку для вашого комп’ютера.\n\nМоже тривати деякий час."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Пропонована"
+
+msgid "sounds/sixthSense/body"
+msgstr "Щоб використати власне звукове оповіщення, помістіть файл з назвою sixthSense у форматі mp3 у папку res/audioww."
+
+msgid "sounds/sixthSense/header"
+msgstr "Користувацькі"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "Акустика 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Адаптує позиціонування звуків у грі для зовнішніх парних широкосмугових динаміків (2.0), або парних високочастотних динаміків + одного низькочастотного (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "Акустика 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "Акустика 5.1"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Адаптує позиціонування звуків у грі для зовнішніх динаміків і сабвуфера в багатоканальній системі 5.1."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "Акустика 5.1"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "Акустика 7.1"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Адаптує позиціонування звуків у грі для зовнішніх динаміків і сабвуфера в багатоканальній системі 7.1."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "Акустика 7.1"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Автовизначення"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Автоматично визначати налаштування аудіоконфігураціі, що встановлені в операційній системі."
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Автовизначення"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Навушники"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Адаптує позиціонування звуків у грі для навушників будь-якого класу."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Навушники"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Ноутбук"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Використовує принцип позиціонування попередніх налаштувань Акустика 2.0/2.1, але адаптує звук так, щоб максимально якісно відтворювати на маленьких динаміках ноутбука."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Ноутбук"
+
+msgid "sounds/soundQuality"
+msgstr "Низька якість"
+
+msgid "sounds/soundQuality/description"
+msgstr "Знижена якість звуку може підвищити швидкодію гри на бюджетних комп’ютерах. Увімкнений режим значно знижує кількість одночасно відтворюваних звуків."
+
+msgid "sounds/speakers/back/body"
+msgstr "Тестування звуку на правому/лівому задніх динаміках."
+
+msgid "sounds/speakers/back/header"
+msgstr "Правий/лівий задні динаміки"
+
+msgid "sounds/speakers/center/body"
+msgstr "Тестування звуку на центральному динаміку."
+
+msgid "sounds/speakers/center/header"
+msgstr "Центральний динамік"
+
+msgid "sounds/speakers/front/body"
+msgstr "Тестування звуку на правому/лівому передніх динаміках."
+
+msgid "sounds/speakers/front/header"
+msgstr "Правий/лівий передні динаміки"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "У конфігурації 2.0/2.1 сабвуфер — опціональний пристрій, приєднаний послідовним способом. Перевірити його окремо від динаміків неможливо."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Опціональний сабвуфер"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Тестування звуку на правому/лівому бічних динаміках."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Правий/лівий бічні динаміки"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Тестування звуку на правому/лівому динаміках."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Правий/лівий динаміки"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Тестування звуку на сабвуфері."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Сабвуфер"
+
+msgid "sounds/subtitles"
+msgstr "Субтитри"
+
+msgid "sounds/tabCommon"
+msgstr "Загальний рівень"
+
+msgid "sounds/tabSpecial"
+msgstr "Ігрова подія"
+
+msgid "sounds/tabVivox"
+msgstr "Голосовий зв’язок"
+
+msgid "sounds/vehicles"
+msgstr "Техніка"
+
+msgid "sounds/voiceNotification"
+msgstr "Голосові повідомлення"
+
+msgid "title"
+msgstr "Налаштування"
+
+msgid "tripleBuffered"
+msgstr "Потрійна буферизація"
+
+msgid "tripleBuffered/description"
+msgstr "Пом’якшує різкі стрибки зображення під час зміни кадрів (лише з увімкненою функцією «Вертикальна синхронізація»)."
+
+msgid "vertSync"
+msgstr "Вертикальна синхронізація"
+
+msgid "vertSync/Off"
+msgstr "Вимк."
+
+msgid "vertSync/On"
+msgstr "Увімк."
+
+msgid "vertSync/description"
+msgstr "Синхронізація зміни кадрів гри з частотою оновлення монітора.\n\nОбмеження кадрової частоти — 60 кадрів в секунду. Застосуйте у разі тремтіння або запізнювання зображення на нижній частині екрана щодо верхньої."
+
+msgid "voice_chat/PTT"
+msgstr "Активація мікрофона"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Гучність"
+
+msgid "voice_chat/header/common"
+msgstr "Загальні"
+
+msgid "voice_chat/header/microphone"
+msgstr "Мікрофон"
+
+msgid "voice_chat/header/speakers"
+msgstr "Навушники"
+
+msgid "voice_chat/microphone"
+msgstr "Мікрофон"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Мікрофон"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Увімкнути мікрофон"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Увімкнути голосовий зв’язок"
+
+msgid "windowSize"
+msgstr "Розмір вікна"
+
+msgid "windowSize/description"
+msgstr "Кількість пікселей у горизонталі та вертикалі вікна клієнта гри. У разі переходу у повноекранний режим налаштування змінюється на «Роздільна здатність екрана»."
+
+msgid "windowTitle"
+msgstr "WoT Client"

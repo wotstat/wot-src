@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Generelt"
+
+msgid "channels/battle/team"
+msgstr "Team"
+
+msgid "channels/clan"
+msgstr "Klan"
+
+msgid "channels/common"
+msgstr "Generelt"
+
+msgid "channels/epic_training"
+msgstr "Træning—frontlinje"
+
+msgid "channels/nubs"
+msgstr "Rekrutter"
+
+msgid "channels/prebattle"
+msgstr "Før kampen"
+
+msgid "channels/special_battles"
+msgstr "Særlig kamp"
+
+msgid "channels/squad"
+msgstr "Deling"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Deling er oprettet. Vent venligst indtil spillerne er klar."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Deling"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Deling er oprettet. Alle spillere er klar."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Deling"
+
+msgid "channels/system"
+msgstr "System"
+
+msgid "channels/tournament"
+msgstr "Turnering"
+
+msgid "channels/trading"
+msgstr "Handel"
+
+msgid "channels/training"
+msgstr "Træning"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Chatadministratoren er også kanalens moderator."
+
+msgid "errors/addmoderatorowner"
+msgstr "Kanalens ejer er også kanalens moderator."
+
+msgid "errors/banchannelowner"
+msgstr "Kanalens ejer kan ikke smides ud."
+
+msgid "errors/banchatadmin"
+msgstr "Chatadministratoren kan ikke smides ud."
+
+msgid "errors/banned"
+msgstr "Du er blevet afvist af bruger %(banOwnerNick)s indtill %(banEndTime)s. Begrundelse: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Du er blevet afvist af bruger %(banOwnerNick)s. Begrundelse: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Du er blevet afvist af bruger %(banEndTime)s. Begrundelse: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Du er blevet afvist. Begrundelse: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Kommandoen %(command)s er blevet blokeret i %(cooldownPeriod)s s."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Moderatorens beføjelser kan ikke blive tilbagekaldt af chatadministratoren."
+
+msgid "errors/delmoderatorowner"
+msgstr "Moderatorens beføjelser kan ikke blive tilbagekaldt af kanalens ejer."
+
+msgid "errors/timeincorrect"
+msgstr "‘Tid’-parameteren skal være en positiv værdi af minutter [1-1440] eller ‘permanent’."
+
+msgid "errors/toomanyargs"
+msgstr "For mange parametre."
+
+msgid "errors/toosmallargs"
+msgstr "For få parametre."
+
+msgid "errors/userbanhimself"
+msgstr "Du kan ikke smide dig selv ud."
+
+msgid "messages/userbanned"
+msgstr "Bruger %(banedUser)s er blevet afvist af bruger %(banOwnerNick)s indtil %(banEndTime)s. Begrundelse: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Bruger %(banedUser)s er blevet afvist af bruger %(banOwnerNick)s. Begrundelse: %(banReason)s"

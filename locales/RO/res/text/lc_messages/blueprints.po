@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Proiect asamblat"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Proiect  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Proiect {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "La achiziție"
+
+msgid "blueprintScreen/button/research"
+msgstr "La cercetare"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Vezi în Garaj"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Poți asambla un proiect și aplica o reducere la un vehicul dorit. Totuși, pentru a folosi reducerea, trebuie să fi cercetat vehiculul anterior\nde pe ramura tehnologică."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Recepționat!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Nu se poate cerceta"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Pentru a crea un fragment de proiect, ai nevoie de:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "selectare:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "CREEAZĂ FRAGMENT:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Creează fragmente"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Convertește\nfragment"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Conversie\nindisponibilă"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "INDISPONIBIL:\nNu ai suficiente\nresurse"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "La vehicul"
+
+msgid "blueprintScreen/or"
+msgstr "sau"
+
+msgid "blueprintScreen/research"
+msgstr "CERCETARE"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Cercetare gratuită a vehiculului"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Nu se poate cerceta"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Reducere la cercetare:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Acest vehicul a fost cercetat și este disponibil pentru achiziție"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Acest vehicul a fost cercetat și achiziționat"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "În Depozit:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Poți folosi o reducere de 100% la cercetarea {vehicleName} după ce ai cercetat vehiculul anterior de pe ramura tehnologică."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Proiect asamblat"
+
+msgid "blueprintScreen/unlocked"
+msgstr "VEHICUL\nCERCETAT"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Coaliție:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Bloc:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Alianță:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Uniune:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Universal:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Coaliție"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Bloc"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Alianță"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Uniune"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Franța, Cehoslovacia, Suedia, Italia)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Germania, Japonia)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(SUA, UK, Polonia)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(URSS, China)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Selectează numărul de fragmente naționale din care să creezi fragmente de proiect pentru vehicul. Fragmente naționale disponibile: \n%(allianceIcon)%(allianceName)%(allianceNations)."
+
+msgid "conversionView/topMessage/single"
+msgstr "Selectează fragmente ale uneia dintre națiuni din care să creezi un fragment de proiect pentru vehicul. Fragmente naționale disponibile: \n%(allianceIcon)%(allianceName)%(allianceNations)."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Cost final:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Costul fragmentului de proiect:"
+
+msgid "nations/china"
+msgstr "China"
+
+msgid "nations/czech"
+msgstr "Cehoslovacia"
+
+msgid "nations/france"
+msgstr "Franța"
+
+msgid "nations/germany"
+msgstr "Germania"
+
+msgid "nations/italy"
+msgstr "Italia"
+
+msgid "nations/japan"
+msgstr "Japonia"
+
+msgid "nations/poland"
+msgstr "Polonia"
+
+msgid "nations/sweden"
+msgstr "Suedia"
+
+msgid "nations/uk"
+msgstr "UK"
+
+msgid "nations/usa"
+msgstr "SUA"
+
+msgid "nations/ussr"
+msgstr "URSS"

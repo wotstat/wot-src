@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Klid zbraní {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}}–{{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Akce bude dostupná od"
+
+msgid "bannerTooltip/description"
+msgstr "Masivní bitvy 30 proti 30 s vozidly {{vehicleTier}}. úrovně na mapách Normandie, Kraftwerk a Fata morgána. Útočníci musí zničit 3 z 5 velkorážných děl, zatímco obránci je musí chránit."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Prokažte své schopnosti v intenzivních bitvách, získejte slávu, cenné odměny a postupujte žebříčkem."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Akce skončila, máte nevyzvednuté odměny za dokončené úrovně Frontové linie."
+
+msgid "bannerTooltip/header"
+msgstr "Frontová linie"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Frontová linie | {{curLevel}}. úroveň {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} – Herní režim. Prozkoumejte kliknutím"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Budete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Možný omezený výkon"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}}/{{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Vyberte si odměny za dokončené úrovně ({{value}})."
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Nedostatek prostředků k provedení nákupu."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Změny budou aplikovány na všechny stíhače tanků."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Změny budou aplikovány na všechna dělostřelectva."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Změny budou aplikovány na všechny těžké tanky."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Změny budou aplikovány na všechny lehké tanky."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Změny budou aplikovány na všechny střední tanky."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Nekompatibilní vozidlo"
+
+msgid "battleAbilities/points/body"
+msgstr "Nasbírejte požadovaný počet bodů a aktivujte bojové zálohy Frontové linie."
+
+msgid "battleAbilities/points/header"
+msgstr "Body bojových záloh"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Zobrazit útočné zálohy"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Útočné zálohy"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Zobrazit průzkumné zálohy"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Průzkumné zálohy"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Zobrazit taktické zálohy"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktické zálohy"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Úroveň bojové zálohy je zvýšena po dosažení hodností kapitána a majora v bitvě. Maximální úroveň je určena scénářem bitvy."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Doplňující informace"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Útočné zálohy"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Průzkumné zálohy"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktické zálohy"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Trvalé charakteristiky:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Bojová záloha umístěná v tomto slotu zvyšuje o {{@ colorLegacy 'FFE4C0'}}10 %{{/}} pravděpodobnost, že bude ve scénáři {{@ colorLegacy 'FFE4C0'}}„Vrtochy osudu“{{/}} nabídnuta."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Úroveň zálohy:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Nezakoupena!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Akce skončila."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Akce brzy začne!"
+
+msgid "infoButton/body"
+msgstr "Klikněte pro více informací."
+
+msgid "infoButton/header"
+msgstr "O akci"
+
+msgid "levelReserves/desc"
+msgstr "Úrovně bojových záloh se zvýší při dosažení nových hodností:"
+
+msgid "levelReserves/info"
+msgstr "Ve scénáři {{@ colorLegacy 'FFE4C0'}}„Vrtochy osudu“{{/}} zvýší zakoupení bojové zálohy její úroveň o jednu a poskytne příležitost zálohu vylepšit na {{@ colorLegacy 'FFE4C0'}}{{lvl}}.{{/}} úroveň."
+
+msgid "levelReserves/level"
+msgstr "Zvýší se po dosažení následující hodnosti: {{@ colorLegacy 'FFE4C0'}}{{lvl}}.{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Dostupné s následující hodností: {{@ colorLegacy 'FFE4C0'}}{{lvl}}.{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Úroveň – {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Pro {{@ colorLegacy 'FFE4C0'}}zakoupené bojové zálohy{{/}} ve scénáři {{@ colorLegacy 'FFE4C0'}}„Vrtochy osudu“{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Úrovně bojových záloh"
+
+msgid "playlist/warning/body"
+msgstr "Tento seznam oblíbených vozidel obsahuje vozidla, která nejsou vhodná pro tento herní režim nebo nejsou ve vaší garáži."
+
+msgid "playlist/warning/header"
+msgstr "Nedostupná vozidla (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Vlastnosti bojové zálohy zlepšeny"
+
+msgid "randomReserve/disable"
+msgstr "Slot pro bojovou zálohu byl použit."
+
+msgid "randomReserve/notPurchased"
+msgstr "Bojová záloha nezakoupena"
+
+msgid "randomReserve/purchased"
+msgstr "Bojová záloha zakoupena"
+
+msgid "skillOrderTooltip/body"
+msgstr "Každý typ vozidla má své vlastní pořadí odemykání záloh:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Pořadí odemykání bojových záloh"
+
+msgid "skillOrderTooltip/info"
+msgstr "Ve scénáři {{@ colorLegacy 'whiteSpanish'}}„Vrtochy osudu“{{/}} nezávisí pořadí, ve kterém jsou bojové zálohy odemykány, na typu vozidla."

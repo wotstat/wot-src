@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Artilleriangreb"
+
+msgid "attackReason/artillery_sector"
+msgstr "Artilleriangreb"
+
+msgid "attackReason/bombers"
+msgstr "Luftangreb"
+
+msgid "battleCommunication/hint/description"
+msgstr "for at vise eller placere en markør"
+
+msgid "battleCommunication/hint/press"
+msgstr "Tryk"
+
+msgid "battleEndWarning/text"
+msgstr "Slutter om:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Tekst og stemmebeskeder fra denne spiller vil blive skjult i denne kamp."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Bloker beskeder fra spiller"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Beskeder fra en sortlistet spiller blokeres."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Handling utilgængelig"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Tekst og stemmebeskeder fra denne spiller\nvil blive vist igen."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Fjern blokering af beskeder fra spiller"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Teknisk problem med at indhente data fra kampzonen."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Data fra kampzonen for dette køretøj er ikke tilgængeligt på dette kort."
+
+msgid "battleProgress/hint/description"
+msgstr "for at se personlige missioner"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "De primære taster er ikke tildelt"
+
+msgid "battleProgress/hint/press"
+msgstr "Tryk"
+
+msgid "battle_notifier/lose"
+msgstr "Nederlag!"
+
+msgid "battle_notifier/tie"
+msgstr "Uafgjort!"
+
+msgid "battle_notifier/win"
+msgstr "Sejr!"
+
+msgid "bot/boss"
+msgstr "Boss"
+
+msgid "bot/elite"
+msgstr "Elite"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "SKADESVARSEL"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "MOTOR BESKADIGET"
+
+msgid "chat_example/affirmative"
+msgstr "Bekræftet!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Ildstøtte ønskes på <Enemy Name>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Angriber <Enemy Name>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Erobr basen!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Forsvar basen!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Bemærk <sektor på minimap>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Bemærk lokationen!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Ødelæg mål"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Gem dine kampvogne!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Erobr zonen"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Forsvar målene"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Gem dine kampvogne!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Forsvar zoner"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Forstærk zone"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Forstærk zone"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Forstærk zone"
+
+msgid "chat_example/going_there"
+msgstr "Kører herover!"
+
+msgid "chat_example/help_me"
+msgstr "Hjælp!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Allieret navn>, hjælp!"
+
+msgid "chat_example/negative"
+msgstr "Afslået!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Kanon overophedet! Kan ikke skyde i <Reload Time> s"
+
+msgid "chat_example/positive"
+msgstr "Bekræftet!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Klar til at skyde om <Ladetid> s, granater i magasinet: <Antal granater> stk."
+
+msgid "chat_example/reloading_gun"
+msgstr "Lader! <Ladetid> s tilbage!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Klar til at skyde!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Klar til at skyde! Granater i magasinet: <Antal granater> stk."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Ammunitionen er tom."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Sigter på <Sektor på minimap>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, jeg vil hjælpe dig!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, tak!"
+
+msgid "chat_example/turn_back"
+msgstr "<Allieret navn>, fald tilbage!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Bekræftet!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Ildstøtte ønskes på %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Klar til at skyde! Angriber %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Ammunition er opbrugt! Anmoder om ild på %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Angriber %(target)s! Lader, %(reloadTime)d s tilbage!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Jeg erobrer basen!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Jeg erobrer base %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Angriber %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Erobr basen!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Erobr base %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Forsvar basen!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Forsvar base %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Vær opmærksom på %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Ødelæg mål %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Jeg angriber mål %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Forsvar mål %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Jeg forsvarer mål %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Bemærk positionen!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Vær opmærksom på %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Jeg forsvarer basen!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Jeg forsvarer base %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Ødelæg mål!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Vi har nok tid, gem dine kampvogne!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Tiden løber ud, erobr en zone med alt hvad du har!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Forsvar målene!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Vi skal holde stand, gem dine kampvogne!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Tiden løber ud, forsvar zonerne for enhver pris!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Zone %(strArg1)s har brug for hjælp, forstærk den!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Zone %(strArg1)s har brug for hjælp, forstærk den!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Zone %(strArg1)s har brug for hjælp, forstærk den!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Kører til position!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "På vej mod %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Hjælp!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, hjælp!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Bevæg mod mål: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Jeg bevæger mig mod mål: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Afslået!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Kanon overophedet! Kan ikke skyde i %(floatArg1)d s"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, bekræftet!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Klar til at skyde om %(floatArg1)d s, granater i magasinet: %(int32Arg1)s stk."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Lader! %(floatArg1)d s tilbage!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Klar til at skyde!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Klar til at skyde! Granater i magasinet: %(int32Arg1)s stk."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Ammunitionen er tom."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Sigter på position. Klar til beskydning!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Observerer %(gridId)s! Ammunition er opbrugt!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Sigter på %(gridId)s. Klar til at skyde!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Sigter på position. Lader, %(reloadTime)d s tilbage!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Sigter på %(gridId)s. Lader, %(reloadTime)d s tilbage!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, jeg hjælper dig!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, tak!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, fald tilbage!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Gå til indstillinger"
+
+msgid "commanderCam/hint/description"
+msgstr "Zoom ud for at få taktisk overblik"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Cooldown: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "En plads til forbrugsvarer"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/t"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Kommandøren er såret. Tekniske karakteristika nedsat."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Kommandør"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Køreren er såret. Bevægelse og skrogets drejehastighed nedsat."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Kører"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Skytten er såret. Præcision nedsat."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Skytte"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Skytte 2 er såret. Præcision nedsat."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Skytte 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Lader er såret. Ladehastighed nedsat."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Lader"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Lader 2 er såret. Ladehastighed nedsat."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Lader 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Radiooperatøren er såret. Signalrækkevidde nedsat."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Radiooperatør"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Radiooperatør 2 er såret. Signalrækkevidde nedsat."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Radiooperatør 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Ammunitionsstativ beskadiget. Ladehastighed nedsat."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Ammunitionsstativ eksploderet."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Ammunitionsstativet er intakt."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Affjedring er beskadiget."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Immobiliseret: Affjedring ødelagt."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Affjedring er intakt."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Motor beskadiget. Nedsat kraft."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Immobiliseret: Motor ødelagt."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Motor er intakt."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Brændstoftank er beskadiget."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Brændstoftank ødelagt."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Brændstoftank er intakt."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Kanon er beskadiget. Præcision nedsat."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Kanon ødelagt. Kan ikke skyde."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Kanon er intakt."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radio er beskadiget."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radio ødelagt. Signalrækkevidde nedsat."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radio er intakt."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Observationsinstrument er beskadiget."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Observationsinstrument ødelagt. Synsrækkevidde nedsat."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Observationsinstrument er intakt."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Affjedring er beskadiget."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Immobiliseret: Affjedring ødelagt."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Affjedring er intakt."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Tårnet er beskadiget. Drejehastighed er nedsat."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Kan ikke dreje: Tårnet ødelagt."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Tårnet er intakt."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Affjedring er beskadiget."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Immobiliseret: Affjedring ødelagt."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Affjedring er intakt."
+
+msgid "danger_zone/indicator"
+msgstr "Dit køretøj kan blive ødelagt — forlad farezonen!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Tilbage på sporet..."
+
+msgid "devMaps/hint/description"
+msgstr "for at se egenskaber ved kortet"
+
+msgid "devMaps/hint/press"
+msgstr "Tryk"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Tilfældige events kan ske på dette kort. Sådanne kort kan deaktiveres i spillets indstillinger."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Kort med tilfældige events"
+
+msgid "devices/ammo_bay"
+msgstr "Ammunitionsstativ"
+
+msgid "devices/chassis"
+msgstr "Affjedring"
+
+msgid "devices/engine"
+msgstr "Motor"
+
+msgid "devices/fuel_tank"
+msgstr "Brændstoftank"
+
+msgid "devices/gun"
+msgstr "Kanon"
+
+msgid "devices/left_track"
+msgstr "Venstre Bælte"
+
+msgid "devices/radio"
+msgstr "Radio"
+
+msgid "devices/right_track"
+msgstr "Højre bælte"
+
+msgid "devices/surveing_device"
+msgstr "Observationsinstrument"
+
+msgid "devices/track"
+msgstr "%(type)s bælte"
+
+msgid "devices/track/left"
+msgstr "Venstre"
+
+msgid "devices/track/main"
+msgstr "Reserve"
+
+msgid "devices/track/outer"
+msgstr "Primært"
+
+msgid "devices/track/right"
+msgstr "Højre"
+
+msgid "devices/turret_rotator"
+msgstr "Tårnets drejehastighed"
+
+msgid "devices/wheel"
+msgstr "Hjul"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Klik for at invitere spilleren med i delingen.\nSpilleren kan acceptere din invitation enten under kampen eller efter kampen er slut.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nBemærk! Dit faktiske kaldenavn og klan tag vil blive vist til delingsmedlemmer."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nBemærk! Dit faktiske kaldenavn vil blive vist til delingsmedlemmer."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Kan ikke invitere den allierede til at gå med i delingen."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Klik for at acceptere invitationen til delingen.\nDelingen vil blive oprettet under kampen."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "En invitation blev sendt til spilleren.\nHvis de accepterer den, vil de gå med i din deling enten under kampen eller efter kampen er slut."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Klik for at invitere spilleren med i delingen.\nSpilleren kan acceptere din invitation enten under kampen eller efter kampen er slut.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Kan ikke invitere fjenden til at gå med i delingen."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Klik for at acceptere invitationen til delingen.\nDelingen vil blive oprettet når kampen er slut."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "En invitation blev sendt til spilleren.\nHvis de accepterer den, vil de gå med i din deling når kampen er slut."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Tryk"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "for at aktivere voice chat"
+
+msgid "dynamicSquad/invite"
+msgstr "Invitation til at gå med i delingen"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Skade ved luftangreb"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Skade ved artilleriangreb"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Skade ved primært mål"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Skade blokeret"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Assister ved kampreserve"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Skade efter opdagelse"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Skade efter fortumlet"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Bælte ødelagt"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Skade fra bersærker"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Rolle xp"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Sat ild til"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Erobrer fjendtlig base"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Kritisk træffer"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Skade uddelt"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Skade fra krigsskibets skudsalve"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "Skade fra USS Frankford"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Skade fra miner"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Skade fra kamprobot"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Skade fra syregranat"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Skade fra ildkrans"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Skade fra elektrisk udladning"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Skade fra zone"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Erobringspoint reduceret"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Zone forsvaret"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Skade uddelt"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Mål ødelagt"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Mål forsvaret"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Zone erobret"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Skade fra område med ild"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Køretøj repareret"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Ødelagt"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Skade fra minefelt"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Påkørsel"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Skade ved brand"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Skade fra kamprobot"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Skade fra syregranat"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Skade fra ildkrans"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Skade fra miner"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Skade fra rusttåge"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Skade fra elektrisk udladning"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Kritisk skade"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Skade ved skud"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Skade fra ildkugle"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Skade ved sammenstød"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Skade ved kollision"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Skade fra ildkugle"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Observeret"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Skade fra ødelæggelseszone"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Fortumlet"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Køretøj forladt"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Skade fra uheld"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Snestorm"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Ild"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Tåge"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Kraftig regn"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Sandstorm"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Røg"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornado"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Skjul holdpaneler"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Intet panel"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Tryk Ctrl + Tab for at skifte mellem modus)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Vis spillernes navne, ødelagte mål og køretøjernes ikoner"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Medium panel 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Tryk Ctrl + Tab for at skifte mellem modus)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Vis køretøjer der er ødelagt af en spiller, navn og ikon på en spillers køretøj."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Medium panel 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Tryk Ctrl + Tab for at skifte mellem modus)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Vis ødelagte mål og køretøjernes ikoner"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Kort panel"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Tryk Ctrl + Tab for at skifte mellem modus)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Skift mellem at se din egen eller alle tre spawn grupper."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Skift kolonner"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Tryk Ctrl + Tab for at skifte mellem modus)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Du ødelagde flaget!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Flag erobret!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Flag afleveret."
+
+msgid "flagNotification/flagInbase"
+msgstr "Aflever flaget til hovedkvarteret."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "LADER..."
+
+msgid "grille/status/speedlimit"
+msgstr "HASTIGHEDSGRÆNSE"
+
+msgid "helpScreen/hint/description"
+msgstr "for at se køretøjets karakteristika"
+
+msgid "helpScreen/hint/press"
+msgstr "Tryk"
+
+msgid "helpScreen/mapbox/description"
+msgstr "for at se egenskaber ved kortet"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Tryk"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "for at aktivere belejrings/<font color='#F4B12C'><b>bunker</b></font>-tilstand"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "for at aktivere belejrings/<font color='#F4B12C'><b>rejse</b></font>-tilstand"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "for at aktivere rejse/<font color='#F4B12C'><b>bunker</b></font>-tilstand"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Tast til at ændre tilstand er ikke tildelt"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Tryk/<font color='#F4B12C'><b>Hold</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "De primære taster er ikke tildelt"
+
+msgid "hitMarker/blocked"
+msgstr "Panser blev ikke gennembrudt"
+
+msgid "hitMarker/critical"
+msgstr "Kritisk træffer"
+
+msgid "hitMarker/missArmor"
+msgstr "Panser blev ikke ramt"
+
+msgid "hitMarker/ricochet"
+msgstr "Rikochet"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Skærm blev ikke gennembrudt"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Bælte blev ikke gennembrudt"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Hjul blev ikke gennembrudt"
+
+msgid "levelProgress/maxLevel"
+msgstr "MAKSIMALT KØRETØJSNIVEAU"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Eksplosion i ammunitionsstativet blev forhindret af udstyret %(device)s"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Ødelæggelse af motoren blev forhindret af udstyret %(device)s"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Brand blev forhindret af udstyret %(device)s"
+
+msgid "penetration/high"
+msgstr "Høj"
+
+msgid "penetration/low"
+msgstr "Lav"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Sekundær betingelse:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Primær betingelse:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Ingen missioner startet for denne kamptype."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Ingen missioner startet for denne køretøjstype."
+
+msgid "personal_reserves/hint/description"
+msgstr "for at aktivere personlige reserver"
+
+msgid "personal_reserves/hint/press"
+msgstr "Tryk"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Immobiliseret: Affjedringen er beskadiget."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Immobiliseret: Mandskabet er slået ud."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Immobiliseret: Motoren er beskadiget."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Immobiliseret: køretøj ødelagt."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Kan ikke afgive skud: Mandskabet er slået ud."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Kan ikke afgive skud: Kanonen er beskadiget."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Kan ikke afgive skud."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Kan ikke skyde: kanon overophedet."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Lader kanon."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Fuldfører ladning."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Kan ikke afgive skud: Ikke flere granater."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Kan ikke afgive skud: Kampvognen er ødelagt."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Skift utilgængeligt: Motoren er ødelagt."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Skift utilgængelig: kanon ødelagt"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Skift utilgængelig: kun én granat tilbage"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] er allerede aktiv."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "Forbrugsvaren [%(name)s] er inaktiv: ingen ild."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] er utilgængelig i cooldown periode."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Medicinsk assistance er ikke nødvendigt: intet tilskadekomment mandskab."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] behøver ikke lægehjælp."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Reserve er ikke klar endnu."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Erobr %(name)s for at aktivere den taktiske evne."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Moduler og kommandør har fuld hp. Ingen reparationer eller behandling nødvendig."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Reparationer er ikke nødvendige: alt udstyr er intakt."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] er fuldt operationel, ingen reparation påkrævet."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Kan ikke aktivere koaksialt våben."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Du har ramt en allieret %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] er klar til brug."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Artilleribatteri indsat og klar til ildafgivelse."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Fly på vingerne og klar til bombeangreb."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Vores mandskab er klar til at inspirere andre omkring dem."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Minefelt kan udlægges."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Fly på vej og klar til at observere."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Feltreparationer er klar til brug."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Røgbatteri klargjort og klar til affyring."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Sentinel er klar til brug."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Artilleribatteri tilhørende %(player)s afgiver ild."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Bombefly tilhørende %(player)s på vej."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s udlægger en genopretningszone."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s aktiverer inspiration."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s udlagde et minefelt."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s's rekognoscering på vej."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s brugte feltreparationer."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s udlægger røgslør."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s aktiverer Sentinel."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s blev ødelagt i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s blev ødelagt i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s blev ødelagt i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s blev ødelagt i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s blev ødelagt i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s blev ødelagt i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Køretøj ødelagt ved artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s blev ødelagt i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s blev ødelagt i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s blev ødelagt i et luftangreb."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s blev ødelagt i et luftangreb."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Allieret %(target)s blev ødelagt af allieret %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s har ødelagt %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Køretøj ødelagt af allieret %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Allieret %(target)s ødelagt af zonen."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s har ødelagt %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Fjende %(attacker)s har ødelagt fjende %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Køretøj ødelagt af %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s blev ødelagt af zonen."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Allieret %(target)s ødelagt."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s ødelagt."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Køretøj ødelagt."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Modul [%(device)s] ødelagt af brand"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Enhed [%(device)s] blev ødelagt af et skud fra %(entity)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Allieret %(attacker)s druknede allieret %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s druknede %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Køretøj druknet af allieret %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Allieret %(target)s druknede."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s druknede %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Fjende %(attacker)s druknede fjende %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Køretøj druknet af %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Fjende %(target)s druknede."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Allieret %(target)s blev druknet."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s blev druknet."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Køretøj druknet."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Allieret %(target)s blev ødelagt af allieret %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s har ødelagt %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Køretøj ødelagt af allieret %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s har ødelagt %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Fjende %(attacker)s har ødelagt fjende %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Køretøj ødelagt af %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Allieret %(target)s ødelagt."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s ødelagt."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Mandskab gjort ukampdygtig."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Besætningen uskadeliggjort af skud fra %(entity)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Allieret %(target)s mandskab uskadeliggjort af allieret %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(target)s mandskab blev dræbt af %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Mandskab uskadeliggjort af allieret %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Allieret %(target)s uskadeliggjorde hans mandskab."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(target)s mandskab blev dræbt af %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Fjende %(target)s mandskab blev dræbt af fjende %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Mandskab uskadeliggjort af %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Fjende %(target)s uskadeliggjorde hans mandskab."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Allieret %(target)s mandskab uskadeliggjort."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Mandskab %(target)s uskadeliggjort."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Mandskab gjort ukampdygtig."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Allieret %(target)s ødelagt af minefelt."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s ødelagt."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s har ødelagt %(target)s ved miner."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s har ødelagt %(target)s ved miner."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s blev ødelagt ved miner."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Allieret %(attacker)s vendte rundt på %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s vendte rundt på %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Køretøj vendt rundt af allieret %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Allieret %(target)s vendte rundt på deres køretøj"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s vendte rundt på %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Fjenden %(attacker)s vendte rundt på fjenden %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Køretøj vendt rundt og ødelagt af %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Fjenden %(target)s vendte rundt på deres køretøj"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Allieret %(target)s vendte rundt"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s vendte rundt"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Køretøj vendt rundt og ødelagt"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Allieret %(attacker)s har ødelagt allieret %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s har ødelagt %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Køretøj ødelagt af allieret %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Allieret %(target)s kørte galt."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s har ødelagt %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Fjende %(attacker)s har ødelagt fjende %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Køretøj ødelagt af %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Fjende %(target)s kørte galt."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Allieret %(target)s ødelagt."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s ødelagt."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Køretøj ødelagt."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s forlod deres køretøj."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s forlod deres køretøj."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Køretøj ødelagt under zonebombardement."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s blev ødelagt under zonebombardement."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s blev ødelagt under zonebombardement."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Køretøj ødelagt ved artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s blev ødelagt i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s blev ødelagt i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Allieret %(attacker)s har ødelagt %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Allieret %(attacker)s har ødelagt %(target)s ved artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Allieret %(attacker)s har ødelagt %(target)s ved bombeangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s har ødelagt %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s har ødelagt %(target)s ved artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s har ødelagt %(target)s ved luftangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s har ødelagt %(target)s (Skuddække)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s har ødelagt %(target)s (Artilleribeskydning)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Allieret %(target)s blev tabt i kamp."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Allieret %(target)s blev tabt i kamp efter artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Allieret %(target)s blev tabt i kamp efter bombeangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s har ødelagt %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s har ødelagt %(target)s ved artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s har ødelagt %(target)s ved luftangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s har ødelagt %(target)s (Skuddække)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s har ødelagt %(target)s (Artilleribeskydning)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Fjende %(attacker)s har ødelagt fjende %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Fjende %(attacker)s har ødelagt fjende %(target)s i et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Fjende %(attacker)s har ødelagt fjende %(target)s i et bombeangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Fjende %(target)s blev tabt i kamp."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Fjende %(target)s blev tabt i kamp efter et artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Fjende %(target)s blev tabt i kamp efter et bombeangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Allieret %(target)s ødelagt."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Allieret %(target)s ødelagt ved artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Allieret %(target)s ødelagt ved bombeangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s ødelagt."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s blev ødelagt ved artilleriangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s blev ødelagt ved luftangreb."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s ødelagt"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s ødelagt"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Fjende (ukendt) ødelagde %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Allieret %(target)s ødelagt af ødelæggelseszonen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Allieret %(attacker)s har i en ulykke ødelagt allieret %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s kørte ind i %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Køretøj ødelagt i ulykke af allieret %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Allieret %(target)s kørte galt."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s kørte ind i %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Fjende %(attacker)s har i en ulykke ødelagt fjende %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Køretøj ødelagt i ulykke af %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Fjende %(target)s kørte galt."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Allieret %(target)s kørte galt."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s kørte galt."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Køretøj ødelagt i ulykke."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s ødelagde mål %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s ødelagde mål %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Du ødelagde mål %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Enheden [%(device)s] er beskadiget af ilden."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "Skud %(entity)s skadede [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Enhed [%(device)s] er tilintetgjort af ild."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "Modul [%(device)s] ødelagt af %(entity)s."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Enhed [%(device)s] repareret."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Enhed [%(device)s] er operationel."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "Modul [%(device)s] antændt af skud fra %(entity)s."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "[%(device)s] udstyret blev skadet af et boost."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "Enhed [%(device)s] blev beskadiget på grund af fjernelsen af fartpiloten."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "[%(device)s] udstyret blev ødelagt af et boost."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "Enhed [%(device)s] blev tilintetgjort på grund af fjernelsen af fartpiloten."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Ilden slukket."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "Et skud fra %(entity)s sårede [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] er tilbage i kampen."
+
+msgid "player_messages/allied_team_name"
+msgstr "Vores hold"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Allieret base%s erobring (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Venligsindet base%s erobret!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Baseerobring blokeret"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Base%s erobring (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Base%s erobret!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Fjendtlig base%s erobring (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Fjendtlig base%s erobret!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Fjendtligt hold"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Din allierede %(name)s brugte den taktiske evne %(equipment)s"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Fjenden brugte den taktiske evne %(equipment)s"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Spiller %(name)s (%(type)s); HP: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Spiller: %(name)s; Holdbarhed: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Dit køretøj (%(type)s) ødelagt"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Kan ikke afgive skud: Ikke flere granater."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Replay kontroller:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "LMB: skifter mellem kameramodus\nSpace: pause"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Venstre pil: spol tilbage 20 sekunder (med Ctrl: 40 sekunder)\nHøjre pil: spol frem 20 sekunder (med Ctrl: 40 sekunder)\nHome/End: hop til starten/slutningen\nOp/Ned pil: +/- afspilningshastighed"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Frit kamera aktiveret."
+
+msgid "player_messages/replayPaused"
+msgstr "Pause"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Statisk kamera aktiveret."
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Replay hastighed: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Kampvognen brænder!"
+
+msgid "players_panel/state/large/body"
+msgstr "Vis spillernes navne, ødelagte mål, og køretøjets navne og ikoner"
+
+msgid "players_panel/state/large/header"
+msgstr "Fuldt panel"
+
+msgid "players_panel/state/large/note"
+msgstr "(Tryk Ctrl + Tab for at skifte mellem modus)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Vis spillernes navne, ødelagte mål og køretøjernes ikoner"
+
+msgid "players_panel/state/medium/header"
+msgstr "Medium"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Tryk Ctrl + Tab for at skifte mellem modus)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Vis køretøjer der er ødelagt af en spiller, navn og ikon på en spillers køretøj."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Standard panel 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Tryk Ctrl + Tab for at skifte mellem modus)"
+
+msgid "players_panel/state/none/body"
+msgstr "Skjul holdpaneler"
+
+msgid "players_panel/state/none/header"
+msgstr "Intet panel"
+
+msgid "players_panel/state/none/note"
+msgstr "(Tryk Ctrl + Tab for at skifte mellem modus)"
+
+msgid "players_panel/state/short/body"
+msgstr "Vis ødelagte mål og køretøjernes ikoner"
+
+msgid "players_panel/state/short/header"
+msgstr "Kort panel"
+
+msgid "players_panel/state/short/note"
+msgstr "(Tryk Ctrl + Tab for at skifte mellem modus)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Fjende"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Tilbage til garagen."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Gå i kamp i et andet køretøj."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "MELLEMRUM"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Frit kamera"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Aktiver frit kamera."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Frit kamera utilgængeligt"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Kan ikke aktivere frit kamera i denne kamptype."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Tilskuer tilstand"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Skift mellem venligtsindede køretøjer."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Følg køretøj"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Peg musen mod et allieret køretøj og venstreklik for at følge det."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Køretøj ødelagt af primært mål"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Køretøj ødelagt ved artilleriangreb."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Køretøj ødelagt af primært mål"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Køretøj ødelagt af luftangreb"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Køretøj ødelagt af røver."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Køretøj ødelagt af kamprobot."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Køretøj ødelagt af syregranat."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Køretøj ødelagt i forbudt zone af allieret"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Køretøj ødelagt i forbudt zone"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Det lykkedes dig ikke at forlade farezonen"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Modul [%(device)s] ødelagt af brand"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modul [%(device)s] eksploderede ved skud fra spiller"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Køretøj druknet af allieret"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Køretøj druknet"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Køretøj druknet"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Køretøjet blev sat i brand af spiller"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Køretøj ødelagt af ildkrans."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Mandskab slået ud af skud fra spiller"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Mandskab slået ud efter en kraftig påkørsel mede et allieret køretøj"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Mandskab slået ud efter en kraftig påkørsel"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Mandskab slået ud efter en kraftig påkørsel"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Køretøj ødelagt af ildkugle."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Køretøj ødelagt i minefelt"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Køretøj ødelagt af miner"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Køretøj vendt rundt af allieret"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Køretøj vendt rundt af fjende"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Køretøj ødelagt ved at vende rundt"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Køretøj ødelagt ved påkørsel af allieret"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Køretøj ødelagt ved påkørsel"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Køretøj ødelagt ved påkørsel"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Dit køretøj blev ødelagt"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Køretøj ødelagt under zonebombardement."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Køretøj ødelagt ved artilleriangreb."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Køretøj ødelagt ved skud fra spiller"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Køretøj ødelagt af luftangreb."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Køretøj ødelagt af luftangreb."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Køretøj ødelagt ved artilleriangreb"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Køretøj ødelagt af luftangreb"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Køretøj ødelagt af ødelæggelseszonen"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Køretøj ødelagt af elektrisk udladning."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Køretøj forulykket af allieret"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Køretøj forulykket af fjende"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Køretøj forulykket"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Dit køretøj blev ødelagt"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "Den valgte konfiguration bruges i kamp:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Vælg en konfiguration, der vil blive brugt i kamp før nedtællingen slutter."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Vælg en konfiguration"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Valg af konfiguration: {seconds} s"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Valg af konfiguration:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Kløft"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Observation"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Skov"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Sti"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Gade"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Ruiner"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Bro"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Jernbane"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "By"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Landsby"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Plads"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Fabrik"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Bakke"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Fyrtårn"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Center"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Borg"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Vindmølle"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Bjerge"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Rute A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Rute B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Rute C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Rute D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Rute E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Dal"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Gletsjer"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Omvej"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Bakker"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Vej"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Bjerg"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunker"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Allé"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Væg"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Kampesten"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Værksteder"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Åbent område"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garage"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Kul"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Skibe"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Hangarskib"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Skyttegrave"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Bugtet vej"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Nord"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Syd"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Vest"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Øst"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Bakkekam"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Zeppelin"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Varehuse"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Kyst"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Flod"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Sø"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Vådområde"
+
+msgid "quickReply/hint/press"
+msgstr "Tryk"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "for at bekræfte"
+
+msgid "quickReply/hint/toCommend"
+msgstr "to commend back"
+
+msgid "quickReply/hint/toHelp"
+msgstr "for at assistere"
+
+msgid "quickReply/hint/toThank"
+msgstr "for at sige tak"
+
+msgid "recovery/cooldown"
+msgstr "Køretøjet kan forlades om %(cooldown)s sekunder"
+
+msgid "recovery/hint1"
+msgstr "Hold"
+
+msgid "recovery/hint2"
+msgstr "for at forlade køretøj"
+
+msgid "repairPoint/title"
+msgstr "Reparationer"
+
+msgid "repairPoint/unavailable"
+msgstr "Utilgængelig"
+
+msgid "respawnView/additionalTip"
+msgstr "Vælg et køretøj for at fortsætte. Hvis alle køretøjer er under reparation, vil du fortsætte kampen i det først tilgængelige køretøj."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Vælg et køretøj for at fortsætte. Det ødelagte køretøj kan ikke repareres før slutningen af kampen."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Grænse på front\nnået"
+
+msgid "respawnView/cooldownLbl"
+msgstr "Under reparation %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Ødelagt"
+
+msgid "respawnView/disabledLbl"
+msgstr "Køretøj utilgængeligt"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Passende køretøjer ikke valgt"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Niveau X køretøj er ikke i gruppen."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Kampen fortsætter om "
+
+msgid "respawnView/title"
+msgstr "Vælg køretøjer"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "JAVEL!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Tak for din deltagelse i udviklingen af World of Tanks! Vi sætter stor pris på dit personlige bidrag!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Takkebrev"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Du er blevet belønnet!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Tillykke!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Bekræftet!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Tillykke"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Nødpakke India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Nødpakke Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Til æsker"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Du har modtaget store æsker med værdifulde belønninger."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Du har modtaget æsker!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Du har modtaget små æsker med værdifulde belønninger for fuldførelse af missioner."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Det er på tide at finde ud af, hvad der er i æsken!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Bekræftet!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Creditakkumulering indstillet. Forlæng WoT premium konto for at fortsætte med at forny din credit-reserve."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Credits modtaget"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Credit-reserve åben"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Tillykke!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "JAVEL!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering inkluderet med Prime Gaming. Drag fordel af den på slagmarken."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Nødpakke Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Du er blevet belønnet!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "REKRUTTÉR"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Tillykke! Du har en ny særlig rekrut inkluderet med Prime Gaming."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Nødpakke Alfa"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Du er blevet belønnet!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "JAVEL!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Nødpakke Battle Pass"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "JAVEL!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Nødpakke Cosmic"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "JAVEL!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Nødpakke Starry Night"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Mere"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Nødpakke June"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Nødpakke July"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Mere"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Nødpakke Dime"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Starlight-pakke"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Queen Maeve-pakke"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Mistelten-samling"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Mere"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Den store fangst-samling"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "JAVEL!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering inkluderet med Prime Gaming. Drag fordel af den nu."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Nødpakke Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Du er blevet belønnet!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "\"G.I. JOE: Duke\"-pakke"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "\"G.I. JOE: Cobra\"-pakke"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Mere"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Rock Out!-pakke"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Den lydløse jæger-pakke"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Mere"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Fresh Look-pakke"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Mere"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Sommerfornemmelser-pakke"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Højspændingspakke"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Mere"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "For uhyggens skyld-pakke"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Vikinger blandt os"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Mere"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Frisk startpakke"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Nødpakke Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Mere"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Synth Waves"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Revolvermand"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Du har modtaget en unik belønning for abonnementet: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-Camo"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Kampklar"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Go Harriers!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Daggert"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Du har modtaget en unik belønning for abonnementet: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Heksekunst"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Heksecirklen viser sig"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Du kom til det forkerte nabolag"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Jeg bider kun lidt!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Du har modtaget en unik belønning for abonnementet: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Startsignal"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Vindende mål"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Alle tiders klassiker"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Du har modtaget en unik belønning for Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Højtidsdragt"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Charmerende gave"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Tung gave"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Dobbeltfejring"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Vælg belønninger"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Du har modtaget en unik belønning for abonnementet: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "En fager ny verden"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Beskuerens øje"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "En cyborgs anatomi"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Du er blevet set"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Nødpakke Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Nødpakke Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Nødpakke Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Nødpakke Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Nødpakke Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Rekrutter"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming. Nu kan du drage fordel af den."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Nødpakke Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Belønninger modtaget"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Bekræftet!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Dine klanmedlemmer stoler på din videre deltagelse\ni fremskridtet gennem Tour of Duty."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Dusør modtaget!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Til Tour of Duty"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Tour of Duty"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Bekræftet!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Dine klanmedlemmer stoler på din videre deltagelse\ni fremskridtet gennem Tour of Duty."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Belønning modtaget!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Til Tour of Duty"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Tour of Duty"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Tillykke!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Vores deling"
+
+msgid "scorePanel/playerScore"
+msgstr "Dit bidrag:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Deling %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm panserbrydende %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm panserbrydende komposit rigid %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm panserbrydende høj-eksplosiv %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm høj-eksplosiv %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm høj-eksplosiv anti-kampvogn %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Gennemsnitlig skade: %(value)s hp"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Skade per sekund: %(value)s hp/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Skaderadius: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Fuld/enkelt-ladning"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Gennemsnitlig gennembrydning: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Mundingshastighed: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Fortumlet varighed: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "for at skifte til belejringstilstand"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "for at skifte til rejsetilstand"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "De primære taster er ikke tildelt"
+
+msgid "siegeMode/hint/press"
+msgstr "Tryk"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "for at aktivere flydende brændstofboostere"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "for at aktivere jet-boostere"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "for at aktivere sekventielle raket-boostere"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Træf fjendtligt køretøj for at få yderligere effekt fra laser-målangiver"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "for at skifte motortilstand"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "til at skifte skudtilstand"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "for at skifte køretilstand"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "til at aktivere turbolader-assist"
+
+msgid "spotted/indicator"
+msgstr "Tid opdaget og skade modtaget begge forøget"
+
+msgid "spotted/seconds"
+msgstr "s"
+
+msgid "statistics/exit"
+msgstr "Tryk Esc for at returnere til garagen..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Tilintetgjort: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Base erobret: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Beskadiget:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Ram målet: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Træffere modtaget: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Base forsvar: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Tilintetgjort:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(post-mortem)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Skud: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Observeret:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Alle allierede køretøjer er ødelagt!"
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Alle køretøjer er ødelagt!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Alle fjendtlige køretøjer ødelagt."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Base erobret!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Kamptid udløbet!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Credits:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Exp:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Erfaring (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Reparationer:"
+
+msgid "statistics/final/status/lose"
+msgstr "Nederlag! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Uafgjort! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Sejr! %s"
+
+msgid "statistics/header"
+msgstr "Statistik over kampen"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Spiller"
+
+msgid "statistics/headers/header2"
+msgstr "Køretøjer"
+
+msgid "statistics/headers/header3"
+msgstr "Tilstand"
+
+msgid "statistics/headers/header4"
+msgstr "Ødelagt"
+
+msgid "statistics/playerState/0"
+msgstr "Ødelagt"
+
+msgid "statistics/playerState/1"
+msgstr "Ude af slaget"
+
+msgid "statistics/playerState/2"
+msgstr "Ødelagt"
+
+msgid "statistics/playerState/3"
+msgstr "I slaget"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Sammensætning"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Holdsammensætning"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Personlige reserver"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Aktivering af personlige reserver"
+
+msgid "statistics/tab/quests/header"
+msgstr "Missioner"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Personlige missioner er utilgængelige i denne kamptype"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Gå til kampagne fanen i garagen for at vælge en mission"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Du har ingen aktive missioner til dette køretøj"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Primær betingelse opfyldt"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Alle missioner fuldført"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Aktiv"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Resultatforbedring"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Sat på pause"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Visningen af missionsfremskridt er utilgængelig"
+
+msgid "statistics/tabs/group"
+msgstr "Holdbedrifter"
+
+msgid "statistics/tabs/heroes"
+msgstr "Helte fra slaget"
+
+msgid "statistics/tabs/personal"
+msgstr "Personlige Bedrifter"
+
+msgid "statistics/team1title"
+msgstr "Vores hold"
+
+msgid "statistics/team2title"
+msgstr "Fjendtligt hold"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Forlad\nødelæggelseszonen!"
+
+msgid "stun/indicator"
+msgstr "Mandskab fortumlet"
+
+msgid "stun/seconds"
+msgstr "s"
+
+msgid "tabStatsHint"
+msgstr "— Statistik"
+
+msgid "tankmen/commander"
+msgstr "Kommandør"
+
+msgid "tankmen/driver"
+msgstr "Kører"
+
+msgid "tankmen/gunner"
+msgstr "Skytte"
+
+msgid "tankmen/loader"
+msgstr "Lader"
+
+msgid "tankmen/radioman"
+msgstr "Radiooperatør"
+
+msgid "timer/battlePeriod"
+msgstr "Slutter om:"
+
+msgid "timer/started"
+msgstr "Kampen begynder!"
+
+msgid "timer/starting"
+msgstr "Kampen starter om:"
+
+msgid "timer/waiting"
+msgstr "Venter på spillere..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Tryk"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "for at skifte til sigtetypen"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "De primære taster er ikke tildelt"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Køretøj ødelagt af allieret %(entity)s i en dødszone."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Køretøj ødelagt af %(entity)s i en dødszone."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Køretøj ødelagt af farezonen."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Køretøjet blev druknet af allieret %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Køretøj druknet af %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Køretøj druknet."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Køretøj ødelagt af brand"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Køretøj ødelagt af allieret %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Køretøj ødelagt af %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Mandskab ukampdygtigt på grund af allieret %(entity)s anslag."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Mandskab ukampdygtigt på grund af %(entity)s anslag."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Mandskab ukampdygtig på grund af anslag."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Køretøj vendt rundt af allieret %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Køretøj vendt rundt af fjenden %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Køretøj ødelagt ved at vende rundt"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Allieret %(entity)s har ødelagt køretøj ved påkørsel."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s har ødelagt køretøj ved påkørsel."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Køretøjet ødelagt ved påkørsel."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Køretøj blev ødelagt af et skud fra %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s har ødelagt køretøj ved artilleriangreb."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s har ødelagt køretøj ved bombeangreb."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Køretøj ødelagt i sammenstød af allieret %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Køretøj ødelagt i sammenstød af fjende %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Køretøj ødelagt i ulykke."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Allieret %(entity)s skadede modul [%(device)s] ved påkørsel."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Allieret %(entity)s skadede modul [%(device)s] ved påkørsel."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Modul [%(device)s] beskadiget ved påkørsel."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Fjende %(entity)s skadede modul [%(device)s] ved påkørsel."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Fjende %(entity)s skadede modul [%(device)s] ved påkørsel."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Modul [%(device)s] beskadiget ved påkørsel."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Allieret %(entity)s anslag skadede modul [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Allieret %(entity)s anslag skadede modul [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Modulet [%(device)s] er beskadiget efter sammenstød."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Fjende %(entity)s anslag beskadigede modul [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Fjende %(entity)s anslag beskadigede modul [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Modulet [%(device)s] er beskadiget efter sammenstød."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Modulet [%(device)s] blev ødelagt i minefeltet."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Modulet [%(device)s] blev ødelagt i minefeltet."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Allieret %(entity)s har ødelagt modul [%(device)s] ved påkørsel."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Allieret %(entity)s har ødelagt modul [%(device)s] ved påkørsel."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Modul [%(device)s] ødelagt ved påkørsel."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Fjende %(entity)s har ødelagt modul [%(device)s] i sammenstød."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Fjende %(entity)s har ødelagt modul [%(device)s] i sammenstød."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Modul [%(device)s] ødelagt ved påkørsel."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Allieret %(entity)s anslag har ødelagt modul [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Allieret %(entity)s anslag har ødelagt modul [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Modul [%(device)s] blev ødelagt ved anslag."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Fjenden %(entity)s anslag har ødelagt modul [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Fjenden %(entity)s anslag har ødelagt modul [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Modul [%(device)s] blev ødelagt ved anslag."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "Modul [%(device)s] brød i brand ved sammenstød med allieret %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "Modul [%(device)s] brød i brand ved sammenstød med allieret %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Modul [%(device)s] brød i brand efter påkørsel."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "Modul [%(device)s] brød i brand efter påkørsel af fjende %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "Modul [%(device)s] brød i brand efter påkørsel af fjende %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Modul [%(device)s] brød i brand efter påkørsel."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] såret efter allieret %(entity)s anslag."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] såret efter allieret %(entity)s anslag."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] beskadiget på grund af anslag."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] såret efter fjende %(entity)s anslag."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] såret efter fjende %(entity)s anslag."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] beskadiget på grund af anslag."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "Den taktiske evne %(equipment)s er blevet aktiveret!"
+
+msgid "warning_zone/indicator"
+msgstr "Pas på! Du er tæt på farezonen."

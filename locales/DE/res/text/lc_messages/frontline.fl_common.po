@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Filter zurücksetzen"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Es gibt keine Fahrzeuge, die zu den ausgewählten Parametern passen.\nSetzen Sie die Filtereinstellungen zurück, um passende Fahrzeuge zu finden."
+
+msgid "battleType/description/fast"
+msgstr "Ein Szenario mit reduzierter Abklingzeit für Kampfreserven."
+
+msgid "battleType/description/random"
+msgstr "Ein Szenario, bei dem die Spieler unter Sätzen zufälliger Reserven auswählen und diese bis auf Stufe IV erhöhen können."
+
+msgid "battleType/description/standard"
+msgstr "Ein Szenario mit Standardregeln für „Frontlinie“."
+
+msgid "battleType/postBattle/title"
+msgstr "Gefechtsszenario: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Reduzierte Abklingzeit für Reserven."
+
+msgid "battleType/shortDescription/random"
+msgstr "Kampfreserven werden zufällig zugeteilt."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Standardregeln gelten."
+
+msgid "battleType/title/fast"
+msgstr "Einsatzunterstützung"
+
+msgid "battleType/title/random"
+msgstr "Laune des Schicksals"
+
+msgid "battleType/title/standard"
+msgstr "Standardgefecht"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "ZURÜCK"
+
+msgid "button/close"
+msgstr "SCHLIESSEN"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} Tag"
+msgstr[1] "{duration} Tage"
+msgstr[2] "{duration} Tage"
+
+msgid "filterPopover/note"
+msgstr "Hier werden nur Fahrzeuge angezeigt, die für den Modus genutzt werden können."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Die Stufen der Kampfreserven werden bei Erreichen eines neuen Rangs gesteigert."
+
+msgid "levelReservesTooltip/info"
+msgstr "Im Szenario {whiteSpanish_Start}Laune des Schicksals{whiteSpanish_End} steigert der Kauf einer Kampfreserve die Stufe um eins. Kampfreserven können bis auf Stufe {whiteSpanish_Start}%(lvl)s{whiteSpanish_End} gesteigert werden."
+
+msgid "levelReservesTooltip/level"
+msgstr "Steigert sich bei Erreichen des folgenden Rangs: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Verfügbar ab dem folgenden Rang: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Stufe {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Für {whiteSpanish_Start}gekaufte Kampfreserven{whiteSpanish_End} im Szenario {whiteSpanish_Start}Laune des Schicksals{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Stufen der Kampfreserven"
+
+msgid "loading"
+msgstr "Wird geladen ..."
+
+msgid "widget/eventStartSoon"
+msgstr "Das Event beginnt bald!"
+
+msgid "widget/maxTier"
+msgstr "Sie haben die höchste Stufe erreicht!"

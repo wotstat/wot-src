@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Myös saatu:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Tämän tehtäväsarjan voi pelata uusiksi."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Selvä!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Sulje"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Näytä tallissa"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Uusinta"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Tulikokeeseen"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT Premium-tiliä"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Premium-vaunu"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Vuokravaunu"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "ja \"{{styleName}}\" -tyyli"
+
+msgid "awards_view/reward/multi"
+msgstr "x{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) päivä"
+msgstr[1] "%(day) päivää"
+msgstr[2] "%(day) päivää"
+
+msgid "awards_view/title"
+msgstr "TULIKOE SUORITETTU!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Tehtävä x5 kokemukseen per taistelu"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Piirustuksen palanen (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Yleinen piirustuksen palanen"
+
+msgid "bonuses/bpcoin"
+msgstr "Taistelupassin poletti"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Tehtävä x3 miehistökokemukseen"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Kolmiulotteisten lisävarusteiden lajitelma"
+
+msgid "bonuses/description/booster"
+msgstr "Henkilökohtainen reservi"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Palkkiovaruste"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Miehistöskini"
+
+msgid "bonuses/description/directive"
+msgstr "Direktiivi"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Kokeellinen varuste"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Paranneltu varuste"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "ja \"%(styleName)s\" -tyyli"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Tavallinen varuste"
+
+msgid "bonuses/description/style"
+msgstr "Kaksiulotteinen tyyli"
+
+msgid "bonuses/description/style_3d"
+msgstr "Kolmiulotteinen tyyli"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Naismiehistön jäsen"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Värvää"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Miehistön jäsen"
+
+msgid "condition/achievement"
+msgstr "Ansaitse \"%(achievement)s\" -palkinto"
+
+msgid "condition/achievement/title"
+msgstr "Taistelusankarit"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Aiheuta ja avusta yhteensä %(goal)s pistettä vahinkoa"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Aiheuta, kärsi ja torju yhteensä %(goal)s pistettä vahinkoa"
+
+msgid "condition/aggregated/title"
+msgstr "Monimutkainen ehto"
+
+msgid "condition/classes/AT-SPG"
+msgstr "PST-vaunu"
+
+msgid "condition/classes/SPG"
+msgstr "Telatykki"
+
+msgid "condition/classes/heavyTank"
+msgstr "Raskas vaunu"
+
+msgid "condition/classes/lightTank"
+msgstr "Kevyt vaunu"
+
+msgid "condition/classes/mediumTank"
+msgstr "Keskiraskas vaunu"
+
+msgid "condition/critsCount"
+msgstr "Aiheuta %(goal)s kriittistä osumaa vihollisvaunujen sisäisiin tai ulkoisiin moduuleihin"
+
+msgid "condition/critsCount/title"
+msgstr "Tee liikuntakyvyttömäksi"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Torju %(goal)s pistettä vahinkoa"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Torju yli %(goal)s kertaa oman vaunusi kestopisteiden verran vahinkoa"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Torju"
+
+msgid "condition/damageDealt"
+msgstr "Aiheuta %(goal)s pistettä vahinkoa vihollisvaunuihin"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Aiheuta yli %(goal)s kertaa oman vaunusi kestopisteiden verran vahinkoa"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Osu vihollisvaunuihin enintään %(distance)s m päästä %(goal)s kertaa"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Osu vihollisvaunuihin vähintään %(distance)s m päästä %(goal)s kertaa"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Aiheuta vahinkoa vihollisvaunuihin törmäämällä niihin %(goal)s kertaa"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Osu näköetäisyytesi sisäpuolella oleviin vihollisvaunuihin %(goal)s kertaa"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Aiheuta %(goal)s pistettä vahinkoa taistelun ensimmäisen %(timeLimit)s minuutin aikana"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Aiheuta %(goal)s pistettä vahinkoa vihollisvaunuihin korkeintaan %(distance)s m etäisyydeltä"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Aiheuta %(goal)s pistettä vahinkoa vihollisvaunuihin vähintään %(distance)s m etäisyydeltä"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Aiheuta %(goal)s pistettä vahinkoa törmäämällä"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Törmääminen"
+
+msgid "condition/damageDealt/title"
+msgstr "Vahinko"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Aiheuta %(goal)s pistettä vahinkoa havaitsemattomiin vihollisvaunuihin"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Aiheuta %(goal)s pistettä vahinkoa näköetäisyydelläsi oleviin vihollisvaunuihin"
+
+msgid "condition/kills"
+msgstr "Tuhoa %(goal)s vihollisvaunua"
+
+msgid "condition/kills/classes"
+msgstr "Tuhoa %(goal)s vihollista luokasta: %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Tuhoa %(goal)s vihollisvaunua %(classCount)s eri vaunutyypistä"
+
+msgid "condition/kills/title"
+msgstr "Tuhoa"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Tuhoa %(goal)s vihollisvaunua kärsimättä lainkaan vahinkoa"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Tuhoa %(goal)s vaunua ollessasi itse havaitsematon"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Aiheuta %(goal)s%% joukkueesi kaikkiaan tekemästä vahingosta."
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Vahinko"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Läpäise vihollisen panssari %(goal)s kertaa"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Läpäisy"
+
+msgid "condition/spotted"
+msgstr "Havaitse %(goal)s vihollisvaunua"
+
+msgid "condition/spotted/title"
+msgstr "Havaitse"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Havaitse %(goal)s vaunua ollessasi itse havaitsematon"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Havaitse"
+
+msgid "condition/top/damageDealt"
+msgstr "Ole joukkueesi %(rank)s eniten vahinkoa tehneen pelaajan joukossa."
+
+msgid "condition/top/damageDealt/total"
+msgstr "Ole %(rank)s eniten vahinkoa tehneen pelaajan joukossa kumpikin joukkue huomioiden."
+
+msgid "condition/top/title"
+msgstr "Paras pelaaja"
+
+msgid "condition/top/xp"
+msgstr "Ole joukkueesi %(rank)s eniten kokemusta ansainneen pelaajan joukossa."
+
+msgid "condition/unknown"
+msgstr "Etsitään sopivinta tehtävää..."
+
+msgid "condition/unknown/title"
+msgstr "Odotetaan"
+
+msgid "postbattle/name"
+msgstr "TULIKOE: "

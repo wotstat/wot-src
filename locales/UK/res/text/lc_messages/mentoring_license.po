@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Для здійснення операції введіть кількість досвіду, який передасть вибраний член екіпажу."
+
+msgid "assignmentDialog/price"
+msgstr "Вартість:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Передання всього досвіду між членами екіпажу"
+
+msgid "assignmentDialog/title"
+msgstr "Підтвердьте Курс наставництва"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Члена екіпажу буде видалено з\nвашого акаунту без можливості відновлення."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "Буде втрачено {xpLose} од. додаткового досвіду."
+
+msgid "dialogue/description"
+msgstr "Спорядження, яке дозволяє передати весь досвід одного члена екіпажу іншому танкісту тієї ж нації."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Буде втрачено додаткового досвіду:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "ВИБРАТИ"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Сумарний досвід:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Ліцензія(-ї) на наставництво:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Немає придатних членів екіпажу"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Виберіть члена екіпажу, який передасть свій досвід\nтанкісту {cream_Open}%(name)s{cream_Close} та буде видалений з акаунту."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Після передання досвіду екіпажу {cream_Open}%(name)s{cream_Close} досягне ліміту навичок, і весь досвід понад ліміт буде втрачено."
+
+msgid "mentorAssigment/title"
+msgstr "ОБЕРІТЬ НАСТАВНИКА"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "Член екіпажу {bond_Open}%(name)s{bond_Close} досяг ліміту навичок і не може бути вибраний для передання досвіду."
+
+msgid "multipleUserName"
+msgstr "Ліцензії на наставництво"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Використано Ліцензій на наставництво: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Передано досвіду екіпажу: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Курс наставництва"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Втрачено додаткового досвіду екіпажу: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Дозволяє передати весь досвід одного члена\nекіпажу іншому танкісту тієї ж нації."
+
+msgid "storage/userName"
+msgstr "Ліцензія на наставництво"
+
+msgid "userName"
+msgstr "Ліцензія на наставництво"

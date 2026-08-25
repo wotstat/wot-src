@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Створення формування від 2 до 5 гравців для спільної гри\nв режимі «Останній рубіж»."
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Взвод"
+
+msgid "members/header/last_stand"
+msgstr ": Останній рубіж: Терра Норд"
+
+msgid "members/header/tooltip/last_stand/body"
+msgstr "Для участі в бою події у всіх учасників взводу має бути доступ до рівня складності, вибраного командиром."
+
+msgid "members/header/tooltip/last_stand/header"
+msgstr "Правила формування взводу"
+
+msgid "platoon/commander/difficulty_body"
+msgstr "Ви можете вибрати будь-який із доступних рівнів складності."
+
+msgid "platoon/difficulty/error_body_1"
+msgstr "Доступні рівні складності: звичайний."
+
+msgid "platoon/difficulty/error_body_2"
+msgstr "Доступні рівні складності: звичайний, просунутий."
+
+msgid "platoon/difficulty/error_header"
+msgstr "Рівень складності недоступний"
+
+msgid "platoon/difficulty/level_1"
+msgstr "Складність: звичайна"
+
+msgid "platoon/difficulty/level_2"
+msgstr "Складність: просунута"
+
+msgid "platoon/difficulty/level_3"
+msgstr "Складність: люта"
+
+msgid "platoon/difficulty/level_4"
+msgstr "Складність: Останній рубіж"
+
+msgid "platoon/difficulty/lock_header"
+msgstr "Рівень складності заблокований"
+
+msgid "platoon/difficulty/maxAvailable"
+msgstr "Доступна складність {%(icon)s}"
+
+msgid "platoon/difficulty/warning_body"
+msgstr "Один чи більше учасників взводу ще не розблокували цей рівень складності."
+
+msgid "platoon/difficulty/warning_header"
+msgstr "Несумісна складність"
+
+msgid "platoon/dropdown/difficulty_1"
+msgstr "звичайна %(icon)s"
+
+msgid "platoon/dropdown/difficulty_2"
+msgstr "просунута %(icon)s"
+
+msgid "platoon/dropdown/difficulty_3"
+msgstr "люта %(icon)s"
+
+msgid "platoon/dropdown/header/difficulty"
+msgstr "{whiteSpanish_Open}Складність: {whiteSpanish_Close}%(difficulty)s"
+
+msgid "platoon/player/difficulty_body"
+msgstr "Тільки командир взводу може міняти рівень складності."
+
+msgid "platoon/simpleState/difficultyDisabled"
+msgstr "Недоступно з технічних причин."
+
+msgid "platoon/simpleState/lockVehicle"
+msgstr "Вибрана машина недоступна."
+
+msgid "platoon/simpleState/notAvailableLevel"
+msgstr "Рівень складності несумісний для взводу."

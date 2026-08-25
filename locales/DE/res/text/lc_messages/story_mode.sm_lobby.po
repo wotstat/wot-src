@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, Gefechtsdauer: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "SCHLIESSEN"
+
+msgid "battleResult/continueButton"
+msgstr "Weiter"
+
+msgid "battleResult/damageAssisted"
+msgstr "Ermöglichter\nSchaden"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Abgewehrter\nSchaden"
+
+msgid "battleResult/damageDealt"
+msgstr "Verursachter\nSchaden"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Wenn Sie Aufträge auf Schwierigkeitsgrad „Schwer“ abschließen,\nwerden diese auch automatisch auf Schwierigkeitsgrad „Standard“ als abgeschlossen gewertet.\nSie erhalten dadurch die Belohnungen für beide Schwierigkeitsgrade."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Wenn Sie Aufträge auf Schwierigkeitsgrad „Schwer“ abschließen, werden diese auch automatisch auf Schwierigkeitsgrad „Standard“ als abgeschlossen gewertet.\nSie erhalten dadurch die Belohnungen für beide Schwierigkeitsgrade."
+
+msgid "battleResult/kills"
+msgstr "Zerstörte\nGegner"
+
+msgid "battleResult/lose/title"
+msgstr "DAS GEFECHT IST VORBEI"
+
+msgid "battleResult/missionName/1"
+msgstr "TIGER-JÄGER: Operation Stahllawine"
+
+msgid "battleResult/missionName/2"
+msgstr "TIGER-JÄGER: Operation Pelzjäger"
+
+msgid "battleResult/missionName/3"
+msgstr "TIGER-JÄGER: Operation Hammer und Amboss"
+
+msgid "battleResult/missionName/4"
+msgstr "TIGER-JÄGER: Operation Katze in der Mausefalle"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERATION OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERATION POSTMAN"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERATION SIEDEPUNKT"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Keine aktiven\nAufträge"
+
+msgid "battleResult/rewards/other"
+msgstr "Auch erhalten:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Aufträge\nabgeschlossen"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s – %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Überlebt{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Nicht überlebt{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "SIEG!"
+
+msgid "countdown/days"
+msgstr "{days} T."
+
+msgid "countdown/daysHours"
+msgstr "{days} T. {hours} Std."
+
+msgid "countdown/endsSoon"
+msgstr "Weniger als {minutes} Minuten"
+
+msgid "countdown/hours"
+msgstr "{hours} Std."
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} Std. {minutes} Min."
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} Std. {minutes} Min."
+
+msgid "countdown/lessThanMinute"
+msgstr "Weniger als 1 Minute"
+
+msgid "countdown/minutes"
+msgstr "{minutes} Min."
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} Min."
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Abbrechen"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Sie verdienen keine Belohnungen für den Abschluss dieser Operation.\nWollen Sie die Operation dennoch ohne aktive Aufträge spielen?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Bestätigen"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Keine aktiven Aufträge in dieser Operation"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Identifizieren Sie die unbekannte Bedrohung, halten Sie den Raketenstart auf und stellen Sie sicher, dass die neuen Technologien in die richtigen Hände gelangen."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Spielen Sie allein und kämpfen Sie in einer epischen Geschichte mit Kommandanten von Sektor 3 gegen computergesteuerte Gegner!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Schließen Sie alle Aufträge ab, um ein Erinnerungsabzeichen und eine Medaille, 2D-Stile und weitere wertvolle Belohnungen zu erhalten."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Anbeginn einer neuen Ära"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Einzelspieler-Geschichte"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Belohnungen"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERATION SIEDEPUNKT"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Geschichten"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Schwer"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Standard"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Schwer:\nMinenfeld"
+
+msgid "missionSelection/exitButton"
+msgstr "MODUS VERLASSEN"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERATION\nSTAHLLAWINE"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERATION\nPELZJÄGER"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERATION\nHAMMER UND AMBOSS"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERATION\nKATZE IN DER MAUSEFALLE"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERATION\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERATION\nPOSTMAN"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERATION\nSIEDEPUNKT"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: „Also, wie geht es dir? Geht es wieder? Die Sanis schauen später nach dir. Wir brauchen jetzt jedes Geschütz. Der Ansturm hat begonnen. Und weil wir zu spät gekommen sind, konzentriert sich der Gegner komplett auf die andere Flanke. Das ist unsere Chance. Wir greifen sofort an, pronto. Brechen in die Stadt durch und nehmen sie in die Zange.\nFolge uns, und Vorsicht vor den Drachenzähnen. Die haben mehrere Reihen von diesen Betonhöckern über das Feld verstreut aufgestellt. Aber das passt schon. Wir kommen schon durch. Du musst nur auf mich hören und meine Befehle schnell und präzise ausführen. MacLeod und ich geben dir Deckung.\nUnd achte nicht auf seine Scherze. Jeder hat seine eigene Art, Stress zu bewältigen. Vorwärts!“"
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: „Ah, Tiger. Das Schlimmste, was dir auf dem Schlachtfeld begegnen kann. Wenn der Befehlsstab meint, wir haben ein Problem, dann meinen die meistens Tiger. Wir haben den Kontakt zum ersten Sturmteam verloren, die zweite Gruppe ist eben aufgebrochen. Und da sind wir nun und sollen ihnen folgen.\nUnd wenn sie uns schicken, kann das nur eins bedeuten: Tiger. So sagt man ja in der Zentrale: „Schickt die Tigerexperten.“ Neun Panzer zu zweit. Nicht zu schlecht in einem halben Jahr. Du führst 5:4. Aber noch kann ich dich einholen. Und mir endlich diese verdammte Medaille holen!\nKomm schon. Brooks wartet nicht gerne. Die Jagd beginnt.“"
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: „Gut, jetzt mal hergehört. Operation Hammer und Amboss. Ein einfacher Name für eine nicht ganz so einfache Aufgabe. Wir ziehen in die Stadt und vertreiben alle Gegner, die noch da stecken. Das wird kein Spaziergang, uns erwarten wirklich zähe Brocken. Aber wir haben schließlich Köpfchen und die nötigen Muskeln, zusammen schaffen wir das. Oder, Lucky? Und jetzt mal zackig, Jungs. Ich hab noch 'ne Verabredung zum Tee um Fünf, wenn ihr wisst, was ich meine!“"
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: „Frag nicht, Lucky. Ich weiß auch nicht mehr. Mir gefällt all diese Heimlichtuerei auch nicht, ich mag es lieber direkter. Zeig mir einen Gegner und ich greife an. Aber das hier? So ein Schlamassel.\n\nIn der Stadt warten Verbündete auf uns. Brooks meinte, wir sollen vorsichtig vorgehen. Was das wohl heißen soll?\nWir haben eine besondere Aufgabe. Wir müssen eine Art Wunderwaffe finden, irgendwas Riesiges auf Ketten. Und nun liegt alles an uns, Lucky.\n\nBereit? Dann rücken wir aus.“"
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Captain John McCormick: „Gut, Jungs, es ist an der Zeit, diesem Krieg ein Ende zu bereiten. Dazu sind wir ja hier, wir alle. Amerikaner, Briten, Franzosen, Kanadier, Australier, Belgier, Tschechoslowaken, Griechen, Holländer, Kiwis, Norweger, Polen. Wir stehen zusammen, um das Böse ein und für allemal zu besiegen.\n\nWir werden den Atlantikwall durchbrechen und einen Brückenkopf einrichten.\n\nMacht euch zur Landung bereit!“"
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Captain Smith: „Jetzt hört mal her. Deutschland hat schon vor Stunden die Kapitulation unterzeichnet. Der Krieg ist morgen zu Ende. Aber der Funkkontakt zu unseren Jungs in den Bergen ist abgebrochen. Sie haben keine Ahnung, dass es vorbei ist. Bei Tagesanbruch werden sie diese verdammte Festung angreifen, und auch die Deutschen, die da drin stecken, wissen nichts von der Kapitulation. Das wird ein sinnloses Abschlachten. \n\nNur wir können dem Einhalt gebieten. Unser Auftrag: Wir müssen unerkannt durch die gegnerischen Linien dringen und den Befehl für den Waffenstillstand überbringen. Das wird ein Selbstmordkommando, aber das ist es wert, für all die Leben, die wir retten können. \n\nEin gefangener deutscher Funker kommt mit uns, er kennt das Gelände und hat ebenso wie wir ein Interesse daran, das Blutvergießen zu beenden. \n\nAusrücken.“"
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: „Die Situation ist kritisch. Wir haben den Kontakt mit einer Raketenbasis in der Norwegischen See verloren. Das Aufklärungsflugzeug ist nie zurückgekehrt und die erste Panzerlandetruppe wurde von einem unbekannten Gegner ausgeschaltet.\n\nBerichten zufolge wird der Start eines ballistischen Flugkörpers vorbereitet. Das Ziel ist unbekannt, doch in der aktuellen politischen Lage kann ein einziger Raketenschlag einen weltweiten Konflikt auslösen.\n\nGenau wie früher, oder? Einfach nur ein weiterer unmöglicher Auftrag hinter feindlichen Linien. Ausrücken!“"
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERATION STAHLLAWINE"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERATION PELZJÄGER"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERATION HAMMER UND AMBOSS"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERATION KATZE IN DER MAUSEFALLE"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERATION OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERATION POSTMAN"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERATION SIEDEPUNKT"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Spezialfahrzeug"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERATION SIEDEPUNKT"
+
+msgid "missionSelection/tab/newbies"
+msgstr "TUTORIAL-GESCHICHTEN"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Greifen Sie die Stadt an und zerstören Sie gegnerische Fahrzeuge."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Greifen Sie die Stadt an und zerstören Sie gegnerische Fahrzeuge."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Greifen Sie die Stadt an und zerstören Sie gegnerische Fahrzeuge."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Schließen Sie die Hauptziele des Auftrags ab, ohne Schaden durch gegnerische Minen zu nehmen."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Schließen Sie die Hauptziele des Auftrags ab, ohne ein einziges Fahrzeug zu verlieren."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Greifen Sie die Stadt an und erobern Sie die Wunderwaffe des Gegners."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Schließen Sie die Hauptziele des Auftrags in weniger als %(win_timer)s ab."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Schließen Sie die Hauptziele des Auftrags ab und zerstören Sie %(kill_enemies)s mit Hilfe des Flugzeugs."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Brechen Sie durch, zerstören Sie die Küstengeschütze und erobern Sie den Brückenkopf."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Schließen Sie die Hauptziele des Auftrags in weniger als %(win_timer)s ab."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Schließen Sie die Hauptziele des Auftrags ab, ohne ein einziges Fahrzeug zu verlieren."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Bringen Sie den Befehl zum Waffenstillstand zu Ihren Verbündeten."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Schließen Sie die Hauptziele des Auftrags ab und zerstören Sie weniger als %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Schließen Sie die Hauptziele des Auftrags ab, ohne ein einziges Fahrzeug zu verlieren."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Erreichen Sie die Kommandozentrale und halten Sie den Raketenstart auf."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Schließen Sie die Hauptziele des Auftrags in weniger als %(win_timer)s ab."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Schließen Sie die Hauptziele des Auftrags ab, ohne ein einziges Fahrzeug zu verlieren."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s gegnerisches Fahrzeug"
+msgstr[1] "%(value)s gegnerische Fahrzeuge"
+msgstr[2] "%(value)s gegnerische Fahrzeuge"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Der Auftrag ist gesperrt: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s Minute"
+msgstr[1] "%(value)s Minuten"
+msgstr[2] "%(value)s Minuten"
+
+msgid "missionSelection/taskRewards"
+msgstr "Belohnung:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Das Fahrzeug ist nur in den Geschichten verfügbar."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Schließen Sie noch %(numBattles)s Zufallsgefechte ab,\num diese Operation freizuschalten."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Szenarios für Einsteiger"
+
+msgid "mode/story_mode/description"
+msgstr "Schließen Sie Operationen innerhalb einer Geschichte gegen computergesteuerte Fahrzeuge ab."
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operation Siedepunkt ist verfügbar"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Den aktuell ausgewählten Spielmodus sehen Sie oben im Hauptmenü der Garage. Klicken Sie auf den Namen des Modus, um andere verfügbare Spielmodi angezeigt zu bekommen."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Klicken Sie auf &zwnbsp;{whiteSpanish_Open}Geschichten{whiteSpanish_Close}&zwnbsp;, um diesen Spielmodus auszuwählen."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "Im Spielmodus „Geschichten“ können Sie PvE-Szenarien mit einer Geschichte erleben, in die Atmosphäre heldenhafter Gefechte eintauchen und wertvolle Belohnungen verdienen!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Betreten Sie die Auswahl des Spielmodus"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Wählen Sie „Geschichten“"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Genießen Sie die PvE-Action"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "GESCHICHTEN"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Szenarien mit einer Geschichte erwarten Sie"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Neu starten"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "DAS GEFECHT IST VORBEI"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Überspringen"
+
+msgid "onboardingQueue/skipText"
+msgstr "Alle Server sind beschäftigt. Bitte warten Sie oder überspringen Sie diese Geschichte."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Wir bereiten den Server für Sie vor. Einen Moment Geduld bitte ..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Von Panzerung abgewehrter Schaden {parSecondary_Start}(Einheiten){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Abgewehrter Schaden"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Treffer von HE- und HESH-Granaten werden nicht gewertet."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Gewertet:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Abpraller gegnerischer Schüsse"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Nicht durchschlagende Treffer"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Ermöglichter Schaden"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Der folgende von Ihnen ermöglichte Schaden durch Verbündete wird gewertet:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Schaden durch Ihre Aufklärung"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Schaden durch von Ihnen zerstörte Ketten und Festsetzen eines gegnerischen Fahrzeugs"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Gesamtschaden durch Verbündete\n{parSecondary_Start}(Einheiten){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Verursachter Schaden"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Gewertet:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Schaden durch Schuss"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Schaden durch Rammen"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Schaden durch Brand"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Schaden durch Schieben des gegnerischen Fahrzeugs von einem Hindernis"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Gesamtschaden {parSecondary_Start}(Einheiten){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Zerstörte Gegner"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Gewertet:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Zerstörung durch Schuss"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Zerstörung durch Brand"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Zerstörung durch Rammen"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Zerstörung durch Versinken"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Zerstörung durch Schieben des gegnerischen Fahrzeugs von einem Hindernis"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Zerstörung durch Überschlagen"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Erfüllte Aufträge"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Die Anzahl abgeschlossener Aufträge und\naller aktuell verfügbaren Aufträge.\nAuf Schwierigkeit „Schwer“ abgeschlossene\nAufträge gelten auch automatisch auf\nSchwierigkeit „Standard“ als abgeschlossen."
+
+msgid "tooltips/difficulty/available"
+msgstr "Verfügbar"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Die Reaktionsgeschwindigkeit und Genauigkeit der Gegner ist gesteigert, und sie greifen aggressiver an. Dafür erhalten Sie nach Auftragsabschluss zusätzliche Belohnungen."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Wenn Sie Aufträge auf Schwierigkeitsgrad {whiteSpanish_Open}Schwer{whiteSpanish_Close} abschließen, werden diese auch automatisch auf Schwierigkeitsgrad {whiteSpanish_Open}Standard{whiteSpanish_Close} als abgeschlossen gewertet. Sie erhalten dadurch die Belohnungen für beide Schwierigkeitsgrade."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Zusätzliche Bedingung"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Schwer"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Um den Schwierigkeitsgrad „Schwer” freizuschalten, müssen Sie Ihr Können im Spielmodus beweisen, indem Sie die Operation auf Schwierigkeit „Standard” abschließen."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Gesperrt"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Gegner sind langsamer und weniger genau. Für den Abschluss des Auftrags erhalten Sie die Standardbelohnungen."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Standard"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Ausgewählt"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Eine schwierigere Version des Abschnitts „Minenfeld“ in der Operation. Wagen Sie sich in dieses tödliche Labyrinth?\nBringt mehr Gefechtsbelohnungen."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Schwer: Minenfeld"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Identifizieren Sie die unbekannte Bedrohung, halten Sie den Raketenstart auf und stellen Sie sicher, dass die neuen Technologien in die richtigen Hände gelangen."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operation Siedepunkt"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "MODUS"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "– Spielmodus. Zum Erforschen klicken."
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Spielen Sie allein und kämpfen Sie in einer epischen Geschichte mit Kommandanten von Sektor 3 gegen computergesteuerte Gegner!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Verbleibende Zeit im Event: {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "GESCHICHTEN"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "MODUS"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "– Spielmodus. Zum Erforschen klicken."
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Besondere Szenarien mit vorgeschriebenem Handlungsverlauf. Begeben Sie sich auf eine Reise in die Welt der gepanzerten Fahrzeuge und beweisen Sie Ihr Können im Gefecht gegen computergesteuerte Gegner."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Geschichten"
+
+msgid "tooltips/task/active"
+msgstr "Aktiv"
+
+msgid "tooltips/task/completed"
+msgstr "Abgeschlossen"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Unbekannte Bedingungen"
+
+msgid "tooltips/task/locked"
+msgstr "Gesperrt: %(timer)s"

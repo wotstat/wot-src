@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "KOUPIT"
+
+msgid "buttons/cancel"
+msgstr "Zrušit"
+
+msgid "buttons/learn"
+msgstr "Prostudovat"
+
+msgid "buttons/postProgression/claim"
+msgstr "VYZVEDNOUT"
+
+msgid "buttons/postProgression/hint"
+msgstr "PŘEJÍT NA PO-POSTUP"
+
+msgid "buttons/postProgression/howTo"
+msgstr "JAK ZÍSKAT"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Směnný kurz:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "–%(discount) %"
+
+msgid "card/freeExp/mainText"
+msgstr "Uplatňuje se na vybraného člena posádky.\nUrychluje výcvik aktuální schopnosti pomocí volných ZK."
+
+msgid "card/freeExp/title"
+msgstr "VOLNÉ ZKUŠENOSTI"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Efektivita schopností: 100 %\n• Specializace: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Uplatňuje se na celou posádku.\nPoskytuje každému členovi posádky %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "VÝCVIKOVÁ BROŽURA (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "VÝCVIKOVÝ MANUÁL (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "PRŮVODCE VÝCVIKEM (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Používá se bez omezení."
+
+msgid "card/personalBook/mainText"
+msgstr "Uplatňuje se na vybraného člena posádky.\nPoskytuje tomuto členovi posádky %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "OSOBNÍ VÝCVIKOVÝ MANUÁL"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Efektivita schopností: 100 %\n• Specializace: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Uplatňuje se na celou posádku.\nPoskytuje každému členovi posádky %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "UNIVERZÁLNÍ MANUÁL"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "UNIVERZÁLNÍ BROŽURA"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "UNIVERZÁLNÍ PRŮVODCE"
+
+msgid "confirm/crewLabel"
+msgstr "Každý člen posádky získá %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Každý člen posádky získá %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) získá dalších %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) získá %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Někteří členové posádky získají %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Výcviková brožura (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Výcviková brožura"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "VÝCVIKOVÁ BROŽURA"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} ZK posádky pro každého člena posádky."
+
+msgid "items/crewBook/Name"
+msgstr "Výcvikový manuál (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Výcvikový manuál"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "VÝCVIKOVÝ MANUÁL"
+
+msgid "items/guide/Name"
+msgstr "Průvodce výcvikem (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Průvodce výcvikem"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "PRŮVODCE VÝCVIKEM"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} zkušeností pro vybraného člena posádky"
+
+msgid "items/personalBook/Name"
+msgstr "Osobní výcvikový manuál"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} ZK posádky pro každého člena posádky."
+
+msgid "items/universalBook/Name"
+msgstr "Univerzální manuál"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} zkušeností pro každého člena posádky."
+
+msgid "items/universalBrochure/Name"
+msgstr "Univerzální brožura"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} zkušeností pro každého člena posádky."
+
+msgid "items/universalGuide/Name"
+msgstr "Univerzální průvodce"
+
+msgid "page/mentoringLicense/hint"
+msgstr "PŘEJÍT NA ŠKOLÍCÍ OPRÁVNĚNÍ"
+
+msgid "page/mentoringLicense/title"
+msgstr "ŠKOLÍCÍ OPRÁVNĚNÍ"
+
+msgid "page/title"
+msgstr "RYCHLÝ VÝCVIK"
+
+msgid "tooltip/buyManual"
+msgstr "Zakoupit výcvikový manuál"
+
+msgid "tooltip/mouseWheel"
+msgstr "Rolujte kolečkem {mouseIcon}, abyste zvýšili/snížili počet knih posádky."
+
+msgid "tooltip/outOfStock"
+msgstr "Nezbývají žádné knihy posádky"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Nezbývají žádné knihy posádky. Kupte si je v obchodě."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Uplatňuje se na vybraného člena posádky. Poskytuje tomuto členovi posádky %(xp)s zkušeností."
+
+msgid "tooltip/postProgression"
+msgstr "Přejít na po-postup"
+
+msgid "tooltip/sale/header"
+msgstr "Výhodný směnný kurz"
+
+msgid "tooltip/sale/newRate"
+msgstr "Nový směnný kurz: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Předchozí směnný kurz: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Klikněte na %(controlsImg) pro zvýšení/snížení úrovně výcviku schopnosti o 1 %."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Stiskněte %(pgupImg)/%(pgdownImg) pro zvýšení úrovně výcviku schopnosti na&nbsp;100 % / pro&nbsp;návrat k předchozí schopnosti."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Uplatňuje se na celou posádku. Poskytuje každému členovi posádky %(xp)s zkušeností."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Uplatňuje se na celou posádku. Poskytuje každému členovi posádky %(xp)s zkušeností."

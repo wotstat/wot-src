@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "Klanda {role}"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "HESAP DURUMUNA GİT"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "GERİ"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Haritayı {} içinde değiştirebileceksiniz."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Bu türdeki haritaları göster/gizle."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Çöl Haritaları"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Yaz Haritaları"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Kış Haritaları"
+
+msgid "mapsBlacklist/header"
+msgstr "Engellenen Haritalar"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Oyun döngünüzden istemediğiniz bir haritayı engelleyin. WoT Premium ile bir harita daha, WoT Plus ile %(mapCount)s harita daha engellleyin. Aboneliklerden herhangi biri sona ererse engellenen haritalar en sağdakinden başlayarak tekrar döngüye girer."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Engellenen Haritalar"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Bu haritalar sadece Rastgele Savaşlarda engellenir."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Engellediğiniz bir haritayı her %(maxCooldownTimeStr)s bir değiştirebilirsiniz."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Bu özellik Seviye IV ve üstü araçlar için geçerlidir."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "Takımlarda sadece Takım Komutanının seçtiği haritalar engellenir."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Gösterilen haritalar: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Gösterilen haritalar: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Harita türleri:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "İptal"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Kapat"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Seçili harita {mapNameStr} haritası ile değiştirilecek. Seçiminizi {cooldownStr} sonra değiştirebilirsiniz."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Hangi haritayı değiştirmek istiyorsunuz?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Engelle"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Değiştirmek istediğiniz bir harita seçin"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "İptal"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Kapat"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Seçiminizi {cooldownStr} sonra değiştirebilirsiniz."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "{mapNameStr} haritasını Rastgele Savaşlarda engelleyecek misiniz?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Engelle"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Engelle"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "{mapNameStr} haritasını engelleyecek misiniz?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Ekle"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "{mapNameStr} haritasını Rastgele Savaşlara ekleyecek misiniz?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Bu haritayı {cooldownStr} sonra değiştirebilirsiniz."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Harita Değiştirme Yapılamaz"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Bu haritayı {cooldownStr} sonra değiştirebilirsiniz."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Harita Değiştirme Yapılamaz"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Seçili Değil"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Rastgele Savaşlarda engellenecek bir harita seçmek için tıklayın."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Harita Seçili Değil"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Engellenen {mapName} haritası başka biriyle değiştirilebilir."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Harita Değiştirme Yapılabilir"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "{mapName} haritasını {cooldownStr} sonra değiştirebilirsiniz."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Harita Değiştirme Yapılamaz"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Ek bir yuva sadece aktif bir WoT Premium Hesap ile kullanılabilir."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Yuva Kullanılamaz"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Rastgele Savaşlarda engellemek için aşağıdaki listeden bir harita seçin."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Harita Seçili Değil"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Rastgele Savaşlarda engellemek için aşağıdaki listeden bir harita seçin."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Harita Değiştirme Yapılabilir"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Bu haritayı {cooldownStr} sonra değiştirebilirsiniz."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Harita Değiştirme Yapılamaz"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Ek bir haritayı engellemek için yuva ancak aktif bir WoT Premium Hesap ile kullanılabilir."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Yuva Kullanılamaz"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "İptal"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Seçiminizi {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close} sonra değiştirebilirsiniz."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Değiştir"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Engelle"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "%(mapName)s haritasını Rastgele Savaşlarda engelleyecek misiniz?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Seçili harita {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} haritası ile değiştirilecek. Seçiminizi %(cooldownTimeStr)s sonra değiştirebilirsiniz."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Hangi haritayı değiştirmek istiyorsunuz?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Bu harita {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} haritası ile değiştirilecek. Seçiminizi %(cooldownTimeStr)s sonra değiştirebilirsiniz."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Bu haritayı değiştirmek istiyor musunuz?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Bu hesaba ebeveyn kontrolü eklendi.\nEbeveyn kontrolü sınırlamaları hakkında daha fazla bilgiye {link} erişebilirsiniz."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Ebeveyn Kontrolu"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "oyun portalından"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Kredi Yedeği"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s gün"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s sa."
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 dk."
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s dk."

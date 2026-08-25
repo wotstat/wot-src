@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "button/progression"
+msgstr "Rādīt Progresu"
+
+msgid "button/select"
+msgstr "Konfigurēt"
+
+msgid "event/battlePass/name"
+msgstr "Kaujas Caurlaides %(seasonNum)s Sezona"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nir beidzies"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nsāksies %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\n īslaicīgi nav pieejams"
+
+msgid "event/ranked/name"
+msgstr "%(seasonNum)s Sezona"
+
+msgid "hint/showProgression"
+msgstr "SKATĪT PROGRESIJAS REŽĪMĀ"
+
+msgid "mode/epicBattle/condition"
+msgstr "30 pret 30 &nbsp;{par_open}I{par_close}&nbsp;Līmeņi&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30&nbsp;{par_open}I{par_close}&nbsp;Līmenis&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Pasākums\nsāksies %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Šis režīms\nsāksies drīzumā"
+
+msgid "mode/epicBattle/description"
+msgstr "Režīms ar progresiju un balvām."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Pasākums ir beidzies"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Cīnoties VIII Līmeņa tankos {whiteSpanish_open}Frontes Līnijā{whiteSpanish_close}, jūs pelnīsiet Punktus, kas ļauj jums virzīties cauri Kaujas Caurlaides Progresijai."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Kaujas Caurlaides Punkti"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Cīnoties VIII–X Līmeņa tankos {whiteSpanish_open}Izlūkošanas Misijā{whiteSpanish_close}, jūs pelnīsiet Punktus, kas ļauj jums virzīties cauri Kaujas Caurlaides Progresijai."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Kaujas Caurlaides Punkti"
+
+msgid "mode/mapbox/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s VI–VIII&nbsp;Līmeņi"
+
+msgid "mode/mapbox/description"
+msgstr "Jaunas kartes mehānikas."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Laikapstākļu vizuālie efekti ir atkarīgi no jūsu vispārīgajiem grafikas iestatījumiem. Zemiem grafikas iestatījumiem var rasties vizuāli artefakti un problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko iespējamo pieredzi, ja jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Intensīvas cīņas laikā FPS daudzums var samazināties."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Izpētiet kartes"
+
+msgid "mode/mapsTraining/description"
+msgstr "Izpētiet kartes"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Cīnoties {whiteSpanish_open}Nejaušas Kaujas{whiteSpanish_close} ar IV–XI līmeņa tankiem, tu iegūsi punktus Kaujas Caurlaide progresa virzībai."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Kaujas Caurlaides Punkti"
+
+msgid "mode/random/condition"
+msgstr "15 pret 15 %(parSecondary_open)sI%(parSecondary_close)s I–XI&nbsp;līmeņa tanki"
+
+msgid "mode/random/description"
+msgstr "Kaujas ar automātisku meklēšanu."
+
+msgid "mode/random/setup"
+msgstr "Konfigurēt"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Cīnoties X Līmeņa tankos {whiteSpanish_open}Ranga Kaujās{whiteSpanish_close}, jūs pelnīsiet Punktus, kas ļauj jums virzīties cauri Kaujas Caurlaides Progresijai."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Kaujas Caurlaides Punkti"
+
+msgid "mode/ranked/condition"
+msgstr "10 pret 10 %(parSecondary_open)sI%(parSecondary_close)s X&nbsp;Līmenis"
+
+msgid "mode/ranked/description"
+msgstr "Režīms ar progresiju un balvām."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Pieteikties turnīram"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Nākamā kauja: %(date)s %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1 pret 1–15 pret 15 %(parSecondary_open)sI%(parSecondary_close)s I–X&nbsp;Līmeņi"
+
+msgid "mode/specBattlesList/description"
+msgstr "Globālā Karte un turnīri."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Cīnīties kā leģionārs"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Cīnieties klanā"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7 pret 7–15 pret 15 %(parSecondary_open)sI%(parSecondary_close)s VI–X&nbsp;Līmeņi"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Klanu Kaujas par Industriālajiem Resursiem."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Treniņa istabas: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1 pret 1–15 pret 15 %(parSecondary_open)sI%(parSecondary_close)s I–X&nbsp;Līmeņi"
+
+msgid "mode/trainingsList/description"
+msgstr "Iepazīšanās kaujas."
+
+msgid "novelty"
+msgstr "JAUNS"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Kaujas Kvalifikācijā: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Par šī režīma spēlēšanu tu vari saņemt unikālus 3D uzlabojumus."
+
+msgid "reward/attachment/name"
+msgstr "3D Pielikumi"
+
+msgid "reward/bones/description"
+msgstr "Balva tiek noteikta atkarībā no jūsu kaujas snieguma."
+
+msgid "reward/bones/name"
+msgstr "Bonas"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Jūs variet saņemt %(name)s par režīma spēlēšanu."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Īpašas Iekārtas"
+
+msgid "reward/credits/description"
+msgstr "Balva tiek noteikta atkarībā no jūsu kaujas snieguma."
+
+msgid "reward/credits/name"
+msgstr "Kredīti"
+
+msgid "reward/crew/description"
+msgstr "Jūs variet saņemt unikālus apkalpes locekļus par režīma spēlēšanu."
+
+msgid "reward/crew/name"
+msgstr "Apkalpes Locekļi"
+
+msgid "reward/experience/description"
+msgstr "Balva tiek noteikta atkarībā no jūsu kaujas snieguma."
+
+msgid "reward/experience/name"
+msgstr "Pieredze"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Par šī režīma spēlēšanu tu vari saņemt dažādu eksperimentālo aprīkojumu."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Īpašas Iekārtas"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Jūs variet saņemt %(name)s par režīma spēlēšanu."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Īpašas Iekārtas"
+
+msgid "reward/lootBoxes/description"
+msgstr "Jūs variet saņemt kastes, spēlējot šo režīmu."
+
+msgid "reward/lootBoxes/name"
+msgstr "Īpašas Kastes"
+
+msgid "reward/other/description"
+msgstr "Jūs variet saņemt noderīgas balvas par režīma spēlēšanu."
+
+msgid "reward/other/name"
+msgstr "Īpaša Balva"
+
+msgid "reward/progressionStyle/description"
+msgstr "Jūs variet saņemt īpašu progresīvu stilu par spēlēšanu šajā režīmā."
+
+msgid "reward/progressionStyle/name"
+msgstr "Progresīvs Stils"
+
+msgid "reward/random/description"
+msgstr "Jūs variet saņemt noderīgas balvas par režīma spēlēšanu."
+
+msgid "reward/random/name"
+msgstr "Nejauša Balva"
+
+msgid "reward/style/description"
+msgstr "Jūs variet saņemt īpašu 3D stilu priekš %(name)s par režīma spēlēšanu."
+
+msgid "reward/style/name"
+msgstr "3D Stils"
+
+msgid "reward/vehicle/description"
+msgstr "Jūs variet saņemt %(name)s par režīma spēlēšanu."
+
+msgid "reward/vehicle/name"
+msgstr "Balvu Tanki"
+
+msgid "selectMap"
+msgstr "Iepriekšēji Iestatījumi Nejaušajām Kaujām"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "mazāk par minūti"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "IZVĒLIETIES KAUJAS REŽĪMU"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Globālā Karte"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Sagūstiet Provinces un cīnieties par globālu pārākumu. Šis režīms ir pieejams tikai klanu locekļiem."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Pievienoties Klanam"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Kaujas Globālajā Kartē"
+
+msgid "window/battleSession/title"
+msgstr "ĪPAŠA KAUJA"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Turnīra Saraksts"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Šī funkcija pašlaik nav pieejama, bet kļūs pieejama nākotnē. Lūdzu gaidiet."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Cīnieties paši vai komandā, parādiet, ko jūs spējiet un saņemiet vērtīgas balvas."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Turnīri"

@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Blauwdruk"
+
+msgid "animations/crew_close"
+msgstr "SLUITEN"
+
+msgid "animations/shop"
+msgstr "Ga naar Kopen"
+
+msgid "battleMattersTab"
+msgstr "Tankacademie"
+
+msgid "battleResults/descr"
+msgstr "Tankacademie: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Naar Tankacademiemissies"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Progressie in dit gevecht"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Annuleren"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "SLUITEN"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Bevestigen"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Je zult de {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} met een bemanning en garageplek ontvangen."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Je academietoken inruilen voor de %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "EEN REEKS\nTRAININGSMISSIES"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Missies voltooid: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Tankacademie"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Beloning voor voltooiing:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Missies zijn wegens technische redenen tijdelijk onbeschikbaar. Je voortgang voor wat betreft voltooide missies is opgeslagen."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Alle missies zijn voltooid"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Missies zijn tijdelijk onbeschikbaar"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Voorwaarden:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Ruil een token in voor een willekeurig onderzoekbaar niveau VI voertuig."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "TERUG"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "NAAR TANKACADEMIEMISSIES"
+
+msgid "mainRewardsScreen/done"
+msgstr "In de garage"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Voorvertoning"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Dagen huur: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Voltooi een reeks trainingsmissies om als hoofdbeloning drie niveau VIII Premium huurvoertuigen voor {cream_Open}14 dagen{cream_Close} te ontvangen."
+
+msgid "mainRewardsScreen/title"
+msgstr "TANKACADEMIE"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Selecteren"
+
+msgid "mainScreen/infoButton"
+msgstr "GIDS VOOR NIEUWKOMERS"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "GIDS"
+
+msgid "mainScreen/list/arrow"
+msgstr "Klik om naar de huidige missie te gaan."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Hoofdbeloning ontvangen"
+
+msgid "mainScreen/progress"
+msgstr "Missies voltooid: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Hoe voltooi je ze?"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Voltooi de vorige missie"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Onbeschikbaar"
+
+msgid "mainScreen/showMainReward"
+msgstr "Bekijk hoofdbeloning"
+
+msgid "mainScreen/target"
+msgstr "Voltooi alle missies om drie niveau VIII huurvoertuigen te ontvangen."
+
+msgid "mainScreen/title"
+msgstr "TANKACADEMIE"
+
+msgid "pausedScreen/buttonText"
+msgstr "Naar de garage"
+
+msgid "pausedScreen/description"
+msgstr "Tankacademie is wegens technische redenen tijdelijk onbeschikbaar. Alle progressie wordt opgeslagen. Onze excuses voor het ongemak."
+
+msgid "pausedScreen/title"
+msgstr "Tijdelijk onbeschikbaar"
+
+msgid "rewards/additionalTitle"
+msgstr "Je hebt ook ontvangen:"
+
+msgid "rewards/footer/confirm"
+msgstr "Begrepen!"
+
+msgid "rewards/footer/more"
+msgstr "En nog %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Naar de volgende missie"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Bekijken in de garage"
+
+msgid "rewards/previouslyCompleted"
+msgstr "De voorwaarden van de missie zijn eerder al vervuld"
+
+msgid "rewards/rent"
+msgstr "Dagen huur: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "LAATSTE MISSIE VOLBRACHT"
+
+msgid "rewards/subTitle/regular"
+msgstr "MISSIE %(questNumber)s VOLTOOID"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "VOERTUIG IN RUIL VOOR HET ACADEMIETOKEN ONTVANGEN"
+
+msgid "rewards/title"
+msgstr "TANKACADEMIE"
+
+msgid "rewards/token/action"
+msgstr "Selecteer voertuig"
+
+msgid "rewards/token/description"
+msgstr "Gebruik een token om onmiddellijk een willekeurig niveau VI voertuig te ontvangen."
+
+msgid "rewards/token/title"
+msgstr "Ruil een academietoken in voor een voertuig"
+
+msgid "tokenTooltip/condition"
+msgstr "Tokens worden uitgereikt voor het succesvol voltooien van een reeks trainingsmissies en het boeken van de nodige voortgang in de Tankacademie."
+
+msgid "tokenTooltip/description"
+msgstr "Tokens kunnen voor een willekeurig onderzoekbaar niveau VI voertuig worden ingeruild. Het voertuig komt met een bemanning en garageplek."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Token beschikbaar: {cream_open}%(days)s d{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Token beschikbaar tot: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Token beschikbaar: {cream_open}%(hours)s u{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Token beschikbaar: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Academietoken"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Naast je voertuig ontvang je ook een {cream_Open}%(crewIcon)s bemanning{cream_Close} en een {cream_Open}%(hangarIcon)s{cream_Close} {cream_Open}garageplek{cream_Close}."
+
+msgid "vehicleSelection/back"
+msgstr "TERUG"
+
+msgid "vehicleSelection/backTo"
+msgstr "NAAR TANKACADEMIEMISSIES"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Toevoegen aan vergelijking"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Pas de weergave van voertuigen op type en natie aan."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filter op parameters"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Klik om de filterinstellingen te resetten naar standaard."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Als standaard instellen"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Natie"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filter op parameters"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Voertuigtype"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Niets gevonden. Verander je filterinstellingen of reset ze naar standaard."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Reset filter"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Je hebt alle niveau VI voertuigen die voor een academietoken kunnen worden ingeruild al onderzocht."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Voertuigselectie niet mogelijk"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Zoek op naam"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "De voertuignaam mag uit maximaal %(maxLength)s tekens bestaan."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Zoek op naam"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Getoond:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Ruil een token in voor een willekeurig onderzoekbaar niveau VI voertuig.\nHet voertuig komt met een bemanning en garageplek."
+
+msgid "vehicleSelection/title"
+msgstr "Selecteer een willekeurig onderzoekbaar niveau VI voertuig"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Tankjager"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "Artillerie"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Zware tank"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Lichte tank"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Medium tank"

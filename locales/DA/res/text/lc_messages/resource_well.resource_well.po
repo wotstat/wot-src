@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Køretøj modtaget"
+
+msgid "awardView/end"
+msgstr "EVENT SLUT"
+
+msgid "awardView/info"
+msgstr "Stilnummer"
+
+msgid "awardView/toHangar"
+msgstr "Vis i garagen"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) med en nummereret stil"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "KØRETØJ MODTAGET"
+
+msgid "awardView/vehicleTitle"
+msgstr "KØRETØJ MODTAGET"
+
+msgid "commonTexts/aboutButton"
+msgstr "OM EVENTET"
+
+msgid "commonTexts/closeBtn"
+msgstr "LUK"
+
+msgid "commonTexts/eventTitle"
+msgstr "BYGGEVÆRKSTED"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Afbryd"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Tildel"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Ingen køretøjer med nummererede stile tilbage. Du vil modtage %(vehicleName)s uden et nummer.\nEr du sikker på du vil tildele ressourcer?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Du vil modtage %(vehicleName)s uden et nummer"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Tilbage til garagen"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Alle tildelte ressourcer vil blive tilbageført til din konto om kort tid."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Desværre, der er ikke flere køretøjer tilbage"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Afbryd"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Tildel"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Fremskridt efter tildeling: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Tildel ressourcer?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Tilbagefør ressourcer"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Alle tildelte ressourcer vil blive tilbageført til din konto, og dit byggefremskridt vil blive nulstillet. Så længe eventet er aktivt, vil du kunne tildele ressourcer igen for at få et køretøj."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Tilbagefør alle tildelte ressourcer?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Alle tildelte ressourcer vil blive tilbageført til din konto, og dit byggefremskridt vil blive nulstillet. %(vehicleName) vil blive valgt, og du kan tildele ressourcer for at modtage den."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Returner alle tildelte ressourcer og vælg %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Vælg køretøj"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Du kan købe begge køretøjer under eventet."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Under eventet vil du kunne købe en pakke, der indeholder et køretøj med en nummereret 3D-stil."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "De første %(styleTanksCount) spillere vil modtage et køretøj med en nummereret 3D-stil,{{@ class $br}}{{/}}hvorefter %(withoutStyleTanksCount) køretøjer vil blive leveret uden den nummererede 3D-stil."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "EVENT SLUT"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "KØRETØJER MODTAGET"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "KØRETØJ MODTAGET"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Køretøjer tilbage"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Dette køretøj er allerede i din garage"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Køretøj modtaget"
+
+msgid "eventInfo/tanksOver"
+msgstr "IKKE FLERE TILBAGE"
+
+msgid "eventInfo/top/styleText"
+msgstr "Med et nummer"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Tilbageværende nummererede køretøjer"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "Levering af %(regularRewardVehiclesCount) køretøjer i en standard konfiguration vil begynde\nnår der ikke er flere nummererede køretøjer tilbage."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "I standard konfiguration"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Køretøjer tilbage"
+
+msgid "mainView/affirmative/button"
+msgstr "Bekræftet"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Til tilbageføring af ressourcer"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Ressourcer indsamlet:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Ressourcer indsamlet for:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Tilbage til garagen"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Vælg ressourcer"
+
+msgid "mainView/footer/description/text"
+msgstr "Hvis der ikke er flere køretøjer tilbage, vil alle tildelte ressourcer blive tilbageført."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Din kontotype kan ikke deltage i eventet."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Du kan ikke deltage"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Du kan købe begge køretøjer, men du kan kun tildele ressourcer til ét af dem af gangen."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Vælg et køretøj og tildel det krævede antal ressourcer for at samle det — men tøv ikke!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Tøv ikke med at tildele de krævede ressourcer til byggeriet og modtage %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Alle tildelte ressourcer vil blive tilbageført til din konto om kort tid."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Desværre, der er ikke flere køretøjer tilbage"
+
+msgid "mainView/navbar/backBtn"
+msgstr "TIL BYGGEVÆRKSTEDET"
+
+msgid "mainView/navbar/title"
+msgstr "BYGGEVÆRKSTED"
+
+msgid "mainView/preview/label"
+msgstr "Preview"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Indtil"
+
+msgid "mainView/timer/leftTime"
+msgstr "Tid tilbage:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Luk"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Tildel ressourcer"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Data midlertidigt utilgængelig"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Ingen køretøjer tilbage"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Tilbageværende nummererede køretøjer: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Tilbageværende køretøjer: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Universel"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Maksimale ressourcer %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maksimum %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Ressourcer indsamlet %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Plantegningsfragmenter"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Valutaer"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "INDSAMLER RESSOURCER"
+
+msgid "tankPreview/button"
+msgstr "Vælg ressourcer"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Under eventet vil du kunne købe en pakke, der indeholder et køretøj med en nummereret 3D-stil."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "De første %(topPlayers) spillere vil modtage et køretøj med en nummereret 3D-stil,\nhvorefter %(basePlayers) køretøjer vil blive leveret uden den nummererede 3D-stil."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Du kan købe begge køretøjer under eventet."
+
+msgid "tankPreview/title"
+msgstr "Indsaml og tildel 100% af de krævede ressourcer og modtag %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Du kan se de tildelte ressourcer på ethvert tidspunkt, og, om nødvendigt, tilbageføre dem til din konto ved at klikke på Tilbagefør ressourcer-knappen.\nDit byggefremskridt vil blive nulstillet, men du vil kunne tildele disse, eller andre, ressourcer for at få et køretøj."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Tilbagefør ressourcer"
+
+msgid "tooltips/counter/error/text"
+msgstr "Data midlertidigt utilgængelig.\nVi arbejder på at løse problemet."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Nummeret vises med forsinkelse og kan afvige fra det aktuelle antal køretøjer."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Tildel ressourcer og modtag %(vehicleName1) og %(vehicleName2). Antallet af køretøjer er begrænset."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Tildel ressourcer og modtag %(vehicleName) med en nummereret 3D-stil. Antallet af køretøjer er begrænset."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Vil være tilgængelig: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Tilgængelig i %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Tilgængelig om:%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Byggeværksted"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Klik for at lære mere om eventet"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Vælg et køretøj at tildele ressourcer.\nHvis ressourcer allerede er blevet tildelt et andet køretøj, vil de blive tilbageført til din konto."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Tid tilbage: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "For at bygge et køretøj, indsaml og tildel 100% af de krævede ressourcer. Ratioen af forskellige typer ressourcer kan justeres."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Hvis der ikke er flere køretøjer tilbage, vil alle tildelte ressourcer blive tilbageført."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Valgt"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Tildelt"
+
+msgid "tooltips/progressbar/title"
+msgstr "Indsamler ressourcer"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Tildeling af ressourcer er midlertidigt utilgængelig. Prøv venligst igen senere."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Universelle og nationale fragmenter."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Plantegningsfragmenter"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Tildelt for aktive handlinger i kamp. Kan også købes for rigtige penge."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Valutaer"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Tildelt:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Den maksimale mængde af denne ressource til tildeling: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Du har indsamlet det krævede antal ressourcer for at få et køretøj. Du kan fjerne en type af ressource for at vælge en anden."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Ressourcer indsamlet"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Dette er et unikt køretøj med sit eget nummer og en særlig visuel modifikation."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Nummeret vises på begge sider af kanonen og på bagenden af skroget. Numrene på identiske køretøjer gentages aldrig og er begrænsede."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "De markante egenskaber for dit køretøj kan skjules. Fjern dets nummererede 3D-stil på tilpasningsskærmen."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Køretøj med et nummer"

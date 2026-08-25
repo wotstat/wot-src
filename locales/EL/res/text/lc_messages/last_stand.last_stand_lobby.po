@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Είσοδος Στη Μάχη"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Εξοπλισμός!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Μηχανισμοί Μάχης Ημιτελείς"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Από το επιλεγμένο όχημα λείπουν ένας ή περισσότεροι Μηχανισμοί Μάχης. Αυτό μπορεί να επηρεάσει σημαντικά την αποτελεσματικότητά σας στη μάχη. Είσοδος στη μάχη?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Μπορείτε να αλλάξετε τα προκαθορισμένα πλήκτρα για τη χρήση βλημάτων και Μηχανισμών Μάχης.\nΗ αλλαγή θα ισχύει μόνο για τις μάχες της διοργάνωσης και δεν θα επηρεάσει τα υπόλοιπα είδη μάχης.\nΜπορείτε να επιλέξετε τα πλήκτρα από το Μενού — Ρυθμίσεις — Χειρισμοί (τομέας Αναλώσιμα)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Αλλαγή Προεπιλεγμένων Πλήκτρων"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Ολοκληρώστε την τρέχουσα αποστολή για να κερδίσετε το μοναδικό παράσημο της διοργάνωσης «Last Stand: Operation Pandora»:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Αποστολή Επικού Επιτεύγματος"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Όταν ανακαλυφθεί, μειώνει το {EDCB9E_Start}κόστος σε Mirium{EDCB9E_End} όλων των Μηχανισμών Μάχης κατά {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Δραστικότητα Mirium"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Όταν ανακαλυφθεί, αυξάνει τη {EDCB9E_Start}διάρκεια των Μηχανισμών Μάχης{EDCB9E_End} κατά {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Διάρκεια Επίδρασης Μηχανισμών"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Όταν ανακαλυφθεί, αυξάνει την {EDCB9E_Start}εμβέλεια των Μηχανισμών Μάχης{EDCB9E_End} κατά {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Εμβέλεια Επίδρασης Μηχανισμών"
+
+msgid "booster/booster_heal/description"
+msgstr "Όταν ανακαλυφθεί, αυξάνει την {EDCB9E_Start}επίδραση της αποκατάστασης{EDCB9E_End} των HP του οχήματος κατά {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Επίδραση Αποκατάστασης"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Όταν ανακαλυφθεί, αυξάνει την {EDCB9E_Start}φθορά που μεταφέρεται από τα Obelisks{EDCB9E_End} στα εχθρικά οχήματα κατά {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Μεταφορά Φθοράς Από Τα Obelisks"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Όταν ανακαλυφθεί, αυξάνει την {EDCB9E_Start}εμβέλεια ανάκτησης του του Mirium{EDCB9E_End} από τα εχθρικά οχήματα κατά {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Εμβέλεια Ανάκτησης Mirium"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Όταν ανακαλυφθεί, αυξάνει την {EDCB9E_Start}ποσότητα του Mirium{EDCB9E_End} που ανακτάτε από τα κατεστραμμένα εχθρικά οχήματα κατά {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Ανάκτηση Mirium"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Όταν ανακαλυφθεί, αυξάνει την {EDCB9E_Start}ποσότητα του κερδισμένου Mirium{EDCB9E_End} από την επιτυχή απόκρουση ενός κύματος επίθεσης κατά {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium Ανά Κύμα Επίθεσης"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Όταν ανακαλυφθεί, αυξάνει την {EDCB9E_Start}ποσότητα του Mirium{EDCB9E_End} που ανακτάτε σε περίπτωση επανεκκίνησης στη μάχη κατά {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium Επανεκκίνησης"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Όταν ανακαλυφθεί, αυξάνει τη {EDCB9E_Start}μέγιστη ποσότητα του Mirium{EDCB9E_End} που μπορεί να κουβαλήσει το όχημά σας κατά {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Ποσότητα Mirium"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "ΠΑΚΕΤΟ DEFENDER"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Αγοράσατε Κλειδιά"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Δυνατότητα να κερδίζετε ×5 XP, ξεκινώντας από τη 2η νίκη της ημέρας με οποιοδήποτε όχημα."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Αποστολή για ×5 κερδισμένα XP"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Διαμορφώνει την προβολή των οχημάτων με βάση τον τύπο, το έθνος και άλλες παραμέτρους."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Φίλτρο Παραμέτρων"
+
+msgid "common/back"
+msgstr "ΠΙΣΩ"
+
+msgid "common/close"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "ΣΤΗ ΔΙΟΡΓΑΝΩΣΗ"
+
+msgid "common/toRewardPath"
+msgstr "ΣΤΗΝ ΠΡΟΟΔΟ"
+
+msgid "common/yes"
+msgstr "Θετικόν!"
+
+msgid "difficult/daily"
+msgstr "ΞΕΚΛΕΙΔΩΣΑΤΕ ΤΑ ΚΛΕΙΔΙΑ ΤΗΣ ΗΜΕΡΗΣΙΑΣ ΑΠΟΣΤΟΛΗΣ"
+
+msgid "difficult/disabled/body"
+msgstr "Είστε μέλος Ουλαμού. Μόνο ο Αρχηγός μπορεί να αλλάξει το επίπεδο δυσκολίας."
+
+msgid "difficult/disabled/header"
+msgstr "Αλλαγή Δυσκολίας Μη Διαθέσιμη"
+
+msgid "difficult/level_1"
+msgstr "Κανονική"
+
+msgid "difficult/level_2"
+msgstr "Μεγάλη"
+
+msgid "difficult/level_3"
+msgstr "Μέγιστη"
+
+msgid "difficult/new"
+msgstr "ΝΕΟ ΕΙΔΟΣ ΜΑΧΗΣ"
+
+msgid "difficult/searching/body"
+msgstr "Μη διαθεσιμότητα κατά τη διάρκεια της αναζήτησης."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Τα εχθρικά οχήματα έχουν μικρότερη αντοχή και λιγότερο ανθεκτική θωράκιση. Η βασική ποσότητα από data ανά μάχη."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Τα εχθρικά οχήματα έχουν ισχυρότερη θωράκιση. Αυξημένη ποσότητα από Data ανά μάχη κατά {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Περισσότερα εχθρικά οχήματα με ισχυρότερη θωράκιση. Αυξημένη ποσότητα από Data ανά μάχη κατά {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Έπαθλα από την εξουδετέρωση του τελευταίου κύματος για πρώτη φορά:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Κανονική Δυσκολία"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Μεγάλη Δυσκολία"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Μέγιστη Δυσκολία"
+
+msgid "difficult/tooltip/locked"
+msgstr "Επίπεδο Δυσκολίας Κλειδωμένο"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Για να ξεκλειδώσετε αυτό το επίπεδο δυσκολίας, ολοκληρώστε επιτυχώς το Κανονικό επίπεδο δυσκολίας."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Για να ξεκλειδώσετε αυτό το επίπεδο δυσκολίας, ολοκληρώστε επιτυχώς το Μεγάλο επίπεδο δυσκολίας."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Επίπεδο Δυσκολίας Διαθέσιμο"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Επιλεγμένο Επίπεδο Δυσκολίας"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Κύματα επίθεσης που αποκρούστηκαν: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "ΚΑΝΟΝΙΚΗ"
+
+msgid "difficult/uppercase/level_2"
+msgstr "ΜΕΓΑΛΗ"
+
+msgid "difficult/uppercase/level_3"
+msgstr "ΜΕΓΙΣΤΗ"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Τα εχθρικά οχήματα έχουν ισχυρότερη θωράκιση. Περισσότερα credits και ×{{modifier}} data ανά μάχη."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Περισσότερα εχθρικά οχήματα με ισχυρότερη θωράκιση. Περισσότερα credits και ×{{modifier}} data ανά μάχη."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Νικήστε τα επιτιθέμενα κύματα των εχθρικών οχημάτων και φτάστε στην κορυφή του Πίνακα Κατάταξης. Θα κερδίσετε μοναδικά έπαθλα."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "ΜΕΓΑΛΟ ΕΠΙΠΕΔΟ ΔΥΣΚΟΛΙΑΣ"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "ΜΕΓΙΣΤΟ ΕΠΙΠΕΔΟ ΔΥΣΚΟΛΙΑΣ"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "ΤΕΛΙΚΗ ΑΝΑΜΕΤΡΗΣΗ"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "ΜΕΓΑΛΗ"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "ΜΕΓΙΣΤΗ"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "ΤΕΛΙΚΗ ΑΝΑΜΕΤΡΗΣΗ"
+
+msgid "difficultyWindow/rewards"
+msgstr "Έπαθλα ολοκλήρωσης:"
+
+msgid "difficultyWindow/title"
+msgstr "ΔΙΑΘΕΣΙΜΗ"
+
+msgid "hangar/exit"
+msgstr "ΑΠΟΧΩΡΗΣΗ"
+
+msgid "hangar/narration"
+msgstr "Σενάριο"
+
+msgid "hangar/tooltip/about"
+msgstr "Μάθετε περισσότερα για τη διοργάνωση «Last Stand: Terra Nord»"
+
+msgid "hangar/tooltip/narration"
+msgstr "Μάθετε περισσότερα για το σενάριο της διοργάνωσης."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "ΜΗΧΑΝΙΣΜΟΙ ΜΑΧΗΣ"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "ΦΟΡΤΙΟ"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Τελική Αναμέτρηση"
+
+msgid "iconButton/comparison/default"
+msgstr "Συγκριση οχηματων"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Συγκριση οχηματων μη διαθέσιμη"
+
+msgid "iconButton/preview/default"
+msgstr "Προεπισκόπηση οχήματος"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Προεπισκόπηση οχημάτων μη διαθέσιμη"
+
+msgid "keyCard/name"
+msgstr "Κλειδιά Αποκρυπτογράφησης"
+
+msgid "meta/btn/decrypt"
+msgstr "ΑΠΟΚΡΥΠΤΟΓΡΑΦΗΣΗ"
+
+msgid "meta/btn/skip"
+msgstr "ΠΑΡΑΒΛΕΨΗ"
+
+msgid "meta/btn/view"
+msgstr "ΠΡΟΒΟΛΗ"
+
+msgid "meta/receive/description"
+msgstr "Συλλέξτε %(keys) / %(decrypt) %(icon) \nγια να αποκρυπτογραφήσετε το Αρχείο"
+
+msgid "metaIntro/description/fight"
+msgstr "Λάβετε μέρος στις μάχες της διοργάνωσης και κερδίστε data για να ολοκληρώσετε την πρόοδο της διοργάνωσης."
+
+msgid "metaIntro/description/progress"
+msgstr "Συλλέξτε τα data για να ανακαλύψετε τις αναβαθμίσεις των οχημάτων και να αντιμετωπίσετε μεγαλύτερες προκλήσεις."
+
+msgid "metaIntro/description/reward"
+msgstr "Ολοκληρώστε τις Φάσεις Προόδου της διοργάνωσης για να κερδίσετε τα ειδικά έπαθλα. Περισσότερες πληροφορίες θα βρείτε στη Διαδρομή Επάθλων."
+
+msgid "metaIntro/header/fight"
+msgstr "Μάχες Διοργάνωσης"
+
+msgid "metaIntro/header/progress"
+msgstr "Αναβαθμίσεις"
+
+msgid "metaIntro/header/reward"
+msgstr "Μοναδικά Έπαθλα"
+
+msgid "metaIntro/title"
+msgstr "ΠΡΟΟΔΟΣ"
+
+msgid "missionWidget/complete"
+msgstr "Αποστολή εξετελέσθη.\nΕπιστρέψτε και πάλι αύριο."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Ολοκληρώστε την τρέχουσα Ημερήσια Αποστολή, η οποία ανανεώνεται κάθε 24 ώρες, για να κερδίσετε το έπαθλο. Σημερινή αποστολή:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Ημερήσια Αποστολή"
+
+msgid "narration/actions/voiceover"
+msgstr "Φωνή"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}ΑΚΡΩΣ ΑΠΟΡΡΗΤΟ{{/}}{{titleParagraph}}{{@ class $highlightText}}SECTOR: N-07 (Aurora Perimeter){{/}}{{pargraphStart}}Η πρόβλεψή μας ήταν σωστή. Οι παρατηρητές του σταθμού κατέγραψαν την προσέγγιση του anomaly, 11 ημέρες πριν από το συμβάν. Για πρώτη φορά το βλέπαμε να έρχεται.{{pargraphStart}}Κατά τη διάρκεια της ηρεμίας πριν από την καταιγίδα, η παραγωγή των συμπλεγμάτων ATLAS τυποποιήθηκε. Τα νέα εξαρτήματα συναρμολογούνται ταχύτερα και βαθμονομούνται με μεγαλύτερη ακρίβεια. Πραγματοποιήσαμε εκπαιδεύσεις, δοκιμάσαμε σχηματισμούς και προετοιμάσαμε εφεδρικές ομάδες. Πλήρης επιφυλακή.{{pargraphStart}}Όμως το anomaly είχε τα δικά του σχέδια.{{pargraphStart}}Το Funnel δεν άνοιξε στον προβλεπόμενο τομέα. Εμφανίστηκε εδώ, σε μια απομακρυσμένη βόρεια περιοχή, μακριά από τις ανεπτυγμένες υποδομές. Δεν είναι σαφές γιατί επιλέχθηκε αυτή η τοποθεσία. Τίποτα στα μοντέλα δεν υπεδείκνυε αυτή την περιοχή. Η έκτακτη αναδιάταξη ξεκίνησε αμέσως, όμως το έδαφος και η απόσταση δεν είναι με το μέρος μας. Ορισμένες ομάδες οχημάτων θα φτάσουν με καθυστέρηση.{{pargraphStart}}Κάθε σύμπλεγμα ATLAS που καταφέραμε να μεταφέρουμε είναι πλέον απολύτως απαραίτητο.{{pargraphStart}}Αυτή τη φορά ήμασταν έτοιμοι για μάχη. Όμως για μια μάχη σε διαφορετική τοποθεσία.{{pargraphStart}}ΥΠΟΓΡΑΦΗ: ΔΙΕΥΘΥΝΤΗΣ (PROJECT M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Αναλυτικό Υπόμνημα 27/C «ΕΠΙΛΟΓΗ ΤΟΠΟΘΕΣΙΑΣ ΕΙΣΒΟΛΗΣ»{{/}}{{titleParagraph}}Για εσωτερική χρήση. Ένδειξη «Περιορισμένη Πρόσβαση».{{pargraphStart}}Θέτω ένα ερώτημα που είμαι υποχρεωμένος να απαντήσω, αλλά δεν μπορώ: Γιατί εδώ;{{pargraphStart}}Αυτή η περιοχή δεν έχει καμία στρατηγική αξία για το Funnel. Δεν υπάρχει τίποτα εδώ. Ούτε υποδομές, ούτε οικισμοί. Μόνο μια ανενεργή στρατιωτική βάση στο νησί. Τα άρματα μάχης Echo δεν μπορούν να διασχίσουν τη θάλασσα. Τότε γιατί να καταλάβουν μια τοποθεσία από την οποία δεν μπορούν να εξαπολύσουν επίθεση;{{pargraphStart}}Ζήτησα το πλήρες επιχειρησιακό ιστορικό της περιοχής. Η απάντηση που έλαβα ήταν εκτενώς λογοκριμένη. Ολόκληρα τμήματα είχαν διαγραφεί. Ένα δεύτερο αίτημα επέστρεψε με τη σημείωση «η πρόσβαση περιορίζεται κατόπιν εξουσιοδότησης του {{@ class $highlightSecondaryText}}[ΔΙΑΓΡΑΦΗ ΣΤΟΙΧΕΙΩΝ]»{{/}}. Ως επικεφαλής του ερευνητικού τμήματος, του οποίου οι εισηγήσεις καθορίζουν τη στρατηγική άμυνας αυτού του τομέα, στερούμαι πληροφοριών σχετικών με αυτή την περιοχή!{{pargraphStart}}Να τι μπορώ να συμπεράνω από τα δεδομένα στο πεδίο: η συμπεριφορά του Funnel δεν αντιστοιχεί σε όσα παρατηρήσαμε στον τομέα R-22. Έχουν εμφανιστεί νέοι τύποι αρμάτων μάχης Echo που δεν είχαμε συναντήσει ποτέ πριν. Αντιστοιχούν λειτουργικά στα δικά μας αντιαρματικά μεγάλου βεληνεκούς και είναι εξαιρετικά αποτελεσματικά σε αυτού του είδους το έδαφος. Ο αντίπαλος έχει μάθει από τις τακτικές μας και έχει λάβει αντίμετρα. Τώρα είναι η δική μας σειρά να προσαρμοστούμε.{{pargraphStart}}Ίσως να χρειάζεται αυτό το μέρος. Ή ίσως αυτό που βρίσκεται κάτω από αυτό.{{pargraphStart}}Δεν γνωρίζω. Και με ανησυχεί το γεγονός ότι κάποιος γνωρίζει, αλλά αρνείται να μιλήσει.{{pargraphStart}}ΥΠΟΓΡΑΦΗ: ΔΙΕΥΘΥΝΤΗΣ (PROJECT M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}ΠΡΟΣΩΠΙΚΟ ΑΡΧΕΙΟ ΔΙΕΥΘΥΝΤΟΥ{{/}}{{pargraphStart}}Επανεξέτασα τις ίδιες μου τις υποθέσεις. Και τις τρεις.{{pargraphStart}}  1. Το anomaly επιδιώκει να μας καταστρέψει.{{pargraphStart}}  2. Το anomaly πειραματίζεται. Ερευνά τις τακτικές μας, μελετά τις αντιδράσεις μας, προσαρμόζεται και μαθαίνει.{{pargraphStart}}  3. Το anomaly εκπαιδεύεται. Κάθε κύμα είναι μια άσκηση των νέων του τακτικών, κάθε μάχη είναι εκπαίδευση σε πραγματικές συνθήκες.{{pargraphStart}}Και οι τρεις υποθέσεις βασίζονται στην παραδοχή ότι εμείς αποτελούμε τον στόχο αυτής της εισβολής.{{pargraphStart}}Αλλά τι γίνεται αν δεν είμαστε;{{pargraphStart}}Τι γίνεται αν το anomaly κάνει κάτι άλλο και εμείς απλώς στεκόμαστε εμπόδιο στον δρόμο του; Σαν μια φωλιά μυρμηγκιών που καταστρέφεται ενώ κατασκευάζεται ένας δρόμος. Ο εργολάβος δεν διεξάγει πόλεμο εναντίον των μυρμηγκιών. Απλώς δεν τα παρατηρεί.{{pargraphStart}}Μπορείτε να σταματήσετε έναν εχθρό που θέλει να σας καταστρέψει. Μπορείτε να διαπραγματευτείτε μαζί του. Αλλά δεν μπορείτε να φοβίσετε κάτι που δεν αναγνωρίζει καν την ύπαρξή σας, δεν μπορείτε να το ξεγελάσετε. Δεν μπορεί να σταματήσει. Γιατί ποτέ δεν ήσασταν μέρος των υπολογισμών του.{{pargraphStart}}Νομίζω ότι κάναμε τη λάθος ερώτηση. Δεν θα έπρεπε να αναρωτιόμαστε γιατί μας επιτίθεται, αλλά αν μας αντιλαμβάνεται καν.{{pargraphStart}}ΥΠΟΓΡΑΦΗ: ΔΙΕΥΘΥΝΤΗΣ (PROJECT M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}ΤΕΛΙΚΗ ΑΝΑΦΟΡΑ{{/}}{{titleParagraph}}{{@ class $highlightText}}ΚΑΤΑΣΤΑΣΗ: ΑΠΟΧΑΡΑΚΤΗΡΙΣΜΕΝΟ (ΜΕΡΙΚΩΣ){{/}}{{pargraphStart}}Στις 03:47, το Funnel κατέρρευσε. Η δραστηριότητα του anomaly σταμάτησε. Ο τομέας είναι ασφαλής.{{pargraphStart}}Στα τελευταία δευτερόλεπτα πριν από την κατάρρευση, οι μετρητές ATLAS κατέγραψαν μια ενεργειακή έξαρση που ξεπέρασε κάθε προηγούμενη καταγεγραμμένη τιμή. Τα πληρώματα παρατήρησαν μια βραχύβια φυσική υπόσταση στο κέντρο του anomaly, η οποία διήρκεσε όχι περισσότερο από 12 δευτερόλεπτα. Έπειτα από αυτό, το Funnel έκλεισε.{{pargraphStart}}Επίσημη δήλωση: Το περιστατικό έληξε. Η υπεράσπισης της περιοχής πραγματοποιήθηκε επιτυχώς. Η καραντίνα του τομέα έληξε.{{pargraphStart}}{{@ class $highlightText}}ΠΡΟΣΩΠΙΚΗ ΣΗΜΕΙΩΣΗ ΔΙΕΥΘΥΝΤΟΥ (Μόνο για ειδικές εφεδρείες){{/}}{{pargraphStart}}Δεν νικήσαμε. Απλώς τελείωσε.{{pargraphStart}}Δεν επρόκειτο για εισβολή. Ήταν μια κάλυψη. Μια προστατευτική περίμετρος γύρω από αυτό που εκδηλώθηκε στο κέντρο του Funnel λίγα δευτερόλεπτα πριν από την κατάρρευσή του.{{pargraphStart}}Δεκάδες Obelisks εμφανίστηκαν ταυτόχρονα. Ακόμη δεν γνωρίζουμε τι έκαναν. Το ATLAS κατέγραψε όλες τις παραμέτρους, όμως θα χρειαστεί χρόνος για να αναλυθούν. Γνωρίζουμε ένα πράγμα με σχεδόν απόλυτη βεβαιότητα: το anomaly ολοκλήρωσε κάποια διαδικασία.{{pargraphStart}}Ό,τι κι αν έκανε, πρέπει να προετοιμαστούμε για την επόμενη επίθεση. Πλέον διαθέτουμε αρκετά δεδομένα. Οι μηχανικοί μας εξετάζουν ήδη τις καταγραφές και για να είμαι ειλικρινής, δεν τους έχω ξαναδεί τόσο ενθουσιασμένους. Πιστεύουν ότι μπορούμε να αναβαθμίσουμε σημαντικά τα οχήματά μας. Πρέπει να το κάνουμε πριν επιστρέψει το Funnel.{{pargraphStart}}Δεν μπορώ να σταματήσω να σκέφτομαι ένα πράγμα: αν αυτό συνέβη εδώ και διήρκεσε τόσο λίγο, πόσες φορές έχει συμβεί στο παρελθόν; Σε μέρη όπου δεν υπήρχε ATLAS για να το δει να συμβαίνει...{{pargraphStart}}ΥΠΟΓΡΑΦΗ: ΔΙΕΥΘΥΝΤΗΣ (PROJECT M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Είμαστε Έτοιμοι"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Γιατί Εδώ?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Η Λανθασμένη Ερώτηση"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Το Τέλος"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Ολοκληρώστε επιτυχώς το Κανονικό επίπεδο δυσκολίας για να προχωρήσετε στο επόμενο σενάριο."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Ολοκληρώστε επιτυχώς το Μεγάλο επίπεδο δυσκολίας για να προχωρήσετε στο επόμενο σενάριο."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Ολοκληρώστε επιτυχώς το Μέγιστο επίπεδο δυσκολίας για να προχωρήσετε στο τελευταίο σενάριο."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Επόμενο Σενάριο"
+
+msgid "preBattle/leave"
+msgstr "Έξοδος"
+
+msgid "preBattle/searching"
+msgstr "ΑΝΑΖΗΤΗΣΗ ΣΥΜΠΑΙΚΤΩΝ..."
+
+msgid "preBattle/tip"
+msgstr "Καθυστερεί αρκετά η εύρεση ομάδας? Δοκιμάστε σε άλλο επίπεδο δυσκολίας."
+
+msgid "preBattle/uppercase/leave"
+msgstr "ΈΞΟΔΟΣ"
+
+msgid "promoWindow/header"
+msgstr "ΛΑΒΕΤΕ ΜΕΡΟΣ ΣΤΗ ΔΙΟΡΓΑΝΩΣΗ"
+
+msgid "promoWindow/subheader"
+msgstr "Εξερευνήστε το νέο κεφάλαιο των μαχών PvE «Last Stand» από {dateRange}.\nΚερδίστε ένα σετ από θεματικά {cream_open}προσαρτήματα 3D{cream_close}, Πειραματικό Εξοπλισμό και άλλα αποκλειστικά έπαθλα."
+
+msgid "questCard/allCompleted"
+msgstr "Όλες οι ημερήσιες αποστολές ολοκληρώθηκαν"
+
+msgid "questCard/completed"
+msgstr "Η ημερήσια αποστολή ολοκληρώθηκε.\nΕπιστρέψτε και πάλι αύριο."
+
+msgid "reward/rest"
+msgstr "Και %(count)s ακόμη"
+
+msgid "rewardPath/about"
+msgstr "ΑΝΤΙΚΕΙΜΕΝΙΚΟΙ ΣΤΟΧΟΙ"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Μάθετε περισσότερα για τη διοργάνωση."
+
+msgid "rewardPath/boostTitle"
+msgstr "Επιταχύνετε την πρόοδό σας και κερδίστε περισσότερα data {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Προβολή στον Εφοδιασμό"
+
+msgid "rewardPath/completed"
+msgstr "Συλλέξατε όλα τα data, κερδίσατε όλα τα έπαθλα"
+
+msgid "rewardPath/completedTitle"
+msgstr "Ανοίξτε τον Εφοδιασμό για να βρείτε τα θεματικά στοιχεία προσαρμογής"
+
+msgid "rewardPath/intro"
+msgstr "ΕΙΣΑΓΩΓΗ"
+
+msgid "rewardPath/introTooltip"
+msgstr "Παρακολουθήστε το εισαγωγικό video."
+
+msgid "rewardPath/progress"
+msgstr "Data από τη Φάση {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "ΠΡΟΟΔΟΣ"
+
+msgid "rewardPathCard/completed"
+msgstr "Ολοκληρώθηκε"
+
+msgid "rewardPathCard/name"
+msgstr "Διαδρομή Επάθλων"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Πακέτα Διοργάνωσης"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Άκυρο"
+
+msgid "squad/goToAnother/message"
+msgstr "Ο Ουλαμός θα διαλυθεί."
+
+msgid "squad/goToAnother/submit"
+msgstr "Αποχώρηση"
+
+msgid "squad/goToAnother/title"
+msgstr "Αποχώρηση από τη διοργάνωση «Last Stand: Terra Nord»?"
+
+msgid "squad/leave/cancel"
+msgstr "Άκυρο"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Ο Ουλαμός θα διαλυθεί."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Θετικόν!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Η διοργάνωση «Last Stand: Terra Nord» τελείωσε"
+
+msgid "squad/leave/message"
+msgstr "Ο Ουλαμός θα διαλυθεί."
+
+msgid "squad/leave/submit"
+msgstr "Αποχώρηση"
+
+msgid "squad/leave/title"
+msgstr "Αποχώρηση από τον Ουλαμό της διοργάνωσης «Last Stand: Terra Nord»?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Συνέχεια"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Είστε σε Ουλαμό και έτοιμοι για μάχη."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Δεν μπορείτε να αποχωρήσετε από τον Ουλαμό!"
+
+msgid "stageReward/rewards/received"
+msgstr "Κερδίσατε επίσης:"
+
+msgid "stageReward/special/header"
+msgstr "ΤΟ ΜΕΓΙΣΤΟ ΕΠΙΠΕΔΟ ΔΥΣΚΟΛΙΑΣ ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "stageReward/special/subheader"
+msgstr "Το ειδικό έπαθλο απονεμήθηκε"
+
+msgid "stageReward/stage/header"
+msgstr "ΠΑΡΑΛΑΒΗ ΕΠΑΘΛΩΝ"
+
+msgid "stageReward/stage/subheader"
+msgstr "Last Stand: Η Φάση {{number}} ολοκληρώθηκε"
+
+msgid "stageReward/stageFinal/header"
+msgstr "ΑΠΟΝΕΜΗΘΗΚΑΝ ΟΛΑ ΤΑ ΕΠΑΘΛΑ"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Last Stand: Η Τελική Φάση ολοκληρώθηκε"

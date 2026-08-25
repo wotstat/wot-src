@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Alkalmazás az összes {{icon}} {{type}} típusú járműre"
+
+msgid "header/points"
+msgstr "Harcitartalék-pontok: {{value}}"
+
+msgid "header/title"
+msgstr "HARCI TARTALÉKOK"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Támadó tartalékok"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Felderítő tartalékok"
+
+msgid "infoPanel/category/tactics"
+msgstr "Taktikai tartalékok"
+
+msgid "infoPanel/category/title"
+msgstr "Kategória: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "A {{@ colorLegacy 'FFE4C0'}}Sorsfordulat{{/}} csatahelyzetben a vásárlással harci tartalék szintje eggyel nő, így lehetőséged nyílik {{@ colorLegacy 'FFE4C0'}}IV.{{/}} szintre fejleszteni azt."
+
+msgid "infoPanel/description/unlocked"
+msgstr "A {{@ colorLegacy 'FFE4C0'}}Sorsfordulat{{/}} csatahelyzetben a csata előtt a férőhelyekbe helyezett harci tartalékok megszerzésének esélye {{@ colorLegacy 'FFE4C0'}}10%{{/}}-kal nő."
+
+msgid "infoPanel/level"
+msgstr "Szint:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/mp"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}mp"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Nem vásároltad meg a harci tartalékot"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Megvásároltad a harci tartalékot"

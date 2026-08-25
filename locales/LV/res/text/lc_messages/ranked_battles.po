@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Visos serveros ir spēkā Pamiers. Kaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Sezona %(leftSeasonName)s ir beigusies"
+
+msgid "alertMessage/allNotSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Izvēlieties citu serveri"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaļas"
+
+msgid "alertMessage/notAvailable"
+msgstr "%(serverName)s serverī ir spēkā Pamiers"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "%(serverName)s serverī ir spēkā Pamiers"
+
+msgid "alertMessage/notSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Šajā serverī ir spēkā Pamiers. Kaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Sezona %(leftSeasonName)s ir beigusies"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nav piemērotu %(levels)s līmeņa tanku Garāžā"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "Standarta, par jūsu sniegumu izpildītajā stadijā: %(amount)s"
+
+msgid "awards/bonusBattles/header"
+msgstr "Bonuss kaujas saņemtas:"
+
+msgid "awards/bonusBattles/label"
+msgstr "Bonuss kaujas saņemtas: %(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \nIkdienas, par saņemtajiem ševroniem Kvalifikācijā: %(amount)s"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \nStandarta, par saņemtajiem ševroniem Kvalifikācijā: %(amount)s"
+
+msgid "awards/congratulation"
+msgstr "Apsveicam!"
+
+msgid "awards/gotDivision"
+msgstr "Jūs pārgājāt uz nākamo Divīziju"
+
+msgid "awards/gotLeague"
+msgstr "Jūs sasniedzāt Līgas līmeni"
+
+msgid "awards/gotQualification"
+msgstr "Jūs izpildījāt Kvalifikācijas un iestājāties Trešajā Divīzijā."
+
+msgid "awards/gotQualificationQuest"
+msgstr "Jūs saņēmāt balvu par Kvalifikāciju. Kaujas aizvadītas: %(count)s"
+
+msgid "awards/gotRank"
+msgstr "Saņemts jauns rangs"
+
+msgid "awards/yes"
+msgstr "Tieši tā!"
+
+msgid "battleResult/losers"
+msgstr "Zaudētāji"
+
+msgid "battleResult/rank/lose"
+msgstr "Zaudēts rangs"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "Ševrona zaudēšana"
+
+msgid "battleResult/rank/progress/up"
+msgstr "Ševrona iegūšana"
+
+msgid "battleResult/rank/unchanged"
+msgstr "Ševrons saglabāts"
+
+msgid "battleResult/rank/up"
+msgstr "Iegūts rangs"
+
+msgid "battleResult/winners"
+msgstr "Uzvarētāji"
+
+msgid "battleResult/yes"
+msgstr "Tieši tā!"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\nBonuss Kaujas pievienotas:"
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \nStandarta, par jūsu sniegumu izpildītajā stadijā: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \nIkdienas, par saņemtajiem ševroniem Kvalifikācijā: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \nStandarta, par saņemtajiem ševroniem Kvalifikācijā: %(amount)s"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr ". Jūs cīnījāties Bonuss kaujā."
+
+msgid "battleresult/divisionEarned"
+msgstr "Jauna\nDivīzija"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "Jūs esiet top spēlētājs zaudējošajā komandā pēc nopelnītās pieredzes"
+
+msgid "battleresult/first/inTop/win"
+msgstr "Jūs esiet top spēlētājs uzvarošajā komandā pēc nopelnītās pieredzes"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "Jūs neesiet top spēlētājs zaudējošajā komandā pēc nopelnītās pieredzes"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "Jūs neesiet top spēlētājs uzvarošajā komandā pēc nopelnītās pieredzes"
+
+msgid "battleresult/headerText"
+msgstr "Kaujas rezultāti"
+
+msgid "battleresult/inTop/lose"
+msgstr "Jūs ierindojāties starp %(topNumber)s labākajiem spēlētājiem zaudētāju komandā pēc nopelnītās pieredzes"
+
+msgid "battleresult/inTop/win"
+msgstr "Jūs ierindojāties starp %(topNumber)s labākajiem spēlētājiem uzvarētāju komandā pēc nopelnītās pieredzes"
+
+msgid "battleresult/leagueEarned"
+msgstr "Pāriet uz\nLīgām"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "Jūsu Līga tiks noteikta pēc līderu saraksta aprēķināšanas.\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "Jūs neierindojāties starp %(topNumber)s labākajiem spēlētājiem zaudētāju komandā pēc nopelnītās pieredzes"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "Jūs nenopelnījāt minimālo pieredzes apjomu"
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "Jūs esiet pasargāti no ševronu zaudēšanas šajā stadijā"
+
+msgid "battleresult/notInTop/win"
+msgstr "Jūs neierindojāties starp %(topNumber)s labākajiem spēlētājiem uzvarētāju komandā pēc nopelnītās pieredzes"
+
+msgid "battleresult/rankEarned"
+msgstr "Rangs\nsaņemts"
+
+msgid "battleresult/rankLost"
+msgstr "Rangs\nzaudēts"
+
+msgid "battleresult/rankUnburnable"
+msgstr "Nav\nizmaiņu"
+
+msgid "battleresult/shieldLose"
+msgstr "Rangu vairogs\nsalauzts"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "Rangu vairogs\nnovājināts"
+
+msgid "battleresult/stageEarned"
+msgstr "Ševrons\nsaņemts"
+
+msgid "battleresult/stageLost"
+msgstr "Ševrons\nzaudēts"
+
+msgid "battleresult/stageNotEarned"
+msgstr "Ševrons\nsaglabāts"
+
+msgid "battleresult/stageSaved"
+msgstr "Ševrons\nsaglabāts"
+
+msgid "battleresult/stagesEarned"
+msgstr "Ševroni\nsaņemti"
+
+msgid "battleresult/status/rankEarned"
+msgstr "Rangs atgriezts"
+
+msgid "battleresult/status/rankLost"
+msgstr "Rangs zaudēts"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "Nav izmaiņu"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \nSaglabāti izturības punkti: %(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "Ranga vairogs salauzts!"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "Ranga vairogs novājināts!"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \nRanga vairogs atjaunots"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \nVēl viens zaudējums var novest pie jūsu ranga zaudēšanas."
+
+msgid "battleresult/status/stageEarned"
+msgstr "Ševrons iegūts"
+
+msgid "battleresult/status/stageLost"
+msgstr "Ševrons zaudēts"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "Ševrons saglabāts"
+
+msgid "battleresult/status/stageSaved"
+msgstr "Ševrons saglabāts"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "Saņemti ševroni"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "%(seasonName)s Sezona ilgs %(days)s dienas"
+
+msgid "calendarDay/title"
+msgstr "Grafiks"
+
+msgid "calendarStepsTooltip/title"
+msgstr "Etapu grafiks"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Nav piemērots režīmam"
+
+msgid "division/bronze"
+msgstr "Trešā Divīzija"
+
+msgid "division/classification"
+msgstr "Kvalifikācija"
+
+msgid "division/gold"
+msgstr "Pirmā Divīzija"
+
+msgid "division/silver"
+msgstr "Otrā Divīzija"
+
+msgid "division/status/completed"
+msgstr "Divīzija pabeigta"
+
+msgid "division/status/completed/description"
+msgstr "Jūs veiksmīgi pabeidzāt izvelēto Divīziju."
+
+msgid "division/status/locked"
+msgstr "Divīzija nav pieejama"
+
+msgid "division/status/locked/description"
+msgstr "Iepriekšējā Divīzija nav pabeigta."
+
+msgid "division/status/qualification"
+msgstr "Kaujas aizvadītas: %(progress)s"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "Kvalifikācija pabeigta"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "Aizvadiet %(battlesTotal)s kaujas, lai pabeigtu Kvalifikāciju.\nPabeidzot Kvalifikāciju, jūs saņemsiet balvas par %(battlesList)s kauju aizvadīšanu."
+
+msgid "division/tooltip/battlesDescription"
+msgstr "Sastāv no %(battlesCount)s kaujām"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "Jūs saņēmāt visus rangus šajā Divīzijā."
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "Jūs saņēmāt visus rangus šajā Divīzijā un pārgājāt uz Līgām."
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "Nepieciešamais skaits Kvalifikāciju kauju ir izcīnīts."
+
+msgid "division/tooltip/desc/current/text"
+msgstr "Pēc izpildes, jūs pāriesiet uz nākamo Divīziju un saņemsiet Bonuss Kaujas, kas paātrinās jūsu progresiju."
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "Pēc izpildes, jūs pāriesiet uz Līgām un saņemsiet Bonuss Kaujas, lai nostiprinātu vai uzlabotu jūsu pozīciju starp sezonas līderiem."
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "Pildot Kvalifikāciju, jūs saņemsiet balvas par %(battles)s kauju aizvadīšanu.\nPēc Kvalifikācijas pabeigšanas, jūs pāriesiet uz Trešo Divīziju un saņemsiet Bonusa Kaujas, kas uzlabos jūsu progresu."
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "Pēc izpildes, jūs pāriesiet uz nākamo Divīziju un saņemsiet Bonuss Kaujas, kas paātrinās jūsu progresiju."
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "Pēc izpildes, jūs pāriesiet uz Līgām un saņemsiet Bonuss Kaujas, lai nostiprinātu vai uzlabotu jūsu pozīciju starp sezonas līderiem."
+
+msgid "division/tooltip/desc/title"
+msgstr "Apraksts:"
+
+msgid "division/tooltip/rankDescription"
+msgstr "Sastāv no %(ranksCount)s rangiem"
+
+msgid "division/tooltip/status/completed"
+msgstr "Divīzija pabeigta"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "Izpildīta"
+
+msgid "division/tooltip/status/current"
+msgstr "Divīzija nav pabeigta"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "Nav izpildīta"
+
+msgid "division/tooltip/status/locked"
+msgstr "Divīzija nav pieejama"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "Vispirms pabeidziet iepriekšējo Divīziju."
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "Kvalifikācija nav izpildīta."
+
+msgid "introPage/alert/beforeSeason"
+msgstr "Pasākums sākas pēc:"
+
+msgid "introPage/alert/disabled"
+msgstr "Režīms īslaicīgi nav pieejams. Lūdzu atnāciet vēlāk."
+
+msgid "introPage/blocks/block1/description"
+msgstr "10 pret 10 spēlētāju kaujas ar Standarta Kauju noteikumiem, uz ierobežotu skaitu karšu un tikai izpētāmos, un Kolekcionāru X Līmeņa tankos."
+
+msgid "introPage/blocks/block1/title"
+msgstr "X līmeņa tanki"
+
+msgid "introPage/blocks/block2/description"
+msgstr "Pabeidziet 3 Divīzijas jūsu ceļā uz slavu un sasniedziet vienu no Līgām, cīnoties ar vienlīdzīga stipruma spēlētajiem."
+
+msgid "introPage/blocks/block2/title"
+msgstr "Progress Ranga Kaujās"
+
+msgid "introPage/blocks/block3/description"
+msgstr "Pabeidzot katru no trim Sezonām, jūs saņemsiet īpašu stilu X Līmeņa tankiem. 2021.–2022. gada sezonas beigās jūs saņemsiet arī vērtīgas balvas un unikālu X Līmeņa tanku."
+
+msgid "introPage/blocks/block3/title"
+msgstr "Unikālas balvas"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "Katrs nopelnītais rangs nesīs jums vērtīgu balvu. Papildus, jūs saņemsiet unikālu stilu priekš X Līmeņa tankiem par visu trīs Sezonu izpildi."
+
+msgid "introPage/btns/accept"
+msgstr "Tieši tā!"
+
+msgid "introPage/btns/detailed"
+msgstr "Režīma detaļas"
+
+msgid "introPage/btns/toHangar"
+msgstr "Uz Garāžu"
+
+msgid "introPage/description"
+msgstr "10 pret 10 kaujas, X Līmeņa tanki, 3 Divīzijas ceļā uz slavu."
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s d %(hour)s h"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "notification/rankEarned"
+msgstr "iegūts rangs"
+
+msgid "notification/rankLost"
+msgstr "zaudēts rangs"
+
+msgid "notification/rankedMessage"
+msgstr "Apsveicam!\nJūs ieguvāt %(rankRoman)s rangu\nNopelnīti kredīti: %(creditsCount)s\nNopelnīti punkti: %(expCount)s\nIegūti sasniegumi: %(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "ševrons iegūts"
+
+msgid "notification/stageLost"
+msgstr "ševrons zaudēts"
+
+msgid "notification/stageNotEarned"
+msgstr "ševrons saglabāts"
+
+msgid "notification/vehicleRankEarned"
+msgstr "iegūts bruņutehnikas rangs"
+
+msgid "notification/vehicleRankLost"
+msgstr "zaudēts bruņutehnikas rangs"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Servera %(serverName)s\nKaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Servera %(serverName)s\nSezona %(leftSeasonName)s ir beigusies."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Servera %(serverName)s\nKaujas būs pieejamas vēl %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Servera %(serverName)s\nKaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Servera %(serverName)s\nSezona %(leftSeasonName)s ir beigusies."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Servera %(serverName)s\nKaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Servera %(serverName)s\nSezona %(leftSeasonName)s ir beigusies."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "minūtes"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Pamiers ir spēkā visos serveros"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Sezona %(leftSeasonName)s %(serverName)s serverī ir beigusies."
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Pamiers ir spēkā %(serverName)s serverī līdz %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Sezona %(leftSeasonName)s %(serverName)s serverī ir beigusies."
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Pamiers ir spēkā %(serverName)s serverī līdz %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Sezona %(leftSeasonName)s %(serverName)s serverī ir beigusies."
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Kaujas %(serverName)s serverī sāksies pēc %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Sezona %(leftSeasonName)s %(serverName)s serverī ir beigusies."
+
+msgid "primeTimes/timeText/available"
+msgstr "Kaujas %(serverName)s serverī būs pieejamas vēl %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Kaujas %(serverName)s serverī sāksies pēc %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Sezona %(leftSeasonName)s %(serverName)s serverī ir beigusies."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Kaujas %(serverName)s serverī sāksies pēc %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Sezona %(leftSeasonName)s %(serverName)s serverī ir beigusies."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "Aizvadiet %(battlesCount)s kaujas, lai pabeigtu Kvalifikāciju."
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "Aizvadītas kaujas:"
+
+msgid "qualificationRewards/description"
+msgstr "Balvas par Kvalifikāciju izpildi tiek sniegtas, kad tiek pabeigta pēdējā Kvalifikācijas kauja."
+
+msgid "quests/detailed/allServersPrime"
+msgstr "Pamiers"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "Vispirms sasniedziet Līgas"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "Sezona beigsies pēc %(day)s d"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "Sezona drīz beigsies"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "Sezona beigsies pēc %(hour)s h"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "Sezona beigsies pēc mazāk kā minūtes"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "Sezona beigsies pēc %(min)s min"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "Nav pieejams:"
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "Misijas kļūs pieejamas pēc Pamiera beigām Rangotajās Kaujās."
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "Vispirms sasniedziet Līgas"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "Sezona beigsies pēc %(day)s d"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "Sezona drīz beigsies"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "Sezona beigsies pēc %(hour)s h"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "Sezona beigsies pēc mazāk kā minūtes"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "Sezona beigsies pēc %(min)s min"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "Izpildīšana nav pieejama"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "Pamiers"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "Nav Līgās"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "Sezonas Beigas"
+
+msgid "questsTooltip/available"
+msgstr "Sezona beigsies pēc %(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s d"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s h"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "mazāk par minūti"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s min"
+
+msgid "questsTooltip/bottom"
+msgstr "Vairāk misijas: %(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "Jaunas misijas būs pieejamas pēc %(day)s d"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "Jaunas misijas būs pieejamas pēc %(hour)s h"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "Jaunas misijas būs pieejamas pēc minūtes"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "Jaunas misijas būs pieejamas pēc %(min)s min"
+
+msgid "questsTooltip/header"
+msgstr "Rangotu Kauju Misijas"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "Nav pieejams: Pamiers tagad ir spēkā"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "Nav pieejams: vispirms sasniedziet Līgas"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "Nav pieejams: Sezona beigsies pēc %(day)s d"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "Nav pieejams: Sezona beigsies pēc %(hour)s h"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "Nav pieejams: Sezona beigsies pēc mazāk kā minūtes"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "Nav pieejams: Sezona beigsies pēc %(min)s min"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "Atlīdzība par sasniegtajiem rangiem"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "Bonas"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "Jūsu augstākais rangs"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "Punkti"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "%(cycleNumber)s etapa rezultāti"
+
+msgid "rankedBattle/title"
+msgstr "RANGOTĀS KAUJAS"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "Fināla"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "Par rangu"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "Sezonas atlīdzības"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "Progresā"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "Punkti kopā: %(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "Punkti: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "Pašreizējais etaps beigsies %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "%(cycle)d. etaps"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "Finālā tiek summēti visu etapu punkti un izsniegtas atlīdzības.\nSezonas fināls – %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "Sezonas fināls"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "Etaps sāksies %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "%(cycle)d. etaps"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "Nopelnīti punkti: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "%(cycle)d. etaps noslēdzies"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%d.%m.%y"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "Bonuss kaujas: %(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "%(day)s d līdz beigām"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "%(hour)s h līdz beigām"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "Mazāk par minūti līdz beigām"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "%(min)s min līdz beigām"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "Jūsu rangs"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "%(rank)s rangs"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "X līmeņa tanki, lomu pieredze, bonuss kaujas, progresija 3 Divīzijās un kaujas Līgās."
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "Pelniet ševronus un uzlabojiet jūsu sniegumu, lai kāptu Līderu Sarakstā un sasniegtu top %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "Zelta Līga"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "Sudraba Līga"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "Bronzas Līga"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "TOP %(count)d"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "Pelniet ševronus un uzlabojiet jūsu sniegumu, lai kāptu Līderu Sarakstā un saglabātu jūsu pozīciju top %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "Aprēķina jūsu Līgu. Rezultāti būs pieejami drīz."
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "Līga nav aprēķināta"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "Pelniet ševronus un uzlabojiet jūsu sniegumu, lai noturētu jūsu pozīciju Līgā."
+
+msgid "rankedBattleMainView/season"
+msgstr "Sezona %(season)s"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "Sezona %(season)s ir beigusies"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "Sezona %(season)s ir beigusies."
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "Nākamā sezona %(newSeason)s sākas %(date)s"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "Visi rangu tokeni, kas tika nopelnīti Sezonas laikā tika noņemti dēļ jūsu Spēles Noteikumu neievērošanas."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "Jūs tikāt izslēgts no Sezonas līderu saraksta dēļ jūsu Spēles Noteikumu neievērošanas. Visi rangu tokeni, kas tika nopelnīti Sezonas laikā tika noņemti."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "Jūs tikāt noņemts no Sezonas Līderu saraksta dēļ jūsu Spēles Noteikumu neievērošanas."
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "Rangu tokens tika noņemts dēļ jūsu Spēles Noteikumu neievērošanas"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "Visi rangu tokeni, kas tika nopelnīti Sezonas laikā tika noņemti dēļ jūsu Spēles Noteikumu neievērošanas."
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "Jūsu augstākais sasniegtais rangs šajā sezonā"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "Sezonas līderi"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "Rangs %(rank)s (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "Apsveicam ar veiksmīgu šīs sezonas izpildi!"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "Pāriet pie ranga tabulas"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "Zelta Līga"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "Sudraba Līga"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "Bronzas Līga"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "Jūsu augstākais rezultāts šajā Sezonā"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "Jūs pabeidzāt Kvalifikāciju"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "Jūs neesiet nopelnījis rangu šajā sezonā"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "Nav rangu"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "Jūs tikāt izslēgts no Sezonas Līderu saraksta pēc jūsu konta atgūšanas."
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "Jūs tikāt izslēgts no Sezonas Līderu saraksta pēc jūsu konta atgūšanas."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "Jūs tikāt izslēgts no Sezonas Līderu saraksta pēc jūsu konta atgūšanas."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "Jūs tikāt izslēgts no Sezonas Līderu saraksta pēc jūsu konta atgūšanas."
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "Sniegums"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "Ārpus reitinga"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "Pēc aprēķināšanas, jūs redzēsiet jūsu gala rezultātus un saņemsiet pelnītās balvas"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "Aprēķina rezultātus"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "Kaujas Līgās"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "Kopējās kaujas"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "Sniegums Divīzijā"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "Sniegums\nKvalifikācijā"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "Ševroni\nKvalifikācijā"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "Pozīcija līderu sarakstā"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "Līderu saraksts tiek atjaunināts katras %(minutes)s minūtes. Pēdējā atjaunināšana: %(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "Līderu saraksts īslaicīgi nav atjaunināts tehnisku iemeslu dēļ."
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "Vispārīgs sniegums"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "Ševroni Līgās"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "Kopējie Ševroni"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "Jūsu Rezultāts 2021.–2022. Gadā"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "AIZVĒRT"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "Pašreizējā līga"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "Sezonas līderi"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "Ārpus reitinga"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "Koka līga"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "Punkti kopā: "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "Uzspiediet, lai apskatītos sezonas līderus"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "Aizvadīt efektīvas kaujas:"
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "Aktīvu misiju nav"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "Misija"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "Uzspiediet, lai apskatītos atlīdzības"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "Sezonas atlīdzības"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "ATPAKAĻ"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "UZ ANGĀRU"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "%(cycleNumber)s. etaps"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "Uzspiediet, lai sāktu savu ceļu ranga kaujās."
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "Uz priekšu!"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "Video par režīmu"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "Sezonas rekords"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "Pelniet punktus, lai saņemtu atlīdzības finālā"
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "Jūsu pašreizējais rangs: %(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "Apsveicam! Šajā sezonā jūs sasniedzāt augstāko rangu %(rank)s."
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "Ševroni: %(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "Rangu tokeni"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "Uzspiediet, lai apskatītos informāciju par visiem sezonas etapiem."
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "Kalendārs"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "%(cycleNumber)s. etapa rezultāti pēc %(timeLeft)s"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "Sezona %(cycleNumber)s: %(day0)s/%(month0)s – %(day1)s/%(month1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "Sezonas rezultāti tiks apkopoti pēc: "
+
+msgid "rankedBattleView/title"
+msgstr "Ranga kauja"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "Rādīt animāciju"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s nevar cīnīties Rangotajās Kaujās."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "Nesaderīgs Tanku Tips"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "Izvēlieties %(levelSubStr)s, lai cīnītos Rangotajās Kaujās."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nesaderīgs Tanku Līmenis"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s līmeņa tanks"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s nevar cīnīties Rangotajās Kaujās."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "Nesaderīgs Tanks"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "Tika izsniegts etapa beigās un ietvēra vērtīgas atlīdzības. Atlīdzību skaits un kvalitāte bija atkarīga no pozīcijas ranga tabulā."
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "Konteiners ar atlīdzībām"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "AIZVĒRT"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "Atlīdzība saņemta"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "Tiek iegūts etapa beigās un ietver vairākas atlīdzības. Atlīdzību skaits un kvalitāte ir atkarīga no pozīcijas ranga tabulā."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "Konteiners ar atlīdzībām"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "Var apmainīt pret jaunu unikālu elementu: personīgajām rezervēm un retu moduli. Viena bona var apmainīt pret moduli vai personīgo rezervju komplektu. Jo vairāk bonas nopelnīsiet, jo vērtīgākus elementus iegūsiet."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "Bonas"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "Rangs"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "Atlīdzība par iegūto rangu"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "Piešķir par labāko rezultātu, kas sasniegts vienā etapā. Labākais rezultāts netiks atiestatīts arī tad, ja rangs tiek zaudēts."
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "Atlīdzība etapa beigās"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "Regulāra atlīdzība"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "Pāriet pie ranga tabulas"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "Uzspiediet, lai dotos uz sezonas līderu sarakstu un apskatītos savu pozīciju."
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "Sezonas līderi"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "%(count)s labākie spēlētāji"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "nākamie %(count)s"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "Koka līga"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "Pelniet punktus par augstākas pozīcijas sasniegšanu ranga tabulā.\nGala atlīdzība, kuru saņemsiet, ir atkarīga no\njūsu pašreizējās līgas."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "Informācija par jūsu pašreizējo līgu īslaicīgi nav pieejama. Mēģiniet atkal vēlāk."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "Reitinga pozīcija"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "Gala atlīdzība"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "No %(start)s līdz %(end)s"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "Šajā etapā jūs neieguvāt rangu.\nNopelnīti punkti: %(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "Izpildiet personīgās misijas"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "Izmantojiet %(premiumType)s Premium kontu"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "Wargaming"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "WoT"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "Aktivizējiet personīgās rezerves"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "Kas ir ātrākais veids kā izpētīt %(levels)s līmeņa tankus?"
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "AIZVĒRT"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "Režīms nav pieejams"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "Jums jābūt %(levels)s Līmeņa tankiem jūsu Garāžā, lai cīnītos Ranga Kaujās.\nJums ir izpētīti %(levels)s Līmeņa tanki, kurus vēl neesiet nopirkuši."
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "Jums jābūt %(levels)s Līmeņa tankiem jūsu Garāžā, lai cīnītos Ranga Kaujās.\nJums ir %(levels)s Līmeņa tanki, kuri ir pieejami atgūšanai."
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "Jums ir jābūt %(levels)s Līmeņa tankiem jūsu Garāžā, lai cīnītos Ranga Kaujās."
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "Par rangu"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "Fināla"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "priekš Bonuss kaujas"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "Nezināms"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "Zelta"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "Sudraba"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "Bronzas"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "Jūs atgriezāties %(leagueName)s Līgā"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "LĪGA MAINĪTA"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "Jūs pārgājāt uz %(leagueName)s Līgu"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "LĪGA MAINĪTA"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "Tagad jūs variet cīnīties par pozīciju līderu sarakstā"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "LĪGAS PIEEJAMAS"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "Jūs pārgājāt uz nākamo Divīziju"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "JAUNA DIVĪZIJA"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "Apsveicam!\nRangs saņemts!"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "Bez izmaiņām"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "Kaujas, lai pabeigtu Kvalifikāciju:\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "Balvu kandidāts"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "Balvas par Līgām"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "%(styleName)s stils un %(badgeName)s žetons"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "Balvu stili un žetoni ir pagaidu un pieejami spēlētājam līdz nākamās sezonas beigām. Lai aizstāvētu tiesības pielietot tos, spēlētājiem ir jāsasniedz tāda pati Līga vēlreiz. Ja spēlētājs nesasniedz vienu no Līgām, stils un žetons kļūst nepieejams. Ja spēlētājs sasniedz citu Līgu, stils un žetons tiek aizstāti ar atbilstošajiem."
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "Stils ir apbalvots sezonas uzvarētājiem, kuri parādīja ievērojamus rezultātus: pabeidza visas Divīzijas un bija starp top 20%% no spēlētājiem attiecībā uz sniegumu, vai bija pirmie spēlētāji, kas tika Līgās. Pielāgots tankam, stils demonstrē patiesos īpašnieka sasniegumus. Šī stila pielāgošanas tiesības ir jāaizstāv katru Nejaušo Kauju režīmu Sezonu."
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "Stils ir apbalvots sezonas uzvarētājiem, kuri parādīja atbilstošu meistarības saistību līmeni, sasniedzot Sudraba Līgā sezonas beigās. Pielāgots tankam, stils demonstrē patiesos īpašnieka sasniegumus. Šī stila pielāgošanas tiesības ir jāaizstāv katru Nejaušo kauju režīmu sezonu."
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "Stils ir apbalvots sezonas uzvarētājiem, kuri sasniedza Bronzas Līgu sezonas beigās. Pielāgots tankam, stils demonstrē patiesos īpašnieka sasniegumus. Šī stila pielāgošanas tiesības ir jāaizstāv katru Nejaušo kauju režīmu sezonu."
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "Zelta Līga"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "Sudraba Līga"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "Bronzas Līga"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "Balvas par rangiem"
+
+msgid "rewardsView/tabs/year"
+msgstr "Ikgadējās balvas"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "Par %(points)s %(rankedImg)s, jūs saņēmāt %(crystal)s%(crystalImg)s kā kompensāciju"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "Jūs saņēmāt %(crystal)s %(crystalImg)s kā kompensāciju"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "Balvu kandidāts"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "Izvēlieties Balvu"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "Atlīdzība saņemta"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "Ranga Tokeni: %(points)s"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "Ranga tokeni: %(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "Jūsu augstākais sasniegtais rangs"
+
+msgid "seasonComplete/bigTitle"
+msgstr "%(season)s sezonas rezultāti"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "Rangs %(rank)s (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "Veiktspēja"
+
+msgid "seasonComplete/leadersButton"
+msgstr "Sezonas līderi"
+
+msgid "seasonComplete/outOfRating"
+msgstr "Ārpus reitinga"
+
+msgid "seasonComplete/placeInRating"
+msgstr "Reitinga pozīcija"
+
+msgid "seasonComplete/smallTitle"
+msgstr "Ranga kauja"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "Jūs eseit starp pirmajiem spēlētājiem, kuri ienāca Līgās un saņemsiet balvu par Zelta Līgu."
+
+msgid "seasonComplete/sprinterTop"
+msgstr "Jūs eseit starp pirmajiem spēlētājiem, kuri ienāca Līgās."
+
+msgid "seasonComplete/tooltip/body"
+msgstr "Jūsu rezultāti sezonā %(season)s"
+
+msgid "selectableReward/subTitle"
+msgstr "IZVĒLIETIES JŪSU BALVU"
+
+msgid "selectableReward/title"
+msgstr "RANGA KAUJAS: %(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "Katrs priekšmets no saraksta var tikt saņemts tikai vienu reizi."
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• Ventilācijas Sistēma\n• Stabilizācijas Iekārtu Sistēma\n• Inovatīva Lādēšanas Sistēma\n• Nodilumizturīgs Ieroča Tēmēšanas Piedziņas Pastiprinātājs\n• Eksperimentāla Optika\n• Uzlabota Konfigurācija\n• Uzlabots Kompresors\n• Palielināta Čaulīšu Pretestība"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "Uzlaboto Iekārtu Priekšmeti Izvēlei"
+
+msgid "selectorTooltip/desc"
+msgstr "Kaujas ar izpētāmiem un Kolekcionāru X Līmeņa tankiem zem Standarta Kauju noteikumiem. Komandas sastāv no spēlētājiem ar vairāk vai mazāk līdzīgiem rangiem."
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Līdz sezonas beigām:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Kauju grafiks"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Šodien"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Rīt"
+
+msgid "selectorTooltip/title"
+msgstr "Ranga kauja"
+
+msgid "statistic/playersRaiting"
+msgstr "Sezonas līderi"
+
+msgid "statistic/vehicleRank"
+msgstr "Nopelnītie ranga tokeni"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "tooltip/closeButton/body"
+msgstr "Atlīdzība tiks ieskaitīta automātiski."
+
+msgid "tooltip/closeButton/header"
+msgstr "Atgriezties angārā"
+
+msgid "tooltip/step/conditions"
+msgstr "Ja spēlētājs iekļūst starp %(battlesNum)s labākajiem spēlētājiem %(team)s pēc nopelnītās pieredzes"
+
+msgid "tooltip/step/conditions/header"
+msgstr "Iegūts"
+
+msgid "tooltip/step/decommission/description"
+msgstr "Ja spēlētājs ieņem %(fromTill)s pozīciju zaudētāju komandā pēc nopelnītās pieredzes."
+
+msgid "tooltip/step/decommission/header"
+msgstr "Tiek norakstīts"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "Ja spēlētājs ieņem %(fromTill)s pozīciju uzvarētāju komandā pēc nopelnītās pieredzes."
+
+msgid "tooltip/step/description"
+msgstr "Īpašs elements, kas ataino jūsu progresu uz nākamo līmeni"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s – %(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "Ševrons"
+
+msgid "tooltip/step/losers"
+msgstr "zaudētāju komanda"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "Ja spēlētājs nav starp %(battlesNum)s labākajiem uzvarētāju komandā pēc nopelnītās pieredzes, bet ieņem %(fromTill)s vietu."
+
+msgid "tooltip/step/notCharged/header"
+msgstr "Saglabāts"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "Ja spēlētājs nav starp %(battlesNum)s labākajiem zaudētāju komandā pēc nopelnītās pieredzes, bet ieņem %(fromTill)s vietu."
+
+msgid "tooltip/step/or"
+msgstr "vai"
+
+msgid "tooltip/step/winners"
+msgstr "uzvarētāju komanda"
+
+msgid "welcomeScreen/btn"
+msgstr "Uz priekšu!"
+
+msgid "welcomeScreen/centerRule"
+msgstr "Iegūstiet augstāku rangu kaujās ar cienījamiem pretiniekiem"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "Abās komandās tiek piemeklēti spēlētāji ar puslīdz līdzīgiem rangiem."
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "Cienījams pretinieks"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "AIZVĒRT"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "Uzspiediet, lai aizvērtu ekrānu un atgrieztos angārā."
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "Aizvērt"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "Sveicināti!"
+
+msgid "welcomeScreen/leftRule"
+msgstr "Dodieties kaujā ar iecienīto\nX līmeņa bruņutehniku"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "Cīnieties jūsu mīļākajos izpētāmos vai Kolekcionāru X Līmeņa\ntankos"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "X līmenis"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team} un iekļūt starp {topNumber} labākajiem savā komandā pēc nopelnītās pieredzes."
+
+msgid "welcomeScreen/negative/team"
+msgstr "Zaudēt kaujā"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team} un iekļūt starp {topNumber} labākajiem savā komandā pēc nopelnītās pieredzes."
+
+msgid "welcomeScreen/positive/team"
+msgstr "Uzvariet kauju"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "Lai iegūtu 1 rangu"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "Iekļūstiet starp labākajiem pēc nopelnītās pieredzes un iegūstiet augstākus rangus!"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "Jo augstāku pozīciju ieņemsiet, jo vērtīgāku atlīdzību saņemsiet."
+
+msgid "welcomeScreen/rightRule"
+msgstr "Jo augstāks rangs, jo vērtīgākas atlīdzības"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "Jo augstāku ranga pozīciju ieņemsiet, jo vērtīgākas atlīdzības saņemsiet."
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "Vērtīgas atlīdzības"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "vai"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "Ranga kauja"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "Iet uz Līderu Sarakstu"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "{name} {clan}pozīcija Līderu Sarakstā"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "Jūs saņemāt īpašu %(name) žetonu, lai pieliktu to blakus jūsu segvārdam."
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "\"{name}\""
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "Jūs sasniedzāt top {total}"
+
+msgid "yearRewards/box/big/title"
+msgstr "Uzlabota balva"
+
+msgid "yearRewards/box/large/title"
+msgstr "Maksimāla balva"
+
+msgid "yearRewards/box/medium/title"
+msgstr "Standarta balva"
+
+msgid "yearRewards/box/small/title"
+msgstr "Maza balva"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "Balva"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "Uzlabota balva"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "Maksimāla balva"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "Standarta balva"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "Maza balva"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "Ikgadēja Balva. Apbalvots tikai, ja spēlētājs nopelna nepieciešamo skaitu Ranga Tokenu pēc trīs Sezonu beigām Ranga Kaujās."
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "Jūs variet izvēlēties vienu gabalu no Uzlabotām Iekārtām kā balvu:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "Jūs variet izvēlēties divus gabalus no Uzlabotām Iekārtām kā balvu. Katrs priekšmets var tikt saņemts tikai vienu reizi:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "Jūs variet izvēlēties trīs gabalus no Uzlabotām Iekārtām kā balvu. Katrs priekšmets var tikt saņemts tikai vienu reizi:"
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• Ventilācijas Sistēma\n• Stabilizācijas Iekārtu Sistēma\n• Inovatīva Lādēšanas Sistēma\n• Nodilumizturīgs Ieroča Tēmēšanas Piedziņas Pastiprinātājs\n• Eksperimentāla Optika\n• Uzlabota Konfigurācija\n• Uzlabots Kompresors\n• Palielināta Čaulīšu Pretestība"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "Uzlabotas Iekārtas"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "Nepieciešami ranga tokeni"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "Par cik jūs esiet nopelnījuši nepieciešamo daudzumu Rangu Tokenu, jūs esiet kandidāts Ikgadējai Balvai."
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "Jūsu pašreizējā balva"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "Jūs saņēmāt Ikgadējo Balvu! Noklikšķiniet Izvēlēties Balvu pogu, lai izvēlētos uzlaboto iekārtu priekšmetus."
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "Balva saņemta! Uzlaboto iekārtu priekšmeti ir pieejami izvēlei."
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "Jūs saņēmāt Ikgadējo Balvu!"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "Balva Saņemta!"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "Nopelniet tās Rangotajās kaujās, ejot cauri Divīzijām un spēlējot Līgās."
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "Nepietiekami rangu tokeni"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "Jūs nenopelnījāt nepieciešamo skaitu Ranga Tokenu, lai saņemtu šo balvu."
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "Nepietiekami rangu tokeni"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "Jūs jau esiet kandidāts vēl vērtīgākai Ikgadējai Balvai"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "Balva nav pieejama"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "Jūs jau saņēmāt vērtīgāku Ikgadējo Balvu"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "Balva nav pieejama"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "Tieši tā!"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "Skatīt Garāžā"
+
+msgid "year_award/compensationLabel"
+msgstr "Jūs nopelnījāt {total} {pointsIcon}. Par {compensated} {pointsIcon} no tiem, jūs saņēmāt {crystals} {crystalIcon} kā kompensāciju."
+
+msgid "year_award/rankedLabel"
+msgstr "Ranga kauja"
+
+msgid "year_award/rewardSelected"
+msgstr "Atlīdzība saņemta"
+
+msgid "year_award/rewardsToSelect"
+msgstr "Balvas pieejamas izvēlei no: {count}"

@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Atgal prie lobių"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Liepsnojantis lobis"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "LIEPSNOJANTIS LOBIS"
+
+msgid "common/getButton/lowerCase"
+msgstr "Gauti lobių"
+
+msgid "common/getButton/upperCase"
+msgstr "GAUTI LOBIŲ"
+
+msgid "common/loader"
+msgstr "Atidaromas liepsnojantis lobis..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Statistiką pamatysite atidarę lobių."
+
+msgid "common/statistics/header"
+msgstr "Atidaryta Liepsnojančių lobių: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Visa informacija apie atidarytus Liepsnojančius lobius bus ištrinta."
+
+msgid "entryPoint/boxes"
+msgstr "Į LOBIUS"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Tai yra specialios dėžės, kuriuose galite rasti naujų ir unikalių daiktų, tarp kurių yra Premium mašinų, 2D stilių ir daugiau. Jų rasti galite žaidimo parduotuvėje."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Šiuo metu negalima atidaryti ar pirkti Liepsnojančių lobių dėl techninių nesklandumų. Mes atsiprašome už laikinus sutrikimus."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Liepsnojantys lobiai laikinai nepasiekiami"
+
+msgid "eventName/lowerCase"
+msgstr "Mėnulio trofėjus"
+
+msgid "eventName/upperCase"
+msgstr "MĖNULIO TROFĖJUS"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantuotas prizas kitame lobyje!"
+
+msgid "guaranteedTitle/text"
+msgstr "Daugiausia Liepsnojančių lobių iki garantuoto prizo: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Jei iki renginio pabaigos neatidarysite Liepsnojančių lobių, jie bus atidaryti automatiškai."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Jei jau turite visas mašinas, kurias galite gauti iš Liepsnojančių lobių, tai toliau iš Liepsnojančių lobių gaunamų mašinų vertė bus pilnai kompensuojama auksu."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Kas %(guaranteed0)s Liepsnojančių lobių garantuotai gausite VIII–IX lygio mašiną. Jei atidarinėdami jas negaunate tokios mašinos, tai VIII–X lygio mašiną, kurios dar neturite, būtinai gausite atidarę %(guaranteed0)s&zwnbsp;-tą Liepsnojantį lobį. Gavus mašiną dėžės bus skaičiuojamos iš naujo."
+
+msgid "infoPage/header/description"
+msgstr "Liepsnojančių lobių viduje gali būti vertingų žaidimo daiktų! Sužinokite daugiau žemiau."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Iš %(name) (atidaryta Liepsnojančių lobių: %(boxesCount))"
+
+msgid "noBoxesView/description/"
+msgstr "Jūs neturite Liepsnojančių lobių.\nJų galite gauti žaidimo parduotuvėje."
+
+msgid "preview/backLabel"
+msgstr "Į LOBIUS"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Pasiekiama lobių: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nėra pasiekiamų lobių"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Jei jau turite visas mašinas, kurias galite gauti iš Liepsnojančių lobių, tai toliau iš Liepsnojančių lobių gaunamų mašinų vertė bus kompensuojama auksu."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Liepsnojantis lobis"
+msgstr[1] "%(remainingCount) Liepsnojantys lobiai"
+msgstr[2] "%(remainingCount) Liepsnojančių lobių"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Garantuotas prizas yra mašina iš Liepsnojančių lobių prizų sąrašo.\nJei atidarėte %(remainingCount) ir mašinos dar negavote, tai gausite ją atidarę %(count). Kai ją gausite, skaičiuoklis pradės skaičiuoti iš naujo."

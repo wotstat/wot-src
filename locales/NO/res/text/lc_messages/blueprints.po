@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Tegning samlet"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Tegning  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Tegning {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Til kjøp"
+
+msgid "blueprintScreen/button/research"
+msgstr "Til utvikling"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Vis i garasjen"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Du kan sette sammen tegninger for å få rabatt på utvikling av et ønsket kjøretøy. Men du må ha utviklet det foregående kjøretøyet\ni utviklingsgrenen først for å benytte rabatten."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Bekreftet!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Kan ikke utvikle"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "For å lage en tegningsdel trenger du:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "velg:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "OPPRETT DEL:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Opprett deler"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Konvertér\ndel"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Konvertering\nikke tilgjengelig"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "IKKE TILGJENGELIG:\nIkke nok\nressurser"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Gå til kjøretøyet"
+
+msgid "blueprintScreen/or"
+msgstr "eller"
+
+msgid "blueprintScreen/research"
+msgstr "UTVIKLING"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Gratis utvikling av kjøretøyet"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Kan ikke utvikle"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Utviklingsrabatt:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Dette kjøretøyet har blitt utviklet og er tilgjengelig for kjøp"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Dette kjøretøyet har blitt utviklet og kjøpt"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "I depotet:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Du kan benytte en 100% rabatt på utviklingen av {vehicleName} etter at du har utviklet det foregående kjøretøyet i grenen."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Tegning samlet"
+
+msgid "blueprintScreen/unlocked"
+msgstr "KJØRETØY\nUTVIKLET"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Koalisjon:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Blokk:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Allianse:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Union:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Universal:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Koalisjon"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Blokk"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Allianse"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Union"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Frankrike, Tsjekkoslovakia, Sverige, Italia)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Tyskland, Japan)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(USA, Storbritannia, Polen)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(Sovjetunionen, Kina)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Velg antall nasjonale deler for å lage tegningsdeler til kjøretøy.\n%(allianceIcon)%(allianceName) %(allianceNations) nasjonale deler tilgjengelig."
+
+msgid "conversionView/topMessage/single"
+msgstr "Velg deler fra ett av de tilgjengelige nasjonene for å lage tegningsdeler til et kjøretøy.\n%(allianceIcon)%(allianceName) %(allianceNations) nasjonale deler tilgjengelig."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Sluttkostnad:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Kostnad for tegningsdel:"
+
+msgid "nations/china"
+msgstr "Kina"
+
+msgid "nations/czech"
+msgstr "Tsjekkoslovakia"
+
+msgid "nations/france"
+msgstr "Frankrike"
+
+msgid "nations/germany"
+msgstr "Tyskland"
+
+msgid "nations/italy"
+msgstr "Italia"
+
+msgid "nations/japan"
+msgstr "Japan"
+
+msgid "nations/poland"
+msgstr "Polen"
+
+msgid "nations/sweden"
+msgstr "Sverige"
+
+msgid "nations/uk"
+msgstr "Storbritannia"
+
+msgid "nations/usa"
+msgstr "USA"
+
+msgid "nations/ussr"
+msgstr "Sovjetunionen"

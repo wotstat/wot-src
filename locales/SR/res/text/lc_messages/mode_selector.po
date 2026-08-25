@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "button/progression"
+msgstr "Pokaži napredak"
+
+msgid "button/select"
+msgstr "Podesi"
+
+msgid "event/battlePass/name"
+msgstr "Borbena propusnica sezona %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "Događaj %(eventName)s\nje gotov"
+
+msgid "event/notStarted"
+msgstr "Događaj %(eventName)s\npočinje %(date)s"
+
+msgid "event/paused"
+msgstr "Događaj %(eventName)s\nje privremeno nedostupan"
+
+msgid "event/ranked/name"
+msgstr "Sezona %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "PREGLED U REŽIMU NAPREDKA"
+
+msgid "mode/epicBattle/condition"
+msgstr "30na30 &nbsp;{par_open}I{par_close}&nbsp;Nivoi&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30na30&nbsp;{par_open}I{par_close}&nbsp;Nivo&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Događaj\nće početi %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Ovaj režim\nće uskoro početi"
+
+msgid "mode/epicBattle/description"
+msgstr "Režim sa napretkom i nagradama."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Događaj je završen"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Boreći se u vozilima VIII nivoa u {whiteSpanish_open}Linij fronta{whiteSpanish_close}, zaradićeš poene koji ti dozvoljavaju da napreduješ kroz Borbenu propusnicu."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Poeni borbene propusnice"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Boreći se u vozilima VIII - X nivoa u {whiteSpanish_open}Misiji izviđanja{whiteSpanish_close}, zaradićeš poene koji ti dozvoljavaju da napreduješ kroz Borbenu propusnicu."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Poeni borbene propusnice"
+
+msgid "mode/mapbox/condition"
+msgstr "15na15 %(parSecondary_open)sI%(parSecondary_close)s Nivoi&nbsp;VIII - X"
+
+msgid "mode/mapbox/description"
+msgstr "Nove mehanike mape."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Vremenski vizuelni efekti zavise od tvojih opštih podešavanja grafike. Pri niskim grafičkim postavkama može doći do vizuelnih artefakata i problema. Preporučujemo da izabereš najvišu postavku grafike za najbolje moguće iskustvo, pod uslovom da specifikacije tvog računara ispunjavaju zahteve. Režim zahteva visoke performanse računara. FPS može da se smanji tokom intenzivne borbe."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Savetuju se najviše postavke grafike"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Savetuju se najviše postavke grafike"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Nauči mape"
+
+msgid "mode/mapsTraining/description"
+msgstr "Nauči mape"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Boreći se u vozilima IV - XI nivoa u {whiteSpanish_open}slučajnim borbama{whiteSpanish_close}, zarađuješ poene koji ti dozvoljavaju da napreduješ kroz progres borbene propusnice."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Poeni borbene propusnice"
+
+msgid "mode/random/condition"
+msgstr "15 na 15 %(parSecondary_open)sI%(parSecondary_close)s nivoi&nbsp;I–XI"
+
+msgid "mode/random/description"
+msgstr "Borbe sa automatskim uparivanjem."
+
+msgid "mode/random/setup"
+msgstr "Podesi"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Boreći se u vozilima X nivoa u {whiteSpanish_open}rangiranim borbama{whiteSpanish_close}, zarađuješ poene koji ti dozvoljavaju da napreduješ kroz napredak borbene propusnice."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Poeni borbene propusnice"
+
+msgid "mode/ranked/condition"
+msgstr "10 na 10 %(parSecondary_open)sI%(parSecondary_close)s nivo &nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Režim sa napretkom i nagradama."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Prijavi se za turnir"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Sledeća borba: %(date)s u %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1 na 1–15 na 15 %(parSecondary_open)sI%(parSecondary_close)s nivoi&nbsp;I–X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Globalna mapa i turniri."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Bori se kao legionar"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Bori se u klanu"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7 na 7–15 na 15 %(parSecondary_open)sI%(parSecondary_close)s nivoi&nbsp;VI–X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Klanske borbe za industrijske resurse."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Trening sobe: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1 na 1–15 na 15 %(parSecondary_open)sI%(parSecondary_close)s nivoi&nbsp;I–X"
+
+msgid "mode/trainingsList/description"
+msgstr "Uvodne borbe."
+
+msgid "novelty"
+msgstr "NOVO"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Borbe u kvalifikacijama: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Možeš da dobiješ jedinstvene 3D dodatke za igranje režima."
+
+msgid "reward/attachment/name"
+msgstr "3D dodaci"
+
+msgid "reward/bones/description"
+msgstr "Nagrada se utvrđuje prema tvojim borbenim performansama."
+
+msgid "reward/bones/name"
+msgstr "Bonovi"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Možeš da dobiješ %(name)s za igranje režima."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Specijalna oprema"
+
+msgid "reward/credits/description"
+msgstr "Nagrada se utvrđuje prema tvojim borbenim performansama."
+
+msgid "reward/credits/name"
+msgstr "Krediti"
+
+msgid "reward/crew/description"
+msgstr "Možeš da dobiješ jedinstvene članove posade za igranje ovog režima."
+
+msgid "reward/crew/name"
+msgstr "Članovi posade"
+
+msgid "reward/experience/description"
+msgstr "Nagrada se utvrđuje prema tvojim borbenim performansama."
+
+msgid "reward/experience/name"
+msgstr "Iskustvo"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Možeš da dobiješ različitu eksperimentalnu opremu za igranje režima."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Specijalna oprema"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Možeš da dobiješ %(name)s za igranje režima."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Specijalna oprema"
+
+msgid "reward/lootBoxes/description"
+msgstr "Možeš da dobiješ kutije sa plenom za igranje režima."
+
+msgid "reward/lootBoxes/name"
+msgstr "Specijalne kutije sa plenom"
+
+msgid "reward/other/description"
+msgstr "Možeš da dobiješ mnoge korisne nagrade za igranje režima."
+
+msgid "reward/other/name"
+msgstr "Specijalna nagrada"
+
+msgid "reward/progressionStyle/description"
+msgstr "Možeš dobiti specijalan progresivni stil za igranje u ovom režimu."
+
+msgid "reward/progressionStyle/name"
+msgstr "Progresivni stil"
+
+msgid "reward/random/description"
+msgstr "Možeš da dobiješ mnoge korisne nagrade za igranje režima."
+
+msgid "reward/random/name"
+msgstr "Slučajna nagrada"
+
+msgid "reward/style/description"
+msgstr "Možeš da dobiješ specijalni 3D stil za %(name)s za igranje u ovom režimu."
+
+msgid "reward/style/name"
+msgstr "3D stil"
+
+msgid "reward/vehicle/description"
+msgstr "Možeš da dobiješ %(name)s za igranje režima."
+
+msgid "reward/vehicle/name"
+msgstr "Nagradna vozila"
+
+msgid "selectMap"
+msgstr "Šabloni za nasumične borbe"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "manje od minuta"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "IZABERI REŽIM BORBE"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Globalna mapa"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Zauzmi provincije i bori se za globalnu dominaciju. Ovaj režim je dostupan samo za članove klanova."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Pridruži se klanu"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Borbe na globalnoj mapi"
+
+msgid "window/battleSession/title"
+msgstr "SPECIJALNA BORBA"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Lista turnira"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Ova opcija je trenutno nedostupna, ali će postati dostupna u budućnosti. Molim sačekaj."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Bori se sam ili u timu, pokaži za šta si sposoban i dobij mesečne nagrade."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Turniri"

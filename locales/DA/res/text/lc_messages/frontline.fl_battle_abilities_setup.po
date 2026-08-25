@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Påfør alle {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Kampreserve-point: {{value}}"
+
+msgid "header/title"
+msgstr "KAMPRESERVER"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Angrebsreserver"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Rekognosceringsreserver"
+
+msgid "infoPanel/category/tactics"
+msgstr "Taktiske reserver"
+
+msgid "infoPanel/category/title"
+msgstr "Kategori: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "I {{@ colorLegacy 'FFE4C0'}}Skæbnen råder{{/}}-scenariet, vil køb af en kampreserve forøge dens niveau med ét, og give mulighed for at forbedre den til niveau {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "infoPanel/description/unlocked"
+msgstr "I {{@ colorLegacy 'FFE4C0'}}Skæbnen råder{{/}}-scenariet, forøges chancen for hver kampreserve tilbudt, placeret i pladsen før kampen startede, med {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Niveau:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Kampreserve ikke købt"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Kampreserve købt"

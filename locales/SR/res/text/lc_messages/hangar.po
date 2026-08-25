@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Kupi"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Sledeći potrošni materijal će biti utovaren: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Kupi potrošnu materijal"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s članova posade"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Već imaš posadu za ovo vozilo"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s članova posade."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Regrutuj nove članove posade"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "ovde."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming koristi T-34 alfanumeričku kombinaciju u svakodnevnoj upotrebi da označi prave tenkove i ne odnosi se na bilo koji način na vlasnike autorskih prava i zaštitnih znakova istog imena. Saznaj više {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Utovari municiju"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Utovari potrošni materijal"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Mesto u garaži"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Razmena"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Besplatno"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Regrutuj %(count)s članova posade"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Iznajmljeno"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Iznajmljivanje"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Iznajmi na 30 dana"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Iznajmi na 3 dana"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Iznajmi na 7 dana"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Iznajmljivanje na %(days)s dana"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Etapa \"Linije fronta\""
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Sezona \"Linije fronta\""
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Faza rangiranih borbi"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Sezona rangiranih borbi"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Povrati"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Neograničeno"
+
+msgid "buyVehicleWindow/title"
+msgstr "Konfiguracija"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Izvlačenje"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Kupi"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Razmena"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Razmena"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Sva moja vozila"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Posada"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Karakteristike"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} borba"
+msgstr[1] "{{count}} borbe"
+msgstr[2] "{{count}} borbi"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} dan"
+msgstr[1] "{{count}} dana"
+msgstr[2] "{{count}} dana"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} sat"
+msgstr[1] "{{count}} sata"
+msgstr[2] "{{count}} sati"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} pobeda"
+msgstr[1] "{{count}} pobede"
+msgstr[2] "{{count}} pobeda"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Klik da odeš na svoju plejlistu vozila"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Moja vozila"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Trening, retrening posade i menadžment."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Menadžment posade"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Prilagođavanje vozila: Primena 2D / 3D stilova i drugih elemenata."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Prilagođavanje"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Pritisni da otvoriš"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Informacije, istraživanje, uporedba i popravka vozila."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Menadžment vozila"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "O VOZILU"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "OKLOP"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "UPOREDI"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTOMATSKI POVRATAK"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "POVRATAK POSADE"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "POŠALJI U BARAKE"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "PREKVALIFIKACIJA POSADE"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "BRZI SERVIS"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "POLJSKE MODIFIKACIJE"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "PROMENA NACIJE"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "AKTIVNO"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "PRO BUST {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "BRZI TRENING"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "POPRAVKE"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "IZUČAVANJE"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "POBOLJŠANJA"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Možeš da promeniš ovaj izbor bilo kada."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Pro bust je aktivan za ovo vozilo"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Možeš samo da pojačaš vozila u nasumičnim borbama, režimima Juriša, utvrđenju, globalnoj mapi i turnirima."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Nekompatibilan režim za pro bust"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Možeš da pojačaš samo izučiva i kolekcionarska vozila nivoa I-X"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Nekompatibilno vozilo za pro bust"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Tvoj pro bust je trenutno aktivan za {{vehicle}}. Možeš da promeniš ovaj izbor za {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Vrati se ponovo kasnije!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Možeš da promeniš izbor za {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Pro bust je aktivan za ovo vozilo"

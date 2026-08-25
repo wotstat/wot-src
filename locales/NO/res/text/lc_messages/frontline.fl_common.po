@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Nullstill filtre"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Ingen kjøretøy passer de valgte parameterne.\nNullstill filterinnstillingene for å se passende kjøretøy"
+
+msgid "battleType/description/fast"
+msgstr "Et scenario med kortere nedkjølingstid for kampreserver."
+
+msgid "battleType/description/random"
+msgstr "Et scenario der spillere velger mellom sett med tilfeldige reserver og muligheten til å forbedre dem til 4. nivå."
+
+msgid "battleType/description/standard"
+msgstr "Et scenario med standardregler for Frontlinje."
+
+msgid "battleType/postBattle/title"
+msgstr "Kampscenario: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Redusert nedkjølingstid på reserver."
+
+msgid "battleType/shortDescription/random"
+msgstr "Kampreserver gis tilfeldig."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Standardregler gjelder."
+
+msgid "battleType/title/fast"
+msgstr "Operasjonell støtte"
+
+msgid "battleType/title/random"
+msgstr "Twist of Fate"
+
+msgid "battleType/title/standard"
+msgstr "Standard kamp"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "TILBAKE"
+
+msgid "button/close"
+msgstr "LUKK"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} dag"
+msgstr[1] "{duration} dager"
+msgstr[2] "{duration} dager"
+
+msgid "filterPopover/note"
+msgstr "Her vises kun kjøretøy som kan benyttes i modusen."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Nivåene for kampreserver øker når du når nye ranker."
+
+msgid "levelReservesTooltip/info"
+msgstr "I {whiteSpanish_Start}Twist of Fate{whiteSpanish_End} scenarioet vil kjøp av en kampreserve øke dets nivå med én og gi en mulighet til å forbedre den til nivå {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Øker når du når følgende rank: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "TIlgjengelig med følgende rank: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Nivå {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "For {whiteSpanish_Start}kjøpte kampreserver{whiteSpanish_End} i {whiteSpanish_Start}Twist of Fate{whiteSpanish_End} scenarioet."
+
+msgid "levelReservesTooltip/title"
+msgstr "Nivåer på kampreserver"
+
+msgid "loading"
+msgstr "Laster inn..."
+
+msgid "widget/eventStartSoon"
+msgstr "Eventet begynner snart!"
+
+msgid "widget/maxTier"
+msgstr "Du har nådd det maksimale nivået!"

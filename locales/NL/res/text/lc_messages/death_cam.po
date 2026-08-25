@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d-%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "SPATIEBALK"
+
+msgid "hints/camera_flow/pause"
+msgstr "Geavanceerde modus (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Pauzeren (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Hervatten (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Voertuig vernietigd"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Explosieschade"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Versplinteringsschade"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Oppervlakteschade"
+
+msgid "hints/death_reason/penetration"
+msgstr "Voltreffer"
+
+msgid "hints/follow_pt1"
+msgstr "Linkermuisklik"
+
+msgid "hints/follow_pt2"
+msgstr "om dit voertuig te volgen"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Rechtermuisklik om terug te gaan naar het vorige voertuig"
+
+msgid "hints/height/label"
+msgstr "Hoogte"
+
+msgid "hints/height/text"
+msgstr "Pas de camerahoogte aan binnen een bepaalde limiet."
+
+msgid "hints/movement/label"
+msgstr "Beweging"
+
+msgid "hints/movement/text"
+msgstr "Gebruik de %(forward)s, %(left)s, %(backward)s en %(right)s toetsen om de camera te bewegen."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Overslaan"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "SPATIEBALK"
+
+msgid "hints/speed/label"
+msgstr "Snelheid"
+
+msgid "hints/speed/text"
+msgstr "Pas de camerasnelheid aan."
+
+msgid "hints/spotted_status/spotted"
+msgstr "Gespot"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Blind schot"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Non-penetratiehoek"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Penetratiehoek"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Afketshoek"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Nominaal pantser {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Pantser {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Afstandsmodificator {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Bemanning uitgeschakeld!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Munitieopslag geëxplodeerd!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "In brand gezet!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "2-kaliber regel"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "3-kaliber regel"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Geen pantser"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Pantsertoename met helling {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Kaliber {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Gemiddelde schade {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Potentiële schade {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Veroorzaakte explosieschade {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Veroorzaakte versplinteringsschade {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Veroorzaakte oppervlakteschade {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Veroorzaakte schade {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Verminderd door afstand {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Geblokkeerd door pantser {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Verminderd door uitrusting {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Schadewillekeurigheid {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Gemiddelde penetratie {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Penetratie {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Granaatsnelheid {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Afstand {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Vijand niet verkend"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Toegepast"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Geen"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Onverkend"

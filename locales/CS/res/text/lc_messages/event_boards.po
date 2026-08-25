@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: Tým WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Odměny pro stíhače tanků"
+
+msgid "awards/class/SPG"
+msgstr "Odměny pro dělostřelectvo"
+
+msgid "awards/class/heavyTank"
+msgstr "Odměny pro těžké tanky"
+
+msgid "awards/class/lightTank"
+msgstr "Odměny pro lehké tanky"
+
+msgid "awards/class/mediumTank"
+msgstr "Odměny pro střední tanky"
+
+msgid "awards/level"
+msgstr "Odměny pro vozidla %(level)s. úrovně"
+
+msgid "awards/nation/china"
+msgstr "Odměny pro čínská vozidla"
+
+msgid "awards/nation/czech"
+msgstr "Odměny pro československá vozidla"
+
+msgid "awards/nation/france"
+msgstr "Odměny pro francouzská vozidla"
+
+msgid "awards/nation/germany"
+msgstr "Odměny pro německá vozidla"
+
+msgid "awards/nation/japan"
+msgstr "Odměny pro japonská vozidla"
+
+msgid "awards/nation/poland"
+msgstr "Odměny pro polská vozidla"
+
+msgid "awards/nation/sweden"
+msgstr "Odměny pro švédská vozidla"
+
+msgid "awards/nation/uk"
+msgstr "Odměny pro britská vozidla"
+
+msgid "awards/nation/usa"
+msgstr "Odměny pro americká vozidla"
+
+msgid "awards/nation/ussr"
+msgstr "Odměny pro sovětská vozidla"
+
+msgid "awards/tooltip/class"
+msgstr "Klikněte pro zobrazení odměn pro tento typ vozidla."
+
+msgid "awards/tooltip/level"
+msgstr "Klikněte pro zobrazení odměn pro vozidla této úrovně."
+
+msgid "awards/tooltip/nation"
+msgstr "Klikněte pro zobrazení odměn pro tento národ."
+
+msgid "awards/vehicle"
+msgstr "Odměny pro vybrané vozidlo"
+
+msgid "badge/tooltip/description"
+msgstr "Odznak je unikátní ikona, která bude v bitvě zobrazena vedle vaší přezdívky. Odznak se zobrazuje hráčům z obou týmů a ukazuje váš pozoruhodný výkon v akci „Pochod národů“."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Pamětní odznaky"
+
+msgid "block/award"
+msgstr "Hlavní odměna"
+
+msgid "block/objective"
+msgstr "Podmínky"
+
+msgid "block/task"
+msgstr "Mise"
+
+msgid "button/awards"
+msgstr "Všechny odměny"
+
+msgid "button/awards/tooltip"
+msgstr "Klikněte pro zobrazení seznamu všech odměn v soutěži."
+
+msgid "button/regulations"
+msgstr "Požadavky"
+
+msgid "button/regulations/tooltip"
+msgstr "Klikněte pro zobrazení úplného popisu soutěže."
+
+msgid "condition/battletype/random"
+msgstr "Náhodná bitva 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Hodnocená bitva"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Čety jsou povoleny"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Čety nejsou povoleny"
+
+msgid "condition/primetime/any"
+msgstr "Jakýkoliv server a čas"
+
+msgid "condition/primetime/chosen"
+msgstr "Pouze na určených serverech"
+
+msgid "condition/vehicle/chosen"
+msgstr "Pouze s uvedenými vozidly:"
+
+msgid "condition/vehicle/exist"
+msgstr "V garáži"
+
+msgid "condition/vehicle/missing"
+msgstr "Není v garáži"
+
+msgid "condition/vehicle/single"
+msgstr "S %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Odměna"
+
+msgid "excel/btnClose"
+msgstr "NA SOUTĚŽ"
+
+msgid "excel/group/title"
+msgstr "Skupina"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Chcete-li se umístit v hodnocení, vybojujte více bitev: %(number)s"
+
+msgid "excel/noData"
+msgstr "Ještě nejsou obsazena žádná výherní místa."
+
+msgid "excel/participate/join"
+msgstr "Bojovat"
+
+msgid "excel/participate/notParticipated"
+msgstr "V tomto hodnocení jste se neumístili"
+
+msgid "excel/subHeader"
+msgstr "Soutěž: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Zapojit se"
+
+msgid "header/participate/button/leave"
+msgstr "Opustit soutěž"
+
+msgid "header/participate/finished"
+msgstr "Soutěž skončila"
+
+msgid "header/participate/notStarted"
+msgstr "Zapojili jste se"
+
+msgid "header/participate/reason/byAge"
+msgstr "Účet založen po %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Soutěž není k dispozici"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Tuto soutěž jste opustili"
+
+msgid "header/participate/started"
+msgstr "Účastníte se"
+
+msgid "header/timer"
+msgstr "Končí za:"
+
+msgid "maintenance/body"
+msgstr "Omlouváme se za dočasné nepříjemnosti."
+
+msgid "maintenance/title"
+msgstr "Chyba při načítání údajů"
+
+msgid "maintenance/update"
+msgstr "Obnovit"
+
+msgid "notification/buttons/details"
+msgstr "Detaily"
+
+msgid "notification/eventFinished/body"
+msgstr "Soutěž „%(eventName)s“ skončila. Vítězové budou stanoveni v několika příštích dnes a poté obdrží své zasloužené odměny."
+
+msgid "notification/eventFinished/header"
+msgstr "Soutěž skončila"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Výsledky vašich bitev se nyní počítají do soutěže, takže se můžete umístit v hodnocení a získat odměnu."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Zapojil jste se jako účastník"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Výsledky vaší bitvy se započítají, jakmile soutěž začne, takže se můžete umístit v hodnocení a získat odměnu."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Zapojil jste se jako účastník"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Nelze se zapojit jako účastník: podmínky nejsou splněny."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Nelze se zapojit jako účastník: období registrace skončilo."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Vaše statistiky v soutěži se po aktualizaci hodnocení vynulují."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Opustili jste soutěž"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Vaše statistiky se do soutěže nebudou počítat."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Opustili jste soutěž"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Soutěž nelze opustit: vyměřený čas vypršel."
+
+msgid "notification/eventStarted/body"
+msgstr "Soutěž „%(eventName)s“ začala! Hráči, kteří na konci soutěže obsadí výherní místa, získají hodnotné odměny."
+
+msgid "notification/eventStarted/header"
+msgstr "Soutěž začala"
+
+msgid "notification/unknownError/body"
+msgstr "Operaci nelze dokončit."
+
+msgid "orders/title"
+msgstr "Požadavky"
+
+msgid "popover/buttons/cancel"
+msgstr "Storno"
+
+msgid "popover/buttons/rating"
+msgstr "Přejít na hodnocení"
+
+msgid "popover/buttons/select"
+msgstr "Vybrat"
+
+msgid "popover/noVehicles"
+msgstr "Vybranému filtru neodpovídají žádná vozidla."
+
+msgid "popover/resetFilter"
+msgstr "Vynulovat filtr"
+
+msgid "popover/title"
+msgstr "Seznamy hodnocení"
+
+msgid "popover/title/vehicle"
+msgstr "Seznamy hodnocení"
+
+msgid "popover/tooltip/class"
+msgstr "Přejít na hodnocení pro vozidla vybraného typu."
+
+msgid "popover/tooltip/level"
+msgstr "Přejít na hodnocení pro vozidla vybrané úrovně."
+
+msgid "popover/tooltip/nation"
+msgstr "Přejít na hodnocení pro vozidla vybraného národa."
+
+msgid "server/list"
+msgstr "Aby se vaše bitvy počítaly do soutěže, přejděte na následující server:"
+
+msgid "server/noSuitable/body"
+msgstr "Výsledky bitvy se budou dále počítat v: %(data)s. Plán soutěže"
+
+msgid "server/noSuitable/header"
+msgstr "Výsledky bitvy se v tuto dobu do soutěže nepočítají"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s na %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Moje nejlepší výsledky"
+
+msgid "status/bestResults/one"
+msgstr "Moje výsledky"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Soutěž není k dispozici:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Kvůli porušení Pravidel hry nemáte účast v této soutěži povolenou"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "účet založen po %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "neodehráli jste požadovaný počet bitev v režimu náhodné bitvy: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "vaše míra vítězství v režimu náhodné bitvy přesahuje %(number)s% %"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "nedosáhli jste následující míry vítězství v režimu náhodné bitvy: %(number)s% %"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Období registrace skončilo"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Do této soutěže se nemůžete zapojit jako účastník."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Tuto soutěž jste opustili"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Výsledky vašich bitev se do soutěže nadále nepočítají. Neumístíte se v hodnocení a nezískáte odměnu.\nDo této soutěže nemůžete vstoupit znovu."
+
+msgid "status/cantJoin/reason/many"
+msgstr "požadavky nejsou splněny %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "požadavky nejsou splněny (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Neumístili jste se v hodnocení"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Do soutěže se nemůžete zapojit s využitím tohoto účtu."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "Žádná vhodná vozidla"
+
+msgid "status/participate/cantJoin"
+msgstr "Soutěž není k dispozici"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Splňte v bitvách uvedené požadavky a vaše výsledky se zde po aktualizaci hodnocení zobrazí."
+
+msgid "status/participate/notParticipated"
+msgstr "Do tohoto hodnocení jste se nezapojili"
+
+msgid "summary/averagedamage"
+msgstr "Průměrné poškození"
+
+msgid "summary/averagedamageassisted"
+msgstr "Průměrné poškození s vaší asistencí"
+
+msgid "summary/averagexp"
+msgstr "Průměrné zkušenosti"
+
+msgid "summary/battles"
+msgstr "Bitvy v soutěži"
+
+msgid "summary/damage"
+msgstr "Poškození"
+
+msgid "summary/damageassist"
+msgstr "Poškození s vaší asistencí"
+
+msgid "summary/damageblocked"
+msgstr "Poškození zastavené pancířem"
+
+msgid "summary/description/awards/title/award"
+msgstr "ODMĚNA NA KONCI SOUTĚŽE"
+
+msgid "summary/description/awards/title/group"
+msgstr "SKUPINA"
+
+msgid "summary/description/awards/title/position"
+msgstr "POZICE"
+
+msgid "summary/description/max/class"
+msgstr "Svou nejlepší bitvu jste odehráli s typem %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Svou nejlepší bitvu jste odehráli s vozidlem %(value)s. úrovně"
+
+msgid "summary/description/max/nation"
+msgstr "Svou nejlepší bitvu jste odehráli s vozidlem následujícího národa: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Svou nejlepší bitvu jste odehráli s %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Vaše statistiky v soutěži s typem %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Vaše statistiky v soutěži s vozidly %(value)s. úrovně"
+
+msgid "summary/description/sum/nation"
+msgstr "Vaše statistiky v soutěži s vozidly následujícího národa: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Vaše statistiky v soutěži s následujícím vozidlem: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Nejlepší série bitev s %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Nejlepší série bitev s vozidly %(value)s. úrovně"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Nejlepší série bitev s vozidly následujícího národa: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Nejlepší série bitev s %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Vaše nejlepší bitvy s typem %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Vaše nejlepší bitvy s vozidly %(value)s. úrovně"
+
+msgid "summary/description/sumN/nation"
+msgstr "Vaše nejlepší bitvy s vozidlem následujícího národa: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Vaše nejlepší bitvy s %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Vaše nejlepší série bitev s typem %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Vaše nejlepší série bitev s vozidly %(value)s. úrovně"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Vaše nejlepší série bitev s vozidly následujícího národa: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Vaše nejlepší série bitev s %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Nepřátelských vozidel zničeno"
+
+msgid "summary/fightInSquaad"
+msgstr "Bitvy v četě"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Bitvy bez čety"
+
+msgid "summary/originalXP"
+msgstr "Základní zkušenosti"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Poškození způsobené s hráčovou asistencí"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Poškození"
+
+msgid "summary/param/max/originalXP"
+msgstr "Základní zkušenosti"
+
+msgid "summary/param/max/xp"
+msgstr "Zkušenosti"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Průměrné poškození způsobené s hráčovou asistencí"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Průměrné poškození"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Průměrné základní zkušenosti"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Vítězství"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Průměrné zkušenosti"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Průměrné poškození způsobené s hráčovou asistencí"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Celkové poškození"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Celkové základní zkušenosti"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Celkové zkušenosti"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Celkové poškození způsobené s hráčovou asistencí"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Celkové poškození"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Celkové základní zkušenosti"
+
+msgid "summary/param/sumN/xp"
+msgstr "Celkové zkušenosti"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Průměrné poškození způsobené s hráčovou asistencí"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Celkové poškození"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Celkové základní zkušenosti"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Celkové zkušenosti"
+
+msgid "summary/position"
+msgstr "Místo v hodnocení: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Remíza"
+
+msgid "summary/result/loss"
+msgstr "Porážka"
+
+msgid "summary/result/win"
+msgstr "Vítězství"
+
+msgid "summary/status"
+msgstr "Aktualizováno %(day)s v %(time)s"
+
+msgid "summary/winrate"
+msgstr "Vítězství"
+
+msgid "table/header/player"
+msgstr "Hráč"
+
+msgid "table/header/position"
+msgstr "Č."
+
+msgid "table/selectParticipateBtn"
+msgstr "Opustit soutěž"
+
+msgid "table/selectRatingBtn"
+msgstr "Seznam hodnocení"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Zapojit se jako účastník"
+
+msgid "table/stripe/bronze/title"
+msgstr "III. skupina (místa %(placeFrom)d – %(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "I. skupina (místa %(placeFrom)d – %(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "I. skupina"
+
+msgid "table/stripe/iron/title"
+msgstr "IV. skupina (místa %(placeFrom)d – %(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "II. skupina (místa %(placeFrom)d – %(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Místa bez odměn"
+
+msgid "task/eventtype/all"
+msgstr "Společné hodnocení pro všechny účastníky"
+
+msgid "task/eventtype/class"
+msgstr "Každý typ vozidel má své vlastní hodnocení"
+
+msgid "task/eventtype/level"
+msgstr "Každá úroveň vozidel má své vlastní hodnocení"
+
+msgid "task/eventtype/nation"
+msgstr "Každý národ vozidel má své vlastní hodnocení"
+
+msgid "task/eventtype/vehicle"
+msgstr "Každé vozidlo má své vlastní hodnocení"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Umístěte se v hodnocení podle poškození způsobeného s vaší asistencí"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Umístěte se v hodnocení podle způsobeného poškození"
+
+msgid "task/objective/max/originalXP"
+msgstr "Umístěte se v hodnocení podle získaných základních zkušeností"
+
+msgid "task/objective/max/xp"
+msgstr "Umístěte se v hodnocení podle získaných zkušeností"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Umístěte se v hodnocení podle celkového poškození způsobeného s vaší asistencí"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Umístěte se v hodnocení podle celkového způsobeného poškození"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Umístěte se v hodnocení podle celkových získaných základních zkušeností"
+
+msgid "task/objective/sum/wins"
+msgstr "Umístěte se v hodnocení podle počtu vítězství"
+
+msgid "task/objective/sum/xp"
+msgstr "Umístěte se v hodnocení podle celkových získaných zkušeností"
+
+msgid "task/objparam/damageAssisted"
+msgstr "poškození způsobené s vaší asistencí"
+
+msgid "task/objparam/damageDealt"
+msgstr "způsobené poškození"
+
+msgid "task/objparam/originalXP"
+msgstr "získané základní zkušenosti"
+
+msgid "task/objparam/wins"
+msgstr "počet vítězství"
+
+msgid "task/objparam/xp"
+msgstr "zkušenosti"
+
+msgid "task/selection/max"
+msgstr "Počítá se vaše nejlepší bitva"
+
+msgid "task/selection/sumAll"
+msgstr "Počítají se všechny vaše bitvy"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Počítá se nejlepších (%(cardinality)s) bitev v sérii. Bitev v sérii: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Počítají se vaše nejlepší bitvy: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Počítá se vaše nejlepší série bitev. Bitev v sérii: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "dnes"
+
+msgid "time/day/tomorrow"
+msgstr "zítra"
+
+msgid "time/day/yesterday"
+msgstr "včera"
+
+msgid "time/eventFinished"
+msgstr "Soutěž skončila: %(date)s"
+
+msgid "time/period/day"
+msgstr "d"
+
+msgid "time/period/hour"
+msgstr "h"
+
+msgid "time/period/minute"
+msgstr "min"
+
+msgid "time/timeTo/end"
+msgstr "Končí za: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Období registrace končí za: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Začíná za: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Odměna se uděluje na konci soutěže a závisí na vašem místu v hodnocení.\nChcete-li se podívat na seznam všech odměn v této soutěži, klikněte na „Všechny odměny“."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Množství započítaných zkušeností nezahrnuje žádné zkušenosti navíc z prémiového účtu nebo prémiových vozidel, osobních záloh a násobitelů za první vítězství dne či jakýchkoliv jiných speciálů."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Množství započítaných zkušeností nezahrnuje žádné zkušenosti navíc z prémiových vozidel, osobních záloh a násobitelů za první vítězství dne či jakýchkoliv jiných speciálů.\nZkušenosti navíc z prémiového účtu se počítají."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Poškození způsobené s asistencí hráče na posledním výherním místě: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Poškození způsobené hráčem na posledním výherním místě: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Základní zkušenosti získané hráčem na posledním výherním místě: %(number)s\nMnožství započítaných zkušeností nezahrnuje žádné zkušenosti navíc z prémiového účtu nebo prémiových vozidel, osobních záloh a násobitelů za první vítězství dne či jakýchkoliv jiných speciálů."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Zkušenosti získané hráčem na posledním výherním místě: %(number)s\nMnožství započítaných zkušeností nezahrnuje žádné zkušenosti navíc z prémiových vozidel, osobních záloh a násobitelů za první vítězství dne či jakýchkoliv jiných speciálů.\nZkušenosti navíc z prémiového účtu se počítají."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Celkové poškození způsobené s hráčovou asistencí na posledním výherním místě: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Celkové poškození způsobené hráčem na posledním výherním místě: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Celkové základní zkušenosti získané hráčem na posledním výherním místě: %(number)s\nMnožství započítaných zkušeností nezahrnuje žádné zkušenosti navíc z prémiového účtu nebo prémiových vozidel, osobních záloh a násobitelů za první vítězství dne či jakýchkoliv jiných speciálů."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Počet vítězství hráče na posledním výherním místě: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Celkové zkušenosti získané hráčem na posledním výherním místě: %(number)s\nMnožství započítaných zkušeností nezahrnuje žádné zkušenosti navíc z prémiových vozidel, osobních záloh a násobitelů za první vítězství dne či jakýchkoliv jiných speciálů.\nZkušenosti navíc z prémiového účtu se počítají."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Místo bez odměn"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Skupina %(group)s (pozice %(min)s - %(max)s)"
+
+msgid "top/averageXP"
+msgstr "Průměrné zkušenosti získané hráčem na posledním výherním místě:"
+
+msgid "top/participation/notParticipated"
+msgstr "Do tohoto hodnocení jste se nezapojili"
+
+msgid "top/participation/notfull"
+msgstr "Neumístili jste se v hodnocení"
+
+msgid "top/participation/notintop"
+msgstr "Nejste na výherním místě"
+
+msgid "top/position"
+msgstr "Vaše místo:"
+
+msgid "top/reason/notfull"
+msgstr "Chcete-li se umístit v hodnocení, odehrajte více bitev:"
+
+msgid "vehicles/level"
+msgstr "Vozidla %(level)s. úrovně"
+
+msgid "vehicles/tooltip/class"
+msgstr "Klikněte pro zobrazení vozidel tohoto typu, která se účastní soutěže."
+
+msgid "vehicles/tooltip/level"
+msgstr "Klikněte pro zobrazení vozidel této úrovně, která se účastní soutěže."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Klikněte pro zobrazení vozidel tohoto národa, která se účastní soutěže."
+
+msgid "vehicles/vehicle"
+msgstr "Vozidla v soutěži"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Klikněte pro zobrazení seznamu vozidel, která jsou v soutěži povolená."

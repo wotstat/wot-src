@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Clan-chat"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Klik om een bericht te schrijven en te versturen naar de clanchat."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Clan-chat"
+
+msgid "clan/header/creationDate"
+msgstr "Gecreëerd op %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Aanvragen en uitnodigingen"
+
+msgid "clan/header/requestSent"
+msgstr "Aanvraag ingediend"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Aanvraag indienen"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Klik om je aanvraag in te dienen bij deze clan."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Aanvraag indienen"
+
+msgid "clan/post/combatOfficer"
+msgstr "Gevechtsofficier"
+
+msgid "clan/post/commander"
+msgstr "Commandant"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Uitvoerende officier"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Inlichtingenofficier"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Junior officier"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Personeelsofficier"
+
+msgid "clan/post/private"
+msgstr "Soldaat"
+
+msgid "clan/post/quartermaster"
+msgstr "Kwartiermeester"
+
+msgid "clan/post/recruit"
+msgstr "Rekruut"
+
+msgid "clan/post/recruiter"
+msgstr "Rekruteringsofficier"
+
+msgid "clan/post/reservist"
+msgstr "Reservist"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Fout bij het tonen van de naam"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Data in de tabel is bijgewerkt."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Rekruteringsvereisten"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Kan worden gewijzigd"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "De clan heeft geen openstaande aanvragen."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "De clan heeft geen verlopen aanvragen"
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Voor clan uitnodigen"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Klik %(invite)s om uitnodigingen\nnaar nieuwe spelers te sturen."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "De clan heeft geen uitnodigingen verstuurd in de afgelopen 28 dagen."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "De clan heeft geen openstaande uitnodigingen van de afgelopen 28 dagen."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "De clan heeft geen verlopen uitnodigingen van de afgelopen 28 dagen."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "De clan heeft geen verwerkte uitnodigingen van de afgelopen 28 dagen."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "De clan heeft geen verwerkte aanvragen."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Geen data ontvangen van de server.\nProbeer het later opnieuw."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Serverfout"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Openstaand (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Alle (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Verlopen (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Beslissing ontvangen (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Verwerkt (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Vrije plekken in de clan: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Voor clan uitnodigen"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Je hebt drie dagen om een aanvraag voor toetreding tot de clan te verwerken. Aanvragen en uitnodigingen worden 28 dagen opgeslagen en daarna automatisch verwijderd."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Kan geen spelers uitnodigen: de clan is vol"
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Kan geen spelers uitnodigen: clanrekrutering is momenteel gesloten."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Geaccepteerd"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d d om te verwerken"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Afgewezen"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Fout"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Verlopen"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d u om te verwerken"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d min om te verwerken"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Verzonden"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Uitnodigingen (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Aanvragen (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Acties"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Uitnodigen"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Verzonden"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Toon meer"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Status"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Speler"
+
+msgid "clanInvitesWindow/title"
+msgstr "Aanvragen en uitnodigingen"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Klik om spelers voor de clan uit te nodigen."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Op uitnodiging van:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Uitnodiging geaccepteerd."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Uitnodiging afgewezen."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Uitnodiging verzonden."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Afzender:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Deze knop zal worden ingeschakeld wanneer er nieuwe data van de server wordt ontvangen."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Klik om nieuwe aanvragen en uitnodigingen weer te geven."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "De lijst verversen"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Beslisser:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Aanvraag geaccepteerd."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Aanvraag afgewezen."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Aanmelding vervallen"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Aanvraag ingediend."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Kan nieuwe spelers niet toevoegen: de clan is vol."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "De speler heeft recentelijk een clan verlaten. Je kunt ze alleen aan de clan toevoegen na:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Kan nieuwe spelers niet uitnodigen: de clan is vol."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Gemiddelde ervaring per gevecht van de speler waar de uitnodiging naartoe is verzonden (inclusief Premium account)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Gemiddelde ervaring per gevecht"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Deelgenomen gevechten van de speler waar de uitnodiging naartoe is verzonden."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Gevechten"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Klik om deze speler voor de clan uit te nodigen."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Bericht bijgevoegd aan de uitnodiging van de clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Bericht"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Persoonlijke beoordeling van de speler waar de uitnodiging naartoe is verzonden."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Persoonlijke beoordeling"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Datum en tijd van de verzonden clanuitnodiging."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Verzonden"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Status clanuitnodiging.\nEen uitnodiging kan openstaand, verlopen of verwerkt zijn."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Status"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Naam van de speler waar de uitnodiging naartoe is verzonden."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Speler"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Winstpercentage van de speler waar de uitnodiging naartoe is verzonden."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Overwinningen"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Een aanvraag kan worden geaccepteerd of afgewezen."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Acties"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Gemiddelde ervaring per gevecht van de speler die de aanvraag heeft ingediend (inclusief Premium account)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Gemiddelde ervaring per gevecht"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Totaal aantal deelgenomen gevechten van de speler die de aanvraag heeft ingediend"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Gevechten"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Bericht van de speler dat bij de aanvraag is gevoegd"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Bericht"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Persoonlijke beoordeling van de speler die de aanvraag heeft ingediend."
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Persoonlijke beoordeling"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Status clanaanvraag.\nEen uitnodiging kan openstaand, verlopen of verwerkt zijn."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Status"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Naam van de speler die de aanvraag heeft ingediend."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Speler"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Winstpercentage van de speler die de aanvraag heeft ingediend."
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Overwinningen"
+
+msgid "clanLanding/notification/archived"
+msgstr "Het bericht is naar het archief gestuurd."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Technische fout: handeling met het bericht kan niet worden voltooid."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Bericht verwijderd."
+
+msgid "clanLanding/notification/edited"
+msgstr "Bericht geplaatst."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Het maximale aantal tekens is overschreden."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Er is al het maximale aantal berichten in de clan geplaatst."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Onvoldoende rechten om clanberichten te beheren: je positie is aangepast."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Het bericht is verwijderd of naar het archief gestuurd."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "De inhoud van het bericht is in strijd met de <a href=\"event:clanRulesLink\">clanregels</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Openstaande uitnodigingen: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Wijs selectie af (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Mijn clanuitnodigingen"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Bezig met data ontvangen..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Je hebt nog geen uitnodigingen voor clans."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Alle aanvragen selecteren"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Acties"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Clannaam"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Status"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Clanuitnodigingen"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Het is mogelijk de tabel te updaten na het ontvangen van nieuwe data."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Klik om de tabel te updaten."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Je hebt recent een clan verlaten. Je kunt uitnodigingen van clans pas accepteren na:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Gemiddelde ervaring verdiend per gevecht door leden van de clan die de uitnodiging heeft gestuurd (gewogen gemiddelde over de Willekeurige gevechtsmodus)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Gemiddelde ervaring per gevecht"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Gemiddeld aantal deelgenomen gevechten van leden van de clan die de uitnodiging heeft gestuurd (alleen in de Willekeurige gevechtsmodus)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Gevechten van clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Naam van de clan die je een uitnodiging heeft gestuurd"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Clannaam"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Bericht van de clan die je een uitnodiging heeft gestuurd"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Bericht"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Totale beoordeling van de clan die je een uitnodiging heeft gestuurd"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Clanbeoordeling"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Geeft de status van de clanuitnodiging weer en de resterende tijd voor de verwerking van die uitnodiging"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Status"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Winstpercentage van de leden van de clan die de uitnodiging heeft gestuurd (gewogen gemiddelde over de Willekeurige gevechtsmodus)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Clanoverwinningen"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Je kan een uitnodiging accepteren of afwijzen. Door het accepteren van een uitnodiging worden uitnodigingen van andere clans automatisch afgewezen."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Acties"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Clanprofiel"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Sluiten"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Welkom in de clan!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Nu kun je strijden in gevechten op de wereldkaart, je Vesting opbouwen en verdedigen en speciale missies voltooien."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Bulletin"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Jouw clan: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Onze excuses voor het ongemak. Probeer het later alsjeblieft opnieuw."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Vesting is tijdelijk niet beschikbaar"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Excuses voor het ongemak.\nProbeer het later opnieuw."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Fout bij laden van data"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Clanprofiel"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Vesting"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Wereldkaart"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Clanleden"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Vesting"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Samenvatting"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Speler voor clan uitnodigen"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Actie niet beschikbaar. Je kan slechts één speler per keer uitnodigen voor je clan."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Voeg alle contacten toe aan je lijst van ontvangers."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Gevechten in de afgelopen 28 dagen"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Offensieven in de afgelopen 28 dagen"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Clancommandant"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Nog niet gecreëerd"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Geen deelgenomen gevechten.\nGeen provincies in bezit."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Niveau Vesting"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Schatkist"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Geen gevechten gestreden"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Provincies"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo beoordeling X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo beoordeling VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo beoordeling VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Schermutselingen in de afgelopen 28 dagen"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Totaal aantal leden"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Details"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Doorgaan"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Aanvraag indienen"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "De clan heeft geen motto."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Details wereldkaart"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Ga naar kaart"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Details zijn tijdelijk onbeschikbaar"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Onmogelijk om tot de clan toe te treden."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Rekruteringsvereisten bekijken %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Je maakt reeds deel uit\nvan een andere clan."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Je hebt al een uitnodiging ontvangen\nom toe te treden tot deze clan."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Tijdelijk onbeschikbaar"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Tijdelijk onbeschikbaar"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Deze clan accepteert geen aanvragen %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Aanvraag ingediend"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Bezig met data synchroniseren..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Elo beoordeling van de clan in divisie X voor Offensieven"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo beoordeling X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Elo beoordeling van de clan in divisie VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo beoordeling VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Elo beoordeling van de clan in divisie VIII voor Offensieven"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo beoordeling VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Clanoffensieven in de afgelopen 28 dagen"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Offensieven in de afgelopen 28 dagen"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Het niveau van de Vesting is gelijk aan het niveau van zijn commandocentrum."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Niveau Vesting"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Schermutselingen van de clan in de afgelopen 28 dagen"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Schermutselingen in de afgelopen 28 dagen"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Elo beoordeling van de clan in divisie X gevechten op de wereldkaart"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo beoordeling X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Elo beoordeling van de clan in divisie VI gevechten op de wereldkaart"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo beoordeling VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Elo beoordeling van de clan in divisie VIII gevechten op de wereldkaart"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo beoordeling VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Gevechten van de clan waaraan is deelgenomen op de wereldkaart in de afgelopen 28 dagen"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Gevechten in de afgelopen 28 dagen"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Provincies op de wereldkaart die op dit moment in bezit van de clan zijn."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Provincies"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Maximum aantal aanvragen ingediend."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Niet in staat de aanvraag in te dienen"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Maximum aantal aanvragen ingediend."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Niet in staat de aanvraag in te dienen"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Clan accepteert geen aanvragen."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Niet in staat de aanvraag in te dienen"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "De beoordeling van de clan is in de afgelopen 28 dagen niet bijgewerkt."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Verouderde informatie"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "De totale beoordeling hangt af van de effectiviteit van de clan in de Vestingmodus en op de wereldkaart."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Totale beoordeling"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Totale beoordeling"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Clanprofiel"
+
+msgid "globalMap/disabled"
+msgstr "Gevechten op de Wereldkaart zijn momenteel\nonbeschikbaar in jouw regio"
+
+msgid "globalMapView/level10"
+msgstr "Niveau X"
+
+msgid "globalMapView/level6"
+msgstr "Niveau VI"
+
+msgid "globalMapView/level8"
+msgstr "Niveau VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Deze provincie levert je geen inkomen op omdat de verbinding met het commandocentrum verbroken is of omdat de provincie geplunderd is."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Levert geen inkomen op"
+
+msgid "globalMapView/noProvince"
+msgstr "De clan bezit geen provincies."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Populaire prime time: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "De wereldkaart is een slagveld waar clans strijden om strategische superioriteit. Clanofficieren spenderen de meeste tijd hier met het plannen van tactieken en het inzetten van troepen voor strategische manoeuvres."
+
+msgid "globalMapView/promo/header"
+msgstr "Wereldkaart"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Details wereldkaart"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Ga naar kaart"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Gevechten"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Totaal aantal gevechten in divisie X op de wereldkaart"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Gevechten"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo beoordeling"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Beoordeling van de clan in divisie X gevechten op de wereldkaart"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo beoordeling"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Favoriete kaart"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "De kaart waarop de clan aan de meeste divisie X gevechten heeft deelgenomen in de afgelopen 28 dagen"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Favoriete kaart: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Positie in beoordeling"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "De positie van de clan in beoordeling in divisie X gevechten op de wereldkaart."
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Positie in beoordeling"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Overwinningen"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Totale winstpercentage in divisie X gevechten op de wereldkaart"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Overwinningen"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Gevechten"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Totaal aantal gevechten in divisie VI op de wereldkaart"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Gevechten"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo beoordeling"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Beoordeling van de clan in divisie VI gevechten op de wereldkaart"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo beoordeling"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Favoriete kaart"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "De kaart waarop de clan aan de meeste divisie VI gevechten heeft deelgenomen in de afgelopen 28 dagen."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Favoriete kaart: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Positie in beoordeling"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Positie van de clan in de beoordeling in divisie VI gevechten op de wereldkaart"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Positie in beoordeling"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Overwinningen"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Totale winstpercentage in divisie VI gevechten op de wereldkaart"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Overwinningen"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Gevechten"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Totaal aantal gevechten in divisie VIII op de wereldkaart"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Gevechten"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo beoordeling"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Beoordeling van de clan in divisie VIII gevechten op de wereldkaart"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo beoordeling"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Favoriete kaart"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "De kaart waarop de clan aan de meeste divisie VIII gevechten heeft deelgenomen in de afgelopen 28 dagen"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Favoriete kaart: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Positie in beoordeling"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Positie van de clan in de beoordeling in divisie VIII gevechten op de wereldkaart"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Positie in beoordeling"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Overwinningen"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Totale winstpercentage in divisie VIII gevechten op de wereldkaart"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Overwinningen"
+
+msgid "globalMapView/stats/battles"
+msgstr "Gevechten op de wereldkaart"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Totaal aantal deelgenomen gevechten van de clan op de wereldkaart"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Gevechten op de wereldkaart"
+
+msgid "globalMapView/stats/seized"
+msgstr "Provincies in bezit"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Totaal aantal provincies in bezit van de clan. Provincies die in het verleden in bezit waren maar nu verloren zijn, worden ook meegeteld."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Provincies in bezit"
+
+msgid "globalMapView/stats/wins"
+msgstr "Overwinningen over clanleden"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Totale winstpercentage van clanleden in gevechten op de wereldkaart"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Overwinningen van de clan"
+
+msgid "globalMapView/table/days"
+msgstr "Dagen"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "De tijdsperiode in dagen waarin de clan de provincie op de wereldkaart in bezit had."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Dagen"
+
+msgid "globalMapView/table/front"
+msgstr "Front"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Naam van het geselecteerde front"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Front"
+
+msgid "globalMapView/table/income"
+msgstr "Inkomen"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Goud dat door de provincie per dag wordt verdiend"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Inkomen"
+
+msgid "globalMapView/table/map"
+msgstr "Kaart"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Naam van de kaart waarop gevechten om de provincie worden beslecht."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Kaart"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Prime-time"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Ingestelde tijd waarop gevechten om de provincie zullen beginnen."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Prime-time"
+
+msgid "globalMapView/table/province"
+msgstr "Provincie"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Naam van de geselecteerde provincie."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Provincie"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "De provincie is geplunderd en levert tijdelijk geen inkomen op."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Tijd voordat je weer inkomen ontvangt:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Provincies"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Statistieken"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "De beoordeling van de clan is in de afgelopen 28 dagen niet bijgewerkt."
+
+msgid "globalMapView/totalIncome"
+msgstr "Totaal dagelijks inkomen: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Gemiddeld\naantal gevechten"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Het gemiddeld aantal deelgenomen gevechten van alle clanleden in de Willekeurige gevechts- en Tankcompagnie gevechtsmodus. Alleen spelers die momenteel lid zijn van de clan worden meegeteld."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Gemiddeld aantal gevechten van clanleden"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Gemiddelde ervaring"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Gewogen gemiddelde ervaring van clanleden verdiend in de Willekeurige gevechts- en Tankcompagnie gevechtsmodi. Het totale aantal deelgenomen gevechten van elke speler is van invloed op de wegingsfactor. Alleen spelers die momenteel lid zijn van de clan worden meegeteld."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Gemiddelde ervaring van clanleden"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Gemiddelde persoonlijke beoordeling"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "De gemiddelde persoonlijke beoordeling van alle clanleden. Alleen spelers die momenteel lid zijn van de clan worden meegeteld."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Gemiddelde persoonlijke beoordeling van clanleden"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Gemiddeld winstpercentage"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Gewogen gemiddelde winstpercentage van clanleden in de Willekeurige gevechts- en Tankcompagnie gevechtsmodi. Het totale aantal deelgenomen gevechten van elke speler is van invloed op de wegingsfactor. Alleen spelers die momenteel lid zijn van de clan worden meegeteld."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Gemiddeld winstpercentage van clanleden"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Verhouding van totaal verdiende ervaring ten opzichte van totaal aantal deelgenomen gevechten van de speler in de Willekeurige gevechts- en Tankcompagnie gevechtsmodus"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Gemiddelde ervaring"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Totaal aantal Willekeurige gevechten en Tankcompagniegevechten gestreden door de speler"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Totaal aantal gevechten"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Het aantal dagen dat de speler bij de clan is"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Dagen in clan"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Persoonlijke beoordeling van speler"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Persoonlijke beoordeling"
+
+msgid "personnelView/table/player"
+msgstr "Speler (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Naam van clanlid"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Speler"
+
+msgid "personnelView/table/post"
+msgstr "Positie"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Rang van lid in de clan"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Positie"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Winstpercentage van de speler in de Willekeurige gevechts- en Tankcompagnie gevechtsmodus"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Overwinningen"
+
+msgid "personnelView/title"
+msgstr "Statistieken van clanlid in Willekeurige gevechten en Tankcompagniegevechten:"
+
+msgid "search/clansList"
+msgstr "Opgesomde clans: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Er is niets gevonden dat met jouw zoekopdracht overeen komt. Probeer te zoeken met andere sleutelwoorden."
+
+msgid "search/emptyResult/button"
+msgstr "Terug naar lijst"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Klik om terug te keren naar de lijst van gevonden clans."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Terug naar lijst"
+
+msgid "search/emptyResult/header"
+msgstr "Geen zoekresultaten"
+
+msgid "search/foundClans"
+msgstr "Clans gevonden: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Onmogelijk om tot de clan toe te treden."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Niet in staat de aanvraag in te dienen"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Clanprofiel"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Onmogelijk om de aanvraag voor toetreding tot de clan in te dienen."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Actie onbeschikbaar"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Je hebt al een uitnodiging ontvangen om tot deze clan toe te treden."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Niet in staat de aanvraag in te dienen"
+
+msgid "search/info/ratingDescription"
+msgstr "Totale beoordeling"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "De effectiviteit van de clan in Gevechten om Vesting en gevechten op de wereldkaart beïnvloeden de stijging van de totale beoordeling."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Totale beoordeling"
+
+msgid "search/info/ratingTitle"
+msgstr "Statistieken over alle gevechtstypes:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Je hebt al een aanvraag bij deze clan ingediend."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Niet in staat de aanvraag in te dienen"
+
+msgid "search/info/requestSent"
+msgstr "Aanvraag ingediend"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Clan accepteert geen aanvragen."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Niet in staat de aanvraag in te dienen"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Maximum aantal aanvragen verzonden."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Niet in staat de aanvraag in te dienen"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Aanvraag indienen"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Geen serverdata ontvangen. Probeer het later opnieuw."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Serverfout"
+
+msgid "search/info/stats/avgExp"
+msgstr "Gemiddelde ervaring"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Gewogen gemiddelde verdiende ervaring van clanleden in alle gevechtsmodi. Het totale aantal deelgenomen gevechten van elke speler is van invloed op de wegingsfactor. Alleen spelers die momenteel lid zijn van de clan worden meegeteld."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Gemiddelde ervaring van clanleden"
+
+msgid "search/info/stats/battles"
+msgstr "Gemiddeld\naantal deelgenomen gevechten"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Gemiddeld aantal deelgenomen gevechten van clanleden in alle gevechtsmodi. Alleen spelers die momenteel lid zijn van de clan worden meegeteld."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Gemiddeld aantal deelgenomen gevechten van clanleden"
+
+msgid "search/info/stats/wins"
+msgstr "Gemiddeld winstpercentage"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Gewogen gemiddelde winstpercentage van clanleden in alle gevechtsmodi. Het totale aantal deelgenomen gevechten van elke speler is van invloed op de wegingsfactor. Alleen spelers die momenteel lid zijn van de clan worden meegeteld."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Gemiddeld winstpercentage van clanleden"
+
+msgid "search/nextBtn"
+msgstr "Volgende"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Klik om het volgende deel van de lijst met clans weer te geven."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Volgende"
+
+msgid "search/previousBtn"
+msgstr "Vorige"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Klik om het vorige deel van de lijst met clans weer te geven."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Vorige"
+
+msgid "search/promoText/body"
+msgstr "Om te zoeken naar een clan voer je zijn naam of tag in het veld in en klik je op Zoeken."
+
+msgid "search/promoText/header"
+msgstr "Clan zoeken"
+
+msgid "search/requestTooShort/body"
+msgstr "Om te zoeken naar een clan moet je minstens 2 tekens in het veld invullen en het opnieuw proberen."
+
+msgid "search/requestTooShort/button"
+msgstr "Terug naar lijst"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Terug naar lijst"
+
+msgid "search/requestTooShort/header"
+msgstr "Onvoldoende data"
+
+msgid "search/searchBtn"
+msgstr "Zoeken"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Voer een clannaam of -tag in het veld links in (minstens 2 tekens)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Clan zoeken"
+
+msgid "search/searchInputPrompt"
+msgstr "Voer de clannaam of -tag in"
+
+msgid "search/serverUnavailable/body"
+msgstr "Geen serverdata ontvangen. Probeer het later opnieuw."
+
+msgid "search/serverUnavailable/header"
+msgstr "Serverfout"
+
+msgid "search/table/clan"
+msgstr "Clan"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Clan attributen: tag en naam"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Clan"
+
+msgid "search/table/creationDate"
+msgstr "Opgericht"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Oprichtingsdatum clan"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Opgericht"
+
+msgid "search/table/players"
+msgstr "Spelers"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Totaal aantal clanleden"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Spelers"
+
+msgid "search/table/rating"
+msgstr "Beoordeling"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Totale beoordeling clan"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Beoordeling"
+
+msgid "search/title"
+msgstr "Clan zoeken"
+
+msgid "search/titleDescription"
+msgstr "Hier kan je zoeken naar een clan, clandetails bekijken, \nen een aanvraag om toe te treden tot de clan indienen. Je kunt zoeken naar de naam of tag van de clan."
+
+msgid "search/windowTitle"
+msgstr "Clan zoeken"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Plannen"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Statistieken"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Niveau %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "niet bepaald"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Staakt-het-vuren:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Verdedigingsperiode:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Thuisserver:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Bouwwerken gebouwd:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Neutraliteit:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Meeste industriële grondstoffen verdiend"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Meeste overwinningen op een rij"

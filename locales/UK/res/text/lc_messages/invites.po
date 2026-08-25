@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sПодивитися%(linkEndTag)s інформацію про гравця"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sЗаявка до клану%(titleEndTag)s\nвід %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Переглянути заявки"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sВимкнути%(linkEndTag)s повідомлення"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sЗаявок від гравців: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sПереглянути%(linkEndTag)s інформацію про клан"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sЗапрошення до клану%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Переглянути запрошення"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sЗапрошень до кланів: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Гравця прийнято до клану."
+
+msgid "clans/state/app/declined"
+msgstr "Заявку відхилено."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Ще не минув добовий штраф після виходу гравця з попереднього клану."
+
+msgid "clans/state/invite/accepted"
+msgstr "Вас прийняли до клану."
+
+msgid "clans/state/invite/declined"
+msgstr "Запрошення відхилено."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Добовий штраф після звільнення з попереднього клану ще не минув."
+
+msgid "errors/creationNotAllowed"
+msgstr "У вас недостатньо прав для створення запрошення."
+
+msgid "errors/invalid"
+msgstr "Запрошення недійсне."
+
+msgid "errors/inviteNotSupported"
+msgstr "Цей тип запрошення тимчасово не підтримується. Спробуйте пізніше."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Одержувач запрошення додав вас у «Чорний список»."
+
+msgid "errors/selfinvite"
+msgstr "Не можна створити запрошення самому собі."
+
+msgid "errors/unknownuser"
+msgstr "Користувач не зареєстрований в системі."
+
+msgid "errors/useroffline"
+msgstr "Користувач не в мережі."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Машину в Гаражі пошкоджено або заблоковано. Виберіть іншу."
+
+msgid "friendship/note/approved"
+msgstr "Гравця додано у «Друзі»"
+
+msgid "friendship/note/canceled"
+msgstr "Запит відхилено"
+
+msgid "friendship/note/maxRoster"
+msgstr "Максимальна кількість контактів у списку: %(rosterMaxCount)s. Щоб додати нового гравця у «Друзі», видаліть один з контактів."
+
+msgid "friendship/note/notConnected"
+msgstr "Відсутній зв’язок із сервером. Зачекайте."
+
+msgid "friendship/note/process"
+msgstr "Очікуємо на відповідь від сервера"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sЗапит на додавання у «Друзі»%(titleEndTag)s\nвід %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Прийняти"
+
+msgid "gui/buttons/cancel"
+msgstr "Скасувати"
+
+msgid "gui/buttons/reject"
+msgstr "Відхилити"
+
+msgid "gui/buttons/send"
+msgstr "Надіслати"
+
+msgid "gui/labels/additionalText"
+msgstr "Додатковий текст запрошення:"
+
+msgid "gui/labels/inviteText"
+msgstr "Текст запрошення:"
+
+msgid "gui/labels/receiver"
+msgstr "Одержувач:"
+
+msgid "gui/titles/barter"
+msgstr "Запрошення до торгівлі"
+
+msgid "gui/titles/clan"
+msgstr "Запрошення вступити до клану"
+
+msgid "gui/titles/invite"
+msgstr "Запрошення"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Запрошення"
+
+msgid "invites/comment"
+msgstr "«%(comment)s»"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі списку учасників бою на Глобальній мапі та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі списку учасників командного тренування режиму «Лінія фронту» та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Якщо приймете запрошення, ви покинете режим «Командний бій», і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу взводу та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Якщо приймете запрошення, ви покинете «Укріпрайон: битви», і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Якщо приймете запрошення, ви покинете режим Наступ, і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу взводу в режимі «Розвідка боєм» і перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі списку учасників командного тренування та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Якщо приймете запрошення, ви покинете «Укріпрайон: битви», і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу взводу та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Якщо приймете запрошення, ви покинете теперішній загін, і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі списку учасників турніру та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі списку учасників командного тренування та перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Якщо приймете запрошення, вас буде автоматично вилучено зі списку учасників командного тренування в режимі «Натиск» і переміщено на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Якщо приймете запрошення, ви покинете режим «Командний бій», і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Якщо приймете запрошення, ви покинете режим «Сталевий мисливець», і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Якщо приймете запрошення, ви покинете режим «Велике полювання», і вас буде переміщено на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Якщо приймете запрошення, ви залишите режим «Натиск» і будете переміщені на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Якщо приймете запрошення, ви залишите режим «Натиск Лайт» і будете переміщені на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Якщо приймете запрошення, ви покинете режим «Лінія фронту», і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Якщо приймете запрошення, ви покинете режим «+++Event battle+++», і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Якщо приймете запрошення, ви покинете режим «Розвідка боєм», і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Якщо приймете запрошення, ви покинете режим «Топографія», і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Якщо приймете запрошення, ви покинете режим «Випадковий бій», і вас перемістять на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Якщо приймете запрошення, ви покинете режим «Ранговий бій», і вас буде переміщено на сервер %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Прийнявши запрошення, ви завершите Розминку та будете переміщені на сервер %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Прийнявши запрошення, ви завершите Розминку та будете переміщені на сервер %(host)s. У вас не буде можливості розпочати її знову."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі списку учасників бою на Глобальній мапі."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі списку учасників командного тренування режиму «Лінія фронту»."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу формування."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Якщо приймете запрошення, ви покинете режим «Командний бій»."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу взводу."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Якщо приймете запрошення, ви покинете «Укріпрайон: битви»."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Якщо приймете запрошення, ви покинете режим Наступ."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу взводу в режимі «Розвідка боєм»."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі списку учасників командного тренування."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Якщо приймете запрошення, ви покинете «Укріпрайон: битви»."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі складу взводу."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Якщо приймете запрошення, ви покинете теперішній загін."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі списку учасників турніру."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Якщо приймете запрошення, вас автоматично вилучать зі списку учасників командного тренування."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Якщо приймете запрошення, вас буде автоматично вилучено зі списку учасників командного тренування режиму «Натиск»."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Якщо приймете запрошення, ви покинете режим «Командний бій»."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Якщо приймете запрошення, ви покинете режим «Сталевий мисливець»."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Якщо приймете запрошення, ви покинете режим «Велике полювання»."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Якщо приймете запрошення, ви покинете режим «Натиск»."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Якщо приймете запрошення, ви покинете режим «Натиск Лайт»."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Якщо приймете запрошення, ви покинете режим «Лінія фронту»."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Якщо приймете запрошення, ви покинете режим «+++Event battle+++»."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Якщо приймете запрошення, ви покинете режим «Розвідка боєм»."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Якщо приймете запрошення, ви покинете режим «Топографія»."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Якщо приймете запрошення, ви покинете режим «Випадковий бій»."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Якщо приймете запрошення, ви покинете режим «Ранговий бій»."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Прийнявши запрошення, ви завершите Розминку."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Прийнявши запрошення, ви завершите Розминку. У вас не буде можливості розпочати її знову."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Налаштування сервера збережено."
+
+msgid "invites/note/server_change"
+msgstr "Вас буде автоматично переміщено на сервер %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Ви не можете прийняти запрошення. Щоб прийняти запрошення, перейдіть на сервер %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Ви не можете прийняти запрошення. Щоб прийняти запрошення, перейдіть на інший сервер."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Ви вже долучилися до цього взводу."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Ви вже долучилися до цього бою на Глобальній мапі."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Ви вже долучилися до цього командного тренування."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Ви вже долучилися до цього взводу."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Ви вже долучилися до цього взводу."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Ви вже долучилися до цього загону."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Ви вже долучилися до цього взводу."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Ви вже долучилися до цього турніру."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Ви вже долучилися до цього командного тренування."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Ви вже долучилися до цього командного тренування."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Ви вже долучилися до цієї команди."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Запрошення прийнято."
+
+msgid "invites/state/DECLINED"
+msgstr "Запрошення відхилено."
+
+msgid "invites/state/ERROR"
+msgstr "Запрошення недійсне."
+
+msgid "invites/state/EXPIRED"
+msgstr "Запрошення недійсне."
+
+msgid "invites/state/REVOKED"
+msgstr "Запрошення відкликане."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Запрошення увійти до складу взводу Сталевих мисливців"
+
+msgid "invites/text/COMP7"
+msgstr "Запрошення до взводу в режимі «Натиск»"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Запрошення ввійти до складу взводу режиму «Натиск Лайт»"
+
+msgid "invites/text/EPIC"
+msgstr "Запрошення увійти до складу взводу «Лінія фронту»"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Запрошення взяти участь у командному тренуванні режиму «Лінія фронту»"
+
+msgid "invites/text/EVENT"
+msgstr "Запрошення увійти до складу взводу"
+
+msgid "invites/text/FALLOUT"
+msgstr "Запрошення увійти до складу взводу %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "«Перевага»"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "«Сталеве полювання»"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Запрошення до битви"
+
+msgid "invites/text/MAPBOX"
+msgstr "Запрошення увійти до складу взводу «Розвідка боєм»"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Запрошення взяти участь у вивченні мап"
+
+msgid "invites/text/SORTIE"
+msgstr "Запрошення до загону"
+
+msgid "invites/text/SQUAD"
+msgstr "Запрошення увійти до складу взводу"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Запрошення до загону"
+
+msgid "invites/text/TRAINING"
+msgstr "Запрошення взяти участь у командному тренуванні"
+
+msgid "invites/text/UNIT"
+msgstr "Запрошення увійти до складу команди"
+
+msgid "invites/text/creatorName"
+msgstr "від %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Період оборони"
+
+msgid "invites/text/fort/direction"
+msgstr "Плацдарм"
+
+msgid "invites/text/fort/offence"
+msgstr "Напад на"
+
+msgid "invites/warning/anonymized"
+msgstr "Якщо ви приймете запрошення, ваше справжнє ігрове ім’я та тег клану будуть доступні гравцям формування під час бою."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Запрошення гравцеві %(name)s надіслано."

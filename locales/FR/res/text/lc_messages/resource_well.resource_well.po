@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Véhicule reçu"
+
+msgid "awardView/end"
+msgstr "ÉVÈNEMENT TERMINÉ"
+
+msgid "awardView/info"
+msgstr "Numéro du style"
+
+msgid "awardView/toHangar"
+msgstr "Voir dans le garage"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) avec un style numéroté"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "VÉHICULE REÇU"
+
+msgid "awardView/vehicleTitle"
+msgstr "VÉHICULE REÇU"
+
+msgid "commonTexts/aboutButton"
+msgstr "À PROPOS DE L'ÉVÈNEMENT"
+
+msgid "commonTexts/closeBtn"
+msgstr "FERMER"
+
+msgid "commonTexts/eventTitle"
+msgstr "ATELIER D'ASSEMBLAGE"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d %"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Annuler"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Dépenser"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Il ne reste aucun véhicule avec un style numéroté. Vous allez recevoir le %(vehicleName)s sans numéro.\nÊtes-vous sûr de vouloir dépenser ces ressources ?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Vous recevrez le %(vehicleName)s sans numéro"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Retour au garage"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Toutes les ressources dépensées seront bientôt renvoyées sur votre compte."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Hélas, il ne reste aucun véhicule"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Annuler"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Dépenser"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Progression après dépense : %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Dépenser des ressources ?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Renvoyer les ressources"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Toutes les ressources dépensées seront renvoyées sur votre compte et votre progression d'assemblage sera remise à zéro. Tant que l'évènement est actif, vous pourrez dépenser à nouveau des ressources pour obtenir un véhicule."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Renvoyer toutes les ressources dépensées ?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Toutes les ressources dépensées seront renvoyées sur votre compte et votre progression d'assemblage sera remise à zéro. Le %(vehicleName) sera sélectionné et vous pouvez dépenser des ressources pour le recevoir."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Renvoyer toutes les ressources dépensées et sélectionner le %(vehicleName) ?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Sélectionnez un véhicule"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Vous pouvez acheter les deux véhicules lors de l'évènement."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Durant l'évènement, vous pourrez acheter un lot contenant un véhicule avec un style 3D numéroté."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Les %(styleTanksCount) premiers joueurs recevront un véhicule avec un style 3D numéroté,{{@ class $br}}{{/}}puis %(withoutStyleTanksCount) véhicules seront livrés sans style 3D numéroté."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "ÉVÈNEMENT TERMINÉ"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "VÉHICULES REÇUS"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "VÉHICULE REÇU"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Véhicules restants"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Ce véhicule est déjà dans votre garage"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Véhicule reçu"
+
+msgid "eventInfo/tanksOver"
+msgstr "IL N'EN RESTE PLUS"
+
+msgid "eventInfo/top/styleText"
+msgstr "Avec un numéro"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Véhicules avec un numéro restants"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "La livraison de %(regularRewardVehiclesCount) véhicules dans leur configuration standard commencera\ndès qu'il n'y aura plus de véhicules avec un numéro."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Dans la configuration standard"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Véhicules restants"
+
+msgid "mainView/affirmative/button"
+msgstr "Affirmatif"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Au renvoi des ressources"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Ressources rassemblées :"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Ressources rassemblées pour :"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Retour au garage"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Sélectionnez les ressources"
+
+msgid "mainView/footer/description/text"
+msgstr "S'il ne reste plus de véhicules, toutes les ressources dépensées seront renvoyées."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Votre type de compte ne peut pas participer à cet évènement."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Vous ne pouvez pas participer"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Vous pouvez acheter les deux véhicules, mais vous ne pouvez investir vos ressources que dans l'un d'entre eux à la fois."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Sélectionnez un véhicule et investissez la quantité de ressources nécessaire pour l'assembler, mais ne tardez pas !"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Dépêchez-vous de dépenser les ressources nécessaires pour l'assemblage et obtenez le %(vehicleName) !"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Toutes les ressources dépensées seront bientôt renvoyées sur votre compte."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Hélas, il ne reste aucun véhicule"
+
+msgid "mainView/navbar/backBtn"
+msgstr "À L'ATELIER D'ASSEMBLAGE"
+
+msgid "mainView/navbar/title"
+msgstr "ATELIER D'ASSEMBLAGE"
+
+msgid "mainView/preview/label"
+msgstr "Aperçu"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Jusqu'au"
+
+msgid "mainView/timer/leftTime"
+msgstr "Temps restant :"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Fermer"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Dépenser des ressources"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d %"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Données temporairement indisponibles"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Il ne reste aucun véhicule"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Véhicules avec un numéro restants : %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Véhicules restants : %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Universel"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Maximum de ressources %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maximum %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Ressources rassemblées %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Fragments de plan"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Devises"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "RESSOURCES EN COURS DE RASSEMBLEMENT"
+
+msgid "tankPreview/button"
+msgstr "Sélectionnez les ressources"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Durant l'évènement, vous pourrez acheter un lot contenant un véhicule avec un style 3D numéroté."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Les %(topPlayers) premiers joueurs recevront un véhicule avec un style 3D numéroté,\npuis %(basePlayers) véhicules seront livrés sans style 3D numéroté."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Vous pouvez acheter les deux véhicules lors de l'évènement."
+
+msgid "tankPreview/title"
+msgstr "Rassemblez et dépensez 100 % des ressources nécessaires et vous recevrez le %(vehicleInfo) !"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Vous pouvez voir les ressources dépensées à tout moment et, si besoin est, les renvoyer sur votre compte en cliquant sur le bouton Renvoyer les ressources.\nVotre progression d'assemblage sera réinitialisée, mais vous pourrez dépenser à nouveau ces ressources ou d'autres pour obtenir un véhicule."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Renvoi des ressources"
+
+msgid "tooltips/counter/error/text"
+msgstr "Données temporairement indisponibles.\nNous travaillons à la correction de ce problème."
+
+msgid "tooltips/counter/warning/text"
+msgstr "La quantité s'affiche avec un délai et peut être différente de la quantité réelle de véhicules."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Dépensez des ressources et recevez les véhicules %(vehicleName1) et %(vehicleName2). Le nombre de véhicules est limité."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Dépensez des ressources et recevez le véhicule %(vehicleName) avec un style 3D numéroté. Le nombre de véhicules est limité."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Sera disponible : %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s au %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Disponible pendant %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Disponible dans :%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Atelier d'assemblage"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Cliquez pour en savoir plus sur l'évènement"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Sélectionnez un véhicule dans lequel investir des ressources.\nSi des ressources ont déjà été investies dans un autre véhicule, elles seront renvoyées sur votre compte."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Temps restant : %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Dépensez 100 % des ressources nécessaires pour assembler un véhicule. Le taux des différents types de ressources peut être changé."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "S'il ne reste plus de véhicules, toutes les ressources dépensées seront renvoyées."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Sélectionnées"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Dépensées"
+
+msgid "tooltips/progressbar/title"
+msgstr "Ressources en cours de rassemblement"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "La dépense de ressources est temporairement indisponible. Veuillez réessayer plus tard."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Fragments universels et nationaux."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Fragments de plan"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Décernées pour vos actions actives en bataille. Elles peuvent également être achetées contre de l'argent réel."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Devises"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Dépensées :"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Quantité maximale de cette ressource à dépenser : %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Vous avez récolté la quantité nécessaire de ressources pour obtenir un véhicule. Vous pouvez retirer un type de ressource et le remplacer par un autre."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Ressources rassemblées"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Il s'agit d'un véhicule unique avec son propre numéro et une modification visuelle spéciale."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Le numéro est affiché des deux côtés du canon et à l'arrière de la caisse. Tous les véhicules ont un numéro différent et leur quantité est limitée."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Les caractéristiques particulières de votre véhicule peuvent être cachées. Retirez son style 3D numéroté dans l'écran Personnalisation."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Véhicule avec un numéro"

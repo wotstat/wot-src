@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "Zasięg widzenia zwiększy się o {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} na {colorTagOpen}%(duration)s s{colorTagClose}.\n\nLicznik zresetuje się w momencie zniszczenia wykrytego przez Ciebie pojazdu przeciwnika."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Aktywny zwiad"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "Przez {colorTagOpen}%(duration)s s{colorTagClose} Twoja załoga otrzymuje premię {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} do wydajności za każdy pojazd w Twojej drużynie o różnej roli.\n\nTwój pojazd zawsze będzie brany pod uwagę podczas liczenia tej premii."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Jeden za wszystkich"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "Przez {colorTagOpen}%(duration)s s{colorTagClose} wokół Twojego pojazdu jest tworzony obszar o promieniu {colorTagOpen}%(radius)s m{colorTagClose}, który przywraca {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} punktów wytrzymałości Twojemu pojazdowi i pojazdom sojuszników."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Naprawy polowe"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "Przez {colorTagOpen}%(duration)s s{colorTagClose} Twoja załoga i załogi sojuszników otrzymują premię {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} do wydajności."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Inspiracja"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "Przez {colorTagOpen}%(duration)s s{colorTagClose} czas przeładowania działa jest zmniejszony o {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Ponadto rozrzut po wystrzale, w czasie ruchu i podczas obrotu kadłuba i wieży jest zmniejszony o {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nLicznik czasu zostanie zresetowany, kiedy zadasz uszkodzenia taranowaniem lub strzałem z dystansu poniżej {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_berserk/name"
+msgstr "Furia"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "Przez {colorTagOpen}%(duration)s s{colorTagClose} czas celowania i rozrzut działa w trakcie ruchu i przy obrocie kadłuba i wieży zmniejszy się o {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nGdy ta umiejętność roli jest aktywna, czas przeładowania między strzałami skraca się o {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_light_concentration/name"
+msgstr "Skupienie na celu"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• W przypadku systemu ładowania z magazynkiem:\nPozostały czas przeładowania zostanie skrócony o : {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• W przypadku systemu automatycznego przeładowania:\nWszystkie pociski wystrzelone w aktualnym cyklu zostaną przeładowane szybciej o : {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nUmiejętność można aktywować wyłącznie podczas przeładowywania.\n\n• W przypadku działka automatycznego z kontrolą przegrzania:\nNagrzanie działa jest zmniejszane o {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} możliwej wartości maksymalnej.\n\nUmiejętność można aktywować wyłącznie, jeśli działo jest nagrzane."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Zręczne ręce"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Resetuje liczbę pojazdów przeciwnika zniszczonych strzałami.\n\nPrzez {colorTagOpen}%(duration)s s{colorTagClose} Twój pojazd odzyska {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} punktów wytrzymałości za każdy pojazd przeciwnika uszkodzony strzałem w momencie aktywacji."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "Czas przeładowania skróci się o {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} za każdy pojazd przeciwnika uszkodzony strzałem."
+
+msgid "comp7_light_hunter/name"
+msgstr "Łowca nagród"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "Przez {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• Otrzymywane uszkodzenia są zmniejszone o {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Maksymalna prędkość jazdy do przodu jest zwiększona o {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• Maksymalna prędkość jazdy wstecz jest zwiększona o {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• Moc silnika jest zwiększona o {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Uszkodzenia zadawane taranowaniem pojazdom przeciwnika są zwiększone o {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nGdy ta umiejętność roli jest aktywna, Twoje gąsienice można zniszczyć jednym strzałem."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Niszczycielska siła"
+
+msgid "comp7_light_march/descr/active"
+msgstr "Przez {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} moc silnika w Twoim pojeździe wzrośnie o {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, jego prędkość maksymalna wzrośnie o {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h, a wartości maskowania wzrosną o {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_light_march/name"
+msgstr "Forsowny marsz"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "Samolot zwiadowczy przeleci nad wybranym obszarem w ciągu {colorTagOpen}%(delay)s s{colorTagClose}. Pojazdy przeciwnika wykryte w promieniu {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} pozostają wykryte przez {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose}. Graczowi wykrytemu przez tę umiejętność zostanie wyświetlona osobna ikona z opóźnieniem {colorTagOpen}%(lampDelay)s s{colorTagClose}.\n\nTa umiejętność będzie dostępna do użycia {colorTagOpen}%(startupDelay)s s{colorTagClose} po rozpoczęciu bitwy."
+
+msgid "comp7_light_recon/name"
+msgstr "Lot zwiadowczy"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "Wskazany obszar w ciągu {colorTagOpen}%(delay)s s{colorTagClose} zostanie zaatakowany uderzeniem artyleryjskim.\n\nUszkodzone cele w promieniu {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} otrzymają {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} PW uszkodzeń i będą ogłuszone przez {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_light_redline/name"
+msgstr "Osłona ogniowa"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Przyspieszenie\n\nPrzez {colorTagOpen}%(duration)s s{colorTagClose} moc silnika wzrasta o {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, prędkość maksymalna w przód wzrasta o {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h, a prędkość wstecz wzrasta o {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nRegeneracja\n\nPrzez {colorTagOpen}%(healDuration)s s{colorTagClose} Twój pojazd odzyskuje {colorTagOpen}%(baseHeal)s{colorTagClose} punktów wytrzymałości {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} punktów wytrzymałości utraconych przy aktywnym Przyspieszeniu."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Drugi oddech"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nNa początku bitwy poziom naładowania umiejętności roli wynosi{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "Przez {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} rozrzut na 100 m wynosi {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nJeśli Twój pojazd nie jest wykryty w momencie wystrzału, uszkodzenia zadane Twoim pociskiem wzrosną o {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nLicznik czasu zostanie zresetowany po zadaniu uszkodzeń wystrzałem z odległości powyżej {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_sniper/name"
+msgstr "Strzał w dziesiątkę"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "Przez {colorTagOpen}%(duration)s s{colorTagClose} rozrzut działa w trakcie ruchu i przy obrocie kadłuba i wieży zostanie zmniejszony o {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nGdy umiejętność jest aktywna, uszkodzenia zadane strzałem skracają czas przeładowania o {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} wartości procentowej, o którą zredukowano wytrzymałość pojazdu przeciwnika.\n\nZniszczenie przeciwnika skraca czas przeładowania działa o {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Czysty strzał"

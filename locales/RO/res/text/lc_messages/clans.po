@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Chat clan"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Clic pentru a scrie şi trimite un mesaj în chat-ul clanului."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Chat clan"
+
+msgid "clan/header/creationDate"
+msgstr "Creat la %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Cereri şi invitaţii"
+
+msgid "clan/header/requestSent"
+msgstr "Cerere trimisă"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Depune cerere"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Clic pentru a depune cererea pentru acest clan."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Depune cerere"
+
+msgid "clan/post/combatOfficer"
+msgstr "Comandant de unitate"
+
+msgid "clan/post/commander"
+msgstr "Comandant"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Comandant adjunct"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Ofiţer de informaţii"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Ofiţer inferior"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Ofiţer de cadre"
+
+msgid "clan/post/private"
+msgstr "Soldat"
+
+msgid "clan/post/quartermaster"
+msgstr "Intendent"
+
+msgid "clan/post/recruit"
+msgstr "Recrut"
+
+msgid "clan/post/recruiter"
+msgstr "Ofiţer recrutor"
+
+msgid "clan/post/reservist"
+msgstr "Rezervist"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Eroare la afişarea numelui"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Datele din tabel au fost actualizate."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Cerinţe pentru recrutare"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Se poate edita"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Acest clan nu are cereri în aşteptare."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Acest clan nu are cereri expirate."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Invită în clan"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Clic pe %(invite)s pentru a trimite invitaţii\njucătorilor noi."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Clanul nu a trimis invitaţii în ultimele 28 de zile."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Clanul nu are invitaţii în aşteptare din ultimele 28 de zile."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Clanul nu are invitaţii expirate din ultimele 28 de zile."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Clanul nu are invitaţii procesate în ultimele 28 de zile."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Clanul nu are cereri procesate."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Nu s-au primit date de la server.\nÎncearcă mai târziu."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Eroare la server"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "În aşteptare (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Toate (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Expirate (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Decizia primită (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Procesate (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Poziţii libere în clan: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Invită în clan"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Ai la dispoziţie trei zile pentru a procesa o cerere de intrare în clan. Cererile şi invitaţiile sunt stocate timp de 28 de zile, apoi şterse automat."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Nu pot invita jucători: clanul este plin."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Nu pot invita jucători: secţiunea de recrutare este închisă."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Acceptat"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d z de procesat"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Respinsă"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Eroare"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Expirată"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d h de procesat"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d de procesat"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Trimisă"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Invitaţii (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Cereri (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Acţiuni"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Invită"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Trimisă"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Arată mai mult"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Stare"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Jucător"
+
+msgid "clanInvitesWindow/title"
+msgstr "Cereri şi invitaţii"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Clic pentru a invita jucători în clan."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Prin invitaţie de la:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Invitaţie acceptată."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Invitaţie respinsă."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Invitaţie trimisă."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Expeditor:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Acest buton va fi activat la primirea de date noi de la server."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Clic pentru a afişa cererile şi invitaţiile noi."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Reîmprospătează lista"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Factor de decizie:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Cerere acceptată."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Cerere respinsă."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Cererea a expirat"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Cerere trimisă."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Nu pot adăuga jucători: clanul este plin."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Jucătorul a ieșit recent dintr-un clan. Îi poți primi în clanul tău doar după:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Nu pot invita jucători: clanul este plin."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Experienţa medie pe luptă a jucătorului căruia i s-a trimis invitaţia (inclusiv contul premium)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Experienţă medie pe luptă"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Luptele purtate de jucătorul căruia i s-a trimis invitaţia."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Lupte"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Clic pentru a invita jucătorul în clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Mesajul inclus în invitaţia în clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Mesaj"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Scorul personal al jucătorului căruia i s-a trimis invitaţia."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Scor personal"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Data şi ora la care s-a trimis invitaţia în clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Trimisă"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Starea invitaţiei în clan.\nO invitaţie poate fi în aşteptare, expirată sau procesată."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Stare"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Numele jucătorului căruia i s-a trimis invitaţia."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Jucător"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Procentajul de victorii al jucătorului căruia i s-a trimis invitaţia."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Victorii"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "O cerere poate fi acceptată sau respinsă."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Acţiuni"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Experienţa medie pe luptă a jucătorului care a trimis cererea (inclusiv contul premium)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Experienţă medie pe luptă"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Numărul de lupte ale jucătorului care a trimis cererea"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Lupte"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Mesajul jucătorului care a trimis cererea"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Mesaj"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Scorul personal al jucătorului care a trimis cererea"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Scor personal"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Starea cererii de intrare în clan.\nO cerere poate fi în aşteptare, expirată sau procesată."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Stare"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Numele jucătorului care a trimis cererea."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Jucător"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Procentajul de victorii ale jucătorului care a trimis cererea"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Victorii"
+
+msgid "clanLanding/notification/archived"
+msgstr "Mesajul a fost arhivat."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Eroare tehnică: nu pot finaliza operațiunea cu mesajul."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Mesaj eliminat."
+
+msgid "clanLanding/notification/edited"
+msgstr "Mesaj postat."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Numărul maxim de caractere a fost depășit."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Numărul maxim de mesaje deja postate în clan."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Permisiuni insuficiente pentru a administra mesajele clanului: poziția ta a fost modificată."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Mesajul a fost eliminat sau arhivat."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Mesajul conține expresii care încalcă <a href=\"event:clanRulesLink\">regulile clanului</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Invitaţii în aşteptare: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Respinge selecţia (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Invitaţiile mele"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Se primesc date..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Încă nu ai invitaţii în clanuri."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Selectează toate cererile"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Acţiuni"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Numele clanului"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Stare"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Invitaţii în clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Vei putea actualiza lista după ce se vor primi noile date."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Clic pentru actualizarea tabelului."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Ai ieșit recent dintr-un clan. Poți accepta invitații într-un alt clan doar după:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Experienţa medie obţinută în fiecare luptă de membrii clanului care a trimis invitaţia (medie ponderată pe tot modul Lupte standard)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Experienţă medie pe luptă"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Numărul mediu de lupte purtate de membrii clanului care a trimis invitaţia (doar în modul Luptă standard)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Luptele clanului"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Numele clanului care ţi-a trimis invitaţia"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Numele clanului"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Mesajul din partea clanului care ţi-a trimis invitaţia"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Mesaj"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Scorul total al clanului care ţi-a trimis invitaţia"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Scorul clanului"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Afişează starea invitaţiei clanului şi timpul rămas pentru a o procesa"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Stare"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Procentajul de victorii ale membrilor clanului care a trimis invitaţia (medie ponderată pe tot modul Lupte standard)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Victoriile clanului"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Poţi accepta sau respinge invitaţia. Acceptând invitaţia, respingi automat invitaţiile provenind de la alte clanuri."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Acţiuni"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Profilul clanului"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Închide"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Bun venit în clan!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Acum poţi participa la lupte pe Harta Globală, construi şi apăra fortul şi finaliza misiuni speciale."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Avizier"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Clanul tău: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Ne cerem scuze pentru probleme. Te rugăm să încerci mai târziu."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Fortul este temporar indisponibil"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Ne cerem scuze pentru deranj.\nÎncearcă mai târziu."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Eroare la încărcarea datelor"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Profilul clanului"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Fort"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Harta globală"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Personal militar"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Fort"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Sumar"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Invită jucătorul în clan"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Acțiune indisponibilă. Poți invita jucătorii în clan doar unul câte unul."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Adaugă toate contactele la lista de destinatari."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Lupte în ultimele 28 de zile"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Ofensive în ultimele 28 de zile"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Comandantul clanului"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Încă nu s-a creat"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Nicio luptă purtată.\nNicio provincie deţinută."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Nivelul Fortului"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Tezaur"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Nici o luptă purtată"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Provincii"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Scor Elo X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Scor Elo VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Scor Elo VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Raiduri în ultimele 28 de zile"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Total membri"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Detalii"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Continuă"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Trimite cerere"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Acest clan nu are un motto."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Detaliile hărţii globale"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Spre hartă"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Detalii temporar indisponibile"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Nu este posibilă intrarea în clan."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Vezi cerinţele pentru recrutare %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Ești deja membru\nal altui clan."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Ai primit deja o invitaţie\npentru a intra în acest clan."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Restricționat temporar"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Restricționat temporar"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Acest clan nu acceptă cereri %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Cerere trimisă"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Se sincronizează datele..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Scorul Elo al clanului în divizia X a Ofensivelor"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Scor Elo X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Scorul Elo al clanului în divizia VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Scor Elo VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Scorul Elo al clanului în divizia VIII a Ofensivelor"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Scor Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Ofensivele clanului în ultimele 28 de zile"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Ofensive în ultimele 28 de zile"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Nivelul fortului este egal cu nivelul centrului său de comandă."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Nivelul Fortului"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Raidurile clanului în ultimele 28 d ezile"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Raiduri în ultimele 28 de zile"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Scorul Elo al clanului în divizia X a luptelor pe harta globală"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Scor Elo X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Scorul Elo al clanului în divizia VI a luptelor pentru fort"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Scor Elo VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Scorul Elo al clanului în divizia VIII a luptelor pentru fort"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Scor Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Luptele clanului pe harta globală în ultimele 28 de zile"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Lupte în ultimele 28 de zile"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Provinciile deţinute actualmente de clan pe harta globală."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Provincii"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "S-a trimis numărul maxim de cereri."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Nu pot trimite cererea"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "S-a trimis numărul maxim de cereri."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Nu pot trimite cererea"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Clanul nu acceptă cereri."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Nu pot trimite cererea"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Scorul clanului nu a fost actualizat în ultimele 28 de zile."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Informaţii învechite"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Scorul total depinde de eficienţa clanului în modul Ofensivă şi pe harta globală."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Scor total"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Scor total"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Profilul clanului"
+
+msgid "globalMap/disabled"
+msgstr "Luptele pe Harta Globală sunt momentan\nindisponibile în regiunea ta"
+
+msgid "globalMapView/level10"
+msgstr "Generaţia X"
+
+msgid "globalMapView/level6"
+msgstr "Generaţia VI"
+
+msgid "globalMapView/level8"
+msgstr "Generaţia VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Această provincie nu aduce venituri deoarece s-a pierdut legătura cu centrul de comandă sau provincia a fost prădată."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Nu aduce venituri"
+
+msgid "globalMapView/noProvince"
+msgstr "Acest clan nu deţine provincii."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Perioada de activitate maximă populară: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Harta globală este un câmp de lupte în care clanurile concurează pentru superioritate strategică. Ofiţerii clanului petrec cel mai mult timp aici, plănuind tactici şi trimiţând forţe pentru manevre strategice."
+
+msgid "globalMapView/promo/header"
+msgstr "Harta globală"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Detaliile hărţii globale"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Spre hartă"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Lupte"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Totalul luptelor în divizia X pe harta globală"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Lupte"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Scor Elo"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Scorul clanului în lupte din divizia X pe harta globală"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Scor Elo"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Harta favorită"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Harta pe care clanul a purtat cele mai multe lupte din divizia X în ultimele 28 de zile"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Harta favorită: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Poziție în Clasament"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Poziţia clanului ca scor în lupte din divizia X pe harta globală"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Scorul clanului"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Victorii"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Procentajul total de victorii în lupte din divizia X pe harta globală"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Victorii"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Lupte"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Totalul luptelor în divizia VI pe harta globală"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Lupte"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Scor Elo"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Scorul clanului în lupte din divizia VI pe harta globală"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Scor Elo"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Harta favorită"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Harta pe care clanul a purtat cele mai multe lupte din divizia VI în ultimile 28 de zile."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Harta favorită: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Scorul clanului"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Poziţia clanului ca scor în lupte din divizia VI pe harta globală"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Scorul clanului"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Victorii"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Procentajul total de victorii în lupte din divizia VI pe harta globală"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Victorii"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Lupte"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Totalul luptelor în divizia VIII pe harta globală"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Lupte"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Scor Elo"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Scorul clanului în lupte din divizia VIII pe harta globală"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Scor Elo"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Harta favorită"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Harta pe care clanul a purtat cele mai multe lupte din divizia VIII în ultimele 28 de zile"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Harta favorită: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Scorul clanului"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Poziţia clanului ca scor în lupte din divizia VIII pe harta globală"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Scorul clanului"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Victorii"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Procentajul total de victorii în lupte din divizia VIII pe harta globală"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Victorii"
+
+msgid "globalMapView/stats/battles"
+msgstr "Lupte pe harta globală"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Totalul luptelor purtate de clan pe harta globală"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Lupte pe harta globală"
+
+msgid "globalMapView/stats/seized"
+msgstr "Provincii deţinute"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Suma provinciilor deţinute de clan. Provinciile care au fost anterior deţinute de clan dar pierdute între timp sunt de asemenea calculate."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Provincii deţinute"
+
+msgid "globalMapView/stats/wins"
+msgstr "Victoriile membrilor clanului"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Procentajul total de victorii ale membrilor clanului în lupte pe harta globală"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Victoriile membrilor clanului"
+
+msgid "globalMapView/table/days"
+msgstr "Zile"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Perioada de timp, în zile, în care clanul a deţinut provincii pe harta globală."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Zile"
+
+msgid "globalMapView/table/front"
+msgstr "Front"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Numele frontului selectat"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Front"
+
+msgid "globalMapView/table/income"
+msgstr "Venituri"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Aur câştigat zilnic de provincie"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Venituri"
+
+msgid "globalMapView/table/map"
+msgstr "Hartă"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Numele hărţii pe care sunt purtate lupte pentru provincie."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Hartă"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Perioada de activitate maximă"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Timpul programat pentru începerea luptelor pentru Provincii."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Perioada de activitate maximă"
+
+msgid "globalMapView/table/province"
+msgstr "Provincie"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Numele provinciei selectate."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Provincie"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Provincia a fost prădată şi momentan nu aduce venituri."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Timp până la reinstaurarea veniturilor:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Provincii"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Statistici"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Scorul clanului nu a fost actualizat în ultimele 28 de zile."
+
+msgid "globalMapView/totalIncome"
+msgstr "Venit zilnic total: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Media\nnumărului de lupte"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Suma luptelor purtate în modurile Luptă Standard şi Luptă pe Echipe, împărţită la numărul de membri ai clanului. Doar membrii actuali ai clanului sunt luaţi în considerare."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Media numărului de lupte purtate de membrii clanului"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Experienţă medie"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Media balansată a experienţei obţinute de membrii clanului în modurile Luptă Standard şi Luptă pe Echipe. Numărul total al luptelor purtate de fiecare jucător afectează balansarea mediei. Doar membrii actuali ai clanului sunt luaţi în considerare."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Experienţa medie a membrilor clanului"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Media scorului personal"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Suma scorului personal împărţită la numărul de membri ai clanului. Doar membrii actuali ai clanului sunt luaţi în considerare."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Media scorului personal al membrilor clanului"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Procentajul mediu de victorii"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Media balansată a procentajului de victorii al membrilor clanului în modurile Luptă Standard şi Luptă pe Echipe. Numărul total al luptelor purtate de fiecare jucător afectează balansarea mediei. Doar membrii actuali ai clanului sunt luaţi în considerare."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Media procentajului de victorii al membrilor clanului"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Raţia experienţei totale obţinute versus numărul de lupte purtate de jucător în modurile Luptă Standard şi Luptă pe Echipe"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Experienţă medie"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Numărul total de lupte standar și lupte pe companii la care a participat jucătorul"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Suma totală a luptelor"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Numărul de zile în care jucătorul a făcut parte din clan"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Zile în clan"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Scorul personal al jucătorului"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Scor personal"
+
+msgid "personnelView/table/player"
+msgstr "Jucător (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Numele mebrului clanului"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Jucător"
+
+msgid "personnelView/table/post"
+msgstr "Funcţie"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Rangul membrului în clan"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Funcţie"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Procentajul de victorii al jucătorului în modurile Luptă Standard şi Companie de Tancuri"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Victorii"
+
+msgid "personnelView/title"
+msgstr "Statisticile membrului de clan în lupte standard și Lupte pe echipe:"
+
+msgid "search/clansList"
+msgstr "Clanuri listate: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Niciun rezultat conform căutării tale. Încearcă să cauţi cu alte cuvinte."
+
+msgid "search/emptyResult/button"
+msgstr "Înapoi la listă"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Clic pentru a reveni la lista de clanuri gasite."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Înapoi la listă"
+
+msgid "search/emptyResult/header"
+msgstr "Căutarea nu are rezultate"
+
+msgid "search/foundClans"
+msgstr "Clanuri găsite: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Nu este posibilă intrarea în clan."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Nu pot trimite cererea"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Profilul clanului"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Nu se poate trimite cererea de intrare în clan."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Acțiune indisponibilă"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Deja ai primit o invitaţie de intrare în acest clan."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Nu pot trimite cererea"
+
+msgid "search/info/ratingDescription"
+msgstr "Scor total"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Scorul total depinde de eficienţa clanului în modul Fort şi pe harta globală."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Scor total"
+
+msgid "search/info/ratingTitle"
+msgstr "Statistici pentru toate tipurile de lupte:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Ai trimis deja o cerere de intrare în acest clan."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Nu pot trimite cererea"
+
+msgid "search/info/requestSent"
+msgstr "Cerere trimisă"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Clanul nu acceptă cereri."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Nu pot trimite cererea"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "S-a trimis numărul maxim de cereri."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Nu pot trimite cererea"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Depune cerere"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Nu s-au primit date de la server. Încearcă mai târziu."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Eroare la server"
+
+msgid "search/info/stats/avgExp"
+msgstr "Experienţă medie"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Media balansată a experienţei membrilor clanului obţinută din toate modurile de luptă. Suma luptelor purtate de fiecare jucător afectează balansul mediei. Numai membrii actuali ai clanului sunt luaţi în considerare."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Experienţa medie a membrilor clanului"
+
+msgid "search/info/stats/battles"
+msgstr "Media\nnumărului de lupte"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Media luptelor purtate de membrii clanului în toate modurile de luptă. Numai membrii actuali ai clanului sunt luaţi în considerare."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Media numărului de lupte purtate de membrii clanului"
+
+msgid "search/info/stats/wins"
+msgstr "Procentajul mediu de victorii"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Media balansată a procentajului de victorii al membrilor clanului obţinut din toate modurile de luptă. Suma luptelor purtate de fiecare jucător afectează balansul mediei. Numai membrii actuali ai clanului sunt luaţi în considerare."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Media procentajului de victorii al membrilor clanului"
+
+msgid "search/nextBtn"
+msgstr "Înainte"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Clic pentru a afişa partea următoare a listei de clanuri."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Înainte"
+
+msgid "search/previousBtn"
+msgstr "Înapoi"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Clic pentru a afişa partea anterioară a listei de clanuri."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Înapoi"
+
+msgid "search/promoText/body"
+msgstr "Pentru a căuta un clan, introdu-i numele sau eticheta în câmp şi dă clic pe Căutare."
+
+msgid "search/promoText/header"
+msgstr "Căutare clan"
+
+msgid "search/requestTooShort/body"
+msgstr "Pentru a căuta un clan, introdu minim 2 caractere în câmp şi încearcă din nou."
+
+msgid "search/requestTooShort/button"
+msgstr "Înapoi la listă"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Înapoi la listă"
+
+msgid "search/requestTooShort/header"
+msgstr "Date insuficiente"
+
+msgid "search/searchBtn"
+msgstr "Căutare"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Introdu numele sau eticheta clanului în câmpul din stânga (minim 2 caractere)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Căutare clan"
+
+msgid "search/searchInputPrompt"
+msgstr "Introdu numele sau eticheta clanului"
+
+msgid "search/serverUnavailable/body"
+msgstr "Nu s-au primit date de la server. Încearcă mai târziu."
+
+msgid "search/serverUnavailable/header"
+msgstr "Eroare la server"
+
+msgid "search/table/clan"
+msgstr "Clan"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Atributele clanului: etichetă şi nume"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Clan"
+
+msgid "search/table/creationDate"
+msgstr "Creat"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Data creării clanului"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Creat"
+
+msgid "search/table/players"
+msgstr "Jucători"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Numărul de jucători ai clanului"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Jucători"
+
+msgid "search/table/rating"
+msgstr "Scor"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Scorul total al clanului"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Scor"
+
+msgid "search/title"
+msgstr "Căutare clan"
+
+msgid "search/titleDescription"
+msgstr "Aici poți să cauți un clan, să îi analizezi detaliile,\nși să îți trimiți cerere de înscriere. Poți căuta fie după numele clanului, fie după etichetă."
+
+msgid "search/windowTitle"
+msgstr "Căutare clan"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Plan"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Statistici"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Nivel %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "ne-setat"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Armistiţiu:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Perioada defensivă:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Serverul de bază:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Structuri construite:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Neutralitate:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Maximul resurselor industriale obţinute"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Şirul maxim de victorii"

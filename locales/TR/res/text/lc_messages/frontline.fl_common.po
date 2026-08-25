@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Süzgeçleri Sıfırla"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Seçili parametrelere uygun araç yok.\nUygun araçları görmek için süzgeç ayarlarını sıfırlamanız gerekiyor"
+
+msgid "battleType/description/fast"
+msgstr "Azaltılmış Savaş Yedeği soğuma süresi olan bir senaryo."
+
+msgid "battleType/description/random"
+msgstr "Oyuncuların rastgele Yedek setleri arasında seçim yapabildiği ve bunları Seviye IV'e kadar iyileştirme fırsatlarının olduğu bir senaryo."
+
+msgid "battleType/description/standard"
+msgstr "Standart Ön Cephe kuralları olan bir senaryo."
+
+msgid "battleType/postBattle/title"
+msgstr "Savaş Senaryosu: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Azaltılmış Yedek soğuma süresi."
+
+msgid "battleType/shortDescription/random"
+msgstr "Savaş Yedekleri rastgele verilir."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Standart kurallar uygulanır."
+
+msgid "battleType/title/fast"
+msgstr "Operasyonel Destek"
+
+msgid "battleType/title/random"
+msgstr "Kaderin Cilvesi"
+
+msgid "battleType/title/standard"
+msgstr "Standart Savaş"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "GERİ DÖN"
+
+msgid "button/close"
+msgstr "KAPAT"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} gün"
+msgstr[1] "{duration} gün"
+msgstr[2] "{duration} gün"
+
+msgid "filterPopover/note"
+msgstr "Burada sadece kipte kullanılabilen araçlar gösterilmektedir."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Savaş Yedeği Seviyeleri yeni rütbelere ulaştığınızda artar."
+
+msgid "levelReservesTooltip/info"
+msgstr "{whiteSpanish_Start}Kaderin Cilvesi{whiteSpanish_End} senaryosunda bir Savaş Yedeği satın almak yedeğin seviyesini bir yükseltip {whiteSpanish_Start}%(lvl)s{whiteSpanish_End} Seviyesine iyileştirme fırsatı sunacak."
+
+msgid "levelReservesTooltip/level"
+msgstr "Şu rütbeye ulaştığınızda artar: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Şu rütbede geçerlidir: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Seviye {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "{whiteSpanish_Start}Kaderin Cilvesi{whiteSpanish_End} senaryosunda{whiteSpanish_Start}satın alınmış Savaş Yedekleri{whiteSpanish_End} için."
+
+msgid "levelReservesTooltip/title"
+msgstr "Savaş Yedeği Seviyeleri"
+
+msgid "loading"
+msgstr "Yükleniyor..."
+
+msgid "widget/eventStartSoon"
+msgstr "Etkinlik yakında başlayacak!"
+
+msgid "widget/maxTier"
+msgstr "En yüksek Seviyeye ulaştınız!"

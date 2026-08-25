@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Parametrų rinkinys, parodantis bendrą efektyvumą šaudant į priešus."
+
+msgid "domain/accuracy/name"
+msgstr "Šaudymo efektyvumas"
+
+msgid "domain/armorPiercing/description"
+msgstr "Parametrų rinkinys, parodantis mašinų galimybes pramušti priešų šarvus."
+
+msgid "domain/armorPiercing/name"
+msgstr "Pramušimas"
+
+msgid "domain/battleParams/description"
+msgstr "Parametrų rinkinys, parodantis pagrindinę žaidimo mechaniką."
+
+msgid "domain/battleParams/name"
+msgstr "Koviniai parametrai"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Režimui skirti modifikatoriai, kurie pakeičia mašinų parametrus."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Prasiveržimo šviesos modifikatoriai"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Režimui skirti modifikatoriai, kurie pakeičia mašinų parametrus."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Prasiveržimo modifikatoriai"
+
+msgid "domain/concealment/description"
+msgstr "Parametrų rinkinys, parodantis mašinų galimybes išlikti nepastebėtomis."
+
+msgid "domain/concealment/name"
+msgstr "Maskuotė"
+
+msgid "domain/damageDealing/description"
+msgstr "Parametrų rinkinys, parodantis mašinų galimybes padaryti žalą."
+
+msgid "domain/damageDealing/name"
+msgstr "Žalos darymas"
+
+msgid "domain/mobility/description"
+msgstr "Parametrų rinkinys, parodantis mašinos dinamines ir greičio charakteristikas."
+
+msgid "domain/mobility/name"
+msgstr "Manevringumas ir dinamika"
+
+msgid "domain/randomization/description"
+msgstr "Parametrų rinkinys, parodantis potencialios žalos ir pramušimo rėžius."
+
+msgid "domain/randomization/name"
+msgstr "Atsitiktinės reikšmės"
+
+msgid "domain/sustaining/description"
+msgstr "Parametrų rinkinys, parodantis pažeistų modulių ar sužeistos įgulos atsigavimą."
+
+msgid "domain/sustaining/name"
+msgstr "Remontas"
+
+msgid "domain/visibility/description"
+msgstr "Parametrų rinkinys, parodantis mašinų galimybes aptikti priešus."
+
+msgid "domain/visibility/name"
+msgstr "Apžvalgos atstumas"
+
+msgid "domain/vitality/description"
+msgstr "Parametrų rinkinys, parodantis jūsų mašinos galimybes išgyventi mūšyje."
+
+msgid "domain/vitality/name"
+msgstr "Atsparumas"
+
+msgid "modifier/name/aimingTime"
+msgstr "Taikymosi laikas"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Amunicijos skyriaus patvarumas"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Užsitaisymo laikas mašinoms su automatine užtaisymo sistema"
+
+msgid "modifier/name/battleLength"
+msgstr "Mūšio laikas"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Maksimalus atbulinis greitis"
+
+msgid "modifier/name/burstInterval"
+msgstr "Sviedinių užtaisymo laikas kasetėje"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Važiuoklės patvarumas"
+
+msgid "modifier/name/clipInterval"
+msgstr "Užtaisymo laikas tarp šūvių kasetėje"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Potencialios žalos rėžiai"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Vidinis modulis pažeistas"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Išbarstymas po šūvio"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Išbarstymas važiuojant"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Išbarstymas sukant korpusą"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Išbarstymas sukant bokštelį"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Išbarstymas su pažeistu ginklu"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Šansas varikliui užsiliepsnoti"
+
+msgid "modifier/name/engineHealth"
+msgstr "Variklio patvarumas"
+
+msgid "modifier/name/enginePower"
+msgstr "Variklio galingumas"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Žala važiuoklei nuo smūgio"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Žala korpusui nuo smūgio"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Žala kitiems moduliams nuo smūgio"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Įgulos sužeidimai nuo smūgio"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Ekipuotės atsistatymo laikas"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Kuro bako patvarumas"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Maksimalus greitis į priekį"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Mašinos gravitacija"
+
+msgid "modifier/name/gunHealth"
+msgstr "Pabūklo patvarumas"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Ginklo pasukimo greitis stacionarioje kabinoje"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Maskuotė važiuojant"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Nejudančios mašinos maskuotė"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Sviedinio normalizacija"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Potencialaus pramušimo rėžiai"
+
+msgid "modifier/name/radioDistance"
+msgstr "Ryšio atstumas"
+
+msgid "modifier/name/reloadTime"
+msgstr "Užtaisymo laikas"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Remonto greitis"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Sviedinio rikošeto kampas. Kuo smailesnis kampas, tuo didesnė rikošeto tikimybė"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Korpuso sukimosi greitis"
+
+msgid "modifier/name/shellGravity"
+msgstr "Sviedinio gravitacija"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Sviedinio greitis"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Sklaida 100 m atstumu"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Stebėjimo įrangos patvarumos"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Nuplėšto bokštelio spaudimo žala"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Nuplėšto bokštelio žala"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Bokštelio sukimosi greitis"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Bokštelio sukimosi žiedo patvarumas"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Ginklo užtaisymas šaudant salvėmis"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Vaizdavimo laukas"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Mašinos patvarumas"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Spaudimo žala"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Žala taranuojant"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Artimo aptikimo spindulys"
+
+msgid "modifier/name/visionRadius"
+msgstr "Apžvalgos atstumas"
+
+msgid "modifier/name/visionTime"
+msgstr "Laikas, per kurį išliekate matomu"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Šūviais ir taranavimu padaryta žala"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "Režimo mūšiuose uždirbti ir išleisti resursai"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "ne&nbsp;daugiau nei&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "ne&nbsp;mažiau nei&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(bet {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(bet {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Modifikatoriai keičia šiuos parametrus:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "Modifikatorius įtakoja šį parametrą:"

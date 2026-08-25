@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Създайте тактическа единица от 2 до 5 играчи, които да си сътрудничат\nв \"Последна битка\"."
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Взвод"
+
+msgid "members/header/last_stand"
+msgstr ": Последна битка: Северна земя"
+
+msgid "members/header/tooltip/last_stand/body"
+msgstr "За да влязат в битка за събитието, всички членове на взвода трябва да имат достъп до нивото на трудност, избрано от командира."
+
+msgid "members/header/tooltip/last_stand/header"
+msgstr "Правила за създаване на взвод"
+
+msgid "platoon/commander/difficulty_body"
+msgstr "Можете да изберете всяко от наличните нива на трудност."
+
+msgid "platoon/difficulty/error_body_1"
+msgstr "Достъпни нива на трудност: нормална."
+
+msgid "platoon/difficulty/error_body_2"
+msgstr "Достъпни нива на трудност: нормална, висока."
+
+msgid "platoon/difficulty/error_header"
+msgstr "Недостъпна трудност"
+
+msgid "platoon/difficulty/level_1"
+msgstr "Трудност: нормална"
+
+msgid "platoon/difficulty/level_2"
+msgstr "Трудност: висока"
+
+msgid "platoon/difficulty/level_3"
+msgstr "Трудност: брутална"
+
+msgid "platoon/difficulty/level_4"
+msgstr "Трудност: последна битка"
+
+msgid "platoon/difficulty/lock_header"
+msgstr "Нивото на трудност е заключено"
+
+msgid "platoon/difficulty/maxAvailable"
+msgstr "Достъпна трудност {%(icon)s}"
+
+msgid "platoon/difficulty/warning_body"
+msgstr "Един или повече членове на взвода не са отключили това ниво на трудност."
+
+msgid "platoon/difficulty/warning_header"
+msgstr "Несъвместима трудност"
+
+msgid "platoon/dropdown/difficulty_1"
+msgstr "Нормална %(icon)s"
+
+msgid "platoon/dropdown/difficulty_2"
+msgstr "Висока %(icon)s"
+
+msgid "platoon/dropdown/difficulty_3"
+msgstr "Брутална %(icon)s"
+
+msgid "platoon/dropdown/header/difficulty"
+msgstr "{whiteSpanish_Open}Трудност: {whiteSpanish_Close}%(difficulty)s"
+
+msgid "platoon/player/difficulty_body"
+msgstr "Само командирът на взвода може да променя нивото на трудност."
+
+msgid "platoon/simpleState/difficultyDisabled"
+msgstr "Недостъпно поради технически причини."
+
+msgid "platoon/simpleState/lockVehicle"
+msgstr "Избраната машина е недостъпна."
+
+msgid "platoon/simpleState/notAvailableLevel"
+msgstr "Несъвместимо ниво на трудност за взвода."

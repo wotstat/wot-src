@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Blindage principal"
+
+msgid "armorValues/title/no_damage"
+msgstr "Aucun dégât"
+
+msgid "armorValues/title/other"
+msgstr "Autre"
+
+msgid "armorValues/title/penetration"
+msgstr "Probabilité de pénétration"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Ricochet"
+
+msgid "armorValues/title/spaced"
+msgstr "Blindage espacé"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Configuration de l'agresseur"
+
+msgid "attackerTooltip/body"
+msgstr "Cliquez pour changer de véhicule agresseur"
+
+msgid "attackerTooltip/header"
+msgstr "Véhicule agresseur"
+
+msgid "menu/header"
+msgstr "Type de surcouche"
+
+msgid "menu/no_armor"
+msgstr "Pas de surcouche"
+
+msgid "menu/nominal"
+msgstr "Blindage nominal"
+
+msgid "menu/penetration"
+msgstr "Probabilité de pénétration"
+
+msgid "modules/current"
+msgstr "Configuration actuelle"
+
+msgid "modules/custom"
+msgstr "Configuration personnalisée"
+
+msgid "modules/standard"
+msgstr "Configuration standard"
+
+msgid "modules/title"
+msgstr "Éléments du véhicule"
+
+msgid "modules/top"
+msgstr "Meilleure configuration"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Châssis"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Canon"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Mantelet du canon"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Caisse"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Protection"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Appareil d'observation"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Tourelle"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Roues"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Aucun dégât"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Pénétration"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}} % "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Ricochet"
+
+msgid "tooltip/minor/angle/description"
+msgstr "L'angle entre la trajectoire de l'obus et l'axe perpendiculaire à la plaque de blindage.\n\nLa trajectoire de l'obus est calculée comme si l'obus volait en ligne droite depuis le centre de l'écran."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Angle d'impact"
+
+msgid "tooltip/minor/damage/description"
+msgstr "La probabilité de pénétrer le blindage de l'ennemi et d'infliger des dégâts au véhicule."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Probabilité de pénétration"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Avec une seule couche de blindage, le blindage effectif correspond au blindage nominal modifié par l'angle d'impact et la normalisation de l'obus.\n\nS'il y a plusieurs couches de blindage au point d'impact, le résultat est la somme des valeurs effectives pour chaque couche."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Blindage effectif"
+
+msgid "tooltip/minor/header"
+msgstr "Légende"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Atteindre le blindage espacé n'inflige pas de dégâts au véhicule, sauf si l'obus touche et pénètre le blindage principal après cela."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Aucun dégât"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "L'épaisseur réelle des plaques de blindage principales ou espacées."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Blindage nominal"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Les obus touchant le blindage ennemi avec un angle trop fermé ricocheront. Toutefois, ils peuvent malgré tout toucher un autre véhicule, voire le même."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Ricochet"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Affecte le calcul du blindage effectif et la probabilité de pénétration.\n\nUne distance de 100 m est utilisée pour tous les calculs (les obus perforants et APCR perdent en puissance de pénétration avec la distance).\n\nLes aptitudes de l'équipage et les améliorations du véhicule agresseur n'affectent pas les calculs."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Configuration de l'agresseur"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "La probabilité de pénétrer le blindage de l'ennemi et d'infliger des dégâts au véhicule.\n\nAtteindre le blindage espacé n'inflige pas de dégâts au véhicule, sauf si l'obus touche et pénètre le blindage principal après cela."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Probabilité de pénétration"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Un véhicule n'est endommagé que si son blindage principal est touché et pénétré. Les obus explosifs peuvent infliger des dégâts réduits à un véhicule même sans pénétration. Cependant, ils doivent malgré tout atteindre le blindage principal."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Blindage principal"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Atteindre le blindage espacé n'inflige pas de dégâts au véhicule, sauf si l'obus touche et pénètre le blindage principal après cela.\n\nToucher et pénétrer des éléments externes endommage directement ces éléments : toucher une chenille immobilise un véhicule, toucher son canon le rend inopérant et toucher son dispositif d'observation réduit la portée de vue du véhicule."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Aucun dégât"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "L'angle de ricochet est 70° pour les obus perforants et APCR, et de 85° pour les obus HEAT.\n\nLes obus explosifs ne ricochent jamais, tandis que les obus perforants et APCR perdent 25 % de leur puissance de pénétration après un ricochet.\n\nUn ricochet n'aura pas lieu si le calibre de l'obus est trois fois supérieur à l'épaisseur nominale du blindage au point d'impact (cette règle s'applique uniquement aux obus perforants et APCR)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Ricochet"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Atteindre le blindage espacé n'inflige pas de dégâts au véhicule, sauf si l'obus touche et pénètre le blindage principal après cela.\n\nToucher et pénétrer des éléments externes endommage directement ces éléments : toucher une chenille immobilise un véhicule, toucher son canon le rend inopérant et toucher son dispositif d'observation réduit la portée de vue du véhicule.\n\nL'angle d'impact ne s'applique pas aux éléments externes (comme les chenilles et le canon), car à ces endroits, le blindage effectif équivaut au blindage nominal."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Blindage espacé"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Regarder une vidéo sur les mécaniques de pénétration du blindage"

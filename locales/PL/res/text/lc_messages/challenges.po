@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Otrzymano również:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Tę serię misji można powtórzyć."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Tak jest!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Zamknij"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Wyświetl w garażu"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Powtórz"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Do Tygla"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "Konto premium WoT"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Pojazd premium"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Pojazd do wypożyczenia"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "i styl {{styleName}}"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) dzień"
+msgstr[1] "%(day) dni"
+msgstr[2] "%(day) dni"
+
+msgid "awards_view/title"
+msgstr "UKOŃCZONO TYGIEL!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Misja 5× PD za bitwę"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Fragment schematu: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Uniwersalny fragment schematu"
+
+msgid "bonuses/bpcoin"
+msgstr "Żeton Przepustki bitewnej"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Misja 3× PD załogi"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Zestaw dodatków 3D"
+
+msgid "bonuses/description/booster"
+msgstr "Rezerwa osobista"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Wyposażenie z nagród"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Wygląd załogi"
+
+msgid "bonuses/description/directive"
+msgstr "Dyrektywa"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Wyposażenie eksperymentalne"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Ulepszone wyposażenie"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "i styl %(styleName)s"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Wyposażenie standardowe"
+
+msgid "bonuses/description/style"
+msgstr "Styl 2D"
+
+msgid "bonuses/description/style_3d"
+msgstr "Styl 3D"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Członkini załogi"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Rekrutuj"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Członek załogi"
+
+msgid "condition/achievement"
+msgstr "Zdobądź nagrodę %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "Bohaterowie bitwy"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Zadać i asystować w zadaniu łącznie %(goal)s PW uszkodzeń"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Zadać, otrzymać i zablokować łącznie %(goal)s PW uszkodzeń"
+
+msgid "condition/aggregated/title"
+msgstr "Warunek złożony"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Niszczyciel czołgów"
+
+msgid "condition/classes/SPG"
+msgstr "Działo samobieżne"
+
+msgid "condition/classes/heavyTank"
+msgstr "Czołg ciężki"
+
+msgid "condition/classes/lightTank"
+msgstr "Czołg lekki"
+
+msgid "condition/classes/mediumTank"
+msgstr "Czołg średni"
+
+msgid "condition/critsCount"
+msgstr "Zadać trafienia krytyczne (%(goal)s) w moduły wewnętrzne lub zewnętrzne pojazdów przeciwników"
+
+msgid "condition/critsCount/title"
+msgstr "Unieruchomienie"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Zablokować %(goal)s PW uszkodzeń"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Zablokować %(goal)s razy więcej uszkodzeń, niż wynosi liczba PW pojazdu gracza"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Blokowanie"
+
+msgid "condition/damageDealt"
+msgstr "Zadać %(goal)s PW uszkodzeń pojazdom przeciwnika"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Zadać %(goal)s razy więcej uszkodzeń, niż wynosi liczba PW pojazdu gracza"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Trafić pojazdy przeciwnika z dystansu najwyżej %(distance)s m %(goal)s razy"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Trafić pojazdy przeciwnika z dystansu przynajmniej %(distance)s m %(goal)s razy"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Zadać uszkodzenia pojazdom przeciwnika przez taranowanie %(goal)s razy"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Trafić pojazdy przeciwnika w zasięgu widzenia pojazdu gracza %(goal)s razy"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Zadać %(goal)s PW uszkodzeń w pierwszych %(timeLimit)s minutach bitwy"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Zadać %(goal)s PW uszkodzeń pojazdom przeciwnika z odległości co najwyżej %(distance)s m"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Zadać %(goal)s PW uszkodzeń pojazdom przeciwnika z odległości przynajmniej %(distance)s m"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Zadać %(goal)s PW uszkodzeń taranowaniem"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Taranowanie"
+
+msgid "condition/damageDealt/title"
+msgstr "Uszkodzenia"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Zadać %(goal)s PW uszkodzeń niewykrytym pojazdom przeciwnika"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Zadać %(goal)s PW uszkodzeń pojazdom przeciwnika w zasięgu widzenia pojazdu gracza"
+
+msgid "condition/kills"
+msgstr "Zniszczyć %(goal)s pojazdów przeciwnika"
+
+msgid "condition/kills/classes"
+msgstr "Zniszczyć %(goal)s %(vehicleClass)s przeciwnika"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Zniszczyć %(goal)s pojazdów przeciwnika %(classCount)s różnych rodzajów"
+
+msgid "condition/kills/title"
+msgstr "Zniszczenia"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Zniszczyć %(goal)s pojazdów przeciwnika, samemu nie odnosząc uszkodzeń"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Zniszczyć %(goal)s pojazdów przeciwnika, pozostając niewykrytym"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Zadać %(goal)s%% łącznych uszkodzeń zadanych przez swoją drużynę"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Uszkodzenia"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Przebić pancerz przeciwnika %(goal)s razy"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Penetracja"
+
+msgid "condition/spotted"
+msgstr "Wykryć %(goal)s pojazdów przeciwnika"
+
+msgid "condition/spotted/title"
+msgstr "Wykrycie"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Wykryć %(goal)s pojazdów przeciwnika, samemu pozostając niewykrytym"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Wykrycie"
+
+msgid "condition/top/damageDealt"
+msgstr "Być wśród najlepszych %(rank)s graczy w swojej drużynie pod względem zadanych uszkodzeń"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Być wśród najlepszych %(rank)s graczy w obu drużynach pod względem zadanych uszkodzeń"
+
+msgid "condition/top/title"
+msgstr "Najlepszy gracz"
+
+msgid "condition/top/xp"
+msgstr "Być wśród najlepszych %(rank)s graczy w swojej drużynie pod względem zdobytego doświadczenia"
+
+msgid "condition/unknown"
+msgstr "Wyszukiwanie najodpowiedniejszej misji..."
+
+msgid "condition/unknown/title"
+msgstr "Oczekiwanie"
+
+msgid "postbattle/name"
+msgstr "TYGIEL: "

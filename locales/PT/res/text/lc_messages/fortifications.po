@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Nome"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Por mês"
+
+msgid "ClanListWindow/table/role"
+msgstr "Posição"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Por semana"
+
+msgid "battleQueue/clanPosition"
+msgstr "Posição: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Posição:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "À procura de inimigos:"
+
+msgid "battleQueue/waitBattle"
+msgstr "A aguardar pela batalha:"
+
+msgid "battleQueue/yourTeam"
+msgstr "O seu destacamento:"
+
+msgid "disconnected/Warning"
+msgstr "Atenção!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "A Fortificação está temporariamente indisponível. Tente novamente mais tarde."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "A Fortificação não está disponível em roaming. Para ter acesso à Fortificação vá para a sua região."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Membros do Clã"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Legionários"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Guardar a selecção (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "A Inspirar"
+
+msgid "inspire/inspiring"
+msgstr "A Inspirar"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Pedimos desculpa pelo inconveniente."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Actualização"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Erro a Carregar os Dados"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Reunião Adicional"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Pagamentos de Batalha"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Manobras Militares"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Treino Táctico"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Efeito Adicional"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Comanda a artilharia para disparar a área seleccionada em Escaramuças e Avanços para uma batalha"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Fornece um bónus às qualificações e a todas as aptidões de toda a tripulação do seu veículo com Inspiração, assim como as tripulações dos veículos aliados próximos, em Escaramuças e Avanços por uma batalha"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Uma Reserva pode ser activada antes de uma batalha"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Uma reserva pode ser activada antes do Avanço"
+
+msgid "reserves/tooltip/empty"
+msgstr "Não tem Reservas para activar"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s no Depósito"
+
+msgid "reserves/tooltip/level"
+msgstr "Nível %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Efeito Quando Usado"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Pode ser activado"
+
+msgid "reserves/tooltip/selected"
+msgstr "Activado"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Clique para ver a lista de Reservas que pode activar."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "A Reserva apenas pode ser activada pelo Comandante do Destacamento com o posto de Comandante, Oficial Executivo, Oficial de Pessoal ou Oficial de Combate."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Sem membros do clã suficientes no destacamento: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "A batalha começa em %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "A hora de inicio será divulgada posteriormente"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "A batalha termina em %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Escaramuças disponíveis"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "A próxima batalha começará a %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "A batalha começa em %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "A batalha começa hoje às %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "A batalha começa amanhã às %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "A hora de inicio será divulgada posteriormente"
+
+msgid "sortie/introView/title"
+msgstr "Fortificação: Batalhas"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Entrar"
+
+msgid "sortie/listView/enterText"
+msgstr "Pode juntar-se como voluntário"
+
+msgid "sortie/listView/notSelected"
+msgstr "Selecione um destacamento da lista à esquerda\npara ver a descrição detalhada."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Membros: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Veículos:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Legionários"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Auto-correspondência"
+
+msgid "sortie/room/candidates"
+msgstr "Voluntários"
+
+msgid "sortie/room/chat"
+msgstr "Canal de chat"
+
+msgid "sortie/room/description"
+msgstr "Os destacamentos criados irão combater com um clã inimigo aleatório em território neutro. O nível dos veículos é determinado pela área escolhida."
+
+msgid "sortie/room/fight"
+msgstr "Batalha!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Convidar Jogadores"
+
+msgid "sortie/room/leaveBtn"
+msgstr "IR PARA A CRIAÇÃO DE DESTACAMENTOS"
+
+msgid "sortie/room/level"
+msgstr "Nível %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Membros: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Não Pronto"
+
+msgid "sortie/room/ready"
+msgstr "Pronto!"
+
+msgid "sortie/room/title"
+msgstr "Destacamento"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Vazio"
+
+msgid "sortie/slot/takePlace"
+msgstr "Ocupar Lugar"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Selecione um veículo para entrar na batalha. Os veículos que não estejam prontos para a batalha estão indicados com um indicador vermelho."
+
+msgid "stronghold/teamHeader"
+msgstr "Membros do Destacamento"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Seleccionar Veículos para Legionários"
+
+msgid "strongholdPopover/header"
+msgstr "Seleccionar Veículos"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Veículos selec.:"
+
+msgid "strongholdbuilds/direction"
+msgstr "Cabeça de ponte aliada %(direction)s"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Norte"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Oriental"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Sul"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Ocidental"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Cabeça de ponte inimiga"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Mapa: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "O mapa será selecionado após o início do Avanço"
+
+msgid "strongholdbuilds/point1"
+msgstr "Citadela"
+
+msgid "strongholdbuilds/point2"
+msgstr "Linha de Reserva"
+
+msgid "strongholdbuilds/point3"
+msgstr "Linha da Frente"
+
+msgid "strongholdbuilds/point4"
+msgstr "Linha da Frente"
+
+msgid "strongholdbuilds/point5"
+msgstr "Linha de Reserva"
+
+msgid "strongholdbuilds/point6"
+msgstr "Citadela"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s pela primeira vitória de cada dia nos Avanços nesta cabeça de ponte"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Por defender a Citadela tendo perdido ambas as linhas"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Por defender a Linha de Reserva tendo perdido a Linha da Frente"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Por defender ambas as linhas sem capturar as linhas inimigas"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Por capturar apenas a Linha da Frente"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Por capturar ambas as linhas sem capturar a Citadela"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Por capturar a Citadela inimiga"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "da reserva de Requisição"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Atribuído após o Avanço"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Ocultar Dos Legionários"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "O destacamento é mostrado"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Mostrar aos Legionários"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "O destacamento é ocultado"
+
+msgid "strongholddirection/A"
+msgstr "Norte"
+
+msgid "strongholddirection/B"
+msgstr "Oriental"
+
+msgid "strongholddirection/C"
+msgstr "Sul"
+
+msgid "strongholddirection/D"
+msgstr "Ocidental"
+
+msgid "strongholdinfo/sortie"
+msgstr "Escaramuça na divisão %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Avanço da cabeça de ponte %(direction)s"
+
+msgid "strongholdmap/randomMap"
+msgstr "Mapa Aleatório"
+
+msgid "strongholdreserve/boost"
+msgstr "Inspiração"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Transporte de Grande Capacidade"
+
+msgid "strongholdreserve/requisition"
+msgstr "Requisição"
+
+msgid "strongholdreserve/support"
+msgstr "Ataque de Artilharia"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "Em Escaramuças e Avanços, por 1 batalha"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Pelo resultado do Avanço"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Activada no início de uma batalha"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Activada no início do Avanço"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Activada quando uma Reserva for utilizada numa batalha"
+
+msgid "strongholdtable/rating"
+msgstr "Classificação"
+
+msgid "strongholdtable/roster"
+msgstr "Composição"
+
+msgid "strongholdtable/tech"
+msgstr "Veículos"
+
+msgid "strongholdtitle/sortie"
+msgstr "Escaramuça"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Avanço da cabeça de ponte %(direction)s"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Fronteira{/HEADER}{BODY}Território neutro. O vencedor atacará a linha inimiga na próxima batalha. Se uma batalha terminar num empate, a equipa atacante será escolhida aleatoriamente.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Avanço da cabeça de ponte %(direction)s"
+
+msgid "strongholdtooltips/hours"
+msgstr "h"
+
+msgid "strongholdtooltips/minuts"
+msgstr "min"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Escaramuça na divisão %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "O tipo de veículo será atribuído automaticamente a um mercenário após clicar no botão Batalha!.\n\nClique para confirmar ou cancelar o tipo de veículo seleccionado para legionários."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Os Legionários serão automaticamente adicionados às posições vagas"

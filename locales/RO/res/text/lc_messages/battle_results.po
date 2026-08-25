@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Toate"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Această luptă a fost mai satisfăcătoare, echilibrată sau distractivă decât de obicei."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "Mai bună decât de obicei"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "O luptă standard: nu s-a întâmplat nimic neobișnuit."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Obișnuită"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Această luptă a fost mai frustrantă, dezechilibrată sau incorectă decât de obicei."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "Mai rea decât de obicei"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "MAI BUNĂ DECÂT DE OBICEI"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "calificarea luptei:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "OBIȘNUITĂ"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "MAI REA DECÂT DE OBICEI"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Sortează după Punctele de prestigiu."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Punctele de Prestigiu"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Vedere generală"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Raport financiar"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Progresul misiunii"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Realizările echipei"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Sortează după Punctele de prestigiu. Punctele de prestigiu afectează numărul de Puncte de clasament obținute și pierdute într-o luptă."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Punctele de Prestigiu"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Coechipieri:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Apărarea bazei"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Captura bazei:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Baze"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Capturare bază"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Baza neutră"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "Nu ai efectuat nicio acțiune în această luptă."
+
+msgid "common/battleEfficiency/none"
+msgstr "Niciun vehicul inamic distrus sau detectat."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Vehicule"
+
+msgid "common/battleEfficiency/title"
+msgstr "Realizări în luptă"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "PERFORMANȚA ÎN LUPTĂ"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Performanța în luptă (inclusiv abilități folosite)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Realizări în luptă (fără Rezerve de luptă)"
+
+msgid "common/battleType/sortie"
+msgstr "Raid împotriva clanului "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Talent nou"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Cumpără cont Premium"
+
+msgid "common/details/creditsTitle"
+msgstr "Credite"
+
+msgid "common/details/crystal"
+msgstr "Bonduri"
+
+msgid "common/details/getPremBtn"
+msgstr "Detalii"
+
+msgid "common/details/noPremTitle"
+msgstr "Cont standard"
+
+msgid "common/details/premTitle"
+msgstr "Premium WoT"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}Aplică un coeficient bonus de {{multiplier}}x la experiență pentru lupta victorioasă selectată cu Contul Premium WoT.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Obține până la {{bonusCredits}} la fiecare {{@ style}}{{durationInDays}} z{{/}} cu contul premium WoT.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "Aplică coeficient bonus de x%(multiplier)d la experiență pentru lupta câștigată selectată cu Cont Premium WoT."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Primești până la %(bonusCredits)s la fiecare %(durationInDays)d cu Cont Premium WoT."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "Experiență adițională, credite, misiuni Premium și bonusuri de pluton cu Cont Premium WoT."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Deblochează misiuni speciale cu Cont Premium WoT."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Câștigă mai multe credite când joci în pluton cu Cont Premium WoT."
+
+msgid "common/details/xpTitle"
+msgstr "Experienţă"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Experiență %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Achiziţionare modul"
+
+msgid "common/fitting/research"
+msgstr "Cercetare modul"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Etapa principală a luptei:"
+
+msgid "common/missions/noProgress/button"
+msgstr "Spre misiuni"
+
+msgid "common/missions/noProgress/description"
+msgstr "Afișează progresul actual al misiunii"
+
+msgid "common/missions/noProgress/header"
+msgstr "Niciun progres al misiunilor sau cercetării vehiculelor."
+
+msgid "common/newSkillPrediction"
+msgstr "Lupte rămase (aproximativ): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "După ce ai participat la 10 lupte, nu vei mai primi credite, experiență sau medalii în acest mod, iar rezultatele luptei nu se vor mai reflecta în Dosarul personal."
+
+msgid "common/noIncome/alert/title"
+msgstr "Atenție!"
+
+msgid "common/noProgress"
+msgstr "Niciun progres la misiuni, cercetarea vehiculelor sau antrenarea echipajului."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Prelungiri:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Deblochează mai multe cu"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Azi ai obținut:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Azi ai obținut %(count)s EXP"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "Deblochează cu WoT Plus sau WoT Premium"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "Premium WoT"
+
+msgid "common/plusBonus/youRock"
+msgstr "Ești tare!"
+
+msgid "common/premiumBonus"
+msgstr "Vrei să câștigi mai mult?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Bonus aplicat cu succes"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Aplică"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Au mai rămas azi: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "{{value}}×"
+
+msgid "common/premiumBonus/description"
+msgstr "Multiplicator EXP gestionabil"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Vrei să câștigi mai mult?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Trebuie aplicat celei mai recente lupte cu același vehicul."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "Bonusul nu poate fi aplicat: antrenamentul accelerat al echipajului este oprit."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}Bonusul nu poate fi aplicat: antrenamentul accelerat al echipajului {{@ style}}este oprit.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "Bonusul nu poate fi aplicat: antrenamentul accelerat al echipajului este activ."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}Bonusul nu poate fi aplicat: antrenamentul accelerat al echipajului {{@ style}}este pornit.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "Multiplicatorii pot fi aplicați doar luptelor victorioase. Baftă!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "Bonusul administrabil nu poate fi aplicat: nu s-a găsit vehiculul."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}Bonusul gestionabil nu poate fi aplicat: nu s-a {{@ style}}găsit vehiculul.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "Bonusul administrabil nu poate fi aplicat: nu s-a găsit echipajul."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}Bonusul gestionabil nu poate fi aplicat: nu s-a {{@ style}}găsit echipajul.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Multiplicatori indisponibili în acest mod de joc."
+
+msgid "common/progressTitle"
+msgstr "Cercetarea vehiculelor şi progresul misiunii"
+
+msgid "common/quests/noprogress"
+msgstr "Nu au fost acţiuni în misiuni"
+
+msgid "common/researchPrediction"
+msgstr "Lupte rămase (aproximativ): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Pune link"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Se consideră:\n• Obuzele inamice ricoșate\n• Loviturile non-penetrante\n\nLoviturile cu proiectile HE sau HESH nu se iau în considerare."
+
+msgid "common/tooltip/armor/header"
+msgstr "Daune blocate"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Ricoşeuri"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Non-penetrări"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Daune blocate de blindaj: %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "Următoarele tipuri de daune produse de aliaţi vehiculelor inamice sunt considerate:\n• Daune în urma descoperirii de către tine\n• Daune în urma distrugerii de către tine a unei şenile și a imobilizării vehiculului inamic"
+
+msgid "common/tooltip/assist/header"
+msgstr "Daune cu asistența ta"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Daune în urma descoperirii de către tine %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Daune în urma distrugerii de către tine a unei șenile și a imobilizării unui vehicul inamic %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Total daune provocate de aliați vehiculului inamic %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Considerate:\n• Punctele de captură a bazei inamice\n• Punctele de captură a bazei neutre"
+
+msgid "common/tooltip/capture/header"
+msgstr "Capturare bază"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Total puncte de captură a bazei"
+
+msgid "common/tooltip/counter"
+msgstr "Total insigne câştigate în luptă: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Insigne câştigate în luptă pentru acel vehicul inamic: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "Insigna nu a fost câştigată în luptă"
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Scoși din luptă:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Scos din luptă:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Rănit:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Se iau în calcul:\n• Modulele interne şi externe avariate la vehiculului inamic\n• Modulele interne şi externe distruse la vehiculul inamic\n• Membri de echipaj răniți în vehiculul inamic."
+
+msgid "common/tooltip/crits/header"
+msgstr "Daune critice"
+
+msgid "common/tooltip/crits/total"
+msgstr "Total:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Considerate:\n• Daune produse de proiectile\n• Daunele produse de coliziune\n• Daune produse de foc\n• Daune produse de impact puternic"
+
+msgid "common/tooltip/damage/header"
+msgstr "Daune"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Daune totale %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Lovituri cu penetrare"
+
+msgid "common/tooltip/defence/description"
+msgstr "Considerate:\n• Punctele de apărare ale bazei proprii\n• Punctele de apărare ale bazei neutre"
+
+msgid "common/tooltip/defence/header"
+msgstr "Apărarea bazei"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Totalul punctelor de apărare a bazei"
+
+msgid "common/tooltip/kill/header"
+msgstr "Inamic distrus"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Vehicul inamic distrus de lovitură"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Vehicul inamic distrus de incendiu"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Vehicul inamic distrus prin coliziune"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Vehicul inamic distrus de coliziune"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Vehicul inamic distrus în zonă interzisă"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Vehiculul inamic s-a scufundat"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Distrus de Furtuna de foc"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Tanc inamic răsturnat."
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Considerate:\n• Distrugerea cu proiectile\n• Distrugerea prin incendiere\n• Distrugerea prin lovire\n• Distrugerea prin înecare\n• Distrugerea prin împingerea vehiculului inamic de pe un obstacol\n• Distrugerea prin răsturnare."
+
+msgid "common/tooltip/params/val"
+msgstr "(HP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(s)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Prima descoperire a vehiculului inamic este considerată."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Descoperire"
+
+msgid "common/tooltip/stun/description"
+msgstr "Daune luate în calcul:\n• Daunele provocate de aliați vehiculelor inamice afectate de șocul provocat de tine."
+
+msgid "common/tooltip/stun/header"
+msgstr "Șoc"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Daune totale %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Număr de șocuri"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Durata totală a şocurilor provocate: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Vehicul aliat distrus"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Aliat distrus"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Vehicul aliat distrus de lovitură"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Vehicul aliat distrus de incendiu"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Vehicul aliat distrus prin coliziune"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Vehicul aliat distrus de coliziune"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Vehicul aliat distrus în zonă interzisă"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Vehiculul aliat s-a scufundat"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Ai primit experiență suplimentară jucând în pluton în această luptă."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Ricoşeuri"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Non-penetrări"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Daune blocate de blindaj"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Daune după descoperire"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Daune în urma distrugerii de către tine a unei șenile și a imobilizării unui vehicul inamic"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Total daune provocate de aliați vehiculului inamic"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Daune totale"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Lovituri cu penetrare"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Daune totale"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Număr de șocuri"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Durata totală a şocurilor provocate"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Achiziţionarea vehiculului"
+
+msgid "common/vehicle/research"
+msgstr "Cercetarea vehiculului"
+
+msgid "common/vehicleState/alive"
+msgstr "Rămas în acţiune"
+
+msgid "common/vehicleState/dead0"
+msgstr "Distrus de lovitură"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Distrus de o lovitură ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Distrus de o lovitură ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Distrus de incendiu"
+
+msgid "common/vehicleState/dead12"
+msgstr "Autodistrus"
+
+msgid "common/vehicleState/dead13"
+msgstr "Distruse de abilitatea jucătorului"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Distrus de incendiu ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Distrus de incendiu ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Distrus prin coliziune"
+
+msgid "common/vehicleState/dead27"
+msgstr "Distrus de Lovitura de artilerie"
+
+msgid "common/vehicleState/dead29"
+msgstr "Distrus de coliziune"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Distrus de coliziune ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Distrus de coliziune ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Distrus de coliziune"
+
+msgid "common/vehicleState/dead30"
+msgstr "Distrus de lovitură"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Distrus de o lovitură ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Distrus de o lovitură ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Zdrobit"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Zdrobit ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Zdrobit ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Distrus în zona interzisă"
+
+msgid "common/vehicleState/dead5"
+msgstr "Vehicul scufundat"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Vehicul înecat ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Vehicul înecat ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Distrus de Furtuna de foc"
+
+msgid "common/vehicleState/dead7"
+msgstr "Distrus prin răsturnare"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Distrus prin răsturnare ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Distrus prin răsturnare ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Ieşit înainte de sfârşitul luptei"
+
+msgid "common/vehicleState/victory"
+msgstr "Victorie!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Au mai rămas azi: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Merite obținute în această luptă"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} aliații te-au apreciat în această luptă."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} aliatul te-a apreciat în această luptă."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Aprecieri primite"
+
+msgid "conditions/type/and"
+msgstr "ȘI"
+
+msgid "conditions/type/or"
+msgstr "SAU"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Autocolant \"%(name)s\" de nivelul %(level)s atins."
+
+msgid "customizationProgress/award/received"
+msgstr "Autocolant \"%(name)s\" obținut %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "Autocolant \"%(name)s\" de nivelul %(level)s."
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Profil echipă"
+
+msgid "cyberSport/points"
+msgstr "Puncte:"
+
+msgid "cyberSport/status/lose"
+msgstr "Înfrângere"
+
+msgid "cyberSport/status/tie"
+msgstr "Egal"
+
+msgid "cyberSport/status/win"
+msgstr "Victorie!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Bonus de experiență administrabil"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Coeficient de diminuare (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Auto-alimentare directive"
+
+msgid "details/calculations/autoEquip"
+msgstr "Realimentare automată cu consumabile"
+
+msgid "details/calculations/autoLoad"
+msgstr "Realimentare automată cu muniție"
+
+msgid "details/calculations/autoRepair"
+msgstr "Reparaţii automate"
+
+msgid "details/calculations/autoResupply"
+msgstr "Realimentare automată"
+
+msgid "details/calculations/base"
+msgstr "Ai primit"
+
+msgid "details/calculations/battlePayments"
+msgstr "Venituri din luptă"
+
+msgid "details/calculations/boosters"
+msgstr "Bonus de rezerve personale"
+
+msgid "details/calculations/crystal/events"
+msgstr "Pentru finalizarea de misiuni"
+
+msgid "details/calculations/crystal/total"
+msgstr "Pentru abilitatea specială a vehiculului"
+
+msgid "details/calculations/event"
+msgstr "Recompensă pentru misiuni și evenimente finalizate"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Penalizare pentru inactivitate în luptă"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Penalizare pentru dezertare"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Penalizare pentru dezertare"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Penalizare pentru dezertare"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Penalizare pentru dezertare"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Penalizare pentru inactivitate în luptă"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Penalizare pentru dezertare"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Penalizare pentru autodistrugere intenţionată"
+
+msgid "details/calculations/firstWin"
+msgstr "Pentru prima victorie a fiecărei zile"
+
+msgid "details/calculations/fortOrder"
+msgstr "Bonus pentru rezervele utilizate"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Compensaţii pt. avariile produse de aliaţi"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Penalizare pentru avarierea aliaţilor"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Amendă pentru șocarea sau provocarea de daune aliaților"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Transport de mare capacitate"
+
+msgid "details/calculations/igrBonus"
+msgstr "Recompensă pentru luptă la %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "Bonus IGR"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Total pentru luptă:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Bonus EXP gestionabil"
+
+msgid "details/calculations/maximum"
+msgstr "maxim"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "Pentru manevrele militare"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Experienţă crescută pentru prima victorie din fiecare zi adăugată următoarelor vehicule:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Pentru prima victorie a fiecărei zile"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "Pentru rezistenţă curajoasă"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Bonusul animalului de companie (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Bonusul animalului de companie"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Adăugat la stocul de rezerve"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Bonus de grad"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Bonus pentru folosirea unui vehicul Premium"
+
+msgid "details/calculations/referralBonus"
+msgstr "Bonus recomandare (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Bonus recomandare (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Bonus de recomandare"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "Pentru joc în pluton "
+
+msgid "details/calculations/squadBonus"
+msgstr "Bonus pentru jocul în pluton"
+
+msgid "details/calculations/squadXP"
+msgstr "Pentru jocuri în pluton"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Penalizare pentru pluton necorespunzător"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "Pentru antrenamentul tactic"
+
+msgid "details/calculations/title/base"
+msgstr "Ai primit"
+
+msgid "details/calculations/title/expenses"
+msgstr "Cheltuieli"
+
+msgid "details/calculations/title/total"
+msgstr "Total"
+
+msgid "details/calculations/total"
+msgstr "Total:"
+
+msgid "details/calculations/wotPlus"
+msgstr "Bonus WoT Plus în luptă"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "Bonus WoT Plus în luptă"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "Bonus WoT Plus Pro"
+
+msgid "details/calculations/xpRecord"
+msgstr "Primită (%(color_tag_open)s record %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Obținut (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Credite"
+
+msgid "details/crystal"
+msgstr "Bonduri"
+
+msgid "details/noPrem"
+msgstr "Cont standard"
+
+msgid "details/prem"
+msgstr "Premium Wargaming"
+
+msgid "details/premPlus"
+msgstr "Premium WoT"
+
+msgid "details/resource"
+msgstr "Resurse industriale"
+
+msgid "details/stats"
+msgstr "Statistici"
+
+msgid "details/time"
+msgstr "Timp"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Ora de start"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Zone capturate"
+
+msgid "details/time/lbl_duration"
+msgstr "Durata luptei"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Obiective distruse"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Obiective atinse"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Distrus la momentul"
+
+msgid "details/time/val_no"
+msgstr "Nu"
+
+msgid "details/time/val_yes"
+msgstr "Da"
+
+msgid "details/time/value"
+msgstr "%(min)s min %(sec)s s"
+
+msgid "details/time_epic"
+msgstr "Luptă"
+
+msgid "details/xp"
+msgstr "Experienţă"
+
+msgid "details/xp_abbr"
+msgstr "exp"
+
+msgid "exterminationVictory/allies"
+msgstr "Echipa ta a distrus toate vehiculele inamice"
+
+msgid "exterminationVictory/enemies"
+msgstr "Inamicul a distrus toate vehiculele echipei tale"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Echipa inamică a strâns mai multe puncte de victorie decât echipa ta"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "Inamicul a distrus toate vehiculele echipei tale"
+
+msgid "fallout/classic/lose/points"
+msgstr "Echipa inamică a strâns mai multe puncte de victorie decât echipa ta"
+
+msgid "fallout/classic/tie"
+msgstr "Ambele echipe au strâns un număr egal de puncte de victorie"
+
+msgid "fallout/classic/win/cap"
+msgstr "Echipa ta a adunat mai multe puncte de victorie decât inamicii"
+
+msgid "fallout/classic/win/extermination"
+msgstr "Echipa ta a distrus toate vehiculele inamice"
+
+msgid "fallout/classic/win/points"
+msgstr "Echipa ta a adunat mai multe puncte de victorie decât inamicii"
+
+msgid "fallout/multiteam/ended"
+msgstr "Obiectul nu a fost realizat"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "Pentru a vedea detalii,\nselectează un jucător din listă."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Echipa ta a adunat mai multe puncte de victorie decât inamicii"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Toate detașamentele inamice au fost distruse"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Echipa ta a adunat mai multe puncte de victorie decât inamicii"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "Structura \"%(buildingName)s\" n-a fost cucerită"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "Structura \"%(buildingName)s\" a fost cucerită"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Structura cucerită: \"%(buildingName)s\""
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "Structura \"%(buildingName)s\" a fost cucerită de către inamic"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "Structura \"%(buildingName)s\" n-a fost cucerită"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Structura apărată: \"%(buildingName)s\""
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Rezultatul e calculat pe baza informațiilor rămase despre echipe"
+
+msgid "finish/overtime/lose"
+msgstr "Inamicul nu a fost distrus"
+
+msgid "finish/overtime/win"
+msgstr "Inamic distrus"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Motiv necunoscut."
+
+msgid "finish/reason/10lose"
+msgstr "Obiectivele au supraviețuit"
+
+msgid "finish/reason/10win"
+msgstr "Obiective distruse"
+
+msgid "finish/reason/1lose"
+msgstr "Toate vehiculele aliate distruse"
+
+msgid "finish/reason/1tie"
+msgstr "Toate vehiculele distruse"
+
+msgid "finish/reason/1win"
+msgstr "Toate vehiculele inamice distruse"
+
+msgid "finish/reason/2"
+msgstr "Capturare bază"
+
+msgid "finish/reason/3"
+msgstr "Timpul de luptă a expirat."
+
+msgid "finish/reason/4"
+msgstr "Lupta s-a terminat din cauza unei erori de sistem."
+
+msgid "finish/reason/5"
+msgstr "Înfrângere tehnică"
+
+msgid "finish/reason/8"
+msgstr "Aliat distrus"
+
+msgid "finish/reason/9"
+msgstr "Vehiculul tău a fost distrus"
+
+msgid "garage/uniqueDamage"
+msgstr "Se consideră doar lovitura critică unică."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Selectează perioada"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% la credite și experiență"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "Achiziționează %(prem)s și câștigă %(award)s pentru toate luptele următoare"
+
+msgid "getPremiumPopover/headerText"
+msgstr "Pentru această luptă poți câștiga:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Cont premium"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "Spre cercetare"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Disponibil pentru cercetare"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Lupte rămase (aproximativ): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "DESPRE VEHICUL"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Misiunea #{{name}} finalizată."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "ACADEMIA MILITARĂ"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "MODUL NOU DEBLOCAT!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "VEHICUL NOU DEBLOCAT!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "MISIUNEA ACADEMIEI FINALIZATĂ!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "CAPITOL FINALIZAT!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "ETAPĂ FINALIZATĂ!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "MISIUNEA CREUZET FINALIZATĂ!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "MISIUNE FINALIZATĂ!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "MISIUNE ZILNICĂ FINALIZATĂ!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "NIVELUL ELITĂ MAXIM"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "NIVEL ELITĂ NOU"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "MISIUNE EPICĂ FINALIZATĂ!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "MISIUNEA OPERAȚIUNII FINALIZATĂ!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "MISIUNE PREMIUM FINALIZATĂ!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "MISIUNE SĂPTĂMÂNALĂ FINALIZATĂ!"
+
+msgid "noData"
+msgstr "Ne pare rău, rezultatele luptei nu sunt disponibile."
+
+msgid "personalQuest/bonus/descr"
+msgstr "avansarea la condiția principală în această luptă a fost multiplicată de %(value)s ori."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "multiplicator x%(value)s:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Atenție!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Progresul misiunii a fost resetat. Finalizarea condiției va fi restartată."
+
+msgid "players/enemy/unknown"
+msgstr "Inamici"
+
+msgid "players/teammate/unknown"
+msgstr "Jucător"
+
+msgid "prestige/common/description"
+msgstr "Puncte de elită obținute:"
+
+msgid "prestige/max/description"
+msgstr "Nivelul maxim de elită atins."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Nivelul maxim de elită atins"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Nivel nou de elită atins"
+
+msgid "prestige/title"
+msgstr "Sistemul Elită"
+
+msgid "progression/completed"
+msgstr "Finalizat"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Finalizat:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Clic pentru a vedea informaţiile detaliate."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Finalizat:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Sistemul elită momentan indisponibil. Încearcă mai târziu."
+
+msgid "progression/totalEarned"
+msgstr "Ai obținut în total: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Participă la lupte și primești premii. Cu cât câștigi mai des, cu atât vin premiile mai repede."
+
+msgid "selectVehicle"
+msgstr "Selectare vehicul"
+
+msgid "status/lose"
+msgstr "ÎNFRÂNGERE"
+
+msgid "status/tie"
+msgstr "EGALITATE"
+
+msgid "status/win"
+msgstr "VICTORIE"
+
+msgid "tankSelector/next"
+msgstr "Următorul vehicul"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Sortează după daunele provocate,\ninclusiv cu ajutorul Rezervelor de luptă."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Daune provocate"
+
+msgid "team/damageHeader/body"
+msgstr "Sortare după daunele provocate vehiculelor inamice."
+
+msgid "team/damageHeader/header"
+msgstr "Daune provocate"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Daune provocate"
+
+msgid "team/deaths/body"
+msgstr "Sortează după numărul de vehicule al jucătorului, distruse în luptă."
+
+msgid "team/deaths/header"
+msgstr "Vehicule distruse"
+
+msgid "team/deathsNoSort/header"
+msgstr "Vehicule distruse"
+
+msgid "team/epicRankHeader/body"
+msgstr "Sortează după gradele obținute în luptă."
+
+msgid "team/epicRankHeader/header"
+msgstr "Grad"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Sortează după numărul de intrări în luptă."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Număr de intrări"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Sortează după vehicule inamice distruse,\ninclusiv cu ajutorul Rezervelor de luptă."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Vehicule inamice distruse"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Sortează după numărul de resurse câştigate."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Resurse"
+
+msgid "team/flags/body"
+msgstr "Aranjează conform numărului de steaguri aduse."
+
+msgid "team/flags/header"
+msgstr "Steaguri capturate"
+
+msgid "team/flagsNoSort/header"
+msgstr "Steaguri capturate"
+
+msgid "team/fragHeader/body"
+msgstr "Sortare după numărul de vehicule inamice distruse."
+
+msgid "team/fragHeader/header"
+msgstr "Vehicule inamice distruse"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Vehicule inamice distruse"
+
+msgid "team/healthHeader/body"
+msgstr "Sortare după HP rămase."
+
+msgid "team/healthHeader/header"
+msgstr "Integritate (HP)"
+
+msgid "team/medalHeader/body"
+msgstr "Sortare după numărul de distincţii primite."
+
+msgid "team/medalHeader/header"
+msgstr "Distincţii"
+
+msgid "team/playerHeader/body"
+msgstr "Sortare după numele jucătorilor."
+
+msgid "team/playerHeader/header"
+msgstr "Nume jucător"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Nume"
+
+msgid "team/playerNumber/body"
+msgstr "Sortează după numărul din echipă al jucătorului."
+
+msgid "team/playerNumber/header"
+msgstr "Număr"
+
+msgid "team/rankHeader/body"
+msgstr "Sortează după rang."
+
+msgid "team/rankHeader/header"
+msgstr "Grad"
+
+msgid "team/resourceHeader/body"
+msgstr "Sortare după cantitatea de resurse industriale obţinute."
+
+msgid "team/resourceHeader/header"
+msgstr "Resurse industriale"
+
+msgid "team/squadHeader/body"
+msgstr "Sortare după plutoane."
+
+msgid "team/squadHeader/header"
+msgstr "Pluton"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Pluton"
+
+msgid "team/stats/allies"
+msgstr "Aliați"
+
+msgid "team/stats/close"
+msgstr "Închide"
+
+msgid "team/stats/enemies"
+msgstr "Inamici"
+
+msgid "team/stats/enemyTeam"
+msgstr "Inamici"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Considerate drept asistență:\n• Daunele provocate de aliați în urma descoperirilor tale, distrugerii de șenile cu imobilizare sau provocării de șoc vehiculelor inamice\n• Capturarea bazelor\n• Prima descoperire a vehiculelor inamice."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "Pentru asistență"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Considerate drept contribuţie:\n• Daunele provocate de tine\n• Vehiculele distruse de tine\n• Modulele avariate\n• Bonusul pentru daunele provocate de echipa ta\n• Amenda pentru provocarea de daune sau șocarea aliaților."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "Pentru daune provocate și vehicule distruse"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Bonusuri adiționale pentru angajament efectiv, nespecificat în secțiunile anterioare."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "Pentru urmarea rolului vehiculului"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\tde la Focul de artilerie"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Zone capturate / obiective distruse"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Puncte de cucerire/apărare a bazei"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Puncte de interes capturate"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Daune produse cu ajutorul jucătorului"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Daune provocate cu ajutorul tău"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de acest jucător"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de tine"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Daune blocate de blindaj"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Daune totale:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tInclusiv cu Rezerve personale"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tinclusiv abilități folosite"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tdaune produse echipei adverse"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Vehicule inamice avariate/distruse"
+
+msgid "team/stats/labels_deaths"
+msgstr "Numărul vehiculelor proprii distruse în luptă"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Zone / Obiective apărate"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Numărul de vehicule proprii distruse / recuperate"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\tla obiective"
+
+msgid "team/stats/labels_directHits"
+msgstr "\tlovituri directe"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Lovituri primite"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tîn urma efectelor Rezervelor de Luptă"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tcu rezervele de luptă"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tavarii produse de explozii"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Avarii rezultate din explozii"
+
+msgid "team/stats/labels_flags"
+msgstr "Steaguri aduse"
+
+msgid "team/stats/labels_healed"
+msgstr "Puncte de integritate restaurate (proprii/ale aliaților)"
+
+msgid "team/stats/labels_hits"
+msgstr "\tlovituri directe/cu penetrare"
+
+msgid "team/stats/labels_killed"
+msgstr "Vehicule inamice distruse"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tInclusiv cu Rezerve personale"
+
+msgid "team/stats/labels_mileage"
+msgstr "Distanţă parcursă (km)"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tlovituri fără penetrare"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tlovituri cu penetrare"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tlovituri cu penetrare"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Abilități de rol utilizate"
+
+msgid "team/stats/labels_shots"
+msgstr "Focuri trase"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\tde la o distanţă mai mare de 300 de metri"
+
+msgid "team/stats/labels_spotted"
+msgstr "Inamici detectaţi"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Durata totală a şocurilor provocate, s"
+
+msgid "team/stats/labels_stunNum"
+msgstr "Șocuri provocate"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Daune produse aliaţilor (distruşi/HP)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Număr de vehicule distruse"
+
+msgid "team/stats/labels_xp"
+msgstr "Experiență totală obținută"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tpentru asistență"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tpentru provocare de daune și distrugeri"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tpentru urmarea rolului vehiculului"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Aliați"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "de la Lovitură de artilerie"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Puncte de cucerire/apărare a bazei"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Daune produse cu ajutorul jucătorului"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Daune provocate cu ajutorul tău"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de acest jucător"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de tine"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Daune blocate de blindaj"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Daune totale"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Vehicule inamice avariate/distruse"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Lovituri primite"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "daune indirecte"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Avarii rezultate din explozii"
+
+msgid "team/stats/parameter/hits"
+msgstr "lovituri directe/penetrări"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Distanţă parcursă (km)"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "non-penetrare"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "penetrări"
+
+msgid "team/stats/parameter/shots"
+msgstr "Focuri trase"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "de la o distanţă mai mare de 300 de metri"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Inamici detectaţi"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Durata totală a şocurilor provocate, s"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Șocuri provocate"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Daune produse aliaţilor (distruşi/HP)"
+
+msgid "team/tankHeader/body"
+msgstr "Sortare după poziţia în panoul echipei"
+
+msgid "team/tankHeader/header"
+msgstr "Vehicule"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Influenţă câştigată de detaşament: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Resurse Industriale obţinute de către detaşament: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Sortează după numărul de puncte de victorie realizate."
+
+msgid "team/teamScore/header"
+msgstr "Puncte de victorie echipă"
+
+msgid "team/victoryScore/body"
+msgstr "Sortează după numărul de puncte de victorie realizate."
+
+msgid "team/victoryScore/header"
+msgstr "Puncte de victorie jucător"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Puncte de victorie jucător"
+
+msgid "team/xpHeader/body"
+msgstr "Sortare după EXP"
+
+msgid "team/xpHeader/header"
+msgstr "Experienţă"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Experienţă"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Puncte de victorie câştigate"

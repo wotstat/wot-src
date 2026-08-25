@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Izradite taktičku jedinicu od 2 do 5 igrača za suradnju u\nPosljednjem uporištu."
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Vod"
+
+msgid "members/header/last_stand"
+msgstr ": Posljednje uporište: Terra Nord"
+
+msgid "members/header/tooltip/last_stand/body"
+msgstr "Za ulazak u bitku akcije svi članovi voda moraju imati pristup razini težine koju je odabrao zapovjednik."
+
+msgid "members/header/tooltip/last_stand/header"
+msgstr "Pravila za stvaranje voda"
+
+msgid "platoon/commander/difficulty_body"
+msgstr "Možete odabrati bilo koju dostupnu razinu težine."
+
+msgid "platoon/difficulty/error_body_1"
+msgstr "Dostupne razine težine: regularna."
+
+msgid "platoon/difficulty/error_body_2"
+msgstr "Dostupne razine težine: regularna, napredna."
+
+msgid "platoon/difficulty/error_header"
+msgstr "Nedostupna težina"
+
+msgid "platoon/difficulty/level_1"
+msgstr "Težina: regularna"
+
+msgid "platoon/difficulty/level_2"
+msgstr "Težina: napredna"
+
+msgid "platoon/difficulty/level_3"
+msgstr "Težina: brutalna"
+
+msgid "platoon/difficulty/level_4"
+msgstr "Težina: Posljednje uporište"
+
+msgid "platoon/difficulty/lock_header"
+msgstr "Razina težine zaključana"
+
+msgid "platoon/difficulty/maxAvailable"
+msgstr "Dostupna težina {%(icon)s}"
+
+msgid "platoon/difficulty/warning_body"
+msgstr "Jedan ili više članova voda nisu otključali ovu razinu težine."
+
+msgid "platoon/difficulty/warning_header"
+msgstr "Nekompatibilna težina"
+
+msgid "platoon/dropdown/difficulty_1"
+msgstr "Regularna %(icon)s"
+
+msgid "platoon/dropdown/difficulty_2"
+msgstr "Napredna %(icon)s"
+
+msgid "platoon/dropdown/difficulty_3"
+msgstr "Brutalna %(icon)s"
+
+msgid "platoon/dropdown/header/difficulty"
+msgstr "{whiteSpanish_Open}Težina: {whiteSpanish_Close}%(difficulty)s"
+
+msgid "platoon/player/difficulty_body"
+msgstr "Samo zapovjednik voda može promjeniti razinu težine."
+
+msgid "platoon/simpleState/difficultyDisabled"
+msgstr "Nedostupno iz tehničkih razloga."
+
+msgid "platoon/simpleState/lockVehicle"
+msgstr "Odabrano vozilo nije dostupno."
+
+msgid "platoon/simpleState/notAvailableLevel"
+msgstr "Nekompatibilna razina težine za vod."

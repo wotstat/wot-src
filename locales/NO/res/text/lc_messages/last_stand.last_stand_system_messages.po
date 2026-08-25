@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Taktisk enhet"
+
+msgid "open_artefact/server_error"
+msgstr "Handlingen er midlertidig utilgjengelig. Prøv igjen senere."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Kunne ikke etterforsyne taktiske enheter på %s. Teknisk feil."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Klarte ikke å etterforsyne taktiske enheter til %s. Manglende midler."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Taktiske enheter for %s er etterforsynt. Du har brukt "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Mapper klare til dekryptering"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modus: Last Stand: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Last Stand: Terra Nord (Vanlig)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Last Stand: Terra Nord (Høy)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Last Stand: Terra Nord (Brutal)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Vanskelighetsgrad"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Vanlig"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Høy vanskelighetsgrad"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutal"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Data"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Målsetning nådd!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Målsetninger nådd!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Kjøretøy"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Fullførte bølger: %(curPhase)s av %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Brukt %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finansiell overføring"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Du kan velge vanskelighetsgrad på vanskelighetsgradspanelet i garasjen til Last Stand."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Vanskelighetsgraden Høy åpnet"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Du kan velge vanskelighetsgrad på vanskelighetsgradspanelet i garasjen til Last Stand."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Vanskelighetsgraden Brutal er åpnet"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Du kan velge vanskelighetsgraden i garasjen til Last Stand: Operation Pandora."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Last Stand modusen åpnet"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Mottatte dekrypteringsnøkler: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Kvittering"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Nøkler fjernet: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Vellykket dekryptering"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Kamper i Last Stand er midlertidig utilgjengelig.\nPrøv igjen senere."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Kamper med vanskelighetsgrad %(difficulty)s er midlertidig utilgjengelig. Prøv igjen senere."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Last Stand er ikke tilgjengelig nå. Sjekk nettsidene for spillet for oppdatert informasjon."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Troppskommandøren har endret vanskelighetsgrad til: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Spilleren %(userName)s har ikke låst opp en av vanskelighetsgradene."

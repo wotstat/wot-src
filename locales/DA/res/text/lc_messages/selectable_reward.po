@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "error/button"
+msgstr "Bekræftet!"
+
+msgid "error/description"
+msgstr "Informationen er midlertidigt utilgængelig. Vi beklager ulejligheden. Prøv igen senere."
+
+msgid "error/title"
+msgstr "Kan ikke åbne valg af belønning"
+
+msgid "footer/closeBtn/label"
+msgstr "Vælg senere"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Vælg belønning fra de angivne kategorier."
+msgstr[1] "Vælg belønninger fra de angivne kategorier."
+msgstr[2] "Vælg belønninger fra de angivne kategorier."
+
+msgid "footer/okBtn/label"
+msgstr "Modtag"
+
+msgid "footer/rewardsSelected"
+msgstr "Belønninger modtaget:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Vælg belønning fra den angivne kategori."
+msgstr[1] "Vælg belønninger fra den angivne kategori."
+msgstr[2] "Vælg belønninger fra den angivne kategori."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Grænse nået"
+
+msgid "reward/state_received"
+msgstr "Allerede modtaget"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Grænsen på valgte ting fra denne kategori er nået. Du kan afbryde valget af én ting for at tilføje en anden."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Grænse nået"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Direktiver\nfor udstyr"
+
+msgid "tabs/items/battle_booster"
+msgstr "Udstyrsdirektiver"
+
+msgid "tabs/items/blueprint"
+msgstr "Plantegningsfragmenter"
+
+msgid "tabs/items/brochure"
+msgstr "Træningsbrochure"
+
+msgid "tabs/items/crewbook"
+msgstr "Træningsmanual"
+
+msgid "tabs/items/deluxe"
+msgstr "Forbedret udstyr"
+
+msgid "tabs/items/expequipments"
+msgstr "Eksperimentelt\nudstyr"
+
+msgid "tabs/items/guide"
+msgstr "Træningsguide"
+
+msgid "tabs/items/modernized_device"
+msgstr "Eksperimentelt udstyr"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Eksperimentelt udstyr, niveau 1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Eksperimentelt udstyr, niveau 2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Eksperimentelt udstyr, niveau 3"
+
+msgid "tabs/items/new_device"
+msgstr "Standard udstyr"
+
+msgid "tabs/items/trophy"
+msgstr "Erobret udstyr"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Klik på Modtag-knappen for at modtage de valgte belønninger."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Belønninger valgt: %(white_open)s%(count)s%(white_close)s"

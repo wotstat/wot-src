@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "notifications/count"
+msgstr "×{count}"
+
+msgid "notifications/manualClaim/button"
+msgstr "Saņemt Balvas"
+
+msgid "notifications/manualClaim/title"
+msgstr "Tevi gaida balvas par taviem Kalpošanas gadiem!"
+
+msgid "notifications/selectVehicles/button"
+msgstr "Izvēlēties"
+
+msgid "notifications/selectVehicles/title"
+msgstr "Tanks pieejams par\nKalpošanas gadiem"
+
+msgid "notifications/tokens/button"
+msgstr "Uz Veikalu"
+
+msgid "notifications/tokens/title"
+msgstr "Apmaini savus Kalpošanas gadu tokenus pret balvām!"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "Izvēlieties tehniku, kuru vēlaties!"
+
+msgid "rewardsView/applyBtn"
+msgstr "Sapratu!"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "Iemainiet jūsu Tokenus pret balvām Veikalā."
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "Skatīt Garāžā"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "Uz Veikalu"
+
+msgid "rewardsView/info"
+msgstr "Vairāk par rangiem"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "Vairāk Balvas!"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "Vairāk atlīdzību! ({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "{{count}} tanks pieejams par kalpošanas gadiem"
+
+msgid "rewardsView/selection/received"
+msgstr "BALVA SAŅEMTA"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "Jūs arī saņēmāt:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "REKRŪTĒT"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "KAROTĀJS"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "KOMANDIERIS"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "VIRSNIEKS"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "VETERĀNS"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "LEĢENDA"
+
+msgid "rewardsView/subTitle/text"
+msgstr "{rank} RANGS IEGŪTS"
+
+msgid "rewardsView/textButton/select"
+msgstr "Izvēlēties"
+
+msgid "rewardsView/title"
+msgstr "APSVEICAM!"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "×%(count)s"
+
+msgid "specialItem/body"
+msgstr "Apbalvots par kaujas nopelniem. Pēc pasākuma beigām, visi atlikušie Tokeni tiks noņemti."
+
+msgid "specialItem/header"
+msgstr "Tokens par Kalpošanas gadiem: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "Apsveicam ar Rekruta ranga iegūšanu"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "Apsveicam ar Karotāja ranga iegūšanu"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "Apsveicam ar Komandiera ranga iegūšanu"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "Apsveicam ar Virsnieka ranga iegūšanu"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "Apsveicam ar Veterāna ranga iegūšanu"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "Apsveicam ar Leģendas ranga iegūšanu"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel} un {yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "Par piedalīšanos Alfa Testā"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "Par piedalīšanos Beta Testā"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "{{count}} kalpošanas gads"
+msgstr[1] "{{count}} kalpošanas gadi"
+msgstr[2] "{{count}} kalpošanas gadi"
+
+msgid "tooltip/rank/ctg1"
+msgstr "Rekrūtis"
+
+msgid "tooltip/rank/ctg2"
+msgstr "Kareivis"
+
+msgid "tooltip/rank/ctg3"
+msgstr "Komandieris"
+
+msgid "tooltip/rank/ctg4"
+msgstr "Virsnieks"
+
+msgid "tooltip/rank/ctg5"
+msgstr "Veterāns"
+
+msgid "tooltip/rank/ctg6"
+msgstr "Leģenda"
+
+msgid "tooltip/segment/ctg1"
+msgstr "Mazāk nekā viens gads"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1-3 gadi"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4-6 gadi"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7-9 gadi"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10-14 gadi"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15 gadi"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "Leģendārs vieglais tanks ar lielisku manevrēšanas spēju. Tanks rada pienācīgus bojājumus minūtē, un tam ir labi pazemināšanas un pacelšanas leņķi, kas ļauj cīņā izmantot reljefa nelīdzenumus."
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "Šis tanks ir bruņots ar augsta kalibra ieroci, un tam ir jaukas bruņas, lai gan tas ietekmē tā dinamiku un manevrētspēju. Tanks ir nedaudz neveikls, kas padara to ārkārtīgi efektīvu, taranējot viegli bruņotus tankus."
+
+msgid "vehicle/R160_T_50_2"
+msgstr "Viegls tanks, kas lieliski piemērots aktīvai izlūkošanai visos kaujas posmos. Tā mazais siluets un lielais ātrums ļauj izvairīties no šāvieniem, kas ir ārkārtīgi svarīgi, ņemot vērā tā pieticīgo uguns spēku."
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "Šis ir vienīgais tanks savā līmenī ar apgrieztu automātisko lādētāju. Tas ir vislabākais, ja nodara sprādziena bojājumus pretinieka tankiem vai sniedz atbalsta uguni sabiedrotajiem."

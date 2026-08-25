@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "main/backText"
+msgstr "TIL KLAN DETALJER"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "For at fuldføre missioner optjener du Duty-point, der skal bruges til at udforske nye regioner."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Duty-point"
+
+msgid "main/infoPageButtonLabel"
+msgstr "OM TOUR OF DUTY"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "Handlingen er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Opdater"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Vi beklager den midlertidige ulejlighed."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Fejl i indlæsning af data"
+
+msgid "progressionPage/header/heading"
+msgstr "TOUR OF DUTY"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "TOUR OF DUTY ER SLUT"
+
+msgid "progressionPage/header/subheading"
+msgstr "Optjen Duty-point ved at fuldføre klanmissioner. Duty-point bruges til at udforske nye regioner og få værdifulde belønninger. Ved slutningen af hver Tour, kan du modtage et niveau X køretøj."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Køretøjet %(vehicle)s modtaget"
+
+msgid "progressionPage/loading"
+msgstr "Indlæser indhold..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Udforsk den forrige forbundne region."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Region allerede udforsket"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Belønning optjent:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Udforsk den forrige forbundne region."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Kan ikke udforske region"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Fejl i indlæsning af data"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Udforsk region"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "%(value)s yderligere Duty-point skal bruges til at udforske regionen."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Kan ikke udforske region"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Udforsk den forrige forbundne region."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Kan ikke udforske region"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Modtag belønning"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Indlæser indhold..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Venter på belønningen bliver tilføjet..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Opdater"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "BELØNNING FOR AT UDFORSKE REGION:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "BELØNNING MODTAGET:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Preview"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Opdater"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Vi beklager den midlertidige ulejlighed."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Fejl i indlæsning af data"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Modtag belønning"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Til klan autosøgning"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Gå med i en klan for at fuldføre missioner og modtage belønningen."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Missionsfremskridt sat på pause. Modtag din belønning for at fortsætte: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "TOUR-MISSIONER"
+
+msgid "questsPage/header/subheading"
+msgstr "Fuldfør missioner og optjen belønninger. Den anden og tredje mission kan kun fuldføres i en deling/gruppe med et klanmedlem."
+
+msgid "questsPage/loading"
+msgstr "Indlæser indhold..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "I niveau VIII–XI køretøjer, optjen mindst {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} base xp i en kamp, mens du spiller i en deling, eller vind en kamp i en gruppe."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "I niveau VI–XI køretøjer, optjen mindst {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} base xp i en kamp, eller vind en kamp i en gruppe."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "I niveau VIII–XI køretøjer, ødelæg {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} fjendtlige køretøjer i en kamp, mens du spiller i en deling, eller vind en kamp i en gruppe."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "I niveau VI–XI køretøjer, ødelæg {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} fjendtlige køretøjer i en kamp, eller vind en kamp i en gruppe."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "I niveau VIII–XI køretøjer, uddel eller hjælp med at uddele {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} hp skade, mens du spiller i en deling, eller vind en kamp i en gruppe."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "I niveau VI–XI køretøjer, uddel eller hjælp med at uddele {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} hp skade i en kamp, eller vind en kamp i en gruppe."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Industriel ressource"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Duty-point"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Du kan modtage belønningen"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Belønning modtaget"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Utilgængelig"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Belønningen vil snart blive tilføjet din konto."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Modtag belønninger for at fuldføre de forrige missioner."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Fuldfør den forrige mission."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Mission utilgængelig"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Tid tilbage til at indsamle Duty-point"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "For at fuldføre missioner optjener du Duty-point, der skal bruges til at udforske nye regioner."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Duty-point"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Du modtog også:"
+
+msgid "rewardsView/button/close"
+msgstr "LUK"
+
+msgid "rewardsView/button/confirm"
+msgstr "Bekræftet!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Vis i garagen"
+
+msgid "rewardsView/heading"
+msgstr "BELØNNINGER MODTAGET"
+
+msgid "rewardsView/style/317"
+msgstr "Flamme 2D-stil"
+
+msgid "rewardsView/style/345"
+msgstr "Profeti 2D-stil"
+
+msgid "rewardsView/style/435"
+msgstr "Gengældelse 2D-stil"
+
+msgid "rewardsView/style/436"
+msgstr "Manden med leen 2D-stil"
+
+msgid "rewardsView/subheading"
+msgstr "TOUR OF DUTY"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Tour of Duty-fremskridt"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Fremskridt i Tour-missioner"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Tour of Duty"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Tour-missioner"

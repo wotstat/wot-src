@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "Synsrekkevidde vil bli økt med {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} i {colorTagOpen}%(duration)s s{colorTagClose}.\n\nTidtakeren nullstilles når et fiendtlig kjøretøy blir bekjempet etter din oppdagelse."
+
+msgid "comp7_aggressive_detection/name"
+msgstr "Aktiv rekognosering"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "I {colorTagOpen}%(duration)s s{colorTagClose} får din besetning en {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonus på effektiviteten for hvert kjøretøy på laget ditt med ulik rolle.\n\nDitt kjøretøy vil alltid være inkludert i kalkuleringen av denne bonusen."
+
+msgid "comp7_ally_support/name"
+msgstr "En for alle"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "I {colorTagOpen}%(duration)s s{colorTagClose} opprettes et område med en radius på {colorTagOpen}%(radius)s m{colorTagClose} rundt ditt kjøretøy som gjenoppretter {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} helsepoeng for ditt og dine alliertes kjøretøy."
+
+msgid "comp7_aoe_heal/name"
+msgstr "Feltreparasjoner"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "I {colorTagOpen}%(duration)s s{colorTagClose}, får din og dine alliertes besetning en {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonus på effektivitet."
+
+msgid "comp7_aoe_inspire/name"
+msgstr "Inspirér"
+
+msgid "comp7_berserk/descr/active"
+msgstr "I {colorTagOpen}%(duration)s s{colorTagClose} reduseres kanonens ladetid med {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. I tillegg blir skuddspredning etter avfyrt skudd, under bevegelse og ved tårn og skrogdreining redusert med {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nTidtakeren blir nullstilt når du forårsaker skade ved kollisjon eller med skudd på en avstand på mindre enn {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_berserk/name"
+msgstr "Fury"
+
+msgid "comp7_concentration/descr/active"
+msgstr "I {colorTagOpen}%(duration)s s{colorTagClose}, blir siktetid og skuddspredning etter avfyrt skudd under bevegelse og skrog og tårndreining redusert med {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nMens denne rolleferdigheten er aktivert, blir ladetiden mellom skudd redusert med {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_concentration/name"
+msgstr "Fokus på målet"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• Til magasinladesystem:\nDen gjenværende magasinladetiden reduseres med: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• For et autoladesystem:\nAlle avfyrte granater i den inneværende syklusen blir ladet på nytt {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} raskere\n\nFerdigheten kan kun aktiveres i selve ladeprosessen.\n\n• For overopphetingskonteroll på autokanon:\nKononoppvarming reduseres med {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} av dets mulig maksimale.\n\nFerdigheten kan kun aktiveres dersom kanonen er oppvarmet."
+
+msgid "comp7_fast_recharge/name"
+msgstr "Fingerferdighet"
+
+msgid "comp7_hunter/descr/active"
+msgstr "Nullstiller antall fiendtlige kjøretøy skadd av skudd.\n\nDitt kjøretøy vil gjenopprette {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} helsepoeng for hvert fiendtlige kjøretøy som er skadd av et skudd i det øyeblikket den aktiveres i {colorTagOpen}%(duration)s s{colorTagClose}."
+
+msgid "comp7_hunter/descr/passive"
+msgstr "Ladetiden for kanonen reduseres med {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} for hvert fiendtlige kjøretøy som er skadd av et skudd."
+
+msgid "comp7_hunter/name"
+msgstr "Skuddpremiejeger"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "I {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• Innkommende skade blir redusert med {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Toppfart fremover økes med {colorTagOpen}%(fwMaxSpeedBonus)s km/t{colorTagClose}\n• Toppfart revers økes med {colorTagOpen}%(bkMaxSpeedBonus)s km/t{colorTagClose}\n• Motorkraft økes med {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Skade fra kollisjon med fiendtlige kjøretøy økes med {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nNår denne rolleferdigheten er aktivert, blir beltene dine ødelagt av et enkeltskudd."
+
+msgid "comp7_juggernaut/name"
+msgstr "Juggernaut"
+
+msgid "comp7_march/descr/active"
+msgstr "Ditt kjøretøys motorkraft vil øke med {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, dens toppfart fremover vil øke med {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/t, og dets skjuleevne vil øke med {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose} i {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}."
+
+msgid "comp7_march/name"
+msgstr "Tvungen marsj"
+
+msgid "comp7_recon/descr/active"
+msgstr "Et rekognoseringsfly flyr over det valgte området innen {colorTagOpen}%(delay)s s{colorTagClose}. Fiendtlige kjøretøy oppdaget innenfor en radius på {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} forblir synlige i {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose}. Et eget ikon vises for en spiller som oppdages med denne ferdigheten med {colorTagOpen}%(lampDelay)s s{colorTagClose} forsinkelse.\n\nDenne ferdigheten blir tilgjengelig for bruk {colorTagOpen}%(startupDelay)s s{colorTagClose} etter at kampen har begynt."
+
+msgid "comp7_recon/name"
+msgstr "Rekognoseringstur"
+
+msgid "comp7_redline/descr/active"
+msgstr "Det valgte området vil bli angrepet av et artilleriangrep innen {colorTagOpen}%(delay)s s{colorTagClose}.\n\nMålene som blir skadd innenfor en radius på {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} får {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} helsepoeng i skade og vil bli sjokket i {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_redline/name"
+msgstr "Ilddekning"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "Aksellerasjon\n\nMotorkraften økes i {colorTagOpen}%(duration)s s{colorTagClose} med {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, toppfarten fremover økes med {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/t, og toppfart revers økes med {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/t.\n\nGjenopprettelse\n\nI {colorTagOpen}%(healDuration)s s{colorTagClose} gjenoppretter ditt kjøretøy {colorTagOpen}%(baseHeal)s{colorTagClose} helsepoeng {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} av helsepoeng som ble tapt mens Aksellerasjon er aktiv."
+
+msgid "comp7_risky_attack/name"
+msgstr "Andre sjanse"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\nI begynnelsen av en kamp er ladenivået for rolleferdigheten{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_sniper/descr/active"
+msgstr "I {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, er skuddspredning på 100 m lik {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nDersom ditt kjøretøy ikke har blitt oppdaget i skuddøyeblikket, vil skaden som forårsakes av din granat øke med {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nTidtakeren blir nullstilt for skade forårsaket av skudd på avstander på mer enn {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_sniper/name"
+msgstr "Midt i blinken"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "Kanonspredning etter skudd under bevegelse og under skrog- og tårndreining reduseres med {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose} i {colorTagOpen}%(duration)s s{colorTagClose}.\n\nMens denne ferdigheten er aktiv vil skade etter skudd redusere ladetiden med {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} av prosentsatsen som de fiendtlige kjøretøyenes helsepoeng har blitt redusert med.\n\nBekjempelse av et fiendtlig kjøretøy reduserer kanonens ladetid med {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_sure_shot/name"
+msgstr "Rent skudd"

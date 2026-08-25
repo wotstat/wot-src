@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Suche abbrechen"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Hier klicken, um die Suche nach Mitgliedern für den Zug abzubrechen."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Neuer Zug"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Erstellen Sie einen Zug, um Freunde zum gemeinsamen Spiel einzuladen."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Neuer Super-Zug"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Spieler finden"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Finden Sie über die Suchfilter Spieler mit ähnlicher Spielstärke und vergleichbaren Fahrzeugen."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Wenn Sie online nach Spielern suchen, werden alle Einladungen an Freunde abgebrochen."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Spieler finden"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Suche nach Spielern nicht möglich: Zu viele Züge auf dem Server."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Suche nach Spielern für den Zug nicht möglich: Keine passenden Fahrzeuge."
+
+msgid "buttons/invite/player/caption"
+msgstr "Spieler einladen"
+
+msgid "buttons/invite/player/description"
+msgstr "Klicken Sie hier, um einen Spieler in einen Zug einzuladen."
+
+msgid "buttons/invite/players/caption"
+msgstr "Spieler einladen"
+
+msgid "buttons/invite/players/description"
+msgstr "Klicken Sie hier, um Spieler in einen Zug einzuladen."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Zug verlassen"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Klicken Sie hier, um den Zug zu verlassen."
+
+msgid "buttons/mute/caption"
+msgstr "Sprachchat im Zug deaktiveren"
+
+msgid "buttons/mute/description"
+msgstr "Kicken Sie hier, um den Sprachchat im Zug zu deaktivieren."
+
+msgid "buttons/notReady/caption"
+msgstr "Nicht bereit"
+
+msgid "buttons/notReady/description"
+msgstr "Klicken Sie hier, wenn Sie noch nicht gefechtsbereit sind."
+
+msgid "buttons/ready/caption"
+msgstr "Bereit!"
+
+msgid "buttons/ready/description"
+msgstr "Klicken Sie hier, wenn Sie gefechtsbereit sind."
+
+msgid "buttons/reset/caption"
+msgstr "Sucheinstellungen zurücksetzen"
+
+msgid "buttons/reset/description"
+msgstr "Klicken Sie hier, um die Sucheinstellungen auf den Standard zurückzusetzen."
+
+msgid "buttons/settings/caption"
+msgstr "Sucheinstellungen wählen"
+
+msgid "buttons/settings/description"
+msgstr "Suchen Sie nach Spielern, die Ihren Einstellungen entsprechen. Je länger keine Spieler gefunden werden, desto länger wird die Suche ausgedehnt."
+
+msgid "buttons/unMute/caption"
+msgstr "Sprachchat im Zug einschalten"
+
+msgid "buttons/unMute/description"
+msgstr "Kicken Sie hier, um den Sprachchat im Zug zu aktivieren."
+
+msgid "headerButton/inSquad"
+msgstr "Im Zug"
+
+msgid "headerButton/onboarding"
+msgstr "SIE KÖNNEN JETZT NACH SPIELERN\nFÜR EINEN ZUG SUCHEN"
+
+msgid "headerButton/searching"
+msgstr "Suche …"
+
+msgid "headerButton/squad"
+msgstr "Zug erstellen"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Ziehen Sie mit einem Freund im Zug ins Gefecht. Spielen Sie als Team gegen neun gegnerische Züge."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Zug"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Sie können keinen Zug erstellen und keinem Zug beitreten, weil Sie vorübergehend aus diesem Modus ausgeschlossen sind."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Sie können keinen Zug erstellen und keinem Zug beitreten, weil Sie mindestens ein für diesen Modus geeignetes Fahrzeug der Stufe %(level)s in Ihrer Garage haben müssen."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "Das Erstellen von Zügen ist vorübergehend nicht verfügbar."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Züge nicht verfügbar"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Sie können einen Zug erstellen oder einem bestehenden Zug beitreten. Im Modus „Ansturm Light“ können Züge aus 2 oder 7 Spielern bestehen."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Zug"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Sie können keinen Zug erstellen und keinem Zug beitreten, weil Sie kein geeignetes Fahrzeug der Stufe %(level)s in Ihrer Garage haben."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "Nach Abschluss der Qualifikation werden Züge mit 2 oder 7 Spielern verfügbar."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Zugerstellung nicht möglich."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Züge nicht verfügbar"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Sie können einen Zug erstellen oder einem bestehenden Zug beitreten. Im Modus „Ansturm“ können Züge aus 2 oder 7 Spielern bestehen."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Zug"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Erstellen Sie eine taktische Einheit aus 2 oder 3 Spielern zum gemeinsamen Spiel.\n• Gefechtsmodi: Verwüstung.\n• Gefechtstypen: Stählerne Jagd, Herrschaft."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Zug"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Erstellen Sie eine taktische Einheit aus 2 oder 3 Spielern, um am Großen Rennen teilzunehmen."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Großes-Rennen-Zug"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Klicken Sie hier, um das Zugmenü zu öffnen."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Späheinsatz: Zug"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Klicken Sie hier, um das Zugmenü zu öffnen."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Zug"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Erstellen Sie einen Zug von 2 oder 3 Spielern, um am Späheinsatz teilzunehmen."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Späheinsatz: Zug"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "Taktische Einheiten sind in gewerteten Gefechten nicht erlaubt."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Zug erstellen"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "Suche nach Spielern ..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Suche"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Erstellen Sie eine taktische Einheit aus 2 oder 3 Spielern, die in Zufallsgefechten und Frontlinie (wenn verfügbar) zusammenarbeiten."
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Zug"
+
+msgid "members/card/connectionLost"
+msgstr "Verbindung unterbrochen"
+
+msgid "members/card/disabled"
+msgstr "Dieser Modus unterstützt nur Züge aus zwei Spielern"
+
+msgid "members/card/disabledVertical"
+msgstr "In diesem Modus nicht verfügbar"
+
+msgid "members/card/empty"
+msgstr "Leerer Platz"
+
+msgid "members/card/inBattle"
+msgstr "Im Gefecht"
+
+msgid "members/card/muted/caption"
+msgstr "Spieler stummgeschaltet"
+
+msgid "members/card/muted/description"
+msgstr "Klicken Sie mit der rechten Maustaste, um die Stummschaltung des Spielers aufzuheben."
+
+msgid "members/card/notReady"
+msgstr "Nicht bereit"
+
+msgid "members/card/searching"
+msgstr "Suche nach Spieler ..."
+
+msgid "members/card/selectVehicle"
+msgstr "Fahrzeug der Stufe %(level)s wählen"
+
+msgid "members/chat/chatName"
+msgstr "Chat-Kanal:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Klicken Sie hier, um eine Nachricht im Chatkanal zu senden."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Nachricht senden"
+
+msgid "members/footer/comp7Invite"
+msgstr "Einladen"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Höchstmöglicher Rang"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Höchster Rang im Zug"
+
+msgid "members/footer/getNotReady"
+msgstr "Klicken Sie hier, um anzuzeigen, dass Sie nicht bereit sind."
+
+msgid "members/footer/getReady"
+msgstr "Bestätigen Sie Ihre Gefechtsbereitschaft."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Stufe nicht kompatibel"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Erfahrungsstrafe für unangemessene Zugzusammenstellung!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Fahrzeuglimit erreicht"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "Der Zug hat die Höchstzahl an Jagdpanzern erreicht"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "Der Zug hat die Höchstzahl an Selbstfahrlafetten erreicht"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "Der Zug hat die Höchstzahl an schweren Panzern erreicht"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "Der Zug hat die Höchstzahl an mittleren Panzern erreicht"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "Der Zug hat die Höchstzahl an leichten Panzern erreicht"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "Der Zug hat die Höchstzahl an Radfahrzeugen erreicht"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "Der Zug hat die Höchstzahl an leichten Panzern erreicht"
+
+msgid "members/header/battle_royal"
+msgstr ": Stählerner Jäger"
+
+msgid "members/header/epic"
+msgstr ": Frontlinie"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: Projekt Hyperion"
+
+msgid "members/header/mapbox"
+msgstr ": Späheinsatz"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Zufallsgefecht"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "Frontlinie ist nur für Fahrzeuge\nder Stufe VIII verfügbar."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Regeln für Zugerstellung"
+
+msgid "members/header/tooltip/event/body"
+msgstr "Der Zug muss aus drei Spezialfahrzeugen des Modus bestehen."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Regeln für Zugerstellung"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "Der Zug sollte aus Fahrzeugen derselben Stufe bestehen."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Regeln für Zugerstellung"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Spieler im Zug"
+
+msgid "searching/estimated/caption"
+msgstr "Geschätzte Zeit"
+
+msgid "searching/estimated/lessThan"
+msgstr "weniger als %(seconds)d Sek."
+
+msgid "searching/estimated/moreThan"
+msgstr "mehr als %(seconds)d Sek."
+
+msgid "searching/expanded/body"
+msgstr "Keine Spieler entsprechen den ursprünglichen Einstellungen.\nSuche wurde auf andere Fahrzeugstufen ausgeweitet."
+
+msgid "searching/expanded/header"
+msgstr "Sucheinstellungen ausgeweitet"
+
+msgid "searching/lookingFor"
+msgstr "Suche nach:"
+
+msgid "searching/playersInQueue"
+msgstr "Spieler in Warteschlange"
+
+msgid "searching/state"
+msgstr "Suche:"
+
+msgid "settings/tiers"
+msgstr "Bevorzugte Fahrzeugstufe"
+
+msgid "settings/voice"
+msgstr "Spieler mit Sprachchat bevorzugen"
+
+msgid "squad"
+msgstr "Zug"

@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "uguns spēks"
+
+msgid "categories/mobility"
+msgstr "mobilitāte"
+
+msgid "categories/stealth"
+msgstr "izlūkošana"
+
+msgid "categories/survivability"
+msgstr "izdzīvošanas spēja"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Tieši tā!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Nebūt ne!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Pēc modifikāciju atcelšanas, jūs varēsiet pirkt tās atkal izmantojot kredītus."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Pēc modifikāciju atcelšanas, jūs varēsiet pirkt tās atkal."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Atcelt visas Dubultās Modifikācijas par brīvu?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Pēc modifikācijas atcelšanas, jūs varēsiet pirkt to atkal izmantojot kredītus."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Pēc modifikācijas atcelšanas, jūs varēsiet pirkt to atkal."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Atcelt %(modification)s Dubulto Modifikāciju par brīvu?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "PIRKT MODIFIKĀCIJAS"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "IZVĒLĒTIES VIETAS KATEGORIJU"
+
+msgid "hint/entryPoint"
+msgstr "MODIFIKĀCIJAS PIEEJAMAS"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "NOKLIKŠĶINIET, LAI MAINĪTU\nPAPILDUS KOMPLEKTU"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "NOKLIKŠĶINIET, LAI MAINĪTU\nBŪTISKO KOMPLEKTU"
+
+msgid "hint/vehiclePreview"
+msgstr "IZMAIŅAS TANKA ĪPAŠĪBĀM"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Tieši tā!"
+
+msgid "postProgressionIntro/title"
+msgstr "LAUKA MODIFIKĀCIJA"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Īpaša Modifikācija %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Noklikšķiniet, lai skatītu izmaiņas tanka īpašībām pēc Līmeņa sasniegšanas un izceltu pielietotās modifikācijas."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Dubulta Modifikācija %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Lauka Modifikācijas Līmenis"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Pieejams pēc tanka pirkšanas"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Pieejams pēc Elites status iegūšanas"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Pieejams pēc tanka pirkšanas un Elites statusa iegūšanas"
+
+msgid "researchEntry/title"
+msgstr "LAUKA MODIFIKĀCIJA"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Paātrināt"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Atcelt"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} un {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Papildus Komplekts"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Vieta"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Būtisks Komplekts"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "pieeja Īpašās Modifikācijām: {name1} un {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "pieeja Īpašās Modifikācijām: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "pieeja Īpašai Modifikācijai: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "pieeja Īpašās Modifikācijām: {name1}, {name2} un {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "pieeja Dubultu Modifikāciju Līmenim {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "pieeja Dubultas Modifikācijas Līmenim {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Tiks saņemts: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Palielināt Standarta Modifikācijas Līmeni uz {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Palielināt Standarta Modifikācijas Līmeni?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Kopā:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Uzdevums"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Pieejamās kategorijas: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Izvēlētā kategorija: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Iespēja piemērot kategoriju šī tanka otrajai iekārtas vietai."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Pirmās vietas kategorijas uzdevums"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Uzdevums (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Otrās Vietas Kategorija"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Piešķirt"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Pirkt un Atkārtoti Piešķirt"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Iemainīt"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Atcelt"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Jūs variet atkārtoti piešķirt vietas kategoriju par %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Izvēlētā kategorija tiks piešķirta otrajai iekārtas vietai. Jūs variet atkārtoti piešķirt vietas kategoriju par %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Maiņas likme: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Maiņa neizdevās: nepieciešams papildus %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Piešķiriet kategoriju otrajai iekārtas vietai"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Atkārtoti piešķiriet kategoriju otrajai iekārtas vietai"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Nevar atkārtoti piešķirt kategoriju otrajai iekārtas vietai: nepieciešams papildus %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Kopā:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Iespēja uzstādīt papildus {cream_Open}iekārtu{cream_Close} komplektu un {cream_Open}direktīvas.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Iespēja uzstādīt papildus {cream_Open}čaulīšu{cream_Close} komplektu un {cream_Open}palīgmateriālus.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Papildus Komplekts"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Būtisks Komplekts"
+
+msgid "setupTooltipView/tip"
+msgstr "Jūs variet pārslēgties starp tanka Galveno Konfigurāciju un Alternatīvo Konfigurāciju Garāžā un pirms kaujas atskaites laikā."
+
+msgid "setupTooltipView/title"
+msgstr "Alternatīva Konfigurācija: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Papildus Komplekts%(/accent) ir daļa no tanka konfigurācijas, kas sastāv no %(accent)iekārtām un direktīvām%(/accent). Pēc piekļūšanas Alternatīvajai Konfigurācijai, jūs variet %(accent)pārslēgties starp konfigurācijām%(/accent) Papildus Komplektam pirms kaujas atskaites laikā."
+
+msgid "slides/additionalEquipment/title"
+msgstr "PAPILDUS KOMPLEKTS"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Pēc noteikta Lauka Modifikācijas Līmeņa sasniegšanas, %(accent)Alternatīva Konfigurācija%(/accent) būs pieejama tankam, un jūs varēsiet sagatavot %(accent)papildus iekārtu, munīciju, palīgmateriālu un direktīvu komplektu%(/accent) Garāžā. Tas neaizstāv galveno, bet tas atslēdz jaunas iespējas. Jūs variet novērtēt karti un komandu sastāvus pirms kaujas atskaites laikā un %(accent)izvēlēties vienu no divām%(/accent) tanka konfigurācijām. Tas ļauj jums labāk sagatavoties gaidāmajiem kaujas apstākļiem."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "ALTERNATĪVA TANKA KONFIGURĀCIJA"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Standarta modifikācijas%(/accent) pievieno bonusu %(accent)vienai no tanka īpašībām%(/accent) un atslēdz Dubultās Modifikācijas. Šīs modifikācijas ir brīvi instalējamas, un jums vajag Kaujas vai Brīvo pieredzi, lai izpētītu tās."
+
+msgid "slides/baseModifications/title"
+msgstr "STANDARTA MODIFIKĀCIJAS"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Īpašas Modifikācijas%(/accent) atslēdz Alternatīvo Konfigurāciju tankam un ļauj %(accent)piešķirt kategoriju%(/accent) otrajai iekārtu vietai (VIII–X Līmeņa tankiem). Jūs variet atkārtoti piešķirt izvēlēto vietas kategoriju izmantojot kredītus."
+
+msgid "slides/extraModification/title"
+msgstr "ĪPAŠAS MODIFIKĀCIJAS: LOMU VIETA"
+
+msgid "slides/fieldModernization/description"
+msgstr "Lauka Modifikācija ir spēja veikt niansētāku tanka konfigurāciju atbilstoši tā lomai un %(accent)mainīt tā īpašības%(/accent) izmantojot dažādas %(accent)modifikācijas%(/accent). Katra sekojoša modifikācija tiek atslēgta pēc iepriekšējās izpētīšanas."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "LAUKA MODIFIKĀCIJA"
+
+msgid "slides/fieldModernization/title"
+msgstr "TANKA ĪPAŠĪBU MAINĪŠANA"
+
+msgid "slides/modificationTree/description"
+msgstr "Modifikācijas Koks ir pieejams %(accent)VI–X Līmeņa%(/accent) izpētāmiem un Kolekcionāru tankiem, kas ir ieguvuši %(accent)Elites statusu%(/accent). Modifikācijas īpašiem, balvu un Premium tankiem ir pieejamas pēc pirkuma."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "MODIFIKĀCIJU IZPĒTĪŠANA"
+
+msgid "slides/modificationTree/title"
+msgstr "MODIFIKĀCIJU IZPĒTĪŠANA"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Dubultā Modifikācija uzlabo vienu%(/accent) no tanka īpašībām un %(accent)samazina citu%(/accent). Jums vajag Kaujas un Brīvo pieredzi, lai izpētītu modifikācijas un kredītus, lai instalētu tās. Jūs variet %(accent)atcelt (noņemt no tanka)%(/accent) modifikāciju %(accent)par brīvu%(/accent).\nKad tanks tiek pārdots, Standarta un Īpašās Modifikācijas tiek saglabātas, bet Dubultās Modifikācijas tiek atceltas."
+
+msgid "slides/pairedModifications/title"
+msgstr "DUBULTAS MODIFIKĀCIJAS"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Būtisks Komplekts%(/accent) ir daļa no tanka konfigurācijas, kas sastāv no %(accent)munīcijas un palīgmateriāliem%(/accent). Pēc piekļūšanas Alternatīvajai Konfigurācijai, jūs variet %(accent)pārslēgties starp konfigurācijām%(/accent) Būtiskam Komplektam pirms kaujas atskaites laikā."
+
+msgid "slides/requiredEquipment/title"
+msgstr "BŪTISKS KOMPLEKTS"
+
+msgid "slides/roleInBattle/description"
+msgstr "Atšķirībā no tanka tipa, tanka loma vairāk atspoguļo optimālās %(accent)kaujas taktikas%(/accent) un definē, kāds %(accent)Modifikācijas Koks%(/accent) būs pieejams noteiktam tankam."
+
+msgid "slides/roleInBattle/title"
+msgstr "TANKA LOMA KAUJĀ"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Modifikācijas maina tanka īpašības, atslēdz %(accent)pieeju Alternatīvai Konfigurācijai%(/accent) un ļauj piešķirt kategoriju %(accent)otrajai iekārtu%(/accent) vietai."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Alternatīvā Konfigurācija ir otrs %(accent)iekārtu, munīciju, palīgmateriālu un direktīvu komplekts%(/accent). Jūs variet pārslēgties starp konfigurācijām."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Spēja izvēlēties un piešķirt kategoriju priekš %(accent)otrās iekārtu%(/accent) vietas. Tieši ietekmē tanka efektivitāti kaujā."
+
+msgid "slides/specialModifications/title"
+msgstr "MODIFIKĀCIJAS, ALTERNATĪVA KONFIGURĀCIJA, VIETAS KATEGORIJA"
+
+msgid "tooltips/entry_point/description"
+msgstr "Spēja papildus mainīt tanka īpašības."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Izpētīti moduļi un tanki: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Moduļi izpētīti: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Lauka Modifikācija"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Pieejams pēc tanka pirkšanas."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Pieejams pēc Elites status iegūšanas."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Pieejams pēc tanka pirkšanas un Elites statusa iegūšanas."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Mēs atvainojamies par pagaidu neērtībām. Lūdzu mēģiniet vēlreiz vēlāk."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Īpašas Modifikācijas Nav Pieejamas"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Īpaša Modifikācija %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Nopelniet tos kaujā, pārdodiet pārpalikumus no Noliktavas vai iemainiet zeltu lai iegūtu vēl."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Nepietiek Kredītu"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Demontēšana"
+
+msgid "tooltips/pairModification/level"
+msgstr "Dubulta Modifikācija %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Izmaiņas tehniskām īpašībām:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Demontēšana (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Pirkšana (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Pirkšana"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Noklikšķiniet, lai skatītu izmaiņas tanka tehniskajām īpašībām pēc šīs modifikācijas pirkšanas."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Pēc modifikācijas atcelšanas, jūs varēsiet nopirkt jebkuru šī pāra modifikāciju izmantojot kredītus."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Šīs modifikācijas pirkšana automātiski atcels jau uzinstalēto no šī pāra."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Cita Modifikācija Nopirkta"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Sasniedziet Lauka Modifikācijas Līmeni %(level), lai piekļūtu šai modifikācijai"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Modifikācija Nav Pieejama"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Bezmaksas"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "nepieciešams:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Aptuvenais skaits. Precīzas vērtības ir norādītas īpašībās."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Piemērot"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Atcelt"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Atiestatīt"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s Modifikācijas"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Pievienot Salīdzināšanai"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Iznīcināt Visas Dubultās Modifikācijas"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Noklikšķiniet, lai iznīcinātu visas Dubultās Modifikācijas."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Iznīcināt"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Apskatīt"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Atkārtoti piešķirt"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Pirms kaujas"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Izvēlēties"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Ieslēdziet/izslēdziet opciju, lai izvēlētos iekārtu un direktīvu komplektus pirms-kaujas atskaites laikā.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Ieslēdziet/izslēdziet opciju, lai izvēlētos čaulīšu un palīgmateriālu komplektus pirms-kaujas atskaites laikā.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Kad tas ir izslēgts, izvēlētie komplekti Garāžā tiks izmantoti kaujā."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Maiņa Pirms Kaujas"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Šis tanks ir kaujā."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Šis tanks ir slēgts."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Šim tankam nepieciešams remonts."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Šis tanks ir taktiskajā vienībā."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Nevar piešķirt vietas kategoriju: Tanks nav Garāžā."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Tanka noma ir beigusies."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Šis tanks ir kaujā."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Šis tanks ir slēgts."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Šim tankam nepieciešams remonts."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Šis tanks ir taktiskajā vienībā."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Nevar nopirkt: Tanks nav Garāžā."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Tanka noma ir beigusies."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Noklikšķiniet, lai iznīcinātu Dubultu Modifikāciju."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Iznīcināt"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "vai"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Lauka Modifikācijas Maksimālais Līmenis"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Pieejams {minAllowedLevel}—{maxAllowedLevel} Līmeņa tankiem"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Pieejams {allowedLevel} Līmeņa tankiem"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "SLĒPT ĪPAŠĪBAS"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Pastāvīgs bonuss: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Pastāvīgs bonuss: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Pastāvīgs bonuss: %(bonus1) un %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Palieliniet Līmeni, lai iegūtu pastāvīgos bonusus: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Palieliniet Līmeni, lai iegūtu pastāvīgo bonusu: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Palieliniet Līmeni, lai iegūtu pastāvīgos bonusus %(bonus1) un %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Palielināt Līmeni"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Palielināt Līmeni uz %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Palieliniet Līmeni, lai Iegūtu:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Uzlabotas īpašības"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Īpašas Modifikācijas"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Īpašu Modifikāciju {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Dubultas Modifikācijas"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Dubultu Modifikāciju {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Uz Moduļiem"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Lauka Modifikācija nav pieejama. Tanks ir kaujā."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Lauka Modifikācija nav pieejama. Tanks ir slēgts."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Lauka Modifikācija nav pieejama. Tankam nepieciešams remonts."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Spēja papildus mainīt tanka īpašības kļūst pieejama pēc tanka Elites statusa iegūšanas."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Lauka Modifikācija nav pieejama: tanks ir taktiskajā vienībā."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Tankam jābūt Garāžā, lai izpētītu modifikācijas un palielinātu Lauka Modifikācijas Līmeni."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Lauka Modifikācija nav pieejama nomas tankiem. Nopērciet šo tanku, lai atslēgtu Lauka Modifikāciju."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Lauka Modifikācija nav pieejama: Tanka noma ir beigusies. Pagariniet nomas periodu, lai atslēgtu Lauka Modifikāciju."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "RĀDĪT ĪPAŠĪBAS"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Spēja papildus mainīt tanka īpašības. Tā kļūst pieejama pēc tanka Elites statusa iegūšanas."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Lauka Modifikācija"

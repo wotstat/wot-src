@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Πίσω στα Κοντέινερ"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Κοντέινερ Emerald"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "ΚΟΝΤΕΪΝΕΡ EMERALD"
+
+msgid "common/getButton/lowerCase"
+msgstr "Αποκτήστε Κοντέινερ"
+
+msgid "common/getButton/upperCase"
+msgstr "ΑΠΟΚΤΗΣΤΕ ΚΟΝΤΕΪΝΕΡ"
+
+msgid "common/loader"
+msgstr "Άνοιγμα κοντέινερ..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Ανοίξτε κοντέινερ για να δείτε στατιστικά."
+
+msgid "common/statistics/header"
+msgstr "Κοντέινερ που ανοίχθηκαν: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Όλες οι πληροφορίες από το άνοιγμα των κοντέινερ θα μηδενιστεί."
+
+msgid "entryPoint/boxes"
+msgstr "ΣΤΑ ΚΟΝΤΕΪΝΕΡ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Σε αυτά τα ειδικά κοντέινερ μπορείτε να βρείτε Προνομιακά Οχήματα, προσαρτήματα 3D, credits και άλλα πολύτιμα αγαθά του παιχνιδιού.\nΜπορείτε να τα αγοράσετε μέσα από τον Εφοδιασμό του παιχνιδιού."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Η λειτουργία των κοντέινερ είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους. Μας συγχωρείτε για την ταλαιπωρία."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Κοντέινερ Προσωρινά Μη Διαθέσιμα"
+
+msgid "eventName/lowerCase"
+msgstr "Glorious in Green"
+
+msgid "eventName/upperCase"
+msgstr "GLORIOUS IN GREEN"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Εγγυημένο Έπαθλο στο επόμενο κοντέινερ!"
+
+msgid "guaranteedTitle/text"
+msgstr "Μέγιστο πλήθος κοντέινερ πριν το Εγγυημένο Έπαθλο: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Εάν δεν ανοίξετε όλα τα κοντέινερ έως το τέλος της διοργάνωσης, θα ανοιχτούν αυτόματα."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα από τη λίστα με τα πιθανά έπαθλα, θα λάβετε ως αντιστάθμισμα την πλήρη αξία σε gold όσων οχημάτων βρείτε στα κοντέινερ."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Σε κάθε %(guaranteed0)s κοντέινερ, θα βρείτε εγγυημένα ένα όχημα των Βαθμίδων VIII–IX. Αλλά αν δεν βρείτε κάποιο τέτοιο όχημα, τότε με το άνοιγμα του %(guaranteed0)sου κοντέινερ θα λάβετε εγγυημένα ένα όχημα των Βαθμίδων VIII–IX που δεν έχετε ήδη στην κατοχή σας. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή.&zwnbsp;"
+
+msgid "infoPage/header/description"
+msgstr "Ανοίξτε το κοντέινερ για να βρείτε πολύτιμα αγαθά του παιχνιδιού! Δείτε περισσότερες λεπτομέρειες παρακάτω."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Περιεχόμενα %(name) (Ανοίξατε %(boxesCount) κοντέινερ)"
+
+msgid "noBoxesView/description/"
+msgstr "Δεν έχετε κανένα κοντέινερ.\nΑγοράστε τα από τον Εφοδιασμό του παιχνιδιού."
+
+msgid "preview/backLabel"
+msgstr "ΣΤΑ ΚΟΝΤΕΪΝΕΡ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Διαθέσιμα κοντέινερ: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Κανένα διαθέσιμο κοντέινερ"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα από τη λίστα με τα πιθανά έπαθλα, θα λάβετε αντιστάθμισμα σε gold για όσα οχήματα βρείτε στα κοντέινερ."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) κοντέινερ"
+msgstr[1] "%(remainingCount) κοντέινερ"
+msgstr[2] "%(remainingCount) κοντέινερ"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Το Εγγυημένο Έπαθλο είναι ένα όχημα από τη λίστα με τα διαθέσιμα έπαθλα.\nΕάν ανοίξετε %(remainingCount) κοντέινερ αλλά δεν βρείτε κάποιο τέτοιο όχημα, τότε με το άνοιγμα του %(count)ου κοντέινερ θα λάβετε εγγυημένα ένα όχημα από τη λίστα με τα διαθέσιμα έπαθλα. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."

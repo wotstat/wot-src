@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "error/button"
+msgstr "Értettem!"
+
+msgid "error/description"
+msgstr "Az információ átmenetileg nem elérhető. Elnézést kérünk a kellemetlenségért. Kérjük, próbálkozz újra később."
+
+msgid "error/title"
+msgstr "A jutalom kiválasztása nem nyitható meg"
+
+msgid "footer/closeBtn/label"
+msgstr "Később választok"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Válassz jutalmat a megadott kategóriákból!"
+msgstr[1] "Válassz jutalmakat a megadott kategóriákból."
+msgstr[2] "Válassz jutalmakat a megadott kategóriákból."
+
+msgid "footer/okBtn/label"
+msgstr "Igényel"
+
+msgid "footer/rewardsSelected"
+msgstr "Kiválasztott jutalmak:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Válassz jutalmat a megadott kategóriából!"
+msgstr[1] "Válassz jutalmakat a megadott kategóriából!"
+msgstr[2] "Válassz jutalmakat a megadott kategóriából!"
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Limit elérve"
+
+msgid "reward/state_received"
+msgstr "Már megszerezted"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "A kiválasztott tételek száma ebben a kategóriában elérte a limitet. Az egyik elem kiválasztását törölheted, hogy egy másikat adj hozzá."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Limit elérve"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Felszerelés\ndirektívák"
+
+msgid "tabs/items/battle_booster"
+msgstr "Felszerelésdirektívák"
+
+msgid "tabs/items/blueprint"
+msgstr "Tervrajz töredékek"
+
+msgid "tabs/items/brochure"
+msgstr "Képzési füzet"
+
+msgid "tabs/items/crewbook"
+msgstr "Képzési kézikönyv"
+
+msgid "tabs/items/deluxe"
+msgstr "Fejlesztett felszerelés"
+
+msgid "tabs/items/expequipments"
+msgstr "Kísérleti\nfelszerelés"
+
+msgid "tabs/items/guide"
+msgstr "Képzési útmutató"
+
+msgid "tabs/items/modernized_device"
+msgstr "Kísérleti felszerelések"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Kísérleti felszerelés, 1. szint"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Kísérleti felszerelés, 2. szint"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Kísérleti felszerelés, 3. szint"
+
+msgid "tabs/items/new_device"
+msgstr "Normál felszerelések"
+
+msgid "tabs/items/trophy"
+msgstr "Jutalom felszerelés"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Kattints az Igényel gombra a kiválasztott jutalmak átvételéhez."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " %(count)sx"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Kiválasztott jutalmak: %(white_open)s%(count)s%(white_close)s"

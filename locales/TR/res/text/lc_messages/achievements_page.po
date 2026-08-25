@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Toplam Başarı Skorunu artıran puanlar"
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Başarı Puanları"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Bu başarıdaki tüm adımları tamamladınız ve alınabilecek tüm ödülleri aldınız."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Önceki KATALOG seviyesine dönmek için %(escIcon)s tuşuna basın."
+
+msgid "catalog/rootLink"
+msgstr "KATALOG"
+
+msgid "category/achievementsScore/title"
+msgstr "BAŞARI SKORU"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Başarı koleksiyonundaki gelişimin ana göstergesi. Kupalar dışındaki her yeni başarı Toplam Başarı Skorunu artırır."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Toplam Başarı Skoru: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "YENİ ALINAN\nBAŞARILAR"
+
+msgid "category/title"
+msgstr "OYUNCUNUN KOLEKSİYONU"
+
+msgid "category/upcoming/title"
+msgstr "GELECEK\nBAŞARILAR"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s ve fazlası"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Başarı açıldı!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s Başarı Açıldı!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s ve fazlası"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Yeni kupa kazandınız!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s kupa kazandınız!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Otomatik Gösterim, tüm kategorilerdeki ödülleri değerlerine göre sıralayarak değerli ödüller şeridinde gösterir. Ödülleri elle sıralarsanız kapatılır."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Otomatik Gösterim, tüm kategorilerdeki ödülleri değerlerine göre sıralayarak değerli ödüller şeridinde gösterir. Ayarlarda açtığınızda elle yapılan sıralama sıfırlanır."
+
+msgid "editConfirm/description/error"
+msgstr "Sorunu inceliyoruz. Lütfen daha sonra düzenlemeyi deneyin. Bu arada Özet kısmına yönlendirileceksiniz."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Kaydet"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "İptal"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Olumlu!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Otomatik Gösterim Kapatıldı"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Otomatik Gösterim Açıldı"
+
+msgid "editConfirm/title/error"
+msgstr "Hata Oluştu"
+
+msgid "editConfirm/title/normal"
+msgstr "Değerli ödüller şeridi değişiklikleri uygulansın mı?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Değişiklikleri İptal Et"
+
+msgid "editView/footer/button/save"
+msgstr "Uygula ve Çık"
+
+msgid "editView/header/checkbox"
+msgstr "Otomatik Gösterim"
+
+msgid "editView/header/close"
+msgstr "KAPAT"
+
+msgid "editView/header/title/idle"
+msgstr "Şeritte Gösterilecek Ödülleri Seçin"
+
+msgid "editView/header/title/selecting"
+msgstr "Değiştirilecek Ödülü Seçin"
+
+msgid "editView/header/title/tutorial"
+msgstr "Ödül Yuvasını Seçin"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "İptal"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Değiştir"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "BAŞARILARINIZ\nBURADA"
+
+msgid "hint/profile"
+msgstr "BAŞARILARINIZ\nBURADA"
+
+msgid "hint/summary/customizationButton"
+msgstr "Düzenleme Mümkün"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Şeride Git"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Değerli Ödüller Şeridini Düzenlemek Mümkün"
+
+msgid "notifications/firstEntry/button"
+msgstr "Hizmet Kaydına Git"
+
+msgid "notifications/firstEntry/text"
+msgstr "World of Tanks Reytingi,\nödülleri düzenleme."
+
+msgid "notifications/firstEntry/title"
+msgstr "Hizmet Kaydı Güncelleniyor"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Hizmet Kaydına Git"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Ödül düzenleme\nve görsel tasarım."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Hizmet Kaydı Güncelleniyor"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Hizmet Kaydına Git"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Seviyeniz: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Reytinginiz Hesaplandı!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Hizmet Kaydına Git"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "World of Tanks Reytinginiz değişti. Tüm detayları görmek için Hizmet Kaydı bölümüne gidin."
+
+msgid "notifications/ratingUp/button"
+msgstr "Hizmet Kaydına Git"
+
+msgid "notifications/ratingUp/text"
+msgstr "Şu seviyeye ulaştınız: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Reytinginiz Arttı!"
+
+msgid "playerInfo/clan/button"
+msgstr "Klan Profili"
+
+msgid "playerInfo/clan/date"
+msgstr "Katılım tarihi:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Oyuncunun hiç sabit taktik birliği yok"
+
+msgid "playerInfo/clan/post"
+msgstr "Rütbe:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Kişisel Asker Künyesi\ngeçici olarak devre dışı"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Oyuncunun reytingi hesaplanmadı: %(amount)ssavaştan az yapılmış."
+
+msgid "ratingWidget/status/initial"
+msgstr "World of Tanks Reytinginizin hesaplanması için %(amount)s savaş yapın."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Oyuncu reytingi henüz hesaplanmadı"
+
+msgid "ratingWidget/status/progress"
+msgstr "World of Tanks Reytinginiz hesaplanıyor. Kalan savaş: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Savaşa girin, biz de reytinginizi hesaplayalım."
+
+msgid "rewardView/button/achievements"
+msgstr "Başarılara Git"
+
+msgid "rewardView/button/dogTag"
+msgstr "Asker Künyesine Git"
+
+msgid "rewardView/button/dogTags"
+msgstr "Asker Künyelerine Git"
+
+msgid "rewardView/button/moreRewards"
+msgstr "%(value)s Daha Göster"
+
+msgid "rewardView/reward/dogTag"
+msgstr "%(value)s Asker Künyesi"
+
+msgid "rewardView/title/multi"
+msgstr "BAŞARI ÖDÜLLERİ ALINDI"
+
+msgid "rewardView/title/single"
+msgstr "BAŞARI ÖDÜLLERİ ALINDI"
+
+msgid "section/action"
+msgstr "Özel"
+
+msgid "section/battle"
+msgstr "Savaş Kahramanları"
+
+msgid "section/class"
+msgstr "Aşama Ödülleri"
+
+msgid "section/epic"
+msgstr "Epik Madalyalar"
+
+msgid "section/group"
+msgstr "Grup Ödülleri"
+
+msgid "section/memorial"
+msgstr "Hatıra Jetonları"
+
+msgid "section/special"
+msgstr "Onursal Rütbeler"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "BAŞARILARA GİT"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Son savaş: %(lastVisitDate)s, %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Hesabın oluşturulduğu tarih: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Fon"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Standart"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Ateş"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Altın"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Efsanevi"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Patlayıcı"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Değişiklikleri İptal Et"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Şerit"
+
+msgid "summary/achievements/customization/save"
+msgstr "Uygula ve Çık"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Teknik sorunlar Hizmet Kaydı Ekranınızı özelleştirme imkanı geçici olarak devre dışıdır. Düzeltmek için çalışıyoruz. Ekranı tazeleyin veya daha sonra gelin."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Özelleştirme Şu Anda Devre Dışı"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Değerli Ödüller"
+
+msgid "summary/achievements/total"
+msgstr "Toplam: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Özgün: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Ortalama: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Zaferler: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Ortalama: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Ortalama: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Rekor: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Ortalama: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Verileriniz hazırlanırken savaşa girin."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Bilgi geçici olarak alınamıyor."
+
+msgid "summary/disabled/title"
+msgstr "Daha Fazla Bilgi Sonra Sunulacak"
+
+msgid "summary/main/assistance"
+msgstr "YARDIM\nREKORU"
+
+msgid "summary/main/battles"
+msgstr "YAPILAN\nSAVAŞLAR"
+
+msgid "summary/main/blocked"
+msgstr "MAKSİMUM\nENGELLEME"
+
+msgid "summary/main/damage"
+msgstr "HASAR\nREKORU"
+
+msgid "summary/main/destroyed"
+msgstr "YOK EDİLEN\nARAÇLAR"
+
+msgid "summary/main/experience"
+msgstr "DENEYİM\nREKORU"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks Reytingi"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Kişisel Reyting"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Yardımınız sayesinde verilen maksimum hasar."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "%(tankName)s ile savaşta yardımınız sayesinde verilen maksimum hasar."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Yardım rekoru: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Düşman araçlarına sizin yardımınızla verilen toplam hasarın yapılan toplam savaş sayısına oranı. Katkı olarak sayılanlar:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Tespitiniz sayesinde verilen hasar\n• Düşman aracının paletini yok edip hareketsiz bırakmanız sayesinde verilen hasar"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Ortalama yardım: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Toplam zafer sayısının yapılan savaş sayısına oranı."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Dahil olanlar:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Zafer: %(wins)s\n• Yenilgi: %(loses)s\n• Beraberlik: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Zafer oranı: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Yapılan savaş sayısı: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Engellenen maksimum hasar."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "%(tankName)s ile savaşta engellenen maksimum hasar."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Maksimum engellenen: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Delemeyen ve seken AP, HEAT ve APCR mermilerden engellenen toplam hasarın yapılan savaş sayısına oranı."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Engellenen ortalama hasar: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Verilen maksimum hasar."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "%(tankName)s ile savaşta verilen maksimum hasar."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Hasar rekoru: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Verilen toplam hasar miktarının yapılan savaş sayısına oranı."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Ortalama hasar: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Yok edilen maksimum araç sayısı."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "%(tankName)s ile savaşta yok edilen maksimum düşman aracı sayısı."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Maksimum yok edilen: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Tüm savaşlarda yok edilen toplam düşman aracı sayısı."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Yok edilen araçlar: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Kazanılan maksimum deneyim miktarı."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "%(tankName)s ile savaşta kazanılan maksimum deneyim miktarı."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Deneyim rekoru: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Kazanılan toplam deneyim miktarının yapılan savaş sayısına oranı."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Ortalama deneyim: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Ne zafer ne de yenilgi, World of Tanks Reytinginizin hesaplanışını etkilemez."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Çeşitli araçlarla oynayarak şu performans parametrelerine göre en etkili araçlarınızı belirleyin:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR, her araç için bireysel bir reyting hesaplayıp daha sonra bunu oyuncunun genel performansını belirlemede kullanan bir reyting sistemidir. Sistem, savaş stratejisindeki değişikliklere esnek bir şekilde tepki verir ve oyuncunun istatistiklerini sunucu ortalamaları ile kıyaslar."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Verilen hasar"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Yardımınız ile verilen hasar"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Yok edilen düşman aracı sayısı"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Engellenen hasar ve hayatta kalma oranı"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "WTR'yi Artırma"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks Reytingi"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Reyting hesaplamasına kalan savaş sayısı: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Seviye: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Sınıra ulaşıldı!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Seviyenizi artırmak için kalan puan miktarı: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronz %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Gümüş %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Altın %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "As %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Efsane %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Seviye"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Puan Miktarı"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks Reytingi"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Ayarı açtığınızda kurduğunuz sıralama %(whiteSpanish_Open)ssıfırlanacak%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Ayarı kapattığınızda veya elle ayarladığınızda şeritteki ödüllerin %(whiteSpanish_Open)sotomatik olarak%(whiteSpanish_Close)s %(whiteSpanish_Open)sgüncellenmesi%(whiteSpanish_Close)s %(whiteSpanish_Open)sduracak%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "%(whiteSpanish_Open)sTüm kategorilerdeki%(whiteSpanish_Close)s ödülleri, değerine göre otomatik olarak değerli ödüller şeridinde sıralar."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Otomatik Gösterim"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Değerli ödüller şeridini düzenleme geçici olarak devre dışı. Lütfen daha sonra tekrar deneyin."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Henüz buraya koyacak herhangi bir ödülünüz yok. Bu ödülleri %(whiteSpanish_Open)ssavaşlarda%(whiteSpanish_Close)s veya %(whiteSpanish_Open)soyun etkinliklerine%(whiteSpanish_Close)s %(whiteSpanish_Open)skatılarak%(whiteSpanish_Close)s alın."
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Değerli ödüller şeridini düzenleme seçeneği herhangi bir kategoriden %(whiteSpanish_Open)s%(amount)s veya daha fazla ödül%(whiteSpanish_Close)s aldıktan sonra açılır."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Buraya yerleştirilecek hiç ödül yok."
+
+msgid "tooltips/mastery/body"
+msgstr "Tüm ilgili savaş kiplerinde alınan As Tankçı Ustalık Bröveleri / En az bir Rastgele Savaşta savaşmış araç sayısı"
+
+msgid "tooltips/mastery/header"
+msgstr "Ustalık Brövesi: As Tankçı"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Kişisel Reyting, bir oyuncunun beceri ve deneyiminin ölçüsüdür ve şunlara dayanır:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Kişisel Reyting yapılan her ek savaş ile güncellenir."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Zaferler\n• Yardımınız sayesinde verilen hasar\n• Savaş başına ortalama hasar\n• Savaş başına ortalama deneyim\n• Hayatta kaldığınız savaşlar"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Kişisel Reyting"

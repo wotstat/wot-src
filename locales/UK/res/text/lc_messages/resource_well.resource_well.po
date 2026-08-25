@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Машину отримано"
+
+msgid "awardView/end"
+msgstr "ПОДІЮ ЗАВЕРШЕНО"
+
+msgid "awardView/info"
+msgstr "Номер стилю"
+
+msgid "awardView/toHangar"
+msgstr "Подивитися в Гаражі"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) з номерним стилем"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "МАШИНУ ОТРИМАНО"
+
+msgid "awardView/vehicleTitle"
+msgstr "МАШИНУ ОТРИМАНО"
+
+msgid "commonTexts/aboutButton"
+msgstr "ПРО ПОДІЮ"
+
+msgid "commonTexts/closeBtn"
+msgstr "ЗАКРИТИ"
+
+msgid "commonTexts/eventTitle"
+msgstr "КОНСТРУКТОРСЬКЕ БЮРО"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Скасувати"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Вкласти"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Машини з номерним стилем закінчилися, буде нараховано %(vehicleName)s без номера.\nВсе одно вкласти ресурси?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Ви отримаєте %(vehicleName)s без номера"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Повернутися в Гараж"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Вкладені ресурси незабаром повернуться на ваш акаунт."
+
+msgid "confirm/NoVehicles/title"
+msgstr "На жаль, машини закінчилися"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Скасувати"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Вкласти"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Прогрес після вкладення: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Вкласти ресурси?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Повернути ресурси"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Усі вкладені ресурси повернуться на ваш акаунт, а прогрес збирання буде скинуто. Поки подія активна, ви зможете заново вкласти ресурси для отримання машини."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Повернути всі вкладені ресурси?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Усі вкладені ресурси повернуться на ваш акаунт, а прогрес збирання буде скинуто. Буде вибрано %(vehicleName), і ви зможете витратити ресурси на отримання цієї техніки."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Повернути всі вкладені ресурси й вибрати %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Вибрати машину"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Ви можете придбати обидві машини під час події."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Протягом події ви зможете придбати набір, що містить машину з номерним 3D-стилем."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Перші %(styleTanksCount) гравців отримають машину з номерним 3D-стилем у комплекті,{{@ class $br}}{{/}}а потім буде відвантажено машини (%(withoutStyleTanksCount)) без номерного 3D-стилю."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "ПОДІЮ ЗАВЕРШЕНО"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "МАШИНИ ОТРИМАНО"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "МАШИНУ ОТРИМАНО"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Залишилося машин"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Машина вже у вашому Гаражі"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Машину отримано"
+
+msgid "eventInfo/tanksOver"
+msgstr "ЗАКІНЧИЛИСЯ"
+
+msgid "eventInfo/top/styleText"
+msgstr "З номером"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Залишилося машин із номером"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "Відвантаження %(regularRewardVehiclesCount) машин у стандартній комплектації почнеться після того,\nяк закінчаться машини з номером."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "У стандартній комплектації"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Залишилося машин"
+
+msgid "mainView/affirmative/button"
+msgstr "Так!"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "До повернення ресурсів"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Зібрано ресурсів:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Зібрано ресурсів для:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Повернутися в Гараж"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Вибрати ресурси"
+
+msgid "mainView/footer/description/text"
+msgstr "Якщо машини закінчаться, всі вкладені ресурси буде повернено."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Ваш тип акаунта не може брати участь у події."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Ви не можете взяти участь"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Ви можете придбати обидві машини, але вкладати ресурси одночасно можна лише в одну."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Оберіть машину та вкладіть необхідні ресурси для її збирання — але не зволікайте!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Поспішіть вкласти необхідні ресурси, щоб зібрати й отримати %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Вкладені ресурси незабаром повернуться на ваш акаунт."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "На жаль, машини закінчилися"
+
+msgid "mainView/navbar/backBtn"
+msgstr "ДО КОНСТРУКТОРСЬКОГО БЮРО"
+
+msgid "mainView/navbar/title"
+msgstr "КОНСТРУКТОРСЬКЕ БЮРО"
+
+msgid "mainView/preview/label"
+msgstr "Попередній перегляд"
+
+msgid "mainView/timer/lastUntil"
+msgstr "До"
+
+msgid "mainView/timer/leftTime"
+msgstr "Залишилося часу:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Закрити"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Вкласти ресурси"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Дані тимчасово недоступні"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Машини закінчилися"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Залишилося машин із номером: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Залишилося машин: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Універсальні"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Досягнуто максимуму %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Максимум %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Ресурси зібрані %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Фрагменти креслень"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Валюти"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "ЗБІР РЕСУРСІВ"
+
+msgid "tankPreview/button"
+msgstr "Вибрати ресурси"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Протягом події ви зможете придбати набір, що містить машину з номерним 3D-стилем."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Перші %(topPlayers) гравців отримають машину з номерним 3D-стилем у комплекті,\nа потім буде відвантажено %(basePlayers) машин без номерного 3D-стилю."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Ви можете придбати обидві машини під час події."
+
+msgid "tankPreview/title"
+msgstr "Зберіть і витратьте 100% необхідних ресурсів, щоб отримати %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Вкладені ресурси можна переглянути в будь-який момент і в разі потреби повернути на ваш акаунт, натиснувши кнопку «Повернути ресурси».\nПрогрес збирання при цьому анулюється, проте ви зможете заново вкласти ці чи інші ресурси для отримання машини."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Повернення ресурсів"
+
+msgid "tooltips/counter/error/text"
+msgstr "Дані тимчасово недоступні.\nМи вже вирішуємо проблему."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Число показується із затримкою й може відрізнятися від фактичної кількості машин."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Витрачайте ресурси й отримуйте %(vehicleName1) і %(vehicleName2). Кількість машин обмежена."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Витрачайте ресурси й отримуйте %(vehicleName) з номерним 3D-стилем. Кількість машин обмежена."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Буде доступно: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Доступно протягом %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Доступно через:%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Конструкторське бюро"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Натисніть, щоб дізнатися про подію більше"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Оберіть машину для вкладання ресурсів.\nЯкщо ресурси вже вкладено в іншу машину, вони повернуться на ваш акаунт."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Залишилося часу: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Для збирання екземпляра машини вкладіть 100% необхідних ресурсів. Співвідношення різних видів ресурсів можна змінювати."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Якщо машини закінчаться, всі вкладені ресурси буде повернено."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Вибрано"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Вкладено"
+
+msgid "tooltips/progressbar/title"
+msgstr "Збір ресурсів"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Вкласти ресурси тимчасово неможливо, спробуйте пізніше."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Універсальні й національні фрагменти креслень."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Фрагменти креслень"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Нараховуються за активні дії в бою. Також купуються за справжні гроші."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Валюти"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Вкладено:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Максимальна кількість цього ресурсу для вкладення — %(maxAmount)d од."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Зібрано потрібну кількість ресурсів для отримання машини. Ви можете відмовитися від одного типу ресурсу, щоб вибрати інший."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Ресурси зібрано"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Це унікальний екземпляр машини зі своїм номером й особливою візуальною модифікацією."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Номер розташовується з обох боків ствола й на задній частині корпусу. Номери на однакових машинах ніколи не повторюються, а їхня кількість обмежена."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Відмінні риси машини можна приховати. Для цього зніміть з неї номерний 3D-стиль на екрані зовнішнього вигляду."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Машина з номером"

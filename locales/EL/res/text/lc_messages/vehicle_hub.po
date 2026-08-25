@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Δίνει τη δυνατότητα για ρίψη μονών βολών από τον γεμιστήρα, με το κάθε βλήμα να επαναγεμίζεται αυτόματα."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Δίνει τη δυνατότητα για ρίψη μονών βολών από τον γεμιστήρα, με το κάθε βλήμα να επαναγεμίζεται αυτόματα. Αυξάνει την ταχύτητα γέμισης του επόμενου βλήματος."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Ρίχνει γρήγορες ριπές προκαλώντας μεγάλη φθορά σε μικρό χρονικό διάστημα, με κόστος τη μειωμένη ευστοχία και διατρητικότητα. Πιο αποτελεσματικό από κοντινή απόσταση."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Ρίχνει αστεροειδή βλήματα, προκαλώντας μέγιστη φθορά σε απόσταση έως 50 μέτρα. Η δυνητική φθορά των βλημάτων του μειώνεται δραματικά με την απόσταση, γι αυτό και είναι πιο αποτελεσματικό από κοντά."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Ο μοναδικός μηχανισμός ψύξης του πυροβόλου δίνει μεγαλύτερη ευστοχία. Με επαρκή ψύξη του πυροβόλου μετά από βολές, η ευστοχία του θα βελτιωθεί και θα εμφανιστεί ένας δεύτερος κύκλος στόχευσης, με μικρότερη διάμετρο."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Ένα διπλό πυροβόλο ρίχνει βολές διαδοχικά ή ταυτόχρονα. Μια ομοβροντία προκαλεί μεγαλύτερη φθορά, αλλά συνεπάγεται μεγαλύτερο χρόνο επαναγέμισης του πυροβόλου."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Δίνει τη δυνατότητα στο σκάφος να αλλάζει γωνίες ανόδου/καθόδου για να μπορεί να αξιοποιεί όλες τις θέσεις στο πεδίο της μάχης. Η ενεργοποίηση εξαρτάται από διάφορες συνθήκες."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Αλλάζει τη θέση των πρόσθετων τροχών, αυξάνοντας σημαντικά την ταχύτητα, αλλά μειώνοντας την ευελιξία. Πιο αποτελεσματική επιλογή για εφορμήσεις από μεγάλες αποστάσεις."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Ρίχνει βολές γρήγορα και διαδοχικά, πριν χρειαστεί πλήρης επαναγέμιση. Προκαλεί μεγάλη φθορά σε μικρό χρονικό διάστημα, αλλά καθιστά το όχημα ευάλωτο όσο χρόνο διαρκεί η επαναγέμιση του γεμιστήρα. Μπορεί να γεμίσει μόνο ολόκληρο τον γεμιστήρα."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Το πυροβόλο μπορεί να ρίχνει βολές συνεχώς, χωρίς να απαιτείται γέμισμα. Κάθε βολή παράγει θερμότητα: όσο υψηλότερη είναι η θερμοκρασία του πυροβόλου, τόσο περισσότερο αλλάζουν ορισμένες από τις παραμέτρους του. Τα συνεχή πυρά προκαλούν υπερθέρμανση, αποτρέποντας περαιτέρω βολές μέχρι να κρυώσει και πάλι."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Με την ενεργοποίησή τους, οι προωθητήρες αερίου αυξάνουν την ισχύ του κινητήρα και τη μέγιστη ταχύτητα του οχήματος. Ωστόσο, μειώνεται η ευελιξία και χάνετε ουσιαστικά η δυνατότητα οπισθοπορείας. Δεν μπορούν να απενεργοποιηθούν κατ' επιλογή."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Όταν ενεργοποιηθεί η φάση αυτή, αλλάζει κάποιες παραμέτρους μάχης. Προτείνεται η ενεργοποίησή της όταν είστε έτοιμοι για πυρά."
+
+msgid "abilities/common/description/stun"
+msgstr "Προκαλεί σοκ στα εχθρικά οχήματα μέσα σε μια καθορισμένη περιοχή, ακόμα και αν δεν επιτευχθεί άμεσο χτύπημα, μειώνοντας την ευκινησία τους, την ευστοχία τους και την ταχυβολία τους. Τα οχήματα σε σοκ έχουν ειδική σήμανση."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Όταν καταστραφεί η βασική ερπύστρια, το όχημα δεν ακινητοποιείται και συνεχίζει να κινείται με μειωμένη ταχύτητα. Εάν καταστραφεί και άλλη ερπύστρια του οχήματος, η ευκινησία του μειώνεται ακόμη περισσότερο, αλλά συνεχίζει να μπορεί να κινείται και να περιστρέφεται."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Αυξάνει σημαντικά την ταχύτητα κίνησης μειώνοντας εξίσου σημαντικά την ευστοχία του πυροβόλου."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Όταν ενεργοποιηθεί η φάση αυτή, δίνει τη δυνατότητα για διπλάσια φθορά και αλλάζει κάποιες παραμέτρους μάχης. Κατάλληλη για κοντινές αποστάσεις."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Αυτόματη Επαναγέμιση"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Βελτιωμένη Αυτόματη Επαναγέμιση"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Αυτόματο Πυροβόλο"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Ραβδωτό Πυροβόλο"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Ψύξη Πυροβόλου"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Διπλό Πυροβόλο"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Υδροπνευματική Ανάρτηση"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Φάση Ταχύτητας"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Αυτόματη Γέμιση"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Αυτόματο Πυροβόλο Με Έλεγχο Υπερθέρμανσης"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Προωθητήρες Αερίου"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Φάση Μάχης"
+
+msgid "abilities/common/name/stun"
+msgstr "Σοκ"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Εφεδρική Ερπύστρια"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Τούρμπο"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Ομοβροντία Πυρών"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Παραμένοντας ακίνητοι ή κινούμενοι αργά, συσσωρεύετε επίπεδα ευστοχίας που βελτιώνουν την ακρίβεια της επόμενης βολής σας.\nΣτο μέγιστο επίπεδο ευστοχίας, αποκτάτε καλό χειρισμό του πυροβόλου, με μειωμένη διασπορά πυρών ακόμη και κατά την κίνηση ή την περιστροφή του πυργίσκου και του σκάφους."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Κάθε φορά που πετυχαίνετε πλήγμα σε ένα εχθρικό όχημα, κερδίζετε ένα επίπεδο αποτελεσματικότητας γεμίσματος, αυξάνοντας προσωρινά την ταχύτητα επαναγέμισης του πυροβόλου. Τα επίπεδα συσσωρεύονται με κάθε εύστοχο χτύπημα.\nΗ καταστροφή ενός εχθρικού οχήματος από βολή προσθέτει επιπλέον επίπεδα αποτελεσματικότητας γεμίσματος."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Αν το πυροβόλο σας είναι γεμάτο, μπορείτε να αρχίσετε να θερμαίνετε την επόμενη βολή για αυξημένη φθορά—όσο υψηλότερο το επίπεδο προθέρμανσης, τόσο περισσότερη η φθορά.\nΣτο μέγιστο επίπεδο προθέρμανσης, έχετε λίγα δευτερόλεπτα για να ρίξετε τη βολή σας—αν δεν το κάνετε, θα γίνετε προσωρινά ανίκανοι να πυροβολήσετε."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Δύο συνεχόμενες βολές που θα επιτύχουν διάτρηση σε εχθρικά οχήματα ενεργοποιούν τη φάση Ριπής, φορτώνοντας έναν γεμιστήρα ριπής από τον οποίο εξαπολύετε δύο βλήματα διαδοχικά με την επόμενη βολή για να προκαλέσετε πολύ μεγάλη φθορά."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Ο Πνευματικός Γυροσκοπικός Σταθεροποιητής παρέχει μέγιστη σταθεροποίηση κατά την κίνηση και περιστροφή του σκάφους ή του πυργίσκου, για βολές ακριβείας, γρήγορη αντίδραση σε ξαφνικές απειλές και αποτελεσματική εμπλοκή από κάλυψη."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Το σύστημα αρχίζει αυτόματα τη γέμιση νέου γεμιστήρα όταν απομένει μόνο ένα βλήμα στον τρέχοντα γεμιστήρα, διατηρώντας το όχημα έτοιμο για μάχη. Μπορείτε ρίξετε το τελευταίο βλήμα κατά τη διάρκεια αυτής της διαδικασίας, αλλά αν το κάνετε θα προστεθούν αρκετά δευτερόλεπτα στον χρόνο επαναγέμισης."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Το σύστημα αυτό διατηρεί το πυροβόλο ψυχρό, επιτρέποντας βολές με υψηλή ακρίβεια. Το πυροβόλο θερμαίνεται όταν ρίχνει βολές, αλλά αρχίζει να ψύχεται και επιστρέφει στις βελτιωμένες παραμέτρους του κατά την επαναγέμιση. Όσο υψηλότερη είναι η θερμοκρασία του, τόσο περισσότερο μεταβάλλονται ορισμένες από τις παραμέτρους του πυροβόλου."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Βασισμένο στην εμπειρία σχεδίασης προηγούμενων μοντέλων, αυτό το όχημα είναι ειδικά διαμορφωμένο για καταστρεπτικούς εμβολισμούς. Οι δομικές ενισχύσεις που διαθέτει του επιτρέπουν να προκαλεί πολύ μεγαλύτερη φθορά από αυτή που δέχεται κατά τον εμβολισμό εχθρικών οχημάτων, δίνοντάς του πλεονέκτημα στις αναμετρήσεις πρόσωπο με πρόσωπο."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Το πυροβόλο αυτού του οχήματος μπορεί να πυροβολεί νωρίτερα: οι βολές με μονή γόμωση, που εκτελούνται κατά τη διάρκεια της επαναγέμισης, έχουν μειωμένη αποτελεσματικότητα, ενώ οι κανονικές βολές πλήρους γόμωσης μετά την ολοκλήρωση της γέμισης διαθέτουν βέλτιστα βαλλιστικά χαρακτηριστικά."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Το πυροβόλο μπορεί να ρίχνει βολές συνεχώς, χωρίς να απαιτείται γέμισμα. Κάθε βολή παράγει θερμότητα: όσο υψηλότερη είναι η θερμοκρασία του πυροβόλου, τόσο περισσότερο αλλάζουν ορισμένες από τις παραμέτρους του. Τα συνεχή πυρά προκαλούν υπερθέρμανση, αποτρέποντας περαιτέρω βολές μέχρι να κρυώσει και πάλι."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Μείνετε ακίνητοι ή κινηθείτε αργά για να αυξήσετε την προθέρμανση, αναβαθμίζοντας τη φθορά και την ακρίβεια της επόμενης βολής σας. Στο μέγιστο επίπεδο προθέρμανσης, η διάτρηση σε ένα εχθρικό όχημα με λιγότερα HP από τη μέση φθορά σας, προκαλεί ανατίναξη των πυρομαχικών, καταστρέφοντας το εχθρικό όχημα."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Αυτή η φάση μετατρέπει το όχημά σας σε οχυρωμένη πλατφόρμα πυρός, προσφέροντας μεγαλύτερη ευστοχία και μικρότερο χρόνο επαναγέμισης. Σε αντάλλαγμα για αυτή την αυξημένη δύναμη πυρός, η ευκινησία του οχήματος—η ταχύτητα κίνησης και οπισθοπορείας και η κατακόρυφη/οριζόντια περιστροφή—περιορίζεται σημαντικά."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Αυτή η φάση προσφέρει σημαντική αύξηση στην ισχύ του κινητήρα και στη μέγιστη ταχύτητα κίνησης. Όσο περισσότερο κινείται το όχημα σε ευθεία γραμμή, τόσο περισσότερο αυξάνεται η ταχύτητα, για να καλύπτει μεγάλες αποστάσεις με ευκολία."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Το σύστημα συσσωρεύει γόμωση με την πάροδο του χρόνου. Όσο περισσότερη η γόμωση, τόσο μεγαλύτερο το μπόνους φθοράς. Η συσσώρευση γόμωσης περιορίζεται από έναν κόφτη, ο οποίος μπορεί να απενεργοποιηθεί για ακόμη μεγαλύτερο μπόνους φθοράς, με αντιστάθμισμα μειωμένες παραμέτρους ευστοχίας του πυροβόλου."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Ενεργοποιήστε τους Προωθητήρες Υγρού Καυσίμου ανά πάσα στιγμή για μια έκρηξη ταχύτητας όταν τη χρειάζεστε περισσότερο. Οι προωθητήρες θερμαίνονται και πρέπει να κρυώσουν πριν μπορέσουν να χρησιμοποιηθούν ξανά, ενώ η υπέρβαση του κρίσιμου ορίου υπερθέρμανσης τους απενεργοποιεί εντελώς προσωρινά."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Προωθητήρες στερεού καυσίμου που βελτιώνουν την επιτάχυνση, την ευκινησία και την ευελιξία για αρκετά δευτερόλεπτα. Οι αριστεροί και οι δεξιοί προωθητήρες μπορούν να λειτουργούν ανεξάρτητα μεταξύ τους για ταχύτερη περιστροφή του σκάφους και δεν περιορίζουν την ικανότητα οπισθοπορείας."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Ανάλογα με την ενεργή φάση και το επίπεδο φόρτισης, το όχημα μπορεί να ενεργοποιήσει 1 ή 2 δυνατότητες: \nΕπιταχυντής Ιόντων: αυξάνει την ισχύ του κινητήρα και την ταχύτητα. \nΗλεκτρομηχανικό Στόχαστρο Σύμπτωσης: μειώνει τη διασπορά των πυρών και τον χρόνο γέμισης."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Αυτό το εξάρτημα σας κρατάει στη μάχη δίνοντας τη δυνατότητα να διακόψετε την επαναγέμιση ανά πάσα στιγμή, εφόσον υπάρχει τουλάχιστον ένα βλήμα στο πυροβόλο. Πάτησε το πλήκτρο για να σταματήσετε την επαναγέμιση, ρίξτε βολή μετά από μια μικρή καθυστέρηση και συνεχίστε την επαναγέμιση είτε χειροκίνητα είτε αφήστε τον γεμιστήρα να γεμίσει αυτόματα όταν αδειάσει."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Πιέζοντας το πλήκτρο ενεργοποίησης, πυροδοτείται ο βοηθητικός οπλισμός του οχήματός σας εναντίον του στόχου. Αυτή η πρόσθετη δύναμη πυρός διαθέτει δικό της κύκλο επαναγέμισης που είναι ανεξάρτητος από το κύριο πυροβόλο."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Η επόμενη βολή σας εφαρμόζει ένα οπτικό εφέ ανάλογα με την κατάσταση εντοπισμού του εχθρικού οχήματος. Αν χτυπήσετε ένα εντοπισμένο εχθρικό όχημα, θα στοχοποιηθεί, θα παραμείνει εντοπισμένο για περισσότερο χρόνο και θα δεχτεί μεγαλύτερη φθορά. Αν χτυπήσετε έναν μη εντοπισμένο εχθρό, θα τον επισημάνετε με ένα ειδικό δείκτη θέσης."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Προκαλεί διπλάσια φθορά, αλλά μειώνεται η ευκινησία, η ευστοχία, η ταχύτητα περιστροφής του πυργίσκου και η ταχύτητα στόχευσης του πυροβόλου. Κατάλληλη επιλογή από κοντινή απόσταση."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Αυτή η μηχανική τροποποίηση ενισχύει σημαντικά την επιτάχυνση του οχήματος, την ισχύ του κινητήρα και τη μέγιστη ταχύτητα προς τα εμπρός και προς τα πίσω, για σύντομο χρονικό διάστημα, δίνοντας τη δυνατότητα για γρήγορη αντίδραση στις εχθρικές επιθέσεις και αιφνιδιασμό των αντιπάλων με δυναμικούς ελιγμούς."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Αναλογική Συσκευή Υπολογισμού Βαλλιστικής"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Ημιαυτόματα Πυρομαχικά"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Θερμο-Βαλλιστική Υπερφόρτιση"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Φάση Ριπής"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Πνευματικός Γυροσκοπικός Σταθεροποιητής"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Σύστημα Γέμισης Ριπής"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Ενεργή Ψύξη Πυροβόλου"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Διαμόρφωση Εμβολισμού"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Σύστημα Πολλαπλής Γόμωσης"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Αυτόματο Πυροβόλο Με Έλεγχο Υπερθέρμανσης"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Σύστημα Θερμικού Ελέγχου Προώθησης"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Φάση Πυρών"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Οδήγηση"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Επαγωγικός Μετακαυστήρας Προωθητικού"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Προωθητήρες Υγρού Καυσίμου"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Διαδοχικοί Προωθητήρες Στερεών Καυσίμων"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Τακτικό Σύστημα Ισχύος"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Εξωτερικά Πυρομαχικά"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Βοηθητικός Οπλισμός"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Καθορισμός Στόχου Με Λέιζερ"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Ομοβροντία Πυρών"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Τούρμπο Υψηλής Πίεσης"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Αυξάνει την ευστοχία της επόμενης βολής προσφέροντας καλή σταθεροποίηση του πυροβόλου."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Κάθε εύστοχη βολή σε εχθρικό όχημα αυξάνει την ταχυβολία για μικρό χρονικό διάστημα."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Ανεβάζει τα επίπεδα προθέρμανσης για να προκαλέσει η επόμενη βολή μεγαλύτερη φθορά στα εχθρικά οχήματα."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Γεμιστήρας ριπής για να ρίξετε 2 βλήματα σε πολύ μικρό χρονικό διάστημα."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Μεγιστοποιεί την σταθεροποίηση του πυροβόλου κατά τη διάρκεια κίνησης και περιστροφής του οχήματος μεγαλώνοντας την ευστοχία του."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Ξεκινά αυτόματα να γεμίζει στο τελευταίο βλήμα, το οποίο μπορείτε να ρίξετε κατά τη διαδικασία γέμισης."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Σύστημα ενεργής ψύξης που βελτιώνει την ευστοχία του πυροβόλου καθώς αυτό ψύχεται."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Αυξάνει τη φθορά από εμβολισμό που προκαλείτε στα εχθρικά οχήματα."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Ειδικός μηχανισμός πυρών που δίνει τη δυνατότητα για πρώιμες βολές με κόστος την αποτελεσματικότητα των βολών."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Το σύστημα αυτό δίνει τη δυνατότητα για συνεχή πυρά χωρίς να απαιτείται γέμισμα και ελέγχει την παραγόμενη θερμότητα κατά τη διάρκεια των βολών."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Σε ακινησία ή εν κινήσει με μικρή ταχύτητα, αυξάνεται η φθορά και η ευστοχία της επόμενης βολής."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Αυξάνεται σε μεγάλο βαθμό η ευστοχία και η ταχυβολία του πυροβόλου, αλλά μειώνεται επίσης σε μεγάλο βαθμό η ευκινησία του οχήματος."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Αυξάνει την ισχύ του κινητήρα, αυξάνοντας την τελική ταχύτητα όσο το όχημα συνεχίζει να κινείται."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Το σύστημα συσσωρεύει γόμωση με την πάροδο του χρόνου. Όσο περισσότερη η γόμωση, τόσο μεγαλύτερο το μπόνους φθοράς."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Οι προωθητήρες μπορούν να ενεργοποιηθούν ανά πάσα στιγμή για να δώσουν μια σύντομη αλλά πολύ μεγάλη αύξηση της ευκινησίας."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Προωθητήρες στερεού καυσίμου που βελτιώνουν την επιτάχυνση, την ευκινησία και την ευελιξία."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Γεμίζει 1 ή 2 μοναδικές δυνατότητες, αυξάνοντας την ευκινησία ή βελτιώνοντας την ευστοχία."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Δίνει τη δυνατότητα να διακόψετε τη γέμιση και να πυροβολήσετε σε κρίσιμες στιγμές."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Πρόσθετος οπλισμός που αυξάνει τη δύναμη πυρός."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Αυξάνει τον χρόνο που τα εχθρικά οχήματα παραμένουν εντοπισμένα και τη φθορά που δέχονται, ενώ τους δίνει μια ειδική σήμανση."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Ταυτόχρονα πυρά και από τα 2 πυροβόλα με κόστος στην ταχύτητα γέμισης."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Ειδικός μηχανισμός που ενισχύει την επιτάχυνση, την ισχύ του κινητήρα και τη μέγιστη ταχύτητα, για σύντομο χρονικό διάστημα."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Παραμείνετε ακίνητοι ή κινηθείτε κάτω από μια ορισμένη ταχύτητα για να βαθμονομήσετε την Αναλογική Συσκευή Υπολογισμού Βαλλιστικής και να αυξήσετε τα επίπεδα ευστοχίας, βελτιώνοντας την ευστοχία της επόμενης βολής σας. Αν υπερβείτε το όριο ταχύτητας, η πρόοδός σας στην αύξηση των επιπέδων ευστοχίας θα σταματήσει μέχρι να επιβραδύνετε. Στο υψηλότερο επίπεδο ευστοχίας, το όχημά σας αποκτά καλή σταθεροποίηση πυροβόλου, με μειωμένη διασπορά πυρών λόγω κίνησης ή περιστροφής πύργου και σκάφους. Η επίδραση ακυρώνεται με τη ρίψη πυρών."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Κάθε φορά που πετυχαίνετε πλήγμα σε ένα ορατό εχθρικό όχημα, κερδίζετε ένα επίπεδο αποτελεσματικότητας γεμίσματος, αυξάνοντας προσωρινά την ταχύτητα επαναγέμισης του πυροβόλου. Τα επίπεδα συσσωρεύονται με κάθε εύστοχο χτύπημα. Η καταστροφή ενός εχθρικού οχήματος από βολή προσθέτει επιπλέον επίπεδα αποτελεσματικότητας γεμίσματος."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Αν το πυροβόλο είναι γεμάτο, μπορείτε να αρχίσετε να προθερμαίνετε την επόμενη βολή σας. Όσο υψηλότερο είναι το επίπεδο προθέρμανσης που φτάνετε, τόσο μεγαλύτερο θα είναι το μπόνους στη μέση φθορά. Κατά τη διάρκεια της προθέρμανσης, δεν μπορείτε να αλλάξετε βλήματα. Όταν φτάσετε στο μέγιστο επίπεδο προθέρμανσης, ξεκινά ένα αντίστροφο χρονόμετρο. Αν δεν ρίξετε βολή πριν τη λήξη του, δεν θα μπορείτε να πυροβολήσετε για μερικά δευτερόλεπτα."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Δύο βολές που θα επιτύχουν διάτρηση σε εχθρικά οχήματα ενεργοποιούν τη φάση Ριπής, φορτώνοντας έναν γεμιστήρα ριπής από τον οποίο εξαπολύετε δύο βλήματα διαδοχικά με την επόμενη βολή σας."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Ο Πνευματικός Γυροσκοπικός Σταθεροποιητής προσφέρει μέγιστη σταθεροποίηση του πυροβόλου για σύντομο χρονικό διάστημα κατά την περιστροφή του σκάφους και του πυργίσκου, επιτρέποντας πιο ακριβή πυρά εν κινήσει και γρήγορη αντίδραση σε αιφνίδιες απειλές."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Το σύστημα αρχίζει αυτόματα τη γέμιση νέου γεμιστήρα όταν απομένει μόνο ένα βλήμα στον τρέχοντα γεμιστήρα, διατηρώντας το όχημα έτοιμο για μάχη. Μπορείτε να ρίξετε το τελευταίο βλήμα κατά τη διάρκεια αυτής της διαδικασίας, αλλά αν το κάνετε θα προστεθούν αρκετά δευτερόλεπτα στον χρόνο επαναγέμισης. Πατώντας το πλήκτρο Ολικό Γέμισμα Γεμιστήρα απορρίπτονται όλα τα εναπομείναντα βλήματα εκτός του τελευταίου. Πατήστε δύο φορές το πλήκτρο για να επαναφέρετε έναν πλήρως γεμισμένο γεμιστήρα."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Το σύστημα αυτό διατηρεί το πυροβόλο ψυχρό, επιτρέποντας βολές με υψηλή ακρίβεια. Το πυροβόλο θερμαίνεται όταν ρίχνει βολές, αλλά αρχίζει να ψύχεται και επιστρέφει στις βελτιωμένες παραμέτρους του κατά την επαναγέμιση. Όσο υψηλότερη είναι η θερμοκρασία του, τόσο περισσότερο μεταβάλλονται ορισμένες από τις παραμέτρους του πυροβόλου."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Αυτό το όχημα είναι ειδικά διαμορφωμένο για καταστρεπτικούς εμβολισμούς. Οι τροποποιήσεις που διαθέτει του επιτρέπουν να προκαλεί πολύ μεγαλύτερη φθορά από αυτή που δέχεται κατά τον εμβολισμό εχθρικών οχημάτων."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Το πυροβόλο αυτού του οχήματος μπορεί να πυροβολεί νωρίτερα: οι βολές με μονή γόμωση, που εκτελούνται κατά τη διάρκεια της επαναγέμισης, έχουν μειωμένη αποτελεσματικότητα, ενώ οι κανονικές βολές πλήρους γόμωσης μετά την ολοκλήρωση της γέμισης διαθέτουν βέλτιστα βαλλιστικά χαρακτηριστικά."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Το πυροβόλο μπορεί να ρίχνει βολές συνεχώς, χωρίς να απαιτείται γέμισμα. Κάθε βολή παράγει θερμότητα: όσο υψηλότερη είναι η θερμοκρασία του πυροβόλου, τόσο περισσότερο αλλάζουν ορισμένες από τις παραμέτρους του. Τα συνεχή πυρά προκαλούν υπερθέρμανση, αποτρέποντας περαιτέρω βολές μέχρι να κρυώσει και πάλι."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Παραμείνετε ακίνητοι ή κινηθείτε κάτω από μια ορισμένη ταχύτητα για να δημιουργήσετε προθέρμανση του βλήματος, η οποία αυξάνει τη μέση φθορά και την ευστοχία της επόμενης βολής σας. Η υπέρβαση του ορίου ταχύτητας μειώνει σταδιακά το μπόνους, ενώ η ρίψη πυρών ή η αλλαγή βλημάτων το μηδενίζει αμέσως. Στο μέγιστο επίπεδο προθέρμανσης, η διάτρηση σε ένα εχθρικό όχημα με λιγότερα HP από τη μέση φθορά σας—συμπεριλαμβανομένου του συσσωρευμένου μπόνους προθέρμανσης—προκαλεί ανατίναξη των πυρομαχικών, καταστρέφοντας το εχθρικό όχημα."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "Σε αυτήν τη φάση, αυξάνεται σε μεγάλο βαθμό η ευστοχία, η ταχυβολία και οι γωνίες ανόδου/καθόδου του πυροβόλου, αλλά μειώνεται επίσης σε μεγάλο βαθμό η ευκινησία του οχήματος (η ταχύτητα κίνησης και περιστροφής). Τα ποσοστά δίνονται για σύγκριση με τη φάση Μάχης."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Η φάση Οδήγησης δίνει σημαντική αύξηση στην ισχύ του κινητήρα και στη μέγιστη ταχύτητα κίνησης. Όσο περισσότερο κινείται το όχημα σε ευθεία γραμμή, τόσο περισσότερο αυξάνεται η ταχύτητα, για να καλύπτει μεγάλες αποστάσεις με ευκολία."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Με την πάροδο του χρόνου, το σύστημα συσσωρεύει αυτόματα τη γόμωση, η οποία καταναλώνεται εν μέρει για την αύξηση της φθοράς κατά τη βολή. Όσο περισσότερη η γόμωση, τόσο μεγαλύτερη είναι η αύξηση της φθοράς. Από προεπιλογή, το σύστημα συσσωρεύει τη γόμωση έως ένα συγκεκριμένο όριο. Η απενεργοποίηση του κόφτη δίνει τη δυνατότητα για συσσώρευση ακόμη περισσότερης γόμωσης, δίνοντας πολύ μεγαλύτερο μπόνους φθοράς, αλλά μειώνοντας τις παραμέτρους ευστοχίας του πυροβόλου."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Οι Προωθητήρες Υγρού Καυσίμου προσφέρουν μια έκρηξη στην ισχύ του κινητήρα για να αποκτήσετε πλεονέκτημα στη διεκδίκηση θέσης στο πεδίο μάχης—αλλά περιορίζουν σημαντικά την ταχύτητα οπισθοπορείας και περιστροφής του οχήματος. Μπορούν να ενεργοποιούνται ή να απενεργοποιούνται ανά πάσα στιγμή, εκτός εάν ξεπεράσουν το όριο επανενεργοποίησης. Οι προωθητήρες θερμαίνονται όσο είναι ενεργοί και καθίστανται μη διαθέσιμοι μέχρι να κρυώσουν, πράγμα που σημαίνει ότι δεν μπορούν να χρησιμοποιούνται συνεχώς—ενώ αν ξεπεραστεί το κρίσιμο όριο υπερθέρμανσης, θα απενεργοποιηθούν πλήρως προσωρινά. Σχεδιάστε τις κινήσεις σας προσεκτικά για να μην αιφνιδιαστείτε."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Προωθητήρες στερεού καυσίμου που ενισχύουν την επιτάχυνση, την ευκινησία και την ευελιξία για αρκετά δευτερόλεπτα. Αντίθετα με τους προωθητήρες αερίου, οι αριστεροί και οι δεξιοί προωθητήρες στερεού καυσίμου μπορούν να λειτουργούν ανεξάρτητα μεταξύ τους για ταχύτερη περιστροφή του σκάφους και δεν περιορίζουν την ικανότητα οπισθοπορείας. Μπορούν να χρησιμοποιηθούν πολλαπλές φορές μέσα στη μάχη, αλλά απαιτείται ψύξη τους πριν από νέα χρήση τους."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Ανάλογα με την ενεργή φάση και το επίπεδο φόρτισης, το όχημα μπορεί να ενεργοποιήσει 1 ή 2 δυνατότητες: τον Επιταχυντή Ιόντων ή το Ηλεκτρομηχανικό Στόχαστρο Σύμπτωσης.\nΟ Επιταχυντής Ιόντων αυξάνει προσωρινά την ισχύ του κινητήρα, τη μέγιστη ταχύτητα και την ταχύτητα οπισθοπορείας. Το Ηλεκτρομηχανικό Στόχαστρο Σύμπτωσης βελτιώνει προσωρινά την ευστοχία, ενώ μειώνει τον χρόνο γέμισης."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Τα Εξωτερικά Πυρομαχικά σας κρατούν στη μάχη δίνοντας τη δυνατότητα να διακόψετε την επαναγέμιση ανά πάσα στιγμή, εφόσον υπάρχει τουλάχιστον ένα βλήμα στο πυροβόλο. Κατά την επαναγέμιση, το εξάρτημα κλειδώνει τον πυργίσκο και τις εξωτερικούς θήκες πυρομαχικών του οχήματος, αποτρέποντας προσωρινά από το να σημαδέψετε ή να πυροβολήσετε, εκτός αν διακόψετε τη διαδικασία."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Το όχημα είναι εξοπλισμένο με βοηθητικό οπλισμό για πρόσθετη δύναμη πυρός σε κρίσιμες στιγμές. Ο βοηθητικός οπλισμός διαθέτει τον δικό της κύκλο επαναγέμισης, ο οποίος είναι ανεξάρτητος από το κύριο πυροβόλο."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Ο Καθορισμός Στόχου Με Λέιζερ προσθέτει ένα ειδικό εφέ στην επόμενη βολή σας, που εφαρμόζεται σε κάθε εχθρικό όχημα που θα χτυπήσετε. Το εφέ διαφέρει ανάλογα με το αν το εχθρικό όχημα ήταν εντοπισμένο τη στιγμή της βολής. Το χτύπημα σε εντοπισμένο εχθρικό όχημα το σημαδεύει, παρατείνοντας το χρόνο που παραμένει εντοπισμένο και αυξάνοντας τη φθορά που δέχεται από βλήματα, ενώ το χτύπημα σε μη εντοπισμένο εχθρικό όχημα υπογραμμίζει τη θέση του με ειδική σήμανση."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Προκαλεί διπλάσια φθορά, αλλά μειώνεται η ευκινησία, η ευστοχία, η ταχύτητα περιστροφής του πυργίσκου και η ταχύτητα στόχευσης του πυροβόλου. Κατάλληλη επιλογή από κοντινή απόσταση."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Αυτή η μηχανική τροποποίηση ενισχύει σημαντικά την επιτάχυνση του οχήματος, την ισχύ του κινητήρα και τη μέγιστη ταχύτητα προς τα εμπρός και προς τα πίσω, για σύντομο χρονικό διάστημα, δίνοντας τη δυνατότητα για γρήγορη αντίδραση στις εχθρικές επιθέσεις και αιφνιδιασμό των αντιπάλων με δυναμικούς ελιγμούς. Η διατήρηση υψηλής ταχύτητας κίνησης επιταχύνει τον χρόνο επαναφοράς."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Όλες οι τιμές που εμφανίζονται είναι οι ανώτερες δυνατές για το όχημα. Αναβαθμίσεις, εξοπλισμός και αναλώσιμα μπορούν να επηρεάσουν αυτές τις τιμές, αλλά οι αλλαγές αυτές δεν αποτυπώνονται εδώ."
+
+msgid "characteristics/templates/upTo"
+msgstr "Μέχρι και %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Αγορά & Τοποθέτηση"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Τροποποιήσεις Μάχης"
+
+msgid "modules/controls/button/mount"
+msgstr "Τοποθέτηση"
+
+msgid "modules/controls/button/research"
+msgstr "Ανακάλυψη"
+
+msgid "modules/controls/button/sell"
+msgstr "Πώληση Από Την Αποθήκη"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Το όχημα βρίσκεται σε μάχη. Μπορείτε να τοποθετήσετε άλλα εξαρτήματα μόλις τελειώσει η μάχη."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Το όχημα έχει υποστεί φθορές. Επισκευάστε το για να μπορείτε να τοποθετήσετε άλλα εξαρτήματα."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Αδύνατη η τοποθέτηση εξαρτήματος. Μυ συμβατό εξάρτημα {{module}}."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Το όχημα είναι σε επιχειρησιακή μονάδα."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Αγοράστε το όχημα για να μπορέσετε να επιλέξετε εξαρτήματα γι αυτό."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Ανακαλύψτε τα προηγούμενα εξαρτήματα για να μπορέσετε να τοποθετήσετε αυτό το εξάρτημα."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Ανακαλύψτε το όχημα για να μπορέσετε να ανακαλύψετε εξαρτήματα γι αυτό."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Ανακαλύψατε όλα τα εξαρτήματα."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Το εξάρτημα αυτό είναι ήδη τοποθετημένο."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Επιλέξτε το εξάρτημα ή το όχημα που θέλετε να ανακαλύψετε."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Το όχημα βρίσκεται σε μάχη. Μπορείτε να τοποθετήσετε άλλα εξαρτήματα μόλις τελειώσει η μάχη."
+
+msgid "modules/controls/name"
+msgstr "Επιλέχθηκε: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Σασί"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Κινητήρας"
+
+msgid "modules/name/vehicleGun"
+msgstr "Πυροβόλο"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Ασύρματος"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Πυργίσκος"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Τροχοί"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Συλλεκτικά Οχήματα"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Δυνατότητα να κερδίζει"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "credits από κάθε μάχη"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "μεταφορά πληρώματος χωρίς ποινή"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "Combat XP & Crew XP"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Bonds"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Περισσότερα"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Δωρεάν"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Περισσότερα"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Κερδίστε bonds"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Περισσότερα credits"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Δωρεάν μεταφορά"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Περισσότερα XP"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Δωρεάν Κουτί Επισκευών"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Δυνατότητα να κερδίζει"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "credits από κάθε μάχη"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "μεταφορά πληρωμάτων από οποιοδήποτε όχημα χωρίς ποινή"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "Combat XP & Crew XP"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Bonds"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Περισσότερα"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Δωρεάν"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Περισσότερα"
+
+msgid "overview/crew/name"
+msgstr "Πλήρωμα {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Προβολή μηχανισμού"
+
+msgid "overview/title/generalDescription"
+msgstr "Περιγραφή Οχήματος"
+
+msgid "overview/title/historicalReference"
+msgstr "Ιστορική Αναφορά"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Έως {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Ανάκτηση διαθέσιμη έως {{date}}"
+
+msgid "tabs/armor"
+msgstr "Θωράκιση"
+
+msgid "tabs/modules"
+msgstr "Εξαρτήματα"
+
+msgid "tabs/overview"
+msgstr "ΠΡΟΕΠΙΣΚΟΠΗΣΗ"
+
+msgid "tabs/stats"
+msgstr "Χαρακτηριστικά"
+
+msgid "tabs/vehSkillTree"
+msgstr "Αναβαθμίσεις"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Λήξη μίσθωσης"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Αναστολή Συνδρομής"

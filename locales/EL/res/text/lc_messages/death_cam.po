@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d-%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "SPACE"
+
+msgid "hints/camera_flow/pause"
+msgstr "Βελτιωμένη Λειτουργία (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Παύση (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Συνέχιση (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Το όχημα καταστράφηκε"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Φθορά Διασποράς"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Φθορά Θραυσμάτων"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Επιφανειακή Φθορά"
+
+msgid "hints/death_reason/penetration"
+msgstr "Άμεσο Πλήγμα"
+
+msgid "hints/follow_pt1"
+msgstr "Αριστερό-κλικ"
+
+msgid "hints/follow_pt2"
+msgstr "για να ακολουθήσετε αυτό το όχημα"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Δεξί-κλικ για επιστροφή στο προηγούμενο όχημα"
+
+msgid "hints/height/label"
+msgstr "Ύψος"
+
+msgid "hints/height/text"
+msgstr "Προσαρμόστε το ύψος της κάμερας."
+
+msgid "hints/movement/label"
+msgstr "Κίνηση"
+
+msgid "hints/movement/text"
+msgstr "Για να κινήσετε την κάμερα χρησιμοποιήστε τα πλήκτρα %(forward)s, %(left)s, %(backward)s, %(right)s."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Παράλειψη"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "SPACE"
+
+msgid "hints/speed/label"
+msgstr "Ταχύτητα"
+
+msgid "hints/speed/text"
+msgstr "Προσαρμόστε την ταχύτητα της κάμερας."
+
+msgid "hints/spotted_status/spotted"
+msgstr "Εντοπισμός"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Τυφλή Βολή"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Γωνία Μη-Διάτρησης"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Γωνία Διάτρησης"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Γωνία Εξοστρακισμού"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Ονομαστική Θωράκιση {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Θωράκιση {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Μεταβλητή Απόστασης {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Πλήρωμα Εκτός Μάχης!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Ανατίναξη Πυρομαχικών"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Πρόκληση Φωτιάς!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "Κανόνας Του Διπλάσιου Διαμετρήματος"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "Κανόνας Του Τριπλάσιου Διαμετρήματος"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Χωρίς Θωράκιση"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Θωράκιση Λόγω Κλίσης {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Διαμέτρημα {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Μέση Φθορά {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Δυνητική Φθορά {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Φθορά Από Διασπορά {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Φθορά Από Θραύσματα {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Πρόκληση Επιφανειακής Φθοράς {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Φθορά Σε Αντιπάλους {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Μείωση λόγω Απόστασης {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Αποσοβήθηκε Από Τη Θωράκιση {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Μειώθηκε Λόγω Εξοπλισμού {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Τυχαία Φθορά {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Μέση Διατρητικότητα {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Διατρητικότητα {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Ταχύτητα Βλήματος {colorTagOpen}(m/sec){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Απόσταση {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Μη Εντοπισμός Εχθρικού Οχήματος"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Εφαρμόστηκε"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Καμία"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Μη Εντοπισμένο"

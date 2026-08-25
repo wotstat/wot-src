@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Annulla ricerca"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Clicca per annullare la ricerca di membri per il Plotone."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Nuovo Plotone"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Crea un Plotone per invitare gli amici a giocare in compagnia."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Nuovo Super Plotone"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Trova giocatori"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Trova giocatori con livello di abilità e veicoli simili ai tuoi utilizzando il filtro di ricerca."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Se inizierai la ricerca di giocatori online tutti gli inviti agli amici saranno annullati."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Trova giocatori"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Non puoi ricercare giocatori: sono presenti troppi Plotoni sul server."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Non puoi ricercare giocatori per un Plotone: non sono presenti veicoli idonei."
+
+msgid "buttons/invite/player/caption"
+msgstr "Invita giocatore"
+
+msgid "buttons/invite/player/description"
+msgstr "Clicca per invitare un giocatore in un Plotone."
+
+msgid "buttons/invite/players/caption"
+msgstr "Invita giocatori"
+
+msgid "buttons/invite/players/description"
+msgstr "Clicca per invitare giocatori in un Plotone."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Abbandona Plotone"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Clicca per abbandonare il Plotone."
+
+msgid "buttons/mute/caption"
+msgstr "Disabilita la chat vocale del Plotone"
+
+msgid "buttons/mute/description"
+msgstr "Clicca per disabilitare la chat vocale del Plotone."
+
+msgid "buttons/notReady/caption"
+msgstr "Non sono pronto"
+
+msgid "buttons/notReady/description"
+msgstr "Clicca se non sei ancora pronto a entrare in battaglia."
+
+msgid "buttons/ready/caption"
+msgstr "Pronto!"
+
+msgid "buttons/ready/description"
+msgstr "Clicca se sei pronto a entrare in battaglia."
+
+msgid "buttons/reset/caption"
+msgstr "Ripristina le preferenze di ricerca"
+
+msgid "buttons/reset/description"
+msgstr "Clicca per ripristinare le preferenze di ricerca alle impostazioni predefinite."
+
+msgid "buttons/settings/caption"
+msgstr "Imposta le preferenze di ricerca"
+
+msgid "buttons/settings/description"
+msgstr "Cerca giocatori che soddisfino le tue preferenze. Più a lungo non riuscirai a trovare giocatori, più la ricerca verrà ampliata."
+
+msgid "buttons/unMute/caption"
+msgstr "Abilita la chat vocale del Plotone"
+
+msgid "buttons/unMute/description"
+msgstr "Clicca per abilitare la chat vocale del Plotone."
+
+msgid "headerButton/inSquad"
+msgstr "In Plotone"
+
+msgid "headerButton/onboarding"
+msgstr "ORA PUOI RICERCARE I GIOCATORI\nPER FORMARE UN PLOTONE"
+
+msgid "headerButton/searching"
+msgstr "Ricerca..."
+
+msgid "headerButton/squad"
+msgstr "Crea Plotone"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Combatti in un Plotone con un amico. Giocate come una squadra contro nove Plotoni nemici."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Plotone"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Non puoi creare o unirti a un Plotone perché sei temporaneamente bloccato da questa modalità."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Non potrai creare o unirti a un Plotone perché devi avere almeno un veicolo di livello %(level)s in Officina adatto alla modalità."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "La creazione del Plotone non è al momento disponibile"
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Plotoni indisponibili"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Puoi creare un Plotone o unirti a uno esistente. In Aggressione Light, i Plotoni possono essere composti da 2 o 7 giocatori."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Plotone"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Non puoi creare o unirti a un Plotone perché non hai un veicolo di livello %(level)s adatto nella tua Officina."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "Una volta completata la Qualificazione, saranno disponibili Plotoni da 2 e 7 giocatori."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Impossibile creare un Plotone."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Plotoni indisponibili"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Crea un Plotone o unisciti a uno esistente. I Plotoni in Aggressione Light possono essere composti da 2 o 7 giocatori."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Plotone"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Crea un'unità tattica composta da 2 o 3 giocatori per giocare in cooperativa.\n• Modalità di battaglia: Furia.\n• Tipo di battaglia: Caccia all'acciaio, Supremazia."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Plotone"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Crea un'unità tattica di 2 o 3 giocatori per partecipare a La Grande Corsa."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Plotone La Grande Corsa"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Clicca per aprire il menu del Plotone."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Missione di ricognizione: Plotone"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Clicca per aprire il menu del Plotone."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Plotone"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Crea un Plotone di 2 o 3 giocatori per partecipare a Missione di ricognizione."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Missione di ricognizione: Plotone"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "Non sono permesse unità tattiche in Battaglie Classificate."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Crea Plotone"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "In cerca di giocatori..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Ricerca in corso"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Crea un'unità tattica di 2 o 3 giocatori per cooperare in Battaglie Casuali e Prima Linea (quando disponibile)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Plotone"
+
+msgid "members/card/connectionLost"
+msgstr "Connessione interrotta"
+
+msgid "members/card/disabled"
+msgstr "Questa modalità supporta solo Plotoni di due giocatori"
+
+msgid "members/card/disabledVertical"
+msgstr "Non disponibile per questa modalità"
+
+msgid "members/card/empty"
+msgstr "Spazio vuoto"
+
+msgid "members/card/inBattle"
+msgstr "In battaglia"
+
+msgid "members/card/muted/caption"
+msgstr "Giocatore silenziato"
+
+msgid "members/card/muted/description"
+msgstr "Clicca con il tasto destro per riattivare la voce di questo giocatore."
+
+msgid "members/card/notReady"
+msgstr "Non sono pronto"
+
+msgid "members/card/searching"
+msgstr "In cerca di un giocatore..."
+
+msgid "members/card/selectVehicle"
+msgstr "Seleziona un veicolo di livello %(level)s"
+
+msgid "members/chat/chatName"
+msgstr "Canale di chat:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Clicca per inviare un messaggio al canale di chat."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Invia messaggio"
+
+msgid "members/footer/comp7Invite"
+msgstr "Inviti"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Restrizioni Plotone"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Miglior rango Plotone"
+
+msgid "members/footer/getNotReady"
+msgstr "Clicca per indicare che non sei pronto."
+
+msgid "members/footer/getReady"
+msgstr "Conferma che sei pronto a unirti alla battaglia."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Livello non compatibile"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Penalità all'esperienza per composizione inappropriata del Plotone!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Limite veicoli raggiunto"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "Il Plotone ha raggiunto il numero massimo di cacciacarri"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "Il Plotone ha raggiunto il numero massimo di A-SMV"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "Il Plotone ha raggiunto il numero massimo di carri pesanti"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "Il Plotone ha raggiunto il numero massimo di carri medi"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "Il Plotone ha raggiunto il numero massimo di carri leggeri"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "Il Plotone ha raggiunto il numero massimo di autoblindo"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "Il Plotone ha raggiunto il numero massimo di carri leggeri"
+
+msgid "members/header/battle_royal"
+msgstr ": Cacciatore d'acciaio"
+
+msgid "members/header/epic"
+msgstr ": Prima Linea"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: Projekt Hyperion"
+
+msgid "members/header/mapbox"
+msgstr ": Missione di ricognizione"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Battaglia Casuale"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "Prima Linea è disponibile\nsolo per veicoli di livello VIII."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Regole per la creazione del Plotone"
+
+msgid "members/header/tooltip/event/body"
+msgstr "Il Plotone deve comprendere tre veicoli speciali della modalità."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Regole per la creazione del Plotone"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "Il Plotone deve comprendere veicoli dello stesso livello."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Regole per la creazione del Plotone"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Giocatori nel Plotone"
+
+msgid "searching/estimated/caption"
+msgstr "Tempo stimato"
+
+msgid "searching/estimated/lessThan"
+msgstr "meno di %(seconds)d s"
+
+msgid "searching/estimated/moreThan"
+msgstr "più di %(seconds)d s"
+
+msgid "searching/expanded/body"
+msgstr "Nessun giocatore soddisfa le preferenze originali.\nLa ricerca è stata ampliata per includere altri livelli di veicoli."
+
+msgid "searching/expanded/header"
+msgstr "Preferenze di ricerca ampliate"
+
+msgid "searching/lookingFor"
+msgstr "In ricerca di:"
+
+msgid "searching/playersInQueue"
+msgstr "Giocatori in coda"
+
+msgid "searching/state"
+msgstr "In ricerca:"
+
+msgid "settings/tiers"
+msgstr "Livello del veicolo preferito"
+
+msgid "settings/voice"
+msgstr "Prediligi giocatori con chat vocale"
+
+msgid "squad"
+msgstr "Plotone"

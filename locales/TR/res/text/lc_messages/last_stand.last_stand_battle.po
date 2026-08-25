@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Enerji Atışı kullanıma hazır."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Vampir Atışı kullanıma hazır."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Şok Atışı kullanıma hazır."
+
+msgid "LS_damageShieldReady"
+msgstr "Enerji Kalkanı kullanıma hazır."
+
+msgid "LS_doubleDamageReady"
+msgstr "Çifte Hasar kullanıma hazır."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Durumsal Hasar hazır."
+
+msgid "LS_fastReloadReady"
+msgstr "Hızlı Yükleme kullanıma hazır."
+
+msgid "LS_healSituationalReady"
+msgstr "Durumsal Onarım hazır."
+
+msgid "LS_invisibilityReady"
+msgstr "Gölge İyileştirme kullanıma hazır."
+
+msgid "LS_nitroReady"
+msgstr "Turboşarj kullanıma hazır."
+
+msgid "LS_pickupSouls"
+msgstr "%(souls)s parça Mirium topladınız"
+
+msgid "LS_selfRepairReady"
+msgstr "Acil Durum Onarımı kullanıma hazır."
+
+msgid "LS_situationalNitroReady"
+msgstr "Durumsal Hareket Kabiliyeti hazır."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Grup Tamiri kullanıma hazır."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s Grup Tamirini etkinleştirdi."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Grup Tamiri etkinleştirildi."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Alana dikkat: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "ATLAS'ı savunun!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "ATLAS'ı savunun"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Alana gidiyorum!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "ATLAS'ı savunuyor"
+
+msgid "arena/phase"
+msgstr "Faz %(current)s / %(total)s"
+
+msgid "arena/wave"
+msgstr "Dalga %(current)s / %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Kirpiler&nbsp;yaklaşıyor!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Alfa Kirpi&nbsp;yaklaşıyor!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Alanı boşaltın!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Çabuk! Zero ATLAS'a&nbsp;yaklaştı!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Zero yok edildi!\nKalan düşman: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Yok edilecek düşmanlar: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "veri, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Araçlar onarıldı"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Kalkan verildi"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Düşmanlar şoka girdi"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s Dikilitaşı yok edildi!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Yeniden Canlanma"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Engel"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Sekte"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Doğuş noktaları tespit edildi! Düşman geliyor!"
+
+msgid "battleHint/hunter"
+msgstr "Avcılar&nbsp;yaklaşıyor!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Dalga yok edildi!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Kalan yok edilecek düşman:"
+
+msgid "battleHint/missing_squad"
+msgstr "Kayıp Takımı yaklaşıyor!"
+
+msgid "battleHint/newWave"
+msgstr "Dalga {current} / {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "Bir Dikilitaş belirdi!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Zero'yu Durdurun!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Zero'yu ATLAS'a\nulaşmadan durdurun!"
+
+msgid "battleHint/trapper"
+msgstr "İmha alanlarının ortaya çıkmasını&nbsp;durdurmak için Tuzakçıyı yok edin."
+
+msgid "battleHint/turret"
+msgstr "Sivrisinekler uyandı!"
+
+msgid "battleHint/waveFinished"
+msgstr "Dalga yok edildi!\nToparlanın ve hazır olun!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Toparlanın ve hazır olun!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Düşman takviye birlikleri&nbsp;geldi!"
+
+msgid "common/close"
+msgstr "KAPAT"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Süre: %(time)s sn."
+
+msgid "damageLog/personal_death_zone"
+msgstr "Alandan alınan hasar"
+
+msgid "damageLog/static_death_zone"
+msgstr "Alandan alınan hasar"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Ateşbaz ile yangın çıkarma"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Enerji Darbesiyle hasar"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Patlama ile hasar"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Can Çalıcı İle Hasar"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Durumsal Hasar etkinleştirildi"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Durumsal Onarım etkinleştirildi"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Enerji Atışı İle Hasar"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Vampir Atışı İle Hasar"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Şok Atışı İle Hasar"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Parça Dokunulmazlığı"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Durumsal Hareket Kabiliyeti etkinleştirildi"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Canlandırıcı"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Araç onarıldı"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Araç onarıldı:"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Araç, müttefik tarafından onarıldı"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Müttefikler onarıldı"
+
+msgid "eventStats/activeWave"
+msgstr "Dalga %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Zorluk Seviyesi: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Son Direniş: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Hedef: Tüm düşman dalgalarını yok edin"
+
+msgid "eventStats/mission"
+msgstr "Tüm düşman dalgalarını yok edin"
+
+msgid "eventStats/tableCaption"
+msgstr "Müfreze Üyeleri"
+
+msgid "help/description_0"
+msgstr "Kazanmak için tüm düşman dalgalarını yok edin.\nDüşman, ardışık her dalgada daha da güçlenir."
+
+msgid "help/description_1"
+msgstr "Taktik Cihazların doğru kombinasyonu son derece güçlü olabilir.\nUnutmayın: Son Direniş kipinde yönergelerin ve tüm mermi türlerinin kullanımı ücretsizdir."
+
+msgid "help/description_2"
+msgstr "Bir Dikilitaşa zarar vermek, o hasarın bir kısmını düşman araçlarına aktarır, birini yok etmek ise rastgele bir bonus verir."
+
+msgid "help/description_3"
+msgstr "ATLAS'ı son yankı tankı Zero'dan ne pahasına olursa olsun koruyun. Zero ATLAS'a ulaşırsa, onu yok edecek ve savaş kaybedilecek."
+
+msgid "help/title"
+msgstr "SON DİRENİŞ: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "DÜŞMAN SALDIRI DALGALARI"
+
+msgid "help/title_1"
+msgstr "HAYATTA KALMA TÜYOLARI"
+
+msgid "help/title_2"
+msgstr "SAVAŞTA DİKİLİTAŞLARI KULLANIN"
+
+msgid "help/title_3"
+msgstr "ATLAS'I KORUYUN"
+
+msgid "helpScreen/hint/description"
+msgstr "kip kurallarına bakın"
+
+msgid "helpScreen/hint/press"
+msgstr "Şu tuşa basarak:"
+
+msgid "hitMarker/useless"
+msgstr "İşe yaramıyor!"
+
+msgid "loading/description_0"
+msgstr "Kazanmak için tüm düşman dalgalarını yok edin.\nDüşman, ardışık her dalgada daha da güçlenir."
+
+msgid "loading/description_1"
+msgstr "Taktik Cihazların doğru kombinasyonu son derece güçlü olabilir.\nUnutmayın: Son Direniş kipinde yönergelerin ve tüm mermi türlerinin kullanımı ücretsizdir."
+
+msgid "loading/description_2"
+msgstr "Bir Dikilitaşa zarar vermek, o hasarın bir kısmını düşman araçlarına aktarır, birini yok etmek ise rastgele bir bonus verir."
+
+msgid "loading/description_3"
+msgstr "ATLAS'ı son yankı tankı Zero'dan ne pahasına olursa olsun koruyun. Zero ATLAS'a ulaşırsa, onu yok edecek ve savaş kaybedilecek."
+
+msgid "loading/title"
+msgstr "Yükleniyor..."
+
+msgid "loading/title_0"
+msgstr "DÜŞMAN SALDIRI DALGALARI"
+
+msgid "loading/title_1"
+msgstr "HAYATTA KALMA TÜYOLARI"
+
+msgid "loading/title_2"
+msgstr "SAVAŞTA DİKİLİTAŞLARI KULLANIN"
+
+msgid "loading/title_3"
+msgstr "ATLAS'I KORUYUN"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "[%(name)s] kullanılamıyor: Motor imha oldu."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Kullanılamıyor [%(name)s]: Top hasarlı."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Top yüklü."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Kullanılamıyor [%(name)s]: Cihazı etkinleştirmek için yeterli Mirium yok."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Araç hasarlı değil."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "[%(name)s] kullanılamıyor: Araç batıyor."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "[%(name)s] kullanılamıyor: Araç yanıyor."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "[%(name)s] kullanılamıyor: Araç ters dönük."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Müttefik %(target)s, düşman patlaması (%(attacker)s) tarafından yok edildi."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Müttefik %(target)s düşerek yok oldu."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Müttefik %(target)s imha alanı tarafından yok edildi."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Müttefik %(target)s yok edildi."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Müfrezeniz bu Dalgayı temizlemeyi başarırsa."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "YENİDEN DOĞACAKSINIZ"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Savaşınız bitti.\nİyi iş çıkardınız!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Araç imha alanı tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Araç, Enerji Darbesi tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Araç, Ateşbaz tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Araç, Can Çalıcı tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Araç bir patlama tarafından yok edildi"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Araç düştü"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "[%(device)s] parçası oyuncu ateşi sonucu patladı"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Araç yanarak imha oldu"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Araç yok edildi. Süre bitti."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Araç bir düşman atışı tarafından yok edildi"
+
+msgid "prebattle/description/message"
+msgstr "Hedef: Tüm düşman dalgalarını yok edin"
+
+msgid "prebattle/description/title"
+msgstr "Son Direniş: %(difficulty)s. Zorluk Seviyesi"
+
+msgid "prebattle/difficulty/107"
+msgstr "Normal"
+
+msgid "prebattle/difficulty/108"
+msgstr "İleri"
+
+msgid "prebattle/difficulty/109"
+msgstr "Vahşi"
+
+msgid "prebattle/waiting/title"
+msgstr "Oyuncular bekleniyor..."
+
+msgid "radialMenu/attention_here"
+msgstr "Savunma isteyin"
+
+msgid "radialMenu/cancel"
+msgstr "İptal"
+
+msgid "radialMenu/confirm"
+msgstr "Olumlu!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Alana gidiyorum!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Savunuluyor!"
+
+msgid "radialMenu/obelisk"
+msgstr "Ben Dikilitaşı alacağım!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Dikilitaşı yok edin!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Enerji Kalkanı"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Yola devam..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Tehlike alanını\nterk edin!"
+
+msgid "teamList/teammates"
+msgstr "Müttefikler"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Sesli sohbeti kapat"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Sesli sohbeti aç"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Bas-konuş"

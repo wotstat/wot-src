@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Изберете награди"
+
+msgid "banner/giftsAvailable"
+msgstr "Доставени са припаси!"
+
+msgid "banner/giftsForOffer"
+msgstr "Награди за участие в \"%(name)s\"."
+
+msgid "banner/selectNowOrLater"
+msgstr "Изберете наградите си сега или по-късно в Склада."
+
+msgid "banner/title"
+msgstr "Припаси от тила"
+
+msgid "description/rentValue/battles"
+msgstr "за битки: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "за дни: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "за победи: %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "Освен избраната машина, също така безплатно получавате и %(items)s."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}екипаж{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}екипаж{neutralClose} и {neutralOpen}слот в Парка{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}слот в Парка{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Отмени"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s ще бъде нает %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s ще бъде изпратен в Парка"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "Наемът на %(tankName)s ще бъде удължен %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Потвърди"
+
+msgid "giftDialog/title/common"
+msgstr "Потвърждение за получаване на\n\"%(name)s\""
+
+msgid "giftDialog/title/tank"
+msgstr "Получаване на машина"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Наемане на машина"
+
+msgid "giftsWindow/availableCount"
+msgstr "Достъпни: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Достъпно до: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Достъпни награди: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "В Парка"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Отворено за"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Преглед"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) битки"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) д."
+
+msgid "giftsWindow/rent/title"
+msgstr "Заем за: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) победи"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Получи"
+
+msgid "giftsWindow/tokens"
+msgstr "Достъпни: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Налични жетони: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Недостъпно"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Тъй вярно!"
+
+msgid "rewardWindow/title"
+msgstr "Наградата е получена"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Получи!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Удължи наема!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Безплатен наем на %(tankName)s %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s с екипаж"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s с екипаж и слот в Парка"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s със слот в Парка"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Удължи наема на %(tankName)s %(rentValue)s"

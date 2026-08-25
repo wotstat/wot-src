@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "backButton/label"
+msgstr "НАЗАД"
+
+msgid "backButton/to"
+msgstr "ДО СТАТУСУ АКАУНТУ"
+
+msgid "filteredMapsDisplayed"
+msgstr "Показано мап: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Увімкнути/вимкнути показ мап цього типу."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Пустельні мапи"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Літні мапи"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Зимові мапи"
+
+msgid "header/cooldown"
+msgstr "Замінити цю мапу можна через %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Вилучені мапи"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Знову замінити цю мапу можна через певний проміжок часу."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Замінити мапу неможливо"
+
+msgid "mapTile/hoverExclude"
+msgstr "Вилучити мапу «%(mapName)»?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Вилучити"
+
+msgid "mapTile/hoverInclude"
+msgstr "Повернути мапу «%(mapName)» у Випадкові бої?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Повернути"
+
+msgid "mapsFilterLabel"
+msgstr "Типи мап:"
+
+msgid "notSelected"
+msgstr "Не вибрано"
+
+msgid "premium"
+msgstr "Танковий преміум"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Додатковий слот доступний лише за умови активного Танкового преміум акаунту або оформленої підписки WoT Plus."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Активуйте Танковий преміум акаунт, щоб отримати доступ."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Активуйте підписку WoT Plus, щоб отримати доступ."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Виберіть мапу з переліку нижче, щоб замінити її та вилучити з Випадкових боїв."
+
+msgid "slot/selectTooltipBody"
+msgstr "Виберіть мапу з переліку нижче, щоб вилучити її з Випадкових боїв."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Слот відкрито"
+
+msgid "totalMapsDisplayed"
+msgstr "Показано мап: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Активуйте %(linkPremium), щоб вилучити додаткову мапу, а також оформте підписку %(linkWotPlus), щоб вилучити ще %(mapCount)s мапи."
+msgstr[1] "Активуйте %(linkPremium), щоб вилучити додаткову мапу, а також оформте підписку %(linkWotPlus), щоб вилучити ще %(mapCount)s."
+
+msgid "unlock/premium"
+msgstr "Активуйте %(linkPremium), щоб вилучити додаткову мапу."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Оформте підписку %(linkWotPlus), щоб вилучити ще %(mapCount)s мапу."
+msgstr[1] "Оформте підписку %(linkWotPlus), щоб вилучити ще %(mapCount)s мапи."
+
+msgid "wotplus"
+msgstr "WoT Plus"

@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "A megerősítéshez add meg a kiválasztott harckocsizó átadandó XP-mennyiségét."
+
+msgid "assignmentDialog/price"
+msgstr "Ár:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Az összes legénységi XP átadása a harckocsizók között"
+
+msgid "assignmentDialog/title"
+msgstr "A Mentorálási program megerősítése"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Ezt a harckocsizót eltávolítjuk\na fiókodból, és nem állíthatod vissza."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} extra XP el fog veszni."
+
+msgid "dialogue/description"
+msgstr "Fogyócikk, amellyel átadhatod egy harckocsizó összes legénységi XP-jét egy másik, azonos nemzethez tartozó harckocsizónak."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Ennyi extra XP veszik el:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "KIVÁLASZTÁS"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Összes XP:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Mentorálási engedély(ek):{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Nincs alkalmas harckocsizód"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Válaszd ki azt a harckocsizót, aki átadja az XP-jét\n{cream_Open}%(name)s{cream_Close} harckocsizónak, és ezzel eltávolítjuk a fiókodból."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "A legénységi XP átadását követően {cream_Open}%(name)s{cream_Close} harckocsizó eléri a készségkorlátot, és a korlát feletti XP így elvész."
+
+msgid "mentorAssigment/title"
+msgstr "MENTOR KIVÁLASZTÁSA"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} harckocsizó elérte a készségkorlátot, ezért nem választhatod ki az XP-átvitelhez."
+
+msgid "multipleUserName"
+msgstr "Mentorálási engedélyek"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Felhasznált mentorálási engedély(ek): %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Átadott legénységi XP: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "MENTORÁLÁSI PROGRAM"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Elveszített extra legénységi XP: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Lehetővé teszi számodra, hogy legénységi XP-t adj át\nazonos nemzethez tartozó harckocsizók között."
+
+msgid "storage/userName"
+msgstr "Mentorálási engedély"
+
+msgid "userName"
+msgstr "Mentorálási engedély"

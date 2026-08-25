@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Rasējums"
+
+msgid "animations/crew_close"
+msgstr "AIZVĒRT"
+
+msgid "animations/shop"
+msgstr "Iet uz Pirkumu"
+
+msgid "battleMattersTab"
+msgstr "Tanku Akadēmija"
+
+msgid "battleResults/descr"
+msgstr "Tanku Akadēmija: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Uz Tanku Akadēmijas Misijām"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Progress šajā kaujā"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Atcelt"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "AIZVĒRT"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Apstiprināt"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Jūs saņemsiet {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} ar apkalpi un Garāžas vietu."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Iemainīt jūsu Akadēmijas Tokenus pret %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "TRENIŅA MISIJU\nSĒRIJA"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Misijas izpildītas: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Tanku Akadēmija"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Balva par izpildi:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Misijas pašreiz nav pieejamas tehnisku iemeslu dēļ. Jūsu progress izpildītajām misijās tiks saglabāts."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Visas misijas izpildītas"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Misijas īslaicīgi nav pieejamas"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Nosacījumi:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Iemainiet tokenu pret jebkuru izpētāmu VI Līmeņa tanku."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "ATPAKAĻ"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "UZ TANKU AKADĒMIJAS MISIJĀM"
+
+msgid "mainRewardsScreen/done"
+msgstr "Garāžā"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Pirmsapskate"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Nomas dienas: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Izpildiet treniņa misiju sēriju, lai iegūtu trīs VIII Līmeņa Premium tankus nomai uz {cream_Open}14 dienām{cream_Close} kā galveno balvu."
+
+msgid "mainRewardsScreen/title"
+msgstr "TANKU AKADĒMIJA"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Izvēlēties"
+
+msgid "mainScreen/infoButton"
+msgstr "CEĻVEDIS JAUNPIENĀCĒJIEM"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "CEĻVEDIS"
+
+msgid "mainScreen/list/arrow"
+msgstr "Noklikšķiniet, lai ietu uz pašreizējo misiju."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Galvenā balva saņemta"
+
+msgid "mainScreen/progress"
+msgstr "Misijas izpildītas: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Kā Izpildīt"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Izpildiet iepriekšējo misiju"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Nav pieejams"
+
+msgid "mainScreen/showMainReward"
+msgstr "Skatīt Galveno Balvu"
+
+msgid "mainScreen/target"
+msgstr "Izpildiet visas misijas un iegūstiet trīs VIII Līmeņa tankus nomai."
+
+msgid "mainScreen/title"
+msgstr "TANKU AKADĒMIJA"
+
+msgid "pausedScreen/buttonText"
+msgstr "Uz Garāžu"
+
+msgid "pausedScreen/description"
+msgstr "Tanku Akadēmija īslaicīgi nav pieejama tehnisku iemeslu dēļ. Viss progress tiks saglabāts. Mēs atvainojamies par neērtībām."
+
+msgid "pausedScreen/title"
+msgstr "Īslaicīgi Nav Pieejams"
+
+msgid "rewards/additionalTitle"
+msgstr "Jūs arī saņēmāt:"
+
+msgid "rewards/footer/confirm"
+msgstr "Sapratu!"
+
+msgid "rewards/footer/more"
+msgstr "Vairāk: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Uz Nākamo Misiju"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Skatīt Garāžā"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Misijas nosacījumi tika izpildīti agrāk"
+
+msgid "rewards/rent"
+msgstr "Nomas dienas: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "PĒDĒJĀ MISIJA IZPILDĪTA"
+
+msgid "rewards/subTitle/regular"
+msgstr "MISIJA %(questNumber)s IZPILDĪTA"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "TANKS PAR AKADĒMIJAS TOKENU SAŅEMTS"
+
+msgid "rewards/title"
+msgstr "TANKU AKADĒMIJA"
+
+msgid "rewards/token/action"
+msgstr "Izvēlēties Tanku"
+
+msgid "rewards/token/description"
+msgstr "Izmantojiet tokenu, lai nekavējoties saņemtu VI Līmeņa tanku."
+
+msgid "rewards/token/title"
+msgstr "Iemainiet Akadēmijas Tokenu pret tanku"
+
+msgid "tokenTooltip/condition"
+msgstr "Tokeni tiek apbalvoti par veiksmīgu treniņa misiju sēriju izpildi un vajadzīgā progresa veikšanu iekš Tanku Akadēmijas."
+
+msgid "tokenTooltip/description"
+msgstr "Tokenus var iemainīt pret jebkuru izpētāmu VI Līmeņa tanku. Tanks nāk ar apkalpi un Garāžas vietu."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Tokens pieejams: {cream_open}%(days)s d{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Tokens pieejams līdz: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Tokens pieejams: {cream_open}%(hours)s h{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Tokens pieejams: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Akadēmijas Tokens"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Jūs saņemsiet {cream_Open}%(crewIcon)s apkalpi{cream_Close} un {cream_Open}%(hangarIcon)s Garāžas{cream_Close} {cream_Open}vietu{cream_Close} papildus jūsu tankam."
+
+msgid "vehicleSelection/back"
+msgstr "ATPAKAĻ"
+
+msgid "vehicleSelection/backTo"
+msgstr "UZ TANKU AKADĒMIJAS MISIJĀM"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Pievienot salīdzināšanai"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Konfigurējiet tanku klāstu pēc to tipa un nācijas."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filtrēt pēc Parametriem"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Noklikšķiniet, lai atiestatītu filtra iestatījumus uz noklusējumu."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Iestatīt pēc noklusējuma"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nācija"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filtrēt pēc Parametriem"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Tanka Veids"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Nekas nav atrasts. Nomainiet filtru iestatījumus vai atiestatiet tos uz noklusējumu."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Atiestatīt Filtru"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Jūs esiet izpētījuši visus VI Līmeņa tankus, ko var iemainīt pret Akadēmijas Tokenu."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Nav Tanku ko Izvēlēties"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Meklēt pēc nosaukuma"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Tanka nosaukums nevar saturēt vairāk kā %(maxLength)s rakstzīmes."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Meklēt pēc Nosaukuma"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Parādīts:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Iemainiet tokenu pret jebkuru izpētāmu VI Līmeņa tanku. Tanks nāk ar\napkalpi un Garāžas vietu."
+
+msgid "vehicleSelection/title"
+msgstr "Izvēlieties jebkuru izpētāmu VI Līmeņa tanku"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Tanku iznīcinātājs"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "Artilērija"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Smagais tanks"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Vieglais tanks"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Vidējais tanks"

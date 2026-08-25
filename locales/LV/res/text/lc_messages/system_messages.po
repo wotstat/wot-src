@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: <translator name> <<translator email>>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Jūsu konts veiksmīgi atgūts"
+
+msgid "achievements/server_error"
+msgstr "Izmaiņas vērtīgo balvu lentei nav sagalbātas."
+
+msgid "actionAchievement/title"
+msgstr "Akcijas medaļa"
+
+msgid "actionAchievements/title"
+msgstr "Akciju medaļas"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Kļūda trenējot iemaņu. Nepareizs tanks."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Nevar trenēt jaunu iemaņu.\nServeris nav pieejams. Mēģiniet vēlāk."
+
+msgid "add_tankman_skill/success"
+msgstr "Jauna iemaņa trenēta: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Kļūda trenējot iemaņu. Tanks slēgts."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Kļūda trenējot iemaņu. Salabojiet jūsu tanku."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Nevar trenēt jaunas iemaņas.\nServeris nav pieejams. Mēģiniet vēlāk."
+
+msgid "add_tankman_skills/success"
+msgstr "Jaunas iemaņas trenētas: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Jūs esat pieslēdzies citam serverim."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Pievienošanās kļūda. Jūs jau esat pievienojies komandai."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Pievienošanās kļūda. Nepareizs komandas numurs."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Pievienošanās kļūda. Darbība uz laiku nav pieejama. Mēģiniet vēlāk."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Šī pasākums šobrīd nav pieejams. Sekojiet jaunumiem spēles portālā."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Pievienošanās kļūda. Ielūgums ir novecojis."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Pievienošanās kļūda. Nepietiek tiesību."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Nevar pievienoties kaujai. Rinda šobrīd nav pieejama. Lūdzu mēģiniet vēlāk."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "Darbība nav pieejama. Rinda šobrīd ir pilna. Lūdzu mēģiniet vēlāk."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Pievienošanās kļūda. Komanda jau ir nokomplektēta."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Pievienošanās kļūda. Pārāk ilgi nav atbildes."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Pievienošanās kļūda. Pievienošanās nav pieejama šī veida kontam."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Kļūda pievienojoties kaujai."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Pievienošanās kļūda, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Pievienošanās kļūda: izvēlētā vēsturiskā kauja nav pieejama."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Savienojums neizdevās. Lūdzu izvēlieties %s serveri."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Savienojuma kļūda. Lūdzu, izvēlieties citu serveri."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Kļūda pievienojoties kaujai. Pašreizējā bruņutehnika nav gatava."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Kļūda: šī līmeņa bruņutehnika nevar cīnīties šajā kaujas režīmā."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Nevar doties kaujā: bruņutehnika nav gatava."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Lai piedalītos kaujā, jānopērk bruņutehnika."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Kļūda pievienojoties kaujai (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Kļūda pievienojoties kaujai (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Kļūda pievienojoties kaujai (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Kļūda pievienojoties kaujai (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Kļūda pievienojoties kaujai (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Kļūda pievienojoties kaujai (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Kļūda pievienojoties kaujai (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Kļūda pievienojoties kaujai (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Kļūda pievienojoties kaujai (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Kļūda pievienojoties kaujai (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Kļūda pievienojoties kaujai (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "Ir sasniegts maksimālais gaidīšanas laiks rindā uz kauju. Izvēlieties citu bruņutehniku vai mēģiniet vēlāk."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" neder šim tankam."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Nepareizs tanks. %(kind)s \"%(name)s\" nav uzstādīts."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" tika nomontēts no tanka. Jūs iztērējāt %(money)s."
+
+msgid "artefact_apply/server_error"
+msgstr "Servera kļūda uzstādot %(kind)s \"%(name)s\". Mēģiniet vēlāk."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" uzstādīts uz tanka."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Tanks slēgts. %(kind)s \"%(name)s\" nav uzstādīts."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Tanks bojāts. %(kind)s \"%(name)s\" nav uzstādīts. Salabojiet tanku un mēģiniet vēlreiz."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" neder šim tankam."
+
+msgid "artefact_buy/invalid_module"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Nepareizs modulis."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Nepareizs tanks. Neizdodas iegādāties un uzstādīt %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Nepietiek kredītu."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Nepietiek bonu."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Nepietiek Gadadienas Monētas."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Nepietiek zelta."
+
+msgid "artefact_buy/server_error"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Mēģiniet vēlāk."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Serveris īslaicīgi nav pieejams."
+
+msgid "artefact_buy/success"
+msgstr "%(kind)s \"%(name)s\" veiksmīgi nopirkts (%(count)s gab.). Iztērēts %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Tanks slēgts. Neizdodas iegādāties un izstādīt %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "Neizdodas iegādāties un uzstādīt %(kind)s \"%(name)s\". Salabojiet tanku un mēģiniet vēlreiz."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "Neizdodas izjaukt %(name)s. Nepareizs modulis."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "Neizdodas izjaukt %(name)s. Mēģiniet vēlāk."
+
+msgid "artefact_deconstructing/success"
+msgstr "Iekārta izjaukta: %(name)s (x%(count)s). Jūs saņēmāt %(money)s."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Iekārta izjaukta: %(names)s. Jūs saņēmāt %(money)s."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "'%(equipment)s' nav demontēts. Nepietiekami līdzekļi."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Nepareizs tanks. %(kind)s \"%(name)s\" nav iznīcināts."
+
+msgid "artefact_destroy/server_error"
+msgstr "Servera kļūda iznīcinot %(kind)s \"%(name)s\". Mēģiniet vēlāk."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" iznīcināts demontējot."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Tanks slēgts. %(kind)s \"%(name)s\" nav iznīcināts."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Tanks bojāts. %(kind)s \"%(name)s\" nav iznīcināts. Salabojiet tanku un mēģiniet vēlreiz."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" nomontēts no tanka. Jūs iztērējāt Demontēšanas komplektu."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "Palīgmateriāls \"%s\" tika nosūtīts uz Noliktavu nesaderības ar pašreizējo moduli dēļ."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Nepareizs tanks. %(kind)s \"%(name)s\" nav demontēts."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" tika nomontēts no tanka. Jūs iztērējāt %(money)s."
+
+msgid "artefact_remove/server_error"
+msgstr "Servera kļūda demontējot %(kind)s \"%(name)s\". Mēģiniet vēlāk."
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s \"%(name)s\" demontēts no tanka."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Tanks slēgts. %(kind)s \"%(name)s\" nav demontēts."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Tanks bojāts. %(kind)s \"%(name)s\" nav demontēts. Salabojiet tanku un mēģiniet vēlreiz."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s \"%(name)s\" tika noņemts no tanka par brīvu caur jūsu aktīvo WoT Plus abonementu."
+
+msgid "artefact_sell/invalid_module"
+msgstr "Nevar pārdot %(kind)s \"%(name)s\". Nepareizs modulis."
+
+msgid "artefact_sell/server_error"
+msgstr "Nevar pārdot %(kind)s \"%(name)s\". Mēģiniet vēlāk."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s priekšmets(i)). Saņemts %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Kļūda uzlabojot iekārtu. Lūdzu mēģiniet vēlreiz vēlāk."
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s \"%(name)s\" veiksmīgi uzlabots. Īpašības uzlabotas. Iztērēts %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "%(name)s %(kind)s veiksmīgi uzlabots un īpašības arī. %(money)s iztērēts.\n\nLīdzīga iekārta no alternatīvā komplekta tika nosūtīta uz Noliktavu."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Tanks bojāts. %(kind)s \"%(name)s\" nav uzlabots. Salabojiet tanku un mēģiniet vēlreiz."
+
+msgid "badges/select/server_error"
+msgstr "Servera kļūda"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "Darbība nav pieejama. Lūdzu, uzgaidiet, līdz pašreizējā darbība tiek pabeigta."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Ielūgumu sūtīšana"
+
+msgid "battleAbilities_apply/error"
+msgstr "Kaujas Rezerves konfigurācijas kļūda. Lūdzu mēģiniet vēlāk."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "Neizdevās iegādāties %(kind)s „%(name)s”. Nepietiek kredītu."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "Neizdevās iegādāties %(kind)s „%(name)s”. Nepietiek bonu."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s „%(name)s” neatbilst šai bruņutehnikai."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Nepietiek Gadadienas Monētas."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "Neizdevās iegādāties %(kind)s „%(name)s”. Nepietiek zelta."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "Neizdevās iegādāties %(kind)s „%(name)s”. Nepareiza ierīce."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "Neizdevās iegādāties un uzstādīt %(kind)s „%(name)s”. Nepareiza bruņutehnika."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "Neizdevās iegādāties %(kind)s „%(name)s”. Nepietiek kredītu."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "Neizdevās iegādāties %(kind)s „%(name)s”. Nepietiek bonu."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Nepietiek Gadadienas Monētas."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "Neizdevās iegādāties %(kind)s „%(name)s”. Nepietiek zelta."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Operācijas ar direktīvām īslaicīgi nav pieejamas uzturēšanas dēļ."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "Neizdevās iegādāties %(kind)s „%(name)s”. Serveris īslaicīgi nav pieejams."
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s „%(name)s” tika veiksmīgi iegādāts (%(count)s item(s)). Jūs iztērējāt %(money)s."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "Bruņutehnika ir bloķēta. Neizdevās iegādāties un uzstādīt %(kind)s „%(name)s”."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "Neizdevās iegādāties un uzstādīt %(kind)s „%(name)s”. Salabojiet bruņutehniku un mēģiniet vēlreiz."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Operācijas ar direktīvām īslaicīgi nav pieejamas uzturēšanas dēļ."
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s \"%(name)s\" pārdots (%(count)spriekšmets(i)). Saņemts: %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Direktīvas darbības kļūda. Lūdzu mēģiniet vēlāk."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Direktīvas darbības kļūda. Nepietiekami līdzekļi, lai veiktu pirkumu."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "Darbība nav pieejama. Jūsu zelts būs pieejams pēc tam, kad WG Maka operativitāte būs atjaunota."
+
+msgid "battlePass/activateChapter/success"
+msgstr "%(chapter)s Nodaļa aktivizēta"
+
+msgid "battlePass/extraFinish/body"
+msgstr "%(name)s pasākums ir beidzies. Paldies jums par piedalīšanos!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Kaujas Caurlaide: \"%(name)s\" Nodaļa"
+
+msgid "battlePass/extraStarted/body"
+msgstr "Komandieri! Kaujas Caurlaidē, %(name)s pasākums ir sācies, kura laikā jūs variet iegūt īpašu balvu!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Kaujas Caurlaide: Jauna Nodaļa Ir Pieejama!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Komandieri! Ir atlicis tikai nedaudz laika pirms \"%(name)s\" Nodaļa beigsies. Pasteidzieties!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Kaujas Caurlaide: \"%(name)s\" Nodaļa"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Komandieri! Neaizmirstiet, ka jūs variet pelnīt Kaujas Caurlaides Punktus Ranga Kaujās!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Komandieri! Neaizmirstiet, ka jūs variet pelnīt Kaujas Caurlaides Punktus Frontes Līnijā!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Komandieri! Neaizmirstiet, ka jūs variet pelnīt Kaujas Caurlaides Punktus Izlūkošanas Misijā!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Komandieri! Neaizmirstiet, ka jūs variet pelnīt Kaujas Caurlaides Punktus Uzbrukumā!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Kaujas Caurlaides %(seasonNum)d Sezona"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Kļūda izvēloties balvas. Lūdzu mēģiniet vēlreiz."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "Kaujas Caurlaides Sezona ir beigusies. Visas balvas, kuras jūs neizvēlējāties Sezonas laikā, tika piešķirtas jums pēc noklusējuma:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Kļūda izvēloties Nodaļu. Lūdzu mēģiniet vēlreiz."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Izvēlieties Nodaļu. Jūs variet mainīt uz citām Nodaļām jebkurā laikā."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Jūs nomainījāt uz citu Nodaļu. %(chapter)s Nodaļa tagad ir aktīva."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Kaujas Caurlaide īslaicīgi nav pieejama Tērauda Medniekā apkopes dēļ. Mēs atvainojamies par neērtībām."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Apkopes dēļ, pašreiz nevar nopelnīt Kaujas Caurlaides Punktus Uzbrukuma režīmā."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Kaujas Caurlai­des punktus šobrīd nevar nopelnīt režīmā Vieglais Uzbrukums apkopes dēļ."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "Kaujas Caurlaide īslaicīgi nav pieejama Frontes Līnijā apkopes dēļ."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "Kaujas Caurlaide īslaicīgi nav pieejama Ranga Kaujās apkopes dēļ."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "Kaujas Caurlaide atkal ir pieejama. Mēs atvainojamies par neērtībām.\nSezona pagarināta līdz: %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Kaujas Caurlaides Punktus atkal var nopelnīt Uzbrukuma režīmā. Mēs atvainojamies par neērtībām."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Kaujas Caurlai­des punktus atkal var nopelnīt režīmā Vieglais Uzbrukums. Atvainojamies par sagādātajām neērtībām."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "Kaujas Caurlaide ir atkal pieejama Frontes Līnijā. Mēs atvainojamies par neērtībām."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Kaujas Caurlaide ir atkal pieejama Ranga Kaujās. Mēs atvainojamies par neērtībām."
+
+msgid "battlePass/switch_pause/body"
+msgstr "Kaujas Caurlaide īslaicīgi nav pieejama apkopes dēļ."
+
+msgid "battlePass/switch_started/body"
+msgstr "Komandieri! Ir laiks atkal cīnīties par unikālām Kaujas Caurlaides balvām!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Kaujas Caurlaides %(seasonNum)d Sezona"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Kaujas Caurlaide: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "Kaujas Caurlaide ir beigusies. Visas balvas, kuras jūs neizvēlējāties, tika piešķirtas jums pēc noklusējuma:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "Nodaļa ir beigusies. Līdz nākamajai reizei!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Kaujas Caurlaide: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "Kaujas Caurlaide ir atkal pieejama. Mēs atvainojamies par neērtībām."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Komandieri! Kā jūs drīz atklāsiet, šī ir īpaša Kaujas Caurlaide.\n\nPar Progresa pabeigšanu, jūs saņemsiet Premium tanku tērptu unikālā 3D stilā, pielāgošanas elementus un daudz vairāk balvas!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Kaujas Caurlaide: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Kļūda pērkot Progresa Stadijas. Lūdzu mēģiniet vēlreiz."
+
+msgid "battlePass_buy/server_error"
+msgstr "Kļūda pērkot Uzlaboto Caurlaidi. Lūdzu mēģiniet vēlreiz."
+
+msgid "battleResults/sharing/success"
+msgstr "Saite nokopēta buferatmiņā. Jūs to varat iekopēt čatā, nospiežot Ctrl+V, vai izmantot ārpus spēles klienta."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Neizdodas atrast pretiniekus konkrētajai rotai. Pamēģiniet pārformēt komandu."
+
+msgid "battleSession/memberJoined"
+msgstr "%s pievienojās komandai."
+
+msgid "battleSession/memberLeave"
+msgstr "%s pameta komandu."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s nav gatavs kaujai komandas sastāvā."
+
+msgid "battleSession/memberOffline"
+msgstr "Zudis savienojums ar %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s gatavas kaujai komandas sastāvā."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Maksimālais skatītāju skaits komandā: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Maksimālais spēlētāju skaits komandā: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Nepietiekama atļauja, lai pārvietotu citus spēlētājus."
+
+msgid "battlesession/error/Limits"
+msgstr "Ir pārsniegts maksimālais spēlētāju skaits komandā."
+
+msgid "blueprints/conversion/disable"
+msgstr "Nepietiekami fragmenti konversijai."
+
+msgid "blueprints/conversion/error"
+msgstr "Neizdevās atvaļināt: serveris nav pieejams. Lūdzu, mēģiniet vēlāk."
+
+msgid "blueprints/switch_off"
+msgstr "Tanku plāni: šī funkcija uz laiku ir atslēgta. Mēs atvainojamies par neērtībām."
+
+msgid "blueprints/switch_on"
+msgstr "Tanku plāni atkal ir pieejami."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Darbība nav pieejama. Personīgā rezerve jau ir aktivizēta."
+
+msgid "booster_activate/DISABLED"
+msgstr "Neizdodas aktivizēt personīgo rezervi. Darbība nav pieejama."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Neizdodas aktivizēt personīgo rezervi. Darbība nav pieejama."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Darbība nav pieejama. Personīgā rezerve nav pieejama vai nav izvēlēta."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Neizdodas aktivizēt personīgo rezervi. Darbība nav pieejama."
+
+msgid "booster_activate/server_error"
+msgstr "Neizdodas aktivizēt personīgo rezervi. Mēģiniet vēlāk."
+
+msgid "booster_activate/success"
+msgstr "Personīgā rezerve „%(boosterName)s” aktivizēta. Atlicis laiks: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Neizdodas iegādāties personīgo rezervi „%(boosterName)s”. Nepietiek kredītu."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Neizdodas iegādāties personīgo rezervi „%(boosterName)s”. Nepietiek zelta."
+
+msgid "booster_buy/server_error"
+msgstr "Neizdodas iegādāties personīgo rezervi „%(boosterName)s”."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Neizdodas iegādāties personīgo rezervi „%(boosterName)s”. Serveris īslaicīgi nav pieejams."
+
+msgid "booster_buy/success"
+msgstr "Personīgā rezerve „%(boosterName)s” veiksmīgi iegādāta (%(count)s gab.). Iztērēts: %(money)s."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "booster_sell/server_error"
+msgstr "Neizdodas pārdot personīgo rezervi „%(boosterName)s”. Mēģiniet vēlāk."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Neizdodas pārdot personīgo rezervi „%(boosterName)s”. Mēģiniet vēlāk."
+
+msgid "booster_sell/success"
+msgstr "Personīgā rezerve „%(boosterName)s” veiksmīgi pārdota (%(count)s gab.). Saņemts: %(money)s."
+
+msgid "buttons/goToPoll"
+msgstr "Pāriet pie aptaujas"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Nevar rekrutēt un norīkot apkalpes locekli: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Jūs esat sasnieguši šīsdienas bezmaksas apkalpes locekļu limitu."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Neizdodas rekrutēt un norīkot apkalpes locekli. Nepareiza bruņutehnika."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Neizdodas rekrutēt un norīkot apkalpes locekli. Nepietiek kredītu."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Neizdodas rekrutēt un norīkot apkalpes locekli. Nepietiek zelta."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Neizdodas rekrutēt un norīkot apkalpes locekli. Mēģiniet vēlāk."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Neizdodas rekrutēt un norīkot apkalpes locekli. Bruņutehnika ir bloķēta."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Nevar rekrutēt un norīkot apkalpes locekli: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Jūs esat sasnieguši šīsdienas bezmaksas apkalpes locekļu limitu."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Neizdodas rekrutēt un aizvietot apkalpes locekli. Nepareiza bruņutehnika."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Neizdodas rekrutēt un aizvietot apkalpes locekli. Nepietiek kredītu."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Neizdodas rekrutēt un aizvietot apkalpes locekli. Nepietiek zelta."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Neizdodas rekrutēt un aizvietot apkalpes locekli. Nepieciešama brīva koja kazarmās. Lūdzu, atbrīvojiet vienu koju vai iegādājieties papildus kojas kazarmās."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Neizdodas rekrutēt un aizvietot apkalpes locekli. Mēģiniet vēlāk."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Neizdodas rekrutēt un aizvietot apkalpes locekli. Bruņutehnika ir bloķēta."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Jūs esat sasnieguši bezmaksas bruņutehniku iegādes limitu. Mēģiniet atkal rīt."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Kļūda paplašinot kazarmas. Nepietiek kredītu."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Kļūda paplašinot kazarmas. Nepietiek zelta."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Neizdevās paplašināt Kazarmas. Mēģiniet vēlāk."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Kazarmas paplašinātas.\nZelts iztērēts: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "buy_vehicle_slot_error"
+msgstr "Neizdodas iegādāties \"%s\". Nav brīvas vietas garāžā. Apsveriet pārdot tanku vai nopērciet jaunu vietu."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "Neizdodas iegādāties \"%s\". Nav brīvas vietas garāžā. Lūdzu atbrīvojiet vietu."
+
+msgid "challenges/activate/serverError"
+msgstr "Nevar aktivizēt Tīģeļa misijas. Lūdzu, mēģiniet vēlreiz vēlāk."
+
+msgid "challenges/activate/success/text"
+msgstr "Pirmā misija šajā sērijā ir pieejama izpildei. Ienāc kaujā un pieņem izaicinājumu!"
+
+msgid "challenges/activate/success/title"
+msgstr "Tīģelis : %(challengeName)s aktivizēts!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Uz Tīģeļi"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Pabeidziet to tagad un saņemiet savas balvas."
+
+msgid "challenges/challengeEnd/title"
+msgstr "Tīģeļa misijas drīz beigsies!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Apsveicam!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Jūs pabeidzāt Tīģeļi: %(challengeName)s! Saņemtās balvas:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Izlietotie kredīti:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Izlietotās bonas:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Zelts iztērēts:"
+
+msgid "challenges/restart/free/text"
+msgstr "Viena bezmaksas restartēšana ir izmantota, un misijas progress ir atiestatīts."
+
+msgid "challenges/restart/free/title"
+msgstr "Tīģelis: %(challengeName)s restartēts bez maksas"
+
+msgid "challenges/restart/paid/title"
+msgstr "Tīģelis: %(challengeName)s restartēts"
+
+msgid "challenges/restart/serverError"
+msgstr "Nevar restartēt Tīģeļa misijas. Lūdzu, mēģiniet vēlreiz vēlāk."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "Darbība nav pieejama. Lūdzu, uzgaidiet, līdz pašreizējā darbība tiek pabeigta."
+
+msgid "challenges/surrender/serverError"
+msgstr "Nevar atteikties no Tīģeļa misijām. Lūdzu, mēģiniet vēlreiz vēlāk."
+
+msgid "challenges/surrender/success/text"
+msgstr "Jūs esat pametis Tīģeli : %(challengeName)s. Misiju sērija ir izgāzusies."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Nevar nomainīt apkalpes locekļa kvalifikāciju: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Neizdodas nomainīt pamatspecialitāti. Mēģiniet vēlāk."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Neizdevās nomainīt pamatspecialitāti. Nepareiza bruņutehnika."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "Bruņutehnika angārā nav. Pārkvalificētais apkalpes loceklis tiks aizsūtīts uz kazarmām."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Neizdodas nomainīt apkalpes locekļa pamatspecialitāti. Nepietiek kredītu."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Neizdodas nomainīt apkalpes locekļa pamatspecialitāti. Nepietiek kredītu."
+
+msgid "change_tankman_role/server_error"
+msgstr "Nevar nomainīt kvalifikāciju.\nMēģiniet vēlāk."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "%(role)s jau ir norīkots %(vehicle)s. Pārkvalificētais apkalpes loceklis tiks aizsūtīts uz kazarmām."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Neizdodas nomainīt pamatspecialitāti. Mēģiniet vēlāk."
+
+msgid "charge/credits_error"
+msgstr "Pietrūkst %s kredītu un %s zelta. Ielādējiet munīciju manuāli."
+
+msgid "charge/credits_error_credits"
+msgstr "Pietrūkst %s kredītu. Ielādējiet munīciju manuāli."
+
+msgid "charge/credits_error_gold"
+msgstr "Pietrūkst %s zelta. Ielādējiet munīciju manuāli."
+
+msgid "charge/inventory_error"
+msgstr "Munīcija priekš %(vehicle)s nav ielādēta. Ielādējiet to pašrocīgi."
+
+msgid "charge/money_spent"
+msgstr "Munīcijas iegādei iztērēts %s."
+
+msgid "charge/server_error"
+msgstr "Kļūda ielādējot munīciju. Mēģiniet vēlāk."
+
+msgid "charge/server_error_save"
+msgstr "Kļūda saglabājot munīciju. Mēģiniet vēlāk."
+
+msgid "charge/success"
+msgstr "Munīcija ielādēta."
+
+msgid "charge/success_save"
+msgstr "Munīcija saglabāta."
+
+msgid "checkout_error"
+msgstr "Kļūda saņemot lietotāja informāciju. Lūdzu, mēģiniet vēlreiz."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/notifications/accept"
+msgstr "Apstiprināt"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Klanu uzaicinājums jau nosūtīts %(userName)s."
+
+msgid "clans/notifications/decline"
+msgstr "Noraidīt"
+
+msgid "clans/notifications/from"
+msgstr "no %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "Apskatīties informāciju par klanu"
+
+msgid "clans/notifications/invite"
+msgstr "Uzaicināšana klanā"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Ielūgums klanā apstiprināts"
+
+msgid "clans/notifications/invite/declined"
+msgstr "Ielūgums klanā noraidīts"
+
+msgid "clans/notifications/invite/expired"
+msgstr "Ielūgums klanā nav derīgs."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s apstiprināja klana ielūgumu."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s noraidīja klana ielūgumu."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Neizdodas aizsūtīt ielūgumu spēlētājam %(userName)s."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Ielūgums spēlētājam %(userName)s nosūtīts."
+
+msgid "clans/notifications/invites"
+msgstr "Ielūgumi klanā: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Izslēgt paziņojumus"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Apskatīties ielūgumus"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Klana ielūgumi netika aizsūtīti %(userCount)d spēlētājiem."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Ielūgumi tika aizsūtīti %(userCount)d spēlētājiem."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Jūs tikāt pieņemts klanā\n%(nameStartTag)s%(name)s%(nameEndTag)s."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "Jūsu pieteikums iestāties klanā\n%(nameStartTag)s%(name)s%(nameEndTag)s tika noraidīts."
+
+msgid "clans/notifications/request"
+msgstr "Pieteikums iestāties klanā"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Pieteikums apstiprināts."
+
+msgid "clans/notifications/request/declined"
+msgstr "Pieteikums noraidīts."
+
+msgid "clans/notifications/requestSent"
+msgstr "Pieteikums aizsūtīts klanam:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Spēlētāju pieteikumi: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Apskatīties pieteikumus"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s jau ir ielūgts jūsu klanā."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Darbība nav pieejama. Spēlētājs neatbilst rekrutēšanas prasībām."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "Vienas dienas sods par jūsu iepriekšējā klana pamešanu vēl nav beidzies."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Darbība nav pieejama. Nepareizs konts."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Darbība nav pieejama. Konts ir bloķēts."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Šis spēlētājs jau ir klana biedrs."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Darbība nav pieejama. Spēlētājs nav klana biedrs."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Darbība nav pieejama. Pieteikums neeksistē."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "Darbība nav pieejama. Pieteikums ir novecojis."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Nepietiek pilnvaru, lai aizsūtītu ielūgumu iestāties klanā."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Rekrutēšana klanā ir slēgta."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "Klanā brīvu vietu nav."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Darbība nav pieejama. Klans neeksistē."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Darbība nav pieejama. Klanā nav brīvas vietas."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Darbība nav pieejama. Klans ir izformēts."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Darbība nav pieejama. Klans nav aktīvs."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Darbība nav pieejama šī veida kontiem."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Darbība nav pieejama. Nepietiek pilnvaru."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Darbība nav pieejama. Ielūgums neeksistē."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Darbība nav pieejama. Ielūgums ir novecojis."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Darbība nav pieejama. Cietoksnis nav pieejams."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Darbība nav pieejama. Iesniegts maksimālais pieteikumu skaits."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Darbība nav pieejama. Aizsūtīts maksimālais ielūgumu skaits."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s jau ir klana biedrs."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" neder šim tankam."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" neder šim tornim. Nomainiet torni."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" ir nepareizais tips."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" ir nepareizās nācijas."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" neder šim tankam."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" ir nepareizais tips."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" ir nepareizās nācijas."
+
+msgid "client_inactive"
+msgstr "Klients nav aktīvs"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "Kolekcijas īslaicīgi nav pieejamas apkopes dēļ."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Kolekcijas nav pieejamas"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Kolekcijas ir sataisītas. Mēs atvainojamies par neērtībām."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Kolekcijas atkal ir pieejamas"
+
+msgid "connected"
+msgstr "Laipni lūgti World of Tanks %s serverī!"
+
+msgid "consumables_apply/error"
+msgstr "Palīgmateriālu konfigurācijas kļūda. Lūdzu mēģiniet vēlāk."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Palīgmateriālu konfigurācijas kļūda. Nepietiekami līdzekļi, lai veiktu pirkumu."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "Darbība nav pieejama. Jūsu zelts būs pieejams pēc tam, kad WG Maka operativitāte būs atjaunota."
+
+msgid "conversion/error"
+msgstr "Neizdevās atvaļināt: serveris nav pieejams. Lūdzu, mēģiniet vēlāk."
+
+msgid "conversion/header"
+msgstr "Datums: %(at)s\nPievienots:"
+
+msgid "conversion/success"
+msgstr "Atvaļināti nepietiekami apmācīti ekipāžas locekļi: %(number)s"
+
+msgid "conversion/title"
+msgstr "Kvīts"
+
+msgid "conversionPerks/header"
+msgstr "Datums: %(at)s\nPieredzes konvertēšana no apkalpes iemaņām pāri ierobežojumam. Saņemts: "
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "Privātās ziņas nav pieejamas spēlētājiem no jūsu valsts."
+
+msgid "crewBooks/failed"
+msgstr "Neizdevās trenēs šo apkalpi.\nMēģiniet vēlāk."
+
+msgid "crewBooks/server_error"
+msgstr "Apkalpes locekļa(u) trenēšana neizdevās servera kļūdas dēļ. Mēģiniet vēlāk."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "Apkalpe trenēta.\nIztērēts:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Neizdodas iegādāties Apkalpes Grāmatu servera kļūdas dēļ. Mēģiniet vēlāk."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s priekšmets(i)).\nKredīti iztērēti: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Neizdodas pārdot Apkalpes Grāmatu servera kļūdas dēļ. Mēģiniet vēlāk."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s priekšmets(i)).\nKredīti saņemti: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Apkalpes skins nomainīts."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Pievienoti apkalpes skini: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "Pašreizējais tanks ir aizstāts ar %s."
+
+msgid "customization/added/attachment"
+msgstr "%s 3D pielikums pievienots"
+
+msgid "customization/added/attachmentValue"
+msgstr "%s 3D pielikums pievienots: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "%s kamuflāža pievienota"
+
+msgid "customization/added/camouflageValue"
+msgstr "%s kamuflāža pievienota: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "%s dekals pievienots"
+
+msgid "customization/added/decalValue"
+msgstr "%s dekals pievienots: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "%s emblēma pievienota"
+
+msgid "customization/added/emblemValue"
+msgstr "%s emblēma pievienota: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "%s ieraksts pievienots"
+
+msgid "customization/added/inscriptionValue"
+msgstr "%s ieraksts pievienots: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "%s efekts pievienots"
+
+msgid "customization/added/modificationValue"
+msgstr "%s efekts pievienots: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "%s krāsa pievienota"
+
+msgid "customization/added/paintValue"
+msgstr "%s krāsa pievienota: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "%s viencipara skaitlis pievienots"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "%s viencipara skaitlis pievienots: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "%s divciparu skaitlis pievienots"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "%s divciparu skaitlis pievienots: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "\"%s\" trīsciparu skaitlis pievienots"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "%s trīsciparu skaitlis pievienots: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "%s dekals pievienots"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "%s dekals pievienots: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "Statistikas skaitītājs: %s pievienots"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Statistikas skaitītāji: %s pievienoti: (x%s)"
+
+msgid "customization/added/style"
+msgstr "%s stils pievienots"
+
+msgid "customization/added/styleValue"
+msgstr "%s stils pievienots: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Ārējā izskata maiņa nav iespējama. Pietrūkst kredīti un zelts."
+
+msgid "customization/credits_not_enough"
+msgstr "Ārējā izskata maiņa nav iespējama. Nepietiek kredītu."
+
+msgid "customization/currency_not_enough"
+msgstr "Nepietiekama valūta, lai pirktu priekšmetu."
+
+msgid "customization/gold_not_enough"
+msgstr "Ārējā izskata maiņa nav iespējama. Nepietiek zelta."
+
+msgid "customization/igr_type_changed_error"
+msgstr "IGR statuss izmainīts. Pašreizējā operācija atcelta."
+
+msgid "customization/invalidVehicle"
+msgstr "Nevar pielietot: nepiemērots tanks"
+
+msgid "customization/personal_number_prohibited"
+msgstr "Skaitlis %(value)s nav pieejams.\n %(itemType)s%(itemName)s tika noņemts no %(seasonName)s kartes."
+
+msgid "customization/progression/down/style"
+msgstr "%s stils samazināts uz %s Līmeni"
+
+msgid "customization/progression/up/style"
+msgstr "%s stils uzlabots uz %s Līmeni"
+
+msgid "customization/prohibited"
+msgstr "Neizdodas uzklāt: %(itemName)s nav inventārā."
+
+msgid "customization/removed/attachment"
+msgstr "%s 3D pielikums noņemts"
+
+msgid "customization/removed/attachmentValue"
+msgstr "%s 3D pielikums noņemts: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "%s kamuflāža pievienota"
+
+msgid "customization/removed/camouflageValue"
+msgstr "%s kamuflāža pievienota: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "%s dekals noņemts"
+
+msgid "customization/removed/decalValue"
+msgstr "%s dekals noņemts: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "%s emblēma noņemta"
+
+msgid "customization/removed/emblemValue"
+msgstr "%s emblēma noņemta: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "%s ieraksts noņemts"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "%s ieraksts noņemts: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "%s efekts noņemts"
+
+msgid "customization/removed/modificationValue"
+msgstr "%s efekts noņemts: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "%s krāsa noņemta"
+
+msgid "customization/removed/paintValue"
+msgstr "%s krāsa noņemta: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "%s viencipara skaitlis noņemts"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "%s viencipara skaitlis noņemts: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "%s divciparu skaitlis noņemts"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "%s divciparu skaitlis noņemts: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "%s trīsciparu skaitlis noņemts"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "%s trīsciparu skaitlis noņemts: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "%s dekals noņemts"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "%s dekals noņemts: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Statistikas skaitītājs: %s noņemts"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Statistikas skaitītāji: %s noņemti: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "%s stils noņemts"
+
+msgid "customization/removed/styleValue"
+msgstr "%s stils noņemts: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Nevar pielāgot."
+
+msgid "customization/unavailable"
+msgstr "Tehnisku iemeslu dēļ uz laiku ir atslēgta bruņutehnikas ārējā izskata pielāgošanas funkcija."
+
+msgid "customization/vehicle_damaged"
+msgstr "Ārējā izskata maiņa nav iespējama. Bruņutehnika ir sabojāta. Nepieciešams remonts."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Ārējā izskata maiņa nav iespējama. Bruņutehnika ir sadauzīta. Nepieciešams remonts."
+
+msgid "customization/vehicle_exploded"
+msgstr "Ārējā izskata maiņa nav iespējama. Bruņutehnika ir iznīcināta. Nepieciešams remonts."
+
+msgid "customization/vehicle_locked"
+msgstr "Ārējā izskata maiņa nav iespējama. Bruņutehnika aizslēgta."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Nevar rerollot Standarta Misiju: misija jau ir izpildīta."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Nevar rerollot Standarta Misiju: operācija bloķēta."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Nevar rerollot Standarta Misiju: operācija apturēta."
+
+msgid "daily_quests/reroll/success"
+msgstr "Standarta Misija veiksmīgi rerollota."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Nevar rerollot Standarta Misiju. Mēģiniet vēlāk."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Šī funkcija īslaicīgi nav pieejama tehnisku iemeslu dēļ.\nMēs atvainojamies par neērtībām."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Standarta Misijas īslaicīgi nav pieejamas"
+
+msgid "daily_quests/switch_on/body"
+msgstr "Tehniskas problēmas ir atrisinātas. Mēs atvainojamies par neērtībām."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Standarta Misijas atkal ir pieejamas"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Šī funkcija īslaicīgi nav pieejama tehnisku iemeslu dēļ.\nMēs atvainojamies par neērtībām."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "Pārvaldāms bonuss pieredzei nav īslaicīgi pieejams"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "Tehniskas problēmas ir atrisinātas. Mēs atvainojamies par neērtībām."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "Pārvaldāms bonuss pieredzei ir atkal pieejams"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Operācijas ar Demontēšanas komplektiem īslaicīgi nav pieejamas uzturēšanas dēļ."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Operācijas ar Demontēšanas komplektiem atkal ir pieejamas. Mēs atvainojamies par neērtībām."
+
+msgid "denunciation/success"
+msgstr "Sūdzība pret %(name)s (%(topic)s) iesniegta."
+
+msgid "disconnected"
+msgstr "Klients ir atvienots no servera."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Nevar demobilizēt apkalpes locekli: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Kļūda demobilizējot apkalpes locekli. Nepareiza bruņutehnika."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Neizdevās atvaļināt šo apkalpes locekli.\nMēģiniet vēlāk."
+
+msgid "dismiss_tankman/success"
+msgstr "Apkalpes loceklis atvaļināts."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Kļūda demobilizējot apkalpes locekli. Bruņutehnika ir bloķēta."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Kļūda demobilizējot apkalpes locekli. Ir nepieciešams salabot bruņutehniku."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Šī funkcija īslaicīgi nav pieejama tehnisku iemeslu dēļ.\nMēs atvainojamies par neērtībām."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Militārie Žetoni īslaicīgi nav pieejami"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Tehniskas problēmas ir atrisinātas. Mēs atvainojamies par neērtībām."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Militārie Žetoni atkal ir pieejami"
+
+msgid "dossiers_unavailable"
+msgstr "Atskaite nav gatava (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Visas iemaņas tika atiestatītas.\nKredīti iztērēti: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Visas iemaņas tika atiestatītas.\nZelts iztērēts: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Kļūda atiestatot iemaņas. Nepareizs tanks."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Neizdevās atiestatīt iemaņas. Mēģiniet vēlāk."
+
+msgid "drop_tankman_skill/success"
+msgstr "Visas iemaņas tika atiestatītas."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Kļūda atiestatot iemaņas. Tanks ir slēgts."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Kļūda atiestatot iemaņas. Salabojiet jūsu tanku."
+
+msgid "drr_scale/step_down"
+msgstr "Dinamiskā izšķirtspēja ir samazināta līdz %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Dinamiskā izšķirtspēja ir palielināta līdz %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "Uz Sasniegumiem"
+
+msgid "earning/button/single"
+msgstr "Uz Sasniegumu"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s sasniegumi atslēgti"
+
+msgid "earning/common/single"
+msgstr "%(value)s sasniegums atslēgts!"
+
+msgid "earning/title"
+msgstr "Apsveicam!"
+
+msgid "earning/trophy/multiple"
+msgstr "%(value)s trofejas nopelnītas!"
+
+msgid "earning/trophy/single"
+msgstr "%(value)s trofeja nopelnīta!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "Ātrā Apkalpošana atkal ir pieejama. Mēs atvainojamies par izraisītajām neērtībām."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "Ātrā Apkalpošana īslaicīgi nav pieejama apkopes dēļ."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Kļūda piemērojot Ātrās Apkalpošanas konfigurāciju. Lūdzu mēģiniet vēlāk."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Kļūda piemērojot Ātrās Apkalpošanas konfigurāciju. Nepietiekami līdzekļi, lai veiktu pirkumu."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Ātrās Apkalpošanas darbība nav pieejama. Jūsu zelts būs pieejams pēc tam, kad WG Maka operativitāte būs atjaunota."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Balva saņemta:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Jūs sasniedzāt <font color='#E9E2BF'>%(tier)s</font> Frontes Līnijas Progresijas Līmeni."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Apsveicam!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "Frontes līnija nav pieejama. Sekojiet atjauninājumiem spēles portālā."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Kļūda izvēloties balvas. Lūdzu mēģiniet vēlreiz."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "%(name)s saņemts"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Direktīvas par iekārtām saņemtas: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Eksperimentālā Iekārta saņemta: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "Frontes Līnijas Sezona ir beigusies.<br/>Visas balvas, kuras jūs neizvēlējāties Sezonas laikā, tika piešķirtas jums pēc noklusējuma:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Frontes Līnija"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Nevar norīkot apkalpes locekli: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Kļūda norīkojot apkalpes locekli. Nepareiza bruņutehnika."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Neizdevās aizsūtīt apkalpes locekli uz Kazarmām. Nepietiek gultas Kazarmās."
+
+msgid "equip_tankman/server_error"
+msgstr "Neizdevās pārvietot apkalpes locekli uz tanku. Mēģiniet vēlāk."
+
+msgid "equip_tankman/success"
+msgstr "Apkalpes loceklis pārvietots uz %(vehName)s."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Kļūda norīkojot apkalpes locekli. Bruņutehnika ir bloķēta."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Kļūda norīkojot apkalpes locekli. Nepieciešams saremontēt bruņutehniku."
+
+msgid "exchange/not_enough_gold"
+msgstr "Nepietiek zelta priekš apmaiņas."
+
+msgid "exchange/server_error"
+msgstr "Kļūda apmainot %(gold)s zelta vienības. Mēģiniet vēlāk."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Nepietiek zelta priekš %(xp)s pieredzes punktu konvertēšanas."
+
+msgid "exchangeXP/server_error"
+msgstr "Kļūda konvertējot %(xp)s pieredzes punktus. Mēģiniet vēlāk."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Nevar trenēt jaunas iemaņas.\nServeris nav pieejams. Mēģiniet vēlāk."
+
+msgid "filling_untrained_perks/success"
+msgstr "Jaunas iemaņas trenētas visiem apkalpes locekļiem."
+
+msgid "fortification/addOrder"
+msgstr "Aizsākta %(count)s rezervju sagatavošana. Līdz beigām: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "Sākta ēkas %(buildingName)s celtniecība. Transportējiet nepieciešamo industriālo resursu apjomu, lai nodrošinātu nepārtrauktu celtniecību."
+
+msgid "fortification/created"
+msgstr "Apsveicam!\nCietoksnis veiksmīgi izveidots."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Pēc 48 stundām jūsu cietokšņa aizsardzība tiks izslēgta. Šajā laikā jūs varat atkārtoti ieslēgt aizsardzību cietokšņa iestatījumos."
+
+msgid "fortification/defenceHourSet"
+msgstr "Aizsardzības periods tiks izmainīts pēc 14 dienām. Jaunais aizsardzības periods: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "Uguns pārtraukšanas diena tiks izmainīta pēc 14 dienām. Jaunā uguns pārtraukšanas diena: nav iestatīta."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "Uguns pārtraukšanas diena tiks izmainīta pēc 14 dienām. Jaunā uguns pārtraukšanas diena: %(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "Ēka %(buildingName)s nojaukta."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Darbība nav pieejama. Jūs jau esat piesaistīts šai ēkai."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Darbība nav pieejama. Cietoksni jau izveidots."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "Darbība nav pieejama. Klans jau ir pievienots grāmatzīmēs."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "Darbība nav pieejama. Jūs nevarat ieplānot vairāk kā vienu uzbrukumu tam pašam klanam."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "Darbība nav pieejama. Uzbrukuma dati nav ielādēti."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "Darbība nav pieejama. Jāpaiet vienai nedēļai kopš pēdējā uzbrukuma šim klanam."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "Darbība nav pieejama. Cita trieciengrupa kontrolē placdarmu."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "Darbība nav pieejama. Uzbrukums nav ieplānots."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "Darbība nav pieejama. Jūs varat ieplānot tikai uzbrukumu, kas sāktos vismaz pēc 15 minūtēm."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Neizdodas ieplānot uzbrukumu izvēlētajā dienā."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "Darbība nav pieejama. Nepareizs klana ID."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "Darbība nav pieejama. Nepareiza uguns pārtraukšanas dienas vērtība."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "Darbība nav pieejama. Nepareizs datums."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "Darbība nav pieejama. Nepareizs ID uzbrukumam."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "Darbība nav pieejama. Nepareiza aizsardzības perioda vērtība."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Nevar uzbrukt izvēlētajam kalnam: atšķirība starp cietokšņu līmeņiem ir lielāka par 1. Izvēlieties citu klanu."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "Darbība nav pieejama. Nepareizs rezervju skaits."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "Darbība nav pieejama. Nosūtīts nepareizs industriālo resursu apjoms."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "Darbība nav pieejama. Nepareiza divīzija."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Darbība nav pieejama. Dati par sadursmi nav saņemti."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "Pašlaik kaujas šajā serverī nav pieejamas."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Darbība nav pieejama. Nepareizs neitralitātes periods."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Darbība nav pieejama. Nepareizs neitralitātes datums."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "Darbība nav pieejama. Salabojiet komandcentru."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "Darbība nav pieejama. Komandcentrs ir iznīcināts."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "Darbība nav pieejama. Komandcentrs nav bojāts."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "Darbība nav pieejama. Kauja neeksistē."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Atvainojiet, detalizēti kaujas rezultāti nav pieejami."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Darbība nav pieejama. Cietoksnis satur ēkas."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "Darbība nav pieejama. Ēka ir bojāta."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Darbība nav pieejama. Ēka nav uzbūvēta."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "Darbība nav pieejama. Nevar iegūt informāciju par klanu."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "Darbība nav pieejama. Nav iespējams atrast klanu."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Darbība nav pieejama. Transportēšana nav iespējama."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Darbība nav pieejama. Neizdodas uzlabot ēku."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Darbība ir atslēgta. Serveris īslaicīgi nav pieejams."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "Darbība nav pieejama. Klans ir aktivizējis uguns pārtraukšanas dienu."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "Darbība nav pieejama. Klans ir aktivizējis neitralitāti."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "Darbība nav pieejama. Neizdodas iestatīt aizsardzības periodu norādītajā laikā."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "Darbība nav pieejama. Cita trieciengrupa kontrolē placdarmu."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "Darbība nav pieejama. Aizsardzība nav ieplānota."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Darbība nav pieejama. Nepareizi dati."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "Darbība nav pieejama. Nav ieslēgta aizsardzība."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Cietoksnis uz laiku nav pieejams."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Darbība nav pieejama. Ēka jau ir uzbūvēta."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Darbība nav pieejama. Lūdzu, uzgaidiet, līdz pašreizējā darbība tiek pabeigta."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "Darbība nav pieejama. Jūs tajā laikā uzbrūkat citam klanam."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Nevar ieplānot uzbrukumu šim klanam norādītajā laikā."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Kļūda. Cietokšņa režīms uz laiku nav pieejams."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Darbība nav pieejama. Cietokšņa līmenis pārāk zems."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "Darbība nav pieejama. Visu ēku celšana ir pārtraukta."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Darbība nav pieejama. Nepietiek pilnvaru."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "Darbība nav pieejama. Neizdodas pievienoties taktiskajai vienībai."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Darbība īslaicīgi nav pieejama."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "Darbība nav pieejama. Laiks nav sinhronizēts."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Darbība nav pieejama. Jūs neesat piesaistīts ēkai."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Darbība nav pieejama. Spēlētājs nav klana biedrs."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Darbība nav pieejama. Par maz spēlētāju klanā."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Darbība nav pieejama. Nepietiek industriālo resursu ēkas krātuvē."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "Darbība nav pieejama. Klans neatrodas grāmatzīmēs."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Darbība nav pieejama. Ēka nav uzbūvēta."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Darbība nav pieejama. Jūs neesat klana biedrs."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "Darbība nav pieejama. Rezervi šobrīd nevar aktivizēt."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Darbība nav pieejama. Nepareiza ēka."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Darbība nav pieejama. Rezerve nav pieejama vai nav izvēlēta."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Darbība nav pieejama. Nepareiza rezerve."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Darbība nav pieejama. Nepareiza rezerve."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "Darbība nav pieejama. Ēka jau tiek būvēta."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "Darbība nav pieejama. Uzbrukums neeksistē."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Darbība nav pieejama. Rezerve jau ir aktivizēta."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Darbība nav pieejama. Rezerve jau tiek sagatavota."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "Darbība nav pieejama. Būvēšana ir apturēta."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "Darbība nav pieejama. Rezerve nav pieejama."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "Darbība nav pieejama. Būvēšana nav apturēta."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "Darbība nav pieejama. Serveris nav tiešsaistē."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "Darbība nav pieejama. Slots jau ir aizņemts."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "Darbība nav pieejama. Aizsardzība jau ir izslēgta."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "Darbība nav pieejama. Aizsardzība vēl nav izslēgta."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Darbība nav pieejama. Apmācība nav pabeigta."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Darbība nav pieejama. Krātuve ir pilna."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "Darbība nav pieejama. Aizsardzība šai dienai jau ir ieplānota."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "Sasniegts izvēlēto klanu skaita limits."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "Darbība nav pieejama. Sasniegts sagatavoto rezervju limits."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Darbība nav pieejama. Ēkas garnizons ir pilnībā nokomplektēts."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Darbība nav pieejama. Pārsniegts sadursmju limits."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Darbība nav pieejama. Transportēšana īslaicīgi nav pieejama."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Darbība nav pieejama. Sasniegts transportēšanas limits."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "Darbība nav pieejama. Spēlētājs nav gatavs."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Darbība nav pieejama. Nevar nojaukt komandcentru."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Darbība nav pieejama. Nepareizs klans."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "Darbība nav pieejama. Nepareizs serveris."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Darbība nav pieejama. Nevar uzbūvēt ēku šajā zonā."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Jūs esat piesaistīts ēkai %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "Uzbrukums piespiedu kārtā ir apturēts dēļ tehniskām problēmām servera pusē."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Uzlabošana veiksmīgi paveikta. Ēkas %(buildingName)s līmenis paaugstināts uz %(buildingLevel)s."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Cietoksnis uz laiku nav pieejams. Mēģiniet vēlāk."
+
+msgid "fortification/notification/turnedOn"
+msgstr "Režīms „Cietoksnis: kaujas” ir atkal pieejams."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Aktivizēt rezerves"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Pievienot ēku"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Pievienot klanu grāmatzīmēm"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Pievienot rezerves"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Pievienot spēlētāju garnizonam"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Aizsardzības perioda atjaunošana"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Pielāgot aizsardzības periodu"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Pielāgot uguns pārtraukšanu"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Nomainīt serveri"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Izmainīt iestatījumus"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Pielāgot neitralitāti"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Izveidot cietoksni"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Trieciengrupas izveide"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Aizvākt ēku"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Aizvākt cietoksni"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Uzbrukuma ieplānošana"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Izdzēst grāmatzīmēs pievienotu klanu"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Apskatīties informāciju par klanu"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Apskatīties informāciju par klaniem"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Saņemt trieciengrupas datus"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Aizsardzības perioda izslēgšana"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Transportēšana"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Ēkas uzlabošana"
+
+msgid "fortification/transport"
+msgstr "Transportēšana veiksmīgi pabeigta. %(res)s industriālie resursi pārvietoti no ēkas %(fromBuilding)s uz ēku %(toBuilding)s."
+
+msgid "fortification/vacationSet"
+msgstr "Cietoksnis ievēro neitralitāti %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Operācija nav pieejama."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Kļūda apmācot apkalpes locekli. Nepietiek brīvās pieredzes."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Kļūda apmācot apkalpes locekli. Norādītais tankists neeksistē."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Kļūda apmācot apkalpes locekli. Mēģiniet vēlāk."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Kļūda apmācot apkalpes locekli. Mēģiniet vēlāk."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Neizdevās trenēt apkalpes locekli ar Brīvo Pieredzi.\nMēģiniet vēlāk."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Apkalpes loceklis trenēts.\nBrīvā Pieredze iztērēta: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "Lai novērstu spēles atkarību bērnos un pusaudžos, piedalīšanās kaujā tiks aizliegta. Jūs tiksiet atslēgts no servera %(blockTime)s."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Atlikušais spēles laiks: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "Laika ierobežojums beidzas, tamdēļ jūs nevariet pievienoties jaunai kaujai. Jūs tiksiet atslēgts no servera %s."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Spēles ilgums: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Līdz pusnaktij atlicis: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "Jūsu spēles laiks ir beidzies. Jūs nevariet pievienoties jaunai kaujai. Jūs tiksiet atslēgts no servera %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "Spēles laika limits tika noņemts no jūsu konta"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "Vecāku kontroles iestatījumi tika mainīti."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Jūs tiksiet atslēgts no servera %(timeLimit)s."
+
+msgid "graficsOptionsFail"
+msgstr "Nav iespējams pielietot sekojošus grafikas iestatījumus: %s. Jūsu video karte tos neatbalsta."
+
+msgid "graficsPresetFail"
+msgstr "Nav iespējams pielietot izvēlēto grafisko kvalitāti, jo jūsu video karte to neatbalsta."
+
+msgid "igr/customization/begin"
+msgstr "Bezmaksas kamuflāžas, emblēmas un uzraksti ir pieejami %(igrIcon)s."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s darbības laiks beidzies. Izmantotie bezmaksas uzraksti, kamuflāžas un emblēmas tiks noņemtas no jūsu bruņutehnikas."
+
+msgid "info/noAvailable"
+msgstr "Sīkāka informācija nav pieejama."
+
+msgid "install_component"
+msgstr "%s \"%s\" uzstādīts uz tanka."
+
+msgid "install_vehicle_broken"
+msgstr "Neizdodas uzstādīt moduli %s \"%s\": tanks ir bojāts. Salabojiet jūsu tanku un mēģiniet vēlreiz."
+
+msgid "install_vehicle_locked"
+msgstr "Tanks ir slēgts; neizdodas uzstādīt moduli %s \"%s\"."
+
+msgid "inventory/item/already_exists"
+msgstr "Modulis %(typeString)s \"%(userString)s\" jau ir pieejams noliktavā."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Pieprasījums moduļa uzstādīšanai nosūtīts. Tiek gaidīta atbilde no servera."
+
+msgid "inventory/item/not_found"
+msgstr "Modulis %(typeString)s \"%(userString)s\" netika atrasts noliktavā."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "%(userString)s jau ir noliktavā."
+
+msgid "inventory/vehicle/not_found"
+msgstr "%(userString)s noliktavā nav atrasts."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "Nevar aizsūtīt ielūgumu leģionāram %(name)s."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "Nevar aizsūtīt ielūgumu spēlētājam %(name)s: nepareizs klans."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Neizdodas atjaunot palīgmateriālus. Mēģiniet vēlāk."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Neizdodas atjaunot palīgmateriālus. Mēģiniet vēlāk."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Neizdodas atjaunot palīgmateriālus. Mēģiniet vēlāk."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Neizdodas atjaunot čaulītes. Mēģiniet vēlāk."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Neizdodas atjaunot čaulītes. Maksimālais čaulīšu skaits ir ielādēts."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Neizdodas atjaunot palīgmateriālus. Mēģiniet vēlāk."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepietiekami kredīti, lai pirktu palīgmateriālus. Mēģiniet vēlāk."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepietiekamas bonas, lai pirktu palīgmateriālus."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepietiekams zelts, lai pirktu palīgmateriālus. Mēģiniet vēlāk."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Neizdodas atjaunot palīgmateriālus. Mēģiniet vēlāk."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepareizais tanks."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepietiekami kredīti, lai pirktu čaulītes."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepietiekams zelts, lai pirktu čaulītes."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Tanks ir slēgts."
+
+msgid "layout_apply/error"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Mēģiniet vēlāk."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Nepareizais tanks."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Kopā iztērēts par aprīkojumu %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Pakalpojuma kļūda \"%(vehName)s\". Tanks ir slēgts."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "limitedUI/switchOff"
+msgstr "Pakāpeniska slēpto interfeisa elementu parādīšanās uz laiku ir izslēgta."
+
+msgid "limitedUI/switchOn"
+msgstr "Pakāpeniska slēpto interfeisa elementu parādīšanās atkal ir ieslēgta. Jūs variet to izslēgt Iestatījumos."
+
+msgid "locked_vehicle_error"
+msgstr "Šī darbība nav iespējama iepriekš konfigurētām automašīnām."
+
+msgid "login_to_other_game_unknown"
+msgstr "pašreizējā spēles sesija pārtraukta. Jūsu Wargaming.net&nbsp;ID tika izmantots ieiešanai citā spēlē"
+
+msgid "login_to_other_game_web"
+msgstr "pašreizējā spēles sesija pārtraukta. Jūs atvienoja no servera caur spēles tīmekļa vietni."
+
+msgid "login_to_other_game_wot"
+msgstr "pašreizējā spēles sesija pārtraukta. Jūsu Wargaming.net&nbsp;ID tika izmantots ieiešanai World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "pašreizējā spēles sesija pārtraukta. Jūsu Wargaming.net&nbsp;ID tika izmantots ieiešanai World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "pašreizējā spēles sesija pārtraukta. Jūsu Wargaming.net&nbsp;ID tika izmantots ieiešanai World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "pašreizējā spēles sesija pārtraukta. Jūsu Wargaming.net&nbsp;ID tika izmantots ieiešanai World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "pašreizējā spēles sesija pārtraukta. Jūsu Wargaming.net&nbsp;ID tika izmantots ieiešanai World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "Kļūda saņemot dāvanu: servera kļūda."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Kļūda saņemot dāvanu: Lūdzu uzgaidiet līdz izpildās iepriekšējā darbība."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "Darbība īslaicīgi nav pieejama. Mēģiniet vēlāk."
+
+msgid "mapbox/notification/primeTime"
+msgstr "Izlūkošanas Misija nav pieejama līdz pamiera beigām."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Pamiers"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Servera kļūda"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "Darbība nav pieejama. Lūdzu, uzgaidiet, līdz pašreizējā darbība tiek pabeigta."
+
+msgid "maps_black_list/select/success"
+msgstr "Karte %(mapName)s tika izslēgta no Nejaušajām Kaujām. Vari mainīt izvēli pēc %(time)s."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "Karte %(mapName)s tika izslēgta no Nejaušajām Kaujām. Vari mainīt izvēli pēc %(time)s vai atbloķēt papildu vietu, aktivējot WoT Premium kontu vai piesakoties WoT Plus."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "Karte %(mapName)s tika izslēgta no Nejaušajām Kaujām. Vari mainīt izvēli pēc %(time)s vai atbloķēt papildu vietu, piesakoties WoT Plus."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "Karte %(mapName)s tika izslēgta no Nejaušajām Kaujām. Vari mainīt izvēli pēc %(time)s vai atbloķēt papildu vietu, aktivējot WoT Premium kontu."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Šī funkcija īslaicīgi nav pieejama tehnisku iemeslu dēļ.\nMēs atvainojamies par neērtībām."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "Kartes neiekļaušana īslaicīgi nav pieejama"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "Tehniskas problēmas ir atrisinātas. Mēs atvainojamies par neērtībām."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "Kartes neiekļaušana ir atkal pieejama"
+
+msgid "maps_training/switch/title"
+msgstr "Topogrāfija"
+
+msgid "maps_training/switch_off/body"
+msgstr "Šis režīms ir atslēgts."
+
+msgid "maps_training/switch_on/body"
+msgstr "Šis režīms ir ieslēgts."
+
+msgid "memberRosterChangedMain"
+msgstr "%s pārcēla uz pamatsastāvu %s."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s pārcēla uz rezerves sastāvu %s."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Nepietiek atmiņas. Lūdzu, restartējiet spēli."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Nepietiek atmiņas. Zema tekstūru kvalitāte."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Nepietiek atmiņas. Vidēja tekstūru kvalitāte."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Nepietiek atmiņas. Grafikas iestatījumi izmainīti. Lūdzu, restartējiet spēli."
+
+msgid "missingEvents/button"
+msgstr "Atvērt"
+
+msgid "missingEvents/header"
+msgstr "Pasākumi"
+
+msgid "missingEvents/text"
+msgstr "Svarīgi pasākumi, kurus esat nokavējis: "
+
+msgid "module_apply/error_is_current"
+msgstr "Modulis %(kind)s \"%(name)s\" jau ir uzstādīts."
+
+msgid "module_apply/error_need_gun"
+msgstr "Nevar uzstādīt %(kind)s \"%(name)s\" uz tanka ar pašreizējo ieroci."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" nav saderīgs ar pašreizējo torni. Aizstājiet torni."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" nav uzstādīts. Nav saderīgu ieroču Noliktavā."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" nav saderīgs ar pašreizējo torni. Aizstājiet torni."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" neder šim tankam."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "Modulis %(kind)s \"%(name)s\" nav saderīgs ar palīgmateriāliem \"%s\"."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" ir nepareizais tips."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" ir nepareizā nācija."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "Palīgmateriāls \"%(items)s\" ir nosūtīts uz Noliktavu nesaderības ar pašreizējo moduli dēļ."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Nepareizs tanks. Nevar uzstādīt moduli %(kind)s \"%(name)s\"."
+
+msgid "module_apply/server_error"
+msgstr "Servera kļūda uzstādot moduli %(kind)s \"%(name)s\". Mēģiniet vēlāk."
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" uzstādīts uz tanka."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\" uzstādīts uz tanka ar ieroci \"%(gun)s\"."
+
+msgid "module_apply/vehicle_locked"
+msgstr "Tanks ir slēgts; nevar uzstādīt moduli %(kind)s \"%(name)s\"."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "Nevar uzstādīt moduli %(kind)s \"%(name)s\": tanks ir bojāts. Salabojiet jūsu tanku un mēģiniet vēlreiz."
+
+msgid "module_buy/error_is_current"
+msgstr "Modulis %(kind)s \"%(name)s\" jau ir uzstādīts."
+
+msgid "module_buy/error_need_gun"
+msgstr "Neizdodas uzstādīt %(kind)s \"%(name)s\" uz tanka ar pašreizējo ieroci."
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" nav saderīgs ar pašreizējo torni. Nomainiet torni."
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" nav uzstādīts. Nav saderīgu ieroču noliktavā."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" neder šim tornim. Nomainiet torni."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" neder šim tankam."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "Modulis %(kind)s \"%(name)s\" nav saderīgs ar palīgmateriāliem \"%s\"."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" ir nepareizais tips."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" ir nepareizās nācijas."
+
+msgid "module_buy/invalid_module"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Nepareizs modulis."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Nepareizs tanks. Neizdodas iegādāties un uzstādīt %(kind)s \"%(name)s\"."
+
+msgid "module_buy/not_enough_credits"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Nepietiek kredītu."
+
+msgid "module_buy/not_enough_gold"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Nepietiek zelta."
+
+msgid "module_buy/server_error"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Mēģiniet vēlāk."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "Neizdodas iegādāties %(kind)s \"%(name)s\". Serveris īslaicīgi nav pieejams."
+
+msgid "module_buy/success"
+msgstr "Modulis %(kind)s \"%(name)s\" veiksmīgi nopirkts (%(count)s gab.). Iztērēts %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Tanks slēgts. Neizdodas iegādāties un izstādīt %(kind)s \"%(name)s\"."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "Neizdodas iegādāties un uzstādīt %(kind)s \"%(name)s\". Salabojiet tanku un mēģiniet vēlreiz."
+
+msgid "module_buy/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "module_sell/invalid_module"
+msgstr "Nevar pārdot %(kind)s \"%(name)s\". Nepareizs modulis."
+
+msgid "module_sell/server_error"
+msgstr "Nevar pārdot %(kind)s \"%(name)s\". Mēģiniet vēlāk."
+
+msgid "module_sell/success"
+msgstr "Modulis %(kind)s \"%(name)s\" (%(count)s priekšmets(i)). Saņemts %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "Iegūts %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Kļūda mainot konfigurāciju"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Kļūda mainot konfigurāciju"
+
+msgid "nation_change/error"
+msgstr "Kļūda mainot konfigurāciju"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: nacionālā konfigurācija mainīta"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Ikdienas Misijas atjauninātas tehnisku iemeslu dēļ. Misijas progress saglabāts."
+
+msgid "notrecruit_window/success"
+msgstr "Apkalpes loceklis rekrūtēts.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "Darbība īslaicīgi nav pieejama. Mēģiniet vēlāk."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Kļūda saņemot dāvanu: servera kļūda"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Kļūda saņemot dāvanu: Dažas balvas tika aizkavētas - mēģiniet iegūt tās vēlāk."
+
+msgid "offers/switch_off/body"
+msgstr "Mājas Materiālu pakalpojums pašreiz nav pieejams."
+
+msgid "offers/unavailable_many"
+msgstr "Nepieejami Piedāvājumi: %(count)s gab."
+
+msgid "offers/unavailable_one"
+msgstr "Piedāvājums nav pieejams."
+
+msgid "optionalDevices_apply/error"
+msgstr "Iekārtu konfigurācijas kļūda. Lūdzu mēģiniet vēlāk."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Iekārtu konfigurācijas kļūda. Nepietiekami līdzekļi, lai veiktu pirkumu."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "Darbība nav pieejama. Jūsu zelts būs pieejams pēc tam, kad WG Maka operativitāte būs atjaunota."
+
+msgid "optionalDevices_remove/error"
+msgstr "Iekārtu konfigurācijas kļūda. Lūdzu mēģiniet vēlāk."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "Privātās ziņas ar spēlētājiem, kas nav jūsu Kontaktu sarakstā nav pieejamas jūsu kontam."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "Privātās ziņas nav pieejamas jūsu kontam."
+
+msgid "parentControl/linkText"
+msgstr "Precizēt Datumu"
+
+msgid "parentControl/mainText"
+msgstr "Lūdzu precizējiet jūsu dzimšanas darumu."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "Privātās ziņas ar spēlētājiem, kas nav jūsu Kontaktu sarakstā aizliedz vecāku kontrole."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "Privātās ziņas aizliedz vecāku kontrole."
+
+msgid "parentControl/title"
+msgstr "Vecuma Apstiprinājums"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Pārvietošana nav pieejama. Neizdodas noteikt serveri."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Saņemta balva:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Doties uz operāciju"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Misija izpildīta"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Nomaini tanku, lai turpinātu misijas izpildi."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Operācija: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Pabeigts: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "Kampaņa %(campaignName)s pabeigta ar godu!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "Operācija %(operationName)s pabeigta!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "Operācija %(operationName)s pabeigta ar godu!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "Kampaņas uz laiku nav pieejamas tehniskās apkopes dēļ."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "Kampaņas atkal ir pieejamas. Atvainojamies par sagādātajām neērtībām."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "Kampaņa %(campaignName)s uz laiku nav pieejama tehniskās apkopes dēļ."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "Kampaņa %(campaignName)s atkal ir pieejama. Atvainojamies par sagādātajām neērtībām."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "Misija %(missionName)s operācijā %(operationName)s uz laiku nav pieejama tehniskās apkopes dēļ."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "Misija %(missionName)s operācijā %(operationName)s atkal ir pieejama. Atvainojamies par sagādātajām neērtībām."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "Operācija %(operationName)s kampaņā %(campaignName)s uz laiku nav pieejama tehniskās apkopes dēļ."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "Operācija %(operationName)s kampaņā %(campaignName)s atkal ir pieejama. Atvainojamies par sagādātajām neērtībām."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Kļūda, pārslēdzot kampaņas. Lūdzu, mēģini vēlreiz vēlāk."
+
+msgid "personalMissions/badge"
+msgstr "Iegūta uzšuve %(name)s."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Iegūta unikāla kamuflāža priekš %(vehicleName)s."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "Unikāla kamuflāža priekš %(vehicleName)s ir pieejama visai bruņutehnikai, kuras nācija ir %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Visa operācijas gaita ir saglabāta. Kampaņu var turpināt jebkurā laikā."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "Kampaņas %(campaignName1)s un %(campaignName2)s ir apturētas"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "Apturētās operācijas un to misijas ir atsāktas."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "Kampaņas %(campaignName1)s un %(campaignName2)s atsāktas"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Visa operācijas gaita ir saglabāta. Kampaņu var turpināt jebkurā laikā."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "Kampaņa %(campaignName)s apturēta"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "Apturētās operācijas ir atsāktas."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "Kampaņa %(campaignName)s atsākta"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "%(detailName)s veiksmīgi uzstādīta"
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Operācija: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Neizdevās atiestatīt misiju. Mēģiniet vēlreiz vēlāk."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Darbība nav pieejama. Misijas uz laiku ir atslēgtas."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Pašreiz nevar attiestatīt misiju. Mēģiniet vēlreiz vēlāk."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Pašreiz nevar attiestatīt misiju. Lūdzu uzgaidiet kamēr šī tipa tanks vairs nav kaujā."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Pašreiz nevar attiestatīt misiju. Lūdzu uzgaidiet kamēr tanku grupa vairs nav kaujā."
+
+msgid "personalMissions/discard/success"
+msgstr "%(quest)s misija veiksmīgi atiestatīta."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Pavēles saņemtas: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Atgrieztās pavēles: %(count)s\nTās var tikt lietotas atkal."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "Pirmā misija katrā sērijā ir aktivizēta."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "Operācija %(operationName)s aktivizēta!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Saņemta balva: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "Operācija %(name)s pabeigta!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Visa misijas gaita ir saglabāta. Operāciju var turpināt jebkurā laikā."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "Operācija %(operationName)s apturēta"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "Apturētās misijas ir atsāktas."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "Operācija %(operationName)s atsākta"
+
+msgid "personalMissions/pause/server_error"
+msgstr "Misija netika nopauzēta. Mēģiniet vēlreiz vēlāk."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Darbība nav pieejama. Misijas uz laiku ir atslēgtas."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Pašreiz nevar nopauzēt misiju. Mēģiniet vēlreiz vēlāk."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Pašreiz nevar nopauzēt misiju. Lūdzu uzgaidiet kamēr šī tipa tanks vairs nav kaujā."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "%(quest)s misija veiksmīgi nopauzēta."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "%(quest)s misijas izpilde veiksmīgi atsākta."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Kļūda. Šobrīd neizdodas izdot rīkojumu."
+
+msgid "personalMissions/pawn/success"
+msgstr "Izdoti rīkojumi misijai %(questName)s: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Kļūda, saņemot balvas. Lūdzu, mēģini vēlreiz vēlāk."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s veiksmīgi uzstādīta"
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Neizdodas saņemt atlīdzību. Lūdzu, mēģiniet vēlāk."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "Darbība nav pieejama. Misijas uz laiku ir atslēgtas."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Neizdodas saņemt atlīdzību. Atlīdzība nav pieejama."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Neizdodas saņemt atlīdzību. Atlīdzība nav pieejama."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Neizdodas saņemt atlīdzību. Nepareizi dati."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Neizdodas saņemt atlīdzību. Lūdzu, mēģiniet vēlāk."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "Darbība nav pieejama. Misijas uz laiku ir atslēgtas."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Neizdodas saņemt atlīdzību. Atlīdzība nav pieejama."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Neizdodas saņemt atlīdzību. Atlīdzība nav pieejama."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Neizdodas saņemt atlīdzību. Nepareizi dati."
+
+msgid "personalMissions/select/server_error"
+msgstr "Nav izvēlētas misijas: %(questNames)s. Lūdzu, mēģiniet vēlāk."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Darbība nav pieejama. Misijas uz laiku ir atslēgtas."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Nav izvēlētas misijas: %(questNames)s. Lūdzu, mēģiniet vēlāk."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Uzmanību! Lai nomainītu misiju, gaidiet līdz visi tanki kuriem šī misija ir aktīva atgriežas garāžā."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Nav izvēlētas misijas: %(questNames)s. Pabeidziet iepriekšējo operāciju."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Nav izvēlētas misijas: %(questNames)s. Nepietiek slotu."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Nav izvēlētas misijas: %(questNames)s. Lūdzu, saņemiet atlīdzību."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Nav izvēlētas misijas: %(questNames)s. Misija nav pieejama."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Nav izvēlētas misijas: %(questNames)s. Misija jau ir izpildīta."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Nav izvēlētas misijas: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Nav izvēlētas misijas: %(questNames)s. Misija šajā sērijā jau ir izvēlēta."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Nav izvēlētas misijas: %(questNames)s. Nepareizi dati."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Nav izvēlētas misijas: %(questNames)s. Nepareizi dati."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Pašlaik nevar izvēlēties misiju. Pagaidiet, līdz bruņutehnikas grupa atgriežas no kaujas."
+
+msgid "personalMissions/select/success"
+msgstr "Misijas veiksmīgi izvēlētas. Pašlaik izvēlētās misijas: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Pievienots: sieviešu apkalpes loceklis"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Kļūda, aktivizējot operāciju. Lūdzu, mēģini vēlreiz vēlāk."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "Kredītu Rezerves ir pilnas bet tās atvērsies pēc %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "Šī funkcija īslaicīgi nav pieejama tehnisku iemeslu dēļ.\nMēs atvainojamies par neērtībām."
+
+msgid "piggybank/switch_off/title"
+msgstr "Kredītu Rezerves īslaicīgi nav pieejamas"
+
+msgid "piggybank/switch_on/body"
+msgstr "Tehniskas problēmas ir atrisinātas. Mēs atvainojamies par neērtībām."
+
+msgid "piggybank/switch_on/title"
+msgstr "Kredītu Rezerves atkal ir pieejamas"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Šī funkcija īslaicīgi nav pieejama tehnisku iemeslu dēļ.\nMēs atvainojamies par neērtībām."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Spēlētāju Abonementi vairs nav pieejami!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Tehniskas problēmas ir atrisinātas. Mēs atvainojamies par neērtībām."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Spēlētāju Abonementi tagad ir pieejami"
+
+msgid "post_progression/server_error"
+msgstr "Balva par apkalpes Pēc-Progresiju\njau ir saņemta"
+
+msgid "post_progression/success"
+msgstr "Datums: %(at)s\nPievienots Noliktavai: %(book_name)s (x%(amount)s).\nPēc-Progresijas Pieredze iemainīta."
+
+msgid "post_progression/success/title"
+msgstr "Kvīts"
+
+msgid "prebattle/hasLockedState"
+msgstr "Neizdodas apstiprināt ielūgumu, jo jūs jau gaidāt kauju. Izejiet no kaujas gaidīšanas režīma un mēģiniet vēlreiz."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Ielūgums spēlētājam nosūtīts."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Ielūgums spēlētājam %(name)s nosūtīts."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Kļūda ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Kļūda AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Kļūda BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Kļūda CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Komandieris pameta komandu."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Komanda tika izformēta."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "Režīms īslaicīgi nav pieejams."
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Demobilizēšana."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Kļūda PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Laiks beidzies."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Nezināma kļūda."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Kļūda VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Jūs izslēdza no vada."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Jūs izslēdza no komandas."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Režīmam nepieciešami vismaz 3 piemēroti tanki. Skatiet sadaļu Par Uzbrukumu, lai iegūtu sīkāku informāciju."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Automeklēšana"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Balss komunikācijas maiņa"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Divīzijas maiņa"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Režīma pārslēgšana"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Apakšrežīma Maiņa"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Režīma pārslēgšana"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Iestatījumu maiņa"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Komandas rediģēšana"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Skatītāja režīma maiņa"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Noslēgt slotu"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Meklēšana"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Uzaicināt komandā"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Apstipriniet gatavību"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Komandas gatavības apstiprināšana"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Bruņutehnikas izvēle"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Apmainīt komandas"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Meklēšana"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Mazākais bruņutehnikas vienību skaits, ar ko komanda var pievienoties kaujai: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Uzsākt kauju var tikai komandas ar kopējo līmeni no %(minTotalLevel)d līdz %(maxTotalLevel)d."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Tikai %(minLevel)d līdz %(maxLevel)d līmeņu bruņutehnika ir atļauta."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Bruņutehnika neatbilst šai kaujai."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Visi komandas biedri nevar būt skatītāji."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "Izvēlētā bruņutehnika ir derīga tikai režīmam „Frontes līnija”."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "Izvēlētā bruņutehnika ir derīga tikai režīmam „Plosīšanās”."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "Ielādētā munīcija vai uzstādītais aprīkojums neapmierina kaujas nosacījumus."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Izvēlētā bruņutehnika neatbilst šai kaujai pēc līmeņa. Zemākais līmenis šim veidam: %s. Augstākais līmenis šim veidam: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Izvēlētā bruņutehnika neatbilst šai kaujai pēc veida. Atļautie veidi: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Izvēlētajā bruņutehnikā uzstādītie komponenti neapmierina kaujas nosacījumus."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Bruņutehnika neatbilst šai kaujai pēc līmeņa. Zemākais līmenis: %s. Augstākais līmenis: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Izvēlētā bruņutehnika neatbilst šai kaujai pēc nācijas. Atļautās nācijas: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Neatbilstoša bruņutehnika"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Izvēlētajā bruņutehnikā ielādētā munīcija neapmierina kaujas nosacījumus."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Neatbilstoša bruņutehnika"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Neatbilstoša bruņutehnika šai kaujai."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Izvēlētā bruņutehnika nav gatava."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "Darbība nav pieejama. Vispirms izvēlieties tanku."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Neizdodas pievienoties komandai."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Neatbilstoša bruņutehnika"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "Izvēlētais tanks tiks atslēgts kaujas laikā."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Neizdodas piemeklēt atbilstošu pretinieku. Pamēģiniet izveidot komandu no jauna."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Neizdodas piemeklēt pretiniekus šim vadam. Pamēģiniet pārformēt komandu."
+
+msgid "premium/buyingSuccess"
+msgstr "Premium konts ir nopirkts uz %(period)d d. Iztērēts %(money)s."
+
+msgid "premium/continueSuccess"
+msgstr "Premium konts ir pagarināts par %(period)d d. Iztērēts %(money)s."
+
+msgid "premium/not_enough_gold"
+msgstr "Nepietiek zelta, lai nopirktu premium kontu uz %(period)d d."
+
+msgid "premium/post_battle_premium"
+msgstr "Pateicoties premium kontam, par kauju jūs saņemat %(xpDiff)d pieredzes punktus un %(creditDiff)d kredītus."
+
+msgid "premium/server_error"
+msgstr "Nepietiek zelta, lai nopirktu premium kontu uz %(period)d d. Mēģiniet vēlāk."
+
+msgid "premium/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "Darbība nav pieejama. Mēģiniet vēlāk."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "Darbība nav pieejama. Lūdzu, uzgaidiet, līdz pašreizējā darbība tiek pabeigta."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Šī funkcija īslaicīgi nav pieejama tehnisku iemeslu dēļ.\nMēs atvainojamies par neērtībām."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Premium misijas īslaicīgi nav pieejamas"
+
+msgid "premium_quests/switch_on/body"
+msgstr "Tehniskas problēmas ir atrisinātas. Mēs atvainojamies par neērtībām."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Premium misijas ir atkal pieejamas"
+
+msgid "progressiveReward/error"
+msgstr "Šobrīd operācija nav pieejama. Mēģiniet vēlāk."
+
+msgid "progressiveReward/switch_off"
+msgstr "Balvas par Nopelniem: šī funkcija uz laiku ir atslēgta. Mēs atvainojamies par neērtībām."
+
+msgid "progressiveReward/switch_on"
+msgstr "Balvas par Nopelniem atkal ir pieejamas."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Misijas pieejamība beigusies. Sīkāks apraksts nav pieejams."
+
+msgid "queue/isInQueue"
+msgstr "Šobrīd operācija nav pieejama. Mēģiniet vēlāk."
+
+msgid "rally/leaveDisabled"
+msgstr "Darbība nav pieejama.\nJūs nevarat iziet no režīma. Jūs esat taktiskās vienības sastāvā un gatavs doties kaujā."
+
+msgid "ranked/notification/available"
+msgstr "Pamiera beigas: ranga kaujas atkal ir pieejamas."
+
+msgid "ranked/notification/available/title"
+msgstr "Ranga Kaujas Pieejamas"
+
+msgid "ranked/notification/congratulations"
+msgstr "Apsveicam!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "Rangotās Kaujas nav pieejamas. Sekojiet atjauninājumiem spēles portālā."
+
+msgid "ranked/notification/notSet"
+msgstr "Šis režīms nav pieejams izvēlētajā serverī."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Ranga Kaujas Nav Pieejamas"
+
+msgid "ranked/notification/primeTime"
+msgstr "Rangotās kaujas nav pieejamas līdz pamiera beigām."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Pamiers"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Jūs parādījāt izcilus rezultātus Rangoto Kauju 2020/2021 Sezonās, nopelnot pozīciju starp top spēlētājiem!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Apsveicam!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Jūs parādījāt izcilus rezultātus Rangoto Kauju 2020/2021 Sezonās, nopelnot pozīciju %(playerPosition)s starp top spēlētājiem!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Apsveicam!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Žetons saņemts:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Žetoni saņemti:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Nopelnīti kredīti:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Saņemtas bonas:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Gadadienas Monētas saņemtas:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Saņemts zelts:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Uzlabotas iekārtas pievienotas izvēlei: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Stils saņemts:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Stili saņemti:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Saņemti rangu tokeni: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Wargaming Premium konta diena"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Wargaming Premium konta dienas (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "WoT Premium konta diena"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "WoT Premium konta dienas (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "%(number)s. etapa rezultāti"
+
+msgid "ranked/notifications/league"
+msgstr "Līga: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "Zelta"
+
+msgid "ranked/notifications/league2"
+msgstr "Sudraba"
+
+msgid "ranked/notifications/league3"
+msgstr "Bronzas"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Saņemti rangu tokeni Zelta Līgai: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Makismālais rangs: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Pozīcija līderu sarakstā: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Jūs pabeidzāt kvalifikāciju"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Saņemti rangu tokeni sezonai: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Rangoto kauju rezultāti, sezona %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Jūs saniedzāt rangu %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Sprintera zīme saņemta. Balvas uzlabotas."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Sprintera zīme saņemta"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Nevar rekrutēt jaunu apkalpes locekli: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Neizdodas rekrutēt apkalpes locekli. Serviss īslaicīgi nav pieejams."
+
+msgid "recruit_window/financial_success"
+msgstr "Apkalpes loceklis rekrūtēts priekš %(vehName)s. Kredīti iztērēti: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Apkalpes loceklis rekrūtēts priekš %(vehName)s.\nKredīti iztērēti: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Apkalpes loceklis rekrūtēts priekš %(vehName)s.\nZelts iztērēts: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Jūs esat sasnieguši šīsdienas bezmaksas apkalpes locekļu limitu."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Kļūda rekrutējot apkalpes locekli. Nepietiek kredītu."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Kļūda rekrutējot apkalpes locekli. Nepietiek zelta."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Kļūda rekrutējot un norīkojot apkalpes locekli. Nepietiek vietas kazarmās. Lūdzu, atbrīvojiet vienu koju vai arī iegādājieties papildus kojas kazarmās."
+
+msgid "recruit_window/server_error"
+msgstr "Neizdevās rekrūtēt apkalpes locekli. Mēģiniet vēlāk."
+
+msgid "recruit_window/success"
+msgstr "Apkalpes loceklis rekrūtēts priekš %(vehName)s par brīvu."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Nevar norīkot apkalpes locekli: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Kļūda aizvietojot apkalpes locekli. Nepareiza bruņutehnika."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Neizdevās aizsūtīt apkalpes locekli uz Kazarmām. Nepietiek gultas Kazarmās."
+
+msgid "reequip_tankman/server_error"
+msgstr "Neizdodas aizvietot apkalpes locekli. Mēģiniet vēlāk."
+
+msgid "reequip_tankman/success"
+msgstr "Apkalpes loceklis aizvietots."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Kļūda aizvietojot apkalpes locekli. Bruņutehnika ir bloķēta."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Kļūda aizvietojot apkalpes locekli. Salabojiet bruņutehniku."
+
+msgid "remove_component"
+msgstr "%s \"%s\" demontēts no šī tanka."
+
+msgid "remove_vehicle_broken"
+msgstr "Neizdodas noņemt %s \"%s\": tanks ir bojāts. Salabojiet jūsu tanku un mēģiniet vēlreiz."
+
+msgid "remove_vehicle_locked"
+msgstr "Neizdodas noņemt %s \"%s\": tanks ir slēgts."
+
+msgid "repair/credits_error"
+msgstr "Pietrūkst %s kredītu bruņutehnikas '%s' remontam."
+
+msgid "repair/server_error"
+msgstr "Kļūda labojot %s. Mēģiniet vēlāk."
+
+msgid "repair/success"
+msgstr "%s salabots. Jūs iztērējāt %s."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Nevar nomainīt apkalpes locekļa dokumentus: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Kļūda mainot apkalpes locekļa dokumentus. Nepareiza bruņutehnika."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Kļūda mainot apkalpes locekļa dokumentus. Pietrūkst līdzekļu."
+
+msgid "replace_tankman/server_error"
+msgstr "Apkalpes locekļa dokumentu maiņa nav izdevusies. Mēģiniet vēlāk."
+
+msgid "replace_tankman/success"
+msgstr "Izskats veiksmīgi aizvietots."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Kļūda mainot apkalpes locekļa dokumentus. Bruņutehnika ir bloķēta."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Kļūda mainot apkalpes locekļa dokumentus. Ir nepieciešams salabot bruņutehniku."
+
+msgid "request/isInCoolDown"
+msgstr "Darbība „%(request)s” ir iesaldēta uz %(coolDown)s s."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Nevar atiestatīt iemaņas.\nServeris nav pieejams. Mēģiniet vēlāk."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Visas iemaņas visiem apkalpes locekļiem tika\natiestatītas par brīvu."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Kļūda tērējot resursus. Lūdzu mēģiniet vēlreiz."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Notika kļūda atgriežot resursus. Lūdzu, mēģiniet vēlreiz."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Jums vēl ir atgūšanai pieejama bruņutehnika. Ja vēlaties to atgriezt angārā, dodieties uz veikalu."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Apkalpes locekļa atgūšana īslaicīgi nav pieejama. Mēģiniet vēlāk."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Neizdodas atgūt apkalpes locekli."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Nepietiek zelta, lai atgūtu apkalpes locekli."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Neizdodas atgūt apkalpes locekli. Operācijai atvēlētais laiks ir beidzies."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Neizdodas atgūt apkalpes locekli. Mēģiniet vēlāk."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Neizdodas atgūt apkalpes locekli. Apkalpes atgūšanas iespēja īslaicīgi nav pieejama."
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s vairs nevar tikt atjaunots."
+
+msgid "restore_tankman/financial_success"
+msgstr "Apkalpes loceklis atjaunots.\nKredīti iztērēti: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Neizdodas atgūt apkalpes locekli. Nepietiek vietas kazarmās."
+
+msgid "restore_tankman/server_error"
+msgstr "Neizdevās atjaunot apkalpes locekli. Mēģiniet vēlāk."
+
+msgid "restore_tankman/success"
+msgstr "Apkalpes loceklis atjaunots."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "Apkalpes locekļa kvalifikācija mainīta."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Nevar pārtrenēt apkalpi: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "retraining_crew/empty_list"
+msgstr "Kļūda pārtrenējot apkalpi. Nav izvēlēti apkalpes locekļi."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Kredīti iztērēti: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Apkalpe pārtrenēta priekš %(vehName)s par brīvu."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Zelts iztērēts: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Kļūda pārtrenējot apkalpi. Darbība nav pieejama."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Kļūda pārtrenējot apkalpi. Nepareiza bruņutehnika."
+
+msgid "retraining_crew/server_error"
+msgstr "Neizdodas pārtrenēt apkalpi. Mēģiniet vēlāk."
+
+msgid "retraining_crew/success"
+msgstr "Apkalpe pārtrenēta priekš %(vehName)s."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Kļūda pārtrenējot apkalpi. Bruņutehnika ir bloķēta."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Kļūda pārtrenējot apkalpi. Salabojiet bruņutehniku."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Nevar pārtrenēt apkalpes locekli: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Kredīti iztērēti: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Apkalpes loceklis pārtrenēts priekš %(vehName)s par brīvu."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Zelts iztērēts: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Kļūda pārtrenējot apkalpes locekli. Darbība nav pieejama."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Kļūda pārtrenējot apkalpes locekli. Nepareiza bruņutehnika."
+
+msgid "retraining_tankman/server_error"
+msgstr "Nevar pārtrenēt apkalpes locekli.\nMēģiniet vēlāk."
+
+msgid "retraining_tankman/success"
+msgstr "Apkalpes loceklis pārtrenēts priekš %(vehName)s."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Kļūda pārtrenējot apkalpes locekli. Bruņutehnika ir bloķēta."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Kļūda pārtrenējot apkalpes locekli. Nepieciešams saremontēt bruņutehniku."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Nevar atgriezt apkalpi: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Kļūda atgriežot apkalpi. Nepareiza bruņutehnika."
+
+msgid "return_crew/not_enough_space"
+msgstr "Neizdodas aizsūtīt apkalpi uz kazarmām. Nepietiek vietas kazarmās."
+
+msgid "return_crew/return_unavailable"
+msgstr "Dažus apkalpes locekļus nevar atgriezt uz tanku."
+
+msgid "return_crew/server_error"
+msgstr "Neizdodas atgriezt apkalpi. Mēģiniet vēlāk."
+
+msgid "return_crew/success"
+msgstr "Apkalpe veiksmīgi norīkota."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Kļūda atgriežot apkalpi. Bruņutehnika ir bloķēta."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Kļūda atgriežot apkalpi. Salabojiet bruņutehniku."
+
+msgid "rotation/lock"
+msgstr "Šīs grupas ir nobloķētas un vairs nav pieejamas kaujām: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "Šīs grupas ir atbloķētas un ir pieejamas kaujām: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "Bruņutehnika ir bloķēta un nav pieejama kaujām."
+
+msgid "royale/notification/congratulations"
+msgstr "Apsveicam!"
+
+msgid "royale/notification/primeTime"
+msgstr "Tērauda Mednieka kaujas nav pieejamas līdz Pamiera beigām. Grafiks pieejams kalendārā."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Pamiers"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Līmenis sasniegts: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "Stratēģijas Mākslas pasākuma kaujas ir atkal pieejamas šajā serverī."
+
+msgid "rts/notification/available/title"
+msgstr "Kaujas pieejamas"
+
+msgid "rts/notification/notAvailable"
+msgstr "Stratēģijas Mākslas pasākuma nav pieejams. Sekojiet jaunumiem spēles portālā."
+
+msgid "rts/notification/notSet"
+msgstr "Stratēģijas Mākslas kaujas nav pieejamas izvēlētajā serverī."
+
+msgid "rts/notification/notSet/title"
+msgstr "Kaujas nav pieejamas"
+
+msgid "rts/notification/primeTime"
+msgstr "Pamiers ir spēkā. Stratēģijas Mākslas kaujas īslaicīgi nav pieejamas."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Pamiers"
+
+msgid "securityMessage/bad_email"
+msgstr "Jūsu e-pasta adrese ir reģistrēta apšaubāmā resursā. Lūdzu, nomainiet e-pasta adresi. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Izmainīt drošības iestatījumus"
+
+msgid "securityMessage/no_phone"
+msgstr "Drošības nolūkiem lūdzam jūs piesaistīt telefona numuru savam kontam. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Iesakām norādīt drošības jautājumu sava konta iestatījumos. Tas var noderēt pie paroles atjaunināšanas. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "Jūs neesat mainījis paroli 30 dienas. Iesakām nomainīt paroli. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "Jūsu izvēlētā parole konta izveidošanas laikā nav pietiekami sarežģīta. Lūdzu, nomainiet paroli. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "Neizdodas pārdot %s: tanks ir bojāts. Salabojiet jūsu tanku un mēģiniet vēlreiz."
+
+msgid "sell_vehicle_locked"
+msgstr "Neizdodas pārdot %s: tanks ir slēgts."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Labi Pelnītas Balvas pasākums ir atsācies. Mēs atvainojamies par neērtībām."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "Labi Pelnītas Balvas pasākums īslaicīgi ir apturēts apkopes dēļ."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Kļūda saņemot balvas. Darbība īslaicīgi nav pieejama."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Kļūda saņemot balvu. Lūdzu sazinieties ar Spēlētāju Atbalstu."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "Balvas par jūsu darbības gadiem kavējas. Mēģiniet vēlāk."
+
+msgid "serverInstallError"
+msgstr "Servera kļūda uzstādot modulis %s \"%s\". Mēģiniet vēlāk."
+
+msgid "serverRemoveError"
+msgstr "Kļūda noņemot moduli %s \"%s\". Mēginiet vēlāk."
+
+msgid "server_shut_down"
+msgstr "Spēles servera restartēšana"
+
+msgid "session_tracker_kick"
+msgstr "Jūsu Wargaming.net&nbsp;ID tika izmantots, lai pieslēgtos citai spēlei. Pašreizējā spēles sesija pārtraukta."
+
+msgid "shell_buy/invalid_module"
+msgstr "Neizdodas iegādāties %(name)s. Nepareizs lādiņš."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "Neizdodas iegādāties %(name)s. Nepietiek kredītu."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "Neizdodas iegādāties %(name)s. Nepietiek zelta."
+
+msgid "shell_buy/server_error"
+msgstr "Neizdodas iegādāties %(name)s. Mēģiniet vēlāk."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "Neizdodas iegādāties lādiņus %(name)s. Serveris īslaicīgi nav pieejams."
+
+msgid "shell_buy/success"
+msgstr "Lādiņi %(name)s veiksmīgi iegādāti (%(count)s gab.). Iztērēts %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "shell_sell/invalid_module"
+msgstr "Nevar pārdot \"%(name)s\". Nepareizā čaulīte."
+
+msgid "shell_sell/server_error"
+msgstr "Nevar pārdot \"%(name)s\". Mēģiniet vēlāk."
+
+msgid "shell_sell/success"
+msgstr "Čaulīte \"%(name)s\" (%(count)s priekšmets(i)). Saņemts %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Munīcijas konfigurācijas kļūda. Lūdzu mēģiniet vēlāk."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Munīcijas konfigurācijas kļūda. Nepietiekami līdzekļi, lai veiktu pirkumu."
+
+msgid "shells_apply/success_money_spent"
+msgstr "Kopā iztērēts par aprīkojumu %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "Darbība nav pieejama. Jūsu zelts būs pieejams pēc tam, kad WG Maka operativitāte būs atjaunota."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Pieprasījums nopirkt un uzstādīt ierīci ir nosūtīts. Tiek gaidīta atbilde no servera."
+
+msgid "shop/item/buy_server_error"
+msgstr "Neizdodas iegādāties %(typeString)s \"%(userString)s\". Lūdzu mēģiniet vēlāk."
+
+msgid "shop/item/buy_success"
+msgstr "Modulis %(typeString)s \"%(userString)s\" veiksmīgi nopirkts (%(count)d). Iztērēts %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Šobrīd operācija nav pieejama."
+
+msgid "shop/item/not_enough_money"
+msgstr "Lai nopirktu %(typeString)s \"%(userString)s\", jums vajag vēl %(price)s."
+
+msgid "shop/item/not_found"
+msgstr "Modulis %(typeString)s \"%(userString)s\" netika atrasts veikalā. Lūdzu mēģiniet vēlāk."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Šobrīd operācija nav pieejama."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "%(userString)s iegādei nepietiek %(price)s."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "Pietrūkst %(price)s, lai varētu nomāt %(userString)s."
+
+msgid "shop/vehicle/not_found"
+msgstr "%(userString)s veikalā nav atrasts. Mēģiniet vēlāk."
+
+msgid "shop_resync"
+msgstr "Saskarne atjaunināta %(date)s plkst. %(time)s sakarā ar izmaiņām servera pusē."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) tika konvertēts uz <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Datums: %(date)s\nDirektīvas konvertētas: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Kvīts"
+
+msgid "squad/createError"
+msgstr "Vadu veidošana ir pieejama tikai spēlētājiem ar premium kontu."
+
+msgid "squad/kickedFromQueue"
+msgstr "Neizdodas piemeklēt pretiniekus šim vadam. Pamēģiniet pārformēt komandu."
+
+msgid "squad/leaveDisabled"
+msgstr "Darbība nav pieejama.\nJūs nevarat pamest vadu. Jūs esat vada sastāvā un gatavs doties kaujā."
+
+msgid "squad/memberJoined"
+msgstr "%s pievienojās taktiskajai vienībai."
+
+msgid "squad/memberLeave"
+msgstr "%s pameta taktisko vienību."
+
+msgid "squad/memberNotReady"
+msgstr "%s nav gatavs."
+
+msgid "squad/memberOffline"
+msgstr "Zudis savienojums ar %s."
+
+msgid "squad/memberReady"
+msgstr "%s ir gatavs."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Neizdevās doties kaujā vada sastāvā."
+
+msgid "squad/notValidDeleted"
+msgstr "Bruņutehnika %(vehName)s tika izslēgta no vada, jo tās līmenis nesakrīt ar komandiera bruņutehnikas līmeni. Izvēlieties tāda paša līmeņa bruņutehnikas vienību."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s tika izslēgts no vada, jo komandieris izmainīja nosacījumus."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Jūs tikāt izslēgts no Vada, jo Komandieris mainīja prasības, vai jūs nevariet pievienoties, jo tanks neatbilst prasībām. Lūdzu izvēlieties citu tanku."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "%(vehName)s ir noņemts, jo ir ierobežots šo tanku skaits, kas atļauts vienā vienībā. Izvēlieties citu tanku."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Šī funkcija īslaicīgi nav pieejama tehnisku iemeslu dēļ.\nMēs atvainojamies par neērtībām."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "Vada bonuss īslaicīgi nav pieejams"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "Tehniskas problēmas ir atrisinātas. Mēs atvainojamies par neērtībām."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "Vada bonuss ir atkal pieejams"
+
+msgid "ssr/unavailable"
+msgstr "Nevar lejuplādēt atkārtojumu"
+
+msgid "steam_login_not_allowed"
+msgstr "Jūs nevariet izmantot šo aplikāciju, lai spēlētu: Jūsu Steam kontu jau ir savienots ar Wargaming.net kontu. Uzziniet vairāk Spēlētāju Atbalstā."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Apkalpes loceklis demobilizēts."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s d"
+
+msgid "techtree/action/header"
+msgstr "Piedāvājums \"%(actionName)s\""
+
+msgid "techtree/action/text"
+msgstr "Piedāvājums beidzas pēc "
+
+msgid "techtree/action/text/closest"
+msgstr "Nākamais piedāvājums beidzas pēc: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Iemesls: šis tanks ir pieejams tikai Prime Gaming locekļiem. Lūdzu pārbaudiet jūsu Prime Gaming abonamenta statusu."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Bruņutehnika nav pieejama"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Datums: %(datetime)s\nPievienoti tanki: %(vehicles)s\nPievienots: slots garāžā,%(crew)s 3D stils."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Datums: %(datetime)s\nTanki pievienoti: %(vehicles)s\nPievienots: slots garāžā,%(crew)s ekskluzīva kamuflāža."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " 100%% apkalpe%(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Tanki pievienoti"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Datums: %(datetime)s\nNoņemts: %(vehicles)s, slots garāžā."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Iemesls: šis tanks ir pieejams tikai Prime Gaming locekļiem. Lūdzu pārbaudiet jūsu Prime Gaming abonamenta statusu."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Norakstīta bruņutehnika"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "Tanks atkal ir pieejams"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "T-44-100 Igrovoy tanks pievienots: Noņemts: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Misijas tagad var izpildīt iekš T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " un "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s kredīti"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "Visi %(tanks)s apkalpes locekļi pārtrenēti priekš T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Iekārta demontēta un nosūtīta uz Noliktavu.\nPielāgošanas elementi nosūtīti uz Noliktavu.\nČaulītes un direktīvas nosūtītas uz Noliktavu."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Ekipējums, pielāgošanas elementi, Kaujas Pieredze, statistika un apbalvojumi pārvietoti no %(mergedTank)s uz T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s Brīvā Pieredze"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Pieredze par Lauka Modifikāciju kompensēta: %(compensation)s pievienots."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Pirkti progresīvi dekali kompensēti: %(value)s zelts pievienots."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "Spēles statistika un apbalvojumi no %(mergedTank)s pārvietots uz T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Kaujas Pieredze summēta un pārvietota uz T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Lai veicas kaujas laukā!"
+
+msgid "telecomMergeResults/title"
+msgstr "Izmaiņas \"Igrovoy\" Tarifam"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Tanku izvēle un nomas ir apturēti."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Tanku noma pašreiz nav pieejama"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Tanku noma ir pieejama"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Apsveicam! Jūs saņēmāt %(count)s tokenu(s)."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Zelta pārskaitījums nav veikts. Saņēmējs neapstiprināja darījumu."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Zelta pārskaitījums nav pieejams."
+
+msgid "tradingError/NO_WARES"
+msgstr "Zelta pārskaitījums nav pieejams. Nepietiekams zelta apjoms."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Sasniegts pārskaitījumu limits. Jūs šodien zelta pārskaitījumus veikt vairs nevarat."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Zelta pārskaitījums nav izpildīts. Mēģiniet vēlāk."
+
+msgid "training/error/AddPlayer"
+msgstr "Treniņistabas kļūda. Ir pārsniegts maksimālais spēlētāju skaits komandā."
+
+msgid "training/error/doAction"
+msgstr "Treniņistabas kļūda. Mēģiniet vēlāk."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Treniņa istabas kļūda. Maksimālais komandas daudzums Uzbrukuma režīmā: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Treniņistabas kļūda. Maksimālais spēlētāju skaits komandā: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Servera kļūda, cenšoties apmainīt komandas vietām. Mēģiniet vēlāk."
+
+msgid "transferXP/server_error"
+msgstr "Darbība nav pieejama. Lūdzu mēģiniet vēlāk."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "Darbība nav pieejama. Nepietiek pilnvaru."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "Darbība nav pieejama. Jūs neesat klana biedrs."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Kļūda: Nevar atjaunot izvēlēto tanku darbībā."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Kļūda: Nepietiek Remonta Daļu, lai atjaunotu tanku darbībā."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Kļūda: Izvēlētā tanka atjaunošanas cena tika mainīta."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Kļūda: Nevar izpildīt darbību."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Kļūda pievienojoties Vadam: Jūsu konts ir īslaicīgi bloķēts no šī spēles režīma."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Darbība nav pieejama. Konts ir atgūts."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "Spēlētājam neizdodas pievienoties komandai."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "Darbība nav pieejama. Slots jau ir aizņemts."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Spēlētājs jau ir pievienots komandai."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Neizdodas nodot komandiera pilnvaras."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Darbība nav pieejama. Nepareizs konta veids."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Darbība nav pieejama. Nepareizs klans."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Neizdodas pievienoties komandai."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Pārsniegts bruņutehniku summārais līmenis."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Darbība nav pieejama. Nepareizs trieciengrupas sastāvs."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Nepareizs slota numurs"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Darbība nav pieejama. Nepareizs bruņutehnikas veids kaujai vadā."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Kļūda pievienojoties komandai. Neatbilstošs bruņutehnikas līmenis."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Divīzijas maiņa norādītajā laikā nav pieejama."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Neizdodas atrast komandu."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Neizdodas izsūtīt ielūgumus."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Kļūda pievienojoties Vadam: Spēlēšana Vadā nav pieejama līdz Kvalifikācijas pabeigšanai."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Darbība uz laiku nav pieejama."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Pēdējā darbība ar trieciengrupu tika izpildīta ar kļūdu."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Bruņutehnika nav gatava kaujai, vai arī tās nav angārā."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Neizdodas ielikt bruņutehniku slotā."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Darbība nav pieejama. Daži trieciengrupas biedri vēl atrodas kaujā."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Nav tiesības šīs darbības veikšanai."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Konts bloķēts."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Komanda atrodas rindā vai arī meklē pretiniekus."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Neizdodas pievienoties komandai. Pieeja liegta."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Komanda nav rindā."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Komandas meklēšanas rezultātos nav."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Komanda nav gatava."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Kļūda pievienojoties Vadam: Jums nav piemērotu tanku izvēlētajam spēles stilam."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Neizdodas pievienot spēlētāju kaujas sastāvam."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "Darbība nav pieejama. Spēlētājs nav atrasts."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Komanda nav atrasta."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Komanda nepastāv."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "Darbība nav pieejama. Kļūda parādot bruņutehniku sarakstu."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Darbība nav pieejama. Spēlētājs nav tīklā."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Jūs esat komandiera melnajā sarakstā."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Darbība nav pieejama. Iepriekšējā kauja vēl nav beigusies."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Neizdodas izslēgt spēlētāju no komandas."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "Darbība nav pieejama. Viens vai vairāki spēlētāji vēl nav apstiprinājuši ielūgumus."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "Darbība nav pieejama leģionāriem."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "Darbība nav pieejama. Slots nav noslēgts."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "Darbība nav pieejama. Slots jau ir aizņemts."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "Darbība nav pieejama šim slotam."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Norādītajā laikā sadursmes nav atļautas."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Neizdodas pārslēgties uz citu spēles režīmu. Vada biedru limits ir pārsniegts."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Darbība nav pieejama. Laiks ir iztecējis."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "Darbība nav pieejama. Nobloķēts maksimālais pieļaujamais slotu skaits."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "Darbība nav pieejama. Maksimālais leģionāru skaits."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Neizdodas izveidot komandu vai tai pievienoties."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Neizdodas izveidot komandu."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Darbība nav pieejama. Trieciengrupa izveidota atkārtoti."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "Darbība nav pieejama. Bruņutehnika neatbilst prasībām."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "Darbība nav pieejama. Vispirms izvēlieties bruņutehniku."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Komanda nepastāv."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Darbība nav pieejama. Bruņutehnika nav gatava vai neatbilst prasībām."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Jums ir iedota vadība pār kaujas rezervēm."
+
+msgid "unit/notification/changeDivision"
+msgstr "Komandieris %(name)s izvēlējās %(division)s divīziju."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Absolūtā"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Čempionu"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Vidējā"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s tika iecelts par komandieri."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s pievienojās trieciengrupai."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s pievienojās Vadam, lai cīnītos %(tierRange)s Līmeņa tankā."
+
+msgid "unit/notification/playerOffline"
+msgstr "Savienojums ar %(userName)s pazaudēts."
+
+msgid "unit/notification/playerOnline"
+msgstr "Savienojums ar %(userName)s atjaunots."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s pameta trieciengrupu."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Ielūgums jau ir nosūtīts."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "Komandiera pilnvaras ir nodotas citam spēlētājam."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Komandiera atļaujas un kontrole pār Kaujas Rezervēm ir nodotas citam spēlētājam."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Vadība pār kaujas rezervēm tika nodota citam spēlētājam."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Jūs tikāt izslēgts no trieciengrupas: trieciengrupa izformēta."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Jūs tikāt izslēgts no trieciengrupas. Klans ir izmainīts."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "Jūsu spēles laiks ir beidzies. Jūs nevariet pievienoties jaunai kaujai. Jūs tiksiet atslēgts no servera %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Vienam no spēlētājiem nav atlicis pietiekams spēles laiks, lai pabeigtu kauju. Vads tagad ir sagatavošanas stāvoklī."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Leģionāru salikšana apturēta."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Darbība nav pieejama. Gaidīšanas laiks ir beidzies."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Pievienošanās kļūda. Jūs izslēdza no komandas."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Jūs tikāt automātiski izslēgts no brīvprātīgo saraksta."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Jūs izslēdza komandieris."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Jūs tikāt izslēgts no trieciengrupas: trieciengrupa izformēta."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Jūs kļuvāt par Nodaļas Komandieri."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Jūs kļuvāt par Nodaļas Komandieri.\nJums ir piešķirta kontrole pār Kaujas Rezervēm."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Cits placdarms izvēlēts uzbrukumam."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Izvēlēts cits kaujas režīms."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Meklēšana īslaicīgi izslēgta: pārāk daudz Vadu serverī."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Neizdodas atrast spēlētājus servera kļūdas dēļ. Mēģiniet vēlāk."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Meklēšana atcelta: vismaz vienam Vada loceklim nav piemērotu tanku izvēlētajam spēles režīmam."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Meklēšanas laiks iztecējis. Atbilstoši spēlētāji nav atrasti."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Norit spēlētāju pievienošanās. Lūdzu, uzgaidiet."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Tanks atjaunots darbībā: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Neizdodas apstiprināt gatavību pievienoties komandai."
+
+msgid "unload/button"
+msgstr "Uz Kazarmām"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Nevar nosūtīt apkalpi uz kazarmām: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Kļūda sūtot apkalpi uz kazarmām. Nepareiza bruņutehnika."
+
+msgid "unload_crew/server_error"
+msgstr "Neizdevās aizsūtīt apkalpi uz kazarmām. Mēģiniet vēlāk."
+
+msgid "unload_crew/success"
+msgstr "Apkalpe aizsūtīta uz Kazarmām."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Kļūda sūtot apkalpi uz kazarmām. Bruņutehnika ir bloķēta."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Kļūda sūtot apkalpi uz kazarmām. Nepieciešams saremontēt bruņutehniku."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Nevar nosūtīt apkalpes locekli uz kazarmām: tankam ir unikāla pastāvīga apkalpe."
+
+msgid "unload_tankman/button"
+msgstr "Uz Kazarmām"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Kļūda sūtot apkalpes locekli uz kazarmām. Nepareiza bruņutehnika."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Neizdevās aizsūtīt šo apkalpes locekli uz Kazarmām. Nepietiek gultas Kazarmās."
+
+msgid "unload_tankman/server_error"
+msgstr "Kļūda sūtot apkalpes locekli uz Kazarmām. Mēģiniet vēlāk."
+
+msgid "unload_tankman/success"
+msgstr "Apkalpes loceklis aizsūtīts uz Kazarmām."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Kļūda sūtot apkalpes locekli uz kazarmām. Bruņutehnika ir bloķēta."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Kļūda sūtot apkalpes locekli uz kazarmām. Nepieciešams saremontēt bruņutehniku."
+
+msgid "unlocks/drawFailed"
+msgstr "Nepareizi iestatījumi. Izpētes koks bloķēts."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "Modulis %(typeString)s \"%(userString)s\" izpētīts."
+
+msgid "unlocks/item/in_processing"
+msgstr "Izpētes pieprasījums nosūtīts. Tiek gaidīta atbilde no servera."
+
+msgid "unlocks/item/server_error"
+msgstr "Servera kļūda izpētot moduli %(typeString)s \"%(userString)s\". Lūdzu mēģiniet vēlāk."
+
+msgid "unlocks/item/unlock_success"
+msgstr "Modulis %(typeString)s \"%(userString)s\" izpētīts. Neizdalītā pieredze iztērēta: %(vehXP)s. Brīvā pieredze iztērēta: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "%(userString)s izpētīts."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Izpētes pieprasījums nosūtīts. Tiek gaidīta atbilde no servera."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Servera kļūda izpētot bruņutehniku %(userString)s. Mēģiniet vēlāk."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "%(userString)s izpētīts. Iztērēts no nesadalītās pieredzes %(vehXP)s, no brīvās pieredzes %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Kļūda apmācot apkalpes locekli. Mēģiniet vēlāk."
+
+msgid "upgradeTankman/success"
+msgstr "Apmācība noritēja veiksmīgi."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "Balvu Ekipējuma Uzlabošana īslaicīgi nav pieejama tehnisku iemeslu dēļ. Lūdzu mēģiniet vēlreiz vēlāk."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "Balvu Ekipējuma Uzlabošana atkal ir pieejama. Mēs atvainojamies par neērtībām."
+
+msgid "vehicle/restore/finished"
+msgstr "Bruņutehnika %(vehicleName)s nav pieejama atjaunošanai: darbībai atvēlētais laiks iztecējis."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Bruņutehnikas vienība būs pieejama atgūšanai veikalā vēl %(time)s d."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Bruņutehnikas vienība būs pieejama atgūšanai veikalā vēl %(time)s h."
+
+msgid "vehicleCompare/disabled"
+msgstr "Darbība īslaicīgi nav pieejama. Mēģiniet vēlāk."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s pirmsapskate būs pieejama tikai pēc pilnas spēles versijas lejupielādes."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Pieprasījums moduļa uzstādīšanai nosūtīts. Tiek gaidīta atbilde no servera."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "Neizdodas iegādāties %(typeString)s \"%(userString)s\". Lūdzu mēģiniet vēlāk."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "Modulis %(typeString)s \"%(userString)s\" veiksmīgi nopirkts (%(count)d). Iztērēts %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "Modulis %(typeString)s \"%(userString)s\" jau ir pieejams noliktavā."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "Modulis %(typeString)s \"%(userString)s\" izpētīts."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "Lai nopirktu %(typeString)s \"%(userString)s\", jums vajag vēl %(price)s."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "Modulis %(typeString)s \"%(userString)s\" netika atrasts noliktavā."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "Modulis %(typeString)s \"%(userString)s\" netika atrasts veikalā. Lūdzu mēģiniet vēlāk."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" izpētīts. Neizdalītā pieredze iztērēta: %(unspentXP)s. Brīvā pieredze iztērēta: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Izpētes pieprasījums nosūtīts. Tiek gaidīta atbilde no servera."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "%(userString)s jau ir noliktavā."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "%(userString)s izpētīts."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "%(userString)s iegādei nepietiek %(price)s."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "%(userString)s noliktavā nav atrasts."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "%(userString)s veikalā nav atrasts. Mēģiniet vēlāk."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "%(userString)s izpētīts. Iztērēts no nesadalītās pieredzes %(unspentXP)s, no brīvās pieredzes %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "Elites atlīdzībās sistēma tagad pieejama šādiem tankiem: %(vehicle)s"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Elites atlīdzības"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "%(modification)s modifikācija priekš %(vehicle)s veiksmīgi nopirkta."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Modifikācija Nopirkta"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "%(category)s kategorija priekš %(vehicle)s otrās vietas veiksmīgi piemērota."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Vietas Kategorijas Piemērošana"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Iztērēti kredīti: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Visas Dubultās Modifikācijas priekš %(vehicle)s atceltas."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "%(modification)s modifikācija priekš %(vehicle)s atcelta."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Modifikācija Atcelta"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "%(modifications)s modifikācijas priekš %(vehicle)s atceltas."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Kaujas pieredze iztērēta: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Brīvā pieredze iztērēta: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Modifikācijas Koka kļūda. Lūdzu mēģiniet vēlāk."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Kļūda"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "Standarta Modifikācijas Līmenis %(level)s priekš %(vehicle)s veiksmīgi izpētīts un nopirkts."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "Standarta Modifikācijas Līmeņi %(levels)s priekš %(vehicle)s veiksmīgi izpētīti un nopirkti."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Modifikācija Izpētīta"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "%(category)s kategorija priekš %(vehicle)s otrās vietas veiksmīgi piemērota."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Vietas Kategorijas Piemērošana"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "Papildus Komplekts tagad ir pieejams priekš %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Papildus Komplekts"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "Otrās vietas kategorijas piemērošana tagad ir pieejama priekš %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Vietas Kategorijas Pieejamība"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Būtisks Komplekts tagad ir pieejams priekš %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Būtisks Komplekts"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "Modifikācijas Koks tagad ir pieejams priekš %(vehicle)s."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Lauka Modifikācija"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Tanka Modifikācijas Koka pieejams. Jūs variet konfigurēt jūsu tanku attiecīgi to lomām un mainīt to īpašības izmantojot dažādas modifikācijas."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Atjaunināšanas kļūda. Lūdzu, mēģini vēlreiz."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Kļūda"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "Mezgls \"%(perk)s\" sekmīgi izpētīts šim tankam: %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Mezgls izpētīts"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "Mezgli %(perk)s sekmīgi izpētīti šim tankam: %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Mezgls izpētīts"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "Darbība nav pieejama. Lūdzu mēģiniet vēlāk."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "Neizdodas iegādāties %(vehName)s. Nepareizs tanks."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "Neizdodas iegādāties %(vehName)s. Nepietiekami kredīti."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "Neizdodas iegādāties %(vehName)s. Nepietiekams zelts."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Operācija nav pieejama. Šīs nācijas tanki nav izpētīti."
+
+msgid "vehicle_buy/server_error"
+msgstr "Neizdodas iegādāties %(vehName)s servera kļūdas dēļ. Mēģiniet vēlāk."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "Neizdodas iegādāties %(vehName)s tanku. Serveris īslaicīgi nav pieejams."
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s veiksmīgi nopirkts. Iztērēts %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "Neizdodas noņemt %(vehName)s. Mēģiniet vēlāk."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "Neizdodas noņemt %(vehName)s. Nepareizs tanks."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "Neizdodas noņemt %(vehName)s. Nepietiekami kredīti."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "Neizdodas noņemt %(vehName)s. Nepietiekams zelts."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "Neizdodas noņemt %(vehName)s. Kazarmās nav pietiekami daudz vietu."
+
+msgid "vehicle_remove/server_error"
+msgstr "Neizdodas pārdot %(vehName)s. Lūdzu pārliecinieties, ka tanks nav nevienā taktiskajā vienībā vai mēģiniet vēlāk."
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s veiksmīgi noņemts.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s veiksmīgi noņemts."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "%(vehName)s veiksmīgi noņemts.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "Neizdodas noņemt %(vehName)s. Tanks tiks noņemts automātiski."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "Neizdodas noņemt %(vehName)s. Tanks slēgts."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "Neizdodas noņemt %(vehName)s. Tankam nepieciešams remonts."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "Neizdodas noņemt %(vehName)s. Jūs esiet sasnieguši šodienas tanku limitu."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Uzmanību! Ja jūs izdomāsiet nopirkt to vēlāk, tanks būs pieejams jums ar atlaidi."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "Neizdodas nomāt %(vehName)s. Nepareizs tanks."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "Neizdodas nomāt %(vehName)s. Nepietiekami kredīti."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "Neizdodas nomāt %(vehName)s. Nepietiekams zelts."
+
+msgid "vehicle_rent/server_error"
+msgstr "Neizdodas nomāt %(vehName)s servera kļūdas dēļ. Mēģiniet vēlāk."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "Neizdodas nomāt %(vehName)s. Tanku nomas iespēja īslaicīgi nav pieejama."
+
+msgid "vehicle_rent/success"
+msgstr "Jūs esiet iznomājuši %(vehName)s %(rentPackageName)s. Jūs iztērējāt %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "uz %(days)d d"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(needed)s nepieciešams, lai salabotu %(vehName)s."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(needed)s nepieciešams, lai salabotu %(vehName)s."
+
+msgid "vehicle_repair/server_error"
+msgstr "Klūda labojot %(vehName)s. Mēģiniet vēlāk."
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s salabots. Jūs iztērējāt %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Bruņutehnikas atgūšana īslaicīgi nav pieejama. Mēģiniet vēlāk."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "Neizdodas atgūt %(vehName)s. Tanku atgūšana īslaicīgi nav pieejama."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "Neizdodas atgūt %(vehName)s. Nepareizs tanks."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "Neizdodas atgūt %(vehName)s. Nepietiekami kredīti."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "Neizdodas atgūt %(vehName)s. Nepietiekams zelts."
+
+msgid "vehicle_restore/server_error"
+msgstr "Neizdodas atgūt %(vehName)s servera kļūdas dēļ. Mēģiniet vēlāk."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "Neizdodas atgūt %(vehName)s. Tanku atgūšana īslaicīgi nav pieejama."
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)s veiksmīgi atgūts. Iztērēts %(price)s."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Demontēšanas Komplekts izmantots (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "Neizdodas pārdot %(vehName)s. Mēģiniet vēlāk."
+
+msgid "vehicle_sell/disabledService"
+msgstr "Neizdodas pārdot %(vehName)s. Mēģiniet vēlāk."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "Nevar pārdot %(vehName)s. Nepietiek komponentes, lai noņemtu iekārtu."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "Neizdodas pārdot %(vehName)s. Nepareizs tanks."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "Neizdodas pārdot %(vehName)s. Nepietiekami kredīti."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "Neizdodas pārdot %(vehName)s. Nepietiekams zelts."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "Neizdodas pārdot %(vehName)s. Kazarmās nav pietiekami daudz vietu."
+
+msgid "vehicle_sell/server_error"
+msgstr "Neizdodas pārdot %(vehName)s. Lūdzu pārliecinieties, ka tanks nav nevienā taktiskajā vienībā vai mēģiniet vēlāk."
+
+msgid "vehicle_sell/success"
+msgstr "%(vehName)s veiksmīgi pārdots.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "%(vehName)s veiksmīgi pārdots.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "Neizdodas pārdot %(vehName)s. Tanks tiks noņemts automātiski."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "Neizdodas pārdot %(vehName)s. Tanks ir slēgts."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "Neizdodas pārdot %(vehName)s. Salabojiet jūsu tanku."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "Neizdodas pārdot %(vehName)s. Jūs esiet sasnieguši šodienas tanku limitu."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Kļūda pērkot vietu. Nepietiek kredītu."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Kļūda pērkot slotu. Nepietiek zelta."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Kļūda pērkot slotu. Mēģiniet vēlāk."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Papildus slots angārā iegādāts. Iztērēts %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Kļūda mainot %(vehName)s paātrināto apkalpes apmācību. Nepareizs tanks."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "Neizdevās mainīt uz paātrināto apkalpes treniņu priekš %(vehName)s. Mēģiniet vēlāk."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "%(vehName)s paātrinātais apkalpes treniņš ir izslēgts."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "%(vehName)s paātrinātais apkalpes treniņš ir ieslēgts."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Kļūda mainot %(vehName)s apkalpes paātrināto apmācību. Tanks ir slēgts."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Kļūda mainot %(vehName)s apkalpes paātrināto apmācību. Salabojiet tanku."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Neizdevās apmainīt %(vehName)s. Izvēlēta nepareiza bruņutehnika."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "Neizdodas apmainīt priekš %(vehName)s. Nepietiekami kredīti."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "Neizdodas apmainīt priekš %(vehName)s. Nepietiekams zelts."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "Neizdodas apmainīt %(tradeOffVehName)s. Kazarmās nav pietiekami daudz vietu."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Iemaiņas piedāvājums tagad ir pieejams!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Iemaiņas piedāvājums vairs nav pieejams!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Neizdevās apmainīt %(vehName)s. Servera kļūda. Lūdzu, mēģiniet vēlāk."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Neizdevās apmainīt %(vehName)s. Pirkšanas/apmaiņas serviss īslaicīgi nav pieejams."
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)s tika noņemts. %(vehName)s tiks nopirkts par %(price)s."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "Neizdevās apmainīt %(tradeOffVehName)s. Bruņutehnika tiks norakstīta automātiski."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Neizdevās apmainīt %(vehName)s. Bruņutehniku nevar iegūt apmaiņas rezultātā."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "Neizdodas apmainīt %(tradeOffVehName)s. Tanks nav pakļauts maiņai."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "Neizdodas apmainīt %(tradeOffVehName)s. Tanks nav pieejams."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "Neizdodas apmainīt %(tradeOffVehName)s. Salabojiet tanku."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "Neizdodas apmainīt %(tradeOffVehName)s. Tanks nav noliktavā."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "Darbība nav iespējama. Viss jūsu zelts būs pieejams pēc automātiskas WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "video/error"
+msgstr "Video atskaņošanas kļūda. Kļūdas kods: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "Minikartes kaujas zonas uz laiku nav pieejamas."
+
+msgid "w2gt/switchOff/header"
+msgstr "Tehniskas Problēmas"
+
+msgid "w2gt/switchOn/description"
+msgstr "Minikartes kaujas zonas tagad ir pieejamas. Cīnieties tālāk!"
+
+msgid "w2gt/switchOn/header"
+msgstr "Funkcionalitāte atjaunota"
+
+msgid "wallet/available"
+msgstr "WG Wallet veiksmīgi sinhronizēts. Jūsu zelts, bonas, kredīti, un brīvā pieredze tagad ir pieejami."
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet veiksmīgi sinhronizēts. Jūsu brīvā pieredze tagad ir pieejama."
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet veiksmīgi sinhronizēts. Jūsu zelts tagad ir pieejams."
+
+msgid "wallet/not_available"
+msgstr "Notiek bilances datu saņemšana. Jūsu zelts, bonas, kredīti, un brīvā pieredze drīz būs pieejami."
+
+msgid "wallet/not_available_freexp"
+msgstr "Saņem balansa datus. Visa jūsu brīvā pieredze drīz būs pieejama."
+
+msgid "wallet/not_available_gold"
+msgstr "Notiek bilances datu saņemšana. Viss jūsu zelts drīz būs pieejams."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Nevar pārsākt nedēļas misiju: operācija bloķēta."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Nevar pārsākt nedēļas misiju: nederīga misija."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Nevar pārsākt nedēļas misiju: misija jau pabeigta."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Nevar pārsākt nedēļas misiju: operācija apturēta."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Nedēļas misija veiksmīgi pārsākta."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Nevar pārsākt Nedēļas Misiju. Lūdzu, mēģini vēlreiz vēlāk."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "Nedēļas Misijas uz laiku nav pieejamas. Atvainojamies par sagādātajām neērtībām."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "Nedēļas Misijas atkal ir pieejamas. Atvainojamies par sagādātajām neērtībām."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Nevar iziet no Iesildīšanās. Lūdzu mēģiniet vēlāk."
+
+msgid "window/buttons/close"
+msgstr "Aizvērt"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" nesakrīt ar %s vietu."

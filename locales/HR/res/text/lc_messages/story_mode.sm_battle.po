@@ -1,0 +1,671 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-07-20 10:00+0300\nPO-Revision-Date: 2023-07-20 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleResult/reason/1"
+msgstr "Sva neprijateljska vozila uništena"
+
+msgid "battleResult/reason/11"
+msgstr "Svi ciljevi ostvareni"
+
+msgid "battleResult/reason/3"
+msgstr "Vrijeme bitke je isteklo"
+
+msgid "battleResult/reason/5"
+msgstr "Tehnički poraz"
+
+msgid "battleResult/reason/8"
+msgstr "Saveznik uništen"
+
+msgid "battleResult/reason/9"
+msgstr "Vaše vozilo je uništeno"
+
+msgid "battleResult/reason/default"
+msgstr "Nepoznati razlog"
+
+msgid "battleResult/resultLabel/tie"
+msgstr "BITKA JE GOTOVA"
+
+msgid "battleResult/resultLabel/win"
+msgstr "POBJEDA!"
+
+msgid "berlin/hint01"
+msgstr "Uništite gusjenice Kraljevskog Tigra za Malu Burnicu"
+
+msgid "berlin/hint02"
+msgstr "Čekajte i poslušajte nar. Brooksa"
+
+msgid "berlin/objective01/header"
+msgstr "Potraga za neprijateljskim Čudesnim oružjem"
+
+msgid "berlin/objective01/subheader"
+msgstr "Nastavite oprezno"
+
+msgid "berlin/objective02/header"
+msgstr "Odbijte!"
+
+msgid "berlin/objective02/subheader"
+msgstr "Slijedite upute stožera"
+
+msgid "berlin/objective03/header"
+msgstr "Potraga za neprijateljskim Čudesnim oružjem"
+
+msgid "berlin/objective03/subheader"
+msgstr "Nastavite oprezno"
+
+msgid "berlin/objective03/success"
+msgstr "Ruševine očišćene!"
+
+msgid "berlin/objective04/header"
+msgstr "Pričekajte da nar. Brooks pozove bombardera"
+
+msgid "berlin/objective04/subheader"
+msgstr "Branite svoj položaj!"
+
+msgid "berlin/objective05/header"
+msgstr "Dokrajčite neprijatelje"
+
+msgid "berlin/objective05/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Uništite %d preostalog neprijatelja"
+msgstr[1] "Uništite %d preostala neprijatelja"
+msgstr[2] "Uništite %d preostalih neprijatelja"
+
+msgid "berlin/objective05/success"
+msgstr "Bombarder stiže! Spremite se!"
+
+msgid "berlin/objective06/header"
+msgstr "Završite posao"
+
+msgid "berlin/objective06/subheader"
+msgstr "Uništite gusjenice Jagdtigera"
+
+msgid "berlin/objective06/success"
+msgstr "JagdTiger uništen"
+
+msgid "berlin/objective07/header"
+msgstr "Osvojite čudesno oružje"
+
+msgid "berlin/objective07/subheader"
+msgstr "Uništite gusjenice Malog Miša"
+
+msgid "berlin/objective07/success"
+msgstr "Mali Miš uništen i osvojen!"
+
+msgid "berlin/prebattle/header"
+msgstr "Nastavite oprezno"
+
+msgid "berlin/prebattle/start"
+msgstr "Nastavi"
+
+msgid "berlin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "berlin/respawn/header"
+msgstr "Pozor, vojniče"
+
+msgid "berlin/respawn/subheader"
+msgstr "Pojačanja stižu"
+
+msgid "berlin/respawn_over/header"
+msgstr "Gotovo je"
+
+msgid "berlin/respawn_over/subheader"
+msgstr "Sva dostupna vozila su uništena"
+
+msgid "botNames/Brooks"
+msgstr "Nar. Brooks"
+
+msgid "botNames/Connolly"
+msgstr "Lt. Arthur Connolly"
+
+msgid "botNames/Dubois"
+msgstr "Capt. Louis Dubois"
+
+msgid "botNames/McCormick"
+msgstr "Capt. John McCormick"
+
+msgid "botNames/McLaud"
+msgstr "Alistair MacLeod"
+
+msgid "botNames/Murphy"
+msgstr "Capt. Jack Murphy"
+
+msgid "botNames/Teddy"
+msgstr "Capt. Miroslav Kotva"
+
+msgid "botNames/Ulysses"
+msgstr "Capt. James Korvin"
+
+msgid "bunker"
+msgstr "Priobalni bunker"
+
+msgid "common/battleBtn"
+msgstr "U bitku!"
+
+msgid "common/continueBtn"
+msgstr "Nastavi"
+
+msgid "common/loading"
+msgstr "Učitavam"
+
+msgid "common/skipBtn"
+msgstr "Preskoči"
+
+msgid "confirmExit/exit"
+msgstr "Preskoči"
+
+msgid "confirmExit/exitRegular"
+msgstr "Izlaz"
+
+msgid "confirmExit/stay"
+msgstr "Odustani"
+
+msgid "confirmExit/title"
+msgstr "Želite li preskočiti priču Lovca na tigrove?"
+
+msgid "confirmExit/titleRegular"
+msgstr "Želite li napustiti priču?"
+
+msgid "dday/hint01"
+msgstr "Nađite način za uništenje priobalnih bunkera"
+
+msgid "dday/hint02"
+msgstr "Koristite dimne signale za pomoć bojnom brodu"
+
+msgid "dday/objective01/header"
+msgstr "Preživite na plaži"
+
+msgid "dday/objective01/subheader"
+msgstr "Izbjegavajte neprijateljsku paljbu pod svaku cijenu"
+
+msgid "dday/objective02/header"
+msgstr "Probijte neprijateljske linije"
+
+msgid "dday/objective02/subheader"
+msgid_plural "plural/dday/objective02/subheader"
+msgstr[0] "Uništite %d priobalni bunker"
+msgstr[1] "Uništite %d priobalnih bunkera"
+msgstr[2] "Uništite %d priobalnih bunkera"
+
+msgid "dday/objective02/success"
+msgstr "Svi priobalni bunkeri uništeni!"
+
+msgid "dday/objective03/header"
+msgstr "Popnite se"
+
+msgid "dday/objective03/subheader"
+msgstr "Dođite do i uništite neprijateljsku obranu u sektoru B5"
+
+msgid "dday/objective03/success"
+msgstr "Obrana uništena! Iskoristite ovaj proboj!"
+
+msgid "dday/objective04/header"
+msgstr "Pomognite u proboju vaših saveznika"
+
+msgid "dday/objective04/subheader"
+msgstr "Neutralizirajte neprijateljsku obranu u sektoru D6"
+
+msgid "dday/objective04/success"
+msgstr "Očišćen je put za satnika Murphya!"
+
+msgid "dday/objective05/header"
+msgstr "Pomognite satniku Dubois"
+
+msgid "dday/objective05/subheader"
+msgstr "Neutralizirajte neprijateljsku obranu u sektoru H6"
+
+msgid "dday/objective05/success"
+msgstr "Očišćen je put za satnika Duboisa!"
+
+msgid "dday/objective06/header"
+msgstr "Zaštitite pomorske snage"
+
+msgid "dday/objective06/subheader"
+msgid_plural "plural/dday/objective06/subheader"
+msgstr[0] "Uništite %d priobalni top"
+msgstr[1] "Uništite %d priobalnih topova"
+msgstr[2] "Uništite %d priobalnih topova"
+
+msgid "dday/objective06/success"
+msgstr "Svi priobalni topovi uništeni!"
+
+msgid "dday/objective07/header"
+msgstr "Počistite područje"
+
+msgid "dday/objective07/subheader"
+msgid_plural "plural/dday/objective07/subheader"
+msgstr[0] "Uništite %d preostalog neprijatelja"
+msgstr[1] "Uništite %d preostala neprijatelja"
+msgstr[2] "Uništite %d preostalih neprijatelja"
+
+msgid "dday/objective07/success"
+msgstr "Svi neprijatelji uništeni!"
+
+msgid "dday/objective08/header"
+msgstr "Drži položaj"
+
+msgid "dday/objective08/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Uništi %d neprijateljsko vozilo."
+msgstr[1] "Uništi %d neprijateljskih vozila."
+msgstr[2] "Uništi %d neprijateljskih vozila."
+
+msgid "dday/objective08/success"
+msgstr "Mostobran zaštićen!"
+
+msgid "dday/prebattle/header"
+msgstr "Priprema za juriš"
+
+msgid "dday/prebattle/start"
+msgstr "U napad!"
+
+msgid "dday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "dday/respawn/header"
+msgstr "Pozor, vojniče"
+
+msgid "dday/respawn/subheader"
+msgstr "Pojačanja stižu"
+
+msgid "dday/respawn_over/header"
+msgstr "Gotovo je"
+
+msgid "dday/respawn_over/subheader"
+msgstr "Sva dostupna vozila su uništena"
+
+msgid "epilogue/text"
+msgstr "MacLeod: \"Živ je! Brooks je živ! Gadno je opečen. Ali je živ. Naravno da je. Obećao mi je medalju. Imaš svoju. Zasluženo, moram reći. Spržio si tog King Tigera. Sada smo kvit. Onaj hitac na Tigera kada smo te spasili je bila čista sreća. Pucao sam bez ciljanja. Vidiš kako je to ispalo? Izgleda da sam i sebe spasio. I Brooksa.\n\nSada se možemo malo odmoriti. Imamo nekoliko dana. Zakrpajmo naše tenkove. Berlin čeka.\n\nPa-pa, 7-4 za tebe. Ali, Nijemci još imaju te Tigere pa ćemo vidjeti tko će izaći kao pobjednik!\""
+
+msgid "epilogue/title"
+msgstr "EPILOG"
+
+msgid "finish/reason/1"
+msgstr "SVA NEPRIJATELJSKA VOZILA UNIŠTENA"
+
+msgid "finish/reason/11"
+msgstr "SVI CILJEVI OSTVARENI"
+
+msgid "finish/reason/3"
+msgstr "VRIJEME BITKE JE ISTEKLO"
+
+msgid "finish/reason/5"
+msgstr "TEHNIČKI PORAZ"
+
+msgid "finish/reason/8"
+msgstr "SAVEZNIK UNIŠTEN"
+
+msgid "finish/reason/9"
+msgstr "VAŠE VOZILO JE UNIŠTENO"
+
+msgid "finish/reason/default"
+msgstr "NEPOZNATI RAZLOG"
+
+msgid "hint_aim_weak_spots"
+msgstr "Zelena oznaka označava visoku vjerojatnost nanošenja štete"
+
+msgid "hint_move"
+msgstr "Kontrole vozila"
+
+msgid "hint_move_turret"
+msgstr "Kontrole kupole i ciljanja"
+
+msgid "hint_shoot"
+msgstr "Naciljajte neprijateljsko vozilo i pucajte"
+
+msgid "hint_sniper_enter"
+msgstr "Pomičite kotačić miša za ulaz u snajperski režim"
+
+msgid "hint_sniper_on_distance_exit"
+msgstr "Pomičite kotačić miša za napuštanje snajperskog režima"
+
+msgid "hint_sniper_weak_spots_enter"
+msgstr "Snajperski režim omogućuje bolje ciljanje na slabe točke neprijateljskog vozila"
+
+msgid "hint_target_unlock"
+msgstr "Automatsko ciljanje uključeno. Isključite ga desnom tipkom miša."
+
+msgid "ingameMenu/buttons/quit"
+msgstr "Preskočite uvod"
+
+msgid "introVideo/loading"
+msgstr "Učitavam..."
+
+msgid "lootCapturing/equipment"
+msgstr "Osvajanje: mapa minskog polja"
+
+msgid "lootCapturing/plan"
+msgstr "Osvajanje: djelić mape"
+
+msgid "lootCapturing/tank"
+msgstr "Osvajanje neprijateljskog vozila"
+
+msgid "prebattle/mission/stage/1"
+msgstr "Operacija 1"
+
+msgid "prebattle/mission/stage/2"
+msgstr "Operacija 2"
+
+msgid "prebattle/mission/stage/3"
+msgstr "Operacija 3"
+
+msgid "prebattle/mission/stage/4"
+msgstr "Operacija 4"
+
+msgid "prebattle/mission/stage/5"
+msgstr "Operacija 5"
+
+msgid "prebattle/mission/stage/6"
+msgstr "Operacija 6"
+
+msgid "prebattle/mission/stage/7"
+msgstr "Operacija 7"
+
+msgid "prebattle/mission/task/1"
+msgstr "Zadatak: napadni grad i uništi sva neprijateljska vozila."
+
+msgid "prebattle/mission/task/2"
+msgstr "Zadatak: napadni grad i uništi sva neprijateljska vozila."
+
+msgid "prebattle/mission/task/3"
+msgstr "Napadni grad i uništi sva neprijateljska vozila."
+
+msgid "prebattle/mission/task/4"
+msgstr "Pronađite i uništite neprijateljsko Čudesno oružje."
+
+msgid "prebattle/mission/task/5"
+msgstr "Probij se, uništi priobalne topove i zauzmi mostobran."
+
+msgid "prebattle/mission/task/6"
+msgstr "Isporučite zapovijedi za prekid vatre saveznicima."
+
+msgid "prebattle/mission/task/7"
+msgstr "Dođite do zapovjednog centra i spriječite lansiranje projektila."
+
+msgid "prebattle/mission/text/1"
+msgstr "Brooks: \"Pa, kako si? Jesi li se snašao? Kasnije će te posjetiti bolničar. Sada nam je potreban svaki tp. Napad je već počeo. I zato što smo zakasnili, neprijatelj je koncentrirao svu pozornost na drugom boku. Ovo je naša prilika. Napadamo odmah. Probij se u grad i stisnimo ih s obje strane.\n\nZa nama-i izbjegavaj zmajeve zube. Imaju hrpu redova tih betonskih kljova u onom polju. Ali, u redu je. Probit ćemo se. Sve što trebaš činiti je slušati me i izvršavati moje zapovijedi brzo i precizno. MacLeod i ja ćemo te pokrivati.\n\nI ne obaziri se na njegove šale. Svatko ima svoj jedinstveni mehanizam s kojim se snalazi...Naprijed!\""
+
+msgid "prebattle/mission/text/2"
+msgstr "MacLeod: \"Ah, Tigeri...najgora su stvar s kojom se možeš susresti na bojištu. I ako zapovjedništvo kaže da ima problem, to su obično Tigeri. Ne možemo dobiti prvi jurišni odred, drugi je upravo krenuo i eto nas-moramo za njima.\n\nA ako šalju nas, to znači samo jednu stvar: Tigeri. To kažu u stožeru: \"Pošaljite one stručnjake za Tigere!\" Devet tenkova za dva. Nije loše za pola godine. Vodiš 5-4. Ali, imam priliku doći u vodstvo. I konačno dobiti tu prokletu medalju!\n\nHajde, Brooks ne voli čekanje. Naš lov počinje.\""
+
+msgid "prebattle/mission/text/3"
+msgstr "MacLeod: \"U redu, svi, ovo je Operacija Čekić i nakovanj. Jednostavno ime za ne baš tako jednostavan posa. Idemo u grad raščistiti neprijateljske snage. Neće biti lako-idemo protiv teškog oklopa. Ali imamo pamet, mišiće i timski rad na našoj strani, zar ne, Srećko? I napravimo to brzo, ekipo. Imam planove za čajanku u pet, ako me razumijete!\""
+
+msgid "prebattle/mission/text/4"
+msgstr "MacLeod: \"Ne pitaj, Srećko. U mraku sam koliko i ti.\n\nNisam ljubitelj sve ove tajnovitosti. Volim kada su stvari izravne. Vidiš neprijatelja, boriš se. Ali ovo? Ovo je nered.\n\nU gradu će biti i savezničkih tenkova. Brooks je zatražio da budemo oprezni. Što to treba značiti?\nImamo poseban posao. Pronaći neku vrstu Čudesnog oružja-nešto golemo na gusjenicama. Nema nikoga osim nas za to, Srećko.\n\nSpremni? Pokret.\""
+
+msgid "prebattle/mission/text/5"
+msgstr "Satnik John McCormick: \"OK, ekipa, stigao je taj dan. Vrijeme je da se rat završi i točno to ćemo i učiniti. Svi mi-Amerikanci, Britanci, Francuzi, Kanađani, Australci, Belgijci, Čehoslovaci, Grci, Nizozemci, Novozelanđani, Norvežani, Poljaci. Ujedinjeni smo u okončanju ovog zla jednom zauvijek.\n\nProbit ćemo Atlantski Zid i uspostaviti uporište.\n\nSpremite se za iskrcavanje!\""
+
+msgid "prebattle/mission/text/6"
+msgstr "Satnik Smith: \"Slušaj ovamo. Njemačka je prije nekoliko sati potpisala kapitulaciju. Rat završava sutra. Ali naši dečki u planinama su izgubili radio kontakt, ne znaju da je gotovo. Spremni su napasti ovu prokletu tvrđavu u zoru, a ni Nijemci u tvrđavi ne znaju ništa o kapitulaciji. To će biti besmislena klaonica.\n\nMi smo jedini koji to mogu zaustaviti. Naš zadatak: provući se kroz neprijateljske linije i isporučiti zapovijedi o prekidu vatre. To je samoubilački pohod, ali svaki život koji spasimo je toga vrijedan.\n\nS nama je i zarobljeni njemački vezist. On poznaje teren i ima razloga kao i mi zaustaviti ovo krvoproliće.\n\nPokret.\""
+
+msgid "prebattle/mission/text/7"
+msgstr "Leni Scharf: \"Situacija je kritična. Izgubili smo kontakt s našom raketnom bazom u Norveškom moru. Izviđački let se nikada nije vratio, a prve tenkovske snage koje su se iskrcale je počistio nepoznati neprijatelj.\n\nObavještajna misli da se pripremaju na lansiranje balističkog projektila. Ne znamo metu, ali u ovoj političkoj klimi jedno lansiranje može pokrenuti globalni sukob.\n\nKao nekada, zar ne? Još jedan nemogući zadatak iza neprijateljskih linija. Pokret!\""
+
+msgid "prebattle/mission/title/1"
+msgstr "Čelična lavina"
+
+msgid "prebattle/mission/title/2"
+msgstr "Traper"
+
+msgid "prebattle/mission/title/3"
+msgstr "Čekić i nakovanj"
+
+msgid "prebattle/mission/title/4"
+msgstr "Mačka u mišolovci"
+
+msgid "prebattle/mission/title/5"
+msgstr "Operacija Overlord"
+
+msgid "prebattle/mission/title/6"
+msgstr "Operacija Poštar"
+
+msgid "prebattle/mission/title/7"
+msgstr "Operacija Vrelište"
+
+msgid "ruinberg/hint01"
+msgstr "Pronađite obilazak i obuhvatite neprijatelja"
+
+msgid "ruinberg/objective01/header"
+msgstr "Naprijed!"
+
+msgid "ruinberg/objective01/subheader"
+msgstr "Gurajte naprijed i raščistite neprijateljske snage"
+
+msgid "ruinberg/objective02/header"
+msgstr "Prišuljajte se okolo"
+
+msgid "ruinberg/objective02/subheader"
+msgstr "Pritisnite neprijatelja s obje strane"
+
+msgid "ruinberg/objective02/success"
+msgstr "Uništen!"
+
+msgid "ruinberg/objective03/header"
+msgstr "Prišuljajte se okolo"
+
+msgid "ruinberg/objective03/subheader"
+msgstr "Pritisnite neprijatelja s obje strane"
+
+msgid "ruinberg/objective03/success"
+msgstr "Uništen!"
+
+msgid "ruinberg/objective05/header"
+msgstr "Naprijed!"
+
+msgid "ruinberg/objective05/subheader"
+msgstr "Gurajte naprijed i raščistite neprijateljske snage"
+
+msgid "ruinberg/objective07/header"
+msgstr "Pripremite se za protunapad!"
+
+msgid "ruinberg/objective07/subheader"
+msgstr "Držite položaj"
+
+msgid "ruinberg/objective07/success"
+msgstr "Neprijatelji uništeni!"
+
+msgid "ruinberg/prebattle/header"
+msgstr "Spremite se!"
+
+msgid "ruinberg/prebattle/start"
+msgstr "U napad!"
+
+msgid "ruinberg/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "ruinberg/respawn/header"
+msgstr "Pozor, vojniče"
+
+msgid "ruinberg/respawn/subheader"
+msgstr "Pojačanja stižu"
+
+msgid "ruinberg/respawn_over/header"
+msgstr "Gotovo je"
+
+msgid "ruinberg/respawn_over/subheader"
+msgstr "Sva dostupna vozila su uništena"
+
+msgid "settings/disabledTabsOverlay"
+msgstr "Završite priču Lovac na tigrove kako bi otključali ove postavke."
+
+msgid "timersPanel/overturned"
+msgstr "Oporavak vašeg vozila..."
+
+msgid "vday/hint01"
+msgstr "Krećite se brzo iza ugla"
+
+msgid "vday/hint02"
+msgstr "Prišuljajte se bliže"
+
+msgid "vday/hint03"
+msgstr "Pošaljite satnika Duboisa u izviđanje"
+
+msgid "vday/hint04"
+msgstr "Uporabite zarobljeni radio za izdavanje lažne zapovijedi Tigeru"
+
+msgid "vday/hint05"
+msgstr "Provjerite njemački zapovjedni položaj"
+
+msgid "vday/hint06"
+msgstr "Sposobnosti Izviđanje i Lažna zapovijed su ključ vašeg uspjeha"
+
+msgid "vday/hint07"
+msgstr "Koristite sposobnosti Izviđanje i Lažna zapovijed za neopaženo kretanje"
+
+msgid "vday/hint08"
+msgstr "Pokret! Ili puni gas ili mrtvački sanduk!"
+
+msgid "vday/hint09"
+msgstr "Elitne tenkove se ne može odvratiti Lažnom zapovijedi."
+
+msgid "vday/hint10"
+msgstr "Slijedite upute satnika Smitha i krećite se oprezno"
+
+msgid "vday/hint11"
+msgstr "Vratite se na zadatak!"
+
+msgid "vday/objective01/header"
+msgstr "Pokret!"
+
+msgid "vday/objective01/subheader"
+msgstr "Isporučite zapovijedi prekida vatre savezničkim snagama"
+
+msgid "vday/objective02/header"
+msgstr "Dosegnite njemački zapovjedni položaj"
+
+msgid "vday/objective02/subheader"
+msgstr "Slijedite upute satnika Smitha"
+
+msgid "vday/objective02/success"
+msgstr "Osvojene su mape minskog polja"
+
+msgid "vday/objective03/header"
+msgstr "Pronađite djeliće mape prolaza"
+
+msgid "vday/objective03/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "%d djelić mape prikupljen"
+msgstr[1] "%d djelića mape prikupljeno"
+msgstr[2] "%d djelića mape prikupljeno"
+
+msgid "vday/objective03/success"
+msgstr "Mapa prolaza sastavljena"
+
+msgid "vday/objective04/header"
+msgstr "Isporučite zapovijedi prekida vatre savezničkim snagama"
+
+msgid "vday/objective04/subheader"
+msgstr "Idite kroz minska polja"
+
+msgid "vday/objective04/success"
+msgstr "Zapovijed prekida paljbe isporučena!"
+
+msgid "vday/objective05/header"
+msgstr "Dosegnite minska polja"
+
+msgid "vday/objective05/subheader"
+msgstr "Provucite se kroz neprijateljske linije"
+
+msgid "vday/objective05/success"
+msgstr "Minska polja dosegnuta"
+
+msgid "vday/prebattle/header"
+msgstr "Provucite se kroz neprijateljske linije"
+
+msgid "vday/prebattle/start"
+msgstr "Nastavi"
+
+msgid "vday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "vday/prebattleVeryHard/header"
+msgstr "Idite kroz minsko polje"
+
+msgid "vday/prebattleVeryHard/start"
+msgstr "Kreni"
+
+msgid "vday/prebattleVeryHard/subheader"
+msgstr "?empty?"
+
+msgid "vday/respawn/header"
+msgstr "Pozor, vojniče"
+
+msgid "vday/respawn/subheader"
+msgstr "Pojačanja stižu"
+
+msgid "vday/respawn_over/header"
+msgstr "Gotovo je"
+
+msgid "vday/respawn_over/subheader"
+msgstr "Sva dostupna vozila su uništena"
+
+msgid "zeppelin/hint01"
+msgstr "Napunite top vašeg vozila i nanesite povećanu štetu"
+
+msgid "zeppelin/hint02"
+msgstr "Oštetite udaljenog neprijatelja paljbom s maksimalnom preciznošću topa"
+
+msgid "zeppelin/hint03"
+msgstr "Saznajte kako pucati s pomoćnim naoružanjem ovog vozila"
+
+msgid "zeppelin/objective01/failure"
+msgstr "Zadatak nije izvršen!"
+
+msgid "zeppelin/objective01/header"
+msgstr "Naprijed!"
+
+msgid "zeppelin/objective01/subheader"
+msgstr "Dođite do projektila i spriječite lansiranje"
+
+msgid "zeppelin/objective02/header"
+msgstr "Neprijateljsko postrojenje za održavanje je pronađeno!"
+
+msgid "zeppelin/objective02/subheader"
+msgstr "Zarobite napušteno vozilo"
+
+msgid "zeppelin/objective02/success"
+msgstr "Vozilo zarobljeno!"
+
+msgid "zeppelin/objective03/header"
+msgstr "Novi ciljevi primljeni!"
+
+msgid "zeppelin/objective03/subheader"
+msgstr "Zauzmite mjesto lansiranja i zapovjedni centar"
+
+msgid "zeppelin/objective03/success"
+msgstr "Mjesto lansiranja osigurano"
+
+msgid "zeppelin/objective04/header"
+msgstr "Držite svoj položaj"
+
+msgid "zeppelin/objective04/subheader"
+msgstr "Uništi %d neprijateljskih vozila"
+
+msgid "zeppelin/objective04/success"
+msgstr "Neprijateljski napad odbijen"
+
+msgid "zeppelin/prebattle/header"
+msgstr "Spremite se!"
+
+msgid "zeppelin/prebattle/start"
+msgstr "Nastavi!"
+
+msgid "zeppelin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "zeppelin/respawn/header"
+msgstr "Pričekaj, zapovjedniče"
+
+msgid "zeppelin/respawn/subheader"
+msgstr "Pojačanja stižu"
+
+msgid "zeppelin/respawn_over/header"
+msgstr "Gotovo je"
+
+msgid "zeppelin/respawn_over/subheader"
+msgstr "Sva dostupna vozila su uništena"
