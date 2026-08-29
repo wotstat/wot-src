@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<personal_numbers.xml xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland">
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland">
 	<itemGroup>
 		<userString>#vehicle_customization:personal_number/general</userString>
 		<season>ALL</season>
@@ -158,4 +158,4 @@
 		</personal_number>
 		<name>Collapsible style numbers</name>
 	</itemGroup>
-</personal_numbers.xml>
+</root>

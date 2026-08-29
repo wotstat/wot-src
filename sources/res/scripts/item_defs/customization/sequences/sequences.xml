@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<sequences.xml xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland">
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland">
 	<itemGroup>
 		<name>sequences</name>
 		<userString>#vehicle_customization:sequence/general</userString>
@@ -123,4 +123,4 @@
 			<sequenceName>particles/Tank/customization/Ch45_WZ_114_3DSt/Ch45_WZ_114_3DSt_turret.ssm</sequenceName>
 		</sequence>
 	</itemGroup>
-</sequences.xml>
+</root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scripts_config.xml xmlns:xmlref="http://bwt/xmlref">
+<root xmlns:xmlref="http://bwt/xmlref">
 	<updateUrl>http://worldoftanks.eu/update</updateUrl>
 	<silhouetteColors>
 		<common>
@@ -240,4 +240,4 @@
 		</host>
 	</login>
 	<csisUrl>http://csis.worldoftanks.eu/csis/woteu/</csisUrl>
-</scripts_config.xml>
+</root>

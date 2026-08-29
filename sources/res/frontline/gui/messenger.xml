@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<messenger.xml>
+<root>
 	<htmlTemplates>
 		<FLBattleVictoryResult>
 			<type>battleResult</type>
@@ -56,4 +56,4 @@
 &lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;&lt;font color='#929290'&gt;%(xp)s%(xpEx)s%(battlePassProgress)s&lt;/font&gt;%(crystalStr)s%(gold)s%(eventCoinStr)s%(bpcoinStr)s%(equipCoinStr)s&lt;font color='#929290'&gt;%(credits)s%(creditsEx)s&lt;/font&gt;%(rankedProgress)s%(rankedBonusBattles)s%(achieves)s%(lock)s%(quests)s%(piggyBank)s%(platformCurrencyStr)s</message>
 		</FLBattleDefeatResult>
 	</htmlTemplates>
-</messenger.xml>
+</root>

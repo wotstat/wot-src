@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<damage_stickers.xml>
+<root>
 	<common>
 		<priority>1</priority>
 		<prefab>content/DecalsPrefabs/armor_hit_decal.prefab</prefab>
@@ -28,4 +28,4 @@
 		<priority>1</priority>
 		<prefab>content/DecalsPrefabs/armor_hit_decal_ap_smoke.prefab</prefab>
 	</regularSmoke>
-</damage_stickers.xml>
+</root>

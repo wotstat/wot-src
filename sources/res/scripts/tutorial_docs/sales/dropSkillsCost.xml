@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<dropSkillsCost.xml>
+<root>
 	<default-scene>DefaultScene</default-scene>
 	<initial-scene>Hangar</initial-scene>
 	<scenes>
@@ -135,4 +135,4 @@
 			<asInt>5</asInt>
 		</var-set>
 	</vars>
-</dropSkillsCost.xml>
+</root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<id.10_hills.xml>
+<root>
 	<name>#arenas:10_hills/name</name>
 	<description>#arenas:10_hills/description</description>
 	<geometry>spaces/10_hills</geometry>
@@ -202,4 +202,4 @@
 			<module>script::PointsOfInterestModule</module>
 		</comp7>
 	</modules>
-</id.10_hills.xml>
+</root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<dynamic_objects.xml>
+<root>
 	<lsPhaseSwitch>
 		<effect>last_stand/gui/effects/phase_switch_effect.xml</effect>
 	</lsPhaseSwitch>
@@ -9,4 +9,4 @@
 	<lsBeamDamage>
 		<prefab>last_stand/content/CGFPrefabs/beams/damage.prefab</prefab>
 	</lsBeamDamage>
-</dynamic_objects.xml>
+</root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<collectibleVehicle.xml>
+<root>
 	<default-scene>DefaultScene</default-scene>
 	<initial-scene>Hangar</initial-scene>
 	<scenes>
@@ -79,4 +79,4 @@
 		</trigger>
 	</triggers>
 	<vars></vars>
-</collectibleVehicle.xml>
+</root>

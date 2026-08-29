@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fonts.xml xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland">
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland">
 	<font>
 		<id>1</id>
 		<name>font_01</name>
@@ -96,4 +96,4 @@
 		<texture>gui/maps/vehicles/font_maps/font_22.dds</texture>
 		<alphabet>gui/maps/vehicles/font_maps/font_22.xml</alphabet>
 	</font>
-</fonts.xml>
+</root>

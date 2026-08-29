@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle.xml>
+<root>
 	<extras>
 		<regenerationKit>NoneExtra : vehicle_extras_battle_royale.RegenerationKit</regenerationKit>
 		<large_repairkit_battle_royale>NoneExtra : vehicle_extras_battle_royale.RepairkitBattleRoyale</large_repairkit_battle_royale>
@@ -34,4 +34,4 @@
 		<arcade_smoke_battle_royale>NoneExtra : vehicle_extras_battle_royale.Smoke</arcade_smoke_battle_royale>
 		<arcade_smoke_battle_royale_with_damage>NoneExtra : vehicle_extras_battle_royale.Smoke</arcade_smoke_battle_royale_with_damage>
 	</extras>
-</vehicle.xml>
+</root>

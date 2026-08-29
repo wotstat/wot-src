@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pm2_5_2_3.xml>
+<root>
 	<quests>
 		<potapovQuest>
 			<enabled>true</enabled>
@@ -161,4 +161,4 @@ def quest(eventType, eventData, quest, processor):
 			</bonus>
 		</potapovQuest>
 	</quests>
-</pm2_5_2_3.xml>
+</root>

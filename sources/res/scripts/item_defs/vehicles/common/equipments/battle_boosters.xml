@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<battle_boosters.xml>
+<root>
 	<improvedConfigurationBattleBooster>
 		<id>103</id>
 		<userString>#artefacts:improvedConfigurationBattleBooster/name</userString>
@@ -719,4 +719,4 @@
 		</kpi>
 		<tooltipSection>skills</tooltipSection>
 	</enemyShotPredictorBattleBooster>
-</battle_boosters.xml>
+</root>

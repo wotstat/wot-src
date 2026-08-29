@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle.xml xmlns:xmlref="http://bwt/xmlref">
+<root xmlns:xmlref="http://bwt/xmlref">
 	<lodLevels>
 		<NEAR>30</NEAR>
 		<SPLINE_TRACK>50</SPLINE_TRACK>
@@ -1025,4 +1025,4 @@
 		<external>wheel rightTrack leftTrack gun surveyingDevice</external>
 		<tankmen>commander driver radioman_1 radioman_2 gunner_1 gunner_2 loader_1 loader_2</tankmen>
 	</moduleKind>
-</vehicle.xml>
+</root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<roles.xml>
+<root>
 	<role_HT_assault>
 		<actions>blockAndTakeDamage doNearDamage</actions>
 	</role_HT_assault>
@@ -45,4 +45,4 @@
 	<role_SPG>
 		<actions>doStun doGroupStun doSpgDamage</actions>
 	</role_SPG>
-</roles.xml>
+</root>

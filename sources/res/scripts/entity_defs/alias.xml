@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<alias.xml>
+<root>
 	<BOOL>UINT8</BOOL>
 	<OBJECT_ID>INT32</OBJECT_ID>
 	<SHOT_ID>INT32</SHOT_ID>
@@ -3613,4 +3613,4 @@
 			</lastShotCharge>
 		</Properties>
 	</PROPELLANT_GUN_STATUS>
-</alias.xml>
+</root>

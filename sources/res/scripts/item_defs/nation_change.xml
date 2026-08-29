@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nation_change.xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<xsi:noNamespaceSchemaLocation>../development/xml_schema/nation_change.xsd</xsi:noNamespaceSchemaLocation>
 	<nation_groups>
 		<group>
@@ -7,4 +7,4 @@
 			<vehicle>ussr:R117_T34_85_Rudy</vehicle>
 		</group>
 	</nation_groups>
-</nation_change.xml>
+</root>

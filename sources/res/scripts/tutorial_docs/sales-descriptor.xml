@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<sales-descriptor.xml>
+<root>
 	<gui>gui/tutorial-lobby-gui.xml</gui>
 	<initial-chapter></initial-chapter>
 	<chapters>
@@ -314,4 +314,4 @@
 			<file-path>scripts/tutorial_docs/sales/crewRetrainingCost.xml</file-path>
 		</chapter>
 	</chapters>
-</sales-descriptor.xml>
+</root>

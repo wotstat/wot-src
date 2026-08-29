@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension.xml>
+<root>
 	<FeatureName>story_mode</FeatureName>
 	<IsEnabled>true</IsEnabled>
 	<Personality>story_mode_personality</Personality>
@@ -50,4 +50,4 @@
 			<module>cell.story_mode_cell.cell_story_mode_module</module>
 		</script>
 	</cgf>
-</extension.xml>
+</root>

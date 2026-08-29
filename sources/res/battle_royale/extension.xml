@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension.xml>
+<root>
 	<FeatureName>battle_royale</FeatureName>
 	<Components>
 		<StaticComponents>
@@ -65,4 +65,4 @@
 			<module>client.battle_royale_client_cgf_module</module>
 		</script>
 	</cgf>
-</extension.xml>
+</root>

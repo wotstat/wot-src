@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension.xml>
+<root>
 	<FeatureName>event_platform</FeatureName>
 	<IsEnabled>True</IsEnabled>
 	<Personality>EventPlatformPersonality</Personality>
@@ -10,4 +10,4 @@
 			<VehicleVisionOverrideComponent></VehicleVisionOverrideComponent>
 		</StaticComponents>
 	</Components>
-</extension.xml>
+</root>

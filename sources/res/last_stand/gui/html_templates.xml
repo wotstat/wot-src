@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<html_templates.xml>
+<root>
 	<lobby>
 		<prebattle>
 			<inviteTitle>
@@ -35,4 +35,4 @@
 		<LS_enemiesFromAbove>&lt;font color="#FEFEFE" size="36"&gt;_(#last_stand.last_stand_battle:battleHint/enemiesFromAbove)&lt;/font&gt;</LS_enemiesFromAbove>
 		<LS_convoyDestroyedEnemiesLeft>&lt;font color="#FFFFFF" size="32"&gt;_(#last_stand.last_stand_battle:battleHint/convoyDestroyedEnemiesLeft)&lt;/font&gt;</LS_convoyDestroyedEnemiesLeft>
 	</battleHints>
-</html_templates.xml>
+</root>

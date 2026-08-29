@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<story_mode_aspect_client_hangar.xml>
+<root>
 	<name>HANGAR</name>
 	<app_name>client</app_name>
 	<mask>4</mask>
@@ -13,4 +13,4 @@
 			<name>g_hangarBlockRegistrar</name>
 		</registrar>
 	</python>
-</story_mode_aspect_client_hangar.xml>
+</root>

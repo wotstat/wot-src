@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<dynamic_objects.xml>
+<root>
 	<ReconAimingCircleVisual>
 		<ally>
 			<visual>content/Interface/TargetPoint/inspire_enemy.model</visual>
@@ -27,4 +27,4 @@
 			<overTerrainHeight>17.0</overTerrainHeight>
 		</ally>
 	</SMSccAirstrikeAimingCircleVisual>
-</dynamic_objects.xml>
+</root>

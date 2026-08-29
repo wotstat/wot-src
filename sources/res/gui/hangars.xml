@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<hangars.xml>
+<root>
 	<shadow_model_name>content/Environment/envH_shadowPlane/gw.model</shadow_model_name>
 	<shadow_default_texture_name>content/Environment/envH_shadowPlane/GW_shad.dds</shadow_default_texture_name>
 	<shadow_empty_texture_name>system/maps/aid_null.dds</shadow_empty_texture_name>
@@ -30,4 +30,4 @@
 			<space>h33_comp7</space>
 		</item>
 	</hangar_scene_spaces>
-</hangars.xml>
+</root>

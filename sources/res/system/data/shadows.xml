@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shadows.xml>
+<root>
 	<enabled>true</enabled>
 	<intensity>0.9</intensity>
 	<distance>15.0</distance>
@@ -10,4 +10,4 @@
 	<modelReceivers>shaders/std_effects/shadows/receiver</modelReceivers>
 	<terrainReceiver>shaders/std_effects/shadows/receiver_terrain.fx</terrainReceiver>
 	<terrain2Receiver>shaders/terrain/terrain_shadow_receiver.fx</terrain2Receiver>
-</shadows.xml>
+</root>

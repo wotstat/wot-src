@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<prebattle_hints.xml>
+<root>
 	<hint>
 		<schema>hints_common.prebattle.newbie.schemas:hintSchema</schema>
 		<hintType>newbie_hint_1</hintType>
@@ -60,4 +60,4 @@
 		<hintType>newbie_hint_13</hintType>
 		<displayOrder>11</displayOrder>
 	</hint>
-</prebattle_hints.xml>
+</root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<particles.xml>
+<root>
 	<forward>
 		<fn_effect_bin>particles/content_forward/PFX/Environment/Buildings/hd_bld_UNI_006_KitCrashFactory_01.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/PFX/Environment/Buildings/hd_bld_UNI_006_KitCrashFactory_Roof_03.vfx</fn_effect_bin>
@@ -575,4 +575,4 @@
 		<preloadVisual>particles/mesh_particles/wood_stick_01.visual</preloadVisual>
 		<preloadVisual>particles/mesh_particles/wood_stick_03.visual</preloadVisual>
 	</deferred>
-</particles.xml>
+</root>

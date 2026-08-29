@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<environment.xml>
+<root>
 	<Fog>
 		<version>2</version>
 		<enable>true</enable>
@@ -282,4 +282,4 @@
 		<transmissionMult>0.400000006</transmissionMult>
 		<waterReflectionAttenuation>1</waterReflectionAttenuation>
 	</SimplifiedDeferred>
-</environment.xml>
+</root>

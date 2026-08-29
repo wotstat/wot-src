@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weather.xml>
+<root>
 	<Clear></Clear>
 	<Cloudy>
 		<windSpeed>1.0 0</windSpeed>
@@ -43,4 +43,4 @@
 		<windSpeed>4.0 0</windSpeed>
 		<windGustiness>1.0</windGustiness>
 	</Hail>
-</weather.xml>
+</root>

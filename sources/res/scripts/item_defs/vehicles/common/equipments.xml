@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<equipments.xml xmlns:xmlref="http://bwt/xmlref">
+<root xmlns:xmlref="http://bwt/xmlref">
 	<handExtinguishers>
 		<id>0</id>
 		<userString>#artefacts:handExtinguishers/name</userString>
@@ -9383,4 +9383,4 @@
 			</invisibilityFactor>
 		</script>
 	</comp7_light_march>
-</equipments.xml>
+</root>

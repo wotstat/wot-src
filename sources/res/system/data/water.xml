@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<water.xml>
+<root>
 	<default>
 		<waveTexture>maps/water/stream_normal_animation/normal</waveTexture>
 		<waveTexture2>maps/water/stream_normal_animation/normal</waveTexture2>
@@ -9,4 +9,4 @@
 		<foamTexture>maps/water/Foam01.dds</foamTexture>
 	</default>
 	<tiledDeformationParticleFoam>maps/water/Foam01.dds</tiledDeformationParticleFoam>
-</water.xml>
+</root>

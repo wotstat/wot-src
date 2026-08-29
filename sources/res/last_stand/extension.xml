@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension.xml>
+<root>
 	<FeatureName>last_stand</FeatureName>
 	<IsEnabled>True</IsEnabled>
 	<Personality>last_stand_personality</Personality>
@@ -95,4 +95,4 @@
 			<module>client.last_stand.last_stand_module</module>
 		</script>
 	</cgf>
-</extension.xml>
+</root>

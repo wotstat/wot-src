@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<streaming_config.xml>
+<root>
 	<enabled>true</enabled>
 	<nolimits>4100</nolimits>
 	<flatteningFactor>4</flatteningFactor>
@@ -13,4 +13,4 @@
 		<static>0</static>
 		<tanks>170</tanks>
 	</geometry>
-</streaming_config.xml>
+</root>

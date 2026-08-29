@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<battle_hints.xml>
+<root>
 	<hint>
 		<clientSchema>last_stand.gui.battle_hints.battle_hints_schemas:hintSchema</clientSchema>
 		<props>
@@ -367,4 +367,4 @@
 			<waitTime>20</waitTime>
 		</lifecycle>
 	</hint>
-</battle_hints.xml>
+</root>

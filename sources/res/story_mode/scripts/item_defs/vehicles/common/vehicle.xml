@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle.xml>
+<root>
 	<extras>
 		<story_mode_overturn>NoneExtra : story_mode_cell.ext_vehicle_extras.OverturnStoryMode
 			<correctionDelay>5.0</correctionDelay>
@@ -7,4 +7,4 @@
 			<gameplayFactors></gameplayFactors>
 		</story_mode_overturn>
 	</extras>
-</vehicle.xml>
+</root>

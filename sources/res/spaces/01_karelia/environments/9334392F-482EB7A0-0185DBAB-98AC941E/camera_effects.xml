@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<camera_effects.xml>
+<root>
 	<effectMap>spaces/01_karelia/environments/9334392F-482EB7A0-0185DBAB-98AC941E/camera_effects_map.dds</effectMap>
 	<effect>
 		<id>1</id>
@@ -19,4 +19,4 @@
 		<alignToTerrain>true</alignToTerrain>
 		<useCameraTarget>true</useCameraTarget>
 	</effect>
-</camera_effects.xml>
+</root>

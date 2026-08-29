@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<surveys.xml>
+<root>
 	<questionTypes>image vehicle table interactiveMap text multipleChoice</questionTypes>
 	<quantifierTypes>single multiple</quantifierTypes>
 	<surveys>
@@ -790,4 +790,4 @@
 			</questions>
 		</survey>
 	</surveys>
-</surveys.xml>
+</root>

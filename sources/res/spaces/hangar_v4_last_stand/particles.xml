@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<particles.xml>
+<root>
 	<forward>
 		<preload>
 			<shader>\data\shaders\ps.fx</shader>
@@ -153,4 +153,4 @@
 		<fn_effect_bin>particles/Environment/hangar/hangar_v4_welding_flash.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/hangar/hangar_v4_welding_smoke.eff</fn_effect_bin>
 	</deferred>
-</particles.xml>
+</root>

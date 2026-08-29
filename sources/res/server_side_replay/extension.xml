@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension.xml>
+<root>
 	<FeatureName>server_side_replay</FeatureName>
 	<IsEnabled>true</IsEnabled>
 	<Personality>ServerSideReplayPersonality</Personality>
@@ -13,4 +13,4 @@
 			<ReplayAccount></ReplayAccount>
 		</ClientServerEntities>
 	</Entities>
-</extension.xml>
+</root>

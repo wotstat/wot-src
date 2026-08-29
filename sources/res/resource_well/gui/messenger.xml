@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<messenger.xml>
+<root>
 	<htmlTemplates>
 		<resourceWellInvoiceReceived>
 			<type>grey</type>
@@ -50,4 +50,4 @@
 			<message>&lt;font face="$TitleFont" size="15" color="#E9E2BF"&gt;%(title)s&lt;/font&gt;&lt;br/&gt;&lt;font color='#8C8C7E'&gt;%(text)s&lt;/font&gt;</message>
 		</ResourceWellNoVehiclesMessage>
 	</htmlTemplates>
-</messenger.xml>
+</root>

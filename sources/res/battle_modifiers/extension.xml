@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension.xml>
+<root>
 	<FeatureName>battle_modifiers</FeatureName>
 	<IsEnabled>true</IsEnabled>
 	<Personality>BattleModifiersPersonality</Personality>
@@ -8,4 +8,4 @@
 		<StaticComponents></StaticComponents>
 		<DynamicComponents></DynamicComponents>
 	</Components>
-</extension.xml>
+</root>

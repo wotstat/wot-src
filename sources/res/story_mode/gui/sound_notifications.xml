@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<sound_notifications.xml>
+<root>
 	<event>
 		<name>vo_ob_vehicle_control</name>
 		<chance>100</chance>
@@ -39,4 +39,4 @@
 		<predelay>0</predelay>
 		<queueClearAtStart>1</queueClearAtStart>
 	</event>
-</sound_notifications.xml>
+</root>

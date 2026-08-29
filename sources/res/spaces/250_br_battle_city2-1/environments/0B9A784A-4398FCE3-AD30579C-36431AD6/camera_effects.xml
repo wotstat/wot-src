@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<camera_effects.xml>
+<root>
 	<effectMap>spaces/250_br_battle_city2-1/environments/0B9A784A-4398FCE3-AD30579C-36431AD6/camera_effects_map.dds</effectMap>
 	<effect>
 		<id>1</id>
@@ -19,4 +19,4 @@
 		<alignToTerrain>true</alignToTerrain>
 		<useCameraTarget>false</useCameraTarget>
 	</effect>
-</camera_effects.xml>
+</root>

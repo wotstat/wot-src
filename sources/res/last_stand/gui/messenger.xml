@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<messenger.xml>
+<root>
 	<htmlTemplatesSimple>
 		<LSBattleResultWaves>&lt;br/&gt;&lt;font color='#929290'&gt;_(#last_stand.last_stand_system_messages:serviceChannelMessages/battleResults/wavesCompleted)&lt;/font&gt;</LSBattleResultWaves>
 		<LSBattleResultQuest>&lt;br/&gt;&lt;font color='#929290'&gt;_(#last_stand.last_stand_system_messages:serviceChannelMessages/battleResults/questCompleted)&lt;br/&gt;_(#last_stand.last_stand_system_messages:serviceChannelMessages/battleResults/artefacts): &lt;font color='#C8C8B5'&gt;%(artefacts)s&lt;/font&gt;&lt;/font&gt;</LSBattleResultQuest>
@@ -64,4 +64,4 @@
 &lt;font color='#929290'&gt;_(#last_stand.last_stand_system_messages:serviceChannelMessages/battleResults/progressPoints): &lt;font color='#C8C8B5'&gt;%(progressPoints)s&lt;/font&gt;%(battlePassProgress)s&lt;/font&gt;%(crystalStr)s%(gold)s%(eventCoinStr)s%(bpcoinStr)s%(equipCoinStr)s&lt;font color='#929290'&gt;%(credits)s%(creditsEx)s&lt;/font&gt;%(rankedProgress)s%(rankedBonusBattles)s%(achieves)s%(lock)s%(badges)s%(quests)s%(piggyBank)s%(platformCurrencyStr)s</message>
 		</LSBattleDefeatResult>
 	</htmlTemplates>
-</messenger.xml>
+</root>

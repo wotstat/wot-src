@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<engine_config.xml xmlns:xmlref="http://bwt/xmlref">
+<root xmlns:xmlref="http://bwt/xmlref">
 	<personality>game</personality>
 	<preferences>preferences.xml</preferences>
 	<enableBalanceCPU>true</enableBalanceCPU>
@@ -969,4 +969,4 @@
 	<visualScript>
 		<debuggerPort>1454</debuggerPort>
 	</visualScript>
-</engine_config.xml>
+</root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<camera_effects.xml>
+<root>
 	<effectMap>spaces/210_bf_epic_desert/environments/3CEB2B87-4933B5B1-C5730BB0-9C28EC83/camera_effects_map.dds</effectMap>
 	<effect>
 		<id>1</id>
@@ -7,4 +7,4 @@
 		<alignToTerrain>true</alignToTerrain>
 		<useCameraTarget>false</useCameraTarget>
 	</effect>
-</camera_effects.xml>
+</root>

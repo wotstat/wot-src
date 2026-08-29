@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<messenger.xml>
+<root>
 	<htmlTemplatesSimple>
 		<StPCoinReceived>&lt;font color='#8C8C7E'&gt;%(text)s&lt;/font&gt;</StPCoinReceived>
 		<battleResultBrcoin>&lt;br/&gt;%(brcoin)s</battleResultBrcoin>
@@ -99,4 +99,4 @@ _(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s%(xp)s
 			</buttonsLayout>
 		</battleRoyaleProgressionSystemMessage>
 	</htmlTemplates>
-</messenger.xml>
+</root>

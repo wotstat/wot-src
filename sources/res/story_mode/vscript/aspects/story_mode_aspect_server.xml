@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<story_mode_aspect_server.xml>
+<root>
 	<name>SERVER</name>
 	<app_name>cellApp</app_name>
 	<mask>2</mask>
@@ -13,4 +13,4 @@
 			<name>g_blockRegistrar</name>
 		</registrar>
 	</python>
-</story_mode_aspect_server.xml>
+</root>

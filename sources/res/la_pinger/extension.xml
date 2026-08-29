@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension.xml>
+<root>
 	<FeatureName>la_pinger_ext</FeatureName>
 	<IsEnabled>True</IsEnabled>
 	<Personality>la_pinger_ext_personality</Personality>
@@ -8,4 +8,4 @@
 			<LaPingerComponent></LaPingerComponent>
 		</StaticComponents>
 	</Components>
-</extension.xml>
+</root>

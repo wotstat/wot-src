@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension.xml>
+<root>
 	<FeatureName>fun_random</FeatureName>
 	<IsEnabled>true</IsEnabled>
 	<Personality>FunRandomPersonality</Personality>
@@ -18,4 +18,4 @@
 		</StaticComponents>
 		<DynamicComponents></DynamicComponents>
 	</Components>
-</extension.xml>
+</root>

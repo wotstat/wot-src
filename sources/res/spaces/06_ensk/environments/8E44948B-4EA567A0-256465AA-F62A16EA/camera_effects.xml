@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<camera_effects.xml>
+<root>
 	<effectMap>spaces/06_ensk/environments/8E44948B-4EA567A0-256465AA-F62A16EA/camera_effects_map.dds</effectMap>
 	<effect>
 		<id>1</id>
@@ -25,4 +25,4 @@
 		<alignToTerrain>true</alignToTerrain>
 		<useCameraTarget>true</useCameraTarget>
 	</effect>
-</camera_effects.xml>
+</root>

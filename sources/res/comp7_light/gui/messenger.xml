@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<messenger.xml>
+<root>
 	<htmlTemplatesSimple>
 		<battleResultComp7LightProgressionPoints>&lt;br/&gt;&lt;font color='#8C8C7E'&gt;_(#comp7_light.comp7_light:serviceChannelMessages/battleResults/progressionPoints):&lt;/font&gt; &lt;font color='#ffdd99'&gt;%(progressionPoints)s&lt;/font&gt;</battleResultComp7LightProgressionPoints>
 	</htmlTemplatesSimple>
@@ -73,4 +73,4 @@
 			</buttonsLayout>
 		</comp7LightProgressionSystemMessage>
 	</htmlTemplates>
-</messenger.xml>
+</root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<camera_effects.xml>
+<root>
 	<effectMap>spaces/08_ruinberg/environments/EF6DE756-42F3351F-0258169A-DD1C39E4/camera_effects_map.dds</effectMap>
 	<effect>
 		<id>1</id>
@@ -19,4 +19,4 @@
 		<alignToTerrain>false</alignToTerrain>
 		<useCameraTarget>true</useCameraTarget>
 	</effect>
-</camera_effects.xml>
+</root>

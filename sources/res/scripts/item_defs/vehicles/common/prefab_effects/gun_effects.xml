@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gun_effects.xml>
+<root>
 	<shot_custom>
 		<explosion>
 			<prefab>content/EffectPrefabs/simple_shot.prefab</prefab>
@@ -8,4 +8,4 @@
 			<prefab>content/EffectPrefabs/groundwave.prefab</prefab>
 		</groundwave>
 	</shot_custom>
-</gun_effects.xml>
+</root>

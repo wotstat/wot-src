@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<environment.xml>
+<root>
 	<name>sunrise_iteration</name>
 	<Fog>
 		<version>3</version>
@@ -286,4 +286,4 @@
 		<transmissionMult>0.200000003</transmissionMult>
 		<waterReflectionAttenuation>0.0299999993</waterReflectionAttenuation>
 	</SimplifiedDeferred>
-</environment.xml>
+</root>

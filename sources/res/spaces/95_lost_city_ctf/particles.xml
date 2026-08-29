@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<particles.xml>
+<root>
 	<forward>
 		<name>default</name>
 		<preload>
@@ -869,4 +869,4 @@
 		<preloadVisual>particles/mesh_particles/wood_stick_01.visual</preloadVisual>
 		<preloadVisual>particles/mesh_particles/wood_stick_03.visual</preloadVisual>
 	</deferred>
-</particles.xml>
+</root>

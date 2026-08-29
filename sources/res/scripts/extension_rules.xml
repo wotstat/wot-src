@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension_rules.xml>
+<root>
 	<xml_whitelist>
 		<rule>
 			<pattern>.*/item_defs/arena_vscripts\.xml$</pattern>
@@ -200,4 +200,4 @@
 			<type>include</type>
 		</rule>
 	</xml_whitelist>
-</extension_rules.xml>
+</root>

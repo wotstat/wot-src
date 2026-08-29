@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension.xml>
+<root>
 	<FeatureName>comp7</FeatureName>
 	<IsEnabled>true</IsEnabled>
 	<Personality>Comp7ExtensionPersonality</Personality>
@@ -23,4 +23,4 @@
 			<Comp7UnitMgr></Comp7UnitMgr>
 		</ServerOnlyEntities>
 	</Entities>
-</extension.xml>
+</root>

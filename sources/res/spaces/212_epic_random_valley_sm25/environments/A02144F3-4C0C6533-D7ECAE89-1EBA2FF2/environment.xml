@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<environment.xml>
+<root>
 	<day_night_cycle>
 		<forward>
 			<angle>26</angle>
@@ -286,4 +286,4 @@
 		<enableLocalLights>false</enableLocalLights>
 		<densityFix>1</densityFix>
 	</VolumetricFog>
-</environment.xml>
+</root>

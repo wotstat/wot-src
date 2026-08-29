@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ticking_graph.xml>
+<root>
 	<Init>
 		<preInitGroup>
 			<before>true</before>
@@ -43,4 +43,4 @@
 			<before>true</before>
 		</preFinalize>
 	</Finalize>
-</ticking_graph.xml>
+</root>

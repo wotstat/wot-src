@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<stun.xml>
+<root>
 	<baseStunDuration>30</baseStunDuration>
 	<guaranteedStunDuration>0.45</guaranteedStunDuration>
 	<damageDurationCoeff>0.55</damageDurationCoeff>
@@ -18,4 +18,4 @@
 	<stunFactorVehicleRotationShotDispersion>1.5</stunFactorVehicleRotationShotDispersion>
 	<stunFactorTurretRotationShotDispersion>1.5</stunFactorTurretRotationShotDispersion>
 	<stunFactorMinShotDispersion>1.75</stunFactorMinShotDispersion>
-</stun.xml>
+</root>

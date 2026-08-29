@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<id.36_fishing_bay.xml>
+<root>
 	<name>#arenas:36_fishing_bay/name</name>
 	<description>#arenas:36_fishing_bay/description</description>
 	<geometry>spaces/36_fishing_bay</geometry>
@@ -120,4 +120,4 @@
 			<module>BW::VehicleTriggersModule</module>
 		</common>
 	</modules>
-</id.36_fishing_bay.xml>
+</root>

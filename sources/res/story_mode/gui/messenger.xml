@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<messenger.xml>
+<root>
 	<htmlTemplatesSimple>
 		<missionCompleted>&lt;font color='#8C8C7E'&gt;_(#story_mode.sm_messenger:result/missionCompleted)&lt;/font&gt; &lt;font color='#E9E2BF'&gt;%(completedTasksCount)s&lt;/font&gt; &lt;font color='#8C8C7E'&gt;_(#story_mode.sm_messenger:result/missionCompletedOf)&lt;/font&gt; &lt;font color='#E9E2BF'&gt;%(tasksToCompleteCount)s&lt;/font&gt;&lt;br/&gt;</missionCompleted>
 		<xpEarned>&lt;font color='#8C8C7E'&gt;_(#story_mode.sm_messenger:result/experience)&lt;/font&gt; &lt;font color='#E9E2BF'&gt;%(freeXP)s&lt;/font&gt;&lt;br/&gt;</xpEarned>
@@ -83,4 +83,4 @@
 &lt;font color='#8C8C7E'&gt;_(#story_mode.sm_messenger:result/battle): %(scenarioName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#8C8C7E'&gt;_(#story_mode.sm_messenger:result/vehicle): %(vehicleNames)s&lt;/font&gt;</message>
 		</storyModeRegularBattleDefeatResult>
 	</htmlTemplates>
-</messenger.xml>
+</root>

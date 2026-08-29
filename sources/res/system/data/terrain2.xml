@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<terrain2.xml>
+<root>
 	<version>250</version>
 	<heightMapUnits>0.00999999978</heightMapUnits>
 	<heightMapSize>128</heightMapSize>
@@ -71,4 +71,4 @@
 		<lowerLimit>0.1</lowerLimit>
 		<upperLimit>0.5</upperLimit>
 	</debug>
-</terrain2.xml>
+</root>

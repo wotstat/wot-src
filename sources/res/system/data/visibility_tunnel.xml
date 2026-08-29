@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<visibility_tunnel.xml>
+<root>
 	<cameraMode>
 		<mode>Default Particles</mode>
 		<workingDistance>120.0</workingDistance>
@@ -48,4 +48,4 @@
 		<enabled>true</enabled>
 		<patternTexture>system/maps/vt_mask.dds</patternTexture>
 	</cameraMode>
-</visibility_tunnel.xml>
+</root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources.xml>
+<root>
 	<system>
 		<gameLoadingConfigXML>gui/game_loading_config.xml</gameLoadingConfigXML>
 		<engineConfigXML>engine_config.xml</engineConfigXML>
@@ -275,4 +275,4 @@
 			<path>content/CGFPrefabs/Lobby/proboost_deactivation.prefab</path>
 		</prefabs>
 	</cgf>
-</resources.xml>
+</root>

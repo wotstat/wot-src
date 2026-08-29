@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gpu_particles.xml>
+<root>
 	<oitAvailability>
 		<min>true</min>
 		<low>true</low>
@@ -5558,4 +5558,4 @@
 		<fn_effect_bin>particles/Tank/tank_collision_water.eff</fn_effect_bin>
 		<fn_effect_bin>particles/Tank/tank_collision_wood.eff</fn_effect_bin>
 	</deferred>
-</gpu_particles.xml>
+</root>

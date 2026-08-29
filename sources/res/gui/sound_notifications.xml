@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<sound_notifications.xml>
+<root>
 	<event>
 		<name>ally_deliver_flag</name>
 		<chance>100</chance>
@@ -3662,4 +3662,4 @@
 		<fxEvent>dc_fc_ui_stop_to_follow</fxEvent>
 		<cooldownFx>0</cooldownFx>
 	</event>
-</sound_notifications.xml>
+</root>

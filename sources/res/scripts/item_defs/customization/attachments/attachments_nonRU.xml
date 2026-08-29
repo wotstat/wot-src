@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<attachments_nonRU.xml xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland">
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland">
 	<itemGroup>
 		<name>attachments</name>
 		<userString>#vehicle_customization:attachment/general</userString>
@@ -72,4 +72,4 @@
 			<attachmentLogic>prefab</attachmentLogic>
 		</attachment>
 	</itemGroup>
-</attachments_nonRU.xml>
+</root>

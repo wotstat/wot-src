@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<components.xml>
+<root>
 	<StaticComponents>
 		<PoiTeamInfoComponent></PoiTeamInfoComponent>
 		<ArenaInBattleVehicleSwitch></ArenaInBattleVehicleSwitch>
@@ -120,4 +120,4 @@
 		<PropellantGunController></PropellantGunController>
 		<WheeledDashController></WheeledDashController>
 	</DynamicComponents>
-</components.xml>
+</root>

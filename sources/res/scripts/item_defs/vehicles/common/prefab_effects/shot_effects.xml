@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shot_effects.xml>
+<root>
 	<regularDefault>
 		<defaultVehicleHit>
 			<prefab>content/EffectPrefabs/armor_hit.prefab</prefab>
@@ -63,4 +63,4 @@
 			<prefab>content/EffectPrefabs/ground_hit.prefab</prefab>
 		</defaultSceneHit>
 	</regularSmoke>
-</shot_effects.xml>
+</root>

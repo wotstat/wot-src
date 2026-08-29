@@ -35,7 +35,7 @@ git clone --depth 1 --no-single-branch https://github.com/wotstat/wot-src.git
 README.md
 .version_name
 .publication.json
-sources/             # base + default locale overlay; .py, .xml, .po, Licenses.txt
+sources/             # base + default locale overlay; .py, .xml, .po, .txt
 locales/<LANG>/      # все locale overlays WG, включая default locale
 sources-as3/         # декомпилированные .as
 sources-gameface/    # содержимое base/res/gui/gameface без исходного префикса
@@ -52,6 +52,6 @@ stubs/               # полный manifest payload IDE stubs
 - Ветка: `wot-eu`
 - Версия: `2.3.1.5412`
 - Publisher: `wargaming`
-- GameSnapshot: `sha256:a76a24830d62c0b6178e360564e7044d7781bee30ba282c56c69a524c0b73130`
+- GameSnapshot: `sha256:218dcc83d09b52174da37ab61bb0cb9c33daa92e6bc4bab01c617987df2cdd2a`
 
 Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.

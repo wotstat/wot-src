@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<precache.xml>
+<root>
 	<item>shaders/std_effects/lightonly.fx</item>
 	<item>shaders/std_effects/lightonly_skinned.fx</item>
 	<item>shaders/std_effects/lightonly_add_factor.fx</item>
@@ -74,4 +74,4 @@
 	<item>cs@shaders/post_processing/background_blur.fx</item>
 	<item>cs@shaders/volumetric_fog/noise_texture_generation.fx</item>
 	<item>cs@shaders/volumetric_fog/volumetric_fog.fx</item>
-</precache.xml>
+</root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gun_reload_effects.xml>
+<root>
 	<reload12_25>
 		<type>SimpleReload</type>
 		<duration>950.0</duration>
@@ -318,4 +318,4 @@
 			<loopShellLastDt>0.5</loopShellLastDt>
 		</intuition_overrides>
 	</reload_automat_reloading_155_170>
-</gun_reload_effects.xml>
+</root>

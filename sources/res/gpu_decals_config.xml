@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gpu_decals_config.xml>
+<root>
 	<enabled>true</enabled>
 	<atlases>
 		<anisotropy>4</anisotropy>
@@ -80,4 +80,4 @@
 	<gradients>
 		<capacity>1024</capacity>
 	</gradients>
-</gpu_decals_config.xml>
+</root>

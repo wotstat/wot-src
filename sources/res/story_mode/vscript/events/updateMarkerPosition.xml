@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<updateMarkerPosition.xml>
+<root>
 	<name>updateMarkerPosition</name>
 	<isDevelopment>false</isDevelopment>
 	<senderAspects>SERVER</senderAspects>
@@ -8,4 +8,4 @@
 		<name>position</name>
 		<typecode>Vector3T</typecode>
 	</param>
-</updateMarkerPosition.xml>
+</root>

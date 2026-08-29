@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shot_effects.xml xmlns:xmlref="http://bwt/xmlref">
+<root xmlns:xmlref="http://bwt/xmlref">
 	<LS_largeHighExplosive>
 		<caliber>30</caliber>
 		<projectile>
@@ -7750,4 +7750,4 @@
 			<splashStrength>8</splashStrength>
 		</physicsParams>
 	</LS_Bastion_largeAPCR>
-</shot_effects.xml>
+</root>

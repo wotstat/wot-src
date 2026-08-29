@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<messenger.xml>
+<root>
 	<htmlTemplatesSimple>
 		<funRandomLootBox>&lt;font color='#8C8C7E'&gt;%(text)s: &lt;font color='#D6D7D4'&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</funRandomLootBox>
 	</htmlTemplatesSimple>
@@ -47,4 +47,4 @@
 			</buttonsLayout>
 		</FunRandomLootBoxesAutoOpenMessage>
 	</htmlTemplates>
-</messenger.xml>
+</root>

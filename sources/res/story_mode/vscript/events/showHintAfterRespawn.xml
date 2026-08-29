@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<showHintAfterRespawn.xml>
+<root>
 	<name>showHintAfterRespawn</name>
 	<isDevelopment>false</isDevelopment>
 	<senderAspects>CLIENT</senderAspects>
@@ -8,4 +8,4 @@
 		<name>hint</name>
 		<typecode>StringT</typecode>
 	</param>
-</showHintAfterRespawn.xml>
+</root>
