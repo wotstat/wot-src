@@ -1,0 +1,30 @@
+from comp7_common import COMP7_CURRENT_SEASON
+COMP7_SEASON_NUMBERS = tuple(range(1, COMP7_CURRENT_SEASON + 1))
+COMP7_ARCHIVE_NAMES = (b'Griffin',)
+COMP7_ARCHIVE_DROPDOWN_KEY_PREFIX = b'comp7_archive_'
+COMP7_SEASON_DROPDOWN_KEY_PREFIX = b'comp7_season_'
+
+def isComp7Archive(battleType):
+    return battleType.startswith(COMP7_ARCHIVE_DROPDOWN_KEY_PREFIX)
+
+
+def isComp7Season(battleType):
+    return battleType.startswith(COMP7_SEASON_DROPDOWN_KEY_PREFIX)
+
+
+def getArchiveName(battleType):
+    _, __, archiveName = battleType.rpartition(COMP7_ARCHIVE_DROPDOWN_KEY_PREFIX)
+    return archiveName
+
+
+def getSeasonName(battleType):
+    _, __, seasonName = battleType.rpartition(COMP7_SEASON_DROPDOWN_KEY_PREFIX)
+    return seasonName
+
+
+def getDropdownKeyByArchiveName(archiveName):
+    return (b'{}{}').format(COMP7_ARCHIVE_DROPDOWN_KEY_PREFIX, archiveName)
+
+
+def getDropdownKeyBySeason(season):
+    return (b'{}{}').format(COMP7_SEASON_DROPDOWN_KEY_PREFIX, season)

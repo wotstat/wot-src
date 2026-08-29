@@ -1,0 +1,195 @@
+import typing
+from fun_random.gui.feature.fun_constants import PROGRESSION_COUNTER_TEMPLATE, FEP_PRIORITY_CONFIG_FILE
+from debug_utils import LOG_CURRENT_EXCEPTION
+from gui.shared.bonuses_layout_controller import BonusesLayoutController
+from gui.shared.utils.decorators import ReprInjector
+from gui.server_events.bonuses import splitBonuses
+from helpers import time_utils
+from shared_utils import findFirst
+from soft_exception import SoftException
+if typing.TYPE_CHECKING:
+    from fun_random.helpers.server_settings import FunProgressionConfig
+    from gui.server_events.bonuses import SimpleBonus
+    from gui.server_events.event_items import Quest
+
+class FunProgressionUtils(object):
+
+    def __init__(self):
+        self.__priorityCtrl = None
+        return
+
+    def init(self):
+        try:
+            self.__priorityCtrl = BonusesLayoutController(FEP_PRIORITY_CONFIG_FILE)
+            self.__priorityCtrl.init()
+        except SoftException:
+            LOG_CURRENT_EXCEPTION()
+            self.__priorityCtrl = None
+
+        return
+
+    def createPriorityBonuses(self, bonuses):
+        if self.__priorityCtrl is None:
+            return bonuses
+        else:
+            bonuses = splitBonuses(bonuses)
+            bonuses.sort(key=self.__priorityCtrl.getPriority)
+            return bonuses
+
+
+@ReprInjector.simple((b'text', b'text'), (b'conditions', b'conditions'), (b'resetTimer', b'resetTimer'), (b'counterName', b'counterName'), (b'counter', b'counter'), (b'maximumCounter', b'maximumCounter'))
+class FunProgressionCondition(object):
+
+    def __init__(self, pConfig, counter, trigger):
+        self.__counter = counter
+        self.__conditionText = trigger.getDescription()
+        self.__resetTimestamp = trigger.getFinishTimeRaw()
+        self.__pConfig = pConfig
+        return
+
+    @property
+    def counter(self):
+        return self.__counter
+
+    @property
+    def counterName(self):
+        return PROGRESSION_COUNTER_TEMPLATE.format(self.__pConfig.name)
+
+    @property
+    def conditions(self):
+        return self.__pConfig.conditions
+
+    @property
+    def maximumCounter(self):
+        return self.__pConfig.executors[-1]
+
+    @property
+    def resetTimer(self):
+        return time_utils.getTimeDeltaFromNowInLocal(self.__resetTimestamp)
+
+    @property
+    def resetTimestamp(self):
+        return self.__resetTimestamp
+
+    @property
+    def text(self):
+        return self.__conditionText
+
+    def setCounter(self, counter):
+        self.__counter = counter
+        return
+
+
+@ReprInjector.simple((b'requiredCounter', b'requiredCounter'), (b'bonuses', b'bonuses'))
+class FunProgressionStage(object):
+
+    def __init__(self, pConfig, index, executor, funProgressionUtils):
+        self.__requiredCounter = pConfig.executors[index]
+        self.__prevRequiredCounter = pConfig.executors[index - 1] if index else 0
+        self.__bonuses = executor.getBonuses()
+        self.__bonusesByPriority = funProgressionUtils.createPriorityBonuses(self.__bonuses)
+        self.__stageIndex = index
+        return
+
+    @property
+    def bonuses(self):
+        return self.__bonuses
+
+    @property
+    def bonusesByPriority(self):
+        return self.__bonusesByPriority
+
+    @property
+    def prevRequiredCounter(self):
+        return self.__prevRequiredCounter
+
+    @property
+    def requiredCounter(self):
+        return self.__requiredCounter
+
+    @property
+    def stageIndex(self):
+        return self.__stageIndex
+
+
+@ReprInjector.simple((b'isCompleted', b'isCompleted'), (b'isLastProgression', b'isLastProgression'), (b'currentStageIndex', b'currentStageIndex'), (b'maximumStageIndex', b'maximumStageIndex'))
+class FunProgressionState(object):
+
+    def __init__(self, pConfig, isFirst, isLast, condition, stages):
+        self.__pConfig, self.__isFirst, self.__isLast = pConfig, isFirst, isLast
+        self.__isCompleted, self.__currentStageIndex = False, 0
+        self.updateState(condition, stages)
+        return
+
+    @property
+    def isCompleted(self):
+        return self.__isCompleted
+
+    @property
+    def isFirstProgression(self):
+        return self.__isFirst
+
+    @property
+    def isLastProgression(self):
+        return self.__isLast
+
+    @property
+    def currentStageIndex(self):
+        return self.__currentStageIndex
+
+    @property
+    def maximumStageIndex(self):
+        return len(self.__pConfig.executors) - 1
+
+    def updateState(self, condition, stages):
+        self.__isCompleted = condition.counter >= condition.maximumCounter
+        activeStage = findFirst((lambda s: condition.counter < s.requiredCounter), stages)
+        self.__currentStageIndex = activeStage.stageIndex if activeStage else len(stages) - 1
+        return
+
+
+@ReprInjector.simple((b'condition', b'condition'), (b'state', b'state'), (b'stages', b'stages'))
+class FunProgression(object):
+
+    def __init__(self, pConfig, isFirst, isLast, counter, trigger, executors, funProgressionUtils):
+        self.__condition = FunProgressionCondition(pConfig, counter, trigger)
+        self.__pConfig = pConfig
+        self.__stages = tuple(FunProgressionStage(pConfig, idx, exe, funProgressionUtils) for idx, exe in enumerate(executors))
+        self.__state = FunProgressionState(pConfig, isFirst, isLast, self.__condition, self.__stages)
+        self.__funUtils = funProgressionUtils
+        return
+
+    @property
+    def isNotifiable(self):
+        return not self.__state.isFirstProgression and self.__condition.counter == 0
+
+    @property
+    def activeStage(self):
+        return self.__stages[self.__state.currentStageIndex]
+
+    @property
+    def condition(self):
+        return self.__condition
+
+    @property
+    def config(self):
+        return self.__pConfig
+
+    @property
+    def stages(self):
+        return self.__stages
+
+    @property
+    def state(self):
+        return self.__state
+
+    def getAllBonusesByPriority(self):
+        return self.__funUtils.createPriorityBonuses(self.getAllBonuses())
+
+    def getAllBonuses(self):
+        return [bonus for stage in self.__stages for bonus in stage.bonuses]
+
+    def updateCounter(self, counter):
+        self.__condition.setCounter(counter)
+        self.__state.updateState(self.__condition, self.__stages)
+        return

@@ -1,0 +1,100 @@
+from frameworks.wulf import ViewModel
+
+class ParagonsTooltipVehiclesModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=11, commands=0):
+        super(ParagonsTooltipVehiclesModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getVehicleName(self):
+        return self._getString(0)
+
+    def setVehicleName(self, value):
+        self._setString(0, value)
+        return
+
+    def getVehicleNation(self):
+        return self._getString(1)
+
+    def setVehicleNation(self, value):
+        self._setString(1, value)
+        return
+
+    def getVehicleLvl(self):
+        return self._getNumber(2)
+
+    def setVehicleLvl(self, value):
+        self._setNumber(2, value)
+        return
+
+    def getVehicleUnlockPoints(self):
+        return self._getNumber(3)
+
+    def setVehicleUnlockPoints(self, value):
+        self._setNumber(3, value)
+        return
+
+    def getProgressionPoints(self):
+        return self._getNumber(4)
+
+    def setProgressionPoints(self, value):
+        self._setNumber(4, value)
+        return
+
+    def getVehicleType(self):
+        return self._getString(5)
+
+    def setVehicleType(self, value):
+        self._setString(5, value)
+        return
+
+    def getNeedRepair(self):
+        return self._getBool(6)
+
+    def setNeedRepair(self, value):
+        self._setBool(6, value)
+        return
+
+    def getIsInBattle(self):
+        return self._getBool(7)
+
+    def setIsInBattle(self, value):
+        self._setBool(7, value)
+        return
+
+    def getIsInPlatoonFormation(self):
+        return self._getBool(8)
+
+    def setIsInPlatoonFormation(self, value):
+        self._setBool(8, value)
+        return
+
+    def getNeedResearch(self):
+        return self._getBool(9)
+
+    def setNeedResearch(self, value):
+        self._setBool(9, value)
+        return
+
+    def getHasProgressionPoints(self):
+        return self._getBool(10)
+
+    def setHasProgressionPoints(self, value):
+        self._setBool(10, value)
+        return
+
+    def _initialize(self):
+        super(ParagonsTooltipVehiclesModel, self)._initialize()
+        self._addStringProperty(b'vehicleName', b'')
+        self._addStringProperty(b'vehicleNation', b'')
+        self._addNumberProperty(b'vehicleLvl', 10)
+        self._addNumberProperty(b'vehicleUnlockPoints', 0)
+        self._addNumberProperty(b'progressionPoints', 0)
+        self._addStringProperty(b'vehicleType', b'')
+        self._addBoolProperty(b'needRepair', True)
+        self._addBoolProperty(b'isInBattle', True)
+        self._addBoolProperty(b'isInPlatoonFormation', True)
+        self._addBoolProperty(b'needResearch', True)
+        self._addBoolProperty(b'hasProgressionPoints', True)
+        return

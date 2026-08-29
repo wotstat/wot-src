@@ -1,0 +1,39 @@
+from account_helpers import AccountSettings
+from account_helpers.AccountSettings import ENABLE_RANKED_ANIMATIONS
+from gui.Scaleform.daapi.view.meta.RankedBattlesBattleResultsMeta import RankedBattlesBattleResultsMeta
+from gui.Scaleform.genConsts.RANKEDBATTLES_ALIASES import RANKEDBATTLES_ALIASES
+from helpers import dependency
+from skeletons.gui.game_control import IRankedBattlesController
+
+class RankedBattlesResults(RankedBattlesBattleResultsMeta):
+    rankedController = dependency.descriptor(IRankedBattlesController)
+    __slots__ = (b'__rankedResultsVO', b'__rankInfo', b'__questsProgress')
+
+    def __init__(self, ctx=None):
+        super(RankedBattlesResults, self).__init__()
+        self.__rankedResultsVO = ctx[b'rankedResultsVO']
+        self.__rankInfo = ctx[b'rankInfo']
+        self.__questsProgress = ctx[b'questsProgress']
+        return
+
+    def onClose(self):
+        self.__close()
+        return
+
+    def animationCheckBoxSelected(self, value):
+        AccountSettings.setSettings(ENABLE_RANKED_ANIMATIONS, value)
+        return
+
+    @property
+    def rankedWidget(self):
+        return self.getComponent(RANKEDBATTLES_ALIASES.RANKED_BATTLE_RESULTS_WIDGET)
+
+    def _populate(self):
+        super(RankedBattlesResults, self)._populate()
+        self.as_setDataS(self.__rankedResultsVO)
+        return
+
+    def __close(self):
+        self.rankedController.showRankedAwardWindow(self.__rankInfo, self.__questsProgress)
+        self.destroy()
+        return

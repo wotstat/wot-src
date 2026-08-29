@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<LensFlare>
+		<haloFade>150</haloFade>
+		<haloWidth>0.300000012</haloWidth>
+		<ghostDispersion>0.400000006</ghostDispersion>
+		<starIntensity>10</starIntensity>
+		<starOffset>0.270000011</starOffset>
+		<colorUVScale>1.33000004</colorUVScale>
+		<chromDistortion>20</chromDistortion>
+		<dirtWeight>15</dirtWeight>
+		<dirtOffset>0.100000001</dirtOffset>
+		<sunTintColor>1 0.800000012 0.800000012 0.800000012</sunTintColor>
+		<sunSize>0.25999999</sunSize>
+		<sunBrightness>1</sunBrightness>
+		<sunTexture1>system/maps/sun_1.dds</sunTexture1>
+		<sunTexture2>system/maps/sun_1.dds</sunTexture2>
+		<colorTexture>system/maps/lenscolor.dds</colorTexture>
+		<starTexture>system/maps/lensstar.dds</starTexture>
+		<dirtTexture>system/maps/lens_dust.dds</dirtTexture>
+	</LensFlare>
+</root>

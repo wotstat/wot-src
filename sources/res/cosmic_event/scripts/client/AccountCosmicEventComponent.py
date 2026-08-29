@@ -1,0 +1,21 @@
+import AccountCommands
+from helpers import dependency
+from BaseAccountExtensionComponent import BaseAccountExtensionComponent
+from PlayerEvents import g_playerEvents as events
+from cosmic_event_common.cosmic_constants import QUEUE_TYPE
+from skeletons.gui.game_control import ICosmicEventBattleController
+
+class AccountCosmicEventComponent(BaseAccountExtensionComponent):
+    _QUEUE_TYPE = QUEUE_TYPE.COSMIC_EVENT
+
+    def enqueue(self, vehInvID):
+        if not events.isPlayerEntityChanging:
+            ctrl = dependency.instance(ICosmicEventBattleController)
+            self.base.doCmdIntArr(AccountCommands.REQUEST_ID_NO_RESPONSE, AccountCommands.CMD_ENQUEUE_IN_BATTLE_QUEUE, [
+             self._QUEUE_TYPE, vehInvID, ctrl.getSelectedVehicleCD()])
+        return
+
+    def dequeue(self):
+        if not events.isPlayerEntityChanging:
+            self.base.doCmdInt(AccountCommands.REQUEST_ID_NO_RESPONSE, AccountCommands.CMD_DEQUEUE_FROM_BATTLE_QUEUE, self._QUEUE_TYPE)
+        return

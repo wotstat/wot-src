@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:36_fishing_bay/name</name>
+	<description>#arenas:36_fishing_bay/description</description>
+	<geometry>spaces/36_fishing_bay</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-500.0 -500.0</bottomLeft>
+		<upperRight>500.0 500.0</upperRight>
+	</boundingBox>
+	<minimap>spaces/36_fishing_bay/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_fishingbay_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_fishingbay_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_fishingbay_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_fishingbay_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_fishingbay_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_fishingbay_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>amb_map_36_fishing_bay_wind_autumn</wwambientSound>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>-84.8740463 397.810699</position1>
+				</team1>
+				<team2>
+					<position1>-16.9859924 -396.0578</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination3>
+			<boundingBox>
+				<bottomLeft>-400 -250</bottomLeft>
+				<upperRight>200 350</upperRight>
+			</boundingBox>
+			<teamSpawnPoints>
+				<team1>
+					<position>15.8180981 -217.596268</position>
+				</team1>
+				<team2>
+					<position>-23.2041206 245.049652</position>
+				</team2>
+			</teamSpawnPoints>
+			<minimap>spaces/36_fishing_bay/mmap_domination3.dds</minimap>
+			<controlPoint>-45.2564087 15.9244165</controlPoint>
+		</domination3>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-287.886169 378.856842</position>
+				</team1>
+				<team2>
+					<position>133.37262 -380.875092</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-212.174316 -37.9199715</position1>
+					<position2>88.1440735 322.695618</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+	</gameplayTypes>
+	<mapActivities>
+		<warplane>
+			<arenaPeriod>3</arenaPeriod>
+			<preset>fishing_bay_curve</preset>
+			<position>0 20 0</position>
+			<yaw>0</yaw>
+			<possibility>1</possibility>
+			<startTime>100 200</startTime>
+			<interval>300</interval>
+		</warplane>
+		<warplane>
+			<arenaPeriod>3</arenaPeriod>
+			<preset>fishing_bay_curve1</preset>
+			<position>0 20 0</position>
+			<yaw>90</yaw>
+			<possibility>1</possibility>
+			<startTime>300 400</startTime>
+			<interval>340</interval>
+		</warplane>
+	</mapActivities>
+</root>

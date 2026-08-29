@@ -1,0 +1,68 @@
+from frameworks.wulf import ViewSettings
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.paragons.tooltips.entry_point_tooltip_model import EntryPointTooltipModel, ProgressState
+from gui.impl.lobby.paragons.paragons_helpers.paragons_model_helpers import fillChapterModel
+from gui.impl.pub import ViewImpl
+from helpers import dependency
+from skeletons.gui.game_control import IParagonsController
+
+class EntryPointTooltip(ViewImpl):
+    __slots__ = ()
+    __paragonsController = dependency.descriptor(IParagonsController)
+
+    def __init__(self):
+        settings = ViewSettings(R.views.lobby.paragons.tooltips.EntryPointTooltip())
+        settings.model = EntryPointTooltipModel()
+        super(EntryPointTooltip, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return super(EntryPointTooltip, self).getViewModel()
+
+    def _onLoading(self, *args, **kwargs):
+        super(EntryPointTooltip, self)._onLoading()
+        currentState = self.__getParagonsState()
+        vehiclesCount = min(self.__paragonsController.minUnlockedNecessaryLevelVehiclesCount, self.__paragonsController.unlockedNecessaryLevelVehiclesCount)
+        selectedChapterID = self.__paragonsController.chapterID
+        seasonCloseoutTimestamp = self.__paragonsController.getChapterCloseoutTimeStamp(selectedChapterID) if selectedChapterID else 0
+        with self.viewModel.transaction() as tx:
+            tx.setProgressState(currentState)
+            tx.setPoints(self.__paragonsController.progress)
+            tx.setVehicleCount(vehiclesCount)
+            tx.setVehicleToReset(self.__paragonsController.minUnlockedNecessaryLevelVehiclesCount)
+            tx.setIsFirstEntry(self.__isFirstEntry(currentState))
+            tx.setTimeStamp(seasonCloseoutTimestamp)
+            self.__fillChapterModel(tx.currentChapter, currentState)
+        return
+
+    def __getParagonsState(self):
+        ctrl = self.__paragonsController
+        chosenChapter = ctrl.chapterID
+        isAllChaptersComplete = all(ctrl.isChapterComplete(chapterID) for chapterID in ctrl.availableChapterIDs)
+        isPaused = ctrl.isPaused
+        isAnyChapterAvailable = ctrl.isAnyChapterAvailable
+        isNotEnoughNecessaryVehicles = ctrl.unlockedNecessaryLevelVehiclesCount < ctrl.minUnlockedNecessaryLevelVehiclesCount
+        if isPaused:
+            return ProgressState.PAUSED
+        else:
+            if isAllChaptersComplete:
+                return ProgressState.ALLCHAPTERSCOMPLETED
+            if chosenChapter is None and not ctrl.wasBranchResetEverAvailable:
+                return ProgressState.NOTAVAILABLE
+            if chosenChapter is None and isAnyChapterAvailable:
+                return ProgressState.CHAPTERNOTCHOSEN
+            if not ctrl.branches.resetBranchesCount:
+                return ProgressState.NORESETTEDBRANCHES
+            if isNotEnoughNecessaryVehicles:
+                return ProgressState.NEEDVEHICLETORESET
+            return ProgressState.ACTIVE
+
+    def __isFirstEntry(self, currentState):
+        return currentState == ProgressState.CHAPTERNOTCHOSEN and not any(self.__paragonsController.isChapterComplete(chapterID) for chapterID in self.__paragonsController.availableChapterIDs)
+
+    def __fillChapterModel(self, chapterModel, currentState):
+        if self.__paragonsController.chapterID is not None and currentState not in (ProgressState.CHAPTERNOTCHOSEN, ProgressState.PAUSED,
+         ProgressState.ALLCHAPTERSCOMPLETED):
+            fillChapterModel(chapterModel, self.__paragonsController.chapterID)
+        return

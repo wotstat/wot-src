@@ -1,0 +1,25 @@
+from gui.Scaleform.locale.MENU import MENU
+from gui.shared.utils.functions import getArenaSubTypeName
+from helpers import i18n
+ICONS_MASK = b'../maps/icons/map/%(prefix)s%(geometryName)s.png'
+
+def getMapIconPath(arenaType, prefix=b''):
+    return ICONS_MASK % {b'geometryName': (arenaType.geometryName), 
+       b'prefix': prefix}
+
+
+def getRoundLenString(roundLength):
+    return i18n.makeString(MENU.TRAINING_INFO_TIMEOUT_VALUE, roundLength / 60)
+
+
+def getTrainingRoomTitle(arenaType):
+    return i18n.makeString(MENU.TRAINING_INFO_TITLE, arenaType.name)
+
+
+def getArenaSubTypeString(arenaTypeID):
+    arenaSubTypeName = getArenaSubTypeName(arenaTypeID)
+    return i18n.makeString(b'#arenas:type/%s/name' % arenaSubTypeName)
+
+
+def getPlayerStateString(state):
+    return i18n.makeString(b'#menu:training/info/states/state%d' % state)

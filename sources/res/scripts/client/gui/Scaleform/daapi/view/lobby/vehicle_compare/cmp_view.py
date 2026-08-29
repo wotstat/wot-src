@@ -1,0 +1,215 @@
+from gui import SystemMessages
+from gui.Scaleform.daapi import LobbySubView
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.daapi.view.lobby.vehicle_compare.cmp_parameters import IVehCompareView, VehCompareBasketParamsCache
+from gui.Scaleform.daapi.view.meta.VehicleCompareViewMeta import VehicleCompareViewMeta
+from gui.Scaleform.framework import g_entitiesFactories
+from gui.Scaleform.framework.entities.DAAPIDataProvider import ListDAAPIDataProvider
+from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
+from gui.Scaleform.locale.SYSTEM_MESSAGES import SYSTEM_MESSAGES
+from gui.Scaleform.locale.VEH_COMPARE import VEH_COMPARE
+from gui.game_control.veh_comparison_basket import MAX_VEHICLES_TO_COMPARE_COUNT
+from gui.shared.event_bus import EVENT_BUS_SCOPE
+from gui.shared.event_dispatcher import selectVehicleInHangar, showVehiclePreview
+from gui.shared.formatters import text_styles
+from gui.shared.items_parameters.formatters import getAllParametersTitles
+from gui.techtree.go_back_helper import WulfPreviewAlias
+from helpers import dependency
+from helpers.i18n import makeString as _ms
+from skeletons.gui.game_control import IVehicleComparisonBasket
+from skeletons.gui.shared import IItemsCache
+from skeletons.account_helpers.settings_core import ISettingsCore
+from account_helpers.settings_core.settings_constants import OnceOnlyHints
+from tutorial.hints_manager import HINT_SHOWN_STATUS
+_BACK_BTN_LABELS = {(VIEW_ALIAS.LOBBY_HANGAR): b'hangar', 
+   (VIEW_ALIAS.LOBBY_STORE): b'shop', 
+   (VIEW_ALIAS.LOBBY_RESEARCH): b'researchTree', 
+   (WulfPreviewAlias.WULF_TECHTREE): b'researchTree'}
+
+@dependency.replace_none_kwargs(settingsCore=ISettingsCore)
+def _updateVehicleConfigHint(settingsCore=None):
+    hintID = OnceOnlyHints.VEH_COMPARE_CONFIG_HINT
+    hintShown = bool(settingsCore.serverSettings.getOnceOnlyHintsSetting(hintID))
+    if not hintShown:
+        settingsCore.serverSettings.setOnceOnlyHintsSettings({hintID: HINT_SHOWN_STATUS})
+    return
+
+
+class VehicleCompareView(LobbySubView, VehicleCompareViewMeta):
+    __background_alpha__ = 0.0
+    itemsCache = dependency.descriptor(IItemsCache)
+    comparisonBasket = dependency.descriptor(IVehicleComparisonBasket)
+
+    def __init__(self, ctx=None):
+        super(VehicleCompareView, self).__init__(ctx)
+        self.__vehDP = None
+        self.__paramsCache = None
+        self.__backAlias = ctx.get(b'previewAlias', VIEW_ALIAS.LOBBY_HANGAR)
+        return
+
+    def closeView(self):
+        self.onBackClick()
+        return
+
+    def onSelectModulesClick(self, vehicleID, index):
+        _updateVehicleConfigHint()
+        event = g_entitiesFactories.makeLoadEvent(SFViewLoadParams(VIEW_ALIAS.VEHICLE_COMPARE_MAIN_CONFIGURATOR), ctx={b'index': (int(index))})
+        self.fireEvent(event, scope=EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    def onRemoveAllVehicles(self):
+        self.comparisonBasket.removeAllVehicles()
+        return
+
+    def onRemoveVehicle(self, index):
+        self.comparisonBasket.removeVehicleByIdx(int(index))
+        return
+
+    def onRevertVehicle(self, index):
+        self.comparisonBasket.revertVehicleByIdx(int(index))
+        return
+
+    def onGoToPreviewClick(self, slotID):
+        cmpVehicle = self.comparisonBasket.getVehicleAt(int(slotID))
+        vehicleStrCD = cmpVehicle.getVehicleStrCD()
+        vehicleIntCD = cmpVehicle.getVehicleCD()
+        vehicle = self.itemsCache.items.getItemByCD(vehicleIntCD)
+        if vehicle.isPreviewAllowed():
+            showVehiclePreview(vehicleIntCD, VIEW_ALIAS.VEHICLE_COMPARE, vehStrCD=vehicleStrCD)
+        else:
+            SystemMessages.pushI18nMessage(SYSTEM_MESSAGES.VEHICLECOMPARE_PREVIEWNOTALLOWED, vehicle=vehicle.userName, type=SystemMessages.SM_TYPE.Error)
+        return
+
+    def onGoToHangarClick(self, vehicleID):
+        selectVehicleInHangar(int(vehicleID))
+        return
+
+    def onParamDeltaRequested(self, index, paramID):
+        deltas = self.__paramsCache.getParametersDelta(int(index), paramID)
+        self.as_setParamsDeltaS({b'paramID': paramID, 
+           b'deltas': deltas})
+        self.__updateDifferenceAttention()
+        return
+
+    def onBackClick(self):
+        event = g_entitiesFactories.makeLoadEvent(SFViewLoadParams(self.__backAlias))
+        self.fireEvent(event, scope=EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    def _populate(self):
+        super(VehicleCompareView, self)._populate()
+        self.as_setStaticDataS({b'header': (self.__getHeaderData())})
+        self.as_setVehicleParamsDataS(getAllParametersTitles())
+        self._setViewData()
+        self.comparisonBasket.onChange += self.__updateUI
+        self.comparisonBasket.onSwitchChange += self.__onVehCmpBasketStateChanged
+        self.comparisonBasket.onParametersChange += self.__onVehicleParamsChanged
+        self.comparisonBasket.onNationChange += self.__onNationChange
+        return
+
+    def _setViewData(self):
+        self.__vehDP = VehiclesDataProvider()
+        self.__vehDP.setFlashObject(self.as_getVehiclesDPS())
+        self.__clearParamsCache()
+        self.__paramsCache = VehCompareBasketParamsCache(self.__vehDP)
+        self.__updateUI()
+        return
+
+    def _dispose(self):
+        super(VehicleCompareView, self)._dispose()
+        self.comparisonBasket.onChange -= self.__updateUI
+        self.comparisonBasket.onSwitchChange -= self.__onVehCmpBasketStateChanged
+        self.comparisonBasket.onParametersChange -= self.__onVehicleParamsChanged
+        self.comparisonBasket.onNationChange -= self.__onNationChange
+        self.__clearParamsCache()
+        self.__vehDP.fini()
+        self.__vehDP = None
+        self.comparisonBasket.writeCache()
+        return
+
+    def __clearParamsCache(self):
+        if self.__paramsCache is not None:
+            self.__paramsCache.dispose()
+            self.__paramsCache = None
+        return
+
+    def __updateUI(self, *data):
+        self.as_setVehiclesCountTextS(text_styles.main(_ms(VEH_COMPARE.VEHICLECOMPAREVIEW_TOPPANEL_VEHICLESCOUNT, count=text_styles.stats(self.comparisonBasket.getVehiclesCount()))))
+        self.__updateDifferenceAttention()
+        return
+
+    def __onVehCmpBasketStateChanged(self):
+        if not self.comparisonBasket.isEnabled():
+            self.destroy()
+        return
+
+    def __getHeaderData(self):
+        key = _BACK_BTN_LABELS.get(self.__backAlias, b'hangar')
+        backBtnDescrLabel = (b'#veh_compare:header/backBtn/descrLabel/{}').format(key)
+        return {b'closeBtnLabel': (VEH_COMPARE.HEADER_CLOSEBTN_LABEL), 
+           b'backBtnLabel': (VEH_COMPARE.HEADER_BACKBTN_LABEL), 
+           b'backBtnDescrLabel': backBtnDescrLabel, 
+           b'titleText': (text_styles.promoSubTitle(VEH_COMPARE.VEHICLECOMPAREVIEW_HEADER))}
+
+    def __updateDifferenceAttention(self):
+        vehiclesCount = self.comparisonBasket.getVehiclesCount()
+        if vehiclesCount > 1 and len(set(self.comparisonBasket.getVehiclesCDs())) > 1:
+            comparisonDataIter = self.comparisonBasket.getVehiclesPropertiesIter((lambda vehCmpData: (
+             vehCmpData.getConfigurationType(), vehCmpData.getCrewData())))
+            prevModuleType, prevCrewData = next(comparisonDataIter)
+            for moduleType, crewData in comparisonDataIter:
+                if prevModuleType != moduleType or prevCrewData != crewData:
+                    break
+                prevModuleType, prevCrewData = moduleType, crewData
+
+        return
+
+    def __onVehicleParamsChanged(self, _):
+        self.__updateDifferenceAttention()
+        self.__clearParamsCache()
+        self.__paramsCache = VehCompareBasketParamsCache(self.__vehDP)
+        return
+
+    def __onNationChange(self, _):
+        self.__updateUI()
+        return
+
+
+class VehiclesDataProvider(ListDAAPIDataProvider, IVehCompareView):
+
+    def __init__(self):
+        super(VehiclesDataProvider, self).__init__()
+        self.__list = []
+        return
+
+    @property
+    def sortedCollection(self):
+        return self.collection
+
+    @property
+    def collection(self):
+        return self.__list
+
+    def emptyItem(self):
+        return
+
+    def buildList(self, *args):
+        self.__list = args[0] if args else []
+        if len(self.__list) < MAX_VEHICLES_TO_COMPARE_COUNT:
+            self.__list.append({b'isFirstEmptySlot': True})
+        self.refresh()
+        return
+
+    def updateItems(self, *args):
+        data = args[0]
+        self.refreshRandomItems(range(0, len(data)), data)
+        return
+
+    def clear(self):
+        self.__list = []
+        return
+
+    def fini(self):
+        self.clear()
+        self.destroy()
+        return

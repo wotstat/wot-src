@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xmlref="http://bwt/xmlref">
+	<crew>
+		<commander>radioman</commander>
+		<gunner>loader</gunner>
+		<driver></driver>
+	</crew>
+	<supplySlots>2 1 1 6 6 6 7 8 8 8</supplySlots>
+	<postProgressionTree>role_MT_universal</postProgressionTree>
+	<customRoleSlotOptions>3 5</customRoleSlotOptions>
+	<speedLimits>
+		<forward>56</forward>
+		<backward>16</backward>
+	</speedLimits>
+	<invisibility>
+		<moving>0.230</moving>
+		<still>0.306</still>
+		<camouflageBonus>0.03</camouflageBonus>
+		<firePenalty>0.459</firePenalty>
+	</invisibility>
+	<optDevsOverrides>
+		<camouflageNet>
+			<invisibilityBonus>0.1 0.125</invisibilityBonus>
+		</camouflageNet>
+		<additionalInvisibilityDevice>
+			<invisibilityBonus>0.06 0.08</invisibilityBonus>
+		</additionalInvisibilityDevice>
+		<trophyBasicAdditionalInvisibilityDevice>
+			<invisibilityBonus>0.06</invisibilityBonus>
+		</trophyBasicAdditionalInvisibilityDevice>
+		<trophyUpgradedAdditionalInvisibilityDevice>
+			<invisibilityBonus>0.09</invisibilityBonus>
+		</trophyUpgradedAdditionalInvisibilityDevice>
+	</optDevsOverrides>
+	<repairCost>13.0</repairCost>
+	<premiumVehicleXPFactor>0.05</premiumVehicleXPFactor>
+	<crewXpFactor>1.5</crewXpFactor>
+	<camouflage>
+		<priceFactor>2.0</priceFactor>
+		<density>0.969035983 0.969035983</density>
+	</camouflage>
+	<hull>
+		<armor>
+			<armor_1>120</armor_1>
+			<armor_2>130</armor_2>
+			<armor_3>50</armor_3>
+			<armor_4>25</armor_4>
+			<armor_5>25</armor_5>
+			<armor_6>50</armor_6>
+			<armor_7>40</armor_7>
+			<armor_8>0</armor_8>
+			<armor_9>50</armor_9>
+			<armor_10>20</armor_10>
+			<armor_11>65</armor_11>
+			<armor_12>25</armor_12>
+			<armor_13>40</armor_13>
+			<armor_14>25
+				<vehicleDamageFactor>0</vehicleDamageFactor>
+			</armor_14>
+			<armor_15>35</armor_15>
+			<armor_16>25
+				<vehicleDamageFactor>0</vehicleDamageFactor>
+			</armor_16>
+		</armor>
+		<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+		<weight>16310</weight>
+		<maxHealth>1500</maxHealth>
+		<ammoBayHealth>
+			<maxHealth>260</maxHealth>
+			<maxRegenHealth>180</maxRegenHealth>
+			<repairCost>1.0</repairCost>
+		</ammoBayHealth>
+		<models>
+			<undamaged>vehicles/american/A175_OTAC_MT_58/normal/lod0/Hull.model</undamaged>
+			<destroyed>vehicles/american/A175_OTAC_MT_58/crash/lod0/Hull.model</destroyed>
+			<exploded>vehicles/american/A175_OTAC_MT_58/crash/lod0/Hull.model</exploded>
+			<sets>
+				<A175_OTAC_MT_58_02_3Dst_01>
+					<undamaged>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/normal/lod0/Hull.model</undamaged>
+					<destroyed>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/crash/lod0/Hull.model</destroyed>
+					<exploded>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/crash/lod0/Hull.model</exploded>
+				</A175_OTAC_MT_58_02_3Dst_01>
+			</sets>
+		</models>
+		<swinging>
+			<lodDist>FAR</lodDist>
+			<pitchParams>0.34 38 0.36 1 0.05 0.34</pitchParams>
+			<rollParams>1 0.34 38 0.36 1 0.06 0.4</rollParams>
+			<sensitivityToImpulse>0.94</sensitivityToImpulse>
+		</swinging>
+		<exhaust>
+			<pixie>diesel_large</pixie>
+			<nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
+		</exhaust>
+		<turretPositions>
+			<turret>0 0.362011999 0.202529997</turret>
+		</turretPositions>
+		<hitTester>
+			<collisionModelServer>vehicles/american/A175_OTAC_MT_58/collision/Hull.model</collisionModelServer>
+			<collisionModelClient>vehicles/american/A175_OTAC_MT_58/collision_client/Hull.model</collisionModelClient>
+		</hitTester>
+		<customizationSlots>
+			<slot>
+				<slotType>clan</slotType>
+				<slotId>10000</slotId>
+				<rayStart>-1.43248606 0.48082599 1.68814397</rayStart>
+				<rayEnd>-1.43976903 0.280983001 1.69128394</rayEnd>
+				<rayUp>0.000335999997 -0.0157249998 -0.999876022</rayUp>
+				<size>0.32</size>
+				<isUVProportional>false</isUVProportional>
+			</slot>
+			<slot>
+				<slotType>paint</slotType>
+				<slotId>11000</slotId>
+				<anchorPosition>-3.09999996e-05 0.546100974 -2.26498699</anchorPosition>
+				<anchorDirection>-0 0 0</anchorDirection>
+			</slot>
+			<slot>
+				<slotType>camouflage</slotType>
+				<slotId>12000</slotId>
+				<anchorPosition>-0.000031 0.546101 -2.26499</anchorPosition>
+				<anchorDirection>-0 0 0</anchorDirection>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15000</slotId>
+				<tags>formfactor_square</tags>
+				<compatibleModels>A175_OTAC_MT_58_02_3Dst_01</compatibleModels>
+				<position>0.620265007 1.19856095 2.61318111</position>
+				<rotation>0.476271003 9.99999997e-07 3.14159298</rotation>
+				<scale>0.364868 0.15438 0.364868</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18000</slotId>
+				<position>0 0 0</position>
+				<rotation>0 0 0</rotation>
+			</slot>
+		</customizationSlots>
+		<customization>
+			<customizableVehicleAreas>
+				<paint>HULL</paint>
+				<camouflage>HULL</camouflage>
+			</customizableVehicleAreas>
+		</customization>
+		<hangarShadowTexture>vehicles/american/A175_OTAC_MT_58/OTAC_MT_58_HangarShadowMap.dds</hangarShadowTexture>
+		<camouflage>
+			<tiling>0.925 0.925 0.000000 0.000000</tiling>
+			<density>116.542 116.556</density>
+			<aoTextureSize>1024 1024</aoTextureSize>
+		</camouflage>
+	</hull>
+	<chassis>
+		<Chassis_A175_OTAC_MT_58_02>
+			<userString>#usa_vehicles:Chassis_A175_OTAC_MT_58_02</userString>
+			<tags></tags>
+			<level>10</level>
+			<price>82500</price>
+			<notInShop>true</notInShop>
+			<armor>
+				<leftTrack>20</leftTrack>
+				<rightTrack>20</rightTrack>
+			</armor>
+			<weight>4000</weight>
+			<terrainResistance>0.7 0.8 1.7</terrainResistance>
+			<brakeForce>30000</brakeForce>
+			<rotationIsAroundCenter>true</rotationIsAroundCenter>
+			<rotationSpeed>52</rotationSpeed>
+			<shotDispersionFactors>
+				<vehicleMovement>0.15</vehicleMovement>
+				<vehicleRotation>0.15</vehicleRotation>
+			</shotDispersionFactors>
+			<bulkHealthFactor>3.0</bulkHealthFactor>
+			<maxHealth>250</maxHealth>
+			<maxRegenHealth>190</maxRegenHealth>
+			<repairCost>5.0</repairCost>
+			<models>
+				<undamaged>vehicles/american/A175_OTAC_MT_58/normal/lod0/Chassis.model</undamaged>
+				<destroyed>vehicles/american/A175_OTAC_MT_58/crash/lod0/Chassis.model</destroyed>
+				<exploded>vehicles/american/A175_OTAC_MT_58/crash/lod0/Chassis.model</exploded>
+				<sets>
+					<A175_OTAC_MT_58_02_3Dst_01>
+						<undamaged>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/normal/lod0/Chassis.model</undamaged>
+						<destroyed>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/crash/lod0/Chassis.model</destroyed>
+						<exploded>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/crash/lod0/Chassis.model</exploded>
+					</A175_OTAC_MT_58_02_3Dst_01>
+				</sets>
+			</models>
+			<traces>
+				<lodDist>MEDIUM</lodDist>
+				<activePostmortem>false</activePostmortem>
+				<tracesParams>
+					<trackPairIdx>0</trackPairIdx>
+					<bufferPrefs>largeTank</bufferPrefs>
+					<textureSet>usa_a23</textureSet>
+					<size>0.7 0.65</size>
+					<offset>0 0</offset>
+					<centerOffsetFactor>1 1</centerOffsetFactor>
+				</tracesParams>
+			</traces>
+			<tracks>
+				<lodDist>MEDIUM_TRACK</lodDist>
+				<trackPair>
+					<trackPairIdx>0</trackPairIdx>
+					<leftMaterial>track_mat_L_skinned</leftMaterial>
+					<rightMaterial>track_mat_R_skinned</rightMaterial>
+					<textureScale>-2.45</textureScale>
+					<trackDebris>
+						<isLeft>true</isLeft>
+						<destructionEffect></destructionEffect>
+						<physicalParams>
+							<renderModelOffset>-0.0640280023</renderModelOffset>
+							<interpolationsCount>1</interpolationsCount>
+							<lengthwiseSpringLength>0.125447005</lengthwiseSpringLength>
+							<widthwiseSpringLength>0.554711998</widthwiseSpringLength>
+							<hingeJointStiffness>500</hingeJointStiffness>
+							<torsionStiffnessStep>4</torsionStiffnessStep>
+							<wheelGroups>
+								<wheelGroup>
+									<wheelName>WD_L1</wheelName>
+									<groupRadius>0.33494401</groupRadius>
+									<groupInnerOffset>0.3665</groupInnerOffset>
+									<groupOuterOffset>-0.2665</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>W_L3</wheelName>
+									<wheelName>W_L2</wheelName>
+									<groupRadius>0.478938997</groupRadius>
+									<groupInnerOffset>0.3665</groupInnerOffset>
+									<groupOuterOffset>-0.2665</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>W_L1</wheelName>
+									<groupRadius>0.491712004</groupRadius>
+									<groupInnerOffset>0.3665</groupInnerOffset>
+									<groupOuterOffset>-0.2665</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>W_L0</wheelName>
+									<groupRadius>0.480002999</groupRadius>
+									<groupInnerOffset>0.3665</groupInnerOffset>
+									<groupOuterOffset>-0.2665</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>WD_L0</wheelName>
+									<groupRadius>0.342898011</groupRadius>
+									<groupInnerOffset>0.3665</groupInnerOffset>
+									<groupOuterOffset>-0.2665</groupOuterOffset>
+								</wheelGroup>
+							</wheelGroups>
+							<hullCollider>
+								<boxCollider>1.86411905 0 0 0 1.33683097 0 0 0 6.47249985 -0.0733200014 0.932641983 -0.165910006</boxCollider>
+								<boxCollider>3.03011894 0 0 0 0.300000012 0 0 0 4.19999981 -0.219873995 1.36595702 -0.330253005</boxCollider>
+								<boxCollider>3.0301199 -0 0 0 0.290776014 0.0738200024 -0 -0.369098008 1.45387995 -0.219873995 1.292593 2.255337</boxCollider>
+								<boxCollider>3.0301199 -0 0 0 0.273499995 -0.123280004 0 0.308200985 0.68374902 -0.219873995 1.25068402 -2.62818098</boxCollider>
+								<boxCollider>0.300000012 0 0 0 0.800000012 0 0 0 3.5999999 -1.82584906 0.890765011 0.791420996</boxCollider>
+								<boxCollider>0.300000012 0 0 0 0.5 0 0 0 5.69999981 -1.82585001 0.993551016 -0.0148729999</boxCollider>
+							</hullCollider>
+						</physicalParams>
+					</trackDebris>
+					<trackDebris>
+						<isLeft>false</isLeft>
+						<destructionEffect></destructionEffect>
+						<physicalParams>
+							<renderModelOffset>-0.067685999</renderModelOffset>
+							<interpolationsCount>1</interpolationsCount>
+							<lengthwiseSpringLength>0.124223001</lengthwiseSpringLength>
+							<widthwiseSpringLength>0.563441992</widthwiseSpringLength>
+							<hingeJointStiffness>500</hingeJointStiffness>
+							<torsionStiffnessStep>5</torsionStiffnessStep>
+							<wheelGroups>
+								<wheelGroup>
+									<wheelName>WD_R1</wheelName>
+									<groupRadius>0.343733996</groupRadius>
+									<groupInnerOffset>-0.3665</groupInnerOffset>
+									<groupOuterOffset>0.2665</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>W_R3</wheelName>
+									<groupRadius>0.500442028</groupRadius>
+									<groupInnerOffset>-0.3665</groupInnerOffset>
+									<groupOuterOffset>0.2665</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>W_R2</wheelName>
+									<wheelName>W_R1</wheelName>
+									<wheelName>W_R0</wheelName>
+									<groupRadius>0.479373991</groupRadius>
+									<groupInnerOffset>-0.3665</groupInnerOffset>
+									<groupOuterOffset>0.2665</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>WD_R0</wheelName>
+									<groupRadius>0.35108301</groupRadius>
+									<groupInnerOffset>-0.3665</groupInnerOffset>
+									<groupOuterOffset>0.2665</groupOuterOffset>
+								</wheelGroup>
+							</wheelGroups>
+							<hullCollider>
+								<boxCollider>1.86412001 0 0 0 1.33683002 0 0 0 6.47249985 0.0729999989 0.932641983 -0.165910006</boxCollider>
+								<boxCollider>3.0301199 0 0 0 0.300000012 0 0 0 4.19999981 0.219999999 1.36596 -0.330253005</boxCollider>
+								<boxCollider>3.0301199 -0 0 0 0.290776014 0.0738200024 -0 -0.369098008 1.45387995 0.219999999 1.29259002 2.2553401</boxCollider>
+								<boxCollider>3.0301199 -0 0 0 0.273499995 -0.123280004 0 0.308200985 0.68374902 0.219999999 1.25067997 -2.62818003</boxCollider>
+								<boxCollider>0.300000012 0 0 0 0.800000012 0 0 0 3.5999999 1.82599998 0.890765011 0.791420996</boxCollider>
+								<boxCollider>0.300000012 0 0 0 0.5 0 0 0 5.69999981 1.82599998 0.993551016 -0.0148729999</boxCollider>
+							</hullCollider>
+						</physicalParams>
+					</trackDebris>
+				</trackPair>
+			</tracks>
+			<AODecals>
+				<decal>
+					<transform>4.44497824 -0 -0 -0 2.45434999 0 -0 0 6.68050623 0 0 0</transform>
+				</decal>
+			</AODecals>
+			<wheels>
+				<lodDist>MEDIUM</lodDist>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L0</name>
+					<geometry>
+						<radius>0.275000006</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>27.6923084</syncAngle>
+				</wheel>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L1</name>
+					<geometry>
+						<radius>0.328101993</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>27.6923084</syncAngle>
+				</wheel>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>W_L0</name>
+					<geometry>
+						<radius>0.480002999</radius>
+					</geometry>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>27.6923084</syncAngle>
+				</wheel>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>W_L1</name>
+					<geometry>
+						<radius>0.491712004</radius>
+					</geometry>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>27.6923084</syncAngle>
+				</wheel>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>W_L2</name>
+					<geometry>
+						<radius>0.479633003</radius>
+					</geometry>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>27.6923084</syncAngle>
+				</wheel>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>W_L3</name>
+					<geometry>
+						<radius>0.478938997</radius>
+					</geometry>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>27.6923084</syncAngle>
+				</wheel>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R0</name>
+					<geometry>
+						<radius>0.275000006</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>27.6923084</syncAngle>
+				</wheel>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R1</name>
+					<geometry>
+						<radius>0.328101993</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>27.6923084</syncAngle>
+				</wheel>
+				<group>
+					<isLeft>false</isLeft>
+					<template>W_R</template>
+					<geometry>
+						<radius>0.479373991</radius>
+					</geometry>
+					<startIndex>0</startIndex>
+					<count>3</count>
+					<trackPairIdx>0</trackPairIdx>
+				</group>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>W_R3</name>
+					<geometry>
+						<radius>0.500442028</radius>
+					</geometry>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>27.6923084</syncAngle>
+				</wheel>
+			</wheels>
+			<drivingWheels>WD_L0 WD_L1</drivingWheels>
+			<effects>
+				<lodDist>MEDIUM</lodDist>
+				<mud>largeTankMud</mud>
+			</effects>
+			<wwsoundPC>treads_type_pc</wwsoundPC>
+			<wwsoundNPC>trds_chf_npc</wwsoundNPC>
+			<hullPosition>0 0.877122998 0</hullPosition>
+			<customizationSlots>
+				<slot>
+					<slotType>paint</slotType>
+					<slotId>21000</slotId>
+					<anchorPosition>-1.794349 0.35373 0</anchorPosition>
+					<anchorDirection>-0 0 0</anchorDirection>
+				</slot>
+				<slot>
+					<slotType>style</slotType>
+					<slotId>29000</slotId>
+					<anchorPosition>-0 2.34139 -0</anchorPosition>
+					<anchorDirection>0 1 0</anchorDirection>
+				</slot>
+			</customizationSlots>
+			<customization>
+				<customizableVehicleAreas>
+					<paint>CHASSIS</paint>
+					<camouflage></camouflage>
+				</customizableVehicleAreas>
+			</customization>
+			<hitTester>
+				<trackPairIdx>0</trackPairIdx>
+				<collisionModelServer>vehicles/american/A175_OTAC_MT_58/collision/Chassis.model</collisionModelServer>
+				<collisionModelClient>vehicles/american/A175_OTAC_MT_58/collision_client/Chassis.model</collisionModelClient>
+			</hitTester>
+			<topRightCarryingPoint>1.38499999 1.52755904</topRightCarryingPoint>
+			<maxClimbAngle>25</maxClimbAngle>
+			<navmeshGirth>6.0</navmeshGirth>
+			<trackNodes>
+				<trackPair>
+					<trackPairIdx>0</trackPairIdx>
+					<trackThickness>-0.01</trackThickness>
+					<maxAmplitude>0.01</maxAmplitude>
+					<maxOffset>0.01</maxOffset>
+					<gravity>-9.8</gravity>
+					<damping>2</damping>
+					<enable>true</enable>
+					<linkBones>false</linkBones>
+					<elasticity>1100</elasticity>
+					<node>
+						<isLeft>true</isLeft>
+						<name>Track_VD_L0</name>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+					<node>
+						<isLeft>true</isLeft>
+						<name>Track_VD_L1</name>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+					<node>
+						<isLeft>false</isLeft>
+						<name>Track_VD_R0</name>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+					<node>
+						<isLeft>false</isLeft>
+						<name>Track_VD_R1</name>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+				</trackPair>
+			</trackNodes>
+			<groundNodes>
+				<node>
+					<name>Track_L0</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L1</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L2</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L3</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R0</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R1</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R2</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R3</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+			</groundNodes>
+			<splineDesc>
+				<trackPair>
+					<trackPairIdx>0</trackPairIdx>
+					<segmentModelLeft>vehicles/american/A175_OTAC_MT_58/track/segment_L.model</segmentModelLeft>
+					<segmentModelRight>vehicles/american/A175_OTAC_MT_58/track/segment_R.model</segmentModelRight>
+					<left>vehicles/american/A175_OTAC_MT_58/track/left.track</left>
+					<right>vehicles/american/A175_OTAC_MT_58/track/right.track</right>
+					<segmentLength>0.128</segmentLength>
+					<segmentOffset>0.127</segmentOffset>
+					<segment2Offset>0.1</segment2Offset>
+					<atlas>
+						<UTiles>1</UTiles>
+						<VTiles>1</VTiles>
+					</atlas>
+					<modelSets>
+						<A175_OTAC_MT_58_02_3Dst_01>
+							<segmentModelLeft>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/track/segment_L.model</segmentModelLeft>
+							<segmentModelRight>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/track/segment_R.model</segmentModelRight>
+						</A175_OTAC_MT_58_02_3Dst_01>
+					</modelSets>
+				</trackPair>
+				<lodDist>SPLINE_TRACK</lodDist>
+			</splineDesc>
+			<physicalTracks>
+				<left>
+					<trackPairIdx>0</trackPairIdx>
+					<segmentsCount>94</segmentsCount>
+					<segmentsOuterThickness>0.0531719998</segmentsOuterThickness>
+					<segmentsInnerThickness>-0.0748839974</segmentsInnerThickness>
+					<segmentsPlaneOffset>-1.385</segmentsPlaneOffset>
+					<mainSegment>
+						<model>vehicles/american/A175_OTAC_MT_58/track/segment_L.model</model>
+						<length>0.128234997</length>
+					</mainSegment>
+					<modelSets>
+						<A175_OTAC_MT_58_02_3Dst_01>
+							<mainSegmentModel>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/track/segment_L.model</mainSegmentModel>
+						</A175_OTAC_MT_58_02_3Dst_01>
+					</modelSets>
+					<springsLength>
+						<backwardMovement>
+							<back>0.125</back>
+							<top>0.12</top>
+							<front>0.125659004</front>
+							<bottom>0.0530130006</bottom>
+						</backwardMovement>
+						<forwardMovement>
+							<back>0.06</back>
+							<top>0.124</top>
+							<front>0.125</front>
+							<bottom>0.0530130006</bottom>
+						</forwardMovement>
+					</springsLength>
+					<bottomWheels>
+						<wheel>WD_L1</wheel>
+						<wheel>W_L3</wheel>
+						<wheel>W_L2</wheel>
+						<wheel>W_L1</wheel>
+						<wheel>W_L0</wheel>
+						<wheel>WD_L0</wheel>
+					</bottomWheels>
+					<snapWheels>
+						<topFront>
+							<wheelName>WD_L0</wheelName>
+							<basePos>2.542531 0.68</basePos>
+							<shiftVec>0.224738002 0.146083996</shiftVec>
+							<jointIdx>12</jointIdx>
+						</topFront>
+						<topBack>
+							<wheelName>WD_L1</wheelName>
+							<basePos>-2.468213 0.69762</basePos>
+							<shiftVec>-0.2161 0.144706</shiftVec>
+							<jointIdx>56</jointIdx>
+						</topBack>
+						<bottomBack>
+							<wheelName>W_L3</wheelName>
+							<basePos>-1.528048 0.47</basePos>
+							<shiftVec>-0.06161 -0.408027</shiftVec>
+							<jointIdx>68</jointIdx>
+						</bottomBack>
+						<bottomFront>
+							<wheelName>W_L0</wheelName>
+							<basePos>1.672531 0.47</basePos>
+							<shiftVec>0.00111199997 -0.413727999</shiftVec>
+							<jointIdx>0</jointIdx>
+						</bottomFront>
+					</snapWheels>
+					<radiusOverrides>
+						<wheel>
+							<name>WD_L1</name>
+							<radius>0.258807003</radius>
+						</wheel>
+						<wheel>
+							<name>WD_L0</name>
+							<radius>0.266815007</radius>
+						</wheel>
+					</radiusOverrides>
+					<teethSyncs>
+						<syncWithMainModel>true</syncWithMainModel>
+						<segmentSyncPivotOffset>0</segmentSyncPivotOffset>
+						<sync>
+							<name>WD_L1</name>
+							<startAngle>-2.93642807</startAngle>
+							<teethCount>13</teethCount>
+						</sync>
+						<sync>
+							<name>WD_L0</name>
+							<startAngle>-0.0580030009</startAngle>
+							<teethCount>13</teethCount>
+						</sync>
+					</teethSyncs>
+					<collisionHull>
+						<top>
+							<part>
+								<xStart>-2.78867793</xStart>
+								<xStep>0.0641179979</xStep>
+								<ySamples>0.973713 1.01162 1.04125 1.06631 1.08793 1.10635 1.12157 1.13384 1.1433 1.14981 1.15345 1.15457 1.15461 1.15465 1.15469 1.15473 1.15477 1.15481 1.15485 1.15489 1.15493 1.15497 1.155 1.15504 1.15508 1.15511 1.15515 1.15518 1.14758 1.15526 1.15529 1.15533 1.15536 1.1554 1.15544 1.15547 1.15551 1.15554 1.15558 1.15562 1.15565 1.15569 1.15572 1.15576 1.1558 1.15583 1.15587 1.14758 1.15594 1.15598 1.15601 1.15605 1.15608 1.15612 1.15615 1.15619 1.15623 1.15626 1.1563 1.15633 1.15637 1.15641 1.15644 1.15648 1.15651 1.09773 1.15659 1.15662 1.15666 1.15669 1.15673 1.15674 1.15144 1.14238 1.13331 1.12424 1.11518 1.10611 1.09705 1.08798 1.07892 1.06985 1.06078 1.05172 1.04265 1.02907 1.00525 0.968747 0.91796</ySamples>
+							</part>
+						</top>
+					</collisionHull>
+					<sourceCollisionHullPoints>
+						<top>
+							<range>
+								<point>-1.57648897 1.04363799 -2.78867793</point>
+								<point>-1.576489 1.081541 -2.72456</point>
+								<point>-1.57648897 1.11117399 -2.66044211</point>
+								<point>-1.57648897 1.13623905 -2.59632492</point>
+								<point>-1.57648897 1.15785801 -2.53220701</point>
+								<point>-1.576489 1.176273 -2.46809</point>
+								<point>-1.576489 1.19149 -2.403972</point>
+								<point>-1.57648897 1.20376897 -2.33985496</point>
+								<point>-1.57648897 1.21322203 -2.27573705</point>
+								<point>-1.57648897 1.21973503 -2.2116189</point>
+								<point>-1.57648897 1.22337306 -2.14750195</point>
+								<point>-1.57648897 1.22449803 -2.08338404</point>
+								<point>-1.57648897 1.22453797 -2.01926708</point>
+								<point>-1.57648897 1.22457802 -1.95514905</point>
+								<point>-1.57648897 1.22461796 -1.89103198</point>
+								<point>-1.57648897 1.22465801 -1.82691395</point>
+								<point>-1.57648897 1.22469699 -1.76279604</point>
+								<point>-1.57648897 1.22473705 -1.69867897</point>
+								<point>-1.57648897 1.22477698 -1.63456202</point>
+								<point>-1.57648897 1.22481704 -1.57044399</point>
+								<point>-1.57648897 1.22485697 -1.50632596</point>
+								<point>-1.57648897 1.22489297 -1.44220901</point>
+								<point>-1.57648897 1.22492898 -1.37809098</point>
+								<point>-1.57648897 1.22496498 -1.31397295</point>
+								<point>-1.57648897 1.22500098 -1.249856</point>
+								<point>-1.57648897 1.22503698 -1.18573904</point>
+								<point>-1.57648897 1.22507298 -1.12162101</point>
+								<point>-1.57648897 1.22510898 -1.05750299</point>
+								<point>-1.426489 1.2175 -0.993386</point>
+								<point>-1.57648897 1.22518098 -0.929268003</point>
+								<point>-1.576489 1.225217 -0.86515</point>
+								<point>-1.57648897 1.22525299 -0.80103302</point>
+								<point>-1.57648897 1.22528899 -0.736916006</point>
+								<point>-1.57648897 1.22532499 -0.672797978</point>
+								<point>-1.576489 1.225361 -0.60868</point>
+								<point>-1.57648897 1.22539699 -0.544562995</point>
+								<point>-1.57648897 1.22543299 -0.480444998</point>
+								<point>-1.57648897 1.22546899 -0.416327</point>
+								<point>-1.576489 1.225505 -0.35221</point>
+								<point>-1.576489 1.22554 -0.288093</point>
+								<point>-1.57648897 1.22557604 -0.223975003</point>
+								<point>-1.57648897 1.22561204 -0.159857005</point>
+								<point>-1.576489 1.225648 -0.09574</point>
+								<point>-1.57648897 1.22568405 -0.031622</point>
+								<point>-1.576489 1.22572 0.032495</point>
+								<point>-1.57648897 1.22575605 0.0966129974</point>
+								<point>-1.576489 1.225792 0.16073</point>
+								<point>-1.426489 1.2175 0.224848</point>
+								<point>-1.57648897 1.22586405 0.288966</point>
+								<point>-1.576489 1.2259 0.353083</point>
+								<point>-1.57648897 1.22593606 0.417201012</point>
+								<point>-1.57648897 1.22597206 0.481317997</point>
+								<point>-1.57648897 1.22600806 0.545436025</point>
+								<point>-1.57648897 1.22604406 0.609552979</point>
+								<point>-1.576489 1.22608 0.673671</point>
+								<point>-1.57648897 1.22611594 0.737788975</point>
+								<point>-1.57648897 1.22615194 0.80190599</point>
+								<point>-1.57648897 1.22618794 0.866024017</point>
+								<point>-1.57648897 1.22622395 0.930140972</point>
+								<point>-1.576489 1.22626 0.994259</point>
+								<point>-1.57648897 1.22629595 1.05837595</point>
+								<point>-1.57648897 1.22633195 1.12249398</point>
+								<point>-1.57648897 1.22636795 1.18661201</point>
+								<point>-1.57648897 1.22640395 1.25072896</point>
+								<point>-1.576489 1.22644 1.314847</point>
+								<point>-1.426489 1.16765499 1.37896395</point>
+								<point>-1.57648897 1.226511 1.44308197</point>
+								<point>-1.57648897 1.226547 1.50719905</point>
+								<point>-1.57648897 1.226583 1.57131696</point>
+								<point>-1.57648897 1.22661901 1.63543499</point>
+								<point>-1.57648897 1.22665501 1.69955206</point>
+								<point>-1.57648897 1.22666895 1.76366901</point>
+								<point>-1.57648897 1.221367 1.82778704</point>
+								<point>-1.57648897 1.21230102 1.89190495</point>
+								<point>-1.57648897 1.20323598 1.95602202</point>
+								<point>-1.576489 1.19417 2.02014</point>
+								<point>-1.57648897 1.18510401 2.08425808</point>
+								<point>-1.57648897 1.17603803 2.14837503</point>
+								<point>-1.57648897 1.16697204 2.21249294</point>
+								<point>-1.576489 1.157907 2.27661</point>
+								<point>-1.57648897 1.14884102 2.34072804</point>
+								<point>-1.57648897 1.13977504 2.404845</point>
+								<point>-1.57648897 1.13070905 2.46896291</point>
+								<point>-1.576489 1.121643 2.53308</point>
+								<point>-1.57648897 1.11257696 2.59719801</point>
+								<point>-1.57648897 1.09899795 2.66131592</point>
+								<point>-1.57648897 1.07517898 2.72543311</point>
+								<point>-1.57648897 1.03867197 2.78955102</point>
+								<point>-1.426489 0.987884998 2.85366797</point>
+							</range>
+						</top>
+					</sourceCollisionHullPoints>
+				</left>
+				<right>
+					<trackPairIdx>0</trackPairIdx>
+					<segmentsCount>95</segmentsCount>
+					<segmentsOuterThickness>0.0531719998</segmentsOuterThickness>
+					<segmentsInnerThickness>-0.0748839974</segmentsInnerThickness>
+					<segmentsPlaneOffset>1.385</segmentsPlaneOffset>
+					<mainSegment>
+						<model>vehicles/american/A175_OTAC_MT_58/track/segment_R.model</model>
+						<length>0.127572998</length>
+					</mainSegment>
+					<modelSets>
+						<A175_OTAC_MT_58_02_3Dst_01>
+							<mainSegmentModel>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/track/segment_R.model</mainSegmentModel>
+						</A175_OTAC_MT_58_02_3Dst_01>
+					</modelSets>
+					<springsLength>
+						<backwardMovement>
+							<back>0.125</back>
+							<top>0.12</top>
+							<front>0.125659004</front>
+							<bottom>0.0530130006</bottom>
+						</backwardMovement>
+						<forwardMovement>
+							<back>0.06</back>
+							<top>0.124</top>
+							<front>0.125</front>
+							<bottom>0.0530130006</bottom>
+						</forwardMovement>
+					</springsLength>
+					<bottomWheels>
+						<wheel>WD_R1</wheel>
+						<wheel>W_R3</wheel>
+						<wheel>W_R2</wheel>
+						<wheel>W_R1</wheel>
+						<wheel>W_R0</wheel>
+						<wheel>WD_R0</wheel>
+					</bottomWheels>
+					<snapWheels>
+						<topFront>
+							<wheelName>WD_R0</wheelName>
+							<basePos>2.542531 0.68</basePos>
+							<shiftVec>0.256992996 0.0770810023</shiftVec>
+							<jointIdx>12</jointIdx>
+						</topFront>
+						<topBack>
+							<wheelName>WD_R1</wheelName>
+							<basePos>-2.468213 0.69762</basePos>
+							<shiftVec>-0.214846 0.147922993</shiftVec>
+							<jointIdx>57</jointIdx>
+						</topBack>
+						<bottomBack>
+							<wheelName>W_R3</wheelName>
+							<basePos>-1.67394 0.47</basePos>
+							<shiftVec>0.0441359989 -0.425935</shiftVec>
+							<jointIdx>69</jointIdx>
+						</bottomBack>
+						<bottomFront>
+							<wheelName>W_R0</wheelName>
+							<basePos>1.526639 0.47</basePos>
+							<shiftVec>0.07497 -0.398151</shiftVec>
+							<jointIdx>0</jointIdx>
+						</bottomFront>
+					</snapWheels>
+					<radiusOverrides>
+						<wheel>
+							<name>WD_R1</name>
+							<radius>0.259593993</radius>
+						</wheel>
+						<wheel>
+							<name>WD_R0</name>
+							<radius>0.267087996</radius>
+						</wheel>
+					</radiusOverrides>
+					<teethSyncs>
+						<syncWithMainModel>true</syncWithMainModel>
+						<segmentSyncPivotOffset>0</segmentSyncPivotOffset>
+						<sync>
+							<name>WD_R1</name>
+							<startAngle>-3.0705359</startAngle>
+							<teethCount>13</teethCount>
+						</sync>
+						<sync>
+							<name>WD_R0</name>
+							<startAngle>-0.148093998</startAngle>
+							<teethCount>13</teethCount>
+						</sync>
+					</teethSyncs>
+					<collisionHull>
+						<top>
+							<part>
+								<xStart>-2.74044394</xStart>
+								<xStep>0.0637869984</xStep>
+								<ySamples>1.00355 1.03434 1.06028 1.0826 1.10181 1.11784 1.13085 1.14114 1.14851 1.15298 1.15444 1.1546 1.15464 1.15468 1.15472 1.15476 1.1548 1.15484 1.15488 1.15492 1.15496 1.15499 1.15503 1.15506 1.1551 1.15513 1.15517 1.14758 1.15524 1.15528 1.15531 1.15535 1.15538 1.15542 1.15546 1.15549 1.15553 1.15556 1.1556 1.15564 1.15567 1.15571 1.15574 1.15578 1.15581 1.15585 1.14758 1.15592 1.15596 1.15599 1.15603 1.15606 1.1561 1.15614 1.15617 1.15621 1.15624 1.15628 1.15632 1.15635 1.15639 1.15642 1.15646 1.15649 1.15653 1.14758 1.1566 1.15664 1.15667 1.15671 1.15674 1.15674 1.14799 1.13897 1.12995 1.12093 1.11192 1.1029 1.09388 1.08486 1.07584 1.06682 1.0578 1.04878 1.03909 1.02292 0.995438 0.954312</ySamples>
+							</part>
+						</top>
+					</collisionHull>
+					<sourceCollisionHullPoints>
+						<top>
+							<range>
+								<point>1.57648897 1.07347798 -2.74044394</point>
+								<point>1.57648897 1.10426605 -2.67665792</point>
+								<point>1.57648897 1.13020205 -2.61287093</point>
+								<point>1.57648897 1.15252495 -2.54908395</point>
+								<point>1.576489 1.17174 -2.485298</point>
+								<point>1.57648897 1.18776405 -2.42151093</point>
+								<point>1.57648897 1.200773 -2.35772491</point>
+								<point>1.57648897 1.21106696 -2.29393792</point>
+								<point>1.57648897 1.218436 -2.23015094</point>
+								<point>1.57648897 1.22290802 -2.16636491</point>
+								<point>1.57648897 1.22436202 -2.10257792</point>
+								<point>1.57648897 1.22452605 -2.03879094</point>
+								<point>1.57648897 1.22456598 -1.97500503</point>
+								<point>1.57648897 1.22460496 -1.91121805</point>
+								<point>1.57648897 1.22464502 -1.84743094</point>
+								<point>1.57648897 1.224684 -1.78364503</point>
+								<point>1.57648897 1.22472405 -1.71985805</point>
+								<point>1.57648897 1.22476399 -1.65607202</point>
+								<point>1.57648897 1.22480297 -1.59228504</point>
+								<point>1.57648897 1.22484303 -1.52849805</point>
+								<point>1.576489 1.22488 -1.464712</point>
+								<point>1.57648897 1.22491598 -1.40092504</point>
+								<point>1.57648897 1.22495198 -1.33713806</point>
+								<point>1.57648897 1.22498798 -1.27335203</point>
+								<point>1.57648897 1.22502398 -1.20956504</point>
+								<point>1.57648897 1.22505903 -1.14577794</point>
+								<point>1.57648897 1.22509503 -1.08199203</point>
+								<point>1.426489 1.2175 -1.018205</point>
+								<point>1.57648897 1.22516704 -0.954419017</point>
+								<point>1.57648897 1.22520196 -0.890631974</point>
+								<point>1.57648897 1.22523797 -0.82684499</point>
+								<point>1.57648897 1.22527397 -0.76305902</point>
+								<point>1.576489 1.22531 -0.699272</point>
+								<point>1.57648897 1.22534597 -0.635484993</point>
+								<point>1.57648897 1.22538102 -0.571699023</point>
+								<point>1.57648897 1.22541702 -0.50791198</point>
+								<point>1.57648897 1.22545302 -0.444124997</point>
+								<point>1.57648897 1.22548902 -0.380338997</point>
+								<point>1.57648897 1.22552395 -0.316552013</point>
+								<point>1.576489 1.22556 -0.252766</point>
+								<point>1.57648897 1.22559595 -0.188979</point>
+								<point>1.57648897 1.22563195 -0.125192001</point>
+								<point>1.57648897 1.22566795 -0.0614060014</point>
+								<point>1.57648897 1.225703 0.00238099997</point>
+								<point>1.57648897 1.225739 0.0661680028</point>
+								<point>1.57648897 1.225775 0.129953995</point>
+								<point>1.57648897 1.217502 0.193740994</point>
+								<point>1.57648897 1.22584701 0.257528007</point>
+								<point>1.57648897 1.22588205 0.321314007</point>
+								<point>1.57648897 1.22591805 0.385100991</point>
+								<point>1.57648897 1.22595406 0.448888004</point>
+								<point>1.576489 1.22599 0.512674</point>
+								<point>1.57648897 1.22602499 0.576461017</point>
+								<point>1.57648897 1.22606099 0.640246987</point>
+								<point>1.57648897 1.22609699 0.704033971</point>
+								<point>1.57648897 1.22613299 0.767821014</point>
+								<point>1.57648897 1.22616899 0.831606984</point>
+								<point>1.57648897 1.22620404 0.895394027</point>
+								<point>1.576489 1.22624 0.959181</point>
+								<point>1.57648897 1.22627604 1.02296698</point>
+								<point>1.57648897 1.22631204 1.08675396</point>
+								<point>1.57648897 1.22634697 1.15054095</point>
+								<point>1.57648897 1.22638297 1.21432698</point>
+								<point>1.57648897 1.22641897 1.27811396</point>
+								<point>1.57648897 1.22645497 1.34190094</point>
+								<point>1.426489 1.2175 1.405687</point>
+								<point>1.57648897 1.22652602 1.46947396</point>
+								<point>1.576489 1.226562 1.53326</point>
+								<point>1.57648897 1.22659802 1.59704697</point>
+								<point>1.57648897 1.22663403 1.66083395</point>
+								<point>1.576489 1.226669 1.72462</point>
+								<point>1.57648897 1.22666895 1.78840697</point>
+								<point>1.57648897 1.21791601 1.85219395</point>
+								<point>1.576489 1.208897 1.91598</point>
+								<point>1.57648897 1.19987798 1.97976696</point>
+								<point>1.57648897 1.19085896 2.04355407</point>
+								<point>1.576489 1.18184 2.10734</point>
+								<point>1.57648897 1.17282104 2.17112708</point>
+								<point>1.57648897 1.16380203 2.23491406</point>
+								<point>1.576489 1.154783 2.2987</point>
+								<point>1.57648897 1.14576399 2.36248708</point>
+								<point>1.57648897 1.13674498 2.42627311</point>
+								<point>1.576489 1.127726 2.49006</point>
+								<point>1.57648897 1.11870694 2.55384588</point>
+								<point>1.57648897 1.10901797 2.61763406</point>
+								<point>1.576489 1.092849 2.68142</point>
+								<point>1.57648897 1.06536305 2.74520707</point>
+								<point>1.57648897 1.02423704 2.8089931</point>
+							</range>
+						</top>
+					</sourceCollisionHullPoints>
+				</right>
+			</physicalTracks>
+			<repairTime>6.85714293</repairTime>
+		</Chassis_A175_OTAC_MT_58_02>
+	</chassis>
+	<turrets0>
+		<Turret_1_A175_OTAC_MT_58_02>
+			<userString>#usa_vehicles:Turret_1_A175_OTAC_MT_58_02</userString>
+			<tags></tags>
+			<level>10</level>
+			<price>66000</price>
+			<notInShop>true</notInShop>
+			<armor>
+				<armor_1>300</armor_1>
+				<armor_2>95</armor_2>
+				<armor_3>95</armor_3>
+				<armor_4>50</armor_4>
+				<armor_5>30</armor_5>
+				<armor_6>30</armor_6>
+				<armor_7>160</armor_7>
+				<armor_8>0</armor_8>
+				<armor_9>40</armor_9>
+				<armor_10>20</armor_10>
+				<armor_11>220</armor_11>
+				<armor_12>250</armor_12>
+				<armor_13>170</armor_13>
+				<armor_14>45</armor_14>
+				<armor_15>270</armor_15>
+				<armor_16>255</armor_16>
+				<armor_17>240</armor_17>
+				<armor_18>225</armor_18>
+				<armor_20>170</armor_20>
+				<armor_21>160</armor_21>
+				<armor_22>150</armor_22>
+				<armor_23>125</armor_23>
+				<armor_24>115</armor_24>
+				<armor_25>230</armor_25>
+				<armor_26>210</armor_26>
+				<armor_27>190</armor_27>
+				<armor_28>180</armor_28>
+				<armor_29>60</armor_29>
+				<armor_30>280</armor_30>
+				<armor_31>180</armor_31>
+				<armor_32>125</armor_32>
+				<armor_33>160</armor_33>
+				<armor_35>160</armor_35>
+				<armor_36>145</armor_36>
+				<armor_37>150</armor_37>
+				<armor_38>55</armor_38>
+				<armor_39>25
+					<vehicleDamageFactor>0</vehicleDamageFactor>
+				</armor_39>
+			</armor>
+			<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+			<weight>8000</weight>
+			<maxHealth>400</maxHealth>
+			<rotationSpeed>36</rotationSpeed>
+			<turretRotatorHealth>
+				<maxHealth>170</maxHealth>
+				<maxRegenHealth>85</maxRegenHealth>
+				<repairCost>1.0</repairCost>
+			</turretRotatorHealth>
+			<circularVisionRadius>400</circularVisionRadius>
+			<surveyingDeviceHealth>
+				<maxHealth>120</maxHealth>
+				<maxRegenHealth>60</maxRegenHealth>
+				<repairCost>1.0</repairCost>
+			</surveyingDeviceHealth>
+			<guns>
+				<_152mm_XM81E1>shared
+					<maxAmmo>28</maxAmmo>
+					<unlocks>
+						<gun>_105mm_T254
+							<cost>10</cost>
+						</gun>
+					</unlocks>
+					<armor>
+						<armor_1>330
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>120
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>160
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_3>
+						<armor_4>0
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_4>
+						<armor_9>10
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_9>
+						<gun>60</gun>
+					</armor>
+					<shotDispersionRadius>0.05</shotDispersionRadius>
+					<reloadTime>21</reloadTime>
+					<aimingTime>1.1</aimingTime>
+					<invisibilityFactorAtShot>0.15</invisibilityFactorAtShot>
+					<pitchLimits>
+						<minPitch>0 -20 1 -20</minPitch>
+						<maxPitch>0 10 0.34 10 0.40 0 0.60 0 0.66 10 1 10</maxPitch>
+					</pitchLimits>
+					<shotDispersionFactors>
+						<turretRotation>0.15</turretRotation>
+						<afterShot>6.0</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+					<customizationSlots>
+						<slot>
+							<slotType>paint</slotType>
+							<slotId>41000</slotId>
+							<anchorPosition>-2.49999994e-05 0.195602998 1.34710896</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>4096</applyTo>
+						</slot>
+						<slot>
+							<slotType>paint</slotType>
+							<slotId>41001</slotId>
+							<anchorPosition>-4.19999997e-05 0.278887004 0.275186986</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>16384</applyTo>
+						</slot>
+						<slot>
+							<slotType>camouflage</slotType>
+							<slotId>42000</slotId>
+							<anchorPosition>-0.000025 0.195603 1.34711</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>4096</applyTo>
+						</slot>
+						<slot>
+							<slotType>insigniaOnGun</slotType>
+							<slotId>49000</slotId>
+							<rayStart>0 0 1.19</rayStart>
+							<rayEnd>0 0 1.79</rayEnd>
+							<rayUp>0.113 0 0</rayUp>
+							<applyToFabric>false</applyToFabric>
+							<size>0.6</size>
+							<isUVProportional>false</isUVProportional>
+						</slot>
+					</customizationSlots>
+					<customization>
+						<customizableVehicleAreas>
+							<paint>GUN GUN_2</paint>
+							<camouflage>GUN</camouflage>
+						</customizableVehicleAreas>
+					</customization>
+					<models>
+						<undamaged>vehicles/american/A175_OTAC_MT_58/normal/lod0/Gun_01.model</undamaged>
+						<destroyed>vehicles/american/A175_OTAC_MT_58/crash/lod0/Gun_01.model</destroyed>
+						<exploded>vehicles/american/A175_OTAC_MT_58/crash/lod0/Gun_01.model</exploded>
+						<sets>
+							<A175_OTAC_MT_58_02_3Dst_01>
+								<undamaged>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/normal/lod0/Gun_01.model</undamaged>
+								<destroyed>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/crash/lod0/Gun_01.model</destroyed>
+								<exploded>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/crash/lod0/Gun_01.model</exploded>
+							</A175_OTAC_MT_58_02_3Dst_01>
+						</sets>
+					</models>
+					<hitTester>
+						<collisionModelServer>vehicles/american/A175_OTAC_MT_58/collision/Gun_01.model</collisionModelServer>
+						<collisionModelClient>vehicles/american/A175_OTAC_MT_58/collision_client/Gun_01.model</collisionModelClient>
+					</hitTester>
+					<effects>shot_large_nursMissile</effects>
+					<edgeByVisualModel>false</edgeByVisualModel>
+					<camouflage>
+						<tiling>0.925 0.925 0.000000 0.000000</tiling>
+						<density>58.9585 117.917</density>
+						<aoTextureSize>256 256</aoTextureSize>
+					</camouflage>
+				</_152mm_XM81E1>
+				<_105mm_T254>shared
+					<maxAmmo>50</maxAmmo>
+					<armor>
+						<armor_1>330
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>120
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>160
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_3>
+						<armor_4>0
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_4>
+						<armor_9>10
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_9>
+						<gun>40</gun>
+					</armor>
+					<shotDispersionRadius>0.35</shotDispersionRadius>
+					<reloadTime>8.4</reloadTime>
+					<aimingTime>2.1</aimingTime>
+					<invisibilityFactorAtShot>0.198</invisibilityFactorAtShot>
+					<pitchLimits>
+						<minPitch>0 -20 1 -20</minPitch>
+						<maxPitch>0 10 0.34 10 0.40 0 0.60 0 0.66 10 1 10</maxPitch>
+					</pitchLimits>
+					<shotDispersionFactors>
+						<turretRotation>0.10</turretRotation>
+						<afterShot>3.0</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+					<customizationSlots>
+						<slot>
+							<slotType>paint</slotType>
+							<slotId>41000</slotId>
+							<anchorPosition>-2.49999994e-05 0.195602998 1.34710896</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>4096</applyTo>
+						</slot>
+						<slot>
+							<slotType>paint</slotType>
+							<slotId>41001</slotId>
+							<anchorPosition>-4.19999997e-05 0.278887004 0.275186986</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>16384</applyTo>
+						</slot>
+						<slot>
+							<slotType>camouflage</slotType>
+							<slotId>42000</slotId>
+							<anchorPosition>-0.000025 0.195603 1.34711</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>4096</applyTo>
+						</slot>
+						<slot>
+							<slotType>insigniaOnGun</slotType>
+							<slotId>49000</slotId>
+							<rayStart>0 0.01 2.37</rayStart>
+							<rayEnd>0 0.01 2.87</rayEnd>
+							<rayUp>0.08 0 0</rayUp>
+							<applyToFabric>false</applyToFabric>
+							<size>0.5</size>
+							<isUVProportional>false</isUVProportional>
+						</slot>
+					</customizationSlots>
+					<customization>
+						<customizableVehicleAreas>
+							<paint>GUN GUN_2</paint>
+							<camouflage>GUN</camouflage>
+						</customizableVehicleAreas>
+					</customization>
+					<models>
+						<undamaged>vehicles/american/A175_OTAC_MT_58/normal/lod0/Gun_02.model</undamaged>
+						<destroyed>vehicles/american/A175_OTAC_MT_58/crash/lod0/Gun_02.model</destroyed>
+						<exploded>vehicles/american/A175_OTAC_MT_58/crash/lod0/Gun_02.model</exploded>
+						<sets>
+							<A175_OTAC_MT_58_02_3Dst_01>
+								<undamaged>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/normal/lod0/Gun_02.model</undamaged>
+								<destroyed>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/crash/lod0/Gun_02.model</destroyed>
+								<exploded>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/crash/lod0/Gun_02.model</exploded>
+							</A175_OTAC_MT_58_02_3Dst_01>
+						</sets>
+					</models>
+					<hitTester>
+						<collisionModelServer>vehicles/american/A175_OTAC_MT_58/collision/Gun_02.model</collisionModelServer>
+						<collisionModelClient>vehicles/american/A175_OTAC_MT_58/collision_client/Gun_02.model</collisionModelClient>
+					</hitTester>
+					<effects>shot_large</effects>
+					<edgeByVisualModel>false</edgeByVisualModel>
+					<camouflage>
+						<tiling>0.925 0.925 0.000000 0.000000</tiling>
+						<density>58.9585 117.917</density>
+						<aoTextureSize>256 256</aoTextureSize>
+					</camouflage>
+				</_105mm_T254>
+			</guns>
+			<models>
+				<undamaged>vehicles/american/A175_OTAC_MT_58/normal/lod0/Turret_01.model</undamaged>
+				<destroyed>vehicles/american/A175_OTAC_MT_58/crash/lod0/Turret_01.model</destroyed>
+				<exploded>vehicles/american/A175_OTAC_MT_58/crash/lod0/Turret_01.model</exploded>
+				<sets>
+					<A175_OTAC_MT_58_02_3Dst_01>
+						<undamaged>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/normal/lod0/Turret_01.model</undamaged>
+						<destroyed>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/crash/lod0/Turret_01.model</destroyed>
+						<exploded>vehicles/american/A175_OTAC_MT_58/_skins/A175_OTAC_MT_58_02_3Dst_01/crash/lod0/Turret_01.model</exploded>
+					</A175_OTAC_MT_58_02_3Dst_01>
+				</sets>
+			</models>
+			<hitTester>
+				<collisionModelServer>vehicles/american/A175_OTAC_MT_58/collision/Turret_01.model</collisionModelServer>
+				<collisionModelClient>vehicles/american/A175_OTAC_MT_58/collision_client/Turret_01.model</collisionModelClient>
+			</hitTester>
+			<gunPosition>0 0.345865011 1.14759803</gunPosition>
+			<customizationSlots>
+				<slot>
+					<slotType>paint</slotType>
+					<slotId>31000</slotId>
+					<anchorPosition>-0.00002 0.853842 0.377895</anchorPosition>
+					<anchorDirection>-0 0 0</anchorDirection>
+				</slot>
+				<slot>
+					<slotType>camouflage</slotType>
+					<slotId>32000</slotId>
+					<anchorPosition>-0.00002 0.853842 0.377895</anchorPosition>
+					<anchorDirection>-0 0 0</anchorDirection>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35000</slotId>
+					<tags>formfactor_square</tags>
+					<compatibleModels>A175_OTAC_MT_58_02_3Dst_01</compatibleModels>
+					<position>0.56482 1.660824 -1.678132</position>
+					<rotation>1.56741297 -0.623856008 -0.60660398</rotation>
+					<scale>0.358355999 0.104428001 0.358357012</scale>
+					<showOn>256</showOn>
+					<clipAngle>1.50744104</clipAngle>
+				</slot>
+			</customizationSlots>
+			<customization>
+				<customizableVehicleAreas>
+					<paint>TURRET</paint>
+					<camouflage>TURRET</camouflage>
+				</customizableVehicleAreas>
+			</customization>
+			<wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
+			<physicsShape>1.032 0.023 0.948 0 0.446 0.199 0.409 0 0.27 0.5 0.345 0.538 0.105 0 0</physicsShape>
+			<camouflage>
+				<tiling>0.415 0.25 0.000000 0.000000</tiling>
+				<density>54.9315 55.05</density>
+				<aoTextureSize>512 256</aoTextureSize>
+			</camouflage>
+		</Turret_1_A175_OTAC_MT_58_02>
+	</turrets0>
+	<engines>
+		<LDS_750>shared</LDS_750>
+	</engines>
+	<fuelTanks>
+		<Large>shared</Large>
+	</fuelTanks>
+	<radios>
+		<AN_GRC_3>shared</AN_GRC_3>
+	</radios>
+	<clientAdjustmentFactors>
+		<guns>
+			<_152mm_XM81E1>
+				<delta>0.035</delta>
+			</_152mm_XM81E1>
+		</guns>
+	</clientAdjustmentFactors>
+	<physics>
+		<detailed>
+			<engines>
+				<LDS_750>
+					<smplEnginePower>550</smplEnginePower>
+					<smplFwMaxSpeed>56</smplFwMaxSpeed>
+				</LDS_750>
+			</engines>
+			<chassis>
+				<Chassis_A175_OTAC_MT_58_02>
+					<grounds>
+						<soft>
+							<rollingFriction>0.13685</rollingFriction>
+						</soft>
+						<medium>
+							<rollingFriction>0.0644</rollingFriction>
+						</medium>
+						<firm>
+							<rollingFriction>0.05635</rollingFriction>
+						</firm>
+					</grounds>
+					<axleCount>5</axleCount>
+				</Chassis_A175_OTAC_MT_58_02>
+			</chassis>
+		</detailed>
+	</physics>
+	<extras>
+		<surprise>NoneExtra : CustomAttributeModifier
+			<vehicleFilter>
+				<include>
+					<componentFilters>
+						<gun>
+							<tags>GLUM</tags>
+						</gun>
+					</componentFilters>
+				</include>
+			</vehicleFilter>
+			<modifiers>
+				<mul>
+					<name>dynAttrs/chassis/shotDispersionFactors/movement</name>
+					<value>12.5</value>
+				</mul>
+				<mul>
+					<name>dynAttrs/chassis/shotDispersionFactors/rotation</name>
+					<value>12.5</value>
+				</mul>
+				<mul>
+					<name>dynAttrs/gun/shotDispersionFactors/afterShot</name>
+					<value>12.5</value>
+				</mul>
+				<mul>
+					<name>dynAttrs/gun/shotDispersionFactors/turretRotation</name>
+					<value>6.0</value>
+				</mul>
+				<mul>
+					<name>dynAttrs/gun/aimingTime</name>
+					<value>0.55</value>
+				</mul>
+			</modifiers>
+		</surprise>
+	</extras>
+	<effects>
+		<collision></collision>
+		<damagedStateGroup>large</damagedStateGroup>
+	</effects>
+	<emblems>
+		<default>15503</default>
+		<lodDist>MEDIUM</lodDist>
+		<alpha>1.0</alpha>
+	</emblems>
+</root>

@@ -1,0 +1,155 @@
+msgid ""
+msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "НАБЫЦЬ"
+
+msgid "buttons/cancel"
+msgstr "Скасаваць"
+
+msgid "buttons/learn"
+msgstr "Выкарыстаць"
+
+msgid "card/freeExp/additionalText"
+msgstr "Курс абмену: %(value)s"
+
+msgid "card/freeExp/additionalTextValues"
+msgstr "%(freeXp)s = %(xp)s"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)s%"
+
+msgid "card/freeExp/mainText"
+msgstr "Прымяняецца да выбранага танкіста.\nПаскарае вывучэнне бягучага навыку з дапамогай вольнага досведу."
+
+msgid "card/freeExp/title"
+msgstr "ВОЛЬНЫ ДОСВЕД"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Узровень валодання асноўнай спецыяльнасцю: 100%\n• Спецыялізацыя: %(vehicleName)s."
+
+msgid "card/nationBook/mainText"
+msgstr "Прымяняецца да ўсяго экіпажа.\nВывучэнне дае %(xp)s досведу кожнаму члену экіпажа."
+
+msgid "card/nationBook/title/brochure"
+msgstr "НАВУЧАЛЬНАЯ БРАШУРА (&zwnbsp;%(nation)s&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "НАВУЧАЛЬНЫ ДАПАМОЖНІК (&zwnbsp;%(nation)s&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "ПАДРУЧНІК (&zwnbsp;%(nation)s&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Прымяняецца без абмежаванняў."
+
+msgid "card/personalBook/mainText"
+msgstr "Прымяняецца да выбранага члена экіпажа.\nВывучэнне дае яму %(xp)s досведу."
+
+msgid "card/personalBook/title"
+msgstr "ПЕРСАНАЛЬНЫ НАВУЧАЛЬНЫ ДАПАМОЖНІК"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Узровень валодання асноўнай спецыяльнасцю: 100%\n• Спецыялізацыя: %(vehicleName)s."
+
+msgid "card/universalBook/mainText"
+msgstr "Прымяняецца да ўсяго экіпажа.\nВывучэнне дае %(xp)s досведу кожнаму члену экіпажа."
+
+msgid "card/universalBook/title/universalBook"
+msgstr "УНІВЕРСАЛЬНЫ ДАПАМОЖНІК"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "УНІВЕРСАЛЬНАЯ БРАШУРА"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "УНІВЕРСАЛЬНЫ ПАДРУЧНІК"
+
+msgid "confirm/crewLabel"
+msgstr "Кожны танкіст экіпажа атрымае %(xpValue)s"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Кожны член экіпажа атрымае %(xpValue)s,"
+
+msgid "confirm/personalExtraLabel"
+msgstr " %(memberName)s атрымае дадаткова %(xpValue)s"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName)s атрымае %(xpValue)s"
+
+msgid "items/brochure/Name"
+msgstr "Навучальная брашура (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Навучальная брашура"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} досведу кожнаму танкісту."
+
+msgid "items/crewBook/Name"
+msgstr "Навучальны дапаможнік (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Навучальны дапаможнік"
+
+msgid "items/guide/Name"
+msgstr "Падручнік (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Падручнік"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} досведу выбранаму танкісту"
+
+msgid "items/personalBook/Name"
+msgstr "Персанальны навучальны дапаможнік"
+
+msgid "items/random/brochure/Name"
+msgstr "Навучальная брашура (выпадковая дзяржава)"
+
+msgid "items/random/guide/Name"
+msgstr "Падручнік (выпадковая дзяржава)"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} досведу кожнаму танкісту."
+
+msgid "items/universalBook/Name"
+msgstr "Універсальны дапаможнік"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} досведу кожнаму танкісту."
+
+msgid "items/universalBrochure/Name"
+msgstr "Універсальная брашура"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} досведу кожнаму танкісту."
+
+msgid "items/universalGuide/Name"
+msgstr "Універсальны падручнік"
+
+msgid "page/title"
+msgstr "ДАДАТКОВАЕ НАВУЧАННЕ"
+
+msgid "tooltip/buyManual"
+msgstr "Купіць навучальны дапаможнік"
+
+msgid "tooltip/outOfStock"
+msgstr "Вучэбныя матэрыялы адсутнічаюць"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Вучэбныя матэрыялы адсутнічаюць. Вы можаце купіць іх у Краме"
+
+msgid "tooltip/sale/header"
+msgstr "Выгадны курс абмену"
+
+msgid "tooltip/sale/newRate"
+msgstr "Новы курс абмену: %(freeXp)s = %(xp)s"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Папярэдні курс абмену: %(freeXp)s = %(xp)s"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Націсніце %(controlsImg)s, каб павялічыць/паменшыць узровень вывучэння навыку на 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Націсніце %(pgupImg)s/%(pgdownImg)s, каб павялічыць узровень вывучэння навыку да 100% (без вучэбных матэрыялаў) / вярнуцца да папярэдняга навыку."

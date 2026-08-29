@@ -1,0 +1,25 @@
+from gui.battle_results.components.personal import TotalEfficiencyDetailsHeader, _UNDEFINED_EFFICIENCY_VALUE
+from gui.shared.formatters import numbers
+
+class EpicTotalEfficiencyDetailsHeader(TotalEfficiencyDetailsHeader):
+    __slots__ = (b'damageToSupplies', b'suppliesDestroyed', b'questsCompleted')
+
+    def __init__(self, meta=None, field=b'', *path):
+        super(EpicTotalEfficiencyDetailsHeader, self).__init__(meta, field, *path)
+        self.damageToSupplies = None
+        self.suppliesDestroyed = None
+        self.questsCompleted = None
+        return
+
+    def setRecord(self, result, reusable):
+        super(EpicTotalEfficiencyDetailsHeader, self).setRecord(result, reusable)
+        info = reusable.getPersonalVehiclesInfo(result)
+        value = info.damageToSupplies
+        self.damageToSupplies = numbers.formatInt(value, _UNDEFINED_EFFICIENCY_VALUE)
+        value = info.suppliesDestroyed
+        self.suppliesDestroyed = numbers.formatInt(value, _UNDEFINED_EFFICIENCY_VALUE)
+        value = info.questsCompleted
+        self.questsCompleted = numbers.formatInt(value, _UNDEFINED_EFFICIENCY_VALUE)
+        value = self.hasEfficencyStats + info.damageToSupplies + info.suppliesDestroyed + info.questsCompleted
+        self.hasEfficencyStats = value > 0
+        return

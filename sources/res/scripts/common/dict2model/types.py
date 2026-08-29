@@ -1,0 +1,11 @@
+from __future__ import absolute_import
+import typing
+from dict2model.models import Model
+from dict2model.schemas import Schema
+from dict2model.validate import Validator
+ModelType = typing.TypeVar(b'ModelType', bound=Model)
+SchemaType = typing.TypeVar(b'SchemaType', bound=Schema)
+SchemaModelTypes = typing.Union[ModelType, typing.Dict]
+SchemaModelClassesType = typing.Union[typing.Type[ModelType], typing.Type[typing.Dict]]
+ValidatorType = typing.Union[Validator, typing.Callable[[typing.Any], typing.Any]]
+ValidatorsType = typing.Optional[typing.Union[ValidatorType, typing.List[ValidatorType]]]

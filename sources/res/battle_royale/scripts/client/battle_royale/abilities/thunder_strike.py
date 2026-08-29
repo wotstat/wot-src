@@ -1,0 +1,72 @@
+import functools, CGF, Math
+from arena_bonus_type_caps import ARENA_BONUS_TYPE_CAPS
+from cgf_script.bonus_caps_rules import bonusCapsManager
+from cgf_script.component_meta_class import ComponentProperty, CGFMetaTypes, registerComponent
+from cgf_script.managers_registrator import onAddedQuery
+from constants import IS_CLIENT
+from helpers import dependency
+from helpers.CallbackDelayer import CallbackDelayer
+import GenericComponents
+from items import vehicles
+from skeletons.gui.battle_session import IBattleSessionProvider
+import BigWorld
+if IS_CLIENT:
+    from ThunderStrike import ThunderStrike
+else:
+
+    class ThunderStrike(object):
+        pass
+
+
+@registerComponent
+class ThunderStrikeVisualizer(object):
+    editorTitle = b'Thunder Strike Visualizer'
+    category = b'Abilities'
+    domain = CGF.DomainOption.DomainClient
+    strikePrefab = ComponentProperty(type=CGFMetaTypes.STRING, value=b'', editorName=b'strike prefab', annotations={b'path': b'*.prefab'})
+
+
+@bonusCapsManager(ARENA_BONUS_TYPE_CAPS.BATTLEROYALE, CGF.DomainOption.DomainClient)
+class ThunderStrikeManager(CGF.ComponentManager, CallbackDelayer):
+    __guiSessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self):
+        super(ThunderStrikeManager, self).__init__()
+        CallbackDelayer.__init__(self)
+        return
+
+    def deactivate(self):
+        CallbackDelayer.destroy(self)
+        return
+
+    @onAddedQuery(ThunderStrike, GenericComponents.TransformComponent, CGF.GameObject)
+    def visualizeThunderStrike(self, thunderStrike, transform, go):
+        equipment = vehicles.g_cache.equipments()[thunderStrike.equipmentID]
+        delay = thunderStrike.delayEndTime - BigWorld.serverTime()
+        vehicle = BigWorld.player().getVehicleAttached()
+        if vehicle and thunderStrike.attackerID == vehicle.id:
+            self.__showGuiMarker(equipment, transform.worldPosition, delay)
+        self.delayCallback(delay, functools.partial(self.__launch, go, thunderStrike, equipment))
+        return
+
+    def __launch(self, gameObject, thunderStrikeEntity, equipment):
+
+        def postloadSetup(go):
+            go.addComponent(equipment)
+            thunderStrikeEntity.onHit += functools.partial(self.__processHit, go)
+            return
+
+        CGF.loadGameObjectIntoHierarchy(equipment.usagePrefab, gameObject, Math.Vector3(0, 0, 0), postloadSetup)
+        return
+
+    def __showGuiMarker(self, equipment, position, delay):
+        ctrl = self.__guiSessionProvider.shared.equipments
+        if ctrl is not None:
+            ctrl.showMarker(equipment, position, (0, 0, 0), delay)
+        return
+
+    def __processHit(self, visualizerGo):
+        visualizer = visualizerGo.findComponentByType(ThunderStrikeVisualizer)
+        if visualizer.strikePrefab:
+            CGF.loadGameObjectIntoHierarchy(visualizer.strikePrefab, visualizerGo, Math.Vector3(0, 0, 0))
+        return

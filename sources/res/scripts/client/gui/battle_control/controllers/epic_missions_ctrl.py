@@ -1,0 +1,1101 @@
+import typing, BigWorld, Event, BattleReplay
+from ReplayEvents import g_replayEvents
+from constants import SECTOR_STATE
+from debug_utils import verify, LOG_ERROR, LOG_DEBUG
+from gui.Scaleform.genConsts.EPIC_CONSTS import EPIC_CONSTS
+from gui.Scaleform.genConsts.GAME_MESSAGES_CONSTS import GAME_MESSAGES_CONSTS
+from gui.Scaleform.locale.EPIC_BATTLE import EPIC_BATTLE
+from gui.battle_control import avatar_getter
+from gui.battle_control.battle_constants import BATTLE_CTRL_ID
+from epic_constants import EPIC_BATTLE_TEAM_ID
+from gui.battle_control.controllers.game_messages_ctrl import PlayerMessageData
+from gui.battle_control.view_components import IViewComponentsController
+from gui.battle_control.controllers.game_notification_ctrl import EPIC_NOTIFICATION, OVERTIME_DURATION_WARNINGS
+from collections import defaultdict
+from collections import namedtuple
+from gui import makeHtmlString
+from gui.impl import backport
+from gui.impl.gen import R
+from helpers import dependency, i18n
+from helpers.time_utils import ONE_MINUTE
+from skeletons.gui.game_control import IEpicBattleMetaGameController, IEpicBattleController
+from items.vehicles import getVehicleClassFromVehicleType
+from skeletons.gui.battle_session import IBattleSessionProvider
+from shared_utils import first
+from supply_shared import Supply
+if typing.TYPE_CHECKING:
+    from SectorBase import SectorBase
+NO_LANE_ID = 0
+OVERTIME_TICK_INTERVAL = 1.0
+TIMER_WARNINGS = [
+ (5, 0), (2, 0)]
+RANK_TO_TRANSLATION = {0: b'', 
+   1: (EPIC_BATTLE.RANK_RANK1), 
+   2: (EPIC_BATTLE.RANK_RANK2), 
+   3: (EPIC_BATTLE.RANK_RANK3), 
+   4: (EPIC_BATTLE.RANK_RANK4), 
+   5: (EPIC_BATTLE.RANK_RANK5), 
+   6: (EPIC_BATTLE.RANK_RANK6)}
+MSG_ID_TO_DURATION = defaultdict((lambda : 4.5))
+MSG_ID_TO_PRIORITY = defaultdict((lambda : GAME_MESSAGES_CONSTS.GAME_MESSAGE_PRIORITY_LOW))
+MSG_ID_TO_PRIORITY.update({(GAME_MESSAGES_CONSTS.WIN): (GAME_MESSAGES_CONSTS.GAME_MESSAGE_PRIORITY_HIGH), 
+   (GAME_MESSAGES_CONSTS.DEFEAT): (GAME_MESSAGES_CONSTS.GAME_MESSAGE_PRIORITY_HIGH), 
+   (GAME_MESSAGES_CONSTS.DRAW): (GAME_MESSAGES_CONSTS.GAME_MESSAGE_PRIORITY_HIGH), 
+   (GAME_MESSAGES_CONSTS.TIME_REMAINING): (GAME_MESSAGES_CONSTS.GAME_MESSAGE_PRIORITY_HIGH), 
+   (GAME_MESSAGES_CONSTS.TIME_REMAINING_POSITIVE): (GAME_MESSAGES_CONSTS.GAME_MESSAGE_PRIORITY_HIGH), 
+   (GAME_MESSAGES_CONSTS.OVERTIME): (GAME_MESSAGES_CONSTS.GAME_MESSAGE_PRIORITY_HIGH)})
+SUPPLY_ID_TO_TRANSLATION = {(Supply.MORTAR): (EPIC_BATTLE.SUPPLY_MORTAR), 
+   (Supply.AIRSHIP): (EPIC_BATTLE.SUPPLY_AIRSHIP), 
+   (Supply.PILLBOX): (EPIC_BATTLE.SUPPLY_PILLBOX), 
+   (Supply.FLAMER): (EPIC_BATTLE.SUPPLY_FLAMER)}
+CONTESTED_DEBOUNCE_PERIOD = 120
+CONTESTED_CAPTURE_POINTS_THRESHOLD = 0.1
+TIMER_MIN_REMAINING_SEC = 0.5
+WAYPOINT_TIMER_EPS = 0.1
+WAYPOINT_REFRESH_RETRY_DELAY = 0.1
+
+class PlayerMission(object):
+    PlayerMissionData = namedtuple(b'PlayerMissionData', (b'objectiveType', b'objectiveID', b'missionText', b'subText'))
+
+    def __init__(self):
+        self.missionType = EPIC_CONSTS.PRIMARY_EMPTY_MISSION
+        self.missionText = b''
+        self.subText = b''
+        self.id = -1
+        return
+
+    def generateData(self):
+        return {b'objectiveType': (self.missionType), 
+           b'objectiveID': (self.id), 
+           b'missionText': (i18n.makeString(self.missionText)), 
+           b'subText': (self.subText)}
+
+    def isEmptyMission(self):
+        return self.missionType == EPIC_CONSTS.PRIMARY_EMPTY_MISSION
+
+    def isObjectivesMission(self):
+        return self.missionType == EPIC_CONSTS.PRIMARY_HQ_MISSION
+
+    def isBaseMission(self):
+        return self.missionType == EPIC_CONSTS.PRIMARY_BASE_MISSION
+
+
+MissionTriggerArgs = namedtuple(b'MissionTriggerArgs', (b'forceMissionUpdate', b'callback'))
+
+class EpicMissionsController(IViewComponentsController):
+    sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    __epicController = dependency.descriptor(IEpicBattleMetaGameController)
+    __epicBattleController = dependency.descriptor(IEpicBattleController)
+
+    def __init__(self, setup):
+        super(EpicMissionsController, self).__init__()
+        self.__sessionProvider = setup.sessionProvider
+        self.__ready = False
+        self.__ui = None
+        self.__currentMission = PlayerMission()
+        self.__activeMissionData = {b'lane': 0, 
+           b'bases': 0, 
+           b'hqActive': False, 
+           b'destroyedHQs': 0, 
+           b'endTime': (-1), 
+           b'sectorGroup': 0, 
+           b'isInHQSector': False}
+        self.__numDestructiblesToDestroy = None
+        self.__currentEndTime = 0
+        self.__currentLane = 0
+        self.__nearestObjective = -1
+        self.__nearestObjectiveDistance = -1
+        self.__objMsgSent = False
+        self.__overtimeCB = None
+        self.__overTimeEnd = None
+        self.__orderBattleAbilities = list()
+        self.__isLaneContested = [
+         False, False, False]
+        self.__contestedEndTime = [
+         0, 0, 0]
+        self.__lastTimeHQDamaged = defaultdict((lambda : 0))
+        self.__retreatMissionResults = {}
+        self.__activeMessages = [
+         0] * (max(EPIC_NOTIFICATION.ALL()) + 1)
+        self.__eManager = Event.EventManager()
+        self.__capturedBases = set()
+        self.__retreatAreaGroupID = None
+        self.__currentHadAdditional = False
+        self.__lastWaypointEndTime = 0
+        self.__waypointRefreshCB = None
+        self.onPlayerMissionUpdated = Event.Event(self.__eManager)
+        self.onPlayerMissionReset = Event.Event(self.__eManager)
+        self.onPlayerMissionTimerSet = Event.Event(self.__eManager)
+        self.onNearestObjectiveChanged = Event.Event(self.__eManager)
+        self.onObjectiveBattleStarted = Event.Event(self.__eManager)
+        self.onIngameMessageReady = Event.Event(self.__eManager)
+        self._notificationTypeToMissionTriggerArgs = {(EPIC_NOTIFICATION.ZONE_CAPTURED): (MissionTriggerArgs(forceMissionUpdate=True, callback=(lambda : self.__setNearestObjective() if self.__activeMissionData[b'bases'] == 0 else None))), 
+           (EPIC_NOTIFICATION.HQ_ACTIVE): (MissionTriggerArgs(forceMissionUpdate=False, callback=self.__setNearestObjective)), 
+           (EPIC_NOTIFICATION.BASE_ACTIVE): (MissionTriggerArgs(forceMissionUpdate=True, callback=None)), 
+           (EPIC_NOTIFICATION.HQ_DESTROYED): (MissionTriggerArgs(forceMissionUpdate=False, callback=None)), 
+           (EPIC_NOTIFICATION.RETREAT): (MissionTriggerArgs(forceMissionUpdate=False, callback=None))}
+        return
+
+    @staticmethod
+    def isVehicleAliveAndStarted():
+        vehicle = BigWorld.entities.get(BigWorld.player().playerVehicleID)
+        return vehicle is not None and vehicle.isStarted and vehicle.isAlive()
+
+    def setViewComponents(self, *components):
+        self.__ui = components[0]
+        ctrl = self.__sessionProvider.dynamic.gameNotifications
+        ctrl.onGameNotificationRecieved += self.__onGameNotificationReceived
+        self.__ui.start()
+        return
+
+    def clearViewComponents(self):
+        self.__ui = None
+        return
+
+    def getControllerID(self):
+        return BATTLE_CTRL_ID.EPIC_MISSIONS
+
+    def startControl(self):
+        self.__numDestructiblesToDestroy = avatar_getter.getArena().arenaType.numDestructiblesToDestroyForWin
+        sectorBaseComp = self.__getSectorBaseComp()
+        playerDataComp = self.__getPlayerDataComp()
+        destructibleEntityComp = self.__getDestructibleEntityComp()
+        sectorComp = self.__getSectorComp()
+        overTimeComp = self.__getOvertimeComp()
+        if not all((sectorBaseComp, playerDataComp, destructibleEntityComp, sectorComp, overTimeComp)):
+            return
+        else:
+            sectorBaseComp.onSectorBaseActiveStateChanged += self.__onSectorBaseActiveStateChanged
+            sectorBaseComp.onSectorBasePointsUpdate += self.__onSectorBasePointsUpdate
+            self.__epicBattleController.onOwnSectorsChanged += self.__onOwnSectorsChanged
+            self.__epicBattleController.onSupplyActivated += self.__sendSupplyActivatedMessage
+            self.__epicBattleController.onAirshipCome += self.__sendAirshipComeMessage
+            destructibleEntityComp.onDestructibleEntityHealthChanged += self.__onDestructibleEntityHealthChanged
+            destructibleEntityComp.onDestructibleEntityIsActiveChanged += self.__onDestructibleEntityIsActiveChanged
+            sectorComp.onWaypointsForPlayerActivated += self.__onWaypointsForPlayerActivated
+            sectorComp.onPlayerSectorGroupChanged += self.__onPlayerSectorGroupChanged
+            sectorComp.onSectorTransitionTimeChanged += self.__onSectorTransitionTimeChanged
+            sectorComp.onSectorGroupUpdated += self.__onSectorGroupUpdated
+            playerDataComp.onCrewRolesFactorUpdated += self.__onCrewRoleFactorAndRankUpdate
+            playerDataComp.onPlayerRankUpdated += self.__onPlayerRankUpdated
+            playerDataComp.onPlayerPhysicalLaneUpdated += self.__onPlayerPhysicalLaneUpdated
+            overTimeComp.onOvertimeStart += self.__onOvertimeStart
+            overTimeComp.onOvertimeOver += self.__onOvertimeOver
+            hqs = destructibleEntityComp.destructibleEntities
+            if hqs:
+                firstHQ = first(hqs.values())
+                self.__activeMissionData[b'hqActive'] = firstHQ.isActive
+                self.__objMsgSent = firstHQ.isActive
+            arena = self.__sessionProvider.arenaVisitor.getArenaSubscription()
+            if arena is not None:
+                arena.onPositionsUpdated += self.__updatePositions
+            eqCtrl = self.__sessionProvider.shared.equipments
+            if eqCtrl is not None:
+                eqCtrl.onEquipmentAdded += self.__onEquipmentAdded
+                eqCtrl.onEquipmentReset += self.__onEquipmentReset
+                eqCtrl.onEquipmentsCleared += self.__onEquipmentsCleared
+            if BattleReplay.g_replayCtrl.isPlaying:
+                g_replayEvents.onTimeWarpStart += self.__onReplayTimeWarpStart
+                g_replayEvents.onTimeWarpFinish += self.__onReplayTimeWarpFinished
+            self.__capturedBases.clear()
+            self.__retreatAreaGroupID = None
+            self.__lastWaypointEndTime = 0
+            self.__cancelWaypointRefreshRetry()
+            return
+
+    def getUI(self):
+        return self.__ui
+
+    def stopControl(self):
+        self.__eManager.clear()
+        self.__eManager = None
+        self.__cancelWaypointRefreshRetry()
+        if self.__overtimeCB:
+            BigWorld.cancelCallback(self.__overtimeCB)
+            self.__overtimeCB = None
+            self.__overTimeEnd = None
+        ctrl = self.__sessionProvider.dynamic.gameNotifications
+        if ctrl:
+            ctrl.onGameNotificationRecieved -= self.__onGameNotificationReceived
+        self.__epicBattleController.onOwnSectorsChanged -= self.__onOwnSectorsChanged
+        self.__epicBattleController.onSupplyActivated -= self.__sendSupplyActivatedMessage
+        self.__epicBattleController.onAirshipCome -= self.__sendAirshipComeMessage
+        sectorBaseComp = self.__getSectorBaseComp()
+        if sectorBaseComp is not None:
+            sectorBaseComp.onSectorBaseActiveStateChanged -= self.__onSectorBaseActiveStateChanged
+            sectorBaseComp.onSectorBasePointsUpdate -= self.__onSectorBasePointsUpdate
+        playerDataComp = self.__getPlayerDataComp()
+        if playerDataComp is not None:
+            playerDataComp.onPlayerRankUpdated -= self.__onPlayerRankUpdated
+            playerDataComp.onCrewRolesFactorUpdated -= self.__onCrewRoleFactorAndRankUpdate
+            playerDataComp.onPlayerPhysicalLaneUpdated -= self.__onPlayerPhysicalLaneUpdated
+        destructibleEntityComp = self.__getDestructibleEntityComp()
+        if destructibleEntityComp is not None:
+            destructibleEntityComp.onDestructibleEntityHealthChanged -= self.__onDestructibleEntityHealthChanged
+            destructibleEntityComp.onDestructibleEntityIsActiveChanged -= self.__onDestructibleEntityIsActiveChanged
+        sectorComp = self.__getSectorComp()
+        if sectorComp is not None:
+            sectorComp.onWaypointsForPlayerActivated -= self.__onWaypointsForPlayerActivated
+            sectorComp.onPlayerSectorGroupChanged -= self.__onPlayerSectorGroupChanged
+            sectorComp.onSectorTransitionTimeChanged -= self.__onSectorTransitionTimeChanged
+            sectorComp.onSectorGroupUpdated -= self.__onSectorGroupUpdated
+        component = self.__getOvertimeComp()
+        if component is not None:
+            component.onOvertimeStart -= self.__onOvertimeStart
+            component.onOvertimeOver -= self.__onOvertimeOver
+        if BattleReplay.g_replayCtrl.isPlaying:
+            g_replayEvents.onTimeWarpStart -= self.__onReplayTimeWarpStart
+            g_replayEvents.onTimeWarpFinish -= self.__onReplayTimeWarpFinished
+        arena = self.__sessionProvider.arenaVisitor.getArenaSubscription()
+        if arena is not None:
+            arena.onPositionsUpdated -= self.__updatePositions
+        eqCtrl = self.__sessionProvider.shared.equipments
+        if eqCtrl is not None:
+            eqCtrl.onEquipmentAdded -= self.__onEquipmentAdded
+            eqCtrl.onEquipmentReset -= self.__onEquipmentReset
+            eqCtrl.onEquipmentsCleared -= self.__onEquipmentsCleared
+        self.__sessionProvider = None
+        self._notificationTypeToMissionTriggerArgs.clear()
+        return
+
+    def getCurrentMission(self):
+        return self.__currentMission
+
+    def getNearestObjectiveData(self):
+        return (
+         self.__nearestObjective, self.__nearestObjectiveDistance)
+
+    def getRankUpdateData(self, newRank):
+        if not self.__orderBattleAbilities:
+            return (None, None)
+        arena = self.__sessionProvider.arenaVisitor.getArenaSubscription()
+        if arena is None:
+            return (None, None)
+        else:
+            inBattleReserves = arena.settings.get(b'epic_config', {}).get(b'epicMetaGame', {}).get(b'inBattleReservesByRank')
+            if not inBattleReserves:
+                return (None, None)
+            vehicle = self.__sessionProvider.shared.vehicleState.getControllingVehicle()
+            vehClass = getVehicleClassFromVehicleType(vehicle.typeDescriptor.type)
+            if 0 <= newRank < len(inBattleReserves[b'slotActions'][vehClass]):
+                updateList = inBattleReserves[b'slotActions'][vehClass][newRank]
+                if updateList:
+                    return (True, self.__orderBattleAbilities[updateList[0]])
+            if 1 <= newRank < len(inBattleReserves[b'ammoLevels'][vehClass]):
+                ammoLevels = inBattleReserves[b'ammoLevels'][vehClass][newRank]
+                prevAmmoLevels = inBattleReserves[b'ammoLevels'][vehClass][newRank - 1]
+                upgradeIdx = next((i for i in range(len(ammoLevels)) if ammoLevels[i] != prevAmmoLevels[i]), None)
+                if upgradeIdx is not None:
+                    return (False, self.__orderBattleAbilities[upgradeIdx])
+            return (None, None)
+
+    def __isAttacker(self):
+        return avatar_getter.getPlayerTeam() == EPIC_BATTLE_TEAM_ID.TEAM_ATTACKER
+
+    def __getSectorBaseComp(self):
+        componentSystem = self.__sessionProvider.arenaVisitor.getComponentSystem()
+        sectorBaseComp = getattr(componentSystem, b'sectorBaseComponent', None)
+        if sectorBaseComp is None:
+            LOG_ERROR(b'Expected SectorBaseComponent not present!')
+        return sectorBaseComp
+
+    def __getSectorComp(self):
+        componentSystem = self.__sessionProvider.arenaVisitor.getComponentSystem()
+        sectorComp = getattr(componentSystem, b'sectorComponent', None)
+        if sectorComp is None:
+            LOG_ERROR(b'Expected SectorComponent not present!')
+        return sectorComp
+
+    def __getPlayerDataComp(self):
+        componentSystem = self.__sessionProvider.arenaVisitor.getComponentSystem()
+        playerDataComp = getattr(componentSystem, b'playerDataComponent', None)
+        if playerDataComp is None:
+            LOG_ERROR(b'Expected PlayerDataComponent not present!')
+        return playerDataComp
+
+    def __getDestructibleEntityComp(self):
+        componentSystem = self.__sessionProvider.arenaVisitor.getComponentSystem()
+        comp = getattr(componentSystem, b'destructibleEntityComponent', None)
+        if comp is None:
+            LOG_ERROR(b'Expected DestructibleEntityComponent not present!')
+        return comp
+
+    def __getOvertimeComp(self):
+        componentSystem = self.__sessionProvider.arenaVisitor.getComponentSystem()
+        comp = getattr(componentSystem, b'overtimeComponent', None)
+        if comp is None:
+            LOG_ERROR(b'Expected OvertimeComponent not present!')
+        return comp
+
+    def __onReady(self):
+        sectorBaseComp = self.__getSectorBaseComp()
+        sectorComp = self.__getSectorComp()
+        if sectorBaseComp is not None and sectorComp is not None:
+            for sectorBase in sectorBaseComp.sectorBases:
+                if sectorBase.isCaptured:
+                    sector = sectorComp.getSectorById(sectorBase.sectorID)
+                    if sector.state not in (SECTOR_STATE.TRANSITION, SECTOR_STATE.BOMBING) or self.__currentLane == sector.playerGroup and not self.__isInRetreatArea():
+                        self.__retreatMissionResults[sector.groupID] = False
+
+        else:
+            LOG_ERROR(b'Expected SectorComponent and/or SectorBaseComponent not present!')
+        if not self.__isWaitingForNotification():
+            self.__invalidateMissionStatus()
+        periodCtrl = self.__sessionProvider.shared.arenaPeriod
+        for m, s in TIMER_WARNINGS:
+            periodCtrl.addRemainingTimeNotification(m, s, self.__onSpecificTimeReached)
+
+        return
+
+    def __onGameNotificationReceived(self, notificationType, data):
+        if len(self.__activeMessages) > notificationType:
+            self.__activeMessages[notificationType] -= 1
+            verify(not any(count < 0 for count in self.__activeMessages))
+        missionTriggerArgs = self._notificationTypeToMissionTriggerArgs.get(notificationType, None)
+        if missionTriggerArgs and not any(self.__activeMessages[notificationId] != 0 for notificationId in self._notificationTypeToMissionTriggerArgs):
+            self.__invalidateMissionStatus(force=missionTriggerArgs.forceMissionUpdate)
+            if missionTriggerArgs.callback is not None:
+                missionTriggerArgs.callback()
+        if notificationType == EPIC_NOTIFICATION.HQ_BATTLE_START:
+            self.onObjectiveBattleStarted()
+        return
+
+    def __onBeforeMissionInvalidation(self):
+        if self.__currentMission.missionType != EPIC_CONSTS.PRIMARY_WAYPOINT_MISSION:
+            return False
+        else:
+            sectorGroup = self.__activeMissionData[b'sectorGroup']
+            if self.__retreatMissionResults.get(sectorGroup) is not None:
+                return False
+            if self.isVehicleAliveAndStarted() and self.__activeMissionData[b'lane'] == self.__currentLane and not self.__isInRetreatArea():
+                self.__retreatMissionResults[sectorGroup] = True
+                LOG_DEBUG(b'[MissionsCtrl] Retreat Successful!')
+            else:
+                self.__retreatMissionResults[sectorGroup] = False
+            return True
+
+    def __onSectorBasePointsUpdate(self, baseId, isPlayerTeam, points, capturingStopped, invadersCount, expectedCaptureTime):
+        sectorBaseComp = self.__getSectorBaseComp()
+        if sectorBaseComp is None:
+            return
+        else:
+            sectorComp = self.__getSectorComp()
+            if sectorComp is None:
+                return
+            baseLane = sectorBaseComp.getSectorForSectorBase(baseId).playerGroup
+            baseLaneIdx = baseLane - 1
+            sectorIdToCapture = sectorComp.playerGroups[baseLane].sectors[sectorBaseComp.getNumCapturedBasesByLane(baseLane) + 1]
+            validBase = sectorBaseComp.getBaseBySectorId(sectorIdToCapture)
+            onPlayerLane = baseLaneIdx == self.__currentLane - 1
+            time = BigWorld.serverTime()
+            if validBase and baseId == validBase.baseID and points and baseId not in self.__capturedBases:
+                if self.__isLaneContested[baseLaneIdx]:
+                    endTime = self.__contestedEndTime[baseLaneIdx]
+                    if endTime < time:
+                        self.__isLaneContested[baseLaneIdx] = False
+                    else:
+                        self.__contestedEndTime[baseLaneIdx] = time + CONTESTED_DEBOUNCE_PERIOD
+                elif points >= CONTESTED_CAPTURE_POINTS_THRESHOLD:
+                    self.__contestedEndTime[baseLaneIdx] = time + CONTESTED_DEBOUNCE_PERIOD
+                    self.__isLaneContested[baseLaneIdx] = True
+                    if not onPlayerLane:
+                        self.__showBaseContestedMessage(points, baseId)
+            return
+
+    def __showBaseContestedMessage(self, points, baseId):
+        isAttacker = self.__isAttacker()
+        self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.BASE_CONTESTED_POSITIVE if isAttacker else GAME_MESSAGES_CONSTS.BASE_CONTESTED, {b'baseID': baseId, 
+           b'title': (EPIC_BATTLE.BASE_CONTESTED_ATK if isAttacker else EPIC_BATTLE.BASE_CONTESTED_DEF), 
+           b'progress': points}))
+        return
+
+    def __onOwnSectorsChanged(self, ownSectors):
+        sectorComp = self.__getSectorComp()
+        if sectorComp is None:
+            return
+        else:
+            if all([sectorComp.getSectorById(sectorID).isLast for sectorID in ownSectors]):
+                return
+            laneID = self.__resolveLaneFromOwnSectors(sectorComp, ownSectors)
+            if self.__tryInitReadyState(sectorComp, laneID):
+                return
+            if laneID == self.__currentLane:
+                return
+            if self.isVehicleAliveAndStarted():
+                return
+            self.__currentLane = laneID
+            if not self.__isWaitingForNotification():
+                self.__invalidateMissionStatus()
+            return
+
+    def __resolveLaneFromOwnSectors(self, sectorComp, ownSectors):
+        currentSectorID = sectorComp.currentPlayerSectorId
+        if currentSectorID is not None:
+            currentSector = sectorComp.getSectorById(currentSectorID)
+            if currentSector is not None:
+                return currentSector.playerGroup
+        firstSector = sectorComp.getSectorById(ownSectors[0])
+        if firstSector is not None:
+            return firstSector.playerGroup
+        else:
+            return self.__currentLane
+
+    def __tryInitReadyState(self, sectorComp, laneID):
+        if self.__ready:
+            return False
+        else:
+            self.__ready = sectorComp.currentPlayerSectorId is not None
+            self.__currentLane = laneID
+            if self.__ready:
+                self.__onReady()
+                return True
+            return False
+
+    def __onPlayerPhysicalLaneUpdated(self, laneID):
+        playerDataComp = self.__getPlayerDataComp()
+        if playerDataComp is None:
+            return
+        else:
+            laneChanged = laneID not in (None, NO_LANE_ID) and laneID != self.__currentLane and not self.isVehicleAliveAndStarted()
+            if laneChanged:
+                self.__currentLane = laneID
+                self.__invalidateMissionStatus(force=True)
+                return
+            invalidateMission = playerDataComp.getPlayerInHQSector() != self.__activeMissionData[b'isInHQSector']
+            if invalidateMission:
+                self.__invalidateMissionStatus(force=True)
+            else:
+                self.__updatePositions()
+            return
+
+    def __invalidateMissionStatus(self, force=False):
+        if self.__currentLane == NO_LANE_ID and not self.__ready:
+            return
+        else:
+            force = force or self.__onBeforeMissionInvalidation()
+            if not force and self.__isWaitingForNotification():
+                return
+            comps = self.__getComponentsForMissionUpdate()
+            if comps is None:
+                return
+            sectorBaseComp, destructibleEntityComp, sectorComp, playerDataComp = comps
+            laneID = self.__currentLane
+            nonCapturedBases = sectorBaseComp.getNumNonCapturedBasesByLane(laneID)
+            sectorGroupID = self.__getLastCapturedGroup(sectorBaseComp, laneID)
+            hqActive, destroyedHQs = self.__getHQState(destructibleEntityComp)
+            if destroyedHQs is None:
+                return
+            endTime = self.__calcEndTime(nonCapturedBases=nonCapturedBases, hqActive=hqActive, sectorComp=sectorComp, playerDataComp=playerDataComp)
+            isInHQSector = playerDataComp.getPlayerInHQSector()
+            amd = self.__activeMissionData
+            oldState = (amd[b'lane'], amd[b'bases'], amd[b'hqActive'], amd[b'destroyedHQs'],
+             amd[b'endTime'], amd[b'sectorGroup'], amd[b'isInHQSector'])
+            newState = (laneID, nonCapturedBases, hqActive, destroyedHQs,
+             endTime, sectorGroupID, isInHQSector)
+            if not force and oldState == newState:
+                return
+            destroyedHQUpdate = amd[b'destroyedHQs'] != destroyedHQs
+            amd[b'lane'] = laneID
+            amd[b'bases'] = nonCapturedBases
+            amd[b'hqActive'] = hqActive
+            amd[b'destroyedHQs'] = destroyedHQs
+            amd[b'endTime'] = endTime
+            amd[b'sectorGroup'] = sectorGroupID
+            amd[b'isInHQSector'] = isInHQSector
+            mission, additionalDescription = self.__generateMissionFromData()
+            desiredTimer = self.__getDesiredTimer(mission, additionalDescription, self.__activeMissionData)
+            self.__syncMissionTimer(desiredTimer, additionalDescription)
+            if self.__canSkipHQRefresh(mission, additionalDescription, force, destroyedHQUpdate):
+                return
+            if mission.missionType != EPIC_CONSTS.PRIMARY_EMPTY_MISSION:
+                self.__currentMission = mission
+                self.__currentHadAdditional = additionalDescription is not None
+                self.onPlayerMissionUpdated(mission, additionalDescription)
+            if desiredTimer > 0:
+                self.__applyMissionTimer(desiredTimer)
+            return
+
+    def __getComponentsForMissionUpdate(self):
+        sectorBaseComp = self.__getSectorBaseComp()
+        destructibleEntityComp = self.__getDestructibleEntityComp()
+        sectorComp = self.__getSectorComp()
+        playerDataComp = self.__getPlayerDataComp()
+        if not all((sectorBaseComp, destructibleEntityComp, sectorComp, playerDataComp)):
+            return None
+        else:
+            return (
+             sectorBaseComp, destructibleEntityComp, sectorComp, playerDataComp)
+
+    def __getLastCapturedGroup(self, sectorBaseComp, laneID):
+        baseID = next(iter(sectorBaseComp.getCapturedSectorBaseIdsByLane(laneID)[-1:]), None)
+        groupID = sectorBaseComp.getSectorForSectorBase(baseID).groupID if baseID else None
+        return groupID
+
+    def __getHQState(self, destructibleEntityComp):
+        hqs = destructibleEntityComp.destructibleEntities
+        if not hqs:
+            return (False, 0)
+        else:
+            hqActive = first(hqs.values()).isActive
+            destroyedHQs = destructibleEntityComp.getNumDestroyedEntities()
+            if destroyedHQs >= self.__numDestructiblesToDestroy:
+                return (hqActive, None)
+            return (
+             hqActive, destroyedHQs)
+
+    def __calcEndTime(self, nonCapturedBases, hqActive, sectorComp, playerDataComp):
+        if nonCapturedBases == 0 and self.__isAttacker():
+            return self.__calcAttackerHQOpenEndTime(hqActive, sectorComp, playerDataComp)
+        _, _, endTime = sectorComp.getActiveWaypointSectorGroupForPlayerGroup(self.__currentLane)
+        return endTime
+
+    def __calcAttackerHQOpenEndTime(self, hqActive, sectorComp, playerDataComp):
+        if hqActive:
+            return 0
+        else:
+            criticalEndTimes = []
+            hqSector = sectorComp.getSectorById(playerDataComp.hqSectorID)
+            if hqSector is None:
+                return 0
+            hqIdInPlayerGroup = hqSector.IDInPlayerGroup
+            for sector in sectorComp.sectors:
+                if sector.state == SECTOR_STATE.TRANSITION and sector.IDInPlayerGroup == hqIdInPlayerGroup - 1:
+                    criticalEndTimes.append(sector.endOfTransitionPeriod)
+
+            if criticalEndTimes:
+                return min(criticalEndTimes)
+            return 0
+
+    def __getDesiredTimer(self, mission, additionalDescription, mData):
+        if not self.__needTimerForMission(mission, additionalDescription, mData):
+            return 0
+        return mData.get(b'endTime', 0) or 0
+
+    def __syncMissionTimer(self, desiredTimer, additionalDescription):
+        if additionalDescription is not None:
+            self.__applyMissionTimer(0)
+            return
+        else:
+            if desiredTimer != 0:
+                return
+            if not self.__lastWaypointEndTime or BigWorld.serverTime() >= self.__lastWaypointEndTime - TIMER_MIN_REMAINING_SEC:
+                self.__applyMissionTimer(0)
+            return
+
+    def __canSkipHQRefresh(self, mission, additionalDescription, force, destroyedHQUpdate):
+        if force or destroyedHQUpdate or mission.missionType != EPIC_CONSTS.PRIMARY_HQ_MISSION or self.__currentMission.missionType != EPIC_CONSTS.PRIMARY_HQ_MISSION or self.__currentMission.subText != mission.subText:
+            return False
+        return self.__currentHadAdditional == (additionalDescription is not None)
+
+    def __generateMissionFromData(self):
+        mData = self.__activeMissionData
+        if not self.__isAttacker():
+            mission = self.__buildRetreatMissionIfNeeded(mData)
+            if mission is not None:
+                return (mission, None)
+        if mData[b'bases'] == 0:
+            return self.__buildHqMission(mData)
+        else:
+            return self.__buildBaseMission(mData)
+
+    def __buildRetreatMissionIfNeeded(self, mData):
+        sectorGroup = mData[b'sectorGroup']
+        if self.isVehicleAliveAndStarted() and mData[b'endTime'] - BigWorld.serverTime() > 0 and self.__isInRetreatArea() and self.__retreatMissionResults.get(sectorGroup, None) is None:
+            mission = PlayerMission()
+            mission.missionType = EPIC_CONSTS.PRIMARY_WAYPOINT_MISSION
+            mission.missionText = EPIC_BATTLE.RETREAT_MISSION_TXT
+            mission.subText = EPIC_BATTLE.MISSION_ZONE_CLOSING_DEF
+            return mission
+        else:
+            return
+
+    def __buildHqMission(self, mData):
+        mission = PlayerMission()
+        additional = None
+        destructibleEntityComp = self.__getDestructibleEntityComp()
+        if destructibleEntityComp is None:
+            return (mission, additional)
+        else:
+            mission.missionType = EPIC_CONSTS.PRIMARY_HQ_MISSION
+            hqActive = mData[b'hqActive']
+            endTime = mData[b'endTime']
+            if endTime > 0 and not hqActive:
+                mission.subText = EPIC_BATTLE.MISSION_ZONE_CLOSING_ATK if self.__isAttacker() else EPIC_BATTLE.MISSION_ZONE_CLOSING_DEF
+            else:
+                mission.subText = EPIC_BATTLE.MISSIONS_PRIMARY_ATK_HQ_SUB_TITLE if self.__isAttacker() else EPIC_BATTLE.MISSIONS_PRIMARY_DEF_HQ_SUB_TITLE
+                destroyed = destructibleEntityComp.getNumDestroyedEntities()
+                additional = makeHtmlString(path=b'html_templates:battle/epicBattle/additionalHqMissionInfo', key=b'attacker' if self.__isAttacker() else b'defender', ctx={b'destroyed': destroyed, 
+                   b'toDestroy': (self.__numDestructiblesToDestroy)})
+            mission.missionText = EPIC_BATTLE.MISSIONS_PRIMARY_ATK_HQ if self.__isAttacker() else EPIC_BATTLE.MISSIONS_PRIMARY_DEF_HQ
+            self.__updatePositions()
+            return (mission, additional)
+
+    def __buildBaseMission(self, mData):
+        mission = PlayerMission()
+        endTime = mData[b'endTime']
+        if endTime > 0:
+            mission.subText = EPIC_BATTLE.MISSION_ZONE_CLOSING_ATK if self.__isAttacker() else EPIC_BATTLE.MISSION_ZONE_CLOSING_DEF
+        mission.missionType = EPIC_CONSTS.PRIMARY_BASE_MISSION
+        mission.missionText = EPIC_BATTLE.MISSIONS_PRIMARY_ATK_BASE if self.__isAttacker() else EPIC_BATTLE.MISSIONS_PRIMARY_DEF_BASE
+        sectorBaseComp = self.__getSectorBaseComp()
+        if sectorBaseComp is not None:
+            mission.id = next(iter(sectorBaseComp.getNonCapturedSectorBaseIdsByLane(self.__currentLane)), None)
+        return (
+         mission, None)
+
+    def __onWaypointsForPlayerActivated(self, waypointSectorTimeTuple):
+        grp, sec, currentEndTime = waypointSectorTimeTuple
+        laneFromEvent = self.__getLaneFromWaypointEvent(grp, sec)
+        if currentEndTime and currentEndTime > 0:
+            self.__handleWaypointTimerStart(laneFromEvent, currentEndTime)
+        else:
+            self.__handleWaypointTimerEnd(BigWorld.serverTime())
+        if self.__isAttacker() and self.__ready:
+            self.__trySendDestroyObjectiveNotification()
+        return
+
+    def __getLaneFromWaypointEvent(self, grp, sec):
+        sectorComp = self.__getSectorComp()
+        if sectorComp is not None and sec is not None:
+            sector = sectorComp.getSectorById(sec)
+            if sector is not None:
+                return sector.playerGroup
+        if grp is not None:
+            return grp.playerGroup
+        else:
+            return
+
+    def __handleWaypointTimerStart(self, laneFromEvent, endTime):
+        if not self.__shouldAcceptWaypointTimer(laneFromEvent, endTime):
+            return
+        self.__lastWaypointEndTime = endTime
+        if self.__isMissionCountdownRelevant(self.__currentMission):
+            self.__applyMissionTimer(endTime)
+        return
+
+    def __shouldAcceptWaypointTimer(self, laneFromEvent, endTime):
+        if self.__currentLane and laneFromEvent and laneFromEvent != self.__currentLane:
+            return False
+        else:
+            if laneFromEvent is None and self.__currentEndTime:
+                if abs(endTime - self.__currentEndTime) > WAYPOINT_TIMER_EPS:
+                    return False
+            return True
+
+    def __isMissionCountdownRelevant(self, mission):
+        return mission.missionType in (EPIC_CONSTS.PRIMARY_EMPTY_MISSION, EPIC_CONSTS.PRIMARY_WAYPOINT_MISSION) or mission.subText in (EPIC_BATTLE.MISSION_ZONE_CLOSING_ATK, EPIC_BATTLE.MISSION_ZONE_CLOSING_DEF)
+
+    def __handleWaypointTimerEnd(self, now):
+        prevEnd = self.__lastWaypointEndTime
+        if prevEnd <= 0:
+            return
+        if now < prevEnd - TIMER_MIN_REMAINING_SEC:
+            return
+        self.__applyMissionTimer(0)
+        self.__requestMissionRefreshAfterWaypoint()
+        return
+
+    def __requestMissionRefreshAfterWaypoint(self):
+        if not self.__isWaitingForNotification():
+            self.__invalidateMissionStatus(force=True)
+            return
+        else:
+            if self.__waypointRefreshCB is None:
+                self.__waypointRefreshCB = BigWorld.callback(WAYPOINT_REFRESH_RETRY_DELAY, self.__retryWaypointRefresh)
+            return
+
+    def __retryWaypointRefresh(self):
+        self.__waypointRefreshCB = None
+        if not self.__isWaitingForNotification():
+            self.__invalidateMissionStatus(force=True)
+        else:
+            self.__waypointRefreshCB = BigWorld.callback(WAYPOINT_REFRESH_RETRY_DELAY, self.__retryWaypointRefresh)
+        return
+
+    def __trySendDestroyObjectiveNotification(self):
+        sectorBaseComp = self.__getSectorBaseComp()
+        if sectorBaseComp is None:
+            return
+        else:
+            if sectorBaseComp.getNumNonCapturedBasesByLane(self.__currentLane) == 0:
+                self.__sendNotification(GAME_MESSAGES_CONSTS.DESTROY_OBJECTIVE)
+            return
+
+    def __onPlayerSectorGroupChanged(self, newSectorGroupID, isAllowed, oldSectorGroupID, wasAllowed):
+        if oldSectorGroupID is None or newSectorGroupID == oldSectorGroupID:
+            return
+        self.__sendRetreatNotificationSound(oldSectorGroupID)
+        if self.__currentMission.missionType == EPIC_CONSTS.PRIMARY_WAYPOINT_MISSION and self.__activeMissionData[b'lane'] == self.__currentLane and not self.__isInRetreatArea():
+            self.__nextObjectiveMessage(self.__isAttacker())
+        return
+
+    def __sendRetreatNotificationSound(self, oldSectorGroupID):
+        if self.__isAttacker():
+            return
+        else:
+            sectorComp = self.__getSectorComp()
+            if sectorComp is None:
+                return
+            currentSector = sectorComp.getSectorById(sectorComp.currentPlayerSectorId)
+            if currentSector is None:
+                return
+            nowInZone = currentSector.state == SECTOR_STATE.TRANSITION
+            if self.__retreatAreaGroupID == oldSectorGroupID and not nowInZone and self.isVehicleAliveAndStarted():
+                self.__sendNotification(GAME_MESSAGES_CONSTS.RETREAT_SUCCESSFUL)
+            self.__retreatAreaGroupID = currentSector.groupID if nowInZone else None
+            return
+
+    def __onSectorTransitionTimeChanged(self, sectorId, _, __):
+        sectorComp = self.__getSectorComp()
+        if sectorComp is None:
+            return
+        else:
+            if self.__currentMission.missionType == EPIC_CONSTS.PRIMARY_WAYPOINT_MISSION:
+                baseSector = sectorComp.getSectorById(sectorId)
+                if baseSector.playerGroup == self.__currentLane and self.__isInRetreatArea():
+                    self.__nextObjectiveMessage(self.__isAttacker())
+            return
+
+    def __onSectorGroupUpdated(self, groupID, state, _, __):
+        if self.__isAttacker():
+            return
+        else:
+            sectorComp = self.__getSectorComp()
+            if sectorComp is None:
+                return
+            curSectorID = sectorComp.currentPlayerSectorId
+            if curSectorID is None:
+                return
+            curSector = sectorComp.getSectorById(curSectorID)
+            if curSector is None:
+                return
+            if curSector.groupID != groupID:
+                return
+            if state == SECTOR_STATE.TRANSITION:
+                self.__retreatAreaGroupID = groupID
+            elif self.__retreatAreaGroupID == groupID:
+                self.__retreatAreaGroupID = None
+            return
+
+    def onSectorBaseCaptured(self, baseId, vehiclesUnlocked=False):
+        sectorBaseComp = self.__getSectorBaseComp()
+        if sectorBaseComp is None:
+            return
+        else:
+            sectorComp = self.__getSectorComp()
+            if sectorComp is None:
+                return
+            epicPlayerDataComp = self.__getPlayerDataComp()
+            if epicPlayerDataComp is None:
+                return
+            self.__capturedBases.add(baseId)
+            sectorBase = sectorBaseComp.getSectorBaseById(baseId)
+            baseSectorId = sectorBase.sectorID
+            sector = sectorComp.getSectorById(baseSectorId)
+            baseLane = sector.playerGroup
+            onPlayerLane = baseLane == self.__currentLane
+            capturedBasesInComponentSystem = sectorBaseComp.getCapturedBaseIDs()
+            self.__capturedBases.update(capturedBasesInComponentSystem)
+            seconds = epicPlayerDataComp.getGameTimeToAddPerCapture(sector.IDInPlayerGroup)
+            if len(self.__capturedBases) == len(sectorBaseComp.sectorBases):
+                seconds += epicPlayerDataComp.getGameTimeToAddWhenAllCaptured()
+            minutes = int(seconds / ONE_MINUTE)
+            seconds -= minutes * ONE_MINUTE
+            isAttacker = self.__isAttacker()
+            self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.BASE_CAPTURED_POSITIVE if isAttacker else GAME_MESSAGES_CONSTS.BASE_CAPTURED, {b'baseID': baseId, 
+               b'title': (EPIC_BATTLE.ZONE_CAPTURED_TEXT if isAttacker else EPIC_BATTLE.ZONE_LOST_TEXT), 
+               b'timerText': (backport.text(R.strings.epic_battle.zone.time_added(), minutes=(b':').join(((b'{:02d}').format(int(minutes)), (b'{:02d}').format(int(seconds)))))), 
+               b'descriptionText': (self.__getUnlockedVehDescription() if vehiclesUnlocked else b'')}))
+            if onPlayerLane:
+                if isAttacker:
+                    self.__nextObjectiveMessage(isAttacker)
+                elif self.isVehicleAliveAndStarted() and sectorComp.getSectorById(sectorComp.currentPlayerSectorId).IDInPlayerGroup <= sector.IDInPlayerGroup:
+                    self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.RETREAT, {b'title': (EPIC_BATTLE.ZONE_LEAVE_ZONE)}))
+                else:
+                    self.__nextObjectiveMessage(isAttacker)
+            self.__contestedEndTime[baseLane - 1] = 0
+            self.__isLaneContested[baseLane - 1] = False
+            return
+
+    def __getUnlockedVehDescription(self):
+        level = self.__epicController.getUnlockableInBattleVehLevelStr()
+        if not level:
+            return b''
+        return backport.text(R.strings.epic_battle.missions.unlockTankLevel(), level=level)
+
+    def __nextObjectiveMessage(self, isAttacker):
+        sectorBaseComp = self.__getSectorBaseComp()
+        if sectorBaseComp is None:
+            return
+        else:
+            nonCapturedBases = sectorBaseComp.getNumNonCapturedBasesByLane(self.__currentLane)
+            if nonCapturedBases == 0:
+                msgType = GAME_MESSAGES_CONSTS.DESTROY_OBJECTIVE if isAttacker else GAME_MESSAGES_CONSTS.DEFEND_OBJECTIVE
+            else:
+                msgType = GAME_MESSAGES_CONSTS.CAPTURE_BASE if isAttacker else GAME_MESSAGES_CONSTS.DEFEND_BASE
+            ctrl = self.sessionProvider.dynamic.gameNotifications
+            if ctrl is not None:
+                notificationId = ctrl.translateMsgId(msgType)
+                if notificationId != -1 and self.__activeMessages[notificationId] != 0:
+                    return
+            self.__sendNotification(msgType)
+            return
+
+    def __onSectorBaseActiveStateChanged(self, baseId, isActive):
+        sectorBaseComp = self.__getSectorBaseComp()
+        if sectorBaseComp is None:
+            return
+        else:
+            baseSector = sectorBaseComp.getSectorForSectorBase(baseId)
+            if not isActive or baseSector.IDInPlayerGroup > 2:
+                return
+            onPlayerLane = baseSector.playerGroup == self.__currentLane
+            if onPlayerLane:
+                self.__sendNotification(GAME_MESSAGES_CONSTS.CAPTURE_BASE if self.__isAttacker() else GAME_MESSAGES_CONSTS.DEFEND_BASE)
+            return
+
+    def __sendAirshipComeMessage(self, isAlly):
+        if isAlly:
+            self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.SUPPLY_ACTIVE_POSITIVE, {b'title': (EPIC_BATTLE.SUPPLY_MESSAGES_AIRSHIPACTIVEPOSITIVE)}))
+            return
+        self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.SUPPLY_ACTIVE, {b'title': (EPIC_BATTLE.SUPPLY_MESSAGES_AIRSHIPACTIVE)}))
+        return
+
+    def __sendSupplyActivatedMessage(self, supplyTypeID):
+        title = SUPPLY_ID_TO_TRANSLATION[supplyTypeID]
+        team = b'attack' if self.__isAttacker() else b'defence'
+        self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.SUPPLY_UNLOCKED, {b'iconFrame': supplyTypeID, 
+           b'title': title, 
+           b'subTitle': (backport.text(R.strings.epic_battle.supply.messages.dyn(team)()))}))
+        return
+
+    def __onDestructibleEntityIsActiveChanged(self, _, isActive):
+        if not isActive or self.__objMsgSent:
+            return
+        self.__sendNotification(GAME_MESSAGES_CONSTS.HQ_BATTLE_STARTED_POSITIVE if self.__isAttacker() else GAME_MESSAGES_CONSTS.HQ_BATTLE_STARTED)
+        self.__objMsgSent = True
+        self.__invalidateMissionStatus(force=True)
+        return
+
+    def __onDestructibleEntityHealthChanged(self, objID, newHealth, maxHealth, attackerID, attackReason, hitFlags):
+        isAttacker = self.__isAttacker()
+        if newHealth == 0:
+            msgType = GAME_MESSAGES_CONSTS.OBJECTIVE_DESTROYED_POSITIVE if isAttacker else GAME_MESSAGES_CONSTS.OBJECTIVE_DESTROYED
+            msgData = {b'hqID': objID, 
+               b'title': (EPIC_BATTLE.ZONE_DESTROYED_TEXT if isAttacker else EPIC_BATTLE.ZONE_LOST_TEXT)}
+        elif self.__lastTimeHQDamaged[objID] + CONTESTED_DEBOUNCE_PERIOD <= BigWorld.serverTime():
+            self.__lastTimeHQDamaged[objID] = BigWorld.serverTime()
+            msgType = GAME_MESSAGES_CONSTS.OBJECTIVE_UNDER_ATTACK_POSITIVE if isAttacker else GAME_MESSAGES_CONSTS.OBJECTIVE_UNDER_ATTACK
+            msgData = {b'hqID': objID, 
+               b'title': (EPIC_BATTLE.HQ_UNDER_ATTACK_ATK if isAttacker else EPIC_BATTLE.HQ_UNDER_ATTACK_DEF), 
+               b'destroyedProgress': (newHealth / maxHealth)}
+        else:
+            return
+        self.__sendIngameMessage(self.__makeMessageData(msgType, msgData))
+        return
+
+    def __updatePositions(self):
+        if self.__currentMission.missionType == EPIC_CONSTS.PRIMARY_HQ_MISSION or self.__activeMissionData[b'hqActive']:
+            self.__setNearestObjective()
+        return
+
+    def __setNearestObjective(self):
+        destructibleEntityComp = self.__getDestructibleEntityComp()
+        if destructibleEntityComp is None:
+            return
+        else:
+            position = BigWorld.player().position
+            objID, objDistance = destructibleEntityComp.getNearestDestructibleEntityID(position)
+            if objID is None:
+                return
+            self.__nearestObjectiveDistance = objDistance
+            if objID == self.__nearestObjective:
+                return
+            self.__nearestObjective = objID
+            self.onNearestObjectiveChanged(objID, objDistance)
+            return
+
+    def __onSpecificTimeReached(self, minutes, seconds):
+        self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.TIME_REMAINING if self.__isAttacker() else GAME_MESSAGES_CONSTS.TIME_REMAINING_POSITIVE, {b'title': (i18n.makeString(EPIC_BATTLE.ZONE_TIME_LEFT, minutes=minutes))}))
+        return
+
+    def __onCrewRoleFactorAndRankUpdate(self, newFactor, allyVehID, allyNewRank):
+        if not allyVehID and not allyNewRank:
+            return
+        arena = self.__sessionProvider.arenaVisitor.getArenaSubscription()
+        crewRoleFactorConf = arena.settings.get(b'epic_config', {}).get(b'epicMetaGame', {}).get(b'inBattleModifiers').get(b'CrewRoleFactor')
+        if BigWorld.player().playerVehicleID == allyVehID:
+            factor = crewRoleFactorConf.get(b'ranks', {}).get(allyNewRank + 1, 0)
+            self.__onPlayerRankUpdated(allyNewRank, factor)
+            return
+        maxImpact = crewRoleFactorConf.get(b'maxImpact', 0.0)
+        if maxImpact <= 0:
+            subTitleAddition = b''
+        else:
+            if newFactor < maxImpact:
+                rankStr = R.strings.epic_battle.rank.crewRolesFactorPromotion
+                rankPercent = newFactor
+            else:
+                rankStr = R.strings.epic_battle.rank.crewRolesFactorPromotion1
+                rankPercent = maxImpact
+            subTitleAddition = b'\n' + backport.text(rankStr(), percent=rankPercent)
+        subTitle = backport.text(R.strings.epic_battle.rank.promotion(), rank=i18n.makeString(RANK_TO_TRANSLATION[allyNewRank + 1]), placeholder=subTitleAddition)
+        self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.GENERAL_RANK_REACHED, {b'title': (self.__sessionProvider.getCtx().getPlayerFullName(vID=allyVehID, showVehShortName=False, showClan=True, showRegion=False)), 
+           b'subTitle': subTitle}))
+        return
+
+    def __onPlayerRankUpdated(self, rank, crewRoleFactor=0.0):
+        subTitleText = b''
+        rankIdx = rank + 1
+        firstUnlocked, updateInfo = self.getRankUpdateData(rank)
+        eqCtrl = self.__sessionProvider.shared.equipments
+        rRank = R.strings.epic_battle.rank
+        if firstUnlocked is not None and eqCtrl is not None and eqCtrl.hasEquipment(updateInfo):
+            equipmentName = eqCtrl.getEquipment(updateInfo).getDescriptor().userString
+            subTitleText = backport.text(rRank.recerveUnlocked() if firstUnlocked else rRank.reserveUpgraded(), reserveName=equipmentName)
+        if rankIdx in self.__epicController.getLevelsToUPGAllReserves():
+            if subTitleText:
+                subTitleText += b'\n'
+            subTitleText = backport.text(rRank.allReserveUpgraded())
+        if crewRoleFactor > 0:
+            if subTitleText:
+                subTitleText += b'\n'
+            subTitleText += i18n.makeString(EPIC_BATTLE.RANK_CREWROLESFACTORSELF, percent=crewRoleFactor)
+        self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.RANK_UP, {b'iconFrame': rankIdx, 
+           b'title': (RANK_TO_TRANSLATION[rankIdx]), 
+           b'subTitle': subTitleText}))
+        self.__sendNotification(GAME_MESSAGES_CONSTS.PROMOTION_RECEIVED)
+        return
+
+    def __onOvertimeStart(self, endTime):
+        self.__overTimeEnd = endTime
+        timeLeft = int(endTime - BigWorld.serverTime())
+        self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.OVERTIME, {b'timestamp': timeLeft, 
+           b'title': (EPIC_BATTLE.OVERTIME_LABEL)}))
+        self.__overtimeCB = BigWorld.callback(OVERTIME_TICK_INTERVAL, self.__overtimeTick)
+        return
+
+    def __onOvertimeOver(self):
+        if self.__overtimeCB:
+            BigWorld.cancelCallback(self.__overtimeCB)
+            self.__overtimeCB = None
+            self.__overTimeEnd = None
+        return
+
+    def __overtimeTick(self):
+        timeLeft = int(self.__overTimeEnd - BigWorld.serverTime())
+        if timeLeft in OVERTIME_DURATION_WARNINGS:
+            self.__sendIngameMessage(self.__makeMessageData(GAME_MESSAGES_CONSTS.OVERTIME, {b'timestamp': timeLeft, 
+               b'title': (EPIC_BATTLE.OVERTIME_LABEL)}))
+        if timeLeft > 0:
+            self.__overtimeCB = BigWorld.callback(OVERTIME_TICK_INTERVAL, self.__overtimeTick)
+        else:
+            self.__overtimeCB = None
+        return
+
+    def __makeMessageData(self, msgType, data):
+        return PlayerMessageData(messageType=str(msgType), length=MSG_ID_TO_DURATION[msgType], priority=MSG_ID_TO_PRIORITY[msgType], msgData=data)
+
+    def __sendNotification(self, messageType):
+        ctrl = self.sessionProvider.dynamic.gameNotifications
+        if ctrl is not None:
+            notificationId = ctrl.translateMsgId(messageType)
+            if notificationId != -1:
+                self.__activeMessages[notificationId] += 1
+            ctrl.notify(messageType, {})
+        return
+
+    def __sendIngameMessage(self, msgData):
+        ctrl = self.sessionProvider.dynamic.gameNotifications
+        if ctrl is not None:
+            notificationId = ctrl.translateMsgId(msgData.messageType)
+            if notificationId != -1:
+                self.__activeMessages[notificationId] += 1
+            if not BattleReplay.g_replayCtrl.isTimeWarpInProgress and notificationId in self._notificationTypeToMissionTriggerArgs:
+                self.__resetMission()
+        self.onIngameMessageReady(msgData)
+        return
+
+    def __isWaitingForNotification(self):
+        return any(self.__activeMessages[notificationId] > 0 for notificationId in self._notificationTypeToMissionTriggerArgs)
+
+    def __onReplayTimeWarpStart(self):
+        self.__resetMission()
+        return
+
+    def __onReplayTimeWarpFinished(self):
+        self.__invalidateMissionStatus(force=True)
+        return
+
+    def __resetMission(self):
+        self.__currentHadAdditional = False
+        self.onPlayerMissionReset()
+        return
+
+    def __isInRetreatArea(self):
+        sectorBaseComp = self.__getSectorBaseComp()
+        if sectorBaseComp is None:
+            return False
+        else:
+            baseID = next(iter(sectorBaseComp.getCapturedSectorBaseIdsByLane(self.__currentLane)[-1:]), None)
+            if not baseID:
+                return False
+            sectorComp = self.__getSectorComp()
+            if sectorComp is None:
+                return False
+            currentSectorId = sectorComp.currentPlayerSectorId
+            if currentSectorId is None:
+                return False
+            currentSector = sectorComp.getSectorById(currentSectorId)
+            if currentSector is None:
+                return False
+            if currentSector.playerGroup != self.__currentLane:
+                return False
+            lastCapturedBaseSector = sectorBaseComp.getSectorForSectorBase(baseID)
+            currentIDInPlayerGroup = sectorComp.getSectorById(sectorComp.currentPlayerSectorId).IDInPlayerGroup
+            return currentIDInPlayerGroup <= lastCapturedBaseSector.IDInPlayerGroup
+
+    def __onEquipmentAdded(self, intCD, item):
+        if item and item.isAvatar():
+            self.__orderBattleAbilities.append(intCD)
+        return
+
+    def __onEquipmentReset(self, oldIntCD, newIntCD, _):
+        if oldIntCD in self.__orderBattleAbilities:
+            self.__orderBattleAbilities[self.__orderBattleAbilities.index(oldIntCD)] = newIntCD
+        return
+
+    def __onEquipmentsCleared(self):
+        self.__orderBattleAbilities = []
+        return
+
+    def __cancelWaypointRefreshRetry(self):
+        if self.__waypointRefreshCB is not None:
+            BigWorld.cancelCallback(self.__waypointRefreshCB)
+            self.__waypointRefreshCB = None
+        return
+
+    def __applyMissionTimer(self, desiredEndTime):
+        desiredEndTime = self.__normalizeEndTime(desiredEndTime)
+        if self.__currentEndTime != desiredEndTime:
+            self.__currentEndTime = desiredEndTime
+            self.onPlayerMissionTimerSet(desiredEndTime)
+        return
+
+    def __normalizeEndTime(self, desiredEndTime):
+        if not desiredEndTime or desiredEndTime <= 0:
+            return 0
+        now = BigWorld.serverTime()
+        if desiredEndTime - now <= TIMER_MIN_REMAINING_SEC:
+            return 0
+        return desiredEndTime
+
+    def __needTimerForMission(self, mission, additionalDescription, mData):
+        if additionalDescription is not None:
+            return False
+        else:
+            if mission.missionType == EPIC_CONSTS.PRIMARY_WAYPOINT_MISSION:
+                return True
+            if mission.subText in (EPIC_BATTLE.MISSION_ZONE_CLOSING_ATK, EPIC_BATTLE.MISSION_ZONE_CLOSING_DEF):
+                return mData.get(b'endTime', 0) > 0
+            return False

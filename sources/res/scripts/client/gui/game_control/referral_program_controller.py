@@ -1,0 +1,241 @@
+import logging, BigWorld, Keys
+from functools import partial
+from Event import Event
+from account_helpers import AccountSettings
+from account_helpers.AccountSettings import REFERRAL_COUNTER
+from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS
+from constants import RP_PGB_POINT, RP_POINT
+from frameworks.wulf import WindowLayer
+from gui import SystemMessages, InputHandler
+from gui.SystemMessages import SM_TYPE
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.daapi.view.lobby.referral_program.browser.web_handlers import createReferralWebHandlers
+from gui.Scaleform.daapi.view.lobby.referral_program.referral_program_helpers import getReferralProgramURL, isCurrentUserRecruit, getReferralShopURL, REF_RPOGRAM_PDATA_KEY
+from gui.Scaleform.framework.managers.containers import POP_UP_CRITERIA
+from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
+from gui.impl.lobby.common.sound_constants import SUBVIEW_SOUND_SPACE
+from gui.shared import g_eventBus, events, EVENT_BUS_SCOPE
+from gui.notify_center.custom_actions_keeper import CustomActionsKeeper
+from helpers import dependency
+from skeletons.account_helpers.settings_core import ISettingsCore
+from skeletons.gui.shared import IItemsCache
+from skeletons.gui.app_loader import IAppLoader
+from skeletons.gui.game_control import IReferralProgramController, IGuiLootBoxesController
+from skeletons.gui.game_window_controller import GameWindowController
+from gui.ClientUpdateManager import g_clientUpdateManager
+from PlayerEvents import g_playerEvents
+_logger = logging.getLogger(__name__)
+USE_SERVER_RECRUIT_DELTA = True
+REQUEST_INCREMENT_COOLDOWN = 1
+REFERRAL_LOOTBOX_TYPE = b'rp_2024'
+
+class ReferralProgramController(GameWindowController, IReferralProgramController):
+    __settingsCore = dependency.descriptor(ISettingsCore)
+    __appLoader = dependency.descriptor(IAppLoader)
+    __itemsCache = dependency.descriptor(IItemsCache)
+    __GUILootboxes = dependency.descriptor(IGuiLootBoxesController)
+
+    def __init__(self):
+        super(ReferralProgramController, self).__init__()
+        self.__referralDisabled = False
+        self.__updateBubbleTimeoutID = None
+        self.__recruitDeltaInc = 0
+        self.onReferralProgramEnabled = Event()
+        self.onReferralProgramDisabled = Event()
+        self.onReferralProgramUpdated = Event()
+        self.onPointsChanged = Event()
+        CustomActionsKeeper.registerAction(b'id_action', self.__processButtonPress)
+        return
+
+    def fini(self):
+        self.__clearBubbleTimeout()
+        super(ReferralProgramController, self).fini()
+        return
+
+    def onLobbyStarted(self, ctx):
+        self.__GUILootboxes.addShopWindowHandler(REFERRAL_LOOTBOX_TYPE, partial(self.showWindow, url=getReferralShopURL()))
+        return
+
+    def showWindow(self, url=None, invokedFrom=None):
+        if not self.__referralDisabled:
+            self._showWindow(url, invokedFrom)
+        else:
+            SystemMessages.pushMessage(backport.text(R.strings.system_messages.referral_program.disabled()), type=SM_TYPE.Error)
+        return
+
+    def hideWindow(self):
+        browserView = self.__getBrowserView()
+        if browserView:
+            browserView.onCloseView()
+        return
+
+    def isFirstIndication(self):
+        return not self.__settingsCore.serverSettings.getUIStorage().get(UI_STORAGE_KEYS.REFERRAL_BUTTON_CIRCLES_SHOWN) and isCurrentUserRecruit()
+
+    def getBubbleCount(self):
+        if USE_SERVER_RECRUIT_DELTA:
+            return self.__getServerBubbleCount()
+        return self.__getClientBubbleCount()
+
+    def updateBubble(self):
+        browserView = self.__getBrowserView()
+        if browserView:
+            return
+        if USE_SERVER_RECRUIT_DELTA:
+            self.__updateServerBubble()
+        else:
+            self.__updateClientBubble()
+        return
+
+    def isScoresLimitReached(self):
+        points = self.__itemsCache.items.stats.entitlements.get(RP_PGB_POINT, 0)
+        freePoints = self.__itemsCache.items.refProgram.getRPPgbPoints()
+        return 0 <= freePoints <= points
+
+    def isShouldIndicate(self):
+        return self.isScoresLimitReached() and self.__itemsCache.items.refProgram.getRPPgbPoints() > 0
+
+    def _openWindow(self, url, _=None):
+        browserView = self.__getBrowserView()
+        if browserView:
+            return
+        ctx = {b'url': url, 
+           b'webHandlers': (createReferralWebHandlers()), 
+           b'browser_alias': (VIEW_ALIAS.REFERRAL_PROGRAM_WINDOW), 
+           b'showCloseBtn': True, 
+           b'useSpecialKeys': True, 
+           b'showWaiting': True, 
+           b'showActionBtn': False, 
+           b'allowRightClick': True, 
+           b'soundSpaceID': (SUBVIEW_SOUND_SPACE.name)}
+        g_eventBus.handleEvent(events.LoadViewEvent(SFViewLoadParams(VIEW_ALIAS.REFERRAL_PROGRAM_WINDOW), ctx=ctx), scope=EVENT_BUS_SCOPE.LOBBY)
+        self.__resetBubbleCount()
+        self.__setButtonCirclesShown()
+        return
+
+    def _getUrl(self):
+        return getReferralProgramURL()
+
+    def _addListeners(self):
+        g_eventBus.addListener(events.ReferralProgramEvent.SHOW_REFERRAL_PROGRAM_WINDOW, self.__onReferralProgramButtonClicked, scope=EVENT_BUS_SCOPE.LOBBY)
+        self.lobbyContext.getServerSettings().onServerSettingsChange += self.__onServerSettingsChange
+        g_playerEvents.onClientUpdated += self.__onClientUpdated
+        g_clientUpdateManager.addCallbacks({b'cache.entitlements': (self.__onEntitlementsUpdated)})
+        InputHandler.g_instance.onKeyDown += self.__handleKeyDown
+        return
+
+    def _removeListeners(self):
+        self.lobbyContext.getServerSettings().onServerSettingsChange -= self.__onServerSettingsChange
+        g_playerEvents.onClientUpdated -= self.__onClientUpdated
+        g_clientUpdateManager.removeObjectCallbacks(self)
+        g_eventBus.removeListener(events.ReferralProgramEvent.SHOW_REFERRAL_PROGRAM_WINDOW, self.__onReferralProgramButtonClicked, scope=EVENT_BUS_SCOPE.LOBBY)
+        InputHandler.g_instance.onKeyDown -= self.__handleKeyDown
+        return
+
+    def __getBrowserView(self):
+        app = self.__appLoader.getApp()
+        if app is not None and app.containerManager is not None:
+            browserView = app.containerManager.getView(WindowLayer.SUB_VIEW, criteria={(POP_UP_CRITERIA.VIEW_ALIAS): (VIEW_ALIAS.REFERRAL_PROGRAM_WINDOW)})
+            return browserView
+        else:
+            return
+
+    def __onReferralProgramButtonClicked(self, _):
+        self.showWindow()
+        return
+
+    def __onServerSettingsChange(self, diff):
+        if b'isReferralProgramEnabled' in diff:
+            enabled = diff[b'isReferralProgramEnabled']
+            if not enabled:
+                self.__onReferralProgramDisabled()
+            else:
+                self.__onReferralProgramEnabled()
+        return
+
+    def __onEntitlementsUpdated(self, diff):
+        if {
+         RP_POINT, RP_PGB_POINT} & set(diff.keys()) and not self.__referralDisabled:
+            self.onPointsChanged()
+        return
+
+    def __onClientUpdated(self, diff, _):
+        if diff is not None and REF_RPOGRAM_PDATA_KEY in diff:
+            self.onPointsChanged()
+            self.onReferralProgramUpdated()
+        return
+
+    def __getServerBubbleCount(self):
+        return self.__itemsCache.items.refProgram.getRecruitDelta()
+
+    def __getClientBubbleCount(self):
+        return AccountSettings.getCounters(REFERRAL_COUNTER)
+
+    def __updateServerBubble(self):
+        self.__recruitDeltaInc += 1
+        self.__clearBubbleTimeout()
+        self.__updateBubbleTimeoutID = BigWorld.callback(REQUEST_INCREMENT_COOLDOWN, self.__updateServerBubbleRequest)
+        return
+
+    def __updateServerBubbleRequest(self):
+        self.__updateBubbleTimeoutID = None
+        if self.__recruitDeltaInc:
+            BigWorld.player().referralProgram.incrementRecruitDelta(self.__recruitDeltaInc, None)
+            self.__recruitDeltaInc = 0
+        return
+
+    def __clearBubbleTimeout(self):
+        if self.__updateBubbleTimeoutID:
+            BigWorld.cancelCallback(self.__updateBubbleTimeoutID)
+            self.__updateBubbleTimeoutID = None
+        return
+
+    def __updateClientBubble(self):
+        AccountSettings.setCounters(REFERRAL_COUNTER, self.getBubbleCount() + 1)
+        self.onReferralProgramUpdated()
+        return
+
+    def __resetBubbleCount(self):
+        if USE_SERVER_RECRUIT_DELTA:
+            self.__resetServerBubbleCount()
+        else:
+            self.__resetClientBubbleCount()
+        return
+
+    def __resetServerBubbleCount(self):
+        BigWorld.player().referralProgram.resetRecruitDelta(None)
+        self.__clearBubbleTimeout()
+        self.__recruitDeltaInc = 0
+        return
+
+    def __resetClientBubbleCount(self):
+        AccountSettings.setCounters(REFERRAL_COUNTER, 0)
+        self.onReferralProgramUpdated()
+        return
+
+    def __onReferralProgramEnabled(self):
+        self.__referralDisabled = False
+        self.onReferralProgramEnabled()
+        return
+
+    def __onReferralProgramDisabled(self):
+        self.__referralDisabled = True
+        self.hideWindow()
+        self.onReferralProgramDisabled()
+        return
+
+    def __setButtonCirclesShown(self):
+        if isCurrentUserRecruit():
+            self.__settingsCore.serverSettings.saveInUIStorage({(UI_STORAGE_KEYS.REFERRAL_BUTTON_CIRCLES_SHOWN): True})
+        return
+
+    def __processButtonPress(self, **_):
+        self.showWindow()
+        return
+
+    def __handleKeyDown(self, event):
+        if event.isKeyDown() and event.key == Keys.KEY_R and event.isShiftDown() and event.isAltDown() and BigWorld.isKeyDown(Keys.KEY_CAPSLOCK):
+            self.showWindow()
+        return

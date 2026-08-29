@@ -1,0 +1,45 @@
+from frameworks.wulf import Array
+from frameworks.wulf import ViewModel
+
+class MapBoxAnswersModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(MapBoxAnswersModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIsMultipleChoice(self):
+        return self._getBool(0)
+
+    def setIsMultipleChoice(self, value):
+        self._setBool(0, value)
+        return
+
+    def getVariants(self):
+        return self._getArray(1)
+
+    def setVariants(self, value):
+        self._setArray(1, value)
+        return
+
+    @staticmethod
+    def getVariantsType():
+        return unicode
+
+    def getSelectedVariants(self):
+        return self._getArray(2)
+
+    def setSelectedVariants(self, value):
+        self._setArray(2, value)
+        return
+
+    @staticmethod
+    def getSelectedVariantsType():
+        return unicode
+
+    def _initialize(self):
+        super(MapBoxAnswersModel, self)._initialize()
+        self._addBoolProperty(b'isMultipleChoice', False)
+        self._addArrayProperty(b'variants', Array())
+        self._addArrayProperty(b'selectedVariants', Array())
+        return

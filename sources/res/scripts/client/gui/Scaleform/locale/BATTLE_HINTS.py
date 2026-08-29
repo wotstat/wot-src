@@ -1,0 +1,12 @@
+class BATTLE_HINTS(object):
+    PENETRATION_CHANCE_HIGH = b'#battle_hints:penetration/chance/high'
+    PENETRATION_CHANCE_MEDIUM = b'#battle_hints:penetration/chance/medium'
+    PENETRATION_CHANCE_LOW = b'#battle_hints:penetration/chance/low'
+    CONTEXTHINT_CONSUMABLESPANEL_REPAIRKIT = b'#battle_hints:contextHint/consumablesPanel/repairkit'
+    CONTEXTHINT_CONSUMABLESPANEL_MEDKIT = b'#battle_hints:contextHint/consumablesPanel/medkit'
+    INFOBATTLECONTEXTHINT_KILLEDWHILEOBSERVED = b'#battle_hints:infoBattleContextHint/KilledWhileObserved'
+    INFOBATTLECONTEXTHINT_AMMUNITIONCRIT = b'#battle_hints:infoBattleContextHint/AmmunitionCrit'
+    INFOBATTLECONTEXTHINT_FUELTANKCRIT = b'#battle_hints:infoBattleContextHint/FueltankCrit'
+    INFOBATTLECONTEXTHINT_INSAFETYWHILENOTOBSERVED = b'#battle_hints:infoBattleContextHint/InSafetyWhileNotObserved'
+    INFOBATTLECONTEXTHINT_MODULEDAMAGE = b'#battle_hints:infoBattleContextHint/ModuleDamage'
+    SIXTHSENSECONTEXTHINT = b'#battle_hints:sixthSenseContextHint'

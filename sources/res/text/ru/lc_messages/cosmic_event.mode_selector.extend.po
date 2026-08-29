@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "cosmic_event/calendarTooltip/body"
+msgid_plural "plural/cosmic_event/calendarTooltip/body"
+msgstr[0] "Событие «В космос!» продлится ещё: %(days)d день."
+msgstr[1] "Событие «В космос!» продлится ещё: %(days)d дня."
+msgstr[2] "Событие «В космос!» продлится ещё: %(days)d дней."
+
+msgid "mode/cosmic_event/battlePassTooltip/body"
+msgstr "Выполняя ежедневные задания в режиме «В космос!», вы будете зарабатывать очки, необходимые для продвижения по прогрессии Боевого пропуска."
+
+msgid "mode/cosmic_event/battlePassTooltip/header"
+msgstr "Очки Боевого пропуска"
+
+msgid "mode/cosmic_event/description"
+msgstr "Энергичная экспедиция\nна планету Восток. Поехали!"
+
+msgid "mode/cosmic_event/notStarted"
+msgstr "Режим недоступен"
+
+msgid "mode/cosmic_event/primeTime"
+msgstr "----"
+
+msgid "mode/cosmic_event/progression"
+msgstr "Космическая прогрессия:\n%(current) / %(total)"
+
+msgid "mode/cosmic_event/title"
+msgstr "В космос!"
+
+msgid "reward/equipCoin/name"
+msgstr "Компоненты"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "За прохождение прогрессии вас ждут расточка каморы и многозубая каретка досылателя. Также за некоторые этапы прогрессии вы получите компоненты, которые необходимы для наладки оборудования."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Экспериментальное оборудование"
+
+msgid "reward/lootbox/description"
+msgstr "За прохождение этапов прогрессии вы будете получать контейнеры «Дар Востока». Внутри вас ждёт игровое имущество и контейнеры «Редкий гость», а в них — премиум техника, золото, компоненты для экспериментального оборудования, элементы внешнего вида и другие ценные награды."
+
+msgid "reward/lootbox/name"
+msgstr "Дар Востока"
+
+msgid "reward/prize/description"
+msgstr "При успешном прохождении экспедиции вас ждут личные резервы, декали, боны, дни Танкового премиум аккаунта и контейнеры «Марс»."
+
+msgid "reward/prize/name"
+msgstr "Прочие награды"
+
+msgid "reward/style2D/description"
+msgstr "Участвуйте в событии «На Марс!», чтобы получить эффектный 2D-стиль в марсианских тонах."
+
+msgid "reward/style2D/name"
+msgstr "2D-стиль"
+
+msgid "reward/tankmen/description"
+msgstr "При прохождении прогрессии вас ждут тематические члены экипажа."
+
+msgid "reward/tankmen/name"
+msgstr "Космонавты"

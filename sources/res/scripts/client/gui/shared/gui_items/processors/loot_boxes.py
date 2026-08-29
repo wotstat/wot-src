@@ -1,0 +1,59 @@
+import logging
+from functools import partial
+import BigWorld
+from AccountCommands import RES_COOLDOWN
+from constants import REQUEST_COOLDOWN
+from gui.shared.gui_items.processors import Processor, makeI18nError
+from helpers import uniprof
+_logger = logging.getLogger(__name__)
+_REQUEST_ATTEMPTS = 2
+_COOLDOWN_DELAY = 0.5
+
+class LootBoxOpenProcessor(Processor):
+    __slots__ = (b'__lootBox', b'__count', b'__keyID', b'__requestAttempts')
+
+    def __init__(self, lootBoxItem, count=1, keyID=0):
+        super(LootBoxOpenProcessor, self).__init__()
+        self.__lootBox = lootBoxItem
+        self.__count = count
+        self.__keyID = keyID
+        self.__requestAttempts = _REQUEST_ATTEMPTS
+        return
+
+    def _errorHandler(self, code, errStr=b'', ctx=None):
+        defaultKey = b'lootboxes/open/server_error'
+        return makeI18nError((b'/').join((defaultKey, errStr)), defaultKey)
+
+    def _request(self, callback):
+        uniprof.enterToRegion(b'LootBoxOpenProcessor.request')
+        if self.__keyID == 0:
+            _logger.debug(b'Make server request to open loot box by id: %r, count: %d', self.__lootBox, self.__count)
+            BigWorld.player().tokens.openLootBox(self.__lootBox.getID(), self.__count, (lambda code, errStr, ext: self._response(code, callback, ctx=ext, errStr=errStr)))
+        else:
+            _logger.debug(b'Make server request to open loot box by key by id: %r, count: %d keyID: %d', self.__lootBox, self.__count, self.__keyID)
+            BigWorld.player().tokens.openLootBoxByKey(self.__lootBox.getID(), self.__count, self.__keyID, (lambda code, errStr, ext: self._response(code, callback, ctx=ext, errStr=errStr)))
+        self.__requestAttempts -= 1
+        return
+
+    def _response(self, code, callback, errStr=b'', ctx=None):
+        uniprof.exitFromRegion(b'LootBoxOpenProcessor.request')
+        if code == RES_COOLDOWN and self.__requestAttempts:
+            _logger.debug(b'Server cooldown response: code=%r, error=%r, ctx=%r', code, errStr, ctx)
+            BigWorld.callback(REQUEST_COOLDOWN.LOOTBOX + _COOLDOWN_DELAY, partial(self._request, callback))
+            return None
+        else:
+            return super(LootBoxOpenProcessor, self)._response(code, callback, errStr, ctx)
+
+
+class LootBoxGetInfoProcessor(Processor):
+
+    def __init__(self, lootBoxes):
+        super(LootBoxGetInfoProcessor, self).__init__()
+        self.__lootBoxes = lootBoxes
+        return
+
+    def _request(self, callback):
+        lootboxIDs = [item.getID() for item in self.__lootBoxes]
+        _logger.debug(b'Make server request to get info about loot boxes by ids %r', lootboxIDs)
+        BigWorld.player().tokens.getInfoLootBox(lootboxIDs, (lambda code, errStr, ext: self._response(code, callback, ctx=ext, errStr=errStr)))
+        return

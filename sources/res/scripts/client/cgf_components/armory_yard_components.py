@@ -1,0 +1,644 @@
+import BigWorld, CGF, GenericComponents, Event
+from gui.shared.utils.graphics import isRendererPipelineDeferred
+from CameraComponents import CameraComponent
+from cgf_components.hover_component import SelectionComponent
+from cache import cached_property
+from cgf_script.component_meta_class import registerComponent, ComponentProperty, CGFMetaTypes
+from cgf_script.managers_registrator import onAddedQuery, onRemovedQuery
+from debug_utils import LOG_ERROR
+from vehicle_systems.stricted_loading import makeCallbackWeak
+from vehicle_systems.tankStructure import ColliderTypes
+
+@registerComponent
+class ArmoryYardCameraRuleComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Armory Yard Camera Rule'
+    category = b'Armory Yard'
+    stageCamera = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Camera', value=CGF.GameObject)
+
+
+@registerComponent
+class AssemblyStageVideo(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Assembly stage video'
+    category = b'Armory Yard'
+    videoName = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'Video name')
+
+
+@registerComponent
+class TankAssemblyPartComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Tank Assembly Part'
+    category = b'Armory Yard'
+    index = ComponentProperty(type=CGFMetaTypes.INT, editorName=b'Group index', value=1)
+    visualGO = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Visual part', value=CGF.GameObject)
+    animGO = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Animation part', value=CGF.GameObject)
+
+
+@registerComponent
+class AssemblyStageIndex(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Assembly Stage Index'
+    category = b'Armory Yard'
+    index = ComponentProperty(type=CGFMetaTypes.INT, editorName=b'Stage index')
+
+
+@registerComponent
+class TankAssemblyRootComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Tank Assembly Root'
+    category = b'Armory Yard'
+
+
+@registerComponent
+class HideDetailsAfterStageComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Hide details after stage'
+    category = b'Armory Yard'
+    toHideAfterStage = ComponentProperty(type=CGFMetaTypes.INT, editorName=b'To hide after stage')
+
+
+@registerComponent
+class HideDetailsOnStageComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Hide details on stage'
+    category = b'Armory Yard'
+    toHideOnStage = ComponentProperty(type=CGFMetaTypes.INT, editorName=b'To hide on stage')
+
+
+@registerComponent
+class ShowDetailsAfterStageComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Show details after stage'
+    category = b'Armory Yard'
+    toShowAfterStage = ComponentProperty(type=CGFMetaTypes.INT, editorName=b'To show after stage')
+
+
+@registerComponent
+class HideDetailsOnPresetComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Hide details on graphics preset'
+    category = b'Armory Yard'
+    toHideOnForward = ComponentProperty(type=CGFMetaTypes.BOOL, editorName=b'To hide on forward')
+    toHideOnDeferred = ComponentProperty(type=CGFMetaTypes.BOOL, editorName=b'To hide on deferred')
+
+
+@registerComponent
+class SchemeStagesRuleComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Scheme stages rule'
+    category = b'Armory Yard'
+    fromStage = ComponentProperty(type=CGFMetaTypes.INT, editorName=b'From stage')
+    toStage = ComponentProperty(type=CGFMetaTypes.INT, editorName=b'To stage')
+
+
+@registerComponent
+class SchemeProgressionStateComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Scheme progression state'
+    category = b'Armory Yard'
+    stage = ComponentProperty(type=CGFMetaTypes.INT, editorName=b'Stage')
+    progression = ComponentProperty(type=CGFMetaTypes.FLOAT, editorName=b'Progression', value=0.0)
+
+
+@registerComponent
+class RecorderComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Recorder component'
+    category = b'Armory Yard'
+    spool1 = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Spool 1', value=CGF.GameObject)
+    spool2 = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Spool 2', value=CGF.GameObject)
+    lamp = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Lamp', value=CGF.GameObject)
+    lampAnimation = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Lamp animation', value=CGF.GameObject)
+
+
+@registerComponent
+class HangarDetailsComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Hangar Details'
+    category = b'Armory Yard'
+    prefabPath = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'Prefab path', value=b'')
+
+
+@registerComponent
+class ArmoryPointOfInterest(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Armory yard point of interest'
+    category = b'Armory Yard'
+    cameraName = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'Camera name', value=b'')
+
+
+@registerComponent
+class ArmoryCameraToPoiComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Armory yard camera to POI setting'
+    category = b'Armory Yard'
+    poiName = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'POI name', value=b'')
+
+
+@registerComponent
+class ArmoryCharacterDistributionComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Armory yard character distribution'
+    category = b'Armory Yard'
+    fromStage = ComponentProperty(type=CGFMetaTypes.INT, editorName=b'From stage', value=0)
+    toStage = ComponentProperty(type=CGFMetaTypes.INT, editorName=b'To stage', value=0)
+
+
+@registerComponent
+class ArmoryDynamicCameraColliderComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Armory dynamic camera collider'
+    category = b'Armory Yard'
+    modelPath = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'Model path', annotations={b'path': b'*.model'})
+
+
+@registerComponent
+class AssemblyStageXrayComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Assembly stage xray'
+    category = b'Armory Yard'
+    activeParts = ComponentProperty(type=CGFMetaTypes.STRING_LIST, editorName=b'Active Part Names')
+
+
+@registerComponent
+class ArmoryPartXrayAnimationComponent(object):
+    domain = CGF.DomainOption.DomainClient | CGF.DomainOption.DomainEditor
+    editorTitle = b'Armory part xray animation'
+    category = b'Armory Yard'
+    partName = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'Part name', value=b'')
+    openName = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'Open anim layer name', value=b'')
+    closeName = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'Close anim layer name', value=b'')
+
+
+def partAnimatorComponent(part):
+    partComponent = part.findComponentByType(TankAssemblyPartComponent)
+    if partComponent is not None:
+        return (partComponent, partComponent.animGO.findComponentByType(GenericComponents.AnimatorComponent))
+    else:
+        return (None, None)
+
+
+class AssemblyStageIndexManager(CGF.ComponentManager):
+
+    def __init__(self):
+        super(AssemblyStageIndexManager, self).__init__()
+        self.__rootObject = None
+        self.__eventManager = Event.EventManager()
+        self.onReady = Event.SafeEvent(self.__eventManager)
+        self.__stageIndexToStageGO = {}
+        self.__stageGroupParts = {}
+        self.__stageGroupDuration = {}
+        self.__stageVideo = {}
+        self.__toHideListAfterStageGO = []
+        self.__toHideListOnStageGO = []
+        self.__toShowListAfterStageGO = []
+        self.__stageCameras = {}
+        self.__cameraToPOI = {}
+        self.__pointsOfInterest = []
+        self.__hangarDetailsGO = None
+        self.__hangarDetailsPath = b''
+        self.__hangarDetailsPos = None
+        self.__recorderGO = None
+        self.__schemeStageRange = None
+        self.__schemeGO = None
+        self.__schemeProgressionStates = {}
+        self.__partXrayGOs = {}
+        return
+
+    @onRemovedQuery(TankAssemblyRootComponent, CGF.GameObject)
+    def onRemoved(self, rootComponent, gameObject):
+        self.__stageIndexToStageGO = {}
+        self.__stageGroupParts = {}
+        self.__stageGroupDuration = {}
+        self.__stageVideo = {}
+        self.__toHideListAfterStageGO = []
+        self.__toHideListOnStageGO = []
+        self.__toShowListAfterStageGO = []
+        self.__stageCameras = {}
+        self.__cameraToPOI = {}
+        self.__pointsOfInterest = []
+        self.__rootObject = None
+        self.__hangarDetailsGO = None
+        self.__hangarDetailsPath = b''
+        self.__hangarDetailsPos = None
+        self.__recorderGO = None
+        self.__schemeStageRange = None
+        self.__schemeGO = None
+        self.__schemeProgressionStates = {}
+        self.__partXrayGOs = {}
+        self.__eventManager.clear()
+        return
+
+    @onAddedQuery(ArmoryPointOfInterest, CGF.GameObject)
+    def onAddedPOI(self, poiComponent, gameObject):
+        self.__pointsOfInterest.append((poiComponent.cameraName, gameObject))
+        return
+
+    @onAddedQuery(HideDetailsAfterStageComponent, CGF.GameObject)
+    def onAddedHideDetailsAfterStageComponent(self, hideComponent, gameObject):
+        self.__toHideListAfterStageGO.append((hideComponent.toHideAfterStage, gameObject))
+        return
+
+    @onAddedQuery(HideDetailsOnStageComponent, CGF.GameObject)
+    def onAddedHideDetailsOnStageComponent(self, hideComponent, gameObject):
+        self.__toHideListOnStageGO.append((hideComponent.toHideOnStage, gameObject))
+        return
+
+    @onAddedQuery(HideDetailsOnPresetComponent, CGF.GameObject)
+    def onAddedHideDetailsOnPresetComponent(self, hideComponent, gameObject):
+        deferred = isRendererPipelineDeferred()
+        if hideComponent.toHideOnDeferred and deferred or hideComponent.toHideOnForward and not deferred:
+            CGF.removeGameObject(gameObject)
+        return
+
+    @onAddedQuery(ShowDetailsAfterStageComponent, CGF.GameObject)
+    def onAddedShowDetailsAfterStageComponent(self, showComponent, gameObject):
+        self.__toShowListAfterStageGO.append((showComponent.toShowAfterStage, gameObject))
+        return
+
+    @onAddedQuery(ArmoryYardCameraRuleComponent, AssemblyStageIndex, CGF.GameObject)
+    def onAddedCameraRule(self, cameraRuleComponent, stageComponent, go):
+        cameraComponent = cameraRuleComponent.stageCamera.findComponentByType(CameraComponent)
+        if cameraComponent is not None:
+            self.__stageCameras[stageComponent.index] = cameraComponent.name
+        return
+
+    @onAddedQuery(ArmoryCameraToPoiComponent, CameraComponent, CGF.GameObject)
+    def onAddedCameraToPoiComponent(self, cameraToPoiComponent, cameraComponent, go):
+        self.__cameraToPOI[cameraComponent.name] = cameraToPoiComponent.poiName
+        return
+
+    @onAddedQuery(SchemeStagesRuleComponent, CGF.GameObject)
+    def onAddedSchemeStagesRule(self, schemeComponent, gameObject):
+        self.__schemeGO = gameObject
+        self.__schemeStageRange = (schemeComponent.fromStage, schemeComponent.toStage)
+        animatorComponent = gameObject.findComponentByType(GenericComponents.AnimatorComponent)
+        if animatorComponent is None:
+            return
+        else:
+            for stage in range(schemeComponent.fromStage, schemeComponent.toStage + 1):
+                self.__stageGroupDuration[stage] = {}
+                self.__stageGroupDuration[stage].update({0: None})
+                duration = animatorComponent.getDuration(stage - 1)
+                self.__stageGroupDuration[stage][0] = max(self.__stageGroupDuration[stage][0], duration)
+
+            return
+
+    @onAddedQuery(ArmoryPartXrayAnimationComponent, GenericComponents.DynamicModelComponent, GenericComponents.AnimatorComponent, CGF.GameObject)
+    def onAddedPartXrayAnimation(self, xrayComponent, dynModelComponent, animatorComponent, go):
+        if xrayComponent.openName == b'' or xrayComponent.closeName == b'':
+            LOG_ERROR((b'GO {} : ArmoryPartXrayAnimationComponent has empty layer names!').format(go.name))
+            return
+        if xrayComponent.partName == b'':
+            LOG_ERROR((b'GO {} : ArmoryPartXrayAnimationComponent has empty name!').format(go.name))
+            return
+        self.__partXrayGOs[xrayComponent.partName] = go
+        return
+
+    @onAddedQuery(ArmoryDynamicCameraColliderComponent, CGF.GameObject)
+    def onAddedCollider(self, colliderComponent, go):
+        modelName = colliderComponent.modelPath
+        collisionModels = ((0, modelName),)
+        collisionAssembler = BigWorld.CollisionAssembler(collisionModels, self.spaceID)
+        BigWorld.loadResourceListBG((collisionAssembler,), makeCallbackWeak(self.__onCollisionsLoaded, go))
+        return
+
+    def __onCollisionsLoaded(self, gameObject, resourceRefs):
+        if gameObject.findComponentByType(BigWorld.CollisionComponent) is None:
+            collisionComponent = gameObject.createComponent(BigWorld.CollisionComponent, resourceRefs[b'collisionAssembler'])
+            transformComponent = gameObject.findComponentByType(GenericComponents.TransformComponent)
+            collisionData = ((0, transformComponent.worldTransform),)
+            collisionComponent.connect(0, ColliderTypes.DYNAMIC_COLLIDER, collisionData)
+            colliderData = (
+             collisionComponent.getColliderID(), (0,))
+            BigWorld.appendCameraCollider(colliderData)
+        return
+
+    @onRemovedQuery(ArmoryDynamicCameraColliderComponent, CGF.GameObject)
+    def onRemovedCollider(self, colliderComponent, go):
+        collisionComponent = go.findComponentByType(BigWorld.CollisionComponent)
+        if collisionComponent is not None:
+            BigWorld.removeCameraCollider(collisionComponent.getColliderID())
+            go.removeComponent(collisionComponent)
+        return
+
+    @onAddedQuery(RecorderComponent, GenericComponents.VSEComponent, CGF.GameObject)
+    def onAddedRecorder(self, recorderComp, vseComponent, gameObject):
+        self.__recorderGO = gameObject
+        return
+
+    @onAddedQuery(HangarDetailsComponent, CGF.GameObject, tickGroup=b'postHierarchyUpdate')
+    def onAddedHangarDetails(self, detailsComponent, gameObject):
+        self.__hangarDetailsGO = gameObject
+        self.__hangarDetailsPath = detailsComponent.prefabPath
+        transformComponent = gameObject.findComponentByType(GenericComponents.TransformComponent)
+        self.__hangarDetailsPos = transformComponent.worldTransform
+        return
+
+    @onAddedQuery(SchemeProgressionStateComponent, CGF.GameObject)
+    def onAddedSchemeProgressionState(self, stateComponent, go):
+        self.__schemeProgressionStates[stateComponent.stage] = stateComponent.progression
+        return
+
+    @onAddedQuery(TankAssemblyRootComponent, CGF.GameObject, tickGroup=b'postHierarchyUpdate')
+    def onAdded(self, rootComponent, gameObject):
+        for stageGO in self.__hierarchyManager.getChildren(gameObject):
+            self.processStage(stageGO)
+
+        self.__rootObject = self.__hierarchyManager.getTopMostParent(gameObject)
+        vseComponent = self.__recorderGO.findComponentByType(GenericComponents.VSEComponent)
+        if vseComponent is not None:
+            vseComponent.start()
+        self.onReady()
+        return
+
+    def processStage(self, stageGO):
+        stageIndexComponent = stageGO.findComponentByType(AssemblyStageIndex)
+        if stageIndexComponent is None:
+            return
+        stageIndex = stageIndexComponent.index
+        self.__stageIndexToStageGO[stageIndex] = stageGO
+        self.__stageGroupParts[stageIndex] = {}
+        self.__stageGroupDuration[stageIndex] = {}
+        if self.__hierarchyManager.getChildren(stageGO) is not None:
+            for child in self.__hierarchyManager.getChildren(stageGO):
+                partGroupId = 0
+                partComponent, animComponent = partAnimatorComponent(child)
+                if animComponent is not None and partComponent is not None:
+                    partGroupId = partComponent.index
+                    if partGroupId not in self.__stageGroupDuration[stageIndex]:
+                        self.__stageGroupDuration[stageIndex].update({partGroupId: None})
+                    if partGroupId not in self.__stageGroupParts[stageIndex]:
+                        self.__stageGroupParts[stageIndex].update({partGroupId: []})
+                    duration = animComponent.getDelay() + animComponent.getDuration() / animComponent.getSpeed()
+                    self.__stageGroupDuration[stageIndex][partGroupId] = max(self.__stageGroupDuration[stageIndex][partGroupId], duration)
+                    partComponent.animGO.deactivate()
+                    partComponent.visualGO.deactivate()
+                self.__stageGroupParts[stageIndex][partGroupId].append(child)
+
+        videoNameComponent = stageGO.findComponentByType(AssemblyStageVideo)
+        if videoNameComponent is not None:
+            self.__stageVideo[stageIndex] = videoNameComponent.videoName
+        return
+
+    def __getXrayComponents(self, partName):
+        partXrayGO = self.__partXrayGOs.get(partName)
+        if not partXrayGO:
+            LOG_ERROR((b'AssemblyStageIndexManager : can not get Xray components for partName {}').format(partName))
+            return (None, None)
+        else:
+            xrayComponent = partXrayGO.findComponentByType(ArmoryPartXrayAnimationComponent)
+            animatorComponent = partXrayGO.findComponentByType(GenericComponents.AnimatorComponent)
+            return (xrayComponent, animatorComponent)
+
+    def openXray(self, partName):
+        xrayComponent, animatorComponent = self.__getXrayComponents(partName)
+        if xrayComponent is not None and animatorComponent is not None:
+            animatorComponent.stop()
+            animatorComponent.startLayerByName(xrayComponent.openName)
+            return animatorComponent.getDurationByName(xrayComponent.openName)
+        else:
+            return 0.0
+
+    def closeXray(self, partName):
+        xrayComponent, animatorComponent = self.__getXrayComponents(partName)
+        if xrayComponent is not None and animatorComponent is not None:
+            animatorComponent.stop()
+            animatorComponent.startLayerByName(xrayComponent.closeName)
+            return animatorComponent.getDurationByName(xrayComponent.closeName)
+        else:
+            return 0.0
+
+    def getOpenXrayDuration(self, partName):
+        xrayComponent, animatorComponent = self.__getXrayComponents(partName)
+        if xrayComponent is not None and animatorComponent is not None:
+            return animatorComponent.getDurationByName(xrayComponent.openName)
+        else:
+            return 0.0
+
+    def getCloseXrayDuration(self, partName):
+        xrayComponent, animatorComponent = self.__getXrayComponents(partName)
+        if xrayComponent is not None and animatorComponent is not None:
+            return animatorComponent.getDurationByName(xrayComponent.closeName)
+        else:
+            return 0.0
+
+    def getActiveXrayPartNames(self, stageIndex):
+        if stageIndex in self.__stageIndexToStageGO:
+            stageGO = self.__stageIndexToStageGO[stageIndex]
+            xrayStageComponent = stageGO.findComponentByType(AssemblyStageXrayComponent)
+            if xrayStageComponent:
+                return xrayStageComponent.activeParts
+        return []
+
+    def __startSchemeStage(self, stageIndex):
+        if self.__schemeGO is None:
+            return
+        else:
+            animatorComponent = self.__schemeGO.findComponentByType(GenericComponents.AnimatorComponent)
+            if animatorComponent is not None:
+                animatorComponent.stop()
+                animatorComponent.startLayer(stageIndex - 1)
+            return
+
+    def activateStageGroup(self, stageIndex, stageGroupId):
+        if self.isSchemeStage(stageIndex):
+            self.__startSchemeStage(stageIndex)
+            return
+        else:
+            self.__stageActivation(stageIndex, stageGroupId, (lambda visualGO, animGO: animGO.activate()))
+            if stageIndex is not None and stageGroupId is not None:
+                for part in self.__stageGroupParts[stageIndex][stageGroupId]:
+                    _, animatorComponent = partAnimatorComponent(part)
+                    if animatorComponent is not None:
+                        animatorComponent.start()
+
+            return
+
+    def activateToStage(self, fromStageIndex, toStageIndex):
+        for stageIndex in range(fromStageIndex, toStageIndex):
+            if self.stageExists(stageIndex):
+                self.__stageIndexToStageGO[stageIndex].activate()
+                for stageGroupId in self.getStageSortedGroups(stageIndex):
+                    self.endStageGroup(stageIndex, stageGroupId)
+
+        lastSchemeStage = min(toStageIndex - 1, self.__schemeStageRange[1])
+        self.__setSchemeProgressionState(lastSchemeStage)
+        return
+
+    def endStageGroup(self, stageIndex, stageGroupId):
+        self.__stageActivation(stageIndex, stageGroupId, (lambda visualGO, animGO: visualGO.activate()), (lambda visualGO, animGO: animGO.deactivate()))
+        return
+
+    def deactivateStageGroup(self, stageIndex, stageGroupId):
+        self.__stageActivation(stageIndex, stageGroupId, (lambda visualGO, animGO: visualGO.deactivate()), (lambda visualGO, animGO: animGO.deactivate()))
+        return
+
+    def deactivateAllStage(self):
+        for stageIndex in self.__stageIndexToStageGO:
+            self.deactivateSingleStage(stageIndex)
+
+        schemeAnimator = self.__schemeGO.findComponentByType(GenericComponents.AnimatorComponent)
+        if schemeAnimator is not None:
+            schemeAnimator.stop()
+        self.__setSchemeProgressionState(0)
+        return
+
+    def deactivateSingleStage(self, stageIndex):
+        for stageGroupId in self.__stageGroupParts[stageIndex].keys():
+            self.__stageActivation(stageIndex, stageGroupId, (lambda visualGO, animGO: visualGO.deactivate()), (lambda visualGO, animGO: animGO.deactivate()))
+
+        return
+
+    def stageExists(self, stageIndex):
+        return stageIndex in self.__stageIndexToStageGO.keys()
+
+    def stageGroupDuration(self, stageIndex, groupId):
+        return self.__stageGroupDuration[stageIndex][groupId]
+
+    def stageDuration(self, stageIndex):
+        return max(self.__stageGroupDuration[stageIndex].values())
+
+    def stageVideoName(self, stageIndex):
+        return self.__stageVideo.get(stageIndex, None)
+
+    def getRoot(self):
+        return self.__rootObject
+
+    def getStagePartGroup(self, stageIndex, groupId):
+        return self.__stageGroupParts[stageIndex][groupId]
+
+    def getStageSortedGroups(self, stageIndex):
+        return sorted(self.__stageGroupParts[stageIndex])
+
+    def stageHasDurationPart(self, stageIndex):
+        return len(self.__stageGroupDuration.get(stageIndex, {})) > 0
+
+    def tryHideUnnecessaryPartsAfterStage(self, stage):
+        for toHideAfterStage, gameObject in self.__toHideListAfterStageGO:
+            if toHideAfterStage <= stage:
+                gameObject.deactivate()
+
+        return
+
+    def tryUnhideUnnecessaryPartsAfterStage(self, stage):
+        for toHideAfterStage, gameObject in self.__toHideListAfterStageGO:
+            if toHideAfterStage <= stage:
+                gameObject.activate()
+
+        return
+
+    def tryHideUnnecessaryPartsOnStage(self, stage):
+        for toHideOnStage, gameObject in self.__toHideListOnStageGO:
+            if toHideOnStage <= stage:
+                gameObject.deactivate()
+
+        return
+
+    def tryUnhideUnnecessaryPartsOnStage(self, stage):
+        for toHideOnStage, gameObject in self.__toHideListOnStageGO:
+            if toHideOnStage <= stage:
+                gameObject.activate()
+
+        return
+
+    def showNonSequenceObjectAfterStage(self, stage):
+        for toShowAfterStage, gameObject in self.__toShowListAfterStageGO:
+            if toShowAfterStage == stage:
+                gameObject.activate()
+
+        return
+
+    def hideNonSequenceObjectAfterStage(self):
+        for _, gameObject in self.__toShowListAfterStageGO:
+            gameObject.deactivate()
+
+        return
+
+    def __setSchemeProgressionState(self, stage):
+        if self.__schemeGO is None:
+            return
+        else:
+            modelComponent = self.__schemeGO.findComponentByType(GenericComponents.DynamicModelComponent)
+            if modelComponent is not None:
+                modelComponent.setMaterialParameterFloat(b'spawnProgeression', self.__schemeProgressionStates[stage])
+            return
+
+    def getHangarDetailsPath(self):
+        return self.__hangarDetailsPath
+
+    def getHangarDetailsGameObject(self):
+        return self.__hangarDetailsGO
+
+    def getHangarDetailsPosition(self):
+        return self.__hangarDetailsPos
+
+    def isSchemeStage(self, stage):
+        return self.__schemeStageRange[0] <= stage <= self.__schemeStageRange[1]
+
+    def getCameraDataByStageIndex(self, stageIndex):
+        if stageIndex in self.__stageCameras:
+            return self.__stageCameras[stageIndex]
+        return self.__stageCameras[sorted(self.__stageCameras.keys())[-1]]
+
+    def stageIsPlaying(self, stageIndex):
+        if self.isSchemeStage(stageIndex):
+            animatorComponent = self.__schemeGO.findComponentByType(GenericComponents.AnimatorComponent)
+            if animatorComponent is not None:
+                return animatorComponent.isPlaying()
+            return False
+        go = self.__stageIndexToStageGO.get(stageIndex)
+        if not go:
+            return False
+        else:
+            if self.__hierarchyManager.getChildren(go) is not None:
+                for child in self.__hierarchyManager.getChildren(go):
+                    _, animatorComponent = partAnimatorComponent(child)
+                    if animatorComponent is not None:
+                        return animatorComponent.isPlaying()
+
+            return False
+
+    def __stageActivation(self, stageIndex, stageGroupId, *args):
+        if stageIndex is not None and stageGroupId is not None:
+            for part in self.__stageGroupParts[stageIndex][stageGroupId]:
+                partComponent, _ = partAnimatorComponent(part)
+                if partComponent is not None:
+                    for func in args:
+                        func(partComponent.visualGO, partComponent.animGO)
+
+        return
+
+    def turnOffRecorderHighlight(self):
+        self.__recorderGO.removeComponentByType(SelectionComponent)
+        return
+
+    def turnOnRecorderHighlight(self):
+        if self.__recorderGO.findComponentByType(SelectionComponent) is None:
+            self.__recorderGO.createComponent(SelectionComponent)
+        return
+
+    def turnOffHighlight(self):
+        for _, gameObject in self.__pointsOfInterest:
+            gameObject.removeComponentByType(SelectionComponent)
+
+        return
+
+    def turnOnHighlight(self, activePoiCameraName):
+        activePoiName = self.__cameraToPOI.get(activePoiCameraName, None)
+        if activePoiName is None:
+            return
+        else:
+            for _, gameObject in self.__pointsOfInterest:
+                if gameObject.findComponentByType(SelectionComponent) is None:
+                    poiComp = gameObject.findComponentByType(ArmoryPointOfInterest)
+                    if poiComp is not None and poiComp.cameraName != activePoiName or poiComp is None:
+                        gameObject.createComponent(SelectionComponent)
+
+            return
+
+    @cached_property
+    def __hierarchyManager(self):
+        hierarchyManager = CGF.HierarchyManager(self.spaceID)
+        return hierarchyManager

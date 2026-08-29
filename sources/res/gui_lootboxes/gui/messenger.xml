@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<htmlTemplatesSimple>
+		<collectionsCompensation>&lt;font color='#8C8C7E'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/compensation) _(#gui_lootboxes.lb_messenger:serviceChannelMessages/lootbox/openedLootBox/compensation/collections) (&lt;b&gt;%(amount)s&lt;/b&gt; _(#messenger:serviceChannelMessages/invoiceReceived/pieces)) %(compensation)s&lt;/font&gt;</collectionsCompensation>
+	</htmlTemplatesSimple>
+	<htmlTemplates>
+		<LootBoxOpenedSysMessage>
+			<type>yellow</type>
+			<priority>medium</priority>
+			<icon>WarningIcon</icon>
+			<message>&lt;font face="$TitleFont" size="15" color="#E9E2BF"&gt;%(header)s&lt;/font&gt;%(infoText)s
+&lt;font color='#8C8C7E'&gt;_(#gui_lootboxes.lb_messenger:serviceChannelMessages/lootbox/openedLootBox/date): &lt;/font&gt;%(date)s
+%(mainText)s</message>
+		</LootBoxOpenedSysMessage>
+		<NYSurpriseMachineRewardsSysMessage>
+			<type>yellow</type>
+			<priority>medium</priority>
+			<icon>NyTokenIcon</icon>
+			<message>&lt;font face="$TitleFont" size="15" color="#E9E2BF"&gt;_(#gui_lootboxes.lb_messenger:serviceChannelMessages/nyMachine/autoopen/header)&lt;/font&gt;&lt;br/&gt;&lt;font face="$FieldFont" size="14" color='#8C8C7E'&gt;&lt;b&gt;_(#gui_lootboxes.lb_messenger:serviceChannelMessages/nyMachine/autoopen/writeOff)&lt;/b&gt;&lt;br/&gt;%(coins)s&lt;/font&gt;&lt;br/&gt;&lt;font face="$FieldFont" size="14" color='#8C8C7E'&gt;&lt;b&gt;_(#gui_lootboxes.lb_messenger:serviceChannelMessages/nyMachine/autoopen/rewardsTitle)&lt;/b&gt;&lt;br/&gt;%(rewards)s&lt;/font&gt;</message>
+		</NYSurpriseMachineRewardsSysMessage>
+		<ImmediatelyOpenLootBoxSysMessage>
+			<type>yellow</type>
+			<priority>low</priority>
+			<icon>WarningIcon</icon>
+			<message>&lt;font face="$TitleFont" size="15" color="#E9E2BF"&gt;%(header)s&lt;/font&gt;&lt;br/&gt; &lt;br/&gt;&lt;font color='#8C8C7E'&gt;_(#gui_lootboxes.lb_messenger:serviceChannelMessages/lootbox/openedLootBox/date): &lt;/font&gt;%(date)s &lt;br/&gt;&lt;br/&gt;&lt;font face="$FieldFont" size="14" color='#8C8C7E'&gt;&lt;b&gt;_(#gui_lootboxes.lb_messenger:serviceChannelMessages/lootbox/openedLootBox/receivedRewards/header)&lt;/b&gt;&lt;br/&gt;%(rewards)s&lt;/font&gt;</message>
+		</ImmediatelyOpenLootBoxSysMessage>
+	</htmlTemplates>
+</root>

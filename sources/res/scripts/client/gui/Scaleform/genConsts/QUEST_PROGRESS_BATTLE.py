@@ -1,0 +1,12 @@
+class QUEST_PROGRESS_BATTLE(object):
+    QUEST_PROGRESS_TAB_VIEW = b'QuestProgressTabViewUI'
+    QP_ANIM_RADIAL_COMPLETED = b'RadialBarAnimCompleted54UI'
+    QP_ANIM_RADIAL_PROGRESS = b'RadialBarAnimProgress54UI'
+    QP_ANIM_RADIAL_FAILED = b'RadialBarAnimFailed54UI'
+    QP_ANIM_HEXAGON_COMPLETED = b'HexagonBarAnimCompleted94UI'
+    QP_ANIM_HEXAGON_PROGRESS = b'HexagonBarAnimProgress94UI'
+    QP_ANIM_HEXAGON_FAILED = b'HexagonBarAnimFailed94UI'
+    QP_ANIM_STATUS_FAILD = b'animStatusFaild'
+    QP_ANIM_STATUS_COMPLETED = b'animStatusCompleted'
+    QP_ANIM_STATUS_PROGRESS = b'animStatusProgress'
+    QP_TRACKING_BTN = b'QuestTrackingButtonUI'

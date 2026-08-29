@@ -1,0 +1,26 @@
+from frameworks.wulf import Array
+from gui.impl.gen.view_models.common.missions.bonuses.bonus_model import BonusModel
+from gui.impl.gen.view_models.views.lobby.daily.widget_quest_model import WidgetQuestModel
+
+class CosmicDailyMissions(WidgetQuestModel):
+    __slots__ = ()
+
+    def __init__(self, properties=10, commands=0):
+        super(CosmicDailyMissions, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getRewards(self):
+        return self._getArray(9)
+
+    def setRewards(self, value):
+        self._setArray(9, value)
+        return
+
+    @staticmethod
+    def getRewardsType():
+        return BonusModel
+
+    def _initialize(self):
+        super(CosmicDailyMissions, self)._initialize()
+        self._addArrayProperty(b'rewards', Array())
+        return

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:14_siegfried_line/name</name>
+	<description>#arenas:14_siegfried_line/description</description>
+	<geometry>spaces/14_siegfried_line</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-500 -500</bottomLeft>
+		<upperRight>500 500</upperRight>
+	</boundingBox>
+	<minimap>spaces/14_siegfried_line/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_siegfried_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_siegfried_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_siegfried_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_siegfried_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_siegfried_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_siegfried_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>amb_map_14_siegfried_line_wind_autumn</wwambientSound>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>env_Forest.bnk</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>255.79982 -439.829651</position1>
+				</team1>
+				<team2>
+					<position1>284.238831 434.601624</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-81 -415</position>
+					<position>179 -422</position>
+				</team1>
+				<team2>
+					<position>-127 414</position>
+					<position>100 397</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>334.886871 42.8608894</controlPoint>
+		</domination>
+		<assault>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<teamSpawnPoints>
+				<team1>
+					<position>473.198914 79.6172638</position>
+				</team1>
+				<team2>
+					<position>-253.921677 14.0720444</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>176.318863 8.63967896</position1>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault>
+		<assault2>
+			<minimap>spaces/14_siegfried_line/mmap_assault2.dds</minimap>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>230.391937 418.034119</position>
+				</team1>
+				<team2>
+					<position>-415.758575 -188.136261</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-117.916603 355.496674</position1>
+					<position2>289.60434 -11.8184586</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<comp7>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<teamBasePositions>
+				<team1>
+					<position1>-117.916603 355.496674</position1>
+					<position2>289.60434 -11.8184586</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+			<teamSpawnPoints>
+				<team1>
+					<position>234.837097 426.120605</position>
+				</team1>
+				<team2>
+					<position>-414.303802 -185.828674</position>
+				</team2>
+			</teamSpawnPoints>
+			<pointsOfInterestUDO>
+				<point>
+					<position>43.7715416 256.325623</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>26.5624866 -252.346054</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-29.2769699 6.13488817</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>471.741791 -352.986328</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-473.341278 41.2384529</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>439.494568 151.003967</position>
+					<type>3</type>
+				</point>
+			</pointsOfInterestUDO>
+		</comp7>
+	</gameplayTypes>
+</root>

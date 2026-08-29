@@ -1,0 +1,641 @@
+import random
+from functools import partial
+from itertools import groupby
+from logging import getLogger
+from types import NoneType
+from CurrentVehicle import g_currentVehicle
+from account_helpers import AccountSettings
+from account_helpers.AccountSettings import STYLE_PREVIEW_VEHICLES_POOL
+from constants import NC_MESSAGE_PRIORITY
+from debug_utils import LOG_ERROR
+from gui import SystemMessages
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.daapi.view.lobby.vehicle_preview.configurable_vehicle_preview import OptionalBlocks
+from gui.Scaleform.daapi.view.lobby.vehicle_preview.items_kit_helper import canInstallStyle, getCDFromId
+from gui.Scaleform.locale.VEHICLE_PREVIEW import VEHICLE_PREVIEW
+from gui.customization.constants import CustomizationModes
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.server_events.events_dispatcher import showMissionsMarathon
+from gui.shared.ext_money import ExtendedMoney
+from gui.shared import event_dispatcher
+from gui.shared.event_dispatcher import showHangar, showMarathonRewardScreen, showStyleBuyingPreview, showStylePreview, showStyleProgressionPreview
+from gui.shared.gui_items import GUI_ITEM_TYPE
+from gui.shared.money import Currency, MONEY_UNDEFINED, Money
+from gui.shared.utils.requesters import REQ_CRITERIA
+from helpers import dependency
+from helpers.i18n import makeString as _ms
+from helpers.time_utils import getCurrentLocalServerTimestamp, getDateTimeInLocal, getDateTimeInUTC, getTimeStructInLocal, getTimestampFromISO, utcToLocalDatetime
+from items import ITEM_TYPES, vehicles
+from items.components.c11n_constants import CustomizationNamesToTypes
+from shared_utils import first
+from skeletons.gui.customization import ICustomizationService
+from skeletons.gui.game_control import IEpicBattleMetaGameController, IVehicleComparisonBasket
+from skeletons.gui.shared import IItemsCache
+from soft_exception import SoftException
+from web.web_client_api import Field, W2CSchema, w2c
+from web.web_client_api.common import CompensationSpec, CompensationType, ItemPackEntry, ItemPackType, ItemPackTypeGroup, VehicleOfferEntry
+_logger = getLogger(__name__)
+REQUIRED_ITEM_FIELDS = {
+ b'type', b'id', b'count', b'groupID'}
+REQUIRED_COMPENSATION_FIELDS = {b'type', b'value'}
+REQUIRED_CUSTOMCREW_FIELDS = {b'extra'}
+REQUIRED_TANKMAN_FIELDS = {
+ 44, 
+ 45, 
+ 46, 
+ 47, 
+ 48, 
+ 49}
+DEFAULT_STYLED_VEHICLES = (
+ 15697,
+ 6193,
+ 19969,
+ 3937)
+_CUSTOM_CREW_KEYS = {
+ b'telecom_rentals'}
+
+class _ItemPackValidationError(SoftException):
+    pass
+
+
+class _ItemPackEntry(ItemPackEntry):
+
+    def replace(self, values):
+        return self._replace(**values)
+
+
+class _VehicleOfferEntry(VehicleOfferEntry):
+
+    def replace(self, values):
+        return self._replace(**values)
+
+
+def _doesVehicleCDExist(vehicleCD):
+    itemTypeID, nationID, innationID = vehicles.parseIntCompactDescr(vehicleCD)
+    if itemTypeID == GUI_ITEM_TYPE.VEHICLE and innationID in vehicles.g_list.getList(nationID):
+        return True
+    raise SoftException(b'Invalid vehicle CD: %d' % vehicleCD)
+    return
+
+
+def _validateVehiclesCDList(vehiclesCDs):
+    return all(_doesVehicleCDExist(vehicleCD) for vehicleCD in vehiclesCDs)
+
+
+def _validateItemsPack(items, *_):
+    _validateItemsRequiredFields(items)
+    _validateItemsPackTypes(items)
+    _validateItemsCompensationRequiredFields(items)
+    _validateItemsCustomCrewRequiredFields(items)
+    _validateItemsCompensation(items)
+    return True
+
+
+def _validateItemsRequiredFields(items):
+    if not all(REQUIRED_ITEM_FIELDS.issubset(item) for item in items):
+        raise SoftException(b'Invalid item preview spec')
+    return
+
+
+def _validateItemsPackTypes(items):
+    validTypes = {v for _, v in ItemPackType.getIterator()}
+    specTypes = {item[b'type'] for item in items}
+    invalidTypes = specTypes - validTypes
+    if invalidTypes:
+        raise _ItemPackValidationError((b'Unexpected item types {}, valid type identifiers: {}').format((b', ').join(invalidTypes), (b', ').join(validTypes)))
+    return
+
+
+def _validateItemsCompensationRequiredFields(items):
+    for item in items:
+        if b'compensation' in item:
+            for compensationSpec in item[b'compensation']:
+                if not REQUIRED_COMPENSATION_FIELDS.issubset(compensationSpec):
+                    raise SoftException(b'Invalid compensation spec')
+                if not CompensationType.hasValue(compensationSpec[b'type']):
+                    raise SoftException((b'Unsupported compensation type "{}"').format(compensationSpec[b'type']))
+
+    return
+
+
+def _validateItemsCustomCrewRequiredFields(items):
+    for item in items:
+        if item[b'type'] == ItemPackType.CREW_CUSTOM:
+            if not REQUIRED_CUSTOMCREW_FIELDS.issubset(item):
+                raise SoftException(b'Invalid custom crew spec')
+            if b'tankmen' not in item[b'extra']:
+                raise SoftException(b'Invalid custom crew extra spec')
+            if not all([REQUIRED_TANKMAN_FIELDS.issubset(tankman) for tankman in item[b'extra'][b'tankmen']]):
+                raise SoftException(b'Invalid custom crew tankman spec')
+
+    return
+
+
+def _validateItemsCompensation(items):
+    for _, groups in groupby(sorted(items, key=_getItemKey), key=_getItemKey):
+        group = list(groups)
+        if len(group) > 1:
+            item = group[0]
+            for i in range(1, len(group)):
+                if not _equalsCompensations(item, group[i]):
+                    raise SoftException(b"Compensations isn't equals")
+
+    return
+
+
+def _getItemKey(item):
+    return (
+     item[b'id'], item[b'type'])
+
+
+def _equalsCompensations(itemA, itemB):
+    compKey = b'compensation'
+    itemAHasComp = compKey in itemA
+    itemBHasComp = compKey in itemB
+    if not itemAHasComp and not itemBHasComp:
+        return True
+    if itemAHasComp and itemBHasComp:
+        compensationsA = itemA[compKey]
+        compensationsB = itemB[compKey]
+        if len(compensationsA) != len(compensationsB):
+            return False
+        for compA, compB in zip(compensationsA, compensationsB):
+            if compA[b'type'] != compB[b'type']:
+                return False
+            compAValue = compA[b'value']
+            compBValue = compB[b'value']
+            for currency in Currency.ALL:
+                if currency in compAValue:
+                    if currency not in compBValue:
+                        return False
+                    if compAValue[currency] != compBValue[currency]:
+                        return False
+
+        return True
+    return False
+
+
+def _parseItemsPack(items):
+    specList = items
+    result = []
+    for spec in specList:
+        spec[b'type'] = str(spec[b'type'])
+        tempId = spec.pop(b'id')
+        itemId = getCDFromId(spec[b'type'], tempId)
+        if b'compensation' in spec:
+            compensations = []
+            for compensationSpec in spec[b'compensation']:
+                compensations.append(CompensationSpec(**compensationSpec))
+
+            tempComp = spec.pop(b'compensation')
+            result.append(_ItemPackEntry(id=itemId, compensation=compensations, **spec))
+            spec[b'compensation'] = tempComp
+        else:
+            result.append(_ItemPackEntry(id=itemId, **spec))
+        spec[b'id'] = tempId
+
+    return result
+
+
+def _parseOffers(offers):
+    return [_VehicleOfferEntry(id=_getOfferID(offer) or str(ndx), eventType=offer.get(b'event_type'), rent=offer.get(b'rent'), crew=_getOfferCrew(offer), name=_getOfferStr(offer, VEHICLE_PREVIEW.getOfferName, VEHICLE_PREVIEW.hasOfferName), label=_getOfferStr(offer, VEHICLE_PREVIEW.getOfferLabel, VEHICLE_PREVIEW.hasOfferLabel), left=_getRentLeft(offer), buyPrice=Money(**offer.get(b'buy_price', MONEY_UNDEFINED)), bestOffer=offer.get(b'best_offer'), buyParams=offer.get(b'buy_params'), preferred=bool(offer.get(b'preferred', False))) for ndx, offer in enumerate(offers)]
+
+
+def _getOfferID(offer):
+    buyParams = offer.get(b'buy_params')
+    if buyParams:
+        return buyParams.get(b'transactionID')
+    else:
+        return
+
+
+@dependency.replace_none_kwargs(epicCtrl=IEpicBattleMetaGameController)
+def _getOfferStr(offer, getKey, hasKey, epicCtrl=None):
+    key, values = _parseRent(offer)
+    if key == b'cycle':
+        indexes = str(epicCtrl.getCycleOrdinalNumber(first(values)))
+    elif key == b'cycles':
+        indexes = [epicCtrl.getCycleOrdinalNumber(value) for value in values]
+        indexes = (b'{}-{}').format(min(indexes), max(indexes))
+    else:
+        _, endTimestamp = epicCtrl.getSeasonTimeRange()
+        indexes = str(getTimeStructInLocal(endTimestamp).tm_year)
+    key = getKey(key) if hasKey(key) else b''
+    return _ms(key=key, value=indexes)
+
+
+@dependency.replace_none_kwargs(epicCtrl=IEpicBattleMetaGameController)
+def _getRentLeft(offer, epicCtrl=None):
+    key, values = _parseRent(offer)
+    value = max(values)
+    currentTimestamp = getCurrentLocalServerTimestamp()
+    season = epicCtrl.getCurrentSeason()
+    if season:
+        if key == b'season':
+            lastCycle = season.getLastCycleInfo()
+            endDate = season.getEndDate() if lastCycle else 0
+        elif key in (b'cycle', b'cycles'):
+            lastCycle = season.getCycleInfo(value)
+            endDate = lastCycle.endDate if lastCycle else 0
+        else:
+            lastCycle = None
+            endDate = 0
+        if lastCycle is not None:
+            currentCycle = season.getCycleInfo()
+            if currentCycle is not None:
+                cyclesLeft = lastCycle.ordinalNumber + 1 - currentCycle.ordinalNumber
+                timeLeft = endDate - currentTimestamp
+                return (cyclesLeft, timeLeft if timeLeft >= 0 else 0)
+    return (0, 0)
+
+
+def _parseRent(offer):
+    rentInfo = offer.get(b'rent')
+    if rentInfo:
+        if len(rentInfo) > 1:
+            key = b'cycles'
+            values = (int(rent[b'cycle']) for rent in rentInfo)
+        else:
+            key, value = first(rentInfo).iteritems().next()
+            values = (int(value),)
+        return (key, values)
+    raise SoftException(b'invalid rent collection')
+    return
+
+
+def _getOfferCrew(offer):
+    if offer.get(b'event_type', b'') in _CUSTOM_CREW_KEYS:
+        crew = ItemPackType.CREW_CUSTOM
+    elif offer.get(b'crewLvl', None) is not None:
+        crew = offer[b'crewLvl']
+    elif Money(**offer.get(b'buy_price', MONEY_UNDEFINED)).gold:
+        crew = ItemPackType.CREW_100
+    else:
+        crew = ItemPackType.CREW_75
+    return ItemPackEntry(type=crew, groupID=1)
+
+
+def _parseBuyPrice(buyPrice):
+    buyPrice = buyPrice.copy()
+    discount = buyPrice.pop(b'discount', None)
+    if discount is None:
+        return (ExtendedMoney(**buyPrice), MONEY_UNDEFINED)
+    else:
+        return (
+         ExtendedMoney(**discount), ExtendedMoney(**buyPrice))
+
+
+class _VehicleSchema(W2CSchema):
+    vehicle_id = Field(required=True, type=int)
+
+
+def _buyPriceValidator(value, *_):
+    value = value.copy()
+    _validatePrice(value)
+    value.pop(b'discount', None)
+    return ExtendedMoney(**value).isDefined()
+
+
+def _validatePrice(tData, errorStr=b''):
+    for pKey, pValue in tData.iteritems():
+        if pValue is not None:
+            if isinstance(pValue, dict):
+                _validatePrice(pValue, (b'Field "{}". ').format(pKey))
+            elif not isinstance(pValue, int):
+                errorStr = (b'{}Incorrect type of "{}" price value. Int type expected!').format(errorStr, pKey)
+                raise SoftException(errorStr)
+
+    return
+
+
+def _validateBlocks(hiddenBlocks, *_):
+    return all(block in OptionalBlocks.ALL for block in hiddenBlocks)
+
+
+class _VehiclePreviewSchema(W2CSchema):
+    vehicle_id = Field(required=True, type=int)
+    back_url = Field(required=False, type=basestring)
+    items = Field(required=False, type=list, validator=_validateItemsPack)
+    hidden_blocks = Field(required=False, type=list, default=None, validator=_validateBlocks)
+
+
+class _VehicleOffersPreviewSchema(W2CSchema):
+    vehicle_id = Field(required=True, type=int)
+    offers = Field(required=True, type=(list, NoneType))
+    buy_params = Field(required=False, type=dict)
+    back_url = Field(required=False, type=basestring)
+
+
+class _VehiclePackPreviewSchema(W2CSchema):
+    title = Field(required=True, type=basestring)
+    end_date = Field(required=False, type=basestring)
+    buy_price = Field(required=True, type=dict, validator=_buyPriceValidator)
+    items = Field(required=True, type=(list, NoneType), validator=_validateItemsPack)
+    back_url = Field(required=False, type=basestring)
+    buy_params = Field(required=False, type=dict)
+
+
+class _MarathonVehiclePackPreviewSchema(W2CSchema):
+    title = Field(required=True, type=basestring)
+    items = Field(required=True, type=(list, NoneType), validator=_validateItemsPack)
+    marathon_prefix = Field(required=True, type=basestring)
+
+
+class _VehicleStylePreviewSchema(W2CSchema):
+    vehicle_cd = Field(required=False, type=int)
+    style_id = Field(required=True, type=int)
+    back_btn_descr = Field(required=False, type=basestring)
+    back_url = Field(required=False, type=basestring)
+    level = Field(required=False, type=int)
+    price = Field(required=False, type=dict)
+    buy_params = Field(required=False, type=dict)
+    alternate_item = Field(required=False, type=list)
+
+
+class _ShowcaseVehicleStylePreviewSchema(W2CSchema):
+    vehicle_cd = Field(required=False, type=int)
+    style_id = Field(required=True, type=int)
+    back_btn_descr = Field(required=False, type=basestring)
+    back_url = Field(required=False, type=basestring)
+    level = Field(required=False, type=int)
+    price = Field(required=False, type=dict)
+    buy_params = Field(required=False, type=dict)
+    alternate_item = Field(required=False, type=list)
+    original_price = Field(required=False, type=dict)
+    discount_percent = Field(required=False, type=(int, float))
+    end_date = Field(required=False, type=basestring)
+
+
+class _VehicleMarathonStylePreviewSchema(W2CSchema):
+    vehicle_cd = Field(required=False, type=int)
+    style_id = Field(required=True, type=int)
+    back_btn_descr = Field(required=True, type=basestring)
+    back_url = Field(required=False, type=basestring)
+    marathon_prefix = Field(required=True, type=basestring)
+
+
+class _VehicleListStylePreviewSchema(W2CSchema):
+    style_id = Field(required=True, type=int)
+    vehicle_min_level = Field(required=False, type=int, default=10)
+    vehicle_list = Field(required=False, type=(
+     list, NoneType), validator=(lambda value, _: _validateVehiclesCDList(value)), default=DEFAULT_STYLED_VEHICLES)
+    back_btn_descr = Field(required=True, type=basestring)
+    back_url = Field(required=False, type=basestring)
+    level = Field(required=False, type=int)
+    price = Field(required=False, type=dict)
+    buy_params = Field(required=False, type=dict)
+
+
+class _VehicleCustomizationPreviewSchema(W2CSchema):
+    style_id = Field(required=True, type=int)
+
+
+class _MarathonRewardScreen(W2CSchema):
+    marathon_prefix = Field(required=True, type=basestring)
+
+
+class VehicleSellWebApiMixin(object):
+    itemsCache = dependency.descriptor(IItemsCache)
+
+    @w2c(_VehicleSchema, b'vehicle_sell')
+    def vehicleSellDialog(self, cmd):
+        item = self.itemsCache.items.getItemByCD(cmd.vehicle_id)
+        if item.isInInventory and item.itemTypeID == ITEM_TYPES.vehicle:
+            event_dispatcher.showVehicleSellDialog(int(item.invID))
+        return
+
+
+class VehicleCompareWebApiMixin(object):
+    comparisonBasket = dependency.descriptor(IVehicleComparisonBasket)
+
+    @w2c(_VehicleSchema, b'vehicle_add_to_comparison')
+    def addVehicleToCompare(self, cmd):
+        self.comparisonBasket.addVehicle(cmd.vehicle_id)
+        return
+
+    @w2c(W2CSchema, b'get_comparison_basket')
+    def getVehicleComparisonBasket(self, cmd):
+        return {b'basketMaxCount': (self.comparisonBasket.maxVehiclesToCompare), 
+           b'basketContents': (self.comparisonBasket.getVehiclesCDs())}
+
+
+class VehicleComparisonBasketWebApiMixin(object):
+
+    @w2c(W2CSchema, b'comparison_basket')
+    def openVehicleComparisonBasket(self, _):
+        event_dispatcher.showVehicleCompare()
+        return
+
+
+def _pushInvalidPreviewMessage():
+    SystemMessages.pushMessage(backport.text(R.strings.w2c.error.invalidPreviewVehicle()), SystemMessages.SM_TYPE.Error, NC_MESSAGE_PRIORITY.MEDIUM)
+    return
+
+
+class VehiclePreviewWebApiMixin(object):
+    __itemsCache = dependency.descriptor(IItemsCache)
+    __c11n = dependency.descriptor(ICustomizationService)
+
+    @w2c(_VehiclePreviewSchema, b'vehicle_preview')
+    def openVehiclePreview(self, cmd):
+        if cmd.hidden_blocks is not None:
+            showPreviewFunc = partial(event_dispatcher.showConfigurableVehiclePreview, hiddenBlocks=cmd.hidden_blocks, itemPack=_parseItemsPack(cmd.items))
+        else:
+            showPreviewFunc = event_dispatcher.showVehiclePreview
+        vehicleID = cmd.vehicle_id
+        if self.__validVehiclePreview(vehicleID):
+            showPreviewFunc(vehTypeCompDescr=vehicleID, previewAlias=self._getVehiclePreviewReturnAlias(cmd), previewBackCb=self._getVehiclePreviewReturnCallback(cmd))
+        else:
+            _pushInvalidPreviewMessage()
+        return
+
+    @w2c(_VehicleOffersPreviewSchema, b'vehicle_offers_preview')
+    def openVehicleOffersPreview(self, cmd):
+        offers = _parseOffers(cmd.offers)
+        event_dispatcher.showVehiclePreview(vehTypeCompDescr=int(cmd.vehicle_id), offers=offers, title=getattr(cmd, b'title', b''), price=MONEY_UNDEFINED, oldPrice=MONEY_UNDEFINED, previewAlias=self._getVehiclePreviewReturnAlias(cmd), previewBackCb=self._getVehiclePreviewReturnCallback(cmd))
+        return
+
+    @w2c(_MarathonVehiclePackPreviewSchema, b'marathon_vehicle_pack_preview')
+    def openMarathonVehiclePackPreview(self, cmd):
+        items = _parseItemsPack(cmd.items)
+        vehiclesIDs = self.__getVehiclesIDs(items)
+        if vehiclesIDs:
+            event_dispatcher.showMarathonVehiclePreview(vehTypeCompDescr=vehiclesIDs[0], itemsPack=items, title=cmd.title, marathonPrefix=cmd.marathon_prefix)
+        else:
+            _pushInvalidPreviewMessage()
+        return
+
+    @w2c(_VehiclePackPreviewSchema, b'vehicle_pack_preview')
+    def openVehiclePackPreview(self, cmd):
+        items = _parseItemsPack(cmd.items)
+        price, oldPrice = _parseBuyPrice(cmd.buy_price)
+        vehiclesIDs = self.__getVehiclesIDs(items)
+        if vehiclesIDs:
+            localEndTime = None
+            if cmd.end_date:
+                localEndTime = self.__getLocalEndTime(cmd.end_date)
+            event_dispatcher.showVehiclePreview(vehTypeCompDescr=vehiclesIDs[0], itemsPack=items, price=price, oldPrice=oldPrice, title=cmd.title, endTime=localEndTime, previewAlias=self._getVehiclePreviewReturnAlias(cmd), previewBackCb=self._getVehiclePreviewReturnCallback(cmd), buyParams=cmd.buy_params)
+        else:
+            _pushInvalidPreviewMessage()
+        return
+
+    @w2c(_VehicleStylePreviewSchema, b'vehicle_style_preview')
+    def openVehicleStylePreview(self, cmd):
+        return self._openVehicleStylePreview(cmd)
+
+    @w2c(_ShowcaseVehicleStylePreviewSchema, b'showcase_vehicle_style_preview')
+    def openShowcaseVehicleStylePreview(self, cmd):
+        return self._openVehicleStylePreview(cmd, event_dispatcher.showShowcaseStyleBuyingPreview, originalPrice=cmd.original_price, discountPercent=cmd.discount_percent, endTime=self.__getLocalEndTime(cmd.end_date) if cmd.end_date else None)
+
+    @w2c(_VehicleMarathonStylePreviewSchema, b'marathon_vehicle_style_preview')
+    def openMarathonVehicleStylePreview(self, cmd):
+        cmd.back_url = partial(showMissionsMarathon, cmd.marathon_prefix)
+        return self._openVehicleStylePreview(cmd)
+
+    @w2c(_VehicleListStylePreviewSchema, b'vehicle_list_style_preview')
+    def openVehicleListStylePreview(self, cmd):
+        styledVehicleCD = None
+        if g_currentVehicle.isPresent() and g_currentVehicle.item.level >= cmd.vehicle_min_level:
+            styledVehicleCD = g_currentVehicle.item.intCD
+        else:
+            accDossier = self.__itemsCache.items.getAccountDossier()
+            vehiclesStats = accDossier.getRandomStats().getVehicles()
+            vehicleGetter = self.__itemsCache.items.getItemByCD
+            vehiclesStats = {vehicle: value for vehicle, value in vehiclesStats.iteritems() if vehicleGetter(vehicle).level >= cmd.vehicle_min_level}
+            if vehiclesStats:
+                sortedVehicles = sorted(vehiclesStats.items(), key=(lambda vStat: vStat[1].battlesCount), reverse=True)
+                styledVehicleCD = sortedVehicles[0][0]
+            if not styledVehicleCD:
+                vehiclesPool = AccountSettings.getSettings(STYLE_PREVIEW_VEHICLES_POOL)
+                if not vehiclesPool or set(vehiclesPool) != set(cmd.vehicle_list):
+                    vehiclesPool = list(cmd.vehicle_list)
+                styledVehicleCD = vehiclesPool.pop(0)
+                vehiclesPool.append(styledVehicleCD)
+                AccountSettings.setSettings(STYLE_PREVIEW_VEHICLES_POOL, vehiclesPool)
+        self.__showStylePreview(styledVehicleCD, cmd)
+        return
+
+    @w2c(_VehicleCustomizationPreviewSchema, b'vehicle_customization_preview')
+    def openVehicleCustomizationPreview(self, cmd):
+        result = canInstallStyle(cmd.style_id)
+        if not result.canInstall:
+            return {b'installed': (result.canInstall)}
+
+        def styleCallback():
+            if result.style is not None:
+                ctx = self.__c11n.getCtx()
+                ctx.changeMode(CustomizationModes.STYLED_2D)
+                slotId = ctx.mode.STYLE_SLOT
+                ctx.mode.installItem(result.style.intCD, slotId)
+            return
+
+        self.__c11n.showCustomization(result.vehicle.invID, callback=styleCallback)
+        return {b'installed': (result.canInstall)}
+
+    @w2c(_MarathonRewardScreen, b'marathon_reward_screen')
+    def openMarathonRewardScreen(self, cmd):
+        showMarathonRewardScreen(cmd.marathon_prefix)
+        return
+
+    def _openVehicleStylePreview(self, cmd, showStyleFunc=None, **additionalStyleFuncKwargs):
+        if cmd.vehicle_cd:
+            return self.__showStylePreview(cmd.vehicle_cd, cmd, showStyleFunc, **additionalStyleFuncKwargs)
+        styledVehicleCD = self.__getStyledVehicleCD(cmd.style_id)
+        if not styledVehicleCD:
+            return False
+        return self.__showStylePreview(styledVehicleCD, cmd, showStyleFunc, **additionalStyleFuncKwargs)
+
+    @staticmethod
+    def __getLocalEndTime(date):
+        timestamp = getTimestampFromISO(date)
+        datetimeInUTC = getDateTimeInUTC(timestamp)
+        localDatetime = utcToLocalDatetime(datetimeInUTC)
+        return (localDatetime - getDateTimeInLocal(0)).total_seconds()
+
+    def __getStyledVehicleCD(self, styleId):
+        styledVehicleCD = None
+        style = self.__c11n.getItemByID(GUI_ITEM_TYPE.STYLE, styleId)
+        vehicle = g_currentVehicle.item if g_currentVehicle.isPresent() else None
+        if vehicle is not None and not vehicle.descriptor.type.isCustomizationLocked and style.mayInstall(vehicle):
+            styledVehicleCD = vehicle.intCD
+        else:
+            accDossier = self.__itemsCache.items.getAccountDossier()
+            vehiclesStats = accDossier.getRandomStats().getVehicles()
+            vehicleGetter = self.__itemsCache.items.getItemByCD
+            vehiclesStats = {vehicleCD: value for vehicleCD, value in vehiclesStats.iteritems() if not vehicleGetter(vehicleCD).descriptor.type.isCustomizationLocked and style.mayInstall(vehicleGetter(vehicleCD))}
+            if vehiclesStats:
+                sortedVehicles = sorted(vehiclesStats.items(), key=(lambda vStat: vStat[1].battlesCount), reverse=True)
+                styledVehicleCD = sortedVehicles[0][0] if sortedVehicles else None
+            if not styledVehicleCD:
+                criteria = REQ_CRITERIA.INVENTORY | ~REQ_CRITERIA.VEHICLE.IS_OUTFIT_LOCKED | REQ_CRITERIA.VEHICLE.FOR_ITEM(style)
+                vehicle = first(self.__getVehiclesForStylePreview(criteria=criteria))
+                styledVehicleCD = vehicle.intCD if vehicle else None
+            if not styledVehicleCD:
+                criteria = ~REQ_CRITERIA.INVENTORY | ~REQ_CRITERIA.VEHICLE.IS_OUTFIT_LOCKED | REQ_CRITERIA.VEHICLE.FOR_ITEM(style) | ~REQ_CRITERIA.VEHICLE.EVENT
+                suitableVehicles = self.__getVehiclesForStylePreview(criteria=criteria)
+                styledVehicleCD = random.choice(suitableVehicles).intCD if suitableVehicles else None
+        return styledVehicleCD
+
+    def __getVehiclesForStylePreview(self, criteria=None):
+        vehs = self.__itemsCache.items.getVehicles(criteria=criteria).values()
+        return sorted(vehs, key=(lambda item: item.level), reverse=True)
+
+    def _getVehicleStylePreviewCallback(self, cmd):
+        return showHangar
+
+    def _getVehiclePreviewReturnCallback(self, cmd):
+        return
+
+    def _getVehiclePreviewReturnAlias(self, cmd):
+        return VIEW_ALIAS.LOBBY_HANGAR
+
+    def __showStylePreview(self, vehicleCD, cmd, showStyleFunc=None, **additionalStyleFuncKwargs):
+        styleInfo = self.__c11n.getItemByID(GUI_ITEM_TYPE.STYLE, cmd.style_id)
+        vehicle = self.__itemsCache.items.getItemByCD(vehicleCD)
+        outfit = None
+        if cmd.alternate_item:
+            alternateItemTypeName, alternateItemID = cmd.alternate_item
+            outfit = styleInfo.getAlteredOutfit(CustomizationNamesToTypes[alternateItemTypeName.upper()], alternateItemID, vehicle.descriptor.makeCompactDescr())
+        if vehicle is not None and not vehicle.isOutfitLocked and styleInfo.mayInstall(vehicle):
+            showStyleFunc = showStyleFunc or _getStylePreviewShowFunc(styleInfo, cmd.price)
+            descrLabelResPath = R.strings.vehicle_preview.header.backBtn.descrLabel
+            showStyleFunc(vehicleCD, styleInfo, styleInfo.getDescription(), self._getVehicleStylePreviewCallback(cmd), backport.text(descrLabelResPath.dyn(cmd.back_btn_descr or b'hangar')()), styleLevel=cmd.level, price=cmd.price, buyParams=cmd.buy_params, outfit=outfit, backPreviewAlias=self._getVehiclePreviewReturnAlias(cmd), **additionalStyleFuncKwargs)
+            return True
+        else:
+            return False
+
+    def __getVehiclesIDs(self, items):
+        vehiclesIDs = [item.id for item in items if item.type in ItemPackTypeGroup.VEHICLE]
+        if vehiclesIDs and self.__validVehiclePreviewPack(vehiclesIDs):
+            return vehiclesIDs
+        else:
+            return
+
+    def __validVehiclePreview(self, intCD):
+        vehicle = None
+        try:
+            vehicle = self.__itemsCache.items.getItemByCD(intCD)
+        except Exception:
+            pass
+
+        if not vehicle:
+            LOG_ERROR((b"Couldn't find vehicle intCD={}").format(intCD))
+            return False
+        else:
+            return True
+
+    def __validVehiclePreviewPack(self, vehiclesID):
+        for vehID in vehiclesID:
+            if not self.__validVehiclePreview(vehID):
+                return False
+
+        return True
+
+
+def _getStylePreviewShowFunc(styleInfo, price):
+    if price:
+        return showStyleBuyingPreview
+    if styleInfo.isProgression:
+        return showStyleProgressionPreview
+    return showStylePreview

@@ -1,0 +1,317 @@
+import sys
+from math import ceil
+from constants import SHELL_TYPES
+from gui.shared.utils import SHELLS_COUNT_PROP_NAME, RELOAD_TIME_PROP_NAME, RELOAD_MAGAZINE_TIME_PROP_NAME, SHELL_RELOADING_TIME_PROP_NAME, DISPERSION_RADIUS_PROP_NAME, AIMING_TIME_PROP_NAME, PIERCING_POWER_PROP_NAME, DAMAGE_PROP_NAME, SHELLS_PROP_NAME, STUN_DURATION_PROP_NAME, AUTO_RELOAD_PROP_NAME, DUAL_GUN_CHARGE_TIME, DUAL_GUN_RATE_TIME, RELOAD_TIME_SECS_PROP_NAME, DUAL_ACCURACY_COOLING_DELAY, BURST_FIRE_RATE, SHELLS_BURST_COUNT_PROP_NAME, SHOT_SPEED_ACCELERATED_PROP_NAME
+from helpers import i18n, time_utils
+from helpers_common import computeSpeedByParams, computeDistanceFactor
+from items import vehicles, artefacts
+from items.components import component_constants
+RELATIVE_PARAMS = (b'relativePower', b'relativeArmor', b'relativeMobility', b'relativeCamouflage', b'relativeVisibility', b'relativeAbility')
+RELATIVE_PARAMS_WITHOUT_ABILITY = RELATIVE_PARAMS[:-1]
+MAX_RELATIVE_VALUE = 1000
+NO_DATA = b'no data'
+_AUTO_RELOAD_TAG = b'autoreload'
+_DUAL_GUN_TAG = b'dualGun'
+_DUAL_ACCURACY_TAG = b'dualAccuracy'
+_AUTOSHOOT_TAG = b'autoShoot'
+_CLIP_TAG = b'clip'
+PIERCING_DISTANCES = (50, 500)
+
+def _updateMinMaxValues(targetDict, key, value):
+    targetDict[key] = (
+     min(targetDict[key][0], value), max(targetDict[key][1], value))
+    return
+
+
+def _addAutoReload(result, configReloadTimes, shellsCount):
+    if len(configReloadTimes) < shellsCount:
+        extraCount = shellsCount - len(configReloadTimes)
+        fullReloadTimes = configReloadTimes + configReloadTimes[-1:] * extraCount
+    else:
+        fullReloadTimes = configReloadTimes[:]
+    autoReloadTimes = result[AUTO_RELOAD_PROP_NAME]
+    currCount = len(autoReloadTimes)
+    for idx, reloadTime in enumerate(fullReloadTimes):
+        if idx < currCount:
+            currReloadTime = autoReloadTimes[idx]
+            currReloadTime[0] = min(reloadTime, currReloadTime[0])
+            currReloadTime[1] = min(reloadTime, currReloadTime[1])
+        else:
+            autoReloadTimes.append([reloadTime, reloadTime])
+
+    return
+
+
+def isAutoReloadGun(gun):
+    if gun is not None:
+        return _AUTO_RELOAD_TAG in gun.tags
+    else:
+        return False
+
+
+def isDualGun(gun):
+    if gun is not None:
+        return _DUAL_GUN_TAG in gun.tags
+    else:
+        return False
+
+
+def isClipGun(gun):
+    if gun is not None:
+        return _CLIP_TAG in gun.tags
+    else:
+        return False
+
+
+def isClippedDualGun(gun):
+    if gun is not None:
+        return isClipGun(gun) and isDualGun(gun)
+    else:
+        return False
+
+
+def isAutoShootGun(gun):
+    if gun is not None:
+        return _AUTOSHOOT_TAG in gun.tags
+    else:
+        return False
+
+
+def isFlameGun(gun):
+    return gun.shots[0].shell.kind == SHELL_TYPES.FLAME
+
+
+def isAutoShootFlameGun(gun):
+    return isAutoShootGun(gun) and isFlameGun(gun)
+
+
+def isDualAccuracy(gun):
+    if gun is not None:
+        return _DUAL_ACCURACY_TAG in gun.tags
+    else:
+        return False
+
+
+def isBurstGun(gunDescr):
+    if gunDescr is not None:
+        return gunDescr.burst != component_constants.DEFAULT_GUN_BURST
+    else:
+        return False
+
+
+def getShotsPerMinute(descriptor, reloadTime, autoReloadGun=False):
+    hasClippedAutoReloadGun = isClipGun(descriptor) and autoReloadGun
+    hasClippedDualGun = isClipGun(descriptor) and isDualGun(descriptor)
+    if hasClippedDualGun and autoReloadGun:
+        return __getShotsPerMinuteForClippedDualgunWithAutorelaod(descriptor, reloadTime)
+    if hasClippedAutoReloadGun:
+        return __getShotsPerMinuteForClippedGunWithAutorelaod(descriptor, reloadTime)
+    clip = descriptor.clip
+    burst = descriptor.burst
+    if autoReloadGun or hasClippedDualGun:
+        clipCount = 1
+        reloadTime = max(reloadTime, clip[1])
+    else:
+        clipCount = float(clip[0]) / (burst[0] if clip[0] > 1 else 1)
+    value = burst[0] * clipCount * time_utils.ONE_MINUTE / (reloadTime + (burst[0] - 1) * burst[1] * clipCount + (clipCount - 1) * clip[1])
+    return value
+
+
+def __getShotsPerMinuteForClippedDualgunWithAutorelaod(descriptor, reloadTime):
+    clipCount = counter = descriptor.clip[0]
+    reloadTimes = descriptor.dualGun.reloadTimes[0]
+    maxShotsPerMinute = int(time_utils.ONE_MINUTE / reloadTimes)
+    possibleShotsPerMinute = min(maxShotsPerMinute, clipCount)
+    value = reloadTimes * possibleShotsPerMinute
+    if value >= time_utils.ONE_MINUTE:
+        return counter
+    shellLoading = reloadTime + reloadTimes
+    timeRemaining = time_utils.ONE_MINUTE - value
+    counter += timeRemaining / shellLoading
+    return counter
+
+
+def __getShotsPerMinuteForClippedGunWithAutorelaod(descriptor, reloadTime):
+    return time_utils.ONE_MINUTE / reloadTime
+
+
+def calcGunParams(gunDescr, descriptors):
+    result = {SHELLS_COUNT_PROP_NAME: (
+                              sys.maxint, -1), 
+       SHELLS_BURST_COUNT_PROP_NAME: [], RELOAD_TIME_PROP_NAME: (
+                             sys.maxint, -1), 
+       RELOAD_MAGAZINE_TIME_PROP_NAME: (
+                                      sys.maxint, -1), 
+       RELOAD_TIME_SECS_PROP_NAME: [], SHELL_RELOADING_TIME_PROP_NAME: (
+                                      sys.maxint, -1), 
+       BURST_FIRE_RATE: [], DISPERSION_RADIUS_PROP_NAME: (
+                                   sys.maxint, -1), 
+       AIMING_TIME_PROP_NAME: (
+                             sys.maxint, -1), 
+       PIERCING_POWER_PROP_NAME: [], DAMAGE_PROP_NAME: [], SHELLS_PROP_NAME: [], STUN_DURATION_PROP_NAME: [], AUTO_RELOAD_PROP_NAME: [], DUAL_GUN_RATE_TIME: (
+                          sys.maxint, -1), 
+       DUAL_GUN_CHARGE_TIME: [], DUAL_ACCURACY_COOLING_DELAY: (
+                                   sys.maxint, -1)}
+    for descr in descriptors:
+        currShellsCount = descr.clip[0]
+        currBurstShellsCount = descr.burst[0]
+        if currShellsCount > 1:
+            _updateMinMaxValues(result, SHELL_RELOADING_TIME_PROP_NAME, descr.clip[1])
+            _updateMinMaxValues(result, RELOAD_MAGAZINE_TIME_PROP_NAME, descr.reloadTime)
+            _updateMinMaxValues(result, SHELLS_COUNT_PROP_NAME, currShellsCount)
+            result[SHELLS_BURST_COUNT_PROP_NAME] = (currBurstShellsCount, currShellsCount)
+        autoReload = isAutoReloadGun(descr)
+        if autoReload:
+            autoReloadTimes = descr.autoreload.reloadTime
+            _addAutoReload(result, autoReloadTimes, currShellsCount)
+            reloadTime = min(autoReloadTimes)
+        else:
+            reloadTime = descr.reloadTime
+        _updateMinMaxValues(result, RELOAD_TIME_PROP_NAME, getShotsPerMinute(descr, reloadTime, autoReload))
+        curDispRadius = round(descr.shotDispersionAngle * 100, 2)
+        curAimingTime = round(descr.aimingTime, 1)
+        _updateMinMaxValues(result, DISPERSION_RADIUS_PROP_NAME, curDispRadius)
+        _updateMinMaxValues(result, AIMING_TIME_PROP_NAME, curAimingTime)
+        if isDualGun(descr):
+            chargeTime = (
+             descr.dualGun.chargeTime, descr.dualGun.reloadLockTime)
+            rateTime = descr.dualGun.rateTime
+            reloadTimeSecs = descr.dualGun.reloadTimes
+        else:
+            chargeTime = ()
+            rateTime = -1
+            reloadTimeSecs = (reloadTime,)
+        _updateMinMaxValues(result, DUAL_GUN_RATE_TIME, rateTime)
+        result[DUAL_GUN_CHARGE_TIME] = chargeTime
+        result[RELOAD_TIME_SECS_PROP_NAME] = reloadTimeSecs
+        if isBurstGun(descr):
+            burstSize, burstInterval = descr.burst
+            result[BURST_FIRE_RATE].extend([burstInterval, burstSize])
+
+    for shot in gunDescr.shots:
+        shell = shot.shell
+        hasDistanceFactor = shell.distanceFactor is not None
+        if hasDistanceFactor:
+            shellKind = shell.kind + b'_DF'
+            pierceFactor = computeDistanceFactor(shell, PIERCING_DISTANCES[0], b'pierceFactor')
+            minPiercingPower = int(shot.piercingPower[0] * pierceFactor)
+            pierceFactor = computeDistanceFactor(shell, PIERCING_DISTANCES[1], b'pierceFactor')
+            maxPiercingPower = int(shot.piercingPower[0] * pierceFactor)
+            piercingPower = ceil((maxPiercingPower + minPiercingPower) * 0.5)
+            minDmg, maxDmg = shell.randomizationDmgLimits
+            damage = ceil((maxDmg + minDmg) * 0.5)
+        else:
+            piercingPower = shot.piercingPower[0]
+            damage = shell.damage[0]
+            shellKind = shell.kind
+        result[PIERCING_POWER_PROP_NAME].append(piercingPower)
+        result[DAMAGE_PROP_NAME].append(damage)
+        result[SHELLS_PROP_NAME].append(i18n.makeString(b'#item_types:shell/kinds/' + shellKind))
+        if shell.hasStun:
+            stun = shell.stun
+            result[STUN_DURATION_PROP_NAME].append(stun.stunDuration)
+
+    for key in (PIERCING_POWER_PROP_NAME,
+     DAMAGE_PROP_NAME,
+     SHELLS_PROP_NAME,
+     STUN_DURATION_PROP_NAME,
+     BURST_FIRE_RATE):
+        result[key] = tuple(result[key])
+
+    if AUTO_RELOAD_PROP_NAME in result:
+        result[AUTO_RELOAD_PROP_NAME] = tuple(tuple(minMaxPair) for minMaxPair in result[AUTO_RELOAD_PROP_NAME])
+    return result
+
+
+def calcShellParams(descriptors):
+    result = {PIERCING_POWER_PROP_NAME: (
+                                sys.maxint, -1), 
+       DAMAGE_PROP_NAME: (
+                        sys.maxint, -1), 
+       SHOT_SPEED_ACCELERATED_PROP_NAME: (0, 0)}
+    for d in descriptors:
+        shell = d.shell
+        hasDistanceFactor = shell.distanceFactor is not None
+        piercingPower = d.piercingPower[0]
+        if hasDistanceFactor:
+            pierceFactor = computeDistanceFactor(shell, PIERCING_DISTANCES[0], b'pierceFactor')
+            piercingPower *= pierceFactor
+            pierceFactor = computeDistanceFactor(shell, PIERCING_DISTANCES[1], b'pierceFactor')
+            maxPiercingPower = d.piercingPower[0] * pierceFactor
+            curPiercingPower = (int(piercingPower), int(maxPiercingPower))
+        else:
+            ppRand = shell.piercingPowerRandomization
+            curPiercingPower = (
+             int(piercingPower - piercingPower * ppRand),
+             int(ceil(piercingPower + piercingPower * ppRand)))
+        result[PIERCING_POWER_PROP_NAME] = (
+         min(result[PIERCING_POWER_PROP_NAME][0], curPiercingPower[0]),
+         max(result[PIERCING_POWER_PROP_NAME][1], curPiercingPower[1]))
+        minDmg, maxDmg = shell.randomizationDmgLimits
+        curDamage = (minDmg, maxDmg)
+        result[DAMAGE_PROP_NAME] = (
+         min(result[DAMAGE_PROP_NAME][0], curDamage[0]),
+         max(result[DAMAGE_PROP_NAME][1], curDamage[1]))
+        result[SHOT_SPEED_ACCELERATED_PROP_NAME] = (
+         d.speed, computeSpeedByParams(d.acceleration, d.maxDistance, d.speed))
+
+    return result
+
+
+def getEquipmentParameters(eqpDescr):
+    params = dict()
+    eqDescrType = type(eqpDescr)
+    if eqDescrType is artefacts.RageArtillery:
+        shellDescr = vehicles.getItemByCompactDescr(eqpDescr.shellCompactDescr)
+        params.update({b'damage': ((
+                     shellDescr.damage[0],) * 2), 
+           b'piercingPower': (eqpDescr.piercingPower), 
+           b'caliber': (shellDescr.caliber), 
+           b'shotsNumberRange': (eqpDescr.shotsNumber), 
+           b'areaRadius': (eqpDescr.areaRadius), 
+           b'artDelayRange': (eqpDescr.delay)})
+    elif eqDescrType is artefacts.RageBomber:
+        shellDescr = vehicles.getItemByCompactDescr(eqpDescr.shellCompactDescr)
+        params.update({b'bombDamage': ((
+                         shellDescr.damage[0],) * 2), 
+           b'piercingPower': (eqpDescr.piercingPower), 
+           b'bombsNumberRange': (eqpDescr.bombsNumber), 
+           b'areaSquare': (eqpDescr.areaLength * eqpDescr.areaWidth), 
+           b'flyDelayRange': (eqpDescr.delay)})
+    elif eqDescrType is artefacts.AttackArtilleryFortEquipment:
+        params.update({b'maxDamage': (eqpDescr.maxDamage), 
+           b'commonDelay': (eqpDescr.delay), 
+           b'areaRadius': (eqpDescr.areaRadius), 
+           b'duration': (eqpDescr.duration)})
+    elif eqDescrType in (artefacts.FortConsumableInspire, artefacts.ConsumableInspire):
+        params.update({b'crewRolesFactor': (max(eqpDescr.increaseFactors[b'crewRolesFactor'] * 100 - 100, 0)), 
+           b'inactivationDelay': (eqpDescr.inactivationDelay), 
+           b'commonAreaRadius': (eqpDescr.radius), 
+           b'duration': (eqpDescr.duration)})
+    return params
+
+
+def getGunDescriptors(gunDescr, vehicleDescr):
+    descriptors = []
+    for gun in vehicleDescr.turret.guns:
+        if gun.id[1] == gunDescr.id[1]:
+            descriptors.append(gun)
+
+    if not descriptors:
+        for vTurrets in vehicleDescr.type.turrets:
+            for turret in vTurrets:
+                for gun in turret.guns:
+                    if gun.id[1] == gunDescr.id[1]:
+                        descriptors.append(gun)
+
+    return descriptors
+
+
+def getShellDescriptors(shellDescriptor, vehicleDescr):
+    descriptors = []
+    shellInNationID = shellDescriptor.id[1]
+    for shot in vehicleDescr.gun.shots:
+        if shot.shell.id[1] == shellInNationID:
+            descriptors.append(shot)
+
+    return descriptors

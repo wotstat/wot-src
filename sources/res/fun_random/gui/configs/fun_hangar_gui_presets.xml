@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<presets>
+		<preset>
+			<name>standard</name>
+			<basePreset>default</basePreset>
+			<components>
+				<component>
+					<name>carousel</name>
+					<visible>True</visible>
+					<type>funRandomTankCarousel</type>
+					<layout>TankCarouselUI</layout>
+				</component>
+			</components>
+		</preset>
+	</presets>
+	<queueTypePresets>
+		<item>
+			<queueType>28</queueType>
+			<subTypes>0 1</subTypes>
+			<presetName>standard</presetName>
+		</item>
+	</queueTypePresets>
+</root>

@@ -1,0 +1,122 @@
+from functools import partial
+import BigWorld, MapActivities
+from constants import SECTOR_STATE
+from debug_utils import LOG_DEBUG
+import Math, items
+from ReplayEvents import g_replayEvents
+SECTOR_LOCATION_TO_MAP_ACTIVITY = {(1, 1): b'zone_destr_WZ1_planes', 
+   (1, 2): b'zone_destr_WZ2_planes', 
+   (1, 3): b'zone_destr_WZ3_planes', 
+   (2, 1): b'zone_destr_CZ1_planes', 
+   (2, 2): b'zone_destr_CZ2_planes', 
+   (2, 3): b'zone_destr_CZ3_planes', 
+   (3, 1): b'zone_destr_EZ1_planes', 
+   (3, 2): b'zone_destr_EZ2_planes', 
+   (3, 3): b'zone_destr_EZ3_planes'}
+ID_IN_PLAYER_GROUP_TO_MAP_ACTIVITY_LEAD_TIME = {1: 2.0, 
+   2: 2.0, 
+   3: 23.0}
+BORDER_VISUALISATION_DASH_DIMENSIONS = (10, 1, 1)
+BORDER_VISUALISATION_GAP_LENGTH = 5
+
+class Sector(BigWorld.Entity):
+
+    def __init__(self):
+        self.__startDestructionCallback = None
+        return
+
+    def onEnterWorld(self, prereqs):
+        g_replayEvents.onTimeWarpStart += self.__cancelCallback
+        sectorComponent = BigWorld.player().arena.componentSystem.sectorComponent
+        if sectorComponent is not None:
+            sectorComponent.addSector(self)
+        self.model = model = BigWorld.Model(b'')
+        model.addMotor(BigWorld.Servo(self.matrix))
+        model.visible = True
+        return
+
+    def onLeaveWorld(self):
+        g_replayEvents.onTimeWarpStart -= self.__cancelCallback
+        self.__cancelCallback()
+        sectorComponent = BigWorld.player().arena.componentSystem.sectorComponent
+        if sectorComponent is not None:
+            sectorComponent.removeSector(self)
+        return
+
+    def set_lengthX(self, oldValue):
+        sectorComponent = BigWorld.player().arena.componentSystem.sectorComponent
+        if sectorComponent is not None:
+            sectorComponent.updateSector(self)
+        return
+
+    def set_lengthZ(self, oldValue):
+        sectorComponent = BigWorld.player().arena.componentSystem.sectorComponent
+        if sectorComponent is not None:
+            sectorComponent.updateSector(self)
+        return
+
+    def set_state(self, oldValue):
+        sectorComponent = BigWorld.player().arena.componentSystem.sectorComponent
+        if sectorComponent is not None:
+            sectorComponent.updateSector(self, oldValue)
+        if self.state is SECTOR_STATE.TRANSITION:
+            leadTime = ID_IN_PLAYER_GROUP_TO_MAP_ACTIVITY_LEAD_TIME[self.IDInPlayerGroup]
+            delay = max(0, self.transitionTime - leadTime)
+            self.__startDestructionCallback = BigWorld.callback(delay, partial(self.startSectorBombingMapActivities, MapActivities.Timer.getTime() + delay))
+        return
+
+    def startSectorBombingMapActivities(self, actualTargetTime):
+        self.__cancelCallback()
+        actualTime = MapActivities.Timer.getTime()
+        timeOffset = actualTargetTime - actualTime
+        if actualTime < actualTargetTime:
+            self.__startDestructionCallback = BigWorld.callback(timeOffset, partial(self.startSectorBombingMapActivities, actualTargetTime))
+            return
+        mapActivityName = SECTOR_LOCATION_TO_MAP_ACTIVITY[self.playerGroup, self.IDInPlayerGroup]
+        LOG_DEBUG(b'mapActivityName ', mapActivityName)
+        MapActivities.startActivity(mapActivityName, timeOffset)
+        return
+
+    def showBomb(self, position):
+        largeEffectsIndex = items.vehicles.g_cache.shotEffectsIndexes.get(b'largeHighExplosive')
+        dir_ = Math.Vector3(0.5, 1.0, -0.5)
+        self.setSectorBombing(position, dir_, largeEffectsIndex)
+        return
+
+    def setSectorBombing(self, position, dir_, effectsIndex):
+        LOG_DEBUG(b'sector bombing started ', position, effectsIndex)
+        effectsList = items.vehicles.g_cache.shotEffects[effectsIndex].get(b'groundHit', None)
+        if not effectsList:
+            return
+        else:
+            BigWorld.player().terrainEffects.addNew(position, effectsList[1], effectsList[0], self.__explosionFinished, dir=dir_, start=position + dir_.scale(-1.0), end=position + dir_.scale(1.0))
+            return
+
+    def __explosionFinished(self):
+        LOG_DEBUG(b'explosion finished')
+        return
+
+    def __cancelCallback(self):
+        if self.__startDestructionCallback is not None:
+            BigWorld.cancelCallback(self.__startDestructionCallback)
+            self.__startDestructionCallback = None
+        return
+
+    @property
+    def minX(self):
+        return self.position.x - self.lengthX / 2.0
+
+    @property
+    def maxX(self):
+        return self.position.x + self.lengthX / 2.0
+
+    @property
+    def minZ(self):
+        return self.position.z - self.lengthZ / 2.0
+
+    @property
+    def maxZ(self):
+        return self.position.z + self.lengthZ / 2.0
+
+    def isInSector(self, position):
+        return (self.minX <= position.x < self.maxX) and (self.minZ) <= position.z < self.maxZ

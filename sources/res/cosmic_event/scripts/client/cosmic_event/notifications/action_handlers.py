@@ -1,0 +1,46 @@
+import logging
+from cosmic_event.gui.impl.gen.view_models.views.lobby.cosmic_lobby_view.cosmic_lobby_view_model import LobbyRouteEnum
+from skeletons.gui.game_control import ICosmicEventBattleController
+from helpers import dependency
+from notification.actions_handlers import NavigationDisabledActionHandler
+from notification.settings import NOTIFICATION_TYPE
+_logger = logging.getLogger(__name__)
+
+@dependency.replace_none_kwargs(ctrl=ICosmicEventBattleController)
+def _switchCosmic(ctrl=None):
+    ctrl.switchPrb()
+    ctrl.closeRewardScreen()
+    ctrl.closePostBattleScreen()
+    return
+
+
+class ProgressionDetailsActionHandler(NavigationDisabledActionHandler):
+    _cosmicController = dependency.descriptor(ICosmicEventBattleController)
+
+    def doAction(self, model, entityID, action):
+        self._cosmicController.setLobbyRoute(LobbyRouteEnum.ARTEFACT, True)
+        _switchCosmic()
+        return
+
+    @classmethod
+    def getNotType(cls):
+        return NOTIFICATION_TYPE.MESSAGE
+
+    @classmethod
+    def getActions(cls):
+        return (b'cosmicProgressionDetailsAction',)
+
+
+class CosmicEventOpenHandler(NavigationDisabledActionHandler):
+
+    def doAction(self, model, entityID, action):
+        _switchCosmic()
+        return
+
+    @classmethod
+    def getNotType(cls):
+        return NOTIFICATION_TYPE.MESSAGE
+
+    @classmethod
+    def getActions(cls):
+        return (b'cosmicEventOpenAction',)

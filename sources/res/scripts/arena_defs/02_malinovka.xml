@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:02_malinovka/name</name>
+	<description>#arenas:02_malinovka/description</description>
+	<geometry>spaces/02_malinovka</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-500.0 -500.0</bottomLeft>
+		<upperRight>500.0 500.0</upperRight>
+	</boundingBox>
+	<minimap>spaces/02_malinovka/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_malinovka_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_malinovka_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_malinovka_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_malinovka_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_malinovka_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_malinovka_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_spring_01</wwambientSound>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>env_Forest.bnk</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>75.5994263 -391.914917</position1>
+				</team1>
+				<team2>
+					<position2>-372.467621 108.084656</position2>
+				</team2>
+			</teamBasePositions>
+			<artilleryPreparationChance>0.6</artilleryPreparationChance>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>430.100006 1.5</position>
+				</team1>
+				<team2>
+					<position>46.0999985 449</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-44.2648163 -87.2512131</controlPoint>
+		</domination>
+		<maps_training>
+			<teamBasePositions>
+				<team1>
+					<position1>75.5994263 -391.914917</position1>
+				</team1>
+				<team2>
+					<position2>-372.467621 108.084656</position2>
+				</team2>
+			</teamBasePositions>
+		</maps_training>
+		<comp7>
+			<minimap>spaces/02_malinovka/mmap_comp7.dds</minimap>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<teamSpawnPoints>
+				<team1>
+					<position>-211.913971 424.352844</position>
+				</team1>
+				<team2>
+					<position>386.147888 -186.158585</position>
+				</team2>
+			</teamSpawnPoints>
+			<pointsOfInterestUDO>
+				<point>
+					<position>386.517303 377.372375</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-45.4167404 264.787933</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>162.401367 -36.0190582</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>22.4945488 -270.0896</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-319.869019 -254.891373</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-395.956482 172.337723</position>
+					<type>3</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamBasePositions>
+				<team1>
+					<position1>254.374878 211.523956</position1>
+					<position2>-336.160614 -65.2429657</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</comp7>
+		<bob>
+			<boundingBox>
+				<bottomLeft>-300.0 -300.0</bottomLeft>
+				<upperRight>500.0 500.0</upperRight>
+			</boundingBox>
+			<teamSpawnPoints>
+				<team1>
+					<position>450.773071 -4.43944693</position>
+				</team1>
+				<team2>
+					<position>-13.2621069 444.567413</position>
+				</team2>
+			</teamSpawnPoints>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<minimap>spaces/02_malinovka/mmap_comp7.dds</minimap>
+			<controlPoint>311.075989 306.07901</controlPoint>
+		</bob>
+		<assault2>
+			<minimap>spaces/02_malinovka/mmap_comp7.dds</minimap>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-213.913925 410.604523</position>
+				</team1>
+				<team2>
+					<position>362.776398 -203.780899</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>254.374878 211.523956</position1>
+					<position2>-336.160614 -65.2429657</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+	</gameplayTypes>
+	<useAdvancedPhysics>true</useAdvancedPhysics>
+	<roadMap></roadMap>
+	<mapActivities></mapActivities>
+</root>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<wwmusic>ev_battle_royale_arcade_garage_music</wwmusic>
+	<wwambientSound>ev_battle_royale_2019_hangar_wind</wwambientSound>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>ambient.bnk</name>
+			</bank>
+			<bank>
+				<name>ev_battle_royale_2019_hangar.bnk</name>
+			</bank>
+		</loadBanks>
+		<events>
+			<event>
+				<name>ev_battle_royale_arcade_garage_music</name>
+				<mod>ev_battle_royale_arcade_garage_music</mod>
+				<modAUX>tabs_music</modAUX>
+			</event>
+		</events>
+	</soundRemapping>
+	<wwexitSound>ev_battle_royale_2019_hangar_exit</wwexitSound>
+	<boundingBox>
+		<bottomLeft>-100 -100</bottomLeft>
+		<upperRight>100 100</upperRight>
+	</boundingBox>
+</root>

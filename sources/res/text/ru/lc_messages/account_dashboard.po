@@ -1,0 +1,137 @@
+msgid ""
+msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bonusXp/description"
+msgstr "Позволяет увеличить опыт, полученный в выбранном вами победном бою."
+
+msgid "bonusXp/heading"
+msgstr "Управляемый бонус к опыту"
+
+msgid "bonusXp/multiplier"
+msgstr "Управляемый бонус к опыту %(multiplierFactor)"
+
+msgid "bonusXp/multiplierFactor"
+msgstr "x%(multiplier)"
+
+msgid "close"
+msgstr "ЗАКРЫТЬ"
+
+msgid "excludedMaps/cooldownTooltipBody"
+msgstr "Заменить эту карту можно через {cooldownStr}"
+
+msgid "excludedMaps/cooldownTooltipHeader"
+msgstr "Замена карты недоступна"
+
+msgid "excludedMaps/disabledTooltipBody/defaultSlots"
+msgstr "Слот для исключения дополнительной карты временно недоступен."
+
+msgid "excludedMaps/disabledTooltipBody/premiumSlots"
+msgstr "Слот для исключения дополнительной карты доступен только при активном Танковом премиум аккаунте."
+
+msgid "excludedMaps/disabledTooltipBody/rewardsSlots"
+msgstr "Слот для исключения дополнительной карты можно получить за активное участие в крупных событиях и за выполнение определённых боевых задач."
+
+msgid "excludedMaps/disabledTooltipBody/subscrbSlots"
+msgstr "Слот для исключения дополнительной карты доступен только при активной подписке."
+
+msgid "excludedMaps/disabledTooltipHeader"
+msgstr "Слот недоступен"
+
+msgid "excludedMaps/header"
+msgstr "Исключённые карты"
+
+msgid "excludedMaps/replaceTooltipBody"
+msgstr "Вы можете заменить эту карту."
+
+msgid "excludedMaps/replaceTooltipHeader"
+msgstr "Доступна замена карты"
+
+msgid "excludedMaps/selectTooltipBody"
+msgstr "Выберите карту, чтобы исключить её из ротации Случайных боёв (только для типа боя «Стандартный бой»)."
+
+msgid "excludedMaps/selectTooltipHeader"
+msgstr "Карта не выбрана"
+
+msgid "excludedMaps/timerTooltipDescription"
+msgstr "Срок действия слота:"
+
+msgid "header/badgeTooltip"
+msgstr "Нажмите, чтобы выбрать нашивку, которая будет отображаться в бою рядом с вашим именем. Нашивки можно заработать в Натиске, за выполнение Личных боевых задач и за участие в игровых событиях."
+
+msgid "header/clanSubtitle"
+msgstr "%(position) в клане [%(clanTag)]"
+
+msgid "parentalControl/important"
+msgstr "ВНИМАНИЕ!"
+
+msgid "parentalControl/limitEnabled"
+msgstr "Введён лимит игрового времени"
+
+msgid "personalDogTag/heading"
+msgstr "Личный жетон"
+
+msgid "premiumAccount/PlusPremium"
+msgstr "Танковый премиум"
+
+msgid "premiumAccount/PlusPremiumAccount"
+msgstr "Танковый премиум аккаунт"
+
+msgid "premiumAccount/Premium"
+msgstr "Общий премиум"
+
+msgid "premiumAccount/PremiumAccount"
+msgstr "Общий премиум аккаунт"
+
+msgid "premiumAccount/days"
+msgstr "д"
+
+msgid "premiumAccount/minimumTimeLeft"
+msgstr "менее часа"
+
+msgid "premiumAccount/otherBenefits"
+msgstr "И другие уникальные преимущества!"
+
+msgid "premiumAccount/standardAccount"
+msgstr "Базовый аккаунт"
+
+msgid "premiumAccount/tryPlusPremiumAccount"
+msgstr "Попробуйте\nТанковый премиум аккаунт"
+
+msgid "premiumAccount/upgrade/creditReserve"
+msgstr "Хранилище серебра"
+
+msgid "premiumAccount/upgrade/excludeMapSlot"
+msgstr "+1 слот для исключения карты"
+
+msgid "premiumAccount/upgrade/experience"
+msgstr "Управляемый бонус к опыту"
+
+msgid "premiumAccount/upgrade/platoonBonusCredits"
+msgstr "Взводный бонус к серебру"
+
+msgid "premiumAccount/upgrade/premiumMissions"
+msgstr "Премиум задачи"
+
+msgid "premiumAccount/upgrade/toPlusPremiumAccount"
+msgstr "Улучшите до\nТанкового премиум аккаунта"
+
+msgid "premiumQuests/heading"
+msgstr "Премиум задачи"
+
+msgid "reserveStock/blockTitle"
+msgstr "Хранилище серебра"
+
+msgid "reserveStock/emptyDisabledSubtitle"
+msgstr "Приносит до %(creditMaxAmount) за неделю вследствие активной игры."
+
+msgid "reserveStock/reserveFull"
+msgstr "Хранилище серебра заполнено"
+
+msgid "reserveStock/suspended"
+msgstr "Накопление серебра в хранилище приостановлено:\nистёк срок действия Танкового премиум аккаунта."
+
+msgid "reserveStock/unavailable"
+msgstr "Временно недоступно"
+
+msgid "temporarilyUnavailable"
+msgstr "Временно недоступно"

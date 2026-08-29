@@ -1,0 +1,129 @@
+from enum import Enum
+from operator import attrgetter
+from frameworks.wulf import ViewSettings
+from gui.impl.gen import R
+from gui.impl import backport
+from gui.impl.gen.view_models.windows.simple_tooltip_content_model import SimpleTooltipContentModel
+from gui.impl.pub import ViewImpl
+from helpers import dependency, time_utils
+from skeletons.gui.game_control import IArmoryYardController
+from armory_yard.gui.impl.gen.view_models.views.lobby.feature.armory_yard_main_view_model import SimpleTooltipStates, TabId
+from armory_yard.gui.Scaleform.daapi.view.lobby.hangar.sound_constants import getStageVoTapeRecorderName
+
+class Media(Enum):
+    VIDEO = b'video'
+    AUDIO = b'audio'
+
+
+class ArmoryYardSimpleTooltipView(ViewImpl):
+    __slots__ = (b'__state', b'__id', b'__step', b'__stageManager')
+    _RES_ROOT = R.strings.armory_yard.tooltip
+    _RES_SHOP_ROOT = R.strings.armory_shop.tooltip
+    __armoryYardCtrl = dependency.descriptor(IArmoryYardController)
+
+    def __init__(self, state, id=0, step=0, stageManager=None):
+        settings = ViewSettings(R.views.armory_yard.lobby.feature.tooltips.ArmoryYardSimpleTooltipView())
+        settings.model = SimpleTooltipContentModel()
+        self.__state = state
+        self.__id = id
+        self.__step = int(step) if step else 0
+        self.__stageManager = stageManager
+        super(ArmoryYardSimpleTooltipView, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return super(ArmoryYardSimpleTooltipView, self).getViewModel()
+
+    def _onLoading(self, *args, **kwargs):
+        super(ArmoryYardSimpleTooltipView, self)._onLoading(*args, **kwargs)
+        with self.viewModel.transaction() as tx:
+            tx.setHeader(self.__getHeader())
+            tx.setBody(self.__getBody())
+            tx.setNote(self.__getNote())
+        return
+
+    def __getHeader(self):
+        if self.__state == SimpleTooltipStates.CHAPTER:
+            return backport.text(self._RES_ROOT.chapter.disabled.header())
+        if self.__state == SimpleTooltipStates.TAB:
+            return backport.text(self._RES_ROOT.tab.dyn(self.__getTabByTabID()).header())
+        if self.__state == SimpleTooltipStates.SHOPINFO:
+            return backport.text(self._RES_SHOP_ROOT.shop.info.header())
+        if self.__state == SimpleTooltipStates.STEP:
+            if self.__step >= self.__armoryYardCtrl.startStepOfPostProgression:
+                return backport.text(self._RES_ROOT.step.postprogression.header())
+            return backport.text(self._RES_ROOT.step.header())
+        return b''
+
+    def __getBody(self):
+        ctrl = self.__armoryYardCtrl
+        if not ctrl.isEnabled():
+            return b''
+        if self.__state == SimpleTooltipStates.CHAPTER:
+            currentSeason = ctrl.serverSettings.getCurrentSeason()
+            prevChapterTokens = 0
+            nowTime = time_utils.getServerUTCTime()
+            for cycle in sorted(currentSeason.getAllCycles().values(), key=attrgetter(b'ID')):
+                if cycle.ID == self.__id:
+                    if cycle.startDate <= nowTime:
+                        return backport.ntext(self._RES_ROOT.chapter.disabled.doPrevious.body(), prevChapterTokens, count=prevChapterTokens)
+                    return b''
+                prevChapterTokens = ctrl.totalTokensInChapter(cycle.ID) - ctrl.receivedTokensInChapter(cycle.ID)
+
+            notPassedChaptersCount = ctrl.startStepOfPostProgression - ctrl.getProgressionTokenCount()
+            return backport.ntext(self._RES_ROOT.chapter.disabled.postProgression.doPrevious.body(), int(notPassedChaptersCount), count=int(notPassedChaptersCount))
+        if self.__state == SimpleTooltipStates.TAB:
+            return backport.text(self._RES_ROOT.tab.dyn(self.__getTabByTabID()).body())
+        if self.__state == SimpleTooltipStates.SHOPINFO:
+            return backport.text(self._RES_SHOP_ROOT.shop.info.body())
+        if self.__state == SimpleTooltipStates.STEP:
+            currentLvl = self.__armoryYardCtrl.getCurrentProgress()
+            if self.__step > currentLvl:
+                return backport.text(self._RES_ROOT.step.future.body())
+            if self.__armoryYardCtrl.getProgressionLevel() < self.__step <= currentLvl:
+                return backport.text(self._RES_ROOT.step.present.body())
+            return backport.text(self._RES_ROOT.step.past.body())
+        return b''
+
+    def __getTabByTabID(self):
+        defaultTab = b'progression'
+        if self.__id == TabId.PROGRESS:
+            return b'progression'
+        if self.__id == TabId.QUESTS:
+            return b'quests'
+        if self.__id == TabId.SHOP:
+            return b'shop'
+        return defaultTab
+
+    def __getMediaByStepID(self):
+        soundName = getStageVoTapeRecorderName(self.__step)
+        if R.sounds.dyn(soundName).isValid():
+            return Media.AUDIO
+        if self.__stageManager.getStageVideoName(self.__step):
+            return Media.VIDEO
+        return
+
+    def __getNote(self):
+        if not self.__armoryYardCtrl.isEnabled():
+            return b''
+        if self.__state == SimpleTooltipStates.CHAPTER:
+            currentSeason = self.__armoryYardCtrl.serverSettings.getCurrentSeason()
+            nowTime = time_utils.getServerUTCTime()
+            for cycle in sorted(currentSeason.getAllCycles().values(), key=attrgetter(b'ID')):
+                if cycle.ID == self.__id and cycle.startDate > nowTime:
+                    return backport.text(self._RES_ROOT.chapter.disabled.doFuture.note(), color_open=b'%(brown_open)s', startDate=self._getFormattedLocalTime(cycle.startDate), color_close=b'%(brown_close)s')
+
+        elif self.__state == SimpleTooltipStates.TAB:
+            if self.__id == TabId.QUESTS:
+                startTime, endTime = self.__armoryYardCtrl.getProgressionTimes()
+                return backport.text(self._RES_ROOT.tab.quests.note(), color_open=b'%(brown_open)s', startDate=self._getFormattedLocalTime(startTime), endDate=self._getFormattedLocalTime(endTime), color_close=b'%(brown_close)s')
+        elif self.__state == SimpleTooltipStates.STEP and self.__armoryYardCtrl.getCurrentProgress() >= self.__step:
+            media = self.__getMediaByStepID()
+            if media:
+                return backport.text(self._RES_ROOT.step.dyn(media.value).note())
+        return b''
+
+    def _getFormattedLocalTime(self, timestamp):
+        localTime = time_utils.getTimeStructInLocal(timestamp)
+        return backport.text(self._RES_ROOT.tab.quests.noteDate(), day=localTime.tm_mday, month=backport.text(R.strings.menu.dateTime.months.num(localTime.tm_mon)()), year=localTime.tm_year, startTime=(b'{:02d}:{:02d}').format(localTime.tm_hour, localTime.tm_min))

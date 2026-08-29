@@ -1,0 +1,2183 @@
+.Box_mt__XS_0c {
+            margin-top: 4rem;
+        }
+        .Box_mt__SM_eb {
+            margin-top: 8rem;
+        }
+        .Box_mt__SMp_cf {
+            margin-top: 10rem;
+        }
+        .Box_mt__MD_25 {
+            margin-top: 16rem;
+        }
+        .Box_mt__MDp_49 {
+            margin-top: 20rem;
+        }
+        .Box_mt__LG_e8 {
+            margin-top: 32rem;
+        }
+        .Box_mt__XL_83 {
+            margin-top: 64rem;
+        }
+
+.Box_mr__XS_7c {
+            margin-right: 4rem;
+        }
+
+.Box_mr__SM_08 {
+            margin-right: 8rem;
+        }
+
+.Box_mr__SMp_06 {
+            margin-right: 10rem;
+        }
+
+.Box_mr__MD_4a {
+            margin-right: 16rem;
+        }
+
+.Box_mr__MDp_b6 {
+            margin-right: 20rem;
+        }
+
+.Box_mr__LG_d0 {
+            margin-right: 32rem;
+        }
+
+.Box_mr__XL_db {
+            margin-right: 64rem;
+        }
+
+.Box_mb__XS_bb {
+            margin-bottom: 4rem;
+        }
+
+.Box_mb__SM_83 {
+            margin-bottom: 8rem;
+        }
+
+.Box_mb__SMp_04 {
+            margin-bottom: 10rem;
+        }
+
+.Box_mb__MD_ed {
+            margin-bottom: 16rem;
+        }
+
+.Box_mb__MDp_65 {
+            margin-bottom: 20rem;
+        }
+
+.Box_mb__LG_c8 {
+            margin-bottom: 32rem;
+        }
+
+.Box_mb__XL_f8 {
+            margin-bottom: 64rem;
+        }
+
+.Box_ml__XS_8a {
+            margin-left: 4rem;
+        }
+
+.Box_ml__SM_e6 {
+            margin-left: 8rem;
+        }
+
+.Box_ml__SMp_fb {
+            margin-left: 10rem;
+        }
+
+.Box_ml__MD_2b {
+            margin-left: 16rem;
+        }
+
+.Box_ml__MDp_c7 {
+            margin-left: 20rem;
+        }
+
+.Box_ml__LG_39 {
+            margin-left: 32rem;
+        }
+
+.Box_ml__XL_4a {
+            margin-left: 64rem;
+        }
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* eslint-disable-next-line expectedscss*/
+.Text_paragraph-P10_2c {
+        font-size: 10rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_paragraph-P12_22 {
+        font-size: 12rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P14_a7 {
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P16_90 {
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P18_50 {
+        font-size: 18rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P24_33 {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 32rem;
+}
+.Text_heading-H14_8b {
+        font-size: 14rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H15_9e {
+        font-size: 15rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H18_b7 {
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H20R_f6 {
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H22_27 {
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H24R_be {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H24_0c {
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H28_78 {
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H36_32 {
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H56_c3 {
+        font-size: 56rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H73_8f {
+        font-size: 73rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H144_a9 {
+        font-size: 144rem;
+        font-weight: 700;
+        line-height: 1;
+}
+.Text_BLACK_REAL_30 {
+        color: #000000;
+    }
+.Text_WHITE_REAL_bc {
+        color: #FFFFFF;
+    }
+.Text_WHITE_62 {
+        color: #F2F2F7;
+    }
+.Text_WHITE_ORANGE_54 {
+        color: #FEFEEC;
+    }
+.Text_WHITE_SPANISH_df {
+        color: #E9E2BF;
+    }
+.Text_PAR_15 {
+        color: #8C8C7E;
+    }
+.Text_PAR_SECONDARY_5d {
+        color: #595950;
+    }
+.Text_PAR_TERTIARY_c9 {
+        color: #37362E;
+    }
+.Text_INFO_RED_30 {
+        color: #FF0000;
+    }
+.Text_RED_66 {
+        color: #FF2717;
+    }
+.Text_RED_DARK_d8 {
+        color: #B70000;
+    }
+.Text_YELLOW_ed {
+        color: #FEAB34;
+    }
+.Text_ORANGE_be {
+        color: #EE7000;
+    }
+.Text_CREAM_57 {
+        color: #FFDD99;
+    }
+.Text_BROWN_18 {
+        color: #CBAC77;
+    }
+.Text_GREEN_BRIGHT_3f {
+        color: #80D43A;
+    }
+.Text_GREEN_e3 {
+        color: #7AB300;
+    }
+.Text_GREEN_DARK_f1 {
+        color: #497212;
+    }
+.Text_BLUE_BOOSTER_21 {
+        color: #CCFFFF;
+    }
+.Text_BLUE_TEAMKILLER_ab {
+        color: #09E2FF;
+    }
+.Text_CRED_f7 {
+        color: #CED9D9;
+    }
+.Text_GOLD_28 {
+        color: #FFC363;
+    }
+.Text_BOND_be {
+        color: #C9C9B6;
+    }
+.Text_PROM_65 {
+        color: #A29B70;
+    }
+
+.App_base_8c {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #181818;
+    visibility: hidden;
+    overflow: hidden;
+    position: relative;
+}
+
+    .App_base__visible_74 {
+        visibility: visible;
+        animation: App_fadeIn_31 0.5s linear forwards;
+    }
+@keyframes App_fadeIn_31 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.App_content_ac {
+    width: 1600rem;
+    height: 900rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 7;
+    transform: translate(-50%, -50%);
+}
+.mediaMedium .App_content_ac {
+        width: 1920rem;
+        height: 1080rem;
+}
+.mediaLarge .App_content_ac {
+        width: 2560rem;
+        height: 1440rem;
+}
+.App_button_42 {
+    position: absolute;
+    top: 198rem;
+    right: 308rem;
+    z-index: 8;
+}
+.mediaSmall .App_button_42 {
+        right: 197rem;
+}
+.mediaMedium .App_button_42 {
+        top: 211rem;
+        right: 240rem;
+}
+.mediaLarge .App_button_42 {
+        top: 360rem;
+        right: 420rem;
+}
+.mediaExtraLarge .App_button_42 {
+        top: 252rem;
+        right: 320rem;
+}
+.App_header_e4 {
+    color: #F2F2F7;
+    font-size: 28rem;
+    font-weight: 700;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50rem;
+    left: 50%;
+    z-index: 8;
+    transform: translateX(-50%);
+}
+.mediaMedium .App_header_e4 {
+        color: #F2F2F7;
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+        top: 55rem;
+}
+.mediaLarge .App_header_e4 {
+        color: #F2F2F7;
+        font-size: 56rem;
+        font-weight: 700;
+        line-height: 1.1;
+        top: 62rem;
+}
+.mediaExtraLarge .App_header_e4 {
+        color: #F2F2F7;
+        font-size: 73rem;
+        font-weight: 700;
+        line-height: 1.1;
+        top: 70rem;
+}
+.App_info_90 {
+    width: 24rem;
+    height: 24rem;
+    margin-top: 3rem;
+    background: url('R.images.gui.maps.icons.mode_selector.common.btn_info_normal_small') no-repeat 50% / contain;
+    transition: all 200ms;
+    cursor: pointer;
+}
+.App_info_90:hover {
+        background-image: url('R.images.gui.maps.icons.mode_selector.common.btn_info_hover_small');
+    }
+.mediaMedium .App_info_90 {
+        width: 32rem;
+        height: 32rem;
+        margin-top: 5rem;
+        background: url('R.images.gui.maps.icons.mode_selector.common.btn_info_normal') no-repeat 50% / contain;
+}
+.mediaMedium .App_info_90:hover {
+            background-image: url('R.images.gui.maps.icons.mode_selector.common.btn_info_hover');
+        }
+.mediaLarge .App_info_90 {
+        transform: translateY(4rem);
+}
+.mediaExtraLarge .App_info_90 {
+        transform: translateY(8rem);
+}
+.App_headerText_23 {
+    margin-right: 12rem;
+}
+.App_headerButton_e1 {
+    margin-top: 4rem;
+    padding: 0;
+}
+.mediaMedium .App_headerButton_e1 {
+        margin-top: 7rem;
+}
+.App_operations_64 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 308rem;
+    bottom: 146rem;
+    z-index: 8;
+}
+.mediaSmall .App_operations_64 {
+        right: 197rem;
+}
+.mediaMedium .App_operations_64 {
+        right: 240rem;
+        bottom: 170rem;
+}
+.mediaLarge .App_operations_64 {
+        right: 420rem;
+        bottom: 270rem;
+}
+.mediaExtraLarge .App_operations_64 {
+        right: 372rem;
+        bottom: 280rem;
+}
+.mediaExtraLarge .App_operations__small_45 {
+            right: 320rem;
+        }
+.App_video_96 {
+    width: 650rem;
+    height: 650rem;
+    background: no-repeat center / cover;
+    position: absolute;
+    top: 85rem;
+    left: 120rem;
+    z-index: 3;
+}
+.mediaMedium .App_video_96 {
+        width: 750rem;
+        height: 750rem;
+        top: 106rem;
+        left: 150rem;
+}
+.mediaLarge .App_video_96 {
+        width: 910rem;
+        height: 910rem;
+        top: 184rem;
+        left: 200rem;
+}
+.mediaExtraLarge .App_video_96 {
+        width: 900rem;
+        height: 900rem;
+        top: 182rem;
+        left: 52rem;
+}
+.App_bgLow_ac {
+    width: 100%;
+    height: 100%;
+    background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_room_low_1024') no-repeat center /
+        cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+.mediaSmall .App_bgLow_ac {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_room_low_1366');
+}
+.mediaMedium .App_bgLow_ac {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_room_low_1600');
+}
+.mediaLarge .App_bgLow_ac {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_room_low_1920');
+}
+.mediaExtraLarge .App_bgLow_ac {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_room_low');
+}
+.App_bgRoom_b0 {
+    width: 1600rem;
+    height: 900rem;
+    background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_room_1366') no-repeat center / cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.mediaMedium .App_bgRoom_b0 {
+        width: 1920rem;
+        height: 1080rem;
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_room_1600');
+}
+.mediaLarge .App_bgRoom_b0 {
+        width: 2560rem;
+        height: 1440rem;
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_room');
+}
+.App_bgBlink_8c {
+    width: 162rem;
+    height: 162rem;
+    background: no-repeat center / cover;
+    position: absolute;
+    top: 152rem;
+    left: 484rem;
+    z-index: 2;
+}
+.mediaSmall .App_bgBlink_8c {
+        left: 481rem;
+}
+.mediaMedium .App_bgBlink_8c {
+        width: 204rem;
+        height: 204rem;
+        top: 175rem;
+        left: 572rem;
+}
+.mediaLarge .App_bgBlink_8c {
+        width: 256rem;
+        height: 256rem;
+        top: 237rem;
+        left: 770rem;
+}
+.mediaExtraLarge .App_bgBlink_8c {
+        top: 228rem;
+        left: 775rem;
+}
+.App_bgTable_0c {
+    width: 1600rem;
+    height: 520rem;
+    background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_table_1366') no-repeat center / cover;
+    position: absolute;
+    bottom: 0;
+    left: 132rem;
+    z-index: 4;
+}
+.App_bgTable__low_63 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_table_low_1366');
+    }
+.mediaSmall .App_bgTable_0c {
+        left: 0;
+}
+.mediaMedium .App_bgTable_0c {
+        width: 1920rem;
+        height: 618rem;
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_table_1600');
+}
+.mediaMedium .App_bgTable__low_63 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_table_low_1600');
+        }
+.mediaLarge .App_bgTable_0c {
+        width: 2560rem;
+        height: 833rem;
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_table_1920');
+}
+.mediaLarge .App_bgTable__low_63 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_table_low_1920');
+        }
+.mediaExtraLarge .App_bgTable_0c {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_table');
+}
+.mediaExtraLarge .App_bgTable__low_63 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_table_low');
+        }
+.App_bgSmoke_bd {
+    width: 147rem;
+    height: 133rem;
+    background: no-repeat center / cover;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 260rem;
+    left: 315rem;
+    z-index: 5;
+}
+.mediaSmall .App_bgSmoke_bd {
+        bottom: 263rem;
+        left: 189rem;
+}
+.mediaMedium .App_bgSmoke_bd {
+        width: 168rem;
+        height: 152rem;
+        bottom: 317rem;
+        left: 259rem;
+}
+.mediaLarge .App_bgSmoke_bd {
+        width: 210rem;
+        height: 190rem;
+        bottom: 421rem;
+        left: 425rem;
+}
+.mediaExtraLarge .App_bgSmoke_bd {
+        bottom: 436rem;
+        left: 300rem;
+}
+.App_parallax_c5 {
+    width: 1600rem;
+    height: 900rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+.mediaMedium .App_parallax_c5 {
+        width: 1920rem;
+        height: 1080rem;
+}
+.mediaLarge .App_parallax_c5 {
+        width: 2560rem;
+        height: 1440rem;
+}
+.App_vignette_88 {
+    width: 1820rem;
+    height: 1100rem;
+    background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.vignette') no-repeat center / cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 6;
+    transform: translate(-50%, -50%);
+}
+.mediaMedium .App_vignette_88 {
+        width: 2120rem;
+        height: 1280rem;
+}
+.mediaLarge .App_vignette_88 {
+        width: 2760rem;
+        height: 1640rem;
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBar_base_45 {
+    width: 100%;
+    height: 12rem;
+    position: relative;
+}
+.ProgressBar_base__medium_62 {
+        height: 6rem;
+    }
+.ProgressBar_base__small_df {
+        height: 2rem;
+    }
+.ProgressBar_background_51 {
+    width: 100%;
+    max-width: 8001px;
+    height: 100%;
+    background-image: var(--progress-base);
+    background-repeat: repeat;
+    background-position: 0 50%;
+    background-size: 3rem 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ProgressBar_background__medium_6e {
+        height: 6rem;
+    }
+.ProgressBar_background__small_46 {
+        height: 2rem;
+    }
+.ProgressBar_lineWrapper_6a {
+    display: flex;
+    flex: 1;
+}
+
+
+.ProgressBarBlink_base_24 {
+    width: 60rem;
+    height: 100rem;
+    background-image: var(--progress-glow);
+    background-size: contain;
+    mix-blend-mode: lighten;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    pointer-events: none;
+}
+
+    .ProgressBarBlink_base__medium_ec {
+        width: 42rem;
+        height: 70rem;
+    }
+
+    .ProgressBarBlink_base__small_0f {
+        width: 44rem;
+        height: 43rem;
+        background-image: var(--progress-glow-small);
+    }
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressLineImpose_base_80 {
+    max-width: 8001px;
+    height: 100%;
+    background-color: var(--progress-line-base);
+    position: relative;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressLineImpose_base__disabled_cc {
+        background-color: var(--progress-line-disabled);
+    }
+.ProgressLineImpose_base__finished_d4 {
+        background-color: var(--progress-line-finished);
+    }
+.ProgressLineImpose_base__withoutBounce_56 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+.ProgressLineImpose_pattern_1c {
+    max-width: 8001px;
+    background-image: var(--progress-pattern-base);
+    background-repeat: repeat;
+    background-position: 0 50%;
+    background-size: 3rem 10rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_pattern_1c {
+        top: 0;
+        bottom: 0;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_pattern_1c {
+        background-image: var(--progress-pattern-disabled);
+        left: 0;
+    }
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_pattern_1c {
+        background-image: var(--progress-pattern-finished);
+    }
+.ProgressLineImpose_gradient_35 {
+    max-width: 8001px;
+    background-image: linear-gradient(90deg, rgba(0,0,0, .5), rgba(255,255,255, .75));
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    bottom: 1rem;
+    left: 0;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_gradient_35 {
+        top: 0;
+        bottom: 0;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_gradient_35 {
+        display: none;
+    }
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_gradient_35 {
+        background-image: linear-gradient(90deg, rgba(0,0,0, .5), rgba(255,255,255, .75), rgba(0,0,0, .5));
+    }
+.ProgressLineImpose_glow_a5 {
+    width: 60rem;
+    max-width: 8001px;
+    height: 100rem;
+    background-image: var(--progress-glow);
+    background-size: contain;
+    mix-blend-mode: lighten;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.ProgressLineImpose_glow__left_d8 {
+        left: 1rem;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_glow_a5,
+    .ProgressLineImpose_base__finished_d4 .ProgressLineImpose_glow_a5 {
+        display: none;
+    }
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_glow_a5 {
+        width: 44rem;
+        height: 43rem;
+        background-image: var(--progress-glow-small);
+    }
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBarDeltaSimple_base_6c {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.ProgressBarDeltaSimple_delta_99 {
+    width: 0;
+    max-width: 8001px;
+    height: 100%;
+    box-shadow: var(--progress-delta-shadow);
+    background-color: var(--progress-delta-color);
+    position: absolute;
+    bottom: 0;
+    transform-origin: right center;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1), cubic-bezier(.21, .61, .35, 1);
+    transition-property: width, transform;
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBarDeltaGrow_base_7e {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressBarDeltaGrow_base__withoutBounce_b5 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+.ProgressBarDeltaGrow_glow_68 {
+    width: 0;
+    max-width: 8001px;
+    height: 100%;
+    box-shadow: var(--progress-delta-shadow);
+    background-color: var(--progress-delta-color);
+    position: absolute;
+    bottom: 0;
+    transform-origin: right center;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressBarDeltaGrow_base__withoutBounce_b5 .ProgressBarDeltaGrow_glow_68 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+
+.LastOperation_base_58 {
+    width: 664rem;
+    height: 135rem;
+    border-radius: 2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+    .mediaMedium .LastOperation_base_58 {
+        width: 792rem;
+        height: 174rem;
+}
+
+    .mediaLarge .LastOperation_base_58 {
+        width: 920rem;
+        height: 195rem;
+}
+
+    .mediaExtraLarge .LastOperation_base_58 {
+        width: 1040rem;
+        height: 222rem;
+}
+
+    .LastOperation_base__active_51,
+    .LastOperation_base__completed_4c {
+        width: 624rem;
+    }
+
+    .mediaMedium .LastOperation_base__active_51, .mediaMedium .LastOperation_base__completed_4c {
+            width: 728rem;
+}
+
+    .mediaLarge .LastOperation_base__active_51, .mediaLarge .LastOperation_base__completed_4c {
+            width: 820rem;
+}
+
+    .mediaExtraLarge .LastOperation_base__active_51, .mediaExtraLarge .LastOperation_base__completed_4c {
+            width: 936rem;
+}
+
+    .LastOperation_base__development_bb {
+        cursor: default;
+    }
+.LastOperation_backlight_56 {
+    width: 100%;
+    height: 100%;
+    background: rgba(217, 217, 217, 0.25);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 200ms;
+}
+.LastOperation_base__hovered_47 .LastOperation_backlight_56 {
+        opacity: 0.2;
+    }
+.LastOperation_bg_d7 {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_last_1366') no-repeat center / cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.mediaMedium .LastOperation_bg_d7 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_last_1600');
+}
+.mediaLarge .LastOperation_bg_d7 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_last_1920');
+}
+.mediaExtraLarge .LastOperation_bg_d7 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_last');
+}
+.mediaMedium .LastOperation_base__completed_4c .LastOperation_bg_d7, .mediaMedium .LastOperation_base__active_51 .LastOperation_bg_d7 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_last_s_1600');
+}
+.mediaLarge .LastOperation_base__completed_4c .LastOperation_bg_d7, .mediaLarge .LastOperation_base__active_51 .LastOperation_bg_d7 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_last_s_1920');
+}
+.mediaExtraLarge .LastOperation_base__completed_4c .LastOperation_bg_d7, .mediaExtraLarge .LastOperation_base__active_51 .LastOperation_bg_d7 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_last_s');
+}
+.LastOperation_stroke_09 {
+    width: 100%;
+    height: 100%;
+    border: 1rem solid #FFFFFF;
+    border-radius: 2rem;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.LastOperation_strokeGradient_1a {
+    width: 100%;
+    height: 100%;
+    border: 1rem solid #FEAB34;
+    border-radius: 2rem;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.LastOperation_base__completed_4c .LastOperation_strokeGradient_1a {
+        border: none;
+        background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_completed_last_1366')
+            no-repeat center / cover;
+    }
+.mediaMedium .LastOperation_base__completed_4c .LastOperation_strokeGradient_1a {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_completed_last_1600');
+}
+.mediaLarge .LastOperation_base__completed_4c .LastOperation_strokeGradient_1a {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_completed_last_1920');
+}
+.mediaExtraLarge .LastOperation_base__completed_4c .LastOperation_strokeGradient_1a {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_completed_last');
+}
+.LastOperation_content_b7 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 33rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.mediaMedium .LastOperation_content_b7 {
+        padding-left: 38rem;
+}
+.mediaLarge .LastOperation_content_b7 {
+        padding-left: 44rem;
+}
+.mediaExtraLarge .LastOperation_content_b7 {
+        padding-left: 50rem;
+}
+.LastOperation_base__development_bb .LastOperation_content_b7 {
+        padding-left: 15rem;
+    }
+.mediaMedium .LastOperation_base__development_bb .LastOperation_content_b7 {
+            padding-left: 20rem;
+}
+.mediaLarge .LastOperation_base__development_bb .LastOperation_content_b7 {
+            padding-left: 30rem;
+}
+.mediaExtraLarge .LastOperation_base__development_bb .LastOperation_content_b7 {
+            padding-left: 32rem;
+}
+.LastOperation_icon_f2 {
+    width: 180rem;
+    height: 135rem;
+    background: no-repeat center / cover;
+}
+.mediaMedium .LastOperation_icon_f2 {
+        width: 234rem;
+        height: 174rem;
+}
+.mediaLarge .LastOperation_icon_f2 {
+        width: 260rem;
+        height: 195rem;
+}
+.mediaExtraLarge .LastOperation_icon_f2 {
+        width: 293rem;
+        height: 222rem;
+}
+.LastOperation_base__development_bb .LastOperation_icon_f2 {
+        width: 203rem;
+    }
+.mediaMedium .LastOperation_base__development_bb .LastOperation_icon_f2 {
+            width: 254rem;
+}
+.mediaLarge .LastOperation_base__development_bb .LastOperation_icon_f2 {
+            width: 298rem;
+}
+.mediaExtraLarge .LastOperation_base__development_bb .LastOperation_icon_f2 {
+            width: 336rem;
+}
+.LastOperation_leftSection_20 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 95rem;
+}
+.mediaMedium .LastOperation_leftSection_20 {
+        margin-right: 163rem;
+}
+.mediaLarge .LastOperation_leftSection_20 {
+        margin-right: 214rem;
+}
+.mediaExtraLarge .LastOperation_leftSection_20 {
+        margin-right: 261rem;
+}
+.LastOperation_base__disabled_dd .LastOperation_leftSection_20 {
+        margin-right: 113rem;
+    }
+.mediaMedium .LastOperation_base__disabled_dd .LastOperation_leftSection_20 {
+            margin-right: 172rem;
+}
+.mediaLarge .LastOperation_base__disabled_dd .LastOperation_leftSection_20 {
+            margin-right: 240rem;
+}
+.mediaExtraLarge .LastOperation_base__disabled_dd .LastOperation_leftSection_20 {
+            margin-right: 308rem;
+}
+.LastOperation_base__active_51 .LastOperation_leftSection_20,
+    .LastOperation_base__completed_4c .LastOperation_leftSection_20 {
+        margin-right: 75rem;
+    }
+.mediaMedium .LastOperation_base__active_51 .LastOperation_leftSection_20, .mediaMedium .LastOperation_base__completed_4c .LastOperation_leftSection_20 {
+            margin-right: 125rem;
+}
+.mediaLarge .LastOperation_base__active_51 .LastOperation_leftSection_20, .mediaLarge .LastOperation_base__completed_4c .LastOperation_leftSection_20 {
+            margin-right: 151rem;
+}
+.mediaExtraLarge .LastOperation_base__active_51 .LastOperation_leftSection_20, .mediaExtraLarge .LastOperation_base__completed_4c .LastOperation_leftSection_20 {
+            margin-right: 220rem;
+}
+.LastOperation_title_f0 {
+    color: #F2F2F7;
+    font-size: 22rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 4rem;
+}
+.mediaMedium .LastOperation_title_f0 {
+        color: #F2F2F7;
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 8rem;
+}
+.mediaLarge .LastOperation_title_f0 {
+        color: #F2F2F7;
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 4rem;
+}
+.mediaExtraLarge .LastOperation_title_f0 {
+        color: #F2F2F7;
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 7rem;
+}
+.LastOperation_base__development_bb .LastOperation_title_f0 {
+        margin-left: 18rem;
+        margin-bottom: -11rem;
+        opacity: 0.5;
+    }
+.mediaMedium .LastOperation_base__development_bb .LastOperation_title_f0 {
+            margin-bottom: -4rem;
+}
+.mediaLarge .LastOperation_base__development_bb .LastOperation_title_f0 {
+            margin-bottom: -5rem;
+}
+.LastOperation_subtitle_92 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.mediaMedium .LastOperation_subtitle_92 {
+        margin-bottom: 14rem;
+}
+.mediaLarge .LastOperation_subtitle_92 {
+        margin-bottom: 21rem;
+}
+.mediaExtraLarge .LastOperation_subtitle_92 {
+        margin-bottom: 27rem;
+}
+.LastOperation_subtitle__text_58 {
+        color: #E9E2BF;
+        font-size: 14rem;
+        font-weight: 700;
+        line-height: 1.15;
+        opacity: 0.5;
+    }
+.mediaLarge .LastOperation_subtitle__text_58 {
+            color: #E9E2BF;
+            font-size: 15rem;
+            font-weight: 700;
+            line-height: 1.15;
+}
+.LastOperation_base__development_bb .LastOperation_subtitle_92 {
+        margin-bottom: 1rem;
+    }
+.mediaMedium .LastOperation_base__development_bb .LastOperation_subtitle_92 {
+            margin-bottom: 2rem;
+}
+.mediaLarge .LastOperation_base__development_bb .LastOperation_subtitle_92 {
+            margin-bottom: 15rem;
+}
+.mediaExtraLarge .LastOperation_base__development_bb .LastOperation_subtitle_92 {
+            margin-bottom: 21rem;
+}
+.LastOperation_base__completed_4c .LastOperation_subtitle_92 {
+        margin-bottom: 6rem;
+    }
+.mediaMedium .LastOperation_base__completed_4c .LastOperation_subtitle_92 {
+            margin-bottom: 10rem;
+}
+.mediaLarge .LastOperation_base__completed_4c .LastOperation_subtitle_92 {
+            margin-bottom: 17rem;
+}
+.mediaExtraLarge .LastOperation_base__completed_4c .LastOperation_subtitle_92 {
+            margin-bottom: 23rem;
+}
+.LastOperation_iconLock_f2 {
+    width: 48rem;
+    height: 48rem;
+    margin-right: -10rem;
+    background: url('R.images.gui.maps.icons.missions.commonIcons.lock_mission_48') no-repeat center / cover;
+}
+.LastOperation_development_43 {
+    color: #EE7000;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+.LastOperation_typeIcon_19 {
+    width: 27rem;
+    height: 27rem;
+    margin-left: -4rem;
+    margin-right: -4rem;
+    background: no-repeat center / cover;
+}
+.LastOperation_typeIcon__heavyTank_elite_35 {
+        transform: translateY(1rem);
+    }
+.mediaLarge .LastOperation_typeIcon_19 {
+        width: 30rem;
+        height: 30rem;
+}
+.LastOperation_taskCompleted_4f {
+    color: #F2F2F7;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    margin-bottom: 9rem;
+    text-align: center;
+}
+.mediaMedium .LastOperation_taskCompleted_4f {
+        color: #F2F2F7;
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.LastOperation_base__development_bb .LastOperation_taskCompleted_4f {
+        margin-left: 18rem;
+        opacity: 0.7;
+    }
+.LastOperation_completedText_25 {
+    margin-right: 6rem;
+    opacity: 0.7;
+}
+.LastOperation_operationText_5a {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.mediaMedium .LastOperation_operationText_5a {
+        color: #8C8C7E;
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.LastOperation_operationText__done_10 {
+        color: #F2F2F7;
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+    }
+.mediaMedium .LastOperation_operationText__done_10 {
+            color: #F2F2F7;
+            font-size: 16rem;
+            font-weight: 400;
+            line-height: 1.25;
+}
+.LastOperation_operationText__divider_ef {
+        margin: 0 2rem;
+    }
+.LastOperation_progressBarWrapper_30 {
+    display: flex;
+    width: 100%;
+}
+.LastOperation_base__development_bb .LastOperation_progressBarWrapper_30 {
+        margin-left: 18rem;
+    }
+.LastOperation_progressBar_02 {
+    width: 286rem;
+    height: 6rem;
+}
+.mediaLarge .LastOperation_progressBar_02 {
+        width: 308rem;
+}
+.LastOperation_completedWrapper_25 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 9rem;
+}
+.LastOperation_completedIcon_42 {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.gui.maps.icons.personalMissions.operations.states.fullyCompleted') no-repeat center /
+        cover;
+}
+
+.Operation_base_e5 {
+    width: 200rem;
+    height: 360rem;
+    border-radius: 2rem;
+    position: relative;
+}
+
+    .Operation_base__active_f0,
+    .Operation_base__available_29,
+    .Operation_base__availablePaused_13,
+    .Operation_base__activePaused_39 {
+        width: 240rem;
+    }
+
+    .Operation_base__hovered_3f {
+        cursor: pointer;
+    }
+
+    .mediaMedium .Operation_base_e5 {
+        width: 232rem;
+        height: 440rem;
+}
+
+    .mediaMedium .Operation_base__active_f0,
+        .mediaMedium .Operation_base__available_29,
+        .mediaMedium .Operation_base__availablePaused_13,
+        .mediaMedium .Operation_base__activePaused_39 {
+            width: 296rem;
+        }
+
+    .mediaLarge .Operation_base_e5 {
+        width: 260rem;
+        height: 520rem;
+}
+
+    .mediaLarge .Operation_base__active_f0,
+        .mediaLarge .Operation_base__available_29,
+        .mediaLarge .Operation_base__availablePaused_13,
+        .mediaLarge .Operation_base__activePaused_39 {
+            width: 360rem;
+        }
+
+    .mediaExtraLarge .Operation_base_e5 {
+        width: 296rem;
+        height: 580rem;
+}
+
+    .mediaExtraLarge .Operation_base__active_f0,
+        .mediaExtraLarge .Operation_base__available_29,
+        .mediaExtraLarge .Operation_base__availablePaused_13,
+        .mediaExtraLarge .Operation_base__activePaused_39 {
+            width: 400rem;
+        }
+.Operation_backlight_65 {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    background: #000000;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.Operation_base__hovered_3f .Operation_backlight_65 {
+        background: #1d1d1d;
+    }
+.Operation_bg_95 {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_1366') no-repeat center / cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.Operation_bg__france_4d {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_france_1366');
+    }
+.mediaMedium .Operation_bg_95 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_1600');
+}
+.mediaMedium .Operation_bg__france_4d {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_france_1600');
+        }
+.mediaLarge .Operation_bg_95 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_1920');
+}
+.mediaLarge .Operation_bg__france_4d {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_france_1920');
+        }
+.mediaExtraLarge .Operation_bg_95 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg');
+}
+.mediaExtraLarge .Operation_bg__france_4d {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_france');
+        }
+.Operation_base__disabled_f1 .Operation_bg_95,
+    .Operation_base__disabledPaused_a7 .Operation_bg_95 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_disabled_1366');
+    }
+.Operation_base__disabled_f1 .Operation_bg__france_4d, .Operation_base__disabledPaused_a7 .Operation_bg__france_4d {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_disabled_france_1366');
+        }
+.mediaMedium .Operation_base__disabled_f1 .Operation_bg_95, .mediaMedium .Operation_base__disabledPaused_a7 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_disabled_1600');
+}
+.mediaMedium .Operation_base__disabled_f1 .Operation_bg__france_4d, .mediaMedium .Operation_base__disabledPaused_a7 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_disabled_france_1600');
+            }
+.mediaLarge .Operation_base__disabled_f1 .Operation_bg_95, .mediaLarge .Operation_base__disabledPaused_a7 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_disabled_1920');
+}
+.mediaLarge .Operation_base__disabled_f1 .Operation_bg__france_4d, .mediaLarge .Operation_base__disabledPaused_a7 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_disabled_france_1920');
+            }
+.mediaExtraLarge .Operation_base__disabled_f1 .Operation_bg_95, .mediaExtraLarge .Operation_base__disabledPaused_a7 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_disabled');
+}
+.mediaExtraLarge .Operation_base__disabled_f1 .Operation_bg__france_4d, .mediaExtraLarge .Operation_base__disabledPaused_a7 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_disabled_france');
+            }
+.Operation_base__availablePaused_13 .Operation_bg_95 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_available_p_1366');
+    }
+.Operation_base__availablePaused_13 .Operation_bg__france_4d {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_available_p_france_1366');
+        }
+.mediaMedium .Operation_base__availablePaused_13 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_available_p_1600');
+}
+.mediaMedium .Operation_base__availablePaused_13 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_available_p_france_1600');
+            }
+.mediaLarge .Operation_base__availablePaused_13 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_available_p_1920');
+}
+.mediaLarge .Operation_base__availablePaused_13 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_available_p_france_1920');
+            }
+.mediaExtraLarge .Operation_base__availablePaused_13 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_available_p');
+}
+.mediaExtraLarge .Operation_base__availablePaused_13 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_available_p_france');
+            }
+.Operation_base__activePaused_39 .Operation_bg_95 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_active_p_1366');
+    }
+.Operation_base__activePaused_39 .Operation_bg__france_4d {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_active_p_france_1366');
+        }
+.mediaMedium .Operation_base__activePaused_39 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_active_p_1600');
+}
+.mediaMedium .Operation_base__activePaused_39 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_active_p_france_1600');
+            }
+.mediaLarge .Operation_base__activePaused_39 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_active_p_1920');
+}
+.mediaLarge .Operation_base__activePaused_39 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_active_p_france_1920');
+            }
+.mediaExtraLarge .Operation_base__activePaused_39 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_active_p');
+}
+.mediaExtraLarge .Operation_base__activePaused_39 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_active_p_france');
+            }
+.Operation_base__completed_06 .Operation_bg_95 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_1366');
+    }
+.Operation_base__completed_06 .Operation_bg__france_4d {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_france_1366');
+        }
+.mediaMedium .Operation_base__completed_06 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_1600');
+}
+.mediaMedium .Operation_base__completed_06 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_france_1600');
+            }
+.mediaLarge .Operation_base__completed_06 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_1920');
+}
+.mediaLarge .Operation_base__completed_06 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_france_1600');
+            }
+.mediaExtraLarge .Operation_base__completed_06 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed');
+}
+.mediaExtraLarge .Operation_base__completed_06 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_france');
+            }
+.Operation_base__completedPerfectly_d1 .Operation_bg_95 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completedPerfectly_1366');
+    }
+.Operation_base__completedPerfectly_d1 .Operation_bg__france_4d {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completedPerfectly_france_1366');
+        }
+.mediaMedium .Operation_base__completedPerfectly_d1 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completedPerfectly_1600');
+}
+.mediaMedium .Operation_base__completedPerfectly_d1 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completedPerfectly_france_1600');
+            }
+.mediaLarge .Operation_base__completedPerfectly_d1 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completedPerfectly_1920');
+}
+.mediaLarge .Operation_base__completedPerfectly_d1 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completedPerfectly_france_1920');
+            }
+.mediaExtraLarge .Operation_base__completedPerfectly_d1 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completedPerfectly');
+}
+.mediaExtraLarge .Operation_base__completedPerfectly_d1 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completedPerfectly_france');
+            }
+.Operation_base__completedPaused_58 .Operation_bg_95 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_p_1366');
+    }
+.Operation_base__completedPaused_58 .Operation_bg__france_4d {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_p_france_1366');
+        }
+.mediaMedium .Operation_base__completedPaused_58 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_p_1600');
+}
+.mediaMedium .Operation_base__completedPaused_58 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_p_france_1600');
+            }
+.mediaLarge .Operation_base__completedPaused_58 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_p_1920');
+}
+.mediaLarge .Operation_base__completedPaused_58 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_p_france_1920');
+            }
+.mediaExtraLarge .Operation_base__completedPaused_58 .Operation_bg_95 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_p');
+}
+.mediaExtraLarge .Operation_base__completedPaused_58 .Operation_bg__france_4d {
+                background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.bg_completed_p_france');
+            }
+.Operation_stroke_5a {
+    width: 100%;
+    height: 100%;
+    border: 1rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.Operation_strokeGradient_44 {
+    width: 100%;
+    height: 100%;
+    background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_active_1366') no-repeat
+        center / cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 6;
+}
+.mediaMedium .Operation_strokeGradient_44 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_active_1600');
+}
+.mediaLarge .Operation_strokeGradient_44 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_active_1920');
+}
+.mediaExtraLarge .Operation_strokeGradient_44 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_active');
+}
+.Operation_base__completed_06 .Operation_strokeGradient_44,
+    .Operation_base__completedPerfectly_d1 .Operation_strokeGradient_44 {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_completed_1366');
+    }
+.mediaMedium .Operation_base__completed_06 .Operation_strokeGradient_44, .mediaMedium .Operation_base__completedPerfectly_d1 .Operation_strokeGradient_44 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_completed_1600');
+}
+.mediaLarge .Operation_base__completed_06 .Operation_strokeGradient_44, .mediaLarge .Operation_base__completedPerfectly_d1 .Operation_strokeGradient_44 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_completed_1920');
+}
+.mediaExtraLarge .Operation_base__completed_06 .Operation_strokeGradient_44, .mediaExtraLarge .Operation_base__completedPerfectly_d1 .Operation_strokeGradient_44 {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.stroke_gradient_completed');
+}
+.Operation_icon_41 {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center / cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.Operation_base__disabled_f1 .Operation_icon_41,
+    .Operation_base__disabledPaused_a7 .Operation_icon_41,
+    .Operation_base__completedPaused_58 .Operation_icon_41 {
+        filter: grayscale(100%);
+    }
+.Operation_disabled_0c {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.disable_s_1366') no-repeat center / cover;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.mediaMedium .Operation_disabled_0c {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.disable_s_1600');
+}
+.mediaLarge .Operation_disabled_0c {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.disable_s_1920');
+}
+.mediaExtraLarge .Operation_disabled_0c {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.disable_s');
+}
+.Operation_base__activePaused_39 .Operation_disabled_0c,
+    .Operation_base__availablePaused_13 .Operation_disabled_0c {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.disable_l_1366');
+    }
+.mediaMedium .Operation_base__activePaused_39 .Operation_disabled_0c, .mediaMedium .Operation_base__availablePaused_13 .Operation_disabled_0c {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.disable_l_1600');
+}
+.mediaLarge .Operation_base__activePaused_39 .Operation_disabled_0c, .mediaLarge .Operation_base__availablePaused_13 .Operation_disabled_0c {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.disable_l_1920');
+}
+.mediaExtraLarge .Operation_base__activePaused_39 .Operation_disabled_0c, .mediaExtraLarge .Operation_base__availablePaused_13 .Operation_disabled_0c {
+            background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.disable_l');
+}
+.Operation_content_40 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7;
+}
+.Operation_title_c6 {
+    color: #FEFEEC;
+    font-size: 22rem;
+    font-weight: 700;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 195rem;
+    padding: 15rem 0 0 16rem;
+    opacity: 0.5;
+}
+.mediaMedium .Operation_title_c6 {
+        color: #FEFEEC;
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 250rem;
+        padding: 18rem 0 0 19rem;
+}
+.mediaLarge .Operation_title_c6 {
+        color: #FEFEEC;
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 286rem;
+        padding: 21rem 0 0 22rem;
+}
+.mediaExtraLarge .Operation_title_c6 {
+        margin-bottom: 325rem;
+        padding: 23rem 0 0 25rem;
+}
+.Operation_base__active_f0 .Operation_title_c6,
+    .Operation_base__available_29 .Operation_title_c6 {
+        opacity: 1;
+    }
+.Operation_subtitle_5d {
+    color: #E9E2BF;
+    font-size: 14rem;
+    font-weight: 700;
+    line-height: 1.15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 14rem;
+    text-align: center;
+}
+.mediaMedium .Operation_subtitle_5d {
+        margin-bottom: 30rem;
+}
+.mediaLarge .Operation_subtitle_5d {
+        color: #E9E2BF;
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 24rem;
+}
+.mediaExtraLarge .Operation_subtitle_5d {
+        color: #E9E2BF;
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 30rem;
+}
+.Operation_base__availablePaused_13 .Operation_subtitle_5d,
+    .Operation_base__activePaused_39 .Operation_subtitle_5d {
+        margin-bottom: 15rem;
+    }
+.mediaMedium .Operation_base__availablePaused_13 .Operation_subtitle_5d, .mediaMedium .Operation_base__activePaused_39 .Operation_subtitle_5d {
+            margin-bottom: 25rem;
+}
+.mediaExtraLarge .Operation_base__availablePaused_13 .Operation_subtitle_5d, .mediaExtraLarge .Operation_base__activePaused_39 .Operation_subtitle_5d {
+            margin-bottom: 30rem;
+}
+.Operation_base__disabled_f1 .Operation_subtitle_5d {
+        margin-bottom: 2rem;
+    }
+.mediaMedium .Operation_base__disabled_f1 .Operation_subtitle_5d {
+            margin-bottom: 11rem;
+}
+.mediaLarge .Operation_base__disabled_f1 .Operation_subtitle_5d {
+            margin-bottom: 8rem;
+}
+.mediaExtraLarge .Operation_base__disabled_f1 .Operation_subtitle_5d {
+            margin-bottom: 13rem;
+}
+.Operation_base__disabledPaused_a7 .Operation_subtitle_5d {
+        margin-bottom: 22rem;
+    }
+.mediaMedium .Operation_base__disabledPaused_a7 .Operation_subtitle_5d {
+            margin-bottom: 26rem;
+}
+.mediaLarge .Operation_base__disabledPaused_a7 .Operation_subtitle_5d {
+            margin-bottom: 27rem;
+}
+.mediaExtraLarge .Operation_base__disabledPaused_a7 .Operation_subtitle_5d {
+            margin-bottom: 30rem;
+}
+.Operation_base__completed_06 .Operation_subtitle_5d,
+    .Operation_base__completedPerfectly_d1 .Operation_subtitle_5d {
+        margin-bottom: 15rem;
+    }
+.mediaMedium .Operation_base__completed_06 .Operation_subtitle_5d, .mediaMedium .Operation_base__completedPerfectly_d1 .Operation_subtitle_5d {
+            margin-bottom: 25rem;
+}
+.mediaExtraLarge .Operation_base__completed_06 .Operation_subtitle_5d, .mediaExtraLarge .Operation_base__completedPerfectly_d1 .Operation_subtitle_5d {
+            margin-bottom: 30rem;
+}
+.Operation_base__completedPaused_58 .Operation_subtitle_5d {
+        margin-bottom: 15rem;
+    }
+.mediaMedium .Operation_base__completedPaused_58 .Operation_subtitle_5d {
+            margin-bottom: 25rem;
+}
+.mediaExtraLarge .Operation_base__completedPaused_58 .Operation_subtitle_5d {
+            margin-bottom: 30rem;
+}
+.Operation_typeIcon_0b {
+    width: 30rem;
+    height: 30rem;
+    margin-left: -5rem;
+    margin-right: -5rem;
+    background: no-repeat center / cover;
+}
+.Operation_typeIcon__heavyTank_f5 {
+        transform: translateY(2rem);
+    }
+.Operation_typeIcon__heavyTank_elite_c4 {
+        transform: translateY(1rem);
+    }
+.Operation_typeIcon__AT_SPG_elite_3a {
+        transform: translateY(1rem);
+    }
+.Operation_typeIcon__mediumTank_elite_1f {
+        transform: translateY(1rem);
+    }
+.Operation_typeIcon__lightTank_elite_86 {
+        transform: translateY(1rem);
+    }
+.mediaLarge .Operation_typeIcon_0b {
+        width: 44rem;
+        height: 44rem;
+        margin-left: -6rem;
+        margin-right: -6rem;
+}
+.mediaExtraLarge .Operation_typeIcon_0b {
+        width: 52rem;
+        height: 52rem;
+        margin-left: -6rem;
+        margin-right: -6rem;
+}
+.Operation_taskCompleted_b8 {
+    color: #F2F2F7;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 9rem;
+    opacity: 0.7;
+}
+.mediaMedium .Operation_taskCompleted_b8 {
+        margin-bottom: 7rem;
+}
+.mediaLarge .Operation_taskCompleted_b8 {
+        color: #F2F2F7;
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+        margin-bottom: 12rem;
+}
+.Operation_warning_2f {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.mediaMedium .Operation_warning_2f {
+        margin-bottom: 7rem;
+}
+.mediaExtraLarge .Operation_warning_2f {
+        margin-bottom: 8rem;
+}
+.Operation_warning__string_62 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.Operation_warning__text_37 {
+        color: #EE7000;
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+    }
+.mediaMedium .Operation_warning__text_37 {
+            color: #EE7000;
+            font-size: 16rem;
+            font-weight: 400;
+            line-height: 1.25;
+}
+.Operation_warning__name_40 {
+        margin-left: -10rem;
+        margin-top: 2rem;
+    }
+.Operation_base__disabled_f1 .Operation_warning_2f {
+        align-items: flex-start;
+    }
+.Operation_base__disabled_f1 .Operation_warning__string_62 {
+            margin-top: 15rem;
+        }
+.mediaMedium .Operation_base__disabled_f1 .Operation_warning__string_62 {
+                margin-top: 14rem;
+}
+.Operation_base__disabled_f1 .Operation_warning_2f {
+        margin-left: -20rem;
+}
+.Operation_base__disabledPaused_a7 .Operation_warning_2f,
+    .Operation_base__activePaused_39 .Operation_warning_2f,
+    .Operation_base__availablePaused_13 .Operation_warning_2f,
+    .Operation_base__completedPaused_58 .Operation_warning_2f {
+        margin-left: -8rem;
+    }
+.Operation_base__disabled_f1 .Operation_warning_2f,
+    .Operation_base__disabledPaused_a7 .Operation_warning_2f {
+        margin-bottom: 0;
+    }
+.Operation_specialIcon_d5 {
+    width: 24rem;
+    height: 24rem;
+    margin-right: 4rem;
+    background: url('R.images.gui.maps.icons.library.alertBigIcon') no-repeat center / cover;
+}
+.Operation_base__disabled_f1 .Operation_specialIcon_d5 {
+        width: 48rem;
+        height: 48rem;
+        margin-right: -10rem;
+        background-image: url('R.images.gui.maps.icons.missions.commonIcons.lock_mission_48');
+    }
+.Operation_base__completed_06 .Operation_specialIcon_d5 {
+        background-image: url('R.images.gui.maps.icons.personalMissions.operations.states.completed');
+    }
+.Operation_base__completedPerfectly_d1 .Operation_specialIcon_d5 {
+        background-image: url('R.images.gui.maps.icons.personalMissions.operations.states.fullyCompleted');
+    }
+.Operation_base__completed_06 .Operation_specialIcon_d5,
+    .Operation_base__completedPerfectly_d1 .Operation_specialIcon_d5 {
+        margin-right: 0;
+    }
+.Operation_completedText_bf {
+    margin-right: 5rem;
+}
+.mediaLarge .Operation_completedText_bf {
+        margin-right: 8rem;
+}
+.Operation_operationText_06 {
+    color: #F2F2F7;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.mediaLarge .Operation_operationText_06 {
+        color: #F2F2F7;
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Operation_operationText__done_56 {
+        color: #FEAB34;
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+    }
+.mediaLarge .Operation_operationText__done_56 {
+            color: #FEAB34;
+            font-size: 16rem;
+            font-weight: 400;
+            line-height: 1.25;
+}
+.Operation_operationText__divider_bc {
+        margin: 0 2rem;
+    }
+.mediaLarge .Operation_operationText__divider_bc {
+            margin: 0 4rem;
+}
+.Operation_progressBarWrapper_8e {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Operation_progressBar_f1 {
+    width: 174rem;
+    height: 4rem;
+}
+.mediaMedium .Operation_progressBar_f1 {
+        width: 212rem;
+}
+.mediaLarge .Operation_progressBar_f1 {
+        width: 248rem;
+}
+.mediaExtraLarge .Operation_progressBar_f1 {
+        width: 280rem;
+}
+.Operation_base__completed_06 .Operation_progressBar_f1,
+    .Operation_base__completedPerfectly_d1 .Operation_progressBar_f1,
+    .Operation_base__completedPaused_58 .Operation_progressBar_f1 {
+        width: 140rem;
+        height: 6rem;
+    }
+.mediaMedium .Operation_base__completed_06 .Operation_progressBar_f1, .mediaMedium .Operation_base__completedPerfectly_d1 .Operation_progressBar_f1, .mediaMedium .Operation_base__completedPaused_58 .Operation_progressBar_f1 {
+            width: 160rem;
+}
+.mediaLarge .Operation_base__completed_06 .Operation_progressBar_f1, .mediaLarge .Operation_base__completedPerfectly_d1 .Operation_progressBar_f1, .mediaLarge .Operation_base__completedPaused_58 .Operation_progressBar_f1 {
+            width: 200rem;
+}
+.Operation_base__completedPaused_58 .Operation_progressBar_f1 {
+        opacity: 0.3;
+    }
+
+.Operations_base_6a {
+    display: flex;
+    flex-direction: column;
+}
+
+.Operations_operations_bb {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12rem;
+}
+
+.mediaMedium .Operations_operations_bb {
+        margin-bottom: 16rem;
+}
+
+.mediaLarge .Operations_operations_bb {
+        margin-bottom: 20rem;
+}
+
+.mediaExtraLarge .Operations_operations_bb {
+        margin-bottom: 24rem;
+}
+
+.Operations_operation_75 {
+    margin-right: 12rem;
+    position: relative;
+}
+
+.Operations_operation__last_03 {
+        margin-right: 0;
+    }
+
+.mediaMedium .Operations_operation_75 {
+        margin-right: 16rem;
+}
+
+.mediaMedium .Operations_operation__last_03 {
+            margin-right: 0;
+        }
+
+.mediaLarge .Operations_operation_75 {
+        margin-right: 20rem;
+}
+
+.mediaLarge .Operations_operation__last_03 {
+            margin-right: 0;
+        }
+
+.mediaExtraLarge .Operations_operation_75 {
+        margin-right: 24rem;
+}
+
+.mediaExtraLarge .Operations_operation__last_03 {
+            margin-right: 0;
+        }
+
+.SequencedBg_base_2b {
+    display: flex;
+}
+
+    .SequencedBg_base__scaled_85 {
+        transform: scale(2);
+    }
+
+.Video_video_26 {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center / contain;
+    position: absolute;
+}
+
+.LayerItem_base_3d {
+    display: flex;
+}
+
+    .LayerItem_base__scaled_dd {
+        justify-content: center;
+        align-items: center;
+    }
+
+.PMParallax_base_14 {
+    width: 100%;
+    height: 100%;
+}
+
+.TakeRewards_base_79 {
+    color: #E9E2BF;
+    font-size: 14rem;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+    .mediaLarge .TakeRewards_base_79 {
+        color: #E9E2BF;
+        font-size: 15rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+
+    .TakeRewards_base__disabled_48 {
+        color: rgba(255, 255, 255, 0.48);
+    }
+
+.TakeRewards_button_be {
+    min-width: 160rem;
+    height: 28rem;
+    background: linear-gradient(180deg, rgba(48, 44, 41, 0.6) 15%, rgba(36, 15, 0, 0.6) 85%),
+        url('R.images.gui.maps.icons.personalMissions3.OperationsView.takeButton.take_rewards_pattern_xs') no-repeat
+            center / cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.mediaMedium .TakeRewards_button_be {
+        min-width: 172rem;
+        height: 38rem;
+        background-image: linear-gradient(180deg, rgba(48, 44, 41, 0.6) 15%, rgba(36, 15, 0, 0.6) 85%),
+            url('R.images.gui.maps.icons.personalMissions3.OperationsView.takeButton.take_rewards_pattern_s');
+}
+
+.mediaLarge .TakeRewards_button_be {
+        min-width: 198rem;
+        height: 44rem;
+        background-image: linear-gradient(180deg, rgba(48, 44, 41, 0.6) 15%, rgba(36, 15, 0, 0.6) 85%),
+            url('R.images.gui.maps.icons.personalMissions3.OperationsView.takeButton.take_rewards_pattern');
+}
+
+.TakeRewards_base__disabled_48 .TakeRewards_button_be {
+        border: 1rem solid rgba(255, 255, 255, 0.2);
+        border-radius: 2rem;
+        background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.takeButton.disabled_pattern');
+        color: rgba(255, 255, 255, 0.48);
+        font-weight: 700;
+        cursor: default;
+    }
+
+.TakeRewards_border_b0 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1rem solid rgba(225, 157, 77, 0.68);
+    border-radius: 2rem;
+    filter: drop-shadow(0rem 0rem 4rem #e25100) drop-shadow(0rem 0rem 6rem rgba(255, 155, 62, 0.6));
+    transition: border-color 0.2s;
+}
+
+.TakeRewards_button_be:hover .TakeRewards_border_b0 {
+        border-color: rgba(225, 157, 77, 0.88);
+    }
+
+.TakeRewards_glow_3c {
+    width: 218rem;
+    height: 200rem;
+    background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.takeButton.take_rewards_glow_s') no-repeat
+        center / contain;
+    opacity: 0.6;
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+
+.mediaMedium .TakeRewards_glow_3c {
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.takeButton.take_rewards_glow_m');
+}
+
+.mediaLarge .TakeRewards_glow_3c {
+        width: 240rem;
+        height: 222rem;
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.takeButton.take_rewards_glow');
+}
+
+.TakeRewards_button_be:hover .TakeRewards_glow_3c {
+        opacity: 0.8;
+    }
+
+.TakeRewards_content_f0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 4rem 12rem 4rem 14rem;
+}
+
+.mediaMedium .TakeRewards_content_f0 {
+        padding: 7rem 15rem;
+}
+
+.mediaLarge .TakeRewards_content_f0 {
+        padding: 7rem 17rem 9rem 18rem;
+}
+
+.TakeRewards_buttonIcon_68 {
+    width: 24rem;
+    height: 24rem;
+    margin-right: 4rem;
+    background: url('R.images.gui.maps.icons.personalMissions3.OperationsView.takeButton.take_reward_1366') no-repeat
+        center / contain;
+}
+
+.mediaMedium .TakeRewards_buttonIcon_68 {
+        width: 28rem;
+        height: 28rem;
+        margin-right: 6rem;
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.takeButton.take_reward_1600');
+}
+
+.mediaLarge .TakeRewards_buttonIcon_68 {
+        width: 32rem;
+        height: 32rem;
+        margin-right: 8rem;
+        background-image: url('R.images.gui.maps.icons.personalMissions3.OperationsView.takeButton.take_reward');
+}
+
+.TakeRewards_base__disabled_48 .TakeRewards_buttonIcon_68 {
+        filter: grayscale(100%);
+        opacity: 0.8;
+    }
+
+.TakeRewards_title_ec {
+    margin-top: -2rem;
+}
+
+.mediaExtraLarge .TakeRewards_title_ec {
+        margin-top: 2rem;
+}
+
+.TakeRewards_hightlightWrapper_a8 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 4rem;
+    overflow: hidden;
+}
+
+.TakeRewards_hightlight_6e {
+    width: 28rem;
+    height: 150rem;
+    background: #fff;
+    filter: blur(1.5rem);
+    mix-blend-mode: overlay;
+    position: absolute;
+    left: -5%;
+    transform: rotate(45deg) translate(-80rem);
+    animation: TakeRewards_slide_f9 4.5s infinite 2s;
+}
+
+@keyframes TakeRewards_slide_f9 {
+    25%,
+    100% {
+        left: 160%;
+    }
+}
+

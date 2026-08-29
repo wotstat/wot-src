@@ -1,0 +1,69 @@
+import ResMgr
+from debug_utils import LOG_WARNING
+from items import _xml
+from gui import doc_loaders
+import WWISE
+
+class GuiSoundsLoader(object):
+    XML_PATH = b'gui/gui_sounds.xml'
+    CONTROLS = b'controls'
+    CONTROLS_DEFAULT = b'default'
+    CONTROLS_SCHEMAS = b'schemas'
+    CONTROLS_OVERRIDES = b'overrides'
+    SCHEMA_SOUNDS = b'sounds'
+    SCHEMA_GROUPS = b'groups'
+    EFFECTS = b'effects'
+
+    def __init__(self):
+        self.__schemas = {}
+        self.__groups = {}
+        self.__overrides = {}
+        self.__default = {}
+        self.__effects = {}
+        return
+
+    def __readControlsSounds(self, xmlCtx):
+        controlsSection = _xml.getSubsection(xmlCtx, xmlCtx, self.CONTROLS)
+        self.__default = doc_loaders.readDict(xmlCtx, controlsSection, self.CONTROLS_DEFAULT)
+        controlsOverridesSection = _xml.getSubsection(xmlCtx, controlsSection, self.CONTROLS_OVERRIDES)
+        for name in controlsOverridesSection.keys():
+            self.__overrides[name] = doc_loaders.readDict(xmlCtx, controlsOverridesSection, name)
+
+        for schemaName, schemaSection in _xml.getChildren(xmlCtx, controlsSection, self.CONTROLS_SCHEMAS):
+            self.__schemas[schemaName] = doc_loaders.readDict(xmlCtx, schemaSection, self.SCHEMA_SOUNDS)
+            for groupName in _xml.getSubsection(xmlCtx, schemaSection, self.SCHEMA_GROUPS).asString.split():
+                if groupName in self.__groups:
+                    LOG_WARNING(b'Group has already been read. Will be overriden', groupName, schemaName)
+                self.__groups[groupName] = schemaName
+
+        return
+
+    def __readEffectsSounds(self, xmlCtx):
+        self.__effects = doc_loaders.readDict(xmlCtx, xmlCtx, self.EFFECTS)
+        return
+
+    def load(self):
+        xmlCtx = ResMgr.openSection(self.XML_PATH)
+        if xmlCtx is None:
+            _xml.raiseWrongXml(None, self.XML_PATH, b'can not open or read')
+        self.__readControlsSounds(xmlCtx)
+        self.__readEffectsSounds(xmlCtx)
+        _xml.clearCaches()
+        ResMgr.purge(self.XML_PATH, True)
+        return
+
+    def getControlSound(self, controlType, state, controlID=None):
+        if WWISE.enabled:
+            state = b'ww' + state
+        if controlID is not None and controlID in self.__overrides:
+            return self.__overrides[controlID].get(state)
+        else:
+            if controlType in self.__groups:
+                schemaName = self.__groups[controlType]
+                return self.__schemas.get(schemaName, {}).get(state)
+            if controlType in self.__schemas:
+                return self.__schemas[controlType].get(state)
+            return self.__default.get(state)
+
+    def getEffectSound(self, effectName):
+        return self.__effects.get(effectName)

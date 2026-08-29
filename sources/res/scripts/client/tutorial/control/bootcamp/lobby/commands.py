@@ -1,0 +1,39 @@
+from helpers import dependency
+from skeletons.tutorial import ITutorialLoader
+from tutorial.logger import LOG_ERROR
+
+@dependency.replace_none_kwargs(tutorialLoader=ITutorialLoader)
+def overrideHangarMenuButtons(buttonsListVarID=None, tutorialLoader=None):
+    tutorialLoader.gui.overrideHangarMenuButtons(_getListByVarID(buttonsListVarID, tutorialLoader))
+    return
+
+
+@dependency.replace_none_kwargs(tutorialLoader=ITutorialLoader)
+def overrideHeaderMenuButtons(buttonsListVarID=None, tutorialLoader=None):
+    tutorialLoader.gui.overrideHeaderMenuButtons(_getListByVarID(buttonsListVarID, tutorialLoader))
+    return
+
+
+@dependency.replace_none_kwargs(tutorialLoader=ITutorialLoader)
+def setHangarHeaderEnabled(enabled, tutorialLoader=None):
+    tutorialLoader.gui.setHangarHeaderEnabled(enabled)
+    return
+
+
+@dependency.replace_none_kwargs(tutorialLoader=ITutorialLoader)
+def overrideBattleSelectorHint(overrideType=None, tutorialLoader=None):
+    tutorialLoader.gui.overrideBattleSelectorHint(overrideType)
+    return
+
+
+def _getListByVarID(varID, tutorialLoader):
+    if varID is not None:
+        tutorial = tutorialLoader.tutorial
+        varVal = tutorial.getVars().get(varID)
+        if varVal is None:
+            LOG_ERROR(b'variable not found', varID)
+            return
+        if isinstance(varVal, list):
+            return varVal
+        LOG_ERROR(b'variable value is not a list', varID, varVal)
+    return

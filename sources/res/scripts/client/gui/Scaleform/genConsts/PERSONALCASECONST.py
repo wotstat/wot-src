@@ -1,0 +1,13 @@
+class PERSONALCASECONST(object):
+    STATS_TAB_ID = b'stats'
+    TRAINING_TAB_ID = b'training'
+    FREE_SKILLS_TAB_ID = b'freeSkills'
+    SKILLS_TAB_ID = b'skills'
+    DOCS_TAB_ID = b'docs'
+    CREW_SKINS_TAB_ID = b'skins'
+    PERSONAL_CASE_STATS = b'crewTankmanStats'
+    PERSONAL_CASE_RETRAINING = b'CrewTankmanRetraining'
+    PERSONAL_CASE_SKILLS = b'PersonalCaseSkills'
+    PERSONAL_CASE_FREE_SKILLS = b'PersonalCaseFreeSkills'
+    PERSONAL_CASE_DOCS = b'PersonalCaseDocs'
+    PERSONAL_CASE_CREW_SKINS = b'PersonalCaseCrewSkins'

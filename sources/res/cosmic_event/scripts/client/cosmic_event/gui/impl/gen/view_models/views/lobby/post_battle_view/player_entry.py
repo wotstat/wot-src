@@ -1,0 +1,74 @@
+from frameworks.wulf import Array
+from frameworks.wulf import ViewModel
+from cosmic_event.gui.impl.gen.view_models.views.lobby.cosmic_lobby_view.scoring_model import ScoringModel
+
+class PlayerEntry(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=7, commands=0):
+        super(PlayerEntry, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getPlayerName(self):
+        return self._getString(0)
+
+    def setPlayerName(self, value):
+        self._setString(0, value)
+        return
+
+    def getPlayerClan(self):
+        return self._getString(1)
+
+    def setPlayerClan(self, value):
+        self._setString(1, value)
+        return
+
+    def getTotalPoints(self):
+        return self._getNumber(2)
+
+    def setTotalPoints(self, value):
+        self._setNumber(2, value)
+        return
+
+    def getIsDeserter(self):
+        return self._getBool(3)
+
+    def setIsDeserter(self, value):
+        self._setBool(3, value)
+        return
+
+    def getPlace(self):
+        return self._getNumber(4)
+
+    def setPlace(self, value):
+        self._setNumber(4, value)
+        return
+
+    def getVehicle(self):
+        return self._getNumber(5)
+
+    def setVehicle(self, value):
+        self._setNumber(5, value)
+        return
+
+    def getPlayersScore(self):
+        return self._getArray(6)
+
+    def setPlayersScore(self, value):
+        self._setArray(6, value)
+        return
+
+    @staticmethod
+    def getPlayersScoreType():
+        return ScoringModel
+
+    def _initialize(self):
+        super(PlayerEntry, self)._initialize()
+        self._addStringProperty(b'playerName', b'')
+        self._addStringProperty(b'playerClan', b'')
+        self._addNumberProperty(b'totalPoints', 0)
+        self._addBoolProperty(b'isDeserter', False)
+        self._addNumberProperty(b'place', 1)
+        self._addNumberProperty(b'vehicle', 1)
+        self._addArrayProperty(b'playersScore', Array())
+        return

@@ -1,0 +1,161 @@
+import BigWorld, typing
+from adisp import adisp_process
+from debug_utils import LOG_DEBUG
+from gui import SystemMessages
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.prb_control import prbDispatcherProperty
+from gui.prb_control.entities.base.ctx import LeavePrbAction
+from gui.prb_control.entities.base.permissions import IPrbPermissions
+from gui.prb_control.entities.base.pre_queue.entity import PreQueueSubscriber, PreQueueEntryPoint, PreQueueEntity
+from gui.prb_control.events_dispatcher import g_eventDispatcher
+from gui.prb_control.items import SelectResult
+from gui.prb_control.settings import REQUEST_TYPE
+from gui.prb_control.storages import storage_getter, RECENT_PRB_STORAGE
+from gui.shared import g_eventBus, events, EVENT_BUS_SCOPE
+from helpers import dependency
+from skeletons.gui.game_control import ICosmicEventBattleController
+from skeletons.gui.impl import IGuiLoader
+from soft_exception import SoftException
+from cosmic_event_common.cosmic_constants import QUEUE_TYPE
+from cosmic_event.gui.prb_control.entities.pre_queue.actions_validator import CosmicEventBattleActionsValidator
+from cosmic_event.gui.prb_control.entities.pre_queue.ctx import CosmicEventBattleQueueCtx
+from cosmic_event.gui.prb_control.entities.pre_queue.scheduler import CosmicEventBattleScheduler
+from cosmic_event.gui.prb_control.prb_config import FUNCTIONAL_FLAG, PREBATTLE_ACTION_NAME
+if typing.TYPE_CHECKING:
+    from gui.prb_control.storages.local_storage import LocalStorage
+    from typing import Optional
+
+@dependency.replace_none_kwargs(ctrl=ICosmicEventBattleController)
+def canSelectPrbEntity(ctrl=None):
+    return ctrl.isAvailable()
+
+
+class CosmicPermissions(IPrbPermissions):
+    pass
+
+
+class CosmicEventBattleEntryPoint(PreQueueEntryPoint):
+
+    def __init__(self):
+        super(CosmicEventBattleEntryPoint, self).__init__(FUNCTIONAL_FLAG.COSMIC_EVENT, QUEUE_TYPE.COSMIC_EVENT)
+        return
+
+
+class CosmicEventBattleEntity(PreQueueEntity):
+    __cosmicEventBattleCtrl = dependency.descriptor(ICosmicEventBattleController)
+    _QUEUE_TIMEOUT_MSG_KEY = b''
+
+    def __init__(self):
+        super(CosmicEventBattleEntity, self).__init__(FUNCTIONAL_FLAG.COSMIC_EVENT, QUEUE_TYPE.COSMIC_EVENT, PreQueueSubscriber())
+        return
+
+    @prbDispatcherProperty
+    def _prbDispatcher(self):
+        return
+
+    def init(self, ctx=None):
+        self.__cosmicEventBattleCtrl.onPrbEnter()
+        self._loadHangar()
+        return super(CosmicEventBattleEntity, self).init(ctx=ctx)
+
+    def leave(self, ctx, callback=None):
+        super(CosmicEventBattleEntity, self).leave(ctx=ctx, callback=callback)
+        self.__cosmicEventBattleCtrl.onPrbLeave()
+        return
+
+    def fini(self, ctx=None, woEvents=False):
+        return super(CosmicEventBattleEntity, self).fini(ctx=ctx, woEvents=woEvents)
+
+    @storage_getter(RECENT_PRB_STORAGE)
+    def storage(self):
+        return
+
+    def doSelectAction(self, action):
+        if action.actionName == PREBATTLE_ACTION_NAME.COSMIC_EVENT:
+            return SelectResult(True)
+        return super(CosmicEventBattleEntity, self).doSelectAction(action)
+
+    def getPermissions(self, pID=None, **kwargs):
+        return CosmicPermissions()
+
+    def getConfirmDialogMeta(self, ctx):
+        if not self.__cosmicEventBattleCtrl.isEnabled:
+            return None
+        else:
+            return super(CosmicEventBattleEntity, self).getConfirmDialogMeta(ctx)
+
+    @property
+    def needsCheckVehicleForBattle(self):
+        return False
+
+    def onEnqueued(self, queueType, *args):
+        super(CosmicEventBattleEntity, self).onEnqueued(queueType, *args)
+        g_eventBus.handleEvent(events.ReferralViewEvent(events.ReferralViewEvent.TOGGLE_BUTTON, ctx={b'isEnabled': False}), EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    def onDequeued(self, queueType, *args):
+        g_eventBus.handleEvent(events.ReferralViewEvent(events.ReferralViewEvent.TOGGLE_BUTTON, ctx={b'isEnabled': True}), EVENT_BUS_SCOPE.LOBBY)
+        super(CosmicEventBattleEntity, self).onDequeued(queueType, *args)
+        return
+
+    def _loadHangar(self):
+        if self.__cosmicEventBattleCtrl.isEnabled:
+            self.__cosmicEventBattleCtrl.openEventLobby()
+        else:
+            g_eventDispatcher.loadHangar()
+        return
+
+    def _doQueue(self, ctx):
+        if not self.__cosmicEventBattleCtrl.isClosing():
+            BigWorld.player().AccountCosmicEventComponent.enqueue(ctx.getVehicleInventoryID())
+            LOG_DEBUG(b'Sends request on queuing to the cosmic event battles', ctx)
+        return
+
+    def _doDequeue(self, ctx):
+        BigWorld.player().AccountCosmicEventComponent.dequeue()
+        LOG_DEBUG(b'Sends request on dequeuing from the cosmic event battles')
+        return
+
+    def _goToQueueUI(self):
+        self.__cosmicEventBattleCtrl.openQueueView()
+        return FUNCTIONAL_FLAG.LOAD_PAGE
+
+    def _exitFromQueueUI(self):
+        uiLoader = dependency.instance(IGuiLoader)
+        contentID = R.views.cosmic_event.lobby.queue_view.QueueView()
+        view = uiLoader.windowsManager.getViewByLayoutID(contentID)
+        if view:
+            view.destroy()
+        self._loadHangar()
+        return
+
+    def _makeQueueCtxByAction(self, action=None):
+        vehicle = self.__cosmicEventBattleCtrl.getEventVehicle()
+        if not vehicle:
+            raise SoftException(b'[COSM25]: Invalid or outdated event vehicle')
+        return CosmicEventBattleQueueCtx(vehicle.invID, waitingID=b'prebattle/join')
+
+    def _createActionsValidator(self):
+        return CosmicEventBattleActionsValidator(self)
+
+    def _createScheduler(self):
+        return CosmicEventBattleScheduler(self)
+
+    def onKickedFromQueue(self, queueType, *args):
+        if queueType != self._queueType:
+            return
+        if self._requestCtx.getRequestType() in (REQUEST_TYPE.QUEUE, REQUEST_TYPE.DEQUEUE):
+            self._requestCtx.stopProcessing(True)
+        self._invokeListeners(b'onKickedFromQueue', self.getQueueType(), *args)
+        self._exitFromQueueUI()
+        if self._isNeedToShowSystemMessage():
+            SystemMessages.pushI18nMessage(backport.text(R.strings.cosmicEvent.arena_start_errors.prb.kick.timeout()), type=SystemMessages.SM_TYPE.Warning)
+        if not self.__cosmicEventBattleCtrl.isEnabled:
+            self._doLeave()
+        return
+
+    @adisp_process
+    def _doLeave(self, isExit=True):
+        yield self._prbDispatcher.doLeaveAction(LeavePrbAction(isExit))
+        return

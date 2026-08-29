@@ -1,0 +1,6 @@
+from fun_random.gui.game_control.awards_controller import FunProgressionQuestsHandler
+from gui.shared.system_factory import registerAwardControllerHandler
+
+def registerFunRandomAwardControllers():
+    registerAwardControllerHandler(FunProgressionQuestsHandler)
+    return

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/transparent</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>MT camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R47_ISU-152_Zveroboj ussr:R61_Object252_BF</vehicles>
+			</exclude>
+		</vehicleFilter>
+		<camouflage>
+			<id>101</id>
+			<texture>vehicles/russian/Camouflage/75_years_victory_day.dds</texture>
+			<description>#vehicle_customization:camouflage/75_years_victory_day/description</description>
+			<scales>1.3 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/75_years_victory_day/label</userString>
+			<tags>hiddenInUI</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 0</c0>
+					<c1>0 255 0 0</c1>
+					<c2>0 0 255 0</c2>
+					<c3>20 20 20 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>0.296705991</HULL>
+				<TURRET>0.296705991</TURRET>
+				<GUN>0.296705991</GUN>
+			</rotation>
+			<tiling>
+				<france:F108_Panhard_EBR_105>2.7 2.7 -0.7 14.95</france:F108_Panhard_EBR_105>
+				<france:F18_Bat_Chatillon25t>2.11 2.11 -0.36 -0.19</france:F18_Bat_Chatillon25t>
+				<france:F18_Bat_Chatillon25t_7x7>2.11 2.11 -0.36 -0.19</france:F18_Bat_Chatillon25t_7x7>
+				<sweden:S11_Strv_103B>1.23 1.23 -3.25 -4</sweden:S11_Strv_103B>
+				<uk:GB91_Super_Conqueror>1.4 1.4 -5.45 -0.15</uk:GB91_Super_Conqueror>
+				<usa:A13_T34_hvy>3 3 0.45 0.02</usa:A13_T34_hvy>
+				<usa:A13_T34_hvy_BF>3 3 0.45 0.02</usa:A13_T34_hvy_BF>
+				<usa:A13_T34_hvy_FL>3 3 0.45 0.02</usa:A13_T34_hvy_FL>
+				<ussr:R108_T34_85M>3.22 3.22 -3.04 0.03</ussr:R108_T34_85M>
+				<ussr:R115_IS-3_auto>3.04 3.04 -0.1 -0.5</ussr:R115_IS-3_auto>
+				<ussr:R11_MS-1>3.85 3.85 -0.55 1.4</ussr:R11_MS-1>
+				<ussr:R32_Matilda_II_LL>0.78 0.78 -1.35 0.55</ussr:R32_Matilda_II_LL>
+			</tiling>
+			<tilingSettings>
+				<type>relative</type>
+				<factor>2.1 2.1</factor>
+				<offset>-1.29 16.55</offset>
+			</tilingSettings>
+		</camouflage>
+	</itemGroup>
+</root>

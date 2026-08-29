@@ -1,0 +1,20 @@
+from gui.Scaleform.framework.entities.abstract.AbstractWindowView import AbstractWindowView
+
+class EULAMeta(AbstractWindowView):
+
+    def requestEULAText(self):
+        self._printOverrideError(b'requestEULAText')
+        return
+
+    def onLinkClick(self, url):
+        self._printOverrideError(b'onLinkClick')
+        return
+
+    def onApply(self):
+        self._printOverrideError(b'onApply')
+        return
+
+    def as_setEULATextS(self, text):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setEULAText(text)
+        return

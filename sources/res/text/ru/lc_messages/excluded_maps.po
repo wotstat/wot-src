@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "backButton/label"
+msgstr "НАЗАД"
+
+msgid "backButton/to"
+msgstr "К СТАТУСУ АККАУНТА"
+
+msgid "filteredMapsDisplayed"
+msgstr "Показано карт: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Показать/скрыть карты этого типа."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Пустынные карты"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Летние карты"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Зимние карты"
+
+msgid "header/cooldown"
+msgstr "Карту можно будет сменить через %(cooldownEndTime)"
+
+msgid "header/title"
+msgstr "Исключённые карты"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Карту можно заменить по истечении указанного времени."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Замена карты недоступна"
+
+msgid "mapTile/hoverExclude"
+msgstr "Исключить карту %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Исключить"
+
+msgid "mapTile/hoverInclude"
+msgstr "Вернуть карту %(mapName) в Стандартные бои?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Вернуть"
+
+msgid "mapsFilterLabel"
+msgstr "Типы карт:"
+
+msgid "notSelected"
+msgstr "Не выбрано"
+
+msgid "slot/buyPremButton"
+msgstr "Купить"
+
+msgid "slot/buyWotPlusButton"
+msgstr "Оформить"
+
+msgid "slot/cooldownTooltipBody"
+msgstr "Заменить эту карту можно через {cooldownStr}"
+
+msgid "slot/cooldownTooltipHeader"
+msgstr "Замена карты недоступна"
+
+msgid "slot/disabledTooltipBody/defaultSlots"
+msgstr "Слот для исключения дополнительной карты временно недоступен."
+
+msgid "slot/disabledTooltipBody/premiumSlots"
+msgstr "Слот для исключения дополнительной карты доступен только при активном Танковом премиум аккаунте."
+
+msgid "slot/disabledTooltipBody/rewardsSlots"
+msgstr "Слот для исключения дополнительной карты можно получить за активное участие в крупных событиях и за выполнение определённых боевых задач."
+
+msgid "slot/disabledTooltipBody/subscrbSlots"
+msgstr "Слот для исключения дополнительной карты доступен только при активной подписке."
+
+msgid "slot/disabledTooltipBodyWotPlus"
+msgstr "Слот для исключения дополнительной карты доступен только при активном Танковом премиум аккаунте."
+
+msgid "slot/disabledTooltipHeader"
+msgstr "Слот недоступен"
+
+msgid "slot/replaceTooltipBody"
+msgstr "Выберите карту из списка ниже, чтобы заменить её и исключить из ротации Случайных боёв (только для типа боя «Стандартный бой»)."
+
+msgid "slot/replaceTooltipHeader"
+msgstr "Доступна замена карты"
+
+msgid "slot/selectTooltipBody"
+msgstr "Выберите карту, чтобы исключить её из ротации Случайных боёв (только для типа боя «Стандартный бой»)."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Карта не выбрана"
+
+msgid "totalMapsDisplayed"
+msgstr "Показано карт: %(count)"

@@ -1,0 +1,282 @@
+import logging, typing, BigWorld
+from WeakMethod import WeakMethodProxy
+from constants import QUEUE_TYPE
+from gui.ClientUpdateManager import g_clientUpdateManager
+from gui.clans.settings import getClanRoleName
+from gui.impl import backport
+from gui.impl.dialogs import dialogs
+from gui.impl.dialogs.gf_builders import ResDialogBuilder
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.account_dashboard.header_model import AccountInfoStateEnum
+from gui.impl.lobby.account_completion.tooltips.hangar_tooltip_view import HangarTooltipView
+from gui.impl.lobby.account_dashboard.features.base import FeatureItem
+from gui.impl.lobby.tooltips.clans import ClanShortInfoTooltipContent
+from gui.impl.pub.dialog_window import DialogButtons
+from gui.impl.wrappers.function_helpers import replaceNoneKwargsModel
+from gui.platform.base.statuses.constants import StatusTypes
+from gui.platform.wgnp.demo_account.controller import NICKNAME_CONTEXT
+from gui.prb_control.ctrl_events import g_prbCtrlEvents
+from gui.prb_control.dispatcher import g_prbLoader
+from gui.shared import event_dispatcher
+from gui.shared.event_dispatcher import showDemoAccRenamingOverlay, showSteamConfirmEmailOverlay, showSteamAddEmailOverlay
+from gui.shared.view_helpers.emblems import EmblemSize, getClanEmblemURL
+from helpers import dependency
+from skeletons.gui.game_control import IBadgesController, ISteamCompletionController, IPlatoonController
+from skeletons.gui.platform.wgnp_controllers import IWGNPSteamAccRequestController, IWGNPDemoAccRequestController
+from skeletons.gui.shared import IItemsCache
+from skeletons.gui.web import IWebController
+from th_async import th_async, th_await
+if typing.TYPE_CHECKING:
+    from typing import Optional
+    from gui.impl.gen.view_models.views.lobby.account_dashboard.header_model import HeaderModel
+    from gui.platform.wgnp.steam_account.statuses import SteamAccEmailStatus
+    from gui.platform.base.statuses.status import Status
+    from gui.impl.gen.view_models.views.lobby.account_dashboard.account_dashboard_model import AccountDashboardModel
+_logger = logging.getLogger(__name__)
+
+class HeaderFeature(FeatureItem):
+    __itemsCache = dependency.descriptor(IItemsCache)
+    __webCtrl = dependency.descriptor(IWebController)
+    __badgesController = dependency.descriptor(IBadgesController)
+    __wgnpSteamAccCtrl = dependency.descriptor(IWGNPSteamAccRequestController)
+    __wgnpDemoAccCtrl = dependency.descriptor(IWGNPDemoAccRequestController)
+    __steamRegistrationCtrl = dependency.descriptor(ISteamCompletionController)
+    __platoonCtrl = dependency.descriptor(IPlatoonController)
+
+    def __init__(self, viewModel):
+        super(HeaderFeature, self).__init__(viewModel)
+        self.__notConfirmedEmail = b''
+        self.__isDestroyed = False
+        self.__confirmationWindow = None
+        self._tooltipModelFactories = {(R.views.lobby.tooltips.clans.ClanShortInfoTooltipContent()): ClanShortInfoTooltipContent, 
+           (R.views.lobby.account_completion.tooltips.HangarTooltip()): (WeakMethodProxy(self.__createHangarTooltipView))}
+        return
+
+    def initialize(self, *args, **kwargs):
+        super(HeaderFeature, self).initialize(*args, **kwargs)
+        self._viewModel.header.onShowBadges += self.__onShowBadges
+        self._viewModel.header.onAccountInfoButtonClick += self.__onAccountInfoButtonClick
+        self.__badgesController.onUpdated += self.__onBadgesChanged
+        g_clientUpdateManager.addCallbacks({b'stats.clanInfo': (self.__onClanInfoChanged), 
+           b'cache.activeOrders': (self.__onClanInfoChanged)})
+        g_prbCtrlEvents.onPreQueueJoined += self.__onPreQueueJoined
+        self.__wgnpSteamAccCtrl.statusEvents.subscribe(StatusTypes.CONFIRMED, self._setEmailConfirmed)
+        self.__wgnpSteamAccCtrl.statusEvents.subscribe(StatusTypes.ADDED, self._setEmailActionNeeded)
+        self.__wgnpSteamAccCtrl.statusEvents.subscribe(StatusTypes.ADD_NEEDED, self._setEmailActionNeeded)
+        demoAccSubscribe = self.__wgnpDemoAccCtrl.statusEvents.subscribe
+        demoAccSubscribe(StatusTypes.ADD_NEEDED, self._showDemoAccountRenaming, context=NICKNAME_CONTEXT)
+        demoAccSubscribe(StatusTypes.PROCESSING, self._showDemoAccountRenamingInProcess, context=NICKNAME_CONTEXT)
+        demoAccSubscribe(StatusTypes.ADDED, self._hideDemoAccountRenaming, context=NICKNAME_CONTEXT)
+        demoAccSubscribe(StatusTypes.UNDEFINED, self._hideDemoAccountRenaming, context=NICKNAME_CONTEXT)
+        return
+
+    def finalize(self):
+        self.__isDestroyed = True
+        self._viewModel.header.onShowBadges -= self.__onShowBadges
+        self._viewModel.header.onAccountInfoButtonClick -= self.__onAccountInfoButtonClick
+        self.__badgesController.onUpdated -= self.__onBadgesChanged
+        g_clientUpdateManager.removeObjectCallbacks(self)
+        g_prbCtrlEvents.onPreQueueJoined -= self.__onPreQueueJoined
+        self.__wgnpSteamAccCtrl.statusEvents.unsubscribe(StatusTypes.CONFIRMED, self._setEmailConfirmed)
+        self.__wgnpSteamAccCtrl.statusEvents.unsubscribe(StatusTypes.ADDED, self._setEmailActionNeeded)
+        self.__wgnpSteamAccCtrl.statusEvents.unsubscribe(StatusTypes.ADD_NEEDED, self._setEmailActionNeeded)
+        demoAccUnsubscribe = self.__wgnpDemoAccCtrl.statusEvents.unsubscribe
+        demoAccUnsubscribe(StatusTypes.ADD_NEEDED, self._showDemoAccountRenaming, context=NICKNAME_CONTEXT)
+        demoAccUnsubscribe(StatusTypes.PROCESSING, self._showDemoAccountRenamingInProcess, context=NICKNAME_CONTEXT)
+        demoAccUnsubscribe(StatusTypes.ADDED, self._hideDemoAccountRenaming, context=NICKNAME_CONTEXT)
+        demoAccUnsubscribe(StatusTypes.UNDEFINED, self._hideDemoAccountRenaming, context=NICKNAME_CONTEXT)
+        if self.__confirmationWindow is not None:
+            self.__confirmationWindow.stopWaiting(DialogButtons.CANCEL)
+            self.__confirmationWindow = None
+        super(HeaderFeature, self).finalize()
+        return
+
+    def createToolTipContent(self, event, contentID):
+        if contentID in self._tooltipModelFactories:
+            return self._tooltipModelFactories[contentID]()
+        return
+
+    def _fillModel(self, model):
+        submodel = model.header
+        submodel.setUserName(BigWorld.player().name)
+        submodel.setIsTeamKiller(self.__itemsCache.items.stats.isTeamKiller)
+        self._updateClanInfo(model=model)
+        self._updateBadges(model=model)
+        submodel.setAccountInfoState(AccountInfoStateEnum.COMPLETED)
+        submodel.setEmailButtonLabel(R.invalid())
+        if self.__steamRegistrationCtrl.isSteamAccount:
+            self.__askEmailStatus()
+        else:
+            self.__askDemoAccountRenameStatus()
+        return
+
+    @replaceNoneKwargsModel
+    def _setEmailConfirmed(self, status=None, model=None):
+        submodel = model.header
+        submodel.setEmailButtonLabel(R.invalid())
+        submodel.setAccountInfoState(AccountInfoStateEnum.COMPLETED)
+        self.__notConfirmedEmail = b''
+        _logger.debug(b'User email confirmed.')
+        return
+
+    @replaceNoneKwargsModel
+    def _setEmailActionNeeded(self, status=None, model=None):
+        submodel = model.header
+        submodel.setAccountInfoState(AccountInfoStateEnum.EMAILPENDING)
+        self.__notConfirmedEmail = status.email if status else b''
+        if self.__notConfirmedEmail:
+            submodel.setEmailButtonLabel(R.strings.badge.badgesPage.accountCompletion.button.confirmEmail())
+        else:
+            submodel.setEmailButtonLabel(R.strings.badge.badgesPage.accountCompletion.button.provideEmail())
+        _logger.debug(b'User email: %s action needed.', self.__notConfirmedEmail)
+        return
+
+    @replaceNoneKwargsModel
+    def _showDemoAccountRenaming(self, status=None, model=None):
+        submodel = model.header
+        submodel.setAccountInfoState(AccountInfoStateEnum.RENAMEAVAILABLE)
+        dispatcher = g_prbLoader.getDispatcher()
+        if dispatcher is not None:
+            queueType = dispatcher.getEntity().getQueueType()
+            if queueType != QUEUE_TYPE.RANDOMS:
+                submodel.setAccountInfoState(AccountInfoStateEnum.RENAMEDISABLED)
+        _logger.debug(b'Demo account renaming needed.')
+        return
+
+    @replaceNoneKwargsModel
+    def _showDemoAccountRenamingInProcess(self, status=None, model=None):
+        submodel = model.header
+        submodel.setAccountInfoState(AccountInfoStateEnum.RENAMEINPROGRESS)
+        _logger.debug(b'Demo account renaming in process.')
+        return
+
+    @replaceNoneKwargsModel
+    def _hideDemoAccountRenaming(self, status=None, model=None):
+        submodel = model.header
+        submodel.setAccountInfoState(AccountInfoStateEnum.COMPLETED)
+        _logger.debug(b'Hide demo account renaming.')
+        return
+
+    @replaceNoneKwargsModel
+    def _updateRenameButtonStatus(self, queueType, model=None):
+        submodel = model.header
+        if queueType != QUEUE_TYPE.RANDOMS and submodel.getAccountInfoState() in (
+         AccountInfoStateEnum.RENAMEAVAILABLE, AccountInfoStateEnum.RENAMEINPROGRESS):
+            submodel.setAccountInfoState(AccountInfoStateEnum.RENAMEDISABLED)
+        return
+
+    @replaceNoneKwargsModel
+    def _updateClanInfo(self, model=None):
+        submodel = model.header
+        clanProfile = self.__webCtrl.getAccountProfile()
+        isInClan = clanProfile.isInClan()
+        submodel.setIsInClan(isInClan)
+        if isInClan:
+            submodel.setClanAbbrev(clanProfile.getClanAbbrev())
+            submodel.setRoleInClan(getClanRoleName(clanProfile.getRole()) or b'')
+            submodel.setClanDescription(clanProfile.getClanFullName())
+            submodel.setClanIcon(getClanEmblemURL(clanProfile.getClanDbID(), EmblemSize.SIZE_32))
+        return
+
+    @replaceNoneKwargsModel
+    def _updateBadges(self, model=None):
+        submodel = model.header
+        self.__setBadge(submodel.setBadgeID, self.__badgesController.getPrefix())
+        self.__setBadge(submodel.setSuffixBadgeID, self.__badgesController.getSuffix())
+        return
+
+    def __createHangarTooltipView(self):
+        _logger.debug(b'Show not confirmed email: %s tooltip.', self.__notConfirmedEmail)
+        return HangarTooltipView(self.__notConfirmedEmail)
+
+    def __onPreQueueJoined(self, queueType):
+        self._updateRenameButtonStatus(queueType)
+        return
+
+    def __onClanInfoChanged(self, _):
+        self._updateClanInfo()
+        return
+
+    def __onBadgesChanged(self):
+        self._updateBadges()
+        return
+
+    @staticmethod
+    def __setBadge(setter, badge):
+        setter(badge.getIconPostfix() if badge is not None and badge.isSelected else b'')
+        return
+
+    @staticmethod
+    def __onShowBadges():
+        event_dispatcher.showBadges(backViewName=backport.text(R.strings.badge.badgesPage.header.backBtn.descrLabel()))
+        return
+
+    def __onAccountInfoButtonClick(self):
+        if self.__steamRegistrationCtrl.isSteamAccount:
+            self.__onEmailButtonClicked()
+        else:
+            self.__onRenamingButtonClicked()
+        return
+
+    def __onEmailButtonClicked(self):
+        label = self._viewModel.header.getEmailButtonLabel()
+        if label == R.strings.badge.badgesPage.accountCompletion.button.confirmEmail():
+            _logger.debug(b'Show email confirmation overlay with email=%s.', self.__notConfirmedEmail)
+            showSteamConfirmEmailOverlay(email=self.__notConfirmedEmail)
+        elif label == R.strings.badge.badgesPage.accountCompletion.button.provideEmail():
+            _logger.debug(b'Show add email overlay.')
+            showSteamAddEmailOverlay()
+        else:
+            _logger.warning(b'Unknown email button label: %s. Action skipped.', label)
+        return
+
+    def __onRenamingButtonClicked(self):
+        _logger.debug(b'Show demo account renaming overlay.')
+        if self.__platoonCtrl.isInPlatoon():
+            self.__showLeaveSquadForRenamingDialog()
+        else:
+            showDemoAccRenamingOverlay()
+        return
+
+    @th_async
+    def __askEmailStatus(self):
+        if not self.__steamRegistrationCtrl.isSteamAccount:
+            _logger.debug(b'Account completion disabled.')
+            return
+        _logger.debug(b'Sending email status request.')
+        status = yield th_await(self.__wgnpSteamAccCtrl.getEmailStatus())
+        if status.isUndefined or self.__isDestroyed:
+            _logger.warning(b'Can not get account email status.')
+            return
+        if status.typeIs(StatusTypes.ADD_NEEDED):
+            self._setEmailActionNeeded()
+        elif status.typeIs(StatusTypes.ADDED):
+            self._setEmailActionNeeded(status=status)
+        else:
+            self._setEmailConfirmed()
+        return
+
+    @th_async
+    def __askDemoAccountRenameStatus(self):
+        if not self.__wgnpDemoAccCtrl.settings.isRenameApiEnabled():
+            return
+        status = yield th_await(self.__wgnpDemoAccCtrl.getNicknameStatus())
+        if status.isUndefined or self.__isDestroyed:
+            return
+        if status.typeIs(StatusTypes.ADD_NEEDED):
+            self._showDemoAccountRenaming()
+        elif status.typeIs(StatusTypes.PROCESSING):
+            self._showDemoAccountRenamingInProcess()
+        return
+
+    @th_async
+    def __showLeaveSquadForRenamingDialog(self):
+        builder = ResDialogBuilder()
+        builder.setMessagesAndButtons(R.strings.dialogs.accountCompletion.leaveSquad)
+        self.__confirmationWindow = builder.build()
+        result = yield th_await(dialogs.show(self.__confirmationWindow))
+        self.__confirmationWindow = None
+        if result.result == DialogButtons.SUBMIT:
+            self.__platoonCtrl.leavePlatoon(ignoreConfirmation=True)
+            showDemoAccRenamingOverlay()
+        return

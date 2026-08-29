@@ -1,0 +1,72 @@
+import BigWorld
+from aih_constants import CTRL_MODE_NAME
+from cgf_obsolete_script.py_component import Component
+
+class VehicleShadowManager(Component):
+
+    def __init__(self, compound=None, playerTargetChangeEvent=None, cameraChangeModeEvent=None):
+        super(VehicleShadowManager, self).__init__()
+        self.__compoundModel = None
+        self.__playerTargetChangeEvent = playerTargetChangeEvent
+        self.__cameraChangeModeEvent = cameraChangeModeEvent
+        self.__prevCameraMode = None
+        if compound is not None:
+            self.registerCompoundModel(compound)
+        return
+
+    def changePlayerTarget(self, isStatic):
+        vehicle = BigWorld.player().getVehicleAttached()
+        if vehicle is not None and vehicle.appearance is not None:
+            self.updatePlayerTarget(vehicle.appearance.compoundModel)
+        else:
+            self.updatePlayerTarget(None)
+        return
+
+    def changeCameraMode(self, cameraMode, currentVehicleId=None):
+        vehicle = BigWorld.player().getVehicleAttached()
+        self.__prevCameraMode = cameraMode
+        isValidMode = cameraMode == CTRL_MODE_NAME.VIDEO or cameraMode == CTRL_MODE_NAME.CAT
+        if isValidMode:
+            self.updatePlayerTarget(None)
+        elif not isValidMode and vehicle is not None and vehicle.appearance is not None:
+            self.updatePlayerTarget(vehicle.appearance.compoundModel)
+        return
+
+    def activate(self):
+        if self.__playerTargetChangeEvent:
+            self.__playerTargetChangeEvent += self.changePlayerTarget
+        if self.__cameraChangeModeEvent:
+            self.__cameraChangeModeEvent += self.changeCameraMode
+        return
+
+    def deactivate(self):
+        if self.__playerTargetChangeEvent:
+            self.__playerTargetChangeEvent -= self.changePlayerTarget
+        if self.__cameraChangeModeEvent:
+            self.__cameraChangeModeEvent -= self.changeCameraMode
+        if self.__compoundModel is not None:
+            BigWorld.resetPlayerTargetFrom(self.__compoundModel)
+        return
+
+    def updatePlayerTarget(self, compoundModel):
+        BigWorld.setPlayerTargetTo(compoundModel)
+        return
+
+    def registerCompoundModel(self, compoundModel):
+        self.__compoundModel = compoundModel
+        BigWorld.registerShadowCaster(compoundModel)
+        return
+
+    def unregisterCompoundModel(self, compoundModel):
+        BigWorld.unregisterShadowCaster(compoundModel)
+        return
+
+    def reattachCompoundModel(self, vehicle, oldCompoundModel, newCompoundModel):
+        self.unregisterCompoundModel(oldCompoundModel)
+        self.registerCompoundModel(newCompoundModel)
+        if BigWorld.player().getVehicleAttached() is vehicle:
+            self.updatePlayerTarget(newCompoundModel)
+        return
+
+    def destroy(self):
+        return

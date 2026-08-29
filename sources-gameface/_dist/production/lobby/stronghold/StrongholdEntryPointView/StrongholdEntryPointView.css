@@ -1,0 +1,326 @@
+body {
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App_base_37 {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    opacity: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+    .App_base__noData_01 {
+        animation: App_fadeOut_a2 0.5s linear;
+    }
+
+    .App_base__loaded_7e {
+        opacity: 1;
+        animation: App_fadeIn_10 0.5s linear;
+    }
+.App_bg_6a {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    background: url('R.images.gui.maps.icons.clans.banner.c_160x112_1') no-repeat center / cover;
+    filter: brightness(1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1);
+    transition: filter 0.5s cubic-bezier(0.07, 0.82, 0.17, 1), transform 0.5s cubic-bezier(0.07, 0.82, 0.17, 1);
+}
+.mediaMedium .App_bg_6a {
+        background-image: url('R.images.gui.maps.icons.clans.banner.c_220x112_1');
+}
+.mediaLarge .App_bg_6a {
+        background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_1');
+}
+.App_base__single_1f .App_bg_6a {
+        background-image: url('R.images.gui.maps.icons.clans.banner.c_300x112_1');
+    }
+.mediaLarge .App_base__single_1f .App_bg_6a {
+            background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_1');
+}
+.App_bg__1_71 {
+            background: url('R.images.gui.maps.icons.clans.banner.c_160x112_1') no-repeat center / cover;
+        }
+.mediaMedium .App_bg__1_71 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_220x112_1');
+}
+.mediaLarge .App_bg__1_71 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_1');
+}
+.App_base__single_1f .App_bg__1_71 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x112_1');
+            }
+.mediaLarge .App_base__single_1f .App_bg__1_71 {
+                    background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_1');
+}
+.App_bg__2_c5 {
+            background: url('R.images.gui.maps.icons.clans.banner.c_160x112_2') no-repeat center / cover;
+        }
+.mediaMedium .App_bg__2_c5 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_220x112_2');
+}
+.mediaLarge .App_bg__2_c5 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_2');
+}
+.App_base__single_1f .App_bg__2_c5 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x112_2');
+            }
+.mediaLarge .App_base__single_1f .App_bg__2_c5 {
+                    background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_2');
+}
+.App_bg__3_d0 {
+            background: url('R.images.gui.maps.icons.clans.banner.c_160x112_3') no-repeat center / cover;
+        }
+.mediaMedium .App_bg__3_d0 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_220x112_3');
+}
+.mediaLarge .App_bg__3_d0 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_3');
+}
+.App_base__single_1f .App_bg__3_d0 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x112_3');
+            }
+.mediaLarge .App_base__single_1f .App_bg__3_d0 {
+                    background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_3');
+}
+.App_bg__4_1f {
+            background: url('R.images.gui.maps.icons.clans.banner.c_160x112_4') no-repeat center / cover;
+        }
+.mediaMedium .App_bg__4_1f {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_220x112_4');
+}
+.mediaLarge .App_bg__4_1f {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_4');
+}
+.App_base__single_1f .App_bg__4_1f {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x112_4');
+            }
+.mediaLarge .App_base__single_1f .App_bg__4_1f {
+                    background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_4');
+}
+.App_bg__5_f0 {
+            background: url('R.images.gui.maps.icons.clans.banner.c_160x112_5') no-repeat center / cover;
+        }
+.mediaMedium .App_bg__5_f0 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_220x112_5');
+}
+.mediaLarge .App_bg__5_f0 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_5');
+}
+.App_base__single_1f .App_bg__5_f0 {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x112_5');
+            }
+.mediaLarge .App_base__single_1f .App_bg__5_f0 {
+                    background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_5');
+}
+.App_bg__6_8d {
+            background: url('R.images.gui.maps.icons.clans.banner.c_160x112_6') no-repeat center / cover;
+        }
+.mediaMedium .App_bg__6_8d {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_220x112_6');
+}
+.mediaLarge .App_bg__6_8d {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_6');
+}
+.App_base__single_1f .App_bg__6_8d {
+                background-image: url('R.images.gui.maps.icons.clans.banner.c_300x112_6');
+            }
+.mediaLarge .App_base__single_1f .App_bg__6_8d {
+                    background-image: url('R.images.gui.maps.icons.clans.banner.c_300x150_6');
+}
+.App_base_37:hover .App_bg_6a {
+        filter: brightness(1.05);
+        transform: scale(1.03);
+    }
+.App_base__notStarted_e3 .App_bg_6a {
+        filter: brightness(1) grayscale(100%);
+    }
+.App_base__notStarted_e3:hover .App_bg_6a {
+        filter: brightness(1.05) grayscale(100%);
+    }
+.App_base__disabled_20 .App_bg_6a {
+        filter: brightness(1) grayscale(100%);
+    }
+.App_base__disabled_20:hover .App_bg_6a {
+        filter: brightness(1.05) grayscale(100%);
+    }
+.App_shadow_33 {
+    width: 100%;
+    height: 100%;
+    border: 1rem solid rgba(255,255,255, 0.25);
+    border-radius: 2rem;
+    box-shadow: inset 0 0 25rem rgba(0, 0, 0, 0.05);
+    background: rgba(0, 0, 0, 0.01);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.App_highlight_a5 {
+    width: 100%;
+    height: 100%;
+    background: url('R.images.gui.maps.icons.clans.banner.highlight') no-repeat center / cover,
+        url('R.images.gui.maps.icons.clans.banner.border') no-repeat center / cover;
+    filter: brightness(0.6);
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.App_base_37:hover .App_highlight_a5 {
+        filter: none;
+        opacity: 1;
+    }
+.App_overlay_47 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s cubic-bezier(0.07, 0.82, 0.17, 1);
+}
+.App_base_37:hover .App_overlay_47 {
+        opacity: 0.5;
+    }
+.App_particles_18 {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    width: 160rem;
+    height: 112rem;
+    mix-blend-mode: screen;
+}
+.mediaMedium .App_particles_18 {
+        width: 220rem;
+}
+.mediaLarge .App_particles_18 {
+        width: 300rem;
+        height: 150rem;
+}
+.App_base__single_1f .App_particles_18 {
+        width: 300rem;
+    }
+.App_content_1f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.App_title_a4 {
+    margin-top: -6rem;
+    color: #FFFFFF;
+    font-size: 15rem;
+    font-weight: 700;
+    text-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+    letter-spacing: 1rem;
+}
+.mediaMedium .App_title_a4 {
+        font-size: 18rem;
+}
+.mediaLarge .App_title_a4 {
+        font-size: 24rem;
+}
+.App_base__single_1f .App_title_a4 {
+        font-size: 22rem;
+    }
+.mediaLarge .App_base__single_1f .App_title_a4 {
+            font-size: 24rem;
+}
+.App_info_0a {
+    color: #E9E2BF;
+    font-size: 12rem;
+    text-align: center;
+}
+.mediaMedium .App_info_0a {
+        font-size: 16rem;
+}
+.mediaLarge .App_info_0a {
+        margin-top: 2rem;
+}
+.App_base__single_1f .App_info_0a {
+        font-size: 16rem;
+    }
+.App_seasonDate_44 {
+    color: #FFDD99;
+    position: absolute;
+    bottom: 7rem;
+}
+.mediaLarge .App_seasonDate_44 {
+        bottom: 13rem;
+}
+.App_seasonDate__withClock_27 {
+        text-shadow: 0 0 4px rgba(255, 127, 0, 0.25), 0 0 8px #ff2a00, 0 0 15px #e52;
+        bottom: -6rem;
+    }
+.mediaMedium .App_seasonDate__withClock_27 {
+            bottom: -4rem;
+}
+.mediaLarge .App_seasonDate__withClock_27 {
+            bottom: 0;
+}
+.App_seasonDateIcon_89 {
+    width: 38rem;
+    height: 38rem;
+    margin: 3rem -7rem 0;
+    background: url('R.images.gui.maps.icons.library.ClockIcon_1') no-repeat center / contain;
+}
+.mediaMedium .App_seasonDateIcon_89 {
+        margin: 5rem -7rem 0;
+}
+.App_seasonDateText_e5 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 12rem;
+    text-align: center;
+}
+.mediaMedium .App_seasonDateText_e5 {
+        font-size: 16rem;
+}
+.App_seasonDateText__highlighted_2f {
+        text-shadow: 0 0 4rem rgba(255, 127, 0, 0.25), 0 0 8rem #ff2a00, 0 0 15rem #e52;
+    }
+.App_seasonDateText__disabled_41 {
+        color: #8C8C7E;
+        text-shadow: none;
+    }
+.App_base__single_1f .App_seasonDateText_e5 {
+        font-size: 16rem;
+    }
+@keyframes App_fadeOut_a2 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes App_fadeIn_10 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+

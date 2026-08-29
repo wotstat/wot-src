@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:101_dday/name</name>
+	<description>#arenas:101_dday/description</description>
+	<geometry>spaces/101_dday</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-400.0 -500.0</bottomLeft>
+		<upperRight>600.0 500.0</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/101_dday/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<wwmusicSetup>
+		<wwmusicLoading>music_overlord_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_overlord_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_overlord_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_overlord_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_overlord_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_overlord_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_summer_01</wwambientSound>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>146.445557 -398.866028</position1>
+				</team1>
+				<team2>
+					<position1>150.791245 398.076263</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<comp7>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<pointsOfInterestUDO>
+				<point>
+					<position>494.511597 9.12662506</position>
+					<type>1</type>
+				</point>
+				<point>
+					<position>-93.6194 12.6016302</position>
+					<type>1</type>
+				</point>
+				<point>
+					<position>279.815002 -120.895485</position>
+					<type>2</type>
+				</point>
+				<point>
+					<position>223.910889 106.745628</position>
+					<type>2</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamSpawnPoints>
+				<team1>
+					<position>164.484756 -308.034302</position>
+				</team1>
+				<team2>
+					<position>199.924133 325.335052</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>3.0994761 8.80603981</controlPoint>
+		</comp7>
+	</gameplayTypes>
+	<mapActivities>
+		<scenario>
+			<startTime>15 30</startTime>
+			<possibility>95</possibility>
+			<interval>180</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>Dday_paratrooper</name>
+			<trajectories>
+				<warplane>
+					<preset>Dday_paratrooper_airplane</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>Dday_air_defence</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>23.7000008 23.7000008</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+	</mapActivities>
+</root>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:209_epic_suburbia/name</name>
+	<description>#arenas:209_epic_suburbia/description</description>
+	<geometry>spaces/209_epic_suburbia</geometry>
+	<runDelay>30</runDelay>
+	<explicitRequestOnly>true</explicitRequestOnly>
+	<boundingBox>
+		<bottomLeft>-1500 -1500</bottomLeft>
+		<upperRight>1500 1500</upperRight>
+	</boundingBox>
+	<roundLength>720</roundLength>
+	<minimap>spaces/209_epic_suburbia/mmap.dds</minimap>
+	<overviewmap>spaces/209_epic_suburbia/ovmap.dds</overviewmap>
+	<vehicleCamouflageKind>winter</vehicleCamouflageKind>
+	<maxPlayersInTeam>30</maxPlayersInTeam>
+	<wwambientSound>ambient_wind_winter_02</wwambientSound>
+	<wwmusicSetup>
+		<wwmusicLoading>music_epic_suburbia_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_epic_suburbia_dron_battle</wwmusicIntensive>
+		<wwmusicRelaxed>music_epic_suburbia_dron_battle</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_epic_suburbia_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_epic_suburbia_result_win</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_epic_suburbia_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwmusicDroneSetup>
+		<timeRemained>
+			<value>120</value>
+		</timeRemained>
+		<capturedPoints>
+			<value>20</value>
+		</capturedPoints>
+		<musicStopPredelay>
+			<value>10</value>
+		</musicStopPredelay>
+		<epicRespawnView>
+			<value>1</value>
+		</epicRespawnView>
+		<epicMainObjectivesTotalHealth>
+			<value>50</value>
+		</epicMainObjectivesTotalHealth>
+		<epicMainObjectivesNumDestroyed>
+			<value>2</value>
+		</epicMainObjectivesNumDestroyed>
+		<epicZoneTransition>
+			<value>1</value>
+		</epicZoneTransition>
+	</wwmusicDroneSetup>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>epic_battle.bnk</name>
+			</bank>
+			<bank>
+				<name>epic_battle_voiceover.bnk</name>
+			</bank>
+			<bank>
+				<name>env_Mountain.bnk</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<estimatedLoad>0.85</estimatedLoad>
+	<bonusTypeOverrides>
+		<EPIC_BATTLE>
+			<estimatedLoad>0.85</estimatedLoad>
+		</EPIC_BATTLE>
+		<EPIC_BATTLE_TRAINING>
+			<estimatedLoad>0.85</estimatedLoad>
+		</EPIC_BATTLE_TRAINING>
+	</bonusTypeOverrides>
+	<gameplayTypes>
+		<epic>
+			<epicSectorGrid>
+				<owningTeam>2</owningTeam>
+				<mainDirection>+Z</mainDirection>
+				<bordersZ>
+					<border>-1500.5</border>
+					<border>-500</border>
+					<border>500</border>
+					<border>1500.5</border>
+				</bordersZ>
+				<bordersX>
+					<border>-1500.5</border>
+					<border>-500</border>
+					<border>500</border>
+					<border>1500.5</border>
+				</bordersX>
+			</epicSectorGrid>
+			<winnerIfTimeout>2</winnerIfTimeout>
+			<playerGroupLimit>13</playerGroupLimit>
+			<numPlayerGroups>3</numPlayerGroups>
+			<numDestructiblesToDestroyForWin>3</numDestructiblesToDestroyForWin>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 -1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<frontLinesGeometry>
+				<front>
+					<playerGroup>1</playerGroup>
+					<direction>0 1</direction>
+					<boundingBox>
+						<bottomLeft>-1500.5 -1500.5</bottomLeft>
+						<upperRight>-500 1500.5</upperRight>
+					</boundingBox>
+				</front>
+				<front>
+					<playerGroup>2</playerGroup>
+					<direction>0 1</direction>
+					<boundingBox>
+						<bottomLeft>-500 -1500.5</bottomLeft>
+						<upperRight>500 1500.5</upperRight>
+					</boundingBox>
+				</front>
+				<front>
+					<playerGroup>3</playerGroup>
+					<direction>0 1</direction>
+					<boundingBox>
+						<bottomLeft>500 -1500.5</bottomLeft>
+						<upperRight>1500.5 1500.5</upperRight>
+					</boundingBox>
+				</front>
+			</frontLinesGeometry>
+			<visualScript>
+				<server>
+					<plan>flsectorbase</plan>
+				</server>
+			</visualScript>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>64.2892303 11.9876537 549.413147</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>5.93111515 27.1752186 -554.925903</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>131.058044 14.0753965 449.414062</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>270.958557 13.2408409 541.568665</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>237.592392 20.5061779 -550.591492</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>248.835709 14.3021622 -450.57428</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>462.888916 13.7098618 449.414032</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>554.478088 14.0436935 549.429871</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>744.765198 23.5211086 -550.585938</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>703.033142 28.1238346 -450.62384</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>852.180969 18.3013935 444.576569</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>828.207947 17.9264278 549.387024</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>982.019226 23.9636478 -550.585938</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>962.803894 27.876749 -449.292114</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>1097.59485 14.2880039 549.413269</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>1118.03455 20.9954948 449.344452</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>1198.69214 15.6629333 -539.82428</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>1160.40063 15.9728546 -450.585815</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>1335.76514 15.5736942 449.414062</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>1383.5011 18.4995441 549.413513</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>1341.30396 24.9733562 -550.585938</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>1335.78174 25.493536 -450.585846</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>-1321.31689 22.6669579 -550.565186</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-1293.60425 17.5019608 -450.620972</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>-1108.89111 15.4459105 448.302399</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-1093.78259 13.5714588 548.340698</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>-1016.93372 16.6700706 -550.585999</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-1021.32971 10.6650124 -450.585846</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>-871.99884 13.2666779 449.327118</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-866.881409 13.2737446 549.413635</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-835.327087 13.7037029 -450.585785</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>-734.37854 13.9423637 449.468689</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>-775.877319 24.1437283 -550.585938</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-671.98877 12.0514412 549.413635</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-579.955017 18.8350887 -450.54361</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>-354.865295 11.6237316 449.414032</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>-372.713989 17.3998642 -561.515259</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-273.717163 11.9219151 552.288025</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>-202.488708 16.9536972 -561.515259</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-285.781677 19.6544418 -450.416016</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>1</team>
+				<position>-194.741379 11.744648 449.414032</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-123.751213 11.9237499 549.413147</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-121.276878 15.0537395 -450.415955</position>
+			</sectorWayPoint>
+			<sectorWayPoint>
+				<team>2</team>
+				<position>-26.5019379 16.6325855 -455.132751</position>
+			</sectorWayPoint>
+			<epicSectorSettings>
+				<defenderMotivationFactors>0.875 0.5625 0.425</defenderMotivationFactors>
+			</epicSectorSettings>
+		</epic>
+	</gameplayTypes>
+	<roadMap></roadMap>
+	<mapActivities></mapActivities>
+</root>

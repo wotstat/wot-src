@@ -1,0 +1,56 @@
+import logging
+from typing import TYPE_CHECKING
+from constants import WoTPlusBonusType
+from helpers import dependency
+from skeletons.gui.game_control import IWotPlusController
+from skeletons.gui.lobby_context import ILobbyContext
+from uilogging.wot_plus.loggers import WotPlusInfoPageLogger
+from uilogging.wot_plus.logging_constants import WotPlusInfoPageSource
+from web.web_client_api import W2CSchema, w2c, Field
+_logger = logging.getLogger(__name__)
+if TYPE_CHECKING:
+    from typing import List
+    from helpers.server_settings import ServerSettings
+
+class _RenewableSubRentVehicleInfoSchema(W2CSchema):
+    vehCD = Field(required=True, type=int)
+
+
+class RenewableSubWebApiMixin(object):
+    _wotPlusCtrl = dependency.descriptor(IWotPlusController)
+    _lobbyContext = dependency.descriptor(ILobbyContext)
+
+    @w2c(W2CSchema, b'get_subscription_info')
+    def getSubscriptionInfo(self, cmd):
+        serverSettings = self._lobbyContext.getServerSettings()
+        return {b'period_start': (self._wotPlusCtrl.getStartTime()), 
+           b'period_end': (self._wotPlusCtrl.getExpiryTime()), 
+           b'enabled_bonuses': (self.getEnabledBonuses(serverSettings)), 
+           b'is_free_deluxe_demount_included': (serverSettings.isFreeDeluxeEquipmentDemountingEnabled()), 
+           b'is_free_equipment_demount_included': (serverSettings.isFreeEquipmentDemountingEnabled()), 
+           b'status': (self._wotPlusCtrl.getState().name)}
+
+    def getEnabledBonuses(self, serverSettings):
+        enabledBonuses = []
+        if serverSettings.isWotPlusExcludedMapEnabled():
+            enabledBonuses.append(WoTPlusBonusType.EXCLUDED_MAP)
+        if serverSettings.isRenewableSubGoldReserveEnabled():
+            enabledBonuses.append(WoTPlusBonusType.GOLD_BANK)
+        if serverSettings.isDailyQuestsExtraRewardsEnabled():
+            enabledBonuses.append(WoTPlusBonusType.DAILY_QUESTS_REWARDS)
+        if serverSettings.isWoTPlusExclusiveVehicleEnabled():
+            enabledBonuses.append(WoTPlusBonusType.EXCLUSIVE_VEHICLE)
+        if serverSettings.isFreeEquipmentDemountingEnabled():
+            enabledBonuses.append(WoTPlusBonusType.FREE_EQUIPMENT_DEMOUNTING)
+        if serverSettings.isRenewableSubPassiveCrewXPEnabled():
+            enabledBonuses.append(WoTPlusBonusType.IDLE_CREW_XP)
+        if serverSettings.isTeamCreditsBonusEnabled():
+            enabledBonuses.append(WoTPlusBonusType.TEAM_CREDITS_BONUS)
+        if serverSettings.isDailyAttendancesEnabled():
+            enabledBonuses.append(WoTPlusBonusType.ATTENDANCE_REWARD)
+        return enabledBonuses
+
+    @w2c(W2CSchema, b'subscription_info_window')
+    def handleSubscriptionInfoWindow(self, cmd):
+        WotPlusInfoPageLogger().logInfoPage(WotPlusInfoPageSource.SHOP)
+        return

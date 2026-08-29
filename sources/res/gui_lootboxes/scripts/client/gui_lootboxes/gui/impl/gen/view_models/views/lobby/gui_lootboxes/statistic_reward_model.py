@@ -1,0 +1,42 @@
+from frameworks.wulf import Array
+from frameworks.wulf import ViewModel
+from gui.impl.gen.view_models.common.missions.bonuses.bonus_model import BonusModel
+
+class StatisticRewardModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(StatisticRewardModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getRewards(self):
+        return self._getArray(0)
+
+    def setRewards(self, value):
+        self._setArray(0, value)
+        return
+
+    @staticmethod
+    def getRewardsType():
+        return BonusModel
+
+    def getRewardCount(self):
+        return self._getNumber(1)
+
+    def setRewardCount(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getBonusGroup(self):
+        return self._getString(2)
+
+    def setBonusGroup(self, value):
+        self._setString(2, value)
+        return
+
+    def _initialize(self):
+        super(StatisticRewardModel, self)._initialize()
+        self._addArrayProperty(b'rewards', Array())
+        self._addNumberProperty(b'rewardCount', 0)
+        self._addStringProperty(b'bonusGroup', b'')
+        return

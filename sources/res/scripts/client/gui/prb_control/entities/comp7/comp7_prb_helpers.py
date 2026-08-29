@@ -1,0 +1,114 @@
+import adisp
+from account_helpers import AccountSettings
+from account_helpers.AccountSettings import GUI_START_BEHAVIOR
+from account_helpers.settings_core.settings_constants import GuiSettingsBehavior
+from frameworks.wulf import WindowLayer
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.app_loader import sf_lobby
+from gui.prb_control.entities.base.ctx import Comp7PrbAction, PrbAction
+from gui.prb_control.settings import PREBATTLE_ACTION_NAME
+from gui.shared import events, event_dispatcher, g_eventBus, EVENT_BUS_SCOPE
+from helpers import dependency
+from skeletons.account_helpers.settings_core import ISettingsCore
+from skeletons.gui.game_control import IComp7Controller
+from skeletons.gui.shared import IItemsCache
+from soft_exception import SoftException
+
+@adisp.adisp_process
+@dependency.replace_none_kwargs(comp7Controller=IComp7Controller)
+def selectComp7(comp7Controller=None):
+    from gui.prb_control.dispatcher import g_prbLoader
+    if not comp7Controller.isEnabled():
+        return
+    else:
+        season = comp7Controller.getCurrentSeason()
+        prevSeason = comp7Controller.getPreviousSeason()
+        if season is not None or prevSeason is not None:
+            prbDispatcher = g_prbLoader.getDispatcher()
+            if prbDispatcher is not None:
+                yield prbDispatcher.doSelectAction(PrbAction(PREBATTLE_ACTION_NAME.COMP7))
+        else:
+            event_dispatcher.showComp7WhatsNewScreen(isIntro=True)
+        return
+
+
+@dependency.replace_none_kwargs(itemsCache=IItemsCache)
+def selectVehicleInComp7Hangar(itemCD, loadHangar=True, itemsCache=None):
+    from CurrentVehicle import g_currentVehicle
+    veh = itemsCache.items.getItemByCD(int(itemCD))
+    if not veh.isInInventory:
+        raise SoftException((b'Vehicle (itemCD={}) must be in inventory.').format(itemCD))
+    g_eventBus.handleEvent(events.HangarVehicleEvent(events.HangarVehicleEvent.SELECT_VEHICLE_IN_HANGAR, ctx={b'vehicleInvID': (veh.invID), 
+       b'prevVehicleInvID': (g_currentVehicle.invID)}), scope=EVENT_BUS_SCOPE.LOBBY)
+    g_currentVehicle.selectVehicle(veh.invID)
+    if loadHangar:
+        selectComp7()
+    return
+
+
+@adisp.adisp_process
+def createComp7Squad(squadSize):
+    from gui.prb_control.dispatcher import g_prbLoader
+    prbDispatcher = g_prbLoader.getDispatcher()
+    if prbDispatcher is not None:
+        yield prbDispatcher.doSelectAction(Comp7PrbAction(PREBATTLE_ACTION_NAME.COMP7_SQUAD, squadSize=squadSize))
+    return
+
+
+class Comp7IntroPresenter(object):
+    __settingsCore = dependency.descriptor(ISettingsCore)
+
+    @sf_lobby
+    def __app(self):
+        return
+
+    def init(self):
+        if self.__isComp7IntroShown() and self.__isComp7WhatsNewShown():
+            return
+        if self.__isHangarViewLoaded():
+            self.__showIntro()
+        else:
+            self.__subscribe()
+        return
+
+    def fini(self):
+        self.__unsubscribe()
+        return
+
+    def __subscribe(self):
+        self.__app.loaderManager.onViewLoaded += self.__onViewLoaded
+        return
+
+    def __unsubscribe(self):
+        self.__app.loaderManager.onViewLoaded -= self.__onViewLoaded
+        return
+
+    def __onViewLoaded(self, view, *_, **__):
+        self.__unsubscribe()
+        if view.alias == VIEW_ALIAS.LOBBY_HANGAR:
+            self.__showIntro()
+        return
+
+    def __showIntro(self):
+        isIntro = not self.__isComp7IntroShown()
+        event_dispatcher.showComp7WhatsNewScreen(isIntro=isIntro)
+        return
+
+    @classmethod
+    def __isHangarViewLoaded(cls):
+        container = cls.__app.containerManager.getContainer(WindowLayer.SUB_VIEW)
+        if container is not None:
+            view = container.getView()
+            if hasattr(view, b'alias'):
+                return view.alias == VIEW_ALIAS.LOBBY_HANGAR
+        return False
+
+    @classmethod
+    def __isComp7IntroShown(cls):
+        section = cls.__settingsCore.serverSettings.getSection(section=GUI_START_BEHAVIOR, defaults=AccountSettings.getFilterDefault(GUI_START_BEHAVIOR))
+        return section.get(GuiSettingsBehavior.COMP7_INTRO_SHOWN)
+
+    @classmethod
+    def __isComp7WhatsNewShown(cls):
+        section = cls.__settingsCore.serverSettings.getSection(section=GUI_START_BEHAVIOR, defaults=AccountSettings.getFilterDefault(GUI_START_BEHAVIOR))
+        return section.get(GuiSettingsBehavior.COMP7_WHATS_NEW_SHOWN)

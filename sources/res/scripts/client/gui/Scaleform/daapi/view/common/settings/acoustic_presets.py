@@ -1,0 +1,185 @@
+import weakref
+from collections import namedtuple
+import BigWorld, SoundGroups
+from debug_utils import LOG_WARNING, LOG_ERROR
+from gui.Scaleform.genConsts.ACOUSTICS import ACOUSTICS
+from shared_utils import findFirst
+_SOUND_DELAY = 0.5
+PresetItem = namedtuple(b'PresetItem', b'speakerIDs soundID')
+_PRESETS = {(ACOUSTICS.TYPE_HEADPHONES): (
+                               PresetItem((ACOUSTICS.SPEAKER_ID_LEFT,), b'multichanel_test_L'),
+                               PresetItem((ACOUSTICS.SPEAKER_ID_RIGHT,), b'multichanel_test_R')), 
+   (ACOUSTICS.TYPE_LAPTOP): (
+                           PresetItem((ACOUSTICS.SPEAKER_ID_LEFT,), b'multichanel_test_L'),
+                           PresetItem((ACOUSTICS.SPEAKER_ID_RIGHT,), b'multichanel_test_R')), 
+   (ACOUSTICS.TYPE_ACOUSTIC_20): (
+                                PresetItem((ACOUSTICS.SPEAKER_ID_LEFT, ACOUSTICS.SPEAKER_ID_SUB), b'multichanel_test_L'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_RIGHT, ACOUSTICS.SPEAKER_ID_SUB), b'multichanel_test_R')), 
+   (ACOUSTICS.TYPE_ACOUSTIC_51): (
+                                PresetItem((ACOUSTICS.SPEAKER_ID_LEFT_FRONT,), b'multichanel_test_L'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_RIGHT_FRONT,), b'multichanel_test_R'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_CENTER,), b'multichanel_test_C'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_SUB,), b'multichanel_test_LFE'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_LEFT,), b'multichanel_test_SL'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_RIGHT,), b'multichanel_test_SR')), 
+   (ACOUSTICS.TYPE_ACOUSTIC_71): (
+                                PresetItem((ACOUSTICS.SPEAKER_ID_LEFT_FRONT,), b'multichanel_test_L'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_RIGHT_FRONT,), b'multichanel_test_R'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_CENTER,), b'multichanel_test_C'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_SUB,), b'multichanel_test_LFE'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_LEFT_BACK,), b'multichanel_test_BL'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_RIGHT_BACK,), b'multichanel_test_BR'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_LEFT,), b'multichanel_test_SL'),
+                                PresetItem((ACOUSTICS.SPEAKER_ID_RIGHT,), b'multichanel_test_SR'))}
+
+class AcousticPresetsPlayer(object):
+
+    def __init__(self, view, items):
+        super(AcousticPresetsPlayer, self).__init__()
+        self.__view = weakref.proxy(view)
+        self.__cursor = 0
+        self.__items = items
+        self.__sound = None
+        self.__isPlaying = False
+        self.__isPlayRound = True
+        self.__callbackID = None
+        return
+
+    def clear(self):
+        self.__clearCallback()
+        self.__stopSound()
+        self.__view = None
+        self.__cursor = 0
+        self.__items = None
+        return
+
+    def setupInitState(self):
+        self.__cursor = 0
+        self.__view.setPauseEnabled(False)
+        if self.__items:
+            self.__view.setItemsSelected(self.__items[0].speakerIDs)
+        return
+
+    def play(self):
+        if self.__isPlaying:
+            LOG_WARNING(b'Player is already running')
+            return
+        self.__isPlayRound = True
+        if self.__playNextSound():
+            self.__isPlaying = True
+            self.__lockView()
+        return
+
+    def pause(self):
+        if not self.__isPlaying:
+            LOG_WARNING(b'Player is not running')
+            return
+        self.__clearCallback()
+        self.__stopSound()
+        self.__unlockView(pause=True)
+        self.__isPlaying = False
+        return
+
+    def reset(self):
+        self.__clearCallback()
+        self.__stopSound()
+        self.__unlockView()
+        self.__isPlaying = False
+        self.__isPlayRound = True
+        self.setupInitState()
+        return
+
+    def click(self, speakerID):
+        if self.__isPlaying:
+            LOG_WARNING(b'Player is already running', speakerID)
+            return
+        else:
+            found = findFirst((lambda item: speakerID in item.speakerIDs), self.__items)
+            if found is None:
+                LOG_ERROR(b'speakerID is not found in sequence to play', speakerID)
+                return
+            self.__isPlayRound = False
+            self.__cursor = self.__items.index(found)
+            if self.__playSound(found):
+                self.__isPlaying = True
+                self.__lockView()
+            return
+
+    def __lockView(self):
+        self.__view.setEnabled(False)
+        self.__view.setPlayEnabled(False)
+        self.__view.setPauseEnabled(True)
+        return
+
+    def __unlockView(self, pause=False):
+        self.__view.setEnabled(True)
+        self.__view.setItemsPlay(None)
+        self.__view.setPlayEnabled(True)
+        if not pause and self.__isPlayRound:
+            self.setupInitState()
+        else:
+            self.__view.setPauseEnabled(False)
+        return
+
+    def __hasNextSound(self):
+        return self.__cursor < len(self.__items)
+
+    def __playNextSound(self):
+        if self.__hasNextSound():
+            if self.__playSound(self.__items[self.__cursor]):
+                return True
+        return False
+
+    def __playSound(self, item):
+        if self.__sound is None:
+            self.__sound = SoundGroups.g_instance.getSound2D(item.soundID)
+        if self.__sound is not None:
+            self.__view.setItemsSelected(item.speakerIDs)
+            self.__view.setItemsPlay(item.speakerIDs)
+            self.__sound.setCallback(self.__onSoundStop)
+            self.__sound.play()
+            return True
+        else:
+            return False
+
+    def __stopSound(self):
+        if self.__sound is not None:
+            self.__sound.stop()
+            self.__sound = None
+        return
+
+    def __onSoundStop(self, _):
+        self.__stopSound()
+        if self.__isPlayRound:
+            self.__cursor += 1
+        if self.__isPlayRound and self.__hasNextSound():
+            self.__setCallback()
+        else:
+            self.__unlockView()
+            self.__isPlaying = False
+        return
+
+    def __clearCallback(self):
+        if self.__callbackID is not None:
+            BigWorld.cancelCallback(self.__callbackID)
+            self.__callbackID = None
+        return
+
+    def __setCallback(self):
+        self.__clearCallback()
+        self.__callbackID = BigWorld.callback(_SOUND_DELAY, self.__handleCallback)
+        return
+
+    def __handleCallback(self):
+        self.__callbackID = None
+        if not self.__playNextSound():
+            self.__unlockView()
+        return
+
+
+def createPlayer(view, acousticType):
+    if acousticType in _PRESETS:
+        return AcousticPresetsPlayer(view, _PRESETS[acousticType])
+    else:
+        LOG_ERROR(b'Sound speakers preset is not found', acousticType)
+        return

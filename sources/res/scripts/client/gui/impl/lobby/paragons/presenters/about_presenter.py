@@ -1,0 +1,43 @@
+import typing
+from frameworks.wulf.view.submodel_presenter import SubModelPresenter
+import logging
+from gui.impl.gen.view_models.views.lobby.paragons.navigation_view_model import TabId
+_logger = logging.getLogger(__name__)
+if typing.TYPE_CHECKING:
+    from frameworks.wulf import View, ViewModel
+
+class AboutPresenter(SubModelPresenter):
+    __slots__ = SubModelPresenter.__slots__ + (b'__tooltipData',)
+
+    def __init__(self, parentView, viewModel=None):
+        super(AboutPresenter, self).__init__(viewModel, parentView)
+        self.__viewModel = viewModel
+        self.__tooltipData = {}
+        return
+
+    def initialize(self, *args, **kwargs):
+        super(AboutPresenter, self).initialize(*args, **kwargs)
+        _logger.info(b'[Paragons]: about presenter inited')
+        return
+
+    def finalize(self):
+        super(AboutPresenter, self).finalize()
+        _logger.info(b'[Paragons]: about presenter finalized')
+        parentView = self.parentView
+        if parentView is not None:
+            childView = parentView.getChildView(TabId.ABOUT)
+            if childView is not None:
+                browser = childView.browser
+                if browser is not None:
+                    browser.refresh(True)
+        return
+
+    def createToolTipContent(self, event, contentID):
+        return
+
+    def getTooltipData(self, event):
+        tooltipId = event.getArgument(b'tooltipId')
+        if tooltipId is None:
+            return
+        else:
+            return self.__tooltipData.get(tooltipId)

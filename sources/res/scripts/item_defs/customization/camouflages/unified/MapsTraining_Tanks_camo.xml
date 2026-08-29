@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/MapsTraining</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>MT camouflages 50g notInShop</priceGroup>
+		<camouflage>
+			<id>350</id>
+			<texture>vehicles/russian/Camouflage/Camo_maps_training.dds</texture>
+			<scales>3.37 3.37 3.37</scales>
+			<userString>#vehicle_customization:MapsTraining_Tanks_camo</userString>
+			<description>#vehicle_customization:MapsTraining_Tanks_camo</description>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 0</c3>
+				</palette>
+			</palettes>
+			<tilingSettings>
+				<type>relative</type>
+				<factor>1 1</factor>
+				<offset>0.000000 -6.47</offset>
+			</tilingSettings>
+		</camouflage>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R47_ISU-152_Zveroboj ussr:R61_Object252_BF</vehicles>
+			</exclude>
+		</vehicleFilter>
+		<palettes>
+			<palette>
+				<c0>0 0 255 255</c0>
+				<c1>0 255 0 255</c1>
+				<c2>255 0 0 255</c2>
+				<c3>0 0 0 255</c3>
+			</palette>
+		</palettes>
+		<rotation>
+			<HULL>0</HULL>
+			<TURRET>0</TURRET>
+			<GUN>0</GUN>
+		</rotation>
+		<scales>3.36999989 3.36999989 3.70000005</scales>
+		<gloss>0.509000003 0.509000003 0.509000003 0.509000003</gloss>
+		<metallic>0.230000004 0.230000004 0.230000004 0.230000004</metallic>
+	</itemGroup>
+</root>

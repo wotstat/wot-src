@@ -1,0 +1,74 @@
+from constants import SHELL_TYPES
+from gui.Scaleform.daapi.view.lobby.storage import storage_helpers
+from gui.Scaleform.daapi.view.lobby.storage.inventory.filters.filter_by_vehicle import FiltrableInventoryCategoryByVehicleTabView
+from gui.Scaleform.locale.RES_ICONS import RES_ICONS
+from gui.Scaleform.locale.TOOLTIPS import TOOLTIPS
+from gui.shared.gui_items import GUI_ITEM_TYPE
+from gui.shared.utils.functions import makeTooltip
+from gui.shared.utils.requesters.ItemsRequester import REQ_CRITERIA
+from shared_utils import CONST_CONTAINER
+
+class _ShellsFilterBit(CONST_CONTAINER):
+    ARMOR_PIERCING = 1
+    ARMOR_PIERCING_GR = 2
+    HOLLOW_CHARGE = 4
+    HIGH_EXPLOSIVE = 8
+    ARMOR_PIERCING_FSDS = 16
+    FLAME = 32
+
+
+_TYPE_FILTER_ITEMS = [
+ {b'filterValue': (_ShellsFilterBit.ARMOR_PIERCING), 
+    b'selected': False, 
+    b'tooltip': (makeTooltip(body=TOOLTIPS.STORAGE_FILTER_SHELLS_BTNS_TYPE_ARMOR_PIERCING)), 
+    b'icon': (RES_ICONS.MAPS_ICONS_STORAGE_FILTERS_ICON_ARMOR_PIERCING_GR)},
+ {b'filterValue': (_ShellsFilterBit.ARMOR_PIERCING_GR), 
+    b'selected': False, 
+    b'tooltip': (makeTooltip(body=TOOLTIPS.STORAGE_FILTER_SHELLS_BTNS_TYPE_ARMOR_PIERCING_CR)), 
+    b'icon': (RES_ICONS.MAPS_ICONS_STORAGE_FILTERS_ICON_ARMOR_PIERCING_CR)},
+ {b'filterValue': (_ShellsFilterBit.ARMOR_PIERCING_FSDS), 
+    b'selected': False, 
+    b'tooltip': (makeTooltip(body=TOOLTIPS.STORAGE_FILTER_SHELLS_BTNS_TYPE_ARMOR_PIERCING_FSDS)), 
+    b'icon': (RES_ICONS.MAPS_ICONS_STORAGE_FILTERS_ICON_ARMOR_PIERCING_FSDS)},
+ {b'filterValue': (_ShellsFilterBit.HOLLOW_CHARGE), 
+    b'selected': False, 
+    b'tooltip': (makeTooltip(body=TOOLTIPS.STORAGE_FILTER_SHELLS_BTNS_TYPE_HOLLOW_CHARGE)), 
+    b'icon': (RES_ICONS.MAPS_ICONS_STORAGE_FILTERS_ICON_HOLLOW_CHARGE)},
+ {b'filterValue': (_ShellsFilterBit.HIGH_EXPLOSIVE), 
+    b'selected': False, 
+    b'tooltip': (makeTooltip(body=TOOLTIPS.STORAGE_FILTER_SHELLS_BTNS_TYPE_HIGH_EXPLOSIVE)), 
+    b'icon': (RES_ICONS.MAPS_ICONS_STORAGE_FILTERS_ICON_HIGH_EXPLOSIVE)},
+ {b'filterValue': (_ShellsFilterBit.FLAME), 
+    b'selected': False, 
+    b'tooltip': (makeTooltip(body=TOOLTIPS.STORAGE_FILTER_SHELLS_BTNS_TYPE_FLAME)), 
+    b'icon': (RES_ICONS.MAPS_ICONS_STORAGE_FILTERS_ICON_FLAME)}]
+_TYPE_ID_BIT_TO_TYPE_ID_MAP = {(_ShellsFilterBit.ARMOR_PIERCING): (SHELL_TYPES.ARMOR_PIERCING), 
+   (_ShellsFilterBit.ARMOR_PIERCING_GR): (SHELL_TYPES.ARMOR_PIERCING_CR), 
+   (_ShellsFilterBit.ARMOR_PIERCING_FSDS): (SHELL_TYPES.ARMOR_PIERCING_FSDS), 
+   (_ShellsFilterBit.HOLLOW_CHARGE): (SHELL_TYPES.HOLLOW_CHARGE), 
+   (_ShellsFilterBit.HIGH_EXPLOSIVE): (SHELL_TYPES.HIGH_EXPLOSIVE), 
+   (_ShellsFilterBit.FLAME): (SHELL_TYPES.FLAME)}
+
+class ShellsTabView(FiltrableInventoryCategoryByVehicleTabView):
+    filterItems = _TYPE_FILTER_ITEMS
+
+    def _getClientSectionKey(self):
+        return b'storage_shells'
+
+    def _getItemTypeID(self):
+        return GUI_ITEM_TYPE.SHELL
+
+    def _getFilteredCriteria(self):
+        criteria = super(ShellsTabView, self)._getFilteredCriteria()
+        kindsList = [_TYPE_ID_BIT_TO_TYPE_ID_MAP[bit] for bit in _TYPE_ID_BIT_TO_TYPE_ID_MAP.iterkeys() if self._filterMask & bit]
+        if kindsList:
+            criteria |= REQ_CRITERIA.SHELL.TYPE(kindsList)
+        if self._selectedVehicle:
+            criteria |= storage_helpers.getStorageShellsCriteria(self._itemsCache, [self._selectedVehicle], True)
+        return criteria
+
+    def _getRequestCriteria(self, invVehicles):
+        criteria = REQ_CRITERIA.INVENTORY
+        criteria |= REQ_CRITERIA.TYPE_CRITERIA((
+         GUI_ITEM_TYPE.SHELL,), storage_helpers.getStorageShellsCriteria(self._itemsCache, invVehicles, True))
+        return criteria

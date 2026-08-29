@@ -1,0 +1,250 @@
+from typing import Dict, Optional, Any, List
+from collections import namedtuple
+
+class CycleStatus(object):
+    PAST = b'past'
+    CURRENT = b'current'
+    FUTURE = b'future'
+
+
+class GameSeasonCycle(namedtuple(b'GameSeasonCycle', b'ID, status, startDate, endDate, ordinalNumber, announceOnly')):
+
+    def __cmp__(self, other):
+        return cmp(self.ID, other.ID)
+
+    def getUserName(self):
+        return str(self.ordinalNumber)
+
+    def getEpicCycleNumber(self):
+        return int(self.ID % 100)
+
+
+class GameSeason(object):
+
+    def __init__(self, cycleInfo, seasonData):
+        self.__cycleStartDate, self.__cycleEndDate, self.__seasonId, self.__cycleID = cycleInfo
+        self.__data = seasonData
+        self.__cycles = None
+        return
+
+    def isSingleCycleSeason(self):
+        return len(self.getAllCycles()) < 2
+
+    def hasActiveCycle(self, now):
+        return self.__cycleStartDate <= now < self.__cycleEndDate
+
+    def isLastCycle(self, cycleID):
+        return self.getLastCycleInfo().ordinalNumber == self.getCycleInfo(cycleID).ordinalNumber
+
+    def getSeasonID(self):
+        return self.__seasonId
+
+    def getCycleID(self):
+        return self.__cycleID
+
+    def getStartDate(self):
+        return self.__data[b'startSeason']
+
+    def getEndDate(self):
+        return self.__data[b'endSeason']
+
+    def getAllCycles(self):
+        if self.__cycles is None:
+            self._buildCycles()
+        return self.__cycles
+
+    def getCycleInfo(self, cycleID=None):
+        if cycleID is None:
+            cycleID = self.getCycleID()
+        if cycleID is not None:
+            return self.getAllCycles().get(cycleID, None)
+        else:
+            return
+
+    def getNextCycleInfo(self, now, cycleID=None):
+        if cycleID is None:
+            cycleID = self.getCycleID() or self.getLastActiveCycleID(now)
+        cycles = self.getAllCycles()
+        if cycleID and cycleID in cycles:
+            currentCycleOrdinalNumber = cycles[cycleID].ordinalNumber
+            for cycle in sorted(cycles.values(), key=(lambda c: c.ordinalNumber)):
+                if cycle.ordinalNumber > currentCycleOrdinalNumber:
+                    return cycle
+
+        return
+
+    def getNextByTimeCycle(self, now):
+        cycles = self.getAllCycles()
+        for cycle in sorted(cycles.values(), key=(lambda c: c.startDate)):
+            if cycle.startDate >= now:
+                return cycle
+
+        return
+
+    def getFirstCycleInfo(self):
+        firstCycleID = min(self.getAllCycles().iterkeys())
+        return self.getAllCycles()[firstCycleID]
+
+    def getLastCycleInfo(self):
+        lastCycleID = max(self.getAllCycles().iterkeys())
+        return self.getAllCycles()[lastCycleID]
+
+    def getLastActiveCycleInfo(self, now):
+        lastCycle = None
+        if self.hasActiveCycle(now):
+            return self.getCycleInfo()
+        else:
+            for cycle in self.getAllCycles().values():
+                if cycle.endDate > now:
+                    continue
+                if lastCycle is None or lastCycle.endDate < cycle.endDate:
+                    lastCycle = cycle
+
+            return lastCycle
+
+    def getLastActiveCycleID(self, now):
+        cycleInfo = self.getLastActiveCycleInfo(now)
+        if cycleInfo:
+            return cycleInfo.ID
+        else:
+            return
+
+    def getCycleStartDate(self):
+        return self.__cycleStartDate
+
+    def getCycleEndDate(self):
+        return self.__cycleEndDate
+
+    def getCycleOrdinalNumber(self):
+        return self.getCycleInfo().ordinalNumber
+
+    def getPassedCyclesNumber(self):
+        return sum(1 for cycle in self.getAllCycles().values() if cycle.status == CycleStatus.PAST)
+
+    def getNumber(self):
+        return self.__data.get(b'number')
+
+    def getUserName(self):
+        return str(self.getNumber())
+
+    def _buildCycles(self):
+        cycles = self.__data.get(b'cycles', {})
+        currID = self.getCycleID()
+        self.__cycles = {}
+        for number, idx in enumerate(sorted(cycles.keys()), 1):
+            cycleRawData = cycles[idx]
+            if idx < currID or currID is None:
+                status = CycleStatus.PAST
+            elif idx == currID:
+                status = CycleStatus.CURRENT
+            else:
+                status = CycleStatus.FUTURE
+            self.__cycles[idx] = self._buildCycle(idx, status, number, cycleRawData)
+
+        return
+
+    def _buildCycle(self, idx, status, number, rawData):
+        return GameSeasonCycle(idx, status, rawData[b'start'], rawData[b'end'], number, bool(rawData.get(b'announce', False)))
+
+
+def getSeason(config, now, nextPossibleOnGap=False):
+    if not config or not config.get(b'isEnabled', False) or not config.get(b'cycleTimes', []):
+        return (False, None)
+    else:
+        now = int(now)
+        for cycleInfo in config[b'cycleTimes']:
+            startTime, endTime, seasonID, _ = cycleInfo
+            if now >= endTime:
+                if cycleInfo == config[b'cycleTimes'][-1] and isWithinSeasonTime(config, seasonID, now):
+                    return (False, (None, None, seasonID, None))
+                continue
+            cycleActive = now >= startTime
+            if not cycleActive and not isWithinSeasonTime(config, seasonID, now):
+                return (False, cycleInfo if nextPossibleOnGap else None)
+            return (cycleActive, cycleInfo)
+
+        return (False, None)
+
+
+def getAllSeasonCycleInfos(config, inSeasonID):
+    cycleInfoList = []
+    for cycleInfo in config[b'cycleTimes']:
+        _, _, seasonID, _ = cycleInfo
+        if inSeasonID == seasonID:
+            cycleInfoList.append(cycleInfo)
+
+    return cycleInfoList
+
+
+def getSeasonConfig(config, seasonID):
+    return config[b'seasons'].get(seasonID)
+
+
+def getSeasonCycleInfo(config, inCycleID):
+    for cycleInfo in config[b'cycleTimes']:
+        _, _, _, cycleID = cycleInfo
+        if inCycleID == cycleID:
+            return cycleInfo
+
+    return
+
+
+def isWithinSeasonTime(config, seasonID, now):
+    if not config or not config.get(b'isEnabled', False) or not config.get(b'cycleTimes', []):
+        return False
+    seasons = config.get(b'seasons', {})
+    seasonData = seasons.get(seasonID, None)
+    if seasonData is not None:
+        now = int(now)
+        startTime = seasonData[b'startSeason']
+        endTime = seasonData[b'endSeason']
+        return startTime <= now < endTime
+    else:
+        return False
+
+
+def getActiveSeasonCycleID(config, now):
+    res, cycleInfo = getSeason(config, now)
+    if not res:
+        return (None, None)
+    else:
+        _, _, seasonID, cycleID = cycleInfo
+        return (seasonID, cycleID)
+        return
+
+
+def getActiveCycleConfig(config, now):
+    res, cycleInfo = getSeason(config, now)
+    if not res:
+        return None
+    else:
+        _, _, seasonID, cycleID = cycleInfo
+        season = config[b'seasons'].get(seasonID)
+        if not season:
+            return None
+        cycle = season[b'cycles'].get(cycleID)
+        return cycle
+
+
+def getDateFromCycleID(cycleID):
+    cycleIDStr = str(cycleID)
+    year = int(cycleIDStr[:4])
+    month = int(cycleIDStr[4:6])
+    day = int(cycleIDStr[6:8])
+    return (year, month, day)
+
+
+def getDateFromSeasonID(seasonID):
+    cycleIDStr = str(seasonID)
+    year = int(cycleIDStr[:4])
+    month = int(cycleIDStr[4:6])
+    return (year, month)
+
+
+def getSeasonNumber(config, seasonID):
+    seasons = config.get(b'seasons', {})
+    if not seasons:
+        return
+    else:
+        seasonData = seasons.get(seasonID, {})
+        return seasonData.get(b'number', None)

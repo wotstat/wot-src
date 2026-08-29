@@ -1,0 +1,34 @@
+from frameworks.wulf import Array
+from frameworks.wulf import ViewModel
+from mt_birthday.gui.impl.gen.view_models.views.lobby.birthday.player_model import PlayerModel
+
+class PlayersTabModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=2, commands=0):
+        super(PlayersTabModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getPlayersToSelect(self):
+        return self._getArray(0)
+
+    def setPlayersToSelect(self, value):
+        self._setArray(0, value)
+        return
+
+    @staticmethod
+    def getPlayersToSelectType():
+        return PlayerModel
+
+    def getIsLoaded(self):
+        return self._getBool(1)
+
+    def setIsLoaded(self, value):
+        self._setBool(1, value)
+        return
+
+    def _initialize(self):
+        super(PlayersTabModel, self)._initialize()
+        self._addArrayProperty(b'playersToSelect', Array())
+        self._addBoolProperty(b'isLoaded', False)
+        return

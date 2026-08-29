@@ -1,0 +1,48 @@
+from gui.Scaleform.framework.entities.View import View
+
+class BattlePageMeta(View):
+
+    def as_checkDAAPIS(self):
+        if self._isDAAPIInited():
+            return self.flashObject.as_checkDAAPI()
+        return
+
+    def as_setPostmortemTipsVisibleS(self, value):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setPostmortemTipsVisible(value)
+        return
+
+    def as_setComponentsVisibilityS(self, visible, hidden):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setComponentsVisibility(visible, hidden)
+        return
+
+    def as_isComponentVisibleS(self, componentKey):
+        if self._isDAAPIInited():
+            return self.flashObject.as_isComponentVisible(componentKey)
+        return
+
+    def as_getComponentsVisibilityS(self):
+        if self._isDAAPIInited():
+            return self.flashObject.as_getComponentsVisibility()
+        return
+
+    def as_toggleCtrlPressFlagS(self, isCtrlPressed):
+        if self._isDAAPIInited():
+            return self.flashObject.as_toggleCtrlPressFlag(isCtrlPressed)
+        return
+
+    def as_createRoleDescriptionS(self):
+        if self._isDAAPIInited():
+            return self.flashObject.as_createRoleDescription()
+        return
+
+    def as_setArtyShotIndicatorFlagS(self, isVisible):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setArtyShotIndicatorFlag(isVisible)
+        return
+
+    def as_togglePiercingPanelS(self):
+        if self._isDAAPIInited():
+            return self.flashObject.as_togglePiercingPanel()
+        return

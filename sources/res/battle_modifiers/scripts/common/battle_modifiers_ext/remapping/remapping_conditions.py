@@ -1,0 +1,65 @@
+from typing import Any, Dict, FrozenSet, TYPE_CHECKING
+from battle_modifiers_ext.constants_ext import ShellCaliber, ShellKind, RemappingConditionNames
+if TYPE_CHECKING:
+    from battle_modifiers_common import ModifiersContext
+
+class IRemappingCondition(object):
+    __slots__ = ()
+
+    @classmethod
+    def getName(cls):
+        raise NotImplementedError
+        return
+
+    def __call__(self, ctx):
+        raise NotImplementedError
+        return
+
+
+class _BaseCondition(IRemappingCondition):
+    __slots__ = (b'_remapping',)
+
+    def __init__(self, remapping):
+        self._remapping = remapping
+        return
+
+    def __call__(self, ctx):
+        currentParam = self._getParam(ctx)
+        for sources, target in self._remapping.iteritems():
+            if currentParam in sources:
+                return target
+
+        return
+
+    def _getParam(self, ctx):
+        raise NotImplementedError
+        return
+
+
+class _CaliberCondition(_BaseCondition):
+    __slots__ = ()
+
+    @classmethod
+    def getName(cls):
+        return RemappingConditionNames.CALIBER
+
+    def _getParam(self, ctx):
+        return ShellCaliber.get(ctx.gun.shots[0].shell.caliber)
+
+
+class _ShellKindCondition(_BaseCondition):
+    __slots__ = ()
+
+    @classmethod
+    def getName(cls):
+        return RemappingConditionNames.SHELL_KIND
+
+    def _getParam(self, ctx):
+        return ShellKind.get(ctx.shell, withGold=False)
+
+
+_CONDITIONS_FACTORY = {(RemappingConditionNames.CALIBER): _CaliberCondition, 
+   (RemappingConditionNames.SHELL_KIND): _ShellKindCondition}
+
+def getConditionClass(conditionName):
+    return _CONDITIONS_FACTORY.get(conditionName)

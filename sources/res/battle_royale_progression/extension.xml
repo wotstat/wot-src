@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<FeatureName>BattleRoyaleProgression</FeatureName>
+	<Components>
+		<StaticComponents></StaticComponents>
+		<DynamicComponents></DynamicComponents>
+	</Components>
+	<IsEnabled>True</IsEnabled>
+	<Personality>BattleRoyaleProgressionPersonality</Personality>
+	<Entities>
+		<ClientServerEntities></ClientServerEntities>
+		<ServerOnlyEntities></ServerOnlyEntities>
+	</Entities>
+	<ExternalComponents></ExternalComponents>
+</root>

@@ -1,0 +1,25 @@
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
+from helpers import dependency
+from gui.shared import event_dispatcher, events
+from skeletons.gui.shared import IItemsCache
+from web.web_client_api import W2CSchema, w2c, Field
+
+class _OpenTechTreeSchema(W2CSchema):
+    vehicle_id = Field(required=True, type=int)
+
+
+class TechTreeTabWebApiMixin(object):
+    itemsCache = dependency.descriptor(IItemsCache)
+
+    @w2c(_OpenTechTreeSchema, b'tech_tree')
+    def openTechTree(self, cmd):
+        event_dispatcher.showVehicleTechTreeView(cmd.vehicle_id)
+        return
+
+    @w2c(_OpenTechTreeSchema, b'research')
+    def openResearch(self, cmd):
+        vehicle = self.itemsCache.items.getStockVehicle(cmd.vehicle_id)
+        exitEvent = events.LoadViewEvent(SFViewLoadParams(VIEW_ALIAS.LOBBY_TECHTREE), ctx={b'nation': (vehicle.nationName)})
+        event_dispatcher.showResearchView(cmd.vehicle_id, exitEvent=exitEvent)
+        return

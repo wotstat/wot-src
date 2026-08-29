@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>MT camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<include>
+				<levels>8 9 10</levels>
+			</include>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R47_ISU-152_Zveroboj ussr:R61_Object252_BF</vehicles>
+			</exclude>
+		</vehicleFilter>
+		<camouflage>
+			<id>212</id>
+			<texture>vehicles/russian/Camouflage/the_3rd_horseman.dds</texture>
+			<description>#vehicle_customization:camouflage/the_3rd_horseman/description</description>
+			<scales>1.3 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/the_3rd_horseman/label</userString>
+			<tags>fullRGB</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.261799008</HULL>
+				<TURRET>-0.261799008</TURRET>
+				<GUN>-0.261799008</GUN>
+			</rotation>
+			<tiling>
+				<france:F108_Panhard_EBR_105>3.3 3.3 -0.2 1.289</france:F108_Panhard_EBR_105>
+				<france:F10_AMX_50B>2 2 -0.67 0.899</france:F10_AMX_50B>
+				<france:F10_AMX_50B_bob>2 2 -0.67 0.899</france:F10_AMX_50B_bob>
+				<france:F18_Bat_Chatillon25t>2.1 2.1 0.22 1.199</france:F18_Bat_Chatillon25t>
+				<france:F18_Bat_Chatillon25t_7x7>2.1 2.1 0.22 1.199</france:F18_Bat_Chatillon25t_7x7>
+				<france:F82_AMX_M4_Mle1949_Ter>3.5 3.5 0.24 1.399</france:F82_AMX_M4_Mle1949_Ter>
+				<germany:G55_E-75>3.3 3.3 -0.0137 1.033</germany:G55_E-75>
+				<germany:G55_E-75_FL>3.3 3.3 -0.0137 1.033</germany:G55_E-75_FL>
+				<germany:G72_JagdPz_E100>2 2 -0.17 1.969</germany:G72_JagdPz_E100>
+				<germany:G99_RhB_Waffentrager>3.7 3.7 -0.1 1.279</germany:G99_RhB_Waffentrager>
+				<italy:It08_Progetto_M40_mod_65>1.2 1.2 -0.28 1.559</italy:It08_Progetto_M40_mod_65>
+				<japan:J20_Type_2605>2.8 2.8 -0.27 1.349</japan:J20_Type_2605>
+				<japan:J20_Type_2605_7x7>2.8 2.8 -0.27 1.349</japan:J20_Type_2605_7x7>
+				<japan:J28_O_I_100>1.3 1.3 -0.37 1.329</japan:J28_O_I_100>
+				<poland:Pl15_60TP_Lewandowskiego>1.6 1.6 -0.512 0.275</poland:Pl15_60TP_Lewandowskiego>
+				<sweden:S11_Strv_103B>2 2 -0.26 1.379</sweden:S11_Strv_103B>
+				<sweden:S16_Kranvagn>1 1 0.12 2.499</sweden:S16_Kranvagn>
+				<sweden:S16_Kranvagn_bob>1 1 0.12 2.499</sweden:S16_Kranvagn_bob>
+				<uk:GB32_Tortoise>4 4 0.000000 2.029</uk:GB32_Tortoise>
+				<uk:GB83_FV4005>3 3 -0.585 1.811</uk:GB83_FV4005>
+				<uk:GB91_Super_Conqueror>1.8 1.8 0.09 1.399</uk:GB91_Super_Conqueror>
+				<usa:A12_T32>3.3 3.3 -0.789 1.67</usa:A12_T32>
+				<usa:A13_T34_hvy>4.2 4.2 -0.38 0.749</usa:A13_T34_hvy>
+				<usa:A66_M103>3.3 3.3 0.21 1.449</usa:A66_M103>
+				<usa:A67_T57_58>4 4 -0.71 0.489</usa:A67_T57_58>
+				<ussr:R148_Object_430_U>1 1 0.1 0.829</ussr:R148_Object_430_U>
+				<ussr:R148_Object_430_U_bob>1 1 0.1 0.829</ussr:R148_Object_430_U_bob>
+				<ussr:R155_Object_277>3.2 3.2 0.2 1.429</ussr:R155_Object_277>
+				<ussr:R20_T-44>5 5 0.06 0.979</ussr:R20_T-44>
+				<ussr:R45_IS-7>3.3 3.3 0.34 0.959</ussr:R45_IS-7>
+				<ussr:R63_ST_I>2.5 2.5 -0.602 1.475</ussr:R63_ST_I>
+			</tiling>
+			<tilingSettings>
+				<type>relative</type>
+				<factor>2.4 2.4</factor>
+				<offset>-1.6 1.379</offset>
+			</tilingSettings>
+		</camouflage>
+		<camouflage>
+			<id>213</id>
+			<texture>vehicles/russian/Camouflage/the_4th_horseman.dds</texture>
+			<description>#vehicle_customization:camouflage/the_4th_horseman/description</description>
+			<scales>1.3 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/the_4th_horseman/label</userString>
+			<tags>fullRGB</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.261799008</HULL>
+				<TURRET>-0.261799008</TURRET>
+				<GUN>-0.261799008</GUN>
+			</rotation>
+			<tiling>
+				<france:F108_Panhard_EBR_105>3.4 3.4 -0.47 2.2898</france:F108_Panhard_EBR_105>
+				<france:F10_AMX_50B>2.3 2.3 0.17 2.1698</france:F10_AMX_50B>
+				<france:F10_AMX_50B_bob>2.3 2.3 0.17 2.1698</france:F10_AMX_50B_bob>
+				<france:F18_Bat_Chatillon25t>2.7 2.7 -0.01 3.0398</france:F18_Bat_Chatillon25t>
+				<france:F18_Bat_Chatillon25t_7x7>2.7 2.7 -0.01 3.0398</france:F18_Bat_Chatillon25t_7x7>
+				<france:F82_AMX_M4_Mle1949_Ter>3.6 3.6 -0.01 2.5398</france:F82_AMX_M4_Mle1949_Ter>
+				<germany:G121_Grille_15_L63>10 10 -0.08 2.519</germany:G121_Grille_15_L63>
+				<germany:G55_E-75>4.3 4.3 -0.3065 1.72</germany:G55_E-75>
+				<germany:G55_E-75_FL>4.3 4.3 -0.3065 1.72</germany:G55_E-75_FL>
+				<germany:G99_RhB_Waffentrager>4.6 4.6 -1.49 1.8898</germany:G99_RhB_Waffentrager>
+				<italy:It08_Progetto_M40_mod_65>1.7 1.7 -0.22 3.3498</italy:It08_Progetto_M40_mod_65>
+				<japan:J20_Type_2605>3 3 -0.63 2.2698</japan:J20_Type_2605>
+				<japan:J20_Type_2605_7x7>3 3 -0.63 2.2698</japan:J20_Type_2605_7x7>
+				<japan:J28_O_I_100>1.3 1.3 -0.65 2.2</japan:J28_O_I_100>
+				<poland:Pl15_60TP_Lewandowskiego>2.6 2.6 -0.65 2.7298</poland:Pl15_60TP_Lewandowskiego>
+				<sweden:S11_Strv_103B>1.7 1.7 0.16 2.3898</sweden:S11_Strv_103B>
+				<sweden:S16_Kranvagn>1 1 -0.06 2.38</sweden:S16_Kranvagn>
+				<sweden:S16_Kranvagn_bob>1 1 -0.06 2.38</sweden:S16_Kranvagn_bob>
+				<uk:GB32_Tortoise>4.3 4.3 -0.84 3.05</uk:GB32_Tortoise>
+				<uk:GB83_FV4005>3.3 3.3 -0.28 2.9498</uk:GB83_FV4005>
+				<uk:GB91_Super_Conqueror>1.8 1.8 0.66 2.54</uk:GB91_Super_Conqueror>
+				<usa:A12_T32>4 4 0.35 2.929</usa:A12_T32>
+				<usa:A12_T32_M>4 4 0.35 2.929</usa:A12_T32_M>
+				<usa:A13_T34_hvy>4 4 -0.936 2.859</usa:A13_T34_hvy>
+				<usa:A66_M103>3.2 3.2 -1.198 2.25</usa:A66_M103>
+				<usa:A67_T57_58>4 4 -0.339 1.8</usa:A67_T57_58>
+				<ussr:R148_Object_430_U>1 1 0.47 3.0598</ussr:R148_Object_430_U>
+				<ussr:R148_Object_430_U_bob>1 1 0.47 3.0598</ussr:R148_Object_430_U_bob>
+				<ussr:R155_Object_277>4 4 0.83 2.449</ussr:R155_Object_277>
+				<ussr:R20_T-44>5 5 -0.247 2.048</ussr:R20_T-44>
+				<ussr:R45_IS-7>3.5 3.5 -0.93 2.629</ussr:R45_IS-7>
+				<ussr:R63_ST_I>2.3 2.3 -0.547 2.75</ussr:R63_ST_I>
+			</tiling>
+			<tilingSettings>
+				<type>relative</type>
+				<factor>2.6 2.6</factor>
+				<offset>-0.08 2.8798</offset>
+			</tilingSettings>
+		</camouflage>
+	</itemGroup>
+</root>

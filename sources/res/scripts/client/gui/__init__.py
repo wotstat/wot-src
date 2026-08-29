@@ -1,0 +1,176 @@
+import logging
+from collections import defaultdict
+import nations
+from constants import IS_DEVELOPMENT, HAS_DEV_RESOURCES
+from gui import promo
+from gui.GuiSettings import GuiSettings as _GuiSettings
+from helpers.html.templates import XMLCollection
+from gui.active_vehicle import ActiveVehicleSeasonType
+_logger = logging.getLogger(__name__)
+g_guiResetters = set()
+g_repeatKeyHandlers = set()
+g_keyEventHandlers = set()
+g_mouseEventHandlers = set()
+g_tankActiveCamouflage = ActiveVehicleSeasonType()
+GUI_SETTINGS = _GuiSettings()
+DEPTH_OF_BotsMenu = 0.05
+DEPTH_OF_Battle = 0.1
+DEPTH_OF_Statistic = 0.1
+DEPTH_OF_PlayerBonusesPanel = 0.2
+DEPTH_OF_Aim = 0.6
+DEPTH_OF_GunMarker = 0.56
+DEPTH_OF_VehicleMarker = 0.9
+TANKMEN_ROLES_ORDER_DICT = {b'plain': (b'commander', b'gunner', b'driver', b'radioman', b'loader'), 
+   b'enum': (b'commander', b'gunner1', b'gunner2', b'driver', b'radioman1', b'radioman2', b'loader1', b'loader2')}
+
+def onRepeatKeyEvent(event):
+    safeCopy = frozenset(g_repeatKeyHandlers)
+    processed = False
+    for handler in safeCopy:
+        try:
+            processed = handler(event)
+            if processed:
+                break
+        except Exception:
+            _logger.exception(b'onRepeatKeyEvent is invoked with exception')
+
+    safeCopy = None
+    return processed
+
+
+NONE_NATION_NAME = b'none'
+ALL_NATION_INDEX = -1
+GUI_NATIONS = tuple(nations.AVAILABLE_NAMES)
+try:
+    new_order_list = [x for x in GUI_SETTINGS.nations_order if x in nations.AVAILABLE_NAMES]
+    for i, n in enumerate(nations.AVAILABLE_NAMES):
+        if n not in new_order_list:
+            new_order_list.append(n)
+
+    GUI_NATIONS = tuple(new_order_list)
+except AttributeError:
+    _logger.error(b'Could not read nations order from XML. Default order.')
+
+GUI_NATIONS_ORDER_INDEX = {name: idx for idx, name in enumerate(GUI_NATIONS)}
+GUI_NATIONS_ORDER_INDEX[NONE_NATION_NAME] = nations.NONE_INDEX
+GUI_NATIONS_ORDER_INDEX_REVERSED = {name: idx for idx, name in enumerate(reversed(GUI_NATIONS))}
+GUI_NATIONS_ORDER_INDICES = {nations.INDICES.get(name, nations.NONE_INDEX): idx for name, idx in GUI_NATIONS_ORDER_INDEX.iteritems()}
+
+def nationCompareByName(first, second):
+    if second is None:
+        return -1
+    else:
+        if first is None:
+            return 1
+        return GUI_NATIONS_ORDER_INDEX[first] - GUI_NATIONS_ORDER_INDEX[second]
+
+
+def nationCompareByIndex(first, second):
+
+    def getNationName(idx):
+        if idx != nations.NONE_INDEX:
+            return nations.NAMES[idx]
+        return NONE_NATION_NAME
+
+    return nationCompareByName(getNationName(first), getNationName(second))
+
+
+def getNationIndex(nationOrderIndex):
+    if nationOrderIndex < len(GUI_NATIONS):
+        return nations.INDICES.get(GUI_NATIONS[nationOrderIndex])
+    else:
+        return
+
+
+HTML_TEMPLATES_DIR_PATH = b'gui/{0:>s}.xml'
+HTML_TEMPLATES_PATH_DELIMITER = b':'
+
+class HtmlTemplatesCache(defaultdict):
+
+    def __missing__(self, key):
+        path = key.split(HTML_TEMPLATES_PATH_DELIMITER, 1)
+        domain = HTML_TEMPLATES_DIR_PATH.format(path[0])
+        ns = path[1] if len(path) > 1 else b''
+        value = XMLCollection(domain, ns)
+        value.load()
+        if isinstance(value, str):
+            value = unicode(value)
+        self[key] = value
+        return value
+
+
+g_htmlTemplates = HtmlTemplatesCache()
+if IS_DEVELOPMENT:
+
+    def _reload_ht():
+        for collection in g_htmlTemplates.itervalues():
+            collection.load(clear=True)
+
+        return
+
+
+def makeHtmlString(path, key, ctx=None, **kwargs):
+    return g_htmlTemplates[path].format(key, ctx=ctx, **kwargs)
+
+
+class GUI_CTRL_MODE_FLAG(object):
+    CURSOR_DETACHED = 0
+    CURSOR_ATTACHED = 1
+    CURSOR_VISIBLE = 2
+    MOVING_DISABLED = 4
+    AIMING_ENABLED = 8
+    GUI_ENABLED = CURSOR_ATTACHED | CURSOR_VISIBLE
+
+
+def getGuiServicesConfig(manager):
+    from gui import app_loader
+    from gui import battle_control
+    from gui import battle_results
+    from gui import clientgw
+    from gui import customization
+    from gui import event_boards
+    from gui import game_control
+    from gui import goodies
+    from gui import login
+    from gui import lobby_context
+    from gui import server_events
+    from gui import shared
+    from gui import sounds
+    from gui import Scaleform as _sf
+    from gui import hangar_cameras
+    from gui import impl
+    from gui import offers
+    from gui.platform import wgnp, catalog_service, products_fetcher
+    from skeletons.gui.lobby_context import ILobbyContext
+    manager.addConfig(app_loader.getAppLoaderConfig)
+    manager.addConfig(shared.getSharedServices)
+    manager.addConfig(game_control.getGameControllersConfig)
+    manager.addConfig(impl.getGuiImplConfig)
+    manager.addConfig(login.getLoginManagerConfig)
+    manager.addConfig(server_events.getServerEventsConfig)
+    manager.addConfig(_sf.getScaleformConfig)
+    manager.addConfig(battle_control.getBattleSessionConfig)
+    manager.addConfig(sounds.getSoundsConfig)
+    manager.addConfig(clientgw.getWebServicesConfig)
+    manager.addConfig(event_boards.getEventServicesConfig)
+    manager.addConfig(goodies.getGoodiesCacheConfig)
+    manager.addConfig(goodies.getStorageNoveltyConfig)
+    manager.addConfig(battle_results.getBattleResultsServiceConfig)
+    manager.addConfig(customization.getCustomizationServiceConfig)
+    manager.addConfig(hangar_cameras.getHangarCamerasConfig)
+    manager.addConfig(promo.getPromoConfig)
+    manager.addInstance(ILobbyContext, lobby_context.LobbyContext(), finalizer=b'clear')
+    manager.addConfig(offers.getOffersConfig)
+    manager.addConfig(server_events.getBattleMattersController)
+    manager.addConfig(wgnp.getWGNPRequestControllers)
+    manager.addConfig(products_fetcher.getProductFetchControllers)
+    manager.addConfig(catalog_service.getPurchaseCache)
+    if HAS_DEV_RESOURCES:
+        try:
+            from gui.development import getDevelopmentServicesConfig
+        except ImportError:
+            _logger.exception(b'Package development can not be imported')
+            return
+
+        getDevelopmentServicesConfig(manager)
+    return

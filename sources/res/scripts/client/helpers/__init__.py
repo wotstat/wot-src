@@ -1,0 +1,215 @@
+import types, BigWorld, ResMgr, i18n, constants
+from debug_utils import LOG_CURRENT_EXCEPTION, LOG_WARNING
+from soft_exception import SoftException
+VERSION_FILE_PATH = b'../version.xml'
+_CLIENT_VERSION = None
+
+def gEffectsDisabled():
+    return False
+
+
+def isPlayerAccount():
+    return hasattr(BigWorld.player(), b'databaseID')
+
+
+def isPlayerAvatar():
+    return hasattr(BigWorld.player(), b'arena')
+
+
+def getLanguageCode():
+    if i18n.doesTextExist(b'#settings:LANGUAGE_CODE'):
+        return i18n.makeString(b'#settings:LANGUAGE_CODE')
+    else:
+        return
+
+
+def getClientLanguage():
+    lng = constants.DEFAULT_LANGUAGE
+    try:
+        lng = getLanguageCode()
+        if lng is None:
+            lng = constants.DEFAULT_LANGUAGE
+    except Exception:
+        LOG_CURRENT_EXCEPTION()
+
+    return lng
+
+
+def getClientOverride():
+    if constants.IS_CHINA:
+        return b'CN'
+    else:
+        if getClientLanguage() == b'ko':
+            return b'KR'
+        return
+
+
+def getLocalizedData(dataDict, key, defVal=b''):
+    resVal = defVal
+    if dataDict:
+        lng = getClientLanguage()
+        localesDict = dataDict.get(key, {})
+        if localesDict:
+            if lng in localesDict:
+                resVal = localesDict[lng]
+            elif constants.DEFAULT_LANGUAGE in localesDict:
+                resVal = localesDict[constants.DEFAULT_LANGUAGE]
+            else:
+                resVal = localesDict.items()[0][1]
+    return resVal
+
+
+def int2roman(number):
+    numerals = {1: b'I', 4: b'IV', 5: b'V', 9: b'IX', 10: b'X', 40: b'XL', 50: b'L', 
+       90: b'XC', 100: b'C', 400: b'CD', 500: b'D', 900: b'CM', 
+       1000: b'M'}
+    result = b''
+    for value, numeral in sorted(numerals.items(), reverse=True):
+        while number >= value:
+            result += numeral
+            number -= value
+
+    return result
+
+
+def getClientVersion(force=True):
+    global _CLIENT_VERSION
+    if _CLIENT_VERSION is None or force:
+        sec = ResMgr.openSection(VERSION_FILE_PATH)
+        if sec is None:
+            _CLIENT_VERSION = b''
+        else:
+            _CLIENT_VERSION = sec.readString(b'version')
+    return _CLIENT_VERSION
+
+
+def getShortClientVersion():
+    sec = ResMgr.openSection(VERSION_FILE_PATH)
+    if sec is None:
+        return b''
+    else:
+        return sec.readString(b'version').split(b'#')[0]
+
+
+def getFullClientVersion():
+    sec = ResMgr.openSection(VERSION_FILE_PATH)
+    if sec is None:
+        return b''
+    else:
+        version = i18n.makeString(sec.readString(b'appname')) + b' ' + sec.readString(b'version')
+        return version
+
+
+__DEFAULT_CLIENT_VERSION = 0
+__CLIENT_VERSION = None
+
+def clientVersionGetter():
+    global __CLIENT_VERSION
+    if __CLIENT_VERSION is None:
+        __CLIENT_VERSION = __DEFAULT_CLIENT_VERSION
+        try:
+            clientVersion = getClientVersion()
+            splitted = clientVersion.split(b'#')
+            if len(splitted) != 2:
+                raise SoftException(b'Invalid format of version tag in version.xml')
+            __CLIENT_VERSION = int(splitted[1])
+        except:
+            LOG_WARNING((b'Invalid format of version tag in version.xml. Right format for example "1.11.1 # XYZ" where XYZ is integer. The client version is set to default {}.').format(__CLIENT_VERSION))
+
+    return __CLIENT_VERSION
+
+
+def newFakeModel():
+    return BigWorld.Model(b'')
+
+
+_g_alphabetOrderExcept = {1105: 1077.5, 
+   1025: 1045.5, 
+   197: 196, 
+   196: 197, 
+   229: 228, 
+   228: 229, 
+   1030: 1048, 
+   1110: 1080, 
+   1028: 1045.5, 
+   1108: 1077.5}
+
+def _getSymOrderIdx(symbol):
+    if not isinstance(symbol, types.UnicodeType):
+        raise SoftException(b'')
+    symIdx = ord(symbol)
+    return _g_alphabetOrderExcept.get(symIdx, symIdx)
+
+
+def strcmp(word1, word2):
+    if not isinstance(word1, types.UnicodeType):
+        raise SoftException(b'First argument should be unicode')
+    if not isinstance(word2, types.UnicodeType):
+        raise SoftException(b'Second argument should be unicode')
+    for sym1, sym2 in zip(word1, word2):
+        if sym1 != sym2:
+            return int(round(_getSymOrderIdx(sym1) - _getSymOrderIdx(sym2)))
+
+    return len(word1) - len(word2)
+
+
+def setHangarVisibility(isVisible):
+    BigWorld.worldDrawEnabled(isVisible)
+    return
+
+
+def getHelperServicesConfig(manager):
+    from helpers.statistics import StatisticsCollector
+    from helpers.platform import getPublishPlatform
+    from skeletons.helpers.statistics import IStatisticsCollector
+    from skeletons.helpers.platform import IPublishPlatform
+    collector = StatisticsCollector()
+    collector.init()
+    manager.addInstance(IStatisticsCollector, collector, finalizer=b'fini')
+    platform = getPublishPlatform()
+    platform.init()
+    manager.addInstance(IPublishPlatform, platform, finalizer=b'fini')
+    return
+
+
+class ReferralButtonHandler(object):
+
+    @classmethod
+    def invoke(cls, **kwargs):
+        from gui.shared.event_dispatcher import showReferralProgramWindow
+        from gui.Scaleform.daapi.view.lobby.referral_program.referral_program_helpers import getReferralProgramURL
+        value = kwargs.get(b'value', None)
+        url = value.get(b'action_url', None) if isinstance(value, dict) else None
+        url = getReferralProgramURL() + url
+        showReferralProgramWindow(url)
+        return
+
+
+class ClanQuestButtonHandler(object):
+
+    @classmethod
+    def invoke(cls, **kwargs):
+        from gui.shared.event_dispatcher import showClanQuestWindow
+        from gui.Scaleform.daapi.view.lobby.clans.clan_helpers import getClanQuestURL
+        value = kwargs.get(b'value', None)
+        url = value.get(b'action_url', b'') if isinstance(value, dict) else b''
+        showClanQuestWindow(getClanQuestURL() + url)
+        return
+
+
+def unicodeToStr(data):
+    if isinstance(data, unicode):
+        return data.encode(b'utf-8')
+    if isinstance(data, list):
+        return [unicodeToStr(el) for el in data]
+    if isinstance(data, dict):
+        res = {}
+        for k, v in data.iteritems():
+            res[unicodeToStr(k)] = unicodeToStr(v)
+
+        return res
+    return data
+
+
+def getPercentsFromFloat(number):
+    return int((number - int(number)) * 100)

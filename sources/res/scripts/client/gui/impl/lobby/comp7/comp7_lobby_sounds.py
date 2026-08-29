@@ -1,0 +1,20 @@
+from enum import Enum
+import SoundGroups
+from gui.impl.gen.view_models.views.lobby.comp7.meta_view.root_view_model import MetaRootViews
+from sound_gui_manager import CommonSoundSpaceSettings
+
+class MetaViewSounds(Enum):
+    ENTER_EVENT = b'comp_7_progression_enter'
+    EXIT_EVENT = b'comp_7_progression_exit'
+    ENTER_TAB_EVENTS = {(MetaRootViews.RANKREWARDS): b'comp_7_rank_rewards_enter'}
+
+
+def getComp7MetaSoundSpace():
+    return CommonSoundSpaceSettings(name=b'comp7_meta_view', entranceStates={}, exitStates={}, persistentSounds=(), stoppableSounds=(), priorities=(), autoStart=True, enterEvent=MetaViewSounds.ENTER_EVENT.value, exitEvent=MetaViewSounds.EXIT_EVENT.value)
+
+
+def playComp7MetaViewTabSound(tabId):
+    soundName = MetaViewSounds.ENTER_TAB_EVENTS.value.get(tabId)
+    if soundName is not None:
+        SoundGroups.g_instance.playSound2D(soundName)
+    return

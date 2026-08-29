@@ -1,0 +1,11 @@
+from cosmic_event.gui.impl.gen.view_models.views.lobby.cosmic_lobby_view.cosmic_lobby_view_model import RoverEnum
+PROGRESSION_TOKEN = b'cosmic_event:progression_token'
+SELECTED_VEHICLE_ICON_RESOURCE_PATH = b'R.images.cosmic_event.gui.maps.icons.vehicle'
+OLD_VEHICLE_NAME = b'czech:Cz00_COSM_Gravizapa_02'
+NEW_VEHICLE_NAME = b'czech:Cz00_COSM_Pepelac_02'
+COSMIC_VEHICLES_ROVER_ENUM = {b'default': (RoverEnum.OLD), 
+   OLD_VEHICLE_NAME: (RoverEnum.OLD), 
+   NEW_VEHICLE_NAME: (RoverEnum.NEW)}
+
+class CosmicVideo(object):
+    INTRO = b'Intro'

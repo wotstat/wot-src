@@ -1,0 +1,79 @@
+from gui.impl.gen.view_models.views.dialogs.dialog_template_view_model import DialogTemplateViewModel
+from gui.impl.gen.view_models.views.lobby.crew.tankman_model import TankmanModel
+
+class DismissTankmanDialogModel(DialogTemplateViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=14, commands=2):
+        super(DismissTankmanDialogModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def tankman(self):
+        return self._getViewModel(6)
+
+    @staticmethod
+    def getTankmanType():
+        return TankmanModel
+
+    @property
+    def replacedTankman(self):
+        return self._getViewModel(7)
+
+    @staticmethod
+    def getReplacedTankmanType():
+        return TankmanModel
+
+    def getIsRecoveryPossible(self):
+        return self._getBool(8)
+
+    def setIsRecoveryPossible(self, value):
+        self._setBool(8, value)
+        return
+
+    def getIsLimitReached(self):
+        return self._getBool(9)
+
+    def setIsLimitReached(self, value):
+        self._setBool(9, value)
+        return
+
+    def getDismissPeriod(self):
+        return self._getNumber(10)
+
+    def setDismissPeriod(self, value):
+        self._setNumber(10, value)
+        return
+
+    def getPerkName(self):
+        return self._getString(11)
+
+    def setPerkName(self, value):
+        self._setString(11, value)
+        return
+
+    def getPerkLevel(self):
+        return self._getNumber(12)
+
+    def setPerkLevel(self, value):
+        self._setNumber(12, value)
+        return
+
+    def getTrainingLevel(self):
+        return self._getNumber(13)
+
+    def setTrainingLevel(self, value):
+        self._setNumber(13, value)
+        return
+
+    def _initialize(self):
+        super(DismissTankmanDialogModel, self)._initialize()
+        self._addViewModelProperty(b'tankman', TankmanModel())
+        self._addViewModelProperty(b'replacedTankman', TankmanModel())
+        self._addBoolProperty(b'isRecoveryPossible', False)
+        self._addBoolProperty(b'isLimitReached', False)
+        self._addNumberProperty(b'dismissPeriod', 0)
+        self._addStringProperty(b'perkName', b'')
+        self._addNumberProperty(b'perkLevel', 0)
+        self._addNumberProperty(b'trainingLevel', 0)
+        return

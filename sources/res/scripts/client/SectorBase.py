@@ -1,0 +1,178 @@
+import typing, BigWorld, ResMgr, SoundGroups
+from helpers import dependency
+from skeletons.gui.lobby_context import ILobbyContext
+from FlagModel import FlagSettings, FlagModel
+from Math import Vector3, Vector2, Matrix
+from skeletons.account_helpers.settings_core import ISettingsCore
+from account_helpers.settings_core.settings_constants import GRAPHICS
+import AnimationSequence
+if typing.TYPE_CHECKING:
+    from typing import Tuple
+
+class _SectorBaseSettingsCache(object):
+    _lobbyContext = dependency.descriptor(ILobbyContext)
+
+    def __init__(self, settings):
+        self.initSettings(settings)
+        return
+
+    def initSettings(self, settings):
+        self.flagModelName, self.flagStaffModelName = self.__getFlagModels(settings)
+        self.radiusModel = settings.readString(b'radiusModel', b'')
+        self.flagAnim = settings.readString(b'flagAnim', b'')
+        self.flagStaffFlagHP = settings.readString(b'flagstaffFlagHP', b'')
+        self.baseAttachedSoundEventName = settings.readString(b'wwsound', b'')
+        self.flagBackgroundTex = settings.readString(b'flagBackgroundTex', b'')
+        self.flagScale = settings.readVector3(b'flagScale', Vector3())
+        self.flagNodeAliasName = settings.readString(b'flagNodeAliasName', b'')
+        return
+
+    def __getFlagModels(self, settings):
+        controlPointConfig = self._lobbyContext.getServerSettings().controlPointConfig
+        if controlPointConfig.isEnabled:
+            flagPath = controlPointConfig.flagPath
+            flagstaffPath = controlPointConfig.flagstaffPath
+        else:
+            flagPath = settings.readString(b'flagModelName', b'')
+            flagstaffPath = settings.readString(b'flagstaffModelName', b'')
+        return (flagPath, flagstaffPath)
+
+
+ENVIRONMENT_EFFECTS_CONFIG_FILE = b'scripts/dynamic_objects.xml'
+_g_sectorBaseSettings = None
+
+def resetSectorSettings():
+    _g_sectorBaseSettings = None
+    return
+
+
+class SectorBase(BigWorld.Entity):
+    _OVER_TERRAIN_HEIGHT = 0.5
+    _PLAYER_TEAM_PARAMS = {}
+    __settingsCore = dependency.descriptor(ISettingsCore)
+
+    def __init__(self):
+        global _g_sectorBaseSettings
+        super(SectorBase, self).__init__(self)
+        self.__flagModel = FlagModel()
+        self.__terrainSelectedArea = None
+        self.capturePercentage = 0
+        self.__isCapturedOnStart = False
+        self.__baseCaptureSoundObject = None
+        self._baseCaptureSirenSoundIsPlaying = False
+        if _g_sectorBaseSettings is None:
+            settingsData = ResMgr.openSection(ENVIRONMENT_EFFECTS_CONFIG_FILE + b'/sectorBase')
+            _g_sectorBaseSettings = _SectorBaseSettingsCache(settingsData)
+            SectorBase._PLAYER_TEAM_PARAMS = (
+             (
+              4294901760L, 4286806526L, False),
+             (
+              4278255360L, 4278255360L, True))
+        return
+
+    def prerequisites(self):
+        self.capturePercentage = float(self.pointsPercentage) / 100
+        self.__isCapturedOnStart = self.isCaptured
+        sectorBaseComponent = BigWorld.player().arena.componentSystem.sectorBaseComponent
+        if sectorBaseComponent is not None:
+            sectorBaseComponent.addSectorBase(self)
+        assembler = BigWorld.CompoundAssembler(_g_sectorBaseSettings.flagStaffModelName, self.spaceID)
+        assembler.addRootPart(_g_sectorBaseSettings.flagStaffModelName, b'root')
+        scaleMatrix = Matrix()
+        scaleMatrix.setScale(_g_sectorBaseSettings.flagScale)
+        assembler.addPart(_g_sectorBaseSettings.flagModelName, _g_sectorBaseSettings.flagStaffFlagHP, _g_sectorBaseSettings.flagNodeAliasName, scaleMatrix)
+        rv = [
+         assembler, _g_sectorBaseSettings.radiusModel]
+        if _g_sectorBaseSettings.flagAnim is not None:
+            loader = AnimationSequence.Loader(_g_sectorBaseSettings.flagAnim, self.spaceID)
+            rv.append(loader)
+        mProv = Matrix()
+        mProv.translation = self.position
+        self.__baseCaptureSoundObject = SoundGroups.g_instance.WWgetSoundObject(b'base_' + str(self.baseID), mProv)
+        self.__baseCaptureSoundObject.play(_g_sectorBaseSettings.baseAttachedSoundEventName)
+        return rv
+
+    def onEnterWorld(self, prereqs):
+        self.capturePercentage = float(self.pointsPercentage) / 100
+        if self.__isCapturedOnStart != self.isCaptured:
+            self.set_isCaptured(self.__isCapturedOnStart)
+        teamParams = self.__getTeamParams()
+        flagSettings = FlagSettings(flagCompounModel=prereqs[_g_sectorBaseSettings.flagStaffModelName], flagAlias=_g_sectorBaseSettings.flagNodeAliasName, flagAnim=prereqs[_g_sectorBaseSettings.flagAnim], flagBackgroundTex=_g_sectorBaseSettings.flagBackgroundTex, spaceID=self.spaceID)
+        self.__flagModel.setupFlag(self.position, flagSettings, teamParams[0])
+        self.__terrainSelectedArea = BigWorld.PyTerrainSelectedArea()
+        self.__terrainSelectedArea.setup(_g_sectorBaseSettings.radiusModel, Vector2(self.radius * 2.0, self.radius * 2.0), self._OVER_TERRAIN_HEIGHT, teamParams[0])
+        self.__flagModel.model.root.attach(self.__terrainSelectedArea)
+        self.model = self.__flagModel.model
+        self.__flagModel.startFlagAnimation()
+        return
+
+    def onLeaveWorld(self):
+        sectorBaseComponent = BigWorld.player().arena.componentSystem.sectorBaseComponent
+        if sectorBaseComponent is not None:
+            sectorBaseComponent.removeSectorBase(self)
+        self.__prereqs = None
+        self.__baseCaptureSoundObject.stopAll()
+        self._baseCaptureSirenSoundIsPlaying = False
+        self.__baseCaptureSoundObject = None
+        self.__flagModel = None
+        self.model = None
+        return
+
+    def isPlayerTeam(self):
+        return self.team == BigWorld.player().team and not self.isCaptured or self.team != BigWorld.player().team and self.isCaptured
+
+    def active(self):
+        return self.isActive and not self.isCaptured
+
+    def set_invadersCount(self, oldValue):
+        sectorBaseComponent = BigWorld.player().arena.componentSystem.sectorBaseComponent
+        if sectorBaseComponent is not None:
+            sectorBaseComponent.sectorBasePointsUpdated(self)
+        return
+
+    def set_hasExtraInvader(self, oldValue):
+        sectorBaseComponent = BigWorld.player().arena.componentSystem.sectorBaseComponent
+        if sectorBaseComponent is not None:
+            sectorBaseComponent.extraInvaderUpdate(self)
+        return
+
+    def set_pointsPercentage(self, oldValue):
+        sectorBaseComponent = BigWorld.player().arena.componentSystem.sectorBaseComponent
+        self.capturePercentage = float(self.pointsPercentage) / 100
+        if sectorBaseComponent is not None:
+            sectorBaseComponent.sectorBasePointsUpdated(self)
+        return
+
+    def set_capturingStopped(self, oldValue):
+        sectorBaseComponent = BigWorld.player().arena.componentSystem.sectorBaseComponent
+        if sectorBaseComponent is not None:
+            sectorBaseComponent.sectorBasePointsUpdated(self)
+        return
+
+    def set_isActive(self, oldValue):
+        sectorBaseComponent = BigWorld.player().arena.componentSystem.sectorBaseComponent
+        if sectorBaseComponent is not None:
+            sectorBaseComponent.sectorBaseActiveStateChanged(self)
+        return
+
+    def set_isCaptured(self, oldValue):
+        sectorBaseComponent = BigWorld.player().arena.componentSystem.sectorBaseComponent
+        if sectorBaseComponent is not None:
+            sectorBaseComponent.sectorBaseCaptured(self)
+            if self.__flagModel:
+                teamParams = self.__getTeamParams()
+                self.__flagModel.changeFlagColor(teamParams[0])
+                if self.__terrainSelectedArea is not None:
+                    self.__terrainSelectedArea.setColor(teamParams[0])
+        return
+
+    def set_expectedCaptureTime(self, oldValue):
+        sectorBaseComponent = BigWorld.player().arena.componentSystem.sectorBaseComponent
+        self.expectedCaptureTime = self.expectedCaptureTime
+        if sectorBaseComponent is not None:
+            sectorBaseComponent.sectorBasePointsUpdated(self)
+        return
+
+    def __getTeamParams(self):
+        params = self._PLAYER_TEAM_PARAMS[self.isPlayerTeam()]
+        return (params[self.__settingsCore.getSetting(GRAPHICS.COLOR_BLIND)], params[2])

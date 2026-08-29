@@ -1,0 +1,523 @@
+.TooltipDecorator_base_c9 {
+    display: flex;
+    position: absolute;
+}
+
+.TooltipDecorator_base__theme-default_6d .TooltipDecorator_decorator_3d {
+        padding: 4rem 6rem 8rem;
+        border-image-source: url('R.images.gui.maps.icons.tooltip.tooltip_background');
+        border-image-slice: 24 fill;
+        border-image-width: 24rem;
+        position: relative;
+    }
+
+.Box_mt__XS_0c {
+            margin-top: 4rem;
+        }
+        .Box_mt__SM_eb {
+            margin-top: 8rem;
+        }
+        .Box_mt__SMp_cf {
+            margin-top: 10rem;
+        }
+        .Box_mt__MD_25 {
+            margin-top: 16rem;
+        }
+        .Box_mt__MDp_49 {
+            margin-top: 20rem;
+        }
+        .Box_mt__LG_e8 {
+            margin-top: 32rem;
+        }
+        .Box_mt__XL_83 {
+            margin-top: 64rem;
+        }
+
+.Box_mr__XS_7c {
+            margin-right: 4rem;
+        }
+
+.Box_mr__SM_08 {
+            margin-right: 8rem;
+        }
+
+.Box_mr__SMp_06 {
+            margin-right: 10rem;
+        }
+
+.Box_mr__MD_4a {
+            margin-right: 16rem;
+        }
+
+.Box_mr__MDp_b6 {
+            margin-right: 20rem;
+        }
+
+.Box_mr__LG_d0 {
+            margin-right: 32rem;
+        }
+
+.Box_mr__XL_db {
+            margin-right: 64rem;
+        }
+
+.Box_mb__XS_bb {
+            margin-bottom: 4rem;
+        }
+
+.Box_mb__SM_83 {
+            margin-bottom: 8rem;
+        }
+
+.Box_mb__SMp_04 {
+            margin-bottom: 10rem;
+        }
+
+.Box_mb__MD_ed {
+            margin-bottom: 16rem;
+        }
+
+.Box_mb__MDp_65 {
+            margin-bottom: 20rem;
+        }
+
+.Box_mb__LG_c8 {
+            margin-bottom: 32rem;
+        }
+
+.Box_mb__XL_f8 {
+            margin-bottom: 64rem;
+        }
+
+.Box_ml__XS_8a {
+            margin-left: 4rem;
+        }
+
+.Box_ml__SM_e6 {
+            margin-left: 8rem;
+        }
+
+.Box_ml__SMp_fb {
+            margin-left: 10rem;
+        }
+
+.Box_ml__MD_2b {
+            margin-left: 16rem;
+        }
+
+.Box_ml__MDp_c7 {
+            margin-left: 20rem;
+        }
+
+.Box_ml__LG_39 {
+            margin-left: 32rem;
+        }
+
+.Box_ml__XL_4a {
+            margin-left: 64rem;
+        }
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* eslint-disable-next-line expectedscss*/
+.Text_paragraph-P10_2c {
+        font-size: 10rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_paragraph-P12_22 {
+        font-size: 12rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P14_a7 {
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P16_90 {
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P18_50 {
+        font-size: 18rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P24_33 {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 32rem;
+}
+.Text_heading-H14_8b {
+        font-size: 14rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H15_9e {
+        font-size: 15rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H18_b7 {
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H20R_f6 {
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H22_27 {
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H24R_be {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H24_0c {
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H28_78 {
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H36_32 {
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H56_c3 {
+        font-size: 56rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H73_8f {
+        font-size: 73rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H144_a9 {
+        font-size: 144rem;
+        font-weight: 700;
+        line-height: 1;
+}
+.Text_BLACK_REAL_30 {
+        color: #000000;
+    }
+.Text_WHITE_REAL_bc {
+        color: #FFFFFF;
+    }
+.Text_WHITE_62 {
+        color: #F2F2F7;
+    }
+.Text_WHITE_ORANGE_54 {
+        color: #FEFEEC;
+    }
+.Text_WHITE_SPANISH_df {
+        color: #E9E2BF;
+    }
+.Text_PAR_15 {
+        color: #8C8C7E;
+    }
+.Text_PAR_SECONDARY_5d {
+        color: #595950;
+    }
+.Text_PAR_TERTIARY_c9 {
+        color: #37362E;
+    }
+.Text_INFO_RED_30 {
+        color: #FF0000;
+    }
+.Text_RED_66 {
+        color: #FF2717;
+    }
+.Text_RED_DARK_d8 {
+        color: #B70000;
+    }
+.Text_YELLOW_ed {
+        color: #FEAB34;
+    }
+.Text_ORANGE_be {
+        color: #EE7000;
+    }
+.Text_CREAM_57 {
+        color: #FFDD99;
+    }
+.Text_BROWN_18 {
+        color: #CBAC77;
+    }
+.Text_GREEN_BRIGHT_3f {
+        color: #80D43A;
+    }
+.Text_GREEN_e3 {
+        color: #7AB300;
+    }
+.Text_GREEN_DARK_f1 {
+        color: #497212;
+    }
+.Text_BLUE_BOOSTER_21 {
+        color: #CCFFFF;
+    }
+.Text_BLUE_TEAMKILLER_ab {
+        color: #09E2FF;
+    }
+.Text_CRED_f7 {
+        color: #CED9D9;
+    }
+.Text_GOLD_28 {
+        color: #FFC363;
+    }
+.Text_BOND_be {
+        color: #C9C9B6;
+    }
+.Text_PROM_65 {
+        color: #A29B70;
+    }
+
+.ChargeArrows_base_ce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChargeArrows_arrow_cc {
+    margin-right: -.5rem;
+}
+
+.ChargeArrows_arrow_cc:last-child {
+        margin-right: 0;
+    }
+
+.ChargeLevel_base_d1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 40rem;
+    padding-top: 4rem;
+    position: relative;
+}
+
+.ChargeLevel_indikatorWrapper_95 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 5rem;
+    padding: 4rem;
+}
+
+.ChargeLevel_indicator_2d {
+    display: flex;
+    width: 6rem;
+    height: 2rem;
+    margin-right: 2rem;
+    background: #F2F2F7;
+    opacity: 0.1;
+}
+
+.ChargeLevel_indicator__active_1d {
+        box-shadow: 0 0 4px 0 #fb7500;
+        background: #fde39d;
+        opacity: 1;
+    }
+
+.ChargeLevel_indicator_2d:last-child {
+        margin-right: 0;
+    }
+
+.ChargeLevel_nextLvlArrow_d2 {
+    position: absolute;
+    left: 100%;
+    transform: translateX(-50%);
+}
+
+.DynamicParams_base_0a {
+    display: flex;
+    flex-direction: column;
+}
+
+.DynamicParams_title_43 {
+    margin-bottom: 20rem;
+}
+
+.DynamicParams_chargeLevelWrapp_c0 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20rem;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 50.75%, rgba(0, 0, 0, 0) 100%);
+    position: relative;
+}
+
+.DynamicParams_separator_d8 {
+    width: 100%;
+    height: 1rem;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50.75%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+}
+
+.DynamicParams_separator_d8:last-child {
+        top: initial;
+        bottom: 0;
+    }
+
+.DynamicParams_chargeLevelText_1f {
+    margin-right: 4rem;
+    padding-left: 12rem;
+}
+
+.DynamicParams_chargeLevelInfo_f6 {
+    display: flex;
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.gui.maps.icons.components.tooltip.info') no-repeat top center / contain;
+    background-size: cover;
+}
+
+.DynamicParams_dynamicParamWrapp_52 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 16rem;
+}
+
+.DynamicParams_chargeLevelValue_dc {
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 100%;
+}
+
+.DynamicParams_chargeLevelDescr_fe {
+    flex: 1;
+    padding-left: 12rem;
+    padding-right: 1rem;
+}
+
+.SkillTitle_base_7f {
+    display: flex;
+}
+
+.SkillTitle_image_20 {
+    width: 104rem;
+    height: 104rem;
+    margin-right: 16rem;
+    background-size: cover;
+}
+
+.SkillTitle_content_28 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.SkillTitle_titleWrapper_54 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 16rem;
+}
+
+.SkillTitle_titleWrapper__modal_7d {
+        margin-bottom: 0;
+    }
+
+.SkillTitle_icon_2c {
+    width: 22rem;
+    height: 22rem;
+    margin-right: 6rem;
+    background-size: cover;
+}
+
+.StaticParams_base_60 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+    .StaticParams_base__modal_ed {
+        padding: 16rem 0;
+        border-top: 1rem dashed rgba(140, 140, 126, 1);
+        border-bottom: 1rem dashed rgba(140, 140, 126, 1);
+        background: linear-gradient(90deg, rgba(201, 201, 182, 0) 0%, rgba(201, 201, 182, 0.08) 38.22%, rgba(201, 201, 182, 0.08) 64.56%, rgba(201, 201, 182, 0) 100%);
+    }
+
+.StaticParams_separator_5a {
+    width: 100%;
+    height: 1rem;
+    background: url('R.images.gui.maps.icons.components.tooltip.devider_points') no-repeat top center / contain;
+    position: absolute;
+}
+
+.StaticParams_separator_5a:first-child {
+        top: 0;
+    }
+
+.StaticParams_separator_5a:last-child {
+        bottom: 0;
+    }
+
+.StaticParams_staticParamWrapp_94 {
+    display: flex;
+    flex-direction: column;
+}
+
+.StaticParams_staticParamItem_ac {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 16rem;
+}
+
+.StaticParams_staticParamItem_ac:last-child {
+        margin-bottom: 0;
+    }
+
+.StaticParams_startLevel_c6 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 16rem;
+}
+
+.StaticParams_value_5d {
+    display: flex;
+    justify-content: flex-end;
+    width: 50rem;
+    margin-right: 12rem;
+}
+
+.StaticParams_description_f0 {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.App_base_42 {
+    display: flex;
+    flex-direction: column;
+    width: 400rem;
+    padding: 20rem;
+}
+
+.App_title_4b,
+.App_staticParams_15 {
+    margin-bottom: 40rem;
+}
+

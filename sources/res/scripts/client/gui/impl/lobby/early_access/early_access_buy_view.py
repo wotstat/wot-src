@@ -1,0 +1,181 @@
+from adisp import adisp_process
+from frameworks.wulf import ViewFlags, ViewSettings, WindowFlags, WindowLayer, ViewModel
+from gui.impl.lobby.early_access.early_access_view_impl import EarlyAccessViewImpl
+from gui.impl.lobby.techtree.sound_constants import TECHTREE_SOUND_SPACE
+from gui.techtree.techtree_dp import g_techTreeDP
+from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS
+from gui.impl.lobby.early_access.tooltips.early_access_compensation_tooltip import EarlyAccessCompensationTooltip
+from gui.impl.lobby.early_access.early_access_vehicle_view import EarlyAccessVehicleView
+from gui.impl.backport.backport_tooltip import createTooltipData
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.early_access.early_access_buy_view_model import EarlyAccessBuyViewModel, BuyResult
+from gui.impl.gen.view_models.views.lobby.early_access.early_access_vehicle_model import EarlyAccessVehicleModel
+from gui.impl.gen.view_models.views.lobby.early_access.early_access_state_enum import State
+from gui.impl.lobby.early_access.early_access_window_events import showBuyGoldForEarlyAccess, showEarlyAccessInfoPage
+from gui.impl.lobby.common.vehicle_model_helpers import fillVehicleModel
+from gui.impl.lobby.common.view_wrappers import createBackportTooltipDecorator
+from gui.impl.pub import ViewImpl
+from gui.shared.money import Currency
+from helpers import dependency
+from skeletons.gui.game_control import IEarlyAccessController
+from skeletons.gui.shared import IItemsCache
+from gui.impl.pub.lobby_window import LobbyWindow
+from gui.shared.gui_items.items_actions import factory
+from gui.impl.lobby.early_access.shared.actions import BUY_EARLY_ACCESS_TOKENS
+
+class EarlyAccessBuyView(EarlyAccessViewImpl):
+    __slots__ = (b'__backCallback', b'__desiredVehCD')
+    __earlyAccessCtrl = dependency.descriptor(IEarlyAccessController)
+    __itemsCache = dependency.descriptor(IItemsCache)
+    _COMMON_SOUND_SPACE = TECHTREE_SOUND_SPACE
+
+    def __init__(self, layoutID, desiredVehCD=None, backCallback=None):
+        settings = ViewSettings(layoutID)
+        settings.flags = ViewFlags.LOBBY_SUB_VIEW
+        settings.model = EarlyAccessBuyViewModel()
+        self.__desiredVehCD = desiredVehCD
+        super(EarlyAccessBuyView, self).__init__(settings)
+        self.__backCallback = backCallback
+        return
+
+    @property
+    def viewModel(self):
+        return super(EarlyAccessBuyView, self).getViewModel()
+
+    @createBackportTooltipDecorator()
+    def createToolTip(self, event):
+        return super(EarlyAccessBuyView, self).createToolTip(event)
+
+    def createToolTipContent(self, event, contentID):
+        if contentID == R.views.lobby.early_access.tooltips.EarlyAccessCompensationTooltip():
+            return EarlyAccessCompensationTooltip()
+        if contentID == R.views.lobby.early_access.tooltips.EarlyAccessTokensStepperTooltip():
+            return ViewImpl(ViewSettings(R.views.lobby.early_access.tooltips.EarlyAccessTokensStepperTooltip(), model=ViewModel()))
+        return super(EarlyAccessBuyView, self).createToolTipContent(event, contentID)
+
+    def getTooltipData(self, event):
+        vehicleCD = event.getArgument(b'vehicleCD')
+        data = createTooltipData(isSpecial=True, specialAlias=TOOLTIPS_CONSTANTS.CAROUSEL_VEHICLE, specialArgs=[
+         vehicleCD])
+        return data
+
+    def _onLoading(self, *args, **kwargs):
+        super(EarlyAccessBuyView, self)._onLoading(*args, **kwargs)
+        g_techTreeDP.load()
+        self.__updateData()
+        return
+
+    def _getEvents(self):
+        return (
+         (
+          self.__earlyAccessCtrl.onUpdated, self.__updateData),
+         (
+          self.__earlyAccessCtrl.onBalanceUpdated, self.__updateData),
+         (
+          self.viewModel.onBuyTokens, self.__onBuyTokens),
+         (
+          self.viewModel.onBackToPrevScreen, self.__onBackToPrevScreen),
+         (
+          self.viewModel.onAboutEvent, showEarlyAccessInfoPage))
+
+    def _getCallbacks(self):
+        return (
+         (
+          b'stats', self.__onStatsUpdated),)
+
+    def __onStatsUpdated(self, _):
+        goldBalance = self.__itemsCache.items.stats.money
+        with self.getViewModel().transaction() as model:
+            model.setGoldBalance(goldBalance.gold)
+        return
+
+    def __updateData(self):
+        ctrl = self.__earlyAccessCtrl
+        state = ctrl.getState()
+        startProgressionTime, endProgressionTime = ctrl.getProgressionTimes()
+        _, endSeasonTime = ctrl.getSeasonInterval()
+        totalTokensCount = ctrl.getTotalVehiclesPrice()
+        receivedTokensCount = ctrl.getReceivedTokensCount()
+        currentTokensBalance = ctrl.getTokensBalance()
+        priceInGold = ctrl.getTokenCost()
+        goldBalance = self.__itemsCache.items.stats.money
+        with self.getViewModel().transaction() as model:
+            model.setState(state.value)
+            model.setFromTimestamp(startProgressionTime)
+            model.setToTimestamp(endProgressionTime if state == State.ACTIVE else endSeasonTime)
+            model.setGoldBalance(goldBalance.gold)
+            model.setRecievedTokensCount(receivedTokensCount)
+            model.setCurrentTokensBalance(currentTokensBalance)
+            model.setTotalTokensCount(totalTokensCount)
+            if priceInGold.gold is not None:
+                model.setTokenPriceInGold(priceInGold.gold)
+            self.__fillVehicles(model)
+        return
+
+    def __fillVehicles(self, model):
+        vehicles = self.__earlyAccessCtrl.getAffectedVehiclesOrderedList()
+        model.setInitialTokensCount(self.__getPriceToUnlock(vehicles, self.__desiredVehCD))
+        vehicleModelArray = model.getVehicles()
+        vehicleModelArray.clear()
+        for veh, price in vehicles:
+            vModel = EarlyAccessVehicleModel()
+            fillVehicleModel(vModel, veh)
+            isNext2Unlock, _ = g_techTreeDP.isNext2Unlock(veh.compactDescr, unlocked=self.__itemsCache.items.stats.unlocks, xps=self.__itemsCache.items.stats.vehiclesXPs)
+            state = EarlyAccessVehicleView.getVehicleState(veh, isNext2Unlock)
+            vModel.setState(state)
+            vModel.setPrice(price)
+            vModel.setIsPostProgression(veh.compactDescr in self.__earlyAccessCtrl.getPostProgressionVehicles())
+            vehicleModelArray.addViewModel(vModel)
+
+        vehicleModelArray.invalidate()
+        return
+
+    def __getPriceToUnlock(self, vehicles, vehCD):
+        if vehCD is None:
+            return 0
+        else:
+            totalPrice = 0
+            for vehicle, price in vehicles:
+                currVehCD = vehicle.compactDescr
+                totalPrice += price
+                if currVehCD != vehCD:
+                    continue
+                tokensCount = self.__earlyAccessCtrl.getReceivedTokensCount()
+                return max(totalPrice - tokensCount, 0)
+
+            return totalPrice
+
+    @adisp_process
+    def __onBuyTokens(self, event):
+        buyTokensAmount = int(event.get(EarlyAccessBuyViewModel.ARG_BUY_TOKENS_AMOUNT, 0))
+        priceInGold = self.__earlyAccessCtrl.getTokenCost() * buyTokensAmount
+        playerMoney = self.__itemsCache.items.stats.money
+        shortage = playerMoney.getShortage(priceInGold)
+        if shortage and shortage.getCurrency() == Currency.GOLD:
+            showBuyGoldForEarlyAccess(priceInGold)
+        else:
+            action = factory.getAction(BUY_EARLY_ACCESS_TOKENS, buyTokensAmount)
+            result = yield factory.asyncDoAction(action)
+            self.viewModel.setBuyResult(BuyResult.SUCCESS if result else BuyResult.FAIL)
+            self.__earlyAccessCtrl.onPayed(result, buyTokensAmount)
+            if not result and not self.__itemsCache.items.stats.mayConsumeWalletResources:
+                self.__exitBuyWindow()
+        return
+
+    def __onBackToPrevScreen(self):
+        self.__exitBuyWindow()
+        return
+
+    def __exitBuyWindow(self):
+        self.destroyWindow()
+        if self.__backCallback is not None:
+            self.__backCallback()
+        return
+
+
+class EarlyAccessBuyViewWindow(LobbyWindow):
+    __slots__ = ()
+
+    def __init__(self, parent=None, desiredVehCD=None, backCallback=None):
+        super(EarlyAccessBuyViewWindow, self).__init__(wndFlags=WindowFlags.WINDOW, layer=WindowLayer.TOP_SUB_VIEW, content=EarlyAccessBuyView(R.views.lobby.early_access.EarlyAccessBuyView(), desiredVehCD, backCallback=backCallback), parent=parent)
+        return

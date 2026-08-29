@@ -1,0 +1,62 @@
+from logging import getLogger
+from gui.battle_results.composer import IStatsComposer
+from gui.battle_results.settings import PLAYER_TEAM_RESULT
+from helpers import dependency
+from story_mode.gui.battle_results.templates import STORY_MODE_RESULTS_BLOCK
+from story_mode.gui.shared.event_dispatcher import showOnboardingBattleResultWindow, showEpilogueWindow, showPrebattleAndGoToQueue, showBattleResultWindow
+from story_mode.skeletons.story_mode_controller import IStoryModeController
+from story_mode_common.story_mode_constants import LOGGER_NAME
+_logger = getLogger(LOGGER_NAME)
+
+class StoryModeStatsComposer(IStatsComposer):
+    _fromNotifications = set()
+    _storyModeCtrl = dependency.descriptor(IStoryModeController)
+
+    def __init__(self, _):
+        super(StoryModeStatsComposer, self).__init__()
+        self._block = STORY_MODE_RESULTS_BLOCK.clone()
+        return
+
+    def clear(self):
+        self._block.clear()
+        return
+
+    def setResults(self, results, reusable):
+        self._block.setRecord(results, reusable)
+        return
+
+    def getVO(self):
+        return self._block.getVO()
+
+    def popAnimation(self):
+        return
+
+    @staticmethod
+    def onShowResults(arenaUniqueID):
+        StoryModeStatsComposer._fromNotifications.add(arenaUniqueID)
+        return
+
+    def onResultsPosted(self, arenaUniqueID):
+        resultVO = self._block.getVO()
+        isForceOnboarding = resultVO[b'isForceOnboarding']
+        isFromNotifications = arenaUniqueID in StoryModeStatsComposer._fromNotifications
+        if isForceOnboarding and not isFromNotifications:
+            if not self._storyModeCtrl.isEnabled():
+                self._storyModeCtrl.skipOnboarding()
+                return
+            missionId = resultVO[b'missionId']
+            finishResult = resultVO[b'finishResult']
+            finishReason = resultVO[b'finishReason']
+            if finishResult == PLAYER_TEAM_RESULT.WIN:
+                nextMission = self._storyModeCtrl.getNextMission(missionId)
+                if missionId == self._storyModeCtrl.missions.onboardingLastMissionId or nextMission is None:
+                    showEpilogueWindow()
+                else:
+                    showPrebattleAndGoToQueue(missionId=nextMission.missionId)
+            else:
+                showOnboardingBattleResultWindow(finishReason=finishReason, missionId=missionId)
+        else:
+            showBattleResultWindow(arenaUniqueID)
+        if isFromNotifications:
+            StoryModeStatsComposer._fromNotifications.remove(arenaUniqueID)
+        return

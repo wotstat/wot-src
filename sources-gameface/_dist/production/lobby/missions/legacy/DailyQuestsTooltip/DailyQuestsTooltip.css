@@ -1,0 +1,748 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.TooltipDecorator_base_c9 {
+    display: flex;
+    position: absolute;
+}
+
+.TooltipDecorator_base__theme-default_6d .TooltipDecorator_decorator_3d {
+        padding: 4rem 6rem 8rem;
+        border-image-source: url('R.images.gui.maps.icons.tooltip.tooltip_background');
+        border-image-slice: 24 fill;
+        border-image-width: 24rem;
+        position: relative;
+    }
+
+.Reward_base_ea {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+    .Reward_base__s48x48_46,
+    .Reward_base__small_c0 {
+        width: 48rem;
+        height: 48rem;
+    }
+
+    .Reward_base__s80x80_ce,
+    .Reward_base__big_e5 {
+        width: 80rem;
+        height: 80rem;
+    }
+
+    .Reward_base__s128x100_c3 {
+        width: 128rem;
+        height: 100rem;
+    }
+
+    .Reward_base__s180x135_7c {
+        width: 180rem;
+        height: 135rem;
+    }
+
+    .Reward_base__s232x174_67 {
+        width: 232rem;
+        height: 174rem;
+    }
+
+    .Reward_base__s296x222_78 {
+        width: 296rem;
+        height: 222rem;
+    }
+
+    .Reward_base__s400x300_07 {
+        width: 400rem;
+        height: 300rem;
+    }
+
+    .Reward_base__s600x450_f8 {
+        width: 600rem;
+        height: 450rem;
+    }
+
+.Reward_tooltipWrapper_b5 {
+    height: 100%;
+}
+
+.Reward_icon_df {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: relative;
+    z-index: 1;
+}
+
+.Reward_overlay_68 {
+    background: no-repeat center / 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.Reward_base__s48x48_46 .Reward_overlay_68,
+    .Reward_base__small_c0 .Reward_overlay_68 {
+        width: 96rem;
+        height: 96rem;
+        background-size: 100%;
+        overflow: visible;
+    }
+
+.Reward_base__s80x80_ce .Reward_overlay_68,
+    .Reward_base__big_e5 .Reward_overlay_68 {
+        width: 128rem;
+        height: 128rem;
+    }
+
+.Reward_base__s180x135_7c .Reward_overlay_68 {
+        width: 266rem;
+        height: 241rem;
+    }
+
+.Reward_base__s232x174_67 .Reward_overlay_68 {
+        width: 344rem;
+        height: 312rem;
+    }
+
+.Reward_base__s296x222_78 .Reward_overlay_68 {
+        width: 450rem;
+        height: 408rem;
+    }
+
+.Reward_base__s400x300_07 .Reward_overlay_68 {
+        width: 618rem;
+        height: 590rem;
+    }
+
+.Reward_base__s600x450_f8 .Reward_overlay_68 {
+        width: 670rem;
+        height: 575rem;
+    }
+
+.Reward_highlight_36 {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center / contain;
+    position: absolute;
+    z-index: 0;
+}
+
+.Reward_image_89 {
+    position: relative;
+}
+
+.Reward_info_72 {
+    margin-top: -13rem;
+    color: #e9e2bf;
+    font-size: 14rem;
+    line-height: 18rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.Reward_base__s48x48_46 .Reward_info_72,
+    .Reward_base__small_c0 .Reward_info_72 {
+        margin: -10rem -10rem 0;
+    }
+
+.Reward_info__multi_63 {
+        margin-right: 2rem;
+        text-align: right;
+    }
+
+.Reward_base__s48x48_46 .Reward_info__multi_63,
+        .Reward_base__small_c0 .Reward_info__multi_63 {
+            margin-right: 0;
+        }
+
+.Reward_info__credits_ef {
+        color: #E9E2BF;
+    }
+
+.Reward_info__gold_36 {
+        color: #FFC363;
+    }
+
+.Reward_info__crystal_36 {
+        color: #C9C9B6;
+    }
+
+.Reward_info__premiumTank_d3 {
+        color: #FFDD99;
+    }
+
+.Reward_timer_d3 {
+    background: no-repeat center / contain;
+    position: absolute;
+    z-index: 1;
+}
+
+.Reward_base__s48x48_46 .Reward_timer_d3,
+    .Reward_base__small_c0 .Reward_timer_d3 {
+        width: 23rem;
+        height: 23rem;
+        background-image: url('R.images.gui.maps.icons.quests.bonuses.small.timer');
+        top: -6rem;
+        right: -6rem;
+    }
+
+.Reward_base__s80x80_ce .Reward_timer_d3,
+    .Reward_base__big_e5 .Reward_timer_d3 {
+        width: 48rem;
+        height: 48rem;
+        background-image: url('R.images.gui.maps.icons.quests.bonuses.big.timer');
+        top: -14rem;
+        right: -14rem;
+    }
+
+.Rewards_base_26 {
+    display: flex;
+}
+
+    .Rewards_base__vertical_9f {
+        flex-direction: column;
+    }
+
+.Rewards_reward_7b {
+    margin: 0 10rem;
+}
+
+.Rewards_reward__vertical_c6 {
+        margin: 15rem 0;
+    }
+
+.BattleConditions_base_3c {
+    width: 100%;
+    font-size: 14rem;
+}
+
+    .BattleConditions_base__big_fd .BattleConditions_description_97 {
+            font-size: 18rem;
+        }
+
+    .BattleConditions_base__big_fd .BattleConditions_operator_43 {
+            font-size: 18rem;
+        }
+
+    .BattleConditions_base__huge_92 .BattleConditions_description_97 {
+            font-size: 24rem;
+        }
+
+    .BattleConditions_base__huge_92 .BattleConditions_operator_43 {
+            font-size: 24rem;
+        }
+
+    .BattleConditions_base__reverse_1a .BattleConditions_condition_e2 {
+            flex-direction: column-reverse;
+        }
+
+    .BattleConditions_base__bolded_92 .BattleConditions_description_97 {
+            font-weight: 700;
+        }
+
+    .BattleConditions_base__bolded_92 .BattleConditions_operator_43 {
+            font-weight: 700;
+        }
+
+.BattleConditions_conditionBlockColumn_c7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BattleConditions_conditionBlockRow_a8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.BattleConditions_condition_e2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.BattleConditions_operator_43 {
+    margin: 0 10rem;
+    color: #ffbd30;
+}
+
+.BattleConditions_title_8b {
+    text-align: center;
+}
+
+.BattleConditions_description_97 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 16rem;
+}
+
+.BattleConditions_description_inlineOperator_34 {
+        margin: 0 5rem;
+    }
+
+.BattleConditions_progress_c0 {
+    display: flex;
+    justify-content: center;
+    font-size: 24rem;
+    font-weight: 700;
+}
+
+.BattleConditions_progress__completed_1b .BattleConditions_progress_current_fa,
+        .BattleConditions_progress__completed_1b .BattleConditions_progress_separator_d0,
+        .BattleConditions_progress__completed_1b .BattleConditions_progress_total_62 {
+            color: #7ab300;
+        }
+
+.BattleConditions_progress_current_fa {
+        display: inline;
+        color: #ffbd30;
+    }
+
+.BattleConditions_progress_separator_d0 {
+        display: inline;
+        margin: 0 3rem;
+    }
+
+.BattleConditions_progress_total_62 {
+        display: inline;
+    }
+
+.BattleConditions_progressBarWrapper_85 {
+    margin: 14rem 0;
+}
+
+.BattleConditions_timingFunction_8f {
+    transition-timing-function: ease-in-out;
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBar_base_45 {
+    width: 100%;
+    height: 12rem;
+    position: relative;
+}
+.ProgressBar_base__medium_62 {
+        height: 6rem;
+    }
+.ProgressBar_base__small_df {
+        height: 2rem;
+    }
+.ProgressBar_background_51 {
+    width: 100%;
+    max-width: 8001px;
+    height: 100%;
+    background-image: var(--progress-base);
+    background-repeat: repeat;
+    background-position: 0 50%;
+    background-size: 3rem 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ProgressBar_background__medium_6e {
+        height: 6rem;
+    }
+.ProgressBar_background__small_46 {
+        height: 2rem;
+    }
+.ProgressBar_lineWrapper_6a {
+    display: flex;
+    flex: 1;
+}
+
+
+.ProgressBarBlink_base_24 {
+    width: 60rem;
+    height: 100rem;
+    background-image: var(--progress-glow);
+    background-size: contain;
+    mix-blend-mode: lighten;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    pointer-events: none;
+}
+
+    .ProgressBarBlink_base__medium_ec {
+        width: 42rem;
+        height: 70rem;
+    }
+
+    .ProgressBarBlink_base__small_0f {
+        width: 44rem;
+        height: 43rem;
+        background-image: var(--progress-glow-small);
+    }
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressLineImpose_base_80 {
+    max-width: 8001px;
+    height: 100%;
+    background-color: var(--progress-line-base);
+    position: relative;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressLineImpose_base__disabled_cc {
+        background-color: var(--progress-line-disabled);
+    }
+.ProgressLineImpose_base__finished_d4 {
+        background-color: var(--progress-line-finished);
+    }
+.ProgressLineImpose_base__withoutBounce_56 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+.ProgressLineImpose_pattern_1c {
+    max-width: 8001px;
+    background-image: var(--progress-pattern-base);
+    background-repeat: repeat;
+    background-position: 0 50%;
+    background-size: 3rem 10rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_pattern_1c {
+        top: 0;
+        bottom: 0;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_pattern_1c {
+        background-image: var(--progress-pattern-disabled);
+        left: 0;
+    }
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_pattern_1c {
+        background-image: var(--progress-pattern-finished);
+    }
+.ProgressLineImpose_gradient_35 {
+    max-width: 8001px;
+    background-image: linear-gradient(90deg, rgba(0,0,0, .5), rgba(255,255,255, .75));
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    bottom: 1rem;
+    left: 0;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_gradient_35 {
+        top: 0;
+        bottom: 0;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_gradient_35 {
+        display: none;
+    }
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_gradient_35 {
+        background-image: linear-gradient(90deg, rgba(0,0,0, .5), rgba(255,255,255, .75), rgba(0,0,0, .5));
+    }
+.ProgressLineImpose_glow_a5 {
+    width: 60rem;
+    max-width: 8001px;
+    height: 100rem;
+    background-image: var(--progress-glow);
+    background-size: contain;
+    mix-blend-mode: lighten;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.ProgressLineImpose_glow__left_d8 {
+        left: 1rem;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_glow_a5,
+    .ProgressLineImpose_base__finished_d4 .ProgressLineImpose_glow_a5 {
+        display: none;
+    }
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_glow_a5 {
+        width: 44rem;
+        height: 43rem;
+        background-image: var(--progress-glow-small);
+    }
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBarDeltaSimple_base_6c {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.ProgressBarDeltaSimple_delta_99 {
+    width: 0;
+    max-width: 8001px;
+    height: 100%;
+    box-shadow: var(--progress-delta-shadow);
+    background-color: var(--progress-delta-color);
+    position: absolute;
+    bottom: 0;
+    transform-origin: right center;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1), cubic-bezier(.21, .61, .35, 1);
+    transition-property: width, transform;
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBarDeltaGrow_base_7e {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressBarDeltaGrow_base__withoutBounce_b5 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+.ProgressBarDeltaGrow_glow_68 {
+    width: 0;
+    max-width: 8001px;
+    height: 100%;
+    box-shadow: var(--progress-delta-shadow);
+    background-color: var(--progress-delta-color);
+    position: absolute;
+    bottom: 0;
+    transform-origin: right center;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressBarDeltaGrow_base__withoutBounce_b5 .ProgressBarDeltaGrow_glow_68 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+
+.Transition_base_f1 {
+    position: relative;
+}
+
+.Transition_component_9a {
+    animation: Transition_fadeIn_c5 .5s backwards ease-in;
+}
+
+.Transition_lock_58 {
+    width: 48rem;
+    height: 48rem;
+    background: url('R.images.gui.maps.icons.missions.commonIcons.lock_mission_48') no-repeat center / contain;
+    opacity: 1;
+    position: absolute;
+    left: 10rem;
+    z-index: 10;
+    animation: Transition_zoomOut_f4 .4s ease-out forwards;
+}
+
+.Transition_lock__big_c0 {
+        width: 60rem;
+        height: 60rem;
+        margin: 5rem 0 0 10rem;
+        background-image: url('R.images.gui.maps.icons.missions.commonIcons.lock_mission_60');
+    }
+
+.Transition_background_e2 {
+    width: 47rem;
+    height: 50rem;
+    background: url('R.images.gui.maps.icons.missions.icons.rewardGlow') no-repeat center / contain;
+    opacity: 0;
+    position: absolute;
+    left: 10rem;
+    animation: Transition_fadeInBg_ed .5s ease-out forwards;
+}
+
+.Transition_background__big_a0 {
+        width: 77rem;
+        height: 81rem;
+    }
+
+@keyframes Transition_fadeInBg_ed {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes Transition_fadeIn_c5 {
+    0% {
+        filter: brightness(0.65) saturate(0.6);
+        opacity: 0.7;
+    }
+
+    100% {
+        filter: brightness(1) saturate(1);
+        opacity: 1;
+    }
+}
+
+@keyframes Transition_zoomOut_f4 {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    99% {
+        opacity: 0;
+        transform: scale(1.6);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.BonusReward_base_3a {
+    display: flex;
+    position: relative;
+}
+
+    .BonusReward_base__locked_52 {
+        filter: brightness(0.65) saturate(0.6);
+        opacity: 0.7;
+    }
+
+.BonusReward_subscriptionRewardBackground_45 {
+    width: 47rem;
+    height: 50rem;
+    background: url('R.images.gui.maps.icons.missions.icons.rewardGlow') no-repeat center / contain;
+    position: absolute;
+}
+
+.BonusReward_subscriptionRewardBackground__big_fb {
+        width: 77rem;
+        height: 81rem;
+    }
+
+.BonusReward_subscriptionRewardBackground__animated_0d {
+        background: none;
+    }
+
+.BonusReward_lockedIcon_39 {
+    width: 48rem;
+    height: 48rem;
+    background: url('R.images.gui.maps.icons.missions.commonIcons.lock_mission_48') no-repeat center / contain;
+    position: absolute;
+    top: 2rem;
+    z-index: 10;
+}
+
+.BonusReward_lockedIcon__big_1f {
+        width: 60rem;
+        height: 60rem;
+        margin: 5rem 0 0 10rem;
+        background-image: url('R.images.gui.maps.icons.missions.commonIcons.lock_mission_60');
+    }
+
+.BonusReward_reward_eb {
+    margin: 0 10rem;
+    position: relative;
+}
+
+
+.DailyQuestsTooltipContent_base_ac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 364rem;
+    height: auto;
+}
+
+.DailyQuestsTooltipContent_rewards_wrapper_8f {
+    display: flex;
+    margin-bottom: 25rem;
+}
+
+.DailyQuestsTooltipContent_info_db {
+    width: 100%;
+    margin: 5rem 0 45rem;
+    padding: 0 37rem;
+    color: #fff;
+}
+
+.DailyQuestsTooltipContent_icon_32 {
+    width: 80rem;
+    height: 80rem;
+    margin-top: 35rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.DailyQuestsTooltipContent_info_text_b7 {
+    color: #fff;
+    text-align: center;
+}
+
+.DailyQuestsTooltipContent_status_07 {
+    display: flex;
+    align-items: center;
+    height: 50rem;
+    color: #cbac77;
+    font-size: 14rem;
+}
+
+.DailyQuestsTooltipContent_status_07 .DailyQuestsTooltipContent_statusIcon_4b {
+        width: 16rem;
+        height: 16rem;
+        margin-right: 4rem;
+        background-image: url('R.images.gui.maps.icons.missions.icons.icon_flag');
+        background-position: center;
+        background-size: contain;
+    }
+
+.DailyQuestsTooltipContent_status_completed_ba {
+        color: #7ab300;
+    }
+
+.DailyQuestsTooltipContent_status_completed_ba .DailyQuestsTooltipContent_statusIcon_4b {
+            width: 16rem;
+            height: 16rem;
+            margin-right: 4rem;
+            background-image: url('R.images.gui.maps.icons.missions.icons.check_green_xs');
+            background-size: contain;
+        }
+
+.DailyQuestsTooltipContent_separator_11 {
+    width: 290rem;
+    height: 1rem;
+    margin: 0;
+    background: url('R.images.gui.maps.icons.missions.daily.widgets.separator_border');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.DailyQuestsTooltipContent_conditions_operator_c9 {
+    color: #ffbd30;
+    font-size: 16rem;
+    font-weight: 700;
+    text-align: center;
+}
+

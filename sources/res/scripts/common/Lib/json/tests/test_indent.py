@@ -1,0 +1,42 @@
+import textwrap
+from StringIO import StringIO
+from json.tests import PyTest, CTest
+
+class TestIndent(object):
+
+    def test_indent(self):
+        h = [
+         [
+          b'blorpie'], [b'whoops'], [], b'd-shtaeou', b'd-nthiouh', b'i-vhbjkhnth', {b'nifty': 87}, {b'field': b'yes', b'morefield': False}]
+        expect = textwrap.dedent(b'        [\n          [\n            "blorpie"\n          ],\n          [\n            "whoops"\n          ],\n          [],\n          "d-shtaeou",\n          "d-nthiouh",\n          "i-vhbjkhnth",\n          {\n            "nifty": 87\n          },\n          {\n            "field": "yes",\n            "morefield": false\n          }\n        ]')
+        d1 = self.dumps(h)
+        d2 = self.dumps(h, indent=2, sort_keys=True, separators=(b',', b': '))
+        h1 = self.loads(d1)
+        h2 = self.loads(d2)
+        self.assertEqual(h1, h)
+        self.assertEqual(h2, h)
+        self.assertEqual(d2, expect)
+        return
+
+    def test_indent0(self):
+        h = {3: 1}
+
+        def check(indent, expected):
+            d1 = self.dumps(h, indent=indent)
+            self.assertEqual(d1, expected)
+            sio = StringIO()
+            self.json.dump(h, sio, indent=indent)
+            self.assertEqual(sio.getvalue(), expected)
+            return
+
+        check(0, b'{\n"3": 1\n}')
+        check(None, b'{"3": 1}')
+        return
+
+
+class TestPyIndent(TestIndent, PyTest):
+    pass
+
+
+class TestCIndent(TestIndent, CTest):
+    pass

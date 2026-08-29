@@ -1,0 +1,201 @@
+import functools
+from collections import namedtuple
+import copy, logging, typing, BigWorld, personal_missions
+from account_helpers.AccountSettings import QUEST_DELTAS_PROGRESS, QUEST_DELTAS_COMPLETION
+from adisp import adisp_async
+from gui.server_events import events_helpers
+from gui.shared.utils.requesters.quest_deltas_settings import QuestDeltasSettings
+from gui.shared.utils.requesters.token import Token
+from gui.shared.utils.requesters.abstract import AbstractSyncDataRequester
+from gui.shared.utils.requesters.common import BaseDelta
+from helpers import dependency
+from skeletons.gui.shared import IItemsCache
+if typing.TYPE_CHECKING:
+    from gui.server_events.event_items import Quest
+_logger = logging.getLogger(__name__)
+
+class _QuestsProgressRequester(AbstractSyncDataRequester):
+    itemsCache = dependency.descriptor(IItemsCache)
+
+    def getTokenCount(self, tokenID):
+        return self.__getToken(tokenID).count
+
+    def getTokenExpiryTime(self, tokenID):
+        return self.__getToken(tokenID).expireTime
+
+    def getTokenNames(self):
+        tokens = self.getTokensData()
+        return tokens.keys()
+
+    def getTokensData(self):
+        return self.itemsCache.items.tokens.getTokens()
+
+    @adisp_async
+    def _requestCache(self, callback=None):
+        BigWorld.player().questProgress.getCache((lambda resID, value: self._response(resID, value, callback)))
+        return
+
+    def __getToken(self, tokenID):
+        return Token(*self.getTokensData().get(tokenID, (0, 0)))
+
+
+class QuestsProgressRequester(_QuestsProgressRequester):
+    DefaultFuncKey = b'DefaultFunc'
+
+    def __init__(self):
+        super(QuestsProgressRequester, self).__init__()
+        self.__questProgressDelta = _QuestProgressDelta(functools.partial(QuestDeltasSettings, QUEST_DELTAS_PROGRESS))
+        self.__questCompletion = _QuestCompletionDelta(functools.partial(QuestDeltasSettings, QUEST_DELTAS_COMPLETION))
+        return
+
+    def addFilterFunc(self, filterFunc, key=DefaultFuncKey):
+        self.__questCompletion.questsFilters.update({key: filterFunc})
+        return
+
+    def getQuestCompletionChanged(self, questId):
+        return self.__questCompletion.getQuestCompletionChanged(questId)
+
+    def getQuestProgress(self, questId):
+        return self.getQuestsData().get(questId, {}).get(b'progress')
+
+    def getLastViewedProgress(self, questId):
+        return self.__questProgressDelta.getPrevValue(questId)
+
+    def hasQuestProgressed(self, questId):
+        return self.__questProgressDelta.hasDiff(questId)
+
+    def markQuestProgressAsViewed(self, questId):
+        self.__questProgressDelta.updatePrevValueToCurrentValue(questId)
+        self.__questCompletion.markVisited(questId)
+        return
+
+    def hasQuestDelayedRewards(self, questId):
+        return questId in self.__getQuestsRewards()
+
+    def getQuestsData(self):
+        return self.getCacheValue(b'quests', {})
+
+    def clear(self):
+        self.__questProgressDelta.clear()
+        self.__questCompletion.clear()
+        super(QuestsProgressRequester, self).clear()
+        return
+
+    def _preprocessValidData(self, data):
+        self.__questProgressDelta.update(data)
+        self.__questCompletion.update(data)
+        return data
+
+    def __getQuestsRewards(self):
+        return self.getCacheValue(b'questsRewards', {})
+
+
+class PersonalMissionsProgressRequester(_QuestsProgressRequester):
+    PersonalMissionProgress = namedtuple(b'PersonalMissionProgress', [
+     1, 
+     2, 
+     3, 
+     4, 
+     5])
+    _DefaultLastWomanIDs = (-1, -1, -1)
+
+    def __init__(self, questsType):
+        super(PersonalMissionsProgressRequester, self).__init__()
+        self.__pmStorage = None
+        self._questsType = questsType
+        return
+
+    def getPersonalMissionProgress(self, pmQuestType, personalMissionID):
+        personalMissionsProgress = self.__getQuestsData()
+        if personalMissionsProgress:
+            flags, state = self.__pmStorage.get(personalMissionID)
+            return self.PersonalMissionProgress(state, flags, personalMissionID in personalMissionsProgress[b'selected'], pmQuestType.maySelectQuest(self.__pmStorage.unlockedPMQuestsIDs()), self.getTokenCount(pmQuestType.mainAwardListQuestID) > 0)
+        return self.PersonalMissionProgress(personal_missions.PM_STATE.NONE, (), 0, False)
+
+    def getConditionsProgress(self, conditionsProgressID):
+        return self.__getConditionsProgress().get(conditionsProgressID, {})
+
+    def getPersonalMissionsStorage(self):
+        return self.__pmStorage
+
+    def getPersonalMissionsFreeSlots(self, removedCount=0):
+        pmQuestsProgress = self.__getQuestsData()
+        if pmQuestsProgress:
+            return pmQuestsProgress[b'slots'] - len(pmQuestsProgress[b'selected']) + removedCount
+        return 0
+
+    def getSelectedPersonalMissionsIDs(self):
+        pmQuestsProgress = self.__getQuestsData()
+        if pmQuestsProgress:
+            return self.__getQuestsData()[b'selected']
+        return []
+
+    def getTankmanLastIDs(self, nationID):
+        pmQuestsProgress = self.__getPersonalMissionsData()
+        if pmQuestsProgress:
+            return pmQuestsProgress[b'lastIDs'].get(nationID, self._DefaultLastWomanIDs)
+        return self._DefaultLastWomanIDs
+
+    def _response(self, resID, value, callback=None):
+        if value is not None:
+            self.__pmStorage = personal_missions.PMStorage(storage=value[b'pmQuestsStates'])
+        super(_QuestsProgressRequester, self)._response(resID, value, callback)
+        return
+
+    def __getPersonalMissionsData(self):
+        return self.getCacheValue(b'personalMissionQuests', {})
+
+    def __getConditionsProgress(self):
+        return self.getCacheValue(b'pm_progress', {})
+
+    def __getQuestsData(self):
+        return self.__getPersonalMissionsData().get(self._questsType, {})
+
+
+class _QuestProgressDelta(BaseDelta):
+
+    def _getDataIterator(self, data):
+        for questId, quest in data.get(b'quests', {}).iteritems():
+            yield (
+             questId, copy.deepcopy(quest.get(b'progress', {})))
+
+        return
+
+    def _getDefaultValue(self):
+        return {}
+
+
+class _QuestCompletionDelta(BaseDelta):
+
+    def __init__(self, prevFactory=None):
+        super(_QuestCompletionDelta, self).__init__(prevFactory)
+        self.questsFilters = dict()
+        return
+
+    def questFilter(self, quest):
+        return events_helpers.isDailyQuest(quest.getID()) or events_helpers.isPremium(quest.getID()) or any(filterFunc(quest) for filterFunc in self.questsFilters.values())
+
+    def clear(self):
+        super(_QuestCompletionDelta, self).clear()
+        self.questsFilters = dict()
+        return
+
+    def _getDataIterator(self, data):
+        events = self.eventsCache.getEvents(self.questFilter)
+        for questId in data.get(b'quests', {}).keys():
+            quest = events.get(questId)
+            if quest:
+                yield (
+                 questId, quest.isCompleted(data[b'quests'][questId][b'progress']))
+
+        return
+
+    def _getDefaultValue(self):
+        return False
+
+    def getQuestCompletionChanged(self, questId):
+        return self.hasDiff(questId)
+
+    def markVisited(self, questId):
+        self.updatePrevValueToCurrentValue(questId)
+        return

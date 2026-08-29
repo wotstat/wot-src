@@ -1,0 +1,145 @@
+import BattleReplay
+from ReplayEvents import g_replayEvents
+from account_helpers import AccountSettings
+from account_helpers.AccountSettings import SELECTED_QUEST_IN_REPLAY
+from account_helpers.settings_core.options import QuestsProgressViewType
+from account_helpers.settings_core.settings_constants import QUESTS_PROGRESS
+from gui.Scaleform.daapi.view.meta.ClassicFullStatsMeta import ClassicFullStatsMeta
+from gui.Scaleform.genConsts.QUESTSPROGRESS import QUESTSPROGRESS
+from gui.Scaleform.locale.INGAME_GUI import INGAME_GUI
+from gui.Scaleform.locale.PERSONAL_MISSIONS import PERSONAL_MISSIONS
+from gui.Scaleform.locale.RES_ICONS import RES_ICONS
+from gui.shared.formatters import text_styles, icons
+from helpers import dependency
+from helpers.i18n import makeString
+from skeletons.account_helpers.settings_core import ISettingsCore
+from skeletons.gui.lobby_context import ILobbyContext
+from skeletons.gui.server_events import IEventsCache
+from uilogging.personal_reserves.loggers import PersonalReservesFullStatsLogger
+
+class FullStatsComponent(ClassicFullStatsMeta):
+    __settingsCore = dependency.descriptor(ISettingsCore)
+    __eventsCache = dependency.descriptor(IEventsCache)
+    __lobbyContext = dependency.descriptor(ILobbyContext)
+
+    def __init__(self):
+        super(FullStatsComponent, self).__init__()
+        self.__pr20UILogger = PersonalReservesFullStatsLogger()
+        return
+
+    def onSelectQuest(self, questID):
+        qProgressCtrl = self.sessionProvider.shared.questProgress
+        qProgressCtrl.selectQuest(questID)
+        self.__setQuestTrackingData()
+        return
+
+    def _populate(self):
+        super(FullStatsComponent, self)._populate()
+        qProgressCtrl = self.sessionProvider.shared.questProgress
+        self.__settingsCore.onSettingsChanged += self.__onSettingsChange
+        if qProgressCtrl is not None:
+            qProgressCtrl.onQuestProgressInited += self.__onQuestProgressInited
+            if qProgressCtrl.isInited():
+                self.__setNoQuestsDescription()
+                self.__setQuestTrackingData()
+        if BattleReplay.g_replayCtrl.isPlaying:
+            g_replayEvents.onTimeWarpStart += self.__onReplayTimeWarpStart
+            g_replayEvents.onTimeWarpFinish += self.__onReplayTimeWarpFinished
+        return
+
+    def _dispose(self):
+        super(FullStatsComponent, self)._dispose()
+        qProgressCtrl = self.sessionProvider.shared.questProgress
+        self.__settingsCore.onSettingsChanged -= self.__onSettingsChange
+        if qProgressCtrl is not None:
+            qProgressCtrl.onQuestProgressInited -= self.__onQuestProgressInited
+        if BattleReplay.g_replayCtrl.isPlaying:
+            g_replayEvents.onTimeWarpStart -= self.__onReplayTimeWarpStart
+            g_replayEvents.onTimeWarpFinish -= self.__onReplayTimeWarpFinished
+        return
+
+    def _onToggleVisibility(self, isVisible):
+        if not isVisible:
+            qProgressCtrl = self.sessionProvider.shared.questProgress
+            if qProgressCtrl:
+                qProgressCtrl.showQuestProgressAnimation()
+        return
+
+    def __onQuestProgressInited(self):
+        self.__setNoQuestsDescription()
+        self.__setQuestTrackingData()
+        return
+
+    def __onReplayTimeWarpFinished(self):
+        questID = AccountSettings.getSettings(SELECTED_QUEST_IN_REPLAY)
+        if questID:
+            self.onSelectQuest(questID)
+        AccountSettings.setSettings(SELECTED_QUEST_IN_REPLAY, questID)
+        return
+
+    def __onReplayTimeWarpStart(self):
+        quest = self.sessionProvider.shared.questProgress.getSelectedQuest()
+        questID = None
+        if quest:
+            questID = quest.getID()
+        AccountSettings.setSettings(SELECTED_QUEST_IN_REPLAY, questID)
+        return
+
+    def __onSettingsChange(self, diff):
+        if QUESTS_PROGRESS.VIEW_TYPE in diff:
+            self.__setQuestTrackingData()
+        return
+
+    def __setQuestTrackingData(self):
+        questProgress = self.sessionProvider.shared.questProgress
+        selectedQuest = questProgress.getSelectedQuest()
+        progressViewType = self.__settingsCore.getSetting(QUESTS_PROGRESS.VIEW_TYPE)
+        isProgressTrackingEnabled = progressViewType == QuestsProgressViewType.TYPE_STANDARD
+        trackingData = []
+        personalMissions = self.__eventsCache.getPersonalMissions()
+        for quest in sorted(questProgress.getInProgressQuests().itervalues(), key=(lambda q: q.getQuestBranch())):
+            isSelected = quest == selectedQuest
+            operation = personalMissions.getOperationsForBranch(quest.getQuestBranch())[quest.getOperationID()]
+            trackingData.append({b'eyeBtnVisible': (isProgressTrackingEnabled and isSelected), 
+               b'selected': isSelected, 
+               b'missionName': (makeString(quest.getShortUserName())), 
+               b'fullMissionName': (makeString(quest.getUserName())), 
+               b'operationName': (makeString(operation.getShortUserName())), 
+               b'vehicle': (QUESTSPROGRESS.getOperationTrackingIcon(operation.getID())), 
+               b'questID': (quest.getID()), 
+               b'onPause': (quest.isOnPause)})
+
+        trackingStatus = b''
+        if len(trackingData) > 1:
+            trackingStatus = (b'').join((
+             icons.makeImageTag(RES_ICONS.MAPS_ICONS_LIBRARY_NOTIFICATIONS_OFF, 16, 16, -2, 0),
+             b' ',
+             text_styles.standard(PERSONAL_MISSIONS.QUESTPROGRESSTRACKING_TRACKINGSTATUS)))
+        self.as_updateProgressTrackingS({b'trackingStatus': trackingStatus, 
+           b'trackingData': trackingData})
+        return
+
+    def __setNoQuestsDescription(self):
+        settings = self.__lobbyContext.getServerSettings()
+        questProgress = self.sessionProvider.shared.questProgress
+        if questProgress.areQuestsEnabledForArena():
+            if not settings.isPMBattleProgressEnabled():
+                self.as_questProgressPerformS({b'hasQuestToPerform': False, 
+                   b'noQuestTitle': (text_styles.promoSubTitle(INGAME_GUI.STATISTICS_TAB_QUESTS_SWITCHOFF_TITLE)), 
+                   b'noQuestDescr': b''})
+            else:
+                self.as_questProgressPerformS({b'hasQuestToPerform': (questProgress.hasQuestsToPerform()), 
+                   b'noQuestTitle': (text_styles.promoSubTitle(INGAME_GUI.STATISTICS_TAB_QUESTS_NOTHINGTOPERFORM_TITLE)), 
+                   b'noQuestDescr': (text_styles.highlightText(INGAME_GUI.STATISTICS_TAB_QUESTS_NOTHINGTOPERFORM_DESCR))})
+        else:
+            self.as_questProgressPerformS({b'hasQuestToPerform': False, 
+               b'noQuestTitle': (text_styles.promoSubTitle(INGAME_GUI.STATISTICS_TAB_QUESTS_NOTAVAILABLE_TITLE)), 
+               b'noQuestDescr': b''})
+        return
+
+    def onPersonalReservesTabViewed(self, visible):
+        if visible:
+            self.__pr20UILogger.onViewInitialize()
+        else:
+            self.__pr20UILogger.onViewFinalize()
+        return

@@ -1,0 +1,87 @@
+from frameworks.wulf import Array
+from constants import ARENA_BONUS_TYPE
+from gui.impl.gen import R
+from gui.impl.lobby.daily import DailyTabs
+from gui.impl.lobby.daily.daily_quests_subview import DailyQuestsSubview
+from gui.impl.lobby.daily.daily_quests_tab_view import DailyQuestTabView, DailyQuestPremTabView
+from gui.impl.lobby.daily.tooltips.mode_selector_tooltip import ModeSelectorTooltip
+from gui.server_events.events_helpers import isDailyRegularQuestsEnabled
+from skeletons.gui.game_control import IFunRandomController, IBRProgressionOnTokensController
+from skeletons.gui.server_events import IEventsCache
+from skeletons.gui.shared import IItemsCache
+from helpers import dependency
+DAILY_LAYOUT_ID = R.views.lobby.daily.DailyQuestsRegularView()
+DAILY_TAB_REGULAR_LAYOUT_ID = R.views.lobby.daily.DailyQuestRegularTabView()
+DAILY_TAB_PREMIUM_LAYOUT_ID = R.views.lobby.daily.DailyQuestPremiumTabView()
+
+class DailyQuestsFacade(object):
+    eventsCache = dependency.descriptor(IEventsCache)
+    itemsCache = dependency.descriptor(IItemsCache)
+    __funRandomController = dependency.descriptor(IFunRandomController)
+    __brProgression = dependency.descriptor(IBRProgressionOnTokensController)
+    __slots__ = (b'__dailySubView', b'__tabs', b'__tabsToSubview', b'__battleTypes')
+
+    def __init__(self, parentView, *args, **kwargs):
+        self.__dailySubView = DailyQuestsSubview(parentView, DAILY_LAYOUT_ID)
+        self.__tabsToSubview = {(DailyTabs.QUESTS): (
+                              self.__dailySubView, DAILY_LAYOUT_ID), 
+           (DailyTabs.PREMIUM): (
+                               self.__dailySubView, DAILY_LAYOUT_ID)}
+        self.__tabs = {(DailyTabs.QUESTS): (
+                              DailyQuestTabView(), DAILY_TAB_REGULAR_LAYOUT_ID), 
+           (DailyTabs.PREMIUM): (
+                               DailyQuestPremTabView(), DAILY_TAB_PREMIUM_LAYOUT_ID)}
+        self.__battleTypes = None
+        return
+
+    def finalize(self):
+        self.__tabs.clear()
+        self.__tabsToSubview.clear()
+        return
+
+    def getTabs(self):
+        return self.__tabs
+
+    def getSubviews(self):
+        return self.__tabsToSubview
+
+    def getUnseenQuests(self):
+        return self.__dailySubView.viewModel.unseenQuests
+
+    def getToolTipContent(self, event, contentID):
+        if event.contentID == R.views.lobby.daily.tooltips.ModeSelectorTooltip():
+            return ModeSelectorTooltip(event.contentID, self.__battleTypes)
+        else:
+            return
+
+    def updateBattleModes(self, battleModes):
+        battleModes.clear()
+        if isDailyRegularQuestsEnabled():
+            quests = self.eventsCache.getDailyQuests().values()
+        else:
+            quests = self.eventsCache.getDailyPremiumQuests().values()
+        bonusTypes = quests[0].preBattleCond.getConditions().find(b'bonusTypes').getValue() if quests else []
+        self.__extendBonusTypes(bonusTypes)
+        for bonusType in bonusTypes:
+            battleModes.addString(str(bonusType))
+
+        self.__battleTypes = battleModes
+        battleModes.invalidate()
+        return
+
+    def __extendBonusTypes(self, bonusTypes):
+
+        def replaceBattleType(oldValue, overrideValue, bonusTypesList):
+            if oldValue in bonusTypesList:
+                oldIDx = bonusTypesList.index(oldValue)
+                bonusTypesList[oldIDx] = overrideValue
+            return
+
+        if ARENA_BONUS_TYPE.FUN_RANDOM in bonusTypes:
+            newValue = int(str(ARENA_BONUS_TYPE.FUN_RANDOM) + str(self.__funRandomController.getCurrentFunType()))
+            replaceBattleType(ARENA_BONUS_TYPE.FUN_RANDOM, newValue, bonusTypes)
+        if ARENA_BONUS_TYPE.BATTLE_ROYALE_SOLO in bonusTypes:
+            newBattleType = self.__brProgression.checkBRBattleTypeForIcon(ARENA_BONUS_TYPE.BATTLE_ROYALE_SOLO)
+            if ARENA_BONUS_TYPE.BATTLE_ROYALE_SOLO != newBattleType:
+                replaceBattleType(ARENA_BONUS_TYPE.BATTLE_ROYALE_SOLO, newBattleType, bonusTypes)
+        return

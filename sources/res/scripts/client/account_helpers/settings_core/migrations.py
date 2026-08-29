@@ -1,0 +1,2020 @@
+import BigWorld, logging, constants
+from account_helpers import AccountSettings
+from account_helpers.AccountSettings import NEW_SETTINGS_COUNTER, KEY_SETTINGS
+from account_helpers.settings_core.options import InterfaceScaleSetting
+from account_helpers.settings_core.settings_constants import GAME, CONTROLS, VERSION, DAMAGE_INDICATOR, DAMAGE_LOG, BATTLE_EVENTS, SESSION_STATS, BattlePassStorageKeys, BattleCommStorageKeys, OnceOnlyHints, ScorePanelStorageKeys, SPGAim, GuiSettingsBehavior, NewYearStorageKeys, GRAPHICS, FEEDBACK, CONTOUR, SETTINGS_GROUP
+from account_helpers.settings_core.settings_logging import logPlayerSettingsOnMigration
+from adisp import adisp_process, adisp_async
+from debug_utils import LOG_DEBUG
+from gui.server_events.pm_constants import PM_TUTOR_FIELDS
+from helpers import dependency
+from gui.shared.utils.graphics import getCurrentGraphicPresetName, getGraphicPresetSettingsByName, getGraphicPresetSettingsByIndex
+from skeletons.account_helpers.settings_core import ISettingsCache
+from skeletons.gui.game_control import IIGRController
+_logger = logging.getLogger(__name__)
+
+def _initializeDefaultSettings(core, data, initialized):
+    LOG_DEBUG(b'Initializing server settings.')
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    from account_helpers.counter_settings import dropCounters as dropNewSettingsCounters
+    options = core.options
+    gameData = data[b'gameData'] = {(GAME.DATE_TIME_MESSAGE_INDEX): 2, 
+       (GAME.ENABLE_OL_FILTER): (options.getSetting(GAME.ENABLE_OL_FILTER).getDefaultValue()), 
+       (GAME.ENABLE_SPAM_FILTER): (options.getSetting(GAME.ENABLE_SPAM_FILTER).getDefaultValue()), 
+       (GAME.INVITES_FROM_FRIENDS): (options.getSetting(GAME.INVITES_FROM_FRIENDS).getDefaultValue()), 
+       (GAME.RECEIVE_FRIENDSHIP_REQUEST): (options.getSetting(GAME.RECEIVE_FRIENDSHIP_REQUEST).getDefaultValue()), 
+       (GAME.STORE_RECEIVER_IN_BATTLE): (options.getSetting(GAME.STORE_RECEIVER_IN_BATTLE).getDefaultValue()), 
+       (GAME.REPLAY_ENABLED): (core.getSetting(GAME.REPLAY_ENABLED)), 
+       (GAME.ENABLE_SERVER_AIM): (core.getSetting(GAME.ENABLE_SERVER_AIM)), 
+       (GAME.SHOW_DAMAGE_ICON): (core.getSetting(GAME.SHOW_DAMAGE_ICON)), 
+       (GAME.SHOW_VEHICLES_COUNTER): (core.getSetting(GAME.SHOW_VEHICLES_COUNTER)), 
+       (GAME.MINIMAP_ALPHA): (core.getSetting(GAME.MINIMAP_ALPHA)), 
+       (GAME.PLAYERS_PANELS_SHOW_LEVELS): (core.getSetting(GAME.PLAYERS_PANELS_SHOW_LEVELS)), 
+       (GAME.SNIPER_MODE_STABILIZATION): (core.getSetting(GAME.SNIPER_MODE_STABILIZATION))}
+    data[b'gameExtData'] = {(GAME.CHAT_CONTACTS_LIST_ONLY): (options.getSetting(GAME.CHAT_CONTACTS_LIST_ONLY).getDefaultValue()), 
+       (GAME.SNIPER_ZOOM): (core.getSetting(GAME.SNIPER_ZOOM)), 
+       (GAME.HULLLOCK_ENABLED): (core.getSetting(GAME.HULLLOCK_ENABLED)), 
+       (GAME.PRE_COMMANDER_CAM): (core.getSetting(GAME.PRE_COMMANDER_CAM)), 
+       (GAME.COMMANDER_CAM): (core.getSetting(GAME.COMMANDER_CAM)), 
+       (GAME.INCREASED_ZOOM): (core.getSetting(GAME.INCREASED_ZOOM)), 
+       (GAME.CAROUSEL_TYPE): (core.getSetting(GAME.CAROUSEL_TYPE)), 
+       (GAME.MINIMAP_MIN_SPOTTING_RANGE): (core.getSetting(GAME.MINIMAP_MIN_SPOTTING_RANGE))}
+    data[b'gameExtData2'] = {(GAME.CUSTOMIZATION_DISPLAY_TYPE): (core.getSetting(GAME.CUSTOMIZATION_DISPLAY_TYPE))}
+    gameplayData = data[b'gameplayData'] = {(GAME.GAMEPLAY_MASK): (AccountSettings.getSettingsDefault(b'gameplayMask'))}
+    aimData = data[b'aimData'] = {b'arcade': (core.getSetting(b'arcade')), 
+       b'sniper': (core.getSetting(b'sniper'))}
+    controlsData = data[b'controlsData'] = {(CONTROLS.MOUSE_HORZ_INVERSION): (core.getSetting(CONTROLS.MOUSE_HORZ_INVERSION)), 
+       (CONTROLS.MOUSE_VERT_INVERSION): (core.getSetting(CONTROLS.MOUSE_VERT_INVERSION)), 
+       (CONTROLS.BACK_DRAFT_INVERSION): (core.getSetting(CONTROLS.BACK_DRAFT_INVERSION))}
+    igrCtrl = dependency.instance(IIGRController)
+    if igrCtrl.getRoomType() == constants.IGR_TYPE.NONE:
+        import Settings
+        section = Settings.g_instance.userPrefs
+        if section.has_key(Settings.KEY_MESSENGER_PREFERENCES):
+            subSec = section[Settings.KEY_MESSENGER_PREFERENCES]
+            tags = subSec.keys()
+            _userProps = {(GAME.DATE_TIME_MESSAGE_INDEX): b'readInt', 
+               (GAME.ENABLE_OL_FILTER): b'readBool', 
+               (GAME.ENABLE_SPAM_FILTER): b'readBool', 
+               (GAME.INVITES_FROM_FRIENDS): b'readBool', 
+               (GAME.RECEIVE_FRIENDSHIP_REQUEST): b'readBool', 
+               (GAME.RECEIVE_INVITES_IN_BATTLE): b'readBool', 
+               (GAME.STORE_RECEIVER_IN_BATTLE): b'readBool', 
+               (GAME.CHAT_CONTACTS_LIST_ONLY): b'readBool'}
+            for key, reader in _userProps.iteritems():
+                if key in tags:
+                    gameData[key] = getattr(subSec, reader)(key)
+
+        gameData[GAME.ENABLE_SERVER_AIM] = AccountSettings.getSettings(b'useServerAim')
+        gameData[GAME.SHOW_VEHICLES_COUNTER] = AccountSettings.getSettings(b'showVehiclesCounter')
+        gameData[GAME.MINIMAP_ALPHA] = AccountSettings.getSettings(b'minimapAlpha')
+        gameData[GAME.PLAYERS_PANELS_SHOW_LEVELS] = AccountSettings.getSettings(b'players_panel')[b'showLevels']
+        gameplayData[GAME.GAMEPLAY_MASK] = AccountSettings.getSettings(b'gameplayMask')
+        arcade = AccountSettings.getSettings(b'arcade')
+        sniper = AccountSettings.getSettings(b'sniper')
+        aimData[b'arcade'] = core.options.getSetting(b'arcade').fromAccountSettings(arcade)
+        aimData[b'sniper'] = core.options.getSetting(b'sniper').fromAccountSettings(sniper)
+        if section.has_key(Settings.KEY_CONTROL_MODE):
+            ds = section[Settings.KEY_CONTROL_MODE]
+            try:
+                controlsData[CONTROLS.MOUSE_HORZ_INVERSION] = ds[b'arcadeMode'].readBool(b'horzInvert', False)
+                controlsData[CONTROLS.MOUSE_VERT_INVERSION] = ds[b'arcadeMode'].readBool(b'vertInvert', False)
+                controlsData[CONTROLS.MOUSE_VERT_INVERSION] = ds[b'arcadeMode'].readBool(b'backDraftInvert', False)
+            except Exception:
+                LOG_DEBUG(b'Controls preferences is not available.')
+
+    data[b'markersData'] = AccountSettings.getSettings(b'markers')
+    data[b'graphicsData'] = {(GAME.LENS_EFFECT): (core.getSetting(GAME.LENS_EFFECT))}
+    data[b'marksOnGun'] = {(GAME.SHOW_MARKS_ON_GUN): (core.getSetting(GAME.SHOW_MARKS_ON_GUN))}
+    data[SETTINGS_SECTIONS.CONTOUR] = {(CONTOUR.ENHANCED_CONTOUR): (core.getSetting(CONTOUR.ENHANCED_CONTOUR)), 
+       (CONTOUR.CONTOUR_PENETRABLE_ZONE): (core.getSetting(CONTOUR.CONTOUR_PENETRABLE_ZONE)), 
+       (CONTOUR.CONTOUR_IMPENETRABLE_ZONE): (core.getSetting(CONTOUR.CONTOUR_IMPENETRABLE_ZONE))}
+    data[b'battleHud'] = {(ScorePanelStorageKeys.SHOW_HP_BAR): (core.getSetting(ScorePanelStorageKeys.SHOW_HP_BAR)), 
+       (ScorePanelStorageKeys.SHOW_HP_VALUES): (core.getSetting(ScorePanelStorageKeys.SHOW_HP_VALUES)), 
+       (ScorePanelStorageKeys.SHOW_HP_DIFFERENCE): (core.getSetting(ScorePanelStorageKeys.SHOW_HP_DIFFERENCE)), 
+       (ScorePanelStorageKeys.ENABLE_TIER_GROUPING): (core.getSetting(ScorePanelStorageKeys.ENABLE_TIER_GROUPING))}
+    dropNewSettingsCounters()
+    return
+
+
+@adisp_async
+@adisp_process
+def _reinitializeDefaultSettings(core, data, initialized, callback=None):
+
+    @adisp_async
+    def wrapper(callback=None):
+        BigWorld.player().intUserSettings.delIntSettings(range(1, 60), callback)
+        return
+
+    yield wrapper()
+    _initializeDefaultSettings(core, data, initialized)
+    callback(data)
+    return
+
+
+def _getSettingsCache():
+    return dependency.instance(ISettingsCache)
+
+
+def _migrateTo3(core, data, initialized):
+    aimData = data[b'aimData']
+    if not initialized:
+        data[b'aimData'].update({b'arcade': (core.getSetting(b'arcade')), 
+           b'sniper': (core.getSetting(b'sniper'))})
+    aimData[b'arcade'][b'reloaderTimer'] = 100
+    aimData[b'sniper'][b'reloaderTimer'] = 100
+    if not initialized:
+        data[b'gameData'][b'horStabilizationSnp'] = core.getSetting(b'dynamicCamera')
+    return
+
+
+def _migrateTo4(core, data, initialized):
+    gameData = data[b'gameData']
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GAME, 0)
+    if storedValue & 128:
+        gameData[GAME.REPLAY_ENABLED] = 2
+    else:
+        gameData[GAME.REPLAY_ENABLED] = 0
+    return
+
+
+def _migrateTo5(core, data, initialized):
+    data[b'gameData'][GAME.ENABLE_POSTMORTEM_DELAY] = True
+    return
+
+
+def _migrateTo6(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GAME, 0)
+    maskOffset = 7168
+    currentMask = (storedValue & maskOffset) >> 10
+    import ArenaType
+    newMask = currentMask | ArenaType.getGameplaysMask((b'nations',))
+    data[b'gameplayData'][GAME.GAMEPLAY_MASK] = newMask
+    clear = data[b'clear']
+    clear[SETTINGS_SECTIONS.GAME] = clear.get(SETTINGS_SECTIONS.GAME, 0) | maskOffset
+    return
+
+
+def _migrateTo7(core, data, initialized):
+    BigWorld.setTripleBuffering(True)
+    return
+
+
+def _migrateTo8(core, data, initialized):
+    data[b'graphicsData'][GAME.LENS_EFFECT] = True
+    return
+
+
+def _migrateTo9(core, data, initialized):
+    data[b'marksOnGun'][GAME.SHOW_MARKS_ON_GUN] = False
+    return
+
+
+def _migrateTo11(core, data, initialized):
+    data[b'marksOnGun'][GAME.SHOW_MARKS_ON_GUN] = False
+    return
+
+
+def _migrateTo12(core, data, initialized):
+    data[b'gameData'][GAME.SHOW_VECTOR_ON_MAP] = True
+    data[b'gameData'][GAME.SHOW_SECTOR_ON_MAP] = True
+    return
+
+
+def _migrateTo13(core, data, initialized):
+    data[b'gameData'][GAME.RECEIVE_FRIENDSHIP_REQUEST] = True
+    return
+
+
+def _migrateTo14(core, data, initialized):
+    data[b'gameExtData'][GAME.RECEIVE_INVITES_IN_BATTLE] = True
+    return
+
+
+def _migrateTo15(core, data, initialized):
+    return
+
+
+def _migrateTo16(core, data, initialized):
+    data[b'gameExtData'][GAME.RECEIVE_INVITES_IN_BATTLE] = True
+    return
+
+
+def _migrateTo17(core, data, initialized):
+    data[b'gameExtData'][GAME.RECEIVE_CLAN_INVITES_NOTIFICATIONS] = True
+    return
+
+
+def _migrateTo18(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    from constants import QUEUE_TYPE
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.FALLOUT, 0)
+    currentType = storedValue & 3
+    if currentType > 0:
+        oldTypeToNewType = {1: (QUEUE_TYPE.FALLOUT_CLASSIC), 2: (QUEUE_TYPE.FALLOUT_MULTITEAM)}
+        newType = oldTypeToNewType.get(currentType, QUEUE_TYPE.UNKNOWN)
+        data[b'fallout'][b'falloutBattleType'] = newType
+    return
+
+
+def _migrateTo19(core, data, initialized):
+    data[b'gameExtData'][GAME.MINIMAP_DRAW_RANGE] = True
+    data[b'gameExtData'][GAME.MINIMAP_MAX_VIEW_RANGE] = True
+    data[b'gameExtData'][GAME.MINIMAP_VIEW_RANGE] = True
+    return
+
+
+def _migrateTo20(core, data, initialized):
+    data[b'gameData'][GAME.STORE_RECEIVER_IN_BATTLE] = True
+    return
+
+
+def _migrateTo21(core, data, initialized):
+    aimData = data[b'aimData']
+    for settingName in (b'arcade', b'sniper'):
+        if settingName not in aimData:
+            data[b'aimData'].update({settingName: (core.getSetting(settingName))})
+
+    aimData[b'arcade'][b'zoomIndicator'] = 100
+    aimData[b'sniper'][b'zoomIndicator'] = 100
+    return
+
+
+def _migrateTo22(core, data, initialized):
+    return
+
+
+def _migrateTo23(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GAME, 0)
+    settingOffset = 1610612736
+    currentValue = (storedValue & settingOffset) >> 29
+    if currentValue == 0:
+        data[b'gameData'][GAME.SHOW_VEH_MODELS_ON_MAP] = 2
+    return
+
+
+def _migrateTo24(core, data, initialized):
+    return
+
+
+def _migrateTo25(core, data, initialized):
+    data[b'carousel_filter'][b'event'] = False
+    return
+
+
+def _migrateTo26(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GAME_EXTENDED, 0)
+    maskOffset = 1
+    if (storedValue & maskOffset) >> 0:
+        clear = data[b'clear']
+        clear[SETTINGS_SECTIONS.GAME_EXTENDED] = clear.get(SETTINGS_SECTIONS.GAME_EXTENDED, 0) | maskOffset
+    feedbackData = data.get(b'feedbackData', {})
+    feedbackData[DAMAGE_INDICATOR.TYPE] = 1
+    feedbackData[DAMAGE_INDICATOR.PRESET_CRITS] = 0
+    feedbackData[DAMAGE_INDICATOR.DAMAGE_VALUE] = True
+    feedbackData[DAMAGE_INDICATOR.VEHICLE_INFO] = True
+    feedbackData[DAMAGE_INDICATOR.ANIMATION] = True
+    feedbackData[DAMAGE_LOG.TOTAL_DAMAGE] = True
+    feedbackData[DAMAGE_LOG.BLOCKED_DAMAGE] = True
+    feedbackData[DAMAGE_LOG.ASSIST_DAMAGE] = True
+    feedbackData[DAMAGE_LOG.SHOW_DETAILS] = 2
+    for key in BATTLE_EVENTS.ALL():
+        feedbackData[key] = True
+
+    data[b'feedbackData'] = feedbackData
+    return
+
+
+def _migrateTo27(core, data, initialized):
+    data[b'carousel_filter'][b'event'] = False
+    return
+
+
+def _migrateTo28(core, data, initialized):
+    return
+
+
+def _migrateTo29(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.ONCE_ONLY_HINTS, 0)
+    settingOffset = 8
+    if storedValue & settingOffset:
+        data[b'onceOnlyHints'][b'ShopTradeInHint'] = 1
+        clear = data[b'clear']
+        clear[b'onceOnlyHints'] = clear.get(b'onceOnlyHints', 0) | settingOffset
+    else:
+        data[b'onceOnlyHints'][b'ShopTradeInHint'] = 0
+    return
+
+
+def _migrateTo30(core, data, initialized):
+    feedbackData = data.get(b'feedbackData', {})
+    feedbackData[BATTLE_EVENTS.ENEMY_WORLD_COLLISION] = True
+    feedbackData[DAMAGE_INDICATOR.DYNAMIC_INDICATOR] = True
+    data[b'feedbackData'] = feedbackData
+    return
+
+
+def _migrateTo31(core, data, initialized):
+    feedbackData = data.get(b'feedbackData', {})
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    currentVal = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.FEEDBACK, 0)
+    maskOffset = 33554432
+    if not currentVal & maskOffset:
+        feedbackData[DAMAGE_INDICATOR.DYNAMIC_INDICATOR] = False
+    feedbackData[BATTLE_EVENTS.RECEIVED_DAMAGE] = True
+    feedbackData[BATTLE_EVENTS.RECEIVED_CRITS] = True
+    feedbackData[DAMAGE_LOG.SHOW_EVENT_TYPES] = 0
+    feedbackData[DAMAGE_LOG.EVENT_POSITIONS] = 0
+    return
+
+
+def _migrateTo32(core, data, initialized):
+    data[b'carousel_filter'][b'rented'] = True
+    data[b'carousel_filter'][b'event'] = True
+    return
+
+
+def _migrateTo33(core, data, initialized):
+    data[b'gameExtData'][GAME.VEHICLE_CAROUSEL_STATS] = True
+    return
+
+
+def _migrateTo34(core, data, initialized):
+    if constants.IS_CHINA:
+        data[b'gameExtData'][GAME.CHAT_CONTACTS_LIST_ONLY] = True
+    return
+
+
+def _migrateTo35(core, data, initialized):
+    feedbackDamageIndicator = data.get(b'feedbackDamageIndicator', {})
+    feedbackDamageLog = data.get(b'feedbackDamageLog', {})
+    feedbackBattleEvents = data.get(b'feedbackBattleEvents', {})
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    currentVal = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.FEEDBACK, 0)
+    if currentVal:
+        feedbackDamageIndicator[DAMAGE_INDICATOR.TYPE] = __migrateMaskValue(currentVal, 1, 0)
+        feedbackDamageIndicator[DAMAGE_INDICATOR.PRESET_CRITS] = __migrateMaskValue(currentVal, 1, 1)
+        feedbackDamageIndicator[DAMAGE_INDICATOR.DAMAGE_VALUE] = __migrateMaskValue(currentVal, 1, 2)
+        feedbackDamageIndicator[DAMAGE_INDICATOR.VEHICLE_INFO] = __migrateMaskValue(currentVal, 1, 3)
+        feedbackDamageIndicator[DAMAGE_INDICATOR.ANIMATION] = __migrateMaskValue(currentVal, 1, 4)
+        feedbackDamageIndicator[DAMAGE_INDICATOR.DYNAMIC_INDICATOR] = __migrateMaskValue(currentVal, 1, 25)
+        feedbackDamageLog[DAMAGE_LOG.TOTAL_DAMAGE] = __migrateMaskValue(currentVal, 1, 5)
+        feedbackDamageLog[DAMAGE_LOG.BLOCKED_DAMAGE] = __migrateMaskValue(currentVal, 1, 6)
+        feedbackDamageLog[DAMAGE_LOG.ASSIST_DAMAGE] = __migrateMaskValue(currentVal, 1, 7)
+        feedbackDamageLog[DAMAGE_LOG.ASSIST_STUN] = False
+        feedbackDamageLog[DAMAGE_LOG.SHOW_DETAILS] = __migrateMaskValue(currentVal, 3, 8)
+        feedbackDamageLog[DAMAGE_LOG.SHOW_EVENT_TYPES] = __migrateMaskValue(currentVal, 3, 28)
+        feedbackDamageLog[DAMAGE_LOG.EVENT_POSITIONS] = __migrateMaskValue(currentVal, 3, 30)
+        feedbackBattleEvents[BATTLE_EVENTS.SHOW_IN_BATTLE] = __migrateMaskValue(currentVal, 1, 10)
+        feedbackBattleEvents[BATTLE_EVENTS.ENEMY_HP_DAMAGE] = __migrateMaskValue(currentVal, 1, 11)
+        feedbackBattleEvents[BATTLE_EVENTS.ENEMY_BURNING] = __migrateMaskValue(currentVal, 1, 12)
+        feedbackBattleEvents[BATTLE_EVENTS.ENEMY_RAM_ATTACK] = __migrateMaskValue(currentVal, 1, 13)
+        feedbackBattleEvents[BATTLE_EVENTS.BLOCKED_DAMAGE] = __migrateMaskValue(currentVal, 1, 14)
+        feedbackBattleEvents[BATTLE_EVENTS.ENEMY_DETECTION_DAMAGE] = __migrateMaskValue(currentVal, 1, 15)
+        feedbackBattleEvents[BATTLE_EVENTS.ENEMY_TRACK_DAMAGE] = __migrateMaskValue(currentVal, 1, 16)
+        feedbackBattleEvents[BATTLE_EVENTS.ENEMY_DETECTION] = __migrateMaskValue(currentVal, 1, 17)
+        feedbackBattleEvents[BATTLE_EVENTS.ENEMY_KILL] = __migrateMaskValue(currentVal, 1, 18)
+        feedbackBattleEvents[BATTLE_EVENTS.BASE_CAPTURE_DROP] = __migrateMaskValue(currentVal, 1, 19)
+        feedbackBattleEvents[BATTLE_EVENTS.BASE_CAPTURE] = __migrateMaskValue(currentVal, 1, 20)
+        feedbackBattleEvents[BATTLE_EVENTS.ENEMY_CRITICAL_HIT] = __migrateMaskValue(currentVal, 1, 21)
+        feedbackBattleEvents[BATTLE_EVENTS.EVENT_NAME] = __migrateMaskValue(currentVal, 1, 22)
+        feedbackBattleEvents[BATTLE_EVENTS.VEHICLE_INFO] = __migrateMaskValue(currentVal, 1, 23)
+        feedbackBattleEvents[BATTLE_EVENTS.ENEMY_WORLD_COLLISION] = __migrateMaskValue(currentVal, 1, 24)
+        feedbackBattleEvents[BATTLE_EVENTS.RECEIVED_DAMAGE] = __migrateMaskValue(currentVal, 1, 26)
+        feedbackBattleEvents[BATTLE_EVENTS.RECEIVED_CRITS] = __migrateMaskValue(currentVal, 1, 27)
+        feedbackBattleEvents[BATTLE_EVENTS.ENEMY_ASSIST_STUN] = False
+    else:
+        data[FEEDBACK.DAMAGE_INDICATOR] = {(DAMAGE_INDICATOR.TYPE): (core.getSetting(DAMAGE_INDICATOR.TYPE)), (DAMAGE_INDICATOR.PRESET_CRITS): (core.getSetting(DAMAGE_INDICATOR.PRESET_CRITS)), 
+           (DAMAGE_INDICATOR.DAMAGE_VALUE): (core.getSetting(DAMAGE_INDICATOR.DAMAGE_VALUE)), 
+           (DAMAGE_INDICATOR.VEHICLE_INFO): (core.getSetting(DAMAGE_INDICATOR.VEHICLE_INFO)), 
+           (DAMAGE_INDICATOR.ANIMATION): (core.getSetting(DAMAGE_INDICATOR.ANIMATION)), 
+           (DAMAGE_INDICATOR.DYNAMIC_INDICATOR): (core.getSetting(DAMAGE_INDICATOR.DYNAMIC_INDICATOR))}
+        data[FEEDBACK.DAMAGE_LOG] = {(DAMAGE_LOG.TOTAL_DAMAGE): (core.getSetting(DAMAGE_INDICATOR.DYNAMIC_INDICATOR)), 
+           (DAMAGE_LOG.ASSIST_DAMAGE): (core.getSetting(DAMAGE_INDICATOR.DYNAMIC_INDICATOR)), 
+           (DAMAGE_LOG.BLOCKED_DAMAGE): (core.getSetting(DAMAGE_INDICATOR.DYNAMIC_INDICATOR)), 
+           (DAMAGE_LOG.ASSIST_STUN): (core.getSetting(DAMAGE_INDICATOR.DYNAMIC_INDICATOR))}
+        data[FEEDBACK.BATTLE_EVENTS] = {(BATTLE_EVENTS.SHOW_IN_BATTLE): (core.getSetting(BATTLE_EVENTS.SHOW_IN_BATTLE)), 
+           (BATTLE_EVENTS.ENEMY_HP_DAMAGE): (core.getSetting(BATTLE_EVENTS.ENEMY_HP_DAMAGE)), 
+           (BATTLE_EVENTS.ENEMY_BURNING): (core.getSetting(BATTLE_EVENTS.ENEMY_BURNING)), 
+           (BATTLE_EVENTS.ENEMY_RAM_ATTACK): (core.getSetting(BATTLE_EVENTS.ENEMY_RAM_ATTACK)), 
+           (BATTLE_EVENTS.BLOCKED_DAMAGE): (core.getSetting(BATTLE_EVENTS.BLOCKED_DAMAGE)), 
+           (BATTLE_EVENTS.ENEMY_DETECTION_DAMAGE): (core.getSetting(BATTLE_EVENTS.ENEMY_DETECTION_DAMAGE)), 
+           (BATTLE_EVENTS.ENEMY_TRACK_DAMAGE): (core.getSetting(BATTLE_EVENTS.ENEMY_TRACK_DAMAGE)), 
+           (BATTLE_EVENTS.ENEMY_DETECTION): (core.getSetting(BATTLE_EVENTS.ENEMY_DETECTION)), 
+           (BATTLE_EVENTS.ENEMY_KILL): (core.getSetting(BATTLE_EVENTS.ENEMY_KILL)), 
+           (BATTLE_EVENTS.BASE_CAPTURE_DROP): (core.getSetting(BATTLE_EVENTS.BASE_CAPTURE_DROP)), 
+           (BATTLE_EVENTS.BASE_CAPTURE): (core.getSetting(BATTLE_EVENTS.BASE_CAPTURE)), 
+           (BATTLE_EVENTS.ENEMY_CRITICAL_HIT): (core.getSetting(BATTLE_EVENTS.ENEMY_CRITICAL_HIT)), 
+           (BATTLE_EVENTS.EVENT_NAME): (core.getSetting(BATTLE_EVENTS.EVENT_NAME)), 
+           (BATTLE_EVENTS.VEHICLE_INFO): (core.getSetting(BATTLE_EVENTS.VEHICLE_INFO)), 
+           (BATTLE_EVENTS.ENEMY_WORLD_COLLISION): (core.getSetting(BATTLE_EVENTS.ENEMY_WORLD_COLLISION)), 
+           (BATTLE_EVENTS.RECEIVED_DAMAGE): (core.getSetting(BATTLE_EVENTS.RECEIVED_DAMAGE)), 
+           (BATTLE_EVENTS.RECEIVED_CRITS): (core.getSetting(BATTLE_EVENTS.RECEIVED_CRITS)), 
+           (BATTLE_EVENTS.ENEMY_ASSIST_STUN): (core.getSetting(BATTLE_EVENTS.ENEMY_ASSIST_STUN)), 
+           (BATTLE_EVENTS.ENEMIES_STUN): (core.getSetting(BATTLE_EVENTS.ENEMIES_STUN))}
+    return
+
+
+def __migrateMaskValue(currentVal, mask, offset):
+    return currentVal >> offset & mask
+
+
+def _migrateTo36(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    default = AccountSettings.getSettingsDefault(GAME.GAMEPLAY_MASK)
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GAMEPLAY, default)
+    currentMask = storedValue & 65535
+    import ArenaType
+    newMask = currentMask | ArenaType.getGameplaysMask((b'ctf30x30',))
+    newnewMask = newMask | ArenaType.getGameplaysMask((b'domination30x30',))
+    data[b'gameplayData'][GAME.GAMEPLAY_MASK] = newnewMask
+    return
+
+
+def _migrateTo37(core, data, initialized):
+    data[b'delete'].extend((75, 76))
+    return
+
+
+def _migrateTo38(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    default = AccountSettings.getSettingsDefault(GAME.GAMEPLAY_MASK)
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GAMEPLAY, default)
+    currentGameplayMask = storedValue & 65535
+    import ArenaType
+    epicCtfEnabled = bool(currentGameplayMask & ArenaType.getGameplaysMask((b'ctf30x30',)))
+    dominationEnabled = bool(currentGameplayMask & ArenaType.getGameplaysMask((b'domination',)))
+    if not epicCtfEnabled or not dominationEnabled:
+        currentGameplayMask &= ~ArenaType.getGameplaysMask((b'domination30x30',))
+    data[b'gameplayData'][GAME.GAMEPLAY_MASK] = currentGameplayMask
+    data[b'gameData'][GAME.MINIMAP_ALPHA] = 0
+    data[b'gameExtData'][GAME.MINIMAP_ALPHA_ENABLED] = False
+    return
+
+
+def _migrateTo39(core, data, initialized):
+    return
+
+
+def _migrateTo40(core, data, initialized):
+    data[b'gameExtData'][GAME.HANGAR_CAM_PERIOD] = 0
+    data[b'gameExtData'][GAME.HANGAR_CAM_PARALLAX_ENABLED] = True
+    return
+
+
+def _migrateTo41(core, data, initialized):
+    data[b'gameData'][GAME.SHOW_DAMAGE_ICON] = True
+    return
+
+
+def _migrateTo42(core, data, initialized):
+    data[b'uiStorage'][PM_TUTOR_FIELDS.GREETING_SCREEN_SHOWN] = False
+    return
+
+
+def _migrateTo43(core, data, initialized):
+    data[b'delete'].extend((91,))
+    return
+
+
+def _migrateTo44(core, data, initialized):
+    data[b'guiStartBehavior'][b'isRankedWelcomeViewShowed'] = False
+    return
+
+
+def _migrateTo45(core, data, initialized):
+    data[b'onceOnlyHints'][b'AccountButtonHint'] = True
+    return
+
+
+def _migrateTo46(core, data, initialized):
+    data[b'gameExtData'][GAME.ENABLE_SPEEDOMETER] = True
+    return
+
+
+def _migrateTo47(core, data, initialized):
+    data[b'delete'].extend((92,))
+    data[b'delete'].extend((93,))
+    return
+
+
+def _migrateTo48(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.ONCE_ONLY_HINTS, 0)
+    clear = data[b'clear']
+    for bitPosition in range(22, 25):
+        settingOffset = 1 << bitPosition
+        if storedValue & settingOffset:
+            clear[b'onceOnlyHints'] = clear.get(b'onceOnlyHints', 0) | settingOffset
+
+    return
+
+
+def _migrateTo49(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    data[b'delete'].extend((91, 92, 93, 94, 95))
+    clear = data[b'clear']
+    newYearFilter = 256
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.CAROUSEL_FILTER_2, 0)
+    if storedValue & newYearFilter:
+        clear[b'carousel_filter'] = clear.get(b'carousel_filter', 0) | newYearFilter
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.EPICBATTLE_CAROUSEL_FILTER_2, 0)
+    if storedValue & newYearFilter:
+        clear[b'epicCarouselFilter2'] = clear.get(b'epicCarouselFilter2', 0) | newYearFilter
+    return
+
+
+def _migrateTo50(core, data, initialized):
+    data[b'sessionStats'][SESSION_STATS.SHOW_WTR] = True
+    data[b'sessionStats'][SESSION_STATS.SHOW_RATIO_DAMAGE] = True
+    data[b'sessionStats'][SESSION_STATS.SHOW_RATIO_KILL] = True
+    data[b'sessionStats'][SESSION_STATS.SHOW_WINS] = True
+    data[b'sessionStats'][SESSION_STATS.SHOW_AVERAGE_DAMAGE] = True
+    data[b'sessionStats'][SESSION_STATS.SHOW_HELP_DAMAGE] = True
+    data[b'sessionStats'][SESSION_STATS.SHOW_BLOCKED_DAMAGE] = True
+    data[b'sessionStats'][SESSION_STATS.SHOW_AVERAGE_XP] = True
+    return
+
+
+def _migrateTo51(core, data, initialized):
+    return
+
+
+def _migrateTo52(core, data, initialized):
+    data[b'onceOnlyHints'][b'CrewOperationBtnHint'] = True
+    data[b'onceOnlyHints'][b'SoundButtonExHint'] = True
+    return
+
+
+def _migrateTo53(core, data, initialized):
+    return
+
+
+def _migrateTo54(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GAME_EXTENDED, 0)
+    settingOffset = 50331648
+    if storedValue & settingOffset:
+        clear = data[b'clear']
+        clear[SETTINGS_SECTIONS.GAME_EXTENDED] = clear.get(SETTINGS_SECTIONS.GAME_EXTENDED, 0) | settingOffset
+    return
+
+
+def _migrateTo55(core, data, initialized):
+    data[b'onceOnlyHints'][b'CustomizationProgressionViewHint'] = False
+    return
+
+
+def _migrateTo56(core, data, initialized):
+    data[b'battlePassStorage'][BattlePassStorageKeys.BUY_ANIMATION_WAS_SHOWN] = False
+    data[b'battlePassStorage'][BattlePassStorageKeys.INTRO_VIDEO_SHOWN] = False
+    return
+
+
+def _migrateTo57(core, data, initialized):
+    data[b'guiStartBehavior'][b'isRankedWelcomeViewShowed'] = False
+    return
+
+
+def _migrateTo58(core, data, initialized):
+    gameData = data[b'battleComm']
+    gameData[BattleCommStorageKeys.ENABLE_BATTLE_COMMUNICATION] = True
+    gameData[BattleCommStorageKeys.SHOW_COM_IN_PLAYER_LIST] = True
+    gameData[BattleCommStorageKeys.SHOW_STICKY_MARKERS] = True
+    gameData[BattleCommStorageKeys.SHOW_CALLOUT_MESSAGES] = True
+    gameData[BattleCommStorageKeys.SHOW_BASE_MARKERS] = True
+    return
+
+
+def _migrateTo59(core, data, initialized):
+    dtData = data[b'dogTags']
+    dtData[GAME.SHOW_DOGTAG_TO_KILLER] = True
+    dtData[GAME.SHOW_VICTIMS_DOGTAG] = True
+    return
+
+
+def _migrateTo60(core, data, initialized):
+    gameData = data[b'battleComm']
+    isIBCEnabled = bool(core.getSetting(BattleCommStorageKeys.ENABLE_BATTLE_COMMUNICATION))
+    if not isIBCEnabled:
+        gameData[BattleCommStorageKeys.ENABLE_BATTLE_COMMUNICATION] = True
+        gameData[BattleCommStorageKeys.SHOW_LOCATION_MARKERS] = False
+    else:
+        gameData[BattleCommStorageKeys.SHOW_LOCATION_MARKERS] = True
+    return
+
+
+def _migrateTo61(core, data, initialized):
+    data[b'gameExtData'][GAME.DISPLAY_PLATOON_MEMBERS] = True
+    return
+
+
+def _migrateTo62(core, data, initialized):
+    data[b'onceOnlyHints2'][OnceOnlyHints.PLATOON_BTN_HINT] = initialized
+    return
+
+
+def _migrateTo63(core, data, initialized):
+    gameData = data[b'gameExtData']
+    gameData[GAME.ENABLE_REPAIR_TIMER] = True
+    return
+
+
+def _migrateTo64(core, data, initialized):
+    gameData = data[b'gameExtData']
+    gameData[GAME.ENABLE_BATTLE_NOTIFIER] = True
+    return
+
+
+def _migrateTo65(core, data, initialized):
+    return
+
+
+def _migrateTo66(core, data, initialized):
+    data[b'battlePassStorage'][b'dailyQuestsIntroShown'] = False
+    return
+
+
+def _migrateTo67(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.BATTLE_PASS_STORAGE, 0)
+    clear = data[b'clear']
+    for position in range(2, 16) + range(18, 20):
+        settingOffset = 1 << position
+        if storedValue & settingOffset:
+            clear[b'battlePassStorage'] = clear.get(b'battlePassStorage', 0) | settingOffset
+
+    return
+
+
+def _migrateTo68(core, data, initialized):
+    data[b'battlePassStorage'][BattlePassStorageKeys.INTRO_SHOWN] = False
+    data[b'battlePassStorage'][BattlePassStorageKeys.INTRO_VIDEO_SHOWN] = False
+    return
+
+
+def _migrateTo69(core, data, initialized):
+    data[b'gameExtData'][GAME.HULLLOCK_ENABLED] = True
+    return
+
+
+def _migrateTo70(core, data, initialized):
+    gameData = data[b'gameExtData2']
+    gameData[GAME.SHOW_ARTY_HIT_ON_MAP] = True
+    spgAim = data[b'spgAim']
+    spgAim[SPGAim.SHOTS_RESULT_INDICATOR] = True
+    spgAim[SPGAim.SPG_SCALE_WIDGET] = True
+    spgAim[SPGAim.SPG_STRATEGIC_CAM_MODE] = 0
+    spgAim[SPGAim.AUTO_CHANGE_AIM_MODE] = True
+    spgAim[SPGAim.AIM_ENTRANCE_MODE] = 0
+    return
+
+
+def _migrateTo71(core, data, initialized):
+    data[b'rankedCarouselFilter2'] = {b'role_HT_assault': False, 
+       b'role_HT_break': False, 
+       b'role_HT_universal': False, 
+       b'role_HT_support': False, 
+       b'role_MT_assault': False, 
+       b'role_MT_universal': False, 
+       b'role_MT_sniper': False, 
+       b'role_MT_support': False, 
+       b'role_ATSPG_assault': False, 
+       b'role_ATSPG_universal': False, 
+       b'role_ATSPG_sniper': False, 
+       b'role_ATSPG_support': False, 
+       b'role_LT_universal': False, 
+       b'role_LT_wheeled': False, 
+       b'role_SPG': False}
+    return
+
+
+def _migrateTo72(core, data, initialized):
+    data[b'gameExtData'][GAME.PRE_COMMANDER_CAM] = True
+    data[b'gameExtData'][GAME.COMMANDER_CAM] = True
+    data[b'battleHud'][GAME.SHOW_VEHICLE_HP_IN_PLAYERS_PANEL] = core.options.getSetting(GAME.SHOW_VEHICLE_HP_IN_PLAYERS_PANEL).getDefaultValue()
+    data[b'battleHud'][GAME.SHOW_VEHICLE_HP_IN_MINIMAP] = core.options.getSetting(GAME.SHOW_VEHICLE_HP_IN_MINIMAP).getDefaultValue()
+    return
+
+
+def _migrateTo73(core, data, initialized):
+    data[b'gameExtData2'][GAME.GAMEPLAY_ONLY_10_MODE] = False
+    return
+
+
+def _migrateTo74(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GAME_EXTENDED, 0)
+    maskOffset = 131072
+    valueToSave = (storedValue & maskOffset) >> 17
+    if data[b'gameExtData2'].get(GAME.CUSTOMIZATION_DISPLAY_TYPE, None) is None:
+        if valueToSave:
+            clear = data[b'clear']
+            clear[SETTINGS_SECTIONS.GAME_EXTENDED] = clear.get(SETTINGS_SECTIONS.GAME_EXTENDED, 0) | maskOffset
+            data[b'gameExtData2'][GAME.CUSTOMIZATION_DISPLAY_TYPE] = 0
+        else:
+            data[b'gameExtData2'][GAME.CUSTOMIZATION_DISPLAY_TYPE] = 1
+    return
+
+
+def _migrateTo75(core, data, initialized):
+    data[b'clear'][b'rankedCarouselFilter2'] = data[b'clear'].get(b'rankedCarouselFilter2', 0) | 1024
+    return
+
+
+def _migrateTo76(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GAME_EXTENDED_2, 0)
+    maskOffset = 12
+    valueToCheck = (storedValue & maskOffset) >> 2
+    if valueToCheck == 1 or data[b'gameExtData2'].get(GAME.CUSTOMIZATION_DISPLAY_TYPE) == 1:
+        data[b'gameExtData2'][GAME.CUSTOMIZATION_DISPLAY_TYPE] = 2
+    return
+
+
+def _migrateTo77(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.VEH_POST_PROGRESSION_UNLOCK_MSG_NEED_SHOW] = True
+    return
+
+
+def _migrateTo78(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS
+    onceOnlyHintsData = data[b'onceOnlyHints2']
+    onceOnlyHintsData[OnceOnlyHints.VEHICLE_PREVIEW_POST_PROGRESSION_BUTTON_HINT] = False
+    onceOnlyHintsData[OnceOnlyHints.VEHICLE_POST_PROGRESSION_ENTRY_POINT_HINT] = False
+    onceOnlyHintsData[OnceOnlyHints.HERO_VEHICLE_POST_PROGRESSION_ENTRY_POINT_HINT] = False
+    onceOnlyHintsData[OnceOnlyHints.SWITCH_EQUIPMENT_AUXILIARY_LOADOUT_HINT] = False
+    onceOnlyHintsData[OnceOnlyHints.SWITCH_EQUIPMENT_ESSENTIALS_LOADOUT_HINT] = False
+    onceOnlyHintsData[OnceOnlyHints.COMPARE_MODIFICATIONS_PANEL_HINT] = False
+    onceOnlyHintsData[OnceOnlyHints.COMPARE_SPECIALIZATION_BUTTON_HINT] = False
+    onceOnlyHintsData[OnceOnlyHints.TRADE_IN_VEHICLE_POST_PROGRESSION_ENTRY_POINT_HINT] = False
+    onceOnlyHintsData[OnceOnlyHints.PERSONAL_TRADE_IN_VEHICLE_POST_PROGRESSION_ENTRY_POINT_HINT] = False
+    data[b'uiStorage'][UI_STORAGE_KEYS.VEH_PREVIEW_POST_PROGRESSION_BULLET_SHOWN] = False
+    return
+
+
+def _migrateTo79(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][b'birthdayCalendarIntroShowed'] = False
+    return
+
+
+def _migrateTo80(core, data, initialized):
+    return
+
+
+def _migrateTo81(core, data, initialized):
+    data[b'rankedCarouselFilter1'] = {b'ussr': False, 
+       b'germany': False, 
+       b'usa': False, 
+       b'china': False, 
+       b'france': False, 
+       b'uk': False, 
+       b'japan': False, 
+       b'czech': False, 
+       b'sweden': False, 
+       b'poland': False, 
+       b'italy': False, 
+       b'lightTank': False, 
+       b'mediumTank': False, 
+       b'heavyTank': False, 
+       b'SPG': False, 
+       b'AT-SPG': False, 
+       b'level_1': False, 
+       b'level_2': False, 
+       b'level_3': False, 
+       b'level_4': False, 
+       b'level_5': False, 
+       b'level_6': False, 
+       b'level_7': False, 
+       b'level_8': False, 
+       b'level_9': False, 
+       b'level_10': False}
+    data[b'rankedCarouselFilter2'] = {b'premium': False, 
+       b'elite': False, 
+       b'igr': False, 
+       b'rented': True, 
+       b'event': True, 
+       b'gameMode': False, 
+       b'favorite': False, 
+       b'bonus': False, 
+       b'crystals': False, 
+       b'ranked': True, 
+       b'role_HT_assault': False, 
+       b'role_HT_break': False, 
+       b'role_HT_universal': False, 
+       b'role_HT_support': False, 
+       b'role_MT_assault': False, 
+       b'role_MT_universal': False, 
+       b'role_MT_sniper': False, 
+       b'role_MT_support': False, 
+       b'role_ATSPG_assault': False, 
+       b'role_ATSPG_universal': False, 
+       b'role_ATSPG_sniper': False, 
+       b'role_ATSPG_support': False, 
+       b'role_LT_universal': False, 
+       b'role_LT_wheeled': False, 
+       b'role_SPG': False}
+    return
+
+
+def _migrateTo82(core, data, initialized):
+    data[b'guiStartBehavior'][b'isRankedWelcomeViewShowed'] = False
+    return
+
+
+def _migrateTo83(core, data, initialized):
+    return
+
+
+def _migrateTo84(core, data, initialized):
+    return
+
+
+def _migrateTo85(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS, GUI_START_BEHAVIOR
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GUI_START_BEHAVIOR, 0)
+    settingOffset = 25165824
+    if storedValue & settingOffset:
+        clear = data[b'clear']
+        clear[GUI_START_BEHAVIOR] = clear.get(SETTINGS_SECTIONS.GUI_START_BEHAVIOR, 0) | settingOffset
+    return
+
+
+def _migrateTo86(core, data, initialized):
+    for position in range(2) + range(17, 18):
+        data[b'clear'][b'battlePassStorage'] = data[b'clear'].get(b'battlePassStorage', 0) | 1 << position
+
+    return
+
+
+def _migrateTo87(core, data, initialized):
+    gameData = data[b'gameExtData2']
+    gameData[GAME.SCROLL_SMOOTHING] = True
+    return
+
+
+def _migrateTo88(core, data, initialized):
+    data[b'battlePassStorage'][BattlePassStorageKeys.EXTRA_CHAPTER_INTRO_SHOWN] = False
+    data[b'battlePassStorage'][BattlePassStorageKeys.EXTRA_CHAPTER_VIDEO_SHOWN] = False
+    return
+
+
+def _migrateTo89(core, data, initialized):
+    return
+
+
+def _migrateTo90(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    data[SETTINGS_SECTIONS.ROYALE_CAROUSEL_FILTER_1] = {b'ussr': False, 
+       b'germany': False, 
+       b'usa': False, 
+       b'china': False, 
+       b'france': False, 
+       b'uk': False, 
+       b'japan': False, 
+       b'czech': False, 
+       b'sweden': False, 
+       b'poland': False, 
+       b'italy': False, 
+       b'lightTank': True, 
+       b'mediumTank': True, 
+       b'heavyTank': True, 
+       b'SPG': False, 
+       b'AT-SPG': False, 
+       b'level_1': False, 
+       b'level_2': False, 
+       b'level_3': False, 
+       b'level_4': False, 
+       b'level_5': False, 
+       b'level_6': False, 
+       b'level_7': False, 
+       b'level_8': False, 
+       b'level_9': False, 
+       b'level_10': False}
+    data[SETTINGS_SECTIONS.ROYALE_CAROUSEL_FILTER_2] = {b'premium': False, 
+       b'elite': False, 
+       b'igr': False, 
+       b'rented': True, 
+       b'event': True, 
+       b'gameMode': False, 
+       b'favorite': False, 
+       b'bonus': False, 
+       b'crystals': False, 
+       b'battleRoyale': True}
+    return
+
+
+def _migrateTo91(core, data, initialized):
+    return
+
+
+def _migrateTo92(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.RESOURCE_WELL_INTRO_SHOWN] = False
+    return
+
+
+def _migrateTo93(_, data, __):
+    from account_helpers.AccountSettings import FUN_RANDOM_CAROUSEL_FILTER_1, FUN_RANDOM_CAROUSEL_FILTER_2
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS as SECTIONS
+    data[SECTIONS.FUN_RANDOM_CAROUSEL_FILTER_1] = AccountSettings.getFilterDefault(FUN_RANDOM_CAROUSEL_FILTER_1)
+    data[SECTIONS.FUN_RANDOM_CAROUSEL_FILTER_2] = AccountSettings.getFilterDefault(FUN_RANDOM_CAROUSEL_FILTER_2)
+    return
+
+
+def _migrateTo94(core, data, initialized):
+    onceOnlyHintsData = data[b'onceOnlyHints2']
+    onceOnlyHintsData[OnceOnlyHints.BATTLE_MATTERS_FIGHT_BUTTON_HINT] = False
+    onceOnlyHintsData[OnceOnlyHints.BATTLE_MATTERS_ENTRY_POINT_BUTTON_HINT] = False
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    data[SETTINGS_SECTIONS.BATTLE_MATTERS_QUESTS] = {b'shown': 0}
+    return
+
+
+def _migrateTo95(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS, SETTINGS_SECTIONS
+    data[SETTINGS_SECTIONS.UI_STORAGE_2][UI_STORAGE_KEYS.ROCKET_ACCELERATION_HIGHLIGHTS_COUNTER] = 0
+    return
+
+
+def _migrateTo96(core, data, initialized):
+    data[b'comp7CarouselFilter1'] = {b'ussr': False, 
+       b'germany': False, 
+       b'usa': False, 
+       b'china': False, 
+       b'france': False, 
+       b'uk': False, 
+       b'japan': False, 
+       b'czech': False, 
+       b'sweden': False, 
+       b'poland': False, 
+       b'italy': False, 
+       b'lightTank': False, 
+       b'mediumTank': False, 
+       b'heavyTank': False, 
+       b'SPG': False, 
+       b'AT-SPG': False, 
+       b'level_1': False, 
+       b'level_2': False, 
+       b'level_3': False, 
+       b'level_4': False, 
+       b'level_5': False, 
+       b'level_6': False, 
+       b'level_7': False, 
+       b'level_8': False, 
+       b'level_9': False, 
+       b'level_10': False}
+    data[b'comp7CarouselFilter2'] = {b'premium': False, 
+       b'elite': False, 
+       b'igr': False, 
+       b'rented': True, 
+       b'event': True, 
+       b'gameMode': False, 
+       b'favorite': False, 
+       b'bonus': False, 
+       b'crystals': False, 
+       b'comp7': True, 
+       b'role_HT_assault': False, 
+       b'role_HT_break': False, 
+       b'role_HT_universal': False, 
+       b'role_HT_support': False, 
+       b'role_MT_assault': False, 
+       b'role_MT_universal': False, 
+       b'role_MT_sniper': False, 
+       b'role_MT_support': False, 
+       b'role_ATSPG_assault': False, 
+       b'role_ATSPG_universal': False, 
+       b'role_ATSPG_sniper': False, 
+       b'role_ATSPG_support': False, 
+       b'role_LT_universal': False, 
+       b'role_LT_wheeled': False, 
+       b'role_SPG': False}
+    data[b'guiStartBehavior'][b'isComp7IntroShown'] = False
+    return
+
+
+def _migrateTo97(core, data, initialized):
+    return
+
+
+def _migrateTo98(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.ONCE_ONLY_HINTS, 0)
+    settingOffset = 1073741824
+    if storedValue & settingOffset:
+        clear = data[b'clear']
+        clear[b'onceOnlyHints'] = clear.get(b'onceOnlyHints', 0) | settingOffset
+    return
+
+
+def _migrateTo99(_, data, __):
+    from account_helpers.AccountSettings import FUN_RANDOM_CAROUSEL_FILTER_1, FUN_RANDOM_CAROUSEL_FILTER_2
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS as SECTIONS
+    data[SECTIONS.FUN_RANDOM_CAROUSEL_FILTER_1] = AccountSettings.getFilterDefault(FUN_RANDOM_CAROUSEL_FILTER_1)
+    data[SECTIONS.FUN_RANDOM_CAROUSEL_FILTER_2] = AccountSettings.getFilterDefault(FUN_RANDOM_CAROUSEL_FILTER_2)
+    return
+
+
+def _migrateTo100(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    from account_helpers.settings_core.ServerSettingsManager import BATTLE_MATTERS_KEYS
+    data[SETTINGS_SECTIONS.BATTLE_MATTERS_QUESTS] = {(BATTLE_MATTERS_KEYS.QUESTS_SHOWN): (core.serverSettings.getBattleMattersQuestWasShowed()), 
+       (BATTLE_MATTERS_KEYS.QUEST_PROGRESS): 0}
+    return
+
+
+def _migrateTo101(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.COMP7_INTRO_SHOWN] = False
+    data[b'markersData'].setdefault(b'ally', {})[b'markerAltVehicleDist'] = True
+    data[b'markersData'].setdefault(b'enemy', {})[b'markerAltVehicleDist'] = True
+    return
+
+
+def _migrateTo102(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.CREW_22_WELCOME_SHOWN] = False
+    return
+
+
+def _migrateTo103(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    from gui.limited_ui.lui_rules_storage import LuiRules
+    for storage in SETTINGS_SECTIONS.LIMITED_UI_GROUP:
+        data[storage] = {}
+
+    limitedUiSpamOffRules = (
+     (
+      b'uiSpamVisited_store', LuiRules.LOBBY_HEADER_COUNTERS_STORE),
+     (
+      b'uiSpamVisited_profile', LuiRules.LOBBY_HEADER_COUNTERS_PROFILE),
+     (
+      b'uiSpamVisited_profileHof', LuiRules.PROFILE_HOF),
+     (
+      b'uiSpamVisited_profileTechniquePage', LuiRules.PROFILE_TECHNIQUE_PAGE),
+     (
+      b'uiSpamVisited_sessionStats', LuiRules.SESSION_STATS),
+     (
+      b'uiSpamVisited_blueprintsButton', LuiRules.BLUEPRINTS_BUTTON),
+     (
+      b'uiSpamVisited_missions', LuiRules.LOBBY_HEADER_COUNTERS_MISSIONS),
+     (
+      b'uiSpamVisited_MissionsMarathonView', LuiRules.MISSIONS_MARATHON_VIEW),
+     (
+      b'uiSpamVisited_PersonalMissionOperations', LuiRules.LOBBY_HEADER_COUNTERS_PM_OPERATIONS),
+     (
+      b'uiSpamVisited_AmmunitionPanelHintZoneHint', LuiRules.AP_ZONE_HINT),
+     (
+      b'uiSpamVisited_AmmunitionPanelBattleAbilitiesHint', LuiRules.AP_BATTLE_ABILITIES_HINT),
+     (
+      b'uiSpamVisited_CustomizationProgressionViewHint', LuiRules.C7N_BUBBLE),
+     (
+      b'uiSpamVisited_TechTreeEvent', LuiRules.TECH_TREE_EVENTS),
+     (
+      b'uiSpamVisited_DogTagHangarHint', LuiRules.DOG_TAG_HINT),
+     (
+      b'uiSpamVisited_ModeSelectorWidgetsBtnHint', LuiRules.MODE_SELECTOR_WIDGET_BTN_HINT),
+     (
+      b'uiSpamVisited_PersonalReservesHangarHint', LuiRules.PR_HANGAR_HINT),
+     (
+      b'uiSpamVisited_ModernizedSetupTabHint', LuiRules.MODERNIZE_SETUP_HINT),
+     (
+      b'uiSpamVisited_OfferBannerWindow', LuiRules.OFFER_BANNER_WINDOW))
+    for uiSpamOffRule, limitedUiRule in limitedUiSpamOffRules:
+        if AccountSettings.getUIFlag(uiSpamOffRule):
+            AccountSettings.setUIFlag(uiSpamOffRule, False)
+            data[SETTINGS_SECTIONS.LIMITED_UI_1][limitedUiRule] = 1
+
+    newSettingsCounter = AccountSettings.getSettings(NEW_SETTINGS_COUNTER)
+    newSettingsCounter[b'GameSettings'].update({(GAME.LIMITED_UI_ACTIVE): True})
+    AccountSettings.setSettings(NEW_SETTINGS_COUNTER, newSettingsCounter)
+    return
+
+
+def _migrateTo104(_, data, __):
+    from account_helpers.AccountSettings import FUN_RANDOM_CAROUSEL_FILTER_1, FUN_RANDOM_CAROUSEL_FILTER_2
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS as SECTIONS
+    data[SECTIONS.FUN_RANDOM_CAROUSEL_FILTER_1] = AccountSettings.getFilterDefault(FUN_RANDOM_CAROUSEL_FILTER_1)
+    data[SECTIONS.FUN_RANDOM_CAROUSEL_FILTER_2] = AccountSettings.getFilterDefault(FUN_RANDOM_CAROUSEL_FILTER_2)
+    return
+
+
+def _migrateTo105(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    clear = data[b'clear']
+    settingOffset = 67108864
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.CAROUSEL_FILTER_2, 0)
+    if storedValue & settingOffset:
+        clear[SETTINGS_SECTIONS.CAROUSEL_FILTER_2] = clear.get(SETTINGS_SECTIONS.CAROUSEL_FILTER_2, 0) | settingOffset
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.RANKED_CAROUSEL_FILTER_2, 0)
+    if storedValue & settingOffset:
+        clear[SETTINGS_SECTIONS.RANKED_CAROUSEL_FILTER_2] = clear.get(SETTINGS_SECTIONS.RANKED_CAROUSEL_FILTER_2, 0) | settingOffset
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.COMP7_CAROUSEL_FILTER_2, 0)
+    if storedValue & settingOffset:
+        clear[SETTINGS_SECTIONS.COMP7_CAROUSEL_FILTER_2] = clear.get(SETTINGS_SECTIONS.COMP7_CAROUSEL_FILTER_2, 0) | settingOffset
+    return
+
+
+def _migrateTo106(_, data, __):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS, UI_STORAGE_KEYS
+    data[SETTINGS_SECTIONS.UI_STORAGE_2][UI_STORAGE_KEYS.GUI_LOOTBOXES_ENTRY_POINT] = False
+    return
+
+
+def _migrateTo107(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    from account_helpers.settings_core.ServerSettingsManager import BATTLE_MATTERS_KEYS
+    resetQuests = (5, 6, 7, 8, 9, 11, 12, 16, 18, 21, 23)
+    lastShowedQuest = core.serverSettings.getBattleMattersQuestWasShowed() + 1
+    if lastShowedQuest in resetQuests:
+        data[SETTINGS_SECTIONS.BATTLE_MATTERS_QUESTS][BATTLE_MATTERS_KEYS.QUEST_PROGRESS] = 0
+    return
+
+
+def _migrateTo108(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS, SETTINGS_SECTIONS
+    data[SETTINGS_SECTIONS.UI_STORAGE_2][UI_STORAGE_KEYS.DUAL_ACCURACY_HIGHLIGHTS_COUNTER] = 0
+    return
+
+
+def _migrateTo109(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.COMP7_WHATS_NEW_SHOWN] = False
+    return
+
+
+def _migrateTo110(core, data, initialized):
+    data[b'gameExtData2'][GAME.GAMEPLAY_DEV_MAPS] = True
+    return
+
+
+def _migrateTo111(core, data, initialized):
+    from account_helpers.AccountSettings import CREW_SKINS_VIEWED
+    from skeletons.gui.shared import IItemsCache
+    itemsCache = dependency.instance(IItemsCache)
+    viewedSkinsMap = {}
+    viewedSkinsSet = AccountSettings.getSettings(CREW_SKINS_VIEWED)
+    for skinID in viewedSkinsSet:
+        item = itemsCache.items.getCrewSkin(skinID)
+        viewedSkinsMap[skinID] = item.getTotalCount()
+
+    AccountSettings.setSettings(CREW_SKINS_VIEWED, viewedSkinsMap)
+    return
+
+
+def _migrateTo112(core, data, initialized):
+    from account_helpers.AccountSettings import CREW_SKINS_VIEWED
+    crewSkinsViewed = AccountSettings.getSettings(CREW_SKINS_VIEWED)
+    if not isinstance(crewSkinsViewed, dict):
+        AccountSettings.setSettings(CREW_SKINS_VIEWED, {})
+    return
+
+
+def _migrateTo113(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.COMP7_WHATS_NEW_SHOWN] = False
+    return
+
+
+def _migrateTo114(core, data, initialized):
+    nyStorageData = data[b'nyStorage']
+    for key in NewYearStorageKeys.BOOL_FLAGS:
+        nyStorageData[key] = False
+
+    return
+
+
+def _migrateTo115(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS, ARMORY_YARD_KEYS
+    data[SETTINGS_SECTIONS.ARMORY_YARD][ARMORY_YARD_KEYS.BUILD_PROGRESS] = 0
+    AccountSettings.clearArmoryYard()
+    return
+
+
+def _migrateTo116(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.RANKED_WELCOME_VIEW_SHOWED] = False
+    return
+
+
+def _migrateTo117(core, data, initialized):
+    data[b'rankedCarouselFilter1'] = {b'ussr': False, 
+       b'germany': False, 
+       b'usa': False, 
+       b'china': False, 
+       b'france': False, 
+       b'uk': False, 
+       b'japan': False, 
+       b'czech': False, 
+       b'sweden': False, 
+       b'poland': False, 
+       b'italy': False, 
+       b'lightTank': False, 
+       b'mediumTank': False, 
+       b'heavyTank': False, 
+       b'SPG': False, 
+       b'AT-SPG': False, 
+       b'level_1': False, 
+       b'level_2': False, 
+       b'level_3': False, 
+       b'level_4': False, 
+       b'level_5': False, 
+       b'level_6': False, 
+       b'level_7': False, 
+       b'level_8': False, 
+       b'level_9': False, 
+       b'level_10': False}
+    data[b'rankedCarouselFilter2'] = {b'premium': False, 
+       b'elite': False, 
+       b'igr': False, 
+       b'rented': True, 
+       b'event': True, 
+       b'gameMode': False, 
+       b'favorite': False, 
+       b'bonus': False, 
+       b'crystals': False, 
+       b'ranked': True, 
+       b'role_HT_assault': False, 
+       b'role_HT_break': False, 
+       b'role_HT_universal': False, 
+       b'role_HT_support': False, 
+       b'role_MT_assault': False, 
+       b'role_MT_universal': False, 
+       b'role_MT_sniper': False, 
+       b'role_MT_support': False, 
+       b'role_ATSPG_assault': False, 
+       b'role_ATSPG_universal': False, 
+       b'role_ATSPG_sniper': False, 
+       b'role_ATSPG_support': False, 
+       b'role_LT_universal': False, 
+       b'role_LT_wheeled': False, 
+       b'role_SPG': False}
+    return
+
+
+def _migrateTo118(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.COMP7_WHATS_NEW_SHOWN] = False
+    return
+
+
+def _migrateTo119(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.RANKED_WELCOME_VIEW_SHOWED] = False
+    data[b'rankedCarouselFilter1'] = {b'ussr': False, 
+       b'germany': False, 
+       b'usa': False, 
+       b'china': False, 
+       b'france': False, 
+       b'uk': False, 
+       b'japan': False, 
+       b'czech': False, 
+       b'sweden': False, 
+       b'poland': False, 
+       b'italy': False, 
+       b'lightTank': False, 
+       b'mediumTank': False, 
+       b'heavyTank': False, 
+       b'SPG': False, 
+       b'AT-SPG': False, 
+       b'level_1': False, 
+       b'level_2': False, 
+       b'level_3': False, 
+       b'level_4': False, 
+       b'level_5': False, 
+       b'level_6': False, 
+       b'level_7': False, 
+       b'level_8': False, 
+       b'level_9': False, 
+       b'level_10': False}
+    data[b'rankedCarouselFilter2'] = {b'premium': False, 
+       b'elite': False, 
+       b'igr': False, 
+       b'rented': True, 
+       b'event': True, 
+       b'gameMode': False, 
+       b'favorite': False, 
+       b'bonus': False, 
+       b'crystals': False, 
+       b'ranked': True, 
+       b'role_HT_assault': False, 
+       b'role_HT_break': False, 
+       b'role_HT_universal': False, 
+       b'role_HT_support': False, 
+       b'role_MT_assault': False, 
+       b'role_MT_universal': False, 
+       b'role_MT_sniper': False, 
+       b'role_MT_support': False, 
+       b'role_ATSPG_assault': False, 
+       b'role_ATSPG_universal': False, 
+       b'role_ATSPG_sniper': False, 
+       b'role_ATSPG_support': False, 
+       b'role_LT_universal': False, 
+       b'role_LT_wheeled': False, 
+       b'role_SPG': False}
+    return
+
+
+def _migrateTo120(core, data, initialized):
+    data[b'feedbackSixthSense'][b'indicatorAlpha'] = 100
+    data[b'feedbackSixthSense'][b'indicatorSize'] = 0
+    return
+
+
+def _migrateTo121(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.COMP7_WHATS_NEW_SHOWN] = False
+    return
+
+
+def _migrateTo122(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    clear = data[b'clear']
+    settingOffset = 536870912
+
+    def clearEarlyAccess(carouselFilter):
+        storedValue = _getSettingsCache().getSectionSettings(carouselFilter, 0)
+        if storedValue & settingOffset:
+            clear[carouselFilter] = clear.get(carouselFilter, 0) | settingOffset
+        return
+
+    clearEarlyAccess(SETTINGS_SECTIONS.CAROUSEL_FILTER_2)
+    return
+
+
+def _migrateTo123(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.BATTLE_PASS_STORAGE, 0)
+    clear = data[b'clear']
+    settingOffset = 16384
+    if storedValue & settingOffset:
+        clear[b'battlePassStorage'] = clear.get(b'battlePassStorage', 0) | settingOffset
+    return
+
+
+def _migrateTo124(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.RANKED_WELCOME_VIEW_SHOWED] = False
+    data[b'rankedCarouselFilter1'] = {b'ussr': False, 
+       b'germany': False, 
+       b'usa': False, 
+       b'china': False, 
+       b'france': False, 
+       b'uk': False, 
+       b'japan': False, 
+       b'czech': False, 
+       b'sweden': False, 
+       b'poland': False, 
+       b'italy': False, 
+       b'lightTank': False, 
+       b'mediumTank': False, 
+       b'heavyTank': False, 
+       b'SPG': False, 
+       b'AT-SPG': False, 
+       b'level_1': False, 
+       b'level_2': False, 
+       b'level_3': False, 
+       b'level_4': False, 
+       b'level_5': False, 
+       b'level_6': False, 
+       b'level_7': False, 
+       b'level_8': False, 
+       b'level_9': False, 
+       b'level_10': False}
+    data[b'rankedCarouselFilter2'] = {b'premium': False, 
+       b'elite': False, 
+       b'igr': False, 
+       b'rented': True, 
+       b'event': True, 
+       b'gameMode': False, 
+       b'favorite': False, 
+       b'bonus': False, 
+       b'crystals': False, 
+       b'ranked': True, 
+       b'role_HT_assault': False, 
+       b'role_HT_break': False, 
+       b'role_HT_universal': False, 
+       b'role_HT_support': False, 
+       b'role_MT_assault': False, 
+       b'role_MT_universal': False, 
+       b'role_MT_sniper': False, 
+       b'role_MT_support': False, 
+       b'role_ATSPG_assault': False, 
+       b'role_ATSPG_universal': False, 
+       b'role_ATSPG_sniper': False, 
+       b'role_ATSPG_support': False, 
+       b'role_LT_universal': False, 
+       b'role_LT_wheeled': False, 
+       b'role_SPG': False}
+    return
+
+
+def _migrateTo125(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.RANKED_WELCOME_VIEW_SHOWED] = False
+    data[b'rankedCarouselFilter1'] = {b'ussr': False, 
+       b'germany': False, 
+       b'usa': False, 
+       b'china': False, 
+       b'france': False, 
+       b'uk': False, 
+       b'japan': False, 
+       b'czech': False, 
+       b'sweden': False, 
+       b'poland': False, 
+       b'italy': False, 
+       b'lightTank': False, 
+       b'mediumTank': False, 
+       b'heavyTank': False, 
+       b'SPG': False, 
+       b'AT-SPG': False, 
+       b'level_1': False, 
+       b'level_2': False, 
+       b'level_3': False, 
+       b'level_4': False, 
+       b'level_5': False, 
+       b'level_6': False, 
+       b'level_7': False, 
+       b'level_8': False, 
+       b'level_9': False, 
+       b'level_10': False}
+    data[b'rankedCarouselFilter2'] = {b'premium': False, 
+       b'elite': False, 
+       b'igr': False, 
+       b'rented': True, 
+       b'event': True, 
+       b'gameMode': False, 
+       b'favorite': False, 
+       b'bonus': False, 
+       b'crystals': False, 
+       b'ranked': True, 
+       b'role_HT_assault': False, 
+       b'role_HT_break': False, 
+       b'role_HT_universal': False, 
+       b'role_HT_support': False, 
+       b'role_MT_assault': False, 
+       b'role_MT_universal': False, 
+       b'role_MT_sniper': False, 
+       b'role_MT_support': False, 
+       b'role_ATSPG_assault': False, 
+       b'role_ATSPG_universal': False, 
+       b'role_ATSPG_sniper': False, 
+       b'role_ATSPG_support': False, 
+       b'role_LT_universal': False, 
+       b'role_LT_wheeled': False, 
+       b'role_SPG': False}
+    return
+
+
+def _migrateTo126(core, data, initialized):
+    onceOnlyHintsData = data[b'onceOnlyHints3']
+    onceOnlyHintsData[OnceOnlyHints.LOOT_PROBABILITY_HINT] = False
+    return
+
+
+def _migrateTo127(core, data, initialized):
+    nyStorageData = data[b'nyStorage']
+    nyStorageData[NewYearStorageKeys.NY_FIRST_ENTRANCE] = True
+    return
+
+
+def _migrateTo128(core, data, initialized):
+    nyStorageData = data[b'nyStorage']
+    nyStorageData[NewYearStorageKeys.NY_WELCOME_NOTIFICATION] = False
+    nyStorageData[NewYearStorageKeys.NY_PET_TOYS_REMOVED] = False
+    return
+
+
+def _migrateTo129(core, data, initialized):
+    nyStorageData = data[b'nyStorage']
+    nyStorageData[NewYearStorageKeys.NY_FIRST_QUEST_VIDEO_VISITED] = False
+    nyStorageData[NewYearStorageKeys.NY_FIRST_QUEST_ENTRANCE] = 0
+    return
+
+
+def _migrateTo130(core, data, initialized):
+    return
+
+
+def _migrateTo131(core, data, initialized):
+    return
+
+
+def _migrateTo132(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS, SETTINGS_SECTIONS
+    data[SETTINGS_SECTIONS.UI_STORAGE_2][UI_STORAGE_KEYS.FLAMETHROWER_HIGHLIGHTS_COUNTER] = 0
+    return
+
+
+def _migrateTo133(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS, SETTINGS_SECTIONS
+    data[SETTINGS_SECTIONS.UI_STORAGE_2][UI_STORAGE_KEYS.THERMAL_VISION_HIGHLIGHTS_COUNTER] = 0
+    return
+
+
+def _migrateTo134(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.BATTLE_PASS_STORAGE, 0)
+    clear = data[b'clear']
+    settingOffset = 134217728
+    if storedValue & settingOffset:
+        clear[b'battlePassStorage'] = clear.get(b'battlePassStorage', 0) | settingOffset
+    if data[b'battlePassStorage'].get(b'dailyQuestsIntroShown') is not None:
+        data[b'battlePassStorage'].pop(b'dailyQuestsIntroShown')
+    return
+
+
+def _migrateTo135(core, data, initialized):
+    data[b'gameExtData2'][GAME.ENABLE_THERMAL_VISION_EFFECT] = True
+    data[b'gameExtData2'][GAME.ENABLE_THERMAL_VISION_SECTOR_EFFECT] = True
+    data[b'gameExtData2'][GAME.SHOW_THERMAL_VISION_SECTOR_ON_MAP] = True
+    return
+
+
+def _migrateTo136(core, data, initialized):
+    oldFlagKey = b'uiEffects'
+    oldValue = AccountSettings.getSettings(oldFlagKey)
+    if oldValue is not None:
+        core.applySettings({(GRAPHICS.UI_EFFECTS): oldValue})
+        AccountSettings.delUnusedSetting(KEY_SETTINGS, oldFlagKey)
+    else:
+        BigWorld.updateCurrentPresetIndex()
+        presetKey = getCurrentGraphicPresetName()
+        if presetKey == b'CUSTOM':
+            presetIdx = BigWorld.autoDetectGraphicsSettings()
+            presetSettings = getGraphicPresetSettingsByIndex(presetIdx)
+        else:
+            presetSettings = getGraphicPresetSettingsByName(presetKey)
+        core.applySettings({(GRAPHICS.UI_EFFECTS): (presetSettings.get(b'settings', {}).get(GRAPHICS.UI_EFFECTS, 0))})
+    return
+
+
+def _migrateTo137(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.RANKED_WELCOME_VIEW_SHOWED] = False
+    data[b'rankedCarouselFilter1'] = {b'ussr': False, 
+       b'germany': False, 
+       b'usa': False, 
+       b'china': False, 
+       b'france': False, 
+       b'uk': False, 
+       b'japan': False, 
+       b'czech': False, 
+       b'sweden': False, 
+       b'poland': False, 
+       b'italy': False, 
+       b'lightTank': False, 
+       b'mediumTank': False, 
+       b'heavyTank': False, 
+       b'SPG': False, 
+       b'AT-SPG': False, 
+       b'level_1': False, 
+       b'level_2': False, 
+       b'level_3': False, 
+       b'level_4': False, 
+       b'level_5': False, 
+       b'level_6': False, 
+       b'level_7': False, 
+       b'level_8': False, 
+       b'level_9': False, 
+       b'level_10': False}
+    data[b'rankedCarouselFilter2'] = {b'premium': False, 
+       b'elite': False, 
+       b'igr': False, 
+       b'rented': True, 
+       b'event': True, 
+       b'gameMode': False, 
+       b'favorite': False, 
+       b'bonus': False, 
+       b'crystals': False, 
+       b'ranked': True, 
+       b'role_HT_assault': False, 
+       b'role_HT_break': False, 
+       b'role_HT_universal': False, 
+       b'role_HT_support': False, 
+       b'role_MT_assault': False, 
+       b'role_MT_universal': False, 
+       b'role_MT_sniper': False, 
+       b'role_MT_support': False, 
+       b'role_ATSPG_assault': False, 
+       b'role_ATSPG_universal': False, 
+       b'role_ATSPG_sniper': False, 
+       b'role_ATSPG_support': False, 
+       b'role_LT_universal': False, 
+       b'role_LT_wheeled': False, 
+       b'role_SPG': False}
+    return
+
+
+def _migrateTo138(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.COMP7_WHATS_NEW_SHOWN] = True
+    return
+
+
+def _migrateTo139(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.RANKED_WELCOME_VIEW_SHOWED] = False
+    return
+
+
+def _migrateTo140(core, data, initialized):
+    interfaceScaleIndex = AccountSettings.getSettings(GRAPHICS.INTERFACE_SCALE)
+    oldScaleOptions = (InterfaceScaleSetting.AUTO_SCALE, 1.0, 2.0)
+    interfaceScaleIndex = interfaceScaleIndex if interfaceScaleIndex < len(oldScaleOptions) else InterfaceScaleSetting.AUTO_SCALE
+    AccountSettings.setSettings(GRAPHICS.INTERFACE_SCALE, oldScaleOptions[int(interfaceScaleIndex)])
+    newSettingsCounter = AccountSettings.getSettings(NEW_SETTINGS_COUNTER)
+    newSettingsCounter[SETTINGS_GROUP.GRAPHICS_SETTINGS][b'ScreenSettings'].update({(GRAPHICS.INTERFACE_SCALE): True})
+    AccountSettings.setSettings(NEW_SETTINGS_COUNTER, newSettingsCounter)
+    return
+
+
+def _migrateTo141(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.RANKED_WELCOME_VIEW_SHOWED] = False
+    return
+
+
+def _migrateTo143(core, data, initialized):
+    from gui.battle_control.battle_context_hints.classic_battle_context_hints_config import getConfig
+    from gui.battle_control.battle_context_hints.common import HintId
+    from gui.battle_control.battle_context_hints.settings_data_block import HintData
+    from skeletons.gui.shared import IItemsCache
+    config = getConfig()
+    hintConf = {conf.hintId: conf for conf in config}
+    hints = [
+     HintId.PLAYER_VEHICLE_OBSERVED, HintId.KILLED_WHILE_OBSERVED, HintId.IN_SAFETY_WHILE_NOT_OBSERVED,
+     HintId.ENGINE_DAMAGE_REPAIR_KIT, HintId.AMMUNITION_DAMAGE_REPAIR_KIT, HintId.FUELTANK_DAMAGE_REPAIR_KIT,
+     HintId.GUN_ROTATOR_DAMAGE_REPAIR_KIT, HintId.GUN_DAMAGE_REPAIR_KIT, HintId.AMMUNITION_CRIT,
+     HintId.FUELTANK_CRIT, HintId.GUN_ROTATOR_DESTROY_REPAIR_KIT, HintId.ENGINE_DESTROY_REPAIR_KIT,
+     HintId.GUN_DESTROY_REPAIR_KIT, HintId.TRACK_DESTROY_REPAIR_KIT, HintId.MODULE_DAMAGE,
+     HintId.COMMANDER_DAMAGE_MED_KIT, HintId.DRIVER_DAMAGE_MED_KIT, HintId.GUNNER_DAMAGE_MED_KIT,
+     HintId.LOADER_DAMAGE_MED_KIT, HintId.RADIOMAN_DAMAGE_MED_KIT]
+    itemsCache = dependency.instance(IItemsCache)
+    needToShowHints = itemsCache.items.getAccountDossier().getRandomStats().getBattlesCount() <= 20
+    for hint in hints:
+        conf = hintConf[hint]
+        if needToShowHints:
+            hintData = HintData(conf.maxWatchingQty, conf.maxWatchingQtyPerBattle, 0, False)
+        else:
+            hintData = HintData(0, -1, 0, False)
+        data[conf.dataBlock.section()][conf.dataBlock.key()] = conf.dataBlock.pack(hintData)
+
+    return
+
+
+def _migrateTo144(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
+    storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.ONCE_ONLY_HINTS_3, 0)
+    clear = data[b'clear']
+    for bitPosition in (0, 1):
+        settingOffset = 1 << bitPosition
+        if storedValue & settingOffset:
+            clear[b'onceOnlyHints3'] = clear.get(b'onceOnlyHints3', 0) | settingOffset
+
+    return
+
+
+def _migrateTo145(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.RANKED_WELCOME_VIEW_SHOWED] = False
+    return
+
+
+def _migrateTo146(core, data, initialized):
+    from account_helpers.settings_core.ServerSettingsManager import GUI_START_BEHAVIOR
+    data[GUI_START_BEHAVIOR][GuiSettingsBehavior.RANKED_WELCOME_VIEW_SHOWED] = False
+    return
+
+
+def _migrateTo147(core, data, initialized):
+    onceOnlyHintsData = data[b'onceOnlyHints3']
+    onceOnlyHintsData[OnceOnlyHints.BIRTHDAY_POSTBATTLE_TEAM_STATS_TAB_HINT] = False
+    return
+
+
+_versions = (
+ (
+  1, _initializeDefaultSettings, True, False, False),
+ (
+  2, _reinitializeDefaultSettings, True, True, False),
+ (
+  3, _migrateTo3, False, False, False),
+ (
+  4, _migrateTo4, True, False, False),
+ (
+  5, _migrateTo5, False, False, False),
+ (
+  6, _migrateTo6, True, False, False),
+ (
+  7, _migrateTo7, False, False, False),
+ (
+  8, _migrateTo8, True, False, False),
+ (
+  9, _migrateTo9, True, False, False),
+ (
+  11, _migrateTo11, True, False, False),
+ (
+  12, _migrateTo12, False, False, False),
+ (
+  13, _migrateTo13, False, False, False),
+ (
+  14, _migrateTo14, False, False, False),
+ (
+  15, _migrateTo15, False, False, False),
+ (
+  16, _migrateTo16, False, False, False),
+ (
+  17, _migrateTo17, False, False, False),
+ (
+  18, _migrateTo18, False, False, False),
+ (
+  19, _migrateTo19, False, False, False),
+ (
+  20, _migrateTo20, False, False, False),
+ (
+  21, _migrateTo21, False, False, False),
+ (
+  22, _migrateTo22, False, False, False),
+ (
+  23, _migrateTo23, False, False, False),
+ (
+  24, _migrateTo24, False, False, False),
+ (
+  25, _migrateTo25, False, False, False),
+ (
+  26, _migrateTo26, False, False, False),
+ (
+  27, _migrateTo27, False, False, False),
+ (
+  28, _migrateTo28, False, False, False),
+ (
+  29, _migrateTo29, False, False, False),
+ (
+  30, _migrateTo30, False, False, False),
+ (
+  31, _migrateTo31, False, False, False),
+ (
+  32, _migrateTo32, False, False, False),
+ (
+  33, _migrateTo33, False, False, False),
+ (
+  34, _migrateTo34, False, False, False),
+ (
+  35, _migrateTo35, False, False, False),
+ (
+  36, _migrateTo36, True, False, False),
+ (
+  37, _migrateTo37, False, False, False),
+ (
+  38, _migrateTo38, False, False, False),
+ (
+  39, _migrateTo39, False, False, False),
+ (
+  40, _migrateTo40, False, False, False),
+ (
+  41, _migrateTo41, False, False, False),
+ (
+  42, _migrateTo42, False, False, False),
+ (
+  43, _migrateTo43, False, False, False),
+ (
+  44, _migrateTo44, False, False, False),
+ (
+  45, _migrateTo45, False, False, False),
+ (
+  46, _migrateTo46, False, False, False),
+ (
+  47, _migrateTo47, False, False, False),
+ (
+  48, _migrateTo48, False, False, False),
+ (
+  49, _migrateTo49, False, False, False),
+ (
+  50, _migrateTo50, False, False, False),
+ (
+  51, _migrateTo51, False, False, False),
+ (
+  52, _migrateTo52, False, False, False),
+ (
+  53, _migrateTo53, False, False, False),
+ (
+  54, _migrateTo54, False, False, False),
+ (
+  55, _migrateTo55, False, False, False),
+ (
+  56, _migrateTo56, False, False, False),
+ (
+  57, _migrateTo57, False, False, False),
+ (
+  58, _migrateTo58, False, False, False),
+ (
+  59, _migrateTo59, False, False, False),
+ (
+  60, _migrateTo60, False, False, False),
+ (
+  61, _migrateTo61, False, False, False),
+ (
+  62, _migrateTo62, False, False, False),
+ (
+  63, _migrateTo63, False, False, False),
+ (
+  64, _migrateTo64, False, False, False),
+ (
+  65, _migrateTo65, False, False, False),
+ (
+  66, _migrateTo66, False, False, False),
+ (
+  67, _migrateTo67, False, False, False),
+ (
+  68, _migrateTo68, False, False, False),
+ (
+  69, _migrateTo69, False, False, False),
+ (
+  70, _migrateTo70, False, False, False),
+ (
+  71, _migrateTo71, False, False, False),
+ (
+  72, _migrateTo72, False, False, False),
+ (
+  73, _migrateTo73, False, False, False),
+ (
+  74, _migrateTo74, False, False, False),
+ (
+  75, _migrateTo75, False, False, False),
+ (
+  76, _migrateTo76, False, False, False),
+ (
+  77, _migrateTo77, False, False, False),
+ (
+  78, _migrateTo78, False, False, False),
+ (
+  79, _migrateTo79, False, False, False),
+ (
+  80, _migrateTo80, False, False, False),
+ (
+  81, _migrateTo81, False, False, False),
+ (
+  82, _migrateTo82, False, False, False),
+ (
+  83, _migrateTo83, False, False, False),
+ (
+  84, _migrateTo84, False, False, False),
+ (
+  85, _migrateTo85, False, False, False),
+ (
+  86, _migrateTo86, False, False, False),
+ (
+  87, _migrateTo87, False, False, False),
+ (
+  88, _migrateTo88, False, False, False),
+ (
+  89, _migrateTo89, False, False, False),
+ (
+  90, _migrateTo90, False, False, False),
+ (
+  91, _migrateTo91, False, False, False),
+ (
+  92, _migrateTo92, False, False, False),
+ (
+  93, _migrateTo93, False, False, False),
+ (
+  94, _migrateTo94, False, False, False),
+ (
+  95, _migrateTo95, False, False, False),
+ (
+  96, _migrateTo96, False, False, False),
+ (
+  97, _migrateTo97, False, False, False),
+ (
+  98, _migrateTo98, False, False, False),
+ (
+  99, _migrateTo99, False, False, False),
+ (
+  100, _migrateTo100, False, False, False),
+ (
+  101, _migrateTo101, False, False, False),
+ (
+  102, _migrateTo102, False, False, False),
+ (
+  103, _migrateTo103, False, False, False),
+ (
+  104, _migrateTo104, False, False, False),
+ (
+  105, _migrateTo105, False, False, False),
+ (
+  106, _migrateTo106, False, False, False),
+ (
+  107, _migrateTo107, False, False, False),
+ (
+  108, _migrateTo108, False, False, False),
+ (
+  109, _migrateTo109, False, False, False),
+ (
+  110, _migrateTo110, False, False, False),
+ (
+  111, _migrateTo111, False, False, False),
+ (
+  112, _migrateTo112, False, False, False),
+ (
+  113, _migrateTo113, False, False, False),
+ (
+  114, _migrateTo114, False, False, False),
+ (
+  115, _migrateTo115, False, False, False),
+ (
+  116, _migrateTo116, False, False, False),
+ (
+  117, _migrateTo117, False, False, False),
+ (
+  118, _migrateTo118, False, False, False),
+ (
+  119, _migrateTo119, False, False, False),
+ (
+  120, _migrateTo120, False, False, False),
+ (
+  121, _migrateTo121, False, False, False),
+ (
+  122, _migrateTo122, False, False, False),
+ (
+  123, _migrateTo123, False, False, False),
+ (
+  124, _migrateTo124, False, False, False),
+ (
+  125, _migrateTo125, False, False, False),
+ (
+  126, _migrateTo126, False, False, False),
+ (
+  127, _migrateTo127, False, False, False),
+ (
+  128, _migrateTo128, False, False, False),
+ (
+  129, _migrateTo129, False, False, False),
+ (
+  130, _migrateTo130, False, False, False),
+ (
+  131, _migrateTo131, False, False, False),
+ (
+  132, _migrateTo132, False, False, False),
+ (
+  133, _migrateTo133, False, False, False),
+ (
+  134, _migrateTo134, False, False, False),
+ (
+  135, _migrateTo135, False, False, False),
+ (
+  136, _migrateTo136, False, False, False),
+ (
+  137, _migrateTo137, False, False, False),
+ (
+  138, _migrateTo138, False, False, False),
+ (
+  139, _migrateTo139, False, False, False),
+ (
+  140, _migrateTo140, False, False, False),
+ (
+  141, _migrateTo141, False, False, False),
+ (
+  142, None, False, False, True),
+ (
+  143, _migrateTo143, False, False, False),
+ (
+  144, _migrateTo144, False, False, False),
+ (
+  145, _migrateTo145, False, False, False),
+ (
+  146, _migrateTo146, False, False, False),
+ (
+  147, _migrateTo147, False, False, False))
+
+@adisp_async
+@adisp_process
+def migrateToVersion(fromVersion, core, data, callback=None):
+    yield lambda callback: callback(None)
+    initialized = False
+    logPlayerSettings = False
+    for version, migration, isInitialize, isAsync, isLogPlayerSettings in _versions:
+        if fromVersion < version:
+            logPlayerSettings = logPlayerSettings or isLogPlayerSettings
+            if not isInitialize or not initialized:
+                if migration:
+                    if isAsync:
+                        yield migration(core, data, initialized)
+                    else:
+                        migration(core, data, initialized)
+                if isInitialize:
+                    initialized = True
+            data[VERSION] = version
+            LOG_DEBUG(b'Migrated to version: ', version, data)
+
+    if logPlayerSettings:
+        logPlayerSettingsOnMigration()
+    callback(data)
+    return

@@ -1,0 +1,58 @@
+from constants import IS_CLIENT, OFFER_TOKEN_PREFIX, IS_WEB
+from items.components.supply_slot_categories import SlotCategories
+EPIC_TOKEN_PREFIX = b'epic:'
+EPIC_OFFER_TOKEN_PREFIX = OFFER_TOKEN_PREFIX + EPIC_TOKEN_PREFIX
+EPIC_SELECT_BONUS_NAME = b'epicSelectToken'
+EPIC_SKILL_TOKEN_NAME = b'abilityToken'
+EPIC_ARMORY_YARD_TOKEN_NAME = b'armory_yard'
+LEVELUP_TOKEN_TEMPLATE = b'epicmetagame:levelup:'
+EPIC_OFFER_TYPES = (b'brochure', b'battleBooster', b'expequipments')
+EPIC_CHOICE_REWARD_OFFER_TOKENS = tuple(EPIC_OFFER_TOKEN_PREFIX + oType + b':' for oType in EPIC_OFFER_TYPES)
+EPIC_CHOICE_REWARD_OFFER_GIFT_TOKENS = tuple(EPIC_OFFER_TOKEN_PREFIX + oType + b'_gift:' for oType in EPIC_OFFER_TYPES)
+EPICS_CHOICE_REWARD_OFFER_TOKEN_FREE_POSTFIX = b'free:'
+EPIC_CHOICE_REWARD_OFFER_TOKEN_PAID_POSTFIX = b'paid:'
+
+class EPIC_BATTLE_TEAM_ID(object):
+    TEAM_ATTACKER = 1
+    TEAM_DEFENDER = 2
+
+
+FRONTLINE_BONUSES_ORDER = (
+ b'battlePassPoints',
+ b'battleToken',
+ EPIC_SKILL_TOKEN_NAME,
+ b'lootBoxToken',
+ b'crystal',
+ b'epicSelectToken',
+ b'goodies',
+ b'crewBooks')
+EPIC_BATTLE_LEVEL_IMAGE_INDEX = (
+ (0,),
+ (1, 2, 3, 4),
+ (5, 6, 7, 8, 9),
+ (10, 11, 12, 13, 14),
+ (15, 16, 17, 18, 19),
+ (20,))
+CATEGORIES_ORDER = [
+ SlotCategories.FIRESUPPORT,
+ SlotCategories.RECONNAISSANCE,
+ SlotCategories.TACTICS]
+
+class Direction(object):
+    TOP = b'TOP'
+    LEFT = b'LEFT'
+    CENTER = b'CENTER'
+    RIGHT = b'RIGHT'
+    LANE_TO_DIRECTION = (
+     None, LEFT, CENTER, RIGHT, TOP)
+    VERTICAL_DIRECTIONS = (LEFT, RIGHT, CENTER)
+
+
+SECTORS = (b'A', b'B', b'C', b'D', b'E', b'F')
+if IS_CLIENT or IS_WEB:
+    from shared_utils import CONST_CONTAINER
+
+    class SECTOR_EDGE_STATE(CONST_CONTAINER):
+        NONE = 0
+        SAFE = 1
+        DANGER = 2

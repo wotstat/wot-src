@@ -1,0 +1,639 @@
+import collections
+from functools import partial
+import constants
+from typing import TYPE_CHECKING
+from frameworks.wulf import ViewSettings
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.crew.tooltips.vehicle_params_tooltip_view_model import VehicleParamsTooltipViewModel
+from gui.impl.gen.view_models.views.lobby.crew.tooltips.vehicle_params_category import VehicleParamsCategory
+from gui.impl.gen.view_models.views.lobby.crew.tooltips.vehicle_params_note import VehicleParamsNote, NoteThemeEnum
+from gui.impl.gen.view_models.views.lobby.crew.tooltips.vehicle_params_item import VehicleParamsItem, ValueStyleEnum
+from gui.impl.pub import ViewImpl
+from gui.shared.gui_items import KPI, getKpiAbilityFormatter
+from gui.impl import backport
+from gui.shared.items_parameters.params_helper import RELATIVE_PARAMS
+from gui.shared.items_parameters.param_name_helper import getVehicleParameterText
+from gui.shared.items_parameters import formatters as param_formatter
+from helpers import i18n
+from items.vehicle_items import CHASSIS_ITEM_TYPE
+from post_progression_common import ACTION_TYPES
+from gui.shared.utils import CHASSIS_REPAIR_TIME, SHOT_DISPERSION_ANGLE, DUAL_ACCURACY_COOLING_DELAY, RELOAD_TIME_SECS_PROP_NAME, isRomanNumberForbidden
+from items import perks, vehicles, tankmen, parseIntCompactDescr
+from gui.shared.items_parameters.bonus_helper import isSituationalBonus
+from gui.shared.items_parameters.formatters import isRelativeParameter
+from gui.shared.items_parameters.comparator import PARAM_STATE
+from shared_utils import first
+from CurrentVehicle import g_currentVehicle, g_currentPreviewVehicle
+if TYPE_CHECKING:
+    from typing import Optional
+    from gui.shared.gui_items import Vehicle
+    from gui.shared.tooltips.contexts import HangarParamContext
+_BONUS_TYPES_ORDER = {(constants.BonusTypes.EXTRA): 6, (constants.BonusTypes.SKILL): 5, 
+   (constants.BonusTypes.ROLE): 5, 
+   (constants.BonusTypes.PERK): 5, 
+   (constants.BonusTypes.OPTIONAL_DEVICE): 4, 
+   (constants.BonusTypes.EQUIPMENT): 3, 
+   (constants.BonusTypes.BATTLE_BOOSTER): 2, 
+   (constants.BonusTypes.PAIR_MODIFICATION): 1, 
+   (constants.BonusTypes.BASE_MODIFICATION): 0, 
+   (constants.BonusTypes.BATTLE_MODIFIERS): (-1)}
+_CREW_TYPES = (
+ constants.BonusTypes.PERK, constants.BonusTypes.SKILL)
+_MULTI_KPI_PARAMS = frozenset([
+ 36, 37, 38, 
+ 39, 40, 41, 42, 
+ 43, 44, 45, 
+ 46, 47, 48, 49, 
+ 50, 
+ 51, 
+ 52, 53, 
+ 54, 55, 
+ 56, 57, 58, 59, 60, 
+ 61, 62, 63, 64, 
+ 65, 
+ 66, 67, 68, 69, 70, 
+ 71, 72, 73, 74, 75, 76, 
+ 77, 78, 
+ 79, 
+ 80, 81, DUAL_ACCURACY_COOLING_DELAY])
+AUTORELOAD_TIME = b'autoReloadTime'
+_PARAMS_WITH_AGGREGATED_PENALTIES = {
+ DUAL_ACCURACY_COOLING_DELAY}
+_CREW_ICON = b'all'
+
+def _optDeviceCmp(x, y):
+
+    def _getTypePriority(itemName):
+        item = vehicles.g_cache.getOptionalDeviceByName(itemName)
+        if item.isDeluxe:
+            return 1
+        if item.isTrophy:
+            return 2
+        if item.isModernized:
+            return 3
+        return 0
+
+    return cmp(_getTypePriority(x), _getTypePriority(y))
+
+
+_TYPE_ITEMS_COMPARATORS = {(constants.BonusTypes.OPTIONAL_DEVICE): _optDeviceCmp}
+
+def _bonusCmp(x, y):
+    return cmp(_BONUS_TYPES_ORDER.get(y[1], 0), _BONUS_TYPES_ORDER.get(x[1], 0)) or cmp(x[1], y[1]) or _TYPE_ITEMS_COMPARATORS.get(x[1], (lambda _, __: 0))(x[0], y[0]) or cmp(x[0], y[0])
+
+
+def _getBonusID(bnsType, bnsId):
+    if bnsType == constants.BonusTypes.OPTIONAL_DEVICE:
+        return bnsId.split(b'_tier')[0]
+    else:
+        if bnsType in (constants.BonusTypes.PAIR_MODIFICATION, constants.BonusTypes.BASE_MODIFICATION):
+            mod = vehicles.g_cache.postProgression().getModificationByName(bnsId)
+            if mod is not None:
+                return mod.locName
+            return bnsId
+        return bnsId
+
+
+def _getBonusName(bnsType, bnsId, enabled=True, archetype=None):
+    itemStr = b''
+    useArchetypeLocale = archetype is not None and enabled is False
+    if bnsType in (constants.BonusTypes.EQUIPMENT, constants.BonusTypes.OPTIONAL_DEVICE):
+        if useArchetypeLocale:
+            bnsR = R.strings.artefacts.archetype.dyn(archetype)
+            noTplStrR = bnsR and bnsR.name.dyn(b'noTemplate')
+            if noTplStrR:
+                itemStr = backport.text(noTplStrR())
+            else:
+                itemStr = backport.text(R.strings.artefacts.archetype.template(), name=backport.text(bnsR.name()) if bnsR else b'')
+        else:
+            bnsR = R.strings.artefacts.dyn(bnsId)
+            if bnsR:
+                itemStr = backport.text(bnsR.name())
+    elif bnsType == constants.BonusTypes.SKILL:
+        itemStr = backport.text(R.strings.tooltips.vehicleParams.bonus.skill.template(), name=backport.text(R.strings.crew_perks.dyn(bnsId).name()), type=backport.text(R.strings.tooltips.vehicleParams.skill.name()))
+    elif bnsType == constants.BonusTypes.PERK:
+        perkItem = perks.g_cache.perks[int(bnsId)]
+        itemStr = backport.text(R.strings.tooltips.vehicleParams.bonus.perk.template(), name=perkItem.name, type=backport.text(R.strings.tooltips.vehicleParams.skill.name()))
+    elif bnsType == constants.BonusTypes.ROLE:
+        bnsR = R.strings.tooltips.vehicleParams.bonus.tankmanLevel.dyn(bnsId)
+        if bnsR.exists():
+            itemStr = backport.text(R.strings.tooltips.vehicleParams.bonus.role.template(), name=backport.text(bnsR()))
+    elif bnsType == constants.BonusTypes.EXTRA:
+        bnsR = R.strings.tooltips.vehicleParams.bonus.extra.dyn(bnsId)
+        if bnsR.exists():
+            itemStr = backport.text(R.strings.tooltips.vehicleParams.bonus.role.template(), name=backport.text(bnsR()))
+    elif bnsType == constants.BonusTypes.BATTLE_BOOSTER:
+        bnsR = R.strings.artefacts.dyn(bnsId)
+        if bnsR:
+            itemStr = backport.text(R.strings.tooltips.vehicleParams.bonus.battleBooster.template(), name=backport.text(bnsR.name()))
+    elif bnsType == constants.BonusTypes.PAIR_MODIFICATION:
+        bnsR = R.strings.artefacts.dyn(bnsId)
+        if bnsR:
+            itemStr = backport.text(R.strings.tooltips.vehicleParams.bonus.vehPostProgressionPairModification.template(), name=backport.text(bnsR.name()))
+    elif bnsType == constants.BonusTypes.BASE_MODIFICATION:
+        bnsR = R.strings.artefacts.dyn(bnsId)
+        if bnsR:
+            itemStr = backport.text(R.strings.tooltips.vehicleParams.bonus.vehPostProgressionBaseModification.template(), name=backport.text(bnsR.name()))
+    elif bnsType == constants.BonusTypes.BATTLE_MODIFIERS:
+        itemStr = backport.text(R.strings.tooltips.vehicleParams.battle_modifier())
+    return itemStr
+
+
+def _getNumNotNullPenalty(penalties):
+    nullPenaltyTypes = []
+    actualPenalties = []
+    for penalty in penalties:
+        if penalty.value != 0:
+            actualPenalties.append(penalty)
+        else:
+            nullPenaltyTypes.append(penalty.roleName)
+
+    return (
+     actualPenalties, nullPenaltyTypes)
+
+
+def _formatValueChange(paramName, value, colorScheme):
+    if not param_formatter.isRelativeParameter(paramName):
+        if isinstance(value, collections.Sized):
+            state = zip([PARAM_STATE.WORSE] * len(value), value)
+        else:
+            state = (
+             PARAM_STATE.WORSE, value)
+        valueStr = param_formatter.formatParameter(paramName, value, state, colorScheme=colorScheme, formatSettings=param_formatter.DELTA_PARAMS_SETTING, allowSmartRound=False)
+        return valueStr or b''
+    else:
+        return b''
+
+    return
+
+
+def _isUpgradedInstanceOfInstalled(installedDevices, deviceDescr):
+    if not deviceDescr.isUpgradable:
+        return False
+    _, __, upgradedID = parseIntCompactDescr(deviceDescr.upgradeInfo.upgradedCompDescr)
+    upgradedDescr = vehicles.g_cache.optionalDevices().get(upgradedID)
+    if upgradedDescr.name in installedDevices:
+        return True
+    return _isUpgradedInstanceOfInstalled(installedDevices, upgradedDescr)
+
+
+def _isDowngradedInstanceOfInstalled(installedDevices, deviceDescr):
+    if not (deviceDescr.isUpgradable or deviceDescr.isUpgraded) or deviceDescr.downgradeInfo is None:
+        return False
+    _, __, downgradedID = parseIntCompactDescr(deviceDescr.downgradeInfo.downgradedCompDescr)
+    downgradedDescr = vehicles.g_cache.optionalDevices().get(downgradedID)
+    if downgradedDescr.name in installedDevices:
+        return True
+    else:
+        return _isDowngradedInstanceOfInstalled(installedDevices, downgradedDescr)
+
+
+class BaseVehicleParamsTooltipView(ViewImpl):
+    __slots__ = (b'_paramName', b'_context', b'_supportAdvanced', b'_extendedData', b'_hasPerksBonuses')
+
+    def __init__(self, paramName, context, supportAdvanced):
+        settings = ViewSettings(R.views.lobby.crew.tooltips.VehicleParamsTooltipView(), model=VehicleParamsTooltipViewModel())
+        super(BaseVehicleParamsTooltipView, self).__init__(settings)
+        self._paramName = paramName
+        self._context = context
+        self._supportAdvanced = supportAdvanced
+        self._paramName = paramName
+        return
+
+    @property
+    def vehicle(self):
+        return self._context.buildItem()
+
+    @property
+    def viewModel(self):
+        return super(BaseVehicleParamsTooltipView, self).getViewModel()
+
+    @staticmethod
+    def _formatValueText(style, text):
+        return (b'%({0}_open)s{1}%({0}_close)s').format(style.value, text.replace(b'&lt;', b'<'))
+
+    def _onLoading(self, *args, **kwargs):
+        super(BaseVehicleParamsTooltipView, self)._onLoading(*args, **kwargs)
+        comparator = self._context.getComparator()
+        self._extendedData = comparator.getExtendedData(self._paramName)
+        self._hasPerksBonuses = comparator.hasBonusOfType(constants.BonusTypes.PERK)
+        with self.viewModel.transaction() as tx:
+            self._fillModel(tx)
+        return
+
+    def _fillModel(self, model):
+        return
+
+
+class BaseVehicleAdvancedParamsTooltipView(BaseVehicleParamsTooltipView):
+
+    def _fillModel(self, model):
+        isExtraParam = KPI.Name.hasValue(self._paramName)
+        model.setIsAdvanced(self._supportAdvanced)
+        if isExtraParam:
+            title = self.__getKpiTitle()
+            desc = self.__getKpiDescr()
+        else:
+            titleParamName = param_formatter.getTitleParamName(self.vehicle, self._paramName)
+            measureParamName = param_formatter.getMeasureParamName(self.vehicle, self._paramName)
+            title = self.__getTitleStr(titleParamName)
+            measureUnitLoc = param_formatter.MEASURE_UNITS.get(measureParamName, b'')
+            model.setUnitOfMeasurement(i18n.makeString(measureUnitLoc) if i18n.isValidKey(measureUnitLoc) else b'')
+            desc = self.__getDescriptionStr()
+        if isRelativeParameter(self._paramName) and self._context.isApproximately:
+            approxImgRes = R.images.gui.maps.icons.vehPostProgression.tooltips.dyn(self._extendedData.state[0])
+            if approxImgRes.exists():
+                notes = model.getHeaderNotes()
+                note = VehicleParamsNote()
+                note.setIcon(approxImgRes())
+                note.setTitle(backport.text(R.strings.veh_post_progression.tooltips.ttc.approximately()))
+                note.setTheme(NoteThemeEnum.CONTENT)
+                notes.addViewModel(note)
+        model.setTitle(title)
+        model.setDescription(str(desc))
+        paramIcon = self.__getIcon(self._paramName)
+        if paramIcon.isValid():
+            model.setIcon(paramIcon())
+        if self._paramName == AUTORELOAD_TIME and self._hasExtendedInfo():
+            notes = model.getFooterNotes()
+            note = VehicleParamsNote()
+            note.setIcon(R.images.gui.maps.icons.modules.autoLoaderGunBoost())
+            note.setTitle(self._getAutoReloadTimeExtendedDescription())
+            note.setTheme(NoteThemeEnum.AUTORELOADTIME)
+            notes.addViewModel(note)
+        return
+
+    def _hasExtendedInfo(self):
+        return True
+
+    def _getAutoReloadTimeDescription(self):
+        return backport.text(R.strings.tooltips.tank_params.desc.autoReloadTime())
+
+    def _getAutoReloadTimeExtendedDescription(self):
+        return backport.text(R.strings.tooltips.tank_params.desc.autoReloadTime.boost.shortDescription())
+
+    def __getTitleStr(self, titleParamName):
+        if self._paramName == SHOT_DISPERSION_ANGLE and self.vehicle and self.vehicle.descriptor.isMultiGunVehicle and self.vehicle.descriptor.isAutoShootGunVehicle:
+            strRootPath = getattr(R.strings.menu.tank_params, titleParamName).dyn(b'withAutoShoot')
+        else:
+            strRootPath = R.strings.menu.tank_params.dyn(titleParamName)
+        strPath = strRootPath.extendedTitle if strRootPath.dyn(b'extendedTitle').exists() else strRootPath
+        return backport.text(strPath())
+
+    def __getDescriptionStr(self):
+        if self._paramName == AUTORELOAD_TIME and self._hasExtendedInfo():
+            return self._getAutoReloadTimeDescription()
+        if self._paramName == CHASSIS_REPAIR_TIME and self.vehicle and self.vehicle.isTrackWithinTrack:
+            return backport.text(R.strings.tooltips.tank_params.desc.chassisRepairTimeYoh())
+        if self._paramName == SHOT_DISPERSION_ANGLE and self.vehicle and self.vehicle.descriptor.hasDualAccuracy:
+            return backport.text(R.strings.tooltips.tank_params.desc.shotDispersionAngle.withDualAccuracy())
+        if self._paramName == SHOT_DISPERSION_ANGLE and self.vehicle and self.vehicle.descriptor.isMultiGunVehicle and self.vehicle.descriptor.isAutoShootGunVehicle:
+            return backport.text(R.strings.tooltips.tank_params.desc.shotDispersionAngle.withAutoShoot())
+        if self._paramName == CHASSIS_REPAIR_TIME and self.vehicle and self.vehicle.isMultiTrack:
+            trackType = CHASSIS_ITEM_TYPE.TRACK_TYPE_MAP[self.vehicle.chassisType]
+            return backport.text(R.strings.tooltips.tank_params.desc.chassisRepairTimeMultiTrack.dyn(trackType)())
+        return backport.text(R.strings.tooltips.tank_params.desc.dyn(self._paramName)())
+
+    @staticmethod
+    def __getIcon(parameter):
+        pathToIcons = R.images.gui.maps.icons.vehParams.big
+        defaultIcon = R.invalid() if parameter in RELATIVE_PARAMS else pathToIcons.param_not_found
+        return pathToIcons.dyn(parameter, defaultIcon)
+
+    def __getKpiTitle(self):
+        customTitlePath = R.strings.tank_setup.kpi.title.dyn(self._paramName)
+        if customTitlePath:
+            return backport.text(customTitlePath())
+        return backport.text(R.strings.menu.extraParams.header(), paramName=backport.text(getVehicleParameterText(self._paramName, isPositive=True)))
+
+    def __getKpiDescr(self):
+        descr = backport.text(R.strings.menu.extraParams.name.dyn(self._paramName, R.strings.menu.extraParams.desc)())
+        overridedDescr = None
+        if self.vehicle and self.vehicle.isTankWithAbility:
+            overridedDescr = self.__getOverridedDescrForAbility(descr)
+        return overridedDescr or descr
+
+    def __getOverridedDescrForAbility(self, defaultDescr):
+        abilityID = self.vehicle.descriptor.type.ability
+        abilityEquipment = vehicles.g_cache.getEquipmentByID(abilityID)
+        customDescPath = R.strings.menu.custom.dyn(abilityEquipment.name)
+        if not customDescPath:
+            return
+        else:
+            customDescPath = customDescPath.extraParams.name.dyn(self._paramName)
+            textFormatter = getKpiAbilityFormatter(abilityEquipment)
+            if customDescPath and textFormatter:
+                return backport.text(customDescPath(), **textFormatter(abilityEquipment, defaultDescr))
+            return
+
+
+class FrontlineAdvancedParamsTooltipView(BaseVehicleAdvancedParamsTooltipView):
+
+    def _fillModel(self, model):
+        title = self.__getTitleStr(self._paramName)
+        model.setTitle(title)
+        descr = self.__getDescrStr(self._paramName)
+        model.setDescription(descr)
+        paramIcon = self.__getIcon(self._paramName)
+        if paramIcon.isValid():
+            model.setIcon(paramIcon())
+        return
+
+    def __getTitleStr(self, titleParamName):
+        strPath = R.strings.fl_supply_objects.page.object.vehParams.title.dyn(titleParamName)
+        if strPath.exists():
+            return backport.text(strPath())
+        return backport.text(R.strings.menu.vehicleInfo.params.dyn(titleParamName)())
+
+    def __getDescrStr(self, descrParamName):
+        strPath = R.strings.fl_supply_objects.page.object.vehParams.description.dyn(descrParamName)
+        if strPath.exists():
+            return backport.text(strPath())
+        return backport.text(R.strings.tooltips.tank_params.desc.dyn(descrParamName)())
+
+    @staticmethod
+    def __getIcon(parameter):
+        img = R.images.frontline.gui.maps.icons.supplyObjects.paramsIcon.dyn(parameter)
+        if img.exists():
+            return img
+        return R.images.gui.maps.icons.vehParams.big.dyn(parameter)
+
+
+class VehicleAdvancedParamsTooltipView(BaseVehicleAdvancedParamsTooltipView):
+
+    def _fillModel(self, model):
+        super(VehicleAdvancedParamsTooltipView, self)._fillModel(model)
+        if self._paramName == RELOAD_TIME_SECS_PROP_NAME and self.vehicle.isClippedDualGun:
+            return
+        hasSituational = self._fillBonuses(model)
+        if self.vehicle:
+            self._fillPenalties(model)
+            self._fillFootNotes(model, hasSituational)
+        return
+
+    def _fillBonuses(self, model):
+        result = collections.defaultdict(list)
+        vehicle = self.vehicle
+        situationalScheme = (
+         partial(self._formatValueText, ValueStyleEnum.RED),
+         partial(self._formatValueText, ValueStyleEnum.WHITEORANGE),
+         partial(self._formatValueText, ValueStyleEnum.YELLOW))
+        extractedBonusScheme = (
+         partial(self._formatValueText, ValueStyleEnum.RED),
+         partial(self._formatValueText, ValueStyleEnum.GREENBRIGHT),
+         partial(self._formatValueText, ValueStyleEnum.GREENBRIGHT))
+        vehPostProgressionBonusLevels = {step.action.getTechName(): step.getLevel() for step in vehicle.postProgression.iterUnorderedSteps() if step.action.actionType == ACTION_TYPES.MODIFICATION}
+        bonuses = sorted(self._extendedData.bonuses, cmp=_bonusCmp)
+        bonusExtractor = self._context.getBonusExtractor(vehicle, bonuses, self._paramName)
+        hasSituational = False
+        appliedOptDeviceBonuses = []
+        installedArchetypes = set()
+        for bnsType, bnsId, pInfo in bonusExtractor.getBonusInfo():
+            diff = pInfo.getParamDiff()
+            tooltipSections, archetype = self._getTooltipGroupingForBonus(bnsType, bnsId)
+            if archetype is not None and bnsType != constants.BonusTypes.BATTLE_MODIFIERS:
+                installedArchetypes.add(archetype)
+            formattedBnsID = _getBonusID(bnsType, bnsId)
+            isSituational = isSituationalBonus(formattedBnsID, bnsType, pInfo.name)
+            scheme = situationalScheme if isSituational else extractedBonusScheme
+            valueStr = param_formatter.formatParameterDelta(pInfo, scheme)
+            if isSituational:
+                if diff == 0.0 or isinstance(diff, (list, tuple)) and not filter(None, diff):
+                    valueStr = b''
+            if valueStr is not None:
+                hasSituational = hasSituational or isSituational
+                bonusName = _getBonusName(bnsType, formattedBnsID)
+                itemModel = VehicleParamsItem()
+                itemModel.setIsEnabled(True)
+                itemModel.setValue(valueStr)
+                itemModel.setTitle(bonusName)
+                if isSituational:
+                    itemModel.setAsteriskIcon(R.images.gui.maps.icons.tooltip.asterisk_optional())
+                levelIcon = self.__getLevelIcon(bnsId, bnsType, vehPostProgressionBonusLevels)
+                itemModel.setIcon(param_formatter.getBonusIconRes(formattedBnsID, bnsType, archetype) if levelIcon is None else levelIcon)
+                appliedOptDeviceBonuses.append(bnsId)
+                for tooltipSection in tooltipSections:
+                    result[tooltipSection].append(itemModel)
+
+        for bnsId, bnsType in sorted(self._extendedData.possibleBonuses, cmp=_bonusCmp):
+            if bnsType == constants.BonusTypes.PERK and not self._hasPerksBonuses:
+                continue
+            if bnsType == constants.BonusTypes.EQUIPMENT:
+                if not vehicle.consumables.layoutCapacity:
+                    continue
+            if bnsType == constants.BonusTypes.BATTLE_BOOSTER:
+                if not vehicle.battleBoosters.layoutCapacity:
+                    continue
+            if bnsType == constants.BonusTypes.OPTIONAL_DEVICE:
+                if not vehicle.optDevices.layoutCapacity:
+                    continue
+                device = vehicles.g_cache.getOptionalDeviceByName(bnsId)
+                if device.isModernized or device.isTrophy:
+                    if device.downgradeInfo is not None or device.isUpgraded:
+                        continue
+                    elif _isUpgradedInstanceOfInstalled(appliedOptDeviceBonuses, device) or _isDowngradedInstanceOfInstalled(appliedOptDeviceBonuses, device):
+                        continue
+            tooltipSections, archetype = self._getTooltipGroupingForBonus(bnsType, bnsId)
+            if bnsType != constants.BonusTypes.BATTLE_MODIFIERS:
+                if archetype is not None and archetype in installedArchetypes:
+                    continue
+            isInactive = False
+            if (bnsId, bnsType) in self._extendedData.inactiveBonuses.keys():
+                isInactive = True
+            formattedBnsID = _getBonusID(bnsType, bnsId)
+            isEnabled = (formattedBnsID, bnsType) in bonuses if bnsType in _CREW_TYPES else False
+            itemModel = VehicleParamsItem()
+            if isInactive and bnsType != constants.BonusTypes.BATTLE_BOOSTER:
+                itemModel.setAsteriskIcon(R.images.gui.maps.icons.tooltip.asterisk_red())
+            itemModel.setIsEnabled(False)
+            bnsArchetype = None if isInactive else archetype
+            itemModel.setTitle(_getBonusName(bnsType, formattedBnsID, enabled=isEnabled, archetype=bnsArchetype))
+            levelIcon = self.__getLevelIcon(bnsId, bnsType, vehPostProgressionBonusLevels)
+            itemModel.setIcon(levelIcon if levelIcon else param_formatter.getBonusIconRes(formattedBnsID, bnsType, bnsArchetype))
+            for tooltipSection in tooltipSections:
+                result[tooltipSection].append(itemModel)
+
+            if archetype is not None:
+                installedArchetypes.add(archetype)
+
+        categories = model.getCategories()
+        for section in constants.TTC_TOOLTIP_SECTIONS.ALL:
+            bonuses = result[section]
+            if bonuses:
+                sectionTitle = R.strings.tooltips.vehicleParams.bonuses.title.dyn(section)()
+                category = VehicleParamsCategory()
+                category.setTitle(backport.text(sectionTitle))
+                categoryBonuses = category.getItems()
+                for bonus in bonuses:
+                    categoryBonuses.addViewModel(bonus)
+
+                categories.addViewModel(category)
+
+        return hasSituational
+
+    def _fillPenalties(self, model):
+        baseColorScheme = (
+         partial(self._formatValueText, ValueStyleEnum.RED),
+         partial(self._formatValueText, ValueStyleEnum.WHITESPANISH),
+         partial(self._formatValueText, ValueStyleEnum.GREENBRIGHT))
+        modelPenalties = model.getPenalties()
+        penalties = self._extendedData.penalties
+        actualPenalties, _ = _getNumNotNullPenalty(penalties)
+        penaltiesLen = len(penalties)
+        numNotNullPenaltyTankman = len(actualPenalties)
+        if penaltiesLen > numNotNullPenaltyTankman:
+            model.setIsNotFullCrew(True)
+            penaltyModel = VehicleParamsItem()
+            penaltyModel.setTitle(backport.text(R.strings.tooltips.vehicleParams.penalty.crewNotFull.template()))
+            penaltyModel.setIcon(R.images.gui.maps.icons.vehParams.tooltips.penalties.all())
+            modelPenalties.addViewModel(penaltyModel)
+        if numNotNullPenaltyTankman > 0:
+            if self._paramName in _PARAMS_WITH_AGGREGATED_PENALTIES:
+                self.__fillAggregatedNotNullPenalties(penalties, modelPenalties, baseColorScheme)
+            else:
+                self.__fillNotNullPenaltyTankmen(penalties, modelPenalties, baseColorScheme)
+        return
+
+    def _fillFootNotes(self, model, hasSituational):
+        notes = model.getFooterNotes()
+        result = []
+        if len(self._extendedData.bonuses) > 1 and self._paramName in _MULTI_KPI_PARAMS:
+            result.append((backport.text(R.strings.menu.extraParams.multiDesc()), None, NoteThemeEnum.TEXTONLY))
+        if hasSituational:
+            result.append((
+             backport.text(R.strings.tooltips.vehicleParams.bonus.situational()),
+             R.images.gui.maps.icons.tooltip.asterisk_optional(),
+             NoteThemeEnum.WARNING))
+        if self._extendedData.inactiveBonuses:
+            conditionsToActivate = set(self._extendedData.inactiveBonuses.values())
+            conditionsToActivate = [backport.text(R.strings.crew_perks.dyn(bnsID).name()) for bnsID, _ in conditionsToActivate if R.strings.crew_perks.dyn(bnsID).isValid()]
+            if conditionsToActivate:
+                result.append((
+                 backport.text(R.strings.tooltips.vehicleParams.bonus.inactiveDescription(), skillName=(b', ').join(conditionsToActivate)),
+                 R.images.gui.maps.icons.tooltip.asterisk_red(),
+                 NoteThemeEnum.WARNING))
+        for title, icon, theme in result:
+            note = VehicleParamsNote()
+            note.setTitle(title)
+            note.setTheme(theme)
+            if icon is not None:
+                note.setIcon(icon)
+            notes.addViewModel(note)
+
+        return
+
+    def _getTooltipGroupingForBonus(self, bonusType, bonusName):
+        if bonusType == constants.BonusTypes.EXTRA:
+            return ([constants.TTC_TOOLTIP_SECTIONS.EQUIPMENT], None)
+        else:
+            if bonusType == constants.BonusTypes.BATTLE_MODIFIERS:
+                return ([constants.TTC_TOOLTIP_SECTIONS.BATTLE_MODIFIERS], self._context.getBattleModifiersType())
+            if bonusType == constants.BonusTypes.OPTIONAL_DEVICE:
+                artifact = vehicles.g_cache.getOptionalDeviceByName(bonusName)
+            elif bonusType == constants.BonusTypes.SKILL:
+                artifact = tankmen.getSkillsConfig().getSkill(bonusName)
+            elif bonusType in (constants.BonusTypes.BASE_MODIFICATION, constants.BonusTypes.PAIR_MODIFICATION):
+                artifact = vehicles.g_cache.postProgression().getModificationByName(bonusName)
+            else:
+                artifact = vehicles.g_cache.getEquipmentByName(bonusName)
+            return (
+             artifact.tooltipSection, getattr(artifact, b'archetype', None))
+
+    def _hasExtendedInfo(self):
+        if g_currentPreviewVehicle.isPresent():
+            item = g_currentPreviewVehicle.item
+        else:
+            item = g_currentVehicle.item if g_currentVehicle else None
+        return item and item.descriptor.gun.autoreloadHasBoost or not item
+
+    def _getAutoReloadTimeDescription(self):
+        return backport.text(R.strings.tooltips.tank_params.desc.autoReloadTime.boost())
+
+    def _getAutoReloadTimeExtendedDescription(self):
+        return backport.text(R.strings.tooltips.tank_params.desc.autoReloadTime.boost.description())
+
+    def __fillAggregatedNotNullPenalties(self, penalties, model, baseColorScheme):
+        rootStr = R.strings.tooltips.vehicleParams.penalty
+        notNativeTankmenPenalties, otherPenalties = [], []
+        for penalty in penalties:
+            if penalty.vehicleIsNotNative:
+                notNativeTankmenPenalties.append(penalty)
+            elif penalty.value != 0:
+                otherPenalties.append(penalty)
+
+        self.__fillGroupPenalties(model, otherPenalties, rootStr.tankmanLevel, rootStr.crewLevel, baseColorScheme)
+        self.__fillGroupPenalties(model, notNativeTankmenPenalties, rootStr.tankmanDifferentVehicle, rootStr.crewDifferentVehicle, baseColorScheme)
+        return
+
+    def __fillGroupPenalties(self, modelPenalties, penalties, templateStr, crewStr, baseColorScheme):
+        if not penalties:
+            return
+        if len(penalties) == 1:
+            penaltyItem = first(penalties)
+            roleName = penaltyItem.roleName
+            title = backport.text(templateStr.template(), tankmanType=backport.text(R.strings.item_types.tankman.roles.dyn(roleName)()))
+            valueStr = _formatValueChange(self._extendedData.name, penaltyItem.value, baseColorScheme)
+            model = self.__createPenaltyModel(valueStr, title, roleName)
+        else:
+            value = sum(penalty.value for penalty in penalties)
+            valueStr = _formatValueChange(self._extendedData.name, value, baseColorScheme)
+            model = self.__createPenaltyModel(valueStr, backport.text(crewStr()), _CREW_ICON)
+        modelPenalties.addViewModel(model)
+        return
+
+    def __fillNotNullPenaltyTankmen(self, penalties, modelPenalties, baseColorScheme):
+        for penalty in penalties:
+            valueStr = _formatValueChange(self._extendedData.name, penalty.value, baseColorScheme)
+            if valueStr:
+                if penalty.penaltyType == constants.PenaltyTypes.CREW:
+                    if penalty.vehicleIsNotNative:
+                        template = R.strings.tooltips.vehicleParams.penalty.tankmanDifferentVehicle.template()
+                    else:
+                        template = R.strings.tooltips.vehicleParams.penalty.tankmanLevel.template()
+                    penaltyStr = backport.text(template, tankmanType=backport.text(R.strings.item_types.tankman.roles.dyn(penalty.roleName)()))
+                elif penalty.penaltyType == constants.PenaltyTypes.BATTLE_MODIFIERS:
+                    penaltyStr = backport.text(R.strings.tooltips.vehicleParams.penalty.battleModifiers())
+                else:
+                    penaltyStr = b''
+                penaltyModel = self.__createPenaltyModel(valueStr, penaltyStr, penalty.roleName)
+                modelPenalties.addViewModel(penaltyModel)
+
+        return
+
+    @staticmethod
+    def __createPenaltyModel(value, title, iconName):
+        penaltyModel = VehicleParamsItem()
+        penaltyModel.setValue(value)
+        penaltyModel.setTitle(title)
+        penaltyModel.setIcon(param_formatter.getPenaltyIconRes(iconName))
+        return penaltyModel
+
+    @staticmethod
+    def __getLevelIcon(bnsID, bnsType, vehPostProgressionBonusLevels):
+        if bnsType == constants.BonusTypes.BASE_MODIFICATION:
+            level = vehPostProgressionBonusLevels.get(bnsID, None)
+            numberFormat = b'arabic_number_{}' if isRomanNumberForbidden() else b'roman_number_{}'
+            if level is not None:
+                return R.images.gui.maps.icons.vehPostProgression.stepLevels.c_24x24.dyn(numberFormat.format(level))()
+        return
+
+
+class VehicleAvgParamsTooltipView(BaseVehicleAdvancedParamsTooltipView):
+    _AVG_TO_RANGE_PARAMETER_NAME = {b'avgDamage': b'damage', 
+       b'avgPiercingPower': b'piercingPower'}
+
+    def _fillModel(self, model):
+        super(VehicleAvgParamsTooltipView, self)._fillModel(model)
+        rangeParamName = self._AVG_TO_RANGE_PARAMETER_NAME[self._paramName]
+        value = self._context.getComparator().getExtendedData(rangeParamName).value
+        fmtValue = param_formatter.formatParameter(rangeParamName, value)
+        title = backport.text(R.strings.tooltips.tank_params.avgParamComment.dyn(rangeParamName)(), units=i18n.makeString(param_formatter.MEASURE_UNITS.get(rangeParamName)))
+        categories = model.getCategories()
+        category = VehicleParamsCategory()
+        items = category.getItems()
+        avgItem = VehicleParamsItem()
+        avgItem.setValue(self._formatValueText(ValueStyleEnum.WHITESPANISH, fmtValue))
+        avgItem.setTitle(title)
+        items.addViewModel(avgItem)
+        categories.addViewModel(category)
+        return

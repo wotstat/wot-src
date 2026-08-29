@@ -1,0 +1,98 @@
+from collections import namedtuple
+from gui.impl.gen import R
+from gui.impl.lobby.loot_box.loot_box_helper import getLootBoxIDFromToken
+from gui.server_events.bonuses import VehiclesBonus
+from gui.shared.gui_items.Vehicle import getNationLessName
+from gui_lootboxes.gui.impl.gen.view_models.views.lobby.gui_lootboxes.lb_bonus_type_model import BonusType
+from helpers import dependency
+from shared_utils import first
+from skeletons.gui.shared import IItemsCache
+from constants import LOOTBOX_TOKEN_PREFIX
+from gui_lootboxes.gui.shared.events import LootBoxesEvent
+from gui_lootboxes.gui.impl.gen.view_models.views.lobby.gui_lootboxes.lootbox_key_view_model import LootboxKeyViewModel
+from gui.shared import g_eventBus, EVENT_BUS_SCOPE
+from gui.shared.gui_items.loot_box import LootBoxKey
+VEHICLES_BONUS_NAME = b'vehicles'
+_VideoRewardData = namedtuple(b'_VideoRewardData', (b'bonus', b'video', b'isGuaranteed', b'lootbox'))
+
+def detectBonusType(bonuses):
+    isVehicleBonus = any(bonus.getName() == VEHICLES_BONUS_NAME for bonus in bonuses)
+    bonusType = BonusType.DEFAULT
+    if isVehicleBonus:
+        bonusType = BonusType.VEHICLE
+        for bonus in bonuses:
+            if bonus.getName() == VEHICLES_BONUS_NAME:
+                vehicle, vehInfo = bonus.getVehicles()[0]
+                if bonus.isRentVehicle(vehInfo):
+                    bonusType = BonusType.RENTEDVEHICLE
+                    break
+                elif vehicle.isStatTrack:
+                    bonusType = BonusType.STATTRACKVEHICLE
+                    break
+
+    return bonusType
+
+
+def getVideoResForVehicle(vehicle):
+    return getNationLessName(vehicle.name).replace(b'-', b'_')
+
+
+def getVideoExists(lbCategory, videoRes):
+    resId = R.videos.lootbox_reward_video.dyn(lbCategory).dyn(videoRes)
+    return resId.exists()
+
+
+def isGuaranteedReward(limitName, usedLimits):
+    return usedLimits is not None and limitName in usedLimits
+
+
+@dependency.replace_none_kwargs(itemsCache=IItemsCache)
+def getVideoResForLootbox(lootboxToken, itemsCache=None):
+    lootBoxID = getLootBoxIDFromToken(lootboxToken)
+    lootBox = itemsCache.items.tokens.getLootBoxByID(int(lootBoxID))
+    return lootBox.getType()
+
+
+@dependency.replace_none_kwargs(itemsCache=IItemsCache)
+def getOpenedLootBoxFromRewards(rewards, itemsCache=None):
+    return first(itemsCache.items.tokens.getLootBoxByTokenID(tID) for tID, tData in rewards.get(b'tokens', {}).iteritems() if tID.startswith(LOOTBOX_TOKEN_PREFIX) and tData.get(b'count', 0) < 0)
+
+
+def _videoRewardsSortOrder(rewards, order):
+    rewardName = rewards.bonus.getName()
+    if rewardName in order:
+        return order.index(rewardName)
+    return len(order)
+
+
+@dependency.replace_none_kwargs(itemsCache=IItemsCache)
+def processVehicles(rewardsData, vehiclesList, isGuaranteed, lootbox, itemsCache=None, rewardsCategory=None):
+    for vehiclesDict in vehiclesList:
+        for venIntCD, vehicleData in vehiclesDict.iteritems():
+            vehicleBonus = VehiclesBonus(b'vehicles', {venIntCD: vehicleData})
+            if {
+             b'rentCompensation', b'customCompensation'}.isdisjoint(vehicleData):
+                vehicle = itemsCache.items.getItemByCD(venIntCD)
+                video = getVideoResForVehicle(vehicle)
+                if getVideoExists(lootbox.getCategory(), video):
+                    rewardsData[rewardsCategory].append(_VideoRewardData(vehicleBonus, video, isGuaranteed, lootbox))
+
+    return
+
+
+def repeatOpen(args=None):
+    lootBoxID = int(args.get(b'lootBoxID', 0))
+    count = int(args.get(b'count', 1))
+    keyID = int(args.get(b'keyID', 0))
+    g_eventBus.handleEvent(LootBoxesEvent(LootBoxesEvent.OPEN_LOOTBOXES, ctx={b'lootBoxID': lootBoxID, b'count': count, b'keyID': keyID}), scope=EVENT_BUS_SCOPE.LOBBY)
+    return
+
+
+def fillKeyModel(keyModel, key):
+    keyModel.setKeyID(key.keyID)
+    keyModel.setCount(key.count)
+    keyModel.keyType.setValue(key.keyType)
+    keyModel.setIconName(key.iconName)
+    keyModel.setUserName(key.userName)
+    keyModel.setOpenProbability(key.openProbability)
+    return

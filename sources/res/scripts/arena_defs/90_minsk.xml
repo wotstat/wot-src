@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:90_minsk/name</name>
+	<description>#arenas:90_minsk/description</description>
+	<geometry>spaces/90_minsk</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-506.218903 -520.71991</bottomLeft>
+		<upperRight>527.31134 512.810303</upperRight>
+	</boundingBox>
+	<minimap>spaces/90_minsk/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_minsk_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_minsk_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_minsk_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_minsk_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_minsk_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_minsk_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_autumn_01</wwambientSound>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>133.099823 400.477753</position1>
+				</team1>
+				<team2>
+					<position1>99.5292053 -424.443451</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>101.529366 410.418335</position>
+				</team1>
+				<team2>
+					<position>-264.880524 -308.229187</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-188.718109 203.76239</position1>
+					<position2>372.080231 24.4198418</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+	</gameplayTypes>
+	<roadMap></roadMap>
+	<mapActivities>
+		<scenario>
+			<startTime>0 0</startTime>
+			<possibility>100</possibility>
+			<interval>720</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>minsk_helicopters</name>
+			<trajectories>
+				<warplane>
+					<preset>minsk_helic_1</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>minsk_helic_2</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0.800000012 0.800000012</startTime>
+				</warplane>
+				<warplane>
+					<preset>minsk_helic_3</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>4 4</startTime>
+				</warplane>
+				<warplane>
+					<preset>minsk_helic_4</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>4 5</startTime>
+				</warplane>
+				<warplane>
+					<preset>minsk_helic_5</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>5 5</startTime>
+				</warplane>
+				<warplane>
+					<preset>minsk_helic_6</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>5 6</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+		<scenario>
+			<startTime>60 70</startTime>
+			<possibility>100</possibility>
+			<interval>360</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>minsk_airfight_01</name>
+			<trajectories>
+				<warplane>
+					<preset>minsk_aircraft_1</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>minsk_aircraft_21</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>3.5 3.5</startTime>
+				</warplane>
+				<warplane>
+					<preset>minsk_aircraft_22</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>3.5 3.5</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+		<scenario>
+			<startTime>180 200</startTime>
+			<possibility>100</possibility>
+			<interval>450</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>minsk_airfight_02</name>
+			<trajectories>
+				<warplane>
+					<preset>minsk_aircraft_31</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0.00000 0.00000</startTime>
+				</warplane>
+				<warplane>
+					<preset>minsk_aircraft_32</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>2.20000005 2.20000005</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+	</mapActivities>
+</root>

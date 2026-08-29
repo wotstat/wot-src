@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:19_monastery/name</name>
+	<description>#arenas:19_monastery/description</description>
+	<geometry>spaces/19_monastery</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-500 -500</bottomLeft>
+		<upperRight>500 500</upperRight>
+	</boundingBox>
+	<minimap>spaces/19_monastery/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_abbey_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_abbey_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_abbey_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_abbey_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_abbey_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_abbey_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_summer_01</wwambientSound>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>env_Mountain.bnk</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>20.0617657 -387.90686</position1>
+				</team1>
+				<team2>
+					<position1>-0.393303007 397.375824</position1>
+				</team2>
+			</teamBasePositions>
+			<artilleryPreparationChance>0.6</artilleryPreparationChance>
+		</ctf>
+		<bootcamp>
+			<wwmusicSetup>
+				<wwmusicLoading>bc_music_loadingscreen</wwmusicLoading>
+				<wwmusicIntensive>bc_music_mission_02</wwmusicIntensive>
+				<wwmusicRelaxed>bc_music_mission_02</wwmusicRelaxed>
+				<wwmusicStop>music_dron_stop</wwmusicStop>
+				<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+				<wwmusicResultWin>music_abbey_result_win</wwmusicResultWin>
+				<wwmusicResultDrawn>music_abbey_result_drawn</wwmusicResultDrawn>
+				<wwmusicResultDefeat>music_abbey_result_defeat</wwmusicResultDefeat>
+			</wwmusicSetup>
+			<boundingBox>
+				<bottomLeft>-50 -500</bottomLeft>
+				<upperRight>150 500</upperRight>
+			</boundingBox>
+			<maxPlayersInTeam>1</maxPlayersInTeam>
+			<runDelay>5</runDelay>
+			<visualScript>
+				<server>
+					<plan>BootCamp/Lesson_2_arena_19_monastery</plan>
+				</server>
+				<client>
+					<plan>BootCamp/Lesson_2_hints_19_monastery</plan>
+				</client>
+			</visualScript>
+		</bootcamp>
+		<domination3>
+			<minimap>spaces/19_monastery/mmap_domination3.dds</minimap>
+			<boundingBox>
+				<bottomLeft>-345 -295.000031</bottomLeft>
+				<upperRight>294.999969 344.999878</upperRight>
+			</boundingBox>
+			<teamSpawnPoints>
+				<team1>
+					<position>-62.989624 -217.894302</position>
+				</team1>
+				<team2>
+					<position>-25.8009796 258.634674</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-85.6407166 -4.61997986</controlPoint>
+		</domination3>
+	</gameplayTypes>
+</root>

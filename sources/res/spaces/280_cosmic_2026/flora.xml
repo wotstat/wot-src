@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<speedgrass>
+		<slopeMin>0.00</slopeMin>
+		<slopeMax>90.00</slopeMax>
+		<sizeLimit>0.00</sizeLimit>
+		<oscillationFreqMin>1.5</oscillationFreqMin>
+		<oscillationFreqMax>6.0</oscillationFreqMax>
+		<fadeFloraHeight>true</fadeFloraHeight>
+		<population>
+			<name>Grass_Cosmic</name>
+			<slopeMin>0.00</slopeMin>
+			<slopeMax>30.00</slopeMax>
+			<enableSlopeMin>true</enableSlopeMin>
+			<sizeLimit>0.00</sizeLimit>
+			<enableSizeLimit>true</enableSizeLimit>
+			<tileType>maps/landscape/00_AllTerrain3_tiles/Brown_moss_01_AM.dds</tileType>
+			<grassType>
+				<name>Grass_Scrub_Tundra_flora_01</name>
+				<tintWeight>0.80 2.10</tintWeight>
+				<waving>1.00 1.00 2.00 1.00</waving>
+				<slopeMin>0.00</slopeMin>
+				<slopeMax>30.00</slopeMax>
+				<enableSlopeMin>true</enableSlopeMin>
+				<sniperModeBhvr>2</sniperModeBhvr>
+				<scaleFromMap>2 1.60 1.00</scaleFromMap>
+				<sizeLimit>0.60</sizeLimit>
+				<enableSizeLimit>true</enableSizeLimit>
+				<oscillation>0.5 0.5</oscillation>
+				<unique_random_seed>true</unique_random_seed>
+				<layer>
+					<name>Grass_Scrub_Tundra_flora_01_lod0</name>
+					<comment>comment</comment>
+					<model>vegetation/Grass/Grass_Scrub_Tundra/Grass_Scrub_Tundra_flora_01_lod0.srt</model>
+					<castShadow>false</castShadow>
+					<densityMin>0.0000</densityMin>
+					<density>0.3000</density>
+					<scale>1.00</scale>
+					<scaleDeviation>0.25</scaleDeviation>
+					<fadeout>10.00</fadeout>
+					<range>20.00</range>
+					<startat>0.00</startat>
+					<seed>0</seed>
+					<alignToSurface>true</alignToSurface>
+					<tintWeight>0.80 2.10</tintWeight>
+					<waving>1.00 1.00 2.00 1.00</waving>
+					<scaleFromMap>2 1.60 1.00</scaleFromMap>
+					<sizeLimit>0.30</sizeLimit>
+					<enableSizeLimit>true</enableSizeLimit>
+				</layer>
+				<layer>
+					<name>Grass_Scrub_Tundra_flora_01_lod1</name>
+					<comment>comment</comment>
+					<model>vegetation/Grass/Grass_Scrub_Tundra/Grass_Scrub_Tundra_flora_01_lod1.srt</model>
+					<castShadow>false</castShadow>
+					<densityMin>0.0000</densityMin>
+					<density>0.900</density>
+					<scale>1.00</scale>
+					<scaleDeviation>0.25</scaleDeviation>
+					<fadeout>10.00</fadeout>
+					<range>40.00</range>
+					<startat>25.00</startat>
+					<seed>0</seed>
+					<alignToSurface>true</alignToSurface>
+					<tintWeight>0.80 2.10</tintWeight>
+					<waving>1.00 1.00 2.00 1.00</waving>
+					<fadein>5.00</fadein>
+					<scaleFromMap>2 1.60 1.00</scaleFromMap>
+					<sizeLimit>0.70</sizeLimit>
+					<enableSizeLimit>true</enableSizeLimit>
+				</layer>
+			</grassType>
+		</population>
+	</speedgrass>
+	<tintMap>flora_tint_map.dds</tintMap>
+	<scaleMap>flora_scale_map.dds</scaleMap>
+</root>

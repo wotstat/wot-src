@@ -1,0 +1,57 @@
+from constants import IS_VS_EDITOR
+from visual_script import ASPECT
+from visual_script.block import Block, Meta
+from visual_script.dependency import dependencyImporter
+from visual_script.slot_types import SLOT_TYPE
+if not IS_VS_EDITOR:
+    from helpers import isPlayerAccount
+utils, dependency, CGF, hangar_camera_manager, cameras = dependencyImporter(b'skeletons.gui.shared.utils', b'helpers.dependency', b'CGF', b'cgf_components.hangar_camera_manager', b'AvatarInputHandler.cameras')
+
+class CameraMeta(Meta):
+
+    @classmethod
+    def blockColor(cls):
+        return 6750207
+
+    @classmethod
+    def blockCategory(cls):
+        return b'Camera'
+
+    @classmethod
+    def blockIcon(cls):
+        return b':vse/blocks/camera'
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.HANGAR, ASPECT.CLIENT]
+
+
+class GetCamera(Block, CameraMeta):
+    hangarSpace = dependency.descriptor(utils.IHangarSpace)
+
+    def __init__(self, *args, **kwargs):
+        super(GetCamera, self).__init__(*args, **kwargs)
+        self._position = self._makeDataOutputSlot(b'position', SLOT_TYPE.VECTOR3, self._getPosition)
+        self._direction = self._makeDataOutputSlot(b'direction', SLOT_TYPE.VECTOR3, self._getDirection)
+        return
+
+    def _getPosition(self):
+        if isPlayerAccount():
+            cameraManager = CGF.getManager(self.hangarSpace.spaceID, hangar_camera_manager.HangarCameraManager)
+            if cameraManager:
+                self._position.setValue(cameraManager.getCurrentCameraPosition())
+        else:
+            _, position = cameras.getWorldRayAndPosition()
+            self._position.setValue(position)
+        return
+
+    def _getDirection(self):
+        if isPlayerAccount():
+            cameraManager = CGF.getManager(self.hangarSpace.spaceID, hangar_camera_manager.HangarCameraManager)
+            if cameraManager:
+                self._direction.setValue(cameraManager.getCurrentCameraDirection())
+        else:
+            direction, _ = cameras.getWorldRayAndPosition()
+            direction.normalise()
+            self._direction.setValue(direction)
+        return

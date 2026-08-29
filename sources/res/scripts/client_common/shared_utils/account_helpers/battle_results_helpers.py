@@ -1,0 +1,17 @@
+def getEmptyClientPB20UXStats():
+    return {b'premiumQuestsCompleted': 0, 
+       b'premiumQuestsInProgress': 0, 
+       b'otherQuestsCompleted': 0, 
+       b'otherQuestsInProgress': 0, 
+       b'personalMissionsCompletedMain': 0, 
+       b'personalMissionsCompletedFull': 0, 
+       b'personalMissionsInProgress': 0, 
+       b'vehicleProgressReady2UnlockVehicles': 0, 
+       b'vehicleProgressReady2UnlockModules': 0, 
+       b'vehicleProgressReady2BuyVehicles': 0, 
+       b'vehicleProgressReady2BuyModules': 0, 
+       b'vehicleProgressTankmen': 0, 
+       b'vehTypeCompDescr': 0, 
+       b'premiumType': 0, 
+       b'timestamp': 0, 
+       b'arenaTypeID': 0}

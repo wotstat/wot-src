@@ -1,0 +1,51 @@
+import typing, ResMgr
+from items import _xml
+from items.components import component_constants
+from items.components import gun_components
+from items.components.component_constants import ZERO_FLOAT
+from items.readers import shared_readers
+from math_common import isAlmostEqual
+from constants import IS_EDITOR
+
+def readRecoilEffect(xmlCtx, section, cache):
+    if not section.has_key(b'recoil'):
+        return
+    else:
+        effName = _xml.readStringOrNone(xmlCtx, section, b'recoil/recoilEffect')
+        if effName is not None:
+            recoilEff = cache.getGunRecoilEffects(effName)
+            if recoilEff is not None:
+                backoffTime = recoilEff[0]
+                returnTime = recoilEff[1]
+            else:
+                backoffTime = component_constants.ZERO_FLOAT
+                returnTime = component_constants.ZERO_FLOAT
+        else:
+            backoffTime = _xml.readNonNegativeFloat(xmlCtx, section, b'recoil/backoffTime')
+            returnTime = _xml.readNonNegativeFloat(xmlCtx, section, b'recoil/returnTime')
+        recoil = gun_components.RecoilEffect(lodDist=shared_readers.readLodDist(xmlCtx, section, b'recoil/lodDist', cache), amplitude=_xml.readNonNegativeFloat(xmlCtx, section, b'recoil/amplitude'), backoffTime=backoffTime, returnTime=returnTime)
+        if IS_EDITOR:
+            recoil.effectName = effName
+        return recoil
+
+
+def readShot(xmlCtx, section, nationID, projectileSpeedFactor, cache):
+    shellName = section.name
+    shellID = cache.shellIDs(nationID).get(shellName)
+    if shellID is None:
+        _xml.raiseWrongXml(xmlCtx, b'', b'unknown shell type name')
+    shellDescr = cache.shells(nationID)[shellID]
+    gravity = _xml.readNonNegativeFloat(xmlCtx, section, b'gravity') * projectileSpeedFactor ** 2
+    acceleration = _xml.readNonNegativeFloat(xmlCtx, section, b'acceleration', 0) * projectileSpeedFactor ** 2
+    if not isAlmostEqual(acceleration * gravity, 0.0):
+        _xml.raiseWrongXml(xmlCtx, b'acceleration', b'We dont allow acceleration with gravity')
+    return gun_components.GunShot(shellDescr, ZERO_FLOAT if not section.has_key(b'defaultPortion') else _xml.readFraction(xmlCtx, section, b'defaultPortion'), _xml.readVector2(xmlCtx, section, b'piercingPower'), _xml.readPositiveFloat(xmlCtx, section, b'speed') * projectileSpeedFactor, gravity, _xml.readPositiveFloat(xmlCtx, section, b'maxDistance'), _xml.readFloat(xmlCtx, section, b'maxHeight', 1000000.0), acceleration, _xml.readBool(xmlCtx, section, b'ignoreDispersion', False))
+
+
+def readSpinEffect(xmlCtx, section, cache):
+    effName = _xml.readStringOrNone(xmlCtx, section, b'spinEffect/spinEffect')
+    spinEffect = cache.getGunSpinEffects(effName)
+    if spinEffect is None:
+        _xml.raiseWrongXml(xmlCtx, b'', b'unknown spin effect name')
+    activationSound, deactivationSound = spinEffect
+    return gun_components.SpinEffect(activationSound=activationSound, deactivationSound=deactivationSound)

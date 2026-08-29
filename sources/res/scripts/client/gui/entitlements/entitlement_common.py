@@ -1,0 +1,13 @@
+import typing
+from helpers import dependency
+from skeletons.gui.game_control import IGuiLootBoxesController, IParagonsController
+if typing.TYPE_CHECKING:
+    from typing import FrozenSet, Generator, Type
+    from skeletons.gui.game_control import IEntitlementsConsumer
+ENTITLEMENTS = ()
+_CONSUMERS = frozenset((
+ IGuiLootBoxesController,
+ IParagonsController))
+
+def iterConsumers():
+    return (dependency.instance(iConsumer) for iConsumer in _CONSUMERS)

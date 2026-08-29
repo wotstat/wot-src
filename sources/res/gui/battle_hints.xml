@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<hint>
+		<name>default</name>
+		<component>battleHint</component>
+		<htmlTemplate></htmlTemplate>
+		<duration>10</duration>
+		<maxWaitTime>20</maxWaitTime>
+		<priority>50</priority>
+	</hint>
+	<hint>
+		<name>CaptureBase</name>
+		<component>gameMessagesPanel</component>
+		<duration>5</duration>
+		<htmlTemplate></htmlTemplate>
+	</hint>
+</root>

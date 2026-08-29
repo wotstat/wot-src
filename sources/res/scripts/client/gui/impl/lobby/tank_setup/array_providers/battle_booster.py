@@ -1,0 +1,125 @@
+from gui.impl.gen import R
+from gui.impl.gen.view_models.constants.item_highlight_types import ItemHighlightTypes
+from gui.impl.gen.view_models.views.lobby.tank_setup.sub_views.base_slot_model import BaseSlotModel
+from gui.impl.gen.view_models.views.lobby.tank_setup.sub_views.battle_booster_slot_model import BattleBoosterSlotModel
+from gui.impl.lobby.tank_setup.array_providers.base import VehicleBaseArrayProvider
+from gui.impl.lobby.tank_setup.tank_setup_helper import isEconomicDirBattleEnabled
+from gui.shared.gui_items import GUI_ITEM_TYPE
+from gui.shared.utils.requesters import REQ_CRITERIA
+from web.web_client_api.shop.formatters import formatValueToColorTag, COLOR_TAG_CLOSE, COLOR_TAG_OPEN
+
+class BaseBattleBoosterProvider(VehicleBaseArrayProvider):
+    __slots__ = ()
+
+    def getItemViewModel(self):
+        return BattleBoosterSlotModel()
+
+    def createSlot(self, item, ctx):
+        model = super(BaseBattleBoosterProvider, self).createSlot(item, ctx)
+        model.setImageName(item.descriptor.iconName)
+        isEnough = item.mayPurchaseWithExchange(self._itemsCache.items.stats.money, self._itemsCache.items.shop.exchangeRate)
+        model.setIsBuyMoreVisible(not item.isHidden)
+        model.setIsBuyMoreDisabled(not isEnough)
+        self._fillHighlights(model, item)
+        self._fillBuyPrice(model, item)
+        return model
+
+    def updateSlot(self, model, item, ctx):
+        super(BaseBattleBoosterProvider, self).updateSlot(model, item, ctx)
+        isInstalledOrMounted = item in self._getCurrentLayout() or self._getSetupLayout().containsIntCD(item.intCD)
+        self._fillStatus(model, item, ctx.slotID)
+        self._fillBuyStatus(model, item, isInstalledOrMounted)
+        self._fillDescription(model, item)
+        self._fillEffects(model)
+        return
+
+    def _fillHighlights(self, model, item):
+        model.setHighlightType(ItemHighlightTypes.BATTLE_BOOSTER)
+        model.setOverlayType(ItemHighlightTypes.BATTLE_BOOSTER)
+        return
+
+    def _fillStatus(self, model, item, slotID):
+        super(BaseBattleBoosterProvider, self)._fillStatus(model, item, slotID)
+        if not item.isAffectsOnVehicle(self._getVehicle()):
+            model.setLockReason(b'useless_battle_booster')
+            model.setIsLocked(True)
+        return
+
+    def _fillDescription(self, model, item):
+        raise NotImplementedError
+        return
+
+    @staticmethod
+    def _fillEffects(model):
+        return
+
+    @classmethod
+    def _getItemTypeID(cls):
+        return (GUI_ITEM_TYPE.BATTLE_BOOSTER,)
+
+    def _getEquipment(self):
+        return self._getVehicle().battleBoosters
+
+    def _getItemSortKey(self, item, ctx):
+        return (
+         item.getBuyPrice().price, item.userName)
+
+    def _getInstaledBoosterSet(self):
+        invVehicles = self._itemsCache.items.getVehicles(REQ_CRITERIA.INVENTORY)
+        installedSet = set(booster for veh in invVehicles.itervalues() for booster in veh.battleBoosters.installed.getIntCDs())
+        return installedSet
+
+
+class OptDeviceBattleBoosterProvider(BaseBattleBoosterProvider):
+    __slots__ = ()
+
+    def _getItemCriteria(self):
+        installedSet = self._getInstaledBoosterSet()
+        return REQ_CRITERIA.CUSTOM((lambda item: item.isEquipmentBooster() and (not item.isHidden or item.isInInventory or item.intCD in installedSet)))
+
+    def _fillDescription(self, model, item):
+        model.setDescription(item.getOptDeviceBoosterDescription(self._getVehicle(), formatValueToColorTag))
+        return
+
+
+class CrewBattleBoosterProvider(BaseBattleBoosterProvider):
+    __slots__ = ()
+
+    def _getItemCriteria(self):
+        installedSet = self._getInstaledBoosterSet()
+        return REQ_CRITERIA.CUSTOM((lambda item: item.isCrewBooster() and (not item.isHideIfNotInShop() or item.isInInventory or item.intCD in installedSet)))
+
+    def _fillHighlights(self, model, item):
+        super(CrewBattleBoosterProvider, self)._fillHighlights(model, item)
+        if not item.isAffectedSkillLearnt(self._getVehicle()) and not item.isBuiltinPerkBooster():
+            model.setOverlayType(ItemHighlightTypes.BATTLE_BOOSTER_REPLACE)
+        return
+
+    def _fillDescription(self, model, item):
+        skillLearnt = item.isAffectedSkillLearnt(self._getVehicle())
+        model.setDescription(item.getCrewBoosterDescription(not skillLearnt, {b'colorTagOpen': COLOR_TAG_OPEN, b'colorTagClose': COLOR_TAG_CLOSE}))
+        return
+
+
+class EconomicBattleBoosterProvider(BaseBattleBoosterProvider):
+    __slots__ = ()
+
+    def _getItemCriteria(self):
+        installedSet = self._getInstaledBoosterSet()
+        return REQ_CRITERIA.CUSTOM((lambda item: item.isEconomicBooster() and (not item.isHidden or item.isInInventory or item.intCD in installedSet)))
+
+    def _fillStatus(self, model, item, slotID):
+        super(EconomicBattleBoosterProvider, self)._fillStatus(model, item, slotID)
+        if not isEconomicDirBattleEnabled():
+            model.setLockReason(b'unsuitable_battlemode')
+            model.setIsLocked(True)
+        return
+
+    def _fillDescription(self, model, item):
+        model.setDescription(item.getEconomicDirectivesDescription())
+        return
+
+    @staticmethod
+    def _fillEffects(model):
+        model.setEffect(R.strings.artefacts.economicBattleBooster.effect())
+        return

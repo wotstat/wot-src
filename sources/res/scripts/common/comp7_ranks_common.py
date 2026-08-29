@@ -1,0 +1,121 @@
+import enum
+from typing import Optional, FrozenSet, Tuple
+from cache import cached_property
+from intervals import Interval
+from soft_exception import SoftException
+from comp7_common import COMP7_MASKOT_ID, COMP7_CURRENT_SEASON
+COMP7_RATING_ENTITLEMENT_TMPL = b'comp7_rating_points'
+COMP7_RATING_ENTITLEMENT = (b'comp7_rating_points:{}:{}').format(COMP7_MASKOT_ID, COMP7_CURRENT_SEASON)
+COMP7_ELITE_ENTITLEMENT = (b'comp7_elite_rank:{}:{}').format(COMP7_MASKOT_ID, COMP7_CURRENT_SEASON)
+COMP7_ACTIVITY_ENTITLEMENT = (b'comp7_activity_points:{}:{}').format(COMP7_MASKOT_ID, COMP7_CURRENT_SEASON)
+COMP7_ENTITLEMENT_EXPIRES = None
+EXTRA_RANK_TAG = b'extra'
+COMP7_UNDEFINED_RANK_ID = 0
+COMP7_UNDEFINED_DIVISION_ID = 0
+
+class Comp7Division(object):
+    __slots__ = (b'range', b'tags', b'rank', b'dvsnID', b'index', b'activityPointsPerBattle', b'hasRankInactivity')
+
+    def __init__(self, dvsnDict):
+        pointsRange = dvsnDict[b'range']
+        self.range = pointsRange if type(pointsRange) is Interval else Interval(*pointsRange)
+        self.rank = dvsnDict[b'rank']
+        self.dvsnID = dvsnDict[b'id']
+        self.index = dvsnDict[b'index']
+        self.tags = frozenset(dvsnDict.get(b'tags', ()))
+        self.activityPointsPerBattle = dvsnDict[b'rankInactivity'][b'activityPointsPerBattle'] if b'rankInactivity' in dvsnDict else 0
+        self.hasRankInactivity = dvsnDict.get(b'hasRankInactivity', False)
+        return
+
+    def __cmp__(self, other):
+        if not isinstance(other, Comp7Division):
+            raise TypeError
+        return cmp(self.rank, other.rank) or cmp(self.range, other.range)
+
+    def __repr__(self):
+        return (b'{}[{}]').format(self.__class__.__name__, {s: getattr(self, s) for s in self.__slots__})
+
+
+class Comp7Rank(object):
+    __slots__ = (b'id', b'name')
+
+    def __init__(self, rankDict):
+        self.id = rankDict[b'id']
+        self.name = rankDict.get(b'name')
+        return
+
+    @property
+    def index(self):
+        return self.id
+
+
+class Comp7RanksConfig(object):
+
+    def __init__(self, config):
+        self._config = config
+        return
+
+    @cached_property
+    def divisions(self):
+        divs = []
+        for dvsnDict in self._config.get(b'divisions', ()):
+            division = Comp7Division(dvsnDict)
+            divs.append(division)
+
+        return tuple(divs)
+
+    @cached_property
+    def ranks(self):
+        ranks = self._config.get(b'ranks', {})
+        ranksOrder = self._config.get(b'ranksOrder', ())
+        return tuple(Comp7Rank(ranks[rankID]) for rankID in ranksOrder)
+
+    def getDivisionByRating(self, points, hasEliteEntitlement):
+        eliteDiv = self.eliteDivision
+        if hasEliteEntitlement and points in eliteDiv.range:
+            return eliteDiv
+        for division in self.divisions:
+            if points in division.range:
+                return division
+
+        raise SoftException((b'Comp7: No ranks configured for {}').format(points))
+        return
+
+    def getStartRatingForDivision(self, divisionSerialIdx):
+        if not 0 <= divisionSerialIdx < len(self.divisions):
+            raise SoftException(b'Comp7: Invalid division serial index', divisionSerialIdx)
+        division = self.divisions[divisionSerialIdx]
+        return division.range.begin
+
+    @cached_property
+    def eliteDivision(self):
+        return self.divisions[-1]
+
+    def getActivityPointsForBattle(self, rank, divisionIdx):
+        for division in self.divisions:
+            if division.rank == rank and division.index == divisionIdx:
+                return division.activityPointsPerBattle
+
+        return 0
+
+
+def checkIfRatingEnt(entCode):
+    return entCode.startswith(COMP7_RATING_ENTITLEMENT_TMPL)
+
+
+def parseRatingEnt(entCode):
+    if not checkIfRatingEnt(entCode):
+        return (None, None)
+    else:
+        _, mascotID, index = entCode.split(b':', 4)
+        return (int(mascotID), int(index))
+
+
+class Comp7EntitlementCodes(enum.Enum):
+    LEGEND_RANK = b'legendRank'
+    RATING_POINTS = b'ratingPoints'
+    ACTIVITY_POINTS = b'activityPoints'
+
+    @classmethod
+    def all(cls):
+        return [element.value for element in cls]

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:07_lakeville/name</name>
+	<description>#arenas:07_lakeville/description</description>
+	<geometry>spaces/07_lakeville</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-400.0 -400.0</bottomLeft>
+		<upperRight>400.0 400.0</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/07_lakeville/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<defaultGroundEffect>None</defaultGroundEffect>
+	<wwmusicSetup>
+		<wwmusicLoading>music_lakeville_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_lakeville_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_lakeville_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_lakeville_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_lakeville_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_lakeville_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_spring_01</wwambientSound>
+	<wwDefaultReverb>
+		<auxBus>AUX_env_Mountain</auxBus>
+		<controlValue>1.0</controlValue>
+	</wwDefaultReverb>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>env_Mountain.bnk</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>-169.513458 319.351257</position1>
+				</team1>
+				<team2>
+					<position1>-169.513443 -319.048615</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-3 355</position>
+				</team1>
+				<team2>
+					<position>-3 -355</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>258.893433 -4.20022583</controlPoint>
+		</domination>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>55.6507187 -347.694397</position>
+				</team1>
+				<team2>
+					<position>50.3856888 362.938782</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-265.002136 -289.331116</position1>
+					<position2>224.6819 -204.980438</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<maps_training>
+			<teamBasePositions>
+				<team1>
+					<position1>-169.513458 319.351257</position1>
+				</team1>
+				<team2>
+					<position1>-169.513443 -319.048615</position1>
+				</team2>
+			</teamBasePositions>
+		</maps_training>
+		<comp7>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<teamSpawnPoints>
+				<team1>
+					<position>54.4107895 -356.368958</position>
+				</team1>
+				<team2>
+					<position>16.822319 360.268921</position>
+				</team2>
+			</teamSpawnPoints>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-290.402496 1.05262303</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>17.2224255 -260.92807</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-90.0641632 -14.8674526</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>226.949097 104.817192</position>
+					<type>3</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamBasePositions>
+				<team1>
+					<position1>-265.002136 -289.331116</position1>
+					<position2>224.6819 -204.980438</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</comp7>
+		<bob>
+			<teamSpawnPoints>
+				<team1>
+					<position>-121.070114 -357.770752</position>
+				</team1>
+				<team2>
+					<position>-114.384201 355.068451</position>
+				</team2>
+			</teamSpawnPoints>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<controlPoint>269.723999 6.69299316</controlPoint>
+		</bob>
+	</gameplayTypes>
+	<roadMap></roadMap>
+	<mapActivities>
+		<scenario>
+			<startTime>120 330</startTime>
+			<possibility>50</possibility>
+			<interval>0</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>train</name>
+			<trajectories>
+				<warplane>
+					<preset>train</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+					<interval>200</interval>
+				</warplane>
+				<warplane>
+					<preset>train2</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>1.60000002 1.60000002</startTime>
+					<interval>200</interval>
+				</warplane>
+				<warplane>
+					<preset>train1</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>2.54999995 2.54999995</startTime>
+					<interval>200</interval>
+				</warplane>
+				<warplane>
+					<preset>train3</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>3.5 3.5</startTime>
+					<interval>200</interval>
+				</warplane>
+				<warplane>
+					<preset>train4</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>4.44999981 4.44999981</startTime>
+					<interval>200</interval>
+				</warplane>
+			</trajectories>
+		</scenario>
+	</mapActivities>
+</root>

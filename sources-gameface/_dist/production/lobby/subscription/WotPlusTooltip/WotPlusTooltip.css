@@ -1,0 +1,172 @@
+.TooltipDecorator_base_c9 {
+    display: flex;
+    position: absolute;
+}
+
+.TooltipDecorator_base__theme-default_6d .TooltipDecorator_decorator_3d {
+        padding: 4rem 6rem 8rem;
+        border-image-source: url('R.images.gui.maps.icons.tooltip.tooltip_background');
+        border-image-slice: 24 fill;
+        border-image-width: 24rem;
+        position: relative;
+    }
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App_base_40 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 400rem;
+    position: relative;
+}
+
+.App_headerBlock_25 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 220rem;
+    padding-bottom: 10rem;
+    background: url('R.images.gui.maps.icons.subscription.tooltip.wotplus_header') center / cover;
+}
+
+.App_headerTitle_35 {
+    color: #FEFEEC;
+    font-size: 24rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 25);
+}
+
+.App_headerDesc_ca {
+    color: #8C8C7E;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 280rem;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 25);
+}
+
+.App_decorator_5d {
+    display: flex;
+    padding: 5rem 20rem 10rem;
+}
+
+.App_gridBase_6a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.App_gridElement_26 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 0 150rem;
+    padding: 10rem 0;
+}
+
+.App_bonusImg_4c {
+    width: 32rem;
+    height: 32rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.App_bonusName_c3 {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    max-width: 140rem;
+    margin-left: 5rem;
+}
+
+.App_statusBlock_da {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+
+.App_status_1f {
+    color: #CBAC77;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+    display: flex;
+    margin-bottom: 6rem;
+}
+
+.App_status__Active_97,
+    .App_status__Trial_8c {
+        color: #7AB300;
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+.App_status__Canceled_a1,
+    .App_status__Error_ff {
+        color: #EE7000;
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+.App_statusIcon_5c {
+    width: 24rem;
+    height: 24rem;
+    margin-top: -1rem;
+    background: center / cover no-repeat;
+}
+
+.App_status__Active_97 .App_statusIcon_5c,
+    .App_status__Trial_8c .App_statusIcon_5c {
+        background-image: url('R.images.gui.maps.icons.library.check');
+    }
+
+.App_status__Canceled_a1 .App_statusIcon_5c,
+    .App_status__Error_ff .App_statusIcon_5c {
+        margin-right: 2rem;
+        background-image: url('R.images.gui.maps.icons.library.alertBigIcon');
+    }
+
+.App_description_87 {
+    justify-content: center;
+    width: 280rem;
+    color: #8C8C7E;
+    text-align: center;
+}
+
+.App_chargeBlock_1d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App_chargeText_06 {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App_chargeTime_45 {
+    color: #E9E2BF;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-left: 5rem;
+}
+

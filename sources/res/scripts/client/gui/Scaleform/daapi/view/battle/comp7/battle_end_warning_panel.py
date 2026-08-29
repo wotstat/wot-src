@@ -1,0 +1,76 @@
+import WWISE
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.Scaleform.daapi.view.meta.BattleEndWarningPanelMeta import BattleEndWarningPanelMeta
+from gui.battle_control.controllers.period_ctrl import IAbstractPeriodView
+from helpers.time_utils import ONE_MINUTE
+from helpers import dependency
+from skeletons.gui.battle_session import IBattleSessionProvider
+
+class _WWISE_EVENTS(object):
+    APPEAR = b'time_buzzer_01'
+
+
+_SWF_FILE_NAME = b'BattleEndWarningPanel.swf'
+
+class Comp7BattleEndWarningPanel(BattleEndWarningPanelMeta, IAbstractPeriodView):
+    __slots__ = (b'__duration', b'__appearTime', b'__extraAppearTime', b'__roundLength', b'__isShown', b'__warningIsValid', b'__extraWarningIsValid')
+    sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self):
+        super(Comp7BattleEndWarningPanel, self).__init__()
+        arenaVisitor = self.sessionProvider.arenaVisitor
+        self.__duration = arenaVisitor.type.getBattleEndWarningDuration()
+        self.__appearTime = arenaVisitor.type.getBattleEndWarningAppearTime()
+        self.__extraAppearTime = arenaVisitor.type.getBattleEndWarningExtraAppearTime()
+        self.__roundLength = arenaVisitor.getRoundLength()
+        self.__isShown = False
+        self.__warningIsValid = self.__validateWarningTime()
+        self.__extraWarningIsValid = self.__validateExtraWarningTime()
+        return
+
+    def isLoaded(self):
+        return True
+
+    def setTotalTime(self, totalTime):
+        if not self.isLoaded():
+            return
+        minutes, seconds = divmod(int(totalTime), ONE_MINUTE)
+        minutesStr = (b'{:02d}').format(minutes)
+        secondsStr = (b'{:02d}').format(seconds)
+        if self.__isShown:
+            self.as_setTotalTimeS(minutesStr, secondsStr)
+        isAppearTime = totalTime == self.__appearTime
+        isExtraAppearTime = totalTime == self.__extraAppearTime
+        if isAppearTime and self.__warningIsValid or isExtraAppearTime and self.__extraWarningIsValid:
+            WWISE.WW_eventGlobal(_WWISE_EVENTS.APPEAR)
+            self.as_setTotalTimeS(minutesStr, secondsStr)
+            self.as_setTextInfoS(self.__getWarningText())
+            self.as_setStateS(True)
+            self.__isShown = True
+        isBeforeWarning = totalTime <= self.__appearTime - self.__duration
+        isAfterWarning = totalTime > self.__appearTime
+        isBeforeExtraWarning = totalTime <= self.__extraAppearTime - self.__duration
+        isAfterExtraWarning = totalTime > self.__extraAppearTime
+        if (isBeforeWarning or isAfterWarning) and (isBeforeExtraWarning or isAfterExtraWarning) and self.__isShown:
+            self.as_setStateS(False)
+            self.__isShown = False
+        return
+
+    def __getWarningText(self):
+        arenaDescription = self.sessionProvider.getArenaDP().getPersonalDescription()
+        hasControlPoint = arenaDescription.isControlPointExists()
+        hasBase = arenaDescription.isBaseExists()
+        if hasControlPoint:
+            return backport.text(R.strings.ingame_gui.battleEndWarning.text())
+        return backport.text(R.strings.ingame_gui.battleEndWarning.dyn((b'comp7_{}').format(1 if hasBase else 2)).dyn(b'text')())
+
+    def __validateWarningTime(self):
+        if self.__appearTime < self.__duration or self.__appearTime <= 0 or self.__duration <= 0 or self.__appearTime > self.__roundLength or self.__duration > self.__roundLength and self.sessionProvider.arenaVisitor.isBattleEndWarningEnabled():
+            return False
+        return True
+
+    def __validateExtraWarningTime(self):
+        if self.__extraAppearTime < self.__duration or self.__extraAppearTime <= 0 or self.__duration <= 0 or self.__extraAppearTime > self.__roundLength or self.__duration > self.__roundLength and self.sessionProvider.arenaVisitor.isBattleEndWarningEnabled():
+            return False
+        return True

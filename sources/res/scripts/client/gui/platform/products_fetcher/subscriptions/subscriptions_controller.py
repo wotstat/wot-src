@@ -1,0 +1,64 @@
+import logging, typing
+from BWUtil import AsyncReturn
+from constants import SUBSCRIPTION_ENTITLEMENT
+from skeletons.gui.game_control import IWotPlusController
+from skeletons.gui.lobby_context import ILobbyContext
+from th_async import th_async, th_await
+from gui.platform.base.statuses.constants import StatusTypes
+from gui.platform.products_fetcher.controller import ProductsFetchController, _PlatformProductListParams
+from gui.platform.products_fetcher.subscriptions.subscriptions_descriptor import PrimeGamingDescriptor, SubscriptionDescriptor, WotPlusDescriptor
+from helpers import dependency, getClientLanguage
+from skeletons.gui.platform.product_fetch_controller import ISubscriptionsFetchController
+from skeletons.gui.platform.wgnp_controllers import IWGNPGeneralRequestController
+_logger = logging.getLogger(__name__)
+if typing.TYPE_CHECKING:
+    from gui.platform.wgnp.general.statuses import GeneralAccountCountryStatus
+
+class PlatformSubscriptionsParams(_PlatformProductListParams):
+    storefront = b'player_subscriptions'
+    language = getClientLanguage()
+    __wgnpCountryController = dependency.descriptor(IWGNPGeneralRequestController)
+
+    @th_async
+    def setCountry(self):
+        status = yield th_await(self.__wgnpCountryController.getAccountCountry())
+        if status.typeIs(StatusTypes.ADDED):
+            self.country = status.country
+        raise AsyncReturn(None)
+        return
+
+
+class SubscriptionFetcherController(ProductsFetchController, ISubscriptionsFetchController):
+    _lobbyContext = dependency.descriptor(ILobbyContext)
+    _wotPlusCtrl = dependency.descriptor(IWotPlusController)
+    platformParams = PlatformSubscriptionsParams
+    defaultProductDescriptor = SubscriptionDescriptor
+    productIDToDescriptor = {b'prime_subscription': PrimeGamingDescriptor, 
+       SUBSCRIPTION_ENTITLEMENT: WotPlusDescriptor}
+
+    def init(self):
+        super(SubscriptionFetcherController, self).init()
+        self._wotPlusCtrl.onDataChanged += self.__onWotPlusChanged
+        return
+
+    def fini(self):
+        super(SubscriptionFetcherController, self).fini()
+        self._wotPlusCtrl.onDataChanged -= self.__onWotPlusChanged
+        return
+
+    @th_async
+    def getProducts(self, showWaiting=True):
+        wasReady = self.isProductsReady
+        yield th_await(super(SubscriptionFetcherController, self).getProducts(showWaiting))
+        if not wasReady:
+            if self._wotPlusCtrl.isWotPlusEnabled():
+                self._createDescriptors([{b'product_code': SUBSCRIPTION_ENTITLEMENT}])
+                self._fetchResult.products.insert(0, self._fetchResult.products.pop())
+                self._fetchResult.setProcessed()
+        raise AsyncReturn(self._fetchResult)
+        return
+
+    def __onWotPlusChanged(self, diff):
+        if b'isEnabled' in diff:
+            self._fetchResult.reset()
+        return

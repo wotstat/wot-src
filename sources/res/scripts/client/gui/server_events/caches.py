@@ -1,0 +1,166 @@
+from collections import namedtuple
+from debug_utils import LOG_ERROR
+from helpers import dependency
+from personal_missions import PM_BRANCH
+from shared_utils import first
+from gui.shared.utils.decorators import ReprInjector
+from gui.Scaleform.genConsts.QUESTS_ALIASES import QUESTS_ALIASES as _QA
+from skeletons.gui.lobby_context import ILobbyContext
+_g_sortedVehs = {}
+VehiclesListProps = namedtuple(b'VehiclesListProps', (b'disableChecker', b'nationIdx', b'vehTypeIdx', b'levelIdx', b'selectedBtn', b'sortDirect', b'checkbox'))
+
+def getVehiclesData(listID):
+    return _g_sortedVehs.get(listID)
+
+
+def addVehiclesData(listID, vehs, disableChecker=None, nationIdx=-1, vehTypeIdx=-1, levelIdx=-1, selectedBtn=None, sortDirect=None, checkbox=None):
+    listID = str(listID)
+    if listID in _g_sortedVehs:
+        _, props = _g_sortedVehs[listID]
+    else:
+        props = VehiclesListProps(disableChecker, nationIdx, vehTypeIdx, levelIdx, selectedBtn, sortDirect, checkbox)
+    _g_sortedVehs[listID] = (vehs, props)
+    return props
+
+
+def updateVehiclesDataProps(listID, **kwargs):
+    if listID in _g_sortedVehs:
+        vehs, props = _g_sortedVehs[listID]
+        _g_sortedVehs[listID] = (vehs, props._replace(**kwargs))
+    return
+
+
+PM_TABS = (
+ _QA.SEASON_VIEW_TAB_RANDOM,)
+
+@dependency.replace_none_kwargs(lobbyContext=ILobbyContext)
+def getEnabledPQTabs(lobbyContext=None):
+    if lobbyContext is not None:
+        tabs = list(PM_TABS)
+        if not lobbyContext.getServerSettings().isPersonalMissionsEnabled(branch=PM_BRANCH.REGULAR):
+            tabs.remove(_QA.SEASON_VIEW_TAB_RANDOM)
+    else:
+        tabs = []
+    return tabs
+
+
+class QuestInfo(object):
+    __slots__ = (b'questID',)
+
+    def __init__(self, *args):
+        super(QuestInfo, self).__init__()
+        for idx, fieldName in enumerate(self.__slots__):
+            object.__setattr__(self, fieldName, args[idx])
+
+        return
+
+    def __setattr__(self, key, value):
+        raise AssertionError
+        return
+
+    def update(self, **kwargs):
+        for key, value in kwargs.iteritems():
+            if key in self.__slots__:
+                object.__setattr__(self, key, value)
+            else:
+                LOG_ERROR(b'Unsupported argument for object:', self, key, value)
+
+        return self
+
+    def clear(self):
+        for field_name in self.__slots__:
+            object.__setattr__(self, field_name, None)
+
+        return
+
+
+class PMInfo(QuestInfo):
+    __slots__ = (b'operationID', b'questID', b'filters')
+
+
+@ReprInjector.simple(b'tabID', b'random')
+class _NavigationInfo(object):
+
+    def __init__(self):
+        self.tabID = None
+        self.random = PMInfo(None, None, None)
+        self.__selectedPMQuestType = _QA.SEASON_VIEW_TAB_RANDOM
+        self._missionsTab = None
+        self._marathonPrefix = None
+        self._vehicleSelectorFilters = {}
+        return
+
+    @property
+    def selectedPMQuest(self):
+        return self.random
+
+    @property
+    def selectedPMQuestType(self):
+        if self.__selectedPMQuestType not in getEnabledPQTabs():
+            self.__selectedPMQuestType = first(getEnabledPQTabs(), None)
+        return self.__selectedPMQuestType
+
+    def setPMQuestTypeByTabID(self, tabID):
+        if tabID in PM_TABS:
+            self.__selectedPMQuestType = tabID
+        else:
+            LOG_ERROR(b'Wrong tabID to set as selected Personal Mission Quest type')
+        return
+
+    def selectTab(self, tabID, doResetNavInfo=False):
+        if doResetNavInfo:
+            if tabID == _QA.TAB_PERSONAL_QUESTS:
+                self.random.clear()
+        self.tabID = tabID
+        return
+
+    def selectPersonalMission(self, operationID, questID=None):
+        self.tabID = _QA.TAB_PERSONAL_QUESTS
+        self.selectedPMQuest.update(operationID=operationID, questID=questID)
+        return
+
+    def selectRandomQuest(self, operationID, questID=None):
+        self.tabID = _QA.TAB_PERSONAL_QUESTS
+        self.__selectedPMQuestType = _QA.SEASON_VIEW_TAB_RANDOM
+        self.random = self.random.update(operationID=operationID, questID=questID, filters=None)
+        return
+
+    def changePQFilters(self, *args):
+        self.selectedPMQuest.update(filters=args)
+        return
+
+    def getMissionsTab(self):
+        return self._missionsTab
+
+    def getMarathonPrefix(self):
+        return self._marathonPrefix
+
+    def setMissionsTab(self, tabID):
+        self._missionsTab = tabID
+        return
+
+    def setMarathonPrefix(self, marathonPrefix):
+        self._marathonPrefix = marathonPrefix
+        return
+
+    def getVehicleSelectorFilters(self):
+        return self._vehicleSelectorFilters
+
+    def setVehicleSelectorFilters(self, filters):
+        self._vehicleSelectorFilters = filters
+        return
+
+
+_g_navInfo = None
+
+def getNavInfo():
+    global _g_navInfo
+    if _g_navInfo is None:
+        _g_navInfo = _NavigationInfo()
+    return _g_navInfo
+
+
+def clearNavInfo():
+    global _g_navInfo
+    _g_navInfo = None
+    return

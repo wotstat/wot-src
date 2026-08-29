@@ -1,0 +1,20 @@
+from gui.impl.gen.view_models.common.missions.bonuses.bonus_model import BonusModel
+
+class IconBonusModel(BonusModel):
+    __slots__ = ()
+
+    def __init__(self, properties=8, commands=0):
+        super(IconBonusModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIcon(self):
+        return self._getString(7)
+
+    def setIcon(self, value):
+        self._setString(7, value)
+        return
+
+    def _initialize(self):
+        super(IconBonusModel, self)._initialize()
+        self._addStringProperty(b'icon', b'')
+        return

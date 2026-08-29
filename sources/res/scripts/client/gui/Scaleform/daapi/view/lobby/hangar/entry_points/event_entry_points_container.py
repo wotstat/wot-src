@@ -1,0 +1,273 @@
+import json, logging
+from itertools import chain
+from operator import attrgetter
+from battle_royale.gui.impl.lobby.views.battle_royale_entry_point import isBattleRoyaleEntryPointAvailable
+from constants import QUEUE_TYPE
+from gui.Scaleform.daapi.view.lobby.collection.collection_entry_point import isCollectionEntryPointAvailable
+from gui.Scaleform.daapi.view.lobby.comp7.comp7_entry_point import isComp7EntryPointAvailable
+from gui.Scaleform.daapi.view.meta.EventEntryPointsContainerMeta import EventEntryPointsContainerMeta
+from gui.Scaleform.genConsts.HANGAR_ALIASES import HANGAR_ALIASES
+from gui.Scaleform.genConsts.RANKEDBATTLES_ALIASES import RANKEDBATTLES_ALIASES
+from gui.game_control.craftmachine_controller import getCraftMachineEntryPointIsActive
+from gui.game_control.shop_sales_event_controller import getShopSalesEntryPointIsActive
+from gui.impl.lobby.mapbox.mapbox_entry_point_view import isMapboxEntryPointAvailable
+from gui.impl.lobby.marathon.marathon_entry_point import isMarathonEntryPointAvailable
+from gui.impl.lobby.ranked.ranked_entry_point import isRankedEntryPointAvailable
+from gui.impl.lobby.stronghold.stronghold_entry_point_view import isStrongholdEntryPointAvailable
+from gui.impl.lobby.summer_sale.summer_sale_entry_point_view import isSummerSaleEntryPointAvailable
+from gui.limited_ui.lui_rules_storage import LuiRules
+from gui.prb_control.entities.listener import IGlobalListener
+from gui.shared.system_factory import collectBannerEntryPointLUIRule, collectBannerEntryPointValidator, registerBannerEntryPointLUIRule, registerBannerEntryPointValidator
+from gui.shared.utils.scheduled_notifications import Notifiable, SimpleNotifier
+from helpers import dependency
+from helpers.time_utils import ONE_DAY, getServerUTCTime, getTimestampByStrDate
+from skeletons.gui.game_control import IBootcampController, IEventsNotificationsController, ILimitedUIController
+from skeletons.gui.lobby_context import ILobbyContext
+from skeletons.gui.shared import IItemsCache
+_HANGAR_ENTRY_POINTS = b'hangarEntryPoints'
+_SECONDS_BEFORE_UPDATE = 2
+_COUNT_VISIBLE_ENTRY_POINTS = 2
+_ADDITIONAL_SWFS_MAP = {}
+registerBannerEntryPointValidator(HANGAR_ALIASES.CRAFT_MACHINE_ENTRY_POINT, getCraftMachineEntryPointIsActive)
+registerBannerEntryPointValidator(HANGAR_ALIASES.SHOP_SALES_ENTRY_POINT, getShopSalesEntryPointIsActive)
+registerBannerEntryPointValidator(RANKEDBATTLES_ALIASES.ENTRY_POINT, isRankedEntryPointAvailable)
+registerBannerEntryPointValidator(HANGAR_ALIASES.MAPBOX_ENTRY_POINT, isMapboxEntryPointAvailable)
+registerBannerEntryPointValidator(HANGAR_ALIASES.MARATHON_ENTRY_POINT, isMarathonEntryPointAvailable)
+registerBannerEntryPointValidator(HANGAR_ALIASES.COMP7_ENTRY_POINT, isComp7EntryPointAvailable)
+registerBannerEntryPointValidator(HANGAR_ALIASES.STRONGHOLD_ENTRY_POINT, isStrongholdEntryPointAvailable)
+registerBannerEntryPointValidator(HANGAR_ALIASES.BR_ENTRY_POINT, isBattleRoyaleEntryPointAvailable)
+registerBannerEntryPointValidator(HANGAR_ALIASES.COLLECTION_ENTRY_POINT, isCollectionEntryPointAvailable)
+registerBannerEntryPointValidator(HANGAR_ALIASES.SUMMER_SALE_ENTRY_POINT, isSummerSaleEntryPointAvailable)
+registerBannerEntryPointLUIRule(HANGAR_ALIASES.COMP7_ENTRY_POINT, LuiRules.COMP7_ENTRY_POINT)
+registerBannerEntryPointLUIRule(HANGAR_ALIASES.CRAFT_MACHINE_ENTRY_POINT, LuiRules.CRAFT_MACHINE_ENTRY_POINT)
+registerBannerEntryPointLUIRule(HANGAR_ALIASES.SHOP_SALES_ENTRY_POINT, LuiRules.SHOP_SALES_ENTRY_POINT)
+registerBannerEntryPointLUIRule(HANGAR_ALIASES.MAPBOX_ENTRY_POINT, LuiRules.MAPBOX_ENTRY_POINT)
+registerBannerEntryPointLUIRule(HANGAR_ALIASES.STRONGHOLD_ENTRY_POINT, LuiRules.STRONGHOLD_ENTRY_POINT)
+registerBannerEntryPointLUIRule(HANGAR_ALIASES.BR_ENTRY_POINT, LuiRules.BR_ENTRY_POINT)
+registerBannerEntryPointLUIRule(HANGAR_ALIASES.BLACK_MARKET_ENTRY_POINT, LuiRules.BLACK_MARKET_ENTRY_POINT)
+registerBannerEntryPointLUIRule(HANGAR_ALIASES.PARAGONS_BANNER_ENTRY_POINT, LuiRules.PARAGONS_ENTRY_POINT)
+ENTRY_POINTS_REQUIRING_DATA = [
+ HANGAR_ALIASES.COLLECTION_ENTRY_POINT]
+_logger = logging.getLogger(__name__)
+
+class _EntryPointData(object):
+    __slots__ = [
+     0, 1, 2, 3, 4, 5]
+
+    def __init__(self, entryData):
+        super(_EntryPointData, self).__init__()
+        self.data = entryData
+        self.id = entryData.get(b'id')
+        startDateStr = entryData.get(b'startDate')
+        endDateStr = entryData.get(b'endDate')
+        self.priority = entryData.get(b'priority')
+        priorityIsInt = isinstance(self.priority, int)
+        self.__isValidData = priorityIsInt and self.id is not None and startDateStr is not None and endDateStr is not None
+        if self.__isValidData:
+            self.startDate = getTimestampByStrDate(startDateStr)
+            self.endDate = getTimestampByStrDate(endDateStr)
+            self.__isValidData = self.startDate < self.endDate
+            if not self.__isValidData:
+                _logger.error(b'endDate must be greater than startDate for entryPoint "%s"', self.id)
+        else:
+            _logger.error(b'Invalid data %s', str(entryData))
+            if self.id is None:
+                _logger.error(b'You must set a id')
+            if startDateStr is None:
+                _logger.error(b'You must set a startDate')
+            if endDateStr is None:
+                _logger.error(b'You must set a endDate')
+            if self.priority is None:
+                _logger.error(b'You must set a priority')
+            if not priorityIsInt:
+                _logger.error(b'priority must be int')
+        return
+
+    def getIsValidData(self):
+        return self.__isValidData
+
+    def getIsValidDateForCreation(self):
+        return self.startDate < getServerUTCTime() < self.endDate
+
+    def getIsExpiredDate(self):
+        return getServerUTCTime() > self.endDate
+
+    def getIsEarlyDate(self):
+        return self.startDate > getServerUTCTime()
+
+    def getIsEnabledByValidator(self):
+        configValidator = collectBannerEntryPointValidator(self.id)
+        if configValidator is not None:
+            if self.id in ENTRY_POINTS_REQUIRING_DATA:
+                return configValidator(self.data)
+            return configValidator()
+        else:
+            return True
+
+    def getLUIRule(self):
+        return collectBannerEntryPointLUIRule(self.id)
+
+
+class EventEntryPointsContainer(EventEntryPointsContainerMeta, Notifiable, IGlobalListener):
+    __notificationsCtrl = dependency.descriptor(IEventsNotificationsController)
+    __lobbyContext = dependency.descriptor(ILobbyContext)
+    __bootcamp = dependency.descriptor(IBootcampController)
+    __itemsCache = dependency.descriptor(IItemsCache)
+    __luiController = dependency.descriptor(ILimitedUIController)
+    __slots__ = [
+     b'__entries', b'__serverSettings']
+
+    def __init__(self):
+        super(EventEntryPointsContainer, self).__init__()
+        self.__entries = {}
+        self.__serverSettings = None
+        return
+
+    def onPrbEntitySwitched(self):
+        self.__updateEntries()
+        return
+
+    def _dispose(self):
+        self.__unsubscribeLUI()
+        self.as_updateEntriesS([])
+        self.stopGlobalListening()
+        self.__notificationsCtrl.onEventNotificationsChanged -= self.__onEventNotification
+        self.clearNotification()
+        self.__lobbyContext.onServerSettingsChanged -= self.__onServerSettingsChanged
+        self.__itemsCache.onSyncCompleted -= self.__onCacheResync
+        if self.__serverSettings:
+            self.__serverSettings.onServerSettingsChange -= self.__onUpdateSettings
+        super(EventEntryPointsContainer, self)._dispose()
+        return
+
+    def _populate(self):
+        super(EventEntryPointsContainer, self)._populate()
+        self.__notificationsCtrl.onEventNotificationsChanged += self.__onEventNotification
+        self.__handleNotifications(self.__notificationsCtrl.getEventsNotifications())
+        self.__onServerSettingsChanged(self.__lobbyContext.getServerSettings())
+        self.__lobbyContext.onServerSettingsChanged += self.__onServerSettingsChanged
+        self.__itemsCache.onSyncCompleted += self.__onCacheResync
+        self.startGlobalListening()
+        return
+
+    def _onRegisterFlashComponent(self, viewPy, alias):
+        super(EventEntryPointsContainer, self)._onRegisterFlashComponent(viewPy, alias)
+        if alias in ENTRY_POINTS_REQUIRING_DATA:
+            entry = self.__entries.get(alias, None)
+            if entry is not None:
+                viewPy.setData(entry.data)
+        return
+
+    def _isQueueEnabled(self):
+        queues = (
+         QUEUE_TYPE.RANDOMS, QUEUE_TYPE.COMP7, QUEUE_TYPE.STRONGHOLD_UNITS, QUEUE_TYPE.RANKED)
+        return self.__isQueueSelected(queues)
+
+    def __isQueueSelected(self, queueTypes):
+        dispatcher = self.prbDispatcher
+        if dispatcher is not None:
+            return any([dispatcher.getFunctionalState().isQueueSelected(queue) for queue in queueTypes])
+        return False
+
+    def __onServerSettingsChanged(self, serverSettings):
+        if self.__serverSettings is not None:
+            self.__serverSettings.onServerSettingsChange -= self.__onUpdateSettings
+        self.__serverSettings = serverSettings
+        self.__serverSettings.onServerSettingsChange += self.__onUpdateSettings
+        self.__updateEntries()
+        return
+
+    def __onUpdateSettings(self, diff):
+        self.__updateEntries()
+        return
+
+    def __onEventNotification(self, added, removed):
+        for item in chain(added, removed):
+            if item.eventType == _HANGAR_ENTRY_POINTS:
+                self.__handleNotifications(self.__notificationsCtrl.getEventsNotifications())
+                break
+
+        return
+
+    def __onCacheResync(self, _, __):
+        self.__updateEntries()
+        return
+
+    def __handleNotifications(self, notifications):
+        newEntries = {}
+        for item in notifications:
+            if item.eventType == _HANGAR_ENTRY_POINTS:
+                notificationEntries = json.loads(item.data)
+                for entryData in notificationEntries:
+                    entryId = entryData.get(b'id')
+                    entry = self.__entries.get(entryId)
+                    if not (entry and entry.data == entryData):
+                        entry = _EntryPointData(entryData)
+                    if entry.getIsValidData() and not entry.getIsExpiredDate():
+                        newEntries[entryId] = entry
+
+        if not newEntries == self.__entries:
+            self.__unsubscribeLUI()
+            self.__entries = newEntries
+            self.__subscribeLUI()
+            self.clearNotification()
+            self.addNotificator(SimpleNotifier(self.__getCooldownForUpdate, self.__onUpdateNotify))
+            self.startNotification()
+        self.__updateEntries()
+        return
+
+    def __onUpdateNotify(self):
+        self.__handleNotifications(self.__notificationsCtrl.getEventsNotifications())
+        return
+
+    def __getCooldownForUpdate(self):
+        currentTime = getServerUTCTime()
+        nearestDate = currentTime + ONE_DAY
+        for entry in self.__entries.itervalues():
+            if entry.getIsEarlyDate():
+                nearestDate = min(nearestDate, entry.startDate)
+            else:
+                nearestDate = min(nearestDate, entry.endDate)
+
+        return nearestDate - currentTime + _SECONDS_BEFORE_UPDATE
+
+    def __strongholdEntryPointValidator(self, entry):
+        strongholdQueues = (
+         QUEUE_TYPE.COMP7, QUEUE_TYPE.STRONGHOLD_UNITS, QUEUE_TYPE.RANKED)
+        if any([self.prbDispatcher.getFunctionalState().isQueueSelected(queue) for queue in strongholdQueues]):
+            return entry.data.get(b'id') == LuiRules.STRONGHOLD_ENTRY_POINT.value
+        return True
+
+    def __updateEntries(self):
+        data = []
+        if not self.__bootcamp.isInBootcamp() and self._isQueueEnabled():
+            count = 0
+            priorities = [item.priority for item in self.__entries.itervalues()]
+            if len(priorities) > len(set(priorities)):
+                _logger.warning(b'You have entryPoints with same priorities. EntryPoints have been sorted by startDate')
+            sortedEntries = sorted(self.__entries.itervalues(), key=attrgetter(b'priority', b'startDate'))
+            for entry in sortedEntries:
+                isValidCount = count < _COUNT_VISIBLE_ENTRY_POINTS
+                if isValidCount and entry.getIsValidDateForCreation() and entry.getIsEnabledByValidator() and self.__luiController.isRuleCompleted(entry.getLUIRule()) and self.__strongholdEntryPointValidator(entry):
+                    count += 1
+                    data.append({b'entryLinkage': (entry.id), 
+                       b'swfPath': (_ADDITIONAL_SWFS_MAP.get(entry.id, b''))})
+
+        self.as_updateEntriesS(data)
+        return
+
+    def __unsubscribeLUI(self):
+        for entry in self.__entries.values():
+            self.__luiController.stopObserve(entry.getLUIRule(), self.__updateEntryPointVisibility)
+
+        return
+
+    def __subscribeLUI(self):
+        for entry in self.__entries.values():
+            self.__luiController.startObserve(entry.getLUIRule(), self.__updateEntryPointVisibility)
+
+        return
+
+    def __updateEntryPointVisibility(self, *_):
+        self.__updateEntries()
+        return

@@ -1,0 +1,244 @@
+from gui.ClientUpdateManager import g_clientUpdateManager
+from gui.impl.lobby.crew.dialogs.base_crew_dialog_template_view import BaseCrewDialogTemplateView
+from gui.impl.lobby.crew.dialogs.recruit_window.recruit_content import NO_DATA_VALUE, RecruitContent
+from gui.impl.gen.view_models.views.lobby.crew.dialogs.recruit_window.recruit_dialog_template_view_model import RecruitDialogTemplateViewModel
+from gui.server_events import recruit_helper
+from gui.shared.gui_items import GUI_ITEM_TYPE
+from gui.shared.gui_items.processors.quests import PMGetTankwomanReward
+from items import vehicles
+from gui.impl.lobby.crew.dialogs.recruit_window.recruit_dialog_utils import getIcon, getTitle, getIconBackground, getIconName
+from gui.impl.dialogs.dialog_template_button import CancelButton, ConfirmButton
+from gui.impl.pub.dialog_window import DialogButtons
+from gui.impl.gen.resources import R
+from gui import SystemMessages, _logger
+from gui.shared.gui_items.processors.tankman import TankmanTokenRecruit, TankmanUnload, TankmanEquip
+from gui.shared.utils import decorators
+from helpers import dependency
+from skeletons.gui.server_events import IEventsCache
+from skeletons.gui.shared import IItemsCache
+from sound_gui_manager import CommonSoundSpaceSettings
+from gui.server_events.pm_constants import SOUNDS as PM_SOUNDS, _SOUNDS_PRIORITIES as PM_SOUND_PRIORITIES
+from gui.impl.lobby.crew.crew_sounds import SOUNDS as CREW_SOUNDS
+from uilogging.crew.logging_constants import CrewDialogKeys
+from th_async import AsyncEvent, th_await, BrokenPromiseError, AsyncReturn, th_async
+from gui.shared.gui_items.Tankman import NO_TANKMAN
+
+class BaseRecruitDialog(BaseCrewDialogTemplateView):
+    __slots__ = (b'_selectedNation', b'_selectedVehType', b'_selectedVehicle', b'_selectedSpecialization', b'_recruitContent')
+    _eventsCache = dependency.descriptor(IEventsCache)
+    LAYOUT_ID = R.views.lobby.crew.dialogs.RecruitDialog()
+    VIEW_MODEL = RecruitDialogTemplateViewModel
+
+    def __init__(self, **kwargs):
+        super(BaseRecruitDialog, self).__init__(loggingKey=CrewDialogKeys.RECRUIT, **kwargs)
+        self._selectedNation = NO_DATA_VALUE
+        self._selectedVehType = NO_DATA_VALUE
+        self._selectedVehicle = NO_DATA_VALUE
+        self._selectedSpecialization = NO_DATA_VALUE
+        self._recruitContent = None
+        return
+
+    @property
+    def viewModel(self):
+        return self.getViewModel()
+
+    def _addButtons(self):
+        self.addButton(ConfirmButton(R.strings.dialogs.recruitWindow.submit(), isDisabled=True))
+        self.addButton(CancelButton(R.strings.dialogs.recruitWindow.cancel()))
+        return
+
+    def _onRecruitContentChanged(self, nation, vehType, vehicle, specialization):
+        self._selectedNation = nation
+        self._selectedVehType = vehType
+        self._selectedVehicle = vehicle
+        self._selectedSpecialization = specialization
+        submitBtn = self.getButton(DialogButtons.SUBMIT)
+        if submitBtn is not None:
+            submitBtn.isDisabled = any(v == NO_DATA_VALUE for v in (nation, vehType, vehicle, specialization))
+        return
+
+
+class TokenRecruitDialog(BaseRecruitDialog):
+    __slots__ = (b'__tokenName', b'__tokenData', b'__vehicleSlotToUnpack', b'__vehicle')
+    _itemsCache = dependency.descriptor(IItemsCache)
+
+    def __init__(self, ctx=None, **kwargs):
+        super(TokenRecruitDialog, self).__init__(**kwargs)
+        self.__tokenName = ctx[b'tokenName']
+        self.__tokenData = ctx[b'tokenData']
+        self.__vehicleSlotToUnpack = ctx[b'slot']
+        self.__vehicle = ctx[b'vehicle']
+        return
+
+    def _onLoading(self, *args, **kwargs):
+        super(TokenRecruitDialog, self)._onLoading(*args, **kwargs)
+        self.setBackgroundImagePath(R.images.gui.maps.icons.windows.background())
+        name = self.__tokenData.getFullUserNameByNation().strip()
+        if self.__tokenData.getSmallIcon() in (recruit_helper._TANKWOMAN_ICON, recruit_helper._TANKMAN_ICON):
+            name = None
+        self.viewModel.setText(getTitle(name))
+        self._addButtons()
+        predefinedData = {b'predefinedNations': (self.__tokenData.getNations()), 
+           b'predefinedRoles': (self.__tokenData.getRoles()), 
+           b'isFemale': (self.__tokenData.isFemale()), 
+           b'slotToUnpack': (self.__vehicleSlotToUnpack), 
+           b'predefinedVehicle': (self.__vehicle)}
+        self._recruitContent = RecruitContent(model=self.viewModel.recruitContent, predefinedData=predefinedData)
+        self._recruitContent.onRecruitContentChanged += self._onRecruitContentChanged
+        self._recruitContent.onLoading()
+        self._recruitContent.subscribe()
+        iconID, hasBackground = getIcon(getIconName(self.__tokenData.getSmallIcon()), self.__tokenData.isFemale())
+        self.viewModel.iconModel.icon.setPath(iconID)
+        if not hasBackground:
+            self.viewModel.iconModel.bgIcon.setPath(getIconBackground(self.__tokenData.getSourceID(), self.__tokenData.getSmallIcon()))
+        return
+
+    def _finalize(self):
+        super(TokenRecruitDialog, self)._finalize()
+        if self._recruitContent is not None:
+            self._recruitContent.onRecruitContentChanged -= self._onRecruitContentChanged
+            self._recruitContent.unsubscribe()
+        return
+
+    def _setResult(self, result):
+        if result == DialogButtons.SUBMIT:
+            tankmen = self.__vehicle.getTankmanIDBySlotIdx(self.__vehicleSlotToUnpack) if self.__vehicle else NO_TANKMAN
+            if tankmen != NO_TANKMAN:
+                self._unloadOldTankman()
+            else:
+                self._unpackTokenRecruit()
+        super(TokenRecruitDialog, self)._setResult(result)
+        return
+
+    @decorators.adisp_process(b'updating')
+    def _unpackTokenRecruit(self):
+        _, _, vehTypeID = vehicles.parseIntCompactDescr(int(self._selectedVehicle))
+        res = yield TankmanTokenRecruit(int(self._selectedNation), int(vehTypeID), self._selectedSpecialization, self.__tokenName, self.__tokenData).request()
+        if res.userMsg:
+            SystemMessages.pushMessage(res.userMsg, type=res.sysMsgType)
+        if res.success:
+            if self.__vehicleSlotToUnpack != -1:
+                tmn = self._itemsCache.items.getTankman(res.auxData)
+                self._equipTankman(tmn)
+        return
+
+    @decorators.adisp_process(b'unloading')
+    def _unloadOldTankman(self):
+        result = yield TankmanUnload(self.__vehicle.invID, self.__vehicleSlotToUnpack).request()
+        if result.userMsg:
+            SystemMessages.pushI18nMessage(result.userMsg, type=result.sysMsgType)
+        if result.success:
+            self._unpackTokenRecruit()
+        return
+
+    @decorators.adisp_process(b'equipping')
+    def _equipTankman(self, newTankman):
+        result = yield TankmanEquip(newTankman.invID, self.__vehicle.invID, self.__vehicleSlotToUnpack).request()
+        if result.userMsg:
+            SystemMessages.pushI18nMessage(result.userMsg, type=result.sysMsgType)
+        return
+
+
+class QuestRecruitDialog(BaseRecruitDialog):
+    __slots__ = (b'__mission', b'__isFemale', b'__vehicleSlotToUnpack', b'__vehicle', b'__inventoryUpdateEvent')
+    _itemsCache = dependency.descriptor(IItemsCache)
+    __SOUND_SETTINGS = CommonSoundSpaceSettings(name=PM_SOUNDS.COMMON_SOUND_SPACE, entranceStates={(CREW_SOUNDS.OVERLAY_HANGAR_GENERAL): (CREW_SOUNDS.OVERLAY_HANGAR_GENERAL_ON)}, exitStates={(CREW_SOUNDS.OVERLAY_HANGAR_GENERAL): (CREW_SOUNDS.OVERLAY_HANGAR_GENERAL_OFF)}, persistentSounds=(), stoppableSounds=(), priorities=PM_SOUND_PRIORITIES, autoStart=True, enterEvent=b'', exitEvent=b'', parentSpace=CREW_SOUNDS.COMMON_SOUND_SPACE)
+    _COMMON_SOUND_SPACE = __SOUND_SETTINGS
+
+    def __init__(self, ctx=None, **kwargs):
+        super(QuestRecruitDialog, self).__init__(**kwargs)
+        self.__mission = self._eventsCache.getPersonalMissions().getAllQuests().get(ctx[b'questID'])
+        self.__isFemale = ctx[b'isFemale']
+        self.__vehicleSlotToUnpack = ctx[b'slot']
+        self.__vehicle = ctx[b'vehicle']
+        self.__inventoryUpdateEvent = AsyncEvent(state=False, scope=None)
+        return
+
+    def _onLoading(self, *args, **kwargs):
+        super(QuestRecruitDialog, self)._onLoading(*args, **kwargs)
+        self.setBackgroundImagePath(R.images.gui.maps.icons.windows.background())
+        self.viewModel.setText(getTitle())
+        self._addButtons()
+        predefinedData = {b'isFemale': (self.__isFemale), 
+           b'slotToUnpack': (self.__vehicleSlotToUnpack), 
+           b'predefinedVehicle': (self.__vehicle)}
+        self._recruitContent = RecruitContent(model=self.viewModel.recruitContent, predefinedData=predefinedData)
+        self._recruitContent.onRecruitContentChanged += self._onRecruitContentChanged
+        self._recruitContent.onLoading()
+        self._recruitContent.subscribe()
+        iconID, hasBackground = getIcon(isFemale=self.__isFemale)
+        self.viewModel.iconModel.icon.setPath(iconID)
+        if not hasBackground:
+            self.viewModel.iconModel.bgIcon.setPath(getIconBackground())
+        return
+
+    def _finalize(self):
+        super(QuestRecruitDialog, self)._finalize()
+        if self._recruitContent is not None:
+            self._recruitContent.onRecruitContentChanged -= self._onRecruitContentChanged
+            self._recruitContent.unsubscribe()
+        g_clientUpdateManager.removeObjectCallbacks(self)
+        return
+
+    def _getCallbacks(self):
+        return (
+         (
+          b'inventory', self._onInventoryUpdate),)
+
+    def _setResult(self, result):
+        if result == DialogButtons.SUBMIT:
+            if self.__vehicleSlotToUnpack != -1:
+                self._unloadOldTankman()
+            else:
+                self._unpackQuestRecruit()
+        super(QuestRecruitDialog, self)._setResult(result)
+        return
+
+    @decorators.adisp_process(b'updating')
+    def _unpackQuestRecruit(self):
+        _, _, vehTypeID = vehicles.parseIntCompactDescr(int(self._selectedVehicle))
+        res = yield PMGetTankwomanReward(self.__mission, int(self._selectedNation), int(vehTypeID), self._selectedSpecialization).request()
+        if res.userMsg:
+            SystemMessages.pushMessage(res.userMsg, type=res.sysMsgType)
+        if res.success and self.__vehicleSlotToUnpack != -1:
+            self._waitForInventoryUpdate()
+        return
+
+    @th_async
+    def _waitForInventoryUpdate(self):
+        try:
+            yield th_await(self.__inventoryUpdateEvent.wait())
+            super(QuestRecruitDialog, self)._setResult(DialogButtons.SUBMIT)
+        except BrokenPromiseError:
+            _logger.debug(b'%s has been destroyed without user decision', self)
+
+        raise AsyncReturn(DialogButtons.SUBMIT)
+        return
+
+    @decorators.adisp_process(b'unloading')
+    def _unloadOldTankman(self):
+        result = yield TankmanUnload(self.__vehicle.invID, self.__vehicleSlotToUnpack).request()
+        if result.userMsg:
+            SystemMessages.pushI18nMessage(result.userMsg, type=result.sysMsgType)
+        if result.success:
+            self._unpackQuestRecruit()
+        return
+
+    @decorators.adisp_process(b'equipping')
+    def _equipTankman(self, newTankman):
+        result = yield TankmanEquip(newTankman.invID, self.__vehicle.invID, self.__vehicleSlotToUnpack).request()
+        if result.userMsg:
+            SystemMessages.pushI18nMessage(result.userMsg, type=result.sysMsgType)
+        return
+
+    def _onInventoryUpdate(self, invDiff):
+        if GUI_ITEM_TYPE.TANKMAN in invDiff:
+            tmenCompDescr = invDiff[GUI_ITEM_TYPE.TANKMAN].get(b'compDescr', {})
+            for key, _ in tmenCompDescr.items():
+                tmn = self._itemsCache.items.getTankman(key)
+                if tmn and self._selectedVehicle == tmn.vehicleNativeDescr.type.compactDescr and self._selectedSpecialization == tmn.role:
+                    self._equipTankman(tmn)
+                    self.__inventoryUpdateEvent.set()
+                    return
+
+        return

@@ -1,0 +1,809 @@
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBar_base_45 {
+    width: 100%;
+    height: 12rem;
+    position: relative;
+}
+.ProgressBar_base__medium_62 {
+        height: 6rem;
+    }
+.ProgressBar_base__small_df {
+        height: 2rem;
+    }
+.ProgressBar_background_51 {
+    width: 100%;
+    max-width: 8001px;
+    height: 100%;
+    background-image: var(--progress-base);
+    background-repeat: repeat;
+    background-position: 0 50%;
+    background-size: 3rem 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ProgressBar_background__medium_6e {
+        height: 6rem;
+    }
+.ProgressBar_background__small_46 {
+        height: 2rem;
+    }
+.ProgressBar_lineWrapper_6a {
+    display: flex;
+    flex: 1;
+}
+
+
+.ProgressBarBlink_base_24 {
+    width: 60rem;
+    height: 100rem;
+    background-image: var(--progress-glow);
+    background-size: contain;
+    mix-blend-mode: lighten;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    pointer-events: none;
+}
+
+    .ProgressBarBlink_base__medium_ec {
+        width: 42rem;
+        height: 70rem;
+    }
+
+    .ProgressBarBlink_base__small_0f {
+        width: 44rem;
+        height: 43rem;
+        background-image: var(--progress-glow-small);
+    }
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressLineImpose_base_80 {
+    max-width: 8001px;
+    height: 100%;
+    background-color: var(--progress-line-base);
+    position: relative;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressLineImpose_base__disabled_cc {
+        background-color: var(--progress-line-disabled);
+    }
+.ProgressLineImpose_base__finished_d4 {
+        background-color: var(--progress-line-finished);
+    }
+.ProgressLineImpose_base__withoutBounce_56 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+.ProgressLineImpose_pattern_1c {
+    max-width: 8001px;
+    background-image: var(--progress-pattern-base);
+    background-repeat: repeat;
+    background-position: 0 50%;
+    background-size: 3rem 10rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_pattern_1c {
+        top: 0;
+        bottom: 0;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_pattern_1c {
+        background-image: var(--progress-pattern-disabled);
+        left: 0;
+    }
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_pattern_1c {
+        background-image: var(--progress-pattern-finished);
+    }
+.ProgressLineImpose_gradient_35 {
+    max-width: 8001px;
+    background-image: linear-gradient(90deg, rgba(0,0,0, .5), rgba(255,255,255, .75));
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    bottom: 1rem;
+    left: 0;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_gradient_35 {
+        top: 0;
+        bottom: 0;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_gradient_35 {
+        display: none;
+    }
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_gradient_35 {
+        background-image: linear-gradient(90deg, rgba(0,0,0, .5), rgba(255,255,255, .75), rgba(0,0,0, .5));
+    }
+.ProgressLineImpose_glow_a5 {
+    width: 60rem;
+    max-width: 8001px;
+    height: 100rem;
+    background-image: var(--progress-glow);
+    background-size: contain;
+    mix-blend-mode: lighten;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.ProgressLineImpose_glow__left_d8 {
+        left: 1rem;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_glow_a5,
+    .ProgressLineImpose_base__finished_d4 .ProgressLineImpose_glow_a5 {
+        display: none;
+    }
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_glow_a5 {
+        width: 44rem;
+        height: 43rem;
+        background-image: var(--progress-glow-small);
+    }
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBarDeltaSimple_base_6c {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.ProgressBarDeltaSimple_delta_99 {
+    width: 0;
+    max-width: 8001px;
+    height: 100%;
+    box-shadow: var(--progress-delta-shadow);
+    background-color: var(--progress-delta-color);
+    position: absolute;
+    bottom: 0;
+    transform-origin: right center;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1), cubic-bezier(.21, .61, .35, 1);
+    transition-property: width, transform;
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBarDeltaGrow_base_7e {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressBarDeltaGrow_base__withoutBounce_b5 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+.ProgressBarDeltaGrow_glow_68 {
+    width: 0;
+    max-width: 8001px;
+    height: 100%;
+    box-shadow: var(--progress-delta-shadow);
+    background-color: var(--progress-delta-color);
+    position: absolute;
+    bottom: 0;
+    transform-origin: right center;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressBarDeltaGrow_base__withoutBounce_b5 .ProgressBarDeltaGrow_glow_68 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+
+.Box_mt__XS_0c {
+            margin-top: 4rem;
+        }
+        .Box_mt__SM_eb {
+            margin-top: 8rem;
+        }
+        .Box_mt__SMp_cf {
+            margin-top: 10rem;
+        }
+        .Box_mt__MD_25 {
+            margin-top: 16rem;
+        }
+        .Box_mt__MDp_49 {
+            margin-top: 20rem;
+        }
+        .Box_mt__LG_e8 {
+            margin-top: 32rem;
+        }
+        .Box_mt__XL_83 {
+            margin-top: 64rem;
+        }
+
+.Box_mr__XS_7c {
+            margin-right: 4rem;
+        }
+
+.Box_mr__SM_08 {
+            margin-right: 8rem;
+        }
+
+.Box_mr__SMp_06 {
+            margin-right: 10rem;
+        }
+
+.Box_mr__MD_4a {
+            margin-right: 16rem;
+        }
+
+.Box_mr__MDp_b6 {
+            margin-right: 20rem;
+        }
+
+.Box_mr__LG_d0 {
+            margin-right: 32rem;
+        }
+
+.Box_mr__XL_db {
+            margin-right: 64rem;
+        }
+
+.Box_mb__XS_bb {
+            margin-bottom: 4rem;
+        }
+
+.Box_mb__SM_83 {
+            margin-bottom: 8rem;
+        }
+
+.Box_mb__SMp_04 {
+            margin-bottom: 10rem;
+        }
+
+.Box_mb__MD_ed {
+            margin-bottom: 16rem;
+        }
+
+.Box_mb__MDp_65 {
+            margin-bottom: 20rem;
+        }
+
+.Box_mb__LG_c8 {
+            margin-bottom: 32rem;
+        }
+
+.Box_mb__XL_f8 {
+            margin-bottom: 64rem;
+        }
+
+.Box_ml__XS_8a {
+            margin-left: 4rem;
+        }
+
+.Box_ml__SM_e6 {
+            margin-left: 8rem;
+        }
+
+.Box_ml__SMp_fb {
+            margin-left: 10rem;
+        }
+
+.Box_ml__MD_2b {
+            margin-left: 16rem;
+        }
+
+.Box_ml__MDp_c7 {
+            margin-left: 20rem;
+        }
+
+.Box_ml__LG_39 {
+            margin-left: 32rem;
+        }
+
+.Box_ml__XL_4a {
+            margin-left: 64rem;
+        }
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* eslint-disable-next-line expectedscss*/
+.Text_paragraph-P10_2c {
+        font-size: 10rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_paragraph-P12_22 {
+        font-size: 12rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P14_a7 {
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P16_90 {
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P18_50 {
+        font-size: 18rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P24_33 {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 32rem;
+}
+.Text_heading-H14_8b {
+        font-size: 14rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H15_9e {
+        font-size: 15rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H18_b7 {
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H20R_f6 {
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H22_27 {
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H24R_be {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H24_0c {
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H28_78 {
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H36_32 {
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H56_c3 {
+        font-size: 56rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H73_8f {
+        font-size: 73rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H144_a9 {
+        font-size: 144rem;
+        font-weight: 700;
+        line-height: 1;
+}
+.Text_BLACK_REAL_30 {
+        color: #000000;
+    }
+.Text_WHITE_REAL_bc {
+        color: #FFFFFF;
+    }
+.Text_WHITE_62 {
+        color: #F2F2F7;
+    }
+.Text_WHITE_ORANGE_54 {
+        color: #FEFEEC;
+    }
+.Text_WHITE_SPANISH_df {
+        color: #E9E2BF;
+    }
+.Text_PAR_15 {
+        color: #8C8C7E;
+    }
+.Text_PAR_SECONDARY_5d {
+        color: #595950;
+    }
+.Text_PAR_TERTIARY_c9 {
+        color: #37362E;
+    }
+.Text_INFO_RED_30 {
+        color: #FF0000;
+    }
+.Text_RED_66 {
+        color: #FF2717;
+    }
+.Text_RED_DARK_d8 {
+        color: #B70000;
+    }
+.Text_YELLOW_ed {
+        color: #FEAB34;
+    }
+.Text_ORANGE_be {
+        color: #EE7000;
+    }
+.Text_CREAM_57 {
+        color: #FFDD99;
+    }
+.Text_BROWN_18 {
+        color: #CBAC77;
+    }
+.Text_GREEN_BRIGHT_3f {
+        color: #80D43A;
+    }
+.Text_GREEN_e3 {
+        color: #7AB300;
+    }
+.Text_GREEN_DARK_f1 {
+        color: #497212;
+    }
+.Text_BLUE_BOOSTER_21 {
+        color: #CCFFFF;
+    }
+.Text_BLUE_TEAMKILLER_ab {
+        color: #09E2FF;
+    }
+.Text_CRED_f7 {
+        color: #CED9D9;
+    }
+.Text_GOLD_28 {
+        color: #FFC363;
+    }
+.Text_BOND_be {
+        color: #C9C9B6;
+    }
+.Text_PROM_65 {
+        color: #A29B70;
+    }
+
+.Progress_base_1a {
+    color: #E9E2BF;
+}
+
+    .Progress_base__completed_99 {
+        color: #7AB300;
+    }
+
+    .Progress_base__disabled_94 {
+        color: #8C8C7E;
+    }
+
+.Progress_currentProgress_a5 {
+    margin-right: 2rem;
+    color: #FEAB34;
+}
+
+.Progress_base__completed_99 .Progress_currentProgress_a5 {
+        color: #7AB300;
+    }
+
+.Progress_base__disabled_94 .Progress_currentProgress_a5 {
+        color: #8C8C7E;
+    }
+
+.Progress_maxProgress_27 {
+    margin-left: 2rem;
+}
+
+.QuestCard_base_73 {
+    display: flex;
+    align-items: center;
+    width: 320rem;
+    height: 60rem;
+    margin: 0.5rem 0;
+    background: url('R.images.gui.maps.icons.daily.widget.big_bg') no-repeat center / cover;
+    opacity: 0;
+    position: relative;
+    transform: translateX(-50rem);
+    cursor: pointer;
+}
+
+    .QuestCard_base__mini_f5,
+    .QuestCard_base__micro_3a {
+        margin: 0 0.5rem;
+        padding: 0;
+    }
+
+    .QuestCard_base__mini_f5 {
+        width: 60rem;
+        height: 60rem;
+        background-image: url('R.images.gui.maps.icons.daily.widget.mini_bg');
+    }
+
+    .QuestCard_base__micro_3a {
+        width: 48rem;
+        height: 48rem;
+        background-image: url('R.images.gui.maps.icons.daily.widget.micro_bg');
+    }
+
+    .QuestCard_base__complete_12 {
+        background-image: url('R.images.gui.maps.icons.daily.widget.big_bg_complete');
+    }
+
+    .QuestCard_base__complete_12.QuestCard_base__mini_f5 {
+            background-image: url('R.images.gui.maps.icons.daily.widget.mini_bg_complete');
+        }
+
+    .QuestCard_base__complete_12.QuestCard_base__micro_3a {
+            background-image: url('R.images.gui.maps.icons.daily.widget.micro_bg_complete');
+        }
+
+    .QuestCard_base__disabled_5c {
+        background-image: url('R.images.gui.maps.icons.daily.widget.big_bg_disabled');
+    }
+
+    .QuestCard_base__disabled_5c.QuestCard_base__mini_f5 {
+            background-image: url('R.images.gui.maps.icons.daily.widget.mini_bg_disabled');
+        }
+
+    .QuestCard_base__disabled_5c.QuestCard_base__micro_3a {
+            background-image: url('R.images.gui.maps.icons.daily.widget.micro_bg_disabled');
+        }
+
+    .QuestCard_base__appearEnd_56 {
+        opacity: 1;
+        transform: translate(0, 0); /* y is required by disappear transition*/
+        transition: transform, opacity 0.5s linear;
+    }
+
+    .QuestCard_base__disappearEnd_c0 {
+        opacity: 0;
+        transform: translate(0, 0); /* y is required by disappear transition*/
+        transition: transform, opacity 0.5s linear;
+    }
+.QuestCard_border_b3 {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 320rem 0, 320rem 1rem, 1rem 1rem, 1rem 59rem, 320rem 59rem, 320rem 60rem, 0 60rem, 0 0);
+    position: absolute;
+}
+.QuestCard_base__mini_f5 .QuestCard_border_b3 {
+        clip-path: polygon(
+            0 0,
+            60rem 0,
+            60rem 60rem,
+            0 60rem,
+            0 0,
+            1rem 1rem,
+            1rem 59rem,
+            59rem 59rem,
+            59rem 1rem,
+            1rem 1rem
+        );
+    }
+.QuestCard_base__micro_3a .QuestCard_border_b3 {
+        clip-path: polygon(
+            0 0,
+            48rem 0,
+            48rem 48rem,
+            0 48rem,
+            0 0,
+            1rem 1rem,
+            1rem 47rem,
+            47rem 47rem,
+            47rem 1rem,
+            1rem 1rem
+        );
+    }
+.QuestCard_background_cf {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -3;
+}
+.QuestCard_background__blinkComplete_9f {
+        animation: QuestCard_backgroundBlinkComplete_40 0.8s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0.6s 2;
+    }
+.QuestCard_background__blinkReady_44 {
+        animation: QuestCard_backgroundBlinkReady_8c 0.8s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0.6s 2;
+    }
+.QuestCard_hoverBg_41 {
+    width: 100%;
+    height: 100%;
+    background: url('R.images.gui.maps.icons.daily.widget.big_bg_onhover') no-repeat center / cover;
+    opacity: 0;
+    position: absolute;
+    z-index: -2;
+    transition: opacity 0.1s ease-in-out;
+}
+.QuestCard_base_73:hover .QuestCard_hoverBg_41 {
+        opacity: 0.6;
+    }
+.QuestCard_base__mini_f5 .QuestCard_hoverBg_41 {
+        background-image: url('R.images.gui.maps.icons.daily.widget.mini_bg_onhover');
+    }
+.QuestCard_base__micro_3a .QuestCard_hoverBg_41 {
+        background-image: url('R.images.gui.maps.icons.daily.widget.micro_bg_onhover');
+    }
+.QuestCard_contentWrapper_03 {
+    padding: 0 26rem 0 12rem;
+}
+.QuestCard_divider_ea {
+    width: 1rem;
+    height: 44rem;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.QuestCard_content_5a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 246rem;
+}
+.QuestCard_iconWrapper_ca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60rem;
+    height: 60rem;
+    padding: 8rem 0;
+    position: relative;
+}
+.QuestCard_base__micro_3a .QuestCard_iconWrapper_ca {
+        width: 48rem;
+        height: 48rem;
+        padding: 2rem 0;
+    }
+.QuestCard_iconWrapper__center_22 {
+        justify-content: center;
+    }
+.QuestCard_iconWrapper__completeStart_69 {
+        animation: QuestCard_hideIcon_ec 0.6s linear forwards;
+    }
+.QuestCard_iconWrapper__completeEnd_46 {
+        animation: QuestCard_showIcon_80 0.6s linear forwards;
+    }
+.QuestCard_premium_80 {
+    width: 58rem;
+    height: 44rem;
+    background: url('R.images.gui.maps.icons.daily.widget.icon_prem_big') no-repeat center / cover;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    z-index: -1;
+}
+.QuestCard_base__micro_3a .QuestCard_premium_80 {
+        width: 48rem;
+        height: 36rem;
+        background-image: url('R.images.gui.maps.icons.daily.widget.icon_prem_micro');
+    }
+.QuestCard_iconWrapper__center_22 .QuestCard_premium_80 {
+        top: 8rem;
+    }
+.QuestCard_missionProgress_ec {
+    color: #F2F2F7;
+    font-size: 14rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-top: -3rem;
+}
+.QuestCard_icon_bf {
+    width: 32rem;
+    height: 32rem;
+    background: no-repeat center / contain;
+    opacity: 1;
+    transition: transform 1s easy-out, opacity 1s easy-out;
+}
+.QuestCard_description_a7 {
+    color: #E9E2BF;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.QuestCard_base__disabled_5c .QuestCard_description_a7 {
+        color: #8C8C7E;
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+    }
+.QuestCard_progressBar_23 {
+    width: 220rem;
+    margin: 4rem 0;
+}
+@keyframes QuestCard_backgroundBlinkComplete_40 {
+    0% {
+        background-color: rgba(76, 111, 29, 0);
+    }
+
+    50% {
+        background-color: rgba(76, 111, 29, 0.4);
+    }
+
+    100% {
+        background-color: rgba(76, 111, 29, 0);
+    }
+}
+@keyframes QuestCard_backgroundBlinkReady_8c {
+    0% {
+        background-color: rgba(254, 171, 52, 0);
+    }
+
+    50% {
+        background-color: rgba(254, 171, 52, 0.2);
+    }
+
+    100% {
+        background-color: rgba(254, 171, 52, 0);
+    }
+}
+@keyframes QuestCard_hideIcon_ec {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    33% {
+        opacity: 1;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
+@keyframes QuestCard_showIcon_80 {
+    0% {
+        opacity: 0;
+        transform: scale(1.6);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.QuestList_base_50 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+    .QuestList_base__horizontal_26 {
+        flex-direction: row;
+    }
+
+.App_base_6a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding-left: 3rem;
+}
+
+    .App_base__horizontal_b2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+

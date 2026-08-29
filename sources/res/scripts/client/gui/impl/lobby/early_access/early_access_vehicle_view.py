@@ -1,0 +1,311 @@
+import typing
+from CurrentVehicle import g_currentPreviewVehicle
+from frameworks.wulf import ViewFlags, ViewSettings
+from gui.impl.lobby.early_access.early_access_view_impl import EarlyAccessViewImpl
+from gui.techtree.techtree_dp import g_techTreeDP
+from gui.Scaleform.daapi.view.lobby.vehicle_preview.sound_constants import RESEARCH_PREVIEW_SOUND_SPACE
+from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS
+from gui.hangar_cameras.hangar_camera_common import CameraRelatedEvents
+from gui.impl.backport.backport_tooltip import createTooltipData
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.early_access.early_access_animation_params import EarlyAccessAnimationParams
+from gui.impl.gen.view_models.views.lobby.early_access.early_access_vehicle_model import EarlyAccessVehicleModel, State
+from gui.impl.gen.view_models.views.lobby.early_access.early_access_vehicle_view_model import EarlyAccessVehicleViewModel
+from gui.impl.lobby.common.vehicle_model_helpers import fillVehicleModel
+from gui.impl.lobby.common.view_wrappers import createBackportTooltipDecorator
+from gui.impl.lobby.early_access.early_access_window_events import showEarlyAccessInfoPage, showBuyTokensWindow, showEarlyAccessVehicleView, showEarlyAccessQuestsView
+from gui.impl.lobby.early_access.sounds import setResearchesPreviewSoundState
+from gui.impl.lobby.early_access.tooltips.early_access_currency_tooltip_view import EarlyAccessCurrencyTooltipView
+from gui.impl.lobby.early_access.tooltips.early_access_state_tooltip import EarlyAccessStateTooltipView
+from gui.impl.wrappers.user_compound_price_model import BuyPriceModelBuilder
+from gui.shared import event_dispatcher
+from gui.shared import g_eventBus, EVENT_BUS_SCOPE
+from gui.shared.event_dispatcher import showVehicleBuyDialog, showVehiclePreview
+from gui.shared.events import LobbySimpleEvent
+from gui.shared.gui_items import GUI_ITEM_TYPE
+from helpers import dependency, time_utils
+from skeletons.gui.app_loader import IAppLoader
+from skeletons.gui.game_control import IEarlyAccessController, IVehicleComparisonBasket
+from skeletons.gui.shared import IItemsCache
+if typing.TYPE_CHECKING:
+    import Event
+    from gui.shared.gui_items.Vehicle import Vehicle
+    from frameworks.wulf import ViewEvent, View, Window
+
+class EarlyAccessVehicleView(EarlyAccessViewImpl):
+    __slots__ = (b'__isAnimationPlaying', b'__hasDelayedBalanceUpdates', b'__currentVehicleCD', b'__isFromTechTree', b'__isAnimationFreeze')
+    __itemsCache = dependency.descriptor(IItemsCache)
+    __earlyAccessController = dependency.descriptor(IEarlyAccessController)
+    __comparisonBasket = dependency.descriptor(IVehicleComparisonBasket)
+    __appLoader = dependency.descriptor(IAppLoader)
+    _COMMON_SOUND_SPACE = RESEARCH_PREVIEW_SOUND_SPACE
+
+    def __init__(self, layoutID, isFromTechTree=False, selectedVehicleCD=None):
+        settings = ViewSettings(layoutID)
+        settings.flags = ViewFlags.LOBBY_SUB_VIEW
+        settings.model = EarlyAccessVehicleViewModel()
+        super(EarlyAccessVehicleView, self).__init__(settings)
+        self.__isFromTechTree = isFromTechTree
+        self.__currentVehicleCD = selectedVehicleCD
+        self.__isAnimationFreeze = False
+        self.__isAnimationPlaying = False
+        self.__hasDelayedBalanceUpdates = False
+        return
+
+    @property
+    def viewModel(self):
+        return super(EarlyAccessVehicleView, self).getViewModel()
+
+    @createBackportTooltipDecorator()
+    def createToolTip(self, event):
+        return super(EarlyAccessVehicleView, self).createToolTip(event)
+
+    def getTooltipData(self, event):
+        vehicleCD = event.getArgument(b'vehicleCD')
+        data = createTooltipData(isSpecial=True, specialAlias=TOOLTIPS_CONSTANTS.CAROUSEL_VEHICLE, specialArgs=[
+         vehicleCD])
+        return data
+
+    def createToolTipContent(self, event, contentID):
+        if contentID == R.views.lobby.early_access.tooltips.EarlyAccessCurrencyTooltipView():
+            return EarlyAccessCurrencyTooltipView()
+        if contentID == R.views.lobby.early_access.tooltips.EarlyAccessSimpleTooltipView():
+            return EarlyAccessStateTooltipView(event.getArgument(b'state'))
+        return super(EarlyAccessVehicleView, self).createToolTipContent(event, contentID)
+
+    @staticmethod
+    def getVehicleState(vehicle, isNext2Unlock):
+        if vehicle.isInInventory:
+            return State.ININVENTORY
+        if vehicle.isUnlocked:
+            return State.PURCHASABLE
+        if isNext2Unlock:
+            return State.INPROGRESS
+        return State.LOCKED
+
+    def _initialize(self, *args, **kwargs):
+        super(EarlyAccessVehicleView, self)._initialize()
+        app = self.__appLoader.getApp()
+        app.setBackgroundAlpha(0)
+        return
+
+    def _finalize(self):
+        self.soundManager.playSound(b'comp_7_progressbar_stop')
+        super(EarlyAccessVehicleView, self)._finalize()
+        return
+
+    def _onShown(self):
+        super(EarlyAccessVehicleView, self)._onShown()
+        if g_currentPreviewVehicle.intCD is None and self.__currentVehicleCD is not None:
+            g_currentPreviewVehicle.selectVehicle(self.__currentVehicleCD)
+        return
+
+    def _onLoading(self, *args, **kwargs):
+        super(EarlyAccessVehicleView, self)._onLoading(*args, **kwargs)
+        g_techTreeDP.load()
+        self.__updateModel(shouldUpdateSelectedVehicle=self.__currentVehicleCD is None)
+        return
+
+    def _getEvents(self):
+        return (
+         (
+          self.__earlyAccessController.onUpdated, self.__onUpdated),
+         (
+          self.__earlyAccessController.onBalanceUpdated, self.__onBalanceUpdated),
+         (
+          self.__itemsCache.onSyncCompleted, self.__onInventoryUpdate),
+         (
+          self.viewModel.onSelectVehicle, self.__onVehicleSelected),
+         (
+          self.viewModel.onCompare, self.__onCompare),
+         (
+          self.viewModel.onShowVehiclePreview, self.__onShowVehiclePreview),
+         (
+          self.viewModel.onShowInHangar, self.__onShowInHangar),
+         (
+          self.viewModel.onBuyVehicle, self.__onBuyVehicle),
+         (
+          self.viewModel.onAboutEvent, showEarlyAccessInfoPage),
+         (
+          self.viewModel.onBackToHangar, self.__onBackToHangar),
+         (
+          self.viewModel.onBackToPrevScreen, self.__onBackToPrevScreen),
+         (
+          self.viewModel.onBuyTokens, self.__onShowBuyView),
+         (
+          self.viewModel.onGoToQuests, self.__onShowQuestsView),
+         (
+          self.viewModel.onStartMoving, self.__onStartMoving),
+         (
+          self.viewModel.onMoveSpace, self.__onMoveSpace),
+         (
+          self.viewModel.onAnimationFinished, self.__onAnimationFinished))
+
+    def __updateModel(self, shouldUpdateSelectedVehicle=True, showCarouselSliderAnimation=False):
+        startDate, endDate = self.__earlyAccessController.getSeasonInterval()
+        currentTime = time_utils.getServerUTCTime()
+        _, endProgressionDate = self.__earlyAccessController.getProgressionTimes()
+        self.__isAnimationPlaying = showCarouselSliderAnimation
+        with self.viewModel.transaction() as model:
+            model.setStartDate(startDate)
+            model.setEndDate(endDate)
+            model.setCurrentDate(currentTime)
+            model.setEndProgressionDate(endProgressionDate)
+            model.setFeatureState(self.__earlyAccessController.getState().value)
+            model.setIsFromTechTree(self.__isFromTechTree)
+            model.setIsQuestWidgetEnabled(self.__earlyAccessController.isAnyQuestAvailable())
+            if shouldUpdateSelectedVehicle:
+                self.__updateSelectedVehicle()
+            model.setCurrentVehicleCD(self.__currentVehicleCD)
+            self.__fillVehicles(model, showCarouselSliderAnimation)
+            model.setTokensBalance(self.__earlyAccessController.getTokensBalance())
+        return
+
+    def __fillVehicles(self, model, showCarouselSliderAnimation=False):
+        vehicles = (self.__itemsCache.items.getItemByCD(cd) for cd in self.__earlyAccessController.getAffectedVehicles().iterkeys())
+        vehicles = sorted(vehicles, key=(lambda vehicle: vehicle.level))
+        vehicleModelArray = model.getVehicles()
+        prevVehiclesStates = tuple(vModel.getState() for vModel in vehicleModelArray)
+        vehicleModelArray.clear()
+        for idx, veh in enumerate(vehicles):
+            vModel = EarlyAccessVehicleModel()
+            fillVehicleModel(vModel, veh)
+            price = self.__earlyAccessController.getVehiclePrice(veh.compactDescr)
+            isNext2Unlock, unlockProps = g_techTreeDP.isNext2Unlock(veh.compactDescr, unlocked=self.__itemsCache.items.stats.unlocks, xps=self.__itemsCache.items.stats.vehiclesXPs)
+            state = self.getVehicleState(veh, isNext2Unlock)
+            if showCarouselSliderAnimation:
+                self.__setAnimationParams(vModel.animationParams, prevVehiclesStates[idx], state, model.getTokensBalance(), price)
+            vModel.setState(state)
+            vModel.setPrice(price)
+            vModel.setIsPostProgression(veh.compactDescr in self.__earlyAccessController.getPostProgressionVehicles())
+            if state in (State.LOCKED, State.INPROGRESS):
+                vModel.setUnlockPriceAfterEA(unlockProps.xpCost)
+            elif state == State.PURCHASABLE:
+                BuyPriceModelBuilder.clearPriceModel(vModel.commonPrice)
+                BuyPriceModelBuilder.fillPriceModelByItemPrice(vModel.commonPrice, veh.getBuyPrice())
+                result, _ = veh.mayPurchase(self.__itemsCache.items.stats.money)
+                vModel.setIsAffordable(result)
+            vehicleModelArray.addViewModel(vModel)
+
+        vehicleModelArray.invalidate()
+        return
+
+    def __setAnimationParams(self, animationParams, prevState, newState, prevBalance, vehPrice):
+        newBalance = self.__earlyAccessController.getTokensBalance()
+        animationMap = {(State.INPROGRESS, State.INPROGRESS): (
+                                                prevBalance, newBalance), 
+           (State.INPROGRESS, State.ININVENTORY): (
+                                                 prevBalance, vehPrice), 
+           (State.LOCKED, State.INPROGRESS): (
+                                            0, newBalance), 
+           (State.LOCKED, State.ININVENTORY): (
+                                             0, vehPrice)}
+        start, end = animationMap.get((prevState, newState), (0, 0))
+        animationParams.setStart(start)
+        animationParams.setEnd(end)
+        return
+
+    def __onVehicleSelected(self, event):
+        self.__earlyAccessController.cgfCameraManager.resetCameraTarget(duration=1)
+        self.__currentVehicleCD = int(event.get(EarlyAccessVehicleViewModel.ARG_VEHICLE_CD, 0))
+        self.viewModel.setCurrentVehicleCD(self.__currentVehicleCD)
+        g_currentPreviewVehicle.selectVehicle(self.__currentVehicleCD)
+        return
+
+    def __onCompare(self, event):
+        vehicleCD = int(event.get(EarlyAccessVehicleViewModel.ARG_VEHICLE_CD, 0))
+        self.__comparisonBasket.addVehicle(vehicleCD)
+        return
+
+    def __onShowVehiclePreview(self, event):
+        vehicleCD = int(event.get(EarlyAccessVehicleViewModel.ARG_VEHICLE_CD, 0))
+        showVehiclePreview(vehicleCD, previewBackCb=self.__previewBackCallback, isFromVehicleView=True)
+        return
+
+    def __onShowInHangar(self, event):
+        vehicleCD = int(event.get(EarlyAccessVehicleViewModel.ARG_VEHICLE_CD, 0))
+        event_dispatcher.selectVehicleInHangar(vehicleCD)
+        return
+
+    def __onShowBuyView(self):
+        self.__isAnimationFreeze = True
+        self.__isAnimationPlaying = False
+        showBuyTokensWindow(parent=self.getWindow(), backCallback=self.__buyViewBackCallback)
+        return
+
+    def __onShowQuestsView(self):
+        showEarlyAccessQuestsView(isFromTechTree=self.__isFromTechTree)
+        return
+
+    def __onBuyVehicle(self, event):
+        vehicleCD = int(event.get(EarlyAccessVehicleViewModel.ARG_VEHICLE_CD, 0))
+        vehicle = self.__itemsCache.items.getItemByCD(vehicleCD)
+        showVehicleBuyDialog(vehicle)
+        return
+
+    def __onBackToHangar(self):
+        event_dispatcher.showHangar()
+        return
+
+    def __onBackToPrevScreen(self):
+        event_dispatcher.showVehicleTechTreeView(self.__currentVehicleCD)
+        return
+
+    def __buyViewBackCallback(self):
+        self.__isAnimationFreeze = False
+        self.__onBalanceUpdated()
+        setResearchesPreviewSoundState()
+        return
+
+    def __previewBackCallback(self):
+        showEarlyAccessVehicleView(isFromTechTree=self.__isFromTechTree, selectedVehicleCD=self.__currentVehicleCD)
+        return
+
+    def __updateSelectedVehicle(self):
+        currProgressVehicleCD = self.__earlyAccessController.getCurrProgressVehicleCD()
+        if self.__currentVehicleCD != currProgressVehicleCD:
+            self.__currentVehicleCD = currProgressVehicleCD
+            g_currentPreviewVehicle.selectVehicle(self.__currentVehicleCD)
+        return
+
+    def __onUpdated(self):
+        eaCtrl = self.__earlyAccessController
+        if not eaCtrl.isEnabled() or eaCtrl.isPaused():
+            self.__onBackToHangar()
+            return
+        self.__updateModel()
+        return
+
+    def __onBalanceUpdated(self):
+        if self.__isAnimationPlaying:
+            self.__hasDelayedBalanceUpdates = True
+        if not self.__isAnimationFreeze and not self.__isAnimationPlaying:
+            self.__updateModel(shouldUpdateSelectedVehicle=False, showCarouselSliderAnimation=True)
+        return
+
+    def __onInventoryUpdate(self, _, invDiff):
+        if GUI_ITEM_TYPE.VEHICLE in invDiff:
+            changedEAVehicles = invDiff[GUI_ITEM_TYPE.VEHICLE] & set(self.__earlyAccessController.getAffectedVehicles().keys())
+            if changedEAVehicles:
+                purchasableVehicles = set(veh.getVehicleCD() for veh in self.viewModel.getVehicles() if veh.getState() == State.PURCHASABLE)
+                if changedEAVehicles & purchasableVehicles:
+                    self.__updateModel(shouldUpdateSelectedVehicle=False)
+        return
+
+    def __onAnimationFinished(self):
+        self.__isAnimationPlaying = False
+        if self.__hasDelayedBalanceUpdates:
+            self.__updateModel(shouldUpdateSelectedVehicle=False, showCarouselSliderAnimation=True)
+            self.__hasDelayedBalanceUpdates = False
+        return
+
+    def __onStartMoving(self):
+        g_eventBus.handleEvent(LobbySimpleEvent(LobbySimpleEvent.NOTIFY_CURSOR_OVER_3DSCENE, ctx={b'isOver3dScene': True}), EVENT_BUS_SCOPE.GLOBAL)
+        return
+
+    def __onMoveSpace(self, args=None):
+        if args is None:
+            return
+        else:
+            g_eventBus.handleEvent(CameraRelatedEvents(CameraRelatedEvents.LOBBY_VIEW_MOUSE_MOVE, ctx={b'dx': (args.get(b'dx')), b'dy': (args.get(b'dy')), b'dz': (args.get(b'dz'))}), EVENT_BUS_SCOPE.GLOBAL)
+            return

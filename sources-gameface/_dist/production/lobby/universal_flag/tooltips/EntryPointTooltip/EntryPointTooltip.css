@@ -1,0 +1,128 @@
+.TooltipDecorator_base_c9 {
+    display: flex;
+    position: absolute;
+}
+
+.TooltipDecorator_base__theme-default_6d .TooltipDecorator_decorator_3d {
+        padding: 4rem 6rem 8rem;
+        border-image-source: url('R.images.gui.maps.icons.tooltip.tooltip_background');
+        border-image-slice: 24 fill;
+        border-image-width: 24rem;
+        position: relative;
+    }
+
+.Description_base_67 {
+    width: 100%;
+    padding: 20rem 25rem 22rem;
+    color: rgba(140, 140, 126, 1);
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 20rem;
+    text-align: left;
+}
+
+.Countdown_base_fe {
+    display: flex;
+    align-items: center;
+}
+
+.Countdown_icon_8b {
+    width: 32rem;
+    height: 32rem;
+    background: no-repeat center / contain;
+}
+
+.Countdown_description_8d {
+    color: #FFDD99;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Separator_base_81 {
+    width: 100%;
+    height: 1rem;
+    background: rgba(201, 201, 182, 1);
+    opacity: 0.2;
+    left: 0;
+    mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.Header_base_6f {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 96rem;
+    padding: 0 25rem;
+    position: relative;
+}
+
+.Header_bg_30 {
+    background-image: var(--tooltipBackground);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.Header_title_0b {
+    color: rgba(233, 226, 191, 1);
+    font-size: 18rem;
+    font-weight: 700;
+}
+
+.Header_timerBlock_64 {
+    display: flex;
+}
+
+.Header_timerText_23 {
+    margin-top: 2rem;
+    color: rgba(140, 140, 126, 1) !important;
+}
+
+.Header_timerText__finishing_c9 {
+        color: rgba(255, 221, 153, 1) !important;
+        text-shadow: 0 0 15rem rgba(238, 85, 34, 1),
+                    0rem 0 8rem rgba(255, 42, 0, 1),
+                    0rem 0 4rem rgba(255, 127, 0, 0.25);
+    }
+
+.Header_timerIcon_11 {
+    width: 38rem;
+    height: 38rem;
+    margin-left: -12rem;
+    margin-top: 2rem;
+    margin-right: -6rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Header_timerIcon__clock_7b {
+        background-image: url('R.images.gui.maps.icons.universalFlag.clock');
+    }
+
+.Header_timerIcon__flag_12 {
+        background-image: url('R.images.gui.maps.icons.universalFlag.flag');
+    }
+
+.Content_base_78 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380rem;
+    border: 1rem solid #f2f2e61a;
+    border-radius: 2rem;
+    background: linear-gradient(180deg, rgba(51, 51, 41, .3) 0%, rgba(51, 51, 41, 0) 16%, rgba(51, 51, 41, 0) 88%, rgba(51, 51, 41, .1) 100%),
+                linear-gradient(0deg, #030200, #030200);
+}
+

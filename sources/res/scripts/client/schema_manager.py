@@ -1,0 +1,56 @@
+import logging
+from base_schema_manager import BaseSchemaManager, GameParamsSchema
+_logger = logging.getLogger(__name__)
+
+class SchemaManager(BaseSchemaManager):
+
+    def __init__(self):
+        super(SchemaManager, self).__init__()
+        self._models = {}
+        return
+
+    def registerClientServerSchema(self, schema):
+        self._addSchema(schema)
+        return
+
+    def set(self, serverSettings):
+        for schema in self.getSchemas():
+            if schema.gpKey in serverSettings:
+                rawConfig = serverSettings[schema.gpKey]
+                self._models[schema.gpKey] = schema.deserialize(rawConfig, onlyPublic=True)
+                from PlayerEvents import g_playerEvents
+                g_playerEvents.onConfigModelUpdated(schema.gpKey)
+
+        return
+
+    def update(self, serverSettingsDiff):
+        for schema in self.getSchemas():
+            if schema.gpKey in serverSettingsDiff:
+                if schema.gpKey not in self._models:
+                    _logger.error(b'Update is called before set. schema=%s', schema.gpKey)
+                    continue
+                rawConfig = serverSettingsDiff[schema.gpKey]
+                self._models[schema.gpKey] = schema.deserialize(rawConfig, onlyPublic=True)
+                from PlayerEvents import g_playerEvents
+                g_playerEvents.onConfigModelUpdated(schema.gpKey)
+
+        return
+
+    def get(self, schema):
+        model = self._models.get(schema.gpKey)
+        if model is None:
+            _logger.error(b'No such schema: %s.', schema.gpKey)
+        return model
+
+    def clear(self):
+        self._models.clear()
+        return
+
+
+g_SchemaManager = None
+
+def getSchemaManager():
+    global g_SchemaManager
+    if g_SchemaManager is None:
+        g_SchemaManager = SchemaManager()
+    return g_SchemaManager

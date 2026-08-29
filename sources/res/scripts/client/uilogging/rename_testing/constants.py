@@ -1,0 +1,16 @@
+FEATURE = b'entities_rename_testing'
+RENAME_TESTING_ACTION_CLICK = b'CLICK'
+
+class RenameTestingItems(object):
+    HANGAR_ENTER = b'hangar_enter'
+    MODE_SELECTOR_OPEN = b'mode_selector_open'
+    TRAINING_MODE_SELECTOR_CARD = b'training_mode_selector_card'
+    TRAINING_OPEN_CREATE_ROOM_DIALOG = b'training_open_create_room_dialog'
+    TRAINING_JOIN_ROOM = b'training_join_room'
+    PLATOON_MENU_SECTION = b'platoon_menu_section'
+    CREATE_NEW_PLATOON = b'create_new_platoon'
+    PLATOON_FIND_PLAYERS = b'platoon_find_players'
+    PLATOON_READY_BUTTON = b'platoon_ready_button'
+    PLATOON_FIGHT_BUTTON = b'platoon_fight_button'
+    TRAINING_START_BATTLE = b'training_start_battle'
+    TRAINING_CREATE_ROOM = b'training_create_room'

@@ -1,0 +1,885 @@
+import weakref
+from collections import namedtuple
+import BigWorld, Windowing
+from CurrentVehicle import g_currentVehicle
+from account_helpers import AccountSettings
+from account_helpers.AccountSettings import MISSIONS_PAGE
+from adisp import adisp_async as adispasync, adisp_process
+from gui.ClientUpdateManager import g_clientUpdateManager
+from gui.Scaleform.daapi import LobbySubView
+from gui.Scaleform.daapi.settings import BUTTON_LINKAGES
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.daapi.view.lobby.event_boards.event_helpers import checkEventExist
+from gui.Scaleform.daapi.view.lobby.missions.missions_helper import HIDE_DONE, HIDE_UNAVAILABLE
+from gui.Scaleform.daapi.view.lobby.missions.regular import group_packers
+from gui.Scaleform.daapi.view.lobby.missions.regular.sound_constants import TASKS_SOUND_SPACE
+from gui.Scaleform.daapi.view.meta.MissionsListViewBaseMeta import MissionsListViewBaseMeta
+from gui.Scaleform.daapi.view.meta.MissionsPageMeta import MissionsPageMeta
+from gui.Scaleform.framework.entities.DAAPIDataProvider import ListDAAPIDataProvider
+from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
+from gui.Scaleform.genConsts.QUESTS_ALIASES import QUESTS_ALIASES
+from gui.Scaleform.locale.QUESTS import QUESTS
+from gui.Scaleform.locale.RES_ICONS import RES_ICONS
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.limited_ui.lui_rules_storage import LuiRules
+from gui.marathon.collective_goal_marathon import COLLECTIVE_GOAL_MARATHON_PREFIX
+from gui.marathon.marathon_event_controller import getMarathons
+from gui.server_events import caches, settings
+from gui.server_events.events_dispatcher import hideMissionDetails, showMissionDetails, showMissionsMarathon
+from gui.server_events.events_helpers import isBattleMattersQuestID
+from gui.shared import event_bus_handlers, events, g_eventBus
+from gui.shared.event_bus import EVENT_BUS_SCOPE
+from gui.shared.event_dispatcher import showHangar
+from gui.shared.events import MissionsEvent
+from gui.shared.formatters import text_styles
+from gui.shared.gui_items import GUI_ITEM_TYPE
+from gui.sounds.ambients import BattleMattersSoundEnv, BattlePassSoundEnv, LobbySubViewEnv, MarathonPageSoundEnv, MissionsCategoriesSoundEnv, MissionsEventsSoundEnv, MissionsPremiumSoundEnv
+from helpers import dependency
+from helpers.i18n import makeString as _ms
+from items import getTypeOfCompactDescr
+from skeletons.account_helpers.settings_core import ISettingsCore
+from skeletons.gui.event_boards_controllers import IEventBoardController
+from skeletons.gui.game_control import IBattlePassController, ICollectiveGoalMarathonsController, IDebutBoxesController, IFunRandomController, IGameSessionController, IHangarSpaceSwitchController, ILimitedUIController, IMapboxController, IMarathonEventsController, IRankedBattlesController, ISummerSaleController, IUnseenEventsCounter, ITankAcademyController
+from skeletons.gui.app_loader import IAppLoader, GuiGlobalSpaceID
+from skeletons.gui.battle_matters import IBattleMattersController
+from skeletons.gui.lobby_context import ILobbyContext
+from skeletons.gui.server_events import IEventsCache
+from th_async import th_async, th_await
+TabData = namedtuple(b'TabData', (b'alias', b'linkage', b'tooltip', b'tooltipDisabled', b'label', b'prefix'))
+TABS_DATA_ORDERED = [
+ TabData(QUESTS_ALIASES.MISSIONS_EVENT_BOARDS_VIEW_PY_ALIAS, QUESTS_ALIASES.MISSIONS_EVENT_BOARDS_VIEW_LINKAGE, QUESTS.MISSIONS_TAB_EVENTBOARDS, QUESTS.MISSIONS_TAB_EVENTBOARDS_DISABLED, _ms(QUESTS.MISSIONS_TAB_LABEL_EVENTBOARDS), None),
+ TabData(QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_PY_ALIAS, QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_LINKAGE, QUESTS.MISSIONS_TAB_MARATHONS, QUESTS.MISSIONS_TAB_MARATHONS, _ms(QUESTS.MISSIONS_TAB_LABEL_MARATHON), None),
+ TabData(QUESTS_ALIASES.BATTLE_MATTERS_VIEW_PY_ALIAS, QUESTS_ALIASES.BATTLE_MATTERS_VIEW_LINKAGE, QUESTS.MISSIONS_TAB_BATTLEMATTERS, QUESTS.MISSIONS_TAB_BATTLEMATTERS, backport.text(R.strings.battle_matters.battleMattersTab()), None),
+ TabData(QUESTS_ALIASES.MAPBOX_VIEW_PY_ALIAS, QUESTS_ALIASES.MAPBOX_VIEW_LINKAGE, QUESTS.MISSIONS_TAB_MAPBOX, QUESTS.MISSIONS_TAB_MAPBOX, backport.text(R.strings.mapbox.mapboxTab()), None),
+ TabData(QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_PY_ALIAS, QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_LINKAGE, QUESTS.MISSIONS_TAB_BATTLE_PASS, QUESTS.MISSIONS_TAB_BATTLE_PASS, backport.text(R.strings.battle_pass.battlepassTab()), None),
+ TabData(QUESTS_ALIASES.MISSIONS_CATEGORIES_VIEW_PY_ALIAS, QUESTS_ALIASES.MISSIONS_CATEGORIES_VIEW_LINKAGE, QUESTS.MISSIONS_TAB_CATEGORIES, QUESTS.MISSIONS_TAB_CATEGORIES, _ms(QUESTS.MISSIONS_TAB_LABEL_CATEGORIES), None),
+ TabData(QUESTS_ALIASES.MISSIONS_PREMIUM_VIEW_PY_ALIAS, QUESTS_ALIASES.MISSIONS_PREMIUM_VIEW_LINKAGE, QUESTS.MISSIONS_TAB_DAILY, QUESTS.MISSIONS_TAB_DAILY, _ms(QUESTS.MISSIONS_TAB_LABEL_DAILY), None)]
+MARATHONS_START_TAB_INDEX = 1
+NON_FLASH_TABS = (
+ QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS, QUESTS_ALIASES.MISSIONS_PREMIUM_VIEW_PY_ALIAS,
+ QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_PY_ALIAS, QUESTS_ALIASES.MAPBOX_VIEW_PY_ALIAS,
+ QUESTS_ALIASES.BATTLE_MATTERS_VIEW_PY_ALIAS, QUESTS_ALIASES.TEMP_VIEW_PY_ALIAS)
+TABS_WITHOUT_COMMON_MUSIC = (
+ QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS,)
+for marathonIndex, marathon in enumerate(getMarathons(), MARATHONS_START_TAB_INDEX):
+    TABS_DATA_ORDERED.insert(marathonIndex, TabData(QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS, QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_LINKAGE, marathon.tabTooltip, marathon.tabTooltip, backport.text(marathon.label), marathon.prefix))
+
+class MissionsPage(LobbySubView, MissionsPageMeta):
+    __metaclass__ = event_bus_handlers.EventBusListener
+    _COMMON_SOUND_SPACE = TASKS_SOUND_SPACE
+    __sound_env__ = LobbySubViewEnv
+    __VOICED_TABS = {(QUESTS_ALIASES.MAPBOX_VIEW_PY_ALIAS): (
+                                             backport.sound(R.sounds.ev_mapbox_enter()),
+                                             backport.sound(R.sounds.ev_mapbox_exit())), 
+       (QUESTS_ALIASES.BATTLE_MATTERS_VIEW_PY_ALIAS): (
+                                                     backport.sound(R.sounds.bm_enter()),
+                                                     backport.sound(R.sounds.bm_exit())), 
+       (QUESTS_ALIASES.TEMP_VIEW_PY_ALIAS): (
+                                           backport.sound(R.sounds.summer_sale_enter()),
+                                           backport.sound(R.sounds.summer_sale_exit()))}
+    __MISSIONS_MARATHON_DYNAMIC_SOUND = {b'black_market': (
+                       backport.sound(R.sounds.black_market_enter()),
+                       backport.sound(R.sounds.black_market_exit())), 
+       b'silver_hunt': (
+                      backport.sound(R.sounds.silver_hunt_enter()),
+                      backport.sound(R.sounds.silver_hunt_exit()))}
+    eventsCache = dependency.descriptor(IEventsCache)
+    lobbyContext = dependency.descriptor(ILobbyContext)
+    eventsController = dependency.descriptor(IEventBoardController)
+    marathonsCtrl = dependency.descriptor(IMarathonEventsController)
+    battlePass = dependency.descriptor(IBattlePassController)
+    __mapboxCtrl = dependency.descriptor(IMapboxController)
+    __battleMattersController = dependency.descriptor(IBattleMattersController)
+    __limitedUIController = dependency.descriptor(ILimitedUIController)
+    __tankAcademyController = dependency.descriptor(ITankAcademyController)
+    __collectiveGoalMarathonsController = dependency.descriptor(ICollectiveGoalMarathonsController)
+    __unseenEventsManager = dependency.descriptor(IUnseenEventsCounter)
+    __debutBoxes = dependency.descriptor(IDebutBoxesController)
+    __summerSale = dependency.descriptor(ISummerSaleController)
+    __settingsCore = dependency.descriptor(ISettingsCore)
+
+    def __init__(self, ctx):
+        super(MissionsPage, self).__init__(ctx)
+        self.__filterData = AccountSettings.getFilter(MISSIONS_PAGE)
+        self._eventID = None
+        self._groupID = None
+        self.__marathonPrefix = None
+        self.__needToScroll = False
+        self._showMissionDetails = True
+        self.__builders = {(QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS): (group_packers.MarathonsDumbBuilder()), 
+           (QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_PY_ALIAS): (group_packers.MissionsGroupsBuilder()), 
+           (QUESTS_ALIASES.MISSIONS_CATEGORIES_VIEW_PY_ALIAS): (group_packers.QuestsGroupsBuilder()), 
+           (QUESTS_ALIASES.CURRENT_VEHICLE_MISSIONS_VIEW_PY_ALIAS): (group_packers.VehicleGroupBuilder()), 
+           (QUESTS_ALIASES.MISSIONS_EVENT_BOARDS_VIEW_PY_ALIAS): (group_packers.ElenGroupsBuilder())}
+        self.__currentTabAlias = None
+        self.__subTab = None
+        self.__ctx = ctx or {}
+        self._initialize(ctx)
+        self._updateVoicedTabs()
+        return
+
+    def onTabSelected(self, alias, prefix):
+        for tab, soundEvents in self.__VOICED_TABS.iteritems():
+            if alias == tab and self.__currentTabAlias != tab:
+                self.soundManager.playSound(soundEvents[0])
+                break
+            elif alias != tab and self.__currentTabAlias == tab:
+                self.soundManager.playSound(soundEvents[1])
+                break
+
+        if self.__currentTabAlias == QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_PY_ALIAS and self.currentTab is not None:
+            self.currentTab.stop()
+        self.__currentTabAlias = alias
+        self.__marathonPrefix = prefix
+        caches.getNavInfo().setMissionsTab(alias)
+        caches.getNavInfo().setMarathonPrefix(prefix)
+        if self.currentTab:
+            isSupportFilters = self.__currentTabAlias not in NON_FLASH_TABS
+            isSupportMarkVisited = isSupportFilters or self.__currentTabAlias in (
+             QUESTS_ALIASES.MISSIONS_PREMIUM_VIEW_PY_ALIAS,
+             QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_PY_ALIAS)
+            if isSupportFilters:
+                self.__updateFilterLabel()
+                self.currentTab.setFilters(self.__filterData)
+            if isSupportMarkVisited:
+                self.currentTab.markVisited()
+        self.__onPageUpdate()
+        self.__fireTabChangedEvent()
+        self.__showFilter()
+        if alias == QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_PY_ALIAS and self.currentTab is not None:
+            self.currentTab.start()
+        if alias == QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS:
+            self.currentTab.setMarathon(prefix)
+        if self.currentTab:
+            self.fireEvent(events.LobbySimpleEvent(events.LobbySimpleEvent.CHANGE_SOUND_ENVIRONMENT, ctx=self))
+            self.currentTab.setActive(True)
+        return
+
+    def getCurrentTabAlias(self):
+        return self.__currentTabAlias
+
+    def getFilterData(self):
+        return self.__filterData
+
+    def onClose(self):
+        self.fireEvent(events.LoadViewEvent(SFViewLoadParams(VIEW_ALIAS.LOBBY_HANGAR)), scope=EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    def resetFilters(self):
+        self.__filterData = {b'hideDone': False, 
+           b'hideUnavailable': False}
+        AccountSettings.setFilter(MISSIONS_PAGE, self.__filterData)
+        if self.currentTab:
+            self.currentTab.setFilters(self.__filterData)
+        return
+
+    @property
+    def currentTab(self):
+        return self.components.get(self.__currentTabAlias)
+
+    def getDynamicSoundEnv(self):
+        if self.__currentTabAlias == QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_PY_ALIAS:
+            return BattlePassSoundEnv
+        if self.__currentTabAlias == QUESTS_ALIASES.MISSIONS_PREMIUM_VIEW_PY_ALIAS:
+            return MissionsPremiumSoundEnv
+        if self.__currentTabAlias == QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS:
+            return MarathonPageSoundEnv
+        if self.__currentTabAlias == QUESTS_ALIASES.MISSIONS_CATEGORIES_VIEW_PY_ALIAS:
+            return MissionsCategoriesSoundEnv
+        if self.__currentTabAlias in (
+         QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_PY_ALIAS, QUESTS_ALIASES.TEMP_VIEW_PY_ALIAS):
+            return MissionsEventsSoundEnv
+        if self.__currentTabAlias == QUESTS_ALIASES.BATTLE_MATTERS_VIEW_PY_ALIAS:
+            return BattleMattersSoundEnv
+        return self.__sound_env__
+
+    def _populate(self):
+        super(MissionsPage, self)._populate()
+        for builder in self.__builders.itervalues():
+            builder.init()
+
+        self.__mapboxCtrl.onPrimeTimeStatusUpdated += self.__onPrimeTimeStatusUpdated
+        self.__summerSale.onEventSettingsUpdated += self.__onSummerSaleSettingsUpdated
+        self.addListener(MissionsEvent.ON_GROUPS_DATA_CHANGED, self.__onPageUpdate, EVENT_BUS_SCOPE.LOBBY)
+        self.addListener(MissionsEvent.ON_FILTER_CHANGED, self.__onFilterChanged, EVENT_BUS_SCOPE.LOBBY)
+        self.addListener(MissionsEvent.ON_FILTER_CLOSED, self.__onFilterClosed, EVENT_BUS_SCOPE.LOBBY)
+        self.addListener(MissionsEvent.PAGE_INVALIDATE, self.__pageInvalidate, EVENT_BUS_SCOPE.LOBBY)
+        self.__unseenEventsManager.onUnseenEventUpdated += self.__onUnseenEventUpdated
+        self.__unseenEventsManager.onSeenEvents += self.__onUnseenEventUpdated
+        enterEvent, _ = self.__VOICED_TABS.get(self.__currentTabAlias, (None, None))
+        if enterEvent is not None:
+            self.soundManager.playSound(enterEvent)
+        g_currentVehicle.onChanged += self.__updateHeader
+        self.battlePass.onSeasonStateChanged += self.__updateHeader
+        self.battlePass.onBattlePassSettingsChange += self.__updateBattlePassTab
+        self.__collectiveGoalMarathonsController.onMarathonUpdated += self.__onCollectiveGoalMarathonUpdated
+        self.marathonsCtrl.onVehicleReceived += self.__onMarathonVehicleReceived
+        Windowing.addWindowAccessibilitynHandler(self.__onWindowAccessibilityChanged)
+        self.__updateTemporaryMissionsTab()
+        if self.marathonsCtrl.isAnyActive():
+            TABS_DATA_ORDERED.insert(MARATHONS_START_TAB_INDEX, TabData(QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_PY_ALIAS, QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_LINKAGE, QUESTS.MISSIONS_TAB_MARATHONS, QUESTS.MISSIONS_TAB_MARATHONS, _ms(QUESTS.MISSIONS_TAB_LABEL_MARATHON), None))
+        self.__updateHeader()
+        self.__tryOpenMissionDetails()
+        self.fireEvent(events.MissionsEvent(events.MissionsEvent.ON_ACTIVATE), EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    def __updateTemporaryMissionsTab(self):
+        groupedIndex = None
+        tempIndex = None
+        for i, tab in enumerate(TABS_DATA_ORDERED):
+            if tab.alias == QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_PY_ALIAS:
+                groupedIndex = i
+            elif tab.alias == QUESTS_ALIASES.TEMP_VIEW_PY_ALIAS:
+                tempIndex = i
+
+        shouldShowTempTab = self.__summerSale.isEnabled() and not self.__debutBoxes.isEnabled()
+        newTabData = None
+        replaceIndex = None
+        if shouldShowTempTab and groupedIndex is not None and tempIndex is None:
+            replaceIndex = groupedIndex
+            newTabData = TabData(QUESTS_ALIASES.TEMP_VIEW_PY_ALIAS, QUESTS_ALIASES.TEMP_VIEW_LINKAGE, QUESTS.MISSIONS_TAB_CATEGORIES, QUESTS.MISSIONS_TAB_CATEGORIES, _ms(QUESTS.MISSIONS_TAB_LABEL_TEMP), None)
+        elif not self.__summerSale.isEnabled() and tempIndex is not None and groupedIndex is None:
+            replaceIndex = tempIndex
+            newTabData = TabData(QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_PY_ALIAS, QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_LINKAGE, QUESTS.MISSIONS_TAB_CATEGORIES, QUESTS.MISSIONS_TAB_CATEGORIES, _ms(QUESTS.MISSIONS_TAB_LABEL_TEMP), None)
+        if newTabData is None:
+            return
+        else:
+            TABS_DATA_ORDERED[replaceIndex] = newTabData
+            caches.getNavInfo().setMissionsTab(None)
+            self.__currentTabAlias = None
+            super(MissionsPage, self)._invalidate(self.__ctx)
+            self._initialize(ctx=self.__ctx)
+            return
+
+    def _invalidate(self, ctx=None):
+        super(MissionsPage, self)._invalidate(ctx)
+        self._initialize(ctx)
+        if self.currentTab:
+            self.__updateFilterLabel()
+        self.__updateHeader()
+        self.__tryOpenMissionDetails()
+        return
+
+    def _dispose(self):
+        super(MissionsPage, self)._dispose()
+        for builder in self.__builders.itervalues():
+            builder.clear()
+
+        _, exitEvent = self.__VOICED_TABS.get(self.__currentTabAlias, (None, None))
+        if exitEvent is not None:
+            appLoader = dependency.instance(IAppLoader)
+            if appLoader.getSpaceID() != GuiGlobalSpaceID.LOGIN:
+                self.soundManager.playSound(exitEvent)
+        Windowing.removeWindowAccessibilityHandler(self.__onWindowAccessibilityChanged)
+        self.marathonsCtrl.onVehicleReceived -= self.__onMarathonVehicleReceived
+        g_currentVehicle.onChanged -= self.__updateHeader
+        self.battlePass.onSeasonStateChanged -= self.__updateHeader
+        self.battlePass.onBattlePassSettingsChange -= self.__updateBattlePassTab
+        self.__collectiveGoalMarathonsController.onMarathonUpdated -= self.__onCollectiveGoalMarathonUpdated
+        self.removeListener(MissionsEvent.ON_GROUPS_DATA_CHANGED, self.__onPageUpdate, EVENT_BUS_SCOPE.LOBBY)
+        self.removeListener(MissionsEvent.ON_FILTER_CHANGED, self.__onFilterChanged, EVENT_BUS_SCOPE.LOBBY)
+        self.removeListener(MissionsEvent.ON_FILTER_CLOSED, self.__onFilterClosed, EVENT_BUS_SCOPE.LOBBY)
+        self.removeListener(MissionsEvent.PAGE_INVALIDATE, self.__pageInvalidate, EVENT_BUS_SCOPE.LOBBY)
+        self.__unseenEventsManager.onUnseenEventUpdated -= self.__onUnseenEventUpdated
+        self.__unseenEventsManager.onSeenEvents -= self.__onUnseenEventUpdated
+        self.__mapboxCtrl.onPrimeTimeStatusUpdated -= self.__onPrimeTimeStatusUpdated
+        self.__summerSale.onEventSettingsUpdated -= self.__onSummerSaleSettingsUpdated
+        caches.getNavInfo().setMissionsTab(self.__currentTabAlias)
+        caches.getNavInfo().setMarathonPrefix(self.__marathonPrefix)
+        self.fireEvent(events.MissionsEvent(events.MissionsEvent.ON_DEACTIVATE), EVENT_BUS_SCOPE.LOBBY)
+        self.__unseenEventsManager.commitToSettings()
+        return
+
+    def _onRegisterFlashComponent(self, viewPy, alias):
+        if alias in QUESTS_ALIASES.MISSIONS_VIEW_PY_ALIASES:
+            viewPy.setBuilder(self.__builders.get(alias), self.__filterData, self._eventID)
+        if alias == QUESTS_ALIASES.MISSIONS_PREMIUM_VIEW_PY_ALIAS:
+            viewPy.setProxy(weakref.proxy(self))
+            viewPy.setDefaultTab(self.__subTab)
+            self.__subTab = None
+        if alias == QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_PY_ALIAS:
+            viewPy.updateState(**self.__ctx)
+        if alias == QUESTS_ALIASES.BATTLE_MATTERS_VIEW_PY_ALIAS:
+            viewPy.updateState(**self.__ctx)
+        self.__fireTabChangedEvent()
+        return
+
+    def _initialize(self, ctx=None):
+        ctx = ctx or {}
+        requestedTab = ctx.get(b'tab')
+        self.__subTab = ctx.get(b'subTab')
+        self.__marathonPrefix = ctx.get(b'marathonPrefix') or caches.getNavInfo().getMarathonPrefix()
+        if requestedTab:
+            self.__currentTabAlias = requestedTab
+        else:
+            self.__currentTabAlias = caches.getNavInfo().getMissionsTab()
+            if self.__currentTabAlias == QUESTS_ALIASES.MISSIONS_EVENT_BOARDS_VIEW_PY_ALIAS and not self.__elenHasDisplayableEvents():
+                self.__currentTabAlias = None
+            if not self.__currentTabAlias:
+                self.__currentTabAlias = QUESTS_ALIASES.MISSIONS_CATEGORIES_VIEW_PY_ALIAS
+                if self.__elenHasDisplayableEvents():
+                    self.__currentTabAlias = QUESTS_ALIASES.MISSIONS_EVENT_BOARDS_VIEW_PY_ALIAS
+                elif self.marathonsCtrl.doesShowAnyMissionsTab():
+                    enabledMarathon = self.marathonsCtrl.getFirstEnabledMarathon()
+                    if enabledMarathon is not None and self.__limitedUIController.isRuleCompleted(LuiRules.MISSIONS_MARATHON_VIEW):
+                        self.__currentTabAlias = QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS
+                        self.__marathonPrefix = enabledMarathon.prefix
+        self._eventID = ctx.get(b'eventID')
+        self._groupID = ctx.get(b'groupID')
+        self._showMissionDetails = ctx.get(b'showMissionDetails', True)
+        self.__needToScroll = self._groupID is not None
+        self.__scrollToGroup()
+        caches.getNavInfo().setMissionsTab(self.__currentTabAlias)
+        caches.getNavInfo().setMarathonPrefix(self.__marathonPrefix)
+        self.__fireTabChangedEvent()
+        return
+
+    def _updateVoicedTabs(self):
+        if not self.marathonsCtrl.getMarathon(COLLECTIVE_GOAL_MARATHON_PREFIX).isEnabled():
+            return
+        collectiveGoalEventName = self.__collectiveGoalMarathonsController.getEventName()
+        if collectiveGoalEventName:
+            tabsSounds = self.__MISSIONS_MARATHON_DYNAMIC_SOUND.get(collectiveGoalEventName)
+            if tabsSounds:
+                self.__VOICED_TABS.update({(QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS): tabsSounds})
+        return
+
+    def __onCollectiveGoalMarathonUpdated(self):
+        self.__eventStatusUpdated(self.__currentTabAlias == QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS and self.__marathonPrefix == COLLECTIVE_GOAL_MARATHON_PREFIX)
+        collectiveGoalMarathon = self.marathonsCtrl.getMarathon(COLLECTIVE_GOAL_MARATHON_PREFIX)
+        if self.__currentTabAlias == QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_PY_ALIAS and collectiveGoalMarathon is not None and collectiveGoalMarathon.isEnabled():
+            showMissionsMarathon(COLLECTIVE_GOAL_MARATHON_PREFIX)
+        return
+
+    def __onPrimeTimeStatusUpdated(self, *_):
+        if self.__mapboxCtrl.getCurrentCycleID() is None:
+            self.__eventStatusUpdated(self.__currentTabAlias == QUESTS_ALIASES.MAPBOX_VIEW_PY_ALIAS)
+        elif self.__currentTabAlias == QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_PY_ALIAS:
+            self.__eventStatusUpdated()
+        return
+
+    def __onSummerSaleSettingsUpdated(self):
+        self.__updateTemporaryMissionsTab()
+        return
+
+    def __eventStatusUpdated(self, resetCurrentTab=True):
+        if resetCurrentTab:
+            caches.getNavInfo().setMissionsTab(None)
+            self.__currentTabAlias = None
+        self._invalidate()
+        return
+
+    def __fireTabChangedEvent(self):
+        self.fireEvent(events.MissionsEvent(events.MissionsEvent.ON_TAB_CHANGED, ctx={b'alias': (self.__currentTabAlias)}), EVENT_BUS_SCOPE.LOBBY)
+        if self.currentTab:
+            self.currentTab.markVisited()
+        return
+
+    @event_bus_handlers.eventBusHandler(events.HideWindowEvent.HIDE_MISSIONS_PAGE_VIEW, EVENT_BUS_SCOPE.DEFAULT)
+    def __handleMissionsPageClose(self, _):
+        self.destroy()
+        return
+
+    def __showMarathonReward(self, isAccessible, prefix):
+        isMarathonTab = self.__currentTabAlias == QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS
+        isPrefixCorrect = prefix == self.__marathonPrefix
+        canShow = isAccessible and isMarathonTab and isPrefixCorrect
+        if canShow:
+            self.marathonsCtrl.getMarathon(prefix).showRewardVideo()
+        return
+
+    def __onMarathonVehicleReceived(self, prefix):
+        self.__showMarathonReward(Windowing.isWindowAccessible(), prefix)
+        return
+
+    def __onWindowAccessibilityChanged(self, isAccessible):
+        self.__showMarathonReward(isAccessible, self.__marathonPrefix)
+        return
+
+    def __pageInvalidate(self, _):
+        self._invalidate()
+        return
+
+    def __scrollToGroup(self):
+        if self._groupID and self.__needToScroll and self.currentTab is not None:
+            self.currentTab.as_scrollToItemS(b'blockId', self._groupID)
+            self.__needToScroll = False
+        return
+
+    def __onPageUpdate(self, *args):
+        if self.currentTab is not None:
+            self.__updateFilterLabel()
+            self.__updateHeader()
+            self.__scrollToGroup()
+        return
+
+    def __onUnseenEventUpdated(self, *_):
+        if self.currentTab is not None:
+            self.__updateHeader(False)
+        return
+
+    def __updateFilterLabel(self):
+        filterApplied = False
+        if self.__currentTabAlias not in NON_FLASH_TABS:
+            totalQuests = self.currentTab.getTotalQuestsCount()
+            currentQuests = self.currentTab.getCurrentQuestsCount()
+            style = text_styles.error if currentQuests == 0 else text_styles.stats
+            countText = (b'{} / {}').format(style(currentQuests), text_styles.standard(totalQuests))
+            filterApplied = self.__filterApplied()
+            self.as_showFilterCounterS(countText, filterApplied)
+        if filterApplied:
+            self.as_blinkFilterCounterS()
+        return
+
+    def __onFilterChanged(self, event):
+        if event.ctx != self.__filterData:
+            self.__filterData = event.ctx
+            if self.currentTab is not None:
+                self.currentTab.setFilters(self.__filterData)
+        return
+
+    def __onFilterClosed(self, event):
+        if self.__filterApplied():
+            self.as_blinkFilterCounterS()
+        return
+
+    def __updateBattlePassTab(self, *_):
+        self.__updateHeader()
+        return
+
+    def __updateHeader(self, updateTabsDataProvider=True):
+        data = []
+        tabs = []
+        for tabData in TABS_DATA_ORDERED:
+            headerTab, tab = self.__getHeaderTabData(tabData)
+            if not headerTab or not tab:
+                continue
+            if headerTab in tabs:
+                continue
+            tabs.append(headerTab)
+            data.append(tab)
+
+        if updateTabsDataProvider:
+            self.as_setTabsDataProviderS(tabs)
+        self.as_setTabsCounterDataS(data)
+        self.__showFilter()
+        return
+
+    def __getHeaderTabData(self, tabData):
+        alias = tabData.alias
+        marathonEvent = None
+        tab = {b'label': (tabData.label), 
+           b'linkage': (tabData.linkage)}
+        headerTab = {b'alias': alias, 
+           b'linkage': (tabData.linkage), 
+           b'tooltip': (tabData.tooltip)}
+        if alias == QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS:
+            marathonEvent = self.marathonsCtrl.getMarathon(tabData.prefix)
+            tab[b'prefix'] = tabData.prefix
+            headerTab[b'prefix'] = tabData.prefix
+        if alias == QUESTS_ALIASES.MISSIONS_EVENT_BOARDS_VIEW_PY_ALIAS and not self.__elenHasDisplayableEvents() or alias == QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS and not (marathonEvent and marathonEvent.isEnabled()) or alias == QUESTS_ALIASES.MISSIONS_GROUPED_VIEW_PY_ALIAS and (self.marathonsCtrl.doesShowAnyMissionsTab() or self.__mapboxCtrl.isEnabled() and self.__mapboxCtrl.getCurrentCycleID() is not None) or alias == QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_PY_ALIAS and self.battlePass.isDisabled() or alias == QUESTS_ALIASES.MAPBOX_VIEW_PY_ALIAS and (not self.__mapboxCtrl.isEnabled() or self.__mapboxCtrl.getCurrentCycleID() is None) or alias == QUESTS_ALIASES.BATTLE_MATTERS_VIEW_PY_ALIAS and not self.__battleMattersTabIsEnabled():
+            if alias == self.__currentTabAlias and marathonEvent and marathonEvent.prefix == self.__marathonPrefix:
+                self.__currentTabAlias = QUESTS_ALIASES.MISSIONS_CATEGORIES_VIEW_PY_ALIAS
+            elif self.__currentTabAlias == QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_PY_ALIAS and self.battlePass.isDisabled():
+                if self.currentTab is not None:
+                    self.currentTab.finalize()
+                self.__currentTabAlias = QUESTS_ALIASES.MISSIONS_CATEGORIES_VIEW_PY_ALIAS
+                showHangar()
+            elif self.__currentTabAlias == alias == QUESTS_ALIASES.BATTLE_MATTERS_VIEW_PY_ALIAS:
+                self.__currentTabAlias = QUESTS_ALIASES.MISSIONS_CATEGORIES_VIEW_PY_ALIAS
+            return (None, None)
+        if alias == self.__currentTabAlias:
+            if alias == QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS and self.__marathonPrefix:
+                headerTab[b'selected'] = self.__marathonPrefix == tabData.prefix
+            else:
+                headerTab[b'selected'] = True
+        if alias == QUESTS_ALIASES.MISSIONS_EVENT_BOARDS_VIEW_PY_ALIAS and not self.lobbyContext.getServerSettings().isElenEnabled():
+            headerTab[b'tooltip'] = tabData.tooltipDisabled
+            headerTab[b'enabled'] = False
+        if alias == QUESTS_ALIASES.CURRENT_VEHICLE_MISSIONS_VIEW_PY_ALIAS:
+            vehicle = g_currentVehicle.item
+            vehName = vehicle.shortUserName if vehicle else b''
+            tab[b'label'] = tabData.label % {b'vehName': vehName}
+        return (
+         headerTab, tab)
+
+    def __battleMattersTabIsEnabled(self):
+        return self.__isBattleMattersAvailable() or self.__isTankAcademyAvailable()
+
+    def __isBattleMattersAvailable(self):
+        bm = self.__battleMattersController
+        return bm.isEnabled() and (not bm.isFinished() or bm.hasUnobtainedDelayedRewards()) and bm.isValidConfiguration()
+
+    def __isTankAcademyAvailable(self):
+        return self.__tankAcademyController.isEnabled() and (not self.__tankAcademyController.isFinished() or self.__tankAcademyController.hasUnobtainedDelayedRewards()) and self.__tankAcademyController.isValidConfiguration() and self.__tankAcademyController.isFirstQuestCompleted() and self.__settingsCore.serverSettings.isTankAcademyWelcomeScreenShown()
+
+    @staticmethod
+    def __getSuitableEvents(tab):
+        if not tab:
+            return []
+        return [quest for quest in tab.getSuitableEvents() if not isBattleMattersQuestID(quest.getGroupID()) or quest.isAvailable().isValid]
+
+    def __elenHasDisplayableEvents(self):
+        if self.lobbyContext.getServerSettings().isElenEnabled() and self.eventsController.hasEvents():
+            for eventData in self.eventsController.getEventsSettingsData().getEvents():
+                if not eventData.hasCustomUI():
+                    return True
+
+        return False
+
+    def __filterApplied(self):
+        for attr in self.__filterData:
+            if self.__filterData[attr]:
+                return True
+
+        return False
+
+    def __tryOpenMissionDetails(self):
+        if self._eventID and self._groupID and self._showMissionDetails:
+            showMissionDetails(self._eventID, self._groupID)
+        else:
+            hideMissionDetails()
+        return
+
+    def __showFilter(self):
+        self.as_showFilterS(self.__currentTabAlias not in (
+         QUESTS_ALIASES.MISSIONS_EVENT_BOARDS_VIEW_PY_ALIAS,
+         QUESTS_ALIASES.MISSIONS_MARATHON_VIEW_PY_ALIAS,
+         QUESTS_ALIASES.BATTLE_PASS_MISSIONS_VIEW_PY_ALIAS,
+         QUESTS_ALIASES.MISSIONS_PREMIUM_VIEW_PY_ALIAS,
+         QUESTS_ALIASES.MAPBOX_VIEW_PY_ALIAS,
+         QUESTS_ALIASES.BATTLE_MATTERS_VIEW_PY_ALIAS,
+         QUESTS_ALIASES.TEMP_VIEW_PY_ALIAS), self.__currentTabAlias not in NON_FLASH_TABS)
+        return
+
+
+class MissionViewBase(MissionsListViewBaseMeta):
+
+    def __init__(self):
+        super(MissionViewBase, self).__init__()
+        self._filterData = {}
+        self._builder = None
+        self._questsDP = None
+        self.__updateDataCallback = None
+        self._totalQuestsCount = 0
+        self._filteredQuestsCount = 0
+        self._eventID = None
+        return
+
+    def setBuilder(self, builder, filterData, eventID):
+        self._builder = builder
+        self._filterData = filterData
+        self._totalQuestsCount = 0
+        self._filteredQuestsCount = 0
+        self._eventID = eventID
+        self._onEventsUpdate()
+        return
+
+    def getTotalQuestsCount(self):
+        return self._totalQuestsCount
+
+    def getCurrentQuestsCount(self):
+        return self._filteredQuestsCount
+
+    def getSuitableEvents(self):
+        return self._builder.getSuitableEvents()
+
+    def setActive(self, value):
+        return
+
+    def markVisited(self):
+        self._builder.markVisited()
+        return
+
+    def _onEventsUpdate(self, *args):
+        raise NotImplementedError
+        return
+
+    def setFilters(self, filterData):
+        return
+
+    def _populate(self):
+        super(MissionViewBase, self)._populate()
+        self._questsDP = _GroupedQuestsProvider()
+        self._questsDP.setFlashObject(self.as_getDPS())
+        self.as_setBackgroundS(self._getBackground())
+        return
+
+    def _dispose(self):
+        if self._builder is not None:
+            self._builder.clear()
+        self._questsDP.fini()
+        self._builder = None
+        self._questsDP = None
+        if self.__updateDataCallback is not None:
+            BigWorld.cancelCallback(self.__updateDataCallback)
+            self.__updateDataCallback = None
+        super(MissionViewBase, self)._dispose()
+        return
+
+    @staticmethod
+    def _getBackground():
+        return b''
+
+    def _onDataChangedNotify(self):
+        if self.__updateDataCallback is None:
+            self.__updateDataCallback = BigWorld.callback(0, self.__notifyDataChanged)
+        return
+
+    def __notifyDataChanged(self):
+        self.__updateDataCallback = None
+        self.fireEvent(events.MissionsEvent(events.MissionsEvent.ON_GROUPS_DATA_CHANGED), EVENT_BUS_SCOPE.LOBBY)
+        return
+
+
+class MissionView(MissionViewBase):
+    __sound_env__ = LobbySubViewEnv
+    eventsCache = dependency.descriptor(IEventsCache)
+    __battleMattersController = dependency.descriptor(IBattleMattersController)
+    __tankAcademyController = dependency.descriptor(ITankAcademyController)
+    gameSession = dependency.descriptor(IGameSessionController)
+    __rankedController = dependency.descriptor(IRankedBattlesController)
+    __spaceSwitchController = dependency.descriptor(IHangarSpaceSwitchController)
+    __funRandomController = dependency.descriptor(IFunRandomController)
+
+    def __init__(self):
+        super(MissionView, self).__init__()
+        self.__viewQuests = {}
+        return
+
+    def openMissionDetailsView(self, eventID, blockID):
+        showMissionDetails(eventID, blockID)
+        return
+
+    def setFilters(self, filterData):
+        if self._filterData != filterData:
+            self._filterData = filterData
+            self._filterMissions()
+        self._onDataChangedNotify()
+        return
+
+    def dummyClicked(self, eventType):
+        filterData = {b'hideDone': False, 
+           b'hideUnavailable': False}
+        AccountSettings.setFilter(MISSIONS_PAGE, filterData)
+        self.fireEvent(events.MissionsEvent(events.MissionsEvent.ON_FILTER_CHANGED, ctx=filterData), EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    def _populate(self):
+        super(MissionView, self)._populate()
+        self.eventsCache.onSyncCompleted += self._onEventsUpdate
+        self.__battleMattersController.onStateChanged += self._onBattleMattersStateChanged
+        self.__tankAcademyController.onStateChanged += self._onBattleMattersStateChanged
+        self.gameSession.onPremiumTypeChanged += self.__onPremiumTypeChanged
+        self.__rankedController.onUpdated += self._onEventsUpdate
+        self.__rankedController.onGameModeStatusUpdated += self._onEventsUpdate
+        self.__funRandomController.subscription.addSubModesWatcher(self._onEventsUpdate)
+        self.__spaceSwitchController.onSpaceUpdated += self._onEventsUpdate
+        g_clientUpdateManager.addCallbacks({b'inventory.1': (self._onEventsUpdate), 
+           b'stats.unlocks': (self.__onUnlocksUpdate)})
+        return
+
+    def _dispose(self):
+        self.eventsCache.onSyncCompleted -= self._onEventsUpdate
+        self.__battleMattersController.onStateChanged -= self._onBattleMattersStateChanged
+        self.__tankAcademyController.onStateChanged -= self._onBattleMattersStateChanged
+        self.gameSession.onPremiumTypeChanged -= self.__onPremiumTypeChanged
+        self.__rankedController.onUpdated -= self._onEventsUpdate
+        self.__rankedController.onGameModeStatusUpdated -= self._onEventsUpdate
+        self.__spaceSwitchController.onSpaceUpdated -= self._onEventsUpdate
+        self.__funRandomController.subscription.removeSubModesWatcher(self._onEventsUpdate)
+        g_clientUpdateManager.removeObjectCallbacks(self)
+        super(MissionView, self)._dispose()
+        return
+
+    def _filterMissions(self):
+        result = []
+        self._totalQuestsCount = 0
+        self._filteredQuestsCount = 0
+        for data in self._builder.getBlocksData(self.__viewQuests, self.__filter):
+            self._appendBlockDataToResult(result, data)
+            self._totalQuestsCount += self._getQuestTotalCountFromBlockData(data)
+            self._filteredQuestsCount += self._getQuestFilteredCountFromBlockData(data)
+
+        self._questsDP.buildList(result)
+        if not self._totalQuestsCount:
+            self.as_showDummyS(self._getDummy())
+        else:
+            self.as_hideDummyS()
+        return
+
+    def _appendBlockDataToResult(self, result, data):
+        result.append(data.blockData)
+        return
+
+    def _getQuestTotalCountFromBlockData(self, data):
+        return data.totalCount
+
+    def _getQuestFilteredCountFromBlockData(self, data):
+        return data.filteredCount
+
+    @staticmethod
+    def _getDummy():
+        return {b'iconSource': (RES_ICONS.MAPS_ICONS_LIBRARY_ALERTBIGICON), 
+           b'htmlText': (text_styles.main(_ms(QUESTS.MISSIONS_NOTASKS_DUMMY_TEXT))), 
+           b'alignCenter': False, 
+           b'btnVisible': False, 
+           b'btnLabel': b'', 
+           b'btnTooltip': b'', 
+           b'btnEvent': b'', 
+           b'btnLinkage': (BUTTON_LINKAGES.BUTTON_BLACK)}
+
+    @th_async
+    def _onEventsUpdate(self, *args):
+        self.as_setWaitingVisibleS(True)
+        yield th_await(self.eventsCache.prefetcher.demand())
+        self.as_setWaitingVisibleS(False)
+        if self._builder:
+            self.__updateEvents()
+        return
+
+    def _onBattleMattersStateChanged(self, *args):
+        self._onEventsUpdate()
+        return
+
+    def __onUnlocksUpdate(self, unlocks):
+        if any(getTypeOfCompactDescr(intCD) == GUI_ITEM_TYPE.VEHICLE for intCD in unlocks):
+            self._onEventsUpdate()
+        return
+
+    def __updateEvents(self):
+        self.__viewQuests = self.eventsCache.getActiveQuests(self._getViewQuestFilter())
+        self._builder.invalidateBlocks()
+        self._filterMissions()
+        self._onDataChangedNotify()
+        settings.updateCommonEventsSettings(self.__viewQuests)
+        return
+
+    def __filter(self, event):
+        if self._filterData.get(HIDE_UNAVAILABLE, False) and not event.isAvailable()[0]:
+            return False
+        if self._filterData.get(HIDE_DONE, False) and event.isCompleted():
+            return False
+        return True
+
+    def _getViewQuestFilter(self):
+        return
+
+    def __onPremiumTypeChanged(self, newAcctType):
+        self.markVisited()
+        return
+
+
+class ElenMissionView(MissionViewBase):
+    eventsController = dependency.descriptor(IEventBoardController)
+
+    def _populate(self):
+        super(ElenMissionView, self)._populate()
+        g_clientUpdateManager.addCallbacks({b'inventory': (self.onInventoryUpdate)})
+        return
+
+    def _dispose(self):
+        g_clientUpdateManager.removeObjectCallbacks(self)
+        super(ElenMissionView, self)._dispose()
+        return
+
+    def onInventoryUpdate(self, _):
+        self._onEventsUpdate()
+        return
+
+    @checkEventExist
+    def openMissionDetailsView(self, eventID, blockID):
+        g_eventBus.handleEvent(events.LoadViewEvent(SFViewLoadParams(VIEW_ALIAS.LOBBY_EVENT_BOARDS_TABLE), ctx={b'eventID': eventID, b'leaderboardID': (int(blockID))}), scope=EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    @adisp_process
+    def _onEventsUpdate(self, *args):
+        yield self._onEventsUpdateAsync(*args)
+        return
+
+    @adispasync
+    @adisp_process
+    def _onEventsUpdateAsync(self, callback, *args):
+        self.as_setWaitingVisibleS(True)
+        yield self.eventsController.getEvents(isTabVisited=True)
+        yield self.eventsController.getHangarFlag()
+        self.as_setWaitingVisibleS(False)
+        eventsData = self.eventsController.getEventsSettingsData()
+        playerData = self.eventsController.getPlayerEventsData()
+        myEventsTop = self.eventsController.getMyEventsTopData()
+        if self.isDisposed():
+            callback(self)
+            return
+        if eventsData and playerData and playerData.getEventsList() and myEventsTop:
+            self._setMaintenance(False)
+            self.__updateEvents(eventsData, playerData, myEventsTop)
+        else:
+            self._setMaintenance(True)
+        self._onDataChangedNotify()
+        callback(self)
+        return
+
+    def _setMaintenance(self, visible):
+        return
+
+    def __updateEvents(self, eventsData, playerData, myEventsTop):
+        result = []
+        totalQuestsCount = 0
+        filteredQuestsCount = 0
+        self._builder.setEventsData(eventsData, playerData, myEventsTop, self._eventID)
+        for data in self._builder.getBlocksData(None, None):
+            result.append(data.blockData)
+            totalQuestsCount += data.totalCount
+            filteredQuestsCount += data.filteredCount
+
+        self._totalQuestsCount = totalQuestsCount
+        self._filteredQuestsCount = filteredQuestsCount
+        self._questsDP.buildList(result)
+        if not totalQuestsCount:
+            self.as_showDummyS({b'iconSource': (RES_ICONS.MAPS_ICONS_LIBRARY_ALERTBIGICON), 
+               b'htmlText': (text_styles.main(_ms(QUESTS.MISSIONS_NOTASKS_DUMMY_TEXT))), 
+               b'alignCenter': False, 
+               b'btnVisible': False, 
+               b'btnLabel': b'', 
+               b'btnTooltip': b'', 
+               b'btnEvent': b''})
+        else:
+            self.as_hideDummyS()
+        return
+
+
+class _GroupedQuestsProvider(ListDAAPIDataProvider):
+
+    def __init__(self):
+        super(_GroupedQuestsProvider, self).__init__()
+        self.__list = []
+        return
+
+    @property
+    def collection(self):
+        return self.__list
+
+    def fini(self):
+        self.clear()
+        self.destroy()
+        return
+
+    def buildList(self, dpList):
+        self.__list = dpList
+        self.refresh()
+        return
+
+    def emptyItem(self):
+        return
+
+    def getItemIndexHandler(self, fieldName, value):
+        for index, item in enumerate(self.__list):
+            if item[fieldName] == value:
+                return index
+
+        return -1
+
+    def clear(self):
+        self.__list = []
+        return

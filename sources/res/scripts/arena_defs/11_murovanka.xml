@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:11_murovanka/name</name>
+	<description>#arenas:11_murovanka/description</description>
+	<geometry>spaces/11_murovanka</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-500 -500</bottomLeft>
+		<upperRight>500 500</upperRight>
+	</boundingBox>
+	<minimap>spaces/11_murovanka/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<defaultGroundEffect>None</defaultGroundEffect>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_murovanka_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_murovanka_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_murovanka_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_murovanka_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_murovanka_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_murovanka_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_autumn_01</wwambientSound>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>-55.0001907 417.299988</position1>
+				</team1>
+				<team2>
+					<position1>-55.0002785 -407.199982</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-144.346268 428.046478</position>
+				</team1>
+				<team2>
+					<position>-183.12558 -387.177063</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-373.270294 9.96180916</controlPoint>
+		</domination>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-23.8558884 422.237366</position>
+				</team1>
+				<team2>
+					<position>-28.340004 -401.560333</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-253.169998 5.23290491</position1>
+					<position2>283.024414 278.136383</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<comp7>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-31.0519829 418.446014</position>
+				</team1>
+				<team2>
+					<position>-25.9279995 -420.278015</position>
+				</team2>
+			</teamSpawnPoints>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-463.429535 -160.98114</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-198.832001 203.324005</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-18.3607998 -31.4750996</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-207.925995 -201.240005</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>448.963989 324.934998</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>198.940002 29.5739002</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>369.34201 -264.183014</position>
+					<type>3</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamBasePositions>
+				<team1>
+					<position1>-228.81337 1.44663</position1>
+					<position2>285.290985 278.942993</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</comp7>
+		<bob>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<teamSpawnPoints>
+				<team1>
+					<position>-30.8858662 -430.907776</position>
+				</team1>
+				<team2>
+					<position>-34.8364105 450.171753</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-282.223999 5.2460022</controlPoint>
+		</bob>
+	</gameplayTypes>
+	<mapActivities></mapActivities>
+</root>

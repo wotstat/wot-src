@@ -1,0 +1,107 @@
+import BigWorld, typing, CGF
+from GenericComponents import AnimatorComponent
+from Sound import Sound3DComponent
+from cgf_components.cgf_helpers import getVehicleFromGO
+from cgf_script.component_meta_class import registerComponent, ComponentProperty, CGFMetaTypes
+from cgf_script.managers_registrator import autoregister, onAddedQuery
+from constants import DUAL_GUN
+from debug_utils import LOG_ERROR
+
+@registerComponent
+class DualGunDualAccuracyHeatComponent(object):
+    category = b'Common'
+    editorTitle = b'Dualgun Dual Accuracy Heat Component'
+    leftLink = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Left gun animator link', value=AnimatorComponent)
+    rightLink = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Right gun animator link', value=AnimatorComponent)
+    leftSoundLink = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Left gun sound link', value=Sound3DComponent)
+    rightSoundLink = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'Right gun sound link', value=Sound3DComponent)
+    npcLeftSoundLink = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'NPC left gun sound link', value=Sound3DComponent)
+    npcRightSoundLink = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'NPC right gun sound link', value=Sound3DComponent)
+
+    def __init__(self):
+        super(DualGunDualAccuracyHeatComponent, self).__init__()
+        self.__vehicleID = None
+        self.__gameObject = None
+        return
+
+    @property
+    def vehicleID(self):
+        return self.__vehicleID
+
+    @property
+    def gameObject(self):
+        return self.__gameObject
+
+    @vehicleID.setter
+    def vehicleID(self, vehicleID):
+        self.__vehicleID = vehicleID
+        return
+
+    @gameObject.setter
+    def gameObject(self, gameObject):
+        self.__gameObject = gameObject
+        return
+
+    def toggleState(self, gun, state):
+        isLeft = gun == DUAL_GUN.ACTIVE_GUN.LEFT
+        animatorLink = self.leftLink if isLeft else self.rightLink
+        vehicle = BigWorld.player().getVehicleAttached()
+        if vehicle is None:
+            return
+        else:
+            isNPC = vehicle.id != self.__vehicleID or not vehicle.isPlayerVehicle or BigWorld.player().isObserver()
+            if isNPC:
+                soundLink = self.npcLeftSoundLink if isLeft else self.npcRightSoundLink
+            else:
+                soundLink = self.leftSoundLink if isLeft else self.rightSoundLink
+            if animatorLink is None or soundLink is None:
+                LOG_ERROR(b'animator/sound component links are not configured', gun, state)
+                return
+            animator = animatorLink()
+            sound3D = soundLink()
+            if not state:
+                animator.stop()
+                sound3D.stop()
+                return
+            if not animator.isPlaying():
+                animator.start()
+                sound3D.play()
+            return
+
+
+@autoregister(presentInAllWorlds=True)
+class DualGunDualAccuracyHeatManager(CGF.ComponentManager):
+    __slots__ = (b'__cacheMapping',)
+
+    def __init__(self, *args):
+        super(DualGunDualAccuracyHeatManager, self).__init__(*args)
+        self.__cacheMapping = {}
+        return
+
+    def getAccuracyComponent(self, vehicleID):
+        component = self.__cacheMapping.get(vehicleID)
+        if not component or not component.gameObject or not component.gameObject.isValid():
+            return None
+        return component
+
+    @onAddedQuery(CGF.GameObject, DualGunDualAccuracyHeatComponent)
+    def onAdded(self, gameObject, heatComponent):
+        vehicleID = heatComponent.vehicleID or self.__loadVehicleIntoCache(gameObject, heatComponent)
+        vehicle = BigWorld.entities.get(vehicleID)
+        if vehicle is None:
+            return
+        else:
+            dualGunDualAccuracy = vehicle.dynamicComponents.get(b'dualAccuracy')
+            if dualGunDualAccuracy is not None:
+                dualGunDualAccuracy.onPrefabLoaded()
+            return
+
+    def __loadVehicleIntoCache(self, gameObject, heatComponent):
+        vehicle = getVehicleFromGO(gameObject, self.spaceID)
+        if vehicle is not None:
+            heatComponent.vehicleID = vehicle.id
+            heatComponent.gameObject = gameObject
+            self.__cacheMapping[vehicle.id] = heatComponent
+            return vehicle.id
+        else:
+            return

@@ -1,0 +1,49 @@
+.TooltipDecorator_base_c9 {
+    display: flex;
+    position: absolute;
+}
+
+.TooltipDecorator_base__theme-default_6d .TooltipDecorator_decorator_3d {
+        padding: 4rem 6rem 8rem;
+        border-image-source: url('R.images.gui.maps.icons.tooltip.tooltip_background');
+        border-image-slice: 24 fill;
+        border-image-width: 24rem;
+        position: relative;
+    }
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*////////////*/
+
+/* Colors: https://confluence.lesta.group/pages/viewpage.action?pageId=2040068438*/
+
+.AlertTooltip_base_28 {
+    display: flex;
+    flex-direction: column;
+    padding: 16rem 19rem;
+    color: #8c8c7e;
+    font-size: 14rem;
+}
+
+.AlertTooltip_header_15 {
+    color: #e9e2bf;
+    font-size: 15rem;
+    font-weight: 700;
+}
+
+.AlertTooltip_description_76 {
+    display: flex;
+    margin-top: 6rem;
+    color: #ee7000;
+}
+
+.AlertTooltip_dangerIcon_af {
+    width: 16rem;
+    height: 16rem;
+    margin: 1rem 11rem 0 -1rem;
+    background: url('R.images.gui.maps.icons.library.alertIcon') center / contain no-repeat;
+}
+

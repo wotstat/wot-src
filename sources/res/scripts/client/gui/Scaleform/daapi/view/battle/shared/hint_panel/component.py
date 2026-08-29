@@ -1,0 +1,155 @@
+from functools import partial
+import BigWorld, CommandMapping, SoundGroups
+from cgf_components.zone_components import IBattleSessionProvider
+from gui.Scaleform.daapi.view.battle.shared.hint_panel import plugins
+from gui.Scaleform.daapi.view.meta.BattleHintPanelMeta import BattleHintPanelMeta
+from gui.battle_control.controllers.period_ctrl import IAbstractPeriodView
+from gui.shared import EVENT_BUS_SCOPE, events
+from gui.shared.events import GameEvent
+from gui.shared.utils.plugins import PluginsCollection
+from helpers import dependency
+from shared_utils import first
+
+class BattleHintPanel(BattleHintPanelMeta, IAbstractPeriodView):
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self):
+        super(BattleHintPanel, self).__init__()
+        self._hints = {}
+        self._plugins = None
+        self.__isBattleLoaded = False
+        self.__invalidateCallbackID = None
+        return
+
+    def setBtnHint(self, btnID, hintData):
+        if hintData:
+            if btnID in self._hints:
+                if hintData.priority < self._hints[btnID].priority:
+                    self._hints[btnID] = hintData
+            else:
+                self._hints[btnID] = hintData
+            self.__invalidateBtnHint()
+        return
+
+    def removeBtnHint(self, btnID):
+        hint = None
+        if btnID in self._hints:
+            hint = self._hints.pop(btnID)
+        self.__invalidateBtnHint(True)
+        return hint
+
+    def setPeriod(self, period):
+        if self._plugins is not None:
+            self._plugins.setPeriod(period)
+        return
+
+    def getActiveHint(self):
+        hintData = self.__getActiveHintData()
+        if hintData:
+            _, hint = hintData
+            return hint
+        else:
+            return
+
+    def onPlaySound(self, soundType):
+        SoundGroups.g_instance.playSound2D(soundType)
+        return
+
+    def onHideComplete(self):
+        self.fireEvent(GameEvent(GameEvent.HIDE_BTN_HINT), scope=EVENT_BUS_SCOPE.GLOBAL)
+        return
+
+    def _populate(self):
+        super(BattleHintPanel, self)._populate()
+        self.addListener(events.GameEvent.BATTLE_LOADING, self.__handleBattleLoading, EVENT_BUS_SCOPE.BATTLE)
+        self.addListener(events.GameEvent.BATTLE_CONTEXT_HINT_ACTIVATED, self.__onBattleContextHintActivated, EVENT_BUS_SCOPE.BATTLE)
+        self._initPlugins()
+        return
+
+    def _dispose(self):
+        self._finiPlugins()
+        self._hints = None
+        self.removeListener(events.GameEvent.BATTLE_LOADING, self.__handleBattleLoading, scope=EVENT_BUS_SCOPE.BATTLE)
+        self.removeListener(events.GameEvent.BATTLE_CONTEXT_HINT_ACTIVATED, self.__onBattleContextHintActivated, scope=EVENT_BUS_SCOPE.BATTLE)
+        if self.__invalidateCallbackID is not None:
+            BigWorld.cancelCallback(self.__invalidateCallbackID)
+        self.__invalidateCallbackID = None
+        super(BattleHintPanel, self)._dispose()
+        return
+
+    def _initPlugins(self):
+        self._plugins = HintPluginsCollection(self)
+        self._plugins.addPlugins(self._createPlugins())
+        self._plugins.init()
+        self._plugins.start()
+        return
+
+    def _finiPlugins(self):
+        if self._plugins is not None:
+            self._plugins.stop()
+            self._plugins.fini()
+            self._plugins = None
+        return
+
+    def _createPlugins(self):
+        return plugins.createPlugins()
+
+    def __getActiveHintData(self):
+        return first(sorted(self._hints.iteritems(), key=(lambda h: h[1].priority), reverse=False))
+
+    def __invalidateBtnHint(self, isRemoved=False):
+        if self.__invalidateCallbackID is not None:
+            BigWorld.cancelCallback(self.__invalidateCallbackID)
+        self.__invalidateCallbackID = BigWorld.callback(0.01, partial(self.__prepareAndShowHint, isRemoved))
+        return
+
+    def __prepareAndShowHint(self, isRemoved):
+        self.__invalidateCallbackID = None
+        if isRemoved:
+            self.as_toggleS(False)
+            self.__invalidateBtnHint()
+            return
+        else:
+            hintData = self.__getActiveHintData()
+            isHintActive = bool(hintData)
+            hintCanBeDisplayed = isHintActive and self.__isBattleLoaded and not self.__isBattleContextHintActivated()
+            if hintCanBeDisplayed:
+                btnID, hint = hintData
+                self.as_setDataS(hint.vKey, hint.key, hint.messageLeft, hint.messageRight, hint.offsetX, hint.offsetY, hint.reducedPanning, hint.centeredMessage)
+                self.fireEvent(GameEvent(GameEvent.SHOW_BTN_HINT, ctx={b'btnID': btnID, b'hintCtx': (hint.hintCtx)}), scope=EVENT_BUS_SCOPE.GLOBAL)
+            self.as_toggleS(hintCanBeDisplayed)
+            return
+
+    def __handleBattleLoading(self, event):
+        self.__isBattleLoaded = not event.ctx[b'isShown']
+        self.__invalidateBtnHint()
+        return
+
+    def __isBattleContextHintActivated(self):
+        hintsCtrl = self.__sessionProvider.dynamic.battleContextHintsCtrl
+        return hintsCtrl is not None and hintsCtrl.isHintActivated()
+
+    def __onBattleContextHintActivated(self, event):
+        self.__invalidateBtnHint(True)
+        return
+
+
+class HintPluginsCollection(PluginsCollection):
+
+    def start(self):
+        super(HintPluginsCollection, self).start()
+        CommandMapping.g_instance.onMappingChanged += self.__onMappingChanged
+        return
+
+    def stop(self):
+        super(HintPluginsCollection, self).stop()
+        CommandMapping.g_instance.onMappingChanged -= self.__onMappingChanged
+        return
+
+    def setPeriod(self, period):
+        self._invoke(b'setPeriod', period)
+        return
+
+    def __onMappingChanged(self, *args):
+        self._invoke(b'updateMapping')
+        return

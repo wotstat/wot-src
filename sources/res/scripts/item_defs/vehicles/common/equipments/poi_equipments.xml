@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<poi_artillery_aoe>
+		<id>9401</id>
+		<userString>#artefacts:poi_artillery_aoe/name</userString>
+		<description>#artefacts:poi_artillery_aoe/descr</description>
+		<icon>poi_artillery 0 0</icon>
+		<price>150
+			<gold></gold>
+		</price>
+		<notInShop>true</notInShop>
+		<tags>notForSale avatar trigger poiEquipment</tags>
+		<type>battleAbilities</type>
+		<code>artillery</code>
+		<soundNotification>comp_7_ability_ready</soundNotification>
+		<script>PoiArtilleryEquipment
+			<shortDescription>#artefacts:poi_artillery_aoe/shortDescr</shortDescription>
+			<longDescription>#artefacts:poi_artillery_aoe/longDescr</longDescription>
+			<shortFilterAlert></shortFilterAlert>
+			<longFilterAlert></longFilterAlert>
+			<cooldownTime>0</cooldownTime>
+			<cooldownFactors></cooldownFactors>
+			<sharedCooldownTime>0</sharedCooldownTime>
+			<consumeAmmo>true</consumeAmmo>
+			<disableAllyDamage>true</disableAllyDamage>
+			<cooldownTimeRespawnFactor>1</cooldownTimeRespawnFactor>
+			<minApplyRadius>20</minApplyRadius>
+			<maxApplyRadius>300</maxApplyRadius>
+			<requireAssists>true</requireAssists>
+			<delay>2</delay>
+			<duration>1.0</duration>
+			<maxCount>1</maxCount>
+			<shotsNumber>1</shotsNumber>
+			<explodeDestructible>true</explodeDestructible>
+			<areaRadius>35</areaRadius>
+			<areaVisual>content/Interface/TargetPoint/circle_shot_area.visual</areaVisual>
+			<areaUsedPrefab>content/CGFPrefabs/Battle/Consumables/shot_area.prefab</areaUsedPrefab>
+			<areaVisibleToEnemies>false</areaVisibleToEnemies>
+			<areaColor>0xFF25FF25</areaColor>
+			<areaShow>before</areaShow>
+			<noOwner>false</noOwner>
+			<attackerType>ARTILLERY_EQ</attackerType>
+			<shotSoundPreDelay>1</shotSoundPreDelay>
+			<wwsoundShot>eb_ability_artillery_firing</wwsoundShot>
+			<effects>
+				<action>
+					<shotEffects>epicArtilleryStrike</shotEffects>
+					<offsetDeviation>30</offsetDeviation>
+					<repeatCount>15</repeatCount>
+					<repeatDelay>0</repeatDelay>
+					<repeatDelayDeviationPercent>0</repeatDelayDeviationPercent>
+				</action>
+			</effects>
+			<actions>
+				<action>
+					<type>DamageVehicleWithDispersion</type>
+					<applyTo>enemy_team</applyTo>
+					<args>
+						<damage>375</damage>
+						<damageDispersionPercent>0</damageDispersionPercent>
+					</args>
+				</action>
+				<action>
+					<type>StunVehicleAndSendResults</type>
+					<applyTo>all</applyTo>
+					<args>
+						<shellCompactDescr>88858</shellCompactDescr>
+						<sendAttackResults>True</sendAttackResults>
+						<ignoreStunResistanceDuration>False</ignoreStunResistanceDuration>
+					</args>
+				</action>
+			</actions>
+		</script>
+	</poi_artillery_aoe>
+	<poi_radar>
+		<id>9402</id>
+		<userString>#artefacts:poi_radar/name</userString>
+		<description>#artefacts:poi_radar/descr</description>
+		<icon>poi_radar 0 0</icon>
+		<price>0</price>
+		<notInShop>true</notInShop>
+		<tags>notForSale poiEquipment</tags>
+		<type>battleAbilities</type>
+		<soundNotification>comp_7_ability_ready</soundNotification>
+		<script>PoiRadarEquipment
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/abilities/radar_server</plan>
+				</server>
+			</visualScript>
+			<duration>5
+				<exports>vse tooltip</exports>
+			</duration>
+		</script>
+	</poi_radar>
+	<poi_smoke>
+		<id>9403</id>
+		<userString>#artefacts:poi_smoke/name</userString>
+		<description>#artefacts:poi_smoke/descr</description>
+		<icon>poi_smoke 0 0</icon>
+		<price>150
+			<gold></gold>
+		</price>
+		<notInShop>true</notInShop>
+		<tags>notForSale avatar trigger poiEquipment</tags>
+		<type>battleAbilities</type>
+		<code>artillery</code>
+		<soundNotification>comp_7_ability_ready</soundNotification>
+		<script>PoiSmokeEquipment
+			<shortDescription>#artefacts:poi_smoke/shortDescr</shortDescription>
+			<longDescription>#artefacts:poi_smoke/longDescr</longDescription>
+			<shortFilterAlert></shortFilterAlert>
+			<longFilterAlert></longFilterAlert>
+			<tooltips>cooldownTime minDelay areaLength_areaWidth-targetedArea projectilesNumber totalDuration attrFactorMods/circularVisionRadius attrFactorMods/crewRolesFactor</tooltips>
+			<cooldownTime>0</cooldownTime>
+			<cooldownFactors></cooldownFactors>
+			<sharedCooldownTime>0</sharedCooldownTime>
+			<consumeAmmo>true</consumeAmmo>
+			<disableAllyDamage>false</disableAllyDamage>
+			<cooldownTimeRespawnFactor>1</cooldownTimeRespawnFactor>
+			<reserveUnlockFactor>1</reserveUnlockFactor>
+			<startCooldownTimeFactor>1</startCooldownTimeFactor>
+			<minDelay>3.0</minDelay>
+			<deltaDelayRange>0.1 0.3</deltaDelayRange>
+			<smokeModelName>objects/misc/server_smoke/cylinder1.model</smokeModelName>
+			<smokeEffectNameAlly>SmokeScreenEffect_lev1/ally</smokeEffectNameAlly>
+			<smokeEffectNameEnemy>SmokeScreenEffect_lev1/enemy</smokeEffectNameEnemy>
+			<startRadius>10.</startRadius>
+			<expandedRadius>37.5</expandedRadius>
+			<startHeight>10.</startHeight>
+			<expandedHeight>40.</expandedHeight>
+			<heightUpFraction>0.7</heightUpFraction>
+			<expansionDuration>2.</expansionDuration>
+			<dispersionRadius>5.</dispersionRadius>
+			<totalDuration>20.</totalDuration>
+			<smokeOpacity>10.</smokeOpacity>
+			<attrFactorMods>
+				<circularVisionRadius>
+					<value>-0.9</value>
+					<ignoreAllies>True</ignoreAllies>
+				</circularVisionRadius>
+				<crewRolesFactor>
+					<value>-0.25</value>
+					<ignoreAllies>True</ignoreAllies>
+				</crewRolesFactor>
+			</attrFactorMods>
+			<postEffect>
+				<enemy></enemy>
+			</postEffect>
+			<expireDelay>1.0</expireDelay>
+			<areaLength>75</areaLength>
+			<areaWidth>75</areaWidth>
+			<areaRadius>37.5</areaRadius>
+			<projectilesNumber>7</projectilesNumber>
+			<shellCompactDescr>64538</shellCompactDescr>
+			<areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual>
+			<noOwner>false</noOwner>
+			<shotSoundPreDelay>2</shotSoundPreDelay>
+			<wwsoundShot>eb_ability_smoke_firing</wwsoundShot>
+			<vignetteColor>200 200 200</vignetteColor>
+			<vignetteIntensity>0.08</vignetteIntensity>
+		</script>
+	</poi_smoke>
+	<poi_minefield>
+		<id>9404</id>
+		<userString>#artefacts:poi_minefield/name</userString>
+		<description>#artefacts:poi_minefield/descr</description>
+		<icon>poi_minefield 0 0</icon>
+		<price>150
+			<gold></gold>
+		</price>
+		<notInShop>true</notInShop>
+		<tags>notForSale avatar trigger poiEquipment</tags>
+		<type>battleAbilities</type>
+		<code>artillery</code>
+		<soundNotification>comp_7_ability_ready</soundNotification>
+		<script>PoiMineFieldEquipment
+			<shortDescription>#artefacts:poi_minefield/short_descr</shortDescription>
+			<longDescription>#artefacts:poi_minefield/long_descr</longDescription>
+			<shortFilterAlert></shortFilterAlert>
+			<longFilterAlert></longFilterAlert>
+			<tooltips>cooldownTime mineParams/lifetime bombsNumber-minefield mineParams/shell</tooltips>
+			<cooldownFactors></cooldownFactors>
+			<cooldownTimeRespawnFactor>1</cooldownTimeRespawnFactor>
+			<reserveUnlockFactor>1</reserveUnlockFactor>
+			<startCooldownTimeFactor>1</startCooldownTimeFactor>
+			<sharedCooldownTime>0</sharedCooldownTime>
+			<consumeAmmo>true</consumeAmmo>
+			<cooldownTime>0</cooldownTime>
+			<disableAllyDamage>true</disableAllyDamage>
+			<bombsNumber>26</bombsNumber>
+			<bombsPattern>-10	-30
+                -10	-22.5
+                -10	-15
+                -10	-7.5
+                -10	0
+                -10	7.5
+                -10	15
+                -10	22.5
+                -10	30
+                0	-35
+                0	-25
+                0	-15
+                0	-5
+                0	5
+                0	15
+                0	25
+                0	35
+                10	-30
+                10	-22.5
+                10	-15
+                10	-7.5
+                10	0
+                10	7.5
+                10	15
+                10	22.5
+                10	30</bombsPattern>
+			<mineParams>
+				<activationDelay>2</activationDelay>
+				<triggerRadius>6</triggerRadius>
+				<triggerHeight>5</triggerHeight>
+				<triggerDepth>1</triggerDepth>
+				<influenceType>2</influenceType>
+				<lifetime>15</lifetime>
+				<damage>0</damage>
+				<shellCompactDescr>97818</shellCompactDescr>
+				<destroyMyMinesOverlappingAlliedMines>True</destroyMyMinesOverlappingAlliedMines>
+				<resistAllyDamage>True</resistAllyDamage>
+				<directDetectionTypes>RAYTRACE RECON STEALTH_RADAR</directDetectionTypes>
+			</mineParams>
+			<noOwner>false</noOwner>
+			<areaVisual>content/Interface/TargetPoint/TargetPointMineFieldAim_32x32.visual</areaVisual>
+			<areaLength>38</areaLength>
+			<areaWidth>74</areaWidth>
+			<arenaAimLimits>
+				<areaColor>0xFFFF0000</areaColor>
+			</arenaAimLimits>
+			<minApplyRadius>15</minApplyRadius>
+			<maxApplyRadius>75</maxApplyRadius>
+			<cameraPivotPosMin>0 5 3</cameraPivotPosMin>
+			<cameraPivotPosMax>0 5 3</cameraPivotPosMax>
+		</script>
+	</poi_minefield>
+</root>

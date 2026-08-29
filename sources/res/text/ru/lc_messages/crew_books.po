@@ -1,0 +1,155 @@
+msgid ""
+msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "ПРИОБРЕСТИ"
+
+msgid "buttons/cancel"
+msgstr "Отменить"
+
+msgid "buttons/learn"
+msgstr "Использовать"
+
+msgid "card/freeExp/additionalText"
+msgstr "Курс обмена: %(value)s"
+
+msgid "card/freeExp/additionalTextValues"
+msgstr "%(freeXp)s = %(xp)s"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)s%"
+
+msgid "card/freeExp/mainText"
+msgstr "Применяется к выбранному члену экипажа.\nУскоряет изучение текущего навыка с помощью свободного опыта."
+
+msgid "card/freeExp/title"
+msgstr "СВОБОДНЫЙ ОПЫТ"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Уровень владения основной специальностью: 100%\n• Специализация: %(vehicleName)s."
+
+msgid "card/nationBook/mainText"
+msgstr "Применяется ко всему экипажу.\nИзучение даёт %(xp)s опыта каждому члену экипажа."
+
+msgid "card/nationBook/title/brochure"
+msgstr "УЧЕБНАЯ БРОШЮРА (&zwnbsp;%(nation)s&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "УЧЕБНОЕ ПОСОБИЕ (&zwnbsp;%(nation)s&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "УЧЕБНОЕ РУКОВОДСТВО (&zwnbsp;%(nation)s&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Применяется без ограничений."
+
+msgid "card/personalBook/mainText"
+msgstr "Применяется к выбранному члену экипажа.\nИзучение даёт ему %(xp)s опыта."
+
+msgid "card/personalBook/title"
+msgstr "ПЕРСОНАЛЬНОЕ УЧЕБНОЕ ПОСОБИЕ"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Уровень владения основной специальностью: 100%\n• Специализация: %(vehicleName)s."
+
+msgid "card/universalBook/mainText"
+msgstr "Применяется ко всему экипажу.\nИзучение даёт %(xp)s опыта каждому члену экипажа."
+
+msgid "card/universalBook/title/universalBook"
+msgstr "УНИВЕРСАЛЬНОЕ ПОСОБИЕ"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "УНИВЕРСАЛЬНАЯ БРОШЮРА"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "УНИВЕРСАЛЬНОЕ РУКОВОДСТВО"
+
+msgid "confirm/crewLabel"
+msgstr "Каждый член экипажа получит %(xpValue)s"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Каждый член экипажа получит %(xpValue)s,"
+
+msgid "confirm/personalExtraLabel"
+msgstr " %(memberName)s получит дополнительно %(xpValue)s"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName)s получит %(xpValue)s"
+
+msgid "items/brochure/Name"
+msgstr "Учебная брошюра (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Учебная брошюра"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опыта каждому члену экипажа."
+
+msgid "items/crewBook/Name"
+msgstr "Учебное пособие (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Учебное пособие"
+
+msgid "items/guide/Name"
+msgstr "Учебное руководство (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Учебное руководство"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опыта выбранному члену экипажа"
+
+msgid "items/personalBook/Name"
+msgstr "Персональное учебное пособие"
+
+msgid "items/random/brochure/Name"
+msgstr "Учебная брошюра (случайная нация)"
+
+msgid "items/random/guide/Name"
+msgstr "Учебное руководство (случайная нация)"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опыта каждому члену экипажа."
+
+msgid "items/universalBook/Name"
+msgstr "Универсальное пособие"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опыта каждому члену экипажа."
+
+msgid "items/universalBrochure/Name"
+msgstr "Универсальная брошюра"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опыта каждому члену экипажа."
+
+msgid "items/universalGuide/Name"
+msgstr "Универсальное руководство"
+
+msgid "page/title"
+msgstr "ДОПОЛНИТЕЛЬНОЕ ОБУЧЕНИЕ"
+
+msgid "tooltip/buyManual"
+msgstr "Купить учебное пособие"
+
+msgid "tooltip/outOfStock"
+msgstr "Учебные материалы отсутствуют"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Учебные материалы отсутствуют. Вы можете купить их в Магазине"
+
+msgid "tooltip/sale/header"
+msgstr "Выгодный курс обмена"
+
+msgid "tooltip/sale/newRate"
+msgstr "Новый курс обмена: %(freeXp)s = %(xp)s"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Предыдущий курс обмена: %(freeXp)s = %(xp)s"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Нажмите %(controlsImg)s, чтобы увеличить/уменьшить уровень изучения навыка на 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Нажмите %(pgupImg)s/%(pgdownImg)s, чтобы увеличить уровень изучения навыка до 100% (без учебных материалов) / вернуться к предыдущему навыку."

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:31_airfield/name</name>
+	<description>#arenas:31_airfield/description</description>
+	<geometry>spaces/31_airfield</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-500 -500</bottomLeft>
+		<upperRight>500 500</upperRight>
+	</boundingBox>
+	<minimap>spaces/31_airfield/mmap.dds</minimap>
+	<vehicleCamouflageKind>desert</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_airfield_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_airfield_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_airfield_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_airfield_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_airfield_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_airfield_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_desert_01</wwambientSound>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>env_Mountain.bnk</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>392.699341 27.2755852</position1>
+				</team1>
+				<team2>
+					<position1>-393.58075 27.1012936</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+	</gameplayTypes>
+</root>

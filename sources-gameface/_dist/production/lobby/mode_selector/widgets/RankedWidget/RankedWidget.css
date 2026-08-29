@@ -1,0 +1,822 @@
+.BonusBattles_base_1b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+}
+
+.BonusBattles_light_51 {
+    width: 403rem;
+    height: 92rem;
+    background: url('R.images.gui.maps.icons.mode_selector.common.bonus_light') no-repeat 50% / contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.BonusBattles_divider_52 {
+    width: 74rem;
+    height: 1rem;
+    background: url('R.images.gui.maps.icons.mode_selector.common.bonus_decoration') no-repeat 50% / contain;
+}
+
+.BonusBattles_divider__right_08 {
+        transform: scaleX(-1);
+    }
+
+.BonusBattles_icon_2c {
+    width: 16rem;
+    height: 16rem;
+    background: url('R.images.gui.maps.icons.rankedBattles.bonusIcons.c_16x16') no-repeat 50% / contain;
+}
+
+.BonusBattles_amount_a2 {
+    color: #FEFEEC;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    min-width: 8rem;
+    margin: -2rem 0 0 2rem;
+}
+
+@keyframes Blink_blinker_ef {
+    0% {
+        transform: rotate(-225deg) translate(-200rem, 0rem);
+    }
+
+    12% {
+        transform: rotate(-225deg) translate(200rem, 0rem);
+    }
+
+    100% {
+        transform: rotate(-225deg) translate(200rem, 0rem);
+    }
+}
+
+@keyframes Blink_widgetBlinker_14 {
+    0% {
+        transform: rotate(-225deg) translate(-100rem, 0rem);
+    }
+
+    8% {
+        transform: rotate(-225deg) translate(100rem, 0rem);
+    }
+
+    100% {
+        transform: rotate(-225deg) translate(100rem, 0rem);
+    }
+}
+
+@keyframes Blink_widgetBlinkerSmall_f2 {
+    0% {
+        transform: rotate(-225deg) translate(-70rem, 0rem);
+    }
+
+    8% {
+        transform: rotate(-225deg) translate(70rem, 0rem);
+    }
+
+    100% {
+        transform: rotate(-225deg) translate(70rem, 0rem);
+    }
+}
+
+.Blink_base_67 {
+    width: 114rem;
+    height: 160rem;
+    clip-path: polygon(51% 94%, 93% 84%, 93% 6%, 9% 6%, 9% 84%);
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    mask-image: linear-gradient(180deg, transparent 0%, #000000 50%);
+}
+
+.Blink_base_67 .Blink_blink_75 {
+        width: 30rem;
+        height: 300rem;
+        background: rgba(255, 255, 255, 0.3);
+        filter: blur(16px);
+        mix-blend-mode: overlay;
+        position: absolute;
+        top: -30rem;
+        left: 50%;
+        z-index: 99;
+        transform: rotate(-225deg) translate(-200rem, 0rem);
+        transform-origin: center;
+        animation: Blink_blinker_ef 6s linear infinite;
+        animation-delay: 3s;
+    }
+
+.Blink_base_67.Blink_widget_98 {
+        width: 58rem;
+        height: 80rem;
+    }
+
+.Blink_base_67.Blink_widget_98 .Blink_blink_75 {
+            width: 15rem;
+            height: 150rem;
+            transform: rotate(-225deg) translate(-100rem, 0rem);
+            transform-origin: center;
+            animation: Blink_widgetBlinker_14 6s linear infinite;
+            animation-delay: 1s;
+        }
+
+.Blink_base_67.Blink_widget__small_ea {
+            width: 42rem;
+            height: 56rem;
+        }
+
+.Blink_base_67.Blink_widget__small_ea .Blink_blink_75 {
+                width: 15rem;
+                height: 100rem;
+                top: -20rem;
+                transform: rotate(-225deg) translate(-70rem, 0rem);
+                animation: Blink_widgetBlinkerSmall_f2 6s linear infinite;
+            }
+
+.Rank_base_80 {
+    position: relative;
+    pointer-events: auto;
+}
+
+.Rank_icon_64 {
+    width: 42rem;
+    height: 56rem;
+    background: no-repeat 50% / contain;
+}
+
+.Rank_icon__extraSmall_ed {
+        width: 28rem;
+        height: 37rem;
+    }
+
+.Rank_icon__medium_c3 {
+        width: 58rem;
+        height: 80rem;
+    }
+
+.Rank_icon__large_65 {
+        width: 58rem;
+        height: 80rem;
+    }
+
+.Rank_icon__next_89 {
+        opacity: 0.7;
+    }
+
+.Rank_frame_88 {
+    width: 74rem;
+    height: 94rem;
+    position: absolute;
+    top: -8rem;
+    left: -7rem;
+}
+
+.Rank_frame__extraSmall_6a {
+        width: 34rem;
+        height: 44rem;
+        top: -4rem;
+        left: -2rem;
+    }
+
+.Rank_frame__small_33 {
+        width: 50rem;
+        height: 64rem;
+        top: -4rem;
+        left: -4rem;
+    }
+
+.Rank_unburnable_65 {
+    background: url('R.images.gui.maps.icons.rankedBattles.ranks.unburnable.small') no-repeat 50% / contain;
+    opacity: 0.7;
+}
+
+.Rank_unburnable__small_76 {
+        background-image: url('R.images.gui.maps.icons.rankedBattles.ranks.unburnable.tiny');
+    }
+
+.Rank_lock_01 {
+    display: block;
+    width: 32rem;
+    height: 32rem;
+    background: url('R.images.gui.maps.icons.rankedBattles.reward.lock') no-repeat center / cover;
+    position: absolute;
+    bottom: -13rem;
+    left: 50%;
+    z-index: 5;
+    transform: translateX(-47%);
+}
+
+.Rank_lock__medium_89 {
+        width: 35rem;
+        height: 35rem;
+    }
+
+.Rank_lock__extraSmall_c1,
+    .Rank_lock__small_6f {
+        background: url('R.images.gui.maps.icons.rankedBattles.reward.lock_small') no-repeat center / cover;
+    }
+
+.Division_base_30 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 160rem;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, transparent 37%);
+    position: relative;
+    pointer-events: auto;
+}
+
+    .Division_base__extraSmall_1a {
+        height: 72rem;
+    }
+
+    .Division_base__smedium_98 {
+        height: 136rem;
+    }
+
+    .Division_base__medium_08 {
+        height: 160rem;
+    }
+
+    .Division_base__hasOneRank_66 {
+        margin-right: 12rem;
+    }
+
+.Division_steps_31 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 15rem;
+}
+
+.Division_steps__small_b4 {
+        margin: 0 6rem;
+    }
+
+.Division_step_54 {
+    width: 100rem;
+    height: 110rem;
+    margin: 0 -44rem 0 -43rem;
+    background: url('R.images.gui.maps.icons.mode_selector.common.ranks_step_normal_big') no-repeat 50% / contain;
+}
+
+.Division_step__notReceived_d3 {
+        background-image: url('R.images.gui.maps.icons.mode_selector.common.ranks_step_disabled_big');
+    }
+
+.Division_step__small_b3 {
+        width: 50rem;
+        height: 55rem;
+        margin: 0 -21rem 0 -22rem;
+        background-image: url('R.images.gui.maps.icons.mode_selector.common.ranks_step_normal_small');
+    }
+
+.Division_step__small_b3.Division_step__notReceived_d3 {
+            background-image: url('R.images.gui.maps.icons.mode_selector.common.ranks_step_disabled_small');
+        }
+
+.RankedStat_base_29 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    pointer-events: auto;
+}
+
+.RankedStat_icon_83 {
+    width: 42rem;
+    height: 42rem;
+    margin-top: -9rem;
+    background: no-repeat 50% / contain;
+}
+
+.RankedStat_icon__efficiency_9e {
+        background-image: url('R.images.gui.maps.icons.rankedBattles.stats.c_42.widgetEfficiency');
+    }
+
+.RankedStat_icon__efficiency__medium_e6 {
+            width: 52rem;
+            height: 52rem;
+            margin-top: -6rem;
+            background-image: url('R.images.gui.maps.icons.rankedBattles.stats.c_52.widgetEfficiency');
+        }
+
+.RankedStat_icon__position_6f {
+        background-image: url('R.images.gui.maps.icons.rankedBattles.stats.c_42.position');
+    }
+
+.RankedStat_icon__position__medium_10 {
+            width: 52rem;
+            height: 52rem;
+            background-image: url('R.images.gui.maps.icons.rankedBattles.stats.c_52.position');
+        }
+
+.RankedStat_value_cb {
+    color: #E9E2BF;
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-top: -9rem;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.46);
+}
+
+.RankedStat_value__medium_dc {
+        color: #CED9D9;
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-top: -10rem;
+    }
+
+.RankedStat_delta_ff {
+    color: #80D43A;
+    font-size: 12rem;
+    font-weight: 400;
+    line-height: 1.3;
+    display: flex;
+    text-shadow: 0 0 12rem rgba(128,212,58, .5),
+        0 0 7rem rgba(128,212,58, .5);
+    position: absolute;
+    bottom: -6rem;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+.RankedStat_delta__medium_89 {
+        color: #80D43A;
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+        bottom: -4rem;
+    }
+
+.RankedStat_delta__smedium_74 {
+        bottom: -3rem;
+    }
+
+.RankedStat_delta__minus_71 {
+        color: #FF2717;
+        text-shadow: 0 0 12rem rgba(255,39,23, .5),
+            0 0 7rem rgba(255,39,23, .5);
+    }
+
+.RankedStat_arrow_97 {
+    width: 11rem;
+    height: 16rem;
+    margin: 2rem 4rem 0 0;
+    background: url('R.images.gui.maps.icons.rankedBattles.league.widget_delta_plus') no-repeat 50% / contain;
+}
+
+.RankedStat_arrow__medium_f8 {
+        margin: 2rem 4rem 0 0;
+    }
+
+.RankedStat_arrow__smedium_52 {
+        background: url('R.images.gui.maps.icons.rankedBattles.league.widget_delta_plus_small') no-repeat 50% / contain;
+    }
+
+.RankedStat_arrow__minus_e1 {
+        margin: 1rem 4rem 0 0;
+        background-image: url('R.images.gui.maps.icons.rankedBattles.league.widget_delta_minus');
+    }
+
+.RankedStat_arrow__smedium_52 .RankedStat_arrow__minus_e1 {
+        background: url('R.images.gui.maps.icons.rankedBattles.league.widget_delta_minus_small') no-repeat 50% / contain;
+    }
+
+@keyframes AnimatedBackground_raysAppearance_7c {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: 0.2;
+        transform: translateY(0);
+    }
+}
+@keyframes AnimatedBackground_rotate_fa {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes AnimatedBackground_reverse-rotate_cc {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes AnimatedBackground_slideUp_64 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes AnimatedBackground_fadeInWithScale_ae {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes AnimatedBackground_lockStartAnimation_d6 {
+    0% {
+        filter: blur(0);
+    }
+
+    100% {
+        filter: blur(4px);
+    }
+}
+@keyframes AnimatedBackground_lockEndAnimation_17 {
+    0% {
+        filter: blur(4px);
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+    }
+
+    100% {
+        filter: blur(24px);
+        opacity: 0;
+        transform: translateX(-50%) scale(1.7);
+    }
+}
+@keyframes AnimatedBackground_fadeIn_78 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes AnimatedBackground_fadeOut_50 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes AnimatedBackground_raysAppearance_7c {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: 0.2;
+        transform: translateY(0);
+    }
+}
+@keyframes AnimatedBackground_rotate_fa {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.AnimatedBackground_base_12 {
+    width: 900rem;
+    height: 900rem;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.mediaMedium .AnimatedBackground_base_12 {
+        width: 900rem;
+        height: 900rem;
+}
+.mediaLarge .AnimatedBackground_base_12 {
+        width: 1300rem;
+        height: 1300rem;
+}
+.mediaExtraLarge .AnimatedBackground_base_12 {
+        width: 1500rem;
+        height: 1500rem;
+}
+.AnimatedBackground_base_12.AnimatedBackground_widget_3d {
+        width: 170rem;
+        height: 170rem;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+.AnimatedBackground_base_12.AnimatedBackground_widget_3d .AnimatedBackground_rays_85 {
+            opacity: 1;
+            z-index: -1;
+        }
+.AnimatedBackground_base_12.AnimatedBackground_widget_3d .AnimatedBackground_sunShineCanvas_27,
+        .AnimatedBackground_base_12.AnimatedBackground_widget_3d .AnimatedBackground_staticHighlight_a8 {
+            width: 170rem;
+            height: 170rem;
+        }
+.AnimatedBackground_base_12.AnimatedBackground_widget__smedium_a0 {
+            width: 150rem;
+            height: 150rem;
+        }
+.AnimatedBackground_base_12.AnimatedBackground_widget__smedium_a0 .AnimatedBackground_sunShineCanvas_27,
+            .AnimatedBackground_base_12.AnimatedBackground_widget__smedium_a0 .AnimatedBackground_staticHighlight_a8 {
+                width: 150rem;
+                height: 150rem;
+            }
+.AnimatedBackground_animation_06 {
+    opacity: 0;
+    animation: AnimatedBackground_fadeIn_78 0.3s ease-in 1s forwards;
+}
+.AnimatedBackground_animation_06 .AnimatedBackground_rays_85 {
+        animation-delay: 1.8s, 2.2s;
+    }
+.AnimatedBackground_animation_06.AnimatedBackground_widget_3d {
+        opacity: 1;
+    }
+.AnimatedBackground_animation_06.AnimatedBackground_widget_3d .AnimatedBackground_rays_85 {
+            animation-name: AnimatedBackground_none_f0;
+        }
+.AnimatedBackground_rays_85 {
+    width: 100%;
+    height: 100%;
+    background: url('R.images.gui.maps.icons.rankedBattles.finalState.rays') no-repeat center / contain;
+    opacity: 0;
+    mix-blend-mode: additive;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: AnimatedBackground_raysAppearance_7c, AnimatedBackground_rotate_fa;
+    animation-duration: 1.5s, 120s;
+    animation-fill-mode: forwards, forwards;
+    animation-timing-function: cubic-bezier(.07, .82, .17, 1), linear;
+    animation-iteration-count: 1, infinite;
+}
+.AnimatedBackground_sunShineCanvas_27 {
+    width: 480rem;
+    height: 480rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.AnimatedBackground_staticHighlight_a8 {
+    width: 480rem;
+    height: 480rem;
+    background: url('R.images.gui.maps.icons.rankedBattles.finalState.highlight') no-repeat center / contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.RankedStatBattles_base_f2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    pointer-events: auto;
+}
+
+.RankedStatBattles_icon_c5 {
+    width: 42rem;
+    height: 42rem;
+    margin-top: -9rem;
+    background: no-repeat 50% / contain;
+    background-image: url('R.images.gui.maps.icons.rankedBattles.stats.c_42.widgetBattles');
+}
+
+.RankedStatBattles_icon__medium_f7 {
+        width: 52rem;
+        height: 52rem;
+        margin-top: -6rem;
+        background-image: url('R.images.gui.maps.icons.rankedBattles.stats.c_52.widgetBattles');
+    }
+
+.RankedStatBattles_value_1d {
+    color: #E9E2BF;
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-top: -9rem;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.46);
+}
+
+.RankedStatBattles_value__medium_34 {
+        color: #CED9D9;
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-top: -10rem;
+    }
+
+.League_base_18 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 332rem;
+    height: 160rem;
+    position: relative;
+    pointer-events: auto;
+}
+
+    .League_base__extraSmall_c7 {
+        width: 150rem;
+        height: 72rem;
+    }
+
+    .League_base__smedium_5e {
+        width: 284rem;
+        height: 136rem;
+    }
+
+    .League_base__medium_15 {
+        width: 332rem;
+        height: 160rem;
+    }
+
+    .League_base__b2_c9 {
+        width: 332rem;
+        height: 160rem;
+    }
+.League_wrapper_91 {
+    position: relative;
+}
+.League_icon_dd {
+    width: 100rem;
+    height: 100rem;
+    margin: 0 16rem;
+    background: no-repeat 50% / contain;
+    position: relative;
+    z-index: 1;
+}
+.League_base__small_30 .League_icon_dd,
+    .League_base__extraSmall_c7 .League_icon_dd {
+        width: 70rem;
+        height: 70rem;
+        margin: 0;
+    }
+.League_base__smedium_5e .League_icon_dd {
+        width: 70rem;
+        height: 70rem;
+        margin: 0 5rem;
+    }
+.League_base__b2_c9 .League_icon_dd {
+        width: 70rem;
+        height: 70rem;
+        margin: 0 5rem;
+    }
+
+.RankedWidget_base_9c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.RankedWidget_ranks_a7 {
+    display: flex;
+    justify-content: center;
+}
+
+.RankedWidget_ranks__b0_7d,
+    .RankedWidget_ranks__b1_fc {
+        margin-top: 122rem;
+    }
+
+.RankedWidget_ranks__b0__medium_db, .RankedWidget_ranks__b1__medium_57 {
+            margin-top: 72rem;
+    }
+
+.RankedWidget_ranks__b0__extraSmall_a9,
+    .RankedWidget_ranks__b0__small_45,
+    .RankedWidget_ranks__b1__extraSmall_1e,
+    .RankedWidget_ranks__b1__small_6c {
+            margin-top: 104rem;
+    }
+
+.RankedWidget_ranks__b2_f5 {
+        margin-top: -14rem;
+    }
+
+.RankedWidget_ranks__b2__medium_7e {
+            margin-top: -22rem;
+    }
+
+.RankedWidget_ranks__b2__extraSmall_ff,
+    .RankedWidget_ranks__b2__small_8d {
+            margin-top: 6rem;
+    }
+
+.RankedWidget_ranks__b3_77 {
+        margin-top: -10rem;
+    }
+
+.RankedWidget_ranks__b3__medium_29 {
+            margin-top: -28rem;
+    }
+
+.RankedWidget_ranks__b3__extraSmall_fb,
+    .RankedWidget_ranks__b3__small_cb {
+            margin-top: 0;
+    }
+
+.RankedWidget_ranks__b4_80 {
+        margin-top: -10rem;
+    }
+
+.RankedWidget_ranks__b4__medium_ff {
+            margin-top: -28rem;
+    }
+
+.RankedWidget_ranks__b4__extraSmall_f2,
+    .RankedWidget_ranks__b4__small_38 {
+            margin-top: 0;
+    }
+
+.RankedWidget_bonus_35 {
+    position: absolute;
+    bottom: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.RankedWidget_bonus__b0_8d,
+    .RankedWidget_bonus__b1_3d {
+        bottom: 319rem;
+    }
+
+.RankedWidget_bonus__b0__medium_68, .RankedWidget_bonus__b1__medium_80 {
+            bottom: 248rem;
+    }
+
+.RankedWidget_bonus__b0__extraSmall_78,
+    .RankedWidget_bonus__b0__small_bc,
+    .RankedWidget_bonus__b1__extraSmall_f0,
+    .RankedWidget_bonus__b1__small_d2 {
+            bottom: 194rem;
+    }
+
+.RankedWidget_bonus__b2_42 {
+        bottom: 115rem;
+    }
+
+.RankedWidget_bonus__b2__medium_ee {
+            display: none;
+    }
+
+.RankedWidget_bonus__b2__extraSmall_63,
+    .RankedWidget_bonus__b2__small_cb {
+            display: none;
+    }
+
+.RankedWidget_bonus__b3_83 {
+        bottom: 56rem;
+    }
+
+.RankedWidget_bonus__b3__medium_13 {
+            bottom: 44rem;
+    }
+
+.RankedWidget_bonus__b3__extraSmall_03,
+    .RankedWidget_bonus__b3__small_76 {
+            bottom: 36rem;
+    }
+
+.RankedWidget_bonus__b5__extraSmall_c8,
+    .RankedWidget_bonus__b5__small_c0 {
+            bottom: 13rem;
+    }
+
+.RankedWidget_bonus__b6__extraSmall_b1,
+    .RankedWidget_bonus__b6__small_08 {
+            bottom: 7rem;
+    }
+

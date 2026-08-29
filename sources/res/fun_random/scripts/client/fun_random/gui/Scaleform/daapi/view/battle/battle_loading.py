@@ -1,0 +1,13 @@
+from account_helpers.AccountSettings import FunRandomMaps
+from gui.Scaleform.daapi.view.battle.shared.battle_loading import BattleLoading
+from fun_random.gui.feature.util.fun_mixins import FunAccountSettingsHelper
+
+class FepBattleLoading(BattleLoading, FunAccountSettingsHelper):
+
+    def _populate(self):
+        super(FepBattleLoading, self)._populate()
+        self.setAccSetting(FunRandomMaps.FUN_RANDOM_LAST_SELECTED_MAP, self._arenaVisitor.type.getGeometryName())
+        return
+
+    def _getSettingsID(self, loadingInfo):
+        return self.settingsCore.options.getSetting(loadingInfo).getSettingID(isVisualOnly=True)

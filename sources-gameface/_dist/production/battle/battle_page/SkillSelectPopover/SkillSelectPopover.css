@@ -1,0 +1,509 @@
+.PopoverDecorator_base_ed {
+    display: flex;
+    position: absolute;
+}
+
+.PopoverDecorator_decorator_d3 {
+    padding: 58rem;
+    border-image-source: url('R.images.gui.maps.icons.popovers.popover_bg');
+    border-image-slice: 90 fill;
+    border-image-width: 90rem;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.PopoverDecorator_arrow_8a {
+    background: no-repeat 0 0 / contain;
+    position: absolute;
+}
+
+.PopoverDecorator_arrow__bottom_c3,
+    .PopoverDecorator_arrow__top_6e {
+        width: 301rem;
+        height: 90rem;
+        margin: 0 58rem;
+        background-image: url('R.images.gui.maps.icons.popovers.popover_arrow_top');
+        left: 50%;
+    }
+
+.PopoverDecorator_arrow__left_7a,
+    .PopoverDecorator_arrow__right_b6 {
+        width: 84rem;
+        height: 181rem;
+        margin: 58rem 0;
+        background-image: url('R.images.gui.maps.icons.popovers.popover_arrow_left');
+        top: 50%;
+    }
+
+.PopoverDecorator_arrow__left_7a {
+        right: 10rem;
+        transform: scaleX(-1) translateY(-90rem);
+    }
+
+.PopoverDecorator_arrow__right_b6 {
+        left: 10rem;
+        transform: translateY(-90rem);
+    }
+
+.PopoverDecorator_arrow__top_6e {
+        bottom: 8rem;
+        transform: scaleY(-1) translateX(-150rem);
+    }
+
+.PopoverDecorator_arrow__bottom_c3 {
+        top: 8rem;
+        transform: translateX(-150rem);
+    }
+
+.PopoverDecorator_closeBtn_32 {
+    width: 18rem;
+    height: 18rem;
+    background: url('R.images.gui.maps.icons.popovers.close_button_slim_up') no-repeat 0 0 / contain;
+    position: absolute;
+    top: 6rem;
+    right: 6rem;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.PopoverDecorator_closeBtn_32:hover {
+        filter: brightness(160%);
+    }
+
+.PopoverDecorator_closeBtn_32:active {
+        background-image: url('R.images.gui.maps.icons.popovers.close_button_slim_press');
+        filter: brightness(100%);
+    }
+
+.PopoverDecorator_content_f0 {
+    position: relative;
+    z-index: 2;
+}
+
+.Box_mt__XS_0c {
+            margin-top: 4rem;
+        }
+        .Box_mt__SM_eb {
+            margin-top: 8rem;
+        }
+        .Box_mt__SMp_cf {
+            margin-top: 10rem;
+        }
+        .Box_mt__MD_25 {
+            margin-top: 16rem;
+        }
+        .Box_mt__MDp_49 {
+            margin-top: 20rem;
+        }
+        .Box_mt__LG_e8 {
+            margin-top: 32rem;
+        }
+        .Box_mt__XL_83 {
+            margin-top: 64rem;
+        }
+
+.Box_mr__XS_7c {
+            margin-right: 4rem;
+        }
+
+.Box_mr__SM_08 {
+            margin-right: 8rem;
+        }
+
+.Box_mr__SMp_06 {
+            margin-right: 10rem;
+        }
+
+.Box_mr__MD_4a {
+            margin-right: 16rem;
+        }
+
+.Box_mr__MDp_b6 {
+            margin-right: 20rem;
+        }
+
+.Box_mr__LG_d0 {
+            margin-right: 32rem;
+        }
+
+.Box_mr__XL_db {
+            margin-right: 64rem;
+        }
+
+.Box_mb__XS_bb {
+            margin-bottom: 4rem;
+        }
+
+.Box_mb__SM_83 {
+            margin-bottom: 8rem;
+        }
+
+.Box_mb__SMp_04 {
+            margin-bottom: 10rem;
+        }
+
+.Box_mb__MD_ed {
+            margin-bottom: 16rem;
+        }
+
+.Box_mb__MDp_65 {
+            margin-bottom: 20rem;
+        }
+
+.Box_mb__LG_c8 {
+            margin-bottom: 32rem;
+        }
+
+.Box_mb__XL_f8 {
+            margin-bottom: 64rem;
+        }
+
+.Box_ml__XS_8a {
+            margin-left: 4rem;
+        }
+
+.Box_ml__SM_e6 {
+            margin-left: 8rem;
+        }
+
+.Box_ml__SMp_fb {
+            margin-left: 10rem;
+        }
+
+.Box_ml__MD_2b {
+            margin-left: 16rem;
+        }
+
+.Box_ml__MDp_c7 {
+            margin-left: 20rem;
+        }
+
+.Box_ml__LG_39 {
+            margin-left: 32rem;
+        }
+
+.Box_ml__XL_4a {
+            margin-left: 64rem;
+        }
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* eslint-disable-next-line expectedscss*/
+.Text_paragraph-P10_2c {
+        font-size: 10rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_paragraph-P12_22 {
+        font-size: 12rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P14_a7 {
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P16_90 {
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P18_50 {
+        font-size: 18rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P24_33 {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 32rem;
+}
+.Text_heading-H14_8b {
+        font-size: 14rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H15_9e {
+        font-size: 15rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H18_b7 {
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H20R_f6 {
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H22_27 {
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H24R_be {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H24_0c {
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H28_78 {
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H36_32 {
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H56_c3 {
+        font-size: 56rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H73_8f {
+        font-size: 73rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H144_a9 {
+        font-size: 144rem;
+        font-weight: 700;
+        line-height: 1;
+}
+.Text_BLACK_REAL_30 {
+        color: #000000;
+    }
+.Text_WHITE_REAL_bc {
+        color: #FFFFFF;
+    }
+.Text_WHITE_62 {
+        color: #F2F2F7;
+    }
+.Text_WHITE_ORANGE_54 {
+        color: #FEFEEC;
+    }
+.Text_WHITE_SPANISH_df {
+        color: #E9E2BF;
+    }
+.Text_PAR_15 {
+        color: #8C8C7E;
+    }
+.Text_PAR_SECONDARY_5d {
+        color: #595950;
+    }
+.Text_PAR_TERTIARY_c9 {
+        color: #37362E;
+    }
+.Text_INFO_RED_30 {
+        color: #FF0000;
+    }
+.Text_RED_66 {
+        color: #FF2717;
+    }
+.Text_RED_DARK_d8 {
+        color: #B70000;
+    }
+.Text_YELLOW_ed {
+        color: #FEAB34;
+    }
+.Text_ORANGE_be {
+        color: #EE7000;
+    }
+.Text_CREAM_57 {
+        color: #FFDD99;
+    }
+.Text_BROWN_18 {
+        color: #CBAC77;
+    }
+.Text_GREEN_BRIGHT_3f {
+        color: #80D43A;
+    }
+.Text_GREEN_e3 {
+        color: #7AB300;
+    }
+.Text_GREEN_DARK_f1 {
+        color: #497212;
+    }
+.Text_BLUE_BOOSTER_21 {
+        color: #CCFFFF;
+    }
+.Text_BLUE_TEAMKILLER_ab {
+        color: #09E2FF;
+    }
+.Text_CRED_f7 {
+        color: #CED9D9;
+    }
+.Text_GOLD_28 {
+        color: #FFC363;
+    }
+.Text_BOND_be {
+        color: #C9C9B6;
+    }
+.Text_PROM_65 {
+        color: #A29B70;
+    }
+
+.App_base_fd {
+    display: flex;
+    flex-direction: column;
+    width: 300rem;
+    height: 100%;
+    opacity: 1;
+    transition: all 150ms ease-out;
+}
+
+    .App_base__hidden_15 {
+        opacity: 0;
+    }
+
+.App_header_2d {
+    padding: 16rem 25rem;
+}
+
+.App_headerText_43 {
+    color: #E9E2BF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.App_skills_05 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32rem;
+}
+
+.App_skillsItems_8e {
+    z-index: 2;
+}
+
+.App_skillsShadow_68 {
+    width: 100%;
+    height: 80rem;
+    border-image: url('R.images.gui.maps.icons.tanksetup.popover.divider') 0 fill;
+    position: absolute;
+}
+
+.App_skillsShadow__top_e0 {
+        top: 10rem;
+    }
+
+.App_skillsShadow__bottom_40 {
+        bottom: -60rem;
+        transform: rotate(180deg);
+    }
+
+.RoleSkill_base_f9 {
+    position: relative;
+    cursor: pointer;
+}
+
+    .RoleSkill_base_f9:last-child .RoleSkill_dividerWrapper_23 {
+            display: none;
+        }
+.RoleSkill_bg_84 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0, 0) 0%, #000000 20%, #000000 80%, rgba(0,0,0, 0) 100%);
+    opacity: 0.1;
+    position: absolute;
+}
+.RoleSkill_bg__hover_ed {
+        background: linear-gradient(90deg, rgba(0,0,0, 0) 0%, #F2F2F7 20%, #F2F2F7 80%, rgba(0,0,0, 0) 100%);
+        opacity: 0.03;
+    }
+.RoleSkill_bg__selected_62 {
+        background: linear-gradient(90deg, rgba(229, 92, 23, 0.2) 0%, rgba(127, 51, 13, 0.1) 100%), linear-gradient(90deg, rgba(0,0,0, 0.1) 0%, rgba(0,0,0, 0.1) 20%, rgba(0,0,0, 0.1) 80%, rgba(0,0,0, 0) 100%);
+        opacity: 1;
+        z-index: 1;
+    }
+.RoleSkill_bg__selected__hover_6e {
+            background: linear-gradient(90deg, rgba(229, 92, 23, 0.2) 0%, rgba(127, 51, 13, 0.1) 100%), linear-gradient(90deg, rgba(242,242,247, 0.03) 0%, rgba(242,242,247, 0.03) 20%, rgba(242,242,247, 0.03) 80%, rgba(242,242,247, 0.03) 100%);
+        }
+.RoleSkill_bgEquipped_81 {
+    width: 160rem;
+    height: 72rem;
+    background: url('R.images.gui.maps.icons.tanksetup.popover.slot_glow') 50% / cover no-repeat;
+    position: absolute;
+    top: -4rem;
+    left: 2rem;
+    z-index: 2;
+    animation: RoleSkill_fadeIn_bd 0.15s ease-out 0s forwards;
+}
+.RoleSkill_dividerWrapper_23 {
+    width: 100%;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0;
+}
+.RoleSkill_dividerTop_cc {
+    height: 1rem;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #000 20%, #000 80%, rgba(0, 0, 0, 0) 100%);
+}
+.RoleSkill_dividerBottom_be {
+    height: 1rem;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #fff 20%, #fff 80%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.05;
+}
+.RoleSkill_wrapper_7b {
+    display: flex;
+    align-items: center;
+    padding: 8rem 23rem;
+    position: relative;
+    z-index: 3;
+}
+.RoleSkill_imageWrapper_04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54rem;
+    height: 54rem;
+    border-radius: 2rem;
+    background: rgba(0, 0, 0, 0.6);
+}
+.RoleSkill_imageWrapper__equipped_30 {
+        border-image-source: url('R.images.gui.maps.icons.tanksetup.panel.border_activeRoleSkill');
+        border-image-slice: 0 fill;
+        border-image-outset: 4rem;
+        animation: RoleSkill_fadeIn_bd 0.15s ease-out 0s forwards;
+    }
+.RoleSkill_image_28 {
+    width: 48rem;
+    height: 48rem;
+    background: no-repeat center / contain;
+    position: absolute;
+    left: 26rem;
+}
+.RoleSkill_text_85 {
+    color: #8C8C7E;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+    padding-left: 10rem;
+}
+.RoleSkill_text__equipped_6c {
+        color: #CBAC77;
+    }
+@keyframes RoleSkill_fadeIn_bd {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+

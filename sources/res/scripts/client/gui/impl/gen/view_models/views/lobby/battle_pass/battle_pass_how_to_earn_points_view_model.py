@@ -1,0 +1,43 @@
+from frameworks.wulf import Array
+from frameworks.wulf import ViewModel
+from gui.impl.gen.view_models.views.lobby.battle_pass.game_mode_model import GameModeModel
+
+class BattlePassHowToEarnPointsViewModel(ViewModel):
+    __slots__ = (b'onLinkClick',)
+
+    def __init__(self, properties=3, commands=1):
+        super(BattlePassHowToEarnPointsViewModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getSyncInitiator(self):
+        return self._getNumber(0)
+
+    def setSyncInitiator(self, value):
+        self._setNumber(0, value)
+        return
+
+    def getChapterID(self):
+        return self._getNumber(1)
+
+    def setChapterID(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getGameModes(self):
+        return self._getArray(2)
+
+    def setGameModes(self, value):
+        self._setArray(2, value)
+        return
+
+    @staticmethod
+    def getGameModesType():
+        return GameModeModel
+
+    def _initialize(self):
+        super(BattlePassHowToEarnPointsViewModel, self)._initialize()
+        self._addNumberProperty(b'syncInitiator', 0)
+        self._addNumberProperty(b'chapterID', 0)
+        self._addArrayProperty(b'gameModes', Array())
+        self.onLinkClick = self._addCommand(b'onLinkClick')
+        return

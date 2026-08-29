@@ -1,0 +1,123 @@
+import logging, BigWorld, Windowing
+from CurrentVehicle import g_currentVehicle
+from armory_yard.gui.Scaleform.daapi.view.lobby.hangar.sound_constants import ARMORY_YARD_REWARD_VIDEO_SOUND_SPACE
+from armory_yard.gui.Scaleform.daapi.view.lobby.hangar.sounds import ArmoryYardRewardVideoSoundControl
+from helpers import dependency
+from frameworks.wulf import ViewFlags, ViewSettings, WindowFlags, WindowLayer
+from gui.impl.gen import R
+from armory_yard.gui.impl.gen.view_models.views.lobby.feature.armory_yard_video_reward_view_model import ArmoryYardVideoRewardViewModel
+from gui.impl.pub import ViewImpl
+from gui.impl.pub.lobby_window import LobbyWindow
+from skeletons.gui.shared import IItemsCache
+from gui.shared.event_dispatcher import showHangar
+from gui.shared import g_eventBus
+from gui.shared.events import ArmoryYardEvent
+from items.vehicles import getVehicleClassFromVehicleType
+_logger = logging.getLogger(__name__)
+
+class ArmoryYardVideoRewardView(ViewImpl):
+    __slots__ = (b'__vehicle', b'__soundControl')
+    __itemsCache = dependency.descriptor(IItemsCache)
+    _COMMON_SOUND_SPACE = ARMORY_YARD_REWARD_VIDEO_SOUND_SPACE
+    __LOW_QUALITY_PRESETS = (b'LOW', b'MIN')
+    __LOW_VIDEO = b'video_reward_min'
+    __DEFAULT_VIDEO = b'video_reward'
+
+    def __init__(self, layoutID, vehicle):
+        settings = ViewSettings(layoutID)
+        settings.flags = ViewFlags.VIEW
+        settings.model = ArmoryYardVideoRewardViewModel()
+        super(ArmoryYardVideoRewardView, self).__init__(settings)
+        self.__vehicle = vehicle
+        self.__soundControl = ArmoryYardRewardVideoSoundControl()
+        BigWorld.worldDrawEnabled(False)
+        return
+
+    def _finalize(self):
+        BigWorld.worldDrawEnabled(True)
+        Windowing.removeWindowAccessibilityHandler(self.__onWindowAccessibilityChanged)
+        self.__soundControl.stop()
+        super(ArmoryYardVideoRewardView, self)._finalize()
+        return
+
+    @property
+    def viewModel(self):
+        return super(ArmoryYardVideoRewardView, self).getViewModel()
+
+    def _onLoading(self, *args, **kwargs):
+        super(ArmoryYardVideoRewardView, self)._onLoading(*args, **kwargs)
+        g_eventBus.handleEvent(ArmoryYardEvent(ArmoryYardEvent.STAGE_MUTE_SOUND))
+        with self.viewModel.transaction() as vm:
+            vm.setVehicleName(self.__vehicle.userName)
+            vm.setVehicleLvl(self.__vehicle.level)
+            vm.setVehicleType(getVehicleClassFromVehicleType(self.__vehicle.descriptor.type))
+            vm.setIsElite(self.__vehicle.isElite)
+            vm.setIsWindowAccessible(Windowing.isWindowAccessible())
+            vm.setVideoName(self.__getVideoNameByPreset())
+        Windowing.addWindowAccessibilitynHandler(self.__onWindowAccessibilityChanged)
+        return
+
+    def _getEvents(self):
+        return (
+         (
+          self.viewModel.onClose, self.__onClose),
+         (
+          self.viewModel.onError, self.__onError),
+         (
+          self.viewModel.onShowVehicle, self.__onShowVehicle),
+         (
+          self.viewModel.onVideoStarted, self.__onVideoStarted))
+
+    def __getVideoNameByPreset(self):
+        presetIndx = BigWorld.detectGraphicsPresetFromSystemSettings()
+        lowPresets = [BigWorld.getSystemPerformancePresetIdFromName(pName) for pName in self.__LOW_QUALITY_PRESETS]
+        if presetIndx in lowPresets:
+            return self.__LOW_VIDEO
+        return self.__DEFAULT_VIDEO
+
+    def __onShowVehicle(self):
+        vehicle = self.__itemsCache.items.getItemByCD(self.__vehicle.intCD)
+        if vehicle.isInInventory:
+            showHangar()
+            g_currentVehicle.selectVehicle(vehicle.invID)
+            self.destroyWindow()
+        return
+
+    def __onClose(self):
+        g_eventBus.handleEvent(ArmoryYardEvent(ArmoryYardEvent.STAGE_UNMUTE_SOUND))
+        self.destroyWindow()
+        return
+
+    def __onError(self, args):
+        errorFilePath = str(args.get(b'errorFilePath', b''))
+        _logger.error(b'Reward video error: %s', errorFilePath)
+        self.destroyWindow()
+        return
+
+    def __onVideoStarted(self):
+        if self.__soundControl.isVideoStarted():
+            return
+        self.__soundControl.start()
+        if not Windowing.isWindowAccessible():
+            self.__soundControl.pause()
+        return
+
+    def __onWindowAccessibilityChanged(self, isWindowAccessible):
+        if not self.__soundControl.isVideoStarted():
+            self.__onVideoStarted()
+            self.viewModel.setIsWindowAccessible(isWindowAccessible)
+            return
+        if isWindowAccessible:
+            self.__soundControl.unpause()
+        else:
+            self.__soundControl.pause()
+        self.viewModel.setIsWindowAccessible(isWindowAccessible)
+        return
+
+
+class ArmoryYardVideoRewardWindow(LobbyWindow):
+    __slots__ = ()
+
+    def __init__(self, vehicle, parent=None):
+        super(ArmoryYardVideoRewardWindow, self).__init__(wndFlags=WindowFlags.WINDOW | WindowFlags.WINDOW_FULLSCREEN, content=ArmoryYardVideoRewardView(R.views.armory_yard.lobby.feature.ArmoryYardVideoRewardView(), vehicle=vehicle), parent=parent, layer=WindowLayer.OVERLAY)
+        return

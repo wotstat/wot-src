@@ -1,0 +1,17 @@
+from gui.Scaleform.framework.entities.BaseDAAPIComponent import BaseDAAPIComponent
+
+class QuestsContentTabsMeta(BaseDAAPIComponent):
+
+    def onSelectTab(self, id):
+        self._printOverrideError(b'onSelectTab')
+        return
+
+    def as_selectTabS(self, index):
+        if self._isDAAPIInited():
+            return self.flashObject.as_selectTab(index)
+        return
+
+    def as_setTabsS(self, data):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setTabs(data)
+        return

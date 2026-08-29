@@ -1,0 +1,232 @@
+from client_request_lib.exceptions import ResponseCodes
+from gui import makeHtmlString
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.shared.formatters.text_styles import standard as standard_text_style, alert as alert_text_style
+from helpers.i18n import doesTextExist, makeString
+from gui.clientgw.settings import WebRequestDataType as REQUEST_TYPE
+from gui.clans.settings import getClanRoleName
+ERROR_SYS_MSG_TPL = b'#system_messages:clans/request/errors/%s'
+DUMMY_UNAVAILABLE_DATA = b'--'
+DUMMY_NULL_DATA = b'--'
+
+def _makeHtmlString(style, ctx=None):
+    if ctx is None:
+        ctx = {}
+    return makeHtmlString(b'html_templates:lobby/clans', style, ctx)
+
+
+def getHtmlLineDivider(margin=3):
+    return _makeHtmlString(b'lineDivider', {b'margin': margin})
+
+
+def formatInvitesCount(count):
+    if count is None:
+        count = DUMMY_UNAVAILABLE_DATA
+    elif count <= 999:
+        count = str(count)
+    elif count <= 99999:
+        count = (b'{}K').format(int(count / 1000))
+    else:
+        count = b'99K+'
+    return count
+
+
+def formatDataToString(data):
+    if data is None:
+        return DUMMY_UNAVAILABLE_DATA
+    else:
+        return str(data)
+
+
+def formatShortDateShortTimeString(timestamp):
+    return str(b' ').join((
+     backport.getShortDateFormat(timestamp), b'  ', backport.getShortTimeFormat(timestamp)))
+
+
+_CUSTOM_ERR_MESSAGES_BY_REQUEST = {(REQUEST_TYPE.CREATE_INVITES): (lambda result, ctx: b'')}
+_CUSTOM_ERR_MESSAGES = {(REQUEST_TYPE.CLAN_GLOBAL_MAP_STATS, ResponseCodes.GLOBAL_MAP_ERROR): b'', 
+   (REQUEST_TYPE.CLAN_RATINGS, ResponseCodes.WGRS_ERROR): b'', 
+   (REQUEST_TYPE.CLAN_GLOBAL_MAP_STATS, ResponseCodes.CLAN_DOES_NOT_EXIST): b'', 
+   (REQUEST_TYPE.CLAN_INFO, ResponseCodes.WGCCBE_ERROR): b'', 
+   (REQUEST_TYPE.CLAN_APPLICATIONS, ResponseCodes.WGCCBE_ERROR): b'', 
+   (REQUEST_TYPE.CLAN_INVITES, ResponseCodes.WGCCBE_ERROR): b'', 
+   (REQUEST_TYPE.ACCOUNT_INVITES, ResponseCodes.WGCCBE_ERROR): b'', 
+   (REQUEST_TYPE.CLAN_ACCOUNTS, ResponseCodes.WGCCBE_ERROR): b'', 
+   (REQUEST_TYPE.ACCEPT_INVITE, ResponseCodes.CLAN_IN_TRANSACTION): b'DEFAULT', 
+   (REQUEST_TYPE.DECLINE_INVITE, ResponseCodes.CLAN_IN_TRANSACTION): b'DEFAULT', 
+   (REQUEST_TYPE.DECLINE_INVITES, ResponseCodes.CLAN_IN_TRANSACTION): b'DEFAULT', 
+   (REQUEST_TYPE.ACCEPT_APPLICATION, ResponseCodes.CLAN_IN_TRANSACTION): b'DEFAULT', 
+   (REQUEST_TYPE.DECLINE_APPLICATION, ResponseCodes.CLAN_IN_TRANSACTION): b'DEFAULT'}
+
+def getRequestErrorMsg(result, ctx):
+    msgReqKey = ctx.getRequestType()
+    msgKey = (msgReqKey, result.code)
+    if msgKey in _CUSTOM_ERR_MESSAGES:
+        errorMsg = _CUSTOM_ERR_MESSAGES[msgKey]
+    elif msgReqKey in _CUSTOM_ERR_MESSAGES_BY_REQUEST:
+        errorMsg = _CUSTOM_ERR_MESSAGES_BY_REQUEST[msgReqKey]
+    else:
+        errorMsg = result.txtStr
+    msg = b''
+    if callable(errorMsg):
+        msg = errorMsg(result, ctx)
+    else:
+        key = ERROR_SYS_MSG_TPL % errorMsg
+        if doesTextExist(key):
+            msg = makeString(key)
+    return msg
+
+
+def getRequestUserName(rqTypeID):
+    return _sysMsg(b'clan/request/name/%s' % REQUEST_TYPE.getKeyByValue(rqTypeID))
+
+
+def getClanRoleString(position):
+    roleStr = getClanRoleName(position)
+    if roleStr is not None:
+        return backport.text(R.strings.menu.profile.header.clan.position.dyn(roleStr)())
+    else:
+        return b''
+
+
+def getClanRoleIcon(role):
+    roleStr = getClanRoleName(role)
+    if roleStr is not None:
+        return b'../maps/icons/clans/roles/%s.png' % roleStr
+    else:
+        return b''
+
+
+def getClanAbbrevString(clanAbbrev):
+    return (b'[{0:>s}]').format(clanAbbrev)
+
+
+def getClanFullName(clanName, clanAbbrev):
+    return (b'{} {}').format(getClanAbbrevString(clanAbbrev), clanName)
+
+
+def getAppSentSysMsg(clanName, clanAbbrev):
+    return _sysMsg(b'clans/notifications/requestSent', clanName=getClanFullName(clanName, clanAbbrev))
+
+
+def getInviteNotSentSysMsg(accountName, specKey=None):
+    key = specKey or b'clans/notifications/inviteSendError'
+    return _sysMsg(key, userName=accountName)
+
+
+def getInvitesNotSentSysMsg(accountNames):
+    return _formatMsg(accountNames, b'clans/notifications/inviteSendError', b'clans/notifications/invitesSendError')
+
+
+def getInvitesSentSysMsg(accountNames):
+    return _formatMsg(accountNames, b'clans/notifications/inviteSent', b'clans/notifications/invitesSent')
+
+
+def _formatMsg(items, singleKey, multiKey):
+    count = len(items)
+    if count == 1:
+        msg = _sysMsg(singleKey, userName=items[0])
+    else:
+        msg = _sysMsg(multiKey, userCount=count)
+    return msg
+
+
+def _sysMsg(i18nKey, *args, **kwargs):
+    return makeString((b'#system_messages:%s' % i18nKey), *args, **kwargs)
+
+
+class _BaseClanAppHtmlTextFormatter(object):
+
+    def __init__(self, titleKey, commentKey):
+        super(_BaseClanAppHtmlTextFormatter, self).__init__()
+        self._commentKey = commentKey
+        self._titleKey = titleKey
+        return
+
+    def getText(self, entity):
+        result = []
+        text = self.getTitle(entity)
+        if text:
+            result.append(text)
+        text = self.getComment(entity)
+        if text:
+            result.append(text)
+        return (b'').join(result)
+
+    def getTitle(self, entity):
+        return makeHtmlString(b'html_templates:lobby/clans', self._titleKey, {b'appsCount': entity})
+
+    def getComment(self, entity):
+        return makeHtmlString(b'html_templates:lobby/clans', self._commentKey)
+
+
+class ClanMultiNotificationsHtmlTextFormatter(_BaseClanAppHtmlTextFormatter):
+
+    def __init__(self, titleKey, commentKey, commentAction):
+        self.__commentAction = commentAction
+        super(ClanMultiNotificationsHtmlTextFormatter, self).__init__(titleKey, commentKey)
+        return
+
+    def getTitle(self, entity):
+        return makeHtmlString(b'html_templates:lobby/clans', self._titleKey, {b'appsCount': entity})
+
+    def getComment(self, entity):
+        return makeHtmlString(b'html_templates:lobby/clans', self._commentKey) % {b'eventType': (self.__commentAction)}
+
+
+class ClanSingleNotificationHtmlTextFormatter(_BaseClanAppHtmlTextFormatter):
+
+    def __init__(self, titleKey, commentKey, commentAction):
+        self.__commentAction = commentAction
+        super(ClanSingleNotificationHtmlTextFormatter, self).__init__(titleKey, commentKey)
+        return
+
+    def getTitle(self, uName):
+        return makeHtmlString(b'html_templates:lobby/clans', self._titleKey, {b'name': uName})
+
+    def getComment(self, _):
+        return makeHtmlString(b'html_templates:lobby/clans', self._commentKey) % {b'eventType': (self.__commentAction)}
+
+    def getText(self, data):
+        userName, state, isWarning = data
+        text = super(ClanSingleNotificationHtmlTextFormatter, self).getText(userName)
+        stateTxt = self._getStateText(state, isWarning)
+        if stateTxt:
+            text += stateTxt
+        return text
+
+    def _getStateText(self, state, isWarning):
+        if not doesTextExist(state):
+            return b''
+        stateStr = makeString(state)
+        if stateStr:
+            if isWarning:
+                stateStr = b'<br/><br/>%s' % alert_text_style(stateStr)
+            else:
+                stateStr = b'<br/><br/>%s' % standard_text_style(stateStr)
+        return stateStr
+
+
+class ClanAppActionHtmlTextFormatter(object):
+
+    def __init__(self, actType):
+        super(ClanAppActionHtmlTextFormatter, self).__init__()
+        self.__actType = actType
+        return
+
+    def getTitle(self):
+        return b''
+
+    def getComment(self, clanName):
+        return makeHtmlString(b'html_templates:lobby/clans/', self.__actType, ctx={b'name': clanName})
+
+    def getText(self, clanName):
+        result = []
+        text = self.getTitle()
+        if text:
+            result.append(text)
+        text = self.getComment(clanName)
+        if text:
+            result.append(text)
+        return (b'').join(result)

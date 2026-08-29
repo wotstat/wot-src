@@ -1,0 +1,151 @@
+import account_helpers
+from constants import PREBATTLE_TYPE, QUEUE_TYPE
+from gui.prb_control.entities.epic.squad.actions_handler import EpicSquadActionsHandler
+from gui.prb_control.entities.epic.squad.components import RestrictedFlamethrowerDataProvider, RestrictedSPGDataProvider
+from gui.prb_control.entities.epic.squad.actions_validator import EpicSquadActionsValidator
+from gui.prb_control.entities.base.squad.entity import SquadEntryPoint, SquadEntity
+from gui.prb_control.settings import PREBATTLE_ACTION_NAME, FUNCTIONAL_FLAG
+from gui.prb_control.entities.base.squad.ctx import SquadSettingsCtx
+from helpers import dependency
+from gui.shared.gui_items.Vehicle import VEHICLE_CLASS_NAME
+from skeletons.gui.game_control import IEpicBattleMetaGameController
+from skeletons.gui.server_events import IEventsCache
+from skeletons.gui.lobby_context import ILobbyContext
+from gui.ClientUpdateManager import g_clientUpdateManager
+from gui.prb_control.storages import prequeue_storage_getter
+from gui.prb_control.entities.epic.pre_queue.vehicles_watcher import EpicVehiclesWatcher
+
+class EpicSquadEntryPoint(SquadEntryPoint):
+
+    def __init__(self, accountsToInvite=None):
+        super(EpicSquadEntryPoint, self).__init__(FUNCTIONAL_FLAG.EPIC, accountsToInvite)
+        return
+
+    def makeDefCtx(self):
+        return SquadSettingsCtx(PREBATTLE_TYPE.EPIC, waitingID=b'prebattle/create', accountsToInvite=self._accountsToInvite)
+
+    def _doCreate(self, unitMgr, ctx):
+        unitMgr.createEpicSquad()
+        return
+
+
+class EpicSquadEntity(SquadEntity):
+    eventsCache = dependency.descriptor(IEventsCache)
+    lobbyContext = dependency.descriptor(ILobbyContext)
+    epicController = dependency.descriptor(IEpicBattleMetaGameController)
+
+    def __init__(self):
+        self._isBalancedSquad = False
+        self._isUseSPGValidateRule = True
+        self.__watcher = None
+        self.storage = prequeue_storage_getter(QUEUE_TYPE.EPIC)()
+        self.__restrictedFlamethrowerDataProvider = RestrictedFlamethrowerDataProvider()
+        self.__restrictedSPGDataProvider = RestrictedSPGDataProvider()
+        super(EpicSquadEntity, self).__init__(FUNCTIONAL_FLAG.EPIC, PREBATTLE_TYPE.EPIC)
+        return
+
+    def init(self, ctx=None):
+        self.__restrictedSPGDataProvider.init(self)
+        self.__restrictedFlamethrowerDataProvider.init(self)
+        self.storage.release()
+        epicSquadEntity = super(EpicSquadEntity, self).init(ctx)
+        self.lobbyContext.getServerSettings().onServerSettingsChange += self._onServerSettingChanged
+        self.eventsCache.onSyncCompleted += self._onServerSettingChanged
+        g_clientUpdateManager.addCallbacks({b'inventory.1': (self._onInventoryVehiclesUpdated)})
+        self.__watcher = EpicVehiclesWatcher()
+        self.__watcher.start()
+        return epicSquadEntity
+
+    def fini(self, ctx=None, woEvents=False):
+        self.lobbyContext.getServerSettings().onServerSettingsChange -= self._onServerSettingChanged
+        self.eventsCache.onSyncCompleted -= self._onServerSettingChanged
+        g_clientUpdateManager.removeObjectCallbacks(self, force=True)
+        self._isUseSPGValidateRule = False
+        if self.__watcher is not None:
+            self.__watcher.stop()
+            self.__watcher = None
+        self.__restrictedFlamethrowerDataProvider.fini()
+        self.__restrictedSPGDataProvider.fini()
+        self.invalidateVehicleStates()
+        return super(EpicSquadEntity, self).fini(ctx=ctx, woEvents=woEvents)
+
+    def leave(self, ctx, callback=None):
+        if ctx.hasFlags(FUNCTIONAL_FLAG.SWITCH):
+            self.storage.suspend()
+        super(EpicSquadEntity, self).leave(ctx, callback)
+        return
+
+    def getQueueType(self):
+        return QUEUE_TYPE.EPIC
+
+    def getConfirmDialogMeta(self, ctx):
+        if not self.epicController.isEnabled():
+            return None
+        else:
+            return super(EpicSquadEntity, self).getConfirmDialogMeta(ctx)
+
+    @property
+    def _showUnitActionNames(self):
+        return (PREBATTLE_ACTION_NAME.SQUAD,)
+
+    def getMaxSPGCount(self):
+        return self.__restrictedSPGDataProvider.getMaxPossibleVehicles()
+
+    def hasSlotForSPG(self):
+        return self.__restrictedSPGDataProvider.hasSlotForVehicle()
+
+    def hasSlotForFlamethrower(self):
+        return self.__restrictedFlamethrowerDataProvider.hasSlotForVehicle()
+
+    def unit_onUnitVehiclesChanged(self, dbID, unitVehicles):
+        super(EpicSquadEntity, self).unit_onUnitVehiclesChanged(dbID, unitVehicles)
+        self._onUnitMemberVehiclesChanged(dbID)
+        return
+
+    def unit_onUnitVehicleChanged(self, dbID, vehInvID, vehTypeCD):
+        super(EpicSquadEntity, self).unit_onUnitVehicleChanged(dbID, vehInvID, vehTypeCD)
+        self._onUnitMemberVehiclesChanged(dbID)
+        return
+
+    def unit_onUnitPlayerRoleChanged(self, playerID, prevRoleFlags, nextRoleFlags):
+        super(EpicSquadEntity, self).unit_onUnitPlayerRoleChanged(playerID, prevRoleFlags, nextRoleFlags)
+        if playerID == account_helpers.getAccountDatabaseID():
+            self.unit_onUnitRosterChanged()
+        return
+
+    def unit_onUnitPlayerRemoved(self, playerID, playerData):
+        super(EpicSquadEntity, self).unit_onUnitPlayerRemoved(playerID, playerData)
+        if playerID == account_helpers.getAccountDatabaseID():
+            self.unit_onUnitRosterChanged()
+        return
+
+    def _createActionsHandler(self):
+        return EpicSquadActionsHandler(self)
+
+    def _createActionsValidator(self):
+        return EpicSquadActionsValidator(self)
+
+    def _vehicleStateCondition(self, v):
+        state, _ = v.getState()
+        if state == v.VEHICLE_STATE.UNSUITABLE_TO_QUEUE:
+            return super(EpicSquadEntity, self)._vehicleStateCondition(v)
+        if v.isFlamethrower and not self.hasSlotForFlamethrower():
+            return self.__restrictedFlamethrowerDataProvider.isTagVehicleAvailable()
+        if v.type == VEHICLE_CLASS_NAME.SPG and not self.hasSlotForSPG():
+            return self.__restrictedSPGDataProvider.isTagVehicleAvailable()
+        return super(EpicSquadEntity, self)._vehicleStateCondition(v)
+
+    def _onServerSettingChanged(self, *args, **kwargs):
+        self._switchActionsValidator()
+        self.unit_onUnitRosterChanged()
+        return
+
+    def _onInventoryVehiclesUpdated(self, diff):
+        self.invalidateVehicleStates()
+        return
+
+    def _onUnitMemberVehiclesChanged(self, accountDBID):
+        self.invalidateVehicleStates()
+        if accountDBID != account_helpers.getAccountDatabaseID():
+            self.unit_onUnitRosterChanged()
+        return

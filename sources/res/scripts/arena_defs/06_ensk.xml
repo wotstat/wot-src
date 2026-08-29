@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:06_ensk/name</name>
+	<description>#arenas:06_ensk/description</description>
+	<geometry>spaces/06_ensk</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-300 -300</bottomLeft>
+		<upperRight>300 300</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/06_ensk/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<defaultGroundEffect>None</defaultGroundEffect>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_ensk_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_ensk_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_ensk_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_ensk_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_ensk_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_ensk_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_autumn_01</wwambientSound>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>20.2999363 249.699921</position1>
+				</team1>
+				<team2>
+					<position1>19.0999012 -248.700485</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>18.6987133 262.11496</position>
+				</team1>
+				<team2>
+					<position>28.9510784 -264.862366</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-82.7687454 0.675795972</controlPoint>
+		</domination>
+		<maps_training>
+			<teamBasePositions>
+				<team1>
+					<position1>20.2999363 249.699921</position1>
+				</team1>
+				<team2>
+					<position1>19.0999012 -248.700485</position1>
+				</team2>
+			</teamBasePositions>
+		</maps_training>
+		<comp7>
+			<teamSpawnPoints>
+				<team1>
+					<position>38.1679993 270.42099</position>
+				</team1>
+				<team2>
+					<position>77.9430008 -265.811005</position>
+				</team2>
+			</teamSpawnPoints>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<minimap>spaces/06_ensk/mmap_comp7.dds</minimap>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-186.742996 -37.1990013</position>
+					<type>1</type>
+				</point>
+				<point>
+					<position>140.024994 9.9829998</position>
+					<type>1</type>
+				</point>
+				<point>
+					<position>-83.4461823 0.616429985</position>
+					<type>2</type>
+				</point>
+			</pointsOfInterestUDO>
+			<controlPoint>5.8730011 10.1809998</controlPoint>
+		</comp7>
+		<bob>
+			<teamSpawnPoints>
+				<team1>
+					<position>37.6086082 262.512604</position>
+				</team1>
+				<team2>
+					<position>77.6488495 -256.898834</position>
+				</team2>
+			</teamSpawnPoints>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<minimap>spaces/06_ensk/mmap_comp7.dds</minimap>
+			<controlPoint>5.8730011 10.1809998</controlPoint>
+		</bob>
+	</gameplayTypes>
+	<mapActivities>
+		<scenario>
+			<startTime>15 15</startTime>
+			<possibility>100</possibility>
+			<interval>0</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>ensk_airplane</name>
+			<trajectories>
+				<warplane>
+					<preset>ensk_airplane_fly</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+	</mapActivities>
+</root>

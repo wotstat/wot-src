@@ -1,0 +1,32 @@
+from frameworks.wulf import ViewSettings
+from frameworks.wulf.view.array import fillStringsArray
+from gui.impl.gen.view_models.views.lobby.paragons.tooltips.selected_rewards_tooltip_model import SelectedRewardsTooltipModel
+from gui.impl.pub import ViewImpl
+from skeletons.gui.shared import IItemsCache
+from helpers import dependency
+
+class SelectedRewardsTooltip(ViewImpl):
+    __slots__ = (b'__selectedCDs',)
+    __itemsCache = dependency.descriptor(IItemsCache)
+
+    def __init__(self, selectedCDs, layoutID):
+        settings = ViewSettings(layoutID)
+        settings.model = SelectedRewardsTooltipModel()
+        self.__selectedCDs = selectedCDs or []
+        super(SelectedRewardsTooltip, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return super(SelectedRewardsTooltip, self).getViewModel()
+
+    def _onLoading(self, *args, **kwargs):
+        with self.viewModel.transaction() as tx:
+            rewardsModel = tx.getSelectedRewards()
+            selectedVehicles = [self.__getVehicleName(int(vehCD)) for vehCD in self.__selectedCDs]
+            fillStringsArray(selectedVehicles, rewardsModel)
+        return
+
+    def __getVehicleName(self, vehCD):
+        vehicle = self.__itemsCache.items.getItemByCD(vehCD)
+        return vehicle.shortUserName

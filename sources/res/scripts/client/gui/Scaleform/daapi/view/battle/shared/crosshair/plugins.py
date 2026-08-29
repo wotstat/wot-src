@@ -1,0 +1,2364 @@
+import logging, typing, math, BattleReplay, BigWorld, SoundGroups
+from collections import defaultdict, namedtuple
+from enum import IntEnum
+from AvatarInputHandler import gun_marker_ctrl, aih_global_binding
+from AvatarInputHandler.spg_marker_helpers.spg_marker_helpers import SPGShotResultEnum
+from PlayerEvents import g_playerEvents
+from ReplayEvents import g_replayEvents
+from Vehicle import Vehicle
+from account_helpers.settings_core.settings_constants import GRAPHICS, AIM, GAME, SPGAim, MARKERS
+from aih_constants import CHARGE_MARKER_STATE, CTRL_MODE_NAME as CTRL_MODE
+from constants import VEHICLE_SIEGE_STATE as _SIEGE_STATE, DUALGUN_CHARGER_STATUS, SERVER_TICK_LENGTH, DUAL_GUN
+from debug_utils import LOG_WARNING
+from gui import makeHtmlString, GUI_SETTINGS
+from gui.Scaleform.daapi.view.battle.shared.crosshair.settings import SHOT_RESULT_TO_ALT_COLOR
+from gui.Scaleform.daapi.view.battle.shared.crosshair.settings import SHOT_RESULT_TO_DEFAULT_COLOR
+from gui.Scaleform.daapi.view.battle.shared.formatters import getHealthPercent
+from gui.Scaleform.daapi.view.battle.shared.helper import getClipType
+from gui.Scaleform.daapi.view.battle.shared.timers_common import PythonTimer
+from gui.Scaleform.genConsts.AUTOLOADERBOOSTVIEWSTATES import AUTOLOADERBOOSTVIEWSTATES
+from gui.Scaleform.genConsts.BATTLE_ITEM_STATES import BATTLE_ITEM_STATES
+from gui.Scaleform.genConsts.CROSSHAIR_CASSETTE_TYPES import CROSSHAIR_CASSETTE_TYPES as CC_TYPE
+from gui.Scaleform.genConsts.CROSSHAIR_CONSTANTS import CROSSHAIR_CONSTANTS
+from gui.Scaleform.genConsts.DUAL_GUN_MARKER_STATE import DUAL_GUN_MARKER_STATE
+from gui.Scaleform.genConsts.GUN_MARKER_VIEW_CONSTANTS import GUN_MARKER_VIEW_CONSTANTS as _VIEW_CONSTANTS
+from gui.Scaleform.locale.INGAME_GUI import INGAME_GUI
+from gui.battle_control import avatar_getter
+from gui.battle_control.battle_constants import FEEDBACK_EVENT_ID, CROSSHAIR_VIEW_ID, SHELL_QUANTITY_UNKNOWN, ENTITY_IN_FOCUS_TYPE
+from gui.battle_control.battle_constants import SHELL_SET_RESULT, VEHICLE_VIEW_STATE, NET_TYPE_OVERRIDE
+from gui.battle_control.controllers import crosshair_proxy
+from gui.battle_control.controllers.consumables.ammo_ctrl import AutoReloadingBoostStates
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.shared import g_eventBus, EVENT_BUS_SCOPE
+from gui.shared.events import GameEvent
+from gui.shared.utils.TimeInterval import TimeInterval
+from gui.shared.utils.plugins import IPlugin
+from shared_utils import first, findFirst
+from helpers import dependency
+from helpers.CallbackDelayer import CallbackDelayer
+from helpers.events_handler import EventsHandler
+from helpers.time_utils import MS_IN_SECOND
+from math_common import isAlmostEqual
+from skeletons.account_helpers.settings_core import ISettingsCore
+from skeletons.gui.battle_session import IBattleSessionProvider
+from soft_exception import SoftException
+from wotdecorators import noexceptReturn
+from helpers_common import computeDistanceFactor
+from DualAccuracyBase import getPlayerVehicleDualAccuracy
+from vehicle_systems.tankStructure import TankPartNames as DEVICE_NAMES
+if typing.TYPE_CHECKING:
+    from AvatarInputHandler.control_modes import _TrajectoryControlMode
+_logger = logging.getLogger(__name__)
+_SETTINGS_KEY_TO_VIEW_ID = {(AIM.ARCADE): (CROSSHAIR_VIEW_ID.ARCADE), 
+   (AIM.SNIPER): (CROSSHAIR_VIEW_ID.SNIPER)}
+_VIEW_ID_TO_SETTINGS_KEY = {v: k for k, v in _SETTINGS_KEY_TO_VIEW_ID.iteritems()}
+_SETTINGS_KEYS = set(_SETTINGS_KEY_TO_VIEW_ID.keys())
+_SETTINGS_VIEWS = set(_SETTINGS_KEY_TO_VIEW_ID.values())
+_DEVICE_ENGINE_NAME = b'engine'
+_DEVICE_REPAIRED = b'repaired'
+_LISTENING_SETTINGS = {SPGAim.SPG_SCALE_WIDGET, GRAPHICS.COLOR_BLIND}
+_TARGET_UPDATE_INTERVAL = 0.2
+_EXTENDED_RENDER_PIPELINE = 0
+_DUAL_GUN_MARKER_STATES_MAP = {(CHARGE_MARKER_STATE.VISIBLE): (DUAL_GUN_MARKER_STATE.VISIBLE), 
+   (CHARGE_MARKER_STATE.LEFT_ACTIVE): (DUAL_GUN_MARKER_STATE.LEFT_PART_ACTIVE), 
+   (CHARGE_MARKER_STATE.RIGHT_ACTIVE): (DUAL_GUN_MARKER_STATE.RIGHT_PART_ACTIVE), 
+   (CHARGE_MARKER_STATE.DIMMED): (DUAL_GUN_MARKER_STATE.DIMMED)}
+_STRATEGIC_VIEW = (
+ CTRL_MODE.STRATEGIC, CTRL_MODE.ARTY, CTRL_MODE.SPG_ONLY_ARTY_MODE, CTRL_MODE.ASSAULT_SPG)
+
+def createPlugins():
+    resultPlugins = {b'core': CorePlugin, 
+       b'settings': SettingsPlugin, 
+       b'events': EventBusPlugin, 
+       b'ammo': AmmoPlugin, 
+       b'vehicleState': VehicleStatePlugin, 
+       b'targetDistance': TargetDistancePlugin, 
+       b'gunMarkerDistance': GunMarkerDistancePlugin, 
+       b'gunMarkersInvalidate': GunMarkersInvalidatePlugin, 
+       b'shotResultIndicator': ShotResultIndicatorPlugin, 
+       b'shotDone': ShotDonePlugin, 
+       b'speedometerWheeledTech': SpeedometerWheeledTech, 
+       b'siegeMode': SiegeModePlugin, 
+       b'dualgun': DualGunPlugin, 
+       b'artyCamDist': ArtyCameraDistancePlugin, 
+       b'spgShotResultIndicator': SPGShotResultIndicatorPlugin, 
+       b'dualAccuracyMechanics': DualAccuracyGunPlugin, 
+       b'temperatureMechanics': TemperatureGunPlugin, 
+       b'shotDistance': ShotDistancePlugin, 
+       b'equipments': EquipmentsPlugin, 
+       (DistanceFactorGunPlugin.__name__): DistanceFactorGunPlugin}
+    return resultPlugins
+
+
+def chooseSetting(viewID):
+    if viewID in _SETTINGS_VIEWS:
+        return viewID
+    return _SETTINGS_KEY_TO_VIEW_ID[AIM.ARCADE]
+
+
+def _makeSettingsVO(settingsCore):
+    getter = settingsCore.getSetting
+    data = {}
+    for mode in _SETTINGS_KEYS:
+        settings = getter(mode)
+        if settings is not None:
+            data[_SETTINGS_KEY_TO_VIEW_ID[mode]] = {b'centerAlphaValue': (settings[b'centralTag'] / 100.0), b'centerType': (settings[b'centralTagType']), 
+               b'netAlphaValue': (settings[b'net'] / 100.0), 
+               b'netType': (settings[b'netType']), 
+               b'reloaderAlphaValue': (settings[b'reloader'] / 100.0), 
+               b'conditionAlphaValue': (settings[b'condition'] / 100.0), 
+               b'cassetteAlphaValue': (settings[b'cassette'] / 100.0), 
+               b'reloaderTimerAlphaValue': (settings[b'reloaderTimer'] / 100.0), 
+               b'zoomIndicatorAlphaValue': (settings[b'zoomIndicator'] / 100.0), 
+               b'gunTagAlpha': (settings[b'gunTag'] / 100.0), 
+               b'gunTagType': (settings[b'gunTagType']), 
+               b'mixingAlpha': (settings[b'mixing'] / 100.0), 
+               b'mixingType': (settings[b'mixingType'])}
+
+    for view in _SETTINGS_VIEWS:
+        commonSettings = data.get(view, None)
+        if commonSettings is None:
+            commonSettings = {}
+            data[view] = commonSettings
+        commonSettings.update({b'spgScaleWidgetEnabled': (getter(SPGAim.SPG_SCALE_WIDGET)), 
+           b'isColorBlind': (settingsCore.getSetting(GRAPHICS.COLOR_BLIND))})
+
+    return data
+
+
+def _createAmmoSettings(gunSettings):
+    clip = gunSettings.clip
+    burst = gunSettings.burst.size
+    if clip.size > 1:
+        if gunSettings.isMultiGun():
+            state = _CassetteSettings(clip, burst, gunSettings.hasAutoReload(), gunSettings.hasAutoShoot(), gunSettings.dualgun, gunSettings.getGunsCount())
+        else:
+            state = _CassetteSettings(clip, burst, gunSettings.hasAutoReload(), gunSettings.hasAutoShoot())
+    else:
+        state = _AmmoSettings(clip, burst)
+    return state
+
+
+class _AmmoSettings(object):
+
+    def __init__(self, clip, burst, hasAutoReload=False, hasAutoShoot=False, dualGunParams=None, gunsCount=1):
+        super(_AmmoSettings, self).__init__()
+        self._clip = clip
+        self._burst = burst
+        self._gunsCount = gunsCount
+        self.__hasAutoReload = hasAutoReload
+        self.__hasAutoShoot = hasAutoShoot
+        self.__dualGunParams = dualGunParams
+        return
+
+    @property
+    def hasAutoReload(self):
+        return self.__hasAutoReload
+
+    @property
+    def hasAutoShoot(self):
+        return self.__hasAutoShoot
+
+    @property
+    def isDualGunBoundToClip(self):
+        return self._gunsCount > 1 and (self.__hasAutoReload or self._clip.size > 1 and self.__dualGunParams.autoloadWithClip)
+
+    def getClipCapacity(self):
+        if self.isDualGunBoundToClip:
+            return self._clip.size - self._gunsCount * self._burst
+        return self._clip.size
+
+    def getClipInterval(self):
+        return self._clip.interval
+
+    def getBurstSize(self):
+        return self._burst
+
+    def getState(self, quantity, quantityInClip):
+        return b'normal'
+
+
+class _CassetteSettings(_AmmoSettings):
+
+    def getState(self, quantity, quantityInClip):
+        state = super(_CassetteSettings, self).getState(quantity, quantityInClip)
+        if self._burst > 1:
+            total = math.ceil(self.getClipCapacity() / float(self._burst))
+            current = math.ceil(quantityInClip / float(self._burst))
+        else:
+            total = self.getClipCapacity()
+            current = quantityInClip
+        if current <= 0.5 * total:
+            criticalCount = max(0.2 * total, 1) if self.hasAutoShoot else 1
+            state = b'critical' if current <= criticalCount else b'warning'
+        return state
+
+
+class CrosshairPlugin(IPlugin):
+    __slots__ = (b'__weakref__',)
+    sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    settingsCore = dependency.descriptor(ISettingsCore)
+
+    def _isHideAmmo(self):
+        arenaGuiTypeVisitor = self.sessionProvider.arenaVisitor.gui
+        return arenaGuiTypeVisitor.isBootcampBattle() or arenaGuiTypeVisitor.isMapsTraining()
+
+
+class CorePlugin(CrosshairPlugin):
+    __slots__ = ()
+
+    def start(self):
+        ctrl = self.sessionProvider.shared.crosshair
+        if ctrl is None:
+            raise SoftException(b'Crosshair controller is not found')
+        self.__setup(ctrl)
+        ctrl.onCrosshairViewChanged += self.__onCrosshairViewChanged
+        ctrl.onCrosshairScaleChanged += self.__onCrosshairScaleChanged
+        ctrl.onCrosshairSizeChanged += self.__onCrosshairSizeChanged
+        ctrl.onCrosshairPositionChanged += self.__onCrosshairPositionChanged
+        ctrl.onCrosshairZoomFactorChanged += self.__onCrosshairZoomFactorChanged
+        return
+
+    def stop(self):
+        ctrl = self.sessionProvider.shared.crosshair
+        if ctrl is not None:
+            ctrl.onCrosshairViewChanged -= self.__onCrosshairViewChanged
+            ctrl.onCrosshairScaleChanged -= self.__onCrosshairScaleChanged
+            ctrl.onCrosshairSizeChanged -= self.__onCrosshairSizeChanged
+            ctrl.onCrosshairPositionChanged -= self.__onCrosshairPositionChanged
+            ctrl.onCrosshairZoomFactorChanged -= self.__onCrosshairZoomFactorChanged
+        return
+
+    def __setup(self, ctrl):
+        scale = ctrl.getScaleFactor()
+        if scale > 1.0:
+            self.__onCrosshairScaleChanged(scale)
+        self.__onCrosshairViewChanged(ctrl.getViewID())
+        self.__onCrosshairSizeChanged(*ctrl.getSize())
+        self.__onCrosshairPositionChanged(*ctrl.getPosition())
+        self.__onCrosshairZoomFactorChanged(ctrl.getZoomFactor())
+        return
+
+    def __onCrosshairViewChanged(self, viewID):
+        self._parentObj.setViewID(viewID)
+        return
+
+    def __onCrosshairScaleChanged(self, scale):
+        self._parentObj.setScale(scale)
+        return
+
+    def __onCrosshairSizeChanged(self, width, height):
+        self._parentObj.setSize(width, height)
+        return
+
+    def __onCrosshairPositionChanged(self, x, y):
+        self._parentObj.setPosition(x, y)
+        return
+
+    def __onCrosshairZoomFactorChanged(self, zoomFactor):
+        self._parentObj.setZoom(zoomFactor)
+        return
+
+
+class SettingsPlugin(CrosshairPlugin):
+    __slots__ = ()
+
+    def start(self):
+        self._parentObj.setSettings(_makeSettingsVO(self.settingsCore))
+        self.settingsCore.onSettingsChanged += self.__onSettingsChanged
+        return
+
+    def stop(self):
+        self.settingsCore.onSettingsChanged -= self.__onSettingsChanged
+        return
+
+    def __onSettingsChanged(self, diff):
+        changed = set(diff.keys()) & _SETTINGS_KEYS.union(_LISTENING_SETTINGS)
+        if changed:
+            self._parentObj.setSettings(_makeSettingsVO(self.settingsCore))
+        return
+
+
+class EventBusPlugin(CrosshairPlugin):
+    __slots__ = ()
+
+    def start(self):
+        add = g_eventBus.addListener
+        add(GameEvent.GUI_VISIBILITY, self.__handleGUIVisibility, scope=EVENT_BUS_SCOPE.BATTLE)
+        add(GameEvent.CROSSHAIR_VISIBILITY, self.__handleCrosshairVisibility, scope=EVENT_BUS_SCOPE.BATTLE)
+        add(GameEvent.CROSSHAIR_VIEW, self.__handleCrosshairView, scope=EVENT_BUS_SCOPE.BATTLE)
+        return
+
+    def stop(self):
+        remove = g_eventBus.removeListener
+        remove(GameEvent.GUI_VISIBILITY, self.__handleGUIVisibility, scope=EVENT_BUS_SCOPE.BATTLE)
+        remove(GameEvent.CROSSHAIR_VISIBILITY, self.__handleCrosshairVisibility, scope=EVENT_BUS_SCOPE.BATTLE)
+        remove(GameEvent.CROSSHAIR_VIEW, self.__handleCrosshairView, scope=EVENT_BUS_SCOPE.BATTLE)
+        return
+
+    def __handleGUIVisibility(self, event):
+        self._parentObj.setVisible(event.ctx[b'visible'])
+        return
+
+    def __handleCrosshairVisibility(self, _):
+        self._parentObj.setVisible(not self._parentObj.isVisible())
+        return
+
+    def __handleCrosshairView(self, event):
+        self._parentObj.setViewID(crosshair_proxy.getCrosshairViewIDByCtrlMode(event.ctx[b'ctrlMode']))
+        return
+
+
+class _PythonTicker(PythonTimer):
+
+    def __init__(self, viewObject):
+        super(_PythonTicker, self).__init__(viewObject, 0, 0, 0, 0, interval=0.1)
+        return
+
+    def _hideView(self):
+        return
+
+    def _showView(self, isBubble):
+        return
+
+    def startAnimation(self, actualTime, baseTime):
+        self._totalTime = baseTime
+        if actualTime > 0:
+            self._finishTime = BigWorld.serverTime() + actualTime
+            self.show()
+        else:
+            self._stopTick()
+        return
+
+    def _setViewSnapshot(self, timeLeft):
+        raise NotImplementedError
+        return
+
+
+class _PythonShellInGunTicker(_PythonTicker):
+
+    def _setViewSnapshot(self, timeLeft):
+        if self._totalTime > 0:
+            progress = self._totalTime - timeLeft
+            percent = round(float(progress) / self._totalTime, 2)
+            self._viewObject.as_setAutoloaderReloadasPercentS(percent)
+        return
+
+    def _stopTick(self):
+        super(_PythonShellInGunTicker, self)._stopTick()
+        self._viewObject.as_setAutoloaderReloadasPercentS(1.0)
+        return
+
+
+class _PythonClipLoadingTicker(_PythonTicker):
+
+    def __init__(self, viewObject):
+        super(_PythonClipLoadingTicker, self).__init__(viewObject)
+        self.__isStunned = False
+        self.__showTimer = True
+        self.__isTimerRed = False
+        return
+
+    def setShowTimer(self, showTimer):
+        self.__showTimer = showTimer
+        return
+
+    def setStun(self, isStunned):
+        self.__isStunned = isStunned
+        return
+
+    def setTimerRed(self, isTimerRed):
+        self.__isTimerRed = isTimerRed
+        return
+
+    def _setViewSnapshot(self, timeLeft):
+        if self._totalTime > 0:
+            percent = round(float(timeLeft) / self._totalTime, 2)
+            self._viewObject.as_setAutoloaderPercentS(percent, timeLeft, self.__showTimer, self.__isTimerRed)
+        return
+
+    def _stopTick(self):
+        super(_PythonClipLoadingTicker, self)._stopTick()
+        self._viewObject.as_setAutoloaderPercentS(1.0, self._totalTime, self.__showTimer, self.__isTimerRed)
+        return
+
+
+class _PythonReloadTicker(_PythonTicker):
+
+    def _setViewSnapshot(self, timeLeft):
+        if self._totalTime > 0:
+            timeGone = self._totalTime - timeLeft
+            progressInPercents = round(float(timeGone) / self._totalTime * 100, 2)
+            self._viewObject.as_setReloadingAsPercentS(progressInPercents, True)
+        return
+
+    def _stopTick(self):
+        super(_PythonReloadTicker, self)._stopTick()
+        self._viewObject.as_setReloadingAsPercentS(100.0, False)
+        return
+
+
+class _PythonAutoloaderBoostTicker(_PythonTicker):
+
+    def hideAnimation(self, withAnimation):
+        self._viewObject.as_hideBoostS(withAnimation)
+        self._timeInterval.stop()
+        return
+
+    def _setViewSnapshot(self, timeLeft):
+        if self._totalTime > 0:
+            timeGone = self._totalTime - timeLeft
+            progressInPercents = round(float(timeGone) / self._totalTime * 100, 2)
+            _logger.debug(b'_PythonAutoloaderBoostTicker::_setViewSnapshot progressInPercents=%s, self._totalTime=%s', progressInPercents, self._totalTime)
+            self._viewObject.as_setBoostAsPercentS(progressInPercents, self._totalTime)
+        return
+
+    def _stopTick(self):
+        super(_PythonAutoloaderBoostTicker, self)._stopTick()
+        _logger.debug(b'_PythonAutoloaderBoostTicker::_stopTick progressInPercents=%s, self._totalTime=%s', 100.0, self._totalTime)
+        self._viewObject.as_setBoostAsPercentS(100.0, self._totalTime)
+        return
+
+
+class _ReloadingAnimationsProxy(object):
+
+    def __init__(self, panel):
+        super(_ReloadingAnimationsProxy, self).__init__()
+        self._panel = panel
+        return
+
+    def setShellLoading(self, actualTime, baseTime):
+        raise NotImplementedError
+        return
+
+    def setClipAutoLoading(self, timeLeft, baseTime, isStun=False, isTimerOn=False, isRedText=False):
+        raise NotImplementedError
+        return
+
+    def setReloading(self, state):
+        raise NotImplementedError
+        return
+
+    def showAutoLoadingBoost(self, timeLeft, stateTotalTime):
+        raise NotImplementedError
+        return
+
+    def hideAutoLoadingBoost(self, showAnimation):
+        raise NotImplementedError
+        return
+
+
+class _ASAutoReloadProxy(_ReloadingAnimationsProxy):
+
+    def setShellLoading(self, actualTime, baseTime):
+        self._panel.as_setAutoloaderReloadingS(actualTime, baseTime)
+        return
+
+    def setClipAutoLoading(self, timeLeft, baseTime, isStun=False, isTimerOn=False, isRedText=False):
+        self._panel.as_autoloaderUpdateS(timeLeft, baseTime, isStun=isStun, isTimerOn=isTimerOn, isRedText=isRedText)
+        return
+
+    def setReloading(self, state):
+        self._panel.as_setReloadingS(state.getActualValue(), round(state.getBaseValue(), 2), state.getTimePassed(), state.isReloading())
+        return
+
+    def showAutoLoadingBoost(self, timeLeft, stateTotalTime):
+        self._panel.as_showBoostS(timeLeft, stateTotalTime)
+        return
+
+    def hideAutoLoadingBoost(self, showAnimation):
+        self._panel.as_hideBoostS(showAnimation)
+        return
+
+
+class _PythonAutoReloadProxy(_ReloadingAnimationsProxy):
+
+    def __init__(self, panel):
+        super(_PythonAutoReloadProxy, self).__init__(panel)
+        self.__shellTicker = _PythonShellInGunTicker(panel)
+        self.__clipTicker = _PythonClipLoadingTicker(panel)
+        self.__reloadTicker = _PythonReloadTicker(panel)
+        self.__boostTicker = _PythonAutoloaderBoostTicker(panel)
+        return
+
+    def setShellLoading(self, actualTime, baseTime):
+        self.__shellTicker.startAnimation(actualTime, baseTime)
+        return
+
+    def setClipAutoLoading(self, timeLeft, baseTime, isStun=False, isTimerOn=False, isRedText=False):
+        self.__clipTicker.setStun(isStun)
+        self.__clipTicker.setShowTimer(isTimerOn)
+        self.__clipTicker.setTimerRed(isRedText)
+        self.__clipTicker.startAnimation(timeLeft, baseTime)
+        return
+
+    def setReloading(self, state):
+        self.__reloadTicker.startAnimation(state.getActualValue(), state.getBaseValue())
+        return
+
+    def showAutoLoadingBoost(self, timeLeft, totalTime):
+        self.__boostTicker.startAnimation(timeLeft, totalTime)
+        return
+
+    def hideAutoLoadingBoost(self, showAnimation):
+        self.__boostTicker.hideAnimation(showAnimation)
+        return
+
+
+class AmmoPlugin(CrosshairPlugin):
+    __slots__ = (b'__guiSettings', b'__burstSize', b'__shells', b'__shellsInClip', b'__shellSetResult', b'__autoReloadCallbackID', b'__autoReloadSnapshot', b'__scaledInterval', b'__reloadAnimator', b'__isShowingAutoloadingBoost', b'__isClipUpdateFrozen', b'__clipType')
+    _AUTOLOADER_ANIMATION_STATIC_TIME = 0.5
+
+    def __init__(self, parentObj):
+        super(AmmoPlugin, self).__init__(parentObj)
+        self.__guiSettings = None
+        self.__shells = 0
+        self.__shellsInClip = 0
+        self.__shellSetResult = 0
+        self.__clipType = CC_TYPE.NO_CASSETTE
+        self.__autoReloadCallbackID = None
+        self.__autoReloadSnapshot = None
+        self.__reloadAnimator = None
+        self.__isShowingAutoloadingBoost = True
+        self.__isClipUpdateFrozen = False
+        self.__scaledInterval = None
+        return
+
+    def start(self):
+        ctrl = self.sessionProvider.shared.ammo
+        vehStateCtrl = self.sessionProvider.shared.vehicleState
+        if vehStateCtrl is None or ctrl is None:
+            raise SoftException(b'Vehicle state controller or ammo controller is None')
+        self.__setup(ctrl, self.sessionProvider.isReplayPlaying)
+        ctrl.onGunSettingsSet += self.__onGunSettingsSet
+        ctrl.onGunReloadTimeSet += self.__onGunReloadTimeSet
+        ctrl.onShellsCleared += self.__onGunReloadCleared
+        ctrl.onGunAutoReloadTimeSet += self.__onGunAutoReloadTimeSet
+        ctrl.onGunAutoReloadBoostUpdated += self.__onGunAutoReloadBoostUpd
+        ctrl.onShellsUpdated += self.__onShellsUpdated
+        ctrl.onCurrentShellChanged += self.__onCurrentShellChanged
+        ctrl.onCurrentShellReset += self.__onCurrentShellReset
+        ctrl.onDebuffFinished += self.__onDebuffFinished
+        ctrl.onShellChangeTimeUpdated += self.__onShellChangeTimeUpdated
+        ctrl.onPenaltyReloadTimeUpdated += self.__onPenaltyReloadTimeUpdated
+        vehStateCtrl.onVehicleControlling += self.__onVehicleControlling
+        vehStateCtrl.onVehicleStateUpdated += self.__onVehicleStateUpdated
+        g_replayEvents.onPause += self.__onReplayPaused
+        return
+
+    def __onVehicleControlling(self, _):
+        self.__scaledInterval = None
+        return
+
+    def stop(self):
+        ctrl = self.sessionProvider.shared.ammo
+        vehStateCtrl = self.sessionProvider.shared.vehicleState
+        if ctrl is not None:
+            ctrl.onShellChangeTimeUpdated -= self.__onShellChangeTimeUpdated
+            ctrl.onGunSettingsSet -= self.__onGunSettingsSet
+            ctrl.onGunAutoReloadTimeSet -= self.__onGunAutoReloadTimeSet
+            ctrl.onGunAutoReloadBoostUpdated -= self.__onGunAutoReloadBoostUpd
+            ctrl.onGunReloadTimeSet -= self.__onGunReloadTimeSet
+            ctrl.onShellsCleared -= self.__onGunReloadCleared
+            ctrl.onShellsUpdated -= self.__onShellsUpdated
+            ctrl.onCurrentShellChanged -= self.__onCurrentShellChanged
+            ctrl.onCurrentShellReset -= self.__onCurrentShellReset
+            ctrl.onDebuffFinished -= self.__onDebuffFinished
+            ctrl.onPenaltyReloadTimeUpdated -= self.__onPenaltyReloadTimeUpdated
+        g_replayEvents.onPause -= self.__onReplayPaused
+        if vehStateCtrl is not None:
+            vehStateCtrl.onVehicleStateUpdated -= self.__onVehicleStateUpdated
+            vehStateCtrl.onVehicleControlling -= self.__onVehicleControlling
+        return
+
+    def fini(self):
+        if self.__autoReloadCallbackID:
+            BigWorld.cancelCallback(self.__autoReloadCallbackID)
+        super(AmmoPlugin, self).fini()
+        return
+
+    def __setup(self, ctrl, isReplayPlaying=False):
+        self.__shells, self.__shellsInClip = ctrl.getCurrentShells()
+        if isReplayPlaying:
+            self._parentObj.as_setReloadingCounterShownS(False)
+            self.__reloadAnimator = _PythonAutoReloadProxy(self._parentObj)
+        else:
+            self.__reloadAnimator = _ASAutoReloadProxy(self._parentObj)
+        self.__setupGuiSettings(ctrl.getGunSettings())
+        quantity, quantityInClip = ctrl.getCurrentShells()
+        if (quantity, quantityInClip) != (SHELL_QUANTITY_UNKNOWN,) * 2:
+            quantityInClip = self.__checkQuantityInClipForDualGun(self.__shellsInClip)
+            state = self.__guiSettings.getState(quantity, quantityInClip)
+            self._parentObj.as_setAmmoStockS(quantity, quantityInClip, state, False)
+        reloadingState = ctrl.getGunReloadingState()
+        self.__setReloadingState(reloadingState)
+        if self.__guiSettings.hasAutoReload:
+            autoReloadingState = ctrl.getAutoReloadingState()
+            baseValue = autoReloadingState.getBaseValue()
+            if quantityInClip == SHELL_QUANTITY_UNKNOWN:
+                baseValue = ctrl.getShellChangeTime()
+            self.__reloadAnimator.setClipAutoLoading(autoReloadingState.getActualValue(), round(baseValue, 1), isStun=False, isTimerOn=True)
+        if self._isHideAmmo():
+            self._parentObj.as_setNetVisibleS(CROSSHAIR_CONSTANTS.VISIBLE_NET)
+        self._parentObj.as_setShellChangeTimeS(*ctrl.updateShellChangeTime())
+        return
+
+    def __onPenaltyReloadTimeUpdated(self, baseValue, value, addPenalty):
+        if addPenalty > 0:
+            self._parentObj.as_addCoolantAbilityReloadingPenaltyS(addPenalty)
+        else:
+            self._parentObj.as_setCoolantAbilityReloadingPenaltyS(baseValue, value)
+        return
+
+    def __setReloadingState(self, state):
+        self.__reloadAnimator.setReloading(state)
+        return
+
+    def __onGunSettingsSet(self, gunSettings):
+        self.__setupGuiSettings(gunSettings)
+        return
+
+    def __setupGuiSettings(self, gunSettings):
+        guiSettings = _createAmmoSettings(gunSettings)
+        self.__guiSettings = guiSettings
+        self.__changeClipType(gunSettings)
+        clipCapacity = guiSettings.getClipCapacity()
+        self._parentObj.as_setClipParamsS(clipCapacity, guiSettings.getBurstSize(), self.__clipType)
+        return
+
+    def __changeClipType(self, gunSettings):
+        self.__clipType = getClipType(gunSettings)
+        self.__isClipUpdateFrozen = False
+        return
+
+    def __onGunReloadCleared(self, state):
+        self.__setReloadingState(state)
+        return
+
+    def __onGunReloadTimeSet(self, _, state, skipAutoLoader):
+        self.__setReloadingState(state)
+        if self.__guiSettings.hasAutoReload and not skipAutoLoader:
+            self.__notifyAutoLoader(state)
+        return
+
+    def __notifyAutoLoader(self, state):
+        if self.__clipType == CC_TYPE.MULTIPLE_BARREL_AUTOLOADER:
+            return
+        else:
+            actualTime = state.getActualValue()
+            baseTime = state.getBaseValue()
+            if self.__shellsInClip <= 0 and state.isReloading():
+                timeGone = baseTime - actualTime
+                clipInterval = self.__guiSettings.getClipInterval()
+                if clipInterval > timeGone:
+                    actualTime = clipInterval - timeGone
+                    baseTime = clipInterval
+                    if self.__autoReloadCallbackID is not None:
+                        BigWorld.cancelCallback(self.__autoReloadCallbackID)
+                    self.__autoReloadCallbackID = BigWorld.callback(actualTime, self.__autoReloadFirstShellCallback)
+                    self.__scaledInterval = clipInterval
+                else:
+                    self.__reloadAnimator.setClipAutoLoading(actualTime, self.__reCalcFirstShellAutoReload(baseTime), isTimerOn=True, isRedText=True)
+                    actualTime = baseTime = 0
+                self.__autoReloadSnapshot = state
+            if self.__clipType != CC_TYPE.MULTIPLE_BARREL_AUTOLOADER:
+                self.__reloadAnimator.setShellLoading(actualTime, baseTime)
+            return
+
+    def __onDualGunStateUpdated(self, value):
+        if self.__clipType not in (CC_TYPE.MULTIPLE_BARREL_AUTOLOADER, CC_TYPE.MULTIPLE_BARREL_CASSETTE):
+            return
+        _, times, states = value
+        if self.__isClipUpdateFrozen:
+            if self.__shellsInClip == 0 or any(state == DUAL_GUN.GUN_STATE.RELOADING for state in states):
+                self.__isClipUpdateFrozen = False
+                self.__setShells()
+        if times[DUAL_GUN.COOLDOWNS.LEFT].baseTime == times[DUAL_GUN.COOLDOWNS.LEFT].leftTime or times[DUAL_GUN.COOLDOWNS.RIGHT].baseTime == times[DUAL_GUN.COOLDOWNS.RIGHT].leftTime or times[DUAL_GUN.COOLDOWNS.SWITCH].baseTime == times[DUAL_GUN.COOLDOWNS.SWITCH].leftTime and self.__shellsInClip > 0:
+            if self.__clipType == CC_TYPE.MULTIPLE_BARREL_AUTOLOADER:
+                actualTime = baseTime = self._AUTOLOADER_ANIMATION_STATIC_TIME
+                self.__reloadAnimator.setShellLoading(actualTime, baseTime)
+        self.__setShells()
+        return
+
+    def __autoReloadFirstShellCallback(self):
+        timeLeft = min(self.__autoReloadSnapshot.getTimeLeft(), self.__autoReloadSnapshot.getActualValue())
+        self.__reloadAnimator.setClipAutoLoading(timeLeft, self.__autoReloadSnapshot.getActualValue(), isTimerOn=True, isRedText=self.__shellsInClip <= 0)
+        self.__autoReloadCallbackID = None
+        return
+
+    def __onGunAutoReloadTimeSet(self, state, stunned):
+        timeLeft = round(min(state.getTimeLeft(), state.getActualValue()), 1)
+        baseValue = round(state.getBaseValue(), 1)
+        if self.__shellsInClip == 0:
+            baseValue = self.__reCalcFirstShellAutoReload(baseValue)
+        self.__reloadAnimator.setClipAutoLoading(timeLeft, baseValue, isStun=stunned, isTimerOn=True, isRedText=self.__shellsInClip == 0)
+        self.__autoReloadSnapshot = state
+        return
+
+    def __onGunAutoReloadBoostUpd(self, state, stateDuration, stateTotalTime, extraData):
+        _logger.debug(b'Auto loader boost incoming state=%s, stateDuration=%s, stateTotalTime=%s, extraData=%s', state, stateDuration, stateTotalTime, extraData)
+        if state in AutoReloadingBoostStates.NOT_ACTIVE:
+            self.__reloadAnimator.hideAutoLoadingBoost(showAnimation=extraData.get(b'shootHasBeenMade', False))
+        else:
+            if state == AutoReloadingBoostStates.CHARGED:
+                timeLeft = AUTOLOADERBOOSTVIEWSTATES.CHARGED
+            elif state == AutoReloadingBoostStates.WAITING_FOR_START:
+                timeLeft = AUTOLOADERBOOSTVIEWSTATES.WAITING_TO_START
+            else:
+                timeLeft = stateDuration
+            if self.__isShowingAutoloadingBoost:
+                self.__reloadAnimator.showAutoLoadingBoost(timeLeft, stateTotalTime)
+        return
+
+    def __onReplayPaused(self, isPaused):
+        if isPaused:
+            return
+        if not BattleReplay.g_replayCtrl.isNormalSpeed and self.__isShowingAutoloadingBoost:
+            self.__isShowingAutoloadingBoost = False
+            self.__reloadAnimator.showAutoLoadingBoost(AUTOLOADERBOOSTVIEWSTATES.WAITING_TO_START, 0.0)
+            self.__reloadAnimator.hideAutoLoadingBoost(showAnimation=False)
+        if BattleReplay.g_replayCtrl.isNormalSpeed and not self.__isShowingAutoloadingBoost:
+            self.__isShowingAutoloadingBoost = True
+            self.__reloadAnimator.hideAutoLoadingBoost(showAnimation=True)
+            self.__reloadAnimator.showAutoLoadingBoost(AUTOLOADERBOOSTVIEWSTATES.WAITING_TO_START, 0.0)
+        return
+
+    def __reCalcFirstShellAutoReload(self, baseTime):
+        if not self.__scaledInterval:
+            return baseTime
+        newScaledInterval = self.__scaledInterval * baseTime / self.__autoReloadSnapshot.getBaseValue()
+        result = baseTime - newScaledInterval
+        self.__scaledInterval = newScaledInterval
+        return result
+
+    def __onShellsUpdated(self, _, quantity, quantityInClip, result):
+        self.__shells = quantity
+        self.__shellsInClip = quantityInClip
+        self.__shellSetResult = result
+        self.__setShells()
+        return
+
+    def __onDebuffFinished(self):
+        self.__isClipUpdateFrozen = False
+        self.__setShells()
+        return
+
+    def __onVehicleStateUpdated(self, stateID, value):
+        if stateID == VEHICLE_VIEW_STATE.DUAL_GUN_CHARGER:
+            self.__onDualGunChargeStateUpdated(value)
+        elif stateID == VEHICLE_VIEW_STATE.DUAL_GUN_STATE_UPDATED:
+            self.__onDualGunStateUpdated(value)
+        return
+
+    def __onDualGunChargeStateUpdated(self, value):
+        status, _ = value
+        self.__isClipUpdateFrozen = status == DUALGUN_CHARGER_STATUS.APPLIED
+        return
+
+    def __setShells(self):
+        if self.__isClipUpdateFrozen or not self.__shellSetResult & SHELL_SET_RESULT.CURRENT:
+            return
+        quantityInClip = self.__checkQuantityInClipForDualGun(self.__shellsInClip)
+        state = self.__guiSettings.getState(self.__shells, quantityInClip)
+        self._parentObj.as_setAmmoStockS(self.__shells, quantityInClip, state, self.__shellSetResult & SHELL_SET_RESULT.CASSETTE_RELOAD > 0)
+        if self.sessionProvider.shared.ammo.getAllShellsQuantityLeft() == 0:
+            self.__reloadAnimator.setClipAutoLoading(0, 0, isTimerOn=True, isRedText=True)
+        return
+
+    def __checkQuantityInClipForDualGun(self, quantityInClip):
+        ammo = self.sessionProvider.shared.ammo
+        if ammo.getGunSettings().isMultiGun():
+            shellsInGuns = ammo.getShellsInGuns() * self.__guiSettings.getBurstSize()
+            return min(max(0, quantityInClip - shellsInGuns), self.__guiSettings.getClipCapacity(), max(0, self.__shells))
+        return quantityInClip
+
+    def __onCurrentShellChanged(self, _):
+        ctrl = self.sessionProvider.shared.ammo
+        if ctrl is not None:
+            quantity, quantityInClip = ctrl.getCurrentShells()
+            quantityInClip = self.__checkQuantityInClipForDualGun(quantityInClip)
+            state = self.__guiSettings.getState(quantity, quantityInClip)
+            self._parentObj.as_setAmmoStockS(quantity, quantityInClip, state, False)
+        return
+
+    def __onCurrentShellReset(self):
+        self._parentObj.as_setAmmoStockS(0, 0, b'normal', False)
+        return
+
+    def __onShellChangeTimeUpdated(self, isActive, time):
+        self._parentObj.as_setShellChangeTimeS(isActive, time)
+        return
+
+
+class VehicleStatePlugin(CrosshairPlugin):
+    __slots__ = (b'__playerInfo', b'__isPlayerVehicle', b'__maxHealth', b'__healthPercent')
+
+    def __init__(self, parentObj):
+        super(VehicleStatePlugin, self).__init__(parentObj)
+        self.__playerInfo = None
+        self.__isPlayerVehicle = False
+        self.__maxHealth = 0
+        self.__healthPercent = 0
+        return
+
+    def start(self):
+        ctrl = self.sessionProvider.shared.vehicleState
+        if ctrl is None:
+            raise SoftException(b'Vehicles state controller is not found')
+        vehicle = ctrl.getControllingVehicle()
+        if vehicle is not None:
+            self.__setPlayerInfo(vehicle.id)
+            self.__onVehicleControlling(vehicle)
+        ctrl.onVehicleStateUpdated += self.__onVehicleStateUpdated
+        ctrl.onVehicleControlling += self.__onVehicleControlling
+        ctrl.onPostMortemSwitched += self.__onPostMortemSwitched
+        ctrl = self.sessionProvider.shared.feedback
+        if ctrl is None:
+            raise SoftException(b'Feedback adaptor is not found')
+        ctrl.onVehicleFeedbackReceived += self.__onVehicleFeedbackReceived
+        return
+
+    def stop(self):
+        ctrl = self.sessionProvider.shared.vehicleState
+        if ctrl is not None:
+            ctrl.onVehicleStateUpdated -= self.__onVehicleStateUpdated
+            ctrl.onVehicleControlling -= self.__onVehicleControlling
+            ctrl.onPostMortemSwitched -= self.__onPostMortemSwitched
+        ctrl = self.sessionProvider.shared.feedback
+        if ctrl is not None:
+            ctrl.onVehicleFeedbackReceived -= self.__onVehicleFeedbackReceived
+        return
+
+    def __setHealth(self, health):
+        if self.__maxHealth != 0 and self.__maxHealth >= health:
+            self.__healthPercent = getHealthPercent(health, self.__maxHealth)
+        return
+
+    def __setPlayerInfo(self, vehicleID):
+        self.__playerInfo = self.sessionProvider.getCtx().getPlayerFullNameParts(vID=vehicleID, showVehShortName=True)
+        return
+
+    def __updateVehicleInfo(self):
+        if self._parentObj.getViewID() == CROSSHAIR_VIEW_ID.POSTMORTEM:
+            if self.__playerInfo is None:
+                raise SoftException(b'Player info must be defined at first, see vehicle_state_ctrl')
+            if self.__isPlayerVehicle:
+                self._parentObj.setHasAmmo(hasAmmo=True)
+                ctx = {b'type': (self.__playerInfo.vehicleName)}
+                template = b'personal'
+            else:
+                ctx = {b'name': (self.__playerInfo.playerFullName), 
+                   b'health': (self.__healthPercent * 100)}
+                template = b'other'
+            self._parentObj.as_updatePlayerInfoS(makeHtmlString(b'html_templates:battle/postmortemMessages', template, ctx=ctx))
+        else:
+            self._parentObj.as_setHealthS(self.__healthPercent)
+        return
+
+    def __onVehicleControlling(self, vehicle):
+        self.__maxHealth = vehicle.maxHealth
+        self.__isPlayerVehicle = vehicle.isPlayerVehicle
+        self.__setHealth(vehicle.health)
+        self.__updateVehicleInfo()
+        return
+
+    def __onVehicleStateUpdated(self, state, value):
+        if state == VEHICLE_VIEW_STATE.HEALTH:
+            self.__setHealth(value)
+            self.__updateVehicleInfo()
+        elif state == VEHICLE_VIEW_STATE.PLAYER_INFO:
+            self.__setPlayerInfo(value)
+        elif state == VEHICLE_VIEW_STATE.SWITCHING:
+            self.__maxHealth = 0
+            self.__healthPercent = 0
+        elif state == VEHICLE_VIEW_STATE.GUN_RELOAD_BOOST:
+            self.__onGunReloadBoost()
+        return
+
+    def __onPostMortemSwitched(self, noRespawnPossible, respawnAvailable):
+        self.__updateVehicleInfo()
+        return
+
+    def __onVehicleFeedbackReceived(self, eventID, _, value):
+        if eventID == FEEDBACK_EVENT_ID.VEHICLE_HAS_AMMO and self._parentObj.getViewID() == CROSSHAIR_VIEW_ID.POSTMORTEM:
+            self._parentObj.setHasAmmo(value)
+        return
+
+    def __onGunReloadBoost(self):
+        self._parentObj.as_blinkReloadTimeS(CROSSHAIR_CONSTANTS.CROSSHAIR_BLINK_GREEN_HORIZONTAL)
+        return
+
+
+class _DistancePlugin(CrosshairPlugin):
+    __slots__ = (b'_interval', b'_distance')
+
+    def __init__(self, parentObj):
+        super(_DistancePlugin, self).__init__(parentObj)
+        self._interval = None
+        self._distance = 0
+        return
+
+    def start(self):
+        self._interval = TimeInterval(_TARGET_UPDATE_INTERVAL, self, b'_update')
+        ctrl = self.sessionProvider.shared.crosshair
+        if ctrl is None:
+            raise SoftException(b'Crosshair controller is not found')
+        ctrl.onCrosshairViewChanged += self._onCrosshairViewChanged
+        return
+
+    def stop(self):
+        if self._interval is not None:
+            self._interval.stop()
+            self._interval = None
+        ctrl = self.sessionProvider.shared.crosshair
+        if ctrl is not None:
+            ctrl.onCrosshairViewChanged -= self._onCrosshairViewChanged
+        return
+
+    def _update(self):
+        raise NotImplementedError
+        return
+
+    def _onCrosshairViewChanged(self, viewID):
+        raise NotImplementedError
+        return
+
+
+class TargetDistancePlugin(_DistancePlugin):
+    __slots__ = (b'__trackID', b'__trackEnemy', b'__trackAlly', b'__currentEntityInFocus')
+
+    def __init__(self, parentObj):
+        super(TargetDistancePlugin, self).__init__(parentObj)
+        self.__trackID = 0
+        self.__currentEntityInFocus = 0
+        self.__trackEnemy = False
+        self.__trackAlly = False
+        return
+
+    def start(self):
+        super(TargetDistancePlugin, self).start()
+        self.__setEnabled()
+        ctrl = self.sessionProvider.shared.feedback
+        if ctrl is None:
+            raise SoftException(b'Feedback adaptor is not found')
+        ctrl.onVehicleFeedbackReceived += self.__onVehicleFeedbackReceived
+        self.settingsCore.onSettingsChanged += self.__onSettingsChanged
+        return
+
+    def stop(self):
+        super(TargetDistancePlugin, self).stop()
+        ctrl = self.sessionProvider.shared.feedback
+        if ctrl is not None:
+            ctrl.onVehicleFeedbackReceived -= self.__onVehicleFeedbackReceived
+        self.settingsCore.onSettingsChanged -= self.__onSettingsChanged
+        return
+
+    def _update(self):
+        target = BigWorld.entity(self.__trackID)
+        if target is not None:
+            self.__updateDistance(target)
+        else:
+            self.__stopTrack()
+        return
+
+    def _onCrosshairViewChanged(self, viewID):
+        if viewID not in (CROSSHAIR_VIEW_ID.ARCADE, CROSSHAIR_VIEW_ID.SNIPER):
+            self.__stopTrack(immediate=True)
+        return
+
+    def __startTrack(self, vehicleID):
+        self.__stopTrack(immediate=True)
+        target = BigWorld.entity(vehicleID)
+        if target is not None and self.__shouldTrackVehicle(target):
+            self.__trackID = vehicleID
+            self.__updateDistance(target)
+            self._interval.start()
+        return
+
+    def __stopTrack(self, immediate=False):
+        self._interval.stop()
+        self._parentObj.clearDistance(immediate=immediate)
+        self.__trackID = 0
+        return
+
+    def __updateDistance(self, target):
+        self._parentObj.setDistance(int(round(avatar_getter.getDistanceToTarget(target))))
+        return
+
+    def __onSettingsChanged(self, diff):
+        settingsToUpdateTracking = {
+         MARKERS.ENEMY,
+         MARKERS.ALLY}
+        if settingsToUpdateTracking & set(diff):
+            self.__setEnabled()
+        return
+
+    def __setEnabled(self):
+        getter = self.settingsCore.getSetting
+        markerSettings = getter(MARKERS.ENEMY)
+        self.__trackEnemy = not (markerSettings[b'markerBaseVehicleDist'] or markerSettings[b'markerAltVehicleDist'])
+        markerSettings = getter(MARKERS.ALLY)
+        self.__trackAlly = not (markerSettings[b'markerBaseVehicleDist'] or markerSettings[b'markerAltVehicleDist'])
+        if self.__currentEntityInFocus:
+            self.__startTrack(self.__currentEntityInFocus)
+        return
+
+    def __shouldTrackVehicle(self, target):
+        if not target.isAlive():
+            return True
+        if BigWorld.player().team == target.publicInfo[b'team']:
+            return self.__trackAlly
+        return self.__trackEnemy
+
+    def __onVehicleFeedbackReceived(self, eventID, vehicleID, value):
+        if eventID == FEEDBACK_EVENT_ID.ENTITY_IN_FOCUS:
+            if self._parentObj.getViewID() not in (CROSSHAIR_VIEW_ID.ARCADE, CROSSHAIR_VIEW_ID.SNIPER):
+                return
+            isInFocus, entityType = value
+            if entityType == ENTITY_IN_FOCUS_TYPE.VEHICLE:
+                if isInFocus:
+                    self.__startTrack(vehicleID)
+                    self.__currentEntityInFocus = vehicleID
+                else:
+                    self.__stopTrack(not self._interval.isStarted())
+                    self.__currentEntityInFocus = 0
+        return
+
+
+class GunMarkerDistancePlugin(_DistancePlugin):
+    __slots__ = ()
+
+    def _update(self):
+        self.__updateDistance()
+        return
+
+    def _onCrosshairViewChanged(self, viewID):
+        self._interval.stop()
+        if viewID in (CROSSHAIR_VIEW_ID.STRATEGIC, CROSSHAIR_VIEW_ID.ASSAULT):
+            self.__updateDistance()
+            self._interval.start()
+        else:
+            self._parentObj.clearDistance(immediate=True)
+        return
+
+    def __updateDistance(self):
+        self._parentObj.setDistance(int(round(avatar_getter.getDistanceToGunMarker())))
+        return
+
+
+class GunMarkersInvalidatePlugin(CrosshairPlugin):
+    __slots__ = ()
+
+    def start(self):
+        ctrl = self.sessionProvider.shared.crosshair
+        if ctrl is None:
+            raise SoftException(b'Crosshair controller is not found')
+        self.__setup(ctrl)
+        ctrl.onGunMarkersSetChanged += self.__onGunMarkersSetChanged
+        ctrl = self.sessionProvider.shared.vehicleState
+        if ctrl is None:
+            raise SoftException(b'Vehicle state controller is not found')
+        ctrl.onVehicleControlling += self.__onVehicleControlling
+        ctrl = self.sessionProvider.shared.ammo
+        if ctrl is not None:
+            ctrl.onGunSettingsSet += self.__onGunSettingsSet
+        return
+
+    def stop(self):
+        ctrl = self.sessionProvider.shared.crosshair
+        if ctrl is not None:
+            ctrl.onGunMarkersSetChanged -= self.__onGunMarkersSetChanged
+        ctrl = self.sessionProvider.shared.vehicleState
+        if ctrl is not None:
+            ctrl.onVehicleControlling -= self.__onVehicleControlling
+        ctrl = self.sessionProvider.shared.ammo
+        if ctrl is not None:
+            ctrl.onGunSettingsSet -= self.__onGunSettingsSet
+        return
+
+    def __getVehicleInfo(self):
+        vehicle = BigWorld.player().getVehicleAttached()
+        return self.sessionProvider.getArenaDP().getVehicleInfo(vehicle.id if vehicle is not None else None)
+
+    def __setup(self, ctrl):
+        markersInfo = ctrl.getGunMarkersSetInfo()
+        vehicleInfo = self.__getVehicleInfo()
+        self._parentObj.createGunMarkers(markersInfo, vehicleInfo)
+        return
+
+    def __onGunMarkersSetChanged(self, markersInfo):
+        self._parentObj.invalidateGunMarkers(markersInfo, self.__getVehicleInfo())
+        return
+
+    def __onVehicleControlling(self, vehicle):
+        repository = self.sessionProvider.shared
+        if not repository.vehicleState.isInPostmortem and vehicle.isPlayerVehicle:
+            self._parentObj.invalidateGunMarkers(repository.crosshair.getGunMarkersSetInfo(), self.__getVehicleInfo())
+        return
+
+    def __onGunSettingsSet(self, _):
+        ctrl = self.sessionProvider.shared.crosshair
+        if ctrl is not None:
+            markersInfo = ctrl.getGunMarkersSetInfo()
+            vehicleInfo = self.__getVehicleInfo()
+            self._parentObj.invalidateGunMarkers(markersInfo, vehicleInfo)
+        return
+
+
+class ShotResultIndicatorPlugin(CrosshairPlugin):
+    __slots__ = (b'__isEnabled', b'__playerTeam', b'__cache', b'__colors', b'__mapping', b'__shotResultResolver', b'__piercingMultiplier')
+
+    def __init__(self, parentObj):
+        super(ShotResultIndicatorPlugin, self).__init__(parentObj)
+        self.__isEnabled = False
+        self.__mapping = defaultdict((lambda : False))
+        self.__playerTeam = 0
+        self.__cache = defaultdict(str)
+        self.__colors = None
+        self.__shotResultResolver = gun_marker_ctrl.createShotResultResolver()
+        self.__piercingMultiplier = 1
+        return
+
+    def start(self):
+        ctrl = self.sessionProvider.shared.crosshair
+        if ctrl is None:
+            raise SoftException(b'Crosshair controller is not found')
+        ctrl.onCrosshairViewChanged += self.__onCrosshairViewChanged
+        ctrl.onGunMarkerStateChanged += self.__onGunMarkerStateChanged
+        ctrl = self.sessionProvider.shared.feedback
+        if ctrl is None:
+            raise SoftException(b'Crosshair controller is not found')
+        ctrl.onVehicleFeedbackReceived += self.__onVehicleFeedbackReceived
+        g_playerEvents.onTeamChanged += self.__onTeamChanged
+        self.__playerTeam = self.sessionProvider.getArenaDP().getNumberOfTeam()
+        self.__setColors(self.settingsCore.getSetting(GRAPHICS.COLOR_BLIND))
+        self.__setMapping(_SETTINGS_KEYS)
+        self.__setEnabled(self._parentObj.getViewID())
+        self.settingsCore.onSettingsChanged += self.__onSettingsChanged
+        return
+
+    def stop(self):
+        ctrl = self.sessionProvider.shared.crosshair
+        if ctrl is not None:
+            ctrl.onCrosshairViewChanged -= self.__onCrosshairViewChanged
+            ctrl.onGunMarkerStateChanged -= self.__onGunMarkerStateChanged
+        ctrl = self.sessionProvider.shared.feedback
+        if ctrl is not None:
+            ctrl.onVehicleFeedbackReceived -= self.__onVehicleFeedbackReceived
+        g_playerEvents.onTeamChanged -= self.__onTeamChanged
+        self.settingsCore.onSettingsChanged -= self.__onSettingsChanged
+        self.__colors = None
+        return
+
+    def __setColors(self, isColorBlind):
+        if isColorBlind:
+            self.__colors = SHOT_RESULT_TO_ALT_COLOR
+        else:
+            self.__colors = SHOT_RESULT_TO_DEFAULT_COLOR
+        return
+
+    def __setMapping(self, keys):
+        getter = self.settingsCore.getSetting
+        for key in keys:
+            settings = getter(key)
+            if b'gunTagType' in settings:
+                value = settings[b'gunTagType'] in _VIEW_CONSTANTS.GUN_TAG_SHOT_RESULT_TYPES
+                self.__mapping[_SETTINGS_KEY_TO_VIEW_ID[key]] = value
+
+        return
+
+    def __updateColor(self, markerType, position, collision, direction):
+        result = self.__shotResultResolver.getShotResult(position, collision, direction, excludeTeam=self.__playerTeam, piercingMultiplier=self.__piercingMultiplier)
+        if result in self.__colors:
+            color = self.__colors[result]
+            if self.__cache[markerType] != result and self._parentObj.setGunMarkerColor(markerType, color):
+                self.__cache[markerType] = result
+        else:
+            LOG_WARNING(b'Color is not found by shot result', result)
+        return
+
+    def __setEnabled(self, viewID):
+        self.__isEnabled = self.__mapping[viewID]
+        if self.__isEnabled:
+            for markerType, shotResult in self.__cache.iteritems():
+                self._parentObj.setGunMarkerColor(markerType, self.__colors[shotResult])
+
+        else:
+            self.__cache.clear()
+        return
+
+    def __onGunMarkerStateChanged(self, markerType, position, direction, collision):
+        if self.__isEnabled:
+            self.__updateColor(markerType, position, collision, direction)
+        return
+
+    def __onCrosshairViewChanged(self, viewID):
+        self.__setEnabled(viewID)
+        return
+
+    def __onSettingsChanged(self, diff):
+        update = False
+        if GRAPHICS.COLOR_BLIND in diff:
+            self.__setColors(diff[GRAPHICS.COLOR_BLIND])
+            update = True
+        changed = set(diff.keys()) & _SETTINGS_KEYS
+        if changed:
+            self.__setMapping(changed)
+            update = True
+        if update:
+            self.__setEnabled(self._parentObj.getViewID())
+        return
+
+    def __onTeamChanged(self, teamID):
+        self.__playerTeam = teamID
+        return
+
+    def __onVehicleFeedbackReceived(self, eventID, _, value):
+        if eventID == FEEDBACK_EVENT_ID.VEHICLE_ATTRS_CHANGED:
+            self.__piercingMultiplier = value.get(b'gunPiercing', 1)
+        return
+
+
+class SiegeModePlugin(CrosshairPlugin):
+    __slots__ = (b'__siegeState',)
+
+    def __init__(self, parentObj):
+        super(SiegeModePlugin, self).__init__(parentObj)
+        self.__siegeState = _SIEGE_STATE.DISABLED
+        return
+
+    def start(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        if vStateCtrl is not None:
+            vStateCtrl.onVehicleStateUpdated += self.__onVehicleStateUpdated
+            vStateCtrl.onVehicleControlling += self.__onVehicleControlling
+            vehicle = vStateCtrl.getControllingVehicle()
+            if vehicle is not None:
+                self.__onVehicleControlling(vehicle)
+        return
+
+    def stop(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        if vStateCtrl is not None:
+            vStateCtrl.onVehicleStateUpdated -= self.__onVehicleStateUpdated
+            vStateCtrl.onVehicleControlling -= self.__onVehicleControlling
+        return
+
+    def __onVehicleControlling(self, vehicle):
+        ctrl = self.sessionProvider.shared.vehicleState
+        vTypeDesc = vehicle.typeDescriptor
+        if ctrl.isInPostmortem:
+            return
+        else:
+            if vTypeDesc.hasSiegeMode and vTypeDesc.hasHydraulicChassis:
+                value = ctrl.getStateValue(VEHICLE_VIEW_STATE.SIEGE_MODE)
+                if value is not None:
+                    self.__onVehicleStateUpdated(VEHICLE_VIEW_STATE.SIEGE_MODE, value)
+                else:
+                    self.__updateView()
+            else:
+                self.__siegeState = _SIEGE_STATE.DISABLED
+                self.__updateView()
+            return
+
+    def __onVehicleStateUpdated(self, stateID, value):
+        if stateID == VEHICLE_VIEW_STATE.SIEGE_MODE:
+            siegeState, _ = value
+            self.__siegeState = siegeState
+            self.__updateView()
+        elif stateID == VEHICLE_VIEW_STATE.SWITCHING:
+            self.__siegeState = _SIEGE_STATE.DISABLED
+            self.__updateView()
+        return
+
+    def __updateView(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        vehicle = vStateCtrl.getControllingVehicle()
+        if vehicle is None:
+            return
+        else:
+            vTypeDescr = vehicle.typeDescriptor
+            if vTypeDescr.isWheeledVehicle or vTypeDescr.hasAutoSiegeMode or vTypeDescr.type.isDualgunVehicleType:
+                self._parentObj.as_setNetTypeS(NET_TYPE_OVERRIDE.DISABLED)
+                return
+            isNetSeparatorVisible = self.__siegeState == _SIEGE_STATE.DISABLED and not vTypeDescr.isTemperatureGun
+            self._parentObj.as_setNetSeparatorVisibleS(isNetSeparatorVisible)
+            if self.__siegeState == _SIEGE_STATE.ENABLED:
+                self._parentObj.as_setNetTypeS(self.__getEnabledNetType(vTypeDescr))
+            elif self.__siegeState == _SIEGE_STATE.DISABLED:
+                self._parentObj.as_setNetTypeS(NET_TYPE_OVERRIDE.DISABLED)
+            visibleMask = CROSSHAIR_CONSTANTS.VISIBLE_NET if self._isHideAmmo() else CROSSHAIR_CONSTANTS.VISIBLE_ALL
+            visibleMask = visibleMask if self.__siegeState not in _SIEGE_STATE.SWITCHING else CROSSHAIR_CONSTANTS.INVISIBLE
+            self._parentObj.as_setNetVisibleS(visibleMask)
+            return
+
+    @staticmethod
+    def __getEnabledNetType(vTypeDescr):
+        if vTypeDescr.hasTurboshaftEngine:
+            return NET_TYPE_OVERRIDE.DISABLED
+        return NET_TYPE_OVERRIDE.SIEGE_MODE
+
+
+class ShotDonePlugin(CrosshairPlugin):
+    __slots__ = ()
+
+    def start(self):
+        feedbackCtrl = self.sessionProvider.shared.feedback
+        feedbackCtrl.onShotDone += self.__onShotDone
+        return
+
+    def stop(self):
+        feedbackCtrl = self.sessionProvider.shared.feedback
+        if feedbackCtrl is not None:
+            feedbackCtrl.onShotDone -= self.__onShotDone
+        return
+
+    def __onShotDone(self):
+        self._parentObj.as_showShotS()
+        return
+
+
+class SpeedometerWheeledTech(CrosshairPlugin):
+    __slots__ = (b'__siegeState', b'__burnoutLevelMax', b'__burnoutWarningOn', b'__viewID', b'__destroyTimerShown', b'__cachedBurnoutLevel')
+
+    def __init__(self, parentObj):
+        super(SpeedometerWheeledTech, self).__init__(parentObj)
+        self.__siegeState = _SIEGE_STATE.DISABLED
+        self.__burnoutLevelMax = 255.0
+        self.__burnoutWarningOn = False
+        self.__viewID = -1
+        self.__destroyTimerShown = False
+        self.__cachedBurnoutLevel = None
+        return
+
+    def start(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        crosshairCtrl = self.sessionProvider.shared.crosshair
+        if BattleReplay.g_replayCtrl.isPlaying:
+            g_replayEvents.onTimeWarpStart += self.__onReplayTimeWarpStart
+        if vStateCtrl is not None:
+            vStateCtrl.onVehicleStateUpdated += self.__onVehicleStateUpdated
+            vStateCtrl.onVehicleControlling += self.__onVehicleControlling
+            crosshairCtrl.onCrosshairViewChanged += self.__onCrosshairViewChanged
+            vehicle = vStateCtrl.getControllingVehicle()
+            if vehicle is not None and vehicle.hasSpeedometer:
+                self.__onVehicleControlling(vehicle)
+        specCtrl = self.sessionProvider.dynamic.spectator
+        if specCtrl is not None:
+            specCtrl.onSpectatorViewModeChanged += self.__onSpectatorModeChanged
+        add = g_eventBus.addListener
+        add(GameEvent.DESTROY_TIMERS_PANEL, self.__destroyTimersListener, scope=EVENT_BUS_SCOPE.BATTLE)
+        self.settingsCore.onSettingsChanged += self.__onSettingsChanged
+        return
+
+    def stop(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        crosshairCtrl = self.sessionProvider.shared.crosshair
+        if BattleReplay.g_replayCtrl.isPlaying:
+            g_replayEvents.onTimeWarpStart -= self.__onReplayTimeWarpStart
+        if vStateCtrl is not None:
+            vStateCtrl.onVehicleStateUpdated -= self.__onVehicleStateUpdated
+            vStateCtrl.onVehicleControlling -= self.__onVehicleControlling
+            crosshairCtrl.onCrosshairViewChanged -= self.__onCrosshairViewChanged
+        specCtrl = self.sessionProvider.dynamic.spectator
+        if specCtrl is not None:
+            specCtrl.onSpectatorViewModeChanged -= self.__onSpectatorModeChanged
+        remove = g_eventBus.removeListener
+        remove(GameEvent.DESTROY_TIMERS_PANEL, self.__destroyTimersListener, scope=EVENT_BUS_SCOPE.BATTLE)
+        self.settingsCore.onSettingsChanged -= self.__onSettingsChanged
+        return
+
+    def __onVehicleControlling(self, vehicle):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        vTypeDesc = vehicle.typeDescriptor
+        if vTypeDesc.hasSpeedometer and vehicle.isAlive():
+            if vStateCtrl.isInPostmortem:
+                self.__resetSpeedometer()
+            self.__updateBurnoutWarning(vStateCtrl)
+            self.__updateCurrentBurnoutLevel(vehicle)
+            if self.settingsCore.getSetting(GAME.ENABLE_SPEEDOMETER):
+                self.__addSpedometer(vehicle)
+            self.__updateCurStateSpeedMode(vStateCtrl)
+        else:
+            self.parentObj.as_removeSpeedometerS()
+        return
+
+    def __onVehicleStateUpdated(self, stateID, value):
+        if stateID == VEHICLE_VIEW_STATE.SPEED and self.parentObj is not None:
+            self.parentObj.as_updateSpeedS(value)
+        elif stateID == VEHICLE_VIEW_STATE.DESTROYED and self.parentObj is not None:
+            self.parentObj.as_removeSpeedometerS()
+        elif stateID == VEHICLE_VIEW_STATE.SIEGE_MODE:
+            self.__changeSpeedoType(*value)
+        elif stateID == VEHICLE_VIEW_STATE.BURNOUT:
+            self.__changeBurnoutLevel(value)
+        elif stateID == VEHICLE_VIEW_STATE.REPAIRING:
+            self.__stopEngineDamageWarning()
+        elif stateID == VEHICLE_VIEW_STATE.BURNOUT_WARNING:
+            if value > 0:
+                self.__setEngineDamageWarning()
+            elif self.__burnoutWarningOn:
+                self.__stopEngineDamageWarning()
+        elif stateID == VEHICLE_VIEW_STATE.DEVICES and self.parentObj is not None:
+            if _DEVICE_ENGINE_NAME in value and _DEVICE_REPAIRED in value:
+                self.parentObj.as_stopEngineCrushErrorS()
+                self.__stopEngineDamageWarning()
+        elif stateID == VEHICLE_VIEW_STATE.BURNOUT_UNAVAILABLE_DUE_TO_BROKEN_ENGINE and self.parentObj is not None:
+            if not self.__destroyTimerShown:
+                self.parentObj.as_setEngineCrushErrorS(INGAME_GUI.BURNOUT_HINT_ENGINEDAMAGED)
+        return
+
+    def __onCrosshairViewChanged(self, viewID):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        vehicle = vStateCtrl.getControllingVehicle()
+        if vehicle is None:
+            return
+        else:
+            if vehicle.hasSpeedometer and viewID == CROSSHAIR_VIEW_ID.ARCADE:
+                self.__onVehicleControlling(vehicle)
+                self.__updateCurStateSpeedMode(vStateCtrl)
+            return
+
+    def __resetSpeedometer(self):
+        self.parentObj.as_updateSpeedS(0)
+        if self.__cachedBurnoutLevel is not None:
+            self.parentObj.as_updateBurnoutS(self.__cachedBurnoutLevel)
+        if self.__burnoutWarningOn:
+            self.parentObj.as_setBurnoutWarningS(INGAME_GUI.BURNOUT_HINT_ENGINEDAMAGEWARNING)
+        else:
+            self.parentObj.as_stopBurnoutWarningS()
+        return
+
+    def __onSpectatorModeChanged(self, mode):
+        self.parentObj.as_removeSpeedometerS()
+        return
+
+    def __onReplayTimeWarpStart(self):
+        self.__resetSpeedometer()
+        return
+
+    def __updateCurStateSpeedMode(self, vStateCtrl):
+        value = vStateCtrl.getStateValue(VEHICLE_VIEW_STATE.SIEGE_MODE)
+        if value is not None:
+            self.__onVehicleStateUpdated(VEHICLE_VIEW_STATE.SIEGE_MODE, value)
+        else:
+            self.__onVehicleStateUpdated(VEHICLE_VIEW_STATE.SIEGE_MODE, (_SIEGE_STATE.DISABLED, None))
+        return
+
+    def __updateCurrentBurnoutLevel(self, vehicle):
+        self.__cachedBurnoutLevel = vehicle.burnoutLevel
+        return
+
+    def __updateBurnoutWarning(self, vStateCtrl):
+        value = vStateCtrl.getStateValue(VEHICLE_VIEW_STATE.BURNOUT_WARNING)
+        self.__burnoutWarningOn = value
+        return
+
+    def __getMaxSpeeds(self, vehicle):
+        typeDesc = vehicle.typeDescriptor
+        defaultVehicleDescr = typeDesc
+        siegeVehicleDescr = None
+        siegeMaxSpd = None
+        if typeDesc.hasSiegeMode:
+            defaultVehicleDescr = typeDesc.defaultVehicleDescr
+            siegeVehicleDescr = typeDesc.siegeVehicleDescr
+        if siegeVehicleDescr is not None:
+            siegeEngineCfg = siegeVehicleDescr.type.xphysics[b'engines'][typeDesc.engine.name]
+            siegeMaxSpd = round(siegeEngineCfg[b'smplFwMaxSpeed'])
+        defaultVehicleCfg = defaultVehicleDescr.type.xphysics[b'engines'][typeDesc.engine.name]
+        normalMaxSpd = defaultVehicleCfg[b'smplFwMaxSpeed']
+        return (
+         round(normalMaxSpd), siegeMaxSpd)
+
+    def __addSpedometer(self, vehicle):
+        normalMaxSpd, siegeMaxSpd = self.__getMaxSpeeds(vehicle)
+        self.parentObj.as_removeSpeedometerS()
+        self.parentObj.as_addSpeedometerS(normalMaxSpd, siegeMaxSpd)
+        if self.__cachedBurnoutLevel is not None:
+            self.parentObj.as_updateBurnoutS(self.__cachedBurnoutLevel)
+        if self.__burnoutWarningOn:
+            self.parentObj.as_setBurnoutWarningS(INGAME_GUI.BURNOUT_HINT_ENGINEDAMAGEWARNING)
+        else:
+            self.parentObj.as_stopBurnoutWarningS()
+        return
+
+    def __changeSpeedoType(self, siegeState, _):
+        if siegeState == _SIEGE_STATE.ENABLED:
+            self.parentObj.as_setSpeedModeS(True)
+        elif siegeState == _SIEGE_STATE.DISABLED:
+            self.parentObj.as_setSpeedModeS(False)
+        self.__siegeState = siegeState
+        return
+
+    def __changeBurnoutLevel(self, burnoutLevel):
+        if burnoutLevel is not None and burnoutLevel <= self.__burnoutLevelMax:
+            burnoutLevel = burnoutLevel / self.__burnoutLevelMax
+            self.parentObj.as_updateBurnoutS(burnoutLevel)
+            self.__cachedBurnoutLevel = burnoutLevel
+        return
+
+    def __setEngineDamageWarning(self):
+        if not self.__destroyTimerShown:
+            self.__burnoutWarningOn = True
+            self.parentObj.as_setBurnoutWarningS(INGAME_GUI.BURNOUT_HINT_ENGINEDAMAGEWARNING)
+        return
+
+    def __stopEngineDamageWarning(self):
+        if self.parentObj is not None:
+            self.__burnoutWarningOn = False
+            self.parentObj.as_stopBurnoutWarningS()
+        return
+
+    def __destroyTimersListener(self, event):
+        isShown = event.ctx[b'shown']
+        if isShown is not None:
+            self.__destroyTimerShown = isShown
+        if not isShown:
+            self.__stopEngineDamageWarning()
+            self.parentObj.as_stopEngineCrushErrorS()
+        return
+
+    def __onSettingsChanged(self, diff):
+        if GAME.ENABLE_SPEEDOMETER not in diff:
+            return
+        else:
+            if diff[GAME.ENABLE_SPEEDOMETER]:
+                if self.sessionProvider.shared.crosshair.getViewID() != CROSSHAIR_VIEW_ID.SNIPER:
+                    vStateCtrl = self.sessionProvider.shared.vehicleState
+                    if vStateCtrl is not None:
+                        vehicle = vStateCtrl.getControllingVehicle()
+                        if vehicle is not None and vehicle.hasSpeedometer:
+                            self.__onVehicleControlling(vehicle)
+            else:
+                self.parentObj.as_removeSpeedometerS()
+            return
+
+
+class DualGunPlugin(CrosshairPlugin):
+    __chargeMarkerState = aih_global_binding.bindRO(aih_global_binding.BINDING_ID.CHARGE_MARKER_STATE)
+
+    def start(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        crosshairCtrl = self.sessionProvider.shared.crosshair
+        if vStateCtrl is not None:
+            vStateCtrl.onVehicleStateUpdated += self.__onVehicleStateUpdated
+            vStateCtrl.onVehicleControlling += self.__onVehicleControlling
+            vehicle = vStateCtrl.getControllingVehicle()
+            self.__onVehicleControlling(vehicle)
+        if crosshairCtrl is not None:
+            crosshairCtrl.onChargeMarkerStateUpdated += self.__dualGunMarkerStateUpdated
+        add = g_eventBus.addListener
+        add(GameEvent.SNIPER_CAMERA_TRANSITION, self.__onSniperCameraTransition, scope=EVENT_BUS_SCOPE.BATTLE)
+        return
+
+    def stop(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        crosshairCtrl = self.sessionProvider.shared.crosshair
+        if vStateCtrl is not None:
+            vStateCtrl.onVehicleStateUpdated -= self.__onVehicleStateUpdated
+            vStateCtrl.onVehicleControlling -= self.__onVehicleControlling
+        if crosshairCtrl is not None:
+            crosshairCtrl.onChargeMarkerStateUpdated -= self.__dualGunMarkerStateUpdated
+        remove = g_eventBus.removeListener
+        remove(GameEvent.SNIPER_CAMERA_TRANSITION, self.__onSniperCameraTransition, scope=EVENT_BUS_SCOPE.BATTLE)
+        return
+
+    def __onVehicleControlling(self, vehicle):
+        if vehicle is None or not vehicle.isAlive():
+            return
+        vTypeDesc = vehicle.typeDescriptor
+        if vTypeDesc.type.isDualgunVehicleType:
+            self._parentObj.as_setNetSeparatorVisibleS(False)
+            if vTypeDesc.isDualgunVehicle:
+                self.__dualGunMarkerStateUpdated(self.__chargeMarkerState)
+        return
+
+    def __onVehicleStateUpdated(self, stateID, value):
+        if stateID == VEHICLE_VIEW_STATE.SIEGE_MODE:
+            self.__onSiegeStateUpdated(value)
+        if stateID == VEHICLE_VIEW_STATE.DUAL_GUN_CHARGER:
+            self.__onDualGunChargeStateUpdated(value)
+        return
+
+    def __onSiegeStateUpdated(self, value):
+        siegeState, _ = value
+        if siegeState is _SIEGE_STATE.DISABLED:
+            self.parentObj.as_cancelDualGunChargeS()
+        return
+
+    def __onDualGunChargeStateUpdated(self, value):
+        state, time = value
+        pingCompensation = SERVER_TICK_LENGTH * MS_IN_SECOND
+        if state == DUALGUN_CHARGER_STATUS.PREPARING:
+            baseTime, timeLeft = time
+            self.parentObj.as_startDualGunChargingS(timeLeft * MS_IN_SECOND - pingCompensation, baseTime * MS_IN_SECOND)
+        elif state in (DUALGUN_CHARGER_STATUS.CANCELED, DUALGUN_CHARGER_STATUS.UNAVAILABLE):
+            self.parentObj.as_cancelDualGunChargeS()
+        return
+
+    def __dualGunMarkerStateUpdated(self, markerState):
+        dualGunMarkerState = _DUAL_GUN_MARKER_STATES_MAP[markerState]
+        self.parentObj.as_updateDualGunMarkerStateS(dualGunMarkerState)
+        return
+
+    def __onSniperCameraTransition(self, event):
+        transitionTimeInSeconds = event.ctx.get(b'transitionTime')
+        gunIndex = event.ctx.get(b'currentGunIndex')
+        self.parentObj.as_runCameraTransitionFxS(gunIndex, transitionTimeInSeconds * MS_IN_SECOND)
+        return
+
+
+class ArtyCameraDistancePlugin(_DistancePlugin):
+    __slots__ = ()
+    _MIN_VALUE = 0.0
+    _MID_VALUE = 0.5
+    _MAX_VALUE = 1.0
+
+    def _update(self):
+        self.__updateCameraDistance()
+        return
+
+    def _onCrosshairViewChanged(self, viewID):
+        self._interval.stop()
+        if viewID in (CROSSHAIR_VIEW_ID.STRATEGIC, CROSSHAIR_VIEW_ID.ASSAULT):
+            self.__updateCameraDistance()
+            self._interval.start()
+            self._parentObj.as_updateScaleStepsS(avatar_getter.getInputHandler().ctrl.getZoomSteps())
+        return
+
+    def __updateCameraDistance(self):
+        inputHandler = avatar_getter.getInputHandler()
+        if inputHandler is None or inputHandler.ctrlModeName not in _STRATEGIC_VIEW or not inputHandler.ctrl.isEnabled:
+            return
+        if GUI_SETTINGS.spgAlternativeAimingCameraEnabled and self.settingsCore.getSetting(SPGAim.AUTO_CHANGE_AIM_MODE):
+            self.__updateWithAutoChangeMode(inputHandler.ctrl)
+        else:
+            self.__simpleUpdate(inputHandler.ctrl)
+        return
+
+    def __simpleUpdate(self, ctrl):
+        value = (1.0 - ctrl.getCamDistRatio()) * (self._MAX_VALUE - self._MIN_VALUE)
+        self._parentObj.as_updateScaleWidgetS(value)
+        return
+
+    def __updateWithAutoChangeMode(self, curCtrl):
+        self._parentObj.as_updateScaleWidgetS(curCtrl.getZoom())
+        return
+
+
+class SPGShotIndicatorState(IntEnum):
+    NOT_ACTIVE = 0
+    ACTIVE = 1
+    EMPTY_SHELL = 2
+    ACTIVE_EMPTY_SHELL = 3
+
+
+SPGShotResultData = namedtuple(b'ArtyShotResultVO', [b'shotIdx', b'shellTypeName', b'shotResult', b'state'])
+
+class SPGShotResultIndicatorPlugin(CrosshairPlugin):
+    __slots__ = (b'__isEnabled', b'__cache', b'__currentFlyTimes')
+
+    def __init__(self, parentObj):
+        super(SPGShotResultIndicatorPlugin, self).__init__(parentObj)
+        self.__isEnabled = False
+        self.__cache = {}
+        self.__currentFlyTimes = {}
+        return
+
+    def start(self):
+        crosshairCtrl = self.sessionProvider.shared.crosshair
+        if crosshairCtrl is not None:
+            crosshairCtrl.onCrosshairViewChanged += self.__onCrosshairViewChanged
+            crosshairCtrl.onSPGShotsIndicatorStateChanged += self.__onSPGShotsIndicatorStateChanged
+        ammoCtrl = self.sessionProvider.shared.ammo
+        if ammoCtrl is not None:
+            ammoCtrl.onCurrentShellChanged += self.__onCurrentShellChanged
+            ammoCtrl.onShellsUpdated += self.__onShellsUpdated
+        self.settingsCore.onSettingsChanged += self.__onSettingsChanged
+        self.__setEnabled(self._parentObj.getViewID())
+        return
+
+    def stop(self):
+        self.__clear()
+        self.settingsCore.onSettingsChanged -= self.__onSettingsChanged
+        ammoCtrl = self.sessionProvider.shared.ammo
+        if ammoCtrl is not None:
+            ammoCtrl.onShellsUpdated -= self.__onShellsUpdated
+            ammoCtrl.onCurrentShellChanged -= self.__onCurrentShellChanged
+        crosshairCtrl = self.sessionProvider.shared.crosshair
+        if crosshairCtrl is not None:
+            crosshairCtrl.onCrosshairViewChanged -= self.__onCrosshairViewChanged
+            crosshairCtrl.onSPGShotsIndicatorStateChanged -= self.__onSPGShotsIndicatorStateChanged
+        return
+
+    def __setEnabled(self, viewID):
+        self.__isEnabled = viewID in (CROSSHAIR_VIEW_ID.STRATEGIC, CROSSHAIR_VIEW_ID.ASSAULT) and self.settingsCore.getSetting(SPGAim.SHOTS_RESULT_INDICATOR)
+        currentState = self.sessionProvider.shared.crosshair.getSPGShotsIndicatorState()
+        if not self.__isEnabled:
+            self.__clear()
+        elif currentState:
+            self.__onSPGShotsIndicatorStateChanged(currentState)
+        return
+
+    def __clear(self):
+        self.__cache.clear()
+        self.__currentFlyTimes.clear()
+        self._parentObj.as_setGunMarkersIndicatorsS([])
+        return
+
+    def __onCrosshairViewChanged(self, viewID):
+        self.__setEnabled(viewID)
+        return
+
+    def __getState(self, vehicleDescriptor, shotIdx, shotIntCD, currentShell=None):
+        ammoCtrl = self.sessionProvider.shared.ammo
+        isEmpty = False
+        if ammoCtrl is not None and ammoCtrl.shellInAmmo(shotIntCD):
+            quantity, _ = ammoCtrl.getShells(shotIntCD)
+            if quantity <= 0:
+                isEmpty = True
+        else:
+            isEmpty = True
+        if currentShell is None:
+            if shotIdx == vehicleDescriptor.activeGunShotIndex:
+                if not isEmpty:
+                    return SPGShotIndicatorState.ACTIVE
+                return SPGShotIndicatorState.ACTIVE_EMPTY_SHELL
+        elif shotIntCD == currentShell:
+            if not isEmpty:
+                return SPGShotIndicatorState.ACTIVE
+            return SPGShotIndicatorState.ACTIVE_EMPTY_SHELL
+        if not isEmpty:
+            return SPGShotIndicatorState.NOT_ACTIVE
+        else:
+            return SPGShotIndicatorState.EMPTY_SHELL
+
+    def __onCurrentShellChanged(self, currentIntCD):
+        vehicle = self.sessionProvider.shared.vehicleState.getControllingVehicle()
+        if self.__isEnabled and vehicle is not None:
+            vehicleDescriptor = vehicle.typeDescriptor
+            for intCD in self.__cache:
+                data = self.__cache[intCD]
+                state = self.__getState(vehicleDescriptor, data.shotIdx, intCD, currentShell=currentIntCD)
+                self.__cache[intCD] = SPGShotResultData(data.shotIdx, data.shellTypeName, data.shotResult, int(state))
+
+            self.__updateUIIndicators()
+        return
+
+    def __onShellsUpdated(self, *args, **_):
+        intCD = args[0]
+        quantity = args[1]
+        flyTimeIsActive = None
+        if self.__isEnabled and quantity == 0 and intCD in self.__cache:
+            if self.__cache[intCD].state == SPGShotIndicatorState.ACTIVE:
+                newState = SPGShotIndicatorState.ACTIVE_EMPTY_SHELL
+            else:
+                newState = SPGShotIndicatorState.EMPTY_SHELL
+            flyTimeIsActive = self.__flyTimeIsActive(self.__cache[intCD].shotResult, newState)
+            self.__cache[intCD] = SPGShotResultData(self.__cache[intCD].shotIdx, self.__cache[intCD].shellTypeName, self.__cache[intCD].shotResult, int(newState))
+            self.__updateUIIndicators()
+        if flyTimeIsActive is not None and intCD in self.__currentFlyTimes and self.__currentFlyTimes[intCD][1] != flyTimeIsActive:
+            flyTime = self.__currentFlyTimes[intCD][0]
+            self.__currentFlyTimes[intCD] = (flyTime, flyTimeIsActive)
+            self._parentObj.as_setShotFlyTimesS([{b'shellIntCD': intCD, b'flyTime': (flyTime if flyTimeIsActive else -1.0)}])
+        return
+
+    def __onSPGShotsIndicatorStateChanged(self, shotStates):
+        vehicle = self.sessionProvider.shared.vehicleState.getControllingVehicle()
+        if self.__isEnabled and vehicle is not None:
+            vehicleDescriptor = vehicle.typeDescriptor
+            needIndicatorsUpdate = False
+            for i, shotDescr in enumerate(vehicleDescriptor.gun.shots):
+                intCD = shotDescr.shell.compactDescr
+                state = self.__getState(vehicleDescriptor, i, intCD)
+                shotState = shotStates.get(i, None)
+                shotResult = SPGShotResultEnum.NOT_HIT
+                if shotState is not None:
+                    shotResult = shotState[0]
+                    self.__currentFlyTimes[intCD] = (
+                     self.__roundTime(shotState[1]), self.__flyTimeIsActive(shotResult, state))
+                currentResult = self.__cache.get(intCD, None)
+                shellTypeNameR = R.strings.item_types.shell.kindsAbbreviation.dyn(shotDescr.shell.kind)
+                if currentResult is None or self.__cache[intCD].shotResult != shotResult or self.__cache[intCD].state != state:
+                    self.__cache[intCD] = SPGShotResultData(i, backport.text(shellTypeNameR()) if shellTypeNameR else b'', int(shotResult), int(state))
+                    needIndicatorsUpdate = True
+
+            if needIndicatorsUpdate:
+                self.__updateUIIndicators()
+            self._parentObj.as_setShotFlyTimesS([{b'shellIntCD': k, b'flyTime': (v[0] if v[1] else -1.0)} for k, v in self.__currentFlyTimes.iteritems()])
+        return
+
+    def __updateUIIndicators(self):
+        ammoCtrl = self.sessionProvider.shared.ammo
+        if ammoCtrl is not None:
+            indicators = [{b'shellIntCD': intCD, b'shellTypeName': (self.__cache[intCD].shellTypeName), b'shotResult': (self.__cache[intCD].shotResult), b'state': (self.__cache[intCD].state)} for intCD in ammoCtrl.getShellsOrderIter() if intCD in self.__cache]
+            self._parentObj.as_setGunMarkersIndicatorsS(indicators)
+        return
+
+    def __roundTime(self, flyTime):
+        flyTime *= 10
+        flyTime = int(flyTime + (0.5 if flyTime > 0 else -0.5))
+        return float(flyTime) / 10
+
+    def __onSettingsChanged(self, diff):
+        if SPGAim.SHOTS_RESULT_INDICATOR in diff:
+            self.__setEnabled(self.parentObj.getViewID())
+        return
+
+    def __flyTimeIsActive(self, shotResult, shellState):
+        return shotResult == SPGShotResultEnum.HIT and shellState not in (SPGShotIndicatorState.ACTIVE_EMPTY_SHELL, SPGShotIndicatorState.EMPTY_SHELL)
+
+
+class DualAccuracyGunPlugin(CrosshairPlugin):
+    __slots__ = (b'__dualAccGunCtrl', b'__cooldownCb', b'__timerTicking', b'__ammoEmpty', b'__gunDestroyed', b'__isEnabled', b'__leftTime')
+    _TICK = 0.1
+    _EPS = 0.03
+    _HEATED_SOUND = b'dualaccuracy_overheat_ui'
+    _COOLED_SOUND = b'dualaccuracy_cool_down_ui'
+
+    def __init__(self, parentObj):
+        super(DualAccuracyGunPlugin, self).__init__(parentObj)
+        self.__dualAccGunCtrl = None
+        self.__cooldownCb = CallbackDelayer()
+        self.__timerTicking = False
+        self.__ammoEmpty = False
+        self.__gunDestroyed = False
+        self.__isEnabled = False
+        self.__leftTime = 0
+        return
+
+    def start(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        if vStateCtrl is not None:
+            vStateCtrl.onVehicleControlling += self.__onVehicleControlling
+            vStateCtrl.onVehicleStateUpdated += self.__onVehicleStateUpdated
+            self.__onVehicleControlling(vStateCtrl.getControllingVehicle())
+        crosshairCtrl = self.sessionProvider.shared.crosshair
+        if crosshairCtrl is not None:
+            crosshairCtrl.onCrosshairViewChanged += self.__onCrosshairViewChanged
+        return
+
+    def stop(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        if vStateCtrl is not None:
+            vStateCtrl.onVehicleControlling -= self.__onVehicleControlling
+            vStateCtrl.onVehicleStateUpdated -= self.__onVehicleStateUpdated
+        crosshairCtrl = self.sessionProvider.shared.crosshair
+        if crosshairCtrl is not None:
+            crosshairCtrl.onCrosshairViewChanged -= self.__onCrosshairViewChanged
+        self.__unsubscribeDualAccuracyCtrl()
+        self.__cooldownCb.clearCallbacks()
+        return
+
+    def __onShellsUpdated(self, *_):
+        if self.__dualAccGunCtrl is None:
+            return
+        else:
+            ammoCtrl = self.sessionProvider.shared.ammo
+            prev = self.__ammoEmpty
+            self.__ammoEmpty = ammoCtrl.isEmptyAmmo()
+            if prev != self.__ammoEmpty and not self.__dualAccGunCtrl.isActive():
+                self.__setGunCoolingTimer()
+            return
+
+    def __onVehicleStateUpdated(self, stateID, value):
+        if stateID != VEHICLE_VIEW_STATE.DEVICES:
+            return
+        else:
+            device = value[0]
+            if device != DEVICE_NAMES.GUN:
+                return
+            if self.__dualAccGunCtrl is None:
+                return
+            prevGunState = self.__gunDestroyed
+            self.__gunDestroyed = value[1] == BATTLE_ITEM_STATES.DESTROYED
+            if prevGunState != self.__gunDestroyed and not self.__dualAccGunCtrl.isActive():
+                self.__setGunCoolingTimer()
+            return
+
+    def __onSetDualAccuracyState(self, *_):
+        self.__playSound()
+        return
+
+    def __onShellsAdded(self, *_):
+        ammoCtrl = self.sessionProvider.shared.ammo
+        self.__ammoEmpty = ammoCtrl is not None and ammoCtrl.isEmptyAmmo()
+        self.__onDualAccuracyDataUpdated(self.__ammoEmpty)
+        return
+
+    def __onDualAccuracyDataUpdated(self, isSkipRecalcTimer=False):
+        isActive = self.__dualAccGunCtrl and self.__dualAccGunCtrl.isActive()
+        self.parentObj.as_setDualAccActiveS(not isActive)
+        if isSkipRecalcTimer:
+            self.__setGunCoolingTimer()
+            return
+        self.__recalcCoolingTimer()
+        return
+
+    def __recalcCoolingTimer(self):
+        left = self.__getLeftForActiveGun()
+        if left <= self._EPS:
+            self.__hideTimer()
+            return
+        self.__setCoolingState(True, left)
+        self.__setGunCoolingTimer()
+        self.__startCoolingTicker()
+        return
+
+    def __setCoolingState(self, isEnabled, leftTime):
+        self.__isEnabled = isEnabled
+        self.__leftTime = leftTime
+        return
+
+    def __getLeftForActiveGun(self):
+        ctrl = self.__dualAccGunCtrl
+        if ctrl is None or not ctrl.isActive():
+            return 0
+        coolingTime = ctrl.getGunCoolingLeftTime()
+        return coolingTime
+
+    def __startCoolingTicker(self):
+        if self.__timerTicking:
+            return
+        self.__timerTicking = True
+        self.__cooldownCb.clearCallbacks()
+        self.__cooldownCb.delayCallback(self._TICK, self.__tickCooling)
+        return
+
+    def __tickCooling(self):
+        self.__timerTicking = False
+        self.__recalcCoolingTimer()
+        return
+
+    def __hideTimer(self):
+        self.__setCoolingState(True, 0)
+        self.__setGunCoolingTimer()
+        self.__timerTicking = False
+        self.__cooldownCb.clearCallbacks()
+        return
+
+    def __onVehicleControlling(self, vehicle):
+        vTypeDesc = vehicle.typeDescriptor
+        if vTypeDesc.hasDualAccuracy:
+            self.__subscribeDualAccuracyCtrl(getPlayerVehicleDualAccuracy())
+        else:
+            self.__unsubscribeDualAccuracyCtrl()
+        self.parentObj.as_setGunCoolingVisibilityS(vTypeDesc.hasDualAccuracy)
+        return
+
+    def __onCrosshairViewChanged(self, _):
+        self.__timerTicking = False
+        self.__cooldownCb.clearCallbacks()
+        self.__setCoolingState(False, 0)
+        self.__setGunCoolingTimer()
+        self.__cooldownCb.delayCallback(0, self.__recalcCoolingTimer)
+        return
+
+    def __subscribeDualAccuracyCtrl(self, dualAccuracyGunCtrl):
+        ammoCtrl = self.sessionProvider.shared.ammo
+        if dualAccuracyGunCtrl and ammoCtrl is not None:
+            self.__dualAccGunCtrl = dualAccuracyGunCtrl
+            self.__dualAccGunCtrl.onSetDualAccState += self.__onSetDualAccuracyState
+            self.__dualAccGunCtrl.onDualAccuracyDataUpdated += self.__onDualAccuracyDataUpdated
+            ammoCtrl.onShellsUpdated += self.__onShellsUpdated
+            ammoCtrl.onShellsAdded += self.__onShellsAdded
+            self.__onShellsAdded()
+        return
+
+    def __unsubscribeDualAccuracyCtrl(self):
+        ammoCtrl = self.sessionProvider.shared.ammo
+        if self.__dualAccGunCtrl and ammoCtrl is not None:
+            self.__dualAccGunCtrl.onSetDualAccState -= self.__onSetDualAccuracyState
+            self.__dualAccGunCtrl.onDualAccuracyDataUpdated -= self.__onDualAccuracyDataUpdated
+            self.__dualAccGunCtrl = None
+            ammoCtrl.onShellsUpdated -= self.__onShellsUpdated
+            ammoCtrl.onShellsAdded -= self.__onShellsAdded
+        return
+
+    def __setGunCoolingTimer(self):
+        if self.__dualAccGunCtrl is None:
+            return
+        else:
+            if not self.__dualAccGunCtrl.isActive():
+                if self.__gunDestroyed or self.__ammoEmpty:
+                    self.parentObj.as_setGunCoolingTimeS(False, 0)
+                    return
+            if self.__gunDestroyed or self.__ammoEmpty:
+                self.parentObj.as_setGunCoolingTimeS(False, self.__leftTime)
+                return
+            self.parentObj.as_setGunCoolingTimeS(self.__isEnabled, self.__leftTime)
+            return
+
+    def __playSound(self):
+        if self.__leftTime != 0:
+            SoundGroups.g_instance.playSound2D(self._HEATED_SOUND)
+        else:
+            SoundGroups.g_instance.playSound2D(self._COOLED_SOUND)
+        return
+
+
+class DistanceFactorGunPlugin(CrosshairPlugin, EventsHandler):
+    __slots__ = (b'_callbackManager', b'_isDistanceFactor', b'_isAcceleration', b'__damage')
+    TICK_TIME = 0.5
+    _RTPC_HIT_SOUND = b'RTPC_ext_hitmarker_unguided_missile'
+    _HIGH_DAMAGE_VALUE = 0.7
+    _FEEDBACK_IDS = (
+     FEEDBACK_EVENT_ID.PLAYER_KILLED_ENEMY,
+     FEEDBACK_EVENT_ID.PLAYER_DAMAGED_HP_ENEMY,
+     FEEDBACK_EVENT_ID.PLAYER_DAMAGED_DEVICE_ENEMY)
+
+    def __init__(self, parentObj):
+        super(DistanceFactorGunPlugin, self).__init__(parentObj)
+        self._callbackManager = CallbackDelayer()
+        self._isDistanceFactor = False
+        self._isAcceleration = False
+        self.__damage = (0, 0)
+        return
+
+    def start(self):
+        super(DistanceFactorGunPlugin, self).start()
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        if vStateCtrl:
+            self.__onVehicleControlling(vStateCtrl.getControllingVehicle())
+        self._subscribe()
+        return
+
+    def stop(self):
+        self._unsubscribe()
+        self._callbackManager.clearCallbacks()
+        super(DistanceFactorGunPlugin, self).stop()
+        return
+
+    def _getEvents(self):
+        events = []
+        feedbackCtrl = self.sessionProvider.shared.feedback
+        if feedbackCtrl is not None:
+            events.append((feedbackCtrl.onPlayerFeedbackReceived, self.__onPlayerFeedbackReceived))
+        ammoCtrl = self.sessionProvider.shared.ammo
+        if ammoCtrl is not None:
+            events.append((ammoCtrl.onCurrentShellChanged, self.__onCurrentShellChanged))
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        if vStateCtrl is not None:
+            events.append((vStateCtrl.onVehicleControlling, self.__onVehicleControlling))
+        return events
+
+    def __onPlayerFeedbackReceived(self, events):
+        if self._isDistanceFactor or self._isAcceleration:
+            events = [item for item in events if item.getType() in self._FEEDBACK_IDS]
+            events.sort(key=(lambda item: self._FEEDBACK_IDS.index(item.getType())))
+            if not events:
+                return
+            isKill = first(events).getType() == FEEDBACK_EVENT_ID.PLAYER_KILLED_ENEMY
+            for event in events:
+                etype = event.getType()
+                extra = event.getExtra()
+                isShot = extra and extra.isShot()
+                indicatorState = None
+                degreeOfDamage = 0
+                if etype == FEEDBACK_EVENT_ID.PLAYER_DAMAGED_DEVICE_ENEMY and isShot:
+                    indicatorState = b'low'
+                elif etype == FEEDBACK_EVENT_ID.PLAYER_DAMAGED_HP_ENEMY and isShot:
+                    degreeOfDamage = 1.0 if isKill else self.__getDegreeOfDamage(extra.getDamage())
+                    isHighDamage = degreeOfDamage > self._HIGH_DAMAGE_VALUE
+                    indicatorState = b'max' if isHighDamage or isKill else b'low'
+                if indicatorState is not None:
+                    SoundGroups.g_instance.setRTPC(self._RTPC_HIT_SOUND, degreeOfDamage)
+                    SoundGroups.g_instance.playSound2D(backport.sound(R.sounds.hitmarker_unguided_missile()))
+                    self.parentObj.as_animShotHitMarkerS(indicatorState)
+                    break
+
+        return
+
+    def __onCurrentShellChanged(self, currentIntCD):
+        vehicle = self.sessionProvider.shared.vehicleState.getControllingVehicle()
+        if vehicle:
+            shot = findFirst((lambda x: x.shell.compactDescr == currentIntCD), vehicle.typeDescriptor.gun.shots)
+            if shot:
+                self.__udapteShellStatus(shot)
+                if self._isAcceleration or self._isDistanceFactor:
+                    self.__damage = shot.shell.dmgLimits
+        return
+
+    def __getDegreeOfDamage(self, damage):
+        minDamage, maxDamage = self.__damage
+        if minDamage >= maxDamage:
+            return 1.0
+        damage = max(min(damage, maxDamage), minDamage)
+        return round(1.0 - (float(maxDamage) - damage) / (maxDamage - minDamage), 2)
+
+    def __onVehicleControlling(self, vehicle):
+        if not vehicle:
+            return
+        shot = vehicle.typeDescriptor.shot
+        self.__udapteShellStatus(shot)
+        self.parentObj.as_setShotDamageIndVisibilityS(self._isDistanceFactor)
+        self.parentObj.as_setShotFlyTimeIndVisibilityS(self._isAcceleration)
+        self.parentObj.as_setShotHitMarkerVisibilityS(self._isDistanceFactor or self._isAcceleration)
+        if self._isAcceleration or self._isDistanceFactor:
+            self.__damage = shot.shell.dmgLimits
+            self._callbackManager.delayCallback(0, self.__update)
+        else:
+            self._callbackManager.clearCallbacks()
+        return
+
+    def __udapteShellStatus(self, shot):
+        self._isDistanceFactor = bool(shot.shell.distanceFactor)
+        self._isAcceleration = shot.acceleration > 0
+        return
+
+    @noexceptReturn(TICK_TIME)
+    def __update(self):
+        target = BigWorld.target()
+        player = BigWorld.player()
+        vehicle = player.vehicle
+        if not isinstance(target, Vehicle) or target.health <= 0 or not target.isCrewActive or not vehicle or target.publicInfo[b'team'] == vehicle.publicInfo[b'team']:
+            self.parentObj.as_setShotFlyTimeIndValueS(0)
+            self.parentObj.as_setShotDamageIndValueS(0)
+            return self.TICK_TIME
+        shotDescr = vehicle.typeDescriptor.shot
+        distance = vehicle.position.distTo(target.position)
+        self.__updateFlyTime(shotDescr, distance)
+        self.__updateDamage(shotDescr, distance)
+        return self.TICK_TIME
+
+    def __updateFlyTime(self, shotDescr, distance):
+        a = shotDescr.acceleration
+        v0 = shotDescr.speed
+        if isAlmostEqual(a, 0):
+            return
+        time = (-v0 + math.sqrt(v0 * v0 + 2 * a * distance)) / a
+        self.parentObj.as_setShotFlyTimeIndValueS(time)
+        return
+
+    def __updateDamage(self, shotDescr, distance):
+        shellDescr = shotDescr.shell
+        if not shellDescr.distanceFactor:
+            return
+        minDamage, maxDamage = shotDescr.shell.dmgLimits
+        factor = computeDistanceFactor(shellDescr, distance, b'damageFactor')
+        factor *= computeDistanceFactor(shellDescr, distance, b'armorFactor')
+        damage = shellDescr.damage[0]
+        damage = int(factor * damage)
+        percent = int((damage - minDamage) * 100 / (maxDamage - minDamage))
+        self.parentObj.as_setShotDamageIndValueS(percent)
+        return
+
+
+class TemperatureGunPlugin(CrosshairPlugin):
+    __slots__ = (b'__temperatureGunCtrl', b'__isReplay', b'__isStateHidden', b'__isOverheated')
+    _HIDDEN_STATE = -1
+
+    def __init__(self, parentObj):
+        super(TemperatureGunPlugin, self).__init__(parentObj)
+        self.__temperatureGunCtrl = None
+        self.__isReplay = False
+        self.__isStateHidden = True
+        self.__isOverheated = False
+        return
+
+    def start(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        if vStateCtrl is not None:
+            vStateCtrl.onVehicleControlling += self.__onVehicleControlling
+            vehicle = vStateCtrl.getControllingVehicle()
+            self.__onVehicleControlling(vehicle)
+        return
+
+    def stop(self):
+        vStateCtrl = self.sessionProvider.shared.vehicleState
+        if vStateCtrl is not None:
+            vStateCtrl.onVehicleControlling -= self.__onVehicleControlling
+        self.__unsubscribeTemperatureCtrl()
+        return
+
+    def __onVehicleControlling(self, vehicle):
+        vTypeDesc = vehicle.typeDescriptor
+        if vTypeDesc.isTemperatureGun:
+            states = vTypeDesc.gun.temperature.states
+            lastStateTemperature = states[-1].temperature
+            self.parentObj.as_addOverheatS([float(state.temperature) / lastStateTemperature for state in states[:-1]])
+            self.__subscribeTemperatureCtrl(vehicle.dynamicComponents.get(b'temperatureGunController'))
+        else:
+            self.__unsubscribeTemperatureCtrl()
+            self.parentObj.as_removeOverheatS()
+        return
+
+    def __subscribeTemperatureCtrl(self, temperatureGunCtrl):
+        if temperatureGunCtrl:
+            self.__temperatureGunCtrl = temperatureGunCtrl
+            temperatureGunCtrl.onSetOverheat += self.__onSetOverheat
+            temperatureGunCtrl.onTemperatureProgress += self.__update
+            temperatureGunCtrl.onSetState += self.__onSetState
+            isOverheated = temperatureGunCtrl.isOverheated
+            self.__isReplay = self.sessionProvider.isReplayPlaying
+            self.__isStateHidden = True
+            self.__onSetState(temperatureGunCtrl.state)
+            self.__onSetOverheat(isOverheated)
+        return
+
+    def __unsubscribeTemperatureCtrl(self):
+        temperatureGunCtrl = self.__temperatureGunCtrl
+        if temperatureGunCtrl:
+            temperatureGunCtrl.onTemperatureProgress -= self.__update
+            temperatureGunCtrl.onSetOverheat -= self.__onSetOverheat
+            temperatureGunCtrl.onSetState -= self.__onSetState
+            self.__temperatureGunCtrl = None
+            self.__isReplay = False
+            self.__isStateHidden = True
+            self.__isOverheated = False
+        return
+
+    def __onSetOverheat(self, isOverheat):
+        self.__isOverheated = isOverheat
+        self.parentObj.as_setOverheatStatusS(isOverheat)
+        self.__update(self.__temperatureGunCtrl.overheatPercent, self.__temperatureGunCtrl.getCoolingTime(), not isOverheat)
+        return
+
+    def __onSetState(self, state):
+        if self.__isStateHidden:
+            state = self._HIDDEN_STATE
+        self.parentObj.as_setOverheatStateS(state)
+        return
+
+    def __update(self, temperatureProgress, timeLeft, isForceSkip=False):
+        hiddenStateFlag = not temperatureProgress or self.__isOverheated
+        if hiddenStateFlag != self.__isStateHidden:
+            self.__isStateHidden = hiddenStateFlag
+            self.__onSetState(self.__temperatureGunCtrl.state)
+        self.parentObj.as_setOverheatProgressS(temperatureProgress, timeLeft, self.__isReplay or isForceSkip)
+        return
+
+
+class ShotDistancePlugin(_DistancePlugin):
+    __slots__ = (b'__currentShellDistance', b'__trackID', b'__isTargetLocked', b'__canHitTarget')
+
+    def __init__(self, parentObj):
+        super(ShotDistancePlugin, self).__init__(parentObj)
+        self.__trackID = 0
+        self.__currentShellDistance = 0
+        self.__isTargetLocked = False
+        self.__canHitTarget = False
+        return
+
+    def start(self):
+        super(ShotDistancePlugin, self).start()
+        ctrl = self.sessionProvider.shared.feedback
+        if ctrl is not None:
+            ctrl.onVehicleFeedbackReceived += self.__onVehicleFeedbackReceived
+        ctrl = self.sessionProvider.shared.ammo
+        if ctrl is not None:
+            self.__onCurrentShellChanged(ctrl.getCurrentShellCD())
+            ctrl.onCurrentShellChanged += self.__onCurrentShellChanged
+        g_eventBus.addListener(GameEvent.ON_TARGET_VEHICLE_CHANGED, self.__handleTargetLock, scope=EVENT_BUS_SCOPE.BATTLE)
+        return
+
+    def stop(self):
+        super(ShotDistancePlugin, self).stop()
+        ctrl = self.sessionProvider.shared.feedback
+        if ctrl is not None:
+            ctrl.onVehicleFeedbackReceived -= self.__onVehicleFeedbackReceived
+        ctrl = self.sessionProvider.shared.ammo
+        if ctrl is not None:
+            ctrl.onCurrentShellChanged -= self.__onCurrentShellChanged
+        g_eventBus.removeListener(GameEvent.ON_TARGET_VEHICLE_CHANGED, self.__handleTargetLock, scope=EVENT_BUS_SCOPE.BATTLE)
+        return
+
+    def _update(self):
+        target = BigWorld.entity(self.__trackID)
+        if target is None:
+            self.__stopTrack()
+            return
+        else:
+            self.__updateDistance(target)
+            return
+
+    def _onCrosshairViewChanged(self, viewID):
+        return
+
+    def __handleTargetLock(self, event):
+        vehicleID = event.ctx.get(b'vehicleID')
+        self.__isTargetLocked = vehicleID is not None and vehicleID != 0
+        if self.__isTargetLocked:
+            self.__startTrack(vehicleID)
+        else:
+            self.__stopTrack()
+        return
+
+    def __onCurrentShellChanged(self, currentIntCD):
+        ctrl = self.sessionProvider.shared.ammo
+        if ctrl is None:
+            return
+        else:
+            self.__currentShellDistance = ctrl.getGunSettings().getMaxDistance(currentIntCD)
+            self._parentObj.as_setDistanceVisibilityS(self.__canHitTarget, self.__getShellDistanceString())
+            return
+
+    def __startTrack(self, vehicleID):
+        self.__stopTrack()
+        target = BigWorld.entity(vehicleID)
+        if target is not None and self.__shouldTrackVehicle(target):
+            self.__trackID = vehicleID
+            self.__updateDistance(target)
+            self._interval.start()
+        return
+
+    def __stopTrack(self):
+        self._interval.stop()
+        self.__trackID = 0
+        if self.__canHitTarget:
+            self.__canHitTarget = False
+            self._parentObj.as_setDistanceVisibilityS(self.__canHitTarget, self.__getShellDistanceString())
+        return
+
+    def __updateDistance(self, target):
+        targetDistance = avatar_getter.getDistanceToTarget(target)
+        canHitTarget = self.__currentShellDistance >= math.floor(targetDistance)
+        if canHitTarget != self.__canHitTarget:
+            self.__canHitTarget = canHitTarget
+            self._parentObj.as_setDistanceVisibilityS(self.__canHitTarget, self.__getShellDistanceString())
+        return
+
+    def __getShellDistanceString(self):
+        return b'%d' % self.__currentShellDistance + backport.text(R.strings.ingame_gui.marker.meters())
+
+    @staticmethod
+    def __shouldTrackVehicle(target):
+        return target.isAlive() and BigWorld.player().team != target.publicInfo[b'team']
+
+    def __onVehicleFeedbackReceived(self, eventID, vehicleID, value):
+        if self.__isTargetLocked or eventID != FEEDBACK_EVENT_ID.ENTITY_IN_FOCUS:
+            return
+        isInFocus, entityType = value
+        if entityType != ENTITY_IN_FOCUS_TYPE.VEHICLE:
+            return
+        if isInFocus:
+            self.__startTrack(vehicleID)
+        else:
+            self.__stopTrack()
+        return
+
+
+class EquipmentsPlugin(CrosshairPlugin):
+
+    def start(self):
+        super(EquipmentsPlugin, self).start()
+        equipCtrl = self.sessionProvider.shared.equipments
+        if equipCtrl is None:
+            raise SoftException(b'Equipment controller is None')
+        equipCtrl.onUpdateDamageModifier += self.__onDamageModifierUpdated
+        return
+
+    def stop(self):
+        super(EquipmentsPlugin, self).stop()
+        equipCtrl = self.sessionProvider.shared.equipments
+        if equipCtrl is not None:
+            equipCtrl.onUpdateDamageModifier -= self.__onDamageModifierUpdated
+        return
+
+    def __onDamageModifierUpdated(self, compactDescr, currentDamageModifier):
+        self.parentObj.as_setAbilityModifierS(int(round(currentDamageModifier * 100)), not self.__isExtendedAnim())
+        return
+
+    def __isExtendedAnim(self):
+        return self.settingsCore.getSetting(GRAPHICS.RENDER_PIPELINE) == _EXTENDED_RENDER_PIPELINE

@@ -1,0 +1,133 @@
+import copy
+from battle_modifiers_common import ModifiersContext
+from constants import BonusTypes, PenaltyTypes
+from gui.impl.lobby.hangar.modified_vehicle import g_modifiedVehicle
+from gui.Scaleform.daapi.view.lobby.hangar.VehicleParameters import VehicleParameters, _VehParamsDataProvider, _VehParamsGenerator
+from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS
+from gui.prb_control.entities.listener import IGlobalListener
+from gui.shared.items_parameters import params
+from gui.shared.items_parameters.comparator import VehiclesComparator
+from gui.shared.items_parameters.params import _PenaltyInfo
+from gui.shared.items_parameters.params_cache import g_paramsCache
+from helpers import dependency
+from skeletons.gui.game_control import IBattleModifiersController
+from skeletons.gui.shared import IItemsCache
+from CurrentVehicle import g_currentVehicle
+
+def _simpleValueDiff(value, originalValue):
+    return value - originalValue
+
+
+def _visionRadiusCalcDiff(value, originalValue):
+    if isinstance(value, tuple):
+        return tuple([val - original for val, original in zip(value, originalValue)])
+    return value - originalValue
+
+
+_SUPPORTED_MODIFIERS = {b'visionRadius': (
+                   b'circularVisionRadius', _visionRadiusCalcDiff), 
+   b'radioDistance': (
+                    b'radioDistance', _simpleValueDiff), 
+   b'vehicleHealth': (
+                    b'maxHealth', _simpleValueDiff), 
+   b'thermalVisionDistance': (
+                            b'thermalVisionDistance', _simpleValueDiff), 
+   b'reloadTime': (
+                 b'reloadTime', _simpleValueDiff), 
+   b'autoreloadTime': (
+                     b'autoreloadTime', _simpleValueDiff)}
+
+@dependency.replace_none_kwargs(battleModifiersController=IBattleModifiersController)
+def appendBattleModifiersPenalties(penalties, modifiedParams, originalParams, battleModifiersController=None):
+    modifiers = battleModifiersController.getBattleModifiersObject()
+    if modifiers is not None:
+        for _, modifier in modifiers:
+            if modifier.gameplayImpact == 2 and modifier.param.name in _SUPPORTED_MODIFIERS:
+                paramName, calcDiff = _SUPPORTED_MODIFIERS.get(modifier.param.name)
+                if paramName not in modifiedParams or paramName not in originalParams:
+                    continue
+                section = penalties.get(paramName, [])
+                value = modifiedParams[paramName]
+                originalValue = originalParams[paramName]
+                diff = calcDiff(value, originalValue)
+                section.append(_PenaltyInfo(battleModifiersController.getCurrentDomain(), diff, False, PenaltyTypes.BATTLE_MODIFIERS))
+                penalties[paramName] = section
+
+    return
+
+
+@dependency.replace_none_kwargs(battleModifiersController=IBattleModifiersController)
+def appendBattleModifiersBonuses(bonuses, battleModifiersController=None):
+    modifiers = battleModifiersController.getBattleModifiersObject()
+    if modifiers is not None:
+        for _, modifier in modifiers:
+            if modifier.gameplayImpact == 1 and modifier.param.name in _SUPPORTED_MODIFIERS:
+                bonuses.add((modifier.param.name, BonusTypes.BATTLE_MODIFIERS))
+
+    return
+
+
+def modifiedVehiclesComparator(modifiedVehicle, originalVehicle):
+    vehicleParamsObject = params.VehicleParams(modifiedVehicle)
+    originalVehicleParams = params.VehicleParams(originalVehicle).getParamsDict()
+    vehicleParams = vehicleParamsObject.getParamsDict()
+    bonuses = vehicleParamsObject.getBonuses(modifiedVehicle)
+    appendBattleModifiersBonuses(bonuses)
+    penalties = vehicleParamsObject.getPenalties(modifiedVehicle)
+    appendBattleModifiersPenalties(penalties, vehicleParams, originalVehicleParams)
+    compatibleArtefacts = g_paramsCache.getCompatibleArtefacts(modifiedVehicle)
+    idealCrewVehicle = copy.copy(originalVehicle)
+    idealCrewVehicle.crew = originalVehicle.getPerfectCrew()
+    perfectVehicleParams = params.VehicleParams(idealCrewVehicle).getParamsDict()
+    return VehiclesComparator(vehicleParams, perfectVehicleParams, compatibleArtefacts, bonuses, penalties)
+
+
+class ModifiedParamsDataProvider(_VehParamsDataProvider):
+
+    def _getComparator(self):
+        return modifiedVehiclesComparator(self._cache.item, self._cache.defaultItem)
+
+
+class ModifiedVehicleParameters(VehicleParameters, IGlobalListener):
+    _battleModifiersController = dependency.descriptor(IBattleModifiersController)
+    _itemsCache = dependency.descriptor(IItemsCache)
+
+    def _populate(self):
+        super(ModifiedVehicleParameters, self)._populate()
+        self.startGlobalListening()
+        g_currentVehicle.onChanged += self._onVehicleChanged
+        self._onVehicleChanged()
+        return
+
+    def _dispose(self):
+        g_currentVehicle.onChanged -= self._onVehicleChanged
+        self.stopGlobalListening()
+        g_modifiedVehicle.clear()
+        super(ModifiedVehicleParameters, self)._dispose()
+        return
+
+    def onStrongholdDataChanged(self, header, isFirstBattle, reserve, reserveOrder):
+        self._onVehicleChanged()
+        return
+
+    def onPrbEntitySwitched(self):
+        self._onVehicleChanged()
+        return
+
+    def _onVehicleChanged(self, *_):
+        modifiers = self._battleModifiersController.getBattleModifiersObject()
+        if modifiers is not None and g_currentVehicle.isPresent():
+            vehicle = self._itemsCache.items.getVehicleCopy(g_currentVehicle.item)
+            vehicle.descriptor.battleModifiers = ModifiersContext(modifiers, vehType=vehicle.descriptor.type)
+            vehicle.descriptor.rebuildAttrs()
+            g_modifiedVehicle.setCustomVehicle(vehicle)
+        else:
+            g_modifiedVehicle.setCustomVehicle(g_currentVehicle.item)
+        self.rebuildParams()
+        return
+
+    def _getVehicleCache(self):
+        return g_modifiedVehicle
+
+    def _createDataProvider(self):
+        return ModifiedParamsDataProvider(_VehParamsGenerator(tooltipType=TOOLTIPS_CONSTANTS.MODIFIED_VEHICLE_PARAMS_TOOLTIP))

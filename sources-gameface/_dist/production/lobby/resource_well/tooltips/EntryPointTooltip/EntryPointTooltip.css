@@ -1,0 +1,720 @@
+.Content_base_a5 {
+    width: 302rem;
+    height: 288rem;
+    border: 1rem solid #f2f2e61a;
+    border-radius: 2rem;
+    background: linear-gradient(180deg, rgba(51, 51, 41, .3) 0%, rgba(51, 51, 41, 0) 16%, rgba(51, 51, 41, 0) 88%, rgba(51, 51, 41, .1) 100%),
+                linear-gradient(0deg, #030200, #030200);
+}
+
+    .Content_base__regularRewardReceived_be,
+    .Content_base__topRewardReceived_12 {
+        height: 234rem;
+    }
+
+    .Content_base__forbidden_9e,
+    .Content_base__paused_33 {
+        height: auto;
+    }
+
+    .Content_base__notStarted_45 {
+        width: 308rem;
+        height: 264rem;
+    }
+
+.Content_content_4a {
+    padding: 118rem 21rem 0;
+}
+
+.Content_topImage_2e {
+    width: 100%;
+    height: 170rem;
+    background: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.states.notStarted') no-repeat center / contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Content_topImage__forbidden_33 {
+            background-image: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.states.forbidden');
+        }
+
+.Content_topImage__paused_73 {
+            background-image: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.states.paused');
+        }
+
+.Content_topImage__regularRewardAvailable_d6 {
+            background-image: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.states.regularRewardAvailable');
+        }
+
+.Content_topImage__topRewardAvailable_d7 {
+            background-image: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.states.topRewardAvailable');
+        }
+
+.Content_topImage__noRewards_8a {
+            background-image: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.states.noRewards');
+        }
+
+.Content_topImage__regularRewardReceived_ae {
+            background-image: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.states.regularRewardReceived');
+        }
+
+.Content_topImage__topRewardReceived_fb {
+            background-image: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.states.topRewardReceived');
+        }
+
+.Content_title_fb {
+    color: #E9E2BF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    position: relative;
+}
+
+.Box_mt__XS_0c {
+            margin-top: 4rem;
+        }
+        .Box_mt__SM_eb {
+            margin-top: 8rem;
+        }
+        .Box_mt__SMp_cf {
+            margin-top: 10rem;
+        }
+        .Box_mt__MD_25 {
+            margin-top: 16rem;
+        }
+        .Box_mt__MDp_49 {
+            margin-top: 20rem;
+        }
+        .Box_mt__LG_e8 {
+            margin-top: 32rem;
+        }
+        .Box_mt__XL_83 {
+            margin-top: 64rem;
+        }
+
+.Box_mr__XS_7c {
+            margin-right: 4rem;
+        }
+
+.Box_mr__SM_08 {
+            margin-right: 8rem;
+        }
+
+.Box_mr__SMp_06 {
+            margin-right: 10rem;
+        }
+
+.Box_mr__MD_4a {
+            margin-right: 16rem;
+        }
+
+.Box_mr__MDp_b6 {
+            margin-right: 20rem;
+        }
+
+.Box_mr__LG_d0 {
+            margin-right: 32rem;
+        }
+
+.Box_mr__XL_db {
+            margin-right: 64rem;
+        }
+
+.Box_mb__XS_bb {
+            margin-bottom: 4rem;
+        }
+
+.Box_mb__SM_83 {
+            margin-bottom: 8rem;
+        }
+
+.Box_mb__SMp_04 {
+            margin-bottom: 10rem;
+        }
+
+.Box_mb__MD_ed {
+            margin-bottom: 16rem;
+        }
+
+.Box_mb__MDp_65 {
+            margin-bottom: 20rem;
+        }
+
+.Box_mb__LG_c8 {
+            margin-bottom: 32rem;
+        }
+
+.Box_mb__XL_f8 {
+            margin-bottom: 64rem;
+        }
+
+.Box_ml__XS_8a {
+            margin-left: 4rem;
+        }
+
+.Box_ml__SM_e6 {
+            margin-left: 8rem;
+        }
+
+.Box_ml__SMp_fb {
+            margin-left: 10rem;
+        }
+
+.Box_ml__MD_2b {
+            margin-left: 16rem;
+        }
+
+.Box_ml__MDp_c7 {
+            margin-left: 20rem;
+        }
+
+.Box_ml__LG_39 {
+            margin-left: 32rem;
+        }
+
+.Box_ml__XL_4a {
+            margin-left: 64rem;
+        }
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* eslint-disable-next-line expectedscss*/
+.Text_paragraph-P10_2c {
+        font-size: 10rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_paragraph-P12_22 {
+        font-size: 12rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P14_a7 {
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P16_90 {
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P18_50 {
+        font-size: 18rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P24_33 {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 32rem;
+}
+.Text_heading-H14_8b {
+        font-size: 14rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H15_9e {
+        font-size: 15rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H18_b7 {
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H20R_f6 {
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H22_27 {
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H24R_be {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H24_0c {
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H28_78 {
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H36_32 {
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H56_c3 {
+        font-size: 56rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H73_8f {
+        font-size: 73rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H144_a9 {
+        font-size: 144rem;
+        font-weight: 700;
+        line-height: 1;
+}
+.Text_BLACK_REAL_30 {
+        color: #000000;
+    }
+.Text_WHITE_REAL_bc {
+        color: #FFFFFF;
+    }
+.Text_WHITE_62 {
+        color: #F2F2F7;
+    }
+.Text_WHITE_ORANGE_54 {
+        color: #FEFEEC;
+    }
+.Text_WHITE_SPANISH_df {
+        color: #E9E2BF;
+    }
+.Text_PAR_15 {
+        color: #8C8C7E;
+    }
+.Text_PAR_SECONDARY_5d {
+        color: #595950;
+    }
+.Text_PAR_TERTIARY_c9 {
+        color: #37362E;
+    }
+.Text_INFO_RED_30 {
+        color: #FF0000;
+    }
+.Text_RED_66 {
+        color: #FF2717;
+    }
+.Text_RED_DARK_d8 {
+        color: #B70000;
+    }
+.Text_YELLOW_ed {
+        color: #FEAB34;
+    }
+.Text_ORANGE_be {
+        color: #EE7000;
+    }
+.Text_CREAM_57 {
+        color: #FFDD99;
+    }
+.Text_BROWN_18 {
+        color: #CBAC77;
+    }
+.Text_GREEN_BRIGHT_3f {
+        color: #80D43A;
+    }
+.Text_GREEN_e3 {
+        color: #7AB300;
+    }
+.Text_GREEN_DARK_f1 {
+        color: #497212;
+    }
+.Text_BLUE_BOOSTER_21 {
+        color: #CCFFFF;
+    }
+.Text_BLUE_TEAMKILLER_ab {
+        color: #09E2FF;
+    }
+.Text_CRED_f7 {
+        color: #CED9D9;
+    }
+.Text_GOLD_28 {
+        color: #FFC363;
+    }
+.Text_BOND_be {
+        color: #C9C9B6;
+    }
+.Text_PROM_65 {
+        color: #A29B70;
+    }
+
+.TimerEntryPointTooltip_base_5a {
+    display: flex;
+}
+
+.TimerEntryPointTooltip_text_17 {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-right: 5rem;
+}
+
+.TimerEntryPointTooltip_lastUntil_25 {
+    color: #E9E2BF;
+    font-size: 14rem;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.TimerEntryPointTooltip_leftTime_d7 {
+    color: #FFDD99;
+    font-size: 14rem;
+    font-weight: 700;
+    line-height: 1.15;
+    text-shadow: 0 0 4rem rgba(255, 127, 0, .25), 0 0 8rem #ff2a00, 0 0 15rem #e52;
+}
+
+.TimerMainScreen_shineWrapper_3c {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.TimerMainScreen_shineBg_77 {
+    width: 462rem;
+    height: 260rem;
+    background: url('R.images.gui.maps.icons.resourceWell.timer.shine_timer_small') no-repeat center / contain;
+    opacity: 1;
+    position: relative;
+    top: -129rem;
+}
+
+.mediaMedium .TimerMainScreen_shineBg_77 {
+        width: 700rem;
+        height: 394rem;
+        background-image: url('R.images.gui.maps.icons.resourceWell.timer.shine_timer');
+        top: -182rem;
+}
+
+.TimerMainScreen_content_24 {
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.TimerMainScreen_text_9c,
+.TimerMainScreen_time_98 {
+    color: #E9E2BF;
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-right: 5rem;
+}
+
+.mediaMedium .TimerMainScreen_text_9c, .mediaMedium .TimerMainScreen_time_98 {
+        font-size: 18rem;
+}
+
+.TimerMainScreen_content__daysLeft_35 .TimerMainScreen_text_9c, .TimerMainScreen_content__daysLeft_35 .TimerMainScreen_time_98 {
+        color: #F2F2F7;
+        opacity: .5;
+    }
+
+.TimerMainScreen_content__endingSoon_f0 .TimerMainScreen_text_9c, .TimerMainScreen_content__endingSoon_f0 .TimerMainScreen_time_98 {
+        color: #FFDD99;
+        text-shadow: 0 0 4rem rgba(255, 127, 0, .25), 0 0 8rem #ff2a00, 0 0 15rem #e52;
+    }
+
+.TimerMainScreen_time_98 {
+    margin: 0;
+}
+
+.Timer_base_ca {
+    margin-top: 60rem;
+    position: relative;
+}
+
+    .Timer_base__entryPointTooltip_1d {
+        margin-top: 5rem;
+    }
+
+.NotStartedState_timerWrapper_8f {
+    display: flex;
+}
+
+.NotStartedState_timerIcon_f6 {
+    width: 37rem;
+    height: 37rem;
+    margin: -4rem -6rem 0 -10rem;
+    background: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.time_icon') no-repeat center / contain;
+}
+
+.NotStartedState_text_ab {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 10rem 0;
+}
+
+.NotStartedState_vehicleString_01 {
+    color: #E9E2BF;
+}
+
+.Counter_base_8c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70rem;
+}
+    .mediaMedium .Counter_base_8c {
+        margin-top: -80rem;
+}
+    .mediaLarge .Counter_base_8c {
+        margin-top: -59rem;
+}
+
+.Counter_base_8c.Counter_base__entryPointTooltip_2f {
+    margin-top: -59rem;
+}
+
+.Counter_counterGlow_ae {
+    background: url('R.images.gui.maps.icons.resourceWell.counter_glow') no-repeat center / contain;
+    position: absolute;
+    pointer-events: none;
+}
+
+.Counter_base__mainScreen_aa .Counter_counterGlow_ae {
+        width: 488rem;
+        height: 108rem;
+        top: -65rem;
+    }
+
+.mediaMedium .Counter_base__mainScreen_aa .Counter_counterGlow_ae {
+            top: -75rem;
+}
+
+.mediaLarge .Counter_base__mainScreen_aa .Counter_counterGlow_ae {
+            top: -63rem;
+}
+
+.Counter_base__entryPointTooltip_2f .Counter_counterGlow_ae {
+        width: 300rem;
+        height: 168rem;
+        top: -10rem;
+    }
+
+.Counter_counterBg_d9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('R.images.gui.maps.icons.resourceWell.counter_bg')  no-repeat center / contain;
+    position: relative;
+    pointer-events: none;
+}
+
+.Counter_base__mainScreen_aa .Counter_counterBg_d9 {
+        width: 310rem;
+        height: 200rem;
+        top: -40rem;
+    }
+
+.mediaLarge .Counter_base__mainScreen_aa .Counter_counterBg_d9 {
+            top: -50rem;
+}
+
+.Counter_base__entryPointTooltip_2f .Counter_counterBg_d9 {
+        width: 100%;
+        height: 124rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+.Counter_counterNumber_8b {
+    pointer-events: auto;
+}
+
+.Counter_counterNumber__less_8b {
+        text-shadow: 0 0 4rem rgba(255, 127, 0, .25), 0 0 8rem #ff2a00, 0 0 15rem #e52;
+    }
+
+.Counter_base__mainScreen_aa .Counter_counterNumber_8b {
+        color: #FFDD99;
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-top: -10rem;
+    }
+
+.mediaLarge .Counter_base__mainScreen_aa .Counter_counterNumber_8b {
+            font-size: 56rem;
+}
+
+.Counter_base__entryPointTooltip_2f .Counter_counterNumber_8b {
+        color: #FFDD99;
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+    }
+
+.Counter_tanksOverText_72 {
+    opacity: .5;
+}
+
+.Counter_base__mainScreen_aa .Counter_tanksOverText_72 {
+        color: #E9E2BF;
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-top: -10rem;
+    }
+
+.mediaMedium .Counter_base__mainScreen_aa .Counter_tanksOverText_72 {
+            color: #E9E2BF;
+            font-size: 28rem;
+            font-weight: 700;
+            line-height: 1.1;
+}
+
+.Counter_base__entryPointTooltip_2f .Counter_tanksOverText_72 {
+        color: #E9E2BF;
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin: 0;
+    }
+
+.Counter_errorWrapper_a2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pointer-events: auto;
+}
+
+.Counter_alertIcon_cf {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.gui.maps.icons.resourceWell.alertIcon') no-repeat center / contain;
+    z-index: 1;
+}
+
+.Counter_errorLines_6e {
+    color: #FFDD99;
+    font-size: 56rem;
+    font-weight: 700;
+    line-height: 1.1;
+    position: relative;
+    top: -23rem;
+}
+
+.RewardAvaiableState_timerWrapper_6e {
+    display: flex;
+    position: relative;
+}
+
+.RewardAvaiableState_timerIcon_7d {
+    width: 37rem;
+    height: 37rem;
+    margin: -4rem -6rem 0 -10rem;
+    background: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.time_icon') no-repeat center / contain;
+}
+
+.RewardAvaiableState_wrapper_2d {
+    position: relative;
+}
+
+.RewardAvaiableState_text_fb {
+    color: #FFDD99;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+    margin: 18rem 0 30rem;
+    text-align: center;
+}
+
+.RewardReceivedState_base_bb {
+    width: 100%;
+    position: relative;
+}
+
+.RewardReceivedState_checkIcon_ee {
+    width: 16rem;
+    height: 16rem;
+    margin-top: 3rem;
+    background: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.check') no-repeat center / contain;
+}
+
+.RewardReceivedState_checkText_38 {
+    color: #80D43A;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    z-index: 1;
+}
+
+.RewardReceivedState_greenLight_96 {
+    width: 302rem;
+    height: 132rem;
+    background: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.footerGreenLight') no-repeat center / contain;
+    position: absolute;
+    bottom: -4rem;
+    left: -22rem;
+    z-index: 0;
+}
+
+.RewardReceivedState_wrapper_22 {
+    display: flex;
+    margin: 25rem 0 15rem;
+    position: relative;
+}
+
+.RewardReceivedState_timerWrapper_e7 {
+    display: flex;
+    position: relative;
+}
+
+.RewardReceivedState_timerIcon_60 {
+    width: 37rem;
+    height: 37rem;
+    margin: -4rem -6rem 0 -10rem;
+    background: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.time_icon') no-repeat center / contain;
+}
+
+.WarningState_base_a9 {
+    display: flex;
+    padding: 8rem 16rem 25rem 0;
+    position: relative;
+}
+
+.WarningState_alertIcon_41 {
+    width: 18rem;
+    height: 20rem; /* aligns icon with text's baseline better */
+    margin-right: 2rem; /* add a little margin to better separate icon from text */
+    background: url('R.images.gui.maps.icons.resourceWell.tooltips.entryPoint.alertIcon') no-repeat center / contain;
+}
+
+.WarningState_alertText_3a {
+    color: #EE7000;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.TooltipDecorator_base_c9 {
+    display: flex;
+    position: absolute;
+}
+
+.TooltipDecorator_base__theme-default_6d .TooltipDecorator_decorator_3d {
+        padding: 4rem 6rem 8rem;
+        border-image-source: url('R.images.gui.maps.icons.tooltip.tooltip_background');
+        border-image-slice: 24 fill;
+        border-image-width: 24rem;
+        position: relative;
+    }
+

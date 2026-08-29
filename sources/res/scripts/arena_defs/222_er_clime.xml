@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:222_er_clime/name</name>
+	<description>#arenas:222_er_clime/description</description>
+	<geometry>spaces/222_er_clime</geometry>
+	<estimatedLoad>0.73</estimatedLoad>
+	<bonusTypeOverrides>
+		<EPIC_RANDOM>
+			<estimatedLoad>0.73</estimatedLoad>
+		</EPIC_RANDOM>
+		<EPIC_RANDOM_TRAINING>
+			<estimatedLoad>0.73</estimatedLoad>
+		</EPIC_RANDOM_TRAINING>
+	</bonusTypeOverrides>
+	<boundingBox>
+		<bottomLeft>-700 -800</bottomLeft>
+		<upperRight>700 600</upperRight>
+	</boundingBox>
+	<minimap>spaces/222_er_clime/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<maxPlayersInTeam>30</maxPlayersInTeam>
+	<wwmusicSetup>
+		<wwmusicLoading>music_kursk_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_kursk_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_kursk_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_kursk_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_kursk_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_kursk_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>env_Forest.bnk</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<wwambientSound>ambient_wind_autumn_01</wwambientSound>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf30x30>
+			<numPlayerGroups>3</numPlayerGroups>
+			<playerGroupLimit>10</playerGroupLimit>
+			<teamSpawnPoints>
+				<team1>
+					<position>-27.6609993 -684.60199</position>
+					<position>93.5889969 -640.343018</position>
+					<position>350.984985 -466.221985</position>
+				</team1>
+				<team2>
+					<position>-310.345001 374.131012</position>
+					<position>-106.261002 355.306</position>
+					<position>-30.5160007 493.921997</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>69.2510529 -529.359863</position1>
+				</team1>
+				<team2>
+					<position2>-80.6327591 337.29541</position2>
+				</team2>
+			</teamBasePositions>
+		</ctf30x30>
+		<assault2>
+			<maxPlayersInTeam>15</maxPlayersInTeam>
+			<boundingBox>
+				<bottomLeft>-700 -700</bottomLeft>
+				<upperRight>200 200</upperRight>
+			</boundingBox>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-25.2205524 -584.548218</position>
+				</team1>
+				<team2>
+					<position>-455.497772 96.2936096</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-441.086395 -510.007751</position1>
+					<position2>51.3285713 -191.838882</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+			<minimap>spaces/222_er_clime/mmap_assault2.dds</minimap>
+		</assault2>
+	</gameplayTypes>
+	<roadMap></roadMap>
+	<mapActivities></mapActivities>
+</root>

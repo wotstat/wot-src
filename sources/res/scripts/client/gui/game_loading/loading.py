@@ -1,0 +1,60 @@
+import inspect, typing, game_loading_bindings
+from debug_utils import LOG_CURRENT_EXCEPTION
+from gui.game_loading import loggers
+from gui.game_loading.loading_sounds import handleLoadingSoundStartEvent
+from gui.game_loading.preferences import GameLoadingPreferences
+from gui.game_loading.settings import GameLoadingSettings
+from gui.game_loading.state_machine.machine import GameLoadingStateMachine
+from helpers import dependency
+from helpers.statistics import HANGAR_LOADING_STATE
+from skeletons.helpers.statistics import IStatisticsCollector
+if typing.TYPE_CHECKING:
+    from ResMgr import DataSection
+_logger = loggers.getLoaderLogger()
+_g_Loader = GameLoadingStateMachine()
+
+def startSound():
+    handleLoadingSoundStartEvent()
+    return
+
+
+def getLoader():
+    return _g_Loader
+
+
+def tick(stepNumber):
+    getLoader().tick(stepNumber)
+    return
+
+
+def initialize(preferences, settings):
+    try:
+        settings = GameLoadingSettings(settings)
+        preferences = GameLoadingPreferences(preferences)
+        _g_Loader.configure(preferences, settings)
+        _g_Loader.start()
+    except Exception:
+        LOG_CURRENT_EXCEPTION()
+
+    return
+
+
+def step():
+    if game_loading_bindings.getIsVerbose():
+        stackList = inspect.stack()
+        if len(stackList) >= 1:
+            currentFrame = stackList[1]
+            if len(currentFrame) >= 4:
+                _logger.info(b'[game_loading] %s %s : %s', currentFrame[1], currentFrame[3], currentFrame[2])
+    game_loading_bindings.step()
+    return
+
+
+def markLoadingScreenResourcesFreed():
+    if not dependency.isConfigured(True):
+        return
+    else:
+        statsCollector = dependency.getInstanceIfHas(IStatisticsCollector)
+        if statsCollector is not None:
+            statsCollector.noteHangarLoadingState(HANGAR_LOADING_STATE.GAMEFACE_UI_LOADING_SCREEN_DESTROYED)
+        return

@@ -1,0 +1,24 @@
+from gui.impl import backport
+from gui.shared.ext_money import ExtendedCurrency
+from gui.shared.formatters import text_styles
+from gui.shared.formatters.currency import getBWFormatter, getStyle
+_EXTENDED_CURRENCY_TO_BW_FORMATTER = {(ExtendedCurrency.VEH_XP): (backport.getIntegralFormat), 
+   (ExtendedCurrency.XP): (backport.getIntegralFormat), 
+   (ExtendedCurrency.FREE_XP): (backport.getIntegralFormat)}
+_EXTENDED_CURRENCY_TO_TEXT_STYLE = {(ExtendedCurrency.VEH_XP): (text_styles.expText), 
+   (ExtendedCurrency.XP): (text_styles.expText), 
+   (ExtendedCurrency.FREE_XP): (text_styles.expText)}
+
+def formatExtendedCurrencyValue(currency, value, useStyle=True):
+    if currency in _EXTENDED_CURRENCY_TO_BW_FORMATTER:
+        bwFormatter = _EXTENDED_CURRENCY_TO_BW_FORMATTER[currency]
+    else:
+        bwFormatter = getBWFormatter(currency)
+    fValue = bwFormatter(value)
+    if useStyle:
+        if currency in _EXTENDED_CURRENCY_TO_TEXT_STYLE:
+            style = _EXTENDED_CURRENCY_TO_TEXT_STYLE[currency]
+        else:
+            style = getStyle(currency)
+        fValue = style(fValue)
+    return fValue

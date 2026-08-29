@@ -1,0 +1,2 @@
+CURRENT_REALM = b'RU'
+IS_CT = False

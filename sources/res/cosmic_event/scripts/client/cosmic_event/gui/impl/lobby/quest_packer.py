@@ -1,0 +1,166 @@
+import logging, typing
+from constants import LOOTBOX_TOKEN_PREFIX
+from cosmic_event.cosmic_constants import PROGRESSION_TOKEN
+from cosmic_event.gui.impl.lobby import cosmicPackBonusModelAndTooltipData
+from cosmic_event.skeletons.progression_controller import ICosmicEventProgressionController
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.impl.backport import createTooltipData
+from gui.impl.gen.view_models.common.missions.bonuses.token_bonus_model import TokenBonusModel
+from gui.server_events.formatters import parseComplexToken
+from gui.shared.missions.packers.bonus import BonusUIPacker, TokenBonusUIPacker, getDefaultBonusPackersMap, BACKPORT_TOOLTIP_CONTENT_ID, getLocalizedBonusName, CustomizationBonusUIPacker
+from gui.shared.missions.packers.events import DailyQuestUIDataPacker, packQuestBonusModelAndTooltipData
+from gui.shared.utils.functions import makeTooltip
+from gui_lootboxes.gui.bonuses.bonuses_packers import TmanTemplateBonusPacker
+from helpers import dependency
+from gui.server_events.bonuses import CustomizationsBonus
+if typing.TYPE_CHECKING:
+    from typing import List, Dict, Callable, TypeVar, Optional
+    from gui.server_events.formatters import TokenComplex
+    from gui.server_events.bonuses import TokensBonus
+    TokenBonusType = TypeVar(b'TokenBonusType', bound=TokensBonus)
+_logger = logging.getLogger(__name__)
+
+class CosmicTokenBonusUIPacker(TokenBonusUIPacker):
+
+    @classmethod
+    def _getTokenBonusType(cls, tokenID, complexToken):
+        if tokenID == PROGRESSION_TOKEN:
+            return PROGRESSION_TOKEN
+        if tokenID.startswith(LOOTBOX_TOKEN_PREFIX):
+            return LOOTBOX_TOKEN_PREFIX
+        return super(CosmicTokenBonusUIPacker, cls)._getTokenBonusType(tokenID, complexToken)
+
+    @classmethod
+    def _getTooltipsPackers(cls):
+        tooltips = super(CosmicTokenBonusUIPacker, cls)._getTooltipsPackers()
+        tooltips.update({PROGRESSION_TOKEN: (cls.__getCosmicToolTip), 
+           LOOTBOX_TOKEN_PREFIX: (cls.__getLootTooltip)})
+        return tooltips
+
+    @classmethod
+    def getToolTip(cls, bonus):
+        tooltip = super(CosmicTokenBonusUIPacker, cls)._getToolTip(bonus)
+        return [createTooltipData(tooltip[0])]
+
+    @classmethod
+    def _getTokenBonusPackers(cls):
+        packers = super(CosmicTokenBonusUIPacker, cls)._getTokenBonusPackers()
+        packers.update({PROGRESSION_TOKEN: (cls.__packCosmicToken), 
+           LOOTBOX_TOKEN_PREFIX: (cls.__packLootboxToken)})
+        return packers
+
+    @classmethod
+    def _getContentId(cls, bonus):
+        bonusTokens = bonus.getTokens()
+        result = []
+        for tokenID, _ in bonusTokens.iteritems():
+            complexToken = parseComplexToken(tokenID)
+            tokenType = cls._getTokenBonusType(tokenID, complexToken)
+            if tokenType == LOOTBOX_TOKEN_PREFIX:
+                result.append(R.views.gui_lootboxes.lobby.gui_lootboxes.tooltips.LootboxTooltip())
+            else:
+                result.append(BACKPORT_TOOLTIP_CONTENT_ID)
+
+        return result
+
+    @classmethod
+    def __packCosmicToken(cls, model, bonus, *args):
+        progressionController = dependency.instance(ICosmicEventProgressionController)
+        if progressionController.isProgressionFinished():
+            return None
+        else:
+            return cls.__packCosmicTokenCommon(model, bonus, b'mars_point')
+
+    @classmethod
+    def __packLootboxToken(cls, model, bonus, *args):
+        iconName = u'cosmic_2025_2'
+        model = cls.__packCosmicTokenCommon(model, bonus, iconName)
+        model.setLabel(backport.text(R.strings.quests.bonusName.cosmic_lootbox()))
+        return model
+
+    @classmethod
+    def __packCosmicTokenCommon(cls, model, bonus, name):
+        model.setName(name)
+        model.setValue(str(bonus.getCount()))
+        return model
+
+    @classmethod
+    def __getCosmicToolTip(cls, *_):
+        return makeTooltip(header=backport.text(R.strings.cosmicEvent.tooltip.marsPoints.header()), body=backport.text(R.strings.cosmicEvent.tooltip.marsPoints.description()))
+
+    @classmethod
+    def __getLootTooltip(cls, complexToken, token):
+        if token.id.startswith(LOOTBOX_TOKEN_PREFIX):
+            _, lbId = token.id.split(b':')
+            return lbId
+        else:
+            return
+
+
+def getCosmicBonusPacker():
+    mapping = getDefaultBonusPackersMap()
+    tokensPacker = CosmicTokenBonusUIPacker()
+    tmanTemplatePacker = CosmicTmanTemplateBonusPacker()
+    customizationPacker = CosmicCustomizationBonusPacker()
+    mapping.update({b'battleToken': tokensPacker, 
+       b'tmanToken': tmanTemplatePacker, 
+       b'customizations': customizationPacker})
+    return BonusUIPacker(mapping)
+
+
+class DailyCosmicQuestUIDataPacker(DailyQuestUIDataPacker):
+
+    def _packBonuses(self, model):
+        packer = getCosmicBonusPacker()
+        self._tooltipData = {}
+        packQuestBonusModelAndTooltipData(packer, model.getBonuses(), self._event, tooltipData=self._tooltipData)
+        return
+
+
+class PostBattleDailyCosmicQuestUIDataPacker(DailyQuestUIDataPacker):
+
+    def __init__(self, initialTooltipIndex, quest):
+        super(PostBattleDailyCosmicQuestUIDataPacker, self).__init__(quest)
+        self.__tooltipIndex = initialTooltipIndex
+        return
+
+    def _packBonuses(self, model):
+        questsBonusList = model.getBonuses()
+        bonuses = self._event.getBonuses()
+        packer = getCosmicBonusPacker()
+        cosmicPackBonusModelAndTooltipData(bonuses=bonuses, bonusModelsList=questsBonusList, tooltipData=self._tooltipData, packer=packer, startIndex=0, tooltipIndex=self.__tooltipIndex)
+        return
+
+    @property
+    def tooltipData(self):
+        return self._tooltipData
+
+
+class CosmicTmanTemplateBonusPacker(TmanTemplateBonusPacker):
+    _WOMAN_ICON = b'cosmic_crew_female'
+    _MAN_ICON = b'cosmic_crew_male'
+
+
+def getLabel(item):
+    labelStr = None
+    localizedLabel = R.strings.quests.bonusName.cosmic.dyn(item.itemTypeName)
+    if localizedLabel.exists():
+        labelStr = backport.text(localizedLabel(), name=item.userName)
+    else:
+        labelStr = getLocalizedBonusName(item.itemTypeName)
+    return labelStr
+
+
+class CosmicCustomizationBonusPacker(CustomizationBonusUIPacker):
+
+    @classmethod
+    def _pack(cls, bonus):
+        result = []
+        for item in bonus.getCustomizations():
+            if not item:
+                continue
+            label = getLabel(bonus.getC11nItem(item))
+            result.append(cls._packSingleBonus(bonus, item, label if label else b''))
+
+        return result

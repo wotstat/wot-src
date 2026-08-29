@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:127_japort/name</name>
+	<description>#arenas:127_japort/description</description>
+	<geometry>spaces/127_japort</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-500 -500</bottomLeft>
+		<upperRight>500 500</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/127_japort/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<wwmusicSetup>
+		<wwmusicLoading>music_japort_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_japort_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_japort_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_japort_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_japort_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_japort_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_spring_01</wwambientSound>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>-367.279236 156.182098</position1>
+				</team1>
+				<team2>
+					<position1>337.413452 152.013916</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-279.974823 -451.633392</position>
+				</team1>
+				<team2>
+					<position>364.110046 192.922302</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-132.764832 197.782181</position1>
+					<position2>48.9331055 -142.072617</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-425.191284 -137.12825</position>
+				</team1>
+				<team2>
+					<position>435.862183 -50.1266937</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>36.6523895 -206.953598</controlPoint>
+		</domination>
+	</gameplayTypes>
+	<roadMap></roadMap>
+	<mapActivities></mapActivities>
+	<wwambientSound></wwambientSound>
+</root>

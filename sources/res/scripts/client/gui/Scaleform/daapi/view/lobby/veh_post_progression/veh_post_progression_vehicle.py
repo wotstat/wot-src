@@ -1,0 +1,51 @@
+import typing
+if typing.TYPE_CHECKING:
+    from gui.shared.gui_items.Vehicle import Vehicle
+
+class _PostProgressionVehicle(object):
+    __slots__ = (b'__customVehicle', b'__defaultVehicle', b'__diffVehicle')
+
+    def __init__(self):
+        super(_PostProgressionVehicle, self).__init__()
+        self.__customVehicle = None
+        self.__defaultVehicle = None
+        self.__diffVehicle = None
+        return
+
+    def setCustomVehicle(self, value):
+        self.__customVehicle = value
+        return
+
+    def setDefaultVehicle(self, value):
+        self.__defaultVehicle = value
+        return
+
+    def setDiffVehicle(self, value):
+        self.__diffVehicle = value
+        return
+
+    @property
+    def defaultItem(self):
+        return self.__defaultVehicle
+
+    @property
+    def diffItem(self):
+        result = self.__diffVehicle or self.__defaultVehicle
+        self.__diffVehicle = None
+        return result
+
+    @property
+    def item(self):
+        return self.__customVehicle or self.__defaultVehicle
+
+    def isPresent(self):
+        return self.item is not None
+
+    def clear(self):
+        self.__customVehicle = None
+        self.__defaultVehicle = None
+        self.__diffVehicle = None
+        return
+
+
+g_postProgressionVehicle = _PostProgressionVehicle()

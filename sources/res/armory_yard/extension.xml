@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<FeatureName>armory_yard</FeatureName>
+	<IsEnabled>True</IsEnabled>
+	<Personality>ArmoryYardPersonality</Personality>
+	<Components>
+		<StaticComponents>
+			<AccountArmoryYardComponent></AccountArmoryYardComponent>
+			<AccountArmoryYardRerollComponent></AccountArmoryYardRerollComponent>
+		</StaticComponents>
+		<DynamicComponents></DynamicComponents>
+	</Components>
+	<Entities></Entities>
+	<ExternalComponents></ExternalComponents>
+	<gui>
+		<paths></paths>
+		<overrideAlias></overrideAlias>
+		<context_menu></context_menu>
+		<handler></handler>
+	</gui>
+</root>

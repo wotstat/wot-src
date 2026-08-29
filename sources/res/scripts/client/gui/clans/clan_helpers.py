@@ -1,0 +1,840 @@
+from collections import namedtuple
+from datetime import datetime
+import Event
+from adisp import adisp_async, adisp_process
+from client_request_lib.exceptions import ResponseCodes
+from debug_utils import LOG_DEBUG, LOG_WARNING, LOG_CURRENT_EXCEPTION
+from gui import SystemMessages, GUI_SETTINGS
+from gui.Scaleform.daapi.view.dialogs import I18nConfirmDialogMeta
+from gui.Scaleform.locale.DIALOGS import DIALOGS
+from gui.Scaleform.locale.RES_ICONS import RES_ICONS
+from gui.clans import interfaces, items, formatters
+from gui.clans.items import ClanInviteWrapper, ClanPersonalInviteWrapper
+from gui.clans.settings import CLAN_INVITE_STATES, DATA_UNAVAILABLE_PLACEHOLDER
+from gui.clans.settings import COUNT_THRESHOLD, PERSONAL_INVITES_COUNT_THRESHOLD
+from gui.shared.formatters import icons, text_styles
+from gui.shared.utils import getPlayerDatabaseID, getPlayerName
+from gui.shared.utils import sortByFields
+from gui.shared.utils.ListPaginator import ListPaginator
+from gui.shared.view_helpers import UsersInfoHelper
+from gui.clientgw.clan.contexts import ClansInfoCtx, AcceptInviteCtx, DeclineInviteCtx, DeclineInvitesCtx
+from gui.clientgw.clan.contexts import SearchClansCtx, GetRecommendedClansCtx, AccountInvitesCtx, ClanRatingsCtx
+from helpers import dependency
+from helpers import i18n
+from helpers import time_utils
+from helpers.local_cache import FileLocalCache
+from shared_utils import CONST_CONTAINER
+from skeletons.account_helpers.settings_core import ISettingsCore
+from skeletons.gui.lobby_context import ILobbyContext
+from skeletons.gui.web import IWebController
+_RequestData = namedtuple(b'_RequestData', [
+ 31, 32, 33, 34, 35])
+ACCOUNT_ALREADY_IN_CLAN = b'Account already invited'
+RATINGS_NOT_FOUND_ERROR = 404
+ACCOUNT_ALREADY_IN_CLAN_ERROR = 409
+INTERNAL_SERVER_ERROR = 500
+
+def showClanInviteSystemMsg(userName, isSuccess, code, data=None):
+    if isSuccess:
+        msg = formatters.getInvitesSentSysMsg((userName,))
+        msgType = SystemMessages.SM_TYPE.Information
+    else:
+        error = None
+        if data and code == ACCOUNT_ALREADY_IN_CLAN_ERROR and data.get(b'description') == ACCOUNT_ALREADY_IN_CLAN:
+            information = b'clans/notifications/alreadyInviteSent'
+            msg = formatters.getInviteNotSentSysMsg(userName, information)
+            msgType = SystemMessages.SM_TYPE.Information
+        elif code == ResponseCodes.ACCOUNT_ALREADY_INVITED:
+            error = b'clans/request/errors/Account already invited'
+        if code == ResponseCodes.ACCOUNT_ALREADY_IN_CLAN:
+            error = b'clans/request/errors/user is in clan already'
+        msg = formatters.getInviteNotSentSysMsg(userName, error)
+        msgType = SystemMessages.SM_TYPE.Error
+    SystemMessages.pushMessage(msg, msgType)
+    return
+
+
+@adisp_async
+def showAcceptClanInviteDialog(clanName, clanAbbrev, callback):
+    from gui import DialogsInterface
+    DialogsInterface.showDialog(I18nConfirmDialogMeta(b'clanConfirmJoining', messageCtx={b'icon': (icons.makeImageTag(RES_ICONS.MAPS_ICONS_LIBRARY_ATTENTIONICON, 16, 16, -4, 0)), 
+       b'clanName': (text_styles.stats(i18n.makeString(DIALOGS.CLANCONFIRMJOINING_MESSAGE_CLANNAME, clanAbbr=clanAbbrev, clanName=clanName))), 
+       b'clanExit': (text_styles.standard(i18n.makeString(DIALOGS.CLANCONFIRMJOINING_MESSAGE_CLANEXIT)))}), callback)
+    return
+
+
+def isInClanEnterCooldown(clanCooldownTill):
+    return time_utils.getCurrentTimestamp() - clanCooldownTill <= 0
+
+
+class ClanListener(interfaces.IClanListener):
+    webCtrl = dependency.descriptor(IWebController)
+    settingsCore = dependency.descriptor(ISettingsCore)
+
+    def startClanListening(self):
+        self.webCtrl.addListener(self)
+        return
+
+    def stopClanListening(self):
+        self.webCtrl.removeListener(self)
+        return
+
+
+class ClanFinder(ListPaginator, UsersInfoHelper):
+
+    def __init__(self, requester, offset=0, count=18):
+        super(ClanFinder, self).__init__(requester, offset, count)
+        self.__pattern = str()
+        self.__lastResult = []
+        self.__listMapping = {}
+        self.__lastStatus = True
+        self.__totalCount = None
+        self.__isRecommended = False
+        self.__lastSuccessRequestData = None
+        self.__isSynced = False
+        self.__hasNextPage = False
+        return
+
+    def isSynced(self):
+        return self.__isSynced
+
+    def setPattern(self, pattern):
+        self.__pattern = pattern
+        return
+
+    def getPattern(self):
+        return self.__pattern
+
+    def getTotalCount(self):
+        return self.__totalCount
+
+    def getLastStatus(self):
+        return self.__lastStatus
+
+    def getLastResult(self):
+        return self.__lastResult
+
+    def isRecommended(self):
+        return self.__isRecommended
+
+    def setRecommended(self, isRecommended):
+        self.__isRecommended = isRecommended
+        return
+
+    def getItemByID(self, clanDbID):
+        if clanDbID in self.__listMapping:
+            return self.__lastResult[self.__listMapping[clanDbID]]
+        else:
+            return
+
+    def canMoveLeft(self):
+        return self.__lastStatus and self._offset > 0
+
+    def canMoveRight(self):
+        return self.__lastStatus and self.__hasNextPage
+
+    def hasSuccessRequest(self):
+        return self.__lastSuccessRequestData is not None
+
+    def requestLastSuccess(self):
+        if self.hasSuccessRequest():
+            self.__isRecommended = self.__lastSuccessRequestData.isRecommended
+            self.__pattern = self.__lastSuccessRequestData.pattern
+            self._count = self.__lastSuccessRequestData.count
+            self._offset = self.__lastSuccessRequestData.offset
+            self._request(self.__lastSuccessRequestData.isReset)
+        else:
+            LOG_DEBUG(b'Has not been success result yet. Operation is unavailable.')
+        return
+
+    @adisp_process
+    def _request(self, isReset=False):
+        self._offset = max(self._offset, 0)
+        count = self._count + 1
+        if self.__isRecommended:
+            ctx = GetRecommendedClansCtx(self._offset, count, True)
+        else:
+            ctx = SearchClansCtx(self.__pattern, self._offset, count, True)
+        result = yield self._requester.sendRequest(ctx, allowDelay=True)
+        self.__lastResult = ctx.getDataObj(result.data)
+        if self.__lastResult and len(self.__lastResult) == count:
+            self.__hasNextPage = True
+            self.__lastResult.pop()
+        else:
+            self.__hasNextPage = False
+        self.__lastStatus = result.isSuccess()
+        self.__totalCount = ctx.getTotalCount(result.data)
+        self._invalidateMapping()
+        for item in self.__lastResult:
+            self.getUserName(item.getLeaderDbID())
+
+        if result.isSuccess():
+            self.__isSynced = True
+            if not result.data:
+                if not isReset:
+                    self.revertOffset()
+            elif self.isRecommended():
+                self.__lastSuccessRequestData = _RequestData(self.__pattern, self._offset, self._count, isReset, self.__isRecommended)
+        else:
+            self.revertOffset()
+        self.syncUsersInfo()
+        self.onListUpdated(self._selectedID, True, True, (self.__lastStatus, self.__lastResult))
+        return
+
+    def _invalidateMapping(self):
+        self.__listMapping = {}
+        if self.__lastResult is not None:
+            for index, item in enumerate(self.__lastResult):
+                self.__listMapping[item.getClanDbID()] = index
+
+        return
+
+
+class ClanInvitesPaginator(ListPaginator, UsersInfoHelper):
+
+    def __init__(self, requester, contextClass, clanDbID, statuses=None, offset=0, count=50):
+        super(ClanInvitesPaginator, self).__init__(requester, offset, count)
+        statuses = statuses or []
+        self.__ctxClass = contextClass
+        self.__clanDbID = clanDbID
+        self.__statuses = statuses
+        self.__invitesCache = []
+        self.__cacheMapping = {}
+        self.__accountNameMapping = {}
+        self.__senderNameMapping = {}
+        self.__changerNameMapping = {}
+        self.__lastStatus = True
+        self.__lastResult = []
+        self.__totalCount = None
+        self.__allInvitesCached = False
+        self.__lastSort = tuple()
+        self.__isSynced = False
+        self.__sentRequestCount = 0
+        self.onListItemsUpdated = Event.Event(self._eManager)
+        return
+
+    def setStatuses(self, statuses):
+        self.__statuses = statuses
+        return
+
+    def getStatuses(self):
+        return self.__statuses
+
+    def getTotalCount(self):
+        return self.__totalCount
+
+    def canMoveLeft(self):
+        return self.__lastStatus and self._offset > 0
+
+    def canMoveRight(self):
+        return self.__lastStatus and self.__totalCount > self._offset + self._count
+
+    def isInProgress(self):
+        return self.__sentRequestCount > 0
+
+    def isSynced(self):
+        return self.__isSynced
+
+    def markAsUnSynced(self):
+        self.__isSynced = False
+        return
+
+    def getLastStatus(self):
+        return self.__lastStatus
+
+    def getLastResult(self):
+        return self.__lastResult
+
+    def getLastSort(self):
+        return self.__lastSort
+
+    def sort(self, sort):
+        self._selectedID = None
+        self._offset = self.getInitialOffset()
+        self._prevOffset = self._offset
+        self._request(isReset=True, sort=sort)
+        return
+
+    def refresh(self, *args, **kwargs):
+        sort = kwargs.get(b'sort') or self.__lastSort
+        self.__invitesCache = []
+        self.__lastStatus = False
+        self.__allInvitesCached = False
+        self.__lastSort = tuple()
+        self._selectedID = None
+        self._offset = self.getInitialOffset()
+        self._prevOffset = self._offset
+        self._request(isReset=True, sort=sort)
+        return
+
+    def accept(self, inviteDbId, context):
+        invite = self.getInviteByDbID(inviteDbId)
+        if invite is not None:
+            self.__sendRequest(invite, context, CLAN_INVITE_STATES.ACCEPTED)
+        return
+
+    def decline(self, inviteDbId, context):
+        invite = self.getInviteByDbID(inviteDbId)
+        if invite is not None:
+            self.__sendRequest(invite, context, CLAN_INVITE_STATES.DECLINED)
+        return
+
+    def resend(self, inviteDbId, context):
+        invite = self.getInviteByDbID(inviteDbId)
+        if invite is not None:
+            if invite.getStatus() == CLAN_INVITE_STATES.EXPIRED:
+                self.__sendRequest(invite, context, CLAN_INVITE_STATES.EXPIRED_RESENT)
+            elif invite.getStatus() == CLAN_INVITE_STATES.DECLINED:
+                self.__sendRequest(invite, context, CLAN_INVITE_STATES.DECLINED_RESENT)
+        return
+
+    def getInviteByDbID(self, inviteDbID):
+        index = self.__cacheMapping.get(inviteDbID, -1)
+        if 0 <= index < len(self.__invitesCache):
+            return self.__invitesCache[index]
+        else:
+            return
+
+    def onUserNamesReceived(self, names):
+        updatedInvites = set()
+        for userID, name in names.iteritems():
+            for inviteID in self.__accountNameMapping.get(userID, tuple()):
+                invite = self.getInviteByDbID(inviteID)
+                if invite is not None:
+                    invite.setUserName(name)
+                    updatedInvites.add(inviteID)
+
+            for inviteID in self.__senderNameMapping.get(userID, tuple()):
+                invite = self.getInviteByDbID(inviteID)
+                if invite is not None:
+                    invite.setSenderName(name)
+                    updatedInvites.add(inviteID)
+
+            for inviteID in self.__changerNameMapping.get(userID, tuple()):
+                invite = self.getInviteByDbID(inviteID)
+                if invite is not None:
+                    invite.setChangerName(name)
+                    updatedInvites.add(inviteID)
+
+        if updatedInvites:
+            self.onListItemsUpdated(self, [self.__invitesCache[self.__cacheMapping[invID]] for invID in updatedInvites])
+        return
+
+    @adisp_process
+    def _request(self, isReset=False, sort=tuple()):
+        self.__sentRequestCount += 1
+        self._offset = max(self._offset, 0)
+        offset = 0
+        count = self._offset + self._count
+        if not self.__lastStatus or not self.__allInvitesCached:
+            if sort:
+                yield self.__requestInvites(0, COUNT_THRESHOLD, isReset)
+                self.__allInvitesCached = self.__lastStatus
+            else:
+                yield self.__requestInvites(offset, count, isReset)
+        self.__lastResult = []
+        if self.__lastStatus:
+            if sort is not None and sort != self.__lastSort:
+                self.__invitesCache = sortByFields(sort, self.__invitesCache, valueGetter=getattr)
+                self.__lastSort = sort
+                self.__rebuildMapping()
+            self.__lastResult = self.__getSlice(offset, count)
+        self.__sentRequestCount -= 1
+        self.onListUpdated(self._selectedID, True, True, (self.__lastStatus, self.__lastResult))
+        return
+
+    def __getSlice(self, offset, count):
+        result = list()
+        total = len(self.__invitesCache)
+        if total > offset + count:
+            result = self.__invitesCache[offset:count]
+        elif total > offset:
+            result = self.__invitesCache[offset:]
+        return result
+
+    def getUserName(self, userDbID):
+        if userDbID:
+            return super(ClanInvitesPaginator, self).getUserName(userDbID)
+        return
+
+    @adisp_async
+    @adisp_process
+    def __requestInvites(self, offset, count, isReset, callback):
+        ctx = self.__ctxClass(clanDbID=self.__clanDbID, offset=offset, limit=count, statuses=self.__statuses, getTotalCount=isReset)
+        result = yield self._requester.sendRequest(ctx, allowDelay=True)
+        invites = ctx.getDataObj(result.data)
+        self.__lastStatus = result.isSuccess()
+        if isReset:
+            self.__totalCount = ctx.getTotalCount(result.data)
+        if result.isSuccess():
+            if not invites and not isReset:
+                self.revertOffset()
+            usrIDs = set()
+            for item in invites:
+                usrIDs.add(item.getAccountDbID())
+                temp = self.__accountNameMapping.get(item.getAccountDbID(), set())
+                temp.add(item.getDbID())
+                self.__accountNameMapping[item.getAccountDbID()] = temp
+                usrIDs.add(item.getChangedBy())
+                temp = self.__changerNameMapping.get(item.getChangedBy(), set())
+                temp.add(item.getDbID())
+                self.__changerNameMapping[item.getChangedBy()] = temp
+                usrIDs.add(item.getSenderDbID())
+                temp = self.__senderNameMapping.get(item.getSenderDbID(), set())
+                temp.add(item.getDbID())
+                self.__senderNameMapping[item.getSenderDbID()] = temp
+
+            self.__lastStatus, users = yield self._requester.requestUsers(usrIDs)
+            if self.__lastStatus:
+                self.__invitesCache = [ClanInviteWrapper(invite, users.get(invite.getAccountDbID(), items.AccountClanRatingsData(invite.getAccountDbID())), self.getUserName(invite.getAccountDbID()), users.get(invite.getChangedBy(), items.AccountClanRatingsData(invite.getChangedBy())), senderName=self.getUserName(invite.getSenderDbID()), changerName=self.getUserName(invite.getChangedBy())) for invite in invites]
+            else:
+                self.__invitesCache = []
+                self.revertOffset()
+        else:
+            self.__invitesCache = []
+            self.revertOffset()
+        self.__rebuildMapping()
+        self.syncUsersInfo()
+        self.__isSynced = self.__lastStatus
+        callback((self.__lastStatus, self.__invitesCache))
+        return
+
+    def __rebuildMapping(self):
+        self.__cacheMapping = dict((invite.getDbID(), index) for index, invite in enumerate(self.__invitesCache))
+        return
+
+    @adisp_process
+    def __sendRequest(self, invite, context, successStatus):
+        self.__sentRequestCount += 1
+        userDbID = getPlayerDatabaseID()
+        temp = self.__accountNameMapping.get(userDbID, set())
+        temp.add(invite.getDbID())
+        self.__accountNameMapping[userDbID] = temp
+        result = yield self._requester.sendRequest(context, allowDelay=True)
+        if result.isSuccess():
+            status = (
+             successStatus, None)
+        else:
+            status = (
+             CLAN_INVITE_STATES.ERROR, result.getCode())
+        result, users = yield self._requester.requestUsers([userDbID])
+        sender = users.get(userDbID, items.AccountClanRatingsData(userDbID))
+        senderName = self.getUserName(userDbID)
+        changerName = getPlayerName()
+        item = self.__updateInvite(invite, status, sender, senderName, changerName)
+        self.syncUsersInfo()
+        self.__sentRequestCount -= 1
+        self.onListItemsUpdated(self, [item])
+        return
+
+    def __updateInvite(self, inviteWrapper, statusData, sender, senderName, changerName):
+        status, code = statusData
+        utc = datetime.utcnow()
+        invite = inviteWrapper.invite.update(status=status, status_changer_id=sender.getAccountDbID(), updated_at=utc)
+        inviteWrapper.setInvite(invite)
+        inviteWrapper.setSender(sender)
+        inviteWrapper.setSenderName(senderName)
+        inviteWrapper.setChangerName(changerName)
+        inviteWrapper.setStatusCode(code)
+        return inviteWrapper
+
+    def __checkUserName(self, name):
+        if not name:
+            return DATA_UNAVAILABLE_PLACEHOLDER
+        return name
+
+
+class ClanPersonalInvitesPaginator(ListPaginator, UsersInfoHelper):
+
+    def __init__(self, requester, accountDbID, statuses=None, offset=0, count=50):
+        super(ClanPersonalInvitesPaginator, self).__init__(requester, offset, count)
+        self.__accountDbID = accountDbID
+        self.__statuses = statuses or []
+        self.__invitesCache = []
+        self.__cacheMapping = {}
+        self.__lastStatus = True
+        self.__lastResult = []
+        self.__totalCount = None
+        self.__allInvitesCached = False
+        self.__lastSort = tuple()
+        self.__isSynced = False
+        self.__sentRequestCount = 0
+        self.__senderNameMapping = {}
+        self.onListItemsUpdated = Event.Event(self._eManager)
+        return
+
+    def setStatuses(self, statuses):
+        self.__statuses = statuses
+        return
+
+    def getStatuses(self):
+        return self.__statuses
+
+    def getTotalCount(self):
+        return self.__totalCount
+
+    def canMoveLeft(self):
+        return self.__lastStatus and self._offset > 0
+
+    def canMoveRight(self):
+        return self.__lastStatus and self.__totalCount > self._offset + self._count
+
+    def isInProgress(self):
+        return self.__sentRequestCount > 0
+
+    def isSynced(self):
+        return self.__isSynced
+
+    def markAsUnSynced(self):
+        self.__isSynced = False
+        return
+
+    def getLastStatus(self):
+        return self.__lastStatus
+
+    def getLastResult(self):
+        return self.__lastResult
+
+    def getLastSort(self):
+        return self.__lastSort
+
+    def sort(self, sort):
+        self._selectedID = None
+        self._offset = self.getInitialOffset()
+        self._prevOffset = self._offset
+        self._request(isReset=True, sort=sort)
+        return
+
+    def refresh(self, *args, **kwargs):
+        sort = kwargs.get(b'sort') or self.__lastSort
+        self.__invitesCache = []
+        self.__lastStatus = False
+        self.__allInvitesCached = False
+        self.__lastSort = tuple()
+        self._selectedID = None
+        self._offset = self.getInitialOffset()
+        self._prevOffset = self._offset
+        self._request(isReset=True, sort=sort)
+        return
+
+    @adisp_process
+    def accept(self, inviteID):
+        inviteWrapper = self.getInviteByDbID(inviteID)
+        if inviteWrapper:
+            clanInfo = inviteWrapper.clanInfo
+            clanName = clanInfo.getClanName()
+            clanTag = clanInfo.getTag()
+            result = yield showAcceptClanInviteDialog(clanName, clanTag)
+            if result:
+                self.__sendADRequest(AcceptInviteCtx(inviteID), CLAN_INVITE_STATES.ACCEPTED, (lambda result: None))
+        else:
+            LOG_WARNING(b"Couldn't find invite by id = " + str(inviteID))
+        return
+
+    def decline(self, inviteID):
+        self.__sendADRequest(DeclineInviteCtx(inviteID), CLAN_INVITE_STATES.DECLINED)
+        return
+
+    def declineList(self, inviteIDs):
+        self.__sendADListRequest(DeclineInvitesCtx(inviteIDs), CLAN_INVITE_STATES.DECLINED)
+        return
+
+    def getInviteByDbID(self, inviteDbID):
+        index = self.__cacheMapping.get(inviteDbID, -1)
+        if 0 <= index < len(self.__invitesCache):
+            return self.__invitesCache[index]
+        else:
+            return
+
+    def onUserNamesReceived(self, names):
+        updatedInvites = set()
+        for userID, name in names.iteritems():
+            for inviteID in self.__senderNameMapping.get(userID, tuple()):
+                invite = self.getInviteByDbID(inviteID)
+                if invite is not None:
+                    invite.setSenderName(name)
+                    updatedInvites.add(inviteID)
+
+        if updatedInvites:
+            self.onListItemsUpdated(self, [self.__invitesCache[self.__cacheMapping[invID]] for invID in updatedInvites])
+        return
+
+    @adisp_process
+    def _request(self, isReset=False, sort=tuple()):
+        self.__sentRequestCount += 1
+        self._offset = max(self._offset, 0)
+        offset = 0
+        count = self._offset + self._count
+        if not self.__lastStatus or not self.__allInvitesCached:
+            if sort:
+                yield self.__requestInvites(0, PERSONAL_INVITES_COUNT_THRESHOLD, isReset)
+                self.__allInvitesCached = self.__lastStatus
+            else:
+                yield self.__requestInvites(offset, count, isReset)
+        self.__lastResult = []
+        if self.__lastStatus:
+            if sort is not None and sort != self.__lastSort:
+                self.__invitesCache = sortByFields(sort, self.__invitesCache, valueGetter=getattr)
+                self.__lastSort = sort
+                self.__rebuildMapping()
+            self.__lastResult = self.__getSlice(offset, count)
+        self.__sentRequestCount -= 1
+        self.onListUpdated(self._selectedID, True, True, (self.__lastStatus, self.__lastResult))
+        return
+
+    def __getSlice(self, offset, count):
+        result = list()
+        total = len(self.__invitesCache)
+        if total > offset + count:
+            result = self.__invitesCache[offset:count]
+        elif total > offset:
+            result = self.__invitesCache[offset:]
+        return result
+
+    @adisp_async
+    @adisp_process
+    def __requestInvites(self, offset, count, isReset, callback):
+        ctx = AccountInvitesCtx(accountDbID=self.__accountDbID, offset=offset, limit=count, statuses=self.__statuses, getTotalCount=isReset)
+        result = yield self._requester.sendRequest(ctx, allowDelay=True)
+        invites = ctx.getDataObj(result.data)
+        self.__lastStatus = result.isSuccess()
+        if isReset:
+            self.__totalCount = ctx.getTotalCount(result.data)
+        if result.isSuccess():
+            if not invites and not isReset:
+                self.revertOffset()
+            if invites:
+                clansIDs = [item.getClanDbID() for item in invites]
+                ctx = ClanRatingsCtx(clansIDs)
+                result = yield self._requester.sendRequest(ctx, allowDelay=True)
+                if result.getCode() in (RATINGS_NOT_FOUND_ERROR, INTERNAL_SERVER_ERROR):
+                    clanRatings = {}
+                else:
+                    clanRatings = dict((item.getClanDbID(), item) for item in ctx.getDataObj(result.data))
+                ctx = ClansInfoCtx(clansIDs)
+                result = yield self._requester.sendRequest(ctx, allowDelay=True)
+                clanInfo = dict((item.getDbID(), item) for item in ctx.getDataObj(result.data))
+                for item in clanInfo.itervalues():
+                    self.getUserName(item.getLeaderDbID())
+
+                def getSenderID(inviteItem):
+                    changerDbID = inviteItem.getChangerDbID()
+                    if changerDbID == 0:
+                        return inviteItem.getSenderDbID()
+                    return changerDbID
+
+                for item in invites:
+                    senderID = getSenderID(item)
+                    temp = self.__senderNameMapping.get(senderID, set())
+                    temp.add(item.getDbID())
+                    self.__senderNameMapping[senderID] = temp
+
+                self.__invitesCache = [ClanPersonalInviteWrapper(invite, clanInfo.get(invite.getClanDbID(), items.ClanExtInfoData()), clanRatings.get(invite.getClanDbID(), items.ClanRatingsData()), self.getUserName(getSenderID(invite))) for invite in invites]
+            else:
+                self.__invitesCache = []
+        else:
+            self.__invitesCache = []
+            self.revertOffset()
+        self.__rebuildMapping()
+        self.syncUsersInfo()
+        self.__isSynced = self.__lastStatus
+        callback((self.__lastStatus, self.__invitesCache))
+        return
+
+    def __rebuildMapping(self):
+        self.__cacheMapping = dict((invite.getDbID(), index) for index, invite in enumerate(self.__invitesCache))
+        return
+
+    @adisp_process
+    def __sendADRequest(self, context, sucessStatus, callback=None):
+        self.__sentRequestCount += 1
+        result = yield self._requester.sendRequest(context, allowDelay=True)
+        inviteDbID = context.getInviteDbID()
+        if result.isSuccess():
+            status = sucessStatus
+        else:
+            status = CLAN_INVITE_STATES.ERROR
+        self.__sentRequestCount -= 1
+        self.__updateInvitesStatus([inviteDbID], status)
+        if callback:
+            callback(result)
+        return
+
+    @adisp_process
+    def __sendADListRequest(self, context, sucessStatus):
+        self.__sentRequestCount += 1
+        result = yield self._requester.sendRequest(context, allowDelay=True)
+        sentInvites = [item.getDbID() for item in context.getDataObj(result.data)]
+        failedInvites = set(context.getInviteDbIDs()) - set(sentInvites)
+        self.__sentRequestCount -= 1
+        self.__updateInvitesStatus(sentInvites, sucessStatus)
+        self.__updateInvitesStatus(failedInvites, CLAN_INVITE_STATES.ERROR)
+        return
+
+    def __updateInvitesStatus(self, inviteIDs, status):
+        updatedInvites = list()
+        for invID in inviteIDs:
+            inviteWrapper = self.getInviteByDbID(invID)
+            if inviteWrapper:
+                invite = inviteWrapper.invite.update(status=status)
+                inviteWrapper.setInvite(invite)
+                updatedInvites.append(inviteWrapper)
+            else:
+                LOG_WARNING((b'Could not find invite with DB ID {} in the internal cache."').format(invID))
+
+        if updatedInvites:
+            self.onListItemsUpdated(self, updatedInvites)
+        return
+
+
+class ClanCache(FileLocalCache):
+
+    class KEYS(CONST_CONTAINER):
+        VERSION = (b'VERSION',)
+        CLAN_APPS = (b'CLAN_APPS_COUNT',)
+        CLAN_INVITES = (b'CLAN_INVITES_COUNT',)
+        PERSONAL_APPS = (b'PERSONAL_APPS_COUNT',)
+        PERSONAL_INVITES = (b'PERSONAL_INVITES_COUNT',)
+
+    def __init__(self, accountName):
+        super(ClanCache, self).__init__(b'clan_cache', (b'invites', accountName))
+        self.__currentVersion = 1
+        self.__cache = {}
+        return
+
+    def __repr__(self):
+        return (b'ClanCache({0:s}): {1!r:s}').format(hex(id(self)), self.__cache)
+
+    def get(self, key):
+        return self.__cache.get(key, None)
+
+    def set(self, key, value):
+        self.__cache[key] = value
+        return
+
+    def write(self):
+        self.__cache[ClanCache.KEYS.VERSION] = self.__currentVersion
+        super(ClanCache, self).write()
+        return
+
+    def clear(self):
+        self.__cache.clear()
+        super(ClanCache, self).clear()
+        return
+
+    def _getCache(self):
+        return self.__cache.copy()
+
+    def _setCache(self, data):
+        data = data or {}
+        if ClanCache.KEYS.VERSION in data and data[ClanCache.KEYS.VERSION] == self.__currentVersion:
+            self.__cache = data
+        else:
+            self.__cache = {}
+        return
+
+
+class CachedValue(object):
+
+    def __init__(self, lifeTime):
+        super(CachedValue, self).__init__()
+        self.__lifeTime = lifeTime
+        self.__value = None
+        self.__validTill = None
+        return
+
+    def set(self, value):
+        self.__validTill = self._now() + self.__lifeTime
+        self.__value = value
+        return
+
+    def get(self, defValue=None):
+        if self.isExpired():
+            self.sync()
+            return defValue
+        return self.__value
+
+    def getCachedValue(self):
+        return self.__value
+
+    def isExpired(self):
+        return self.__validTill < self._now()
+
+    def sync(self):
+        return
+
+    def _now(self):
+        return time_utils.getTimestampFromUTC(datetime.utcnow().timetuple())
+
+
+@dependency.replace_none_kwargs(lobbyContext=ILobbyContext)
+def isStrongholdsEnabled(lobbyContext=None):
+    if lobbyContext is None:
+        return False
+    else:
+        try:
+            settings = lobbyContext.getServerSettings()
+            return settings.isStrongholdsEnabled()
+        except (AttributeError, TypeError):
+            LOG_CURRENT_EXCEPTION()
+
+        return False
+
+
+@dependency.replace_none_kwargs(lobbyContext=ILobbyContext)
+def isLeaguesEnabled(lobbyContext=None):
+    if lobbyContext is None:
+        return False
+    else:
+        try:
+            settings = lobbyContext.getServerSettings()
+            return settings.isLeaguesEnabled()
+        except (AttributeError, TypeError):
+            LOG_CURRENT_EXCEPTION()
+
+        return False
+
+
+def isClansTabReplaceStrongholds():
+    try:
+        return GUI_SETTINGS.stronghold.get(b'isClansTabReplaceStrongholds', False)
+    except (AttributeError, TypeError):
+        LOG_CURRENT_EXCEPTION()
+
+    return False
+
+
+def getStrongholdUrl(urlName=None):
+    try:
+        return _getWgshHost() + GUI_SETTINGS.stronghold.get(urlName or b'tabUrl')
+    except (AttributeError, TypeError):
+        LOG_CURRENT_EXCEPTION()
+        return
+
+    return
+
+
+def getStrongholdClanCardUrl(clanDBID=b''):
+    return getStrongholdUrl(b'clanCardUrl') + str(clanDBID)
+
+
+def getStrongholdChangeModeUrl():
+    return getStrongholdUrl(b'changeModeUrl')
+
+
+def getStrongholdBattlesListUrl():
+    return getStrongholdUrl(b'battlesListUrl')
+
+
+@dependency.replace_none_kwargs(lobbyContext=ILobbyContext)
+def _getWgshHost(lobbyContext=None):
+    if lobbyContext is None:
+        return
+    else:
+        try:
+            return lobbyContext.getServerSettings().stronghold.wgshHostUrl
+        except AttributeError:
+            LOG_CURRENT_EXCEPTION()
+            return
+
+        return

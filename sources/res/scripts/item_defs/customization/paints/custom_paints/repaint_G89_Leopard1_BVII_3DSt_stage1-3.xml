@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<itemGroup>
+		<name>BVII_3DSt</name>
+		<userString>#vehicle_customization:repaint/color_group_04</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>paints 20g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
+			</exclude>
+		</vehicleFilter>
+		<paint>
+			<id>242</id>
+			<texture>gui/maps/vehicles/repaints/germany_base_color.png</texture>
+			<color>99 99 99 255</color>
+			<gloss>0.505999982</gloss>
+			<metallic>0.230000004</metallic>
+			<userString>#vehicle_customization:repaint/G89_Leopard1_BVII_3DSt_stage1-3</userString>
+			<tags>hiddenInUI</tags>
+		</paint>
+		<paint>
+			<id>243</id>
+			<texture>gui/maps/vehicles/repaints/germany_base_color.png</texture>
+			<color>84 84 84 255</color>
+			<gloss>0.505999982</gloss>
+			<metallic>0.230000004</metallic>
+			<userString>#vehicle_customization:repaint/G89_Leopard1_BVII_3DSt_stage4</userString>
+			<tags>hiddenInUI</tags>
+		</paint>
+		<paint>
+			<id>244</id>
+			<texture>gui/maps/vehicles/repaints/germany_base_color.png</texture>
+			<color>117 109 82 255</color>
+			<gloss>0.505999982</gloss>
+			<metallic>0.230000004</metallic>
+			<userString>#vehicle_customization:repaint/A83_T110E4_BVII_3DSt_stage1-3</userString>
+			<tags>hiddenInUI</tags>
+		</paint>
+		<paint>
+			<id>245</id>
+			<texture>gui/maps/vehicles/repaints/germany_base_color.png</texture>
+			<color>87 81 65 255</color>
+			<gloss>0.505999982</gloss>
+			<metallic>0.230000004</metallic>
+			<userString>#vehicle_customization:repaint/A83_T110E4_BVII_3DSt_stage4</userString>
+			<tags>hiddenInUI</tags>
+		</paint>
+		<paint>
+			<id>246</id>
+			<texture>gui/maps/vehicles/repaints/china_color_03.png</texture>
+			<color>75 81 63 255</color>
+			<gloss>0.505999982</gloss>
+			<metallic>0.230000004</metallic>
+			<userString>#vehicle_customization:repaint/S16_Kranvagn_BVII_3DSt_stage1-3</userString>
+			<tags>hiddenInUI</tags>
+		</paint>
+		<paint>
+			<id>247</id>
+			<texture>gui/maps/vehicles/repaints/china_color_03.png</texture>
+			<color>57 64 49 255</color>
+			<gloss>0.505999982</gloss>
+			<metallic>0.230000004</metallic>
+			<userString>#vehicle_customization:repaint/S16_Kranvagn_BVII_3DSt_stage4</userString>
+			<tags>hiddenInUI</tags>
+		</paint>
+	</itemGroup>
+</root>

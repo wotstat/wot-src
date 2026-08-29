@@ -1,0 +1,40 @@
+import BigWorld
+from gui.shared import g_eventBus, EVENT_BUS_SCOPE
+from cosmic_event.gui.shared.events import CosmicVehicleEvent, LootEvent
+from VehicleResearchableLootComponent import VehicleResearchableLootComponent
+
+class CosmicVehicleResearchableLootComponent(VehicleResearchableLootComponent):
+
+    def set_isActive(self, _):
+        if self.isActive:
+            self.__notifyStartResearch()
+        else:
+            self.__sendEvent(CosmicVehicleEvent.STOP_LOOT_RESEARCHING, {b'playerName': (self.entity.publicInfo.name), b'vehicleGO': (self.entity.entityGameObject)})
+        return
+
+    def _onAvatarReady(self):
+        if self.isActive:
+            self.__notifyStartResearch()
+        return
+
+    def set_lootTransferTime(self, _):
+        self.__sendEvent(CosmicVehicleEvent.LOOT_TRANSFER, {b'fromEntityID': (self.lootObtainedFromID), b'destEntityID': (self.entity.id)})
+        return
+
+    def set_researchDoneTime(self, _):
+        isPC = self.entity.id == BigWorld.player().playerVehicleID
+        self.__sendEvent(CosmicVehicleEvent.LOOT_RESEARCHING_DONE, {b'isPC': isPC, b'position': (self.entity.position)})
+        return
+
+    def __sendEvent(self, event, ctx):
+        g_eventBus.handleEvent(LootEvent(event, ctx=ctx), scope=EVENT_BUS_SCOPE.BATTLE)
+        return
+
+    def __notifyStartResearch(self):
+        loot = BigWorld.entities.get(self.lootID)
+        if loot is not None:
+            ctx = {b'playerName': (self.entity.publicInfo.name), b'lifeTimeRemained': (loot.lifeTimeRemained), 
+               b'vehicleGO': (self.entity.entityGameObject), 
+               b'ownerID': (self.entity.id)}
+            self.__sendEvent(CosmicVehicleEvent.START_LOOT_RESEARCHING, ctx)
+        return
