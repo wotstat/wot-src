@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "button/progression"
+msgstr "显示进度"
+
+msgid "button/select"
+msgstr "设置"
+
+msgid "event/battlePass/name"
+msgstr "战斗通行证赛季%(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\n已结束"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\n将开始于%(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\n暂时不可用"
+
+msgid "event/ranked/name"
+msgstr "赛季%(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "在进度模式中查看"
+
+msgid "mode/epicBattle/condition"
+msgstr "30对30 &nbsp;{par_open}I{par_close}&nbsp;&nbsp;%(levels)s级"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30对30&nbsp;{par_open}I{par_close}&nbsp;&nbsp;%(levels)s级"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "活动\n开始于%(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "此模式\n即将开启"
+
+msgid "mode/epicBattle/description"
+msgstr "具有进度和奖励的模式。"
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "活动已结束"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "玩家可以在{whiteSpanish_open}前线模式{whiteSpanish_close}中使用VIII级坦克进行战斗来获得点数，并通过获得点数推进战斗通行证的进度。"
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "战斗通行证点数"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "玩家可以在{whiteSpanish_open}侦察任务{whiteSpanish_close}中使用VIII–X级坦克进行战斗并获得点数，通过分配点数可推进战斗通行证的进度。"
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "战斗通行证点数"
+
+msgid "mode/mapbox/condition"
+msgstr "15对15%(parSecondary_open)sI%(parSecondary_close)sVIII–X级"
+
+msgid "mode/mapbox/description"
+msgstr "全新地图机制"
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "天气视觉效果取决于整体图形质量设置。在低图形质量设置下，可能会出现视觉伪影等问题。建议您在电脑配置允许的情况下，选择最高的图形质量设置以获得最佳体验。该模式对电脑性能要求较高，战况激烈时可能会发生掉帧问题。"
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "建议选择最高的图形质量设置"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon)建议选择最高的图形质量设置"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "了解地图"
+
+msgid "mode/mapsTraining/description"
+msgstr "了解地图"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "玩家可使用IV–XI级坦克投身{whiteSpanish_open}标准模式{whiteSpanish_close}战斗，获取点数，推动战斗通行证进度。"
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "战斗通行证点数"
+
+msgid "mode/random/condition"
+msgstr "15对15%(parSecondary_open)sI%(parSecondary_close)sI–XI级"
+
+msgid "mode/random/description"
+msgstr "自动匹配的战斗。"
+
+msgid "mode/random/setup"
+msgstr "配置"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "玩家可以在{whiteSpanish_open}排位赛{whiteSpanish_close}中使用X级坦克进行战斗、获得点数，并通过点数在战斗通行证中取得进度。"
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "战斗通行证点数"
+
+msgid "mode/ranked/condition"
+msgstr "10对10%(parSecondary_open)sI%(parSecondary_close)sX&nbsp;级"
+
+msgid "mode/ranked/description"
+msgstr "具有进度和奖励的模式。"
+
+msgid "mode/specBattlesList/call/1"
+msgstr "申请参加赛事"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "下场战斗：%(date)s%(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1对1–15对15%(parSecondary_open)sI%(parSecondary_close)sI–X&nbsp;级"
+
+msgid "mode/specBattlesList/description"
+msgstr "领土战和锦标赛"
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "以雇佣兵身份参战"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "作为军团成员参战"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7对7–15对15%(parSecondary_open)sI%(parSecondary_close)sVI–X&nbsp;级"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "争夺工业资源的军团战斗。"
+
+msgid "mode/trainingsList/call/1"
+msgstr "训练房间：%(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1对1–15对15%(parSecondary_open)sI%(parSecondary_close)sI–X&nbsp;级"
+
+msgid "mode/trainingsList/description"
+msgstr "入门战斗。"
+
+msgid "novelty"
+msgstr "新模式"
+
+msgid "ranked/widget/qualBattles"
+msgstr "资格赛战斗：%(current)%(par_open)s/%(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "游玩该模式有机会获得独特的3D附件。"
+
+msgid "reward/attachment/name"
+msgstr "3D附件"
+
+msgid "reward/bones/description"
+msgstr "奖励取决于您的战斗表现。"
+
+msgid "reward/bones/name"
+msgstr "战争债券"
+
+msgid "reward/bountyEquipment/description"
+msgstr "您可以通过游玩此模式获得%(name)s。"
+
+msgid "reward/bountyEquipment/name"
+msgstr "特殊配件"
+
+msgid "reward/credits/description"
+msgstr "奖励取决于您的战斗表现。"
+
+msgid "reward/credits/name"
+msgstr "银币"
+
+msgid "reward/crew/description"
+msgstr "您可以通过游玩此模式获得独特乘员。"
+
+msgid "reward/crew/name"
+msgstr "乘员"
+
+msgid "reward/experience/description"
+msgstr "奖励取决于您的战斗表现。"
+
+msgid "reward/experience/name"
+msgstr "经验"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "游玩该模式有机会获得不同的试验型配件。"
+
+msgid "reward/experimentalEquipment/name"
+msgstr "特殊配件"
+
+msgid "reward/improvedEquipment/description"
+msgstr "您可以通过游玩此模式获得%(name)s。"
+
+msgid "reward/improvedEquipment/name"
+msgstr "特殊配件"
+
+msgid "reward/lootBoxes/description"
+msgstr "游玩此模式有机会获得补给品。"
+
+msgid "reward/lootBoxes/name"
+msgstr "特殊补给品"
+
+msgid "reward/other/description"
+msgstr "您可以通过游玩此模式获得众多实用奖励。"
+
+msgid "reward/other/name"
+msgstr "特殊奖励"
+
+msgid "reward/progressionStyle/description"
+msgstr "参加此模式的战斗可获得一款特殊的渐变风格。"
+
+msgid "reward/progressionStyle/name"
+msgstr "渐变风格"
+
+msgid "reward/random/description"
+msgstr "您可以通过游玩此模式获得丰厚实用奖励。"
+
+msgid "reward/random/name"
+msgstr "随机奖励"
+
+msgid "reward/style/description"
+msgstr "您可以通过游玩此模式获得%(name)s特殊3D风格。"
+
+msgid "reward/style/name"
+msgstr "3D风格"
+
+msgid "reward/vehicle/description"
+msgstr "您可以通过游玩此模式获得%(name)s。"
+
+msgid "reward/vehicle/name"
+msgstr "奖励坦克"
+
+msgid "selectMap"
+msgstr "标准模式的预设"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s天"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s时"
+
+msgid "status/timeLeft/lessMin"
+msgstr "少于1分钟"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "选择战斗模式"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "领土战"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "占领领地，争霸战场。此模式仅对军团成员开放。"
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "加入军团"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "领土战中的战斗"
+
+msgid "window/battleSession/title"
+msgstr "特殊战斗"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "赛事列表"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "此功能当前无法使用，但将在未来开放。请耐心等待。"
+
+msgid "window/battleSession/tournaments/description"
+msgstr "独自战斗或加入团队一起战斗，展现您的精湛技术并获得高价值的奖励。"
+
+msgid "window/battleSession/tournaments/title"
+msgstr "赛事"

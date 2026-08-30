@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "backButton/label"
+msgstr "返回"
+
+msgid "backButton/to"
+msgstr "账号状态"
+
+msgid "filteredMapsDisplayed"
+msgstr "显示地图: %(count)/%(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "显示/隐藏该类型地图。"
+
+msgid "filtersTooltip/header/desert"
+msgstr "沙地地图"
+
+msgid "filtersTooltip/header/summer"
+msgstr "草地地图"
+
+msgid "filtersTooltip/header/winter"
+msgstr "雪地地图"
+
+msgid "header/cooldown"
+msgstr "您可以在%(cooldownEndTime)后再次替换地图。"
+
+msgid "header/title"
+msgstr "排除地图"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "您可以在冷却时间过后再次替换地图。"
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "替换地图不可用"
+
+msgid "mapTile/hoverExclude"
+msgstr "排除%(mapName)地图？"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "排除"
+
+msgid "mapTile/hoverInclude"
+msgstr "在标准模式中恢复%(mapName)地图？"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "恢复"
+
+msgid "mapsFilterLabel"
+msgstr "地图类型:"
+
+msgid "notSelected"
+msgstr "未选择"
+
+msgid "premium"
+msgstr "《坦克世界》\n高级账号"
+
+msgid "slot/disabledTooltipBody"
+msgstr "只有激活《坦克世界》高级账号或坦克世界Plus订阅时才能额外获得一个空位。"
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "购买《坦克世界》高级账号即可解锁。"
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "订阅坦克世界Plus即可解锁。"
+
+msgid "slot/replaceTooltipBody"
+msgstr "从下方列表中选择一张地图来替换它，所选地图将从标准模式中排除。"
+
+msgid "slot/selectTooltipBody"
+msgstr "从下方列表中选择一张地图，即可将其从标准模式中排除。"
+
+msgid "slot/selectTooltipHeader"
+msgstr "可用空位"
+
+msgid "totalMapsDisplayed"
+msgstr "显示地图: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "购买%(linkPremium)，额外排除1张地图；订阅%(linkWotPlus)，额外排除%(mapCount)s张地图。"
+msgstr[1] "购买%(linkPremium)，额外排除1张地图；订阅%(linkWotPlus)，额外排除%(mapCount)s张地图。"
+
+msgid "unlock/premium"
+msgstr "购买%(linkPremium)，额外排除1张地图。"
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "订阅%(linkWotPlus)，额外排除%(mapCount)s张地图。"
+msgstr[1] "订阅%(linkWotPlus)，额外排除%(mapCount)s张地图。"
+
+msgid "wotplus"
+msgstr "坦克世界Plus"

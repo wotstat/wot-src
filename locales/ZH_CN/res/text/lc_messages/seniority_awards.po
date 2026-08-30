@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "notifications/count"
+msgstr "×{count}"
+
+msgid "notifications/manualClaim/button"
+msgstr "领取奖励"
+
+msgid "notifications/manualClaim/title"
+msgstr "服役资历奖励等待着您！"
+
+msgid "notifications/selectVehicles/button"
+msgstr "选择"
+
+msgid "notifications/selectVehicles/title"
+msgstr "自选服役资历\n奖励坦克"
+
+msgid "notifications/tokens/button"
+msgstr "前往军械库"
+
+msgid "notifications/tokens/title"
+msgstr "使用服役资历令牌兑换奖励！"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "选择您想要的坦克！"
+
+msgid "rewardsView/applyBtn"
+msgstr "了解！"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "使用您的令牌在军械库中兑换奖励。"
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "车库中查看"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "前往军械库"
+
+msgid "rewardsView/info"
+msgstr "关于头衔的更多信息"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "更多奖励！"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "更多奖励！({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "{{count}}辆自选服役资历奖励坦克"
+
+msgid "rewardsView/selection/received"
+msgstr "已获得奖励"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "您同时获得:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "新兵"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "勇士"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "指挥官"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "军官"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "老兵"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "传说"
+
+msgid "rewardsView/subTitle/text"
+msgstr "已达成{rank}头衔"
+
+msgid "rewardsView/textButton/select"
+msgstr "选择"
+
+msgid "rewardsView/title"
+msgstr "恭喜！"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "×%(count)s"
+
+msgid "specialItem/body"
+msgstr "因战斗资历而获奖。活动结束后，所有剩余的令牌将被移除。"
+
+msgid "specialItem/header"
+msgstr "服役资历令牌: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "恭喜您达成新兵头衔"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "恭喜您达成勇士头衔"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "恭喜您达成指挥官头衔"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "恭喜您达成军官头衔"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "恭喜您达成老兵头衔"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "恭喜您达成传说头衔"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel}与{yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "参加Alpha测试"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "参加Beta测试"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "服役{{count}}年"
+msgstr[1] "服役{{count}}年"
+msgstr[2] "服役{{count}}年"
+
+msgid "tooltip/rank/ctg1"
+msgstr "新兵"
+
+msgid "tooltip/rank/ctg2"
+msgstr "勇士"
+
+msgid "tooltip/rank/ctg3"
+msgstr "指挥官"
+
+msgid "tooltip/rank/ctg4"
+msgstr "军官"
+
+msgid "tooltip/rank/ctg5"
+msgstr "老兵"
+
+msgid "tooltip/rank/ctg6"
+msgstr "传说"
+
+msgid "tooltip/segment/ctg1"
+msgstr "少于一年"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1–3年"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4–6年"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7–9年"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10–14年"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15年"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "一辆拥有出色操控性的传奇轻型坦克。该坦克拥有不俗的平均每分钟损伤和良好的火炮俯仰角，能在战斗中利用不规则地形发挥优势。"
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "该坦克装备了一门大口径火炮，并且装甲防护良好，这对其机动性和操控性造成了一定影响。虽然灵活性欠佳，但它在撞击轻装甲坦克时非常高效。"
+
+msgid "vehicle/R160_T_50_2"
+msgstr "这辆轻型坦克非常适合在战斗的各个阶段进行主动侦察。较小的尺寸和较高的速度使其能避开敌方的射击，这对火力欠佳的它来说极为重要。"
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "该坦克装备V级坦克中唯一的逆向自动装填火炮，非常适合用来对敌方坦克造成爆发损伤，或者为盟友提供火力支援。"

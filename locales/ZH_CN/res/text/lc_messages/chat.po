@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WOT翻译 <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "公共聊天"
+
+msgid "channels/battle/team"
+msgstr "战队"
+
+msgid "channels/clan"
+msgstr "军团"
+
+msgid "channels/common"
+msgstr "公共聊天"
+
+msgid "channels/epic_training"
+msgstr "培训—前线"
+
+msgid "channels/nubs"
+msgstr "招募"
+
+msgid "channels/prebattle"
+msgstr "战前"
+
+msgid "channels/special_battles"
+msgstr "特殊模式"
+
+msgid "channels/squad"
+msgstr "小队"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "小队已创建完毕。请等待其他玩家做好准备。"
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "小队"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "小队已创建完毕。所有玩家已准备完毕。"
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "小队"
+
+msgid "channels/system"
+msgstr "系统"
+
+msgid "channels/tournament"
+msgstr "赛事"
+
+msgid "channels/trading"
+msgstr "交易"
+
+msgid "channels/training"
+msgstr "训练中"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "聊天室管理员也是版主。"
+
+msgid "errors/addmoderatorowner"
+msgstr "建立频道的玩家也是版主。"
+
+msgid "errors/banchannelowner"
+msgstr "版主不能被禁言。"
+
+msgid "errors/banchatadmin"
+msgstr "聊天室管理员不能被禁言。"
+
+msgid "errors/banned"
+msgstr "您已经因[%(banReason)s]被用户%(banOwnerNick)s禁言到%(banEndTime)s"
+
+msgid "errors/bannedpermanent"
+msgstr "您已经因[%(banReason)s]被用户%(banOwnerNick)s禁言"
+
+msgid "errors/chatbanned"
+msgstr "原因:%(banReason)s。您被禁言到%(banEndTime)s。"
+
+msgid "errors/chatbannedpermanent"
+msgstr "原因: %(banReason)s。您的账号已被禁言。"
+
+msgid "errors/commandInCooldown"
+msgstr "%(command)s操作在%(cooldownPeriod)s秒内不可使用。"
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "管理员不能取消版主的权限。"
+
+msgid "errors/delmoderatorowner"
+msgstr "建立频道的玩家不能取消版主的权限。"
+
+msgid "errors/timeincorrect"
+msgstr "'时间'参数必须设为‘永久’或[1-1440]之间的正数。"
+
+msgid "errors/toomanyargs"
+msgstr "参数太多。"
+
+msgid "errors/toosmallargs"
+msgstr "参数数量不足。"
+
+msgid "errors/userbanhimself"
+msgstr "您不能把自己禁言。"
+
+msgid "messages/userbanned"
+msgstr "用户%(banedUser)s因%(banReason)s被用户%(banOwnerNick)s禁止到%(banEndTime)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "用户%(banedUser)s因%(banReason)s被用户%(banOwnerNick)s禁言"

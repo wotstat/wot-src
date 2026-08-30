@@ -1,0 +1,77 @@
+from frameworks.wulf import ViewModel
+
+class BonusXpModel(ViewModel):
+    __slots__ = (b'onClick',)
+
+    def __init__(self, properties=8, commands=1):
+        super(BonusXpModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIsEnabled(self):
+        return self._getBool(0)
+
+    def setIsEnabled(self, value):
+        self._setBool(0, value)
+        return
+
+    def getMultiplier(self):
+        return self._getNumber(1)
+
+    def setMultiplier(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getTotalUses(self):
+        return self._getNumber(2)
+
+    def setTotalUses(self, value):
+        self._setNumber(2, value)
+        return
+
+    def getUsesLeft(self):
+        return self._getNumber(3)
+
+    def setUsesLeft(self, value):
+        self._setNumber(3, value)
+        return
+
+    def getIsWotPlusBonusEnabled(self):
+        return self._getBool(4)
+
+    def setIsWotPlusBonusEnabled(self, value):
+        self._setBool(4, value)
+        return
+
+    def getIsWotPremium(self):
+        return self._getBool(5)
+
+    def setIsWotPremium(self, value):
+        self._setBool(5, value)
+        return
+
+    def getIsWotPlus(self):
+        return self._getBool(6)
+
+    def setIsWotPlus(self, value):
+        self._setBool(6, value)
+        return
+
+    def getDailyAppliedXP(self):
+        return self._getNumber(7)
+
+    def setDailyAppliedXP(self, value):
+        self._setNumber(7, value)
+        return
+
+    def _initialize(self):
+        super(BonusXpModel, self)._initialize()
+        self._addBoolProperty(b'isEnabled', True)
+        self._addNumberProperty(b'multiplier', 1)
+        self._addNumberProperty(b'totalUses', 0)
+        self._addNumberProperty(b'usesLeft', 0)
+        self._addBoolProperty(b'isWotPlusBonusEnabled', False)
+        self._addBoolProperty(b'isWotPremium', False)
+        self._addBoolProperty(b'isWotPlus', False)
+        self._addNumberProperty(b'dailyAppliedXP', 0)
+        self.onClick = self._addCommand(b'onClick')
+        return

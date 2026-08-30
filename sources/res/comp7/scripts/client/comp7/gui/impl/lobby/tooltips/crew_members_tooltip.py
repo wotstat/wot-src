@@ -1,0 +1,17 @@
+from comp7.gui.impl.gen.view_models.views.lobby.tooltips.crew_members_tooltip_model import CrewMembersTooltipModel
+from frameworks.wulf import ViewSettings
+from gui.impl.gen import R
+from gui.impl.pub import ViewImpl
+
+class CrewMembersTooltip(ViewImpl):
+    __slots__ = ()
+
+    def __init__(self, layoutID=R.views.comp7.mono.lobby.tooltips.crew_members_tooltip()):
+        settings = ViewSettings(layoutID)
+        settings.model = CrewMembersTooltipModel()
+        super(CrewMembersTooltip, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return super(CrewMembersTooltip, self).getViewModel()

@@ -1,0 +1,229 @@
+import BigWorld, ArenaType
+from BattleRoyaleTournament import MAX_PLAYERS_IN_SQUAD
+from battle_royale.gui.impl.gen.view_models.views.lobby.views.pre_battle_view_model import PreBattleViewModel
+from battle_royale.gui.impl.gen.view_models.views.lobby.views.team_model import TeamModel
+from battle_royale.gui.impl.gen.view_models.views.lobby.views.user_extended_model import UserExtendedModel
+from battle_royale.gui.impl.gen.view_models.views.lobby.views.user_model import UserModel
+from gui.Scaleform.Waiting import Waiting
+from helpers import dependency
+from wg_async import wg_async, wg_await
+from constants import IS_DEVELOPMENT
+from frameworks.wulf import ViewSettings, Array, WindowFlags
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.impl.dialogs.builders import WarningDialogBuilder
+from gui.impl.pub.dialog_window import DialogButtons
+from gui.impl.dialogs import dialogs
+from gui.impl.gen.view_models.ui_kit.gf_drop_down_item import GfDropDownItem
+from gui.impl.pub import ViewImpl, WindowImpl
+from gui.prb_control import prbEntityProperty
+from skeletons.gui.game_control import IBattleRoyaleController, IBattleRoyaleTournamentController
+from skeletons.gui.shared import IItemsCache
+
+class BattleRoyalePreBattleWindow(WindowImpl):
+
+    def __init__(self, layer, **kwargs):
+        super(BattleRoyalePreBattleWindow, self).__init__(content=PreBattleView(R.views.battle_royale.lobby.views.PreBattleView()), wndFlags=WindowFlags.WINDOW, layer=layer)
+        return
+
+
+class PreBattleView(ViewImpl):
+    __battleRoyaleController = dependency.descriptor(IBattleRoyaleController)
+    __battleRoyaleTournamentController = dependency.descriptor(IBattleRoyaleTournamentController)
+    __itemsCache = dependency.descriptor(IItemsCache)
+
+    def __init__(self, layoutID):
+        settings = ViewSettings(layoutID)
+        settings.model = PreBattleViewModel()
+        super(PreBattleView, self).__init__(settings)
+        self.__isObserver = False
+        self.__canStartBattle = False
+        self.__isSolo = True
+        self.__countOfReady = 0
+        self.__maps = []
+        return
+
+    @prbEntityProperty
+    def prbEntity(self):
+        return
+
+    @property
+    def viewModel(self):
+        return super(PreBattleView, self).getViewModel()
+
+    def _initialize(self, *args, **kwargs):
+        self.viewModel.onBattleClick += self.__onBattleClick
+        self.viewModel.onClose += self.__onClose
+        self.__battleRoyaleTournamentController.onUpdatedParticipants += self.__updateParticipants
+        super(PreBattleView, self)._initialize(*args, **kwargs)
+        return
+
+    def _finalize(self):
+        self.viewModel.onBattleClick -= self.__onBattleClick
+        self.viewModel.onClose -= self.__onClose
+        self.__battleRoyaleTournamentController.onUpdatedParticipants -= self.__updateParticipants
+        super(PreBattleView, self)._finalize()
+        return
+
+    def _onLoading(self, *args, **kwargs):
+        super(PreBattleView, self)._onLoading(*args, **kwargs)
+        Waiting.show(b'loadPage')
+        token = self.__battleRoyaleTournamentController.getSelectedToken()
+        if token.isValid:
+            self.__isObserver = token.isObserver
+            self.__canStartBattle = token.isObserver or IS_DEVELOPMENT and BigWorld.player().name.endswith(b'admin')
+            self.__isSolo = token.isSolo
+        self.__initModel()
+        return
+
+    def _onLoaded(self, *args, **kwargs):
+        self.__updateParticipants()
+        Waiting.hide(b'loadPage')
+        return
+
+    def __onClose(self):
+        self.prbEntity.exitFromQueue()
+        return
+
+    def __onBattleClick(self, args=None):
+        if args is None:
+            return
+        else:
+            mapId = args.get(b'mapId', b'0')
+            if self.__canStartBattle and not self.__allPlayersIsReady():
+                self.__showConfirmation(mapId)
+                return
+            BigWorld.player().AccountBattleRoyaleTournamentComponent.tournamentForceStart(int(mapId))
+            return
+
+    @wg_async
+    def __showConfirmation(self, mapId):
+        texts = R.strings.dialogs.battleRoyale.preBattle
+        builder = WarningDialogBuilder()
+        builder.setTitle(texts.title())
+        builder.setMessagesAndButtons(message=texts, buttons=texts, focused=DialogButtons.CANCEL)
+        result = yield wg_await(dialogs.showSimple(builder.build(self)))
+        if result:
+            BigWorld.player().AccountBattleRoyaleTournamentComponent.tournamentForceStart(int(mapId))
+        return
+
+    def __getMaps(self):
+        mapsModel = Array()
+        for _name, _id in self.__maps:
+            mapModel = GfDropDownItem()
+            mapModel.setLabel(_name)
+            mapModel.setId(str(_id))
+            mapsModel.addViewModel(mapModel)
+
+        return mapsModel
+
+    def __initModel(self):
+        teamsRange = 20 if self.__isSolo else 10
+        playersRange = 1 if self.__isSolo else MAX_PLAYERS_IN_SQUAD
+        self.__initMaps()
+        with self.viewModel.transaction() as model:
+            model.setTitle(R.strings.battle_royale.preBattle.title())
+            model.setIsSpectator(self.__canStartBattle)
+            self.__setCurrentTeam(model, [])
+            if self.__canStartBattle:
+                mapsModel = self.__getMaps()
+                model.setMaps(mapsModel)
+            teamsModel = Array()
+            for idx in range(teamsRange):
+                team = TeamModel()
+                team.setId(idx + 1)
+                users = Array()
+                for _ in range(playersRange):
+                    userModel = UserModel()
+                    self.__userClearData(userModel)
+                    users.addViewModel(userModel)
+
+                team.setUsers(users)
+                teamsModel.addViewModel(team)
+
+            model.setTeams(teamsModel)
+        return
+
+    def __updateParticipants(self):
+        participants = self.__battleRoyaleTournamentController.getParticipants()
+        players = self.__convertToPlayers(participants)
+        with self.viewModel.transaction() as model:
+            if not self.__isObserver:
+                databaseID = BigWorld.player().databaseID
+                teamID = next((p.teamID for p in participants if p.databaseID == databaseID and p.teamID in players), None)
+                if teamID:
+                    self.__setCurrentTeam(model, players[teamID])
+            teamsModel = model.getTeams()
+            for team in teamsModel:
+                users = team.getUsers()
+                teamId = team.getId()
+                if teamId in players:
+                    teamPlayers = iter(players[teamId])
+                    for user in users:
+                        player = next(teamPlayers, None)
+                        if player:
+                            user.setName(player[b'name'])
+                            user.setIsReady(player[b'typeCD'] != 0)
+                            user.setIsCurrentUser(BigWorld.player().name == player[b'name'])
+                        else:
+                            self.__userClearData(user)
+
+                else:
+                    for user in users:
+                        self.__userClearData(user)
+
+        return
+
+    def __convertToPlayers(self, participants):
+        self.__countOfReady = 0
+        teams = {}
+        for p in participants:
+            teamID = p[b'teamID']
+            if p[b'typeCD'] != 0:
+                self.__countOfReady += 1
+            if teamID not in teams:
+                teams[teamID] = []
+            teams[teamID].append(p)
+
+        for p in teams.itervalues():
+            p.sort(key=(lambda x: (-x[b'role'], x[b'name'])))
+
+        return teams
+
+    def __setCurrentTeam(self, model, players):
+        players = iter(players)
+        currentTeam = model.getCurrentTeam()
+        currentTeam.clear()
+        for _ in range(1 if self.__isSolo else MAX_PLAYERS_IN_SQUAD):
+            player = next(players, None)
+            userModel = UserExtendedModel()
+            if player:
+                userModel.setIsCurrentUser(BigWorld.player().name == player[b'name'])
+                userModel.setIsReady(player[b'typeCD'] != 0)
+                userModel.setName(player[b'name'])
+                vehicle = self.__itemsCache.items.getItemByCD(player[b'typeCD'])
+                if vehicle:
+                    userModel.setVehicleType(vehicle.type)
+                    userModel.setVehicleName(vehicle.shortUserName)
+            else:
+                self.__userClearData(userModel)
+            currentTeam.addViewModel(userModel)
+
+        currentTeam.invalidate()
+        return
+
+    def __userClearData(self, user):
+        user.setName(b'')
+        user.setIsCurrentUser(False)
+        user.setIsReady(False)
+        return
+
+    def __initMaps(self):
+        self.__maps.append((backport.text(R.strings.battle_royale.preBattle.mapRandom()), 0))
+        self.__maps.append((ArenaType.g_cache[86].name, 86))
+        self.__maps.append((ArenaType.g_cache[97].name, 97))
+        self.__maps.append((ArenaType.g_cache[98].name, 98))
+        return
+
+    def __allPlayersIsReady(self):
+        return self.__countOfReady == 20

@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "蓝图已合成"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "蓝图{values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "蓝图{values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "购买"
+
+msgid "blueprintScreen/button/research"
+msgstr "研发"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "车库中查看"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "您可以通过合成蓝图来获得研发所需坦克的折扣。然而，您在使用折扣之前需要首先将\n目标坦克的上一级坦克研发完毕。"
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "确认！"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "无法研发"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "创建蓝图碎片需要："
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "选择："
+
+msgid "blueprintScreen/createFragment"
+msgstr "创建碎片:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "创建碎片"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "兑换\n碎片"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "兑换\n不可用"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "不可用:\n无足够\n资源"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "跳转到坦克"
+
+msgid "blueprintScreen/or"
+msgstr "或"
+
+msgid "blueprintScreen/research"
+msgstr "研发"
+
+msgid "blueprintScreen/researchFree"
+msgstr "免费研发该坦克"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "无法研发"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "研发折扣:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "已研发该坦克，现在可以购买"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "已研发并购买该坦克"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "在仓库中:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "研发完成{vehicleName}在升级路线上的前置坦克后，即可使用100%折扣研发此坦克。"
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "蓝图已合成"
+
+msgid "blueprintScreen/unlocked"
+msgstr "坦克\n已研发"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "联盟："
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "集团："
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "同盟："
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "联合："
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon}{allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon)%(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "通用："
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "联盟"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "集团"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "同盟"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "联合"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "（F系、J系、V系、I系）"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "（D系、R系）"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "（M系、Y系、B系）"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "（S系、C系）"
+
+msgid "conversionView/topMessage/multi"
+msgstr "选择系别碎片的数量来创建坦克蓝图碎片。\n%(allianceIcon)%(allianceName)%(allianceNations)系别碎片可用。"
+
+msgid "conversionView/topMessage/single"
+msgstr "选择一个系别的碎片来创建坦克蓝图碎片。\n%(allianceIcon)%(allianceName)%(allianceNations)系别碎片可用。"
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "最终消耗："
+
+msgid "conversionView/totalPrice/single"
+msgstr "蓝图碎片消耗："
+
+msgid "nations/china"
+msgstr "C系"
+
+msgid "nations/czech"
+msgstr "J系"
+
+msgid "nations/france"
+msgstr "F系"
+
+msgid "nations/germany"
+msgstr "D系"
+
+msgid "nations/italy"
+msgstr "I系"
+
+msgid "nations/japan"
+msgstr "R系"
+
+msgid "nations/poland"
+msgstr "B系"
+
+msgid "nations/sweden"
+msgstr "V系"
+
+msgid "nations/uk"
+msgstr "Y系"
+
+msgid "nations/usa"
+msgstr "M系"
+
+msgid "nations/ussr"
+msgstr "S系"

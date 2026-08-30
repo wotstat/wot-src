@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "主装甲"
+
+msgid "armorValues/title/no_damage"
+msgstr "无法造成损伤"
+
+msgid "armorValues/title/other"
+msgstr "其他"
+
+msgid "armorValues/title/penetration"
+msgstr "击穿率"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "跳弹"
+
+msgid "armorValues/title/spaced"
+msgstr "间隙装甲"
+
+msgid "armorValues/title/values"
+msgstr "(毫米)"
+
+msgid "attackerTitle"
+msgstr "攻击方配置"
+
+msgid "attackerTooltip/body"
+msgstr "点击更换攻击方坦克"
+
+msgid "attackerTooltip/header"
+msgstr "攻击方坦克"
+
+msgid "menu/header"
+msgstr "叠加层类型"
+
+msgid "menu/no_armor"
+msgstr "无叠加层"
+
+msgid "menu/nominal"
+msgstr "垂直装甲"
+
+msgid "menu/penetration"
+msgstr "击穿率"
+
+msgid "modules/current"
+msgstr "当前配置"
+
+msgid "modules/custom"
+msgstr "自定义配置"
+
+msgid "modules/standard"
+msgstr "标准配置"
+
+msgid "modules/title"
+msgstr "坦克模块"
+
+msgid "modules/top"
+msgstr "顶配"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}度"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}}({{part}}x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}}({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "悬挂装置"
+
+msgid "tooltip/armor/part/gun"
+msgstr "火炮"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "炮盾"
+
+msgid "tooltip/armor/part/hull"
+msgstr "车体"
+
+msgid "tooltip/armor/part/screen"
+msgstr "间隙装甲"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "观察设备"
+
+msgid "tooltip/armor/part/turret"
+msgstr "炮塔"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "车轮"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}}毫米"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "无法造成损伤"
+
+msgid "tooltip/dcc/penetration"
+msgstr "击穿"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}%"
+
+msgid "tooltip/dcc/ricochet"
+msgstr "跳弹"
+
+msgid "tooltip/minor/angle/description"
+msgstr "炮弹轨迹与装甲板法线之间的角度。\n\n炮弹轨迹按炮弹从屏幕中心沿直线移动计算。"
+
+msgid "tooltip/minor/angle/header"
+msgstr "入射角度"
+
+msgid "tooltip/minor/damage/description"
+msgstr "击穿敌方装甲并对坦克造成损伤的几率。"
+
+msgid "tooltip/minor/damage/header"
+msgstr "击穿率"
+
+msgid "tooltip/minor/effective/description"
+msgstr "对于单层装甲，等效装甲是垂直装甲经过入射角度和炮弹转正效应计算后的结果。\n\n如果弹着点存在多层装甲，结果则是每层装甲的等效数值之和。"
+
+msgid "tooltip/minor/effective/header"
+msgstr "等效装甲"
+
+msgid "tooltip/minor/header"
+msgstr "图例"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "击中间隙装甲不会对坦克造成损伤，除非炮弹在此之后击中并击穿了主装甲。"
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "无法造成损伤"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "主装甲板或间隙装甲板的实际厚度。"
+
+msgid "tooltip/minor/nominal/header"
+msgstr "垂直装甲"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "以极小入射角击中敌方装甲的炮弹会发生跳弹。但跳弹后的炮弹仍有可能击中另一辆坦克，甚至命中原目标的另一个部位。"
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "跳弹"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "影响等效装甲和击穿几率的计算。\n\n所有计算均采用100米的炮弹飞行距离(AP和APCR炮弹的穿透力会随距离增加而降低)。\n\n乘员特长和攻击方坦克的升级不影响计算。"
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "攻击方配置"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "击穿敌方装甲并对坦克造成损伤的几率。\n\n击中间隙装甲不会对坦克造成损伤，除非炮弹在此之后击中并击穿了主装甲。"
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "击穿率"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "只有当主装甲被击中并击穿时，坦克才会受到损伤。HE炮弹即使没有击穿也能对坦克造成较低的损伤；但它们仍需命中主装甲。"
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "主装甲"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "击中间隙装甲不会对坦克造成损伤，除非炮弹在此之后击中并击穿了主装甲。\n\n击中并击穿外部模块会直接损坏这些模块: 击中履带会使坦克无法移动，击中炮管会使其无法正常射击，击中观察设备则会降低坦克的观察范围。"
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "无法造成损伤"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "对于AP和APCR炮弹，跳弹角度为70度，HEAT炮弹则为85度。\n\nHE炮弹不会跳弹，而AP和APCR炮弹在跳弹后会损失25%的穿透力。\n\n如果炮弹口径大于弹着点垂直装甲厚度的3倍，则不会跳弹(仅适用于AP和APCR炮弹)。"
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "跳弹"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "击中间隙装甲不会对坦克造成损伤，除非炮弹在此之后击中并击穿了主装甲。\n\n击中并击穿外部模块会直接损坏这些模块: 击中履带会使坦克无法移动，击中炮管会使其无法正常射击，击中观察设备则会降低坦克的观察范围。\n\n入射角度不适用于履带和炮管等外部模块，其等效装甲厚度等于垂直装甲厚度。"
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "间隙装甲"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}}毫米"
+
+msgid "videoTooltip"
+msgstr "观看装甲击穿机制视频"

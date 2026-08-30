@@ -1,0 +1,72 @@
+import BigWorld, BattleReplay
+from helpers import int2roman
+import WWISE
+from gui.Scaleform.daapi.view.meta.BattleLevelPanelMeta import BattleLevelPanelMeta
+from battle_royale.gui.battle_control.controllers.progression_ctrl import IProgressionListener
+
+class BattleLevelPanel(BattleLevelPanelMeta, IProgressionListener):
+    __SOUND_XP_DIFF = 1
+    __XP_UPDATE_TIME_DIFF = 1.0
+
+    def __init__(self):
+        super(BattleLevelPanel, self).__init__()
+        self.__firstShow = True
+        self.__maxLevelAchieved = False
+        self.__isInitialized = False
+        self.__lastXPUpdateTime = 0.0
+        return
+
+    def updateData(self, arenaLevelData):
+        animationState = arenaLevelData.xpIsChanged
+        if arenaLevelData.observedVehicleIsChanged:
+            animationState = False
+            self.__maxLevelAchieved = False
+            self.as_resetS()
+        if self.__maxLevelAchieved:
+            return
+        if BattleReplay.g_replayCtrl.isPlaying:
+            animationState = False
+        self.__update(arenaLevelData, animationState)
+        self.__firstShow = False
+        return
+
+    def __update(self, arenaLevel, animationState):
+        if BigWorld.time() - self.__lastXPUpdateTime < self.__XP_UPDATE_TIME_DIFF:
+            animationState = False
+        self.__lastXPUpdateTime = BigWorld.time()
+        if not self.__isInitialized:
+            self.as_setAnimationS(False)
+            self.__isInitialized = True
+        else:
+            self.as_setAnimationS(animationState)
+            if not animationState and not arenaLevel.isMaxLvlAchieved:
+                expText = (b' / {targetXP}').format(targetXP=arenaLevel.targetXP)
+                self.as_setLevelS(int2roman(arenaLevel.level), int2roman(arenaLevel.level + 1), arenaLevel.xp, expText)
+        if arenaLevel.xp == 0 and arenaLevel.level == 1:
+            expText = (b' / {targetXP}').format(targetXP=arenaLevel.targetXP)
+            self.as_setLevelS(int2roman(arenaLevel.level), int2roman(arenaLevel.level + 1), 0, expText)
+            self.as_setExperienceS(0, expText, 0, 0, False)
+            return
+        if arenaLevel.levelIsChanged:
+            expText = (b' / {targetXP}').format(targetXP=arenaLevel.baseXP)
+            percent = IProgressionListener.MAX_PERCENT_AMOUNT
+            xp = arenaLevel.baseXP
+        else:
+            expText = (b' / {targetXP}').format(targetXP=arenaLevel.targetXP)
+            percent = arenaLevel.percent
+            xp = arenaLevel.xp
+        playSound = arenaLevel.diff >= self.__SOUND_XP_DIFF and not self.__firstShow
+        self.as_setExperienceS(xp, expText, arenaLevel.diff, percent, playSound)
+        if arenaLevel.isMaxLvlAchieved:
+            self.as_setMaxLevelReachedS(int2roman(arenaLevel.level))
+            self.__maxLevelAchieved = True
+            return
+        if arenaLevel.levelIsChanged or self.__firstShow:
+            expText = (b' / {targetXP}').format(targetXP=arenaLevel.targetXP)
+            self.as_setLevelS(int2roman(arenaLevel.level), int2roman(arenaLevel.level + 1), arenaLevel.baseXP, expText)
+            self.as_setExperienceS(arenaLevel.xp, expText, arenaLevel.diffAfterLevel, arenaLevel.percent, playSound)
+        return
+
+    def onPlaySound(self, soundType):
+        WWISE.WW_eventGlobal(soundType)
+        return

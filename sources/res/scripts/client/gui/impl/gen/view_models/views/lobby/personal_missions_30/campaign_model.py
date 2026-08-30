@@ -1,0 +1,41 @@
+from frameworks.wulf import Array, ViewModel
+from gui.impl.gen.view_models.views.lobby.personal_missions_30.select_operation_model import SelectOperationModel
+
+class CampaignModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(CampaignModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getOperations(self):
+        return self._getArray(0)
+
+    def setOperations(self, value):
+        self._setArray(0, value)
+        return
+
+    @staticmethod
+    def getOperationsType():
+        return SelectOperationModel
+
+    def getCampaignName(self):
+        return self._getString(1)
+
+    def setCampaignName(self, value):
+        self._setString(1, value)
+        return
+
+    def getCompletedWithHonor(self):
+        return self._getBool(2)
+
+    def setCompletedWithHonor(self, value):
+        self._setBool(2, value)
+        return
+
+    def _initialize(self):
+        super(CampaignModel, self)._initialize()
+        self._addArrayProperty(b'operations', Array())
+        self._addStringProperty(b'campaignName', b'')
+        self._addBoolProperty(b'completedWithHonor', False)
+        return

@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "选择您想在本场战斗中排除的坦克"
+
+msgid "prebattleTimer/ban/header"
+msgstr "禁用投票阶段"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "确认选择"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "您确认后无法再选择另外一辆坦克。"
+
+msgid "prebattleTimer/pick/header"
+msgstr "确认阶段"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "为该地图和您的团队阵容选择最合适的坦克"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "坦克预选阶段"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "选择最适合当前地图和您团队的坦克。"
+
+msgid "prebattleTimer/wait/header"
+msgstr "正在等待玩家..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "选择坦克"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "%(server)s服务器上的阶段已结束"
+
+msgid "primeTimeView/server"
+msgstr "开放服务器: %(server)s。"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s服务器\n战斗还将持续%(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s服务器\n距战斗开放还有%(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "开放服务器:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "所有服务器上的战斗均未开放"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "该模式在%(server)s服务器上不开放"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "%(server)s服务器上的战斗还将开放%(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "距%(server)s服务器上的战斗开放还有%(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "%(server)s服务器上的战斗将于%(startTime)s开放"

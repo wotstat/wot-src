@@ -1,0 +1,52 @@
+from __future__ import absolute_import
+import weakref
+from gui.Scaleform.daapi.view.meta.MinimapGridMeta import MinimapGridMeta
+from helpers import dependency
+from skeletons.account_helpers.settings_core import ISettingsCore
+
+class MinimapGrid(MinimapGridMeta):
+    settingsCore = dependency.descriptor(ISettingsCore)
+
+    def __init__(self):
+        super(MinimapGrid, self).__init__()
+        self._channel = None
+        self._controller = None
+        self.__mapId = 0
+        return
+
+    def setController(self, controller):
+        controller.activate()
+        self._controller = weakref.ref(controller)
+        return
+
+    def removeController(self):
+        self._controller = lambda : None
+        return
+
+    def setActive(self, isActive):
+        self.as_clickEnabledS(isActive)
+        return
+
+    def setClick(self, x, y):
+        controller = self._controller()
+        if controller:
+            command = controller.proto.unitChat.createByMapPos(x, y)
+            controller.sendCommand(command)
+        return
+
+    def setMapId(self, mapId):
+        if mapId != self.__mapId:
+            self.as_clearPointsS()
+        self.__mapId = mapId
+        return
+
+    def addCommand(self, cmd):
+        if cmd.isOnMinimap():
+            self.as_addPointS(cmd.getMapPosX(), cmd.getMapPosY())
+        return
+
+    def as_addMessageS(self, message):
+        return
+
+    def as_setJoinedS(self, flag):
+        return

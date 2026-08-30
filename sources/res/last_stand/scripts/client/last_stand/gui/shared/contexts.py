@@ -1,0 +1,16 @@
+from __future__ import absolute_import
+from gui.shared.tooltips.contexts import CarouselContext
+
+class EventVehicleContext(CarouselContext):
+
+    def __init__(self, fieldsToExclude=None):
+        super(EventVehicleContext, self).__init__(fieldsToExclude)
+        self.__isShort = False
+        return
+
+    def buildItem(self, intCD, isShort=False):
+        self.__isShort = isShort
+        return self.itemsCache.items.getItemByCD(int(intCD))
+
+    def getParams(self):
+        return {b'isShort': (self.__isShort)}

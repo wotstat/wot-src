@@ -1,0 +1,31 @@
+from __future__ import absolute_import
+import typing
+from gui.Scaleform.framework.entities.BaseDAAPIComponent import BaseDAAPIComponent
+from gui.veh_mechanics.battle.updaters.updaters_common import ViewUpdatersCollection
+if typing.TYPE_CHECKING:
+    from gui.veh_mechanics.battle.updaters.updaters_common import IViewUpdater
+
+class VehicleMechanicDAAPIComponent(BaseDAAPIComponent):
+
+    def __init__(self):
+        super(VehicleMechanicDAAPIComponent, self).__init__()
+        self.__updatersCollection = ViewUpdatersCollection()
+        return
+
+    def _populate(self):
+        super(VehicleMechanicDAAPIComponent, self)._populate()
+        self.__updatersCollection.initialize(self._getViewUpdaters())
+        return
+
+    def _dispose(self):
+        self.__updatersCollection.finalize()
+        super(VehicleMechanicDAAPIComponent, self)._dispose()
+        return
+
+    def _destroy(self):
+        self.__updatersCollection.destroy()
+        super(VehicleMechanicDAAPIComponent, self)._destroy()
+        return
+
+    def _getViewUpdaters(self):
+        return []

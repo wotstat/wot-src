@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "关于战斗通行证"
+
+msgid "about/position/header"
+msgstr "战斗通行证点数的发放"
+
+msgid "about/position/text"
+msgstr "每场战斗后，您会按照排名获得一定的战斗通行证点数。如果您提升自己的前线模式等级，就会获得额外的战斗通行证点数。"
+
+msgid "about/scores/header"
+msgstr "战斗通行证点数"
+
+msgid "about/scores/text"
+msgstr "可以在标准模式与前线模式中获得的特殊战斗通行证货币。提升前线模式等级即可获得战斗通行证点数，在战斗结果中达成特定排名也会奖励您战斗通行证点数。在前线模式中，坦克没有战斗通行证点数上限。"
+
+msgid "about/scoresTable/loseHeader"
+msgstr "失败"
+
+msgid "about/scoresTable/topCell"
+msgstr "所获经验排名前{{top}}"
+
+msgid "about/scoresTable/winHeader"
+msgstr "胜利"
+
+msgid "about/text"
+msgstr "战斗通行证是长期活动，玩家在活动中获得战斗通行证点数，并使用点数推进阶段。每完成一个阶段，玩家就会获得珍贵奖励。完成特定阶段后，玩家就会获得战斗通行证令牌。这是一种特殊货币，可以用来在军械库的相应版块中购买独特坦克和其他珍贵奖励。"
+
+msgid "addons/cellRent/header"
+msgstr "坦克租用"
+
+msgid "addons/cellRent/text_10"
+msgstr "有数辆不同的{{vehiclesLevel}}级坦克供您花费银币租用。系别、类型相同的坦克之间转移乘员不会招致任何处罚，也不需要再训练。"
+
+msgid "addons/cellRent/text_9"
+msgstr "有数辆不同的{{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}级坦克供您花费银币租用。系别、类型相同的坦克之间转移乘员不会招致任何处罚，也不需要再训练。"
+
+msgid "addons/cellSpectator/header"
+msgstr "观察者模式"
+
+msgid "addons/cellSpectator/text"
+msgstr "等待重生时，您可以进入观察者模式，研究战局并制定战斗计划。"
+
+msgid "addons/cellTime/header"
+msgstr "额外时间"
+
+msgid "addons/cellTime/text"
+msgstr "如果基地在战斗时间结束时\n正在被占领，那么您的团队将获得额外时间。\n如果防守方团队打断了基地占领，额外时间则会归零。"
+
+msgid "addons/header"
+msgstr "更多信息"
+
+msgid "levelUp/sectionHeader"
+msgstr "{{level}}级坦克"
+
+msgid "levelUp/text"
+msgstr "一如既往，您最初只能使用{{vehiclesLevelFrom}}级坦克参加战斗，但可以同时在车库中准备好{{vehiclesLevelTo}}级坦克。一旦第二战线中的任意基地(D、E、F)被占领，双方团队都可以使用{{vehiclesLevelTo}}级坦克。"
+
+msgid "main/cellDuration/header"
+msgstr "持续时间"
+
+msgid "main/cellDuration/text"
+msgstr "前线模式将会持续{{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}。下次发布的日期会另行公布。"
+
+msgid "main/cellFrontline/header"
+msgstr "前线模式"
+
+msgid "main/cellFrontline/text_8"
+msgstr "驾驶{{vehiclesLevel}}级坦克在{{@ colorLegacy 'FFE4C0'}}诺曼底、发电厂{{/}}和{{@ colorLegacy 'FFE4C0'}}海市蜃楼{{/}}地图上进行的30对30大规模战斗。进攻方必须摧毁5座炮台中的3座，而防守方则需要保护这些炮台。"
+
+msgid "main/cellFrontline/text_9"
+msgstr "驾驶{{vehiclesLevelFrom}}-{{vehiclesLevelTo}}级坦克在{{@ colorLegacy 'FFE4C0'}}诺曼底、发电厂{{/}}和{{@ colorLegacy 'FFE4C0'}}海市蜃楼{{/}}地图上进行的30对30大规模战斗。进攻方必须摧毁5座炮台中的3座，而防守方则需要保护这些炮台。"
+
+msgid "main/cellLevel9/header"
+msgstr "{{vehiclesLevel}}级坦克"
+
+msgid "main/cellLevel9/text"
+msgstr "当第二防线的其中一个基地(D、E或F)被占领后，您将可以驾驶{{vehiclesLevel}}级坦克进入战斗。"
+
+msgid "main/cellLevels/header"
+msgstr "{{vehiclesLevel}}级坦克"
+
+msgid "main/cellLevels/text_8"
+msgstr "仅{{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}级坦克可以参加该模式。"
+
+msgid "main/cellLevels/text_9"
+msgstr "只能使用{{vehiclesLevel}}级坦克进入战斗。"
+
+msgid "main/cellPass/header"
+msgstr "战斗通行证"
+
+msgid "main/cellPass/text"
+msgstr "前线模式是获取战斗通行证点数的大好机会，您可以通过参加战斗以及提升前线模式等级来获取通行证点数。"
+
+msgid "main/cellReserves/header"
+msgstr "战斗储备类别"
+
+msgid "main/cellReserves/text"
+msgstr "共有3个战斗储备类别，每个类别对应一个特定的栏位。\n它们解锁与强化的顺序取决于您坦克的类型。"
+
+msgid "main/cellScenarios/header"
+msgstr "战斗场景"
+
+msgid "main/cellScenarios/text"
+msgstr "前线模式战斗使用以下场景之一: {{@ colorLegacy 'FFE4C0'}}标准战斗{{/}}、{{@ colorLegacy 'FFE4C0'}}作战支援{{/}}或{{@ colorLegacy 'FFE4C0'}}扭转乾坤{{/}}。当前战斗场景的信息会在战斗加载界面中、战前倒计时期间或按下Tab键时显示。"
+
+msgid "main/sectionHeader"
+msgstr "综合信息"
+
+msgid "page/backBtn"
+msgstr "返回"
+
+msgid "page/headerUpper"
+msgstr "前线模式"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "所达到的军阶将决定能够获得的前线模式经验与战斗经验数量。前线模式经验可用于提高前线模式等级。共有{{@ colorLegacy 'FFE4C0'}}20个等级{{/}}。"
+
+msgid "progression/levelsSection/header"
+msgstr "前线模式等级"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "提高{{@ colorLegacy 'FFE4C0'}}前线模式等级{{/}}即可获得奖励，包括战斗通行证点数、战斗储备积分、战争债券、指令、再训练命令、授业许可和乘员手册。"
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "提高{{@ colorLegacy 'FFE4C0'}}前线模式等级{{/}}即可获得奖励，包括战斗储备积分、战争债券、指令、再训练命令和乘员手册。"
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}军阶{{/}}不仅反映您在单场战斗中的效率，还提供战斗经验加成。该加成将应用于您所有参战坦克获得的全部基础经验。当您或盟友达到将军军阶后，整个团队的乘员表现(乘员效率)均会获得{{@ colorLegacy 'FFE4C0'}}1.5%{{/}}至{{@ colorLegacy 'FFE4C0'}}15%{{/}}的加成。"
+
+msgid "progression/ranksSection/header"
+msgstr "军阶"
+
+msgid "progression/ranksSection/text"
+msgstr "该模式具有一个含有6级军阶的系统，玩家将可以从列兵军阶逐步提升至将军军阶。您可以通过在战斗中的高效表现（占领或守卫基地；摧毁炮台）获得经验来提升军阶。您所有参战坦克所获得的经验总数都将计算在内。"
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "战斗经验加成"
+
+msgid "progression/ranksTable/captain"
+msgstr "上尉"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "乘员表现加成"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "前线模式经验"
+
+msgid "progression/ranksTable/general"
+msgstr "将军"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "中尉"
+
+msgid "progression/ranksTable/major"
+msgstr "少校"
+
+msgid "progression/ranksTable/private"
+msgstr "列兵"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "中士"
+
+msgid "progression/sectionHeader"
+msgstr "前线模式进度"
+
+msgid "progression/text"
+msgstr "在此模式中，您将能提升军阶、推进前线模式进度并获得奖励。"
+
+msgid "reserveCategories/categories/additional"
+msgstr "次要"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "储备栏位1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "储备栏位2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "储备栏位3"
+
+msgid "reserveCategories/categories/main"
+msgstr "主要"
+
+msgid "reserveCategories/categories/support"
+msgstr "辅助"
+
+msgid "reserveCategories/config/footerText"
+msgstr "在{{@ colorLegacy 'FFE4C0'}}扭转乾坤{{/}}场景中，战斗储备的解锁顺序并不取决于坦克类型。"
+
+msgid "reserveCategories/config/header"
+msgstr "各种坦克类型的储备配置"
+
+msgid "reserveCategories/config/text"
+msgstr "在{{@ colorLegacy 'FFE4C0'}}标准战斗{{/}}和{{@ colorLegacy 'FFE4C0'}}作战支援{{/}}场景中，所有3个战斗储备栏位均会对全部坦克类型开放。不过，其解锁顺序将取决于坦克类型。"
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "自行反坦克炮"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "重型坦克"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "轻型坦克"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "中型坦克"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "自行火炮"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "*只有在{{@ colorLegacy 'FFE4C0'}}扭转乾坤{{/}}场景中{{@ colorLegacy 'FFE4C0'}}购买{{/}}的战斗储备才能加强至该等级。"
+
+msgid "reserveCategories/levels/header"
+msgstr "如何解锁栏位和强化战斗储备"
+
+msgid "reserveCategories/levels/text"
+msgstr "战斗开始时，对您开放的只有一个战斗储备。其他储备会在您晋升至中士和中尉军阶时解锁。晋升至上尉和少校军阶即可强化全部3个储备。"
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "等级{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}}或{{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "上尉"
+
+msgid "reserveCategories/ranks/general"
+msgstr "将军"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "中尉"
+
+msgid "reserveCategories/ranks/major"
+msgstr "少校"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "中士"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "列兵"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "扭转乾坤"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "在战斗中，玩家可从对所有坦克类型开放的随机储备中二选一。战前将储备放入栏位，其出现几率可提高{{@ colorLegacy 'FFE4C0'}}10%{{/}}。购买储备可将其提高至等级{{@ colorLegacy 'FFE4C0'}}II{{/}}，并有机会加强至等级{{@ colorLegacy 'FFE4C0'}}IV{{/}}。"
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "前线模式战斗场景"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "标准战斗"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "遵循常规前线模式规则。使用战斗储备的条件保持不变。"
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "作战支援"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "解锁储备后: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "重返战斗后: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "战斗储备的冷却时间缩短且节奏更快的战斗场景:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "前线模式战斗使用以下场景之一: {{@ colorLegacy 'FFE4C0'}}标准战斗{{/}}、{{@ colorLegacy 'FFE4C0'}}作战支援{{/}}或{{@ colorLegacy 'FFE4C0'}}扭转乾坤{{/}}。战斗场景会改变在战斗中使用战斗储备的条件。当前战斗场景的信息会在战斗加载界面中、战前倒计时期间或按下Tab键时显示。"
+
+msgid "reserveCategories/sectionHeader"
+msgstr "战斗储备类别"
+
+msgid "reserveCategories/text"
+msgstr "战斗储备分为3个类别，每个类别含有3种储备。进入战斗时，您只能在每个栏位中放置一个对应类别的储备。"
+
+msgid "reserveCategories/types/firesupport"
+msgstr "进攻储备"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "侦察储备"
+
+msgid "reserveCategories/types/tactics"
+msgstr "战术储备"
+
+msgid "reserves/sectionHeader"
+msgstr "快速储备"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "快速蓄势"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "战斗开始时的战斗储备准备时间缩短50%。"
+
+msgid "reserves/sectionReload/header"
+msgstr "可立即使用"
+
+msgid "reserves/sectionReload/text"
+msgstr "战斗储备一旦解锁就可以立即使用。"
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "重整旗鼓"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "驾驶新坦克重返战斗时，战斗储备的准备时间减少70%。"
+
+msgid "rules/backToFight/header"
+msgstr "重返战斗"
+
+msgid "rules/backToFight/text"
+msgstr "如果您的坦克被击毁了，可以选择任意其它可供使用的坦克，重新进入战场为胜利而战。您可以在多个重生点位之间进行选择，其中包括在侧方和后方的点位。对重生点位的选择可以帮助您制定战斗计划。防守方可选的重生点位更多，其中有一些在战线的大后方，帮助他们在战线被突破的时候赶往炮台处进行防守。系统还有着一个特殊的指示器，以警示玩家所选区域的危险性。"
+
+msgid "rules/base/header"
+msgstr "占领基地"
+
+msgid "rules/base/textBottom"
+msgstr "对正在占领基地的坦克(或其模块)造成损伤，并不会重置占领进度。\n相反，这只能暂时停止占领进度。若要重置占领进度，防守方需要击毁基地圈中的任意一辆敌方坦克，或者迫使它们离开基地圈。一旦基地被进攻方占领，防守方团队便无法夺回它。"
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}进攻方团队{FFE4C0_End}必须依次占领基地才能到达炮台。占领一个基地，战斗持续时间延长2分钟。占领最后一个基地，战斗持续时间延长4分钟。"
+
+msgid "rules/sectionHeader"
+msgstr "基本规则"
+
+msgid "rules/service/header"
+msgstr "补给圈"
+
+msgid "rules/service/text"
+msgstr "补给圈可恢复坦克的生命值、治疗所有受伤的乘员、补给弹药。{FFE4C0_Start}补给速度如下: 每秒100点生命值/一名乘员/10%{FFE4C0_End}弹药。"
+
+msgid "rules/weapons/header"
+msgstr "目标: 5个炮台中的3个"
+
+msgid "rules/weapons/list/back"
+msgstr "后部装甲: {{@ colorLegacy 'FFE4C0'}}90毫米。{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "顶部和正面装甲: 炮弹{{@ colorLegacy 'FFE4C0'}}无法击穿{{/}}。"
+
+msgid "rules/weapons/list/sides"
+msgstr "侧面装甲: {{@ colorLegacy 'FFE4C0'}}180毫米。{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "侧面装甲: {{@ colorLegacy 'FFE4C0'}}210毫米。{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "弱点部位: {{@ colorLegacy 'FFE4C0'}}舱门(70毫米)和通风口(25毫米)。{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "防守方领地的大后方有5个炮台，它们是战斗的主要目标。进攻方团队需要摧毁3个炮台防御工事，而防守方团队则需要尽力保护它们。"
+
+msgid "subTitle/differentMonth"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{startMonth}}{{from}}日{{/}}至{{@ colorLegacy 'FFE4C0'}}{{endMonth}}{{to}}日{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{startYear}}年{{startMonth}}{{from}}日{{/}}至{{@ colorLegacy 'FFE4C0'}}{{endYear}}年{{endMonth}}{{to}}日{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{endMonth}}{{from}}日{{/}}至{{@ colorLegacy 'FFE4C0'}}{{to}}日{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}第一战线的{{/}}A、B、C区域是双方团队的起始点。"
+
+msgid "winStrategy/header"
+msgstr "致胜之道"
+
+msgid "winStrategy/mapZones"
+msgstr "该模式地图拥有3条平行的防线:"
+
+msgid "winStrategy/secondLine"
+msgstr "占领第一战线的区域后，战斗就会在{{@ colorLegacy 'FFE4C0'}}第二战线的{{/}}D、E、F区域继续展开。"
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}第三战线{{/}}不分区域；战斗的最终阶段在此展开。炮台防御工事位于此处，进攻方团队击毁大部分炮台防御工事即可获胜。进攻方需要在第二战线至少占领一个区域，才能解锁该主要目标。一个区域失守后，防守方玩家有1分钟时间撤离，之后该区域就会被轰炸，未撤离的防守方玩家将被空袭摧毁。在第二和第三战线中，如果进攻方未占领前一个区域就直接进入下一个区域，同样也会被空袭摧毁。"

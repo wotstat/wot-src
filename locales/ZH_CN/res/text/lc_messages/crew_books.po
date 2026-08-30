@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "购买"
+
+msgid "buttons/cancel"
+msgstr "取消"
+
+msgid "buttons/learn"
+msgstr "学习"
+
+msgid "buttons/postProgression/claim"
+msgstr "领取"
+
+msgid "buttons/postProgression/hint"
+msgstr "前往著书立传"
+
+msgid "buttons/postProgression/howTo"
+msgstr "如何获取"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}兑换比率: {whiteSpanish_End}%(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "对所选乘员生效。\n使用全局经验加速当前特长的训练。"
+
+msgid "card/freeExp/title"
+msgstr "全局经验"
+
+msgid "card/nationBook/additionalText"
+msgstr "• 特长效率: 100%\n• 专精: %(vehicleName)。"
+
+msgid "card/nationBook/mainText"
+msgstr "对全体乘员生效。\n为每名乘员提供%(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "培训手册(%(nation))"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "训练手册(%(nation))"
+
+msgid "card/nationBook/title/guide"
+msgstr "培训指南(%(nation))"
+
+msgid "card/personalBook/additionalText"
+msgstr "无应用限制。"
+
+msgid "card/personalBook/mainText"
+msgstr "对所选乘员生效。\n为该乘员提供%(xp)"
+
+msgid "card/personalBook/title"
+msgstr "个人培训手册"
+
+msgid "card/universalBook/additionalText"
+msgstr "• 特长效率: 100%\n• 专精: %(vehicleName)。"
+
+msgid "card/universalBook/mainText"
+msgstr "对全体乘员生效。\n为每名乘员提供%(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "通用手册"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "通用简册"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "通用指南"
+
+msgid "confirm/crewLabel"
+msgstr "每名乘员将获得%(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "每名乘员将获得%(xpValue)，"
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName)将额外获得%(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName)将获得%(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "部分乘员将获得%(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "培训手册(%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "培训手册"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "培训手册"
+
+msgid "items/crewBook/Descr"
+msgstr "每名乘员获得{expTagOpen}%(exp)s{expTagClose}点乘员经验。"
+
+msgid "items/crewBook/Name"
+msgstr "训练手册(%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "训练手册"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "训练手册"
+
+msgid "items/guide/Name"
+msgstr "培训指南(%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "培训指南"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "培训指南"
+
+msgid "items/personalBook/Descr"
+msgstr "选定的乘员经验{expTagOpen}提升%(exp)s{expTagClose}"
+
+msgid "items/personalBook/Name"
+msgstr "个人培训手册"
+
+msgid "items/universalBook/Descr"
+msgstr "每名乘员获得{expTagOpen}%(exp)s{expTagClose}点乘员经验。"
+
+msgid "items/universalBook/Name"
+msgstr "通用手册"
+
+msgid "items/universalBrochure/Descr"
+msgstr "每名乘员获得{expTagOpen}%(exp)s{expTagClose}点经验。"
+
+msgid "items/universalBrochure/Name"
+msgstr "通用简册"
+
+msgid "items/universalGuide/Descr"
+msgstr "每名乘员获得{expTagOpen}%(exp)s{expTagClose}点经验。"
+
+msgid "items/universalGuide/Name"
+msgstr "通用指南"
+
+msgid "page/mentoringLicense/hint"
+msgstr "前往授业许可"
+
+msgid "page/mentoringLicense/title"
+msgstr "授业许可"
+
+msgid "page/title"
+msgstr "快速训练"
+
+msgid "tooltip/buyManual"
+msgstr "购买训练手册"
+
+msgid "tooltip/mouseWheel"
+msgstr "滚动{mouseIcon}即可增加/减少乘员手册数量。"
+
+msgid "tooltip/outOfStock"
+msgstr "没有可用的乘员手册"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "没有可用的乘员手册。您可在军械库中购买这些乘员手册。"
+
+msgid "tooltip/personalBook/mainText"
+msgstr "对所选乘员生效。为该乘员提供%(xp)s点经验。"
+
+msgid "tooltip/postProgression"
+msgstr "前往著书立传"
+
+msgid "tooltip/sale/header"
+msgstr "优惠兑换比率"
+
+msgid "tooltip/sale/newRate"
+msgstr "新兑换比率: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "旧兑换比率: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "点击%(controlsImg)将特长训练水平提高/降低1%。"
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "按下%(pgupImg) / %(pgdownImg)将特长训练水平提高至100%/返回前一个特长。"
+
+msgid "tooltip/universalBook/mainText"
+msgstr "对全体乘员生效。为每名乘员提供%(xp)s点经验。"
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "对全体乘员生效。为每名乘员提供%(xp)s点经验。"

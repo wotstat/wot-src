@@ -1,0 +1,227 @@
+from __future__ import absolute_import
+import logging, random
+from collections import namedtuple
+from future.utils import iteritems, viewitems, viewvalues
+import Event, ResMgr
+from constants import IS_DEVELOPMENT
+from gui.shared.gui_items import GUI_ITEM_TYPE
+from gui.shared.items_cache import CACHE_SYNC_REASON
+from helpers import dependency
+from items import vehicles, tankmen
+from shared_utils import first
+from skeletons.gui.game_control import IHeroTankController
+from skeletons.gui.lobby_context import ILobbyContext
+from skeletons.gui.server_events import IEventsCache
+from skeletons.gui.shared import IItemsCache
+_logger = logging.getLogger(__name__)
+_HERO_VEHICLES = b'hero_vehicles'
+_ADD_HERO_STEP_NAME = b'add_HeroVehicle'
+_HeroTankInfo = namedtuple(b'_HeroTankInfo', (b'url', b'styleID', b'crew', b'name', b'shopUrl'))
+_HeroTankInfo.__new__.__defaults__ = (b'', None, None, b'', b'')
+
+class HeroTankController(IHeroTankController):
+    itemsCache = dependency.descriptor(IItemsCache)
+    lobbyContext = dependency.descriptor(ILobbyContext)
+    _eventsCache = dependency.descriptor(IEventsCache)
+
+    def __init__(self):
+        self.__data = {}
+        self.__invVehiclesIntCD = tuple()
+        self.__debugTankCD = None
+        self.__isEnabled = False
+        self.__currentTankCD = None
+        self.onUpdated = Event.Event()
+        self.onInteractive = Event.Event()
+        return
+
+    def init(self):
+        self.itemsCache.onSyncCompleted += self.__updateInventoryVehiclesData
+        self.__isEnabled = True
+        return
+
+    def fini(self):
+        self.itemsCache.onSyncCompleted -= self.__updateInventoryVehiclesData
+        self.__isEnabled = False
+        return
+
+    def __onEventsCacheSyncCompleted(self, *_):
+        if self.__applyActions():
+            self.onUpdated()
+        return
+
+    def onLobbyStarted(self, ctx):
+        self.lobbyContext.getServerSettings().onServerSettingsChange += self.__onServerSettingsChanged
+        self._eventsCache.onSyncCompleted += self.__onEventsCacheSyncCompleted
+        self.__fullUpdate()
+        self.__updateSettings()
+        return
+
+    def onAvatarBecomePlayer(self):
+        self.lobbyContext.getServerSettings().onServerSettingsChange -= self.__onServerSettingsChanged
+        self._eventsCache.onSyncCompleted -= self.__onEventsCacheSyncCompleted
+        return
+
+    def isEnabled(self):
+        return self.__isEnabled and bool(self.__data)
+
+    def setEnabled(self, enabled):
+        self.__isEnabled = enabled
+        self.onUpdated()
+        return
+
+    def getRandomTankCD(self):
+        if IS_DEVELOPMENT and self.__debugTankCD is not None:
+            return self.__debugTankCD
+        else:
+            self.__currentTankCD = random.choice(list(self.__data) or [None]) if self.isEnabled() else None
+            return self.__currentTankCD
+
+    def getCurrentTankCD(self):
+        return self.__currentTankCD
+
+    def getCurrentTankStyleId(self):
+        if self.isEnabled() and self.__currentTankCD in self.__data:
+            return self.__data[self.__currentTankCD].styleID
+        else:
+            return
+
+    def getCurrentRelatedURL(self):
+        if self.isEnabled() and self.__currentTankCD in self.__data:
+            return self.__data[self.__currentTankCD].url
+        return b''
+
+    def getCurrentShopUrl(self):
+        if self.isEnabled() and self.__currentTankCD in self.__data:
+            return self.__data[self.__currentTankCD].shopUrl
+        return b''
+
+    def getCurrentTankCrew(self):
+        if self.isEnabled() and self.__currentTankCD in self.__data:
+            return self.__data[self.__currentTankCD].crew
+        else:
+            return
+
+    def getCurrentVehicleName(self):
+        if self.isEnabled() and self.__currentTankCD in self.__data:
+            return self.__data[self.__currentTankCD].name
+        return b''
+
+    def setInteractive(self, interactive):
+        self.onInteractive(interactive)
+        return
+
+    def setDebugTankCD(self, debugTankCD):
+        if debugTankCD != self.__debugTankCD:
+            self.__debugTankCD = debugTankCD
+            self.onUpdated()
+        return
+
+    def __fullUpdate(self):
+        items = self.itemsCache.items
+        getItem = items.getItemByCD
+        self.__invVehiclesIntCD = tuple({intCD for intCD, rData in viewitems(items.recycleBin.vehiclesBuffer) if rData and getItem(intCD).isRestorePossible()}.union(items.inventory.getIventoryVehiclesCDs()))
+        return
+
+    def __updateInventoryVehiclesData(self, reason, diff):
+        if reason != CACHE_SYNC_REASON.CLIENT_UPDATE:
+            return
+        else:
+            if diff is not None and GUI_ITEM_TYPE.VEHICLE in diff:
+                vehDiff = diff[GUI_ITEM_TYPE.VEHICLE]
+                if self.__currentTankCD not in vehDiff:
+                    return
+                self.__fullUpdate()
+                self.__updateSettings()
+            return
+
+    def __onServerSettingsChanged(self, diff):
+        if _HERO_VEHICLES in diff:
+            self.__updateSettings()
+        return
+
+    def __updateSettings(self):
+        self.__data = {}
+        heroVehiclesDict = self.lobbyContext.getServerSettings().getHeroVehicles()
+        if b'vehicles' in heroVehiclesDict:
+            heroVehicles = heroVehiclesDict[b'vehicles']
+            for vCompDescr, vData in viewitems(heroVehicles):
+                if vCompDescr in self.__invVehiclesIntCD:
+                    continue
+                self.__data[vCompDescr] = _HeroTankInfo(name=vData.get(b'name'), url=vData.get(b'url'), shopUrl=vData.get(b'shopUrl'), styleID=vData.get(b'styleID'), crew=self.__createCrew(vData.get(b'crew'), vCompDescr))
+
+        self.__applyActions()
+        self.onUpdated()
+        return
+
+    def __applyActions(self):
+        hasHeroTankActions = False
+        actions = self._eventsCache.getActions()
+        for action in viewvalues(actions):
+            steps = action.getData().get(b'steps', [])
+            if not steps:
+                continue
+            for step in steps:
+                if step.get(b'name') != _ADD_HERO_STEP_NAME:
+                    continue
+                hasHeroTankActions = True
+                self.__addActionVehicle(step[b'params'])
+
+        return hasHeroTankActions
+
+    def __addActionVehicle(self, params):
+        vName = params.get(b'name')
+        vCompDescr = vehicles.makeVehicleTypeCompDescrByName(vName)
+        if not vCompDescr:
+            _logger.error(b'Could not apply action, vehicle name = %s', vName)
+            return
+        else:
+            if vCompDescr in self.__invVehiclesIntCD:
+                return
+            styleStr = params.get(b'styleID')
+            styleId = int(styleStr) if styleStr else None
+            self.__data[vCompDescr] = _HeroTankInfo(name=vName, url=params.get(b'url'), shopUrl=params.get(b'shopUrl'), styleID=styleId, crew=self.__createCrew(params.get(b'crew'), vCompDescr))
+            return
+
+    def __createCrew(self, crewXml, vCompDescr):
+        crew = {}
+        if not crewXml:
+            return crew
+        else:
+            crewStr = (b'<root>{}</root>').format(crewXml.encode(b'ascii'))
+            crewSection = ResMgr.DataSection().createSectionFromString(crewStr)
+            if crewSection is not None:
+                crew[b'tankmen'] = []
+                _, nationId, vehTypeId = vehicles.parseIntCompactDescr(vCompDescr)
+                for tankmanSection in crewSection.values():
+                    tmanDict = {}
+                    tmanId = tankmanSection.readString(b'name')
+                    if not tmanId:
+                        continue
+                    tData = None
+                    tIdx = None
+                    for idx, tMan in iteritems(tankmen.getNationConfig(nationId).premiumGroups):
+                        if tMan.name == tmanId:
+                            tData = tMan
+                            tIdx = idx
+                            break
+
+                    if tData is None:
+                        continue
+                    tmanDict[b'isPremium'] = True
+                    tmanDict[b'gId'] = tIdx
+                    tmanDict[b'nationID'] = nationId
+                    tmanDict[b'firstNameID'] = tankmanSection.readInt(b'firstNameID', first(tData.firstNames))
+                    tmanDict[b'lastNameID'] = tankmanSection.readInt(b'lastNameID', first(tData.lastNames))
+                    tmanDict[b'iconID'] = tankmanSection.readInt(b'iconID', first(tData.icons))
+                    tmanDict[b'vehicleTypeID'] = vehTypeId
+                    tmanDict[b'role'] = tankmanSection.readString(b'role')
+                    for param in (b'roleLevel', b'freeXP'):
+                        tmanDict[param] = tankmanSection.readInt(param)
+
+                    for param in (b'skills', b'freeSkills'):
+                        paramAsStr = tankmanSection.readString(param)
+                        tmanDict[param] = paramAsStr.split(b' ') if paramAsStr else []
+
+                    crew[b'tankmen'].append(tmanDict)
+
+            return crew

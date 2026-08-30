@@ -1,0 +1,92 @@
+from __future__ import absolute_import
+from collections import defaultdict
+from future.utils import viewitems
+from debug_utils import LOG_ERROR
+from shared_utils.account_helpers.diff_utils import synchronizeDicts
+
+class AttributeDict(dict):
+
+    def __getattr__(self, item):
+        try:
+            return self[item]
+        except KeyError:
+            LOG_ERROR(b'sync data object has no key: ', item)
+
+        return
+
+
+class ArenaSyncObject(object):
+    EVENT_TYPE_DELIMITER = b'.'
+
+    def __init__(self):
+        self.__cache = AttributeDict()
+        self.__callbacks = defaultdict(list)
+        return
+
+    def __getattr__(self, item):
+        try:
+            return self.__cache[item]
+        except KeyError:
+            LOG_ERROR(b'sync data object has no key: ', item)
+
+        return
+
+    def synchronize(self, isFullSync, diff):
+        if isFullSync:
+            self.__cache.clear()
+        changeList = {}
+        changeList[b''] = diff
+        synchronizeDicts(diff, self.__cache, b'', changeList, AttributeDict)
+        self.__processChangeList(changeList)
+        return
+
+    def addCallback(self, syncEntryID, callback):
+        if callback not in self.__callbacks:
+            self.__callbacks[callback] = []
+        if syncEntryID not in self.__callbacks[callback]:
+            self.__callbacks[callback].append(syncEntryID)
+        if not syncEntryID:
+            if self.__cache:
+                callback(self.__cache)
+        else:
+            entry = self.__cache.get(syncEntryID)
+            if entry is not None:
+                callback(entry)
+        return
+
+    def removeCallback(self, syncEntryID, callback):
+        if callback in self.__callbacks:
+            if syncEntryID in self.__callbacks[callback]:
+                self.__callbacks[callback].remove(syncEntryID)
+            if not self.__callbacks[callback]:
+                del self.__callbacks[callback]
+        return
+
+    def getData(self, key):
+        keyList = key.split(self.EVENT_TYPE_DELIMITER)
+        if not keyList:
+            return None
+        else:
+            cache = self.__cache
+            for item in keyList:
+                cache = cache.__getattr__(item)
+
+            return cache
+
+    def __processChangeList(self, changeList):
+        for handler, diffpaths in viewitems(self.__callbacks):
+            for diffpath in diffpaths:
+                isFire, args = self.__processDiffPath(diffpath, changeList)
+                if isFire:
+                    handler(args)
+                    break
+
+        return
+
+    def __processDiffPath(self, diffpath, changeList):
+        diff_ptr = changeList
+        if diffpath not in diff_ptr:
+            return (False, None)
+        else:
+            return (
+             True, diff_ptr[diffpath])

@@ -1,0 +1,46 @@
+import typing
+from epic_constants import EPIC_SKILL_TOKEN_NAME, EPIC_SELECT_BONUS_NAME
+from gui.server_events.bonuses import IntegralBonus, SimpleBonus
+
+class FrontlineSkillBonus(IntegralBonus):
+
+    def __init__(self, value, ctx=None):
+        super(FrontlineSkillBonus, self).__init__(EPIC_SKILL_TOKEN_NAME, value, ctx=ctx)
+        return
+
+
+def isBonusesEqual(lhv, rhv):
+    if len(lhv) != len(rhv):
+        return False
+    for index, bonus in enumerate(lhv):
+        if not bonus.isEqual(rhv[index]):
+            return False
+
+    return True
+
+
+def mergeSelectable(frontlineLevel, startLvl, endLvl, bonuses, bonusesByLvl):
+    indexToCheck = []
+    for idx, bonus in enumerate(bonuses):
+        if bonus.getName() == EPIC_SELECT_BONUS_NAME:
+            if bonus.isReceived():
+                indexToCheck.append(idx)
+            elif frontlineLevel >= startLvl:
+                bonuses[idx].updateContext({b'canClaim': True})
+
+    level = startLvl + 1
+    if not indexToCheck:
+        return
+    while level <= endLvl:
+        for idx in indexToCheck:
+            mergedBonus = bonusesByLvl[level][idx]
+            if level > frontlineLevel:
+                bonuses[idx].updateContext({b'canClaim': False})
+                indexToCheck.remove(idx)
+            elif mergedBonus.getName() == EPIC_SELECT_BONUS_NAME and not mergedBonus.isReceived():
+                bonuses[idx].updateContext({b'canClaim': True})
+                indexToCheck.remove(idx)
+
+        level += 1
+
+    return

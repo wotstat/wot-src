@@ -1,0 +1,33 @@
+from frameworks.wulf import Array, ViewModel
+from gui.impl.gen.view_models.views.lobby.achievements.achievement_model import AchievementModel
+
+class AchievementSectionModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=2, commands=0):
+        super(AchievementSectionModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getType(self):
+        return self._getString(0)
+
+    def setType(self, value):
+        self._setString(0, value)
+        return
+
+    def getAchievements(self):
+        return self._getArray(1)
+
+    def setAchievements(self, value):
+        self._setArray(1, value)
+        return
+
+    @staticmethod
+    def getAchievementsType():
+        return AchievementModel
+
+    def _initialize(self):
+        super(AchievementSectionModel, self)._initialize()
+        self._addStringProperty(b'type', b'epic')
+        self._addArrayProperty(b'achievements', Array())
+        return

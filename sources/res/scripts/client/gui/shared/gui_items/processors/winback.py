@@ -1,0 +1,39 @@
+from __future__ import absolute_import
+import typing, BigWorld
+from gui import SystemMessages
+from gui.Scaleform.Waiting import Waiting
+from gui.SystemMessages import SM_TYPE
+from gui.impl import backport
+from gui.impl.dialogs.dialogs import showSingleDialogWithResultData
+from gui.impl.gen import R
+from gui.shared.gui_items.processors import Processor, plugins
+if typing.TYPE_CHECKING:
+    from typing import Optional
+    from gui.impl.lobby.dialogs.full_screen_dialog_view import FullScreenDialogBaseView
+    from frameworks import wulf
+_WINBACK_MESSAGES = R.strings.system_messages.winback
+
+class WinbackTurnOffBattlesProcessor(Processor):
+
+    def __init__(self, reason, dialog=None, parent=None):
+        confirmators = None
+        if dialog is not None:
+            layoutID = R.views.lobby.winback.WinbackLeaveModeDialogView()
+            confirmators = [plugins.AsyncDialogConfirmator(showSingleDialogWithResultData, dialog, layoutID, parent)]
+        super(WinbackTurnOffBattlesProcessor, self).__init__(confirmators)
+        self.__reason = reason
+        return
+
+    def _request(self, callback):
+        Waiting.show(b'updating')
+        BigWorld.player().winback.turnOffBattles(self.__reason, (lambda code, errStr: self._response(code, callback, errStr=errStr)))
+        return
+
+    def _successHandler(self, code, ctx=None):
+        Waiting.hide(b'updating')
+        return super(WinbackTurnOffBattlesProcessor, self)._successHandler(code, ctx)
+
+    def _errorHandler(self, code, errStr=b'', ctx=None):
+        Waiting.hide(b'updating')
+        SystemMessages.pushMessage(text=backport.text(_WINBACK_MESSAGES.turnOffBattlesError()), type=SM_TYPE.ErrorSimple)
+        return super(WinbackTurnOffBattlesProcessor, self)._errorHandler(code, errStr, ctx)

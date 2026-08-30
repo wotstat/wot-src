@@ -1,0 +1,2 @@
+class GLOBAL_VARS_MGR_CONSTS(object):
+    BATTLE = b'BATTLE_V2'

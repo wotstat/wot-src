@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "激活"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "购买并激活"
+
+msgid "activation/activateBonus"
+msgstr "激活个人储备：%(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "启用储备"
+
+msgid "activation/activateButtonClan"
+msgstr "前往要塞"
+
+msgid "activation/battleXPDescription"
+msgstr "战斗经验加成，持续1小时"
+
+msgid "activation/battleXPTitle"
+msgstr "战斗经验"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "购买并激活提供%(boosterBonus)s%(boosterTerm)s加成的改进型个人储备？"
+
+msgid "activation/buyGoldConfirm"
+msgstr "充值"
+
+msgid "activation/buyGoldTitle"
+msgstr "购买提供%(boosterBonus)s%(boosterInfluence)s加成的改进型个人储备所需的金币？"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}购买改进型个人储备所需的金币：{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "银币和战斗经验"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "乘员经验和全局经验"
+
+msgid "activation/clanBoostersTitle"
+msgstr "军团储备"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "激活要塞中的储备"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "在要塞中查看"
+
+msgid "activation/comboXPDescription"
+msgstr "全局和乘员经验加成，持续1小时"
+
+msgid "activation/comboXPTitle"
+msgstr "全局和乘员经验"
+
+msgid "activation/creditsDescription"
+msgstr "银币加成，持续1小时"
+
+msgid "activation/creditsTitle"
+msgstr "银币"
+
+msgid "activation/footer"
+msgstr "建议激活限时储备: %(expirableAmount)个于%(expirableTime)后过期"
+
+msgid "activation/frontLineXPDescription"
+msgstr "前线模式经验加成，持续1小时"
+
+msgid "activation/frontLineXPTitle"
+msgstr "前线模式经验"
+
+msgid "activation/informationButton"
+msgstr "信息"
+
+msgid "activation/price"
+msgstr "价格:"
+
+msgid "activation/subFooter/depot"
+msgstr "仓库"
+
+msgid "activation/subFooter/main"
+msgstr "最接近到期的储备将首先被激活。您可在%(depot)中查看全部可用的储备"
+
+msgid "activation/subTitle/main"
+msgstr "可激活{whiteSpanish_Open}最多3个个人储备{whiteSpanish_Close}，让您在战斗中获得更多银币和经验。您可在%(store)s中购买更多个人储备。"
+
+msgid "activation/subTitle/store"
+msgstr "军械库"
+
+msgid "activation/terms/booster_credits"
+msgstr "银币"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "前线模式经验"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "全局和乘员经验"
+
+msgid "activation/terms/booster_xp"
+msgstr "战斗经验"
+
+msgid "activation/title"
+msgstr "个人储备"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}您将失去已激活的标准型个人储备(提供%(previousBoosterBonus)s%(previousBoosterTerm)s加成。){yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "您想激活可提供%(boosterBonus)s%(boosterTerm)s加成的改进型个人储备，而非标准型个人储备吗？"
+
+msgid "battleView/notice"
+msgstr "您可在战斗中随时激活战斗储备。即使储备效果在战斗中过期，您仍会获得加成。"
+
+msgid "battleView/title"
+msgstr "激活个人储备"
+
+msgid "depot/buyButton"
+msgstr "前往购买"
+
+msgid "disabledReserveTooltip/text"
+msgstr "您已激活该类型的另一个储备。"
+
+msgid "finishedReserveTooltip/text"
+msgstr "该个人储备在战斗中到期。其提供的加成仍会应用于这场战斗。"
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)分"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "已激活的个人储备不适用此模式。"
+
+msgid "intro/buttons/close"
+msgstr "收到！"
+
+msgid "intro/buttons/details"
+msgstr "详情"
+
+msgid "intro/description"
+msgstr "获得限时个人储备后，您需要在有限时间内使用它们。如果在此期间没有将其激活，那么您将损失它们。当拥有相同类型的限时个人储备时，您将无法使用不会过期的个人储备。"
+
+msgid "intro/title"
+msgstr "限时个人储备"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "仓库中没有此类型的个人储备。您可以稍后购买它们或在车库中激活它们。"
+
+msgid "noReserveTooltip/infoText"
+msgstr "完成任务和参加游戏活动可获取个人储备。"
+
+msgid "noReserveTooltip/text"
+msgstr "仓库中没有此类型的个人储备。"

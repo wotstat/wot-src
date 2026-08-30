@@ -1,0 +1,210 @@
+import typing, copy, hashlib, httplib, json, urllib, urlparse
+from functools import partial
+from enum import Enum
+import adisp, wg_async, BigWorld, soft_exception
+from BWUtil import AsyncReturn
+from constants import WG_GAMES, CURRENT_REALM
+from gui.platform.base.settings import REQUEST_TIMEOUT, POLLING_PERIOD, POLLING_REQUEST_TIMEOUT, SOLVE_POW_TIMEOUT, ACCEPTED_HTTP_CODES
+from gui.platform.base import logger
+from gui.platform.base.response import PlatformResponse
+from helpers import dependency, getClientVersion
+from skeletons.gui.web import IWebController
+from wotdecorators import noexceptReturn
+
+class ContentType(str, Enum):
+    JSON = b'application/json'
+    FORM_URLENCODED = b'application/x-www-form-urlencoded'
+    FORM_DATA = b'multipart/form-data'
+
+
+class Params(object):
+    response = PlatformResponse
+    url = b''
+    queryParams = None
+    headers = None
+    method = b'GET'
+    postData = None
+    auth = True
+    proofOfWorkURL = b''
+    addUserAgentHeader = True
+
+    def __init__(self, urlHost=b'', powHost=b''):
+        self._logger = logger.getWithContext(instance=self)
+        self.queryParams = copy.deepcopy(self.queryParams) if self.queryParams else {}
+        self.headers = self._prepareHeaders()
+        self.postData = copy.deepcopy(self.postData) if self.postData else {}
+        self.url = self._addHost(urlHost, self._prepareUrl())
+        self.proofOfWorkURL = self._addHost(powHost or urlHost, self.proofOfWorkURL)
+        return
+
+    def getHash(self):
+        hashBuilder = hashlib.md5()
+        attrs = (self.url, self.headers, self.method, self.queryParams, self.postData, self.auth, self.proofOfWorkURL)
+        hashBuilder.update((b'').join(str(attr) for attr in attrs))
+        return hashBuilder.hexdigest()
+
+    def encodePostData(self):
+        contentType = self.headers.get(b'Content-Type')
+        if contentType is None or contentType == b'multipart/form-data':
+            return self.postData
+        else:
+            if contentType == b'application/x-www-form-urlencoded':
+                return urllib.urlencode(self.postData)
+            if contentType == b'application/json':
+                return json.dumps(self.postData)
+            raise soft_exception.SoftException((b'Unsupported header content type: {}').format(contentType))
+            return
+
+    def _prepareUrl(self):
+        if not self.url:
+            raise soft_exception.SoftException((b'Broken request url: {} ').format(self.url))
+        url = self.url
+        if self.queryParams:
+            values = []
+            for k, val in self.queryParams.iteritems():
+                if not isinstance(val, (list, tuple)):
+                    val = [
+                     val]
+                values.append((k, (b',').join(str(i) for i in val)))
+
+            urlencodedString = urllib.urlencode(values)
+            url = (b'{}?{}').format(self.url, urlencodedString)
+        return url
+
+    def _prepareHeaders(self):
+        headers = copy.deepcopy(self.headers) if self.headers else {}
+        if self.addUserAgentHeader:
+            if b'User-Agent' in headers:
+                self._logger.warning(b'User-Agent=%s in default headers will be replaced.', headers[b'User-Agent'])
+            headers[b'User-Agent'] = (b'{app}-{realm}/{version}').format(app=WG_GAMES.TANKS, realm=CURRENT_REALM, version=getClientVersion(force=False))
+        return headers
+
+    def _addHost(self, host, url):
+        if host and url:
+            if bool(urlparse.urlparse(url).netloc):
+                self._logger.error(b'Url already absolute in %s', self)
+            else:
+                url = urlparse.urljoin(host, url)
+        return url
+
+    def __str__(self):
+        return (b'<{cls_}> auth:{auth}, url:{url}, method:{method}, headers:{headers}, powUrl:{powUrl}, response:{response}.').format(cls_=self.__class__.__name__, auth=self.auth, url=self.url, method=self.method, headers=self.headers, powUrl=self.proofOfWorkURL, response=self.response)
+
+
+class Request(object):
+    __slots__ = (b'requestId', b'isCanceled', b'params', b'_logger')
+    webCtrl = dependency.descriptor(IWebController)
+
+    def __init__(self, requestId, params):
+        self.requestId = requestId
+        self.isCanceled = False
+        self.params = params
+        self._logger = logger.getWithContext(instance=self, requestId=requestId)
+        return
+
+    def cancel(self):
+        self.isCanceled = True
+        self._logger.debug(b'Canceled.')
+        return
+
+    @wg_async.wg_async
+    def send(self):
+        self._logger.debug(b'Processing %s.', self.params)
+        if self.params.auth:
+            accessTokenData = yield wg_async.await_callback(self._getAccessTokenData)()
+            self._logger.debug(b'Authorization token: %s.', accessTokenData)
+            if self.isCanceled:
+                raise AsyncReturn(self.params.response.createRequestCanceled())
+            if accessTokenData is None:
+                raise AsyncReturn(self.params.response.createAuthorizationError())
+            self.params.headers[b'Authorization'] = (b'Bearer {}').format(accessTokenData.accessToken)
+        if self.params.proofOfWorkURL:
+            response = yield wg_async.await_callback(self._fetchUrl)(url=self.params.proofOfWorkURL, headers={b'User-Agent': (self.params.headers.get(b'User-Agent'))} if self.params.addUserAgentHeader else None)
+            if self.isCanceled:
+                raise AsyncReturn(self.params.response.createRequestCanceled())
+            if not response.isSuccess():
+                raise AsyncReturn(response)
+            self._logger.debug(b'Got pow response=%s.', response)
+            solved, counter = yield wg_async.wg_await(self._solvePoW(response, SOLVE_POW_TIMEOUT))
+            if self.isCanceled:
+                raise AsyncReturn(self.params.response.createRequestCanceled())
+            if not solved:
+                raise AsyncReturn(self.params.response.createPowNotSolved())
+            self.params.postData[b'pow'] = counter
+            self.params.headers[b'X-Wg-Challenge-Key'] = response.getHeaders().get(b'X-Wg-Challenge-Key', b'')
+        self._logger.debug(b'Sending with %s.', self.params)
+        response = yield wg_async.await_callback(self._fetchUrl)(self.params.url, self.params.headers.items(), self.params.method, self.params.encodePostData())
+        raise AsyncReturn(response)
+        return
+
+    @adisp.adisp_process
+    def _getAccessTokenData(self, callback):
+        force = not self.webCtrl.isLoggedOn()
+        self._logger.debug(b'Getting access token with force=%s.', force)
+        accessTokenData = yield self.webCtrl.getAccessTokenData(force=force)
+        callback(accessTokenData)
+        return
+
+    @wg_async.wg_async
+    def _solvePoW(self, response, timeout=None):
+        data = response.getData()[b'pow']
+        solved, counter = yield wg_async.await_callback(_solvePow)(data[b'algorithm'][b'version'], data[b'complexity'], str(data[b'timestamp']), data[b'algorithm'][b'resourse'], data[b'algorithm'][b'extension'], data[b'random_string'], timeout)
+        self._logger.debug(b'Challenge was solved=%s, counter=%s', solved, counter)
+        raise AsyncReturn((solved, counter))
+        return
+
+    def _fetchUrl(self, url, headers=None, method=b'GET', postData=None, callback=(lambda x: x)):
+        _urlFetcher(url, partial(self._pollResponseCallback, callback), headers, REQUEST_TIMEOUT, method, postData)
+        return
+
+    @wg_async.wg_async
+    def _pollResponseCallback(self, callback, response):
+        try:
+            self._logger.debug(b'Got url response with code=%s, body=%s, headers=%s.', response.responseCode, response.body, response.headers())
+            if self.isCanceled:
+                callback(self.params.response.createRequestCanceled())
+                return
+            while response.responseCode == httplib.ACCEPTED:
+                yield wg_async.wg_await(wg_async.delay(POLLING_PERIOD))
+                if self.isCanceled:
+                    callback(self.params.response.createRequestCanceled())
+                    return
+                headers, _ = self.__loadResponse(response)
+                self._logger.debug(b'Sending poll request to %s.', headers[b'Location'])
+                location, userAgent = headers[b'Location'], self.params.headers.get(b'User-Agent')
+                response = yield wg_async.await_callback(_urlFetcher)(url=location, headers={b'User-Agent': userAgent} if userAgent else None, timeout=POLLING_REQUEST_TIMEOUT)
+                self._logger.debug(b'Got poll response with code=%s.', response.responseCode)
+                if self.isCanceled:
+                    callback(self.params.response.createRequestCanceled())
+                    return
+
+            headers, data = self.__loadResponse(response)
+            if response.responseCode not in ACCEPTED_HTTP_CODES:
+                callback(self.params.response.createHttpError(response.responseCode, b'', data, headers))
+            else:
+                callback(self.params.response.createSuccess(response.responseCode, b'', data, headers))
+        except Exception:
+            self._logger.exception(b'Got an exception processing poll.')
+            callback(self.params.response.createUnexpectedError(b'Failed to handle result'))
+
+        return
+
+    @noexceptReturn((None, None))
+    def __loadResponse(self, response):
+        headers = response.headers()
+        try:
+            data = json.loads(response.body)
+        except (TypeError, ValueError):
+            self._logger.warning(b'Can not load response body from response: %s.', response)
+            data = None
+
+        return (headers, data)
+
+
+def _urlFetcher(url, callback, headers=None, timeout=REQUEST_TIMEOUT, method=b'GET', postData=None):
+    return BigWorld.fetchURL(url, callback, headers, timeout, method, postData)
+
+
+def _solvePow(version, complexity, timestamp, resource, extension, randomString, timeout, callback):
+    BigWorld.solvePow(version, complexity, timestamp, resource, extension, randomString, callback, timeout)
+    return

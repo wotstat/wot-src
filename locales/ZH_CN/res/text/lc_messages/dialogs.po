@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "继续"
+
+msgid "EULA/labels/agree"
+msgstr "我接受"
+
+msgid "EULA/title"
+msgstr "最终用户许可协议"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "这个邮箱已经和您的账号绑定。"
+
+msgid "accountCompletion/activate/button"
+msgstr "发送激活码/更换邮箱"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "重新发送激活码或在%(timer)秒内更换邮箱"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "请重新输入您的邮箱"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "激活码已过期。请重新输入您的邮箱。"
+
+msgid "accountCompletion/activate/keyError"
+msgstr "激活码错误"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "如果您没有收到邮件，请仔细检查您输入的邮箱是否正确。"
+
+msgid "accountCompletion/activate/text"
+msgstr "包含360验证码的电子邮件已发送至以下邮箱{whiteSpanish_Open}%(email){whiteSpanish_Close}。输入4位验证码以确认您的邮箱并完成账号注册。"
+
+msgid "accountCompletion/activate/title"
+msgstr "确认邮箱地址"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "错误输入激活码次数过多。"
+
+msgid "accountCompletion/add"
+msgstr "添加"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "这个邮箱已经和您的账号绑定。"
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "邮箱已绑定"
+
+msgid "accountCompletion/cancel"
+msgstr "取消"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "您的邮箱"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "邮箱"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "添加您的邮箱以获取奖励和开通所有游戏活动。"
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "开通游戏的所有功能"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "添加并确认您的邮箱，以获得奖励和解锁新功能。%(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "完成账号"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "另一个账号已绑定这个邮箱。"
+
+msgid "accountCompletion/emailForbidden"
+msgstr "这个邮箱不可用。"
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "邮箱地址不能超过%(amount)s个字符。"
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "邮箱地址至少需要包括%(amount)s个字符。"
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "您的邮箱已被确认。"
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "邮箱已确认"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "您已尝试太多次。您可以在%(timer)后更换邮箱地址或重新发送激活邮件"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "您所在的地区不允许使用这项电子邮件服务。"
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "您所在的地区不允许使用这项电子邮件服务。"
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "无法绑定邮箱"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "邮箱地址只能使用拉丁字母、数字、@符号、英文句号和下划线。"
+
+msgid "accountCompletion/later"
+msgstr "以后再说"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "验证邮箱的奖励"
+
+msgid "accountCompletion/submit"
+msgstr "确认"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "正在服务器队列中等待。\n该过程可能需要一些时间。"
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) 这项服务暂不可用。请稍后再试。"
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon)这项服务暂时不可用。\n请在%(time)s后再试。"
+
+msgid "barracksExpand/cancel"
+msgstr "取消"
+
+msgid "barracksExpand/message"
+msgstr "您要花费%(price)s金币在兵营里增加%(count)s个空位么？"
+
+msgid "barracksExpand/submit"
+msgstr "确认"
+
+msgid "barracksExpand/title"
+msgstr "扩充兵营"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "取消"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "金币不足。"
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "确认"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "扩充兵营"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "取消"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "部分玩家未就绪，或人数不足。"
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "开始战斗"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "成员不足"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "取消"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "激活%(newBoosterName)s奖励"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "确认"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "确认激活"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "取消"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "如果%(newBoosterName)s的个人预订被激活，则当前有效的%(curBoosterName)s个人预订将被取消并销毁。"
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "确认"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "确认激活"
+
+msgid "buyConfirmation/cancel"
+msgstr "取消"
+
+msgid "buyConfirmation/message"
+msgstr "以%(price)s价格购买%(product)s？"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "确认要购买{%count} \"{%name}\"么？"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "确认购买配件'%(equipment)s'？"
+
+msgid "buyConfirmation/submit"
+msgstr "确认"
+
+msgid "buyConfirmation/title"
+msgstr "确认购买"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "取消"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "不匹配的"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " 用现有的配置。"
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "给养\"%(conflicted)s\"将被拆卸至仓库，原因"
+
+msgid "buyInstallConfirmation/message"
+msgstr "是否要花费%(price)s%(creditsIcon)s购买%(kind)s\" %(name)s\"并安装在当前坦克上? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "确认要花费%(price)s银币购买\"%(kind)s\" %(name)s\"安装在当前坦克么？"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "确认"
+
+msgid "buyInstallConfirmation/title"
+msgstr "确认购买"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "取消"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "确认购买用%(gold)s购买%(days)s天高级账号么？\n因%(alertIcon)s %(alertColorTagOpen)s的原因，您将无法获得额外的银币与经验。请选择不同的战斗模式或通过高级账号菜单购买高级账号。%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "确认"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "确认购买"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "车位"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "取消"
+
+msgid "buySlotConfirmation/message"
+msgstr "花费%(goldCost)s购买一个车位？"
+
+msgid "buySlotConfirmation/submit"
+msgstr "确认"
+
+msgid "buySlotConfirmation/title"
+msgstr "确认购买"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "确认"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "没有足够的银币购买车位。"
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "确认"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "银币不足"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "确认"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "没有足够的金币购买车位。"
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "确认"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "金币不足。"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "取消"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "车库中无可用车位。确认用{%d}银币购买一个额外车位？"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "确认"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "确认购买"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "装填标准弹药"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "取消"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "您已拥有该坦克的乘员。"
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "坦克租期内您将免费获得一个车位。"
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "无法装填弹药：所选战车弹药已满。"
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "无法装填弹药: 所选坦克还有一些弹药。"
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "%(vehiclename)s售价:"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "增加车位"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "确认"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "确认"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "折价置换"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "购买不带乘员的坦克"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "乘员训练"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "乘员: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "购买 %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "总计:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "你输入了不正确的信息。"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "请输入\"总计\"栏位里的金币数量"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "确认操作:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "您没有符合要求的坦克\n用来折价置换"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "估计值为%(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "训练乘员: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "总计:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "选择坦克"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "选择可用来折价置换\n的金币坦克"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "取消"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "%(vehiclename)s的额外价格:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "确认"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "购买不带乘员的坦克"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "折价置换为%(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "一旦您点击下方的折价置换按钮，用金币购买的配件和给养将不会退还。请仔细检查所有细节。"
+
+msgid "buyVehicleWindow/warning"
+msgstr "点击“购买”按钮，购买的配件和给养将不会退回为金币。请仔细查看道具。"
+
+msgid "challenge_missions/activation/cancel"
+msgstr "取消"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "确认"
+
+msgid "challenge_missions/activation/description"
+msgstr "激活后，熔炉试炼系列任务将开放，任务可以{{@ style (color #FFE4C0)}}完成或放弃，也可能失败{{/}}。如果系列中的一个任务失败，您将失去一个护盾。"
+
+msgid "challenge_missions/activation/title"
+msgstr "激活熔炉试炼: {{challengeName}}？"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "取消"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "确认"
+
+msgid "challenge_missions/restart/description"
+msgstr "您的任务进度将重置，护盾将恢复，您将能再次获取奖励。重新开始后，该系列任务会立即激活。"
+
+msgid "challenge_missions/restart/free/title"
+msgstr "免费重新开始熔炉试炼: {{challengeName}}？"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "花费{{cost}}重新开始熔炉试炼: {{challengeName}}？"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "取消"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "确认"
+
+msgid "challenge_missions/surrender/description"
+msgstr "放弃将结束该熔炉试炼系列任务，并重置所有进度和护盾。您可以随时重新开始该系列任务。"
+
+msgid "challenge_missions/surrender/title"
+msgstr "放弃熔炉试炼: {{challengeName}}？"
+
+msgid "changeGraphics/cancel"
+msgstr "取消"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s图像在本次更新中被大幅度优化。你可以自动设置图像或者取消自动设置"
+
+msgid "changeGraphics/submit"
+msgstr "确认"
+
+msgid "changeGraphics/title"
+msgstr "自动设置图像"
+
+msgid "changePeriphery/cancel"
+msgstr "取消"
+
+msgid "changePeriphery/message"
+msgstr "确认要登录其它服务器吗？"
+
+msgid "changePeriphery/submit"
+msgstr "确认"
+
+msgid "changePeriphery/title"
+msgstr "确认登录"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "取消"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "服务器变更现在将被保存。您可以在“设置”中启用或禁用自动登录功能。"
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "继续"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "变更为其它服务器吗？"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "取消"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "您确认要登录其它服务器吗？\n\n如果您选择其它服务器，您将会受到以下限制:\n\t• 部分坦克将无法使用。\n\t• 徽章与签名将无法显示。\n\t• 任务、个人储备与训练场将无法使用。\n\n您可能会遇到链接错误的问题。请尊重其它区域的玩家。"
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "确认"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "确认登录"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "取消"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "转移至其它服务器吗？\n\n如果选择其它服务器，您将会受到以下限制:\n\t• 某些坦克将无法使用。\n\t• 徽章与签名将无法显示。\n\t• 任务、个人储备与训练场将无法使用。\n\n您可能会遇到错误和连接问题。请尊重其它地区的玩家。\n\n\n服务器变更将被保存。\n前往设置，禁用或启用自动登录功能。"
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "继续"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "确认登录"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "取消"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)s您即将加入该军团:\n%(clanName)s\n\n一旦您确认加入该军团，您将接受规则与条例，并同意参加该军团的活动与规划。\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "当退出军团后，在您加入另一个军团时会有限制。"
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "确认"
+
+msgid "clanConfirmJoining/title"
+msgstr "确认加入军团"
+
+msgid "clan_data_not_available/cancel"
+msgstr "关闭"
+
+msgid "clan_data_not_available/message"
+msgstr "该玩家的军团简介暂不可用。请稍后再试。"
+
+msgid "clan_data_not_available/title"
+msgstr "注意！"
+
+msgid "common/cancel"
+msgstr "取消"
+
+msgid "common/confirm/cancel"
+msgstr "取消"
+
+msgid "common/confirm/submit"
+msgstr "确认"
+
+msgid "common/cost"
+msgstr "价格:"
+
+msgid "common/error/cancel"
+msgstr "关闭"
+
+msgid "common/submit"
+msgstr "继续"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "取消"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "确认"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "购买并装配指令"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "取消"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "请注意！没有装配%(devices)s。指令%(font_tag_open)s将不会起作用%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "安装"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "装配指令"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "取消"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "请注意！您没有与所选指令兼容的配件。指令%(font_tag_open)s将不会起作用%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "安装"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "装配指令"
+
+msgid "confirmBuy/title"
+msgstr "购买%(moduleName)s吗？"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "取消"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "其模块将被拆卸至仓库。"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "若想购买，还需获取:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "您可以通过战斗获得银币，也可以在仓库中卖掉不需要的物品或使用金币兑换银币。"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "银币不足"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "模块价格:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "以%(previousModulePrice)价格出售被替换的模块%(previousModuleName)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "与该模块兼容的坦克:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "您可以现在出售模块或将它送到仓库，稍后再出售或重新安装。"
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "确认"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "购买并安装%(moduleName)s？"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "购买并安装配件'%(equipment)s'？"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "安装"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "取消"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "银币充足。\n无需兑换。"
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "银币兑换失败，无法购买。\n还需%(gold)s进行银币兑换"
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "花费%(gold)s进行所需银币的兑换?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "需要银币:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "若想购买，还需获取: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "兑换"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "确认兑换并购买"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "取消"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "经验充足。\n无需转换。"
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "研发失败:经验兑换错误。\n还需要%(gold)s用于经验兑换。"
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "确认花费%(gold)s金币兑换所需的经验么?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "还需经验:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "研发需要: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "选择坦克"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "确认兑换并研发"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "总计:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "取消"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "兑换无需恢复。您有足够的银币。"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "无法兑换恢复所需银币。\n本次兑换需要%(gold)s。"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "兑换%(gold)s用于丢失的银币？"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "需要银币:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "恢复需要: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "兑换"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "确认兑换并恢复"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "总计:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "数目"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "总计"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "价格:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "花费"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "总计:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "总计"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "总计:"
+
+msgid "confirmUnlock/cancel"
+msgstr "取消"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}}(包括{{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "研发{{items}}，花费"
+
+msgid "confirmUnlock/item/message"
+msgstr "花费 %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (包括 %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s) 研发 %(typeString)s %(userString)s ?"
+
+msgid "confirmUnlock/submit"
+msgstr "确认"
+
+msgid "confirmUnlock/title"
+msgstr "确认研发"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "花费%(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s(包括%(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)研发%(userString)s?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "取消"
+
+msgid "controlsWrongNotification/message"
+msgstr "一个或几个键还未被分配，确认要保存键位设置么？"
+
+msgid "controlsWrongNotification/submit"
+msgstr "确认"
+
+msgid "controlsWrongNotification/title"
+msgstr "错误"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "取消"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "所选的提示语音文件损坏或丢失，提示语音将设置为默认语音。\n有一个或几个键位还未被分配，确认要保存键位设置么？"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "确认"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "错误"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "取消"
+
+msgid "createOrderConfirmation/submit"
+msgstr "确认"
+
+msgid "createOrderConfirmation/title"
+msgstr "确认准备储备"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "资金不足，无法购买。"
+
+msgid "crewBookPurchase/description/crew"
+msgstr "对全体乘员生效。学习后，%(book)s为每名乘员提供%(exp)s。"
+
+msgid "crewBookPurchase/description/personal"
+msgstr "对所选乘员生效。学习后，%(book)s为该乘员提供%(exp)s。"
+
+msgid "crewBookPurchase/purchase"
+msgstr "购买"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "购买%(book)s？"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "取消"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "所有已应用在{season}地图的贴花将从您的坦克上{removed}，\n因为此空位不适用于{this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "确认"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "这些地图。"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "此地图。"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "是否要将此空位中的此贴花应用于所有地图？"
+
+msgid "customization/buy_install_bound/message"
+msgstr "购买时，元素将应用到当前坦克。带星号的元素将无法再用于其他战车。"
+
+msgid "customization/buy_install_bound/title"
+msgstr "确认购买元素"
+
+msgid "customization/change_install_bound/message"
+msgstr "选择后，元素将应用到当前坦克。带星号的元素将无法再用于其他坦克。"
+
+msgid "customization/change_install_bound/title"
+msgstr "确认更改元素"
+
+msgid "customization/close/cancel"
+msgstr "取消"
+
+msgid "customization/close/submit"
+msgstr "退出"
+
+msgid "customization/close/title"
+msgstr "在不保存更改的情况下退出到车库？"
+
+msgid "customization/exitToShop/cancel"
+msgstr "取消"
+
+msgid "customization/exitToShop/submit"
+msgstr "继续"
+
+msgid "customization/exitToShop/title"
+msgstr "在不保存更改的情况下继续前往军械库？"
+
+msgid "customization/filter/cancel"
+msgstr "取消"
+
+msgid "customization/filter/message"
+msgstr "所有元素将被移除，确认么？"
+
+msgid "customization/filter/submit"
+msgstr "移除所有"
+
+msgid "customization/filter/title"
+msgstr "移除元素"
+
+msgid "customization/install_bound/cancel"
+msgstr "取消"
+
+msgid "customization/install_bound/submit"
+msgstr "继续"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "取消"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "请注意！当您应用元素(%(cTypeName)s %(itemName)s)到当前坦克时，您还能将该元素应用到%(numberLeft)s辆坦克上。确认要应用吗？"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "确认"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "应用元素"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "取消"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "请注意！当您应用元素(%(cTypeName)s %(itemName)s)到当前坦克时，您将无法将该元素应用到其它坦克上。确认要应用吗？"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "确认"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "应用元素"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "取消"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "请注意！当您应用元素(%(cTypeName)s %(itemName)s)到当前坦克时，您将无法将该元素应用到任何坦克上。如果移除该元素将会被%(willBeDeleted)s。确认要应用吗？"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "确认"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "应用元素"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "将被移除"
+
+msgid "customization/remove_element/cancel"
+msgstr "取消"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "确认"
+
+msgid "customization/remove_element/title"
+msgstr "移除元素"
+
+msgid "customizationConfirmSell/message"
+msgstr "确定以%(price)s%(creditsIcon)s价格卖出%(name)s？"
+
+msgid "customizationConfirmSell/title"
+msgstr "确认出售"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "每%(days)s天"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "每%(days)s天%(hours)s时"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "每%(hours)s时"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "每%(hours)s时%(mins)s分"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "每%(mins)s时"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "{timeLimitMsg}可以重置任务"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "重置"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "确认重置任务？"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning}部分坦克还在战斗中。重置任务后您可能会丢失进度。{timeLimitMsg}可以重置任务"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "重置"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "确认重置任务？"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "警告！"
+
+msgid "dedication/headline"
+msgstr "获得超世英杰奖励"
+
+msgid "dedication/sub-headline"
+msgstr "参与了{battlesNum}场战斗"
+
+msgid "dialogTemplates/cancel"
+msgstr "取消"
+
+msgid "dialogTemplates/confirm"
+msgstr "确认"
+
+msgid "dialogTemplates/ok"
+msgstr "收到！"
+
+msgid "disconnect/cancel"
+msgstr "取消"
+
+msgid "disconnect/message"
+msgstr "确认要断开服务器连接么？"
+
+msgid "disconnect/submit"
+msgstr "确认"
+
+msgid "disconnect/title"
+msgstr "断开服务器连接"
+
+msgid "disconnected/cancel"
+msgstr "取消"
+
+msgid "disconnected/message"
+msgstr "服务器连接已经被断开。请点击‘确定’并重新连接服务器。"
+
+msgid "disconnected/messageBan"
+msgstr "您的账号已经被冻结。%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "您的账号因为%(reason)s被冻结至 %(expiryTime)s。"
+
+msgid "disconnected/messageKick"
+msgstr "服务器连接已经断开。%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \n原因:%s。"
+
+msgid "disconnected/title"
+msgstr "连接中断"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "解雇"
+
+msgid "dismissTankman/description/perk"
+msgstr "该操作需要输入特长训练水平: {cream_Open}%(perk)s{cream_Close}({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "该操作需要输入最后一个特长的训练水平({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "所选乘员将被解雇。您可以在{whiteOrange_Open}%(time)s天{whiteOrange_Close}内将其恢复。"
+
+msgid "dismissTankman/header"
+msgstr "解雇乘员"
+
+msgid "dismissTankman/limited"
+msgstr "已达到解雇上限。被解雇的乘员将替换%(name)s(%(role)s，%(vehicle)s)。"
+
+msgid "dismissTankman/noRecovery"
+msgstr "无法恢复"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "取消"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "注意！当您解雇%(dismissedName)s后，他将替换%(deletedStr)s。确认替换？"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "确认"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "确认替换"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "取消"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "注意！当您解雇乘员后，他们将替换%(deletedStr)s与另%(extraCount)s名乘员。确认替换？"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "确认"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "解雇缓冲区已达上限"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "更改"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "名字"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "姓氏"
+
+msgid "documentChangeDialog/title"
+msgstr "更改姓名和外观？"
+
+msgid "dropSkill/cancel"
+msgstr "取消"
+
+msgid "dropSkill/message"
+msgstr "重置所有特长？"
+
+msgid "dropSkill/submit"
+msgstr "重置"
+
+msgid "dropSkill/title"
+msgstr "确认重置"
+
+msgid "elementType/chassis"
+msgstr "悬挂装置"
+
+msgid "elementType/engine"
+msgstr "发动机"
+
+msgid "elementType/gun"
+msgstr "火炮"
+
+msgid "elementType/radiostation"
+msgstr "无线电台"
+
+msgid "elementType/turret"
+msgstr "炮塔"
+
+msgid "elenDisabled/cancel"
+msgstr "关闭"
+
+msgid "elenDisabled/message"
+msgstr "由于例行维护，竞赛暂不可用。"
+
+msgid "elenDisabled/title"
+msgstr "注意！"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "取消"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "禁止显示该警告信息"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "因您的电脑硬件配置低，您将在此模式下体验到较低的FPS帧数以及图像失真。加入一场战斗需要较长的时间，可能导致客户端崩溃。确认加入战斗吗？"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "加入战斗！"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "性能警告"
+
+msgid "equipmentBuyInstall/price"
+msgstr "购买价格："
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "拆解%(equipment)s？"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "取消"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "拆解并升级"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "拆解"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "该配件将被{white_Open}摧毁{white_Close}。\n可以通过使用战争债券安全拆卸该配件。"
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "该配件将被{white_Open}摧毁{white_Close}。\n可以通过使用金币或拆卸工具安全拆卸该配件。"
+
+msgid "equipmentDestroy/conformation"
+msgstr "确认摧毁配件'%(equipment)s'？"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "确认安装配件'%(equipment)s'？"
+
+msgid "equipmentSale/conformation/header"
+msgstr "确认出售配件'%(equipment)s'？"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "取消"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "升级"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "前往拆解"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "没有可拆解的试验型配件。"
+
+msgid "eula/p1"
+msgstr "请仔细阅读<BR/><A HREF='event:%(eulaURL)s'><U>最终用户许可协议</U></A>再继续下一步操作。"
+
+msgid "eula/p2"
+msgstr "点击“继续”，即表示您已经阅读、理解、同意遵守用户协议中的全部条款，受其约束，并承担因违反上述条款造成的全部责任。最终用户许可协议及其后续修订是非常重要的并对所有用户有效。"
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "取消"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "确认要把%(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s兑换成%(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s么？"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "确认"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "金币兑换银币"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "将%(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s战斗经验兑换为全局经验的折扣将被使用。下一次兑换，将花费金币进行兑换。"
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "取消"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "确定要把%(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s战斗经验兑换为全局经验吗？花费:%(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "确认"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "兑换全局经验"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "没有足够的战斗经验兑换"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "没有足够的战斗经验兑换"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "取消"
+
+msgid "fillAllPerks/button/fill"
+msgstr "确认"
+
+msgid "fillAllPerks/checkbox"
+msgstr "为兵营中的乘员自动选择特长"
+
+msgid "fillAllPerks/description"
+msgstr "根据乘员的专业和空闲特长栏位，算法会从下表中选择第一项特长。如果乘员已拥有第一项特长，那么算法就会选择第二项特长，直到所有特长栏位都被填满为止。该操作可能需要一些时间。"
+
+msgid "fillAllPerks/subTitle"
+msgstr "只有已经分配到坦克上的乘员才能自动选择特长。"
+
+msgid "fillAllPerks/title"
+msgstr "为全部乘员自动选择未训练特长？"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "取消"
+
+msgid "finance_dialog/header"
+msgstr "确认操作"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "填写金币交易密码并确认。"
+
+msgid "finance_dialog/results/invalid"
+msgstr "密码错误。"
+
+msgid "finance_dialog/results/limit"
+msgstr "您输入错误的密码已经超过限制的次数。请在24小时内再尝试输入 <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">忘记密码？</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "资金_交易/结果/有效"
+
+msgid "finance_dialog/results/wrong"
+msgstr "密码必须至少6个字符，并包含拉丁文字母，数字和 '_'。"
+
+msgid "finance_dialog/submitBtn"
+msgstr "确认"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "取消"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "花费%(price)s购买%(product)s？"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "购买"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "确认"
+
+msgid "fortDisabled/cancel"
+msgstr "取消"
+
+msgid "fortDisabled/message"
+msgstr "由于例行维护，军团信息暂不可用。"
+
+msgid "fortDisabled/title"
+msgstr "注意！"
+
+msgid "fortTurnedOff/cancel"
+msgstr "取消"
+
+msgid "fortTurnedOff/message"
+msgstr "要塞暂时不可用。请稍后再试。"
+
+msgid "fortTurnedOff/title"
+msgstr "注意！"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "取消"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "确认"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "取消"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "你将离开原绑定的建筑物:%(oldBuilding)s，并被重新绑定到新建筑物:%(newBuilding)s上。"
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "确认"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "绑定在建筑物"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "取消"
+
+msgid "freeObtainConfirmation/message"
+msgstr "花费%(price)s购买%(product)s？"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "购买"
+
+msgid "freeObtainConfirmation/title"
+msgstr "确认"
+
+msgid "freeSkillsLearning/message"
+msgstr "零历练特长无需花费经验来训练。其优势是能大幅减少乘员训练后续特长所需的经验数量。"
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "选择%(skillName)s作为零历练特长？"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "再训练%(skillName)s作为零历练特长？"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "取消"
+
+msgid "freeSlotConfirmation/message"
+msgstr "确认要免费在车库中添加一个额外的车位吗？"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "添加"
+
+msgid "freeSlotConfirmation/title"
+msgstr "添加车位"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "关闭"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "您已经达到了购买免费坦克个数的上限。请明天再尝试。"
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "关闭"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "购买限制"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)s经验%(orangeText_close)s%(simpleText_open)s是一种通过战斗获得的游戏资源。\n\n包括: %(simpleText_close)s\n%(xpIcon)s%(orangeText_open)s战斗经验%(orangeText_close)s%(simpleText_open)s用于研发某辆坦克的新模块，或用于增加战游平台系列游戏中的进度。%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)s全局经验%(orangeText_close)s%(simpleText_open)s用于研发模块和坦克或加速乘员训练。请谨慎地使用全局经验。%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "继续"
+
+msgid "freeXPInfo/title"
+msgstr "经验"
+
+msgid "gammaDialog/cancel"
+msgstr "开始"
+
+msgid "gammaDialog/message/description"
+msgstr "指挥官！请设置您的显示器来校对颜色，并优化游戏界面的图像质量。\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "现在设置您的显示器！"
+
+msgid "gammaDialog/title"
+msgstr "Y设置"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "兑换后:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "兑换前:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "取消"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "兑换"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "总计:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "乘员"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "坦克"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "经验"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "所有坦克"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "按指定坦克排序。"
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "按坦克名称排序"
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "坦克"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "按经验值排序。"
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "经验"
+
+msgid "gatheringXPForm/title"
+msgstr "兑换成全局经验"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "兑换经验:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "已开启加速乘员训练。"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "已关闭加速乘员训练。"
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "总计:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "总计:"
+
+msgid "graphics/message/alert"
+msgstr "注意！"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "取消"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "屏幕尺寸已改变。将在%(time)s内恢复上一次设置。是否保存当前设置？"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "保存"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "保存屏幕设置"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "取消"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "注意！所有更改将会丢失，是否继续？"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "确认"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "自动检测图形质量"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "取消"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "注意！应用指定的图像设置可能需要一些时间。是否继续？"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "确认"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "修改设置"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "取消"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "无法将该参数设置为最大。用户自行设置的图像将被替换。"
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "注意"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "关闭"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "纹理质量(高)的设置只适用于64位的操作系统。"
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "纹理质量无法使用。"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "取消"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "稍后重启"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "新的图像设置必须重新启动游戏，现在重启么？"
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "重启"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "修改设置"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "取消"
+
+msgid "haveNoEmptySlots/message"
+msgstr "车库中已经没有空位，请考虑购买新车位或出售车库中的坦克，为新车空出车位。"
+
+msgid "haveNoEmptySlots/submit"
+msgstr "确认"
+
+msgid "haveNoEmptySlots/title"
+msgstr "错误"
+
+msgid "hof/excludeRating/cancel"
+msgstr "取消"
+
+msgid "hof/excludeRating/message"
+msgstr "您的战绩将对其他玩家隐藏，但您可以将其显示在名人堂主页上。"
+
+msgid "hof/excludeRating/submit"
+msgstr "隐藏结果"
+
+msgid "hof/excludeRating/title"
+msgstr "在排行榜中显示结果"
+
+msgid "hofDisabled/cancel"
+msgstr "关闭"
+
+msgid "hofDisabled/message"
+msgstr "名人堂暂时无法使用。请稍后再试。"
+
+msgid "hofDisabled/title"
+msgstr "注意！"
+
+msgid "idleCrewBonus/cancel"
+msgstr "取消"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}乘员不足{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}一名或多名乘员专精不符{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "您所选择的坦克不适合，可能是由于以下原因之一:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "只有1组乘员可以获得加成。该加成将从"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "转移至"
+
+msgid "idleCrewBonus/submit"
+msgstr "确认"
+
+msgid "idleCrewBonus/title"
+msgstr "开启高强度乘员训练？"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "请在游戏设置的图像标签页中关闭浏览器硬件加速。"
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "加载出错"
+
+msgid "interviewQuit/cancel"
+msgstr "返回"
+
+msgid "interviewQuit/message"
+msgstr "现在你可以拒绝调查并重新打开通知中心的邀请信息。在游戏中消息是持续活跃的。"
+
+msgid "interviewQuit/submit"
+msgstr "确认"
+
+msgid "interviewQuit/title"
+msgstr "拒绝调查"
+
+msgid "koreaParentNotification/cancel"
+msgstr "收到！"
+
+msgid "koreaParentNotification/message"
+msgstr "为防止青少年与儿童沉迷游戏，从 %(preBlockTime)s 后将禁止您加入战斗。在 %(blockTime)s 时您将从服务器断开连接。"
+
+msgid "koreaParentNotification/submit"
+msgstr "收到！"
+
+msgid "koreaParentNotification/title"
+msgstr "游戏限制"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "收到！"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "时间限制到。您无法加入新战斗。"
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "收到！"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "家长控制"
+
+msgid "leaveEvent/cancel"
+msgstr "取消"
+
+msgid "leaveEvent/message"
+msgstr "竞赛结果将在评分更新后重置。您将无法登上排行榜并获得奖励。\n\n退出竞赛后%(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "你不能再次进入"
+
+msgid "leaveEvent/submit"
+msgstr "退出战备竞赛"
+
+msgid "leaveEvent/title"
+msgstr "退出战备竞赛"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "取消"
+
+msgid "leaveStartedEvent/message"
+msgstr "您的战斗结果不会计入此次竞赛中。您将无法登上排行榜并获得奖励。\n\n退出竞赛后%(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "退出战备竞赛"
+
+msgid "leaveStartedEvent/title"
+msgstr "退出战备竞赛"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "取消"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "您已经进入战前大厅。确定要退出并接受邀请么？"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "确认"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "邀请"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "取消"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "您已经在战队中。确定离开战队并接受邀请么？"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "确认"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "邀请"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "取消"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "您已经在训练房间。您确定要退出并接受邀请么？"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "确认"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "邀请"
+
+msgid "legalInfoWindow/title"
+msgstr "用户协议"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "取消"
+
+msgid "limitedUIOffNotification/message"
+msgstr "确定关闭车库中隐藏界面元素的逐步显示？\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "关闭该选项后，您将无法再开启它。"
+
+msgid "limitedUIOffNotification/submit"
+msgstr "关闭"
+
+msgid "limitedUIOffNotification/title"
+msgstr "修改设置"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "取消"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "服务器变更现在将被保存。您可以在“设置”中启用或禁用自动登录功能。"
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "继续"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "保存服务器变更？"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "所选备用配置弹药不足。还是要进入战斗吗？"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "弹药不足"
+
+msgid "lowAmmo/cancel"
+msgstr "取消"
+
+msgid "lowAmmo/message"
+msgstr "所选坦克弹药不足。在战斗开始前将会自动补给弹药。"
+
+msgid "lowAmmo/submit"
+msgstr "补给"
+
+msgid "lowAmmo/title"
+msgstr "自动补给弹药"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "取消"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "所选坦克弹药不足。无论如何都要进入战斗？"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "加入战斗！"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "弹药不足"
+
+msgid "lowFpsWarning/cancel"
+msgstr "取消"
+
+msgid "lowFpsWarning/message"
+msgstr "当前游戏设置导致FPS过低。您想降低图像质量来适应低的FPS吗？"
+
+msgid "lowFpsWarning/submit"
+msgstr "确认"
+
+msgid "lowFpsWarning/title"
+msgstr "FPS过低"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "取消"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "玩家的 %(userName)s 信息被锁定。"
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "确认"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "锁定玩家信息"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "取消"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "用户 %(userName)s 的数据当前不可用。"
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "确认"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "数据当前不可用"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "取消"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s 启用该设置将会降低在战斗中的帧率。"
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "注意！"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "确认"
+
+msgid "minimapAlphaNotification/title"
+msgstr "小地图透明度"
+
+msgid "moduleSale/conformation/header"
+msgstr "确认出售%(moduleType)s '%(moduleName)s'？"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "取消"
+
+msgid "moneyTransfer/labelClan"
+msgstr "军团:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "银币"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "金币"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "费用:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "金币:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "正常:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "银币"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "金币"
+
+msgid "moneyTransfer/labelTo"
+msgstr "到:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "总计:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(非本军团的成员)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "确认"
+
+msgid "moneyTransfer/title"
+msgstr "正在同步金币..."
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "取消"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "您确定要转移 {gold} <img src='icon_gold' /> 给 {player}？您将被收取 {fee} <img src='icon_gold' /> 的资金。"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "确认"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "确认兑换"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">设置金币交易密码</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "取消"
+
+msgid "moneyTransferRestriction/message"
+msgstr "金币不能被转移。 原因:%s。"
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "%s 转移超时。"
+
+msgid "moneyTransferRestriction/submit"
+msgstr "确认"
+
+msgid "moneyTransferRestriction/title"
+msgstr "金币不能被转移。"
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "取消"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "设置变更将在下一场战斗中生效。继续？"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "确认"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "修改设置"
+
+msgid "perkLearnConfirm/desc"
+msgstr "训练后的特长水平: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "训练"
+
+msgid "perkLearnConfirm/title"
+msgstr "训练%(skillName)s特长？"
+
+msgid "perksReset/after"
+msgstr "重置后:"
+
+msgid "perksReset/before"
+msgstr "重置前:"
+
+msgid "perksReset/cancel"
+msgstr "取消"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "由于您在坦克学院重置特长时已享受100%折扣，该选项不可用。"
+
+msgid "perksReset/discountTooltip/header"
+msgstr "不可用"
+
+msgid "perksReset/free/description"
+msgstr "熟练度低于{yellow_Open}1%{yellow_Close}的特长可免费重置。"
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "为该乘员首次重置特长免费"
+
+msgid "perksReset/graceLabel"
+msgstr "免费特长重置将开放:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "特长经验总数将降低。可训练的特长将减少。"
+
+msgid "perksReset/noNewPerks"
+msgstr "已训练特长的全部经验将添加至主要专业水平。"
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "从特长经验总数中扣除"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "军事学校"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "从特长经验总数中扣除"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "快速课程"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "重置特长\n且不损失经验"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "使用银币重置特长且不损失经验"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "坦克学院"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "重置特长\n且不损失经验"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "重置"
+
+msgid "perksReset/title"
+msgstr "重置乘员的全部特长？"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "取消"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "所选物理音效质量与游戏客户端自动检测的设置不一致。开启该选项可能影响性能。建议在确认前测试性能。是否要应用这些更改？"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "确认"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "物理音效质量不匹配"
+
+msgid "postmortem/cancel"
+msgstr "取消"
+
+msgid "postmortem/message"
+msgstr "您的坦克被击毁。您想留在战斗中还是返回到车库？"
+
+msgid "postmortem/submit"
+msgstr "确认"
+
+msgid "postmortem/title"
+msgstr "击毁坦克"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "取消"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "要花费%(gold)s金币购买%(days)s天的高级账号么？"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "确认"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "确认购买"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "取消"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "要花费%(gold)s金币购买%(days)s天的高级账号么？"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "延期"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "确认"
+
+msgid "priceCard/credits/title"
+msgstr "军事学校"
+
+msgid "priceCard/free/title"
+msgstr "快速课程"
+
+msgid "priceCard/gold/title"
+msgstr "坦克学院"
+
+msgid "priceCard/price/free"
+msgstr "免费"
+
+msgid "priceCard/recertification/title"
+msgstr "再训练命令"
+
+msgid "punishmentWindow/cancel"
+msgstr "确认"
+
+msgid "punishmentWindow/header/ban"
+msgstr "您已被封禁%(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "您受到了惩罚"
+
+msgid "punishmentWindow/header/warning"
+msgstr "消极战斗"
+
+msgid "punishmentWindow/info"
+msgstr "如果您的情况是由连接问题或其他技术问题引起的，\n请联系客服中心。"
+
+msgid "punishmentWindow/message/ban"
+msgstr "您于{whiteSpanish_Open}%(time)s{whiteSpanish_Close}在{whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}地图上违反了游戏规则。\n您已被暂时封禁，无法参加{whiteSpanish_Open}%(mode)s{whiteSpanish_Close}中的战斗。"
+
+msgid "punishmentWindow/message/penalty"
+msgstr "您于{whiteSpanish_Open}%(time)s{whiteSpanish_Close}在{whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}地图上违反了游戏规则。\n系统已扣除您在战斗中所获得的银币、经验和奖励。"
+
+msgid "punishmentWindow/message/warning"
+msgstr "您于{whiteSpanish_Open}%(time)s{whiteSpanish_Close}在{whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}地图上违反了游戏规则。\n如果再次违规，系统将扣除您在战斗中所获得的所有银币、经验和奖励。"
+
+msgid "punishmentWindow/reason/afk"
+msgstr "在战场上无所作为"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "战斗结束前或坦克被击毁前退出战斗"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "挂机/中途离场"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "故意自损坦克"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s天%(hour)s时"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s时%(min)s分"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1分"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s分"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "取消"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "请勿再次请求"
+
+msgid "questsConfirmDialog/message"
+msgstr "如果您选中任务\"%(newQuest)s\"，任务\"%(oldQuest)s\"将被取消。"
+
+msgid "questsConfirmDialog/submit"
+msgstr "确认"
+
+msgid "questsConfirmDialog/title"
+msgstr "确认选中的任务"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "取消"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "%(curQuest)s任务的所有进度都将被重置。\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "注意！当前任务的所有进度将会丢失。"
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "确认"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "重置进度"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "取消"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "如果选择了%(newQuest)s任务，您在%(oldQuest)s任务的进度将被重置。\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "注意！当前任务的所有进度将会丢失。"
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "确认"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "确认选中的任务"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "取消"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "%(quest)s任务将被取消。\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "注意！当前任务的所有进度将会丢失。"
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "确认"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "确认取消任务"
+
+msgid "quit/cancel"
+msgstr "留下"
+
+msgid "quit/submit"
+msgstr "退出"
+
+msgid "quit/title"
+msgstr "退出游戏？"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "取消"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "您的团队需要您！在战斗结束或您的坦克被击毁前退出战斗将被视为中途退场。您可能会受到处罚，并失去在IGR的战斗中所获的所有奖励。"
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "确认"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "中途离场？"
+
+msgid "quitBattle/cancel"
+msgstr "取消"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "取消"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "您的团队需要您！在战斗结束或您的坦克被击毁前退出战斗将被视为中途退场。您可能会受到处罚。"
+
+msgid "quitBattle/leaver/submit"
+msgstr "确认"
+
+msgid "quitBattle/leaver/title"
+msgstr "中途离场？"
+
+msgid "quitBattle/replay/cancel"
+msgstr "取消"
+
+msgid "quitBattle/replay/submit"
+msgstr "离开"
+
+msgid "quitBattle/replay/title"
+msgstr "退出观察者模式？"
+
+msgid "quitBattle/submit"
+msgstr "离开"
+
+msgid "quitBattle/title"
+msgstr "离开战斗？"
+
+msgid "quitPreBattle/cancel"
+msgstr "取消"
+
+msgid "quitPreBattle/message"
+msgstr "确定要退出战前大厅么？"
+
+msgid "quitPreBattle/submit"
+msgstr "确认"
+
+msgid "quitPreBattle/title"
+msgstr "退出战前大厅"
+
+msgid "rally/autoSearch/cancel"
+msgstr "取消"
+
+msgid "rally/autoSearch/message"
+msgstr "确定要系统自动匹配队员吗？"
+
+msgid "rally/autoSearch/submit"
+msgstr "确认"
+
+msgid "rally/autoSearch/title"
+msgstr "自动匹配"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "取消"
+
+msgid "rally/changePeriphery/message"
+msgstr "您将被自动登录到另一个服务器(%(host)s)。是否继续？"
+
+msgid "rally/changePeriphery/submit"
+msgstr "确认"
+
+msgid "rally/changePeriphery/title"
+msgstr "登录到另一个服务器上"
+
+msgid "rally/goToAnother/cancel"
+msgstr "取消"
+
+msgid "rally/goToAnother/message"
+msgstr "如果您变更了战斗模式。您将自动从该小队中退出。"
+
+msgid "rally/goToAnother/submit"
+msgstr "确认"
+
+msgid "rally/goToAnother/title"
+msgstr "变更模式"
+
+msgid "rally/goToIntro/cancel"
+msgstr "取消"
+
+msgid "rally/goToIntro/message"
+msgstr "确认要退出该战斗队伍么？"
+
+msgid "rally/goToIntro/submit"
+msgstr "确认"
+
+msgid "rally/goToIntro/title"
+msgstr "确认退出"
+
+msgid "rally/goToSquad/cancel"
+msgstr "取消"
+
+msgid "rally/goToSquad/message"
+msgstr "如果您创建一个小队，那么您将自动退出当前模式。"
+
+msgid "rally/goToSquad/submit"
+msgstr "确认"
+
+msgid "rally/goToSquad/title"
+msgstr "创建组队"
+
+msgid "rally/leave/cancel"
+msgstr "取消"
+
+msgid "rally/leave/message"
+msgstr "确认要退出当前的队伍并退出该模式么？"
+
+msgid "rally/leave/submit"
+msgstr "确认"
+
+msgid "rally/leave/title"
+msgstr "确认退出"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "取消"
+
+msgid "rally/leaveDisabled/message"
+msgstr "无法退出该模式。您的坦克在空位中已准备。"
+
+msgid "rally/leaveDisabled/title"
+msgstr "注意"
+
+msgid "rally/startBattle/cancel"
+msgstr "取消"
+
+msgid "rally/startBattle/message"
+msgstr "搜索敌方？"
+
+msgid "rally/startBattle/submit"
+msgstr "确认"
+
+msgid "rally/startBattle/title"
+msgstr "搜索敌方"
+
+msgid "recruit/cancel"
+msgstr "取消"
+
+msgid "recruit/submit"
+msgstr "招募"
+
+msgid "recruit/title"
+msgstr "为%(vehicleName)s招募一名新%(role)s？"
+
+msgid "recruit/voiceoverText"
+msgstr "只有被指派为车长专业的乘员才能播放专属语音。"
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "金币坦克无需招募乘员。您可以将乘员转移到相同类型的金币坦克上，没有处罚。"
+
+msgid "recruit/warning/slotChanged"
+msgstr "所选坦克无法招募该乘员，该乘员将被调回兵营。"
+
+msgid "recruitConversionConfirm/warning"
+msgstr "该乘员拥有过时的特长，这些特长将被自动重置，不会损失经验。"
+
+msgid "recruitDialog/name/title"
+msgstr "招募新乘员(%(name)s)？"
+
+msgid "recruitDialog/title"
+msgstr "招募新乘员？"
+
+msgid "recruitWindow/cancel"
+msgstr "取消"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "未选择"
+
+msgid "recruitWindow/nation"
+msgstr "系别"
+
+msgid "recruitWindow/specialization"
+msgstr "专业"
+
+msgid "recruitWindow/submit"
+msgstr "招募"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "坦克类型"
+
+msgid "recruitWindow/vehicleType"
+msgstr "坦克"
+
+msgid "referralReward/cancel"
+msgstr "取消"
+
+msgid "referralReward/message"
+msgstr "领取%(product)s？"
+
+msgid "referralReward/submit"
+msgstr "确认"
+
+msgid "referralReward/title"
+msgstr "确认获得"
+
+msgid "refuseTraining/cancel"
+msgstr "取消"
+
+msgid "refuseTraining/message"
+msgstr "确定要退出训练么？"
+
+msgid "refuseTraining/submit"
+msgstr "确认"
+
+msgid "refuseTraining/title"
+msgstr "确认"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "击毁"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "取消"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "给养\"%(name)s\" 将拆卸至仓库中，因为它与该模块 %(reason)s。"
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "不匹配的"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "拆卸"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "确认拆卸"
+
+msgid "rentConfirmation/cancel"
+msgstr "取消"
+
+msgid "rentConfirmation/event"
+msgstr "在%(eventName)s中"
+
+msgid "rentConfirmation/message"
+msgstr "确定%(event)s以%(price)s的价格租用%(name)s？"
+
+msgid "rentConfirmation/submit"
+msgstr "确认"
+
+msgid "rentConfirmation/title"
+msgstr "确认租用"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "取消"
+
+msgid "rentConfirmationRenew/message"
+msgstr "确定%(event)s以%(price)s的价格延长租用%(name)s？"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "确认"
+
+msgid "rentConfirmationRenew/title"
+msgstr "确认租用"
+
+msgid "replacePassport/unique/cancel"
+msgstr "取消"
+
+msgid "replacePassport/unique/message"
+msgstr "这是一名特殊的坦克乘员，如果修改他/她的资料将无法恢复。您确定要花费%(gold)s金币修改他/她的个人资料么？"
+
+msgid "replacePassport/unique/submit"
+msgstr "替换"
+
+msgid "replacePassport/unique/title"
+msgstr "确认替换"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "取消"
+
+msgid "replacePassportConfirmation/message"
+msgstr "您确定要花费%(gold)s金币修改他/她的个人资料么？"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "更改"
+
+msgid "replacePassportConfirmation/title"
+msgstr "修改个人资料"
+
+msgid "replayNotification/cancel"
+msgstr "取消"
+
+msgid "replayNotification/message"
+msgstr "当前版本的《坦克世界》与战斗录制功能不兼容。继续加载可能会造成回放过程出错，仍然要进行回放么？"
+
+msgid "replayNotification/submit"
+msgstr "确认"
+
+msgid "replayNotification/title"
+msgstr "警告"
+
+msgid "replayStopped/cancel"
+msgstr "取消"
+
+msgid "replayStopped/message"
+msgstr "回放完毕，请点击完成退出游戏。"
+
+msgid "replayStopped/submit"
+msgstr "完成"
+
+msgid "replayStopped/title"
+msgstr "回放完毕"
+
+msgid "reportBug/cancel"
+msgstr "取消"
+
+msgid "reportBug/message"
+msgstr "点击继续将打开默认浏览器，并前往《坦克世界》客服中心网站报告错误。继续？"
+
+msgid "reportBug/submit"
+msgstr "继续"
+
+msgid "reportBug/title"
+msgstr "前往客服中心"
+
+msgid "resetAllPerks/cancel"
+msgstr "取消"
+
+msgid "resetAllPerks/submit"
+msgstr "重置"
+
+msgid "resetAllPerks/title"
+msgstr "为全部乘员重置所有特长？"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}您账号中全部乘员的所有特长都将被重置。{orangeEnd}\n{orangeStart}该操作无法撤消。{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "取消"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s 图像设置已经自动设置为画质优先。\n若要增加帧率，请在设置中选择更低的图像设置。"
+
+msgid "resetGraphics/submit"
+msgstr "设置"
+
+msgid "resetGraphics/title"
+msgstr "改变图形设置"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "恢复"
+
+msgid "restoreTankman/description"
+msgstr "您将恢复%(name)s。"
+
+msgid "restoreTankman/free"
+msgstr "价格: 免费"
+
+msgid "restoreTankman/header"
+msgstr "确认恢复该乘员？"
+
+msgid "restoreTankman/price"
+msgstr "价格:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "取消"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "恢复%(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "恢复"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "恢复不带乘员的坦克"
+
+msgid "restoreVehicleDialog/title"
+msgstr "恢复%(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "点击恢复后，您将无法用金币兑换已购买的配件和给养。请仔细检查所有的操作。"
+
+msgid "retrain/cancel"
+msgstr "取消"
+
+msgid "retrain/changeRole"
+msgstr "更改专业"
+
+msgid "retrain/discountLabel"
+msgstr "第一项特长未训练至100%，因此您可享受该折扣。"
+
+msgid "retrain/discountTooltip/body"
+msgstr "由于您在坦克学院再训练乘员时已享受100%折扣，该选项不可用。"
+
+msgid "retrain/discountTooltip/header"
+msgstr "不可用"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "需要再训练的乘员: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "乘员无需为金币坦克训练。\n您可以将乘员转移到相同类型的金币坦克上，没有处罚。"
+
+msgid "retrain/price"
+msgstr "价格:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "再训练后的\n特长效率: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "军事学校"
+
+msgid "retrain/priceCard/free/description"
+msgstr "再训练后的\n特长效率: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "快速课程"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "再训练后的\n特长效率: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "坦克学院"
+
+msgid "retrain/submit"
+msgstr "再训练"
+
+msgid "retrain/title/massive"
+msgstr "再训练为%(vehicleName)s的乘员？"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s？"
+
+msgid "retrain/title/single/complex"
+msgstr "再训练为%(vehicleName)s的乘员\n并将专业更改为%(role)？"
+
+msgid "retrain/title/single/simple"
+msgstr "再训练为%(vehicleName)s的乘员"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "专业不符的特长将失效。请手动重置。"
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "乘员可转移到同类型的金币坦克上，无需培训，也没有惩罚，但玩家必须手动重置不匹配的特长。"
+
+msgid "rudyInfo/message"
+msgstr "游戏将重塑不朽的经典传奇！《四个坦克兵与狗》是B系黑白电视剧，改编自贾努兹·卡明斯基的同名小说。该剧首播于1966年5月9日，讲述了战时绰号鲁迪(姜)的T-34-85坦克的乘员与其爱犬萨里克的冒险故事。"
+
+msgid "rudyInfo/submit"
+msgstr "收到！"
+
+msgid "rudyInfo/title"
+msgstr "四个坦克兵与狗"
+
+msgid "selectVehicle/counter"
+msgstr "显示的坦克:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "选择攻击方坦克"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "选择该坦克"
+
+msgid "sellConfirmation/cancel"
+msgstr "取消"
+
+msgid "sellConfirmation/submit"
+msgstr "出售"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "取消"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "出售"
+
+msgid "sellModuleConfirmation/title"
+msgstr "确认出售"
+
+msgid "sellShellConfirmation/submit"
+msgstr "确认出售炮弹'%(shellName)s'？"
+
+msgid "sendInvites/common/title"
+msgstr "邀请加入小队中"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "取消"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "本次期间统计将在{}后自动重置"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "重置"
+
+msgid "sessionStats/confirmReset/time"
+msgstr "%(hours)s时%(minutes)s分"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "重置期间统计？"
+
+msgid "shopSyncError/cancel"
+msgstr "取消"
+
+msgid "shopSyncError/message"
+msgstr "升级应用程序。如果重复提示错误，需更新服务器。"
+
+msgid "shopSyncError/title"
+msgstr "非同步"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "取消"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "训练所选特长？"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "训练"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "应用"
+
+msgid "soundModeInvalid/cancel"
+msgstr "取消"
+
+msgid "soundModeInvalid/message"
+msgstr "所选的提示语音已经损坏或丢失了，提示语音将设置为默认语音。"
+
+msgid "soundModeInvalid/submit"
+msgstr "确认"
+
+msgid "soundModeInvalid/title"
+msgstr "错误"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "取消"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "所选择的声音系统不同于游戏客户端自动选择的声音系统。有些声音可能不可用。您可以测试声音差异。确认更改？"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "确认"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "声音系统不匹配"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "取消"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "所选的声音系统与游戏客户端自定义的声音系统不同。有些声音可能是不可用的。确认要应用该设置吗？"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "确认"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "声音系统不匹配"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "确认！"
+
+msgid "squad/eventDisabled/message"
+msgstr "活动不可用。小队将被解散。"
+
+msgid "squad/eventDisabled/title"
+msgstr "活动已结束"
+
+msgid "squad/goToAnother/cancel"
+msgstr "取消"
+
+msgid "squad/goToAnother/message"
+msgstr "你已经处于组队模式中，如果您更换作战模式，将自动退出组队模式。"
+
+msgid "squad/goToAnother/submit"
+msgstr "确认"
+
+msgid "squad/goToAnother/title"
+msgstr "变更模式"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "取消"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "更改游戏模式时，您当前所在的小队将被解散。确认更改战斗类型吗？"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "确认"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "更改游戏模式"
+
+msgid "squad/goToSquad/cancel"
+msgstr "取消"
+
+msgid "squad/goToSquad/message"
+msgstr "确认要退出该小队去重新创建一个新的小队么？"
+
+msgid "squad/goToSquad/submit"
+msgstr "确认"
+
+msgid "squad/goToSquad/title"
+msgstr "创建组队"
+
+msgid "squad/leave/cancel"
+msgstr "取消"
+
+msgid "squad/leave/message"
+msgstr "确认要退出该小队么？"
+
+msgid "squad/leave/submit"
+msgstr "确认"
+
+msgid "squad/leave/title"
+msgstr "确认退出"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "取消"
+
+msgid "squad/leaveDisabled/message"
+msgstr "您无法退出该小队。因为您是该小队的成员并正准备战斗。"
+
+msgid "squad/leaveDisabled/title"
+msgstr "注意"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "取消"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "小队成员不足。一个队员将自动加入进来，是否加入战斗？"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "确认"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "小队未就绪"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "取消"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "组队模式还未满人，要进入战斗吗？"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "确认"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "小队未就绪"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "取消"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "小队成员不足。确认自动搜索队友并加入战斗吗？"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "确认"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "小队未就绪"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "取消"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "小队中的一名玩家未就绪，要进入战斗吗？"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "确认"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "小队未就绪"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "取消"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "未确认准备好的玩家将会被踢出小队。另外一个玩家将自动加入，确认加入战斗吗？"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "确认"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "小队未就绪"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "取消"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "还有队员未就绪。要进入战斗吗?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "确认"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "小队未就绪"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "取消"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "小队成员不足。队友未确认准备从小队中退出。确认自动搜索队友并加入战斗吗？"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "确认"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "小队未就绪"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "无法参加新的战斗:有几个玩家还未退出战斗。请等待当前战斗结束。"
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "收到！"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "小队未就绪"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "取消"
+
+msgid "squadPremiumNeeded/message"
+msgstr "仅高级账号用户可以创建多人战队。\n创建战队的用户可以邀请任何类型的玩家。"
+
+msgid "squadPremiumNeeded/title"
+msgstr "只允许高级账号玩家"
+
+msgid "steamStartNeeded/cancel"
+msgstr "关闭游戏"
+
+msgid "steamStartNeeded/message"
+msgstr "该游戏需通过Steam启动才能正常登录。"
+
+msgid "steamStartNeeded/title"
+msgstr "无法登录"
+
+msgid "stronghold/leave/cancel"
+msgstr "取消"
+
+msgid "stronghold/leave/message"
+msgstr "您确定要离开分遣队吗？"
+
+msgid "stronghold/leave/submit"
+msgstr "确认"
+
+msgid "stronghold/leave/title"
+msgstr "确认退出"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "一旦您离开，分遣队将被解散。\n军团将因未进入战斗而受到惩罚。\n您确定要离开分遣队吗？"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "确认退出"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "取消"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "确认"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "切换至其它服务器"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "取消"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s将被扣除且无法恢复。%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " 此外，%(operations)s。"
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "其乘员将被调回兵营"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "其给养将被拆卸至仓库"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "其配件将被免费拆卸"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "所有已购买的双重改装都将被取消，但普通改装进度将被保存"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "其弹药将被拆卸至仓库"
+
+msgid "tradeInConfirmation/submit"
+msgstr "置换"
+
+msgid "tradeInConfirmation/title"
+msgstr "坦克折价置换"
+
+msgid "tradeInPopover/descr"
+msgstr "车库中可用的金币坦克"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "显示已选中的坦克系别。"
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "系别"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "显示您所选择的坦克在进行折价置换时能省下多少"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "坦克\n估价"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "坦克估价"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "显示已选中的坦克等级。"
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "等级"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "显示已选中的坦克名称。"
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "名称"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "显示已选中的坦克类型。"
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "类型"
+
+msgid "tradeInPopover/title"
+msgstr "选择坦克来折价置换"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "选择坦克"
+
+msgid "updateNeeded/cancel"
+msgstr "稍后重启"
+
+msgid "updateNeeded/message"
+msgstr "请更新客户端。"
+
+msgid "updateNeeded/submit"
+msgstr "更新"
+
+msgid "updateNeeded/title"
+msgstr "需要更新"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "取消"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "确认花费 {%d} 金币训练车组乘员么?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "确认"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "确认训练"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "取消"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "训练用金币不足。"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "确认"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "金币不足。"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "取消"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "确认花费 {%d}银币训练乘员么？"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "确认"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "确认训练"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "取消"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "没有足够银币完成训练。"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "确认"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "银币不足。"
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "取消"
+
+msgid "vehConf/exitDialog/message"
+msgstr "修改将不会保存。确定要离开坦克配置菜单？"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "确认"
+
+msgid "vehConf/exitDialog/title"
+msgstr "取消变更"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "从车库中移除坦克%(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "取消"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "请注意！这是一辆特种坦克。出售后需要等待%(cooldown)s天来恢复它。确定出售这辆坦克吗？"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "确认"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "确认出售"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "取消"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "请注意！这是一辆特种坦克。出售后，您将可以将它恢复。确定出售这辆坦克吗？"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "确认"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "确认出售"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "取消"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "取消"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "请注意！该坦克是唯一的并且无法恢复。其乘员也会被永久解雇。"
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "确认"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "确认出售"
+
+msgid "vehicleSell/unique/message"
+msgstr "请注意！这是一辆特种坦克。您将无法在军械库中购回。继续么？"
+
+msgid "vehicleSell/unique/submit"
+msgstr "确认"
+
+msgid "vehicleSell/unique/title"
+msgstr "确认出售"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "确认出售"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "请确认，从规定的序列中输入一定的银币数 (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "你输入了不正确的信息。"
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "弹药:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "指令:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "取消"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "总计:"
+
+msgid "vehicleSellDialog/count"
+msgstr "个"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "解雇"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "调回兵营"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "乘员:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "个性化:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "拆解"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "给养:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "详情"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "仓库:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "花 费:"
+
+msgid "vehicleSellDialog/message"
+msgstr "出售坦克对话框/信息"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "包含此坦克所有的系别配置！"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "模块"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "配件:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "坦克出售后，当前战地升级的等级予以保留，但所有双重改装将被取消。"
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "已收到:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "移除"
+
+msgid "vehicleSellDialog/submit"
+msgstr "出售"
+
+msgid "vehicleSellDialog/title"
+msgstr "出售%(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "拆卸到仓库"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "精英"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "价格"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "等级。"
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "角色:"
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "自行反坦克炮"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "自行火炮"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "重型坦克"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "轻型坦克"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "中型坦克"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "确认！"
+
+msgid "voiceChatInitFailed/message"
+msgstr "初始化语音聊天系统失败: 该服务当前不可用。"
+
+msgid "voiceChatInitFailed/title"
+msgstr "正在初始化语音聊天"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "取消"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "初始化语音聊天系统成功。"
+
+msgid "voiceChatInitSucceded/title"
+msgstr "正在初始化语音聊天"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "取消"
+
+msgid "waterQualityNotPossible/message"
+msgstr "高画质水面只有在开启'后期处理'选项后可用。"
+
+msgid "waterQualityNotPossible/title"
+msgstr "水的画质不可用"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "取消"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "请先确认坦克是否在车库中"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "价格: %(price)s%(icon)s(可用: %(balance)s%(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "玩家: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "所选坦克: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "恢复战备状态"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "恢复战备状态？"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "助手"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "签到奖励"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "战斗收益加成"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "战斗通行证Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "排除地图"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "专属坦克"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "专属坦克"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "免费拆卸配件"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "金币储备库"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "高强度乘员训练"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "可控经验加成"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "专业版增益"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "服役记录个性化"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "坦克手旗帜"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "已激活坦克世界Plus"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "一切就绪！"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "续订时间: {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "已激活坦克世界Plus核心版"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "详情"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360天方案"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180天方案"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}，续订时间: {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "已激活坦克世界Plus专业版"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "激活"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}在{{@ style (color #fff)}}{{boostInterval}}小时{{/}}内，您将无法再次为另一辆坦克提供增益。{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "激活专业版增益后，该坦克将额外获得{{@ style (color #fff)}}{{bonusPercent}}的银币和经验{{/}}。仅应用于一辆坦克。"
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "为{{vehicle}}激活专业版增益？"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "切换"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}仅有一辆坦克可获得加成。在{{@ style (color #fff)}}{{boostInterval}}小时{{/}}内，您将无法再次为另一辆坦克提供加成。{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "激活专业版增益后，该坦克将额外获得{{@ style (color #fff)}}{{bonusPercent}}的银币和经验{{/}}。仅应用于一辆坦克。"
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "将专业版增益切换至{{vehicle}}上？"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}}{{type_image}}{{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "取消"
+
+msgid "wotPlusRental/description"
+msgstr "下一辆租用坦克将于{white_Open}%s{white_Close}开放"
+
+msgid "wotPlusRental/submit"
+msgstr "租用"
+
+msgid "wotPlusRental/title"
+msgstr "租用{cream_Open}%s{cream_Close}吗？"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "保存"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "保存您的服役记录个性化？"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "取消"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "该坦克所获得的经验将全部用于乘员训练。经验最少的乘员的训练速度将加倍。"
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "开"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "加速乘员训练？"

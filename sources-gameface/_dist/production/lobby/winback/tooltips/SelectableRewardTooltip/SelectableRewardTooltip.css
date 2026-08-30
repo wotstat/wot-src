@@ -1,0 +1,220 @@
+.TooltipDecorator_base_bf61f {
+    display: flex;
+    position: absolute;
+}
+
+.TooltipDecorator_base__theme-default_bf8f8 .TooltipDecorator_decorator_f4de8 {
+        padding: 4rem 6rem 8rem;
+        border-image-source: url('R.atlases.components.tooltip_background');
+        border-image-slice: 24 fill;
+        border-image-width: 24rem;
+        position: relative;
+    }
+
+.FormatText_base_f27a4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FormatTextWithColorTags_blackReal_ae104 {
+    color: #000000;
+}
+
+.FormatTextWithColorTags_whiteReal_c12a8 {
+    color: #FFFFFF;
+}
+
+.FormatTextWithColorTags_white_c5665 {
+    color: #F2F2F7;
+}
+
+.FormatTextWithColorTags_whiteOrange_fff65 {
+    color: #FEFEEC;
+}
+
+.FormatTextWithColorTags_whiteSpanish_d24b3 {
+    color: #E9E2BF;
+}
+
+.FormatTextWithColorTags_par_ee7d9 {
+    color: #8C8C7E;
+}
+
+.FormatTextWithColorTags_parSecondary_a5b8c {
+    color: #595950;
+}
+
+.FormatTextWithColorTags_parTertiary_a0c09 {
+    color: #37362E;
+}
+
+.FormatTextWithColorTags_red_ad70c {
+    color: #FF2717;
+}
+
+.FormatTextWithColorTags_redDark_afb30 {
+    color: #B70000;
+}
+
+.FormatTextWithColorTags_yellow_e47d1 {
+    color: #FEAB34;
+}
+
+.FormatTextWithColorTags_orange_e08c4 {
+    color: #EE7000;
+}
+
+.FormatTextWithColorTags_cream_f2e96 {
+    color: #FFDD99;
+}
+
+.FormatTextWithColorTags_brown_ed7be {
+    color: #CBAC77;
+}
+
+.FormatTextWithColorTags_greenBright_b0875 {
+    color: #80D43A;
+}
+
+.FormatTextWithColorTags_green_d0263 {
+    color: #7AB300;
+}
+
+.FormatTextWithColorTags_greenDark_f19b8 {
+    color: #497212;
+}
+
+.FormatTextWithColorTags_blueBooster_fd3be {
+    color: #CCFFFF;
+}
+
+.FormatTextWithColorTags_blueTeamkiller_fd915 {
+    color: #09E2FF;
+}
+
+.FormatTextWithColorTags_cred_fdafa {
+    color: #CED9D9;
+}
+
+.FormatTextWithColorTags_gold_ab90e {
+    color: #FFC363;
+}
+
+.FormatTextWithColorTags_bond_e83f5 {
+    color: #C9C9B6;
+}
+
+.FormatTextWithColorTags_prom_aa30c {
+    color: #A29B70;
+}
+
+/* This specific rule is used to fix https://jira.wargaming.net/browse/WOTPRG-9871 */
+
+.FormatTextWithColorTags_parNoWidth_bf7ac {
+    width: 0;
+    color: #8C8C7E;
+}
+
+.App_base_d8879 {
+    width: 350rem;
+    box-shadow: inset 0 0 10rem rgba(59, 59, 46, .86);
+    background: linear-gradient(180deg, rgba(182, 199, 201, .05) 0%, rgba(51, 51, 41, 0) 15.62%, rgba(51, 51, 41, 0) 88.02%, rgba(51, 51, 41, .1) 100%);
+}
+
+    .App_base__discount_d4846 {
+        width: 420rem;
+    }
+
+.App_body_d9c5d {
+    padding: 16rem 20rem;
+    position: relative;
+}
+
+.App_base__discount_d4846 .App_body_d9c5d {
+        padding: 17rem 20rem 16rem 88rem;
+    }
+
+.App_title_eaed9 {
+    color: #E9E2BF;
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 8rem;
+}
+
+.App_base__discount_d4846 .App_title_eaed9 {
+        color: #E9E2BF;
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 7rem;
+    }
+
+.App_description_f5bc5 {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.App_discountIcon_b60fc {
+    width: 60rem;
+    height: 60rem;
+    background: url('R.images.gui.maps.icons.winback.tooltip.discount') no-repeat center / contain;
+    position: absolute;
+    top: 12rem;
+    left: 12rem;
+}
+
+.App_discount_d662f {
+    color: #FEFEEC;
+    font-size: 14rem;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.App_discount__research_af065 {
+        color: #F2F2F7;
+    }
+
+.App_discount__purchase_a7315 {
+        color: #FFDD99;
+    }
+
+.App_footer_c5c08 {
+    padding: 12rem 20rem 18rem 42rem;
+    position: relative;
+}
+
+.App_footer_c5c08 * {
+        position: relative;
+    }
+
+.App_separator_b7fae {
+    width: 420rem;
+    height: 9rem;
+    background: url('R.images.gui.maps.icons.winback.tooltip.separator') no-repeat center / contain;
+    position: absolute;
+    top: -4rem;
+    left: 0;
+}
+
+.App_footerMask_eb5af {
+    background: linear-gradient(90deg, rgba(201, 201, 182, 0) 0%, #c9c9b6 38.22%, #c9c9b6 64.56%, rgba(201, 201, 182, 0) 100%);
+    opacity: .1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.App_infoIcon_dfb93 {
+    width: 16rem;
+    height: 16rem;
+    background: url('R.images.gui.maps.icons.winback.tooltip.info') no-repeat center / contain;
+    position: absolute;
+    top: 14rem;
+    left: 19rem;
+}
+

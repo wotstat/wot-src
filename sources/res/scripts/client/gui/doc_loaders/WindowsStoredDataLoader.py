@@ -1,0 +1,71 @@
+from __future__ import absolute_import
+import base64
+from future.moves import pickle
+from future.utils import lmap
+import Settings
+from debug_utils import LOG_ERROR, LOG_CURRENT_EXCEPTION
+
+class WindowsStoredDataLoader(object):
+
+    def __init__(self, rev, maxRecordLen, defMask):
+        super(WindowsStoredDataLoader, self).__init__()
+        self.__rev = rev
+        self.__maxRecordLen = maxRecordLen
+        self.__defMask = defMask
+        return
+
+    def load(self):
+        if Settings.g_instance is None:
+            LOG_ERROR(b'Settings is not defined, can not load data')
+            return (
+             self.__defMask, [])
+        else:
+            section = Settings.g_instance.userPrefs[Settings.KEY_WINDOWS_STORED_DATA]
+            if section is None:
+                return (self.__defMask, [])
+            mask = section.readInt(b'mask', self.__defMask)
+            rev = section.readInt(b'rev', self.__rev)
+            records = []
+            if rev == self.__rev:
+                dataSec = section[b'records']
+
+                def decode(value):
+                    try:
+                        return pickle.loads(base64.b64decode(value))
+                    except TypeError:
+                        LOG_CURRENT_EXCEPTION()
+                        return
+
+                    return
+
+                if dataSec is not None:
+                    for _, subSec in dataSec.items():
+                        record = decode(subSec.asString)
+                        if record:
+                            records.append(record)
+
+            return (
+             mask, records)
+
+    def flush(self, mask, records):
+        if Settings.g_instance is None:
+            LOG_ERROR(b'Settings is not defined, can not flush data')
+            return
+        else:
+            userPrefs = Settings.g_instance.userPrefs
+            section = userPrefs[Settings.KEY_WINDOWS_STORED_DATA]
+            if section is None:
+                section = userPrefs.createSection(Settings.KEY_WINDOWS_STORED_DATA)
+            section.writeInt(b'mask', mask)
+            section.writeInt(b'rev', self.__rev)
+            section.deleteSection(b'records')
+            if records:
+                dataSec = section.createSection(b'records')
+                records = records[:self.__maxRecordLen]
+
+                def encode(value):
+                    return base64.b64encode(pickle.dumps(value))
+
+                dataSec.writeStrings(b'record', lmap(encode, records))
+            Settings.g_instance.save()
+            return

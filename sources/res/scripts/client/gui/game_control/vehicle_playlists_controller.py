@@ -1,0 +1,318 @@
+from __future__ import absolute_import
+import json, logging, os, uuid, typing
+from future.utils import iteritems
+import Event
+from PlayerEvents import g_playerEvents
+from gui.shared.utils import getPlayerDatabaseID
+from helpers.local_cache import FileLocalCache
+from params_schemas.veh_playlists_schema import vehPlaylistsConfigSchema
+from skeletons.gui.game_control import IVehiclePlaylistsController
+if typing.TYPE_CHECKING:
+    from typing import Optional, Dict, Iterator, Tuple
+_logger = logging.getLogger(__name__)
+
+class _CurrentlyBeingModifiedData(object):
+
+    def __init__(self):
+        super(_CurrentlyBeingModifiedData, self).__init__()
+        self.id = b''
+        self.data = b''
+        self.initial = b''
+        self.isReallyChanged = False
+        return
+
+    def clear(self):
+        self.id = b''
+        self.data = b''
+        self.initial = b''
+        self.isReallyChanged = False
+        return
+
+
+class _VehiclePlaylistsCache(FileLocalCache):
+    __VERSION = 1
+    __SPACE = b'playlists_cache'
+
+    def __init__(self, userDatabaseID):
+        fileTags = (
+         b'playlists', userDatabaseID)
+        super(_VehiclePlaylistsCache, self).__init__(self.__SPACE, fileTags, isAsync=True)
+        self.__filePath = self._buildLocalCachePath(self.__SPACE, fileTags)
+        self.data = {}
+        self.selectedID = b''
+        return
+
+    def write(self):
+        if self.data:
+            super(_VehiclePlaylistsCache, self).write()
+            return
+        try:
+            os.remove(self.__filePath)
+        except OSError:
+            _logger.debug(b"Playlist Data file '%s' deletion failed.", self.__filePath)
+
+        return
+
+    def clear(self):
+        self.data = None
+        super(_VehiclePlaylistsCache, self).clear()
+        return
+
+    def _getCache(self):
+        return (self.__VERSION, self.selectedID, self.data.copy())
+
+    def _setCache(self, data):
+        if not isinstance(data, tuple):
+            _logger.warning(b'Unexpected data type %s of the cached data!', str(type(data)))
+            return
+        if len(data) != 3:
+            _logger.warning(b'Expected len of cached data is 3, but received %d', len(data))
+            return
+        if data[0] == self.__VERSION:
+            self.selectedID = data[1]
+            self.data = data[2] or {}
+            return
+        self.data = {}
+        self.selectedID = b''
+        return
+
+
+PLAY_LIST_SCHEMA = (b'title', b'createdAt', b'modifiedAt', b'list')
+
+class VehiclePlaylist(object):
+
+    def __init__(self, pStrData):
+        try:
+            data = json.loads(pStrData)
+        except ValueError as e:
+            raise ValueError(b'Invalid JSON: %s' % e)
+
+        missing = [field for field in PLAY_LIST_SCHEMA if field not in data]
+        if missing:
+            raise ValueError(b'Missed field: %s' % (b', ').join(missing))
+        for field in PLAY_LIST_SCHEMA:
+            setattr(self, field, data[field])
+
+        return
+
+    def __repr__(self):
+        return b"<Playlist title='%s' items=%d>" % (self.title, len(self.list))
+
+
+class VehiclePlaylistsController(IVehiclePlaylistsController):
+
+    def __init__(self):
+        super(VehiclePlaylistsController, self).__init__()
+        self.__eventManager = Event.EventManager()
+        self.onEnabledStatusChanged = Event.Event(self.__eventManager)
+        self.onModifiedPlaylistDiscarded = Event.Event(self.__eventManager)
+        self.onDirtyClean = Event.Event(self.__eventManager)
+        self.onPlaylistSaved = Event.Event(self.__eventManager)
+        self.__isEnabled = False
+        self.__cache = None
+        self.__modifiedPlaylist = _CurrentlyBeingModifiedData()
+        return
+
+    def initPlayLists(self):
+        if self.__cache is None:
+            databaseID = getPlayerDatabaseID()
+            if not databaseID:
+                _logger.error(b"Couldn't obtain valid player.databaseID: %s", str(databaseID))
+            self.__cache = _VehiclePlaylistsCache(databaseID)
+            self.__cache.read()
+            g_playerEvents.onConfigModelUpdated += self.__onConfigModelUpdated
+            config = vehPlaylistsConfigSchema.getModel()
+            if not config:
+                return
+            self.__isEnabled = config.isVehPlaylistsEnabled
+        return
+
+    def onLobbyStarted(self, ctx):
+        self.initPlayLists()
+        return
+
+    def onDisconnected(self):
+        self.clearModifiedPlaylist()
+        self.__dispose()
+        return
+
+    def fini(self):
+        self.clearModifiedPlaylist()
+        self.__eventManager.clear()
+        self.__dispose()
+        return
+
+    @property
+    def isEnabled(self):
+        return self.__isEnabled
+
+    def generateId(self):
+        return uuid.uuid4().hex
+
+    def getSelectedID(self):
+        if not self.isEnabled:
+            return b''
+        return self.__cache.selectedID
+
+    def setSelectedID(self, val):
+        if not self.isEnabled:
+            return False
+        self.__cache.selectedID = val
+        self.__cache.write()
+        return True
+
+    def iterPlaylists(self):
+        if self.isEnabled and self.__cache:
+            for plID, pStrData in iteritems(self.__cache.data):
+                yield (
+                 plID, pStrData)
+
+        return
+
+    def simplePlayListParser(self, pStrData):
+        try:
+            playlist = VehiclePlaylist(pStrData)
+            return playlist
+        except ValueError as e:
+            _logger.error(b"Couldn't parse playlist '%s'!", e)
+            return
+
+        return
+
+    def updateModifiedPlaylist(self, plStrID, playlistData):
+        if not self.isEnabled:
+            return False
+        if not plStrID:
+            _logger.warning(b"Attempt to update modified playlist with invalid ID='%s'. ", plStrID)
+            return False
+        if not playlistData:
+            _logger.warning(b"Attempt to  update modified playlist with invalid data='%s'. ", playlistData)
+            return False
+        self.__modifiedPlaylist.id = plStrID
+        self.__modifiedPlaylist.data = playlistData
+        return True
+
+    def setInitialModifiedPlaylist(self, plStrID, playlistData):
+        if not self.isEnabled:
+            return False
+        if not plStrID:
+            _logger.warning(b"Attempt to update modified playlist with invalid ID='%s'. ", plStrID)
+            return False
+        if not playlistData:
+            _logger.warning(b"Attempt to  update modified playlist with invalid data='%s'. ", playlistData)
+            return False
+        self.__modifiedPlaylist.initial = playlistData
+        return True
+
+    def clearModifiedPlaylist(self):
+        if not self.__cache:
+            return False
+        self.__modifiedPlaylist.clear()
+        self.onDirtyClean()
+        return True
+
+    def saveModifiedPlaylist(self):
+        if not self.isEnabled:
+            return tuple()
+        if not self.__modifiedPlaylist.id:
+            _logger.warning(b'Attempt to save empty playlist.')
+            return tuple()
+        playlisID = self.__modifiedPlaylist.id
+        playlist = self.__modifiedPlaylist.data
+        self.__cache.data[playlisID] = playlist
+        self.setInitialModifiedPlaylist(playlisID, playlist)
+        self.setSelectedID(playlisID)
+        self.__cache.write()
+        self.onPlaylistSaved(playlisID, playlist)
+        return (
+         playlisID, playlist)
+
+    def setModifiedPlaylistChanged(self, isChanged):
+        if not self.isEnabled:
+            return False
+        if not self.__modifiedPlaylist.id:
+            return False
+        if self.__modifiedPlaylist.isReallyChanged != isChanged:
+            self.__modifiedPlaylist.isReallyChanged = isChanged
+            return True
+        return False
+
+    @property
+    def isModifiedPlaylistChanged(self):
+        if not self.isEnabled:
+            return False
+        if not self.__modifiedPlaylist.id:
+            return False
+        return self.__modifiedPlaylist.isReallyChanged
+
+    def createPlaylist(self, plStrID, playlistData):
+        if not self.isEnabled:
+            return False
+        if not plStrID:
+            _logger.warning(b"Attempt to create playlist with invalid ID='%s'. ", plStrID)
+            return False
+        if not playlistData:
+            _logger.warning(b"Attempt to create playlist with invalid data='%s'. ", playlistData)
+            return False
+        if plStrID in self.__cache.data:
+            _logger.warning(b"Attempt to create playlist '%s' that is already in the storage. Previous one will be overridden", plStrID)
+        self.__cache.data[plStrID] = playlistData
+        self.setSelectedID(plStrID)
+        return True
+
+    def deletePlaylist(self, plStrID):
+        if not self.isEnabled:
+            return False
+        if plStrID not in self.__cache.data:
+            _logger.error(b"Couldn't delete nonexistent playlist '%s'", plStrID)
+            return False
+        del self.__cache.data[plStrID]
+        if self.getSelectedID() == plStrID:
+            self.setSelectedID(b'')
+        if plStrID == self.__modifiedPlaylist.id:
+            self.clearModifiedPlaylist()
+        return True
+
+    def getPlaylistDataByID(self, plStrID):
+        if not self.isEnabled:
+            return None
+        else:
+            plStrData = self.__cache.data.get(plStrID)
+            if not plStrData:
+                _logger.error(b"Couldn't get playlist by ID '%s'", plStrID)
+                return None
+            return plStrData
+
+    def discardModifiedPlaylist(self):
+        if not self.isEnabled:
+            return False
+        if not self.__modifiedPlaylist.initial:
+            _logger.warning(b"Couldn't discard changes, initial modified list is incorrect '%s'", self.__modifiedPlaylist.initial)
+            return False
+        self.onModifiedPlaylistDiscarded(self.__modifiedPlaylist.id, self.__modifiedPlaylist.initial)
+        self.clearModifiedPlaylist()
+        return True
+
+    def __setEnabledFeature(self, enabled):
+        if self.__isEnabled == enabled:
+            return
+        self.__isEnabled = enabled
+        if not self.__isEnabled:
+            self.clearModifiedPlaylist()
+        self.onEnabledStatusChanged(self.__isEnabled)
+        return
+
+    def __dispose(self):
+        if self.__cache is not None:
+            self.__cache.clear()
+            self.__cache = None
+            g_playerEvents.onConfigModelUpdated -= self.__onConfigModelUpdated
+        return
+
+    def __onConfigModelUpdated(self, gpKey):
+        if vehPlaylistsConfigSchema.gpKey == gpKey:
+            config = vehPlaylistsConfigSchema.getModel()
+            if not config:
+                return
+            self.__setEnabledFeature(config.isVehPlaylistsEnabled)
+        return

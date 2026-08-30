@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<FeatureName>in_battle_achievements</FeatureName>
+	<Components>
+		<StaticComponents>
+			<InBattleAchievementsComponent></InBattleAchievementsComponent>
+		</StaticComponents>
+		<DynamicComponents>
+			<ArenaAchievementsComponent></ArenaAchievementsComponent>
+			<VehicleAchievementsComponent></VehicleAchievementsComponent>
+		</DynamicComponents>
+	</Components>
+	<IsEnabled>True</IsEnabled>
+	<ExternalComponents></ExternalComponents>
+</root>

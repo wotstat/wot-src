@@ -1,0 +1,5 @@
+class STATIONARY_RELOAD_WIDGET_CONSTS(object):
+    NORMAL = b'normal'
+    CRITICAL = b'critical'
+    DESTROYED = b'destroyed'
+    STATIONARY_RELOAD_WIDGET_CONDITION = [NORMAL, CRITICAL, DESTROYED]

@@ -1,0 +1,45 @@
+from __future__ import absolute_import
+from gui.battle_control.controllers.vse_hud_settings_ctrl.settings.base_models import TextClientModel
+
+class RespawnHUDClientModel(TextClientModel):
+    __slots__ = (b'dynamicRespawnHeader', b'dynamicRespawnSubheader', b'staticRespawnHeader', b'staticRespawnSubheader', b'battleOverHeader', b'battleOverSubheader', b'staticRespawnSound', b'dynamicRespawnSound', b'battleOverSound', b'showLivesInAlliesList', b'showLivesInTankPanel')
+
+    def __init__(self, dynamicRespawnHeader, dynamicRespawnSubheader, staticRespawnHeader, staticRespawnSubheader, battleOverHeader, battleOverSubheader, staticRespawnSound, dynamicRespawnSound, battleOverSound, showLivesInAlliesList, showLivesInTankPanel):
+        super(RespawnHUDClientModel, self).__init__()
+        self.dynamicRespawnHeader = dynamicRespawnHeader
+        self.dynamicRespawnSubheader = dynamicRespawnSubheader
+        self.staticRespawnHeader = staticRespawnHeader
+        self.staticRespawnSubheader = staticRespawnSubheader
+        self.battleOverHeader = battleOverHeader
+        self.battleOverSubheader = battleOverSubheader
+        self.staticRespawnSound = staticRespawnSound
+        self.dynamicRespawnSound = dynamicRespawnSound
+        self.battleOverSound = battleOverSound
+        self.showLivesInAlliesList = showLivesInAlliesList
+        self.showLivesInTankPanel = showLivesInTankPanel
+        return
+
+    def getDynamicRespawnHeader(self):
+        return self._getText(self.dynamicRespawnHeader)
+
+    def getDynamicRespawnSubheader(self):
+        return self._getText(self.dynamicRespawnSubheader)
+
+    def getStaticRespawnHeader(self):
+        return self._getText(self.staticRespawnHeader)
+
+    def getStaticRespawnSubheader(self):
+        return self._getText(self.staticRespawnSubheader)
+
+    def getBattleOverHeader(self):
+        return self._getText(self.battleOverHeader)
+
+    def getBattleOverSubheader(self):
+        return self._getText(self.battleOverSubheader)
+
+    def __repr__(self):
+        return b'<RespawnHUDClientModel>: dynamicRespawnHeader=%s, dynamicRespawnSubheader=%s, staticRespawnHeader=%sstaticRespawnSubheader=%s, battleOverHeader=%s, battleOverSubheader=%sstaticRespawnSound=%s, dynamicRespawnSound=%s, battleOverSound=%sshowLivesInAlliesList=%s, showLivesInTankPanel=%s' % (
+         self.dynamicRespawnHeader, self.dynamicRespawnSubheader, self.staticRespawnHeader,
+         self.staticRespawnSubheader, self.battleOverHeader, self.battleOverSubheader,
+         self.staticRespawnSound, self.dynamicRespawnSound, self.battleOverSound,
+         self.showLivesInAlliesList, self.showLivesInTankPanel)

@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WOT翻译 <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "查看新消息"
+
+msgid "battle/history/header"
+msgstr "敌方"
+
+msgid "battle/history/latestMessage"
+msgstr "查看最后一条信息"
+
+msgid "battle/history/title"
+msgstr "历史消息记录:"
+
+msgid "battle/history/upMessage"
+msgstr "查看旧信息"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)s聊天关闭%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "您所在地区的玩家无法进行战斗聊天。"
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "您的账号无法进行战斗聊天。"
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "网络游戏防沉迷系统禁止战斗聊天。"
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "在设置中开启战斗聊天"
+
+msgid "battle/receivers/common"
+msgstr "全体"
+
+msgid "battle/receivers/squad"
+msgstr "小队"
+
+msgid "battle/receivers/team"
+msgstr "战队"
+
+msgid "battle/toolTips/cancel"
+msgstr "取消"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "更改接收人"
+
+msgid "battle/toolTips/default"
+msgstr "与以往的接受者"
+
+msgid "battle/toolTips/duringChat"
+msgstr "聊天中:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "您可以通过点击玩家消息旁的按钮屏蔽选中的玩家的消息。"
+
+msgid "battle/toolTips/send"
+msgstr "发送"
+
+msgid "battle/toolTips/startChat"
+msgstr "开始聊天"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "你可以通过点击它来报告，选择提出申诉的原因。此选项还允许您禁用聊天或仅禁用盟友聊天。组队聊天可一直使用。"
+
+msgid "battle/toolTips/usingChat"
+msgstr "聊天窗口"
+
+msgid "battle/toolTips/withSquad"
+msgstr "同小队"
+
+msgid "battle/unknown/ally"
+msgstr "友军"
+
+msgid "battle/unknown/enemy"
+msgstr "敌方"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "您将于%(curfewTime)s与服务器断开连接。当前游戏时间将于%(timeLeft)s分后结束。"
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "您已达到每日游戏时长限制。您的游戏时间将于%(timeLeft)s分后结束。"
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "您已达到每周游戏时长限制。您的游戏时间将于%(timeLeft)s分后结束。"
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "您已达到游戏时长限制。您的游戏时间将于%(timeLeft)s分后结束。"
+
+msgid "chat/personalMessage/warningBody"
+msgstr "来自未知玩家的消息可能包含恶意链接。不要跟随链接，不要与任何人分享您的密码。"
+
+msgid "chat/personalMessage/warningHead"
+msgstr "注意！"
+
+msgid "chat/postBattleSharing/label"
+msgstr "战斗结果"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "来自%(playerName)s的消息被屏蔽。"
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "发送信息"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "发送信息"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "搜索玩家"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "语音聊天设置"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "您不能禁用自己。"
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "\"%(actionName)s\"运行错误。"
+
+msgid "chat_error/IS_BUSY"
+msgstr "服务器繁忙。"
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "权限不足无法执行该操作。"
+
+msgid "chat_error/NOT_READY"
+msgstr "\"%(actionName)s\" 操作不可用."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "该玩家不存在。"
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "参数无效。"
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "语音聊天已关闭。如果要跟小队成员沟通，请按下%(keyName)s开启语音聊天。"
+
+msgid "client/COMP7/disableVOIP"
+msgstr "语音聊天已关闭。如果要跟小队成员沟通，请启用语音聊天(%(keyName)s)。"
+
+msgid "client/commendations/comms_mutual"
+msgstr "您和%(player)s已互赞。"
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s已为您点赞。"
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s已获得点赞。"
+
+msgid "client/dynSquad/created/allies"
+msgstr "您的盟友已创建小队%(squadNum)s。"
+
+msgid "client/dynSquad/created/enemies"
+msgstr "敌方队伍已创建小队%(squadNum)s。"
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "队伍%(squadNum)s已创建。队伍聊天与语音聊天现在可用。要禁用语音聊天，请按%(keyName)s。"
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "队伍%(squadNum)s已创建。队伍聊天与语音聊天现在可用。要使用语音聊天，请按%(keyName)s。"
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "队伍%(squadNum)s已创建。队伍聊天与语音聊天现在可用。按某个键来关闭/启用语音聊天。"
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "小队%(squadNum)s已创建。小队可以聊天。"
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "您已经创建队伍%(squadNum)s。队伍聊天与语音聊天现在可用。要禁用语音聊天，请按%(keyName)s。"
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "您已经创建队伍%(squadNum)s。队伍聊天与语音聊天现在可用。要使用语音聊天，请按%(keyName)s。"
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "您已经创建队伍%(squadNum)s。队伍聊天与语音聊天现在可用。按某个键来关闭/启用语音聊天。"
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "您已经加入小队%(squadNum)s。现在可以聊天。"
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "禁用语音聊天。如果要跟组队队友沟通，请按%(keyName)s启用语音聊天。"
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "启用语音聊天。"
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "您已经创建队伍%(squadNum)s。队伍聊天与语音聊天现在可用。要禁用语音聊天，请按%(keyName)s。"
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "您已经创建队伍%(squadNum)s。队伍聊天与语音聊天现在可用。要使用语音聊天，请按%(keyName)s。"
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "您已经创建队伍%(squadNum)s。队伍聊天与语音聊天现在可用。按某个键来关闭/启用语音聊天。"
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "您已经加入小队%(squadNum)s。现在可以聊天。"
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s已加入%(squadNum)s的小队。"
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s已邀请您加入小队。"
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s已邀请您加入小队。\n注意！您的真实昵称和军团标签将会对小队成员显示。"
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s已加入小队。"
+
+msgid "client/error/broadcastInCooldown"
+msgstr "%s秒内不能发送消息。"
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "\"%s\" 消息已被暂停 %s 秒。"
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "%s 消息已被暂停。"
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "暂时不能发送消息。请等待%s秒。"
+
+msgid "client/information/addToFriends/message"
+msgstr "将玩家%s加入好友列表的请求已保存。"
+
+msgid "client/information/addToIgnored/message"
+msgstr "已保存将玩家%s加入黑名单的请求。与该玩家聊天已被阻止，该玩家发送的信息已被隐藏。"
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "%s的聊天被屏蔽；玩该家的消息被隐藏。"
+
+msgid "client/information/emptySearchResult/message"
+msgstr "没有搜寻到结果。"
+
+msgid "client/information/removeFromFriends/message"
+msgstr "将玩家%s从好友列表中移除的请求已保存。"
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "已保存将玩家%s移出黑名单的请求。与该玩家的聊天功能已完全恢复。"
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "%s的聊天恢复使用。"
+
+msgid "client/information/setMuted/message"
+msgstr "玩家 %s 语音聊天被禁用。"
+
+msgid "client/information/unsetMuted/message"
+msgstr "玩家 %s 语音聊天启用。"
+
+msgid "client/warning/AFKWarning/message"
+msgstr "挂机将受到惩罚！\n胜利需要团队合作！"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "搜索条件为空"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "搜索用户"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "无效字符串或字符串长度不在允许范围内(允许字符的长度为%d到%d)。"
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "搜索用户"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "添加玩家到好友列表"
+
+msgid "client_action/ADD_GROUP"
+msgstr "建立群组"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "添加玩家到黑名单"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "接受好友请求"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "拒绝好友请求"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "编辑群组"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "创建玩家频道"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "搜索玩家"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "连接到玩家频道"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "离开玩家频道"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "从好友列表中移除玩家"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "从黑名单中移除玩家"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "删除备注"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "发送好友请求"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "查看之前的信息"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "选择玩家频道"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "发送消息"
+
+msgid "client_action/SET_MUTE"
+msgstr "关闭语音邮件功能"
+
+msgid "client_action/SET_NOTE"
+msgstr "建立/编辑备注"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "开启语音邮件功能"
+
+msgid "client_error/action/in_cooldown"
+msgstr "\"%(actionName)s\" 操作冻结 %(floatArg1)s s."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "\"%(actionName)s\" 操作暂不可用。请稍后尝试。"
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "您已经到达了频道最大支持数。请关闭不必要的频道或重试一次。"
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "频道\"%(strArg1)s\"已创建。"
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "未指定频道名称。"
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "频道名称\"%(strArg1)s\" 无效。"
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "请再次确认输入的密码。"
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "未指定频道密码。"
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "频道密码无效。"
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "未再次确认频道密码。"
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "频道密码确认无效。"
+
+msgid "client_error/command/generic_error"
+msgstr "\"%(strArg1)s\"指令运行错误。"
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "%(floatArg1)s的指令被冻结。"
+
+msgid "client_error/command/not_supported"
+msgstr "客户端不支持%(strArg1)s的指令。"
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "无效的时间指令%(int64Arg1)s。"
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "无效的类型%(int32Arg1)s。"
+
+msgid "client_error/command/wrong_player_name"
+msgstr "无效的用户昵称%(strArg1)s。"
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "玩家 \"%(strArg1)s\" 已在你的黑名单中。"
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "\"%(strArg1)s\"不在您的黑名单中。"
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "未找到玩家"
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "你已接受来自 \"%(strArg1)s\" 的好友请求。"
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "你已拒绝来自 \"%(strArg1)s\" 的好友请求。"
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "你对来自 \"%(strArg1)s\" 的好友请求的回复正在处理中。"
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "未指定群组名称"
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "群组 \"%(strArg1)s\" 已存在。"
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "\"%(strArg1)s\" 是无效的群组名。"
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "未找到群组 \"%(strArg1)s\"。"
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "对玩家 \"%(strArg1)s\" 开启语音信息。"
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "未指定备注信息"
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "没有关于玩家 \"%(strArg1)s\" 的备注"
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "玩家 \"%(strArg1)s\" 是你的好友。"
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "玩家 \"%(strArg1)s\" 不在你的好友名单中。"
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "频道名称需阎包含%(int32Arg1)s–%(int32Arg2)s个字符。"
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "群组名不能超过 %(int32Arg2)s 个字符"
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "黑名单人数上限 %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "群组数上限 %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "抱歉，你的好友列表不能超过 %(int32Arg2)s 名玩家。请移除你不再需要的玩家。"
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "备注不能超过 %(int32Arg2)s 字符。"
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "密码必须包含%(int32Arg1)s–%(int32Arg2)s个字符。"
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "错误的玩家ID"
+
+msgid "client_error/shared/GENERIC"
+msgstr "在执行 \"%(actionName)s\" 时出现错误"
+
+msgid "client_error/shared/LOCKED"
+msgstr "\"%(actionName)s\" 操作暂不可用。请稍后尝试。"
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "玩家昵称未指定。"
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "无效的玩家昵称 %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "无法连接聊天服务器。请稍后尝试。"
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "游戏客户端不支持 \"%(actionName)s\" 操作"
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "发生错误，请稍后再试。"
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "某些功能被禁用至倒计时开始。"
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "指定数据无效。"
+
+msgid "command/acceptInvite"
+msgstr "接受邀请"
+
+msgid "command/addFriend"
+msgstr "加入好友名单"
+
+msgid "command/addIgnored"
+msgstr "添加玩家到黑名单"
+
+msgid "command/broadcast"
+msgstr "发送信息"
+
+msgid "command/createChatChannel"
+msgstr "创建频道"
+
+msgid "command/createInvite"
+msgstr "创建邀请"
+
+msgid "command/createPrivate"
+msgstr "创建私聊频道"
+
+msgid "command/findChatChannels"
+msgstr "搜寻频道"
+
+msgid "command/findUser"
+msgstr "搜索玩家"
+
+msgid "command/getActiveInvites"
+msgstr "获得邀请名单"
+
+msgid "command/getArchiveInvites"
+msgstr "获得邀请名单存档"
+
+msgid "command/getMembersCount"
+msgstr "获得在线玩家数量"
+
+msgid "command/leaveChatChannel"
+msgstr "离开频道"
+
+msgid "command/rejectInvite"
+msgstr "拒绝邀请"
+
+msgid "command/removeFriend"
+msgstr "从好友名单中删除此玩家"
+
+msgid "command/removeIgnored"
+msgstr "从你的黑名单中移除玩家"
+
+msgid "command/requestChatChannelMembers"
+msgstr "获得势力成员名单"
+
+msgid "command/requestSystemChatChannels"
+msgstr "获得频道名单"
+
+msgid "command/setMuted"
+msgstr "关闭语音邮件功能"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s被禁用。"
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s不再被禁用。"
+
+msgid "command/unsetMuted"
+msgstr "开启语音邮件功能"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "保存创建的联系人群组。"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "创建"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "点击取消创建并返回联系人列表。"
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "关闭"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "删除你的联系人群组。"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "删除"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "取消删除并返回联系人列表。"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "取消"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "以新名称保存联系人群组。"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "保存"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "取消编辑并返回联系人列表。"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "关闭"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "昵称不超过%(maxChars)s个字符。"
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "将玩家添加到你的好友列表。"
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "添加"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "点击取消搜索玩家并返回联系人列表。"
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "关闭"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "通过昵称查找玩家"
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "查找"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "昵称必须包含%(minChars)s到%(maxChars)s字符或数字。"
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "因搜索频繁操作冻结%(time)s秒。"
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "保存设置"
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "应用"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "取消变更并返回联系人列表"
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "取消"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "点击创建一个新群组。"
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "创建群组"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "通过昵称查找非联系人名单的玩家"
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "查找非联系人名单"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "查找并添加一个玩家到你的联系人列表。"
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "搜索玩家"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "修改联系人名单设置。"
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "设置"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "昵称最长包含%(maxChars)s字符。"
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "发送命令"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "从团队中踢出"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "关闭"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "创建频道"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "搜索和加入"
+
+msgid "dialogs/channels/title"
+msgstr "频 道"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "关闭"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "加入"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "频道名称仅允许使用3至12个字符。"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "密码错误。"
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "正在试图连接到安全频道%s。"
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "输入密码:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "警告"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "正在连接到频道"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "邀请加入军团"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "把玩家加为好友"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "添加到黑名单"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "复制玩家昵称"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "创建私人聊天室"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "转移金币"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "从好友列表中删除"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "从黑名单中移除"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "查看参数"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "按名称排列。"
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "按状态排列。"
+
+msgid "dialogs/contacts/title"
+msgstr "联系名单"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "军团"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "好友"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "好友请求"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "黑名单"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "关闭语音邮件功能"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "关闭"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "创建"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "将会自动创建"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "输入密码"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "频道名称"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "密码"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "确认密码"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "需要密码"
+
+msgid "dialogs/createChannel/title"
+msgstr "创建频道"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "选择该%(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "选择一辆%(level)s级坦克"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "选择坦克"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "选择一辆%(level)s级坦克"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "坦克:%s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "关闭"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "加入"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "搜索"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "搜索结果（前 %d个）:"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "查找"
+
+msgid "dialogs/searchChannel/title"
+msgstr "搜索频道"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "加为好友"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "黑名单"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "关闭"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "搜索"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "用户详细信息"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "查找结果:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "查找"
+
+msgid "dialogs/searchContact/title"
+msgstr "查找联系人"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "系统消息"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "选择一辆VIII级坦克"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "主要目标是成为生存到最后的小队。"
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "前线模式可用\n仅适用于VIII级坦克。"
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ 活动 +++\n+++ 活动 +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "每场战斗额外获得经验\n奖励授予坦克等级为4级或更高级的坦克"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "相同的等级的坦克一起战斗\n从IV级开始将获得额外经验。"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "一旦玩家接收邀请，您的真实昵称和军团标签将会在战斗期间对他们显示。"
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "聊天频道"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "已安装在坦克上的实验型模块: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "状态:暂时离开"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "状态:战斗中"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "状态:未就绪"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "状态:离线"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "状态:就绪"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "解散联队"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "邀请"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "有罪"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "被怀疑"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "TK队友: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "关闭语音邮件功能"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "加为好友"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "添加到黑名单"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "关闭"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "创建私人聊天室"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "开启语音邮件功能"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "总计"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "已创建"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "最后战斗时间"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "状态:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - 玩家详情"
+
+msgid "events/enterChannel"
+msgstr "[%s]加入频道"
+
+msgid "events/leaveChannel"
+msgstr "[%s]离开频道"
+
+msgid "keyboardChat"
+msgstr "聊天窗口"
+
+msgid "listView/emptyList/info"
+msgstr "通知"
+
+msgid "listView/emptyList/invite"
+msgstr "邀请"
+
+msgid "listView/emptyList/offer"
+msgstr "特殊事项"
+
+msgid "listView/emptyList/template"
+msgstr "暂无%(listType)s。"
+
+msgid "listView/news/checkNewsBtn"
+msgstr "前往新闻"
+
+msgid "listView/news/header"
+msgstr "有何新内容？"
+
+msgid "listView/title"
+msgstr "系统消息"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "战斗时间: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "发送"
+
+msgid "lobby/buttons/channels"
+msgstr "频 道"
+
+msgid "lobby/buttons/contacts"
+msgstr "联系人"
+
+msgid "lobby/buttons/send"
+msgstr "发送"
+
+msgid "lobby/channels/actions/remove"
+msgstr "关闭频道"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "在信息中显示日期"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "在消息中显示时间"
+
+msgid "lobby/faq/close"
+msgstr "关闭"
+
+msgid "lobby/faq/title"
+msgstr "FAQ"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "把玩家加为好友"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "添加玩家到黑名单"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "复制玩家昵称"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "创建私聊频道"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "查看玩家详细资料"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "查找非联系人名单"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "取消"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "编辑群组"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "从群组中删除"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "删除群组"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "点击取消创建并返回联系人列表。"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "关闭"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "点击保存已创建的用户备注。"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "创建"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "拖动联系人到此处"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "取消编辑并返回联系人列表。"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "关闭"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "点击保存编辑内容的用户备注。"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "保存"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "没有匹配的查询结果。"
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "常驻小队"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "好友"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "其他"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "黑名单"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "好友请求"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "在名单中查找"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "名单中没有玩家"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "联系人列表为空"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "没有当前在线的联系人"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "尝试从非联系人中查找"
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "无匹配结果"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "输入玩家昵称"
+
+msgid "messenger/contacts/title"
+msgstr "联系人"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "关闭"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "添加"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "群组已存在"
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "搜索玩家"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "关闭"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "创建"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "创建备注"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "关闭"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "保存"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "昵称不超过%(maxChars)s个字符。"
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "编辑文本"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "为 "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "关闭"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "创建"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "创建群组"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "输入名称 (不超过 %(symbols)s 个字符)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "包括群组内的联系人"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "取消"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "删除"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "删除群组"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "关闭"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "保存"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "编辑群组"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "输入名称 (不超过 %(symbols)s 个字符)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "输入描述(最多%(symbols)s个字符)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "描述信息不超过个%(maxChars)s字符。"
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "搜索玩家"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "合并在同一窗口中显示"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "显示离线玩家"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "显示\"其它\"分类"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "来自于非联系人的消息:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "在独立窗口中显示"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "取消"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "应用"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "设置"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "模块已增加"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "已移除战斗通行证点数"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "已移除硬币"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "已移除机动战令牌"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "已移除合金元件"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "已移除个人声望点数"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "扣除全局经验"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "已移除军旅积分"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "已移除服役资历令牌"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "已添加战斗通行证点数"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "已添加硬币"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "已添加机动战令牌"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "已添加合金元件"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "已添加个人声望点数"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "收到全局经验"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "已添加军旅积分"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "已添加服役资历令牌"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "添加所有人到联系人列表中。"
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "添加选中的联系人"
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "从联系人列表中删除所有联系人"
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "从联系人列表中删除指定的联系人"
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "%(action)s被暂停%(cooldownPeriod)s 秒。"
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "聊天错误"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "已经达到了打开频道的上限。请选择其它的频道。"
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "错误"
+
+msgid "server/errors/addFriendError/message"
+msgstr "加入好友名单出错。"
+
+msgid "server/errors/addFriendError/title"
+msgstr "错误"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "添加黑名单错误。"
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "错误"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "频道名称已存在。"
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "频道创建失败。"
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "该频道已经被删除。"
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "加入频道错误。"
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "聊天错误"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "聊天命令出错:%(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "聊天错误"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "%(command)s操作在%(cooldownPeriod)s秒内不可使用。"
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "聊天错误"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "暂时不能发送消息。消息数量过多。"
+
+msgid "server/errors/connectTimeout/message"
+msgstr "频道连接超时。"
+
+msgid "server/errors/connectTimeout/title"
+msgstr "聊天错误"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "无法创建私人聊天室:用户目前是离线状态。"
+
+msgid "server/errors/createPrivateError/title"
+msgstr "聊天错误"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "无效的符号"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "错误"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "无效的参数%(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "错误"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "安全频道密码错误。"
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "加入频道错误。"
+
+msgid "server/errors/initializationFailure/message"
+msgstr "初始化聊天失败。"
+
+msgid "server/errors/initializationFailure/title"
+msgstr "聊天错误"
+
+msgid "server/errors/internalError/message"
+msgstr "内部错误，请稍后再试。"
+
+msgid "server/errors/internalError/title"
+msgstr "频道创建失败"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "无效的频道名称。"
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "聊天错误"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "邀请命令出错。"
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "错误"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "用户%(user)s已经被禁言。"
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "聊天错误"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "用户%(user)s已经是版主。"
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "聊天错误"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "聊天错误"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "用户网络连接中断"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "聊天错误"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "用户%(user)s不是版主。"
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "聊天错误"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "这个频道的用户数已达到上限。"
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "频道连接出错"
+
+msgid "server/errors/notAllowed/message"
+msgstr "此操作没有足够的权限。"
+
+msgid "server/errors/notAllowed/title"
+msgstr "聊天错误"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "请输入安全频道的密码。"
+
+msgid "server/errors/passwordRequired/title"
+msgstr "加入频道错误"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "暂时无法改变该设置。"
+
+msgid "server/errors/sqlError/message"
+msgstr "连接数据库错误。"
+
+msgid "server/errors/sqlError/title"
+msgstr "错误"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "你已被加入对方的黑名单。"
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "错误"
+
+msgid "server/errors/userNotExists/message"
+msgstr "用户不存在。"
+
+msgid "server/errors/userNotExists/title"
+msgstr "错误"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "已经达到联系名单人数上限。"
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "错误"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "频道达到最大数。"
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "频道名称到达最大字符数。"
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "频道密码达到最大字符服。"
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "频道\"%(strArg1)s\"已创建。"
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "频道名称存在无效字符。"
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "频道名称存在敏感词。"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "钢铁猎手"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "这些是专为钢铁猎手模式设计的特殊坦克。进入钢铁猎手战斗，体验这些坦克的真正实力吧。"
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "坦克被击毁"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "达到等级"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "获得积分"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "胜利"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "已添加"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "收到！"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "前往作战行动"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "服役记录"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "活动"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "活动已结束。"
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "坦克世界Plus可控经验加成可用"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "坦克世界Plus可控经验加成不可用"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "无法补给给养给%s。您的所有金币将在资产同步完成后可用。"
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "为%s补给指令失败。由于服务器维护，操作暂不可用。"
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "无法补给指令给%s。战争债券不足。"
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "无法自动补给指令给%s。请手动装配。"
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "成功为%s补给指令。您已花费 "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "补给坦克%s给养失败。请使用金币购买。"
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "无法给坦克%s补充给养。没有足够的资金。"
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "无法补给给养给%s。您的所有金币将在资产同步完成后可用。"
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "自动补给坦克 %s 给养失败。请手动补给给养。"
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "成功为%s补给给养。您已花费 "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "补给坦克%s弹药失败。请使用金币购买。"
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "未能成功补充%s坦克的弹药。 资金不足。"
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "无法补给弹药给%s。您的所有金币将在资产同步完成后可用。"
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "自动补给坦克%s弹药失败。请手动补给弹药。"
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "成功补充 %s 坦克弹药。 您已花费 "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "延长%s风格租用失败。使用金币购买风格。"
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "延长%s风格租用失败。货币不足。"
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "延长%s风格租用失败。WG钱包恢复正常后所有金币可用。"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "延长租用时间"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "%s租用风格(应用于%s)即将到期: 剩余3场战斗。"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "\"%s\"租用风格(应用于%s)将会在3场战斗后自动延长%s场战斗。"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "前往个性化"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "%s租用风格(应用于%s)已过期。您可以在个性化界面续租风格。"
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "自动延长%s风格租用失败。手动购买风格。"
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "延长%s风格租用成功。花费 "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "维修坦克%s失败。"
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "未能成功修复%s坦克。 没有足够的银币。"
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "无法修理%s。您的所有金币将在资产同步完成后可用。"
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "自动维修坦克 %s 失败。请手动维修你的坦克。"
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "坦克%s已被成功修复。 您已花费 "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "坦克世界Plus坦克手旗帜可用"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "坦克世界Plus坦克手旗帜不可用"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "获得奖章"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "坦克世界Plus战斗加成可用"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "坦克世界Plus战斗加成不可用"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "已完成任务：%(questIdx)s%(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "您已完成新兵成长计划的一系列任务。"
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "您可使用令牌兑换任意一辆VI级可研发坦克。"
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "选择坦克"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "恭喜！"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "已完成新兵成长计划任务：%(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "已获得奖励:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "已使用新兵令牌。"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "已获得奖励:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "车位: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "租用坦克：%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "完成训练任务，获取坦克和实用资源。"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "前往新兵成长计划"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "新兵\n指南"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "新兵令牌"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "已使用未分配的点数"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "激活精英征程后已使用的未分配点数: %(points)s。"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "已使用未分配的点数: 将%(points)s点添加至\"%(chapter)s\"章节。"
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "可选择的标准配件"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "已激活精英征程"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "精英征程已暂停。"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "已达到点数上限"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "%(vehName)s已达到点数上限。\n达到点数上限的奖励: %(bonusPoints)s。\n使用其他坦克继续获取点数。"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "恭喜您！"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "已获得%(name)s风格。它可以立即应用到坦克上，并在战斗通行证进度中升级。"
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "可选择的赏金配件"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "详细"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "详细"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "您完成了战斗通行证的\"%(chapter)s\"章节！\n已获得奖励:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "您完成了战斗通行证的\"%(chapter)s\"章节！\n已获得奖励:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "您完成了战斗通行证进度阶段%(newLevel)s\n\n已获得奖励:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "章节%(chapter)s已添加阶段: %(levelCount)s\n您已到达阶段%(currentLevel)s\n已获得奖励:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "您获得了战斗通行证已完成阶段的奖励:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "您现在将同时获得基础和高级奖励轨道中的奖励。"
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "您使用未分配的点数完成了阶段，已获得奖励："
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "您完成了\"%(chapter)s\"章节。\n已获得奖励:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "继续战斗并获得点数！"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "您已完成战斗通行证赛季%(season)s的所有主要章节。\n已获得奖励:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "您完成了\"%(chapter)s\"章节的进度阶段%(newLevel)s。\n已获得奖励:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "详细"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "已花费全局经验:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "消耗金币："
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "您购买了\"%(chapter)s\"章节的高级通行证和全部阶段。\n已获得该章节全部阶段的奖励:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "购买高级通行证后获得了奖励:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "您现在将同时获得本赛季所有章节中的基础和高级奖励。"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "您购买了\"%(chapter)s\"章节的%(levelCount)s个阶段\n您达到了阶段%(currentLevel)s。\n已获得奖励:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "购买高级通行证后获得了奖励:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "该高级通行证仅适用于\"%(chapter)s\"章节。"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "您获得了战斗通行证已完成阶段的奖励："
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "该高级通行证仅适用于\"%(chapter)s\"章节。"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "您现在将同时获得\"%(chapter)s\"章节基础和高级奖励轨道中的奖励。"
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "已添加默认奖励:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "已购买高级通行证"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "已购买高级通行证"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "已购买阶段"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "祝贺您！"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "已发放奖励"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "已完成精英征程阶段。\n已获得奖励:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "已完成精英征程阶段: %(amount)s\n已获得奖励:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "乘员:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "战绩"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "收到%s('%s'特惠的奖励)"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "收到%s('%s'特惠的奖励)"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s 令牌"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "银币%s"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s战争债券"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s 周年纪念币"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "全局经验%s"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "金币%s"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "战斗"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "已获得战斗通行证点数: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "已获得令牌"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "详细"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "含因被盟友误伤获得的补偿:%s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "获得银币: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "获得战争债券"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "被击败"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "每天的第一场胜利获得%d倍经验"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "平局"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "战斗已结束"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "战斗储备积分"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "已获得合金元件"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "已获得周年纪念币"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "获得经验: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "攻城战"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "建筑物"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "获得的工业资源"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "由军团"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "由玩家"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "收到全局经验"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "已获得金币"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "加入\"%(campaignName)s\"的行列后，您获得了\"%(nameMedal)s\"勋章。"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "恭喜！"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "在\"%(campaignName)s\"个人任务中，成功完成\"%(categoryName)s\"系列的45个任务后，您获得了\"%(nameMedal)s\"勋章。"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "在\"%(campaignName)s\"个人任务中，成功完成\"%(categoryName)s\"系列的30个任务后，您获得了\"%(nameMedal)s\"勋章。"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "在\"%(campaignName)s\"个人任务中，成功完成\"%(categoryName)s\"系列的15个任务后，您获得了\"%(nameMedal)s\"勋章。"
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "因TK队友已被扣除:%s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "恭喜您！\n成功完成个人任务将收到如下奖励"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "恭喜！\n已成功完成\"迟来的支援\"个人任务，奖励如下"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "恭喜！\n已成功完成\"第二战线\"个人任务，奖励如下"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "恭喜！\n已成功完成两项个人任务，奖励如下"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "添加到储备库"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "任务完成！奖励"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "成就"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "获得战斗通行证点数: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "床位已添加至兵营"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "已添加令牌"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "收到银币"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "添加战争债券"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "已添加合金元件"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "已增加周年纪念币"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "收到全局经验"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "收到金币"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "已添加"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "个人任务点数: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "已获得宠物"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "添加高级账号天数"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "添加坦克世界高级账号天数"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "已增加奖励战斗: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "每日%(count)s场"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s场标准"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "收到车位"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "已增加奖励战斗"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \n标准，根据您在已完成阶段中的表现: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \n根据已完成任务: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \n每日，根据在资格赛中获得的臂章数: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \n标准，根据在资格赛中获得的臂章数: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "军阶变化"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \n获得臂章"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \n获得臂章"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \n移至梯队: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \n移至段位"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \n保留臂章"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \n您获得了军阶%(rankName)s（%(divisionName)s）"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \n您失去了军阶%(rankName)s（%(divisionName)s）"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \n军阶护盾已削弱"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \n无变化"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \n军阶护盾已破碎"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \n保留臂章"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \n获得臂章"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \n失去臂章"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \n获得臂章"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "评级点数"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "您获得了下列服役资历奖励"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "恭喜您！"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "招募"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "坦克"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "女性坦克乘员"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "技术性失败"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "科技胜利"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "胜利"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "已移除了一个排除地图的空位。%(mapName)s地图重新加入地图池。"
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "被禁用的%(mapNames)s地图现在已从游戏中移除。您可以再禁用一张地图。"
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "已移除了一个排除地图的空位。%(mapNames)s地图重新加入地图池。"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "特惠现已开始！\n将您的蓝图碎片兑换为其他高价值物品，仅限10天。"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "详细"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "特惠已结束"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "兑换您的蓝图"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "由于系统维护，暂时无法进行蓝图兑换。"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "蓝图兑换已恢复。"
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "别忘了领取您的奖励！"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "前往选择"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "当前战斗中的加成不包括在内。"
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "个人储备\"%(boosterName)s\"因技术原因而被停用。"
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: 个人储备效果已结束"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "损失的储备:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "储备已过期"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "银币"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "全局经验"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "乘员经验"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "战斗经验"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "%(resourceName)s的总加成:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "关闭"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "您退出或被踢出军团:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "已添加\"%(element_name)s\""
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "已添加\"%(element_name)s\"勋章"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "已添加\"%(element_name)s\"条纹"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "已获得奖励"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "获得的点赞数量"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "实时标签暂不可用"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "战斗中可查看实时标签"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "点赞功能暂不可用"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "战斗中可进行点赞"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "您已经获得 %(gold)s金币，%(credits)s银币。"
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "您已经获得%(credits)s银币。"
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "乘员助手已开放"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "乘员助手不可用"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "银币和金币储备库已开启！"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "竞拍"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "战斗通行证"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "日期"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "已移除令牌"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "扣除银币"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "移除战争债券"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "已移除合金元件"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "已移除周年纪念币"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "扣除全局经验"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "扣除金币"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "交易"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "竞拍"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "已获得令牌"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "获得银币"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "获得战争债券"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "已获得合金元件"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "已获得周年纪念币"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "收到全局经验"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "收到金币"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "超世英杰奖励"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "完成了%(battlesCount)s场战斗后获得了%(medalName)s 勋章\n完成了%(battlesCount)s场战斗后获得了贴花(x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "由于服务器维护，与拆卸工具有关的操作无法进行。"
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "与拆卸工具有关的操作现在可以进行了。非常抱歉为您带来不便。"
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "军用识别牌基底已解锁: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "军用识别牌雕刻已解锁：%(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "%(name)s军用识别牌"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "达到等级"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "新等级"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "解锁"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "基底"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "雕刻"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "坦克世界高级账号在%(expiryTime)s到期。"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "确认邮箱"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "邮箱未被确认"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "已使用实验型模块"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "已移除全部实验型模块"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "从下列坦克上拆卸的实验型模块"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "战斗场景"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• 可选择的配件指令"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• 战斗通行证点数"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• 通用简册"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• 战争债券"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• 战斗储备积分"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• 自选试验型配件"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• 授业许可"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• 再训练命令"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• 通用手册"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "您已获得周年纪念币：%(eventCoin)s。"
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "已解锁额外的排除地图空位"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "无法通过坦克世界Plus订阅排除地图"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "原因"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Boosteroid订阅已结束。"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "订阅已结束。"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "坦克不可用"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "坦克"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "坦克开放使用"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "坦克"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "进度重置"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "跳转到任务"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "注意！%(missionShortName)s任务进度被重置。完成条件将重新启动。"
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "任务: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "作战行动: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "详情"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "您已被暂时封禁，无法参加%(mode)s中的战斗。临时封禁解除时间为%(date)s。"
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "您的临时封禁已解除。您可以再次参加%(mode)s了。"
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "因在%(mode)s中%(reason)s，系统已扣除您在战斗中所获得的银币、经验和奖励。"
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "因在%(mode)s中%(reason)s，您收到了一次警告。"
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "封禁"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "封禁结束"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "您受到了惩罚"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "消极战斗"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "对%(clan)s军团宣战！\n攻城战将在%(date)s的%(time)s开始。"
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "防御已打破！\n取消所有攻击。请立即修复要塞受损的指挥中心。"
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "计划与%(clan)s 的战斗取消."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "定于%(date)s的%(time)s对抗%(clan)s军团的攻城战已被取消:要塞等级相差大于1级。"
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "建筑物%(building)s受损。请立即修复该建筑物。"
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "指挥中心受损。请从要塞中修复。如果您的指挥中心被进一步损坏，您的防御将被打破。"
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "军团%(clan)s已向您宣战！\n攻城战将于%(date)s的%(time)s开始。"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "设置防御时间: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "防御时间已经调整。新防御时间: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "无法开启要塞防御。建筑物与储备等级低于IV级。"
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "恭喜您！您的要塞等级到达8级。"
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "恭喜您！指挥中心已创建完毕并开始运作。"
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "停火日期已变更。新的停火日期未设置。"
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "变更停火日期:%(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "建筑物%(building)s等级已提升。\n%(order)s储备被制作为工业资源并存储到建筑物的仓库中。"
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "已补偿%(orderTypeName)s储备并可再次启用。"
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "服务器跳转到%(peripheryName)s。"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "收到工业资源:%(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "扣除工业资源:%(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "你已被绑定在建筑物%(building)s。"
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "收到储备:%(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "扣除储备:%(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "储备%(order)s已启用。剩余时间:%(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "储备已启用"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "储备%(order)s已全部使用。"
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "%(count)s 储备 %(order)s已就绪。"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "撤离储备已失效。\n\n%(additional)s\n我方军团总计:%(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "敌方启用征收储备并额外征收:%(resDec)s\n我方军团额外保护:%(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "征收储备已失效。\n\n%(additional)s\n我方军团总计:%(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "敌方启用撤离储备并额外保护:%(resDec)s\n我方军团额外征收:%(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "建筑物 %(building)s仓库已满。\n使用工业资源来准备储备或运送资源到其它建筑物中。"
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "您的要塞中立时间已过。\n其它的军团现在可以攻击您--请做好准备！"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "您的要塞已宣布中立。\n其它的军团无法攻击您。中立时间将在:%(finish)s后结束。"
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "添加%(defResCount)s工业资源到指挥中心仓库中。"
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "前往活动"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "前往进度"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "您已经获得%(gold)s金币。"
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "竞拍:您的出价低于竞争性出价。"
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "您赢得当前竞拍的几率下降了:您当前的出价低于竞争性出价。"
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "前往活动"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "您的出价已失败。将退回:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "其他玩家的出价超过了您的出价。您的出价将在稍后退回您的账号。"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "错误"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "出价失败。没有扣除资金。请稍后重试。"
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "出价即将关闭。"
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "抓紧时间出价！"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "抓紧时间出价！物品数量有限。"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "新拍品的出价已开始！"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "床位已添加至兵营"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "从兵营中移除床位"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "个人储备"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "已移除个人储备"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "已添加令牌"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "已移除令牌"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "补偿"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "使用令牌"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "涂装"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "银币"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "用战争债券"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "徽章"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "以周年纪念币形式"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "金币"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "签名"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "效果"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "喷漆"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "一位数"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "两位数"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "三位数"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "贴花"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "风格"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "收到银币"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "银币已扣除"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "添加了乘员手册"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "调乘员回兵营"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "乘员%d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "收到乘员皮肤"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "移除乘员皮肤"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "乘员%d%% 被调回兵营"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "解雇乘员"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "获得战争债券"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "移除战争债券"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "个人折扣"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "添加奖励"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "扣除奖励"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "已添加实验型模块"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "已移除实验型模块"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "已添加"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "已移除"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "已添加合金元件"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "已移除合金元件"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "给养"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "扣除给养"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "已增加周年纪念币"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "已移除周年纪念币"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "限时个人储备"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "通行令已增加"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "通行令已扣除"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "全局经验"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "收到全局经验"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "扣除全局经验"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "收到金币"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "扣除金币"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "收到普通碎片"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "移除普通碎片"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "收到"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "添加到仓库"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "扣除给养"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "坦克已装备的"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "收到%(nationName)s坦克蓝图碎片"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "移除%(nationName)s坦克蓝图碎片"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "已添加"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "已移除"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "个"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "添加高级账号天数"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "扣除高级账号天数"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "WG高级账号"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s获得%(xpCount)s精英点数。"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s获得%(xpCount)s精英点数和精英等级%(level)s。"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s获得精英等级%(level)s。"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "物品来自"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam库存"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "已增加奖励战斗"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "已移除奖励战斗"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "租用天数: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "收到车位"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "扣除车位"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "《坦克世界》高级账号"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "添加坦克世界高级账号天数"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "扣除坦克世界高级账号天数"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "招募"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "已增加未分配的经验给乘员"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "已移除乘员未分配的经验"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "已解雇"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "已研发所有模块"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "收到%(vehicleName)s蓝图碎片"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "移除%(vehicleName)s蓝图碎片"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "收到坦克"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "扣除坦克"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "收到租用坦克"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "您已经获得:%(typeName)s \"%(itemName)s\" - %(amount)d 个。"
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "前往补给品"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "点击按钮查看内容。"
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "您收到了一个包裹:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "查看"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "已激活次元之门:%(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "激活次元之门"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "获得道具: \n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "我们激活了您的所有次元之门，并将所有物品发送到了您的账号:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "已获得奖励"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "我们开启了您全部的补给品，并把假日行动的奖励添加至您的账号"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "我们为您开启了春节寄福活动中的所有红包。"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "已获得奖励"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "已添加贴花: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "已添加贴花: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "前往调查"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "恭喜！"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "侦察任务已结束。感谢您为新地图开发做出的贡献！"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "侦察任务已结束。\n\n感谢您为新地图开发做出的贡献！"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "侦察任务已开始。\n\n驾驶VIII–X级坦克在处于开发阶段中的地图上参加战斗，在问卷调查中分享您的意见，并获得奖励！"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "最终奖励："
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "您在侦察任务中已进行%(battles)s场战斗。"
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "已获得奖励："
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "您可以在侦察任务中参与关于模式机制的问卷调查。"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "调查已开放"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "您可以在侦察任务中参与关于%(mapName)s地图的问卷调查。"
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "前往兵营"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "移除乘员: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "国土防线补给"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "配件助手已开放"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "配件助手不可用"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "您有新储备:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "发布通知"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "将过期的储备:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "即将损失的限时储备"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "获得银币: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "日期: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "交易:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "已添加至仓库: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "收到"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "新的积累周期开始了。"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "新的累积周期已开始。激活《坦克世界》高级账号即可累积银币。"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "新的累积周期已开始。激活坦克世界Plus即可累积金币。"
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "银币储备库已停用。"
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "银币储备库已开启！"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "领取奖励"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "已完成额外进度！"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "前往进度"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "额外进度"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "您已解锁特殊奖励。"
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "军团战斗"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "战斗结果"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "赛事"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "被击败"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "平局"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "结果尚未确定"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "胜利!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "删除所有者"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "系统故障"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "您已被拒绝"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "技术性失败"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "平局"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "结果尚未确定"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "胜利！"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "超时掉线"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "完成"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(战斗 %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "部分战绩"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "战绩"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "收到高级账号。剩余时间%(expiryTime)s。"
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "高级账号有效期变化。延长至%(expiryTime)s。"
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "WG高级账号到期。"
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "已延期高级账号。%(expiryTime)s到期。"
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "收到坦克世界高级账号。延期到%(expiryTime)s。"
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "坦克世界高级账号有效期变化。延长至%(expiryTime)s。"
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "坦克世界高级账号过期。"
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "延期坦克世界高级账号。延期到%(expiryTime)s。"
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "您的高级账号被增加了%(days)d天day(s)。"
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "前往精英系统"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "获得精英标记和精英等级。"
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "精英系统"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "前往坦克"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "获得精英等级"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "领取精英奖励时发生错误。"
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "达到精英等级%(lvl)s，已获得\"%(rewardName)s\"%(typeReward)s。"
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "已获得精英奖励"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "注意！"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "详情"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "涂装"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "贴花"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "徽章"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "签名"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(name)s%(typeName)s%(level)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "还有%(count)s个"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "%(level)s级"
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "喷漆"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "贴花"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "已收到:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "%(name)s风格"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "恭喜您！"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "详细"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "成就奖励"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "通过战斗获得奖励。您战斗越多，获得的奖励就越多。"
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "获得高级奖励："
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "详细"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s军阶令牌已转换为%(count)s战争债券。"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "祝贺您！"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "获得最大奖励："
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "获得标准奖励："
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "获得小奖励："
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "您在2021—2022赛季中获得了%(points)s排位令牌"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "年度奖励"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "援军来了！"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "您在%(event)s期间获得了乘员。"
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "您有尚未招募的乘员:%(count)s名。下一次移除时间为%(date)s！"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "您有尚未招募的乘员数:%(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "移除奖章"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "补偿"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "%(vehicleName)s租用未到期返还银币"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "%(vehicleName)s租用未到期返还金币"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "%(vehicleName)s的租用时间到期。"
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "蓝图碎片:"
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "银币：%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "战争债券：%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "详情"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "全局经验：%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "金币：%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "通用碎片"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "当前进度：%(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "在组装车间项目上花费的资源："
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "已花费资源"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "花费资源"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "组装车间返还资源:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "资源返还"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "可选择的培训手册"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "可选择的培训指南"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "涂装"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "%s由于服务器维护工作已自动延期。"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "徽章"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "签名"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "WG高级账号"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "《坦克世界》高级账号"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "租用"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "游戏服务器将在%(date)s被断开。"
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "%(date)s的服务器维护计划已被取消。"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "服役记录个性化可用"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "此功能已暂停。"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "服役记录个性化暂不可用"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "通用碎片 （x%(fragmentsCount)s）"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "系别碎片 （%(nationName)s） （x%(fragmentsCount)s）"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "特殊奖励"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "%(vehicleName)s 的蓝图碎片 （x%(fragmentsCount)s）"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "验证邮箱的奖励:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "恭喜！"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "已获得已研发坦克补偿的蓝图碎片："
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "涂装更改"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "收到银币:%(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "扣除银币:%(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "战争债券:%(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "战争债券:%(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "个性化元素已更改。"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "个性化元素已更改。已购买元素:%(count)s。您花费了%(money)s。"
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "徽章更改"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "已增加周年纪念币：%(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "已移除周年纪念币：%(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "收到全局经验:%(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "扣除全局经验:%(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "收到金币:%(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "扣除金币:%(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "签名更改"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "通用碎片"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "%(nationName)s 系别碎片"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "更新后，所有贴花均已从车辆上移除，并发送至外部车库。"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "收到车位:%(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "扣除车位:%(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "注意！"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "收到坦克:%(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "扣除坦克:%(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "已购买下列个性化元素：\n%(items)s\n花费%(money)s。"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "成功购买 “%(itemName)s” %(itemType)s。\n花费%(money)s。"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "成功购买%(level)s级%(name)s风格。\n花费%(money)s。"
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "已更改坦克的个性化元素。"
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s “%(itemName)s” (%(count)s个)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "%(level)s级%(styleName)s风格"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "个性化元素已从坦克上移除。"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "恭喜！\n可升级贴花让您可以调整%(vehicleName)s的预设风格。"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "恭喜！\n您获得了%(vehicleName)s的I级\"%(itemName)s\"贴花。"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "恭喜！\n您获得了I级\"%(itemName)s\"贴花。"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "%(vehicleName)s的“%(itemName)s”贴花已达到%(level)s级。"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "前往个性化"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "“%(itemName)s”贴花已达到%(level)s级。"
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s。花费: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "沙地地图: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "草地地图: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "雪地地图: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s。获得: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "已拆解配件"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s(x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "前往个性化"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "由于模块的更换，以下自定义元素已从%(vehicle)s上移除。"
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "个性化:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "已拆解配件"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "拆卸:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "错误:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "交易:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "从仓库出售物品:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "支付方式\"%(method)s\"已添加"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "支付方式\"%(method)s\"已删除"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "研发:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "购买:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "从车库中删除:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "修复所需银币:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "恢复:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "出售:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "配件升级"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "您已经获得%(days)d天day(s)WOT账号。"
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "前往储备"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "%(vehicleName)s上的涂装已经过期。"
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "%(vehicleName)s上的徽章已经过期。"
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "%(vehicleName)s上的签名已经过期。"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "收藏可用"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "祝贺您！\n恭喜！您已研发了一台%(level)s级%(nation)s坦克。现在您可以在军械库中购买相同等级和系别的收藏坦克了。"
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "坦克被击毁。%(vehicleName)s将不可用于军团战斗直至 %(expireTime)s。"
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "已解除锁定。%(vehicleName)s已可用于军团战斗。"
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "已取消%(vehicle)s的所有双重改装。"
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "已取消改装"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "禁用"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "启用"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "在战斗开始前倒计时期间为%(tankName)s切换配件和指令的功能已%(state)s。"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "在战斗开始前倒计时期间为%(tankName)s切换炮弹和给养的功能已%(state)s。"
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "您已经获得金币坦克:%(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "无法租用坦克。资产不足。"
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "已租用%(vehicleName)s坦克。剩余租用时间 %(expiryTime)s。"
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "坦克已解锁。坦克可用于军团战斗。"
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "玩家%(srcName)s已转移%(srcWares)s金币到您的账号中。"
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s 金币被转移给玩家 %(dstName)s。 花费:%(fee)s。"
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "%(level)s级坦克的折扣"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "已获得完成厉兵秣马进度的奖励:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "选择奖励"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "%(level)s级坦克的折扣"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s(%(expDiscount)d%%和%(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "已添加购买和研发折扣:"
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "恭喜！"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "%(level)s级坦克"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "从可用类别中选择奖励。"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "选择"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "已获得奖励！"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "战斗通行证Plus福利已暂停。"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "战斗通行证Plus暂不可用"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "战斗通行证Plus可用"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "持续登录游戏以获得更多奖励！"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "已获得特殊签到奖励！"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "周期已完成"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "登录游戏并领取奖励。"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "周期已开始！"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "签到奖励"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "改天再来领取新奖励！"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "您已签到！"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "签到奖励功能已暂停。"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "签到奖励不可用"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "签到奖励可用"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "专属%(vehicleType)s<font color='#E9E2BF'>%(vehicleName)s</font>已开放使用。"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "坦克世界Plus专属<font color='#E9E2BF'>%(vehicleName)s</font>%(vehicleType)s暂时无法使用。"
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "坦克世界Plus核心版已于%(time)s到期"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "免费拆卸配件不可用"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "续订坦克世界Plus即可再次获得所有专属福利。"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "坦克世界Plus已于%(time)s到期"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "坦克世界Plus专业版已于%(time)s到期"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "金币储备库已暂停。"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "金币储备库暂时不可用"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "金币储备库可用"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "金币储备库已满:您无法再累积金币了"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "金币储备库已开启！"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "所有福利现已开放。\n续订时间: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "下次续订时间: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "您的180天方案现已激活。敬请体验！"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "您的360天方案现已激活。敬请体验！"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "您的180天方案现已激活。敬请体验！\n续订时间: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "您的360天方案现已激活。敬请体验！\n续订时间: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font>的高强度乘员训练已停止工作。请检查该坦克的乘员。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font>的一名或多名乘员不符合高强度乘员训练的资格，因此无法累积乘员经验。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "高强度乘员训练"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "%(vehicleName)s乘员的高强度乘员训练已开启。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "%(vehicleName)s乘员的高强度乘员训练已关闭。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "乘员经验累积已暂停。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "高强度乘员训练暂时不可用"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "高强度乘员训练可用"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "请选择一辆坦克来获取免费乘员经验加成。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "高强度乘员训练已从<font color='#E9E2BF'>%(oldVehName)s</font>转移至<font color='#E9E2BF'>%(newVehName)s</font>。<font color='#E9E2BF'>%(oldVehName)s</font>的乘员已停止累积经验。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "高强度乘员训练已转移"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "一名或多名乘员无法应用该乘员经验加成。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "您错过了珍贵的乘员经验！"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "您可在%(cooldown)s小时后再次更改选择。"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "已为%(vehicleName)s激活专业版增益"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "您可为另一辆坦克激活专业版增益。"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "已为%(vehicleName)s关闭专业版增益"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "专业版增益收益已暂停。"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "专业版增益暂不可用"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "专业版增益可用"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s不再享受专业版增益。您可在%(cooldown)s小时后再次更改选择。"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "专业版增益已切换至%(vehicleNameTo)s上"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "坦克世界Plus续订日期已变更"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "请从列表中选择一辆坦克进行租用。"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "没有选择租用坦克"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s不久后将发放至您的游戏账号。"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "已租用！"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "这些福利已关闭。"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "坦克世界Plus不可用"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "已激活坦克世界Plus核心版"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "免费拆卸配件已解锁"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "已激活坦克世界Plus"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "坦克世界Plus专业版"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "坦克世界Plus已升级至专业版！"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "续订"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "您收到%(freeXP)s全局经验。"
+
+msgid "status/offline"
+msgstr "离线"
+
+msgid "status/online"
+msgstr "在线"
+
+msgid "xmpp_error/action"
+msgstr "无法执行“%(actionName)s”。请稍后重试。"
+
+msgid "xmpp_error/simple"
+msgstr "请稍后重试。"
+
+msgid "xmpp_error/user_room_creation"
+msgstr "创建玩家频道\"%(strArg1)s\"失败。"

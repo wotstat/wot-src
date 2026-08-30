@@ -1,0 +1,161 @@
+from __future__ import absolute_import
+import time, adisp, BigWorld
+from debug_utils import LOG_DEBUG
+from gui.Scaleform.Waiting import Waiting
+
+class adisp_process(object):
+
+    def __init__(self, *kargs):
+        self.__currentMessage = None
+        self.__messages = kargs
+        self.__messages2Show = list(self.__messages)
+        return
+
+    def __hideWaiting(self):
+        if self.__currentMessage is not None:
+            Waiting.hide(self.__currentMessage)
+            self.__currentMessage = None
+        return
+
+    def __nextWaiting(self):
+        if self.__messages2Show:
+            self.__hideWaiting()
+            self.__currentMessage = self.__messages2Show.pop(0)
+            Waiting.show(self.__currentMessage)
+        return
+
+    def __stepCallback(self, isStop):
+        if not isStop:
+            return self.__nextWaiting()
+        self.__hideWaiting()
+        self.__messages2Show = list(self.__messages)
+        return
+
+    def __call__(self, func):
+
+        def wrapper(*kargs, **kwargs):
+            self.__nextWaiting()
+            return adisp.adisp_process(func, self.__stepCallback)(*kargs, **kwargs)
+
+        return wrapper
+
+
+def adisp_async(func, cbname=b'callback', cbwrapper=(lambda x: x)):
+
+    def wrapper(*kargs, **kwargs):
+        if cbname in func.func_code.co_varnames:
+            idx = func.func_code.co_varnames.index(cbname)
+            if idx >= len(kargs) and cbname not in kwargs:
+                return adisp.adisp_async(func, cbname, cbwrapper)(*kargs, **kwargs)
+        return func(*kargs, **kwargs)
+
+    return wrapper
+
+
+def debugTime(func):
+
+    def wrapper(*args, **kwargs):
+        startTime = time.time()
+        result = func(*args, **kwargs)
+        LOG_DEBUG(b"Method '%s' measuring time: %.10f" % (
+         func.__name__, time.time() - startTime))
+        return result
+
+    return wrapper
+
+
+IS_DEVELOPMENT = True
+
+class _TrackFrameEnabled(object):
+
+    def __init__(self, logID):
+        super(_TrackFrameEnabled, self).__init__()
+        self.__logID = logID
+        return
+
+    def __call__(self, func):
+
+        def wrapper(*args, **kwargs):
+            BigWorld.PFbeginFrame(self.__logID)
+            func(*args, **kwargs)
+            BigWorld.PFendFrame()
+            return
+
+        return wrapper
+
+
+class _TrackFrameDisabled(object):
+
+    def __init__(self, logID):
+        super(_TrackFrameDisabled, self).__init__()
+        return
+
+    def __call__(self, func):
+        return func
+
+
+if IS_DEVELOPMENT:
+    trackFrame = _TrackFrameEnabled
+else:
+    trackFrame = _TrackFrameDisabled
+
+def makeArr(obj):
+    if isinstance(obj, tuple):
+        if len(obj) > 1:
+            return [obj[0], obj[1]]
+        return [obj[0], obj[0]]
+    return [
+     obj, obj]
+
+
+class ReprInjector(object):
+
+    @classmethod
+    def withParent(cls, *argNames):
+        return InternalRepresenter(True, argNames)
+
+    @classmethod
+    def simple(cls, *argNames):
+        return InternalRepresenter(False, argNames)
+
+
+class InternalRepresenter(object):
+
+    def __init__(self, reprParentFlag, argNames):
+        self.argNames = argNames
+        self.reprParentFlag = reprParentFlag
+        return
+
+    def __call__(self, clazz):
+        if b'__repr__' in dir(clazz):
+            if hasattr(clazz, b'__repr_params__') and self.reprParentFlag is not False:
+                clazz.__repr_params__ = tuple(arg for arg in self.argNames if arg not in clazz.__repr_params__) + tuple(arg for arg in clazz.__repr_params__ if arg[0:2] != b'__')
+            else:
+                clazz.__repr_params__ = self.argNames
+        else:
+            clazz.__repr_params__ = self.argNames
+        representation = []
+        attrMethNames = []
+        for i, param in enumerate(clazz.__repr_params__):
+            attrMethNames.append(makeArr(param))
+            if attrMethNames[-1][0][:2] == b'__':
+                if clazz.__name__[0] != b'_':
+                    attrMethNames[-1][0] = (b'').join([b'_', clazz.__name__, attrMethNames[-1][0]])
+                else:
+                    attrMethNames[-1][0] = (b'').join([clazz.__name__, attrMethNames[-1][0]])
+            representation.append((b'{0} = {{{1}}}').format(attrMethNames[-1][1], i))
+
+        representation = (b'').join([clazz.__name__, b'(', (b', ').join(representation), b')'])
+
+        def __repr__(self):
+            formatedArgs = []
+            for attrMethName, _ in attrMethNames:
+                attr = getattr(self, attrMethName, b'N/A')
+                if callable(attr):
+                    attr = getattr(self, attrMethName, b'N/A')()
+                formatedArgs.append(attr)
+
+            return representation.format(*formatedArgs)
+
+        clazz.__repr__ = __repr__
+        return clazz

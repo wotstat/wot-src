@@ -1,0 +1,24 @@
+import json
+from typing import TYPE_CHECKING
+from gui.clans.clan_cache import g_clanCache
+from uilogging.base.logger import MetricsLogger
+from uilogging.clan_supply.constants import FEATURE, ClanSupplyLogAction
+if TYPE_CHECKING:
+    from uilogging.types import ItemType, ParentScreenType, InfoType
+
+class ClanSupplyEventLogger(MetricsLogger):
+    __slots__ = (b'_eventParent',)
+
+    def __init__(self):
+        super(ClanSupplyEventLogger, self).__init__(FEATURE)
+        return
+
+    def logCloseEvent(self, item, info):
+        infoStr = json.dumps({b'clan_id': (g_clanCache.clanDBID), b'event_trigger': (info.value)})
+        self.stopAction(action=ClanSupplyLogAction.CLOSE, item=item, info=infoStr)
+        return
+
+    def logOpenEvent(self, item, parentScreen):
+        self.startAction(ClanSupplyLogAction.CLOSE)
+        self.log(action=ClanSupplyLogAction.OPEN, item=item, parentScreen=parentScreen, info=json.dumps({b'clan_id': (g_clanCache.clanDBID)}))
+        return

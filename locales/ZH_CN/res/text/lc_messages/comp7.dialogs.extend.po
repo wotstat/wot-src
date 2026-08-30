@@ -1,0 +1,23 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7/deserter/cancel"
+msgstr "取消"
+
+msgid "comp7/deserter/message"
+msgstr "本场战斗尚未结束。如果中途离场，您将令队友失望。\n{brown_open}您的评级点数将被降低，并且将被暂时封禁，无法参加该模式。{brown_close}\n您确定要离开战斗？"
+
+msgid "comp7/deserter/msgTitle"
+msgstr "您将失去评级点数！"
+
+msgid "comp7/deserter/submit"
+msgstr "确认"
+
+msgid "comp7/deserter/title"
+msgstr "中途离场"
+
+msgid "punishmentWindow/message/ban/comp7"
+msgstr "您于{whiteSpanish_Open}%(time)s{whiteSpanish_Close}在{whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}地图上违反了游戏规则。 \n因此，评级点数{whiteSpanish_Open}%(penalty)s{whiteSpanish_Close}，同时，您已被暂时封禁，无法参加{whiteSpanish_Open}天梯战{whiteSpanish_Close}模式战斗。"
+
+msgid "punishmentWindow/message/ban/comp7/qualification"
+msgstr "您于{whiteSpanish_Open}%(time)s{whiteSpanish_Close}在{whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}地图上违反了游戏规则。\n您已被暂时封禁，无法参加{whiteSpanish_Open}天梯战{whiteSpanish_Close}模式战斗，同时，您的评级已降低。"

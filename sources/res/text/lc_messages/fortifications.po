@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WOT翻译 <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "昵称"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "每月"
+
+msgid "ClanListWindow/table/role"
+msgstr "职务"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "每周"
+
+msgid "battleQueue/clanPosition"
+msgstr "排名: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "排名:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "寻找敌人:"
+
+msgid "battleQueue/waitBattle"
+msgstr "等待战斗:"
+
+msgid "battleQueue/yourTeam"
+msgstr "您的分遣队:"
+
+msgid "disconnected/Warning"
+msgstr "注意！"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "要塞暂时无法访问。请您稍后再试。"
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "漫游功能在要塞模式下不可用。要连接到您的要塞，请到您的大区。"
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "军团数量"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "雇佣兵"
+
+msgid "fortVehPopover/btnSave"
+msgstr "保存(%(count)d)选择"
+
+msgid "inspire/inspired"
+msgstr "鼓舞中"
+
+msgid "inspire/inspiring"
+msgstr "鼓舞中"
+
+msgid "mainWindow/maintenance/body"
+msgstr "非常抱歉为您带来不便。"
+
+msgid "mainWindow/maintenance/button"
+msgstr "更新"
+
+msgid "mainWindow/maintenance/header"
+msgstr "加载数据时出错"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "乘员经验加成"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "银币加成"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "全局经验加成"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "经验加成"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "额外效果"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "在冲突战及攻城战的一场战斗中命令火炮向指定区域开火"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "在冲突战及攻城战的一场战斗中，使用鼓舞提升全体乘员及附近盟友乘员的主要专业和所有特长"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "可在战斗前启用储备"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "可在攻城战前启用储备"
+
+msgid "reserves/tooltip/empty"
+msgstr "您没有储备可以启用"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "仓库中有%(count)s个"
+
+msgid "reserves/tooltip/level"
+msgstr "%(level)s级"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "激活后的效果"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "可以启用"
+
+msgid "reserves/tooltip/selected"
+msgstr "启用"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "点击查看您可以启用的储备列表。"
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "只有指挥官、副指挥官、指导员或战地指挥官职位的分遣队指挥官才能启用储备。"
+
+msgid "roster/clanMembersNotEnough"
+msgstr "分队中没有足够的部落成: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "战斗将于%(nextDate)s分后开始"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "开始时间稍后指定"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "战斗结束于%(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "冲突战可用"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "下次作战将在%(nextDate)s开始"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "距战斗开始还有%(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "战斗将于今天的%(nextDate)s开始"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "战斗将于明天的%(nextDate)s开始"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "开始时间稍后指定"
+
+msgid "sortie/introView/title"
+msgstr "要塞模式"
+
+msgid "sortie/listView/enterBtn"
+msgstr "加入"
+
+msgid "sortie/listView/enterText"
+msgstr "以预备员身份加入"
+
+msgid "sortie/listView/notSelected"
+msgstr "从左侧的列表中选择一个分遣队\n查看其详细信息。"
+
+msgid "sortie/listView/teamMembers"
+msgstr "成员:%(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "坦克:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "雇佣兵"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "自动组建雇佣兵"
+
+msgid "sortie/room/candidates"
+msgstr "预备队员"
+
+msgid "sortie/room/chat"
+msgstr "聊天频道"
+
+msgid "sortie/room/description"
+msgstr "创建分遣队与敌方的军团在任意一张地图上进行战斗。坦克的等级由分遣队的等级决定。"
+
+msgid "sortie/room/fight"
+msgstr "战斗！"
+
+msgid "sortie/room/inviteFriends"
+msgstr "邀请玩家"
+
+msgid "sortie/room/leaveBtn"
+msgstr "前往构建分遣队"
+
+msgid "sortie/room/level"
+msgstr "%(level)s级"
+
+msgid "sortie/room/members"
+msgstr "成员:%(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "取消准备"
+
+msgid "sortie/room/ready"
+msgstr "准备!"
+
+msgid "sortie/room/title"
+msgstr "分遣队"
+
+msgid "sortie/slot/emptySlot"
+msgstr "空位"
+
+msgid "sortie/slot/takePlace"
+msgstr "加入空位"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "选择一辆坦克加入战斗。红色标识表示坦克未就绪。"
+
+msgid "stronghold/teamHeader"
+msgstr "分遣队成员"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "为军团士兵选择车辆"
+
+msgid "strongholdPopover/header"
+msgstr "选择坦克"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "所选车辆:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s我方据点"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "北部"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "东部"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "南部"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "西部"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "敌方据点"
+
+msgid "strongholdbuilds/mapName"
+msgstr "地图：%(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "地图将会在攻城战开始后选择"
+
+msgid "strongholdbuilds/point1"
+msgstr "要塞"
+
+msgid "strongholdbuilds/point2"
+msgstr "储备线"
+
+msgid "strongholdbuilds/point3"
+msgstr "前线"
+
+msgid "strongholdbuilds/point4"
+msgstr "前线"
+
+msgid "strongholdbuilds/point5"
+msgstr "储备线"
+
+msgid "strongholdbuilds/point6"
+msgstr "要塞"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "此据点攻城战的首胜为%(reward)s倍"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "失去两条战线的情况下守住了要塞"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "失去前线的情况下守住了储备线"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "没有占领敌方战线的情况下守住了两条战线"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "只占领了前线"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "没有占领要塞的情况下占领了两条战线"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "占领了敌方要塞"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "来自征用储备"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "攻城战后发奖"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "对雇佣兵隐藏"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "雇佣兵可以看到分遣队"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "对雇佣兵显示"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "雇佣兵无法看到分遣队"
+
+msgid "strongholddirection/A"
+msgstr "北部"
+
+msgid "strongholddirection/B"
+msgstr "东部"
+
+msgid "strongholddirection/C"
+msgstr "南部"
+
+msgid "strongholddirection/D"
+msgstr "西部"
+
+msgid "strongholdinfo/sortie"
+msgstr "%(level)s级冲突战"
+
+msgid "strongholdinfo/stronghold"
+msgstr "%(direction)s据点的攻城战"
+
+msgid "strongholdmap/randomMap"
+msgstr "随机地图"
+
+msgid "strongholdreserve/boost"
+msgstr "鼓舞"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "超级传输"
+
+msgid "strongholdreserve/requisition"
+msgstr "征用"
+
+msgid "strongholdreserve/support"
+msgstr "火炮支援"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "在冲突战及攻城战中，进行一场战斗"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "攻城战的结果"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "在战斗开始时启用"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "在攻城战开始时启用"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "在战斗中使用储备时启用"
+
+msgid "strongholdtable/rating"
+msgstr "评级"
+
+msgid "strongholdtable/roster"
+msgstr "组成"
+
+msgid "strongholdtable/tech"
+msgstr "坦克"
+
+msgid "strongholdtitle/sortie"
+msgstr "冲突战"
+
+msgid "strongholdtitle/stronghold"
+msgstr "%(direction)s据点的攻城战"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}边界{/HEADER}{BODY}中立领土。获胜方将在下一场战斗中攻击敌方战线。如果战斗以平手收场，将会随机选择进攻方队伍。{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "%(direction)s据点的攻城战"
+
+msgid "strongholdtooltips/hours"
+msgstr "小时"
+
+msgid "strongholdtooltips/minuts"
+msgstr "分钟"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "%(level)s级冲突战"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "点击\"加入战斗\"按钮后自动分配给军团的坦克类型。\n\n点击以确认或取消选定的雇佣兵坦克类型。"
+
+msgid "unit/window/willSearchPlayers"
+msgstr "退伍军人将自动加入空缺职位"

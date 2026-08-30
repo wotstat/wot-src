@@ -1,0 +1,121 @@
+from __future__ import absolute_import
+import random, weakref, BigWorld, CGF
+from constants import FIRE_NOTIFICATION_CODES
+from helpers import dependency
+from skeletons.gui.battle_session import IBattleSessionProvider
+import Statuses, TriggersManager
+from TriggersManager import TRIGGER_TYPE
+from gui.battle_control.battle_constants import VEHICLE_VIEW_STATE
+
+class Fire(BigWorld.DynamicScriptComponent):
+    __guiSessionProvider = dependency.descriptor(IBattleSessionProvider)
+    __FIRE_SOUNDS = {b'fireStarted': b'fire_started', b'fireStopped': b'fire_stopped'}
+    __EXTENDED_NOTIFICATION_WINDOW = 1
+
+    def __init__(self):
+        super(Fire, self).__init__()
+        self.__effectListPlayerRef = None
+        vehicle = self.entity
+        if not self.__tryShowFlameEffect():
+            vehicle.events.onAppearanceReady += self.__tryShowFlameEffect
+        return
+
+    def __tryShowFlameEffect(self):
+        vehicle = self.entity
+        appearance = vehicle.appearance
+        if appearance is None or not appearance.isConstructed:
+            return False
+        if vehicle.health > 0:
+            gameObject = appearance.gameObject
+            if not gameObject.hasComponent(Statuses.FireComponent):
+                queue = CGF.CommandQueue(gameObject.spaceID)
+                queue.createComponent(gameObject, Statuses.FireComponent)
+            isUnderwater = appearance.isUnderwater
+            if not isUnderwater and self.__effectListPlayerRef is None:
+                self.__playEffect()
+        return True
+
+    def set_fireInfo(self, _=None):
+        fireInfo = self.fireInfo
+        if fireInfo is None:
+            return
+        else:
+            vehicle = self.entity
+            avatar = BigWorld.player()
+            if avatar.userSeesWorld() and BigWorld.serverTime() - fireInfo[b'startTime'] < self.__EXTENDED_NOTIFICATION_WINDOW:
+                soundCheck = lambda veh=vehicle, player=avatar: player.vehicle == veh and veh.isOnFire()
+                avatar.playSoundIfNotMuted(self.__FIRE_SOUNDS[b'fireStarted'], checkFn=soundCheck)
+                deviceExtraIndex = fireInfo[b'deviceExtraIndex']
+                extra = vehicle.typeDescriptor.extras[deviceExtraIndex] if deviceExtraIndex != 0 else None
+                self.__guiSessionProvider.shared.messages.showVehicleDamageInfo(avatar, FIRE_NOTIFICATION_CODES[fireInfo[b'notificationIndex']], vehicle.id, fireInfo[b'attackerID'], extra, fireInfo[b'equipmentID'])
+                TriggersManager.g_manager.activateTrigger(TRIGGER_TYPE.PLAYER_VEHICLE_IN_FIRE)
+            self.__guiSessionProvider.invalidateVehicleState(VEHICLE_VIEW_STATE.FIRE, True)
+            return
+
+    def onLeaveWorld(self):
+        self.onDestroy()
+        return
+
+    def onDestroy(self):
+        self._cleanup()
+        return
+
+    def _cleanup(self):
+        vehicle = self.entity
+        if vehicle.isDestroyed or not vehicle.inWorld:
+            return
+        if vehicle.appearance:
+            vehicle.appearance.gameObject.removeComponent(Statuses.FireComponent)
+        vehicle.events.onAppearanceReady -= self.__tryShowFlameEffect
+        if vehicle.health > 0:
+            self.__fadeEffects()
+        else:
+            self.__stopEffects()
+        avatar = BigWorld.player()
+        fireInfo = self.fireInfo
+        if fireInfo is not None:
+            if vehicle.health > 0:
+                soundCheck = lambda veh=vehicle, player=avatar: player.vehicle == veh and not veh.isOnFire()
+                avatar.playSoundIfNotMuted(self.__FIRE_SOUNDS[b'fireStopped'], checkFn=soundCheck)
+                deviceExtraIndex = fireInfo[b'deviceExtraIndex']
+                extra = vehicle.typeDescriptor.extras[deviceExtraIndex] if deviceExtraIndex != 0 else None
+                self.__guiSessionProvider.shared.messages.showVehicleDamageInfo(avatar, b'FIRE_STOPPED', vehicle.id, fireInfo[b'attackerID'], extra, fireInfo[b'equipmentID'])
+            TriggersManager.g_manager.deactivateTrigger(TRIGGER_TYPE.PLAYER_VEHICLE_IN_FIRE)
+            self.__guiSessionProvider.invalidateVehicleState(VEHICLE_VIEW_STATE.FIRE, False)
+        return
+
+    def __getEffectsListPlayer(self):
+        if self.__effectListPlayerRef is not None:
+            return self.__effectListPlayerRef()
+        else:
+            return
+
+    def __playEffect(self):
+        vehicle = self.entity
+        stages, effects, _ = random.choice(vehicle.typeDescriptor.type.effects[b'flaming'])
+        data = {b'entity_id': (vehicle.id)}
+        waitForKeyOff = True
+        effectListPlayer = vehicle.appearance.boundEffects.addNew(None, effects, stages, waitForKeyOff, **data)
+        self.__effectListPlayerRef = weakref.ref(effectListPlayer)
+        return
+
+    def __stopEffects(self):
+        effectsListPlayer = self.__getEffectsListPlayer()
+        if effectsListPlayer is not None:
+            effectsListPlayer.stop(forceCallback=True)
+            self.__effectListPlayerRef = None
+        return
+
+    def __fadeEffects(self):
+        effectsListPlayer = self.__getEffectsListPlayer()
+        if effectsListPlayer is not None:
+            effectsListPlayer.keyOff()
+            self.__effectListPlayerRef = None
+        return
+
+    def onUnderWaterSwitch(self, isVehicleUnderwater):
+        if isVehicleUnderwater:
+            self.__stopEffects()
+        else:
+            self.__playEffect()
+        return

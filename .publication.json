@@ -1,0 +1,26 @@
+{
+  "branch": "wot-cn",
+  "client_type": "sd",
+  "commit_subject": "2.3.1.3 #929",
+  "counts": {
+    "locales": {
+      "ZH_CN": 277
+    },
+    "sources": 15435,
+    "sources_as3": 6386,
+    "sources_gameface": 1622,
+    "stubs": 94
+  },
+  "default_locale": "ZH_CN",
+  "descriptor_sha256": "a3248ff66acb64b2e917e667156c14fc3b6e9aa83a9eac40476f55ef8b7788c5",
+  "languages": [
+    "ZH_CN"
+  ],
+  "publisher": "qihoo",
+  "schema_version": 1,
+  "snapshot_contract_version": "1.1.0",
+  "snapshot_created_at": "2026-08-30T01:29:11.698800Z",
+  "snapshot_id": "sha256:772a58218f72038545e713075a00122cdf1ee4c1b11ae639b91faf12be48144d",
+  "target": "wot-cn",
+  "version_name": "2.3.1.5418"
+}

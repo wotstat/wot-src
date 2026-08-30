@@ -1,0 +1,298 @@
+from __future__ import absolute_import
+import logging, typing, BigWorld, Event
+from PlayerEvents import g_playerEvents
+from frameworks.wulf import WindowStatus, WindowLayer
+from gui.impl.pub.notification_commands import WindowNotificationCommand
+from gui.prb_control.entities.listener import IGlobalListener
+from gui.shared import EVENT_BUS_SCOPE
+from gui.shared.events import LobbySimpleEvent
+from helpers import dependency
+from helpers.events_handler import EventsHandler
+from shared_utils import safeExecute
+from skeletons.gui.impl import IGuiLoader, INotificationWindowController
+if typing.TYPE_CHECKING:
+    from frameworks.wulf import Window
+    from gui.impl.pub.notification_commands import NotificationCommand
+_logger = logging.getLogger(__name__)
+
+class NotificationWindowController(INotificationWindowController, IGlobalListener, EventsHandler):
+    __gui = dependency.descriptor(IGuiLoader)
+
+    def __init__(self):
+        super(NotificationWindowController, self).__init__()
+        self.__activeQueue = []
+        self.__postponedQueue = []
+        self.__locks = set()
+        self.__currentWindow = None
+        self.__callbackID = None
+        self.__isWaitingShown = False
+        self.__processAfterWaiting = False
+        self.__isLobbyLoaded = False
+        self.__accountID = 0
+        self.__isExecuting = False
+        self.onPostponedQueueUpdated = Event.SafeEvent()
+        return
+
+    @property
+    def postponedCount(self):
+        return len(self.__postponedQueue)
+
+    @property
+    def activeQueueLength(self):
+        return len(self.__activeQueue)
+
+    def init(self):
+        self._subscribe()
+        return
+
+    def fini(self):
+        self._unsubscribe()
+        self.stopGlobalListening()
+        self.clear()
+        self.onPostponedQueueUpdated.clear()
+        return
+
+    def onLobbyInited(self, event):
+        self.startGlobalListening()
+        self.__isLobbyLoaded = True
+        self.__updateEnabled()
+        self.__notifyWithPostponedQueueCount()
+        if self.isEnabled():
+            self.__processNext()
+        return
+
+    def onAvatarBecomePlayer(self):
+        self.__isLobbyLoaded = False
+        self.stopGlobalListening()
+        self.__updateEnabled()
+        if not self.hasLock(__name__):
+            self.lock(__name__)
+        return
+
+    def onDisconnected(self):
+        self.__isLobbyLoaded = False
+        self.stopGlobalListening()
+        self.__updateEnabled()
+        self.__activeQueue = self.__discardNonPersistentCommands(self.__activeQueue)
+        self.__postponedQueue = self.__discardNonPersistentCommands(self.__postponedQueue)
+        return
+
+    def onPrbEntitySwitched(self):
+        self.__updateEnabled()
+        return
+
+    def onEnqueued(self, queueType, *args):
+        self.__updateEnabled()
+        return
+
+    def onDequeued(self, queueType, *args):
+        self.__updateEnabled()
+        return
+
+    def onPlayerStateChanged(self, *args):
+        self.__updateEnabled()
+        return
+
+    def onUnitFlagsChanged(self, *args):
+        self.__updateEnabled()
+        return
+
+    def clear(self):
+        _logger.debug(b'Clear queues.')
+        self.__clearCallback()
+        self.__processAfterWaiting = False
+        for command in self.__activeQueue:
+            command.fini()
+
+        for command in self.__postponedQueue:
+            command.fini()
+
+        del self.__activeQueue[:]
+        del self.__postponedQueue[:]
+        self.__locks.clear()
+        return
+
+    def append(self, command):
+        _logger.debug(b'Append %r', command)
+        command.init()
+        self.__removeSameInstance(command)
+        self.__activeQueue.append(command)
+        self.__tryProcess()
+        return
+
+    def releasePostponed(self):
+        _logger.debug(b'Releasing the postponed queue.')
+        if self.isEnabled():
+            self.__activeQueue.extend(self.__postponedQueue)
+            del self.__postponedQueue[:]
+            self.__destroyCurrentWindow()
+            self.__processNext()
+            self.__notifyWithPostponedQueueCount()
+        else:
+            _logger.info(b'Notifications queue is currently disabled.')
+        return
+
+    def postponeActive(self):
+        _logger.debug(b'Postpone the active queue.')
+        self.__clearCallback()
+        if self.__locks:
+            _logger.info(b'Attempting to postpone active queue while locked.')
+            return
+        if not self.__activeQueue:
+            return
+        self.__postponedQueue.extend(self.__activeQueue)
+        del self.__activeQueue[:]
+        self.__notifyWithPostponedQueueCount()
+        return
+
+    def isEnabled(self):
+        if not self.__isLobbyLoaded or self.prbDispatcher is None:
+            return False
+        return not self.prbDispatcher.getFunctionalState().isNavigationDisabled()
+
+    def isExecuting(self):
+        return self.__isExecuting
+
+    def hasWindow(self, window):
+        command = WindowNotificationCommand(window)
+        return window == self.__currentWindow or command in self.__activeQueue or command in self.__postponedQueue
+
+    def lock(self, key):
+        _logger.info(b'Notifications locked, key = %s', key)
+        self.__locks.add(key)
+        return
+
+    def unlock(self, key):
+        _logger.info(b'Notifications unlocked, key = %s', key)
+        self.__locks.remove(key)
+        self.__tryProcess()
+        return
+
+    def hasLock(self, key):
+        return key in self.__locks
+
+    def _getListeners(self):
+        return (
+         (
+          LobbySimpleEvent.WAITING_SHOWN, self.__onWaitingShown, EVENT_BUS_SCOPE.LOBBY),
+         (
+          LobbySimpleEvent.WAITING_HIDDEN, self.__onWaitingHidden, EVENT_BUS_SCOPE.LOBBY),
+         (
+          LobbySimpleEvent.BATTLE_RESULTS_PROCESSED, self.__onBattleResultsProcessed, EVENT_BUS_SCOPE.LOBBY))
+
+    def _getEvents(self):
+        return (
+         (
+          g_playerEvents.onAccountShowGUI, self.__onAccountShowGUI),
+         (
+          self.__gui.windowsManager.onWindowStatusChanged, self.__onWindowStatusChanged))
+
+    def __onAccountShowGUI(self, ctx):
+        dbID = ctx[b'databaseID']
+        if self.__accountID != dbID:
+            self.__accountID = dbID
+            self.clear()
+        if not self.hasLock(__name__):
+            self.lock(__name__)
+        return
+
+    def __onBattleResultsProcessed(self, _):
+        if self.hasLock(__name__):
+            self.unlock(__name__)
+        return
+
+    @staticmethod
+    def __discardNonPersistentCommands(queue):
+        result = []
+        for cmd in queue:
+            if cmd.isPersistent:
+                result.append(cmd)
+            else:
+                _logger.debug(b'Throwing away non-persistent notification command: %s', cmd)
+                cmd.fini()
+
+        return result
+
+    def __tryProcess(self):
+        if not self.__locks:
+            if self.isEnabled():
+                self.__processNext()
+            elif self.__isLobbyLoaded:
+                self.postponeActive()
+        return
+
+    def __updateEnabled(self):
+        if not self.isEnabled() and not self.__locks:
+            self.postponeActive()
+            self.__destroyCurrentWindow()
+            self.__clearCallback()
+            self.__processAfterWaiting = False
+        return
+
+    def __notifyWithPostponedQueueCount(self):
+        self.onPostponedQueueUpdated(self.postponedCount)
+        return
+
+    def __onWindowStatusChanged(self, uniqueID, newState):
+        window = self.__gui.windowsManager.getWindow(uniqueID)
+        if newState in (WindowStatus.LOADING, WindowStatus.DESTROYING):
+            self.__removeSameInstance(WindowNotificationCommand(window))
+        if newState == WindowStatus.DESTROYING and self.__currentWindow == window:
+            self.__currentWindow = None
+        elif newState == WindowStatus.DESTROYED:
+            self.__processNext()
+        return
+
+    def __processNext(self):
+        self.__processAfterWaiting = True
+        if self.__callbackID is None and self.__activeQueue and not self.__isWaitingShown and not self.__locks:
+            self.__callbackID = BigWorld.callback(0, self.__processNextCallback)
+        return
+
+    def __processNextCallback(self):
+        self.__callbackID = None
+        if not self.__activeQueue or self.__isWaitingShown:
+            return
+        self.__processAfterWaiting = False
+        if self.isEnabled() and not self.__locks and not self.__gui.windowsManager.findWindows(self.__overlappingWindowsPredicate):
+            command = self.__activeQueue.pop(0)
+            _logger.debug(b'Executing next command: %r', command)
+            self.__currentWindow = command.getWindow()
+            self.__isExecuting = True
+            safeExecute(command.execute)
+            self.__isExecuting = False
+        return
+
+    def __destroyCurrentWindow(self):
+        if self.__currentWindow is not None:
+            self.__currentWindow.destroy()
+        return
+
+    def __removeSameInstance(self, command):
+        if command in self.__activeQueue:
+            self.__activeQueue.remove(command)
+        if command in self.__postponedQueue:
+            self.__postponedQueue.remove(command)
+        return
+
+    def __onWaitingShown(self, _):
+        self.__isWaitingShown = True
+        self.__clearCallback()
+        return
+
+    def __onWaitingHidden(self, _):
+        self.__isWaitingShown = False
+        if self.__processAfterWaiting:
+            self.__processNext()
+        return
+
+    def __clearCallback(self):
+        if self.__callbackID is not None:
+            BigWorld.cancelCallback(self.__callbackID)
+            self.__callbackID = None
+        return
+
+    @staticmethod
+    def __overlappingWindowsPredicate(window):
+        return window.windowStatus in (WindowStatus.LOADING, WindowStatus.LOADED) and window.layer in (
+         WindowLayer.OVERLAY, WindowLayer.TOP_WINDOW, WindowLayer.FULLSCREEN_WINDOW)

@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "自行反坦克炮奖励"
+
+msgid "awards/class/SPG"
+msgstr "自行火炮奖励"
+
+msgid "awards/class/heavyTank"
+msgstr "重型坦克奖励"
+
+msgid "awards/class/lightTank"
+msgstr "轻型坦克奖励"
+
+msgid "awards/class/mediumTank"
+msgstr "中型坦克奖励"
+
+msgid "awards/level"
+msgstr "%(level)s级坦克奖励"
+
+msgid "awards/nation/china"
+msgstr "C系坦克奖励"
+
+msgid "awards/nation/czech"
+msgstr "J系坦克奖励"
+
+msgid "awards/nation/france"
+msgstr "F系坦克奖励"
+
+msgid "awards/nation/germany"
+msgstr "D系坦克奖励"
+
+msgid "awards/nation/japan"
+msgstr "R系坦克奖励"
+
+msgid "awards/nation/poland"
+msgstr "B系坦克奖励"
+
+msgid "awards/nation/sweden"
+msgstr "V系坦克奖励"
+
+msgid "awards/nation/uk"
+msgstr "Y系坦克奖励"
+
+msgid "awards/nation/usa"
+msgstr "M系坦克奖励"
+
+msgid "awards/nation/ussr"
+msgstr "S系坦克奖励"
+
+msgid "awards/tooltip/class"
+msgstr "点击显示此类型坦克的奖励。"
+
+msgid "awards/tooltip/level"
+msgstr "点击显示此等级坦克的奖励。"
+
+msgid "awards/tooltip/nation"
+msgstr "点击显示此系别坦克的奖励。"
+
+msgid "awards/vehicle"
+msgstr "所选坦克的奖励"
+
+msgid "badge/tooltip/description"
+msgstr "奖章是一种独特的图标，将在战斗中显示于您的昵称旁边。两队的玩家都能看到它。"
+
+msgid "badgesGroup/tooltip/header"
+msgstr "纪念奖章"
+
+msgid "block/award"
+msgstr "主要奖励"
+
+msgid "block/objective"
+msgstr "条件"
+
+msgid "block/task"
+msgstr "任务"
+
+msgid "button/awards"
+msgstr "所有奖励"
+
+msgid "button/awards/tooltip"
+msgstr "点击显示全部的战备竞赛奖励列表。"
+
+msgid "button/regulations"
+msgstr "要求"
+
+msgid "button/regulations/tooltip"
+msgstr "点击显示战备竞赛的完整描述。"
+
+msgid "condition/battletype/random"
+msgstr "15对15标准模式"
+
+msgid "condition/battletype/ranked"
+msgstr "排位赛"
+
+msgid "condition/battletype/squadallowed"
+msgstr "允许组队"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "不允许组队"
+
+msgid "condition/primetime/any"
+msgstr "任意服务器和时间"
+
+msgid "condition/primetime/chosen"
+msgstr "仅适用于指定的服务器"
+
+msgid "condition/vehicle/chosen"
+msgstr "仅适用于指定的坦克:"
+
+msgid "condition/vehicle/exist"
+msgstr "在车库中"
+
+msgid "condition/vehicle/missing"
+msgstr "不在车库中"
+
+msgid "condition/vehicle/single"
+msgstr "使用%(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "奖励"
+
+msgid "excel/btnClose"
+msgstr "前往战备竞赛"
+
+msgid "excel/group/title"
+msgstr "段位"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "登上排行榜所需战斗场次:%(number)s"
+
+msgid "excel/noData"
+msgstr "尚未取得获奖名次。"
+
+msgid "excel/participate/join"
+msgstr "参战"
+
+msgid "excel/participate/notParticipated"
+msgstr "您还没有在此排行榜中取得名次"
+
+msgid "excel/subHeader"
+msgstr "战备竞赛: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "加入"
+
+msgid "header/participate/button/leave"
+msgstr "退出战备竞赛"
+
+msgid "header/participate/finished"
+msgstr "战备竞赛已结束"
+
+msgid "header/participate/notStarted"
+msgstr "您已加入"
+
+msgid "header/participate/reason/byAge"
+msgstr "账号创建于%date%之后"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "战备竞赛不可用"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "您已退出此战备竞赛"
+
+msgid "header/participate/started"
+msgstr "您正在参与"
+
+msgid "header/timer"
+msgstr "剩余时间:"
+
+msgid "maintenance/body"
+msgstr "给您造成的不便，我们深表歉意。"
+
+msgid "maintenance/title"
+msgstr "加载数据时出错"
+
+msgid "maintenance/update"
+msgstr "更新"
+
+msgid "notification/buttons/details"
+msgstr "详情"
+
+msgid "notification/eventFinished/body"
+msgstr "%(eventName)s战备竞赛已结束。获胜者奖励将在接下来几天内统计并发放。"
+
+msgid "notification/eventFinished/header"
+msgstr "战备竞赛已结束"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "您的战斗结果已被计入战备竞赛，因此您可以在排行榜中取得名次并获得奖励。"
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "您已加入成为参赛者"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "您的战斗结果伴随战备竞赛开始计数，因此您可以在排行榜中取得名次并获得奖励。"
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "您已加入成为参赛者"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "无法作为参赛者加入:不符合要求。"
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "无法作为参赛者加入:注册时间已结束。"
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "战备竞赛中的统计信息将在排行榜更新后重置。"
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "您已退出战备竞赛"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "您的统计信息不会计入此次战备竞赛。"
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "您已退出战备竞赛"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "退出战备竞赛失败:分配时间已过期。"
+
+msgid "notification/eventStarted/body"
+msgstr "%(eventName)s战备竞赛已开始！在战备竞赛结束时取得获奖名次的玩家将获得丰富奖励。"
+
+msgid "notification/eventStarted/header"
+msgstr "战备竞赛已开始"
+
+msgid "notification/unknownError/body"
+msgstr "无法完成操作。"
+
+msgid "orders/title"
+msgstr "要求"
+
+msgid "popover/buttons/cancel"
+msgstr "取消"
+
+msgid "popover/buttons/rating"
+msgstr "前往排行榜"
+
+msgid "popover/buttons/select"
+msgstr "选择"
+
+msgid "popover/noVehicles"
+msgstr "筛选中没有匹配的坦克。"
+
+msgid "popover/resetFilter"
+msgstr "恢复默认"
+
+msgid "popover/title"
+msgstr "选择排行榜"
+
+msgid "popover/title/vehicle"
+msgstr "选择排行榜"
+
+msgid "popover/tooltip/class"
+msgstr "前往所选类型坦克排行榜。"
+
+msgid "popover/tooltip/level"
+msgstr "前往所选等级坦克排行榜。"
+
+msgid "popover/tooltip/nation"
+msgstr "前往所选系别坦克排行榜。"
+
+msgid "server/list"
+msgstr "切换至以下服务器来使您的战斗计入战备竞赛:"
+
+msgid "server/noSuitable/body"
+msgstr "战斗结果将于%(data)s计数。战备竞赛时间表"
+
+msgid "server/noSuitable/header"
+msgstr "目前的战斗结果未计入战备竞赛"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s在%(server)s上"
+
+msgid "status/bestResults/many"
+msgstr "我的最佳结果"
+
+msgid "status/bestResults/one"
+msgstr "我的结果"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "战备竞赛暂不可用:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "由于违反了游戏规则，您不能参加本次战备竞赛"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "账号在%(date)s之后创建"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "在标准模式中，您还没有进行过所需的%(number)s场次的战斗"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "标准模式中的胜率超过%(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "您在标准模式中尚未达到以下胜率:%(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "注册期结束"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "您不能参与本次战备竞赛。"
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "您已退出此战备竞赛"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "您的战斗结果已经不再计入本次战备竞赛。您将无法在排行榜中取得名次并获得奖励。\n您无法再次进入本次战备竞赛。"
+
+msgid "status/cantJoin/reason/many"
+msgstr "没有满足要求%(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "没有满足要求(%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "您没有在排行榜中取得名次"
+
+msgid "status/cantJoin/reason/special"
+msgstr "您不能使用这个账号参与战备竞赛。"
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "没有满足要求的坦克"
+
+msgid "status/participate/cantJoin"
+msgstr "战备竞赛不可用"
+
+msgid "status/participate/needMoreBattles"
+msgstr "战斗中满足指定的要求，您的结果将在排行榜更新后显示在此处。"
+
+msgid "status/participate/notParticipated"
+msgstr "您没有参加竞赛"
+
+msgid "summary/averagedamage"
+msgstr "平均损伤"
+
+msgid "summary/averagedamageassisted"
+msgstr "平均协助损伤"
+
+msgid "summary/averagexp"
+msgstr "平均经验"
+
+msgid "summary/battles"
+msgstr "战备竞赛参战数"
+
+msgid "summary/damage"
+msgstr "损伤"
+
+msgid "summary/damageassist"
+msgstr "协助损伤"
+
+msgid "summary/damageblocked"
+msgstr "抵挡损伤"
+
+msgid "summary/description/awards/title/award"
+msgstr "战备竞赛结束时的奖励"
+
+msgid "summary/description/awards/title/group"
+msgstr "段位"
+
+msgid "summary/description/awards/title/position"
+msgstr "排名"
+
+msgid "summary/description/max/class"
+msgstr "使用%(value)s最佳的一场战斗"
+
+msgid "summary/description/max/level"
+msgstr "使用%(value)s级坦克最佳的一场战斗"
+
+msgid "summary/description/max/nation"
+msgstr "使用%(value)s坦克在战备竞赛中的统计"
+
+msgid "summary/description/max/vehicle"
+msgstr "使用%(value)s最佳的一场战斗"
+
+msgid "summary/description/sum/class"
+msgstr "使用%(value)s在战备竞赛中的统计"
+
+msgid "summary/description/sum/level"
+msgstr "使用%(value)s级坦克在战备竞赛中的统计"
+
+msgid "summary/description/sum/nation"
+msgstr "使用%(value)s坦克在战备竞赛中的统计"
+
+msgid "summary/description/sum/vehicle"
+msgstr "使用下列坦克在战备竞赛中的统计:%(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "使用%(value)s最佳的连续战斗"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "使用%(value)s级坦克最佳的连续战斗"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "使用%(value)s坦克最佳的连续战斗"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "使用%(value)s最佳的连续战斗"
+
+msgid "summary/description/sumN/class"
+msgstr "使用%(value)s最佳的战斗"
+
+msgid "summary/description/sumN/level"
+msgstr "使用%(value)s级坦克最佳的战斗"
+
+msgid "summary/description/sumN/nation"
+msgstr "使用%(value)s坦克最佳的战斗"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "使用%(value)s最佳的战斗"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "使用%(value)s最佳的连续战斗"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "使用%(value)s级坦克最佳的连续战斗"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "使用%(value)s坦克最佳的连续战斗"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "使用%(value)s最佳的连续战斗"
+
+msgid "summary/destroyedvehicles"
+msgstr "击毁敌方坦克数"
+
+msgid "summary/fightInSquaad"
+msgstr "组队战斗"
+
+msgid "summary/fightNotInSquaad"
+msgstr "非组队战斗"
+
+msgid "summary/originalXP"
+msgstr "基础经验"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "玩家协助造成的损伤"
+
+msgid "summary/param/max/damageDealt"
+msgstr "损伤"
+
+msgid "summary/param/max/originalXP"
+msgstr "基础经验"
+
+msgid "summary/param/max/xp"
+msgstr "经验"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "玩家协助造成的平均损伤"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "平均损伤"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "平均基础经验"
+
+msgid "summary/param/sumAll/wins"
+msgstr "胜率"
+
+msgid "summary/param/sumAll/xp"
+msgstr "平均经验"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "玩家协助造成的平均损伤"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "总损伤"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "总基础经验"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "总经验"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "玩家协助造成的总损伤"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "总损伤"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "总基础经验"
+
+msgid "summary/param/sumN/xp"
+msgstr "总经验"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "玩家协助造成的平均损伤"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "总损伤"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "总基础经验"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "总经验"
+
+msgid "summary/position"
+msgstr "排行榜中的排名:%(position)s"
+
+msgid "summary/result/draw"
+msgstr "平局"
+
+msgid "summary/result/loss"
+msgstr "被击败"
+
+msgid "summary/result/win"
+msgstr "胜利"
+
+msgid "summary/status"
+msgstr "更新日期:%(day)s, 时间:%(time)s"
+
+msgid "summary/winrate"
+msgstr "胜率"
+
+msgid "table/header/player"
+msgstr "玩家"
+
+msgid "table/header/position"
+msgstr "名次"
+
+msgid "table/selectParticipateBtn"
+msgstr "退出战备竞赛"
+
+msgid "table/selectRatingBtn"
+msgstr "选择排行榜"
+
+msgid "table/selectRegistrationBtn"
+msgstr "加入成为参赛者"
+
+msgid "table/stripe/bronze/title"
+msgstr "段位 III(排名%(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "段位 I(排名%(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "段位 I"
+
+msgid "table/stripe/iron/title"
+msgstr "段位 IV(排名%(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "段位 II(排名%(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "未获得名次"
+
+msgid "task/eventtype/all"
+msgstr "所有参赛者的标准排行榜"
+
+msgid "task/eventtype/class"
+msgstr "每个类型的坦克都有专属排行榜"
+
+msgid "task/eventtype/level"
+msgstr "每个等级的坦克都有专属排行榜"
+
+msgid "task/eventtype/nation"
+msgstr "每个系别的坦克都有专属排行榜"
+
+msgid "task/eventtype/vehicle"
+msgstr "每辆坦克都有专属排行榜"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "登上协助损伤排行榜"
+
+msgid "task/objective/max/damageDealt"
+msgstr "登上损伤排行榜"
+
+msgid "task/objective/max/originalXP"
+msgstr "登上基础经验排行榜"
+
+msgid "task/objective/max/xp"
+msgstr "登上经验排行榜"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "登上总协助损伤排行榜"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "登上总损伤排行榜"
+
+msgid "task/objective/sum/originalXP"
+msgstr "登上总基础经验排行榜"
+
+msgid "task/objective/sum/wins"
+msgstr "在胜率排行榜中取得名次"
+
+msgid "task/objective/sum/xp"
+msgstr "登上总经验排行榜"
+
+msgid "task/objparam/damageAssisted"
+msgstr "协助损伤"
+
+msgid "task/objparam/damageDealt"
+msgstr "造成损伤"
+
+msgid "task/objparam/originalXP"
+msgstr "获得的基础经验"
+
+msgid "task/objparam/wins"
+msgstr "胜场"
+
+msgid "task/objparam/xp"
+msgstr "经验"
+
+msgid "task/selection/max"
+msgstr "您的最佳战斗被计数"
+
+msgid "task/selection/sumAll"
+msgstr "您的全部战斗被计数"
+
+msgid "task/selection/sumMSeqN"
+msgstr "连续战斗中最佳的(%(cardinality)s)场被计数。连续战斗:%(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "统计数据的最佳战斗场次: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "你的最佳连续战斗已记录。连续战斗场次:%(cardinality)s"
+
+msgid "time/day/today"
+msgstr "今天"
+
+msgid "time/day/tomorrow"
+msgstr "明天"
+
+msgid "time/day/yesterday"
+msgstr "昨天"
+
+msgid "time/eventFinished"
+msgstr "战备竞赛结束日期: %(date)s"
+
+msgid "time/period/day"
+msgstr "天"
+
+msgid "time/period/hour"
+msgstr "小时"
+
+msgid "time/period/minute"
+msgstr "分钟"
+
+msgid "time/timeTo/end"
+msgstr "剩余时间: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "注册剩余时间: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "开始倒计时: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "奖励在战备竞赛结束后获得，取决于您在排行榜中的名次。\n点击\"所有奖励\"来查看本次战备竞赛中的全部奖励列表。"
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "计算的经验不包含高级账号、金币坦克、个人储备、首胜经验等在内的特殊加成。"
+
+msgid "tooltip/top/amount/xp"
+msgstr "计算的经验不包含金币坦克、个人储备、首胜经验等在内的特殊加成。\n高级账号的经验加成计算在内。"
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "玩家协助造成损伤的最后一名奖励名次: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "玩家造成损伤的最后一名奖励名次: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "玩家获得基础经验的最后一名奖励名次: %(number)s\n计算的经验不包含高级账号、金币坦克、个人储备、首胜经验等在内的特殊加成。"
+
+msgid "tooltip/top/description/max/xp"
+msgstr "获得经验的最后一名奖励名次: %(number)s\n计算的经验不包含金币坦克、个人储备、首胜经验等在内的特殊加成。\n高级账号的经验加成计算在内。"
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "玩家协助造成总损伤的最后一名奖励名次: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "玩家造成总损伤的最后一名奖励名次: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "玩家获得总基础经验的最后一名奖励名次: %(number)s\n计算的经验不包含高级账号、金币坦克、个人储备、首胜经验等在内的特殊加成。"
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "玩家胜场的最后一名奖励名次: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "获得总经验的最后一名奖励名次: %(number)s\n计算的经验不包含金币坦克、个人储备、首胜经验等在内的特殊加成。\n高级账号的经验加成计算在内。"
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "未获得名次"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "段位 %(group)s(排名%(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "获得平均经验的最后一名奖励名次:"
+
+msgid "top/participation/notParticipated"
+msgstr "您没有参与这个排行榜"
+
+msgid "top/participation/notfull"
+msgstr "您没有在排行榜中取得名次"
+
+msgid "top/participation/notintop"
+msgstr "您不在奖励排名区间内"
+
+msgid "top/position"
+msgstr "您的排名:"
+
+msgid "top/reason/notfull"
+msgstr "登上排行榜所需战斗场次:"
+
+msgid "vehicles/level"
+msgstr "%(level)s级坦克"
+
+msgid "vehicles/tooltip/class"
+msgstr "点击显示参加战备竞赛的该类型的坦克。"
+
+msgid "vehicles/tooltip/level"
+msgstr "点击显示参加战备竞赛的该等级的坦克。"
+
+msgid "vehicles/tooltip/nation"
+msgstr "点击显示参加战备竞赛的该系别的坦克。"
+
+msgid "vehicles/vehicle"
+msgstr "适用的坦克"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "点击显示适用于战备竞赛的坦克列表。"

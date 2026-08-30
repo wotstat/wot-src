@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "扩充"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "解雇训练不足的乘员"
+
+msgid "barracks/bunks/title"
+msgstr "床位:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "输入要购买的床位数量。兵营中的空余床位: %(freeBunksCount)s/%(allBunksCount)s。"
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "折扣"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "现价: 每%(bunksCount)s个床位%(currency)s"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "原价: 每%(bunksCount)s个床位%(currency)s"
+
+msgid "barracks/enlarge/header"
+msgstr "扩充兵营？"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "您可以解雇兵营中训练不足的乘员——这些乘员拥有的经验低于{whiteSpanish_Open}210060{whiteSpanish_Close}{icon}，无法将首项特长训练至{whiteSpanish_Open}100%{whiteSpanish_Close}。"
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "训练不足的乘员"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "您没有训练不足的乘员"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "解雇训练不足的乘员不会获得任何补偿。一经解雇，乘员将无法恢复，其所有经验也将丢失。"
+
+msgid "barracks/title"
+msgstr "兵营"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "点击扩充兵营。"
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "扩充兵营"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "位置"
+
+msgid "common/imageNotAvailable"
+msgstr "图像不可用"
+
+msgid "common/inBarracks"
+msgstr "在兵营中"
+
+msgid "common/inBattle"
+msgstr "战斗中"
+
+msgid "common/inPrebattle"
+msgstr "在小队中"
+
+msgid "common/navigation/aboutCrew"
+msgstr "关于乘员"
+
+msgid "common/navigation/toBarracks"
+msgstr "前往兵营"
+
+msgid "common/navigation/toGarage"
+msgstr "前往车库"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "前往档案"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "收到！"
+
+msgid "conversionAwards/buttonNote"
+msgstr "您的乘员已转换成乘员手册。"
+
+msgid "conversionAwards/title"
+msgstr "转换成功"
+
+msgid "conversionAwards/underTitle"
+msgstr "下列物品已添加至您的账号。"
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "取消"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "解雇"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "将被解雇的乘员: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "解雇训练不足的乘员？"
+
+msgid "conversionConfirm/warning"
+msgstr "解雇训练不足的乘员不会获得任何补偿。一经解雇，乘员将无法恢复，其所有经验也将丢失。"
+
+msgid "crewBanner/button/fill/label"
+msgstr "自动选择特长"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "没有未训练特长的乘员。"
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "无法自动选择特长"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "全部乘员标有\"加号\"的未训练特长，都将替换为按特殊机制自动选择的特长。"
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "自动选择全部乘员的未训练特长"
+
+msgid "crewBanner/button/reset/label"
+msgstr "重置全部乘员的特长"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "没有已训练特长的乘员。"
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "无法重置特长"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "您账号中全部乘员的所有特长都将被重置。该操作无法撤消。"
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "重置全部乘员的特长"
+
+msgid "crewBanner/infoText"
+msgstr "免费为您账号中的全部乘员重置特长，或自动选择未训练的特长"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "已开启加速乘员训练"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "效率加成: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "特长效率"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "由于该乘员没有接受这辆坦克的相关训练，特长不可用。"
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "专精:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "特长不可用"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "附加特长:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "主要专业特长:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(C系)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(J系)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(F系)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(D系)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(I系)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(R系)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(B系)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(V系)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Y系)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(M系)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(S系)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "全部金币自行反坦克炮{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "全部金币自行火炮{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "全部金币重型坦克{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "全部金币轻型坦克{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "全部金币中型坦克\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "详情"
+
+msgid "filter/group/details/title"
+msgstr "详情"
+
+msgid "filter/group/nation/title"
+msgstr "系别"
+
+msgid "filter/group/other/title"
+msgstr "其他"
+
+msgid "filter/group/special/title"
+msgstr "特殊"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "专业"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "等级"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "等级"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "专精"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "坦克类型"
+
+msgid "filter/popup/button/title"
+msgstr "筛选"
+
+msgid "filter/popup/default/title"
+msgstr "筛选"
+
+msgid "filter/popup/skinChange/title"
+msgstr "按系别筛选"
+
+msgid "filter/popup/tankChange/title"
+msgstr "按坦克筛选"
+
+msgid "filter/reset"
+msgstr "重置筛选"
+
+msgid "filter/search/placeholder"
+msgstr "按名称搜索"
+
+msgid "filter/search/tooltip/header"
+msgstr "按名称搜索"
+
+msgid "filter/title"
+msgstr "显示:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "显示/隐藏所有已研发自身全部模块和相连研发分支的坦克中的乘员。"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "精英坦克"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "显示/隐藏接受金币坦克训练的乘员。"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "金币坦克"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "显示/隐藏主力坦克中的乘员。"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "主力坦克"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "显示/隐藏适合此类型坦克的乘员。"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "显示/隐藏此系别的乘员。"
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "显示/隐藏此系别的皮肤。"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "显示/隐藏此系别的坦克。"
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "显示/隐藏已解雇的乘员。"
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "已解雇"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "显示新兵。"
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "新兵"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "显示乘员。"
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "乘员"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "显示/隐藏此专业的乘员。"
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "显示/隐藏金币坦克。"
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "金币坦克"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "显示/隐藏此类型的坦克。"
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "自行反坦克炮"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "自行火炮"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "重型坦克"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "轻型坦克"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "中型坦克"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "没有找到满足\n搜索条件的坦克"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "按坦克名称排序。"
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "名称"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "按坦克等级排序。"
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "等级"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "按坦克类型排序。"
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "类型"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "名称"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "点击重置筛选条件。"
+
+msgid "filterPanel/counter/reset/header"
+msgstr "重置所有筛选"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "收到！"
+
+msgid "junkTankmen/description"
+msgstr "这些乘员拥有的经验低于{bond_Open}210060{bond_Close}{icon}，无法将首项特长训练至{whiteSpanish_Open}100%{whiteSpanish_Close}。\n他们将从您的账号中移除。"
+
+msgid "junkTankmen/title"
+msgstr "解雇训练不足的乘员？"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "每个额外专业的特长上限为{whiteSpanish_Open}3{whiteSpanish_Close}项。开始训练第{whiteSpanish_Open}1{whiteSpanish_Close}、{whiteSpanish_Open}3{whiteSpanish_Close}、{whiteSpanish_Open}5{whiteSpanish_Close}项主要专业特长时，新的附加特长就会解锁。"
+
+msgid "matrix/bonusTooltip/header"
+msgstr "附加特长"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "为另一辆坦克再训练乘员时，如果专业设置不同，您可再次为乘员的新额外专业选择特长。"
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "附加特长的训练速度是主要专业特长的1/2。"
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "训练附加特长无需花费经验。"
+
+msgid "matrix/freeResetButton"
+msgstr "免费重置"
+
+msgid "matrix/increaseButton"
+msgstr "快速训练"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "乘员已达到训练上限。"
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "无法快速训练"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "使用全局经验和乘员手册训练特长。"
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "快速训练"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "专业不符"
+
+msgid "matrix/qualification/1"
+msgstr "主要专业"
+
+msgid "matrix/qualification/2"
+msgstr "第二专业"
+
+msgid "matrix/qualification/3"
+msgstr "第三专业"
+
+msgid "matrix/qualification/4"
+msgstr "第四专业"
+
+msgid "matrix/qualification/5"
+msgstr "第五专业"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "第二专业无法训练零历练特长"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "第三专业无法训练零历练特长"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "第四专业无法训练零历练特长"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "第二专业在该坦克上无效"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "第三专业在该坦克上无效"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "第四专业在该坦克上无效"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "第五专业在该坦克上无效"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "每个额外专业的特长上限为{whiteSpanish_Open}3{whiteSpanish_Close}项。只有与该专业相关的特长才能被选为附加特长。"
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "主要专业的特长上限为{whiteSpanish_Open}6{whiteSpanish_Close}项(包括零历练特长)。"
+
+msgid "matrix/resetButton"
+msgstr "重置"
+
+msgid "matrix/resetButtonHint"
+msgstr "点击重置特长"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "您没有训练完成的特长。"
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "无法重置特长"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "点击重置特长。"
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "重置特长"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "可训练的附加特长"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "训练附加特长无需花费乘员经验。"
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "不可用"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "训练第3项主要专业特长时解锁。无需花费经验。"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "训练第5项主要专业特长时解锁。无需花费经验。"
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "训练水平"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "所需的经验总量已获得折扣，因为该乘员拥有1项零历练特长。"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "所需的经验总量已获得折扣，因为该乘员拥有2项零历练特长。"
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "可训练的特长"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "不可用"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "前一项特长必须训练至100%。"
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "可训练的零历练特长"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "即使同时选择了数项特长，系统也总是会先训练零历练特长。训练零历练特长无需花费乘员经验。"
+
+msgid "matrix/skills/allSkills"
+msgstr "已训练了该坦克的所有额外特长"
+
+msgid "matrix/skills/available"
+msgstr "可训练的特长:"
+
+msgid "matrix/skills/bonus"
+msgstr "附加特长"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount}/{totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "特长不可用"
+
+msgid "matrix/skills/locked"
+msgstr "特长不可用"
+
+msgid "matrix/skills/main/disabled"
+msgstr "该乘员的所有特长在该坦克上无法生效"
+
+msgid "matrix/skills/main/enabled"
+msgstr "主要专业特长"
+
+msgid "matrix/skills/reduced"
+msgstr "特长效率已降低"
+
+msgid "matrix/skills/roles/commander"
+msgstr "车长特长"
+
+msgid "matrix/skills/roles/driver"
+msgstr "驾驶员特长"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "车长特长"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "驾驶员特长"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "炮手特长"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "装填手特长"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "通信兵特长"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "炮手特长"
+
+msgid "matrix/skills/roles/loader"
+msgstr "装填手特长"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "通信兵特长"
+
+msgid "matrix/skills/training"
+msgstr "特长训练"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "可训练的零历练特长:"
+
+msgid "memberChange/action/recruit"
+msgstr "招募{role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}%的更改专业折扣"
+
+msgid "memberChange/title"
+msgstr "选择{role}: {vehicle}"
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}仓库中{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "确认后，转移经验的乘员将从您的账号中移除。"
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "授业许可让您可以将一名乘员的乘员经验转移至同系别的另一名乘员。"
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "授业许可"
+
+msgid "personalData/card/edit"
+msgstr "编辑"
+
+msgid "personalData/card/remove"
+msgstr "移除"
+
+msgid "personalData/card/restrictions"
+msgstr "限制: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "点击更改乘员姓名和外观。"
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "外观"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "该乘员已拥有独特姓名和外观。"
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "无法更改乘员姓名和外观。"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "未找到。更改条件或重置筛选。"
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "设置按系别显示皮肤。"
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "按参数筛选"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "显示证件。"
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "证件"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "显示合适的皮肤。"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "合适的皮肤"
+
+msgid "personalData/filter/type/title"
+msgstr "类型"
+
+msgid "personalData/title"
+msgstr "更改姓名和外观"
+
+msgid "personalFile/changeVehicle"
+msgstr "更换"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "该乘员无法接受不同坦克的训练。"
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "操作不可用"
+
+msgid "personalFile/discount/full"
+msgstr "可享受乘员再训练折扣"
+
+msgid "personalFile/discount/short"
+msgstr "可享受折扣"
+
+msgid "personalFile/inVehicle"
+msgstr "服役于: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "提升"
+
+msgid "personalFile/isUntrained"
+msgstr "不具备该坦克的专精"
+
+msgid "personalFile/premiumVehicle"
+msgstr "全部{icon}金币坦克"
+
+msgid "personalFile/retrain"
+msgstr "再训练"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "特长效率:"
+
+msgid "personalFile/specialization"
+msgstr "专精:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "专精"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "点击试听该指挥官的专属语音示例。"
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "专属语音"
+
+msgid "postProgression/button/claim"
+msgstr "领取奖励"
+
+msgid "postProgression/description"
+msgstr "将所有6项主要专业特长训练完毕的全部乘员，均会解锁著书立传。在著书立传阶段每获得100000点经验，您即可获得1本通用指南，用来训练其他乘员。"
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close}{par_Open}/%(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "著书立传由一个统一的进度条构成，适用于玩家账号内已训练完6项主要专业特长的所有乘员。"
+
+msgid "postProgression/tips/2"
+msgstr "只有战斗经验才会计入著书立传。乘员在战斗中所获战斗经验的50%除以坦克乘员总数后，将填充至著书立传进度条。"
+
+msgid "postProgression/tips/3"
+msgstr "失去特长或特长效率经验池的经验不会影响著书立传。"
+
+msgid "postProgression/title"
+msgstr "乘员著书立传"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "解锁著书立传的所有乘员拥有较低的特长效率。"
+
+msgid "postProgression/warning/retire"
+msgstr "解锁著书立传的所有乘员已被解雇，或他们最后训练的特长失去了经验。"
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "全部金币自行反坦克炮"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "全部金币自行火炮"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "金币自行反坦克炮"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "金币自行火炮"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "金币重型坦克"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "金币轻型坦克"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "金币中型坦克"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "全部金币重型坦克"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "全部金币轻型坦克"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "全部金币中型坦克"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "奖励"
+
+msgid "serviceRecord/averageXP"
+msgstr "场均经验"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "战斗场次"
+
+msgid "serviceRecord/noAchievements"
+msgstr "未在战斗中获得战绩或勋章。"
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "乘员在当前服役坦克中所获总经验除以战斗场次的结果。"
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "场均经验"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "乘员的军衔取决于其经验和训练的特长数量。"
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "军衔"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "乘员此专业的特长数量已达上限"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "可训练的特长"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "该乘员的所有特长在该坦克上无法生效"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "训练额外专业特长无需花费经验，其训练速度是主要专业特长的1/2。"
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "取消"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "训练"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "额外专业"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "主要专业"
+
+msgid "tankChange/title"
+msgstr "更改坦克专精"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "在车库中显示坦克。"
+
+msgid "tankChange/tooltip/location/header"
+msgstr "在车库中"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "设置按类型和等级显示坦克。"
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "按参数筛选"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "乘员无需接受金币坦克的训练。您可以将乘员转移到相同类型的金币坦克上，没有处罚。"
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "金币坦克"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "坦克名称最长不得超过%(maxLength)s个字符。"
+
+msgid "tankman/action/dismiss/title"
+msgstr "解雇"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "解雇该乘员？"
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "无法解雇该乘员。"
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "操作不可用"
+
+msgid "tankman/action/recruit/title"
+msgstr "招募"
+
+msgid "tankman/action/restore/title"
+msgstr "恢复"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "恢复该乘员。"
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "点击试听该指挥官的专属语音示例。"
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "专属语音"
+
+msgid "tankman/recruit"
+msgstr "新兵"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "外观"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "档案"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "服役记录"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "招募"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "重置筛选"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "未找到。更改条件或重置筛选。"
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "未找到。招募乘员。"
+
+msgid "tankmanList/filter/title"
+msgstr "乘员:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "兵营中没有足够的床位。"
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "仅显示/隐藏已解雇的乘员。"
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "已解雇"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "显示兵营中的乘员。"
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "在兵营中"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "显示坦克中的乘员。"
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "在坦克中"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "显示/隐藏此系别的皮肤。"
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "设置按专业、专精和其他参数显示乘员。"
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "按参数筛选"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "招募一名新乘员。"
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "名称最长不得超过%(maxLength)s个字符。"
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*将鼠标移动至特长上方，即可查看按当前的特长效率水平，该特长在训练至100%熟练度后对相应参数所产生的效果。"
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "收到!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "每个专业都引入了2项全新特长，重制了可靠布局，并且新增了一个可在战斗平视显示系统中隐藏特长的选项。"
+
+msgid "welcomeScreen/item2/description"
+msgstr "一项便捷的全新操作，让您一键解雇训练不足的乘员。"
+
+msgid "welcomeScreen/item3/description"
+msgstr "现在可以只使用银币重置特长，而不会损失经验。"
+
+msgid "welcomeScreen/subTitle"
+msgstr "新增了全新特长和功能，并更新了一项现有特长。"
+
+msgid "welcomeScreen/title"
+msgstr "乘员系统更新"

@@ -1,0 +1,37 @@
+from frameworks.wulf import ViewModel
+from gui.impl.gen import R
+
+class ExternalPointsModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(ExternalPointsModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getPoints(self):
+        return self._getNumber(0)
+
+    def setPoints(self, value):
+        self._setNumber(0, value)
+        return
+
+    def getLabel(self):
+        return self._getResource(1)
+
+    def setLabel(self, value):
+        self._setResource(1, value)
+        return
+
+    def getIsActive(self):
+        return self._getBool(2)
+
+    def setIsActive(self, value):
+        self._setBool(2, value)
+        return
+
+    def _initialize(self):
+        super(ExternalPointsModel, self)._initialize()
+        self._addNumberProperty(b'points', 0)
+        self._addResourceProperty(b'label', R.invalid())
+        self._addBoolProperty(b'isActive', False)
+        return
